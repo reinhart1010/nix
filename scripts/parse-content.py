@@ -8,7 +8,7 @@ from yaml.parser import ParserError
 from yaml.scanner import ScannerError
 
 # Open the i18n-data first
-i18n = json.load(open("../i18n-data/data.json", "r"))
+i18n = json.load(open("i18n-data/data.json", "r"))
 
 def get_tldr_page_directory(lang: str):
   if lang == "en":
@@ -36,8 +36,8 @@ def extract_page(lang: str, page: str):
   global i18n
   hierarchy = page[:-3].split(sep="/")
   folder_name = get_tldr_page_directory(lang)
-  source_file = "../source/" + folder_name + "/" + page
-  target_file = "../" + lang + "/" + page
+  source_file = "source/" + folder_name + "/" + page
+  target_file = lang + "/" + page
   source = open(source_file, "r")
   target = open(target_file, "w+")
   current_locale = get_locale(lang)
@@ -60,7 +60,7 @@ def extract_page(lang: str, page: str):
     for translation in translations:
       locale = get_locale(translation)
       front_matter += "  - title: " + locale + " version\n"
-      front_matter += "    url: \{\{ site.url \}\}/" + lang + "/" + page[:-3] + ".html\n"
+      front_matter += "    url: /" + translation + "/" + page[:-3] + ".html\n"
       front_matter += "    icon: bi bi-globe\n"
       
   front_matter += "---\n"
@@ -69,37 +69,40 @@ def extract_page(lang: str, page: str):
     isOutdated = i18n["entries"][hierarchy[0]]["pages"][hierarchy[1]]["status"][lang]
     if isOutdated == 1:
       front_matter += "\n"
-      front_matter += "> ## Outdated Translation\n"
-      front_matter += "> This entry is currently considered outdated and its contents may not be up-to-date with other translations.\n"
-      front_matter += "> \n"
-      front_matter += "> Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.\n"
-      front_matter += "> <a class=\"btn btn-primary\" href=\"\{\{ site.url \}\}/en/" + page[:-3] + ".html\">View original (English) version</a> <a class=\"btn btn-primary\" href=\"https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md\">Contributing Guidelines</a>\n"
-    front_matter += "\n"
+      front_matter += "### Outdated Translation\n"
+      front_matter += "This entry is currently considered outdated and its contents may not be up-to-date with other translations.\n"
+      front_matter += "\n"
+      front_matter += "Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.\n"
+      front_matter += "\n"
+      front_matter += "<a class=\"btn btn-primary\" href=\"{{ site.url }}/en/" + page[:-3] + ".html\">View original (English) version</a>"
+      front_matter += "\n"
+      front_matter += "<a class=\"btn\" href=\"https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md\">Contributing Guidelines</a>\n"
+      front_matter += "\n<hr>"
   except KeyError:
     front_matter += "\n"
-    front_matter += "> This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.\n"
-    front_matter += "\n"
+    front_matter += "This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.\n"
+    front_matter += "\n<hr>"
 
   target.write(front_matter)
-  target.write("".join(content))
+  target.write("".join(content).replace("{{", "`<span class=\"tldr-var badge bg-dark-lm bg-white-lm text-white-lm text-dark-dm font-weight-bold\">(").replace("}}", ")</span>`").replace("``", "").replace("\n> ", "\n"))
 
   target.close()
 
   print("Finished generating page for " + lang + "/" + page)
 
 for lang in i18n["languages"]:
-  if not path.exists("../" + lang):
-    mkdir("../" + lang)
+  if not path.exists(lang):
+    mkdir(lang)
   
   for category in i18n["entries"]:
-    if not path.exists("../" + lang + "/" + category):
-      mkdir("../" + lang + "/" + category)
+    if not path.exists(lang + "/" + category):
+      mkdir(lang + "/" + category)
 
   
   folder_name = get_tldr_page_directory(lang)
-  for page in [path.join(dp.split(sep="/")[3], f) for dp, dn, fn in walk(path.expanduser("../source/" + folder_name)) for f in fn]:
-    source_file = "../source/" + folder_name + "/" + page
-    target_file = "../" + lang + "/" + page
+  for page in [path.join(dp.split(sep="/")[2], f) for dp, dn, fn in walk(path.expanduser("source/" + folder_name)) for f in fn]:
+    source_file = "source/" + folder_name + "/" + page
+    target_file = lang + "/" + page
 
     if not path.isfile(target_file):
       extract_page(lang, page)
