@@ -1,0 +1,6 @@
+[submodule "source"]
+	path = source
+	url = https://github.com/tldr-pages/tldr
+[submodule "i18n-data"]
+	path = i18n-data
+	url = https://github.com/LukWebsForge/tldri18n
