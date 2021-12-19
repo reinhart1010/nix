@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: /
 ---
 
 # Yet another **`tldr-pages`** web client.
