@@ -84,7 +84,7 @@ def extract_page(lang: str, page: str):
     front_matter += "\n<hr>"
 
   target.write(front_matter)
-  target.write("".join(content).replace("{{", "`<span class=\"tldr-var badge bg-dark-lm bg-white-lm text-white-lm text-dark-dm font-weight-bold\">(").replace("}}", ")</span>`").replace("``", "").replace("\n> ", "\n"))
+  target.write("".join(content).replace("{{", "`<span class=\"tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold\">").replace("}}", "</span>`").replace("``", "").replace("\n> ", "\n"))
 
   target.close()
 
