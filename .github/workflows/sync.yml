@@ -1,0 +1,51 @@
+name: "Synchronization jobs"
+on:
+  schedule:
+    - cron: '0 0,6,12,18 * * *'
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning'
+jobs:
+  sync_data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send finished notification
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_USERID }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+      - name: Update Git contents
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
+          token: ${{secrets.GITHUB_TOKEN}}
+      - name: Install Python3 dependencies
+        run: "pip install -r scripts/requirements.txt"
+      - name: Regenerate pages
+        run: "python3 scripts/parse-content.py"
+      - name: Get current timestamp
+        id: timestamp
+        uses: nanzm/get-time-action@v1.1
+        with:
+          format: "YYYY-MM-DD HH-mm-ss"
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          author_name: ${{secrets.GIT_AUTHOR}}
+          author_email: ${{secrets.GIT_EMAIL}}
+          message: "Data update ${{steps.timestamp.outputs.time}}"
+      - name: Load Jekyll cache
+        uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+      - name: Generate Jekyll pages
+        uses: helaili/jekyll-action@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          target_branch: 'gh-pages'
