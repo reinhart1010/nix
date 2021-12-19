@@ -32,7 +32,7 @@ ham:
     issue_url: https://github.com/reinhart1010/nix/issues/
 
 # Build settings
-remote_theme: reinhart1010/jekyll-ham
+remote_theme: reinhart1010/HAM
 url: ""
 
 plugins:
