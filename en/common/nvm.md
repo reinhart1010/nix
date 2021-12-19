@@ -2,7 +2,7 @@
 layout: page
 title: common/nvm (English)
 description: "Install, uninstall or switch between Node.js versions."
-content_hash: fa5cd480cd2014e54c407387be7c8b0fc765f842
+content_hash: 2ce449cdc38460dad4b165d202fd0beb17cc48f0
 related_topics:
   - title: Deutsch version
     url: /de/common/nvm.html
@@ -14,7 +14,7 @@ related_topics:
 # nvm
 
 Install, uninstall or switch between Node.js versions.
-Supports version numbers like "0.12" or "v4.2", and labels like "stable", "system", etc.
+Supports version numbers like "12.8" or "v16.13.1", and labels like "stable", "system", etc.
 More information: <https://github.com/creationix/nvm>.
 
 - Install a specific version of Node.js:

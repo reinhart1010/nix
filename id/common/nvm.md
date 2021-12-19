@@ -2,7 +2,7 @@
 layout: page
 title: common/nvm (Indonesia)
 description: "Memasang, melepas, atau mengganti versi Node.js yang dipakai."
-content_hash: 2b99b4a0dad438eb30a38b04cb841b9844c604d4
+content_hash: 05a8f0ff70f6acd68532ee45a4df718b284dcca2
 related_topics:
   - title: Deutsch version
     url: /de/common/nvm.html
@@ -14,7 +14,7 @@ related_topics:
 # nvm
 
 Memasang, melepas, atau mengganti versi Node.js yang dipakai.
-Mendukung nomor versi seperti "0.12" or "v4.2", dan label versi seperti "stable", "system", dsb.
+Mendukung nomor versi seperti "12.8" or "v16.13.1", dan label versi seperti "stable", "system", dsb.
 Informasi lebih lanjut: <https://github.com/creationix/nvm>.
 
 - Memasang versi Node.js yang ditentukan:

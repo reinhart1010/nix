@@ -2,7 +2,7 @@
 layout: page
 title: common/groff (English)
 description: "GNU replacement for the `troff` and `nroff` typesetting utilities."
-content_hash: d939775acf175212239a101b288f6d7fa466146b
+content_hash: fd73539ead9a4070a02e3bd3d14a28524be2f58f
 ---
 # groff
 
@@ -15,7 +15,7 @@ More information: <https://www.gnu.org/software/groff>.
 
 - Render a man page using the ASCII output device, and display it using a pager:
 
-`groff -man -T ascii `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/manpage.1</span>` | less`
+`groff -man -T ascii `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/manpage.1</span>` | less --RAW-CONTROL-CHARS`
 
 - Render a man page into an HTML file:
 

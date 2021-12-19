@@ -2,7 +2,7 @@
 layout: page
 title: windows/vswhere (English)
 description: "Locate Visual Studio 2017 and newer installations."
-content_hash: 3cfe572fb9283cddcc9e1d74f7c335f1412caa60
+content_hash: 7b5a46cd3955ee4566bcfea0d6bf0ceb2e7d38bd
 ---
 # vswhere
 
@@ -11,7 +11,7 @@ More information: <https://github.com/microsoft/vswhere>.
 
 - Find the path of vcvarsall.bat to set environment variables:
 
-`vswhere -products * -latest -prerelease -find "**/VC/Auxiliary/Build/vcvarsall.bat"`
+`vswhere -products * -latest -prerelease -find **/VC/Auxiliary/Build/vcvarsall.bat`
 
 - Find the directory of the x64 MSVC compiler (cl.exe, etc):
 

@@ -2,7 +2,7 @@
 layout: page
 title: linux/taskset (English)
 description: "Get or set a process' CPU affinity or start a new process with a defined CPU affinity."
-content_hash: b357ad8d9e788ed000d5fb71402c1a5c835f1caf
+content_hash: 082d52190b2c57529a2108109dc1275ea7f55506
 ---
 # taskset
 
@@ -22,8 +22,8 @@ Get or set a process' CPU affinity or start a new process with a defined CPU aff
 
 - Start a new process with affinity for multiple non-sequential CPUs:
 
-`taskset --cpu-list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cpu_id_1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cpu_id_2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cpu_id_3</span>
+`taskset --cpu-list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cpu_id_1</span>`,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cpu_id_2</span>`,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cpu_id_3</span>
 
 - Start a new process with affinity for CPUs 1 through 4:
 
-`taskset --cpu-list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cpu_id_1</span>`,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cpu_id_4</span>
+`taskset --cpu-list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cpu_id_1</span>`-`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cpu_id_4</span>

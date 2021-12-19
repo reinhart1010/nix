@@ -1,8 +1,8 @@
 ---
 layout: page
 title: linux/nmtui (italiano)
-description: "Interfaccia utente solo testo per NetworkManager"
-content_hash: 91c1942a132eec5f4fb3840d6ece9214fac73642
+description: "Interfaccia utente solo testo per NetworkManager."
+content_hash: 4bd41b0144b10a9703c7cc556ca967445803cf8b
 related_topics:
   - title: English version
     url: /en/linux/nmtui.html
@@ -10,8 +10,9 @@ related_topics:
 ---
 # nmtui
 
-Interfaccia utente solo testo per NetworkManager
-Usa le frecce e invio per navigare
+Interfaccia utente solo testo per NetworkManager.
+Usa le frecce e invio per navigare.
+Maggiori informazioni: <https://networkmanager.dev/docs/api/latest/nmtui.html>.
 
 - Apri interfaccia utente:
 
