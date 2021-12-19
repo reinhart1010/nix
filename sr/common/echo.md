@@ -1,0 +1,61 @@
+---
+layout: page
+title: common/echo (српски)
+description: "Prikazuje date argumente."
+content_hash: 63657390e150aeb89521d1dc3d26973b0a091fe4
+related_topics:
+  - title: Deutsch version
+    url: /de/common/echo.html
+    icon: bi bi-globe
+  - title: English version
+    url: /en/common/echo.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/echo.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/common/echo.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/echo.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/echo.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/echo.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/echo.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/echo.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/echo.html
+    icon: bi bi-globe
+---
+# echo
+
+Prikazuje date argumente.
+Više informacija na: <https://www.gnu.org/software/coreutils/echo>.
+
+- Prikazuje tekstualnu poruku. Napomena: navodnici su opcionalni:
+
+`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Zdravo Svete</span>`"`
+
+- Prikazuje poruku sa promenljivom:
+
+`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Moja lokacija je $PATH</span>`"`
+
+- Prikazuje poruku bez dodatne linije:
+
+`echo -n "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Zdravo Svete</span>`"`
+
+- Dodaje poruku u fajl:
+
+`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Zdravo Svete</span>`" >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fajl.txt</span>
+
+- Omogućava interpretaciju posebnih karektera (prethodi im "\\"):
+
+`echo -e "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Kolona 1\tKolona 2</span>`"`

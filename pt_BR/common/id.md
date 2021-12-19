@@ -1,0 +1,33 @@
+---
+layout: page
+title: common/id (português (Brasil))
+description: "Exibe o usuário atual e identidade do grupo."
+content_hash: de986e532a3dd4f29593bca5795403b79eb75a94
+related_topics:
+  - title: Deutsch version
+    url: /de/common/id.html
+    icon: bi bi-globe
+  - title: English version
+    url: /en/common/id.html
+    icon: bi bi-globe
+---
+# id
+
+Exibe o usuário atual e identidade do grupo.
+Mais informações: <https://www.gnu.org/software/coreutils/id>.
+
+- Exibe o ID do usuário atual (UID), ID do grupo (GID) e grupos aos quais eles pertencem:
+
+`id`
+
+- Exibe a identidade do usuário atual como um número:
+
+`id -u`
+
+- Exibe a identidade do grupo atual como um número:
+
+`id -g`
+
+- Exibe o ID de um usuário arbitrário (UID), ID do grupo (GID)  e grupos aos quais eles pertencem:
+
+`id `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nomedeusuario</span>

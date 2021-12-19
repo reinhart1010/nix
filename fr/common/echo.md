@@ -1,0 +1,61 @@
+---
+layout: page
+title: common/echo (français)
+description: "Affiche les paramètres donnés dans la console."
+content_hash: db044101b8631dd4a4ffe0c0b8fa36b5af6282ee
+related_topics:
+  - title: Deutsch version
+    url: /de/common/echo.html
+    icon: bi bi-globe
+  - title: English version
+    url: /en/common/echo.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/common/echo.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/echo.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/echo.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/echo.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/echo.html
+    icon: bi bi-globe
+  - title: српски version
+    url: /sr/common/echo.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/echo.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/echo.html
+    icon: bi bi-globe
+---
+# echo
+
+Affiche les paramètres donnés dans la console.
+Plus d'informations : <https://www.gnu.org/software/coreutils/echo>.
+
+- Affiche un message (les guillemets sont facultatifs) :
+
+`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello World</span>`"`
+
+- Affiche un message avec des variables d'environnement :
+
+`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Ma variable PATH est $PATH</span>`"`
+
+- Affiche un message sans retour à la ligne :
+
+`echo -n "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello World</span>`"`
+
+- Ajoute un message à un fichier :
+
+`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello World</span>`" >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier.txt</span>
+
+- Active l'interprétation des spécificateurs d'échappement :
+
+`echo -e "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Colonne 1\tColonne 2</span>`"`

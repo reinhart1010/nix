@@ -1,0 +1,42 @@
+---
+layout: page
+title: common/tlmgr-info (English)
+description: "Show information about TeX Live packages."
+content_hash: 5cae90b3d4ff75614edcdc12c18c8406904af2fb
+---
+# tlmgr info
+
+Show information about TeX Live packages.
+More information: <https://www.tug.org/texlive/tlmgr.html>.
+
+- List all available TeX Live packages, prefexing installed ones with `i`:
+
+`tlmgr info`
+
+- List all available collections:
+
+`tlmgr info collections`
+
+- List all available schemes:
+
+`tlmgr info scheme`
+
+- Show information about a specific package:
+
+`tlmgr info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+
+- List all files contained in a specific package:
+
+`tlmgr info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>` --list`
+
+- List all installed packages:
+
+`tlmgr info --only-installed`
+
+- Show only specific information about a package:
+
+`tlmgr info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>` --data "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>`,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">category</span>`,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">installed</span>`,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">size</span>`,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">depends</span>`,..."`
+
+- Print all available packages as JSON encoded array:
+
+`tlmgr info --json`

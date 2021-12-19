@@ -1,0 +1,30 @@
+---
+layout: page
+title: common/pactl (English)
+description: "Control a running PulseAudio sound server."
+content_hash: f33507ce10190a33dba04160761b3317eff08557
+---
+# pactl
+
+Control a running PulseAudio sound server.
+More information: <https://manned.org/pactl>.
+
+- List all sinks (or other types - sinks are outputs and sink-inputs are active audio streams):
+
+`pactl list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sinks</span>` short`
+
+- Change the default sink (output) to 1 (the number can be retrieved via the `list` subcommand):
+
+`pactl set-default-sink `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
+
+- Move sink-input 627 to sink 1:
+
+`pactl move-sink-input `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">627</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
+
+- Set the volume of sink 1 to 75%:
+
+`pactl set-sink-volume `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.75</span>
+
+- Toggle mute on the default sink (using the special name `@DEFAULT_SINK@`):
+
+`pactl set-sink-mute `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">@DEFAULT_SINK@</span>` toggle`

@@ -1,0 +1,28 @@
+---
+layout: page
+title: linux/lsmod (മലയാളം)
+description: "ലിനക്സ് കെർണൽ മൊഡ്യൂളുകളുടെ അവസ്ഥ കാണാൻ."
+content_hash: f5a00b6c56e2f73f6a5815384f40a5935594d707
+related_topics:
+  - title: Deutsch version
+    url: /de/linux/lsmod.html
+    icon: bi bi-globe
+  - title: English version
+    url: /en/linux/lsmod.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/lsmod.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/linux/lsmod.html
+    icon: bi bi-globe
+---
+# lsmod
+
+ലിനക്സ് കെർണൽ മൊഡ്യൂളുകളുടെ അവസ്ഥ കാണാൻ.
+ലിനക്സ് കെർണൽ മൊഡ്യൂൾ ലോഡ് ചെയ്യാൻ `modprobe` കാണുക.
+കൂടുതൽ വിവരങ്ങൾ: <https://manned.org/lsmod>.
+
+- ഇപ്പോൾ ലോഡ് ചെയ്ത മൊഡ്യൂളുകൾ കാണിക്കുക:
+
+`lsmod`

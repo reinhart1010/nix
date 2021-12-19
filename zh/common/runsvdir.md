@@ -1,0 +1,26 @@
+---
+layout: page
+title: common/runsvdir (中文)
+description: "运行整个目录下的服务。"
+content_hash: 79f147e1056ce66c7538c189fbfd0308212b5570
+related_topics:
+  - title: English version
+    url: /en/common/runsvdir.html
+    icon: bi bi-globe
+---
+# runsvdir
+
+运行整个目录下的服务。
+更多信息：<https://manpages.ubuntu.com/manpages/latest/man8/runsvdir.8.html>.
+
+- 以当前用户身份启动和管理目录中的所有服务：
+
+`runsvdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目录 / 服务文件</span>
+
+- 以 root 用户身份启动和管理目录中的所有服务：
+
+`sudo runsvdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目录 / 服务文件</span>
+
+- 在单独会话中启动服务：
+
+`runsvdir -P `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目录 / 服务文件</span>

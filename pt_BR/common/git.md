@@ -1,0 +1,60 @@
+---
+layout: page
+title: common/git (português (Brasil))
+description: "Sistema de versionamento distribuído."
+content_hash: a1d10bc004ba3a8bb6b36ca6d740c7a05c74dc55
+related_topics:
+  - title: Deutsch version
+    url: /de/common/git.html
+    icon: bi bi-globe
+  - title: English version
+    url: /en/common/git.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/git.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/git.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/common/git.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/git.html
+    icon: bi bi-globe
+  - title: српски version
+    url: /sr/common/git.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git.html
+    icon: bi bi-globe
+---
+# git
+
+Sistema de versionamento distribuído.
+Alguns subcomandos como `git commit` tem sua própia documentação de uso.
+Mais informações: <https://git-scm.com/>.
+
+- Verifique a versão do Git:
+
+`git --version`
+
+- Mostre ajuda geral:
+
+`git --help`
+
+- Mostre ajuda de um subcomando do Git (como `commit`, `log`, etc.):
+
+`git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcomando</span>
+
+- Execute um subcomando Git:
+
+`git `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcomando</span>
+
+- Execute um subcomando Git no caminho raíz de um repositório específico:
+
+`git -C `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/repo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcomando</span>
+
+- Execute um subcomando Git com uma dada configuração:
+
+`git -c '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config.chave</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">valor</span>`' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcomando</span>

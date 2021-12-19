@@ -1,0 +1,43 @@
+---
+layout: page
+title: osx/pmset (English)
+description: "Configure macOS power management settings, as one might do in System Preferences > Energy Saver."
+content_hash: 20a4972edbdbd265e663b461876b571e9cc911c6
+related_topics:
+  - title: 中文 version
+    url: /zh/osx/pmset.html
+    icon: bi bi-globe
+---
+# pmset
+
+Configure macOS power management settings, as one might do in System Preferences > Energy Saver.
+Commands that modify settings must begin with `sudo`.
+More information: <https://ss64.com/osx/pmset.html>.
+
+- Display the current power management settings:
+
+`pmset -g`
+
+- Display the current power source and battery levels:
+
+`pmset -g batt`
+
+- Put display to sleep immediately:
+
+`pmset displaysleepnow`
+
+- Set display to never sleep when on charger power:
+
+`sudo pmset -c displaysleep 0`
+
+- Set display to sleep after 15 minutes when on battery power:
+
+`sudo pmset -b displaysleep 15`
+
+- Schedule computer to automatically wake up every weekday at 9 AM:
+
+`sudo pmset repeat wake MTWRF 09:00:00`
+
+- Restore to system defaults:
+
+`sudo pmset -a displaysleep 10 disksleep 10 sleep 30 womp 1`

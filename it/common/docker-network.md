@@ -1,0 +1,48 @@
+---
+layout: page
+title: common/docker-network (italiano)
+description: "Crea e gestisci reti docker."
+content_hash: 6380bd8193d8834871d8d8f363a3a006ecd0a355
+related_topics:
+  - title: Deutsch version
+    url: /de/common/docker-network.html
+    icon: bi bi-globe
+  - title: English version
+    url: /en/common/docker-network.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/docker-network.html
+    icon: bi bi-globe
+---
+# docker network
+
+Crea e gestisci reti docker.
+Maggiori informazioni: <https://docs.docker.com/engine/reference/commandline/network/>.
+
+- Elenca le reti disponibili configurate sul docker daemon:
+
+`docker network ls`
+
+- Crea una rete definita da un utente:
+
+`docker network create --driver `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_del_driver</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_rete</span>
+
+- Mostra informazioni dettagliate su una lista di reti (separata da spazi):
+
+`docker network inspect `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_rete_1 nome_rete_2</span>
+
+- Connetti un container ad una rete usando il suo nome o ID:
+
+`docker network connect `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_rete</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_container|ID</span>
+
+- Disconnetti un container da una rete:
+
+`docker network disconnect `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_rete</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_container|ID</span>
+
+- Elimina le reti inutilizzate (non referenziate da alcun container):
+
+`docker network prune`
+
+- Elimina una lista di reti (separata da spazi) inutilizzate:
+
+`docker network rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_rete_1 nome_rete_2</span>

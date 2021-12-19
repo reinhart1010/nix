@@ -1,0 +1,33 @@
+---
+layout: page
+title: common/git-format-patch (italiano)
+description: "Prepara file .patch. Utile per l'invio di commit via email."
+content_hash: 9e9ce57299b6e0f22d2be49bcabd6df0c1e91fb3
+related_topics:
+  - title: English version
+    url: /en/common/git-format-patch.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/git-format-patch.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/git-format-patch.html
+    icon: bi bi-globe
+---
+# git format-patch
+
+Prepara file .patch. Utile per l'invio di commit via email.
+Vedi anche `git am`, che permette di applicare file .patch.
+Maggiori informazioni: <https://git-scm.com/docs/git-format-patch>.
+
+- Crea un file `.patch` (il nome è assegnato automaticamente) con i commit non ancora inviati al repository remoto:
+
+`git format-patch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">origin</span>
+
+- Scrivi su stdout un file `.patch` per l'intervallo di commit definito dai due commit dati:
+
+`git format-patch --stdout `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_1</span>`..`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_2</span>
+
+- Scrivi un file `.patch` per gli ultimi 3 commit:
+
+`git format-patch -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>

@@ -1,0 +1,34 @@
+---
+layout: page
+title: linux/rig (español)
+description: "Utilidad para generar un nombre, apellido, calle y número, junto a ubicación geográfica consistente (un conjunto válido de ciudad, estado y código postal)."
+content_hash: 6d161700e619bb07b8f8a9e7fff1b087519744cb
+related_topics:
+  - title: English version
+    url: /en/linux/rig.html
+    icon: bi bi-globe
+---
+# rig
+
+Utilidad para generar un nombre, apellido, calle y número, junto a ubicación geográfica consistente (un conjunto válido de ciudad, estado y código postal).
+Más información: <https://manpages.ubuntu.com/manpages/focal/man6/rig.6.html>.
+
+- Muestra un nombre aleatorio (masculino o femenino) y una dirección:
+
+`rig`
+
+- Muestra un nombre [m]asculino, (o [f]emenino) aleatorio y una dirección:
+
+`rig -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">m|f</span>
+
+- Usa archivos de datos de un directorio específico (por defecto es `/usr/share/rig`):
+
+`rig -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span>
+
+- Especifica el número de identidades a generar:
+
+`rig -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero</span>
+
+- Especifica el número de identidades femininas a generar:
+
+`rig -f -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero</span>
