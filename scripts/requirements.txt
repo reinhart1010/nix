@@ -11,7 +11,7 @@ aiomultiprocess==0.8.0
 aiosqlite==0.16.1
 aiowinreg==0.0.3
 ajpy==0.0.4
-alembic==1.7.1.dev0
+alembic==1.7.1
 aniso8601==9.0.1
 anyio==3.3.4
 apispec==5.1.1
