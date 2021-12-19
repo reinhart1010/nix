@@ -1,0 +1,23 @@
+---
+layout: page
+title: linux/mac2unix (English)
+description: "Change macOS-style line endings to Unix-style."
+content_hash: 70d36c0d32cfc05fd3dad02283612f8a4732cebc
+related_topics:
+  - title: 中文 version
+    url: /zh/linux/mac2unix.html
+    icon: bi bi-globe
+---
+# mac2unix
+
+Change macOS-style line endings to Unix-style.
+Replaces LF with CR.
+More information: <https://waterlan.home.xs4all.nl/dos2unix.html>.
+
+- Change the line endings of a file:
+
+`mac2unix `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>
+
+- Create a copy with Unix-style line endings:
+
+`mac2unix -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_filename</span>

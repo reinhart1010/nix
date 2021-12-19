@@ -1,0 +1,35 @@
+---
+layout: page
+title: common/fnm (English)
+description: "Fast Node.js version manager."
+content_hash: 9e243dbc2c5823ef12013b2fb40bf2caecfa757c
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/common/fnm.html
+    icon: bi bi-globe
+---
+# fnm
+
+Fast Node.js version manager.
+Install, uninstall or switch between Node.js versions.
+More information: <https://github.com/Schniz/fnm>.
+
+- Install a specific version of Node.js:
+
+`fnm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_version</span>
+
+- List all available Node.js versions and highlight the default one:
+
+`fnm ls`
+
+- Use a specific version of Node.js in the current shell:
+
+`fnm use `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_version</span>
+
+- Set the default Node.js version:
+
+`fnm default `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_version</span>
+
+- Uninstall a given Node.js version:
+
+`fnm uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_version</span>

@@ -1,0 +1,55 @@
+---
+layout: page
+title: common/rm (தமிழ்)
+description: "கோப்புகளையோ அடைவுகளையோ அழி."
+content_hash: 4dcebd80e0743e8d9e85981fa7695141591a40b5
+related_topics:
+  - title: English version
+    url: /en/common/rm.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/rm.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/rm.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/common/rm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/rm.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/rm.html
+    icon: bi bi-globe
+  - title: svenska version
+    url: /sv/common/rm.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/rm.html
+    icon: bi bi-globe
+---
+# rm
+
+கோப்புகளையோ அடைவுகளையோ அழி.
+மேலும் தகவல்: <https://www.gnu.org/software/coreutils/rm>.
+
+- கோப்புகளை அழி:
+
+`rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பொன்றிற்குப்/பாதை</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பின்னொன்றிற்குப்/பாதை</span>
+
+- அடைவொன்றையும் அதில் உள்ளடங்கிய அனைத்தையும் தற்சுருளாக அழி:
+
+`rm -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அடைவிற்குப்/பாதை</span>
+
+- உறுதிப்படுத்தக் கேட்காமலும் பிழை செய்திகளைக் காட்டாமலும் அடைவொன்றை அழி:
+
+`rm -rf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அடைவிற்குப்/பாதை</span>
+
+- ஒவ்வொருக் கோப்பையும் அழிப்பதற்கு முன் உறுதிப்படுத்து:
+
+`rm -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்புகள்</span>
+
+- கோப்புகளை வளவள நிலையில் (அழிக்கப்படும் கோப்புகள் பட்டியலிடப்படும்) அழி:
+
+`rm -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அடைவிற்குப்/பாதை/*</span>

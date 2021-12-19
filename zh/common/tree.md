@@ -1,0 +1,60 @@
+---
+layout: page
+title: common/tree (中文)
+description: "以树的形式显示当前目录的内容。"
+content_hash: ab534ee40831c82b0d667bad21833634011a5cca
+related_topics:
+  - title: English version
+    url: /en/common/tree.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/common/tree.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/tree.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/tree.html
+    icon: bi bi-globe
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/tree.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># tree
+
+以树的形式显示当前目录的内容。
+更多信息：<http://mama.indstate.edu/users/ice/tree/>.
+
+- 显示深度达到 “级数” 级的文件和目录（其中 1 表示当前目录）：
+
+`tree -L `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">级数</span>
+
+- 只显示目录：
+
+`tree -d`
+
+- 同时显示隐藏文件：
+
+`tree -a`
+
+- 打印没有缩进行的树，显示完整路径（使用`-N`不转义空格和特殊字符）：
+
+`tree -i -f`
+
+- 以可读格式打印每个文件节点的大小，目录显示其累积大小（类似在`du`命令中所示）：
+
+`tree -s -h --du`
+
+- 使用通配符（glob）模式在树层次结构中查找文件，并删除不包含匹配文件的目录：
+
+`tree -P '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span>`' --prune`
+
+- 在树层次结构中查找目录，删除不属于所需目录的目录：
+
+`tree -P `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件夹名</span>` --matchdirs --prune`

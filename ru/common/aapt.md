@@ -1,0 +1,39 @@
+---
+layout: page
+title: common/aapt (русский)
+description: "Утилита для упаковки ресурсов для Android."
+content_hash: 0342d7896f588b54604eed85744437b27398c6d6
+related_topics:
+  - title: Deutsch version
+    url: /de/common/aapt.html
+    icon: bi bi-globe
+  - title: English version
+    url: /en/common/aapt.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/aapt.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/aapt.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/aapt.html
+    icon: bi bi-globe
+---
+# aapt
+
+Утилита для упаковки ресурсов для Android.
+Компилирует и упаковывает ресурсы приложений Android.
+Больше информации: <https://elinux.org/Android_aapt>.
+
+- Вывести список файлов содержащихся в APK-архиве:
+
+`aapt list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/приложения.apk</span>
+
+- Отобразить мета-данные приложения (версия, разрешения, и т.д.):
+
+`aapt dump badging `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/приложения.apk</span>
+
+- Создать новый APK-архив с файлами из указанной папки:
+
+`aapt package -F `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/приложения.apk</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/папки</span>

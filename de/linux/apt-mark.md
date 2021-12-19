@@ -1,0 +1,49 @@
+---
+layout: page
+title: linux/apt-mark (Deutsch)
+description: "Tool um den Status eines installierten Paketes zu verändern."
+content_hash: ab9b3a3d90d50869f78a74f195f96cbc631f7052
+related_topics:
+  - title: English version
+    url: /en/linux/apt-mark.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/apt-mark.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/apt-mark.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/linux/apt-mark.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/apt-mark.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/linux/apt-mark.html
+    icon: bi bi-globe
+---
+# apt-mark
+
+Tool um den Status eines installierten Paketes zu verändern.
+Mehr Informationen: <https://manpages.debian.org/latest/apt/apt-mark.8.html>.
+
+- Markiere ein Paket als automatisch installiert:
+
+`sudo apt-mark auto `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paketname</span>
+
+- Halte ein Paket auf seiner aktuellen Version und verhindere dass es aktualisiert wird:
+
+`sudo apt-mark hold `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paketname</span>
+
+- Erlaube dass ein Paket wieder aktualisiert werden darf:
+
+`sudo apt-mark unhold `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paketname</span>
+
+- Zeige manuell installierte Pakete:
+
+`apt-mark showmanual`
+
+- Zeige gehaltene Pakete die nicht aktualisiert werden dürfen:
+
+`apt-mark showhold`

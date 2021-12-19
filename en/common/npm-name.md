@@ -1,0 +1,18 @@
+---
+layout: page
+title: common/npm-name (English)
+description: "Check whether a package or organization name is available on npm."
+content_hash: ece06d7d85d28c57f4984f8a9d1eb97b31dadbdd
+---
+# npm-name
+
+Check whether a package or organization name is available on npm.
+More information: <https://github.com/sindresorhus/npm-name-cli>.
+
+- Check if a specific package name is available in the npm registry:
+
+`npm-name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
+
+- Find similar package names in the npm registry:
+
+`npm-name --similar `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>

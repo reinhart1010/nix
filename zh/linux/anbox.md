@@ -1,0 +1,24 @@
+---
+layout: page
+title: linux/anbox (中文)
+description: "在任何 GNU/Linux 操作系统上运行安卓应用。"
+content_hash: 779607e82913f6863c8716c6b7867a1dc46ed757
+related_topics:
+  - title: Deutsch version
+    url: /de/linux/anbox.html
+    icon: bi bi-globe
+  - title: English version
+    url: /en/linux/anbox.html
+    icon: bi bi-globe
+  - title: norsk bokmål (Norge) version
+    url: /no/linux/anbox.html
+    icon: bi bi-globe
+---
+# anbox
+
+在任何 GNU/Linux 操作系统上运行安卓应用。
+更多信息：<https://manned.org/anbox>.
+
+- 在应用管理器中运行 Anbox:
+
+`anbox launch --package=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.anbox.appmgr</span>` --component=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.anbox.appmgr.AppViewActivity</span>

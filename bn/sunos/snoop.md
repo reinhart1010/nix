@@ -1,0 +1,35 @@
+---
+layout: page
+title: sunos/snoop (বাংলা)
+description: "নেটওয়ার্ক প্যাকেট স্নিফার।"
+content_hash: 731c1654bbad3d2118370881b997d78bfa58cc56
+related_topics:
+  - title: English version
+    url: /en/sunos/snoop.html
+    icon: bi bi-globe
+---
+# snoop
+
+নেটওয়ার্ক প্যাকেট স্নিফার।
+SunOS এর জন্য tcpdump এর সমতুল্য।
+আরও তথ্য পাবেন: <https://www.unix.com/man-page/sunos/1m/snoop>.
+
+- একটি নির্দিষ্ট নেটওয়ার্ক ইন্টারফেসে প্যাকেটগুলি ক্যাপচার করুন:
+
+`snoop -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">e1000g0</span>
+
+- ক্যাপচার করা প্যাকেটগুলিকে প্রদর্শন করার পরিবর্তে একটি ফাইলে সংরক্ষণ করুন:
+
+`snoop -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ফাইলের_নাম</span>
+
+- একটি ফাইল থেকে প্যাকেটের ভার্বোজ প্রোটোকল লেয়ারের সারাংশ প্রদর্শন করুন:
+
+`snoop -V -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ফাইলের_নাম</span>
+
+- একটি হোস্টনাম থেকে আসা নেটওয়ার্ক প্যাকেটগুলি ক্যাপচার করুন এবং একটি প্রদত্ত পোর্টে যান:
+
+`snoop to port `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">পোর্ট</span>` from host `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">হোস্টনাম</span>
+
+- দুটি আইপি ঠিকানার মধ্যে বিনিময় করা নেটওয়ার্ক প্যাকেটের একটি হেক্স-ডাম্প ক্যাপচার করুন এবং প্রদর্শন করুন :
+
+`snoop -x0 -p4 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">আইপি_ঠিকানা_১</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">আইপি_ঠিকানা_২</span>

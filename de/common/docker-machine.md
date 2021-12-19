@@ -1,0 +1,47 @@
+---
+layout: page
+title: common/docker-machine (Deutsch)
+description: "Erstelle und verwalte Maschinen, die Docker ausführen."
+content_hash: bd98b04b3da42426ece0174196487fa679d49219
+related_topics:
+  - title: English version
+    url: /en/common/docker-machine.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/common/docker-machine.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/docker-machine.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/docker-machine.html
+    icon: bi bi-globe
+---
+# docker-machine
+
+Erstelle und verwalte Maschinen, die Docker ausführen.
+Weitere Informationen: <https://docs.docker.com/machine/reference/>.
+
+- Liste zur Zeit laufende Docker Maschinen auf:
+
+`docker-machine ls`
+
+- Erzeuge eine neue Docker Maschine mit einem spezifischen Namen:
+
+`docker-machine create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>
+
+- Zeige den Status einer Maschine:
+
+`docker-machine status `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>
+
+- Starte eine Maschine:
+
+`docker-machine start `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>
+
+- Stoppe eine Maschine:
+
+`docker-machine stop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>
+
+- Zeige Informationen über eine Maschine:
+
+`docker-machine inspect `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>

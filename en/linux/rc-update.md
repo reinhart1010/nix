@@ -1,0 +1,26 @@
+---
+layout: page
+title: linux/rc-update (English)
+description: "Add and remove OpenRC services to and from runlevels."
+content_hash: 82a604429bf256f8aa53305f1b02f6fa1e41ecf5
+---
+# rc-update
+
+Add and remove OpenRC services to and from runlevels.
+See also `openrc`.
+
+- List all services and the runlevels they are added to:
+
+`rc-update show`
+
+- Add a service to a runlevel:
+
+`sudo rc-update add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">runlevel</span>
+
+- Delete a service from a runlevel:
+
+`sudo rc-update delete `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">runlevel</span>
+
+- Delete a service from all runlevels:
+
+`sudo rc-update --all delete `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span>

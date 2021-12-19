@@ -1,0 +1,74 @@
+---
+layout: page
+title: common/cp (Indonesia)
+description: "Membuat salinan file dan direktori."
+content_hash: 14c45b9763787b57b3db326e53dc263f10a3380e
+related_topics:
+  - title: Deutsch version
+    url: /de/common/cp.html
+    icon: bi bi-globe
+  - title: English version
+    url: /en/common/cp.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/cp.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/cp.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/cp.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/common/cp.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/common/cp.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/cp.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/cp.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/cp.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/cp.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/cp.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/cp.html
+    icon: bi bi-globe
+---
+# cp
+
+Membuat salinan file dan direktori.
+Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/cp>.
+
+- Membuat salinan file ke lokasi lain:
+
+`cp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_sumber.ext</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_tujuan.ext</span>
+
+- Menyalin file ke direktori lain, dengan nama yang sama:
+
+`cp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_sumber.ext</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori_tujuan</span>
+
+- Menyalin sebuah direktori secara beserta isinya ke lokasi lain (jika tujuan sudah ada, direktori tersebut disalin ke dalamnya):
+
+`cp -R `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori_sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori_tujuan</span>
+
+- Menyalin sebuah direktori secara beserta isinya, dalam mode `verbose` (menampilkan file-file ketika disalin):
+
+`cp -vR `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori_sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori_tujuan</span>
+
+- Menyalin file-file teks ke lokasi lain, dalam mode interaktif (menampilkan pertanyaan sebelum menimpa):
+
+`cp -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori_tujuan</span>
+
+- Melepaskan tautan simbolis sebelum menyalin:
+
+`cp -L `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tautan</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori_tujuan</span>

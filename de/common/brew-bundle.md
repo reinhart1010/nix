@@ -1,0 +1,41 @@
+---
+layout: page
+title: common/brew-bundle (Deutsch)
+description: "Bundler für Homebrew, Homebrew Cask und den Mac App Store."
+content_hash: 6c968f01c85817538eb4bc3dff490d0fa82d633f
+related_topics:
+  - title: English version
+    url: /en/common/brew-bundle.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/common/brew-bundle.html
+    icon: bi bi-globe
+---
+# brew bundle
+
+Bundler für Homebrew, Homebrew Cask und den Mac App Store.
+Weitere Informationen: <https://github.com/Homebrew/homebrew-bundle>.
+
+- Installiere Pakete aus einer Brewfile im aktuellen Pfad:
+
+`brew bundle`
+
+- Installiere Pakete aus einer bestimmten Brewfile:
+
+`brew bundle --file=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/brewfile</span>
+
+- Gib eine Liste mit allen installierten Paketen aus:
+
+`brew bundle dump`
+
+- Deinstalliere Pakete, die nicht in der Brewfile aufgelistet sind:
+
+`brew bundle cleanup --force`
+
+- Prüfe, ob von einem Paket die aktuellste Version installiert ist:
+
+`brew bundle check`
+
+- Zeige alle Pakete, die in der Brewfile aufgelistet sind:
+
+`brew bundle list --all`

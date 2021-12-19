@@ -1,0 +1,56 @@
+---
+layout: page
+title: common/git-remote (português (Brasil))
+description: "Gerencia repositórios monitorados (\"remotes\")."
+content_hash: ed7c7959e05e7c68bdefb12678d5254474de66e4
+related_topics:
+  - title: Deutsch version
+    url: /de/common/git-remote.html
+    icon: bi bi-globe
+  - title: English version
+    url: /en/common/git-remote.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/git-remote.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/git-remote.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/git-remote.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/common/git-remote.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/git-remote.html
+    icon: bi bi-globe
+---
+# git remote
+
+Gerencia repositórios monitorados ("remotes").
+Mais informações: <https://git-scm.com/docs/git-remote>.
+
+- Mostre uma lista de remotes existentes, seus nomes e URL:
+
+`git remote -v`
+
+- Mostra infomação de um remote específico:
+
+`git remote show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_remote</span>
+
+- Adiciona um remote:
+
+`git remote add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_remote</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_do_remote</span>
+
+- Muda a URL de um remote (use `--add` para manter a URL existente):
+
+`git remote set-url `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_remote</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nova_url</span>
+
+- Remove um remote:
+
+`git remote remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_remote</span>
+
+- Renomeia um remote:
+
+`git remote rename `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_antigo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">novo_nome</span>
