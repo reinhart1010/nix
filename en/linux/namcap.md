@@ -2,7 +2,7 @@
 layout: page
 title: linux/namcap (English)
 description: "Check binary packages and source `PKGBUILD`s for common packaging mistakes."
-content_hash: e20fca9bcff4b4398c980ca40eae3e91fd093584
+content_hash: b0cc3f12ba07c2f7c15feaec64a24c5f5d8da075
 ---
 # namcap
 
@@ -19,4 +19,4 @@ More information: <https://man.archlinux.org/man/namcap.1>.
 
 - Check a file, printing extra [i]nformational messages:
 
-`nnamcap -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`namcap -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
