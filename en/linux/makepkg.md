@@ -2,7 +2,7 @@
 layout: page
 title: linux/makepkg (English)
 description: "Create a package which can be used with `pacman`."
-content_hash: bbc44f08896ae9fef707b6c5ccef4402b07cd3bf
+content_hash: 616ba4f317c18fcbb0fe9e9c32eed2208d6a534b
 ---
 # makepkg
 
@@ -34,6 +34,6 @@ More information: <https://man.archlinux.org/man/makepkg.8>.
 
 `makepkg --verifysource`
 
-- Generate and save the source information into `.srcinfo`:
+- Generate and save the source information into `.SRCINFO`:
 
-`makepkg --printsrcinfo > .srcinfo`
+`makepkg --printsrcinfo > .SRCINFO`
