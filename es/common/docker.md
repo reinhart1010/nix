@@ -2,7 +2,7 @@
 layout: page
 title: common/docker (español)
 description: "Administra contenedores e imágenes de Docker."
-content_hash: 7376a2cadc51ff6dbf676059da798b5c2c09b31b
+content_hash: 9ac7ef429a5e355ec836ea3ad12c326c6b43d294
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -41,13 +41,9 @@ Administra contenedores e imágenes de Docker.
 Algunos subcomandos, como `docker run`, tienen su propia documentación de uso.
 Más información: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- Lista los contenedores de Docker en ejecución:
-
-`docker ps`
-
 - Lista todos los contenedores de Docker (en ejecución y detenidos):
 
-`docker ps -a`
+`docker ps --all`
 
 - Inicia un contenedor desde una imagen con un nombre personalizado:
 
@@ -60,6 +56,10 @@ Más información: <https://docs.docker.com/engine/reference/commandline/cli/>.
 - Descarga una imagen desde un registro de Docker:
 
 `docker pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagen</span>
+
+- Muestra la lista de imagenes descargadas:
+
+`docker images`
 
 - Inicia una línea de Comandos dentro de un contenedor en ejecución:
 

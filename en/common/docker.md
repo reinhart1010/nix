@@ -2,7 +2,7 @@
 layout: page
 title: common/docker (English)
 description: "Manage Docker containers and images."
-content_hash: aeb351733b44d1ae7e897e10c5e0e645507bd006
+content_hash: fed4ba50b6dcce2e88de8ab8162ff811860a0f8f
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -41,13 +41,9 @@ Manage Docker containers and images.
 Some subcommands such as `docker run` have their own usage documentation.
 More information: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- List currently running docker containers:
-
-`docker ps`
-
 - List all docker containers (running and stopped):
 
-`docker ps -a`
+`docker ps --all`
 
 - Start a container from an image, with a custom name:
 
@@ -60,6 +56,10 @@ More information: <https://docs.docker.com/engine/reference/commandline/cli/>.
 - Pull an image from a docker registry:
 
 `docker pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span>
+
+- Display the list of already downloaded images:
+
+`docker images`
 
 - Open a shell inside a running container:
 

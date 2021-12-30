@@ -2,7 +2,7 @@
 layout: page
 title: common/docker (français)
 description: "Gestion des conteneurs et des images Docker."
-content_hash: fd952c6647e288427494769dc0b30a2e309b4c3c
+content_hash: a8b1aa75877d8ad8f69b08bda035ad9c7ac1dcc0
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -41,13 +41,9 @@ Gestion des conteneurs et des images Docker.
 Certaines commandes comme `docker run` ont leur propre documentation.
 Plus d'informations : <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- Liste les conteneurs Docker en cours d'exécution :
-
-`docker ps`
-
 - Liste tous les conteneurs Docker (en cours d'exécution ou arrêtés) :
 
-`docker ps -a`
+`docker ps --all`
 
 - Démarre un conteneur à partir d'une image, avec un nom personnalisé :
 
@@ -60,6 +56,10 @@ Plus d'informations : <https://docs.docker.com/engine/reference/commandline/cli/
 - Télécharge une image depuis un registre Docker :
 
 `docker pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span>
+
+- Affiche les images déjà téléchargées :
+
+`docker images`
 
 - Ouvre un shell dans un conteneur déjà en cours d'exécution :
 
