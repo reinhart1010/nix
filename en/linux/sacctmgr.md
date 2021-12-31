@@ -2,7 +2,7 @@
 layout: page
 title: linux/sacctmgr (English)
 description: "View, setup, and manage Slurm accounts."
-content_hash: f1908f4927f16320d35b5faaab2a314dd4ed3527
+content_hash: 7f241beef1bb69ff5265ea13514888a74f0aec6c
 ---
 # sacctmgr
 
@@ -21,6 +21,6 @@ More information: <https://slurm.schedmd.com/sacctmgr.html>.
 
 `sacctmgr add account `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">account_name</span>` cluster=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_of_account</span>
 
-- Show details of user/association/cluster/account:
+- Show details of user/association/cluster/account using a spcific format:
 
-`sacctmgr show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user/association/cluster/account</span>
+`sacctmgr show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user|association|cluster|account</span>` format="Accout%10" format="GrpTRES%30"`

@@ -2,12 +2,16 @@
 layout: page
 title: common/github-label-sync (English)
 description: "A command-line interface for synchronising GitHub labels."
-content_hash: e42d4d80ee4028838e957b3f96ace7e02024e4a4
+content_hash: 3f7719be4b20d902c8d78eeea1a62a4526fa4813
+related_topics:
+  - title: Türkçe version
+    url: /tr/common/github-label-sync.html
+    icon: bi bi-globe
 ---
 # github-label-sync
 
 A command-line interface for synchronising GitHub labels.
-More information: <https://npmjs.com/package/github-label-sync>.
+More information: <https://github.com/Financial-Times/github-label-sync>.
 
 - Synchronise labels using a local `labels.json` file:
 
