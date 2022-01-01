@@ -2,7 +2,7 @@
 layout: page
 title: linux/ethtool (English)
 description: "Display and modify Network Interface Controller (NIC) parameters."
-content_hash: 149e3347b95e812d14ea0ac4d362154ccb9f96bf
+content_hash: 01194dd0982bd2aa9257b43c76c8c9584021c2d2
 ---
 # ethtool
 
@@ -16,6 +16,10 @@ More information: <http://man7.org/linux/man-pages/man8/ethtool.8.html>.
 - Display the driver information for an interface:
 
 `ethtool --driver `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span>
+
+- Display all supported features for an interface:
+
+`ethtool --show-features `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eth0</span>
 
 - Display the network usage statistics for an interface:
 
