@@ -2,7 +2,7 @@
 layout: page
 title: common/git-pr (English)
 description: "Check out GitHub pull requests locally."
-content_hash: 19cac9ab0d416b66d35485ef49262f9adfceea24
+content_hash: c182d9e84e1cd6570f7a42551dbf69ac5978d5d6
 related_topics:
   - title: español version
     url: /es/common/git-pr.html
@@ -17,6 +17,7 @@ related_topics:
 # git pr
 
 Check out GitHub pull requests locally.
+Part of `git-extras`.
 More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-pr>.
 
 - Check out a specific pull request:
