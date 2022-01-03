@@ -2,7 +2,7 @@
 layout: page
 title: linux/wg (français)
 description: "Gestion de la configuration des interfaces WireGuard."
-content_hash: a0de109d0546478afcbc941867687eaada9efd22
+content_hash: 892716564f1761b6b9d5a37ada9d2578b09a275b
 related_topics:
   - title: English version
     url: /en/linux/wg.html
@@ -13,7 +13,7 @@ related_topics:
 Gestion de la configuration des interfaces WireGuard.
 Plus d'informations: <https://www.wireguard.com/quickstart/>.
 
-- Check status of currently active interfaces:
+- Vérifier l'état des interfaces actuellement actives :
 
 `wg`
 
@@ -28,3 +28,7 @@ Plus d'informations: <https://www.wireguard.com/quickstart/>.
 - Générer une clé publique et privée :
 
 `wg genkey | tee `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/clé_privée</span>` | wg pubkey > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/clé_publique</span>
+
+- Afficher la configuration actuelle d'une interface wireguard :
+
+`wg showconf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wg0</span>
