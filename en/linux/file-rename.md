@@ -2,12 +2,12 @@
 layout: page
 title: linux/file-rename (English)
 description: "Rename multiple files."
-content_hash: 1fe7741d350f215591f0cd8054be48400cda4bda
+content_hash: ee6fe6d6cb3d16e3b80725c1c7c3aa986d7427ec
 ---
 # rename
 
 Rename multiple files.
-NOTE: this page refers to the command from the `file-rename` Debian package.
+NOTE: this page refers to the command from the `rename` Debian package.
 More information: <https://manned.org/file-rename>.
 
 - Rename files using a Perl Common Regular Expression (substitute 'foo' with 'bar' wherever found):
