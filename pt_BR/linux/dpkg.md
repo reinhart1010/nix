@@ -2,13 +2,16 @@
 layout: page
 title: linux/dpkg (português (Brasil))
 description: "Gerenciador de pacotes Debian."
-content_hash: bbb247360432d0c4ec7d7bc50e05e3ad597849d0
+content_hash: 9c1437293647d150b24b5fce591f5005119b5c07
 related_topics:
   - title: Deutsch version
     url: /de/linux/dpkg.html
     icon: bi bi-globe
   - title: English version
     url: /en/linux/dpkg.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/dpkg.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/dpkg.html
@@ -18,7 +21,7 @@ related_topics:
 
 Gerenciador de pacotes Debian.
 Alguns subcomandos como `dpkg deb` tem sua própia documentação de uso.
-Mais informações: <https://manpages.debian.org/buster/dpkg/dpkg.1.en.html>.
+Mais informações: <https://manpages.debian.org/latest/dpkg/dpkg.html>.
 
 - Instalar um pacote:
 

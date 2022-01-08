@@ -2,10 +2,13 @@
 layout: page
 title: linux/dpkg (Deutsch)
 description: "Debian Paketmanager."
-content_hash: a75ce0a6ef9d9bd93d524130f857b15fe188da40
+content_hash: 24021ea175d7b237e76dccb892bfd7eebdc98021
 related_topics:
   - title: English version
     url: /en/linux/dpkg.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/dpkg.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/dpkg.html
@@ -18,7 +21,7 @@ related_topics:
 
 Debian Paketmanager.
 Manche Unterbefehle wie `dpkg deb` sind separat dokumentiert.
-Weitere Informationen: <https://manpages.debian.org/buster/dpkg/dpkg.1.en.html>.
+Weitere Informationen: <https://manpages.debian.org/latest/dpkg/dpkg.html>.
 
 - Installiere ein Paket:
 

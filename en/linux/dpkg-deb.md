@@ -2,7 +2,7 @@
 layout: page
 title: linux/dpkg-deb (English)
 description: "Pack, unpack and provide information about Debian archives."
-content_hash: 952801230b04bb7736a7ca18dd1639c501990d2a
+content_hash: 2f8b81c170fb1625c00b69028b96d7448eae0739
 related_topics:
   - title: italiano version
     url: /it/linux/dpkg-deb.html
@@ -11,7 +11,7 @@ related_topics:
 # dpkg-deb
 
 Pack, unpack and provide information about Debian archives.
-More information: <https://manpages.debian.org/buster/dpkg/dpkg-deb.1.en.html>.
+More information: <https://manpages.debian.org/latest/dpkg/dpkg-deb.html>.
 
 - Display information about a package:
 

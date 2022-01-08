@@ -2,7 +2,7 @@
 layout: page
 title: linux/a2query (English)
 description: "Retrieve runtime configuration from Apache on Debian-based OSes."
-content_hash: 311f32cf1f98976ed1a83c4d320098cbef4826e2
+content_hash: 6040c79ea925892de38e0f577b9c4daa6cc7f627
 related_topics:
   - title: Deutsch version
     url: /de/linux/a2query.html
@@ -26,7 +26,7 @@ related_topics:
 # a2query
 
 Retrieve runtime configuration from Apache on Debian-based OSes.
-More information: <https://manpages.debian.org/buster/apache2/a2query.1.en.html>.
+More information: <https://manpages.debian.org/latest/apache2/a2query.html>.
 
 - List enabled Apache modules:
 

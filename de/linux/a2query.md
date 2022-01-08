@@ -2,7 +2,7 @@
 layout: page
 title: linux/a2query (Deutsch)
 description: "Zeigt Apache Laufzeitkonfigurationen auf Debian-basierten Betriebssystemen an."
-content_hash: 4bf4061effdb2896839d2ff394a44569207e96ae
+content_hash: 63b8310ef0ae0b254b6dca8c75f26d6bc6627e27
 related_topics:
   - title: English version
     url: /en/linux/a2query.html
@@ -26,7 +26,7 @@ related_topics:
 # a2query
 
 Zeigt Apache Laufzeitkonfigurationen auf Debian-basierten Betriebssystemen an.
-Weitere Informationen: <https://manpages.debian.org/buster/apache2/a2query.1.en.html>.
+Weitere Informationen: <https://manpages.debian.org/latest/apache2/a2query.html>.
 
 - Zeige aktivierte Apache Module an:
 

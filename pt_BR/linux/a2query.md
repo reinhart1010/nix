@@ -2,7 +2,7 @@
 layout: page
 title: linux/a2query (português (Brasil))
 description: "Exibe configurações de execução do Apache em sistemas operacionais baseados no Debian."
-content_hash: 63bb9af9f794e2c921cfd039345f40c45fae1be9
+content_hash: 0a8cfb1043f287c53dcad16c2f05d3295c764678
 related_topics:
   - title: Deutsch version
     url: /de/linux/a2query.html
@@ -26,7 +26,7 @@ related_topics:
 # a2query
 
 Exibe configurações de execução do Apache em sistemas operacionais baseados no Debian.
-Mais informações: <https://manpages.debian.org/buster/apache2/a2query.1.en.html>.
+Mais informações: <https://manpages.debian.org/latest/apache2/a2query.html>.
 
 - Lista módulos ativos do Apache:
 
