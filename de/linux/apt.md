@@ -2,7 +2,7 @@
 layout: page
 title: linux/apt (Deutsch)
 description: "Debian und Ubuntu Paket Management Tool."
-content_hash: 1d26c01868ce65f6ef56bdfc2dab6aed86fdc53d
+content_hash: bfa0600ee058b601a6717112c4be35e861366dc2
 related_topics:
   - title: বাংলা version
     url: /bn/linux/apt.html
@@ -15,6 +15,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/apt.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/apt.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/apt.html
@@ -38,7 +41,7 @@ related_topics:
 # apt
 
 Debian und Ubuntu Paket Management Tool.
-Empfohlene Alternative zu apt-get seit Ubuntu 16.04.
+Empfohlene Alternative zu `apt-get` seit Ubuntu 16.04.
 Weitere Informationen: <https://manpages.debian.org/latest/apt/apt.8.html>.
 
 - Aktualisiere die Liste der Paketquellen (es wird empfohlen, diesen Befehl zu Beginn auszuführen):

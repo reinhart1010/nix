@@ -2,7 +2,7 @@
 layout: page
 title: linux/apt (中文)
 description: "基于 Debian 的发行版上的软件包管理工具。"
-content_hash: 3fe30ed6d113a57f6d8c932d5434f8809cc8ec1d
+content_hash: e9c60c21fa55cad237f96c4cb7d8e1e00e9f1a09
 related_topics:
   - title: বাংলা version
     url: /bn/linux/apt.html
@@ -18,6 +18,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/apt.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/apt.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/apt.html
@@ -38,7 +41,7 @@ related_topics:
 # apt
 
 基于 Debian 的发行版上的软件包管理工具。
-在 Ubuntu 16.04 及之后版本推荐使用 apt-get 来代替。
+在 Ubuntu 16.04 及之后版本推荐使用 `apt-get` 来代替。
 更多信息：<https://manpages.debian.org/latest/apt/apt.8.html>.
 
 - 更新可用软件包及其版本列表（推荐在运行其他 apt 命令前首先运行该命令）：

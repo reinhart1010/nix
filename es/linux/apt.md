@@ -2,7 +2,7 @@
 layout: page
 title: linux/apt (español)
 description: "Herramienta de gestión de paquete para distribuciones basadas en Debian."
-content_hash: 8c06be56f041502b9bec96ed980f4b1181692afa
+content_hash: 0e04d71c0a5a2182152708e676a3028d61b300dc
 related_topics:
   - title: বাংলা version
     url: /bn/linux/apt.html
@@ -15,6 +15,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/apt.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/apt.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/apt.html
@@ -38,7 +41,7 @@ related_topics:
 # apt
 
 Herramienta de gestión de paquete para distribuciones basadas en Debian.
-Se recomienda sustituirlo por apt-get cuando se use interactivamente en Ubuntu 16.04 o versiones posteriores.
+Se recomienda sustituirlo por `apt-get` cuando se use interactivamente en Ubuntu 16.04 o versiones posteriores.
 Más información: <https://manpages.debian.org/latest/apt/apt.8.html>.
 
 - Actualiza la lista de paquetes y versiones disponibles (se recomienda ejecutar este comando antes que cualquier otro comando `apt`):

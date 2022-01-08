@@ -2,7 +2,7 @@
 layout: page
 title: linux/apt (English)
 description: "Package management utility for Debian based distributions."
-content_hash: 421d5a56468f19f619f164552276e760beaf1212
+content_hash: f018497c5de092dd5671c434bd99b8d2f0644265
 related_topics:
   - title: বাংলা version
     url: /bn/linux/apt.html
@@ -15,6 +15,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/apt.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/apt.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/apt.html
@@ -38,7 +41,7 @@ related_topics:
 # apt
 
 Package management utility for Debian based distributions.
-Recommended replacement for apt-get when used interactively in Ubuntu versions 16.04 and later.
+Recommended replacement for `apt-get` when used interactively in Ubuntu versions 16.04 and later.
 More information: <https://manpages.debian.org/latest/apt/apt.8.html>.
 
 - Update the list of available packages and versions (it's recommended to run this before other `apt` commands):

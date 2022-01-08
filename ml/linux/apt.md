@@ -2,7 +2,7 @@
 layout: page
 title: linux/apt (മലയാളം)
 description: "ഡെബിയൻ അടിസ്ഥാനമാക്കിയുള്ള വിതരണങ്ങൾക്കായുള്ള പാക്കേജ് മാനേജുമെന്റ് യൂട്ടിലിറ്റി."
-content_hash: c52f2c8294682be79e2be9acc0619762b20ee2dd
+content_hash: 74b0fc099bf6faeea7277e8dedc1c0941fec3fad
 related_topics:
   - title: বাংলা version
     url: /bn/linux/apt.html
@@ -18,6 +18,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/apt.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/apt.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/apt.html
@@ -38,7 +41,7 @@ related_topics:
 # apt
 
 ഡെബിയൻ അടിസ്ഥാനമാക്കിയുള്ള വിതരണങ്ങൾക്കായുള്ള പാക്കേജ് മാനേജുമെന്റ് യൂട്ടിലിറ്റി.
-ഉബുണ്ടു പതിപ്പുകളിൽ 16.04ലും അതിനുശേഷമുള്ളതിലും സംവേദനാത്മകമായി ഉപയോഗിക്കുമ്പോൾ apt-get പകരം വയ്ക്കാൻ ശുപാർശ ചെയ്യുന്നതു.
+ഉബുണ്ടു പതിപ്പുകളിൽ 16.04ലും അതിനുശേഷമുള്ളതിലും സംവേദനാത്മകമായി ഉപയോഗിക്കുമ്പോൾ `apt-get` പകരം വയ്ക്കാൻ ശുപാർശ ചെയ്യുന്നതു.
 കൂടുതൽ വിവരങ്ങൾ: <https://manpages.debian.org/latest/apt/apt.8.html>.
 
 - ലഭ്യമായ പാക്കേജുകളുടെയും പതിപ്പുകളുടെയും പട്ടിക അപ്‌ഡേറ്റുചെയ്യുക (മറ്റ് `apt` കമാൻഡുകൾക്ക് മുമ്പ് ഇത് പ്രവർത്തിപ്പിക്കാൻ ശുപാർശ ചെയ്യുന്നു):

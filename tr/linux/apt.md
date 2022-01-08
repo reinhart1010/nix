@@ -2,7 +2,7 @@
 layout: page
 title: linux/apt (Türkçe)
 description: "Debian tabanlı dağıtımlar için paket yönetim aracı."
-content_hash: 74f5da7d387dc8c461b990afea496d14c912c03f
+content_hash: c4ccaf5574abbdfcecea2037b8968000e02c50f2
 related_topics:
   - title: বাংলা version
     url: /bn/linux/apt.html
@@ -18,6 +18,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/apt.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/apt.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/apt.html
@@ -38,7 +41,7 @@ related_topics:
 # apt
 
 Debian tabanlı dağıtımlar için paket yönetim aracı.
-Ubuntu 16.04 ve sonraki sürümlerde interaktif kullanıldığında apt-get için önerilen değiştirme.
+Ubuntu 16.04 ve sonraki sürümlerde interaktif kullanıldığında `apt-get` için önerilen değiştirme.
 Daha fazla bilgi: <https://manpages.debian.org/latest/apt/apt.8.html>.
 
 - Kullanılabilir paket ve versiyonların listesini yenile (Bu komutu diğer `apt` komutlarından önce kullanmanız önerilir):
