@@ -2,15 +2,20 @@
 layout: page
 title: linux/ncdu (English)
 description: "Disk usage analyzer with an ncurses interface."
-content_hash: f4fabbae3ddf584a03b35bf4e7df19c2ce0938e0
+content_hash: 50d3f3767cf91146480560b83514905f2aab7924
 ---
 # ncdu
 
 Disk usage analyzer with an ncurses interface.
+More information: <https://manned.org/ncdu>.
 
 - Analyze the current working directory:
 
 `ncdu`
+
+- Colorize output:
+
+`ncdu --color `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dark|off</span>
 
 - Analyze a given directory:
 
