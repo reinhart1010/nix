@@ -2,7 +2,7 @@
 layout: page
 title: common/bat (中文)
 description: "可以打印并且合并文件的命令。"
-content_hash: e91a4a7dadb513ed99654250146894f718ed3612
+content_hash: 7f62c92baca4b845093f27ee8983530b49592f90
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html
@@ -32,7 +32,7 @@ related_topics:
 # bat
 
 可以打印并且合并文件的命令。
-`cat` 的复制品，外加无法高亮和 Git 集成。
+`cat` 的复制品，外加语法高亮和 Git 集成。
 更多信息：<https://github.com/sharkdp/bat>.
 
 - 文件内容打印：
