@@ -2,7 +2,7 @@
 layout: page
 title: linux/rig (English)
 description: "Utility to piece together a random first name, last name, street number and address, along with a geographically consistent (ie, they all match the same area) city, state, ZIP code, and area code."
-content_hash: e8586142d4b13a0851bfc33e8e9baf8e7d31a72f
+content_hash: 0eb9949fca77cf0119d9d54e81610bde395859a3
 related_topics:
   - title: español version
     url: /es/linux/rig.html
@@ -11,7 +11,7 @@ related_topics:
 # rig
 
 Utility to piece together a random first name, last name, street number and address, along with a geographically consistent (ie, they all match the same area) city, state, ZIP code, and area code.
-More information: <https://manpages.ubuntu.com/manpages/focal/man6/rig.6.html>.
+More information: <https://manned.org/rig>.
 
 - Display a random name (male or female) and address:
 

@@ -2,12 +2,12 @@
 layout: page
 title: linux/faketime (English)
 description: "Fake the system time for a given command."
-content_hash: bf66347eaa45be6736667d974cc6c9502a6dab2e
+content_hash: 283d0ebaf7c6faecbce7f764d86a810bc7d3a975
 ---
 # faketime
 
 Fake the system time for a given command.
-More information: <https://manpages.ubuntu.com/manpages/trusty/man1/faketime.1.html>.
+More information: <https://manned.org/faketime>.
 
 - Fake the time to this evening, before printing the result of `date`:
 

@@ -2,7 +2,7 @@
 layout: page
 title: linux/rig (español)
 description: "Utilidad para generar un nombre, apellido, calle y número, junto a ubicación geográfica consistente (un conjunto válido de ciudad, estado y código postal)."
-content_hash: 6d161700e619bb07b8f8a9e7fff1b087519744cb
+content_hash: 888400b070e116fc568f65899bce8e31ac8c62b8
 related_topics:
   - title: English version
     url: /en/linux/rig.html
@@ -11,7 +11,7 @@ related_topics:
 # rig
 
 Utilidad para generar un nombre, apellido, calle y número, junto a ubicación geográfica consistente (un conjunto válido de ciudad, estado y código postal).
-Más información: <https://manpages.ubuntu.com/manpages/focal/man6/rig.6.html>.
+Más información: <https://manned.org/rig>.
 
 - Muestra un nombre aleatorio (masculino o femenino) y una dirección:
 
