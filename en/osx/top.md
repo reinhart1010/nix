@@ -2,7 +2,7 @@
 layout: page
 title: osx/top (English)
 description: "Display dynamic real-time information about running processes."
-content_hash: dae69e73dc4256503c0cccb986378cd98c7c40d0
+content_hash: 535ba2911ece0c1d8b34be2e69c6f03a663d6d13
 related_topics:
   - title: 中文 version
     url: /zh/osx/top.html
@@ -11,6 +11,7 @@ related_topics:
 # top
 
 Display dynamic real-time information about running processes.
+More information: <https://ss64.com/osx/top.html>.
 
 - Start top, all options are available in the interface:
 

@@ -2,7 +2,7 @@
 layout: page
 title: osx/textutil (English)
 description: "Used to manipulate text files of various formats."
-content_hash: 0cb493d5166c9f216fd594681723cdad84891772
+content_hash: 8096cea50d2b0e3a3fdd0da7bf7fe41c5fd1b234
 related_topics:
   - title: 中文 version
     url: /zh/osx/textutil.html
@@ -11,6 +11,7 @@ related_topics:
 # textutil
 
 Used to manipulate text files of various formats.
+More information: <https://ss64.com/osx/textutil.html>.
 
 - Display information about `foo.rtf`:
 
