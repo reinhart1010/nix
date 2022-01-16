@@ -2,7 +2,7 @@
 layout: page
 title: common/declare (English)
 description: "Declare variables and give them attributes."
-content_hash: 6bbd4b0b767842193cf92699de70d2cc353e7f18
+content_hash: db736e7a68742fe686468329e5ba45883970627a
 ---
 # declare
 
@@ -19,7 +19,7 @@ More information: <https://www.gnu.org/software/bash/manual/bash.html#Bash-Built
 
 - Declare an array variable with the specified value:
 
-`declare `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span>`=(`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">item_a item_b item_c</span>`)`
+`declare -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span>`=(`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">item_a item_b item_c</span>`)`
 
 - Declare an associative array variable with the specified value:
 
