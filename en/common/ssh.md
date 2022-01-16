@@ -2,7 +2,7 @@
 layout: page
 title: common/ssh (English)
 description: "Secure Shell is a protocol used to securely log onto remote systems."
-content_hash: 87d7a1f6c4914770b3670f29a15c3a5cd2796d43
+content_hash: 9df1dc9cd5b9f416573057eb6f488f3116b404cb
 related_topics:
   - title: Deutsch version
     url: /de/common/ssh.html
@@ -36,7 +36,7 @@ More information: <https://man.openbsd.org/ssh>.
 
 `ssh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span>` -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_arguments</span>
 
-- SSH tunneling: Dynamic port forwarding (SOCKS proxy on `localhost:1080):
+- SSH tunneling: Dynamic port forwarding (SOCKS proxy on `localhost:1080`):
 
 `ssh -D `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1080</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span>
 
