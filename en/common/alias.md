@@ -2,7 +2,7 @@
 layout: page
 title: common/alias (English)
 description: "Creates aliases -- words that are replaced by a command string."
-content_hash: 18a12dff40465093cc5bfe48ea20b18d9d18dab5
+content_hash: dfc7bb2ae28fe5e508da0edaedf940e6e4adba9f
 related_topics:
   - title: Deutsch version
     url: /de/common/alias.html
@@ -71,8 +71,8 @@ More information: <https://tldp.org/LDP/abs/html/aliases.html>.
 
 - Turn `rm` into an interactive command:
 
-`alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rm</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rm -i</span>`"`
+`alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rm</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rm --interactive</span>`"`
 
-- Create `la` as a shortcut for `ls -a`:
+- Create `la` as a shortcut for `ls --all`:
 
-`alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">la</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls -a</span>`"`
+`alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">la</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls --all</span>`"`

@@ -2,12 +2,12 @@
 layout: page
 title: common/netlify (English)
 description: "Deploy sites and configure continuous deployment to the Netlify platform."
-content_hash: 8471b4b3c1836be85b101214990e687fe06905c3
+content_hash: 9a003874ba4410fca6e466c25ad7a5ff996a2838
 ---
 # netlify
 
 Deploy sites and configure continuous deployment to the Netlify platform.
-More information: <https://www.netlify.com/docs/cli/>.
+More information: <https://cli.netlify.com>.
 
 - Log in to the Netlify account:
 
