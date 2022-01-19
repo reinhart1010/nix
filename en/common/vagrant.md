@@ -2,7 +2,7 @@
 layout: page
 title: common/vagrant (English)
 description: "Manage lightweight, reproducible, and portable development environments."
-content_hash: b6c7385bd0ed508e3c557a8e348f18311247a321
+content_hash: d21dd1e8aa66519dea9769894cd5e46b5ad43e54
 ---
 # vagrant
 
@@ -13,9 +13,9 @@ More information: <https://www.vagrantup.com>.
 
 `vagrant init`
 
-- Create Vagrantfile with the Ubuntu 14.04 (Trusty Tahr) box from HashiCorp Atlas:
+- Create Vagrantfile with the Ubuntu 20.04 (Focal Fossa) box from HashiCorp Atlas:
 
-`vagrant init ubuntu/trusty32`
+`vagrant init ubuntu/focal64`
 
 - Start and provision the vagrant environment:
 
