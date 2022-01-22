@@ -2,7 +2,7 @@
 layout: page
 title: common/dc (English)
 description: "An arbitrary precision calculator. Uses reverse polish notation (RPN)."
-content_hash: 410a31aedf13e4423755aacc794508a9cfce211f
+content_hash: 40ec20227f7fdab6a36111f2334388ad27e39bea
 related_topics:
   - title: italiano version
     url: /it/common/dc.html
@@ -11,24 +11,29 @@ related_topics:
 # dc
 
 An arbitrary precision calculator. Uses reverse polish notation (RPN).
+See also: `bc`.
 More information: <https://www.gnu.org/software/bc/manual/dc-1.05/html_mono/dc.html>.
 
-- Run calculator in interactive mode:
+- Start an interactive session:
 
 `dc`
 
-- Execute dc script in file:
+- Execute a script:
 
-`dc -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`dc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.dc</span>
 
-- Calculate 4 times 5 [4 5 *], subtract 17 [17 -], and [p]rint the output (using echo):
+- Calculate an expression with the specified scale:
 
-`echo "4 5 * 17 - p"| dc`
+`dc --expression='`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>` k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5 3 /</span>` p'`
 
-- Set number of decimal places to 7 [7 k], calculate 5 divided by -3 [5 _3 /] and [p]rint (using dc -e):
+- Calculate 4 times 5 (4 5 *), subtract 17 (17 -), and [p]rint the output:
 
-`dc -e "7 k 5 _3 / p"`
+`dc --expression='4 5 * 17 - p'`
 
-- Calculate the golden ratio, phi: Set number of decimal places to 100 [100 k], square root of 5 [5 v] plus 1 [1 +], divided by 2 [2 /], and [p]rint result:
+- Set number of decimal places to 7 (7 k), calculate 5 divided by -3 (5 _3 /) and [p]rint:
 
-`dc -e "100 k 5 v 1 + 2 / p"`
+`dc --expression='7 k 5 _3 / p'`
+
+- Calculate the golden ratio, phi: set number of decimal places to 100 (100 k), square root of 5 (5 v) plus 1 (1 +), divided by 2 (2 /), and [p]rint result:
+
+`dc --expression='100 k 5 v 1 + 2 / p'`

@@ -2,7 +2,7 @@
 layout: page
 title: common/bc (English)
 description: "An arbitrary precision calculator language."
-content_hash: e600a8094e3c028bea2c8d2667bef78c09c07c4d
+content_hash: 3e1f3cbe068cc70807a3568f5c2653aedce7c0b6
 related_topics:
   - title: español version
     url: /es/common/bc.html
@@ -17,20 +17,29 @@ related_topics:
 # bc
 
 An arbitrary precision calculator language.
-More information: <https://manned.org/bc>.
+See also: `dc`.
+More information: <https://manned.org/man/bc.1>.
 
-- Start `bc` in interactive mode using the standard math library:
+- Start an interactive session:
 
-`bc -l`
+`bc`
 
-- Calculate the result of an expression:
+- Start an interactive session with the standard math library enabled:
 
-`bc <<< "(1 + 2) * 2 ^ 2"`
+`bc --mathlib`
 
-- Calculate the result of an expression and force the number of decimal places to 10:
+- Calculate an expression:
 
-`bc <<< "scale=10; 5 / 3"`
+`echo '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5 / 3</span>`' | bc`
 
-- Calculate the result of an expression with sine and cosine using `mathlib`:
+- Execute a script:
 
-`bc -l <<< "s(1) + c(1)"`
+`bc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.bc</span>
+
+- Calculate an expression with the specified scale:
+
+`echo 'scale = `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>`; `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5 / 3</span>`' | bc`
+
+- Calculate a sine/cosine/arctangent/natural logarithm/exponential function using `mathlib`:
+
+`echo '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">s|c|a|l|e</span>`(`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>`)' | bc --mathlib`
