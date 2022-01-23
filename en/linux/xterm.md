@@ -2,7 +2,7 @@
 layout: page
 title: linux/xterm (English)
 description: "A terminal emulator for the X Window System."
-content_hash: 492c198c6efbe59e65f5df6b2a816e41b2e61b04
+content_hash: 54546a64f18b00492423c05d4b8852488aae183a
 related_topics:
   - title: Türkçe version
     url: /tr/linux/xterm.html
@@ -11,6 +11,7 @@ related_topics:
 # xterm
 
 A terminal emulator for the X Window System.
+More information: <https://manned.org/xterm>.
 
 - Open the terminal with a title of `Example`:
 
