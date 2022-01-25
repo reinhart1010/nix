@@ -2,11 +2,12 @@
 layout: page
 title: linux/swapon (English)
 description: "Enables device or file for swapping."
-content_hash: 0717eb4bb0dab9080823fadb069a1582930deafb
+content_hash: 6c936945495927ad8ae741514dd7ebce9275ca9e
 ---
 # swapon
 
 Enables device or file for swapping.
+More information: <https://manned.org/swapon>.
 
 - Get swap information:
 

@@ -2,11 +2,12 @@
 layout: page
 title: linux/swapoff (English)
 description: "Disables device or file for swapping."
-content_hash: c7c5c5df57c90655481f7652a8572eb699169b9c
+content_hash: 9030f1c4f6fbebd0b6f1b3d86c7a21f8bf0570da
 ---
 # swapoff
 
 Disables device or file for swapping.
+More information: <https://manned.org/swapoff>.
 
 - Disable a given swap partition:
 

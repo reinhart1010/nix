@@ -2,7 +2,7 @@
 layout: page
 title: common/su (English)
 description: "Switch shell to another user."
-content_hash: eac8ae1b528b4a27f8415edde13edd21faabca36
+content_hash: b6f8625754abe9e60849584c14049a6d572bc2ee
 related_topics:
   - title: Türkçe version
     url: /tr/common/su.html
@@ -11,6 +11,7 @@ related_topics:
 # su
 
 Switch shell to another user.
+More information: <https://manned.org/su>.
 
 - Switch to superuser (requires the root password):
 

@@ -2,12 +2,13 @@
 layout: page
 title: linux/urxvt (English)
 description: "Rxvt-unicode."
-content_hash: 4b9d8ef834fb220e63f35adc3a8be064973a964d
+content_hash: 19a6b7dd5df375a6c76019e14386cc34d3c262ac
 ---
 # urxvt
 
 Rxvt-unicode.
 A customizable terminal emulator.
+More information: <https://manned.org/urxvt>.
 
 - Open a new urxvt window:
 

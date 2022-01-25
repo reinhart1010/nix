@@ -2,7 +2,7 @@
 layout: page
 title: common/su (Türkçe)
 description: "Kabuk ortamında başka bir kullanıcıya geçiş yapın."
-content_hash: 200471a9992bbbb7994ba4b3e31f67c41b556203
+content_hash: d47f141c44a7550c0108271cf5fbe7c9409e3953
 related_topics:
   - title: English version
     url: /en/common/su.html
@@ -11,6 +11,7 @@ related_topics:
 # su
 
 Kabuk ortamında başka bir kullanıcıya geçiş yapın.
+Daha fazla bilgi: <https://manned.org/su>.
 
 - Süper kullanıcıya geçin (kök şifresi gerektirir):
 

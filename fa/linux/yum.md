@@ -2,7 +2,7 @@
 layout: page
 title: linux/yum (فارسی)
 description: "ابزار مدیریت بسته برای ردهت، فدورا و سنت اواس(برای نسخه های قدیمی)."
-content_hash: a700801473c225e58c42d88ef89cb57f80149210
+content_hash: d6f1ab1e2cdb6f4ecb76de0344ec2277ff2c996b
 related_topics:
   - title: English version
     url: /en/linux/yum.html
@@ -11,7 +11,7 @@ related_topics:
 # yum
 
 ابزار مدیریت بسته برای ردهت، فدورا و سنت اواس(برای نسخه های قدیمی).
-اطلاعات بیشتر: <https://man7.org/linux/man-pages/man8/yum.8.html>.
+اطلاعات بیشتر: <https://manned.org/yum>.
 
 - نصب یک بسته:
 
