@@ -2,11 +2,12 @@
 layout: page
 title: linux/xclock (English)
 description: "Display the time in analog or digital form."
-content_hash: 3e4d2600b1b5fe2f4e3590bed453e0f2d2c3fcf6
+content_hash: a7361c7e4efe277ba4b2379df86f6604a7f6f4e5
 ---
 # xclock
 
 Display the time in analog or digital form.
+More information: <https://manned.org/xclock>.
 
 - Display an analog clock:
 

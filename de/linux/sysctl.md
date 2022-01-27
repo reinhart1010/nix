@@ -2,7 +2,7 @@
 layout: page
 title: linux/sysctl (Deutsch)
 description: "Laufzeit-Kernelparameter auflisten und ändern."
-content_hash: c7138eaa90b628a40f7b3c8087a9f634d2b40c43
+content_hash: 556f8f879b1426b3c18829f595864909f030a808
 related_topics:
   - title: English version
     url: /en/linux/sysctl.html
@@ -14,6 +14,7 @@ related_topics:
 # sysctl
 
 Laufzeit-Kernelparameter auflisten und ändern.
+Weitere Informationen: <https://manned.org/sysctl.8>.
 
 - Liste alle verfügbaren Kernelparameter mit ihren Werten auf:
 

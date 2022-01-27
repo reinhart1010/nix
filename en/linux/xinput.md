@@ -2,11 +2,12 @@
 layout: page
 title: linux/xinput (English)
 description: "List available input devices, query information about a device and change input device settings."
-content_hash: 09a626fbd033a776fefff1818a440bd00fce3b02
+content_hash: 3e7c814e8587bcec4e2ec260f723ee65b005f2f8
 ---
 # xinput
 
 List available input devices, query information about a device and change input device settings.
+More information: <https://manned.org/xinput>.
 
 - List all input devices:
 

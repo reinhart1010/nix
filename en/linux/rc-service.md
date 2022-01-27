@@ -2,12 +2,13 @@
 layout: page
 title: linux/rc-service (English)
 description: "Locate and run OpenRC services with arguments."
-content_hash: ae7153fa6f6ab88bec001c14a4986246c6628e75
+content_hash: 1eb0c4eb21bb1dc9964000b175adb3d563eb500b
 ---
 # rc-service
 
 Locate and run OpenRC services with arguments.
 See also `openrc`.
+More information: <https://manned.org/rc-service>.
 
 - Show a service's status:
 

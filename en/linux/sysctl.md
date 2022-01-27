@@ -2,7 +2,7 @@
 layout: page
 title: linux/sysctl (English)
 description: "List and change kernel runtime variables."
-content_hash: 93399767f086e9fc924ac4cc090a7f02d0352453
+content_hash: 75aacb3404c7ebe6f0db9f28856b4d605a67b817
 related_topics:
   - title: Deutsch version
     url: /de/linux/sysctl.html
@@ -14,6 +14,7 @@ related_topics:
 # sysctl
 
 List and change kernel runtime variables.
+More information: <https://manned.org/sysctl.8>.
 
 - Show all available variables and their values:
 

@@ -2,12 +2,13 @@
 layout: page
 title: linux/rc-update (English)
 description: "Add and remove OpenRC services to and from runlevels."
-content_hash: 82a604429bf256f8aa53305f1b02f6fa1e41ecf5
+content_hash: c530ba1901e49824d1446517e7397be2c3784658
 ---
 # rc-update
 
 Add and remove OpenRC services to and from runlevels.
 See also `openrc`.
+More information: <https://manned.org/rc-update>.
 
 - List all services and the runlevels they are added to:
 

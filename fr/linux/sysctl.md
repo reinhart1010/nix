@@ -2,7 +2,7 @@
 layout: page
 title: linux/sysctl (français)
 description: "Liste et modifie les variables d'exécution du noyau."
-content_hash: 6e5da5f5ea21ca24239042ed282b6ffd2c6d648c
+content_hash: 6dded799d52cbce9c520f319d9b6cd28034034b5
 related_topics:
   - title: Deutsch version
     url: /de/linux/sysctl.html
@@ -14,6 +14,7 @@ related_topics:
 # sysctl
 
 Liste et modifie les variables d'exécution du noyau.
+Plus d'informations : <https://manned.org/sysctl.8>.
 
 - Affiche toutes les variables disponibles et leurs valeurs :
 

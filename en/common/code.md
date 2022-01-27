@@ -2,7 +2,7 @@
 layout: page
 title: common/code (English)
 description: "Visual Studio Code."
-content_hash: c53682de1ccceaf60f0ed3e20e4e26d323864173
+content_hash: a3aec9379032022cdae91a74ba52d486aab695b5
 related_topics:
   - title: Deutsch version
     url: /de/common/code.html
@@ -43,6 +43,10 @@ More information: <https://github.com/microsoft/vscode>.
 - Open a file or directory in the currently open VS Code window:
 
 `code --reuse-window `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
+
+- Open a file or directory in a new VS Code window:
+
+`code --new-window `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
 
 - Compare two files in VS Code:
 
