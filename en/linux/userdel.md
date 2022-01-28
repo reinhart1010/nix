@@ -2,7 +2,7 @@
 layout: page
 title: linux/userdel (English)
 description: "Remove a user account or remove a user from a group."
-content_hash: 44f1173b0e90cd220af99f454facbc9ec7a5debd
+content_hash: 7cce222d393de767dc3e82b1e0b5cf96ad0504d1
 related_topics:
   - title: español version
     url: /es/linux/userdel.html
@@ -14,21 +14,17 @@ related_topics:
 # userdel
 
 Remove a user account or remove a user from a group.
-Note: all commands must be executed as root.
+See also: `users`, `useradd`, `usermod`.
 More information: <https://manned.org/userdel>.
 
 - Remove a user:
 
-`userdel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>
-
-- Remove a user along with their home directory and mail spool:
-
-`userdel --remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>
-
-- Remove a user from a group:
-
-`userdel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group</span>
+`sudo userdel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>
 
 - Remove a user in other root directory:
 
-`userdel --root `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/other/root</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>
+`sudo userdel --root `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/other/root</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>
+
+- Remove a user along with the home directory and mail spool:
+
+`sudo userdel --remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>

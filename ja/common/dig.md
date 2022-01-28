@@ -2,7 +2,7 @@
 layout: page
 title: common/dig (日本語)
 description: "DNS 情報を調べるユーティリティーです。"
-content_hash: 2ad0527c6949e0ec1dd9aebdd4ae6068d89fbb45
+content_hash: 793405a5baf3ad4b239cd8ef5778b29759c6509d
 related_topics:
   - title: English version
     url: /en/common/dig.html
@@ -20,7 +20,7 @@ related_topics:
 # dig
 
 DNS 情報を調べるユーティリティーです。
-詳しくはこちら: <https://manpages.debian.org/dnsutils/dig.1.html>
+詳しくはこちら: <https://manned.org/dig>
 
 - ホスト名に関連する IP を検索（A レコード）:
 

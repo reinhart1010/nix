@@ -2,7 +2,7 @@
 layout: page
 title: common/dig (English)
 description: "DNS Lookup utility."
-content_hash: 7f833640dbca3cdd49b3ec66b78e6e30686cee93
+content_hash: 3bdf7e1909407259da304c42f2e1ba9e33d88903
 related_topics:
   - title: italiano version
     url: /it/common/dig.html
@@ -20,7 +20,7 @@ related_topics:
 # dig
 
 DNS Lookup utility.
-More information: <https://manpages.debian.org/dnsutils/dig.1.html>.
+More information: <https://manned.org/dig>.
 
 - Lookup the IP(s) associated with a hostname (A records):
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/dig (italiano)
 description: "Utilità di lookup DNS."
-content_hash: 8e4567fd27f8e8d6921cb54f98dac9b123fed41a
+content_hash: 3718911a43e90d85ca09566f7b3953223a672c54
 related_topics:
   - title: English version
     url: /en/common/dig.html
@@ -29,7 +29,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># dig
 
 Utilità di lookup DNS.
-Maggiori informazioni: <https://manpages.debian.org/dnsutils/dig.1.html>.
+Maggiori informazioni: <https://manned.org/dig>.
 
 - Mostra gli IP associati ad un hostname (record A):
 

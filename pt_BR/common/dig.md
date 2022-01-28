@@ -2,7 +2,7 @@
 layout: page
 title: common/dig (português (Brasil))
 description: "Utilitário de pesquisa de DNS."
-content_hash: f8aeb469a192bb253fb3306f35193dd03b1cc052
+content_hash: d926817e91fd9d61a540d8f9b32bd81a2f84e551
 related_topics:
   - title: English version
     url: /en/common/dig.html
@@ -20,7 +20,7 @@ related_topics:
 # dig
 
 Utilitário de pesquisa de DNS.
-Mais informações: <https://manpages.debian.org/dnsutils/dig.1.html>.
+Mais informações: <https://manned.org/dig>.
 
 - Pesquisa o(s) IP(s) associados a um hostname (Registros A):
 

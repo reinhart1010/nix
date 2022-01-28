@@ -2,7 +2,7 @@
 layout: page
 title: common/dig (한국어)
 description: "DNS 조회 유틸리티."
-content_hash: 52dba3b0b1ea5f5c19e08c8844b12de223140b15
+content_hash: a1996d3d98c670bb48e83a83188fe33055c0486a
 related_topics:
   - title: English version
     url: /en/common/dig.html
@@ -29,7 +29,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># dig
 
 DNS 조회 유틸리티.
-더 많은 정보: <https://manpages.debian.org/dnsutils/dig.1.html>.
+더 많은 정보: <https://manned.org/dig>.
 
 - 호스트이름과 관련된 IP 조회하기 (A records):
 

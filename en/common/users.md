@@ -2,7 +2,7 @@
 layout: page
 title: common/users (English)
 description: "Display a list of logged in users."
-content_hash: f9b0ee6c57ffc8ae3aa05018a6f7c591732062b4
+content_hash: 17c758e3e823a4766ad4411af1e6c916933ff41f
 related_topics:
   - title: فارسی version
     url: /fa/common/users.html
@@ -14,12 +14,13 @@ related_topics:
 # users
 
 Display a list of logged in users.
+See also: `useradd`, `userdel`, `usermod`.
 More information: <https://www.gnu.org/software/coreutils/users>.
 
-- Display a list of logged in users:
+- Print logged in usernames:
 
 `users`
 
-- Display a list of logged in users according to a specific file:
+- Print logged in usernames according to a given file:
 
 `users `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/var/log/wmtp</span>
