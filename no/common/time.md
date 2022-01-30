@@ -2,7 +2,7 @@
 layout: page
 title: common/time (norsk bokmål (Norge))
 description: "See hvor lang en kommand tar."
-content_hash: 2a24175a23738ac922019a9ff816e83ac66211b8
+content_hash: c496035651435996ee57b76d386ef83695833c76
 related_topics:
   - title: bosanski version
     url: /bs/common/time.html
@@ -26,6 +26,7 @@ related_topics:
 # time
 
 See hvor lang en kommand tar.
+Mer informasjon: <https://manned.org/time>.
 
 - Tid "ls":
 

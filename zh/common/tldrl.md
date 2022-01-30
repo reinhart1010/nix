@@ -2,7 +2,7 @@
 layout: page
 title: common/tldrl (中文)
 description: "这是 `tldr-lint` 命令的一个别名。"
-content_hash: 1629f423ce6affb0587a6eea450040e63cbd5cb9
+content_hash: 770aff3b14f31b5b87f82543ca3bc372be89ba4a
 related_topics:
   - title: bosanski version
     url: /bs/common/tldrl.html
@@ -71,6 +71,7 @@ related_topics:
 # tldrl
 
 这是 `tldr-lint` 命令的一个别名。
+更多信息：<https://github.com/tldr-pages/tldr-lint>.
 
 - 原命令的文档在：
 

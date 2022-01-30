@@ -2,7 +2,7 @@
 layout: page
 title: common/mscore (norsk bokmål (Norge))
 description: "Denne kommandoen er et alias for `musescore`."
-content_hash: 4d5bd2c13b32e92d5aeccf97231c13a7360b3cb6
+content_hash: cdf61880ab1c7dd5298d5cc2c6ef6d3db70cd0ff
 related_topics:
   - title: bosanski version
     url: /bs/common/mscore.html
@@ -68,6 +68,7 @@ related_topics:
 # mscore
 
 Denne kommandoen er et alias for `musescore`.
+Mer informasjon: <https://musescore.org/handbook/command-line-options>.
 
 - Vis dokumentasjonen for den opprinnelige kommandoen:
 

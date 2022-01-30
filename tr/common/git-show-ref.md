@@ -2,7 +2,7 @@
 layout: page
 title: common/git-show-ref (Türkçe)
 description: "Referans sıralamak için git komutu."
-content_hash: bb006ed801e2e7076d4334883c4fdbb6acb25e21
+content_hash: 49699e877dc0b6979a9a6331d794e1e95f39f656
 related_topics:
   - title: English version
     url: /en/common/git-show-ref.html
@@ -14,13 +14,10 @@ related_topics:
     url: /it/common/git-show-ref.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git show-ref
+# git show-ref
 
 Referans sıralamak için git komutu.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-show-ref>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-show-ref>.
 
 - Depodaki tüm referansları göster:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/at (नेपाली)
 description: "पछि एक पटक आदेशहरू कार्यान्वयन गर्छ।"
-content_hash: 540d04d38433545e070b145e568eaadcaba91722
+content_hash: 14496c6059bf52bad6c9a66bd3c0fd31430d4bdd
 related_topics:
   - title: English version
     url: /en/common/at.html
@@ -30,7 +30,7 @@ related_topics:
 
 पछि एक पटक आदेशहरू कार्यान्वयन गर्छ।
 वास्तविक कार्यान्वयनको लागि service atd(अथवा atrun) चलिरहेको हुनुपर्छ ।
-थप जानकारी : <https://man.archlinux.org/man/at.1>|
+थप जानकारी: <https://man.archlinux.org/man/at.1>.
 
 - standard input बाट आदेशहरू ५ मिनटमा कार्यान्वयन गर्नुहोस् (सकिएपछि `Ctrl +D` थिच्नुहोस्) :
 

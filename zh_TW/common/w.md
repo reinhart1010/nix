@@ -2,7 +2,7 @@
 layout: page
 title: common/w (中文 (繁體, 台灣))
 description: "顯示目前的登錄者以及他們正在進行的動作。"
-content_hash: 13bf8ed6c94fb169ad230dad61ee293fa8156937
+content_hash: cf734250b22962999191d01e40c737c2e642adfe
 related_topics:
   - title: English version
     url: /en/common/w.html
@@ -26,7 +26,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># w
 
 顯示目前的登錄者以及他們正在進行的動作。
-更多資訊：<https://www.geeksforgeeks.org/w-command-in-linux-with-examples/>.
+更多資訊：<https://manned.org/w>.
 
 - 顯示目前的登錄者的訊息：
 

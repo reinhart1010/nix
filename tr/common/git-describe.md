@@ -2,7 +2,7 @@
 layout: page
 title: common/git-describe (Türkçe)
 description: "Bir nesneye varolan referans üzerinden insanlar tarafından okunabilecek biçimde olan bir isim ver:"
-content_hash: 0b9e9c220ff6379a588e86cda6c18539d07c62bd
+content_hash: ee084b84784b0d450722c10567a7844a80a8094b
 related_topics:
   - title: English version
     url: /en/common/git-describe.html
@@ -14,13 +14,10 @@ related_topics:
     url: /it/common/git-describe.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git describe
+# git describe
 
 Bir nesneye varolan referans üzerinden insanlar tarafından okunabilecek biçimde olan bir isim ver:
-Daha fazla bilgi için: <https://git-scm.com/docs/git-describe>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-describe>.
 
 - Mevcut commit için (en son eklenmiş etiket, ilave commit'lerin sayısı ve kısaltılmış commit değerini içeren) özel bir isim oluştur:
 

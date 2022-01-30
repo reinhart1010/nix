@@ -2,7 +2,7 @@
 layout: page
 title: common/git-svn (Türkçe)
 description: "Bir alt sürüm deposu ve Git arasında çift yönlü operasyon."
-content_hash: cfc7b2cfb6166e17bbe13137c266b72d53da5301
+content_hash: 8ec675fe576823a9ffefe07729bdcf5a2a0f3bfe
 related_topics:
   - title: English version
     url: /en/common/git-svn.html
@@ -17,13 +17,10 @@ related_topics:
     url: /it/common/git-svn.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git svn
+# git svn
 
 Bir alt sürüm deposu ve Git arasında çift yönlü operasyon.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-svn>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-svn>.
 
 - Bit SVN deposunu klonla:
 

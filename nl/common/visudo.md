@@ -2,7 +2,7 @@
 layout: page
 title: common/visudo (Nederlands)
 description: "Bewerk veilig het sudoers-bestand."
-content_hash: c4315bce0ce55367349537fa3dba101e4abbdc83
+content_hash: bc83e8808ddfa81c5e76eb06c54e692c090bb94a
 related_topics:
   - title: English version
     url: /en/common/visudo.html
@@ -23,6 +23,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># visudo
 
 Bewerk veilig het sudoers-bestand.
+Meer informatie: <https://www.sudo.ws/man/1.8.13/visudo.man.html>.
 
 - Bewerk sudoers-bestand:
 

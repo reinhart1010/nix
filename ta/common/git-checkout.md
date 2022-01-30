@@ -2,7 +2,7 @@
 layout: page
 title: common/git-checkout (தமிழ்)
 description: "வேலை செய்யும் மரத்திற்கு ஒரு கிளை அல்லது பாதைகளை செக்கவுட் செய்ய."
-content_hash: e22d78b773d26e561812bc4708b4836218633494
+content_hash: 172ef5254287ffe2de9d6c57139a0fc4777bfb44
 related_topics:
   - title: English version
     url: /en/common/git-checkout.html
@@ -19,11 +19,14 @@ related_topics:
   - title: italiano version
     url: /it/common/git-checkout.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-checkout.html
+    icon: bi bi-globe
 ---
 # git checkout
 
 வேலை செய்யும் மரத்திற்கு ஒரு கிளை அல்லது பாதைகளை செக்கவுட் செய்ய.
-மேலும் தகவல்: <https://git-scm.com/docs/git-checkout>.
+மேலும் விவரத்திற்கு: <https://git-scm.com/docs/git-checkout>.
 
 - புதிய கிளையை உருவாக்கி மாறவும்:
 

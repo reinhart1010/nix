@@ -2,7 +2,7 @@
 layout: page
 title: windows/cmd (தமிழ்)
 description: "விண்டோஸ் கட்டளை மொழிபெயர்ப்பாளர்."
-content_hash: 6f22ca8bfe69eb5c9ec0b6fc155ed4bfce33ec06
+content_hash: 462bbc2c39fc4c8fa49b78706949bb1ab9003a61
 related_topics:
   - title: English version
     url: /en/windows/cmd.html
@@ -26,7 +26,7 @@ related_topics:
 # cmd
 
 விண்டோஸ் கட்டளை மொழிபெயர்ப்பாளர்.
-மேலும் தகவல்: <https://docs.microsoft.com/windows-server/administration/windows-commands/cmd>.
+மேலும் விவரத்திற்கு: <https://docs.microsoft.com/windows-server/administration/windows-commands/cmd>.
 
 - கட்டளை மொழிபெயர்ப்பாளரின் புதிய நிகழ்வைத் தொடங்கவும்:
 

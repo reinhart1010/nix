@@ -2,7 +2,7 @@
 layout: page
 title: common/unzip (português (Brasil))
 description: "Ferramenta de descompactação de arquivos zip."
-content_hash: 10681d0b5c9fbe9e9816238901d78ad335d59d8f
+content_hash: afca1a8e9d2255e3feeca5ae00549f64edd9b3ca
 related_topics:
   - title: English version
     url: /en/common/unzip.html
@@ -23,6 +23,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># unzip
 
 Ferramenta de descompactação de arquivos zip.
+Mais informações: <https://manned.org/unzip>.
 
 - Extraindo arquivos zip:
 

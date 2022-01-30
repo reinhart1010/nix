@@ -2,7 +2,7 @@
 layout: page
 title: linux/cp (Türkçe)
 description: "Dosya ve dizinleri kopyala."
-content_hash: 339dfbfc48ffa3621b72617788bb99a076616263
+content_hash: af55de33cbf93e1e709adca6f1b5de9ef07f16f3
 related_topics:
   - title: Deutsch version
     url: /de/linux/cp.html
@@ -26,7 +26,7 @@ related_topics:
 # cp
 
 Dosya ve dizinleri kopyala.
-Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/cp>.
+Daha fazla bilgi: <https://www.gnu.org/software/coreutils/cp>.
 
 - Bir dosyayı başka bir konuma kopyala:
 

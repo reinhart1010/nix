@@ -2,7 +2,7 @@
 layout: page
 title: common/unclutter (svenska)
 description: "Döljer muspekaren."
-content_hash: 8332e58440086d1c5540930b8ebb0df8220854f8
+content_hash: 32668ef55c88efb1dfb9dad051eca9b68c6d07c3
 related_topics:
   - title: bosanski version
     url: /bs/common/unclutter.html
@@ -26,6 +26,7 @@ related_topics:
 # unclutter
 
 Döljer muspekaren.
+Mer information: <https://manned.org/unclutter.1x>.
 
 - Dölj muspekarn efter 3 sekunder:
 

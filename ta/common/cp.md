@@ -2,7 +2,7 @@
 layout: page
 title: common/cp (தமிழ்)
 description: "கோப்புகளையோ அடைவுகளையோ நகலெடு."
-content_hash: cade69d2eb30405000f96db33267ac5026e88f48
+content_hash: 86bc3a5db4360c48d6b9ccae77b2299ebd691657
 related_topics:
   - title: Deutsch version
     url: /de/common/cp.html
@@ -47,7 +47,7 @@ related_topics:
 # cp
 
 கோப்புகளையோ அடைவுகளையோ நகலெடு.
-மேலும் தகவல்: <https://www.gnu.org/software/coreutils/cp>.
+மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/cp>.
 
 - கோப்பை நகலெடு:
 

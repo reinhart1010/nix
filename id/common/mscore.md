@@ -2,7 +2,7 @@
 layout: page
 title: common/mscore (Indonesia)
 description: "Perintah ini merupakan alias dari `musescore`."
-content_hash: ac01d2e5c37be8c925ea018f6664d080a6c4172e
+content_hash: af95264b2c7d454246853bd4a15a8586be144a14
 related_topics:
   - title: bosanski version
     url: /bs/common/mscore.html
@@ -68,6 +68,7 @@ related_topics:
 # mscore
 
 Perintah ini merupakan alias dari `musescore`.
+Informasi lebih lanjut: <https://musescore.org/handbook/command-line-options>.
 
 - Menampilkan dokumentasi untuk perintah asli:
 

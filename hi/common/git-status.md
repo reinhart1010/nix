@@ -2,7 +2,7 @@
 layout: page
 title: common/git-status (हिन्दी)
 description: "गिट रिपॉजिटरी में फाइलों में बदलाव दिखाएं।"
-content_hash: 21d812a6a179eed32ae9e5180c14f77fe9b999d3
+content_hash: 293b7ffb6c900542ce920f91ffbd65369841386a
 related_topics:
   - title: Deutsch version
     url: /de/common/git-status.html
@@ -22,6 +22,9 @@ related_topics:
   - title: italiano version
     url: /it/common/git-status.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-status.html
+    icon: bi bi-globe
   - title: українська version
     url: /uk/common/git-status.html
     icon: bi bi-globe
@@ -30,7 +33,7 @@ related_topics:
 
 गिट रिपॉजिटरी में फाइलों में बदलाव दिखाएं।
 उन पथों को प्रदर्शित करता है जिनमें अनुक्रमणिका फ़ाइल और वर्तमान हेड कमिट के बीच अंतर होता है।
-अधिक जानकारी के लिए: <https://git-scm.com/docs/git-status>.
+अधिक जानकारी: <https://git-scm.com/docs/git-status>।
 
 - बदली हुई फ़ाइलें दिखाएं जो अभी तक कमिट के लिए नहीं जोड़ी गई हैं:
 

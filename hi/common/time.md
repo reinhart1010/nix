@@ -2,7 +2,7 @@
 layout: page
 title: common/time (हिन्दी)
 description: "देखें कि एक कमांड में कितना समय लगता है।"
-content_hash: c29d9505af0f048834b4808dbc907a37fbdd0f3f
+content_hash: 22dbee0f782df42045dbc28b4c41ab87f34de834
 related_topics:
   - title: bosanski version
     url: /bs/common/time.html
@@ -26,6 +26,7 @@ related_topics:
 # time
 
 देखें कि एक कमांड में कितना समय लगता है।
+अधिक जानकारी: <https://manned.org/time>।
 
 - समय "ls":
 

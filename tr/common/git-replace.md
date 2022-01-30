@@ -2,7 +2,7 @@
 layout: page
 title: common/git-replace (Türkçe)
 description: "Nesnelerin yerini değiştirmek için referans oluştur, sırala ve sil."
-content_hash: 5f128afbe5b2ccedc8f97a52befcf9cf31a3831f
+content_hash: 8f6e48ca98c30c0ed86f0fc110a164d62ec70fc9
 related_topics:
   - title: English version
     url: /en/common/git-replace.html
@@ -11,13 +11,10 @@ related_topics:
     url: /it/common/git-replace.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git replace
+# git replace
 
 Nesnelerin yerini değiştirmek için referans oluştur, sırala ve sil.
-More information: <https://git-scm.com/docs/git-replace>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-replace>.
 
 - Öbür commit'lere dokunmadan bir commit'in başka bir commit ile yerini değiştir:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/tldrl (svenska)
 description: "Det här kommandot är ett alias för `tldr-lint`."
-content_hash: f6ee629bd73f19f39685259377ca92e47efee287
+content_hash: ceb9a72f766bcec3dd716dbde4456c915254d3b7
 related_topics:
   - title: bosanski version
     url: /bs/common/tldrl.html
@@ -71,6 +71,7 @@ related_topics:
 # tldrl
 
 Det här kommandot är ett alias för `tldr-lint`.
+Mer information: <https://github.com/tldr-pages/tldr-lint>.
 
 - Se dokumentationen för orginalkommandot:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/git-show (Türkçe)
 description: "Çeşitli Git nesnelerini (commit'ler, etiketler vs.) görüntüle."
-content_hash: 951a6a883a8a985dd77a9bff42d9e826e4320688
+content_hash: f5bb61d358a572037f37c5be2770ea3c59703093
 related_topics:
   - title: English version
     url: /en/common/git-show.html
@@ -17,13 +17,10 @@ related_topics:
     url: /it/common/git-show.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git show
+# git show
 
 Çeşitli Git nesnelerini (commit'ler, etiketler vs.) görüntüle.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-show>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-show>.
 
 - Son commit'e dair bilgi (değer, mesaj, değişimler ve öbür metaveriler) göster:
 

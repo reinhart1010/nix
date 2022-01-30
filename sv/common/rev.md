@@ -2,7 +2,7 @@
 layout: page
 title: common/rev (svenska)
 description: "Omvänd en textrad."
-content_hash: 198b648366a3478a63360c7ec28a827b2faf04ea
+content_hash: 687feff2d31be60247bd04dc489cd8ee3a719a09
 related_topics:
   - title: Deutsch version
     url: /de/common/rev.html
@@ -14,6 +14,7 @@ related_topics:
 # rev
 
 Omvänd en textrad.
+Mer information: <https://manned.org/rev>.
 
 - Omvänd textraden "hello":
 

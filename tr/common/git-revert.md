@@ -2,7 +2,7 @@
 layout: page
 title: common/git-revert (Türkçe)
 description: "Öncekilerin etkilerini geri alan yeni bir commit oluştur."
-content_hash: fabb19c6fe2bb38b29678d27ac8058aaa25775ad
+content_hash: d7257069e21f0caf59ea2abf1905d52b47dd6b17
 related_topics:
   - title: English version
     url: /en/common/git-revert.html
@@ -17,13 +17,10 @@ related_topics:
     url: /it/common/git-revert.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git revert
+# git revert
 
 Öncekilerin etkilerini geri alan yeni bir commit oluştur.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-revert>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-revert>.
 
 - En son commit'leri geri al:
 

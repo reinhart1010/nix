@@ -2,7 +2,7 @@
 layout: page
 title: common/git-prune (Türkçe)
 description: "Nesne veritabanından erişilemeyen tüm nesneleri budamaya yarayan git komutu."
-content_hash: 5af517af3d436075919611423e92b50e66ce5f54
+content_hash: 00eef96ab65853ec0d189a8a2ee1bf5a7648c2c9
 related_topics:
   - title: English version
     url: /en/common/git-prune.html
@@ -11,14 +11,11 @@ related_topics:
     url: /it/common/git-prune.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git prune
+# git prune
 
 Nesne veritabanından erişilemeyen tüm nesneleri budamaya yarayan git komutu.
 Bu komut genelde doğrudan kullanılmasa da Git gc tarafından bir iç komut olarak kullanılmaktadır.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-prune>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-prune>.
 
 - Git prune tarafından silinebilecek nesneleri onları silmeden raporla:
 

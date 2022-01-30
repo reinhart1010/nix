@@ -2,7 +2,7 @@
 layout: page
 title: common/git-reset (Türkçe)
 description: "Mevcut Git HEAD'ini belirtilen duruma sıfırlayarak commit'leri veya değişiklikleri geri al."
-content_hash: 3e93ffb7785d35107a4208325743125fa89c801f
+content_hash: 28445507b66042c5d3e410d2fd1f83968a5241e4
 related_topics:
   - title: English version
     url: /en/common/git-reset.html
@@ -17,14 +17,11 @@ related_topics:
     url: /it/common/git-reset.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git reset
+# git reset
 
 Mevcut Git HEAD'ini belirtilen duruma sıfırlayarak commit'leri veya değişiklikleri geri al.
 Eğer bir konum verildiye o konumdaki değişiklikler "geri alınır"; eğer bir commit değeri veya dal verildiyse o commit/dal "geri alınır".
-Daha fazla bilgi için: <https://git-scm.com/docs/git-reset>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-reset>.
 
 - Her şeyi geri al:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/source (svenska)
 description: "Kör kommandon från en fil i det aktuella skalet."
-content_hash: 5186770e96c62021d831b0483a5e0fd1eb8ded96
+content_hash: 1336412b3b4f928f7ac575330c96bff220531ffc
 related_topics:
   - title: English version
     url: /en/common/source.html
@@ -23,6 +23,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># source
 
 Kör kommandon från en fil i det aktuella skalet.
+Mer information: <https://manned.org/source>.
 
 - Utvärdera innehållet i en viss fil:
 

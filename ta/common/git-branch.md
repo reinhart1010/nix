@@ -2,7 +2,7 @@
 layout: page
 title: common/git-branch (தமிழ்)
 description: "கிளைகளுடன் வேலை செய்வதற்கான பிரதான கிட் கட்டளை."
-content_hash: 79800a66b0fb91540b769171c9e096163ed158c4
+content_hash: f63e6f0c61aaaf2477fae2e72b849c6de4012bbe
 related_topics:
   - title: Deutsch version
     url: /de/common/git-branch.html
@@ -22,11 +22,14 @@ related_topics:
   - title: italiano version
     url: /it/common/git-branch.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-branch.html
+    icon: bi bi-globe
 ---
 # git branch
 
 கிளைகளுடன் வேலை செய்வதற்கான பிரதான கிட் கட்டளை.
-மேலும் தகவல்: <https://git-scm.com/docs/git-branch>.
+மேலும் விவரத்திற்கு: <https://git-scm.com/docs/git-branch>.
 
 - கணினியில் உள்ள அனைத்து கிளைகளையும் பட்டியலிடுங்கள். தற்போதைய கிளை `*` ஆல் சிறப்பிக்கப்படுகிறது:
 

@@ -2,7 +2,7 @@
 layout: page
 title: linux/asciiart (Deutsch)
 description: "Konvertiere Bilder zu ASCII."
-content_hash: 1e08145ae18d2e79fe6e76078bfd4290e79461a8
+content_hash: aa21a1fe24413a65d455208ec166e409013abbab
 related_topics:
   - title: English version
     url: /en/linux/asciiart.html
@@ -17,7 +17,7 @@ related_topics:
 # asciiart
 
 Konvertiere Bilder zu ASCII.
-Mehr Informationen: <https://github.com/nodanaonlyzuul/asciiart>.
+Weitere Informationen: <https://github.com/nodanaonlyzuul/asciiart>.
 
 - Lese ein Bild aus einer Datei und zeige es als ASCII:
 

@@ -2,19 +2,16 @@
 layout: page
 title: common/gitlab-ctl (Türkçe)
 description: "Çok amaçlı GitLab yönetim CLI aracı."
-content_hash: 10a70fb59fb269aa588770a21ffc4491401bc270
+content_hash: 3b8f093de94a841d7ae82d105893b646db4c4e84
 related_topics:
   - title: English version
     url: /en/common/gitlab-ctl.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gitlab-ctl
+# gitlab-ctl
 
 Çok amaçlı GitLab yönetim CLI aracı.
-Daha fazla bilgi için: <https://docs.gitlab.com/omnibus/maintenance/>.
+Daha fazla bilgi: <https://docs.gitlab.com/omnibus/maintenance/>.
 
 - Tüm servislerin durumunu görüntüle:
 

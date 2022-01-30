@@ -2,7 +2,7 @@
 layout: page
 title: common/tldrl (norsk bokmål (Norge))
 description: "Denne kommandoen er et alias for `tldr-lint`."
-content_hash: b2ba9a2b6f84e4aa527ceb6e16732f850262c11f
+content_hash: 4e59986d997dd97952d9b90a1ac5cf34ede64fea
 related_topics:
   - title: bosanski version
     url: /bs/common/tldrl.html
@@ -71,6 +71,7 @@ related_topics:
 # tldrl
 
 Denne kommandoen er et alias for `tldr-lint`.
+Mer informasjon: <https://github.com/tldr-pages/tldr-lint>.
 
 - Vis dokumentasjonen for den opprinnelige kommandoen:
 

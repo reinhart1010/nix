@@ -2,7 +2,7 @@
 layout: page
 title: common/tlmgr-arch (தமிழ்)
 description: "இக்கட்டளை `tlmgr platform` கட்டளையின் மற்றொருப் பெயர்."
-content_hash: f29d5e3aefa88a1b159178fe7e1c8fac556602c6
+content_hash: e5716c2ae188b4a4c342dec83ff9318f4a90c345
 related_topics:
   - title: bosanski version
     url: /bs/common/tlmgr-arch.html
@@ -68,7 +68,7 @@ related_topics:
 # tlmgr-arch
 
 இக்கட்டளை `tlmgr platform` கட்டளையின் மற்றொருப் பெயர்.
-மேலும் தகவல்: <https://www.tug.org/texlive/tlmgr.html>.
+மேலும் விவரத்திற்கு: <https://www.tug.org/texlive/tlmgr.html>.
 
 - அக்கட்டளையின் விளக்கத்தைக் காண:
 

@@ -2,13 +2,16 @@
 layout: page
 title: common/git (Türkçe)
 description: "Dağıtım sürüö kontrol sistemi."
-content_hash: 006212cdbb3e5a5a7345d6d53044599e9171c9f6
+content_hash: b60c516b8d2b59a07b486f52f4d20fd9dbf71a66
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/git.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/git.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/git.html
@@ -32,13 +35,10 @@ related_topics:
     url: /uk/common/git.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git
+# git
 
 Dağıtım sürüö kontrol sistemi.
-Daha fazla bilgi için: <https://git-scm.com/>.
+Daha fazla bilgi: <https://git-scm.com/>.
 
 - Git sürümünü kontrol et:
 

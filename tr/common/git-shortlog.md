@@ -2,7 +2,7 @@
 layout: page
 title: common/git-shortlog (Türkçe)
 description: "'git log' çıktısını özetle."
-content_hash: 2b89ab81b4d11c6306c0d1a67c916ea04a945041
+content_hash: 5ffcc31f60cea00e21021e81848a1be7ffaf5a1e
 related_topics:
   - title: English version
     url: /en/common/git-shortlog.html
@@ -17,13 +17,10 @@ related_topics:
     url: /it/common/git-shortlog.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git shortlog
+# git shortlog
 
 'git log' çıktısını özetle.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-shortlog>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-shortlog>.
 
 - Yapılan tüm commit'lerin yazar ismiyle alfabetik olarak guruplanmış özetini göster:
 

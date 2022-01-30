@@ -2,7 +2,7 @@
 layout: page
 title: osx/w (中文)
 description: "显示谁登录以及他们在做什么。"
-content_hash: 26359c592c3a729711d49a1509655586bb8e9942
+content_hash: 30e8d4f4d2bebc06d5f534a9e71a6c4348cef76c
 related_topics:
   - title: English version
     url: /en/osx/w.html
@@ -15,6 +15,7 @@ related_topics:
 
 显示谁登录以及他们在做什么。
 打印用户登录、tty、远程主机、登录时间、空闲时间、当前进程。
+更多信息：<https://ss64.com/osx/w.html>.
 
 - 显示登录用户信息：
 

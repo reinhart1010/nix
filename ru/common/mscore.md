@@ -2,7 +2,7 @@
 layout: page
 title: common/mscore (русский)
 description: "Эта команда — псевдоним для `musescore`."
-content_hash: 883e0c9560edd434882c3f463813664709333b13
+content_hash: 736f62e93dce61336a07e263f5dd7775111b85b2
 related_topics:
   - title: bosanski version
     url: /bs/common/mscore.html
@@ -68,6 +68,7 @@ related_topics:
 # mscore
 
 Эта команда — псевдоним для `musescore`.
+Больше информации: <https://musescore.org/handbook/command-line-options>.
 
 - Смотри документацию для оригинальной команды:
 

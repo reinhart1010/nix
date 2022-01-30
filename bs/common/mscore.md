@@ -2,7 +2,7 @@
 layout: page
 title: common/mscore (bosanski)
 description: "Ova komanda je pseudonim za `musescore`."
-content_hash: f297c2adf77b4528a7294e3ea8e978839b0190ce
+content_hash: 80cb4b1a2794f1bc1a015957bfd4d71920c2868c
 related_topics:
   - title: Deutsch version
     url: /de/common/mscore.html
@@ -68,6 +68,7 @@ related_topics:
 # mscore
 
 Ova komanda je pseudonim za `musescore`.
+Više informacija: <https://musescore.org/handbook/command-line-options>.
 
 - Pogledaj dokumentaciju za izvornu komandu:
 

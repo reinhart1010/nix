@@ -2,7 +2,7 @@
 layout: page
 title: common/git-clean (Türkçe)
 description: "Takip edilmeyen dosyaları çalışma ağacından sil."
-content_hash: ba2811f42782447762b0e5180a9a628ff4ea3d25
+content_hash: a0ca4915310b998a0b84ec9b82b4f7da78f53b3f
 related_topics:
   - title: English version
     url: /en/common/git-clean.html
@@ -20,13 +20,10 @@ related_topics:
     url: /ta/common/git-clean.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git clean
+# git clean
 
 Takip edilmeyen dosyaları çalışma ağacından sil.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-clean>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-clean>.
 
 - Git tarafından takip edilmeyen dosyaları sil:
 

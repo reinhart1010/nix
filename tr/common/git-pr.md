@@ -2,7 +2,7 @@
 layout: page
 title: common/git-pr (Türkçe)
 description: "Github çekme isteklerini (pr) yerelde kontrol et."
-content_hash: 514cb6a11f33747203164cc740beaa706529cff8
+content_hash: 9e141948dd9cae0803e990c5f13eee72f39b93f4
 related_topics:
   - title: English version
     url: /en/common/git-pr.html
@@ -14,13 +14,10 @@ related_topics:
     url: /fr/common/git-pr.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git pr
+# git pr
 
 Github çekme isteklerini (pr) yerelde kontrol et.
-Daha fazla bilgi için: <https://github.com/tj/git-extras/blob/master/Commands.md#git-pr>.
+Daha fazla bilgi: <https://github.com/tj/git-extras/blob/master/Commands.md#git-pr>.
 
 - Belirtilen çekme isteğini kontrol et:
 

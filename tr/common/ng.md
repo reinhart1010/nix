@@ -2,7 +2,7 @@
 layout: page
 title: common/ng (Türkçe)
 description: "Angular uygulamaları oluşturup yönetmek için bir Komut Satırı Arayüzü (CLI)."
-content_hash: 4c1e27c71e66f598964c5091af1d1422bf884867
+content_hash: 249813342249947fa58366740c075f2b256e9613
 related_topics:
   - title: English version
     url: /en/common/ng.html
@@ -11,7 +11,7 @@ related_topics:
 # ng
 
 Angular uygulamaları oluşturup yönetmek için bir Komut Satırı Arayüzü (CLI).
-Daha fazla bilgi için: <https://angular.io/cli>.
+Daha fazla bilgi: <https://angular.io/cli>.
 
 - Bir klasörün içinde yeni bir Angular uygulaması oluştur:
 

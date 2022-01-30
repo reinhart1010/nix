@@ -2,7 +2,7 @@
 layout: page
 title: common/git-bisect (Türkçe)
 description: "Bug taşıyan commit'i bulmak için ikili arama kullan."
-content_hash: 80fdd9012c9cdc2c88c0de72b4eef8dc8b93b15e
+content_hash: edd786beae2f7971265faa78f6b54656aaad5c46
 related_topics:
   - title: Deutsch version
     url: /de/common/git-bisect.html
@@ -23,14 +23,11 @@ related_topics:
     url: /ta/common/git-bisect.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git bisect
+# git bisect
 
 Bug taşıyan commit'i bulmak için ikili arama kullan.
 Git otomatik olarak commit çizelgesi içinde oradan oraya atlayarak yaramaz commit'i saptar.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-bisect>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-bisect>.
 
 - Buglı bilinen bir commit'i ve (genelde eski olan) iyi bir commit'i belirterek ikiye bölme işlemini başlat:
 

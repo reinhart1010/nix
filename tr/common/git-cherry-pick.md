@@ -2,7 +2,7 @@
 layout: page
 title: common/git-cherry-pick (Türkçe)
 description: "Varolan commit'ler ile getirilen yenilikleri mevcut dala uygula."
-content_hash: 471ad88c4c73f1b14a3decf152a7ef1b1a498aff
+content_hash: aae9c033d680b298320d5529638bfc830ad4f061
 related_topics:
   - title: বাংলা version
     url: /bn/common/git-cherry-pick.html
@@ -23,14 +23,11 @@ related_topics:
     url: /ta/common/git-cherry-pick.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git cherry-pick
+# git cherry-pick
 
 Varolan commit'ler ile getirilen yenilikleri mevcut dala uygula.
 Değişiklikleri başka bir dala aktarmak için, önce `git checkout` komutu kullanılmalıdır.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-cherry-pick>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-cherry-pick>.
 
 - Mevcut dala bir commit uygula:
 

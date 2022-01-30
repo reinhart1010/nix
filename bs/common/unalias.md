@@ -2,7 +2,7 @@
 layout: page
 title: common/unalias (bosanski)
 description: "Ukloni pseudonime."
-content_hash: 9d8c564ce95a47ff345275c22f8a26f746ee72cb
+content_hash: 9b23920d48da4919b624d3044969607aa94346a6
 related_topics:
   - title: English version
     url: /en/common/unalias.html
@@ -26,6 +26,7 @@ related_topics:
 # unalias
 
 Ukloni pseudonime.
+Više informacija: <https://manned.org/unalias>.
 
 - Ukloni pseudonim:
 

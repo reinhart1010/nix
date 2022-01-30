@@ -2,7 +2,7 @@
 layout: page
 title: linux/amixer (Deutsch)
 description: "Mixer für den ALSA Soundkarten-Treiber."
-content_hash: b7a9c896088af7cae95a41aa19d41c98d6b57158
+content_hash: 5f8550af8082beffddd411110f87f2027d2ac037
 related_topics:
   - title: English version
     url: /en/linux/amixer.html
@@ -14,7 +14,7 @@ related_topics:
 # amixer
 
 Mixer für den ALSA Soundkarten-Treiber.
-Mehr Informationen: <https://manned.org/amixer>.
+Weitere Informationen: <https://manned.org/amixer>.
 
 - Erhöhe den Gesamtpegel um 10%:
 

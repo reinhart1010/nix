@@ -2,7 +2,7 @@
 layout: page
 title: common/tldrl (português (Brasil))
 description: "Este comando é um pseudônimo de `tldr-lint`."
-content_hash: 3738cf0bb37c95d9df3cdcb1ecb96d39a41ac2d6
+content_hash: 9905ad827c7ceb41b48055c88a2a04040b0fb5fd
 related_topics:
   - title: bosanski version
     url: /bs/common/tldrl.html
@@ -71,6 +71,7 @@ related_topics:
 # tldrl
 
 Este comando é um pseudônimo de `tldr-lint`.
+Mais informações: <https://github.com/tldr-pages/tldr-lint>.
 
 - Ver documentação sobre o comando original:
 

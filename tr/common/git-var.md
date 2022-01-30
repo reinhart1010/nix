@@ -2,20 +2,17 @@
 layout: page
 title: common/git-var (Türkçe)
 description: "Bir Git mantıksal değişkeninin değerini yazdırır."
-content_hash: 9fc23259a3097c84fc9354bc66b726fea638f2c2
+content_hash: a9247c32c5c6f1cb86ea3a5068c7556efe53e5b0
 related_topics:
   - title: English version
     url: /en/common/git-var.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git var
+# git var
 
 Bir Git mantıksal değişkeninin değerini yazdırır.
 Ayrıca bu komuttan daha çok tercih edilen `git config`'e bakılması önerilir.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-var>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-var>.
 
 - Yerel bir Git mantıksal değişkeninin değerini yazdır:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/git-rev-parse (Türkçe)
 description: "Belirtilen sürümler için metaveri görüntüle."
-content_hash: 1e8a53c724130b49fffa63f1d725e2481c296cc9
+content_hash: 9ccdd30a1126e7e697e0c43813a3944accc1c87f
 related_topics:
   - title: English version
     url: /en/common/git-rev-parse.html
@@ -17,13 +17,10 @@ related_topics:
     url: /it/common/git-rev-parse.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git rev-parse
+# git rev-parse
 
 Belirtilen sürümler için metaveri görüntüle.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-rev-parse>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-rev-parse>.
 
 - Bir dalın commit verisini göster:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/git-update-ref (Türkçe)
 description: "Git referanslarını yaratmak, güncellemek ve silmeye yarayan bir Git komutu."
-content_hash: 79a80ab34d5fbd9d658e02d5427a5d0651a64c11
+content_hash: a6e3be0f5aa8db05430a3b9e1aea5444f4998e73
 related_topics:
   - title: English version
     url: /en/common/git-update-ref.html
@@ -14,13 +14,10 @@ related_topics:
     url: /it/common/git-update-ref.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git update-ref
+# git update-ref
 
 Git referanslarını yaratmak, güncellemek ve silmeye yarayan bir Git komutu.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-update-ref>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-update-ref>.
 
 - Bir referansı sil (ilk commit'i hafifçe sıfırlamaya yarar):
 

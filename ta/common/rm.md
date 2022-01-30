@@ -2,7 +2,7 @@
 layout: page
 title: common/rm (தமிழ்)
 description: "கோப்புகளையோ அடைவுகளையோ அழி."
-content_hash: 4dcebd80e0743e8d9e85981fa7695141591a40b5
+content_hash: 4cd81b6b49fc435780f8e1a5563676d9a85804a6
 related_topics:
   - title: English version
     url: /en/common/rm.html
@@ -32,7 +32,7 @@ related_topics:
 # rm
 
 கோப்புகளையோ அடைவுகளையோ அழி.
-மேலும் தகவல்: <https://www.gnu.org/software/coreutils/rm>.
+மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/rm>.
 
 - கோப்புகளை அழி:
 

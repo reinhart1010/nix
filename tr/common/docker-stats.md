@@ -2,7 +2,7 @@
 layout: page
 title: common/docker-stats (Türkçe)
 description: "Konteynerler için kaynak kullanım istatistiklerinin canlı yayınını görüntüle."
-content_hash: dd6700d183f82aa9a725a7c3dd47e422d9634b76
+content_hash: 9c3e651f8afc75f72b8644f6509e83b40f32350c
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-stats.html
@@ -17,7 +17,7 @@ related_topics:
 # docker stats
 
 Konteynerler için kaynak kullanım istatistiklerinin canlı yayınını görüntüle.
-Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/stats/>.
+Daha fazla bilgi: <https://docs.docker.com/engine/reference/commandline/stats/>.
 
 - Çalışan tüm konteynerlerin aynak kullanım istatistiklerinin canlı yayınını görüntüle:
 

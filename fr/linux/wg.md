@@ -2,7 +2,7 @@
 layout: page
 title: linux/wg (français)
 description: "Gestion de la configuration des interfaces WireGuard."
-content_hash: 892716564f1761b6b9d5a37ada9d2578b09a275b
+content_hash: d0d3525a74ea543cbf0732d6bf43c467f01ebf74
 related_topics:
   - title: English version
     url: /en/linux/wg.html
@@ -11,7 +11,7 @@ related_topics:
 # wg
 
 Gestion de la configuration des interfaces WireGuard.
-Plus d'informations: <https://www.wireguard.com/quickstart/>.
+Plus d'informations : <https://www.wireguard.com/quickstart/>.
 
 - Vérifier l'état des interfaces actuellement actives :
 

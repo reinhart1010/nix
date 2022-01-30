@@ -2,7 +2,7 @@
 layout: page
 title: linux/pacman (Türkçe)
 description: "Arch Linux paket yönetim aracı."
-content_hash: 8b4b0bc203b732c55160b99eba1c8301f69b79b9
+content_hash: b3ce527083fec2b68f04dcef909b3d098ae65062
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -19,6 +19,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/pacman.html
     icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/linux/pacman.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/pacman.html
     icon: bi bi-globe
@@ -26,7 +29,7 @@ related_topics:
 # pacman
 
 Arch Linux paket yönetim aracı.
-Daha fazla bilgi için: <https://man.archlinux.org/man/pacman.8>.
+Daha fazla bilgi: <https://man.archlinux.org/man/pacman.8>.
 
 - Tüm paketleri senkronize et ve güncelle:
 

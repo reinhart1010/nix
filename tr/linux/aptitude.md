@@ -2,7 +2,7 @@
 layout: page
 title: linux/aptitude (Türkçe)
 description: "Debian ve Ubuntu paket yönetim aracı."
-content_hash: 1c5bf03873e5efde163f3d9b9e4528422edcec19
+content_hash: 5e6fc599bd35ae03b71aaf0772ed164697ad1389
 related_topics:
   - title: Deutsch version
     url: /de/linux/aptitude.html
@@ -23,7 +23,7 @@ related_topics:
 # aptitude
 
 Debian ve Ubuntu paket yönetim aracı.
-Daha fazla bilgi için: <https://manpages.debian.org/latest/aptitude/aptitude.8.html>.
+Daha fazla bilgi: <https://manpages.debian.org/latest/aptitude/aptitude.8.html>.
 
 - Kullanılabilir paket ve sürüm listesini senkronize et. Bu, herhangi bir aptitude komutunu uygulamadan önce çalıştırılmalıdır:
 

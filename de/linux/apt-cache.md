@@ -2,7 +2,7 @@
 layout: page
 title: linux/apt-cache (Deutsch)
 description: "Debian und Ubuntu Paket Suche."
-content_hash: 0e30664addb6782c46dbb606a1174801307fa1bb
+content_hash: 7f847fd9235e72a12cc3c56565d5a40b53a03f9b
 related_topics:
   - title: English version
     url: /en/linux/apt-cache.html
@@ -26,7 +26,7 @@ related_topics:
 # apt-cache
 
 Debian und Ubuntu Paket Suche.
-Mehr Informationen: <https://manpages.debian.org/latest/apt/apt-cache.8.html>.
+Weitere Informationen: <https://manpages.debian.org/latest/apt/apt-cache.8.html>.
 
 - Suche nach einem Paket in deinen aktuellen Paketquellen:
 

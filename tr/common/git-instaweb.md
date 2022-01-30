@@ -2,7 +2,7 @@
 layout: page
 title: common/git-instaweb (Türkçe)
 description: "gitweb sunucusu başlatmak için yardımcı araç."
-content_hash: e0665b5a9ada15eecb52bd0efe91807cee2b1904
+content_hash: c504b6f6d7e9bd32c68569cefccd65a3bd9fbc20
 related_topics:
   - title: English version
     url: /en/common/git-instaweb.html
@@ -14,13 +14,10 @@ related_topics:
     url: /it/common/git-instaweb.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git instaweb
+# git instaweb
 
 gitweb sunucusu başlatmak için yardımcı araç.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-instaweb>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-instaweb>.
 
 - Mevcut Git deposu için bir gitweb sunucusu başlat:
 

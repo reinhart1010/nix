@@ -2,7 +2,7 @@
 layout: page
 title: common/docker-compose (Türkçe)
 description: "Çoklu konteynerli docker uygulamalarını çalıştırın ve yönetin."
-content_hash: ccb2eb7eded825b892fd9e79d0b68b62a38891ed
+content_hash: 50544e1adbef392d6e0b73c26ce870d199ddcbe9
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -29,7 +29,7 @@ related_topics:
 # docker compose
 
 Çoklu konteynerli docker uygulamalarını çalıştırın ve yönetin.
-Daha fazla bilgi için: <https://docs.docker.com/compose/reference/>.
+Daha fazla bilgi: <https://docs.docker.com/compose/reference/>.
 
 - Tüm konteynerleri listele:
 

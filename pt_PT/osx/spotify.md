@@ -2,7 +2,7 @@
 layout: page
 title: osx/spotify (português (Portugal))
 description: "Interface de linha de comando para Spotify."
-content_hash: 2522cab6a08a3e50da63ff318b69710be745ef21
+content_hash: 160e1ffbfb0e684e616e4c4e37105aa150942e5d
 related_topics:
   - title: English version
     url: /en/osx/spotify.html
@@ -14,7 +14,7 @@ related_topics:
 # spotify
 
 Interface de linha de comando para Spotify.
-Mais informação: <https://github.com/hnarayanan/shpotify>.
+Mais informações: <https://github.com/hnarayanan/shpotify>.
 
 - Procura uma música por nome e reprouz:
 

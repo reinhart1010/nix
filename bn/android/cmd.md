@@ -2,7 +2,7 @@
 layout: page
 title: android/cmd (বাংলা)
 description: "অ্যান্ড্রয়েড সার্ভিস ম্যানেজার।"
-content_hash: 6d5ad4fac74ad64ce68615d4183e7833ee9a3540
+content_hash: 0a8c504ce1ac87b2528c0d551c3945cc2a148b6e
 related_topics:
   - title: Deutsch version
     url: /de/android/cmd.html
@@ -22,6 +22,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/android/cmd.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/android/cmd.html
+    icon: bi bi-globe
   - title: o‘zbek version
     url: /uz/android/cmd.html
     icon: bi bi-globe
@@ -35,7 +38,7 @@ related_topics:
 # cmd
 
 অ্যান্ড্রয়েড সার্ভিস ম্যানেজার।
-আরও তথ্য পাবেনঃ <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/cmd/>.
+আরও তথ্য পাবেন: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/cmd/>.
 
 - প্রতিটি চলমান পরিষেবা তালিকা করুন:
 

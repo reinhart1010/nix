@@ -2,7 +2,7 @@
 layout: page
 title: android/bugreportz (o‘zbek)
 description: "Arxivlangan Android xatolik xisoboti."
-content_hash: 1572f2f5c4ff4a9591b286e31e9ca94cc8ad2e99
+content_hash: 63a3477f7bfd66cf1366efde7a1d708b07f9c759
 related_topics:
   - title: Deutsch version
     url: /de/android/bugreportz.html
@@ -19,6 +19,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/android/bugreportz.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/android/bugreportz.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/android/bugreportz.html
     icon: bi bi-globe
@@ -30,7 +33,7 @@ related_topics:
 
 Arxivlangan Android xatolik xisoboti.
 Bu buyruq faqat `adb shell` orqali amalga oshiriladi.
-Ko'proq malumot: <https://android.googlesource.com/platform/frameworks/native/+/master/cmds/bugreportz/>.
+Ko'proq malumot: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreportz>.
 
 - Android qurulmasida to'liq arxivlangan xatoliklar xisobotini yaratish:
 

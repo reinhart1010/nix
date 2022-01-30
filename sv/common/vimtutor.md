@@ -2,7 +2,7 @@
 layout: page
 title: common/vimtutor (svenska)
 description: "Vim-handledare, lär ut de grundläggande vim-kommandona."
-content_hash: a5cacc2ea9333a0438aebd284411c0eb63762881
+content_hash: ad733ac93a47a7b27e1fffe763cfa4c0cd6a0571
 related_topics:
   - title: English version
     url: /en/common/vimtutor.html
@@ -14,6 +14,7 @@ related_topics:
 # vimtutor
 
 Vim-handledare, lär ut de grundläggande vim-kommandona.
+Mer information: <https://manned.org/vimtutor>.
 
 - Starta vim-handledaren med det angivna språket (en, fr, de, ...):
 

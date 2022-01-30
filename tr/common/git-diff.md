@@ -2,7 +2,7 @@
 layout: page
 title: common/git-diff (Türkçe)
 description: "İzlenen dosyalara değişiklikleri göster."
-content_hash: 2f6f04d1f0e021dda49c64335d13ada85acf3edf
+content_hash: 609cf98f7fec18e903392da26b5b7c56ac367046
 related_topics:
   - title: English version
     url: /en/common/git-diff.html
@@ -17,13 +17,10 @@ related_topics:
     url: /it/common/git-diff.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git diff
+# git diff
 
 İzlenen dosyalara değişiklikleri göster.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-diff>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-diff>.
 
 - Sahnelenmemiş, commit'lenmemiş değişiklikleri göster:
 

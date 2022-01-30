@@ -2,7 +2,7 @@
 layout: page
 title: common/sleep (മലയാളം)
 description: "കാലതാമസം വരുത്തുവാനുള്ള പ്രോഗ്രാം."
-content_hash: aa76c6b984f7eb83f40ef9022a22e7e25d5c0fa2
+content_hash: 8568f066b516593ba881e72cb41d5b34a003da4c
 related_topics:
   - title: Deutsch version
     url: /de/common/sleep.html
@@ -20,7 +20,7 @@ related_topics:
 # sleep
 
 കാലതാമസം വരുത്തുവാനുള്ള പ്രോഗ്രാം.
-കൂടുതൽ വിവരങ്ങൾ: <https://www.gnu.org/software/coreutils/manual/html_node/sleep-invocation.html#sleep-invocation>.
+കൂടുതൽ വിവരങ്ങൾ: <https://www.gnu.org/software/coreutils/sleep>.
 
 - നിമിഷങ്ങൾ വൈകിക്കാൻ:
 

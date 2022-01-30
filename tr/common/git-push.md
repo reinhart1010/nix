@@ -2,7 +2,7 @@
 layout: page
 title: common/git-push (Türkçe)
 description: "Commit'leri uzak depoya yolla."
-content_hash: 01420e9b6c2413b6d3c17766023a33339a91f68e
+content_hash: 8e454d69b2d41c83bcc25f934bc2977e8cf3e2e4
 related_topics:
   - title: Deutsch version
     url: /de/common/git-push.html
@@ -21,12 +21,18 @@ related_topics:
     icon: bi bi-globe
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/git-push.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># git push
 
 Commit'leri uzak depoya yolla.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-push>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-push>.
 
 - Mevcut daldaki yerel değişiklikleri onun uzak eşine gönder:
 

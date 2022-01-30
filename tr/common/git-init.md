@@ -2,7 +2,7 @@
 layout: page
 title: common/git-init (Türkçe)
 description: "Yeni bir yerel Git deposu başlat."
-content_hash: be86cce41f4c3d24f1680d55aa25d3b68a6bd970
+content_hash: 279239501a8f9fcc059d6b581f6fd582311b7e52
 related_topics:
   - title: Deutsch version
     url: /de/common/git-init.html
@@ -24,12 +24,18 @@ related_topics:
     icon: bi bi-globe
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/git-init.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># git init
 
 Yeni bir yerel Git deposu başlat.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-init>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-init>.
 
 - Yeni bir yerel depo başlat:
 

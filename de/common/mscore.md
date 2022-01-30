@@ -2,7 +2,7 @@
 layout: page
 title: common/mscore (Deutsch)
 description: "Dieser Befehl ist ein Alias von `musescore`."
-content_hash: cfbdfc74450ac704342ce15bd7b9a76463110b73
+content_hash: 67f91826a658d473dd7803999afd71075c12f279
 related_topics:
   - title: bosanski version
     url: /bs/common/mscore.html
@@ -68,6 +68,7 @@ related_topics:
 # mscore
 
 Dieser Befehl ist ein Alias von `musescore`.
+Weitere Informationen: <https://musescore.org/handbook/command-line-options>.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 

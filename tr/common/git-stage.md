@@ -2,7 +2,7 @@
 layout: page
 title: common/git-stage (Türkçe)
 description: "Değiştirilmiş dosyaları indekse ekle."
-content_hash: 1bd2cf1cfa113209b5cab9d658df5ed727003e0e
+content_hash: e04d1fb6b1c4cfc1d982a0057e0d9776ae0f2fe4
 related_topics:
   - title: English version
     url: /en/common/git-stage.html
@@ -14,14 +14,11 @@ related_topics:
     url: /it/common/git-stage.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git stage
+# git stage
 
 Değiştirilmiş dosyaları indekse ekle.
 Bu komut `git add`'in eş anlamlısıdır.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-add>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-stage>.
 
 - İndekse bir dosya ekle:
 

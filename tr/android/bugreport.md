@@ -2,7 +2,7 @@
 layout: page
 title: android/bugreport (Türkçe)
 description: "Bir Android bug raporu göster."
-content_hash: 2433ee7b87af37c2c4e561f940757d6cc6858cbc
+content_hash: b576d5c56a34642f8fcaa1a16544d084a7b82021
 related_topics:
   - title: Deutsch version
     url: /de/android/bugreport.html
@@ -33,7 +33,7 @@ related_topics:
 
 Bir Android bug raporu göster.
 Bu komut yalnızca `adb shell` ile kullanılabilir.
-Daha fazla bilgi için: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreport>.
+Daha fazla bilgi: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreport>.
 
 - Bir Android cihazı için eksizsiz bug raporu göster:
 

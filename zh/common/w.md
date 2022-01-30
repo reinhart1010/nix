@@ -2,7 +2,7 @@
 layout: page
 title: common/w (中文)
 description: "显示有哪些用户登录了本机以及他们当前的活动。"
-content_hash: 88bba762e5906389602d77f46f60eb1683708f5e
+content_hash: 51f6a446d4e92667131414676bece78d5d8972e4
 related_topics:
   - title: English version
     url: /en/common/w.html
@@ -18,6 +18,7 @@ related_topics:
 
 显示有哪些用户登录了本机以及他们当前的活动。
 打印用户登录，TTY, 远程主机，登录时间，闲置时间，当前进程。
+更多信息：<https://manned.org/w>.
 
 - 获取已登录用户信息：
 

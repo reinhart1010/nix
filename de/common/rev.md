@@ -2,7 +2,7 @@
 layout: page
 title: common/rev (Deutsch)
 description: "Kehre die Reihenfolge von Text um."
-content_hash: 76715209fd68b4711118bae8f28ef436a5517854
+content_hash: 01b0037bacf75bc882cbe8192a52b9f88eff8c6c
 related_topics:
   - title: English version
     url: /en/common/rev.html
@@ -14,6 +14,7 @@ related_topics:
 # rev
 
 Kehre die Reihenfolge von Text um.
+Weitere Informationen: <https://manned.org/rev>.
 
 - Kehre die Reihenfolge des Textes "Hallo" um:
 

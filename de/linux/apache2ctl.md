@@ -2,7 +2,7 @@
 layout: page
 title: linux/apache2ctl (Deutsch)
 description: "Das CLI Tool um den Apache HTTP Web Server zu administrieren."
-content_hash: 5fe7ea62fdcdebcb5b63adf8a1ccd5110a41d22b
+content_hash: 3ab3db1fdc575ee4d9d76c497e2f0a347633f89a
 related_topics:
   - title: English version
     url: /en/linux/apache2ctl.html
@@ -21,7 +21,7 @@ related_topics:
 
 Das CLI Tool um den Apache HTTP Web Server zu administrieren.
 Dieser Befehl wird mit Debian-basierten Betriebssystemen geliefert, für RHEL siehe `httpd`.
-Mehr Informationen: <https://manpages.debian.org/latest/apache2/apache2ctl.8.en.html>.
+Weitere Informationen: <https://manpages.debian.org/latest/apache2/apache2ctl.8.en.html>.
 
 - Starte den Apache daemon. Gibt einen Fehler aus, wenn er bereits läuft:
 

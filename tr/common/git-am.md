@@ -2,7 +2,7 @@
 layout: page
 title: common/git-am (Türkçe)
 description: "Yama dosyalarını uygula. E-posta ile commit alırken faydalıdır."
-content_hash: 3905224198e702524c7151d3356715f9941d32d9
+content_hash: 845d68c01f084e8625e342d2d4a6dde7319ab9d9
 related_topics:
   - title: Deutsch version
     url: /de/common/git-am.html
@@ -23,14 +23,11 @@ related_topics:
     url: /ta/common/git-am.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git am
+# git am
 
 Yama dosyalarını uygula. E-posta ile commit alırken faydalıdır.
 Ayrıca yama dosyalarının üretilmesine yarayan `git format-patch` sayfasına bakılması önerilir.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-am>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-am>.
 
 - Bir yama dosyasını uygula:
 

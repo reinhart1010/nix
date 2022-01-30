@@ -2,7 +2,7 @@
 layout: page
 title: common/unalias (日本語)
 description: "alias を削除します。"
-content_hash: 370aed385b18ca82fbea62c609918617a2e9def9
+content_hash: e1bbd1bc4d77c8dd4c93ca75964d2d8d168cc1ac
 related_topics:
   - title: bosanski version
     url: /bs/common/unalias.html
@@ -26,6 +26,7 @@ related_topics:
 # unalias
 
 alias を削除します。
+詳しくはこちら: <https://manned.org/unalias>
 
 - alias を削除する:
 

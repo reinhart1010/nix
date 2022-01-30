@@ -2,7 +2,7 @@
 layout: page
 title: common/git-ls-tree (Türkçe)
 description: "Bir ağaç nesnesinin içeriklerini sırala."
-content_hash: 01818073066d00df95e44ff984a0db93863a8efc
+content_hash: 662d813b951f3a4d03ab41f29d8ab69050e0b02a
 related_topics:
   - title: English version
     url: /en/common/git-ls-tree.html
@@ -17,13 +17,10 @@ related_topics:
     url: /it/common/git-ls-tree.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git ls-tree
+# git ls-tree
 
 Bir ağaç nesnesinin içeriklerini sırala.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-ls-tree>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-ls-tree>.
 
 - Bir daldaki ağacın içeriklerini sırala:
 

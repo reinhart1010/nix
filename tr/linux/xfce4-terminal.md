@@ -2,7 +2,7 @@
 layout: page
 title: linux/xfce4-terminal (Türkçe)
 description: "XFCE4 terminal öykünücüsü."
-content_hash: 69544eb9b018b1fea1aaa8e80724626e40391d60
+content_hash: 4dafa577dc0594bf2a4971587b8d087790306e83
 related_topics:
   - title: English version
     url: /en/linux/xfce4-terminal.html
@@ -11,7 +11,7 @@ related_topics:
 # xfce4-terminal
 
 XFCE4 terminal öykünücüsü.
-Daha fazla bilgi için: <https://docs.xfce.org/apps/xfce4-terminal/start>.
+Daha fazla bilgi: <https://docs.xfce.org/apps/xfce4-terminal/start>.
 
 - Yeni bir terminal penceresi aç:
 

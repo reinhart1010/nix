@@ -2,7 +2,7 @@
 layout: page
 title: common/mscore (हिन्दी)
 description: "यह आदेश `musescore` का उपनाम है।"
-content_hash: 7cd1941b7cb86a0917a30902875789baac35a49b
+content_hash: 366493015dd1f933fbcd41e916e8d6434a921cd0
 related_topics:
   - title: bosanski version
     url: /bs/common/mscore.html
@@ -68,6 +68,7 @@ related_topics:
 # mscore
 
 यह आदेश `musescore` का उपनाम है।
+अधिक जानकारी: <https://musescore.org/handbook/command-line-options>।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 

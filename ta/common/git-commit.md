@@ -2,7 +2,7 @@
 layout: page
 title: common/git-commit (தமிழ்)
 description: "கோப்புகளை களஞ்சியத்திற்கு கமிட்செய்ய."
-content_hash: a9c237983fa1741a623be2f8e2d756baacf43b42
+content_hash: 8c1fbff68db629eba573fb8cddea05e9fbc2a0f2
 related_topics:
   - title: Deutsch version
     url: /de/common/git-commit.html
@@ -22,6 +22,9 @@ related_topics:
   - title: italiano version
     url: /it/common/git-commit.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-commit.html
+    icon: bi bi-globe
   - title: українська version
     url: /uk/common/git-commit.html
     icon: bi bi-globe
@@ -38,7 +41,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># git commit
 
 கோப்புகளை களஞ்சியத்திற்கு கமிட்செய்ய.
-மேலும் தகவல்: <https://git-scm.com/docs/git-commit>.
+மேலும் விவரத்திற்கு: <https://git-scm.com/docs/git-commit>.
 
 - ஒரு செய்தியுடன் களஞ்சியத்திற்கு அரங்குக் கோப்புகளை கமிட் செய்யுங்கள்:
 

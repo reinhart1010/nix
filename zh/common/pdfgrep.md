@@ -2,7 +2,7 @@
 layout: page
 title: common/pdfgrep (中文)
 description: "在 PDF 文件中搜索文本。"
-content_hash: 2d0f9065787d9b0257804fa77e2d21606153ddf9
+content_hash: 1413511f45ca70daaf41e1f175e93ef36da49695
 related_topics:
   - title: English version
     url: /en/common/pdfgrep.html
@@ -11,6 +11,7 @@ related_topics:
 # pdfgrep
 
 在 PDF 文件中搜索文本。
+更多信息：<https://pdfgrep.org>.
 
 - 在 PDF 中查找与关键词匹配的行：
 

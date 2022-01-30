@@ -2,7 +2,7 @@
 layout: page
 title: common/rmdir (தமிழ்)
 description: "அடைவை அழி."
-content_hash: 54f4d8cc37f913debb23eb3c150202925cbd25d8
+content_hash: 67523701d934c3568fd19cb294b19e3f2c98f638
 related_topics:
   - title: English version
     url: /en/common/rmdir.html
@@ -14,7 +14,7 @@ related_topics:
 # rmdir
 
 அடைவை அழி.
-மேலும் தகவல்: <https://www.gnu.org/software/coreutils/rmdir>.
+மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/rmdir>.
 
 - அடைவு வெறுமையாகயிருந்தால் அதனை அழி. உள்ளடக்கமுடைய அடைவை நீக்க `rm` யைப் பயன்படுத்தவும்:
 

@@ -2,7 +2,7 @@
 layout: page
 title: linux/aptitude (Deutsch)
 description: "Debian und Ubuntu Paket Management Tool."
-content_hash: 6924c4d777007fb75322fccfaf9542cf6e4a591b
+content_hash: 1c54ae1f92a0ea39349811b8425c91517a0483c1
 related_topics:
   - title: English version
     url: /en/linux/aptitude.html
@@ -23,7 +23,7 @@ related_topics:
 # aptitude
 
 Debian und Ubuntu Paket Management Tool.
-Mehr Informationen: <https://manpages.debian.org/latest/aptitude/aptitude.8.html>.
+Weitere Informationen: <https://manpages.debian.org/latest/aptitude/aptitude.8.html>.
 
 - Synchronisiere die Paketliste und verfügbaren Versionen. Dieser Command sollte zuerst ausgeführt werden bevor weitere aptitude Commands ausgeführt werden:
 

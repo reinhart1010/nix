@@ -2,7 +2,7 @@
 layout: page
 title: common/wpa_supplicant (português (Brasil))
 description: "Gerenciador de redes wireless protegidas."
-content_hash: f2f298752a239de9d3e7216d0c9401589f5e1adf
+content_hash: cf6db84939be800b086355baa158e1b1495c0304
 related_topics:
   - title: English version
     url: /en/common/wpa_supplicant.html
@@ -11,6 +11,7 @@ related_topics:
 # wpa_supplicant
 
 Gerenciador de redes wireless protegidas.
+Mais informações: <https://manned.org/wpa_supplicant.1>.
 
 - Entrar em uma rede wireless protegida:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/ps (日本語)
 description: "実行中のプロセスに関する情報。"
-content_hash: abf974b17aeec40f0124160e9a4f9c2187a9369e
+content_hash: 0338f1dfb00cb8049ff7c1f223b555dece279b3e
 related_topics:
   - title: English version
     url: /en/common/ps.html
@@ -14,6 +14,7 @@ related_topics:
 # ps
 
 実行中のプロセスに関する情報。
+詳しくはこちら: <https://manned.org/ps>
 
 - 実行中のプロセスをすべてリストアップ:
 

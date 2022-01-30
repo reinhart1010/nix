@@ -2,7 +2,7 @@
 layout: page
 title: common/which (français)
 description: "Localise un programme dans le chemin de l'utilisateur."
-content_hash: 14281c6285189d952c118ed291e31a21ff782d01
+content_hash: 04b20ad70e7b83ce3250925344182b0ae3c482f7
 related_topics:
   - title: English version
     url: /en/common/which.html
@@ -17,6 +17,7 @@ related_topics:
 # which
 
 Localise un programme dans le chemin de l'utilisateur.
+Plus d'informations : <https://manned.org/which>.
 
 - Fouille la variable d'environnement « PATH » et affiche l'emplacement des programmes exécutables correspondants à la requête :
 

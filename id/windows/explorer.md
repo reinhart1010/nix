@@ -2,7 +2,7 @@
 layout: page
 title: windows/explorer (Indonesia)
 description: "Windows File Explorer: penjelajah file pada Windows."
-content_hash: c0aae6e40dd9e57cd5a4127b0bfa75ca0c72e6c7
+content_hash: 3b9240dda030aa37cb337a3985128ec9f3404b1d
 related_topics:
   - title: English version
     url: /en/windows/explorer.html
@@ -14,7 +14,7 @@ related_topics:
 # explorer
 
 Windows File Explorer: penjelajah file pada Windows.
-Informasi Lebih Lanjut: <https://ss64.com/nt/explorer.html>.
+Informasi lebih lanjut: <https://ss64.com/nt/explorer.html>.
 
 - Membuka Windows Explorer:
 

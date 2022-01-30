@@ -2,7 +2,7 @@
 layout: page
 title: linux/aplay (Deutsch)
 description: "Command-line Musik Player für den ALSA Soundkarten-Treiber."
-content_hash: a6d6aefeebe208c59fefedb031c8c9d7654fefc8
+content_hash: 0ee7acf1499841606cfba8d3fdf851207646166b
 related_topics:
   - title: English version
     url: /en/linux/aplay.html
@@ -14,7 +14,7 @@ related_topics:
 # aplay
 
 Command-line Musik Player für den ALSA Soundkarten-Treiber.
-Mehr Informationen: <https://manned.org/aplay>.
+Weitere Informationen: <https://manned.org/aplay>.
 
 - Spiele eine bestimmte Datei (Abtastrate, Bittiefe, etc. werden automatisch für das Dateiformat erkannt):
 

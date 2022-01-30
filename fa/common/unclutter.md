@@ -2,7 +2,7 @@
 layout: page
 title: common/unclutter (فارسی)
 description: "مخفی کردن نشان ماوس."
-content_hash: cd3c67143052dcc1dfbf9a53f84bf05368354261
+content_hash: 105f9e426eabc1e0a02621905be7c9266701ebe9
 related_topics:
   - title: bosanski version
     url: /bs/common/unclutter.html
@@ -26,6 +26,7 @@ related_topics:
 # unclutter
 
 مخفی کردن نشان ماوس.
+اطلاعات بیشتر: <https://manned.org/unclutter.1x>.
 
 - مخفی کردن نشان ماوس بعد از 3 ثانیه:
 

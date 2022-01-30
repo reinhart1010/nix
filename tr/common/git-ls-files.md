@@ -2,19 +2,16 @@
 layout: page
 title: common/git-ls-files (Türkçe)
 description: "İndex ve mevcut ağaçtaki dosyalar hakkında bilgi göster."
-content_hash: c2f79606882b769b360aa30fe49bbedaa13c8f88
+content_hash: df729ace9f0f9db9412ef4b62845bb45e7aaeb87
 related_topics:
   - title: English version
     url: /en/common/git-ls-files.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git ls-files
+# git ls-files
 
 İndex ve mevcut ağaçtaki dosyalar hakkında bilgi göster.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-ls-files>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-ls-files>.
 
 - Silinen dosyaları göster:
 

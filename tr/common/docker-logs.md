@@ -2,7 +2,7 @@
 layout: page
 title: common/docker-logs (Türkçe)
 description: "Konteyner kaydını yazdırır."
-content_hash: 9d7c03237ecd7eaa36e305cdb5a2be9555e6f242
+content_hash: cd9097accbfee39b32111f9e618865f64bd34e36
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-logs.html
@@ -23,7 +23,7 @@ related_topics:
 # docker logs
 
 Konteyner kaydını yazdırır.
-Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/logs>.
+Daha fazla bilgi: <https://docs.docker.com/engine/reference/commandline/logs>.
 
 - Bir konteyner içindeki kayıtları yazdır:
 

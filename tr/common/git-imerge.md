@@ -2,7 +2,7 @@
 layout: page
 title: common/git-imerge (Türkçe)
 description: "İki git dalı arasında aşamalı olarak birleştirme veya taban değiştirme işlemlerini uygula."
-content_hash: bfb75b292a52892adf02c283b76acda2b522db23
+content_hash: 93c2da6fbbe2f444d9d8d6fa61549e464ce7e427
 related_topics:
   - title: English version
     url: /en/common/git-imerge.html
@@ -17,14 +17,11 @@ related_topics:
     url: /it/common/git-imerge.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git-imerge
+# git-imerge
 
 İki git dalı arasında aşamalı olarak birleştirme veya taban değiştirme işlemlerini uygula.
 Dallar arasındaki uyuşmazlıklar özel commitler ile bölüşülerek uyuşmazlıkları çözmek kolaylaştırılır.
-Daha fazla bilgi için: <https://github.com/mhagger/git-imerge>.
+Daha fazla bilgi: <https://github.com/mhagger/git-imerge>.
 
 - imerge bazlı taban değiştirme işlemini başlat (işlemden önce tabanı değiştirilmek istenen dalı kontrol et):
 

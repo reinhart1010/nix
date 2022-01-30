@@ -2,16 +2,22 @@
 layout: page
 title: android/pkg (Türkçe)
 description: "Termux için paket yönetim aracı."
-content_hash: 3749574fd9161a9522138905e48eeed99812a5b2
+content_hash: 17708bbb188ff4c9d6f06b0efaff81c84ddfb3e0
 related_topics:
   - title: English version
     url: /en/android/pkg.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/android/pkg.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/android/pkg.html
     icon: bi bi-globe
 ---
 # pkg
 
 Termux için paket yönetim aracı.
-Daha fazla bilgi için: <https://wiki.termux.com/wiki/Package_Management>.
+Daha fazla bilgi: <https://wiki.termux.com/wiki/Package_Management>.
 
 - İndirilmiş tüm paketleri yükselt:
 

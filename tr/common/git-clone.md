@@ -2,7 +2,7 @@
 layout: page
 title: common/git-clone (Türkçe)
 description: "Varolan bir dizini klonla."
-content_hash: 06d37b813bf85ce7c23bd895505ee72d6fc45996
+content_hash: 865c8c71c22cda92d6258820dfe7b8d8e0a9ebba
 related_topics:
   - title: Deutsch version
     url: /de/common/git-clone.html
@@ -27,12 +27,18 @@ related_topics:
     icon: bi bi-globe
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/git-clone.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># git clone
 
 Varolan bir dizini klonla.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-clone>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-clone>.
 
 - Varolan bir depoyu klonla:
 

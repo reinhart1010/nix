@@ -2,7 +2,7 @@
 layout: page
 title: common/mscore (日本語)
 description: "このコマンドは `musescore` のエイリアスです."
-content_hash: e0a8c088fd21668894367378ee2573081089dcd2
+content_hash: 135158b99e83e324a3df04f95635c8c758ca71b1
 related_topics:
   - title: bosanski version
     url: /bs/common/mscore.html
@@ -68,6 +68,7 @@ related_topics:
 # mscore
 
 このコマンドは `musescore` のエイリアスです.
+詳しくはこちら: <https://musescore.org/handbook/command-line-options>
 
 - オリジナルのコマンドのドキュメントを表示する:
 

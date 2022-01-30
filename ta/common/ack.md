@@ -2,7 +2,7 @@
 layout: page
 title: common/ack (தமிழ்)
 description: "புரோகிராமர்களுக்கு உகந்ததாக கிரப் போன்ற தேடல் கருவி."
-content_hash: 42ecbe092f9d429a69a1c50d6faf82919e9de343
+content_hash: 95d4dc037238574e80fb332b91203b55409173e8
 related_topics:
   - title: English version
     url: /en/common/ack.html
@@ -41,7 +41,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># ack
 
 புரோகிராமர்களுக்கு உகந்ததாக கிரப் போன்ற தேடல் கருவி.
-மேலும் தகவல்: <https://beyondgrep.com/documentation>.
+மேலும் விவரத்திற்கு: <https://beyondgrep.com/documentation>.
 
 - "காலை" கொண்ட கோப்புகளைக் கண்டறியவும்:
 

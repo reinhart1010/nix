@@ -2,7 +2,7 @@
 layout: page
 title: linux/cp (Deutsch)
 description: "Kopiere Dateien und Verzeichnisse."
-content_hash: b02fe0c17669bbe905f35923b38d30030cf93885
+content_hash: e481182e3b07cae39f246f56640a92bb2f8ad92e
 related_topics:
   - title: English version
     url: /en/linux/cp.html
@@ -26,7 +26,7 @@ related_topics:
 # cp
 
 Kopiere Dateien und Verzeichnisse.
-Mehr Informationen: <https://www.gnu.org/software/coreutils/cp>.
+Weitere Informationen: <https://www.gnu.org/software/coreutils/cp>.
 
 - Kopiere eine Datei an einen anderen Ort:
 

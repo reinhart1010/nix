@@ -2,7 +2,7 @@
 layout: page
 title: android/settings (Türkçe)
 description: "Android işletim sistemi ile ilgili bilgi al."
-content_hash: 9b406895e17a43e7f9e129d385e58bf8ae7b1338
+content_hash: 98859d46e42401b316c4a6fefc8b2940c087dadf
 related_topics:
   - title: Deutsch version
     url: /de/android/settings.html
@@ -29,7 +29,7 @@ related_topics:
 # settings
 
 Android işletim sistemi ile ilgili bilgi al.
-Daha fazla bilgi için: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
+Daha fazla bilgi: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
 
 - `global` isim alanındaki ayarların sırasını görüntüle:
 

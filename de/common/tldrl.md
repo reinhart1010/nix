@@ -2,7 +2,7 @@
 layout: page
 title: common/tldrl (Deutsch)
 description: "Dieser Befehl ist ein Alias von `tldr-lint`."
-content_hash: 98e34b0e924756e82f6c278e16eef8fd48334c30
+content_hash: 7fd3fa7fe30c6ab36dd5f46873a9ba6011a4434c
 related_topics:
   - title: bosanski version
     url: /bs/common/tldrl.html
@@ -71,6 +71,7 @@ related_topics:
 # tldrl
 
 Dieser Befehl ist ein Alias von `tldr-lint`.
+Weitere Informationen: <https://github.com/tldr-pages/tldr-lint>.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 

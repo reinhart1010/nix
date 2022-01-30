@@ -2,19 +2,25 @@
 layout: page
 title: common/git-ignore (Türkçe)
 description: "Önceden belirlenmiş şablonlarla .gitignore dosyaları oluştur."
-content_hash: 12e1a0e6813f75e2f424909cf4179b6dfaff1df6
+content_hash: 1a8a8e7a7a56c5d1385d7b232f333a0dde76f7d6
 related_topics:
   - title: English version
     url: /en/common/git-ignore.html
     icon: bi bi-globe
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/git-ignore.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># git ignore
 
 Önceden belirlenmiş şablonlarla .gitignore dosyaları oluştur.
-Daha fazla bilgi için: <https://docs.gitignore.io/install/command-line>.
+Daha fazla bilgi: <https://github.com/tj/git-extras/blob/master/Commands.md#git-ignore>.
 
 - Mevzut şablonları sırala:
 

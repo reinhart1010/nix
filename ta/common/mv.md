@@ -2,7 +2,7 @@
 layout: page
 title: common/mv (தமிழ்)
 description: "கோப்புகளையோ அடைவுகளையோ நகர்த்து அல்லது மறுபெயரிடு."
-content_hash: 8a2a68f6dbf3ab1059e1137e5a7ca51a4570f391
+content_hash: 3f5e3eaa65a35cdeaf9567c3fd381f14a5f8a6f7
 related_topics:
   - title: Deutsch version
     url: /de/common/mv.html
@@ -35,7 +35,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># mv
 
 கோப்புகளையோ அடைவுகளையோ நகர்த்து அல்லது மறுபெயரிடு.
-மேலும் தகவல்: <https://www.gnu.org/software/coreutils/mv>.
+மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/mv>.
 
 - கோப்பை ஓரிடத்திலிருந்து இன்னோரிடத்திற்கு நகர்த்து:
 

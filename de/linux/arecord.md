@@ -2,7 +2,7 @@
 layout: page
 title: linux/arecord (Deutsch)
 description: "Sound Recorder für den ALSA Soundkarten Treiber."
-content_hash: 27791c6aef797f465eaedb31a660f913e2353118
+content_hash: 6eb45fbaf98e48b75659bba3ec1f99a930fae721
 related_topics:
   - title: English version
     url: /en/linux/arecord.html
@@ -14,7 +14,7 @@ related_topics:
 # arecord
 
 Sound Recorder für den ALSA Soundkarten Treiber.
-Mehr Informationen: <https://manned.org/arecord>.
+Weitere Informationen: <https://manned.org/arecord>.
 
 - Nehme einen Schnipsel in "CD" Qualität auf (beende die Aufnahme mit CTRL-C):
 

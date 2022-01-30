@@ -2,7 +2,7 @@
 layout: page
 title: common/perl (français)
 description: "Interpréteur du langage Perl (version 5)."
-content_hash: d76c0c931197b6bb768a95e3f66c6b90dd1669ec
+content_hash: a883b3fa933e612e6522a3d25baa16269da3e224
 related_topics:
   - title: English version
     url: /en/common/perl.html
@@ -11,7 +11,7 @@ related_topics:
 # perl
 
 Interpréteur du langage Perl (version 5).
-Plus d'informations : <https://www.perl.org/>.
+Plus d'informations : <https://www.perl.org>.
 
 - Exécuter le code contenu dans un fichier :
 

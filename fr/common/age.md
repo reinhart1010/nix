@@ -2,7 +2,7 @@
 layout: page
 title: common/age (français)
 description: "Un outil de cryptage de fichiers simple, moderne et sécurisé."
-content_hash: 8d2bfef99b7a9da92c494a1d47259f68dea247aa
+content_hash: 3771ff8a200c83c99baf3381ebb7af53b2e1af0a
 related_topics:
   - title: Deutsch version
     url: /de/common/age.html
@@ -20,7 +20,7 @@ related_topics:
 # age
 
 Un outil de cryptage de fichiers simple, moderne et sécurisé.
-Plus d'informations: <https://age-encryption.org>.
+Plus d'informations : <https://age-encryption.org>.
 
 - Générez un fichier crypté qui peut être décrypté avec une mot de passe:
 

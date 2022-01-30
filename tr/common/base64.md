@@ -2,7 +2,7 @@
 layout: page
 title: common/base64 (Türkçe)
 description: "Bir dosya veya standart veriyi Base64 formatında şifrele veya yalın veri çıktısı olarak deşifre et."
-content_hash: feb40ff10500e08afa1a707ed2dedaf35e2bfc58
+content_hash: 13c1f75936566a4718ad0eb1c72e8181ac65ca1e
 related_topics:
   - title: English version
     url: /en/common/base64.html
@@ -35,7 +35,7 @@ related_topics:
 # base64
 
 Bir dosya veya standart veriyi Base64 formatında şifrele veya yalın veri çıktısı olarak deşifre et.
-Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/base64>.
+Daha fazla bilgi: <https://www.gnu.org/software/coreutils/base64>.
 
 - Bir dosyayı şifrele:
 

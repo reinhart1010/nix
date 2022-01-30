@@ -2,7 +2,7 @@
 layout: page
 title: common/vlc (português (Brasil))
 description: "Reprodutor multimídia multi-plataforma."
-content_hash: 7dc946504c535a223fdaf65c901a1309c117a2c1
+content_hash: b12950c5efa261c8946c33256316f14c4a4bc670
 related_topics:
   - title: English version
     url: /en/common/vlc.html
@@ -17,7 +17,7 @@ related_topics:
 # vlc
 
 Reprodutor multimídia multi-plataforma.
-Mais informação <shttps://wiki.videolan.org/Documentation:Command_line/>.
+Mais informações: <https://wiki.videolan.org/Documentation:Command_line/>.
 
 - Reproduzir um arquivo:
 

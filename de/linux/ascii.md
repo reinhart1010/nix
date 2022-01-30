@@ -2,7 +2,7 @@
 layout: page
 title: linux/ascii (Deutsch)
 description: "Zeige ASCII Aliase von Buchstaben."
-content_hash: c306b2689f7e1271e597e3121eacb861cfa1be7e
+content_hash: 1aa986389b8c793d33d9d5738cc200c40c540151
 related_topics:
   - title: English version
     url: /en/linux/ascii.html
@@ -14,7 +14,7 @@ related_topics:
 # ascii
 
 Zeige ASCII Aliase von Buchstaben.
-Mehr Informationen: <http://www.catb.org/~esr/ascii/>.
+Weitere Informationen: <http://www.catb.org/~esr/ascii/>.
 
 - Zeige ASCII Aliase eines Buchstabens:
 

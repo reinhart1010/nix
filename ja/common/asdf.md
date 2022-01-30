@@ -2,10 +2,13 @@
 layout: page
 title: common/asdf (日本語)
 description: "さまざまなパッケージのバージョンを管理するためのコマンドラインインターフェイスです。"
-content_hash: 5486eef45665190d7c31d82cf4718f281310ee2a
+content_hash: e72011f5417c4a78b934952701ed7b46c242557b
 related_topics:
   - title: English version
     url: /en/common/asdf.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/asdf.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/asdf.html
@@ -23,7 +26,7 @@ related_topics:
 # asdf
 
 さまざまなパッケージのバージョンを管理するためのコマンドラインインターフェイスです。
-詳細はこちら。<https://asdf-vm.com>
+詳しくはこちら: <https://asdf-vm.com>
 
 - 利用可能なプラグインの一覧を表示:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/git-rev-list (Türkçe)
 description: "Değişiklikleri (commit'leri) ters kronolojik sırada sırala."
-content_hash: 58c26eac7c3cbc0b84d4ff20e27ec13eb4cf7240
+content_hash: 3a6349dbac6347effb75fb907aef50ca3f6fa649
 related_topics:
   - title: English version
     url: /en/common/git-rev-list.html
@@ -17,19 +17,10 @@ related_topics:
     url: /it/common/git-rev-list.html
     icon: bi bi-globe
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-rev-list.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git rev-list
+# git rev-list
 
 Değişiklikleri (commit'leri) ters kronolojik sırada sırala.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-rev-list>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-rev-list>.
 
 - Mevcut daldaki tüm commit'leri sırala:
 

@@ -2,7 +2,7 @@
 layout: page
 title: linux/acpi (Deutsch)
 description: "Zeigt den Akkustatus oder Temperatur-Informationen an."
-content_hash: 486c566b3fb584e602487e68ff93ab887e1f6bf6
+content_hash: 001cf36ee8c6603a32e028f5c4972597ad45b10a
 related_topics:
   - title: English version
     url: /en/linux/acpi.html
@@ -17,7 +17,7 @@ related_topics:
 # acpi
 
 Zeigt den Akkustatus oder Temperatur-Informationen an.
-Mehr Informationen: <https://sourceforge.net/projects/acpiclient/files/acpiclient/>.
+Weitere Informationen: <https://sourceforge.net/projects/acpiclient/files/acpiclient/>.
 
 - Zeige Informationen über den Akku an:
 

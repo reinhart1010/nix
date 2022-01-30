@@ -2,7 +2,7 @@
 layout: page
 title: linux/addr2line (Deutsch)
 description: "Konvertiere Adressen von Binärdateien in Dateinamen und Zeilennummern."
-content_hash: 12424358426bc192a2fbe0113b6c36c9aa371100
+content_hash: 386d3c38581545c145d3fc1324f54d7b5c562b82
 related_topics:
   - title: English version
     url: /en/linux/addr2line.html
@@ -14,7 +14,7 @@ related_topics:
 # addr2line
 
 Konvertiere Adressen von Binärdateien in Dateinamen und Zeilennummern.
-Mehr Informationen: <https://manned.org/addr2line>.
+Weitere Informationen: <https://manned.org/addr2line>.
 
 - Zeige den Dateinamen und die Zeilennummer des Quellcodes von einer Befehlssadresse einer ausführbaren Datei an:
 

@@ -2,7 +2,7 @@
 layout: page
 title: linux/arithmetic (Deutsch)
 description: "Quiz über simple arithmetische Probleme."
-content_hash: 38fc3ee3f0fa9b6a9753ff76db7cd9248e2cf154
+content_hash: 12ac6a44871b7787b941d0e9b021dbe0df24d3ab
 related_topics:
   - title: English version
     url: /en/linux/arithmetic.html
@@ -14,7 +14,7 @@ related_topics:
 # arithmetic
 
 Quiz über simple arithmetische Probleme.
-Mehr Informationen: <https://manpages.debian.org/bsdgames/arithmetic.6.en.html>.
+Weitere Informationen: <https://manpages.debian.org/bsdgames/arithmetic.6.en.html>.
 
 - Starte ein arithmetisches Quiz:
 

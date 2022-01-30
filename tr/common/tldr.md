@@ -2,7 +2,7 @@
 layout: page
 title: common/tldr (Türkçe)
 description: "Komut satırı araçları için tldr-pages projesinden basit yardım sayfaları görüntüler."
-content_hash: 777c980fbb3ac65de3ffff55d4ab48a70f407c41
+content_hash: 152b8324ae56ea8afa25db235d7aecdaa3cc0fc5
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
@@ -47,7 +47,7 @@ related_topics:
 # tldr
 
 Komut satırı araçları için tldr-pages projesinden basit yardım sayfaları görüntüler.
-Daha fazla bilgi için: <https://tldr.sh>.
+Daha fazla bilgi: <https://tldr.sh>.
 
 - Bir komutun tipik kullanımını göster (ipucu: burayı görüntülemek için kullandığınız komutun aynısı!):
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/grep (தமிழ்)
 description: "கோப்பில் தேடுகுறித்தொடர்களுடன் தேடு."
-content_hash: 3ecdefe850ff81a3ccff62395ac0f84fb10bde55
+content_hash: 111a307225edfe9ba88fe4980de3bf4fa81b48fa
 related_topics:
   - title: Deutsch version
     url: /de/common/grep.html
@@ -19,11 +19,14 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/grep.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/grep.html
+    icon: bi bi-globe
 ---
 # grep
 
 கோப்பில் தேடுகுறித்தொடர்களுடன் தேடு.
-மேலும் தகவல்: <https://www.gnu.org/software/grep/manual/grep.html>.
+மேலும் விவரத்திற்கு: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - கோப்பில் தேடு:
 

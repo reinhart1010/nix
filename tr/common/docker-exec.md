@@ -2,7 +2,7 @@
 layout: page
 title: common/docker-exec (Türkçe)
 description: "Halihazırda çalışan bir Docker konteyneri üstünde komut çalıştır."
-content_hash: f67427072bd2fcd5beac2ec4d669912e0c199106
+content_hash: 2edfd1b856dd27b0d55781c5c4e90ef1be2961c2
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-exec.html
@@ -17,7 +17,7 @@ related_topics:
 # docker exec
 
 Halihazırda çalışan bir Docker konteyneri üstünde komut çalıştır.
-Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/exec/>.
+Daha fazla bilgi: <https://docs.docker.com/engine/reference/commandline/exec/>.
 
 - Halihazırda çalışan bir konteynerin üstünde interaktif bir kabuk oturumunu çalıştır:
 

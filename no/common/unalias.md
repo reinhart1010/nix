@@ -2,7 +2,7 @@
 layout: page
 title: common/unalias (norsk bokmål (Norge))
 description: "Fjern aliaser."
-content_hash: 544dfda1aafa7f16557e3b44f41b791c8b478fcf
+content_hash: 3b81f87633dc615bc101a9ee07591bfdf7362e5d
 related_topics:
   - title: bosanski version
     url: /bs/common/unalias.html
@@ -26,6 +26,7 @@ related_topics:
 # unalias
 
 Fjern aliaser.
+Mer informasjon: <https://manned.org/unalias>.
 
 - Fjern et alias:
 

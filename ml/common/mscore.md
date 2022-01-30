@@ -2,7 +2,7 @@
 layout: page
 title: common/mscore (മലയാളം)
 description: "ഈ കമാൻഡ് `musescore` എന്നത്തിന്റെ അപരനാമമാണ്."
-content_hash: 0772fc8b3e6242e10c4138c6fe91c39d85d9c4e8
+content_hash: 8357d27bc28a6ca201f3fdfcb04e7bdc7138ca2c
 related_topics:
   - title: bosanski version
     url: /bs/common/mscore.html
@@ -68,6 +68,7 @@ related_topics:
 # mscore
 
 ഈ കമാൻഡ് `musescore` എന്നത്തിന്റെ അപരനാമമാണ്.
+കൂടുതൽ വിവരങ്ങൾ: <https://musescore.org/handbook/command-line-options>.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 

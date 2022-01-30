@@ -2,7 +2,7 @@
 layout: page
 title: linux/archlinux-java (Deutsch)
 description: "Ein Helfer Script das Funktionen für Java Umgebungen bereitstellt."
-content_hash: 4ef56cd71e3edc5cadfb83e5503b16fcb52a432d
+content_hash: 08dcefad7ac3ab1480f267b7b586de61bfb1fa3f
 related_topics:
   - title: English version
     url: /en/linux/archlinux-java.html
@@ -14,7 +14,7 @@ related_topics:
 # archlinux-java
 
 Ein Helfer Script das Funktionen für Java Umgebungen bereitstellt.
-Mehr Informationen: <https://github.com/michaellass/archlinux-java-run>.
+Weitere Informationen: <https://github.com/michaellass/archlinux-java-run>.
 
 - Liste installierte Java Umgebungen:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/java (中文)
 description: "Java 程序启动器。"
-content_hash: e5dfac63c5d7368b2711f67edc226cd943c0b6e7
+content_hash: 2c9f103c7628f60aed33f0f7ef7639776909c8f4
 related_topics:
   - title: English version
     url: /en/common/java.html
@@ -32,7 +32,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># java
 
 Java 程序启动器。
-更多信息：<https://java.com>.
+更多信息：<https://docs.oracle.com/en/java/javase/17/docs/specs/man/java.html>.
 
 - 通过提供类名称运行一个含有 main 函数的 java .class 程序：
 

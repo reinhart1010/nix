@@ -2,7 +2,7 @@
 layout: page
 title: common/git-commit (Türkçe)
 description: "Depoya dosya commit'le."
-content_hash: 9db35e7f067150d7b6638f19e9a7b9566aaf1a37
+content_hash: 03584be9d57932cb6bbc01a91450cf710325f164
 related_topics:
   - title: Deutsch version
     url: /de/common/git-commit.html
@@ -30,12 +30,18 @@ related_topics:
     icon: bi bi-globe
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/git-commit.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># git commit
 
 Depoya dosya commit'le.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-commit>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-commit>.
 
 - Sahnelenmiş dosyaları belirtilen mesaj ile commit'le:
 

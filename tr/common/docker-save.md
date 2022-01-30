@@ -2,7 +2,7 @@
 layout: page
 title: common/docker-save (Türkçe)
 description: "Bir veya daha fazla docker imgesini arşivlemek için dışa aktar."
-content_hash: df485eb918a46b1cdb2b4d881ea7c50b97ad4769
+content_hash: 980bd6d700181e6416d5cca026f03c5a39eb40dc
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-save.html
@@ -14,7 +14,7 @@ related_topics:
 # docker save
 
 Bir veya daha fazla docker imgesini arşivlemek için dışa aktar.
-Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/save/>.
+Daha fazla bilgi: <https://docs.docker.com/engine/reference/commandline/save/>.
 
 - Bir imgeyi, stdout'u tar arşivine yönlendirerek kaydet:
 

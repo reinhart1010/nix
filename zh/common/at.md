@@ -2,7 +2,7 @@
 layout: page
 title: common/at (中文)
 description: "在一段时间后，执行单次命令。"
-content_hash: d5ae468c864cdeb7a578d0939837a6ab86147cd5
+content_hash: a97018927e1209ec26e34b253c236bf885100fa7
 related_topics:
   - title: English version
     url: /en/common/at.html
@@ -30,7 +30,7 @@ related_topics:
 
 在一段时间后，执行单次命令。
 atd 服务（或 atrun）需要处于运行状态，以保证命令成功执行。
-更多信息：<https://manned.org/at>.
+更多信息：<https://man.archlinux.org/man/at.1>.
 
 - 5 分钟后，执行标准输入中的命令（命令输入完成后按 `Ctrl + D`）：
 

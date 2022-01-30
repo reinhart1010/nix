@@ -2,7 +2,7 @@
 layout: page
 title: common/git-pull (Türkçe)
 description: "Uzak bir depodan dal getir ve yerel depo ile birleştir."
-content_hash: ef79b3c87e2b6c2d617a63e403fe941139c1b411
+content_hash: 98df5a56c22d99565a032ed7185cb50d4e7e7d79
 related_topics:
   - title: Deutsch version
     url: /de/common/git-pull.html
@@ -20,13 +20,10 @@ related_topics:
     url: /it/common/git-pull.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git pull
+# git pull
 
 Uzak bir depodan dal getir ve yerel depo ile birleştir.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-pull>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-pull>.
 
 - Varsayılan uzak depodan değişiklikleri indir ve birleştir:
 

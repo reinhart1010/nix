@@ -2,7 +2,7 @@
 layout: page
 title: common/git-add (தமிழ்)
 description: "மாற்றப்பட்ட கோப்புகளை குறியீட்டில் சேர்க்கிறது."
-content_hash: 80b9a05dc5a34cd20534f3afcf2f52f2a17e8b7b
+content_hash: 0ca9cb4f00856e239dd6f256081778cfd5c1fee3
 related_topics:
   - title: Deutsch version
     url: /de/common/git-add.html
@@ -25,6 +25,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/git-add.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-add.html
+    icon: bi bi-globe
   - title: українська version
     url: /uk/common/git-add.html
     icon: bi bi-globe
@@ -32,7 +35,7 @@ related_topics:
 # git add
 
 மாற்றப்பட்ட கோப்புகளை குறியீட்டில் சேர்க்கிறது.
-மேலும் தகவல்: <https://git-scm.com/docs/git-add>.
+மேலும் விவரத்திற்கு: <https://git-scm.com/docs/git-add>.
 
 - குறியீட்டில் ஒரு கோப்பைச் சேர்க்க:
 

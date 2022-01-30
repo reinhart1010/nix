@@ -2,7 +2,7 @@
 layout: page
 title: common/javac (தமிழ்)
 description: "ஜாவா நிரல்மொழிமாற்றி."
-content_hash: ff826953454f1126953ed19e381b394919a886f8
+content_hash: d67c55a938981df376b37a4b8d0583685296f460
 related_topics:
   - title: English version
     url: /en/common/javac.html
@@ -17,7 +17,7 @@ related_topics:
 # javac
 
 ஜாவா நிரல்மொழிமாற்றி.
-மேலும் தகவல்: <https://docs.oracle.com/en/java/javase/17/docs/specs/man/javac.html>.
+மேலும் விவரத்திற்கு: <https://docs.oracle.com/en/java/javase/17/docs/specs/man/javac.html>.
 
 - `.java` கோப்பை நிரல்மொழிமாற்ற:
 

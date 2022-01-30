@@ -2,7 +2,7 @@
 layout: page
 title: common/unzip (русский)
 description: "Извлекает сжатые файлы из архива zip."
-content_hash: abdfa68cbe789ae93310deec97c1f5ac3be4a229
+content_hash: 001ad0a90386209d9d47fd809e9db643f774d97f
 related_topics:
   - title: English version
     url: /en/common/unzip.html
@@ -14,6 +14,7 @@ related_topics:
 # unzip
 
 Извлекает сжатые файлы из архива zip.
+Больше информации: <https://manned.org/unzip>.
 
 - Распаковать файл(ы) zip (для нескольких файлов укажите пути через пробел):
 

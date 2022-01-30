@@ -2,7 +2,7 @@
 layout: page
 title: android/bugreport (o‘zbek)
 description: "Android xatolik xisobotini ko'rsatish."
-content_hash: 2bc280c61e10077589fa673e856ebd9871965c1c
+content_hash: c4b8e10a122fe0a916f5e51e0dfaad27a13d4620
 related_topics:
   - title: Deutsch version
     url: /de/android/bugreport.html
@@ -19,6 +19,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/android/bugreport.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/android/bugreport.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/android/bugreport.html
     icon: bi bi-globe
@@ -30,7 +33,7 @@ related_topics:
 
 Android xatolik xisobotini ko'rsatish.
 Bu buyruq faqat `adb shell` orqali amalga oshiriladi.
-Ko'proq malumot: <https://android.googlesource.com/platform/frameworks/native/+/master/cmds/bugreport/>.
+Ko'proq malumot: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreport>.
 
 - Android qurulmasida to'liq xatoliklar xabarini ko'rsatish:
 

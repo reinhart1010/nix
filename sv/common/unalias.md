@@ -2,7 +2,7 @@
 layout: page
 title: common/unalias (svenska)
 description: "Ta bort alias."
-content_hash: 7a222e27cf96f40fb3468bcf71ccb1d762ea8794
+content_hash: 3962f2a717ae53f924ea72e0e079302336d7922f
 related_topics:
   - title: bosanski version
     url: /bs/common/unalias.html
@@ -26,6 +26,7 @@ related_topics:
 # unalias
 
 Ta bort alias.
+Mer information: <https://manned.org/unalias>.
 
 - Ta bort en alias:
 

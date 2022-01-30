@@ -2,7 +2,7 @@
 layout: page
 title: common/mscore (中文)
 description: "这是 `musescore` 命令的一个别名。"
-content_hash: 62f847b5f099505975be0e6e20876d969fc416c1
+content_hash: af720fc8ac9772bdc2bdacf0cf58f8a26085cab0
 related_topics:
   - title: bosanski version
     url: /bs/common/mscore.html
@@ -68,6 +68,7 @@ related_topics:
 # mscore
 
 这是 `musescore` 命令的一个别名。
+更多信息：<https://musescore.org/handbook/command-line-options>.
 
 - 原命令的文档在：
 

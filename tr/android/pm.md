@@ -2,7 +2,7 @@
 layout: page
 title: android/pm (Türkçe)
 description: "Android cihazındaki uygulamalar ile ilgili bilgi göster."
-content_hash: ac12dd3b53339f041f490fd6dbfbb6ed983d591e
+content_hash: 4ce78c19381e5d4f0d80067ccb52591b2c2025c2
 related_topics:
   - title: Deutsch version
     url: /de/android/pm.html
@@ -29,7 +29,7 @@ related_topics:
 # pm
 
 Android cihazındaki uygulamalar ile ilgili bilgi göster.
-Daha fazla bilgi için: <https://developer.android.com/studio/command-line/adb#pm>.
+Daha fazla bilgi: <https://developer.android.com/studio/command-line/adb#pm>.
 
 - İndirilen tüm uygulamaların sırala:
 

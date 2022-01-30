@@ -2,7 +2,7 @@
 layout: page
 title: common/git-clean (தமிழ்)
 description: "கண்காணிக்கப்படாத கோப்புகளை பணியிடத்திலிருந்து அகற்றவும்."
-content_hash: 330bc3ed33add8ad3e2a19272409973446ca2632
+content_hash: fd9cfb4a79b6d1e37110db2e5bff70860a364781
 related_topics:
   - title: English version
     url: /en/common/git-clean.html
@@ -16,11 +16,14 @@ related_topics:
   - title: italiano version
     url: /it/common/git-clean.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-clean.html
+    icon: bi bi-globe
 ---
 # git clean
 
 கண்காணிக்கப்படாத கோப்புகளை பணியிடத்திலிருந்து அகற்றவும்.
-மேலும் தகவல்: <https://git-scm.com/docs/git-clean>.
+மேலும் விவரத்திற்கு: <https://git-scm.com/docs/git-clean>.
 
 - கிட் மூலம் கண்காணிக்கப்படாத கோப்புகளை நீக்கு:
 

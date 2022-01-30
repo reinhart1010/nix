@@ -2,7 +2,7 @@
 layout: page
 title: common/pdfimages (polski)
 description: "Narzędzie do wyodrębniania obrazów z plików PDF."
-content_hash: c17b76a16e24a9fbc642158a9d2eb0f589b37a97
+content_hash: 6cde8125fb1daec6209456bbbfa5fc0895241aba
 related_topics:
   - title: English version
     url: /en/common/pdfimages.html
@@ -11,6 +11,7 @@ related_topics:
 # pdfimages
 
 Narzędzie do wyodrębniania obrazów z plików PDF.
+Więcej informacji: <https://manned.org/pdfimages>.
 
 - Wyodrębnij wszystkie obrazy z pliku PDF i zapisz je jako pliki PNG:
 

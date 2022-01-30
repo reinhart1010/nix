@@ -2,7 +2,7 @@
 layout: page
 title: common/git-archive (தமிழ்)
 description: "பெயரிடப்பட்ட மரத்திலிருந்து கோப்புகளின் காப்பகத்தை உருவாக்கவும்."
-content_hash: bb9a76b801047282757fd8e2c8f33b03c448b3b5
+content_hash: 81aa351fec6b68d7306210a73b39e133f0a79b9c
 related_topics:
   - title: Deutsch version
     url: /de/common/git-archive.html
@@ -16,11 +16,14 @@ related_topics:
   - title: italiano version
     url: /it/common/git-archive.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-archive.html
+    icon: bi bi-globe
 ---
 # git archive
 
 பெயரிடப்பட்ட மரத்திலிருந்து கோப்புகளின் காப்பகத்தை உருவாக்கவும்.
-மேலும் தகவல்: <https://git-scm.com/docs/git-archive>.
+மேலும் விவரத்திற்கு: <https://git-scm.com/docs/git-archive>.
 
 - தற்போதைய HEAD இன் உள்ளடக்கங்களிலிருந்து ஒரு தார் காப்பகத்தை உருவாக்கி அதை நிலையான வெளியீட்டில் அச்சிடுக:
 

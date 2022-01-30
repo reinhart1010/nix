@@ -2,7 +2,7 @@
 layout: page
 title: common/git-branch (Türkçe)
 description: "Dallar ile çalışmak için kullanılan ana Git komutu."
-content_hash: 87ae629b5f4ce0362e790949312f66aa9a3076bd
+content_hash: e4c67382ee182b9b7f2750376f5ae3bf29de5d97
 related_topics:
   - title: Deutsch version
     url: /de/common/git-branch.html
@@ -26,13 +26,10 @@ related_topics:
     url: /ta/common/git-branch.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git branch
+# git branch
 
 Dallar ile çalışmak için kullanılan ana Git komutu.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-branch>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-branch>.
 
 - Yerel dalları göster. Mevctu dal `*` ile vurgulanır:
 

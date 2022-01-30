@@ -2,7 +2,7 @@
 layout: page
 title: common/tldrl (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `tldr-lint`."
-content_hash: 2747cf3e54bdfc2025047382a2ba1e71b06c3169
+content_hash: b375ab5a328646b0f60bc1ca69ad05a6fa493871
 related_topics:
   - title: bosanski version
     url: /bs/common/tldrl.html
@@ -71,6 +71,7 @@ related_topics:
 # tldrl
 
 คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `tldr-lint`.
+ดูเพิ่มเติม: <https://github.com/tldr-pages/tldr-lint>.
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 

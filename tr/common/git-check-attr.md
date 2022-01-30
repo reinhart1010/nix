@@ -2,19 +2,16 @@
 layout: page
 title: common/git-check-attr (Türkçe)
 description: "`gitattributes` içeriği görüntüleme aracı"
-content_hash: 7e34f79be5714f77142b7eac45df0646eefd3815
+content_hash: 3dac5fee75c414e13cd776ac1c06110162a189b7
 related_topics:
   - title: English version
     url: /en/common/git-check-attr.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git check-attr
+# git check-attr
 
 `gitattributes` içeriği görüntüleme aracı
-Daha fazla bilgi için: <https://git-scm.com/docs/git-check-attr>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-check-attr>.
 
 - Bir dosyadaki tüm atıfları kontrol et:
 

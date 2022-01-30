@@ -2,7 +2,7 @@
 layout: page
 title: common/alias (नेपाली)
 description: "उपनामहरु बनाउछ -- सब्दहरु जसले आदेश स्टृङ्लाइ प्रतिस्थापन् गर्छ।"
-content_hash: 1a9dca80fd0a32bf3ed7e1028832c22b7db888b2
+content_hash: 6cd9cbb940599230b0c38d8d4ddc8467e6bd5ae1
 related_topics:
   - title: Deutsch version
     url: /de/common/alias.html
@@ -43,6 +43,9 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/alias.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/alias.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/alias.html
     icon: bi bi-globe
@@ -51,7 +54,7 @@ related_topics:
 
 उपनामहरु बनाउछ -- सब्दहरु जसले आदेश स्टृङ्लाइ प्रतिस्थापन् गर्छ।
 शेलको कन्फिगुरेतिओन् फाइलमा (जस्तै `~/.bashrc`) परिभासित् नगरेको खन्डमा उपनामहरुको आयु चलिरहेको शेल् सेसन् सङै सकिन्छ।
-थप जानकारी : <https://tldp.org/LDP/abs/html/aliases.html>।
+थप जानकारी: <https://tldp.org/LDP/abs/html/aliases.html>.
 
 - सबै उपनामहरुको सुची बनाउनुहोस् :
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/tldrl (bosanski)
 description: "Ova komanda je pseudonim za `tldr-lint`."
-content_hash: ff117a1aeb2eedef30497a3e55109ea30362844c
+content_hash: ca3bb6aeb167e5d1051d0484be3bec6c67fb5281
 related_topics:
   - title: Deutsch version
     url: /de/common/tldrl.html
@@ -71,6 +71,7 @@ related_topics:
 # tldrl
 
 Ova komanda je pseudonim za `tldr-lint`.
+Više informacija: <https://github.com/tldr-pages/tldr-lint>.
 
 - Pregledaj dokumentaciju za izvornu komandu:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/git-config (Türkçe)
 description: "Git depoları için yazılan kişisel konfigürasyon seçeneklerini yönet."
-content_hash: f71fc445b994db5052095a2d9758d62401315ca7
+content_hash: 978f1d4af3863b6a587a45e1f78972214bb73e49
 related_topics:
   - title: English version
     url: /en/common/git-config.html
@@ -20,14 +20,11 @@ related_topics:
     url: /zh/common/git-config.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git config
+# git config
 
 Git depoları için yazılan kişisel konfigürasyon seçeneklerini yönet.
 Bu konfigürasyonlar lokal (mevcut depo için) veya evrensel (mevcut kullanıcı için) olabilir.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-config>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-config>.
 
 - Yalnızca (mevcut depodaki `.git/config`'de saklanan) yerel konfigürasyon kayıtlarını sırala:
 

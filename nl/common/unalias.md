@@ -2,7 +2,7 @@
 layout: page
 title: common/unalias (Nederlands)
 description: "Verwijder aliassen."
-content_hash: fd18588559da147867b94d6f2df600f8de4d03ce
+content_hash: e9e12960af82325d4f6a3aa4de234b981a1cbdf2
 related_topics:
   - title: bosanski version
     url: /bs/common/unalias.html
@@ -26,6 +26,7 @@ related_topics:
 # unalias
 
 Verwijder aliassen.
+Meer informatie: <https://manned.org/unalias>.
 
 - Verwijder een alias:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/unclutter (bosanski)
 description: "Skriva kursor miša."
-content_hash: 392b5e63066139bc4c90fcbab3315c3caec29e82
+content_hash: 1fe4b2b5199a89d528e7acaf4245520bdc4a4f31
 related_topics:
   - title: Deutsch version
     url: /de/common/unclutter.html
@@ -26,6 +26,7 @@ related_topics:
 # unclutter
 
 Skriva kursor miša.
+Više informacija: <https://manned.org/unclutter.1x>.
 
 - Sakrij kursor miša nakon 3 sekunde:
 

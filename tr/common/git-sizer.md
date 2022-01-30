@@ -2,7 +2,7 @@
 layout: page
 title: common/git-sizer (Türkçe)
 description: "Git depo boyut metriklerini hesaplar ve problem veya rahatsızlığa sebep olabilecek boyutlarda uyarı verir."
-content_hash: 3cd8a78bb8fa10944d9def80146f0502c40af08a
+content_hash: 65a639150fb085f054427e8793bf2061fec0f044
 related_topics:
   - title: English version
     url: /en/common/git-sizer.html
@@ -17,13 +17,10 @@ related_topics:
     url: /it/common/git-sizer.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git sizer
+# git sizer
 
 Git depo boyut metriklerini hesaplar ve problem veya rahatsızlığa sebep olabilecek boyutlarda uyarı verir.
-Daha fazla bilgi için: <https://github.com/github/git-sizer>.
+Daha fazla bilgi: <https://github.com/github/git-sizer>.
 
 - 0'dan büyük önem içeren istatistikleri raporla:
 

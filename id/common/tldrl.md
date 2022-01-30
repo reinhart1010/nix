@@ -2,7 +2,7 @@
 layout: page
 title: common/tldrl (Indonesia)
 description: "Perintah ini merupakan alias dari `tldr-lint`."
-content_hash: 29c12474f9fd4b83df254761e6e8529f0c1b89d6
+content_hash: 158edd1e85a7f394910d63254f0e5370e58cab70
 related_topics:
   - title: bosanski version
     url: /bs/common/tldrl.html
@@ -71,6 +71,7 @@ related_topics:
 # tldrl
 
 Perintah ini merupakan alias dari `tldr-lint`.
+Informasi lebih lanjut: <https://github.com/tldr-pages/tldr-lint>.
 
 - Menampilkan dokumentasi untuk perintah asli:
 

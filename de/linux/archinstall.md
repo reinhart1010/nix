@@ -2,10 +2,13 @@
 layout: page
 title: linux/archinstall (Deutsch)
 description: "Geführte Arch Linux Installation."
-content_hash: 6df416061057bc506d94547ccb0acdd7587bc2f9
+content_hash: bbb384247f72d3f7249206f4188e9c0a70ecf48d
 related_topics:
   - title: English version
     url: /en/linux/archinstall.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/linux/archinstall.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/archinstall.html
@@ -14,7 +17,7 @@ related_topics:
 # archinstall
 
 Geführte Arch Linux Installation.
-Mehr Informationen: <https://archinstall.readthedocs.io>.
+Weitere Informationen: <https://archinstall.readthedocs.io>.
 
 - Starte den interaktiven Installer:
 

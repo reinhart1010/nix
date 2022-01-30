@@ -2,7 +2,7 @@
 layout: page
 title: common/git-subtree (Türkçe)
 description: "Proje bağımlılıklarını alt proje olarak yönetmeye yarayan bir araç."
-content_hash: 8a1e211b60f0ce40b26d66e5bf934495683110f7
+content_hash: e23994d990fbdbeaf98a230af65879b82603d13d
 related_topics:
   - title: English version
     url: /en/common/git-subtree.html
@@ -14,13 +14,10 @@ related_topics:
     url: /it/common/git-subtree.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git subtree
+# git subtree
 
 Proje bağımlılıklarını alt proje olarak yönetmeye yarayan bir araç.
-Daha fazla bilgi için: <https://manpages.debian.org/testing/git-man/git-subtree.1.en.html>.
+Daha fazla bilgi: <https://manpages.debian.org/testing/git-man/git-subtree.1.en.html>.
 
 - Bir Git deposunu alt ağaç olarak ekle:
 

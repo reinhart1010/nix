@@ -2,7 +2,7 @@
 layout: page
 title: common/git-rebase (Türkçe)
 description: "Bir daldan başka bir dalın üstüne commit'leri tekrar temeller."
-content_hash: 34741da37298d42d9544a120b2ecb7d9e9b99a30
+content_hash: 56ef012989d5a600b5836c1a0f41d8e869d80b4a
 related_topics:
   - title: Deutsch version
     url: /de/common/git-rebase.html
@@ -20,14 +20,11 @@ related_topics:
     url: /it/common/git-rebase.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git rebase
+# git rebase
 
 Bir daldan başka bir dalın üstüne commit'leri tekrar temeller.
 Sıklıkla bir dalı commit'leriyle beraber başka bir tabana "taşımak" için kullanılır.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-rebase>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-rebase>.
 
 - Mevcut dalı belirtilen öbür dal üzerine temelle:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/mkdir (தமிழ்)
 description: "அடைவை உருவாக்கு."
-content_hash: 6905728c3f1043ec4bcfbca14403e04ee44b624b
+content_hash: 1712770c6a46ce4f9a190fa8c7dddfa9ca098e94
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -41,7 +41,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># mkdir
 
 அடைவை உருவாக்கு.
-மேலும் தகவல்: <https://www.gnu.org/software/coreutils/mkdir>.
+மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/mkdir>.
 
 - அடைவொன்றைத் தற்போதைய அடைவிலோக் குறிப்பிட்ட பாதையிலோ உருவாக்கு:
 

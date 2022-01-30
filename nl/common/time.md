@@ -2,7 +2,7 @@
 layout: page
 title: common/time (Nederlands)
 description: "Kijk hoe lang een opdracht duurt."
-content_hash: e5a3a87aafc6958c1bb167bc97e03450bbb9a747
+content_hash: be59bf1fd2b7b8eaf50dd3e4b19ef24672e29ea5
 related_topics:
   - title: bosanski version
     url: /bs/common/time.html
@@ -26,6 +26,7 @@ related_topics:
 # time
 
 Kijk hoe lang een opdracht duurt.
+Meer informatie: <https://manned.org/time>.
 
 - Tijd "ls":
 

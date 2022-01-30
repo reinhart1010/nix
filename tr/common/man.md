@@ -2,7 +2,7 @@
 layout: page
 title: common/man (Türkçe)
 description: "Kılavuz sayfalarını biçimlendir ve göster."
-content_hash: 462d535f315d68d346bffc113deaa5a0a0e3c972
+content_hash: fbb0f88900ea3ca2c3800d289591880249c6f8d0
 related_topics:
   - title: English version
     url: /en/common/man.html
@@ -26,7 +26,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># man
 
 Kılavuz sayfalarını biçimlendir ve göster.
-Daha fazla bilgi için: <https://www.man7.org/linux/man-pages/man1/man.1.html>.
+Daha fazla bilgi: <https://www.man7.org/linux/man-pages/man1/man.1.html>.
 
 - Bir komut için man sayfasını görüntüle:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/git-grep (Türkçe)
 description: "Belirtilen söz dizisini bir deponun geçmişi dahil tüm dosyalarında ara."
-content_hash: 8ee92e9db67eb8c4719ca19320fff454a44ec6c1
+content_hash: b5daf2f0d4983c4a347fc87476b8fe28c5f5077f
 related_topics:
   - title: English version
     url: /en/common/git-grep.html
@@ -17,14 +17,11 @@ related_topics:
     url: /it/common/git-grep.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git-grep
+# git-grep
 
 Belirtilen söz dizisini bir deponun geçmişi dahil tüm dosyalarında ara.
 Sıradan `grep` komutundaki birçok ek bu komut için de aynen geçerlidir.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-grep>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-grep>.
 
 - İzlenen dosyalarda belirtilen söz dizisini ara:
 

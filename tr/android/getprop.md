@@ -2,7 +2,7 @@
 layout: page
 title: android/getprop (Türkçe)
 description: "Android sistem özellikleri ile ilgili bilgi görüntüle."
-content_hash: d3c60987f15cb2d8dcab175a237032f38ea3296a
+content_hash: 3443e0acff09d89b8046b08d89036b993626f432
 related_topics:
   - title: Deutsch version
     url: /de/android/getprop.html
@@ -29,7 +29,7 @@ related_topics:
 # getprop
 
 Android sistem özellikleri ile ilgili bilgi görüntüle.
-Daha fazla bilgi için: <https://manned.org/getprop>.
+Daha fazla bilgi: <https://manned.org/getprop>.
 
 - Android sistem özellikleri ile ilgili bilgi görüntüle:
 

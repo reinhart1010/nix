@@ -2,7 +2,7 @@
 layout: page
 title: common/rsync (français)
 description: "Transférer des fichiers vers ou depuis un hôte distant (pas entre deux hôtes distants)."
-content_hash: c28765f8655fc33e9047964254b4aff8a1c621e0
+content_hash: e905695f8f88bb225a63a148c87a815b3cf04338
 related_topics:
   - title: English version
     url: /en/common/rsync.html
@@ -18,6 +18,7 @@ related_topics:
 
 Transférer des fichiers vers ou depuis un hôte distant (pas entre deux hôtes distants).
 Peut transférer un ou plusieurs fichiers correspondant à un motif.
+Plus d'informations : <https://manned.org/rsync>.
 
 - Transférer un fichier local vers un serveur distant :
 

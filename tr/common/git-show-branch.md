@@ -2,7 +2,7 @@
 layout: page
 title: common/git-show-branch (Türkçe)
 description: "Dalları ve içerdikleri commit'leri göster:"
-content_hash: 1fbe28158afac6b62c81dbf915e30e502c2001b4
+content_hash: f8dcfe95ca97ba54e041200ae1d0b20e2adc95cd
 related_topics:
   - title: English version
     url: /en/common/git-show-branch.html
@@ -14,13 +14,10 @@ related_topics:
     url: /it/common/git-show-branch.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git show-branch
+# git show-branch
 
 Dalları ve içerdikleri commit'leri göster:
-Daha fazla bilgi için: <https://git-scm.com/docs/git-show-branch>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-show-branch>.
 
 - Bir daldaki son commit'lerin bir özetini göster:
 

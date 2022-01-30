@@ -2,19 +2,16 @@
 layout: page
 title: common/git-credential (Türkçe)
 description: "Kullanıcı kimlik bilgilerini kurtar ve sakla."
-content_hash: 108edaab8ac26a4dfc2bbb807f41826f3daf8406
+content_hash: c8222b828f10411bd6effa63cdb0379e89cb6600
 related_topics:
   - title: English version
     url: /en/common/git-credential.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git credential
+# git credential
 
 Kullanıcı kimlik bilgilerini kurtar ve sakla.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-credential>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-credential>.
 
 - Kimlik bilgilerini, kullanıcı ismi ve parolayı konfigürasyon dosyası aracılığıyla kurtararak göster:
 

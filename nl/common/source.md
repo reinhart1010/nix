@@ -2,7 +2,7 @@
 layout: page
 title: common/source (Nederlands)
 description: "Voer opdrachten uit vanuit een bestand in de huidige shell."
-content_hash: 7b02cf677a9666737f301fe3afac2f934a0b5504
+content_hash: c096cb100dc46e6c8644518da971a83b9afa8c06
 related_topics:
   - title: English version
     url: /en/common/source.html
@@ -23,6 +23,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># source
 
 Voer opdrachten uit vanuit een bestand in de huidige shell.
+Meer informatie: <https://manned.org/source>.
 
 - Evalueer de inhoud van een bepaald bestand:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/git-cherry-pick (தமிழ்)
 description: "தற்போதுள்ள கமிட்டுகளால் அறிமுகப்படுத்தப்பட்ட மாற்றங்களை தற்போதைய கிளையில் பயன்படுத்துங்கள்."
-content_hash: 5019472eb596c1d230fdf388c4f3fa1d28d36004
+content_hash: 5256ab88ef9b34566b85fd38f283bce765ced0ea
 related_topics:
   - title: বাংলা version
     url: /bn/common/git-cherry-pick.html
@@ -19,12 +19,15 @@ related_topics:
   - title: italiano version
     url: /it/common/git-cherry-pick.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-cherry-pick.html
+    icon: bi bi-globe
 ---
 # git cherry-pick
 
 தற்போதுள்ள கமிட்டுகளால் அறிமுகப்படுத்தப்பட்ட மாற்றங்களை தற்போதைய கிளையில் பயன்படுத்துங்கள்.
 மற்றொரு கிளையில் மாற்றங்களைப் பயன்படுத்த, முதலில் விரும்பிய கிளைக்கு மாற `git checkout` ஐப் பயன்படுத்தவும்.
-மேலும் தகவல்: <https://git-scm.com/docs/git-cherry-pick>.
+மேலும் விவரத்திற்கு: <https://git-scm.com/docs/git-cherry-pick>.
 
 - தற்போதைய கிளைக்கு ஒரு கமிட்டை பயன்படுத்துங்கள்:
 

@@ -2,7 +2,7 @@
 layout: page
 title: linux/aspell (Deutsch)
 description: "Interaktiver Korrekturleser."
-content_hash: 92b132f2ea69d1ea67817b5e70667c8d977436a5
+content_hash: fe375b673b78b26525656f3b95270cc8d1f4d890
 related_topics:
   - title: English version
     url: /en/linux/aspell.html
@@ -20,7 +20,7 @@ related_topics:
 # aspell
 
 Interaktiver Korrekturleser.
-Mehr Informationen: <http://aspell.net/>.
+Weitere Informationen: <http://aspell.net/>.
 
 - Überprüfe eine einzelne Datei auf Fehler:
 

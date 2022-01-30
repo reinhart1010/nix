@@ -2,7 +2,7 @@
 layout: page
 title: linux/pacman-query (Türkçe)
 description: "Arch Linux paket yönetim aracı."
-content_hash: 79d063a70cb9c6c3608524c98faa8909a9159e84
+content_hash: b5f49a04d8435a22c2beb69293af0b0f3c3c8ecf
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-query.html
@@ -17,7 +17,7 @@ related_topics:
 # pacman --query
 
 Arch Linux paket yönetim aracı.
-Daha fazla bilgi için: <https://man.archlinux.org/man/pacman.8>.
+Daha fazla bilgi: <https://man.archlinux.org/man/pacman.8>.
 
 - Yüklenmiş paket ve sürümleri sırala:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/tldrl (українська)
 description: "Ця команда є псевдонімом для `tldr-lint`."
-content_hash: 8646bb7d543732ce952138228b4615aba3411422
+content_hash: 4f0e7f1c8a772eed1d5862d33fb880e29289015a
 related_topics:
   - title: bosanski version
     url: /bs/common/tldrl.html
@@ -71,6 +71,7 @@ related_topics:
 # tldrl
 
 Ця команда є псевдонімом для `tldr-lint`.
+Більше інформації: <https://github.com/tldr-pages/tldr-lint>.
 
 - Дивись документацію для оригінальної команди:
 

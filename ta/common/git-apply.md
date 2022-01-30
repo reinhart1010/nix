@@ -2,7 +2,7 @@
 layout: page
 title: common/git-apply (தமிழ்)
 description: "கோப்புகள் மற்றும் / அல்லது குறியீட்டுக்கு ஒரு இணைப்பு பயன்படுத்தவும்."
-content_hash: 103cefe12ad78072567841a7b474a34cf30a0d11
+content_hash: 5d20837f295b5e42b5de99b119fc1d0279518183
 related_topics:
   - title: Deutsch version
     url: /de/common/git-apply.html
@@ -13,11 +13,14 @@ related_topics:
   - title: français version
     url: /fr/common/git-apply.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-apply.html
+    icon: bi bi-globe
 ---
 # git apply
 
 கோப்புகள் மற்றும் / அல்லது குறியீட்டுக்கு ஒரு இணைப்பு பயன்படுத்தவும்.
-மேலும் தகவல்: <https://git-scm.com/docs/git-apply>.
+மேலும் விவரத்திற்கு: <https://git-scm.com/docs/git-apply>.
 
 - இணைக்கப்பட்ட கோப்புகளைப் பற்றிய செய்திகளை அச்சிடுங்கள்:
 

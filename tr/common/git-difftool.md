@@ -2,7 +2,7 @@
 layout: page
 title: common/git-difftool (Türkçe)
 description: "Harici diff araçları kullanarak dosya değişimlerini göster. `git diff` ile aynı ayar ve argümanları destekler."
-content_hash: a6ee37909d9ce97b18acdb6a16cccaee839a91a6
+content_hash: 538811d6c074fa0e9467f09e2d6225f958693a85
 related_topics:
   - title: English version
     url: /en/common/git-difftool.html
@@ -14,13 +14,10 @@ related_topics:
     url: /it/common/git-difftool.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git difftool
+# git difftool
 
 Harici diff araçları kullanarak dosya değişimlerini göster. `git diff` ile aynı ayar ve argümanları destekler.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-difftool>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-difftool>.
 
 - Müsait diff araçlarını göster:
 

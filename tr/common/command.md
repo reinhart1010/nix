@@ -2,7 +2,7 @@
 layout: page
 title: common/command (Türkçe)
 description: "Command, kabuğu bir programı herhangi bir fonksiyon ve gömülü özelliğe ve alias'a takılmadan çalıştırmaya zorlar."
-content_hash: bc9e45a6feb542153410a6e9d60f393d460af87a
+content_hash: 061fd3dacb493ac95967d1bf0583dd8307176e6a
 related_topics:
   - title: English version
     url: /en/common/command.html
@@ -23,7 +23,7 @@ related_topics:
 # command
 
 Command, kabuğu bir programı herhangi bir fonksiyon ve gömülü özelliğe ve alias'a takılmadan çalıştırmaya zorlar.
-Daha fazla bilgi için: <https://manned.org/command>.
+Daha fazla bilgi: <https://manned.org/command>.
 
 - `ls` programını aynı isimde bir alias olsa dahi çalıştır:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/time (bosanski)
 description: "Vidi koliko dugo traje komanda."
-content_hash: e3c27cf8a8d2a16075b8344d1be0ee638a0e0fe0
+content_hash: 3b56f6a727e574c8d7ad0595c8e32499a41d6814
 related_topics:
   - title: English version
     url: /en/common/time.html
@@ -26,6 +26,7 @@ related_topics:
 # time
 
 Vidi koliko dugo traje komanda.
+Više informacija: <https://manned.org/time>.
 
 - Vrijeme `ls`:
 

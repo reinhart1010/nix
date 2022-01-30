@@ -2,7 +2,7 @@
 layout: page
 title: linux/xfce4-screenshooter (Türkçe)
 description: "XFCE4 ekran görüntüsü aracı."
-content_hash: 1d160cbf8aa1c5947f715955820bb0f53e2dfec3
+content_hash: a494f26b61e58ae0ca00cf07062d788c9dd46fb3
 related_topics:
   - title: English version
     url: /en/linux/xfce4-screenshooter.html
@@ -11,7 +11,7 @@ related_topics:
 # xfce4-screenshooter
 
 XFCE4 ekran görüntüsü aracı.
-Daha fazla bilgi için: <https://docs.xfce.org/apps/xfce4-screenshooter/start>.
+Daha fazla bilgi: <https://docs.xfce.org/apps/xfce4-screenshooter/start>.
 
 - Ekran görüntüsü alma grafik arayüzünü başlat:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/unclutter (Nederlands)
 description: "Verbergt de muiscursor."
-content_hash: 7d00ac20a45304a53518c9d7565d9db20183935d
+content_hash: dd2865d76047ba1d1979fe8a008e5a0abc442ccf
 related_topics:
   - title: bosanski version
     url: /bs/common/unclutter.html
@@ -26,6 +26,7 @@ related_topics:
 # unclutter
 
 Verbergt de muiscursor.
+Meer informatie: <https://manned.org/unclutter.1x>.
 
 - Verbergt de muiscursor na 3 seconden:
 

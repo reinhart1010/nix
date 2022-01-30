@@ -2,7 +2,7 @@
 layout: page
 title: common/unclutter (norsk bokmål (Norge))
 description: "Gjemmer musepekeren."
-content_hash: 0d1195a4b3d0e3becfd9acb4747348e18fb2dbc7
+content_hash: a6549dc20fef2374a7024b05431dc4b4b6437865
 related_topics:
   - title: bosanski version
     url: /bs/common/unclutter.html
@@ -26,6 +26,7 @@ related_topics:
 # unclutter
 
 Gjemmer musepekeren.
+Mer informasjon: <https://manned.org/unclutter.1x>.
 
 - Gjem musepekeren etter 3 sekunder:
 

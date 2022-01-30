@@ -2,7 +2,7 @@
 layout: page
 title: common/shasum (中文)
 description: "计算或检查加密 SHA 校验值。"
-content_hash: 10fa4ff8dd31777598dfb4b3b70a0a52c9fbdd6a
+content_hash: d52c7498ed392150a8c5524a6d364fd5914c1d64
 related_topics:
   - title: English version
     url: /en/common/shasum.html
@@ -23,6 +23,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># shasum
 
 计算或检查加密 SHA 校验值。
+更多信息：<https://manned.org/shasum>.
 
 - 计算文件的 SHA1 校验值：
 

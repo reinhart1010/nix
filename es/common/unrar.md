@@ -2,7 +2,7 @@
 layout: page
 title: common/unrar (español)
 description: "Extrae archivos RAR."
-content_hash: 435f3e1966d03b30754a67ad98f1df9466b9b4c0
+content_hash: 5fcc5854dbb5af07188717995aec54a482d28125
 related_topics:
   - title: English version
     url: /en/common/unrar.html
@@ -14,6 +14,7 @@ related_topics:
 # unrar
 
 Extrae archivos RAR.
+Más información: <https://manned.org/unrar>.
 
 - Extrae archivos comprimidos respetando la estructura original del archivo:
 

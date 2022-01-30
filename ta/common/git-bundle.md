@@ -2,7 +2,7 @@
 layout: page
 title: common/git-bundle (தமிழ்)
 description: "ஒரு காப்பக கோப்பில் பொருள்கள் மற்றும் குறிப்புகளை தொகுக்கவும்."
-content_hash: bcbe997a9088918ef6a53ce59840bf2097528e1d
+content_hash: 35eed995aef11e27692d0b901306b7f4694caa28
 related_topics:
   - title: English version
     url: /en/common/git-bundle.html
@@ -13,11 +13,14 @@ related_topics:
   - title: italiano version
     url: /it/common/git-bundle.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-bundle.html
+    icon: bi bi-globe
 ---
 # git bundle
 
 ஒரு காப்பக கோப்பில் பொருள்கள் மற்றும் குறிப்புகளை தொகுக்கவும்.
-மேலும் தகவல்: <https://git-scm.com/docs/git-bundle>.
+மேலும் விவரத்திற்கு: <https://git-scm.com/docs/git-bundle>.
 
 - ஒரு குறிப்பிட்ட கிளையின் அனைத்து பொருள்கள் மற்றும் குறிப்புகளைக் கொண்ட ஒரு மூட்டை கோப்பை உருவாக்கவும்:
 

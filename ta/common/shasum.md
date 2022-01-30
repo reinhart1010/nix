@@ -2,7 +2,7 @@
 layout: page
 title: common/shasum (தமிழ்)
 description: "SHA மறையீட்டு சரிகாண்தொகைகளைக் கணி அல்லது சரிபார்."
-content_hash: cb64d342de6eb904506bd7be7ba2651158973fd9
+content_hash: 2f526f5e0035b9f50319907a5913ff0476a58fb0
 related_topics:
   - title: English version
     url: /en/common/shasum.html
@@ -14,6 +14,7 @@ related_topics:
 # shasum
 
 SHA மறையீட்டு சரிகாண்தொகைகளைக் கணி அல்லது சரிபார்.
+மேலும் விவரத்திற்கு: <https://manned.org/shasum>.
 
 - கோப்பின் SHA1 சரிகாண்தொகையைக் கணி:
 

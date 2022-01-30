@@ -2,7 +2,7 @@
 layout: page
 title: android/logcat (Türkçe)
 description: "Sistem mesajlarının kaydını görüntüle."
-content_hash: 84bdaee8a1c8306bbcec15352ba0841e05df5a4d
+content_hash: d6b1b89b38ecc8fdcdcb79254f9898949bb63ba4
 related_topics:
   - title: Deutsch version
     url: /de/android/logcat.html
@@ -29,7 +29,7 @@ related_topics:
 # logcat
 
 Sistem mesajlarının kaydını görüntüle.
-Daha fazla bilgi için: <https://developer.android.com/studio/command-line/logcat>.
+Daha fazla bilgi: <https://developer.android.com/studio/command-line/logcat>.
 
 - Sistem kaydını görüntüle:
 

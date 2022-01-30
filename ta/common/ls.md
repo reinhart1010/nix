@@ -2,7 +2,7 @@
 layout: page
 title: common/ls (தமிழ்)
 description: "அடைவு உள்ளடக்கத்தைப் பட்டியலிடு."
-content_hash: fba2588c6d53c14dc482b67547370af4ea533d18
+content_hash: d5607cb521be62966ce7a004802fddc57ced41f4
 related_topics:
   - title: Deutsch version
     url: /de/common/ls.html
@@ -56,7 +56,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># ls
 
 அடைவு உள்ளடக்கத்தைப் பட்டியலிடு.
-மேலும் தகவல்: <https://www.gnu.org/software/coreutils/ls>.
+மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/ls>.
 
 - கோப்புகளை வரிக்கொன்றாகப் பட்டியலிடு:
 

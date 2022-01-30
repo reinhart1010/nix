@@ -2,7 +2,7 @@
 layout: page
 title: common/tldrl (中文 (繁體, 台灣))
 description: "這是 `tldr-lint` 命令的一個別名。"
-content_hash: 16ebfb9b8bc9611297d9646fbe65ca06f8b62365
+content_hash: c8701452165a49ba16a8ce91fde685449db3769a
 related_topics:
   - title: bosanski version
     url: /bs/common/tldrl.html
@@ -71,6 +71,7 @@ related_topics:
 # tldrl
 
 這是 `tldr-lint` 命令的一個別名。
+更多資訊：<https://github.com/tldr-pages/tldr-lint>.
 
 - 原命令的文檔在：
 

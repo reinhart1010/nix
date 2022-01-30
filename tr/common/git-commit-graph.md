@@ -2,7 +2,7 @@
 layout: page
 title: common/git-commit-graph (Türkçe)
 description: "Git commit-graph dosyalarını yaz ve doğrula."
-content_hash: 9a683cf1f50cd024f4b6f9919030c7b622b22876
+content_hash: 0ca33fb252a91ae2c7539d27cdab480e9fac5b07
 related_topics:
   - title: English version
     url: /en/common/git-commit-graph.html
@@ -11,13 +11,10 @@ related_topics:
     url: /uk/common/git-commit-graph.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git commit-graph
+# git commit-graph
 
 Git commit-graph dosyalarını yaz ve doğrula.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-commit-graph>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-commit-graph>.
 
 - Dizinin yerel `.git` dizinindeki paketlenmiş commit'ler için bir commit-grafik dosyası yaz:
 

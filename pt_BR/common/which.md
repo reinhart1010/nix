@@ -2,7 +2,7 @@
 layout: page
 title: common/which (português (Brasil))
 description: "Localiza um programa no path do usuário."
-content_hash: 8b2758e042e0dbc581063042b39784982ea53794
+content_hash: cd0f3caea6ea70b64f7ac4a1603ba09911d4227d
 related_topics:
   - title: English version
     url: /en/common/which.html
@@ -17,6 +17,7 @@ related_topics:
 # which
 
 Localiza um programa no path do usuário.
+Mais informações: <https://manned.org/which>.
 
 - Procura na variável PATH e exibe a localização do executável se encontrado:
 

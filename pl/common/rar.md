@@ -2,7 +2,7 @@
 layout: page
 title: common/rar (polski)
 description: "Archiwizator RAR. Obsługuje wielotomowe archiwa, które mogą być opcjonalnie samorozpakowujące się."
-content_hash: d9ae845afff82041fb1f3bcdccab001fa1dc62be
+content_hash: ae3a98285b2f6435e7a214eae3a74b678c3f5c8f
 related_topics:
   - title: English version
     url: /en/common/rar.html
@@ -11,6 +11,7 @@ related_topics:
 # rar
 
 Archiwizator RAR. Obsługuje wielotomowe archiwa, które mogą być opcjonalnie samorozpakowujące się.
+Więcej informacji: <https://manned.org/rar>.
 
 - Zarchiwizuj 1 lub więcej plików:
 

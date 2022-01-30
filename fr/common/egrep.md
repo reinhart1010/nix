@@ -2,7 +2,7 @@
 layout: page
 title: common/egrep (français)
 description: "Recherche de motifs dans un texte. Supporte la version étendues des expressions regulieres (`?`, `+`, `{}`, `()`, et `|`)."
-content_hash: 2240bff8b20b4d1c2c19ccd009f1ee534a5e4ea8
+content_hash: ab4f39fbab98095c441bb95f6420055ec49909cd
 related_topics:
   - title: English version
     url: /en/common/egrep.html
@@ -11,7 +11,7 @@ related_topics:
 # egrep
 
 Recherche de motifs dans un texte. Supporte la version étendues des expressions regulieres (`?`, `+`, `{}`, `()`, et `|`).
-Plus d'informations: <https://manned.org/egrep>.
+Plus d'informations : <https://manned.org/egrep>.
 
 - Recherche une chaîne de caractères précise :
 

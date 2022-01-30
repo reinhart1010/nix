@@ -2,7 +2,7 @@
 layout: page
 title: linux/archey (Deutsch)
 description: "Simples Tool um system informationen stylish zu präsentieren."
-content_hash: 316cb478c0e577c4cc20e92a2a6eb348c84c7dd6
+content_hash: 27ddeaf6515f00f940247e288a94df56d9d2b086
 related_topics:
   - title: English version
     url: /en/linux/archey.html
@@ -20,7 +20,7 @@ related_topics:
 # archey
 
 Simples Tool um system informationen stylish zu präsentieren.
-Mehr Informationen: <https://lclarkmichalek.github.io/archey3/>.
+Weitere Informationen: <https://lclarkmichalek.github.io/archey3/>.
 
 - Zeige System Informationen:
 

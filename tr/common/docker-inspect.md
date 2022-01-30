@@ -2,7 +2,7 @@
 layout: page
 title: common/docker-inspect (Türkçe)
 description: "Docker objelerinde bulunan düşük seviye bilgiyi gösterir."
-content_hash: 4d7097a29190132b4378ebc91e1fc8191be26ea9
+content_hash: 37a7fd6ae09496b8130e00b0132e266264430e2c
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-inspect.html
@@ -17,7 +17,7 @@ related_topics:
 # docker inspect
 
 Docker objelerinde bulunan düşük seviye bilgiyi gösterir.
-Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/inspect/>.
+Daha fazla bilgi: <https://docs.docker.com/engine/reference/commandline/inspect/>.
 
 - Yardım içeriğini göster:
 

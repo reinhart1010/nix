@@ -2,7 +2,7 @@
 layout: page
 title: common/git-check-ignore (Türkçe)
 description: "Git yoksayma / dışlama (\".gitignore\") dosyalarını analiz et."
-content_hash: 84755dc6904cdbce0d5059471a396f40efde679d
+content_hash: bd73bca19b65d70f11a306d0d34413cb2616d992
 related_topics:
   - title: English version
     url: /en/common/git-check-ignore.html
@@ -20,13 +20,10 @@ related_topics:
     url: /ta/common/git-check-ignore.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git check-ignore
+# git check-ignore
 
 Git yoksayma / dışlama (".gitignore") dosyalarını analiz et.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-check-ignore>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-check-ignore>.
 
 - Bir dosya veya dizinin yoksayıldığı veya sayılmadığını kontrol et:
 

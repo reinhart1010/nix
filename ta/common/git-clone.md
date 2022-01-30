@@ -2,7 +2,7 @@
 layout: page
 title: common/git-clone (தமிழ்)
 description: "ஏற்கனவே உள்ள ஒரு களஞ்சியத்தை குளோன் செய்யுங்கள்."
-content_hash: 87858bc50a0a86eb04010f827165cf9a71e001fd
+content_hash: 8934b30afac5a8276234680c1ecb7524845ade12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-clone.html
@@ -22,6 +22,9 @@ related_topics:
   - title: italiano version
     url: /it/common/git-clone.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-clone.html
+    icon: bi bi-globe
 ---
 
 ### Outdated Translation
@@ -35,7 +38,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># git clone
 
 ஏற்கனவே உள்ள ஒரு களஞ்சியத்தை குளோன் செய்யுங்கள்.
-மேலும் தகவல்: <https://git-scm.com/docs/git-clone>.
+மேலும் விவரத்திற்கு: <https://git-scm.com/docs/git-clone>.
 
 - ஏற்கனவே உள்ள ஒரு களஞ்சியத்தை குளோன் செய்யுங்கள்:
 

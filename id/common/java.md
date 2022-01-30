@@ -2,7 +2,7 @@
 layout: page
 title: common/java (Indonesia)
 description: "Peluncur Aplikasi Java."
-content_hash: f9d9285f1f656190f68b53411401cee3bf32e439
+content_hash: 3e267310f6f5b297600315b6dba1804f2ec78ed1
 related_topics:
   - title: English version
     url: /en/common/java.html
@@ -32,7 +32,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># java
 
 Peluncur Aplikasi Java.
-Informasi lebih lanjut: <https://java.com>.
+Informasi lebih lanjut: <https://docs.oracle.com/en/java/javase/17/docs/specs/man/java.html>.
 
 - Menjalankan berkas java `.class` yang mengandung method main dengan hanya menggunakan nama class:
 

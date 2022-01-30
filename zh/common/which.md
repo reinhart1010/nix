@@ -2,7 +2,7 @@
 layout: page
 title: common/which (中文)
 description: "在用户的`PATH`中寻找可执行文件的路径。"
-content_hash: 05f6aaf6d779525a86ca0148ae2c31e931aad590
+content_hash: 8bafca0fa7b0212a89e102caed096c36bc16d3c2
 related_topics:
   - title: English version
     url: /en/common/which.html
@@ -17,6 +17,7 @@ related_topics:
 # which
 
 在用户的`PATH`中寻找可执行文件的路径。
+更多信息：<https://manned.org/which>.
 
 - 在`PATH`中寻找可执行文件并打印第一个匹配的结果：
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/git-cherry (Türkçe)
 description: "Ana depoya aktarılması gereken commit'leri bul."
-content_hash: 35e990bb9fb2dc3637fe57c3a5a8fda099d2ee1b
+content_hash: 1b56ae57c4181a616465f997156ce71df07e39aa
 related_topics:
   - title: English version
     url: /en/common/git-cherry.html
@@ -14,13 +14,10 @@ related_topics:
     url: /ta/common/git-cherry.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git cherry
+# git cherry
 
 Ana depoya aktarılması gereken commit'leri bul.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-cherry>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-cherry>.
 
 - Commit'leri (ve mesajlarını) ana akımda kendilerine tekabül eden commit'ler ile göster:
 

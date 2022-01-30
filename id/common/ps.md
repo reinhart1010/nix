@@ -2,7 +2,7 @@
 layout: page
 title: common/ps (Indonesia)
 description: "Informasi tentang proses-proses yang berlangsung."
-content_hash: 3845ca8eac4ffa57ef19c1e492b1fc7834a4ec18
+content_hash: bfe5079a89a95424240e2990983182890edd567d
 related_topics:
   - title: English version
     url: /en/common/ps.html
@@ -14,6 +14,7 @@ related_topics:
 # ps
 
 Informasi tentang proses-proses yang berlangsung.
+Informasi lebih lanjut: <https://manned.org/ps>.
 
 - Menampilkan daftar semua proses yang berlangsung:
 

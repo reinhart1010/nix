@@ -2,7 +2,7 @@
 layout: page
 title: common/mscore (português (Brasil))
 description: "Este comando é um pseudônimo de `musescore`."
-content_hash: 1177ad0e12a26e09cca6b3c0dbdcd3292250ac14
+content_hash: 74823a50241ee74e7105fa08905e7cee3320ab86
 related_topics:
   - title: bosanski version
     url: /bs/common/mscore.html
@@ -68,6 +68,7 @@ related_topics:
 # mscore
 
 Este comando é um pseudônimo de `musescore`.
+Mais informações: <https://musescore.org/handbook/command-line-options>.
 
 - Ver documentação sobre o comando original:
 

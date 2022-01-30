@@ -2,7 +2,7 @@
 layout: page
 title: common/tput (français)
 description: "Accède et modifie les paramètres du terminal."
-content_hash: 8398bc0ee75a304142abd4b240fa757db7f54383
+content_hash: 04c0a0d9abe670648b47f9f5ffeb92765eed4c3c
 related_topics:
   - title: English version
     url: /en/common/tput.html
@@ -11,6 +11,7 @@ related_topics:
 # tput
 
 Accède et modifie les paramètres du terminal.
+Plus d'informations : <https://manned.org/tput>.
 
 - Déplace le curseur à un endroit donné sur l'écran :
 

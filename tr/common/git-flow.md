@@ -2,7 +2,7 @@
 layout: page
 title: common/git-flow (Türkçe)
 description: "Üst seviye depo işlemleri için Git uzantı koleksiyonu."
-content_hash: e04c1d9885f2ec28ef2c3e75322ddc1e402c872a
+content_hash: dc0d9afa23cc792dea370511dd2251503ea2570f
 related_topics:
   - title: English version
     url: /en/common/git-flow.html
@@ -11,13 +11,10 @@ related_topics:
     url: /fr/common/git-flow.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git flow
+# git flow
 
 Üst seviye depo işlemleri için Git uzantı koleksiyonu.
-Daha fazla bilgi için: <https://github.com/nvie/gitflow>.
+Daha fazla bilgi: <https://github.com/nvie/gitflow>.
 
 - Varolan bir git deposu içinde başlat:
 

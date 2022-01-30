@@ -2,7 +2,7 @@
 layout: page
 title: common/git-cat-file (தமிழ்)
 description: "கிட் களஞ்சிய பொருள்களுக்கான உள்ளடக்கம் அல்லது வகை மற்றும் அளவு தகவல்களை வழங்கவும்."
-content_hash: a61f99f36adac0744121d56a205e8616477f1bd9
+content_hash: 76385a89935dfedb3553097d4b4128a5d08259b7
 related_topics:
   - title: English version
     url: /en/common/git-cat-file.html
@@ -13,11 +13,14 @@ related_topics:
   - title: italiano version
     url: /it/common/git-cat-file.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-cat-file.html
+    icon: bi bi-globe
 ---
 # git cat-file
 
 கிட் களஞ்சிய பொருள்களுக்கான உள்ளடக்கம் அல்லது வகை மற்றும் அளவு தகவல்களை வழங்கவும்.
-மேலும் தகவல்: <https://git-scm.com/docs/git-cat-file>.
+மேலும் விவரத்திற்கு: <https://git-scm.com/docs/git-cat-file>.
 
 - HEAD கமிட்டின் அளவை பைட்டுகளில் பெறுங்கள்:
 

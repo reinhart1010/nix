@@ -2,7 +2,7 @@
 layout: page
 title: common/tldrl (Türkçe)
 description: "`tldr-lint` komutunun aynısı."
-content_hash: 78e5530d680e7dbcf7d4201248746933007aadf0
+content_hash: b36d9b630cccc604ead25f2a7ba960bef6bd578f
 related_topics:
   - title: bosanski version
     url: /bs/common/tldrl.html
@@ -71,6 +71,7 @@ related_topics:
 # tldrl
 
 `tldr-lint` komutunun aynısı.
+Daha fazla bilgi: <https://github.com/tldr-pages/tldr-lint>.
 
 - Orijinal komut için yardım sayfasını göster:
 

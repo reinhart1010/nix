@@ -2,7 +2,7 @@
 layout: page
 title: common/time (فارسی)
 description: "نمایش زمان اجرای یک دستور."
-content_hash: 363f3a9708074ef07ebffbe995b92db5c35a52e8
+content_hash: 80d63b7d60e02a64e876575844d058dfb039e4cd
 related_topics:
   - title: bosanski version
     url: /bs/common/time.html
@@ -26,6 +26,7 @@ related_topics:
 # time
 
 نمایش زمان اجرای یک دستور.
+اطلاعات بیشتر: <https://manned.org/time>.
 
 - نمایش زمان اجرای دستور `ls`:
 

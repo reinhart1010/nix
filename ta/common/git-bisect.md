@@ -2,7 +2,7 @@
 layout: page
 title: common/git-bisect (தமிழ்)
 description: "ஒரு பிழையை அறிமுகப்படுத்திய உறுதிப்பாட்டைக் கண்டுபிடிக்க பைனரி தேடலைப் பயன்படுத்தவும்."
-content_hash: c05338b6f92a66d3378d738aab6a2318f7bf082b
+content_hash: ad0790595641f7fcd8babf7438b50ba1fb11acf1
 related_topics:
   - title: Deutsch version
     url: /de/common/git-bisect.html
@@ -19,12 +19,15 @@ related_topics:
   - title: italiano version
     url: /it/common/git-bisect.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-bisect.html
+    icon: bi bi-globe
 ---
 # git bisect
 
 ஒரு பிழையை அறிமுகப்படுத்திய உறுதிப்பாட்டைக் கண்டுபிடிக்க பைனரி தேடலைப் பயன்படுத்தவும்.
 தவறான உறுதிப்பாட்டை படிப்படியாகக் குறைக்க கிட் தானாகவே கமிட் வரைபடத்தில் முன்னும் பின்னுமாக குதிக்கிறது.
-மேலும் தகவல்: <https://git-scm.com/docs/git-bisect>.
+மேலும் விவரத்திற்கு: <https://git-scm.com/docs/git-bisect>.
 
 - அறியப்பட்ட தரமற்ற கமிட் மற்றும் அறியப்பட்ட சுத்தமான (பொதுவாக பழையது) வரம்புக்குட்பட்ட ஒரு கமிட் வரம்பில் ஒரு இரு அமர்வு தொடங்கவும்:
 

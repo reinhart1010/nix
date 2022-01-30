@@ -2,7 +2,7 @@
 layout: page
 title: common/unrar (português (Brasil))
 description: "Descompactar arquivos comprimidos no formato RAR."
-content_hash: 7d074300d55b7de3097ae4689f76d86f4521c39c
+content_hash: 39deca5546a9376e72b0f8863f1aacf63a04d3b3
 related_topics:
   - title: English version
     url: /en/common/unrar.html
@@ -23,6 +23,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># unrar
 
 Descompactar arquivos comprimidos no formato RAR.
+Mais informações: <https://manned.org/unrar>.
 
 - Descompactar o arquivo mantendo a estrutura de diretórios original:
 

@@ -2,7 +2,7 @@
 layout: page
 title: android/bugreportz (français)
 description: "Génère une archive d'un rapport de bug Android."
-content_hash: 9e0b68ffab49b5e4bf44e424988e9af1e8600d82
+content_hash: 4d4aa1e4d553b3de1614221d204ae9eafd7cd349
 related_topics:
   - title: Deutsch version
     url: /de/android/bugreportz.html
@@ -15,6 +15,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/android/bugreportz.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/android/bugreportz.html
     icon: bi bi-globe
   - title: o‘zbek version
     url: /uz/android/bugreportz.html
@@ -30,7 +33,7 @@ related_topics:
 
 Génère une archive d'un rapport de bug Android.
 Cette commande peut être utilisé uniquement depuis `adb shell`.
-Plus d'informations : <https://android.googlesource.com/platform/frameworks/native/+/master/cmds/bugreportz/>.
+Plus d'informations : <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreportz>.
 
 - Génère une archive à partir d'un rapport de bug d'un appareil Android :
 

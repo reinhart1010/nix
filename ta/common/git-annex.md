@@ -2,7 +2,7 @@
 layout: page
 title: common/git-annex (தமிழ்)
 description: "கோப்புகளை அவற்றின் உள்ளடக்கங்களை சரிபார்க்காமல், ஜிட் மூலம் நிர்வகிக்கவும்."
-content_hash: 75328f5477f0efa34f8a4a7d78a5073dce812097
+content_hash: bfda3d132d8959279a9d44c10b4736ffbcd4cd83
 related_topics:
   - title: English version
     url: /en/common/git-annex.html
@@ -10,12 +10,15 @@ related_topics:
   - title: français version
     url: /fr/common/git-annex.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-annex.html
+    icon: bi bi-globe
 ---
 # git annex
 
 கோப்புகளை அவற்றின் உள்ளடக்கங்களை சரிபார்க்காமல், ஜிட் மூலம் நிர்வகிக்கவும்.
 ஒரு கோப்பு இணைக்கப்படும்போது, ​​அதன் உள்ளடக்கம் ஒரு முக்கிய மதிப்புக் கடைக்கு நகர்த்தப்படும், மேலும் உள்ளடக்கத்தை சுட்டிக்காட்டும் ஒரு சிம்லிங்க் செய்யப்படுகிறது.
-மேலும் தகவல்: <https://git-annex.branchable.com>.
+மேலும் விவரத்திற்கு: <https://git-annex.branchable.com>.
 
 - உதவி:
 

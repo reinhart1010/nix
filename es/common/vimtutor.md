@@ -2,7 +2,7 @@
 layout: page
 title: common/vimtutor (español)
 description: "Vim tutor, enseña los comandos básicos de vim."
-content_hash: 2b19d7c57d7142f85deb46e6eb5b9c04b421978a
+content_hash: 55d8d92a246509a7bb32f4358299a3708767ad8e
 related_topics:
   - title: English version
     url: /en/common/vimtutor.html
@@ -14,6 +14,7 @@ related_topics:
 # vimtutor
 
 Vim tutor, enseña los comandos básicos de vim.
+Más información: <https://manned.org/vimtutor>.
 
 - Ejecuta vim tutor utilizando el idioma especificado (en, es, de, ...):
 

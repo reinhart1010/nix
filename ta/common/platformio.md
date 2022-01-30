@@ -2,7 +2,7 @@
 layout: page
 title: common/platformio (தமிழ்)
 description: "இக்கட்டளை `pio` கட்டளையின் மற்றொருப் பெயர்."
-content_hash: 18c68ff2d91fc31549f34a43298f2d5c6daa475a
+content_hash: ad0fc9319a32a58eecc8907f764ee2549b9da195
 related_topics:
   - title: bosanski version
     url: /bs/common/platformio.html
@@ -68,7 +68,7 @@ related_topics:
 # platformio
 
 இக்கட்டளை `pio` கட்டளையின் மற்றொருப் பெயர்.
-மேலும் தகவல்: <https://docs.platformio.org/en/latest/core/userguide/>.
+மேலும் விவரத்திற்கு: <https://docs.platformio.org/en/latest/core/userguide/>.
 
 - அக்கட்டளையின் விளக்கத்தைக் காண:
 

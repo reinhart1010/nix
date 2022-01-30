@@ -2,7 +2,7 @@
 layout: page
 title: common/mscore (українська)
 description: "Ця команда є псевдонімом для `musescore`."
-content_hash: fe2405d36119f25f1856d3270b606cf750262c72
+content_hash: 632318c98413de42b8be04f9809b4b588f28a8b0
 related_topics:
   - title: bosanski version
     url: /bs/common/mscore.html
@@ -68,6 +68,7 @@ related_topics:
 # mscore
 
 Ця команда є псевдонімом для `musescore`.
+Більше інформації: <https://musescore.org/handbook/command-line-options>.
 
 - Дивись документацію для оригінальної команди:
 

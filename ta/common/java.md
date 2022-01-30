@@ -2,7 +2,7 @@
 layout: page
 title: common/java (தமிழ்)
 description: "ஜாவா பயன்பாட்டு துவக்கி."
-content_hash: 65698bf2bd61fa16ac72333c5798d5b6e3956c9e
+content_hash: 81cc14d4d8d6b95f1eda66311941369dc6ef8156
 related_topics:
   - title: English version
     url: /en/common/java.html
@@ -32,7 +32,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># java
 
 ஜாவா பயன்பாட்டு துவக்கி.
-மேலும் தகவல்: <https://java.com>.
+மேலும் விவரத்திற்கு: <https://docs.oracle.com/en/java/javase/17/docs/specs/man/java.html>.
 
 - ஒரு main செயல்பாட்டைக் கொண்ட ஜாவா .class கோப்பை வெறும் class பெயரை பயன்படுத்தி இயக்கவும்:
 

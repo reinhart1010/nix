@@ -2,7 +2,7 @@
 layout: page
 title: linux/addpart (Deutsch)
 description: "Informiert den Linux-Kernel über die Existenz der angegebenen Partition."
-content_hash: dd506e3c79e75b3b4722fc0f4d3021f85a0d1e54
+content_hash: b4016034ea055cdc7e8c4915987ff0dfaa94249e
 related_topics:
   - title: English version
     url: /en/linux/addpart.html
@@ -15,7 +15,7 @@ related_topics:
 
 Informiert den Linux-Kernel über die Existenz der angegebenen Partition.
 Dieser Befehl ist ein einfacher Wrapper um den `add partition` ioctl.
-Mehr Informationen: <https://manned.org/addpart>.
+Weitere Informationen: <https://manned.org/addpart>.
 
 - Informiere den Kernel über die Existenz der angegebenen Partition:
 

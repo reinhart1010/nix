@@ -2,7 +2,7 @@
 layout: page
 title: common/time (svenska)
 description: "Se hur lång tid ett kommando tar."
-content_hash: 6a58a4a6f91d0630619163739a6e7f39a4996586
+content_hash: 6dc28470088fa17f1495a763a8ed0520adc003ec
 related_topics:
   - title: bosanski version
     url: /bs/common/time.html
@@ -26,6 +26,7 @@ related_topics:
 # time
 
 Se hur lång tid ett kommando tar.
+Mer information: <https://manned.org/time>.
 
 - Tidtagning "ls":
 

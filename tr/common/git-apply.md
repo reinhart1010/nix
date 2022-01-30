@@ -2,7 +2,7 @@
 layout: page
 title: common/git-apply (Türkçe)
 description: "İndeks veya dosyalara yama uygula."
-content_hash: 17c53957a35c39c5ed2eb3fe1916aeea66059fdc
+content_hash: 9df126e7ee4532dbbea85b7dd13bfb3cf3218af9
 related_topics:
   - title: Deutsch version
     url: /de/common/git-apply.html
@@ -17,13 +17,10 @@ related_topics:
     url: /ta/common/git-apply.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git apply
+# git apply
 
 İndeks veya dosyalara yama uygula.
-Daha fazla bilgi için: <https://git-scm.com/docs/git-apply>.
+Daha fazla bilgi: <https://git-scm.com/docs/git-apply>.
 
 - Yamalanan dosyalarla ilgili mesajları yazdır:
 
