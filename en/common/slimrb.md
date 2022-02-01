@@ -2,11 +2,12 @@
 layout: page
 title: common/slimrb (English)
 description: "Convert Slim files to HTML."
-content_hash: a924889b63add91caf83d3e8ce999570e4c66846
+content_hash: c5b6382504d0bc3d6e96159cb3da73081c727a18
 ---
 # slimrb
 
 Convert Slim files to HTML.
+More information: <https://rdoc.info/gems/slim/frames#slim-command-slimrb>.
 
 - Convert a Slim file to HTML:
 

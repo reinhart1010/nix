@@ -2,11 +2,12 @@
 layout: page
 title: common/socat (English)
 description: "Multipurpose relay (SOcket CAT)."
-content_hash: 4bc2e0a59402182ef39ea7dcba49c0026f658587
+content_hash: c17d89f9333e9fce7d2a0953829fde18150fee6f
 ---
 # socat
 
 Multipurpose relay (SOcket CAT).
+More information: <http://www.dest-unreach.org/socat/>.
 
 - Listen to a port, wait for an incoming connection and transfer data to STDIO:
 

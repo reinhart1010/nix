@@ -2,11 +2,12 @@
 layout: page
 title: common/sn (English)
 description: "Mono StrongName utility for signing and verifying IL assemblies."
-content_hash: c880c3e93188c3b24a5b38309ae29d5cc964a3fe
+content_hash: ea3e58d1eee5cf35810d73295a199fb73f1e17ae
 ---
 # sn
 
 Mono StrongName utility for signing and verifying IL assemblies.
+More information: <https://manned.org/sn>.
 
 - Generate a new StrongNaming key:
 
