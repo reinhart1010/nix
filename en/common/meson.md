@@ -2,7 +2,7 @@
 layout: page
 title: common/meson (English)
 description: "SCons-like build system that uses python as a front-end language and Ninja as a building backend."
-content_hash: 08ccbc455d92e0a4598bad2a52d18690c7923c7b
+content_hash: 895d636f8798554f3144d5778728a5c824bec0c7
 ---
 # meson
 
@@ -20,6 +20,10 @@ More information: <https://mesonbuild.com>.
 - Build the project:
 
 `meson compile -C `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/build_dir</span>
+
+- Run all tests in the project:
+
+`meson test`
 
 - Show the help:
 
