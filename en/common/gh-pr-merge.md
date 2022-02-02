@@ -2,7 +2,7 @@
 layout: page
 title: common/gh-pr-merge (English)
 description: "Merge GitHub pull requests."
-content_hash: bfe8a9b9ce26bcd3f49d50114855f2aae4814c67
+content_hash: 433d3f3133a414eceee397ff66beaec26284c902
 ---
 # gh pr merge
 
@@ -24,6 +24,10 @@ More information: <https://cli.github.com/manual/gh_pr_merge>.
 - Merge the current pull request with the specified merge strategy:
 
 `gh pr merge --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">merge|squash|rebase</span>
+
+- Merge the current pull request with the specified merge strategy and commit message:
+
+`gh pr merge --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">merge|squash|rebase</span>` --subject `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_message</span>
 
 - Squash the current pull request into one commit with the message body and merge:
 
