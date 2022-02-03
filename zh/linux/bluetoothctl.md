@@ -2,7 +2,7 @@
 layout: page
 title: linux/bluetoothctl (中文)
 description: "从命令行管理蓝牙设备。"
-content_hash: 0c34e3fd93dcb303342cf3509472c6e83427edf9
+content_hash: 05c3ba7ad0ab7b3d3174ce88a5669b745ca1b532
 related_topics:
   - title: English version
     url: /en/linux/bluetoothctl.html
@@ -23,7 +23,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># bluetoothctl
 
 从命令行管理蓝牙设备。
-更多信息：<https://www.npmjs.com/package/bluetoothctl>.
+更多信息：<https://bitbucket.org/serkanp/bluetoothctl>.
 
 - 进入 bluetoothctl 外壳程序：
 

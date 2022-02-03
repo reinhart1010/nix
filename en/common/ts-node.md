@@ -2,12 +2,12 @@
 layout: page
 title: common/ts-node (English)
 description: "Run TypeScript code directly, without any compiling."
-content_hash: 2caad5bdbb36dd6fd73adb56cdfed0303697ddaf
+content_hash: 9af3546b489d57342bbec2068894f7fe223bd14d
 ---
 # ts-node
 
 Run TypeScript code directly, without any compiling.
-More information: <https://www.npmjs.com/package/ts-node>.
+More information: <https://typestrong.org/ts-node>.
 
 - Execute a TypeScript file without compiling (`node` + `tsc`):
 

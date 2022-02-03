@@ -2,7 +2,7 @@
 layout: page
 title: common/npx (Deutsch)
 description: "Führt Binärdateien von `npm` Paketen aus."
-content_hash: 19c418a75b25108b73fa7d85e6ac1707df7feeec
+content_hash: 0498e0cfaa67de73a8aaacf0098b6ba2cd23448d
 related_topics:
   - title: English version
     url: /en/common/npx.html
@@ -11,7 +11,7 @@ related_topics:
 # npx
 
 Führt Binärdateien von `npm` Paketen aus.
-Weitere Informationen: <https://www.npmjs.com/package/npx>.
+Weitere Informationen: <https://github.com/npm/npx>.
 
 - Führe die Binärdatei eines übergebenen npm Pakets aus:
 

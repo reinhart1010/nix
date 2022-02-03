@@ -2,7 +2,7 @@
 layout: page
 title: common/npm (English)
 description: "JavaScript and Node.js package manager."
-content_hash: 49e08b2b6a673a4d3f3b621dc0864666e451a1d1
+content_hash: b878bc173d53d868ba77e2678cbd97f84cdc6885
 related_topics:
   - title: Deutsch version
     url: /de/common/npm.html
@@ -15,7 +15,7 @@ related_topics:
 
 JavaScript and Node.js package manager.
 Manage Node.js projects and their module dependencies.
-More information: <https://www.npmjs.com/>.
+More information: <https://www.npmjs.com>.
 
 - Interactively create a `package.json` file:
 

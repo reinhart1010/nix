@@ -2,7 +2,7 @@
 layout: page
 title: common/yarn-why (中文)
 description: "确认安装这个 Yarn 软件包的原因。"
-content_hash: f827013b66e5797afc633a5390472254a0c56a9c
+content_hash: b1fe8925d4bca29de75ea84db76c9b8d1d131888
 related_topics:
   - title: English version
     url: /en/common/yarn-why.html
@@ -17,7 +17,7 @@ related_topics:
 # yarn-why
 
 确认安装这个 Yarn 软件包的原因。
-更多信息：<https://www.npmjs.com/package/yarn-why>.
+更多信息：<https://github.com/amio/yarn-why>.
 
 - 打印安装这个 Yarn 软件包的原因：
 

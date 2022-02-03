@@ -2,7 +2,7 @@
 layout: page
 title: common/npm-why (svenska)
 description: "Identifierar varför ett npm-paket är installerat."
-content_hash: 8d9dbd13c1ca08bacb4649becbadf777cf7e80aa
+content_hash: 2e888cfa56ecdbfa93c5e517391b81f501399e0f
 related_topics:
   - title: Deutsch version
     url: /de/common/npm-why.html
@@ -14,7 +14,7 @@ related_topics:
 # npm-why
 
 Identifierar varför ett npm-paket är installerat.
-Mer information: <https://www.npmjs.com/package/npm-why>.
+Mer information: <https://github.com/amio/npm-why>.
 
 - Visa varför ett npm-paket är installerat:
 

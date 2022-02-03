@@ -2,12 +2,12 @@
 layout: page
 title: common/live-server (English)
 description: "A simple development HTTP server with live reload capability."
-content_hash: 492ba5efb71e0115d283232da1919fcb49b57fc5
+content_hash: 7bb9a5b1d804b6e3a5212ba0c74d54174c5382ca
 ---
 # live-server
 
 A simple development HTTP server with live reload capability.
-More information: <https://www.npmjs.com/package/live-server>.
+More information: <https://github.com/tapio/live-server>.
 
 - Serve an `index.html` file and reload on changes:
 

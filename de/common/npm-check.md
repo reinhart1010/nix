@@ -2,7 +2,7 @@
 layout: page
 title: common/npm-check (Deutsch)
 description: "Prüft veraltete, inkorrekte und nicht verwendete Abhängigkeiten."
-content_hash: 1652d5d8e8f2309496dcc1e493ce4e00000d3e95
+content_hash: cc0aea4f2808002a7d266182b1059cd7c828b464
 related_topics:
   - title: English version
     url: /en/common/npm-check.html
@@ -11,7 +11,7 @@ related_topics:
 # npm-check
 
 Prüft veraltete, inkorrekte und nicht verwendete Abhängigkeiten.
-Weitere Informationen: <https://www.npmjs.com/package/npm-check/>.
+Weitere Informationen: <https://github.com/dylang/npm-check>.
 
 - Zeige einen Bericht von veralteten, inkorrekten und nicht verwendeten Abhängigkeiten:
 

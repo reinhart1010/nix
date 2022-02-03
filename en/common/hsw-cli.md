@@ -2,12 +2,12 @@
 layout: page
 title: common/hsw-cli (English)
 description: "The command-line REST tool for the Handshake wallet."
-content_hash: 34d71582588a42581c5a6d279f2c36796807df5d
+content_hash: 888e6f727460a47846fdf245e88c0bc2d62b88de
 ---
 # hsw-cli
 
 The command-line REST tool for the Handshake wallet.
-More information: <https://npmjs.com/package/hs-client>.
+More information: <https://github.com/handshake-org/hs-client>.
 
 - Unlock the current wallet (timeout in seconds):
 

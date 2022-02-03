@@ -2,12 +2,12 @@
 layout: page
 title: common/web-ext (English)
 description: "A command-line tool for managing web extension development."
-content_hash: 599f4f1563bb170c5169d12897944e87b1a71abd
+content_hash: c85f56ac1cb4174506890b7c1b038f9afa565fa4
 ---
 # web-ext
 
 A command-line tool for managing web extension development.
-More information: <https://www.npmjs.com/package/web-ext>.
+More information: <https://github.com/mozilla/web-ext>.
 
 - Run the web extension in the current directory in Firefox:
 

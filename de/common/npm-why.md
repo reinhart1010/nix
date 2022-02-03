@@ -2,7 +2,7 @@
 layout: page
 title: common/npm-why (Deutsch)
 description: "Identifiziert, warum ein npm Paket installiert ist."
-content_hash: d03a9c4685d5cd39b97172fd421fe8526b727672
+content_hash: c4504aca3427bea8cc0aae8066c3bb746547a029
 related_topics:
   - title: English version
     url: /en/common/npm-why.html
@@ -14,7 +14,7 @@ related_topics:
 # npm-why
 
 Identifiziert, warum ein npm Paket installiert ist.
-Weitere Informationen: <https://www.npmjs.com/package/npm-why>.
+Weitere Informationen: <https://github.com/amio/npm-why>.
 
 - Zeige, warum ein npm Paket installiert ist:
 

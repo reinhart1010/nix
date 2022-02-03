@@ -2,7 +2,7 @@
 layout: page
 title: linux/bluetoothctl (മലയാളം)
 description: "കമാൻഡ് ലൈനിൽ നിന്ന് ബ്ലൂടൂത്ത് ഉപകരണങ്ങൾ മാനേജുചെയ്യുക."
-content_hash: 6c2553422d28ca46f7abdb21e216e67404c63489
+content_hash: 9d29b05a9bfff818cb9770e3fef5d467493687d8
 related_topics:
   - title: English version
     url: /en/linux/bluetoothctl.html
@@ -23,7 +23,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># bluetoothctl
 
 കമാൻഡ് ലൈനിൽ നിന്ന് ബ്ലൂടൂത്ത് ഉപകരണങ്ങൾ മാനേജുചെയ്യുക.
-കൂടുതൽ വിവരങ്ങൾ: <https://www.npmjs.com/package/bluetoothctl>.
+കൂടുതൽ വിവരങ്ങൾ: <https://bitbucket.org/serkanp/bluetoothctl>.
 
 - ബ്ലൂടൂത്ത്സിറ്റിഎൽ ഷെല്ലിൽ കേറാൻ:
 

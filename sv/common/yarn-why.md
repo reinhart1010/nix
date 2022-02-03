@@ -2,7 +2,7 @@
 layout: page
 title: common/yarn-why (svenska)
 description: "Identifierar varför ett Yarn paket har installerats."
-content_hash: bafae84b3c38d7f293fcd1d03aeb2b378ea3ffac
+content_hash: a7766e712e92cdd8125d500bfbcd15e65cca66d9
 related_topics:
   - title: English version
     url: /en/common/yarn-why.html
@@ -17,7 +17,7 @@ related_topics:
 # yarn-why
 
 Identifierar varför ett Yarn paket har installerats.
-Mer information: <https://www.npmjs.com/package/yarn-why>.
+Mer information: <https://github.com/amio/yarn-why>.
 
 - Visa varför ett Yarn paket är installerat:
 

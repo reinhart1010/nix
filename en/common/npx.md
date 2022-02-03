@@ -2,7 +2,7 @@
 layout: page
 title: common/npx (English)
 description: "Execute binaries from `npm` packages."
-content_hash: cc790a6daaf2a0626d161f2c53adc308e6514979
+content_hash: 06fbe77616fd3185d418584cd7785ea0a2221628
 related_topics:
   - title: Deutsch version
     url: /de/common/npx.html
@@ -11,7 +11,7 @@ related_topics:
 # npx
 
 Execute binaries from `npm` packages.
-More information: <https://www.npmjs.com/package/npx>.
+More information: <https://github.com/npm/npx>.
 
 - Execute the binary from a given npm module:
 

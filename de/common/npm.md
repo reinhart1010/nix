@@ -2,7 +2,7 @@
 layout: page
 title: common/npm (Deutsch)
 description: "Ein Kommandozeilenwerkzeug für die Verwaltung von JavaScript und Node.js Paketen (Packages)."
-content_hash: 163b21587b320d1aaeba9ed8bf3523c9219d3ffd
+content_hash: 0d36fec28253a9d45184f476a85379880a431da9
 related_topics:
   - title: English version
     url: /en/common/npm.html
@@ -14,7 +14,7 @@ related_topics:
 # npm
 
 Ein Kommandozeilenwerkzeug für die Verwaltung von JavaScript und Node.js Paketen (Packages).
-Weitere Informationen: <https://www.npmjs.com/>.
+Weitere Informationen: <https://www.npmjs.com>.
 
 - Erstelle eine `package.json` Datei interaktiv:
 

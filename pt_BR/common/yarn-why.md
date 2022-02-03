@@ -2,7 +2,7 @@
 layout: page
 title: common/yarn-why (português (Brasil))
 description: "Identifica por que um pacote Yarn foi instalado."
-content_hash: cbc428e5937b6603bdd4e2dc04284a29ba1ae723
+content_hash: dab8f386f73fd40b5b31e03fc30cbb129663a513
 related_topics:
   - title: English version
     url: /en/common/yarn-why.html
@@ -17,7 +17,7 @@ related_topics:
 # yarn-why
 
 Identifica por que um pacote Yarn foi instalado.
-Mais informações: <https://www.npmjs.com/package/yarn-why>.
+Mais informações: <https://github.com/amio/yarn-why>.
 
 - Exibir na tela o motivo de um pacote Yarn estar instalado:
 

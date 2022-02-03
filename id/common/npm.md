@@ -2,7 +2,7 @@
 layout: page
 title: common/npm (Indonesia)
 description: "Manajer paket JavaScript dan Node.js."
-content_hash: ab7a9f2863aec5236683e75fd061427b5491b549
+content_hash: 9b715d154ead08e7b0bed0cf5f9933b98fa96959
 related_topics:
   - title: Deutsch version
     url: /de/common/npm.html
@@ -15,7 +15,7 @@ related_topics:
 
 Manajer paket JavaScript dan Node.js.
 Mengelola proyek Node.js dan dependensi modulnya.
-Informasi lebih lanjut: <https://www.npmjs.com/>.
+Informasi lebih lanjut: <https://www.npmjs.com>.
 
 - Membuat file `package.json` secara interaktif:
 
