@@ -2,7 +2,7 @@
 layout: page
 title: common/nano (español)
 description: "Editor sencillo y fácil de usar. Un clon libre y mejorado de Pico."
-content_hash: 2b8123aafd9c8130a622faf29de6ef1187a411de
+content_hash: 4f93e16b6e0b353855630f91c7ed910ffd2409a4
 related_topics:
   - title: English version
     url: /en/common/nano.html
@@ -31,14 +31,26 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 Editor sencillo y fácil de usar. Un clon libre y mejorado de Pico.
 Más información: <https://nano-editor.org>.
 
-- Inicia nano en la terminal con {nombre_del_archivo}:
+- Abre un nuevo archivo en nano:
 
-`nano `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_archivo</span>
+`nano`
 
-- Activar desplazamiento suave:
+- Abre un archivo específico:
 
-`nano -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_archivo</span>
+`nano `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 
-- Sangra las nuevas líneas a la sangría de las líneas anteriores:
+- Abre un archivo específico, posicionando el cursor en la línea y columna específica:
 
-`nano -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_archiv</span>
+`nano +`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">linea</span>`,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">columna</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
+
+- Abre un archivo específico y activa el ajuste de línea:
+
+`nano --softwrap `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
+
+- Abre un archivo específico y sangra nuevas líneas a la sangría de las líneas anteriores:
+
+`nano --autoindent `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
+
+- Abre nano y create un archivo de resguardo (`archivo~`)  cuando se guardan las ediciones:
+
+`nano --backup `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>

@@ -2,7 +2,7 @@
 layout: page
 title: common/git-commit (español)
 description: "Realiza commits de los archivos al repositorio."
-content_hash: f08672ebf051ea7ddff44abeb8b4eb78e0d2b632
+content_hash: a6c435d32219012a01f0bbdca3d72a7b6a1543d8
 related_topics:
   - title: Deutsch version
     url: /de/common/git-commit.html
@@ -21,6 +21,9 @@ related_topics:
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-commit.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-commit.html
     icon: bi bi-globe
   - title: українська version
     url: /uk/common/git-commit.html
@@ -59,3 +62,7 @@ Más información: <https://git-scm.com/docs/git-commit>.
 - Realiza un commit para archivos específicos (marcados previamente):
 
 `git commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo2</span>
+
+- Crea un commit, incluso si no hay archivos marcados:
+
+`git commit -m "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mensaje</span>`" --allow-empty`

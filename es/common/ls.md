@@ -2,7 +2,7 @@
 layout: page
 title: common/ls (español)
 description: "Lista los contenidos de directorios."
-content_hash: c2f034c0c9edbabefcc30d30382aa0411f37e518
+content_hash: 9e58a8b7723472563e178f47150e315a9aeed1e7
 related_topics:
   - title: Deutsch version
     url: /de/common/ls.html
@@ -85,3 +85,7 @@ Más información: <https://www.gnu.org/software/coreutils/ls>.
 - Lista todos los archivos con formato largo, ordenado por fecha de modificación (archivos más viejos en primer lugar):
 
 `ls -ltr`
+
+- Lista solamente directorios:
+
+`ls -d */`

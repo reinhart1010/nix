@@ -2,7 +2,7 @@
 layout: page
 title: common/git-push (español)
 description: "Enviar (*push*) los commits al repositorio remoto."
-content_hash: a7cb2bab3e934a0e914af13e136704856fca060a
+content_hash: 77ba7117895ca850fbd0761be3afde6b9a297365
 related_topics:
   - title: Deutsch version
     url: /de/common/git-push.html
@@ -15,6 +15,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-push.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-push.html
     icon: bi bi-globe
 ---
 
@@ -42,6 +45,10 @@ Más información: <https://git-scm.com/docs/git-push>.
 - Publica la rama actual en el repositorio remoto y establece el nombre remoto de la rama:
 
 `git push `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_remoto</span>` -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rama_remota</span>
+
+- Envia los cambios locales de una rama específica a una rama específica en el remoto:
+
+`git push `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_remoto</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rama_local</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rama_remota</span>
 
 - Envia los cambios de todas las ramas locales a sus respectivas ramas en el repositorio remoto:
 

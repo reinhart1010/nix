@@ -2,7 +2,7 @@
 layout: page
 title: common/docker-run (English)
 description: "Run a command in a new Docker container."
-content_hash: e6b82b9d8149f3d85dce0d565a30fdca1c44ef5e
+content_hash: d76b5b589419e09d8283b72c9ee20faf93ec70e1
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-run.html
@@ -37,7 +37,7 @@ More information: <https://docs.docker.com/engine/reference/commandline/run/>.
 
 - Run command in a new container with bind mounted volumes:
 
-`docker run -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/host_path</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/container_path</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
+`docker run -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/host_path</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/container_path</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
 - Run command in a new container with published ports:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/htop (español)
 description: "Muestra información dinámica en tiempo real sobre los procesos ejecutándose. Una versión mejorada de `top`."
-content_hash: 383cda2d1af3ad25a4c4ebd244409a7e9b54f503
+content_hash: 958d19b60e45f9bfd42ba5d9f841673aca8d3c7f
 related_topics:
   - title: English version
     url: /en/common/htop.html
@@ -31,12 +31,16 @@ Más información: <https://htop.dev/>.
 
 - Inicia htop mostrando solo procesos pertenecientes a un usuario dado:
 
-`htop -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span>
+`htop --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_usuario</span>
 
-- Ordena procesos por columna (use `--sort-key help` para ver una lista de columnas):
+- Ordena procesos por un específico `elemento_de_ordenamiento` (use `htop --sort help` para opciones disponibles):
 
-`htop -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_columna</span>
+`htop --sort `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">elemento_de_ordenamiento</span>
 
-- Recibe ayuda sobre comandos interactivos:
+- Muestra comandos interactivos mientras corre htop:
 
 `?`
+
+- Muestra la ayuda:
+
+`htop --help`

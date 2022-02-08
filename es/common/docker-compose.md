@@ -2,7 +2,7 @@
 layout: page
 title: common/docker-compose (español)
 description: "Ejecuta y gestiona múltiples contenedores Docker."
-content_hash: 1e180d17fe2591f1c51d3c8f0f32b7ecb37693f1
+content_hash: 951cf5b480206d5646fec16c039696b0e8202fb6
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -67,3 +67,7 @@ Más información: <https://docs.docker.com/compose/reference/>.
 - Sigue los registros de todos los contenedores:
 
 `docker-compose logs --follow`
+
+- Sigue los registros de un contenedor específico:
+
+`docker-compose logs --follow `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_contenedor</span>

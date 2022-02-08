@@ -2,7 +2,7 @@
 layout: page
 title: common/git-rev-list (español)
 description: "Muestra las revisiones (commits) en orden cronológico inverso."
-content_hash: 251162949903077d76cf1c1c239c4dcded3913a7
+content_hash: 132cda82ad5912ba4b0654ebb720105ec18bf421
 related_topics:
   - title: English version
     url: /en/common/git-rev-list.html
@@ -12,6 +12,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-rev-list.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-rev-list.html
     icon: bi bi-globe
 ---
 
@@ -39,3 +42,7 @@ Más información: <https://git-scm.com/docs/git-rev-list>.
 - Muestra todos los commits fusionados en un commit específico:
 
 `git rev-list --merges `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span>
+
+- Imprime el número de commits desde una etiqueta específica:
+
+`git rev-list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_etiqueta</span>`..HEAD --count`
