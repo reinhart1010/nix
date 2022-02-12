@@ -2,7 +2,7 @@
 layout: page
 title: linux/adduser (English)
 description: "User addition utility."
-content_hash: a6f84d479ebaf1ac073b451a26b5ab6a45ccfc59
+content_hash: 5135379d5878851982469f3869fc37d8bfd0a571
 related_topics:
   - title: Deutsch version
     url: /de/linux/adduser.html
@@ -41,7 +41,3 @@ More information: <https://manpages.debian.org/latest/adduser/adduser.html>.
 - Create a new user belonging to the specified group:
 
 `adduser --ingroup `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>
-
-- Add an existing user to the specified group:
-
-`adduser `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group</span>
