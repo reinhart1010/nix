@@ -2,7 +2,7 @@
 layout: page
 title: osx/rename (English)
 description: "Rename a file or group of files with a regular expression."
-content_hash: b04e1b80f6b4836821601b24ce91d091bdb4b048
+content_hash: eedaab6b1b1876114a1505146c1cda1739b3f272
 related_topics:
   - title: português (Portugal) version
     url: /pt_PT/osx/rename.html
@@ -11,6 +11,7 @@ related_topics:
 # rename
 
 Rename a file or group of files with a regular expression.
+More information: <https://www.manpagez.com/man/2/rename/>.
 
 - Replace `from` with `to` in the filenames of the specified files:
 

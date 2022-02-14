@@ -2,7 +2,7 @@
 layout: page
 title: osx/csshx (English)
 description: "Cluster SSH tool for macOS."
-content_hash: d770d8fc33a03c52d38a0b4d816c00d14b3923a1
+content_hash: 2def0b0667db26f27e6f8d4263781abc8fd05049
 ---
 # csshX
 
@@ -15,7 +15,7 @@ More information: <https://github.com/brockgr/csshx>.
 
 - Connect to multiple hosts with a given SSH key:
 
-`csshX `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user@hostname1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user@hostname2</span>` '--ssh_args' '-i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/ssh_key.pem</span>`'`
+`csshX `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user@hostname1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user@hostname2</span>` --ssh_args "-i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/ssh_key.pem</span>`"`
 
 - Connect to a pre-defined cluster from `/etc/clusters`:
 

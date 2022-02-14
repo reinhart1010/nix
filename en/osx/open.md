@@ -2,7 +2,7 @@
 layout: page
 title: osx/open (English)
 description: "Opens files, directories and applications."
-content_hash: 6db1d86ec21207fce5a59ee0219510f764a555cb
+content_hash: 50222ece761a0e99789f5b6cee62f97b9c76aac9
 related_topics:
   - title: Deutsch version
     url: /de/osx/open.html
@@ -14,6 +14,7 @@ related_topics:
 # open
 
 Opens files, directories and applications.
+More information: <https://ss64.com/osx/open.html>.
 
 - Open a file with the associated application:
 
@@ -21,7 +22,7 @@ Opens files, directories and applications.
 
 - Run a graphical macOS application:
 
-`open -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Application</span>
+`open -a "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Application</span>`"`
 
 - Run a graphical macOS app based on the bundle identifier (refer to `osascript` for an easy way to get this):
 

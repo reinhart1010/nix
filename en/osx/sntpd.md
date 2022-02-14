@@ -2,12 +2,13 @@
 layout: page
 title: osx/sntpd (English)
 description: "An SNTP server."
-content_hash: bb9b484f87bd81c2e3939e6eb3596c1414f3be1b
+content_hash: 0d8a239244fd9f01bd0b7ad667fef325429a184e
 ---
 # sntpd
 
 An SNTP server.
 It should not be invoked manually.
+More information: <https://linux.die.net/man/8/snmpd>.
 
 - Start the daemon:
 

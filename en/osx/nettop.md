@@ -2,11 +2,12 @@
 layout: page
 title: osx/nettop (English)
 description: "Display updated information about the network."
-content_hash: 243b17117711b5eb5d4982429f22fb795ce8b55d
+content_hash: 339cb7da943ade8ee5510b4a5f5243d8543dd2db
 ---
 # nettop
 
 Display updated information about the network.
+More information: <https://www.manpagez.com/man/1/nettop/>.
 
 - Monitor TCP and UDP sockets from all interfaces:
 
@@ -18,7 +19,7 @@ Display updated information about the network.
 
 - Monitor a specific process:
 
-`nettop -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_id|process_name</span>
+`nettop -p "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_id|process_name</span>`"`
 
 - Display a per-process summary:
 

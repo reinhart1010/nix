@@ -2,7 +2,7 @@
 layout: page
 title: osx/pbpaste (English)
 description: "Send the contents of the clipboard to standard output."
-content_hash: 9fecc349a3b0173ae76269c05cb317b13fd50555
+content_hash: 7f3555d7a46d203e2b5ea8313f338d1641b51d6f
 related_topics:
   - title: Indonesia version
     url: /id/osx/pbpaste.html
@@ -14,6 +14,7 @@ related_topics:
 # pbpaste
 
 Send the contents of the clipboard to standard output.
+More information: <https://ss64.com/osx/pbpaste.html>.
 
 - Write the contents of the clipboard to a file:
 

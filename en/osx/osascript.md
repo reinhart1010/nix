@@ -2,7 +2,7 @@
 layout: page
 title: osx/osascript (English)
 description: "Run AppleScript or JavaScript for Automation (JXA) from the command-line."
-content_hash: 2a790a3fbccc86970e6b92220b4241154062ba5b
+content_hash: 017da9f0c4d424857336b074c9b7baf89fbc9666
 related_topics:
   - title: 中文 version
     url: /zh/osx/osascript.html
@@ -15,11 +15,11 @@ More information: <https://ss64.com/osx/osascript.html>.
 
 - Run an AppleScript command:
 
-`osascript -e '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">say "Hello world"</span>`'`
+`osascript -e "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">say 'Hello world'</span>`"`
 
 - Run multiple AppleScript commands:
 
-`osascript -e '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">say "Hello"</span>`' -e '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">say "world"</span>`'`
+`osascript -e "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">say 'Hello'</span>`" -e "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">say 'world'</span>`"`
 
 - Run a compiled (`*.scpt`), bundled (`*.scptd`), or plaintext (`*.applescript`) AppleScript file:
 
@@ -31,7 +31,7 @@ More information: <https://ss64.com/osx/osascript.html>.
 
 - Run a JavaScript command:
 
-`osascript -l JavaScript -e '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">console.log("Hello world");</span>`'`
+`osascript -l JavaScript -e "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">console.log('Hello world');</span>`"`
 
 - Run a JavaScript file:
 

@@ -2,7 +2,7 @@
 layout: page
 title: osx/md5 (English)
 description: "Calculate MD5 cryptographic checksums."
-content_hash: 97a6274bbdb52f68c8eca5870bc775909554c52f
+content_hash: c5d5bd6fe8dc8956bfe3ca29a85a7ded45520c4c
 related_topics:
   - title: 中文 version
     url: /zh/osx/md5.html
@@ -27,4 +27,4 @@ More information: <https://ss64.com/osx/md5.html>.
 
 - Print a checksum of the given string:
 
-`md5 -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>
+`md5 -s "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>`"`

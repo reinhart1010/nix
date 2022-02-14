@@ -2,7 +2,7 @@
 layout: page
 title: osx/opensnoop (English)
 description: "Tool that tracks file opens on your system."
-content_hash: 02877324c84c9f897351b4cbde35112c2371bcd8
+content_hash: e165f1bd848b63b8196cb34c963f7762756dbee0
 related_topics:
   - title: 中文 version
     url: /zh/osx/opensnoop.html
@@ -11,6 +11,7 @@ related_topics:
 # opensnoop
 
 Tool that tracks file opens on your system.
+More information: <https://ss64.com/osx/opensnoop.html>.
 
 - Print all file opens as they occur:
 
@@ -18,7 +19,7 @@ Tool that tracks file opens on your system.
 
 - Track all file opens by a process by name:
 
-`sudo opensnoop -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_name</span>
+`sudo opensnoop -n "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_name</span>`"`
 
 - Track all file opens by a process by PID:
 

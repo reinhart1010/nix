@@ -2,7 +2,7 @@
 layout: page
 title: osx/pod (English)
 description: "Dependency manager for Swift and Objective-C Cocoa projects."
-content_hash: 7e8f9433a72b1f8c3ed174002e81dcd07196cf58
+content_hash: 93af320fd3fd8d6899a261c1a272a9c072ab6517
 related_topics:
   - title: 中文 version
     url: /zh/osx/pod.html
@@ -11,6 +11,7 @@ related_topics:
 # pod
 
 Dependency manager for Swift and Objective-C Cocoa projects.
+More information: <https://guides.cocoapods.org/terminal/commands.html>.
 
 - Create a Podfile for the current project with the default contents:
 

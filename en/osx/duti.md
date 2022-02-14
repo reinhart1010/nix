@@ -2,7 +2,7 @@
 layout: page
 title: osx/duti (English)
 description: "Set default applications for document types and URL schemes on macOS."
-content_hash: cea4542d327327f231a306d12bac9159bc6df0e4
+content_hash: f9b2355a2e00d4edc52c9851bced00798aac0ff9
 related_topics:
   - title: 中文 version
     url: /zh/osx/duti.html
@@ -23,7 +23,7 @@ More information: <https://github.com/moretension/duti>.
 
 - Set Finder as the default handler for the ftp:// URL scheme:
 
-`duti -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.apple.Finder</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ftp</span>
+`duti -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.apple.Finder</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ftp</span>`"`
 
 - Display information about the default application for a given extension:
 

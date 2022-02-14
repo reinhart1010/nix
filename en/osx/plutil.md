@@ -2,11 +2,12 @@
 layout: page
 title: osx/plutil (English)
 description: "View, convert, validate, or edit property list (\"plist\") files."
-content_hash: 3af8d1cf2a9f654da847bfdd608b8af91831deee
+content_hash: 0a4eec8792bf4fc038eae9e3e560f808c281a4e6
 ---
 # plutil
 
 View, convert, validate, or edit property list ("plist") files.
+More information: <https://www.manpagez.com/man/1/plutil/>.
 
 - Display the contents of one or more plist files in human-readable format:
 

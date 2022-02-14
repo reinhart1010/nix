@@ -2,12 +2,12 @@
 layout: page
 title: osx/safeejectgpu (English)
 description: "Eject a GPU safely."
-content_hash: ba9d2cd49a9771c7ebdfa8a8102e179266160fe5
+content_hash: 887bc0a24996d41ff5d0bf0035b73b2fc4c8a3a3
 ---
 # SafeEjectGPU
 
 Eject a GPU safely.
-Visit the man page for more info.
+More information: <https://www.unix.com/man-page/mojave/8/safeejectgpu>.
 
 - Eject all GPUs:
 

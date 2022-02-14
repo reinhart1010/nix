@@ -2,11 +2,12 @@
 layout: page
 title: osx/pkgutil (English)
 description: "Query and manipulate Mac OS X Installer packages and receipts."
-content_hash: 9818ba6e8dbc314c22d38038c72155063ec77d9a
+content_hash: 4bb6e5cc9c8935fad498bd26195528ac3cf2ffe4
 ---
 # pkgutil
 
 Query and manipulate Mac OS X Installer packages and receipts.
+More information: <https://ss64.com/osx/pkgutil.html>.
 
 - List package IDs for all installed packages:
 

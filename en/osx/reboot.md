@@ -2,7 +2,7 @@
 layout: page
 title: osx/reboot (English)
 description: "Reboot the system."
-content_hash: 604e1ac3b474dd15c3b75c304961c0639150257a
+content_hash: f45ac2616f2664a477f0aa098a576f08f8f0dbbe
 related_topics:
   - title: 中文 version
     url: /zh/osx/reboot.html
@@ -11,6 +11,7 @@ related_topics:
 # reboot
 
 Reboot the system.
+More information: <https://ss64.com/osx/reboot.html>.
 
 - Reboot immediately:
 

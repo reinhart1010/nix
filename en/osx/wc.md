@@ -2,7 +2,7 @@
 layout: page
 title: osx/wc (English)
 description: "Count lines, words, or bytes."
-content_hash: c9303e4dad6ae51ed5ef91991b0c16e46761d26c
+content_hash: 3523908766613c9b2fd9218bdd8f053a461ecdfd
 related_topics:
   - title: polski version
     url: /pl/osx/wc.html
@@ -11,7 +11,7 @@ related_topics:
 # wc
 
 Count lines, words, or bytes.
-More information: <https://www.gnu.org/software/coreutils/wc>.
+More information: <https://ss64.com/osx/wc.html>.
 
 - Count lines in file:
 

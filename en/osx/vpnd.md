@@ -2,12 +2,13 @@
 layout: page
 title: osx/vpnd (English)
 description: "Listens for incoming VPN connections."
-content_hash: 06a025210b0ee441ab8a7812fb0fc763ccfb54a1
+content_hash: 5f0e42a5e3c7cde3fe96c27b22f82a170342211d
 ---
 # vpnd
 
 Listens for incoming VPN connections.
 It should not be invoked manually.
+More information: <https://www.unix.com/man-page/osx/8/vpnd/>.
 
 - Start the daemon:
 

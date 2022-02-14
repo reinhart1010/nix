@@ -2,12 +2,13 @@
 layout: page
 title: osx/photolibraryd (English)
 description: "This handles all photo library requests."
-content_hash: bbab31cf9629443c0bdc5a5f571438c00c271e9b
+content_hash: 58222532259e8377947f6e2e87389fdd38c667b1
 ---
 # photolibraryd
 
 This handles all photo library requests.
 It should not be invoked manually.
+More information: <https://www.manpagez.com/man/8/photolibraryd/>.
 
 - Start the daemon:
 

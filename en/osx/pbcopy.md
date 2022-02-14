@@ -2,7 +2,7 @@
 layout: page
 title: osx/pbcopy (English)
 description: "Place standard output in the clipboard."
-content_hash: add94c27b35ad7fb325d0e8925a9a29e3b1d553e
+content_hash: f5138adbf4860432663cb4e66fbb49cd60770ed6
 related_topics:
   - title: Indonesia version
     url: /id/osx/pbcopy.html
@@ -14,6 +14,7 @@ related_topics:
 # pbcopy
 
 Place standard output in the clipboard.
+More information: <https://ss64.com/osx/pbcopy.html>.
 
 - Place the contents of a file in the clipboard:
 

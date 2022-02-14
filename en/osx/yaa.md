@@ -2,11 +2,12 @@
 layout: page
 title: osx/yaa (English)
 description: "Create and manipulate YAA archives."
-content_hash: 6805778a1943f11e9b91a56dd20453e604f6a02e
+content_hash: c87fb795c47995e4adbc57bcd7986fe155a47a63
 ---
 # yaa
 
 Create and manipulate YAA archives.
+More information: <https://www.manpagez.com/man/1/yaa/>.
 
 - Create an archive from a directory:
 

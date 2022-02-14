@@ -2,7 +2,7 @@
 layout: page
 title: osx/networksetup (English)
 description: "Configuration tool for Network System Preferences."
-content_hash: 6e21e39c645775ea36afdaf20d57265d8b637b45
+content_hash: b3c3a6edf610567d9bc89062cedb6283fd523c55
 related_topics:
   - title: 中文 version
     url: /zh/osx/networksetup.html
@@ -27,4 +27,4 @@ More information: <https://support.apple.com/guide/remote-desktop/about-networks
 
 - Connect to a particular Wi-Fi network:
 
-`networksetup -setairportnetwork `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">en0</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Airport Network SSID</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span>
+`networksetup -setairportnetwork `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">en0</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Airport Network SSID</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span>

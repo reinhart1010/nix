@@ -2,7 +2,7 @@
 layout: page
 title: osx/afinfo (English)
 description: "Audio file metadata parser for OS X."
-content_hash: 7a01c99214fc86cd018e7abc92baf103c454385a
+content_hash: e30c55dece598ac6fd09c081976b61a06c5ae8d0
 related_topics:
   - title: español version
     url: /es/osx/afinfo.html
@@ -26,15 +26,15 @@ More information: <https://ss64.com/osx/afinfo.html>.
 
 - Print a one line description of the audio file:
 
-`afinfo -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`afinfo --brief `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Print metadata info and contents of the audio file's InfoDictionary:
 
-`afinfo -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`afinfo --info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Print output in XML format:
 
-`afinfo -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`afinfo --xml `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Print warnings for the audio file if any:
 
@@ -42,4 +42,4 @@ More information: <https://ss64.com/osx/afinfo.html>.
 
 - Display help for full usage:
 
-`afinfo -h`
+`afinfo --help`

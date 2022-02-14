@@ -2,7 +2,7 @@
 layout: page
 title: osx/xcode-select (English)
 description: "Switch between different versions of Xcode and the included developer tools."
-content_hash: c7e7c8cf577d299e4033a79a9f0be09670f76be3
+content_hash: 2ddbc2ad1f49c75754365271e56138ad8ad1af6e
 ---
 # xcode-select
 
@@ -16,16 +16,16 @@ More information: <https://developer.apple.com/library/archive/technotes/tn2339/
 
 - Select a given path as the active developer directory:
 
-`xcode-select -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/Xcode.app/Contents/Developer</span>
+`xcode-select --switch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/Xcode.app/Contents/Developer</span>
 
 - Select a given Xcode instance and use its developer directory as the active one:
 
-`xcode-select -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/Xcode.app</span>
+`xcode-select --switch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/Xcode.app</span>
 
 - Print the currently selected developer directory:
 
-`xcode-select -p`
+`xcode-select --print-path`
 
 - Discard any user-specified developer directory so that it will be found via the default search mechanism:
 
-`sudo xcode-select -r`
+`sudo xcode-select --reset`

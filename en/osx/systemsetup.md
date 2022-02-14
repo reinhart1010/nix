@@ -2,7 +2,7 @@
 layout: page
 title: osx/systemsetup (English)
 description: "Configure System Preferences machine settings."
-content_hash: d012854ac4f98c3a446d6e74d031920f25448fd9
+content_hash: 5435a8d5b8eb2ea40b5f84e74fa3c7694aebbab9
 related_topics:
   - title: português (Portugal) version
     url: /pt_PT/osx/systemsetup.html
@@ -22,7 +22,7 @@ More information: <https://ss64.com/osx/systemsetup.html>.
 
 - Specify timezone, NTP Server and enable network time:
 
-`systemsetup -settimezone `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">US/Pacific</span>` -setnetworktimeserver `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">us.pool.ntp.org</span>` -setusingnetworktime on`
+`systemsetup -settimezone "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">US/Pacific</span>`" -setnetworktimeserver `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">us.pool.ntp.org</span>` -setusingnetworktime on`
 
 - Make the machine never sleep and automatically restart on power failure or kernel panic:
 

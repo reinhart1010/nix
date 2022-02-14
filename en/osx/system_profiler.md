@@ -2,7 +2,7 @@
 layout: page
 title: osx/system_profiler (English)
 description: "Report system hardware and software configuration."
-content_hash: 2570a923233297b0055bb7cc0f7ea055586da0a1
+content_hash: 92051d90fc22f54370fc89189f18d4e0eeba10a2
 related_topics:
   - title: 中文 version
     url: /zh/osx/system_profiler.html
@@ -23,4 +23,4 @@ More information: <https://ss64.com/osx/system_profiler.html>.
 
 - Print the system serial number:
 
-`system_profiler SPHardwareDataType|grep "Serial Number (system)" |awk '{print $4}'`
+`system_profiler SPHardwareDataType|grep "Serial Number (system)" | awk '{ print $4 }'`

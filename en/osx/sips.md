@@ -2,7 +2,7 @@
 layout: page
 title: osx/sips (English)
 description: "Apple Scriptable Image Processing System."
-content_hash: 63cf9c57504942cba621fd7ea6a361b5efafe612
+content_hash: 48d82f7a8af719edf53986e2e0b7c4131cd862c8
 related_topics:
   - title: 中文 version
     url: /zh/osx/sips.html
@@ -12,6 +12,7 @@ related_topics:
 
 Apple Scriptable Image Processing System.
 Raster/Query images and ColorSync ICC Profiles.
+More information: <https://ss64.com/osx/sips.html>.
 
 - Specify an output directory so that originals do not get modified:
 
@@ -19,11 +20,11 @@ Raster/Query images and ColorSync ICC Profiles.
 
 - Resample image at specified size, Image aspect ratio may be altered:
 
-`sips -z `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1920</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">300</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.ext</span>
+`sips --resampleHeightWidth `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1920</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">300</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.ext</span>
 
 - Resample image so height and width aren't greater than specified size (notice the capital Z):
 
-`sips -Z `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1920</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">300</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.ext</span>
+`sips --resampleHeightWidthMax `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1920</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">300</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.ext</span>
 
 - Resample all images in a directory to fit a width of 960px (honoring aspect ratio):
 
@@ -31,8 +32,8 @@ Raster/Query images and ColorSync ICC Profiles.
 
 - Convert an image from CMYK to RGB:
 
-`sips --matchTo '/System/Library/ColorSync/Profiles/Generic RGB Profile.icc' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.ext</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/out_dir</span>
+`sips --matchTo "/System/Library/ColorSync/Profiles/Generic RGB Profile.icc" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.ext</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/out_dir</span>
 
 - Remove ColorSync ICC profile from an image:
 
-`sips -d profile --deleteColorManagementProperties `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.ext</span>
+`sips --deleteProperty profile --deleteColorManagementProperties `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.ext</span>

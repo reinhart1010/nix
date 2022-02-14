@@ -2,7 +2,7 @@
 layout: page
 title: osx/brightness (English)
 description: "Get and set the brightness level of all internal and certain external displays."
-content_hash: 87a7cc10ee30375a3e7da53961438532603074cc
+content_hash: c40d1f12863657ea030e6649a430200636fe4c3f
 related_topics:
   - title: Indonesia version
     url: /id/osx/brightness.html
@@ -14,6 +14,7 @@ related_topics:
 # brightness
 
 Get and set the brightness level of all internal and certain external displays.
+More information: <https://github.com/nriley/brightness>.
 
 - Show current brightness:
 

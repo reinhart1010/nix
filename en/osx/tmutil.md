@@ -2,7 +2,7 @@
 layout: page
 title: osx/tmutil (English)
 description: "Utility for managing Time Machine backups. Most verbs require root privileges."
-content_hash: 097acde6c141a4310a29b487e4f1143398fd9d53
+content_hash: 18a0807ca9cb7005c26bf7c833b17adc96a0d89a
 related_topics:
   - title: Deutsch version
     url: /de/osx/tmutil.html
@@ -19,7 +19,7 @@ More information: <https://ss64.com/osx/tmutil.html>.
 
 - Set an APF share or SMB share as the backup destination:
 
-`sudo tmutil setdestination `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">protocol://user[:password]@host/share</span>
+`sudo tmutil setdestination "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">protocol://user[:password]@host/share</span>`"`
 
 - Append the given destination to the list of destinations:
 

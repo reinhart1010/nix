@@ -2,7 +2,7 @@
 layout: page
 title: osx/caffeinate (English)
 description: "Prevent macOS from sleeping."
-content_hash: c5e581f1fa8617b3d546abe52fbec03096c60987
+content_hash: 92c98181c5904aa98aeaacd51de6515740ebcc30
 related_topics:
   - title: Deutsch version
     url: /de/osx/caffeinate.html
@@ -28,7 +28,7 @@ More information: <https://ss64.com/osx/caffeinate.html>.
 
 - Prevent from sleeping until a command completes:
 
-`caffeinate -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
+`caffeinate -s "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>`"`
 
 - Prevent from sleeping until you type Ctrl-C:
 

@@ -2,7 +2,7 @@
 layout: page
 title: osx/airport (English)
 description: "Wireless network configuration utility."
-content_hash: c6b08b6e16ef8d4cd35b02f33dfd1784ea1933d2
+content_hash: 7d969e071ae323fcdb2f9484995ed66c5282a3a5
 related_topics:
   - title: español version
     url: /es/osx/airport.html
@@ -21,7 +21,7 @@ More information: <https://ss64.com/osx/airport.html>.
 
 - Show current wireless status information:
 
-`airport -I`
+`airport --getinfo`
 
 - Sniff wireless traffic on channel 1:
 
@@ -29,8 +29,8 @@ More information: <https://ss64.com/osx/airport.html>.
 
 - Scan for available wireless networks:
 
-`airport -s`
+`airport --scan`
 
 - Disassociate from current airport network:
 
-`sudo airport -z`
+`sudo airport --disassociate`
