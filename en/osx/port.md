@@ -2,7 +2,7 @@
 layout: page
 title: osx/port (English)
 description: "Package manager for macOS."
-content_hash: a70fb52eabbcb17ab8e05792922528fcf6dcce4b
+content_hash: 4a53e80bf7b8143c50252b999452d2ae9b272a72
 related_topics:
   - title: 中文 version
     url: /zh/osx/port.html
@@ -11,6 +11,7 @@ related_topics:
 # port
 
 Package manager for macOS.
+More information: <https://www.macports.org>.
 
 - Search for a package:
 

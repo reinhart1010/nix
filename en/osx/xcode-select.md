@@ -2,12 +2,13 @@
 layout: page
 title: osx/xcode-select (English)
 description: "Switch between different versions of Xcode and the included developer tools."
-content_hash: 1774406d9be414157adb9f7b3fd8030148048311
+content_hash: c7e7c8cf577d299e4033a79a9f0be09670f76be3
 ---
 # xcode-select
 
 Switch between different versions of Xcode and the included developer tools.
 Also used to update the path to Xcode if it is moved after installation.
+More information: <https://developer.apple.com/library/archive/technotes/tn2339/_index.html>.
 
 - Install Xcode's command-line tools:
 

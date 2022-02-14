@@ -2,7 +2,7 @@
 layout: page
 title: osx/xcodebuild (English)
 description: "Build Xcode projects."
-content_hash: 2bae0172a5877ed55cb255a0d9697d832f24811a
+content_hash: 9d8dbc8d867f9bcc763622e35cf02ec9eefb1a4f
 related_topics:
   - title: 中文 version
     url: /zh/osx/xcodebuild.html
@@ -11,6 +11,7 @@ related_topics:
 # xcodebuild
 
 Build Xcode projects.
+More information: <https://developer.apple.com/library/archive/technotes/tn2339/_index.html>.
 
 - Build workspace:
 

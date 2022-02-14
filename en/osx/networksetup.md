@@ -2,7 +2,7 @@
 layout: page
 title: osx/networksetup (English)
 description: "Configuration tool for Network System Preferences."
-content_hash: b1af09acd950aa5c3520a8ddaabd779ce02ab026
+content_hash: 6e21e39c645775ea36afdaf20d57265d8b637b45
 related_topics:
   - title: 中文 version
     url: /zh/osx/networksetup.html
@@ -11,6 +11,7 @@ related_topics:
 # networksetup
 
 Configuration tool for Network System Preferences.
+More information: <https://support.apple.com/guide/remote-desktop/about-networksetup-apdd0c5a2d5/mac>.
 
 - List available network service providers (Ethernet, Wi-Fi, Bluetooth, etc):
 
