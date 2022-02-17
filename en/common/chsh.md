@@ -2,7 +2,7 @@
 layout: page
 title: common/chsh (English)
 description: "Change the user's login shell."
-content_hash: ed318fd412bebaf8fd2076462ec87f8f3c6bedad
+content_hash: 65a97151394cc6cf53a531ab47bd674f85fdd60e
 related_topics:
   - title: bosanski version
     url: /bs/common/chsh.html
@@ -41,9 +41,13 @@ More information: <https://manned.org/chsh>.
 
 `chsh`
 
-- Change the login shell for a given user to Zsh:
+- Change the current user's login shell:
 
-`chsh --shell `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/bin/zsh</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>
+`chsh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/shell</span>
+
+- Change the login shell for a given user:
+
+`chsh --shell `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/shell</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>
 
 - List available shells:
 
