@@ -2,7 +2,7 @@
 layout: page
 title: linux/httpie (English)
 description: "A user friendly command-line HTTP tool."
-content_hash: 4bdb4152f776170109706462eda611eda92e2243
+content_hash: 553425c4d987236e9c944542b4f67e7daa188728
 ---
 # httpie
 
@@ -36,3 +36,7 @@ More information: <https://github.com/httpie/httpie>.
 - Download a file:
 
 `http --download `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>
+
+- Follow redirects and show intermediary requests and responses:
+
+`http --follow --all `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>
