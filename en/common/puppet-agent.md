@@ -2,7 +2,7 @@
 layout: page
 title: common/puppet-agent (English)
 description: "Retrieves the client configuration from a Puppet server and applies it to the local host."
-content_hash: 1f923897dce7a0bb8ba2b0ed394325708e569056
+content_hash: 16d1fb26f3a75feecd3a0f36cfdc908f2885abee
 related_topics:
   - title: Deutsch version
     url: /de/common/puppet-agent.html
@@ -32,3 +32,11 @@ More information: <https://puppet.com/docs/puppet/7/man/agent.html>.
 - Log every resource being evaluated (even if nothing is being changed):
 
 `puppet agent --test --evaltrace`
+
+- Disable the agent:
+
+`puppet agent --disable "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span>`"`
+
+- Enable the agent:
+
+`puppet agent --enable`
