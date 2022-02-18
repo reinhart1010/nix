@@ -2,7 +2,7 @@
 layout: page
 title: osx/systemsetup (English)
 description: "Configure System Preferences machine settings."
-content_hash: 5435a8d5b8eb2ea40b5f84e74fa3c7694aebbab9
+content_hash: 4d9bd07403920148182659fa71ece166a8d52bc5
 related_topics:
   - title: português (Portugal) version
     url: /pt_PT/osx/systemsetup.html
@@ -14,7 +14,7 @@ related_topics:
 # systemsetup
 
 Configure System Preferences machine settings.
-More information: <https://ss64.com/osx/systemsetup.html>.
+More information: <https://support.apple.com/guide/remote-desktop/about-systemsetup-apd95406b8d/mac>.
 
 - Enable remote login (SSH):
 
