@@ -2,7 +2,7 @@
 layout: page
 title: common/kubectl-delete (English)
 description: "Delete Kubernetes resources."
-content_hash: c1f57f52eeb4d073cd1ff2e19f39bfe546853d2d
+content_hash: 33e99e6c011bcdc7dea8fbc736a8ff83ec18e0b7
 ---
 # kubectl delete
 
@@ -15,7 +15,7 @@ More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubect
 
 - Delete a specific deployment:
 
-`kubect delete deployment `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">deployment_name</span>
+`kubectl delete deployment `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">deployment_name</span>
 
 - Delete a specific node:
 
