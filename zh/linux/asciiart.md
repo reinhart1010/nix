@@ -2,7 +2,7 @@
 layout: page
 title: linux/asciiart (中文)
 description: "将图像转换为 ASCII."
-content_hash: a2f1ccdd17b4894efdd287a3dc4f552aeab5e5f4
+content_hash: 240615f16c0030fa28c3d9b218f59448800f264d
 related_topics:
   - title: Deutsch version
     url: /de/linux/asciiart.html
@@ -21,7 +21,7 @@ related_topics:
 
 - 从文件中读取图像并以 ASCII 打印：
 
-`asciiart `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/image.jpg</span>
+`asciiart `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/图片.jpg</span>
 
 - 从 URL 中读取图像并以 ASCII 打印：
 
@@ -29,16 +29,16 @@ related_topics:
 
 - 选择输出宽度（默认为 100）：
 
-`asciiart -width `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/image.jpg</span>
+`asciiart -width `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/图片.jpg</span>
 
 - 对 ASCII 输出进行着色：
 
-`asciiart --color `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/image.jpg</span>
+`asciiart --color `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/图片.jpg</span>
 
 - 选择输出格式（默认格式为文本）：
 
-`asciiart --format `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">text|html</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/image.jpg</span>
+`asciiart --format `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">text|html</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/图片.jpg</span>
 
 - 反转字符映射：
 
-`asciiart --invert-chars `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/image.jpg</span>
+`asciiart --invert-chars `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/图片.jpg</span>
