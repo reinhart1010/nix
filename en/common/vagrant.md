@@ -2,7 +2,7 @@
 layout: page
 title: common/vagrant (English)
 description: "Manage lightweight, reproducible, and portable development environments."
-content_hash: d21dd1e8aa66519dea9769894cd5e46b5ad43e54
+content_hash: 6549d3070aba9400ecca330e9db5d1725e1c13cb
 ---
 # vagrant
 
@@ -36,3 +36,7 @@ More information: <https://www.vagrantup.com>.
 - Output the SSH configuration file of the running Vagrant machine:
 
 `vagrant ssh-config`
+
+- List all local boxes:
+
+`vagrant box list`
