@@ -2,7 +2,7 @@
 layout: page
 title: common/git-rev-list (English)
 description: "List revisions (commits) in reverse chronological order."
-content_hash: 72c0a72a3e17e1e238c8735849be59c7ff390e1d
+content_hash: a822e98e89fd9628a54d306a4b14445baa36a74b
 related_topics:
   - title: español version
     url: /es/common/git-rev-list.html
@@ -13,6 +13,9 @@ related_topics:
   - title: italiano version
     url: /it/common/git-rev-list.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-rev-list.html
+    icon: bi bi-globe
 ---
 # git rev-list
 
@@ -22,6 +25,10 @@ More information: <https://git-scm.com/docs/git-rev-list>.
 - List all commits on the current branch:
 
 `git rev-list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span>
+
+- Print the latest commit that changed (add/edit/remove) a specific file on the current branch:
+
+`git rev-list -n 1 HEAD -- `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - List commits more recent than a specific date, on a specific branch:
 

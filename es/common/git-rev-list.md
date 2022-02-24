@@ -2,7 +2,7 @@
 layout: page
 title: common/git-rev-list (español)
 description: "Muestra las revisiones (commits) en orden cronológico inverso."
-content_hash: 132cda82ad5912ba4b0654ebb720105ec18bf421
+content_hash: dbb4d3c46c09bbae6301dcf050cf3f118ab5d30c
 related_topics:
   - title: English version
     url: /en/common/git-rev-list.html
@@ -17,16 +17,7 @@ related_topics:
     url: /tr/common/git-rev-list.html
     icon: bi bi-globe
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-rev-list.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git rev-list
+# git rev-list
 
 Muestra las revisiones (commits) en orden cronológico inverso.
 Más información: <https://git-scm.com/docs/git-rev-list>.
@@ -34,6 +25,10 @@ Más información: <https://git-scm.com/docs/git-rev-list>.
 - Muestra todos los commits de la rama actual:
 
 `git rev-list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span>
+
+- Imprime el último commit que cambió (agregó/editó/eliminó) un archivo específico en la rama actual:
+
+`git rev-list -n 1 HEAD -- `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 
 - Muestra los commits más recientes a partir de una fecha y una rama específica:
 
