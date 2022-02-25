@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/chromium (English)
-description: "Open-source web browser from Google."
-content_hash: a112283f3a280a851b38a349fc07d7fd8ef24b97
+description: "Open-source web browser principally developed and maintained by Google."
+content_hash: d600985323b9a63c11efa2fe11cf66cecc0aabd7
 related_topics:
   - title: Deutsch version
     url: /de/common/chromium.html
@@ -19,16 +19,12 @@ related_topics:
 ---
 # chromium
 
-Open-source web browser from Google.
-More information: <https://chromium.org>.
+Open-source web browser principally developed and maintained by Google.
+More information: <https://www.chromium.org/developers/how-tos/run-chromium-with-flags/>.
 
-- Open a file:
+- Open a specific URL or file:
 
-`chromium `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.html</span>
-
-- Open a URL:
-
-`chromium `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
+`chromium `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com|path/to/file.html</span>
 
 - Open in incognito mode:
 
@@ -38,10 +34,22 @@ More information: <https://chromium.org>.
 
 `chromium --new-window `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
 
-- Open in app mode (without toolbars, URL bar, buttons, etc.):
+- Open in application mode (without toolbars, URL bar, buttons, etc.):
 
-`chromium --app='`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>`'`
+`chromium --app=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>
 
 - Use a proxy server:
 
 `chromium --proxy-server="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">socks5://hostname:66</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
+
+- Open with a custom profile directory:
+
+`chromium --user-data-dir=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
+
+- Open without CORS validation (useful to test an API):
+
+`chromium --user-data-dir=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` --disable-web-security`
+
+- Open with a DevTools window for each tab opened:
+
+`chromium --auto-open-devtools-for-tabs`
