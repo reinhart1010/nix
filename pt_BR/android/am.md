@@ -2,7 +2,7 @@
 layout: page
 title: android/am (português (Brasil))
 description: "Gerenciador de atividades do Android (Activity Manager)."
-content_hash: 4592fa4fa96a9e2d5d0a61c425a7dcf38d038a4b
+content_hash: f989d10b3d31f76b2eb34a5eecd39028a4c01118
 related_topics:
   - title: Deutsch version
     url: /de/android/am.html
@@ -41,14 +41,14 @@ Mais informações: <https://developer.android.com/studio/command-line/adb#am>.
 
 `am start -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.android.settings/.Settings</span>
 
-- Inicia uma activity e passar parâmetros para ela:
+- Inicia uma activity e passa dados para ela:
 
 `am start -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.action.VIEW</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tel:123</span>
 
-- Incia uma activity correspondente a uma ação e categoria específicas:
+- Inicia uma activity correspondente a uma ação e categoria específicas:
 
 `am start -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.action.MAIN</span>` -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.category.HOME</span>
 
-- Converte uma intent para uma URI:
+- Converte uma intent em uma URI:
 
 `am to-uri -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.action.VIEW</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tel:123</span>
