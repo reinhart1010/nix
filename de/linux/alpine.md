@@ -2,7 +2,7 @@
 layout: page
 title: linux/alpine (Deutsch)
 description: "Ein E-Mail und Usenet Client mit pico/nano-inspirierten Interface."
-content_hash: fdda3281f168b2e055ab31cbc5a21ab04773b479
+content_hash: e5282e1b62a3f11789d305739fb1255239f86177
 related_topics:
   - title: English version
     url: /en/linux/alpine.html
@@ -18,6 +18,7 @@ related_topics:
 
 Ein E-Mail und Usenet Client mit pico/nano-inspirierten Interface.
 Unterstützt die meisten modernen IMAP Server.
+Weitere Informationen: <https://manned.org/alpine>.
 
 - Öffne Apline:
 

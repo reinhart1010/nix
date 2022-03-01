@@ -2,7 +2,7 @@
 layout: page
 title: common/view (English)
 description: "A read-only version of `vim`."
-content_hash: 755d1ceee196bfd348a894ebc45eb420dedb40ba
+content_hash: da70c5165f9c9183527e4ad0cda2c4c9ee281c21
 related_topics:
   - title: bosanski version
     url: /bs/common/view.html
@@ -30,6 +30,7 @@ related_topics:
 
 A read-only version of `vim`.
 This is equivalent to `vim -R`.
+More information: <https://www.vim.org>.
 
 - Open a file:
 

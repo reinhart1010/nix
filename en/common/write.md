@@ -2,7 +2,7 @@
 layout: page
 title: common/write (English)
 description: "Write a message on the terminal of a specified logged in user (ctrl-C to stop writing messages)."
-content_hash: 4cbe221d7be65d13f00f6b8c69503e8fb445d54b
+content_hash: 47986c5f36e36b1b6ab34958499bce1278e53137
 related_topics:
   - title: 中文 version
     url: /zh/common/write.html
@@ -12,6 +12,7 @@ related_topics:
 
 Write a message on the terminal of a specified logged in user (ctrl-C to stop writing messages).
 Use the `who` command to find out all terminal_ids of all active users active on the system. See also `mesg`.
+More information: <https://manned.org/write>.
 
 - Send a message to a given user on a given terminal id:
 

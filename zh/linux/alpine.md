@@ -2,7 +2,7 @@
 layout: page
 title: linux/alpine (中文)
 description: "一个电子邮件客户端和 usenet 新闻组程序，具有 pico/nano 风格的界面。"
-content_hash: 002d526db99ffaf8481910ac18994a455773bee0
+content_hash: d15094da52187da0327009f7cbdcd1b3ac5f71ec
 related_topics:
   - title: Deutsch version
     url: /de/linux/alpine.html
@@ -18,6 +18,7 @@ related_topics:
 
 一个电子邮件客户端和 usenet 新闻组程序，具有 pico/nano 风格的界面。
 通过 IMAP 支持大多数现代电子邮件服务。
+更多信息：<https://manned.org/alpine>.
 
 - 正常打开 alpine:
 

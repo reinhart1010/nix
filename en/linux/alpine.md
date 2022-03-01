@@ -2,7 +2,7 @@
 layout: page
 title: linux/alpine (English)
 description: "An email client and Usenet newsgroup program with a pico/nano-inspired interface."
-content_hash: 4a64fc3212c052dc0b44669f92b829216965bb75
+content_hash: d163b181120d30688fd1ec677654c656abb728cc
 related_topics:
   - title: Deutsch version
     url: /de/linux/alpine.html
@@ -18,6 +18,7 @@ related_topics:
 
 An email client and Usenet newsgroup program with a pico/nano-inspired interface.
 Supports most modern email services through IMAP.
+More information: <https://manned.org/alpine>.
 
 - Open alpine normally:
 
