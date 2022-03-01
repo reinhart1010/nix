@@ -2,7 +2,7 @@
 layout: page
 title: osx/brightness (Indonesia)
 description: "Menampilkan dan mengubah brightness (tingkat kecerahan) untuk internal dan external displays."
-content_hash: a69445c08541fb2e56617943280467c5dcaacc2d
+content_hash: 5048fd689dceead197384a328108309e6f831c54
 related_topics:
   - title: English version
     url: /en/osx/brightness.html
@@ -14,6 +14,7 @@ related_topics:
 # brightness
 
 Menampilkan dan mengubah brightness (tingkat kecerahan) untuk internal dan external displays.
+Informasi lebih lanjut: <https://github.com/nriley/brightness>.
 
 - Menampilkan brightness sekarang:
 

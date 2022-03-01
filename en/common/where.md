@@ -2,7 +2,7 @@
 layout: page
 title: common/where (English)
 description: "Reports all known instances of a command."
-content_hash: 5c884c432df140f74b5c2cc8a7ff7390e10386c5
+content_hash: e6dbef243412328208ea8eb5797cf8bd298f89b5
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/where.html
@@ -15,6 +15,7 @@ related_topics:
 
 Reports all known instances of a command.
 It could be an executable in the PATH environment variable, an alias, or a shell builtin.
+More information: <https://zsh.sourceforge.io/Doc/Release/Shell-Builtin-Commands.html>.
 
 - Find all instances of a command:
 

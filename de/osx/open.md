@@ -2,7 +2,7 @@
 layout: page
 title: osx/open (Deutsch)
 description: "Öffne Dateien, Verzeichnisse und Anwendungen."
-content_hash: 6170d51cd7727d30e7d234bbb6f226a5bc13b400
+content_hash: ed1d2dd7d146d1abd223e8e176e9b107dc48b51a
 related_topics:
   - title: English version
     url: /en/osx/open.html
@@ -14,6 +14,7 @@ related_topics:
 # open
 
 Öffne Dateien, Verzeichnisse und Anwendungen.
+Weitere Informationen: <https://ss64.com/osx/open.html>.
 
 - Öffne eine Datei in der zugehörigen Anwendung:
 

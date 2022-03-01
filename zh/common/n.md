@@ -2,7 +2,7 @@
 layout: page
 title: common/n (中文)
 description: "用于管理多个节点版本的工具。"
-content_hash: ef8d4483a41b95082e05ce414d4ba9f5df46c7dc
+content_hash: 3a6b975037b641c9174ddd8ad3092592ffbb354a
 related_topics:
   - title: English version
     url: /en/common/n.html
@@ -11,6 +11,7 @@ related_topics:
 # n
 
 用于管理多个节点版本的工具。
+更多信息：<https://github.com/tj/n>.
 
 - 安装给定版本的节点。如果版本已经安装，它将被激活：
 

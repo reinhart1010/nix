@@ -2,7 +2,7 @@
 layout: page
 title: osx/route (português (Portugal))
 description: "Alteração manual da tabela de rotas."
-content_hash: 5fe644e39dd5d51c2667db9b0182cfa6e5dc7d2e
+content_hash: 7644b6c6cdcad56ee00959db6c8910d4b507b2be
 related_topics:
   - title: English version
     url: /en/osx/route.html
@@ -15,6 +15,7 @@ related_topics:
 
 Alteração manual da tabela de rotas.
 Necessita de root.
+Mais informações: <https://www.manpagez.com/man/8/route/>.
 
 - Adiciona uma rota para um destino passando por um gateway:
 
@@ -36,6 +37,6 @@ Necessita de root.
 
 `sudo route delete `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">endereco_ip_destino</span>`/24`
 
-- Procura e mostra a rota para um destino (nome da máquina ou endereço IP)
+- Procura e mostra a rota para um destino (nome da máquina ou endereço IP):
 
 `sudo route get `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destino</span>

@@ -2,7 +2,7 @@
 layout: page
 title: osx/xed (português (Portugal))
 description: "Abre ficheiros para editar no Xcode."
-content_hash: a49f89879599a540857eb3d6eae8e17441943331
+content_hash: fd8272741433602b46287a93ee0a8aa37dd1e1dc
 related_topics:
   - title: English version
     url: /en/osx/xed.html
@@ -14,6 +14,7 @@ related_topics:
 # xed
 
 Abre ficheiros para editar no Xcode.
+Mais informações: <https://www.manpagez.com/man/1/xed/>.
 
 - Abre um ficheiro no Xcode:
 
