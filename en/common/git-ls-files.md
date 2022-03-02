@@ -2,7 +2,11 @@
 layout: page
 title: common/git-ls-files (English)
 description: "Show information about files in the index and the working tree."
-content_hash: bb628e4edf6228b924ab56aa0353f7b01d21c30d
+content_hash: 6517f1992f2b4e7766856eaf71919ad6dff95773
+related_topics:
+  - title: Türkçe version
+    url: /tr/common/git-ls-files.html
+    icon: bi bi-globe
 ---
 # git ls-files
 
@@ -20,3 +24,7 @@ More information: <https://git-scm.com/docs/git-ls-files>.
 - Show ignored and untracked files:
 
 `git ls-files --others`
+
+- Show untracked files, not ignored:
+
+`git ls-files --others --exclude-standard`
