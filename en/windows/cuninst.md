@@ -2,7 +2,7 @@
 layout: page
 title: windows/cuninst (English)
 description: "This command is an alias of `choco uninstall`."
-content_hash: b7faa2e7e407ee698c941f20d78d9c4cc174163f
+content_hash: 534d06c65cdd34317f250e78fd38ca93bb1d720d
 related_topics:
   - title: bosanski version
     url: /bs/windows/cuninst.html
@@ -68,6 +68,7 @@ related_topics:
 # cuninst
 
 This command is an alias of `choco uninstall`.
+More information: <https://docs.chocolatey.org/en-us/choco/commands/uninstall>.
 
 - View documentation for the original command:
 
