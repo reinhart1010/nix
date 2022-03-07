@@ -2,7 +2,7 @@
 layout: page
 title: common/go-test (English)
 description: "Tests Go packages (files have to end with `_test.go`)."
-content_hash: fe36d83144137f7744d4b7f3026b6fb179a87845
+content_hash: 760a9bf4807be6becd793fd51bf0d6f5a307400d
 ---
 # go test
 
@@ -28,3 +28,7 @@ More information: <https://golang.org/cmd/go/#hdr-Testing_flags>.
 - Test the package in the current directory and run all benchmarks for 50 seconds:
 
 `go test -v -bench . -benchtime `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50s</span>
+
+- Test the package with coverage analysis:
+
+`go test -cover`
