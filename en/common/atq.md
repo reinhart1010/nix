@@ -2,7 +2,7 @@
 layout: page
 title: common/atq (English)
 description: "Show jobs scheduled by `at` or `batch` commands."
-content_hash: b0d439c3bd33f40ba6240516183cb2fe1e5510a5
+content_hash: 48ad6cf8910e080cccf922eb3ebaf3c2db5a3e65
 related_topics:
   - title: italiano version
     url: /it/common/atq.html
@@ -14,7 +14,7 @@ related_topics:
 # atq
 
 Show jobs scheduled by `at` or `batch` commands.
-More information: <https://man.archlinux.org/man/at.1>.
+More information: <https://manned.org/atq>.
 
 - Show the current user's scheduled jobs:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/ed (English)
 description: "The original Unix text editor."
-content_hash: ccacc5892ecee8c943314e3a807caeb590ca06ae
+content_hash: bf6f45f4a40d7e637c31c619148fb8f638f2f7c7
 related_topics:
   - title: italiano version
     url: /it/common/ed.html
@@ -11,7 +11,7 @@ related_topics:
 # ed
 
 The original Unix text editor.
-More information: <https://man.archlinux.org/man/ed.1>.
+More information: <https://www.gnu.org/software/ed/manual/ed_manual.html>.
 
 - Start ed, editing an empty document (which can be saved as a new file in the current directory):
 

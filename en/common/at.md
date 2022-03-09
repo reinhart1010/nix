@@ -2,7 +2,7 @@
 layout: page
 title: common/at (English)
 description: "Execute commands once at a later time."
-content_hash: d3abce7a9f26d760110f079a269c88b856085c2c
+content_hash: b942ffaed5e1573b4961e566f672a8825a6c98aa
 related_topics:
   - title: français version
     url: /fr/common/at.html
@@ -30,7 +30,7 @@ related_topics:
 
 Execute commands once at a later time.
 Service atd (or atrun) should be running for the actual executions.
-More information: <https://man.archlinux.org/man/at.1>.
+More information: <https://manned.org/at>.
 
 - Execute commands from standard input in 5 minutes (press `Ctrl + D` when done):
 

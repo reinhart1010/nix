@@ -2,7 +2,7 @@
 layout: page
 title: common/fortune (English)
 description: "Print a random quotation (fortune-cookie style)."
-content_hash: c8a7688a2c5b22d43e5e2cf8e76cde5b779f03f1
+content_hash: 0223348e29cba0c924507143dd02887c2fcd62ed
 related_topics:
   - title: Deutsch version
     url: /de/common/fortune.html
@@ -14,7 +14,7 @@ related_topics:
 # fortune
 
 Print a random quotation (fortune-cookie style).
-More information: <https://man.archlinux.org/man/fortune.6>.
+More information: <https://manned.org/fortune>.
 
 - Print a quotation:
 

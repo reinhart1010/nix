@@ -2,13 +2,13 @@
 layout: page
 title: linux/dunstify (English)
 description: "A notification tool that is an extension of notify-send, but has more features based around dunst."
-content_hash: 808c1398df38ac59c1618813d331a038bf8a8c1c
+content_hash: 5946faaaa2b1ed1f7c76df8e31f6eadbdd69a055
 ---
 # dunstify
 
 A notification tool that is an extension of notify-send, but has more features based around dunst.
 Works with all options that work for notify-send.
-More information: <https://wiki.archlinux.org/title/Dunst#Dunstify>.
+More information: <https://github.com/dunst-project/dunst/wiki/Guides>.
 
 - Show a notification with a given title and message:
 

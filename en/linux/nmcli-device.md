@@ -2,12 +2,12 @@
 layout: page
 title: linux/nmcli-device (English)
 description: "Hardware device management with NetworkManager."
-content_hash: 532edbfc5522cdc11422a0983a6b3a46591c14f6
+content_hash: 065139309a1e2b7cbe9dfb490fbdfa7b50486c14
 ---
 # nmcli device
 
 Hardware device management with NetworkManager.
-More information: <https://man.archlinux.org/man/nmcli.1>.
+More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
 - Print the statuses of all network interfaces:
 

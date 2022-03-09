@@ -2,7 +2,7 @@
 layout: page
 title: common/sed (English)
 description: "Edit text in a scriptable manner."
-content_hash: ed201b05eac16197c412639daba2c07a29171e58
+content_hash: f9a3c4b9be3a1c3870c75b70c4aa7cae7ccaa482
 related_topics:
   - title: 日本語 version
     url: /ja/common/sed.html
@@ -11,7 +11,7 @@ related_topics:
 # sed
 
 Edit text in a scriptable manner.
-More information: <https://man.archlinux.org/man/sed.1>.
+More information: <https://www.gnu.org/software/sed/manual/sed.html>.
 
 - Replace the first occurrence of a regular expression in each line of a file, and print the result:
 

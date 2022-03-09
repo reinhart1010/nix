@@ -2,12 +2,12 @@
 layout: page
 title: common/bootctl (English)
 description: "Control EFI firmware boot settings and manage boot loader."
-content_hash: e620b88f3f461c78100a0b8f8f2b433e5a8f5e31
+content_hash: de6f0e874d0682e7a953014e389fbc1fa3525b54
 ---
 # bootctl
 
 Control EFI firmware boot settings and manage boot loader.
-More information: <https://man.archlinux.org/man/bootctl.1>.
+More information: <https://manned.org/bootctl>.
 
 - Show information about the system firmware and the bootloaders:
 

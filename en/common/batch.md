@@ -2,7 +2,7 @@
 layout: page
 title: common/batch (English)
 description: "Execute commands at a later time when the system load levels permit."
-content_hash: 48cb74a5a27af72bf8452cf0c148c4fcdc84e475
+content_hash: bf552c062d52116322cb1b3c32ff8bd2312c8e7b
 related_topics:
   - title: italiano version
     url: /it/common/batch.html
@@ -21,7 +21,7 @@ related_topics:
 
 Execute commands at a later time when the system load levels permit.
 Service atd (or atrun) should be running for the actual executions.
-More information: <https://man.archlinux.org/man/at.1>.
+More information: <https://manned.org/batch>.
 
 - Execute commands from standard input (press `Ctrl + D` when done):
 

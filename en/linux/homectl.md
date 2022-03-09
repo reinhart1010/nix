@@ -2,12 +2,12 @@
 layout: page
 title: linux/homectl (English)
 description: "Create, remove, change or inspect home directories using the systemd-homed service."
-content_hash: 7a936e71f1c9c26914fadbbf1567f23abe442687
+content_hash: 54ccf5c4f5ece90afbd6eb5c64002c52c8a1030f
 ---
 # homectl
 
 Create, remove, change or inspect home directories using the systemd-homed service.
-More information: <https://man.archlinux.org/man/homectl.1>.
+More information: <https://manned.org/homectl>.
 
 - List user accounts and their associated home directories:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/runit (English)
 description: "3-stage init system."
-content_hash: 2ef2698bdff5921bf465207450ea5b351067bc9f
+content_hash: fcae7fe27790ef1cf5ec806e81dfe2f27ff0ad63
 related_topics:
   - title: 中文 version
     url: /zh/common/runit.html
@@ -11,7 +11,7 @@ related_topics:
 # runit
 
 3-stage init system.
-More information: <https://wiki.archlinux.org/index.php/Runit>.
+More information: <http://smarden.org/runit/runit.8.html>.
 
 - Start runit's 3-stage init scheme:
 

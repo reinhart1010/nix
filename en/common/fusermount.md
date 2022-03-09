@@ -2,12 +2,12 @@
 layout: page
 title: common/fusermount (English)
 description: "Mount and unmount FUSE filesystems."
-content_hash: 705d99d1b7b431883adfe21c210c28eb6ed3cbbf
+content_hash: 25c221ea01390073a68642af7219e5e9e1158f8c
 ---
 # fusermount
 
 Mount and unmount FUSE filesystems.
-More information: <https://man.archlinux.org/man/fusermount.1>.
+More information: <https://manned.org/fusermount>.
 
 - Unmount a FUSE filesystem:
 

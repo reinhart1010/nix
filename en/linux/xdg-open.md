@@ -2,8 +2,11 @@
 layout: page
 title: linux/xdg-open (English)
 description: "Opens a file or URL in the user's preferred application."
-content_hash: 578f810f017023fede27a8f60a6e3f66d62626fa
+content_hash: 69f941a74246ffa881dbd3bfa4ae4e9c3a2d779a
 related_topics:
+  - title: català version
+    url: /ca/linux/xdg-open.html
+    icon: bi bi-globe
   - title: español version
     url: /es/linux/xdg-open.html
     icon: bi bi-globe
@@ -11,7 +14,7 @@ related_topics:
 # xdg-open
 
 Opens a file or URL in the user's preferred application.
-More information: <https://man.archlinux.org/man/xdg-open.1>.
+More information: <https://portland.freedesktop.org/doc/xdg-open.html>.
 
 - Open the current directory in the default file explorer:
 

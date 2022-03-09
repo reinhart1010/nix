@@ -2,7 +2,7 @@
 layout: page
 title: common/atrm (English)
 description: "Remove jobs scheduled by `at` or `batch` commands."
-content_hash: ffae537fcf530c75c5e0dcd67f643b248594a489
+content_hash: 7f683b35d44bbaac9408d9fcc8a15d91a161dded
 related_topics:
   - title: italiano version
     url: /it/common/atrm.html
@@ -15,7 +15,7 @@ related_topics:
 
 Remove jobs scheduled by `at` or `batch` commands.
 To find job numbers use `atq`.
-More information: <https://man.archlinux.org/man/at.1>.
+More information: <https://manned.org/atrm>.
 
 - Remove job number 10:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/banner (English)
 description: "Print the given argument as a large ASCII art."
-content_hash: 78748087d10fa231b5fa9bb061ea07d5f23ab69d
+content_hash: 2933531ee5b1dec1fcfddfeae13aee02e9c43b0f
 related_topics:
   - title: हिन्दी version
     url: /hi/common/banner.html
@@ -20,7 +20,7 @@ related_topics:
 # banner
 
 Print the given argument as a large ASCII art.
-More information: <https://man.archlinux.org/man/banner.1>.
+More information: <https://manned.org/banner>.
 
 - Print the text message as a large banner (quotes are optional):
 

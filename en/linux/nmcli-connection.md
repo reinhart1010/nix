@@ -2,12 +2,12 @@
 layout: page
 title: linux/nmcli-connection (English)
 description: "Connection management with NetworkManager."
-content_hash: 823bcf1b8d3edfc51397605820f3d5d64fcf2df0
+content_hash: bdff6c83533396c9f1cf80135da7de3e6f8d8d4a
 ---
 # nmcli connection
 
 Connection management with NetworkManager.
-More information: <https://man.archlinux.org/man/nmcli.1>.
+More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
 - List all NetworkManager connections (shows name, UUID, type and device):
 
