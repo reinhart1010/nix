@@ -2,7 +2,7 @@
 layout: page
 title: linux/nmcli (English)
 description: "A command-line tool for controlling NetworkManager."
-content_hash: de067a16a5fce3115f7339f6918ad56ddb0a1fd0
+content_hash: b5c739475f85fc5403bac591526f3ae211b6baba
 related_topics:
   - title: മലയാളം version
     url: /ml/linux/nmcli.html
@@ -12,7 +12,7 @@ related_topics:
 
 A command-line tool for controlling NetworkManager.
 Some subcommands such as `nmcli monitor` have their own usage documentation.
-More information: <https://manned.org/nmcli>.
+More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
 - Run an `nmcli` subcommand:
 

@@ -2,12 +2,12 @@
 layout: page
 title: linux/nmcli-monitor (English)
 description: "Monitor changes to the NetworkManager connection status."
-content_hash: 798a920cac30ffa4238ed399748c1a92e5ad8d09
+content_hash: 28b99fcf67bac49d44570e8433cdecf01f19bdfe
 ---
 # nmcli monitor
 
 Monitor changes to the NetworkManager connection status.
-More information: <https://developer.gnome.org/NetworkManager/stable/nmcli.html>.
+More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
 - Start monitoring NetworkManager changes:
 
