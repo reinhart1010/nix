@@ -2,8 +2,11 @@
 layout: page
 title: common/cd (English)
 description: "Change the current working directory."
-content_hash: 2c2088786a94c9de532d2862cd8855293e447c01
+content_hash: 7a3edf8ba4f9fa7d16a4cc32d1124234404d652a
 related_topics:
+  - title: català version
+    url: /ca/common/cd.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/cd.html
     icon: bi bi-globe
@@ -55,17 +58,21 @@ related_topics:
 Change the current working directory.
 More information: <https://manned.org/cd>.
 
-- Go to the given directory:
+- Go to the specified directory:
 
 `cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
+
+- Go up to the parent of the current directory:
+
+`cd ..`
 
 - Go to the home directory of the current user:
 
 `cd`
 
-- Go up to the parent of the current directory:
+- Go to the home directory of the specified user:
 
-`cd ..`
+`cd ~`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>
 
 - Go to the previously chosen directory:
 
