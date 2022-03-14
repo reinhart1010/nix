@@ -2,8 +2,11 @@
 layout: page
 title: linux/ufw (English)
 description: "Uncomplicated Firewall."
-content_hash: 9db61d5fcb62bba6ae0e59b855d6f86a1866c83c
+content_hash: 316fa7ebc152866f414ff422e2062253e38541ea
 related_topics:
+  - title: català version
+    url: /ca/linux/ufw.html
+    icon: bi bi-globe
   - title: español version
     url: /es/linux/ufw.html
     icon: bi bi-globe
@@ -41,9 +44,9 @@ More information: <https://wiki.ubuntu.com/UncomplicatedFirewall>.
 
 `ufw deny `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span>
 
-- Deny all UDP traffic to port 22:
+- Deny all UDP traffic to ports in range 8412:8500:
 
-`ufw deny proto `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">udp</span>` from `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">any</span>` to `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">any</span>` port `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">22</span>
+`ufw deny proto `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">udp</span>` from `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">any</span>` to `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">any</span>` port `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8412:8500</span>
 
 - Delete a particular rule. The rule number can be retrieved from the `ufw status numbered` command:
 
