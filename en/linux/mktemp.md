@@ -1,13 +1,16 @@
 ---
 layout: page
-title: common/mktemp (English)
+title: linux/mktemp (English)
 description: "Create a temporary file or directory."
-content_hash: bd159debd9ee0dcea4f50ceb118c575718f43da2
+content_hash: e5a2bdd3e72761893cd757967814386bf782ca60
 ---
-# mktemp
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># mktemp
 
 Create a temporary file or directory.
-More information: <https://ss64.com/osx/mktemp.html>.
+More information: <https://www.gnu.org/software/autogen/mktemp.html>.
 
 - Create an empty temporary file and print the absolute path to it:
 
@@ -19,4 +22,4 @@ More information: <https://ss64.com/osx/mktemp.html>.
 
 - Create a temporary directory and print the absolute path to it:
 
-`mktemp -d`
+`mktemp --directory`
