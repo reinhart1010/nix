@@ -2,7 +2,7 @@
 layout: page
 title: linux/wl-copy (English)
 description: "Wayland clipboard manipulation tool."
-content_hash: e01e5a68e94e89c3576aee80f510c7bd86e449a2
+content_hash: 4066ca067620abe72b0e18093be375772c2b18f0
 ---
 # wl-copy
 
@@ -17,6 +17,10 @@ More information: <https://github.com/bugaevc/wl-clipboard>.
 - Copy the output of a command to the clipboard:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` | wl-copy`
+
+- Copy for only one paste and then clear it:
+
+`wl-copy --paste-once`
 
 - Clear the clipboard:
 
