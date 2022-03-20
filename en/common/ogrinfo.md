@@ -2,7 +2,7 @@
 layout: page
 title: common/ogrinfo (English)
 description: "List information about an OGR-supported data source."
-content_hash: 9aa8330f741819c34edc4b8a81a02ea1ea7b78a4
+content_hash: fd7caa607bf1681a6d8e6a17d97c59b7e1f26f4f
 ---
 # ogrinfo
 
@@ -21,6 +21,18 @@ More information: <https://gdal.org/programs/ogrinfo.html>.
 
 `ogrinfo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.gpkg</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">layer_name</span>
 
-- Only show summary information about a specific layer of a data source:
+- Show summary information about a specific layer of a data source:
 
 `ogrinfo -so `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.gpkg</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">layer_name</span>
+
+- Show summary of all layers of the data source:
+
+`ogrinfo -so -al `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.gpkg</span>
+
+- Show detailed information of features matching a condition:
+
+`ogrinfo -where '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">attribute_name > 42</span>`' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.gpkg</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">layer_name</span>
+
+- Update a layer in the data source with SQL:
+
+`ogrinfo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.geojson</span>` -dialect SQLite -sql "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UPDATE input SET attribute_name = 'foo'</span>`"`

@@ -1,17 +1,21 @@
 ---
 layout: page
 title: common/ogr2ogr (English)
-description: "Convert Simple Features data between file formats."
-content_hash: 90bf52016db56e3bfc6f84cc4d54717184c220b5
+description: "Convert geospatial vector data between file formats."
+content_hash: e6d7e3483dde31d8f148e081a5cba0ff6f4bddf0
 ---
 # ogr2ogr
 
-Convert Simple Features data between file formats.
+Convert geospatial vector data between file formats.
 More information: <https://gdal.org/programs/ogr2ogr.html>.
 
 - Convert a Shapefile into a GeoPackage:
 
 `ogr2ogr -f GPKG `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output</span>`.gpkg `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input</span>`.shp`
+
+- Reduce a GeoJSON to features matching a condition:
+
+`ogr2ogr -where '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">myProperty > 42</span>`' -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GeoJSON</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.geojson</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.geojson</span>
 
 - Change coordinate reference system of a GeoPackage from `EPSG:4326` to `EPSG:3857`:
 
