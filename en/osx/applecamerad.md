@@ -2,12 +2,13 @@
 layout: page
 title: osx/applecamerad (English)
 description: "Camera manager."
-content_hash: 3ce43cbd756883a06eb3001f039f9ff9615881e0
+content_hash: 23278674e1e0e4c9bde97c603b171bf22fdc5eef
 ---
 # applecamerad
 
 Camera manager.
 It should not be invoked manually.
+More information: <https://www.theiphonewiki.com/wiki/Services>.
 
 - Start the daemon:
 
