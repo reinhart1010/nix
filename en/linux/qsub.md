@@ -2,11 +2,12 @@
 layout: page
 title: linux/qsub (English)
 description: "Submits a script to the queue management system TORQUE."
-content_hash: 4a8119c8d56d7fc3a051d0b6401966bf1902c0a3
+content_hash: 8cab03ed5f070968b9ea834fb193aeef072f4745
 ---
 # qsub
 
 Submits a script to the queue management system TORQUE.
+More information: <https://manned.org/qsub.1>.
 
 - Submit a script with default settings (depends on TORQUE settings):
 

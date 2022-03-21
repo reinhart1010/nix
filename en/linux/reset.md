@@ -2,8 +2,11 @@
 layout: page
 title: linux/reset (English)
 description: "Reinitialises the current terminal. Clears the entire terminal screen."
-content_hash: 9ddc405032a7e8059748b293044e894b1bbdc49d
+content_hash: 1e9b51094217cfb89cabe0878910720cd6505e4d
 related_topics:
+  - title: català version
+    url: /ca/linux/reset.html
+    icon: bi bi-globe
   - title: español version
     url: /es/linux/reset.html
     icon: bi bi-globe
@@ -11,6 +14,7 @@ related_topics:
 # reset
 
 Reinitialises the current terminal. Clears the entire terminal screen.
+More information: <https://manned.org/reset>.
 
 - Reinitialise the current terminal:
 

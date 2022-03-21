@@ -2,12 +2,17 @@
 layout: page
 title: linux/print (English)
 description: "An alias to a `run-mailcap`'s action print."
-content_hash: b45a141dfda87f8058505004c86fe244701d686f
+content_hash: 6d5738fef022d5fdbceb7fd13b5fff21513569a2
+related_topics:
+  - title: Türkçe version
+    url: /tr/linux/print.html
+    icon: bi bi-globe
 ---
 # print
 
 An alias to a `run-mailcap`'s action print.
 Originally `run-mailcap` is used to process mime-type/file.
+More information: <https://manned.org/print>.
 
 - Print action can be used to print any file on default run-mailcap tool:
 

@@ -2,11 +2,12 @@
 layout: page
 title: linux/repquota (English)
 description: "Display a summary of existing file quotas for a filesystem."
-content_hash: 0352dcb238821dc4828e4c046f7fc7f1368cf147
+content_hash: 852bd4b7d17116c569acfcd291711dece6566b21
 ---
 # repquota
 
 Display a summary of existing file quotas for a filesystem.
+More information: <https://manned.org/repquota>.
 
 - Report stats for all quotas in use:
 

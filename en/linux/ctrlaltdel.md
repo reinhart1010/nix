@@ -2,11 +2,12 @@
 layout: page
 title: linux/ctrlaltdel (English)
 description: "Utility to control what happens when CTRL+ALT+DEL is pressed."
-content_hash: b26ccc41ffbe016e2a0cbd4541f258115a715cb7
+content_hash: 81b7f57c9e0c5b497a23df4e7885132e7c1a7150
 ---
 # ctrlaltdel
 
 Utility to control what happens when CTRL+ALT+DEL is pressed.
+More information: <https://manned.org/ctrlaltdel>.
 
 - Get current setting:
 

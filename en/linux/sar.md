@@ -2,11 +2,12 @@
 layout: page
 title: linux/sar (English)
 description: "Monitor performance of various Linux subsystems."
-content_hash: 04fa524fcb48c6fac56fb6f70d8f1de69fb97d9d
+content_hash: d17bdfcbcf94b857ef3994b31e438ea4af8420d8
 ---
 # sar
 
 Monitor performance of various Linux subsystems.
+More information: <https://manned.org/sar>.
 
 - Report I/O and transfer rate issued to physical devices, one per second (press CTRL+C to quit):
 

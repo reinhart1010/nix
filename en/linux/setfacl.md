@@ -2,11 +2,12 @@
 layout: page
 title: linux/setfacl (English)
 description: "Set file access control lists (ACL)."
-content_hash: bf359132d854e954e9fdf0d3ed249726e4851c9b
+content_hash: f3cc5bb74eaa2ed4db4d901c847c86033ed10160
 ---
 # setfacl
 
 Set file access control lists (ACL).
+More information: <https://manned.org/setfacl>.
 
 - Modify ACL of a file for user with read and write access:
 

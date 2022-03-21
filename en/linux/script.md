@@ -2,11 +2,12 @@
 layout: page
 title: linux/script (English)
 description: "Record all terminal output to file."
-content_hash: 25a561542651326a5200ef0e5a52fed04e03fff3
+content_hash: 3fbb2bc8d8e85fc1d217e3fbefae4d17c970e169
 ---
 # script
 
 Record all terminal output to file.
+More information: <https://manned.org/script>.
 
 - Record a new session to a file named `typescript` in the current directory:
 

@@ -2,11 +2,12 @@
 layout: page
 title: linux/viewnior (English)
 description: "Simple and elegant image viewer."
-content_hash: 4a1c80de6b0e697deb25cb38342972e967c14705
+content_hash: 7b07fde00eceaa786e15ff6bd57db9b0d5f084cf
 ---
 # viewnior
 
 Simple and elegant image viewer.
+More information: <https://manned.org/viewnior>.
 
 - View an image:
 

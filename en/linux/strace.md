@@ -2,11 +2,12 @@
 layout: page
 title: linux/strace (English)
 description: "Troubleshooting tool for tracing system calls."
-content_hash: acf14f464ba3de1ccdf4845a28d5f4e718eea31c
+content_hash: 91b767de8924456ba7b2e356eef17ae351aeffb4
 ---
 # strace
 
 Troubleshooting tool for tracing system calls.
+More information: <https://manned.org/strace>.
 
 - Start tracing a specific process by its PID:
 

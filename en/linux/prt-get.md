@@ -2,11 +2,12 @@
 layout: page
 title: linux/prt-get (English)
 description: "The CRUX package manager."
-content_hash: 4cd478c9faa9f388ab1612e6cc83fff4342977e1
+content_hash: 1e5c669ba9ed4cb1b9314a16de395d44e0740019
 ---
 # prt-get
 
 The CRUX package manager.
+More information: <https://crux.nu/doc/prt-get%20-%20User%20Manual.html>.
 
 - Install a package:
 

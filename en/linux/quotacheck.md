@@ -2,12 +2,13 @@
 layout: page
 title: linux/quotacheck (English)
 description: "Scan a filesystem for disk usage; create, check and repair quota files."
-content_hash: 58afc1021f04c5ac08e876ba6797a1fe7ce6deb8
+content_hash: 2b10da442c1c07b16976965b451ab127489ec885
 ---
 # quotacheck
 
 Scan a filesystem for disk usage; create, check and repair quota files.
 It is best to run quota check with quotas turned off to prevent damage or loss to quota files.
+More information: <https://manned.org/quotacheck>.
 
 - Check quotas on all mounted non-NFS filesystems:
 

@@ -2,8 +2,11 @@
 layout: page
 title: linux/service (English)
 description: "Manage services by running init scripts."
-content_hash: 713591da2c3f7129ce09010b1fa39d5c1eacdac8
+content_hash: af2c3bac0350aedfc11e1fedd13bfbb951718c99
 related_topics:
+  - title: català version
+    url: /ca/linux/service.html
+    icon: bi bi-globe
   - title: español version
     url: /es/linux/service.html
     icon: bi bi-globe
@@ -12,6 +15,7 @@ related_topics:
 
 Manage services by running init scripts.
 The full script path should be omitted (`/etc/init.d/` is assumed).
+More information: <https://manned.org/service>.
 
 - List the name and status of all services:
 

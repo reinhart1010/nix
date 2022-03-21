@@ -2,8 +2,11 @@
 layout: page
 title: linux/pkgrm (English)
 description: "Remove a package from a CRUX system."
-content_hash: 1c51cee862bb68d4172452192c13dda20e730732
+content_hash: 55c459568e85f3de481fea111f82efda96cf373b
 related_topics:
+  - title: català version
+    url: /ca/linux/pkgrm.html
+    icon: bi bi-globe
   - title: español version
     url: /es/linux/pkgrm.html
     icon: bi bi-globe
@@ -11,6 +14,7 @@ related_topics:
 # pkgrm
 
 Remove a package from a CRUX system.
+More information: <https://docs.oracle.com/cd/E86824_01/html/E54764/pkgrm-1m.html>.
 
 - Remove an installed package:
 

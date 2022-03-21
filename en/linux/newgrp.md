@@ -2,8 +2,11 @@
 layout: page
 title: linux/newgrp (English)
 description: "Switch primary group membership."
-content_hash: faa56e7c1520a3b152bc7ded98693d953226d775
+content_hash: a9c218b360ff32733d0412985ad929c8ea378c56
 related_topics:
+  - title: català version
+    url: /ca/linux/newgrp.html
+    icon: bi bi-globe
   - title: español version
     url: /es/linux/newgrp.html
     icon: bi bi-globe
@@ -11,6 +14,7 @@ related_topics:
 # newgrp
 
 Switch primary group membership.
+More information: <https://manned.org/newgrp>.
 
 - Change user's primary group membership:
 

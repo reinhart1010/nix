@@ -2,7 +2,7 @@
 layout: page
 title: linux/xeyes (English)
 description: "Display eyes on the screen that follow the mouse cursor."
-content_hash: 257607500c3ddbf1aff0870bb21b783eeae88051
+content_hash: cb8c579378c79f81a1725e127ba3366f14335b9c
 related_topics:
   - title: Türkçe version
     url: /tr/linux/xeyes.html
@@ -11,6 +11,7 @@ related_topics:
 # xeyes
 
 Display eyes on the screen that follow the mouse cursor.
+More information: <https://manned.org/xeyes>.
 
 - Launch xeyes on the local machine's default display:
 

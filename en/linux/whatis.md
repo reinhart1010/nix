@@ -2,7 +2,7 @@
 layout: page
 title: linux/whatis (English)
 description: "Display one-line descriptions from manual pages."
-content_hash: 55f6e4ea13dfa222db03ed36b1fe9f83998559be
+content_hash: b733517012f12b56377259cc0352389a4720e505
 related_topics:
   - title: فارسی version
     url: /fa/linux/whatis.html
@@ -11,6 +11,7 @@ related_topics:
 # whatis
 
 Display one-line descriptions from manual pages.
+More information: <https://manned.org/whatis>.
 
 - Display a description from a man page:
 

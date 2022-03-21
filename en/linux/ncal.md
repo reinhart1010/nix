@@ -2,10 +2,13 @@
 layout: page
 title: linux/ncal (English)
 description: "This command is an alias of `cal`."
-content_hash: ef91d4e6e936011238404f770b51eae5c1ec572b
+content_hash: 2dc56ea6d6dd934661b115510e28ea108ced1431
 related_topics:
   - title: bosanski version
     url: /bs/linux/ncal.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/linux/ncal.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/ncal.html
@@ -68,6 +71,7 @@ related_topics:
 # ncal
 
 This command is an alias of `cal`.
+More information: <https://manned.org/ncal>.
 
 - View documentation for the original command:
 

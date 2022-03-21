@@ -2,11 +2,12 @@
 layout: page
 title: linux/rfkill (English)
 description: "Enable and disable wireless devices."
-content_hash: daff7623a6c97e63cf2367bea5100d2115226d0c
+content_hash: 255106a9e21f3365e18d57b3cb2161e737096ab5
 ---
 # rfkill
 
 Enable and disable wireless devices.
+More information: <https://manned.org/rfkill>.
 
 - List devices:
 

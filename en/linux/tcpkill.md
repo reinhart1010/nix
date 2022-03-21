@@ -2,8 +2,11 @@
 layout: page
 title: linux/tcpkill (English)
 description: "Kills specified in-progress TCP connections."
-content_hash: 0f9bf079cb541f0c8da266f2e37a90cd0acaa34a
+content_hash: b2be6debb134fabe5e92b7d86d6532763ec46c5f
 related_topics:
+  - title: català version
+    url: /ca/linux/tcpkill.html
+    icon: bi bi-globe
   - title: español version
     url: /es/linux/tcpkill.html
     icon: bi bi-globe
@@ -11,6 +14,7 @@ related_topics:
 # tcpkill
 
 Kills specified in-progress TCP connections.
+More information: <https://manned.org/tcpkill>.
 
 - Kill in-progress connections at a specified interface, host and port:
 

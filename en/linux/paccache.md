@@ -2,11 +2,12 @@
 layout: page
 title: linux/paccache (English)
 description: "A pacman cache cleaning utility."
-content_hash: e5ba75b71f7efa29668baaaef7c30bd2a97b2a7f
+content_hash: 56a15a2c57dfb7e970addb06189b81a266375bf1
 ---
 # paccache
 
 A pacman cache cleaning utility.
+More information: <https://manned.org/paccache>.
 
 - Remove all but the 3 most recent package versions from the pacman cache:
 

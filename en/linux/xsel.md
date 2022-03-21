@@ -2,7 +2,7 @@
 layout: page
 title: linux/xsel (English)
 description: "X11 selection and clipboard manipulation tool."
-content_hash: d44902c8863dc8a2939e184ccf54311dae95c235
+content_hash: 94180d70b0990a913444057f32ea0732c18333de
 related_topics:
   - title: français version
     url: /fr/linux/xsel.html
@@ -11,6 +11,7 @@ related_topics:
 # xsel
 
 X11 selection and clipboard manipulation tool.
+More information: <https://manned.org/xsel>.
 
 - Use a command's output as input of the clip[b]oard (equivalent to `Ctrl + C`):
 

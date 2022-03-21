@@ -2,11 +2,12 @@
 layout: page
 title: linux/reflector (English)
 description: "Arch script to fetch and sort mirrorlists."
-content_hash: ab19d567885d3187bc698518eddc674c07746bd8
+content_hash: d4b54e4219e19f90cabe08c5a4fd4fe74828243b
 ---
 # reflector
 
 Arch script to fetch and sort mirrorlists.
+More information: <https://manned.org/reflector>.
 
 - Get all mirrors, sort for download speed and save them:
 

@@ -2,11 +2,12 @@
 layout: page
 title: linux/pacaur (English)
 description: "A utility for Arch Linux to build and install packages from the Arch User Repository."
-content_hash: 557caa26e673e438c15edd271658c5b0085ec7f4
+content_hash: f955a721036ac1b8a927e610d9796bdcb687af2c
 ---
 # pacaur
 
 A utility for Arch Linux to build and install packages from the Arch User Repository.
+More information: <https://github.com/rmarquis/pacaur>.
 
 - Synchronize and update all packages (includes AUR):
 

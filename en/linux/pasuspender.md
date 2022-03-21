@@ -2,11 +2,12 @@
 layout: page
 title: linux/pasuspender (English)
 description: "Temporarily suspends `pulseaudio` while another command is running to allow access to alsa."
-content_hash: 90879d1f2dfbc6ab2a50f30767ca8fe9bb952878
+content_hash: 73565294fc44fb69f208a635b29b93f34df9884f
 ---
 # pasuspender
 
 Temporarily suspends `pulseaudio` while another command is running to allow access to alsa.
+More information: <https://manned.org/pasuspender>.
 
 - Suspend PulseAudio while running `jackd`:
 

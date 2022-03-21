@@ -2,8 +2,11 @@
 layout: page
 title: linux/tcpflow (English)
 description: "Capture TCP traffic for debugging and analysis."
-content_hash: 854a37c9c56661d40e6ffe019cb3ed38bc8e7fd8
+content_hash: 2352c640af35518a6ce5e34e18de254fb25c825b
 related_topics:
+  - title: català version
+    url: /ca/linux/tcpflow.html
+    icon: bi bi-globe
   - title: español version
     url: /es/linux/tcpflow.html
     icon: bi bi-globe
@@ -11,6 +14,7 @@ related_topics:
 # tcpflow
 
 Capture TCP traffic for debugging and analysis.
+More information: <https://manned.org/tcpflow>.
 
 - Show all data on the given interface and port:
 

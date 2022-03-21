@@ -2,11 +2,12 @@
 layout: page
 title: linux/ncat (English)
 description: "Use the normal `cat` functionality over networks."
-content_hash: 962bebbb5605890349c5fd2996b0eda99a23f7d2
+content_hash: 75e2f832831d1fbe6295a8f61b0cb20c316c7206
 ---
 # ncat
 
 Use the normal `cat` functionality over networks.
+More information: <https://manned.org/ncat>.
 
 - Listen for input on the specified port and write it to the specified file:
 

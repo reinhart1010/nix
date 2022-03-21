@@ -2,12 +2,13 @@
 layout: page
 title: linux/run-mailcap (English)
 description: "Run MailCap Programs."
-content_hash: 22af4b41ed5b083016d4de0497f32ec5d8272596
+content_hash: c9f9245577e53d032a845a308a5f93621d906b04
 ---
 # run-mailcap
 
 Run MailCap Programs.
 Run mailcap view, see, edit, compose, print - execute programs via entries in the mailcap file (or any of its aliases) will use the given action to process each mime-type/file.
+More information: <https://manned.org/run-mailcap>.
 
 - Individual actions/programs on run-mailcap can be invoked with action flag:
 

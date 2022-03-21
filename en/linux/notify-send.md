@@ -2,11 +2,12 @@
 layout: page
 title: linux/notify-send (English)
 description: "Uses the current desktop environment's notification system to create a notification."
-content_hash: f19588697013a36be87e3ae74af5a2498e0e4098
+content_hash: 3d0d0607496a97f9aa72d4311f0bafea53cd44be
 ---
 # notify-send
 
 Uses the current desktop environment's notification system to create a notification.
+More information: <https://manned.org/notify-send>.
 
 - Show a notification with the title "Test" and the content "This is a test":
 

@@ -2,11 +2,12 @@
 layout: page
 title: linux/rtcwake (English)
 description: "Enter a system sleep state until specified wakeup time relative to your BIOS clock."
-content_hash: 1b191b268f5c2f7d0e1c0e19116415cc2f56c590
+content_hash: 6ed9baae6e5682326c73f497a30b51e2dffda056
 ---
 # rtcwake
 
 Enter a system sleep state until specified wakeup time relative to your BIOS clock.
+More information: <https://manned.org/rtcwake>.
 
 - Show whether an alarm is set or not:
 

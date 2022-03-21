@@ -2,11 +2,12 @@
 layout: page
 title: linux/vpnc (English)
 description: "A VPN client for the Cisco 3000 VPN Concentrator."
-content_hash: 83209f8cbb793b08333ae2d6a2db135eff1c01dc
+content_hash: a340a040ae9b2683fbf4a4c51e39d13580620b66
 ---
 # vpnc
 
 A VPN client for the Cisco 3000 VPN Concentrator.
+More information: <https://manned.org/vpnc>.
 
 - Connect with a defined configuration file:
 

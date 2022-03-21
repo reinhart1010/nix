@@ -2,11 +2,12 @@
 layout: page
 title: linux/rpcinfo (English)
 description: "Makes an RPC call to an RPC server and reports what it finds."
-content_hash: 4581ad88e0c3fecf456aa4bc65808169f5772566
+content_hash: 7b82aaeeacbb9a8979088bc425683c668106eee0
 ---
 # rpcinfo
 
 Makes an RPC call to an RPC server and reports what it finds.
+More information: <https://manned.org/rpcinfo>.
 
 - Show full table of all RPC services registered on localhost:
 

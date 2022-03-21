@@ -2,11 +2,12 @@
 layout: page
 title: linux/vncviewer (English)
 description: "Launches a VNC (Virtual Network Computing) client."
-content_hash: 485b7964dae439f37746cc5727ed5fea9cc351cd
+content_hash: a66f2ffc0deab43c82d15c8f36f4c0378c5a3848
 ---
 # vncviewer
 
 Launches a VNC (Virtual Network Computing) client.
+More information: <https://manned.org/vncviewer>.
 
 - Launch a VNC client which connects to a host on a given display:
 

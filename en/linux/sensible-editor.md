@@ -2,11 +2,12 @@
 layout: page
 title: linux/sensible-editor (English)
 description: "Open the default editor."
-content_hash: f93ddfd43741831ed4a28dc7be3c08f715b4eaed
+content_hash: 22c7b1c8837a2590bbb41576de28af8c2c6be04f
 ---
 # sensible-editor
 
 Open the default editor.
+More information: <https://manned.org/sensible-editor>.
 
 - Open a file in the default editor:
 

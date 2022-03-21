@@ -2,8 +2,11 @@
 layout: page
 title: linux/ntfsfix (English)
 description: "Fix common problems on an NTFS partition."
-content_hash: b3ad107606367da3ff405735d847ca3691d96995
+content_hash: d1f5b920e32a122ff3388176a0b181079c0a3d8d
 related_topics:
+  - title: català version
+    url: /ca/linux/ntfsfix.html
+    icon: bi bi-globe
   - title: español version
     url: /es/linux/ntfsfix.html
     icon: bi bi-globe
@@ -11,6 +14,7 @@ related_topics:
 # ntfsfix
 
 Fix common problems on an NTFS partition.
+More information: <https://manned.org/ntfsfix>.
 
 - Fix a given NTFS partition:
 

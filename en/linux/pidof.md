@@ -2,7 +2,7 @@
 layout: page
 title: linux/pidof (English)
 description: "Gets the ID of a process using its name."
-content_hash: e09417494aa04f197ce042e5619622b23bec47e3
+content_hash: b2d167b4e7206589ce7ce3bd0c7a0f884ec15edb
 related_topics:
   - title: italiano version
     url: /it/linux/pidof.html
@@ -11,6 +11,7 @@ related_topics:
 # pidof
 
 Gets the ID of a process using its name.
+More information: <https://manned.org/pidof>.
 
 - List all process IDs with given name:
 

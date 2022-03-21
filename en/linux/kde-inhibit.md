@@ -2,11 +2,12 @@
 layout: page
 title: linux/kde-inhibit (English)
 description: "Inhibit various desktop functions while a command runs."
-content_hash: f009f0facb0b66d6114c05d42c3d0c7d5ea2c3c2
+content_hash: 6426616be46eb5306475382d26f5c0afe260c6df
 ---
 # kde-inhibit
 
 Inhibit various desktop functions while a command runs.
+More information: <https://invent.kde.org/plasma/kde-cli-tools/-/blob/master/kdeinhibit/main.cpp>.
 
 - Inhibit power management:
 

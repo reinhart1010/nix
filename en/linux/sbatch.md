@@ -2,11 +2,12 @@
 layout: page
 title: linux/sbatch (English)
 description: "Submit a batch job to the SLURM scheduler."
-content_hash: 9a0b58d38d3ae18712ce1d5612f8a841e7486d52
+content_hash: 0784dddad317a64039636e32bf94c2542d298913
 ---
 # sbatch
 
 Submit a batch job to the SLURM scheduler.
+More information: <https://manned.org/sbatch>.
 
 - Submit a batch job:
 

@@ -2,11 +2,12 @@
 layout: page
 title: linux/squeue (English)
 description: "View the jobs queued in the SLURM scheduler."
-content_hash: 6e64963e660cd85513e85fb108d9ef0e73b39b62
+content_hash: 1f4f206f4ebad2fe5d1fcefc9fd37fc8290d5403
 ---
 # squeue
 
 View the jobs queued in the SLURM scheduler.
+More information: <https://manned.org/squeue>.
 
 - View the queue:
 

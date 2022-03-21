@@ -2,7 +2,7 @@
 layout: page
 title: linux/snap (English)
 description: "Tool for managing the \"snap\" self-contained software packages."
-content_hash: 7f6091368133c36c9071fa639ed88a78338ce34e
+content_hash: b11f4bd4c450fec2a65aabe78902a946deedd22c
 related_topics:
   - title: বাংলা version
     url: /bn/linux/snap.html
@@ -15,6 +15,7 @@ related_topics:
 
 Tool for managing the "snap" self-contained software packages.
 Similar to what `apt` is for ".deb".
+More information: <https://manned.org/snap>.
 
 - Search for a package:
 

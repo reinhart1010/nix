@@ -2,11 +2,12 @@
 layout: page
 title: linux/rspamc (English)
 description: "Command-line client for rspamd servers."
-content_hash: 44541751aebfa1a56ceb7d4207cd61a051946e3a
+content_hash: 562692ca639e2d09dba680d0d91e94c14c92ad4b
 ---
 # rspamc
 
 Command-line client for rspamd servers.
+More information: <https://manned.org/rspamc>.
 
 - Train the bayesian filter to recognise an email as spam:
 

@@ -2,11 +2,12 @@
 layout: page
 title: linux/setxkbmap (English)
 description: "Set the keyboard using the X Keyboard Extension."
-content_hash: e9498508896b674f5bda9ce9ef3ab6887e665cb9
+content_hash: e0091f7b4d2805d9ff7b30e0d278bc893462b770
 ---
 # setxkbmap
 
 Set the keyboard using the X Keyboard Extension.
+More information: <https://manned.org/setxkbmap>.
 
 - Set the keyboard in French AZERTY:
 

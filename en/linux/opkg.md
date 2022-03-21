@@ -2,11 +2,12 @@
 layout: page
 title: linux/opkg (English)
 description: "A lightweight package manager used to install OpenWrt packages."
-content_hash: 9a07bb292ddbd63b356b1d976358968b696b9c3e
+content_hash: 693e04c8395a730535bd2f27f8a3ad35b4c8494a
 ---
 # opkg
 
 A lightweight package manager used to install OpenWrt packages.
+More information: <https://openwrt.org/docs/guide-user/additional-software/opkg>.
 
 - Install a package:
 

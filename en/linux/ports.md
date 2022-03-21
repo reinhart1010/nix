@@ -2,11 +2,12 @@
 layout: page
 title: linux/ports (English)
 description: "Update/list the ports tree on a CRUX system."
-content_hash: 7cf5d06b0d01a6ce1238a65848e9cbd40f72b6bb
+content_hash: e372267182cb6ce5ed447868bee4f2975efc7430
 ---
 # ports
 
 Update/list the ports tree on a CRUX system.
+More information: <https://manned.org/ports>.
 
 - Update the ports tree:
 

@@ -2,11 +2,12 @@
 layout: page
 title: linux/uprecords (English)
 description: "Displays a summary of historical uptime records."
-content_hash: faf8250ba559fc4f78a8298c26095eda37b23cbf
+content_hash: 8f0b73ddf2b2b1262b4c0a96138a354372f95184
 ---
 # uprecords
 
 Displays a summary of historical uptime records.
+More information: <https://manned.org/uprecords>.
 
 - Display a summary of the top 10 historical uptime records:
 

@@ -2,12 +2,13 @@
 layout: page
 title: linux/namei (English)
 description: "Follows a pathname (which can be a symbolic link) until a terminal point is found (a file/directory/char device etc)."
-content_hash: 955a6f703a7ab128b6f255a0e88fffed5c13a407
+content_hash: f642f8c2eec964df66f7e99da5d50c1763f8551e
 ---
 # namei
 
 Follows a pathname (which can be a symbolic link) until a terminal point is found (a file/directory/char device etc).
 This program is useful for finding "too many levels of symbolic links" problems.
+More information: <https://manned.org/namei>.
 
 - Resolve the pathnames specified as the argument parameters:
 

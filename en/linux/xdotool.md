@@ -2,11 +2,12 @@
 layout: page
 title: linux/xdotool (English)
 description: "Command-line automation for X11."
-content_hash: d05b00ee75ffc941dcad333c5a6671638fc2c0d2
+content_hash: 66ab0eabc03914b408d02507065d3d5ae719a7c8
 ---
 # xdotool
 
 Command-line automation for X11.
+More information: <https://manned.org/xdotool>.
 
 - Retrieve the X-Windows window ID of the running Firefox window(s):
 

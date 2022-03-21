@@ -2,11 +2,12 @@
 layout: page
 title: linux/pidstat (English)
 description: "Show system resource usage, including CPU, memory, IO etc."
-content_hash: 3a787fbd39e0bfa71d0098dcd1d808c29bfaac5d
+content_hash: ef865c4325acfc496aceededb3a3f53c7e4fa9d7
 ---
 # pidstat
 
 Show system resource usage, including CPU, memory, IO etc.
+More information: <https://manned.org/pidstat>.
 
 - Show CPU statistics at a 2 second interval for 10 times:
 

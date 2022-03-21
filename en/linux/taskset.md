@@ -2,11 +2,12 @@
 layout: page
 title: linux/taskset (English)
 description: "Get or set a process' CPU affinity or start a new process with a defined CPU affinity."
-content_hash: 082d52190b2c57529a2108109dc1275ea7f55506
+content_hash: 07a4207a06841cfb29d5c7bb955559b02d2554dc
 ---
 # taskset
 
 Get or set a process' CPU affinity or start a new process with a defined CPU affinity.
+More information: <https://manned.org/taskset>.
 
 - Get a running process' CPU affinity by PID:
 

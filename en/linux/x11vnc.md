@@ -2,12 +2,13 @@
 layout: page
 title: linux/x11vnc (English)
 description: "A VNC server that will enable VNC on an existing display server."
-content_hash: a2a00a577115efc47e3964c92dfe87e37b736def
+content_hash: 090e793bbe24a1455fda5feb5d0830dc14f115f1
 ---
 # x11vnc
 
 A VNC server that will enable VNC on an existing display server.
 By default, the server will automatically terminate once all clients disconnect from it.
+More information: <https://manned.org/x11vnc>.
 
 - Launch a VNC server that allows multiple clients to connect:
 

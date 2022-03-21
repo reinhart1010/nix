@@ -2,11 +2,12 @@
 layout: page
 title: linux/uvcdynctrl (English)
 description: "A libwebcam command-line tool to manage dynamic controls in uvcvideo."
-content_hash: 603185abe0ce2a10bb54b3d31a64fc0e4d32ba32
+content_hash: 8a6392975cdc3f1a0cd1cf5e3425a060e06e9eb3
 ---
 # uvcdynctrl
 
 A libwebcam command-line tool to manage dynamic controls in uvcvideo.
+More information: <https://manned.org/uvcdynctrl>.
 
 - List all available cameras:
 

@@ -2,11 +2,12 @@
 layout: page
 title: linux/vnstat (English)
 description: "A console-based network traffic monitor."
-content_hash: 374a6f113a1f695a3f235b834d97024a5273ffae
+content_hash: dbc29a07beb2774935b0249dfe5a0fbaf49650e3
 ---
 # vnstat
 
 A console-based network traffic monitor.
+More information: <https://manned.org/vnstat>.
 
 - Display traffic summary for all interfaces:
 

@@ -2,8 +2,11 @@
 layout: page
 title: linux/sensible-browser (English)
 description: "Open the default browser."
-content_hash: 83165f5fc83ae40af2528fef7ad3c7a0b1453b9b
+content_hash: b2434136840ddae5b5422fa1d05260b567fe7770
 related_topics:
+  - title: català version
+    url: /ca/linux/sensible-browser.html
+    icon: bi bi-globe
   - title: español version
     url: /es/linux/sensible-browser.html
     icon: bi bi-globe
@@ -11,6 +14,7 @@ related_topics:
 # sensible-browser
 
 Open the default browser.
+More information: <https://manned.org/sensible-browser>.
 
 - Open a new window of the default browser:
 

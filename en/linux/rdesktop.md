@@ -2,12 +2,13 @@
 layout: page
 title: linux/rdesktop (English)
 description: "Remote Desktop Protocol client."
-content_hash: c40146d8bca125f21c8a832f2e5e60d0647f0d45
+content_hash: ef4bef13e8a41b5a03070ca064c78c1d16a51341
 ---
 # rdesktop
 
 Remote Desktop Protocol client.
 It can be used to connect the remote computer using the RDP protocol.
+More information: <https://manned.org/rdesktop>.
 
 - Connect to a remote computer (default port is 3389):
 

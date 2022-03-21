@@ -2,12 +2,13 @@
 layout: page
 title: linux/resize2fs (English)
 description: "Resize an ext2, ext3 or ext4 filesystem."
-content_hash: 42113aee6550e76d7a8b1ff9fe47b7719229583e
+content_hash: 47aeda876e7c8e49fdf5167031e65247b1e12876
 ---
 # resize2fs
 
 Resize an ext2, ext3 or ext4 filesystem.
 Does not resize the underlying partition. The filesystem may have to be unmounted first, read the man page for more details.
+More information: <https://manned.org/resize2fs>.
 
 - Automatically resize a filesystem:
 

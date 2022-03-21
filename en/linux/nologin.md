@@ -2,7 +2,7 @@
 layout: page
 title: linux/nologin (English)
 description: "Alternative shell that prevents a user from logging in."
-content_hash: 638db74d179420d8982c24236d82b75e526da729
+content_hash: 168835a8beaab5a46cefb40a109a6cfdb01c1d93
 related_topics:
   - title: Deutsch version
     url: /de/linux/nologin.html
@@ -11,6 +11,7 @@ related_topics:
 # nologin
 
 Alternative shell that prevents a user from logging in.
+More information: <https://manned.org/nologin.5>.
 
 - Set a user's login shell to `nologin` to prevent the user from logging in:
 

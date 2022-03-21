@@ -2,11 +2,12 @@
 layout: page
 title: linux/ndctl (English)
 description: "Utility for managing Non-Volatile DIMMs."
-content_hash: 1dce65e735eca09016e5f0cfee570d4878362d8d
+content_hash: bead81671b350aa241a9b4a7cdf05a0e50d008f6
 ---
 # ndctl
 
 Utility for managing Non-Volatile DIMMs.
+More information: <https://manned.org/ndctl>.
 
 - Create an 'fsdax' mode namespace:
 

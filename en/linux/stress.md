@@ -2,11 +2,12 @@
 layout: page
 title: linux/stress (English)
 description: "A tool to stress test CPU, memory, and IO on a Linux system."
-content_hash: d35aa9fe3c28866aad97b849242a2506260008ee
+content_hash: b279ffb6cae22b262afa8baf8c6bf294723722cb
 ---
 # stress
 
 A tool to stress test CPU, memory, and IO on a Linux system.
+More information: <https://manned.org/stress>.
 
 - Spawn 4 workers to stress test CPU:
 

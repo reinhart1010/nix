@@ -2,11 +2,12 @@
 layout: page
 title: linux/nmon (English)
 description: "A system administrator, tuner, and benchmark tool."
-content_hash: e5fbb69d8371fe3d5659878ee39e3fe66dde764c
+content_hash: c7f3f95a1321dc569b959d8a5597d72ebd7c1f41
 ---
 # nmon
 
 A system administrator, tuner, and benchmark tool.
+More information: <https://manned.org/nmon>.
 
 - Start nmon:
 

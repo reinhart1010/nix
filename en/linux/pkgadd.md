@@ -2,8 +2,11 @@
 layout: page
 title: linux/pkgadd (English)
 description: "Add a package to a CRUX system."
-content_hash: 11c1ae058e4498cbd670855f6a2427015c1dbc14
+content_hash: ac650f80d8914e565ad4d0a555fcf764ace615dc
 related_topics:
+  - title: català version
+    url: /ca/linux/pkgadd.html
+    icon: bi bi-globe
   - title: español version
     url: /es/linux/pkgadd.html
     icon: bi bi-globe
@@ -11,6 +14,7 @@ related_topics:
 # pkgadd
 
 Add a package to a CRUX system.
+More information: <https://docs.oracle.com/cd/E19253-01/816-5166/pkgadd-1m/index.html>.
 
 - Install a local software package:
 

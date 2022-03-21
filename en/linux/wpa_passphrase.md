@@ -2,11 +2,12 @@
 layout: page
 title: linux/wpa_passphrase (English)
 description: "Generate a WPA-PSK key from an ASCII passphrase for a given SSID."
-content_hash: a65ca3741ae099f631a3d7abfc84ec9bb80bd698
+content_hash: 50228b36ab158fab603a6414b081f159093e0ae9
 ---
 # wpa_passphrase
 
 Generate a WPA-PSK key from an ASCII passphrase for a given SSID.
+More information: <https://manned.org/wpa_passphrase.1>.
 
 - Compute and display the WPA-PSK key for a given SSID reading the passphrase from stdin:
 

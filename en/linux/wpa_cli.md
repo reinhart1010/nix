@@ -2,11 +2,12 @@
 layout: page
 title: linux/wpa_cli (English)
 description: "Add and configure wlan interfaces."
-content_hash: 1801b00e7b52bfcfc704a4e9e84c4b935edf917b
+content_hash: 03db642a6a5226d87d866eca198bcb2b9c89eb56
 ---
 # wpa_cli
 
 Add and configure wlan interfaces.
+More information: <https://manned.org/wpa_cli>.
 
 - Scan for available networks:
 

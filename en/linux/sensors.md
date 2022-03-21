@@ -2,8 +2,11 @@
 layout: page
 title: linux/sensors (English)
 description: "Report sensors information."
-content_hash: 65794278a26f1e3e4d0920c615edd8de4c87f254
+content_hash: 659422282b8544326f0d8a70bba1eedbbc24fdbb
 related_topics:
+  - title: català version
+    url: /ca/linux/sensors.html
+    icon: bi bi-globe
   - title: español version
     url: /es/linux/sensors.html
     icon: bi bi-globe
@@ -11,6 +14,7 @@ related_topics:
 # sensors
 
 Report sensors information.
+More information: <https://manned.org/sensors>.
 
 - Show the current readings of all sensor chips:
 
