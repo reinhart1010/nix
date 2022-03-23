@@ -1,0 +1,45 @@
+---
+layout: page
+title: linux/gnome-screenshot (English)
+description: "Capture the screen, a window, or a user-defined area and save the image to a file."
+content_hash: 2abbb323bc5ee321bf326d46ff9e1fe0c7f9f10c
+---
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># gnome-screenshot
+
+Capture the screen, a window, or a user-defined area and save the image to a file.
+More information: <https://apps.gnome.org/app/org.gnome.Screenshot>.
+
+- Take a screenshot and save it to the default location, normally `~/Pictures`:
+
+`gnome-screenshot`
+
+- Take a screenshot and save it to the named file location:
+
+`gnome-screenshot --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+
+- Take a screenshot and save it to the clipboard:
+
+`gnome-screenshot --clipboard`
+
+- Take a screenshot after the specified number of seconds:
+
+`gnome-screenshot --delay `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>
+
+- Launch the GNOME Screenshot GUI:
+
+`gnome-screenshot --interactive`
+
+- Take a screenshot of the current window and save it to the specified file location:
+
+`gnome-screenshot --window --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+
+- Take a screenshot after the specified number of seconds and save it to the clipboard:
+
+`gnome-screenshot --delay `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>` --clipboard`
+
+- Display the version:
+
+`gnome-screenshot --version`
