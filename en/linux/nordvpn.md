@@ -2,7 +2,7 @@
 layout: page
 title: linux/nordvpn (English)
 description: "Command-line interface for NordVPN."
-content_hash: 8f47909ffa42b5d7df80561f8a26f4974e5f786e
+content_hash: 3ca3a2c3cd5df1ab6ae8448559582d110d5a2392
 related_topics:
   - title: Deutsch version
     url: /de/linux/nordvpn.html
@@ -32,3 +32,11 @@ More information: <https://nordvpn.com/download/linux/>.
 - Connect to a NordVPN server in a specific country:
 
 `nordvpn connect `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Germany</span>
+
+- Connect to a NordVPN server in a specific country and city:
+
+`nordvpn connect `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Germany</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Berlin</span>
+
+- Set autoconnect option:
+
+`nordvpn set autoconnect on`
