@@ -2,7 +2,7 @@
 layout: page
 title: linux/konsole (中文)
 description: "Konsole: KDE 终端模拟器。"
-content_hash: 469dd800540f948689133063e9726565813d31b8
+content_hash: 433ac9ab80f27298a2d9fa325c4a6d43c1ec097b
 related_topics:
   - title: English version
     url: /en/linux/konsole.html
@@ -13,7 +13,7 @@ related_topics:
 Konsole: KDE 终端模拟器。
 更多信息：<https://konsole.kde.org>.
 
-- 在特定目录中打开一个新的 Konsole:
+- 在特定目录中打开一个新的 Konsole：
 
 `konsole --workdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
@@ -29,6 +29,6 @@ Konsole: KDE 终端模拟器。
 
 `konsole --background-mode`
 
-- 使用紧急备冗配置文件打开 Konsole:
+- 使用紧急备冗配置文件打开 Konsole：
 
 `konsole --fallback-profile`

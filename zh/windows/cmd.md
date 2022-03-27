@@ -2,7 +2,7 @@
 layout: page
 title: windows/cmd (中文)
 description: "Windows 命令解释器。"
-content_hash: 629846963ccfe157ac888426d307da98d1ffde2c
+content_hash: 8cccacd685a7d4feb1b900b09b894ec6d6d0e829
 related_topics:
   - title: English version
     url: /en/windows/cmd.html
@@ -36,7 +36,7 @@ Windows 命令解释器。
 
 `cmd /c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span>`"`
 
-- 执行一个指定的命令，之后进入一个交互式 shell:
+- 执行一个指定的命令，之后进入一个交互式 shell：
 
 `cmd /k "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span>`"`
 

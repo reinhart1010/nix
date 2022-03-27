@@ -2,7 +2,7 @@
 layout: page
 title: sunos/snoop (বাংলা)
 description: "নেটওয়ার্ক প্যাকেট স্নিফার।"
-content_hash: 731c1654bbad3d2118370881b997d78bfa58cc56
+content_hash: 8e056c3c8a5655932e246b1df7a0b4e23e385a1b
 related_topics:
   - title: English version
     url: /en/sunos/snoop.html
@@ -30,6 +30,6 @@ SunOS এর জন্য tcpdump এর সমতুল্য।
 
 `snoop to port `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">পোর্ট</span>` from host `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">হোস্টনাম</span>
 
-- দুটি আইপি ঠিকানার মধ্যে বিনিময় করা নেটওয়ার্ক প্যাকেটের একটি হেক্স-ডাম্প ক্যাপচার করুন এবং প্রদর্শন করুন :
+- দুটি আইপি ঠিকানার মধ্যে বিনিময় করা নেটওয়ার্ক প্যাকেটের একটি হেক্স-ডাম্প ক্যাপচার করুন এবং প্রদর্শন করুন:
 
 `snoop -x0 -p4 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">আইপি_ঠিকানা_১</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">আইপি_ঠিকানা_২</span>

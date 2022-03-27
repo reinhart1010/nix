@@ -2,10 +2,13 @@
 layout: page
 title: common/composer (한국어)
 description: "PHP 프로젝트의 의존성(dependency)을 기반으로 한 매니저 패키지."
-content_hash: f56ab2bd73d163e781934775a8d1605a6ef8e1dc
+content_hash: 24112041720993a6cb5f056ff393735faa0322d3
 related_topics:
   - title: English version
     url: /en/common/composer.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/composer.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/composer.html
@@ -29,7 +32,7 @@ PHP 프로젝트의 의존성(dependency)을 기반으로 한 매니저 패키�
 
 `composer require `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자/패키지명</span>
 
-- 프로젝트의 `composer.json` 안에 모든 의존성(dependency)를 설치합니다 :
+- 프로젝트의 `composer.json` 안에 모든 의존성(dependency)를 설치합니다:
 
 `composer install`
 

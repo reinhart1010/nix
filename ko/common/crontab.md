@@ -2,7 +2,7 @@
 layout: page
 title: common/crontab (한국어)
 description: "현재 사용자의 시간 간격으로 cron작업이 실행되도록 스케줄."
-content_hash: 41d1085421dbec9c16dc42fe01ec08875dc4366a
+content_hash: e46e3cca88d8022820bf84d4ae2d22cb27361380
 related_topics:
   - title: English version
     url: /en/common/crontab.html
@@ -50,6 +50,6 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 `* * 3 Apr * `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">실행_할_명령</span>
 
-- 매주 금요일 02:30에 특정 스크립트를 실행하는 샘플 작업 :
+- 매주 금요일 02:30에 특정 스크립트를 실행하는 샘플 작업:
 
 `30 2 * * Fri `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/script.sh/의/절대/경로</span>

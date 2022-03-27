@@ -2,7 +2,7 @@
 layout: page
 title: linux/pacman (മലയാളം)
 description: "ആർച്ച് ലിന്ക്സിന്റെ പാക്കേജ് മാനേജുമെന്റ് യൂട്ടിലിറ്റി."
-content_hash: ba460f79b2f1296adbd98f68d5ec8a19c0cf5e57
+content_hash: 90bbc9b0f598c7f6cb7752602e7ebfb829df6d38
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -15,6 +15,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/pacman.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/linux/pacman.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/pacman.html
@@ -36,11 +39,11 @@ related_topics:
 
 `sudo pacman --sync `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">പാക്കേജ്</span>
 
-- ഒരു പാക്കേജും അത് ആശ്രയിക്കുന്ന മറ്റ് പാക്കേജുകളെയും കളയുക :
+- ഒരു പാക്കേജും അത് ആശ്രയിക്കുന്ന മറ്റ് പാക്കേജുകളെയും കളയുക:
 
 `sudo pacman --remove --recursive `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">പാക്കേജ്</span>
 
-- പാക്കേജ് ഡാറ്റാബേസിൽ ഒരു സൂചകപദം അല്ലെങ്കിൽ റെഗുലർ എക്സ്പ്രെഷൻ വെച്ച് തിരയുക :
+- പാക്കേജ് ഡാറ്റാബേസിൽ ഒരു സൂചകപദം അല്ലെങ്കിൽ റെഗുലർ എക്സ്പ്രെഷൻ വെച്ച് തിരയുക:
 
 `pacman --sync --search "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">സെർച്ച് പാറ്റേൺ</span>`"`
 

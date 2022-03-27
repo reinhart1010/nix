@@ -2,7 +2,7 @@
 layout: page
 title: linux/nmcli (മലയാളം)
 description: "നെറ്റ്‌വർക്ക് മാനേജർ നിയന്ത്രിക്കാൻ വേണ്ടിയുള്ള കമാൻഡ് ലൈൻ ഉപകരണം."
-content_hash: c4f45f2610b113858b2aa1bc8289fce2473c8bd9
+content_hash: 7313d7f92883544ed8de6f25f02c4c47b110fb16
 related_topics:
   - title: English version
     url: /en/linux/nmcli.html
@@ -13,18 +13,18 @@ related_topics:
 നെറ്റ്‌വർക്ക് മാനേജർ നിയന്ത്രിക്കാൻ വേണ്ടിയുള്ള കമാൻഡ് ലൈൻ ഉപകരണം.
 കൂടുതൽ വിവരങ്ങൾ: <https://manned.org/nmcli>.
 
-- nmcli പതിപ്പ് ഏതാണെന്ന് അറിയാൻ :
+- nmcli പതിപ്പ് ഏതാണെന്ന് അറിയാൻ:
 
 `nmcli --version`
 
-- പൊതുവെയുള്ള സഹായ വിവരം കാണാൻ :
+- പൊതുവെയുള്ള സഹായ വിവരം കാണാൻ:
 
 `nmcli --help`
 
-- ഒരു പ്രതേക നിർദേശത്തിന്റെ സഹായ വിവരം കാണാൻ :
+- ഒരു പ്രതേക നിർദേശത്തിന്റെ സഹായ വിവരം കാണാൻ:
 
 `nmcli `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">നിർദേശം</span>` --help`
 
-- ഒരു `nmcli` നിർദേശം നിർവഹിക്കാൻ :
+- ഒരു `nmcli` നിർദേശം നിർവഹിക്കാൻ:
 
 `nmcli `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">നിർദേശം</span>

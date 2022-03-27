@@ -2,7 +2,7 @@
 layout: page
 title: linux/flameshot (中文)
 description: "带有 gui 界面的 Screenshot 工具，支持基本的图像编辑，例如文本，形状，颜色和 imgur."
-content_hash: 0dd1a4818f3132d64a9279c6b8e7f7bc25585847
+content_hash: 347a88e4feb73485a089de3f8189c33723e9cfee
 related_topics:
   - title: English version
     url: /en/linux/flameshot.html
@@ -25,7 +25,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 带有 gui 界面的 Screenshot 工具，支持基本的图像编辑，例如文本，形状，颜色和 imgur.
 更多信息：<https://flameshot.org>.
 
-- 在 GUI 模式下启动 Flameshot:
+- 在 GUI 模式下启动 Flameshot：
 
 `flameshot launcher`
 

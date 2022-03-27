@@ -2,7 +2,7 @@
 layout: page
 title: common/arping (한국어)
 description: "ARP 프로토콜을 사용하여 네트워크에서 호스트를 발견하고 탐색합니다."
-content_hash: ac0fec570f1261e8d75744e37ebde06fdafe7470
+content_hash: f9a3ead3a0d76455612353e0ff65bf91b1594f8f
 related_topics:
   - title: English version
     url: /en/common/arping.html
@@ -33,7 +33,7 @@ MAC 주소 검색에 유용합니다.
 
 `arping -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">count</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_ip</span>
 
-- 브로드캐스트 ARP 요청 패킷을 통해 이웃 ARP 캐시 업데이트 :
+- 브로드캐스트 ARP 요청 패킷을 통해 이웃 ARP 캐시 업데이트:
 
 `arping -U `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_to_broadcast</span>
 

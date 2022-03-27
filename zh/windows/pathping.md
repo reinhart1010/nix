@@ -2,7 +2,7 @@
 layout: page
 title: windows/pathping (中文)
 description: "一种结合了`ping`和`tracert`功能的跟踪路由工具。"
-content_hash: 4553020507f0b2fbb2c84e79915c45b6b2a0fd51
+content_hash: e39ec805785e3f64bb080977cf42b2be566e3bd8
 related_topics:
   - title: English version
     url: /en/windows/pathping.html
@@ -33,11 +33,11 @@ related_topics:
 
 `pathping `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">主机名</span>` -q `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">查询语句</span>
 
-- 强制使用 IPV4:
+- 强制使用 IPV4：
 
 `pathping `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">主机名</span>` -4`
 
-- 强制使用 IPV6:
+- 强制使用 IPV6：
 
 `pathping `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">主机名</span>` -6`
 

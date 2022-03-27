@@ -2,7 +2,7 @@
 layout: page
 title: osx/xed (中文)
 description: "用 Xcode 打开要编辑的文件。"
-content_hash: 25d9fc6fc6d491b3fb7eecce0c09caa728a6a845
+content_hash: 1af45adb33a235aea32273499f372e620eb29925
 related_topics:
   - title: English version
     url: /en/osx/xed.html
@@ -15,7 +15,7 @@ related_topics:
 
 用 Xcode 打开要编辑的文件。
 
-- 用 Xcode 打开文件 :
+- 用 Xcode 打开文件：
 
 `xed `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名</span>
 

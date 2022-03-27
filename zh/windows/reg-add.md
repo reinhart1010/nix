@@ -2,7 +2,7 @@
 layout: page
 title: windows/reg-add (中文)
 description: "将新的键值添加到注册表中。"
-content_hash: d2557a1496c39649f684f89d9481708f2b54c549
+content_hash: c209f60a30ac206054272a8bca47a9f1a540c40b
 related_topics:
   - title: English version
     url: /en/windows/reg-add.html
@@ -21,7 +21,7 @@ related_topics:
 
 `reg add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">键名</span>` /v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">值</span>
 
-- Add a new value with specific data:
+- Add a new value with specific data：
 
 `reg add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">键名</span>` /d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">数据</span>
 

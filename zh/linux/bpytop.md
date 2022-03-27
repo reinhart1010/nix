@@ -2,8 +2,11 @@
 layout: page
 title: linux/bpytop (中文)
 description: "用图形显示有关正在运行的进程的动态实时信息。类似于 `gtop` 和 `htop`."
-content_hash: be6a59a617100bf64cd6ffce67cae68a4ab5b112
+content_hash: 956dfb839a2481dd619a6dbab6b8894d9b4a0a26
 related_topics:
+  - title: català version
+    url: /ca/linux/bpytop.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/bpytop.html
     icon: bi bi-globe
@@ -16,7 +19,7 @@ related_topics:
 用图形显示有关正在运行的进程的动态实时信息。类似于 `gtop` 和 `htop`.
 更多信息：<https://github.com/aristocratos/bpytop>.
 
-- 运行 bpytop:
+- 运行 bpytop：
 
 `bpytop`
 

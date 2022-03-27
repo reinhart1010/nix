@@ -2,7 +2,7 @@
 layout: page
 title: osx/as (中文)
 description: "便携式 GNU 汇编程序。"
-content_hash: 363605d9db7d43420025ed2456f5fddd0f0eb129
+content_hash: ca57bae7db94eecfe7ac8eee6781b0afde4ed836
 related_topics:
   - title: English version
     url: /en/osx/as.html
@@ -20,7 +20,7 @@ related_topics:
 主要用于汇编 `gcc` 的输出以供 `ld` 使用。
 更多信息：<https://www.unix.com/man-page/osx/1/as/>.
 
-- 汇编文件，将输出写入 a.out:
+- 汇编文件，将输出写入 a.out：
 
 `as `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件.s</span>
 

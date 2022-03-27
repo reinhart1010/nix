@@ -2,7 +2,7 @@
 layout: page
 title: common/apm (中文)
 description: "Atom 编辑器的包管理工具。"
-content_hash: 7b6047cef015e1a4774c82efe2ca98a87904df0c
+content_hash: d2de879b6ba8e00368b7bb7284a44c18f11fa73c
 related_topics:
   - title: English version
     url: /en/common/apm.html
@@ -23,7 +23,7 @@ Atom 编辑器的包管理工具。
 参见 `atom`.
 更多信息：<https://github.com/atom/apm>.
 
-- 下载包：http://atom.io/packages 和主题 http://atom.io/themes:
+- 下载包：http://atom.io/packages 和主题 http://atom.io/themes：
 
 `apm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">包名</span>
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/assimp (한국어)
 description: "Open Asset Import Library 위한 Command-line 클라이언트."
-content_hash: 6098edd679f892cf3dac5eccdfd7464643a9b8f0
+content_hash: 05f6ab703e020629869f80ea2c44757b32c0d07b
 related_topics:
   - title: English version
     url: /en/common/assimp.html
@@ -41,6 +41,6 @@ Open Asset Import Library 위한 Command-line 클라이언트.
 
 `assimp help`
 
-- 특정 하위 명령에 대한 도움말 얻기 (예 : 특정 하위 명령에 특정 매개 변수) :
+- 특정 하위 명령에 대한 도움말 얻기 (예 : 특정 하위 명령에 특정 매개 변수):
 
 `assimp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">하위명령어</span>` --help`

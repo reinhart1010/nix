@@ -2,7 +2,7 @@
 layout: page
 title: common/feh (中文)
 description: "轻量级图像查看工具。"
-content_hash: 8c2e32cfef4dd67fcf478c2af73695d00f0ef0b0
+content_hash: b57cc582813620bb71dc2ec08d21440742e0d068
 related_topics:
   - title: English version
     url: /en/common/feh.html
@@ -22,7 +22,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 轻量级图像查看工具。
 更多信息：<https://feh.finalrewind.org>.
 
-- 查看本地图像或使用 URL:
+- 查看本地图像或使用 URL：
 
 `feh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">图片路径</span>
 

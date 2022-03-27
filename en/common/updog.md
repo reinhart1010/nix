@@ -2,7 +2,7 @@
 layout: page
 title: common/updog (English)
 description: "A replacement for Python's SimpleHTTPServer."
-content_hash: e73319b5f41a24476f2c3eab64bf02e5a01d0292
+content_hash: 7712117ffef3663b5b2abbb67f98fbc887b28773
 ---
 # updog
 
@@ -26,6 +26,6 @@ More information: <https://github.com/sc0tfree/updog>.
 
 `updog --password `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span>
 
-- Enable transport encryption via SSL :
+- Enable transport encryption via SSL:
 
 `updog --ssl`

@@ -2,7 +2,7 @@
 layout: page
 title: common/adb (中文)
 description: "安卓调试桥：与 Android 模拟器或已连接的 Android 设备通信。"
-content_hash: 61640835d47c5ad2f95b167a803752a19e6c1ec3
+content_hash: 9a52615107796895628a701b3928f2005511bb94
 related_topics:
   - title: English version
     url: /en/common/adb.html
@@ -49,11 +49,11 @@ related_topics:
 
 `adb kill-server`
 
-- 在目标模拟器 / 设备实例上开启一个远程 shell:
+- 在目标模拟器 / 设备实例上开启一个远程 shell：
 
 `adb shell`
 
-- 将 Android 应用程序推送到模拟器 / 设备 :
+- 将 Android 应用程序推送到模拟器 / 设备：
 
 `adb install -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/应用.apk</span>
 

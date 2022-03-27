@@ -2,7 +2,7 @@
 layout: page
 title: common/bower (中文)
 description: "前端 web 开发的包管理优化工具。"
-content_hash: 9128761fa8ab0c1cfd5d8bda3657bd519a32db2a
+content_hash: 20463705f4aa2a7a82491f369bafba034ae172c8
 related_topics:
   - title: English version
     url: /en/common/bower.html
@@ -40,10 +40,10 @@ related_topics:
 
 `bower help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">指令</span>
 
-- 创建你的项目的 `bower.json`:
+- 创建你的项目的 `bower.json`：
 
 `bower init`
 
-- 安装时候指定依赖的版本号，并添加到 `bower.json`:
+- 安装时候指定依赖的版本号，并添加到 `bower.json`：
 
 `bower install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_name</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>`#`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span>` --save`

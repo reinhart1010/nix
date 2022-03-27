@@ -2,7 +2,7 @@
 layout: page
 title: common/logger (中文)
 description: "向系统日志增加记录（/var/log/syslog）。"
-content_hash: 2a373ff7d458a0e053b2f58211b9da8f29656679
+content_hash: 83865835a29e55be17af0e7ee3fa6b6a25e7e490
 related_topics:
   - title: English version
     url: /en/common/logger.html
@@ -17,11 +17,11 @@ related_topics:
 
 `logger `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">消息内容</span>
 
-- 从 stdin 获取输入并记录到系统日志 syslog:
+- 从 stdin 获取输入并记录到系统日志 syslog：
 
 `echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">记录内容</span>` | logger`
 
-- 将输出发送到在给定端口上运行的远程系统日志服务器。默认端口为 514:
+- 将输出发送到在给定端口上运行的远程系统日志服务器。默认端口为 514：
 
 `echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">记录内容</span>` | logger -h `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">服务器名</span>` -P `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">端口</span>
 

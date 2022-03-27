@@ -2,7 +2,7 @@
 layout: page
 title: common/act (中文)
 description: "使用 Docker 本地运行 GitHub Actions."
-content_hash: 3eeb42c71b87cbceb2f67841c674209301781e0b
+content_hash: 976090bd5385da5aac7f572d16e9ca0fbe4afe74
 related_topics:
   - title: English version
     url: /en/common/act.html
@@ -23,15 +23,15 @@ related_topics:
 
 `act -l`
 
-- 运行默认 event:
+- 运行默认 event：
 
 `act`
 
-- 运行指定 event:
+- 运行指定 event：
 
 `act `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">事件类型</span>
 
-- 运行指定 action:
+- 运行指定 action：
 
 `act -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">action_id</span>
 

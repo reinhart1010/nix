@@ -2,7 +2,7 @@
 layout: page
 title: common/docker (中文)
 description: "管理 Docker 容器和镜像。"
-content_hash: 2ff6d1feb20f5ba678af97218550291c258d797f
+content_hash: ee524603c56000c761116816e8e377b5524a40f6
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -41,7 +41,7 @@ related_topics:
 此命令也有关于其子命令的文件，例如：`docker run`.
 更多信息：<https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- 列出目前正在运行的 docker 容器:
+- 列出目前正在运行的 docker 容器：
 
 `docker ps`
 
@@ -61,7 +61,7 @@ related_topics:
 
 `docker pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">镜像</span>
 
-- 从正在运行的容器内打开一个 shell:
+- 从正在运行的容器内打开一个 shell：
 
 `docker exec -it `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">容器名称</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sh</span>
 

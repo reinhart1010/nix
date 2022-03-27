@@ -2,7 +2,7 @@
 layout: page
 title: common/ag (中文)
 description: "The Silver Searcher. 类似 ack, 但是更快。"
-content_hash: 8886b17ade737724633958a2b7d7d483a0724de5
+content_hash: 9a1b312cab717018588b76578d3d888cf4a0e9c3
 related_topics:
   - title: English version
     url: /en/common/ag.html
@@ -44,7 +44,7 @@ The Silver Searcher. 类似 ack, 但是更快。
 
 `ag -i -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ABC</span>
 
-- 在文件名包含"小红"的文件中寻找"小明":
+- 在文件名包含"小红"的文件中寻找"小明"：
 
 `ag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">小明</span>` -G `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">小红</span>
 

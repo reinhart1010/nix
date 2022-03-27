@@ -2,7 +2,7 @@
 layout: page
 title: common/adguardhome (中文)
 description: "一款全网广告拦截与反跟踪软件。"
-content_hash: c6b35b9042f0d3614814298a7f2e83e7054e1be2
+content_hash: 06b1b2242af35b76b1e3a222cfd014401daa54d6
 related_topics:
   - title: English version
     url: /en/common/adguardhome.html
@@ -16,11 +16,11 @@ related_topics:
 一款全网广告拦截与反跟踪软件。
 更多信息：<https://github.com/AdguardTeam/AdGuardHome>.
 
-- 运行 AdGuard Home:
+- 运行 AdGuard Home：
 
 `AdGuardHome`
 
-- 使用给定的配置文件运行 AdGuard Home:
+- 使用给定的配置文件运行 AdGuard Home：
 
 `AdGuardHome --config `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">给定的/配置文件.yaml</span>
 

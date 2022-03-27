@@ -2,7 +2,7 @@
 layout: page
 title: linux/brctl (中文)
 description: "以太网桥管理。"
-content_hash: 11ecca192b7957592c8dbdd0832f45cd67b79d10
+content_hash: 3f61197ff86cdc06e3fbdc1ad95d475c6571f203
 related_topics:
   - title: English version
     url: /en/linux/brctl.html
@@ -28,7 +28,7 @@ related_topics:
 
 `sudo brctl del `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">网桥名</span>
 
-- 向现有网桥添加接口:
+- 向现有网桥添加接口：
 
 `sudo brctl addif `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">网桥名</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">接口名</span>
 

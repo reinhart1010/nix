@@ -2,7 +2,7 @@
 layout: page
 title: windows/cmd (中文 (繁體, 台灣))
 description: "Windows 命令解釋器。"
-content_hash: 551b40326ab0d7d88cc5c57e32c6a893f608fe36
+content_hash: 5077dfb169f166f00c8353c5b7c7cb3dd7bec2d7
 related_topics:
   - title: English version
     url: /en/windows/cmd.html
@@ -36,7 +36,7 @@ Windows 命令解釋器。
 
 `cmd /c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span>`"`
 
-- 執行一個指定的命令，之後進入一個互動式 shell:
+- 執行一個指定的命令，之後進入一個互動式 shell：
 
 `cmd /k "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span>`"`
 

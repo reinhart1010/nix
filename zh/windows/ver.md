@@ -2,7 +2,7 @@
 layout: page
 title: windows/ver (中文)
 description: "显示当前 Windows 或 MS-DOS 的版本号。"
-content_hash: 07736b605d4393c10b4ec43c641ce2f0496fb99f
+content_hash: e970b206db32f4060e02af7c8c160b5f76ff41f7
 related_topics:
   - title: English version
     url: /en/windows/ver.html
@@ -25,6 +25,6 @@ related_topics:
 显示当前 Windows 或 MS-DOS 的版本号。
 更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/ver>.
 
-- Display the current version number:
+- Display the current version number：
 
 `ver`

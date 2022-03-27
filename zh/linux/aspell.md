@@ -2,7 +2,7 @@
 layout: page
 title: linux/aspell (中文)
 description: "交互式拼写检查工具。"
-content_hash: 2e5f7c9434e36206e82f6078d56ffe9c791835b2
+content_hash: 0ed0243fded6d3d354a7b04150965aeaa84834ca
 related_topics:
   - title: Deutsch version
     url: /de/linux/aspell.html
@@ -34,7 +34,7 @@ related_topics:
 
 `aspell dicts`
 
-- 指定不同的语言（取 ISO 639 语言代码的 2 个字母）来运行 aspell:
+- 指定不同的语言（取 ISO 639 语言代码的 2 个字母）来运行 aspell：
 
 `aspell --lang=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cs</span>
 

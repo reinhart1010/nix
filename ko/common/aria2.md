@@ -2,7 +2,7 @@
 layout: page
 title: common/aria2 (한국어)
 description: "경량 멀티 프로토콜 및 멀티 소스 명령줄 다운로드 유틸리티입니다."
-content_hash: e0b84a07699d3197725e7dfb69368b3dcb63128b
+content_hash: f23e7366a593bc2d622086f358875046e01679b4
 related_topics:
   - title: bosanski version
     url: /bs/common/aria2.html
@@ -40,7 +40,7 @@ HTTP, HTTPS, FTP, SFTP, BitTorrent와 Metalink를 지원합니다.
 
 `aria2c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://mirror1.org/myLinux.iso</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://mirror2.org/myLinux.iso</span>
 
-- 호스트당 2개의 연결을 사용하여 다운로드 :
+- 호스트당 2개의 연결을 사용하여 다운로드:
 
 `aria2c -x`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.org/myLinux.iso</span>
 

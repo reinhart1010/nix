@@ -2,8 +2,11 @@
 layout: page
 title: linux/cal (മലയാളം)
 description: "ഇന്നത്തെ ദിവസം അടയാളപ്പെടുത്തിയുള്ള കലണ്ടർ വിവരം കാണിക്കുക ."
-content_hash: 2342ea62cc62fa8a0cf1ce27efbe4cb43f2e43a6
+content_hash: 1c145347b9e19fcb21452d96dd074f1d5316fa77
 related_topics:
+  - title: català version
+    url: /ca/linux/cal.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/cal.html
     icon: bi bi-globe
@@ -25,22 +28,22 @@ related_topics:
 ഇന്നത്തെ ദിവസം അടയാളപ്പെടുത്തിയുള്ള കലണ്ടർ വിവരം കാണിക്കുക .
 കൂടുതൽ വിവരങ്ങൾ: <https://manned.org/cal>.
 
-- ഇപ്പോഴത്തെ മാസത്തിന്റെ കലണ്ടർ കാണാൻ :
+- ഇപ്പോഴത്തെ മാസത്തിന്റെ കലണ്ടർ കാണാൻ:
 
 `cal`
 
-- കഴിഞ്ഞ മാസവും, ഇപ്പോഴത്തെ മാസവും അടുത്ത മാസവും കാണാൻ :
+- കഴിഞ്ഞ മാസവും, ഇപ്പോഴത്തെ മാസവും അടുത്ത മാസവും കാണാൻ:
 
 `cal -3`
 
-- ആഴ്ചയുടെ ഒന്നാമത്തെ ദിവസം തിങ്കളാഴ്ച ആയി കാണാൻ :
+- ആഴ്ചയുടെ ഒന്നാമത്തെ ദിവസം തിങ്കളാഴ്ച ആയി കാണാൻ:
 
 `cal --monday`
 
-- ഒരു പ്രത്യേക കൊല്ലത്തിന്റെ കലണ്ടർ കാണാൻ ( 4 അക്കങ്ങൾ ) :
+- ഒരു പ്രത്യേക കൊല്ലത്തിന്റെ കലണ്ടർ കാണാൻ ( 4 അക്കങ്ങൾ ):
 
 `cal `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">കൊല്ലം</span>
 
-- ഒരു പ്രതേക മാസത്തിന്റെയും കൊല്ലത്തിന്റെയും കലണ്ടർ കാണാൻ :
+- ഒരു പ്രതേക മാസത്തിന്റെയും കൊല്ലത്തിന്റെയും കലണ്ടർ കാണാൻ:
 
 `cal `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">മാസം</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">കൊല്ലം</span>

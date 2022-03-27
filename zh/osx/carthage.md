@@ -2,7 +2,7 @@
 layout: page
 title: osx/carthage (中文)
 description: "Cocoa 应用程序的依赖性管理工具。"
-content_hash: d4d1af5ba64e103fe8411a18206ca8ff146ee8ea
+content_hash: 058934b507537d98a20889972c54d8c51270cbec
 related_topics:
   - title: English version
     url: /en/osx/carthage.html
@@ -17,11 +17,11 @@ Cocoa 应用程序的依赖性管理工具。
 
 `carthage update`
 
-- 仅针对 IOS 平台，升级依赖文件 :
+- 仅针对 IOS 平台，升级依赖文件：
 
 `carthage update --platform ios`
 
-- 仅更新依赖，但不编译它们 :
+- 仅更新依赖，但不编译它们：
 
 `carthage update --no-build`
 
@@ -29,6 +29,6 @@ Cocoa 应用程序的依赖性管理工具。
 
 `carthage bootstrap`
 
-- 重新编译特定依赖项 :
+- 重新编译特定依赖项：
 
 `carthage build `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">依赖包</span>

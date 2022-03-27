@@ -2,7 +2,7 @@
 layout: page
 title: linux/binwalk (中文)
 description: "固件分析工具。"
-content_hash: 0f0b9a4e867827146e53bf3ba2e5667cec34019e
+content_hash: 74439acbb4253bf3cf8a3b262906df957c98a4bf
 related_topics:
   - title: English version
     url: /en/linux/binwalk.html
@@ -27,7 +27,7 @@ related_topics:
 
 `binwalk --extract --directory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">输出目录</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">二进制文件</span>
 
-- 递归解压一个二进制文件并限制递归深度为 2:
+- 递归解压一个二进制文件并限制递归深度为 2：
 
 `binwalk --extract --matryoshka --depth `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">二进制文件</span>
 

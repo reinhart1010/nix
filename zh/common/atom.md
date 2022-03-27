@@ -2,7 +2,7 @@
 layout: page
 title: common/atom (中文)
 description: "一个跨平台的，可插拔的文本编辑器。"
-content_hash: 27e2e4ce67279d09432ba50b71502ce4957e96f0
+content_hash: 03d3c28d3ed3ca0e08c01069e5a606548090817d
 related_topics:
   - title: Deutsch version
     url: /de/common/atom.html
@@ -57,6 +57,6 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 `atom --safe`
 
-- 在终端前台运行 Atom:
+- 在终端前台运行 Atom：
 
 `atom --foreground`

@@ -2,7 +2,7 @@
 layout: page
 title: common/alias (नेपाली)
 description: "उपनामहरु बनाउछ -- सब्दहरु जसले आदेश स्टृङ्लाइ प्रतिस्थापन् गर्छ।"
-content_hash: 6cd9cbb940599230b0c38d8d4ddc8467e6bd5ae1
+content_hash: 87f8185bdb2ade10ae16ca912cdf083b7de6f495
 related_topics:
   - title: Deutsch version
     url: /de/common/alias.html
@@ -56,26 +56,26 @@ related_topics:
 शेलको कन्फिगुरेतिओन् फाइलमा (जस्तै `~/.bashrc`) परिभासित् नगरेको खन्डमा उपनामहरुको आयु चलिरहेको शेल् सेसन् सङै सकिन्छ।
 थप जानकारी: <https://tldp.org/LDP/abs/html/aliases.html>.
 
-- सबै उपनामहरुको सुची बनाउनुहोस् :
+- सबै उपनामहरुको सुची बनाउनुहोस्:
 
 `alias`
 
-- एउटा सामान्य उपनाम बनाउनुहोस् :
+- एउटा सामान्य उपनाम बनाउनुहोस्:
 
 `alias  `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">शब्द</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आदेश</span>`"`
 
-- एउटा आदेशसङ्ग सम्बन्धित उपनाम हेर्नुहोस् :
+- एउटा आदेशसङ्ग सम्बन्धित उपनाम हेर्नुहोस्:
 
 `alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">शब्द</span>
 
-- उपनाम बनाइएको आदेशलाई हटाउनुहोस् :
+- उपनाम बनाइएको आदेशलाई हटाउनुहोस्:
 
 `unalias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">शब्द</span>
 
-- `rm` लाई एउटा अन्तरकृयात्मक आदेशमा बदल्नुहोस् :
+- `rm` लाई एउटा अन्तरकृयात्मक आदेशमा बदल्नुहोस्:
 
 `alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rm</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rm -i</span>`"`
 
-- `la` लाई `ls -a` को सर्ट्कट् बनाउनुहोस् :
+- `la` लाई `ls -a` को सर्ट्कट् बनाउनुहोस्:
 
 `alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">la</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls -a</span>`"`

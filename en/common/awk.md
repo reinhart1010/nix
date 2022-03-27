@@ -2,7 +2,7 @@
 layout: page
 title: common/awk (English)
 description: "A versatile programming language for working on files."
-content_hash: e5775762f7e8be7e3d23217f7e29b1161479e941
+content_hash: d902ab0f5e8eda23b4d393461d7f6131e4767027
 related_topics:
   - title: español version
     url: /es/common/awk.html
@@ -52,10 +52,10 @@ More information: <https://github.com/onetrueawk/awk>.
 
 `awk '{if ($1 == "foo") print "Exact match foo"; else if ($1 ~ "bar") print "Partial match bar"; else print "Baz"}' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>
 
-- Print all lines where the 10th column value equals the specified value :
+- Print all lines where the 10th column value equals the specified value:
 
 `awk '($10 == value)'`
 
-- Print all the lines which the 10th column value is between a min and a max :
+- Print all the lines which the 10th column value is between a min and a max:
 
 `awk '($10 >= min_value && $10 <= max_value)'`

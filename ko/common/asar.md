@@ -2,7 +2,7 @@
 layout: page
 title: common/asar (한국어)
 description: "전자 플랫폼을 위한 파일 저장소입니다."
-content_hash: dc0566b8f244d56d6daecce470cda7083f200b0b
+content_hash: beb2be66390b8444d4c27ee2b8cf217a562668cd
 related_topics:
   - title: English version
     url: /en/common/asar.html
@@ -34,6 +34,6 @@ related_topics:
 
 `asar extract-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archived.asar</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
 
-- 보관소 파일의 내용을 나열 :
+- 보관소 파일의 내용을 나열:
 
 `asar list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archived.asar</span>

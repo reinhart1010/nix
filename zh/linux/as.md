@@ -2,7 +2,7 @@
 layout: page
 title: linux/as (中文)
 description: "一个可移植的 GUN 汇编器。"
-content_hash: 2563393cb41dd6f0b11ac2cc7ff67d1db28816b7
+content_hash: 742948a104493541c1083b2c4c0ffdf2c2e168f4
 related_topics:
   - title: Deutsch version
     url: /de/linux/as.html
@@ -20,7 +20,7 @@ related_topics:
 主要用于汇编`gcc`的输出，以供链接器`ld`使用。
 更多信息：<https://manned.org/as>.
 
-- 汇编一个文件，输出为 a.out:
+- 汇编一个文件，输出为 a.out：
 
 `as `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件.s</span>
 

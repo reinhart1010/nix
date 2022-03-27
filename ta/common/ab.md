@@ -2,7 +2,7 @@
 layout: page
 title: common/ab (தமிழ்)
 description: "அப்பாச்சி தரப்படுத்தல் கருவி. சுமை சோதனை செய்ய எளிய கருவி."
-content_hash: 01894c5e1e7f4c37c9fcf1e158874a23a75b8fa5
+content_hash: 920207a448970c994ae7b709300d27c1604e2982
 related_topics:
   - title: Deutsch version
     url: /de/common/ab.html
@@ -12,6 +12,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/ab.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/ab.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ab.html
@@ -50,7 +53,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 `ab -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">முகவரி</span>
 
-- கொடுக்கப்பட்ட முகவரி க்கு 100 HTTP GET கோரிக்கைகளை ஒரே நேரத்தில் 10 கோரிக்கைகள் வீதம் செயல்படுத்தவும் :
+- கொடுக்கப்பட்ட முகவரி க்கு 100 HTTP GET கோரிக்கைகளை ஒரே நேரத்தில் 10 கோரிக்கைகள் வீதம் செயல்படுத்தவும்:
 
 `ab -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">முகவரி</span>
 

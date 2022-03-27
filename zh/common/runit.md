@@ -2,7 +2,7 @@
 layout: page
 title: common/runit (中文)
 description: "三级初始化系统。"
-content_hash: 201ada498c1ca5f170fdac75a86a54fd065f9542
+content_hash: 563d0cf5a99c955d9b99dd909373c70c9be0a571
 related_topics:
   - title: English version
     url: /en/common/runit.html
@@ -17,6 +17,6 @@ related_topics:
 
 `runit`
 
-- 停止运行 runit:
+- 停止运行 runit：
 
 `kill --CONT `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">runit 进程 id</span>

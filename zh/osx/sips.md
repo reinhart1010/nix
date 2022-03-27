@@ -2,7 +2,7 @@
 layout: page
 title: osx/sips (中文)
 description: "苹果的处理文件脚本系统。"
-content_hash: 421bd8d68753db001d302e579dd09c54a1335b31
+content_hash: ca3df8e43b7a0c30ade226b21e884c9fb7a987d8
 related_topics:
   - title: English version
     url: /en/osx/sips.html
@@ -29,7 +29,7 @@ related_topics:
 
 `sips --resampleWidth `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">960</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标 / 文件夹 / 所有图片文件</span>
 
-- 将图像从 CMYK 转换为 RGB:
+- 将图像从 CMYK 转换为 RGB：
 
 `sips --matchTo '/System/Library/ColorSync/Profiles/Generic RGB Profile.icc' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标 / 文件夹 / 图片。扩展</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标 / 文件夹 / 输出文件夹</span>
 

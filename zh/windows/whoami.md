@@ -2,7 +2,7 @@
 layout: page
 title: windows/whoami (中文)
 description: "显示有关当前用户的详细信息。"
-content_hash: b0c3ab5fd8b38e9f9ab5f47b52313c6f2949957e
+content_hash: 1c0c36611eda0a0f20b6c42cf4be91b014816beb
 related_topics:
   - title: English version
     url: /en/windows/whoami.html
@@ -38,6 +38,6 @@ related_topics:
 
 `whoami /upn`
 
-- 显示当前用户的登录 id:
+- 显示当前用户的登录 id：
 
 `whoami /logonid`

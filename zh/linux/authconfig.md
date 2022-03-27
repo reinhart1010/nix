@@ -2,7 +2,7 @@
 layout: page
 title: linux/authconfig (中文)
 description: "用于设置系统认证资源的命令行界面。"
-content_hash: d64975a32769af269f638a3eb775410f72c78cef
+content_hash: 7c56f2f4246b9540c65d6d5b91ef3a412f182c37
 related_topics:
   - title: English version
     url: /en/linux/authconfig.html
@@ -36,7 +36,7 @@ related_topics:
 
 `authconfig --update --enablenis`
 
-- 开启 Kerberos:
+- 开启 Kerberos：
 
 `authconfig --update --enablekrb5`
 

@@ -2,7 +2,7 @@
 layout: page
 title: osx/date (中文)
 description: "设置或显示系统日期。"
-content_hash: bb8ba088e8a658216131bfc73066118411c42df5
+content_hash: 6743d86a32e7ca53d51907dfbd370edc209fce27
 related_topics:
   - title: English version
     url: /en/osx/date.html
@@ -16,7 +16,7 @@ related_topics:
 设置或显示系统日期。
 更多信息：<https://ss64.com/osx/date.html>.
 
-- 使用默认区域设置的格式显示当前日期 :
+- 使用默认区域设置的格式显示当前日期：
 
 `date +"%c"`
 

@@ -2,7 +2,7 @@
 layout: page
 title: linux/dmenu (中文)
 description: "动态菜单。"
-content_hash: f5fd5da4dacbdba1c5811d08f47cd41e8e973b81
+content_hash: f8864dde9487db21e9ba4efbf0d984ebbc62f63b
 related_topics:
   - title: English version
     url: /en/linux/dmenu.html
@@ -26,10 +26,10 @@ related_topics:
 
 `echo -e "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">red</span>`\n`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">green</span>`\n`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">blue</span>`" | dmenu > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">color.txt</span>
 
-- 在特定的监视器上启动 `dmenu`:
+- 在特定的监视器上启动 `dmenu`：
 
 `ls | dmenu -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
 
-- 在屏幕底部显示 `dmenu`:
+- 在屏幕底部显示 `dmenu`：
 
 `ls | dmenu -b`

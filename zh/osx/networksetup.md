@@ -2,7 +2,7 @@
 layout: page
 title: osx/networksetup (中文)
 description: "网络系统首选项配置工具。"
-content_hash: af8f4d944cc96863ce5f35487eadf8d7c701a2ac
+content_hash: f3eee820cdc2212424cf865c20dcdd16419f0458
 related_topics:
   - title: English version
     url: /en/osx/networksetup.html
@@ -24,6 +24,6 @@ related_topics:
 
 `networksetup -getairportnetwork `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">en0</span>
 
-- 连接到给定的 Wi-Fi 网络 Connect to a particular Wi-Fi network:
+- 连接到给定的 Wi-Fi 网络 Connect to a particular Wi-Fi network：
 
 `networksetup -setairportnetwork `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">en0</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">无线网 SSID</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">密码</span>

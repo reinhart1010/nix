@@ -2,7 +2,7 @@
 layout: page
 title: common/gpg2 (中文)
 description: "GNU Privacy Guard 2."
-content_hash: f1cb2b124cfd0c896fce625e1731aa7b985b3358
+content_hash: 7ee54c33b8958c94ee01df01838d9624df16c276
 related_topics:
   - title: Deutsch version
     url: /de/common/gpg2.html
@@ -21,7 +21,7 @@ GNU Privacy Guard 1 请参见`gpg`.
 
 `gpg2 --list-keys`
 
-- 为指定的接收者加密指定的文件，将输出结果写到一个新的文件中，并附加`.gpg`:
+- 为指定的接收者加密指定的文件，将输出结果写到一个新的文件中，并附加 `.gpg`：
 
 `gpg2 --encrypt --recipient `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice@example.com</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/doc.txt</span>
 

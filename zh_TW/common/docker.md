@@ -2,7 +2,7 @@
 layout: page
 title: common/docker (中文 (繁體, 台灣))
 description: "管理 Docker 容器和映像檔。"
-content_hash: bc2e4cf4b781b07dbc898f8dff8d8a191ecbaf4d
+content_hash: b1f64e4458ffb3b95d8744cbcc3a6042bf212a40
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -61,7 +61,7 @@ related_topics:
 
 `docker pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">映像檔</span>
 
-- 從正在運行的容器內打開一個 shell:
+- 從正在運行的容器內打開一個 shell：
 
 `docker exec -it `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">容器名稱</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sh</span>
 

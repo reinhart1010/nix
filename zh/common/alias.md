@@ -2,7 +2,7 @@
 layout: page
 title: common/alias (中文)
 description: "创建别名 -- 用给定的字符串指代特定的命令。"
-content_hash: 052af6a56e60dc864b397f68577dd799e3a7d421
+content_hash: 08735f6fb485e86218039f0a704f41d28a7540a6
 related_topics:
   - title: Deutsch version
     url: /de/common/alias.html
@@ -46,6 +46,9 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/alias.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/alias.html
+    icon: bi bi-globe
 ---
 # alias
 
@@ -73,6 +76,6 @@ related_topics:
 
 `alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rm</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rm -i</span>`"`
 
-- 创建别名`la`来指代`ls -a`:
+- 创建别名 `la` 来指代 `ls -a`：
 
 `alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">la</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls -a</span>`"`

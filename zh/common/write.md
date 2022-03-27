@@ -2,7 +2,7 @@
 layout: page
 title: common/write (中文)
 description: "向某个终端上的特定用户的屏幕写入信息（Ctrl-C 来停止写入）。"
-content_hash: f1ee8f7e9a4a699e9009e204dac3c04bc8228ccc
+content_hash: 8d3b23c2c86c244f4bdec51738cba9b7d531f916
 related_topics:
   - title: English version
     url: /en/common/write.html
@@ -21,6 +21,6 @@ related_topics:
 
 `write `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">testuser</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tty/5</span>
 
-- 向伪终端 "/dev/pts/5" 上的用户 "johndoe" 发送信息 :
+- 向伪终端 "/dev/pts/5" 上的用户 "johndoe" 发送信息：
 
 `write `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">johndoe</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pts/5</span>

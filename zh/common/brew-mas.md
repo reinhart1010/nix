@@ -2,7 +2,7 @@
 layout: page
 title: common/brew-mas (中文)
 description: "Mas 是一个简单的 Mac App Store 命令行界面。"
-content_hash: d14b8f0023775f838fbc586bf66c2e2293305665
+content_hash: 9766fa14bdf47fcd37ae824d5cc901013c1c2cc3
 ---
 # brew mas
 
@@ -16,7 +16,7 @@ Mas 是一个简单的 Mac App Store 命令行界面。
 
 `mas install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">应用名</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">应用 ID</span>
 
-- 显示所有已安装的应用程序及其应用 ID:
+- 显示所有已安装的应用程序及其应用 ID：
 
 `mas list`
 

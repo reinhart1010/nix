@@ -2,7 +2,7 @@
 layout: page
 title: common/apg (中文)
 description: "生成任意复杂度的随机密码。"
-content_hash: 02d760ec05c454c68daedad33968eae05222b1b1
+content_hash: c167356d2777d9f1d86fb4a847f0c0e3843a72c7
 related_topics:
   - title: English version
     url: /en/common/apg.html
@@ -26,7 +26,7 @@ related_topics:
 
 `apg`
 
-- 生成密码，包含至少 1 个符号 (S), 1 个数字 (N), 1 个大写字母 (C), 1 个小写字母 (L):
+- 生成密码，包含至少 1 个符号 (S), 1 个数字 (N), 1 个大写字母 (C), 1 个小写字母 (L)：
 
 `apg -M SNCL`
 

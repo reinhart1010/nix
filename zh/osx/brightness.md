@@ -2,7 +2,7 @@
 layout: page
 title: osx/brightness (中文)
 description: "获取或设置所有显示设备的亮度等级。"
-content_hash: e099ba8eb975ed9a02050dd0c908debe543b402c
+content_hash: 790d6d3b50798fbfae9854bc321cadc7db3d2768
 related_topics:
   - title: English version
     url: /en/osx/brightness.html
@@ -19,10 +19,10 @@ related_topics:
 
 `brightness -l`
 
-- 设置亮度到 100%::
+- 设置亮度到 100%:：
 
 `brightness `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
 
-- 设置亮度到 50%::
+- 设置亮度到 50%:：
 
 `brightness `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.5</span>

@@ -2,7 +2,7 @@
 layout: page
 title: common/asciinema (中文)
 description: "录制和播放终端会话，也可以把他们分享到 asciinema.org."
-content_hash: c73a62e407e289b9936b8a054396d522f0a8c910
+content_hash: 9b0a13ce7cff1da41ebf919e692e291f72a67128
 related_topics:
   - title: English version
     url: /en/common/asciinema.html
@@ -53,6 +53,6 @@ related_topics:
 
 `asciinema cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件路径</span>`.cast`
 
-- 从本地上传一个录屏到 asciinema.org:
+- 从本地上传一个录屏到 asciinema.org：
 
 `asciinema upload `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件路径</span>`.cast`

@@ -2,7 +2,7 @@
 layout: page
 title: android/am (中文 (繁體, 台灣))
 description: "Android 活動管理器。"
-content_hash: 65925e376f1fff83e3b4db5b4483c844dee58b6c
+content_hash: e8b0db0dff9bdcbf39f776ef8e7fd611fc792495
 related_topics:
   - title: Deutsch version
     url: /de/android/am.html
@@ -49,6 +49,6 @@ Android 活動管理器。
 
 `am start -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.action.MAIN</span>` -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.category.HOME</span>
 
-- 將意圖（intent）轉換為 URI:
+- 將意圖（intent）轉換為 URI：
 
 `am to-uri -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.action.VIEW</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tel:123</span>

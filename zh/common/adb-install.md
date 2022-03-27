@@ -2,10 +2,13 @@
 layout: page
 title: common/adb-install (中文)
 description: "安卓调试桥 -Install: 将应用安装包推送到 Android 模拟器或已连接的安卓设备。"
-content_hash: e21378650c09ee823178b965b601eb2d970968f7
+content_hash: d29ff16c6b2a417ad1f04234640d0fbb8e2f0d9d
 related_topics:
   - title: English version
     url: /en/common/adb-install.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/adb-install.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/adb-install.html
@@ -28,7 +31,7 @@ related_topics:
 安卓调试桥 -Install: 将应用安装包推送到 Android 模拟器或已连接的安卓设备。
 更多信息：<https://developer.android.com/studio/command-line/adb>.
 
-- 向模拟器/设备推送安卓 app:
+- 向模拟器/设备推送安卓 app：
 
 `adb install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/应用.apk</span>
 

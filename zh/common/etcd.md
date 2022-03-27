@@ -2,7 +2,7 @@
 layout: page
 title: common/etcd (中文)
 description: "分布式，可靠的键值存储，用于分布式系统中存储最关键的数据。"
-content_hash: a97a778ce3da536800532d31746af6e00d6c33eb
+content_hash: 04f1d6df0b8e38b38d11fa5e3234355f9535f3b0
 related_topics:
   - title: English version
     url: /en/common/etcd.html
@@ -25,6 +25,6 @@ related_topics:
 
 `etcd --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my_etcd_cluster</span>
 
-- 启动单节点 etcd 集群，同时可以在这里看到大量监控指标 http://localhost:2379/debug/pprof/:
+- 启动单节点 etcd 集群，同时可以在这里看到大量监控指标 http://localhost:2379/debug/pprof/：
 
 `etcd --enable-pprof --metrics extensive`

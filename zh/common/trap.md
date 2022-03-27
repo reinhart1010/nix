@@ -2,7 +2,7 @@
 layout: page
 title: common/trap (中文)
 description: "在进程或操作系统接收到信号后自动执行命令。"
-content_hash: 7a6fa6e1e176d6666487a09e745b99f5c8306ca4
+content_hash: 4943c3e69046a11a56eb861e96281680e8a2c4b1
 related_topics:
   - title: English version
     url: /en/common/trap.html
@@ -26,6 +26,6 @@ related_topics:
 
 `trap 'echo "检测到信号 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGHUP</span>`"' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGHUP</span>
 
-- 移除活动 trap:
+- 移除活动 trap：
 
 `trap - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGHUP</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGINT</span>

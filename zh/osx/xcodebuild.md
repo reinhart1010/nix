@@ -2,7 +2,7 @@
 layout: page
 title: osx/xcodebuild (中文)
 description: "构建 Xcode 项目。"
-content_hash: e79f552de6eccd9cbc92030a101ce37bc4829f52
+content_hash: ed132dfa55678cdc2af3a6a5bc7fe41159dac9d6
 related_topics:
   - title: English version
     url: /en/osx/xcodebuild.html
@@ -20,6 +20,6 @@ related_topics:
 
 `xcodebuild -target `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标名</span>` -configuration `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">配置名</span>` clean build SYMROOT=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SYMROOT_路径</span>
 
-- 显示 SDK:
+- 显示 SDK：
 
 `xcodebuild -showsdks`
