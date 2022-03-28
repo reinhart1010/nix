@@ -2,7 +2,7 @@
 layout: page
 title: common/md5sum (English)
 description: "Calculate MD5 cryptographic checksums."
-content_hash: fcba79ab4c5be6ea41258016ee82f5b3be043e13
+content_hash: 34d0cae246b9d0f4cd184a1fdebb143a6afb32ff
 related_topics:
   - title: italiano version
     url: /it/common/md5sum.html
@@ -27,10 +27,18 @@ More information: <https://www.gnu.org/software/coreutils/md5sum>.
 
 `md5sum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filen2</span>
 
-- Read a file of MD5SUMs and verify all files have matching checksums:
-
-`md5sum -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.md5</span>
-
 - Calculate a MD5 checksum from the standard input:
 
 `echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">text</span>`" | md5sum`
+
+- Read a file of MD5SUMs and verify all files have matching checksums:
+
+`md5sum --check `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.md5</span>
+
+- Only show a message for missing files or when verification fails:
+
+`md5sum --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.md5</span>
+
+- Only show a message for files for which verification fails, ignoring missing files:
+
+`md5sum --ignore-missing --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.md5</span>

@@ -2,7 +2,7 @@
 layout: page
 title: common/sha256sum (English)
 description: "Calculate SHA256 cryptographic checksums."
-content_hash: 4a835f1e9df41904e68a9c07057dec405e628ac6
+content_hash: ca26aba6f27407e2bd5c1225cb471fac967d1487
 related_topics:
   - title: sh version
     url: /sh/common/sha256sum.html
@@ -32,6 +32,10 @@ More information: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-
 
 `sha256sum --check `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sha256</span>
 
-- Only show a message for files for which verification fails:
+- Only show a message for missing files or when verification fails:
 
 `sha256sum --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sha256</span>
+
+- Only show a message for files for which verification fails, ignoring missing files:
+
+`sha256sum --ignore-missing --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sha256</span>

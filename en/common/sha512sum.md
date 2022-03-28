@@ -2,7 +2,7 @@
 layout: page
 title: common/sha512sum (English)
 description: "Calculate SHA512 cryptographic checksums."
-content_hash: f0cb8ee434d0cfd9dda99599560ddf8c560bc2ff
+content_hash: 4b95a2c09d194a12001a9eaaff14324167f373f0
 related_topics:
   - title: sh version
     url: /sh/common/sha512sum.html
@@ -32,6 +32,10 @@ More information: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-
 
 `sha512sum --check `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sha512</span>
 
-- Only show a message for files for which verification fails:
+- Only show a message for missing files or when verification fails:
 
 `sha512sum --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sha512</span>
+
+- Only show a message for files for which verification fails, ignoring missing files:
+
+`sha512sum --ignore-missing --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sha512</span>

@@ -2,7 +2,7 @@
 layout: page
 title: common/sha384sum (English)
 description: "Calculate SHA384 cryptographic checksums."
-content_hash: 25b23ce04605fe5817e56bc0de1ebd7c1de44c38
+content_hash: 044003d0cd2052354712279c4b4a41e59f3c72b8
 related_topics:
   - title: sh version
     url: /sh/common/sha384sum.html
@@ -32,6 +32,10 @@ More information: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-
 
 `sha384sum --check `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sha384</span>
 
-- Only show a message for files for which verification fails:
+- Only show a message for missing files or when verification fails:
 
 `sha384sum --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sha384</span>
+
+- Only show a message for files for which verification fails, ignoring missing files:
+
+`sha384sum --ignore-missing --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sha384</span>

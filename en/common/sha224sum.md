@@ -2,7 +2,7 @@
 layout: page
 title: common/sha224sum (English)
 description: "Calculate SHA224 cryptographic checksums."
-content_hash: 3bd25d2801aab40050a4412278a787e54e662d89
+content_hash: a8af5df25e0a490962daec2ebfb8c99d9ba0c1bd
 related_topics:
   - title: sh version
     url: /sh/common/sha224sum.html
@@ -32,6 +32,10 @@ More information: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-
 
 `sha224sum --check `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sha224</span>
 
-- Only show a message for files for which verification fails:
+- Only show a message for missing files or when verification fails:
 
 `sha224sum --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sha224</span>
+
+- Only show a message for files for which verification fails, ignoring missing files:
+
+`sha224sum --ignore-missing --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sha224</span>
