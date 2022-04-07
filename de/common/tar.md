@@ -2,7 +2,7 @@
 layout: page
 title: common/tar (Deutsch)
 description: "Archivierungs Tool."
-content_hash: e4ef0d770bc05070a5582d728c266102b148be87
+content_hash: 65dc7eed18ab4a5f1d7342a7765eb2765ed8ef0c
 related_topics:
   - title: English version
     url: /en/common/tar.html
@@ -42,15 +42,15 @@ Weitere Informationen: <https://www.gnu.org/software/tar>.
 
 - Erstelle ein mit gzip komprimiertes Archiv mit relativen Pfaden:
 
-`tar czf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/ziel.tar.gz</span>` -C `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/verzeichniss/</span>` .`
+`tar czf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/ziel.tar.gz</span>` -C `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/verzeichnis/</span>` .`
 
-- Extrahiere ein (komprimiertes) Archiv in das derzeitige Verzeichniss:
+- Extrahiere ein (komprimiertes) Archiv in das derzeitige Verzeichnis:
 
 `tar xf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/quelle.tar[.gz|.bz2|.xz]</span>
 
-- Extrahiere ein Archiv in ein Verzeichniss:
+- Extrahiere ein Archiv in ein Verzeichnis:
 
-`tar xf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/quelle.tar</span>` -C `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">verzeichniss</span>
+`tar xf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/quelle.tar</span>` -C `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">verzeichnis</span>
 
 - Erstelle ein komprimiertes Archiv und benutze den Archiv Suffix um die Kompressionsmethode zu wählen:
 
