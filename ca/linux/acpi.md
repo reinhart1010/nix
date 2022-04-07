@@ -2,7 +2,7 @@
 layout: page
 title: linux/acpi (català)
 description: "Mostra l'estat de la bateria o l'informació tèrmica."
-content_hash: ee4ca052574d2aaee8d0cda145f2ca73f28d1686
+content_hash: 8972570587ad5d0b1c9802a2fa41525ca6b8e838
 related_topics:
   - title: Deutsch version
     url: /de/linux/acpi.html
@@ -30,7 +30,7 @@ Més informació: <https://sourceforge.net/projects/acpiclient/files/acpiclient/
 
 `acpi -t`
 
-- Mostra informació del dispositiu de refredament.
+- Mostra informació del dispositiu de refredament:
 
 `acpi -c`
 
