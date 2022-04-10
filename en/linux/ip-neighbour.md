@@ -2,9 +2,13 @@
 layout: page
 title: linux/ip-neighbour (English)
 description: "Neighbour/ARP tables management IP subcommand."
-content_hash: fb111bd0e0778d73462fb87724c36c588e18fc5d
+content_hash: b73ccdcdef705b99c201ffd7b92b58866a37348f
+related_topics:
+  - title: Türkçe version
+    url: /tr/linux/ip-neighbour.html
+    icon: bi bi-globe
 ---
-# ip-neighbour
+# ip neighbour
 
 Neighbour/ARP tables management IP subcommand.
 More information: <https://manned.org/ip-neighbour.8>.

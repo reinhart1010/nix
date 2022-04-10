@@ -2,16 +2,13 @@
 layout: page
 title: linux/ip-neighbour (Türkçe)
 description: "Komşu/ARP tablosu yönetimi IP alt komutu."
-content_hash: c27d47a06a0189e851d0ce161ae2d31713befbf8
+content_hash: aa9f2f5c6e77abefb033771b5560dd5908a6e071
 related_topics:
   - title: English version
     url: /en/linux/ip-neighbour.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ip-neighbour
+# ip neighbour
 
 Komşu/ARP tablosu yönetimi IP alt komutu.
 Daha fazla bilgi: <https://manned.org/ip-neighbour.8>.
