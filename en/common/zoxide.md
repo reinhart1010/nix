@@ -2,7 +2,7 @@
 layout: page
 title: common/zoxide (English)
 description: "Keep track of the most frequently used directories."
-content_hash: 397881b9066f3241feea8b4f3e03b199642a879b
+content_hash: c3a180ecd4a27a35a3f1985dfe030c7c5a8f2cbc
 related_topics:
   - title: français version
     url: /fr/common/zoxide.html
@@ -30,9 +30,9 @@ More information: <https://github.com/ajeetdsouza/zoxide>.
 
 `zoxide add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
-- Remove a directory from `zoxide`'s database:
+- Remove a directory from `zoxide`'s database interactively:
 
-`zoxide remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
+`zoxide remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` --interactive`
 
 - Generate shell configuration for command aliases (`z`, `za`, `zi`, `zq`, `zr`):
 
