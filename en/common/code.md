@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/code (English)
-description: "Visual Studio Code."
-content_hash: a3aec9379032022cdae91a74ba52d486aab695b5
+description: "Cross platform and extensible code editor."
+content_hash: 705c34a265b921f24223f17665ba5f6ee8c9fc80
 related_topics:
   - title: Deutsch version
     url: /de/common/code.html
@@ -25,33 +25,37 @@ related_topics:
 ---
 # code
 
-Visual Studio Code.
+Cross platform and extensible code editor.
 More information: <https://github.com/microsoft/vscode>.
 
-- Open VS Code:
+- Start Visual Studio Code:
 
 `code`
 
-- Open the current directory in VS Code:
+- Open specific files/directories:
 
-`code .`
+`code `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 ...</span>
 
-- Open a file or directory in VS Code:
+- Compare two specific files:
 
-`code `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
+`code --diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>
 
-- Open a file or directory in the currently open VS Code window:
+- Open specific files/directories in a new window:
 
-`code --reuse-window `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
+`code --new-window `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 ...</span>
 
-- Open a file or directory in a new VS Code window:
+- Install/uninstall a specific extension:
 
-`code --new-window `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
+`code --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">install|uninstall</span>`-extension `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">publisher.extension</span>
 
-- Compare two files in VS Code:
+- Print installed extensions:
 
-`code -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file2</span>
+`code --list-extensions`
 
-- Open VS Code with superuser (sudo) permissions:
+- Print installed extensions with their versions:
 
-`sudo code `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>` --user-data-dir`
+`code --list-extensions --show-versions`
+
+- Start the editor as a superuser (root) while storing user data in a specific directory:
+
+`sudo code --user-data-dir {[path/to/directory</span>

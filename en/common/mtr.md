@@ -2,7 +2,7 @@
 layout: page
 title: common/mtr (English)
 description: "Matt's Traceroute: combined traceroute and ping tool."
-content_hash: 04f4fdf8c517530b0f574f8255b6942eb086433d
+content_hash: e5d3ad5225cf292038cbeafdad90d225db6ad43a
 ---
 # mtr
 
@@ -28,3 +28,7 @@ More information: <https://bitwizard.nl/mtr>.
 - Wait for a given time (in seconds) before sending another packet to the same hop:
 
 `mtr -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">seconds</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>
+
+- Display the Autonomous System Number (ASN) for each hop:
+
+`mtr --aslookup `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span>
