@@ -2,20 +2,20 @@
 layout: page
 title: linux/pihole (English)
 description: "Terminal interface for the Pi-hole ad-blocking DNS server."
-content_hash: 9fa0a13803bd55ab06f7e512e443dd28522f4f1a
+content_hash: 5addb6cc796e957d63e585aa6bb37ffaae9e1423
 ---
 # pihole
 
 Terminal interface for the Pi-hole ad-blocking DNS server.
-More information: <https://pi-hole.net>.
+More information: <https://docs.pi-hole.net/core/pihole-command/>.
 
 - Check the Pi-hole daemon's status:
 
 `pihole status`
 
-- Update Pi-hole:
+- Update Pi-hole and Gravity:
 
-`pihole updatePihole`
+`pihole -up`
 
 - Monitor detailed system status:
 
