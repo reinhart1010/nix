@@ -2,7 +2,7 @@
 layout: page
 title: common/autopep8 (English)
 description: "Format Python code according to the PEP 8 style guide."
-content_hash: 3e2dae1844557c442129c9d7d797751d562de359
+content_hash: 12d51c88c3f1e965b228389a9611a086d09bdb62
 related_topics:
   - title: Nederlands version
     url: /nl/common/autopep8.html
@@ -21,7 +21,7 @@ More information: <https://github.com/hhatto/autopep8>.
 
 `autopep8 --diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Format a file in-pace and save the changes:
+- Format a file in-place and save the changes:
 
 `autopep8 --in-place `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.py</span>
 
