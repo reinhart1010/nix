@@ -2,7 +2,7 @@
 layout: page
 title: common/nix (English)
 description: "Utilities for the Nix language and store."
-content_hash: c8127cc694cdd582d9244088752603f53cbcd3e2
+content_hash: d712ffe2ebaa30ae30e38201bdd7733a6c61807a
 ---
 # nix
 
@@ -19,7 +19,7 @@ More information: <https://nixos.org>.
 
 - Optimise Nix store disk usage by combining duplicate files:
 
-`nix optimise-store`
+`nix store optimise`
 
 - Start an interactive environment for evaluating Nix expressions:
 
