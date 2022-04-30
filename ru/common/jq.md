@@ -2,16 +2,13 @@
 layout: page
 title: common/jq (русский)
 description: "Процессор JSON командной строки, использующий доменный язык."
-content_hash: 052f9957b68ae025b4854977d66ac395492c1a5f
+content_hash: 4662f0794b374ebc195101a47714662e27742147
 related_topics:
   - title: English version
     url: /en/common/jq.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># jq
+# jq
 
 Процессор JSON командной строки, использующий доменный язык.
 Больше ифнормации: <https://stedolan.github.io/jq/manual/>.
@@ -22,7 +19,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 - Выполнить указанный скрипт:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat путь/к/файлу.json</span>` | jq --from-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/к/скрипту.jq</span>`'`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat путь/к/файлу.json</span>` | jq --from-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/к/скрипту.jq</span>
 
 - Передать указанные агрументы:
 

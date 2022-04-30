@@ -2,7 +2,11 @@
 layout: page
 title: common/jq (English)
 description: "A command-line JSON processor that uses a domain-specific language."
-content_hash: 4b454a72f7fe9fd9304da0c82642bfa6e8b8afb4
+content_hash: 1402426086985163e3ee730e4eb87af4e9b69241
+related_topics:
+  - title: русский version
+    url: /ru/common/jq.html
+    icon: bi bi-globe
 ---
 # jq
 
@@ -15,7 +19,7 @@ More information: <https://stedolan.github.io/jq/manual/>.
 
 - Execute the specified script:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat path/to/file.json</span>` | jq --from-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.jq</span>`'`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat path/to/file.json</span>` | jq --from-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.jq</span>
 
 - Pass the specifed arguments:
 
