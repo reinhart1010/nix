@@ -2,12 +2,9 @@
 layout: page
 title: common/glab-repo (English)
 description: "Work with GitLab repositories on the command-line."
-content_hash: fcfe1be1d07946bbd419af83505f23591c0ac669
+content_hash: 50c415ec248a88e3568c144aeba64440472c6d5a
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># glab repo
+# glab repo
 
 Work with GitLab repositories on the command-line.
 More information: <https://glab.readthedocs.io/en/latest/repo/index.html#synopsis>.
@@ -24,7 +21,7 @@ More information: <https://glab.readthedocs.io/en/latest/repo/index.html#synopsi
 
 `glab repo fork `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">owner</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository</span>` --clone`
 
-- View a repository in the web browser:
+- View a repository in the default web browser:
 
 `glab repo view `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">owner</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository</span>` --web`
 

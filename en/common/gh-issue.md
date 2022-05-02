@@ -2,18 +2,22 @@
 layout: page
 title: common/gh-issue (English)
 description: "Manage GitHub issues from the command-line."
-content_hash: a641adbd87d6717ba374e46cde66c5904a05b956
+content_hash: 1d083cfaf2bc6513637d09eeeb94ff896d4499f2
 ---
 # gh issue
 
 Manage GitHub issues from the command-line.
 More information: <https://cli.github.com/manual/gh_issue>.
 
-- Print out the issue:
+- Display a specific issue:
 
 `gh issue view `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">issue_number</span>
 
-- Create a new issue in the web browser:
+- Display a specific issue in the default web browser:
+
+`gh issue view `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">issue_number</span>` --web`
+
+- Create a new issue in the default web browser:
 
 `gh issue create --web`
 
@@ -29,6 +33,6 @@ More information: <https://cli.github.com/manual/gh_issue>.
 
 `gh issue status --repo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">owner</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository</span>
 
-- Reopen an issue:
+- Reopen a specific issue:
 
 `gh issue reopen `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">issue_number</span>

@@ -2,12 +2,9 @@
 layout: page
 title: common/glab-alias (English)
 description: "Manage GitLab CLI command aliases from the command-line."
-content_hash: b5feacc49f4ded6b61df5d87f56acbbdfecb4b73
+content_hash: 44bcf69dfb900db8e42bf215498613c53d978d30
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># glab alias
+# glab alias
 
 Manage GitLab CLI command aliases from the command-line.
 More information: <https://glab.readthedocs.io/en/latest/alias>.
@@ -22,7 +19,7 @@ More information: <https://glab.readthedocs.io/en/latest/alias>.
 
 - Create a `glab` subcommand alias:
 
-`glab alias set `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pv</span>` '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pr view</span>`'`
+`glab alias set `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mrv</span>` '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mr view</span>`'`
 
 - Set a shell command as a `glab` subcommand:
 

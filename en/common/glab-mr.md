@@ -2,12 +2,9 @@
 layout: page
 title: common/glab-mr (English)
 description: "Manage GitLab merge requests from the command-line."
-content_hash: 4826752918524daaa997524af49c7f64f215e160
+content_hash: c4b4f8901e9175798cf905806d36b3a50b8f364b
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># glab mr
+# glab mr
 
 Manage GitLab merge requests from the command-line.
 Some subcommands such as `glab mr create` have their own usage documentation.
@@ -17,7 +14,7 @@ More information: <https://glab.readthedocs.io/en/latest/mr>.
 
 `glab mr create`
 
-- Check out a merge request locally:
+- Check out a specific merge request locally:
 
 `glab mr checkout `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mr_number</span>
 

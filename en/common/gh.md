@@ -2,7 +2,7 @@
 layout: page
 title: common/gh (English)
 description: "Work seamlessly with GitHub from the command-line."
-content_hash: 622950e14540abde21786dfe38a1b20028413102
+content_hash: 22bd932821e492e3bd0d07800b8cc6e4211ae9a1
 related_topics:
   - title: Indonesia version
     url: /id/common/gh.html
@@ -26,7 +26,7 @@ More information: <https://cli.github.com/>.
 
 `gh issue list`
 
-- View an issue in the browser:
+- View an issue in the default web browser:
 
 `gh issue view --web `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">issue_number</span>
 
@@ -34,11 +34,11 @@ More information: <https://cli.github.com/>.
 
 `gh pr create`
 
-- View a pull request in the browser:
+- View a pull request in the default web browser:
 
 `gh pr view --web `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pr_number</span>
 
-- Locally check out the branch of a pull request, given its number:
+- Check out a specific pull request locally:
 
 `gh pr checkout `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pr_number</span>
 

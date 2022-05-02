@@ -2,7 +2,7 @@
 layout: page
 title: common/gh-repo (English)
 description: "Work with GitHub repositories on the command-line."
-content_hash: 206915475fa4cdacb3e184f24d9d498a4fc1b1b8
+content_hash: c158298140ffe76e5db6009077bfadf650141fd1
 related_topics:
   - title: 中文 version
     url: /zh/common/gh-repo.html
@@ -25,7 +25,7 @@ More information: <https://cli.github.com/manual/gh_repo>.
 
 `gh repo fork `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">owner</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository</span>` --clone`
 
-- View a repository in the web browser:
+- View a repository in the default web browser:
 
 `gh repo view `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository</span>` --web`
 
