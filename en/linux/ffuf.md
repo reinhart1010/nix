@@ -2,7 +2,7 @@
 layout: page
 title: linux/ffuf (English)
 description: "Subdomain and directory discovery tool."
-content_hash: 64d096b0ce1dc33af61453736bdf3184c634344b
+content_hash: f657ddecaadb4740b822420ab4c4ca6d5850226a
 ---
 # ffuf
 
@@ -13,7 +13,7 @@ More information: <https://github.com/ffuf/ffuf>.
 
 `ffuf -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/wordlist</span>` -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://target/FUZZ</span>` -c -v`
 
-- Fuzz host-[H]eaders with a host file on a traget website and [m]atch HTTP 200 [c]ode responses:
+- Fuzz host-[H]eaders with a host file on a target website and [m]atch HTTP 200 [c]ode responses:
 
 `ffuf -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hosts.txt</span>` -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.org</span>` -H "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Host: FUZZ</span>`" -mc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">200</span>
 

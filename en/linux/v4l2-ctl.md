@@ -2,7 +2,7 @@
 layout: page
 title: linux/v4l2-ctl (English)
 description: "Control video devices."
-content_hash: bccc878eef18a273e732d1e1ab99727fd9e05833
+content_hash: d0a07e0ca5d156844b419509bef7fb91ca9b265d
 ---
 # v4l2-ctl
 
@@ -25,7 +25,7 @@ More information: <https://manned.org/v4l2-ctl>.
 
 `v4l2-ctl --all --device `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/video_device</span>
 
-- Capture a JPEG photo with a specfic resolution from video device:
+- Capture a JPEG photo with a specific resolution from video device:
 
 `v4l2-ctl --device `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/video_device</span>` --set-fmt-video=width=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">width</span>`,height=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">height</span>`,pixelformat=MJPG --stream-mmap --stream-to=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.jpg</span>` --stream-count=1`
 

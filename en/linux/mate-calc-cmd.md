@@ -2,12 +2,9 @@
 layout: page
 title: linux/mate-calc-cmd (English)
 description: "Calculate mathematic expressions in MATE desktop environment in terminal."
-content_hash: 536e5a96370feb2e4e416caba9e24f40ddbc94fe
+content_hash: a4a6521f8314886afe25068e7492d7b4aa9bb49b
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mate-calc-cmd
+# mate-calc-cmd
 
 Calculate mathematic expressions in MATE desktop environment in terminal.
 More information: <https://manned.org/mate-calc-cmd>.
@@ -16,6 +13,6 @@ More information: <https://manned.org/mate-calc-cmd>.
 
 `mate-calc-cmd`
 
-- Calculate a specific mathematic expession:
+- Calculate a specific mathematic expression:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2 + 5</span>

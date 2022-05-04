@@ -2,7 +2,7 @@
 layout: page
 title: linux/trash (English)
 description: "A CLI for managing the trashcan / recycling bin."
-content_hash: 75329fee8ce9283d954eb33b7846a2bbaa846b7d
+content_hash: 9291aaaf4f2b557e3704de2d11475d3b31f864dc
 related_topics:
   - title: Türkçe version
     url: /tr/linux/trash.html
@@ -29,7 +29,7 @@ More information: <https://github.com/andreafrancia/trash-cli>.
 
 `trash-empty`
 
-- Permanentely delete all files in the trash which are older than 10 days:
+- Permanently delete all files in the trash which are older than 10 days:
 
 `trash-empty `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>
 
