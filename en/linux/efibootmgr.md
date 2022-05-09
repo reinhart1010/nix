@@ -2,14 +2,14 @@
 layout: page
 title: linux/efibootmgr (English)
 description: "Manipulate the UEFI Boot Manager."
-content_hash: 2c56a15f02281667e31710f483592067e8c660b5
+content_hash: 1b8879c9f2594b8f102ea883d2bd889e5f8a11af
 ---
 # efibootmgr
 
 Manipulate the UEFI Boot Manager.
 More information: <https://manned.org/efibootmgr>.
 
-- List the current settings / bootnums:
+- List the current settings then bootnums with their name:
 
 `efibootmgr`
 
