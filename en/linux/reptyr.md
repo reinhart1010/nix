@@ -2,9 +2,9 @@
 layout: page
 title: linux/reptyr (English)
 description: "Move a running process to a new terminal."
-content_hash: eebc4f82318e6c5dfbebe94c9651aaed6b120058
+content_hash: a22ae12c7e8cf545e71f524862ea5b028044b479
 ---
-# reptry
+# reptyr
 
 Move a running process to a new terminal.
 Best used when you forget to start a long running task in `screen`.
