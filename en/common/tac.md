@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/tac (English)
-description: "Print and concatenate files in reverse (last line first)."
-content_hash: 209da0bc9131ea62eaacbc8172cf4bf3e8ae938d
+description: "Display and concatenate files with lines in reversed order."
+content_hash: 039c52634f81c084524ab2dfc19be1fba58e3068
 related_topics:
   - title: italiano version
     url: /it/common/tac.html
@@ -10,17 +10,26 @@ related_topics:
 ---
 # tac
 
-Print and concatenate files in reverse (last line first).
+Display and concatenate files with lines in reversed order.
+See also: `cat`.
 More information: <https://www.gnu.org/software/coreutils/tac>.
 
-- Print the contents of *file1* reversed to the standard output:
+- Concatenate specific files in reversed order:
 
-`tac `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1</span>
+`tac `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
-- Print the contents of the standard input reversed to the standard output:
+- Display `stdin` in reversed order:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` | tac`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat path/to/file</span>` | tac`
 
-- Concatenate several files reversed into the target file:
+- Use a specific [s]eparator:
 
-`tac `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file2</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_file</span>
+`tac -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">separator</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
+
+- Use a specific [r]egex as a [s]eparator:
+
+`tac -r -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">separator</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
+
+- Use a separator [b]efore each file:
+
+`tac -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
