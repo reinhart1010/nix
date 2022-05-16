@@ -2,7 +2,7 @@
 layout: page
 title: common/vboxmanage (English)
 description: "Command-line interface to VirtualBox."
-content_hash: 92098b90cf14c5fa11ca71623f33624cb3da5787
+content_hash: 06d05310b24f71ad478e8e3f3c7248e11bce9905
 ---
 # VBoxManage
 
@@ -24,7 +24,7 @@ More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-intro>
 
 - Start a virtual machine in headless mode:
 
-`VBoxManage startvm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name|uuid</span>` -type headless`
+`VBoxManage startvm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name|uuid</span>` --type headless`
 
 - Shutdown the virtual machine and save its current state:
 
