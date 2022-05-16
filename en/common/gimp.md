@@ -2,7 +2,14 @@
 layout: page
 title: common/gimp (English)
 description: "GNU image manipulation program."
-content_hash: 7dba1cb4f43843dc5aa7c4c4f18addd37c6ce287
+content_hash: 6c420fb2ebc21949587aa480cd961763dcaea75a
+related_topics:
+  - title: français version
+    url: /fr/common/gimp.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/gimp.html
+    icon: bi bi-globe
 ---
 # gimp
 
@@ -14,17 +21,17 @@ More information: <https://docs.gimp.org/en/gimp-fire-up.html#gimp-concepts-runn
 
 `gimp`
 
-- Start without the splash screen:
-
-`gimp --no-splash`
-
-- Open the specified files:
+- Open specific files:
 
 `gimp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1 path/to/image2 ...</span>
 
-- Start the new instance, even if there is already a running one:
+- Open specific files in a new window:
 
-`gimp --new-instance`
+`gimp --new-instance `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1 path/to/image2 ...</span>
+
+- Start without a splash screen:
+
+`gimp --no-splash`
 
 - Print errors and warnings to the console instead of showing them in a dialog box:
 

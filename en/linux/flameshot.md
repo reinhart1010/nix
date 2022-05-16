@@ -2,7 +2,7 @@
 layout: page
 title: linux/flameshot (English)
 description: "Screenshot utility with a GUI."
-content_hash: 6b1d1ae2274baf5c8124de9180a6bba4910fee52
+content_hash: 435c9223ac165b5cdafb814d5e9ef3c998b97f1c
 related_topics:
   - title: français version
     url: /fr/linux/flameshot.html
@@ -17,30 +17,34 @@ Screenshot utility with a GUI.
 Supports basic image editing, such as text, shapes, colors, and imgur.
 More information: <https://flameshot.org>.
 
-- Launch flameshot with a simpler interactive mode:
-
-`flameshot launcher`
-
-- Launch flameshot and immediately start interactively annotating parts of the screen to screenshot:
-
-`flameshot gui`
-
-- Take a full screenshot (all monitors):
+- Create a fullscreen screenshot:
 
 `flameshot full`
 
-- Take a screenshot from monitor 1:
+- Create a screenshot interactively:
 
-`flameshot screen --number `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
+`flameshot gui`
 
-- Set the save path to write screenshots to:
+- Create a screenshot and save it to a specific path:
 
-`flameshot full --path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
+`flameshot gui --path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
-- Delay the screenshot for N milliseconds and output to clipboard:
+- Create a screenshot interactively in a simplified mode:
 
-`flameshot full --delay `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2000</span>` --clipboard`
+`flameshot launcher`
 
-- Take a screenshot and export it to standard-output:
+- Create a screenshot from a specific monitor:
+
+`flameshot screen --number `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span>
+
+- Create a screenshot and print it to the standard output:
 
 `flameshot gui --raw`
+
+- Create a screenshot and copy it to the clipboard:
+
+`flameshot gui --clipboard`
+
+- Create a screenshot with a specific delay in seconds:
+
+`flameshot full --delay `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>
