@@ -2,7 +2,7 @@
 layout: page
 title: linux/nsenter (English)
 description: "Run a new command in a running process' namespace."
-content_hash: 06fc10c94932d8b8e1b877d63c07ccafcf4de436
+content_hash: 0a344e98499ccb349dc22ebe4dd8bac8881cc9f3
 ---
 # nsenter
 
@@ -25,3 +25,11 @@ More information: <https://manned.org/nsenter>.
 - Run a specific command in an existing process's IPC namespace:
 
 `nsenter --target `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>` --ipc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_arguments</span>
+
+- Run a specific command in an existing process's UTS, time, and IPC namespaces:
+
+`nsenter --target `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>` --uts --time --ipc -- `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_arguments</span>
+
+- Run a specific command in an existing process's namespace by referencing procfs:
+
+`nsenter --pid=/proc/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>`/pid/net -- `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_arguments</span>
