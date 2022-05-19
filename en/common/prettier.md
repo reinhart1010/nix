@@ -2,7 +2,7 @@
 layout: page
 title: common/prettier (English)
 description: "An opinionated code formatter for JavaScript, JSON, CSS, YAML, and more."
-content_hash: ff2f9f3b20bfba49ce2b5e6081527b8887d5f403
+content_hash: c86aa0eab6ced325381438d58f5bc806f531c8ac
 ---
 # prettier
 
@@ -28,3 +28,7 @@ More information: <https://prettier.io/>.
 - Format files or directories recursively using single quotes and no trailing commas:
 
 `prettier --single-quote --trailing-comma `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">none</span>` --write `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
+
+- Format JavaScript and TypeScript files recursively, replacing the original:
+
+`prettier --write "**/*.{js,jsx,ts,tsx}"`
