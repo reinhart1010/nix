@@ -2,12 +2,12 @@
 layout: page
 title: linux/hashcat (English)
 description: "Fast and advanced password recovery tool."
-content_hash: 9379f52764996524008a6a31db6bdb98f9011afe
+content_hash: 9129b5360ae10e8918b1aab2b991949425f92b74
 ---
 # hashcat
 
 Fast and advanced password recovery tool.
-More information: <https://manned.org/hashcat>.
+More information: <https://hashcat.net/wiki/doku.php?id=hashcat>.
 
 - Perform a brute-force attack (mode 3) with the default hashcat mask:
 
