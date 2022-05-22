@@ -2,7 +2,11 @@
 layout: page
 title: common/wal (English)
 description: "A tool to create color schemes based on the dominant colors of a wallpaper."
-content_hash: 8e0b7cbb4c27541ae042d644ca96267ef16e38ab
+content_hash: 19f222f1074b845bb30d34cd85f799112446be9a
+related_topics:
+  - title: català version
+    url: /ca/common/wal.html
+    icon: bi bi-globe
 ---
 # wal
 
@@ -19,15 +23,15 @@ More information: <https://github.com/dylanaraps/pywal>.
 
 - Create a light color scheme:
 
-`wal -il `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.png</span>
+`wal -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.png</span>` -l`
 
 - Skip setting the desktop wallpaper:
 
-`wal -in `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.png</span>
+`wal -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.png</span>` -n`
 
 - Skip setting the terminal colors:
 
-`wal -is `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.png</span>
+`wal -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.png</span>` -s`
 
 - Restore the previously generated color scheme and wallpaper:
 
