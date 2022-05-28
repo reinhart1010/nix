@@ -2,14 +2,14 @@
 layout: page
 title: common/xev (English)
 description: "Print contents of X events."
-content_hash: a5392f9994788f91f37801ce695adeb2c93e93b2
+content_hash: 8102380fa096774945987fd38854421eda7e6823
 ---
 # xev
 
 Print contents of X events.
 More information: <https://gitlab.freedesktop.org/xorg/app/xev>.
 
-- Monitor all occuring X events:
+- Monitor all occurring X events:
 
 `xev`
 
