@@ -2,7 +2,7 @@
 layout: page
 title: common/gpg (English)
 description: "GNU Privacy Guard."
-content_hash: ce60f94e12daaa3d5eaafdc33e99dc5b120c3532
+content_hash: 6e8c351c87515fc52cd97c23444a872f9dc3f17c
 related_topics:
   - title: Deutsch version
     url: /de/common/gpg.html
@@ -28,9 +28,9 @@ More information: <https://gnupg.org>.
 
 `gpg --clearsign `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doc.txt</span>
 
-- Encrypt `doc.txt` for alice@example.com (output to `doc.txt.gpg`):
+- Encrypt and sign `doc.txt` for alice@example.com and bob@example.com (output to `doc.txt.gpg`):
 
-`gpg --encrypt --recipient `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice@example.com</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doc.txt</span>
+`gpg --encrypt --sign --recipient `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice@example.com</span>` --recipient `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bob@example.com</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doc.txt</span>
 
 - Encrypt `doc.txt` with only a passphrase (output to `doc.txt.gpg`):
 
