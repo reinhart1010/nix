@@ -2,7 +2,7 @@
 layout: page
 title: common/gpg (English)
 description: "GNU Privacy Guard."
-content_hash: 6e8c351c87515fc52cd97c23444a872f9dc3f17c
+content_hash: e2eef44357d961b9a7c2b88a1b772bd39b711085
 related_topics:
   - title: Deutsch version
     url: /de/common/gpg.html
@@ -17,7 +17,7 @@ related_topics:
 # gpg
 
 GNU Privacy Guard.
-See `gpg2` for GNU Privacy Guard 2.
+See `gpg2` for GNU Privacy Guard 2. Most operating systems symlink `gpg` to `gpg2`.
 More information: <https://gnupg.org>.
 
 - Create a GPG public and private key interactively:
