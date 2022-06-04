@@ -2,7 +2,7 @@
 layout: page
 title: common/ffmpeg (English)
 description: "Video conversion tool."
-content_hash: a476f93f1032977409453998f0d04c8c9a06c5fe
+content_hash: 36414887f86e8887a3e37bf1552c3a05d95786fb
 related_topics:
   - title: Deutsch version
     url: /de/common/ffmpeg.html
@@ -23,9 +23,9 @@ More information: <https://ffmpeg.org>.
 
 `ffmpeg -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">video.mp4</span>` -vn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sound</span>`.mp3`
 
-- Convert frames from a video or GIF into individual numbered images:
+- Save a video as GIF, scaling the height to 1000px and setting framerate to 15:
 
-`ffmpeg -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">video.mpg|video.gif</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">frame_%d.png</span>
+`ffmpeg -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">video.mp4</span>` -vf 'scale=-1:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1000</span>`' -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">15</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.gif</span>
 
 - Combine numbered images (`frame_1.jpg`, `frame_2.jpg`, etc) into a video or GIF:
 
