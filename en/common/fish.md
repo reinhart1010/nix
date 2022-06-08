@@ -2,7 +2,7 @@
 layout: page
 title: common/fish (English)
 description: "The Friendly Interactive SHell, a command-line interpreter designed to be user friendly."
-content_hash: 7f99fa2024de746cd43b857243419158068f4ebf
+content_hash: d284dc81d2cf8bb4d3536492f4368965b869ce34
 related_topics:
   - title: Deutsch version
     url: /de/common/fish.html
@@ -24,17 +24,21 @@ More information: <https://fishshell.com>.
 
 `fish --no-config`
 
-- Execute a command:
+- Execute specific commands:
 
-`fish --command "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>`"`
+`fish --command "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 'fish is executed'</span>`"`
 
-- Execute a script:
+- Execute a specific script:
 
 `fish `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.fish</span>
 
-- Check a script for syntax errors:
+- Check a specific script for syntax errors:
 
 `fish --no-execute `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.fish</span>
+
+- Execute specific commands from stdin:
+
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "echo 'fish is executed'"</span>` | fish`
 
 - Start an interactive shell session in private mode, where the shell does not access old history or save new history:
 
@@ -43,7 +47,3 @@ More information: <https://fishshell.com>.
 - Define and export an environmental variable that persists across shell restarts (builtin):
 
 `set --universal --export `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable_value</span>
-
-- Print the version:
-
-`fish --version`
