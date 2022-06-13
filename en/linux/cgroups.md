@@ -1,12 +1,12 @@
 ---
 layout: page
 title: linux/cgroups (English)
-description: "Cgroups aka control groups is a Linux kernel feature for limiting, measuring, and controling resource usage by processes."
-content_hash: 8d850b8cf653aabe16d5516d95a81eec4c7fb271
+description: "Cgroups aka control groups is a Linux kernel feature for limiting, measuring, and controlling resource usage by processes."
+content_hash: e693cf7ce5080c6d903ae7085fa05f06cdc03995
 ---
 # cgroups
 
-Cgroups aka control groups is a Linux kernel feature for limiting, measuring, and controling resource usage by processes.
+Cgroups aka control groups is a Linux kernel feature for limiting, measuring, and controlling resource usage by processes.
 More information: <https://www.kernel.org/doc/Documentation/cgroup-v2.txt>.
 
 - Show the tldr page for `cgclassify`:

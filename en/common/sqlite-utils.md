@@ -2,7 +2,7 @@
 layout: page
 title: common/sqlite-utils (English)
 description: "Command-line tool used to manipulate SQLite databases in a number of different ways."
-content_hash: ddd1acd14b0ebc581d4b3b01cedc9e3f089dbe41
+content_hash: 272d09ceb3828a049d9da1c8623dbfd6c6c3aee1
 ---
 # sqlite-utils
 
@@ -16,6 +16,10 @@ More information: <https://sqlite-utils.datasette.io/en/stable/cli.html>.
 - Create a table:
 
 `sqlite-utils create-table `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/database.db</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id integer name text height float photo blob --pk id</span>
+
+- List tables:
+
+`sqlite-utils tables `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/database.db</span>
 
 - Upsert a record:
 
