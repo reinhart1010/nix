@@ -2,24 +2,24 @@
 layout: page
 title: linux/journalctl (English)
 description: "Query the systemd journal."
-content_hash: 2a2ad7ed3fdb9958c755f2168388c4cc09ef69cf
+content_hash: 564a7ce3896fb387253fcf4dd955c6648c3022a2
 ---
 # journalctl
 
 Query the systemd journal.
 More information: <https://manned.org/journalctl>.
 
-- Show all messages from this [b]oot:
+- Show all messages with priority level 3 (errors) from this [b]oot:
 
-`journalctl -b`
+`journalctl -b --priority=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>
 
 - Show all messages from last [b]oot:
 
 `journalctl -b -1`
 
-- Show all messages with priority level 3 (errors) from this [b]oot:
+- Delete journal logs which are older than 2 days:
 
-`journalctl -b --priority=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>
+`journalctl --vacuum-time=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2d</span>
 
 - [f]ollow new messages (like `tail -f` for traditional syslog):
 
