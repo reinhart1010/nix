@@ -2,7 +2,7 @@
 layout: page
 title: common/watch (English)
 description: "Execute a program periodically, showing output fullscreen."
-content_hash: da49c7ef1211e86ff76ba5cbd65c49fbcec115c1
+content_hash: 99837075a183ce7542d82d16ed74771042f9906f
 ---
 # watch
 
@@ -20,3 +20,7 @@ More information: <https://manned.org/watch>.
 - Monitor the contents of a directory, highlighting differences as they appear:
 
 `watch -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls -l</span>
+
+- Repeatedly run a pipeline and show the result:
+
+`watch '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_1</span>` | `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_2</span>` | `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_3</span>`'`
