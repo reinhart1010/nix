@@ -2,7 +2,7 @@
 layout: page
 title: common/sftp (English)
 description: "Secure File Transfer Program."
-content_hash: 957aa97be999a762774632d4673cb960098a340c
+content_hash: 6f97b1e672d892c8eec52f6f48c725c48d157fb8
 ---
 # sftp
 
@@ -18,6 +18,10 @@ More information: <https://manned.org/sftp>.
 - Connect using an alternate port:
 
 `sftp -P `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_port</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_user</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span>
+
+- Connect using a predefined host (in `~/.ssh/config`):
+
+`sftp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>
 
 - Transfer remote file to the local system:
 
