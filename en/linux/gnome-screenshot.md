@@ -2,15 +2,12 @@
 layout: page
 title: linux/gnome-screenshot (English)
 description: "Capture the screen, a window, or a user-defined area and save the image to a file."
-content_hash: 2abbb323bc5ee321bf326d46ff9e1fe0c7f9f10c
+content_hash: ddd4ae4cfb2e151418640a6349aa37a1d6d98af9
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gnome-screenshot
+# gnome-screenshot
 
 Capture the screen, a window, or a user-defined area and save the image to a file.
-More information: <https://apps.gnome.org/app/org.gnome.Screenshot>.
+More information: <https://manned.org/gnome-screenshot>.
 
 - Take a screenshot and save it to the default location, normally `~/Pictures`:
 
