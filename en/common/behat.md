@@ -2,7 +2,7 @@
 layout: page
 title: common/behat (English)
 description: "A PHP framework for Behaviour-Driven Development."
-content_hash: 1513d92bbc1c3ef5ad731d7edd5a9e74a31a2b79
+content_hash: 1fc0f3247260a5adaf9bf42d9ad7435142e9227e
 related_topics:
   - title: italiano version
     url: /it/common/behat.html
@@ -19,7 +19,7 @@ related_topics:
 A PHP framework for Behaviour-Driven Development.
 More information: <https://behat.org>.
 
-- Initialise a new Behat project:
+- Initialize a new Behat project:
 
 `behat --init`
 

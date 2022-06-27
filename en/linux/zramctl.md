@@ -2,7 +2,7 @@
 layout: page
 title: linux/zramctl (English)
 description: "Setup and control zram devices."
-content_hash: 6559e01ac93ba6a53387fd46b3faee2f7db082a2
+content_hash: 1d09726a8d4deb446eab03444cad64e8bebd166f
 ---
 # zramctl
 
@@ -22,10 +22,10 @@ More information: <https://manned.org/zramctl>.
 
 `sudo modprobe zram num_devices=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span>
 
-- Find and initialise the next free zram device to a 2 GB virtual drive using LZ4 compression:
+- Find and initialize the next free zram device to a 2 GB virtual drive using LZ4 compression:
 
 `sudo zramctl --find --size `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2GB</span>` --algorithm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lz4</span>
 
-- List currently initialised devices:
+- List currently initialized devices:
 
 `zramctl`

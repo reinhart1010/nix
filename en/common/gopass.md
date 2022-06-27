@@ -2,14 +2,14 @@
 layout: page
 title: common/gopass (English)
 description: "Standard Unix Password Manager for Teams. Written in Go."
-content_hash: 98e26c45050d1189aad8924e836c0ab7641b669e
+content_hash: 15620eb63b57a195ef01893edf6df93dbc3b3246
 ---
 # gopass
 
 Standard Unix Password Manager for Teams. Written in Go.
 More information: <https://www.gopass.pw>.
 
-- Initialise the configuration settings:
+- Initialize the configuration settings:
 
 `gopass init`
 

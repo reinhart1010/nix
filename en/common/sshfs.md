@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/sshfs (English)
-description: "Filesystem client based on ssh."
-content_hash: 35901688409e3a7e6cdca2c6bfeb4efb17a1642f
+description: "Filesystem client based on SSH."
+content_hash: 6a757d5eba335bc19aac26d04d7d0e5d840e912f
 related_topics:
   - title: Deutsch version
     url: /de/common/sshfs.html
@@ -10,7 +10,7 @@ related_topics:
 ---
 # sshfs
 
-Filesystem client based on ssh.
+Filesystem client based on SSH.
 More information: <https://github.com/libfuse/sshfs>.
 
 - Mount remote directory:

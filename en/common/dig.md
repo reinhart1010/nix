@@ -1,9 +1,12 @@
 ---
 layout: page
 title: common/dig (English)
-description: "DNS Lookup utility."
-content_hash: 3bdf7e1909407259da304c42f2e1ba9e33d88903
+description: "DNS lookup utility."
+content_hash: 8ac985f563a8ee262028956f09f1a9176239c0df
 related_topics:
+  - title: español version
+    url: /es/common/dig.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/dig.html
     icon: bi bi-globe
@@ -19,7 +22,7 @@ related_topics:
 ---
 # dig
 
-DNS Lookup utility.
+DNS lookup utility.
 More information: <https://manned.org/dig>.
 
 - Lookup the IP(s) associated with a hostname (A records):

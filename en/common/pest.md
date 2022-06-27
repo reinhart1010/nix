@@ -2,14 +2,14 @@
 layout: page
 title: common/pest (English)
 description: "A PHP testing framework with a focus on simplicity."
-content_hash: 38a1eee76065e787241a75e9df756f93ad4f96a2
+content_hash: b1f68461286194bfe67ab27e4f9dfa33737b4ffb
 ---
 # pest
 
 A PHP testing framework with a focus on simplicity.
 More information: <https://pestphp.com>.
 
-- Initialise a standard Pest configuration in the current directory:
+- Initialize a standard Pest configuration in the current directory:
 
 `pest --init`
 

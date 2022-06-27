@@ -2,18 +2,18 @@
 layout: page
 title: common/phpcpd (English)
 description: "A copy and paste detector for PHP code."
-content_hash: 13c1ae21ea9300afa2f3ff09a788c5604ff58e04
+content_hash: 6668b29fd81331acaff77d1208cbb96690b92f54
 ---
 # phpcpd
 
 A copy and paste detector for PHP code.
 More information: <https://github.com/sebastianbergmann/phpcpd>.
 
-- Analyse duplicated code for a specific file or directory:
+- Analyze duplicated code for a specific file or directory:
 
 `phpcpd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
 
-- Analyse using fuzzy matching for variable names:
+- Analyze using fuzzy matching for variable names:
 
 `phpcpd --fuzzy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
 

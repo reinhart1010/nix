@@ -2,14 +2,14 @@
 layout: page
 title: common/envoy (English)
 description: "A PHP-based task manager for Laravel remote servers."
-content_hash: e65268a2976536c4f63a9eb88308c4fe5766c75d
+content_hash: 8b8a402c156fd9cf10d6d7967c14baeb8dda568c
 ---
 # envoy
 
 A PHP-based task manager for Laravel remote servers.
 More information: <https://laravel.com/docs/envoy>.
 
-- Initialise a configuration file:
+- Initialize a configuration file:
 
 `envoy init `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_name</span>
 

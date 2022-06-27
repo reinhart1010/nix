@@ -2,7 +2,7 @@
 layout: page
 title: common/atoum (English)
 description: "A simple, modern and intuitive unit testing framework for PHP."
-content_hash: b5a004c3f672f9d568725a9636f6790bd9db3915
+content_hash: 6c77b7d28f53558bb678db0d0adec7a53047b19a
 related_topics:
   - title: italiano version
     url: /it/common/atoum.html
@@ -16,7 +16,7 @@ related_topics:
 A simple, modern and intuitive unit testing framework for PHP.
 More information: <http://atoum.org>.
 
-- Initialise a configuration file:
+- Initialize a configuration file:
 
 `atoum --init`
 

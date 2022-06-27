@@ -2,7 +2,7 @@
 layout: page
 title: linux/goaccess (English)
 description: "An open source real-time web log analyzer."
-content_hash: be6d6fefc05a006219645bb1f6a41d3588df1c58
+content_hash: 41cda7bd301ca29ffceece6d127d8a4fa3d435a8
 ---
 # goaccess
 
@@ -17,7 +17,7 @@ More information: <https://goaccess.io>.
 
 `goaccess `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/logfile</span>` --log-format=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">format</span>
 
-- Analyse a log from stdin:
+- Analyze a log from stdin:
 
 `tail -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/logfile</span>` | goaccess -`
 

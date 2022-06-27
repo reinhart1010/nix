@@ -2,14 +2,14 @@
 layout: page
 title: common/rspec (English)
 description: "Behavior-driven development testing framework written in Ruby to test Ruby code."
-content_hash: 22d4e128f4b4bd9d70d659fd2cee8765bd60ee82
+content_hash: cee7e0e5a3a0d295f4e80cae4847ec2826bafd47
 ---
 # rspec
 
 Behavior-driven development testing framework written in Ruby to test Ruby code.
 More information: <https://rspec.info>.
 
-- Initialise an .rspec config and a spec helper file:
+- Initialize an .rspec config and a spec helper file:
 
 `rspec --init`
 

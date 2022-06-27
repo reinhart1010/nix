@@ -2,7 +2,7 @@
 layout: page
 title: common/colordiff (English)
 description: "A tool to colorize diff output."
-content_hash: 99e90d1e0ac2700dcb4bedba22360bec74295409
+content_hash: 9cd8ec3da21c482d2346d20b2f2cccdb5bea118e
 related_topics:
   - title: italiano version
     url: /it/common/colordiff.html
@@ -11,7 +11,7 @@ related_topics:
 # colordiff
 
 A tool to colorize diff output.
-The Perl script colordiff is a wrapper for `diff` and produces the same output but with pretty syntax highlighting. Colour schemes can be customized.
+The Perl script colordiff is a wrapper for `diff` and produces the same output but with pretty syntax highlighting. Color schemes can be customized.
 More information: <https://github.com/kimmel/colordiff>.
 
 - Compare files:

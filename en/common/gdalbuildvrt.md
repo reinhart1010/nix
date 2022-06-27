@@ -2,7 +2,7 @@
 layout: page
 title: common/gdalbuildvrt (English)
 description: "Build Virtual Datasets from a list of existing datasets."
-content_hash: 8640f181540d2724decad57a54b4c45e201dff4b
+content_hash: 4c9557644b600e9e90829ea3c44ab5113b6997d4
 ---
 # gdalbuildvrt
 
@@ -21,6 +21,6 @@ More information: <https://gdal.org/programs/gdalbuildvrt.html>.
 
 `gdalbuildvrt -separate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/rgb.vrt</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/red.tif</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/green.tif</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/blue.tif</span>
 
-- Make a virtual mosaic with blue background colour (RGB: 0 0 255):
+- Make a virtual mosaic with blue background color (RGB: 0 0 255):
 
 `gdalbuildvrt -hidenodata -vrtnodata "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0 0 255</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.vrt</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_directory/*.tif</span>

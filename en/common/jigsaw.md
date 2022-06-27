@@ -2,18 +2,18 @@
 layout: page
 title: common/jigsaw (English)
 description: "A Laravel-based static site builder for PHP."
-content_hash: b8aa98e6859b7eeb3923e32b5debde18fd9fa537
+content_hash: f25ca88daba1377b97310af3e90d1f5127ed9f44
 ---
 # jigsaw
 
 A Laravel-based static site builder for PHP.
 More information: <https://jigsaw.tighten.co>.
 
-- Initialise a project:
+- Initialize a project:
 
 `jigsaw init`
 
-- Initialise a project using a starter template:
+- Initialize a project using a starter template:
 
 `jigsaw init `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">template_name</span>
 

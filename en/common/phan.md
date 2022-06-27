@@ -2,7 +2,7 @@
 layout: page
 title: common/phan (English)
 description: "A static analysis tool for PHP."
-content_hash: 5c86f771dff5c499fb9a4dcb38de5ddad097bd52
+content_hash: 6319530d819acfdb5794b26f2d60836c71d49798
 ---
 # phan
 
@@ -17,11 +17,11 @@ More information: <https://github.com/phan/phan>.
 
 `phan --init --init-level `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">level</span>
 
-- Analyse the current directory:
+- Analyze the current directory:
 
 `phan`
 
-- Analyse one or more directories:
+- Analyze one or more directories:
 
 `phan --directory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` --directory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/another_directory</span>
 

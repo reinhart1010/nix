@@ -1,12 +1,12 @@
 ---
 layout: page
 title: common/zeek (English)
-description: "Passive network traffic analyser."
-content_hash: de6359028d6ab913f3ae422b17ee3ccbc05d7b89
+description: "Passive network traffic analyzer."
+content_hash: 46e7d7de315618310d40ac2800a8903787c8e29d
 ---
 # zeek
 
-Passive network traffic analyser.
+Passive network traffic analyzer.
 Any output and log files will be saved to the current working directory.
 More information: <https://docs.zeek.org/en/lts/quickstart.html#zeek-as-a-command-line-utility>.
 

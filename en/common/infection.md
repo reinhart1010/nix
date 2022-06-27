@@ -2,14 +2,14 @@
 layout: page
 title: common/infection (English)
 description: "A mutation testing framework for PHP."
-content_hash: cac2f7c5f15d072c0846d866405fe5e887b4348f
+content_hash: ca5038a458e69bac435ec0ac409250c1dee700b9
 ---
 # infection
 
 A mutation testing framework for PHP.
 More information: <https://infection.github.io>.
 
-- Analyse code using the configuration file (or create one if it does not exist):
+- Analyze code using the configuration file (or create one if it does not exist):
 
 `infection`
 

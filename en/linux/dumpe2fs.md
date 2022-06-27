@@ -2,7 +2,7 @@
 layout: page
 title: linux/dumpe2fs (English)
 description: "Print the super block and blocks group information for ext2/ext3/ext4 filesystems."
-content_hash: b2321ca1c7792d64060267e616e15d3021524f99
+content_hash: fefac5a8ebf52af18df5c52f7e0e207b252ce8be
 ---
 # dumpe2fs
 
@@ -18,7 +18,7 @@ More information: <https://manned.org/dumpe2fs>.
 
 `dumpe2fs -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span>
 
-- Force display filesystem information even with non-recognisable feature flags:
+- Force display filesystem information even with unrecognizable feature flags:
 
 `dumpe2fs -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span>
 

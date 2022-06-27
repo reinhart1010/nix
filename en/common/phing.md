@@ -2,7 +2,7 @@
 layout: page
 title: common/phing (English)
 description: "A PHP build tool based on Apache Ant."
-content_hash: 9b5bbd53a38f1c015fb55c7cce6f609810bd6f34
+content_hash: 72c8363270c9a4f4827e70710f49fb9db67aa0c8
 ---
 # phing
 
@@ -13,7 +13,7 @@ More information: <https://www.phing.info>.
 
 `phing`
 
-- Initialise a new build file:
+- Initialize a new build file:
 
 `phing -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/build.xml</span>
 

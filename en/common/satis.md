@@ -2,14 +2,14 @@
 layout: page
 title: common/satis (English)
 description: "The command-line utility for the Satis static Composer repository."
-content_hash: 63a6a6c440cfe0877ef5b961813b461b88ce1b5d
+content_hash: 1e34e20ac10724fcd8a45b0b289e52f347b12906
 ---
 # satis
 
 The command-line utility for the Satis static Composer repository.
 More information: <https://github.com/composer/satis>.
 
-- Initialise a Satis configuration:
+- Initialize a Satis configuration:
 
 `satis init `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">satis.json</span>
 

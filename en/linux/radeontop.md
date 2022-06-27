@@ -1,8 +1,8 @@
 ---
 layout: page
 title: linux/radeontop (English)
-description: "Show utilisation of AMD GPUs."
-content_hash: 2bdbe1d3838582f9d0a9fe37d59940512ac5299e
+description: "Show utilization of AMD GPUs."
+content_hash: 20121c8fc8d66434b38cc474fa1159d15e17d6e3
 related_topics:
   - title: italiano version
     url: /it/linux/radeontop.html
@@ -10,11 +10,11 @@ related_topics:
 ---
 # radeontop
 
-Show utilisation of AMD GPUs.
+Show utilization of AMD GPUs.
 May require root privileges depending on your system.
 More information: <https://github.com/clbr/radeontop>.
 
-- Show the utilisation of the default AMD GPU:
+- Show the utilization of the default AMD GPU:
 
 `radeontop`
 

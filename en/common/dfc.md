@@ -1,15 +1,15 @@
 ---
 layout: page
 title: common/dfc (English)
-description: "Gives an overview of the filesystem disk space usage with colours and graphs."
-content_hash: 8151ae3d1d5ded88ae4ff4f8298255345f80863d
+description: "Gives an overview of the filesystem disk space usage with colors and graphs."
+content_hash: 8fd959351aa978d559bd981632f15174dc61f27d
 ---
 # dfc
 
-Gives an overview of the filesystem disk space usage with colours and graphs.
+Gives an overview of the filesystem disk space usage with colors and graphs.
 More information: <https://projects.gw-computing.net/projects/dfc/wiki>.
 
-- Display filesystems and their disk usage in human-readable form with colours and graphs:
+- Display filesystems and their disk usage in human-readable form with colors and graphs:
 
 `dfc`
 
@@ -17,7 +17,7 @@ More information: <https://projects.gw-computing.net/projects/dfc/wiki>.
 
 `dfc -a`
 
-- Display filesystems without colour:
+- Display filesystems without color:
 
 `dfc -c never`
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/nokogiri (English)
 description: "An HTML, XML, SAX and Reader parser."
-content_hash: 02222761ae65f4b66d49b90b04c6247efa2157d0
+content_hash: cee175e78480ec5e81a88a252b4a6cbcee93d23e
 ---
 # nokogiri
 
@@ -17,7 +17,7 @@ More information: <https://nokogiri.org>.
 
 `nokogiri `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|path/to/file</span>` --type `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xml|html</span>
 
-- Load a specific initialisation file before parsing:
+- Load a specific initialization file before parsing:
 
 `nokogiri `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|path/to/file</span>` -C `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config_file</span>
 

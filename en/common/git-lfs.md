@@ -2,7 +2,7 @@
 layout: page
 title: common/git-lfs (English)
 description: "Work with large files in Git repositories."
-content_hash: 16efba5eccac98f76518d9825b480ed7f677afd3
+content_hash: b47aa147405bd28ebfe68dc2f2d3972c8169ac1e
 related_topics:
   - title: español version
     url: /es/common/git-lfs.html
@@ -13,13 +13,16 @@ related_topics:
   - title: italiano version
     url: /it/common/git-lfs.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-lfs.html
+    icon: bi bi-globe
 ---
 # git lfs
 
 Work with large files in Git repositories.
 More information: <https://git-lfs.github.com>.
 
-- Initialise Git LFS:
+- Initialize Git LFS:
 
 `git lfs install`
 

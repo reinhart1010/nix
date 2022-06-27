@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/git-check-ignore (English)
-description: "Analyse and debug Git ignore / exclude (\".gitignore\") files."
-content_hash: 9d411ff2226bb5fed3e83cb71f2c574c30658c94
+description: "Analyze and debug Git ignore / exclude (\".gitignore\") files."
+content_hash: ec1672114e941c2e4c360bb261ba001e44b7ae03
 related_topics:
   - title: español version
     url: /es/common/git-check-ignore.html
@@ -16,10 +16,13 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/git-check-ignore.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-check-ignore.html
+    icon: bi bi-globe
 ---
 # git check-ignore
 
-Analyse and debug Git ignore / exclude (".gitignore") files.
+Analyze and debug Git ignore / exclude (".gitignore") files.
 More information: <https://git-scm.com/docs/git-check-ignore>.
 
 - Check whether a file or directory is ignored:
