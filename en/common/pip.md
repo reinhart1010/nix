@@ -2,7 +2,7 @@
 layout: page
 title: common/pip (English)
 description: "Python package manager."
-content_hash: f3b63a907c970502c4ed146a5d047386dc53aafe
+content_hash: e748f65f90ab76ad3719875ae366d40713f2f7d7
 related_topics:
   - title: Deutsch version
     url: /de/common/pip.html
@@ -46,3 +46,7 @@ More information: <https://pip.pypa.io>.
 - Show installed package info:
 
 `pip show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+
+- Install packages from a file:
+
+`pip install --requirement `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">requirements.txt</span>
