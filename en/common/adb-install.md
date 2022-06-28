@@ -2,8 +2,11 @@
 layout: page
 title: common/adb-install (English)
 description: "Android Debug Bridge Install: Push packages to an Android emulator instance or connected Android devices."
-content_hash: ee5639c4eab22894911561a0d9c9327c8fb3232a
+content_hash: fff035ee174a23d0c29a6e9dd09c5c238653420d
 related_topics:
+  - title: français version
+    url: /fr/common/adb-install.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/adb-install.html
     icon: bi bi-globe
@@ -31,6 +34,10 @@ More information: <https://developer.android.com/studio/command-line/adb>.
 - Push an Android application to an emulator/device:
 
 `adb install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.apk</span>
+
+- Push an Android application to a specific emulator/device (overrides `$ANDROID_SERIAL`):
+
+`adb -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">serial_number</span>` install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.apk</span>
 
 - Reinstall an existing app, keeping its data:
 
