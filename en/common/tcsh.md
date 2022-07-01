@@ -2,11 +2,12 @@
 layout: page
 title: common/tcsh (English)
 description: "C shell with file name completion and command line editing."
-content_hash: bc3a67f54c5e67e262e75050d15cb518f1f9d647
+content_hash: be9d7d387e7902d32de1357980011207ce925ce4
 ---
 # tcsh
 
 C shell with file name completion and command line editing.
+See also: `csh`.
 More information: <https://manned.org/tcsh>.
 
 - Start an interactive shell session:
@@ -17,18 +18,18 @@ More information: <https://manned.org/tcsh>.
 
 `tcsh -f`
 
-- Execute a [c]ommand:
+- Execute specific [c]ommands:
 
-`tcsh -c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>`"`
+`tcsh -c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 'tcsh is executed'</span>`"`
 
-- Execute a script:
+- Execute a specific script:
 
 `tcsh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.tcsh</span>
 
-- Check a script for syntax errors:
+- Check a specific script for syntax errors:
 
 `tcsh -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.tcsh</span>
 
-- Print the version:
+- Execute specific commands from stdin:
 
-`tcsh --version`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "echo 'tcsh is executed'"</span>` | tcsh`

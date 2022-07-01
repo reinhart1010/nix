@@ -2,7 +2,7 @@
 layout: page
 title: common/tlmgr-shell (English)
 description: "Start an interactive shell of the native TeX Live manager."
-content_hash: 4d21d2adff10c6b6990b56d65c7e28301cd69947
+content_hash: 61d97b53e17ae3f081a8d8f5458130aec2a050fc
 ---
 # tlmgr shell
 
@@ -37,6 +37,6 @@ More information: <https://www.tug.org/texlive/tlmgr.html>.
 
 `restart`
 
-- Print the version of the current protocoll:
+- Print the version of the current protocol:
 
 `protocol`

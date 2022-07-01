@@ -2,7 +2,7 @@
 layout: page
 title: common/zig (English)
 description: "The Zig compiler and toolchain."
-content_hash: 60236b997342999bd0672147e4a7c19dbb9d89eb
+content_hash: 6c42b23bd3ef1c9925bcec2acf88ecf2f1b4df78
 ---
 # zig
 
@@ -21,7 +21,7 @@ More information: <https://ziglang.org>.
 
 `zig init-exe`
 
-- Intitialize a `zig build` library:
+- Initialize a `zig build` library:
 
 `zig init-lib`
 

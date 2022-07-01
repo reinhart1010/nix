@@ -2,12 +2,12 @@
 layout: page
 title: common/tlmgr-backup (English)
 description: "Manage backups of TeX Live packages."
-content_hash: 07ef700b0a06adb890285c5565b2f0ecacea4ac3
+content_hash: 20fd81b04898468c4f86fd2dd33555e5c8f28e7f
 ---
 # tlmgr backup
 
 Manage backups of TeX Live packages.
-The default backup location is saved in the `backupdir` setting, which can be optained with `tlmgr option`.
+The default backup location is saved in the `backupdir` setting, which can be obtained with `tlmgr option`.
 More information: <https://www.tug.org/texlive/tlmgr.html>.
 
 - Make a backup of one or more packages:

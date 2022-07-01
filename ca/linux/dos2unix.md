@@ -2,7 +2,7 @@
 layout: page
 title: linux/dos2unix (català)
 description: "Canvia salts de línia amb format DOS a salts de línia amb format Unix."
-content_hash: fa6bb270fa7faf4c128a0686dde2d4fc1168fddb
+content_hash: 32e045467feea647d9aa61dea7567532096e63df
 related_topics:
   - title: English version
     url: /en/linux/dos2unix.html
@@ -17,7 +17,7 @@ related_topics:
 # dos2unix
 
 Canvia salts de línia amb format DOS a salts de línia amb format Unix.
-Reemplaça CRLF amb CR.
+Reemplaça CRLF amb LF.
 Més informació: <https://manned.org/dos2unix>.
 
 - Canvia els salts de línia en un arxiu:

@@ -2,8 +2,11 @@
 layout: page
 title: linux/dos2unix (español)
 description: "Cambia saltos de línea con formato DOS a saltos de línea con formato Unix."
-content_hash: 7138db6a1bb79bc4743d4459eac0e4d68a14a56f
+content_hash: 377b32826e4b97e7881f210f8bda48f7ce6ac5ab
 related_topics:
+  - title: català version
+    url: /ca/linux/dos2unix.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/dos2unix.html
     icon: bi bi-globe
@@ -14,7 +17,7 @@ related_topics:
 # dos2unix
 
 Cambia saltos de línea con formato DOS a saltos de línea con formato Unix.
-Reemplaza CRLF con CR.
+Reemplaza CRLF con LF.
 Más información: <https://manned.org/dos2unix>.
 
 - Cambia los saltos de línea de un archivo:

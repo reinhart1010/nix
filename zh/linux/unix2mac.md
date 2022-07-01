@@ -2,7 +2,7 @@
 layout: page
 title: linux/unix2mac (中文)
 description: "将 Unix 样式的行尾更改为 macOS 样式。"
-content_hash: ebcac9b40cf41d4adee23fe1db555f15eae39ff6
+content_hash: 6398559257529a1d2763b9af01b8d885ceb5fdc8
 related_topics:
   - title: English version
     url: /en/linux/unix2mac.html
@@ -11,7 +11,7 @@ related_topics:
 # unix2mac
 
 将 Unix 样式的行尾更改为 macOS 样式。
-用 LF 替换 CR.
+用 CR 替换 LF.
 更多信息：<https://waterlan.home.xs4all.nl/dos2unix.html>.
 
 - 更改文件的行尾：

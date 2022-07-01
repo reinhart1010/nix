@@ -2,8 +2,11 @@
 layout: page
 title: linux/dos2unix (中文)
 description: "将 DOS 样式的行尾更改为 Unix 样式。"
-content_hash: 0ba51f6137b8c84e914a7d3fb0497f726e34ed1e
+content_hash: 87fcfe8490ad7a0ffa5ea3ebbaf45b59dc31b652
 related_topics:
+  - title: català version
+    url: /ca/linux/dos2unix.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/dos2unix.html
     icon: bi bi-globe
@@ -14,7 +17,7 @@ related_topics:
 # dos2unix
 
 将 DOS 样式的行尾更改为 Unix 样式。
-用 CR 替换 CRLF.
+用 LF 替换 CRLF.
 更多信息：<https://manned.org/dos2unix>.
 
 - 更改文件的行尾：

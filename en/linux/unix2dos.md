@@ -2,7 +2,7 @@
 layout: page
 title: linux/unix2dos (English)
 description: "Change Unix-style line endings to DOS-style."
-content_hash: f2acf45299295b0e2d14088a54870c86a721ebf9
+content_hash: 667becaf37689c1837a0810eec8e598bee60e778
 related_topics:
   - title: 中文 version
     url: /zh/linux/unix2dos.html
@@ -11,7 +11,7 @@ related_topics:
 # unix2dos
 
 Change Unix-style line endings to DOS-style.
-Replaces CR with CRLF.
+Replaces LF with CRLF.
 More information: <https://waterlan.home.xs4all.nl/dos2unix.html>.
 
 - Change the line endings of a file:

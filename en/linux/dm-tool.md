@@ -2,12 +2,9 @@
 layout: page
 title: linux/dm-tool (English)
 description: "A tool to communicate with the display manager."
-content_hash: cf5918b9cf7e3f3211533d687d84f37f8c5fa1f3
+content_hash: 16560d457ccda7d6ae389044c5a80e9ada9016ff
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dm-tool
+# dm-tool
 
 A tool to communicate with the display manager.
 More information: <https://manned.org/dm-tool>.
@@ -20,7 +17,7 @@ More information: <https://manned.org/dm-tool>.
 
 `dm-tool lock`
 
-- Swicth to a specific user, showing an authentication prompt if required:
+- Switch to a specific user, showing an authentication prompt if required:
 
 `dm-tool switch-to-user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">session</span>
 

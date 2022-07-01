@@ -2,12 +2,12 @@
 layout: page
 title: common/masscan (English)
 description: "Network scanner for scanning as fast as possible."
-content_hash: 27dfb3f4f2693611ffcd4bf2918650d396031005
+content_hash: bdfe2deed9130579c19c61b32b1b89f52ea2f740
 ---
 # Masscan
 
 Network scanner for scanning as fast as possible.
-Best run with elevated priviledges. Nmap compability run `masscan --nmap` to find out more.
+Best run with elevated privileges. Nmap compatibility run `masscan --nmap` to find out more.
 More information: <https://github.com/robertdavidgraham/masscan>.
 
 - Scan an IP or network subnet for port 80:
