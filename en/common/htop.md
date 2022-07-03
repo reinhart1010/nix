@@ -2,7 +2,7 @@
 layout: page
 title: common/htop (English)
 description: "Display dynamic real-time information about running processes. An enhanced version of `top`."
-content_hash: 467c801309d08c14de949977e0dc03a1a9278d87
+content_hash: bad4f08bf43d42484b4e46d095fad733e4a1e262
 related_topics:
   - title: español version
     url: /es/common/htop.html
@@ -31,6 +31,10 @@ More information: <https://htop.dev/>.
 - See interactive commands while running htop:
 
 `?`
+
+- Switch to a different tab:
+
+`tab`
 
 - Display help:
 
