@@ -2,7 +2,7 @@
 layout: page
 title: common/crontab (English)
 description: "Schedule cron jobs to run on a time interval for the current user."
-content_hash: e121da00b1c508047462d533988c4270b5bb3cf7
+content_hash: 88c07ce208be880950d4f96b5b2a19efebd72a95
 related_topics:
   - title: italiano version
     url: /it/common/crontab.html
@@ -14,8 +14,7 @@ related_topics:
 # crontab
 
 Schedule cron jobs to run on a time interval for the current user.
-Job definition format: "(min) (hour) (day_of_month) (month) (day_of_week) command_to_execute".
-More information: <https://manned.org/crontab>.
+More information: <https://crontab.guru/>.
 
 - Edit the crontab file for the current user:
 
@@ -41,10 +40,10 @@ More information: <https://manned.org/crontab>.
 
 `0 10 * * * `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_to_execute</span>
 
-- Sample job which runs every minute on the 3rd of April:
+- Sample crontab entry, which runs a command every 10 minutes:
 
-`* * 3 Apr * `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_to_execute</span>
+`*/10 * * * * `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_to_execute</span>
 
-- Sample job which runs a certain script at 02:30 every Friday:
+- Sample crontab entry, which runs a certain script at 02:30 every Friday:
 
 `30 2 * * Fri `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/absolute/path/to/script.sh</span>
