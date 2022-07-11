@@ -2,7 +2,7 @@
 layout: page
 title: linux/sacctmgr (English)
 description: "View, setup, and manage Slurm accounts."
-content_hash: bea37215426913457d298ccb3b4026fba899be3c
+content_hash: 5901fe9f72df4111c5048f02c7d8921ab81f3fd5
 related_topics:
   - title: 中文 version
     url: /zh/linux/sacctmgr.html
@@ -27,4 +27,4 @@ More information: <https://slurm.schedmd.com/sacctmgr.html>.
 
 - Show details of user/association/cluster/account using a specific format:
 
-`sacctmgr show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user|association|cluster|account</span>` format="Accout%10" format="GrpTRES%30"`
+`sacctmgr show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user|association|cluster|account</span>` format="Account%10" format="GrpTRES%30"`

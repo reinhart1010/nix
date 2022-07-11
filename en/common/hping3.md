@@ -2,12 +2,12 @@
 layout: page
 title: common/hping3 (English)
 description: "Advanced ping utility which supports protocols such TCP, UDP, and raw IP."
-content_hash: 87617698e6277a5cb940d1a06649a99ee6c39bd8
+content_hash: 8154ff6df7d80722106d17f360151d1a0fe3d981
 ---
 # hping3
 
 Advanced ping utility which supports protocols such TCP, UDP, and raw IP.
-Best run with elevated priviledges.
+Best run with elevated privileges.
 More information: <https://github.com/antirez/hping>.
 
 - Ping a destination with 4 ICMP ping requests:

@@ -2,7 +2,7 @@
 layout: page
 title: linux/resolvectl (English)
 description: "Resolve domain names, IPV4 and IPv6 addresses, DNS resource records, and services."
-content_hash: 9f386d40cc278eebb329068aa76eba666c9c6315
+content_hash: 2b15c9aa1d5e765d15331ae9bc6c09476d47f1e2
 ---
 # resolvectl
 
@@ -34,6 +34,6 @@ More information: <https://www.freedesktop.org/software/systemd/man/resolvectl.h
 
 `resolvectl opengpg `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">email</span>
 
-- Retreive a TLS key:
+- Retrieve a TLS key:
 
 `resolvectl tlsa tcp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain</span>`:443`
