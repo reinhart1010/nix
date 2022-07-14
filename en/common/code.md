@@ -2,10 +2,13 @@
 layout: page
 title: common/code (English)
 description: "Cross platform and extensible code editor."
-content_hash: 705c34a265b921f24223f17665ba5f6ee8c9fc80
+content_hash: 9730ba08a14b9d6dc7bda1e8410015fc545eff6a
 related_topics:
   - title: Deutsch version
     url: /de/common/code.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/code.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/code.html
@@ -58,4 +61,4 @@ More information: <https://github.com/microsoft/vscode>.
 
 - Start the editor as a superuser (root) while storing user data in a specific directory:
 
-`sudo code --user-data-dir {[path/to/directory</span>
+`sudo code --user-data-dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
