@@ -2,13 +2,13 @@
 layout: page
 title: common/lpr (English)
 description: "CUPS tool for printing files."
-content_hash: 5be1ed91232de0664c787e2557afa11033399687
+content_hash: e31dd642c932c4fc6313ddc38b78075af28cd7c0
 ---
 # lpr
 
 CUPS tool for printing files.
-See also `lpstat` and `lpadmin` for listing and configuring printers.
-More information: <http://www.CUPS.org>.
+See also: `lpstat` and `lpadmin`.
+More information: <https://www.cups.org/doc/man-lpr.html>.
 
 - Print a file to the default printer:
 
@@ -28,7 +28,7 @@ More information: <http://www.CUPS.org>.
 
 - Print double-sided either in portrait (long) or in landscape (short):
 
-`lpr -o sides=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">two_sided_long_edge|two_sided_short_edge</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`lpr -o sides=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">two-sided-long-edge|two-sided-short-edge</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Set page size (more options may be available depending on setup):
 

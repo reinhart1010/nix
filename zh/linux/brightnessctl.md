@@ -2,7 +2,7 @@
 layout: page
 title: linux/brightnessctl (中文)
 description: "GUN/Linux 操作系统上用来读取和控制设备亮度的实用工具。"
-content_hash: 61e228f2f9651e4cbde6defc4dc26be7f8495cb5
+content_hash: b33e3f1e518e88cf316678e7e006179f3f0b6b7e
 related_topics:
   - title: English version
     url: /en/linux/brightnessctl.html
@@ -31,4 +31,4 @@ GUN/Linux 操作系统上用来读取和控制设备亮度的实用工具。
 
 - 将亮度降低指定的递减量：
 
-`brightnessctl set `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-10%</span>
+`brightnessctl set `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10%-</span>

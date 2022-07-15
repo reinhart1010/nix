@@ -2,7 +2,7 @@
 layout: page
 title: linux/brightnessctl (English)
 description: "Utility for reading and controlling device brightness for GNU/Linux operating systems."
-content_hash: ff9a9f7a3d642fd690bdd5ee4d4a09851f0adcb1
+content_hash: 6f8a52ab436ee258b285557ab8db98395d2b2d78
 related_topics:
   - title: 中文 version
     url: /zh/linux/brightnessctl.html
@@ -31,4 +31,4 @@ More information: <https://github.com/Hummer12007/brightnessctl>.
 
 - Decrease brightness by a specified decrement:
 
-`brightnessctl set `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-10%</span>
+`brightnessctl set `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10%-</span>

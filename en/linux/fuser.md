@@ -2,7 +2,7 @@
 layout: page
 title: linux/fuser (English)
 description: "Display process IDs currently using files or sockets."
-content_hash: 2b247c822077dc065b3b11a333a81f9c48f61453
+content_hash: b25e7d15fd830e7358d4f965116d97f833520822
 ---
 # fuser
 
@@ -28,3 +28,7 @@ More information: <https://manned.org/fuser>.
 - Find which processes are accessing the filesystem containing a specific file or directory:
 
 `fuser --mount `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
+
+- Kill all processes with a TCP connection on a specific port:
+
+`fuser --kill `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span>`/tcp`
