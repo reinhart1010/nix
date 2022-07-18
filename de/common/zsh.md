@@ -2,7 +2,7 @@
 layout: page
 title: common/zsh (Deutsch)
 description: "Z SHell."
-content_hash: a0f41ce28f6eac12aded598b09330ed693eac58e
+content_hash: b70fbb929ac0e2d5149f4063fee230d2d17ed5eb
 related_topics:
   - title: English version
     url: /en/common/zsh.html
@@ -48,3 +48,7 @@ Weitere Informationen: <https://www.zsh.org>.
 - Starte eine interaktive Eingabeaufforderung, in der jeder Befehl ausgegeben wird, bevor er ausgeführt wird:
 
 `zsh --verbose`
+
+- Führe einen Befehl innerhalb von `zsh` mit ausgeschalteten Glob-Mustern aus:
+
+`noglob `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehl</span>

@@ -2,7 +2,7 @@
 layout: page
 title: common/zsh (English)
 description: "Z SHell, a Bash-compatible command-line interpreter."
-content_hash: 720fe22caeaaff7c4d7bd134bbe37ed58fdb6335
+content_hash: 90973fcea70ace6fe6a221456ac1afc3cd436372
 related_topics:
   - title: Deutsch version
     url: /de/common/zsh.html
@@ -48,3 +48,7 @@ More information: <https://www.zsh.org>.
 - Start an interactive shell session in verbose mode, printing each command before executing it:
 
 `zsh --verbose`
+
+- Execute a specific command inside `zsh` with disabled glob patterns:
+
+`noglob `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
