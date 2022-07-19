@@ -2,7 +2,7 @@
 layout: page
 title: linux/htpdate (English)
 description: "Synchronize local date and time via HTTP headers from web servers."
-content_hash: 9551ef00223e544b34cd8c054546ea7ac8c99366
+content_hash: f20258de320b428bcda21d33a31394b080d69894
 ---
 # htpdate
 
@@ -17,7 +17,7 @@ More information: <http://www.vervest.org/htp/>.
 
 `htpdate -q `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>
 
-- Compensate the systematisch clock drift:
+- Compensate the systematic clock drift:
 
 `sudo htpdate -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>
 

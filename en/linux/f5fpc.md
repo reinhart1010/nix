@@ -1,12 +1,12 @@
 ---
 layout: page
 title: linux/f5fpc (English)
-description: "A proprietry commercial SSL VPN client by BIG-IP Edge."
-content_hash: ff5ea6dab6f5fcff9b2b3c13fcaf268f4417bfe1
+description: "A proprietary commercial SSL VPN client by BIG-IP Edge."
+content_hash: 58fa7f3d106b3d1fb9544206dd041e260cbc9003
 ---
 # f5fpc
 
-A proprietry commercial SSL VPN client by BIG-IP Edge.
+A proprietary commercial SSL VPN client by BIG-IP Edge.
 More information: <https://techdocs.f5.com/kb/en-us/products/big-ip_apm/manuals/product/apm-client-configuration-11-4-0/4.html>.
 
 - Open a new VPN connection:

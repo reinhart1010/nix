@@ -2,7 +2,7 @@
 layout: page
 title: linux/paru (English)
 description: "An AUR helper and pacman wrapper."
-content_hash: 7fad14aedac3b2004f3ea4cf0993d331c71c5711
+content_hash: 9d95d89114de52ae25bd8feef5ea99bcea020ffa
 ---
 # paru
 
@@ -11,7 +11,7 @@ More information: <https://github.com/Morganamilo/paru>.
 
 - Interactively search for and install a package:
 
-`paru `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name_or_seach_term</span>
+`paru `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name_or_search_term</span>
 
 - Synchronize and update all packages:
 

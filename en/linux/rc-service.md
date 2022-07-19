@@ -2,7 +2,7 @@
 layout: page
 title: linux/rc-service (English)
 description: "Locate and run OpenRC services with arguments."
-content_hash: 1eb0c4eb21bb1dc9964000b175adb3d563eb500b
+content_hash: b9a1b4a70ca838a616fd6531779530f8b0585163
 ---
 # rc-service
 
@@ -20,7 +20,7 @@ More information: <https://manned.org/rc-service>.
 
 - Stop a service:
 
-`sudo rc-servie `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span>` stop`
+`sudo rc-service `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span>` stop`
 
 - Restart a service:
 

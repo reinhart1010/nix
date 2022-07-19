@@ -2,7 +2,7 @@
 layout: page
 title: linux/create_ap (English)
 description: "Create an AP (Access Point) at any channel."
-content_hash: 2930d477b2116dc2c47ff0c089d83c1e796b9474
+content_hash: df8ed0491b7d34c8acf229e224af0748a1d104c5
 ---
 # create_ap
 
@@ -19,7 +19,7 @@ More information: <https://github.com/oblique/create_ap>.
 
 - Create an access point without Internet sharing:
 
-`create_ap -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">acces_point_ssid</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">passphrase</span>
+`create_ap -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">access_point_ssid</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">passphrase</span>
 
 - Create a bridged network with Internet sharing:
 
