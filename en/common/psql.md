@@ -2,14 +2,14 @@
 layout: page
 title: common/psql (English)
 description: "PostgreSQL command-line client."
-content_hash: f5ad393e2b2915106640ba4b275cc71528784ce1
+content_hash: 83ca0b1f75dd31d9d27884284190b67075331f4d
 ---
 # psql
 
 PostgreSQL command-line client.
 More information: <https://www.postgresql.org/docs/current/app-psql.html>.
 
-- Connect to the database. It connects to localhost using default port 5432 with default user as currently logged in user:
+- Connect to the database. By default, it connects to the local socket using port 5432 with the currently logged in user:
 
 `psql `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database</span>
 
