@@ -2,13 +2,13 @@
 layout: page
 title: common/helix (English)
 description: "Helix, A post-modern text editor, provides several modes for different kinds of text manipulation."
-content_hash: 80d064b95d929c2740a963cc045d7670f0e86bd0
+content_hash: 57dec74fe57c11e893ca6571f56d9d35be2e2bb4
 ---
-# vim
+# helix
 
 Helix, A post-modern text editor, provides several modes for different kinds of text manipulation.
 Pressing `i` enters insert mode. `<Esc>` enters normal mode, which enables the use of Helix commands.
-More information: <https://helix-editor.com/>.
+More information: <https://helix-editor.com>.
 
 - Open a file:
 
