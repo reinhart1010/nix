@@ -2,12 +2,12 @@
 layout: page
 title: common/piactl (English)
 description: "The command-line tool for Private Internet Access, a commercial VPN provider."
-content_hash: c62f9a2407c3285767a8d542fedd72038920b319
+content_hash: 70cf7a8ac294b6beee2072f48d1de06aa3cb95ae
 ---
 # piactl
 
 The command-line tool for Private Internet Access, a commercial VPN provider.
-More information: <https://privateinternetaccess.com/helpdesk/kb/articles/pia-desktop-command-line-interface>.
+More information: <https://helpdesk.privateinternetaccess.com/kb/articles/pia-desktop-command-line-interface-part-1>.
 
 - Log in to Private Internet Access:
 
