@@ -2,11 +2,12 @@
 layout: page
 title: common/spatial (English)
 description: "A set of commands for managing and developing SpatialOS projects."
-content_hash: 00a6af9d0bb47e91f4992704576719d5ebc95a0d
+content_hash: 5293d4d9a3a9bc59b949b25517dec4601f7fc548
 ---
 # spatial
 
 A set of commands for managing and developing SpatialOS projects.
+More information: <https://ims.improbable.io/products/spatialos>.
 
 - Run this when you use a project for the first time:
 

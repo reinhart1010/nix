@@ -2,13 +2,13 @@
 layout: page
 title: common/virt-sparsify (English)
 description: "Make virtual machine drive images thin-provisioned."
-content_hash: d6564a1ae8f24af6feccc0a0451a2133b71d59b8
+content_hash: 0e7255742082888d032f0acfd66776f890545a37
 ---
 # virt-sparsify
 
 Make virtual machine drive images thin-provisioned.
 NOTE: Use only for offline machines to avoid data corruption.
-Home page: <https://libguestfs.org/>.
+More information: <https://libguestfs.org>.
 
 - Create a sparsified compressed image without snapshots from an unsparsified one:
 

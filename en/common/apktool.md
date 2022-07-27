@@ -2,7 +2,7 @@
 layout: page
 title: common/apktool (English)
 description: "Reverse engineer APK files."
-content_hash: 885250a799c12288ad80d910e9d3925e9e54452a
+content_hash: 5b1f103e2a71e15ce5ee14908e8e09c48f0167da
 related_topics:
   - title: Indonesia version
     url: /id/common/apktool.html
@@ -27,6 +27,6 @@ More information: <https://ibotpeaches.github.io/Apktool/>.
 
 `apktool b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
-- Install and store frameworks:
+- Install and store a framework:
 
 `apktool if `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">framework.apk</span>

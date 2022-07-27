@@ -2,12 +2,12 @@
 layout: page
 title: common/waitress-serve (English)
 description: "Pure Python WSGI HTTP Server."
-content_hash: ad8e2bee1b90d833c9d3f12fd7326b86cba98ffe
+content_hash: 53696944a2e9b95cb7070a4e02e0a8ad7b101f67
 ---
 # waitress-serve
 
 Pure Python WSGI HTTP Server.
-More information: <https://github.com/Pylons/waitress>.
+More information: <https://docs.pylonsproject.org/projects/waitress/en/latest/runner.html>.
 
 - Run a Python web app:
 

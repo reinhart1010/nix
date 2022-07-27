@@ -1,0 +1,42 @@
+---
+layout: page
+title: common/apm (français)
+description: "Gestionnaire de paquets pour Atom."
+content_hash: 74db11715ffc59c22cfd7a04acd6f6a5f577e37c
+related_topics:
+  - title: English version
+    url: /en/common/apm.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/common/apm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/apm.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/apm.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/apm.html
+    icon: bi bi-globe
+---
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># apm
+
+Gestionnaire de paquets pour Atom.
+Voir `atom`.
+Plus d'informations : <https://github.com/atom/apm>.
+
+- Installe un paquet depuis http://atom.io/packages ou un thème depuis http://atom.io/themes :
+
+`apm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_paquet</span>
+
+- Supprime un paquet ou un thème :
+
+`apm remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_paquet</span>
+
+- Mets à jour un paquet ou un thème :
+
+`apm upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_paquet</span>

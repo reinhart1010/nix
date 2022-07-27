@@ -2,11 +2,12 @@
 layout: page
 title: common/singularity (English)
 description: "Manage Singularity containers and images."
-content_hash: ec05449d445b25d6c15ee327568b7a6b323c25ac
+content_hash: 1b7cac64f1920d6c75f1486b6cbcefba1465185f
 ---
 # singularity
 
 Manage Singularity containers and images.
+More information: <https://singularity-docs.readthedocs.io/en/latest/#commands>.
 
 - Download a remote image from Sylabs Cloud:
 

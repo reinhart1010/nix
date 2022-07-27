@@ -2,7 +2,7 @@
 layout: page
 title: common/apm (English)
 description: "Atom editor Package Manager."
-content_hash: 7d29ae1fc815c7a538740d79e01d47ad15035d90
+content_hash: 3b2a0534218b6cafc31b7d319d4da77d3031e0ae
 related_topics:
   - title: italiano version
     url: /it/common/apm.html
@@ -23,14 +23,14 @@ Atom editor Package Manager.
 See `atom`.
 More information: <https://github.com/atom/apm>.
 
-- Install packages from http://atom.io/packages and themes from http://atom.io/themes:
+- Install a package from http://atom.io/packages or a theme from http://atom.io/themes:
 
 `apm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
 
-- Remove packages/themes:
+- Remove a package/theme:
 
 `apm remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
 
-- Upgrade packages/themes:
+- Upgrade a package/theme:
 
 `apm upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>

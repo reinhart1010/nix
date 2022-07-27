@@ -2,7 +2,7 @@
 layout: page
 title: common/visudo (svenska)
 description: "Redigera sudoers-filen på säkert sätt."
-content_hash: de94534652c80eb6a1bf0473a30152e2e7b52824
+content_hash: 4a7163480909d1eefa6ec8c7e1c1f59de9076836
 related_topics:
   - title: English version
     url: /en/common/visudo.html
@@ -23,7 +23,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># visudo
 
 Redigera sudoers-filen på säkert sätt.
-Mer information: <https://www.sudo.ws/man/1.8.13/visudo.man.html>.
+Mer information: <https://www.sudo.ws/docs/man/visudo.man>.
 
 - Redigera sudoers-filen:
 

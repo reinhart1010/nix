@@ -2,7 +2,7 @@
 layout: page
 title: common/visudo (English)
 description: "Safely edit the sudoers file."
-content_hash: b18ca8666809be5ebd304f0e4100082cbacb9840
+content_hash: c8b612fd07410b7e6bcad5c9ec38f3fc6b9a7009
 related_topics:
   - title: Nederlands version
     url: /nl/common/visudo.html
@@ -14,7 +14,7 @@ related_topics:
 # visudo
 
 Safely edit the sudoers file.
-More information: <https://www.sudo.ws/man/1.8.13/visudo.man.html>.
+More information: <https://www.sudo.ws/docs/man/visudo.man>.
 
 - Edit the sudoers file:
 
