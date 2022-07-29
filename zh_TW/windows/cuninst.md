@@ -2,7 +2,7 @@
 layout: page
 title: windows/cuninst (中文 (繁體, 台灣))
 description: "這是 `choco uninstall` 命令的一個別名。"
-content_hash: f1e1d34b83061c045896437aa7b0df4258557fbb
+content_hash: 2f5e0673b57a0150e56691e386932da44e1f8894
 related_topics:
   - title: bosanski version
     url: /bs/windows/cuninst.html
@@ -68,6 +68,7 @@ related_topics:
 # cuninst
 
 這是 `choco uninstall` 命令的一個別名。
+更多資訊：<https://docs.chocolatey.org/en-us/choco/commands/uninstall>.
 
 - 原命令的文檔在：
 

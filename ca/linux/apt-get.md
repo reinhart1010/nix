@@ -2,7 +2,7 @@
 layout: page
 title: linux/apt-get (català)
 description: "Eina de gestió de paquets per a distribucions basades en Debian."
-content_hash: 9eaadaf76eb44ac9dd9c184f91a7d92716527904
+content_hash: ce0fc33be8010f92ca001d238d0cf5e214082fc2
 related_topics:
   - title: Deutsch version
     url: /de/linux/apt-get.html
@@ -33,7 +33,7 @@ related_topics:
 
 Eina de gestió de paquets per a distribucions basades en Debian.
 Busca paquets utilizant `apt-cache`.
-Més información: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
+Més informació: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
 
 - Actualitza la llista de paquets i versions disponibles (es recomana executar aquest comandament abans que qualsevol altre `apt-get`):
 

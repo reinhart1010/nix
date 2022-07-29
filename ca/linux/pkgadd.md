@@ -2,7 +2,7 @@
 layout: page
 title: linux/pkgadd (català)
 description: "Afegeix un paquet a un sistema CRUX."
-content_hash: 00b571ec0c46be429b7a9c83604c1e121a5245c3
+content_hash: 95852e06c8d4743cb31ed573d39dd1114b738603
 related_topics:
   - title: English version
     url: /en/linux/pkgadd.html
@@ -14,6 +14,7 @@ related_topics:
 # pkgadd
 
 Afegeix un paquet a un sistema CRUX.
+Més informació: <https://docs.oracle.com/cd/E19253-01/816-5166/pkgadd-1m/index.html>.
 
 - Instal·la un paquet de software local:
 

@@ -2,7 +2,7 @@
 layout: page
 title: windows/cuninst (українська)
 description: "Ця команда є псевдонімом для `choco uninstall`."
-content_hash: 56a31301d2c4c180a8e16e2a20bdd7732370d20f
+content_hash: db997839982945ef3ba87e95814bbbf648927458
 related_topics:
   - title: bosanski version
     url: /bs/windows/cuninst.html
@@ -68,6 +68,7 @@ related_topics:
 # cuninst
 
 Ця команда є псевдонімом для `choco uninstall`.
+Більше інформації: <https://docs.chocolatey.org/en-us/choco/commands/uninstall>.
 
 - Дивись документацію для оригінальної команди:
 

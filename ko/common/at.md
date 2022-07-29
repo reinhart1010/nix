@@ -2,7 +2,7 @@
 layout: page
 title: common/at (한국어)
 description: "명령 실행 후 한 번 실행합니다."
-content_hash: 040af407e9f1ae52577e8def056b4ce34c2f642c
+content_hash: ff5b1135be7334a4319f719b646a5523d2d3b22f
 related_topics:
   - title: English version
     url: /en/common/at.html
@@ -30,7 +30,7 @@ related_topics:
 
 명령 실행 후 한 번 실행합니다.
 서비스 AD(또는 ATRUN)는 실제 실행을 위해 실행되어야 합니다.
-더 많은 정보: <https://man.archlinux.org/man/at.1>.
+더 많은 정보: <https://manned.org/at>.
 
 - 표준 입력에서 명령을 5분 내에 실행(작업이 끝나면 `Ctrl + D` 를 누르세요):
 

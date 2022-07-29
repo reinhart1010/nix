@@ -2,7 +2,7 @@
 layout: page
 title: windows/cuninst (日本語)
 description: "このコマンドは `choco uninstall` のエイリアスです."
-content_hash: b34e30fac49f9c3943d6d3e57b4632d65d7835f7
+content_hash: f60ab82ff4e972e12e3bdbf9132b6c12b277f80e
 related_topics:
   - title: bosanski version
     url: /bs/windows/cuninst.html
@@ -68,6 +68,7 @@ related_topics:
 # cuninst
 
 このコマンドは `choco uninstall` のエイリアスです.
+詳しくはこちら: <https://docs.chocolatey.org/en-us/choco/commands/uninstall>
 
 - オリジナルのコマンドのドキュメントを表示する:
 

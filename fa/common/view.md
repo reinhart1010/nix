@@ -2,7 +2,7 @@
 layout: page
 title: common/view (فارسی)
 description: "نسخه فقط خواندنی vim."
-content_hash: e8cb9eb0c0c3ec129e44272b2ab3a1c5cec8ded3
+content_hash: 555792e2f1c33177e8566ea2b13a916413cd713d
 related_topics:
   - title: bosanski version
     url: /bs/common/view.html
@@ -30,6 +30,7 @@ related_topics:
 
 نسخه فقط خواندنی vim.
 معادل vim -R.
+اطلاعات بیشتر: <https://www.vim.org>.
 
 - باز کردن فایل:
 

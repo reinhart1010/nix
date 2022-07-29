@@ -2,7 +2,7 @@
 layout: page
 title: windows/cuninst (Indonesia)
 description: "Perintah ini merupakan alias dari `choco uninstall`."
-content_hash: a57e16543caa1b68ad6763d02772b54555d65c36
+content_hash: 23b4a0eb3c55a3ac668a3bded8dc108673f0bcad
 related_topics:
   - title: bosanski version
     url: /bs/windows/cuninst.html
@@ -68,6 +68,7 @@ related_topics:
 # cuninst
 
 Perintah ini merupakan alias dari `choco uninstall`.
+Informasi lebih lanjut: <https://docs.chocolatey.org/en-us/choco/commands/uninstall>.
 
 - Menampilkan dokumentasi untuk perintah asli:
 

@@ -2,7 +2,7 @@
 layout: page
 title: osx/qlmanage (中文)
 description: "QuickLook 服务器工具。"
-content_hash: 181bb364b12a7a9158dbb311915d02e601950048
+content_hash: b107f264f29b1c0287cdbeb03509d8fd321306ed
 related_topics:
   - title: English version
     url: /en/osx/qlmanage.html
@@ -11,6 +11,7 @@ related_topics:
 # qlmanage
 
 QuickLook 服务器工具。
+更多信息：<https://ss64.com/osx/qlmanage.html>.
 
 - 快速显示一个或多个文件：
 

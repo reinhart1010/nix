@@ -2,7 +2,7 @@
 layout: page
 title: linux/xsel (français)
 description: "Outil de sélection et de manipulation du presse-papiers X11."
-content_hash: fd3dd5502b95d0240a5c111a05e96653e16d676c
+content_hash: 7fa74ff1c920ed3b24a92855a909da236bcc8165
 related_topics:
   - title: English version
     url: /en/linux/xsel.html
@@ -11,6 +11,7 @@ related_topics:
 # xsel
 
 Outil de sélection et de manipulation du presse-papiers X11.
+Plus d'informations : <https://manned.org/xsel>.
 
 - Utilise la sortie d'une commande comme entrée du presse-papiers (équivalent de `Ctrl + C`) :
 

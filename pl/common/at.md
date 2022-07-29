@@ -2,7 +2,7 @@
 layout: page
 title: common/at (polski)
 description: "Wykonuje polecenia o zadanym czasie."
-content_hash: 9a538de4e1474fb67e6e25ec287c2dbeb6ae4d02
+content_hash: 0441c063484b3bd683a572cf5143b503c3b1e8d3
 related_topics:
   - title: English version
     url: /en/common/at.html
@@ -30,7 +30,7 @@ related_topics:
 
 Wykonuje polecenia o zadanym czasie.
 Aby działać poprawnie wymaga działającego serwisu atd (lub atrun).
-Więcej informacji: <https://man.archlinux.org/man/at.1>.
+Więcej informacji: <https://manned.org/at>.
 
 - Wykonaj za 5 minut polecenie wprowadzone przy użyciu wejścia standardowego (aby zakończyć naciśnij `Ctrl + D`):
 

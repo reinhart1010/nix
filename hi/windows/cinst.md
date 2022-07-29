@@ -2,7 +2,7 @@
 layout: page
 title: windows/cinst (हिन्दी)
 description: "यह आदेश `choco install` का उपनाम है।"
-content_hash: 5a57bcaf1b0045b31c7ed07f6fae43e580a7dbf8
+content_hash: 646a9fca4ffa9e925acfd2ed2f11c0c6fe4680eb
 related_topics:
   - title: bosanski version
     url: /bs/windows/cinst.html
@@ -68,6 +68,7 @@ related_topics:
 # cinst
 
 यह आदेश `choco install` का उपनाम है।
+अधिक जानकारी: <https://docs.chocolatey.org/en-us/choco/commands/install>।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 

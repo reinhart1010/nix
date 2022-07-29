@@ -2,7 +2,7 @@
 layout: page
 title: osx/networksetup (中文)
 description: "网络系统首选项配置工具。"
-content_hash: f3eee820cdc2212424cf865c20dcdd16419f0458
+content_hash: 6ba32ce7ac24b641572a32ff4a92b4eff36024dd
 related_topics:
   - title: English version
     url: /en/osx/networksetup.html
@@ -11,6 +11,7 @@ related_topics:
 # networksetup
 
 网络系统首选项配置工具。
+更多信息：<https://support.apple.com/guide/remote-desktop/about-networksetup-apdd0c5a2d5/mac>.
 
 - 列出可用的网络服务源（以太网、Wi-Fi、蓝牙等）：
 

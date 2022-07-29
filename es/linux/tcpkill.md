@@ -2,8 +2,11 @@
 layout: page
 title: linux/tcpkill (español)
 description: "Mata la conexiones TCP en curso especificadas."
-content_hash: 5b722491850366885bd0bfd88df8fa9da4979ba2
+content_hash: 567309b6d5a08c9f43334d0ff89e24eecfe023fc
 related_topics:
+  - title: català version
+    url: /ca/linux/tcpkill.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/tcpkill.html
     icon: bi bi-globe
@@ -11,6 +14,7 @@ related_topics:
 # tcpkill
 
 Mata la conexiones TCP en curso especificadas.
+Más información: <https://manned.org/tcpkill>.
 
 - Mata las conexiones en curso de una interfaz, máquina y puerto indicados:
 

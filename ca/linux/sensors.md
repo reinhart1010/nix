@@ -2,7 +2,7 @@
 layout: page
 title: linux/sensors (català)
 description: "Proporciona informació dels sensors."
-content_hash: 2072af11e7210fba7ebd2924ede737acf1cd0149
+content_hash: 4168867f701a79ce231222be99924bb81068f65e
 related_topics:
   - title: English version
     url: /en/linux/sensors.html
@@ -14,6 +14,7 @@ related_topics:
 # sensors
 
 Proporciona informació dels sensors.
+Més informació: <https://manned.org/sensors>.
 
 - Mostra les lectures actuals de tots els sensors:
 

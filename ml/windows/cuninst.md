@@ -2,7 +2,7 @@
 layout: page
 title: windows/cuninst (മലയാളം)
 description: "ഈ കമാൻഡ് `choco uninstall` എന്നത്തിന്റെ അപരനാമമാണ്."
-content_hash: 77d27fbb562a57090fada944e99e26c8ec641baa
+content_hash: 9e9bff0dc0a4299e44f39a1935f210ca84a51acf
 related_topics:
   - title: bosanski version
     url: /bs/windows/cuninst.html
@@ -68,6 +68,7 @@ related_topics:
 # cuninst
 
 ഈ കമാൻഡ് `choco uninstall` എന്നത്തിന്റെ അപരനാമമാണ്.
+കൂടുതൽ വിവരങ്ങൾ: <https://docs.chocolatey.org/en-us/choco/commands/uninstall>.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 

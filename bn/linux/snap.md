@@ -2,7 +2,7 @@
 layout: page
 title: linux/snap (বাংলা)
 description: "\"স্ন্যাপ\" স্বয়ংসম্পূর্ণ সফটওয়্যার প্যাকেজসমুহ  পরিচালনার জন্য একটি টুল।"
-content_hash: b26c076959580fa51dda4fd703d2a04ca4ebec74
+content_hash: e457e880038ab5b24ce87243b6420d91cd9e0dac
 related_topics:
   - title: English version
     url: /en/linux/snap.html
@@ -15,6 +15,7 @@ related_topics:
 
 "স্ন্যাপ" স্বয়ংসম্পূর্ণ সফটওয়্যার প্যাকেজসমুহ  পরিচালনার জন্য একটি টুল।
 এটি ".deb" এর জন্য `apt` এর অনুরূপ।
+আরও তথ্য পাবেন: <https://manned.org/snap>.
 
 - একটি প্যাকেজ অনুসন্ধান করুন:
 

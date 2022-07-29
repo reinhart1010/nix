@@ -2,7 +2,7 @@
 layout: page
 title: android/pkg (Deutsch)
 description: "Paketverwaltungs-Werkzeug für Termux."
-content_hash: b110a64123cc1382472a2d2cc546d42a511f5f64
+content_hash: 6845e022dbc6d3d39ba0d7f3f5541e620b24bdbf
 related_topics:
   - title: English version
     url: /en/android/pkg.html
@@ -20,13 +20,10 @@ related_topics:
     url: /zh/android/pkg.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pkg
+# pkg
 
 Paketverwaltungs-Werkzeug für Termux.
-Weitere Information: <https://wiki.termux.com/wiki/Package_Management>.
+Weitere Informationen: <https://wiki.termux.com/wiki/Package_Management>.
 
 - Aktualisiere alle installierten Pakete:
 

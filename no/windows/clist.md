@@ -2,7 +2,7 @@
 layout: page
 title: windows/clist (norsk bokmål (Norge))
 description: "Denne kommandoen er et alias for `choco list`."
-content_hash: dad8f7e9fbb7efecc7d8ace1dc0bdc71db15f8c5
+content_hash: 9390df68c80e9c45b5cbb0bf5e9c77206c7f4340
 related_topics:
   - title: bosanski version
     url: /bs/windows/clist.html
@@ -68,6 +68,7 @@ related_topics:
 # clist
 
 Denne kommandoen er et alias for `choco list`.
+Mer informasjon: <https://docs.chocolatey.org/en-us/choco/commands/list>.
 
 - Vis dokumentasjonen for den opprinnelige kommandoen:
 

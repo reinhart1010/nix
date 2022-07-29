@@ -2,7 +2,7 @@
 layout: page
 title: osx/port (中文)
 description: "macOS 包管理器软件（类似 brew）。"
-content_hash: 4e8f9a3a061f9af89ba409075747a7a70928c9a3
+content_hash: e9d40e221b106a15b4af19af9f97228c06109418
 related_topics:
   - title: English version
     url: /en/osx/port.html
@@ -11,6 +11,7 @@ related_topics:
 # port
 
 macOS 包管理器软件（类似 brew）。
+更多信息：<https://www.macports.org>.
 
 - 搜索包：
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/sudo (français)
 description: "Exécute une commande unique en tant que super-utilisateur (super-user) ou un autre utilisateur."
-content_hash: 72732575b1ca3bac63b68ea12d1eb3f3862017d0
+content_hash: e1018046c443a058c4dac9be0bc5bc8cdc949d57
 related_topics:
   - title: English version
     url: /en/common/sudo.html
@@ -14,13 +14,10 @@ related_topics:
     url: /pl/common/sudo.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># sudo
+# sudo
 
 Exécute une commande unique en tant que super-utilisateur (super-user) ou un autre utilisateur.
-Plus d'information: <https://www.sudo.ws/sudo.html>.
+Plus d'informations : <https://www.sudo.ws/sudo.html>.
 
 - Exécute une commande en tant que super-utilisateur :
 

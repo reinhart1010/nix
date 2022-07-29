@@ -2,7 +2,7 @@
 layout: page
 title: common/crontab (italiano)
 description: "Programma cron job per essere eseguiti a determinati intervalli di tempo per l'utente corrente."
-content_hash: 8f1cd15ec6e1215e7d54a773f7d4070d98966f99
+content_hash: 3c081402c54172db594d06211f7f6fe240a684e6
 related_topics:
   - title: English version
     url: /en/common/crontab.html
@@ -24,7 +24,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 Programma cron job per essere eseguiti a determinati intervalli di tempo per l'utente corrente.
 Formato definizione di un job: "(minuto) (ora) (giorno_del_mese) (mese) (giorno_della_settimana) comando_da_eseguire".
-Maggiori informazioni: <https://manned.org/crontab>.
+Maggiori informazioni: <https://crontab.guru/>.
 
 - Modifica il file crontab per l'utente corrente:
 

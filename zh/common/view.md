@@ -2,7 +2,7 @@
 layout: page
 title: common/view (中文)
 description: "`vim` 的只读版本。"
-content_hash: 4b15cb22377de210b7ba43306a94463845f23328
+content_hash: ca4f34f6f60a0da58b55ef9d0fb9b03f3613c730
 related_topics:
   - title: bosanski version
     url: /bs/common/view.html
@@ -30,6 +30,7 @@ related_topics:
 
 `vim` 的只读版本。
 等效于 `vim -R`.
+更多信息：<https://www.vim.org>.
 
 - 打开文件：
 

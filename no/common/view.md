@@ -2,7 +2,7 @@
 layout: page
 title: common/view (norsk bokmål (Norge))
 description: "En skrivebeskytter vesjon av `vim`."
-content_hash: 2668c1772fea37d97faaa06e072ec359bace8fee
+content_hash: 2af2db10481f35ff9ca330fb59e5dc96f21434ab
 related_topics:
   - title: bosanski version
     url: /bs/common/view.html
@@ -30,6 +30,7 @@ related_topics:
 
 En skrivebeskytter vesjon av `vim`.
 Dette tilsvarer `vim -R`.
+Mer informasjon: <https://www.vim.org>.
 
 - Åpne en fil:
 

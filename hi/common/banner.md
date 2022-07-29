@@ -2,7 +2,7 @@
 layout: page
 title: common/banner (हिन्दी)
 description: "दिए गए तर्क को एक बड़ी ASCII कला के रूप में प्रिंट करें।"
-content_hash: dede8f298ab4c78d6240ee5b7174e6cecc3f8288
+content_hash: 371a5f5ee8f84f5d64739c0656951ef5c4185828
 related_topics:
   - title: English version
     url: /en/common/banner.html
@@ -13,6 +13,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/banner.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/banner.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/banner.html
     icon: bi bi-globe
@@ -20,7 +23,7 @@ related_topics:
 # banner
 
 दिए गए तर्क को एक बड़ी ASCII कला के रूप में प्रिंट करें।
-अधिक जानकारी: <https://man.archlinux.org/man/banner.1>।
+अधिक जानकारी: <https://manned.org/banner>।
 
 - टेक्स्ट संदेश को बड़े बैनर के रूप में प्रिंट करें (उल्लेख वैकल्पिक हैं):
 

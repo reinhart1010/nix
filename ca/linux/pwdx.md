@@ -2,7 +2,7 @@
 layout: page
 title: linux/pwdx (català)
 description: "Mostra el directori de treball de un procés."
-content_hash: 8c3146de3943503a679230a37b58693178424d03
+content_hash: 9e28385175c9e75be64f16ad0fdbfdb05279150d
 related_topics:
   - title: English version
     url: /en/linux/pwdx.html
@@ -14,6 +14,7 @@ related_topics:
 # pwdx
 
 Mostra el directori de treball de un procés.
+Més informació: <https://manned.org/pwdx>.
 
 - Mostra el directori de treball actual de un procés:
 

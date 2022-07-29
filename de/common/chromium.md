@@ -2,10 +2,13 @@
 layout: page
 title: common/chromium (Deutsch)
 description: "Open-Source-Webbrowser von Google."
-content_hash: 074249fc0a84a8485c016a6df91362773b8da12b
+content_hash: a318be6db22a996e039d8a7119e29c2996123328
 related_topics:
   - title: English version
     url: /en/common/chromium.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/chromium.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/chromium.html
@@ -17,10 +20,19 @@ related_topics:
     url: /pt_BR/common/chromium.html
     icon: bi bi-globe
 ---
-# chromium
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/chromium.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># chromium
 
 Open-Source-Webbrowser von Google.
-Weitere Informationen: <https://chromium.org>.
+Weitere Informationen: <https://www.chromium.org/developers/how-tos/run-chromium-with-flags/>.
 
 - Öffne eine html-Datei:
 

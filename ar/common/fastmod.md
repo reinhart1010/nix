@@ -2,16 +2,17 @@
 layout: page
 title: common/fastmod (العربية)
 description: "أداة للاستبدال الجزئي للنصوص في قاعدة الأكواد لديك."
-content_hash: 6f2125037644a1fdaa23ced7a1067cf56b8512df
+content_hash: 947d68d6119e3a91e8e7c5583ac5eb5b7f47ac20
+related_topics:
+  - title: English version
+    url: /en/common/fastmod.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># fastmod
+# fastmod
 
 أداة للاستبدال الجزئي للنصوص في قاعدة الأكواد لديك.
 التعبيرات النمطية يعالجها قفص من بضاعة رست وهو regex.
-لمزيد من العلومات: <https://github.com/facebookincubator/fastmod>.
+لمزيد من التفاصيل: <https://github.com/facebookincubator/fastmod>.
 
 - استبدال بالتعبيرات النمطية في كل ملفات المسار الحالي وأبنائه في الملفات غير المُتجاهلة بـ .ignore أو .gitignore:
 

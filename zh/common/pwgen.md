@@ -2,7 +2,7 @@
 layout: page
 title: common/pwgen (中文)
 description: "生成可拼写发音的密码。"
-content_hash: 40256be9704e86adfc66b19010850f2d4a99dde7
+content_hash: c3524505682b021b57fee926086276172d95cb41
 related_topics:
   - title: English version
     url: /en/common/pwgen.html
@@ -11,6 +11,7 @@ related_topics:
 # pwgen
 
 生成可拼写发音的密码。
+更多信息：<https://github.com/tytso/pwgen>.
 
 - 生成指定长度的随机密码：
 

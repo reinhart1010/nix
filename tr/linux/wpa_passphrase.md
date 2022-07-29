@@ -2,18 +2,16 @@
 layout: page
 title: linux/wpa_passphrase (Türkçe)
 description: "Belirtilen SSID için bir ASCII paroladan bir WPA-PSK anahtarı oluşturun."
-content_hash: 4f0f0c6c06149cc62183a19712bbbc1de4200eb6
+content_hash: 82e75fb82dc3393508bc43836099dcfd3f6d374e
 related_topics:
   - title: English version
     url: /en/linux/wpa_passphrase.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># wpa_passphrase
+# wpa_passphrase
 
 Belirtilen SSID için bir ASCII paroladan bir WPA-PSK anahtarı oluşturun.
+Daha fazla bilgi: <https://manned.org/wpa_passphrase.1>.
 
 - Standart girişten parolayı okuyarak belirtilen SSID için WPA-PSK anahtarını hesapla ve görüntüle:
 

@@ -2,7 +2,7 @@
 layout: page
 title: windows/cinst (français)
 description: "Cette commande est un alias de `choco install`."
-content_hash: 41edff96d8b555c32e6f77c62ae8e5497cd1225f
+content_hash: 6c9ea85ed2a36e0f0adedad343d35a488225480f
 related_topics:
   - title: bosanski version
     url: /bs/windows/cinst.html
@@ -68,6 +68,7 @@ related_topics:
 # cinst
 
 Cette commande est un alias de `choco install`.
+Plus d'informations : <https://docs.chocolatey.org/en-us/choco/commands/install>.
 
 - Voir la documentation de la commande originale :
 

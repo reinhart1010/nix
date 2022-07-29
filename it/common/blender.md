@@ -2,7 +2,7 @@
 layout: page
 title: common/blender (italiano)
 description: "Interfaccia da linea di comando per il programma di grafica Blender 3D."
-content_hash: c0535d7dea3b2e1c3dd079f7868a92b98b7fc383
+content_hash: 82a23eb33e5fb4feb7cf952f566b07581029daaf
 related_topics:
   - title: English version
     url: /en/common/blender.html
@@ -15,7 +15,7 @@ related_topics:
 
 Interfaccia da linea di comando per il programma di grafica Blender 3D.
 Gli argomenti sono eseguiti nell'ordine in cui sono dati.
-Maggiori informazioni: <https://docs.blender.org/manual/en/latest/advanced/command_line/>.
+Maggiori informazioni: <https://manned.org/blender>.
 
 - Renderizza tutti i frame di una animazione in background, senza caricare l'interfaccia grafica (l'output è salvato in `/tmp`):
 

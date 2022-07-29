@@ -2,7 +2,7 @@
 layout: page
 title: linux/tcpkill (català)
 description: "Mata les conexions TCP en curs especificades."
-content_hash: 1890c5ca5f8a85c37edadceacc2be61887289341
+content_hash: f4d6135778bbb7c4e2f02d3d720d7c0965f01f00
 related_topics:
   - title: English version
     url: /en/linux/tcpkill.html
@@ -14,6 +14,7 @@ related_topics:
 # tcpkill
 
 Mata les conexions TCP en curs especificades.
+Més informació: <https://manned.org/tcpkill>.
 
 - Mata les conexions en curs d'una interfície, màquina i port indicats:
 

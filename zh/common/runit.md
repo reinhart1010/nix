@@ -2,7 +2,7 @@
 layout: page
 title: common/runit (中文)
 description: "三级初始化系统。"
-content_hash: 563d0cf5a99c955d9b99dd909373c70c9be0a571
+content_hash: c7591f03ef2f968526d542bd38575dfc3d2df6f1
 related_topics:
   - title: English version
     url: /en/common/runit.html
@@ -11,7 +11,7 @@ related_topics:
 # runit
 
 三级初始化系统。
-更多信息：<https://wiki.archlinux.org/index.php/Runit>.
+更多信息：<http://smarden.org/runit/runit.8.html>.
 
 - 启动 runit 的三阶段初始化方案：
 

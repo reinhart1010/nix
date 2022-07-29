@@ -2,10 +2,13 @@
 layout: page
 title: linux/ncal (日本語)
 description: "このコマンドは `cal` のエイリアスです."
-content_hash: a49fe567f40c4469b244bdd4ccd9da6df1893219
+content_hash: 62d4f73dbc3e5b0e4c866c5e8e5b8cef32393fd6
 related_topics:
   - title: bosanski version
     url: /bs/linux/ncal.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/linux/ncal.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/ncal.html
@@ -68,6 +71,7 @@ related_topics:
 # ncal
 
 このコマンドは `cal` のエイリアスです.
+詳しくはこちら: <https://manned.org/ncal>
 
 - オリジナルのコマンドのドキュメントを表示する:
 

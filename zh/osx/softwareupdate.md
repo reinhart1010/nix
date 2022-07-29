@@ -2,7 +2,7 @@
 layout: page
 title: osx/softwareupdate (中文)
 description: "通过命令行更新 macOS 应用商店中应用程序的工具。"
-content_hash: c0f5bb450941d033c7dd135f8a4d1a3b8d0deed9
+content_hash: ddb2014f2c93243d666d64e98a4e62de2c4656ab
 related_topics:
   - title: English version
     url: /en/osx/softwareupdate.html
@@ -14,6 +14,7 @@ related_topics:
 # softwareupdate
 
 通过命令行更新 macOS 应用商店中应用程序的工具。
+更多信息：<https://ss64.com/osx/softwareupdate.html>.
 
 - 列出所有可用的更新：
 

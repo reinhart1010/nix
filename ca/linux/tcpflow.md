@@ -2,7 +2,7 @@
 layout: page
 title: linux/tcpflow (català)
 description: "Captura el tràfic TCP per depuració i anàlisi."
-content_hash: e6bdddf295a3314f423f85d88e66a36be8e19aeb
+content_hash: 23018c2acb7fe7fccf0147007b45e9beb98c092c
 related_topics:
   - title: English version
     url: /en/linux/tcpflow.html
@@ -14,6 +14,7 @@ related_topics:
 # tcpflow
 
 Captura el tràfic TCP per depuració i anàlisi.
+Més informació: <https://manned.org/tcpflow>.
 
 - Mostra totes les dades de la interfície i el port indicats:
 

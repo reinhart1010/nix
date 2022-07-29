@@ -2,7 +2,7 @@
 layout: page
 title: linux/see (Deutsch)
 description: "Alias für die Ansicht von `run-mailcap`."
-content_hash: b65c214f4d3cddc3d3c2f17600e6b87f0bfea1b2
+content_hash: c2663f93515d65bdb9221cf743dfbb9143950064
 related_topics:
   - title: English version
     url: /en/linux/see.html
@@ -12,6 +12,7 @@ related_topics:
 
 Alias für die Ansicht von `run-mailcap`.
 Ein Alias für die Aktion print eines `run-mailcap`.
+Weitere Informationen: <https://manned.org/see>.
 
 - Die Aktion see kann verwendet werden, um eine beliebige Datei (in der Regel ein Bild) im Standard-Mailcap-Explorer anzuzeigen.
 

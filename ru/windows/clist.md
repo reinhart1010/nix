@@ -2,7 +2,7 @@
 layout: page
 title: windows/clist (русский)
 description: "Эта команда — псевдоним для `choco list`."
-content_hash: 0f92f13753eb7d3fc84b8733773952805471cc08
+content_hash: 55896ff2b25c07a836c8fa49b3800586bc999647
 related_topics:
   - title: bosanski version
     url: /bs/windows/clist.html
@@ -68,6 +68,7 @@ related_topics:
 # clist
 
 Эта команда — псевдоним для `choco list`.
+Больше информации: <https://docs.chocolatey.org/en-us/choco/commands/list>.
 
 - Смотри документацию для оригинальной команды:
 

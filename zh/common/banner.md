@@ -2,7 +2,7 @@
 layout: page
 title: common/banner (中文)
 description: "将给定参数输出为大型 ASCII 文字。"
-content_hash: 772b5cb73f74e4cc69828c095e248fa70fa8e72b
+content_hash: 9dbbc495f282e30f1c49d0e1cc2197477409e835
 related_topics:
   - title: English version
     url: /en/common/banner.html
@@ -16,11 +16,14 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/banner.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/banner.html
+    icon: bi bi-globe
 ---
 # banner
 
 将给定参数输出为大型 ASCII 文字。
-更多信息：<https://man.archlinux.org/man/banner.1>.
+更多信息：<https://manned.org/banner>.
 
 - 将文字信息打印为大横幅（引号是可选的）：
 

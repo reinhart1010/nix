@@ -2,7 +2,7 @@
 layout: page
 title: windows/cuninst (norsk bokmål (Norge))
 description: "Denne kommandoen er et alias for `choco uninstall`."
-content_hash: 5c9cfd83d8841d37ffe807fa0d714085c054db80
+content_hash: 331bcd24a3c7e137c246b69c9d6cc059a8e035ee
 related_topics:
   - title: bosanski version
     url: /bs/windows/cuninst.html
@@ -68,6 +68,7 @@ related_topics:
 # cuninst
 
 Denne kommandoen er et alias for `choco uninstall`.
+Mer informasjon: <https://docs.chocolatey.org/en-us/choco/commands/uninstall>.
 
 - Vis dokumentasjonen for den opprinnelige kommandoen:
 

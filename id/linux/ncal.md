@@ -2,10 +2,13 @@
 layout: page
 title: linux/ncal (Indonesia)
 description: "Perintah ini merupakan alias dari `cal`."
-content_hash: 6ca6bedaa6ccc18db2d9ad251dc5b689bf789e61
+content_hash: deea21304c5322952b02f6bbf40ef66e36915972
 related_topics:
   - title: bosanski version
     url: /bs/linux/ncal.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/linux/ncal.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/ncal.html
@@ -68,6 +71,7 @@ related_topics:
 # ncal
 
 Perintah ini merupakan alias dari `cal`.
+Informasi lebih lanjut: <https://manned.org/ncal>.
 
 - Menampilkan dokumentasi untuk perintah asli:
 

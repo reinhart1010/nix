@@ -2,7 +2,7 @@
 layout: page
 title: windows/clist (日本語)
 description: "このコマンドは `choco list` のエイリアスです."
-content_hash: adf813a8e164f245d5038d1d1a0fb19cfb47ed6b
+content_hash: 8f5f7b8d69ac4efe6915de921661892896166934
 related_topics:
   - title: bosanski version
     url: /bs/windows/clist.html
@@ -68,6 +68,7 @@ related_topics:
 # clist
 
 このコマンドは `choco list` のエイリアスです.
+詳しくはこちら: <https://docs.chocolatey.org/en-us/choco/commands/list>
 
 - オリジナルのコマンドのドキュメントを表示する:
 

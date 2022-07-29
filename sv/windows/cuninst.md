@@ -2,7 +2,7 @@
 layout: page
 title: windows/cuninst (svenska)
 description: "Det här kommandot är ett alias för `choco uninstall`."
-content_hash: 812f06e17514d0129cc2d8356e281e451d4c52f8
+content_hash: b65c320ed5fe30d6c3bb083ff42600bfff9d26f9
 related_topics:
   - title: bosanski version
     url: /bs/windows/cuninst.html
@@ -68,6 +68,7 @@ related_topics:
 # cuninst
 
 Det här kommandot är ett alias för `choco uninstall`.
+Mer information: <https://docs.chocolatey.org/en-us/choco/commands/uninstall>.
 
 - Se dokumentationen för orginalkommandot:
 

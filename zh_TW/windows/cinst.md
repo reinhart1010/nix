@@ -2,7 +2,7 @@
 layout: page
 title: windows/cinst (中文 (繁體, 台灣))
 description: "這是 `choco install` 命令的一個別名。"
-content_hash: f165a3d5a97c66e061c91708f0f934f98384972f
+content_hash: 9853b00f485bec14329befe94a6089430f414533
 related_topics:
   - title: bosanski version
     url: /bs/windows/cinst.html
@@ -68,6 +68,7 @@ related_topics:
 # cinst
 
 這是 `choco install` 命令的一個別名。
+更多資訊：<https://docs.chocolatey.org/en-us/choco/commands/install>.
 
 - 原命令的文檔在：
 

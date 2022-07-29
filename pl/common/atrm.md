@@ -2,7 +2,7 @@
 layout: page
 title: common/atrm (polski)
 description: "Usuwa zadania o zadanych identyfikatorach (numerach) wcześniej zakolejkowane przez `at` lub `batch`"
-content_hash: f0151c27e8dd6dc256464d0084936a3202910eba
+content_hash: 7e130ea901296cfc43b4e81353d00dbc92f861b6
 related_topics:
   - title: English version
     url: /en/common/atrm.html
@@ -15,7 +15,7 @@ related_topics:
 
 Usuwa zadania o zadanych identyfikatorach (numerach) wcześniej zakolejkowane przez `at` lub `batch`
 Aby znaleźć numery zadań, użyj `atq`.
-Więcej informacji: <https://man.archlinux.org/man/at.1>.
+Więcej informacji: <https://manned.org/atrm>.
 
 - Usuń zadanie numer 10:
 

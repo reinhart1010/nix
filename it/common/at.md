@@ -2,7 +2,7 @@
 layout: page
 title: common/at (italiano)
 description: "Programma l'esecuzione di comandi nel futuro."
-content_hash: dc9fdde925bbb4672d77a2bbdcc360ef4c621bce
+content_hash: bff550bb222f978572eabb0c9adfc5499d8f500c
 related_topics:
   - title: English version
     url: /en/common/at.html
@@ -30,7 +30,7 @@ related_topics:
 
 Programma l'esecuzione di comandi nel futuro.
 Il servizio atd (o atrun) deve essere attivo per eseguire i comandi.
-Maggiori informazioni: <https://man.archlinux.org/man/at.1>.
+Maggiori informazioni: <https://manned.org/at>.
 
 - Esegui i comandi inseriti standard input tra 5 minuti (premere `Ctrl + D` dopo aver inserito i comandi):
 

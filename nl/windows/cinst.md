@@ -2,7 +2,7 @@
 layout: page
 title: windows/cinst (Nederlands)
 description: "Dit commando is een alias van `choco install`."
-content_hash: 9b628c663553e21c2ae4c282e7bea72cd986b92f
+content_hash: e288be741c14f5d3f695c4c2a12110336ca141fd
 related_topics:
   - title: bosanski version
     url: /bs/windows/cinst.html
@@ -68,6 +68,7 @@ related_topics:
 # cinst
 
 Dit commando is een alias van `choco install`.
+Meer informatie: <https://docs.chocolatey.org/en-us/choco/commands/install>.
 
 - Bekijk de documentatie van het originele commando:
 

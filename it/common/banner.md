@@ -2,7 +2,7 @@
 layout: page
 title: common/banner (italiano)
 description: "Stampa il testo fornito per argomento come un grande banner in ASCII art."
-content_hash: 0450458616cbec2ab662d844d9b206a08e0fc0c3
+content_hash: 44bb9895b10d0913ab8ae907f844e9ea6b3721f5
 related_topics:
   - title: English version
     url: /en/common/banner.html
@@ -13,6 +13,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/banner.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/banner.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/banner.html
     icon: bi bi-globe
@@ -20,7 +23,7 @@ related_topics:
 # banner
 
 Stampa il testo fornito per argomento come un grande banner in ASCII art.
-Maggiori informazioni: <https://man.archlinux.org/man/banner.1>.
+Maggiori informazioni: <https://manned.org/banner>.
 
 - Stampa il testo come un grande banner (le virgolette sono opzionali):
 

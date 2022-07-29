@@ -2,19 +2,16 @@
 layout: page
 title: linux/alien (Deutsch)
 description: "Ein Installations-Paket in ein anderes Format umwandeln."
-content_hash: f196d110a659da8e30c1dc867e59e4dc4cb981a0
+content_hash: ca6ac892bf683f259fbee8e32c24593f95480822
 related_topics:
   - title: English version
     url: /en/linux/alien.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># alien
+# alien
 
 Ein Installations-Paket in ein anderes Format umwandeln.
-Mehr Informationen: <https://manned.org/alien>.
+Weitere Informationen: <https://manned.org/alien>.
 
 - Ein spezifisches Installationspaket in das Debian Format umwandeln (`.deb` Erweiterung)
 

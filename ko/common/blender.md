@@ -2,7 +2,7 @@
 layout: page
 title: common/blender (한국어)
 description: "Blender 3D 컴퓨터 그래픽스 어플리케이션의 커맨드라인 인터페이스. 인자는 주어진 순서대로 실행."
-content_hash: efa919432b53d3a63e100c69a0e4c3f17f2e226f
+content_hash: 83129459422196cb257e7b8704f5faf9e05f5a83
 related_topics:
   - title: English version
     url: /en/common/blender.html
@@ -14,7 +14,7 @@ related_topics:
 # blender
 
 Blender 3D 컴퓨터 그래픽스 어플리케이션의 커맨드라인 인터페이스. 인자는 주어진 순서대로 실행.
-더 많은 정보: <https://docs.blender.org/manual/en/latest/advanced/command_line/>.
+더 많은 정보: <https://manned.org/blender>.
 
 - UI를 로드하지 않고 background에서 애니메이션의 모든 프레임을 렌더링.(출력은 `/tmp`에 저장):
 

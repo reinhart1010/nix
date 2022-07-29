@@ -2,7 +2,7 @@
 layout: page
 title: common/fortune (español)
 description: "Imprime por pantalla una cita aleatoria (al estilo de una galleta de la suerte)."
-content_hash: 680511ec785e023b4b748eb9c1b2a21d6318c344
+content_hash: e4a8298c00b89f5b2dae99f0cbfd497e996d647f
 related_topics:
   - title: Deutsch version
     url: /de/common/fortune.html
@@ -14,7 +14,7 @@ related_topics:
 # fortune
 
 Imprime por pantalla una cita aleatoria (al estilo de una galleta de la suerte).
-Más información: <https://man.archlinux.org/man/fortune.6>.
+Más información: <https://manned.org/fortune>.
 
 - Imprime por pantalla una cita:
 

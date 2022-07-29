@@ -2,7 +2,7 @@
 layout: page
 title: linux/newgrp (català)
 description: "Canvia el grup primari de pertinència."
-content_hash: ebd88091c4e78ff798f0c785efeef3f593c8c77b
+content_hash: efc0c8060b52403c4924cf42ca84a09d9050b1ab
 related_topics:
   - title: English version
     url: /en/linux/newgrp.html
@@ -14,6 +14,7 @@ related_topics:
 # newgrp
 
 Canvia el grup primari de pertinència.
+Més informació: <https://manned.org/newgrp>.
 
 - Canvia el grup primari de pertinència del usuari:
 

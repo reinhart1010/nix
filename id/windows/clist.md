@@ -2,7 +2,7 @@
 layout: page
 title: windows/clist (Indonesia)
 description: "Perintah ini merupakan alias dari `choco list`."
-content_hash: 4c514b333023d2da76ddf41df1c63db5b1a9152f
+content_hash: 9b3e11f369dd50baaff397b42b17011b8d67d730
 related_topics:
   - title: bosanski version
     url: /bs/windows/clist.html
@@ -68,6 +68,7 @@ related_topics:
 # clist
 
 Perintah ini merupakan alias dari `choco list`.
+Informasi lebih lanjut: <https://docs.chocolatey.org/en-us/choco/commands/list>.
 
 - Menampilkan dokumentasi untuk perintah asli:
 

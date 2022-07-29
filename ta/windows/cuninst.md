@@ -2,7 +2,7 @@
 layout: page
 title: windows/cuninst (தமிழ்)
 description: "இக்கட்டளை `choco uninstall` கட்டளையின் மற்றொருப் பெயர்."
-content_hash: fdd2066268734aea2f15b911a6539a3f541ba784
+content_hash: d0cd5060387504b7aa15f7add3c30c38e004b97b
 related_topics:
   - title: bosanski version
     url: /bs/windows/cuninst.html
@@ -68,6 +68,7 @@ related_topics:
 # cuninst
 
 இக்கட்டளை `choco uninstall` கட்டளையின் மற்றொருப் பெயர்.
+மேலும் விவரத்திற்கு: <https://docs.chocolatey.org/en-us/choco/commands/uninstall>.
 
 - அக்கட்டளையின் விளக்கத்தைக் காண:
 

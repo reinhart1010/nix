@@ -2,7 +2,7 @@
 layout: page
 title: common/atq (polski)
 description: "Pokaż oczekujące zadania użytkownika wprowadzone wcześniej przez polecenia `at` lub `batch`."
-content_hash: 619b53e3fbfe7b50aadc0d14b8337978f3c3a16b
+content_hash: 873fbdd480a7eaccb3da642a8c8d41b568d19cfa
 related_topics:
   - title: English version
     url: /en/common/atq.html
@@ -14,7 +14,7 @@ related_topics:
 # atq
 
 Pokaż oczekujące zadania użytkownika wprowadzone wcześniej przez polecenia `at` lub `batch`.
-Więcej informacji: <https://man.archlinux.org/man/at.1>.
+Więcej informacji: <https://manned.org/atq>.
 
 - Pokaż zaplanowane zadania:
 

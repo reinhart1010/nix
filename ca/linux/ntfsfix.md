@@ -2,7 +2,7 @@
 layout: page
 title: linux/ntfsfix (català)
 description: "Arregla problemes habituals d'una partició NTFS."
-content_hash: 1b993910b5b38713b848c0a734d3b4718cc4644b
+content_hash: 21680061ab7fe18613be7671bb02cb06d4f8c9f3
 related_topics:
   - title: English version
     url: /en/linux/ntfsfix.html
@@ -14,6 +14,7 @@ related_topics:
 # ntfsfix
 
 Arregla problemes habituals d'una partició NTFS.
+Més informació: <https://manned.org/ntfsfix>.
 
 - Arregla una partició NTFS donada:
 

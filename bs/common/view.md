@@ -2,7 +2,7 @@
 layout: page
 title: common/view (bosanski)
 description: "Read-only verzija `vim`."
-content_hash: 51206243689718e8968b69ac7d606c85c117e00d
+content_hash: ba96f2d4440ccf78707360087143ba7c140a0018
 related_topics:
   - title: English version
     url: /en/common/view.html
@@ -30,6 +30,7 @@ related_topics:
 
 Read-only verzija `vim`.
 Ovo je ekvivalent za `vim -R`.
+Više informacija: <https://www.vim.org>.
 
 - Otvori datoteku:
 

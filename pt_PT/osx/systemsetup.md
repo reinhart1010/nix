@@ -2,7 +2,7 @@
 layout: page
 title: osx/systemsetup (português (Portugal))
 description: "Configura as definições de Preferencias do Sistema da máquina"
-content_hash: dc0312abd9d96707055d5f39583e0d4c6ac1fe30
+content_hash: 80fe0abb64b2c9a4d07c08df61d65aba27184ad2
 related_topics:
   - title: English version
     url: /en/osx/systemsetup.html
@@ -14,7 +14,7 @@ related_topics:
 # systemsetup
 
 Configura as definições de Preferencias do Sistema da máquina
-Mais informações: <https://ss64.com/osx/systemsetup.html>.
+Mais informações: <https://support.apple.com/guide/remote-desktop/about-systemsetup-apd95406b8d/mac>.
 
 - Ativa autenticação remota (SSH):
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/view (Nederlands)
 description: "Een alleen-lezen versie van `vim`."
-content_hash: 1f611d9aba736b89faf93557520a47a90c529eeb
+content_hash: 8f0af7fc9ebb48955becee3fd60fa9d8c80eecbe
 related_topics:
   - title: bosanski version
     url: /bs/common/view.html
@@ -30,6 +30,7 @@ related_topics:
 
 Een alleen-lezen versie van `vim`.
 Dit is gelijk aan `vim -R`.
+Meer informatie: <https://www.vim.org>.
 
 - Open een bestand:
 

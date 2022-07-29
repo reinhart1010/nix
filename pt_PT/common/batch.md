@@ -2,7 +2,7 @@
 layout: page
 title: common/batch (português (Portugal))
 description: "Executar comandos num momento mais tarde quando a carga do sistema permitir."
-content_hash: 2c024b94b407b34b01b1cd715f16f776d4d3d6bd
+content_hash: fb1d41d1578808ee5962b1904318ebc684eee82e
 related_topics:
   - title: English version
     url: /en/common/batch.html
@@ -21,7 +21,7 @@ related_topics:
 
 Executar comandos num momento mais tarde quando a carga do sistema permitir.
 O serviço atd (ou atrun) deve correr para atuais execuções.
-Mais informações: <https://man.archlinux.org/man/at.1>.
+Mais informações: <https://manned.org/batch>.
 
 - Executar comandos da entrada padrão (premir `Ctrl + D` quando terminado):
 

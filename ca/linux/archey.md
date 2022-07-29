@@ -2,7 +2,7 @@
 layout: page
 title: linux/archey (català)
 description: "Eina senzilla per mostrar informació del sistema amb estil."
-content_hash: 30ea6229c33e700bc92779306ab2fd07a61145e3
+content_hash: 06c59e2053017f27e19baf864c0216c1fea9f41f
 related_topics:
   - title: Deutsch version
     url: /de/linux/archey.html
@@ -23,7 +23,7 @@ related_topics:
 # archey
 
 Eina senzilla per mostrar informació del sistema amb estil.
-Més Informació: <https://lclarkmichalek.github.io/archey3/>.
+Més informació: <https://lclarkmichalek.github.io/archey3/>.
 
 - Mostra informació del sistema:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/at (français)
 description: "Planifie l'exécution d'une commande une fois à un moment donné."
-content_hash: 845a89b69616a4c4d7dc7c2346d48991397a6e86
+content_hash: dec31a7085c77ba969d49b9636e94c370b30fe1d
 related_topics:
   - title: English version
     url: /en/common/at.html
@@ -30,7 +30,7 @@ related_topics:
 
 Planifie l'exécution d'une commande une fois à un moment donné.
 Le service atd (ou atrun) doit être actif pour l'exécution des commandes planifiées.
-Plus d'informations : <https://man.archlinux.org/man/at.1>.
+Plus d'informations : <https://manned.org/at>.
 
 - Planifie l'exécution de la commande donnée dans l'entrée standard dans 5 minutes (Appuyer sur `Ctrl + D` une fois la commande inscrite) :
 

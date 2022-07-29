@@ -2,7 +2,7 @@
 layout: page
 title: windows/cinst (தமிழ்)
 description: "இக்கட்டளை `choco install` கட்டளையின் மற்றொருப் பெயர்."
-content_hash: c611a9dbe18bc1b0eca8f79e5bc6ed9958b35e94
+content_hash: 603724c557139af9adaa840a7f099d586e4a19a1
 related_topics:
   - title: bosanski version
     url: /bs/windows/cinst.html
@@ -68,6 +68,7 @@ related_topics:
 # cinst
 
 இக்கட்டளை `choco install` கட்டளையின் மற்றொருப் பெயர்.
+மேலும் விவரத்திற்கு: <https://docs.chocolatey.org/en-us/choco/commands/install>.
 
 - அக்கட்டளையின் விளக்கத்தைக் காண:
 

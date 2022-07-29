@@ -2,7 +2,7 @@
 layout: page
 title: windows/cuninst (português (Brasil))
 description: "Este comando é um pseudônimo de `choco uninstall`."
-content_hash: 6771e7b5692fe923d18ebb1684f01e98acd4845d
+content_hash: 9608a46bef230c29dd3467fade37247c842a936c
 related_topics:
   - title: bosanski version
     url: /bs/windows/cuninst.html
@@ -68,6 +68,7 @@ related_topics:
 # cuninst
 
 Este comando é um pseudônimo de `choco uninstall`.
+Mais informações: <https://docs.chocolatey.org/en-us/choco/commands/uninstall>.
 
 - Ver documentação sobre o comando original:
 

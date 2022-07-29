@@ -2,10 +2,13 @@
 layout: page
 title: linux/ncal (中文)
 description: "这是 `cal` 命令的一个别名。"
-content_hash: b5829b4b49774e3587c7ff083a315e63b7229a00
+content_hash: 5f7c62cf0147887423ed2a39b8f07fb57c648e49
 related_topics:
   - title: bosanski version
     url: /bs/linux/ncal.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/linux/ncal.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/ncal.html
@@ -68,6 +71,7 @@ related_topics:
 # ncal
 
 这是 `cal` 命令的一个别名。
+更多信息：<https://manned.org/ncal>.
 
 - 原命令的文档在：
 

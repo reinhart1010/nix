@@ -2,7 +2,7 @@
 layout: page
 title: osx/open (中文)
 description: "打开文件、目录和应用程序。"
-content_hash: a2c2d78ee751cd98a3cba24e2a13420de2077c9c
+content_hash: da231b0f0fb7659d05fd0dce47a4f1a7fffa48fc
 related_topics:
   - title: Deutsch version
     url: /de/osx/open.html
@@ -10,10 +10,14 @@ related_topics:
   - title: English version
     url: /en/osx/open.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/osx/open.html
+    icon: bi bi-globe
 ---
 # open
 
 打开文件、目录和应用程序。
+更多信息：<https://ss64.com/osx/open.html>.
 
 - 使用系统关联的应用程序打开文件：
 

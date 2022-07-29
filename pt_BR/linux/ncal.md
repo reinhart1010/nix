@@ -2,10 +2,13 @@
 layout: page
 title: linux/ncal (português (Brasil))
 description: "Este comando é um pseudônimo de `cal`."
-content_hash: c09f916d473ba9e64bf81a6b61e47ddd280992cd
+content_hash: 81ae17a3c30a5f18fb77899c7578211bb04332c3
 related_topics:
   - title: bosanski version
     url: /bs/linux/ncal.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/linux/ncal.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/ncal.html
@@ -68,6 +71,7 @@ related_topics:
 # ncal
 
 Este comando é um pseudônimo de `cal`.
+Mais informações: <https://manned.org/ncal>.
 
 - Ver documentação sobre o comando original:
 

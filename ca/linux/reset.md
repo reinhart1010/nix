@@ -2,7 +2,7 @@
 layout: page
 title: linux/reset (català)
 description: "Reinicialitza la terminal actual. Borra tota la pantalla de la terminal."
-content_hash: 4dae6f5fe55c5e83d5f7ebb6a733d6203b3e4e2b
+content_hash: 87ebf18d6302d5d4d65896db17e4ec3b7f07b097
 related_topics:
   - title: English version
     url: /en/linux/reset.html
@@ -14,6 +14,7 @@ related_topics:
 # reset
 
 Reinicialitza la terminal actual. Borra tota la pantalla de la terminal.
+Més informació: <https://manned.org/reset>.
 
 - Reinicialitza la terminal actual:
 

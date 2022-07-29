@@ -2,10 +2,13 @@
 layout: page
 title: linux/ncal (русский)
 description: "Эта команда — псевдоним для `cal`."
-content_hash: f179c769f2e0284ffc37b4899e11620608bd70c4
+content_hash: 495f86ab6ed4c91c09fa363e5732199fd2585285
 related_topics:
   - title: bosanski version
     url: /bs/linux/ncal.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/linux/ncal.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/ncal.html
@@ -68,6 +71,7 @@ related_topics:
 # ncal
 
 Эта команда — псевдоним для `cal`.
+Больше информации: <https://manned.org/ncal>.
 
 - Смотри документацию для оригинальной команды:
 

@@ -2,7 +2,7 @@
 layout: page
 title: windows/clist (മലയാളം)
 description: "ഈ കമാൻഡ് `choco list` എന്നത്തിന്റെ അപരനാമമാണ്."
-content_hash: c2f480e915e93ebabe3ea83178be4aa3be65e54f
+content_hash: b8297013123a8bfdb298f4cbf4a76f9fd0c812d5
 related_topics:
   - title: bosanski version
     url: /bs/windows/clist.html
@@ -68,6 +68,7 @@ related_topics:
 # clist
 
 ഈ കമാൻഡ് `choco list` എന്നത്തിന്റെ അപരനാമമാണ്.
+കൂടുതൽ വിവരങ്ങൾ: <https://docs.chocolatey.org/en-us/choco/commands/list>.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 

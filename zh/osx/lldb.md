@@ -2,7 +2,7 @@
 layout: page
 title: osx/lldb (中文)
 description: "LLVM 低级调试器。"
-content_hash: 21e172728f7756342c8d6843a8b49b54f8cd2141
+content_hash: 51e2c47247066fc664896a1d6bb9dcb7a8f40ef2
 related_topics:
   - title: English version
     url: /en/osx/lldb.html
@@ -11,7 +11,7 @@ related_topics:
 # lldb
 
 LLVM 低级调试器。
-更多信息：<https://lldb.llvm.org>.
+更多信息：<https://lldb.llvm.org/man/lldb.html>.
 
 - 调试可执行文件：
 

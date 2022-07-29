@@ -2,7 +2,7 @@
 layout: page
 title: windows/clist (தமிழ்)
 description: "இக்கட்டளை `choco list` கட்டளையின் மற்றொருப் பெயர்."
-content_hash: ea349e32a54f17252447449642168f936fced209
+content_hash: de9b358f56288de472795827a412eb28a1f8bd2c
 related_topics:
   - title: bosanski version
     url: /bs/windows/clist.html
@@ -68,6 +68,7 @@ related_topics:
 # clist
 
 இக்கட்டளை `choco list` கட்டளையின் மற்றொருப் பெயர்.
+மேலும் விவரத்திற்கு: <https://docs.chocolatey.org/en-us/choco/commands/list>.
 
 - அக்கட்டளையின் விளக்கத்தைக் காண:
 

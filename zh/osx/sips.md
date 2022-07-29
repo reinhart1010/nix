@@ -2,7 +2,7 @@
 layout: page
 title: osx/sips (中文)
 description: "苹果的处理文件脚本系统。"
-content_hash: ca3df8e43b7a0c30ade226b21e884c9fb7a987d8
+content_hash: 8b43ca65a59a9aa6e4b8c3651a4d5354d50de32b
 related_topics:
   - title: English version
     url: /en/osx/sips.html
@@ -12,6 +12,7 @@ related_topics:
 
 苹果的处理文件脚本系统。
 光栅 / 查询图像 和 颜色同步 ICC 配置文件。
+更多信息：<https://ss64.com/osx/sips.html>.
 
 - S 指定一个输出目录，这样原始文件就不会被修改：
 

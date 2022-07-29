@@ -2,13 +2,16 @@
 layout: page
 title: common/chromium (한국어)
 description: "구글에서 제공하는 오픈소스 웹 브라우저."
-content_hash: b222da9d11bea50f6fb6ca5e20f686429729230e
+content_hash: 48092587bbeb8ef1a944d047190ea16953cab6d8
 related_topics:
   - title: Deutsch version
     url: /de/common/chromium.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/chromium.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/chromium.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/chromium.html
@@ -17,10 +20,19 @@ related_topics:
     url: /pt_BR/common/chromium.html
     icon: bi bi-globe
 ---
-# chromium
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/chromium.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># chromium
 
 구글에서 제공하는 오픈소스 웹 브라우저.
-더 많은 정보: <https://chromium.org>.
+더 많은 정보: <https://www.chromium.org/developers/how-tos/run-chromium-with-flags/>.
 
 - 파일 열기:
 

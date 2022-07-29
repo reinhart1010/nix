@@ -2,7 +2,7 @@
 layout: page
 title: windows/clist (Nederlands)
 description: "Dit commando is een alias van `choco list`."
-content_hash: c355c0fdde9510686fbb19cb768a55a452930596
+content_hash: 962a2e61f0cca6b41d9c804148865b811a619691
 related_topics:
   - title: bosanski version
     url: /bs/windows/clist.html
@@ -68,6 +68,7 @@ related_topics:
 # clist
 
 Dit commando is een alias van `choco list`.
+Meer informatie: <https://docs.chocolatey.org/en-us/choco/commands/list>.
 
 - Bekijk de documentatie van het originele commando:
 

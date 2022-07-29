@@ -2,7 +2,7 @@
 layout: page
 title: linux/ubuntu-bug (català)
 description: "Aquest commandament és un àlies de `apport-bug`."
-content_hash: d4623ca4833abed942aaa6ca542255ba9f88dfa8
+content_hash: 755f50f9eed43db5fa4b99dbd75172c2de147dc9
 related_topics:
   - title: English version
     url: /en/linux/ubuntu-bug.html
@@ -14,6 +14,7 @@ related_topics:
 # ubuntu-bug
 
 Aquest commandament és un àlies de `apport-bug`.
+Més informació: <https://manned.org/ubuntu-bug>.
 
 - Veure documentació per el commandament original:
 

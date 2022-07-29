@@ -2,15 +2,19 @@
 layout: page
 title: linux/xterm (Türkçe)
 description: "X Ekran Sistemi için terminal öykünücüsü."
-content_hash: cab38e52311396e93070ebbd358cc73bf849b13d
+content_hash: b321082e4dd7e0638c646a270b9281c5181b8805
 related_topics:
   - title: English version
     url: /en/linux/xterm.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/xterm.html
     icon: bi bi-globe
 ---
 # xterm
 
 X Ekran Sistemi için terminal öykünücüsü.
+Daha fazla bilgi: <https://manned.org/xterm>.
 
 - `Örnek` başlığına sahip bir terminal aç:
 

@@ -2,7 +2,7 @@
 layout: page
 title: windows/clist (हिन्दी)
 description: "यह आदेश `choco list` का उपनाम है।"
-content_hash: 1d16d3c60f6c1b24612b240a213056628e39b4c6
+content_hash: 9655e2ac4b61abdbe18920e732c45f678bf6bd21
 related_topics:
   - title: bosanski version
     url: /bs/windows/clist.html
@@ -68,6 +68,7 @@ related_topics:
 # clist
 
 यह आदेश `choco list` का उपनाम है।
+अधिक जानकारी: <https://docs.chocolatey.org/en-us/choco/commands/list>।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 

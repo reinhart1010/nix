@@ -2,7 +2,7 @@
 layout: page
 title: common/crontab (한국어)
 description: "현재 사용자의 시간 간격으로 cron작업이 실행되도록 스케줄."
-content_hash: e46e3cca88d8022820bf84d4ae2d22cb27361380
+content_hash: 00fc6feca61f89a3593b24757cb00320d1e5a04c
 related_topics:
   - title: English version
     url: /en/common/crontab.html
@@ -24,7 +24,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 현재 사용자의 시간 간격으로 cron작업이 실행되도록 스케줄.
 작업 정의 형식: "(분) (시) (날짜) (달) (요일) 실행 할 명령".
-더 많은 정보: <https://manned.org/crontab>.
+더 많은 정보: <https://crontab.guru/>.
 
 - 현재 사용자의 crontab파일 편집:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/batch (italiano)
 description: "Esegui comandi nel futuro quando il carico di lavoro del sistema lo permette."
-content_hash: 7b7af8d6153aceb24e0ed7bb770b3df18b6501ea
+content_hash: 2c05652c0b5c1ed4be042be3bb22b3a1a06308cd
 related_topics:
   - title: English version
     url: /en/common/batch.html
@@ -21,7 +21,7 @@ related_topics:
 
 Esegui comandi nel futuro quando il carico di lavoro del sistema lo permette.
 Il servizio atd (o atrun) deve essere attivo per eseguire i comandi.
-Maggiori informazioni: <https://man.archlinux.org/man/at.1>.
+Maggiori informazioni: <https://manned.org/batch>.
 
 - Esegui i comandi inseriti standard input (premere `Ctrl + D` dopo aver inserito i comandi):
 

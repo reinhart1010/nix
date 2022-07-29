@@ -2,18 +2,16 @@
 layout: page
 title: linux/wpa_cli (Türkçe)
 description: "Kablosuz LAN arayüzleri ekleyin ve yapılandırın."
-content_hash: 283681e2e2ac93ee0dda66095af65fbce3254747
+content_hash: e2b2f88d5a2123d3d4c1e3b90867e4f3e180e2b8
 related_topics:
   - title: English version
     url: /en/linux/wpa_cli.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># wpa_cli
+# wpa_cli
 
 Kablosuz LAN arayüzleri ekleyin ve yapılandırın.
+Daha fazla bilgi: <https://manned.org/wpa_cli>.
 
 - Kullanılabilir ağları tara:
 

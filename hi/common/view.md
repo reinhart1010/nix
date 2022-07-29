@@ -2,7 +2,7 @@
 layout: page
 title: common/view (हिन्दी)
 description: "`Vim` का केवल-पढ़ने वाला संस्करण।"
-content_hash: 5bee33e1812d89616dda8d5ec3d2ad3c5d6cad18
+content_hash: 27beb7a67403f356d6973e4f39e7319a5182a04b
 related_topics:
   - title: bosanski version
     url: /bs/common/view.html
@@ -30,6 +30,7 @@ related_topics:
 
 `Vim` का केवल-पढ़ने वाला संस्करण।
 यह `विम -R` के बराबर है।
+अधिक जानकारी: <https://www.vim.org>।
 
 - एक फ़ाइल खोलो:
 

@@ -2,7 +2,7 @@
 layout: page
 title: linux/sensible-browser (català)
 description: "Obre el navegador predeterminat."
-content_hash: 071afd45d2a7bb865a7749131f0ff028e3316768
+content_hash: bd16ce2873b48daa89ebc9bb6975262a61c7cec9
 related_topics:
   - title: English version
     url: /en/linux/sensible-browser.html
@@ -14,6 +14,7 @@ related_topics:
 # sensible-browser
 
 Obre el navegador predeterminat.
+Més informació: <https://manned.org/sensible-browser>.
 
 - Obre una nova finestra del navegador predeterminat:
 

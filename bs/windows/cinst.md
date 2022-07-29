@@ -2,7 +2,7 @@
 layout: page
 title: windows/cinst (bosanski)
 description: "Ova komanda je pseudonim za `choco install`."
-content_hash: c09a6fe7345785de55932a348a4822390567fcc4
+content_hash: b0bcecebca004e12a370212e479bbfe528075467
 related_topics:
   - title: Deutsch version
     url: /de/windows/cinst.html
@@ -68,6 +68,7 @@ related_topics:
 # cinst
 
 Ova komanda je pseudonim za `choco install`.
+Više informacija: <https://docs.chocolatey.org/en-us/choco/commands/install>.
 
 - Pogledaj dokumentaciju za izvornu komandu:
 

@@ -2,7 +2,7 @@
 layout: page
 title: osx/xcodebuild (中文)
 description: "构建 Xcode 项目。"
-content_hash: ed132dfa55678cdc2af3a6a5bc7fe41159dac9d6
+content_hash: 8d37fdd6ee08b6b05f261e46eb913c71818acf7f
 related_topics:
   - title: English version
     url: /en/osx/xcodebuild.html
@@ -11,6 +11,7 @@ related_topics:
 # xcodebuild
 
 构建 Xcode 项目。
+更多信息：<https://developer.apple.com/library/archive/technotes/tn2339/_index.html>.
 
 - 构建工作区：
 

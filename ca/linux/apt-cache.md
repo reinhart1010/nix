@@ -2,7 +2,7 @@
 layout: page
 title: linux/apt-cache (català)
 description: "Eina de consulta de paquets per a Debian y Ubuntu."
-content_hash: 0bd5d7cdebdae2dd69df0ba34bfc36b9694ed3cf
+content_hash: e71bef7dc3e04f0df884f7ff28125a2e37015427
 related_topics:
   - title: Deutsch version
     url: /de/linux/apt-cache.html
@@ -29,7 +29,7 @@ related_topics:
 # apt-cache
 
 Eina de consulta de paquets per a Debian y Ubuntu.
-Más informació: <https://manpages.debian.org/latest/apt/apt-cache.8.html>.
+Més informació: <https://manpages.debian.org/latest/apt/apt-cache.8.html>.
 
 - Busca un paquete en les teves fonts actuals:
 

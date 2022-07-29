@@ -2,7 +2,7 @@
 layout: page
 title: windows/cinst (norsk bokmål (Norge))
 description: "Denne kommandoen er et alias for `choco install`."
-content_hash: 09b67bff03bd5de122d77b159e86cf14fad0ac1c
+content_hash: cbfabe2f3207bc15932a86e66e5bb4ace2340997
 related_topics:
   - title: bosanski version
     url: /bs/windows/cinst.html
@@ -68,6 +68,7 @@ related_topics:
 # cinst
 
 Denne kommandoen er et alias for `choco install`.
+Mer informasjon: <https://docs.chocolatey.org/en-us/choco/commands/install>.
 
 - Vis dokumentasjonen for den opprinnelige kommandoen:
 

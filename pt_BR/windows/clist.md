@@ -2,7 +2,7 @@
 layout: page
 title: windows/clist (português (Brasil))
 description: "Este comando é um pseudônimo de `choco list`."
-content_hash: 8a253e060baaa3a1bbaa3418b84940e9a360d8a2
+content_hash: 0a7fe3e730ceeedfd2ef890974dc6faa3f1f8758
 related_topics:
   - title: bosanski version
     url: /bs/windows/clist.html
@@ -68,6 +68,7 @@ related_topics:
 # clist
 
 Este comando é um pseudônimo de `choco list`.
+Mais informações: <https://docs.chocolatey.org/en-us/choco/commands/list>.
 
 - Ver documentação sobre o comando original:
 

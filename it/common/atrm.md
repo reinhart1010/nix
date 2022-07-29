@@ -2,7 +2,7 @@
 layout: page
 title: common/atrm (italiano)
 description: "Rimuovi job programmati dai comandi `at` o `batch`."
-content_hash: 40c368765b187784c5cb1e8299761cbd8375b12e
+content_hash: 68916c9379be9099ad675e62eb64099023a653c4
 related_topics:
   - title: English version
     url: /en/common/atrm.html
@@ -15,7 +15,7 @@ related_topics:
 
 Rimuovi job programmati dai comandi `at` o `batch`.
 Per trovare i numeri dei job utilizzare `atq`.
-Maggiori informazioni: <https://man.archlinux.org/man/at.1>.
+Maggiori informazioni: <https://manned.org/atrm>.
 
 - Rimuovi il job numero 10:
 

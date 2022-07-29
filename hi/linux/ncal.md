@@ -2,10 +2,13 @@
 layout: page
 title: linux/ncal (हिन्दी)
 description: "यह आदेश `cal` का उपनाम है।"
-content_hash: fbb344370e0f2ea15ad059ccde364a3820fa98d5
+content_hash: c945ce091612115cbeaf9a8fddeadb618c089658
 related_topics:
   - title: bosanski version
     url: /bs/linux/ncal.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/linux/ncal.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/ncal.html
@@ -68,6 +71,7 @@ related_topics:
 # ncal
 
 यह आदेश `cal` का उपनाम है।
+अधिक जानकारी: <https://manned.org/ncal>।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 

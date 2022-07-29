@@ -2,7 +2,7 @@
 layout: page
 title: common/fortune (Deutsch)
 description: "Gib ein zufälliges Glückskeks-Zitat aus."
-content_hash: f37d9b92e906bf5728606311c031f951f03cbb48
+content_hash: fbf56f0ee74d055e06446b1dfb2fa6546c872401
 related_topics:
   - title: English version
     url: /en/common/fortune.html
@@ -14,7 +14,7 @@ related_topics:
 # fortune
 
 Gib ein zufälliges Glückskeks-Zitat aus.
-Weitere Informationen: <https://man.archlinux.org/man/fortune.6>.
+Weitere Informationen: <https://manned.org/fortune>.
 
 - Gib ein Zitat aus:
 

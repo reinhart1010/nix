@@ -2,7 +2,7 @@
 layout: page
 title: windows/cinst (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `choco install`."
-content_hash: e8d393a578c52efe3732e7b4250907f2755a7736
+content_hash: 8a527fadfb900a7269dfa330776adacc071e78f0
 related_topics:
   - title: bosanski version
     url: /bs/windows/cinst.html
@@ -68,6 +68,7 @@ related_topics:
 # cinst
 
 คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `choco install`.
+ดูเพิ่มเติม: <https://docs.chocolatey.org/en-us/choco/commands/install>.
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 

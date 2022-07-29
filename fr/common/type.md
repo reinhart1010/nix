@@ -2,19 +2,16 @@
 layout: page
 title: common/type (français)
 description: "Affiche le type de la commande que le terminal exécuterait."
-content_hash: 38bd15db7fd788243878794e37d7c19665889d61
+content_hash: c52adc99acb59fa2965a6f2a089917038456aac1
 related_topics:
   - title: English version
     url: /en/common/type.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># type
+# type
 
 Affiche le type de la commande que le terminal exécuterait.
-Plus d'information: <https://manned.org/type>.
+Plus d'informations : <https://manned.org/type>.
 
 - Affiche le type d'une commande :
 

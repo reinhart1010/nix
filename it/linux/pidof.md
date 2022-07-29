@@ -2,7 +2,7 @@
 layout: page
 title: linux/pidof (italiano)
 description: "Ottiene l'ID di un processo a partire dal suo nome."
-content_hash: 0d7c5c89319793701df8d152f1e518eef226f603
+content_hash: 31c52f2d76252aa188927c574a4138835bf29aba
 related_topics:
   - title: English version
     url: /en/linux/pidof.html
@@ -11,6 +11,7 @@ related_topics:
 # pidof
 
 Ottiene l'ID di un processo a partire dal suo nome.
+Maggiori informazioni: <https://manned.org/pidof>.
 
 - Elenca gli ID di tutti i processi con un dato nome:
 

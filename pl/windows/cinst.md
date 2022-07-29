@@ -2,7 +2,7 @@
 layout: page
 title: windows/cinst (polski)
 description: "Te polecenie jest aliasem `choco install`."
-content_hash: cf04bc2587958145f8c1028f0a7a13ada8e7d017
+content_hash: a95e50957b8050867de40a85cbdde1188005d344
 related_topics:
   - title: bosanski version
     url: /bs/windows/cinst.html
@@ -68,6 +68,7 @@ related_topics:
 # cinst
 
 Te polecenie jest aliasem `choco install`.
+Więcej informacji: <https://docs.chocolatey.org/en-us/choco/commands/install>.
 
 - Zobacz dokumentację orginalnego polecenia:
 

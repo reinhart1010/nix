@@ -2,7 +2,7 @@
 layout: page
 title: windows/cuninst (Nederlands)
 description: "Dit commando is een alias van `choco uninstall`."
-content_hash: efc091a3ea62d23db7960385d36b1214e17380fa
+content_hash: 43c2a76db5dacfd85b65c3f0dfc888cdd0688b69
 related_topics:
   - title: bosanski version
     url: /bs/windows/cuninst.html
@@ -68,6 +68,7 @@ related_topics:
 # cuninst
 
 Dit commando is een alias van `choco uninstall`.
+Meer informatie: <https://docs.chocolatey.org/en-us/choco/commands/uninstall>.
 
 - Bekijk de documentatie van het originele commando:
 

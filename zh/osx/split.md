@@ -2,7 +2,7 @@
 layout: page
 title: osx/split (中文)
 description: "把一个文件拆分成几块。"
-content_hash: ed41611bf8027cd6d9d1d43a260e79dabff94bad
+content_hash: 2ff59cbbbba9e43a9dd542fd8f4bea5a3102297a
 related_topics:
   - title: English version
     url: /en/osx/split.html
@@ -11,6 +11,7 @@ related_topics:
 # split
 
 把一个文件拆分成几块。
+更多信息：<https://ss64.com/osx/split.html>.
 
 - 分割一个文件，每个分割部分有 10 行（除了最后一个）：
 

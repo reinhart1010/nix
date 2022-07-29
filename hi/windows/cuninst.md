@@ -2,7 +2,7 @@
 layout: page
 title: windows/cuninst (हिन्दी)
 description: "यह आदेश `choco uninstall` का उपनाम है।"
-content_hash: 51166c47b2e60d246879192e7eefad4dd86f2dae
+content_hash: a757d3f53f7f3bf23b8c255da61cc647c44c4b39
 related_topics:
   - title: bosanski version
     url: /bs/windows/cuninst.html
@@ -68,6 +68,7 @@ related_topics:
 # cuninst
 
 यह आदेश `choco uninstall` का उपनाम है।
+अधिक जानकारी: <https://docs.chocolatey.org/en-us/choco/commands/uninstall>।
 
 - मूल आदेश के लिए दस्तावेज़ देखें:
 

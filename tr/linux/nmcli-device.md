@@ -2,19 +2,16 @@
 layout: page
 title: linux/nmcli-device (Türkçe)
 description: "NetworkManager ile donanım aygıtı yönetimi."
-content_hash: 644cfa0cf25bc8d78b1b1e7d8c1d8a94a2707d5f
+content_hash: 9fbaa2f1b6b7fbb1221d9c5494737f2ad6b623c9
 related_topics:
   - title: English version
     url: /en/linux/nmcli-device.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># nmcli device
+# nmcli device
 
 NetworkManager ile donanım aygıtı yönetimi.
-Daha fazla bilgi: <https://man.archlinux.org/man/nmcli.1>.
+Daha fazla bilgi: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
 - Tüm ağ arayüzlerinin durumlarını yazdır:
 

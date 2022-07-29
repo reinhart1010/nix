@@ -2,7 +2,7 @@
 layout: page
 title: windows/clist (français)
 description: "Cette commande est un alias de `choco list`."
-content_hash: 923bb9f6dbb5d519b9ba4b0ef09ea980b44d0370
+content_hash: 52bea07b608f45332e05218e629ab0750fc5b287
 related_topics:
   - title: bosanski version
     url: /bs/windows/clist.html
@@ -68,6 +68,7 @@ related_topics:
 # clist
 
 Cette commande est un alias de `choco list`.
+Plus d'informations : <https://docs.chocolatey.org/en-us/choco/commands/list>.
 
 - Voir la documentation de la commande originale :
 

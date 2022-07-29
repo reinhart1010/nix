@@ -2,10 +2,13 @@
 layout: page
 title: linux/ncal (polski)
 description: "Te polecenie jest aliasem `cal`."
-content_hash: 8824e91d72fbe9ab0c6eedc96c09dcc1b8b4366e
+content_hash: 7835c5f1fb98c4d9f34200d9e1c311f9755dc618
 related_topics:
   - title: bosanski version
     url: /bs/linux/ncal.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/linux/ncal.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/ncal.html
@@ -68,6 +71,7 @@ related_topics:
 # ncal
 
 Te polecenie jest aliasem `cal`.
+Więcej informacji: <https://manned.org/ncal>.
 
 - Zobacz dokumentację orginalnego polecenia:
 

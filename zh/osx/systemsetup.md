@@ -2,7 +2,7 @@
 layout: page
 title: osx/systemsetup (中文)
 description: "配置系统首选项计算机设置。"
-content_hash: dd9bf64e6908675dc6b5782b653457c18a405a9d
+content_hash: 714ec58672675b60e07a5c341e53201b870522b8
 related_topics:
   - title: English version
     url: /en/osx/systemsetup.html
@@ -14,7 +14,7 @@ related_topics:
 # systemsetup
 
 配置系统首选项计算机设置。
-更多信息：<https://ss64.com/osx/systemsetup.html>.
+更多信息：<https://support.apple.com/guide/remote-desktop/about-systemsetup-apd95406b8d/mac>.
 
 - 启用远程登录（SSH）：
 

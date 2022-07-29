@@ -2,7 +2,7 @@
 layout: page
 title: windows/cinst (svenska)
 description: "Det här kommandot är ett alias för `choco install`."
-content_hash: f893acbb28a9c56ade19d3deff2c370a83d8444e
+content_hash: af61a9ebb7d04b99aea24f49eeb441a94a44ccf3
 related_topics:
   - title: bosanski version
     url: /bs/windows/cinst.html
@@ -68,6 +68,7 @@ related_topics:
 # cinst
 
 Det här kommandot är ett alias för `choco install`.
+Mer information: <https://docs.chocolatey.org/en-us/choco/commands/install>.
 
 - Se dokumentationen för orginalkommandot:
 

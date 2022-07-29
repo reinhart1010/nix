@@ -2,7 +2,7 @@
 layout: page
 title: linux/whatis (فارسی)
 description: "نمایش توضیحات یک خطی از صفحات راهنما."
-content_hash: dfa03e73d47742d586dedc1cca7732ca6b0213c2
+content_hash: 5bf1009a1d02cd82c06ea46863d3cd7eeb959f5e
 related_topics:
   - title: English version
     url: /en/linux/whatis.html
@@ -11,6 +11,7 @@ related_topics:
 # whatis
 
 نمایش توضیحات یک خطی از صفحات راهنما.
+اطلاعات بیشتر: <https://manned.org/whatis>.
 
 - نمایش توضیحات یک دستور از صفحات راهنما:
 

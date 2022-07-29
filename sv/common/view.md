@@ -2,7 +2,7 @@
 layout: page
 title: common/view (svenska)
 description: "En skrivskyddad version av `vim`."
-content_hash: e873f190bf365a5ccb1d385fa49d792cd8067e9e
+content_hash: e5ef43988167849818b4a137d1ded73eec0a3a4d
 related_topics:
   - title: bosanski version
     url: /bs/common/view.html
@@ -30,6 +30,7 @@ related_topics:
 
 En skrivskyddad version av `vim`.
 Detta är lika med `vim -R`.
+Mer information: <https://www.vim.org>.
 
 - Öppna en fil:
 

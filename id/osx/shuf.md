@@ -2,7 +2,7 @@
 layout: page
 title: osx/shuf (Indonesia)
 description: "Generate permutasi acak."
-content_hash: 8ad7aad692b20b3a4d7dc363df04beb6413a5e8e
+content_hash: 92f0958ef6eeed31e42214c7b11cbf29078d78ad
 related_topics:
   - title: English version
     url: /en/osx/shuf.html
@@ -14,7 +14,7 @@ related_topics:
 # shuf
 
 Generate permutasi acak.
-Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/shuf>.
+Informasi lebih lanjut: <https://www.unix.com/man-page/linux/1/shuf/>.
 
 - Acak urutan baris di sebuah file dan outputkan hasilnya:
 

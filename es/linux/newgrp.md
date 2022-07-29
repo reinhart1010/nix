@@ -2,8 +2,11 @@
 layout: page
 title: linux/newgrp (español)
 description: "Cambia el grupo primario de pertenencia."
-content_hash: fd6b94f6047eaae901443259b1933044e7bb39a9
+content_hash: beae94f9b96de41aa63cc3aa6db1fcb14d6874d6
 related_topics:
+  - title: català version
+    url: /ca/linux/newgrp.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/newgrp.html
     icon: bi bi-globe
@@ -11,6 +14,7 @@ related_topics:
 # newgrp
 
 Cambia el grupo primario de pertenencia.
+Más información: <https://manned.org/newgrp>.
 
 - Cambia el grupo primario de pertenencia del usuario:
 

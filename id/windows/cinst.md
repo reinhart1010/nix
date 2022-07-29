@@ -2,7 +2,7 @@
 layout: page
 title: windows/cinst (Indonesia)
 description: "Perintah ini merupakan alias dari `choco install`."
-content_hash: b86a24df7429426fce9352f33d9fb67483d3a045
+content_hash: 5ee0d977c0522d9861fd2abc3d5ad5ff3b4f502c
 related_topics:
   - title: bosanski version
     url: /bs/windows/cinst.html
@@ -68,6 +68,7 @@ related_topics:
 # cinst
 
 Perintah ini merupakan alias dari `choco install`.
+Informasi lebih lanjut: <https://docs.chocolatey.org/en-us/choco/commands/install>.
 
 - Menampilkan dokumentasi untuk perintah asli:
 

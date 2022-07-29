@@ -2,7 +2,7 @@
 layout: page
 title: windows/cinst (日本語)
 description: "このコマンドは `choco install` のエイリアスです."
-content_hash: b97a8b84d5db70fa27670275604fe7ab7411e5ed
+content_hash: 8b36f46b5fab9972d20e35a501e036e9ae84f775
 related_topics:
   - title: bosanski version
     url: /bs/windows/cinst.html
@@ -68,6 +68,7 @@ related_topics:
 # cinst
 
 このコマンドは `choco install` のエイリアスです.
+詳しくはこちら: <https://docs.chocolatey.org/en-us/choco/commands/install>
 
 - オリジナルのコマンドのドキュメントを表示する:
 

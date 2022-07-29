@@ -2,7 +2,7 @@
 layout: page
 title: linux/apt-mark (català)
 description: "Eina per canviar l'estat dels paquets instal·lats."
-content_hash: 19b866d60ee836375f7a99be0194a510acc58266
+content_hash: c2272a4b439b0e3fda4b5d3eab922f3dc226b838
 related_topics:
   - title: Deutsch version
     url: /de/linux/apt-mark.html
@@ -29,7 +29,7 @@ related_topics:
 # apt-mark
 
 Eina per canviar l'estat dels paquets instal·lats.
-Més Informació: <https://manpages.debian.org/latest/apt/apt-mark.8.html>.
+Més informació: <https://manpages.debian.org/latest/apt/apt-mark.8.html>.
 
 - Marca un paquet com a instal·lat automàticament:
 

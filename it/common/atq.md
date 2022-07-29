@@ -2,7 +2,7 @@
 layout: page
 title: common/atq (italiano)
 description: "Mostra job programmati dai comandi `at` o `batch`."
-content_hash: 4532afdc8d7d8b61df20456cbe2a0da898080038
+content_hash: 3d3e39d781ebf25f4e16e57f90c7bab823178289
 related_topics:
   - title: English version
     url: /en/common/atq.html
@@ -14,7 +14,7 @@ related_topics:
 # atq
 
 Mostra job programmati dai comandi `at` o `batch`.
-Maggiori informazioni: <https://man.archlinux.org/man/at.1>.
+Maggiori informazioni: <https://manned.org/atq>.
 
 - Mostra i job programmati per l'utente corrente:
 

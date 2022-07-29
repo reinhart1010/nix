@@ -2,8 +2,11 @@
 layout: page
 title: linux/sensible-browser (español)
 description: "Abre el navegador predeterminado."
-content_hash: a002546a5b7033b7730b849fd850a44ef94778bf
+content_hash: 468e4fdea97384db733e6248fcd6467721c80c2e
 related_topics:
+  - title: català version
+    url: /ca/linux/sensible-browser.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/sensible-browser.html
     icon: bi bi-globe
@@ -11,6 +14,7 @@ related_topics:
 # sensible-browser
 
 Abre el navegador predeterminado.
+Más información: <https://manned.org/sensible-browser>.
 
 - Abre una nueva ventana del navegador predeterminado:
 

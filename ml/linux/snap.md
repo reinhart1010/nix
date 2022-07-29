@@ -2,7 +2,7 @@
 layout: page
 title: linux/snap (മലയാളം)
 description: "സ്നാപ്പ് സെൽഫ് കൺറ്റൈൻഡ് പാക്കേജുകൾ നിയന്ത്രിക്കുവാനുള്ള യൂട്ടിലിറ്റി."
-content_hash: 8fc5c9eef2982e599c6d9ecc7dc20892a28611f7
+content_hash: 094ad893eb4ae6ea0ad0172609dd4b843e935211
 related_topics:
   - title: বাংলা version
     url: /bn/linux/snap.html
@@ -15,6 +15,7 @@ related_topics:
 
 സ്നാപ്പ് സെൽഫ് കൺറ്റൈൻഡ് പാക്കേജുകൾ നിയന്ത്രിക്കുവാനുള്ള യൂട്ടിലിറ്റി.
 `apt` നോട് സാദൃശ്യമുള്ളത്.
+കൂടുതൽ വിവരങ്ങൾ: <https://manned.org/snap>.
 
 - ഒരു പാക്കേജ് സെർച്ച് ചെയ്യുവാൻ:
 

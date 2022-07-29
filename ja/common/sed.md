@@ -2,7 +2,7 @@
 layout: page
 title: common/sed (日本語)
 description: "スクリプトによるテキスト編集。"
-content_hash: 2041099645ad62538049ce9f54c83216a83d0ef1
+content_hash: 009eea9f3f129a6e7e02e373bcbc66e18b45130c
 related_topics:
   - title: English version
     url: /en/common/sed.html
@@ -11,7 +11,7 @@ related_topics:
 # sed
 
 スクリプトによるテキスト編集。
-詳しくはこちら: <https://man.archlinux.org/man/sed.1>
+詳しくはこちら: <https://www.gnu.org/software/sed/manual/sed.html>
 
 - ファイルの各行で正規表現の最初の出現箇所を置換し、その結果を表示する:
 

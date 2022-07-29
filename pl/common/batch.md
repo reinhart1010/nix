@@ -2,7 +2,7 @@
 layout: page
 title: common/batch (polski)
 description: "Wykonaj polecenia, gdy pozwoli na to poziom obciążenia systmu."
-content_hash: 5acb6637a06e55c1b15fc345bc84701f2de94c61
+content_hash: f5518094b9a94069dad9665288f51ff507c0cdee
 related_topics:
   - title: English version
     url: /en/common/batch.html
@@ -21,7 +21,7 @@ related_topics:
 
 Wykonaj polecenia, gdy pozwoli na to poziom obciążenia systmu.
 Aby działać poprawnie wymaga działającego serwisu atd (lub atrun).
-Więcej informacji: <https://man.archlinux.org/man/at.1>.
+Więcej informacji: <https://manned.org/batch>.
 
 - Wykonaj polecenie wprowadzone przy użyciu wejścia standardowego (aby zakończyć naciśnij `Ctrl + D`):
 

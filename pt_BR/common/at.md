@@ -2,7 +2,7 @@
 layout: page
 title: common/at (português (Brasil))
 description: "Ferramenta para o agendamento de comandos."
-content_hash: a1a4b075df26c54d49af248768462e155639c8b2
+content_hash: eeceefb6c201edf4b8a56bd97c5422d0223f2003
 related_topics:
   - title: English version
     url: /en/common/at.html
@@ -30,7 +30,7 @@ related_topics:
 
 Ferramenta para o agendamento de comandos.
 O serviço atd (ou atrun) deve estar sendo executado para as atuais execuções.
-Mais informações: <https://man.archlinux.org/man/at.1>.
+Mais informações: <https://manned.org/at>.
 
 - Executar comandos da standard input em 5 minutos (pressionar `Ctrl + D`quando acabar):
 

@@ -2,7 +2,7 @@
 layout: page
 title: linux/service (català)
 description: "Gestiona els serveis mitjançant l'execució de scripts init."
-content_hash: 82008bbd970251086df69eae7f835ac9b231a6a9
+content_hash: b36a8cab060174f09cab63845374b0212821a46f
 related_topics:
   - title: English version
     url: /en/linux/service.html
@@ -15,6 +15,7 @@ related_topics:
 
 Gestiona els serveis mitjançant l'execució de scripts init.
 S'ha d'ometre la ruta completa del script (s'assumeix `/etc/init.d`).
+Més informació: <https://manned.org/service>.
 
 - Llista el nom i l'estat de tots els serveis:
 

@@ -2,7 +2,7 @@
 layout: page
 title: linux/xclip (français)
 description: "Outil de manipulation de presse-papiers X11, semblable à `xsel`."
-content_hash: 63bb15fd76776e6685dc485bbad10f87fd7f43e2
+content_hash: 57dc6a0d05c0ec9dfda6e330bfd0dfe4d5a1acb9
 related_topics:
   - title: العربية version
     url: /ar/linux/xclip.html
@@ -15,6 +15,7 @@ related_topics:
 
 Outil de manipulation de presse-papiers X11, semblable à `xsel`.
 Gère les sélections primaires et secondaires de X, en plus du presse-papier système (`Ctrl + C`/`Ctrl + V`).
+Plus d'informations : <https://manned.org/xclip>.
 
 - Copie la sortie d'une commande vers la zone de sélection primaire de X11 (presse-papiers) :
 
