@@ -2,15 +2,12 @@
 layout: page
 title: linux/nmcli-radio (English)
 description: "Show radio switches status or enable and disable switches."
-content_hash: 80964c229cc4ed49628590899efd709d384b96f0
+content_hash: cb0a33a125e480b06c645d518e4a81c8c03b6ade
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># nmcli radio
+# nmcli radio
 
 Show radio switches status or enable and disable switches.
-See also: `nmcli agent`.
+This subcommand can also be called with `nmcli r`.
 More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
 - Show status of Wi-Fi in NetworkManager:

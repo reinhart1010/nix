@@ -2,11 +2,16 @@
 layout: page
 title: linux/nmcli-connection (English)
 description: "Connection management with NetworkManager."
-content_hash: bdff6c83533396c9f1cf80135da7de3e6f8d8d4a
+content_hash: ccc27db3b79ad3e3915be17ed5ffde3eda2d9a72
+related_topics:
+  - title: Türkçe version
+    url: /tr/linux/nmcli-connection.html
+    icon: bi bi-globe
 ---
 # nmcli connection
 
 Connection management with NetworkManager.
+This subcommand can also be called with `nmcli c`.
 More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
 - List all NetworkManager connections (shows name, UUID, type and device):
