@@ -1,0 +1,28 @@
+<h1 id="adb-install">adb install</h1>
+
+<p>Android Debug Bridge Install: Menginstal paket ke emulator Android atau perangkat Android terhubung.
+Informasi lebih lanjut: <a href="https://developer.android.com/studio/command-line/adb">https://developer.android.com/studio/command-line/adb</a>.</p>
+
+<ul>
+  <li>Menginstal aplikasi Android ke emulator/perangkat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/berkas.apk</span></p>
+
+<ul>
+  <li>Menginstal ulang aplikasi yang sudah ada, menjaga datanya:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/berkas.apk</span></p>
+
+<ul>
+  <li>Memberikan semua izin yang terdaftar di manifest aplikasi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/berkas.apk</span></p>
+
+<ul>
+  <li>Memperbarui langsung paket terinstal dengan hanya memperbarui bagian dari APK yang berubah:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Adb install --fastdeploy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/berkas.apk</span></p>

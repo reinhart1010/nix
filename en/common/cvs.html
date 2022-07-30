@@ -1,0 +1,46 @@
+<h1 id="cvs">cvs</h1>
+
+<p>Concurrent Versions System, a revision control system.
+More information: <a href="https://cvs.nongnu.org">https://cvs.nongnu.org</a>.</p>
+
+<ul>
+  <li>Create a new repository (requires the <code class="language-plaintext highlighter-rouge">CVSROOT</code> environment variable to be set externally):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cvs -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repository</span><code class="language-plaintext highlighter-rouge"> init</code></p>
+
+<ul>
+  <li>Add a project to the repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cvs import -m "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vendor</span></p>
+
+<ul>
+  <li>Checkout a project:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cvs checkout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_name</span></p>
+
+<ul>
+  <li>Show changes made to files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cvs diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Add a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cvs add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Commit a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cvs commit -m "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Update the working directory from the remote repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cvs update</code></p>

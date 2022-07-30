@@ -1,0 +1,41 @@
+<h1 id="bat">bat</h1>
+
+<p>Imprime y concatena archivos.
+Un clon de <code class="language-plaintext highlighter-rouge">cat</code> con resaltado de sintaxis e integración con Git.
+Más información: <a href="https://github.com/sharkdp/bat">https://github.com/sharkdp/bat</a>.</p>
+
+<ul>
+  <li>Imprime los contenidos de un archivo a la salida estándar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span></p>
+
+<ul>
+  <li>Concatena varios archivos creando un nuevo archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo2</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_final</span></p>
+
+<ul>
+  <li>Añade múltiples archivos al final de un archivo objetivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo2</span><code class="language-plaintext highlighter-rouge"> &gt;&gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_final</span></p>
+
+<ul>
+  <li>Numera las lineas del archivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span></p>
+
+<ul>
+  <li>Muestra un archivo JSON con resaltado de sintaxis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat --language json </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo.json</span></p>
+
+<ul>
+  <li>Muestra todos los lenguajes permitidos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bat --list-languages</code></p>

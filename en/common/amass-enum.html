@@ -1,0 +1,34 @@
+<h1 id="amass-enum">amass enum</h1>
+
+<p>Find subdomains of a domain.
+More information: <a href="https://github.com/OWASP/Amass/blob/master/doc/user_guide.md#the-enum-subcommand">https://github.com/OWASP/Amass/blob/master/doc/user_guide.md#the-enum-subcommand</a>.</p>
+
+<ul>
+  <li>Passively find subdomains of a domain:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass enum -passive -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain_name</span></p>
+
+<ul>
+  <li>Find subdomains of a domain and actively verify them attempting to resolve the found subdomains:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass enum -active -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain_name</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80,443,8080</span></p>
+
+<ul>
+  <li>Do a brute force search for subdomains:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass enum -brute -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain_name</span></p>
+
+<ul>
+  <li>Save the results to a text file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass enum -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file</span><code class="language-plaintext highlighter-rouge"> -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain_name</span></p>
+
+<ul>
+  <li>Save the results to a database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">amass enum -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_file</span><code class="language-plaintext highlighter-rouge"> -dir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/database_directory</span></p>

@@ -1,0 +1,35 @@
+<h1 id="hping">hping</h1>
+
+<p>Outil en ligne de commande permettant d’assembler ou analyser des paquets TCP/IP.
+Inspirer par la commande <code class="language-plaintext highlighter-rouge">ping</code>.
+Plus d’informations : <a href="http://www.hping.org">http://www.hping.org</a>.</p>
+
+<ul>
+  <li>Ping localhost via TCP :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">localhost</span></p>
+
+<ul>
+  <li>Ping une adresse IP, via TCP, sur un port spécifique :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.1.1</span></p>
+
+<ul>
+  <li>Ping une adresse IP, via UDP, sur le port 80 :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --udp -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.1.1</span></p>
+
+<ul>
+  <li>Scanner un ensemble de ports TCP, sur une adresse IP spécifique :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --scan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80,3000,9000</span><code class="language-plaintext highlighter-rouge"> -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.1.1</span></p>
+
+<ul>
+  <li>Effectuer un test de montée en charge sur le port 80 :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --flood -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.1.1</span></p>

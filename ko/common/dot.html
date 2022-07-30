@@ -1,0 +1,25 @@
+<h3 id="outdated-translation">Outdated Translation</h3>
+<p>This entry is currently considered outdated and its contents may not be up-to-date with other translations.</p>
+
+<p>Please considering fixing this issue by contributing to the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project directly.</p>
+
+<p><a class="btn btn-primary" href="/en/common/dot.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a></p>
+
+<hr />
+<h1 id="dot">dot</h1>
+
+<p>방향 그래프의 레이어 도면을 생성하는 명령 도구입니다.
+더 많은 정보: <a href="https://graphviz.org/doc/info/command.html">https://graphviz.org/doc/info/command.html</a>.</p>
+
+<ul>
+  <li>입력 파일 이름과 선택한 포맷을 기반으로 이미지 파일을 랜더링하고 출력파일 이름 결정하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dot -Tpng -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/파일명.dot</span></p>
+
+<ul>
+  <li>DOT 파일로부터 SVG 생성하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dot -Tsvg -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/출력_파일명.svg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/파일명.dot</span></p>

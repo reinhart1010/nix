@@ -1,0 +1,22 @@
+<h1 id="git-ls-tree">git ls-tree</h1>
+
+<p>Lister le contenu d’un arbre.
+Plus d’informations : <a href="https://git-scm.com/docs/git-ls-tree">https://git-scm.com/docs/git-ls-tree</a>.</p>
+
+<ul>
+  <li>Lister le contenu de l’arbre dans la branche :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git ls-tree </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_branche</span></p>
+
+<ul>
+  <li>Lister le contenu de l’arbre dans le commit, récursif avec les sous-arbres :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git ls-tree -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_hash</span></p>
+
+<ul>
+  <li>Lister uniquement les noms de fichiers de l’arbre dans un commit :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git ls-tree --name-only </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_hash</span></p>

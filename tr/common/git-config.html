@@ -1,0 +1,53 @@
+<h1 id="git-config">git config</h1>
+
+<p>Git depoları için yazılan kişisel konfigürasyon seçeneklerini yönet.
+Bu konfigürasyonlar lokal (mevcut depo için) veya evrensel (mevcut kullanıcı için) olabilir.
+Daha fazla bilgi: <a href="https://git-scm.com/docs/git-config">https://git-scm.com/docs/git-config</a>.</p>
+
+<ul>
+  <li>Yalnızca (mevcut depodaki <code class="language-plaintext highlighter-rouge">.git/config</code>‘de saklanan) yerel konfigürasyon kayıtlarını sırala:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --list --local</code></p>
+
+<ul>
+  <li>Yalnızca (bilgisayardaki <code class="language-plaintext highlighter-rouge">~/.gitconfig</code>‘de saklanan) evrensel konfigürasyon kayıtlarını sırala:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --list --global</code></p>
+
+<ul>
+  <li>Yerel veya evrensel olarak tanımlanan tüm konfigürasyon kayıtlarını sırala:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --list</code></p>
+
+<ul>
+  <li>Belirtilen bir konfigürasyon kaydının değerini öğren:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config alias.unstage</code></p>
+
+<ul>
+  <li>Belirtilen bir konfigürasyon kaydının evrensel değerini belirle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --global alias.unstage "reset HEAD --"</code></p>
+
+<ul>
+  <li>Evrensel bir konfigürasyon kaydını varsayılan değerine geri al:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --global --unset alias.unstage</code></p>
+
+<ul>
+  <li>Mevcut depodaki Git konfigürasyonunu varsayılan metin düzenleyici ile düzenle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --edit</code></p>
+
+<ul>
+  <li>Evrensel Git konfigürasyonunu varsayılan metin düzenleyici ile düzenle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git config --global --edit</code></p>

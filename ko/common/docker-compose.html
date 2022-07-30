@@ -1,0 +1,55 @@
+<h3 id="outdated-translation">Outdated Translation</h3>
+<p>This entry is currently considered outdated and its contents may not be up-to-date with other translations.</p>
+
+<p>Please considering fixing this issue by contributing to the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project directly.</p>
+
+<p><a class="btn btn-primary" href="/en/common/docker-compose.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a></p>
+
+<hr />
+<h1 id="docker-compose">docker-compose</h1>
+
+<p>다중 도커 응용 프로그램 실행 및 관리합니다.
+더 많은 정보: <a href="https://docs.docker.com/compose/reference/">https://docs.docker.com/compose/reference/</a>.</p>
+
+<ul>
+  <li>실행 중인 모든 컨테이너들 목록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker-compose ps</code></p>
+
+<ul>
+  <li>현재 디렉토리로로부터 <code class="language-plaintext highlighter-rouge">docker-compose.yml</code> 파일을 사용하여 백그라운드에서 모든 컨테이너들을 생성하고 실행하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker-compose up -d</code></p>
+
+<ul>
+  <li>모든 컨테이너들을 실행하고, 필요 시 재조립:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker-compose up --build</code></p>
+
+<ul>
+  <li>대체 구성 파일을 사용하여 모든 컨테이너들 실행하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker-compose --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/파일명</span><code class="language-plaintext highlighter-rouge"> up</code></p>
+
+<ul>
+  <li>실행중인 모든 컨테이너들 중지하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker-compose stop</code></p>
+
+<ul>
+  <li>모든 컨테이너들, 네트워크, 이미지, 그리고 볼륨을 중지하고 제거하기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker-compose down --rmi all --volumes</code></p>
+
+<ul>
+  <li>모든 컨테이너들에 대한 로그들 팔로우:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker-compose logs --follow</code></p>

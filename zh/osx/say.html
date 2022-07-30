@@ -1,0 +1,34 @@
+<h1 id="say">say</h1>
+
+<p>将文本转换为语音。
+更多信息：<a href="https://ss64.com/osx/say.html">https://ss64.com/osx/say.html</a>.</p>
+
+<ul>
+  <li>大声说出一个句子：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">say "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">你好，世界！</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>播放文本文件内容音频：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">say -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名.txt</span></p>
+
+<ul>
+  <li>用自定义的语音和语音速率说出一个句子：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">say -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">语音库名</span><code class="language-plaintext highlighter-rouge"> -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">每分钟多少词</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">你好，我可以说中文.</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>列出可用的语音库：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">say --voice="?"</code></p>
+
+<ul>
+  <li>创建文本的音频文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">say -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名.aiff</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">你好，请将录音内容输出到文件.</span><code class="language-plaintext highlighter-rouge">"</code></p>

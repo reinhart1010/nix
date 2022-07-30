@@ -1,0 +1,22 @@
+<h1 id="identify">identify</h1>
+
+<p>Command-line utility of Image Magick project to describe the format and characteristics of one or more image files.
+More information: <a href="https://imagemagick.org/script/identify.php">https://imagemagick.org/script/identify.php</a>.</p>
+
+<ul>
+  <li>Describe the format and basic characteristics of an image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">identify </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image</span></p>
+
+<ul>
+  <li>Describe the format and verbose characteristics of an image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">identify -verbose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image</span></p>
+
+<ul>
+  <li>Collect dimensions of all JPEG files under current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">identify -format "%f,%w,%h\n" *.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jpg</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filelist.csv</span></p>

@@ -1,0 +1,34 @@
+<h1 id="docker-images">docker images</h1>
+
+<p>Gerencia imagens Docker.
+Mais informações: <a href="https://docs.docker.com/engine/reference/commandline/images/">https://docs.docker.com/engine/reference/commandline/images/</a>.</p>
+
+<ul>
+  <li>Lista todas as imagens Docker:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images</code></p>
+
+<ul>
+  <li>Lista todas as imagens Docker incluíndo imagens intermedirárias:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images --all</code></p>
+
+<ul>
+  <li>Lista no modo silencioso (somente IDs numéricos):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images --quiet</code></p>
+
+<ul>
+  <li>Lista todas as imagens Docker não usadas por nenhum container:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images --filter dangling=true</code></p>
+
+<ul>
+  <li>Lista imagens que contenham um substring no seu nome:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><em>nome</em></span><code class="language-plaintext highlighter-rouge">"</code></p>

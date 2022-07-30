@@ -1,0 +1,19 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="gdal2tilespy">gdal2tiles.py</h1>
+
+<p>Generate TMS or XYZ tiles for a raster dataset.
+More information: <a href="https://gdal.org/programs/gdal2tiles.html">https://gdal.org/programs/gdal2tiles.html</a>.</p>
+
+<ul>
+  <li>Generate TMS tiles for the zoom levels 2-5 of a raster dataset:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdal2tiles.py --zoom=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2-5</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.tif</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_directory</span></p>
+
+<ul>
+  <li>Generate XYZ tiles for the zoom levels 2-5 of a raster dataset:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gdal2tiles.py --zoom=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2-5</span><code class="language-plaintext highlighter-rouge"> --xyz </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.tif</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_directory</span></p>

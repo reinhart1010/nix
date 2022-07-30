@@ -1,0 +1,34 @@
+<h1 id="swapon">swapon</h1>
+
+<p>Enables device or file for swapping.
+More information: <a href="https://manned.org/swapon">https://manned.org/swapon</a>.</p>
+
+<ul>
+  <li>Get swap information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swapon -s</code></p>
+
+<ul>
+  <li>Enable a given swap partition:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swapon </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb7</span></p>
+
+<ul>
+  <li>Enable a given swap file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swapon </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Enable all swap areas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swapon -a</code></p>
+
+<ul>
+  <li>Enable swap by label of a device or file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">swapon -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">swap1</span></p>

@@ -1,0 +1,61 @@
+<h3 id="outdated-translation">Outdated Translation</h3>
+<p>This entry is currently considered outdated and its contents may not be up-to-date with other translations.</p>
+
+<p>Please considering fixing this issue by contributing to the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project directly.</p>
+
+<p><a class="btn btn-primary" href="/en/common/docker-compose.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a></p>
+
+<hr />
+<h1 id="docker-compose">docker-compose</h1>
+
+<p>Ejecuta y gestiona múltiples contenedores Docker.
+Más información: <a href="https://docs.docker.com/compose/reference/">https://docs.docker.com/compose/reference/</a>.</p>
+
+<ul>
+  <li>Lista los contenedores en ejecución:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker-compose ps</code></p>
+
+<ul>
+  <li>Crea e inicia todos los contenedores en segundo plano usando el archivo <code class="language-plaintext highlighter-rouge">docker-compose.yml</code> en el directorio actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker-compose up -d</code></p>
+
+<ul>
+  <li>Inicia todos los contenedores y reconstruye si es ncesario:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker-compose up --build</code></p>
+
+<ul>
+  <li>Inicia todos los contenedores usando un archivo compose alternativo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker-compose --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span><code class="language-plaintext highlighter-rouge"> up</code></p>
+
+<ul>
+  <li>Detiene todos los contenedores en ejecución:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker-compose stop</code></p>
+
+<ul>
+  <li>Detiene y elimina todos los contenedores, redes, imágenes y volúmenes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker-compose down --rmi all --volumes</code></p>
+
+<ul>
+  <li>Sigue los registros de todos los contenedores:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker-compose logs --follow</code></p>
+
+<ul>
+  <li>Sigue los registros de un contenedor específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker-compose logs --follow </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_contenedor</span></p>

@@ -1,0 +1,22 @@
+<h1 id="e2fsck">e2fsck</h1>
+
+<p>Check a Linux ext2/ext3/ext4 filesystem. The filesystem should be unmounted at the time the command is run.
+More information: <a href="https://manned.org/e2fsck">https://manned.org/e2fsck</a>.</p>
+
+<ul>
+  <li>Check filesystem, reporting any damaged blocks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">e2fsck </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>
+
+<ul>
+  <li>Check filesystem and automatically repair any damaged blocks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">e2fsck -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>
+
+<ul>
+  <li>Check filesystem in read only mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">e2fsck -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdXN</span></p>

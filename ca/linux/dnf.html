@@ -1,0 +1,52 @@
+<h1 id="dnf">dnf</h1>
+
+<p>Administrador de paquets per RHEL, CentOS i Fedora (Reemplaça a yum).
+Més informació: <a href="https://dnf.readthedocs.io">https://dnf.readthedocs.io</a>.</p>
+
+<ul>
+  <li>Actualitza tots els paquets a l’última versió disponible:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dnf update</code></p>
+
+<ul>
+  <li>Busca un paquet fent servir paraules clau:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">palabra_clau</span></p>
+
+<ul>
+  <li>Mostra informació sobre un paquet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet</span></p>
+
+<ul>
+  <li>Instal·la un nou paquet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dnf install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet</span></p>
+
+<ul>
+  <li>Instal·la un nou paquet responent si a totes les preguntes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dnf install -y </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet</span></p>
+
+<ul>
+  <li>Desinstal·la un paquet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dnf remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet</span></p>
+
+<ul>
+  <li>Llista tots els paquets instal·lats:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf list --installed</code></p>
+
+<ul>
+  <li>Troba quin paquet proveeeix un arxiu determinat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf provides </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arxiu</span></p>

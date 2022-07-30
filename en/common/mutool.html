@@ -1,0 +1,40 @@
+<h1 id="mutool">mutool</h1>
+
+<p>Convert PDF files, query information and extract data.
+More information: <a href="https://mupdf.com/docs">https://mupdf.com/docs</a>.</p>
+
+<ul>
+  <li>Convert pages 1-10 into 10 PNGs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mutool convert -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image%d.png</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1-10</span></p>
+
+<ul>
+  <li>Convert pages 2, 3 and 5 of a PDF into text in the standard output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mutool draw -F </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">txt</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2,3,5</span></p>
+
+<ul>
+  <li>Concatenate two PDFs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mutool merge -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input1.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input2.pdf</span></p>
+
+<ul>
+  <li>Query information about all content embedded in a PDF:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mutool info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.pdf</span></p>
+
+<ul>
+  <li>Extract all images, fonts and resources embedded in a PDF out into the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mutool extract </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.pdf</span></p>
+
+<ul>
+  <li>Print the outline (table of contents) of a PDF:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mutool show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.pdf</span><code class="language-plaintext highlighter-rouge"> outline</code></p>

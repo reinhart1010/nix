@@ -1,0 +1,28 @@
+<h1 id="pdfimages">pdfimages</h1>
+
+<p>Utility for extracting images from PDFs.
+More information: <a href="https://manned.org/pdfimages">https://manned.org/pdfimages</a>.</p>
+
+<ul>
+  <li>Extract all images from a PDF file and save them as PNGs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfimages -png </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename_prefix</span></p>
+
+<ul>
+  <li>Extract images from pages 3 to 5:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfimages -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename_prefix</span></p>
+
+<ul>
+  <li>Extract images from a PDF file and include the page number in the output filenames:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfimages -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename_prefix</span></p>
+
+<ul>
+  <li>List information about all the images in a PDF file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pdfimages -list </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span></p>

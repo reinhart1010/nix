@@ -1,0 +1,52 @@
+<h1 id="perl">perl</h1>
+
+<p>The Perl 5 language interpreter.
+More information: <a href="https://www.perl.org">https://www.perl.org</a>.</p>
+
+<ul>
+  <li>Parse and execute a Perl script:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">perl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">script.pl</span></p>
+
+<ul>
+  <li>Check syntax errors on a Perl script:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">perl -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">script.pl</span></p>
+
+<ul>
+  <li>Parse and execute a Perl statement:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">perl -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">perl_statement</span></p>
+
+<ul>
+  <li>Run a Perl script in debug mode, using <code class="language-plaintext highlighter-rouge">perldebug</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">perl -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">script.pl</span></p>
+
+<ul>
+  <li>Edit all file lines [i]n-place with a specific replacement [e]xpression and save a file with a new extension:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">perl -p -i'.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">extension</span><code class="language-plaintext highlighter-rouge">' -e 's/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">replacement</span><code class="language-plaintext highlighter-rouge">/g' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Run a multi-line replacement [e]xpression on a file, and save the result in a specific file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">perl -p -e 's/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo\nbar</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foobar</span><code class="language-plaintext highlighter-rouge">/g' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file</span></p>
+
+<ul>
+  <li>Run a regular [e]xpression on stdin, printing matching [l]ines:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> | perl -n -l -e 'print if /</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span><code class="language-plaintext highlighter-rouge">/'</code></p>
+
+<ul>
+  <li>Run a regular [e]xpression on stdin, printing only the first capture group for each matching [l]ine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> | perl -n -l -e 'print $1 if /</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">before</span><code class="language-plaintext highlighter-rouge">(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span><code class="language-plaintext highlighter-rouge">)</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">after</span><code class="language-plaintext highlighter-rouge">/'</code></p>

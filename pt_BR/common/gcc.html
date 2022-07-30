@@ -1,0 +1,34 @@
+<h1 id="gcc">gcc</h1>
+
+<p>Compilador de arquivos de código fonte C e C++, efetuando também as fases de pré-processamento, assembling e linking.
+Mais informações: <a href="https://gcc.gnu.org">https://gcc.gnu.org</a>.</p>
+
+<ul>
+  <li>Compilar múltiplos arquivos de código fonte, produzindo um arquivo executável:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_fonte1.c</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_fonte2.c</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_executável</span></p>
+
+<ul>
+  <li>Habilitar avisos durante a compilação:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_fonte.c</span><code class="language-plaintext highlighter-rouge"> -Wall -Og --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_executável</span></p>
+
+<ul>
+  <li>Incluir bibliotecas de um local diferente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_fonte.c</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_executável</span><code class="language-plaintext highlighter-rouge"> -I</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/header</span><code class="language-plaintext highlighter-rouge"> -L</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/biblioteca</span><code class="language-plaintext highlighter-rouge"> -l</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_biblioteca</span></p>
+
+<ul>
+  <li>Compilar o código fonte para instruções Assembler:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_fonte.c</span></p>
+
+<ul>
+  <li>Compilar o código fonte sem efetuar a fase de linking:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_fonte.c</span></p>

@@ -1,0 +1,34 @@
+<h1 id="sha1sum">sha1sum</h1>
+
+<p>SHA1 மறையீட்டு சரிகாண்தொகையைக் கணி.
+மேலும் விவரத்திற்கு: <a href="https://www.gnu.org/software/coreutils/sha1sum">https://www.gnu.org/software/coreutils/sha1sum</a>.</p>
+
+<ul>
+  <li>கோப்பின் SHA1 சரிகாண்தொகையைக் கணி:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sha1sum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு</span></p>
+
+<ul>
+  <li>பலக் கோப்புகளின் SHA1 சரிகாண்தொகையைக் கணி:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sha1sum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு2</span></p>
+
+<ul>
+  <li>SHA1 சரிகாண்தொகைகளைக் கணித்து கோப்பில் எழுது:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sha1sum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு2</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.sha1</span></p>
+
+<ul>
+  <li>SHA1 சரிகாண்தொகைகளுடைய கோப்பைப் படித்து கோப்புகளைச் சரிபார்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sha1sum --check </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.sha1</span></p>
+
+<ul>
+  <li>பிழையுற்ற கோப்புகளை மட்டும் காட்டு:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sha1sum --check --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.sha1</span></p>

@@ -1,0 +1,25 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="xml2man">xml2man</h1>
+
+<p>Compile MPGL to mdoc.
+More information: <a href="https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/HeaderDoc/mpgl/mpgl.html">https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/HeaderDoc/mpgl/mpgl.html</a>.</p>
+
+<ul>
+  <li>Compile an MPGL file to a viewable man page:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml2man </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/command.mxml</span></p>
+
+<ul>
+  <li>Compile an MPGL file to a specific output file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml2man </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/service.mxml</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/service.7</span></p>
+
+<ul>
+  <li>Compile an MPGL file to a specific output file, overwriting if it already exists:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xml2man -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/function.mxml</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/function.3</span></p>

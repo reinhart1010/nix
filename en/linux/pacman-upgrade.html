@@ -1,0 +1,40 @@
+<h1 id="pacman-upgrade">pacman –upgrade</h1>
+
+<p>Arch Linux package manager utility.
+More information: <a href="https://man.archlinux.org/man/pacman.8">https://man.archlinux.org/man/pacman.8</a>.</p>
+
+<ul>
+  <li>Display help:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --upgrade --help</code></p>
+
+<ul>
+  <li>Install one or more packages from files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --upgrade </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package1.pkg.tar.zst</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package2.pkg.tar.zst</span></p>
+
+<ul>
+  <li>Install a package without prompting:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --upgrade --noconfirm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.pkg.tar.zst</span></p>
+
+<ul>
+  <li>Overwrite conflicting files during a package installation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --upgrade --overwrite </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.pkg.tar.zst</span></p>
+
+<ul>
+  <li>Install a package, skipping the dependency version checks:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --upgrade --nodeps </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.pkg.tar.zst</span></p>
+
+<ul>
+  <li>List packages that would be affected (does not install any packages):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --print </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.pkg.tar.zst</span></p>

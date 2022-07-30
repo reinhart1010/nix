@@ -1,0 +1,52 @@
+<h1 id="history-expansion">history expansion</h1>
+
+<p>Reutiliza y expande el historial de la shell en <code class="language-plaintext highlighter-rouge">sh</code>, <code class="language-plaintext highlighter-rouge">bash</code>, <code class="language-plaintext highlighter-rouge">zsh</code>, <code class="language-plaintext highlighter-rouge">rbash</code> y <code class="language-plaintext highlighter-rouge">ksh</code>.
+Más información: <a href="https://www.gnu.org/software/bash/manual/html_node/History-Interaction">https://www.gnu.org/software/bash/manual/html_node/History-Interaction</a>.</p>
+
+<ul>
+  <li>Ejecuta el último comando:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!!</code></p>
+
+<ul>
+  <li>Ejecuta el último comando como administrador:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo !!</code></p>
+
+<ul>
+  <li>Ejecuta un comando con el último argumento del último comando:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> !$</code></p>
+
+<ul>
+  <li>Ejecuta un comando con el primer argumento del comando anterior:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge"> !^</code></p>
+
+<ul>
+  <li>Ejecuta el comando <code class="language-plaintext highlighter-rouge">n</code> líneas atrás en el historial:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!-</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span></p>
+
+<ul>
+  <li>Ejecuta el último comando con el prefijo <code class="language-plaintext highlighter-rouge">cadena</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">!</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena</span></p>
+
+<ul>
+  <li>Ejecuta el último comando, reemplazando <code class="language-plaintext highlighter-rouge">cadena1</code> por <code class="language-plaintext highlighter-rouge">cadena2</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena1</span><code class="language-plaintext highlighter-rouge">^</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena2</span><code class="language-plaintext highlighter-rouge">^</code></p>
+
+<ul>
+  <li>Realiza una expansión del historial, pero muestra el comando que se ejecutaría en lugar de ejecutarlo realmente:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">!-n</span><code class="language-plaintext highlighter-rouge">:p</code></p>

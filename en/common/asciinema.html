@@ -1,0 +1,52 @@
+<h1 id="asciinema">asciinema</h1>
+
+<p>Record and replay terminal sessions, and optionally share them on asciinema.org.
+More information: <a href="https://asciinema.org/">https://asciinema.org/</a>.</p>
+
+<ul>
+  <li>Associate the local install of <code class="language-plaintext highlighter-rouge">asciinema</code> with an asciinema.org account:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema auth</code></p>
+
+<ul>
+  <li>Make a new recording (once finished, user will be prompted to upload it or save it locally):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema rec</code></p>
+
+<ul>
+  <li>Make a new recording and save it to a local file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema rec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge">.cast</code></p>
+
+<ul>
+  <li>Replay a terminal recording from a local file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema play </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge">.cast</code></p>
+
+<ul>
+  <li>Replay a terminal recording hosted on asciinema.org:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema play https://asciinema.org/a/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cast_id</span></p>
+
+<ul>
+  <li>Make a new recording, limiting any idle time to at most 2.5 seconds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema rec -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2.5</span></p>
+
+<ul>
+  <li>Print the full output of a locally saved recording:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge">.cast</code></p>
+
+<ul>
+  <li>Upload a locally saved terminal session to asciinema.org:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">asciinema upload </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge">.cast</code></p>

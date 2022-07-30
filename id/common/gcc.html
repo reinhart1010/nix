@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="gcc">gcc</h1>
+
+<p>Praproses dan kompilasi kode sumber C dan C++, lalu rakit dan gabungkan bersama-sama.
+Informasi lebih lanjut: <a href="https://gcc.gnu.org">https://gcc.gnu.org</a>.</p>
+
+<ul>
+  <li>Mengubah beberapa sumber kode menjadi program:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sumber1.c</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sumber2.c</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span></p>
+
+<ul>
+  <li>Mengizinkan peringatan dan simbol debug di output:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sumber.c</span><code class="language-plaintext highlighter-rouge"> -Wall -Og --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span></p>
+
+<ul>
+  <li>Menyertakan pustaka dari direktori yang berbeda:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sumber.c</span><code class="language-plaintext highlighter-rouge"> --output </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span><code class="language-plaintext highlighter-rouge"> -I</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalur_header</span><code class="language-plaintext highlighter-rouge"> -L</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalur_pustaka</span><code class="language-plaintext highlighter-rouge"> -l</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_pustaka</span></p>
+
+<ul>
+  <li>Mengkompilasi kode sumber ke dalam bahasa tingkat rendah (assembly):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sumber.c</span></p>
+
+<ul>
+  <li>Mengkompilasi kode sumber tanpa digabungkan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gcc -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sumber.c</span></p>

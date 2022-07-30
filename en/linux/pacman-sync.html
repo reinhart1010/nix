@@ -1,0 +1,52 @@
+<h1 id="pacman-sync">pacman –sync</h1>
+
+<p>Arch Linux package manager utility.
+More information: <a href="https://man.archlinux.org/man/pacman.8">https://man.archlinux.org/man/pacman.8</a>.</p>
+
+<ul>
+  <li>Install a new package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span></p>
+
+<ul>
+  <li>Synchronize and update all packages (add <code class="language-plaintext highlighter-rouge">--downloadonly</code> to download the packages and not update them):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync --refresh --sysupgrade</code></p>
+
+<ul>
+  <li>Update all packages and install a new one without prompting:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync --refresh --sysupgrade --noconfirm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span></p>
+
+<ul>
+  <li>Search the package database for a regular expression or keyword:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --sync --search "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Display information about a package:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --sync --info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span></p>
+
+<ul>
+  <li>Overwrite conflicting files during a package update:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync --refresh --sysupgrade --overwrite </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Synchronize and update all packages, but ignore a specific package (can be used more than once):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync --refresh --sysupgrade --ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span></p>
+
+<ul>
+  <li>Remove not installed packages and unused repositories from the cache (use two <code class="language-plaintext highlighter-rouge">--clean</code> flags to clean all packages):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync --clean</code></p>

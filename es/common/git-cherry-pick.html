@@ -1,0 +1,29 @@
+<h1 id="git-cherry-pick">git cherry-pick</h1>
+
+<p>Aplica los cambios introducidos por commits existentes a la rama actual.
+Para aplicar cambios a otra rama, primero utiliza <code class="language-plaintext highlighter-rouge">git checkout</code> para cambiar a la rama deseada.
+Más información: <a href="https://git-scm.com/docs/git-cherry-pick">https://git-scm.com/docs/git-cherry-pick</a>.</p>
+
+<ul>
+  <li>Aplica un commit a la rama actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>Aplica un rango de commits de la rama actual (véase también <code class="language-plaintext highlighter-rouge">git rebase --onto</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_inicial</span><code class="language-plaintext highlighter-rouge">~..</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_final</span></p>
+
+<ul>
+  <li>Aplica múltiples commits no secuenciales a la rama actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_2</span></p>
+
+<ul>
+  <li>Añade los cambios de un commit al directorio de trabajo, sin crear un commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git cherry-pick -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>

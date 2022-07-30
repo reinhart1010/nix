@@ -1,0 +1,55 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="dnf">dnf</h1>
+
+<p>Manajer paket untuk distribusi Linux RHEL, Fedora, dan CentOS (pengganti yum).
+Informasi lebih lanjut: <a href="https://dnf.readthedocs.io">https://dnf.readthedocs.io</a>.</p>
+
+<ul>
+  <li>Memperbarui seluruh paket yang terpasang ke versi terbaru:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dnf upgrade</code></p>
+
+<ul>
+  <li>Mencari paket yang tersedia dengan kata kunci tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kata_kunci</span></p>
+
+<ul>
+  <li>Memperlihatkan informasi tentang suatu paket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf info </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span></p>
+
+<ul>
+  <li>Menginstal sebuah paket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dnf install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span></p>
+
+<ul>
+  <li>Menginstal sebuah paket dan jawab ya untuk semua pertanyaan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dnf -y install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span></p>
+
+<ul>
+  <li>Menghapus sebuah paket:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo dnf remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span></p>
+
+<ul>
+  <li>Memperlihatkan daftar semua paket yang telah terpasang:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf list --installed</code></p>
+
+<ul>
+  <li>Temukan paket mana yang menyediakan file tertentu:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dnf provides </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>

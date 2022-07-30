@@ -1,0 +1,35 @@
+<h1 id="git-grep">git-grep</h1>
+
+<p>Cerca stringhe nello storico dei file tracciati nel repository.
+Supporta molti degli stessi parametri accettati dal comando <code class="language-plaintext highlighter-rouge">grep</code> tradizionale.
+Maggiori informazioni: <a href="https://git-scm.com/docs/git-grep">https://git-scm.com/docs/git-grep</a>.</p>
+
+<ul>
+  <li>Cerca una stringa nei file tracciati:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stringa_ricercata</span></p>
+
+<ul>
+  <li>Cerca una stringa nei file tracciati che soddisfano un dato pattern:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stringa_ricercata</span><code class="language-plaintext highlighter-rouge"> -- </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_glob_pattern</span></p>
+
+<ul>
+  <li>Cerca una stringa nei file tracciati, sottomoduli inclusi:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git grep --recurse-submodules </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stringa_ricercata</span></p>
+
+<ul>
+  <li>Cerca una stringa in uno dato momento della cronologia del repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stringa_ricercata</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD~2</span></p>
+
+<ul>
+  <li>Cerca una stringa in tutti i rami:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stringa_ricercata</span><code class="language-plaintext highlighter-rouge"> $(git rev-list --all)</code></p>

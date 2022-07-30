@@ -1,0 +1,52 @@
+<h1 id="tmux">tmux</h1>
+
+<p>Multiplexador do terminal. Permite várias sessões com janelas, painéis e muito mais.
+Mais informações: <a href="https://github.com/tmux/tmux">https://github.com/tmux/tmux</a>.</p>
+
+<ul>
+  <li>Iniciar uma nova sessão:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmux</code></p>
+
+<ul>
+  <li>Iniciar uma sessão com nome:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmux new-session -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span></p>
+
+<ul>
+  <li>Listar sessões existentes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmux ls</code></p>
+
+<ul>
+  <li>Entrar na última sessão utilizada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmux attach-session</code></p>
+
+<ul>
+  <li>Entrar numa sessão com nome:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmux attach-session -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span></p>
+
+<ul>
+  <li>Sair da sessão atual (com o prefixo Ctrl-B):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Ctrl-B d</code></p>
+
+<ul>
+  <li>Eliminar uma sessão com nome:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmux kill-session -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span></p>
+
+<ul>
+  <li>Eliminar a sessão atual (com o prefixo Ctrl-B):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Ctrl-B :kill-session&lt;Enter&gt;</code></p>

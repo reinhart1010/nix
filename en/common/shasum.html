@@ -1,0 +1,46 @@
+<h1 id="shasum">shasum</h1>
+
+<p>Calculate or check cryptographic SHA checksums.
+More information: <a href="https://manned.org/shasum">https://manned.org/shasum</a>.</p>
+
+<ul>
+  <li>Calculate the SHA1 checksum for a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shasum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Calculate the SHA256 checksum for a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shasum --algorithm 256 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Calculate the SHA512 checksum for multiple files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shasum --algorithm 512 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>
+
+<ul>
+  <li>Calculate and save the list of SHA256 checksums to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shasum --algorithm 256 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sha256</span></p>
+
+<ul>
+  <li>Check a file with a list of sums against the directory’s files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shasum --check </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Check a list of sums and only show a message for files for which verification fails:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shasum --check --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Calculate the SHA1 checksum from stdin:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">some_command</span><code class="language-plaintext highlighter-rouge"> | shasum</code></p>

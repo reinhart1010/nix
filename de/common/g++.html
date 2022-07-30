@@ -1,0 +1,29 @@
+<h1 id="gplusplus">gplusplus</h1>
+
+<p>Kompiliere C++ Quelldateien.
+Teil der GCC (GNU Compiler Collection).
+Weitere Informationen: <a href="https://gcc.gnu.org">https://gcc.gnu.org</a>.</p>
+
+<ul>
+  <li>Kompiliere eine Quelldatei in eine ausführbare Binärdatei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">g++ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quelldatei.cpp</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_datei</span></p>
+
+<ul>
+  <li>Zeige (fast) alle Fehler und Warnungen an:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">g++ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quelldatei.cpp</span><code class="language-plaintext highlighter-rouge"> -Wall -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_datei</span></p>
+
+<ul>
+  <li>Wähle einen Sprachstandard für das Kompilieren:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">g++ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quelldatei.cpp</span><code class="language-plaintext highlighter-rouge"> -std=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C++98|C++11|C++14|C++17</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_datei</span></p>
+
+<ul>
+  <li>Binde Bibliotheken, die sich an einem anderen Pfad als die Quelldatei befinden mit ein:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">g++ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quelldatei.cpp</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_datei</span><code class="language-plaintext highlighter-rouge"> -I</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">header_pfad</span><code class="language-plaintext highlighter-rouge"> -L</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bibliotheks_pfad</span><code class="language-plaintext highlighter-rouge"> -l</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bibliotheks_name</span></p>

@@ -1,0 +1,56 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="yt-dlp">yt-dlp</h1>
+
+<p>A youtube-dl fork with additional features and fixes.
+Download videos from YouTube and other websites.
+More information: <a href="https://github.com/yt-dlp/yt-dlp">https://github.com/yt-dlp/yt-dlp</a>.</p>
+
+<ul>
+  <li>Download a video or playlist (with the default options from command below):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yt-dlp "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Download a video with a defined format. In this case merging the best video format with the best audio format (Default):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yt-dlp --format "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bv*+ba/b</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Extract audio from videos (required ffmpeg or ffprobe):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yt-dlp --extract-audio "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Specify audio format of extracted audio (best(default), aac, flac, mp3, m4a, opus, vorbis, wav, alac):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yt-dlp --extract-audio --audio-format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mp3</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Specify audio quality of extracted audio (between 0 (best) and 10 (worst), default = 5):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yt-dlp --extract-audio --audio-format </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mp3</span><code class="language-plaintext highlighter-rouge"> --audio-quality </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span><code class="language-plaintext highlighter-rouge"> "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Download all playlists of YouTube channel/user keeping each playlist in separate directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yt-dlp -o "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">%(uploader)s/%(playlist)s/%(playlist_index)s - %(title)s.%(ext)s</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/user/TheLinuxFoundation/playlists</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Download Udemy course keeping each chapter in separate directory under MyVideos directory in your home:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yt-dlp -u </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> -P "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/MyVideos</span><code class="language-plaintext highlighter-rouge">" -o "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">%(playlist)s/%(chapter_number)s - %(chapter)s/%(title)s.%(ext)s</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.udemy.com/java-tutorial</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Download entire series season keeping each series and each season in separate directory under C:/MyVideos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yt-dlp -P "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C:/MyVideos</span><code class="language-plaintext highlighter-rouge">" -o "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">%(series)s/%(season_number)s - %(season)s/%(episode_number)s - %(episode)s.%(ext)s</span><code class="language-plaintext highlighter-rouge">" "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://videomore.ru/kino_v_detalayah/5_sezon/367617</span><code class="language-plaintext highlighter-rouge">"</code></p>

@@ -1,0 +1,53 @@
+<h1 id="rsync">rsync</h1>
+
+<p>Transférer des fichiers vers ou depuis un hôte distant (pas entre deux hôtes distants).
+Peut transférer un ou plusieurs fichiers correspondant à un motif.
+Plus d’informations : <a href="https://manned.org/rsync">https://manned.org/rsync</a>.</p>
+
+<ul>
+  <li>Transférer un fichier local vers un serveur distant :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rsync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_local</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hote_distant</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/dossier_distant</span></p>
+
+<ul>
+  <li>Transférer un fichier d’un serveur distant vers l’hôte local :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rsync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hote_distant</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_distant</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/dossier_local</span></p>
+
+<ul>
+  <li>Transférer un fichier sous forme d’[a]rchive (pour conserver les attributs) et compressé ([z]ippé), en mode [v]erbeux, lisible par l’[h]umain et afficher la [p]rogression du transfert :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rsync -azvhP </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_local</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hote_distant</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/dossier_distant</span></p>
+
+<ul>
+  <li>Transférer un dossier et tous ses sous-dossiers d’un hôte distant vers l’hôte local :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rsync -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hote_distant</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/dossier_distant</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/dossier_local</span></p>
+
+<ul>
+  <li>Transférer le contenu d’un dossier (mais pas le dossier lui-même) d’un hôte distant vers un hôte local :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rsync -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hote_distant</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/dossier_distant</span><code class="language-plaintext highlighter-rouge">/ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/dossier_local</span></p>
+
+<ul>
+  <li>Transférer un dossier [r]écursivement, dans une [a]rchive pour conserver les attributs, en résolvant les [l]iens symboliques, et ignorant les fichiers déjà transférés sa[u]f si plus récents :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rsync -rauL </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hote_distant</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_distant</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/dossier_local</span></p>
+
+<ul>
+  <li>Transférer un fichier par SSH et effacer les fichiers de l’hôte local qui n’existent pas sur l’hôte distant :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rsync -e ssh --delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hote_distant</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_distant</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_local</span></p>
+
+<ul>
+  <li>Transférer un fichier par SSH et afficher l’avancement global du transfert :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rsync -e ssh --info=progress2 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hote_distant</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_distant</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_local</span></p>

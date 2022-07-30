@@ -1,0 +1,47 @@
+<h1 id="vboxmanage">VBoxManage</h1>
+
+<p>Command-line interface to VirtualBox.
+Includes all the functionality of the GUI and more.
+More information: <a href="https://www.virtualbox.org/manual/ch08.html#vboxmanage-intro">https://www.virtualbox.org/manual/ch08.html#vboxmanage-intro</a>.</p>
+
+<ul>
+  <li>List all VirtualBox virtual machines:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage list vms</code></p>
+
+<ul>
+  <li>Show information about a particular virtual machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage showvminfo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name|uuid</span></p>
+
+<ul>
+  <li>Start a virtual machine:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage startvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name|uuid</span></p>
+
+<ul>
+  <li>Start a virtual machine in headless mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage startvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name|uuid</span><code class="language-plaintext highlighter-rouge"> --type headless</code></p>
+
+<ul>
+  <li>Shutdown the virtual machine and save its current state:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage controlvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name|uuid</span><code class="language-plaintext highlighter-rouge"> savestate</code></p>
+
+<ul>
+  <li>Shutdown down the virtual machine without saving its state:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage controlvm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name|uuid</span><code class="language-plaintext highlighter-rouge"> poweroff</code></p>
+
+<ul>
+  <li>Update VBox extension packs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">VBoxManage extpack install --replace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">VboxExtensionPackFileName</span></p>

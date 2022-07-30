@@ -1,0 +1,43 @@
+<h3 id="outdated-translation">Outdated Translation</h3>
+<p>This entry is currently considered outdated and its contents may not be up-to-date with other translations.</p>
+
+<p>Please considering fixing this issue by contributing to the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project directly.</p>
+
+<p><a class="btn btn-primary" href="/en/common/nodemon.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a></p>
+
+<hr />
+<h1 id="nodemon">nodemon</h1>
+
+<p>Beobachtet Dateien und startet Node Applikationen automatisch neu, wenn Änderungen erkannt wurden.
+Weitere Informationen: <a href="https://nodemon.io">https://nodemon.io</a>.</p>
+
+<ul>
+  <li>Führe die angegebene Datei aus und warte auf Änderungen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nodemon </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.js</span></p>
+
+<ul>
+  <li>Manueller Neustart von Nodemon (beachte, dass Nodemon dabei aktiv sein muss):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rs</code></p>
+
+<ul>
+  <li>Ignoriere bestimmte Dateien:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nodemon --ignore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei_oder_verzeichnis</span></p>
+
+<ul>
+  <li>Übergib Argumente an die Node Applikation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nodemon </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.js</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argumente</span></p>
+
+<ul>
+  <li>Führe Nicht-Node Skripte aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nodemon --exec "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">python –verbose</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.py</span></p>

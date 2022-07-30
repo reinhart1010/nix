@@ -1,0 +1,28 @@
+<h1 id="exec">exec</h1>
+
+<p>Replace the current process with another process.
+More information: <a href="https://linuxcommand.org/lc3_man_pages/exech.html">https://linuxcommand.org/lc3_man_pages/exech.html</a>.</p>
+
+<ul>
+  <li>Replace with the specified command using the current environment variables:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exec </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command -with -flags</span></p>
+
+<ul>
+  <li>Replace with the specified command, clearing environment variables:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exec -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command -with -flags</span></p>
+
+<ul>
+  <li>Replace with the specified command and login using the default shell:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exec -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command -with -flags</span></p>
+
+<ul>
+  <li>Replace with the specified command and change the process name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">exec -a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_name</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command -with -flags</span></p>

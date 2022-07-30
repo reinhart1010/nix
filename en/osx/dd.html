@@ -1,0 +1,28 @@
+<h1 id="dd">dd</h1>
+
+<p>Convert and copy a file.
+More information: <a href="https://ss64.com/osx/dd.html">https://ss64.com/osx/dd.html</a>.</p>
+
+<ul>
+  <li>Make a bootable USB drive from an isohybrid file (such like <code class="language-plaintext highlighter-rouge">archlinux-xxx.iso</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd if=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.iso</span><code class="language-plaintext highlighter-rouge"> of=/dev/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usb_drive</span></p>
+
+<ul>
+  <li>Clone a drive to another drive with 4 MB block and ignore error:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd if=/dev/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_drive</span><code class="language-plaintext highlighter-rouge"> of=/dev/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dest_drive</span><code class="language-plaintext highlighter-rouge"> bs=4m conv=noerror</code></p>
+
+<ul>
+  <li>Generate a file of 100 random bytes by using kernel random driver:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd if=/dev/urandom of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">random_file</span><code class="language-plaintext highlighter-rouge"> bs=100 count=1</code></p>
+
+<ul>
+  <li>Benchmark the write performance of a disk:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dd if=/dev/zero of=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_1GB</span><code class="language-plaintext highlighter-rouge"> bs=1024 count=1000000</code></p>

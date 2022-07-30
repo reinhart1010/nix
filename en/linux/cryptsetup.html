@@ -1,0 +1,28 @@
+<h1 id="cryptsetup">cryptsetup</h1>
+
+<p>Manage plain dm-crypt and LUKS (Linux Unified Key Setup) encrypted volumes.
+More information: <a href="https://gitlab.com/cryptsetup/cryptsetup/">https://gitlab.com/cryptsetup/cryptsetup/</a>.</p>
+
+<ul>
+  <li>Initialize a LUKS volume (overwrites all data on the partition):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptsetup luksFormat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda1</span></p>
+
+<ul>
+  <li>Open a LUKS volume and create a decrypted mapping at <code class="language-plaintext highlighter-rouge">/dev/mapper/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target</span>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptsetup luksOpen </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target</span></p>
+
+<ul>
+  <li>Remove an existing mapping:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptsetup luksClose </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target</span></p>
+
+<ul>
+  <li>Change the LUKS volume’s passphrase:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cryptsetup luksChangeKey </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda1</span></p>

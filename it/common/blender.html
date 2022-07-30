@@ -1,0 +1,47 @@
+<h1 id="blender">blender</h1>
+
+<p>Interfaccia da linea di comando per il programma di grafica Blender 3D.
+Gli argomenti sono eseguiti nell’ordine in cui sono dati.
+Maggiori informazioni: <a href="https://manned.org/blender">https://manned.org/blender</a>.</p>
+
+<ul>
+  <li>Renderizza tutti i frame di una animazione in background, senza caricare l’interfaccia grafica (l’output è salvato in <code class="language-plaintext highlighter-rouge">/tmp</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blender -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_file</span><code class="language-plaintext highlighter-rouge">.blend -a</code></p>
+
+<ul>
+  <li>Renderizza un’animazione usando uno specifico pattern, in un percorso relativo (<code class="language-plaintext highlighter-rouge">//</code>) al file <code class="language-plaintext highlighter-rouge">.blend</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blender -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_file</span><code class="language-plaintext highlighter-rouge">.blend -o //</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">render/frame_###.png</span><code class="language-plaintext highlighter-rouge"> -a</code></p>
+
+<ul>
+  <li>Renderizza il decimo frame di un’animazione come singola immagine, salvandolo in una cartella esistente (percorso assoluto):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blender -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_file</span><code class="language-plaintext highlighter-rouge">.blend -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/percorso/a/directory_output</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span></p>
+
+<ul>
+  <li>Renderizza il penultimo frame di un’animazione come immagine JPEG, salvandolo in una cartella esistente (path relativa al file):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blender -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_file</span><code class="language-plaintext highlighter-rouge">.blend -o //</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory_output</span><code class="language-plaintext highlighter-rouge"> -F </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">JPEG</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-2</span></p>
+
+<ul>
+  <li>Renderizza l’animazione di una specifica scena, dal frame 10 al 500:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blender -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_file</span><code class="language-plaintext highlighter-rouge">.blend -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_scena</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">500</span><code class="language-plaintext highlighter-rouge"> -a</code></p>
+
+<ul>
+  <li>Renderizza un’animazione ad una specifica risoluzione, attraverso l’utilizzo di uno script python:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blender -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_file</span><code class="language-plaintext highlighter-rouge">.blend --python-expr '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">import bpy; bpy.data.scenes[0].render.resolution_percentage = 25</span><code class="language-plaintext highlighter-rouge">' -a</code></p>
+
+<ul>
+  <li>Avvia una sessione interattiva di Blender nel terminale con una console python (esegui <code class="language-plaintext highlighter-rouge">import bpy</code> dopo l’avvio):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">blender -b --python-console</code></p>

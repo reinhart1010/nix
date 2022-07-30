@@ -1,0 +1,52 @@
+<h1 id="convert">convert</h1>
+
+<p>ImageMagick image conversion tool.
+More information: <a href="https://imagemagick.org/script/convert.php">https://imagemagick.org/script/convert.php</a>.</p>
+
+<ul>
+  <li>Convert an image from JPG to PNG:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">convert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.jpg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.png</span></p>
+
+<ul>
+  <li>Scale an image 50% its original size:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">convert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.png</span><code class="language-plaintext highlighter-rouge"> -resize 50% </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image2.png</span></p>
+
+<ul>
+  <li>Scale an image keeping the original aspect ratio to a maximum dimension of 640x480:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">convert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.png</span><code class="language-plaintext highlighter-rouge"> -resize 640x480 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image2.png</span></p>
+
+<ul>
+  <li>Horizontally append images:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">convert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image1.png</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image2.png</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image3.png</span><code class="language-plaintext highlighter-rouge"> +append </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image123.png</span></p>
+
+<ul>
+  <li>Vertically append images:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">convert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image1.png</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image2.png</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image3.png</span><code class="language-plaintext highlighter-rouge"> -append </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image123.png</span></p>
+
+<ul>
+  <li>Create a GIF from a series of images with 100ms delay between them:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">convert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image1.png</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image2.png</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image3.png</span><code class="language-plaintext highlighter-rouge"> -delay </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">animation.gif</span></p>
+
+<ul>
+  <li>Create an image with nothing but a solid background:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">convert -size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">800x600</span><code class="language-plaintext highlighter-rouge"> "xc:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">#ff0000</span><code class="language-plaintext highlighter-rouge">" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.png</span></p>
+
+<ul>
+  <li>Create a favicon from several images of different sizes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">convert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image1.png</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image2.png</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image3.png</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.ico</span></p>

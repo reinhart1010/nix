@@ -1,0 +1,55 @@
+<h3 id="outdated-translation">Outdated Translation</h3>
+<p>This entry is currently considered outdated and its contents may not be up-to-date with other translations.</p>
+
+<p>Please considering fixing this issue by contributing to the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project directly.</p>
+
+<p><a class="btn btn-primary" href="/en/osx/sed.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a></p>
+
+<hr />
+<h1 id="sed">sed</h1>
+
+<p>以可用脚本的来批量编辑文本。
+更多信息：<a href="https://ss64.com/osx/sed.html">https://ss64.com/osx/sed.html</a>.</p>
+
+<ul>
+  <li>替换文件中第一个出现的字符串，并打印结果：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed 's/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">查找内容</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">替换内容</span><code class="language-plaintext highlighter-rouge">/' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名</span></p>
+
+<ul>
+  <li>替换文件中所有符合正则表达式的部分：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed -E 's/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">正则表达式</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">替换内容</span><code class="language-plaintext highlighter-rouge">/g' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名</span></p>
+
+<ul>
+  <li>替换文件中所有出现的字符串，覆盖文件（直接覆盖文件）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed --in-place='' 's/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">查找内容</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">替换内容</span><code class="language-plaintext highlighter-rouge">/g' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名</span></p>
+
+<ul>
+  <li>仅替换与行模式（一种搜索条件）匹配的行内容：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed '/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">行模式</span><code class="language-plaintext highlighter-rouge">/s/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">查找内容</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">替换内容</span><code class="language-plaintext highlighter-rouge">/' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名</span></p>
+
+<ul>
+  <li>只打印第 n 行到下一行之间的文本：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed -n '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">行号</span><code class="language-plaintext highlighter-rouge">,/^$/p' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名</span></p>
+
+<ul>
+  <li>将多个查找替换表达式应用于文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed -e 's/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">查找内容</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">替换内容</span><code class="language-plaintext highlighter-rouge">/' -e 's/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">查找内容</span><code class="language-plaintext highlighter-rouge">/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">替换内容</span><code class="language-plaintext highlighter-rouge">/' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名</span></p>
+
+<ul>
+  <li>将分隔符 / 替换为查找或替换模式中没有用到的的任何其他字符，例如 #（用于查找或替换内容中使用了 / 的情况）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sed 's#</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">查找内容</span><code class="language-plaintext highlighter-rouge">#</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">替换内容</span><code class="language-plaintext highlighter-rouge">#' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名</span></p>

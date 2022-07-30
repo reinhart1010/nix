@@ -1,0 +1,52 @@
+<h1 id="git-stash">git stash</h1>
+
+<p>Guarda cambios locales de Git en un área temporal.
+Más información: <a href="https://git-scm.com/docs/git-stash">https://git-scm.com/docs/git-stash</a>.</p>
+
+<ul>
+  <li>Guarda cambios actuales, excepto los archivos nuevos (sin rastrear):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash [push -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mensaje_opcional_del_guardado</span><code class="language-plaintext highlighter-rouge">]</code></p>
+
+<ul>
+  <li>Guarda cambios actuales, incluyendo los archivos nuevos (sin rastrear):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash -u</code></p>
+
+<ul>
+  <li>Selecciona interactivamente las partes de archivos cambiados que deben ser guardadas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash -p</code></p>
+
+<ul>
+  <li>Muestra todos los guardados (muestra el nombre del guardado, la rama relacionada y el mensaje):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash list</code></p>
+
+<ul>
+  <li>Aplica un guardado (por defecto aplica el último, llamado stash@{0}):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash apply </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_opcional_del_guardado_o_commit</span></p>
+
+<ul>
+  <li>Aplica un guardado (por defecto es stash@{0} y lo traslada desde la lista de guardado si no causa conflictos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash pop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_opcional_del_guardado</span></p>
+
+<ul>
+  <li>Elimina un guardado (por defecto es stash@{0}):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash drop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_opcional_del_guardado</span></p>
+
+<ul>
+  <li>Elimina todos los guardados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash clear</code></p>

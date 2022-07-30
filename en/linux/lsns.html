@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="lsns">lsns</h1>
+
+<p>List information about all namespaces or about the specified namespace.
+More information: <a href="https://man7.org/linux/man-pages/man8/lsns.8.html">https://man7.org/linux/man-pages/man8/lsns.8.html</a>.</p>
+
+<ul>
+  <li>List all namespaces:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsns</code></p>
+
+<ul>
+  <li>List namespaces in JSON format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsns --json</code></p>
+
+<ul>
+  <li>List namespaces associated with <code class="language-plaintext highlighter-rouge">&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;pid&lt;/span&gt;</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsns --task </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>List the specified type of namespaces only:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsns --type &lt;mnt|net|ipc|user|pid|uts|cgroup|time&gt;</code></p>
+
+<ul>
+  <li>List namespaces, only showing the namespace ID, type, PID, and command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">lsns --output NS,TYPE,PID,COMMAND</code></p>

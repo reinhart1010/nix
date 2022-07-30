@@ -1,0 +1,35 @@
+<h1 id="magick">magick</h1>
+
+<p>Create, edit, compose, or convert bitmap images.
+ImageMagick version 7+. See <code class="language-plaintext highlighter-rouge">convert</code> for versions 6 and below.
+More information: <a href="https://imagemagick.org/">https://imagemagick.org/</a>.</p>
+
+<ul>
+  <li>Convert file type:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.png</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.jpg</span></p>
+
+<ul>
+  <li>Resize an image, making a new copy:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick convert -resize </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100x100</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.jpg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.jpg</span></p>
+
+<ul>
+  <li>Create a GIF using images:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.jpg</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">images.gif</span></p>
+
+<ul>
+  <li>Create checkerboard pattern:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick -size </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">640x480</span><code class="language-plaintext highlighter-rouge"> pattern:checkerboard </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">checkerboard.png</span></p>
+
+<ul>
+  <li>Convert images to individual PDF pages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">magick </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.jpg</span><code class="language-plaintext highlighter-rouge"> +adjoin </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">page-%d.pdf</span></p>

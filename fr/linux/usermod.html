@@ -1,0 +1,22 @@
+<h1 id="usermod">usermod</h1>
+
+<p>Modifie un compte utilisateur.
+Plus d’informations : <a href="https://manned.org/usermod">https://manned.org/usermod</a>.</p>
+
+<ul>
+  <li>Change le nom d’un utilisateur :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">usermod -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nouveau_nom</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">utilisateur</span></p>
+
+<ul>
+  <li>Ajoute l’utilisateur à des groupes supplémentaires (attention à l’omission d’espaces) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">usermod -a -G </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">groupe1,groupe2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">utilisateur</span></p>
+
+<ul>
+  <li>Crée un nouveau dossier home pour un utilisateur et déplace ses fichiers vers celui-ci :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">usermod -m -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/chemin/vers/home</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">utilisateur</span></p>

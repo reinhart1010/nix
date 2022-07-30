@@ -1,0 +1,50 @@
+<h3 id="outdated-translation">Outdated Translation</h3>
+<p>This entry is currently considered outdated and its contents may not be up-to-date with other translations.</p>
+
+<p>Please considering fixing this issue by contributing to the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project directly.</p>
+
+<p><a class="btn btn-primary" href="/en/common/aria2c.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a></p>
+
+<hr />
+<h1 id="aria2c">aria2c</h1>
+
+<p>快速下载工具。
+支持 HTTP(S), FTP, SFTP, BitTorrent, and Metalink.
+更多信息：<a href="https://aria2.github.io">https://aria2.github.io</a>.</p>
+
+<ul>
+  <li>下载一个 URI 到文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>从多个源处下载一个资源：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_2</span></p>
+
+<ul>
+  <li>通过保存在一个文件中的 URL 列表来下载资源：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名</span></p>
+
+<ul>
+  <li>使用多个连接下载资源：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">连接数量</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>通过带用户名密码验证的 FTP 协议下载资源：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --ftp-user=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span><code class="language-plaintext highlighter-rouge"> --ftp-passwd=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">密码</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>限制下载速度（bytes/s）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --max-download-limit=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">速度</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>

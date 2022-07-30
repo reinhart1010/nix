@@ -1,0 +1,40 @@
+<h1 id="cut">cut</h1>
+
+<p>Recorta campos provenientes de la entrada estándar o de archivos.
+Más información: <a href="https://www.gnu.org/software/coreutils/cut">https://www.gnu.org/software/coreutils/cut</a>.</p>
+
+<ul>
+  <li>Recorta los primeros 16 caracteres de cada línea de la entrada estándar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cut -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1-16</span></p>
+
+<ul>
+  <li>Recorta los primeros 16 caracteres de cada línea de los archivos especificados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cut -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1-16</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span></p>
+
+<ul>
+  <li>Recorta todo desde el tercer caracter hasta el final de cada línea:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cut -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3-</span></p>
+
+<ul>
+  <li>Recorta el quinto campo de cada línea, usando los dos puntos como delimitadores de campos (por defecto el delimitador es tab):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cut -d'</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">:</span><code class="language-plaintext highlighter-rouge">' -f</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span></p>
+
+<ul>
+  <li>Recorta el segundo y décimo campo de cada línea, usando los punto y coma como delimitadores:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cut -d'</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">;</span><code class="language-plaintext highlighter-rouge">' -f</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2,10</span></p>
+
+<ul>
+  <li>Recorta los campos del tercero al último de cada línea, usando los espacios como delimintadores:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cut -d'</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"> </span><code class="language-plaintext highlighter-rouge">' -f</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3-</span></p>

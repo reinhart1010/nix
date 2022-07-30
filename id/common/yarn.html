@@ -1,0 +1,40 @@
+<h1 id="yarn">yarn</h1>
+
+<p>Pengelola paket alternatif untuk JavaScript dan Node.js.
+Informasi lebih lanjut: <a href="https://yarnpkg.com">https://yarnpkg.com</a>.</p>
+
+<ul>
+  <li>Memasang modul secara global:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yarn global add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_modul</span></p>
+
+<ul>
+  <li>Memasang semua dependensi yang dirujuk di berkas <code class="language-plaintext highlighter-rouge">package.json</code> (<code class="language-plaintext highlighter-rouge">install</code> adalah opsional):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yarn install</code></p>
+
+<ul>
+  <li>Memasang modul dan menyimpannya sebagai dependensi ke berkas <code class="language-plaintext highlighter-rouge">package.json</code> (tambahkan <code class="language-plaintext highlighter-rouge">--dev</code> untuk menyimpannya sebagai dependensi pengembangan):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yarn add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_modul</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versi</span></p>
+
+<ul>
+  <li>Mencopot modul dan menghapusnya dari berkas <code class="language-plaintext highlighter-rouge">package.json</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yarn remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_modul</span></p>
+
+<ul>
+  <li>Membuat berkas <code class="language-plaintext highlighter-rouge">package.json</code> secara interaktif:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yarn init</code></p>
+
+<ul>
+  <li>Mengidentifikasi apakah modul merupakan dependensi dan daftar modul lainnya yang bergantung padanya:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">yarn why </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module_name</span></p>

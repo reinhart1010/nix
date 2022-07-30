@@ -1,0 +1,16 @@
+<h1 id="while">while</h1>
+
+<p>Loop simples da shell.
+Mais informações: <a href="https://manned.org/while">https://manned.org/while</a>.</p>
+
+<ul>
+  <li>Lê a entrada default (stdin) e realiza uma ação a cada linha:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">while read line; do echo "$line"; done</code></p>
+
+<ul>
+  <li>Executa um comando para sempre a cada segundo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">while :; do </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span><code class="language-plaintext highlighter-rouge">; sleep 1; done</code></p>

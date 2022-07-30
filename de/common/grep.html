@@ -1,0 +1,53 @@
+<h1 id="grep">grep</h1>
+
+<p>Findet Ausdrücke in einem Eingabetext.
+Unterstützt einfache Muster und reguläre Ausdrücke.
+Weitere Informationen: <a href="https://www.gnu.org/software/grep/manual/grep.html">https://www.gnu.org/software/grep/manual/grep.html</a>.</p>
+
+<ul>
+  <li>Suche nach einem Ausdruck in einer Datei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ausdruck</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>
+
+<ul>
+  <li>Suche nach einem exakten Ausdruck:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grep -F </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exakter_ausdruck</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>
+
+<ul>
+  <li>Suche nach Ausdrücken [R]ekursiv im aktuellen Verzeichnis, zeige zugehörige Zeilen[n]ummern und [I]gnoriere Binärdateien:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grep -RIn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ausdruck</span><code class="language-plaintext highlighter-rouge"> .</code></p>
+
+<ul>
+  <li>Benutze erweiterte reguläre Ausdrücke (unterstützt <code class="language-plaintext highlighter-rouge">?</code>, <code class="language-plaintext highlighter-rouge">+</code>, <code class="language-plaintext highlighter-rouge">{}</code>, <code class="language-plaintext highlighter-rouge">()</code> und <code class="language-plaintext highlighter-rouge">|</code>) ohne Beachtung der Groß-, Kleinschreibung:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grep -Ei </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ausdruck</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>
+
+<ul>
+  <li>Zeige 3 Zeilen Kontext um [C], vor [B] oder nach [A] jedem Ergebnis:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grep -</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C|B|A</span><code class="language-plaintext highlighter-rouge"> 3 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ausdruck</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>
+
+<ul>
+  <li>Gib den Dateinamen mit zugehöriger Zeilennummer für jedes Ergebnis aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grep -Hn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ausdruck</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>
+
+<ul>
+  <li>Benutze STDIN, anstatt einer Datei:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "input" | grep </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ausdruck</span></p>
+
+<ul>
+  <li>In[v]ertiere das Ergebnis um bestimmte Ausdrücke auszuschließen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">grep -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ausdruck</span></p>

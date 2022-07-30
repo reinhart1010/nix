@@ -1,0 +1,49 @@
+<h3 id="outdated-translation">Outdated Translation</h3>
+<p>This entry is currently considered outdated and its contents may not be up-to-date with other translations.</p>
+
+<p>Please considering fixing this issue by contributing to the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project directly.</p>
+
+<p><a class="btn btn-primary" href="/en/common/z.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a></p>
+
+<hr />
+<h1 id="z">z</h1>
+
+<p>高頻度で利用されるディレクトリを把握し、文字列や正規表現をつかうことでスムーズに移動できるようにします。
+詳しくはこちら: <a href="https://github.com/rupa/z">https://github.com/rupa/z</a></p>
+
+<ul>
+  <li>“foo”が名前に含まれるディレクトリに移動する。</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">z </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span></p>
+
+<ul>
+  <li>“foo”と”bar”が名前に含まれるディレクトリに移動する。</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">z </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bar</span></p>
+
+<ul>
+  <li>“foo”と最もマッチングするディレクトリに移動する。</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">z -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span></p>
+
+<ul>
+  <li>“foo”とマッチングするディレクトリの中で、最も最近アクセスしたディレクトリに移動する。</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">z -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span></p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">z</code>コマンドのデータベースの中で、<code class="language-plaintext highlighter-rouge">foo</code> にマッチングするディレクトリの一覧を表示する。</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">z -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span></p>
+
+<ul>
+  <li>現在のディレクトリを<code class="language-plaintext highlighter-rouge">z</code>コマンドのデータベース除去する。</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">z -x .</code></p>

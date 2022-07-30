@@ -1,0 +1,28 @@
+<h1 id="reg-flags">reg flags</h1>
+
+<p>Display or set flags on registry keys.
+More information: <a href="https://docs.microsoft.com/windows-server/administration/windows-commands/reg-flags">https://docs.microsoft.com/windows-server/administration/windows-commands/reg-flags</a>.</p>
+
+<ul>
+  <li>Display current flags for a specific key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg flags </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> query</code></p>
+
+<ul>
+  <li>Display help and available flag types:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg flags /?</code></p>
+
+<ul>
+  <li>Set specified space-separated flags, and unset unmentioned flags, for a specific key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg flags </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">flag_names</span></p>
+
+<ul>
+  <li>Set specified flags for a specific key and its sub keys:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg flags </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> set </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">flag_names</span><code class="language-plaintext highlighter-rouge"> /s</code></p>

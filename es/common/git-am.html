@@ -1,0 +1,23 @@
+<h1 id="git-am">git am</h1>
+
+<p>Aplica archivos de parche. Útil cuando se reciben commits por correo electrónico.
+Véase también <code class="language-plaintext highlighter-rouge">git format-patch</code>, comando que genera archivo de parche.
+Más información: <a href="https://git-scm.com/docs/git-am">https://git-scm.com/docs/git-am</a>.</p>
+
+<ul>
+  <li>Aplica un archivo de parche:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git am </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.patch</span></p>
+
+<ul>
+  <li>Aborta el proceso de aplicar un archivo de parche:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git am --abort</code></p>
+
+<ul>
+  <li>Aplica todo lo posible de un archivo de parche y guarda los fragmentos fallidos para rechazar archivos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git am --reject </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.patch</span></p>

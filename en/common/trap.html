@@ -1,0 +1,29 @@
+<h1 id="trap">trap</h1>
+
+<p>Automatically execute commands after receiving signals by processes or the operating system.
+Can be used to perform cleanups for interruptions by the user or other actions.
+More information: <a href="https://manned.org/trap">https://manned.org/trap</a>.</p>
+
+<ul>
+  <li>List available signals to set traps for:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trap -l</code></p>
+
+<ul>
+  <li>List active traps for the current shell:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trap -p</code></p>
+
+<ul>
+  <li>Set a trap to execute commands when one or more signals are detected:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trap 'echo "Caught signal </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGHUP</span><code class="language-plaintext highlighter-rouge">"' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGHUP</span></p>
+
+<ul>
+  <li>Remove active traps:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">trap - </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGHUP</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGINT</span></p>

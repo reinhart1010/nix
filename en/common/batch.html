@@ -1,0 +1,23 @@
+<h1 id="batch">batch</h1>
+
+<p>Execute commands at a later time when the system load levels permit.
+Service atd (or atrun) should be running for the actual executions.
+More information: <a href="https://manned.org/batch">https://manned.org/batch</a>.</p>
+
+<ul>
+  <li>Execute commands from standard input (press <code class="language-plaintext highlighter-rouge">Ctrl + D</code> when done):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">batch</code></p>
+
+<ul>
+  <li>Execute a command from standard input:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./make_db_backup.sh</span><code class="language-plaintext highlighter-rouge">" | batch</code></p>
+
+<ul>
+  <li>Execute commands from a given file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">batch -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

@@ -1,0 +1,34 @@
+<h1 id="cat">cat</h1>
+
+<p>打印和拼接文件的工具。
+更多信息：<a href="https://www.gnu.org/software/coreutils/cat">https://www.gnu.org/software/coreutils/cat</a>.</p>
+
+<ul>
+  <li>以标准输出，打印文件内容：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>
+
+<ul>
+  <li>多文件合并到目标文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file2</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_file</span></p>
+
+<ul>
+  <li>多文件合并，并追加到目标文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file2</span><code class="language-plaintext highlighter-rouge"> &gt;&gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_file</span></p>
+
+<ul>
+  <li>显示行号：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>
+
+<ul>
+  <li>显示不可打印和空白的字符（使用 <code class="language-plaintext highlighter-rouge">M-</code> 前缀标记非 ASCII 字符）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat -v -t -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>

@@ -1,0 +1,52 @@
+<h1 id="7z">7z</h1>
+
+<p>Een bestandsarchiveerder met een hoge compressieratio.
+Meer informatie: <a href="https://www.7-zip.org">https://www.7-zip.org</a>.</p>
+
+<ul>
+  <li>Archiveer een bestand of map:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archief.7z</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_map</span></p>
+
+<ul>
+  <li>Versleutel een bestaand archief (inclusief headers):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versleuteld.7z</span><code class="language-plaintext highlighter-rouge"> -p</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wachtwoord</span><code class="language-plaintext highlighter-rouge"> -mhe=on </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archief.7z</span></p>
+
+<ul>
+  <li>Pak een bestaand 7z-bestand uit met de originele mappenstructuur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archief.7z</span></p>
+
+<ul>
+  <li>Pak een archief uit met een gebruiker-definieerd uitvoerpad:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archief.7z</span><code class="language-plaintext highlighter-rouge"> -o</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoer</span></p>
+
+<ul>
+  <li>Pak een archief naar stdout uit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archief.7z</span><code class="language-plaintext highlighter-rouge"> -so</code></p>
+
+<ul>
+  <li>Archiveer met een specifiek archieftype:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z a -t</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7z|bzip2|gzip|lzip|tar|zip</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archief.7z</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_map</span></p>
+
+<ul>
+  <li>Geef een lijst van beschikbare archieftypen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z i</code></p>
+
+<ul>
+  <li>Geef een lijst met de inhoud van het archiefbestand:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7z l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archief.7z</span></p>

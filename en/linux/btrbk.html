@@ -1,0 +1,37 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="btrbk">btrbk</h1>
+
+<p>A tool for creating snapshots and remote backups of btrfs subvolumes.
+More information: <a href="https://digint.ch/btrbk/doc/readme.html">https://digint.ch/btrbk/doc/readme.html</a>.</p>
+
+<ul>
+  <li>Print statistics about configured subvolumes and snapshots:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrbk stats</code></p>
+
+<ul>
+  <li>List configured subvolumes and snapshots:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrbk list</code></p>
+
+<ul>
+  <li>Print what would happen in a run without making the displayed changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrbk --verbose dryrun</code></p>
+
+<ul>
+  <li>Run backup routines verbosely, show progress bar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrbk --progress --verbose run</code></p>
+
+<ul>
+  <li>Only create snapshots for configured subvolumes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo btrbk snapshot</code></p>

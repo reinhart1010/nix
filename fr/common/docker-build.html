@@ -1,0 +1,49 @@
+<h3 id="outdated-translation">Outdated Translation</h3>
+<p>This entry is currently considered outdated and its contents may not be up-to-date with other translations.</p>
+
+<p>Please considering fixing this issue by contributing to the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project directly.</p>
+
+<p><a class="btn btn-primary" href="/en/common/docker-build.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a></p>
+
+<hr />
+<h1 id="docker-build">docker-build</h1>
+
+<p>Construit une image à partir d’un Dockerfile.
+Plus d’informations : <a href="https://docs.docker.com/engine/reference/commandline/build/">https://docs.docker.com/engine/reference/commandline/build/</a>.</p>
+
+<ul>
+  <li>Construire une image Docker en utilisant le Dockerfile du répertoire courant :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker build .</code></p>
+
+<ul>
+  <li>Construire une image Docker à partir d’un Dockerfile situé à une URL précisée :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">github.com/creack/docker-firefox</span></p>
+
+<ul>
+  <li>Construire une image Docker et l’étiquette :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker build --tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom:etiquette</span><code class="language-plaintext highlighter-rouge"> .</code></p>
+
+<ul>
+  <li>Ne pas utiliser le cache lors de la construction de l’image :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker build --no-cache --tag </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom:etiquette</span><code class="language-plaintext highlighter-rouge"> .</code></p>
+
+<ul>
+  <li>Construire une image Docker utilisant un Dockerfile spécifique :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker build --file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Dockerfile</span><code class="language-plaintext highlighter-rouge"> .</code></p>
+
+<ul>
+  <li>Construire avec des variables personnalisées définies à la volée :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker build --build-arg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HTTP_PROXY=http://10.20.30.2:1234</span><code class="language-plaintext highlighter-rouge"> --build-arg </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">FTP_PROXY=http://40.50.60.5:4567</span><code class="language-plaintext highlighter-rouge"> .</code></p>

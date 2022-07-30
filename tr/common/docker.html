@@ -1,0 +1,53 @@
+<h1 id="docker">docker</h1>
+
+<p>Docker konteyner ve imgelerini yönetir.
+<code class="language-plaintext highlighter-rouge">docker run</code> gibi bazı alt komutların kendi dökümantasyonu bulunmaktadır.
+Daha fazla bilgi: <a href="https://docs.docker.com/engine/reference/commandline/cli/">https://docs.docker.com/engine/reference/commandline/cli/</a>.</p>
+
+<ul>
+  <li>Şuan çalışan docker konteynerlerini listele:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker ps</code></p>
+
+<ul>
+  <li>Tüm (çalışan veya duran) docker konteynerlerini listele:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker ps -a</code></p>
+
+<ul>
+  <li>Bir imgeden özel bir isimle konteyner başlat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker run --name </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">konteyner_ismi</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imge</span></p>
+
+<ul>
+  <li>Varolan bir konteyneri başlat veya durdur:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">konteyner_ismi</span></p>
+
+<ul>
+  <li>Bir docker kaydından imge çek:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker pull </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imge</span></p>
+
+<ul>
+  <li>Halihazırda çalışan bir konteyner içinde komut istemcisi aç:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker exec -it </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">konteyner_ismi</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sh</span></p>
+
+<ul>
+  <li>Durmuş bir konteyneri sil:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker rm </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">konteyner_ismi</span></p>
+
+<ul>
+  <li>Bir konteynerin kaydını çek ve takip et:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker logs -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">konteyner_ismi</span></p>

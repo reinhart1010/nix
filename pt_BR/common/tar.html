@@ -1,0 +1,53 @@
+<h1 id="tar">tar</h1>
+
+<p>Ferramenta de compressão de arquivos.
+Utilizado com metodos de compressão como o de gzip ou bzip2.
+Mais informações: <a href="https://www.gnu.org/software/tar">https://www.gnu.org/software/tar</a>.</p>
+
+<ul>
+  <li>Compactando arquivos em um arquivo tar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar -cvf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.tar</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo3</span></p>
+
+<ul>
+  <li>Compactando arquivos em arquivo gzip:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar -czvf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.tar.gz</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo3</span></p>
+
+<ul>
+  <li>Compactando arquivos definindo tipo de compressão automaticamente por extensão:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar -cavf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.tar.xz</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo3</span></p>
+
+<ul>
+  <li>Extraindo arquivos de um arquivo compactado:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar -xvf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.tar[.gz|.bz2|.xz]</span></p>
+
+<ul>
+  <li>Extraindo arquivos de um arquivo compactado filtrando por gzip:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar -xzvf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.tar[.gz|.bz2|.xz]</span></p>
+
+<ul>
+  <li>Extraindo arquivos de um arquivo compactado para um diretório específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar -xvf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.tar[.gz|.bz2|.xz]</span><code class="language-plaintext highlighter-rouge"> -C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">diretório</span></p>
+
+<ul>
+  <li>Extrair arquivos seguindo um padrão:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar -xvf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.tar</span><code class="language-plaintext highlighter-rouge"> --wildcards "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.html</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Listando arquivos de um arquivo tar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tar -tvf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.tar</span></p>

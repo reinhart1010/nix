@@ -1,0 +1,16 @@
+<h1 id="timeout">timeout</h1>
+
+<p>Run a command with a time limit.
+More information: <a href="https://www.gnu.org/software/coreutils/timeout">https://www.gnu.org/software/coreutils/timeout</a>.</p>
+
+<ul>
+  <li>Run <code class="language-plaintext highlighter-rouge">sleep 10</code> and terminate it, if it runs for more than 3 seconds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">timeout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3s</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sleep 10</span></p>
+
+<ul>
+  <li>Specify the signal to be sent to the command after the time limit expires. (By default, TERM is sent):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">timeout --signal </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">INT</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5s</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sleep 10</span></p>

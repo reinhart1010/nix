@@ -1,0 +1,40 @@
+<h1 id="pueue-restart">pueue restart</h1>
+
+<p>Restart tasks.
+More information: <a href="https://github.com/Nukesor/pueue">https://github.com/Nukesor/pueue</a>.</p>
+
+<ul>
+  <li>Restart a specific task:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue restart </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span></p>
+
+<ul>
+  <li>Restart multiple tasks at once, and start them immediately (do not enqueue):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue restart --start-immediately </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span></p>
+
+<ul>
+  <li>Restart a specific task from a different path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue restart --edit-path </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span></p>
+
+<ul>
+  <li>Edit a command before restarting:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue restart --edit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span></p>
+
+<ul>
+  <li>Restart a task in-place (without enqueuing as a separate task):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue restart --in-place </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span></p>
+
+<ul>
+  <li>Restart all failed tasks and stash them:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pueue restart --all-failed --stashed</code></p>

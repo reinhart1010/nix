@@ -1,0 +1,31 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="bless">bless</h1>
+
+<p>Define a capacidade de inicialização por volume e as opções de disco de inicialização. Set volume boot capability and startup disk options.
+Mais informações: <a href="https://ss64.com/osx/bless.html">https://ss64.com/osx/bless.html</a>.</p>
+
+<ul>
+  <li>Definir um volume somente com Mac OS X ou Darwin, e criar os arquivos BootX e <code class="language-plaintext highlighter-rouge">boot.efi</code> se necessário:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bless --folder </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/Volumes/Mac OS X/System/Library/CoreServices</span><code class="language-plaintext highlighter-rouge"> --bootinfo --bootefi</code></p>
+
+<ul>
+  <li>Definir um volume contendo Mac OS 9 ou Mac OS X como o volume ativo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bless --mount </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/Volumes/Mac OS</span><code class="language-plaintext highlighter-rouge"> --setBoot</code></p>
+
+<ul>
+  <li>Definir o sistema para NetBoot e transmitir para um servidor disponível:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bless --netboot --server </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bsdp://255.255.255.255</span></p>
+
+<ul>
+  <li>Coletar informações sobre o volume atualmente selecionado (conforme determinado pelo firmware), adequado para piping para um programa capaz de analisar listas de propriedades:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bless --info --plist</code></p>

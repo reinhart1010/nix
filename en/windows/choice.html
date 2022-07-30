@@ -1,0 +1,41 @@
+<h1 id="choice">choice</h1>
+
+<p>Prompts the user to select one item from a list of single-character choices in a batch program, and then returns the index of the selected choice.
+If used without parameters, choice displays the default choices Y and N.
+More information: <a href="https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/choice">https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/choice</a>.</p>
+
+<ul>
+  <li>A,B and C as list of choices to be used:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choice /c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ABC</span></p>
+
+<ul>
+  <li>Use the default [Y,N] list of choices:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choice</code></p>
+
+<ul>
+  <li>Specify that the choices are case-sensitive:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choice /CS </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AaBb</span></p>
+
+<ul>
+  <li>Specify the number of seconds to pause before using the default choice specified by <code class="language-plaintext highlighter-rouge">/d</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choice /C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AaBb</span><code class="language-plaintext highlighter-rouge"> /t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span><code class="language-plaintext highlighter-rouge"> /d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">b</span></p>
+
+<ul>
+  <li>Specify a message to display before the list of choices. If <code class="language-plaintext highlighter-rouge">/m</code> is not specified, only the choice prompt is displayed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choice /m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span><code class="language-plaintext highlighter-rouge"> /C </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ABC</span></p>
+
+<ul>
+  <li>Display help message:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">choice /?</code></p>

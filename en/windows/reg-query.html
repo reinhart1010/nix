@@ -1,0 +1,34 @@
+<h1 id="reg-query">reg query</h1>
+
+<p>Display the values of keys and sub keys in the registry.
+More information: <a href="https://docs.microsoft.com/windows-server/administration/windows-commands/reg-query">https://docs.microsoft.com/windows-server/administration/windows-commands/reg-query</a>.</p>
+
+<ul>
+  <li>Display all values of a key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span></p>
+
+<ul>
+  <li>Display a specific value of a key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> /v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>
+
+<ul>
+  <li>Display all values of a key and its sub keys:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> /s</code></p>
+
+<ul>
+  <li>Search for keys and values matching a specific pattern:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> /f "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">query_pattern</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Display a value of a key matching a specified data type:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg query </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> /t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">type</span></p>

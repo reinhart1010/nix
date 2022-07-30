@@ -1,0 +1,35 @@
+<h1 id="hping">hping</h1>
+
+<p>Command-line oriented TCP/IP packet assembler and analyzer.
+Inspired by the <code class="language-plaintext highlighter-rouge">ping</code> command.
+More information: <a href="http://www.hping.org">http://www.hping.org</a>.</p>
+
+<ul>
+  <li>Ping localhost over TCP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">localhost</span></p>
+
+<ul>
+  <li>Ping an IP address over TCP on a specific port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.1.1</span></p>
+
+<ul>
+  <li>Ping an IP address over UDP on port 80:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --udp -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.1.1</span></p>
+
+<ul>
+  <li>Scan a set of TCP ports on a specific IP address:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --scan </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80,3000,9000</span><code class="language-plaintext highlighter-rouge"> -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.1.1</span></p>
+
+<ul>
+  <li>Perform a charge test on port 80:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hping3 --flood -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span><code class="language-plaintext highlighter-rouge"> -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.1.1</span></p>

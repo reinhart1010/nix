@@ -1,0 +1,28 @@
+<h1 id="mkswap">mkswap</h1>
+
+<p>Sets up a Linux swap area on a device or in a file.
+More information: <a href="https://manned.org/mkswap">https://manned.org/mkswap</a>.</p>
+
+<ul>
+  <li>Setup a given partition as swap area:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkswap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb7</span></p>
+
+<ul>
+  <li>Use a given file as swap area:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkswap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Check a partition for bad blocks before creating the swap area:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkswap -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb7</span></p>
+
+<ul>
+  <li>Specify a label for the file (to allow <code class="language-plaintext highlighter-rouge">swapon</code> to use the label):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo mkswap -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">swap1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

@@ -1,0 +1,40 @@
+<h1 id="vzdump">vzdump</h1>
+
+<p>Backup Utility for virtual machines and containers.
+More information: <a href="https://pve.proxmox.com/pve-docs/vzdump.1.html">https://pve.proxmox.com/pve-docs/vzdump.1.html</a>.</p>
+
+<ul>
+  <li>Dump a guest virtual machine into the default dump directory (usually <code class="language-plaintext highlighter-rouge">/var/lib/vz/dump/</code>), excluding snapshots:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vzdump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_id</span></p>
+
+<ul>
+  <li>Back up the guest virtual machines with the IDs 101, 102, and 103:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vzdump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">101 102 103</span></p>
+
+<ul>
+  <li>Dump a guest virtual machine using a specific mode:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vzdump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_id</span><code class="language-plaintext highlighter-rouge"> --mode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">suspend|snapshot</span></p>
+
+<ul>
+  <li>Back up all guest systems and send an notification email to the root and admin users:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vzdump --all --mode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">suspend</span><code class="language-plaintext highlighter-rouge"> --mailto </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">root</span><code class="language-plaintext highlighter-rouge"> --mailto </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">admin</span></p>
+
+<ul>
+  <li>Use snapshot mode (no downtime required) and a non-default dump directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vzdump </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_id</span><code class="language-plaintext highlighter-rouge"> --dumpdir </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> --mode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">snapshot</span></p>
+
+<ul>
+  <li>Back up all guest virtual machines excluding the IDs 101 and 102:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">vzdump --mode </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">suspend</span><code class="language-plaintext highlighter-rouge"> --exclude </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">101, 102</span></p>

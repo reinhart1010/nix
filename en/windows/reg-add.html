@@ -1,0 +1,34 @@
+<h1 id="reg-add">reg add</h1>
+
+<p>Add new keys and their values to the registry.
+More information: <a href="https://docs.microsoft.com/windows-server/administration/windows-commands/reg-add">https://docs.microsoft.com/windows-server/administration/windows-commands/reg-add</a>.</p>
+
+<ul>
+  <li>Add a new registry key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span></p>
+
+<ul>
+  <li>Add a new value under a specific key:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> /v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span></p>
+
+<ul>
+  <li>Add a new value with specific data:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> /d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data</span></p>
+
+<ul>
+  <li>Add a new value to a key with a specific data type:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> /t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">type</span></p>
+
+<ul>
+  <li>Forcefully overwrite the existing registry value without a prompt:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">reg add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span><code class="language-plaintext highlighter-rouge"> /f</code></p>

@@ -1,0 +1,23 @@
+<h1 id="import">import</h1>
+
+<p>Capture some or all of an X server screen, and save the image to a file.
+Part of the ImageMagick library.
+More information: <a href="https://imagemagick.org/script/import.php">https://imagemagick.org/script/import.php</a>.</p>
+
+<ul>
+  <li>Capture the entire X server screen in the PostScript image format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">import -window root </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.postscript</span></p>
+
+<ul>
+  <li>Capture contents of a remote X server screen in the PNG format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">import -window root -display </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">screen</span><code class="language-plaintext highlighter-rouge">.</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">display</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.png</span></p>
+
+<ul>
+  <li>Capture a specific window, given its ID as displayed by <code class="language-plaintext highlighter-rouge">xwininfo</code>, into the JPEG format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">import -window </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">window_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.jpg</span></p>

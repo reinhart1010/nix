@@ -1,0 +1,46 @@
+<h1 id="http">http</h1>
+
+<p>HTTPie: HTTP client, aims to be easier to use than cURL.
+More information: <a href="https://httpie.org">https://httpie.org</a>.</p>
+
+<ul>
+  <li>Download a URL to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http --download </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.org</span></p>
+
+<ul>
+  <li>Send form-encoded data:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http --form </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.org</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name=’bob’</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_picture@’bob.png’</span></p>
+
+<ul>
+  <li>Send JSON object:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.org</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name=’bob’</span></p>
+
+<ul>
+  <li>Specify an HTTP method:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.org</span></p>
+
+<ul>
+  <li>Include an extra header:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.org</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">X-MyHeader:123</span></p>
+
+<ul>
+  <li>Pass a username and password for server authentication:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">http --auth </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username:password</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.org</span></p>
+
+<ul>
+  <li>Specify raw request body via stdin:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.txt</span><code class="language-plaintext highlighter-rouge"> | http PUT </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.org</span></p>

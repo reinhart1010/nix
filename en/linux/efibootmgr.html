@@ -1,0 +1,34 @@
+<h1 id="efibootmgr">efibootmgr</h1>
+
+<p>Manipulate the UEFI Boot Manager.
+More information: <a href="https://manned.org/efibootmgr">https://manned.org/efibootmgr</a>.</p>
+
+<ul>
+  <li>List the current settings then bootnums with their name:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">efibootmgr</code></p>
+
+<ul>
+  <li>List the filepaths:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">efibootmgr -v</code></p>
+
+<ul>
+  <li>Add UEFI Shell v2 as a boot option:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo efibootmgr -c -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda1</span><code class="language-plaintext highlighter-rouge"> -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">\EFI\tools\Shell.efi</span><code class="language-plaintext highlighter-rouge"> -L "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UEFI Shell</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Change the current boot order:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo efibootmgr -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0002,0008,0001,0005</span></p>
+
+<ul>
+  <li>Delete a boot option:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo efibootmgr -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0008</span><code class="language-plaintext highlighter-rouge"> --delete-bootnum</code></p>

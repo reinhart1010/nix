@@ -1,0 +1,53 @@
+<h1 id="nmap">nmap</h1>
+
+<p>Herramienta de exploración de redes y escáner de seguridad / puertos.
+Algunas características solo funcionan si ejecutamos Nmap con privilegios.
+Más información: <a href="https://nmap.org">https://nmap.org</a>.</p>
+
+<ul>
+  <li>Comprueba si una dirección IP está activa, e intenta averiguar el sistema operativo del servidor correspondiente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_o_hostname</span></p>
+
+<ul>
+  <li>Intenta determinar si los hosts están activos y cuáles son sus nombres:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -sn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_o_hostname</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">opcional_otra_direccion</span></p>
+
+<ul>
+  <li>Como el anterior, pero también ejecuta un escaneo de 1000 puertos TCP por defecto, si el host está activo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_o_hostname</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">opcional_otra_direccion</span></p>
+
+<ul>
+  <li>Detecta también scripts, servicios, sistema operativo y traceroute:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -A </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">direccion_o_direcciones</span></p>
+
+<ul>
+  <li>Asume una buena conexión y acelera la ejecución:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -T4 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">direccion_o_direcciones</span></p>
+
+<ul>
+  <li>Escanea una lista específica de puertos (para todos los puertos <code class="language-plaintext highlighter-rouge">1-65535</code> usar <code class="language-plaintext highlighter-rouge">-p-</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto1,puerto2,…,puertoN</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">direccion_o_direcciones</span></p>
+
+<ul>
+  <li>Realiza un escaneo TCP y UDP (usar <code class="language-plaintext highlighter-rouge">-sU</code> para solo UDP, <code class="language-plaintext highlighter-rouge">-sZ</code> para SCTP, <code class="language-plaintext highlighter-rouge">-sO</code> para IP):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -sSU </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">direccion_o_direcciones</span></p>
+
+<ul>
+  <li>Realiza un escaneo total de puertos, servicios, detección de versiones con todos los scripts NSE por defecto contra un host para determinar debilidades e información:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nmap -sC -sV </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">direccion_o_direcciones</span></p>

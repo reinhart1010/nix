@@ -1,0 +1,28 @@
+<h1 id="mongo">mongo</h1>
+
+<p>Cliente shell interativo de MongoDB.
+Mais informações: <a href="https://docs.mongodb.com/manual/reference/program/mongo">https://docs.mongodb.com/manual/reference/program/mongo</a>.</p>
+
+<ul>
+  <li>Conectar a uma base de dados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base_de_dados</span></p>
+
+<ul>
+  <li>Conectar a uma base de dados em um host e porta específicos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongo --host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span><code class="language-plaintext highlighter-rouge"> --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base_de_dados</span></p>
+
+<ul>
+  <li>Conectar a uma base de dados com um usuário específico, uma senha será pedida ao usuário:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongo --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuário</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base_de_dados</span><code class="language-plaintext highlighter-rouge"> --password</code></p>
+
+<ul>
+  <li>Avaliar JavaScript na base de dados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongo --eval '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">JSON.stringify(db.foo.findOne())</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base_de_dados</span></p>

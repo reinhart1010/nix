@@ -1,0 +1,29 @@
+<h1 id="git-bisect">git bisect</h1>
+
+<p>Utiliza la búsqueda binaria para encontrar el commit que introdujo un error.
+Git salta de un lado a otro del gráfico de commits para hasta alcanzar progresivamente el commit defectuoso.
+Más información: <a href="https://git-scm.com/docs/git-bisect">https://git-scm.com/docs/git-bisect</a>.</p>
+
+<ul>
+  <li>Comienza un sesión de bisecado en un rango de commits delimitada por un commit erróneo conocido y por uno sano conocido (normalmente más antiguo):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bisect start </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_erroneo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_bueno</span></p>
+
+<ul>
+  <li>Para cada commit que <code class="language-plaintext highlighter-rouge">git bisect</code> selecciona, marcarlo como “malo” o “bueno” después de probarlo para el problema:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bisect </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bueno|malo</span></p>
+
+<ul>
+  <li>Después de que <code class="language-plaintext highlighter-rouge">git bisect</code> determine con precisión el commit defectuoso, termina la sesión de bisecado y vuelve a la rama anterior:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bisect reset</code></p>
+
+<ul>
+  <li>Salta un commit durante una sesión de bisecado (p. ej., uno que falla las pruebas debido a un problema diferente):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git bisect skip</code></p>

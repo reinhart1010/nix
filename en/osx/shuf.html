@@ -1,0 +1,28 @@
+<h1 id="shuf">shuf</h1>
+
+<p>Generate random permutations.
+More information: <a href="https://www.unix.com/man-page/linux/1/shuf/">https://www.unix.com/man-page/linux/1/shuf/</a>.</p>
+
+<ul>
+  <li>Randomize the order of lines in a file and output the result:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shuf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>
+
+<ul>
+  <li>Only output the first 5 entries of the result:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shuf --head-count=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>
+
+<ul>
+  <li>Write output to another file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shuf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span><code class="language-plaintext highlighter-rouge"> --output=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_filename</span></p>
+
+<ul>
+  <li>Generate random numbers in range 1-10:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shuf --input-range=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1-10</span></p>

@@ -1,0 +1,40 @@
+<h1 id="inotifywait">inotifywait</h1>
+
+<p>Waits for changes to one or more files.
+More information: <a href="https://manned.org/inotifywait">https://manned.org/inotifywait</a>.</p>
+
+<ul>
+  <li>Run a command when a file changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">while inotifywait </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge">; do </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge">; done</code></p>
+
+<ul>
+  <li>Be quiet about watching for changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">while inotifywait --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge">; do </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge">; done</code></p>
+
+<ul>
+  <li>Watch a directory recursively for changes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">while inotifywait --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge">; do </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge">; done</code></p>
+
+<ul>
+  <li>Exclude files matching a regular expression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">while inotifywait --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span><code class="language-plaintext highlighter-rouge"> --exclude '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span><code class="language-plaintext highlighter-rouge">'; do </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge">; done</code></p>
+
+<ul>
+  <li>Wait at most 30 seconds:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">while inotifywait --timeout </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge">; do </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge">; done</code></p>
+
+<ul>
+  <li>Only watch for file modification events:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">while inotifywait --event </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modify</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge">; do </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge">; done</code></p>

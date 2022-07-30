@@ -1,0 +1,47 @@
+<h1 id="rustc">rustc</h1>
+
+<p>The Rust compiler.
+Processes, compiles and links Rust language source files.
+More information: <a href="https://doc.rust-lang.org/rustc">https://doc.rust-lang.org/rustc</a>.</p>
+
+<ul>
+  <li>Compile a single file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.rs</span></p>
+
+<ul>
+  <li>Compile with high optimization:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.rs</span></p>
+
+<ul>
+  <li>Compile with debugging information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.rs</span></p>
+
+<ul>
+  <li>Compile with architecture-specific optimizations for the current CPU:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc -C target-cpu=native </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.rs</span></p>
+
+<ul>
+  <li>Display architecture-specific optimizations for the current CPU:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc -C target-cpu=native --print cfg</code></p>
+
+<ul>
+  <li>Display target list:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc --print target-list</code></p>
+
+<ul>
+  <li>Compile for a specific target:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_triple</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.rs</span></p>

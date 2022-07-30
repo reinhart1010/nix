@@ -1,0 +1,34 @@
+<h1 id="pandoc">pandoc</h1>
+
+<p>Convert documents between various formats.
+More information: <a href="https://pandoc.org">https://pandoc.org</a>.</p>
+
+<ul>
+  <li>Convert file to PDF (the output format is determined by file extension):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pandoc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.md</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.pdf</span></p>
+
+<ul>
+  <li>Force conversion to use a specific format:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pandoc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.docx</span><code class="language-plaintext highlighter-rouge"> --to </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gfm</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.md</span></p>
+
+<ul>
+  <li>Convert to a standalone file with the appropriate headers/footers (for LaTeX, HTML, etc.):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pandoc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.md</span><code class="language-plaintext highlighter-rouge"> -s -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.tex</span></p>
+
+<ul>
+  <li>List all supported input formats:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pandoc --list-input-formats</code></p>
+
+<ul>
+  <li>List all supported output formats:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pandoc --list-output-formats</code></p>

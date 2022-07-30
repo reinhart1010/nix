@@ -1,0 +1,22 @@
+<h1 id="ncat">ncat</h1>
+
+<p>Use the normal <code class="language-plaintext highlighter-rouge">cat</code> functionality over networks.
+More information: <a href="https://manned.org/ncat">https://manned.org/ncat</a>.</p>
+
+<ul>
+  <li>Listen for input on the specified port and write it to the specified file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ncat -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Accept multiple connections and keep ncat open after they have been closed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ncat -lk </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>Write output of specified file to the specified host on the specified port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ncat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">address</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>

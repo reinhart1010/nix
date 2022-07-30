@@ -1,0 +1,31 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="adb-install">adb install</h1>
+
+<p>Android Debug Bridge Install: Pousse des paquets vers une instance d’émulateur Android ou un appareil Android.
+Plus d’informations : <a href="https://developer.android.com/studio/command-line/adb">https://developer.android.com/studio/command-line/adb</a>.</p>
+
+<ul>
+  <li>Pousse une application Android vers l’émulateur/l’appareil :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/fichier.apk</span></p>
+
+<ul>
+  <li>Réinstalle une application existante, tout en gardant ses données :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install -r </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/fichier.apk</span></p>
+
+<ul>
+  <li>Accorde toutes les permissions listées dans le manifeste de l’application :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/fichier.apk</span></p>
+
+<ul>
+  <li>Mets à jour rapidement un paquet en mettant à jour uniquement les parties de l’APK qui ont changé :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">adb install --fastdeploy </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/fichier.apk</span></p>

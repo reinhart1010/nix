@@ -1,0 +1,40 @@
+<h1 id="cut">cut</h1>
+
+<p>Schneide Felder von stdin oder einer Datei aus.
+Weitere Informationen: <a href="https://www.gnu.org/software/coreutils/cut">https://www.gnu.org/software/coreutils/cut</a>.</p>
+
+<ul>
+  <li>Schneide die ersten 16 Zeichen jeder Zeile von stdin aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cut -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1-16</span></p>
+
+<ul>
+  <li>Schneide die ersten 16 Zeichen jeder Zeile der angegebenen Datei aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cut -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1-16</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span></p>
+
+<ul>
+  <li>Schneide alles ab dem dritten Zeichen bis zum Ende der Zeile aus:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cut -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3-</span></p>
+
+<ul>
+  <li>Schneide das fünfte Feld jeder Zeile aus und nutze den Doppelpunkt als Trennzeichen (standardmäßig Tab):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cut -d'</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">:</span><code class="language-plaintext highlighter-rouge">' -f</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span></p>
+
+<ul>
+  <li>Schneide das 2. und 10. Feld jeder Zeile aus und nutze Semikolon als Trennzeichen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cut -d'</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">;</span><code class="language-plaintext highlighter-rouge">' -f</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2,10</span></p>
+
+<ul>
+  <li>Schneide alles ab dem dritten Zeichen bis zum Ende der Zeile aus und nutze Leerzeichen als Trennzeichen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cut -d'</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"> </span><code class="language-plaintext highlighter-rouge">' -f</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3-</span></p>

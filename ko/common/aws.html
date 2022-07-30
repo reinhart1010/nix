@@ -1,0 +1,43 @@
+<h3 id="outdated-translation">Outdated Translation</h3>
+<p>This entry is currently considered outdated and its contents may not be up-to-date with other translations.</p>
+
+<p>Please considering fixing this issue by contributing to the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project directly.</p>
+
+<p><a class="btn btn-primary" href="/en/common/aws.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a></p>
+
+<hr />
+<h1 id="aws">aws</h1>
+
+<p>Amazon Web Services의 공식 CLI tool입니다.
+더 많은 정보: <a href="https://aws.amazon.com/cli">https://aws.amazon.com/cli</a>.</p>
+
+<ul>
+  <li>모든 IAM 사용자 목록:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws iam list-users</code></p>
+
+<ul>
+  <li>특정 지역의 모든 ec2 인스턴스 나열:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws ec2 describe-instances --region </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">us-east-1</span></p>
+
+<ul>
+  <li>특정 SQS 대기열에서 메시지 수신:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sqs receive-message --queue-url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://queue.amazonaws.com/546123/Test</span></p>
+
+<ul>
+  <li>특정 SNS 주제에 메시지 게시:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws sns publish --topic-arn </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arn:aws:sns:us-east-1:54633:testTopic</span><code class="language-plaintext highlighter-rouge"> --message "Message"</code></p>
+
+<ul>
+  <li>AWS 명령어에 대한 도움말을 보려면:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aws </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> help</code></p>

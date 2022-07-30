@@ -1,0 +1,56 @@
+<h3 id="outdated-translation">Outdated Translation</h3>
+<p>This entry is currently considered outdated and its contents may not be up-to-date with other translations.</p>
+
+<p>Please considering fixing this issue by contributing to the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project directly.</p>
+
+<p><a class="btn btn-primary" href="/en/common/aria2.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a></p>
+
+<hr />
+<h1 id="aria2">aria2</h1>
+
+<p>一个轻量级多协议和多源命令行下载工具。
+支持 HTTP, HTTPS, FTP, SFTP, BitTorrent and Metalink.
+主页： <a href="https://aria2.github.io/">https://aria2.github.io/</a>.</p>
+
+<ul>
+  <li>下载一个网络资源：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.org/myLinux.iso</span></p>
+
+<ul>
+  <li>从多个源处下载一个资源：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://mirror1.org/myLinux.iso</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://mirror2.org/myLinux.iso</span></p>
+
+<ul>
+  <li>使用两个连接下载资源：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c -x</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.org/myLinux.iso</span></p>
+
+<ul>
+  <li>从 Metalink URI 中下载资源：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.org/myLinux.metalink</span></p>
+
+<ul>
+  <li>从 BitTorrent URI 中下载资源：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.org/myLinux.torrent</span></p>
+
+<ul>
+  <li>从 BitTorrent Magnet URI 中下载资源：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">‘magnet:?xt=urn:btih:248D0A1CD08284299DE78D5C1ED359BB46717D8C’</span></p>
+
+<ul>
+  <li>从一个文件中下载资源：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uris.txt</span></p>

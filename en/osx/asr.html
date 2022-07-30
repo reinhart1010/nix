@@ -1,0 +1,29 @@
+<h1 id="asr">asr</h1>
+
+<p>Restore (copy) a disk image onto a volume.
+The command name stands for Apple Software Restore.
+More information: <a href="https://www.unix.com/man-page/osx/8/asr/">https://www.unix.com/man-page/osx/8/asr/</a>.</p>
+
+<ul>
+  <li>Restore a disk image to a target volume:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo asr restore --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_name</span><code class="language-plaintext highlighter-rouge">.dmg --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/volume</span></p>
+
+<ul>
+  <li>Erase the target volume before restoring:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo asr restore --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_name</span><code class="language-plaintext highlighter-rouge">.dmg --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/volume</span><code class="language-plaintext highlighter-rouge"> --erase</code></p>
+
+<ul>
+  <li>Skip verification after restoring:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo asr restore --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_name</span><code class="language-plaintext highlighter-rouge">.dmg --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/volume</span><code class="language-plaintext highlighter-rouge"> --noverify</code></p>
+
+<ul>
+  <li>Clone volumes without the use of an intermediate disk image:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo asr restore --source </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/volume</span><code class="language-plaintext highlighter-rouge"> --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/cloned_volume</span></p>

@@ -1,0 +1,37 @@
+<h3 id="outdated-translation">Outdated Translation</h3>
+<p>This entry is currently considered outdated and its contents may not be up-to-date with other translations.</p>
+
+<p>Please considering fixing this issue by contributing to the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project directly.</p>
+
+<p><a class="btn btn-primary" href="/en/common/git-commit.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a></p>
+
+<hr />
+<h1 id="git-commit">git commit</h1>
+
+<p>Salva file nell’area di stage in una nuova istantanea del tuo repository.
+Maggiori informazioni: <a href="https://git-scm.com/docs/git-commit">https://git-scm.com/docs/git-commit</a>.</p>
+
+<ul>
+  <li>Committa sul repository i file nell’area di stage con un messaggio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit -m "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">messaggio</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Aggiungi all’area di stage tutti i file modificati e committali con un messaggio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit -a -m "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">messaggio</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Sostituisci l’ultimo commit con le modifiche attualmente salvate nell’area di stage:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit --amend</code></p>
+
+<ul>
+  <li>Committa solo i file specificati (tra quelli presenti nell’area di stage):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git commit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file2</span></p>

@@ -1,0 +1,55 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="systemctl">systemctl</h1>
+
+<p>Controla el sistema systemd y el gestor de servicios.
+Más información: <a href="https://www.freedesktop.org/software/systemd/man/systemctl.html">https://www.freedesktop.org/software/systemd/man/systemctl.html</a>.</p>
+
+<ul>
+  <li>Muestra todos los servicios en ejecución:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl status</code></p>
+
+<ul>
+  <li>Lista las unidades fallidas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl --failed</code></p>
+
+<ul>
+  <li>Inicia/Para/Reinicia/Recarga un servicio:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop|restart|reload</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unidad</span></p>
+
+<ul>
+  <li>Muestra el estado de una unidad:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl status </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unidad</span></p>
+
+<ul>
+  <li>Habilita/Deshabilita una unidad para que se inicie en el arranque:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">enable/disable</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unidad</span></p>
+
+<ul>
+  <li>Enmascara/Desenmascara una unidad para evitar su habilitación y activación manual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mask|unmask</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unidad</span></p>
+
+<ul>
+  <li>Recarga systemd, buscando unidades nuevas o modificadas:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl daemon-reload</code></p>
+
+<ul>
+  <li>Comprueba si una unidad está habilitada:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">systemctl is-enabled </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unidad</span></p>

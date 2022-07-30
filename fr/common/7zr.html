@@ -1,0 +1,50 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="7zr">7zr</h1>
+
+<p>Un archiveur de fichiers avec un haut taux de compression.
+Similaire à <code class="language-plaintext highlighter-rouge">7z</code> sauf qu’il supporte que les fichiers <code class="language-plaintext highlighter-rouge">.7z</code>.
+Plus d’informations : <a href="https://www.7-zip.org">https://www.7-zip.org</a>.</p>
+
+<ul>
+  <li>Compresse un fichier ou un dossier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7zr a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/archive.7z</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/fichier_ou_dossier</span></p>
+
+<ul>
+  <li>Chiffre une archive existante (en incluant les en-têtes) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7zr a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/archive_chiffree.7z</span><code class="language-plaintext highlighter-rouge"> -p</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> -mhe=on </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/archive.7z</span></p>
+
+<ul>
+  <li>Extrait une archive en conservant l’arborescence des fichiers :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7zr x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/archive.7z</span></p>
+
+<ul>
+  <li>Extrait une archive vers un dossier specifique :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7zr x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/archive.7z</span><code class="language-plaintext highlighter-rouge"> -o</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/la/sortie</span></p>
+
+<ul>
+  <li>Extrait une archive vers sortie standard :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7zr x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/archive.7z</span><code class="language-plaintext highlighter-rouge"> -so</code></p>
+
+<ul>
+  <li>Liste le contenu d’une archive :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7zr l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/archive.7z</span></p>
+
+<ul>
+  <li>Liste les types de compression disponible :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7zr i</code></p>

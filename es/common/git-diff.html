@@ -1,0 +1,52 @@
+<h1 id="git-diff">git diff</h1>
+
+<p>Muestra los cambios de los archivos rastreados.
+Más información: <a href="https://git-scm.com/docs/git-diff">https://git-scm.com/docs/git-diff</a>.</p>
+
+<ul>
+  <li>Muestra los cambios sin marcar ni commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git diff</code></p>
+
+<ul>
+  <li>Muestra todos los cambios sin commit, pero incluye los marcados:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git diff HEAD</code></p>
+
+<ul>
+  <li>Muestra solo los cambios marcados pero que no tienen commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git diff --staged</code></p>
+
+<ul>
+  <li>Muestra los cambios de todos los commits a partir de una fecha/tiempo específico (una expresión de fecha, por ej., “1 week 2 days” o una fecha ISO):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git diff 'HEAD@{3 months|weeks|days|hours|seconds ago}</code></p>
+
+<ul>
+  <li>Muestra solo los nombres de los archivos cambiados con un commit específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git diff --name-only </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>Muestra un resumen de la creación, renombre y modos de cambio con un commit específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git diff --summary </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span></p>
+
+<ul>
+  <li>Compara un único archivo entre dos ramas o commits:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rama_1</span><code class="language-plaintext highlighter-rouge">..</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rama_2</span><code class="language-plaintext highlighter-rouge"> [--] </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span></p>
+
+<ul>
+  <li>Compara diferentes archivos de la rama actual con otra rama:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git diff </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rama</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo2</span></p>

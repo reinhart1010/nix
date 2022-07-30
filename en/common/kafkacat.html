@@ -1,0 +1,59 @@
+<h1 id="kafkacat">kafkacat</h1>
+
+<p>Apache Kafka producer and consumer tool.
+More information: <a href="https://github.com/edenhill/kafkacat">https://github.com/edenhill/kafkacat</a>.</p>
+
+<ul>
+  <li>Consume messages starting with the newest offset:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kafkacat -C -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">topic</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">brokers</span></p>
+
+<ul>
+  <li>Consume messages starting with the oldest offset and exit after the last message is received:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kafkacat -C -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">topic</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">brokers</span><code class="language-plaintext highlighter-rouge"> -o beginning -e</code></p>
+
+<ul>
+  <li>Consume messages as a Kafka consumer group:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kafkacat -G </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_id</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">topic</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">brokers</span></p>
+
+<ul>
+  <li>Publish message by reading from stdin:</li>
+</ul>
+
+<table>
+  <tbody>
+    <tr>
+      <td>` echo <code class="language-plaintext highlighter-rouge">&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;message&lt;/span&gt;</code></td>
+      <td>kafkacat -P -t <code class="language-plaintext highlighter-rouge">&lt;span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"&gt;topic&lt;/span&gt;</code> -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">brokers</span></td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>Publish messages by reading from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kafkacat -P -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">topic</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">brokers</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>List metadata for all topics and brokers:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kafkacat -L -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">brokers</span></p>
+
+<ul>
+  <li>List metadata for a specific topic:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kafkacat -L -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">topic</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">brokers</span></p>
+
+<ul>
+  <li>Get offset for a topic/partition for a specific point in time:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kafkacat -Q -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">topic</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">partition</span><code class="language-plaintext highlighter-rouge">:</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unix_timestamp</span><code class="language-plaintext highlighter-rouge"> -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">brokers</span></p>

@@ -1,0 +1,34 @@
+<h1 id="highlight">highlight</h1>
+
+<p>Outputs syntax-highlighted source code to a variety of formats.
+More information: <a href="http://www.andre-simon.de/doku/highlight/highlight.php">http://www.andre-simon.de/doku/highlight/highlight.php</a>.</p>
+
+<ul>
+  <li>Produce a complete HTML document from a source code file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">highlight --out-format=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">html</span><code class="language-plaintext highlighter-rouge"> --style </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">theme_name</span><code class="language-plaintext highlighter-rouge"> --syntax </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">language</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source_code</span></p>
+
+<ul>
+  <li>Produce an HTML fragment, suitable for inclusion in a larger document:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">highlight --out-format=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">html</span><code class="language-plaintext highlighter-rouge"> --fragment --syntax </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">language</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_file</span></p>
+
+<ul>
+  <li>Inline the CSS styling in every tag:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">highlight --out-format=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">html</span><code class="language-plaintext highlighter-rouge"> --inline-css --syntax </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">language</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_file</span></p>
+
+<ul>
+  <li>List all supported languages, themes, or plugins:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">highlight --list-scripts </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">langs|themes|plugins</span></p>
+
+<ul>
+  <li>Print a CSS stylesheet for a theme:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">highlight --out-format=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">html</span><code class="language-plaintext highlighter-rouge"> --print-style --style </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">theme_name</span><code class="language-plaintext highlighter-rouge"> --syntax </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">language</span><code class="language-plaintext highlighter-rouge">] --stdout</code></p>

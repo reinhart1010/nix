@@ -1,0 +1,46 @@
+<h1 id="shasum">shasum</h1>
+
+<p>SHA மறையீட்டு சரிகாண்தொகைகளைக் கணி அல்லது சரிபார்.
+மேலும் விவரத்திற்கு: <a href="https://manned.org/shasum">https://manned.org/shasum</a>.</p>
+
+<ul>
+  <li>கோப்பின் SHA1 சரிகாண்தொகையைக் கணி:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shasum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு</span></p>
+
+<ul>
+  <li>கோப்பின் SHA256 சரிகாண்தொகையைக் கணி:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shasum --algorithm 256 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு</span></p>
+
+<ul>
+  <li>பலக் கோப்புகளின் SHA512 சரிகாண்தொகைகளைக் கணி:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shasum --algorithm 512 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு2</span></p>
+
+<ul>
+  <li>SHA256 சரிகாண்தொகைகளைக் கணித்துக் கோப்பில் எழுது:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shasum --algorithm 256 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு2</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.sha256</span></p>
+
+<ul>
+  <li>சரிகாண்தொகைகளுடைய கோப்பைப் படித்து கோப்புகளைச் சரிபார்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shasum --check </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு</span></p>
+
+<ul>
+  <li>சரிகாண்தொகைகளைச் சரிபார்த்துப் பிழையுற்ற கோப்புகளை மட்டும் காட்டு:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shasum --check --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு</span></p>
+
+<ul>
+  <li>இயல் உள்ளீட்டின் SHA1 சரிகாண்தொகையைக் கணி:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கட்டளை</span><code class="language-plaintext highlighter-rouge"> | shasum</code></p>

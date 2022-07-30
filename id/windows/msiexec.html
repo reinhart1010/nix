@@ -1,0 +1,31 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="msiexec">msiexec</h1>
+
+<p>Memasang, memperbarui, memperbaiki, atau menghapus program Windows melalui file MSI dan MSP yang tersedia.
+Informasi lebih lanjut: <a href="https://docs.microsoft.com/windows-server/administration/windows-commands/msiexec">https://docs.microsoft.com/windows-server/administration/windows-commands/msiexec</a>.</p>
+
+<ul>
+  <li>Memasang sebuah program melalui file MSI:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msiexec /package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file.msi</span></p>
+
+<ul>
+  <li>Memasang file MSI dari internet:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msiexec /package </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/installer.msi</span></p>
+
+<ul>
+  <li>Memasang pembaruan program melalui file MSP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msiexec /update </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file.msp</span></p>
+
+<ul>
+  <li>Menghapus pemasangan atau pembaruan program melalui file MSI atau MSP yang tersedia:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">msiexec /uninstall </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span></p>

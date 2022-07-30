@@ -1,0 +1,52 @@
+<h1 id="git-branch">git branch</h1>
+
+<p>Comando Git principal para trabajar con ramas.
+Más información: <a href="https://git-scm.com/docs/git-branch">https://git-scm.com/docs/git-branch</a>.</p>
+
+<ul>
+  <li>Muestra las ramas locales. La rama actual está resaltada por <code class="language-plaintext highlighter-rouge">*</code>:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch</code></p>
+
+<ul>
+  <li>Muestra todas las ramas (locales y remotas):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch -a</code></p>
+
+<ul>
+  <li>Muestra el nombre de la rama actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch --show-current</code></p>
+
+<ul>
+  <li>Crea una nueva rama basada en el commit actual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_rama</span></p>
+
+<ul>
+  <li>Crea una nueva rama basada en un commit específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_rama</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash_del_commit</span></p>
+
+<ul>
+  <li>Renombra una rama (no debe haber sido fusionada para hacer esto):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">antiguo_nombre_de_la_rama</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nuevo_nombre_de_la_rama</span></p>
+
+<ul>
+  <li>Borra una rama local (no debe haber sido fusionada para hacer esto):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git branch -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_rama</span></p>
+
+<ul>
+  <li>Borra una rama remota:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git push </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_remoto</span><code class="language-plaintext highlighter-rouge"> --delete </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_rama_remota</span></p>

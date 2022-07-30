@@ -1,0 +1,40 @@
+<h1 id="attrib">attrib</h1>
+
+<p>显示或修改文件和目录的属性。
+更多信息：<a href="https://docs.microsoft.com/windows-server/administration/windows-commands/attrib">https://docs.microsoft.com/windows-server/administration/windows-commands/attrib</a>.</p>
+
+<ul>
+  <li>显示当前目录下所有文件的属性：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">attrib</code></p>
+
+<ul>
+  <li>显示当前目录和其子目录下所有文件的属性：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">attrib /S</code></p>
+
+<ul>
+  <li>显示当前目录和其子目录下所有文件和目录的属性：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">attrib /S /D</code></p>
+
+<ul>
+  <li>为一个文件增加只读属性：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">attrib +R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">document.txt</span></p>
+
+<ul>
+  <li>删除一个文件的系统和隐藏属性：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">attrib -S -H </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">document.txt</span></p>
+
+<ul>
+  <li>为一个目录增加隐藏属性：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">attrib +H </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目录的路径</span></p>

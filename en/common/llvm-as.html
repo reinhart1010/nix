@@ -1,0 +1,22 @@
+<h1 id="llvm-as">llvm-as</h1>
+
+<p>LLVM Intermediate Representation (<code class="language-plaintext highlighter-rouge">.ll</code>) to Bitcode (<code class="language-plaintext highlighter-rouge">.bc</code>) assembler.
+More information: <a href="https://llvm.org/docs/CommandGuide/llvm-as.html">https://llvm.org/docs/CommandGuide/llvm-as.html</a>.</p>
+
+<ul>
+  <li>Assemble an IR file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llvm-as -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/out.bc</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.ll</span></p>
+
+<ul>
+  <li>Assemble an IR file and include a module hash in the produced Bitcode file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">llvm-as --module-hash -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/out.bc</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.ll</span></p>
+
+<ul>
+  <li>Read an IR file from <code class="language-plaintext highlighter-rouge">stdin</code> and assemble it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.ll</span><code class="language-plaintext highlighter-rouge"> | llvm-as -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/out.bc</span></p>

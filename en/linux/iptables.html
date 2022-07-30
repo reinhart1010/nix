@@ -1,0 +1,52 @@
+<h1 id="iptables">iptables</h1>
+
+<p>Program that allows configuration of tables, chains and rules provided by the Linux kernel firewall.
+More information: <a href="https://www.netfilter.org/projects/iptables/">https://www.netfilter.org/projects/iptables/</a>.</p>
+
+<ul>
+  <li>View chains, rules, and packet/byte counters for the filter table:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables -vnL</code></p>
+
+<ul>
+  <li>Set chain policy rule:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables -P </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chain</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rule</span></p>
+
+<ul>
+  <li>Append rule to chain policy for IP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables -A </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chain</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip</span><code class="language-plaintext highlighter-rouge"> -j </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rule</span></p>
+
+<ul>
+  <li>Append rule to chain policy for IP considering protocol and port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables -A </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chain</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip</span><code class="language-plaintext highlighter-rouge"> -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">protocol</span><code class="language-plaintext highlighter-rouge"> --dport </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> -j </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rule</span></p>
+
+<ul>
+  <li>Add a NAT rule to translate all traffic from the <code class="language-plaintext highlighter-rouge">192.168.0.0/24</code> subnet to the host’s public IP:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nat</span><code class="language-plaintext highlighter-rouge"> -A </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">POSTROUTING</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.0/24</span><code class="language-plaintext highlighter-rouge"> -j </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">MASQUERADE</span></p>
+
+<ul>
+  <li>Delete chain rule:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables -D </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chain</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rule_line_number</span></p>
+
+<ul>
+  <li>Save iptables configuration of a given table to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables-save -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tablename</span><code class="language-plaintext highlighter-rouge"> &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/iptables_file</span></p>
+
+<ul>
+  <li>Restore iptables configuration from a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo iptables-restore &lt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/iptables_file</span></p>

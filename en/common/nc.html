@@ -1,0 +1,46 @@
+<h1 id="nc">nc</h1>
+
+<p>Netcat is a versatile utility for working with TCP or UDP data.
+More information: <a href="https://nmap.org/ncat">https://nmap.org/ncat</a>.</p>
+
+<ul>
+  <li>Listen on a specified port and print any data received:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nc -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>Connect to a certain port:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>Set a timeout:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nc -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">timeout_in_seconds</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ipaddress</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>Keep the server up after the client detaches:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nc -k -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>Keep the client up even after EOF:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nc -q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">timeout</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address</span></p>
+
+<ul>
+  <li>Scan the open ports of a specified host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nc -v -z </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span></p>
+
+<ul>
+  <li>Act as proxy and forward data from a local TCP port to the given remote host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">nc -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_port</span><code class="language-plaintext highlighter-rouge"> | nc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_port</span></p>

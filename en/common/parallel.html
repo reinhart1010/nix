@@ -1,0 +1,40 @@
+<h1 id="parallel">parallel</h1>
+
+<p>Run commands on multiple CPU cores.
+More information: <a href="https://www.gnu.org/software/parallel">https://www.gnu.org/software/parallel</a>.</p>
+
+<ul>
+  <li>Gzip several files at once, using all cores:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">parallel gzip ::: </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file3</span></p>
+
+<ul>
+  <li>Read arguments from stdin, run 4 jobs at once:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ls *.txt | parallel -j4 gzip</code></p>
+
+<ul>
+  <li>Convert JPG images to PNG using replacement strings:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">parallel convert {} {.}.png ::: *.jpg</code></p>
+
+<ul>
+  <li>Parallel xargs, cram as many args as possible onto one command:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">args</span><code class="language-plaintext highlighter-rouge"> | parallel -X </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Break stdin into ~1M blocks, feed each block to stdin of new command:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">cat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">big_file.txt</span><code class="language-plaintext highlighter-rouge"> | parallel --pipe --block 1M </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span></p>
+
+<ul>
+  <li>Run on multiple machines via SSH:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">parallel -S </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">machine1</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">machine2</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge"> ::: </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arg1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arg2</span></p>

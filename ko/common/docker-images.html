@@ -1,0 +1,37 @@
+<h3 id="outdated-translation">Outdated Translation</h3>
+<p>This entry is currently considered outdated and its contents may not be up-to-date with other translations.</p>
+
+<p>Please considering fixing this issue by contributing to the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project directly.</p>
+
+<p><a class="btn btn-primary" href="/en/common/docker-images.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a></p>
+
+<hr />
+<h1 id="docker-images">docker images</h1>
+
+<p>도커 이미지를 관리한다.
+더 많은 정보: <a href="https://docs.docker.com/engine/reference/commandline/images/">https://docs.docker.com/engine/reference/commandline/images/</a>.</p>
+
+<ul>
+  <li>모든 도커 이미지 목록보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images</code></p>
+
+<ul>
+  <li>중간자를 포함한 모든 도커 이미지 목록보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images -a</code></p>
+
+<ul>
+  <li>잔잔한 모드로 결과 목록보기(수로 표현된 ID들만):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images -q</code></p>
+
+<ul>
+  <li>어떠한 컨테이너에서도 사용되지 않은 모든 도커 이미지 목록보기:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">docker images --filter dangling=true</code></p>

@@ -1,0 +1,19 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="tailscale-ssh">tailscale ssh</h1>
+
+<p>SSH to a Tailscale machine (Linux Only).
+More information: <a href="https://tailscale.com/kb/1193/tailscale-ssh">https://tailscale.com/kb/1193/tailscale-ssh</a>.</p>
+
+<ul>
+  <li>Advertise/Disable SSH on the host:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo tailscale up --ssh=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true|false</span></p>
+
+<ul>
+  <li>SSH to a specific host which has Tailscale-SSH enabled:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tailscale ssh </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge">@</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span></p>

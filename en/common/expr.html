@@ -1,0 +1,43 @@
+<h1 id="expr">expr</h1>
+
+<p>Evaluate expressions and manipulate strings.
+More information: <a href="https://www.gnu.org/software/coreutils/expr">https://www.gnu.org/software/coreutils/expr</a>.</p>
+
+<ul>
+  <li>Get string length:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expr length </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span></p>
+
+<ul>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>Evaluate logical or math expression with an operator (‘+’, ‘-‘, ‘*’, ‘&amp;’, ‘</td>
+          <td>’, etc.). Special symbols should be escaped:</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">expr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">first_argument</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">operator</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">second_argument</span></p>
+
+<ul>
+  <li>Get position of the first character in ‘string’ that matches ‘substring’:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo $(expr index </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">substring</span><code class="language-plaintext highlighter-rouge">)</code></p>
+
+<ul>
+  <li>Extract part of the string:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo $(expr substr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">position_to_start</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">number_of_characters</span></p>
+
+<ul>
+  <li>Extract part of the string which matches a regular expression:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo $(expr </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span><code class="language-plaintext highlighter-rouge"> : '\(</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span><code class="language-plaintext highlighter-rouge">\)')</code></p>

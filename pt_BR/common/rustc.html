@@ -1,0 +1,47 @@
+<h1 id="rustc">rustc</h1>
+
+<p>O compilador Rust.
+Processa, compila e vincula arquivos fonte da linguagem Rust.
+Mais informações: <a href="https://doc.rust-lang.org/rustc">https://doc.rust-lang.org/rustc</a>.</p>
+
+<ul>
+  <li>Compila um único arquivo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.rs</span></p>
+
+<ul>
+  <li>Compila com alta otimização:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc -O </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.rs</span></p>
+
+<ul>
+  <li>Compila com informações de depuração:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc -g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.rs</span></p>
+
+<ul>
+  <li>Compila com otimizações específicas de arquitetura para a CPU atual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc -C target-cpu=native </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.rs</span></p>
+
+<ul>
+  <li>Exibe otimizações específicas de arquitetura para a CPU atual:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc -C target-cpu=native --print cfg</code></p>
+
+<ul>
+  <li>Exibe lista de targets:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc --print target-list</code></p>
+
+<ul>
+  <li>Compila para um target específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">rustc --target </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_triplo</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.rs</span></p>

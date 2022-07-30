@@ -1,0 +1,34 @@
+<h1 id="echo">echo</h1>
+
+<p>Drukt gegeven argumenten af.
+Meer informatie: <a href="https://www.gnu.org/software/coreutils/echo">https://www.gnu.org/software/coreutils/echo</a>.</p>
+
+<ul>
+  <li>Druk een tekstbericht af. Let op: aanhalingstekens zijn optimaal:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hallo Wereld</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Druk een bericht af met omgevingsvariabelen:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Mijn pad is $PATH</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Drukt een bericht af zonder te volgen met een nieuwe regel:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo -n "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hallo Wereld</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Voeg een bericht aan een bestand toe:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hallo Wereld</span><code class="language-plaintext highlighter-rouge">" &gt;&gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestand.txt</span></p>
+
+<ul>
+  <li>Schakel interpretatie van backslash ontkoming in (speciale karakters):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">echo -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kolom 1\kolom 2</span><code class="language-plaintext highlighter-rouge">"</code></p>

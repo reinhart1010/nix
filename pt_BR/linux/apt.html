@@ -1,0 +1,49 @@
+<h3 id="outdated-translation">Outdated Translation</h3>
+<p>This entry is currently considered outdated and its contents may not be up-to-date with other translations.</p>
+
+<p>Please considering fixing this issue by contributing to the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project directly.</p>
+
+<p><a class="btn btn-primary" href="/en/linux/apt.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a></p>
+
+<hr />
+<h1 id="apt">apt</h1>
+
+<p>Gerenciador de pacotes das distribuições baseadas em Debian.
+Mais informações: <a href="https://manpages.debian.org/latest/apt/apt.8.html">https://manpages.debian.org/latest/apt/apt.8.html</a>.</p>
+
+<ul>
+  <li>Atualizar a lista de pacotes disponíveis (recomenda-se executá-lo antes de outros comandos <code class="language-plaintext highlighter-rouge">apt</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt update</code></p>
+
+<ul>
+  <li>Buscar pacotes correspondentes ao critério de busca:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt search </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">criterio_de_busca</span></p>
+
+<ul>
+  <li>Exibir as informações de pacote:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt show </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span></p>
+
+<ul>
+  <li>Instalar um pacote ou atualizá-lo para a versão mais recente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span></p>
+
+<ul>
+  <li>Remover um pacote (Para remover os arquivos de configuração deve-se usar a opção <code class="language-plaintext highlighter-rouge">purge</code> ao invés do <code class="language-plaintext highlighter-rouge">remove</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span></p>
+
+<ul>
+  <li>Atualizar os pacotes instalados para as versões mais recentes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo apt upgrade</code></p>

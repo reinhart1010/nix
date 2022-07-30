@@ -1,0 +1,34 @@
+<h1 id="satis">satis</h1>
+
+<p>The command-line utility for the Satis static Composer repository.
+More information: <a href="https://github.com/composer/satis">https://github.com/composer/satis</a>.</p>
+
+<ul>
+  <li>Initialize a Satis configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">satis init </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">satis.json</span></p>
+
+<ul>
+  <li>Add a VCS repository to the Satis configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">satis add </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_url</span></p>
+
+<ul>
+  <li>Build the static output from the configuration:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">satis build </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">satis.json</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_directory</span></p>
+
+<ul>
+  <li>Build the static output by updating only the specified repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">satis build --repository-url </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_url</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">satis.json</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_directory</span></p>
+
+<ul>
+  <li>Remove useless archive files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">satis purge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">satis.json</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_directory</span></p>

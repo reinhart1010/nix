@@ -1,0 +1,55 @@
+<h3 id="outdated-translation">Outdated Translation</h3>
+<p>This entry is currently considered outdated and its contents may not be up-to-date with other translations.</p>
+
+<p>Please considering fixing this issue by contributing to the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project directly.</p>
+
+<p><a class="btn btn-primary" href="/en/common/chmod.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a></p>
+
+<hr />
+<h1 id="chmod">chmod</h1>
+
+<p>Modifie les droits d’accès d’un fichier ou d’un répertoire.
+Plus d’informations : <a href="https://www.gnu.org/software/coreutils/chmod">https://www.gnu.org/software/coreutils/chmod</a>.</p>
+
+<ul>
+  <li>Donne les droits d’e[x]écution à l’[u]tilisateur auquel le fichier appartient :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod u+x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span></p>
+
+<ul>
+  <li>Donne à l’utilisateur les droits de lecture (r) et d’écriture (w) sur un fichier/répertoire :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod u+rw </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier_ou_repertoire</span></p>
+
+<ul>
+  <li>Enlève les droits d’exécution pour le [g]roupe :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod g-x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span></p>
+
+<ul>
+  <li>Donne à tous (a) les utilisateurs les droits de lecture et d’exécution :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod a+rx </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span></p>
+
+<ul>
+  <li>Donne aux autres utilisateurs (qui sont dans un autre groupe) les mêmes droits que ceux du groupe propriétaire :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod o=g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span></p>
+
+<ul>
+  <li>Retire tous les droits aux autres (o) utilisateurs :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod o= </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span></p>
+
+<ul>
+  <li>Modifie les permissions récursivement en donnant aux membres du groupe et aux autres utilisateurs le droit d’écriture :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod -R g+w,o+w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repertoire</span></p>

@@ -1,0 +1,52 @@
+<h1 id="tmux">tmux</h1>
+
+<p>Multiplexa varias consolas virtuales.
+Más información: <a href="https://github.com/tmux/tmux">https://github.com/tmux/tmux</a>.</p>
+
+<ul>
+  <li>Inicia una nueva sesión de tmux:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmux</code></p>
+
+<ul>
+  <li>Inicia una nueva sesión de tmux y le asigna un nombre:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmux new -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span></p>
+
+<ul>
+  <li>Muestra las sesiones:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmux ls</code></p>
+
+<ul>
+  <li>Adjunta a una sesión:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmux a</code></p>
+
+<ul>
+  <li>Adjunta a una sesión con un nombre específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmux a -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span></p>
+
+<ul>
+  <li>Desconecta de la sesión:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Ctrl + B, D</code></p>
+
+<ul>
+  <li>Elimina una sesión con un nombre específico:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmux kill-session -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span></p>
+
+<ul>
+  <li>Elimina una sesión cuando se adjunta:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Ctrl + B, x (luego se pulsa 'y' para confirmar que sí)</code></p>

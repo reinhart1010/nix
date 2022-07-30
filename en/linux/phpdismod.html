@@ -1,0 +1,16 @@
+<h1 id="phpdismod">phpdismod</h1>
+
+<p>Disable PHP extensions on Debian-based OSes.
+More information: <a href="https://salsa.debian.org/php-team/php-defaults">https://salsa.debian.org/php-team/php-defaults</a>.</p>
+
+<ul>
+  <li>Disable the JSON extension for every SAPI of every PHP version:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo phpdismod </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json</span></p>
+
+<ul>
+  <li>Disable the JSON extension for PHP 7.3 with the cli SAPI:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo phpdismod -v </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7.3</span><code class="language-plaintext highlighter-rouge"> -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cli</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json</span></p>

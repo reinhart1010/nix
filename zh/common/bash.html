@@ -1,0 +1,62 @@
+<h3 id="outdated-translation">Outdated Translation</h3>
+<p>This entry is currently considered outdated and its contents may not be up-to-date with other translations.</p>
+
+<p>Please considering fixing this issue by contributing to the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project directly.</p>
+
+<p><a class="btn btn-primary" href="/en/common/bash.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a></p>
+
+<hr />
+<h1 id="bash">bash</h1>
+
+<p>Bourne-Again SHell.
+兼容<code class="language-plaintext highlighter-rouge">sh</code>的命令行解释器。
+更多信息：<a href="https://gnu.org/software/bash/">https://gnu.org/software/bash/</a>.</p>
+
+<ul>
+  <li>启动交互式 shell：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bash</code></p>
+
+<ul>
+  <li>执行命令：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bash -c "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>执行脚本文件：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bash </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.sh</span></p>
+
+<ul>
+  <li>执行脚本文件，并将所有执行过的命令输出到终端：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bash -x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.sh</span></p>
+
+<ul>
+  <li>执行脚本文件，并在第一个错误处终止：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bash -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.sh</span></p>
+
+<ul>
+  <li>从输入（stdin）读取命令：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bash -s</code></p>
+
+<ul>
+  <li>将跟随的所有选项原样传递到要执行的脚本文件（可与<code class="language-plaintext highlighter-rouge">-s</code>选项共用来将选项传递到来自输入的命令 / 脚本）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bash --</code></p>
+
+<ul>
+  <li>打印 bash 的版本信息（使用<code class="language-plaintext highlighter-rouge">echo $BASH_VERSION</code>来获得纯粹的版本字符串）：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">bash --version</code></p>

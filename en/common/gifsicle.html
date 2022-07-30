@@ -1,0 +1,28 @@
+<h1 id="gifsicle">gifsicle</h1>
+
+<p>Create GIFs.
+More information: <a href="https://www.lcdf.org/gifsicle">https://www.lcdf.org/gifsicle</a>.</p>
+
+<ul>
+  <li>Optimise a GIF:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gifsicle --batch --optimize=3 </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">amin.gif</span></p>
+
+<ul>
+  <li>Make a GIF animation with gifsicle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gifsicle --delay=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> --loop *.gif &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">anim.gif</span></p>
+
+<ul>
+  <li>Extract frames from an animation:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gifsicle </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">anim.gif</span><code class="language-plaintext highlighter-rouge"> '#0' &gt; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">firstframe.gif</span></p>
+
+<ul>
+  <li>You can also edit animations by replacing, deleting, or inserting frames:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">gifsicle -b </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">anim.gif</span><code class="language-plaintext highlighter-rouge"> --replace '#0' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new.gif</span></p>

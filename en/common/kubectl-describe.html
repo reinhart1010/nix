@@ -1,0 +1,34 @@
+<h1 id="kubectl-describe">kubectl describe</h1>
+
+<p>Show details of Kubernetes objects and resources.
+More information: <a href="https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#describe">https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#describe</a>.</p>
+
+<ul>
+  <li>Show details of pods in a namespace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl describe pods -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span></p>
+
+<ul>
+  <li>Show details of nodes in a namespace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl describe nodes -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span></p>
+
+<ul>
+  <li>Show the details of a specific pod in a namespace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl describe pods </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pod_name</span><code class="language-plaintext highlighter-rouge"> -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span></p>
+
+<ul>
+  <li>Show the details of a specific node in a namespace:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl describe nodes </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_name</span><code class="language-plaintext highlighter-rouge"> -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span></p>
+
+<ul>
+  <li>Show details of Kubernetes objects defined in a YAML manifest:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">kubectl describe -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/manifest</span><code class="language-plaintext highlighter-rouge">.yaml</code></p>

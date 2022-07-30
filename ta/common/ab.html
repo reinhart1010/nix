@@ -1,0 +1,37 @@
+<h3 id="outdated-translation">Outdated Translation</h3>
+<p>This entry is currently considered outdated and its contents may not be up-to-date with other translations.</p>
+
+<p>Please considering fixing this issue by contributing to the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project directly.</p>
+
+<p><a class="btn btn-primary" href="/en/common/ab.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a></p>
+
+<hr />
+<h1 id="ab">ab</h1>
+
+<p>அப்பாச்சி தரப்படுத்தல் கருவி. சுமை சோதனை செய்ய எளிய கருவி.
+மேலும் விவரத்திற்கு: <a href="https://httpd.apache.org/docs/current/programs/ab.html">https://httpd.apache.org/docs/current/programs/ab.html</a>.</p>
+
+<ul>
+  <li>கொடுக்கப்பட்ட முகவரி க்கு 100 HTTP GET கோரிக்கைகளை இயக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">முகவரி</span></p>
+
+<ul>
+  <li>கொடுக்கப்பட்ட முகவரி க்கு 100 HTTP GET கோரிக்கைகளை ஒரே நேரத்தில் 10 கோரிக்கைகள் வீதம் செயல்படுத்தவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span><code class="language-plaintext highlighter-rouge"> -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">முகவரி</span></p>
+
+<ul>
+  <li>இணைப்பை தொடரச்செய்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -k </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">முகவரி</span></p>
+
+<ul>
+  <li>தரப்படுத்தல் குறிக்க செலவழிக்க அதிகபட்ச விநாடிகளை அமைக்கவும்:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ab -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">60</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">முகவரி</span></p>

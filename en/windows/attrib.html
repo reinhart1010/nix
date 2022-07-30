@@ -1,0 +1,40 @@
+<h1 id="attrib">attrib</h1>
+
+<p>Displays or changes file and directory attributes.
+More information: <a href="https://docs.microsoft.com/windows-server/administration/windows-commands/attrib">https://docs.microsoft.com/windows-server/administration/windows-commands/attrib</a>.</p>
+
+<ul>
+  <li>Display the attributes of the files in the current directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">attrib</code></p>
+
+<ul>
+  <li>Display the attributes of the files in the current directory and sub-directories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">attrib /S</code></p>
+
+<ul>
+  <li>Display the attributes of the files and directories in the current directory and sub-directories:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">attrib /S /D</code></p>
+
+<ul>
+  <li>Add the read-only attribute to a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">attrib +R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">document.txt</span></p>
+
+<ul>
+  <li>Remove the system and hidden attributes of a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">attrib -S -H </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">document.txt</span></p>
+
+<ul>
+  <li>Add the hidden attribute to a directory:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">attrib +H </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory</span></p>

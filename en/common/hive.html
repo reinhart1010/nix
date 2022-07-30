@@ -1,0 +1,28 @@
+<h1 id="hive">hive</h1>
+
+<p>CLI tool for Apache Hive.
+More information: <a href="https://cwiki.apache.org/confluence/display/Hive/LanguageManual+Cli">https://cwiki.apache.org/confluence/display/Hive/LanguageManual+Cli</a>.</p>
+
+<ul>
+  <li>Start a Hive interactive shell:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hive</code></p>
+
+<ul>
+  <li>Run HiveQL:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hive -e "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hiveql_query</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>Run a HiveQL file with a variable substitution:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hive --define </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span><code class="language-plaintext highlighter-rouge"> -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sql</span></p>
+
+<ul>
+  <li>Run a HiveQL with HiveConfig (e.g. <code class="language-plaintext highlighter-rouge">mapred.reduce.tasks=32</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">hive --hiveconf </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">conf_name</span><code class="language-plaintext highlighter-rouge">=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">conf_value</span></p>

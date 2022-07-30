@@ -1,0 +1,40 @@
+<h1 id="attrib">attrib</h1>
+
+<p>ファイルまたはディレクトリの属性を表示または変更します。
+詳しくはこちら: <a href="https://docs.microsoft.com/windows-server/administration/windows-commands/attrib">https://docs.microsoft.com/windows-server/administration/windows-commands/attrib</a></p>
+
+<ul>
+  <li>現在のディレクトリ内のファイルの属性を表示します:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">attrib</code></p>
+
+<ul>
+  <li>現在のディレクトリとサブディレクトリにあるファイルの属性を表示します:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">attrib /S</code></p>
+
+<ul>
+  <li>現在のディレクトリとサブディレクトリ内のファイルとディレクトリの属性を表示します:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">attrib /S /D</code></p>
+
+<ul>
+  <li>ファイルに読み取り専用属性を追加します:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">attrib +R </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル名.txt</span></p>
+
+<ul>
+  <li>システムとファイルの非表示属性を削除します:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">attrib -S -H </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル名.txt</span></p>
+
+<ul>
+  <li>非表示の属性をディレクトリに追加します:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">attrib +H </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ディレクトリパス</span></p>

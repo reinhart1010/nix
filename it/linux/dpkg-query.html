@@ -1,0 +1,28 @@
+<h1 id="dpkg-query">dpkg-query</h1>
+
+<p>Uno strumento che mostra informazioni sui pacchetti installati.
+Maggiori informazioni: <a href="https://manpages.debian.org/latest/dpkg/dpkg-query.1.html">https://manpages.debian.org/latest/dpkg/dpkg-query.1.html</a>.</p>
+
+<ul>
+  <li>Elenca tutti i pacchetti installati:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg-query -l</code></p>
+
+<ul>
+  <li>Elenca i pacchetti installati con nomi che combaciano con una data espressione:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg-query -l '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">espressione_pattern</span><code class="language-plaintext highlighter-rouge">'</code></p>
+
+<ul>
+  <li>Elenca tutti i file installati da una pacchetto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg-query -L </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_del_pacchetto</span></p>
+
+<ul>
+  <li>Mostra le informazioni riguardanti un pacchetto:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dpkg-query -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_del_pacchetto</span></p>

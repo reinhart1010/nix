@@ -1,0 +1,52 @@
+<h1 id="tmux">tmux</h1>
+
+<p>Multiplexeur de terminaux. Permet plusieurs sessions avec fenêtres, panneaux, et plus encore.
+Plus d’informations : <a href="https://github.com/tmux/tmux">https://github.com/tmux/tmux</a>.</p>
+
+<ul>
+  <li>Démarrer une nouvelle session :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmux</code></p>
+
+<ul>
+  <li>Démarrer une nouvelle session nommée :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmux new-session -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom</span></p>
+
+<ul>
+  <li>Lister les sessions existantes :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmux ls</code></p>
+
+<ul>
+  <li>S’attacher à la session utilisée la plus récemment :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmux attach-session</code></p>
+
+<ul>
+  <li>S’attacher à une session nommée :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmux attach-session -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom</span></p>
+
+<ul>
+  <li>Se détacher de la session actuelle (avec le préfixe Ctrl-B) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Ctrl-B d</code></p>
+
+<ul>
+  <li>Détruire une session nommée :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">tmux kill-session -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom</span></p>
+
+<ul>
+  <li>Détruire la session actuelle (avec le préfixe Ctrl-B) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">Ctrl-B :kill-session&lt;Enter&gt;</code></p>

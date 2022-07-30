@@ -1,0 +1,56 @@
+<h3 id="outdated-translation">Outdated Translation</h3>
+<p>This entry is currently considered outdated and its contents may not be up-to-date with other translations.</p>
+
+<p>Please considering fixing this issue by contributing to the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project directly.</p>
+
+<p><a class="btn btn-primary" href="/en/linux/apt-get.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a></p>
+
+<hr />
+<h1 id="apt-get">apt-get</h1>
+
+<p>Herramienta de gestión de paquete para distribuciones basadas en Debian.
+Buscar paquetes utilizando <code class="language-plaintext highlighter-rouge">apt-cache</code>.
+Más información: <a href="https://manpages.debian.org/latest/apt/apt-get.8.html">https://manpages.debian.org/latest/apt/apt-get.8.html</a>.</p>
+
+<ul>
+  <li>Actualiza la lista de paquetes y versiones disponibles (se recomienda ejecutar este comando antes que cualquier otro comando <code class="language-plaintext highlighter-rouge">apt-get</code>):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get update</code></p>
+
+<ul>
+  <li>Instala un paquete o actualizarlo a su última versión disponible:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get install </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>Elimina un paquete:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>Elimina un paquete y sus archivos de configuración:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get purge </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span></p>
+
+<ul>
+  <li>Actualiza todos los paquetes instalados a sus nuevas versiones disponibles:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get upgrade</code></p>
+
+<ul>
+  <li>Elimina todos los paquetes innecesarios:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get autoremove</code></p>
+
+<ul>
+  <li>Actualiza paquetes instalados (como <code class="language-plaintext highlighter-rouge">upgrade</code>), pero elimina paquete obsoletos e instala paquetes adiciones para satisfacer nuevas dependencias:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">apt-get dist-upgrade</code></p>

@@ -1,0 +1,41 @@
+<h1 id="searchsploit">searchsploit</h1>
+
+<p>Searchsploit searches exploit database’s database for exploits, shellcodes and/or papers.
+If known version numbers are used as search terms, exploits for both the exact version and others whose version range covers the one specified are shown.
+More information: <a href="https://www.exploit-db.com/searchsploit">https://www.exploit-db.com/searchsploit</a>.</p>
+
+<ul>
+  <li>Search for an exploit, shellcode, or paper:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">searchsploit </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_terms</span></p>
+
+<ul>
+  <li>Search for a known specific version, e.g. sudo version 1.8.27:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">searchsploit sudo 1.8.27</code></p>
+
+<ul>
+  <li>Show the exploit-db link to the found resources:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">searchsploit --www </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_terms</span></p>
+
+<ul>
+  <li>Make a copy of the resource to the current directory (requires the number of the exploit):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">searchsploit --mirror </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exploit_number</span></p>
+
+<ul>
+  <li>Open the resource to read with the pager defined in the <code class="language-plaintext highlighter-rouge">$PAGER</code> environment variable:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">searchsploit --explore </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exploit_number</span></p>
+
+<ul>
+  <li>Update the local exploit database:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">searchsploit --update</code></p>

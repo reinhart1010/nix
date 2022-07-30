@@ -1,0 +1,49 @@
+<h3 id="outdated-translation">Outdated Translation</h3>
+<p>This entry is currently considered outdated and its contents may not be up-to-date with other translations.</p>
+
+<p>Please considering fixing this issue by contributing to the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project directly.</p>
+
+<p><a class="btn btn-primary" href="/en/linux/shutdown.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a></p>
+
+<hr />
+<h1 id="shutdown">shutdown</h1>
+
+<p>Detiene, apaga o reinicia la máquina.
+Más información: <a href="https://manned.org/shutdown.8">https://manned.org/shutdown.8</a>.</p>
+
+<ul>
+  <li>Detiene inmediatamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown -H now</code></p>
+
+<ul>
+  <li>Apaga inmediatamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown -h now</code></p>
+
+<ul>
+  <li>Reinicia inmediatamente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown -r now</code></p>
+
+<ul>
+  <li>Reinicia dentro de 5 minutos:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown -r +</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span><code class="language-plaintext highlighter-rouge"> &amp;</code></p>
+
+<ul>
+  <li>Apaga a la 1:00 PM (formato 24h):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown -h 13:00</code></p>
+
+<ul>
+  <li>Cancela una operación de apagado/reinicio pendiente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">shutdown -c</code></p>

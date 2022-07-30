@@ -1,0 +1,40 @@
+<h1 id="b2sum">b2sum</h1>
+
+<p>Calculate BLAKE2 cryptographic checksums.
+More information: <a href="https://www.gnu.org/software/coreutils/b2sum">https://www.gnu.org/software/coreutils/b2sum</a>.</p>
+
+<ul>
+  <li>Calculate the BLAKE2 checksum for a file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2sum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span></p>
+
+<ul>
+  <li>Calculate BLAKE2 checksums for multiple files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2sum </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span></p>
+
+<ul>
+  <li>Calculate the BLAKE2 checksum from stdin:</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">some_command</span><code class="language-plaintext highlighter-rouge"> | b2sum</code></p>
+
+<ul>
+  <li>Read a file of BLAKE2 sums and filenames and verify all files have matching checksums:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2sum --check </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.b2</span></p>
+
+<ul>
+  <li>Only show a message for missing files or when verification fails:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2sum --check --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.b2</span></p>
+
+<ul>
+  <li>Only show a message for files for which verification fails, ignoring missing files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">b2sum --ignore-missing --check --quiet </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.b2</span></p>

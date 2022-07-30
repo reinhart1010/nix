@@ -1,0 +1,40 @@
+<h1 id="strace">strace</h1>
+
+<p>Troubleshooting tool for tracing system calls.
+More information: <a href="https://manned.org/strace">https://manned.org/strace</a>.</p>
+
+<ul>
+  <li>Start tracing a specific process by its PID:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">strace -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span></p>
+
+<ul>
+  <li>Trace a process and filter output by system call:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">strace -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span><code class="language-plaintext highlighter-rouge"> -e </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">system_call_name</span></p>
+
+<ul>
+  <li>Count time, calls, and errors for each system call and report a summary on program exit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">strace -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span><code class="language-plaintext highlighter-rouge"> -c</code></p>
+
+<ul>
+  <li>Show the time spent in every system call:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">strace -p </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span><code class="language-plaintext highlighter-rouge"> -T</code></p>
+
+<ul>
+  <li>Start tracing a program by executing it:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">strace </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span></p>
+
+<ul>
+  <li>Start tracing file operations of a program:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">strace -e trace=file </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span></p>

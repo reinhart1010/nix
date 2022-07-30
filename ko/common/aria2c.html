@@ -1,0 +1,50 @@
+<h3 id="outdated-translation">Outdated Translation</h3>
+<p>This entry is currently considered outdated and its contents may not be up-to-date with other translations.</p>
+
+<p>Please considering fixing this issue by contributing to the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project directly.</p>
+
+<p><a class="btn btn-primary" href="/en/common/aria2c.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a></p>
+
+<hr />
+<h1 id="aria2c">aria2c</h1>
+
+<p>빠른 다운로드 유틸리티.
+HTTP(S), FTP, SFTP, BitTorrent, and Metalink를 지원합니다.
+더 많은 정보: <a href="https://aria2.github.io">https://aria2.github.io</a>.</p>
+
+<ul>
+  <li>URl을 파일에 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>다중 소스를 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_2</span></p>
+
+<ul>
+  <li>파일에 나열된 URI 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c -i </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span></p>
+
+<ul>
+  <li>여러 연결로 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">connections_num</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>사용자 이름과 암호가 있는 FTP 다운로드:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --ftp-user=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span><code class="language-plaintext highlighter-rouge"> --ftp-passwd=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>
+
+<ul>
+  <li>다운로드 속도를 바이트/s로 제한:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">aria2c --max-download-limit=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">speed</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span></p>

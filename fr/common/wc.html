@@ -1,0 +1,43 @@
+<h3 id="outdated-translation">Outdated Translation</h3>
+<p>This entry is currently considered outdated and its contents may not be up-to-date with other translations.</p>
+
+<p>Please considering fixing this issue by contributing to the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project directly.</p>
+
+<p><a class="btn btn-primary" href="/en/common/wc.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a></p>
+
+<hr />
+<h1 id="wc">wc</h1>
+
+<p>Compte les lignes, les mots ou les octets.
+Plus d’informations : <a href="https://www.gnu.org/software/coreutils/wc">https://www.gnu.org/software/coreutils/wc</a>.</p>
+
+<ul>
+  <li>Compte les lignes d’un fichier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wc -l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>
+
+<ul>
+  <li>Compte les mots d’un fichier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wc -w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>
+
+<ul>
+  <li>Compte les caractères (octets) d’un fichier :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wc -c </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>
+
+<ul>
+  <li>Compte les caractères d’un fichier (en prenant en compte l’ensemble des caractères multi-octets) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">wc -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>
+
+<ul>
+  <li>Utilisez l’entrée standard pour compter les lignes, les mots et les caractères (octets) dans cet ordre :</li>
+</ul>
+
+<p><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">find .</span><code class="language-plaintext highlighter-rouge"> | wc</code></p>

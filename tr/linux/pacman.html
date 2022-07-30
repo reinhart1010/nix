@@ -1,0 +1,52 @@
+<h1 id="pacman">pacman</h1>
+
+<p>Arch Linux paket yönetim aracı.
+Daha fazla bilgi: <a href="https://man.archlinux.org/man/pacman.8">https://man.archlinux.org/man/pacman.8</a>.</p>
+
+<ul>
+  <li>Tüm paketleri senkronize et ve güncelle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync --refresh --sysupgrade</code></p>
+
+<ul>
+  <li>Yeni bir paket indir:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket_ismi</span></p>
+
+<ul>
+  <li>Bir paket ve bağlılıklarını sil:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --remove --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket_ismi</span></p>
+
+<ul>
+  <li>Paket veritabanını girilen ifade ile arat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --sync --search "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arama_şablonu</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>İndirilmiş paket ve sürümleri sırala:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query</code></p>
+
+<ul>
+  <li>Sadece özellikle belirtilen paket ve sürümleri sırala:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --explicit</code></p>
+
+<ul>
+  <li>Hangi paketin belirtilen dosyaya sahip olduğunu bul:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --owns </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya_ismi</span></p>
+
+<ul>
+  <li>Paket çerezlerini boş alan açmak için temizle:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync --clean --clean</code></p>

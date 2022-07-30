@@ -1,0 +1,34 @@
+<h1 id="dconf-write">dconf write</h1>
+
+<p>Write a value to a dconf database path.
+More information: <a href="https://developer.gnome.org/dconf">https://developer.gnome.org/dconf</a>.</p>
+
+<ul>
+  <li>Write a string to a dconf path (note the nested quotes):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dconf write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/example/dconf/path</span><code class="language-plaintext highlighter-rouge"> "'</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Example Value</span><code class="language-plaintext highlighter-rouge">'"</code></p>
+
+<ul>
+  <li>Write a boolean to a dconf path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dconf write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/example/dconf/path</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true|false</span></p>
+
+<ul>
+  <li>Write an integer to a dconf path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dconf write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/example/dconf/path</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">16</span></p>
+
+<ul>
+  <li>Write an array to a dconf path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dconf write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/example/dconf/path</span><code class="language-plaintext highlighter-rouge"> "[</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">‘My First Value’, ‘My Second Value’</span><code class="language-plaintext highlighter-rouge">]"</code></p>
+
+<ul>
+  <li>Write an empty array to a dconf path:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">dconf write </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/example/dconf/path</span><code class="language-plaintext highlighter-rouge"> "@as []"</code></p>

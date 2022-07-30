@@ -1,0 +1,55 @@
+<h3 id="outdated-translation">Outdated Translation</h3>
+<p>This entry is currently considered outdated and its contents may not be up-to-date with other translations.</p>
+
+<p>Please considering fixing this issue by contributing to the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project directly.</p>
+
+<p><a class="btn btn-primary" href="/en/common/chmod.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a></p>
+
+<hr />
+<h1 id="chmod">chmod</h1>
+
+<p>Alterar as permissões de acesso a um ficheiro ou diretório.
+Mais informações: <a href="https://www.gnu.org/software/coreutils/chmod">https://www.gnu.org/software/coreutils/chmod</a>.</p>
+
+<ul>
+  <li>Dar a um [u]tilizador que possui um ficheiro o direito a e[x]ecutá-lo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod u+x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ficheiro</span></p>
+
+<ul>
+  <li>Dar a um [u]tilizador direitos para le[r] e escrever ([w]) num ficheiro/diretório:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod u+rw </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ficheiro_ou_diretorio</span></p>
+
+<ul>
+  <li>Remover direitos de execução de um [g]rupo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod g-x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ficheiro</span></p>
+
+<ul>
+  <li>Dar a todos ([a]) os utilizadores o direito de le[r] e e[x]ecutar:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod a+rx </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ficheiro</span></p>
+
+<ul>
+  <li>Dar a [o]utros (que não estão no grupo do dono do ficheiro) os mesmos direitos do [g]rupo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod o=g </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ficheiro</span></p>
+
+<ul>
+  <li>Remover todos os direitos dos [o]utros:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod o= </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ficheiro</span></p>
+
+<ul>
+  <li>Mudar as permissões, recursivamente, dando ao [g]rupo e [o]utros a possibilidade de escrever ([w]):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">chmod -R g+w,o+w </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">diretorio</span></p>

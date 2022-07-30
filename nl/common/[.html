@@ -1,0 +1,44 @@
+<h3 id="outdated-translation">Outdated Translation</h3>
+<p>This entry is currently considered outdated and its contents may not be up-to-date with other translations.</p>
+
+<p>Please considering fixing this issue by contributing to the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project directly.</p>
+
+<p><a class="btn btn-primary" href="/en/common/[.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a></p>
+
+<hr />
+<h1>[</h1>
+
+<p>Evalueren voorwaarde.
+Geeft een 0 terug als de voorwaarde waar (true) is, als het niet waar (false) is geeft het een 1 terug.
+Meer informatie: <a href="https://www.gnu.org/software/bash/manual/bash.html#index-test">https://www.gnu.org/software/bash/manual/bash.html#index-test</a>.</p>
+
+<ul>
+  <li>Test of een gegeven variabele gelijk is aan een gegeven tekst:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$VARIABELE</span><code class="language-plaintext highlighter-rouge">" == "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/bin/zsh</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>Test of een gegeven variabele leeg is:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -z "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$GIT_TAK</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>Test of een bestand bestaat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ -f "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>Test of een directory niet bestaat:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ ! -d "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/directory</span><code class="language-plaintext highlighter-rouge">" ]</code></p>
+
+<ul>
+  <li>If-else instructie:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">[ </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">conditie</span><code class="language-plaintext highlighter-rouge"> ] &amp;&amp; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo “waar”</span><code class="language-plaintext highlighter-rouge"> || </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo “niet waar”</span></p>

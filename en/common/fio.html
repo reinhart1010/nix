@@ -1,0 +1,26 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="fio">fio</h1>
+
+<p>Flexible I/O tester.
+Tool that will spawn a number of threads or processes doing a particular type of I/O action.
+More information: <a href="https://fio.readthedocs.io/en/latest/fio_doc.html">https://fio.readthedocs.io/en/latest/fio_doc.html</a>.</p>
+
+<ul>
+  <li>Test random reads:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo fio --filename=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> --direct=1 --rw=randread --bs=4k --ioengine=libaio --iodepth=256 --runtime=120 --numjobs=4 --time_based --group_reporting --name=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_name</span><code class="language-plaintext highlighter-rouge"> --eta-newline=1 --readonly</code></p>
+
+<ul>
+  <li>Test sequential reads:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo fio --filename=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> --direct=1 --rw=read --bs=4k --ioengine=libaio --iodepth=256 --runtime=120 --numjobs=4 --time_based --group_reporting --name=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_name</span><code class="language-plaintext highlighter-rouge"> --eta-newline=1 --readonly</code></p>
+
+<ul>
+  <li>Test random read/write:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo fio --filename=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span><code class="language-plaintext highlighter-rouge"> --size=500GB --direct=1 --rw=randrw --bs=4k --ioengine=libaio --iodepth=256 --runtime=120 --numjobs=4 --time_based --group_reporting --name=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_name</span><code class="language-plaintext highlighter-rouge"> --eta-newline=1</code></p>

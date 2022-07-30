@@ -1,0 +1,34 @@
+<h1 id="brotli">brotli</h1>
+
+<p>Compress/uncompress files with Brotli compression.
+More information: <a href="https://github.com/google/brotli">https://github.com/google/brotli</a>.</p>
+
+<ul>
+  <li>Compress a file, creating a compressed version next to the file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">brotli </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.ext</span></p>
+
+<ul>
+  <li>Decompress a file, creating an uncompressed version next to the file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">brotli -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.ext</span><code class="language-plaintext highlighter-rouge">.br</code></p>
+
+<ul>
+  <li>Compress a file specifying the output filename:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">brotli </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.ext</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">compressed_file.ext.br</span></p>
+
+<ul>
+  <li>Decompress a Brotli file specifying the output filename:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">brotli -d </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">compressed_file.ext.br</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.ext</span></p>
+
+<ul>
+  <li>Specify the compression level. 1=Fastest (Worst), 11=Slowest (Best):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">brotli -q </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">11</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.ext</span><code class="language-plaintext highlighter-rouge"> -o </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">compressed_file.ext.br</span></p>

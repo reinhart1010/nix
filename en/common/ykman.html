@@ -1,0 +1,28 @@
+<h1 id="ykman">ykman</h1>
+
+<p>The YubiKey Manager can be used to configure all aspects of the YubiKey.
+More information: <a href="https://docs.yubico.com/software/yubikey/tools/ykman/index.html">https://docs.yubico.com/software/yubikey/tools/ykman/index.html</a>.</p>
+
+<ul>
+  <li>Get information from YubiKey:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman info</code></p>
+
+<ul>
+  <li>Get information for a given application from YubiKey:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fido|oath|openpgp|otp|piv</span><code class="language-plaintext highlighter-rouge"> info</code></p>
+
+<ul>
+  <li>Get a list of enabled applications over NFC from YubiKey:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman config nfc --list</code></p>
+
+<ul>
+  <li>Enable application over USB on YubiKey:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">ykman config usb --enable </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">OTP|U2F|FIDO2|OATH|PIV|OPENPGP|HSMAUTH</span></p>

@@ -1,0 +1,40 @@
+<h1 id="stat">stat</h1>
+
+<p>Display file and filesystem information.
+More information: <a href="https://www.gnu.org/software/coreutils/manual/html_node/stat-invocation.html">https://www.gnu.org/software/coreutils/manual/html_node/stat-invocation.html</a>.</p>
+
+<ul>
+  <li>Show file properties such as size, permissions, creation and access dates among others:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stat </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>
+
+<ul>
+  <li>Same as above but in a more concise way:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stat -t </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>
+
+<ul>
+  <li>Show filesystem information:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stat -f </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>
+
+<ul>
+  <li>Show only octal file permissions:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stat -c "%a %n" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>
+
+<ul>
+  <li>Show owner and group of the file:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stat -c "%U %G" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>
+
+<ul>
+  <li>Show the size of the file in bytes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">stat -c "%s %n" </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span></p>

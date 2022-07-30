@@ -1,0 +1,47 @@
+<h1 id="7zr">7zr</h1>
+
+<p>Pengarsip file dengan rasio kompresi yang tinggi.
+Serupa dengan <code class="language-plaintext highlighter-rouge">7z</code> namun mendukung format file arsip <code class="language-plaintext highlighter-rouge">.7z</code> saja.
+Informasi lebih lanjut: <a href="https://www.7-zip.org">https://www.7-zip.org</a>.</p>
+
+<ul>
+  <li>Meng[a]rsipkan sebuah file atau direktori:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7zr a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/arsip.7z</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_atau_direktori</span></p>
+
+<ul>
+  <li>Mengenkripsi sebuah file arsip (termasuk nama-nama file yang terkandung di dalamnya):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7zr a </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/arsip_terenkripsi.7z</span><code class="language-plaintext highlighter-rouge"> -p</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kata sandi</span><code class="language-plaintext highlighter-rouge"> -mhe=on </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/arsip.7z</span></p>
+
+<ul>
+  <li>Mengekstrak sebuah file arsip dengan mempertahankan struktur direktori asli:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7zr x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/arsip.7z</span></p>
+
+<ul>
+  <li>Mengekstrak sebuah file arsip ke dalam direktori yang ditentukan:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7zr x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/arsip.7z</span><code class="language-plaintext highlighter-rouge"> -o</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span></p>
+
+<ul>
+  <li>Mengekstrak sebuah file arsip menuju stdout:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7zr x </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/arsip.7z</span><code class="language-plaintext highlighter-rouge"> -so</code></p>
+
+<ul>
+  <li>Me[l]ihat daftar isi dari sebuah file arsip:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7zr l </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/arsip.7z</span></p>
+
+<ul>
+  <li>Mengetahui daftar format file arsip yang didukung:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">7zr i</code></p>

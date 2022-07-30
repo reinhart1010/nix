@@ -1,0 +1,16 @@
+<h1 id="case">case</h1>
+
+<p>case … esac 与其他语言中的 switch … case 语句类似，是一种多分枝选择结构。
+更多信息：<a href="https://manned.org/case">https://manned.org/case</a>.</p>
+
+<ul>
+  <li>通过字符串字面量判断执行分支：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">case </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">入参变量</span><code class="language-plaintext highlighter-rouge"> in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字符字面量1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">执行语句块1</span><code class="language-plaintext highlighter-rouge"> ;; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字符字面量2</span><code class="language-plaintext highlighter-rouge">) </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">执行语句块2</span><code class="language-plaintext highlighter-rouge"> ;; *) </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">默认执行语句块</span><code class="language-plaintext highlighter-rouge"> ;; esac</code></p>
+
+<ul>
+  <li>搭配通配符进行匹配，判断执行分支：</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">case </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">入参变量</span><code class="language-plaintext highlighter-rouge"> in </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">通配符或者字符字面量</span><code class="language-plaintext highlighter-rouge">) </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">执行语句块1</span><code class="language-plaintext highlighter-rouge"> ; ;; </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">通配符或者字符字面量</span><code class="language-plaintext highlighter-rouge">) </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">执行语句块1</span><code class="language-plaintext highlighter-rouge">; ;; *) </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo “what?”</span><code class="language-plaintext highlighter-rouge">; ;; esac</code></p>

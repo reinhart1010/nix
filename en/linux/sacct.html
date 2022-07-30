@@ -1,0 +1,28 @@
+<h1 id="sacct">sacct</h1>
+
+<p>Display accounting data from the Slurm service.
+More information: <a href="https://slurm.schedmd.com/sacct.html">https://slurm.schedmd.com/sacct.html</a>.</p>
+
+<ul>
+  <li>Display job id, job name, partition, account, number of allocated cpus, job state, and job exit codes for recent jobs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sacct</code></p>
+
+<ul>
+  <li>Display job id, job state, job exit code for recent jobs:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sacct --brief</code></p>
+
+<ul>
+  <li>Display the allocations of a job:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sacct --jobs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_id</span><code class="language-plaintext highlighter-rouge"> --allocations</code></p>
+
+<ul>
+  <li>Display elapsed time, job name, number of requested CPUs, and memory requested of a job:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sacct --jobs </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_id</span><code class="language-plaintext highlighter-rouge"> --format=</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">elapsed</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jobname</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">reqcpus</span><code class="language-plaintext highlighter-rouge">,</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">reqmem</span></p>

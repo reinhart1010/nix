@@ -1,0 +1,52 @@
+<h1 id="pacman">pacman</h1>
+
+<p>ആർച്ച് ലിന്ക്സിന്റെ പാക്കേജ് മാനേജുമെന്റ് യൂട്ടിലിറ്റി.
+കൂടുതൽ വിവരങ്ങൾ: <a href="https://man.archlinux.org/man/pacman.8">https://man.archlinux.org/man/pacman.8</a>.</p>
+
+<ul>
+  <li>ഇൻസ്റ്റാൾ ചെയ്‌ത എല്ലാ പാക്കേജും അപ്‌ഡേറ്റു ചെയ്യുക:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync --refresh --sysupgrade</code></p>
+
+<ul>
+  <li>പുതിയ പാക്കേജ് ഇൻസ്റ്റാൾ ചെയ്യുക:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">പാക്കേജ്</span></p>
+
+<ul>
+  <li>ഒരു പാക്കേജും അത് ആശ്രയിക്കുന്ന മറ്റ് പാക്കേജുകളെയും കളയുക:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --remove --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">പാക്കേജ്</span></p>
+
+<ul>
+  <li>പാക്കേജ് ഡാറ്റാബേസിൽ ഒരു സൂചകപദം അല്ലെങ്കിൽ റെഗുലർ എക്സ്പ്രെഷൻ വെച്ച് തിരയുക:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --sync --search "</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">സെർച്ച് പാറ്റേൺ</span><code class="language-plaintext highlighter-rouge">"</code></p>
+
+<ul>
+  <li>ഇൻസ്റ്റാൾ ചെയ്‌ത എല്ലാ പാക്കേജുകളും അതിന്റെ പതിപ്പും കാണിക്കുക:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query</code></p>
+
+<ul>
+  <li>നേരെ ഇൻസ്റ്റാൾ ചെയ്ത പാക്കേജ്‌സ് മാത്റം കാണിക്കുക:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --explicit</code></p>
+
+<ul>
+  <li>ഏത് പാക്കേജാണ് ഒരു ഫയലിന്റെ ഉടമ എന്ന് കണ്ടുപിടിക്കാൻ:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">pacman --query --owns </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ഫയലിന്റെ പേര്</span></p>
+
+<ul>
+  <li>പാക്കേജ് ക്യാഷ് കാലിയാക്കി സ്റ്റോറേജ്‌ മുക്തമാക്കുക:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo pacman --sync --clean --clean</code></p>

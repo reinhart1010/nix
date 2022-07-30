@@ -1,0 +1,28 @@
+<h1 id="mongo">mongo</h1>
+
+<p>Client shell pour MongoDB.
+Plus d’informations : <a href="https://docs.mongodb.com/manual/reference/program/mongo">https://docs.mongodb.com/manual/reference/program/mongo</a>.</p>
+
+<ul>
+  <li>Connecte à une base de données (database) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongo </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_la_base_de_données</span></p>
+
+<ul>
+  <li>Connecte à une base de données (database) sur un hôte (host) distant et un port donné :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongo --host </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hôte</span><code class="language-plaintext highlighter-rouge"> --port </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_la_base_de_données</span></p>
+
+<ul>
+  <li>Connecte à une base de données (database) avec un nom d’utilisateur (username); L’utilisateur sera invité à saisir son mot de passe :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongo --username </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_d’utilisateur</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_la_base_de_données</span><code class="language-plaintext highlighter-rouge"> --password</code></p>
+
+<ul>
+  <li>Évalue une expression JavaScript sur une base de données (database) :</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">mongo --eval '</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">JSON.stringify(db.foo.findOne())</span><code class="language-plaintext highlighter-rouge">' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_la_base_de_données</span></p>

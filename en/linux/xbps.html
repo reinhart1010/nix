@@ -1,0 +1,46 @@
+<h1 id="xbps">xbps</h1>
+
+<p>The X Binary Package System (or xbps) is the binary package system used by Void Linux.
+More information: <a href="https://github.com/void-linux/xbps">https://github.com/void-linux/xbps</a>.</p>
+
+<ul>
+  <li>Install packages and synchronize them with the remote repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xbps-install --sync </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name1</span><code class="language-plaintext highlighter-rouge"> </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name2</span></p>
+
+<ul>
+  <li>Search for a package in the remote repository:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xbps-query --repository -s </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span></p>
+
+<ul>
+  <li>Remove a package, leaving all of its dependencies installed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xbps-remove </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span></p>
+
+<ul>
+  <li>Remove a package and all of its dependencies recursively that are not required by other packages:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xbps-remove --recursive </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span></p>
+
+<ul>
+  <li>Synchronize your repository databases and update your system and dependencies:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xbps-install --sync --update</code></p>
+
+<ul>
+  <li>Remove packages that were installed as dependencies and aren’t currently needed:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xbps-remove --remove-orphans</code></p>
+
+<ul>
+  <li>Remove obsolete packages from the cache:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">xbps-remove --clean-cache</code></p>

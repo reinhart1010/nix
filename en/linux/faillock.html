@@ -1,0 +1,25 @@
+<p>This entry is very new in the <a href="https://github.com/tldr-pages/tldr">tldr-pages</a> project, hence translation data is currently unavailable for a while.</p>
+
+<hr />
+<h1 id="faillock">faillock</h1>
+
+<p>Display and modify authentication failure record files.
+More information: <a href="https://manned.org/faillock">https://manned.org/faillock</a>.</p>
+
+<ul>
+  <li>List login failures of all users:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo faillock</code></p>
+
+<ul>
+  <li>List login failures of the specified user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo faillock --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span></p>
+
+<ul>
+  <li>Reset the failure records of the specified user:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">sudo faillock --user </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span><code class="language-plaintext highlighter-rouge"> --reset</code></p>

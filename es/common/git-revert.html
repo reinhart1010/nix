@@ -1,0 +1,28 @@
+<h1 id="git-revert">git revert</h1>
+
+<p>Crea nuevos commits que revierten el efecton de los anteriores.
+Más información: <a href="https://git-scm.com/docs/git-revert">https://git-scm.com/docs/git-revert</a>.</p>
+
+<ul>
+  <li>Revierte el commit más reciente:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git revert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span></p>
+
+<ul>
+  <li>Revierte el quinto último commit:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git revert HEAD~</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span></p>
+
+<ul>
+  <li>Revierte múltiples commits:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git revert </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rama~5..rama~2</span></p>
+
+<ul>
+  <li>No crea nuevos commits, solo cambia el árbol de trabajo:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git revert -n </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0c01a9..9a1743</span></p>

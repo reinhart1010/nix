@@ -1,0 +1,52 @@
+<h1 id="git-stash">git stash</h1>
+
+<p>Stash local Git changes in a temporary area.
+More information: <a href="https://git-scm.com/docs/git-stash">https://git-scm.com/docs/git-stash</a>.</p>
+
+<ul>
+  <li>Stash current changes, except new (untracked) files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash [push -m </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">optional_stash_message</span><code class="language-plaintext highlighter-rouge">]</code></p>
+
+<ul>
+  <li>Stash current changes, including new (untracked) files:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash -u</code></p>
+
+<ul>
+  <li>Interactively select parts of changed files for stashing:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash -p</code></p>
+
+<ul>
+  <li>List all stashes (shows stash name, related branch and message):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash list</code></p>
+
+<ul>
+  <li>Apply a stash (default is the latest, named stash@{0}):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash apply </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">optional_stash_name_or_commit</span></p>
+
+<ul>
+  <li>Apply a stash (default is stash@{0}), and remove it from the stash list if applying doesn’t cause conflicts:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash pop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">optional_stash_name</span></p>
+
+<ul>
+  <li>Drop a stash (default is stash@{0}):</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash drop </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">optional_stash_name</span></p>
+
+<ul>
+  <li>Drop all stashes:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">git stash clear</code></p>

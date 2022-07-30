@@ -1,0 +1,52 @@
+<h1 id="awk">awk</h1>
+
+<p>Wszechstronny język programowania do pracy na plikach.
+Więcej informacji: <a href="https://github.com/onetrueawk/awk">https://github.com/onetrueawk/awk</a>.</p>
+
+<ul>
+  <li>Wydrukuj piątą kolumnę (aka. pole) w pliku oddzielonym spacjami:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '{print $5}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwapliku</span></p>
+
+<ul>
+  <li>Wydrukuj drugą kolumnę wierszy zawierających “something” w pliku oddzielonym spacjami:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '/</code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">coś</span><code class="language-plaintext highlighter-rouge">/ {print $2}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwapliku</span></p>
+
+<ul>
+  <li>Wydrukuj ostatnią kolumnę każdego wiersza w pliku, używając przecinka (zamiast spacji) jako separatora pola:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk -F ',' '{print $NF}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwapliku</span></p>
+
+<ul>
+  <li>Zsumuj wartości w pierwszej kolumnie pliku i wydrukuj sumę:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '{s+=$1} END {print s}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwapliku</span></p>
+
+<ul>
+  <li>Zsumuj wartości w pierwszej kolumnie i wydrukuj wartości, a następnie sumę:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '{s+=$1; print $1} END {print "--------"; print s}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwapliku</span></p>
+
+<ul>
+  <li>Drukuj co trzeci wiersz, zaczynając od pierwszego wiersza:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk 'NR%3==1' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwapliku</span></p>
+
+<ul>
+  <li>Wydrukuj wszystkie wartości, zaczynając od trzeciej kolumny:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '{for (i=3; i &lt;= NF; i++) printf $i""FS; print""}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwapliku</span></p>
+
+<ul>
+  <li>Wydrukuj różne wartości w zależności od warunków:</li>
+</ul>
+
+<p><code class="language-plaintext highlighter-rouge">awk '{if ($1 == "foo") print "Dokładne dopasowanie foo"; else if ($1 ~ "bar") print "Częściowe dopasowanie bar"; else print "Baz"}' </code><span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwapliku</span></p>
