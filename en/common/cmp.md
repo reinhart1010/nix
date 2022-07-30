@@ -2,7 +2,7 @@
 layout: page
 title: common/cmp (English)
 description: "Compare two files byte by byte."
-content_hash: 07b1a53b6ed89a778160b0864daf754f3aaf67fc
+content_hash: b97a0c19f0b77894f4d3f10968b55c0eabce4c62
 related_topics:
   - title: italiano version
     url: /it/common/cmp.html
@@ -16,10 +16,18 @@ related_topics:
 Compare two files byte by byte.
 More information: <https://www.gnu.org/software/diffutils/manual/html_node/Invoking-cmp.html>.
 
-- Find the byte and line number of the first difference between two files:
+- Output char and line number of the first difference between two files:
 
 `cmp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>
 
-- Find the byte number and differing bytes of every difference:
+- Output info of the first difference: char, line number, bytes, and values:
 
-`cmp -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>
+`cmp --print-bytes `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>
+
+- Output the byte numbers and values of every difference:
+
+`cmp --verbose `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>
+
+- Compare files but output nothing, yield only the exit status:
+
+`cmp --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>
