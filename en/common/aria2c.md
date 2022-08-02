@@ -2,7 +2,7 @@
 layout: page
 title: common/aria2c (English)
 description: "Fast download utility."
-content_hash: 565f7dd73d494b413792538c45595d3f1539f8eb
+content_hash: 17ebbbaa005397a607198f51a2a2d7b9f45ab529
 related_topics:
   - title: italiano version
     url: /it/common/aria2c.html
@@ -28,9 +28,9 @@ More information: <https://aria2.github.io>.
 
 `aria2c --out=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
-- Download multiple files in parallel:
+- Download multiple (different) files in parallel:
 
-`aria2c --force-sequential `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_2</span>
+`aria2c --force-sequential `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">false</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_2</span>
 
 - Download from multiple sources with each URI pointing to the same file:
 
