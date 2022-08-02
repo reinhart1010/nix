@@ -2,7 +2,7 @@
 layout: page
 title: linux/flameshot (English)
 description: "Screenshot utility with a GUI."
-content_hash: 435c9223ac165b5cdafb814d5e9ef3c998b97f1c
+content_hash: 77fe7e0904dae1c72a5108fe094050d307b0aad0
 related_topics:
   - title: français version
     url: /fr/linux/flameshot.html
@@ -45,6 +45,6 @@ More information: <https://flameshot.org>.
 
 `flameshot gui --clipboard`
 
-- Create a screenshot with a specific delay in seconds:
+- Create a screenshot with a specific delay in milliseconds:
 
-`flameshot full --delay `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>
+`flameshot full --delay `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5000</span>

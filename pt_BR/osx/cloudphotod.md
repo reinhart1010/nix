@@ -1,0 +1,19 @@
+---
+layout: page
+title: osx/cloudphotod (português (Brasil))
+description: "Sincroniza fotos do iCloud."
+content_hash: 4b37c313e171f5234137931ce3b5002e5886864f
+related_topics:
+  - title: English version
+    url: /en/osx/cloudphotod.html
+    icon: bi bi-globe
+---
+# cloudphotod
+
+Sincroniza fotos do iCloud.
+Não deve ser invocado manualmente.
+Mais informações: <https://www.manpagez.com/man/8/cloudphotosd/>.
+
+- Inicia o daemon:
+
+`cloudphotod`
