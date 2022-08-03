@@ -1,26 +1,34 @@
 ---
 layout: page
 title: linux/wine (English)
-description: "Run Windows programs on Unix."
-content_hash: 8a211bba2f3266710cbd98843661b58fdba54dfb
+description: "Run Windows executables on Unix-based systems."
+content_hash: d0b668459797fcf15c9ea05c5fa69f12ca2c2486
 ---
 # wine
 
-Run Windows programs on Unix.
+Run Windows executables on Unix-based systems.
 More information: <https://wiki.winehq.org/>.
 
-- Run `ipconfig.exe` program:
+- Run a specific program inside the `wine` environment:
 
-`wine `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ipconfig</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/all</span>
+`wine `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
-- Run `cmd.exe` in background:
+- Run a specific program in background:
 
-`wine start `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cmd</span>
+`wine start `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
-- Run Windows-like Package Manager:
+- Install/uninstall an MSI package:
 
-`wine uninstaller`
+`wine msiexec /`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">i|x</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.msi</span>
 
-- Install MSI packages:
+- Run `File Explorer`, `Notepad`, or `WordPad`:
 
-`wine msiexec /i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
+`wine `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">explorer|notepad|write</span>
+
+- Run `Registry Editor`, `Control Panel`, or `Task Manager`:
+
+`wine `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regedit|control|taskmgr</span>
+
+- Run the configuration tool:
+
+`wine winecfg`
