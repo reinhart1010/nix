@@ -2,7 +2,7 @@
 layout: page
 title: common/fc (português (Brasil))
 description: "Abre o último comando executado em um editor de texto."
-content_hash: c4ea33c81291a4d283d0231224751f8bd531ea93
+content_hash: 2740ea5b03cb20da2607fc09b34bf0910a5ed637
 related_topics:
   - title: English version
     url: /en/common/fc.html
@@ -23,7 +23,6 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># fc
 
 Abre o último comando executado em um editor de texto.
-Alguns subcomandos como `fc list` tem sua própia documentação de uso.
 Mais informações: <https://manned.org/fc>.
 
 - Abrir o último comando executado no editor de texto padrão do sistema:
