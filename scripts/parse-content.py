@@ -91,18 +91,18 @@ def extract_page(lang: str, page: str):
   print("Finished generating page for " + lang + "/" + page)
 
 for lang in i18n["languages"]:
-  if not path.exists(lang):
-    mkdir(lang)
+  if not path.exists("docs/" + lang):
+    mkdir("docs/" + lang)
   
   for category in i18n["entries"]:
-    if not path.exists(lang + "/" + category):
-      mkdir(lang + "/" + category)
+    if not path.exists("docs/" + lang + "/" + category):
+      mkdir("docs/" + lang + "/" + category)
 
   
   folder_name = get_tldr_page_directory(lang)
   for page in [path.join(dp.split(sep="/")[2], f) for dp, dn, fn in walk(path.expanduser("source/" + folder_name)) for f in fn]:
     source_file = "source/" + folder_name + "/" + page
-    target_file = lang + "/" + page
+    target_file = "docs/" + lang + "/" + page
 
     if not path.isfile(target_file):
       extract_page(lang, page)
