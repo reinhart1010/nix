@@ -38,6 +38,10 @@ url: ""
 plugins:
   - jekyll-optional-front-matter
 
+# Don't use smart quotes as it may interfere with case-sensitive quoted parameters (e.g. JSON)
+kramdown:
+  smart_quotes: false
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
