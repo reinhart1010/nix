@@ -40,7 +40,7 @@ plugins:
 
 # Don't use smart quotes as it may interfere with case-sensitive quoted parameters (e.g. JSON)
 kramdown:
-  smart_quotes: false
+  smart_quotes: ["apos", "apos", "quot", "quot"]
 
 # Exclude from processing.
 # The following items will not be processed, by default.
