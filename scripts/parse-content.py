@@ -37,7 +37,7 @@ def extract_page(lang: str, page: str):
   hierarchy = page[:-3].split(sep="/")
   folder_name = get_tldr_page_directory(lang)
   source_file = "source/" + folder_name + "/" + page
-  target_file = lang + "/" + page
+  target_file = "docs/" + lang + "/" + page
   source = open(source_file, "r")
   target = open(target_file, "w+")
   current_locale = get_locale(lang)
