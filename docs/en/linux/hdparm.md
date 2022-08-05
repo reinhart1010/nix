@@ -2,7 +2,7 @@
 layout: page
 title: linux/hdparm (English)
 description: "Get and set SATA and IDE hard drive parameters."
-content_hash: f8273d2843521f56cd347a97378f90e3231b8896
+content_hash: 7152a8106e1dbcda5d09e2810bae40f76ed8c4da
 ---
 # hdparm
 
@@ -32,3 +32,7 @@ More information: <https://manned.org/hdparm>.
 - Put the drive into idle (low-power) mode, also setting its standby timeout:
 
 `sudo hdparm -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">standby_timeout</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device</span>
+
+- Test the read speed of a specific device:
+
+`sudo hdparm -tT `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device</span>
