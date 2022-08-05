@@ -1,0 +1,86 @@
+---
+layout: page
+title: linux/apt (தமிழ்)
+description: "டெபியன் அடிப்படையிலான விநியோகங்களுக்கான தொகுப்பு மேலாண்மை பயன்பாடு."
+content_hash: c685f8508cf75c87579ad208a2ce3b73305f385f
+related_topics:
+  - title: বাংলা version
+    url: /bn/linux/apt.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/linux/apt.html
+    icon: bi bi-globe
+  - title: Deutsch version
+    url: /de/linux/apt.html
+    icon: bi bi-globe
+  - title: English version
+    url: /en/linux/apt.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/apt.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/apt.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/apt.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/linux/apt.html
+    icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/linux/apt.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/apt.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/linux/apt.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/linux/apt.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/linux/apt.html
+    icon: bi bi-globe
+---
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># apt
+
+டெபியன் அடிப்படையிலான விநியோகங்களுக்கான தொகுப்பு மேலாண்மை பயன்பாடு.
+உபுண்டு பதிப்பு 16.04 மற்றும் அதற்குப் பிந்தைய பதிப்புகளில் ஊடாடும் வகையில் பயன்படுத்தப்படும் போது `apt-get` க்கு மாற்றாக பரிந்துரைக்கப்படுகிறது.
+மேலும் தகவல்: <https://manpages.debian.org/latest/apt/apt.8.html>.
+
+- கிடைக்கக்கூடிய தொகுப்புகள் மற்றும் பதிப்புகளின் பட்டியலைப் புதுப்பிக்கவும் (மற்ற `apt` கட்டளைகளுக்கு முன் இதை இயக்க பரிந்துரைக்கப்படுகிறது):
+
+`sudo apt update`
+
+- கொடுக்கப்பட்ட தொகுப்பைத் தேடுங்கள்:
+
+`apt search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு</span>
+
+- தொகுப்பிற்கான தகவலைக் காட்டு:
+
+`apt show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு</span>
+
+- தொகுப்பை நிறுவவும் அல்லது கிடைக்கும் சமீபத்திய பதிப்பிற்கு புதுப்பிக்கவும்:
+
+`sudo apt install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு</span>
+
+- ஒரு தொகுப்பை அகற்று ('purge' ஐப் பயன்படுத்தி அதன் உள்ளமைவு கோப்புகளையும் நீக்குகிறது):
+
+`sudo apt remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு</span>
+
+- நிறுவப்பட்ட அனைத்து தொகுப்புகளையும் அவற்றின் புதிய கிடைக்கக்கூடிய பதிப்புகளுக்கு மேம்படுத்தவும்:
+
+`sudo apt upgrade`
+
+- அனைத்து தொகுப்புகளையும் பட்டியலிடுங்கள்:
+
+`apt list`
+
+- நிறுவப்பட்ட தொகுப்புகளை பட்டியலிடுங்கள்:
+
+`apt list --installed`
