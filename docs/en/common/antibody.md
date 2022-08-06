@@ -1,12 +1,12 @@
 ---
 layout: page
 title: common/antibody (English)
-description: "The fastest shell plugin manager."
-content_hash: 41202ed5c10061e0f16953c38940319be12e43e8
+description: "\"The fastest\" shell plugin manager."
+content_hash: 40398761db829c4138ecc2b0c09fe87c30d69920
 ---
 # antibody
 
-The fastest shell plugin manager.
+"The fastest" shell plugin manager.
 More information: <https://getantibody.github.io>.
 
 - Bundle all plugins for static loading:
