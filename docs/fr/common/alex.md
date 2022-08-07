@@ -1,0 +1,43 @@
+---
+layout: page
+title: common/alex (français)
+description: "Un outil qui corrige les phrases insensible et inconsidérée (en Anglais uniquement)."
+content_hash: c2d848c90e09415f63846a479a155daf5d9d4bf9
+related_topics:
+  - title: English version
+    url: /en/common/alex.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/common/alex.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/alex.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/alex.html
+    icon: bi bi-globe
+---
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># alex
+
+Un outil qui corrige les phrases insensible et inconsidérée (en Anglais uniquement).
+Il vous aide à trouver un genre, une polarité, une ethnie, un blasphème, ou autre inégalité en lisant un texte en anglais.
+Plus d'informations : <https://github.com/get-alex/alex>.
+
+- Analyse un texte depuis l'entrée standard :
+
+`echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">His network looks good</span>` | alex --stdin`
+
+- Analyse tous les fichiers dans le dossier courant :
+
+`alex`
+
+- Analyse un fichier spécifique :
+
+`alex `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichiertexte.md</span>
+
+- Analyse tous les fichiers Markdown sauf `exemple.md`
+
+`alex *.md !`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exemple.md</span>
