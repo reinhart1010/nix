@@ -2,7 +2,7 @@
 layout: page
 title: common/sdk (English)
 description: "Tool for managing parallel versions of multiple Software Development Kits."
-content_hash: 983d1dfe0317284e0619f8655b6f533815174ae2
+content_hash: 730153e9e8990fba675bffe355291a2196b3ba9e
 ---
 # sdk
 
@@ -10,34 +10,34 @@ Tool for managing parallel versions of multiple Software Development Kits.
 Supports Java, Groovy, Scala, Kotlin, Gradle, Maven, Vert.x and many others.
 More information: <https://sdkman.io/usage>.
 
-- Install a specific version of Gradle:
+- Install an SDK version:
 
-`sdk install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gradle</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gradle_version</span>
+`sdk install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sdk_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sdk_version</span>
 
-- Switch to a specific version of Gradle:
+- Use a specific SDK version for the current terminal session:
 
-`sdk use `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gradle</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gradle_version</span>
+`sdk use `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sdk_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sdk_version</span>
 
-- Check current Gradle version:
+- Show the stable version of any available SDK:
 
-`sdk current `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gradle</span>
+`sdk current `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sdk_name</span>
 
-- List all Software Development Kits available to install:
-
-`sdk list`
-
-- List all available versions for a specific Software Development Kit:
-
-`sdk list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sdk_name</span>
-
-- List all installed Software Development Kits:
+- Show the stable versions of all installed SDKs:
 
 `sdk current`
 
-- Update Gradle to the latest version:
+- List all available SDKs:
 
-`sdk upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gradle</span>
+`sdk list`
 
-- Uninstall a particular version of Gradle:
+- List all versions of an SDK:
 
-`sdk rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gradle</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gradle_version</span>
+`sdk list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sdk_name</span>
+
+- Upgrade an SDK to the latest stable version:
+
+`sdk upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sdk_name</span>
+
+- Uninstall a specific SDK version:
+
+`sdk rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sdk_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sdk_version</span>
