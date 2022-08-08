@@ -1,8 +1,8 @@
 ---
 layout: page
 title: linux/flameshot (中文)
-description: "带有 gui 界面的 Screenshot 工具，支持基本的图像编辑，例如文本，形状，颜色和 imgur."
-content_hash: 347a88e4feb73485a089de3f8189c33723e9cfee
+description: "带有 GUI 界面的 Screenshot 工具。"
+content_hash: 410ea6b8803f4c3eb50e57e4025028aa903298fe
 related_topics:
   - title: English version
     url: /en/linux/flameshot.html
@@ -22,25 +22,38 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 <hr># flameshot
 
-带有 gui 界面的 Screenshot 工具，支持基本的图像编辑，例如文本，形状，颜色和 imgur.
+带有 GUI 界面的 Screenshot 工具。
+支持基本的图像编辑，例如文本，形状，颜色和 imgur。
 更多信息：<https://flameshot.org>.
-
-- 在 GUI 模式下启动 Flameshot：
-
-`flameshot launcher`
-
-- 通过单击并拖动来截取屏幕截图：
-
-`flameshot gui`
 
 - 全屏截图：
 
 `flameshot full`
 
-- 将保存屏幕快照的路径设置为：
+- 交互式截图：
 
-`flameshot full --path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
+`flameshot gui`
 
-- 将屏幕截图延迟 2000 毫秒，然后输出到剪贴板：
+- 截图并保存到特定的路径：
 
-`flameshot full --delay `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2000</span>` --clipboard`
+`flameshot gui --path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目录</span>
+
+- 简单模式下交互式截图：
+
+`flameshot launcher`
+
+- 指定屏幕截图：
+
+`flameshot screen --number `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span>
+
+- 截图并打印到标准输出：
+
+`flameshot gui --raw`
+
+- 截图并复制到剪切板：
+
+`flameshot gui --clipboard`
+
+- 延迟指定毫秒时间截图：
+
+`flameshot full --delay `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5000</span>
