@@ -2,7 +2,7 @@
 layout: page
 title: linux/inotifywait (English)
 description: "Waits for changes to one or more files."
-content_hash: 2d9d5107532503e1bb346410ac9f07a779e6b9c2
+content_hash: 39ecf48619fc8ad4471f09e1ee8b0fda3513f64a
 ---
 # inotifywait
 
@@ -32,3 +32,7 @@ More information: <https://manned.org/inotifywait>.
 - Only watch for file modification events:
 
 `while inotifywait --event `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modify</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>`; do `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>`; done`
+
+- Continuously watch a specific file for events without exiting:
+
+`while inotifywait --monitor `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>`; do `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>`; done`
