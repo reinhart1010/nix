@@ -2,7 +2,7 @@
 layout: page
 title: common/cd (தமிழ்)
 description: "தற்போதைய வேலை கோப்பகத்தை மாற்றவும்."
-content_hash: ca902e4558603a7366ce79c5c7b85084003b13ae
+content_hash: 33b06102b10014c065176b9efd28e170385c84d7
 related_topics:
   - title: català version
     url: /ca/common/cd.html
@@ -56,13 +56,10 @@ related_topics:
     url: /zh_TW/common/cd.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cd
+# cd
 
 தற்போதைய வேலை கோப்பகத்தை மாற்றவும்.
-மேலும் தகவலுக்: <https://manned.org/cd>.
+மேலும் விவரத்திற்கு: <https://manned.org/cd>.
 
 - குறிப்பிட்ட கோப்பகத்திற்குச் செல்லவும்:
 

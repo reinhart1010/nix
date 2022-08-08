@@ -2,7 +2,7 @@
 layout: page
 title: linux/apt (தமிழ்)
 description: "டெபியன் அடிப்படையிலான விநியோகங்களுக்கான தொகுப்பு மேலாண்மை பயன்பாடு."
-content_hash: c685f8508cf75c87579ad208a2ce3b73305f385f
+content_hash: 8c9d7c0e851c8656b615ecf74ea3afc2bb2f8ade
 related_topics:
   - title: বাংলা version
     url: /bn/linux/apt.html
@@ -44,14 +44,11 @@ related_topics:
     url: /zh/linux/apt.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># apt
+# apt
 
 டெபியன் அடிப்படையிலான விநியோகங்களுக்கான தொகுப்பு மேலாண்மை பயன்பாடு.
 உபுண்டு பதிப்பு 16.04 மற்றும் அதற்குப் பிந்தைய பதிப்புகளில் ஊடாடும் வகையில் பயன்படுத்தப்படும் போது `apt-get` க்கு மாற்றாக பரிந்துரைக்கப்படுகிறது.
-மேலும் தகவல்: <https://manpages.debian.org/latest/apt/apt.8.html>.
+மேலும் விவரத்திற்கு: <https://manpages.debian.org/latest/apt/apt.8.html>.
 
 - கிடைக்கக்கூடிய தொகுப்புகள் மற்றும் பதிப்புகளின் பட்டியலைப் புதுப்பிக்கவும் (மற்ற `apt` கட்டளைகளுக்கு முன் இதை இயக்க பரிந்துரைக்கப்படுகிறது):
 

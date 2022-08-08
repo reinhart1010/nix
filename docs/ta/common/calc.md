@@ -2,7 +2,7 @@
 layout: page
 title: common/calc (தமிழ்)
 description: "முனையத்தில் ஒரு ஊடாடும் தன்னிச்சையான துல்லியமான கால்குலேட்டர்."
-content_hash: 23dbc7607b6880b9a8c12a93fdfd8e16266970c2
+content_hash: fb2e1c2ead603dd3d2061d9ba7a5588313823ff0
 related_topics:
   - title: català version
     url: /ca/common/calc.html
@@ -23,13 +23,10 @@ related_topics:
     url: /pt_BR/common/calc.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># calc
+# calc
 
 முனையத்தில் ஒரு ஊடாடும் தன்னிச்சையான துல்லியமான கால்குலேட்டர்.
-மேலும் தகவல்: <https://github.com/lcn2/calc>.
+மேலும் விவரத்திற்கு: <https://github.com/lcn2/calc>.
 
 - ஊடாடும் பயன்முறையில் `calc` ஐத் தொடங்கவும்:
 

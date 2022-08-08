@@ -2,7 +2,7 @@
 layout: page
 title: linux/cal (தமிழ்)
 description: "தற்போதைய நாள் தனிப்படுத்தப்பட்ட காலண்டர் தகவலை அச்சிடுகிறது."
-content_hash: 3922f4c7f7ae660316d671cdc15168a43a494c4b
+content_hash: f6ec32170869b4b0fbcc8c3d832b88264fc2e49d
 related_topics:
   - title: català version
     url: /ca/linux/cal.html
@@ -26,13 +26,10 @@ related_topics:
     url: /zh/linux/cal.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cal
+# cal
 
 தற்போதைய நாள் தனிப்படுத்தப்பட்ட காலண்டர் தகவலை அச்சிடுகிறது.
-மேலும் தகவலுக்கு: <https://manned.org/cal>.
+மேலும் விவரத்திற்கு: <https://manned.org/cal>.
 
 - நடப்பு மாதத்திற்கான காலெண்டரைக் காட்டு:
 

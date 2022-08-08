@@ -2,7 +2,7 @@
 layout: page
 title: common/uname (தமிழ்)
 description: "தற்போதைய இயந்திரம் மற்றும் அதில் இயங்கும் இயக்க முறைமை பற்றிய விவரங்களை அச்சிடவும்."
-content_hash: 669538e33d131b2fa0e28bb64ccfe97550fafa01
+content_hash: cbee7927a7ab391850c243c3ce8f531c26b2f7ad
 related_topics:
   - title: English version
     url: /en/common/uname.html
@@ -17,14 +17,11 @@ related_topics:
     url: /zh/common/uname.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># uname
+# uname
 
 தற்போதைய இயந்திரம் மற்றும் அதில் இயங்கும் இயக்க முறைமை பற்றிய விவரங்களை அச்சிடவும்.
 `lsb_release` ஐயும் பார்க்கவும்.
-மேலும் தகவல்: <https://www.gnu.org/software/coreutils/uname>.
+மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/uname>.
 
 - கர்னல் பெயரை அச்சிடவும்:
 

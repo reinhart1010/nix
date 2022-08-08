@@ -2,19 +2,16 @@
 layout: page
 title: linux/wine (தமிழ்)
 description: "யூனிக்ஸ் அடிப்படையிலான கணினிகளில் விண்டோஸ் இயங்குதளங்களை இயக்கவும்."
-content_hash: 525d0ef5ef6cb939b625c4a1562128f43049f568
+content_hash: cc3d62a3475ef13c5b4e9d67e3602f164a2aa132
 related_topics:
   - title: English version
     url: /en/linux/wine.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># wine
+# wine
 
 யூனிக்ஸ் அடிப்படையிலான கணினிகளில் விண்டோஸ் இயங்குதளங்களை இயக்கவும்.
-மேலும் தகவல்: <https://wiki.winehq.org/>.
+மேலும் விவரத்திற்கு: <https://wiki.winehq.org/>.
 
 - `wine` சூழலில் ஒரு குறிப்பிட்ட நிரலை இயக்கவும்::
 

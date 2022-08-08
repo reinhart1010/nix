@@ -2,7 +2,7 @@
 layout: page
 title: linux/dnf (தமிழ்)
 description: "RHEL, Fedora மற்றும் CentOS க்கான தொகுப்பு மேலாண்மை பயன்பாடு (yum ஐ மாற்றுகிறது)."
-content_hash: 23486ed9c249faeae0f7632ed0146c31a8d7ed8a
+content_hash: 1f6e830ce05391002643baa7cf953e18d21b0382
 related_topics:
   - title: català version
     url: /ca/linux/dnf.html
@@ -26,13 +26,10 @@ related_topics:
     url: /tr/linux/dnf.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dnf
+# dnf
 
 RHEL, Fedora மற்றும் CentOS க்கான தொகுப்பு மேலாண்மை பயன்பாடு (yum ஐ மாற்றுகிறது).
-மேலும் தகவல்: <https://dnf.readthedocs.io>.
+மேலும் விவரத்திற்கு: <https://dnf.readthedocs.io>.
 
 - நிறுவப்பட்ட தொகுப்புகளை புதிய கிடைக்கக்கூடிய பதிப்புகளுக்கு மேம்படுத்தவும்:
 

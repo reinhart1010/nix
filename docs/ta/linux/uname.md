@@ -2,19 +2,16 @@
 layout: page
 title: linux/uname (தமிழ்)
 description: "Uname அது இயங்கும் இயந்திரம் மற்றும் இயக்க முறைமை பற்றிய தகவல்களை அச்சிடுகிறது."
-content_hash: 430bd09d36d25cf44300a6515e5fa26dce4bddb3
+content_hash: 199aea2442bd1cf4437ced811e9146e8de5ec476
 related_topics:
   - title: English version
     url: /en/linux/uname.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># uname
+# uname
 
 Uname அது இயங்கும் இயந்திரம் மற்றும் இயக்க முறைமை பற்றிய தகவல்களை அச்சிடுகிறது.
-மேலும் தகவல்: <https://www.gnu.org/software/coreutils/manual/html_node/uname-invocation.html>.
+மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/manual/html_node/uname-invocation.html>.
 
 - அனைத்து தகவல்களையும் அச்சிடவும்:
 

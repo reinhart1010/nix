@@ -2,7 +2,7 @@
 layout: page
 title: common/g++ (தமிழ்)
 description: "C++ மூலக் கோப்புகளைத் தொகுக்கிறது."
-content_hash: 26ad139085cbc91da030a50ff18d293e1d66a712
+content_hash: 546cd6bd66ba36f7b4793ed9a51ee55daa0fbcb7
 related_topics:
   - title: Deutsch version
     url: /de/common/g++.html
@@ -17,14 +17,11 @@ related_topics:
     url: /pt_BR/common/g++.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># g++
+# g++
 
 C++ மூலக் கோப்புகளைத் தொகுக்கிறது.
 GCC இன் பகுதி (GNU கம்பைலர் சேகரிப்பு).
-மேலும் தகவல்: <https://gcc.gnu.org>.
+மேலும் விவரத்திற்கு: <https://gcc.gnu.org>.
 
 - இயங்கக்கூடிய பைனரியில் ஒரு மூலக் குறியீடு கோப்பை தொகுக்கவும்:
 

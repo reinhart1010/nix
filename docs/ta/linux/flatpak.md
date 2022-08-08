@@ -2,7 +2,7 @@
 layout: page
 title: linux/flatpak (தமிழ்)
 description: "பிளாட்பேக் பயன்பாடுகள் மற்றும் இயக்க நேரங்களை உருவாக்கவும், நிறுவவும் மற்றும் இயக்கவும்."
-content_hash: 8e2757c48ee4aa56e977acf8ef9d7bf6d776f6e1
+content_hash: c0fcfbeb9158f128d677d95dbb09932e8f17c2bf
 related_topics:
   - title: English version
     url: /en/linux/flatpak.html
@@ -14,13 +14,10 @@ related_topics:
     url: /zh/linux/flatpak.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># flatpak
+# flatpak
 
 பிளாட்பேக் பயன்பாடுகள் மற்றும் இயக்க நேரங்களை உருவாக்கவும், நிறுவவும் மற்றும் இயக்கவும்.
-மேலும் தகவல்: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak>.
+மேலும் விவரத்திற்கு: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak>.
 
 - நிறுவப்பட்ட பயன்பாட்டை இயக்கவும்:
 
