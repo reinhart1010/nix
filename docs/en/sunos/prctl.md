@@ -1,13 +1,12 @@
 ---
 layout: page
 title: sunos/prctl (English)
-description: "Get or set the resource controls of running processes,."
-content_hash: bfeb6c2e2a6291e771f88094aac96a7d278b548f
+description: "Get or set the resource controls of running processes, tasks, and projects."
+content_hash: f8d8827cf7e840d6a54c7dfa338303d77c262e3b
 ---
 # prctl
 
-Get or set the resource controls of running processes,.
-Tasks, and projects.
+Get or set the resource controls of running processes, tasks, and projects.
 More information: <https://www.unix.com/man-page/sunos/1/prctl>.
 
 - Examine process limits and permissions:
