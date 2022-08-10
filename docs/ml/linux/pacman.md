@@ -2,7 +2,7 @@
 layout: page
 title: linux/pacman (മലയാളം)
 description: "ആർച്ച് ലിന്ക്സിന്റെ പാക്കേജ് മാനേജുമെന്റ് യൂട്ടിലിറ്റി."
-content_hash: 90bbc9b0f598c7f6cb7752602e7ebfb829df6d38
+content_hash: e80264ba9f43775eec56e0e6dbc680e74a8406a9
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -33,32 +33,32 @@ related_topics:
 
 - ഇൻസ്റ്റാൾ ചെയ്‌ത എല്ലാ പാക്കേജും അപ്‌ഡേറ്റു ചെയ്യുക:
 
-`sudo pacman --sync --refresh --sysupgrade`
+`sudo pacman -Syu`
 
 - പുതിയ പാക്കേജ് ഇൻസ്റ്റാൾ ചെയ്യുക:
 
-`sudo pacman --sync `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">പാക്കേജ്</span>
+`sudo pacman -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">പാക്കേജ്</span>
 
 - ഒരു പാക്കേജും അത് ആശ്രയിക്കുന്ന മറ്റ് പാക്കേജുകളെയും കളയുക:
 
-`sudo pacman --remove --recursive `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">പാക്കേജ്</span>
+`sudo pacman -Rs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">പാക്കേജ്</span>
 
 - പാക്കേജ് ഡാറ്റാബേസിൽ ഒരു സൂചകപദം അല്ലെങ്കിൽ റെഗുലർ എക്സ്പ്രെഷൻ വെച്ച് തിരയുക:
 
-`pacman --sync --search "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">സെർച്ച് പാറ്റേൺ</span>`"`
+`pacman -Ss "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">സെർച്ച് പാറ്റേൺ</span>`"`
 
 - ഇൻസ്റ്റാൾ ചെയ്‌ത എല്ലാ പാക്കേജുകളും അതിന്റെ പതിപ്പും കാണിക്കുക:
 
-`pacman --query`
+`pacman -Q`
 
 - നേരെ ഇൻസ്റ്റാൾ ചെയ്ത പാക്കേജ്‌സ് മാത്റം കാണിക്കുക:
 
-`pacman --query --explicit`
+`pacman -Qe`
 
 - ഏത് പാക്കേജാണ് ഒരു ഫയലിന്റെ ഉടമ എന്ന് കണ്ടുപിടിക്കാൻ:
 
-`pacman --query --owns `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ഫയലിന്റെ പേര്</span>
+`pacman -Qo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ഫയലിന്റെ പേര്</span>
 
 - പാക്കേജ് ക്യാഷ് കാലിയാക്കി സ്റ്റോറേജ്‌ മുക്തമാക്കുക:
 
-`sudo pacman --sync --clean --clean`
+`sudo pacman -Scc`

@@ -2,7 +2,7 @@
 layout: page
 title: common/pyenv (English)
 description: "Switch between multiple versions of Python easily."
-content_hash: 1b5a4e5acc047ba7e071e0c108d7af845cb8a0f7
+content_hash: fb2b594ef0b1ab9cd27f42df73f22609efb0b310
 related_topics:
   - title: italiano version
     url: /it/common/pyenv.html
@@ -23,6 +23,10 @@ More information: <https://github.com/pyenv/pyenv>.
 - List all Python versions under the `${PYENV_ROOT}/versions` directory:
 
 `pyenv versions`
+
+- List all Python versions that can be installed from upstream:
+
+`pyenv install --list`
 
 - Install a Python version under the `${PYENV_ROOT}/versions` directory:
 

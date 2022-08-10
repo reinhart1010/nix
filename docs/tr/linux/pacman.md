@@ -2,7 +2,7 @@
 layout: page
 title: linux/pacman (Türkçe)
 description: "Arch Linux paket yönetim aracı."
-content_hash: b3ce527083fec2b68f04dcef909b3d098ae65062
+content_hash: 76540af84cddd4f2d7f77d5b673171fb609743da
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -33,32 +33,32 @@ Daha fazla bilgi: <https://man.archlinux.org/man/pacman.8>.
 
 - Tüm paketleri senkronize et ve güncelle:
 
-`sudo pacman --sync --refresh --sysupgrade`
+`sudo pacman -Syu`
 
 - Yeni bir paket indir:
 
-`sudo pacman --sync `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket_ismi</span>
+`sudo pacman -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket_ismi</span>
 
 - Bir paket ve bağlılıklarını sil:
 
-`sudo pacman --remove --recursive `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket_ismi</span>
+`sudo pacman -Rs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket_ismi</span>
 
 - Paket veritabanını girilen ifade ile arat:
 
-`pacman --sync --search "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arama_şablonu</span>`"`
+`pacman -Ss "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arama_şablonu</span>`"`
 
 - İndirilmiş paket ve sürümleri sırala:
 
-`pacman --query`
+`pacman -Q`
 
 - Sadece özellikle belirtilen paket ve sürümleri sırala:
 
-`pacman --query --explicit`
+`pacman -Qe`
 
 - Hangi paketin belirtilen dosyaya sahip olduğunu bul:
 
-`pacman --query --owns `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya_ismi</span>
+`pacman -Qo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya_ismi</span>
 
 - Paket çerezlerini boş alan açmak için temizle:
 
-`sudo pacman --sync --clean --clean`
+`sudo pacman -Scc`

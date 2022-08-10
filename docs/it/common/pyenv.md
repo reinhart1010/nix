@@ -2,7 +2,7 @@
 layout: page
 title: common/pyenv (italiano)
 description: "Passa da una distribuzione all'altra di Python in modo semplice."
-content_hash: 9251c9eaa339f171e42de927d6f847d39569b312
+content_hash: 8b164c80ae6bee7a3a780aff3bb400a9806a325f
 related_topics:
   - title: English version
     url: /en/common/pyenv.html
@@ -23,6 +23,10 @@ Maggiori informazioni: <https://github.com/pyenv/pyenv>.
 - Elenca tutte le distribuzioni di Python presenti nella cartella `${PYENV_ROOT}/versions`:
 
 `pyenv versions`
+
+- Elenca tutte le versioni di Python che possono essere installate da upstream:
+
+`pyenv install --list`
 
 - Installa una distribuzione di Python nella cartella `${PYENV_ROOT}/versions`:
 

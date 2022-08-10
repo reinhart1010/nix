@@ -2,7 +2,7 @@
 layout: page
 title: linux/pacman (português (Brasil))
 description: "Utilitário de Arch Linux para gerenciamento de pacotes."
-content_hash: d9752385483b8ffb3312dfba9d957e21b66b2d2f
+content_hash: aa94ed47aef67b11c02b833508b9d04296ede989
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -34,32 +34,32 @@ Mais informações: <https://man.archlinux.org/man/pacman.8>.
 
 - Sincroniza e atualiza todos os pacotes:
 
-`sudo pacman --sync --refresh --sysupgrade`
+`sudo pacman -Syu`
 
 - Instala um novo pacote:
 
-`sudo pacman --sync `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span>
+`sudo pacman -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span>
 
 - Remove um pacote e suas dependências:
 
-`sudo pacman --remove --recursive `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span>
+`sudo pacman -Rs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span>
 
 - Procura no banco de dados de pacotes por uma expressão regular ou palavra-chave:
 
-`pacman --sync --search "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrao_buscado</span>`"`
+`pacman -Ss "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrao_buscado</span>`"`
 
 - Lista pacotes instalados e versões:
 
-`pacman --query`
+`pacman -Q`
 
 - Lista apenas os pacotes explicitamente instalados e versões:
 
-`pacman --query --explicit`
+`pacman -Qe`
 
 - Lista pacotes órfãos (instalado como dependência mas não requerido por qualquer pacote):
 
-`pacman --query --unrequired --deps --quiet`
+`pacman -Qtdq`
 
 - Esvazia completamente o cache do pacman:
 
-`sudo pacman --sync --clean --clean`
+`sudo pacman -Scc`
