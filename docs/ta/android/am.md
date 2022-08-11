@@ -1,0 +1,60 @@
+---
+layout: page
+title: android/am (தமிழ்)
+description: "ஆண்ட்ராய்டு செயல்பாட்டு மேலாளர்."
+content_hash: d40fb66ded5a68ff19c15d7200245a730de041fc
+related_topics:
+  - title: Deutsch version
+    url: /de/android/am.html
+    icon: bi bi-globe
+  - title: English version
+    url: /en/android/am.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/android/am.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/android/am.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/android/am.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/android/am.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/android/am.html
+    icon: bi bi-globe
+  - title: o‘zbek version
+    url: /uz/android/am.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/android/am.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/android/am.html
+    icon: bi bi-globe
+---
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># am
+
+ஆண்ட்ராய்டு செயல்பாட்டு மேலாளர்.
+மேலும் விவரத்திற்கு: <https://developer.android.com/studio/command-line/adb#am>.
+
+- ஒரு குறிப்பிட்ட செயல்பாட்டைத் தொடங்கவும்:
+
+`am start -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.android.settings/.Settings</span>
+
+- ஒரு செயல்பாட்டைத் தொடங்கி, அதற்குத் தரவை அனுப்பவும்:
+
+`am start -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.action.VIEW</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tel:123</span>
+
+- குறிப்பிட்ட செயலுக்கும் வகைக்கும் பொருந்தும் செயல்பாட்டைத் தொடங்கவும்:
+
+`am start -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.action.MAIN</span>` -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.category.HOME</span>
+
+- ஒரு நோக்கத்தை URI ஆக மாற்றவும்:
+
+`am to-uri -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.action.VIEW</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tel:123</span>
