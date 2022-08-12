@@ -2,7 +2,7 @@
 layout: page
 title: common/perl (English)
 description: "The Perl 5 language interpreter."
-content_hash: 43a18e317f62643ab2335bbdaa66f29d60528950
+content_hash: 1652c748bc253c5c59f0ab1902f8736373649bd9
 related_topics:
   - title: français version
     url: /fr/common/perl.html
@@ -29,7 +29,7 @@ More information: <https://www.perl.org>.
 
 `perl -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">script.pl</span>
 
-- Edit all file lines [i]n-place with a specific replacement [e]xpression and save a file with a new extension:
+- Edit all file lines [i]n-place with a specific replacement [e]xpression, saving a backup with a new extension:
 
 `perl -p -i'.`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">extension</span>`' -e 's/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">replacement</span>`/g' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
