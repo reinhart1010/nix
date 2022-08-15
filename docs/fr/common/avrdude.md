@@ -2,7 +2,7 @@
 layout: page
 title: common/avrdude (français)
 description: "Pilotes pour programmer les microcontrôleurs Atmel AVR."
-content_hash: 705de494016de3ddbb5df136594a3fb569daad48
+content_hash: 0d50f65f18c66199ec36ef8b5ddc0bbff7e6ac41
 related_topics:
   - title: Deutsch version
     url: /de/common/avrdude.html
@@ -22,11 +22,11 @@ related_topics:
 Pilotes pour programmer les microcontrôleurs Atmel AVR.
 Plus d'informations : <https://www.nongnu.org/avrdude/>.
 
-- Lire le contenu du microcontrôleur :
+- Lire le contenu du microcontrôleur AVR :
 
 `avrdude -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">appareil_AVR</span>` -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programmeur</span>` -U flash:r:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier.hex</span>`:i`
 
-- Écrire du contenu dans le microcontrôleur :
+- Programme le microcontrôleur AVR :
 
 `avrdude -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">appareil_AVR</span>` -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programmeur</span>` -U flash:w:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier.hex</span>
 
