@@ -1,14 +1,13 @@
 ---
 layout: page
-title: common/ed (English)
+title: osx/ed (English)
 description: "The original Unix text editor."
-content_hash: 8b25fe6a4a1ccfe8058b01d847bb116f8a6ddf77
-related_topics:
-  - title: italiano version
-    url: /it/common/ed.html
-    icon: bi bi-globe
+content_hash: 041d3ece8549d5034ed5f4cec21f02213d018bd9
 ---
-# ed
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># ed
 
 The original Unix text editor.
 See also: `awk`, `sed`.
@@ -18,21 +17,13 @@ More information: <https://www.gnu.org/software/ed/manual/ed_manual.html>.
 
 `ed`
 
-- Start an interactive editor session with an empty document and a specific prompt:
+- Start an interactive editor session with an empty document and a specific [p]rompt:
 
-`ed --prompt='> '`
-
-- Start an interactive editor session with user-friendly errors:
-
-`ed --verbose`
+`ed -p '> '`
 
 - Start an interactive editor session with an empty document and without diagnostics, byte counts and '!' prompt:
 
-`ed --quiet`
-
-- Start an interactive editor session without exit status change when command fails:
-
-`ed --loose-exit-status`
+`ed -s`
 
 - Edit a specific file (this shows the byte count of the loaded file):
 

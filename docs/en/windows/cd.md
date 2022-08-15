@@ -1,8 +1,8 @@
 ---
 layout: page
 title: windows/cd (English)
-description: "Displays the name of or changes the current working directory."
-content_hash: f67b041caed37bea403f0cb42afec665b8e536f0
+description: "Display the current working directory or move to a different directory."
+content_hash: 545e8728b48e0ac9b940617a9f21bc6dd3fc86c0
 related_topics:
   - title: বাংলা version
     url: /bn/windows/cd.html
@@ -28,14 +28,10 @@ related_topics:
 ---
 # cd
 
-Displays the name of or changes the current working directory.
+Display the current working directory or move to a different directory.
 More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/cd>.
 
-- Go to a directory in the same drive:
-
-`cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
-
-- Display the name of the current directory:
+- Display the path of the current directory:
 
 `cd`
 
@@ -43,6 +39,10 @@ More information: <https://docs.microsoft.com/windows-server/administration/wind
 
 `cd ..`
 
-- Go to a directory in a different drive:
+- Go to a specific directory in the same drive:
 
-`cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` /d`
+`cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory</span>
+
+- Go to a specific directory in a different [d]rive:
+
+`cd /d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory</span>
