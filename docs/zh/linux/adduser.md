@@ -2,7 +2,7 @@
 layout: page
 title: linux/adduser (中文)
 description: "添加用户的工具。"
-content_hash: 8ff90db63b8aad8196e5e8ae619f1a3bb9a0fd54
+content_hash: 131a5dd31254ca865f8e88b9a876175ba29e6639
 related_topics:
   - title: Deutsch version
     url: /de/linux/adduser.html
@@ -50,7 +50,3 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 - 创建一个新用户，并指定其用户组：
 
 `adduser --ingroup `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户组</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span>
-
-- 将一个现有用户加入指定用户组：
-
-`adduser `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户组</span>

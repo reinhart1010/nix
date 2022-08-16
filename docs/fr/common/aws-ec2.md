@@ -2,7 +2,7 @@
 layout: page
 title: common/aws-ec2 (français)
 description: "CLI pour AWS EC2."
-content_hash: b1eb4a386fb11081ed9ace345f44edaa6b799a3f
+content_hash: e4de8eb3a0ee12bacd11a66a173c38f6b5ff3b6b
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-ec2.html
@@ -14,22 +14,11 @@ related_topics:
     url: /pt_BR/common/aws-ec2.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws ec2
+# aws ec2
 
 CLI pour AWS EC2.
 Provisionne, sécurise et des capacités de calcul redimensionnable dans le cloud AWS pour accélérer le développement et le déploiement d'applications.
 Plus d'informations : <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ec2/index.html>.
-
-- Affiche la liste de toutes les commandes EC2 disponible :
-
-`aws ec2 help`
-
-- Affiche l'aide pour une sous-commande EC2 spécifique :
-
-`aws ec2 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sous-commande</span>` help`
 
 - Affiche les informations sur une instance spécifique :
 
@@ -54,3 +43,11 @@ Plus d'informations : <https://awscli.amazonaws.com/v2/documentation/api/latest/
 - Liste toutes les AMIs (Images de Machine Amazon) disponible :
 
 `aws ec2 describe-images`
+
+- Affiche la liste de toutes les commandes EC2 disponible :
+
+`aws ec2 help`
+
+- Affiche l'aide pour une sous-commande EC2 spécifique :
+
+`aws ec2 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sous-commande</span>` help`
