@@ -2,7 +2,7 @@
 layout: page
 title: common/bash (English)
 description: "Bourne-Again SHell, an `sh`-compatible command-line interpreter."
-content_hash: 928f11faeb1006ff3d84e3a332efc03b5138c5b2
+content_hash: 9e47c94dcd5327d3a8ce13af11d7814da938e204
 related_topics:
   - title: Deutsch version
     url: /de/common/bash.html
@@ -35,33 +35,33 @@ related_topics:
 # bash
 
 Bourne-Again SHell, an `sh`-compatible command-line interpreter.
-See also `histexpand` for history expansion.
+See also: `zsh`, `histexpand` (history expansion).
 More information: <https://gnu.org/software/bash/>.
 
 - Start an interactive shell session:
 
 `bash`
 
-- Execute a command and then exit:
+- Start an interactive shell session without loading startup configs:
 
-`bash -c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>`"`
+`bash --norc`
 
-- Execute a script:
+- Execute specific [c]ommands:
+
+`bash -c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 'bash is executed'</span>`"`
+
+- Execute a specific script:
 
 `bash `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sh</span>
 
-- Execute a script, printing each command before executing it:
+- Execute a specific script while printing each command before executing it:
 
 `bash -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sh</span>
 
-- Execute commands from a script, stopping at the first error:
+- Execute a specific script and stop at the first [e]rror:
 
 `bash -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sh</span>
 
-- Read and execute commands from stdin:
+- Execute specific commands from stdin:
 
-`bash -s`
-
-- Print the Bash version (`$BASH_VERSION` contains the version without license information):
-
-`bash --version`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "echo 'bash is executed'"</span>` | bash`
