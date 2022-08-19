@@ -2,7 +2,7 @@
 layout: page
 title: common/brew (中文)
 description: "Linux 和 macOS 的包管理器。"
-content_hash: a58736a673124792e4be870cc1c0b17d960b12fe
+content_hash: 3e82b141c60f08228fba4cb19be2e7385667046c
 related_topics:
   - title: English version
     url: /en/common/brew.html
@@ -53,6 +53,6 @@ Linux 和 macOS 的包管理器。
 
 `brew info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">配方</span>
 
-- 檢查本地 Homebrew 安裝包是否有潛在問題：
+- 检查本地 Homebrew 安装包是否有潜在问题：
 
 `brew doctor`

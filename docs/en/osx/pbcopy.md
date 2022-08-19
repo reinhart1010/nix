@@ -1,8 +1,8 @@
 ---
 layout: page
 title: osx/pbcopy (English)
-description: "Place standard output in the clipboard."
-content_hash: f5138adbf4860432663cb4e66fbb49cd60770ed6
+description: "Copy data from stdin to the clipboard."
+content_hash: c94828514c3799b78cb5dda3c398ad02bf4a46f7
 related_topics:
   - title: Indonesia version
     url: /id/osx/pbcopy.html
@@ -13,13 +13,13 @@ related_topics:
 ---
 # pbcopy
 
-Place standard output in the clipboard.
+Copy data from stdin to the clipboard.
 More information: <https://ss64.com/osx/pbcopy.html>.
 
-- Place the contents of a file in the clipboard:
+- Place the contents of a specific file in the clipboard:
 
-`pbcopy < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`pbcopy < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Place the results of a command in the clipboard:
+- Place the results of a specific command in the clipboard:
 
 `find . -type t -name "*.png" | pbcopy`

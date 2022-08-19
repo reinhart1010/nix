@@ -2,7 +2,7 @@
 layout: page
 title: common/pwd (English)
 description: "Print name of current/working directory."
-content_hash: 13dfa1eb6b50c148e66eeba9698af925e153e955
+content_hash: e72ab3e9a718f6489b18c4aed1652589892d7357
 related_topics:
   - title: español version
     url: /es/common/pwd.html
@@ -35,7 +35,3 @@ More information: <https://www.gnu.org/software/coreutils/pwd>.
 - Print the current directory, and resolve all symlinks (i.e. show the "physical" path):
 
 `pwd -P`
-
-- Print the current logical directory:
-
-`pwd -L`
