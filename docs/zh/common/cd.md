@@ -2,8 +2,11 @@
 layout: page
 title: common/cd (中文)
 description: "更改当前工作目录。"
-content_hash: 39b4f648eb3e5cf97c37472f05cd9f2641b7a139
+content_hash: ca8792df055fc14ace4363c1f093e9dbe76dd623
 related_topics:
+  - title: català version
+    url: /ca/common/cd.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/cd.html
     icon: bi bi-globe
@@ -46,6 +49,9 @@ related_topics:
   - title: svenska version
     url: /sv/common/cd.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/cd.html
+    icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/cd.html
     icon: bi bi-globe
@@ -57,15 +63,19 @@ related_topics:
 
 - 转到指定目录：
 
-`cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径</span>
+`cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目录</span>
+
+- 转到当前目录的父目录：
+
+`cd ..`
 
 - 转到当前用户的主（home）目录：
 
 `cd`
 
-- 转到当前目录的父目录：
+- 转到指定用户的主（home）目录：
 
-`cd ..`
+`cd ~`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span>
 
 - 转到刚才选择的目录：
 

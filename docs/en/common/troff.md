@@ -1,12 +1,12 @@
 ---
 layout: page
 title: common/troff (English)
-description: "Typesetting processor for the groff (GNU Troff) document fomatting system."
-content_hash: 97937dde39f14db0abba0bc0f2987431126992b8
+description: "Typesetting processor for the groff (GNU Troff) document formatting system."
+content_hash: 97ed4da8ed134effda64b4481767078ac4e5c5ad
 ---
 # troff
 
-Typesetting processor for the groff (GNU Troff) document fomatting system.
+Typesetting processor for the groff (GNU Troff) document formatting system.
 See also `groff`.
 More information: <https://manned.org/troff>.
 

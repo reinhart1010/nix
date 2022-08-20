@@ -2,7 +2,7 @@
 layout: page
 title: common/stormlock (English)
 description: "Centralized locking system."
-content_hash: 791546d38d1f03ed0ccdf5da1cba3f253e9da2dc
+content_hash: 98985c6ae19914aa8cd98295d3f6bad664efe2f8
 ---
 # Stormlock
 
@@ -11,7 +11,7 @@ More information: <https://github.com/tmccombs/stormlock>.
 
 - Acquire a lease for resource:
 
-`stormlock aquire `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource</span>
+`stormlock acquire `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">resource</span>
 
 - Release the given lease for the given resource:
 
