@@ -1,35 +1,34 @@
 ---
 layout: page
 title: windows/choice (English)
-description: "Prompts the user to select one item from a list of single-character choices in a batch program, and then returns the index of the selected choice."
-content_hash: 2729d9891dde1991bf85487c18ccf8fd257456e7
+description: "Prompt user to select a choice and return the selected choice index."
+content_hash: 0918b25d82626b58864df39539dc5a679cddb4af
 ---
 # choice
 
-Prompts the user to select one item from a list of single-character choices in a batch program, and then returns the index of the selected choice.
-If used without parameters, choice displays the default choices Y and N.
+Prompt user to select a choice and return the selected choice index.
 More information: <https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/choice>.
 
-- A,B and C as list of choices to be used:
-
-`choice /c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ABC</span>
-
-- Use the default [Y,N] list of choices:
+- Prompt the current user to select a `Y` or `N` choice:
 
 `choice`
 
-- Specify that the choices are case-sensitive:
+- Prompt the current user to select a [c]hoice from a specific set:
 
-`choice /CS `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AaBb</span>
+`choice /c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AB</span>
 
-- Specify the number of seconds to pause before using the default choice specified by `/d`:
+- Prompt the current user to select a choice with a specific [m]essage:
 
-`choice /C `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AaBb</span>` /t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>` /d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">b</span>
+`choice /m "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span>`"`
 
-- Specify a message to display before the list of choices. If `/m` is not specified, only the choice prompt is displayed:
+- Prompt the current user to select a [c]ase-[s]ensitive [c]hoice from a specific set:
 
-`choice /m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span>` /C `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ABC</span>
+`choice /cs /c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Ab</span>
 
-- Display help message:
+- Prompt the current user to select a choice and prefer the [d]efault choice in a specific [t]ime:
+
+`choice /t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>` /d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">N</span>
+
+- Display help:
 
 `choice /?`
