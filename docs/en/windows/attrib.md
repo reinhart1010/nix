@@ -1,8 +1,8 @@
 ---
 layout: page
 title: windows/attrib (English)
-description: "Displays or changes file and directory attributes."
-content_hash: 1c0771bc68e740da52f8fc3b350c91b4e990dbcd
+description: "Display or change attributes of files or directories."
+content_hash: 54bfbc916f6979ee48b0e523a44f034d28f67cf1
 related_topics:
   - title: 日本語 version
     url: /ja/windows/attrib.html
@@ -13,29 +13,29 @@ related_topics:
 ---
 # attrib
 
-Displays or changes file and directory attributes.
+Display or change attributes of files or directories.
 More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/attrib>.
 
-- Display the attributes of the files in the current directory:
+- Display all set attributes of files in the current directory:
 
 `attrib`
 
-- Display the attributes of the files in the current directory and sub-directories:
+- Display all set attributes of files in a specific directory:
 
-`attrib /S`
+`attrib `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory</span>
 
-- Display the attributes of the files and directories in the current directory and sub-directories:
+- Display all set attributes of files and [d]irectories in the current directory:
 
-`attrib /S /D`
+`attrib /d`
 
-- Add the read-only attribute to a file:
+- Display all set attributes of files in the current directory and [s]ub-directories:
 
-`attrib +R `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">document.txt</span>
+`attrib /s`
 
-- Remove the system and hidden attributes of a file:
+- Add the `[r]ead-only` or `[a]rchive` or `[s]ystem` or `[h]idden` or `not content [i]ndexed` attribute to files or directories:
 
-`attrib -S -H `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">document.txt</span>
+`attrib +`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">r|a|s|h|i</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file_or_directory1 path\to\file_or_directory2 ...</span>
 
-- Add the hidden attribute to a directory:
+- Remove a specific attribute of files or directories:
 
-`attrib +H `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory</span>
+`attrib -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">r|a|s|h|i</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file_or_directory1 path\to\file_or_directory2 ...</span>

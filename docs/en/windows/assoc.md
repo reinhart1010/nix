@@ -1,8 +1,8 @@
 ---
 layout: page
 title: windows/assoc (English)
-description: "Display or modify file extension associations."
-content_hash: b51840544f9f3046a69f0a98bb1ab801ee4624b8
+description: "Display or change associations between file extensions and file types."
+content_hash: c39633301ef3521c286ffa9749da81d1bd6ea453
 related_topics:
   - title: 日本語 version
     url: /ja/windows/assoc.html
@@ -13,17 +13,17 @@ related_topics:
 ---
 # assoc
 
-Display or modify file extension associations.
+Display or change associations between file extensions and file types.
 More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/assoc>.
 
-- Display all associated filetypes:
+- List all associations between file extensions and file types:
 
 `assoc`
 
-- Display the associated filetype for a specific extension:
+- Display the associated file type for a specific extension:
 
 `assoc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.txt</span>
 
-- Modify the associated filetype for a specific extension:
+- Set the associated file type for a specific extension:
 
-`assoc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.txt</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">txtfile</span>
+`assoc .`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">txt</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">txtfile</span>
