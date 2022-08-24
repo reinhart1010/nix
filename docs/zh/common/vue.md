@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/vue (中文)
-description: "用于初始化 Vue.js 项目的 CLI."
-content_hash: 6a216cf73a8078896d9b0ea0d0cb3fdac4a4b33f
+description: "适用于 Vue.js 项目的多用途命令行接口。"
+content_hash: 5396871ce2fc3a70f82971589f3c8d50e79a1292
 related_topics:
   - title: English version
     url: /en/common/vue.html
@@ -23,20 +23,16 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <a class="btn btn-primary" href="{{ site.url }}/en/common/vue.html">View original (English) version</a>
 <a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
-<hr># vue-cli
+<hr># vue
 
-用于初始化 Vue.js 项目的 CLI.
-此命令也有关于其子命令的文件，例如：`vue build`.
+适用于 Vue.js 项目的多用途命令行接口。
+此命令也有关于其子命令的文件，例如：`vue build`。
 更多信息：<https://cli.vuejs.org>.
 
-- 从模板创建新项目：
+- 交互式地创建一个新的 Vue 项目：
 
-`vue init `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">template</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_name</span>
+`vue create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">项目名</span>
 
-- 从本地模板创建新项目：
+- 使用图形化界面创建一个新项目：
 
-`vue init `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/template_directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_name</span>
-
-- 从 GitHub 上拉取模板并创建新项目：
-
-`vue init `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_name</span>
+`vue ui`
