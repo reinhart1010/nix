@@ -2,7 +2,7 @@
 layout: page
 title: common/pip (português (Brasil))
 description: "Gerenciador de pacotes para Python."
-content_hash: 06575c039c60fe1b70658b1c37db583c32ddfa75
+content_hash: 8cb83fc929bbecb597952486b654cdb88b78e701
 related_topics:
   - title: Deutsch version
     url: /de/common/pip.html
@@ -36,9 +36,13 @@ Mais informações: <https://pip.pypa.io>.
 
 `pip install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_pacote</span>
 
+- Instala um pacote no diretório do usuário em vez do local padrão do sistema:
+
+`pip install --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_pacote</span>
+
 - Atualiza um pacote:
 
-`pip install -U `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_pacote</span>
+`pip install --upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_pacote</span>
 
 - Desinstala um pacote:
 
@@ -51,3 +55,7 @@ Mais informações: <https://pip.pypa.io>.
 - Mostra informações sobre um pacote instalado:
 
 `pip show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_pacote</span>
+
+- Instala pacotes a partir de um arquivo:
+
+`pip install --requirement `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">requirements.txt</span>

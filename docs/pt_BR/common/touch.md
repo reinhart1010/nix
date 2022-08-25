@@ -1,9 +1,12 @@
 ---
 layout: page
 title: common/touch (português (Brasil))
-description: "Atualizar as timestamps de um arquivo para a hora atual."
-content_hash: 9fd42a06ee02bc8660da76f6ba9308ef9577560a
+description: "Alterar os timestamps de acesso e de modificação (atime, mtime) de um arquivo."
+content_hash: d08d95ffc7a3e7aa0376af6a9959ef77e07d288e
 related_topics:
+  - title: català version
+    url: /ca/common/touch.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/touch.html
     icon: bi bi-globe
@@ -34,22 +37,25 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 <hr># touch
 
-Atualizar as timestamps de um arquivo para a hora atual.
-Se o arquivo não existir, cria um arquivo vazio, a menos que seja passado o parâmetro -c ou -h.
+Alterar os timestamps de acesso e de modificação (atime, mtime) de um arquivo.
 Mais informações: <https://www.gnu.org/software/coreutils/touch>.
 
-- Criar um novo arquivo vazio, ou atualizar as timestamps para a hora atual:
+- Criar novo(s) arquivo(s) vazio(s) ou alterar os timestamps do(s) arquivo(s) para o timestamp atual:
 
-`touch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo</span>
+`touch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
 
-- Definir as timestamps de um arquivo para a hora especificada:
+- Definir os timestamps de um arquivo para uma data e hora específica:
 
-`touch -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYYMMDDHHMM.SS</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo</span>
+`touch -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYYMMDDHHMM.SS</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
 
-- Usar as timestamps do arquivo1 para definir as timestamps do arquivo2:
+- Definir os timestamps de um arquivo para uma hora no passado:
 
-`touch -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo2</span>
+`touch -d "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-1 hour</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
 
-- Alterar as timestamps de um arquivo. Não cria novo arquivo se não existir:
+- Usar as timestamps de um arquivo para definir as timestamps de um segundo arquivo:
 
-`touch -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo</span>
+`touch -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo2</span>
+
+- Criar múltiplos arquivos:
+
+`touch -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo{1,2,3}.txt</span>
