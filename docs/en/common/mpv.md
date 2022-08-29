@@ -2,7 +2,7 @@
 layout: page
 title: common/mpv (English)
 description: "A audio/video player based on MPlayer."
-content_hash: e54119644a5cd84fdbe18dc67bfe4c84e874173c
+content_hash: 50e3ddcc1b9feb01bb42d8044b56efd3443c1565
 related_topics:
   - title: italiano version
     url: /it/common/mpv.html
@@ -18,7 +18,7 @@ More information: <https://mpv.io>.
 
 - Play a video or audio file:
 
-`mpv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`mpv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Play a video or audio file from a URL:
 
@@ -38,11 +38,11 @@ More information: <https://mpv.io>.
 
 - Play a file at a specified speed (0.01 to 100, default 1):
 
-`mpv --speed `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">speed</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`mpv --speed `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">speed</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Play a file using a profile defined in the `mpv.conf` file:
 
-`mpv --profile `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`mpv --profile `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Display the output of webcam or other video input device:
 
