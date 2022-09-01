@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/command (中文)
-description: "命令强制 shell 执行命令程序，并忽略具有相同名称的任何函数、内置函数和别名（会忽略掉一切别名，执行命令本身）。"
-content_hash: e6578b56a38845cd65de9c06b9bec654a9a75546
+description: "Command 强制当前 shell 执行指定程序，并忽略具有相同名称的任何函数、内置函数和别名。"
+content_hash: aed82e2a845e35999c309463674597f1255126b5
 related_topics:
   - title: English version
     url: /en/common/command.html
@@ -31,9 +31,13 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 <hr># command
 
-命令强制 shell 执行命令程序，并忽略具有相同名称的任何函数、内置函数和别名（会忽略掉一切别名，执行命令本身）。
+Command 强制当前 shell 执行指定程序，并忽略具有相同名称的任何函数、内置函数和别名。
 更多信息：<https://manned.org/command>.
 
-- 从字面上执行 `ls` 程序，即使存在 ls 别名：
+- 从字面上执行 `ls` 程序，即使存在 `ls` 别名：
 
 `command `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls</span>
+
+- 显示指定命令的可执行程序路径或别名定义：
+
+`command -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令名</span>
