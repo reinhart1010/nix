@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/task (English)
-description: "TODO list manager."
-content_hash: bf51890cd5f10399543d8fdd3b0d8193606f6424
+description: "Command-line to-do list manager."
+content_hash: 908553453b94dc012906748bb2e0a601281b289f
 related_topics:
   - title: italiano version
     url: /it/common/task.html
@@ -10,25 +10,37 @@ related_topics:
 ---
 # task
 
-TODO list manager.
-More information: <https://manned.org/task>.
+Command-line to-do list manager.
+More information: <https://taskwarrior.org/docs/>.
 
-- Add new task:
+- Add a new task which is due tomorrow:
 
-`task add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">thing_to_do</span>
+`task add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">description</span>` due:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tomorrow</span>
 
-- List tasks:
+- Update a task's priority:
 
-`task list`
+`task `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span>` modify priority:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">H|M|L</span>
 
-- Mark task as completed:
+- Complete a task:
 
 `task `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span>` done`
 
-- Modify task:
-
-`task `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span>` modify `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_thing_to_do</span>
-
-- Delete task:
+- Delete a task:
 
 `task `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span>` delete`
+
+- List all open tasks:
+
+`task list`
+
+- List open tasks due before the end of the week:
+
+`task list due.before:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eow</span>
+
+- Show a graphical burndown chart, by day:
+
+`task burndown.daily`
+
+- List all reports:
+
+`task reports`

@@ -2,8 +2,11 @@
 layout: page
 title: common/ls (français)
 description: "Liste le contenu d'un répertoire."
-content_hash: 596a532a8d6f2135a93bffb95c28eaae704c4ab8
+content_hash: 87305154512ea9bb0d1f17a45636ded0224eba11
 related_topics:
+  - title: català version
+    url: /ca/common/ls.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/ls.html
     icon: bi bi-globe
@@ -40,6 +43,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/ls.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/ls.html
+    icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/ls.html
     icon: bi bi-globe
@@ -66,6 +72,10 @@ Plus d'informations : <https://www.gnu.org/software/coreutils/ls>.
 
 `ls -a`
 
+- Liste tous les fichiers, avec les noms de répertoires suivis d'un `/` :
+
+`ls -F`
+
 - Liste tous les fichiers avec un format détaillé (permissions, propriétaire, taille et date de modification) :
 
 `ls -la`
@@ -81,3 +91,7 @@ Plus d'informations : <https://www.gnu.org/software/coreutils/ls>.
 - Liste avec un format détaillé tous les fichiers en triant par date de modification (les plus anciennes en premier) :
 
 `ls -ltr`
+
+- Liste uniquement les répertoires :
+
+`ls -d */`

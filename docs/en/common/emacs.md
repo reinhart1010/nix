@@ -2,7 +2,7 @@
 layout: page
 title: common/emacs (English)
 description: "The extensible, customizable, self-documenting, real-time display editor."
-content_hash: d2805fba160ce16428d2b7987baa9851795da884
+content_hash: 9c36b4a6ac371fa908908720262bb0d492f3e0db
 related_topics:
   - title: Deutsch version
     url: /de/common/emacs.html
@@ -27,6 +27,10 @@ More information: <https://www.gnu.org/software/emacs>.
 - Open a file at a specified line number:
 
 `emacs +`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">line_number</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+
+- Run an Emacs Lisp file as a script:
+
+`emacs --script `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.el</span>
 
 - Start Emacs in console mode (without an X window):
 
