@@ -2,7 +2,7 @@
 layout: page
 title: common/mkdir (français)
 description: "Crée un répertoire."
-content_hash: 91457c7648e23296fa4d213ae6b8eebb25052f1d
+content_hash: f57b2059b80f469952cae59769c20e13b4cc5af5
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -25,6 +25,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/mkdir.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/mkdir.html
+    icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/mkdir.html
     icon: bi bi-globe
@@ -46,6 +49,10 @@ Plus d'informations : <https://www.gnu.org/software/coreutils/mkdir>.
 - Crée un répertoire dans le répertoire actuel ou dans un chemin donné :
 
 `mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">répertoire</span>
+
+- Crée plusieurs répertoires dans le répertoire actuel :
+
+`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">répertoire_1 répertoire_2 ...</span>
 
 - Crée des répertoires récursivement (utile pour créer des répertoires imbriqués) :
 
