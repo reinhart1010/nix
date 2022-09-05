@@ -2,7 +2,7 @@
 layout: page
 title: common/adb-install (English)
 description: "Android Debug Bridge Install: Push packages to an Android emulator instance or connected Android devices."
-content_hash: fff035ee174a23d0c29a6e9dd09c5c238653420d
+content_hash: 030dd9649980bac5345d7c900e5e817bc3d57fd3
 related_topics:
   - title: français version
     url: /fr/common/adb-install.html
@@ -42,6 +42,10 @@ More information: <https://developer.android.com/studio/command-line/adb>.
 - Reinstall an existing app, keeping its data:
 
 `adb install -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.apk</span>
+
+- Push an Android application allowing version code downgrade (debuggable packages only):
+
+`adb install -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.apk</span>
 
 - Grant all permissions listed in the app manifest:
 
