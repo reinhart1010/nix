@@ -2,12 +2,9 @@
 layout: page
 title: linux/man (English)
 description: "Format and display manual pages."
-content_hash: 140e0f9374edc731285c74ea2db5a8c5e7305dcf
+content_hash: 6de1e6dfa53bed1a660798400c366388d7d5e70c
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># man
+# man
 
 Format and display manual pages.
 More information: <https://www.man7.org/linux/man-pages/man1/man.1.html>.
@@ -34,7 +31,7 @@ More information: <https://www.man7.org/linux/man-pages/man1/man.1.html>.
 
 - Display the man page using a specific locale:
 
-`man `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` --locale=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">locale</span>
+`man --locale=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">locale</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
 - Search for manpages containing a search string:
 
