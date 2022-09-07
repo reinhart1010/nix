@@ -2,7 +2,7 @@
 layout: page
 title: common/git-bisect (English)
 description: "Use binary search to find the commit that introduced a bug."
-content_hash: 79d9c2b54b4e762f75dc21d8c88a27a0e1f51b6d
+content_hash: a8bf8a39022ba2319121828823e50b8ab696e9aa
 related_topics:
   - title: Deutsch version
     url: /de/common/git-bisect.html
@@ -18,6 +18,9 @@ related_topics:
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-bisect.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-bisect.html
     icon: bi bi-globe
 ---
 # git bisect
@@ -41,3 +44,7 @@ More information: <https://git-scm.com/docs/git-bisect>.
 - Skip a commit during a bisect (e.g. one that fails the tests due to a different issue):
 
 `git bisect skip`
+
+- Display a log of what has been done so far:
+
+`git bisect log`
