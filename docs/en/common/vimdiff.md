@@ -2,7 +2,7 @@
 layout: page
 title: common/vimdiff (English)
 description: "Open up two or more files in vim and show the differences between them."
-content_hash: e2da6e26d5d1deba3ace0491328934ea461e7175
+content_hash: c8fbcfb98f9d84d99cf06687df4d37811669008b
 related_topics:
   - title: español version
     url: /es/common/vimdiff.html
@@ -22,11 +22,11 @@ More information: <https://www.vim.org>.
 
 `Ctrl + w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">h|l</span>
 
-- Jump to the next difference:
+- Jump to the previous difference:
 
 `[c`
 
-- Jump to the previous difference:
+- Jump to the next difference:
 
 `]c`
 

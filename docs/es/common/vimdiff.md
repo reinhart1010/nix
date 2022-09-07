@@ -2,7 +2,7 @@
 layout: page
 title: common/vimdiff (español)
 description: "Abre dos o más archivos en Vim y muestra las diferencias entre ellos."
-content_hash: 5e3db3c5a9080293a2e7aa6210de6b4ddd4b8ae0
+content_hash: d887319a5de8dbae511bfd3698cf520471383162
 related_topics:
   - title: English version
     url: /en/common/vimdiff.html
@@ -22,11 +22,11 @@ Más información: <https://www.vim.org>.
 
 `Ctrl + w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">h|l</span>
 
-- Salta a la siguiente diferencia:
+- Salta a la diferencia previa:
 
 `[c`
 
-- Salta a la diferencia previa:
+- Salta a la siguiente diferencia:
 
 `]c`
 
