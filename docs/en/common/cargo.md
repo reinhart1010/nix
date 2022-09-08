@@ -2,7 +2,7 @@
 layout: page
 title: common/cargo (English)
 description: "Manage Rust projects and their module dependencies (crates)."
-content_hash: 05dd21e3fc2a3c7d28ef1753974623f31fc6cec0
+content_hash: dbf6cd82d32a874815b2c34f2191a016e591987c
 related_topics:
   - title: Deutsch version
     url: /de/common/cargo.html
@@ -15,6 +15,9 @@ related_topics:
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/cargo.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/cargo.html
     icon: bi bi-globe
 ---
 # cargo
@@ -46,6 +49,10 @@ More information: <https://crates.io/>.
 - Build the Rust project in the current directory:
 
 `cargo build`
+
+- Build the rust project in the current directory using the nightly compiler:
+
+`cargo +nightly build`
 
 - Build using a specific number of threads (default is the number of CPU cores):
 
