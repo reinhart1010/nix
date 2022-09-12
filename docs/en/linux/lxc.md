@@ -2,7 +2,7 @@
 layout: page
 title: linux/lxc (English)
 description: "Manage Linux containers using the lxd REST API."
-content_hash: 48f130f2219610cccf5f1a1fe46d37f4cb9b20cb
+content_hash: 10b67a0d2fe4f3785cbcca6209efd56b86d3c261
 ---
 # lxc
 
@@ -37,3 +37,7 @@ More information: <https://manned.org/lxc>.
 - Take a snapshot of a container:
 
 `lxc snapshot [`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote</span>`:]`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">snapshot</span>
+
+- Execute a specific command inside a container:
+
+`lxc exec [`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote</span>`:]`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
