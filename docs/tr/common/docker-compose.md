@@ -2,7 +2,7 @@
 layout: page
 title: common/docker-compose (Türkçe)
 description: "Çoklu konteynerli docker uygulamalarını çalıştırın ve yönetin."
-content_hash: 50544e1adbef392d6e0b73c26ce870d199ddcbe9
+content_hash: b74b53decb1bf8c93597fc004efe5372c4db03aa
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -33,32 +33,32 @@ Daha fazla bilgi: <https://docs.docker.com/compose/reference/>.
 
 - Tüm konteynerleri listele:
 
-`docker-compose ps`
+`docker compose ps`
 
 - Mevcut dizinde bir `docker-compose.yml` dosyası çalıştırarak arkaplandaki tüm konteynerleri çalıştırın ve başlatın:
 
-`docker-compose up -d`
+`docker compose up -d`
 
 - Tüm konteynerleri çalıştırın ve gerekiyorsa yeniden oluşturun:
 
-`docker-compose up --build`
+`docker compose up --build`
 
 - Tüm konteynerleri alternatif bir beste dosyasıyla başlatın:
 
-`docker-compose --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yoldan/dosyaya</span>` up`
+`docker compose --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yoldan/dosyaya</span>` up`
 
 - Çalışan tüm konteynerleri durdurun:
 
-`docker-compose stop`
+`docker compose stop`
 
 - Tüm konteynerleri, ağları, imgeleri ve alanları durdurun ve silin:
 
-`docker-compose down --rmi all --volumes`
+`docker compose down --rmi all --volumes`
 
 - Tüm konteynerler için logları takip edin:
 
-`docker-compose logs --follow`
+`docker compose logs --follow`
 
 - Belirtilmiş bir konteyner için logları takip edin:
 
-`docker-compose logs --follow `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">konteyner_ismi</span>
+`docker compose logs --follow `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">konteyner_ismi</span>

@@ -2,7 +2,7 @@
 layout: page
 title: common/docker-compose (English)
 description: "Run and manage multi container docker applications."
-content_hash: 55d53b5a3d09802590aca4e045b4f4fb4191b257
+content_hash: e231f5dcaa66148e61ae0b26104fe348bb9c351e
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -26,39 +26,39 @@ related_topics:
     url: /tr/common/docker-compose.html
     icon: bi bi-globe
 ---
-# docker-compose
+# docker compose
 
 Run and manage multi container docker applications.
 More information: <https://docs.docker.com/compose/reference/>.
 
 - List all running containers:
 
-`docker-compose ps`
+`docker compose ps`
 
 - Create and start all containers in the background using a `docker-compose.yml` file from the current directory:
 
-`docker-compose up -d`
+`docker compose up -d`
 
 - Start all containers, rebuild if necessary:
 
-`docker-compose up --build`
+`docker compose up --build`
 
 - Start all containers using an alternate compose file:
 
-`docker-compose --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` up`
+`docker compose --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` up`
 
 - Stop all running containers:
 
-`docker-compose stop`
+`docker compose stop`
 
 - Stop and remove all containers, networks, images, and volumes:
 
-`docker-compose down --rmi all --volumes`
+`docker compose down --rmi all --volumes`
 
 - Follow logs for all containers:
 
-`docker-compose logs --follow`
+`docker compose logs --follow`
 
 - Follow logs for a specific container:
 
-`docker-compose logs --follow `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>
+`docker compose logs --follow `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>
