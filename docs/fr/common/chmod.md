@@ -2,7 +2,7 @@
 layout: page
 title: common/chmod (français)
 description: "Modifie les droits d'accès d'un fichier ou d'un répertoire."
-content_hash: 78a374b774722f9dedfd411f7b98a0cb4eab6230
+content_hash: a529e84d4a6fcc5c0ebf26980c95058bcd4393b5
 related_topics:
   - title: Deutsch version
     url: /de/common/chmod.html
@@ -12,6 +12,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/chmod.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/chmod.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/chmod.html
@@ -31,6 +34,9 @@ related_topics:
   - title: русский version
     url: /ru/common/chmod.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/chmod.html
+    icon: bi bi-globe
 ---
 
 ### Outdated Translation
@@ -48,28 +54,32 @@ Plus d'informations : <https://www.gnu.org/software/coreutils/chmod>.
 
 - Donne les droits d'e[x]écution à l'[u]tilisateur auquel le fichier appartient :
 
-`chmod u+x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span>
+`chmod u+x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span>
 
-- Donne à l'utilisateur les droits de lecture (r) et d'écriture (w) sur un fichier/répertoire :
+- Donne à l'[u]tilisateur les droits de lecture [r] et d'écriture [w] sur un fichier/répertoire :
 
-`chmod u+rw `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier_ou_repertoire</span>
+`chmod u+rw `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_ou_répertoire</span>
 
-- Enlève les droits d'exécution pour le [g]roupe :
+- Enlève les droits d'e[x]écution pour le [g]roupe :
 
-`chmod g-x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span>
+`chmod g-x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span>
 
-- Donne à tous (a) les utilisateurs les droits de lecture et d'exécution :
+- Donne à tous [a] les utilisateurs les droits de lecture [r] et d'e[x]écution :
 
-`chmod a+rx `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span>
+`chmod a+rx `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span>
 
-- Donne aux autres utilisateurs (qui sont dans un autre groupe) les mêmes droits que ceux du groupe propriétaire :
+- Donne aux autres [o] utilisateurs (qui sont dans un autre groupe) les mêmes droits que ceux du [g]roupe propriétaire :
 
-`chmod o=g `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span>
+`chmod o=g `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span>
 
-- Retire tous les droits aux autres (o) utilisateurs :
+- Retire tous les droits aux autres [o] utilisateurs :
 
-`chmod o= `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span>
+`chmod o= `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span>
 
-- Modifie les permissions récursivement en donnant aux membres du groupe et aux autres utilisateurs le droit d'écriture :
+- Modifie les permissions récursivement en donnant aux membres du [g]roupe et aux autres [o] utilisateurs le droit d'écriture [w] :
 
-`chmod -R g+w,o+w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repertoire</span>
+`chmod -R g+w,o+w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/répertoire</span>
+
+- Donne récursivement à tous [a] les utilisateurs les droits de lecture [r] de fichiers et d'e[X]écution de sous-répertoires à l'intérieur d'un répertoire :
+
+`chmod -R a+rX `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/répertoire</span>
