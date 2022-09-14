@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/tldr (English)
-description: "Displays simple help pages for command-line tools, from the tldr-pages project."
-content_hash: f9147fe5c164bd7fbde3f13dff8c9d63d04bc461
+description: "Display simple help pages for command-line tools from the tldr-pages project."
+content_hash: 277fc911d35cb6f823775dadf195e97e576bc256
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
@@ -46,21 +46,21 @@ related_topics:
 ---
 # tldr
 
-Displays simple help pages for command-line tools, from the tldr-pages project.
+Display simple help pages for command-line tools from the tldr-pages project.
 More information: <https://tldr.sh>.
 
-- Show the tldr page for a command (hint: this is how you got here!):
+- Print the tldr page for a specific command (hint: this is how you got here!):
 
 `tldr `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
-- Show the tldr page for `cd`, overriding the default platform:
+- Print the tldr page for a specific subcommand:
 
-`tldr -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android|linux|osx|sunos|windows</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cd</span>
+`tldr `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>`-`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
 
-- Show the tldr page for a subcommand:
+- Print the tldr page for a command for a specific [p]latform:
 
-`tldr `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">git-checkout</span>
+`tldr -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android|linux|osx|sunos|windows</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
-- Update local pages (if the client supports caching):
+- [u]pdate the local cache of tldr pages:
 
 `tldr -u`
