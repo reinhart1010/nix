@@ -2,7 +2,7 @@
 layout: page
 title: common/chmod (Deutsch)
 description: "Ändere die Zugriffsberechtigungen einer Datei oder eines Verzeichnisses."
-content_hash: d713c9c30729e03fa38d7e38351ddfac2c25d6ff
+content_hash: edc5395ecc861a64850ccff6c5be562412940e78
 related_topics:
   - title: English version
     url: /en/common/chmod.html
@@ -12,6 +12,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/chmod.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/chmod.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/chmod.html
@@ -30,6 +33,9 @@ related_topics:
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/chmod.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/chmod.html
     icon: bi bi-globe
 ---
 
@@ -73,3 +79,7 @@ Weitere Informationen: <https://www.gnu.org/software/coreutils/chmod>.
 - Ändere Rechte rekursiv, indem der Besitzer[g]ruppe und anderen ([o]thers) die Rechte zum Schreiben ([w]rite) geben werden:
 
 `chmod -R g+w,o+w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/verzeichnis</span>
+
+- Gib [a]llen Benutzern rekursiv Rechte zum Lesen ([r]ead) von Dateien und Ausführen (e[X]ecute) von Unterverzeichnissen innerhalb eines Verzeichnis:
+
+`chmod -R a+rX `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/verzeichnis</span>

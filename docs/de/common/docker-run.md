@@ -2,7 +2,7 @@
 layout: page
 title: common/docker-run (Deutsch)
 description: "Führe einen Befehl in einem neuen Docker Container aus."
-content_hash: b8aa89340e3297948accfeb94756088725ad4db4
+content_hash: c0c1285d8629f05a5c183f56b3ca529623b0edc8
 related_topics:
   - title: English version
     url: /en/common/docker-run.html
@@ -51,3 +51,11 @@ Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/run
 - Führe einen Befehl in einem neuen Container mit veröffentlichten Ports aus:
 
 `docker run --publish `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_port</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_port</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehl</span>
+
+- Führe einen Befehl in einem neuen Container aus und überschreibe den Einstiegspunkt des Images:
+
+`docker run --entrypoint `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehl</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span>
+
+- Führe einen Befehl in einem neuen Container aus und verbinde ihn mit einem Netzwerk:
+
+`docker run --network `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">netzwerk</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span>

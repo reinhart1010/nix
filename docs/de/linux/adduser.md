@@ -2,7 +2,7 @@
 layout: page
 title: linux/adduser (Deutsch)
 description: "Tool um Benutzer hinzuzufügen."
-content_hash: e4bf7f9d28308f1996565c1ed4ec1a118ef948e6
+content_hash: 228259315a29a4de54ea161d8370eaaf6f4cf59f
 related_topics:
   - title: English version
     url: /en/linux/adduser.html
@@ -17,7 +17,16 @@ related_topics:
     url: /zh/linux/adduser.html
     icon: bi bi-globe
 ---
-# adduser
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/linux/adduser.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># adduser
 
 Tool um Benutzer hinzuzufügen.
 Weitere Informationen: <https://manpages.debian.org/latest/adduser/adduser.html>.
@@ -41,7 +50,3 @@ Weitere Informationen: <https://manpages.debian.org/latest/adduser/adduser.html>
 - Erstelle einen neuen Benutzer und füge ihn zur angegebenen Gruppe hinzu:
 
 `adduser --ingroup `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gruppe</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzername</span>
-
-- Füge einen vorhandenen Benutzer zur angegebenen Gruppe hinzu:
-
-`adduser `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzername</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gruppe</span>

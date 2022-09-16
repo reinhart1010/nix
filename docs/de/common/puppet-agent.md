@@ -2,13 +2,22 @@
 layout: page
 title: common/puppet-agent (Deutsch)
 description: "Ruft die Client-Konfiguration eines Puppetservers ab und setzt diese auf dem System um."
-content_hash: 7727b2b1e9a84054ca0adcab7b88b4677c48db57
+content_hash: eb194c7ac2f5db1770b0a994b11d721c19664048
 related_topics:
   - title: English version
     url: /en/common/puppet-agent.html
     icon: bi bi-globe
 ---
-# puppet agent
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/puppet-agent.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># puppet agent
 
 Ruft die Client-Konfiguration eines Puppetservers ab und setzt diese auf dem System um.
 Weitere Informationen: <https://puppet.com/docs/puppet/7/man/agent.html>.
@@ -32,3 +41,11 @@ Weitere Informationen: <https://puppet.com/docs/puppet/7/man/agent.html>.
 - Protokolliere jede ausgewertete Ressource (selbst wenn sich nichts geändert hat):
 
 `puppet agent --test --evaltrace`
+
+- Deaktiviere den Agenten:
+
+`puppet agent --disable "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nachricht</span>`"`
+
+- Aktiviere den Agenten:
+
+`puppet agent --enable`

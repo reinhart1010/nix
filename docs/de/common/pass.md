@@ -2,7 +2,7 @@
 layout: page
 title: common/pass (Deutsch)
 description: "Programm zum Speichern und Lesen von Passwörtern und anderen sensiblen Daten."
-content_hash: e9317a0262e9893e153e112de04bc5e29e0284c8
+content_hash: 45bbb21c6d831f32eabdf9d8ec6e3209cf2049c7
 related_topics:
   - title: English version
     url: /en/common/pass.html
@@ -50,3 +50,7 @@ Weitere Informationen: <https://www.passwordstore.org>.
 - Initialisiere ein Git Repository (Alle durch pass durchgeführten Änderungen werden automatisch committed):
 
 `pass git init`
+
+- Führe einen Git-Befehl für den Passwort-Store aus:
+
+`pass git `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehl</span>

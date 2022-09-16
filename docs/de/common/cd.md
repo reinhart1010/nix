@@ -2,8 +2,11 @@
 layout: page
 title: common/cd (Deutsch)
 description: "Ändere das aktuelle Arbeitsverzeichnis."
-content_hash: cd98b5fd7543f2f3b6caa8796e0889ddbdcd9808
+content_hash: 41c2a8ce298a828cd51e31cdafe1e336c74872f3
 related_topics:
+  - title: català version
+    url: /ca/common/cd.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/cd.html
     icon: bi bi-globe
@@ -43,6 +46,9 @@ related_topics:
   - title: svenska version
     url: /sv/common/cd.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/cd.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/cd.html
     icon: bi bi-globe
@@ -50,7 +56,16 @@ related_topics:
     url: /zh_TW/common/cd.html
     icon: bi bi-globe
 ---
-# cd
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/cd.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># cd
 
 Ändere das aktuelle Arbeitsverzeichnis.
 Weitere Informationen: <https://manned.org/cd>.
@@ -59,13 +74,17 @@ Weitere Informationen: <https://manned.org/cd>.
 
 `cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/verzeichnis</span>
 
+- Wechsle zum Verzeichnis über dem aktuellen Verzeichnis:
+
+`cd ..`
+
 - Wechsle in das Home-Verzeichnis des aktuellen Benutzers:
 
 `cd`
 
-- Wechsle zum Verzeichnis über dem aktuellen Verzeichnis:
+- Wechsle in das Home-Verzeichnis eines bestimmten Benutzers:
 
-`cd ..`
+`cd ~`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzername</span>
 
 - Wechsle zum zuletzt gewählten Verzeichnis:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/git-push (Deutsch)
 description: "Lade Commits in ein Remote-Repository hoch."
-content_hash: 3481ed66b8561fa838784b7effa36e7c4391fc2e
+content_hash: 88db912d16e9ab33551b708614c17548feda7fa0
 related_topics:
   - title: English version
     url: /en/common/git-push.html
@@ -15,6 +15,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-push.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-push.html
     icon: bi bi-globe
 ---
 
@@ -41,7 +44,11 @@ Weitere Informationen: <https://git-scm.com/docs/git-push>.
 
 - Lade den aktuellen Branch in ein entferntes Repository mit Angabe des Namens des entfernten Branches hoch:
 
-`git push `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span>` -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_branch</span>
+`git push -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_branch</span>
+
+- Lade Änderungen eines bestimmten lokalen Branches zu einem bestimmten entfernten Branch hoch:
+
+`git push `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lokaler_branch</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">entfernter_branch</span>
 
 - Lade Änderungen aller lokalen Branches zu ihrem entfernten Repository hoch:
 

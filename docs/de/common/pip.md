@@ -2,7 +2,7 @@
 layout: page
 title: common/pip (Deutsch)
 description: "Python package manager."
-content_hash: 9df8c2607827d8858da46bb06d27dd4ecdd195f6
+content_hash: de22cb2f227df869382ebb256b98cfcde0a19f1d
 related_topics:
   - title: English version
     url: /en/common/pip.html
@@ -36,9 +36,13 @@ Weitere Informationen: <https://pip.pypa.io>.
 
 `pip install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paketname</span>
 
+- Installiere ein Paket im Benutzerverzeichnis, anstatt systemweit:
+
+`pip install --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paketname</span>
+
 - Aktualisiere ein Paket:
 
-`pip install -U `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paketname</span>
+`pip install --upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paketname</span>
 
 - Deinstalliere ein Paket:
 
@@ -51,3 +55,7 @@ Weitere Informationen: <https://pip.pypa.io>.
 - Zeige Informationen über ein installiertes Paket an:
 
 `pip show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paketname</span>
+
+- Installiere Pakete, die in einer Datei gelistet sind:
+
+`pip install --requirement `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">requirements.txt</span>

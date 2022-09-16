@@ -2,7 +2,7 @@
 layout: page
 title: common/chsh (Deutsch)
 description: "Ändere die Login-Shell eines Benutzers."
-content_hash: 73fccb9021bf18f632a28172e85e47b43522f068
+content_hash: 2925a5c7c96e683d10858c731352ef1facbeb90f
 related_topics:
   - title: bosanski version
     url: /bs/common/chsh.html
@@ -46,6 +46,18 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 Ändere die Login-Shell eines Benutzers.
 Weitere Informationen: <https://manned.org/chsh>.
 
+- Ändere die Login-Shell des aktuellen Benutzers interaktiv:
+
+`chsh`
+
+- Ändere die Login-Shell des aktuellen Benutzers:
+
+`chsh -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/shell</span>
+
 - Ändere die Login-Shell eines Benutzers:
 
 `chsh -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/shell</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzername</span>
+
+- Liste alle verfügbaren Shells auf:
+
+`chsh --list-shells`

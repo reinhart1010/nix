@@ -2,7 +2,7 @@
 layout: page
 title: common/chromium (Deutsch)
 description: "Open-Source-Webbrowser von Google."
-content_hash: a318be6db22a996e039d8a7119e29c2996123328
+content_hash: 2a09c18086029d07b4b96ff0b19b79abd252515e
 related_topics:
   - title: English version
     url: /en/common/chromium.html
@@ -34,13 +34,9 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 Open-Source-Webbrowser von Google.
 Weitere Informationen: <https://www.chromium.org/developers/how-tos/run-chromium-with-flags/>.
 
-- Öffne eine html-Datei:
+- Öffne eine bestimmte Datei oder URL:
 
-`chromium `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.html</span>
-
-- Öffne eine bestimmte URL:
-
-`chromium `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">beispiel.com</span>
+`chromium `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://beispiel.com|pfad/zu/datei.html</span>
 
 - Öffne eine URL im Inkognito-Modus:
 
@@ -57,3 +53,15 @@ Weitere Informationen: <https://www.chromium.org/developers/how-tos/run-chromium
 - Öffne eine URL und verwende einen Proxy-Server:
 
 `chromium --proxy-server="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">socks5://hostname:66</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">beispiel.com</span>
+
+- Öffne Chromium mit einem eigenen Profil-Verzeichnis:
+
+`chromium --user-data-dir=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/verzeichnis</span>
+
+- Öffne Chromium ohne CORS-Verifizierung (nützlich, um eine API zu testen):
+
+`chromium --user-data-dir=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/verzeichnis</span>` --disable-web-security`
+
+- Öffne Chromium mit einem `DevTools`-Fenster für jeden geöffneten Tab:
+
+`chromium --auto-open--devtools-for-tabs`
