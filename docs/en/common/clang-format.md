@@ -2,7 +2,7 @@
 layout: page
 title: common/clang-format (English)
 description: "Tool to auto-format C/C++/Java/JavaScript/Objective-C/Protobuf/C# code."
-content_hash: b4b220bd27cd4e16ae7e3cedca69a9de86022f05
+content_hash: a227e2ad66e0603911bd039ca5c928c62f520f84
 ---
 # clang-format
 
@@ -19,7 +19,7 @@ More information: <https://clang.llvm.org/docs/ClangFormat.html>.
 
 - Format a file using a predefined coding style:
 
-`clang-format --style=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">LLVM|Google|Chromium|Mozilla|WebKit</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`clang-format --style=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">LLVM|GNU|Google|Chromium|Microsoft|Mozilla|WebKit</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Format a file using the `.clang-format` file in one of the parent directories of the source file:
 
@@ -27,4 +27,4 @@ More information: <https://clang.llvm.org/docs/ClangFormat.html>.
 
 - Generate a custom `.clang-format` file:
 
-`clang-format --style=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">LLVM|Google|Chromium|Mozilla|WebKit</span>` --dump-config > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.clang-format</span>
+`clang-format --style=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">LLVM|GNU|Google|Chromium|Microsoft|Mozilla|WebKit</span>` --dump-config > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.clang-format</span>
