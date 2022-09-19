@@ -2,7 +2,7 @@
 layout: page
 title: common/javac (English)
 description: "Java Application Compiler."
-content_hash: d7b9f35ea10989a2ce76e49e87faa2a19da86029
+content_hash: c01c19343f7f7b7e2652101ae2c1178804c7dda7
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/javac.html
@@ -33,4 +33,4 @@ More information: <https://docs.oracle.com/en/java/javase/17/docs/specs/man/java
 
 - Compile a `.java` file and place the resulting class file in a specific directory:
 
-`javac -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/some/directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.java</span>
+`javac -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.java</span>

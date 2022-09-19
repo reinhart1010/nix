@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/javac (தமிழ்)
-description: "ஜாவா நிரல்மொழிமாற்றி."
-content_hash: d67c55a938981df376b37a4b8d0583685296f460
+description: "ஜாவா பயன்பாட்டு தொகுப்பாளர்."
+content_hash: 9fb45c0ef23246f5b0c2810d20cd0e5003f8350b
 related_topics:
   - title: English version
     url: /en/common/javac.html
@@ -16,21 +16,21 @@ related_topics:
 ---
 # javac
 
-ஜாவா நிரல்மொழிமாற்றி.
+ஜாவா பயன்பாட்டு தொகுப்பாளர்.
 மேலும் விவரத்திற்கு: <https://docs.oracle.com/en/java/javase/17/docs/specs/man/javac.html>.
 
-- `.java` கோப்பை நிரல்மொழிமாற்ற:
+- ஒரு `.java` கோப்பை தொகுக்கவும்:
 
 `javac `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.java</span>
 
-- பல `.java` கோப்புகளை நிரல்மொழிமாற்ற:
+- பல `.java` கோப்புகளை தொகுக்கவும்:
 
 `javac `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு1.java</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு2.java</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு3.java</span>
 
-- தற்போதைய கோப்பகத்தில் அனைத்து `.java` கோப்புகளையும் நிரல்மொழிமாற்ற:
+- தற்போதைய கோப்பகத்தில் அனைத்து `.java` கோப்புகளையும் தொகுக்கவும்:
 
 `javac `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.java</span>
 
-- ஒரு `.java` கோப்பை நிரல்மொழிமாற்றி, அதன் விளைவாக வரும் `.class` கோப்பை ஒரு குறிப்பிட்ட கோப்பகத்தில் வைக்கவும்:
+- ஒரு `.java` கோப்பை தொகுத்து அதன் விளைவாக வரும் கிளாஸ் கோப்பை ஒரு குறிப்பிட்ட கோப்பகத்தில் வைக்கவும்:
 
-`javac -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்புறையை/குறிவைக்கும்/பாதை</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.java</span>
+`javac -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அடைவிற்குப்/பாதை</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.java</span>
