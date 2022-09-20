@@ -2,13 +2,19 @@
 layout: page
 title: common/g++ (English)
 description: "Compiles C++ source files."
-content_hash: a555f3feb8d3e7bb9d151910bf86d2b88b56555e
+content_hash: 92984328ae8afd3c19b6561f9e18a87272761dc0
 related_topics:
   - title: Deutsch version
     url: /de/common/g++.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/g++.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/g++.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/g++.html
     icon: bi bi-globe
 ---
 # g++
@@ -32,3 +38,11 @@ More information: <https://gcc.gnu.org>.
 - Include libraries located at a different path than the source file:
 
 `g++ `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.cpp</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_executable</span>` -I`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/header</span>` -L`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/library</span>` -l`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">library_name</span>
+
+- Compile and link multiple source code files into an executable binary:
+
+`g++ -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source_1.cpp path/to/source_2.cpp ...</span>` && g++ -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_executable</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source_1.o path/to/source_2.o ...</span>
+
+- Display version:
+
+`g++ --version`

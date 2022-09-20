@@ -2,7 +2,7 @@
 layout: page
 title: common/cdk (English)
 description: "A CLI for AWS Cloud Development Kit (CDK)."
-content_hash: 005cbbb35d63291638ca19c78fe080babba4aac0
+content_hash: af2b98e45c7fa1c4f5f8c2c0ebd58b935b210bfc
 ---
 # cdk
 
@@ -35,4 +35,4 @@ More information: <https://docs.aws.amazon.com/cdk/latest/guide/cli.html>.
 
 - Open the CDK API reference in your browser:
 
-`cdk doc`
+`cdk docs`
