@@ -2,10 +2,13 @@
 layout: page
 title: common/ack (中文)
 description: "一个类似 grep 的搜索工具，为程序员优化。"
-content_hash: 0692f371696056c71542b4c463e9c4aa4e2314a1
+content_hash: 7229a6a4871c97d8f180b69494a4486d89502b74
 related_topics:
   - title: English version
     url: /en/common/ack.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/ack.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ack.html
@@ -29,32 +32,40 @@ related_topics:
     url: /ta/common/ack.html
     icon: bi bi-globe
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ack.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ack
+# ack
 
 一个类似 grep 的搜索工具，为程序员优化。
+另见 `rg`，它要快得多。
 更多信息：<https://beyondgrep.com/documentation>.
 
-- 寻找包含"小明"的文件：
+- 在当前目录下递归地搜索包含一个字符串或正则表达式的文件：
 
-`ack `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">小明</span>
+`ack "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`"`
 
-- 在给定文件类型中寻找包含"小明"的文件：
+- 不区分大小写搜索：
 
-`ack --ruby `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">小明</span>
+`ack --ignore-case "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`"`
 
-- 计算匹配到"小明"的总次数：
+- 搜索匹配模式的行，只打印匹配的文本，而不打印行的其他部分：
 
-`ack -ch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">小明</span>
+`ack -o "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`"`
 
-- 列出内容包含"小明"的文件的文件名，并显示在每个文件中匹配的次数：
+- 限制搜索特定类型的文件：
 
-`ack -cl `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">小明</span>
+`ack --type=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`"`
+
+- 不在特定类型的文件中搜索：
+
+`ack --type=no`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`"`
+
+- 计算找到的匹配文件的总数：
+
+`ack --count --no-filename "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`"`
+
+- 只打印文件名和每个文件的匹配数：
+
+`ack --count --files-with-matches "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`"`
+
+- 列出所有可与 `--type` 一起使用的值：
+
+`ack --help-types`
