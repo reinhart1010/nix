@@ -1,0 +1,37 @@
+---
+layout: page
+title: common/pulumi (English)
+description: "Define infrastructure on any cloud using familiar programming languages."
+content_hash: 2ed27e5dbd31dd61c4b59bfa4999bfcacf206c29
+---
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># pulumi
+
+Define infrastructure on any cloud using familiar programming languages.
+More information: <https://www.pulumi.com/docs/reference/cli>.
+
+- Create a new project using a template:
+
+`pulumi new`
+
+- Create a new stack using an isolated deployment target:
+
+`pulumi stack init`
+
+- Configure variables (e.g. keys, regions, etc.) interactively:
+
+`pulumi config`
+
+- Preview and deploy changes to a program and/or infrastructure:
+
+`pulumi up`
+
+- Preview deployment changes without performing them (dry-run):
+
+`pulumi preview`
+
+- Destroy a program and its infrastructure:
+
+`pulumi destroy`
