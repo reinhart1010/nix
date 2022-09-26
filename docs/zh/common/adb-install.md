@@ -2,7 +2,7 @@
 layout: page
 title: common/adb-install (中文)
 description: "安卓调试桥 -Install: 将应用安装包推送到 Android 模拟器或已连接的安卓设备。"
-content_hash: d29ff16c6b2a417ad1f04234640d0fbb8e2f0d9d
+content_hash: 6690a04c6d6a4e9b1611423daa692d485956f288
 related_topics:
   - title: English version
     url: /en/common/adb-install.html
@@ -26,7 +26,16 @@ related_topics:
     url: /ru/common/adb-install.html
     icon: bi bi-globe
 ---
-# adb install
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/adb-install.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># adb install
 
 安卓调试桥 -Install: 将应用安装包推送到 Android 模拟器或已连接的安卓设备。
 更多信息：<https://developer.android.com/studio/command-line/adb>.
@@ -35,9 +44,17 @@ related_topics:
 
 `adb install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/应用.apk</span>
 
+- 向特定的模拟器/设备推送安卓 app（覆盖 `$ANDROID_SERIAL`）：
+
+`adb -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">序列号</span>` install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/应用.apk</span>
+
 - 重装 app, 保持原有数据：
 
 `adb install -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/应用.apk</span>
+
+- 推送一个允许版本代码降级的安卓 app（仅适用于可调试的软件包）：
+
+`adb install -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/应用.apk</span>
 
 - 授予 app manifest 中列举的所有权限许可：
 
