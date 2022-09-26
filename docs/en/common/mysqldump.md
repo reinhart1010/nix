@@ -2,7 +2,7 @@
 layout: page
 title: common/mysqldump (English)
 description: "Backups MySQL databases."
-content_hash: bcfbfba484550bff4973cbafe0c9bbad33e6510d
+content_hash: 33a3a784489f7295e1798c3bee2384ba9815c74f
 related_topics:
   - title: español version
     url: /es/common/mysqldump.html
@@ -31,4 +31,4 @@ More information: <https://dev.mysql.com/doc/refman/en/mysqldump.html>.
 
 - Backup all databases from a remote host, redirecting the output to a file (user will be prompted for a password):
 
-`mysqldump --host={(ip_or_hostname)} --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span>` --password --all-databases > ({path/to/file.sql</span>
+`mysqldump --host=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_or_hostname</span>` --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span>` --password --all-databases > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sql</span>

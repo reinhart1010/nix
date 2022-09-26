@@ -2,7 +2,7 @@
 layout: page
 title: common/ctags (English)
 description: "Generates an index (or tag) file of language objects found in source files for many popular programming languages."
-content_hash: e59f4436b3e46e037a210443e1726ff7c8a2fedc
+content_hash: 0de3ae69cfa4e6c79afb46ce48ad0ac719734654
 ---
 # ctags
 
@@ -20,3 +20,7 @@ More information: <https://ctags.io/>.
 - Generate tags for all files in the current directory and all subdirectories:
 
 `ctags --recurse`
+
+- Generate tags for a single file, and output them with start line number and end line number in JSON format:
+
+`ctags --fields=+ne --output-format=json `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
