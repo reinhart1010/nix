@@ -2,7 +2,7 @@
 layout: page
 title: common/cd (English)
 description: "Change the current working directory."
-content_hash: 7a3edf8ba4f9fa7d16a4cc32d1124234404d652a
+content_hash: 0ea338e5907c447fca76471dfef17e58a9f8a7dc
 related_topics:
   - title: català version
     url: /ca/common/cd.html
@@ -46,6 +46,9 @@ related_topics:
   - title: svenska version
     url: /sv/common/cd.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/cd.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/cd.html
     icon: bi bi-globe
@@ -77,3 +80,7 @@ More information: <https://manned.org/cd>.
 - Go to the previously chosen directory:
 
 `cd -`
+
+- Go to the root directory:
+
+`cd /`
