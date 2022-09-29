@@ -1,0 +1,54 @@
+---
+layout: page
+title: common/docker-network (français)
+description: "Créer et gérer des réseaux Docker."
+content_hash: b29a3e3facd4070fc85c39ec235c67d3defc3ad1
+related_topics:
+  - title: Deutsch version
+    url: /de/common/docker-network.html
+    icon: bi bi-globe
+  - title: English version
+    url: /en/common/docker-network.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/common/docker-network.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/docker-network.html
+    icon: bi bi-globe
+---
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># docker network
+
+Créer et gérer des réseaux Docker.
+Plus d'informations : <https://docs.docker.com/engine/reference/commandline/network/>.
+
+- Lister tous les réseaux disponible et configuré du service Docker :
+
+`docker network ls`
+
+- Créer un réseau défini par l'utilisateur :
+
+`docker network create --driver `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_driver</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_reseau</span>
+
+- Afficher les informations détaillées des réseaux séparés par des espaces :
+
+`docker network inspect `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_reseau</span>
+
+- Connecter un conteneur à un réseau en utilisant un nom  ou  un ID :
+
+`docker network connect `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_reseau</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_conteneur|ID</span>
+
+- Déconnecter un conteneur d'un réseau en utilisant un nom ou un ID :
+
+`docker network disconnect `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_reseau</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_conteneur|ID</span>
+
+- Supprimer tous les réseaux non utilisés (non reliés à un conteneur) :
+
+`docker network prune`
+
+- Supprimer les réseaux séparés par des espaces :
+
+`docker network rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_reseau</span>
