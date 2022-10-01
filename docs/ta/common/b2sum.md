@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/b2sum (தமிழ்)
-description: "BLAKE2 மறையீட்டு சரிகாண்தொகையைக் கணி."
-content_hash: 13fec59da6c1d47b2017b2888a37130db69b689c
+description: "BLAKE2 கிரிப்டோகிராஃபிக் செக்ஸம்களைக் கணக்கிடவும்."
+content_hash: bb7d4556d2d44091d215120cd4a00c1281e2f36e
 related_topics:
   - title: English version
     url: /en/common/b2sum.html
@@ -16,21 +16,29 @@ related_topics:
 ---
 # b2sum
 
-BLAKE2 மறையீட்டு சரிகாண்தொகையைக் கணி.
+BLAKE2 கிரிப்டோகிராஃபிக் செக்ஸம்களைக் கணக்கிடவும்.
 மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/b2sum>.
 
-- கோப்பின் BLAKE2 சரிகாண்தொகையைக் கணி:
+- ஒரு கோப்பிற்கான BLAKE2 செக்சம் கணக்கிடவும்:
 
-`b2sum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு</span>
+`b2sum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு</span>
 
-- பலக் கோப்புகளின் BLAKE2 சரிகாண்தொகையைக் கணி:
+- பல கோப்புகளுக்கான BLAKE2 செக்சம்களைக் கணக்கிடவும்:
 
-`b2sum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு2</span>
+`b2sum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு2</span>
 
-- BLAKE2 சரிகாண்தொகைகளுடைய கோப்பைப் படித்து கோப்புகளைச் சரிபார்:
+- stdin இலிருந்து BLAKE2 செக்சம் கணக்கிடவும்:
 
-`b2sum -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.b2</span>
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">சில_கட்டளை</span>` | b2sum`
 
-- இயல் உள்ளீட்டின் BLAKE2 சரிகாண்தொகையைக் கணி:
+- BLAKE2 தொகைகள் மற்றும் கோப்புப்பெயர்களின் கோப்பைப் படித்து, எல்லா கோப்புகளிலும் செக்சம்கள் பொருந்துகின்றன என்பதைச் சரிபார்க்கவும்:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கட்டளை</span>` | b2sum`
+`b2sum --check `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு.b2</span>
+
+- விடுபட்ட கோப்புகள் அல்லது சரிபார்ப்பு தோல்வியுற்றால் மட்டுமே செய்தியைக் காட்டவும்:
+
+`b2sum --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு.b2</span>
+
+- விடுபட்ட கோப்புகளைப் புறக்கணித்து, சரிபார்ப்பு தோல்வியுற்ற கோப்புகளுக்கான செய்தியை மட்டும் காட்டவும்:
+
+`b2sum --ignore-missing --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு.b2</span>

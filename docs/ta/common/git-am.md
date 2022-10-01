@@ -2,7 +2,7 @@
 layout: page
 title: common/git-am (தமிழ்)
 description: "பேட்ச் கோப்புகளைப் பயன்படுத்துங்கள். மின்னஞ்சல் வழியாக கமிட் பெறும்போது பயனுள்ளதாக இருக்கும்."
-content_hash: c5db732faad5586de4c9e7b2142f4bcdcaaa80ac
+content_hash: 657e67309b847026d92a49235053324af6a9765e
 related_topics:
   - title: Deutsch version
     url: /de/common/git-am.html
@@ -31,7 +31,7 @@ related_topics:
 
 - பேட்ச் கோப்பைப் பயன்படுத்துங்கள்:
 
-`git am `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்புக்கான/பாதை/கோப்பு.patch</span>
+`git am `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு.patch</span>
 
 - பேட்ச் கோப்பைப் பயன்படுத்துவதற்கான செயல்முறையை நிறுத்தவும்:
 
@@ -39,4 +39,4 @@ related_topics:
 
 - கோப்புகளை நிராகரிக்க தோல்வியுற்ற ஹன்களை சேமித்து, முடிந்தவரை ஒரு பேட்ச் கோப்பைப் பயன்படுத்துங்கள்:
 
-`git am --reject `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்புக்கான/பாதை/கோப்பு.patch</span>
+`git am --reject `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு.patch</span>

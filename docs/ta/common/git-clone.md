@@ -2,7 +2,7 @@
 layout: page
 title: common/git-clone (தமிழ்)
 description: "ஏற்கனவே உள்ள ஒரு களஞ்சியத்தை குளோன் செய்யுங்கள்."
-content_hash: 8934b30afac5a8276234680c1ecb7524845ade12
+content_hash: 3ffaaf927bbc11551812168fb1b91f895b83b89b
 related_topics:
   - title: Deutsch version
     url: /de/common/git-clone.html
@@ -22,20 +22,17 @@ related_topics:
   - title: italiano version
     url: /it/common/git-clone.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-clone.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-clone.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/git-clone.html
+    icon: bi bi-globe
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-clone.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git clone
+# git clone
 
 ஏற்கனவே உள்ள ஒரு களஞ்சியத்தை குளோன் செய்யுங்கள்.
 மேலும் விவரத்திற்கு: <https://git-scm.com/docs/git-clone>.
@@ -43,6 +40,10 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 - ஏற்கனவே உள்ள ஒரு களஞ்சியத்தை குளோன் செய்யுங்கள்:
 
 `git clone `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தொலை_களஞ்சிய_இடம்</span>
+
+- ஏற்கனவே உள்ள களஞ்சியத்தை ஒரு குறிப்பிட்ட கோப்பகத்தில் குளோன் செய்யுங்கள்:
+
+`git clone `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தொலை_களஞ்சிய_இடம்</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அடைவிற்குப்/பாதை</span>
 
 - இருக்கும் களஞ்சியத்தையும் அதன் துணை தொகுதிகளையும் குளோன் செய்யுங்கள்:
 
@@ -59,3 +60,11 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 - இயல்புநிலை கிளையில் மிகச் சமீபத்திய 10 கமிட்டுகளை மட்டுமே பெறும் களஞ்சியத்தை குளோன் செய்யுங்கள் (நேரத்தைச் சேமிக்க பயனுள்ளதாக இருக்கும்):
 
 `git clone --depth `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தொலை_களஞ்சிய_இடம்</span>
+
+- ஏற்கனவே உள்ள களஞ்சியத்தை குளோன் செய்து ஒரு குறிப்பிட்ட கிளையை மட்டும் பெறுங்கள்:
+
+`git clone --branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பெயர்</span>` --single-branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தொலை_களஞ்சிய_இடம்</span>
+
+- ஒரு குறிப்பிட்ட SSH கட்டளையைப் பயன்படுத்தி ஏற்கனவே உள்ள களஞ்சியத்தை குளோன் செய்யவும்:
+
+`git clone --config core.sshCommand="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh -i பாதை/டு/தனியார்_ssh_key</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தொலை_களஞ்சிய_இடம்</span>

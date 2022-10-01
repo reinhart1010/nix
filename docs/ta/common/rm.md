@@ -2,7 +2,7 @@
 layout: page
 title: common/rm (தமிழ்)
 description: "கோப்புகளையோ அடைவுகளையோ அழி."
-content_hash: 4cd81b6b49fc435780f8e1a5563676d9a85804a6
+content_hash: cddb9c94bcdc5a2f6a23d44179a7fdaf8d083aa9
 related_topics:
   - title: English version
     url: /en/common/rm.html
@@ -25,6 +25,9 @@ related_topics:
   - title: svenska version
     url: /sv/common/rm.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/rm.html
+    icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/rm.html
     icon: bi bi-globe
@@ -36,7 +39,7 @@ related_topics:
 
 - கோப்புகளை அழி:
 
-`rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பொன்றிற்குப்/பாதை</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பின்னொன்றிற்குப்/பாதை</span>
+`rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/மற்றொரு/கோப்பு</span>
 
 - அடைவொன்றையும் அதில் உள்ளடங்கிய அனைத்தையும் தற்சுருளாக அழி:
 

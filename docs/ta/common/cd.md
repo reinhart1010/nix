@@ -2,7 +2,7 @@
 layout: page
 title: common/cd (தமிழ்)
 description: "தற்போதைய வேலை கோப்பகத்தை மாற்றவும்."
-content_hash: 33b06102b10014c065176b9efd28e170385c84d7
+content_hash: fc3a862aa110b06c37a06d7c431f7e4151f4cb2d
 related_topics:
   - title: català version
     url: /ca/common/cd.html
@@ -56,14 +56,23 @@ related_topics:
     url: /zh_TW/common/cd.html
     icon: bi bi-globe
 ---
-# cd
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/cd.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># cd
 
 தற்போதைய வேலை கோப்பகத்தை மாற்றவும்.
 மேலும் விவரத்திற்கு: <https://manned.org/cd>.
 
 - குறிப்பிட்ட கோப்பகத்திற்குச் செல்லவும்:
 
-`cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அடைவு</span>
+`cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அடைவிற்குப்/பாதை</span>
 
 - தற்போதைய கோப்பகத்தின் பெற்றோருக்குச் செல்லவும்:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/git-annex (தமிழ்)
 description: "கோப்புகளை அவற்றின் உள்ளடக்கங்களை சரிபார்க்காமல், ஜிட் மூலம் நிர்வகிக்கவும்."
-content_hash: bfda3d132d8959279a9d44c10b4736ffbcd4cd83
+content_hash: bd7f3f50717bf28ed7ddc353cbc9f007f8a03127
 related_topics:
   - title: English version
     url: /en/common/git-annex.html
@@ -30,11 +30,11 @@ related_topics:
 
 - ஒரு கோப்பைச் சேர்க்கவும்:
 
-`git annex add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு_அல்லது_கோப்பகத்திற்கான/பாதை</span>
+`git annex add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு_அல்லது_அடைவு</span>
 
 - ஒரு கோப்பு அல்லது கோப்பகத்தின் தற்போதைய நிலையைக் காட்டு:
 
-`git annex status `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு_அல்லது_கோப்பகத்திற்கான/பாதை</span>
+`git annex status `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு_அல்லது_அடைவு</span>
 
 - தொலைநிலையுடன் உள்ளூர் களஞ்சியத்தை ஒத்திசைக்கவும்:
 
@@ -42,4 +42,4 @@ related_topics:
 
 - ஒரு கோப்பு அல்லது கோப்பகத்தைப் பெறுங்கள்:
 
-`git annex get `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு_அல்லது_கோப்பகத்திற்கான/பாதை</span>
+`git annex get `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு_அல்லது_அடைவு</span>

@@ -2,7 +2,7 @@
 layout: page
 title: common/pyenv (中文)
 description: "在多个 Python 版本之间轻松切换。"
-content_hash: e78aa6e1b513346c7f730ee528cdfe4af23d175e
+content_hash: 38be409c2445156f0073e7fa6f210df6bc73db3e
 related_topics:
   - title: English version
     url: /en/common/pyenv.html
@@ -23,6 +23,10 @@ related_topics:
 - 列出 `${PYENV_ROOT}/versions` 目录下的所有 Python 版本：
 
 `pyenv versions`
+
+- 列出所有可以从上游安装的 Python 版本：
+
+`pyenv install --list`
 
 - 在 `${PYENV_ROOT}/versions` 目录下安装一个 Python 版本：
 

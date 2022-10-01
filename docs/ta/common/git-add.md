@@ -2,7 +2,7 @@
 layout: page
 title: common/git-add (தமிழ்)
 description: "மாற்றப்பட்ட கோப்புகளை குறியீட்டில் சேர்க்கிறது."
-content_hash: 0ca9cb4f00856e239dd6f256081778cfd5c1fee3
+content_hash: 8096d70cec115cc94942e528ca521b7373691e99
 related_topics:
   - title: Deutsch version
     url: /de/common/git-add.html
@@ -22,6 +22,9 @@ related_topics:
   - title: italiano version
     url: /it/common/git-add.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-add.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-add.html
     icon: bi bi-globe
@@ -39,7 +42,7 @@ related_topics:
 
 - குறியீட்டில் ஒரு கோப்பைச் சேர்க்க:
 
-`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்புக்கான/பாதை</span>
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு</span>
 
 - எல்லா கோப்புகளையும் சேர்க்கவும் (கண்காணிக்கப்பட்ட மற்றும் தடமறியப்படாத):
 
@@ -59,7 +62,7 @@ related_topics:
 
 - கொடுக்கப்பட்ட கோப்பின் ஊடாடும் கட்ட பாகங்கள் சேர்க்கவும்:
 
-`git add -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்புக்கான/பாதை</span>
+`git add -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு</span>
 
 - ஒரு கோப்பை ஊடாடும் வகையில் சேர்க்கவும்:
 

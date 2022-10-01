@@ -2,7 +2,7 @@
 layout: page
 title: common/git-branch (தமிழ்)
 description: "கிளைகளுடன் வேலை செய்வதற்கான பிரதான கிட் கட்டளை."
-content_hash: f63e6f0c61aaaf2477fae2e72b849c6de4012bbe
+content_hash: 6aab5055315b215709e5acec6855a2be6ab43a57
 related_topics:
   - title: Deutsch version
     url: /de/common/git-branch.html
@@ -31,13 +31,13 @@ related_topics:
 கிளைகளுடன் வேலை செய்வதற்கான பிரதான கிட் கட்டளை.
 மேலும் விவரத்திற்கு: <https://git-scm.com/docs/git-branch>.
 
-- கணினியில் உள்ள அனைத்து கிளைகளையும் பட்டியலிடுங்கள். தற்போதைய கிளை `*` ஆல் சிறப்பிக்கப்படுகிறது:
+- அனைத்து கிளைகளையும் பட்டியலிடுங்கள் (உள்ளூர் மற்றும் தொலைதூர; தற்போதைய கிளை `*` மூலம் சிறப்பிக்கப்படுகிறது):
 
-`git branch`
+`git branch --all`
 
-- அனைத்து கிளைகளையும் பட்டியலிடுங்கள் (கணினி மற்றும் தொலை களஞ்சியங்களில்):
+- எந்தெந்த கிளைகள் தங்கள் வரலாற்றில் குறிப்பிட்ட Git கமிட்டை உள்ளடக்கியிருக்கின்றன என்பதை பட்டியலிடுங்கள்:
 
-`git branch -a`
+`git branch --all --contains `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கமிட்_ஹாஷ்</span>
 
 - தற்போதைய கிளையின் பெயரைக் காட்டு:
 

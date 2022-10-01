@@ -2,7 +2,7 @@
 layout: page
 title: common/mv (தமிழ்)
 description: "கோப்புகளையோ அடைவுகளையோ நகர்த்து அல்லது மறுபெயரிடு."
-content_hash: 3f5e3eaa65a35cdeaf9567c3fd381f14a5f8a6f7
+content_hash: 1c6a7024747d391c1f6e40a0708796f4ff0470a4
 related_topics:
   - title: Deutsch version
     url: /de/common/mv.html
@@ -22,17 +22,11 @@ related_topics:
   - title: italiano version
     url: /it/common/mv.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/mv.html
+    icon: bi bi-globe
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/mv.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mv
+# mv
 
 கோப்புகளையோ அடைவுகளையோ நகர்த்து அல்லது மறுபெயரிடு.
 மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/mv>.
@@ -40,6 +34,10 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 - கோப்பை ஓரிடத்திலிருந்து இன்னோரிடத்திற்கு நகர்த்து:
 
 `mv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">மூலப்பாதை</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">குறிபாதை</span>
+
+- கோப்பு பெயர்களை வைத்து, கோப்புகளை மற்றொரு கோப்பகத்திற்கு நகர்த்தவும்:
+
+`mv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">மூலப்பாதை1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">மூலப்பாதை2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">மூலப்பாதை3</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">இலக்கு_கோப்பகம்</span>
 
 - ஏற்கனவே இருக்கும் கோப்புகள் மேலெழுதும் முன் உறுதிப்படுத்தாதே:
 
