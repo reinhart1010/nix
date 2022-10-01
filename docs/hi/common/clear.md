@@ -2,7 +2,7 @@
 layout: page
 title: common/clear (हिन्दी)
 description: "टर्मिनल की स्क्रीन साफ़ करें।"
-content_hash: ea832a1d3d5281be4cdafcb59c4403737b06ffdb
+content_hash: 9fb262fc7994a70dfd3f788defdf124f14ce695d
 related_topics:
   - title: Deutsch version
     url: /de/common/clear.html
@@ -42,7 +42,7 @@ related_topics:
 
 `clear -x`
 
-- साफ करने के लिए टर्मिनल के प्रकार को इंगित करें (डिफॉल्ट रूप से एनवायरमेंटल वरीबल `TERM` का मूल्य):
+- साफ करने के लिए टर्मिनल के प्रकार को इंगित करें (डिफॉल्ट रूप से एनवायरमेंट वेरिएबल `TERM` का मूल्य):
 
 `clear -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">टर्मिनल_का_प्रकार</span>
 
