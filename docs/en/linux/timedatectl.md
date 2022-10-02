@@ -2,7 +2,7 @@
 layout: page
 title: linux/timedatectl (English)
 description: "Control the system time and date."
-content_hash: 19373646a1ab959b0855d31d2d017d23d9b75499
+content_hash: b20af1c4bde2c36431669042ef3e27e8bc365405
 ---
 # timedatectl
 
@@ -28,3 +28,7 @@ More information: <https://manned.org/timedatectl>.
 - Enable Network Time Protocol (NTP) synchronization:
 
 `timedatectl set-ntp on`
+
+- Change the hardware clock time standard to localtime:
+
+`timedatectl set-local-rtc 1`
