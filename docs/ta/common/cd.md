@@ -2,7 +2,7 @@
 layout: page
 title: common/cd (தமிழ்)
 description: "தற்போதைய வேலை கோப்பகத்தை மாற்றவும்."
-content_hash: fc3a862aa110b06c37a06d7c431f7e4151f4cb2d
+content_hash: e007df87883db33db9e9baf2a25019d94e0a9244
 related_topics:
   - title: català version
     url: /ca/common/cd.html
@@ -89,3 +89,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 - முன்பு தேர்ந்தெடுக்கப்பட்ட கோப்பகத்திற்குச் செல்லவும்:
 
 `cd -`
+
+- ரூட் கோப்பகத்திற்குச் செல்லவும்:
+
+`cd /`
