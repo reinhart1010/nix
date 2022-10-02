@@ -2,7 +2,7 @@
 layout: page
 title: common/platformio (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `pio`."
-content_hash: 8cbb07558085e1e2e15ca0b12d173cc617dbbd69
+content_hash: 52b652d86bc182ce19cd31f8daf53bff4bd56d9d
 related_topics:
   - title: bosanski version
     url: /bs/common/platformio.html
@@ -68,7 +68,7 @@ related_topics:
 # platformio
 
 คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `pio`.
-ดูเพิ่มเติม: <https://docs.platformio.org/en/latest/core/userguide/>.
+ข้อมูลเพิ่มเติม: <https://docs.platformio.org/en/latest/core/userguide/>.
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 

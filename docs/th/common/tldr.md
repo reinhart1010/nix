@@ -2,7 +2,7 @@
 layout: page
 title: common/tldr (ไทย)
 description: "แสดงตัวอย่างแบบง่ายสำหรับเครื่องมือบน command-line จากโปรเจคท์ tldr-pages."
-content_hash: 8f1a5318096b6564126eda7f12d50ddb1ef26dc8
+content_hash: 0b8c3af65546dc8439bd1e7358286b5e131a93a5
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
@@ -47,7 +47,7 @@ related_topics:
 # tldr
 
 แสดงตัวอย่างแบบง่ายสำหรับเครื่องมือบน command-line จากโปรเจคท์ tldr-pages.
-ดูเพิ่มเติม: <https://tldr.sh>.
+ข้อมูลเพิ่มเติม: <https://tldr.sh>.
 
 - แสดงตัวอย่างการใช้งานคำสั่งที่ใช้บ่อย (บอกใบ้นิดนึง: นี่คือเหตุผลที่คุณสนใจใช้บริการของเราใช่ไหมล่ะ!):
 

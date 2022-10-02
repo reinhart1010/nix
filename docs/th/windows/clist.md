@@ -2,7 +2,7 @@
 layout: page
 title: windows/clist (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `choco list`."
-content_hash: 52c4e444524c4b3d1a9b0c3b9f4ce987939d9016
+content_hash: c324f00049ce42c39a790e3182f91b3d499626b0
 related_topics:
   - title: bosanski version
     url: /bs/windows/clist.html
@@ -68,7 +68,7 @@ related_topics:
 # clist
 
 คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `choco list`.
-ดูเพิ่มเติม: <https://docs.chocolatey.org/en-us/choco/commands/list>.
+ข้อมูลเพิ่มเติม: <https://docs.chocolatey.org/en-us/choco/commands/list>.
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 

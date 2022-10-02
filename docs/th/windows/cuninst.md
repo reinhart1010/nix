@@ -2,7 +2,7 @@
 layout: page
 title: windows/cuninst (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `choco uninstall`."
-content_hash: 1e0e236a6700d9afafd484158f01725b93590f27
+content_hash: fd4278300e7894a61e3967fe1aba21856bd1161f
 related_topics:
   - title: bosanski version
     url: /bs/windows/cuninst.html
@@ -68,7 +68,7 @@ related_topics:
 # cuninst
 
 คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `choco uninstall`.
-ดูเพิ่มเติม: <https://docs.chocolatey.org/en-us/choco/commands/uninstall>.
+ข้อมูลเพิ่มเติม: <https://docs.chocolatey.org/en-us/choco/commands/uninstall>.
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 

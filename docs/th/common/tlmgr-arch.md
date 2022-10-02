@@ -2,7 +2,7 @@
 layout: page
 title: common/tlmgr-arch (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `tlmgr platform`."
-content_hash: 0bb06f27e53403166ee8c35c1de4f582f225691c
+content_hash: efad49524f94338c496d942e90b3da5e4c459a7d
 related_topics:
   - title: bosanski version
     url: /bs/common/tlmgr-arch.html
@@ -68,7 +68,7 @@ related_topics:
 # tlmgr-arch
 
 คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `tlmgr platform`.
-ดูเพิ่มเติม: <https://www.tug.org/texlive/tlmgr.html>.
+ข้อมูลเพิ่มเติม: <https://www.tug.org/texlive/tlmgr.html>.
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 

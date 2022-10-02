@@ -2,7 +2,7 @@
 layout: page
 title: common/mscore (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `musescore`."
-content_hash: e0625b9783581ba6749c8da18f02b5dde01a44e4
+content_hash: 34b96df9889d97b970ec33c442a7f29aadefabf3
 related_topics:
   - title: bosanski version
     url: /bs/common/mscore.html
@@ -68,7 +68,7 @@ related_topics:
 # mscore
 
 คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `musescore`.
-ดูเพิ่มเติม: <https://musescore.org/handbook/command-line-options>.
+ข้อมูลเพิ่มเติม: <https://musescore.org/handbook/command-line-options>.
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 

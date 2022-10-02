@@ -2,7 +2,7 @@
 layout: page
 title: common/join (English)
 description: "Join lines of two sorted files on a common field."
-content_hash: 41eee13bc73e2beeb4e5fa2e29de178a7ae03fe2
+content_hash: 4ce8f8db5046ead3204c5dcd8fc5d62e46fae4f4
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/join.html
@@ -28,3 +28,7 @@ More information: <https://www.gnu.org/software/coreutils/join>.
 - Produce a line for each unpairable line for file1:
 
 `join -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file2</span>
+
+- Join a file from stdin:
+
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` | join - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>
