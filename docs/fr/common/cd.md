@@ -2,7 +2,7 @@
 layout: page
 title: common/cd (français)
 description: "Modifie le répertoire de travail actuel."
-content_hash: 179f869e9e1a341c6eabd3c6a18e8d1fcc674c26
+content_hash: c130624bda266904462a6de51a3821e7697f4f40
 related_topics:
   - title: català version
     url: /ca/common/cd.html
@@ -89,3 +89,7 @@ Plus d'informations : <https://manned.org/cd>.
 - Retourne au répertoire précédent :
 
 `cd -`
+
+- Se déplace vers le répertoire racine :
+
+`cd /`

@@ -2,7 +2,7 @@
 layout: page
 title: common/tlmgr-arch (中文 (繁體, 台灣))
 description: "這是 `tlmgr platform` 命令的一個別名。"
-content_hash: 043e660cfd70947528950a2964c2114c6ab54f39
+content_hash: 87d66b6ea638f3f0306c7ee9fcb8359539944e28
 related_topics:
   - title: bosanski version
     url: /bs/common/tlmgr-arch.html
@@ -70,6 +70,6 @@ related_topics:
 這是 `tlmgr platform` 命令的一個別名。
 更多資訊：<https://www.tug.org/texlive/tlmgr.html>.
 
-- 原命令的文檔在：
+- 原命令的文件在：
 
 `tldr tlmgr platform`

@@ -2,7 +2,7 @@
 layout: page
 title: common/llvm-g++ (中文 (繁體, 台灣))
 description: "這是 `clang++` 命令的一個別名。"
-content_hash: 99c5dd5c449caa4f879db0c56f518462bd95f020
+content_hash: 3a372800995e2d3713223503923fb42acbbbe16c
 related_topics:
   - title: bosanski version
     url: /bs/common/llvm-g++.html
@@ -69,6 +69,6 @@ related_topics:
 
 這是 `clang++` 命令的一個別名。
 
-- 原命令的文檔在：
+- 原命令的文件在：
 
 `tldr clang++`

@@ -2,7 +2,7 @@
 layout: page
 title: windows/cls (ไทย)
 description: "ล้างตัวอักษรทั้งหมดที่อยู่บนหน้าต่าง"
-content_hash: 6d8d317bbead67edb4b437a5a86b349783d38974
+content_hash: 30f85bd24823a6c6fcfbe97c6f076f428a6e35a9
 related_topics:
   - title: English version
     url: /en/windows/cls.html
@@ -29,13 +29,10 @@ related_topics:
     url: /zh_TW/windows/cls.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cls
+# cls
 
 ล้างตัวอักษรทั้งหมดที่อยู่บนหน้าต่าง
-ข้อมูเพิ่มเติม: https://learn.microsoft.com/windows-server/administration/windows-commands/cls
+ข้อมูลเพิ่มเติม: https://learn.microsoft.com/windows-server/administration/windows-commands/cls
 
 - ล้างตัวอักษรทั้งหมดบนหน้าจอ
 

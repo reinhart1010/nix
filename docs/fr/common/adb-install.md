@@ -2,7 +2,7 @@
 layout: page
 title: common/adb-install (français)
 description: "Android Debug Bridge Install: Pousse des paquets vers une instance d'émulateur Android ou un appareil Android."
-content_hash: 8be4979a6231d403f2e4e2d82c01c500b1c3b614
+content_hash: c8e5c9aeb8f74bcf8e37a3e6f9351467ef687c74
 related_topics:
   - title: English version
     url: /en/common/adb-install.html
@@ -27,7 +27,13 @@ related_topics:
     icon: bi bi-globe
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/adb-install.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># adb install
 
@@ -41,6 +47,10 @@ Plus d'informations : <https://developer.android.com/studio/command-line/adb>.
 - Réinstalle une application existante, tout en gardant ses données :
 
 `adb install -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/fichier.apk</span>
+
+- Pousse une application Android en autorisant la rétrogradation de version (uniquement pour les paquets debuggable) :
+
+`adb install -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/fichier.apk</span>
 
 - Accorde toutes les permissions listées dans le manifeste de l'application :
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/llvm-gcc (中文 (繁體, 台灣))
 description: "這是 `clang` 命令的一個別名。"
-content_hash: 4c16b278430613af4e1a2f3ddde818bac31d4ca9
+content_hash: 875254de6bc5ce1dd51f3cd57c4153b34bd0c20d
 related_topics:
   - title: bosanski version
     url: /bs/common/llvm-gcc.html
@@ -69,6 +69,6 @@ related_topics:
 
 這是 `clang` 命令的一個別名。
 
-- 原命令的文檔在：
+- 原命令的文件在：
 
 `tldr clang`

@@ -2,7 +2,7 @@
 layout: page
 title: common/mscore (中文 (繁體, 台灣))
 description: "這是 `musescore` 命令的一個別名。"
-content_hash: 3226aed7dc2165ba7fdc6f0ba5cee7233cfe2b04
+content_hash: cdabb6519a6fb335699acb5bf0cab4ef21bd3b5a
 related_topics:
   - title: bosanski version
     url: /bs/common/mscore.html
@@ -70,6 +70,6 @@ related_topics:
 這是 `musescore` 命令的一個別名。
 更多資訊：<https://musescore.org/handbook/command-line-options>.
 
-- 原命令的文檔在：
+- 原命令的文件在：
 
 `tldr musescore`

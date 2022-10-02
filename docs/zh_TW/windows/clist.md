@@ -2,7 +2,7 @@
 layout: page
 title: windows/clist (中文 (繁體, 台灣))
 description: "這是 `choco list` 命令的一個別名。"
-content_hash: 47b5e0150c817dd77937c0dd75b4f14081140209
+content_hash: 130093cae15c85c8ce7af05e72cb402d58b4b23c
 related_topics:
   - title: bosanski version
     url: /bs/windows/clist.html
@@ -70,6 +70,6 @@ related_topics:
 這是 `choco list` 命令的一個別名。
 更多資訊：<https://docs.chocolatey.org/en-us/choco/commands/list>.
 
-- 原命令的文檔在：
+- 原命令的文件在：
 
 `tldr choco list`

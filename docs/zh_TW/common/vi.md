@@ -2,7 +2,7 @@
 layout: page
 title: common/vi (中文 (繁體, 台灣))
 description: "這是 `vim` 命令的一個別名。"
-content_hash: 70ea87987fccad7a18bef66420b9e7765cb123d3
+content_hash: fa89532ace0eeec490856c21cbb8b4b888443b3a
 related_topics:
   - title: bosanski version
     url: /bs/common/vi.html
@@ -69,6 +69,6 @@ related_topics:
 
 這是 `vim` 命令的一個別名。
 
-- 原命令的文檔在：
+- 原命令的文件在：
 
 `tldr vim`

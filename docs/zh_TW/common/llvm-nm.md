@@ -2,7 +2,7 @@
 layout: page
 title: common/llvm-nm (中文 (繁體, 台灣))
 description: "這是 `nm` 命令的一個別名。"
-content_hash: 27146d04b615d8e35607f6c437b6de5a5a5ffc89
+content_hash: 73b95fd88a3264e09509ed9070fdfd94d32af2c7
 related_topics:
   - title: bosanski version
     url: /bs/common/llvm-nm.html
@@ -69,6 +69,6 @@ related_topics:
 
 這是 `nm` 命令的一個別名。
 
-- 原命令的文檔在：
+- 原命令的文件在：
 
 `tldr nm`

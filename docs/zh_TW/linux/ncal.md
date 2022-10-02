@@ -2,7 +2,7 @@
 layout: page
 title: linux/ncal (中文 (繁體, 台灣))
 description: "這是 `cal` 命令的一個別名。"
-content_hash: c72c6715d3e35de2a5d9b42b3421f9815f1b61f8
+content_hash: a0d6d2a44c3217cf83ca1d8d2da34ad47cc10499
 related_topics:
   - title: bosanski version
     url: /bs/linux/ncal.html
@@ -73,6 +73,6 @@ related_topics:
 這是 `cal` 命令的一個別名。
 更多資訊：<https://manned.org/ncal>.
 
-- 原命令的文檔在：
+- 原命令的文件在：
 
 `tldr cal`

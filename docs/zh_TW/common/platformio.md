@@ -2,7 +2,7 @@
 layout: page
 title: common/platformio (中文 (繁體, 台灣))
 description: "這是 `pio` 命令的一個別名。"
-content_hash: 84dbaa766b238f30d00abb50c2ad4226e182eb2c
+content_hash: fd855fd714a7073ada49efa659aa256d19ed99d5
 related_topics:
   - title: bosanski version
     url: /bs/common/platformio.html
@@ -70,6 +70,6 @@ related_topics:
 這是 `pio` 命令的一個別名。
 更多資訊：<https://docs.platformio.org/en/latest/core/userguide/>.
 
-- 原命令的文檔在：
+- 原命令的文件在：
 
 `tldr pio`

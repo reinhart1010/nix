@@ -2,7 +2,7 @@
 layout: page
 title: common/pio-init (中文 (繁體, 台灣))
 description: "這是 `pio project` 命令的一個別名。"
-content_hash: ac223ad2db8391bb148372936d42b661a1022893
+content_hash: b16fbd5fc4c7517203cbd59e637d3bfa2408cb95
 related_topics:
   - title: bosanski version
     url: /bs/common/pio-init.html
@@ -69,6 +69,6 @@ related_topics:
 
 這是 `pio project` 命令的一個別名。
 
-- 原命令的文檔在：
+- 原命令的文件在：
 
 `tldr pio project`

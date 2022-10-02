@@ -2,7 +2,7 @@
 layout: page
 title: common/llvm-objdump (中文 (繁體, 台灣))
 description: "這是 `objdump` 命令的一個別名。"
-content_hash: 780e38a20f988f033bac7b78eaa46f0cd2e0aab6
+content_hash: 51b1389ac63bc6ce5eaca18bf48fb5df09927555
 related_topics:
   - title: bosanski version
     url: /bs/common/llvm-objdump.html
@@ -69,6 +69,6 @@ related_topics:
 
 這是 `objdump` 命令的一個別名。
 
-- 原命令的文檔在：
+- 原命令的文件在：
 
 `tldr objdump`

@@ -2,7 +2,7 @@
 layout: page
 title: common/clang-cpp (中文 (繁體, 台灣))
 description: "這是 `clang++` 命令的一個別名。"
-content_hash: ab51d5fa64667e9377efad9ffc9b176f19d9a7e8
+content_hash: 2b446b785dff77947dac7c8ccdb741ae118d262f
 related_topics:
   - title: bosanski version
     url: /bs/common/clang-cpp.html
@@ -69,6 +69,6 @@ related_topics:
 
 這是 `clang++` 命令的一個別名。
 
-- 原命令的文檔在：
+- 原命令的文件在：
 
 `tldr clang++`

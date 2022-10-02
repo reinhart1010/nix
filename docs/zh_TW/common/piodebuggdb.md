@@ -2,7 +2,7 @@
 layout: page
 title: common/piodebuggdb (中文 (繁體, 台灣))
 description: "這是 `pio debug` 命令的一個別名。"
-content_hash: 605ff159ea9326d2839791f538ee88512d3e07ee
+content_hash: 7607e6682d097b898f4ff22f69e84b70df8f4474
 related_topics:
   - title: bosanski version
     url: /bs/common/piodebuggdb.html
@@ -69,6 +69,6 @@ related_topics:
 
 這是 `pio debug` 命令的一個別名。
 
-- 原命令的文檔在：
+- 原命令的文件在：
 
 `tldr pio debug`

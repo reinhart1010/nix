@@ -2,7 +2,7 @@
 layout: page
 title: common/clojure (中文 (繁體, 台灣))
 description: "這是 `clj` 命令的一個別名。"
-content_hash: 589af7da97779f805d2b0ebc893a88211302829a
+content_hash: f4ea00b4521c461665a8689c0cb0c9358b02eb1f
 related_topics:
   - title: bosanski version
     url: /bs/common/clojure.html
@@ -69,6 +69,6 @@ related_topics:
 
 這是 `clj` 命令的一個別名。
 
-- 原命令的文檔在：
+- 原命令的文件在：
 
 `tldr clj`

@@ -2,7 +2,7 @@
 layout: page
 title: common/llvm-ar (中文 (繁體, 台灣))
 description: "這是 `ar` 命令的一個別名。"
-content_hash: e5365b2ec6f8708e932dc6d85cf4a52d44437c73
+content_hash: ff708d2d570d979bd7bb6ca04595e8057f8a31c1
 related_topics:
   - title: bosanski version
     url: /bs/common/llvm-ar.html
@@ -69,6 +69,6 @@ related_topics:
 
 這是 `ar` 命令的一個別名。
 
-- 原命令的文檔在：
+- 原命令的文件在：
 
 `tldr ar`

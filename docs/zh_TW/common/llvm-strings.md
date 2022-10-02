@@ -2,7 +2,7 @@
 layout: page
 title: common/llvm-strings (中文 (繁體, 台灣))
 description: "這是 `strings` 命令的一個別名。"
-content_hash: 160b935229c5619032f4e125143d1fb6c5a141a0
+content_hash: 55cd35ff778553331ad5b683c76558cfa5d12ebe
 related_topics:
   - title: bosanski version
     url: /bs/common/llvm-strings.html
@@ -69,6 +69,6 @@ related_topics:
 
 這是 `strings` 命令的一個別名。
 
-- 原命令的文檔在：
+- 原命令的文件在：
 
 `tldr strings`

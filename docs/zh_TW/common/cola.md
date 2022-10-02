@@ -2,7 +2,7 @@
 layout: page
 title: common/cola (中文 (繁體, 台灣))
 description: "這是 `git-cola` 命令的一個別名。"
-content_hash: aa9f6c00cac718731611d48da060965df3233480
+content_hash: 49e3ce34cc293f404aa1f739cae30a5bbe716a62
 related_topics:
   - title: bosanski version
     url: /bs/common/cola.html
@@ -69,6 +69,6 @@ related_topics:
 
 這是 `git-cola` 命令的一個別名。
 
-- 原命令的文檔在：
+- 原命令的文件在：
 
 `tldr git-cola`
