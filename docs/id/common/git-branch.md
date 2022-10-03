@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/git-branch (Indonesia)
-description: "Perintah Git utama untuk bekerja dengan cabang (*branch*)."
-content_hash: 45a91ae68ac01e1a7c8354cfd465e4a80b5f7035
+description: "Perintah Git utama untuk bekerja dengan cabang (_branch_)."
+content_hash: c526b7b31306779ebc28a633aab85d59ba1eca16
 related_topics:
   - title: Deutsch version
     url: /de/common/git-branch.html
@@ -22,21 +22,24 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/git-branch.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-branch.html
+    icon: bi bi-globe
 ---
 # git branch
 
-Perintah Git utama untuk bekerja dengan cabang (*branch*).
+Perintah Git utama untuk bekerja dengan cabang (_branch_).
 Informasi lebih lanjut: <https://git-scm.com/docs/git-branch>.
 
-- Menampilkan daftar cabang lokal. Cabang saat ini ditandai oleh `*`:
+- Tampilkan daftar semua cabang (lokal dan remote; cabang saat ini ditandai oleh `*`) :
 
-`git branch`
+`git branch --all`
 
-- Menampilkan daftar semua cabang (lokal dan remote):
+- Tampilkan daftar semua cabang yang memiliki komit Git tertentu di dalam riwayat:
 
-`git branch -a`
+`git branch --all --contains `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash_komit</span>
 
-- Tunjukkan nama cabang saat ini:
+- Tampilkan nama cabang saat ini:
 
 `git branch --show-current`
 
@@ -48,7 +51,7 @@ Informasi lebih lanjut: <https://git-scm.com/docs/git-branch>.
 
 `git branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_cabang</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash_komit</span>
 
-- Ganti nama cabang (harus bukan cabang saat ini untuk melakukannya):
+- Ubah nama cabang (harus bukan cabang saat ini untuk melakukannya):
 
 `git branch -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_cabang_lama</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_cabang_baru</span>
 
