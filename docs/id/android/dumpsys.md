@@ -1,8 +1,8 @@
 ---
 layout: page
 title: android/dumpsys (Indonesia)
-description: "Memberikan informasi tentang layanan (daemon) sistem milik Android."
-content_hash: 6f7f54c910f2036e957ba4a6147a245c3a051dc4
+description: "Berikan informasi tentang layanan (daemon) sistem milik Android."
+content_hash: fb863396bfcd88d6772f31f124763a43f333ac31
 related_topics:
   - title: Deutsch version
     url: /de/android/dumpsys.html
@@ -16,6 +16,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/android/dumpsys.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/android/dumpsys.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/android/dumpsys.html
+    icon: bi bi-globe
   - title: o‘zbek version
     url: /uz/android/dumpsys.html
     icon: bi bi-globe
@@ -28,30 +34,30 @@ related_topics:
 ---
 # dumpsys
 
-Memberikan informasi tentang layanan (daemon) sistem milik Android.
+Berikan informasi tentang layanan (daemon) sistem milik Android.
 Perintah ini hanya dapat dijalankan melalui `adb shell`.
 Informasi lebih lanjut: <https://developer.android.com/studio/command-line/dumpsys>.
 
-- Menampilkan informasi diagnostik terhadap seluruh layanan sistem Android:
+- Tampilkan informasi diagnostik terhadap seluruh layanan sistem Android:
 
 `dumpsys`
 
-- Menampilkan informasi diagnostik untuk layanan sistem tertentu:
+- Tampilkan informasi diagnostik untuk layanan sistem tertentu:
 
 `dumpsys `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">layanan</span>
 
-- Menampilkan daftar layanan sistem yang diketahui oleh `dumpsys`:
+- Tampilkan daftar layanan sistem yang diketahui oleh `dumpsys`:
 
 `dumpsys -l`
 
-- Menampilkan daftar argumen yang diterima oleh sebuah layanan sistem:
+- Tampilkan daftar argumen yang diterima oleh sebuah layanan sistem:
 
 `dumpsys `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">layanan</span>` -h`
 
-- Mengecualikan layanan sistem tertentu dari informasi diagnostik yang ditampilkan:
+- Kecualikan layanan sistem tertentu dari informasi diagnostik yang ditampilkan:
 
 `dumpsys --skip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">layanan</span>
 
-- Menetapkan periode waktu habis dalam hitungan detik (10 detik secara default):
+- Tetapkan periode waktu habis dalam hitungan detik (10 detik secara default):
 
 `dumpsys -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">detik</span>

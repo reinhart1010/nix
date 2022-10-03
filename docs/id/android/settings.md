@@ -1,8 +1,8 @@
 ---
 layout: page
 title: android/settings (Indonesia)
-description: "Menampilkan informasi terhadap pengaturan sistem operasi Android."
-content_hash: 11e7e98183739d12eaa0b1a69820c0dbc0c7f0ff
+description: "Tampilkan informasi terhadap pengaturan sistem operasi Android."
+content_hash: 44754fc94051e5141c33ed076685e9ee88738a3f
 related_topics:
   - title: Deutsch version
     url: /de/android/settings.html
@@ -16,6 +16,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/android/settings.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/android/settings.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/android/settings.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/android/settings.html
     icon: bi bi-globe
@@ -25,21 +31,21 @@ related_topics:
 ---
 # settings
 
-Menampilkan informasi terhadap pengaturan sistem operasi Android.
+Tampilkan informasi terhadap pengaturan sistem operasi Android.
 Informasi lebih lanjut: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
 
-- Menampilkan daftar pengaturan di dalam namespace `global`:
+- Tampilkan daftar pengaturan di dalam namespace `global`:
 
 `settings list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">global</span>
 
-- Menampilkan nilai dari pengaturan tertentu:
+- Tampilkan nilai dari pengaturan tertentu:
 
 `settings get `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">global</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">airplane_mode_on</span>
 
-- Menyetel nilai pengaturan tertentu:
+- Setel nilai pengaturan tertentu:
 
 `settings put `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">system</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">screen_brightness</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">42</span>
 
-- Menghapus nilai pengaturan tertentu:
+- Hapus nilai pengaturan tertentu:
 
 `settings delete `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">secure</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">screensaver_enabled</span>

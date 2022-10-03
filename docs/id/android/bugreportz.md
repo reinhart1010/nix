@@ -1,8 +1,8 @@
 ---
 layout: page
 title: android/bugreportz (Indonesia)
-description: "Membuat sebuah laporan masalah Android dalam format file arsip (zip)."
-content_hash: 38648f7fd88af69fc56f8ec1230096fc80e4d676
+description: "Buat sebuah laporan masalah Android dalam format file arsip (zip)."
+content_hash: 97ecbaa29716680972d1fcdc54111cf7c36805d0
 related_topics:
   - title: Deutsch version
     url: /de/android/bugreportz.html
@@ -16,6 +16,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/android/bugreportz.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/android/bugreportz.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/android/bugreportz.html
+    icon: bi bi-globe
   - title: o‘zbek version
     url: /uz/android/bugreportz.html
     icon: bi bi-globe
@@ -28,22 +34,22 @@ related_topics:
 ---
 # bugreportz
 
-Membuat sebuah laporan masalah Android dalam format file arsip (zip).
+Buat sebuah laporan masalah Android dalam format file arsip (zip).
 Perintah ini hanya dapat digunakan di dalam `adb shell`.
 Informasi lebih lanjut: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreportz>.
 
-- Membuat sebuah arsip laporan masalah perangkat Android secara lengkap:
+- Buatkan sebuah arsip laporan masalah perangkat Android secara lengkap:
 
 `bugreportz`
 
-- Menunjukkan kemajuan terhadap proses `bugreportz` yang sedang berlangsung:
+- Tunjukkan kemajuan terhadap proses `bugreportz` yang sedang berlangsung:
 
 `bugreportz -p`
 
-- Menunjukkan versi program `bugreportz`:
+- Tunjukkan versi program `bugreportz`:
 
 `bugreportz -v`
 
-- Menampilkan teks bantuan:
+- Tampilkan teks bantuan:
 
 `bugreportz -h`

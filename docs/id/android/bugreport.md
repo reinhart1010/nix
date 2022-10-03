@@ -1,8 +1,8 @@
 ---
 layout: page
 title: android/bugreport (Indonesia)
-description: "Menunjukkan sebuah laporan masalah bagi Android."
-content_hash: 0510c2112d80c9b106fddb6c18ad39c891fd024d
+description: "Tunjukkan sebuah laporan masalah bagi Android."
+content_hash: eb4a9a151d23086b86362f527d2bf2d5313a0ecb
 related_topics:
   - title: Deutsch version
     url: /de/android/bugreport.html
@@ -16,6 +16,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/android/bugreport.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/android/bugreport.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/android/bugreport.html
+    icon: bi bi-globe
   - title: o‘zbek version
     url: /uz/android/bugreport.html
     icon: bi bi-globe
@@ -28,10 +34,10 @@ related_topics:
 ---
 # bugreport
 
-Menunjukkan sebuah laporan masalah bagi Android.
+Tunjukkan sebuah laporan masalah bagi Android.
 Perintah ini hanya dapat digunakan di dalam `adb shell`.
 Informasi lebih lanjut: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreport>.
 
-- Menunjukkan laporan masalah perangkat Android secara lengkap:
+- Tunjukkan laporan masalah perangkat Android secara lengkap:
 
 `bugreport`

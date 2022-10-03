@@ -1,8 +1,8 @@
 ---
 layout: page
 title: android/getprop (Indonesia)
-description: "Menampilkan informasi terhadap properti sistem operasi Android."
-content_hash: f2b6d9b5bb5ad420c6cb32b299374f7a0420d2cf
+description: "Tampilkan informasi terhadap properti sistem operasi Android."
+content_hash: abfa5bdf1cc4b99354b1cd873d25e92ebdb3945d
 related_topics:
   - title: Deutsch version
     url: /de/android/getprop.html
@@ -16,6 +16,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/android/getprop.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/android/getprop.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/android/getprop.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/android/getprop.html
     icon: bi bi-globe
@@ -25,33 +31,33 @@ related_topics:
 ---
 # getprop
 
-Menampilkan informasi terhadap properti sistem operasi Android.
+Tampilkan informasi terhadap properti sistem operasi Android.
 Informasi lebih lanjut: <https://manned.org/getprop>.
 
-- Menampilkan informasi daftar properti sistem operasi Android:
+- Tampilkan informasi daftar properti sistem operasi Android:
 
 `getprop`
 
-- Menampilan informasi terhadap properti sistem tertentu:
+- Tampilkan informasi terhadap properti sistem tertentu:
 
 `getprop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">properti</span>
 
-- Menampilkan tingkat API SDK Android:
+- Tampilkan tingkat API SDK Android:
 
 `getprop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ro.build.version.sdk</span>
 
-- Menampilkan versi sistem operasi Android:
+- Tampilkan versi sistem operasi Android:
 
 `getprop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ro.build.version.release</span>
 
-- Menampilkan kode model perangkat Android:
+- Tampilkan kode model perangkat Android:
 
 `getprop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ro.vendor.product.model</span>
 
-- Menampilkan status pembukaan kunci pembuat perangkat (OEM):
+- Tampilkan status pembukaan kunci pembuat perangkat (OEM):
 
 `getprop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ro.oem_unlock_supported</span>
 
-- Menampilkan alamat MAC terhadap komponen Wi-Fi milik perangkat:
+- Tampilkan alamat MAC terhadap komponen Wi-Fi milik perangkat:
 
 `getprop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ro.boot.wifimacaddr</span>

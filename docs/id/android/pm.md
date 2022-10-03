@@ -1,8 +1,8 @@
 ---
 layout: page
 title: android/pm (Indonesia)
-description: "Menampilkan daftar pemasangan aplikasi di dalam sebuah perangkat Android."
-content_hash: 9354656414d5682229826728dbfa71f12517dabe
+description: "Tampilkan daftar pemasangan aplikasi di dalam sebuah perangkat Android."
+content_hash: cdb0a1dc3382931da31be40272c7353d9b7c9301
 related_topics:
   - title: Deutsch version
     url: /de/android/pm.html
@@ -16,6 +16,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/android/pm.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/android/pm.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/android/pm.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/android/pm.html
     icon: bi bi-globe
@@ -25,25 +31,25 @@ related_topics:
 ---
 # pm
 
-Menampilkan daftar pemasangan aplikasi di dalam sebuah perangkat Android.
+Tampilkan daftar pemasangan aplikasi di dalam sebuah perangkat Android.
 Informasi lebih lanjut: <https://developer.android.com/studio/command-line/adb#pm>.
 
-- Menampilkan daftar seluruh aplikasi yang terpasang:
+- Tampilkan daftar seluruh aplikasi yang terpasang:
 
 `pm list packages`
 
-- Menampilkan daftar seluruh aplikasi sistem yang terpasang:
+- Tampilkan daftar seluruh aplikasi sistem yang terpasang:
 
 `pm list packages -s`
 
-- Menampilkan daftar seluruh aplikasi pihak ketiga yang terpasang:
+- Tampilkan daftar seluruh aplikasi pihak ketiga yang terpasang:
 
 `pm list packages -3`
 
-- Menampilkan daftar aplikasi dengan kata kunci tertentu:
+- Tampilkan daftar aplikasi dengan kata kunci tertentu:
 
 `pm list packages `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kata_kunci</span>
 
-- Menampilkan jalan menuju file APK untuk sebuah aplikasi:
+- Tampilkan jalan menuju file APK untuk sebuah aplikasi:
 
 `pm path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aplikasi</span>
