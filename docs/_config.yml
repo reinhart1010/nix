@@ -30,6 +30,7 @@ ham:
   site_icon: https://reinhart1010.id/wp-content/uploads/2021/10/bust-nix.png
   contributing:
     issue_url: https://github.com/reinhart1010/nix/issues/
+    view_source_base_url: https://github.com/tldr-pages/tldr/blob/main/pages.
 
 # Build settings
 remote_theme: reinhart1010/HAM
@@ -37,6 +38,7 @@ url: ""
 
 plugins:
   - jekyll-optional-front-matter
+  - jekyll-sitemap
 
 # Don't use smart quotes as it may interfere with case-sensitive quoted parameters (e.g. JSON)
 kramdown:
