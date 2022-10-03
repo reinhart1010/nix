@@ -2,7 +2,7 @@
 layout: page
 title: common/gcc (English)
 description: "Preprocess and compile C and C++ source files, then assemble and link them together."
-content_hash: 5105b93dec14f869af38c31dde02a34c82627018
+content_hash: 7ac0a654081b1b4bd5a21ef214aba6180a8fe2c6
 related_topics:
   - title: Deutsch version
     url: /de/common/gcc.html
@@ -26,7 +26,7 @@ More information: <https://gcc.gnu.org>.
 
 `gcc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source1.c path/to/source2.c ...</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_executable</span>
 
-- Allow warnings, debug symbols in output:
+- Show common warnings, debug symbols in output:
 
 `gcc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.c</span>` -Wall -Og -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_executable</span>
 

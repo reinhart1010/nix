@@ -2,7 +2,7 @@
 layout: page
 title: common/g++ (English)
 description: "Compiles C++ source files."
-content_hash: 92984328ae8afd3c19b6561f9e18a87272761dc0
+content_hash: 1e1934a060b199f9daa4ffadb55600dfa589e788
 related_topics:
   - title: Deutsch version
     url: /de/common/g++.html
@@ -27,7 +27,7 @@ More information: <https://gcc.gnu.org>.
 
 `g++ `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.cpp</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_executable</span>
 
-- Display (almost) all errors and warnings:
+- Display common warnings:
 
 `g++ `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.cpp</span>` -Wall -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_executable</span>
 

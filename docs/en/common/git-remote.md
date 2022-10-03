@@ -2,7 +2,7 @@
 layout: page
 title: common/git-remote (English)
 description: "Manage set of tracked repositories (\"remotes\")."
-content_hash: 66d4ab9ac4699866c7939e31af9f9866d4379c66
+content_hash: c0ee1b4ed74f426c54ade321f663e9a5eb5136d8
 related_topics:
   - title: Deutsch version
     url: /de/common/git-remote.html
@@ -21,6 +21,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-remote.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-remote.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/git-remote.html
@@ -46,6 +49,10 @@ More information: <https://git-scm.com/docs/git-remote>.
 - Change the URL of a remote (use `--add` to keep the existing URL):
 
 `git remote set-url `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_url</span>
+
+- Show the URL of a remote:
+
+`git remote get-url `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span>
 
 - Remove a remote:
 
