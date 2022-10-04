@@ -2,11 +2,12 @@
 layout: page
 title: common/gh-pr (English)
 description: "Manage GitHub pull requests from the command-line."
-content_hash: 8db1ece90d21baee102155801537fb1641779abd
+content_hash: bb69b6085aca4360ebcf194be7decc21eb01fe31
 ---
 # gh pr
 
 Manage GitHub pull requests from the command-line.
+Some subcommands such as `gh pr create` have their own usage documentation.
 More information: <https://cli.github.com/manual/gh_pr>.
 
 - Create a pull request:
