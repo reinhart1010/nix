@@ -2,7 +2,7 @@
 layout: page
 title: common/cd (中文)
 description: "更改当前工作目录。"
-content_hash: ca8792df055fc14ace4363c1f093e9dbe76dd623
+content_hash: 996c02cb3543c320413b003fb70a3d4e7941ba28
 related_topics:
   - title: català version
     url: /ca/common/cd.html
@@ -56,7 +56,16 @@ related_topics:
     url: /zh_TW/common/cd.html
     icon: bi bi-globe
 ---
-# cd
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/cd.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># cd
 
 更改当前工作目录。
 更多信息：<https://manned.org/cd>.
@@ -80,3 +89,7 @@ related_topics:
 - 转到刚才选择的目录：
 
 `cd -`
+
+- 转到根目录：
+
+`cd /`

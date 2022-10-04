@@ -2,7 +2,7 @@
 layout: page
 title: common/test (English)
 description: "Check file types and compare values."
-content_hash: 7f949c268a2f9088a5dcbd6fca3655c715384ed1
+content_hash: fcd0774d9e42aadd95b4a64acaa07800da40f5f0
 related_topics:
   - title: 日本語 version
     url: /ja/common/test.html
@@ -33,6 +33,6 @@ More information: <https://www.gnu.org/software/coreutils/test>.
 
 `test ! -d "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>`"`
 
-- If-else statement:
+- If A is true, then do B, or C in the case of an error (notice that C may run even if A fails):
 
 `test `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">condition</span>` && `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "true"</span>` || `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "false"</span>

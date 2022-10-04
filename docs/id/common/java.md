@@ -2,7 +2,7 @@
 layout: page
 title: common/java (Indonesia)
 description: "Peluncur Aplikasi Java."
-content_hash: 3e267310f6f5b297600315b6dba1804f2ec78ed1
+content_hash: 411c54247b588a5eab4584759f534343d5f141fe
 related_topics:
   - title: English version
     url: /en/common/java.html
@@ -34,22 +34,26 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 Peluncur Aplikasi Java.
 Informasi lebih lanjut: <https://docs.oracle.com/en/java/javase/17/docs/specs/man/java.html>.
 
-- Menjalankan berkas java `.class` yang mengandung method main dengan hanya menggunakan nama class:
+- Jalankan berkas java `.class` yang mengandung method main dengan hanya menggunakan nama class:
 
 `java `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_class</span>
 
-- Menjalankan program `.jar`:
+- Jalankan sebuah program java menggunakan berkas-berkas `.class` eksternal dan tambahan:
+
+`java -classpath `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori_class1</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori_class2</span>`:. `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_class</span>
+
+- Jalankan program `.jar`:
 
 `java -jar `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_berkas.jar</span>
 
-- Menjalankan program `.jar` dengan menunggu debugger terhubung ke port 5005:
+- Jalankan program `.jar` dengan menunggu debugger terhubung ke port 5005:
 
 `java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_berkas.jar</span>
 
-- Menampilkan versi JDK, JRE dan HotSpot:
+- Tampilkan versi JDK, JRE dan HotSpot:
 
 `java -version`
 
-- Menampilkan informasi penggunaan untuk perintah java:
+- Tampilkan informasi penggunaan untuk perintah java:
 
 `java -help`

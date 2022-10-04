@@ -1,23 +1,35 @@
 ---
 layout: page
 title: linux/dconf (English)
-description: "Simple tool for manipulating dconf databases."
-content_hash: 3976c420d83fb0c84e11b4f27cf01a7cf1c64e8f
+description: "Manage dconf databases."
+content_hash: 2cea7f63fe66c688c30962063ac113e8d771715f
 ---
 # dconf
 
-Simple tool for manipulating dconf databases.
-See also `dconf write`.
-More information: <https://developer.gnome.org/dconf>.
+Manage dconf databases.
+See also: `dconf-read`, `dconf-reset`, `dconf-write`, `gsettings`.
+More information: <https://manned.org/dconf>.
 
-- Print the value of a dconf path:
+- Print a specific key value:
 
-`dconf read `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/example/dconf/path</span>
+`dconf read `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/key</span>
 
-- List contents of a dconf path:
+- Print a specific path sub-directories and sub-keys:
 
-`dconf list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/example/dconf/path</span>
+`dconf list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/directory/</span>
 
-- Watch for dconf database changes in a path and subpaths:
+- Write a specific key value:
 
-`dconf watch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/example/dconf/path</span>
+`dconf write `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/key</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span>`"`
+
+- Reset a specific key value:
+
+`dconf reset `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/key</span>
+
+- Watch a specific key/directory for changes:
+
+`dconf watch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/key|/path/to/directory/</span>
+
+- Dump a specific directory in INI file format:
+
+`dconf dump `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/directory/</span>
