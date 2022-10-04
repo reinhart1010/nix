@@ -2,7 +2,7 @@
 layout: page
 title: common/dotnet (polski)
 description: "Wieloplatformowe narzędzia wiersza polecenia .NET dla platformy .NET Core."
-content_hash: 99cb241053b5e18de6d73e7b15bb8981bf1deb7c
+content_hash: 0885bdccb6dc94a297392e246ec704e646c06c83
 related_topics:
   - title: Deutsch version
     url: /de/common/dotnet.html
@@ -22,11 +22,14 @@ related_topics:
   - title: русский version
     url: /ru/common/dotnet.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/dotnet.html
+    icon: bi bi-globe
 ---
 # dotnet
 
 Wieloplatformowe narzędzia wiersza polecenia .NET dla platformy .NET Core.
-Więcej informacji: <https://docs.microsoft.com/dotnet/core/tools>.
+Więcej informacji: <https://learn.microsoft.com/dotnet/core/tools>.
 
 - Zainicjuj nowy projekt .NET:
 

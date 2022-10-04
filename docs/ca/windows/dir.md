@@ -2,7 +2,7 @@
 layout: page
 title: windows/dir (català)
 description: "Llista els continguts d'un directori."
-content_hash: 526ccdf38c29fe73117bc8b46a16394e3afc9211
+content_hash: d36ff8f6c8cefe11db7ef362d5fb8bc3069149c8
 related_topics:
   - title: Deutsch version
     url: /de/windows/dir.html
@@ -29,13 +29,10 @@ related_topics:
     url: /zh_TW/windows/dir.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dir
+# dir
 
 Llista els continguts d'un directori.
-Més informació: <https://docs.microsoft.com/windows-server/administration/windows-commands/dir>.
+Més informació: <https://learn.microsoft.com/windows-server/administration/windows-commands/dir>.
 
 - Mostra els continguts del directori actual:
 

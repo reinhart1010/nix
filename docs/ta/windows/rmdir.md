@@ -2,7 +2,7 @@
 layout: page
 title: windows/rmdir (தமிழ்)
 description: "ஒரு கோப்பகம் மற்றும் அதன் உள்ளடக்கங்களை அகற்றவும்."
-content_hash: a4f2b9cf0da9804dc76b64f16c9408a380689d7f
+content_hash: df6295653f528379b8923ca0ab9448c770186cdb
 related_topics:
   - title: English version
     url: /en/windows/rmdir.html
@@ -17,7 +17,7 @@ related_topics:
 # rmdir
 
 ஒரு கோப்பகம் மற்றும் அதன் உள்ளடக்கங்களை அகற்றவும்.
-மேலும் விவரத்திற்கு: <https://docs.microsoft.com/windows-server/administration/windows-commands/rmdir>.
+மேலும் விவரத்திற்கு: <https://learn.microsoft.com/windows-server/administration/windows-commands/rmdir>.
 
 - வெற்று கோப்பகத்தை அகற்றவும்:
 

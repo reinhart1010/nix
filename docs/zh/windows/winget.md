@@ -2,7 +2,7 @@
 layout: page
 title: windows/winget (中文)
 description: "Windows 软件包管理器命令行工具。"
-content_hash: 629ed8a9dc7c74ad0bdb453e0574da5f972fb0cf
+content_hash: ad3f1ef5f5452ef81854eda5d163b1337c421868
 related_topics:
   - title: Deutsch version
     url: /de/windows/winget.html
@@ -14,7 +14,7 @@ related_topics:
 # winget
 
 Windows 软件包管理器命令行工具。
-更多信息：<https://docs.microsoft.com/windows/package-manager/winget>.
+更多信息：<https://learn.microsoft.com/windows/package-manager/winget>.
 
 - 安装一个软件包：
 

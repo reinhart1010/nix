@@ -2,7 +2,7 @@
 layout: page
 title: windows/cls (தமிழ்)
 description: "திரையை அழிக்கிறது."
-content_hash: ae52a4f09c2b1703a3a79186f6db38502e49f8ca
+content_hash: d13f01dbab25ade7dd7b176855edc75a2779ebc4
 related_topics:
   - title: English version
     url: /en/windows/cls.html
@@ -19,6 +19,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/windows/cls.html
     icon: bi bi-globe
+  - title: ไทย version
+    url: /th/windows/cls.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/cls.html
     icon: bi bi-globe
@@ -29,7 +32,7 @@ related_topics:
 # cls
 
 திரையை அழிக்கிறது.
-மேலும் விவரத்திற்கு: <https://docs.microsoft.com/windows-server/administration/windows-commands/cls>.
+மேலும் விவரத்திற்கு: <https://learn.microsoft.com/windows-server/administration/windows-commands/cls>.
 
 - திரையை அழிக்கவும்:
 

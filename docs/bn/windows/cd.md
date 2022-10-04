@@ -2,7 +2,7 @@
 layout: page
 title: windows/cd (বাংলা)
 description: "বর্তমান ওয়ার্কিং ডিরেক্টরির নাম প্রদর্শন বা পরিবর্তন করে।"
-content_hash: 566ae2814e31e199e25f730293546aa387ad5b7e
+content_hash: c31d6507a3f123df6c753a03fe76a3296ec214d2
 related_topics:
   - title: Deutsch version
     url: /de/windows/cd.html
@@ -29,7 +29,7 @@ related_topics:
 # cd
 
 বর্তমান ওয়ার্কিং ডিরেক্টরির নাম প্রদর্শন বা পরিবর্তন করে।
-আরও তথ্য পাবেন: <https://docs.microsoft.com/windows-server/administration/windows-commands/cd>.
+আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
 - একই ড্রাইভে একটি ডিরেক্টরিতে যান:
 

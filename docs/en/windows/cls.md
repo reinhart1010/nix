@@ -2,7 +2,7 @@
 layout: page
 title: windows/cls (English)
 description: "Clears the screen."
-content_hash: a90aadc8b951c8ae85fefc9907829b1f2cea33a3
+content_hash: 01b928a3f3e311da1a5b48b1013c1d7d77898eb3
 related_topics:
   - title: فارسی version
     url: /fa/windows/cls.html
@@ -19,6 +19,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/windows/cls.html
     icon: bi bi-globe
+  - title: ไทย version
+    url: /th/windows/cls.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/cls.html
     icon: bi bi-globe
@@ -29,7 +32,7 @@ related_topics:
 # cls
 
 Clears the screen.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/cls>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/cls>.
 
 - Clear the screen:
 

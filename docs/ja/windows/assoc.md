@@ -2,7 +2,7 @@
 layout: page
 title: windows/assoc (日本語)
 description: "ファイル拡張子の関連付けを表示または変更します。"
-content_hash: 67446e6ba668fd8547a0d05e87b387f3db45f789
+content_hash: 21849e62bfa3d3d4cdef5b6d41f6c1b07bfcd16f
 related_topics:
   - title: English version
     url: /en/windows/assoc.html
@@ -14,7 +14,7 @@ related_topics:
 # assoc
 
 ファイル拡張子の関連付けを表示または変更します。
-詳しくはこちら: <https://docs.microsoft.com/windows-server/administration/windows-commands/assoc>
+詳しくはこちら: <https://learn.microsoft.com/windows-server/administration/windows-commands/assoc>
 
 - 関連するすべてのファイルタイプをします:
 

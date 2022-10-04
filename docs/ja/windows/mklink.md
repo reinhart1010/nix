@@ -2,7 +2,7 @@
 layout: page
 title: windows/mklink (日本語)
 description: "シンボリックリンクを作成します。"
-content_hash: 21f092face0f779ee667d3ec6ab7fec470853987
+content_hash: 93bd47814f8fe1bf5ccc8d8dbf93837bd7c3e5f1
 related_topics:
   - title: English version
     url: /en/windows/mklink.html
@@ -14,7 +14,7 @@ related_topics:
 # mklink
 
 シンボリックリンクを作成します。
-詳しくはこちら: <https://docs.microsoft.com/windows-server/administration/windows-commands/mklink>
+詳しくはこちら: <https://learn.microsoft.com/windows-server/administration/windows-commands/mklink>
 
 - ファイルへのシンボリックリンクを作成します:
 

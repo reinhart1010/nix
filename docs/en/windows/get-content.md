@@ -2,13 +2,13 @@
 layout: page
 title: windows/get-content (English)
 description: "Get the content of the item at the specified location."
-content_hash: c05c841a2aaac46b16f72455bcb68d6d89765470
+content_hash: a6de0171d626a0e35d016f25e7ad2ce8900da921
 ---
 # Get-Content
 
 Get the content of the item at the specified location.
 This command can only be used through PowerShell.
-More information: <https://docs.microsoft.com/powershell/module/microsoft.powershell.management/get-content>.
+More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/get-content>.
 
 - Display the content of a file:
 

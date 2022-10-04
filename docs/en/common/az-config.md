@@ -2,13 +2,13 @@
 layout: page
 title: common/az-config (English)
 description: "Manage Azure CLI configuration."
-content_hash: 7a7ddd36f2b1d7b79b6d9718bf060ee23c50ec99
+content_hash: afff0b867e60e5accbe4e99ab6ebfb6dabd0036d
 ---
 # az config
 
 Manage Azure CLI configuration.
 Part of `azure-cli`.
-More information: <https://docs.microsoft.com/cli/azure/config>.
+More information: <https://learn.microsoft.com/cli/azure/config>.
 
 - Print all configurations:
 

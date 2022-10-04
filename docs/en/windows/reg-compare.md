@@ -2,7 +2,7 @@
 layout: page
 title: windows/reg-compare (English)
 description: "Compare keys and their values in the registry."
-content_hash: d80d4df43fd1d93c34190422c8254a191276f3c5
+content_hash: af18162c32d97ad3f376d52d08500049ccaed81a
 related_topics:
   - title: 中文 version
     url: /zh/windows/reg-compare.html
@@ -11,7 +11,7 @@ related_topics:
 # reg compare
 
 Compare keys and their values in the registry.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/reg-compare>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg-compare>.
 
 - Compare all values under a specific key with a second key:
 

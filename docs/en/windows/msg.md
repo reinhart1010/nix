@@ -2,7 +2,7 @@
 layout: page
 title: windows/msg (English)
 description: "Send a message to a specific user or session."
-content_hash: c7755681adc18d4bbbca2a6632e60d61cae304fa
+content_hash: 97593d642fc3a278d8629335735d8325913f796c
 related_topics:
   - title: polski version
     url: /pl/windows/msg.html
@@ -14,7 +14,7 @@ related_topics:
 # msg
 
 Send a message to a specific user or session.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/msg>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/msg>.
 
 - Send a message to a specified user or session:
 

@@ -2,7 +2,7 @@
 layout: page
 title: windows/wsl (English)
 description: "Manage the Windows Subsystem for Linux from the command-line."
-content_hash: 2b5c02e175fe304ad1b4159ce5d364847e56955c
+content_hash: da2f521f68e87ce2673e4d9e3804fb7d31602f50
 related_topics:
   - title: Deutsch version
     url: /de/windows/wsl.html
@@ -14,7 +14,7 @@ related_topics:
 # wsl
 
 Manage the Windows Subsystem for Linux from the command-line.
-More information: <https://docs.microsoft.com/windows/wsl/reference>.
+More information: <https://learn.microsoft.com/windows/wsl/reference>.
 
 - Start a Linux shell (in the default distribution):
 

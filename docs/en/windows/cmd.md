@@ -2,7 +2,7 @@
 layout: page
 title: windows/cmd (English)
 description: "The Windows command interpreter."
-content_hash: 8a0098f14d135da7d772b4f6e62dc3cd2075d825
+content_hash: b55246096f9297505e359fa99b42dd775ea8e826
 related_topics:
   - title: italiano version
     url: /it/windows/cmd.html
@@ -26,7 +26,7 @@ related_topics:
 # cmd
 
 The Windows command interpreter.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/cmd>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/cmd>.
 
 - Start an interactive shell session:
 

@@ -2,7 +2,7 @@
 layout: page
 title: windows/get-filehash (中文)
 description: "计算一个文件的 HASH 值。"
-content_hash: 26d279fc7fc2350db8c71ef74ce96f8bbdf753fc
+content_hash: 5ade6a560ca7a8b1754cf8b41a3b027b545b7148
 related_topics:
   - title: English version
     url: /en/windows/get-filehash.html
@@ -11,7 +11,7 @@ related_topics:
 # Get-FileHash
 
 计算一个文件的 HASH 值。
-更多信息：<https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/get-filehash>.
+更多信息：<https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/get-filehash>.
 
 - 使用 SHA256 算法计算给定文件的哈希值：
 

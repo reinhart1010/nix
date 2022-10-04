@@ -2,7 +2,7 @@
 layout: page
 title: windows/title (português (Brasil))
 description: "Exibe o título do prompt de comando."
-content_hash: a24540091684b67ec57ee5efecd66b4022f56247
+content_hash: 607be3febacc7062a767525ec6d466408b0e2aa7
 related_topics:
   - title: English version
     url: /en/windows/title.html
@@ -14,7 +14,7 @@ related_topics:
 # title
 
 Exibe o título do prompt de comando.
-Mais informações: <https://docs.microsoft.com/windows-server/administration/windows-commands/title>.
+Mais informações: <https://learn.microsoft.com/windows-server/administration/windows-commands/title>.
 
 - Define o título do prompt de comando:
 

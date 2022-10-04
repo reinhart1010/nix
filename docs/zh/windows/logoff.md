@@ -2,7 +2,7 @@
 layout: page
 title: windows/logoff (中文)
 description: "注销登录会话。"
-content_hash: 6868180bbad280a5765609b1e2946213f70a7c74
+content_hash: 6dc09ae53309c0265c75ccfd4a1328414da5ccb8
 related_topics:
   - title: English version
     url: /en/windows/logoff.html
@@ -11,7 +11,7 @@ related_topics:
 # logoff
 
 注销登录会话。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/logoff>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/logoff>.
 
 - 注销当前会话：
 

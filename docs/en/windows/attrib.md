@@ -2,7 +2,7 @@
 layout: page
 title: windows/attrib (English)
 description: "Display or change attributes of files or directories."
-content_hash: 54bfbc916f6979ee48b0e523a44f034d28f67cf1
+content_hash: afe758167084fcc3a5705002ab6710f0b240e95c
 related_topics:
   - title: 日本語 version
     url: /ja/windows/attrib.html
@@ -14,7 +14,7 @@ related_topics:
 # attrib
 
 Display or change attributes of files or directories.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/attrib>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/attrib>.
 
 - Display all set attributes of files in the current directory:
 

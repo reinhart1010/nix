@@ -2,10 +2,13 @@
 layout: page
 title: common/az (português (Brasil))
 description: "A interface de linha de comando oficial do Microsoft Azure."
-content_hash: a28e7709c55093100aefb6a6635676f6cd30efbc
+content_hash: edcd7022a74af2cd871a7d2f4ac29f413d580d30
 related_topics:
   - title: English version
     url: /en/common/az.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/az.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/az.html
@@ -13,11 +16,14 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/az.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/az.html
+    icon: bi bi-globe
 ---
 # az
 
 A interface de linha de comando oficial do Microsoft Azure.
-Mais informações: <https://docs.microsoft.com/cli/azure>.
+Mais informações: <https://learn.microsoft.com/cli/azure>.
 
 - Fazer log in no Azure:
 

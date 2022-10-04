@@ -2,7 +2,7 @@
 layout: page
 title: windows/reg-compare (中文)
 description: "比较注册表中的键和值。"
-content_hash: 914bbca1ef99f2defaf0191c873aa18dcafebcaf
+content_hash: c72253701b8638a8c20ec289956ab2b6b0cb90b7
 related_topics:
   - title: English version
     url: /en/windows/reg-compare.html
@@ -11,7 +11,7 @@ related_topics:
 # reg compare
 
 比较注册表中的键和值。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/reg-compare>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/reg-compare>.
 
 - 比较两个键中的所有值：
 

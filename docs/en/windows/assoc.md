@@ -2,7 +2,7 @@
 layout: page
 title: windows/assoc (English)
 description: "Display or change associations between file extensions and file types."
-content_hash: c39633301ef3521c286ffa9749da81d1bd6ea453
+content_hash: e1c3530eef7de187240fbbf311eece3c55cc8f70
 related_topics:
   - title: 日本語 version
     url: /ja/windows/assoc.html
@@ -14,7 +14,7 @@ related_topics:
 # assoc
 
 Display or change associations between file extensions and file types.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/assoc>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/assoc>.
 
 - List all associations between file extensions and file types:
 

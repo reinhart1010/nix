@@ -2,7 +2,7 @@
 layout: page
 title: windows/xcopy (Indonesia)
 description: "Membuat salinan file dan direktori."
-content_hash: b2a0227b0c6c2e8f8351969e8b2aa2e1737fec41
+content_hash: a84b30c7f84953a7672e89c8ce356a0fab05ca45
 related_topics:
   - title: English version
     url: /en/windows/xcopy.html
@@ -14,7 +14,7 @@ related_topics:
 # xcopy
 
 Membuat salinan file dan direktori.
-Informasi lebih lanjut: <https://docs.microsoft.com/windows-server/administration/windows-commands/xcopy>.
+Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/xcopy>.
 
 - Membuat salinan file atau direktori ke lokasi lain:
 

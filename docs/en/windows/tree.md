@@ -2,7 +2,7 @@
 layout: page
 title: windows/tree (English)
 description: "Display a graphical tree of the directory structure for a path."
-content_hash: c531c008b85b1e651af6df9a631aa73adc27bd66
+content_hash: eef392edf9ade50fa7cbecd96165659832aa6051
 related_topics:
   - title: Indonesia version
     url: /id/windows/tree.html
@@ -20,7 +20,7 @@ related_topics:
 # tree
 
 Display a graphical tree of the directory structure for a path.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/tree>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/tree>.
 
 - Display the tree for the current directory:
 

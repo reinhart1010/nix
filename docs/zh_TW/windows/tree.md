@@ -2,7 +2,7 @@
 layout: page
 title: windows/tree (中文 (繁體, 台灣))
 description: "以樹狀結構的形式顯示指定目錄的所有資料夾和文件。"
-content_hash: 174eff2b06ff2565ca6dff2c4d9b304facc21439
+content_hash: e7da9960ff533d420a2ecca64dd8d84e11cafc95
 related_topics:
   - title: English version
     url: /en/windows/tree.html
@@ -20,7 +20,7 @@ related_topics:
 # tree
 
 以樹狀結構的形式顯示指定目錄的所有資料夾和文件。
-更多資訊：<https://docs.microsoft.com/windows-server/administration/windows-commands/tree>.
+更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/tree>.
 
 - 顯示當前目錄的樹狀結構：
 

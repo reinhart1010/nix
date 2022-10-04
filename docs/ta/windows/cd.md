@@ -2,7 +2,7 @@
 layout: page
 title: windows/cd (தமிழ்)
 description: "தற்போதைய பணி அடைவின் பெயரைக் காட்டுகிறது அல்லது மாற்றுகிறது."
-content_hash: 9935d7ffd7e1bb6c26c863a4d487d04ce075a269
+content_hash: 05e24a2ec9c00002a1492fa854a50d4026f1dfda
 related_topics:
   - title: বাংলা version
     url: /bn/windows/cd.html
@@ -29,7 +29,7 @@ related_topics:
 # cd
 
 தற்போதைய பணி அடைவின் பெயரைக் காட்டுகிறது அல்லது மாற்றுகிறது.
-மேலும் விவரத்திற்கு: <https://docs.microsoft.com/windows-server/administration/windows-commands/cd>.
+மேலும் விவரத்திற்கு: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
 - அதே இயக்ககத்தில் ஒரு கோப்பகத்திற்குச் செல்லவும்:
 

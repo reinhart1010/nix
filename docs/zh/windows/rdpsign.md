@@ -2,7 +2,7 @@
 layout: page
 title: windows/rdpsign (中文)
 description: "用于签名远程桌面协议（RDP）文件的工具。"
-content_hash: ddb021f7a92715a687d518454d3bdc6092c01e50
+content_hash: bf98114243c613518d8ec25bd6cac7dc9d35e0c7
 related_topics:
   - title: English version
     url: /en/windows/rdpsign.html
@@ -11,7 +11,7 @@ related_topics:
 # rdpsign
 
 用于签名远程桌面协议（RDP）文件的工具。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/rdpsign>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/rdpsign>.
 
 - 为一个 RDP 文件签名：
 

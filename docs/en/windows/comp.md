@@ -2,7 +2,7 @@
 layout: page
 title: windows/comp (English)
 description: "Compare the contents of two files or sets of files."
-content_hash: b456e82c11ab8ed2828609f5149f5d6723117cf3
+content_hash: 60f096b7afdf2552752f5515b00250ffff9cdef5
 related_topics:
   - title: 中文 version
     url: /zh/windows/comp.html
@@ -12,7 +12,7 @@ related_topics:
 
 Compare the contents of two files or sets of files.
 Use wildcards (*) to compare sets of files.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/comp>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/comp>.
 
 - Compare files interactively:
 

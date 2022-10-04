@@ -2,7 +2,7 @@
 layout: page
 title: windows/color (català)
 description: "Canvia els colors de la lletra i del fons de la consola."
-content_hash: 4039b867b8ff8d723dc2842590fb030c6051d11c
+content_hash: c86ff038688e33315a772e3fbe741ab3f6b01633
 related_topics:
   - title: Deutsch version
     url: /de/windows/color.html
@@ -14,13 +14,10 @@ related_topics:
     url: /zh/windows/color.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># color
+# color
 
 Canvia els colors de la lletra i del fons de la consola.
-Més informació: <https://docs.microsoft.com/windows-server/administration/windows-commands/color>.
+Més informació: <https://learn.microsoft.com/windows-server/administration/windows-commands/color>.
 
 - Estableix els colors de la consola als valors per defecte:
 

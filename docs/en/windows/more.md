@@ -2,7 +2,7 @@
 layout: page
 title: windows/more (English)
 description: "Display paginated output from stdin or a file."
-content_hash: bed3f93fa487bc20881612beac6728330b214df0
+content_hash: 28f8bb946e0d6dd05c42feb4dab05054b6a49b63
 related_topics:
   - title: 中文 version
     url: /zh/windows/more.html
@@ -11,7 +11,7 @@ related_topics:
 # more
 
 Display paginated output from stdin or a file.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/more>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/more>.
 
 - Display paginated output from stdin:
 

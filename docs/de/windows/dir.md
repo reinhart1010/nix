@@ -2,8 +2,11 @@
 layout: page
 title: windows/dir (Deutsch)
 description: "Zeige den Inhalt von Verzeichnissen an."
-content_hash: a7107a138b03012fef43d3a3e8eb35d18783d541
+content_hash: ce9cecdd01360bf369c14dd2c94159f857be8441
 related_topics:
+  - title: català version
+    url: /ca/windows/dir.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/dir.html
     icon: bi bi-globe
@@ -29,7 +32,7 @@ related_topics:
 # dir
 
 Zeige den Inhalt von Verzeichnissen an.
-Weitere Informationen: <https://docs.microsoft.com/windows-server/administration/windows-commands/dir>.
+Weitere Informationen: <https://learn.microsoft.com/windows-server/administration/windows-commands/dir>.
 
 - Zeige den Inhalt des aktuellen Verzeichnisses an:
 

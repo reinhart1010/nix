@@ -2,7 +2,7 @@
 layout: page
 title: windows/reg-unload (中文)
 description: "从使用`reg load`命令加载的注册表中删除数据。"
-content_hash: 13c0b8c5cd5af84d9a307f7a903652856c646890
+content_hash: 3a8b6fa45c40e16cb607caf092e8f95421b01fb0
 related_topics:
   - title: English version
     url: /en/windows/reg-unload.html
@@ -11,7 +11,7 @@ related_topics:
 # reg unload
 
 从使用`reg load`命令加载的注册表中删除数据。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/reg-unload>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/reg-unload>.
 
 - 从使用`reg load`命令加载的注册表中删除数据：
 

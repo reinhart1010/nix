@@ -2,7 +2,7 @@
 layout: page
 title: windows/cd (Nederlands)
 description: "Geeft de naam van de huidige werkmap weer of wijzigt deze."
-content_hash: 9facf3fb339f4e397f80deb6ae0561c2d003d548
+content_hash: 7bf91213a0b3c5fd2b45bb5891f790ca644c9325
 related_topics:
   - title: বাংলা version
     url: /bn/windows/cd.html
@@ -29,7 +29,7 @@ related_topics:
 # cd
 
 Geeft de naam van de huidige werkmap weer of wijzigt deze.
-Meer informatie: <https://docs.microsoft.com/windows-server/administration/windows-commands/cd>.
+Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
 - Ga naar een directory in dezelfde drive:
 

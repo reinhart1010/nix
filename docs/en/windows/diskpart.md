@@ -2,12 +2,12 @@
 layout: page
 title: windows/diskpart (English)
 description: "Disk, volume and partition manager."
-content_hash: c617f46a30c2c4b8aa50c1c27407a8936fc83ce5
+content_hash: 8a4cac2d13c6193c34b031b490b6d17a1f7049f3
 ---
 # diskpart
 
 Disk, volume and partition manager.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/diskpart>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/diskpart>.
 
 - Run diskpart by itself in an administrative command prompt to enter its command line:
 

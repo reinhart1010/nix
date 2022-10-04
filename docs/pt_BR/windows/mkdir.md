@@ -2,7 +2,7 @@
 layout: page
 title: windows/mkdir (português (Brasil))
 description: "Criar um diretório."
-content_hash: 4cc88bff2338479d965ae174a7f64d6b2dbfd62e
+content_hash: 990e0ff120c4c73538256a50e322760e02a47cd2
 related_topics:
   - title: English version
     url: /en/windows/mkdir.html
@@ -20,7 +20,7 @@ related_topics:
 # mkdir
 
 Criar um diretório.
-Mais informações: <https://docs.microsoft.com/windows-server/administration/windows-commands/mkdir>.
+Mais informações: <https://learn.microsoft.com/windows-server/administration/windows-commands/mkdir>.
 
 - Criar um diretório:
 

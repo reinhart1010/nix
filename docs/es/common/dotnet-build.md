@@ -2,7 +2,7 @@
 layout: page
 title: common/dotnet-build (español)
 description: "Compila una aplicación .NET y sus dependencias."
-content_hash: 9833b014a473cb84a218aee8140bc33cf937f36d
+content_hash: f7a919fb1209802f2e25268b4500d20d86a51d3d
 related_topics:
   - title: English version
     url: /en/common/dotnet-build.html
@@ -17,7 +17,7 @@ related_topics:
 # dotnet build
 
 Compila una aplicación .NET y sus dependencias.
-Más información: <https://docs.microsoft.com/dotnet/core/tools/dotnet-build>.
+Más información: <https://learn.microsoft.com/dotnet/core/tools/dotnet-build>.
 
 - Compila el proyecto o solución en el directorio actual:
 

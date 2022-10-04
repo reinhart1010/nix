@@ -2,7 +2,7 @@
 layout: page
 title: windows/print (English)
 description: "Print a text file to a printer."
-content_hash: 87518ea239f8c0fa61d46d5dbe1e4da8efec827f
+content_hash: e425516c2360a2ee68f4a9ce3b919fabcf9c4bbd
 related_topics:
   - title: Indonesia version
     url: /id/windows/print.html
@@ -20,7 +20,7 @@ related_topics:
 # print
 
 Print a text file to a printer.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/print>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/print>.
 
 - Print a text file to the default printer:
 

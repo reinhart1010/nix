@@ -2,12 +2,9 @@
 layout: page
 title: common/smalltalkci (English)
 description: "Framework for testing Smalltalk projects with GitHub Actions, Travis CI, AppVeyor, GitLab CI, and others."
-content_hash: 4841adafcdab8c779f030264fbbcf9d0b1883cc8
+content_hash: 7f878d6499c7c8ce55bc121b4d12647d74b1f22a
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># smalltalkci
+# smalltalkci
 
 Framework for testing Smalltalk projects with GitHub Actions, Travis CI, AppVeyor, GitLab CI, and others.
 More information: <https://github.com/hpi-swa/smalltalkCI>.
@@ -30,7 +27,7 @@ More information: <https://github.com/hpi-swa/smalltalkCI>.
 
 - Specify a custom Smalltalk image and VM:
 
-`smalltalkci --image `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/Smalltalk.image</span>` -- vm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/vm</span>
+`smalltalkci --image `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/Smalltalk.image</span>` --vm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/vm</span>
 
 - Clean up caches and delete builds:
 

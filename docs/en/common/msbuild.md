@@ -2,12 +2,12 @@
 layout: page
 title: common/msbuild (English)
 description: "The Microsoft build tool for Visual Studio project solutions."
-content_hash: 7c00002eeb1c21698305c254c2c9994754d0f110
+content_hash: c9fbd4e7f2fb6c0f29d0afdb637e7ba9757924b9
 ---
 # msbuild
 
 The Microsoft build tool for Visual Studio project solutions.
-More information: <https://docs.microsoft.com/visualstudio/msbuild>.
+More information: <https://learn.microsoft.com/visualstudio/msbuild>.
 
 - Build the first project file in the current directory:
 

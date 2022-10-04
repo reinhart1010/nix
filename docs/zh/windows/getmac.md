@@ -2,7 +2,7 @@
 layout: page
 title: windows/getmac (中文)
 description: "显示系统的 MAC 地址。"
-content_hash: ca561e41f86ecb1c52e27081bed6e643417a992f
+content_hash: d2ff9475f38261a66b4b8531d11909ac805d0fb6
 related_topics:
   - title: English version
     url: /en/windows/getmac.html
@@ -11,7 +11,7 @@ related_topics:
 # getmac
 
 显示系统的 MAC 地址。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/getmac>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/getmac>.
 
 - 显示当前系统的 MAC 地址：
 

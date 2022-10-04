@@ -2,7 +2,7 @@
 layout: page
 title: windows/systeminfo (English)
 description: "Display operating system configuration for a local or remote machine."
-content_hash: 9b129fcefaee36849ea27b9ebf84cfa883ff58ee
+content_hash: ffab1bd9555274b17962e7eaca4f496f936bbd0c
 related_topics:
   - title: 中文 version
     url: /zh/windows/systeminfo.html
@@ -11,7 +11,7 @@ related_topics:
 # systeminfo
 
 Display operating system configuration for a local or remote machine.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/systeminfo>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/systeminfo>.
 
 - Display system configuration for the local machine:
 

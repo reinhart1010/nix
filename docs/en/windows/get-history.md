@@ -2,13 +2,13 @@
 layout: page
 title: windows/get-history (English)
 description: "Display PowerShell command history."
-content_hash: cd697ec43d64dd1ab2d7f5c44b9eff381dd469a6
+content_hash: 38e5d82dd8d4ce878a405726a046c4002217f50b
 ---
 # Get-History
 
 Display PowerShell command history.
 This command can only be used through PowerShell.
-More information: <https://docs.microsoft.com/powershell/module/microsoft.powershell.core/get-history>.
+More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/get-history>.
 
 - Display the commands history list with ID:
 

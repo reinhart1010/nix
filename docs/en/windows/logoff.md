@@ -2,7 +2,7 @@
 layout: page
 title: windows/logoff (English)
 description: "Terminate a login session."
-content_hash: 97754a507c01c52ea19fc29ff575741b82b9817c
+content_hash: 7b89883743861f66dc7cd1e82e2caefebb16f0cc
 related_topics:
   - title: 中文 version
     url: /zh/windows/logoff.html
@@ -11,7 +11,7 @@ related_topics:
 # logoff
 
 Terminate a login session.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/logoff>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/logoff>.
 
 - Terminate the current session:
 

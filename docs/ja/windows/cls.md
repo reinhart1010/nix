@@ -2,7 +2,7 @@
 layout: page
 title: windows/cls (日本語)
 description: "画面をクリアします。"
-content_hash: 81bf0c4b4a3406e5d6bc1cd6544a2d96f32b375e
+content_hash: dcb4e09a449793572c21ac02ee33d2428ee86a9b
 related_topics:
   - title: English version
     url: /en/windows/cls.html
@@ -19,6 +19,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/windows/cls.html
     icon: bi bi-globe
+  - title: ไทย version
+    url: /th/windows/cls.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/cls.html
     icon: bi bi-globe
@@ -29,7 +32,7 @@ related_topics:
 # cls
 
 画面をクリアします。
-詳しくはこちら: <https://docs.microsoft.com/windows-server/administration/windows-commands/cls>
+詳しくはこちら: <https://learn.microsoft.com/windows-server/administration/windows-commands/cls>
 
 - 画面をクリアします:
 

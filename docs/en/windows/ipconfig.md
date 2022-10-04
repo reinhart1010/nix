@@ -2,7 +2,7 @@
 layout: page
 title: windows/ipconfig (English)
 description: "Display and manage the network configuration of Windows."
-content_hash: ab3d788a6294854b93b2c863851e01e45835dbc4
+content_hash: 112d4d952356f44346afd2c24fcb515976b441c9
 related_topics:
   - title: Indonesia version
     url: /id/windows/ipconfig.html
@@ -17,7 +17,7 @@ related_topics:
 # ipconfig
 
 Display and manage the network configuration of Windows.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/ipconfig>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/ipconfig>.
 
 - Show a list of network adapters:
 

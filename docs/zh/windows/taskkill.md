@@ -2,7 +2,7 @@
 layout: page
 title: windows/taskkill (中文)
 description: "按进程 id 或进程名终止进程。"
-content_hash: c82063cd95ac4092849a300c542da9c7eba71699
+content_hash: eb8cc50145153ecf4e24cc94cb53736dc8798aa3
 related_topics:
   - title: English version
     url: /en/windows/taskkill.html
@@ -11,7 +11,7 @@ related_topics:
 # taskkill
 
 按进程 id 或进程名终止进程。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/taskkill>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/taskkill>.
 
 - 通过进程 id 终止进程：
 

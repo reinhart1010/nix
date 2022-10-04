@@ -2,7 +2,7 @@
 layout: page
 title: windows/expand (中文)
 description: "解压一个或多个 cab 文件。"
-content_hash: 2f326529f7eaabd859f726407d1d4112d8f137b4
+content_hash: 0bd8e50faf95045f95a25292cef80028d8922917
 related_topics:
   - title: English version
     url: /en/windows/expand.html
@@ -11,7 +11,7 @@ related_topics:
 # expand
 
 解压一个或多个 cab 文件。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/expand>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/expand>.
 
 - 将单文件 cab 文件解压到指定目录：
 

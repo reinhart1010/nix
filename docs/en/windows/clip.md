@@ -2,7 +2,7 @@
 layout: page
 title: windows/clip (English)
 description: "Copy input content to the Windows clipboard."
-content_hash: 8c8250f8598608de6e76118bb7ed4f1cd7752a80
+content_hash: fb3896650caa68335649c3f378eb8221c9e4fbd1
 related_topics:
   - title: 日本語 version
     url: /ja/windows/clip.html
@@ -14,7 +14,7 @@ related_topics:
 # clip
 
 Copy input content to the Windows clipboard.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/clip>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/clip>.
 
 - Pipe command-line output to the Windows clipboard:
 

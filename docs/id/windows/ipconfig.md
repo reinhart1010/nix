@@ -2,7 +2,7 @@
 layout: page
 title: windows/ipconfig (Indonesia)
 description: "Menampilkan dan mengatur konfigurasi jaringan dalam sistem operasi Windows."
-content_hash: 8497110e3d288305346145d36659c2f78b46335a
+content_hash: 38c6708fa21ba016b4db3734299aef9b6e7b1154
 related_topics:
   - title: English version
     url: /en/windows/ipconfig.html
@@ -17,7 +17,7 @@ related_topics:
 # ipconfig
 
 Menampilkan dan mengatur konfigurasi jaringan dalam sistem operasi Windows.
-Informasi lebih lanjut: <https://docs.microsoft.com/windows-server/administration/windows-commands/ipconfig>.
+Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/ipconfig>.
 
 - Menunjukkan daftar adaptor jaringan:
 

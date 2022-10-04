@@ -2,7 +2,7 @@
 layout: page
 title: windows/shutdown (English)
 description: "A tool for shutting down, restarting or logging off a machine."
-content_hash: e26389333360a013d7dc729775359ca206d83690
+content_hash: 96ef007064c87b7ba71d83f4e5719b8be06f3764
 related_topics:
   - title: Nederlands version
     url: /nl/windows/shutdown.html
@@ -14,7 +14,7 @@ related_topics:
 # shutdown
 
 A tool for shutting down, restarting or logging off a machine.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/shutdown>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/shutdown>.
 
 - Shutdown the current machine:
 

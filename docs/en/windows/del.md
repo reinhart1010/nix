@@ -2,7 +2,7 @@
 layout: page
 title: windows/del (English)
 description: "Delete one or more files."
-content_hash: dd63b4cc751a32e2c725caa48d4bd4342c9e6c29
+content_hash: 50842596ac49e511324fcf3efced446a46a1513b
 related_topics:
   - title: 中文 version
     url: /zh/windows/del.html
@@ -11,7 +11,7 @@ related_topics:
 # del
 
 Delete one or more files.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/del>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/del>.
 
 - Delete one or more space-separated files or patterns:
 

@@ -2,7 +2,7 @@
 layout: page
 title: windows/xcopy (中文)
 description: "复制文件和目录树。"
-content_hash: 96d5a77836158ffa013d902e4683fb1f9ff04cb9
+content_hash: aea3686428bf1f65234eafdc42909445cfdedf4c
 related_topics:
   - title: English version
     url: /en/windows/xcopy.html
@@ -14,7 +14,7 @@ related_topics:
 # xcopy
 
 复制文件和目录树。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/xcopy>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/xcopy>.
 
 - 复制文件到指定的路径：
 

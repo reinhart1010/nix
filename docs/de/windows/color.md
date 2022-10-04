@@ -2,8 +2,11 @@
 layout: page
 title: windows/color (Deutsch)
 description: "Setze die Vordergrund- und Hintergrundfarben der Kommandozeile."
-content_hash: 1098e2b58bf886759611f24d0f0353d99296109f
+content_hash: a489c795769a53eae7d8cd157db1aa5c06506e46
 related_topics:
+  - title: català version
+    url: /ca/windows/color.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/color.html
     icon: bi bi-globe
@@ -14,7 +17,7 @@ related_topics:
 # color
 
 Setze die Vordergrund- und Hintergrundfarben der Kommandozeile.
-Weitere Informationen: <https://docs.microsoft.com/windows-server/administration/windows-commands/color>.
+Weitere Informationen: <https://learn.microsoft.com/windows-server/administration/windows-commands/color>.
 
 - Setze die Kommandozeilenfarben auf die Standardwerte:
 

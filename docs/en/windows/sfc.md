@@ -2,7 +2,7 @@
 layout: page
 title: windows/sfc (English)
 description: "Scans the integrity of Windows system files."
-content_hash: 2bb6d9534eedd92131a65cdad095c18cc413ee33
+content_hash: 5fdc321df91d69e264029677617766f552b48b04
 related_topics:
   - title: 中文 version
     url: /zh/windows/sfc.html
@@ -11,7 +11,7 @@ related_topics:
 # sfc
 
 Scans the integrity of Windows system files.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/sfc>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/sfc>.
 
 - Display information about the usage of the command:
 

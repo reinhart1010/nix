@@ -2,7 +2,7 @@
 layout: page
 title: common/dotnet-restore (polski)
 description: "Przywracanie zależności i narzędzi dla projektu .NET."
-content_hash: 5ea9fb805ee1aae8f017bb3b6d657b9e5ac45e8d
+content_hash: 0c2ca3b8a46f539a9bf0d10e688640c3072d3131
 related_topics:
   - title: English version
     url: /en/common/dotnet-restore.html
@@ -17,7 +17,7 @@ related_topics:
 # dotnet restore
 
 Przywracanie zależności i narzędzi dla projektu .NET.
-Więcej informacji: <https://docs.microsoft.com/dotnet/core/tools/dotnet-restore>.
+Więcej informacji: <https://learn.microsoft.com/dotnet/core/tools/dotnet-restore>.
 
 - Przywróć zależności dla projektu lub solucji w bieżącym katalogu:
 

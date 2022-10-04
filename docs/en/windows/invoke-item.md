@@ -2,16 +2,13 @@
 layout: page
 title: windows/invoke-item (English)
 description: "Open files in their respective default programs."
-content_hash: 0933ca8a44d86de209479bc92139c9a88b30376e
+content_hash: 53989d0aea0415037b37dc065c82ad486ecb7174
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># Invoke-Item
+# Invoke-Item
 
 Open files in their respective default programs.
 This command can only be used through PowerShell.
-More information: <https://docs.microsoft.com/powershell/module/microsoft.powershell.management/invoke-item>.
+More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/invoke-item>.
 
 - Open a file in its default program:
 

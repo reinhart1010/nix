@@ -2,7 +2,7 @@
 layout: page
 title: windows/ftype (English)
 description: "Display or modify file types used for file extension association."
-content_hash: d815de24c12a5453ebefb00a61e30d81d0f8207a
+content_hash: a74ca3fa6656e691afeeafe53d489bb150a71b61
 related_topics:
   - title: 中文 version
     url: /zh/windows/ftype.html
@@ -11,7 +11,7 @@ related_topics:
 # ftype
 
 Display or modify file types used for file extension association.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/ftype>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/ftype>.
 
 - Display a list of all file types:
 

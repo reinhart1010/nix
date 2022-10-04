@@ -2,7 +2,7 @@
 layout: page
 title: windows/tzutil (中文)
 description: "用于显示或配置系统时区的工具。"
-content_hash: 41bcf08ee415dfcdf519c28e3c87fa3769e067ca
+content_hash: e940e69f4c8fd916bd52398ae2151e0d64dcb23a
 related_topics:
   - title: English version
     url: /en/windows/tzutil.html
@@ -11,7 +11,7 @@ related_topics:
 # tzutil
 
 用于显示或配置系统时区的工具。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/tzutil>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/tzutil>.
 
 - 获取当前的时区：
 

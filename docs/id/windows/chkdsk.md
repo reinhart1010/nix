@@ -2,7 +2,7 @@
 layout: page
 title: windows/chkdsk (Indonesia)
 description: "Memeriksa dan mencari kesalahan dalam sebuah sistem file dan metadata volume penyimpanan."
-content_hash: 64157280b9e8a2d1ffb7de35dfde2ec8f431acd2
+content_hash: 0bcdca49e5150620d5ff0642d5d0161c4d137462
 related_topics:
   - title: English version
     url: /en/windows/chkdsk.html
@@ -11,7 +11,7 @@ related_topics:
 # chkdsk
 
 Memeriksa dan mencari kesalahan dalam sebuah sistem file dan metadata volume penyimpanan.
-Informasi lebih lanjut: <https://docs.microsoft.com/windows-server/administration/windows-commands/chkdsk>.
+Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/chkdsk>.
 
 - Memeriksa sebuah ruang penyimpanan berdasarkan huruf drive (diakhiri dengan titik dua), lokasi pemasangan, atau nama ruang:
 

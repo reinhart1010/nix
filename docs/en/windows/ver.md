@@ -2,7 +2,7 @@
 layout: page
 title: windows/ver (English)
 description: "Display the current Windows or MS-DOS version number."
-content_hash: 511fd409c36cc28e5097fc15b4b036f5bce119ff
+content_hash: 80bc880721b6aab04922491f8514f89fc2c69945
 related_topics:
   - title: فارسی version
     url: /fa/windows/ver.html
@@ -23,7 +23,7 @@ related_topics:
 # ver
 
 Display the current Windows or MS-DOS version number.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/ver>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/ver>.
 
 - Display the current version number:
 

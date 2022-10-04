@@ -2,7 +2,7 @@
 layout: page
 title: windows/taskkill (English)
 description: "Terminate a process by its process ID or name."
-content_hash: 46e00fc18b8a90f87dab6e562de7cadc0cadc1cc
+content_hash: c85a19b0fd674359e39daa60a31fd3be61e0648b
 related_topics:
   - title: 中文 version
     url: /zh/windows/taskkill.html
@@ -11,7 +11,7 @@ related_topics:
 # taskkill
 
 Terminate a process by its process ID or name.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/taskkill>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/taskkill>.
 
 - Terminate a process by its ID:
 

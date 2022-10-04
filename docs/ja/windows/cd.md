@@ -2,7 +2,7 @@
 layout: page
 title: windows/cd (日本語)
 description: "現在の作業ディレクトリの名前を表示するか、現在の作業ディレクトリを変更します。"
-content_hash: af4b96bffd2a7db7df5e418c495d0e6420db4113
+content_hash: 1ffc522864d37f554f643861cfbbf4c45971ee4a
 related_topics:
   - title: বাংলা version
     url: /bn/windows/cd.html
@@ -29,7 +29,7 @@ related_topics:
 # cd
 
 現在の作業ディレクトリの名前を表示するか、現在の作業ディレクトリを変更します。
-詳しくはこちら: <https://docs.microsoft.com/windows-server/administration/windows-commands/cd>
+詳しくはこちら: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>
 
 - 同じドライブ内のディレクトリに移動します:
 

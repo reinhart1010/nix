@@ -2,7 +2,7 @@
 layout: page
 title: windows/fondue (中文)
 description: "可选 Windows 功能的命令行安装程序。"
-content_hash: 207ba6ce9107b60c8ea7d423b4472a6945904057
+content_hash: 45acaa7b7bf478b3688520c0e9c1b6e754ad7b49
 related_topics:
   - title: English version
     url: /en/windows/fondue.html
@@ -11,7 +11,7 @@ related_topics:
 # fondue
 
 可选 Windows 功能的命令行安装程序。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/fondue>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/fondue>.
 
 - 启用一个指定的 Windows 功能：
 

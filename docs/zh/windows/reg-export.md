@@ -2,7 +2,7 @@
 layout: page
 title: windows/reg-export (中文)
 description: "将指定的子键和值导出到文件中。"
-content_hash: dc8efe375ec955a6a85478b1ef9a67cb7f2df44a
+content_hash: dcadaae99347d667a3c160103cd37577c0905d88
 related_topics:
   - title: English version
     url: /en/windows/reg-export.html
@@ -11,7 +11,7 @@ related_topics:
 # reg export
 
 将指定的子键和值导出到文件中。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/reg-export>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/reg-export>.
 
 - 导出指定键下所有的子键和值：
 

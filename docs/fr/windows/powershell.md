@@ -2,11 +2,8 @@
 layout: page
 title: windows/powershell (français)
 description: "Interface en ligne de commande et langage de script spécialement conçu pour l'administration système."
-content_hash: fe658995869e2278c7d29ca4be25cc1aa357238c
+content_hash: caf61344b2c2d4885c8c5db890bde7ba729c4547
 related_topics:
-  - title: English version
-    url: /en/windows/powershell.html
-    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/powershell.html
     icon: bi bi-globe
@@ -14,7 +11,7 @@ related_topics:
 # powershell
 
 Interface en ligne de commande et langage de script spécialement conçu pour l'administration système.
-Plus d'informations : <https://docs.microsoft.com/windows-server/administration/windows-commands/powershell>.
+Plus d'informations : <https://learn.microsoft.com/windows-server/administration/windows-commands/powershell>.
 
 - Démarre une session Windows PowerShell dans une fenêtre d'invite de commande :
 

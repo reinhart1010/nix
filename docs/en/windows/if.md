@@ -2,12 +2,12 @@
 layout: page
 title: windows/if (English)
 description: "Performs conditional processing in batch scripts."
-content_hash: 76eea061f7fe8946856d90d857c01c3eb2a9c341
+content_hash: 98a1344c0f82277faa400e4a3cfc6d790ab7dc0c
 ---
 # if
 
 Performs conditional processing in batch scripts.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/if>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/if>.
 
 - Execute the specified commands if the condition is true:
 

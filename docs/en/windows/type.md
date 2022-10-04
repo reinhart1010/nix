@@ -2,7 +2,7 @@
 layout: page
 title: windows/type (English)
 description: "Display the contents of a file."
-content_hash: 6879cb399e2059fbb70630aaf4fab258df3a645e
+content_hash: 4b2dc479ef85566a742f9b96d9b2d04b6afd1be7
 related_topics:
   - title: فارسی version
     url: /fa/windows/type.html
@@ -17,7 +17,7 @@ related_topics:
 # type
 
 Display the contents of a file.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/type>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/type>.
 
 - Display the contents of a specific file:
 

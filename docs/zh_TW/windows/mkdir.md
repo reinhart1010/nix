@@ -2,7 +2,7 @@
 layout: page
 title: windows/mkdir (中文 (繁體, 台灣))
 description: "建立一個資料夾。"
-content_hash: f26f68401231cff735955a7730516163439f668f
+content_hash: ee71bba2e5dbd0523cc14f5089a5899a7fba88aa
 related_topics:
   - title: English version
     url: /en/windows/mkdir.html
@@ -20,7 +20,7 @@ related_topics:
 # mkdir
 
 建立一個資料夾。
-更多資訊：<https://docs.microsoft.com/windows-server/administration/windows-commands/mkdir>.
+更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/mkdir>.
 
 - 建立一個資料夾：
 

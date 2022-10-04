@@ -2,7 +2,7 @@
 layout: page
 title: windows/pathping (中文)
 description: "一种结合了`ping`和`tracert`功能的跟踪路由工具。"
-content_hash: e39ec805785e3f64bb080977cf42b2be566e3bd8
+content_hash: c68c034f37c1bc8594b0839b505bcd37d76866b6
 related_topics:
   - title: English version
     url: /en/windows/pathping.html
@@ -11,7 +11,7 @@ related_topics:
 # pathping
 
 一种结合了`ping`和`tracert`功能的跟踪路由工具。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/pathping>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/pathping>.
 
 - Ping 并追踪主机的路由：
 

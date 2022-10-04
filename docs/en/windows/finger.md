@@ -2,7 +2,7 @@
 layout: page
 title: windows/finger (English)
 description: "Return information about one or more users on a specified system."
-content_hash: 3c8092ad6d8f46def1cbf0d88b85365f18266902
+content_hash: 9c85f8d18e841ea48b9f58e977f58366b4bb5018
 related_topics:
   - title: 中文 version
     url: /zh/windows/finger.html
@@ -12,7 +12,7 @@ related_topics:
 
 Return information about one or more users on a specified system.
 The remote system must be running the Finger service.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/finger>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/finger>.
 
 - Display information about a specific user:
 

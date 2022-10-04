@@ -2,7 +2,7 @@
 layout: page
 title: windows/find (中文)
 description: "在一个或多个文件里查找指定字符串。"
-content_hash: 45bbc57272c3e2ced89a328b4e558eb9d6ec9ad8
+content_hash: fcbbd59c7164a504cd36f3b534f71e708478fd7c
 related_topics:
   - title: English version
     url: /en/windows/find.html
@@ -23,7 +23,7 @@ related_topics:
 # find
 
 在一个或多个文件里查找指定字符串。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/find>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/find>.
 
 - 查找包含指定字符串的行：
 

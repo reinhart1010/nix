@@ -2,7 +2,7 @@
 layout: page
 title: windows/findstr (中文)
 description: "在一个或多个文件中查找指定的文本。"
-content_hash: 3c235e1d824cdc0f7fa9b59b1fc7ff341b08657a
+content_hash: e04eabcdbbee8e33cf272d4f4cb336e76f75e034
 related_topics:
   - title: English version
     url: /en/windows/findstr.html
@@ -11,7 +11,7 @@ related_topics:
 # findstr
 
 在一个或多个文件中查找指定的文本。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/findstr>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/findstr>.
 
 - 在所有文件中查找以空格分隔的字符串：
 

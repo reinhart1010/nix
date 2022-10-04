@@ -2,7 +2,7 @@
 layout: page
 title: common/dotnet-build (English)
 description: "Builds a .NET application and its dependencies."
-content_hash: e14950b72a6786d3041c61604d6cfe23ef2235fc
+content_hash: 1dde27068e92de06c3a49eeb45265985f8ad52dc
 related_topics:
   - title: español version
     url: /es/common/dotnet-build.html
@@ -17,7 +17,7 @@ related_topics:
 # dotnet build
 
 Builds a .NET application and its dependencies.
-More information: <https://docs.microsoft.com/dotnet/core/tools/dotnet-build>.
+More information: <https://learn.microsoft.com/dotnet/core/tools/dotnet-build>.
 
 - Compile the project or solution in the current directory:
 

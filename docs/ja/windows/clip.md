@@ -2,7 +2,7 @@
 layout: page
 title: windows/clip (日本語)
 description: "入力コンテンツをWindowsクリップボードにコピーします。"
-content_hash: 4091214f824f6ef784ab8443b2fca5e08ac6ef6a
+content_hash: b89e3e70ab5bb17dfabd4d374694f4453b360f18
 related_topics:
   - title: English version
     url: /en/windows/clip.html
@@ -14,7 +14,7 @@ related_topics:
 # clip
 
 入力コンテンツをWindowsクリップボードにコピーします。
-詳しくはこちら: <https://docs.microsoft.com/windows-server/administration/windows-commands/clip>
+詳しくはこちら: <https://learn.microsoft.com/windows-server/administration/windows-commands/clip>
 
 - コマンドライン出力をWindowsクリップボードにパイプします:
 

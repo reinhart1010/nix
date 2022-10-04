@@ -2,7 +2,7 @@
 layout: page
 title: windows/subst (English)
 description: "Associates a path with a virtual drive letter."
-content_hash: 85de43b5a7597368770426a0d65c80a00f13d701
+content_hash: 9cd390652d53ee44636f02ff487f98d055224b48
 related_topics:
   - title: 中文 version
     url: /zh/windows/subst.html
@@ -11,7 +11,7 @@ related_topics:
 # subst
 
 Associates a path with a virtual drive letter.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/subst>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/subst>.
 
 - List active associations:
 

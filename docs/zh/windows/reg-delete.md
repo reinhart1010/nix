@@ -2,7 +2,7 @@
 layout: page
 title: windows/reg-delete (中文)
 description: "从注册表中删除键和值。"
-content_hash: 1baabba1f0c39bbbea27b8e459a57badb1d81cf1
+content_hash: 930a9ee1c9bb30a00f10dbeab47d65b68a1a06bc
 related_topics:
   - title: English version
     url: /en/windows/reg-delete.html
@@ -11,7 +11,7 @@ related_topics:
 # reg delete
 
 从注册表中删除键和值。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/reg-delete>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/reg-delete>.
 
 - 删除一个指定的键：
 

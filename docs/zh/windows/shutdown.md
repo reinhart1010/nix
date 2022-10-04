@@ -2,7 +2,7 @@
 layout: page
 title: windows/shutdown (中文)
 description: "用于关闭，重新启动或注销计算机的工具。"
-content_hash: 98b9bc46986d47795df540500396db357de7d37b
+content_hash: 2acde6ce906f7e0ba857b69ef356ad081669fd4c
 related_topics:
   - title: English version
     url: /en/windows/shutdown.html
@@ -14,7 +14,7 @@ related_topics:
 # shutdown
 
 用于关闭，重新启动或注销计算机的工具。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/shutdown>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/shutdown>.
 
 - 关闭当前的计算机：
 

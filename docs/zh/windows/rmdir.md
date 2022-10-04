@@ -2,7 +2,7 @@
 layout: page
 title: windows/rmdir (中文)
 description: "删除一个目录和其中的内容。"
-content_hash: 86f141a2d963bce0544146a0c2760435fedd97e2
+content_hash: b57fd29256706985b955c18bea0490ee05b9b93b
 related_topics:
   - title: English version
     url: /en/windows/rmdir.html
@@ -10,11 +10,14 @@ related_topics:
   - title: Nederlands version
     url: /nl/windows/rmdir.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/rmdir.html
+    icon: bi bi-globe
 ---
 # rmdir
 
 删除一个目录和其中的内容。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/rmdir>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/rmdir>.
 
 - 删除一个空目录：
 

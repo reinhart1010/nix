@@ -2,13 +2,13 @@
 layout: page
 title: common/az-account (English)
 description: "Manage Azure subscription information."
-content_hash: de102e65496080e6ebb0c41af79e5fb20a893ff2
+content_hash: 5b32a4b56cc425c58c0a0e251bf46d77628c91df
 ---
 # az account
 
 Manage Azure subscription information.
 Part of `az`, the command-line client for Microsoft Azure.
-More information: <https://docs.microsoft.com/cli/azure/account>.
+More information: <https://learn.microsoft.com/cli/azure/account>.
 
 - Print a list of subscriptions for the logged in account:
 

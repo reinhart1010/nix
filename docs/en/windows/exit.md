@@ -2,7 +2,7 @@
 layout: page
 title: windows/exit (English)
 description: "Quit the current CMD instance or the current batch file."
-content_hash: 2e5a0728000f5de073345f7cd97e120b556170c5
+content_hash: e4fc1d46511c33ef2e4bf1fc818935da6c870990
 related_topics:
   - title: 中文 version
     url: /zh/windows/exit.html
@@ -14,7 +14,7 @@ related_topics:
 # exit
 
 Quit the current CMD instance or the current batch file.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/exit>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/exit>.
 
 - Quit the current CMD instance:
 

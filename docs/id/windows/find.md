@@ -2,7 +2,7 @@
 layout: page
 title: windows/find (Indonesia)
 description: "Mencari teks tertentu di dalam suatu file atau direktori."
-content_hash: 3191d78dae0643a739ff79cf463f627c416580b6
+content_hash: 4730ee2bfe035f88b172c2e3eb86e5a864a8cb14
 related_topics:
   - title: English version
     url: /en/windows/find.html
@@ -23,7 +23,7 @@ related_topics:
 # find
 
 Mencari teks tertentu di dalam suatu file atau direktori.
-Informasi lebih lanjut: <https://docs.microsoft.com/windows-server/administration/windows-commands/find>.
+Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/find>.
 
 - Mencari baris-baris dalam file yang mengandung teks tertentu:
 

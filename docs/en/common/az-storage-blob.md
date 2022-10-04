@@ -2,13 +2,13 @@
 layout: page
 title: common/az-storage-blob (English)
 description: "Manage blob storage containers and objects in Azure."
-content_hash: 893970e09dab2d9d9b4b1146b0dca3607a08b31a
+content_hash: 23ac5865f05fea6a1c190ffe7d7ecfe7dd6b0f94
 ---
 # az storage blob
 
 Manage blob storage containers and objects in Azure.
 Part of `azure-cli`.
-More information: <https://docs.microsoft.com/cli/azure/storage/blob>.
+More information: <https://learn.microsoft.com/cli/azure/storage/blob>.
 
 - Download a blob to a file path:
 

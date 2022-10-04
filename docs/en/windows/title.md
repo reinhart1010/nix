@@ -2,7 +2,7 @@
 layout: page
 title: windows/title (English)
 description: "Set the title of the command prompt window."
-content_hash: 8468e4c88839af963a39f6a9a3c7ef2e4df93a03
+content_hash: 68c15d2e94bcb95e8b81ffcabc079b4bb3e091d9
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/windows/title.html
@@ -14,7 +14,7 @@ related_topics:
 # title
 
 Set the title of the command prompt window.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/title>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/title>.
 
 - Set the title of the current command prompt window:
 

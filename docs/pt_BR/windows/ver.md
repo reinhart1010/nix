@@ -2,7 +2,7 @@
 layout: page
 title: windows/ver (português (Brasil))
 description: "Exibe a atual versão do Windows ou MS-DOS."
-content_hash: f23ee5ba1c9c8fb90959f3bddcb8f61d29bbf1a5
+content_hash: 4db6c546da33652fd77aad651820b240082170f8
 related_topics:
   - title: English version
     url: /en/windows/ver.html
@@ -23,7 +23,7 @@ related_topics:
 # ver
 
 Exibe a atual versão do Windows ou MS-DOS.
-Mais informações: <https://docs.microsoft.com/windows-server/administration/windows-commands/ver>.
+Mais informações: <https://learn.microsoft.com/windows-server/administration/windows-commands/ver>.
 
 - Mostra a atual versão:
 

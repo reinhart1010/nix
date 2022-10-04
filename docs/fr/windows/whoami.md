@@ -2,7 +2,7 @@
 layout: page
 title: windows/whoami (français)
 description: "Affiche des détails sur l'utilisateur courant."
-content_hash: 5d366b3f9c9a075757bd8cae24b3b830d904a017
+content_hash: 7c9bd8eeb50ea2544b5fda5d194c17ed78efd208
 related_topics:
   - title: English version
     url: /en/windows/whoami.html
@@ -20,7 +20,7 @@ related_topics:
 # whoami
 
 Affiche des détails sur l'utilisateur courant.
-Plus d'informations : <https://docs.microsoft.com/windows-server/administration/windows-commands/whoami>.
+Plus d'informations : <https://learn.microsoft.com/windows-server/administration/windows-commands/whoami>.
 
 - Affiche le nom de l'utilisateur courant :
 

@@ -2,7 +2,7 @@
 layout: page
 title: windows/ipconfig (中文)
 description: "显示和管理 Windows 的网络配置。"
-content_hash: ccfc68430bd43dbb91840ac66da1f65f20de8e6c
+content_hash: 8c91fed306e7fde2733e4ec7fd027f986ce64f24
 related_topics:
   - title: English version
     url: /en/windows/ipconfig.html
@@ -17,7 +17,7 @@ related_topics:
 # ipconfig
 
 显示和管理 Windows 的网络配置。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/ipconfig>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/ipconfig>.
 
 - 显示网络适配器列表：
 

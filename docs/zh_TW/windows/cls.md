@@ -2,7 +2,7 @@
 layout: page
 title: windows/cls (中文 (繁體, 台灣))
 description: "清除命令提示字元中的輸出文字。"
-content_hash: b92f4937331a38883304b18824a3eed8ce2cfea0
+content_hash: 6b3eb6bbaa7839c08b56b3e7241e041852de028c
 related_topics:
   - title: English version
     url: /en/windows/cls.html
@@ -22,6 +22,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/windows/cls.html
     icon: bi bi-globe
+  - title: ไทย version
+    url: /th/windows/cls.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/cls.html
     icon: bi bi-globe
@@ -29,7 +32,7 @@ related_topics:
 # cls
 
 清除命令提示字元中的輸出文字。
-更多資訊：<https://docs.microsoft.com/windows-server/administration/windows-commands/cls>.
+更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/cls>.
 
 - 清除輸出：
 

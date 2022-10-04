@@ -2,8 +2,11 @@
 layout: page
 title: windows/dir (português (Brasil))
 description: "Listar os conteúdos de um diretório."
-content_hash: 378fd7354ccc927752471981d6b2b3694ea66788
+content_hash: 216564a64d32d43914957fae1edea60eefcafb76
 related_topics:
+  - title: català version
+    url: /ca/windows/dir.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/dir.html
     icon: bi bi-globe
@@ -29,7 +32,7 @@ related_topics:
 # dir
 
 Listar os conteúdos de um diretório.
-Mais informações: <https://docs.microsoft.com/windows-server/administration/windows-commands/dir>.
+Mais informações: <https://learn.microsoft.com/windows-server/administration/windows-commands/dir>.
 
 - Mostrar o conteúdo do diretório atual:
 

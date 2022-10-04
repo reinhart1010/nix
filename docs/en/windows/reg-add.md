@@ -2,7 +2,7 @@
 layout: page
 title: windows/reg-add (English)
 description: "Add new keys and their values to the registry."
-content_hash: 991315742d2d492f9da05d35ff7625fbe073751e
+content_hash: ca168b735c210a2246555b93f6ba671395840210
 related_topics:
   - title: 中文 version
     url: /zh/windows/reg-add.html
@@ -11,7 +11,7 @@ related_topics:
 # reg add
 
 Add new keys and their values to the registry.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/reg-add>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg-add>.
 
 - Add a new registry key:
 

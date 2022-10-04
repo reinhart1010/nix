@@ -2,7 +2,7 @@
 layout: page
 title: common/dotnet (Deutsch)
 description: "Plattformübergreifende Kommandozeilenandwendungen für .NET Core."
-content_hash: b9ca5429bfdef3fdd2c5558b08a6e231faaa1e52
+content_hash: 1dc84de22a1a482c1e5c6a9a756833fb186c7c1a
 related_topics:
   - title: English version
     url: /en/common/dotnet.html
@@ -22,12 +22,15 @@ related_topics:
   - title: русский version
     url: /ru/common/dotnet.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/dotnet.html
+    icon: bi bi-globe
 ---
 # dotnet
 
 Plattformübergreifende Kommandozeilenandwendungen für .NET Core.
 Manche Unterbefehle wie `dotnet build` sind separat dokumentiert.
-Weitere Informationen: <https://docs.microsoft.com/dotnet/core/tools>.
+Weitere Informationen: <https://learn.microsoft.com/dotnet/core/tools>.
 
 - Initialisiere ein neues .NET Projekt:
 

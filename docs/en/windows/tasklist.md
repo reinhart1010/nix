@@ -2,7 +2,7 @@
 layout: page
 title: windows/tasklist (English)
 description: "Display a list of currently running processes on a local or remote machine."
-content_hash: cd4c37a1835425420cdec3b36c7e7726b6eb4d76
+content_hash: 47305d02e52d0f7c55d5f3477bd9519f41900911
 related_topics:
   - title: 中文 version
     url: /zh/windows/tasklist.html
@@ -11,7 +11,7 @@ related_topics:
 # tasklist
 
 Display a list of currently running processes on a local or remote machine.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/tasklist>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/tasklist>.
 
 - Display currently running processes:
 

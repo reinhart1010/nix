@@ -2,7 +2,7 @@
 layout: page
 title: windows/tree (português (Brasil))
 description: "Exibe uma árvore gráfica da estrutura do diretório no caminho."
-content_hash: 8ea41d9c6ab7b6eae6b9fb97a3dea6f8d53cffd7
+content_hash: 3248f3a91d048d7bdde7a1d1d8aae31e0eab0983
 related_topics:
   - title: English version
     url: /en/windows/tree.html
@@ -20,7 +20,7 @@ related_topics:
 # tree
 
 Exibe uma árvore gráfica da estrutura do diretório no caminho.
-Mais informações: <https://docs.microsoft.com/windows-server/administration/windows-commands/tree>.
+Mais informações: <https://learn.microsoft.com/windows-server/administration/windows-commands/tree>.
 
 - Exibe a árvore para o diretório atual:
 

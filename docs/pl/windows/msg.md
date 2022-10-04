@@ -2,7 +2,7 @@
 layout: page
 title: windows/msg (polski)
 description: "Wyślij wiadomość do wybranego użytnownika lub sesji:"
-content_hash: 3707ff070e1fae32a054b209f123dc8939ad0b02
+content_hash: b9215afeeb46c41a8c13c10d086f63544d420fa5
 related_topics:
   - title: English version
     url: /en/windows/msg.html
@@ -14,7 +14,7 @@ related_topics:
 # msg
 
 Wyślij wiadomość do wybranego użytnownika lub sesji:
-Więcej informacji: <https://docs.microsoft.com/windows-server/administration/windows-commands/msg>.
+Więcej informacji: <https://learn.microsoft.com/windows-server/administration/windows-commands/msg>.
 
 - Wysyła wiadomość do użytkownika lub sesji:
 

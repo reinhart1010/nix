@@ -2,7 +2,7 @@
 layout: page
 title: windows/attrib (日本語)
 description: "ファイルまたはディレクトリの属性を表示または変更します。"
-content_hash: 23baf5ff80f78b76ace59226f9c57623925aee0c
+content_hash: 16831f332111f27e1a8b93e23cf45bea9e2593c6
 related_topics:
   - title: English version
     url: /en/windows/attrib.html
@@ -14,7 +14,7 @@ related_topics:
 # attrib
 
 ファイルまたはディレクトリの属性を表示または変更します。
-詳しくはこちら: <https://docs.microsoft.com/windows-server/administration/windows-commands/attrib>
+詳しくはこちら: <https://learn.microsoft.com/windows-server/administration/windows-commands/attrib>
 
 - 現在のディレクトリ内のファイルの属性を表示します:
 

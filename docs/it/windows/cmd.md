@@ -2,7 +2,7 @@
 layout: page
 title: windows/cmd (italiano)
 description: "L'interprete dei comandi di Windows."
-content_hash: 9ddfe06eafa5066915d686e791b196a1bb93dc63
+content_hash: d49b1b36f356c999bed2ce4b872b42a7a1e08338
 related_topics:
   - title: English version
     url: /en/windows/cmd.html
@@ -26,7 +26,7 @@ related_topics:
 # cmd
 
 L'interprete dei comandi di Windows.
-Maggiori informazioni: <https://docs.microsoft.com/windows-server/administration/windows-commands/cmd>.
+Maggiori informazioni: <https://learn.microsoft.com/windows-server/administration/windows-commands/cmd>.
 
 - Lancia una nuova istanza dell'interprete dei comandi:
 

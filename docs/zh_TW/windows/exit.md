@@ -2,7 +2,7 @@
 layout: page
 title: windows/exit (中文 (繁體, 台灣))
 description: "退出當前的命令解釋器實例或批次檔。"
-content_hash: 8e3713d3b9f9d23c0f92977b8c9738c0147e7ff5
+content_hash: f159e70ea27a6879c8cbea4115132bbf59bac7a4
 related_topics:
   - title: English version
     url: /en/windows/exit.html
@@ -14,7 +14,7 @@ related_topics:
 # exit
 
 退出當前的命令解釋器實例或批次檔。
-更多資訊：<https://docs.microsoft.com/windows-server/administration/windows-commands/exit>.
+更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/exit>.
 
 - 退出當前的命令解釋器實例：
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/dotnet-publish (русский)
 description: "Публикует .NET-приложение и его зависимости в папку для развёртываения на целевой системе."
-content_hash: c55551e33d583bc375af4526bf0e887195a54b9c
+content_hash: 0dcb445d9c6d61f8994212543263bf0c1a094414
 related_topics:
   - title: English version
     url: /en/common/dotnet-publish.html
@@ -17,7 +17,7 @@ related_topics:
 # dotnet publish
 
 Публикует .NET-приложение и его зависимости в папку для развёртываения на целевой системе.
-Больше информации: <https://docs.microsoft.com/dotnet/core/tools/dotnet-publish>.
+Больше информации: <https://learn.microsoft.com/dotnet/core/tools/dotnet-publish>.
 
 - Скомпилировать проект .NET в режиме release:
 

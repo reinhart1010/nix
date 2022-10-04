@@ -2,7 +2,7 @@
 layout: page
 title: common/dotnet-restore (español)
 description: "Restarua las dependencias y herramientas de un proyecto .NET."
-content_hash: 38391e704051ccbde6d3814f44ef916b09db6ca3
+content_hash: 0d8ffc82f701b4c19f1d64d01b1b050ec1d6ba39
 related_topics:
   - title: English version
     url: /en/common/dotnet-restore.html
@@ -17,7 +17,7 @@ related_topics:
 # dotnet restore
 
 Restarua las dependencias y herramientas de un proyecto .NET.
-Más información: <https://docs.microsoft.com/dotnet/core/tools/dotnet-restore>.
+Más información: <https://learn.microsoft.com/dotnet/core/tools/dotnet-restore>.
 
 - Restaura dependencias para un proyecto o solución .NET en el directorio actual:
 

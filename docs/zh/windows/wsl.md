@@ -2,7 +2,7 @@
 layout: page
 title: windows/wsl (中文)
 description: "从命令行管理适用于 Linux 的 Windows 子系统。"
-content_hash: 92de9d74998e3e331006c4d0e32cadc6d2e01e3a
+content_hash: 173daa5879dbcd48fd3a875100c8f19fd912777b
 related_topics:
   - title: Deutsch version
     url: /de/windows/wsl.html
@@ -14,7 +14,7 @@ related_topics:
 # wsl
 
 从命令行管理适用于 Linux 的 Windows 子系统。
-更多信息：<https://docs.microsoft.com/windows/wsl/reference>.
+更多信息：<https://learn.microsoft.com/windows/wsl/reference>.
 
 - 启动 Linux Shell（在默认发行版中）：
 

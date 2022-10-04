@@ -2,19 +2,16 @@
 layout: page
 title: windows/msiexec (Indonesia)
 description: "Memasang, memperbarui, memperbaiki, atau menghapus program Windows melalui file MSI dan MSP yang tersedia."
-content_hash: 1c871186fae9347f179120d9d8de3c41922110c2
+content_hash: 78f468ee48188607634e8407338da30439a5fbd1
 related_topics:
   - title: English version
     url: /en/windows/msiexec.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># msiexec
+# msiexec
 
 Memasang, memperbarui, memperbaiki, atau menghapus program Windows melalui file MSI dan MSP yang tersedia.
-Informasi lebih lanjut: <https://docs.microsoft.com/windows-server/administration/windows-commands/msiexec>.
+Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/msiexec>.
 
 - Memasang sebuah program melalui file MSI:
 

@@ -2,16 +2,16 @@
 layout: page
 title: windows/powershell (中文)
 description: "专为系统管理而设计的命令行 shell 和脚本语言。"
-content_hash: dd5cb880f641738f96eff6b7cd8b76ac6af79f44
+content_hash: a245dbedbcdba0e937887453d3d5e4c3cd44a076
 related_topics:
-  - title: English version
-    url: /en/windows/powershell.html
+  - title: français version
+    url: /fr/windows/powershell.html
     icon: bi bi-globe
 ---
 # powershell
 
 专为系统管理而设计的命令行 shell 和脚本语言。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/powershell>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/powershell>.
 
 - 在命令提示符窗口中启动 Windows PowerShell 会话：
 

@@ -2,7 +2,7 @@
 layout: page
 title: windows/fc (中文)
 description: "比较两个文件或文件集之间的差异。"
-content_hash: 0b04b99903a125b152f320fa3cdc62b39c8d46fa
+content_hash: 0a37a61812d10472478c185f992d2e1b48232426
 related_topics:
   - title: English version
     url: /en/windows/fc.html
@@ -12,7 +12,7 @@ related_topics:
 
 比较两个文件或文件集之间的差异。
 使用通配符（*）来比较文件集。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/fc>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/fc>.
 
 - 比较两个指定的文件：
 

@@ -2,7 +2,7 @@
 layout: page
 title: windows/reg-query (English)
 description: "Display the values of keys and sub keys in the registry."
-content_hash: 81e0605a3b06cbbd9f6122ae13f3e7a65843e7ff
+content_hash: f6e4cfa5383a889206f22b809810f24d439463d2
 related_topics:
   - title: 中文 version
     url: /zh/windows/reg-query.html
@@ -11,7 +11,7 @@ related_topics:
 # reg query
 
 Display the values of keys and sub keys in the registry.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/reg-query>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg-query>.
 
 - Display all values of a key:
 

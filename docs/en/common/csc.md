@@ -2,7 +2,7 @@
 layout: page
 title: common/csc (English)
 description: "The Microsoft C# Compiler."
-content_hash: 692ae84a1c3bdbd7d7d4bc999b49cd12f3218418
+content_hash: 758a2f767c2864e0635e5f44c26839bdfc86ed23
 related_topics:
   - title: italiano version
     url: /it/common/csc.html
@@ -14,7 +14,7 @@ related_topics:
 # csc
 
 The Microsoft C# Compiler.
-More information: <https://docs.microsoft.com/dotnet/csharp/language-reference/compiler-options/command-line-building-with-csc-exe>.
+More information: <https://learn.microsoft.com/dotnet/csharp/language-reference/compiler-options/command-line-building-with-csc-exe>.
 
 - Compile one or more C# files to a CIL executable:
 

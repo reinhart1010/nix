@@ -2,7 +2,7 @@
 layout: page
 title: windows/find (Nederlands)
 description: "Vind een gespecificieerde string in een bestand."
-content_hash: 7d6133e7a0e1f54f920691ef29062e5d56f9789c
+content_hash: 80e0dbb91b15d503529a9aa319cfa85427479212
 related_topics:
   - title: English version
     url: /en/windows/find.html
@@ -23,7 +23,7 @@ related_topics:
 # find
 
 Vind een gespecificieerde string in een bestand.
-Meer informatie: <https://docs.microsoft.com/windows-server/administration/windows-commands/find>.
+Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/find>.
 
 - Vind de lijnen dat een specifieke string bevatten:
 

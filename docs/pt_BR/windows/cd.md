@@ -2,7 +2,7 @@
 layout: page
 title: windows/cd (português (Brasil))
 description: "Exibe o nome ou altera o diretório local atual."
-content_hash: 2f10182855efedd7af796da5dc165126ffd30b68
+content_hash: c22d950c9903c8d4f73bcb4a872b89dfb0056d0c
 related_topics:
   - title: বাংলা version
     url: /bn/windows/cd.html
@@ -29,7 +29,7 @@ related_topics:
 # cd
 
 Exibe o nome ou altera o diretório local atual.
-Mais informações: <https://docs.microsoft.com/windows-server/administration/windows-commands/cd>.
+Mais informações: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
 - Vá para um diretório na mesma unidade:
 

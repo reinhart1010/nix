@@ -2,7 +2,7 @@
 layout: page
 title: windows/mklink (English)
 description: "Create symbolic links."
-content_hash: 54c493db20eb05010a60e64c0fe61bb7361091e0
+content_hash: 22bef28447b3d5ffc790facf58facc811213a67f
 related_topics:
   - title: 日本語 version
     url: /ja/windows/mklink.html
@@ -14,7 +14,7 @@ related_topics:
 # mklink
 
 Create symbolic links.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/mklink>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/mklink>.
 
 - Create a symbolic link to a file:
 

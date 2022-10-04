@@ -2,10 +2,13 @@
 layout: page
 title: windows/rmdir (Nederlands)
 description: "Verwijdert een directory en zijn inhoud."
-content_hash: 514cd7406e45a5289ee4ef65e85137bc4a01e6c2
+content_hash: 129ceb7f0751c399df127f2026f7de2b1f91cbcf
 related_topics:
   - title: English version
     url: /en/windows/rmdir.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/rmdir.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/rmdir.html
@@ -14,7 +17,7 @@ related_topics:
 # rmdir
 
 Verwijdert een directory en zijn inhoud.
-Meer informatie: <https://docs.microsoft.com/windows-server/administration/windows-commands/rmdir>.
+Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/rmdir>.
 
 - Verwijder een lege directory:
 

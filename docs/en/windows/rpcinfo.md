@@ -2,12 +2,12 @@
 layout: page
 title: windows/rpcinfo (English)
 description: "List programs via RPC on remote computers."
-content_hash: de211327f82f7fc57200f81286bc470b41c20559
+content_hash: 53552822d451ce90524bed804667decfb9011f18
 ---
 # rpcinfo
 
 List programs via RPC on remote computers.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/rpcinfo>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/rpcinfo>.
 
 - List all programs registered on the local computer:
 

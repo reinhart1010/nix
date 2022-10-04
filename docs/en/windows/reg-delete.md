@@ -2,7 +2,7 @@
 layout: page
 title: windows/reg-delete (English)
 description: "Delete keys or their values from the registry."
-content_hash: eb7dc44b0d93f600ad8cf1d99b2a798cb0bc673d
+content_hash: adc201eda298771b53638c4968304c9a642060e8
 related_topics:
   - title: 中文 version
     url: /zh/windows/reg-delete.html
@@ -11,7 +11,7 @@ related_topics:
 # reg delete
 
 Delete keys or their values from the registry.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/reg-delete>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg-delete>.
 
 - Delete a specific registry key:
 

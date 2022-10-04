@@ -2,7 +2,7 @@
 layout: page
 title: windows/path (English)
 description: "Display or set the search path for executable files."
-content_hash: 46b7875a4461e7e644b7e74d9869eea870fec1d7
+content_hash: 133280fead00c85bef1d07b28fcd3d1be11a0009
 related_topics:
   - title: 中文 version
     url: /zh/windows/path.html
@@ -11,7 +11,7 @@ related_topics:
 # path
 
 Display or set the search path for executable files.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/path>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/path>.
 
 - Display the current path:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/dotnet-build (polski)
 description: "Buduj aplikacje .NET i ich zależności."
-content_hash: db5be258da00bd2f43ca8374bced1faf33379ffa
+content_hash: 2fcec16a8d243a34116e6a4466376dd9a9c17a88
 related_topics:
   - title: English version
     url: /en/common/dotnet-build.html
@@ -17,7 +17,7 @@ related_topics:
 # dotnet build
 
 Buduj aplikacje .NET i ich zależności.
-Więcej informacji: <https://docs.microsoft.com/dotnet/core/tools/dotnet-build>.
+Więcej informacji: <https://learn.microsoft.com/dotnet/core/tools/dotnet-build>.
 
 - Kompiluj projekt lub solucje w bieżącym katalogu:
 

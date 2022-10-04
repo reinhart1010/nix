@@ -2,7 +2,7 @@
 layout: page
 title: windows/reg-restore (English)
 description: "Restore a key and its values from a backup file."
-content_hash: 16d3e60e46f505f47bcb9f0709a68be31d335102
+content_hash: 511b5b83b7c1efc86f1bcc63f779ec97dc91583e
 related_topics:
   - title: 中文 version
     url: /zh/windows/reg-restore.html
@@ -12,7 +12,7 @@ related_topics:
 
 Restore a key and its values from a backup file.
 See `reg-save` for more information.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/reg-restore>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg-restore>.
 
 - Overwrite a specified key with data from a backup file:
 

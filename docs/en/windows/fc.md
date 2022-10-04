@@ -2,7 +2,7 @@
 layout: page
 title: windows/fc (English)
 description: "Compare the differences between two files or sets of files."
-content_hash: 6de999d0149a40cbf1f05e4e66e22a34404bedec
+content_hash: 04c11c93cafff5026c0de3d4120c6ec7c56cede2
 related_topics:
   - title: 中文 version
     url: /zh/windows/fc.html
@@ -12,7 +12,7 @@ related_topics:
 
 Compare the differences between two files or sets of files.
 Use wildcards (*) to compare sets of files.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/fc>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/fc>.
 
 - Compare 2 specified files:
 

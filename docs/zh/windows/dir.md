@@ -2,8 +2,11 @@
 layout: page
 title: windows/dir (中文)
 description: "列出目录的内容。"
-content_hash: 6cd1d30c00e3f29710ea50e4e87fe87313b35031
+content_hash: 0682931dfb9fe2d08953019203d9ee5d59dceda8
 related_topics:
+  - title: català version
+    url: /ca/windows/dir.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/dir.html
     icon: bi bi-globe
@@ -29,7 +32,7 @@ related_topics:
 # dir
 
 列出目录的内容。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/dir>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/dir>.
 
 - 显示当前目录的内容：
 

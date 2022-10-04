@@ -2,7 +2,7 @@
 layout: page
 title: windows/eventcreate (English)
 description: "Create custom entries in the event log."
-content_hash: f5e88dfe73045d9d0f8fa0842facb4d788232049
+content_hash: 3af5343d3c45f2c9fedf48458385260f609cb843
 related_topics:
   - title: 中文 version
     url: /zh/windows/eventcreate.html
@@ -12,7 +12,7 @@ related_topics:
 
 Create custom entries in the event log.
 Event IDs can be any number between 1 and 1000.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/eventcreate>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/eventcreate>.
 
 - Create a new event with a given ID (1-1000) in the log:
 

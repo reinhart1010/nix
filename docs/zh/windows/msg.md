@@ -2,7 +2,7 @@
 layout: page
 title: windows/msg (中文)
 description: "向指定的用户或会话发送信息。"
-content_hash: 04b490308402ad0cb8fe62249fd1281393ce997f
+content_hash: 67e2cdb0d4bbae5377cbd92bc646179911269496
 related_topics:
   - title: English version
     url: /en/windows/msg.html
@@ -14,7 +14,7 @@ related_topics:
 # msg
 
 向指定的用户或会话发送信息。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/msg>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/msg>.
 
 - 向指定的用户或会话发送信息：
 

@@ -2,7 +2,7 @@
 layout: page
 title: windows/where (English)
 description: "Display the location of files that match the search pattern."
-content_hash: 0dc33f777efca60317c4b11ae53b0675e85d29f5
+content_hash: 136ef627eef42de181aad34d53b4e55d09904ab4
 related_topics:
   - title: 中文 version
     url: /zh/windows/where.html
@@ -12,7 +12,7 @@ related_topics:
 
 Display the location of files that match the search pattern.
 Defaults to current work directory and paths in the PATH environment variable.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/where>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/where>.
 
 - Display the location of file pattern:
 

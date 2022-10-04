@@ -2,7 +2,7 @@
 layout: page
 title: windows/clip (中文)
 description: "将输入的内容复制到 Windows 的剪贴板。"
-content_hash: 12000945271e17b03f6aac7b4ea5e5279386c664
+content_hash: 77497641c95a594e64c352f233518f9353c25633
 related_topics:
   - title: English version
     url: /en/windows/clip.html
@@ -23,7 +23,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># clip
 
 将输入的内容复制到 Windows 的剪贴板。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/clip>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/clip>.
 
 - 用管道将命令的输出内容复制到 Windows 剪贴板：
 

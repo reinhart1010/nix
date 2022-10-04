@@ -2,8 +2,11 @@
 layout: page
 title: windows/color (English)
 description: "Set the console foreground and background colors."
-content_hash: 42222df733b086c24ae9c47de1ba8550df89f3ae
+content_hash: 5c902f472f5fb9949f095a24ab391af16d26845d
 related_topics:
+  - title: català version
+    url: /ca/windows/color.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/color.html
     icon: bi bi-globe
@@ -14,7 +17,7 @@ related_topics:
 # color
 
 Set the console foreground and background colors.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/color>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/color>.
 
 - Set the console colors to the default values:
 

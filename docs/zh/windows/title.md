@@ -2,7 +2,7 @@
 layout: page
 title: windows/title (中文)
 description: "设置命令提示符窗口的标题。"
-content_hash: 72a4eee5a8553fefea6768f0a9580d20cb4e0146
+content_hash: c4296c2919f3836596b5b03fd758968437ed82b1
 related_topics:
   - title: English version
     url: /en/windows/title.html
@@ -14,7 +14,7 @@ related_topics:
 # title
 
 设置命令提示符窗口的标题。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/title>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/title>.
 
 - 设置当前的命令提示符窗口的标题：
 

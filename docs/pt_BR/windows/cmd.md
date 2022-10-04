@@ -2,7 +2,7 @@
 layout: page
 title: windows/cmd (português (Brasil))
 description: "O interpretador de comandos do Windows."
-content_hash: 270ace42b4fa72cdfc96e36e4ea7f121e7d050f8
+content_hash: 3447c33fb4de5215f78d67b2b7473f82c839dc1f
 related_topics:
   - title: English version
     url: /en/windows/cmd.html
@@ -26,7 +26,7 @@ related_topics:
 # cmd
 
 O interpretador de comandos do Windows.
-Mais informações: <https://docs.microsoft.com/windows-server/administration/windows-commands/cmd>.
+Mais informações: <https://learn.microsoft.com/windows-server/administration/windows-commands/cmd>.
 
 - Iniciar nova instância do interpretador de comandos:
 

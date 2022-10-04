@@ -2,12 +2,12 @@
 layout: page
 title: windows/wmic (English)
 description: "Interactive shell for detailed information about running processes."
-content_hash: 1620847f23e08aee4affb0f0da9a1bbeb0d74184
+content_hash: f66f7e2308db70d1dead40f581efe050bd73500e
 ---
 # wmic
 
 Interactive shell for detailed information about running processes.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/wmic>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/wmic>.
 
 - Fundamental grammar:
 

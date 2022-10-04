@@ -2,12 +2,12 @@
 layout: page
 title: common/pwsh (English)
 description: "PowerShell Core is a cross-platform automation and configuration tool/framework."
-content_hash: 23f08da0110619f95137698dd3a42595adc0ceeb
+content_hash: 39ca5c44525c064c7cb5c475f161ab3ea834e562
 ---
 # pwsh
 
 PowerShell Core is a cross-platform automation and configuration tool/framework.
-More information: <https://docs.microsoft.com/powershell/>.
+More information: <https://learn.microsoft.com/powershell/>.
 
 - Start an instance of PowerShell:
 

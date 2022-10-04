@@ -2,7 +2,7 @@
 layout: page
 title: windows/finger (中文)
 description: "返回有关指定系统上的一个或多个用户的信息。"
-content_hash: f0421cd6ab2ac309d31426483daf615e4c28592e
+content_hash: ede6cb4f896e3ef9a32901938944900845c59cde
 related_topics:
   - title: English version
     url: /en/windows/finger.html
@@ -12,7 +12,7 @@ related_topics:
 
 返回有关指定系统上的一个或多个用户的信息。
 远程系统必须运行 Finger 服务。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/finger>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/finger>.
 
 - 显示有关特定用户的信息：
 

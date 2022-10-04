@@ -2,7 +2,7 @@
 layout: page
 title: common/dotnet (español)
 description: "Herramienta multiplataforma de línea de comandos para .NET Core."
-content_hash: d69cb67e6ddce4e51b3beb8d8f5ff12737e3c230
+content_hash: 07f459b7f0ce3d4c2380c037cbb91919b0db3e35
 related_topics:
   - title: Deutsch version
     url: /de/common/dotnet.html
@@ -22,12 +22,15 @@ related_topics:
   - title: русский version
     url: /ru/common/dotnet.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/dotnet.html
+    icon: bi bi-globe
 ---
 # dotnet
 
 Herramienta multiplataforma de línea de comandos para .NET Core.
 Algunos subcomandos, como `dotnet build`, tienen su propia documentación de uso.
-Más información: <https://docs.microsoft.com/dotnet/core/tools>.
+Más información: <https://learn.microsoft.com/dotnet/core/tools>.
 
 - Inicializa un proyecto .NET nuevo:
 

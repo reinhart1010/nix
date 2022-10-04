@@ -2,7 +2,7 @@
 layout: page
 title: windows/reg-copy (中文)
 description: "复制注册表中的键和值。"
-content_hash: b71edc1b966c41325b377b5b262057a31696ed4a
+content_hash: fb9b453ec87a479984124119c14ec5802fa59e93
 related_topics:
   - title: English version
     url: /en/windows/reg-copy.html
@@ -11,7 +11,7 @@ related_topics:
 # reg copy
 
 复制注册表中的键和值。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/reg-copy>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/reg-copy>.
 
 - 将注册表键复制到新的注册表位置：
 

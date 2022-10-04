@@ -2,7 +2,7 @@
 layout: page
 title: windows/doskey (中文)
 description: "管理宏，Windows 命令和命令行。"
-content_hash: c6e8e1cb60dc9699e0e683dd334e4ee809f3ae4f
+content_hash: a0ca5856f59668c2c9c1fa46801d69dcad5d25e4
 related_topics:
   - title: English version
     url: /en/windows/doskey.html
@@ -11,7 +11,7 @@ related_topics:
 # doskey
 
 管理宏，Windows 命令和命令行。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/doskey>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/doskey>.
 
 - 列出可用的宏：
 

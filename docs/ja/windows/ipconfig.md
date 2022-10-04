@@ -2,7 +2,7 @@
 layout: page
 title: windows/ipconfig (日本語)
 description: "Windowsのネットワーク構成を表示および管理します。"
-content_hash: 8755dbc681b10466d17eabdd9aa16f538cf7a83a
+content_hash: ad5ac3079732714814beb0d1d8f38efa5b9f876b
 related_topics:
   - title: English version
     url: /en/windows/ipconfig.html
@@ -17,7 +17,7 @@ related_topics:
 # ipconfig
 
 Windowsのネットワーク構成を表示および管理します。
-詳しくはこちら: <https://docs.microsoft.com/windows-server/administration/windows-commands/ipconfig>
+詳しくはこちら: <https://learn.microsoft.com/windows-server/administration/windows-commands/ipconfig>
 
 - ネットワークアダプタのリストを表示します:
 

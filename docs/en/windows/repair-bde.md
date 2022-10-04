@@ -2,7 +2,7 @@
 layout: page
 title: windows/repair-bde (English)
 description: "Attempt to repair or decrypt a damaged BitLocker-encrypted volume."
-content_hash: a72acda6aead22e947be97159c90067a2c15ebe3
+content_hash: 41120116bbf27f30c6966d4d1a34b5239b0da91a
 related_topics:
   - title: 中文 version
     url: /zh/windows/repair-bde.html
@@ -11,7 +11,7 @@ related_topics:
 # repair-bde
 
 Attempt to repair or decrypt a damaged BitLocker-encrypted volume.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/repair-bde>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/repair-bde>.
 
 - Attempt to repair a specified volume:
 

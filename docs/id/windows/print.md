@@ -2,7 +2,7 @@
 layout: page
 title: windows/print (Indonesia)
 description: "Mencetak sebuah file teks ke dalam mesin pencetak (printer)."
-content_hash: e9b83776eb98a75b41255984c262090ba251425f
+content_hash: b581cb9a1f6756530e857b6ab2606a82aac99aa5
 related_topics:
   - title: English version
     url: /en/windows/print.html
@@ -20,7 +20,7 @@ related_topics:
 # print
 
 Mencetak sebuah file teks ke dalam mesin pencetak (printer).
-Informasi lebih lanjut: <https://docs.microsoft.com/windows-server/administration/windows-commands/print>.
+Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/print>.
 
 - Mencetak file teks ke dalam mesin pencetak (printer) default:
 

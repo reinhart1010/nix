@@ -2,16 +2,19 @@
 layout: page
 title: windows/set (中文)
 description: "显示或设置当前命令行实例的环境变量。"
-content_hash: 1af0ccb735efb45e80a3e289a8ede3bd8a7094ee
+content_hash: 1f3a0fe584600f52b5bb53f485b34241858972fd
 related_topics:
   - title: English version
     url: /en/windows/set.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/windows/set.html
     icon: bi bi-globe
 ---
 # set
 
 显示或设置当前命令行实例的环境变量。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/set>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/set>.
 
 - 列出当前所有环境变量：
 

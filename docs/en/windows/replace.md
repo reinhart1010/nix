@@ -2,13 +2,13 @@
 layout: page
 title: windows/replace (English)
 description: "Replace files."
-content_hash: 8acecd073a8b5fea0a8053c23c2e2470dd5648f5
+content_hash: f60d3a9401cfd51a8c8517817b033a9ee5064f53
 ---
 # replace
 
 Replace files.
 See also: `robocopy`, `move`, `copy`, and `del`.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/replace>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/replace>.
 
 - Replace the destination file with the one from the source directory:
 

@@ -2,7 +2,7 @@
 layout: page
 title: windows/path (中文)
 description: "显示或设置可执行文件的搜索路径。"
-content_hash: 454066fc81b8227e4d23239d543d103d713bcc1e
+content_hash: bc779d1977bbce3d23af34d9ac3a8b24032aec6a
 related_topics:
   - title: English version
     url: /en/windows/path.html
@@ -11,7 +11,7 @@ related_topics:
 # path
 
 显示或设置可执行文件的搜索路径。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/path>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/path>.
 
 - 显示当前的路径：
 

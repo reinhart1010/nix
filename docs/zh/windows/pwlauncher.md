@@ -2,7 +2,7 @@
 layout: page
 title: windows/pwlauncher (中文)
 description: "用于管理 Windows To Go 启动选项的命令行工具。"
-content_hash: b850b8db25b174ba18eb2c25825f0a3a4d80bdf5
+content_hash: e28d0b30874fd905278d46ec78f490462c084d6d
 related_topics:
   - title: English version
     url: /en/windows/pwlauncher.html
@@ -11,7 +11,7 @@ related_topics:
 # pwlauncher
 
 用于管理 Windows To Go 启动选项的命令行工具。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/pwlauncher>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/pwlauncher>.
 
 - 显示当前 Windows To Go 的状态：
 

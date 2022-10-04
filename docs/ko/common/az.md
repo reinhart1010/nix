@@ -2,10 +2,13 @@
 layout: page
 title: common/az (한국어)
 description: "Microsoft Azure의 공식 CLI tool입니다."
-content_hash: 6cbc6c7d938ffb2bb5d56151e473053e88daa5c8
+content_hash: 4b2f57c14bec44c68ce74cd2157f153253306dd4
 related_topics:
   - title: English version
     url: /en/common/az.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/az.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/az.html
@@ -13,11 +16,14 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/az.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/az.html
+    icon: bi bi-globe
 ---
 # az
 
 Microsoft Azure의 공식 CLI tool입니다.
-더 많은 정보: <https://docs.microsoft.com/cli/azure>.
+더 많은 정보: <https://learn.microsoft.com/cli/azure>.
 
 - Azure에 로그인:
 

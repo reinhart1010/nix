@@ -2,7 +2,7 @@
 layout: page
 title: windows/tasklist (中文)
 description: "显示本地或远程计算机上当前正在运行的进程的列表。"
-content_hash: 2e3b7372f36cac56000d2284f4fd907166498cc0
+content_hash: 741f15baf2acd6a185dd0af7f36a8190ea895704
 related_topics:
   - title: English version
     url: /en/windows/tasklist.html
@@ -11,7 +11,7 @@ related_topics:
 # tasklist
 
 显示本地或远程计算机上当前正在运行的进程的列表。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/tasklist>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/tasklist>.
 
 - 显示当前正在运行的进程：
 

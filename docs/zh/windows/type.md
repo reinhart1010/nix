@@ -2,7 +2,7 @@
 layout: page
 title: windows/type (中文)
 description: "显示文件的内容。"
-content_hash: b527d90ec32957290b68f0437dd7d7be97392c1f
+content_hash: 2b8db019eeaaa9bf10eefa36dc54de5187cc90e9
 related_topics:
   - title: English version
     url: /en/windows/type.html
@@ -17,7 +17,7 @@ related_topics:
 # type
 
 显示文件的内容。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/type>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/type>.
 
 - 显示特定文件的内容：
 

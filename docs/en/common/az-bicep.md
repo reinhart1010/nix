@@ -2,13 +2,13 @@
 layout: page
 title: common/az-bicep (English)
 description: "Bicep CLI command group."
-content_hash: 343bb8f4a529775dbb288522ba53198cfb36a81b
+content_hash: 6eb5e81afafe78a46de2070d5b23444bffcfe1dd
 ---
 # az bicep
 
 Bicep CLI command group.
 Part of `azure-cli`.
-More information: <https://docs.microsoft.com/cli/azure/bicep>.
+More information: <https://learn.microsoft.com/cli/azure/bicep>.
 
 - Install Bicep CLI:
 

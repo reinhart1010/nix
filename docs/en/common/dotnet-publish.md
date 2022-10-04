@@ -2,7 +2,7 @@
 layout: page
 title: common/dotnet-publish (English)
 description: "Publish a .NET application and its dependencies to a directory for deployment to a hosting system."
-content_hash: ddd3cc1c69d0d9eff09948f01e2ccba760144de6
+content_hash: 7fc484ffe253483a8af7b117b6bd7865d0eb685e
 related_topics:
   - title: español version
     url: /es/common/dotnet-publish.html
@@ -17,7 +17,7 @@ related_topics:
 # dotnet publish
 
 Publish a .NET application and its dependencies to a directory for deployment to a hosting system.
-More information: <https://docs.microsoft.com/dotnet/core/tools/dotnet-publish>.
+More information: <https://learn.microsoft.com/dotnet/core/tools/dotnet-publish>.
 
 - Compile a .NET project in release mode:
 

@@ -2,7 +2,7 @@
 layout: page
 title: windows/del (中文)
 description: "删除一个或多个文件。"
-content_hash: 0530f6778d867cb8f467293f524e0dacb9c50eb4
+content_hash: 33941317bf88d9ce8c93cd6d9a768c8c85a2f843
 related_topics:
   - title: English version
     url: /en/windows/del.html
@@ -11,7 +11,7 @@ related_topics:
 # del
 
 删除一个或多个文件。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/del>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/del>.
 
 - 删除一个或多个以空格分隔的文件：
 

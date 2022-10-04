@@ -2,7 +2,7 @@
 layout: page
 title: windows/subst (中文)
 description: "将路径与虚拟驱动器号关联。"
-content_hash: 7c8cdf88d54d321076691c73c6ad00e35f02dea4
+content_hash: 21628370a5c540a3e886833c23ff13a548f5d5cc
 related_topics:
   - title: English version
     url: /en/windows/subst.html
@@ -11,7 +11,7 @@ related_topics:
 # subst
 
 将路径与虚拟驱动器号关联。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/subst>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/subst>.
 
 - 列出已激活的关联：
 

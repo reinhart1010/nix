@@ -2,7 +2,7 @@
 layout: page
 title: windows/reg-flags (English)
 description: "Display or set flags on registry keys."
-content_hash: ded1968bd820e13d74caa01ad2d244b9a10a75ec
+content_hash: c0ecbc47dab044fc9d51f7f12936eb0e79db6c2e
 related_topics:
   - title: 中文 version
     url: /zh/windows/reg-flags.html
@@ -11,7 +11,7 @@ related_topics:
 # reg flags
 
 Display or set flags on registry keys.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/reg-flags>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg-flags>.
 
 - Display current flags for a specific key:
 

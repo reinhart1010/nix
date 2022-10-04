@@ -2,7 +2,7 @@
 layout: page
 title: common/dotnet-restore (English)
 description: "Restores the dependencies and tools of a .NET project."
-content_hash: 9410c046f7733da08aceca06eb63323a79ced429
+content_hash: e9d749b1b818eae1bf9f6f96175c53bf6f9c164c
 related_topics:
   - title: español version
     url: /es/common/dotnet-restore.html
@@ -17,7 +17,7 @@ related_topics:
 # dotnet restore
 
 Restores the dependencies and tools of a .NET project.
-More information: <https://docs.microsoft.com/dotnet/core/tools/dotnet-restore>.
+More information: <https://learn.microsoft.com/dotnet/core/tools/dotnet-restore>.
 
 - Restore dependencies for a .NET project or solution in the current directory:
 

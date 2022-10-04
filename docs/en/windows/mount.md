@@ -2,12 +2,12 @@
 layout: page
 title: windows/mount (English)
 description: "Mount Network File System (NFS) network shares."
-content_hash: d3c492687722a3bcb5552806dcde8b338fc6f645
+content_hash: 0df643efa4b257050e26ebff91b624597f09931a
 ---
 # mount
 
 Mount Network File System (NFS) network shares.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/mount>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/mount>.
 
 - Mount a share to the "Z" drive letter:
 

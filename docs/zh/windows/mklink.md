@@ -2,7 +2,7 @@
 layout: page
 title: windows/mklink (中文)
 description: "创建符号链接。"
-content_hash: d21c1c4fa3a3ba662840ca1abd00fb078213b079
+content_hash: 87987c2232fe58dd9d54d970505971407c4aef3f
 related_topics:
   - title: English version
     url: /en/windows/mklink.html
@@ -14,7 +14,7 @@ related_topics:
 # mklink
 
 创建符号链接。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/mklink>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/mklink>.
 
 - 创建指向文件的符号链接：
 

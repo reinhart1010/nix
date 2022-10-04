@@ -2,7 +2,7 @@
 layout: page
 title: windows/mkdir (English)
 description: "Creates a directory."
-content_hash: 1dd5675c1d6ecf3789487a6b1d2b9074b36f4c71
+content_hash: d7927ec4f0a61a9ee749581db261ff0686b6c2b8
 related_topics:
   - title: 日本語 version
     url: /ja/windows/mkdir.html
@@ -20,7 +20,7 @@ related_topics:
 # mkdir
 
 Creates a directory.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/mkdir>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/mkdir>.
 
 - Create a directory:
 

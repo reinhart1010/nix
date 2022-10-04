@@ -2,7 +2,7 @@
 layout: page
 title: windows/attrib (中文)
 description: "显示或修改文件和目录的属性。"
-content_hash: a8857ae3a5ef3bbbd9297c75d40d4ff028305cb0
+content_hash: d45f46ac8814b96b19face6072c05581cc765696
 related_topics:
   - title: English version
     url: /en/windows/attrib.html
@@ -14,7 +14,7 @@ related_topics:
 # attrib
 
 显示或修改文件和目录的属性。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/attrib>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/attrib>.
 
 - 显示当前目录下所有文件的属性：
 

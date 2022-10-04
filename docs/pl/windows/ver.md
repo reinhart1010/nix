@@ -2,7 +2,7 @@
 layout: page
 title: windows/ver (polski)
 description: "Wyświetl aktualną wersję systemu DOS lub Windows."
-content_hash: a814b3a29f60cb2b8e9c3618cd85029ec6232346
+content_hash: f5e02d21224b8f5a6c6dc65511f856c310838666
 related_topics:
   - title: English version
     url: /en/windows/ver.html
@@ -23,7 +23,7 @@ related_topics:
 # ver
 
 Wyświetl aktualną wersję systemu DOS lub Windows.
-Więcej informacji: <https://docs.microsoft.com/windows-server/administration/windows-commands/ver>.
+Więcej informacji: <https://learn.microsoft.com/windows-server/administration/windows-commands/ver>.
 
 - Wyświetl aktualną wersję systemu:
 

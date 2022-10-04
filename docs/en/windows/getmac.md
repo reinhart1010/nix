@@ -2,7 +2,7 @@
 layout: page
 title: windows/getmac (English)
 description: "Display the MAC addresses of a system."
-content_hash: bb69a9f1317e43ac7ada30174ca2dadf7c1b16e9
+content_hash: 36d82a52e8fad9958010ac4c6a3be3769e053bf5
 related_topics:
   - title: 中文 version
     url: /zh/windows/getmac.html
@@ -11,7 +11,7 @@ related_topics:
 # getmac
 
 Display the MAC addresses of a system.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/getmac>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/getmac>.
 
 - Display the MAC addresses for the current system:
 

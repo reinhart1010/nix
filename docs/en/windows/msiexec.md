@@ -2,12 +2,16 @@
 layout: page
 title: windows/msiexec (English)
 description: "Install, update, repair, or uninstall Windows programs using MSI and MSP package files."
-content_hash: 74c4af424ee962bcf9d7a70af51bdef6e2f9feea
+content_hash: a261573d3951e43695123ebc5b24773150916a32
+related_topics:
+  - title: Indonesia version
+    url: /id/windows/msiexec.html
+    icon: bi bi-globe
 ---
 # msiexec
 
 Install, update, repair, or uninstall Windows programs using MSI and MSP package files.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/msiexec>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/msiexec>.
 
 - Install a program from its MSI package:
 

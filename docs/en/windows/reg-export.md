@@ -2,7 +2,7 @@
 layout: page
 title: windows/reg-export (English)
 description: "Export the specified sub keys and values into a file."
-content_hash: 202af3881c3f38ac0307f2fdf925e20d515f3f47
+content_hash: e3f13795597f06c15bdfa68592d75dffe36e2701
 related_topics:
   - title: 中文 version
     url: /zh/windows/reg-export.html
@@ -11,7 +11,7 @@ related_topics:
 # reg export
 
 Export the specified sub keys and values into a file.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/reg-export>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg-export>.
 
 - Export all sub keys and values of a specific key:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/dotnet-restore (русский)
 description: "Восстанавливает зависимости и утилиты для проекта .NET."
-content_hash: fe30016358024774d335bea82ee26785c1105c46
+content_hash: a373ccc626b689c87b06a651b52160609f4208b0
 related_topics:
   - title: English version
     url: /en/common/dotnet-restore.html
@@ -17,7 +17,7 @@ related_topics:
 # dotnet restore
 
 Восстанавливает зависимости и утилиты для проекта .NET.
-Больше информации: <https://docs.microsoft.com/dotnet/core/tools/dotnet-restore>.
+Больше информации: <https://learn.microsoft.com/dotnet/core/tools/dotnet-restore>.
 
 - Восстановить зависимости для проекта или решения .NET в текущей директории:
 

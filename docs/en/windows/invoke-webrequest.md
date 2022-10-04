@@ -2,13 +2,13 @@
 layout: page
 title: windows/invoke-webrequest (English)
 description: "Performs a HTTP/HTTPS request to the Web."
-content_hash: 7bf20856df5bfaa14bad61c146bb3eea866d82c0
+content_hash: f13a143d7f07a9d0052589025c5914962ba38d03
 ---
 # Invoke-WebRequest
 
 Performs a HTTP/HTTPS request to the Web.
 This command can only be used through PowerShell.
-More information: <https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
+More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Download the contents of a URL to a file:
 
@@ -20,7 +20,7 @@ More information: <https://docs.microsoft.com/powershell/module/microsoft.powers
 
 - Send a request with an extra header, using a custom HTTP method:
 
-`Invoke-WebRequest -Headers `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">@{ X-My-Header = '123' </span>`} -Method `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PUT</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span>
+`Invoke-WebRequest -Headers `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">@{ X-My-Header = '123' }</span>` -Method `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PUT</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span>
 
 - Send data in JSON format, specifying the appropriate content-type header:
 

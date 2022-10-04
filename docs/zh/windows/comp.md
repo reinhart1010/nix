@@ -2,7 +2,7 @@
 layout: page
 title: windows/comp (中文)
 description: "比较两个文件或文件集的内容。"
-content_hash: 1feb14be15a25fd2b1268043701e5faa7f0aa25c
+content_hash: b2170ffb4e25281f2c08059ca7852397fb8b5ea8
 related_topics:
   - title: English version
     url: /en/windows/comp.html
@@ -12,7 +12,7 @@ related_topics:
 
 比较两个文件或文件集的内容。
 使用通配符（*）来比较文件集。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/comp>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/comp>.
 
 - 交互式比较文件：
 

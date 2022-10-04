@@ -2,8 +2,11 @@
 layout: page
 title: windows/dir (Nederlands)
 description: "Geeft de inhoud weer van een directory."
-content_hash: 0e3b1d26700d42d9f2a7213d2c3b3a11742209a1
+content_hash: 95aadac29185bd238e30e942bf21050f4d042f3f
 related_topics:
+  - title: català version
+    url: /ca/windows/dir.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/dir.html
     icon: bi bi-globe
@@ -29,7 +32,7 @@ related_topics:
 # dir
 
 Geeft de inhoud weer van een directory.
-Meer informatie: <https://docs.microsoft.com/windows-server/administration/windows-commands/dir>.
+Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/dir>.
 
 - Geef de inhoud weer van de huidige map:
 

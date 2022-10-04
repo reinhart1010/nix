@@ -2,7 +2,7 @@
 layout: page
 title: windows/reg-copy (English)
 description: "Copy keys and their values in the registry."
-content_hash: 4c349a85cbdf8785d2bbe6830aa6cd312a418c4f
+content_hash: 8314aa0c9e74bdc0e26683d3a28e66001144c142
 related_topics:
   - title: 中文 version
     url: /zh/windows/reg-copy.html
@@ -11,7 +11,7 @@ related_topics:
 # reg copy
 
 Copy keys and their values in the registry.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/reg-copy>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/reg-copy>.
 
 - Copy a registry key to a new registry location:
 

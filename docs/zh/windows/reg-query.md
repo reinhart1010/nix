@@ -2,7 +2,7 @@
 layout: page
 title: windows/reg-query (中文)
 description: "显示注册表中键和子键的值。"
-content_hash: 6f419abec22c4e9fe17984cf422e94d5479bbe12
+content_hash: 48f1434a606b7f2056c038a0e7a437886def10c8
 related_topics:
   - title: English version
     url: /en/windows/reg-query.html
@@ -11,7 +11,7 @@ related_topics:
 # reg query
 
 显示注册表中键和子键的值。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/reg-query>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/reg-query>.
 
 - 显示一个键中的所有值：
 

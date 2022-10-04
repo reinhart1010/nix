@@ -2,7 +2,7 @@
 layout: page
 title: common/dotnet (한국어)
 description: ".NET Core를 위한 크로스 플랫폼 .NET 명령어 도구."
-content_hash: 1432a8996e4121c8e751a63e468b22ba1f257ec5
+content_hash: dd4ea010f656a1810510f920c699e270af83417e
 related_topics:
   - title: Deutsch version
     url: /de/common/dotnet.html
@@ -22,11 +22,14 @@ related_topics:
   - title: русский version
     url: /ru/common/dotnet.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/dotnet.html
+    icon: bi bi-globe
 ---
 # dotnet
 
 .NET Core를 위한 크로스 플랫폼 .NET 명령어 도구.
-더 많은 정보: <https://docs.microsoft.com/dotnet/core/tools>.
+더 많은 정보: <https://learn.microsoft.com/dotnet/core/tools>.
 
 - 새 .NET 프로젝트 초기화하기:
 

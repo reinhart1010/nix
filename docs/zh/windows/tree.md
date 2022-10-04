@@ -2,7 +2,7 @@
 layout: page
 title: windows/tree (中文)
 description: "以目录树的形式显示指定目录的所有文件夹和文件。"
-content_hash: 34678712cd395cdb879ecb62fe0c5ca19b456b20
+content_hash: 6024fa6e5dcae58cbc9bd34c13dc37fbff252bb0
 related_topics:
   - title: English version
     url: /en/windows/tree.html
@@ -20,7 +20,7 @@ related_topics:
 # tree
 
 以目录树的形式显示指定目录的所有文件夹和文件。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/tree>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/tree>.
 
 - 显示当前目录的目录树：
 

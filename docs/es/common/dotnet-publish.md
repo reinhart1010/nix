@@ -2,7 +2,7 @@
 layout: page
 title: common/dotnet-publish (español)
 description: "Publica una aplicación .NET y sus dependencias en una carpeta para la implementación en un sistema de hospedaje."
-content_hash: 5e4f4ba41dc9e6d40170c3e4240d13d3dc78a4f8
+content_hash: 541bb14a74179dfa63b1395e0c7e36e5676e7272
 related_topics:
   - title: English version
     url: /en/common/dotnet-publish.html
@@ -17,7 +17,7 @@ related_topics:
 # dotnet publish
 
 Publica una aplicación .NET y sus dependencias en una carpeta para la implementación en un sistema de hospedaje.
-Más información: <https://docs.microsoft.com/dotnet/core/tools/dotnet-publish>.
+Más información: <https://learn.microsoft.com/dotnet/core/tools/dotnet-publish>.
 
 - Compila un proyecto .NET en modo de lanzamiento:
 

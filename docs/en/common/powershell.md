@@ -2,13 +2,17 @@
 layout: page
 title: common/powershell (English)
 description: "Command-line shell and scripting language designed especially for system administration."
-content_hash: 9b7ce7c932ab20dec9b66b1a90dd14d0af7fd94c
+content_hash: 72550ede8d5b17a87a6306e53b7fb512ae9ecf25
+related_topics:
+  - title: தமிழ் version
+    url: /ta/common/powershell.html
+    icon: bi bi-globe
 ---
 # powershell
 
 Command-line shell and scripting language designed especially for system administration.
 See also: `pwsh`.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/powershell>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/powershell>.
 
 - Start an interactive shell session:
 

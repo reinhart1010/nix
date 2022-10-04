@@ -2,7 +2,7 @@
 layout: page
 title: windows/shutdown (Nederlands)
 description: "Een tool om een machine af te sluiten, her op te starten of af te melden."
-content_hash: 4fd54f86446c08fdd7767a92fc17e6d5649ebdec
+content_hash: 114e9aeb33bc940b7fcd76ecc89325534c27d96a
 related_topics:
   - title: English version
     url: /en/windows/shutdown.html
@@ -14,7 +14,7 @@ related_topics:
 # shutdown
 
 Een tool om een machine af te sluiten, her op te starten of af te melden.
-Meer informatie: <https://docs.microsoft.com/windows-server/administration/windows-commands/shutdown>.
+Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/shutdown>.
 
 - Sluit de huidige machine af:
 

@@ -2,7 +2,7 @@
 layout: page
 title: windows/mkdir (中文)
 description: "创建一个目录。"
-content_hash: 79314038bce11b9464fb24325926551b620ec994
+content_hash: c28011e41cf49ab0d8c62113bc5e1978d642d50d
 related_topics:
   - title: English version
     url: /en/windows/mkdir.html
@@ -20,7 +20,7 @@ related_topics:
 # mkdir
 
 创建一个目录。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/mkdir>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/mkdir>.
 
 - 创建一个目录：
 

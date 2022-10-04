@@ -2,7 +2,7 @@
 layout: page
 title: windows/print (polski)
 description: "Wyślij plik tekstowy do drukarki."
-content_hash: 9a1119e17ad04d0db5ab38f9c4f2a8ad57e90b48
+content_hash: 43c87385e68e970b0ae22e29fb573952857f6e29
 related_topics:
   - title: English version
     url: /en/windows/print.html
@@ -20,7 +20,7 @@ related_topics:
 # print
 
 Wyślij plik tekstowy do drukarki.
-Więcej informacji: <https://docs.microsoft.com/windows-server/administration/windows-commands/print>.
+Więcej informacji: <https://learn.microsoft.com/windows-server/administration/windows-commands/print>.
 
 - Drukuj plik tekstowy używając domyślnej drukarki:
 

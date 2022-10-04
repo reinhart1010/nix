@@ -2,12 +2,12 @@
 layout: page
 title: windows/tskill (English)
 description: "Ends a process running in a session on a Remote Desktop Session Host."
-content_hash: 062160c53eb932a95aedcdcf039eb03b366fd278
+content_hash: 94e8e3916491cef3ec6a494de22347d63091e84c
 ---
 # tskill
 
 Ends a process running in a session on a Remote Desktop Session Host.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/tskill>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/tskill>.
 
 - Terminate a process by its process identifier:
 

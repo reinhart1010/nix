@@ -2,7 +2,7 @@
 layout: page
 title: windows/whoami (Indonesia)
 description: "Menampilkan detail informasi pengguna saat ini."
-content_hash: dd700cec21353a3954cc4b199e794231c68590ad
+content_hash: aa52944e8842987acdd3ed555191f9c27869502a
 related_topics:
   - title: English version
     url: /en/windows/whoami.html
@@ -20,7 +20,7 @@ related_topics:
 # whoami
 
 Menampilkan detail informasi pengguna saat ini.
-Informasi lebih lanjut: <https://docs.microsoft.com/windows-server/administration/windows-commands/whoami>.
+Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/whoami>.
 
 - Menampilkan username pengguna saat ini:
 

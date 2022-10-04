@@ -2,7 +2,7 @@
 layout: page
 title: windows/whoami (português (Brasil))
 description: "Mostra detalhes sobre o usuário atual."
-content_hash: d06d64526e8709f411f431cb8e7ab17b9f7a2cbb
+content_hash: e3f8b29c8ada1a752d36cc3d3d74ba97dea76cac
 related_topics:
   - title: English version
     url: /en/windows/whoami.html
@@ -20,7 +20,7 @@ related_topics:
 # whoami
 
 Mostra detalhes sobre o usuário atual.
-Mais informações: <https://docs.microsoft.com/windows-server/administration/windows-commands/whoami>.
+Mais informações: <https://learn.microsoft.com/windows-server/administration/windows-commands/whoami>.
 
 - Mostra o username do usuário atual:
 

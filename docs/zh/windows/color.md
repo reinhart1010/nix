@@ -2,8 +2,11 @@
 layout: page
 title: windows/color (中文)
 description: "设置控制台的前景色和背景色。"
-content_hash: 59fadfac7aad22160817c3618b3d0bb1bcae9546
+content_hash: 0f15fd09258f3d49e9a5f2ff28c383d8096ec153
 related_topics:
+  - title: català version
+    url: /ca/windows/color.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/color.html
     icon: bi bi-globe
@@ -14,7 +17,7 @@ related_topics:
 # color
 
 设置控制台的前景色和背景色。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/color>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/color>.
 
 - 将控制台颜色恢复至默认值：
 

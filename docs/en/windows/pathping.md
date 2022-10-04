@@ -2,7 +2,7 @@
 layout: page
 title: windows/pathping (English)
 description: "A trace route tool combining features of `ping` and `tracert`."
-content_hash: 15344262472c28763e2872df2a91367f3383412f
+content_hash: 9bf3475c50737ea7ec355dc2fe4ef16dff118e5f
 related_topics:
   - title: 中文 version
     url: /zh/windows/pathping.html
@@ -11,7 +11,7 @@ related_topics:
 # pathping
 
 A trace route tool combining features of `ping` and `tracert`.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/pathping>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/pathping>.
 
 - Ping and trace the route to a host:
 

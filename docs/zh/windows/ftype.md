@@ -2,7 +2,7 @@
 layout: page
 title: windows/ftype (中文)
 description: "显示或修改用于文件扩展名关联的文件类型。"
-content_hash: 97b77468cb77029b808ebd56135c4f4a0aa8f989
+content_hash: ac8a3eda3d17c5733ca10064bf9e9958f76f2be5
 related_topics:
   - title: English version
     url: /en/windows/ftype.html
@@ -11,7 +11,7 @@ related_topics:
 # ftype
 
 显示或修改用于文件扩展名关联的文件类型。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/ftype>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/ftype>.
 
 - 显示所有文件类型的列表：
 

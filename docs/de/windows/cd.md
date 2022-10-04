@@ -2,7 +2,7 @@
 layout: page
 title: windows/cd (Deutsch)
 description: "Zeige den Namen des aktuellen Arbeitsverzeichnisses an oder ändere dieses."
-content_hash: f00abd2f5b753785ab33bc927c43bdb9fe953f0a
+content_hash: 43806b79ef07dadd95fed0e4a2b6458bd476dd8d
 related_topics:
   - title: বাংলা version
     url: /bn/windows/cd.html
@@ -29,7 +29,7 @@ related_topics:
 # cd
 
 Zeige den Namen des aktuellen Arbeitsverzeichnisses an oder ändere dieses.
-Weitere Informationen: <https://docs.microsoft.com/windows-server/administration/windows-commands/cd>.
+Weitere Informationen: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
 - Wechsle zu einem Verzeichnis im selben Laufwerk:
 

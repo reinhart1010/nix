@@ -2,7 +2,7 @@
 layout: page
 title: common/dotnet-publish (polski)
 description: "Opublikuj aplikację .NET i jej zależności w celu wdrożenia na docelowym systemie."
-content_hash: 9328180979b17bff1b739a111f257e49a17336ce
+content_hash: 20bb0efb2620220de3f2371f51efe2de48f37037
 related_topics:
   - title: English version
     url: /en/common/dotnet-publish.html
@@ -17,7 +17,7 @@ related_topics:
 # dotnet publish
 
 Opublikuj aplikację .NET i jej zależności w celu wdrożenia na docelowym systemie.
-Więcej informacji: <https://docs.microsoft.com/dotnet/core/tools/dotnet-publish>.
+Więcej informacji: <https://learn.microsoft.com/dotnet/core/tools/dotnet-publish>.
 
 - Opublikuj projekt w konfiguracji wydania:
 

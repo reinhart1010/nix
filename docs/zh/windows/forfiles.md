@@ -2,7 +2,7 @@
 layout: page
 title: windows/forfiles (中文)
 description: "选择一个或多个文件以执行指定的命令。"
-content_hash: 57f3cb1f091f7bd6d95931873d8dbc37b0c9aed5
+content_hash: 86ef9be6393584fbe9ef0fdc0b8e752c11f750b7
 related_topics:
   - title: English version
     url: /en/windows/forfiles.html
@@ -11,7 +11,7 @@ related_topics:
 # forfiles
 
 选择一个或多个文件以执行指定的命令。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/forfiles>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/forfiles>.
 
 - 在当前的目录中寻找文件：
 

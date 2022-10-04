@@ -2,7 +2,7 @@
 layout: page
 title: common/csc (한국어)
 description: "마이크로 소프트 사의 C# 컴파일러."
-content_hash: 71c58d3f5e7794f968c559cbbc442c002f2a8789
+content_hash: eab59133e71d0664448bcdd533c59b8607fb94ec
 related_topics:
   - title: English version
     url: /en/common/csc.html
@@ -14,7 +14,7 @@ related_topics:
 # csc
 
 마이크로 소프트 사의 C# 컴파일러.
-더 많은 정보: <https://docs.microsoft.com/dotnet/csharp/language-reference/compiler-options/command-line-building-with-csc-exe>.
+더 많은 정보: <https://learn.microsoft.com/dotnet/csharp/language-reference/compiler-options/command-line-building-with-csc-exe>.
 
 - 하나 이상의 C# 파일을 CIL 실행파일로 컴파일:
 

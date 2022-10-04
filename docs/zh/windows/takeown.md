@@ -2,7 +2,7 @@
 layout: page
 title: windows/takeown (中文)
 description: "取得文件或目录的所有权。"
-content_hash: d6c34f3921f472a522b98a3110589085abc87f52
+content_hash: d3615455b2ff2cdccc4400ce03e9ae6df2b1d070
 related_topics:
   - title: English version
     url: /en/windows/takeown.html
@@ -11,7 +11,7 @@ related_topics:
 # takeown
 
 取得文件或目录的所有权。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/takeown>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/takeown>.
 
 - 取得指定文件的所有权：
 

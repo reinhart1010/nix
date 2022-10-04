@@ -2,7 +2,7 @@
 layout: page
 title: windows/ftp (中文)
 description: "在本地和远程 FTP 服务器之间交互式传输文件。"
-content_hash: 1a0ed99fb6b7cf017783a2a5c14788468f6227ee
+content_hash: 0287a89affa171725754f5f586b33c513bbf41a2
 related_topics:
   - title: English version
     url: /en/windows/ftp.html
@@ -11,7 +11,7 @@ related_topics:
 # ftp
 
 在本地和远程 FTP 服务器之间交互式传输文件。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/ftp>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/ftp>.
 
 - 交互式连接一个远程的 FTP 服务：
 

@@ -2,7 +2,7 @@
 layout: page
 title: windows/mkdir (日本語)
 description: "ディレクトリを作成します。"
-content_hash: d18d65159fbe91bc4ca623875edfebd27f95b5e2
+content_hash: 4301ae559ef63e80a319f302466752cddc755f01
 related_topics:
   - title: English version
     url: /en/windows/mkdir.html
@@ -20,7 +20,7 @@ related_topics:
 # mkdir
 
 ディレクトリを作成します。
-詳しくはこちら: <https://docs.microsoft.com/windows-server/administration/windows-commands/mkdir>
+詳しくはこちら: <https://learn.microsoft.com/windows-server/administration/windows-commands/mkdir>
 
 - ディレクトリを作成します:
 

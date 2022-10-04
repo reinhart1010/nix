@@ -2,7 +2,7 @@
 layout: page
 title: windows/cmd (日本語)
 description: "Windowsコマンドインタープリター。"
-content_hash: 958b41a35003555105aaa4848955f2d73f697e23
+content_hash: 83fe0558e76912d2400450a7e122eedc1af78d81
 related_topics:
   - title: English version
     url: /en/windows/cmd.html
@@ -26,7 +26,7 @@ related_topics:
 # cmd
 
 Windowsコマンドインタープリター。
-詳しくはこちら: <https://docs.microsoft.com/windows-server/administration/windows-commands/cmd>
+詳しくはこちら: <https://learn.microsoft.com/windows-server/administration/windows-commands/cmd>
 
 - コマンドインタープリターの新しいインスタンスを開始します:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/dotnet-ef (English)
 description: "Perform design-time development tasks for Entity Framework Core."
-content_hash: 0ea07f55b4720ad4e24842e308ad42746d3b5b1d
+content_hash: 34fe34324395c32117b461ff5fc5408ae2fa260e
 related_topics:
   - title: polski version
     url: /pl/common/dotnet-ef.html
@@ -11,7 +11,7 @@ related_topics:
 # dotnet ef
 
 Perform design-time development tasks for Entity Framework Core.
-More information: <https://docs.microsoft.com/ef/core/cli/dotnet>.
+More information: <https://learn.microsoft.com/ef/core/cli/dotnet>.
 
 - Update the database to a specified migration:
 

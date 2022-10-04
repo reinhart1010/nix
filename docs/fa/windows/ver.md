@@ -2,7 +2,7 @@
 layout: page
 title: windows/ver (فارسی)
 description: "نمایش شماره نسخه ویندوز یا داس."
-content_hash: 36de21364ef980cb6477a1be28327f43fe482cd1
+content_hash: f80e6133318d899fd602ceb4c9ca1b521b9d6fdf
 related_topics:
   - title: English version
     url: /en/windows/ver.html
@@ -23,7 +23,7 @@ related_topics:
 # ver
 
 نمایش شماره نسخه ویندوز یا داس.
-اطلاعات بیشتر: <https://docs.microsoft.com/windows-server/administration/windows-commands/ver>.
+اطلاعات بیشتر: <https://learn.microsoft.com/windows-server/administration/windows-commands/ver>.
 
 - نمایش شماره نسخه:
 

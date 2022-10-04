@@ -2,7 +2,7 @@
 layout: page
 title: windows/takeown (English)
 description: "Take ownership of a file or directory."
-content_hash: cdbb64745a4da2ca18073ee8b8d8d84859ce76bb
+content_hash: 5269c37695c04ed0ead92aff44c7178d860a2b54
 related_topics:
   - title: 中文 version
     url: /zh/windows/takeown.html
@@ -11,7 +11,7 @@ related_topics:
 # takeown
 
 Take ownership of a file or directory.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/takeown>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/takeown>.
 
 - Take ownership of the specified file:
 

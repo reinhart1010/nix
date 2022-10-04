@@ -2,16 +2,19 @@
 layout: page
 title: windows/set (English)
 description: "Display or set environment variables for the current instance of CMD."
-content_hash: 8b36876719fb074152920ee897e8e6df282b56eb
+content_hash: 1e4666d8ca6b4a30703146a8a20f58b1f8691413
 related_topics:
   - title: 中文 version
     url: /zh/windows/set.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/windows/set.html
     icon: bi bi-globe
 ---
 # set
 
 Display or set environment variables for the current instance of CMD.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/set>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/set>.
 
 - List all current environment variables:
 

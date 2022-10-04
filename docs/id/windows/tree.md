@@ -2,7 +2,7 @@
 layout: page
 title: windows/tree (Indonesia)
 description: "Menampilkan struktur direktori pada suatu lokasi dengan tampilan grafis pohon."
-content_hash: 1cc2d16864697b12104684965e56a34ed20100b0
+content_hash: 14a8d572e99a35d96a65ddd36cc55e46b8618f3a
 related_topics:
   - title: English version
     url: /en/windows/tree.html
@@ -20,7 +20,7 @@ related_topics:
 # tree
 
 Menampilkan struktur direktori pada suatu lokasi dengan tampilan grafis pohon.
-Informasi lebih lanjut: <https://docs.microsoft.com/windows-server/administration/windows-commands/tree>.
+Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/tree>.
 
 - Tampilkan pohon dari direktori saat ini:
 

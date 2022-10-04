@@ -2,7 +2,7 @@
 layout: page
 title: common/dotnet-ef (polski)
 description: "Narzędzia projektowania dla Entity Framework Core."
-content_hash: 4e25d173feb4a266141b4de87b1a2f7f162f96be
+content_hash: 0b389358cdf3dd29c5fd682e3cefa4d7eda24f8c
 related_topics:
   - title: English version
     url: /en/common/dotnet-ef.html
@@ -11,7 +11,7 @@ related_topics:
 # dotnet ef
 
 Narzędzia projektowania dla Entity Framework Core.
-Więcej informacji: <https://docs.microsoft.com/ef/core/cli/dotnet>.
+Więcej informacji: <https://learn.microsoft.com/ef/core/cli/dotnet>.
 
 - Zaaktualizuj bazę danych do wybranej migracji:
 

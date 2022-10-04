@@ -2,7 +2,7 @@
 layout: page
 title: windows/print (中文)
 description: "将文本文件打印到打印机。"
-content_hash: 490ac0d2b346bf4d7ffc04b7e056f3458e511dea
+content_hash: 3c810555c9f4505e8af57ac7ee8b9018444fee54
 related_topics:
   - title: English version
     url: /en/windows/print.html
@@ -20,7 +20,7 @@ related_topics:
 # print
 
 将文本文件打印到打印机。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/print>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/print>.
 
 - 将文本文件打印到默认的打印机：
 

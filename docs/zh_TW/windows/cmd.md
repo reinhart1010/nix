@@ -2,7 +2,7 @@
 layout: page
 title: windows/cmd (中文 (繁體, 台灣))
 description: "Windows 命令解釋器。"
-content_hash: 5077dfb169f166f00c8353c5b7c7cb3dd7bec2d7
+content_hash: 9d87bfc84924c8c2eb8de7cc6ff81e333d37b6da
 related_topics:
   - title: English version
     url: /en/windows/cmd.html
@@ -26,7 +26,7 @@ related_topics:
 # cmd
 
 Windows 命令解釋器。
-更多資訊：<https://docs.microsoft.com/windows-server/administration/windows-commands/cmd>.
+更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/cmd>.
 
 - 開啟一個新的命令列執行個體：
 

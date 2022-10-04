@@ -2,7 +2,7 @@
 layout: page
 title: windows/popd (English)
 description: "Changes the current directory to the directory stored by the `pushd` command."
-content_hash: 50d382afc7f875a514d2b4e437c4eba266fbb138
+content_hash: 03de72e4390f77949154b095aacefa514fee40a9
 related_topics:
   - title: 中文 version
     url: /zh/windows/popd.html
@@ -11,7 +11,7 @@ related_topics:
 # popd
 
 Changes the current directory to the directory stored by the `pushd` command.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/popd>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/popd>.
 
 - Switch to directory at the top of the stack:
 

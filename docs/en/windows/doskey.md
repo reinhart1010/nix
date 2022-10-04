@@ -2,7 +2,7 @@
 layout: page
 title: windows/doskey (English)
 description: "Manage macros, windows commands and command-lines."
-content_hash: 24339f0f9d66aa7417677b8492037ec0b801410d
+content_hash: a5f913034ba2c1ff62580ec7ef1a1b7155763228
 related_topics:
   - title: 中文 version
     url: /zh/windows/doskey.html
@@ -11,7 +11,7 @@ related_topics:
 # doskey
 
 Manage macros, windows commands and command-lines.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/doskey>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/doskey>.
 
 - List available macros:
 

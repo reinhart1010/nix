@@ -2,7 +2,7 @@
 layout: page
 title: windows/tzutil (English)
 description: "A tool for displaying or configuring the system time zone."
-content_hash: 88ad2b124d9a7e8f029c2e3b3ca133fc09d054e6
+content_hash: 72d99e6a6bd160cecd6acc53bb5b2fea2404e042
 related_topics:
   - title: 中文 version
     url: /zh/windows/tzutil.html
@@ -11,7 +11,7 @@ related_topics:
 # tzutil
 
 A tool for displaying or configuring the system time zone.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/tzutil>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/tzutil>.
 
 - Get the current time zone:
 

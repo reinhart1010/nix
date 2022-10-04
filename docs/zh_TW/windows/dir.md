@@ -2,8 +2,11 @@
 layout: page
 title: windows/dir (中文 (繁體, 台灣))
 description: "列出目錄的內容。"
-content_hash: 6781b5c97d7abeda2bfeae522a76a4fc6f535728
+content_hash: a6918d3fd91d49ca2553c7c39d4bf8456089e30f
 related_topics:
+  - title: català version
+    url: /ca/windows/dir.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/dir.html
     icon: bi bi-globe
@@ -29,7 +32,7 @@ related_topics:
 # dir
 
 列出目錄的內容。
-更多資訊：<https://docs.microsoft.com/windows-server/administration/windows-commands/dir>.
+更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/dir>.
 
 - 顯示當前目錄的內容：
 

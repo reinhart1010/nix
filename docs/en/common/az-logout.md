@@ -2,13 +2,13 @@
 layout: page
 title: common/az-logout (English)
 description: "Log out from an Azure subscription."
-content_hash: 2cdd7b115aa8b59d996e3a860d0f3317ffbdba82
+content_hash: e784fe2a7014d2a66d1d5ad483092f3d48b9399f
 ---
 # az logout
 
 Log out from an Azure subscription.
 Part of `azure-cli`.
-More information: <https://docs.microsoft.com/cli/azure/reference-index#az_logout>.
+More information: <https://learn.microsoft.com/cli/azure/reference-index#az_logout>.
 
 - Log out from the active account:
 

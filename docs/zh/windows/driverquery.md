@@ -2,7 +2,7 @@
 layout: page
 title: windows/driverquery (中文)
 description: "显示已安装设备驱动程序的信息。"
-content_hash: fd2b9247e1aae762af610ddbfc32a5ef616b49c4
+content_hash: be6db430642d2c08988dde6564e32803172ddc10
 related_topics:
   - title: English version
     url: /en/windows/driverquery.html
@@ -11,7 +11,7 @@ related_topics:
 # driverquery
 
 显示已安装设备驱动程序的信息。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/driverquery>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/driverquery>.
 
 - 显示所有已安装设备驱动程序的列表：
 

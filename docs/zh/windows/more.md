@@ -2,7 +2,7 @@
 layout: page
 title: windows/more (中文)
 description: "分页显示标准输入或文件的输出。"
-content_hash: 32a9c6e36c8270e7520cb438b1c42d686cdabab7
+content_hash: 1d6960e1f948387bf69f5f7a62fd8c6417ca9455
 related_topics:
   - title: English version
     url: /en/windows/more.html
@@ -11,7 +11,7 @@ related_topics:
 # more
 
 分页显示标准输入或文件的输出。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/more>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/more>.
 
 - 分页显示标准输入的输出：
 

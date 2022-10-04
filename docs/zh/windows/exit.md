@@ -2,7 +2,7 @@
 layout: page
 title: windows/exit (中文)
 description: "退出当前的命令行实例或 bat 脚本。"
-content_hash: 33e649af12948fd9d126019d6cca6ba3f6947c50
+content_hash: 3498215a6b40ceaa422b27cc42af761ef4249a0e
 related_topics:
   - title: English version
     url: /en/windows/exit.html
@@ -14,7 +14,7 @@ related_topics:
 # exit
 
 退出当前的命令行实例或 bat 脚本。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/exit>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/exit>.
 
 - 退出当前的命令行实例：
 

@@ -2,7 +2,7 @@
 layout: page
 title: windows/systeminfo (中文)
 description: "显示本地或远程计算机的操作系统配置。"
-content_hash: 16d65bdd2bfac8017fe7d4321dd45938d3ddf33f
+content_hash: 13d36dbf0f733aeb856937e7f4eb18487e1215b3
 related_topics:
   - title: English version
     url: /en/windows/systeminfo.html
@@ -11,7 +11,7 @@ related_topics:
 # systeminfo
 
 显示本地或远程计算机的操作系统配置。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/systeminfo>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/systeminfo>.
 
 - 显示本地计算机的操作系统配置：
 

@@ -2,7 +2,7 @@
 layout: page
 title: windows/ftp (English)
 description: "Interactively transfer files between a local and remote FTP server."
-content_hash: 9acd84e28cfc095e373a273b11d9c0d8604e2d91
+content_hash: 39cf4615bb9bec7be7af66c599303a028b309792
 related_topics:
   - title: 中文 version
     url: /zh/windows/ftp.html
@@ -11,7 +11,7 @@ related_topics:
 # ftp
 
 Interactively transfer files between a local and remote FTP server.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/ftp>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/ftp>.
 
 - Connect to a remote FTP server interactively:
 

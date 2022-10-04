@@ -2,7 +2,7 @@
 layout: page
 title: windows/findstr (English)
 description: "Find specified text within one or more files."
-content_hash: 90410adfb3481d66d8f2155f465f98b267d45bc8
+content_hash: c76d4f93c759d5d2a247b5f62fdf2debdaedb5e0
 related_topics:
   - title: 中文 version
     url: /zh/windows/findstr.html
@@ -11,7 +11,7 @@ related_topics:
 # findstr
 
 Find specified text within one or more files.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/findstr>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/findstr>.
 
 - Find space-separated string(s) in all files:
 

@@ -2,7 +2,7 @@
 layout: page
 title: windows/chkdsk (English)
 description: "Check file system and volume metadata for errors."
-content_hash: 2f2c5ee6618aefaea827127ce74bf44307cf7165
+content_hash: 7a6e7ef5e2c4f3c0ebbe5fc659d47aa8f8d0f036
 related_topics:
   - title: Indonesia version
     url: /id/windows/chkdsk.html
@@ -11,7 +11,7 @@ related_topics:
 # chkdsk
 
 Check file system and volume metadata for errors.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/chkdsk>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/chkdsk>.
 
 - Specify the drive letter (followed by a colon), mount point, or volume name to check:
 

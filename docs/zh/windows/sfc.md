@@ -2,7 +2,7 @@
 layout: page
 title: windows/sfc (中文)
 description: "扫描 Windows 系统文件的完整性。"
-content_hash: 1ed692475448d806d5217fb29e5ae23b8dda118d
+content_hash: fd400f204f45d2e004dfa676ff48b56a39cb2fa0
 related_topics:
   - title: English version
     url: /en/windows/sfc.html
@@ -11,7 +11,7 @@ related_topics:
 # sfc
 
 扫描 Windows 系统文件的完整性。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/sfc>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/sfc>.
 
 - 显示命令的使用方法：
 

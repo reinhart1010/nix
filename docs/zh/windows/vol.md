@@ -2,7 +2,7 @@
 layout: page
 title: windows/vol (中文)
 description: "显示有关卷的信息。"
-content_hash: 8b053e8dfdeeafbe5aea902ba7d847f7ad20a9ce
+content_hash: 5b2ae921aa3b2b9fabdb75d2e79f81617b5ed307
 related_topics:
   - title: English version
     url: /en/windows/vol.html
@@ -11,7 +11,7 @@ related_topics:
 # vol
 
 显示有关卷的信息。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/vol>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/vol>.
 
 - 显示当前驱动器的标签和序列号：
 

@@ -2,7 +2,7 @@
 layout: page
 title: windows/cd (English)
 description: "Display the current working directory or move to a different directory."
-content_hash: 545e8728b48e0ac9b940617a9f21bc6dd3fc86c0
+content_hash: 1690e6f576386f485f5ca359434858dacdc4dc20
 related_topics:
   - title: বাংলা version
     url: /bn/windows/cd.html
@@ -29,7 +29,7 @@ related_topics:
 # cd
 
 Display the current working directory or move to a different directory.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/cd>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
 - Display the path of the current directory:
 

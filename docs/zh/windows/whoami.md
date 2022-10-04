@@ -2,7 +2,7 @@
 layout: page
 title: windows/whoami (中文)
 description: "显示有关当前用户的详细信息。"
-content_hash: 1c0c36611eda0a0f20b6c42cf4be91b014816beb
+content_hash: 706f5611983e52de3920dcbe419e8f388961d95c
 related_topics:
   - title: English version
     url: /en/windows/whoami.html
@@ -20,7 +20,7 @@ related_topics:
 # whoami
 
 显示有关当前用户的详细信息。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/whoami>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/whoami>.
 
 - 显示当前用户的用户名：
 

@@ -2,7 +2,7 @@
 layout: page
 title: windows/cipher (中文)
 description: "加密或解密 NTFS 驱动器上的文件。"
-content_hash: 68e8e9e7d39c01818b4cad42f98eee1db7ebb1f9
+content_hash: 49fdcfa24bc735a0447d14a2df24cf9bb57bff7a
 related_topics:
   - title: English version
     url: /en/windows/cipher.html
@@ -11,7 +11,7 @@ related_topics:
 # cipher
 
 加密或解密 NTFS 驱动器上的文件。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/cipher>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/cipher>.
 
 - 加密文件或目录：
 

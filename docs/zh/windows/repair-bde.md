@@ -2,7 +2,7 @@
 layout: page
 title: windows/repair-bde (中文)
 description: "尝试修复或解密损坏的 BitLocker 加密卷。"
-content_hash: 4b9e453896b8cb0548243b912f68ddaca1a12158
+content_hash: d4cb29a9f1b63133af87e04ed0030c680e8cd6fa
 related_topics:
   - title: English version
     url: /en/windows/repair-bde.html
@@ -11,7 +11,7 @@ related_topics:
 # repair-bde
 
 尝试修复或解密损坏的 BitLocker 加密卷。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/repair-bde>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/repair-bde>.
 
 - 尝试修复一个指定的卷：
 

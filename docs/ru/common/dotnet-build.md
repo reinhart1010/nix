@@ -2,7 +2,7 @@
 layout: page
 title: common/dotnet-build (русский)
 description: "Собирает приложение .NET и все его зависимости."
-content_hash: fc0131a0c7919a9569afcc356ac8ced01632e45d
+content_hash: da212785429ad89cee827a2a7d1df4169ec9df19
 related_topics:
   - title: English version
     url: /en/common/dotnet-build.html
@@ -17,7 +17,7 @@ related_topics:
 # dotnet build
 
 Собирает приложение .NET и все его зависимости.
-Больше информации: <https://docs.microsoft.com/dotnet/core/tools/dotnet-build>.
+Больше информации: <https://learn.microsoft.com/dotnet/core/tools/dotnet-build>.
 
 - Скомпилировать проект или решение в текущей директории:
 

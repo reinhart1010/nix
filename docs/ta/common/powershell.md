@@ -2,7 +2,7 @@
 layout: page
 title: common/powershell (தமிழ்)
 description: "குறிப்பாக கணினி நிர்வாகத்திற்காக வடிவமைக்கப்பட்ட கட்டளை வரி ஷெல் மற்றும் ஸ்கிரிப்டிங் மொழி."
-content_hash: 58b5f396cec39b10bfd80d7c88a0b93b939d723c
+content_hash: 34489a93c3ef09b597c8f7f3e04208f9b9d1094a
 related_topics:
   - title: English version
     url: /en/common/powershell.html
@@ -12,7 +12,7 @@ related_topics:
 
 குறிப்பாக கணினி நிர்வாகத்திற்காக வடிவமைக்கப்பட்ட கட்டளை வரி ஷெல் மற்றும் ஸ்கிரிப்டிங் மொழி.
 மேலும் பார்க்கவும்: `pwsh`.
-மேலும் விவரத்திற்கு: <https://docs.microsoft.com/windows-server/administration/windows-commands/powershell>.
+மேலும் விவரத்திற்கு: <https://learn.microsoft.com/windows-server/administration/windows-commands/powershell>.
 
 - ஊடாடும் ஷெல் அமர்வைத் தொடங்கவும்:
 

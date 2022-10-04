@@ -2,13 +2,13 @@
 layout: page
 title: common/az-sshkey (English)
 description: "Manage ssh public key with vm."
-content_hash: 529b4cebbd1d0b524aa4df30db31a5b228e54c44
+content_hash: 3722962ad1f934a255bbfaf2e2efb75e3d5af951
 ---
 # az sshkey
 
 Manage ssh public key with vm.
 Part of `azure-cli`.
-More information: <https://docs.microsoft.com/cli/azure/sshkey>.
+More information: <https://learn.microsoft.com/cli/azure/sshkey>.
 
 - Create a new SSH key:
 

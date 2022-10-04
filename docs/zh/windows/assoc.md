@@ -2,7 +2,7 @@
 layout: page
 title: windows/assoc (中文)
 description: "显示或修改文件扩展名关联。"
-content_hash: 995d0f852d1846869586a72015e3e1aa429d0a5f
+content_hash: 91097dba257d2236c5b008ab6d4db27098582cea
 related_topics:
   - title: English version
     url: /en/windows/assoc.html
@@ -14,7 +14,7 @@ related_topics:
 # assoc
 
 显示或修改文件扩展名关联。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/assoc>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/assoc>.
 
 - 显示所有当前文件扩展名关联的列表：
 

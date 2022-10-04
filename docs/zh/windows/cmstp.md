@@ -2,7 +2,7 @@
 layout: page
 title: windows/cmstp (中文)
 description: "用于管理连接服务配置文件的命令行工具。"
-content_hash: 6bc9f529f30a0eccc1a2133d25d53ac7443d6877
+content_hash: 6b301b8f874a4180397bc9562a4713009aac80a9
 related_topics:
   - title: English version
     url: /en/windows/cmstp.html
@@ -11,7 +11,7 @@ related_topics:
 # cmstp
 
 用于管理连接服务配置文件的命令行工具。
-更多信息：<https://docs.microsoft.com/windows-server/administration/windows-commands/cmstp>.
+更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/cmstp>.
 
 - 安装指定的配置文件：
 

@@ -2,7 +2,7 @@
 layout: page
 title: windows/type (فارسی)
 description: "نمایش محتویات فایل."
-content_hash: 54840e23e263c4c0b03c3de576c16fbb2d4443ad
+content_hash: 13ceef124f8486c97033ce24c9d4470e01b45cc3
 related_topics:
   - title: English version
     url: /en/windows/type.html
@@ -17,7 +17,7 @@ related_topics:
 # type
 
 نمایش محتویات فایل.
-اطلاعات بیشتر: <https://docs.microsoft.com/windows-server/administration/windows-commands/type>.
+اطلاعات بیشتر: <https://learn.microsoft.com/windows-server/administration/windows-commands/type>.
 
 - نمایش محتویات فایل مشخص شده:
 

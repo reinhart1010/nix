@@ -2,12 +2,12 @@
 layout: page
 title: windows/azcopy (English)
 description: "A file transfer tool for uploading to Azure Cloud Storage Accounts."
-content_hash: 0773a5bbe411d6414d7e1e16872780238c6602b3
+content_hash: 8b33079b3285c8996fcdf5627a0058bc9eed73d2
 ---
 # azcopy
 
 A file transfer tool for uploading to Azure Cloud Storage Accounts.
-More information: <https://docs.microsoft.com/azure/storage/common/storage-use-azcopy-v10>.
+More information: <https://learn.microsoft.com/azure/storage/common/storage-use-azcopy-v10>.
 
 - Log in to an Azure Tenant:
 

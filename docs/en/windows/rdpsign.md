@@ -2,7 +2,7 @@
 layout: page
 title: windows/rdpsign (English)
 description: "A tool for signing Remote Desktop Protocol (RDP) files."
-content_hash: 24dfb21fc5c0c733448dfbfe3e591584777ba02f
+content_hash: 2c8cbf266606597b69b6548ec18c3c4a2752881b
 related_topics:
   - title: 中文 version
     url: /zh/windows/rdpsign.html
@@ -11,7 +11,7 @@ related_topics:
 # rdpsign
 
 A tool for signing Remote Desktop Protocol (RDP) files.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/rdpsign>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/rdpsign>.
 
 - Sign an RDP file:
 

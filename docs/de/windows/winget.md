@@ -2,7 +2,7 @@
 layout: page
 title: windows/winget (Deutsch)
 description: "Windows Package Manager CLI."
-content_hash: 6339de1f08422cba49be8b576afa1c4bf224745d
+content_hash: 748baa6d7e9dbfe0dd3e3886caa0d1c3d275d1d5
 related_topics:
   - title: English version
     url: /en/windows/winget.html
@@ -14,7 +14,7 @@ related_topics:
 # winget
 
 Windows Package Manager CLI.
-Weitere Informationen: <https://docs.microsoft.com/windows/package-manager/winget>.
+Weitere Informationen: <https://learn.microsoft.com/windows/package-manager/winget>.
 
 - Installiere ein Paket:
 

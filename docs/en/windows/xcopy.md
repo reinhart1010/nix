@@ -2,7 +2,7 @@
 layout: page
 title: windows/xcopy (English)
 description: "Copy files and directory trees."
-content_hash: ce4e9df83d2d0626688936f03bf5a45bf2bdc3fb
+content_hash: 637c457e4ad6455594edbed45732b0ff3a6ff483
 related_topics:
   - title: Indonesia version
     url: /id/windows/xcopy.html
@@ -14,7 +14,7 @@ related_topics:
 # xcopy
 
 Copy files and directory trees.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/xcopy>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/xcopy>.
 
 - Copy the file(s) to the specified destination:
 

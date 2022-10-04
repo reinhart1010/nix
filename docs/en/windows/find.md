@@ -2,7 +2,7 @@
 layout: page
 title: windows/find (English)
 description: "Find a specified string in one or more files."
-content_hash: 5835625915f5d4216cb3f17b38104e07b06570fd
+content_hash: 1ce0effc126174eb7ac3a4da3fc97ae31c39398c
 related_topics:
   - title: Indonesia version
     url: /id/windows/find.html
@@ -23,7 +23,7 @@ related_topics:
 # find
 
 Find a specified string in one or more files.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/find>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/find>.
 
 - Find lines that contain a specified string:
 

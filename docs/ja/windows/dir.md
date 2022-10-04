@@ -2,8 +2,11 @@
 layout: page
 title: windows/dir (日本語)
 description: "ディレクトリの内容を一覧表示します。"
-content_hash: bde3ad1b96bd7e5726e7d05d57d07901d22915c2
+content_hash: 8c4d2176d507bd3a2894074f5b27e716029a3d84
 related_topics:
+  - title: català version
+    url: /ca/windows/dir.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/dir.html
     icon: bi bi-globe
@@ -29,7 +32,7 @@ related_topics:
 # dir
 
 ディレクトリの内容を一覧表示します。
-詳しくはこちら: <https://docs.microsoft.com/windows-server/administration/windows-commands/dir>
+詳しくはこちら: <https://learn.microsoft.com/windows-server/administration/windows-commands/dir>
 
 - 現在のディレクトリの内容を表示します:
 

@@ -2,12 +2,12 @@
 layout: page
 title: windows/time (English)
 description: "Display or set the system time."
-content_hash: aafe0c5b2e7a2ebb15d7760cfb893cc1f59873ce
+content_hash: d7f0ad1a0ee400f22bd6679ac6ca346178be5c0c
 ---
 # time
 
 Display or set the system time.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/time>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/time>.
 
 - Display the current system time and prompt to enter a new time (leave empty to keep unchanged):
 

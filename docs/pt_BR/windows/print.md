@@ -2,7 +2,7 @@
 layout: page
 title: windows/print (português (Brasil))
 description: "Imprimir um arquivo de texto em uma impressora."
-content_hash: bdead98013fe5147a20c203be0f8520e620eafa7
+content_hash: 7abe4613c94c0f52962f4ba7f1f8762deb673805
 related_topics:
   - title: English version
     url: /en/windows/print.html
@@ -20,7 +20,7 @@ related_topics:
 # print
 
 Imprimir um arquivo de texto em uma impressora.
-Mais informações: <https://docs.microsoft.com/windows-server/administration/windows-commands/print>.
+Mais informações: <https://learn.microsoft.com/windows-server/administration/windows-commands/print>.
 
 - Imprimir um arquivo de texto na impressora padrão:
 

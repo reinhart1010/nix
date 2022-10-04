@@ -2,12 +2,12 @@
 layout: page
 title: windows/gpupdate (English)
 description: "A tool to check and apply Windows Group Policy settings."
-content_hash: 59fcccffde4462b2c3227ba3d91a7127d46d3d7d
+content_hash: 23bbf445f326cc39d72df1267a6a2f44f3b1e250
 ---
 # gpupdate
 
 A tool to check and apply Windows Group Policy settings.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/gpupdate>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/gpupdate>.
 
 - Check and apply updated Group Policy settings:
 

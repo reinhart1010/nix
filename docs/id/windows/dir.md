@@ -2,8 +2,11 @@
 layout: page
 title: windows/dir (Indonesia)
 description: "Lis isi direktori."
-content_hash: 3bb96fb551463338555da7e4d94b89f794e0d7b2
+content_hash: d61d8969c17ea0714d5fde6ebb9da52ffbf2bd57
 related_topics:
+  - title: català version
+    url: /ca/windows/dir.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/dir.html
     icon: bi bi-globe
@@ -29,7 +32,7 @@ related_topics:
 # dir
 
 Lis isi direktori.
-Informasi lebih lanjut: <https://docs.microsoft.com/windows-server/administration/windows-commands/dir>.
+Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/dir>.
 
 - Tampilkan isi direktori saat ini:
 

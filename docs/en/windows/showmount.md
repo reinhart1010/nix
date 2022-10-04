@@ -2,12 +2,12 @@
 layout: page
 title: windows/showmount (English)
 description: "Display information about NFS filesystems on Windows Server."
-content_hash: 888f48b7afea340dc888f8034481b248545e3821
+content_hash: 764224c7372a3eb03b02c45469fe4436ebd3c9db
 ---
 # showmount
 
 Display information about NFS filesystems on Windows Server.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/showmount>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/showmount>.
 
 - Display all exported filesystems:
 

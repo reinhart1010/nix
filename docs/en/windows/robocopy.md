@@ -2,13 +2,13 @@
 layout: page
 title: windows/robocopy (English)
 description: "Robust File and Folder Copy."
-content_hash: c0c4bda795eb81a1b752441d670c866fa155b08e
+content_hash: 5d13175cdaca9e7dba003975234c0b96d7897267
 ---
 # robocopy
 
 Robust File and Folder Copy.
 By default files will only be copied if the source and destination have different time stamps or different file sizes.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/robocopy>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/robocopy>.
 
 - Copy all `.jpg` and `.bmp` files from one directory to another:
 

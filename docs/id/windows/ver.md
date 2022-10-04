@@ -2,7 +2,7 @@
 layout: page
 title: windows/ver (Indonesia)
 description: "Menampilkan nomor versi Windows atau MS-DOS saat ini."
-content_hash: 7923103ab9fa65f5a3719489b823058f6a53aaf2
+content_hash: 1141288343ba596c283f67e910e51fcadd09deab
 related_topics:
   - title: English version
     url: /en/windows/ver.html
@@ -23,7 +23,7 @@ related_topics:
 # ver
 
 Menampilkan nomor versi Windows atau MS-DOS saat ini.
-Informasi lebih lanjut: <https://docs.microsoft.com/windows-server/administration/windows-commands/ver>.
+Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/ver>.
 
 - Menampilkan nomor versi saat ini:
 

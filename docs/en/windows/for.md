@@ -2,12 +2,12 @@
 layout: page
 title: windows/for (English)
 description: "Conditionally execute a command several times."
-content_hash: b5b92dd3699a4f583277c14eada6a578a5c472b1
+content_hash: 7f6285574009e3a98a8c0f4ccc1baa78cddfdfa5
 ---
 # for
 
 Conditionally execute a command several times.
-More information: <https://docs.microsoft.com/windows-server/administration/windows-commands/for>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/for>.
 
 - Execute given commands for the specified set:
 
