@@ -2,13 +2,19 @@
 layout: page
 title: common/htop (português (Brasil))
 description: "Visualizar informação dinâmica em tempo real acerca de processos em execução. Uma versão melhorada do comando `top`."
-content_hash: 64287607f4c71ca539fb5a683810c12c2db97893
+content_hash: 577333bf3c2add74a28eedfc86dc94d5e5488fdc
 related_topics:
   - title: English version
     url: /en/common/htop.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/htop.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/htop.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/htop.html
     icon: bi bi-globe
 ---
 
@@ -25,14 +31,26 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 Visualizar informação dinâmica em tempo real acerca de processos em execução. Uma versão melhorada do comando `top`.
 Mais informações: <https://htop.dev/>.
 
-- Inicializar htop:
+- Inicializa htop:
 
 `htop`
 
-- Inicializar htop mostrando somente processos pertencentes a um usuário:
+- Inicializa htop mostrando somente processos pertencentes a um usuário:
 
-`htop -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_usuário</span>
+`htop --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_usuário</span>
 
-- Obter ajuda acerca de comandos interativos:
+- Ordena processos por um `item_de_ordenacao` (utilize `htop --sort help` para ver as opçōes disponíveis):
+
+`htop --sort `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">item_de_ordenacao</span>
+
+- Vê comandos interativos enquanto roda `htop`:
 
 `?`
+
+- Muda para uma aba diferente:
+
+`tab`
+
+- Mostra ajuda:
+
+`htop --help`
