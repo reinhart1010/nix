@@ -1,30 +1,30 @@
 ---
 layout: page
 title: common/smartctl (English)
-description: "View a disk's SMART data and other information."
-content_hash: d880e0b140229bcc54d1159a0fa1d1306b345715
+description: "Monitor disk health including SMART data."
+content_hash: 9f459c366379896c3366536d5d712c1461028d41
 ---
 # smartctl
 
-View a disk's SMART data and other information.
-More information: <https://en.wikipedia.org/wiki/S.M.A.R.T.>.
+Monitor disk health including SMART data.
+More information: <https://www.smartmontools.org>.
 
-- View SMART health summary:
+- Display SMART health summary:
 
 `sudo smartctl --health `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span>
 
-- View device information:
+- Display device information:
 
 `sudo smartctl --info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span>
 
-- Begin a short self-test:
+- Start a short self-test in the background:
 
 `sudo smartctl --test short `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span>
 
-- View current/last self-test status and other SMART capabilities:
+- Display current/last self-test status and other SMART capabilities:
 
 `sudo smartctl --capabilities `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span>
 
-- View SMART self-test log (if supported):
+- Display exhaustive SMART data:
 
-`sudo smartctl --log selftest `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span>
+`sudo smartctl --all `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span>
