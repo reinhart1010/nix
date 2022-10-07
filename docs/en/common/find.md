@@ -2,10 +2,13 @@
 layout: page
 title: common/find (English)
 description: "Find files or directories under the given directory tree, recursively."
-content_hash: a153fbb6001fa010e521cf8f127bcac3a9a6103b
+content_hash: 14314cf3beb415c65c3be978946bede909b3a227
 related_topics:
   - title: français version
     url: /fr/common/find.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/find.html
     icon: bi bi-globe
 ---
 # find
@@ -29,9 +32,9 @@ More information: <https://manned.org/find>.
 
 `find `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">root_path</span>` -name '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.py</span>`' -not -path '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*/site-packages/*</span>`'`
 
-- Find files matching a given size range:
+- Find files matching a given size range, limiting the recursive depth to "1"::
 
-`find `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">root_path</span>` -size `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+500k</span>` -size `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-10M</span>
+`find `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">root_path</span>` -maxdepth 1 -size `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+500k</span>` -size `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-10M</span>
 
 - Run a command for each file (use `{}` within the command to access the filename):
 
