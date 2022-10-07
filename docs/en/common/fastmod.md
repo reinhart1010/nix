@@ -2,12 +2,13 @@
 layout: page
 title: common/fastmod (English)
 description: "A fast partial replacement for the codemod tool, replace and replace all in the whole codebase."
-content_hash: 806e5b6b36d126e0c4d318526abbd201d44bbf7d
+content_hash: 8ab3b321548bd752063b1cf81603791950d59cfe
+related_topics:
+  - title: العربية version
+    url: /ar/common/fastmod.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># fastmod
+# fastmod
 
 A fast partial replacement for the codemod tool, replace and replace all in the whole codebase.
 Regexes are matched by Rust regex crate.
@@ -21,7 +22,7 @@ More information: <https://github.com/facebookincubator/fastmod>.
 
 `fastmod --ignore-case `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regex_pattern</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">replacement</span>` -- `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file path/to/directory ...</span>
 
-- Replace a regex pattern in in a specific directory files filtered with a case-insensitive glob pattern:
+- Replace a regex pattern in a specific directory in files filtered with a case-insensitive glob pattern:
 
 `fastmod `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regex</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">replacement</span>` --dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` --iglob `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'**/*.{js,json}'</span>
 

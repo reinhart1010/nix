@@ -2,7 +2,7 @@
 layout: page
 title: common/gnmic-subscribe (English)
 description: "Subscribe to a gnmic network device state updates."
-content_hash: 78d316c19ff0230954a8b96d06de7c810a4e0754
+content_hash: fdf1285a02a18aa8e4af0c525850557299cad683
 ---
 # gnmic subscribe
 
@@ -25,6 +25,6 @@ More information: <https://gnmic.kmrd.dev/cmd/subscribe>.
 
 `gnmic -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip:port</span>` subscribe --path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path</span>` --mode once`
 
-- Subscribe to a target and specify reponse encoding (json_ietf):
+- Subscribe to a target and specify response encoding (json_ietf):
 
 `gnmic -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip:port</span>` subscribe --path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path</span>` --encoding json_ietf`

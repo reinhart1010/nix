@@ -2,15 +2,16 @@
 layout: page
 title: linux/toolbox-init-container (English)
 description: "Initialize a running `toolbox` container."
-content_hash: 914433940d474e4335b53b91fa05fc12a24d57c1
+content_hash: 1033eb06fd52069ac07cb3a4ecc85e545dc408f6
+related_topics:
+  - title: தமிழ் version
+    url: /ta/linux/toolbox-init-container.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># toolbox init-container
+# toolbox init-container
 
 Initialize a running `toolbox` container.
-This command is should not be executed by the user, and cannot be run on the host.
+This command should not be executed by the user, and cannot be run on the host.
 More information: <https://manned.org/toolbox-init-container.1>.
 
 - Initialize a running toolbox:

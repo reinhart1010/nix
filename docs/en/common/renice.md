@@ -1,12 +1,12 @@
 ---
 layout: page
 title: common/renice (English)
-description: "Alters the scheduling priority/nicenesses of one or more running processes."
-content_hash: 2cc9cfd9ff8572c9586c47edcf53a0c727170fc3
+description: "Alters the scheduling priority/niceness of one or more running processes."
+content_hash: 9e14f1705af4240bb3f8f0c47d5761bb2a341201
 ---
 # renice
 
-Alters the scheduling priority/nicenesses of one or more running processes.
+Alters the scheduling priority/niceness of one or more running processes.
 Niceness values range from -20 (most favorable to the process) to 19 (least favorable to the process).
 More information: <https://manned.org/renice>.
 

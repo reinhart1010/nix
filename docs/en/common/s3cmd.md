@@ -1,15 +1,12 @@
 ---
 layout: page
 title: common/s3cmd (English)
-description: "Command line tool and client for uploading, retrieveing and managing data in S3 compatible object storage."
-content_hash: 0a29f007ebb4ca4013c3238b868ed096451f6b60
+description: "Command line tool and client for uploading, retrieving and managing data in S3 compatible object storage."
+content_hash: 03589cb7315a2f32420849ee9271c5b02dfb6deb
 ---
+# s3cmd
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># s3cmd
-
-Command line tool and client for uploading, retrieveing and managing data in S3 compatible object storage.
+Command line tool and client for uploading, retrieving and managing data in S3 compatible object storage.
 More information: <https://s3tools.org/s3cmd>.
 
 - Invoke configuration/reconfiguration tool:
