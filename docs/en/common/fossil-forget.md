@@ -2,15 +2,12 @@
 layout: page
 title: common/fossil-forget (English)
 description: "This command is an alias of `fossil rm`, with the exception that it never removes files from the disk."
-content_hash: d7a7107c9d5e2a99f2a2d434fdd309f99eb06451
+content_hash: 977a927066865c595adac58d65a00a85cb7c6455
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># fossil forget
+# fossil forget
 
 This command is an alias of `fossil rm`, with the exception that it never removes files from the disk.
-More information: <https://fossil-scm.org/home/help>.
+More information: <https://fossil-scm.org/home/help/forget>.
 
 - View documentation for the original command:
 
