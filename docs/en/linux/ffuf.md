@@ -2,7 +2,7 @@
 layout: page
 title: linux/ffuf (English)
 description: "Subdomain and directory discovery tool."
-content_hash: f657ddecaadb4740b822420ab4c4ca6d5850226a
+content_hash: 03bb9c4ebcec61e104ad806b78170380d249cade
 ---
 # ffuf
 
@@ -29,6 +29,6 @@ More information: <https://github.com/ffuf/ffuf>.
 
 `ffuf -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/postdata.txt</span>` -X `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">POST</span>` -d "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username=admin\&password=FUZZ</span>`" -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://target/login.php</span>` -fc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">401</span>
 
-- Discover subdomains using a subdoomain list on a target website:
+- Discover subdomains using a subdomain list on a target website:
 
 `ffuf -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subdomains.txt</span>` -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://website.com</span>` -H "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Host: FUZZ.website.com</span>`"`

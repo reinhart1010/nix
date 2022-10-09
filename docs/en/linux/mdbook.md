@@ -1,12 +1,12 @@
 ---
 layout: page
 title: linux/mdbook (English)
-description: "Create online books by writing makrdown files."
-content_hash: 32f2a41365e67d0298df71baafc911ec3f20cf67
+description: "Create online books by writing Markdown files."
+content_hash: c68a0e90cb3eeddc6b6cf44931f757ade52bb362
 ---
 # mdbook
 
-Create online books by writing makrdown files.
+Create online books by writing Markdown files.
 More information: <https://rust-lang.github.io/mdBook/>.
 
 - Create a mdbook project in the current directory:
