@@ -2,7 +2,7 @@
 layout: page
 title: linux/reboot (Indonesia)
 description: "Reboot sistem."
-content_hash: 09e9bf9bceb7eeed6a84d80955dbe9d4f57a0c3b
+content_hash: 257d15c195b7bd3ff0a81d1521291e4213a7657d
 related_topics:
   - title: català version
     url: /ca/linux/reboot.html
@@ -16,6 +16,9 @@ related_topics:
   - title: français version
     url: /fr/linux/reboot.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/reboot.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/reboot.html
     icon: bi bi-globe
@@ -23,7 +26,7 @@ related_topics:
 # reboot
 
 Reboot sistem.
-Informasi lebih lanjut: <https://www.man7.org/linux/man-pages/man8/reboot.8.html>.
+Informasi lebih lanjut: <https://manned.org/reboot.8>.
 
 - Reboot sistem:
 

@@ -2,7 +2,7 @@
 layout: page
 title: linux/reboot (français)
 description: "Réinitialisez le système."
-content_hash: 83c32feaf3dce663946367e4cf46ca2e8f198212
+content_hash: cc391060250e69e9999604e5a356e669018682e2
 related_topics:
   - title: català version
     url: /ca/linux/reboot.html
@@ -13,17 +13,29 @@ related_topics:
   - title: español version
     url: /es/linux/reboot.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/reboot.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/reboot.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/reboot.html
     icon: bi bi-globe
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/linux/reboot.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># reboot
 
 Réinitialisez le système.
-Plus d'informations : <https://www.man7.org/linux/man-pages/man8/reboot.8.html>.
+Plus d'informations : <https://manned.org/reboot.8>.
 
 - Réinitialisez le système normalement :
 

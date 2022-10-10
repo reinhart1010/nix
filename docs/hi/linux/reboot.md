@@ -2,7 +2,7 @@
 layout: page
 title: linux/reboot (हिन्दी)
 description: "मशीन को `reboot` करें"
-content_hash: 5bbcd8f2865f9733b1a461e77a1ae618d0f56b8c
+content_hash: 1f393df2f70a16675343c10c7b003c105ad36ab0
 related_topics:
   - title: català version
     url: /ca/linux/reboot.html
@@ -23,13 +23,10 @@ related_topics:
     url: /zh/linux/reboot.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># reboot
+# reboot
 
 मशीन को `reboot` करें
-अधिक जानकारी: <https://www.man7.org/linux/man-pages/man8/reboot.8.html>.
+अधिक जानकारी: <https://manned.org/reboot.8>.
 
 - तुरंत पुनरारंभ करें:
 
@@ -45,7 +42,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 - Sysadmin से संपर्क किए बिना तुरंत पुनरारंभ करें:
 
-`reboot --force --force`
+`reboot --force`
 
 - सिस्टम को रिबूट किए बिना wtmp शटडाउन प्रविष्टि टाइप करें:
 

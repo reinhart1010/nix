@@ -2,13 +2,25 @@
 layout: page
 title: linux/reboot (中文)
 description: "重新启动系统。"
-content_hash: 064673c3167aeac0b365680129977ad30dda16dd
+content_hash: 6844668206d73279dad543451570f1689bbe8bbb
 related_topics:
+  - title: català version
+    url: /ca/linux/reboot.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/reboot.html
     icon: bi bi-globe
   - title: español version
     url: /es/linux/reboot.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/reboot.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/reboot.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/reboot.html
     icon: bi bi-globe
 ---
 
@@ -23,7 +35,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># reboot
 
 重新启动系统。
-更多信息：<https://www.man7.org/linux/man-pages/man8/reboot.8.html>.
+更多信息：<https://manned.org/reboot.8>.
 
 - 立即重新启动：
 

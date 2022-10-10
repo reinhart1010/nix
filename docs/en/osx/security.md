@@ -2,7 +2,7 @@
 layout: page
 title: osx/security (English)
 description: "Administer keychains, keys, certificates and the Security framework."
-content_hash: 70ed8d3cb9c41240dae71ed842f8ad83d0875ae3
+content_hash: 5ef3da806d346314aaa1c59ccad84f8ee9c9439f
 ---
 # security
 
@@ -27,7 +27,7 @@ More information: <https://ss64.com/osx/security.html>.
 
 - Add a certificate from file to a [k]eychain (if -k isn't specified, the default keychain is used):
 
-`security add-certificates -k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keychain.name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/cert.pem</span>
+`security add-certificates -k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.keychain</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/cert.pem</span>
 
 - Add a CA certificate to the per-user Trust Settings:
 

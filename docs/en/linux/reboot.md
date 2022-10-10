@@ -2,10 +2,22 @@
 layout: page
 title: linux/reboot (English)
 description: "Reboot the system."
-content_hash: f8a500dce0815ed9db8298c07fec330defc308dc
+content_hash: 71c95e1fec297fc913b07be93cf2666259fe966d
 related_topics:
+  - title: català version
+    url: /ca/linux/reboot.html
+    icon: bi bi-globe
   - title: español version
     url: /es/linux/reboot.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/reboot.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/reboot.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/reboot.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/reboot.html
@@ -14,7 +26,7 @@ related_topics:
 # reboot
 
 Reboot the system.
-More information: <https://www.man7.org/linux/man-pages/man8/reboot.8.html>.
+More information: <https://manned.org/reboot.8>.
 
 - Reboot the system:
 
@@ -30,7 +42,7 @@ More information: <https://www.man7.org/linux/man-pages/man8/reboot.8.html>.
 
 - Reboot immediately without contacting the system manager:
 
-`reboot --force --force`
+`reboot --force`
 
 - Write the wtmp shutdown entry without rebooting the system:
 
