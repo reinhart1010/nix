@@ -2,7 +2,7 @@
 layout: page
 title: linux/pacman-sync (Deutsch)
 description: "Arch Linux Paketverwaltungs-Werkzeug."
-content_hash: 1e825fe2882fd022677fec4412e7d134370de285
+content_hash: b906b657748667f8b666586578107cb6e783e1c6
 related_topics:
   - title: English version
     url: /en/linux/pacman-sync.html
@@ -31,7 +31,7 @@ Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
 
 `sudo pacman --sync --refresh --sysupgrade --noconfirm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paketname</span>
 
-- Suche in der Paketdatenbank mit einem regulärem Ausdruck oder Schlüsselwort:
+- Suche in der Paketdatenbank mit einem regulären Ausdruck oder Schlüsselwort:
 
 `pacman --sync --search "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">suchmuster</span>`"`
 

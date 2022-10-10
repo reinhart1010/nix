@@ -2,7 +2,7 @@
 layout: page
 title: common/plantuml (Deutsch)
 description: "Erstelle UML-Diagramme aus einer reinen Textsprache und rendere sie in verschiedenen Formaten."
-content_hash: 1ae0d2815b17cbfa381efb47e540470dc13fb0ea
+content_hash: 608c3e683f14635af549bf50a99ac42f742c05f4
 related_topics:
   - title: English version
     url: /en/common/plantuml.html
@@ -17,7 +17,7 @@ Weitere Informationen: <https://plantuml.com/en/command-line>.
 
 `plantuml `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/diagramm1.puml</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/diagramm2.puml</span>
 
-- Rendere eine Diagramm im vorgegebenen Format (z.B. `png`, `pdf`, `svg`, `txt`):
+- Rendere ein Diagramm im vorgegebenen Format (z.B. `png`, `pdf`, `svg`, `txt`):
 
 `plantuml -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">format</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/diagramm.puml</span>
 

@@ -2,10 +2,13 @@
 layout: page
 title: common/aws-s3 (Deutsch)
 description: "CLI für AWS S3. AWS S3 stellt Speicherplatz in der Cloud zur Verfügung."
-content_hash: 52f5cd6b8b69f0b36ea9d240ce9334e8792c62e4
+content_hash: 71b5b14b592d420281699444aab5bda37f68a610
 related_topics:
   - title: English version
     url: /en/common/aws-s3.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/aws-s3.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/aws-s3.html
@@ -42,6 +45,6 @@ Weitere Informationen: <https://awscli.amazonaws.com/v2/documentation/api/latest
 
 `aws s3 rm s3://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span>
 
-- Probelauf eines angegeben Kommandos ohne diesen auszuführen:
+- Probelauf eines angegebenen Kommandos ohne dieses auszuführen:
 
 `aws s3 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehl</span>` --dryrun`

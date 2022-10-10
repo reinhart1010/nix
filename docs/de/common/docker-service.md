@@ -2,10 +2,13 @@
 layout: page
 title: common/docker-service (Deutsch)
 description: "Verwalte Docker Services."
-content_hash: 5ee8df70ce9a54c145437edb747118df7c0c7ff1
+content_hash: a55c748a6fcc9cad0c84e4438e884d353fa7ab16
 related_topics:
   - title: English version
     url: /en/common/docker-service.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/docker-service.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/docker-service.html
@@ -32,7 +35,7 @@ Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/ser
 
 `docker service ps `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name|ID</span>
 
-- Skaliere die angegebenen Services auf einen bestimmte Anzahl an Replikaten:
+- Skaliere die angegebenen Services auf eine bestimmte Anzahl an Replikaten:
 
 `docker service scale `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">anzahl_an_replikaten</span>
 

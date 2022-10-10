@@ -2,7 +2,7 @@
 layout: page
 title: common/ebook-convert (italiano)
 description: "Converti e-book in differenti formati, come PDF, EPUB, Mobi."
-content_hash: 8187f86a32286f5c8ac7172b09a36667100adb64
+content_hash: 580cfdc93c5f57978d1c42ece49d58bba13127c1
 related_topics:
   - title: English version
     url: /en/common/ebook-convert.html
@@ -25,4 +25,4 @@ Maggiori informazioni: <https://manual.calibre-ebook.com/generated/en/ebook-conv
 
 - Converti un e-book in un altro formato:
 
-`ebook-convert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">originale</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">convertito</span>
+`ebook-convert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file_input</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_output</span>

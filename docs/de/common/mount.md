@@ -2,7 +2,7 @@
 layout: page
 title: common/mount (Deutsch)
 description: "Ermöglicht den Zugriff auf ein gesamtes Dateisystem in einem Verzeichnis."
-content_hash: 4adb8840744387172f0974c29bd3b3d708008eda
+content_hash: 1029b55ff4ab5d290c25b3d9aded128ec6812108
 related_topics:
   - title: English version
     url: /en/common/mount.html
@@ -16,7 +16,7 @@ related_topics:
 Ermöglicht den Zugriff auf ein gesamtes Dateisystem in einem Verzeichnis.
 Weitere Informationen: <https://manned.org/mount.8>.
 
-- Zeige alle eingehängten Dateisyteme:
+- Zeige alle eingehängten Dateisysteme:
 
 `mount`
 

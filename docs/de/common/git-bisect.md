@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/git-bisect (Deutsch)
-description: "Benuzt binäre Suche um den commit ausfindig zu machen, welcher einen Fehler beinhaltet."
-content_hash: f958d8cdce1bb0e328be21122c85e2e4474c0d8e
+description: "Benutzt binäre Suche um den commit ausfindig zu machen, welcher einen Fehler beinhaltet."
+content_hash: 901c43c3b8d06dfa3fc0c79b52f6142082db94be
 related_topics:
   - title: English version
     url: /en/common/git-bisect.html
@@ -19,11 +19,23 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/git-bisect.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-bisect.html
+    icon: bi bi-globe
 ---
-# git bisect
 
-Benuzt binäre Suche um den commit ausfindig zu machen, welcher einen Fehler beinhaltet.
-Git springt im Commit-Graph automatisch vor und zurück, um den fehlerhaften Commit schrittweise einzugrenzen zu können.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/git-bisect.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># git bisect
+
+Benutzt binäre Suche um den commit ausfindig zu machen, welcher einen Fehler beinhaltet.
+Git springt im Commit-Graph automatisch vor und zurück, um den fehlerhaften Commit schrittweise eingrenzen zu können.
 Weitere Informationen: <https://git-scm.com/docs/git-bisect>.
 
 - Starte eine Bisect-Session in einem Commit-Bereich, der durch einen bekannten fehlerhaften Commit und einen sauberen Commit begrenzt wird:

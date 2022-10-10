@@ -2,9 +2,9 @@
 layout: page
 title: common/masscan (English)
 description: "Network scanner for scanning as fast as possible."
-content_hash: bdfe2deed9130579c19c61b32b1b89f52ea2f740
+content_hash: 9ac23b3ab0778e4d601d060d7cbc768de7a8572e
 ---
-# Masscan
+# masscan
 
 Network scanner for scanning as fast as possible.
 Best run with elevated privileges. Nmap compatibility run `masscan --nmap` to find out more.

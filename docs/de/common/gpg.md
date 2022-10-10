@@ -2,7 +2,7 @@
 layout: page
 title: common/gpg (Deutsch)
 description: "GNU Privacy Guard."
-content_hash: f6499b8dd7738c48ab21ff826dbc3931a5f9eeba
+content_hash: c676733ace66132d3596e43ccbce16ad03827073
 related_topics:
   - title: English version
     url: /en/common/gpg.html
@@ -24,7 +24,7 @@ Weitere Informationen: <https://gnupg.org>.
 
 `gpg --full-generate-key`
 
-- Signiere `doc.txt` ohne Verschlüsselung (Ausabe nach `doc.txt.asc`):
+- Signiere `doc.txt` ohne Verschlüsselung (Ausgabe nach `doc.txt.asc`):
 
 `gpg --clearsign `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doc.txt</span>
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/fio (English)
 description: "Flexible I/O tester."
-content_hash: d08939958de74b87f5d66ff593e1f6282f138459
+content_hash: 44122ccbcae21cf1924956195286d806afb42f07
 ---
 # fio
 
@@ -25,3 +25,7 @@ More information: <https://fio.readthedocs.io/en/latest/fio_doc.html>.
 - Test with parameters from a job file:
 
 `sudo fio `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/job_file</span>
+
+- Convert a specific job file to command-line options:
+
+`fio --showcmd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/job_file</span>

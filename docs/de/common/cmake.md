@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/cmake (Deutsch)
-description: "Plattformübergreifndes Build-Automatisierungs-System, das Vorlagen für native Build-Systeme erzeugt."
-content_hash: 16768001fa6644e99db05b927f04547dc2451a7d
+description: "Plattformübergreifendes Build-Automatisierungs-System, das Vorlagen für native Build-Systeme erzeugt."
+content_hash: 067ad84e7c084bea4d2207e114b9f5fedca1826e
 related_topics:
   - title: English version
     url: /en/common/cmake.html
@@ -22,7 +22,7 @@ related_topics:
 ---
 # cmake
 
-Plattformübergreifndes Build-Automatisierungs-System, das Vorlagen für native Build-Systeme erzeugt.
+Plattformübergreifendes Build-Automatisierungs-System, das Vorlagen für native Build-Systeme erzeugt.
 Weitere Informationen: <https://cmake.org/cmake/help/latest/manual/cmake.1.html>.
 
 - Erzeuge eine Build-Vorlage im aktuellen Verzeichnis mit `CMakeLists.txt` eines Projektordners:
@@ -37,7 +37,7 @@ Weitere Informationen: <https://cmake.org/cmake/help/latest/manual/cmake.1.html>
 
 `cmake --build `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/build_verzeichnis</span>
 
-- Installiere die Build-Artifakte in `/usr/local/` und enferne Debugsymbole:
+- Installiere die Build-Artifakte in `/usr/local/` und entferne Debugsymbole:
 
 `cmake --install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/build_verzeichnis</span>` --strip`
 

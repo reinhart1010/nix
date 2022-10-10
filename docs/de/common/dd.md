@@ -2,7 +2,7 @@
 layout: page
 title: common/dd (Deutsch)
 description: "Konvertiere und kopiere eine Datei."
-content_hash: 9ebd6894031df6c2db05ccf92e5e51b4cdc2e899
+content_hash: 3f78f8c5733f5805fa782c10f5f3656a0cab7919
 related_topics:
   - title: English version
     url: /en/common/dd.html
@@ -40,6 +40,6 @@ Weitere Informationen: <https://www.gnu.org/software/coreutils/dd>.
 
 `dd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei.img</span>` of=/dev/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">laufwerk</span>` status=progress`
 
-- Überprüfe den Fortschritt eines laufenden dd-Prozsses (Führe diesen Befehl von einer anderen Shell aus):
+- Überprüfe den Fortschritt eines laufenden dd-Prozesses (Führe diesen Befehl von einer anderen Shell aus):
 
 `kill -USR1 $(pgrep ^dd)`

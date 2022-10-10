@@ -2,10 +2,13 @@
 layout: page
 title: common/aws (Deutsch)
 description: "Das offizielle CLI für Amazon Web Services."
-content_hash: c3ca907d0f8a84ecd57a665e3eb604b119896276
+content_hash: 2c8745953e94f491c1f882f291f98167dca14a71
 related_topics:
   - title: English version
     url: /en/common/aws.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/aws.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/aws.html
@@ -38,7 +41,7 @@ Weitere Informationen: <https://aws.amazon.com/cli>.
 
 `aws `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehl</span>` help`
 
-- Zeige Informationen über die eigene angenomme Identität (häufig benutzt zur Fehlersuche):
+- Zeige Informationen über die eigene angenommene Identität (häufig benutzt zur Fehlersuche):
 
 `aws sts get-caller-identity`
 
@@ -50,7 +53,7 @@ Weitere Informationen: <https://aws.amazon.com/cli>.
 
 `aws iam create-user --cli-auto-prompt`
 
-- Öffne einen Assitenten für eine AWS Ressource:
+- Öffne einen Assistenten für eine AWS Ressource:
 
 `aws dynamodb wizard `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">neue_tabelle</span>
 

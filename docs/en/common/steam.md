@@ -2,12 +2,12 @@
 layout: page
 title: common/steam (English)
 description: "Video game platform by Valve."
-content_hash: a401791310d83558824589f0b3da68bf3a4f42d6
+content_hash: 969ea9a6dfe354afb0e6d0b130ad61b355ed5a8f
 ---
 # steam
 
 Video game platform by Valve.
-More information: <https://developer.valvesoftware.com/wiki/Command_Line_Options#Steam_.28Windows.29>.
+More information: <https://developer.valvesoftware.com/wiki/Command_Line_Options>.
 
 - Launch Steam, printing debug messages to stdout:
 

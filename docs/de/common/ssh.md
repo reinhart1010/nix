@@ -2,7 +2,7 @@
 layout: page
 title: common/ssh (Deutsch)
 description: "Secure Shell ist ein Protokoll für das sichere einloggen auf einem externen System."
-content_hash: f785d76c23ab23878dfdaae5eb8c2784ac86631c
+content_hash: 058d82a7671587dfb8c36bfdbc82144de74ea44d
 related_topics:
   - title: English version
     url: /en/common/ssh.html
@@ -48,6 +48,6 @@ Weitere Informationen: <https://man.openbsd.org/ssh>.
 
 `ssh -J `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzer@sring_server</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzer</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">externer_server</span>
 
-- Agenten Weiterleitung: Leite die eigenen Authentifizierungs-Information an den externen Server weiter (siehe `man ssh_config` für mehr Optionen):
+- Agenten Weiterleitung: Leite die eigenen Authentifizierungs-Informationen an den externen Server weiter (siehe `man ssh_config` für mehr Optionen):
 
 `ssh -A `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzer</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">externer_server</span>

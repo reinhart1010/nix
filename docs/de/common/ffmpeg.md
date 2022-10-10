@@ -2,7 +2,7 @@
 layout: page
 title: common/ffmpeg (Deutsch)
 description: "Programm zum konvertieren von Videos."
-content_hash: dfb8830a1e627eec7579a90c793f9344b5a750e5
+content_hash: 4dd121cb4cbdbf2d30426cd29a0f9a1ed20ef925
 related_topics:
   - title: English version
     url: /en/common/ffmpeg.html
@@ -23,11 +23,11 @@ Weitere Informationen: <https://ffmpeg.org>.
 
 `ffmpeg -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/video.mp4</span>` -vn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/audio.mp3</span>
 
-- Konvertiere Frames eines Videos oder Gifs zu individuellen, numerierten Bildern:
+- Konvertiere Frames eines Videos oder Gifs zu individuellen, nummerierten Bildern:
 
 `ffmpeg -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">video.mpg|video.gif</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/frame_%d.png</span>
 
-- Kombiniere numerierte Bilder (`frame_1.jpg`, `frame_2.jpg`, etc) in ein Video oder Gif:
+- Kombiniere nummerierte Bilder (`frame_1.jpg`, `frame_2.jpg`, etc) in ein Video oder Gif:
 
 `ffmpeg -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/frame_%d.jpg</span>` -f bild2 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">video.mpg|video.gif</span>
 

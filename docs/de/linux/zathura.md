@@ -1,8 +1,8 @@
 ---
 layout: page
 title: linux/zathura (Deutsch)
-description: "Ein vim-artiger modaler Dokumentenbetracher mit integrierter Kommandozeile."
-content_hash: 728c5dd3a87efbe32aabc8b7abc22d07bc6451bf
+description: "Ein vim-artiger modaler Dokumentenbetrachter mit integrierter Kommandozeile."
+content_hash: baf7c55316ad28242b92e730dc2c1ac4ae5b59ab
 related_topics:
   - title: English version
     url: /en/linux/zathura.html
@@ -10,10 +10,13 @@ related_topics:
   - title: italiano version
     url: /it/linux/zathura.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/zathura.html
+    icon: bi bi-globe
 ---
 # zathura
 
-Ein vim-artiger modaler Dokumentenbetracher mit integrierter Kommandozeile.
+Ein vim-artiger modaler Dokumentenbetrachter mit integrierter Kommandozeile.
 Stelle sicher, dass ein Backend installiert ist (poppler, Postscript oder DjVu).
 Weitere Informationen: <https://pwmt.org/projects/zathura/>.
 

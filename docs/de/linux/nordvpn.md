@@ -2,22 +2,13 @@
 layout: page
 title: linux/nordvpn (Deutsch)
 description: "Kommandozeilen-Schnittstelle für NordVPN."
-content_hash: 28238307ea5109373f8341476650b103b0d42488
+content_hash: c370f9983af7df34854c8dd1036cdb4d774f5c3c
 related_topics:
   - title: English version
     url: /en/linux/nordvpn.html
     icon: bi bi-globe
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/nordvpn.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># nordvpn
+# nordvpn
 
 Kommandozeilen-Schnittstelle für NordVPN.
 Weitere Informationen: <https://nordvpn.com/download/linux/>.
@@ -42,7 +33,7 @@ Weitere Informationen: <https://nordvpn.com/download/linux/>.
 
 `nordvpn connect `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Germany</span>
 
-- Stelle eine Verbinding zu einem NordVPN-Server in einem bestimmten Land und einer bestimmten Stadt her:
+- Stelle eine Verbindung zu einem NordVPN-Server in einem bestimmten Land und einer bestimmten Stadt her:
 
 `nordvpn connect `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Germany</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Berlin</span>
 

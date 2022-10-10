@@ -2,7 +2,7 @@
 layout: page
 title: windows/color (Deutsch)
 description: "Setze die Vordergrund- und Hintergrundfarben der Kommandozeile."
-content_hash: a489c795769a53eae7d8cd157db1aa5c06506e46
+content_hash: 1ade23d7972b20d51edacd787d51a10b635b7828
 related_topics:
   - title: català version
     url: /ca/windows/color.html
@@ -23,7 +23,7 @@ Weitere Informationen: <https://learn.microsoft.com/windows-server/administratio
 
 `color`
 
-- Liste alle verfügbaren Farben und detailierte Informationen auf:
+- Liste alle verfügbaren Farben und detaillierte Informationen auf:
 
 `color /?`
 

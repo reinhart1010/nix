@@ -2,7 +2,7 @@
 layout: page
 title: linux/pacman-files (Deutsch)
 description: "Arch Linux Paketverwaltungs-Werkzeug."
-content_hash: 5e0d2dd2736193b47c2d6c3f15cf33cfc837c99c
+content_hash: 6f4731ab1cb3c7369ca1692cfdab6acfeb784129
 related_topics:
   - title: English version
     url: /en/linux/pacman-files.html
@@ -29,7 +29,7 @@ Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
 
 `pacman --files `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dateiname</span>
 
-- Finde das Paket, welches eine bestimmte Datei besitzt, mittels einem regulärem Ausdruck:
+- Finde das Paket, welches eine bestimmte Datei besitzt, mittels eines regulären Ausdrucks:
 
 `pacman --files --regex '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">suchmuster</span>`'`
 

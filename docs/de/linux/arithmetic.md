@@ -2,7 +2,7 @@
 layout: page
 title: linux/arithmetic (Deutsch)
 description: "Quiz über simple arithmetische Probleme."
-content_hash: 12ac6a44871b7787b941d0e9b021dbe0df24d3ab
+content_hash: 8db57380396c5a8fb187ce9de6b95ad31f03a610
 related_topics:
   - title: English version
     url: /en/linux/arithmetic.html
@@ -20,7 +20,7 @@ Weitere Informationen: <https://manpages.debian.org/bsdgames/arithmetic.6.en.htm
 
 `arithmetic`
 
-- Spezifiziere einen oder mehr arithemtische [O]peratoren um Probleme mit ihnen zu bekommen:
+- Spezifiziere einen oder mehr arithmetische [O]peratoren um Probleme mit ihnen zu bekommen:
 
 `arithmetic -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+|-|x|/</span>
 

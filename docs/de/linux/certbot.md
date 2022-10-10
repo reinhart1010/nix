@@ -2,7 +2,7 @@
 layout: page
 title: linux/certbot (Deutsch)
 description: "The Let's Encrypt Agent zum automatischen Erhalten und Erneuern von TLS-Zertifikaten."
-content_hash: 7bd5d91c9e4d4d08321baeb6417840b9a2cc6329
+content_hash: 639a8306deaef02b6e393547f43c8b67e3149dc2
 related_topics:
   - title: English version
     url: /en/linux/certbot.html
@@ -37,6 +37,6 @@ Weitere Informationen: <https://certbot.eff.org/docs/using.html>.
 
 `sudo certbot --webroot --webroot-path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/webroot</span>` --domain `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subdomain.beispiel.de</span>` --dry-run`
 
-- Beziehe eine Test-Zertifikat:
+- Beziehe ein Test-Zertifikat:
 
 `sudo certbot --webroot --webroot-path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/webroot</span>` --domain `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subdomain.beispiel.de</span>` --test-cert`

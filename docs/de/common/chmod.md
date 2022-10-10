@@ -2,7 +2,7 @@
 layout: page
 title: common/chmod (Deutsch)
 description: "Ändere die Zugriffsberechtigungen einer Datei oder eines Verzeichnisses."
-content_hash: edc5395ecc861a64850ccff6c5be562412940e78
+content_hash: 080239e8e409f9728f07a78b1dbea322a0ddf2fc
 related_topics:
   - title: English version
     url: /en/common/chmod.html
@@ -38,16 +38,7 @@ related_topics:
     url: /zh/common/chmod.html
     icon: bi bi-globe
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/chmod.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># chmod
+# chmod
 
 Ändere die Zugriffsberechtigungen einer Datei oder eines Verzeichnisses.
 Weitere Informationen: <https://www.gnu.org/software/coreutils/chmod>.
@@ -80,6 +71,6 @@ Weitere Informationen: <https://www.gnu.org/software/coreutils/chmod>.
 
 `chmod -R g+w,o+w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/verzeichnis</span>
 
-- Gib [a]llen Benutzern rekursiv Rechte zum Lesen ([r]ead) von Dateien und Ausführen (e[X]ecute) von Unterverzeichnissen innerhalb eines Verzeichnis:
+- Gib [a]llen Benutzern rekursiv Rechte zum Lesen ([r]ead) von Dateien und Ausführen (e[X]ecute) von Unterverzeichnissen innerhalb eines Verzeichnisses:
 
 `chmod -R a+rX `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/verzeichnis</span>
