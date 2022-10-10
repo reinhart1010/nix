@@ -1,12 +1,12 @@
 ---
 layout: page
 title: linux/qm (English)
-description: "Qemu/KVM Virtual Machine Manager."
-content_hash: 12f30b0739716808891860ba47c3de1b90f3cb36
+description: "QEMU/KVM Virtual Machine Manager."
+content_hash: e21a974d99372729e6d18c863ad440fe440281e7
 ---
 # qm
 
-Qemu/KVM Virtual Machine Manager.
+QEMU/KVM Virtual Machine Manager.
 More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
 - List all virtual machines:

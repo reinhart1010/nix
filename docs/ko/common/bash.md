@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/bash (한국어)
-description: "Bourne-Again SHell. `sh`-호환 명령 행 인터프리터."
-content_hash: 40bc87d1c274c590d9dea2241e5c1f1a48fa78d5
+description: "Bourne-Again SHell, an `sh`- 호환 명령 행 인터프리터."
+content_hash: cc2c034143e98272fc2bd19aac54ac92dc1a68e7
 related_topics:
   - title: Deutsch version
     url: /de/common/bash.html
@@ -34,33 +34,34 @@ related_topics:
 ---
 # bash
 
-Bourne-Again SHell. `sh`-호환 명령 행 인터프리터.
-더 많은 정보: <https://gnu.org/software/bash/>.
+Bourne-Again SHell, an `sh`- 호환 명령 행 인터프리터.
+참조 : `zsh`, `histexpand` (history expansion).
+더 많은 정보:: <https://gnu.org/software/bash/>.
 
-- 대화식 쉘 시작:
+- 대화형 쉘 시작하기:
 
 `bash`
 
-- 명령 실행:
+- 설정 파일 로딩 없이 대화형 쉘 시작하기:
 
-`bash -c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>`"`
+`bash --norc`
 
-- 파일에서 명령 실행:
+- 특정 명령어([c]ommands) 실행하기:
 
-`bash `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.sh</span>
+`bash -c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 'bash가 실행되었습니다'</span>`"`
 
-- 파일에서 명령 실행하고, 터미널에서 실행 된 모든 명령 기록:
+- 특정 스크립트 실행하기:
 
-`bash -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.sh</span>
+`bash `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/script.sh</span>
 
-- 파일에서 명령 실행하고, 첫 번째 에러에서 중지:
+- 각 명령어 실행 전 명령어 인쇄하며 특정 스크립트 실행하기:
 
-`bash -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.sh</span>
+`bash -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/script.sh</span>
 
-- stdin에서 명령 실행:
+- 첫 번째 에러([e]rror)가 발생하면 중지되도록 하며 특정 스크립트 실행하기:
 
-`bash -s`
+`bash -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/script.sh</span>
 
-- bash의 버전 정보 출력 (`echo $BASH_VERSION`을 사용하여 버전 문자열만 표시):
+- stdin에서 bash 실행하기:
 
-`bash --version`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "echo 'bash가 실행되었습니다'"</span>` | bash`

@@ -2,7 +2,7 @@
 layout: page
 title: common/cd (Deutsch)
 description: "Ändere das aktuelle Arbeitsverzeichnis."
-content_hash: 41c2a8ce298a828cd51e31cdafe1e336c74872f3
+content_hash: 3f777ae567e555a486d28cb7e75f386f11951215
 related_topics:
   - title: català version
     url: /ca/common/cd.html
@@ -56,16 +56,7 @@ related_topics:
     url: /zh_TW/common/cd.html
     icon: bi bi-globe
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cd.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cd
+# cd
 
 Ändere das aktuelle Arbeitsverzeichnis.
 Weitere Informationen: <https://manned.org/cd>.
@@ -89,3 +80,7 @@ Weitere Informationen: <https://manned.org/cd>.
 - Wechsle zum zuletzt gewählten Verzeichnis:
 
 `cd -`
+
+- Wechseln in das Stammverzeichnis:
+
+`cd /`
