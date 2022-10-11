@@ -2,16 +2,16 @@
 layout: page
 title: common/aws-s3api (English)
 description: "Create and delete Amazon S3 buckets and edit bucket properties."
-content_hash: 105adfa57504b3ad0d9e2ad5acfe40b93055c968
+content_hash: 183c1894a15129db5c4ab4322182866e40bb89e0
 ---
 # aws s3api
 
 Create and delete Amazon S3 buckets and edit bucket properties.
 More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3api/index.html>.
 
-- Create a bucket:
+- Create bucket in a specific region:
 
-`aws s3api create-bucket --bucket `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span>
+`aws s3api create-bucket --bucket `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span>` --region `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">region</span>` --create-bucket-configuration LocationConstraint=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">region</span>
 
 - Delete a bucket:
 
@@ -23,7 +23,7 @@ More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/refe
 
 - List the objects inside of a bucket and only show each object's key and size:
 
-`aws s3api list-objects --bucket `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span>` --query '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Contents[].{Key: Key, Size: Size</span>`}'`
+`aws s3api list-objects --bucket `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span>` --query '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Contents[].{Key: Key, Size: Size}</span>`'`
 
 - Add an object to a bucket:
 

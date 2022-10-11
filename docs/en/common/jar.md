@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/jar (English)
-description: "Java Applications/Libraries Packager."
-content_hash: 5f2f2f83791d9d4776198fe5ff0872a9fc3f0024
+description: "Java applications/libraries packager."
+content_hash: e2fa80bcfc0e15c15c014ace04f23989dce8d1ac
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/jar.html
@@ -13,7 +13,7 @@ related_topics:
 ---
 # jar
 
-Java Applications/Libraries Packager.
+Java applications/libraries packager.
 More information: <https://docs.oracle.com/javase/tutorial/deployment/jar/basicsindex.html>.
 
 - Recursively archive all files in the current directory into a .jar file:

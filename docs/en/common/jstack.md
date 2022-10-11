@@ -1,12 +1,12 @@
 ---
 layout: page
 title: common/jstack (English)
-description: "Java Stack Trace Tool."
-content_hash: 8fa4b3c3792d607379dfa6e2f2fc3dd6c16af6dd
+description: "Java stack trace tool."
+content_hash: 3d1635e471d7b825135da1d5635d12f227141040
 ---
 # jstack
 
-Java Stack Trace Tool.
+Java stack trace tool.
 More information: <https://manned.org/jstack>.
 
 - Print Java stack traces for all threads in a Java process:

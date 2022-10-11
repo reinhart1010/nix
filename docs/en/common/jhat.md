@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/jhat (English)
-description: "Java Heap Analysis Tool."
-content_hash: cbd067d81ad6cc5a34ea3ac7e718b66711d2f568
+description: "Java heap analysis tool."
+content_hash: e63b46913abfb1ae0df0bdd02bca526b55167ed1
 related_topics:
   - title: 中文 version
     url: /zh/common/jhat.html
@@ -10,7 +10,7 @@ related_topics:
 ---
 # jhat
 
-Java Heap Analysis Tool.
+Java heap analysis tool.
 More information: <https://docs.oracle.com/javase/8/docs/technotes/tools/unix/jhat.html>.
 
 - Analyze a heap dump (from `jmap`), view via HTTP on port 7000:

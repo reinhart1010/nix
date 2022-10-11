@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/kotlin (English)
-description: "Kotlin Application Launcher."
-content_hash: eebb30b4e40ee09d2edab3e1de8089d7fb4279bb
+description: "Kotlin application launcher."
+content_hash: 1bc54df5ab3681183f11990a5ca2e33750e4b21f
 related_topics:
   - title: svenska version
     url: /sv/common/kotlin.html
@@ -10,7 +10,7 @@ related_topics:
 ---
 # kotlin
 
-Kotlin Application Launcher.
+Kotlin application launcher.
 More information: <https://kotlinlang.org>.
 
 - Run a jar file:

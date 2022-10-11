@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/jarsigner (English)
-description: "Sign and verify Java Archive (JAR) files."
-content_hash: 8003f7634c732ba1a11b40c46a7ffb2af2faf044
+description: "Sign and verify Java archive (JAR) files."
+content_hash: 3d0630c95e009c17157283ba3d27d962a2898ff5
 related_topics:
   - title: 中文 version
     url: /zh/common/jarsigner.html
@@ -10,7 +10,7 @@ related_topics:
 ---
 # jarsigner
 
-Sign and verify Java Archive (JAR) files.
+Sign and verify Java archive (JAR) files.
 More information: <https://docs.oracle.com/javase/9/tools/jarsigner.htm>.
 
 - Sign a JAR file:

@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/jmap (English)
-description: "Java Memory Map Tool."
-content_hash: df473201b6af0eaf9ab881df04dcb85e12be6904
+description: "Java memory map tool."
+content_hash: e0089d7854fc5f6fe7398f74273f6564d37d0fea
 related_topics:
   - title: 中文 version
     url: /zh/common/jmap.html
@@ -10,7 +10,7 @@ related_topics:
 ---
 # jmap
 
-Java Memory Map Tool.
+Java memory map tool.
 More information: <https://docs.oracle.com/javase/7/docs/technotes/tools/share/jmap.html>.
 
 - Print shared object mappings for a Java process (output like pmap):
