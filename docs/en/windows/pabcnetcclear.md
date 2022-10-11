@@ -2,7 +2,7 @@
 layout: page
 title: windows/pabcnetcclear (English)
 description: "Preprocess and compile PascalABC.NET source files."
-content_hash: 4fbe9e8567c79541222e47951b1e45bba593ae71
+content_hash: f98d80efaa9e74cc8112132688551f8aea846dee
 related_topics:
   - title: русский version
     url: /ru/windows/pabcnetcclear.html
@@ -19,7 +19,7 @@ More information: <http://pascalabc.net>.
 
 - Compile the specified source file into an executable with the specified name:
 
-`pabcnetcclear /Output:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pas</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source_file.pas</span>
+`pabcnetcclear /Output:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.exe</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source_file.pas</span>
 
 - Compile the specified source file into an executable with the same name along with/without debug information:
 
