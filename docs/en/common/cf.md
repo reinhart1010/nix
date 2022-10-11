@@ -2,12 +2,16 @@
 layout: page
 title: common/cf (English)
 description: "Command-line tool to manage apps and services on Cloud Foundry."
-content_hash: 83ef7582104a9ca0ae8dad7c2797a6e4feebdb60
+content_hash: 95a0087798855f3babcdd06755bebcc94ef04182
 ---
 # cf
 
 Command-line tool to manage apps and services on Cloud Foundry.
 More information: <https://docs.cloudfoundry.org>.
+
+- Log in to the Cloud Foundry API:
+
+`cf login -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">api_url</span>
 
 - Push an app using the default settings:
 
