@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/micro (русский)
-description: "Micro - это современный и интуитивно понятный консольный текстовый редактор."
-content_hash: 2428ac4fd91e19e40019c378a756b7f0dd36975f
+description: "Micro — это современный и интуитивно понятный консольный текстовый редактор."
+content_hash: 5add3d32de50c64c753497f5f3fd5ef49322767e
 related_topics:
   - title: English version
     url: /en/common/micro.html
@@ -19,7 +19,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 <hr># micro
 
-Micro - это современный и интуитивно понятный консольный текстовый редактор.
+Micro — это современный и интуитивно понятный консольный текстовый редактор.
 Micro поддерживает клавиатуру и мышь для навигации и/или выделения текста.
 Больше информации: <https://micro-editor.github.io>.
 
@@ -27,13 +27,17 @@ Micro поддерживает клавиатуру и мышь для нави�
 
 `micro `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">файл</span>
 
+- Сохранить файл:
+
+`Ctrl + S`
+
 - Вырезать всю строку:
 
 `Ctrl + K`
 
-- Искать в файле (используйте `Ctrl + N`/`Ctrl + P` чтобы перейти к следующему/предыдущему совпадению):
+- Искать в файле по регулярному выражению (используйте `Ctrl + N`/`Ctrl + P` чтобы перейти к следующему/предыдущему совпадению):
 
-`Ctrl + F "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">паттерн</span>`" <Ввод>`
+`Ctrl + F "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шаблон</span>`" <Ввод>`
 
 - Выполнить команду:
 
@@ -41,7 +45,7 @@ Micro поддерживает клавиатуру и мышь для нави�
 
 - Выполнить замену во всем файле:
 
-`Ctrl + E replaceall "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">строка</span>`" "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">замена</span>`" <Ввод>`
+`Ctrl + E replaceall "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шаблон</span>`" "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">замена</span>`" <Ввод>`
 
 - Выход:
 

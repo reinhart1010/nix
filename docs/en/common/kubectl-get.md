@@ -2,7 +2,7 @@
 layout: page
 title: common/kubectl-get (English)
 description: "Get Kubernetes objects and resources."
-content_hash: d22cce7916a25d144f3a80704f7e0fb908b1ab31
+content_hash: 30290957ea3a102c888c4d840c401d473c1e27da
 ---
 # kubectl get
 
@@ -35,4 +35,4 @@ More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubect
 
 - Get Kubernetes objects defined in a YAML manifest:
 
-`kubectl get -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/manifest</span>`.yaml`
+`kubectl get -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/manifest.yaml</span>
