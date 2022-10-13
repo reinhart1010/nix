@@ -1,0 +1,18 @@
+---
+layout: page
+title: android/screencap (தமிழ்)
+description: "மொபைல் டிஸ்ப்ளேவின் ஸ்கிரீன் ஷாட்டை எடுக்கவும்."
+content_hash: e949745d8a36a093f221c2bb91faf031cedb32fe
+---
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># screencap
+
+மொபைல் டிஸ்ப்ளேவின் ஸ்கிரீன் ஷாட்டை எடுக்கவும்.
+இந்த கட்டளையை `adb shell` மூலம் மட்டுமே பயன்படுத்த முடியும்.
+மேலும் விவரத்திற்கு: <https://developer.android.com/studio/command-line/adb#screencap>.
+
+- ஒரு ஸ்கிரீன் ஷாட்டை எடுங்கள்:
+
+`adb shell screencap `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு</span>
