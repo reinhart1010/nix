@@ -1,12 +1,12 @@
 ---
 layout: page
 title: common/caddy (English)
-description: "A powerful, enterprise-ready, open source web server with automatic HTTPS, written in Go."
-content_hash: a8fec9eb65422985c313311cf7e4854d29c2e763
+description: "An enterprise-ready open source web server with automatic HTTPS, written in Go."
+content_hash: 2ba98e4e0c630116ea6e58fea766c150757298cd
 ---
 # caddy
 
-A powerful, enterprise-ready, open source web server with automatic HTTPS, written in Go.
+An enterprise-ready open source web server with automatic HTTPS, written in Go.
 More information: <https://caddyserver.com>.
 
 - Start Caddy in the foreground:
