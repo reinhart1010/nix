@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/alias (español)
-description: "Crea alias -- palabras que son remplazadas por una cadena de comando(s)."
-content_hash: 78112d0266de37d6fb78b4d0ab393d5b73ea4f42
+description: "Crea alias -- palabras que son reemplazadas por una cadena de comando(s)."
+content_hash: dbfc0309ea471687861487b1c969d923e8119bc3
 related_topics:
   - title: Deutsch version
     url: /de/common/alias.html
@@ -43,13 +43,19 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/alias.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/alias.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/alias.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/alias.html
     icon: bi bi-globe
 ---
 # alias
 
-Crea alias -- palabras que son remplazadas por una cadena de comando(s).
+Crea alias -- palabras que son reemplazadas por una cadena de comando(s).
 Los alias son temporales en la sesión de shell actual, a no ser que estén definidos en el archivo de configuración de la shell, ej. `~/.bashrc`.
 Más información: <https://tldp.org/LDP/abs/html/aliases.html>.
 
