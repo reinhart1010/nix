@@ -2,7 +2,11 @@
 layout: page
 title: common/podman (English)
 description: "Simple management tool for pods, containers and images."
-content_hash: 2f626b5e13e1236e2bd51748386785c23294ce98
+content_hash: 949ab0668134222a9d3463380e7574b9df058125
+related_topics:
+  - title: தமிழ் version
+    url: /ta/common/podman.html
+    icon: bi bi-globe
 ---
 # podman
 
@@ -10,33 +14,33 @@ Simple management tool for pods, containers and images.
 Podman provides a Docker-CLI comparable command-line. Simply put: `alias docker=podman`.
 More information: <https://github.com/containers/podman/blob/main/commands-demo.md>.
 
-- Print out information about containers:
-
-`podman ps`
-
 - List all containers (both running and stopped):
 
 `podman ps --all`
 
-- Start one or more containers:
+- Create a container from an image, with a custom name:
 
-`podman start `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_id</span>
+`podman run --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span>
 
-- Stop one or more running containers:
+- Start or stop an existing container:
 
-`podman stop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_id</span>
+`podman `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>
 
-- Pull an image from a registry (defaults to the Docker Hub):
+- Pull an image from a registry (defaults to Docker Hub):
 
-`podman pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_name</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_tag</span>
+`podman pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span>
+
+- Display the list of already downloaded images:
+
+`podman images`
 
 - Open a shell inside an already running container:
 
 `podman exec --interactive --tty `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sh</span>
 
-- Remove one or more stopped containers:
+- Remove a stopped container:
 
-`podman rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_id</span>
+`podman rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>
 
 - Display the logs of one or more containers and follow log output:
 
