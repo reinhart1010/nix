@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/piodebuggdb (polski)
-description: "Te polecenie jest aliasem `pio debug`."
-content_hash: 3126449f3143253b3c0275b56ab1e994eb632ee0
+description: "To polecenie jest aliasem `pio debug`."
+content_hash: 6d0efce6e8f198d39160c59867d092f41264d37d
 related_topics:
   - title: bosanski version
     url: /bs/common/piodebuggdb.html
@@ -67,7 +67,7 @@ related_topics:
 ---
 # piodebuggdb
 
-Te polecenie jest aliasem `pio debug`.
+To polecenie jest aliasem `pio debug`.
 
 - Zobacz dokumentację orginalnego polecenia:
 

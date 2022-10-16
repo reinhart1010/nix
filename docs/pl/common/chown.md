@@ -2,7 +2,7 @@
 layout: page
 title: common/chown (polski)
 description: "Zmienia właściciela i grupę właścicieli dla plików i katalogów."
-content_hash: a61e60132eeb19e20bd04fc8481f200dff86d738
+content_hash: b3afa6f07d91ac268deb7b6206ad8402ae668f6e
 related_topics:
   - title: Deutsch version
     url: /de/common/chown.html
@@ -28,13 +28,16 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/chown.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/chown.html
+    icon: bi bi-globe
 ---
 # chown
 
 Zmienia właściciela i grupę właścicieli dla plików i katalogów.
 Więcej informacji: <https://www.gnu.org/software/coreutils/chown>.
 
-- Zmień  właściciela pliku/katalogu:
+- Zmień właściciela pliku/katalogu:
 
 `chown `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">użytkownik</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_lub_katalogu</span>
 

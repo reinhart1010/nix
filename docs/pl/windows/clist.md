@@ -1,8 +1,8 @@
 ---
 layout: page
 title: windows/clist (polski)
-description: "Te polecenie jest aliasem `choco list`."
-content_hash: 6e3950da31f648570f242f9b33c789a092533779
+description: "To polecenie jest aliasem `choco list`."
+content_hash: f86f3db834367537788b676bc6db08138d610e18
 related_topics:
   - title: bosanski version
     url: /bs/windows/clist.html
@@ -67,7 +67,7 @@ related_topics:
 ---
 # clist
 
-Te polecenie jest aliasem `choco list`.
+To polecenie jest aliasem `choco list`.
 Więcej informacji: <https://docs.chocolatey.org/en-us/choco/commands/list>.
 
 - Zobacz dokumentację orginalnego polecenia:

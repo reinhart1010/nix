@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/llvm-ar (polski)
-description: "Te polecenie jest aliasem `ar`."
-content_hash: efc8adb51eccb4824e0af9c7b724f5913e9cf414
+description: "To polecenie jest aliasem `ar`."
+content_hash: b9122f0ab2eb29d9661016d1ac88a249ae04ba31
 related_topics:
   - title: bosanski version
     url: /bs/common/llvm-ar.html
@@ -67,7 +67,7 @@ related_topics:
 ---
 # llvm-ar
 
-Te polecenie jest aliasem `ar`.
+To polecenie jest aliasem `ar`.
 
 - Zobacz dokumentację orginalnego polecenia:
 

@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/platformio (polski)
-description: "Te polecenie jest aliasem `pio`."
-content_hash: a4d704b09e83a2704abddc8d1a9d25517685ff9e
+description: "To polecenie jest aliasem `pio`."
+content_hash: 841527b677b22806c7022313efb410e1ededb8a2
 related_topics:
   - title: bosanski version
     url: /bs/common/platformio.html
@@ -67,7 +67,7 @@ related_topics:
 ---
 # platformio
 
-Te polecenie jest aliasem `pio`.
+To polecenie jest aliasem `pio`.
 Więcej informacji: <https://docs.platformio.org/en/latest/core/userguide/>.
 
 - Zobacz dokumentację orginalnego polecenia:

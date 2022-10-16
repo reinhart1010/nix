@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/clang-cpp (polski)
-description: "Te polecenie jest aliasem `clang++`."
-content_hash: e0ca496d3a635a585648197363a791b68e0f0bde
+description: "To polecenie jest aliasem `clang++`."
+content_hash: c185f51b688718b70adc5e03ea1c770b574ff889
 related_topics:
   - title: bosanski version
     url: /bs/common/clang-cpp.html
@@ -67,7 +67,7 @@ related_topics:
 ---
 # clang-cpp
 
-Te polecenie jest aliasem `clang++`.
+To polecenie jest aliasem `clang++`.
 
 - Zobacz dokumentację orginalnego polecenia:
 

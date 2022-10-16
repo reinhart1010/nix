@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/tlmgr-arch (polski)
-description: "Te polecenie jest aliasem `tlmgr platform`."
-content_hash: 2238f07cbf3a487f3cea4cd40013383306c4bdb4
+description: "To polecenie jest aliasem `tlmgr platform`."
+content_hash: 0366cccdd7444dc1b8e534f3a8f2d158a126fba0
 related_topics:
   - title: bosanski version
     url: /bs/common/tlmgr-arch.html
@@ -67,7 +67,7 @@ related_topics:
 ---
 # tlmgr-arch
 
-Te polecenie jest aliasem `tlmgr platform`.
+To polecenie jest aliasem `tlmgr platform`.
 Więcej informacji: <https://www.tug.org/texlive/tlmgr.html>.
 
 - Zobacz dokumentację orginalnego polecenia:

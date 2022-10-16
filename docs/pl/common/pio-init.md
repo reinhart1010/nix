@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/pio-init (polski)
-description: "Te polecenie jest aliasem `pio project`."
-content_hash: 4819616128e3af6788887d0f48a271111279e6a7
+description: "To polecenie jest aliasem `pio project`."
+content_hash: f3053f07c822e5737b30b3fff3596f4ccd8ef6fc
 related_topics:
   - title: bosanski version
     url: /bs/common/pio-init.html
@@ -67,7 +67,7 @@ related_topics:
 ---
 # pio-init
 
-Te polecenie jest aliasem `pio project`.
+To polecenie jest aliasem `pio project`.
 
 - Zobacz dokumentację orginalnego polecenia:
 

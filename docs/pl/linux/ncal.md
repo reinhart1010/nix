@@ -1,8 +1,8 @@
 ---
 layout: page
 title: linux/ncal (polski)
-description: "Te polecenie jest aliasem `cal`."
-content_hash: 7835c5f1fb98c4d9f34200d9e1c311f9755dc618
+description: "To polecenie jest aliasem `cal`."
+content_hash: 043c720f83d579ced32ea26b5dbc32a035db4b56
 related_topics:
   - title: bosanski version
     url: /bs/linux/ncal.html
@@ -70,7 +70,7 @@ related_topics:
 ---
 # ncal
 
-Te polecenie jest aliasem `cal`.
+To polecenie jest aliasem `cal`.
 Więcej informacji: <https://manned.org/ncal>.
 
 - Zobacz dokumentację orginalnego polecenia:

@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/vi (polski)
-description: "Te polecenie jest aliasem `vim`."
-content_hash: 2c798e82a80d0e796cc331c7d00af53146e70890
+description: "To polecenie jest aliasem `vim`."
+content_hash: 2820c0d32cae7bcf9ae46ac7c7a6ccf7f0a1db41
 related_topics:
   - title: bosanski version
     url: /bs/common/vi.html
@@ -67,7 +67,7 @@ related_topics:
 ---
 # vi
 
-Te polecenie jest aliasem `vim`.
+To polecenie jest aliasem `vim`.
 
 - Zobacz dokumentację orginalnego polecenia:
 

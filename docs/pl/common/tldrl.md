@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/tldrl (polski)
-description: "Te polecenie jest aliasem `tldr-lint`."
-content_hash: 0127e9c95a830592add3b08882e6c92d2e557406
+description: "To polecenie jest aliasem `tldr-lint`."
+content_hash: b78bd66895b1830286575cb17d3d9cc870d51da0
 related_topics:
   - title: bosanski version
     url: /bs/common/tldrl.html
@@ -70,7 +70,7 @@ related_topics:
 ---
 # tldrl
 
-Te polecenie jest aliasem `tldr-lint`.
+To polecenie jest aliasem `tldr-lint`.
 Więcej informacji: <https://github.com/tldr-pages/tldr-lint>.
 
 - Zobacz dokumentację orginalnego polecenia:

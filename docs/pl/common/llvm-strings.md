@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/llvm-strings (polski)
-description: "Te polecenie jest aliasem `strings`."
-content_hash: 1e3eac7e7d78d9ea227aa6bd5ea6d44cd770a4db
+description: "To polecenie jest aliasem `strings`."
+content_hash: 333dd5af8cbfce13d7ec71c409cc77efe7e4c43f
 related_topics:
   - title: bosanski version
     url: /bs/common/llvm-strings.html
@@ -67,7 +67,7 @@ related_topics:
 ---
 # llvm-strings
 
-Te polecenie jest aliasem `strings`.
+To polecenie jest aliasem `strings`.
 
 - Zobacz dokumentację orginalnego polecenia:
 

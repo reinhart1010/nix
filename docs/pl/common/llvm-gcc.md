@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/llvm-gcc (polski)
-description: "Te polecenie jest aliasem `clang`."
-content_hash: a1e7cb850cc086bcabcf0a4b8d5f74ead04eb167
+description: "To polecenie jest aliasem `clang`."
+content_hash: 6e7e0e659c7d2039135350d34a955eed17de923e
 related_topics:
   - title: bosanski version
     url: /bs/common/llvm-gcc.html
@@ -67,7 +67,7 @@ related_topics:
 ---
 # llvm-gcc
 
-Te polecenie jest aliasem `clang`.
+To polecenie jest aliasem `clang`.
 
 - Zobacz dokumentację orginalnego polecenia:
 

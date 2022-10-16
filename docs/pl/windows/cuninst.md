@@ -1,8 +1,8 @@
 ---
 layout: page
 title: windows/cuninst (polski)
-description: "Te polecenie jest aliasem `choco uninstall`."
-content_hash: ba7e1f953cd26b07ea8c1feea61e03f896d69fd3
+description: "To polecenie jest aliasem `choco uninstall`."
+content_hash: 3d9d556d0937d0a451a795fcd0fe7a35777c7555
 related_topics:
   - title: bosanski version
     url: /bs/windows/cuninst.html
@@ -67,7 +67,7 @@ related_topics:
 ---
 # cuninst
 
-Te polecenie jest aliasem `choco uninstall`.
+To polecenie jest aliasem `choco uninstall`.
 Więcej informacji: <https://docs.chocolatey.org/en-us/choco/commands/uninstall>.
 
 - Zobacz dokumentację orginalnego polecenia:

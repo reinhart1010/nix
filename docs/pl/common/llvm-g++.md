@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/llvm-g++ (polski)
-description: "Te polecenie jest aliasem `clang++`."
-content_hash: 5e33ad6cd4d6fd762d2efd43f669a49a6aa675be
+description: "To polecenie jest aliasem `clang++`."
+content_hash: 4b2656e1bdb4053d48caa56a5e3dbc6f23b42efc
 related_topics:
   - title: bosanski version
     url: /bs/common/llvm-g++.html
@@ -67,7 +67,7 @@ related_topics:
 ---
 # llvm-g++
 
-Te polecenie jest aliasem `clang++`.
+To polecenie jest aliasem `clang++`.
 
 - Zobacz dokumentację orginalnego polecenia:
 

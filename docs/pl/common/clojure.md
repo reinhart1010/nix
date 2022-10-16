@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/clojure (polski)
-description: "Te polecenie jest aliasem `clj`."
-content_hash: 04f2f81d597fe50365fab62a26d53373e4673347
+description: "To polecenie jest aliasem `clj`."
+content_hash: 331522b2c72812172a17a5e52d40281bd0366a49
 related_topics:
   - title: bosanski version
     url: /bs/common/clojure.html
@@ -67,7 +67,7 @@ related_topics:
 ---
 # clojure
 
-Te polecenie jest aliasem `clj`.
+To polecenie jest aliasem `clj`.
 
 - Zobacz dokumentację orginalnego polecenia:
 

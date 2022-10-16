@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/llvm-objdump (polski)
-description: "Te polecenie jest aliasem `objdump`."
-content_hash: 21dc89b3db61ce016ea38c8ac168cd35b405d725
+description: "To polecenie jest aliasem `objdump`."
+content_hash: 8239e00808a86055e580ace93742508a29526ab0
 related_topics:
   - title: bosanski version
     url: /bs/common/llvm-objdump.html
@@ -67,7 +67,7 @@ related_topics:
 ---
 # llvm-objdump
 
-Te polecenie jest aliasem `objdump`.
+To polecenie jest aliasem `objdump`.
 
 - Zobacz dokumentację orginalnego polecenia:
 

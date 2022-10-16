@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/mscore (polski)
-description: "Te polecenie jest aliasem `musescore`."
-content_hash: 2b4ca0f275dbee4f45ea0beb0e2ed454fdce010f
+description: "To polecenie jest aliasem `musescore`."
+content_hash: 008ac61d8c2109e8e923baae51c6d035dc6755a1
 related_topics:
   - title: bosanski version
     url: /bs/common/mscore.html
@@ -67,7 +67,7 @@ related_topics:
 ---
 # mscore
 
-Te polecenie jest aliasem `musescore`.
+To polecenie jest aliasem `musescore`.
 Więcej informacji: <https://musescore.org/handbook/command-line-options>.
 
 - Zobacz dokumentację orginalnego polecenia:

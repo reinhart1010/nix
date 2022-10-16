@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/cola (polski)
-description: "Te polecenie jest aliasem `git-cola`."
-content_hash: d03fcdcc4e5e78f4dc70a88eeeaac00a9fefca78
+description: "To polecenie jest aliasem `git-cola`."
+content_hash: 110221e15fb1c481f665f0be267a21333562e1df
 related_topics:
   - title: bosanski version
     url: /bs/common/cola.html
@@ -67,7 +67,7 @@ related_topics:
 ---
 # cola
 
-Te polecenie jest aliasem `git-cola`.
+To polecenie jest aliasem `git-cola`.
 
 - Zobacz dokumentację orginalnego polecenia:
 

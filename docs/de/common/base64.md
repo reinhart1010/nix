@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/base64 (Deutsch)
-description: "Kodierung oder Dekodierung von Dateien oder Standardeingaben in/aus Base64, zur Standardausgabe."
-content_hash: b7bcf2a6d62c65e8996364bc100aa6b56e44d73b
+description: "Kodieren oder Dekodieren von Dateien oder Standardeingaben in/aus Base64, zur Standardausgabe."
+content_hash: be8e7d7d3b736746175f7ed3cda4f57291f8f77d
 related_topics:
   - title: English version
     url: /en/common/base64.html
@@ -37,21 +37,21 @@ related_topics:
 ---
 # base64
 
-Kodierung oder Dekodierung von Dateien oder Standardeingaben in/aus Base64, zur Standardausgabe.
+Kodieren oder Dekodieren von Dateien oder Standardeingaben in/aus Base64, zur Standardausgabe.
 Weitere Informationen: <https://www.gnu.org/software/coreutils/base64>.
 
-- Kodiert den Inhalt einer Datei als base64 und schreibt das Ergebnis nach stdout:
+- Kodiere den Inhalt einer Datei als base64 und schreibe das Ergebnis nach stdout:
 
 `base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">datei_name</span>
 
-- Dekodiert den Inhalt einer Datei als base64 und schreibt das Ergebnis nach stdout:
+- Dekodiere den Inhalt einer Datei als base64 und schreibe das Ergebnis nach stdout:
 
 `base64 --decode `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">datei_name</span>
 
-- Kodieren von stdin:
+- Kodiere von stdin:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ein_kommando</span>` | base64`
 
-- Dekodieren von stdin:
+- Dekodiere von stdin:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ein_kommando</span>` | base64 --decode`

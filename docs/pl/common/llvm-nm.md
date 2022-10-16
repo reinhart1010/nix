@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/llvm-nm (polski)
-description: "Te polecenie jest aliasem `nm`."
-content_hash: 28db8be209b5af0c0847d890f947fd0f79f0765d
+description: "To polecenie jest aliasem `nm`."
+content_hash: 21a8c7f852fe94720cf7e1c85c722f9a4512316d
 related_topics:
   - title: bosanski version
     url: /bs/common/llvm-nm.html
@@ -67,7 +67,7 @@ related_topics:
 ---
 # llvm-nm
 
-Te polecenie jest aliasem `nm`.
+To polecenie jest aliasem `nm`.
 
 - Zobacz dokumentację orginalnego polecenia:
 
