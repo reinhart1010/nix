@@ -1,8 +1,8 @@
 ---
 layout: page
 title: linux/arecord (Deutsch)
-description: "Sound Recorder für den ALSA Soundkarten Treiber."
-content_hash: 6eb45fbaf98e48b75659bba3ec1f99a930fae721
+description: "Sound Recorder für den ALSA-Soundkarten-Treiber."
+content_hash: efe2b411dd0a93e0662fe86c83c8ed1e4d19649e
 related_topics:
   - title: English version
     url: /en/linux/arecord.html
@@ -13,14 +13,14 @@ related_topics:
 ---
 # arecord
 
-Sound Recorder für den ALSA Soundkarten Treiber.
+Sound Recorder für den ALSA-Soundkarten-Treiber.
 Weitere Informationen: <https://manned.org/arecord>.
 
-- Nehme einen Schnipsel in "CD" Qualität auf (beende die Aufnahme mit CTRL-C):
+- Nehme einen Schnipsel in CD-Qualität auf (beende die Aufnahme mit CTRL-C):
 
 `arecord -vv --format=cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zur/datei.wav</span>
 
-- Nehme einen Schnipsel in "CD" Qualität auf mit einer festen Länge von 10 Sekunden:
+- Nehme einen Schnipsel in CD-Qualität auf mit einer festen Länge von 10 Sekunden:
 
 `arecord -vv --format=cd --duration=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zur/datei.wav</span>
 

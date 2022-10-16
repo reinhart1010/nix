@@ -2,8 +2,11 @@
 layout: page
 title: linux/aptitude (Deutsch)
 description: "Debian und Ubuntu Paket Management Tool."
-content_hash: 1c54ae1f92a0ea39349811b8425c91517a0483c1
+content_hash: b9206abb6c6672f8d18a9f015bb87aea178ca3ae
 related_topics:
+  - title: català version
+    url: /ca/linux/aptitude.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/aptitude.html
     icon: bi bi-globe
@@ -49,7 +52,7 @@ Weitere Informationen: <https://manpages.debian.org/latest/aptitude/aptitude.8.h
 
 `aptitude upgrade`
 
-- Aktualisiere installierte Pakete (wie `aptitude upgrade`), inklusive obsoleter Pakete und installiere zusätzliche Pakete um die neuen Paket Abhängigkeiten zu erfüllen:
+- Aktualisiere installierte Pakete (wie `aptitude upgrade`), inklusive obsoleter Pakete und installiere zusätzliche Pakete um die neuen Paket-Abhängigkeiten zu erfüllen:
 
 `aptitude full-upgrade`
 

@@ -1,9 +1,12 @@
 ---
 layout: page
 title: linux/a2enconf (Deutsch)
-description: "Aktiviert eine Apache Konfigurationsdatei auf Debian-basierten Betriebssystemen."
-content_hash: 5f34b4d3b73a8294c36c2e4b20d08960968a428c
+description: "Aktiviert eine Apache-Konfigurationsdatei auf Debian-basierten Betriebssystemen."
+content_hash: c84dcf8b0f7cfa0d8c6f2b2bb08fc5b96978ff47
 related_topics:
+  - title: català version
+    url: /ca/linux/a2enconf.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/a2enconf.html
     icon: bi bi-globe
@@ -25,7 +28,7 @@ related_topics:
 ---
 # a2enconf
 
-Aktiviert eine Apache Konfigurationsdatei auf Debian-basierten Betriebssystemen.
+Aktiviert eine Apache-Konfigurationsdatei auf Debian-basierten Betriebssystemen.
 Weitere Informationen: <https://manpages.debian.org/latest/apache2/a2enconf.8.en.html>.
 
 - Aktiviere eine Konfigurationsdatei:

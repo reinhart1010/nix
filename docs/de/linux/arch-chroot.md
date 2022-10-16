@@ -1,8 +1,8 @@
 ---
 layout: page
 title: linux/arch-chroot (Deutsch)
-description: "Erweiterter `chroot`-Befehl zur Unterstützung des Arch Linux-Installationsprozesses."
-content_hash: 8a208b8678413d9f9a9df920984459e03e8fabf5
+description: "Erweiterter `chroot`-Befehl zur Unterstützung des Arch-Linux-Installationsprozesses."
+content_hash: 7e68454fb2825bdb9e0f2846a3fc47f58a1ede43
 related_topics:
   - title: English version
     url: /en/linux/arch-chroot.html
@@ -13,7 +13,7 @@ related_topics:
 ---
 # arch-chroot
 
-Erweiterter `chroot`-Befehl zur Unterstützung des Arch Linux-Installationsprozesses.
+Erweiterter `chroot`-Befehl zur Unterstützung des Arch-Linux-Installationsprozesses.
 Weitere Informationen: <https://man.archlinux.org/man/arch-chroot.8>.
 
 - Starte eine interaktive Shell (Standardmäßig `bash`) in einem neuen Root-Verzeichnis:

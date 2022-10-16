@@ -1,9 +1,12 @@
 ---
 layout: page
 title: linux/add-apt-repository (Deutsch)
-description: "Verwalte apt-Repository Definitionen."
-content_hash: 85a531f911c527e66c4f00989af98f71a199f78d
+description: "Verwalte apt-Repository-Definitionen."
+content_hash: 8064bd1635294d1e9d3aca4a8f5efc6a8a29200f
 related_topics:
+  - title: català version
+    url: /ca/linux/add-apt-repository.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/add-apt-repository.html
     icon: bi bi-globe
@@ -19,7 +22,7 @@ related_topics:
 ---
 # add-apt-repository
 
-Verwalte apt-Repository Definitionen.
+Verwalte apt-Repository-Definitionen.
 Weitere Informationen: <https://manned.org/apt-add-repository>.
 
 - Füge ein neues apt-Repository hinzu:

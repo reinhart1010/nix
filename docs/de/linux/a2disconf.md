@@ -1,9 +1,12 @@
 ---
 layout: page
 title: linux/a2disconf (Deutsch)
-description: "Deaktiviert eine Apache Konfigurationsdatei auf Debian-basierten Betriebssystemen."
-content_hash: ca6281cc85faf74aea7ad06428280e7024f0a059
+description: "Deaktiviert eine Apache-Konfigurationsdatei auf Debian-basierten Betriebssystemen."
+content_hash: 8ad4f93387b5b5dba140b5a6ed22128e671c7aa3
 related_topics:
+  - title: català version
+    url: /ca/linux/a2disconf.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/a2disconf.html
     icon: bi bi-globe
@@ -25,7 +28,7 @@ related_topics:
 ---
 # a2disconf
 
-Deaktiviert eine Apache Konfigurationsdatei auf Debian-basierten Betriebssystemen.
+Deaktiviert eine Apache-Konfigurationsdatei auf Debian-basierten Betriebssystemen.
 Weitere Informationen: <https://manpages.debian.org/latest/apache2/a2disconf.8.en.html>.
 
 - Deaktiviere eine Konfigurationsdatei:

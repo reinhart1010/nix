@@ -1,9 +1,12 @@
 ---
 layout: page
 title: linux/archey (Deutsch)
-description: "Simples Tool um system informationen stylish zu präsentieren."
-content_hash: 27ddeaf6515f00f940247e288a94df56d9d2b086
+description: "Simples Tool um System-Informationen stylisch zu präsentieren."
+content_hash: 66fde3fd93b2a7b7e6f1c04e2b657a3f06b2f5a0
 related_topics:
+  - title: català version
+    url: /ca/linux/archey.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/archey.html
     icon: bi bi-globe
@@ -19,9 +22,9 @@ related_topics:
 ---
 # archey
 
-Simples Tool um system informationen stylish zu präsentieren.
+Simples Tool um System-Informationen stylisch zu präsentieren.
 Weitere Informationen: <https://lclarkmichalek.github.io/archey3/>.
 
-- Zeige System Informationen:
+- Zeige System-Informationen:
 
 `archey`

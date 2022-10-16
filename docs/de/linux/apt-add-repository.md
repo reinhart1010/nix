@@ -2,8 +2,11 @@
 layout: page
 title: linux/apt-add-repository (Deutsch)
 description: "Editiere die Repository-Listen."
-content_hash: 3da1f5d54f16fb8c4b6005f52edcac2cc20e5a04
+content_hash: b145a9a631b5d8e856119ee6878148e2ec77926f
 related_topics:
+  - title: català version
+    url: /ca/linux/apt-add-repository.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/apt-add-repository.html
     icon: bi bi-globe
@@ -15,6 +18,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/apt-add-repository.html
+    icon: bi bi-globe
+  - title: ไทย version
+    url: /th/linux/apt-add-repository.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apt-add-repository.html
@@ -37,6 +43,6 @@ Weitere Informationen: <https://manpages.debian.org/latest/software-properties-c
 
 `apt-add-repository --update `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository</span>
 
-- Aktiviere Source Pakete:
+- Aktiviere Source-Pakete:
 
 `apt-add-repository --enable-source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository</span>

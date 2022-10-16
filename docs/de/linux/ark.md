@@ -1,11 +1,14 @@
 ---
 layout: page
 title: linux/ark (Deutsch)
-description: "KDE Archivierungs Tool."
-content_hash: 1342bcb7a7c9ddd2549317d8488f319cf70ef901
+description: "KDE-Archivierungstool."
+content_hash: 38b0cd29054e141f832152e5e3ebe826333e3a43
 related_topics:
   - title: English version
     url: /en/linux/ark.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/ark.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/ark.html
@@ -13,7 +16,7 @@ related_topics:
 ---
 # ark
 
-KDE Archivierungs Tool.
+KDE-Archivierungstool.
 Weitere Informationen: <https://docs.kde.org/stable5/en/ark/ark/>.
 
 - Extrahiere ein Archiv ins aktuelle Verzeichnis:

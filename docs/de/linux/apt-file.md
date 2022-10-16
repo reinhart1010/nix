@@ -1,9 +1,12 @@
 ---
 layout: page
 title: linux/apt-file (Deutsch)
-description: "Suche nach Dateien in apt Paketen, auch in den nicht installierten."
-content_hash: 67f0f5bb185b9cfb33bde9c5d8288f2e119609d7
+description: "Suche nach Dateien in apt-Paketen, auch in den nicht-installierten."
+content_hash: 44a9bc164f54f8ebde7cc4b3bda859a56bc3f325
 related_topics:
+  - title: català version
+    url: /ca/linux/apt-file.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/apt-file.html
     icon: bi bi-globe
@@ -16,6 +19,9 @@ related_topics:
   - title: italiano version
     url: /it/linux/apt-file.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/apt-file.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/apt-file.html
     icon: bi bi-globe
@@ -25,7 +31,7 @@ related_topics:
 ---
 # apt-file
 
-Suche nach Dateien in apt Paketen, auch in den nicht installierten.
+Suche nach Dateien in apt-Paketen, auch in den nicht-installierten.
 Weitere Informationen: <https://manpages.debian.org/latest/apt-file/apt-file.1.html>.
 
 - Aktualisiere die Metadatenbank:

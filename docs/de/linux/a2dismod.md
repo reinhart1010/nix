@@ -1,9 +1,12 @@
 ---
 layout: page
 title: linux/a2dismod (Deutsch)
-description: "Deaktiviert ein Apache Modul auf Debian-basierten Betriebssystemen."
-content_hash: cfd9536107c79de787499476a186955f3b074abb
+description: "Deaktiviert ein Apache-Modul auf Debian-basierten Betriebssystemen."
+content_hash: f8d1030297ca59464b20dae138cddce8ff724e58
 related_topics:
+  - title: català version
+    url: /ca/linux/a2dismod.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/a2dismod.html
     icon: bi bi-globe
@@ -25,7 +28,7 @@ related_topics:
 ---
 # a2dismod
 
-Deaktiviert ein Apache Modul auf Debian-basierten Betriebssystemen.
+Deaktiviert ein Apache-Modul auf Debian-basierten Betriebssystemen.
 Weitere Informationen: <https://manpages.debian.org/latest/apache2/a2dismod.8.en.html>.
 
 - Deaktiviere ein Modul:

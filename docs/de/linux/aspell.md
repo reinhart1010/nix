@@ -2,7 +2,7 @@
 layout: page
 title: linux/aspell (Deutsch)
 description: "Interaktiver Korrekturleser."
-content_hash: fe375b673b78b26525656f3b95270cc8d1f4d890
+content_hash: 04cb06062e357048d7bcc202b53c6915184bf718
 related_topics:
   - title: English version
     url: /en/linux/aspell.html
@@ -30,11 +30,11 @@ Weitere Informationen: <http://aspell.net/>.
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>` | aspell list`
 
-- Zeige verfügbare Wörterbücher Sprachen:
+- Zeige verfügbare Wörterbuchsprachen:
 
 `aspell dicts`
 
-- Nutze aspell mit einem anderen Wörterbuch (nimmt 2-Buchstaben-Sprachkürzel laut ISO 639 Sprach Code):
+- Nutze aspell mit einem anderen Wörterbuch (nimmt 2-Zeichen-Locale laut ISO 639 Sprach Code):
 
 `aspell --lang=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cs</span>
 

@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/bash (中文 (繁體, 台灣))
-description: "Bourne-Again SHell. 一個與 `sh` 兼容的命令列。"
-content_hash: af43b3d1ab682894ee62b030563250a327a46711
+description: "Bourne-Again SHell. 一個與 `sh` 相容的命令列。"
+content_hash: c46a9c3972f9cb5c4fea1c02e2973a26d97dfc99
 related_topics:
   - title: Deutsch version
     url: /de/common/bash.html
@@ -34,7 +34,7 @@ related_topics:
 ---
 # bash
 
-Bourne-Again SHell. 一個與 `sh` 兼容的命令列。
+Bourne-Again SHell. 一個與 `sh` 相容的命令列。
 參照 `histexpand` 以使用 history expansion 特性。
 更多資訊：<https://gnu.org/software/bash/>.
 

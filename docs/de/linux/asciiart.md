@@ -2,13 +2,16 @@
 layout: page
 title: linux/asciiart (Deutsch)
 description: "Konvertiere Bilder zu ASCII."
-content_hash: aa21a1fe24413a65d455208ec166e409013abbab
+content_hash: b24c4ee44a9741a969cac99091dd96485e98865b
 related_topics:
   - title: English version
     url: /en/linux/asciiart.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/asciiart.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/asciiart.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/asciiart.html
@@ -39,6 +42,6 @@ Weitere Informationen: <https://github.com/nodanaonlyzuul/asciiart>.
 
 `asciiart --format `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">text|html</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zum/bild.jpg</span>
 
-- Invertiere die Buchstaben Map:
+- Invertiere die Zeichentabelle:
 
 `asciiart --invert-chars `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zum/bild.jpg</span>
