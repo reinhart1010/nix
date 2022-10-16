@@ -2,7 +2,7 @@
 layout: page
 title: linux/aspell (മലയാളം)
 description: "ഒരു ഇന്ററാക്ടിവ് സ്പെൽ ചെക്കർ."
-content_hash: 37ce9313c22dcf4aa4630a785caf1a7f184d3a26
+content_hash: cc5ed66f5eb06e08c4b480b90be2b0375ea299c7
 related_topics:
   - title: Deutsch version
     url: /de/linux/aspell.html
@@ -24,7 +24,7 @@ related_topics:
 
 - ഒരു ഫയലിലെ തെറ്റായ പദങ്ങൾ കണ്ടെത്തുവാൻ:
 
-`aspell check `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ഫയലിന്റെ/പാത്/</span>
+`aspell check `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ഫയലിലേക്കുള്ള/പാത</span>
 
 - സ്റ്റാൻഡേഡ് ഇൻപുറ്റിൽ നിന്ന് തെറ്റായ പദങ്ങൾ കണ്ടെത്തുവാൻ:
 
