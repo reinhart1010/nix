@@ -2,7 +2,7 @@
 layout: page
 title: linux/pacman-database (Deutsch)
 description: "Mit der Arch Linux Paketdatenbank arbeiten."
-content_hash: c9c983315d48919550ac2550f0b39574048840a3
+content_hash: 0a12fa9bd44841a69c61f0f025ca36a9cb4621da
 related_topics:
   - title: English version
     url: /en/linux/pacman-database.html
@@ -16,10 +16,6 @@ related_topics:
 Mit der Arch Linux Paketdatenbank arbeiten.
 Verschiedene Attribute von installierten Paketen bearbeiten.
 Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
-
-- Zeige Hilfe an:
-
-`pacman --database --help`
 
 - Markiere ein Paket als implizit installiert:
 
@@ -40,3 +36,7 @@ Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
 - Zeige nur Fehlermeldungen:
 
 `pacman --database --check --quiet`
+
+- Zeige Hilfe an:
+
+`pacman --database --help`

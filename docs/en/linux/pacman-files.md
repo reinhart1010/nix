@@ -2,7 +2,7 @@
 layout: page
 title: linux/pacman-files (English)
 description: "Arch Linux package manager utility."
-content_hash: 7580857854bcb95ffd8c2fab80a356882813a6d2
+content_hash: 8c0042d9908202268218223b980993ea3697d219
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-files.html
@@ -16,10 +16,6 @@ related_topics:
 Arch Linux package manager utility.
 See also `pkgfile`.
 More information: <https://man.archlinux.org/man/pacman.8>.
-
-- Display help:
-
-`pacman --files --help`
 
 - Update the package database:
 
@@ -44,3 +40,7 @@ More information: <https://man.archlinux.org/man/pacman.8>.
 - List only the absolute path to the files:
 
 `pacman --query --list --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+
+- Display help:
+
+`pacman --files --help`

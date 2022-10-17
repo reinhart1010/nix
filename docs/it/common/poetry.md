@@ -2,7 +2,7 @@
 layout: page
 title: common/poetry (italiano)
 description: "Gestore di pacchetti e dipendenze per Python."
-content_hash: 10540a8d48bf56cb55a21c874af138a9b59777b4
+content_hash: d7e4bb83ec296998821f7bf90030f4cdd1c93ae2
 related_topics:
   - title: English version
     url: /en/common/poetry.html
@@ -20,7 +20,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># poetry
 
 Gestore di pacchetti e dipendenze per Python.
-Maggiori informazioni: <https://python-poetry.org/docs>.
+Maggiori informazioni: <https://python-poetry.org/docs/cli/>.
 
 - Crea un nuovo progetto Poetry nella cartella specificata:
 

@@ -2,7 +2,7 @@
 layout: page
 title: linux/pacman-remove (français)
 description: "Supprimes des paquets."
-content_hash: 98cd6923c412cb53f9eef5345263136f3331f4ce
+content_hash: 2ef5bec90ce2fc58a50c00dc9978de3af054252a
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-remove.html
@@ -18,10 +18,6 @@ related_topics:
 
 Supprimes des paquets.
 Plus d'informations : <https://man.archlinux.org/man/pacman.8>.
-
-- Affiche l'aide :
-
-`pacman --remove --help`
 
 - Supprime un paquet et ses dépendances :
 
@@ -46,3 +42,7 @@ Plus d'informations : <https://man.archlinux.org/man/pacman.8>.
 - Affiche les paquets qui seraient affectés par la commande sans agir :
 
 `pacman --remove --print `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet</span>
+
+- Affiche l'aide :
+
+`pacman --remove --help`

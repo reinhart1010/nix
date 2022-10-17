@@ -2,7 +2,7 @@
 layout: page
 title: linux/pacman-database (français)
 description: "Interagis avec les bases de données des paquets Arch Linux."
-content_hash: 4ac255321dda7d4e35dea2a9d1498d575f5aa45c
+content_hash: 4968bd9d81f2087358eefc2da4e939d344e67500
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-database.html
@@ -16,10 +16,6 @@ related_topics:
 Interagis avec les bases de données des paquets Arch Linux.
 Modifie des attributs des paquets installés.
 Plus d'informations : <https://man.archlinux.org/man/pacman.8>.
-
-- Affiche l'aide :
-
-`pacman --database --help`
 
 - Marque un paquet comme étant installé en tant que dépendance :
 
@@ -40,3 +36,7 @@ Plus d'informations : <https://man.archlinux.org/man/pacman.8>.
 - N'affiche que les messages d'erreur :
 
 `pacman --database --check --quiet`
+
+- Affiche l'aide :
+
+`pacman --database --help`

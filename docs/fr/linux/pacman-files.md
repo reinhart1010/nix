@@ -2,7 +2,7 @@
 layout: page
 title: linux/pacman-files (français)
 description: "Interagis avec les bases de données de fichiers."
-content_hash: e79f9ad61033f3b5c7c29ac27743a42129d0b299
+content_hash: 0829a4443780e4c09203f703e5a199ff3199f0f5
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-files.html
@@ -26,10 +26,6 @@ Interagis avec les bases de données de fichiers.
 Voir aussi `pkgfile`.
 Plus d'informations : <https://man.archlinux.org/man/pacman.8>.
 
-- Affiche l'aide :
-
-`pacman --files --help`
-
 - Mets à jour les bases de données des fichiers :
 
 `sudo pacman --files --refresh`
@@ -49,3 +45,7 @@ Plus d'informations : <https://man.archlinux.org/man/pacman.8>.
 - Liste les fichiers contenus dans un paquet :
 
 `pacman --files --list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet</span>
+
+- Affiche l'aide :
+
+`pacman --files --help`

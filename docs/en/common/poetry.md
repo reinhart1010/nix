@@ -2,7 +2,7 @@
 layout: page
 title: common/poetry (English)
 description: "Manage Python packages and dependencies."
-content_hash: 466d2a1cd99f10921f07245eb2db3f3c19345ace
+content_hash: 3dd3350b570a42f0c7a9ccb906f5870490700b55
 related_topics:
   - title: italiano version
     url: /it/common/poetry.html
@@ -11,7 +11,7 @@ related_topics:
 # poetry
 
 Manage Python packages and dependencies.
-More information: <https://python-poetry.org/docs>.
+More information: <https://python-poetry.org/docs/cli/>.
 
 - Create a new Poetry project in the directory with a specific name:
 
@@ -36,3 +36,11 @@ More information: <https://python-poetry.org/docs>.
 - Execute a command inside the project's virtual environment:
 
 `poetry run `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
+
+- Bump the minor version of the project in `pyproject.toml`:
+
+`poetry version minor`
+
+- List all poetry subcommands:
+
+`poetry list`

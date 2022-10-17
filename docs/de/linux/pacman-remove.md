@@ -2,7 +2,7 @@
 layout: page
 title: linux/pacman-remove (Deutsch)
 description: "Arch Linux Paketverwaltungs-Werkzeug."
-content_hash: 664380dd5f7d620db7b0af2134e6912c82edfb1b
+content_hash: 9612f41563625e166eb8df1f4660b287d04d0009
 related_topics:
   - title: English version
     url: /en/linux/pacman-remove.html
@@ -18,10 +18,6 @@ related_topics:
 
 Arch Linux Paketverwaltungs-Werkzeug.
 Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
-
-- Zeige Hilfe für diesen Unterbefehl an:
-
-`pacman --remove --help`
 
 - Entferne ein Paket und dessen Abhängigkeiten:
 
@@ -46,3 +42,7 @@ Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
 - Liste Pakete auf, welche betroffen sein würden (entfernt keine Pakete):
 
 `pacman --remove --print `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paketname</span>
+
+- Zeige Hilfe für diesen Unterbefehl an:
+
+`pacman --remove --help`

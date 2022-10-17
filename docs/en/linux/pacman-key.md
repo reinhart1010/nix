@@ -2,7 +2,7 @@
 layout: page
 title: linux/pacman-key (English)
 description: "Wrapper script for GnuPG used to manage pacman's keyring."
-content_hash: 16375ea39996f23c50d5d3e4a742c2855782d1e2
+content_hash: 48c083ca6d0750b29d003e52fb9818bc6f734d3d
 related_topics:
   - title: français version
     url: /fr/linux/pacman-key.html
@@ -17,7 +17,7 @@ More information: <https://man.archlinux.org/man/pacman-key>.
 
 `sudo pacman-key --init`
 
-- Add the default ArchLinux keys:
+- Add the default Arch Linux keys:
 
 `sudo pacman-key --populate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archlinux</span>
 

@@ -2,7 +2,7 @@
 layout: page
 title: linux/pacman-upgrade (Deutsch)
 description: "Arch Linux Paketverwaltungs-Werkzeug."
-content_hash: aacf96ec299301885488a0af9596fcd61d963c0f
+content_hash: 07a45b2af1d4142719c67097e9a18d2f3df42729
 related_topics:
   - title: English version
     url: /en/linux/pacman-upgrade.html
@@ -15,10 +15,6 @@ related_topics:
 
 Arch Linux Paketverwaltungs-Werkzeug.
 Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
-
-- Zeige Hilfe an:
-
-`pacman --upgrade --help`
 
 - Installiere ein oder mehrere Pakete von Dateien:
 
@@ -39,3 +35,7 @@ Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
 - Liste Pakete auf, welche betroffen sein würden (installiert keine Pakete):
 
 `pacman --query --print `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/paket.pkg.tar.zst</span>
+
+- Zeige Hilfe an:
+
+`pacman --upgrade --help`

@@ -2,7 +2,7 @@
 layout: page
 title: linux/pacman-upgrade (English)
 description: "Arch Linux package manager utility."
-content_hash: 5704148e6fe32cf55e7b90a91ad0e4a4ce19b4df
+content_hash: 0abac5b3940282df12e21b2ffa65f2399a30a633
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-upgrade.html
@@ -15,10 +15,6 @@ related_topics:
 
 Arch Linux package manager utility.
 More information: <https://man.archlinux.org/man/pacman.8>.
-
-- Display help:
-
-`pacman --upgrade --help`
 
 - Install one or more packages from files:
 
@@ -39,3 +35,7 @@ More information: <https://man.archlinux.org/man/pacman.8>.
 - List packages that would be affected (does not install any packages):
 
 `pacman --query --print `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.pkg.tar.zst</span>
+
+- Display help:
+
+`pacman --upgrade --help`

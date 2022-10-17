@@ -2,7 +2,7 @@
 layout: page
 title: linux/pacman-database (English)
 description: "Operate on the Arch Linux package database."
-content_hash: 86a0cfd2d1c237843bbe0e541d7f8c5f5e2fb879
+content_hash: d805c9632120f385d372f1bb9d978f7fdaf56644
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-database.html
@@ -16,10 +16,6 @@ related_topics:
 Operate on the Arch Linux package database.
 Modify certain attributes of the installed packages.
 More information: <https://man.archlinux.org/man/pacman.8>.
-
-- Display help:
-
-`pacman --database --help`
 
 - Mark a package as implicitly installed:
 
@@ -40,3 +36,7 @@ More information: <https://man.archlinux.org/man/pacman.8>.
 - Display only error messages:
 
 `pacman --database --check --quiet`
+
+- Display help:
+
+`pacman --database --help`

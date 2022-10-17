@@ -2,7 +2,7 @@
 layout: page
 title: linux/pacman-remove (English)
 description: "Arch Linux package manager utility."
-content_hash: 82a2602e03739342aa0c60b729a06dfd9010df2c
+content_hash: 326464bb6d9deae691f23f0f7517d08004191a7f
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-remove.html
@@ -18,10 +18,6 @@ related_topics:
 
 Arch Linux package manager utility.
 More information: <https://man.archlinux.org/man/pacman.8>.
-
-- Display help for this subcommand:
-
-`pacman --remove --help`
 
 - Remove a package and its dependencies:
 
@@ -46,3 +42,7 @@ More information: <https://man.archlinux.org/man/pacman.8>.
 - List packages that would be affected (does not remove any packages):
 
 `pacman --remove --print `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+
+- Display help for this subcommand:
+
+`pacman --remove --help`
