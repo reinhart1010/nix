@@ -2,8 +2,14 @@
 layout: page
 title: common/file (English)
 description: "Determine file type."
-content_hash: 6729d674de2e69e00a981bc3cbb01c2ad398ad7f
+content_hash: 954bcae5869f9517eeaa9a2cf3f2a217c76fae90
 related_topics:
+  - title: Deutsch version
+    url: /de/common/file.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/common/file.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/file.html
     icon: bi bi-globe
@@ -29,6 +35,6 @@ More information: <https://manned.org/file>.
 
 `file -k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>
 
-- Determine the mime encoding type of a file:
+- Determine the MIME encoding type of a file:
 
 `file -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>

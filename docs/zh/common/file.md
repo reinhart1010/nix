@@ -2,10 +2,16 @@
 layout: page
 title: common/file (中文)
 description: "确定文件类型。"
-content_hash: 7a8191512033c244558bc286fb5bf11a15b09dec
+content_hash: 8a8eba4603c5015a0516305affef2518a58db1a9
 related_topics:
+  - title: Deutsch version
+    url: /de/common/file.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/file.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/common/file.html
     icon: bi bi-globe
 ---
 # file
@@ -29,6 +35,6 @@ related_topics:
 
 `file -k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名</span>
 
-- 确定文件的 mime 编码类型：
+- 确定文件的 MIME 编码类型：
 
 `file -I `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名</span>

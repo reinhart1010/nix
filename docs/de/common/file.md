@@ -2,19 +2,19 @@
 layout: page
 title: common/file (Deutsch)
 description: "Bestimmen des Dateityps."
-content_hash: 966ac004feb5ea1b498b2c61ed3680861187bdf0
+content_hash: 471ca203b4030f1772989a87a027ab16a43a26af
 related_topics:
   - title: English version
     url: /en/common/file.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/common/file.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/file.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># file
+# file
 
 Bestimmen des Dateityps.
 Weitere Informationen: <https://manned.org/file>.
@@ -35,6 +35,6 @@ Weitere Informationen: <https://manned.org/file>.
 
 `file -k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dateiname</span>
 
-- Bestimmen des Mime-Codierungstyp einer Datei:
+- Bestimmen des MIME-Codierungstyp einer Datei:
 
 `file -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dateiname</span>

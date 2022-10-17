@@ -2,12 +2,13 @@
 layout: page
 title: android/screencap (தமிழ்)
 description: "மொபைல் டிஸ்ப்ளேவின் ஸ்கிரீன் ஷாட்டை எடுக்கவும்."
-content_hash: e949745d8a36a093f221c2bb91faf031cedb32fe
+content_hash: 2ce59bc3adaab2f64903b38ceafcad9cb94e551b
+related_topics:
+  - title: English version
+    url: /en/android/screencap.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># screencap
+# screencap
 
 மொபைல் டிஸ்ப்ளேவின் ஸ்கிரீன் ஷாட்டை எடுக்கவும்.
 இந்த கட்டளையை `adb shell` மூலம் மட்டுமே பயன்படுத்த முடியும்.
@@ -15,4 +16,4 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 - ஒரு ஸ்கிரீன் ஷாட்டை எடுங்கள்:
 
-`adb shell screencap `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு</span>
+`screencap `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு</span>

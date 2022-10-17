@@ -2,7 +2,7 @@
 layout: page
 title: common/vim (English)
 description: "Vim (Vi IMproved), a command-line text editor, provides several modes for different kinds of text manipulation."
-content_hash: 918eca4ef71be3cc1deb2e17cebf3f8ede5fe51a
+content_hash: dab0bc92a72f46c6e4cc25d3d342ce707180a4c3
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -18,6 +18,9 @@ related_topics:
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/common/vim.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/vim.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/vim.html
@@ -35,7 +38,7 @@ related_topics:
 # vim
 
 Vim (Vi IMproved), a command-line text editor, provides several modes for different kinds of text manipulation.
-Pressing `i` enters insert mode. `<Esc>` enters normal mode, which enables the use of Vim commands.
+Pressing `i` in normal mode enters insert mode. Pressing `<Esc>` goes back to normal mode, which enables the use of Vim commands.
 More information: <https://www.vim.org>.
 
 - Open a file:
@@ -50,13 +53,13 @@ More information: <https://www.vim.org>.
 
 `:help<Enter>`
 
-- Save and Quit:
+- Save and quit the current buffer:
 
 `:wq<Enter>`
 
-- Undo the last operation:
+- Enter normal mode and undo the last operation:
 
-`u`
+`<ESC>u`
 
 - Search for a pattern in the file (press `n`/`N` to go to next/previous match):
 
