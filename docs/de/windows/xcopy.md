@@ -2,7 +2,7 @@
 layout: page
 title: windows/xcopy (Deutsch)
 description: "Kopieren von Dateien und Verzeichnisbäumen."
-content_hash: 1cca8a05d9497bb84283a1f6cbecbe034a280ed2
+content_hash: d9e972339397d88aa42d605ee5b55f155c6a5b4d
 related_topics:
   - title: English version
     url: /en/windows/xcopy.html
@@ -10,46 +10,46 @@ related_topics:
   - title: Indonesia version
     url: /id/windows/xcopy.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/windows/xcopy.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/xcopy.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># xcopy
+# xcopy
 
 Kopieren von Dateien und Verzeichnisbäumen.
 Weitere Informationen: <https://learn.microsoft.com/windows-server/administration/windows-commands/xcopy>.
 
-- Kopieren der Datei(en) an den angegebenen Zielort:
+- Kopiere Datei(en) an den angegebenen Zielort:
 
-`xcopy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei_oder_verzeichnis</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zum/ziel</span>
+`xcopy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei_oder_verzeichnis</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/ziel</span>
 
-- Auflisten der zu kopierenden Dateien vor dem Kopieren
+- Liste die zu kopierenden Dateien vor dem Kopieren auf:
 
-`xcopy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei_oder_verzeichnis</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zum/ziel</span>` /p`
+`xcopy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei_oder_verzeichnis</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/ziel</span>` /p`
 
-- Kopieren der Verzeichnisstruktur ohne Dateien:
+- Kopiere nur die Verzeichnisstruktur ohne Dateien:
 
-`xcopy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei_oder_verzeichnis</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zum/ziel</span>` /t`
+`xcopy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei_oder_verzeichnis</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/ziel</span>` /t`
 
-- Leere Verzeichnisse beim Kopieren einbeziehen:
+- Kopiere leere Verzeichnisse mit:
 
-`xcopy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei_oder_verzeichnis</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zum/ziel</span>` /e`
+`xcopy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei_oder_verzeichnis</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/ziel</span>` /e`
 
-- Beibehalten der Quell-Zugriffsrichtlinien (ACL) im Ziel Verzeichniss:
+- Behalte die Quell-Zugriffsrichtlinien (ACL) im Ziel Verzeichnis bei:
 
-`xcopy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei_oder_verzeichnis</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zum/ziel</span>` /o`
+`xcopy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei_oder_verzeichnis</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/ziel</span>` /o`
 
-- Wiederaufnahme des Vorgangs bei Unterbrechung der Netzwerkverbindung zulassen:
+- Setze den Vorgang nach Unterbrechung der Netzwerkverbindung fort:
 
-`xcopy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei_oder_verzeichnis</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zum/ziel</span>` /z`
+`xcopy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei_oder_verzeichnis</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/ziel</span>` /z`
 
-- Unterdrückt die Eingabeaufforderung, um zu bestätigen, dass Sie eine vorhandene Zieldatei überschreiben möchten:
+- Überschreibe bereits vorhandene Zieldateien automatisch:
 
-`xcopy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei_oder_verzeichnis</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zum/ziel</span>` /y`
+`xcopy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei_oder_verzeichnis</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/ziel</span>` /y`
 
-- Zeigt die Hilfe an der Eingabeaufforderung an:
+- Zeige die detaillierte Hilfe an:
 
 `xcopy /?`

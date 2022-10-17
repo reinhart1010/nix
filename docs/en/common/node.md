@@ -2,7 +2,7 @@
 layout: page
 title: common/node (English)
 description: "Server-side JavaScript platform (Node.js)."
-content_hash: 4e9f57c8cc98aca71a5c23bde48f17d2fdcdb13f
+content_hash: 967726df40f16e668fadaa0fb9c848f8a52c6d21
 related_topics:
   - title: Deutsch version
     url: /de/common/node.html
@@ -32,6 +32,10 @@ More information: <https://nodejs.org>.
 - Start a REPL (interactive shell):
 
 `node`
+
+- Execute the specified file restarting the process when an imported file is changed (requires Node.js version 18.11+):
+
+`node --watch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Evaluate JavaScript code by passing it as an argument:
 

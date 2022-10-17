@@ -2,7 +2,7 @@
 layout: page
 title: common/nvim (English)
 description: "Neovim, a programmer's text editor based on Vim, provides several modes for different kinds of text manipulation."
-content_hash: 63ce0cc2f73c041881453080039ba29534d90dc8
+content_hash: 0035337673041aab8462be99ee2922cbd584e856
 related_topics:
   - title: Indonesia version
     url: /id/common/nvim.html
@@ -14,7 +14,7 @@ related_topics:
 # nvim
 
 Neovim, a programmer's text editor based on Vim, provides several modes for different kinds of text manipulation.
-Pressing `i` enters edit mode. `<Esc>` goes back to normal mode, which doesn't allow regular text insertion.
+Pressing `i` in normal mode enters insert mode. `<Esc>` goes back to normal mode, which doesn't allow regular text insertion.
 More information: <https://neovim.io>.
 
 - Open a file:
@@ -29,7 +29,7 @@ More information: <https://neovim.io>.
 
 `<Esc>`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yy|dd</span>
 
-- Undo the last operation:
+- Enter normal mode and undo the last operation:
 
 `<Esc>u`
 
@@ -41,7 +41,7 @@ More information: <https://neovim.io>.
 
 `<Esc>:%s/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">replacement</span>`/g<Enter>`
 
-- Save (write) the file, and quit:
+- Enter normal mode and save (write) the file, and quit:
 
 `<Esc>:wq<Enter>`
 

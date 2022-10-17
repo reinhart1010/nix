@@ -1,0 +1,38 @@
+---
+layout: page
+title: windows/assoc (தமிழ்)
+description: "கோப்பு நீட்டிப்புகள் மற்றும் கோப்பு வகைகளுக்கு இடையே உள்ள தொடர்பைக் காட்டவும் அல்லது மாற்றவும்."
+content_hash: 085922b37e5f87a1c450c278a01e48cf1283abc0
+related_topics:
+  - title: English version
+    url: /en/windows/assoc.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/windows/assoc.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/windows/assoc.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/windows/assoc.html
+    icon: bi bi-globe
+---
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># assoc
+
+கோப்பு நீட்டிப்புகள் மற்றும் கோப்பு வகைகளுக்கு இடையே உள்ள தொடர்பைக் காட்டவும் அல்லது மாற்றவும்.
+மேலும் விவரத்திற்கு: <https://learn.microsoft.com/windows-server/administration/windows-commands/assoc>.
+
+- கோப்பு நீட்டிப்புகள் மற்றும் கோப்பு வகைகளுக்கு இடையே உள்ள அனைத்து தொடர்புகளையும் பட்டியலிடுங்கள்:
+
+`assoc`
+
+- குறிப்பிட்ட நீட்டிப்புக்கான தொடர்புடைய கோப்பு வகையைக் காண்பி:
+
+`assoc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.txt</span>
+
+- குறிப்பிட்ட நீட்டிப்புக்கு தொடர்புடைய கோப்பு வகையை அமைக்கவும்:
+
+`assoc .`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">txt</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">txtfile</span>
