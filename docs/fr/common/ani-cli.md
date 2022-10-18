@@ -2,16 +2,19 @@
 layout: page
 title: common/ani-cli (français)
 description: "Une CLI pour chercher et regarder des animés."
-content_hash: 98a83d5c11210f2b1d048ac10eb2d702e3106ed9
+content_hash: c9a9cac23af6d9c539417bbf71eeff3a11d82e22
 related_topics:
+  - title: Deutsch version
+    url: /de/common/ani-cli.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/ani-cli.html
     icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/common/ani-cli.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ani-cli
+# ani-cli
 
 Une CLI pour chercher et regarder des animés.
 Plus d'informations : <https://github.com/pystardust/ani-cli>.
@@ -36,6 +39,6 @@ Plus d'informations : <https://github.com/pystardust/ani-cli>.
 
 `ani-cli -c`
 
-- Met à jour ani-cli :
+- Met à jour `ani-cli` :
 
 `ani-cli -U`

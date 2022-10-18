@@ -2,7 +2,7 @@
 layout: page
 title: sunos/svcadm (Nederlands)
 description: "Manipuleer service instanties."
-content_hash: a1c7f4c63cc6560c81ca79a0d671e1c8b1e42ed7
+content_hash: 901fb24463503f49cb194d317b102a86d6803cc0
 related_topics:
   - title: English version
     url: /en/sunos/svcadm.html
@@ -11,10 +11,7 @@ related_topics:
     url: /ta/sunos/svcadm.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># svcadm
+# svcadm
 
 Manipuleer service instanties.
 Meer informatie: <https://www.unix.com/man-page/linux/1m/svcadm>.
@@ -31,7 +28,7 @@ Meer informatie: <https://www.unix.com/man-page/linux/1m/svcadm>.
 
 `svcadm restart `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span>
 
-- refresh de configuratie van een service:
+- Refresh de configuratie van een service:
 
 `svcadm refresh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service_name</span>
 

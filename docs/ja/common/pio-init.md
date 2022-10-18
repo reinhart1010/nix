@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/pio-init (日本語)
-description: "このコマンドは `pio project` のエイリアスです."
-content_hash: f409e917dd2d26e01d66144ee329cdc291ab9ba5
+description: "このコマンドは `pio project` のエイリアスです。"
+content_hash: 1c9dd42ad3f9a9fcdde49ede48f684073fd2f4de
 related_topics:
   - title: bosanski version
     url: /bs/common/pio-init.html
@@ -67,7 +67,7 @@ related_topics:
 ---
 # pio-init
 
-このコマンドは `pio project` のエイリアスです.
+このコマンドは `pio project` のエイリアスです。
 
 - オリジナルのコマンドのドキュメントを表示する:
 

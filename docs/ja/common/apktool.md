@@ -2,10 +2,13 @@
 layout: page
 title: common/apktool (日本語)
 description: "APK ファイルの解析ツールです。"
-content_hash: 984311ebe9633ff01e934cdcaa6c828bff3ba0ef
+content_hash: 660525b3499f76e47fff4409c18644ed929842cc
 related_topics:
   - title: English version
     url: /en/common/apktool.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/apktool.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/apktool.html
@@ -19,7 +22,7 @@ related_topics:
 APK ファイルの解析ツールです。
 詳しくはこちら: <https://ibotpeaches.github.io/Apktool/>
 
-- APK ファイルのデコード
+- APK ファイルのデコード:
 
 `apktool d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">APK ファイルのパス</span>
 

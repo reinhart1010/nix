@@ -2,7 +2,7 @@
 layout: page
 title: android/wm (polski)
 description: "Wyświetl informacje o ekranie urządzenia Android."
-content_hash: c13714b8cdc3593e4ac3e540f246811506d80c68
+content_hash: 6a93d908bdd2a26fef22d58150f15d7f6e3480e0
 related_topics:
   - title: Deutsch version
     url: /de/android/wm.html
@@ -16,8 +16,14 @@ related_topics:
   - title: Indonesia version
     url: /id/android/wm.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/android/wm.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/android/wm.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/android/wm.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/android/wm.html
@@ -32,16 +38,13 @@ related_topics:
     url: /zh_TW/android/wm.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># wm
+# wm
 
 Wyświetl informacje o ekranie urządzenia Android.
 Ta komenda może być używana tylko poprzez `adb shell`.
 Więcej informacji: <https://adbinstaller.com/commands/adb-shell-wm-5b672b17e7958178a2955538>.
 
-- Wyświetl fizyczny rozmiaru ekranu urządzenia Android
+- Wyświetl fizyczny rozmiaru ekranu urządzenia Android:
 
 `wm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rozmiar</span>
 

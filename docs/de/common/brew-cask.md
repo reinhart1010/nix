@@ -2,7 +2,7 @@
 layout: page
 title: common/brew-cask (Deutsch)
 description: "Paketmanager für macOS-Anwendungen, die als Binärdateien verteilt werden."
-content_hash: d62aefaeb13d68b06fc17bebef94a17276e24ac4
+content_hash: 21df91437328bd72fed8ffd3e738024a51f88f8e
 related_topics:
   - title: English version
     url: /en/common/brew-cask.html
@@ -39,7 +39,7 @@ Weitere Informationen: <https://github.com/Homebrew/homebrew-cask>.
 
 `brew upgrade --cask `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caskname</span>
 
-- Deinstalliere ein Cask
+- Deinstalliere ein Cask:
 
 `brew cask uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caskname</span>
 

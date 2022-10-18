@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/wc (polski)
-description: "Zlicza linie, słowa, i bajty"
-content_hash: 828b00288be41917803b59d086ec45b68ab07da7
+description: "Zlicza linie, słowa, i bajty."
+content_hash: 6207bd0f4733f885258a1600a319b017c072a5f0
 related_topics:
   - title: English version
     url: /en/common/wc.html
@@ -19,10 +19,10 @@ related_topics:
 ---
 # wc
 
-Zlicza linie, słowa, i bajty
+Zlicza linie, słowa, i bajty.
 Więcej informacji: <https://www.gnu.org/software/coreutils/wc>.
 
-- Policz linie w pliku
+- Policz linie w pliku:
 
 `wc -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plik</span>
 

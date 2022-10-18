@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/tldrl (日本語)
-description: "このコマンドは `tldr-lint` のエイリアスです."
-content_hash: 74e1ada925866f457150071bd65a553fa61a9c4e
+description: "このコマンドは `tldr-lint` のエイリアスです。"
+content_hash: 5b7c7194cc7b5a29e6c9c8c3076493903c8edfbb
 related_topics:
   - title: bosanski version
     url: /bs/common/tldrl.html
@@ -70,7 +70,7 @@ related_topics:
 ---
 # tldrl
 
-このコマンドは `tldr-lint` のエイリアスです.
+このコマンドは `tldr-lint` のエイリアスです。
 詳しくはこちら: <https://github.com/tldr-pages/tldr-lint>
 
 - オリジナルのコマンドのドキュメントを表示する:

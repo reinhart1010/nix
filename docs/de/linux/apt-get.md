@@ -2,8 +2,11 @@
 layout: page
 title: linux/apt-get (Deutsch)
 description: "Debian und Ubuntu Paket Management Tool."
-content_hash: 27d1bded6825590d760b77f354e5b43f4bf3b234
+content_hash: 61cf3c85f4f2c39bf70c2e2136f3b963cfeb9c81
 related_topics:
+  - title: català version
+    url: /ca/linux/apt-get.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/apt-get.html
     icon: bi bi-globe
@@ -52,7 +55,7 @@ Weitere Informationen: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
 
 `apt-get upgrade`
 
-- Reinige das Repository
+- Reinige das Repository:
 
 `apt-get autoclean`
 

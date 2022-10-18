@@ -2,7 +2,7 @@
 layout: page
 title: osx/as (português (Brasil))
 description: "Montador (assembler) GNU portável."
-content_hash: 67a62020be7a665083c0f2c80f8f834f09f4f0d9
+content_hash: efabea67866d96dbb9fd8c76ab94ef0df20a2c6a
 related_topics:
   - title: English version
     url: /en/osx/as.html
@@ -17,10 +17,7 @@ related_topics:
     url: /zh/osx/as.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># as
+# as
 
 Montador (assembler) GNU portável.
 Principalmente destinado a montar a saída do `gcc` para ser usada pelo `ld`.
@@ -34,7 +31,7 @@ Mais informações: <https://www.unix.com/man-page/osx/1/as/>.
 
 `as `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.s</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">saida.o</span>
 
-- Gerar saída mais rapidamente ignorando espaços em branco e pré-processamento de comentários. (Só deve ser usado para compiladores confiáveis)
+- Gerar saída mais rapidamente ignorando espaços em branco e pré-processamento de comentários. (Só deve ser usado para compiladores confiáveis):
 
 `as -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.s</span>
 

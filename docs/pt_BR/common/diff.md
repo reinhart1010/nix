@@ -2,13 +2,16 @@
 layout: page
 title: common/diff (português (Brasil))
 description: "Compara diretórios e arquivos."
-content_hash: b584e44c52dbefee29db2e8c09f0e6e319322b7d
+content_hash: 2a845e4df02808971ff850188bc60e3391090642
 related_topics:
   - title: Deutsch version
     url: /de/common/diff.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/diff.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/diff.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/diff.html
@@ -36,7 +39,7 @@ Mais informações: <https://man7.org/linux/man-pages/man1/diff.1.html>.
 
 `diff --ignore-all-space `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_antigo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_novo</span>
 
-- Compara arquivos, mostrando diferenças lado a lado
+- Compara arquivos, mostrando diferenças lado a lado:
 
 `diff --side-by-side `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_antigo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_novo</span>
 

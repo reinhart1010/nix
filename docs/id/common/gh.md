@@ -2,10 +2,16 @@
 layout: page
 title: common/gh (Indonesia)
 description: "Memudahkan pengaksesan GitHub dari command-line."
-content_hash: 58de5bf1859e267cfe807ef4bb13539f1cef5191
+content_hash: b899a23a5c70d7b1ec9f94a33d6c9fc1694914ea
 related_topics:
+  - title: Deutsch version
+    url: /de/common/gh.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/gh.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/gh.html
     icon: bi bi-globe
 ---
 # gh
@@ -14,7 +20,7 @@ Memudahkan pengaksesan GitHub dari command-line.
 Beberapa subcommands seperti `gh config` memiliki dokumentasi sendiri.
 Informasi lebih lanjut: <https://cli.github.com/>.
 
-- Mengklon sebuah GitHub repositori di lokal
+- Mengklon sebuah GitHub repositori di lokal:
 
 `gh repo clone `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pemilik</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repositori</span>
 

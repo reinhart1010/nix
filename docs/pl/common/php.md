@@ -2,7 +2,7 @@
 layout: page
 title: common/php (polski)
 description: "Interfejs wiersza poleceń PHP."
-content_hash: 76827059390c812fe817f2ad38283d21d035effe
+content_hash: 3d69b8b2775c6edf31fa3c2c416f04ecc57937e4
 related_topics:
   - title: English version
     url: /en/common/php.html
@@ -38,7 +38,7 @@ Więcej informacji: <https://php.net>.
 
 `php -r "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kod</span>`"`
 
-- uruchom wbudowany serwer PHP w bieżącym katalogu:
+- Uruchom wbudowany serwer PHP w bieżącym katalogu:
 
 `php -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host:port</span>
 

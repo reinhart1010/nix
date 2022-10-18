@@ -2,7 +2,7 @@
 layout: page
 title: common/vim (Nederlands)
 description: "Vim (Vi IMproved), een command-line tekst bewerker, geeft toegang tot verschillende manieren van tekst manipulatie."
-content_hash: d984d4c235a33687679d25ecaae041187412aed5
+content_hash: 3339952bd7039f4abdc4221f672c9320b46cf780
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -21,6 +21,9 @@ related_topics:
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/common/vim.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/vim.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/vim.html
@@ -46,7 +49,7 @@ Meer informatie: <https://www.vim.org>.
 
 `vim +`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regel_nummer</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
 
-- bekijk de handleiding van Vim:
+- Bekijk de handleiding van Vim:
 
 `:help<Enter>`
 

@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/vi (日本語)
-description: "このコマンドは `vim` のエイリアスです."
-content_hash: 9d39466828509cff9e53f290bbd819c41334b9b8
+description: "このコマンドは `vim` のエイリアスです。"
+content_hash: 76f0c3f4e2cb59b9cfcfd4ae7751cb26c1b572df
 related_topics:
   - title: bosanski version
     url: /bs/common/vi.html
@@ -67,7 +67,7 @@ related_topics:
 ---
 # vi
 
-このコマンドは `vim` のエイリアスです.
+このコマンドは `vim` のエイリアスです。
 
 - オリジナルのコマンドのドキュメントを表示する:
 

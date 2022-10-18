@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/llvm-gcc (日本語)
-description: "このコマンドは `clang` のエイリアスです."
-content_hash: 7079798f84fbdfa08792482f0a3f2fbbf7c770d2
+description: "このコマンドは `clang` のエイリアスです。"
+content_hash: f4ff91ca920a63617351c2cb068cceedd83967d1
 related_topics:
   - title: bosanski version
     url: /bs/common/llvm-gcc.html
@@ -67,7 +67,7 @@ related_topics:
 ---
 # llvm-gcc
 
-このコマンドは `clang` のエイリアスです.
+このコマンドは `clang` のエイリアスです。
 
 - オリジナルのコマンドのドキュメントを表示する:
 

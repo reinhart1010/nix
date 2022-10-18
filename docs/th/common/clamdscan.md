@@ -1,19 +1,16 @@
 ---
 layout: page
 title: common/clamdscan (ไทย)
-description: "โปรแกรมแสกนหาไวรัสบนคอมมานด์ไลน์ โดยใช้โปรแกรมพื้นหลัง ClamAV"
-content_hash: 3c7c62dd00d9f7547425f34c97d25044523df1ed
+description: "โปรแกรมแสกนหาไวรัสบนคอมมานด์ไลน์ โดยใช้โปรแกรมพื้นหลัง ClamAV."
+content_hash: 303768a9d0fa300fedc2a79789a7c99408f0cf6b
 related_topics:
   - title: English version
     url: /en/common/clamdscan.html
     icon: bi bi-globe
 ---
+# clamdscan
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># clamdscan
-
-โปรแกรมแสกนหาไวรัสบนคอมมานด์ไลน์ โดยใช้โปรแกรมพื้นหลัง ClamAV
+โปรแกรมแสกนหาไวรัสบนคอมมานด์ไลน์ โดยใช้โปรแกรมพื้นหลัง ClamAV.
 ข้อมูลเพิ่มเติม: <https://www.clamav.net>.
 
 - แสกนข้อบกพร่องของไฟล์หรือไฟล์ในไดเรคทอรี:

@@ -2,7 +2,7 @@
 layout: page
 title: common/ani-cli (Deutsch)
 description: "Ein Cli zum Stöbern und Anschauen von Anime."
-content_hash: 042ecc63fdca8083bfc39d26b0685dfb7ebcba36
+content_hash: 51fa4897ce280ef7d894043d84693565d077dce1
 related_topics:
   - title: English version
     url: /en/common/ani-cli.html
@@ -10,11 +10,11 @@ related_topics:
   - title: français version
     url: /fr/common/ani-cli.html
     icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/common/ani-cli.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ani-cli
+# ani-cli
 
 Ein Cli zum Stöbern und Anschauen von Anime.
 Weitere Informationen: <https://github.com/pystardust/ani-cli>.
@@ -39,6 +39,6 @@ Weitere Informationen: <https://github.com/pystardust/ani-cli>.
 
 `ani-cli -c`
 
-- ani-cli aktualisieren:
+- `ani-cli` aktualisieren:
 
 `ani-cli -U`

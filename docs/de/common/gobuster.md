@@ -2,7 +2,7 @@
 layout: page
 title: common/gobuster (Deutsch)
 description: "Findet versteckte Pfade auf Webservern und mehr."
-content_hash: 67c831fae747a858d9c8b1f840a785d51eb08757
+content_hash: 51ac165a3c1b5b3f2ec813163e77f4916efbbef9
 related_topics:
   - title: English version
     url: /en/common/gobuster.html
@@ -13,7 +13,7 @@ related_topics:
 Findet versteckte Pfade auf Webservern und mehr.
 Weitere Informationen: <https://github.com/OJ/gobuster>.
 
-- Finde Verzeichnisse und Dateien, die den Wörtern der Wortliste entsprechen.
+- Finde Verzeichnisse und Dateien, die den Wörtern der Wortliste entsprechen:
 
 `gobuster dir --url `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://beispiel.com/</span>` --wordlist `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span>
 
@@ -33,6 +33,6 @@ Weitere Informationen: <https://github.com/OJ/gobuster>.
 
 `gobuster fuzz --url `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://beispiel.com/?parameter=FUZZ</span>` --wordlist `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span>
 
-- Fuzze den Namen eines URL-Parameters
+- Fuzze den Namen eines URL-Parameters:
 
 `gobuster fuzz --url `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://beispiel.com/?FUZZ=wert</span>` --wordlist `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span>

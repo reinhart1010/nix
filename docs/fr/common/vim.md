@@ -2,7 +2,7 @@
 layout: page
 title: common/vim (français)
 description: "Vim (Vi IMproved), un éditeur de texte en ligne de commandes, fournit plusieurs modes pour différentes manipulations de texte."
-content_hash: 2dc19d85b204c39566ec9ff0e6ab51c56c393470
+content_hash: fd21fda67493d70f001b027ae76a96b0775b4708
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -18,6 +18,9 @@ related_topics:
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/common/vim.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/vim.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/vim.html
@@ -46,7 +49,7 @@ Plus d'informations : <https://www.vim.org>.
 
 `vim +`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero_ligne</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span>
 
-- consulter le manuel utilisateur :
+- Consulter le manuel utilisateur :
 
 `:help<Entrée>`
 

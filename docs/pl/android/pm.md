@@ -2,7 +2,7 @@
 layout: page
 title: android/pm (polski)
 description: "Pokaż informacje o aplikacjach na urządzeniu z systemem Android."
-content_hash: 343b39c89240296dd11eeafa54b3b2e64dfa2a02
+content_hash: 7c765f4f45f0ce875490136a858b86c52cdfcc52
 related_topics:
   - title: Deutsch version
     url: /de/android/pm.html
@@ -19,6 +19,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/android/pm.html
     icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/android/pm.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/android/pm.html
     icon: bi bi-globe
@@ -32,10 +35,7 @@ related_topics:
     url: /zh_TW/android/pm.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pm
+# pm
 
 Pokaż informacje o aplikacjach na urządzeniu z systemem Android.
 Więcej informacji: <https://developer.android.com/studio/command-line/adb#pm>.
@@ -48,7 +48,7 @@ Więcej informacji: <https://developer.android.com/studio/command-line/adb#pm>.
 
 `pm list packages -s`
 
-- Listuj wszystkie zainstalowane aplikacje firm trzecich
+- Listuj wszystkie zainstalowane aplikacje firm trzecich:
 
 `pm list packages -3`
 

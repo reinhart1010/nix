@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/platformio (日本語)
-description: "このコマンドは `pio` のエイリアスです."
-content_hash: db71bb8c0a35712d7ba20e29c419ecba4616f601
+description: "このコマンドは `pio` のエイリアスです。"
+content_hash: c20c0c12222ee45d8a7536d06cfe66a8ff10407c
 related_topics:
   - title: bosanski version
     url: /bs/common/platformio.html
@@ -67,7 +67,7 @@ related_topics:
 ---
 # platformio
 
-このコマンドは `pio` のエイリアスです.
+このコマンドは `pio` のエイリアスです。
 詳しくはこちら: <https://docs.platformio.org/en/latest/core/userguide/>
 
 - オリジナルのコマンドのドキュメントを表示する:

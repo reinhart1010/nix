@@ -1,11 +1,14 @@
 ---
 layout: page
 title: android/logcat (Deutsch)
-description: "Gib ein Protokoll aller Systemmeldungen aus:"
-content_hash: cd0a4c9e24cfc3de1c6589398c0c3f794247d68f
+description: "Gib ein Protokoll aller Systemmeldungen aus."
+content_hash: f10fe1c5c3443107f5b7999b69293794fc0254b4
 related_topics:
   - title: English version
     url: /en/android/logcat.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/android/logcat.html
     icon: bi bi-globe
   - title: français version
     url: /fr/android/logcat.html
@@ -13,8 +16,23 @@ related_topics:
   - title: Indonesia version
     url: /id/android/logcat.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/android/logcat.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/android/logcat.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/android/logcat.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/android/logcat.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/android/logcat.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/android/logcat.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/android/logcat.html
@@ -25,7 +43,7 @@ related_topics:
 ---
 # logcat
 
-Gib ein Protokoll aller Systemmeldungen aus:
+Gib ein Protokoll aller Systemmeldungen aus.
 Weitere Informationen: <https://developer.android.com/studio/command-line/logcat>.
 
 - Gib ein Protokoll aller Systemmeldungen aus:

@@ -1,11 +1,17 @@
 ---
 layout: page
 title: common/youtube-dl (polski)
-description: "Pobieraj wideo i audio z YouTube i podobnych portali"
-content_hash: 2364ed9b368469fe1ad94054b2decac086d4f860
+description: "Pobieraj wideo i audio z YouTube i podobnych portali."
+content_hash: 547b1fd483381f8aa954f159bdd90243afdb9777
 related_topics:
+  - title: català version
+    url: /ca/common/youtube-dl.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/youtube-dl.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/youtube-dl.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/youtube-dl.html
@@ -13,7 +19,7 @@ related_topics:
 ---
 # youtube-dl
 
-Pobieraj wideo i audio z YouTube i podobnych portali
+Pobieraj wideo i audio z YouTube i podobnych portali.
 Więcej informacji: <http://rg3.github.io/youtube-dl/>.
 
 - Pobierz plik wideo lub wszystkie pliki z playlisty:

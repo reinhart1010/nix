@@ -2,7 +2,7 @@
 layout: page
 title: linux/pacman (Deutsch)
 description: "Arch Linux Paket Management Tool."
-content_hash: aa6ee4f19373a5230dfac3f14a1f46855eeb46d9
+content_hash: ac20ce439f22a6a76ed18515480cf119a156f4ce
 related_topics:
   - title: English version
     url: /en/linux/pacman.html
@@ -18,6 +18,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/linux/pacman.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/pacman.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/pacman.html
@@ -56,7 +59,7 @@ Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
 
 `pacman -Qe`
 
-- Zeige verwaiste Pakete an, welche als Abhängigkeiten installiert wurden, aber nicht mehr von anderen Paketen benötigt werden.
+- Zeige verwaiste Pakete an, welche als Abhängigkeiten installiert wurden, aber nicht mehr von anderen Paketen benötigt werden:
 
 `pacman -Qtdq`
 

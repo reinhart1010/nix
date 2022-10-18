@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/n (ไทย)
-description: "เครื่องมือในการจัดการเวอร์ชั่นของ node"
-content_hash: e87e1fe8b0a5680f0d49ab113a4c3aade9d4c4ea
+description: "เครื่องมือในการจัดการเวอร์ชั่นของ node."
+content_hash: c0c166f11fb55edbe079b5396cac3c5c82f1f372
 related_topics:
   - title: English version
     url: /en/common/n.html
@@ -11,12 +11,9 @@ related_topics:
     url: /zh/common/n.html
     icon: bi bi-globe
 ---
+# n
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># n
-
-เครื่องมือในการจัดการเวอร์ชั่นของ node
+เครื่องมือในการจัดการเวอร์ชั่นของ node.
 ข้อมูลเพิ่มเติม: <https://github.com/tj/n>.
 
 - ติดตั้ง node เวอร์ชั่นที่กำหนด ถ้าหากเวอร์ชั่นที่กำหนดถูกติดตั้งแล้ว เวอร์ชั่นดังกล่าวจะถูกเปิดใช้งาน:

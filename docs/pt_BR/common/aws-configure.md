@@ -2,16 +2,13 @@
 layout: page
 title: common/aws-configure (português (Brasil))
 description: "Gerencia as configurações para o AWS CLI."
-content_hash: cdcf72a1606cba22e3a0bb642bcc95a6c78f47b7
+content_hash: 9c34410758d9009c8e7076f559cc23650ae692fb
 related_topics:
   - title: English version
     url: /en/common/aws-configure.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws configure
+# aws configure
 
 Gerencia as configurações para o AWS CLI.
 Mais informações: <https://docs.aws.amazon.com/cli/latest/reference/configure/>.
@@ -44,6 +41,6 @@ Mais informações: <https://docs.aws.amazon.com/cli/latest/reference/configure/
 
 `aws configure list`
 
-- Lista os entradas da configuração de um profile específico
+- Lista os entradas da configuração de um profile específico:
 
 `aws configure list --profile `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span>

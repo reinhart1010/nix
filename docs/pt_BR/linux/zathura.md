@@ -2,7 +2,7 @@
 layout: page
 title: linux/zathura (português (Brasil))
 description: "Um visualizador de documentos modular e baseado em vim, com uma linha de comando integrada."
-content_hash: 7e1ed9fdf720d5f5c12cd6703af032ebdfc2d665
+content_hash: 04f289bf797e4f33ded68d93986a633e31415eb4
 related_topics:
   - title: Deutsch version
     url: /de/linux/zathura.html
@@ -20,7 +20,7 @@ Um visualizador de documentos modular e baseado em vim, com uma linha de comando
 Tenha certeza de que um backend está instalado (poppler, PostScript, ou DjVu).
 Mais informações: <https://pwmt.org/projects/zathura/>.
 
-- Abre um arquivo
+- Abre um arquivo:
 
 `zathura `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
 

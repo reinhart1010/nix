@@ -2,7 +2,7 @@
 layout: page
 title: common/z (日本語)
 description: "高頻度で利用されるディレクトリを把握し、文字列や正規表現をつかうことでスムーズに移動できるようにします。"
-content_hash: d78f7184b404e147c0af663c158d9d4e5a6a1e5d
+content_hash: 84676953850c88a4a156d202041e481d7721b5db
 related_topics:
   - title: English version
     url: /en/common/z.html
@@ -28,26 +28,26 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 高頻度で利用されるディレクトリを把握し、文字列や正規表現をつかうことでスムーズに移動できるようにします。
 詳しくはこちら: <https://github.com/rupa/z>
 
-- "foo"が名前に含まれるディレクトリに移動する。
+- "foo"が名前に含まれるディレクトリに移動する:
 
 `z `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span>
 
-- "foo"と"bar"が名前に含まれるディレクトリに移動する。
+- "foo"と"bar"が名前に含まれるディレクトリに移動する:
 
 `z `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bar</span>
 
-- "foo"と最もマッチングするディレクトリに移動する。
+- "foo"と最もマッチングするディレクトリに移動する:
 
 `z -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span>
 
-- "foo"とマッチングするディレクトリの中で、最も最近アクセスしたディレクトリに移動する。
+- "foo"とマッチングするディレクトリの中で、最も最近アクセスしたディレクトリに移動する:
 
 `z -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span>
 
-- `z`コマンドのデータベースの中で、`foo` にマッチングするディレクトリの一覧を表示する。
+- `z`コマンドのデータベースの中で、`foo` にマッチングするディレクトリの一覧を表示する:
 
 `z -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span>
 
-- 現在のディレクトリを`z`コマンドのデータベース除去する。
+- 現在のディレクトリを`z`コマンドのデータベース除去する:
 
 `z -x .`

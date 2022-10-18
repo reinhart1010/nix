@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/llvm-nm (日本語)
-description: "このコマンドは `nm` のエイリアスです."
-content_hash: 0d820d42ef7b0a45036e0a240a2e07e3e62fff08
+description: "このコマンドは `nm` のエイリアスです。"
+content_hash: 88c5521dc0c312b44829c17cad0dedb691953a8d
 related_topics:
   - title: bosanski version
     url: /bs/common/llvm-nm.html
@@ -67,7 +67,7 @@ related_topics:
 ---
 # llvm-nm
 
-このコマンドは `nm` のエイリアスです.
+このコマンドは `nm` のエイリアスです。
 
 - オリジナルのコマンドのドキュメントを表示する:
 

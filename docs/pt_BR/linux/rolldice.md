@@ -1,8 +1,8 @@
 ---
 layout: page
 title: linux/rolldice (português (Brasil))
-description: "Rola dados virtuais"
-content_hash: c7110ab989ee385b4d20a956505a7bb767b323d4
+description: "Rola dados virtuais."
+content_hash: 54e1ed5b4fdcbcff3789ca1e16566b7965945836
 related_topics:
   - title: English version
     url: /en/linux/rolldice.html
@@ -10,7 +10,7 @@ related_topics:
 ---
 # rolldice
 
-Rola dados virtuais
+Rola dados virtuais.
 Mais informações: <https://manned.org/rolldice>.
 
 - Rola um dado de 20 lados:

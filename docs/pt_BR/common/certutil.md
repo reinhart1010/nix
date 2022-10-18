@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/certutil (português (Brasil))
-description: "Gerencie chaves e certificados em bancos de dados e tokens NSS"
-content_hash: b1b4070953ad37ed8e076280e03221993793966f
+description: "Gerencie chaves e certificados em bancos de dados e tokens NSS."
+content_hash: dfead994d25033d03285ba4de89bb1b522e53782
 related_topics:
   - title: English version
     url: /en/common/certutil.html
@@ -10,7 +10,7 @@ related_topics:
 ---
 # certutil
 
-Gerencie chaves e certificados em bancos de dados e tokens NSS
+Gerencie chaves e certificados em bancos de dados e tokens NSS.
 Mais informações: <https://manned.org/certutil>.
 
 - Cria um novo banco de dados de certificados:

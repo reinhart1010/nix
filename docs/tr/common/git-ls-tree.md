@@ -2,7 +2,7 @@
 layout: page
 title: common/git-ls-tree (Türkçe)
 description: "Bir ağaç nesnesinin içeriklerini sırala."
-content_hash: 662d813b951f3a4d03ab41f29d8ab69050e0b02a
+content_hash: 88f731bb8e49056bbaf11921677c767573009582
 related_topics:
   - title: English version
     url: /en/common/git-ls-tree.html
@@ -26,7 +26,7 @@ Daha fazla bilgi: <https://git-scm.com/docs/git-ls-tree>.
 
 `git ls-tree `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dal_name</span>
 
-- Bir commit üstündeki ağacın içeriklerini alt ağaçlara ayırarak sırala.
+- Bir commit üstündeki ağacın içeriklerini alt ağaçlara ayırarak sırala:
 
 `git ls-tree -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_değeri</span>
 

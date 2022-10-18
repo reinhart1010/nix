@@ -2,7 +2,7 @@
 layout: page
 title: common/alex (français)
 description: "Un outil qui corrige les phrases insensible et inconsidérée (en Anglais uniquement)."
-content_hash: c2d848c90e09415f63846a479a155daf5d9d4bf9
+content_hash: 1951d581e7152cc46c0cfac1e9854bbd5efaee60
 related_topics:
   - title: English version
     url: /en/common/alex.html
@@ -17,10 +17,7 @@ related_topics:
     url: /pt_BR/common/alex.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># alex
+# alex
 
 Un outil qui corrige les phrases insensible et inconsidérée (en Anglais uniquement).
 Il vous aide à trouver un genre, une polarité, une ethnie, un blasphème, ou autre inégalité en lisant un texte en anglais.
@@ -38,6 +35,6 @@ Plus d'informations : <https://github.com/get-alex/alex>.
 
 `alex `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichiertexte.md</span>
 
-- Analyse tous les fichiers Markdown sauf `exemple.md`
+- Analyse tous les fichiers Markdown sauf `exemple.md` :
 
 `alex *.md !`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exemple.md</span>

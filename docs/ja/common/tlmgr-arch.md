@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/tlmgr-arch (日本語)
-description: "このコマンドは `tlmgr platform` のエイリアスです."
-content_hash: 190a2db0ed5753816997197029a82e6ba23c9c63
+description: "このコマンドは `tlmgr platform` のエイリアスです。"
+content_hash: e561d9912c8ef8ca2d6417ceeba2749fa29b88cb
 related_topics:
   - title: bosanski version
     url: /bs/common/tlmgr-arch.html
@@ -67,7 +67,7 @@ related_topics:
 ---
 # tlmgr-arch
 
-このコマンドは `tlmgr platform` のエイリアスです.
+このコマンドは `tlmgr platform` のエイリアスです。
 詳しくはこちら: <https://www.tug.org/texlive/tlmgr.html>
 
 - オリジナルのコマンドのドキュメントを表示する:

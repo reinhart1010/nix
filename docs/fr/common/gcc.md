@@ -2,7 +2,7 @@
 layout: page
 title: common/gcc (français)
 description: "Préprocesse et compile des fichiers sources C et C++, pour ensuite les assembler et les lier entre eux."
-content_hash: 5cbf6845dcbe5efd1ff4ff3072b29d1ef8fb61ec
+content_hash: 7ebf16bf348ccf130ebe60caf2da257516056b28
 related_topics:
   - title: Deutsch version
     url: /de/common/gcc.html
@@ -20,13 +20,10 @@ related_topics:
     url: /ta/common/gcc.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gcc
+# gcc
 
 Préprocesse et compile des fichiers sources C et C++, pour ensuite les assembler et les lier entre eux.
-Plus d'informations : <https://gcc.gnu.org>
+Plus d'informations : <https://gcc.gnu.org>.
 
 - Compile plusieurs fichiers source en un exécutable :
 

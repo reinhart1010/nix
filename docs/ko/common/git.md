@@ -2,7 +2,7 @@
 layout: page
 title: common/git (한국어)
 description: "분산 버전 관리 시스템."
-content_hash: 347d28cb45884da508281b781a48d0322c499a87
+content_hash: 3ee3bb1d2da7fb453c5827eb9a61fdc5e6e4b4f0
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
@@ -22,6 +22,9 @@ related_topics:
   - title: italiano version
     url: /it/common/git.html
     icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/common/git.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/git.html
     icon: bi bi-globe
@@ -37,11 +40,11 @@ related_topics:
   - title: українська version
     url: /uk/common/git.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/git.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git
+# git
 
 분산 버전 관리 시스템.
 `commit`, `add`, `branch`, `checkout`, `push` 등의 특정 하위 명령어는 고유의 문서가 따로 있습니다. `tldr git subcommand`를 통해 확인할 수 있습니다.
@@ -67,6 +70,6 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 `git -C `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">특정/레파지토리/경로</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">하위_명령어</span>
 
-- 주어진 설정으로 Git 하위 명령어 실행
+- 주어진 설정으로 Git 하위 명령어 실행:
 
 `git -c '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">설정.키</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">설정.값</span>`' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">하위_명령어</span>

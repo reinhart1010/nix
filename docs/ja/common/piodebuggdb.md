@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/piodebuggdb (日本語)
-description: "このコマンドは `pio debug` のエイリアスです."
-content_hash: 91e366c3f0f2842250233d46ef4fe9afa361b229
+description: "このコマンドは `pio debug` のエイリアスです。"
+content_hash: 2fd0b64ca2d42bb56d88c86e23ceaa02a1dedc06
 related_topics:
   - title: bosanski version
     url: /bs/common/piodebuggdb.html
@@ -67,7 +67,7 @@ related_topics:
 ---
 # piodebuggdb
 
-このコマンドは `pio debug` のエイリアスです.
+このコマンドは `pio debug` のエイリアスです。
 
 - オリジナルのコマンドのドキュメントを表示する:
 

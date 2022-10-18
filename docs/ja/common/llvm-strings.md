@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/llvm-strings (日本語)
-description: "このコマンドは `strings` のエイリアスです."
-content_hash: a58b1688ff2ac09b50f93ac5979444f41eff7f5d
+description: "このコマンドは `strings` のエイリアスです。"
+content_hash: f8c5ce5c6b803bfd8566ebd3b7db7e5e5b28279b
 related_topics:
   - title: bosanski version
     url: /bs/common/llvm-strings.html
@@ -67,7 +67,7 @@ related_topics:
 ---
 # llvm-strings
 
-このコマンドは `strings` のエイリアスです.
+このコマンドは `strings` のエイリアスです。
 
 - オリジナルのコマンドのドキュメントを表示する:
 

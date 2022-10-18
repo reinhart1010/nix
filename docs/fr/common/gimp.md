@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/gimp (français)
-description: "Outil d'édition et de retouche d'image, libre et multiplateforme"
-content_hash: a11f8cce7ebe33d35bafc9e01cc6e87a2e67754c
+description: "Outil d'édition et de retouche d'image, libre et multiplateforme."
+content_hash: 247cb3f23213158693ee6155de0b8530845d42c1
 related_topics:
   - title: English version
     url: /en/common/gimp.html
@@ -13,7 +13,7 @@ related_topics:
 ---
 # gimp
 
-Outil d'édition et de retouche d'image, libre et multiplateforme
+Outil d'édition et de retouche d'image, libre et multiplateforme.
 Voir aussi : `krita`.
 Plus d'informations : <https://docs.gimp.org/en/gimp-fire-up.html#gimp-concepts-running-command-line>.
 

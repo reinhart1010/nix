@@ -1,11 +1,14 @@
 ---
 layout: page
 title: common/atrm (polski)
-description: "Usuwa zadania o zadanych identyfikatorach (numerach) wcześniej zakolejkowane przez `at` lub `batch`"
-content_hash: 7e130ea901296cfc43b4e81353d00dbc92f861b6
+description: "Usuwa zadania o zadanych identyfikatorach (numerach) wcześniej zakolejkowane przez `at` lub `batch`."
+content_hash: 280fe886347e108e35d03944e562cd5368ac789c
 related_topics:
   - title: English version
     url: /en/common/atrm.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/atrm.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/atrm.html
@@ -13,7 +16,7 @@ related_topics:
 ---
 # atrm
 
-Usuwa zadania o zadanych identyfikatorach (numerach) wcześniej zakolejkowane przez `at` lub `batch`
+Usuwa zadania o zadanych identyfikatorach (numerach) wcześniej zakolejkowane przez `at` lub `batch`.
 Aby znaleźć numery zadań, użyj `atq`.
 Więcej informacji: <https://manned.org/atrm>.
 

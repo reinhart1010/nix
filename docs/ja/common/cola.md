@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/cola (日本語)
-description: "このコマンドは `git-cola` のエイリアスです."
-content_hash: 1c77fb8bd79ed7703a130a814a53cfdebf6b4815
+description: "このコマンドは `git-cola` のエイリアスです。"
+content_hash: 426358dff509851840cef29d4630655b8d298f1e
 related_topics:
   - title: bosanski version
     url: /bs/common/cola.html
@@ -67,7 +67,7 @@ related_topics:
 ---
 # cola
 
-このコマンドは `git-cola` のエイリアスです.
+このコマンドは `git-cola` のエイリアスです。
 
 - オリジナルのコマンドのドキュメントを表示する:
 

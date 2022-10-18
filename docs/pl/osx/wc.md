@@ -1,8 +1,8 @@
 ---
 layout: page
 title: osx/wc (polski)
-description: "Zlicza linie, słowa, i bajty"
-content_hash: b830f8fee0782a2249f5156e2489f9864af75e53
+description: "Zlicza linie, słowa, i bajty."
+content_hash: 19cb05a0a74520137ffeda9e5df499b858d9ba12
 related_topics:
   - title: English version
     url: /en/osx/wc.html
@@ -10,10 +10,10 @@ related_topics:
 ---
 # wc
 
-Zlicza linie, słowa, i bajty
+Zlicza linie, słowa, i bajty.
 Więcej informacji: <https://ss64.com/osx/wc.html>.
 
-- Policz linie w pliku
+- Policz linie w pliku:
 
 `wc -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku</span>
 

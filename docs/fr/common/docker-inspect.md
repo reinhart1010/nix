@@ -2,7 +2,7 @@
 layout: page
 title: common/docker-inspect (français)
 description: "Retour d'informations de bas niveau sur les objets Docker."
-content_hash: 6d927e1bec62a8bab4ef26b76d9a96024ca6747e
+content_hash: 7ab5a2cd91477709b8991610b7c3e5f069c13a94
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-inspect.html
@@ -17,15 +17,12 @@ related_topics:
     url: /tr/common/docker-inspect.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docker inspect
+# docker inspect
 
 Retour d'informations de bas niveau sur les objets Docker.
 Plus d'informations : <https://docs.docker.com/engine/reference/commandline/inspect/>.
 
-- Montrer l'aide
+- Montrer l'aide :
 
 `docker inspect`
 

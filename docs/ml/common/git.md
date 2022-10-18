@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/git (മലയാളം)
-description: "പ്രോഗ്രാമുകളുടെ പല പതിപ്പുകൾ പലയിടങ്ങളിലായി സൂക്ഷിക്കുവാനും നിയന്ത്രിക്കുവാനും ഉള്ള വികേന്ദ്രീകൃത പതിപ്പ് നിയന്ത്രണ സംവിധാനം"
-content_hash: 404bc0af421b234521a778108c668a8e73b7a826
+description: "പ്രോഗ്രാമുകളുടെ പല പതിപ്പുകൾ പലയിടങ്ങളിലായി സൂക്ഷിക്കുവാനും നിയന്ത്രിക്കുവാനും ഉള്ള വികേന്ദ്രീകൃത പതിപ്പ് നിയന്ത്രണ സംവിധാനം."
+content_hash: 30c357d7899b1f0b0208eff5b5eae2aa3d50db3d
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
@@ -44,12 +44,9 @@ related_topics:
     url: /zh/common/git.html
     icon: bi bi-globe
 ---
+# git
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git
-
-പ്രോഗ്രാമുകളുടെ പല പതിപ്പുകൾ പലയിടങ്ങളിലായി സൂക്ഷിക്കുവാനും നിയന്ത്രിക്കുവാനും ഉള്ള വികേന്ദ്രീകൃത പതിപ്പ് നിയന്ത്രണ സംവിധാനം
+പ്രോഗ്രാമുകളുടെ പല പതിപ്പുകൾ പലയിടങ്ങളിലായി സൂക്ഷിക്കുവാനും നിയന്ത്രിക്കുവാനും ഉള്ള വികേന്ദ്രീകൃത പതിപ്പ് നിയന്ത്രണ സംവിധാനം.
 `commit`, `add`, `branch`, `checkout`, `push` മുതലായ ചില ഉപകമാൻഡുകൾക്ക് അവരുടേതായ ഡോക്യുമെന്റേഷൻ ഉണ്ട്, `tldr git `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ഉപകമാൻഡ്</span> വഴി അവ കാണാൻ കഴിയും.
 കൂടുതൽ വിവരങ്ങൾ: <https://git-scm.com/>.
 

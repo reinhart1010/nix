@@ -1,8 +1,8 @@
 ---
 layout: page
 title: android/wm (português (Portugal))
-description: "Exibe informações da tela de um dispositivo Android"
-content_hash: ae4ee153ff8ad0f37a40bf34fbaec899aaca0384
+description: "Exibe informações da tela de um dispositivo Android."
+content_hash: fc5bc143e9907490fec04ddf6422798773659f4d
 related_topics:
   - title: Deutsch version
     url: /de/android/wm.html
@@ -15,6 +15,12 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/wm.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/android/wm.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/android/wm.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/android/wm.html
@@ -32,12 +38,9 @@ related_topics:
     url: /zh_TW/android/wm.html
     icon: bi bi-globe
 ---
+# wm
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># wm
-
-Exibe informações da tela de um dispositivo Android
+Exibe informações da tela de um dispositivo Android.
 Este comando só pode ser usado através da `adb shell`.
 Mais informações: <https://adbinstaller.com/commands/adb-shell-wm-5b672b17e7958178a2955538>.
 

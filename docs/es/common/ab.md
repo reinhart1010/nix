@@ -2,13 +2,16 @@
 layout: page
 title: common/ab (español)
 description: "Herramienta comparativa del servidor Apache HTTP."
-content_hash: 0d3c618380fdd460cf78ff6744e17bbabb788f8c
+content_hash: 0c91c0f1e43fdcc2536c06b95fac1d2da6d4ded7
 related_topics:
   - title: Deutsch version
     url: /de/common/ab.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/ab.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/ab.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ab.html
@@ -53,6 +56,6 @@ Más información: <https://httpd.apache.org/docs/current/programs/ab.html>.
 
 `ab -k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
-- Establece el máximo número de segundos utilizados para la comparación.
+- Establece el máximo número de segundos utilizados para la comparación:
 
 `ab -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">60</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>

@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/git-reflog (Türkçe)
-description: "HEAD, dal ve etiketler gibi yerel referansların geçirdiği değişimlerin kaydını göster:"
-content_hash: c1863eeb991a1af436537a963c86dfdea41614b3
+description: "HEAD, dal ve etiketler gibi yerel referansların geçirdiği değişimlerin kaydını göster."
+content_hash: c52385eea8ff7746550a70bea8c3ede79a7fe928
 related_topics:
   - title: English version
     url: /en/common/git-reflog.html
@@ -19,7 +19,7 @@ related_topics:
 ---
 # git reflog
 
-HEAD, dal ve etiketler gibi yerel referansların geçirdiği değişimlerin kaydını göster:
+HEAD, dal ve etiketler gibi yerel referansların geçirdiği değişimlerin kaydını göster.
 Daha fazla bilgi: <https://git-scm.com/docs/git-reflog>.
 
 - HEAD için referans kaydını göster:

@@ -2,7 +2,7 @@
 layout: page
 title: linux/br (português (Brasil))
 description: "Navega árvore de diretórios interativamente."
-content_hash: 58554549b7252660a8ab4157d08f507fd4c756ea
+content_hash: 4c6dafcd61aee561f9ed38a7a0e5b29996c431b2
 related_topics:
   - title: English version
     url: /en/linux/br.html
@@ -11,13 +11,10 @@ related_topics:
     url: /hi/linux/br.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># br
+# br
 
 Navega árvore de diretórios interativamente.
-Veja também: `broot`
+Veja também: `broot`.
 Mais informações: <https://github.com/Canop/broot>.
 
 - Começa e navega na árvore de diretórios atual interativamente:

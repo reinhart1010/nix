@@ -2,7 +2,7 @@
 layout: page
 title: common/git-shortlog (français)
 description: "Récapitule la sortie de `git log`."
-content_hash: 3ea5a7c3b3f7b1b4b341e1629cf3a12013229c5d
+content_hash: d2ee4705350d6281b9b30d0f4a026143bba4ba5c
 related_topics:
   - title: English version
     url: /en/common/git-shortlog.html
@@ -12,6 +12,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-shortlog.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-shortlog.html
     icon: bi bi-globe
 ---
 # git shortlog
@@ -31,7 +34,7 @@ Plus d'informations : <https://git-scm.com/docs/git-shortlog>.
 
 `git shortlog -c`
 
-- fficher un résumé des 5 derniers commits effectués :
+- Afficher un résumé des 5 derniers commits effectués :
 
 `git shortlog HEAD~`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>`..HEAD`
 

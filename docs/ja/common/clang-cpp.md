@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/clang-cpp (日本語)
-description: "このコマンドは `clang++` のエイリアスです."
-content_hash: 03fa4bcdc1726a65f533a311fa0b8e0709b1c373
+description: "このコマンドは `clang++` のエイリアスです。"
+content_hash: f500a317d84c11bf8ef0339e3c17cc36e795aedc
 related_topics:
   - title: bosanski version
     url: /bs/common/clang-cpp.html
@@ -67,7 +67,7 @@ related_topics:
 ---
 # clang-cpp
 
-このコマンドは `clang++` のエイリアスです.
+このコマンドは `clang++` のエイリアスです。
 
 - オリジナルのコマンドのドキュメントを表示する:
 

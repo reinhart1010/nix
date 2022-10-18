@@ -1,8 +1,8 @@
 ---
 layout: page
 title: linux/login (français)
-description: "Démarre une session pour un utilisateur"
-content_hash: aeec40141dab0fa6cf3475e436dea457d63e68e5
+description: "Démarre une session pour un utilisateur."
+content_hash: 8bb197a6047c24b471cb0a3048caef9e4a70d485
 related_topics:
   - title: English version
     url: /en/linux/login.html
@@ -10,7 +10,7 @@ related_topics:
 ---
 # login
 
-Démarre une session pour un utilisateur
+Démarre une session pour un utilisateur.
 Plus d'informations : <https://manned.org/login>.
 
 - Démarrer une session en tant qu'utilisateur :

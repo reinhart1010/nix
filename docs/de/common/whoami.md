@@ -2,13 +2,16 @@
 layout: page
 title: common/whoami (Deutsch)
 description: "Gib den Benutzernamen des aktuellen Benutzers aus."
-content_hash: 39ea882db5e4877c53e7413b0bc192089a7e7b23
+content_hash: f225581607cc62f9154ffef7b30cd4961b423d28
 related_topics:
   - title: English version
     url: /en/common/whoami.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/whoami.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/whoami.html
     icon: bi bi-globe
 ---
 # whoami
@@ -20,6 +23,6 @@ Weitere Informationen: <https://www.gnu.org/software/coreutils/whoami>.
 
 `whoami`
 
-- gib den Benutzernamen nach einer Änderung der Benutzeridentität aus:
+- Gib den Benutzernamen nach einer Änderung der Benutzeridentität aus:
 
 `sudo whoami`

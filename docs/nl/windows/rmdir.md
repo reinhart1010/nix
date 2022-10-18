@@ -2,7 +2,7 @@
 layout: page
 title: windows/rmdir (Nederlands)
 description: "Verwijdert een directory en zijn inhoud."
-content_hash: 129ceb7f0751c399df127f2026f7de2b1f91cbcf
+content_hash: 6b046930570ccf64eba54729ddf43e441f43918f
 related_topics:
   - title: English version
     url: /en/windows/rmdir.html
@@ -12,6 +12,9 @@ related_topics:
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/rmdir.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/windows/rmdir.html
     icon: bi bi-globe
 ---
 # rmdir
@@ -23,10 +26,10 @@ Meer informatie: <https://learn.microsoft.com/windows-server/administration/wind
 
 `rmdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/directory</span>
 
-- verwijder een directory en zen inhoud recursief:
+- Verwijder een directory en zen inhoud recursief:
 
 `rmdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/directory</span>` /s`
 
-- verwijder een directory en zen inhoud recursief zonder te vragen:
+- Verwijder een directory en zen inhoud recursief zonder te vragen:
 
 `rmdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/directory</span>` /s /q`

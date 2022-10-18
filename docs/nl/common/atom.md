@@ -2,7 +2,7 @@
 layout: page
 title: common/atom (Nederlands)
 description: "Een platformonafhankelijke inplugbare tekstbewerker."
-content_hash: ecb26d679d24940cc870dc0fefcf7a92d05105cb
+content_hash: ec99c864f2406341000da1ddfe9a02abf8c56f92
 related_topics:
   - title: Deutsch version
     url: /de/common/atom.html
@@ -48,7 +48,7 @@ Meer informatie: <https://atom.io/>.
 
 `atom --safe`
 
-- Voorkom dat Atom zich vertakt in de achtergrond, en houdt Atom in de terminal
+- Voorkom dat Atom zich vertakt in de achtergrond, en houdt Atom in de terminal:
 
 `atom --foreground`
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/git-log (Deutsch)
 description: "Zeigt die Commit-Historie an."
-content_hash: 043242210a0645a76fc7ea80f0aed542de7cf0e4
+content_hash: cb2e7b17d96d89f92ece081d467c92c914c08c4b
 related_topics:
   - title: English version
     url: /en/common/git-log.html
@@ -16,6 +16,9 @@ related_topics:
   - title: italiano version
     url: /it/common/git-log.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-log.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/git-log.html
     icon: bi bi-globe
@@ -25,7 +28,7 @@ related_topics:
 Zeigt die Commit-Historie an.
 Weitere Informationen: <https://git-scm.com/docs/git-log>.
 
-- Zeige die Sequenz der Commits des Git-Repository im aktuellen Verzeichnis, beginnend mit dem aktuellen, an.
+- Zeige die Sequenz der Commits des Git-Repository im aktuellen Verzeichnis, beginnend mit dem aktuellen, an:
 
 `git log`
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/xxd (italiano)
 description: "Mostra la rappresentazione esadecimale (hexdump) di un file binario e viceversa."
-content_hash: 440d4d1c7dc9e6a4243d4cd23b0c4e4dcc0f5da1
+content_hash: 0b27f50b74c72a50ca517ed9d087a9ae500aee51
 related_topics:
   - title: English version
     url: /en/common/xxd.html
@@ -21,7 +21,7 @@ Maggiori informazioni: <https://manned.org/xxd>.
 
 `xxd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_di_input</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_di_output</span>
 
-- Mostrare un output in una versione un po' più compatta, dove gli zero consegutivi vengono sostituiti da un asterisco.
+- Mostrare un output in una versione un po' più compatta, dove gli zero consegutivi vengono sostituiti da un asterisco:
 
 `xxd -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_di_input</span>
 

@@ -2,10 +2,13 @@
 layout: page
 title: linux/as (Deutsch)
 description: "Portabler GNU assembler."
-content_hash: e5775ca0f9c895103bd39a84e2106882d6626386
+content_hash: 3cf6d5f759cf6bdc9627bbf34421f8d14d8cfb0d
 related_topics:
   - title: English version
     url: /en/linux/as.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/as.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/as.html
@@ -20,7 +23,7 @@ Portabler GNU assembler.
 Hauptsächlich beabsichtigt um output von `gcc` für `ld` vorzubereiten.
 Weitere Informationen: <https://manned.org/as>.
 
-- Assemble eine Datei und schreibe den Output in eine in `a.out`.
+- Assemble eine Datei und schreibe den Output in eine in `a.out`:
 
 `as `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">datei.s</span>
 

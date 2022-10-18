@@ -2,16 +2,13 @@
 layout: page
 title: common/terraform (Deutsch)
 description: "Erstellen und Bereitstellen von Infrastruktur als Code für Cloud-Anbieter."
-content_hash: ef499730b484025f4f54eb04543045effd7331ec
+content_hash: b832fef855ac2b415820b7d1954f72fdb8796fa2
 related_topics:
   - title: English version
     url: /en/common/terraform.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># terraform
+# terraform
 
 Erstellen und Bereitstellen von Infrastruktur als Code für Cloud-Anbieter.
 Weitere Informationen: <https://www.terraform.io/>.
@@ -32,7 +29,7 @@ Weitere Informationen: <https://www.terraform.io/>.
 
 `terraform plan`
 
-- Infrastruktur aufbauen oder ändern
+- Infrastruktur aufbauen oder ändern:
 
 `terraform apply`
 

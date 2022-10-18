@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/git-check-attr (Türkçe)
-description: "`gitattributes` içeriği görüntüleme aracı"
-content_hash: 3dac5fee75c414e13cd776ac1c06110162a189b7
+description: "`gitattributes` içeriği görüntüleme aracı."
+content_hash: bf4b550410e0b0a36c0e7ffff4b692555b88ca7b
 related_topics:
   - title: English version
     url: /en/common/git-check-attr.html
@@ -10,7 +10,7 @@ related_topics:
 ---
 # git check-attr
 
-`gitattributes` içeriği görüntüleme aracı
+`gitattributes` içeriği görüntüleme aracı.
 Daha fazla bilgi: <https://git-scm.com/docs/git-check-attr>.
 
 - Bir dosyadaki tüm atıfları kontrol et:

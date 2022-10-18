@@ -2,16 +2,13 @@
 layout: page
 title: osx/security (polski)
 description: "Administruj pękami kluczy, kluczami, certyfikatami oraz framework'iem Security."
-content_hash: 42a25080462f6a88ecc68725469a6872c40b7839
+content_hash: b55b8b8bef248795db1f40da6eee5e7d2464fa6a
 related_topics:
   - title: English version
     url: /en/osx/security.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># security
+# security
 
 Administruj pękami kluczy, kluczami, certyfikatami oraz framework'iem Security.
 Więcej informacji: <https://ss64.com/osx/security.html>.
@@ -20,7 +17,7 @@ Więcej informacji: <https://ss64.com/osx/security.html>.
 
 `security list-keychains`
 
-- Usuń zadany pęk kluczy
+- Usuń zadany pęk kluczy:
 
 `security delete-keychain `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku.keychain</span>
 

@@ -1,8 +1,8 @@
 ---
 layout: page
 title: linux/ncal (日本語)
-description: "このコマンドは `cal` のエイリアスです."
-content_hash: 62d4f73dbc3e5b0e4c866c5e8e5b8cef32393fd6
+description: "このコマンドは `cal` のエイリアスです。"
+content_hash: cde397531f87f6538d2f33e1c49340c52f229952
 related_topics:
   - title: bosanski version
     url: /bs/linux/ncal.html
@@ -70,7 +70,7 @@ related_topics:
 ---
 # ncal
 
-このコマンドは `cal` のエイリアスです.
+このコマンドは `cal` のエイリアスです。
 詳しくはこちら: <https://manned.org/ncal>
 
 - オリジナルのコマンドのドキュメントを表示する:

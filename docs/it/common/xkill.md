@@ -2,7 +2,7 @@
 layout: page
 title: common/xkill (italiano)
 description: "Termina una finestra interattivamente attraverso la sessione grafica."
-content_hash: e370d9520c6c53d575446581cab0a2523e39cfc0
+content_hash: c99c51f542aeab29f5d69c29797770ac380278d8
 related_topics:
   - title: English version
     url: /en/common/xkill.html
@@ -32,7 +32,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># xkill
 
 Termina una finestra interattivamente attraverso la sessione grafica.
-Vedi anche `kill` e `killall`
+Vedi anche `kill` e `killall`.
 Maggiori informazioni: <https://www.x.org/releases/current/doc/man/man1/xkill.1.xhtml>.
 
 - Mostra un cursore per terminate una finestra cliccandoci sopra con il tasto sinistro del mouse (premendo qualsiasi altro tasto si cancella l'azione):

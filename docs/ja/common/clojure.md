@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/clojure (日本語)
-description: "このコマンドは `clj` のエイリアスです."
-content_hash: f9dc3ca2340937a00b517305546ae49ef84eaa97
+description: "このコマンドは `clj` のエイリアスです。"
+content_hash: 15485662c7bb9e96063e33c0e84a88ad21665a9c
 related_topics:
   - title: bosanski version
     url: /bs/common/clojure.html
@@ -67,7 +67,7 @@ related_topics:
 ---
 # clojure
 
-このコマンドは `clj` のエイリアスです.
+このコマンドは `clj` のエイリアスです。
 
 - オリジナルのコマンドのドキュメントを表示する:
 

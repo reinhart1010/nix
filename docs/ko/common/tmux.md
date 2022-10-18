@@ -2,7 +2,7 @@
 layout: page
 title: common/tmux (한국어)
 description: "터미널 멀티플렉서. tmux는 단일 단말기 창 또는 원격 터미널 세션 안에서 여러 세션을 사용할 수 있도록 도와줍니다."
-content_hash: ce8ad8416b3bc3025c2194a1bf52b23ba6220e58
+content_hash: 26e349070e06a76a6350d96af24becab8bfb23ec
 related_topics:
   - title: English version
     url: /en/common/tmux.html
@@ -17,10 +17,7 @@ related_topics:
     url: /pt_PT/common/tmux.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># tmux
+# tmux
 
 터미널 멀티플렉서. tmux는 단일 단말기 창 또는 원격 터미널 세션 안에서 여러 세션을 사용할 수 있도록 도와줍니다.
 `zellij` 와 `screen`도 참조하세요.
@@ -38,7 +35,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 `tmux ls`
 
-- 가장 최근에 사용했던 세션에 접근
+- 가장 최근에 사용했던 세션에 접근:
 
 `tmux attach`
 

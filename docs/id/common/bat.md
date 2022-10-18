@@ -2,7 +2,7 @@
 layout: page
 title: common/bat (Indonesia)
 description: "Mencetak dan menggabungkan berkas."
-content_hash: 185c7be642f09d7585f477a008917ab5ac107702
+content_hash: d9a7e420fd76b28952d675a93c45842b76f7058b
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html
@@ -32,13 +32,10 @@ related_topics:
     url: /zh/common/bat.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bat
+# bat
 
 Mencetak dan menggabungkan berkas.
-klon dari `cat` dengan sintaks berwarna dan integrasi Git.
+Klon dari `cat` dengan sintaks berwarna dan integrasi Git.
 Informasi lebih lanjut: <https://github.com/sharkdp/bat>.
 
 - Mencetak konten berkas ke keluaran standar:

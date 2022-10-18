@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/docker-compose (português (Brasil))
-description: "Executa e gerencia multi-containers de aplicações Docker"
-content_hash: 962f0d94bb1347962f5dd29396990408ed390172
+description: "Executa e gerencia multi-containers de aplicações Docker."
+content_hash: 3a44ba6dcb96636f5a626becf0245a1b3f0488ad
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -28,7 +28,7 @@ related_topics:
 ---
 # docker compose
 
-Executa e gerencia multi-containers de aplicações Docker
+Executa e gerencia multi-containers de aplicações Docker.
 Mais informações: <https://docs.docker.com/compose/reference/>.
 
 - Lista todos os containers em execução:
@@ -59,6 +59,6 @@ Mais informações: <https://docs.docker.com/compose/reference/>.
 
 `docker compose logs --follow`
 
-- Segue os logs de um container específico
+- Segue os logs de um container específico:
 
 `docker compose logs --follow `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_container</span>

@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/llvm-objdump (日本語)
-description: "このコマンドは `objdump` のエイリアスです."
-content_hash: 697dc5bd3eafc11bb732de3968bc18484198436c
+description: "このコマンドは `objdump` のエイリアスです。"
+content_hash: c3dcee92b4622dfaaa7bf813e3e982b3af6b565d
 related_topics:
   - title: bosanski version
     url: /bs/common/llvm-objdump.html
@@ -67,7 +67,7 @@ related_topics:
 ---
 # llvm-objdump
 
-このコマンドは `objdump` のエイリアスです.
+このコマンドは `objdump` のエイリアスです。
 
 - オリジナルのコマンドのドキュメントを表示する:
 

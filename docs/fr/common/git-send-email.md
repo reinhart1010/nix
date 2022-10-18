@@ -2,13 +2,16 @@
 layout: page
 title: common/git-send-email (français)
 description: "Envoyer une collection de correctifs par email."
-content_hash: 384477a49ea815879e6d5585206586f99367a165
+content_hash: af3c11afdba044e41f47e87e354aa35a93e63eee
 related_topics:
   - title: English version
     url: /en/common/git-send-email.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-send-email.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-send-email.html
     icon: bi bi-globe
 ---
 # git send-email
@@ -21,11 +24,11 @@ Plus d'informations : <https://git-scm.com/docs/git-send-email>.
 
 `git send-email -1`
 
-- envoyer un commit spécifique :
+- Envoyer un commit spécifique :
 
 `git send-email -1 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span>
 
-- envoyer de multiples commits de la branche courante (ici : 10) :
+- Envoyer de multiples commits de la branche courante (ici : 10) :
 
 `git send-email `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-10</span>
 
