@@ -2,7 +2,7 @@
 layout: page
 title: common/zip (English)
 description: "Package and compress (archive) files into zip file."
-content_hash: b58f065ead846030f8c281a1bad228bbfe17482a
+content_hash: 4580f669cdb39395639d28876755efc6eacc27e1
 related_topics:
   - title: français version
     url: /fr/common/zip.html
@@ -23,17 +23,17 @@ Package and compress (archive) files into zip file.
 See also: `unzip`.
 More information: <https://manned.org/zip>.
 
-- Add files/directories to a specific archive:
+- Add files/directories to a specific archive ([r]ecursively):
 
 `zip -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed.zip</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 ...</span>
 
-- Remove files/directories from a specific archive:
+- Remove files/directories from a specific archive ([d]elete):
 
 `zip -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed.zip</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 ...</span>
 
 - Archive files/directories e[x]cluding specified ones:
 
-`zip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed.zip</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 ...</span>` -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/excluded_files_or_directories</span>
+`zip -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed.zip</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 ...</span>` -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/excluded_files_or_directories</span>
 
 - Archive files/directories with a specific compression level (`0` - the lowest, `9` - the highest):
 

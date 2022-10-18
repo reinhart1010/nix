@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/brew-cask (English)
-description: "Package manager for macOS applications distributed as binaries."
-content_hash: 42f9bb5417bf2a056ddf0cf07fcc4de93779d4ee
+description: "CLI workflow for the administration of macOS applications distributed as binaries."
+content_hash: c459d3b4dbdba401d7fa9600b666d300513a3606
 related_topics:
   - title: Deutsch version
     url: /de/common/brew-cask.html
@@ -14,9 +14,10 @@ related_topics:
     url: /zh/common/brew-cask.html
     icon: bi bi-globe
 ---
-# brew cask
+# brew --cask
 
-Package manager for macOS applications distributed as binaries.
+CLI workflow for the administration of macOS applications distributed as binaries.
+This command was previously called `brew cask`, it has been deprecated in favor of the `brew --cask` flag.
 More information: <https://github.com/Homebrew/homebrew-cask>.
 
 - Search for formulas and casks:
@@ -25,7 +26,7 @@ More information: <https://github.com/Homebrew/homebrew-cask>.
 
 - Install a cask:
 
-`brew cask install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cask_name</span>
+`brew install --cask `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cask_name</span>
 
 - List all installed casks:
 
@@ -41,12 +42,12 @@ More information: <https://github.com/Homebrew/homebrew-cask>.
 
 - Uninstall a cask:
 
-`brew cask uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cask_name</span>
+`brew uninstall --cask `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cask_name</span>
 
 - Uninstall a cask and remove related settings and files:
 
-`brew cask zap `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cask_name</span>
+`brew zap --cask `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cask_name</span>
 
 - Display information about a given cask:
 
-`brew cask info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cask_name</span>
+`brew info --cask `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cask_name</span>
