@@ -2,16 +2,17 @@
 layout: page
 title: common/git-bulk (English)
 description: "Execute operations on multiple Git repositories."
-content_hash: 9f6e3836ebb42372d4924d99a8b5f961698c2fb3
+content_hash: 36e6337b5e886d1b0be51b3f6d911f908d5a847b
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git bulk
+# git bulk
 
 Execute operations on multiple Git repositories.
 Part of `git-extras`.
 More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-bulk>.
+
+- Register the current directory as a workspace:
+
+`git bulk --addcurrent `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">workspace_name</span>
 
 - Register a workspace for bulk operations:
 
@@ -32,3 +33,11 @@ More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-
 - Run a Git command on the repositories of the current workspace:
 
 `git bulk `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_arguments</span>
+
+- Remove a specific workspace:
+
+`git bulk --removeworkspace `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">workspace_name</span>
+
+- Remove all workspaces:
+
+`git bulk --purge`
