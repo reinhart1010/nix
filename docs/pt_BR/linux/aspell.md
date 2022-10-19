@@ -2,7 +2,7 @@
 layout: page
 title: linux/aspell (português (Brasil))
 description: "Verificador ortográfico interativo."
-content_hash: 011565e355eca871f9102b64abcdb8c2afd693eb
+content_hash: 72d7799160faacf9d562d869f1f1473c4e2d90e6
 related_topics:
   - title: Deutsch version
     url: /de/linux/aspell.html
@@ -34,10 +34,10 @@ Mais informações: <http://aspell.net/>.
 
 `aspell dicts`
 
-- Executar aspell utilizando uma língua diferente (informe o código ISO 639 da língua):
+- Executar `aspell` utilizando uma língua diferente (informe o código ISO 639 da língua):
 
 `aspell --lang=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cs</span>
 
 - Exibir os erros ortográficos no terminal e ignorando as palavras da lista pessoal:
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo</span>` | aspell --personal=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lista_pessoal.pws</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">list</span>
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo</span>` | aspell --personal=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lista_pessoal.pws</span>` list`

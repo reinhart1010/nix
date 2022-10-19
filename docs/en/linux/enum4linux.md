@@ -2,12 +2,11 @@
 layout: page
 title: linux/enum4linux (English)
 description: "Tool for enumerating Windows and Samba information from remote systems."
-content_hash: 63f51376b894ca410535f66ceca6222610d78017
+content_hash: 576499d242b98705cf7eebab317c82f749dffe7e
 ---
 # enum4linux
 
 Tool for enumerating Windows and Samba information from remote systems.
-It attempts to offer similar functionality to enum.exe formerly available from www.bindview.com.
 More information: <https://labs.portcullis.co.uk/tools/enum4linux/>.
 
 - Try to enumerate using all methods:

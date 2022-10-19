@@ -2,7 +2,7 @@
 layout: page
 title: linux/aspell (മലയാളം)
 description: "ഒരു ഇന്ററാക്ടിവ് സ്പെൽ ചെക്കർ."
-content_hash: cc5ed66f5eb06e08c4b480b90be2b0375ea299c7
+content_hash: c551c70bb243f8e48c5c95912309ab3ef8b96a1d
 related_topics:
   - title: Deutsch version
     url: /de/linux/aspell.html
@@ -40,4 +40,4 @@ related_topics:
 
 - പേഴ്സണൽ ലിസ്റ്റിൽ ഇല്ലാത്തതും സ്റ്റാൻഡേഡ് ഇൻപുറ്റിൽ ഉള്ളതുമായ തെറ്റുകൾ കാണുവാൻ:
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ഫയൽ</span>` | aspell --personal=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">പേഴ്സണൽ-വേർഡ്-ലിസ്റ്റ്.pws</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ലിസ്റ്റ്</span>
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ഫയൽ</span>` | aspell --personal=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">പേഴ്സണൽ-വേർഡ്-ലിസ്റ്റ്.pws</span>` list`

@@ -2,7 +2,7 @@
 layout: page
 title: linux/aspell (中文)
 description: "交互式拼写检查工具。"
-content_hash: 0ed0243fded6d3d354a7b04150965aeaa84834ca
+content_hash: 66daa95afb2bb844ac85f66d0fbe939aa44017a4
 related_topics:
   - title: Deutsch version
     url: /de/linux/aspell.html
@@ -34,10 +34,10 @@ related_topics:
 
 `aspell dicts`
 
-- 指定不同的语言（取 ISO 639 语言代码的 2 个字母）来运行 aspell：
+- 指定不同的语言（取 ISO 639 语言代码的 2 个字母）来运行 `aspell`：
 
 `aspell --lang=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cs</span>
 
 - 列出来自标准输入的拼写错误单词，并且忽略个人单词列表中的单词：
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件</span>` | aspell --personal=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">个人单词列表.pws</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">列表</span>
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件</span>` | aspell --personal=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">个人单词列表.pws</span>` list`

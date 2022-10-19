@@ -2,7 +2,7 @@
 layout: page
 title: linux/aspell (English)
 description: "Interactive spell checker."
-content_hash: a8366b3b97bb40e8d77f34c9127b91aed5de2200
+content_hash: 1c540f997f25182852fcbbffc46984f840c57d10
 related_topics:
   - title: Deutsch version
     url: /de/linux/aspell.html
@@ -34,10 +34,10 @@ More information: <http://aspell.net/>.
 
 `aspell dicts`
 
-- Run aspell with a different language (takes two-letter ISO 639 language code):
+- Run `aspell` with a different language (takes two-letter ISO 639 language code):
 
 `aspell --lang=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cs</span>
 
 - List misspelled words from standard input and ignore words from personal word list:
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>` | aspell --personal=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">personal-word-list.pws</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">list</span>
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>` | aspell --personal=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">personal-word-list.pws</span>` list`
