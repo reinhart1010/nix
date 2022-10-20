@@ -2,12 +2,13 @@
 layout: page
 title: common/yt-dlp (English)
 description: "A youtube-dl fork with additional features and fixes."
-content_hash: 9f3d2a633ac28031ef2ccfd0590f8cce44362cf9
+content_hash: bd776c74019f318717b66bd0133b2a1b0ca93e8f
+related_topics:
+  - title: português (Portugal) version
+    url: /pt_PT/common/yt-dlp.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># yt-dlp
+# yt-dlp
 
 A youtube-dl fork with additional features and fixes.
 Download videos from YouTube and other websites.
@@ -17,15 +18,15 @@ More information: <https://github.com/yt-dlp/yt-dlp>.
 
 `yt-dlp "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span>`"`
 
-- Download a video with a defined format. In this case merging the best video format with the best audio format (Default):
+- Download a video with a defined format, in this case the best mp4 video available (default is "bv\*+ba/b"):
 
-`yt-dlp --format "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bv*+ba/b</span>`" "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span>`"`
+`yt-dlp --format "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]</span>`" "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span>`"`
 
 - Extract audio from videos (required ffmpeg or ffprobe):
 
 `yt-dlp --extract-audio "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span>`"`
 
-- Specify audio format of extracted audio (best(default), aac, flac, mp3, m4a, opus, vorbis, wav, alac):
+- Specify audio format of extracted audio (the default is "best"):
 
 `yt-dlp --extract-audio --audio-format `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mp3</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span>`"`
 

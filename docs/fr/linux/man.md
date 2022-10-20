@@ -2,19 +2,19 @@
 layout: page
 title: linux/man (français)
 description: "Interface de consultation des pages du manuel de référence."
-content_hash: 6dc8b5b20883ec42976748c6ee20d2082da16dba
+content_hash: 99e1bfed3b661290004d0d48345676c1fba202f9
 related_topics:
   - title: English version
     url: /en/linux/man.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/linux/man.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># man
+# man
 
 Interface de consultation des pages du manuel de référence.
-Plus d'informations : <https://www.man7.org/linux/man-pages/man1/man.1.html>.
+Plus d'informations : <https://manned.org/man>.
 
 - Affiche la page de manuel d'une commande :
 

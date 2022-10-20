@@ -2,12 +2,19 @@
 layout: page
 title: linux/man (English)
 description: "Format and display manual pages."
-content_hash: 6de1e6dfa53bed1a660798400c366388d7d5e70c
+content_hash: 90e940c890bd4848ca914a1b902ef74d37e9ba74
+related_topics:
+  - title: español version
+    url: /es/linux/man.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/man.html
+    icon: bi bi-globe
 ---
 # man
 
 Format and display manual pages.
-More information: <https://www.man7.org/linux/man-pages/man1/man.1.html>.
+More information: <https://manned.org/man>.
 
 - Display the man page for a command:
 
