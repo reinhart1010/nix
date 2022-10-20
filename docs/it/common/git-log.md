@@ -2,7 +2,7 @@
 layout: page
 title: common/git-log (italiano)
 description: "Mostra la cronologia dei commit."
-content_hash: d65ae2a3da3eb70cb464249aad9b8f9db1ce7a4c
+content_hash: d7a22e9a4c09ccaf3d62731ac5a035d33fe631eb
 related_topics:
   - title: Deutsch version
     url: /de/common/git-log.html
@@ -15,6 +15,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/git-log.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-log.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/git-log.html
@@ -29,9 +32,9 @@ Maggiori informazioni: <https://git-scm.com/docs/git-log>.
 
 `git log`
 
-- Mostra la cronologia di un dato file o cartella, mostrando anche le modifiche:
+- Mostra la cronologia di un dato file o directory, mostrando anche le modifiche:
 
-`git log -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file_o_directory</span>
+`git log -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory</span>
 
 - Offri una panoramica dei file che sono cambiati ad ogni commit:
 

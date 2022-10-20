@@ -2,7 +2,7 @@
 layout: page
 title: linux/iptables (italiano)
 description: "Programma che permette di configurare tabelle, catene e regole fornite dal firewall del kernel Linux."
-content_hash: 48282f0a70e24212b2a3d0b2a82961fa22201017
+content_hash: fb804e4d7cf5dc0d5981ff35ad837fa83c91a4de
 related_topics:
   - title: English version
     url: /en/linux/iptables.html
@@ -47,8 +47,8 @@ Maggiori informazioni: <https://www.netfilter.org/projects/iptables/>.
 
 - Salva la configurazione di ip tables di una specifica tabella in un file:
 
-`sudo iptables-save -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome tabella</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file_iptables</span>
+`sudo iptables-save -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome tabella</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_iptables</span>
 
 - Ripristina la configurazione di iptables da un file:
 
-`sudo iptables-restore < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file_iptables</span>
+`sudo iptables-restore < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_iptables</span>

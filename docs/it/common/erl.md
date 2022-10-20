@@ -2,7 +2,7 @@
 layout: page
 title: common/erl (italiano)
 description: "Esegui e gestisci programmi nel linguaggio di programmazione Erlang."
-content_hash: 7952959dd68b70a2b1874ced5602cf785034fd17
+content_hash: c6b9e9630049420a7b6a46daddcadeeef0dd7f79
 related_topics:
   - title: English version
     url: /en/common/erl.html
@@ -23,4 +23,4 @@ Maggiori informazioni: <https://www.erlang.org>.
 
 - Fai caricare alla shell Erlang dei moduli da una directory:
 
-`erl -pa `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cartella_con_file_beam</span>
+`erl -pa `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory_con_file_beam</span>

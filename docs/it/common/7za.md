@@ -2,13 +2,16 @@
 layout: page
 title: common/7za (italiano)
 description: "Archiviatore di file con alto fattore di compressione."
-content_hash: fc27529b573d9f46cb7bb80ec0ef7be45e2f56ca
+content_hash: 15cafffc8377b29b195dd9137ac01c986890a152
 related_topics:
   - title: Deutsch version
     url: /de/common/7za.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/7za.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/7za.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/7za.html
@@ -49,15 +52,15 @@ Maggiori informazioni: <https://www.7-zip.org>.
 
 - Archivia un file o una directory:
 
-`7za a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivio.7z</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/file_o_directory</span>
+`7za a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivio.7z</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory</span>
 
-- Estrai un archivio mantenendo la gerarchia delle cartelle:
+- Estrai un archivio mantenendo la gerarchia delle directory:
 
 `7za x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivio.7z</span>
 
 - Archivia utilizzando uno specifico tipo di archivio:
 
-`7za a -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zip|gzip|bzip2|tar</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivio.7z</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/file_o_directory</span>
+`7za a -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zip|gzip|bzip2|tar</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivio.7z</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory</span>
 
 - Elenca i tipi di archivio supportati:
 

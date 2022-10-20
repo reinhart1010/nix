@@ -2,7 +2,7 @@
 layout: page
 title: common/git-send-email (italiano)
 description: "Invia una raccolta di patch via email."
-content_hash: aea6ca68eecdf8ee36e5b4a99de31d3e94b538e0
+content_hash: c269703ab27e3d14cfc595cf994df4c567ca7f19
 related_topics:
   - title: English version
     url: /en/common/git-send-email.html
@@ -10,11 +10,14 @@ related_topics:
   - title: français version
     url: /fr/common/git-send-email.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-send-email.html
+    icon: bi bi-globe
 ---
 # git send-email
 
 Invia una raccolta di patch via email.
-Le patch possono essere specificate come file, cartelle, o liste di revisione.
+Le patch possono essere specificate come file, directory, o liste di revisione.
 Maggiori informazioni: <https://git-scm.com/docs/git-send-email>.
 
 - Invia l'ultimo commit nel ramo corrente:

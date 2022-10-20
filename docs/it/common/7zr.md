@@ -2,13 +2,16 @@
 layout: page
 title: common/7zr (italiano)
 description: "Archiviatore di file con alto fattore di compressione."
-content_hash: cbc9f9a91bb93999d9aae4d3079198f9b0ad30bb
+content_hash: 075a6f2649950e505e8359f477b1f2d0b9a9973a
 related_topics:
   - title: Deutsch version
     url: /de/common/7zr.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/7zr.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/7zr.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/7zr.html
@@ -49,7 +52,7 @@ Maggiori informazioni: <https://www.7-zip.org>.
 
 - Archivia un file o una directory:
 
-`7zr a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivio.7z</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/file_o_directory</span>
+`7zr a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivio.7z</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory</span>
 
 - Estrai un archivio mantenendo la gerarchia delle directory:
 

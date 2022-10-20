@@ -2,7 +2,7 @@
 layout: page
 title: linux/chcon (italiano)
 description: "Cambia contesto di sicurezza SELinux di file o directory."
-content_hash: 3f87e497f219f85fbda702da28b1d28e73093550
+content_hash: 1f4ce628aa1e48b6983f1dfd54437fb22f4ae1b9
 related_topics:
   - title: English version
     url: /en/linux/chcon.html
@@ -18,7 +18,7 @@ Maggiori informazioni: <https://www.gnu.org/software/coreutils/chcon>.
 
 - Mostra il contesto di sicurezza di un file:
 
-`ls -lZ `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>
+`ls -lZ `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
 
 - Cambia il contesto di sicurezza di un file usandone un'altro come riferimento:
 

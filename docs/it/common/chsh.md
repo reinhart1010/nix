@@ -2,7 +2,7 @@
 layout: page
 title: common/chsh (italiano)
 description: "Cambia shell di login dell'utente."
-content_hash: c0c8181d5daa3adc9a871bf9cc5a0dcb860f7364
+content_hash: b9777ae87a6b2d87ab4d722a145e2952a5808144
 related_topics:
   - title: bosanski version
     url: /bs/common/chsh.html
@@ -15,6 +15,9 @@ related_topics:
     icon: bi bi-globe
   - title: English version
     url: /en/common/chsh.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/chsh.html
     icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/common/chsh.html
@@ -48,4 +51,4 @@ Maggiori informazioni: <https://manned.org/chsh>.
 
 - Cambia shell:
 
-`chsh -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/eseguibile_della_shell</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_utente</span>
+`chsh -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/dell/eseguibile_della_shell</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_utente</span>

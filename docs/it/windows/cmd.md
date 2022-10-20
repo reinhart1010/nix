@@ -2,10 +2,16 @@
 layout: page
 title: windows/cmd (italiano)
 description: "L'interprete dei comandi di Windows."
-content_hash: d49b1b36f356c999bed2ce4b872b42a7a1e08338
+content_hash: e555c120a7ddf222f78d3bbe82ba48cd3b6a5978
 related_topics:
+  - title: Deutsch version
+    url: /de/windows/cmd.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/cmd.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/cmd.html
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/windows/cmd.html
@@ -48,7 +54,7 @@ Maggiori informazioni: <https://learn.microsoft.com/windows-server/administratio
 
 `cmd /e:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span>
 
-- Abilita o disabilita l'autocompletamento dei nomi di file e cartelle:
+- Abilita o disabilita l'autocompletamento dei nomi di file e directory:
 
 `cmd /f:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span>
 

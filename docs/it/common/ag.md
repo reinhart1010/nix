@@ -2,10 +2,13 @@
 layout: page
 title: common/ag (italiano)
 description: "The Silver Searcher. Come `ack`, ma più veloce."
-content_hash: eb8a9486a7ebb27c413d1386cbb8b9e410f0f03c
+content_hash: 3b69a9db7f6529659f21ac2d3ce350562f281d3f
 related_topics:
   - title: English version
     url: /en/common/ag.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/ag.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/ag.html
@@ -34,7 +37,7 @@ Maggiori informazioni: <https://github.com/ggreer/the_silver_searcher>.
 
 - Trova file contenenti "foo" in una specifica directory:
 
-`ag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/alla/directory</span>
+`ag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span>
 
 - Trova file contenenti "foo" elencandone solamente i nomi:
 

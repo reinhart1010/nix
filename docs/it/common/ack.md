@@ -2,10 +2,13 @@
 layout: page
 title: common/ack (italiano)
 description: "Un tool di ricerca simile a `grep`, ottimizzato per programmatori."
-content_hash: a99ff01e6bebae2c09870bff871befb3de813824
+content_hash: 5f837dad5963f0c191924a7c63155be57911470d
 related_topics:
   - title: English version
     url: /en/common/ack.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/ack.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/ack.html
@@ -35,7 +38,7 @@ Un tool di ricerca simile a `grep`, ottimizzato per programmatori.
 Vedi anche: `rg`, che è molto più veloce.
 Maggiori informazioni: <https://beyondgrep.com/documentation>.
 
-- Cerca ricorsivamente file contenenti una stringa o un'espressione regolare nella cartella corrente:
+- Cerca ricorsivamente file contenenti una stringa o un'espressione regolare nella directory corrente:
 
 `ack "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern_di_ricerca</span>`"`
 

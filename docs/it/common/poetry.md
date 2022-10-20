@@ -2,7 +2,7 @@
 layout: page
 title: common/poetry (italiano)
 description: "Gestore di pacchetti e dipendenze per Python."
-content_hash: d7e4bb83ec296998821f7bf90030f4cdd1c93ae2
+content_hash: 2d40085fc8bb0575430acda6a8f3d4f26c86d700
 related_topics:
   - title: English version
     url: /en/common/poetry.html
@@ -22,7 +22,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 Gestore di pacchetti e dipendenze per Python.
 Maggiori informazioni: <https://python-poetry.org/docs/cli/>.
 
-- Crea un nuovo progetto Poetry nella cartella specificata:
+- Crea un nuovo progetto Poetry nella directory specificata:
 
 `poetry new `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_progetto</span>
 
@@ -30,7 +30,7 @@ Maggiori informazioni: <https://python-poetry.org/docs/cli/>.
 
 `poetry add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dipendenza</span>
 
-- Inizializza interattivamente la nuova cartella come un nuovo progetto Poetry:
+- Inizializza interattivamente la nuova directory come un nuovo progetto Poetry:
 
 `poetry init`
 

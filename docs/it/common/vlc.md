@@ -2,7 +2,7 @@
 layout: page
 title: common/vlc (italiano)
 description: "Lettore multimediale multi-piattaforma."
-content_hash: 9a0b6fa046c58d6a86d973dfe079380c1cd2a527
+content_hash: 5da85bf8a86c7a5986661adf06ca19c88789e6b5
 related_topics:
   - title: English version
     url: /en/common/vlc.html
@@ -21,19 +21,19 @@ Maggiori informazioni: <https://wiki.videolan.org/Documentation:Command_line/>.
 
 - Riproduce un file:
 
-`vlc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>
+`vlc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
 
 - Riproduce a schermo intero:
 
-`vlc --fullscreen `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>
+`vlc --fullscreen `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
 
 - Riproduce con audio disattivato:
 
-`vlc --no-audio `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>
+`vlc --no-audio `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
 
 - Riproduce in ciclo continuo:
 
-`vlc --loop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>
+`vlc --loop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
 
 - Riproduce il video in un certo URL:
 

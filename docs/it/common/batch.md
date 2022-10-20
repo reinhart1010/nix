@@ -2,7 +2,7 @@
 layout: page
 title: common/batch (italiano)
 description: "Esegui comandi nel futuro quando il carico di lavoro del sistema lo permette."
-content_hash: 2c05652c0b5c1ed4be042be3bb22b3a1a06308cd
+content_hash: f872f58a6176ff49d9df5cefaf1e2f6b51383616
 related_topics:
   - title: English version
     url: /en/common/batch.html
@@ -33,4 +33,4 @@ Maggiori informazioni: <https://manned.org/batch>.
 
 - Esegui comandi contenuti in un dato file:
 
-`batch -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>
+`batch -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>

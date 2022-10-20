@@ -2,10 +2,13 @@
 layout: page
 title: common/airpaste (italiano)
 description: "Condividi messaggi e file nella stessa rete."
-content_hash: a48980230295db1bb85953b60ab2c8e1d86bab09
+content_hash: 619815d379dceed6ea1f3a9d597233fdbd77e193
 related_topics:
   - title: English version
     url: /en/common/airpaste.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/airpaste.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/airpaste.html
@@ -32,11 +35,11 @@ Maggiori informazioni: <https://github.com/mafintosh/airpaste>.
 
 - Invia un file:
 
-`airpaste < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>
+`airpaste < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
 
 - Ricevi un file:
 
-`airpaste > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>
+`airpaste > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
 
 - Crea o entra in un canale:
 

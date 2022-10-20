@@ -2,7 +2,7 @@
 layout: page
 title: linux/adduser (italiano)
 description: "Servizio per aggiungere utenti."
-content_hash: 0beeb01a3839a8aee41cdb1fe2adc6fc3ddeff59
+content_hash: d8bb9f5e1317a7443e5bb6602f00ed9fc5f47d50
 related_topics:
   - title: Deutsch version
     url: /de/linux/adduser.html
@@ -17,26 +17,35 @@ related_topics:
     url: /zh/linux/adduser.html
     icon: bi bi-globe
 ---
-# adduser
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/linux/adduser.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># adduser
 
 Servizio per aggiungere utenti.
 Maggiori informazioni: <https://manpages.debian.org/latest/adduser/adduser.html>.
 
-- Crea un nuovo utente con una home directory predefinita e richiede all'utente di impostare una password:
+- Crea un nuovo utente con una directory home predefinita e richiede all'utente di impostare una password:
 
 `adduser `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_utente</span>
 
-- Crea un utente senza una home directory:
+- Crea un utente senza una directory home:
 
 `adduser --no-create-home `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_utente</span>
 
-- Crea un utente con una home directory nel percorso specificato:
+- Crea un utente con una directory home nel percorso specificato:
 
-`adduser --home `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/all/home</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_utente</span>
+`adduser --home `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/home</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_utente</span>
 
 - Crea un nuovo utente con l'interprete di comandi(shell) specificato come shell di accesso:
 
-`adduser --shell `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/alla/shell</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_utente</span>
+`adduser --shell `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/shell</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_utente</span>
 
 - Crea un nuovo utente appartenente al gruppo specificato:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/git-repack (italiano)
 description: "Comprimi gli oggetti decompressi in un repository Git."
-content_hash: b88544aebcc6d61869d8c9f1d71fbce95830be80
+content_hash: 9e47dbdf25bbe4ac3cf3496a13b766c4174c0227
 related_topics:
   - title: English version
     url: /en/common/git-repack.html
@@ -10,13 +10,16 @@ related_topics:
   - title: français version
     url: /fr/common/git-repack.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-repack.html
+    icon: bi bi-globe
 ---
 # git repack
 
 Comprimi gli oggetti decompressi in un repository Git.
 Maggiori informazioni: <https://git-scm.com/docs/git-repack>.
 
-- Comprimi gli oggetti decompressi nella cartella corrente:
+- Comprimi gli oggetti decompressi nella directory corrente:
 
 `git repack`
 

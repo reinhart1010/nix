@@ -2,7 +2,7 @@
 layout: page
 title: common/git-reset (italiano)
 description: "Annulla commit o rimuovi modifiche dall'area di stage, reimpostando l'HEAD corrente su uno specifico stato."
-content_hash: ae15ec0c0858e5c6a9bf4c380e2853541dee81f2
+content_hash: be0b94fd6fed67bf8be56c73296e822970bc6114
 related_topics:
   - title: English version
     url: /en/common/git-reset.html
@@ -12,6 +12,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/git-reset.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-reset.html
     icon: bi bi-globe
 ---
 # git reset
@@ -26,11 +29,11 @@ Maggiori informazioni: <https://git-scm.com/docs/git-reset>.
 
 - Rimuovi dall'area di stage uno o più file:
 
-`git reset `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file2</span>
+`git reset `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file2</span>
 
 - Rimuovi dall'area di stage solo alcune porzioni di un file in modo interattivo:
 
-`git reset --patch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>
+`git reset --patch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
 
 - Annulla l'ultimo commit, preservando tutte le modifiche nel filesystem:
 

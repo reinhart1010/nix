@@ -2,7 +2,7 @@
 layout: page
 title: common/cppclean (italiano)
 description: "Trova codice inutilizzato in progetti C++."
-content_hash: 471431e97baf7589f9e0fad689cd04652f3cee0f
+content_hash: 2227cb0f486ff05f72ff84ea8bdc9cfa54b7a1dd
 related_topics:
   - title: English version
     url: /en/common/cppclean.html
@@ -18,11 +18,11 @@ Maggiori informazioni: <https://github.com/myint/cppclean>.
 
 - Esegui nella directory di un progetto:
 
-`cppclean `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/directory_progetto</span>
+`cppclean `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory_progetto</span>
 
 - Esegui su di un progetto dove gli header sono nella directory "inc1" ed "inc2":
 
-`cppclean `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/directory_progetto</span>` --include-path=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inc1</span>` --include-path=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inc2</span>
+`cppclean `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory_progetto</span>` --include-path=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inc1</span>` --include-path=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">inc2</span>
 
 - Esegui su di uno specifico file `main.cpp`:
 

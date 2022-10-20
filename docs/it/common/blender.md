@@ -2,7 +2,7 @@
 layout: page
 title: common/blender (italiano)
 description: "Interfaccia da linea di comando per il programma di grafica Blender 3D."
-content_hash: 82a23eb33e5fb4feb7cf952f566b07581029daaf
+content_hash: 173c11bbad32a858e01f567f9a0f7fa10c361d28
 related_topics:
   - title: English version
     url: /en/common/blender.html
@@ -25,11 +25,11 @@ Maggiori informazioni: <https://manned.org/blender>.
 
 `blender -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_file</span>`.blend -o //`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">render/frame_###.png</span>` -a`
 
-- Renderizza il decimo frame di un'animazione come singola immagine, salvandolo in una cartella esistente (percorso assoluto):
+- Renderizza il decimo frame di un'animazione come singola immagine, salvandolo in una directory esistente (percorso assoluto):
 
-`blender -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_file</span>`.blend -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/percorso/a/directory_output</span>` -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>
+`blender -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_file</span>`.blend -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/percorso/della/directory_output</span>` -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>
 
-- Renderizza il penultimo frame di un'animazione come immagine JPEG, salvandolo in una cartella esistente (path relativa al file):
+- Renderizza il penultimo frame di un'animazione come immagine JPEG, salvandolo in una directory esistente (path relativa al file):
 
 `blender -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_file</span>`.blend -o //`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory_output</span>` -F `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">JPEG</span>` -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-2</span>
 

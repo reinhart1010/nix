@@ -2,7 +2,7 @@
 layout: page
 title: common/git-diff (italiano)
 description: "Mostra le modifiche ai file tracciati."
-content_hash: e3c54a6bc76890e74b972e192cb28649b21bc712
+content_hash: b6a4fe1cea0d2876a9be4ef1d974bd6063078c50
 related_topics:
   - title: English version
     url: /en/common/git-diff.html
@@ -12,6 +12,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/git-diff.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-diff.html
     icon: bi bi-globe
 ---
 # git diff
@@ -45,8 +48,8 @@ Maggiori informazioni: <https://git-scm.com/docs/git-diff>.
 
 - Confronta le versioni di un dato file tra due rami o commit:
 
-`git diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ramo_1</span>`..`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ramo_2</span>` [--] `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>
+`git diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ramo_1</span>`..`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ramo_2</span>` [--] `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
 
 - Confronta le versioni di più file tra il ramo corrente e un altro ramo:
 
-`git diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ramo</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>
+`git diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ramo</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>

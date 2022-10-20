@@ -2,7 +2,7 @@
 layout: page
 title: common/pyenv (italiano)
 description: "Passa da una distribuzione all'altra di Python in modo semplice."
-content_hash: 8b164c80ae6bee7a3a780aff3bb400a9806a325f
+content_hash: f61518b6929c34aeef252593660ff9e08de365d7
 related_topics:
   - title: English version
     url: /en/common/pyenv.html
@@ -20,7 +20,7 @@ Maggiori informazioni: <https://github.com/pyenv/pyenv>.
 
 `pyenv commands`
 
-- Elenca tutte le distribuzioni di Python presenti nella cartella `${PYENV_ROOT}/versions`:
+- Elenca tutte le distribuzioni di Python presenti nella directory `${PYENV_ROOT}/versions`:
 
 `pyenv versions`
 
@@ -28,11 +28,11 @@ Maggiori informazioni: <https://github.com/pyenv/pyenv>.
 
 `pyenv install --list`
 
-- Installa una distribuzione di Python nella cartella `${PYENV_ROOT}/versions`:
+- Installa una distribuzione di Python nella directory `${PYENV_ROOT}/versions`:
 
 `pyenv install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2.7.10</span>
 
-- Disinstalla una distribuzione di Python dalla cartella `${PYENV_ROOT}/versions`:
+- Disinstalla una distribuzione di Python dalla directory `${PYENV_ROOT}/versions`:
 
 `pyenv uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2.7.10</span>
 
@@ -40,6 +40,6 @@ Maggiori informazioni: <https://github.com/pyenv/pyenv>.
 
 `pyenv global `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2.7.10</span>
 
-- Imposta la distribuzione di Python da utilizzare nella cartella corrente e in tutte le relative sottocartelle:
+- Imposta la distribuzione di Python da utilizzare nella directory corrente e in tutte le relative sottodirectory:
 
 `pyenv local `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2.7.10</span>

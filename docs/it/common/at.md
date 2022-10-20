@@ -2,7 +2,7 @@
 layout: page
 title: common/at (italiano)
 description: "Programma l'esecuzione di comandi nel futuro."
-content_hash: bff550bb222f978572eabb0c9adfc5499d8f500c
+content_hash: c45ffd8023765e4ab6d8de81107740e4e23cc88e
 related_topics:
   - title: English version
     url: /en/common/at.html
@@ -42,4 +42,4 @@ Maggiori informazioni: <https://manned.org/at>.
 
 - Esegui comandi contenuti in un dato file il prossimo martedì alle 9:30 di sera:
 
-`at -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>` 9:30 PM Tue`
+`at -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>` 9:30 PM Tue`

@@ -2,7 +2,7 @@
 layout: page
 title: common/cloc (italiano)
 description: "Conta e calcola le differenze di linee di codice sorgente e commenti."
-content_hash: af8e1552250bb6aa85f52eba2719514262b40b43
+content_hash: 96ff8582349677e0ad3c8777223437ed0425cd4b
 related_topics:
   - title: English version
     url: /en/common/cloc.html
@@ -27,12 +27,12 @@ Maggiori informazioni: <https://github.com/AlDanial/cloc>.
 
 - Conta tutte le linee di codice in una directory:
 
-`cloc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/alla/directory</span>
+`cloc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span>
 
 - Conta tutte le linee di codice in una directory, mostrando una barra di avanzamento durante l'operazione:
 
-`cloc --progress=1 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/alla/directory</span>
+`cloc --progress=1 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span>
 
 - Compara i file sorgente in 2 diverse directory e conta le differenze tra di essi:
 
-`cloc --diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/directory1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/directory2</span>
+`cloc --diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory2</span>

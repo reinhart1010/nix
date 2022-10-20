@@ -2,7 +2,7 @@
 layout: page
 title: common/chmod (italiano)
 description: "Cambia i permessi di accesso di file o directory."
-content_hash: 969d03c548a465b4be80e4bca1dd2ce34668328d
+content_hash: 9e4aaf98c5118670b36ad5e6f3dfea432e8e23f7
 related_topics:
   - title: Deutsch version
     url: /de/common/chmod.html
@@ -15,6 +15,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/chmod.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/chmod.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/chmod.html
@@ -30,6 +33,9 @@ related_topics:
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/chmod.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/chmod.html
     icon: bi bi-globe
 ---
 
@@ -48,24 +54,24 @@ Maggiori informazioni: <https://www.gnu.org/software/coreutils/chmod>.
 
 - Dai il permesso di eseguire (x) un file al suo proprietario (u):
 
-`chmod u+x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>
+`chmod u+x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
 
 - Dai permessi di lettura (r) e scrittura (w) per un file/directory al suo proprietario:
 
-`chmod u+rw `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/file_o_directory</span>
+`chmod u+rw `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory</span>
 
 - Rimuovi i permessi di esecuzione al [g]ruppo proprietario del file:
 
-`chmod g-x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>
+`chmod g-x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
 
 - Dai a tutti gli utenti (a) diritti di lettura ed esecuzione:
 
-`chmod a+rx `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>
+`chmod a+rx `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
 
 - Dai ad altri utenti (non nel gruppo proprietario) gli stessi diritti del gruppo:
 
-`chmod o=g `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>
+`chmod o=g `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
 
 - Cambia permessi ricorsivamente dando al [g]ruppo e agli altri utenti (o) diritto di scrittura:
 
-`chmod -R g+w,o+w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/alla/directory</span>
+`chmod -R g+w,o+w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span>

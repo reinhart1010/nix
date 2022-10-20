@@ -2,10 +2,13 @@
 layout: page
 title: common/atoum (italiano)
 description: "Un semplice, moderno ed intuitivo framework PHP per unit testing."
-content_hash: 6e4c034d72e7c686bb8ac433ed306f620c0ab09c
+content_hash: d0c74a9d50c5b5abb2e4d2fa51d55abe3039d7eb
 related_topics:
   - title: English version
     url: /en/common/atoum.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/atoum.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/atoum.html
@@ -26,11 +29,11 @@ Maggiori informazioni: <http://atoum.org>.
 
 - Esegui test utilizzando uno specifico file di configurazione:
 
-`atoum -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>
+`atoum -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
 
 - Esegui uno specifico file di test:
 
-`atoum -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>
+`atoum -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
 
 - Esegui una specifica directory di test:
 
@@ -46,4 +49,4 @@ Maggiori informazioni: <http://atoum.org>.
 
 - Carica un file di bootstrap personalizzato prima di eseguire i test:
 
-`atoum --bootstrap-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>
+`atoum --bootstrap-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>

@@ -2,7 +2,7 @@
 layout: page
 title: common/darkhttpd (italiano)
 description: "Web server Darkhttpd."
-content_hash: ead99ecf0d54726555fc6172f5f70bb68b2b93b6
+content_hash: 18c488b3bd41911b7ad1f942e46a720235113de5
 related_topics:
   - title: English version
     url: /en/common/darkhttpd.html
@@ -18,12 +18,12 @@ Maggiori informazioni: <https://unix4lyfe.org/darkhttpd>.
 
 - Avvia il server utilizzando la directory specificata come document root:
 
-`darkhttpd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/docroot</span>
+`darkhttpd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/docroot</span>
 
 - Avvia il server su una specifica porta (8080 di default per utenti non root):
 
-`darkhttpd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/docroot</span>` --port `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta</span>
+`darkhttpd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/docroot</span>` --port `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta</span>
 
 - Ascolta solo su uno specifico indirizzo IP (di default, il server ascolta su tutte le interfacce):
 
-`darkhttpd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/docroot</span>` --addr `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">indirizzo_ip</span>
+`darkhttpd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/docroot</span>` --addr `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">indirizzo_ip</span>

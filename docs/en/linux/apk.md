@@ -2,7 +2,7 @@
 layout: page
 title: linux/apk (English)
 description: "Alpine Linux package management tool."
-content_hash: 8230e90302718edb0b1d3622ee1b0289d5ce6037
+content_hash: b96acb524cf3edda570c66799bb271eae13b3946
 related_topics:
   - title: Deutsch version
     url: /de/linux/apk.html
@@ -34,14 +34,14 @@ More information: <https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_manage
 
 `apk del `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
-- Repair package or upgrade it without modifying main dependencies:
+- Repair a package or upgrade it without modifying main dependencies:
 
 `apk fix `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
-- Search package via keyword:
+- Search for a package via keywords:
 
-`apk search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword</span>
+`apk search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keywords</span>
 
-- Get info about a specific package:
+- Display information about a specific package:
 
 `apk info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>

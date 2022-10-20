@@ -2,7 +2,7 @@
 layout: page
 title: common/git-checkout (italiano)
 description: "Cambia rami o ripristina i file dell'albero di lavoro."
-content_hash: 45bc5f79f0bead5034a8456b1143fa23a0e2da47
+content_hash: 54062c91d5ce09cf62ffda1130289e061551b51d
 related_topics:
   - title: English version
     url: /en/common/git-checkout.html
@@ -18,6 +18,12 @@ related_topics:
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-checkout.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-checkout.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git-checkout.html
     icon: bi bi-globe
 ---
 
@@ -50,7 +56,7 @@ Maggiori informazioni: <https://git-scm.com/docs/git-checkout>.
 
 `git checkout --track `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_repository_remoto</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ramo</span>
 
-- Annulla tutte le modifiche nella cartella corrente che non sono state aggiunte all'area di stage (vedi `git reset` per più comandi simili):
+- Annulla tutte le modifiche nella directory corrente che non sono state aggiunte all'area di stage (vedi `git reset` per più comandi simili):
 
 `git checkout .`
 

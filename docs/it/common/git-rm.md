@@ -2,7 +2,7 @@
 layout: page
 title: common/git-rm (italiano)
 description: "Cancella file dall'indice del repository e dal filesystem locale."
-content_hash: 0878b11f58f1a49748ed53d2f14d180fe6f917b1
+content_hash: 5bb8c065bf66cddc91183e13cf1f910eee5d7df4
 related_topics:
   - title: Deutsch version
     url: /de/common/git-rm.html
@@ -16,6 +16,12 @@ related_topics:
   - title: français version
     url: /fr/common/git-rm.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-rm.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-rm.html
+    icon: bi bi-globe
 ---
 # git rm
 
@@ -26,9 +32,9 @@ Maggiori informazioni: <https://git-scm.com/docs/git-rm>.
 
 `git rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
 
-- Cancella una cartella:
+- Cancella una directory:
 
-`git rm -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cartella</span>
+`git rm -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory</span>
 
 - Cancella un file dall'indice del repository ma non dal filesystem locale:
 

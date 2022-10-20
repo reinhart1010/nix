@@ -2,8 +2,11 @@
 layout: page
 title: common/deno (English)
 description: "A secure runtime for JavaScript and TypeScript."
-content_hash: 4e4d82c1b912da1ce46c393dbd6fca1308ea76fb
+content_hash: 184cfd09f367b8641e614a4e3896e3ccaca8e12f
 related_topics:
+  - title: Deutsch version
+    url: /de/common/deno.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/deno.html
     icon: bi bi-globe
@@ -11,7 +14,7 @@ related_topics:
 # deno
 
 A secure runtime for JavaScript and TypeScript.
-More information: <https://deno.land/>.
+More information: <https://deno.land>.
 
 - Run a JavaScript or TypeScript file:
 

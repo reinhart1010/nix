@@ -2,7 +2,7 @@
 layout: page
 title: common/df (italiano)
 description: "Fornisce una panoramica dello spazio utilizzato dai file system sui dischi."
-content_hash: a2225b8295dacebd2e10a73a45b1180bb2789ce4
+content_hash: 45ced0dc26af909157829e9d2e810c142ed7a982
 related_topics:
   - title: Deutsch version
     url: /de/common/df.html
@@ -10,11 +10,23 @@ related_topics:
   - title: English version
     url: /en/common/df.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/df.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/df.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/df.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/df.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/df.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/df.html
     icon: bi bi-globe
 ---
 
@@ -41,4 +53,4 @@ Maggiori informazioni: <https://www.gnu.org/software/coreutils/df>.
 
 - Mostra il file system ed contenente il file o directory dato ed il suo utilizzo del disco:
 
-`df `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/file_o_directory</span>
+`df `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory</span>

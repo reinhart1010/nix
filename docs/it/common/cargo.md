@@ -2,7 +2,7 @@
 layout: page
 title: common/cargo (italiano)
 description: "Gestore di pacchetti di Rust."
-content_hash: bbf17b89eb257c8bdef5d43216d8909b4266bab6
+content_hash: 3356c47f27afa5172e9316631397634122b4cde9
 related_topics:
   - title: Deutsch version
     url: /de/common/cargo.html
@@ -16,13 +16,25 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/cargo.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/cargo.html
+    icon: bi bi-globe
 ---
-# cargo
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/cargo.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># cargo
 
 Gestore di pacchetti di Rust.
 Gestisce progetti Rust ed i moduli dai quali sono dipendenti (detti crate).
 Alcuni comandi aggiuntivi, come `cargo build`, hanno la propria documentazione.
-Maggiori informazioni: <https://crates.io/>.
+Maggiori informazioni: <https://crates.io>.
 
 - Cerca una crate:
 
@@ -42,9 +54,9 @@ Maggiori informazioni: <https://crates.io/>.
 
 - Crea un nuovo progetto Rust binario o di libreria nella directory specificata:
 
-`cargo new `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/a/directory</span>` --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bin|lib</span>
+`cargo new `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/della/directory</span>` --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bin|lib</span>
 
-- Builda il progetto Rust nella cartella corrente:
+- Builda il progetto Rust nella directory corrente:
 
 `cargo build`
 

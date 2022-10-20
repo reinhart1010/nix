@@ -2,7 +2,7 @@
 layout: page
 title: common/docker-compose (italiano)
 description: "Esegui e gestisci applicazioni Docker composte da più container."
-content_hash: 74e8516a8fce4bb7cdbb1182e5280a78d3b3db45
+content_hash: 741b5da04bf10f399c73d08734958b51351b6294
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -45,7 +45,7 @@ Maggiori informazioni: <https://docs.docker.com/compose/reference/>.
 
 - Avvia tutti i container utilizzando un file compose alternativo:
 
-`docker compose --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/file</span>` up`
+`docker compose --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>` up`
 
 - Ferma tutti i container in esecuzione:
 

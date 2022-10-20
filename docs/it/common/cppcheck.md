@@ -2,7 +2,7 @@
 layout: page
 title: common/cppcheck (italiano)
 description: "Strumento di analisi statica per codice C/C++."
-content_hash: 8a758a197415efea8f0f7ecfaa01c6172e63f876
+content_hash: e95289fa61b2b49e8e51f022f4ab2003662483cc
 related_topics:
   - title: English version
     url: /en/common/cppcheck.html
@@ -27,7 +27,7 @@ Maggiori informazioni: <http://cppcheck.sourceforge.net>.
 
 - Controlla un determinato file, specificando quali test eseguire (di default, solo gli errori sono mostrati):
 
-`cppcheck --enable=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">error|warning|style|performance|portability|information|all</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file.cpp</span>
+`cppcheck --enable=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">error|warning|style|performance|portability|information|all</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.cpp</span>
 
 - Elenca i test disponibili:
 
@@ -35,7 +35,7 @@ Maggiori informazioni: <http://cppcheck.sourceforge.net>.
 
 - Controlla un determinato file, ignorando specifici test:
 
-`cppcheck --suppress=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_test1</span>` --suppress=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">it_test2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file.cpp</span>
+`cppcheck --suppress=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_test1</span>` --suppress=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">it_test2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.cpp</span>
 
 - Controlla la directory corrente, fornendo percorsi da includere per file esterni (e.g. librerie esterne):
 

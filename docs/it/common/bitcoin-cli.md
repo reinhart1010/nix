@@ -2,7 +2,7 @@
 layout: page
 title: common/bitcoin-cli (italiano)
 description: "Client da linea di comando per interagire con il demone Bitcoin tramite chiamate RPC."
-content_hash: ff4b17c77e2a4d4fc1d1450c67c064a1842f0e17
+content_hash: d5271b0f56bed41cbad4742f52617b010168d3c7
 related_topics:
   - title: English version
     url: /en/common/bitcoin-cli.html
@@ -38,4 +38,4 @@ Maggiori informazioni: <https://en.bitcoin.it/wiki/Running_Bitcoin#Command-line_
 
 - Esporta le informazioni sul portafogli in un file di testo:
 
-`bitcoin-cli dumpwallet "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>`"`
+`bitcoin-cli dumpwallet "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>`"`

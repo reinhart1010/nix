@@ -2,7 +2,7 @@
 layout: page
 title: common/ab (italiano)
 description: "Strumento di benchmarking di Apache. Il più semplice modo per eseguire un test sul carico del server."
-content_hash: febb1f516b629db55488e7fa8618ce76f77dfc4c
+content_hash: 9c9cb69f1dbbf504121aa5b051f7e04b94c01cd8
 related_topics:
   - title: Deutsch version
     url: /de/common/ab.html
@@ -12,6 +12,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/ab.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/ab.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/ab.html
@@ -47,7 +50,7 @@ Maggiori informazioni: <https://httpd.apache.org/docs/current/programs/ab.html>.
 
 - Esegui 100 richieste HTTP POST a un dato URL, utilizzando un payload JSON tramite file:
 
-`ab -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application/json</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/file.json</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+`ab -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application/json</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.json</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
 - Usa HTTP [K]eep Alive, ovvero esegui richieste multiple in una stessa sessione HTTP:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/basename (italiano)
 description: "Restituisce la parte finale un percorso."
-content_hash: e4904ab20092e8ed6abf9c138e22ea1a709233d7
+content_hash: 0e943c22605de6f8ad540c8d255fcb7c3f039ce4
 related_topics:
   - title: Deutsch version
     url: /de/common/basename.html
@@ -18,6 +18,9 @@ related_topics:
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/basename.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/basename.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/basename.html
@@ -39,8 +42,8 @@ Maggiori informazioni: <https://www.gnu.org/software/coreutils/basename>.
 
 - Mostra solo il nome del file da un percorso:
 
-`basename `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>
+`basename `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
 
 - Mostra solo il nome di un file da un percorso, rimuovendo un suffisso:
 
-`basename `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">suffisso</span>
+`basename `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">suffisso</span>

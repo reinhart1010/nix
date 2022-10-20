@@ -2,7 +2,7 @@
 layout: page
 title: common/clockwork-cli (italiano)
 description: "Una interfaccia da linea di comando per il framework PHP Clockwork."
-content_hash: 4f0efe5457438fff1b246b5a387c9f2ff265b925
+content_hash: f7227c9b01a51f0fd2cc1a283484ed4e658282b1
 related_topics:
   - title: English version
     url: /en/common/clockwork-cli.html
@@ -22,8 +22,8 @@ Maggiori informazioni: <https://github.com/ptrofimov/clockwork-cli>.
 
 - Monitora i log di Clockwork per uno specifico progetto:
 
-`clockwork-cli `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/directory_progetto</span>
+`clockwork-cli `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory_progetto</span>
 
 - Monitora i log di Clockwork per più progetti:
 
-`clockwork-cli `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/directory1 percorso/a/directory2 …</span>
+`clockwork-cli `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory1 percorso/della/directory2 …</span>

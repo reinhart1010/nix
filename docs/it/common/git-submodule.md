@@ -2,7 +2,7 @@
 layout: page
 title: common/git-submodule (italiano)
 description: "Ispeziona, aggiorna e gestisce moduli secondari (submodule)."
-content_hash: 55d4e543a12cf214c38ddf6a7e8739c8d19a461b
+content_hash: 7feca13d1f23cf5aeade1aa0bf043e937131d897
 related_topics:
   - title: English version
     url: /en/common/git-submodule.html
@@ -12,6 +12,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/git-submodule.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-submodule.html
     icon: bi bi-globe
 ---
 # git submodule
@@ -27,9 +30,9 @@ Maggiori informazioni: <https://git-scm.com/docs/git-submodule>.
 
 `git submodule add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_repository</span>
 
-- Aggiungi un repository Git come modulo secondario alla cartella specificata:
+- Aggiungi un repository Git come modulo secondario alla directory specificata:
 
-`git submodule add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_repository</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/alla/cartella</span>
+`git submodule add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_repository</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span>
 
 - Aggiorna tutti i moduli secondari al loro commit più recente:
 

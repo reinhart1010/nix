@@ -2,7 +2,7 @@
 layout: page
 title: common/clementine (italiano)
 description: "Un moderno player e gestore di librerie musicali."
-content_hash: 7795152ad0eca5356aa8b9ee7dcc922a7b81bd92
+content_hash: 9050a0bd5f166fcb270a988cc1c490a79f11bbd1
 related_topics:
   - title: English version
     url: /en/common/clementine.html
@@ -22,7 +22,7 @@ Maggiori informazioni: <https://www.clementine-player.org>.
 
 - Avvia la riproduzione di un file musicale:
 
-`clementine `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">URL|percorso/a/file</span>
+`clementine `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">URL|percorso/del/file</span>
 
 - Pausa o riprendi la riproduzione:
 
@@ -42,7 +42,7 @@ Maggiori informazioni: <https://www.clementine-player.org>.
 
 - Carica un file playlist:
 
-`clementine --load `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/file_playlist</span>
+`clementine --load `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_playlist</span>
 
 - Riproduci la quinta traccia nella playlist attualmente caricata:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/git-show (italiano)
 description: "Mostra vari tipi di oggetti Git (commit, tag, etc.)."
-content_hash: 3083afe91b8a883a165194c8240b6f93dc74be9b
+content_hash: 3e760f88cffa4db3d5784ed1f0ce1b36101bb9cb
 related_topics:
   - title: English version
     url: /en/common/git-show.html
@@ -12,6 +12,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/git-show.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-show.html
     icon: bi bi-globe
 ---
 
@@ -54,4 +57,4 @@ Maggiori informazioni: <https://git-scm.com/docs/git-show>.
 
 - Mostra il contenuto di un file ad una data revisione (ad esempio, in un ramo, tag o commit):
 
-`git show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">revisione</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>
+`git show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">revisione</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>

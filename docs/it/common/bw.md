@@ -2,7 +2,7 @@
 layout: page
 title: common/bw (italiano)
 description: "CLI per accedere e gestire vault Bitwarden."
-content_hash: 0f5e4ac4c1994dd80d0fbe820ae2df0b91587bb0
+content_hash: 79332b81fe4691d05c9e077ded802ccb33e4a0c6
 related_topics:
   - title: English version
     url: /en/common/bw.html
@@ -32,6 +32,6 @@ Maggiori informazioni: <https://help.bitwarden.com/article/cli/>.
 
 `bw get item `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">github</span>
 
-- Crea una cartella in un vault bitwarden:
+- Crea una directory in un vault bitwarden:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo -n '{"name":"Nome cartella"}' | base64</span>` | bw create folder`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo -n '{"name":"Nome directory"}' | base64</span>` | bw create folder`

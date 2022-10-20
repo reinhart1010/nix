@@ -2,7 +2,7 @@
 layout: page
 title: linux/dpkg (italiano)
 description: "Gestore di pacchetti Debian."
-content_hash: 2971cfba16c6599d96e95207416971abd8e08537
+content_hash: 01210d78080fdbbc15d9d54c888478429523b652
 related_topics:
   - title: Deutsch version
     url: /de/linux/dpkg.html
@@ -25,7 +25,7 @@ Maggiori informazioni: <https://manpages.debian.org/latest/dpkg/dpkg.html>.
 
 - Installa un pacchetto:
 
-`dpkg -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file.deb</span>
+`dpkg -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.deb</span>
 
 - Rimuove un pacchetto:
 
@@ -41,7 +41,7 @@ Maggiori informazioni: <https://manpages.debian.org/latest/dpkg/dpkg.html>.
 
 - Elenca i contenuti di un file pacchetto locale:
 
-`dpkg -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file.deb</span>
+`dpkg -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.deb</span>
 
 - Trova a quale pacchetto appartiene un file:
 

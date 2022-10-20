@@ -2,7 +2,7 @@
 layout: page
 title: common/beanstalkd (italiano)
 description: "Un semplice e generico gestore di code di lavoro."
-content_hash: 4208a39079a68f0f4b9d40718bb8a88217481e80
+content_hash: 9aa77ce7fc20b8dea31a8286c87b7ab8727cdc74
 related_topics:
   - title: English version
     url: /en/common/beanstalkd.html
@@ -26,8 +26,8 @@ Maggiori informazioni: <https://beanstalkd.github.io/>.
 
 - Rendi le code di lavoro persistenti salvandole su disco:
 
-`beanstalkd -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/directory_persistente</span>
+`beanstalkd -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory_persistente</span>
 
-- Sincronizza con una cartella persistente ogni 500 millisecondi:
+- Sincronizza con una directory persistente ogni 500 millisecondi:
 
-`beanstalkd -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/directory_persistente</span>` -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">500</span>
+`beanstalkd -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory_persistente</span>` -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">500</span>

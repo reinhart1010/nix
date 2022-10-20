@@ -2,7 +2,7 @@
 layout: page
 title: common/cargo (Nederlands)
 description: "Rust pakketbeheerder."
-content_hash: aefbb6878f5aa62f9233e97d30de48462f93b6dc
+content_hash: 8ab2a344551abad3ccbbfa3d840d5f1af0c3f72d
 related_topics:
   - title: Deutsch version
     url: /de/common/cargo.html
@@ -16,12 +16,24 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cargo.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/cargo.html
+    icon: bi bi-globe
 ---
-# cargo
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/cargo.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># cargo
 
 Rust pakketbeheerder.
 Beheer Rust projecten en hun afhankelijkheden (crates).
-Meer informatie: <https://crates.io/>.
+Meer informatie: <https://crates.io>.
 
 - Zoek naar crates:
 

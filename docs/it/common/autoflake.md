@@ -2,10 +2,13 @@
 layout: page
 title: common/autoflake (italiano)
 description: "Uno strumento per rimuovere import e variabili inutilizzati da codice Python."
-content_hash: 53f1d0dfe358cb96e137aeaac31a4627dc616f1b
+content_hash: 734d850a5b54a0740590ecbdc7e7e358cd1598fa
 related_topics:
   - title: English version
     url: /en/common/autoflake.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/autoflake.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/autoflake.html
@@ -31,6 +34,6 @@ Maggiori informazioni: <https://github.com/myint/autoflake>.
 
 `autoflake --remove-unused-variables --in-place `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.py</span>
 
-- Rimuovi le variabili inutilizzate da tutti i file in una cartella, ricorsivamente e sovrascrivendoli:
+- Rimuovi le variabili inutilizzate da tutti i file in una directory, ricorsivamente e sovrascrivendoli:
 
-`autoflake --remove-unused-variables --in-place --recursive `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/cartella</span>
+`autoflake --remove-unused-variables --in-place --recursive `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span>

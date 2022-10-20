@@ -2,13 +2,16 @@
 layout: page
 title: common/docker-exec (italiano)
 description: "Esegui un comando su un Docker container in esecuzione."
-content_hash: 81c5bb22f6cc04e3d0ae01b9fdc34317ec576dc3
+content_hash: a02295b2292fda7224f37e7f4aba19e6e371b47f
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-exec.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/docker-exec.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/docker-exec.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/docker-exec.html
@@ -29,7 +32,7 @@ Maggiori informazioni: <https://docs.docker.com/engine/reference/commandline/exe
 
 - Seleziona la directory di lavoro in cui eseguire un dato comando:
 
-`docker exec --interactive -tty --workdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/alla/directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_container</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>
+`docker exec --interactive -tty --workdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_container</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>
 
 - Esegui un comando in background su un container esistente, mantenendo aperto stdin:
 

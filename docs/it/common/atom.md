@@ -2,7 +2,7 @@
 layout: page
 title: common/atom (italiano)
 description: "Un editor di testo cross-platform personalizzabile."
-content_hash: 89d6aa6caa934bf023d8c6de79a8c284748dbbfa
+content_hash: 32a8aafa2c77e033d71acd68b2371328a6e8dbeb
 related_topics:
   - title: Deutsch version
     url: /de/common/atom.html
@@ -41,17 +41,17 @@ Un editor di testo cross-platform personalizzabile.
 I plugin sono gestiti da `apm`.
 Maggiori informazioni: <https://atom.io/>.
 
-- Apri un file o una cartella:
+- Apri un file o una directory:
 
-`atom `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/file_o_cartella</span>
+`atom `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory</span>
 
-- Apri un file o una cartella in una nuova finestra:
+- Apri un file o una directory in una nuova finestra:
 
-`atom -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/file_o_cartella</span>
+`atom -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory</span>
 
-- Apri un file o una cartella in una finestra esistente:
+- Apri un file o una directory in una finestra esistente:
 
-`atom --add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/file_o_cartella</span>
+`atom --add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory</span>
 
 - Avvia Atom in safe mode (non carica nessun pacchetto):
 

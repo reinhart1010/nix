@@ -2,7 +2,7 @@
 layout: page
 title: common/tig (Deutsch)
 description: "Eine interaktive Kommandozeilenoberfläche für Git."
-content_hash: 973470f507d031b78ffedd74764c1b7f8e23eb71
+content_hash: e5afb72e0c62a60b0dfbf81bcc5d294ec6b120a3
 related_topics:
   - title: English version
     url: /en/common/tig.html
@@ -23,7 +23,7 @@ Weitere Informationen: <https://github.com/jonas/tig>.
 
 - Zeige die Commits von bestimmten Dateien oder Verzeichnissen:
 
-`tig `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad1 pfad2 …</span>
+`tig `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad1 pfad2 ...</span>
 
 - Zeige die Unterschiede zwischen zwei Referenzen (wie z.B. Branches oder Tags):
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/deluge-console (italiano)
 description: "Interfaccia interattiva da linea di comando per il client BitTorrent Deluge."
-content_hash: 21065879b1bce395e15bc91f670acc77fdcf82e9
+content_hash: 2bc798c505779e08c0d90f3f96cbd3a0ce5c9573
 related_topics:
   - title: English version
     url: /en/common/deluge-console.html
@@ -26,7 +26,7 @@ Maggiori informazioni: <https://deluge-torrent.org>.
 
 - Aggiungi un torrent al demone:
 
-`add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|magnet|percorso/a/file</span>
+`add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|magnet|percorso/del/file</span>
 
 - Mostra informazioni su tutti i torrent:
 

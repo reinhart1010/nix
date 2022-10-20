@@ -2,7 +2,7 @@
 layout: page
 title: common/wget (italiano)
 description: "Scarica file dal Web."
-content_hash: cb6a7f4b591b3b71deaefe8346d3b883ff2d0bd6
+content_hash: 0d7e2709071fd696a87e81c459ccebf29a23d331
 related_topics:
   - title: English version
     url: /en/common/wget.html
@@ -32,7 +32,7 @@ Maggiori informazioni: <https://www.gnu.org/software/wget>.
 
 `wget --page-requisites --convert-links --wait=3 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://esempio.com/pagina_web.html</span>
 
-- Scarica tutti i file elencati nella cartella e nelle sue sotto-cartelle (non scarica gli elementi incorporati nella pagina):
+- Scarica tutti i file elencati nella directory e nelle sue sotto-directory (non scarica gli elementi incorporati nella pagina):
 
 `wget --mirror --no-parent `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://esempio.com/unqualchepercorso/</span>
 
@@ -48,6 +48,6 @@ Maggiori informazioni: <https://www.gnu.org/software/wget>.
 
 `wget --continue `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://esempio.com</span>
 
-- Scarica tutti gli URL contenuti in un file di testo in una cartella specificata:
+- Scarica tutti gli URL contenuti in un file di testo in una directory specificata:
 
-`wget --directory-prefix `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/alla/cartella</span>` --input-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lista_di_URL.txt</span>
+`wget --directory-prefix `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span>` --input-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lista_di_URL.txt</span>

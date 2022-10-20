@@ -2,7 +2,7 @@
 layout: page
 title: common/mkdir (italiano)
 description: "Crea directory."
-content_hash: 77209c29716e822689907a215bc85b9847f344cd
+content_hash: 5ad04b11a31cef70ef69a37140212ff0fcade96f
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -24,6 +24,12 @@ related_topics:
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/mkdir.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/mkdir.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/mkdir.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/mkdir.html
@@ -49,4 +55,4 @@ Maggiori informazioni: <https://www.gnu.org/software/coreutils/mkdir>.
 
 - Crea directory ricorsivamente (utile per creare directory annidate):
 
-`mkdir -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/alla/directory</span>
+`mkdir -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span>

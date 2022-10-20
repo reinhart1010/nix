@@ -2,7 +2,7 @@
 layout: page
 title: common/git-clean (italiano)
 description: "Elimina i file non tracciati dall'albero di lavoro."
-content_hash: 082cdcf6a47f8ec0ce5509cd80946f02ddb97e7b
+content_hash: 23d8624d5a015336cffe2b4509467f41f18b61e2
 related_topics:
   - title: English version
     url: /en/common/git-clean.html
@@ -13,8 +13,14 @@ related_topics:
   - title: français version
     url: /fr/common/git-clean.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-clean.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-clean.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-clean.html
     icon: bi bi-globe
 ---
 # git clean
@@ -38,7 +44,7 @@ Maggiori informazioni: <https://git-scm.com/docs/git-clean>.
 
 `git clean -f`
 
-- Forza l'eliminazione delle cartelle non tracciate da Git:
+- Forza l'eliminazione delle directory non tracciate da Git:
 
 `git clean -fd`
 

@@ -2,8 +2,11 @@
 layout: page
 title: common/cd (italiano)
 description: "Cambia la directory corrente."
-content_hash: 9ee7b824e17eacbc037d709f10b6d97b68e19bd6
+content_hash: 8ec7e8cb7297c6ba0abbc8fb2e69bdc7ad59f382
 related_topics:
+  - title: català version
+    url: /ca/common/cd.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/cd.html
     icon: bi bi-globe
@@ -43,6 +46,9 @@ related_topics:
   - title: svenska version
     url: /sv/common/cd.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/cd.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/cd.html
     icon: bi bi-globe
@@ -50,14 +56,23 @@ related_topics:
     url: /zh_TW/common/cd.html
     icon: bi bi-globe
 ---
-# cd
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/cd.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># cd
 
 Cambia la directory corrente.
 Maggiori informazioni: <https://manned.org/cd>.
 
 - Vai alla directory specificata:
 
-`cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/directory</span>
+`cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span>
 
 - Vai alla directory home dell'utente corrente:
 

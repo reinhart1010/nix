@@ -2,7 +2,7 @@
 layout: page
 title: common/crontab (italiano)
 description: "Programma cron job per essere eseguiti a determinati intervalli di tempo per l'utente corrente."
-content_hash: 3c081402c54172db594d06211f7f6fe240a684e6
+content_hash: 2a0a23725d70aa1a087c34bb98704747bf7dcd78
 related_topics:
   - title: English version
     url: /en/common/crontab.html
@@ -48,4 +48,4 @@ Maggiori informazioni: <https://crontab.guru/>.
 
 - Esempio di un job che esegue un determinato script alle 02:30 ogni venerdì:
 
-`30 2 * * Fri `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/percorso/assoluto/allo/script.sh</span>
+`30 2 * * Fri `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/percorso/assoluto/dello/script.sh</span>

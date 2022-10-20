@@ -2,7 +2,7 @@
 layout: page
 title: common/box (italiano)
 description: "Una applicazione PHP per creare e gestire Phars."
-content_hash: 5f8b6f237f4a9e75f0c8d4def5fd425810074a89
+content_hash: 0bb84458c64b3a0e5858cbc6d15a4683688ee021
 related_topics:
   - title: English version
     url: /en/common/box.html
@@ -22,7 +22,7 @@ Maggiori informazioni: <https://github.com/box-project/box>.
 
 - Crea un nuovo file Phar usando uno specifico file di configurazione:
 
-`box build -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/configurazione</span>
+`box build -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/configurazione</span>
 
 - Mostra informazioni sulla estensione PHP PHAR:
 
@@ -30,7 +30,7 @@ Maggiori informazioni: <https://github.com/box-project/box>.
 
 - Mostra informazioni su di uno specifico file Phar:
 
-`box info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/file_phar</span>
+`box info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_phar</span>
 
 - Valida il primo file di configurazione trovato nella directory corrente:
 
@@ -38,7 +38,7 @@ Maggiori informazioni: <https://github.com/box-project/box>.
 
 - Verifica la firma di uno specifico file Phar:
 
-`box verify `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/file_phar</span>
+`box verify `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_phar</span>
 
 - Mostra tutti i comandi ed opzioni disponibili:
 

@@ -1,11 +1,14 @@
 ---
 layout: page
 title: common/tree (italiano)
-description: "Mostra i contenuti della cartella corrente come un albero."
-content_hash: a8ab8d0cfdc76d16b7de39a35dcf805d97a5805d
+description: "Mostra i contenuti della directory corrente come un albero."
+content_hash: 32a26b5ec2806ad5d84e7fb54a1e6fcd2275fc8d
 related_topics:
   - title: English version
     url: /en/common/tree.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/tree.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/tree.html
@@ -19,14 +22,14 @@ related_topics:
 ---
 # tree
 
-Mostra i contenuti della cartella corrente come un albero.
+Mostra i contenuti della directory corrente come un albero.
 Maggiori informazioni: <http://mama.indstate.edu/users/ice/tree/>.
 
-- Stampa file e cartella fino al 'num'-esimo livello di profondità (dove 1 significa la cartella corrente):
+- Stampa file e directory fino al 'num'-esimo livello di profondità (dove 1 significa la directory corrente):
 
 `tree -L `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">num</span>
 
-- Stampa solamente le cartelle:
+- Stampa solamente le directory:
 
 `tree -d`
 
@@ -38,18 +41,18 @@ Maggiori informazioni: <http://mama.indstate.edu/users/ice/tree/>.
 
 `tree -i -f`
 
-- Stampa la dimensione di ogni file e la dimensione totale di ogni cartella, in formato leggibile dall'utente:
+- Stampa la dimensione di ogni file e la dimensione totale di ogni directory, in formato leggibile dall'utente:
 
 `tree -s -h --du`
 
-- Stampa i file all'interno dell'albero gerarchico, utilizzando espressioni di metacaratteri (glob pattern) per escludere le cartelle che non contengono file corrispondenti alla ricerca:
+- Stampa i file all'interno dell'albero gerarchico, utilizzando espressioni di metacaratteri (glob pattern) per escludere le directory che non contengono file corrispondenti alla ricerca:
 
 `tree -P '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span>`' --prune`
 
-- Stampa le cartelle all'interno dell'albero gerarchico, utilizzando espressioni di metacaratteri (glob pattern) per escludere le cartelle che non sono progenitori di quelle desiderate:
+- Stampa le directory all'interno dell'albero gerarchico, utilizzando espressioni di metacaratteri (glob pattern) per escludere le directory che non sono progenitori di quelle desiderate:
 
-`tree -P `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nomi_di_cartelle</span>` --matchdirs --prune`
+`tree -P `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nomi_di_directory</span>` --matchdirs --prune`
 
-- Stampa l'albero ignorando le cartelle date:
+- Stampa l'albero ignorando le directory date:
 
-`tree -I '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_cartella1|nome_cartella2</span>`'`
+`tree -I '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_directory1|nome_directory2</span>`'`

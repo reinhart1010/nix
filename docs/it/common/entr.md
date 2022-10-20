@@ -2,7 +2,7 @@
 layout: page
 title: common/entr (italiano)
 description: "Esegui comandi arbitrari al cambiamento di file."
-content_hash: 860b9930693aeb78f3fe3c7cc6c800a0a52bf0e3
+content_hash: 2133ab9ef8ddf505bee6ba361ee525a9c80edcae
 related_topics:
   - title: English version
     url: /en/common/entr.html
@@ -17,7 +17,7 @@ Maggiori informazioni: <https://manned.org/entr>.
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ag -l</span>` | entr `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">make</span>
 
-- Ricompila e testa con `make` se qualsiasi file sorgente `.c` nella cartella corrente cambia:
+- Ricompila e testa con `make` se qualsiasi file sorgente `.c` nella directory corrente cambia:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls *.c</span>` | entr `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'make && make test'</span>
 

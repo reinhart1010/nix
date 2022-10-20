@@ -2,7 +2,7 @@
 layout: page
 title: common/cargo (English)
 description: "Manage Rust projects and their module dependencies (crates)."
-content_hash: dbf6cd82d32a874815b2c34f2191a016e591987c
+content_hash: 5983a14312bea3ba0550e5d5b1bf31523f353225
 related_topics:
   - title: Deutsch version
     url: /de/common/cargo.html
@@ -24,7 +24,7 @@ related_topics:
 
 Manage Rust projects and their module dependencies (crates).
 Some subcommands such as `cargo build` have their own usage documentation.
-More information: <https://crates.io/>.
+More information: <https://crates.io>.
 
 - Search for crates:
 

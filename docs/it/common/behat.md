@@ -2,7 +2,7 @@
 layout: page
 title: common/behat (italiano)
 description: "Un framework PHP per lo sviluppo quidato dal comportamento."
-content_hash: 77389746775d25d1ee6172c20add2f61ce254587
+content_hash: 93db116c1a658af6026b34954738420deedd6d4e
 related_topics:
   - title: English version
     url: /en/common/behat.html
@@ -37,7 +37,7 @@ Maggiori informazioni: <https://behat.org>.
 
 - Esegui i testi e scrivi i risultati in un file:
 
-`behat --out `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/file</span>
+`behat --out `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
 
 - Mostra una lista delle definizioni nelle suite di test:
 

@@ -2,13 +2,16 @@
 layout: page
 title: common/asciinema (italiano)
 description: "Registra e riproduci sessioni di terminale, condividendole opzionalmente su asciiname.org."
-content_hash: 2ad9ff5964890ab0737d089dea981613bbe98b23
+content_hash: 0f787e09eca8587e36b702f0ec9e56ffd5140421
 related_topics:
   - title: English version
     url: /en/common/asciinema.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/asciinema.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/asciinema.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/asciinema.html
@@ -39,7 +42,7 @@ Maggiori informazioni: <https://asciinema.org/>.
 
 - Riproduci una sessione da un file locale:
 
-`asciinema play `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>`.cast`
+`asciinema play `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>`.cast`
 
 - Riproducei una sessione da asciinema.org:
 
@@ -51,8 +54,8 @@ Maggiori informazioni: <https://asciinema.org/>.
 
 - Stampa l'output completo di una sessione locale:
 
-`asciinema cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>`.cast`
+`asciinema cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>`.cast`
 
 - Carica una sessione locale su asciinama.org:
 
-`asciinema upload `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>`.cast`
+`asciinema upload `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>`.cast`

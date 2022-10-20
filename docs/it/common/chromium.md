@@ -2,7 +2,7 @@
 layout: page
 title: common/chromium (italiano)
 description: "Browser web open-source di Google."
-content_hash: 761a0c4d99c6d3f805206b5f6c242278a5cce28b
+content_hash: a597ace10330db0065dfdc5ab04e77406a0691c0
 related_topics:
   - title: Deutsch version
     url: /de/common/chromium.html
@@ -36,7 +36,7 @@ Maggiori informazioni: <https://www.chromium.org/developers/how-tos/run-chromium
 
 - Apri un file:
 
-`chromium `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file.html</span>
+`chromium `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.html</span>
 
 - Apri un URL:
 

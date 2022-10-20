@@ -2,13 +2,16 @@
 layout: page
 title: common/git-stage (italiano)
 description: "Aggiungi file all'area di stage."
-content_hash: 816c7e637b928c3359b1bdf92236285fe57e0915
+content_hash: 9303737ee802ffc715331fadc29f44539982fe88
 related_topics:
   - title: English version
     url: /en/common/git-stage.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/git-stage.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-stage.html
     icon: bi bi-globe
 ---
 # git stage
@@ -19,7 +22,7 @@ Maggiori informazioni: <https://git-scm.com/docs/git-stage>.
 
 - Aggiungi un file all'indice:
 
-`git stage `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>
+`git stage `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
 
 - Aggiungi tutti i file (tracciati e non):
 
@@ -39,7 +42,7 @@ Maggiori informazioni: <https://git-scm.com/docs/git-stage>.
 
 - Aggiungi parti di un dato file all'area di stage in modo interattivo:
 
-`git stage -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>
+`git stage -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
 
 - Aggiungi all'area di stage in modo interattivo:
 

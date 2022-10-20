@@ -2,7 +2,7 @@
 layout: page
 title: common/dotnet (italiano)
 description: "Strumenti .NET da linea di comando multipiattaforma per .NET Core."
-content_hash: bb1d601458bf3f7aab925c076daacb731b22da5e
+content_hash: b34776b0668f527063d8e828d8b2a44c0559b22e
 related_topics:
   - title: Deutsch version
     url: /de/common/dotnet.html
@@ -46,4 +46,4 @@ Maggiori informazioni: <https://learn.microsoft.com/dotnet/core/tools>.
 
 - Esegui una applicazione dotnet pacchettizzata (solo il runtime è necessario, il resto dei comandi richiedono .NET Core SDK):
 
-`dotnet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/applicazione.dll</span>
+`dotnet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/applicazione.dll</span>

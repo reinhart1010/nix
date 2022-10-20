@@ -2,13 +2,16 @@
 layout: page
 title: common/code (italiano)
 description: "Visual Studio Code."
-content_hash: 4736f5100ba5477a229fa61cb56fe38e7bc81d9d
+content_hash: 1eb44652c897b8cd723ed745e46f56ea9670456e
 related_topics:
   - title: Deutsch version
     url: /de/common/code.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/code.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/code.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/code.html
@@ -47,11 +50,11 @@ Maggiori informazioni: <https://github.com/microsoft/vscode>.
 
 - Apri un file o una directory in VS Code:
 
-`code `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/file_o_directory</span>
+`code `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory</span>
 
 - Apri un file o una directory nella finestra attualmente aperta di VS Code:
 
-`code --reuse-window `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/file_o_directory</span>
+`code --reuse-window `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory</span>
 
 - Confronta due file in VS Code:
 

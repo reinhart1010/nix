@@ -2,7 +2,7 @@
 layout: page
 title: common/deno (Deutsch)
 description: "Eine sichere JavaScript- und TypeScript-Laufzeit."
-content_hash: adc68e2ae245058b34d2f36950ea1bc0e092603d
+content_hash: 8c84cec4a53b7a8f123fc35b2cb60a836bacc5b8
 related_topics:
   - title: English version
     url: /en/common/deno.html
@@ -11,13 +11,10 @@ related_topics:
     url: /id/common/deno.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># deno
+# deno
 
 Eine sichere JavaScript- und TypeScript-Laufzeit.
-Weitere Informationen: <https://deno.land/>.
+Weitere Informationen: <https://deno.land>.
 
 - Führe eine JavaScript oder TypeScript Datei aus:
 

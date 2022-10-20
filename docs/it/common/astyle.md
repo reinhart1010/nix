@@ -2,10 +2,13 @@
 layout: page
 title: common/astyle (italiano)
 description: "Indentatore, formattatore e beautifier di codice sorgente per i linguaggi C, C++, C# e Java."
-content_hash: 2f10c82a90b380e8b0cc84d74c9b398aadb1073c
+content_hash: 7b74c5b91458928bbd2fab3bf95d593b57af5297
 related_topics:
   - title: English version
     url: /en/common/astyle.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/astyle.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/astyle.html
@@ -23,16 +26,16 @@ Maggiori informazioni: <http://astyle.sourceforge.net/>.
 
 - Applica lo stile Java con parentesi graffe aperte sulla stessa riga (attached braces):
 
-`astyle --style=java `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>
+`astyle --style=java `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
 
 - Applica lo stile allman per parantesi graffe su linee separate (broken braces):
 
-`astyle --style=allman `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>
+`astyle --style=allman `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
 
 - Applica un'indentazione personalizzata utilizzando spazi. Scegli tra 2 e 20 spazi:
 
-`astyle --indent=spaces=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero_spazi</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>
+`astyle --indent=spaces=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero_spazi</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
 
 - Applica un'indentazione personalizzata utilizzando tab. Scegli tra 2 e 20 tab:
 
-`astyle --indent=tab=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero_tab</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file</span>
+`astyle --indent=tab=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero_tab</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>

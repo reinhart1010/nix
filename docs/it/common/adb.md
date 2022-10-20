@@ -2,7 +2,7 @@
 layout: page
 title: common/adb (italiano)
 description: "Android Debug Bridge: comunica con un'instanza di un emulatore Android o con un dispositivo android connesso."
-content_hash: 3ebb8a999873cbc12b1af4c0f7ceda03c500d158
+content_hash: dc04e25dc6c1fa22e30e354a329e53ce400fcadd
 related_topics:
   - title: English version
     url: /en/common/adb.html
@@ -55,15 +55,15 @@ Maggiori informazioni: <https://developer.android.com/studio/command-line/adb>.
 
 - Installa un'applicazione Android nell'emulatore o dispositivo target:
 
-`adb install -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/al/file.apk</span>
+`adb install -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.apk</span>
 
 - Copia file o directory dal dispositivo target:
 
-`adb pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/file_o_directory_dispositivo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/file_o_directory_locale</span>
+`adb pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory_dispositivo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory_locale</span>
 
 - Copia file/directory sul dispositivo target:
 
-`adb push `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/file_o_directory_locale</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/directory_destinazione_dispositivo</span>
+`adb push `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory_locale</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory_destinazione_dispositivo</span>
 
 - Mostra una lista dei dispositivi connessi:
 

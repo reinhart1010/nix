@@ -2,7 +2,7 @@
 layout: page
 title: common/git-clone (italiano)
 description: "Clona un repository esistente."
-content_hash: 5ad724d48f1b70cfd6782ad8bceac0ca144f4da0
+content_hash: 0fc21b56e79bf84cb422cefc44b15b8c2cc8ce1c
 related_topics:
   - title: Deutsch version
     url: /de/common/git-clone.html
@@ -19,8 +19,20 @@ related_topics:
   - title: Indonesia version
     url: /id/common/git-clone.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-clone.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-clone.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-clone.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git-clone.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/git-clone.html
     icon: bi bi-globe
 ---
 
@@ -47,7 +59,7 @@ Maggiori informazioni: <https://git-scm.com/docs/git-clone>.
 
 - Clona un repository locale:
 
-`git clone -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/a/repository/locale</span>
+`git clone -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/repository/locale</span>
 
 - Clona in modalità silenziosa:
 
