@@ -2,8 +2,11 @@
 layout: page
 title: common/flutter (English)
 description: "Google's free, open source, and cross-platform mobile app SDK."
-content_hash: bae0a2d7ad59cfec2f0713d70c2d568cb7b8bfcb
+content_hash: 2546a2446e8cd1e35063cca01059164e31d5547e
 related_topics:
+  - title: Deutsch version
+    url: /de/common/flutter.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/flutter.html
     icon: bi bi-globe
@@ -13,9 +16,9 @@ related_topics:
 Google's free, open source, and cross-platform mobile app SDK.
 More information: <https://github.com/flutter/flutter/wiki/The-flutter-tool>.
 
-- Display help about a specific command:
+- Initialize a new Flutter project in a directory of the same name:
 
-`flutter help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
+`flutter create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_name</span>
 
 - Check if all external tools are correctly installed:
 
@@ -40,3 +43,7 @@ More information: <https://github.com/flutter/flutter/wiki/The-flutter-tool>.
 - Build a release APK targeting most modern smartphones:
 
 `flutter build apk --target-platform `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android-arm</span>`,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android-arm64</span>
+
+- Display help about a specific command:
+
+`flutter help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>

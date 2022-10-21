@@ -2,7 +2,7 @@
 layout: page
 title: common/adb-install (français)
 description: "Android Debug Bridge Install: Pousse des paquets vers une instance d'émulateur Android ou un appareil Android."
-content_hash: c8e5c9aeb8f74bcf8e37a3e6f9351467ef687c74
+content_hash: fadde8840d329eab57524b5f05ab0985796961d0
 related_topics:
   - title: English version
     url: /en/common/adb-install.html
@@ -43,6 +43,10 @@ Plus d'informations : <https://developer.android.com/studio/command-line/adb>.
 - Pousse une application Android vers l'émulateur/l'appareil :
 
 `adb install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/fichier.apk</span>
+
+- Pousse une application Android vers l'émulateur/l'appareil spécifique via son numéro de série (écrase la variable `$ANDROID_SERIAL`):
+
+`adb -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero_de_serie</span>` install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/fichier.apk</span>
 
 - Réinstalle une application existante, tout en gardant ses données :
 

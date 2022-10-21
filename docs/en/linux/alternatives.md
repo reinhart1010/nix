@@ -2,14 +2,12 @@
 layout: page
 title: linux/alternatives (English)
 description: "This command is an alias of `update-alternatives`."
-content_hash: 96f3d6fda78205f83b37b848d3b81eeb9dcd3e4a
+content_hash: 84b1bcbb4694577e24ada731f607601f75f055b9
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># alternatives
+# alternatives
 
 This command is an alias of `update-alternatives`.
+More information: <https://manned.org/alternatives>.
 
 - View documentation for the original command:
 

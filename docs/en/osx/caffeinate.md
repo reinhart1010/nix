@@ -2,7 +2,7 @@
 layout: page
 title: osx/caffeinate (English)
 description: "Prevent macOS from sleeping."
-content_hash: 92c98181c5904aa98aeaacd51de6515740ebcc30
+content_hash: 342c13405525a1fbb018c584faaa0e85cba48df5
 related_topics:
   - title: Deutsch version
     url: /de/osx/caffeinate.html
@@ -12,6 +12,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/osx/caffeinate.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/caffeinate.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/caffeinate.html
@@ -30,6 +33,10 @@ More information: <https://ss64.com/osx/caffeinate.html>.
 
 `caffeinate -s "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>`"`
 
-- Prevent from sleeping until you type Ctrl-C:
+- Prevent from sleeping (use `Ctrl + C` to exit):
 
 `caffeinate -i`
+
+- Prevent disk from sleeping (use `Ctrl + C` to exit):
+
+`caffeinate -m`
