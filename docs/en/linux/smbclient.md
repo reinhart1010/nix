@@ -2,7 +2,7 @@
 layout: page
 title: linux/smbclient (English)
 description: "FTP-like client to access SMB/CIFS resources on servers."
-content_hash: 431d83ad1581a995cf094126f4dd2fbf585f84e4
+content_hash: dac6d02ea65f1db494e7f17a1cfe65228f75b356
 ---
 # smbclient
 
@@ -32,3 +32,7 @@ More information: <https://manned.org/smbclient>.
 - Upload a file to the server:
 
 `smbclient `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">//server/share</span>` --directory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` --command "put `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.txt</span>`"`
+
+- List the shares from a server anonymously:
+
+`smbclient --list=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server</span>` --no-pass`
