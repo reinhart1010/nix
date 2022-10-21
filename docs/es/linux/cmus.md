@@ -2,8 +2,11 @@
 layout: page
 title: linux/cmus (español)
 description: "Reproductor de música para la línea de comandos."
-content_hash: 72ad38d95a8ab004405823781a0bfd247dc44378
+content_hash: bc9b6a998b0a9f60dc217f6aaa11a0caa036835d
 related_topics:
+  - title: català version
+    url: /ca/linux/cmus.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/cmus.html
     icon: bi bi-globe
@@ -20,7 +23,7 @@ related_topics:
 # cmus
 
 Reproductor de música para la línea de comandos.
-Usa las teclas de dirección para navegar, `<enter/return>` para seleccionar, y los números 1-8 para cambiar entra las diferentes vistas.
+Usa las teclas de dirección para navegar, `<enter/return>` para seleccionar, y los números 1-8 para cambiar entre las diferentes vistas.
 Más información: <https://cmus.github.io>.
 
 - Abre cmus en un directorio concreto:

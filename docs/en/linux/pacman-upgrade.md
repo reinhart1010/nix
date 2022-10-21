@@ -2,13 +2,16 @@
 layout: page
 title: linux/pacman-upgrade (English)
 description: "Arch Linux package manager utility."
-content_hash: 0abac5b3940282df12e21b2ffa65f2399a30a633
+content_hash: 59b7606c06ed5354ebf486fce1ce7c74f95d7b65
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-upgrade.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/pacman-upgrade.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/pacman-upgrade.html
     icon: bi bi-globe
 ---
 # pacman --upgrade
@@ -34,7 +37,7 @@ More information: <https://man.archlinux.org/man/pacman.8>.
 
 - List packages that would be affected (does not install any packages):
 
-`pacman --query --print `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.pkg.tar.zst</span>
+`pacman --upgrade --print `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.pkg.tar.zst</span>
 
 - Display help:
 

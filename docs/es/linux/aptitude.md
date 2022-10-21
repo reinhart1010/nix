@@ -2,8 +2,11 @@
 layout: page
 title: linux/aptitude (español)
 description: "Herramienta de gestión de paquetes para Debian y Ubuntu."
-content_hash: 42e02286eef592d639d92bdaf092768a8ab57d74
+content_hash: 5130e873d5f24a9248eb59971119af52e135679a
 related_topics:
+  - title: català version
+    url: /ca/linux/aptitude.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/aptitude.html
     icon: bi bi-globe
@@ -45,7 +48,7 @@ Más información: <https://manpages.debian.org/latest/aptitude/aptitude.8.html>
 
 `aptitude remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span>
 
-- Actualiza todos los paquetes sus nuevas versiones disponibles:
+- Actualiza todos los paquetes a sus nuevas versiones disponibles:
 
 `aptitude upgrade`
 

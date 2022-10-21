@@ -2,13 +2,16 @@
 layout: page
 title: linux/pacman-upgrade (français)
 description: "Mets à jour ou ajoute des paquets au système."
-content_hash: 6ac6a75f0512e97d3df01c0958e0936f9fb880fd
+content_hash: 4b8d43bef44fc25cfb0df3b62b9c38bb514d2360
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-upgrade.html
     icon: bi bi-globe
   - title: English version
     url: /en/linux/pacman-upgrade.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/pacman-upgrade.html
     icon: bi bi-globe
 ---
 # pacman --upgrade
@@ -34,7 +37,7 @@ Plus d'informations : <https://man.archlinux.org/man/pacman.8>.
 
 - Affiche ce qui se passerait si la commande était exécutée mais sans agir :
 
-`pacman --query --print `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/paquet.pkg.tar.zst</span>
+`pacman --upgrade --print `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/paquet.pkg.tar.zst</span>
 
 - Affiche l'aide :
 
