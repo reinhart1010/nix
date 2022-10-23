@@ -2,7 +2,7 @@
 layout: page
 title: common/dash (English)
 description: "Debian Almquist Shell, a modern, POSIX-compliant implementation of `sh` (not Bash-compatible)."
-content_hash: 3dc7058299d3f84deba3b4493cdabce9ba3ab8ee
+content_hash: d0a778c7bedce1f911f4fcdd27fe9f0da5e7f8da
 related_topics:
   - title: français version
     url: /fr/common/dash.html
@@ -20,22 +20,26 @@ More information: <https://manned.org/dash>.
 
 `dash`
 
-- Execute a command and then exit:
+- Execute specific [c]ommands:
 
-`dash -c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>`"`
+`dash -c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 'dash is executed'</span>`"`
 
-- Execute a script:
+- Execute a specific script:
 
 `dash `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sh</span>
 
-- Run commands from a script, printing each command before executing it:
+- Check a specific script for syntax errors:
+
+`dash -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sh</span>
+
+- Execute a specific script while printing each command before executing it:
 
 `dash -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sh</span>
 
-- Execute commands from a script, stopping at the first error:
+- Execute a specific script and stop at the first [e]rror:
 
 `dash -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sh</span>
 
-- Read and execute commands from stdin:
+- Execute specific commands from stdin:
 
-`dash -s`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "echo 'dash is executed'"</span>` | dash`
