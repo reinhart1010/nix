@@ -2,7 +2,7 @@
 layout: page
 title: linux/pacman-upgrade (தமிழ்)
 description: "ஆர்ச் லினக்ஸ் தொகுப்பு மேலாளர் பயன்பாடு."
-content_hash: 356a73a4adc55803c84fd0aaebb4245354427696
+content_hash: e370e162f1094e456a02560e149ca932bc5e2388
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-upgrade.html
@@ -13,11 +13,11 @@ related_topics:
   - title: français version
     url: /fr/linux/pacman-upgrade.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/pacman-upgrade.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pacman --upgrade
+# pacman --upgrade
 
 ஆர்ச் லினக்ஸ் தொகுப்பு மேலாளர் பயன்பாடு.
 மேலும் விவரத்திற்கு: <https://man.archlinux.org/man/pacman.8>.
@@ -40,7 +40,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 - பாதிக்கப்படக்கூடிய தொகுப்புகளைப் பட்டியலிடுங்கள் (எந்த தொகுப்புகளையும் நிறுவாது):
 
-`pacman --query --print `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/நிரல்தொகுப்பு.pkg.tar.zst</span>
+`pacman --upgrade --print `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/நிரல்தொகுப்பு.pkg.tar.zst</span>
 
 - உதவியைக் காட்டு:
 

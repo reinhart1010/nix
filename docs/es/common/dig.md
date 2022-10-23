@@ -2,7 +2,7 @@
 layout: page
 title: common/dig (español)
 description: "Utilidad de consulta para DNS."
-content_hash: 458273bbed53be4782cbf9a8ddfdef4b67ba1b36
+content_hash: 4539349c8df52d70682884f6ec1f1336414926f9
 related_topics:
   - title: English version
     url: /en/common/dig.html
@@ -20,10 +20,7 @@ related_topics:
     url: /pt_BR/common/dig.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dig
+# dig
 
 Utilidad de consulta para DNS.
 Más información: <https://manned.org/dig>.
@@ -44,7 +41,7 @@ Más información: <https://manned.org/dig>.
 
 `dig `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>` ANY`
 
-- Especifíca un servidor DNS alterno a consultar:
+- Especifica un servidor DNS alterno a consultar:
 
 `dig @`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8.8.8.8</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
 

@@ -1,11 +1,14 @@
 ---
 layout: page
 title: common/asciinema (español)
-description: "Graba y reproduce sesiones de terminal, y opcionalmente compartelas en asciinema.org."
-content_hash: 3ac91facdb8ce1295f094848d00419fcc0057152
+description: "Graba y reproduce sesiones de terminal, y opcionalmente compártelas en asciinema.org."
+content_hash: 7133512459f39d1df6dbf4fb374bc17141689072
 related_topics:
   - title: English version
     url: /en/common/asciinema.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/asciinema.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/asciinema.html
@@ -22,14 +25,14 @@ related_topics:
 ---
 # asciinema
 
-Graba y reproduce sesiones de terminal, y opcionalmente compartelas en asciinema.org.
+Graba y reproduce sesiones de terminal, y opcionalmente compártelas en asciinema.org.
 Más información: <https://asciinema.org/>.
 
 - Asocia el programa local de `asciinema` con una cuenta de asciinema.org:
 
 `asciinema auth`
 
-- Crea una nueva grabación (una vez acabada, se pregutará al usuario si la quiere cuardar en local, o subirla):
+- Crea una nueva grabación (una vez acabada, se preguntará al usuario si la quiere guardar en local, o subirla):
 
 `asciinema rec`
 
