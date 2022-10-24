@@ -2,7 +2,7 @@
 layout: page
 title: common/nano (español)
 description: "Editor sencillo y fácil de usar. Un clon libre y mejorado de Pico."
-content_hash: 4f93e16b6e0b353855630f91c7ed910ffd2409a4
+content_hash: 9e44497651d1dc152a56b9e7f49e6f01ab2b0467
 related_topics:
   - title: English version
     url: /en/common/nano.html
@@ -17,16 +17,7 @@ related_topics:
     url: /pt_BR/common/nano.html
     icon: bi bi-globe
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/nano.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># nano
+# nano
 
 Editor sencillo y fácil de usar. Un clon libre y mejorado de Pico.
 Más información: <https://nano-editor.org>.
@@ -51,6 +42,6 @@ Más información: <https://nano-editor.org>.
 
 `nano --autoindent `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 
-- Abre nano y create un archivo de resguardo (`archivo~`)  cuando se guardan las ediciones:
+- Abre nano y crea un archivo de resguardo (`archivo~`) cuando se guardan las ediciones:
 
 `nano --backup `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>

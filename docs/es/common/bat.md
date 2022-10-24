@@ -2,7 +2,7 @@
 layout: page
 title: common/bat (español)
 description: "Imprime y concatena archivos."
-content_hash: a044e5b724ba59ee7e0e214f1fc65fa0ccb374b2
+content_hash: f6460141306c903a389f7c28f965e1ba32950e47
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html
@@ -12,6 +12,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/bat.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/bat.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/bat.html
@@ -47,7 +50,7 @@ Más información: <https://github.com/sharkdp/bat>.
 
 `bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo2</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_final</span>
 
-- Numera las lineas del archivo:
+- Numera las líneas del archivo:
 
 `bat -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span>
 

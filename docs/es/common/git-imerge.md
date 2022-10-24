@@ -2,7 +2,7 @@
 layout: page
 title: common/git-imerge (español)
 description: "Ejecuta una fusión o rebase entre dos ramas Git incrementalmente."
-content_hash: 41d85303e475bb63fc2f15e895e3398ae53f7522
+content_hash: fd0e91721bfb068ce4f54dd3d45ff60a4c1c1257
 related_topics:
   - title: English version
     url: /en/common/git-imerge.html
@@ -12,6 +12,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-imerge.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-imerge.html
     icon: bi bi-globe
 ---
 # git-imerge
@@ -32,7 +35,7 @@ Más información: <https://github.com/mhagger/git-imerge>.
 
 `git imerge diagram`
 
-- Continua la operación imerge después de resolver los conflictos (primero añade con `git add` los archivos conflictivios):
+- Continua la operación imerge después de resolver los conflictos (primero añade con `git add` los archivos conflictivos):
 
 `git imerge continue --no-edit`
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/git-grep (español)
 description: "Encuentra dentro de archivos en cualquier parte del historial del repositorio."
-content_hash: 373f21d3173bebf7d3faaaed782408668cf08d56
+content_hash: 990db2b3c3c51a21abc48d4bef4b54209bbfe0c5
 related_topics:
   - title: English version
     url: /en/common/git-grep.html
@@ -12,6 +12,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-grep.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-grep.html
     icon: bi bi-globe
 ---
 # git-grep
@@ -28,7 +31,7 @@ Más información: <https://git-scm.com/docs/git-grep>.
 
 `git grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena_a_buscar</span>` -- `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">patrón_de_archivos</span>
 
-- Busca una cadena en los archivos rastreados, incluyendo submodulos:
+- Busca una cadena en los archivos rastreados, incluyendo submódulos:
 
 `git grep --recurse-submodules `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena_a_buscar</span>
 

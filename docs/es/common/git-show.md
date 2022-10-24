@@ -2,7 +2,7 @@
 layout: page
 title: common/git-show (español)
 description: "Muestra varios tipos de objetos Git (commits, etiquetas, etcétera)."
-content_hash: 9aacfa03769111defd636a626531a6226a1d72ff
+content_hash: abe9e3db2599eee54702def004b0055b834f4afe
 related_topics:
   - title: English version
     url: /en/common/git-show.html
@@ -12,6 +12,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-show.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-show.html
     icon: bi bi-globe
 ---
 # git show
@@ -47,6 +50,6 @@ Más información: <https://git-scm.com/docs/git-show>.
 
 `git show --summary `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span>
 
-- Muestra el contenido de una archivo en una revisión específica (por ej., una rama, una etiqueta o un commit):
+- Muestra el contenido de un archivo en una revisión específica (por ej., una rama, una etiqueta o un commit):
 
 `git show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">revisión</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>

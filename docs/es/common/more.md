@@ -2,13 +2,16 @@
 layout: page
 title: common/more (español)
 description: "Abre un archivo para lectura interactiva, permitiendo navegar y buscar."
-content_hash: 3ec62e90fe9999ad76d22394074a2c3444b6701b
+content_hash: 23bec2f5c808e5cc371ab0115a9ada14e5078f64
 related_topics:
   - title: English version
     url: /en/common/more.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/more.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/more.html
     icon: bi bi-globe
 ---
 # more
@@ -20,7 +23,7 @@ Más información: <https://manned.org/more>.
 
 `more `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 
-- Abre un archivo mostrando desde una línea especifica:
+- Abre un archivo mostrando desde una línea específica:
 
 `more +`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero_linea</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 

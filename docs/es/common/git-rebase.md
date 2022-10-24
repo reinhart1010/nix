@@ -2,7 +2,7 @@
 layout: page
 title: common/git-rebase (español)
 description: "Vuelve a aplicar commits de una rama en lo más alto de otra rama."
-content_hash: f03fb5934fa25c20706db33ae8350a91b808b34b
+content_hash: d1cfac2c542363a4c2be35048d83017eca97a906
 related_topics:
   - title: Deutsch version
     url: /de/common/git-rebase.html
@@ -15,6 +15,12 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-rebase.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-rebase.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/git-rebase.html
     icon: bi bi-globe
 ---
 # git rebase
@@ -51,6 +57,6 @@ Más información: <https://git-scm.com/docs/git-rebase>.
 
 `git rebase -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD~5</span>
 
-- Resuelve automáticamente cualquier conflicto favoreciendo la versión de la rama en la que se esta trabajando (en este caso la palabra `theirs` tiene un significado invertido):
+- Resuelve automáticamente cualquier conflicto favoreciendo la versión de la rama en la que se está trabajando (en este caso la palabra `theirs` tiene un significado invertido):
 
 `git rebase -X theirs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rama_de_reorganización</span>

@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/git-rev-parse (español)
-description: "Muestra metados relativos a revisiones específicas."
-content_hash: 6661f810ec06dc82ebc6d811bc706592cf368e40
+description: "Muestra metadatos relativos a revisiones específicas."
+content_hash: 36c1e9dee9ad6bf7e1fe93063b987d04b5ee154a
 related_topics:
   - title: English version
     url: /en/common/git-rev-parse.html
@@ -13,10 +13,13 @@ related_topics:
   - title: italiano version
     url: /it/common/git-rev-parse.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-rev-parse.html
+    icon: bi bi-globe
 ---
 # git rev-parse
 
-Muestra metados relativos a revisiones específicas.
+Muestra metadatos relativos a revisiones específicas.
 Más información: <https://git-scm.com/docs/git-rev-parse>.
 
 - Obtiene el hash del commit de una rama:
