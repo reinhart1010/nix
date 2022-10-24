@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/clang (한국어)
-description: "C, C++ 그리고 Objective-C 소스 파일을 컴파일합니다. GCC의 드롭인 대체로 사용할 수 있습니다."
-content_hash: 1db59dcd06946d9d66a551cfebdb80cf4ab27a72
+description: "C, C++ 그리고 Objective-C 소스 파일을 위한 컴파일러입니다. GCC의 드롭인 대체로 사용할 수 있습니다."
+content_hash: f06b89a1501cd481297d5d3907451da29ddcfcbb
 related_topics:
   - title: English version
     url: /en/common/clang.html
@@ -22,10 +22,10 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 <hr># clang
 
-C, C++ 그리고 Objective-C 소스 파일을 컴파일합니다. GCC의 드롭인 대체로 사용할 수 있습니다.
+C, C++ 그리고 Objective-C 소스 파일을 위한 컴파일러입니다. GCC의 드롭인 대체로 사용할 수 있습니다.
 더 많은 정보: <https://clang.llvm.org/docs/ClangCommandLineReference.html>.
 
-- 실행 가능한 바이너리 파일로 소스 코드를 컴파일합니다:
+- 소스 코드를 실행 가능한 바이너리 파일로 컴파일합니다:
 
 `clang `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">입력_소스.c</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">출력_실행가능파일</span>
 
@@ -40,3 +40,7 @@ C, C++ 그리고 Objective-C 소스 파일을 컴파일합니다. GCC의 드롭�
 - 소스 코드를 LLVM Intermediate Representation(IR)로 컴파일 합니다:
 
 `clang -S -emit-llvm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.c</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일.ll</span>
+
+- 소스 코드를 링킹 없이 컴파일합니다:
+
+`clang -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">입력_소스.c</span>
