@@ -2,7 +2,7 @@
 layout: page
 title: common/find (English)
 description: "Find files or directories under the given directory tree, recursively."
-content_hash: 14314cf3beb415c65c3be978946bede909b3a227
+content_hash: 52e5debf4ff182de90d63fa7608978d8ec5fc7c8
 related_topics:
   - title: français version
     url: /fr/common/find.html
@@ -40,9 +40,9 @@ More information: <https://manned.org/find>.
 
 `find `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">root_path</span>` -name '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.ext</span>`' -exec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wc -l {} </span>`\;`
 
-- Find files modified in the last 7 days and delete them:
+- Find files modified in the last 7 days:
 
-`find `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">root_path</span>` -daystart -mtime -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7</span>` -delete`
+`find `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">root_path</span>` -daystart -mtime -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7</span>
 
 - Find empty (0 byte) files and delete them:
 

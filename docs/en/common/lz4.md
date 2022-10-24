@@ -2,7 +2,7 @@
 layout: page
 title: common/lz4 (English)
 description: "Compress or decompress .lz4 files."
-content_hash: c3a2eeecb21a38370af9df71b1d55c10657fdfe3
+content_hash: 1b8724734429461e7fdd23dced962181b4f63afd
 ---
 # lz4
 
@@ -27,7 +27,7 @@ More information: <https://github.com/lz4/lz4>.
 
 - Decompress and unpack a directory and its contents:
 
-`lz4 -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dir.tar.lz4</span>` | tar -xv`
+`lz4 -dc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dir.tar.lz4</span>` | tar -xv`
 
 - Compress a file using the best compression:
 

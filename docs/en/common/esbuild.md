@@ -2,7 +2,7 @@
 layout: page
 title: common/esbuild (English)
 description: "JavaScript bundler and minifier built for speed."
-content_hash: 1e1cdd311348cd18ffc8cc09ebabda8d916423f7
+content_hash: 6c71ed4f2270dff990f71d8b33d9955560a389d8
 ---
 # esbuild
 
@@ -39,4 +39,4 @@ More information: <https://esbuild.github.io/>.
 
 - Bundle a list of files to an output directory:
 
-`esbuild --bundle --outdir=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>
+`esbuild --bundle --outdir=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
