@@ -2,7 +2,7 @@
 layout: page
 title: common/cpio (italiano)
 description: "Copia file da/a archivi."
-content_hash: 943266115fc5fbf13210d6bebe246dd7e2d282e3
+content_hash: a5a9050194788f74e8af7a82f477e6f52c70e6ba
 related_topics:
   - title: English version
     url: /en/common/cpio.html
@@ -23,7 +23,7 @@ Maggiori informazioni: <https://www.gnu.org/software/cpio>.
 
 - Copia tutti i file e le directory in una directory ed aggiungili ad un archivio, in modalità verbosa:
 
-`find `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` | cpio -ov > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivio.cpio</span>
+`find `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span>` | cpio -ov > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivio.cpio</span>
 
 - Estrai file da un archivio, generando le directory necessarie, in modalità verbosa:
 

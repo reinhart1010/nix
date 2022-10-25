@@ -2,7 +2,7 @@
 layout: page
 title: common/cargo (italiano)
 description: "Gestore di pacchetti di Rust."
-content_hash: 3356c47f27afa5172e9316631397634122b4cde9
+content_hash: f5a62593b607d6b76b13656397b6f470cf059eee
 related_topics:
   - title: Deutsch version
     url: /de/common/cargo.html
@@ -10,11 +10,17 @@ related_topics:
   - title: English version
     url: /en/common/cargo.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/cargo.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/cargo.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/cargo.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/cargo.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/cargo.html
@@ -54,7 +60,7 @@ Maggiori informazioni: <https://crates.io>.
 
 - Crea un nuovo progetto Rust binario o di libreria nella directory specificata:
 
-`cargo new `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/della/directory</span>` --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bin|lib</span>
+`cargo new `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span>` --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bin|lib</span>
 
 - Builda il progetto Rust nella directory corrente:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/cppcheck (italiano)
 description: "Strumento di analisi statica per codice C/C++."
-content_hash: e95289fa61b2b49e8e51f022f4ab2003662483cc
+content_hash: 12952e97036746d180313337ea7f9467a20b8c11
 related_topics:
   - title: English version
     url: /en/common/cppcheck.html
@@ -23,7 +23,7 @@ Maggiori informazioni: <http://cppcheck.sourceforge.net>.
 
 - Controlla una determinata directory ricorsivamente, senza stampare informazioni sul progresso:
 
-`cppcheck --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
+`cppcheck --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span>
 
 - Controlla un determinato file, specificando quali test eseguire (di default, solo gli errori sono mostrati):
 
@@ -43,4 +43,4 @@ Maggiori informazioni: <http://cppcheck.sourceforge.net>.
 
 - Controlla un progetto Microsoft Visual Studio (`*.vcxproj`) o file solution (`*.sln`):
 
-`cppcheck --project=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/progetto.sln</span>
+`cppcheck --project=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/progetto.sln</span>

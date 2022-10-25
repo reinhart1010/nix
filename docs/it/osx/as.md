@@ -2,7 +2,7 @@
 layout: page
 title: osx/as (italiano)
 description: "Assembler GNU portabile."
-content_hash: 13388fd71a4b36d4744e216bf134f4f0da96ec88
+content_hash: 6cf17db989b55af0a0960413c6d7c0f6665b22c1
 related_topics:
   - title: English version
     url: /en/osx/as.html
@@ -37,4 +37,4 @@ Maggiori informazioni: <https://www.unix.com/man-page/osx/1/as/>.
 
 - Includi un percorso dato alla lista delle directory in cui cercare i file specificati nelle direttive `.include`:
 
-`as -I `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.s</span>
+`as -I `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.s</span>

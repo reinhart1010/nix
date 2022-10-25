@@ -2,12 +2,16 @@
 layout: page
 title: windows/nvm (English)
 description: "Install, uninstall, or switch between Node.js versions."
-content_hash: fb41b990bcebfe3661678c14919c07c4ff18212d
+content_hash: 4aa57826b459c27b7572ffdb2a97800ffd970ae2
+related_topics:
+  - title: русский version
+    url: /ru/windows/nvm.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/windows/nvm.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># nvm
+# nvm
 
 Install, uninstall, or switch between Node.js versions.
 Supports version numbers like "12.8" or "v16.13.1", and labels like "stable", "system", etc.
@@ -24,6 +28,10 @@ More information: <https://github.com/coreybutler/nvm-windows>.
 - List all available Node.js versions and highlight the default one:
 
 `nvm list`
+
+- List all remote Node.js versions:
+
+`nvm ls-remote`
 
 - Uninstall a given Node.js version:
 

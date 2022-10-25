@@ -2,7 +2,7 @@
 layout: page
 title: common/chgrp (italiano)
 description: "Cambia il gruppo proprietario di file e directory."
-content_hash: 35bc60539bb0da7b128c7ab6a46ad9c8a8074d58
+content_hash: 54923cafd9e35be91e7dd129600fed374f573b28
 related_topics:
   - title: English version
     url: /en/common/chgrp.html
@@ -32,7 +32,7 @@ Maggiori informazioni: <https://www.gnu.org/software/coreutils/chgrp>.
 
 - Cambia il gruppo proprietario di un link simbolico:
 
-`chgrp -h `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gruppo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/symlink</span>
+`chgrp -h `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gruppo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/symlink</span>
 
 - Cambia il gruppo proprietario di un file/directory rendendolo uguale a quello di un altro file di riferimento:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/alacritty (italiano)
 description: "Multipiattaforma, GPU-accelerato emulatore di terminale."
-content_hash: df84138ca43316c67f6af986a1cffdd35a2a7e19
+content_hash: c3b05d94d0232cdcf3fbd86270debeadbc792a61
 related_topics:
   - title: Deutsch version
     url: /de/common/alacritty.html
@@ -51,7 +51,7 @@ Maggiori informazioni: <https://github.com/alacritty/alacritty>.
 
 - Specifica un file di configurazione alternativo (predefinito a `$XDG_CONFIG_HOME/alacritty/alacritty.yml`):
 
-`alacritty --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config.yml</span>
+`alacritty --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/di/config.yml</span>
 
 - Esegui con ricaricamento configurazione live (può anche essere acceso in `alacritty.yml`):
 

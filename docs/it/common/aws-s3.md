@@ -2,7 +2,7 @@
 layout: page
 title: common/aws-s3 (italiano)
 description: "CLI per AWS S3 - fornisce spazio di archiviazione tramite le interfacce di Amazon Web Services."
-content_hash: 64c659d594bd945f52271dab19878ab129ab8b99
+content_hash: 8581cd1481a8850b215e5c6ed73f08535f0d0898
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-s3.html
@@ -35,7 +35,7 @@ Maggiori informazioni: <https://awscli.amazonaws.com/v2/documentation/api/latest
 
 - Sincronizza file e directory da un bucket in locle:
 
-`aws s3 sync s3://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_bucket</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target</span>
+`aws s3 sync s3://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_bucket</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_cartella</span>
 
 - Sincronizza file e directory escludendo alcuni file o directory:
 

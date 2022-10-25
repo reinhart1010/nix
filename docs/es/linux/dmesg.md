@@ -2,8 +2,11 @@
 layout: page
 title: linux/dmesg (español)
 description: "Escribe los mensajes del núcleo a la salida estándar."
-content_hash: 2cb67c5bad346138d0ab57edcf544b12985093bf
+content_hash: d2698f50dad9fa68fc8b4a5e40063b329c3c4ab2
 related_topics:
+  - title: català version
+    url: /ca/linux/dmesg.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/dmesg.html
     icon: bi bi-globe
@@ -27,7 +30,7 @@ Más información: <https://manned.org/dmesg>.
 
 `dmesg --level err`
 
-- Muestra los mensajes del núcleo y sigue leyedos los nuevos, similar a `tail -f` (disponible en los núcleos 3.5.0 y posteriores):
+- Muestra los mensajes del núcleo y sigue leyendo los nuevos, similar a `tail -f` (disponible en los núcleos 3.5.0 y posteriores):
 
 `dmesg -w`
 

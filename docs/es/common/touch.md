@@ -2,8 +2,11 @@
 layout: page
 title: common/touch (español)
 description: "Cambia el tiempo de accesso y modificación de un archivo (atime, mtime)."
-content_hash: e4c6deb7ac40d1c3cbe8535734f14b1ce2fa4c5e
+content_hash: a77864beb995a34182921a91c07316c0af19d382
 related_topics:
+  - title: català version
+    url: /ca/common/touch.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/touch.html
     icon: bi bi-globe
@@ -41,7 +44,7 @@ Más información: <https://www.gnu.org/software/coreutils/touch>.
 
 `touch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span>
 
-- Establece los tiempos de un archivo a un dia y hora específicos:
+- Establece los tiempos de un archivo a un día y hora específicos:
 
 `touch -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYYMMDDHHMM.SS</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span>
 

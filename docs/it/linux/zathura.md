@@ -2,13 +2,16 @@
 layout: page
 title: linux/zathura (italiano)
 description: "Un visualizzatore di documenti ispirato a vim, con una linea di comando integrata."
-content_hash: 3fdf25d3f74fcc254c8fed9c348daec9e917c1d2
+content_hash: d20a31c387ecd07fbfc73788a1f8b7986f84b1b8
 related_topics:
   - title: Deutsch version
     url: /de/linux/zathura.html
     icon: bi bi-globe
   - title: English version
     url: /en/linux/zathura.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/zathura.html
     icon: bi bi-globe
 ---
 # zathura
@@ -19,7 +22,7 @@ Maggiori informazioni: <https://pwmt.org/projects/zathura/>.
 
 - Aprire un file:
 
-`zathura `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`zathura `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
 
 - Navigare sinistra/sopra/sotto/destra:
 

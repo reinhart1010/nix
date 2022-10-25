@@ -2,8 +2,11 @@
 layout: page
 title: linux/dmidecode (español)
 description: "Muestra la tabla de contenidos del DMI (también conocido como SMBIOS) en un formato legible por humanos."
-content_hash: 23f19cee6592c5c847a9170a8383ab68dc0c41ca
+content_hash: 85879bb8f164704a0b7f483ae008810d11a93a57
 related_topics:
+  - title: català version
+    url: /ca/linux/dmidecode.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/dmidecode.html
     icon: bi bi-globe
@@ -14,7 +17,7 @@ related_topics:
 # dmidecode
 
 Muestra la tabla de contenidos del DMI (también conocido como SMBIOS) en un formato legible por humanos.
-Require de privilegios de root.
+Requiere privilegios de root.
 Más información: <https://manned.org/dmidecode>.
 
 - Muestra todos la tabla de contenidos de DMI:
