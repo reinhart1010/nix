@@ -2,7 +2,7 @@
 layout: page
 title: linux/w (English)
 description: "Display who is logged in and their processes."
-content_hash: 97b36f6eef26a7f14086397bead9d2777845a418
+content_hash: 4538177f1e85d0f6d9b6a67683c2821deb385d65
 related_topics:
   - title: 中文 version
     url: /zh/linux/w.html
@@ -19,7 +19,7 @@ More information: <https://www.geeksforgeeks.org/w-command-in-linux-with-example
 
 - Display information about a specific user:
 
-`w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span>
+`w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>
 
 - Display information without including the header:
 

@@ -2,19 +2,16 @@
 layout: page
 title: common/hunspell (русский)
 description: "Проверка орфографии."
-content_hash: fb27e531e20141bf968b1f287ffe1cb5ae2b54f1
+content_hash: e280fcfadeb26b60c8e040b5602ebaa94e6a9be8
 related_topics:
   - title: English version
     url: /en/common/hunspell.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># hunspell
+# hunspell
 
 Проверка орфографии.
-Больше информации: <https://hunspell.github.io/>.
+Больше информации: <https://github.com/hunspell/hunspell>.
 
 - Проверить орфографию в указанном файле:
 

@@ -2,15 +2,16 @@
 layout: page
 title: linux/ispell (English)
 description: "Interactive spell checking."
-content_hash: 9a5d980c1131bc6d604b6f79f612cbd10ad6a51d
+content_hash: 52f52b37ec4a622051e5c296b05d27379bccfce8
+related_topics:
+  - title: русский version
+    url: /ru/linux/ispell.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ispell
+# ispell
 
 Interactive spell checking.
-More information: <https://www.cs.hmc.edu/~geoff/ispell.html>.
+More information: <https://www.cs.hmc.edu/~geoff/ispell-man.html>.
 
 - Start an interactive session:
 

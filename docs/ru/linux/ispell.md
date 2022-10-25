@@ -2,19 +2,16 @@
 layout: page
 title: linux/ispell (русский)
 description: "Интерактивная проверка орфографии."
-content_hash: ec02dbfcc9221e9ff20f0953b8ef0b860360076b
+content_hash: 4f3210d8bf7a67e673a99a8992f057b4c3fdbe11
 related_topics:
   - title: English version
     url: /en/linux/ispell.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ispell
+# ispell
 
 Интерактивная проверка орфографии.
-Больше информации: <https://www.cs.hmc.edu/~geoff/ispell.html>.
+Больше информации: <https://www.cs.hmc.edu/~geoff/ispell-man.html>.
 
 - Начать интерактивную сессию:
 
