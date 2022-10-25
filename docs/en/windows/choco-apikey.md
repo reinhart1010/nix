@@ -2,7 +2,7 @@
 layout: page
 title: windows/choco-apikey (English)
 description: "Manage API keys for Chocolatey sources."
-content_hash: 64e3bc6e3972486a9f27c139759d41b58364b14a
+content_hash: 5d5d3d32dc648eba99e27ab9fbd842717545050c
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-apikey.html
@@ -10,8 +10,11 @@ related_topics:
   - title: 日本語 version
     url: /ja/windows/choco-apikey.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/choco-apikey.html
+    icon: bi bi-globe
 ---
-# choco-apikey
+# choco apikey
 
 Manage API keys for Chocolatey sources.
 More information: <https://chocolatey.org/docs/commands-apikey>.
