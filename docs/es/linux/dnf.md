@@ -2,16 +2,28 @@
 layout: page
 title: linux/dnf (español)
 description: "Administrador de paquetes para RHEL, CentOS y Fedora (Reemplaza a yum)."
-content_hash: ebc0fbbe6cc6c2537bfcafde8a5f05405b93ae20
+content_hash: 6d676b443b69e67f6816fd7264a02de1eaa42905
 related_topics:
+  - title: català version
+    url: /ca/linux/dnf.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/dnf.html
     icon: bi bi-globe
   - title: English version
     url: /en/linux/dnf.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/dnf.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/dnf.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/dnf.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/linux/dnf.html
     icon: bi bi-globe
 ---
 
@@ -44,7 +56,7 @@ Más información: <https://dnf.readthedocs.io>.
 
 `sudo dnf install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span>
 
-- Instala un nuevo paquete respondiendo si a todas las preguntas:
+- Instala un nuevo paquete respondiendo sí a todas las preguntas:
 
 `sudo dnf install -y `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span>
 

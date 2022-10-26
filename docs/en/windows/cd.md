@@ -2,7 +2,7 @@
 layout: page
 title: windows/cd (English)
 description: "Display the current working directory or move to a different directory."
-content_hash: 1690e6f576386f485f5ca359434858dacdc4dc20
+content_hash: d5da14f9b6f37a386ac5ecb2f6f7c63ef7c2ff7e
 related_topics:
   - title: বাংলা version
     url: /bn/windows/cd.html
@@ -13,6 +13,9 @@ related_topics:
   - title: Indonesia version
     url: /id/windows/cd.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/cd.html
+    icon: bi bi-globe
   - title: 日本語 version
     url: /ja/windows/cd.html
     icon: bi bi-globe
@@ -21,6 +24,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/cd.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/windows/cd.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/windows/cd.html
@@ -34,6 +40,10 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 - Display the path of the current directory:
 
 `cd`
+
+- Go to root of current drive:
+
+`cd\`
 
 - Go up to the parent of the current directory:
 

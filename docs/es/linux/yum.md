@@ -2,19 +2,22 @@
 layout: page
 title: linux/yum (español)
 description: "Administrador de paquetes para RHEL, CentOS y Fedora (para versiones anteriores)."
-content_hash: 5aee7a2755313b8c188b28afc621be378f6262c7
+content_hash: 037312cdc71cb2791a9b016152a8ca33ec189fff
 related_topics:
+  - title: català version
+    url: /ca/linux/yum.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/yum.html
     icon: bi bi-globe
   - title: فارسی version
     url: /fa/linux/yum.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/yum.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># yum
+# yum
 
 Administrador de paquetes para RHEL, CentOS y Fedora (para versiones anteriores).
 Más información: <https://manned.org/yum>.
@@ -23,7 +26,7 @@ Más información: <https://manned.org/yum>.
 
 `yum install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
-- Instala un nuevo paquete respondiendo si a todas las preguntas (también trabaja con actualizaciones, util para actualizaciones automáticas):
+- Instala un nuevo paquete respondiendo sí a todas las preguntas (también trabaja con actualizaciones, útil para actualizaciones automáticas):
 
 `yum -y install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 

@@ -2,8 +2,11 @@
 layout: page
 title: linux/top (español)
 description: "Muestra información dinámica en tiempo real sobre procesos ejecutándose."
-content_hash: e56ef2c672fd932a8266a1de23494587a237e75b
+content_hash: f21671da0b297db1ee64d7394862975cf323fc7f
 related_topics:
+  - title: català version
+    url: /ca/linux/top.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/top.html
     icon: bi bi-globe
@@ -36,7 +39,7 @@ Más información: <https://manned.org/top>.
 
 `top -Hp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_proceso</span>
 
-- Muestra solo los procesos con un(os) PID(s) dado(s), sepadados por comas. (Normalmente no se conoce el PID de antemano. Este ejemplo lo obtiene del nombre del proceso):
+- Muestra solo los procesos con un(os) PID(s) dado(s), separados por comas. (Normalmente no se conoce el PID de antemano. Este ejemplo lo obtiene del nombre del proceso):
 
 `top -p $(pgrep -d ',' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_proceso</span>`)`
 
