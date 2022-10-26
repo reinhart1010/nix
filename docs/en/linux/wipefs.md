@@ -2,7 +2,7 @@
 layout: page
 title: linux/wipefs (English)
 description: "Wipe filesystem, raid, or partition-table signatures from a device."
-content_hash: 1a4b317a979149fd6207e84c030fbaea0b6361b8
+content_hash: e28a4fd67c09fd7d4da4ac4d612751d6338aa192
 ---
 # wipefs
 
@@ -13,9 +13,13 @@ More information: <https://manned.org/wipefs>.
 
 `sudo wipefs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span>
 
-- Wipe all available signatures for specified device:
+- Wipe all available signature types for a specific device with no recursion into partitions:
 
 `sudo wipefs --all `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span>
+
+- Wipe all available signature types for the device and partitions using a glob pattern:
+
+`sudo wipefs --all `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span>`*`
 
 - Perform dry run:
 
