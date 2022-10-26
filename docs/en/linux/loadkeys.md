@@ -2,12 +2,9 @@
 layout: page
 title: linux/loadkeys (English)
 description: "Load the kernel keymap for the console."
-content_hash: 61ab50f06e872e50f0389cc3709adc27a330d90e
+content_hash: 7a8c74b9b044d9671543395fd8469bde3ae3655c
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># loadkeys
+# loadkeys
 
 Load the kernel keymap for the console.
 More information: <https://manned.org/loadkeys>.
@@ -15,6 +12,10 @@ More information: <https://manned.org/loadkeys>.
 - Load a default keymap:
 
 `loadkeys --default`
+
+- Load default keymap when an unusual keymap is loaded and `-` sign cannot be found:
+
+`loadkeys defmap`
 
 - Create a kernel source table:
 
@@ -32,10 +33,10 @@ More information: <https://manned.org/loadkeys>.
 
 `loadkeys --quiet`
 
-- Display help:
+- Load a keymap from the specified file for the console:
 
-`loadkeys --help`
+`loadkeys --console `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ttyN</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/file</span>
 
-- Display version:
+- Use standard names for keymaps of different locales:
 
-`loadkeys --version`
+`loadkeys --console `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/ttyN</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uk</span>

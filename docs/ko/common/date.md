@@ -2,7 +2,7 @@
 layout: page
 title: common/date (한국어)
 description: "시스템 날짜 설정 및 표시."
-content_hash: 3b0084098fa2e8d9a58d01d26045273dbc31db55
+content_hash: 6a2e072d1efa5d588e1f38fcd0daca503afd62cc
 related_topics:
   - title: English version
     url: /en/common/date.html
@@ -37,7 +37,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 - 현재 날짜를 UTC 및 ISO 8601 형식으로 표시:
 
-`date -u +"%Y-%m-%dT%H:%M:%SZ"`
+`date -u +"%Y-%m-%dT%H:%M:%S%Z"`
 
 - 현재 날짜를 Unix 타임스탬프로 표시 (Unix epoch 이후 몇 초):
 

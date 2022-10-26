@@ -2,7 +2,7 @@
 layout: page
 title: common/date (italiano)
 description: "Imposta o mostra data e ora di sistema."
-content_hash: d4157c182787211ca8055ca6261f3994b07441f7
+content_hash: 3b5b7464593a6ad1c3b62c76e746fd2573b1521f
 related_topics:
   - title: English version
     url: /en/common/date.html
@@ -37,7 +37,7 @@ Maggiori informazioni: <https://www.gnu.org/software/coreutils/date>.
 
 - Mostra la data corrente in UTC e formato ISO 8601:
 
-`date -u +"%Y-%m-%dT%H:%M:%SZ"`
+`date -u +"%Y-%m-%dT%H:%M:%S%Z"`
 
 - Mostra la data corrente come timestamp Unix (secondi dall'epoca Unix):
 

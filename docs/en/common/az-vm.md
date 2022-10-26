@@ -2,21 +2,21 @@
 layout: page
 title: common/az-vm (English)
 description: "Manage virtual machines in Azure."
-content_hash: 3b68a6fe18c773ee415583d2c0b7c1855e1e9032
+content_hash: d0a4e943333718c14e74159a6a994a666b1f2f84
 ---
 # az vm
 
 Manage virtual machines in Azure.
-Part of `az`, the command-line client for Microsoft Azure.
+Part of `azure-cli`.
 More information: <https://learn.microsoft.com/cli/azure/vm>.
 
 - List details of available Virtual Machines:
 
 `az vm list`
 
-- Create an `UbuntuServer 18.04 LTS` Virtual Machine and generate ssh keys:
+- Create a virtual machine using the default Ubuntu image and generate ssh keys:
 
-`az vm create --resource-group `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rg</span>` --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span>` --image `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Canonical:UbuntuServer:18.04-LTS:latest</span>` --admin-user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">azureuser</span>` --generate-ssh-keys`
+`az vm create --resource-group `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rg</span>` --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_name</span>` --image `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UbuntuLTS</span>` --admin-user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">azureuser</span>` --generate-ssh-keys`
 
 - Stop a Virtual Machine:
 

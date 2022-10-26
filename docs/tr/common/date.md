@@ -2,7 +2,7 @@
 layout: page
 title: common/date (Türkçe)
 description: "Sistem tarihini görüntüleyin veya ayarlayın."
-content_hash: 1e64fa2f1f26984c93b727daf7a7edfb7da25226
+content_hash: 5e2641008219c16b2c97961804959ff54c1927a9
 related_topics:
   - title: English version
     url: /en/common/date.html
@@ -37,7 +37,7 @@ Daha fazla bilgi: <https://www.gnu.org/software/coreutils/date>.
 
 - Geçerli tarihi UTC ve ISO 8601 formatında görüntüleyin:
 
-`date -u +"%Y-%m-%dT%H:%M:%SZ"`
+`date -u +"%Y-%m-%dT%H:%M:%S%Z"`
 
 - Geçerli tarihi bir Unix zaman damgası olarak görüntüleyin (Unix zamanından bu yana geçen saniyeler):
 

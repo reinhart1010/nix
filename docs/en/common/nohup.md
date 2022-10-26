@@ -2,7 +2,7 @@
 layout: page
 title: common/nohup (English)
 description: "Allows for a process to live when the terminal gets killed."
-content_hash: ac8d8bcff3424e60aee69d1260a0c0632b6c19a7
+content_hash: 6662cdc7ad477b66d127bc3dda0d1613901c79f7
 related_topics:
   - title: فارسی version
     url: /fa/common/nohup.html
@@ -20,7 +20,7 @@ More information: <https://www.gnu.org/software/coreutils/nohup>.
 
 `nohup `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_arguments</span>
 
-- Launch nohup in background mode:
+- Launch `nohup` in background mode:
 
 `nohup `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_arguments</span>` &`
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/date (English)
 description: "Set or display the system date."
-content_hash: e199ff5601b8ee691e35c52ff9c393841829310c
+content_hash: 88340709aed9d77322d57eb598f577aa39cc0369
 related_topics:
   - title: italiano version
     url: /it/common/date.html
@@ -28,7 +28,7 @@ More information: <https://www.gnu.org/software/coreutils/date>.
 
 - Display the current date in UTC, using the ISO 8601 format:
 
-`date -u +%Y-%m-%dT%H:%M:%SZ`
+`date -u +%Y-%m-%dT%H:%M:%S%Z`
 
 - Display the current date as a Unix timestamp (seconds since the Unix epoch):
 
