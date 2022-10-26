@@ -2,8 +2,11 @@
 layout: page
 title: common/arduino (English)
 description: "Arduino Studio - Integrated Development Environment for the Arduino platform."
-content_hash: d1c555f75e2733b1481acfb74280e05c3e0c39f3
+content_hash: 8baf82bb96578fa43c187badf4396983d23dabaa
 related_topics:
+  - title: français version
+    url: /fr/common/arduino.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/arduino.html
     icon: bi bi-globe
@@ -36,3 +39,11 @@ More information: <https://github.com/arduino/Arduino/blob/master/build/shared/m
 - Save any (changed) preferences to `preferences.txt`:
 
 `arduino --save-prefs`
+
+- Install the latest SAM board:
+
+`arduino --install-boards "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arduino:sam</span>`"`
+
+- Install Bridge and Servo libraries:
+
+`arduino --install-library "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Bridge:1.0.0,Servo:1.2.0</span>`"`

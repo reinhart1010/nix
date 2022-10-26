@@ -2,7 +2,7 @@
 layout: page
 title: common/exiftool (English)
 description: "Read and write meta information in files."
-content_hash: 65379227a1c7af224ee010ceef0093e34bb3567d
+content_hash: 12ef498d913a296d88f9f793bd5897e0a1700ca0
 related_topics:
   - title: italiano version
     url: /it/common/exiftool.html
@@ -13,9 +13,17 @@ related_topics:
 Read and write meta information in files.
 More information: <https://exiftool.org>.
 
+- Print the EXIF metadata for a given file:
+
+`exiftool `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+
 - Remove all EXIF metadata from the given files:
 
 `exiftool -All= `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1 file2 ...</span>
+
+- Remove all EXIF metadata from the given image files, then re-add metadata for color and orientation:
+
+`exiftool -All= -tagsfromfile @ -colorspacetags -orientation `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image1 image2 ...</span>
 
 - Move the date at which all photos in a directory were taken 1 hour forward:
 

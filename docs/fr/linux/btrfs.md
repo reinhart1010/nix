@@ -1,8 +1,8 @@
 ---
 layout: page
 title: linux/btrfs (français)
-description: "Un système de fichiers pour Linux basé sur le principe \"copy-on-write\" (COW)."
-content_hash: eef6578c550390224fe2f0934a4847e8d168d752
+description: "Système de fichiers basé sur le principe de copie à l’écriture (\"copy-on-write\", souvent désigné par son sigle anglais COW) pour Linux."
+content_hash: 3212c8b1597d4ae2977cbc84be0506c92d7a55b4
 related_topics:
   - title: English version
     url: /en/linux/btrfs.html
@@ -16,26 +16,26 @@ related_topics:
 ---
 # btrfs
 
-Un système de fichiers pour Linux basé sur le principe "copy-on-write" (COW).
-Certaines commandes comme `btrfs device` ont leur propre documentation.
+Système de fichiers basé sur le principe de copie à l’écriture ("copy-on-write", souvent désigné par son sigle anglais COW) pour Linux.
+Certaines sous-commandes comme `btrfs device` ont leur propre documentation.
 Plus d'informations : <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs>.
 
-- Crée un sous-volume :
+- Créer un sous-volume :
 
-`sudo btrfs subvolume create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/sous-volume</span>
+`sudo btrfs subvolume create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/sous_volume</span>
 
-- Liste les sous-volumes :
+- Lister les sous-volumes :
 
-`sudo btrfs subvolume list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/point/de/montage</span>
+`sudo btrfs subvolume list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/point_de_montage</span>
 
-- Affiche les informations d'utilisation de l'espace :
+- Afficher les informations d'utilisation d'espace :
 
-`sudo btrfs filesystem df `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/point/de/montage</span>
+`sudo btrfs filesystem df `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/point_de_montage</span>
 
-- Active le quota :
+- Activer les quotas :
 
-`sudo btrfs quote enable `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/sous-volume</span>
+`sudo btrfs quota enable `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/sous_volume</span>
 
-- Affiche le quota :
+- Afficher les quotas :
 
-`sudo btrfs qgroup show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/sous-volume</span>
+`sudo btrfs qgroup show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/sous_volume</span>
