@@ -2,7 +2,7 @@
 layout: page
 title: windows/cd (English)
 description: "Display the current working directory or move to a different directory."
-content_hash: d5da14f9b6f37a386ac5ecb2f6f7c63ef7c2ff7e
+content_hash: 34b5607ed71bcb443b8a62a46d4fad87655027dc
 related_topics:
   - title: বাংলা version
     url: /bn/windows/cd.html
@@ -43,7 +43,7 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 - Go to root of current drive:
 
-`cd\`
+`cd \`
 
 - Go up to the parent of the current directory:
 
