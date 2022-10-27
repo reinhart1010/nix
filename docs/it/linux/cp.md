@@ -2,7 +2,7 @@
 layout: page
 title: linux/cp (italiano)
 description: "Copia file e directory."
-content_hash: bd30fac924596969f7e3fcc0d964c4807d557490
+content_hash: 1d8f859604e39dff00b075ff155444ab5c8e6a41
 related_topics:
   - title: català version
     url: /ca/linux/cp.html
@@ -42,7 +42,7 @@ Maggiori informazioni: <https://www.gnu.org/software/coreutils/cp>.
 
 - Copia un file in un'altra posizione:
 
-`cp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">persorso/al/file_da_copiare.est</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_di_destinazione.est</span>
+`cp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_da_copiare.est</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_di_destinazione.est</span>
 
 - Copia un file all'interno di una directory, mantenendone uguale il nome:
 

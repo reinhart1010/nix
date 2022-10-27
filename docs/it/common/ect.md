@@ -2,7 +2,7 @@
 layout: page
 title: common/ect (italiano)
 description: "Efficiente Tool di Compressione (o ECT) è un ottimizzatore di file scritto in C++. Supporta file PNG, JPEG, GZIP e ZIP."
-content_hash: 4ae007ee5c65d8b5f0eabeaf9c53eb4e97ff1e9b
+content_hash: 376a84b322f8c6d3a8401352b143a86d18a11ecd
 related_topics:
   - title: English version
     url: /en/common/ect.html
@@ -29,7 +29,7 @@ Maggiori informazioni: <https://github.com/fhanau/Efficient-Compression-Tool>.
 
 `ect `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.png</span>
 
-- Comprimi un file con il massimo livello di compressione utilizzanto più thread:
+- Comprimi un file con il massimo livello di compressione utilizzando più thread:
 
 `ect -9 --mt-deflate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.png</span>
 

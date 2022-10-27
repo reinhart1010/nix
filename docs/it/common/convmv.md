@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/convmv (italiano)
-description: "Coversione dei nomi dei file (NON del contenuto) da un encoding ad un altro."
-content_hash: 9f45d9fa576d293668c6a0d971d8ef7fd441ea95
+description: "Conversione dei nomi dei file (NON del contenuto) da un encoding ad un altro."
+content_hash: 894379bcc6fdb23813fceeda470d1bfb94d6832e
 related_topics:
   - title: English version
     url: /en/common/convmv.html
@@ -13,7 +13,7 @@ related_topics:
 ---
 # convmv
 
-Coversione dei nomi dei file (NON del contenuto) da un encoding ad un altro.
+Conversione dei nomi dei file (NON del contenuto) da un encoding ad un altro.
 Maggiori informazioni: <https://www.j3e.de/linux/convmv/man/>.
 
 - Controlla la conversione di encoding (non rinomina realmente il file):

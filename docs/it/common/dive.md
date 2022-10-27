@@ -2,7 +2,7 @@
 layout: page
 title: common/dive (italiano)
 description: "Un tool per esplorare immagini Docker, contenuti dei livelli, e ridurne la dimensione."
-content_hash: d20a03e96b8e152577dbae751ffe9019284c3cd4
+content_hash: ddf51b1468bef9f73d4dcacb733978bb75da9cde
 related_topics:
   - title: English version
     url: /en/common/dive.html
@@ -16,7 +16,7 @@ related_topics:
 Un tool per esplorare immagini Docker, contenuti dei livelli, e ridurne la dimensione.
 Maggiori informazioni: <https://github.com/wagoodman/dive>.
 
-- Analizza un'immaigine Docker:
+- Analizza un'immagine Docker:
 
 `dive `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag_immagine</span>
 

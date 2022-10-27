@@ -2,10 +2,16 @@
 layout: page
 title: common/aria2c (italiano)
 description: "Veloce utilità di download."
-content_hash: 9f5b85310d5a1f975f30a1eec832ece5e0b09d6e
+content_hash: 725efa155b55d1d00a03c0e0c507e54f56799fde
 related_topics:
   - title: English version
     url: /en/common/aria2c.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/aria2c.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/aria2c.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/aria2c.html
@@ -49,6 +55,6 @@ Maggiori informazioni: <https://aria2.github.io>.
 
 `aria2c --ftp-user=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>` --ftp-passwd=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
-- Limita la valocità di download (in byte al secondo):
+- Limita la velocità di download (in byte al secondo):
 
 `aria2c --max-download-limit=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">velocità</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>

@@ -2,7 +2,7 @@
 layout: page
 title: common/expand (italiano)
 description: "Converti caratteri tab in spazi."
-content_hash: d5df26f2e4eb30a879dff29e7b68b7065af5f0a6
+content_hash: e83e0b2f4097a652cad6b76723eb6562692ec548
 related_topics:
   - title: English version
     url: /en/common/expand.html
@@ -25,7 +25,7 @@ Maggiori informazioni: <https://www.gnu.org/software/coreutils/expand>.
 
 `expand -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
 
-- Sostituisci i tab con un determinato numeroo di spazi, non 8 (default):
+- Sostituisci i tab con un determinato numero di spazi, non 8 (default):
 
 `expand -t=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero_spazi</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
 

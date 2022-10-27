@@ -2,7 +2,7 @@
 layout: page
 title: common/nvim (italiano)
 description: "Neovim, un editor di testo basato su Vim che offre molti diversi modi di manipolare e navigare il testo."
-content_hash: bd1600ee6ac51478837fd97eb3c4ff51a1cd8846
+content_hash: 87c04b0c27b403d9f243f663c226da3e2696ba84
 related_topics:
   - title: English version
     url: /en/common/nvim.html
@@ -25,7 +25,7 @@ Maggiori informazioni: <https://neovim.io>.
 
 `<Esc>i`
 
-- Copiare ("yank") o cancellare ("delete") la linea corrente (può poi essere copiara con `p` o `P`):
+- Copiare ("yank") o cancellare ("delete") la linea corrente (può poi essere copiata con `p` o `P`):
 
 `<Esc>`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yy|dd</span>
 

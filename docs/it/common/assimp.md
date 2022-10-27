@@ -2,10 +2,13 @@
 layout: page
 title: common/assimp (italiano)
 description: "Client da linea di comando per la Open Asset Import Library."
-content_hash: 6e775f6feffc902159e9cc52c45b585048fb1200
+content_hash: 0440d51e39cb19b329fe554456cae8e9e6949a25
 related_topics:
   - title: English version
     url: /en/common/assimp.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/assimp.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/assimp.html
@@ -35,7 +38,7 @@ Maggiori informazioni: <http://www.assimp.org/>.
 
 - Mostra un riepilogo del contenuto di un file:
 
-`assimp info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percordo/al/file</span>
+`assimp info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
 
 - Elenca tutti i sottocomandi disponibili (detti "verbs"):
 

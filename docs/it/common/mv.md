@@ -2,7 +2,7 @@
 layout: page
 title: common/mv (italiano)
 description: "Sposta o rinomina file e directory."
-content_hash: 0f1033726c5913b1539ee3aa63c08803eb8e3021
+content_hash: aa188eb5daed6e9d35565b5eb702b3b16ba697f7
 related_topics:
   - title: Deutsch version
     url: /de/common/mv.html
@@ -21,6 +21,9 @@ related_topics:
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/mv.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/mv.html
     icon: bi bi-globe
 ---
 
@@ -53,6 +56,6 @@ Maggiori informazioni: <https://www.gnu.org/software/coreutils/mv>.
 
 `mv -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sorgente</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destinazione</span>
 
-- Sposta file in modità verbosa, mostrando a schermo ogni file che viene spostato:
+- Sposta file in modalità verbosa, mostrando a schermo ogni file che viene spostato:
 
 `mv -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sorgente</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destinazione</span>

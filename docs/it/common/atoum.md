@@ -2,7 +2,7 @@
 layout: page
 title: common/atoum (italiano)
 description: "Un semplice, moderno ed intuitivo framework PHP per unit testing."
-content_hash: 159c6557853dc32dcd6d08fb1b1bb20cd6506d6b
+content_hash: adf12c4aa751cb4865e811b6c68210955560e023
 related_topics:
   - title: English version
     url: /en/common/atoum.html
@@ -43,7 +43,7 @@ Maggiori informazioni: <http://atoum.org>.
 
 `atoum -ns `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span>
 
-- Esegui tutti i test con uno speficico tag:
+- Esegui tutti i test con uno specifico tag:
 
 `atoum -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span>
 

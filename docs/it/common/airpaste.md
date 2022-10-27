@@ -2,7 +2,7 @@
 layout: page
 title: common/airpaste (italiano)
 description: "Condividi messaggi e file nella stessa rete."
-content_hash: 619815d379dceed6ea1f3a9d597233fdbd77e193
+content_hash: 47ae051d06573222a25944de3e31c285df12a1bc
 related_topics:
   - title: English version
     url: /en/common/airpaste.html
@@ -25,7 +25,7 @@ related_topics:
 Condividi messaggi e file nella stessa rete.
 Maggiori informazioni: <https://github.com/mafintosh/airpaste>.
 
-- Aspetta un messaggo e mostralo una volta ricevuto:
+- Aspetta un messaggio e mostralo una volta ricevuto:
 
 `airpaste`
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/emacsclient (italiano)
 description: "Apri file in un server emacs esistente."
-content_hash: af5a575388b839ccecd99439b13fe47285817189
+content_hash: 9fe7e7bd7f382f5256936b05f0c87f3b5da51580
 related_topics:
   - title: Deutsch version
     url: /de/common/emacsclient.html
@@ -25,7 +25,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 Apri file in un server emacs esistente.
 Maggiori informazioni: <https://www.emacswiki.org/emacs/EmacsClient>.
 
-- Apri un file in un server Emacs esistene (utilizzando la GUI se disponibile):
+- Apri un file in un server Emacs esistente (utilizzando la GUI se disponibile):
 
 `emacsclient `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_file</span>
 
