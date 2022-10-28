@@ -2,7 +2,7 @@
 layout: page
 title: common/ab (español)
 description: "Herramienta comparativa del servidor Apache HTTP."
-content_hash: 0c91c0f1e43fdcc2536c06b95fac1d2da6d4ded7
+content_hash: b8bd2fffea475a42e9e3833b013c2deb30f38d87
 related_topics:
   - title: Deutsch version
     url: /de/common/ab.html
@@ -52,7 +52,7 @@ Más información: <https://httpd.apache.org/docs/current/programs/ab.html>.
 
 `ab -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application/json</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.json</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
-- Utiliza HTTP [K]eep Alive, es decir, realiza múltiples solitudes dentro de una sesión HTTP:
+- Utiliza HTTP [K]eep Alive, es decir, realiza múltiples solicitudes dentro de una sesión HTTP:
 
 `ab -k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
