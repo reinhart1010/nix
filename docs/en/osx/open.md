@@ -2,7 +2,7 @@
 layout: page
 title: osx/open (English)
 description: "Opens files, directories and applications."
-content_hash: 1d34985989a620bdb4042955a3358f0458e220c5
+content_hash: efa649ddbc99af56eef5b1b8c12c27041f317138
 related_topics:
   - title: Deutsch version
     url: /de/osx/open.html
@@ -45,4 +45,4 @@ More information: <https://ss64.com/osx/open.html>.
 
 - Open a [n]ew instance of an application specified via [b]undle identifier:
 
-`open -n -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.domiain.application</span>
+`open -n -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.domain.application</span>
