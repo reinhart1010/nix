@@ -2,7 +2,7 @@
 layout: page
 title: windows/mkdir (English)
 description: "Creates a directory."
-content_hash: d7927ec4f0a61a9ee749581db261ff0686b6c2b8
+content_hash: 59d4a2009a25c2a6d5e9862012f43be9d2453f0f
 related_topics:
   - title: 日本語 version
     url: /ja/windows/mkdir.html
@@ -24,8 +24,8 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 - Create a directory:
 
-`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory_name</span>
+`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory</span>
 
-- Recursively create a nested directory tree:
+- Create a nested directory tree recursively:
 
-`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/sub_directory_name</span>
+`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/sub_directory</span>
