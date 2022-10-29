@@ -2,12 +2,12 @@
 layout: page
 title: common/django-admin (English)
 description: "Django’s utility for administrative tasks."
-content_hash: cd0a0b92797d5ce8f2c904156b19c512dcdce228
+content_hash: 083398de17d9b5acf7bbedff0f7e0f2273f98a6e
 ---
 # django-admin
 
 Django’s utility for administrative tasks.
-More information: <https://docs.djangoproject.com/en/3.0/ref/django-admin/>.
+More information: <https://docs.djangoproject.com/en/4.1/ref/django-admin/>.
 
 - Create a new Django project:
 
