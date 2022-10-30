@@ -2,18 +2,25 @@
 layout: page
 title: common/airmon-ng (English)
 description: "Activate monitor mode on wireless network devices."
-content_hash: d123aa91c9ed919c1f81bedeea6f284cd8c18d7e
+content_hash: 883b3f22024c5818e807cce3e47dd9a59f888316
 related_topics:
+  - title: français version
+    url: /fr/common/airmon-ng.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/airmon-ng.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/airmon-ng.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/airmon-ng.html
+    icon: bi bi-globe
 ---
 # airmon-ng
 
 Activate monitor mode on wireless network devices.
+Part of `aircrack-ng`.
 More information: <https://www.aircrack-ng.org/doku.php?id=airmon-ng>.
 
 - List wireless devices and their statuses:
