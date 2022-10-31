@@ -2,7 +2,7 @@
 layout: page
 title: common/git-commit (Türkçe)
 description: "Depoya dosya commit'le."
-content_hash: 03584be9d57932cb6bbc01a91450cf710325f164
+content_hash: 9db35e7f067150d7b6638f19e9a7b9566aaf1a37
 related_topics:
   - title: Deutsch version
     url: /de/common/git-commit.html
@@ -41,7 +41,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># git commit
 
 Depoya dosya commit'le.
-Daha fazla bilgi: <https://git-scm.com/docs/git-commit>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-commit>.
 
 - Sahnelenmiş dosyaları belirtilen mesaj ile commit'le:
 

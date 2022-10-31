@@ -2,7 +2,7 @@
 layout: page
 title: android/settings (Türkçe)
 description: "Android işletim sistemi ile ilgili bilgi al."
-content_hash: 98859d46e42401b316c4a6fefc8b2940c087dadf
+content_hash: 9b406895e17a43e7f9e129d385e58bf8ae7b1338
 related_topics:
   - title: Deutsch version
     url: /de/android/settings.html
@@ -16,8 +16,20 @@ related_topics:
   - title: Indonesia version
     url: /id/android/settings.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/android/settings.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/android/settings.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/android/settings.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/android/settings.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/android/settings.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/android/settings.html
@@ -29,7 +41,7 @@ related_topics:
 # settings
 
 Android işletim sistemi ile ilgili bilgi al.
-Daha fazla bilgi: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
+Daha fazla bilgi için: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
 
 - `global` isim alanındaki ayarların sırasını görüntüle:
 

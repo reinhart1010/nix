@@ -2,7 +2,7 @@
 layout: page
 title: linux/pulseaudio (Türkçe)
 description: "Ses sistem arkaplan uygulaması ve yöneticisi."
-content_hash: 9e0eda462dbf1fc26741961260289ff1bc74a656
+content_hash: 4e381af4a3abf66d9b38896afdc93ccdbd15ef0d
 related_topics:
   - title: English version
     url: /en/linux/pulseaudio.html
@@ -14,7 +14,7 @@ related_topics:
 # pulseaudio
 
 Ses sistem arkaplan uygulaması ve yöneticisi.
-Daha fazla bilgi: <https://www.freedesktop.org/wiki/Software/PulseAudio/>.
+Daha fazla bilgi için: <https://www.freedesktop.org/wiki/Software/PulseAudio/>.
 
 - Pulseaudio'nun çalışıp çalışmadığını kontrol et (sıfır olmayan çıktı, çalışmadığı anlamına gelir):
 

@@ -2,7 +2,7 @@
 layout: page
 title: linux/nmcli-monitor (Türkçe)
 description: "NetworkManager bağlantı durumundaki değişiklikleri izleyin."
-content_hash: 29be35313d40034403f37db62154251782e09083
+content_hash: 021a30f0a89e915004d4e1a6d37293a51c68dd80
 related_topics:
   - title: English version
     url: /en/linux/nmcli-monitor.html
@@ -11,7 +11,7 @@ related_topics:
 # nmcli monitor
 
 NetworkManager bağlantı durumundaki değişiklikleri izleyin.
-Daha fazla bilgi: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
+Daha fazla bilgi için: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
 - NetworkManager değişikliklerini izlemeye başla:
 

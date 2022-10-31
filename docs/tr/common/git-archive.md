@@ -2,7 +2,7 @@
 layout: page
 title: common/git-archive (Türkçe)
 description: "İsimlendirilmiş bir ağaçtan dosyaların arşivini oluştur."
-content_hash: 7eefce606ce4883fcd5c08d35babbf95e5cb0376
+content_hash: 24d8f601d6825a3cac9e4edd1495a14a517872c2
 related_topics:
   - title: Deutsch version
     url: /de/common/git-archive.html
@@ -23,7 +23,7 @@ related_topics:
 # git archive
 
 İsimlendirilmiş bir ağaçtan dosyaların arşivini oluştur.
-Daha fazla bilgi: <https://git-scm.com/docs/git-archive>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-archive>.
 
 - Mevcut HEAD'deki içerik ile bir tar arşivi oluştur ve içeriği standart çıktı biçiminde göster:
 

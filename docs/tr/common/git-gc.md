@@ -2,7 +2,7 @@
 layout: page
 title: common/git-gc (Türkçe)
 description: "Gereksiz dosyaları silerek yerel depoyu optimize et."
-content_hash: 23e99c771ee6faa897a54f3013b4ec4fb3cc018c
+content_hash: 998657e0e1453fc4e8111dc74a3dc27af9081346
 related_topics:
   - title: English version
     url: /en/common/git-gc.html
@@ -16,11 +16,14 @@ related_topics:
   - title: italiano version
     url: /it/common/git-gc.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-gc.html
+    icon: bi bi-globe
 ---
 # git gc
 
 Gereksiz dosyaları silerek yerel depoyu optimize et.
-Daha fazla bilgi: <https://git-scm.com/docs/git-gc>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-gc>.
 
 - Depoyu optimize et:
 

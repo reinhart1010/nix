@@ -2,7 +2,7 @@
 layout: page
 title: linux/trash (Türkçe)
 description: "Çöp / geri dönüşüm kutusunu yönetmek için bir komut satırı arayüzü."
-content_hash: 08c5531b79a41f381d0e669aa661b04c7c2445af
+content_hash: cfa930a1fd4292a86f61737f5a655efc7569e3d2
 related_topics:
   - title: English version
     url: /en/linux/trash.html
@@ -11,7 +11,7 @@ related_topics:
 # trash
 
 Çöp / geri dönüşüm kutusunu yönetmek için bir komut satırı arayüzü.
-Daha fazla bilgi: <https://github.com/andreafrancia/trash-cli>.
+Daha fazla bilgi için: <https://github.com/andreafrancia/trash-cli>.
 
 - Bir dosyayı sil (çöpe gönder):
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/mkdir (Türkçe)
 description: "Yeni bir dizin oluştur."
-content_hash: b6e062cf4b96cf728f1ce493b021f5b39e1bc93b
+content_hash: c834fe4a2ae2adef0559d80fd2cc2f37f74415ae
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -35,13 +35,10 @@ related_topics:
     url: /zh_TW/common/mkdir.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mkdir
+# mkdir
 
 Yeni bir dizin oluştur.
-Daha fazla bilgi: <https://www.gnu.org/software/coreutils/mkdir>.
+Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/mkdir>.
 
 - Mevcut dizinde ya da verilen dizinde yeni bir dizin oluştur:
 

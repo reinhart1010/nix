@@ -2,7 +2,7 @@
 layout: page
 title: common/tldrl (Türkçe)
 description: "`tldr-lint` komutunun aynısı."
-content_hash: b36d9b630cccc604ead25f2a7ba960bef6bd578f
+content_hash: 8b6951c15c83b8fef6bb9d2b0a874be063dda0f2
 related_topics:
   - title: bosanski version
     url: /bs/common/tldrl.html
@@ -30,6 +30,9 @@ related_topics:
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/common/tldrl.html
+    icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/common/tldrl.html
     icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/common/tldrl.html
@@ -71,7 +74,7 @@ related_topics:
 # tldrl
 
 `tldr-lint` komutunun aynısı.
-Daha fazla bilgi: <https://github.com/tldr-pages/tldr-lint>.
+Daha fazla bilgi için: <https://github.com/tldr-pages/tldr-lint>.
 
 - Orijinal komut için yardım sayfasını göster:
 

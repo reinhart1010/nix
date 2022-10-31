@@ -2,7 +2,7 @@
 layout: page
 title: android/dumpsys (Türkçe)
 description: "Android sistem servisleri ile ilgili bilgi sağla."
-content_hash: 9a0b7bad359a5009d7002d0fef6fe019dfeed46d
+content_hash: 967fa58686a39c122c8fd177b9265ffa7c18c0c9
 related_topics:
   - title: Deutsch version
     url: /de/android/dumpsys.html
@@ -16,8 +16,17 @@ related_topics:
   - title: Indonesia version
     url: /id/android/dumpsys.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/android/dumpsys.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/android/dumpsys.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/android/dumpsys.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/android/dumpsys.html
     icon: bi bi-globe
   - title: o‘zbek version
     url: /uz/android/dumpsys.html
@@ -33,7 +42,7 @@ related_topics:
 
 Android sistem servisleri ile ilgili bilgi sağla.
 Bu komut yalnızca `adb shell` ile kullanılabilir.
-Daha fazla bilgi: <https://developer.android.com/studio/command-line/dumpsys>.
+Daha fazla bilgi için: <https://developer.android.com/studio/command-line/dumpsys>.
 
 - Tüm sistem servisleri için tanısal bir çıktı al:
 

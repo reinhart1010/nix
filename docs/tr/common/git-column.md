@@ -2,7 +2,7 @@
 layout: page
 title: common/git-column (Türkçe)
 description: "Kolonlarda veri görüntüle."
-content_hash: b71c2c02e52e670db5d47e6cd45de7f10590b52b
+content_hash: 30d275091d476b5a217ad03deda09e495340a26a
 related_topics:
   - title: English version
     url: /en/common/git-column.html
@@ -11,7 +11,7 @@ related_topics:
 # git column
 
 Kolonlarda veri görüntüle.
-Daha fazla bilgi: <https://git-scm.com/docs/git-column>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-column>.
 
 - Standart çıktıyı çoklu kolonlar olarak biçimlendir:
 

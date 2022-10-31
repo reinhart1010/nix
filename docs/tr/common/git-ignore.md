@@ -2,7 +2,7 @@
 layout: page
 title: common/git-ignore (Türkçe)
 description: "Önceden belirlenmiş şablonlarla .gitignore dosyaları oluştur."
-content_hash: 1a8a8e7a7a56c5d1385d7b232f333a0dde76f7d6
+content_hash: caac25dcf2ec878d03ed6b6fc26ac283ee448278
 related_topics:
   - title: English version
     url: /en/common/git-ignore.html
@@ -20,7 +20,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># git ignore
 
 Önceden belirlenmiş şablonlarla .gitignore dosyaları oluştur.
-Daha fazla bilgi: <https://github.com/tj/git-extras/blob/master/Commands.md#git-ignore>.
+Daha fazla bilgi için: <https://github.com/tj/git-extras/blob/master/Commands.md#git-ignore>.
 
 - Mevzut şablonları sırala:
 

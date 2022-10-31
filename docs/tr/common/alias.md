@@ -2,7 +2,7 @@
 layout: page
 title: common/alias (Türkçe)
 description: "Takma adlar/kısayollar oluşturur -- bir komut dizesi ile değiştirilen sözcükler."
-content_hash: f5559a59e6e16f268ac8e79bf3c8fd18b8265e9c
+content_hash: 0c97a74149ef1fb76cce05b9dcb78d91b876f033
 related_topics:
   - title: Deutsch version
     url: /de/common/alias.html
@@ -53,14 +53,11 @@ related_topics:
     url: /zh/common/alias.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># alias
+# alias
 
 Takma adlar/kısayollar oluşturur -- bir komut dizesi ile değiştirilen sözcükler.
 Kısayollar, kabuğun yapılandırma dosyasında (örneğin `~/.bashrc`) tanımlanmadığı sürece geçerli kabuk oturumuyla birlikte sona erer.
-Daha fazla bilgi: <https://tldp.org/LDP/abs/html/aliases.html>.
+Daha fazla bilgi için: <https://tldp.org/LDP/abs/html/aliases.html>.
 
 - Tüm kısayolları listele:
 

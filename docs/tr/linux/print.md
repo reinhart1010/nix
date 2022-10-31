@@ -2,7 +2,7 @@
 layout: page
 title: linux/print (Türkçe)
 description: "`run-mailcap` komutunun print özelliğinin öbür adı."
-content_hash: 5daa4f3ee6a1ca73192a7c757865f92ea863df42
+content_hash: 37cb6ce3e9de517e7f917e507f52418a8259f28d
 related_topics:
   - title: English version
     url: /en/linux/print.html
@@ -12,7 +12,7 @@ related_topics:
 
 `run-mailcap` komutunun print özelliğinin öbür adı.
 Normalde `run-mailcap` komutu mime-tarzı/dosya işlemek için kullanılır.
-Daha fazla bilgi: <https://manned.org/print>.
+Daha fazla bilgi için: <https://manned.org/print>.
 
 - Bir dosyayı yazdır:
 

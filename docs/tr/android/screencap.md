@@ -2,7 +2,7 @@
 layout: page
 title: android/screencap (Türkçe)
 description: "Bir mobil ekranın ekran görüntüsünü alın."
-content_hash: 4fa8e1ac600a1ad78bcb6859417f0c41b7255dbb
+content_hash: 8f6fec2b8bdd077ace9c35e0486ae6c7f863ae92
 related_topics:
   - title: English version
     url: /en/android/screencap.html
@@ -14,14 +14,11 @@ related_topics:
     url: /ta/android/screencap.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># screencap
+# screencap
 
 Bir mobil ekranın ekran görüntüsünü alın.
 Bu komut sadece `adb shell` üzerinden kullanılabilir.
-Daha fazla bilgi: <https://developer.android.com/studio/command-line/adb#screencap>.
+Daha fazla bilgi için: <https://developer.android.com/studio/command-line/adb#screencap>.
 
 - Bir ekran görüntüsü al:
 

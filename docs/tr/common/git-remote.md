@@ -2,7 +2,7 @@
 layout: page
 title: common/git-remote (Türkçe)
 description: "İzlenen depolar dizisini (uzak bağlantıları) yönet."
-content_hash: 7cb18f275a9d145d8341b2bec8cae2e213c165fe
+content_hash: 34ad3259da6890a2b1225aaeef00d792a0733362
 related_topics:
   - title: Deutsch version
     url: /de/common/git-remote.html
@@ -30,12 +30,18 @@ related_topics:
     icon: bi bi-globe
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/git-remote.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># git remote
 
 İzlenen depolar dizisini (uzak bağlantıları) yönet.
-Daha fazla bilgi: <https://git-scm.com/docs/git-remote>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-remote>.
 
 - Varolan uzak bağlantıların isim ve URL'leriyle bir listesini göster:
 

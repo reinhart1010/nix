@@ -2,7 +2,7 @@
 layout: page
 title: common/git-lfs (Türkçe)
 description: "Git depolarındaki büyük dosyalarla çalış."
-content_hash: ce99f4a3cde9021a179c6f6a00ad149f38fa3bf6
+content_hash: 825fb39ef6a22bf7537b423e915f716332c4a574
 related_topics:
   - title: English version
     url: /en/common/git-lfs.html
@@ -20,7 +20,7 @@ related_topics:
 # git lfs
 
 Git depolarındaki büyük dosyalarla çalış.
-Daha fazla bilgi: <https://git-lfs.github.com>.
+Daha fazla bilgi için: <https://git-lfs.github.com>.
 
 - Git LFS'i başlat:
 

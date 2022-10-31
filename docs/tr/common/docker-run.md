@@ -2,13 +2,16 @@
 layout: page
 title: common/docker-run (Türkçe)
 description: "Yeni bir Docker konteynerinde bir komut çalıştır."
-content_hash: a62228ba44d7d4f251bc4eb727ec044d551a878c
+content_hash: 03f75bc7649d00551cf22f2b459b98646347058c
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-run.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/docker-run.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/docker-run.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker-run.html
@@ -26,7 +29,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># docker run
 
 Yeni bir Docker konteynerinde bir komut çalıştır.
-Daha fazla bilgi: <https://docs.docker.com/engine/reference/commandline/run/>.
+Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/run/>.
 
 - Yeni bir konteynerde, etiketlenmiş bir imgeden komut çalıştır:
 

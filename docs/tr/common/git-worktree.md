@@ -2,7 +2,7 @@
 layout: page
 title: common/git-worktree (Türkçe)
 description: "Aynı depoya bağlı çoklu çalışan ağaçları yönet."
-content_hash: 92ed0659051f555b6096f8aefe70b4b19b441bd7
+content_hash: 6a3a2fcce0a4369f594acd26b177f50913e524aa
 related_topics:
   - title: English version
     url: /en/common/git-worktree.html
@@ -20,7 +20,7 @@ related_topics:
 # git worktree
 
 Aynı depoya bağlı çoklu çalışan ağaçları yönet.
-Daha fazla bilgi: <https://git-scm.com/docs/git-worktree>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-worktree>.
 
 - Belirtilen dala sahip yeni bir dizin yarat:
 

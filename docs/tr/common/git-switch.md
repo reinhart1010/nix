@@ -2,7 +2,7 @@
 layout: page
 title: common/git-switch (Türkçe)
 description: "Git dalları arasında geçiş yap. Gir sürümü 2.23+ olmalıdır."
-content_hash: c32e2c53ee1ee8100bd9f2433063d13f32e266f6
+content_hash: b4a68331ecdff915168b19251d85321a2cad200f
 related_topics:
   - title: Deutsch version
     url: /de/common/git-switch.html
@@ -27,7 +27,7 @@ related_topics:
 
 Git dalları arasında geçiş yap. Gir sürümü 2.23+ olmalıdır.
 Ayrıca benzer işlev gören `git checkout` komutuna bakılması önerilir.
-Daha fazla bilgi: <https://git-scm.com/docs/git-switch>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-switch>.
 
 - Varolan bir dala geç:
 

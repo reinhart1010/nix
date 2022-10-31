@@ -2,7 +2,7 @@
 layout: page
 title: android/wm (Türkçe)
 description: "Bir Android cihazının ekranı ile ilgili bilgi göster."
-content_hash: d932a39f504001a027be72dcc2a3b3d3a2f6be52
+content_hash: 6d389d00cd6c3676be7faefe8f58f364cd1dbca2
 related_topics:
   - title: Deutsch version
     url: /de/android/wm.html
@@ -16,8 +16,20 @@ related_topics:
   - title: Indonesia version
     url: /id/android/wm.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/android/wm.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/android/wm.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/android/wm.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/android/wm.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/android/wm.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/android/wm.html
@@ -30,7 +42,7 @@ related_topics:
 
 Bir Android cihazının ekranı ile ilgili bilgi göster.
 Bu komut yalnızca `adb shell` ile kullanılabilir.
-Daha fazla bilgi: <https://adbinstaller.com/commands/adb-shell-wm-5b672b17e7958178a2955538>.
+Daha fazla bilgi için: <https://adbinstaller.com/commands/adb-shell-wm-5b672b17e7958178a2955538>.
 
 - Bir Android cihazının ekranının fiziksel boyutunu görüntüle:
 

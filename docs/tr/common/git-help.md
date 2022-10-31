@@ -2,7 +2,7 @@
 layout: page
 title: common/git-help (Türkçe)
 description: "Git hakkında yardım bilgisi görüntüleme aracı."
-content_hash: d026c13bee9bcd5e1ed12f6d7662961dabacba62
+content_hash: 519088262e37cef9e9dd13ab5c722828cd2638c3
 related_topics:
   - title: Deutsch version
     url: /de/common/git-help.html
@@ -20,7 +20,7 @@ related_topics:
 # git help
 
 Git hakkında yardım bilgisi görüntüleme aracı.
-Daha fazla bilgi: <https://git-scm.com/docs/git-help>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-help>.
 
 - Belirtilmiş Git alt komutu hakkında yardım bilgisi göster:
 

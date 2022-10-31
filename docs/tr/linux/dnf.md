@@ -2,7 +2,7 @@
 layout: page
 title: linux/dnf (Türkçe)
 description: "RHEL, Fedora ve CentOS için paket yönetim aracı (yum'un yerini alır)."
-content_hash: 0aea0d0e2ea97bc596d0c9989ee25cb25dc7c2d7
+content_hash: c02bc3122a42c3d3f0dc3cb3a7a792283f182a2e
 related_topics:
   - title: català version
     url: /ca/linux/dnf.html
@@ -22,14 +22,14 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/dnf.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/dnf.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dnf
+# dnf
 
 RHEL, Fedora ve CentOS için paket yönetim aracı (yum'un yerini alır).
-Daha fazla bilgi: <https://dnf.readthedocs.io>.
+Daha fazla bilgi için: <https://dnf.readthedocs.io>.
 
 - Kurulu paketleri kullanılabilir en yeni sürümlere yükselt:
 

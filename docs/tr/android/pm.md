@@ -2,7 +2,7 @@
 layout: page
 title: android/pm (Türkçe)
 description: "Android cihazındaki uygulamalar ile ilgili bilgi göster."
-content_hash: 4ce78c19381e5d4f0d80067ccb52591b2c2025c2
+content_hash: ac12dd3b53339f041f490fd6dbfbb6ed983d591e
 related_topics:
   - title: Deutsch version
     url: /de/android/pm.html
@@ -16,8 +16,17 @@ related_topics:
   - title: Indonesia version
     url: /id/android/pm.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/android/pm.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/android/pm.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/android/pm.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/android/pm.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/android/pm.html
@@ -29,7 +38,7 @@ related_topics:
 # pm
 
 Android cihazındaki uygulamalar ile ilgili bilgi göster.
-Daha fazla bilgi: <https://developer.android.com/studio/command-line/adb#pm>.
+Daha fazla bilgi için: <https://developer.android.com/studio/command-line/adb#pm>.
 
 - İndirilen tüm uygulamaların sırala:
 

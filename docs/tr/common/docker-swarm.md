@@ -2,7 +2,7 @@
 layout: page
 title: common/docker-swarm (Türkçe)
 description: "Bir konteyner orkestrasyon aracı."
-content_hash: 04804d13eec2c4862e653abc802e5432ebbc7d08
+content_hash: 038a385efeed5cee4b5803047b1f76399047ebd9
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-swarm.html
@@ -10,11 +10,14 @@ related_topics:
   - title: English version
     url: /en/common/docker-swarm.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/docker-swarm.html
+    icon: bi bi-globe
 ---
 # docker swarm
 
 Bir konteyner orkestrasyon aracı.
-Daha fazla bilgi: <https://docs.docker.com/engine/swarm/>.
+Daha fazla bilgi için: <https://docs.docker.com/engine/swarm/>.
 
 - Bir bataklık dizisi oluştur:
 

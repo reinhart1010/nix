@@ -2,7 +2,7 @@
 layout: page
 title: common/git-fsck (Türkçe)
 description: "Git depo indeksindeki düğümlerin geçerliliğini ve bağlantılarını doğrula."
-content_hash: db869d57f1bf52102c1c04fdf5f60c4cf3a1af01
+content_hash: b2ecb25dad515f7743b232d834c028759a8e8b7f
 related_topics:
   - title: English version
     url: /en/common/git-fsck.html
@@ -15,7 +15,7 @@ related_topics:
 
 Git depo indeksindeki düğümlerin geçerliliğini ve bağlantılarını doğrula.
 Düzenleme yapılması tavsiye edilmez. Geçersiz düğümleri çözmek için `git gc` komutu önerilir.
-Daha fazla bilgi: <https://git-scm.com/docs/git-fsck>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-fsck>.
 
 - Mevcut depoyu kontrol et:
 

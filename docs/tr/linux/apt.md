@@ -2,10 +2,16 @@
 layout: page
 title: linux/apt (Türkçe)
 description: "Debian tabanlı dağıtımlar için paket yönetim aracı."
-content_hash: c4ccaf5574abbdfcecea2037b8968000e02c50f2
+content_hash: 48f76325858b16377fded75edc5e54b5ccf9cd2d
 related_topics:
+  - title: العربية version
+    url: /ar/linux/apt.html
+    icon: bi bi-globe
   - title: বাংলা version
     url: /bn/linux/apt.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/linux/apt.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/apt.html
@@ -25,14 +31,23 @@ related_topics:
   - title: italiano version
     url: /it/linux/apt.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/linux/apt.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/apt.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/apt.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/apt.html
     icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/linux/apt.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/apt.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apt.html
@@ -42,7 +57,7 @@ related_topics:
 
 Debian tabanlı dağıtımlar için paket yönetim aracı.
 Ubuntu 16.04 ve sonraki sürümlerde interaktif kullanıldığında `apt-get` için önerilen değiştirme.
-Daha fazla bilgi: <https://manpages.debian.org/latest/apt/apt.8.html>.
+Daha fazla bilgi için: <https://manpages.debian.org/latest/apt/apt.8.html>.
 
 - Kullanılabilir paket ve versiyonların listesini yenile (Bu komutu diğer `apt` komutlarından önce kullanmanız önerilir):
 

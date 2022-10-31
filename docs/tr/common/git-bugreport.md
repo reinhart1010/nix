@@ -2,7 +2,7 @@
 layout: page
 title: common/git-bugreport (Türkçe)
 description: "Sşstem ve kullanıcıdan hata ayıklama bilgisi çeker ve olası bir Git hatasının rapor edilmesi için bu bilgiyi oluşturduğu bir metin dosyasına kaydeder."
-content_hash: 39a47a9c8c3531759b418e9183da7419e95d583e
+content_hash: 1e25ed1bfc0c13394111a8f1fbfb4824105365d8
 related_topics:
   - title: English version
     url: /en/common/git-bugreport.html
@@ -11,7 +11,7 @@ related_topics:
 # git bugreport
 
 Sşstem ve kullanıcıdan hata ayıklama bilgisi çeker ve olası bir Git hatasının rapor edilmesi için bu bilgiyi oluşturduğu bir metin dosyasına kaydeder.
-Daha fazla bilgi: <https://git-scm.com/docs/git-bugreport>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-bugreport>.
 
 - Mevcut dizinde yeni bir hata rapor dosyası oluştur:
 

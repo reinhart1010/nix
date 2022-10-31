@@ -2,7 +2,7 @@
 layout: page
 title: linux/xterm (Türkçe)
 description: "X Ekran Sistemi için terminal öykünücüsü."
-content_hash: b321082e4dd7e0638c646a270b9281c5181b8805
+content_hash: e5d2a17c731f0e264b66f59ec11f939dd86eae5a
 related_topics:
   - title: English version
     url: /en/linux/xterm.html
@@ -14,7 +14,7 @@ related_topics:
 # xterm
 
 X Ekran Sistemi için terminal öykünücüsü.
-Daha fazla bilgi: <https://manned.org/xterm>.
+Daha fazla bilgi için: <https://manned.org/xterm>.
 
 - `Örnek` başlığına sahip bir terminal aç:
 

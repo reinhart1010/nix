@@ -2,7 +2,7 @@
 layout: page
 title: common/git-show-ref (Türkçe)
 description: "Referans sıralamak için git komutu."
-content_hash: 49699e877dc0b6979a9a6331d794e1e95f39f656
+content_hash: bb006ed801e2e7076d4334883c4fdbb6acb25e21
 related_topics:
   - title: English version
     url: /en/common/git-show-ref.html
@@ -17,7 +17,7 @@ related_topics:
 # git show-ref
 
 Referans sıralamak için git komutu.
-Daha fazla bilgi: <https://git-scm.com/docs/git-show-ref>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-show-ref>.
 
 - Depodaki tüm referansları göster:
 

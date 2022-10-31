@@ -2,7 +2,7 @@
 layout: page
 title: common/git-ls-tree (Türkçe)
 description: "Bir ağaç nesnesinin içeriklerini sırala."
-content_hash: 88f731bb8e49056bbaf11921677c767573009582
+content_hash: f99048f0d1b5cc847aa39117f007f75bfd08641b
 related_topics:
   - title: English version
     url: /en/common/git-ls-tree.html
@@ -20,7 +20,7 @@ related_topics:
 # git ls-tree
 
 Bir ağaç nesnesinin içeriklerini sırala.
-Daha fazla bilgi: <https://git-scm.com/docs/git-ls-tree>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-ls-tree>.
 
 - Bir daldaki ağacın içeriklerini sırala:
 

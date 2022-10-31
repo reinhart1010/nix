@@ -2,7 +2,7 @@
 layout: page
 title: linux/nmtui (Türkçe)
 description: "NetworkManager'ı denetlemek için metin tabanlı kullanıcı arayüzü."
-content_hash: 6b6ec0272fa9241e08109b0dc245704d370a4852
+content_hash: aa68813f93326c5dfe17c80577c2d518fde0e385
 related_topics:
   - title: English version
     url: /en/linux/nmtui.html
@@ -11,14 +11,11 @@ related_topics:
     url: /it/linux/nmtui.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># nmtui
+# nmtui
 
 NetworkManager'ı denetlemek için metin tabanlı kullanıcı arayüzü.
 Gezinmek için ok tuşlarını, seçmek için Enter tuşunu kullanın.
-Daha fazla bilgi: <https://networkmanager.dev/docs/api/latest/nmtui.html>.
+Daha fazla bilgi için: <https://networkmanager.dev/docs/api/latest/nmtui.html>.
 
 - Kullanıcı arayüzünü aç:
 

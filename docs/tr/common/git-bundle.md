@@ -2,7 +2,7 @@
 layout: page
 title: common/git-bundle (Türkçe)
 description: "Cisim ve referansları bir arşive paketle."
-content_hash: 6160590aae679bdf36cfd780a0493049c9904d2f
+content_hash: 112e3c4775c6c2861ee9de3fdf98b66a00380fb5
 related_topics:
   - title: English version
     url: /en/common/git-bundle.html
@@ -20,7 +20,7 @@ related_topics:
 # git bundle
 
 Cisim ve referansları bir arşive paketle.
-Daha fazla bilgi: <https://git-scm.com/docs/git-bundle>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-bundle>.
 
 - Belirtilmiş bir dalın tüm cisim ve referanslarını içeren bir paket dosyası oluştur:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/git-annex (Türkçe)
 description: "Git ile dosyaları, dosyaların içeriğine bakmadan yönet."
-content_hash: 9da34a95fa3a12ed47c0da66c77407568a8e1af3
+content_hash: d5598943ec3bfa807bbee9b10d0586ae010ce74d
 related_topics:
   - title: English version
     url: /en/common/git-annex.html
@@ -17,7 +17,7 @@ related_topics:
 # git annex
 
 Git ile dosyaları, dosyaların içeriğine bakmadan yönet.
-Daha fazla bilgi: <https://git-annex.branchable.com>.
+Daha fazla bilgi için: <https://git-annex.branchable.com>.
 
 - Yardım:
 

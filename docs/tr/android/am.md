@@ -2,7 +2,7 @@
 layout: page
 title: android/am (Türkçe)
 description: "Android aktivite yöneticisi."
-content_hash: f44b960d434635a5618537c29335f2af260741d6
+content_hash: 777b90f8d978d4a44c99a508cb4041c31e52340f
 related_topics:
   - title: Deutsch version
     url: /de/android/am.html
@@ -19,8 +19,17 @@ related_topics:
   - title: italiano version
     url: /it/android/am.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/android/am.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/android/am.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/android/am.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/android/am.html
     icon: bi bi-globe
   - title: o‘zbek version
     url: /uz/android/am.html
@@ -35,7 +44,7 @@ related_topics:
 # am
 
 Android aktivite yöneticisi.
-Daha fazla bilgi: <https://developer.android.com/studio/command-line/adb#am>.
+Daha fazla bilgi için: <https://developer.android.com/studio/command-line/adb#am>.
 
 - Belirtilmiş bir aktiviteyi başlat:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/git-format-patch (Türkçe)
 description: "`.patch` dosyaları oluştur. Commit'leri e-posta olarak gönderirken işe yarar."
-content_hash: 1b1e889f248f06b5c1c1e79c9bd76fa062123f42
+content_hash: 4723d0a78a15aff352c6d14626b857f24d8550b6
 related_topics:
   - title: English version
     url: /en/common/git-format-patch.html
@@ -21,7 +21,7 @@ related_topics:
 
 `.patch` dosyaları oluştur. Commit'leri e-posta olarak gönderirken işe yarar.
 Ayrıca benzer bir komut olan `git am` sayfasına bakılması önerilir.
-Daha fazla bilgi: <https://git-scm.com/docs/git-format-patch>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-format-patch>.
 
 - Gönderilmemiş tüm commit'ler için otomatik olarak adlandırılan bir `.patch` dosyası oluştur:
 

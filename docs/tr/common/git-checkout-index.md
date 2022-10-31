@@ -2,16 +2,19 @@
 layout: page
 title: common/git-checkout-index (Türkçe)
 description: "Dosyaları indeksten çalışma ağacına kopyala."
-content_hash: 28ce186053cb5229a430beacb3508a0e53fd77b2
+content_hash: 97f847008655e1a539595fa6b545b6c9e64366d5
 related_topics:
   - title: English version
     url: /en/common/git-checkout-index.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git-checkout-index.html
     icon: bi bi-globe
 ---
 # git checkout-index
 
 Dosyaları indeksten çalışma ağacına kopyala.
-Daha fazla bilgi: <https://git-scm.com/docs/git-checkout-index>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-checkout-index>.
 
 - Son commit'den beri silinen dosyaları geri döndür:
 

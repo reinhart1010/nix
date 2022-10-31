@@ -2,19 +2,16 @@
 layout: page
 title: linux/ip-route (Türkçe)
 description: "IP yönlendirme tablosu yönetimi alt komutu."
-content_hash: 23d9a1c19c9d726e9afa16c3c32b34cc958dd69b
+content_hash: d6b03227a07164ff387ddabce6a4d9a515d01c08
 related_topics:
   - title: English version
     url: /en/linux/ip-route.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ip route
+# ip route
 
 IP yönlendirme tablosu yönetimi alt komutu.
-Daha fazla bilgi: <https://manned.org/ip-route>.
+Daha fazla bilgi için: <https://manned.org/ip-route>.
 
 - Yönlendirme tablosunu görüntüle:
 

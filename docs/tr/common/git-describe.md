@@ -2,7 +2,7 @@
 layout: page
 title: common/git-describe (Türkçe)
 description: "Bir nesneye varolan referans üzerinden insanlar tarafından okunabilecek biçimde olan bir isim ver."
-content_hash: bd45def8e0911561e2edc8b154b89659707ba593
+content_hash: 4827f378d7b8c21046311dbed6ab6ee289631ae5
 related_topics:
   - title: English version
     url: /en/common/git-describe.html
@@ -17,7 +17,7 @@ related_topics:
 # git describe
 
 Bir nesneye varolan referans üzerinden insanlar tarafından okunabilecek biçimde olan bir isim ver.
-Daha fazla bilgi: <https://git-scm.com/docs/git-describe>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-describe>.
 
 - Mevcut commit için (en son eklenmiş etiket, ilave commit'lerin sayısı ve kısaltılmış commit değerini içeren) özel bir isim oluştur:
 

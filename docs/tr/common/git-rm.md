@@ -2,7 +2,7 @@
 layout: page
 title: common/git-rm (Türkçe)
 description: "Dosyaları dizin indeksinden ve yerel dosya sisteminden sil."
-content_hash: a3c8b02a2ae0d5c807fae3115d14d9a6f65589e6
+content_hash: 0841357ce1cc419b160c415fa92cfd76a49889dc
 related_topics:
   - title: Deutsch version
     url: /de/common/git-rm.html
@@ -19,11 +19,14 @@ related_topics:
   - title: italiano version
     url: /it/common/git-rm.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-rm.html
+    icon: bi bi-globe
 ---
 # git rm
 
 Dosyaları dizin indeksinden ve yerel dosya sisteminden sil.
-Daha fazla bilgi: <https://git-scm.com/docs/git-rm>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-rm>.
 
 - Dosyayı dizin indeksinden ve dosya sisteminden sil:
 

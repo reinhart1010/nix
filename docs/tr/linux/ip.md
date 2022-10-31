@@ -2,7 +2,7 @@
 layout: page
 title: linux/ip (Türkçe)
 description: "Yönlendirmeyi, aygıtları, kural yönlendirmesini ve tünelleri görüntüle / değiştir."
-content_hash: 9ca7f9d13a4157c8cd65cc4986b83d8628a059a3
+content_hash: e97c011ca7cb6380c5dd31fad3c22dc835eec670
 related_topics:
   - title: Deutsch version
     url: /de/linux/ip.html
@@ -13,15 +13,15 @@ related_topics:
   - title: français version
     url: /fr/linux/ip.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/ip.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ip
+# ip
 
 Yönlendirmeyi, aygıtları, kural yönlendirmesini ve tünelleri görüntüle / değiştir.
 `ip address` gibi bazı alt komutların kendi kullanım belgeleri vardır.
-Daha fazla bilgi: <https://www.man7.org/linux/man-pages/man8/ip.8.html>.
+Daha fazla bilgi için: <https://www.man7.org/linux/man-pages/man8/ip.8.html>.
 
 - Arayüzlerin bilgilerini ayrıntılı bir şekilde listele:
 

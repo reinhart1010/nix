@@ -2,13 +2,16 @@
 layout: page
 title: common/docker-images (Türkçe)
 description: "Docker imgelerini yönet."
-content_hash: 95d0d1eecc0d8deffaa1fd40649836e99a3e564e
+content_hash: 52946c95b855c1af82299d77033fdf807d0114c2
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-images.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/docker-images.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/docker-images.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/docker-images.html
@@ -26,7 +29,7 @@ related_topics:
 # docker images
 
 Docker imgelerini yönet.
-Daha fazla bilgi: <https://docs.docker.com/engine/reference/commandline/images/>.
+Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/images/>.
 
 - Tüm Docker imgelerini listele:
 

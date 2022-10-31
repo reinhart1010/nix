@@ -2,7 +2,7 @@
 layout: page
 title: android/input (Türkçe)
 description: "Olay kodlarını ve dokunmatik ekran mimiklerini bir Android cihazına yolla."
-content_hash: d17a492381907a150b44c097334207b0680794b0
+content_hash: 50d9aef419acb784ed1b614a293e4c6e0bb33972
 related_topics:
   - title: Deutsch version
     url: /de/android/input.html
@@ -16,8 +16,20 @@ related_topics:
   - title: Indonesia version
     url: /id/android/input.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/android/input.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/android/input.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/android/input.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/android/input.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/android/input.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/android/input.html
@@ -30,7 +42,7 @@ related_topics:
 
 Olay kodlarını ve dokunmatik ekran mimiklerini bir Android cihazına yolla.
 Bu komut yalnızca `adb shell` ile kullanılabilir.
-Daha fazla bilgi: <https://developer.android.com/reference/android/view/KeyEvent.html#constants_1>.
+Daha fazla bilgi için: <https://developer.android.com/reference/android/view/KeyEvent.html#constants_1>.
 
 - Bir Android cihazına tek karakter için etkinlik kodu gönder:
 

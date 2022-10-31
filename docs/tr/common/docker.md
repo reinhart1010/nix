@@ -2,7 +2,7 @@
 layout: page
 title: common/docker (Türkçe)
 description: "Docker konteyner ve imgelerini yönetir."
-content_hash: 4b71dc78bbda35bdf4702d7c9d695472cfa433be
+content_hash: 9651d83e2d8e3a482052105d2ef26a09229b7551
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -39,7 +39,7 @@ related_topics:
 
 Docker konteyner ve imgelerini yönetir.
 `docker run` gibi bazı alt komutların kendi dökümantasyonu bulunmaktadır.
-Daha fazla bilgi: <https://docs.docker.com/engine/reference/commandline/cli/>.
+Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
 - Şuan çalışan docker konteynerlerini listele:
 

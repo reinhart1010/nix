@@ -2,13 +2,16 @@
 layout: page
 title: common/chroot (Türkçe)
 description: "Komut veya etkileşimli komut satırını özel kök diziniyle çalıştırır."
-content_hash: 1bb12e8618c51ddc20aa9e1e69de64eecf8d795c
+content_hash: 23375ed3f32ee090f949fb1969e6dc0135e5da05
 related_topics:
   - title: Deutsch version
     url: /de/common/chroot.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/chroot.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/chroot.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/chroot.html
@@ -23,7 +26,7 @@ related_topics:
 # chroot
 
 Komut veya etkileşimli komut satırını özel kök diziniyle çalıştırır.
-Daha fazla bilgi: <https://www.gnu.org/software/coreutils/chroot>.
+Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/chroot>.
 
 - Komutu yeni kök dizini olarak çalıştır:
 

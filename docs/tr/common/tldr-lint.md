@@ -2,7 +2,7 @@
 layout: page
 title: common/tldr-lint (Türkçe)
 description: "`tldr` sayfalarını gözden geçir ve biçimlendir."
-content_hash: ed407756c9ba452e7a84dde31d5fb437becdbfa2
+content_hash: 1761e453aed7542d9c68a5b8aaf02554f47684f9
 related_topics:
   - title: English version
     url: /en/common/tldr-lint.html
@@ -17,7 +17,7 @@ related_topics:
 # tldr-lint
 
 `tldr` sayfalarını gözden geçir ve biçimlendir.
-Daha fazla bilgi: <https://github.com/tldr-pages/tldr-lint>.
+Daha fazla bilgi için: <https://github.com/tldr-pages/tldr-lint>.
 
 - Tüm sayfaları gözden geçir:
 

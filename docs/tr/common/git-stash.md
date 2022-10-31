@@ -2,7 +2,7 @@
 layout: page
 title: common/git-stash (Türkçe)
 description: "Yerel Git düzenlemelerini geçici bir alanda sakla."
-content_hash: fa0032bd10ffb013cce0f312ecf965cb92183e5a
+content_hash: f40eaa9332f8a0a71ffa112d4682339ec756e1ce
 related_topics:
   - title: English version
     url: /en/common/git-stash.html
@@ -20,7 +20,7 @@ related_topics:
 # git stash
 
 Yerel Git düzenlemelerini geçici bir alanda sakla.
-Daha fazla bilgi: <https://git-scm.com/docs/git-stash>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-stash>.
 
 - Yeni (izlenmeyen) dosyalar hariç mevcut değişiklikleri sakla:
 

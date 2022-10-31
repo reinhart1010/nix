@@ -2,7 +2,7 @@
 layout: page
 title: common/tldr (Türkçe)
 description: "Komut satırı araçları için tldr-pages projesinden basit yardım sayfaları görüntüler."
-content_hash: 152b8324ae56ea8afa25db235d7aecdaa3cc0fc5
+content_hash: 777c980fbb3ac65de3ffff55d4ab48a70f407c41
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
@@ -21,6 +21,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/tldr.html
+    icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/common/tldr.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/tldr.html
@@ -47,7 +50,7 @@ related_topics:
 # tldr
 
 Komut satırı araçları için tldr-pages projesinden basit yardım sayfaları görüntüler.
-Daha fazla bilgi: <https://tldr.sh>.
+Daha fazla bilgi için: <https://tldr.sh>.
 
 - Bir komutun tipik kullanımını göster (ipucu: burayı görüntülemek için kullandığınız komutun aynısı!):
 

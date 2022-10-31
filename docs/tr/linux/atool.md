@@ -2,19 +2,16 @@
 layout: page
 title: linux/atool (Türkçe)
 description: "Çeşitli biçimlerdeki arşivleri yönetin."
-content_hash: 35e408991247033da296981c0a43627a8eee9eca
+content_hash: 31130cb159ff6ebd045d1a7d8633d72a515ac656
 related_topics:
   - title: English version
     url: /en/linux/atool.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># atool
+# atool
 
 Çeşitli biçimlerdeki arşivleri yönetin.
-Daha fazla bilgi: <https://www.nongnu.org/atool/>.
+Daha fazla bilgi için: <https://www.nongnu.org/atool/>.
 
 - Bir zip arşivindeki dosyaları listele:
 

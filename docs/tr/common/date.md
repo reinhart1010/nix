@@ -2,7 +2,7 @@
 layout: page
 title: common/date (Türkçe)
 description: "Sistem tarihini görüntüleyin veya ayarlayın."
-content_hash: 5e2641008219c16b2c97961804959ff54c1927a9
+content_hash: a54eea801555a4e87622669348a3072af0eecd39
 related_topics:
   - title: English version
     url: /en/common/date.html
@@ -29,7 +29,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># date
 
 Sistem tarihini görüntüleyin veya ayarlayın.
-Daha fazla bilgi: <https://www.gnu.org/software/coreutils/date>.
+Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/date>.
 
 - Varsayılan yerel biçimi kullanarak geçerli tarihi görüntüleyin:
 

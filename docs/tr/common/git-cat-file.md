@@ -2,7 +2,7 @@
 layout: page
 title: common/git-cat-file (Türkçe)
 description: "Git depo cisimlerine dair içerik, tür ve boyut bilgisini sağla."
-content_hash: 33a50cfcb3d75a692155264d819d586e2544c3f5
+content_hash: 4634e277ea1758e8f7eae007f39847ecf6d1530e
 related_topics:
   - title: English version
     url: /en/common/git-cat-file.html
@@ -20,7 +20,7 @@ related_topics:
 # git cat-file
 
 Git depo cisimlerine dair içerik, tür ve boyut bilgisini sağla.
-Daha fazla bilgi: <https://git-scm.com/docs/git-cat-file>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-cat-file>.
 
 - HEAD commit'inin byte bazında boyutunu öğren:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/git-status (Türkçe)
 description: "Bir git deposundaki dosyalara yapılan değişiklikleri göster."
-content_hash: 0d9eac2b479dbf82346faba67413a07a524c56b5
+content_hash: 6e16453b4123473ccfedf6ab3666d588f608cb46
 related_topics:
   - title: Deutsch version
     url: /de/common/git-status.html
@@ -33,7 +33,7 @@ related_topics:
 
 Bir git deposundaki dosyalara yapılan değişiklikleri göster.
 Mevcut commit'e kıyasla değiştirilen, eklenen ve silinen dosyaları sıralar.
-Daha fazla bilgi: <https://git-scm.com/docs/git-status>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-status>.
 
 - Daha commit'e eklenmemiş değiştirilen dosyaları göster:
 

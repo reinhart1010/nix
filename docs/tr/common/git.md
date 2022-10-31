@@ -2,7 +2,7 @@
 layout: page
 title: common/git (Türkçe)
 description: "Dağıtım sürüö kontrol sistemi."
-content_hash: b60c516b8d2b59a07b486f52f4d20fd9dbf71a66
+content_hash: 006212cdbb3e5a5a7345d6d53044599e9171c9f6
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
@@ -22,6 +22,12 @@ related_topics:
   - title: italiano version
     url: /it/common/git.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git.html
+    icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/common/git.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/git.html
     icon: bi bi-globe
@@ -34,11 +40,14 @@ related_topics:
   - title: українська version
     url: /uk/common/git.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/git.html
+    icon: bi bi-globe
 ---
 # git
 
 Dağıtım sürüö kontrol sistemi.
-Daha fazla bilgi: <https://git-scm.com/>.
+Daha fazla bilgi için: <https://git-scm.com/>.
 
 - Git sürümünü kontrol et:
 

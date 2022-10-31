@@ -2,7 +2,7 @@
 layout: page
 title: common/gitsome (Türkçe)
 description: "GitHub için gh komutuyla erişilebilen terminal tabanlı arayüz."
-content_hash: 8ade75c6402cfb9bdd4d1f81b100f759457db29c
+content_hash: 8c4015fbea4c046957be6f8d5c6a473fcd1eed64
 related_topics:
   - title: English version
     url: /en/common/gitsome.html
@@ -12,7 +12,7 @@ related_topics:
 
 GitHub için gh komutuyla erişilebilen terminal tabanlı arayüz.
 Ayrıca `git` komutları için menu tarzı otomatik tamamlanmış öneriler sunar.
-Daha fazla bilgi: <https://github.com/donnemartin/gitsome>.
+Daha fazla bilgi için: <https://github.com/donnemartin/gitsome>.
 
 - Otomatik tamamlamayı ve Git ile gh komutları için etkileşimli yardımı etkinleştirmek için gitsome kabuğuna gir:
 

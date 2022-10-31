@@ -2,20 +2,17 @@
 layout: page
 title: linux/wl-copy (Türkçe)
 description: "Wayland için pano değiştirme aracı."
-content_hash: dd57e845d72e8f0d3a1ea3f3cede5d5de3656ae9
+content_hash: e730d467bf960e3b1eaf07fa96c88d4cb6753794
 related_topics:
   - title: English version
     url: /en/linux/wl-copy.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># wl-copy
+# wl-copy
 
 Wayland için pano değiştirme aracı.
 Ayrıca bakın: `wl-paste`.
-Daha fazla bilgi: <https://github.com/bugaevc/wl-clipboard>.
+Daha fazla bilgi için: <https://github.com/bugaevc/wl-clipboard>.
 
 - Metni panoya kopyala:
 

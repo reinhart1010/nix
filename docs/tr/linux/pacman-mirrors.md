@@ -2,7 +2,7 @@
 layout: page
 title: linux/pacman-mirrors (Türkçe)
 description: "Manjaro Linux için pacman aynalistesi oluşturucu."
-content_hash: b3c5c226d671aa1ea7bb42cc221fcef80a508bca
+content_hash: c3c995c95fef1a16bbcfa47a4698af68152ea6c4
 related_topics:
   - title: English version
     url: /en/linux/pacman-mirrors.html
@@ -10,12 +10,15 @@ related_topics:
   - title: français version
     url: /fr/linux/pacman-mirrors.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/pacman-mirrors.html
+    icon: bi bi-globe
 ---
 # pacman-mirrors
 
 Manjaro Linux için pacman aynalistesi oluşturucu.
 pacman-mirrors'ın çalıştırıldığı her vakit, E`sudo pacman -Syyu` komutu ile veritabanının senkronize edilmesi ve sistemin güncellenmesi gerekir.
-Daha fazla bilgi: <https://wiki.manjaro.org/index.php?title=Pacman-mirrors>.
+Daha fazla bilgi için: <https://wiki.manjaro.org/index.php?title=Pacman-mirrors>.
 
 - Varsayılan ayarlar ile bir aynalistesi oluştur:
 

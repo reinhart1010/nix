@@ -2,7 +2,7 @@
 layout: page
 title: common/gitk (Türkçe)
 description: "Görsel Git depo tarayıcısı."
-content_hash: ed0b7fdafbd6b8aefa438b8313ba8e7a4ca46773
+content_hash: 46bae2b906bae74ff0943f2435ddfb1d78b732cc
 related_topics:
   - title: English version
     url: /en/common/gitk.html
@@ -11,7 +11,7 @@ related_topics:
 # gitk
 
 Görsel Git depo tarayıcısı.
-Daha fazla bilgi: <https://git-scm.com/docs/gitk>.
+Daha fazla bilgi için: <https://git-scm.com/docs/gitk>.
 
 - Mevcut Git deposu için depo tarayıcısını göster:
 

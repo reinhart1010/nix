@@ -2,8 +2,11 @@
 layout: page
 title: common/nginx (Türkçe)
 description: "Nginx web sunucusu."
-content_hash: f4fa2fd5b5a91a6776707a8d91ffefb7ba11e41e
+content_hash: 9c5c68cc9412b7b4c30f30af1170f34dbc14a1ac
 related_topics:
+  - title: Deutsch version
+    url: /de/common/nginx.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/nginx.html
     icon: bi bi-globe
@@ -11,7 +14,7 @@ related_topics:
 # nginx
 
 Nginx web sunucusu.
-Daha fazla bilgi: <https://nginx.org/en/>.
+Daha fazla bilgi için: <https://nginx.org/en/>.
 
 - Varsayılan konfigürasyon dosyasıyla sunucuyu başlat:
 

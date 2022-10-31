@@ -2,7 +2,7 @@
 layout: page
 title: common/cat (Türkçe)
 description: "Dosyaları yazdırın ve birleştirin."
-content_hash: 5e8580f457bdb17799cd5f3bb656812e8f1000e7
+content_hash: 3cce98908c78d45b266b5f17844dee3630a40bc1
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -31,6 +31,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cat.html
     icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/cat.html
+    icon: bi bi-globe
   - title: norsk bokmål (Norge) version
     url: /no/common/cat.html
     icon: bi bi-globe
@@ -47,13 +50,10 @@ related_topics:
     url: /zh_TW/common/cat.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cat
+# cat
 
 Dosyaları yazdırın ve birleştirin.
-Daha fazla bilgi: <https://www.gnu.org/software/coreutils/cat>.
+Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/cat>.
 
 - Bir dosyanın içeriğini standart çıktıya yazdırın:
 

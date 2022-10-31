@@ -2,7 +2,7 @@
 layout: page
 title: common/git-instaweb (Türkçe)
 description: "gitweb sunucusu başlatmak için yardımcı araç."
-content_hash: c504b6f6d7e9bd32c68569cefccd65a3bd9fbc20
+content_hash: e0665b5a9ada15eecb52bd0efe91807cee2b1904
 related_topics:
   - title: English version
     url: /en/common/git-instaweb.html
@@ -17,7 +17,7 @@ related_topics:
 # git instaweb
 
 gitweb sunucusu başlatmak için yardımcı araç.
-Daha fazla bilgi: <https://git-scm.com/docs/git-instaweb>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-instaweb>.
 
 - Mevcut Git deposu için bir gitweb sunucusu başlat:
 

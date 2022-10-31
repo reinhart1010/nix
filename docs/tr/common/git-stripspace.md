@@ -2,7 +2,7 @@
 layout: page
 title: common/git-stripspace (Türkçe)
 description: "Gereksiz boşlukları sil."
-content_hash: 6fa29832fddff01eb3e0c696dc8a8c259345f6a1
+content_hash: fdfcc61502b11f2de56916c10a51db7f2f157075
 related_topics:
   - title: English version
     url: /en/common/git-stripspace.html
@@ -11,7 +11,7 @@ related_topics:
 # git stripspace
 
 Gereksiz boşlukları sil.
-Daha fazla bilgi: <https://git-scm.com/docs/git-stripspace>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-stripspace>.
 
 - Gereksiz boşlukları dosyadan kırp:
 

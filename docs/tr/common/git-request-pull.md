@@ -2,7 +2,7 @@
 layout: page
 title: common/git-request-pull (Türkçe)
 description: "Ana projeye yerelde yapılan değişiklikleri kendi ağacına çekmesini sormak için izin hazırla."
-content_hash: a8fb14bbd8cc1076f031213e9e48433350d6800c
+content_hash: b976266063713d6a3a445bceed1b8148e20f540b
 related_topics:
   - title: English version
     url: /en/common/git-request-pull.html
@@ -14,7 +14,7 @@ related_topics:
 # git request-pull
 
 Ana projeye yerelde yapılan değişiklikleri kendi ağacına çekmesini sormak için izin hazırla.
-Daha fazla bilgi: <https://git-scm.com/docs/git-request-pull>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-request-pull>.
 
 - v1.1 sürümü ve belirtilen dal arasındaki değişiklikleri özetleyen bir izin üret:
 

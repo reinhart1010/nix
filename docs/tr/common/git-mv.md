@@ -2,7 +2,7 @@
 layout: page
 title: common/git-mv (Türkçe)
 description: "Dosyaları taşı veya yeniden adlandır ve Git indeksini güncelle."
-content_hash: 156f3d4dd99b28c2a4b223447a02106a53c5528b
+content_hash: d607c22562d3b76f44843a13efdde6a22b3a1e8c
 related_topics:
   - title: English version
     url: /en/common/git-mv.html
@@ -23,7 +23,7 @@ related_topics:
 # git mv
 
 Dosyaları taşı veya yeniden adlandır ve Git indeksini güncelle.
-Daha fazla bilgi: <https://git-scm.com/docs/git-mv>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-mv>.
 
 - Depo içindeki dosyayı taşı ve bu hareketi sonraki commit'e ekle:
 

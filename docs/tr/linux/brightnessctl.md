@@ -2,7 +2,7 @@
 layout: page
 title: linux/brightnessctl (Türkçe)
 description: "GNU/Linux işletim sistemlerinde cihaz parlaklığını okumak ve kontrol etmek için yardımcı program."
-content_hash: db1765511ed12aa4a94ccd2204fba72d5c1517b7
+content_hash: ea0a1b9733f1c051b00a12df2b9f1f7b7c703d64
 related_topics:
   - title: English version
     url: /en/linux/brightnessctl.html
@@ -14,13 +14,10 @@ related_topics:
     url: /zh/linux/brightnessctl.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># brightnessctl
+# brightnessctl
 
 GNU/Linux işletim sistemlerinde cihaz parlaklığını okumak ve kontrol etmek için yardımcı program.
-Daha fazla bilgi: <https://github.com/Hummer12007/brightnessctl>.
+Daha fazla bilgi için: <https://github.com/Hummer12007/brightnessctl>.
 
 - Değiştirilebilir parlaklığa sahip cihazları listele:
 

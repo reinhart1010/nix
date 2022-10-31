@@ -2,7 +2,7 @@
 layout: page
 title: common/dirs (Türkçe)
 description: "Dizin yığını görüntüler veya üzerinde oynama yapar."
-content_hash: 0bf99a9a6cf5e0c1e7207c60051a5dc03ac5ea9c
+content_hash: 72e5adfab27f07a9a23e9cd6055f2ecc8b0747d9
 related_topics:
   - title: Deutsch version
     url: /de/common/dirs.html
@@ -21,7 +21,7 @@ related_topics:
 
 Dizin yığını görüntüler veya üzerinde oynama yapar.
 Dizin yığını, `pushd` ve `popd` komutlarıyla üzerinde oynama yapılabilen, son ziyaret edilen dizinleri gösteren bir listedir.
-Daha fazla bilgi: <https://www.gnu.org/software/bash/manual/bash.html#Directory-Stack-Builtins>.
+Daha fazla bilgi için: <https://www.gnu.org/software/bash/manual/bash.html#Directory-Stack-Builtins>.
 
 - Dizin yığınını her madde arasında boşluk olacak şekilde görüntüle:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/git-submodule (Türkçe)
 description: "Alt modülleri incele, güncelle ve yönet."
-content_hash: f37838e214894193c5ab6264252325a107118c07
+content_hash: bd1c68734686a3e366829e586bb50f2ff5f32ee7
 related_topics:
   - title: English version
     url: /en/common/git-submodule.html
@@ -20,7 +20,7 @@ related_topics:
 # git submodule
 
 Alt modülleri incele, güncelle ve yönet.
-Daha fazla bilgi: <https://git-scm.com/docs/git-submodule>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-submodule>.
 
 - Deponun belirtilen alt modüllerini indir:
 

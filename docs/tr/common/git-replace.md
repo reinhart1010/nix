@@ -2,7 +2,7 @@
 layout: page
 title: common/git-replace (Türkçe)
 description: "Nesnelerin yerini değiştirmek için referans oluştur, sırala ve sil."
-content_hash: 8f6e48ca98c30c0ed86f0fc110a164d62ec70fc9
+content_hash: 0f9b0d2a92d188299f7ca1cf397da15ad10fe33f
 related_topics:
   - title: English version
     url: /en/common/git-replace.html
@@ -14,7 +14,7 @@ related_topics:
 # git replace
 
 Nesnelerin yerini değiştirmek için referans oluştur, sırala ve sil.
-Daha fazla bilgi: <https://git-scm.com/docs/git-replace>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-replace>.
 
 - Öbür commit'lere dokunmadan bir commit'in başka bir commit ile yerini değiştir:
 

@@ -2,10 +2,13 @@
 layout: page
 title: common/git-annotate (Türkçe)
 description: "Her satırdaki dosyanın yanında en son commit değeri ve yazarını göster."
-content_hash: 50e718ef34cbc255f0b2624423cd8a8d175a5a51
+content_hash: 3edea2333adc46c2da0d8062c5d1e2f0123a8ba1
 related_topics:
   - title: English version
     url: /en/common/git-annotate.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-annotate.html
     icon: bi bi-globe
 ---
 # git annotate
@@ -13,7 +16,7 @@ related_topics:
 Her satırdaki dosyanın yanında en son commit değeri ve yazarını göster.
 Ayrıca `git annotate` yerine tercih edilen `git blame` sayfasına bakılması önerilir.
 `git annotate`, git dışındaki sürüm kontrol sistemlerine aşina olanlar için sağlanmıştır.
-Daha fazla bilgi: <https://git-scm.com/docs/git-annotate>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-annotate>.
 
 - Bir dosyayı, her satırında son commit değeri ve yazarı bulunacak şekilde göster:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/dirsearch (Türkçe)
 description: "Ağ yolu tarayıcı."
-content_hash: e859b99570cf51ce0644939ea556b43a72cc952d
+content_hash: 538f8f3fa256632a1991fe354dc5e3b5f6efdcfb
 related_topics:
   - title: English version
     url: /en/common/dirsearch.html
@@ -11,7 +11,7 @@ related_topics:
 # dirsearch
 
 Ağ yolu tarayıcı.
-Daha fazla bilgi: <https://github.com/maurosoria/dirsearch>.
+Daha fazla bilgi için: <https://github.com/maurosoria/dirsearch>.
 
 - Bir ağ sunucusunu yaygın eklentiler içeren yaygın yollar için tarayın:
 

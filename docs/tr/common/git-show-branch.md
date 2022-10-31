@@ -2,7 +2,7 @@
 layout: page
 title: common/git-show-branch (Türkçe)
 description: "Dalları ve içerdikleri commit'leri göster."
-content_hash: ed20c52fb1fd9966608267428b990eba66044d27
+content_hash: 73c2519c61ee6421f801087a879063d802029163
 related_topics:
   - title: English version
     url: /en/common/git-show-branch.html
@@ -17,7 +17,7 @@ related_topics:
 # git show-branch
 
 Dalları ve içerdikleri commit'leri göster.
-Daha fazla bilgi: <https://git-scm.com/docs/git-show-branch>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-show-branch>.
 
 - Bir daldaki son commit'lerin bir özetini göster:
 

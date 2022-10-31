@@ -2,13 +2,16 @@
 layout: page
 title: common/diff (Türkçe)
 description: "Dosyaları ve dizinleri karşılaştırın."
-content_hash: f7d9ad716d8e13ff1b923ada15f0bd2954238eb0
+content_hash: 11a1ead44bbb763fbb7616d6ccec0c33117d2306
 related_topics:
   - title: Deutsch version
     url: /de/common/diff.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/diff.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/diff.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/diff.html
@@ -22,11 +25,14 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/diff.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/diff.html
+    icon: bi bi-globe
 ---
 # diff
 
 Dosyaları ve dizinleri karşılaştırın.
-Daha fazla bilgi: <https://man7.org/linux/man-pages/man1/diff.1.html>.
+Daha fazla bilgi için: <https://man7.org/linux/man-pages/man1/diff.1.html>.
 
 - Dosyaları karşılaştır (`eski_dosya`'yı `yeni_dosya`'ya dönüştürmek için yapılan değişiklikleri listeler):
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/git-restore (Türkçe)
 description: "Çalışan ağaç dosyalarını onar. Git sürümü 2.23+ olmalıdır."
-content_hash: 5fe82313cf41effaf6effb3d81376262f08bfa4e
+content_hash: 582b40da2935b2c55c679b18928e5ef6fc096b69
 related_topics:
   - title: English version
     url: /en/common/git-restore.html
@@ -21,7 +21,7 @@ related_topics:
 
 Çalışan ağaç dosyalarını onar. Git sürümü 2.23+ olmalıdır.
 `git checkout` ve `git reset` komutlarına da ayrıca bakılması tavsiye edilir.
-Daha fazla bilgi: <https://git-scm.com/docs/git-restore>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-restore>.
 
 - Sahnelenmemiş bir dosyayı mevcut commit'in sürümüne kavuştur:
 

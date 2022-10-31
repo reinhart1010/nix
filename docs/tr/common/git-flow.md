@@ -2,7 +2,7 @@
 layout: page
 title: common/git-flow (Türkçe)
 description: "Üst seviye depo işlemleri için Git uzantı koleksiyonu."
-content_hash: dc0d9afa23cc792dea370511dd2251503ea2570f
+content_hash: e04c1d9885f2ec28ef2c3e75322ddc1e402c872a
 related_topics:
   - title: English version
     url: /en/common/git-flow.html
@@ -14,7 +14,7 @@ related_topics:
 # git flow
 
 Üst seviye depo işlemleri için Git uzantı koleksiyonu.
-Daha fazla bilgi: <https://github.com/nvie/gitflow>.
+Daha fazla bilgi için: <https://github.com/nvie/gitflow>.
 
 - Varolan bir git deposu içinde başlat:
 

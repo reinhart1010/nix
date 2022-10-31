@@ -2,7 +2,7 @@
 layout: page
 title: common/gitlab-runner (Türkçe)
 description: "GitLab koşucuları için CLI aracı."
-content_hash: b4531ac051939e9f887ca01f95616a71c6093482
+content_hash: 23abf2273519eca9d4809d56b8b7cace258f078d
 related_topics:
   - title: English version
     url: /en/common/gitlab-runner.html
@@ -11,7 +11,7 @@ related_topics:
 # gitlab-runner
 
 GitLab koşucuları için CLI aracı.
-Daha fazla bilgi: <https://docs.gitlab.com/runner/>.
+Daha fazla bilgi için: <https://docs.gitlab.com/runner/>.
 
 - Bir koşucuyu kayıt ettir:
 

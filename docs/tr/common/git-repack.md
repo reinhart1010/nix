@@ -2,7 +2,7 @@
 layout: page
 title: common/git-repack (Türkçe)
 description: "Bir Git deposundaki paketlenmemiş nesneleri paketle."
-content_hash: 2e105ced5ee3291a925847d88faffee9a9b9ea5f
+content_hash: 33f6af02e941bcca4c8737eaa2001eafebb53346
 related_topics:
   - title: English version
     url: /en/common/git-repack.html
@@ -17,7 +17,7 @@ related_topics:
 # git repack
 
 Bir Git deposundaki paketlenmemiş nesneleri paketle.
-Daha fazla bilgi: <https://git-scm.com/docs/git-repack>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-repack>.
 
 - Mevcut dizindeki paketlenmemiş nesneleri paketle:
 

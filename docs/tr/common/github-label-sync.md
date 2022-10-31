@@ -2,7 +2,7 @@
 layout: page
 title: common/github-label-sync (Türkçe)
 description: "GitHub etiketlerini senkronize etmeye yarayan komut satırı arayüzü."
-content_hash: 5fdc9c0c7982e4cb6956596c090fc3ae56a5100c
+content_hash: bccd01bc33eb5e84163a09c15a05fb3a308343da
 related_topics:
   - title: English version
     url: /en/common/github-label-sync.html
@@ -11,7 +11,7 @@ related_topics:
 # github-label-sync
 
 GitHub etiketlerini senkronize etmeye yarayan komut satırı arayüzü.
-Daha fazla bilgi: <https://github.com/Financial-Times/github-label-sync>.
+Daha fazla bilgi için: <https://github.com/Financial-Times/github-label-sync>.
 
 - Yerel bir `labels.json` dosyası kullanarak etiketleri senkronize et:
 

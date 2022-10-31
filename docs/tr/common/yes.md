@@ -2,7 +2,7 @@
 layout: page
 title: common/yes (Türkçe)
 description: "Bir şeyi tekrar tekrar yazdır."
-content_hash: 865f1b81cb160b93833ff568c4c05b89cc12bb10
+content_hash: 7bd7f5929491c2b46149be1f301e1869da52925e
 related_topics:
   - title: English version
     url: /en/common/yes.html
@@ -27,7 +27,7 @@ related_topics:
 
 Bir şeyi tekrar tekrar yazdır.
 Bu komut genelde yükleme işlemleri sırasında onay için yes yazmak için kullanılır (apt-get gibi).
-Daha fazla bilgi: <https://www.gnu.org/software/coreutils/yes>.
+Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/yes>.
 
 - Tekrar tekrar "mesaj" yazdır:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/git-init (Türkçe)
 description: "Yeni bir yerel Git deposu başlat."
-content_hash: 279239501a8f9fcc059d6b581f6fd582311b7e52
+content_hash: be86cce41f4c3d24f1680d55aa25d3b68a6bd970
 related_topics:
   - title: Deutsch version
     url: /de/common/git-init.html
@@ -35,7 +35,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># git init
 
 Yeni bir yerel Git deposu başlat.
-Daha fazla bilgi: <https://git-scm.com/docs/git-init>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-init>.
 
 - Yeni bir yerel depo başlat:
 

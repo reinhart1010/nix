@@ -2,7 +2,7 @@
 layout: page
 title: common/git-notes (Türkçe)
 description: "Nesne notları ekle veya incele."
-content_hash: 9346bfff3bb684417a8ba5826e28f2e8a0cc85ad
+content_hash: 848ab4bb1b4adfa62e0ec8927d82d597eea5b032
 related_topics:
   - title: English version
     url: /en/common/git-notes.html
@@ -14,7 +14,7 @@ related_topics:
 # git notes
 
 Nesne notları ekle veya incele.
-Daha fazla bilgi: <https://git-scm.com/docs/git-notes>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-notes>.
 
 - Tüm notları ve bağlı oldukları nesneleri sırala:
 

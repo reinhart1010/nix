@@ -2,7 +2,7 @@
 layout: page
 title: common/git-fetch (Türkçe)
 description: "Uzak bir depodaki cisim ve referansları indir."
-content_hash: 27f53507b9ef255e9a124ada99612c1c46a697fa
+content_hash: 1fb1010668815536ed79ee149727b1f510684a99
 related_topics:
   - title: Deutsch version
     url: /de/common/git-fetch.html
@@ -23,7 +23,7 @@ related_topics:
 # git fetch
 
 Uzak bir depodaki cisim ve referansları indir.
-Daha fazla bilgi: <https://git-scm.com/docs/git-fetch>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-fetch>.
 
 - (Eğer belirtildiyse) Uzaktaki varsayılan ana akım depodan son değişiklikleri çek:
 

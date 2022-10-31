@@ -2,7 +2,7 @@
 layout: page
 title: common/git-tag (Türkçe)
 description: "Etiketleri oluştur, sırala, sil veya doğrula."
-content_hash: b36f06347ca918c16ff19227e8ba8cf318b7a4d1
+content_hash: 590b8dbb90fe6270e324f0a852d481acf51dd1f4
 related_topics:
   - title: Deutsch version
     url: /de/common/git-tag.html
@@ -27,7 +27,7 @@ related_topics:
 
 Etiketleri oluştur, sırala, sil veya doğrula.
 Bir etiket, belirtilmiş bir commit'e bağlı statik bir referanstır.
-Daha fazla bilgi: <https://git-scm.com/docs/git-tag>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-tag>.
 
 - Tüm etiketleri sırala:
 

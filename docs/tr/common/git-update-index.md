@@ -2,7 +2,7 @@
 layout: page
 title: common/git-update-index (Türkçe)
 description: "İndeksi manipüle etmeye yarayan bir Git komutu."
-content_hash: ff3140c6f9e278d3ca75aa7887cdee7f506024db
+content_hash: ce3719f6d02ab95363c49e017d08a2d7336ba237
 related_topics:
   - title: English version
     url: /en/common/git-update-index.html
@@ -14,7 +14,7 @@ related_topics:
 # git update-index
 
 İndeksi manipüle etmeye yarayan bir Git komutu.
-Daha fazla bilgi: <https://git-scm.com/docs/git-update-index>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-update-index>.
 
 - Düzenlenmiş bir dosya değiştirilmemiş gibi davran (`git status` bunu değişmiş gibi göstermeyecek):
 

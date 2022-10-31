@@ -2,7 +2,7 @@
 layout: page
 title: common/arp (Türkçe)
 description: "Sistemin ARP önbelleğini görüntüle ve manipüle et."
-content_hash: e9d6f04a775e09d9dc42225a22a0cae96bc29be6
+content_hash: f6f0a621476b1c8ea9461895c095d61559f4db72
 related_topics:
   - title: English version
     url: /en/common/arp.html
@@ -26,13 +26,10 @@ related_topics:
     url: /zh/common/arp.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># arp
+# arp
 
 Sistemin ARP önbelleğini görüntüle ve manipüle et.
-Daha fazla bilgi: <https://manned.org/arp>.
+Daha fazla bilgi için: <https://manned.org/arp>.
 
 - Mevcut ARP tablosunu göster:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/git-commit-tree (Türkçe)
 description: "Commit cisimleri oluşturmaya yarayan düşük seviyeli araç."
-content_hash: 31867ed94ab98a710c435bf51961570a4cc363f3
+content_hash: 01a0a3dab56a1ee9a4db75c5b7aa3461a6b765e6
 related_topics:
   - title: English version
     url: /en/common/git-commit-tree.html
@@ -15,7 +15,7 @@ related_topics:
 
 Commit cisimleri oluşturmaya yarayan düşük seviyeli araç.
 Ayrıca `git commit` sayfasına bakılması önerilir.
-Daha fazla bilgi: <https://git-scm.com/docs/git-commit-tree>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-commit-tree>.
 
 - Belirtilen mesaj ile bir commit cismi oluştur:
 

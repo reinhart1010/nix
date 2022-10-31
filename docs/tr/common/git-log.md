@@ -2,7 +2,7 @@
 layout: page
 title: common/git-log (Türkçe)
 description: "Commit geçmişini göster."
-content_hash: 8de4b95f752a52e9cf1e3c5aefe389f9c7c0a15c
+content_hash: 29df91fcd665118c06ca8972fecf0959f719b6d3
 related_topics:
   - title: Deutsch version
     url: /de/common/git-log.html
@@ -26,7 +26,7 @@ related_topics:
 # git log
 
 Commit geçmişini göster.
-Daha fazla bilgi: <https://git-scm.com/docs/git-log>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-log>.
 
 - Mevcut olandan başlayarak mevcut çalışma ortamındaki git deposunun commit silsilesini ters kronolojik düzende göster:
 

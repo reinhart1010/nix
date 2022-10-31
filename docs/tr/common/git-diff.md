@@ -2,7 +2,7 @@
 layout: page
 title: common/git-diff (Türkçe)
 description: "İzlenen dosyalara değişiklikleri göster."
-content_hash: 609cf98f7fec18e903392da26b5b7c56ac367046
+content_hash: 2f6f04d1f0e021dda49c64335d13ada85acf3edf
 related_topics:
   - title: English version
     url: /en/common/git-diff.html
@@ -20,7 +20,7 @@ related_topics:
 # git diff
 
 İzlenen dosyalara değişiklikleri göster.
-Daha fazla bilgi: <https://git-scm.com/docs/git-diff>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-diff>.
 
 - Sahnelenmemiş, commit'lenmemiş değişiklikleri göster:
 

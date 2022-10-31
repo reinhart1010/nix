@@ -2,7 +2,7 @@
 layout: page
 title: common/git-clone (Türkçe)
 description: "Varolan bir dizini klonla."
-content_hash: 865c8c71c22cda92d6258820dfe7b8d8e0a9ebba
+content_hash: 06d37b813bf85ce7c23bd895505ee72d6fc45996
 related_topics:
   - title: Deutsch version
     url: /de/common/git-clone.html
@@ -22,8 +22,17 @@ related_topics:
   - title: italiano version
     url: /it/common/git-clone.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-clone.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-clone.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git-clone.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/git-clone.html
     icon: bi bi-globe
 ---
 
@@ -38,7 +47,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># git clone
 
 Varolan bir dizini klonla.
-Daha fazla bilgi: <https://git-scm.com/docs/git-clone>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-clone>.
 
 - Varolan bir depoyu klonla:
 

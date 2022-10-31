@@ -2,7 +2,7 @@
 layout: page
 title: common/bat (Türkçe)
 description: "Dosyaları yazdırın ve birleştirin."
-content_hash: 2a556ee3b3d65c02c79d395df4cd2c1725d8ae13
+content_hash: 7f95430c9830826c83ac2a9abcdf32f3df3a5c5a
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html
@@ -35,14 +35,11 @@ related_topics:
     url: /zh/common/bat.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bat
+# bat
 
 Dosyaları yazdırın ve birleştirin.
 Sözdizimi vurgulama ve Git entegrasyonuna sahip bir `cat` klonu.
-Daha fazla bilgi: <https://github.com/sharkdp/bat>.
+Daha fazla bilgi için: <https://github.com/sharkdp/bat>.
 
 - Bir dosyanın içeriğini standart çıktıya yazdırın:
 

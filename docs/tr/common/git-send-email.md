@@ -2,7 +2,7 @@
 layout: page
 title: common/git-send-email (Türkçe)
 description: "Bir yama koleksiyonunu e-posta olarak gönder."
-content_hash: 71462dffee3bfa7c9bd7faabc36ba01e290ad9e5
+content_hash: 8b6502cad2b4c84c7e402acfb5bba579a7c6cf71
 related_topics:
   - title: English version
     url: /en/common/git-send-email.html
@@ -18,7 +18,7 @@ related_topics:
 
 Bir yama koleksiyonunu e-posta olarak gönder.
 Yamalar dosya, dizin veya sürüm listesi olarak tanımlanabilir.
-Daha fazla bilgi: <https://git-scm.com/docs/git-send-email>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-send-email>.
 
 - Mevcut dizindeki son commit'i gönder:
 

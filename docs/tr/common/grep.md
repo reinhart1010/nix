@@ -2,8 +2,11 @@
 layout: page
 title: common/grep (Türkçe)
 description: "Düzenli ifadeler (Regex) kullanarak dosyalardaki kalıpları bulun."
-content_hash: 995c832b75ceb31583637b8ec18f4e84213addda
+content_hash: db124542f53f0c1b40786a6b7e8c95a6040825a1
 related_topics:
+  - title: dansk version
+    url: /da/common/grep.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/grep.html
     icon: bi bi-globe
@@ -29,13 +32,10 @@ related_topics:
     url: /ta/common/grep.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># grep
+# grep
 
 Düzenli ifadeler (Regex) kullanarak dosyalardaki kalıpları bulun.
-Daha fazla bilgi: <https://www.gnu.org/software/grep/manual/grep.html>.
+Daha fazla bilgi için: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - Bir dosya içinde kalıp arama:
 

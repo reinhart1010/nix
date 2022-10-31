@@ -2,7 +2,7 @@
 layout: page
 title: linux/xeyes (Türkçe)
 description: "Ekranda fare imlecini takip eden bir çift göz göster."
-content_hash: 6afead8b9570f8e9931f39eeee14042545c4cc7f
+content_hash: bb577db95aea56ec45a009940266bfb5787b56e7
 related_topics:
   - title: English version
     url: /en/linux/xeyes.html
@@ -11,7 +11,7 @@ related_topics:
 # xeyes
 
 Ekranda fare imlecini takip eden bir çift göz göster.
-Daha fazla bilgi: <https://manned.org/xeyes>.
+Daha fazla bilgi için: <https://manned.org/xeyes>.
 
 - Xeyes'ı yerel makinenin varsayılan ekranında başlat:
 

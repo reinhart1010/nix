@@ -2,7 +2,7 @@
 layout: page
 title: common/cmake (Türkçe)
 description: "Çok platformlu yapım sistem oluşturucusu."
-content_hash: c11e5388a70f7266135f6b92727d9a783ea0c38a
+content_hash: 2a0e7bd5647723ad058e91c86779ec8297f8559c
 related_topics:
   - title: Deutsch version
     url: /de/common/cmake.html
@@ -33,7 +33,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 Çok platformlu yapım sistem oluşturucusu.
 Hedeflenen sisteme göre Makefile, Visual Studio projeleri ve benzerlerini oluşturur.
-Daha fazla bilgi: <https://cmake.org/cmake/help/latest/manual/cmake.1.html>.
+Daha fazla bilgi için: <https://cmake.org/cmake/help/latest/manual/cmake.1.html>.
 
 - Bir Makefile oluştur ve onu aynı dizindeki bir projeyi derlemek için kullan:
 

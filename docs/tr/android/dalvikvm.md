@@ -2,7 +2,7 @@
 layout: page
 title: android/dalvikvm (Türkçe)
 description: "Android Java sanal makinesi."
-content_hash: 2b37c05af2a00e9e9baf81dce730faf2aea19e74
+content_hash: d30d9ece62d123d5fae4e60232a4132a46aeebbf
 related_topics:
   - title: Deutsch version
     url: /de/android/dalvikvm.html
@@ -16,8 +16,20 @@ related_topics:
   - title: Indonesia version
     url: /id/android/dalvikvm.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/android/dalvikvm.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/android/dalvikvm.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/android/dalvikvm.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/android/dalvikvm.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/android/dalvikvm.html
     icon: bi bi-globe
   - title: o‘zbek version
     url: /uz/android/dalvikvm.html
@@ -32,7 +44,7 @@ related_topics:
 # dalvikvm
 
 Android Java sanal makinesi.
-Daha fazla bilgi: <https://source.android.com/devices/tech/dalvik>.
+Daha fazla bilgi için: <https://source.android.com/devices/tech/dalvik>.
 
 - Bir Java programı başlar:
 

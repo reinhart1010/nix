@@ -2,7 +2,7 @@
 layout: page
 title: common/git-stage (Türkçe)
 description: "Değiştirilmiş dosyaları indekse ekle."
-content_hash: e04d1fb6b1c4cfc1d982a0057e0d9776ae0f2fe4
+content_hash: 2c44212ce0aa7b334641a51da6590430f03d3f1b
 related_topics:
   - title: English version
     url: /en/common/git-stage.html
@@ -18,7 +18,7 @@ related_topics:
 
 Değiştirilmiş dosyaları indekse ekle.
 Bu komut `git add`'in eş anlamlısıdır.
-Daha fazla bilgi: <https://git-scm.com/docs/git-stage>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-stage>.
 
 - İndekse bir dosya ekle:
 

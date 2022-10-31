@@ -2,7 +2,7 @@
 layout: page
 title: common/git-push (Türkçe)
 description: "Commit'leri uzak depoya yolla."
-content_hash: 8e454d69b2d41c83bcc25f934bc2977e8cf3e2e4
+content_hash: 01420e9b6c2413b6d3c17766023a33339a91f68e
 related_topics:
   - title: Deutsch version
     url: /de/common/git-push.html
@@ -19,6 +19,9 @@ related_topics:
   - title: italiano version
     url: /it/common/git-push.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git-push.html
+    icon: bi bi-globe
 ---
 
 ### Outdated Translation
@@ -32,7 +35,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># git push
 
 Commit'leri uzak depoya yolla.
-Daha fazla bilgi: <https://git-scm.com/docs/git-push>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-push>.
 
 - Mevcut daldaki yerel değişiklikleri onun uzak eşine gönder:
 

@@ -2,7 +2,7 @@
 layout: page
 title: android/cmd (Türkçe)
 description: "Android servis yöneticisi."
-content_hash: 8e1bfa095f6a6a0473690fdd87c3df2402fc36c6
+content_hash: c85a533fd96141e66f9eb01e6a0b15f3c66ff0ff
 related_topics:
   - title: বাংলা version
     url: /bn/android/cmd.html
@@ -22,8 +22,17 @@ related_topics:
   - title: italiano version
     url: /it/android/cmd.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/android/cmd.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/android/cmd.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/android/cmd.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/android/cmd.html
     icon: bi bi-globe
   - title: o‘zbek version
     url: /uz/android/cmd.html
@@ -38,7 +47,7 @@ related_topics:
 # cmd
 
 Android servis yöneticisi.
-Daha fazla bilgi: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/cmd/>.
+Daha fazla bilgi için: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/cmd/>.
 
 - Tüm çalışan servisleri sırala:
 

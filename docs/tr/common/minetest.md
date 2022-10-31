@@ -2,7 +2,7 @@
 layout: page
 title: common/minetest (Türkçe)
 description: "Çok oyunculu sınırsız dünyalı bloklu sandbox oyun motoru."
-content_hash: b540937b9ce20b74028b37d57945b7f79e50453a
+content_hash: 5d47059f5686fa359a1fcdc34fcaa980d49dd6e5
 related_topics:
   - title: English version
     url: /en/common/minetest.html
@@ -12,7 +12,7 @@ related_topics:
 
 Çok oyunculu sınırsız dünyalı bloklu sandbox oyun motoru.
 Ayrıca `minetestserver` sayfasına bakılması önerilir.
-Daha fazla bilgi: <https://wiki.minetest.net/Minetest>.
+Daha fazla bilgi için: <https://wiki.minetest.net/Minetest>.
 
 - Minetest'i kullanıcı modunda başlat:
 

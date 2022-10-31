@@ -2,7 +2,7 @@
 layout: page
 title: common/tar (Türkçe)
 description: "Arşivleme aracı."
-content_hash: aeed7068a1cfd74bf2c0d54633a7d5d443ef7b20
+content_hash: e295955480b26eec138930a323eb94da278017d0
 related_topics:
   - title: Deutsch version
     url: /de/common/tar.html
@@ -33,7 +33,7 @@ related_topics:
 
 Arşivleme aracı.
 Genellikle gzip veya bzip2 gibi bir sıkıştırma yöntemiyle birleştirilir.
-Daha fazla bilgi: <https://www.gnu.org/software/tar>.
+Daha fazla bilgi için: <https://www.gnu.org/software/tar>.
 
 - Bir arşiv oluşturun ve dosyaya yazın:
 

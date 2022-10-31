@@ -2,7 +2,7 @@
 layout: page
 title: android/getprop (Türkçe)
 description: "Android sistem özellikleri ile ilgili bilgi görüntüle."
-content_hash: 3443e0acff09d89b8046b08d89036b993626f432
+content_hash: d3c60987f15cb2d8dcab175a237032f38ea3296a
 related_topics:
   - title: Deutsch version
     url: /de/android/getprop.html
@@ -10,14 +10,29 @@ related_topics:
   - title: English version
     url: /en/android/getprop.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/android/getprop.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/android/getprop.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/getprop.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/android/getprop.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/android/getprop.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/android/getprop.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/android/getprop.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/android/getprop.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/android/getprop.html
@@ -29,7 +44,7 @@ related_topics:
 # getprop
 
 Android sistem özellikleri ile ilgili bilgi görüntüle.
-Daha fazla bilgi: <https://manned.org/getprop>.
+Daha fazla bilgi için: <https://manned.org/getprop>.
 
 - Android sistem özellikleri ile ilgili bilgi görüntüle:
 

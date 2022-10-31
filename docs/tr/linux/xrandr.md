@@ -2,7 +2,7 @@
 layout: page
 title: linux/xrandr (Türkçe)
 description: "Bir ekran için boyut, yön ve/veya çıkış yansımasını ayarla."
-content_hash: a28c28bcf22ee80a676fb445af78854e90857acd
+content_hash: 383050965ab79dca6768bd783807da1aa455eddc
 related_topics:
   - title: Deutsch version
     url: /de/linux/xrandr.html
@@ -14,7 +14,7 @@ related_topics:
 # xrandr
 
 Bir ekran için boyut, yön ve/veya çıkış yansımasını ayarla.
-Daha fazla bilgi: <https://www.x.org/releases/current/doc/man/man1/xrandr.1.xhtml>.
+Daha fazla bilgi için: <https://www.x.org/releases/current/doc/man/man1/xrandr.1.xhtml>.
 
 - Sistemin mevcut durumunu göster (bilinen ekranlar, çözünürlükler, ...):
 

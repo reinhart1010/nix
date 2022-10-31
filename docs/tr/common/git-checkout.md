@@ -2,7 +2,7 @@
 layout: page
 title: common/git-checkout (Türkçe)
 description: "Bulunulan dalı değiştir veya çalışma ağaçlarını onar."
-content_hash: f5cdaa7343baff72b3022329a00353abb67184d9
+content_hash: 510def6006830113b95ed0ffebbfb65986986a33
 related_topics:
   - title: English version
     url: /en/common/git-checkout.html
@@ -22,11 +22,14 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/git-checkout.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git-checkout.html
+    icon: bi bi-globe
 ---
 # git checkout
 
 Bulunulan dalı değiştir veya çalışma ağaçlarını onar.
-Daha fazla bilgi: <https://git-scm.com/docs/git-checkout>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-checkout>.
 
 - Yeni bir dal oluştur ve bu dala geç:
 

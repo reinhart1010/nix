@@ -2,7 +2,7 @@
 layout: page
 title: common/git-ls-remote (Türkçe)
 description: "Çevrimiçi depolardaki isim ve URL bazlı referansları sıralamaya yarayan Git komutu."
-content_hash: 27b3649a1b44042c75d773ddf30e020849aeda52
+content_hash: 62464e46022f7362298b191060687b863ded4aba
 related_topics:
   - title: English version
     url: /en/common/git-ls-remote.html
@@ -18,7 +18,7 @@ related_topics:
 
 Çevrimiçi depolardaki isim ve URL bazlı referansları sıralamaya yarayan Git komutu.
 İsim veya URL girilmemişse, varsayılan dal veya çevrimiçi dalın kökeni kullanılır.
-Daha fazla bilgi: <https://git-scm.com/docs/git-ls-remote>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-ls-remote>.
 
 - Varsayılan çevrimiçi depodaki tüm referansları göster:
 

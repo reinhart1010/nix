@@ -2,7 +2,7 @@
 layout: page
 title: common/gitlab (Türkçe)
 description: "GitLab API'si için Ruby sarıcı ve CLI aracı."
-content_hash: 7878f8d2a38812fff5b794099806db9bd78fb96c
+content_hash: 5f984b3823913c55aa21fdbb83b830e075824a20
 related_topics:
   - title: English version
     url: /en/common/gitlab.html
@@ -12,7 +12,7 @@ related_topics:
 
 GitLab API'si için Ruby sarıcı ve CLI aracı.
 `gitlab ctl` gibi bazı alt komutların kendi kullanım kılavuzları vardır.
-Daha fazla bilgi: <https://narkoz.github.io/gitlab/>.
+Daha fazla bilgi için: <https://narkoz.github.io/gitlab/>.
 
 - Yeni bir proje oluştur:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/base32 (Türkçe)
 description: "Bir dosya veya standart veriyi Base32 formatında şifrele veya yalın veri çıktısı olarak deşifre et."
-content_hash: 21803da95bfab540f55377431a1a6318595ac1fb
+content_hash: b059d0e787e4203a8a2212708cc44b0285be554a
 related_topics:
   - title: English version
     url: /en/common/base32.html
@@ -29,7 +29,7 @@ related_topics:
 # base32
 
 Bir dosya veya standart veriyi Base32 formatında şifrele veya yalın veri çıktısı olarak deşifre et.
-Daha fazla bilgi: <https://www.gnu.org/software/coreutils/base32>.
+Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/base32>.
 
 - Bir dosyayı şifrele:
 

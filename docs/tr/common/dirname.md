@@ -2,7 +2,7 @@
 layout: page
 title: common/dirname (Türkçe)
 description: "Belirtilen dosya veya yolun ana dizinini hesaplar."
-content_hash: 09711e76c949e1af9a02e677382943c3575bb5e2
+content_hash: 637f6ab9ca3b57ce7c1e9570d8d468d007dbcc27
 related_topics:
   - title: English version
     url: /en/common/dirname.html
@@ -17,7 +17,7 @@ related_topics:
 # dirname
 
 Belirtilen dosya veya yolun ana dizinini hesaplar.
-Daha fazla bilgi: <https://www.gnu.org/software/coreutils/dirname>.
+Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/dirname>.
 
 - Belirtilen yolun ana dizinini hesapla:
 

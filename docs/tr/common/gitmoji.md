@@ -2,7 +2,7 @@
 layout: page
 title: common/gitmoji (Türkçe)
 description: "Commit'lerde emoji kullanmak içni interaktif bir komut satırı aracı."
-content_hash: cfa557c26d75b3ac1b28a723f0cf588698b5205a
+content_hash: 2c51f993ca9735146011ca46a2d7063a28a3d64f
 related_topics:
   - title: English version
     url: /en/common/gitmoji.html
@@ -11,7 +11,7 @@ related_topics:
 # gitmoji
 
 Commit'lerde emoji kullanmak içni interaktif bir komut satırı aracı.
-Daha fazla bilgi: <https://github.com/carloscuesta/gitmoji-cli>.
+Daha fazla bilgi için: <https://github.com/carloscuesta/gitmoji-cli>.
 
 - Commit sihirbazını çalıştır:
 

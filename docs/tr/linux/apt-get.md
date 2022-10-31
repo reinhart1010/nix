@@ -2,8 +2,14 @@
 layout: page
 title: linux/apt-get (Türkçe)
 description: "Debian ve Ubuntu paket yönetim aracı."
-content_hash: 5849d77b283494204f5138ccdb6e3d07982cf6c5
+content_hash: 0b515acd2f1b124e08652423f0199a715de05c4b
 related_topics:
+  - title: العربية version
+    url: /ar/linux/apt-get.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/linux/apt-get.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/apt-get.html
     icon: bi bi-globe
@@ -30,7 +36,7 @@ related_topics:
 
 Debian ve Ubuntu paket yönetim aracı.
 Paket aramak için `apt-cache` komutunu kullanın.
-Daha fazla bilgi: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
+Daha fazla bilgi için: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
 
 - Kullanılabilir paket ve versiyon listesini güncelleyin (diğer `apt-get` komutlarını çalıştırmadan önce kullanmanız önerilir):
 

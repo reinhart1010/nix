@@ -2,7 +2,7 @@
 layout: page
 title: common/git-add (Türkçe)
 description: "Değiştirilmiş dosyaları indekse ekle."
-content_hash: 3d7f49bbc1cefa0c926d8c226c78b1958a0fb7af
+content_hash: 3296f3781d9dadbbd4a55884f01431b465e5cbae
 related_topics:
   - title: Deutsch version
     url: /de/common/git-add.html
@@ -22,6 +22,9 @@ related_topics:
   - title: italiano version
     url: /it/common/git-add.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-add.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-add.html
     icon: bi bi-globe
@@ -35,7 +38,7 @@ related_topics:
 # git add
 
 Değiştirilmiş dosyaları indekse ekle.
-Daha fazla bilgi: <https://git-scm.com/docs/git-add>.
+Daha fazla bilgi için: <https://git-scm.com/docs/git-add>.
 
 - İndekse bir dosya ekle:
 
