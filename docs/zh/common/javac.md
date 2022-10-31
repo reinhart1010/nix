@@ -2,7 +2,7 @@
 layout: page
 title: common/javac (中文)
 description: "Java 程序编译器。"
-content_hash: 0392863446ab854133bc2a1bf1ae9f4345a6522d
+content_hash: 76a32e1643ace32b47101381492a51ebe46d5ff8
 related_topics:
   - title: English version
     url: /en/common/javac.html
@@ -17,7 +17,7 @@ related_topics:
 # javac
 
 Java 程序编译器。
-更多信息：<https://docs.oracle.com/en/java/javase/17/docs/specs/man/javac.html>.
+更多信息：<https://docs.oracle.com/en/java/javase/19/docs/specs/man/javac.html>.
 
 - 编译一个 `.java` 文件：
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/java (தமிழ்)
 description: "ஜாவா பயன்பாட்டு துவக்கி."
-content_hash: ae1f0f0701b1acdeb496a1dfea29b10d4d38d692
+content_hash: 22a8dc36b1be07ee80263fa3aa6467db109d2a13
 related_topics:
   - title: English version
     url: /en/common/java.html
@@ -23,7 +23,7 @@ related_topics:
 # java
 
 ஜாவா பயன்பாட்டு துவக்கி.
-மேலும் விவரத்திற்கு: <https://docs.oracle.com/en/java/javase/17/docs/specs/man/java.html>.
+மேலும் விவரத்திற்கு: <https://docs.oracle.com/en/java/javase/19/docs/specs/man/java.html>.
 
 - ஜாவா `.class` கோப்பை இயக்கவும், அதில் ஒரு முக்கிய முறையைக் கொண்டு, வகுப்புப் பெயரை மட்டும் பயன்படுத்தவும்:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/javadoc (中文)
 description: "从源代码以 HTML 格式生成 Java API 文档。"
-content_hash: 701f94e713c94308ff716e86fd28dbb2d277f7cf
+content_hash: 4d3aab1216a9496d769d7b0f570be907d5ce3a78
 related_topics:
   - title: English version
     url: /en/common/javadoc.html
@@ -11,7 +11,7 @@ related_topics:
 # javadoc
 
 从源代码以 HTML 格式生成 Java API 文档。
-更多信息：<https://docs.oracle.com/javase/9/javadoc/javadoc-command.htm>.
+更多信息：<https://docs.oracle.com/en/java/javase/19/docs/specs/man/javadoc.html>.
 
 - 生成 Java 源代码的文档并将结果保存在文件夹中：
 

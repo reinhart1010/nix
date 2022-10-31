@@ -2,7 +2,7 @@
 layout: page
 title: common/javac (English)
 description: "Java application compiler."
-content_hash: 80bec1da1a15afbf55c48104346a3f7007da5d4d
+content_hash: 54c11c3fd2cda48a1aa6c9787a1bbac9c1fa05a8
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/javac.html
@@ -17,7 +17,7 @@ related_topics:
 # javac
 
 Java application compiler.
-More information: <https://docs.oracle.com/en/java/javase/17/docs/specs/man/javac.html>.
+More information: <https://docs.oracle.com/en/java/javase/19/docs/specs/man/javac.html>.
 
 - Compile a `.java` file:
 

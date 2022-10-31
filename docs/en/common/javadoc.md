@@ -2,7 +2,7 @@
 layout: page
 title: common/javadoc (English)
 description: "Generate Java API documentation in HTML format from source code."
-content_hash: ad5dce307bca23757d15ee64eae6db3b58af96bf
+content_hash: aa2b6dd968e0d8809a635c036ca0996d43660da7
 related_topics:
   - title: 中文 version
     url: /zh/common/javadoc.html
@@ -11,7 +11,7 @@ related_topics:
 # javadoc
 
 Generate Java API documentation in HTML format from source code.
-More information: <https://docs.oracle.com/javase/9/javadoc/javadoc-command.htm>.
+More information: <https://docs.oracle.com/en/java/javase/19/docs/specs/man/javadoc.html>.
 
 - Generate documentation for Java source code and save the result in a directory:
 

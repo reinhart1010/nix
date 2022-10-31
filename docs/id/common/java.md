@@ -2,7 +2,7 @@
 layout: page
 title: common/java (Indonesia)
 description: "Peluncur Aplikasi Java."
-content_hash: 411c54247b588a5eab4584759f534343d5f141fe
+content_hash: da7e165ace18198571d7ba6963a06a6c4dad21db
 related_topics:
   - title: English version
     url: /en/common/java.html
@@ -20,19 +20,10 @@ related_topics:
     url: /zh/common/java.html
     icon: bi bi-globe
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/java.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># java
+# java
 
 Peluncur Aplikasi Java.
-Informasi lebih lanjut: <https://docs.oracle.com/en/java/javase/17/docs/specs/man/java.html>.
+Informasi lebih lanjut: <https://docs.oracle.com/en/java/javase/19/docs/specs/man/java.html>.
 
 - Jalankan berkas java `.class` yang mengandung method main dengan hanya menggunakan nama class:
 

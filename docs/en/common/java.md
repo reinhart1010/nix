@@ -2,7 +2,7 @@
 layout: page
 title: common/java (English)
 description: "Java application launcher."
-content_hash: 00d6d2c765ea298dc2f014b2ad037043d38ba86a
+content_hash: 7c03f9457c79f5ed3bab3d13f57925458b80017c
 related_topics:
   - title: Indonesia version
     url: /id/common/java.html
@@ -23,7 +23,7 @@ related_topics:
 # java
 
 Java application launcher.
-More information: <https://docs.oracle.com/en/java/javase/17/docs/specs/man/java.html>.
+More information: <https://docs.oracle.com/en/java/javase/19/docs/specs/man/java.html>.
 
 - Execute a java `.class` file that contains a main method by using just the class name:
 

@@ -2,7 +2,7 @@
 layout: page
 title: common/java (polski)
 description: "Java Application Launcher."
-content_hash: 4b76256edf0aa2609400fe15b924d9fb96a7700b
+content_hash: f6d817a92b548cb50faa3df7605da39f2b5a6183
 related_topics:
   - title: English version
     url: /en/common/java.html
@@ -32,7 +32,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># java
 
 Java Application Launcher.
-Więcej informacji: <https://docs.oracle.com/en/java/javase/17/docs/specs/man/java.html>.
+Więcej informacji: <https://docs.oracle.com/en/java/javase/19/docs/specs/man/java.html>.
 
 - Uruchom plik .class java, który zawiera główną metodę, używając tylko nazwy klasy:
 

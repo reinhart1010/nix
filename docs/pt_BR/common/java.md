@@ -2,7 +2,7 @@
 layout: page
 title: common/java (português (Brasil))
 description: "Inicializador de Programas Java."
-content_hash: 1eab36010bb1d3a9b0dfa60ab30e5a0503374df8
+content_hash: 410e7c8ba4579b4dd220b337f59d767600858523
 related_topics:
   - title: English version
     url: /en/common/java.html
@@ -32,7 +32,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># java
 
 Inicializador de Programas Java.
-Mais informações: <https://docs.oracle.com/en/java/javase/17/docs/specs/man/java.html>.
+Mais informações: <https://docs.oracle.com/en/java/javase/19/docs/specs/man/java.html>.
 
 - Executa um arquivo Java `.class` que contém um método main, usando o nome da classe:
 

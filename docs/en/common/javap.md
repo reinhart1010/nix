@@ -2,15 +2,12 @@
 layout: page
 title: common/javap (English)
 description: "Disassemble one or more class files and list them."
-content_hash: 7d31d7de8976f39cc7ed3fcf479e16ab53b96513
+content_hash: 61186b3c60b47aa1920806ab6e2d3445ee1c901c
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># javap
+# javap
 
 Disassemble one or more class files and list them.
-More information: <https://docs.oracle.com/en/java/javase/18/docs/specs/man/javap.html>.
+More information: <https://docs.oracle.com/en/java/javase/19/docs/specs/man/javap.html>.
 
 - Disassemble and list a `.class` file:
 
