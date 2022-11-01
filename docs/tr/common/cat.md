@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/cat (Türkçe)
-description: "Dosyaları yazdırın ve birleştirin."
-content_hash: 3cce98908c78d45b266b5f17844dee3630a40bc1
+description: "Dosyaları yazdır ve birleştir."
+content_hash: fffbf67d267aad2a468ce16f6a5df2665666f252
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -52,25 +52,25 @@ related_topics:
 ---
 # cat
 
-Dosyaları yazdırın ve birleştirin.
+Dosyaları yazdır ve birleştir.
 Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/cat>.
 
-- Bir dosyanın içeriğini standart çıktıya yazdırın:
+- Bir dosyanın içeriğini standart çıktıya yazdır:
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/yolu</span>
 
-- Birkaç dosyayı bir çıktı dosyasında birleştirin:
+- Birkaç dosyayı bir çıktı dosyasında birleştir:
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/yolu1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/yolu2</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cikti/dosyasi/yolu</span>
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/yolu1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/yolu2</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">çıktı/dosyası/yolu</span>
 
-- Birkaç dosyayı bir çıktı dosyasına ekler:
+- Birkaç dosyayı bir çıktı dosyasına ekle:
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/yolu1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/yolu2</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cikti/dosyasi/yolu</span>
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/yolu1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/yolu2</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">çıktı/dosyası/yolu</span>
 
-- Tüm çıkış satırlarını numaralandırın:
+- Tüm çıkış satırlarını numaralandır:
 
 `cat -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/yolu</span>
 
-- Yazdırılamayan ve boşluk karakterleri görüntüleyin (ASCII değilse `M-` önekiyle):
+- Yazdırılamayan ve boşluk karakterleri görüntüle (ASCII değilse `M-` önekiyle):
 
 `cat -v -t -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/yolu</span>

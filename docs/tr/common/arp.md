@@ -2,7 +2,7 @@
 layout: page
 title: common/arp (Türkçe)
 description: "Sistemin ARP önbelleğini görüntüle ve manipüle et."
-content_hash: f6f0a621476b1c8ea9461895c095d61559f4db72
+content_hash: 5a55f9b90343da3968e067d790d1cec1ab48abc3
 related_topics:
   - title: English version
     url: /en/common/arp.html
@@ -41,8 +41,8 @@ Daha fazla bilgi için: <https://manned.org/arp>.
 
 - Belirli bir girdiyi sil:
 
-`arp -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">address</span>
+`arp -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adres</span>
 
 - ARP tablosunda bir girdi oluştur:
 
-`arp -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">address</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mac_address</span>
+`arp -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adres</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mac_adresi</span>

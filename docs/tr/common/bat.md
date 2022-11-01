@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/bat (Türkçe)
-description: "Dosyaları yazdırın ve birleştirin."
-content_hash: 7f95430c9830826c83ac2a9abcdf32f3df3a5c5a
+description: "Dosyaları yazdır ve birleştir."
+content_hash: b4c0da0c4e8263d1dd44ca28e8f7501ea446bfeb
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html
@@ -37,30 +37,30 @@ related_topics:
 ---
 # bat
 
-Dosyaları yazdırın ve birleştirin.
+Dosyaları yazdır ve birleştir.
 Sözdizimi vurgulama ve Git entegrasyonuna sahip bir `cat` klonu.
 Daha fazla bilgi için: <https://github.com/sharkdp/bat>.
 
-- Bir dosyanın içeriğini standart çıktıya yazdırın:
+- Bir dosyanın içeriğini standart çıktıya yazdır:
 
 `bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya</span>
 
-- Birkaç dosyayı hedef dosyada birleştirin:
+- Birkaç dosyayı hedef dosyada birleştir:
 
 `bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya2</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hedef_dosya</span>
 
-- Birkaç dosyayı hedef dosyaya ekler:
+- Birkaç dosyayı hedef dosyaya ekle:
 
 `bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya2</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hedef_dosya</span>
 
-- Tüm çıktı satırlarını numaralandırın:
+- Tüm çıktı satırlarını numaralandır:
 
 `bat -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya</span>
 
-- Bir JSON dosyasının sözdizimini vurgulayın:
+- Bir JSON dosyasının sözdizimini vurgula:
 
 `bat --language json `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya.json</span>
 
-- Desteklenen tüm dilleri görüntüleyin:
+- Desteklenen tüm dilleri görüntüle:
 
 `bat --list-languages`

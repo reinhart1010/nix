@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/alias (Türkçe)
-description: "Takma adlar/kısayollar oluşturur -- bir komut dizesi ile değiştirilen sözcükler."
-content_hash: 0c97a74149ef1fb76cce05b9dcb78d91b876f033
+description: "Takma adlar/kısayollar (bir komut dizesi ile değiştirilen sözcükler) oluşturur."
+content_hash: 0641ba36f5af2f557938315d0201075f2a278d05
 related_topics:
   - title: Deutsch version
     url: /de/common/alias.html
@@ -55,7 +55,7 @@ related_topics:
 ---
 # alias
 
-Takma adlar/kısayollar oluşturur -- bir komut dizesi ile değiştirilen sözcükler.
+Takma adlar/kısayollar (bir komut dizesi ile değiştirilen sözcükler) oluşturur.
 Kısayollar, kabuğun yapılandırma dosyasında (örneğin `~/.bashrc`) tanımlanmadığı sürece geçerli kabuk oturumuyla birlikte sona erer.
 Daha fazla bilgi için: <https://tldp.org/LDP/abs/html/aliases.html>.
 
@@ -63,11 +63,11 @@ Daha fazla bilgi için: <https://tldp.org/LDP/abs/html/aliases.html>.
 
 `alias`
 
-- Genel bir kısayol olustur:
+- Genel bir kısayol oluştur:
 
 `alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kelime</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">komut</span>`"`
 
-- Bir kısayolun verildigi komutu goster:
+- Bir kısayolun verildigi komutu göster:
 
 `alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kelime</span>
 
