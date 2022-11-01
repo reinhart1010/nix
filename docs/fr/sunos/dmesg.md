@@ -1,8 +1,8 @@
 ---
 layout: page
 title: sunos/dmesg (français)
-description: "Ecrire les messages du kernel sur la sortie standard."
-content_hash: 6759f89436021274cec4163b616af6ae1d099442
+description: "Écrire les messages du noyau sur la sortie standard."
+content_hash: f2f91c23f86c484add394f47d1c601e77d2735f8
 related_topics:
   - title: English version
     url: /en/sunos/dmesg.html
@@ -13,26 +13,26 @@ related_topics:
   - title: தமிழ் version
     url: /ta/sunos/dmesg.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/sunos/dmesg.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/sunos/dmesg.html
     icon: bi bi-globe
 ---
+# dmesg
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dmesg
-
-Ecrire les messages du kernel sur la sortie standard.
+Écrire les messages du noyau sur la sortie standard.
 Plus d'informations : <https://www.unix.com/man-page/sunos/1m/dmesg>.
 
-- Afficher les messages du kernel:
+- Afficher les messages du noyau :
 
 `dmesg`
 
-- Afficher combien de mémoire physique est disponible sur ce système:
+- Afficher la quantité de mémoire physique disponible sur ce système :
 
 `dmesg | grep -i memory`
 
-- Afficher les messages du kernel une page a la fois:
+- Afficher les messages du noyau une page à la fois :
 
 `dmesg | less`

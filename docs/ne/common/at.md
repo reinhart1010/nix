@@ -2,7 +2,7 @@
 layout: page
 title: common/at (नेपाली)
 description: "पछि एक पटक आदेशहरू कार्यान्वयन गर्छ।"
-content_hash: 28a6d779592a099b958412d552c88d265428f3f3
+content_hash: 1e5b2e48dd07b3314daff2a26858aa9348619f6b
 related_topics:
   - title: English version
     url: /en/common/at.html
@@ -29,17 +29,17 @@ related_topics:
 # at
 
 पछि एक पटक आदेशहरू कार्यान्वयन गर्छ।
-वास्तविक कार्यान्वयनको लागि service atd(अथवा atrun) चलिरहेको हुनुपर्छ ।
+वास्तविक कार्यान्वयनको लागि service atd(अथवा atrun) चलिरहेको हुनुपर्छ।
 थप जानकारी: <https://manned.org/at>.
 
-- standard input बाट आदेशहरू ५ मिनटमा कार्यान्वयन गर्नुहोस् (सकिएपछि `Ctrl +D` थिच्नुहोस्):
+- मानक इनपुट बाट आदेशहरू ५ मिनटमा कार्यान्वयन गर्नुहोस् (सकिएपछि `Ctrl +D` थिच्नुहोस्):
 
 `at now + 5 minutes`
 
-- standard input बाट आदेश आजको बिहानको १० बजे कार्यान्वयन गर्नुहोस्:
+- मानक इनपुट बाट आदेश आज के बिहान को १० बजे कार्यान्वयन गर्नुहोस्:
 
 `echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./make_db_backup.sh</span>`" | at 1000`
 
 - एउटा दिइएको फाइलबाट अर्को मङ्गलबार आदेशहरु कार्यान्वयन गर्नुहोस्:
 
-`at -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` 9:30 PM Tue`
+`at -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फाइल/को/पथ</span>` 9:30 PM Tue`

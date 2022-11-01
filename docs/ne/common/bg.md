@@ -2,10 +2,13 @@
 layout: page
 title: common/bg (नेपाली)
 description: "निलम्बित गरिएका कामहरुलाई (जस्तै `Ctrl + Z` प्रयोग गरेर) पुन: सुरु गर्छ, अनि तिनीहरुलाई पृष्ठभूमिमा चलाइरहन्छ।"
-content_hash: a7eb2158470983693bb0a6d1e365f1234329164d
+content_hash: 9f835a57753378c8f2f36692688ce035ce338995
 related_topics:
   - title: English version
     url: /en/common/bg.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/bg.html
     icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/common/bg.html
@@ -22,6 +25,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/bg.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/bg.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/bg.html
     icon: bi bi-globe
@@ -37,4 +43,4 @@ related_topics:
 
 - कुनै विशिष्ट कामलाई पुन: सुरु गर्नुहोस् (ID पाउनको लागि `jobs -l` प्रयोग गर्नुहोस्) अनि पृष्ठभूमिमा चलाउनुहोस्:
 
-`bg %`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_id</span>
+`bg %`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">काम_आईडी</span>

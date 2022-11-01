@@ -2,7 +2,7 @@
 layout: page
 title: common/ffmpeg (नेपाली)
 description: "भिडियो रूपान्तरण उपकरण।"
-content_hash: 0dd7b82f92f2ec4418573194da74b8dbdb0aad4f
+content_hash: d7498066a08ee8435d0fe97f0bf7c97dc5207556
 related_topics:
   - title: Deutsch version
     url: /de/common/ffmpeg.html
@@ -17,10 +17,7 @@ related_topics:
     url: /pt_BR/common/ffmpeg.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ffmpeg
+# ffmpeg
 
 भिडियो रूपान्तरण उपकरण।
 थप जानकारी: <https://ffmpeg.org>.
@@ -53,6 +50,6 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 `ffmpeg -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">इनपुट_भिडियो</span>`.mkv -codec copy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आउटपुट_भिडियो</span>`.mp4`
 
-- MP4 भिडियोलाई VP9 कोडेकमा रूपान्तरण गर्नुहोस्। उत्कृष्ट गुणस्तरको लागि, CRF फ्ल्यागको प्रयोग गर्नुहोस् (सिफारिस गरिएको दायरा 15-35) र -b:video 0 पनि प्रयोग गर्नुहोस्:
+- MP4 भिडियोलाई VP9 कोडेकमा रूपान्तरण गर्नुहोस्। उत्कृष्ट गुणस्तरको लागि, CRF फ्ल्यागको प्रयोग गर्नुहोस् (सिफारिस गरिएको दायरा 15-35) र `-b:video 0` पनि प्रयोग गर्नुहोस्:
 
 `ffmpeg -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">इनपुट_भिडियो</span>`.mp4 -codec:video libvpx-vp9 -crf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30</span>` -b:video 0 -codec:audio libopus -vbr on -threads `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">थ्रेड_संख्या</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आउटपुट_भिडियो</span>`.webm`

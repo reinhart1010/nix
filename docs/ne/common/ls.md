@@ -2,7 +2,7 @@
 layout: page
 title: common/ls (नेपाली)
 description: "एउटा डिरेक्टोरीमा भएका सबै वस्तुहरुको सुची देखाउँछ।"
-content_hash: 7d039cde0cefbc80242f8d6d827d8366b8b2f949
+content_hash: e7804fc295a4b9b16a60a72d18174128ac20594c
 related_topics:
   - title: català version
     url: /ca/common/ls.html
@@ -56,10 +56,7 @@ related_topics:
     url: /zh_TW/common/ls.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ls
+# ls
 
 एउटा डिरेक्टोरीमा भएका सबै वस्तुहरुको सुची देखाउँछ।
 थप जानकारी: <https://www.gnu.org/software/coreutils/ls>.
@@ -76,7 +73,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 `ls -F`
 
-- सबै फाइलहरूको लामो ढाँचाको सूची देखाउनुहोस् (अनुमतिहरू, स्वामित्व, साइज ,र परिमार्जन मिति):
+- सबै फाइलहरूको लामो ढाँचाको सूची देखाउनुहोस् (अनुमतिहरू, स्वामित्व, साइज, र परिमार्जन मिति):
 
 `ls -la`
 
