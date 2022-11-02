@@ -2,8 +2,11 @@
 layout: page
 title: common/jq (русский)
 description: "Процессор JSON командной строки, использующий доменный язык."
-content_hash: 7a4531442886c51755f2f1aad6363e6104a2dcc4
+content_hash: c4ad8116f62fba1ce84059dfe4d5347bbf888def
 related_topics:
+  - title: Deutsch version
+    url: /de/common/jq.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/jq.html
     icon: bi bi-globe
@@ -15,7 +18,7 @@ related_topics:
 
 - Выполнить указанное выражение (вывести цветной и отформатированный json):
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat путь/к/файлу.json</span>` | jq '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.</span>`'`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat путь/к/файлу.json</span>` | jq '.'`
 
 - Выполнить указанный скрипт:
 
@@ -39,4 +42,4 @@ related_topics:
 
 - Добавить/удалить указанные ключи:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat путь/к/файлу.json</span>` | jq '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+|-</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">{"ключ1": "значение1", "ключ2": "значение2", ...</span>`}'`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat путь/к/файлу.json</span>` | jq '. `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+|-</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">{"ключ1": "значение1", "ключ2": "значение2", ...}</span>`'`

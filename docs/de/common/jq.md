@@ -2,7 +2,7 @@
 layout: page
 title: common/jq (Deutsch)
 description: "Ein JSON-Verarbeiter für die Kommandozeile mit einer domänenspezifischen Sprache."
-content_hash: c07e14c44e87a5f47cadef5773c210e1f899a7df
+content_hash: 808d8950717bef856aa67501c00db57351701b67
 related_topics:
   - title: English version
     url: /en/common/jq.html
@@ -11,17 +11,14 @@ related_topics:
     url: /ru/common/jq.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># jq
+# jq
 
 Ein JSON-Verarbeiter für die Kommandozeile mit einer domänenspezifischen Sprache.
 Weitere Informationen: <https://stedolan.github.io/jq/manual/>.
 
 - Führe den angegebenen Ausdruck aus (gib farbiges und formatiertes JSON aus):
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat pfad/zu/datei.json</span>` | jq '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.</span>`'`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat pfad/zu/datei.json</span>` | jq '.'`
 
 - Führe ein gegebenes Skript aus:
 
@@ -45,4 +42,4 @@ Weitere Informationen: <https://stedolan.github.io/jq/manual/>.
 
 - Füge bestimmte Schlüssel hinzu/lösche bestimmte Schlüssel:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat pfad/zu/datei.json</span>` | jq '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+|-</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">{"schlüssel1": "wert1", "schlüssel2": "wert2", ...}</span>`'`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat pfad/zu/datei.json</span>` | jq '. `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">+|-</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">{"schlüssel1": "wert1", "schlüssel2": "wert2", ...}</span>`'`
