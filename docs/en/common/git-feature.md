@@ -2,12 +2,9 @@
 layout: page
 title: common/git-feature (English)
 description: "Create or merge feature branches."
-content_hash: cb83dc41719da815b7167ebd83507d75c38ca1f4
+content_hash: 4eae00f9ead5eed01d8617bc94f76fa9cfbb2fb9
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git pull
+# git feature
 
 Create or merge feature branches.
 Feature branches obey the format feature/<name>.
