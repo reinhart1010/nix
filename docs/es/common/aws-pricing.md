@@ -1,0 +1,37 @@
+---
+layout: page
+title: common/aws-pricing (español)
+description: "Consultar servicios, productos e información de precios de Amazon Web Services."
+content_hash: c93ea989754f9cc6fa9c6e307239a91638bf338d
+related_topics:
+  - title: English version
+    url: /en/common/aws-pricing.html
+    icon: bi bi-globe
+---
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># aws pricing
+
+Consultar servicios, productos e información de precios de Amazon Web Services.
+Más información: <https://docs.aws.amazon.com/cli/latest/reference/pricing/>.
+
+- Lista códigos de servicio de una región específica:
+
+`aws pricing describe-services --region `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">us-east-1</span>
+
+- Lista atributos para un código de servicio dado en una región específica:
+
+`aws pricing describe-services --service-code `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AmazonEC2</span>` --region `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">us-east-1</span>
+
+- Imprime información de precios para un código de servicio en una región específica:
+
+`aws pricing get-products --service-code `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AmazonEC2</span>` --region `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">us-east-1</span>
+
+- Lista valores para un atributo específico para un código de servicio en una región específica:
+
+`aws pricing get-attribute-values --service-code `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AmazonEC2</span>` --attribute-name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">instanceType</span>` --region `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">us-east-1</span>
+
+- Imprime información de precios para un código de servicio usando filtros por tipo de instancia y ubicación:
+
+`aws pricing get-products --service-code `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AmazonEC2</span>` --filters "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Type=TERM_MATCH,Field=instanceType,Value=m5.xlarge</span>`" "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Type=TERM_MATCH,Field=location,Value=US East (N. Virginia)</span>`" --region `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">us-east-1</span>
