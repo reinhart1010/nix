@@ -2,7 +2,7 @@
 layout: page
 title: common/stty (English)
 description: "Set options for a terminal device interface."
-content_hash: 42d57bfeaaa8eea1f71139629e01855aea005e39
+content_hash: dcf0272a8aa2f11111597f6198a93782127ca894
 related_topics:
   - title: 中文 version
     url: /zh/common/stty.html
@@ -15,7 +15,7 @@ More information: <https://www.gnu.org/software/coreutils/stty>.
 
 - Display all settings for the current terminal:
 
-`stty -a`
+`stty --all`
 
 - Set the number of rows:
 
@@ -27,7 +27,7 @@ More information: <https://www.gnu.org/software/coreutils/stty>.
 
 - Get the actual transfer speed of a device:
 
-`stty -F `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/device_file</span>` speed`
+`stty --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/device_file</span>` speed`
 
 - Reset all modes to reasonable values for the current terminal:
 
