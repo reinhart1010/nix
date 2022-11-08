@@ -2,7 +2,7 @@
 layout: page
 title: common/cut (English)
 description: "Cut out fields from stdin or files."
-content_hash: 0f83640a073bdd13f41fb528ee3c79547ec5a631
+content_hash: 8fe5087adeb0f939c64fb0bde5b09a5efd3e1544
 related_topics:
   - title: Deutsch version
     url: /de/common/cut.html
@@ -31,7 +31,7 @@ More information: <https://www.gnu.org/software/coreutils/cut>.
 
 - Print a range of each line with a specific delimiter:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` | cut --delimiter="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">,</span>`" --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">characters</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` | cut --delimiter="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">,</span>`" --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fields</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
 
 - Print a range of each line of the specific file:
 
