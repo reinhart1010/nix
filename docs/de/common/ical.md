@@ -1,20 +1,17 @@
 ---
 layout: page
 title: common/ical (Deutsch)
-description: "Ein islamischer (Hijri) Kalender und Konvertor für das Terminal."
-content_hash: 6d7201394ef38defc9aa7fd5bb3516b914a88fac
+description: "Ein islamischer (Hijri) Kalender und Konverter für das Terminal."
+content_hash: 80509d928da300fe50f1f85747273cfdbeeea604
 related_topics:
   - title: English version
     url: /en/common/ical.html
     icon: bi bi-globe
 ---
+# ical
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ical
-
-Ein islamischer (Hijri) Kalender und Konvertor für das Terminal.
-Weitere Informationen: https://manned.org/ical.
+Ein islamischer (Hijri) Kalender und Konverter für das Terminal.
+Weitere Informationen: <https://manned.org/ical>.
 
 - Zeige den Kalender von diesem Monat an:
 
