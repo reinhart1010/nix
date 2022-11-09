@@ -2,13 +2,19 @@
 layout: page
 title: common/gcc (English)
 description: "Preprocess and compile C and C++ source files, then assemble and link them together."
-content_hash: 7ac0a654081b1b4bd5a21ef214aba6180a8fe2c6
+content_hash: fa42e0a6277b1e3fd693bb357b5d796185a14c0e
 related_topics:
   - title: Deutsch version
     url: /de/common/gcc.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/gcc.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/gcc.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/gcc.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/gcc.html
@@ -26,9 +32,9 @@ More information: <https://gcc.gnu.org>.
 
 `gcc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source1.c path/to/source2.c ...</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_executable</span>
 
-- Show common warnings, debug symbols in output:
+- Show common warnings, debug symbols in output, and optimize without affecting debugging:
 
-`gcc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.c</span>` -Wall -Og -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_executable</span>
+`gcc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.c</span>` -Wall -g -Og -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_executable</span>
 
 - Include libraries from a different path:
 
