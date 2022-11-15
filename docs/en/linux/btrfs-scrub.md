@@ -2,8 +2,11 @@
 layout: page
 title: linux/btrfs-scrub (English)
 description: "Scrub btrfs filesystems to verify data integrity."
-content_hash: a9cece1600c56ba91f17ec5384b6a7ea19c6b23b
+content_hash: 5b47e5025b7e3557947b11f98c583be04310d3f8
 related_topics:
+  - title: français version
+    url: /fr/linux/btrfs-scrub.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/btrfs-scrub.html
     icon: bi bi-globe
@@ -12,7 +15,7 @@ related_topics:
 
 Scrub btrfs filesystems to verify data integrity.
 It is recommended to run a scrub once a month.
-More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-scrub>.
+More information: <https://btrfs.readthedocs.io/en/latest/btrfs-scrub.html>.
 
 - Start a scrub:
 

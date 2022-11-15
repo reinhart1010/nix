@@ -2,22 +2,22 @@
 layout: page
 title: linux/btrfs-device (português (Brasil))
 description: "Gerencia dispositivos em um sistema de arquivos btrfs."
-content_hash: 995485adc1648dfe3584894c88d880cd39206678
+content_hash: 10bbfd7413432e0513476da0d2703099e04542e6
 related_topics:
   - title: English version
     url: /en/linux/btrfs-device.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/btrfs-device.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/btrfs-device.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># btrfs device
+# btrfs device
 
 Gerencia dispositivos em um sistema de arquivos btrfs.
-Mais informações: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-device>.
+Mais informações: <https://btrfs.readthedocs.io/en/latest/btrfs-device.html>.
 
 - Adiciona um ou mais dispositivos a um sistema de arquivos btrfs:
 

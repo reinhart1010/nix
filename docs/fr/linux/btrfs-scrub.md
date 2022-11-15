@@ -2,7 +2,7 @@
 layout: page
 title: linux/btrfs-scrub (français)
 description: "Éxaminer un système de fichiers btrfs pour vérifier l'intégrité de ses données."
-content_hash: e4ec49f2694f39c47139f20277fb8d5844657b42
+content_hash: 131fe7acb10da70831651bc9bc88968456649648
 related_topics:
   - title: English version
     url: /en/linux/btrfs-scrub.html
@@ -11,14 +11,11 @@ related_topics:
     url: /zh/linux/btrfs-scrub.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># btrfs scrub
+# btrfs scrub
 
 Éxaminer un système de fichiers btrfs pour vérifier l'intégrité de ses données.
 Il est recommandé de faire tourner une vérification tous les mois.
-Plus d'informations : <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-scrub>.
+Plus d'informations : <https://btrfs.readthedocs.io/en/latest/btrfs-scrub.html>.
 
 - Démarrer un examen :
 

@@ -2,19 +2,16 @@
 layout: page
 title: linux/btrfs-version (français)
 description: "Afficher les informations de version des outils btrfs, et accéder aux pages d'aide."
-content_hash: 9135950469389fd573390f0ff87bdb86ae45abca
+content_hash: f18aaf11236a47285145e95a80789c3dc86868e4
 related_topics:
   - title: English version
     url: /en/linux/btrfs-version.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># btrfs version
+# btrfs version
 
 Afficher les informations de version des outils btrfs, et accéder aux pages d'aide.
-Plus d'informations : <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs>.
+Plus d'informations : <https://btrfs.readthedocs.io/en/latest/btrfs.html>.
 
 - Afficher les informations de version des outils btrfs :
 

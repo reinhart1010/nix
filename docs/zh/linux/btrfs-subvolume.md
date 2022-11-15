@@ -2,16 +2,22 @@
 layout: page
 title: linux/btrfs-subvolume (中文)
 description: "管理 btrfs 子卷和快照。"
-content_hash: 70853095d1a6d462715ebbcbd40c085120ab717e
+content_hash: f70a8c8ea63b477f8532e9ee337d6ce39667ac9b
 related_topics:
   - title: English version
     url: /en/linux/btrfs-subvolume.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/btrfs-subvolume.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/btrfs-subvolume.html
     icon: bi bi-globe
 ---
 # btrfs subvolume
 
 管理 btrfs 子卷和快照。
-更多信息：<https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-subvolume>.
+更多信息：<https://btrfs.readthedocs.io/en/latest/btrfs-subvolume.html>.
 
 - 创建一个新的空子卷：
 

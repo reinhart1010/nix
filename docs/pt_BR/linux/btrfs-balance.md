@@ -2,19 +2,16 @@
 layout: page
 title: linux/btrfs-balance (português (Brasil))
 description: "Balanceia grupos de blocos em um sistema de arquivos btrfs."
-content_hash: 948ac3f3bfcd74065dfdc5bac6cc4747ec13fbaa
+content_hash: bd3d20644b0459512ccaa082cd60aaba01acc071
 related_topics:
   - title: English version
     url: /en/linux/btrfs-balance.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># btrfs balance
+# btrfs balance
 
 Balanceia grupos de blocos em um sistema de arquivos btrfs.
-Mais informações: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-balance>.
+Mais informações: <https://btrfs.readthedocs.io/en/latest/btrfs-balance.html>.
 
 - Mostra o status de uma operação balance em execução ou pausada:
 

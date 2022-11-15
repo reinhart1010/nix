@@ -2,17 +2,20 @@
 layout: page
 title: linux/btrfs-scrub (中文)
 description: "清理 btrfs 文件系统以验证数据完整性。"
-content_hash: 6cba3a5263bcda80561f1216de03d995330c8e7a
+content_hash: 72e0bd7f065e0001a939f6bb03b0bf15726975e1
 related_topics:
   - title: English version
     url: /en/linux/btrfs-scrub.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/btrfs-scrub.html
     icon: bi bi-globe
 ---
 # btrfs scrub
 
 清理 btrfs 文件系统以验证数据完整性。
 建议每月运行一次 scrub.
-更多信息：<https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-scrub>.
+更多信息：<https://btrfs.readthedocs.io/en/latest/btrfs-scrub.html>.
 
 - 开始 scrub：
 

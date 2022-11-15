@@ -2,8 +2,14 @@
 layout: page
 title: linux/btrfs-filesystem (English)
 description: "Manage btrfs filesystems."
-content_hash: af1da897c0286b32964f3e565ba8e718321b7dc9
+content_hash: 7b089e716c19d1eb672b03ce1b654a3d04455600
 related_topics:
+  - title: français version
+    url: /fr/linux/btrfs-filesystem.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/btrfs-filesystem.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/btrfs-filesystem.html
     icon: bi bi-globe
@@ -11,7 +17,7 @@ related_topics:
 # btrfs filesystem
 
 Manage btrfs filesystems.
-More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-filesystem>.
+More information: <https://btrfs.readthedocs.io/en/latest/btrfs-filesystem.html>.
 
 - Show filesystem usage (optionally run as root to show detailed information):
 

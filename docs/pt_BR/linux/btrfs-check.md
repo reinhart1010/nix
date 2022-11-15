@@ -2,19 +2,19 @@
 layout: page
 title: linux/btrfs-check (português (Brasil))
 description: "Verifica ou repara um sistema de arquivos btrfs."
-content_hash: 59075232f242d578d0ec10ec55223a8dae16a68b
+content_hash: 2e8ea08987c22d2ca762dad77a885eea5092eb32
 related_topics:
   - title: English version
     url: /en/linux/btrfs-check.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/btrfs-check.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># btrfs check
+# btrfs check
 
 Verifica ou repara um sistema de arquivos btrfs.
-Mais informações: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-check>.
+Mais informações: <https://btrfs.readthedocs.io/en/latest/btrfs-check.html>.
 
 - Verifica um sistema de arquivos btrfs:
 

@@ -2,19 +2,16 @@
 layout: page
 title: linux/btrfs-property (português (Brasil))
 description: "Obtém, define ou lista propriedades para um determinado objeto de sistema de arquivos btrfs (arquivos, diretórios, subvolumes, sistemas de arquivos ou dispositivos)."
-content_hash: 577637619419c79a1a15b4321d78176f72710c2c
+content_hash: ea249ee5f920c8729133a1589f12846c40cf29ce
 related_topics:
   - title: English version
     url: /en/linux/btrfs-property.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># btrfs property
+# btrfs property
 
 Obtém, define ou lista propriedades para um determinado objeto de sistema de arquivos btrfs (arquivos, diretórios, subvolumes, sistemas de arquivos ou dispositivos).
-Mais informações: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-property>.
+Mais informações: <https://btrfs.readthedocs.io/en/latest/btrfs-property.html>.
 
 - Lista as propriedades disponíveis (e descrições) para o objeto btrfs fornecido:
 

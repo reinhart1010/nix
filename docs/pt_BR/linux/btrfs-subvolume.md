@@ -2,22 +2,22 @@
 layout: page
 title: linux/btrfs-subvolume (português (Brasil))
 description: "Gerencia subvolumes e snapshots btrfs."
-content_hash: 4b06dff04bc33a93d16b8046deca1c91b69a97cc
+content_hash: 2904192d80b7859e75965af5d571b4396e06534b
 related_topics:
   - title: English version
     url: /en/linux/btrfs-subvolume.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/btrfs-subvolume.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/btrfs-subvolume.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># btrfs subvolume
+# btrfs subvolume
 
 Gerencia subvolumes e snapshots btrfs.
-Mais informações: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-subvolume>.
+Mais informações: <https://btrfs.readthedocs.io/en/latest/btrfs-subvolume.html>.
 
 - Cria um novo subvolume vazio:
 

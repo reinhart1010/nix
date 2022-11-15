@@ -2,20 +2,17 @@
 layout: page
 title: linux/mkfs.btrfs (Indonesia)
 description: "Membuat sistem file btrfs."
-content_hash: e95cf2fbfb0f98c622001963152c6c8c10e163a6
+content_hash: f9599f24b549c4632fd011bbd8790880c5e6e42b
 related_topics:
   - title: English version
     url: /en/linux/mkfs.btrfs.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mkfs.btrfs
+# mkfs.btrfs
 
 Membuat sistem file btrfs.
 Default ke `raid1`, yang menyatakan 2 salinan sebuah blok data disebar ke 2 perangkat yang berbeda.
-Informasi lebih lanjut: <https://btrfs.wiki.kernel.org/index.php/Manpage/mkfs.btrfs>.
+Informasi lebih lanjut: <https://btrfs.readthedocs.io/en/latest/mkfs.btrfs.html>.
 
 - Membuat sebuah sistem file btrfs di satu perangkat:
 

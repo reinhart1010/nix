@@ -2,8 +2,14 @@
 layout: page
 title: linux/btrfs-subvolume (English)
 description: "Manage btrfs subvolumes and snapshots."
-content_hash: f222b74fa89467dab3622fd624216b03f07deb16
+content_hash: 849485e4d0add6a5077beb1f3a8207b5c57641c6
 related_topics:
+  - title: français version
+    url: /fr/linux/btrfs-subvolume.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/btrfs-subvolume.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/btrfs-subvolume.html
     icon: bi bi-globe
@@ -11,7 +17,7 @@ related_topics:
 # btrfs subvolume
 
 Manage btrfs subvolumes and snapshots.
-More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-subvolume>.
+More information: <https://btrfs.readthedocs.io/en/latest/btrfs-subvolume.html>.
 
 - Create a new empty subvolume:
 

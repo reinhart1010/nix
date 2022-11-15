@@ -2,16 +2,22 @@
 layout: page
 title: linux/btrfs-filesystem (中文)
 description: "管理 btrfs 文件系统。"
-content_hash: 01fea463c5fd34b079998a6424fd20a21808b5a4
+content_hash: 68a77f28688a291bde99b040cee37c245c9bd5cd
 related_topics:
   - title: English version
     url: /en/linux/btrfs-filesystem.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/btrfs-filesystem.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/btrfs-filesystem.html
     icon: bi bi-globe
 ---
 # btrfs filesystem
 
 管理 btrfs 文件系统。
-更多信息：<https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-filesystem>.
+更多信息：<https://btrfs.readthedocs.io/en/latest/btrfs-filesystem.html>.
 
 - 显示文件系统使用情况（可以选择以 root 身份运行以显示详细信息）：
 

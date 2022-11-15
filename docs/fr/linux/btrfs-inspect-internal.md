@@ -2,7 +2,7 @@
 layout: page
 title: linux/btrfs-inspect-internal (français)
 description: "Recherche des informations internes concernant un système de fichier btrfs."
-content_hash: d4d56ac7f159eccf0c71222d37d0df275ff5bfbf
+content_hash: fa56a7e07ba0d185594e2e5d41f73607472545ce
 related_topics:
   - title: English version
     url: /en/linux/btrfs-inspect-internal.html
@@ -11,13 +11,10 @@ related_topics:
     url: /pt_BR/linux/btrfs-inspect-internal.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># btrfs inspect-internal
+# btrfs inspect-internal
 
 Recherche des informations internes concernant un système de fichier btrfs.
-Plus d'information : <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-inspect-internal>.
+Plus d'information : <https://btrfs.readthedocs.io/en/latest/btrfs-inspect-internal.html>.
 
 - Afficher les informations du superbloc :
 

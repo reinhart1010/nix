@@ -2,8 +2,14 @@
 layout: page
 title: linux/btrfs-device (English)
 description: "Manage devices in a btrfs filesystem."
-content_hash: c8a28e920a9cae38299b3af0e7bbfb8dd4334f8a
+content_hash: 9edec41c6c8c0253a21e07ab8f82a0d3d8f93638
 related_topics:
+  - title: français version
+    url: /fr/linux/btrfs-device.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/btrfs-device.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/btrfs-device.html
     icon: bi bi-globe
@@ -11,7 +17,7 @@ related_topics:
 # btrfs device
 
 Manage devices in a btrfs filesystem.
-More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-device>.
+More information: <https://btrfs.readthedocs.io/en/latest/btrfs-device.html>.
 
 - Add one or more devices to a btrfs filesystem:
 

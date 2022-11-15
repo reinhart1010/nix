@@ -2,19 +2,19 @@
 layout: page
 title: linux/btrfs-inspect-internal (português (Brasil))
 description: "Consulta informações internas de um sistema de arquivos btrfs."
-content_hash: d12888a2394d87f30f665ea68bd8f68dec8815c1
+content_hash: 3f66da53da58158e0c5518527f6b96f35c93f823
 related_topics:
   - title: English version
     url: /en/linux/btrfs-inspect-internal.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/btrfs-inspect-internal.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># btrfs inspect-internal
+# btrfs inspect-internal
 
 Consulta informações internas de um sistema de arquivos btrfs.
-Mais informações: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-inspect-internal>.
+Mais informações: <https://btrfs.readthedocs.io/en/latest/btrfs-inspect-internal.html>.
 
 - Imprime informações de superblocos:
 

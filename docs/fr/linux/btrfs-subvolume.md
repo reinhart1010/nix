@@ -2,7 +2,7 @@
 layout: page
 title: linux/btrfs-subvolume (français)
 description: "Gestion des sous-volumes et instantanés btrfs."
-content_hash: cff0e121c745a8994d7a78cd9dff458f4be979a5
+content_hash: 1e3f8d927144fa2fc57e796dde2a001e95c9a56b
 related_topics:
   - title: English version
     url: /en/linux/btrfs-subvolume.html
@@ -14,13 +14,10 @@ related_topics:
     url: /zh/linux/btrfs-subvolume.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># btrfs subvolume
+# btrfs subvolume
 
 Gestion des sous-volumes et instantanés btrfs.
-Plus d'information : <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-subvolume>.
+Plus d'information : <https://btrfs.readthedocs.io/en/latest/btrfs-subvolume.html>.
 
 - Créer un nouveau sous-volume vide :
 

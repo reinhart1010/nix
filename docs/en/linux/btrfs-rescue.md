@@ -2,12 +2,19 @@
 layout: page
 title: linux/btrfs-rescue (English)
 description: "Try to recover a damaged btrfs filesystem."
-content_hash: b73a2c06b4322d5178f8c7087b5b2c4204c83677
+content_hash: b66024cbc51864b310271348cfbbb7a931db1bdf
+related_topics:
+  - title: français version
+    url: /fr/linux/btrfs-rescue.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/btrfs-rescue.html
+    icon: bi bi-globe
 ---
 # btrfs rescue
 
 Try to recover a damaged btrfs filesystem.
-More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-rescue>.
+More information: <https://btrfs.readthedocs.io/en/latest/btrfs-rescue.html>.
 
 - Rebuild the filesystem metadata tree (very slow):
 

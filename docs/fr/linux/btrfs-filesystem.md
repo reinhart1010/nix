@@ -2,7 +2,7 @@
 layout: page
 title: linux/btrfs-filesystem (français)
 description: "Gérer les systèmes de fichiers btrfs."
-content_hash: 20cc73af46c79bde62e4314ef19c2bb95951fd03
+content_hash: 48140fb79bfdde8ac517b8ad0c8859cd994a9ac7
 related_topics:
   - title: English version
     url: /en/linux/btrfs-filesystem.html
@@ -14,13 +14,10 @@ related_topics:
     url: /zh/linux/btrfs-filesystem.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># btrfs filesystem
+# btrfs filesystem
 
 Gérer les systèmes de fichiers btrfs.
-More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-filesystem>.
+More information: <https://btrfs.readthedocs.io/en/latest/btrfs-filesystem.html>.
 
 - Afficher l'utilisation du système de fichiers (affiche les informations détaillées si executé en tant que `root`) :
 

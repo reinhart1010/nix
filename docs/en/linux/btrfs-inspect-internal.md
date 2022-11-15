@@ -2,12 +2,19 @@
 layout: page
 title: linux/btrfs-inspect-internal (English)
 description: "Query internal information of a btrfs filesystem."
-content_hash: c860b08bc287841d6b458eda97eeb347d356661c
+content_hash: 7043f9fa18b47b521342cb31958a25a6ea5b4c17
+related_topics:
+  - title: français version
+    url: /fr/linux/btrfs-inspect-internal.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/btrfs-inspect-internal.html
+    icon: bi bi-globe
 ---
 # btrfs inspect-internal
 
 Query internal information of a btrfs filesystem.
-More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-inspect-internal>.
+More information: <https://btrfs.readthedocs.io/en/latest/btrfs-inspect-internal.html>.
 
 - Print superblock's information:
 

@@ -2,12 +2,16 @@
 layout: page
 title: linux/btrfs-balance (English)
 description: "Balance block groups on a btrfs filesystem."
-content_hash: a3e0f84520ac43ff8c35593c0fae530fd0a1c690
+content_hash: 77bdbbbb987d2b878838b477e93a41bc37ff4c52
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/linux/btrfs-balance.html
+    icon: bi bi-globe
 ---
 # btrfs balance
 
 Balance block groups on a btrfs filesystem.
-More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-balance>.
+More information: <https://btrfs.readthedocs.io/en/latest/btrfs-balance.html>.
 
 - Show the status of a running or paused balance operation:
 

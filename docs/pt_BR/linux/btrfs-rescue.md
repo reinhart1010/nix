@@ -2,19 +2,19 @@
 layout: page
 title: linux/btrfs-rescue (português (Brasil))
 description: "Tenta recuperar um sistema de arquivos btrfs danificado."
-content_hash: cfecbcde18f6c30d9ab9805a70d300b8ed48bc38
+content_hash: 0a4d292df2f097259892811955c96da39e745a0d
 related_topics:
   - title: English version
     url: /en/linux/btrfs-rescue.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/btrfs-rescue.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># btrfs rescue
+# btrfs rescue
 
 Tenta recuperar um sistema de arquivos btrfs danificado.
-Mais informações: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-rescue>.
+Mais informações: <https://btrfs.readthedocs.io/en/latest/btrfs-rescue.html>.
 
 - Reconstrói a árvore de metadados do sistema de arquivos (muito lento):
 

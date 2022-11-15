@@ -2,15 +2,16 @@
 layout: page
 title: linux/btrfs-property (English)
 description: "Get, set, or list properties for a given btrfs filesystem object (files, directories, subvolumes, filesystems, or devices)."
-content_hash: 297fab50ad28474916853544ce9d53181681c621
+content_hash: 237d01f9ff0288354d385da456cc84500ccbb27c
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/linux/btrfs-property.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># btrfs property
+# btrfs property
 
 Get, set, or list properties for a given btrfs filesystem object (files, directories, subvolumes, filesystems, or devices).
-More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-property>.
+More information: <https://btrfs.readthedocs.io/en/latest/btrfs-property.html>.
 
 - List available properties (and descriptions) for the given btrfs object:
 

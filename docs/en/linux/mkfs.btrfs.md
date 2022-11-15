@@ -2,13 +2,17 @@
 layout: page
 title: linux/mkfs.btrfs (English)
 description: "Create a btrfs filesystem."
-content_hash: 10264bf5bfe3de946c9524bceaad3844d515690c
+content_hash: 79a241e798f88ca67c896fa09f3dde736246739b
+related_topics:
+  - title: Indonesia version
+    url: /id/linux/mkfs.btrfs.html
+    icon: bi bi-globe
 ---
 # mkfs.btrfs
 
 Create a btrfs filesystem.
 Defaults to `raid1`, which specifies 2 copies of a given data block spread across 2 different devices.
-More information: <https://btrfs.wiki.kernel.org/index.php/Manpage/mkfs.btrfs>.
+More information: <https://btrfs.readthedocs.io/en/latest/mkfs.btrfs.html>.
 
 - Create a btrfs filesystem on a single device:
 

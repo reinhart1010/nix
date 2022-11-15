@@ -2,16 +2,22 @@
 layout: page
 title: linux/btrfs-device (中文)
 description: "管理 btrfs 文件系统中的设备。"
-content_hash: 5523fda629e39dbf1952dfbdf8b18cbf8e92701d
+content_hash: 49ee75878933e7976371003405f569b3320bee40
 related_topics:
   - title: English version
     url: /en/linux/btrfs-device.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/btrfs-device.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/btrfs-device.html
     icon: bi bi-globe
 ---
 # btrfs device
 
 管理 btrfs 文件系统中的设备。
-更多信息：<https://btrfs.wiki.kernel.org/index.php/Manpage/btrfs-device>.
+更多信息：<https://btrfs.readthedocs.io/en/latest/btrfs-device.html>.
 
 - 将一个或多个设备添加到 btrfs 文件系统中：
 
