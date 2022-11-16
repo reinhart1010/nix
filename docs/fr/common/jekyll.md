@@ -2,16 +2,19 @@
 layout: page
 title: common/jekyll (français)
 description: "Générateur de site statique simple, adapté aux blogs."
-content_hash: 991578eb95ce0703415ced3f88fb4242bec24183
+content_hash: e0b9af40b62d9ed05123d5543696b410b682c07d
 related_topics:
   - title: English version
     url: /en/common/jekyll.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/jekyll.html
     icon: bi bi-globe
 ---
 # jekyll
 
 Générateur de site statique simple, adapté aux blogs.
-Plus d'informations : <https://jekyllrb.com>.
+Plus d'informations : <https://jekyllrb.com/docs/usage/>.
 
 - Génère un serveur de développement qui tourne en http://localhost:4000/ :
 

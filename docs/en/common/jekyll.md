@@ -2,16 +2,19 @@
 layout: page
 title: common/jekyll (English)
 description: "A simple, blog-aware, static site generator."
-content_hash: afad793b62f72d3b3b98951c9bd785354a0baf54
+content_hash: c95e926a6cfc5a0ec244397da04197b30357d90a
 related_topics:
   - title: français version
     url: /fr/common/jekyll.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/jekyll.html
     icon: bi bi-globe
 ---
 # jekyll
 
 A simple, blog-aware, static site generator.
-More information: <https://jekyllrb.com>.
+More information: <https://jekyllrb.com/docs/usage/>.
 
 - Generate a development server that will run at http://localhost:4000/:
 

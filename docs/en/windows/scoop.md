@@ -2,7 +2,7 @@
 layout: page
 title: windows/scoop (English)
 description: "A command-line installer for Windows."
-content_hash: c0d80629b451cd942b37550861ee40d2d24c1daa
+content_hash: 121b7d37bedb7df8d58701583098734704b1a6e7
 related_topics:
   - title: Deutsch version
     url: /de/windows/scoop.html
@@ -29,7 +29,7 @@ More information: <https://scoop.sh>.
 
 - Update all installed packages:
 
-`scoop update *`
+`scoop update --all`
 
 - List installed packages:
 
@@ -45,4 +45,4 @@ More information: <https://scoop.sh>.
 
 - Remove old versions of all packages and clear the download cache:
 
-`scoop cleanup -k *`
+`scoop cleanup --cache --all`
