@@ -2,7 +2,7 @@
 layout: page
 title: common/tput (English)
 description: "View and modify terminal settings and capabilities."
-content_hash: bbfb1bcb8e4439a6005402c3cea1e59d84eeca5a
+content_hash: eda88f77bad2bc19639c59a8c65bf86fa1dd3117
 related_topics:
   - title: français version
     url: /fr/common/tput.html
@@ -15,7 +15,7 @@ More information: <https://manned.org/tput>.
 
 - Move the cursor to a screen location:
 
-`tput cup `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_coordinate</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_coordinate</span>
+`tput cup `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">row</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">column</span>
 
 - Set foreground (af) or background (ab) color:
 
