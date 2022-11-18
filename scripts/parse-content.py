@@ -5,11 +5,14 @@ from filehash.filehash import FileHash
 import frontmatter
 import json
 from os import error, mkdir, path, walk
+import requests
+from requests.exceptions import HTTPError
 from yaml.parser import ParserError
 from yaml.scanner import ScannerError
 
 # Open the i18n-data first
 i18n = json.load(open("i18n-data/data.json", "r"))
+indexnow_queue = []
 
 def get_tldr_page_directory(lang: str):
   if lang == "en":
@@ -35,6 +38,7 @@ def get_translations(lang: str, page: str):
   
 def extract_page(lang: str, page: str):
   global i18n
+  global indexnow_queue
   hierarchy = page[:-3].split(sep="/")
   folder_name = get_tldr_page_directory(lang)
   source_file = "source/" + folder_name + "/" + page
@@ -90,6 +94,7 @@ def extract_page(lang: str, page: str):
 
   target.close()
 
+  indexnow_queue.append(lang + "/" + page)
   print("Finished generating page for " + lang + "/" + page)
 
 for lang in i18n["languages"]:
@@ -124,3 +129,25 @@ for lang in i18n["languages"]:
         extract_page(lang, page)
       except ScannerError:
         extract_page(lang, page)
+
+indexnow_queue_current_batch = []
+
+def append_base_url(path):
+  return "https://nix.reinhart1010.id/" + path
+
+while indexnow_queue.count > 0:
+  indexnow_queue_current_batch.append(indexnow_queue.pop())
+  if indexnow_queue_current_batch.length >= 10000 or indexnow_queue.count == 0:
+    try:
+      print("Sending an IndexNow request to Bing with %d URLs" % (indexnow_queue_current_batch.length))
+      response = requests.post("https://www.bing.com/indexnow", json={
+        "host": "nix.reinhart1010.id",
+        "key": "33ef9535d59348be8b8f2b95dfdbe629",
+        "urlList": list(map(append_base_url, indexnow_queue_current_batch))
+      })
+    except HTTPError as http_err:
+        print("HTTP error occurred: %s" % (http_err))  # Python 3.6
+    except Exception as err:
+        print("Other error occurred: %s" % (err))  # Python 3.6
+    else:
+        print('Success!')
