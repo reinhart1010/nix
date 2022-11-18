@@ -34,7 +34,7 @@ ham:
 
 # Build settings
 remote_theme: reinhart1010/HAM
-url: ""
+url: "https://nix.reinhart1010.id"
 
 plugins:
   - jekyll-optional-front-matter
