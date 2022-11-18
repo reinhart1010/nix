@@ -1,5 +1,6 @@
 from babel import Locale
 from babel.core import UnknownLocaleError
+from datetime import datetime
 from filehash.filehash import FileHash
 import frontmatter
 import json
@@ -54,6 +55,7 @@ def extract_page(lang: str, page: str):
   front_matter += "description: \"" + content[2][2:-1].replace("\"", "\\\"") + "\"\n"
   print(content[2][2:-1])
   front_matter += "content_hash: " + FileHash("sha1").hash_file(source_file) + "\n"
+  front_matter += "last_modified_at: " + datetime.today().strftime("%Y-%m-%d") + "\n"
 
   if len(translations) > 0:
     front_matter += "related_topics:\n"
