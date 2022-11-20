@@ -135,9 +135,9 @@ indexnow_queue_current_batch = []
 def append_base_url(path):
   return "https://nix.reinhart1010.id/" + path
 
-while indexnow_queue.count > 0:
+while indexnow_queue.count() > 0:
   indexnow_queue_current_batch.append(indexnow_queue.pop())
-  if indexnow_queue_current_batch.length >= 10000 or indexnow_queue.count == 0:
+  if indexnow_queue_current_batch.count() >= 10000 or indexnow_queue.count() == 0:
     try:
       print("Sending an IndexNow request to Bing with %d URLs" % (indexnow_queue_current_batch.length))
       response = requests.post("https://www.bing.com/indexnow", json={
