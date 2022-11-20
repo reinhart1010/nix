@@ -2,7 +2,8 @@
 layout: page
 title: common/fg (русский)
 description: "Переключение задания на передний план."
-content_hash: 8b54390f79dc84c27f5df0c4ccc29c3c73b3f158
+content_hash: 28710e171769b08a8cafb249ef8592e2ef462c0c
+last_modified_at: 2022-11-20
 related_topics:
   - title: Deutsch version
     url: /de/common/fg.html
@@ -16,16 +17,16 @@ related_topics:
   - title: हिन्दी version
     url: /hi/common/fg.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/fg.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># fg
+# fg
 
 Переключение задания на передний план.
 Больше информации: <https://manned.org/fg>.
 
-- Переключить последнее приостановленное задание на передний план:
+- Переключить последнее приостановленное или выполняющееся в фоне задание на передний план:
 
 `fg`
 
