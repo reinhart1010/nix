@@ -139,7 +139,7 @@ while len(indexnow_queue) > 0:
   indexnow_queue_current_batch.append(indexnow_queue.pop())
   if len(indexnow_queue_current_batch) >= 10000 or len(indexnow_queue) == 0:
     try:
-      print("Sending an IndexNow request to Bing with %d URLs" % (indexnow_queue_current_batch.length))
+      print("Sending an IndexNow request to Bing with %d URLs" % (len(indexnow_queue_current_batch))
       response = requests.post("https://www.bing.com/indexnow", json={
         "host": "nix.reinhart1010.id",
         "key": "33ef9535d59348be8b8f2b95dfdbe629",
