@@ -133,7 +133,8 @@ for lang in i18n["languages"]:
 indexnow_queue_current_batch = []
 
 def append_base_url(path):
-  return "https://nix.reinhart1010.id/" + path
+  # Remove the ".md" part of the query
+  return "https://nix.reinhart1010.id/" + path[:-3]
 
 while len(indexnow_queue) > 0:
   indexnow_queue_current_batch.append(indexnow_queue.pop())
