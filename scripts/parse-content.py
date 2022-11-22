@@ -145,6 +145,7 @@ while len(indexnow_queue) > 0:
         "key": "33ef9535d59348be8b8f2b95dfdbe629",
         "urlList": list(map(append_base_url, indexnow_queue_current_batch))
       })
+      print("Status code: ", response.status_code)
     except HTTPError as http_err:
         print("HTTP error occurred: %s" % (http_err))  # Python 3.6
     except Exception as err:
