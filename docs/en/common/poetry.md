@@ -2,7 +2,8 @@
 layout: page
 title: common/poetry (English)
 description: "Manage Python packages and dependencies."
-content_hash: 3dd3350b570a42f0c7a9ccb906f5870490700b55
+content_hash: 7ac503859779d41e08239d5b8c7c82b141b66f44
+last_modified_at: 2022-11-22
 related_topics:
   - title: italiano version
     url: /it/common/poetry.html
@@ -23,7 +24,7 @@ More information: <https://python-poetry.org/docs/cli/>.
 
 - Install a development dependency and its subdependencies:
 
-`poetry add --dev `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dependency</span>
+`poetry add --group dev `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dependency</span>
 
 - Interactively initialize the current directory as a new Poetry project:
 
