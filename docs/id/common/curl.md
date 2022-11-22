@@ -2,13 +2,17 @@
 layout: page
 title: common/curl (Indonesia)
 description: "Mentransfer data dari atau ke server."
-content_hash: cda084b2e04ee307bbd3d621a5a64cf694bda163
+content_hash: 683cd5aff9dd59df0fd7872bb22138ed3bbd6218
+last_modified_at: 2022-11-22
 related_topics:
   - title: Deutsch version
     url: /de/common/curl.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/curl.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/curl.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/curl.html
@@ -30,7 +34,7 @@ related_topics:
 
 Mentransfer data dari atau ke server.
 Mendukung sebagian besar protokol, termasuk HTTP, FTP, dan POP3.
-Informasi lebih lanjut: <https://curl.se>.
+Informasi lebih lanjut: <https://curl.se/docs/manpage.html>.
 
 - Unduh konten URL ke file:
 

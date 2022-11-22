@@ -2,13 +2,17 @@
 layout: page
 title: common/curl (português (Brasil))
 description: "Transfere dados entre o computador local e um servidor remoto."
-content_hash: a8f03d47511fed525eee64f64f17297e2525d3c4
+content_hash: e24d0dfe4e17dd9f12f45bd3701c9f993ccc3e1a
+last_modified_at: 2022-11-22
 related_topics:
   - title: Deutsch version
     url: /de/common/curl.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/curl.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/curl.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/curl.html
@@ -30,7 +34,7 @@ related_topics:
 
 Transfere dados entre o computador local e um servidor remoto.
 Suporta a maioria dos protocolos de comunicação, incluindo HTTP, FTP e POP3.
-Mais informações: <https://curl.se>.
+Mais informações: <https://curl.se/docs/manpage.html>.
 
 - Descarregar os conteúdos de um URL para um arquivo:
 

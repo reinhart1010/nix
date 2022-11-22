@@ -2,13 +2,17 @@
 layout: page
 title: common/curl (italiano)
 description: "Trasferisci dati da o ad un server."
-content_hash: 4d7ad123b8b43732a94fdce34d49a16b6208cc74
+content_hash: 8d5d11d4860910aecb168e9f25a55af8e9107705
+last_modified_at: 2022-11-22
 related_topics:
   - title: Deutsch version
     url: /de/common/curl.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/curl.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/curl.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/curl.html
@@ -30,7 +34,7 @@ related_topics:
 
 Trasferisci dati da o ad un server.
 Supporta molti protocollo, tra cui HTTP, FTP e POP3.
-Maggiori informazioni: <https://curl.se>.
+Maggiori informazioni: <https://curl.se/docs/manpage.html>.
 
 - Scarica il contenuto di un URL in un file:
 
