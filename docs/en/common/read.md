@@ -2,7 +2,8 @@
 layout: page
 title: common/read (English)
 description: "BASH builtin for retrieving data from standard input."
-content_hash: 9f07ae9dfdef2ebfdfed6a1fccd2adc00e465aef
+content_hash: d28aa8568c52a873f9d5c9c46654937f33a35395
+last_modified_at: 2022-11-23
 ---
 # read
 
@@ -25,7 +26,7 @@ More information: <https://manned.org/read.1p>.
 
 `read -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_delimiter</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span>
 
-- Do not let backslash (\) act as an escape character:
+- Do not let backslash (\\) act as an escape character:
 
 `read -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span>
 
