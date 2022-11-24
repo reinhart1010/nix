@@ -1,11 +1,14 @@
 ---
 layout: page
-title: common/killall (English)
+title: linux/killall (English)
 description: "Send kill signal to all instances of a process by name (must be exact name)."
-content_hash: 435f4171f5c2a503a1b38c1f538a417d59f2c592
+content_hash: 266063638307b01c040bb294c72c16fba90c4a5d
 last_modified_at: 2022-11-24
 ---
-# killall
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># killall
 
 Send kill signal to all instances of a process by name (must be exact name).
 All signals except SIGKILL and SIGSTOP can be intercepted by the process, allowing a clean exit.
@@ -15,9 +18,9 @@ More information: <https://manned.org/killall>.
 
 `killall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_name</span>
 
-- [l]ist available signal names (to be used without the 'SIG' prefix):
+- List available signal names (to be used without the 'SIG' prefix):
 
-`killall -l`
+`killall --list`
 
 - Interactively ask for confirmation before termination:
 
