@@ -11,8 +11,6 @@ Oh hi, I'm **Nix**. I often write some blogs [under my name](https://reinhart101
 
 This website is dedicated to the [tldr-pages] project, which now Reinhart has become one of the maintainers. Speaking of the project, many of [their clients](https://github.com/tldr-pages/tldr/wiki/tldr-pages-clients) are lacking something which we definitely need here in Indonesia and are proud at here: **support for multiple languages!**
 
-{% include random-posts.html %}
-
 ## Shameless Plug
 This website is powered by [HAM](https://ham.reinhart1010.id) which serves as a Jekyll base to generate static wiki pages like this.
 
