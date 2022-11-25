@@ -1,9 +1,9 @@
-{% assign random1 = site.time | date: "%s%N" | modulo: site.posts.size %}
-{% assign post_random1 = site.posts[random1] %}
-{% assign random2 = site.time | date: "%s%N" | plus: 20 | modulo: site.posts.size %}
-{% assign post_random2 = site.posts[random2] %}
-{% assign random3 = site.time | date: "%s%N" | plus: 80 | modulo: site.posts.size %}
-{% assign post_random3 = site.posts[random3] %}
+{% assign random1 = site.time | date: "%s%N" | modulo: site.pages.size %}
+{% assign post_random1 = site.pages[random1] %}
+{% assign random2 = site.time | date: "%s%N" | plus: 20 | modulo: site.pages.size %}
+{% assign post_random2 = site.pages[random2] %}
+{% assign random3 = site.time | date: "%s%N" | plus: 80 | modulo: site.pages.size %}
+{% assign post_random3 = site.pages[random3] %}
 
 <h2>Random Posts</h2>
 <ul>
