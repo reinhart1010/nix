@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/kdeconnect-cli (English)
-description: "KDE Connect CLI."
-content_hash: da580e874911de8983b799922393f1284b855158
+description: "KDE's Connect CLI."
+content_hash: 4481fef6c5985bf3f2f4337702d75d1b3b085bf9
+last_modified_at: 2022-11-29
 ---
 # kdeconnect-cli
 
-KDE Connect CLI.
+KDE's Connect CLI.
 More information: <https://kdeconnect.kde.org>.
 
 - List all devices:
@@ -23,20 +24,20 @@ More information: <https://kdeconnect.kde.org>.
 
 - Ring a device, specifying its name:
 
-`kdeconnect-cli --ring --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_name</span>
+`kdeconnect-cli --ring --name "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_name</span>`"`
 
 - Share an URL or file with a paired device, specifying its ID:
 
-`kdeconnect-cli --share `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">URL|path/to/file</span>` --device `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_id</span>
+`kdeconnect-cli --share `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|path/to/file</span>` --device `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_id</span>
 
 - Send an SMS with an optional attachment to a specific number:
 
-`kdeconnect-cli --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_name</span>` --send-sms `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span>` --destination `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">phone_number</span>` --attachment `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`kdeconnect-cli --name "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_name</span>`" --send-sms "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span>`" --destination `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">phone_number</span>` --attachment `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Unlock a specific device:
 
-`kdeconnect-cli --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_name</span>` --unlock`
+`kdeconnect-cli --name "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_name</span>`" --unlock`
 
 - Simulate a key press on a specific device:
 
-`kdeconnect-cli --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_name</span>` --send-keys `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span>
+`kdeconnect-cli --name "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_name</span>`" --send-keys `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span>

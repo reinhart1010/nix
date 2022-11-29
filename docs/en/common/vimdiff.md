@@ -2,8 +2,12 @@
 layout: page
 title: common/vimdiff (English)
 description: "Open up two or more files in vim and show the differences between them."
-content_hash: c8fbcfb98f9d84d99cf06687df4d37811669008b
+content_hash: 3a9cae6cbc969925c43d113dae36a0b8b6697943
+last_modified_at: 2022-11-29
 related_topics:
+  - title: Deutsch version
+    url: /de/common/vimdiff.html
+    icon: bi bi-globe
   - title: español version
     url: /es/common/vimdiff.html
     icon: bi bi-globe
@@ -11,7 +15,7 @@ related_topics:
 # vimdiff
 
 Open up two or more files in vim and show the differences between them.
-See also `vim`.
+See also `vim`, `vimtutor`, `nvim`.
 More information: <https://www.vim.org>.
 
 - Open two files and show the differences:

@@ -1,16 +1,13 @@
 ---
 layout: page
 title: common/verilator (English)
-description: "Converts Verilog and SystemVerilog hardware description language (HDL) designs into a C++ or SystemC model that after compiling can be executed."
-content_hash: 284f2500bf5b456ac6e68ac0d4d2d880b732f3ec
-last_modified_at: 2022-11-26
+description: "Converts Verilog and SystemVerilog hardware description language (HDL) design into a C++ or SystemC model to be executed after compiling."
+content_hash: a7135884bd85ff27e57fcc45896ffb2f0e295cee
+last_modified_at: 2022-11-29
 ---
+# verilator
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># verilator
-
-Converts Verilog and SystemVerilog hardware description language (HDL) designs into a C++ or SystemC model that after compiling can be executed.
+Converts Verilog and SystemVerilog hardware description language (HDL) design into a C++ or SystemC model to be executed after compiling.
 More information: <https://veripool.org/guide/latest/>.
 
 - Build a specific C project in the current directory:

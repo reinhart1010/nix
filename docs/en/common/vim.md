@@ -2,7 +2,8 @@
 layout: page
 title: common/vim (English)
 description: "Vim (Vi IMproved), a command-line text editor, provides several modes for different kinds of text manipulation."
-content_hash: dab0bc92a72f46c6e4cc25d3d342ce707180a4c3
+content_hash: 9ae7144dd2f335381454d1b11a55d7f2cd596b40
+last_modified_at: 2022-11-29
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -28,6 +29,9 @@ related_topics:
   - title: polski version
     url: /pl/common/vim.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/vim.html
+    icon: bi bi-globe
   - title: українська version
     url: /uk/common/vim.html
     icon: bi bi-globe
@@ -39,6 +43,7 @@ related_topics:
 
 Vim (Vi IMproved), a command-line text editor, provides several modes for different kinds of text manipulation.
 Pressing `i` in normal mode enters insert mode. Pressing `<Esc>` goes back to normal mode, which enables the use of Vim commands.
+See also `vimdiff`, `vimtutor`, `nvim`.
 More information: <https://www.vim.org>.
 
 - Open a file:

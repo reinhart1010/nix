@@ -2,7 +2,8 @@
 layout: page
 title: common/zsh (français)
 description: "Z SHell, un interpréteur de ligne de commande compatible avec Bash."
-content_hash: db530aa097e6b45bfd4f003ea958e96b2d6c722f
+content_hash: fe9b6dcd06a10d85d69c49b3b039e08e2f49e2fe
+last_modified_at: 2022-11-29
 related_topics:
   - title: Deutsch version
     url: /de/common/zsh.html
@@ -18,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/zsh.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/zsh.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/zsh.html
@@ -39,12 +43,16 @@ Plus d'informations : <https://www.zsh.org>.
 
 - Exécute un script :
 
-`zsh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/script.zsh</span>
+`zsh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/script.zsh</span>
 
 - Exécute un script en affichant chaque commande avant de l'exécuter :
 
-`zsh --xtrace `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.zsh</span>
+`zsh --xtrace `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/script.zsh</span>
 
 - Démarre une session shell interactive en mode verbeux, qui affiche chaque commande avant de l'exécuter :
 
 `zsh --verbose`
+
+- Exécute une commande spécifique dans `zsh` sans motifs génériques d'expansion des noms de fichier :
+
+`noglob "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>`"`

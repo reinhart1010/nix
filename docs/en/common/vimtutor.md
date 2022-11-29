@@ -2,8 +2,12 @@
 layout: page
 title: common/vimtutor (English)
 description: "Vim tutor, teaching the basic vim commands."
-content_hash: 57babf96a4cf8f3adbe585f53b8d0b5f06299b34
+content_hash: d42ed69414c8c4d124e3180749206e4d8f9f31fe
+last_modified_at: 2022-11-29
 related_topics:
+  - title: Deutsch version
+    url: /de/common/vimtutor.html
+    icon: bi bi-globe
   - title: español version
     url: /es/common/vimtutor.html
     icon: bi bi-globe
@@ -14,6 +18,7 @@ related_topics:
 # vimtutor
 
 Vim tutor, teaching the basic vim commands.
+See also `vim`, `vimdiff`, `nvim`.
 More information: <https://manned.org/vimtutor>.
 
 - Launch the vim tutor using the given language (en, fr, de, ...):

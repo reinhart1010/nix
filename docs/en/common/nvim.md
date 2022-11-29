@@ -2,7 +2,8 @@
 layout: page
 title: common/nvim (English)
 description: "Neovim, a programmer's text editor based on Vim, provides several modes for different kinds of text manipulation."
-content_hash: 0035337673041aab8462be99ee2922cbd584e856
+content_hash: 9db8071ec21438d3043d752833cc9dcaa63d9c3f
+last_modified_at: 2022-11-29
 related_topics:
   - title: Indonesia version
     url: /id/common/nvim.html
@@ -15,6 +16,7 @@ related_topics:
 
 Neovim, a programmer's text editor based on Vim, provides several modes for different kinds of text manipulation.
 Pressing `i` in normal mode enters insert mode. `<Esc>` goes back to normal mode, which doesn't allow regular text insertion.
+See also `vim`, `vimtutor`, `vimdiff`.
 More information: <https://neovim.io>.
 
 - Open a file:

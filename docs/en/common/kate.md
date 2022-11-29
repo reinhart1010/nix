@@ -1,35 +1,36 @@
 ---
 layout: page
 title: common/kate (English)
-description: "KDE Text Editor."
-content_hash: 4bf9ebffebe88654796f7348fd3eb5b0be3bc6a6
+description: "KDE's advanced text editor."
+content_hash: ce939998fbab2e5ae1b6698132630f4d64d88c20
+last_modified_at: 2022-11-29
 ---
 # kate
 
-KDE Text Editor.
+KDE's advanced text editor.
 More information: <https://kate-editor.org/>.
 
-- Launch Kate and open specific files:
+- Open specific files:
 
-`kate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>
+`kate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
-- Open a remote document in Kate:
+- Open specific remote files:
 
-`kate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/path/to/file</span>
+`kate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/path/to/file1 https://example.com/path/to/file2 ...</span>
 
-- Launch Kate, creating a new instance even if one is already open:
+- Create a new editor instance even if one is already open:
 
 `kate --new`
 
-- Open a file in Kate with the cursor at the specific line:
+- Open a file with the cursor at the specific line:
 
 `kate --line `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">line_number</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Open a file in Kate with the cursor at the specific line and column:
+- Open a file with the cursor at the specific line and column:
 
 `kate --line `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">line_number</span>` --column `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">column_number</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Launch Kate, creating a new temporary file with contents read from stdin:
+- Create a file from `stdin`:
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` | kate --stdin`
 
