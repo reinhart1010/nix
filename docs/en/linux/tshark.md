@@ -2,7 +2,8 @@
 layout: page
 title: linux/tshark (English)
 description: "Packet analysis tool, CLI version of Wireshark."
-content_hash: 696a3917a54748b1a0501715dd17a18c14f684ef
+content_hash: df21c57440a44e8502f9f418a7822e694ff28ec9
+last_modified_at: 2022-12-01
 ---
 # tshark
 
@@ -39,4 +40,4 @@ More information: <https://tshark.dev/>.
 
 - Analyze packets from a file:
 
-`tshark -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>`.pcap`
+`tshark -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pcap</span>
