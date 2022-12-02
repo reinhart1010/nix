@@ -2,8 +2,8 @@
 layout: page
 title: common/mount (English)
 description: "Provides access to an entire filesystem in one directory."
-content_hash: 883b7094ad12f8c09d3800656504eccc31a38420
-last_modified_at: 2022-11-29
+content_hash: ad12f0e635ff5855c1d1ee236afda4fa09419c06
+last_modified_at: 2022-12-02
 related_topics:
   - title: Deutsch version
     url: /de/common/mount.html
@@ -28,6 +28,10 @@ More information: <https://manned.org/mount.8>.
 - Create a specific directory if it does not exist and mount a device to it:
 
 `mount --mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/device_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target_directory</span>
+
+- Mount a device to a directory for a specific user:
+
+`mount -o uid=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user_id</span>`,gid=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_id</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/device_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target_directory</span>
 
 - Mount a CD-ROM device (with the filetype ISO9660) to `/cdrom` (readonly):
 
