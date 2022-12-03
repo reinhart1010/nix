@@ -2,7 +2,8 @@
 layout: page
 title: common/g++ (தமிழ்)
 description: "C++ மூலக் கோப்புகளைத் தொகுக்கிறது."
-content_hash: 546cd6bd66ba36f7b4793ed9a51ee55daa0fbcb7
+content_hash: aeee333f9fcb40dadff9f795b766e53fa3d06fe1
+last_modified_at: 2022-12-03
 related_topics:
   - title: Deutsch version
     url: /de/common/g++.html
@@ -13,11 +14,23 @@ related_topics:
   - title: Indonesia version
     url: /id/common/g++.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/g++.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/g++.html
     icon: bi bi-globe
 ---
-# g++
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/g++.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># g++
 
 C++ மூலக் கோப்புகளைத் தொகுக்கிறது.
 GCC இன் பகுதி (GNU கம்பைலர் சேகரிப்பு).
@@ -38,3 +51,11 @@ GCC இன் பகுதி (GNU கம்பைலர் சேகரிப�
 - மூலக் கோப்பை விட வேறு பாதையில் அமைந்துள்ள நூலகங்களைச் சேர்க்கவும்:
 
 `g++ `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை /டு/மூல.c</span>` -o {பாதை/டு/வெளியீடு_இயங்கக்கூடியது</span>` -I`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/தலைப்பு</span>` -L`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/நூலகம்</span>` -l`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நூலகம்_பெயர்</span>
+
+- பல மூலக் குறியீடு கோப்புகளை ஒரு இயங்கக்கூடிய பைனரியில் தொகுத்து இணைக்கவும்:
+
+`g++ -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/மூலம்_1.cpp பாதை/டு/மூலம்_2.cpp ...</span>` && g++ -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/வெளியீடு_செயல்படுத்தக்கூடியது</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/மூலம்_1.o பாதை/டு/மூலம்_2.o ...</span>
+
+- பதிப்பைக் காட்டு:
+
+`g++ --version`

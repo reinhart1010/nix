@@ -2,13 +2,20 @@
 layout: page
 title: common/cargo (தமிழ்)
 description: "ரஸ்ட் திட்டங்கள் மற்றும் அவற்றின் தொகுதி சார்புகளை (கிரேட்ஸ்) நிர்வகிக்கவும்."
-content_hash: 588c9a4b9366cd1571b43f4af2ba7fc18536f5c0
+content_hash: e9ee5839bf0a395437ffce9c3c14c0965fb0e498
+last_modified_at: 2022-12-03
 related_topics:
   - title: Deutsch version
     url: /de/common/cargo.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/cargo.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/cargo.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/cargo.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/cargo.html
@@ -18,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/cargo.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/cargo.html
     icon: bi bi-globe
 ---
 
@@ -58,6 +68,10 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 - தற்போதைய கோப்பகத்தில் ரஸ்ட் திட்டத்தை உருவாக்கவும்:
 
 `cargo build`
+
+- நைட்லி கம்பைலரைப் பயன்படுத்தி தற்போதைய கோப்பகத்தில் ரஸ்ட் திட்டத்தை உருவாக்கவும்:
+
+`cargo +nightly build`
 
 - குறிப்பிட்ட எண்ணிக்கையிலான நூல்களைப் பயன்படுத்தி உருவாக்கவும் (இயல்புநிலை CPU கோர்களின் எண்ணிக்கை):
 

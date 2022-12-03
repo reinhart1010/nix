@@ -2,13 +2,17 @@
 layout: page
 title: windows/choco-list (தமிழ்)
 description: "சாக்லேட்டியுடன் ஒன்று அல்லது அதற்கு மேற்பட்ட தொகுப்புகளை நிறுவவும்."
-content_hash: 576741810da653d8977c076f1b279bdc49da6461
+content_hash: cc6f080e7e1feb7e253652601e0e1e88528aa066
+last_modified_at: 2022-12-03
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-list.html
     icon: bi bi-globe
   - title: English version
     url: /en/windows/choco-list.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/windows/choco-list.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/choco-list.html
@@ -17,10 +21,7 @@ related_topics:
     url: /zh/windows/choco-list.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># choco list
+# choco list
 
 சாக்லேட்டியுடன் ஒன்று அல்லது அதற்கு மேற்பட்ட தொகுப்புகளை நிறுவவும்.
 மேலும் விவரத்திற்கு: <https://chocolatey.org/docs/commands-install>.
@@ -43,7 +44,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 - இதிலிருந்து தொகுப்புகளைக் காண்பிக்க தனிப்பயன் மூலத்தைக் குறிப்பிடவும்:
 
-`choco list --source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_url|alias</span>
+`choco list --source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">மூல_முகவரி|alias</span>
 
 - அங்கீகாரத்திற்கான பயனர்பெயர் மற்றும் கடவுச்சொல்லை வழங்கவும்:
 

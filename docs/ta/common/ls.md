@@ -2,8 +2,12 @@
 layout: page
 title: common/ls (தமிழ்)
 description: "அடைவு உள்ளடக்கத்தைப் பட்டியலிடு."
-content_hash: d5607cb521be62966ce7a004802fddc57ced41f4
+content_hash: 29fd80414c08129db8bc9db4a35741dd1fb081e4
+last_modified_at: 2022-12-03
 related_topics:
+  - title: català version
+    url: /ca/common/ls.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/ls.html
     icon: bi bi-globe
@@ -34,11 +38,20 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/ls.html
     icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/ls.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/ls.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/ls.html
+    icon: bi bi-globe
+  - title: ไทย version
+    url: /th/common/ls.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/ls.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/ls.html
@@ -66,6 +79,10 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 `ls -a`
 
+- கோப்பகப் பெயர்களில் சேர்க்கப்பட்டுள்ள `/` உடன் அனைத்து கோப்புகளையும் பட்டியலிடுங்கள்:
+
+`ls -F`
+
 - அனைத்துக் கோப்புகளையும் முழு விவரங்களுடன் (அனுமதி, உடைமை, கோப்பளவு, மாற்றமைத்தத் தேதி) பட்டியலிடு:
 
 `ls -la`
@@ -81,3 +98,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 - மாற்றமைத்தத் தேதியால் காலவரிசைப்படுத்தப்பட்ட (பழையதிலிருந்துத் துவங்கி) முழு விவரப் பட்டியல்:
 
 `ls -ltr`
+
+- கோப்பகங்களை மட்டும் பட்டியலிடுங்கள்:
+
+`ls -d */`

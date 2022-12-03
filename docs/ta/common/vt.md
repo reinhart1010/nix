@@ -2,7 +2,8 @@
 layout: page
 title: common/vt (தமிழ்)
 description: "வைரஸ் டோட்டலுக்கான கட்டளை-வரி இடைமுகம்."
-content_hash: f648091c8ff21c9ada8a5a7b6f94f7df9141a5da
+content_hash: 3b82ff46cfafa379d1168b547fdeb86cf5972ab5
+last_modified_at: 2022-12-03
 related_topics:
   - title: English version
     url: /en/common/vt.html
@@ -18,9 +19,9 @@ related_topics:
 
 `vt scan file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு</span>
 
-- வைரஸ்களுக்காக URL ஐ ஸ்கேன் செய்யவும்:
+- வைரஸ்களுக்காக முகவரி ஐ ஸ்கேன் செய்யவும்:
 
-`vt scan url `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+`vt scan url `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">முகவரி</span>
 
 - ஒரு குறிப்பிட்ட பகுப்பாய்விலிருந்து தகவலைக் காண்பி:
 
@@ -36,11 +37,11 @@ related_topics:
 
 - ஒரு டொமைன் பற்றிய தகவலைக் காட்டு:
 
-`vt domain `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+`vt domain `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">முகவரி</span>
 
-- குறிப்பிட்ட URLக்கான தகவலைக் காட்டு:
+- குறிப்பிட்ட முகவரிக்கான தகவலைக் காட்டு:
 
-`vt url `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+`vt url `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">முகவரி</span>
 
 - குறிப்பிட்ட IP(ஐபி) முகவரிக்கான தகவலைக் காண்பி:
 

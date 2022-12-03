@@ -1,11 +1,15 @@
 ---
 layout: page
 title: common/ack (தமிழ்)
-description: "புரோகிராமர்களுக்கு உகந்ததாக கிரப் போன்ற தேடல் கருவி."
-content_hash: 95d4dc037238574e80fb332b91203b55409173e8
+description: "டெவலப்பர்களுக்காக உகந்ததாக `grep` போன்ற ஒரு தேடல் கருவி."
+content_hash: 9c33bbd00059486e071cb6939f754d0728912711
+last_modified_at: 2022-12-03
 related_topics:
   - title: English version
     url: /en/common/ack.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/ack.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ack.html
@@ -13,7 +17,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/ack.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/ack.html
     icon: bi bi-globe
   - title: polski version
@@ -40,25 +44,38 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 <hr># ack
 
-புரோகிராமர்களுக்கு உகந்ததாக கிரப் போன்ற தேடல் கருவி.
+டெவலப்பர்களுக்காக உகந்ததாக `grep` போன்ற ஒரு தேடல் கருவி.
+மேலும் பார்க்கவும்: `rg`, இது மிகவும் வேகமானது.
 மேலும் விவரத்திற்கு: <https://beyondgrep.com/documentation>.
 
-- "காலை" கொண்ட கோப்புகளைக் கண்டறியவும்:
+- தற்போதைய கோப்பகத்தில் ஒரு சரம் அல்லது வழக்கமான வெளிப்பாடு உள்ள கோப்புகளை மீண்டும் மீண்டும் தேடவும்:
 
-`ack `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">காலை</span>
+`ack "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தேடல்_முறை</span>`"`
 
-- ஒரு குறிப்பிட்ட வகை கோப்புகளைக் கண்டறியவும்:
+- கேஸ்-சென்சிட்டிவ் பேட்டர்னைத் தேடுங்கள்:
 
-`ack --ruby `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">காலை</span>
+`ack --ignore-case "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தேடல்_முறை</span>`"`
 
-- "காலை" என்ற சொல்லின் மொத்த பொருத்தங்களை எண்ணிக்கையை எண்ணவும்:
+- ஒரு வடிவத்துடன் பொருந்தக்கூடிய வரிகளைத் தேடவும், [o]பொருந்திய உரையை மட்டும் அச்சிடவும் மற்றும் வரியின் மீதமுள்ளவை அல்ல:
 
-`ack -ch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">காலை</span>
+`ack -o "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தேடல்_முறை</span>`"`
 
-- காலை என்னும் சொல்லை கொண்ட ஒவ்வொரு கோப்பின் பெயர் மற்றும் பொருத்தங்களின் எண்ணிக்கையை காட்டவும்:
+- ஒரு குறிப்பிட்ட வகை கோப்புகளுக்கான தேடலை வரம்பிடவும்:
 
-`ack -cl `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">காலை</span>
+`ack --type=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தேடல்_முறை</span>`"`
 
-- அனைத்து செல்லுபடியாகும் வகைகளையும் பட்டியலிடவும்:
+- ஒரு குறிப்பிட்ட வகை கோப்புகளில் தேட வேண்டாம்:
+
+`ack --type=no`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தேடல்_முறை</span>`"`
+
+- காணப்பட்ட மொத்த பொருத்தங்களின் எண்ணிக்கையை எண்ணுங்கள்:
+
+`ack --count --no-filename "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தேடல்_முறை</span>`"`
+
+- ஒவ்வொரு கோப்பிற்கும் கோப்பு பெயர்கள் மற்றும் பொருத்தங்களின் எண்ணிக்கையை மட்டும் அச்சிடவும்:
+
+`ack --count --files-with-matches "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தேடல்_முறை</span>`"`
+
+- `--type` உடன் பயன்படுத்தக்கூடிய அனைத்து மதிப்புகளையும் பட்டியலிடுங்கள்:
 
 `ack --help-types`

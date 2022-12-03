@@ -2,7 +2,8 @@
 layout: page
 title: windows/choco-outdated (தமிழ்)
 description: "சாக்லேட்டியுடன் காலாவதியான தொகுப்புகளைச் சரிபார்க்கவும்."
-content_hash: 9cc64fc56d433120d85ee865926dbcd6f04223ed
+content_hash: 7127ac2984576cc5ddcfd8af39a0d13c837c8a1e
+last_modified_at: 2022-12-03
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-outdated.html
@@ -10,14 +11,14 @@ related_topics:
   - title: English version
     url: /en/windows/choco-outdated.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/windows/choco-outdated.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/choco-outdated.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># choco outdated
+# choco outdated
 
 சாக்லேட்டியுடன் காலாவதியான தொகுப்புகளைச் சரிபார்க்கவும்.
 மேலும் விவரத்திற்கு:  <https://chocolatey.org/docs/commands-outdated>.
@@ -32,7 +33,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 - தொகுப்புகளை சரிபார்க்க தனிப்பயன் மூலத்தைக் குறிப்பிடவும்:
 
-`choco outdated --source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_url|alias</span>
+`choco outdated --source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">மூல_முகவரி|alias</span>
 
 - அங்கீகாரத்திற்கான பயனர்பெயர் மற்றும் கடவுச்சொல்லை வழங்கவும்:
 

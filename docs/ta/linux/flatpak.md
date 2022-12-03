@@ -2,7 +2,8 @@
 layout: page
 title: linux/flatpak (தமிழ்)
 description: "பிளாட்பேக் பயன்பாடுகள் மற்றும் இயக்க நேரங்களை உருவாக்கவும், நிறுவவும் மற்றும் இயக்கவும்."
-content_hash: c0fcfbeb9158f128d677d95dbb09932e8f17c2bf
+content_hash: 4bfa40bdb0c40bfad32aa65a140fc68e753ba3a2
+last_modified_at: 2022-12-03
 related_topics:
   - title: English version
     url: /en/linux/flatpak.html
@@ -37,7 +38,7 @@ related_topics:
 
 - தொலைநிலை மூலத்தைச் சேர்க்கவும்:
 
-`flatpak remote-add --if-not-exists `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ரிமோட்_பெயர்</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ரிமோட்_url</span>
+`flatpak remote-add --if-not-exists `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ரிமோட்_பெயர்</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ரிமோட்_முகவரி</span>
 
 - உள்ளமைக்கப்பட்ட அனைத்து தொலை மூலங்களையும் பட்டியலிடுங்கள்:
 

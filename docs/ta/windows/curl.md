@@ -2,7 +2,8 @@
 layout: page
 title: windows/curl (தமிழ்)
 description: "PowerShell இல், அசல் `curl` நிரல் (<https://curl.se>) சரியாக நிறுவப்படாதபோது இந்தக் கட்டளை `Invoke-WebRequest` என்பதன் மாற்றுப்பெயராக இருக்கலாம்."
-content_hash: 302d6c474ddb2e40d24ac557f211ac3c0f4743c0
+content_hash: 44d7a0b4e28038e74cbac0997bff7c3c506b120c
+last_modified_at: 2022-12-03
 related_topics:
   - title: Deutsch version
     url: /de/windows/curl.html
@@ -18,7 +19,13 @@ related_topics:
     icon: bi bi-globe
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/windows/curl.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># curl
 
@@ -31,6 +38,10 @@ PowerShell இல், அசல் `curl` நிரல் (<https://curl.se>) �
 - அசல் `curl` கட்டளைக்கான ஆவணங்களைக் காண்க:
 
 `tldr curl -p common`
+
+- `tldr` கட்டளை வரி கிளையண்டின் பழைய பதிப்புகளில் அசல் `curl` கட்டளைக்கான ஆவணங்களைப் பார்க்கவும்:
+
+`tldr curl -o common`
 
 - PowerShell இன் `Invoke-WebRequest` கட்டளைக்கான ஆவணங்களைக் காண்க:
 
