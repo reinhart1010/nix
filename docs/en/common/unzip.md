@@ -2,7 +2,8 @@
 layout: page
 title: common/unzip (English)
 description: "Extract compressed files in a ZIP archive."
-content_hash: 8799ed10abb40f9ee72f4d6d2e5d84c796cd921d
+content_hash: 0a29feb450878f5aebc448e2c57e1b2a4abbe9d3
+last_modified_at: 2022-12-04
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/unzip.html
@@ -28,7 +29,7 @@ More information: <https://manned.org/unzip>.
 
 `unzip -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.zip</span>
 
-- Extract the contents of the file(s) to stdout alongside the extracted file names:
+- Extract the contents of the file(s) to `stdout` alongside the extracted file names:
 
 `unzip -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.zip</span>
 

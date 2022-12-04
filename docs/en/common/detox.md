@@ -2,7 +2,8 @@
 layout: page
 title: common/detox (English)
 description: "Renames files to make them easier to work with."
-content_hash: 4576d2b32626af2379001b5d5ed91c32507d37a2
+content_hash: 299579fc8ce84751f77857db81b7d01ff95c66a4
+last_modified_at: 2022-12-04
 related_topics:
   - title: italiano version
     url: /it/common/detox.html
@@ -19,12 +20,12 @@ More information: <https://github.com/dharple/detox>.
 
 - Remove spaces and other undesirable characters from a file's name:
 
-`detox `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`detox `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Show how detox would rename all the files in a directory tree:
 
-`detox --dry-run -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory</span>
+`detox --dry-run -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
 - Remove spaces and other undesirable characters from all files in a directory tree:
 
-`detox -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory</span>
+`detox -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>

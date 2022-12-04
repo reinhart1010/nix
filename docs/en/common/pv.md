@@ -2,7 +2,8 @@
 layout: page
 title: common/pv (English)
 description: "Monitor the progress of data through a pipe."
-content_hash: c1a76fc4227f3f2c712ef47b7d46253243aac1a8
+content_hash: 5d81468e8ac6306681f71eb631955dfc1d0bb9c3
+last_modified_at: 2022-12-04
 ---
 # pv
 
@@ -11,7 +12,7 @@ More information: <https://manned.org/pv>.
 
 - Print the contents of the file and display a progress bar:
 
-`pv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`pv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Measure the speed and amount of data flow between pipes (`-s` is optional):
 

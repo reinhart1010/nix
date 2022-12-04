@@ -2,10 +2,14 @@
 layout: page
 title: common/7zr (English)
 description: "File archiver with a high compression ratio."
-content_hash: 08655f7f27bb14d11ad661cbefeb16d4f80c7a0c
+content_hash: 9924b7a7d1b1850e0ecce9eab71cded94e911896
+last_modified_at: 2022-12-04
 related_topics:
   - title: Deutsch version
     url: /de/common/7zr.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/7zr.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/7zr.html
@@ -54,7 +58,7 @@ More information: <https://www.7-zip.org>.
 
 `7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.7z</span>` -o`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output</span>
 
-- E[x]tract an archive to stdout:
+- E[x]tract an archive to `stdout`:
 
 `7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.7z</span>` -so`
 

@@ -2,7 +2,8 @@
 layout: page
 title: common/micro (English)
 description: "Micro is a modern and intuitive terminal-based text editor."
-content_hash: eb22040e2dc495fa845104ff0425dcfb0ea51e20
+content_hash: 5860b0626eb8d71580a6b246b4e5379ae18aa52f
+last_modified_at: 2022-12-04
 related_topics:
   - title: русский version
     url: /ru/common/micro.html
@@ -16,7 +17,7 @@ More information: <https://micro-editor.github.io>.
 
 - Open a file:
 
-`micro `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`micro `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Save a file:
 

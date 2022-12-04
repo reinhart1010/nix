@@ -1,8 +1,9 @@
 ---
 layout: page
 title: osx/pbcopy (English)
-description: "Copy data from stdin to the clipboard."
-content_hash: c94828514c3799b78cb5dda3c398ad02bf4a46f7
+description: "Copy data from `stdin` to the clipboard."
+content_hash: 7190a3c4582dcac0ae4a135675518d41b01e3065
+last_modified_at: 2022-12-04
 related_topics:
   - title: Indonesia version
     url: /id/osx/pbcopy.html
@@ -13,7 +14,7 @@ related_topics:
 ---
 # pbcopy
 
-Copy data from stdin to the clipboard.
+Copy data from `stdin` to the clipboard.
 More information: <https://ss64.com/osx/pbcopy.html>.
 
 - Place the contents of a specific file in the clipboard:

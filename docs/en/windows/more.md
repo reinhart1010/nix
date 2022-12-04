@@ -1,19 +1,23 @@
 ---
 layout: page
 title: windows/more (English)
-description: "Display paginated output from stdin or a file."
-content_hash: 28f8bb946e0d6dd05c42feb4dab05054b6a49b63
+description: "Display paginated output from `stdin` or a file."
+content_hash: 9e9ee08c35446f9def1f4b17e654644c59beb7de
+last_modified_at: 2022-12-04
 related_topics:
   - title: 中文 version
     url: /zh/windows/more.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/windows/more.html
+    icon: bi bi-globe
 ---
 # more
 
-Display paginated output from stdin or a file.
+Display paginated output from `stdin` or a file.
 More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/more>.
 
-- Display paginated output from stdin:
+- Display paginated output from `stdin`:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo test</span>` | more`
 

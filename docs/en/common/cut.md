@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/cut (English)
-description: "Cut out fields from stdin or files."
-content_hash: 8fe5087adeb0f939c64fb0bde5b09a5efd3e1544
+description: "Cut out fields from `stdin` or files."
+content_hash: 17979f8af9292ea67b49d1ce71dec901147923a5
+last_modified_at: 2022-12-04
 related_topics:
   - title: Deutsch version
     url: /de/common/cut.html
@@ -22,7 +23,7 @@ related_topics:
 ---
 # cut
 
-Cut out fields from stdin or files.
+Cut out fields from `stdin` or files.
 More information: <https://www.gnu.org/software/coreutils/cut>.
 
 - Print a specific character/field range of each line:

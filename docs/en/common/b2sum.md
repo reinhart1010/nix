@@ -2,8 +2,12 @@
 layout: page
 title: common/b2sum (English)
 description: "Calculate BLAKE2 cryptographic checksums."
-content_hash: df18f575b03169678be73100d2cb50f8f0abc269
+content_hash: 4a0a7d38c5ba7ba16d2766523d9dbfbdfbe5f332
+last_modified_at: 2022-12-04
 related_topics:
+  - title: français version
+    url: /fr/common/b2sum.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/b2sum.html
     icon: bi bi-globe
@@ -27,7 +31,7 @@ More information: <https://www.gnu.org/software/coreutils/b2sum>.
 
 `b2sum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>
 
-- Calculate the BLAKE2 checksum from stdin:
+- Calculate the BLAKE2 checksum from `stdin`:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">some_command</span>` | b2sum`
 

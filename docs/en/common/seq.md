@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/seq (English)
-description: "Output a sequence of numbers to stdout."
-content_hash: 835fc3b059e61830cce8f705eb45abe898a3deca
+description: "Output a sequence of numbers to `stdout`."
+content_hash: dd3f62cff22f29c55dcd16785285d0dce00fb56b
+last_modified_at: 2022-12-04
 ---
 # seq
 
-Output a sequence of numbers to stdout.
+Output a sequence of numbers to `stdout`.
 More information: <https://www.gnu.org/software/coreutils/seq>.
 
 - Sequence from 1 to 10:

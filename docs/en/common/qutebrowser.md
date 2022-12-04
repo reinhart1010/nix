@@ -2,7 +2,8 @@
 layout: page
 title: common/qutebrowser (English)
 description: "A keyboard-driven, vim-like browser based on PyQt5."
-content_hash: ace802246a75dec584e6d25131643428df25bba3
+content_hash: d8df5cb2a75b6c5fa042597ef80eabeb8f4699cd
+last_modified_at: 2022-12-04
 ---
 # qutebrowser
 
@@ -25,6 +26,6 @@ More information: <https://qutebrowser.org/>.
 
 `qutebrowser --target `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">auto|tab|tab-bg|tab-silent|tab-bg-silent|window|private-window</span>
 
-- Open qutebrowser with a temporary base directory and print logs to stdout as JSON:
+- Open qutebrowser with a temporary base directory and print logs to `stdout` as JSON:
 
 `qutebrowser --temp-basedir --json-logging`

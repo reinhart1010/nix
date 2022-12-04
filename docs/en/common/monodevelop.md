@@ -2,7 +2,8 @@
 layout: page
 title: common/monodevelop (English)
 description: "Cross platform IDE for C#, F# and more."
-content_hash: 41063c61376fcae366641cafa1dfbe26673d8bf6
+content_hash: 4239a22b9d082b31d1a0e43a2d6b1ebf39a7af25
+last_modified_at: 2022-12-04
 ---
 # monodevelop
 
@@ -25,7 +26,7 @@ More information: <https://www.monodevelop.com/>.
 
 `monodevelop --new-window`
 
-- Disable redirection of stdout and stderr to a log file:
+- Disable redirection of `stdout` and `stderr` to a log file:
 
 `monodevelop --no-redirect`
 

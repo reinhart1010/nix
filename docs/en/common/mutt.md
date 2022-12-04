@@ -2,7 +2,8 @@
 layout: page
 title: common/mutt (English)
 description: "Command-line email client."
-content_hash: b1b21ef2eccd8ae66f723accf1733450ce4e040a
+content_hash: ef6c020f4ce817122fa54a47f1696caa6ccbe05f
+last_modified_at: 2022-12-04
 ---
 # mutt
 
@@ -23,8 +24,8 @@ More information: <http://mutt.org>.
 
 - Specify a file to include as the message body:
 
-`mutt -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">recipient@example.com</span>
+`mutt -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">recipient@example.com</span>
 
 - Specify a draft file containing the header and the body of the message, in RFC 5322 format:
 
-`mutt -H `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">recipient@example.com</span>
+`mutt -H `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">recipient@example.com</span>

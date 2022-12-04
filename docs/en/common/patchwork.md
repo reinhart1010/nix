@@ -2,7 +2,8 @@
 layout: page
 title: common/patchwork (English)
 description: "Render an image of a `squareified treemap` network graph from a `graphviz` file."
-content_hash: 224841b901142536591ca655a88fdc7e79e2deec
+content_hash: 205fefbbffd8a2022cc421e8e56fe5ba4fec8d6f
+last_modified_at: 2022-12-04
 ---
 # patchwork
 
@@ -22,7 +23,7 @@ More information: <https://graphviz.org/doc/info/command.html>.
 
 `patchwork -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">format</span>` -O `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.gv</span>
 
-- Render a `gif` image using stdin and stdout:
+- Render a `gif` image using `stdin` and `stdout`:
 
 `echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">digraph {this -> that} </span>`" | patchwork -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gif</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.gif</span>
 

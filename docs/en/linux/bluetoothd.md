@@ -2,7 +2,8 @@
 layout: page
 title: linux/bluetoothd (English)
 description: "Daemon to manage bluetooth devices."
-content_hash: 6935788dc873bf42de6a992ef40f5802b847091f
+content_hash: 44b4875bee635d90b436858d12c48ed2ece304e7
+last_modified_at: 2022-12-04
 related_topics:
   - title: 中文 version
     url: /zh/linux/bluetoothd.html
@@ -17,7 +18,7 @@ More information: <https://manned.org/bluetoothd>.
 
 `bluetoothd`
 
-- Start the daemon, logging to stdout:
+- Start the daemon, logging to `stdout`:
 
 `bluetoothd --nodetach`
 
@@ -25,7 +26,7 @@ More information: <https://manned.org/bluetoothd>.
 
 `bluetoothd --configfile `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Start the daemon with verbose output to stderr:
+- Start the daemon with verbose output to `stderr`:
 
 `bluetoothd --debug`
 

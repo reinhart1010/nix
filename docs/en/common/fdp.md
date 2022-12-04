@@ -2,7 +2,12 @@
 layout: page
 title: common/fdp (English)
 description: "Render an image of a `force-directed` network graph from a `graphviz` file."
-content_hash: dfbe5648c05efde4ba6621d376e67d083de1b2b3
+content_hash: e925733f190ff3ce6130b7d217983638b9860e5a
+last_modified_at: 2022-12-04
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/common/fdp.html
+    icon: bi bi-globe
 ---
 # fdp
 
@@ -22,7 +27,7 @@ More information: <https://graphviz.org/doc/info/command.html>.
 
 `fdp -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ps|pdf|svg|fig|png|gif|jpg|json|dot</span>` -O `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.gv</span>
 
-- Render a `gif` image using stdin and stdout:
+- Render a `gif` image using `stdin` and `stdout`:
 
 `echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">digraph {this -> that} </span>`" | fdp -T gif > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.gif</span>
 

@@ -1,15 +1,13 @@
 ---
 layout: page
 title: linux/chpasswd (English)
-description: "Change the passwords for multiple users by using stdin."
-content_hash: ca288285460b0745deb395e88c57231e7326b3f1
+description: "Change the passwords for multiple users by using `stdin`."
+content_hash: 935520753e20b7ddf0f917ee18b6ba122259bd1d
+last_modified_at: 2022-12-04
 ---
+# chpasswd
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># chpasswd
-
-Change the passwords for multiple users by using stdin.
+Change the passwords for multiple users by using `stdin`.
 More information: <https://manned.org/chpasswd.8>.
 
 - Change the password for a specific user:

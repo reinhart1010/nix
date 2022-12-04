@@ -2,10 +2,14 @@
 layout: page
 title: common/7za (English)
 description: "File archiver with a high compression ratio."
-content_hash: eeec3081046f3fbc185947a25d59cc7f4606b1e6
+content_hash: 036b28ff407b24dce8d2cfe3230e19e0a2f5e53b
+last_modified_at: 2022-12-04
 related_topics:
   - title: Deutsch version
     url: /de/common/7za.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/7za.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/7za.html
@@ -54,7 +58,7 @@ More information: <https://www.7-zip.org>.
 
 `7za x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.7z</span>` -o`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output</span>
 
-- E[x]tract an archive to stdout:
+- E[x]tract an archive to `stdout`:
 
 `7za x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.7z</span>` -so`
 

@@ -2,7 +2,8 @@
 layout: page
 title: common/git-format-patch (English)
 description: "Prepare .patch files. Useful when emailing commits elsewhere."
-content_hash: 7f458667682f579d224063113f4064915e0d018f
+content_hash: d5801433c1226d4b2e7702f20d2aa41a26e25931
+last_modified_at: 2022-12-04
 related_topics:
   - title: español version
     url: /es/common/git-format-patch.html
@@ -12,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-format-patch.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-format-patch.html
     icon: bi bi-globe
 ---
 # git format-patch
@@ -24,7 +28,7 @@ More information: <https://git-scm.com/docs/git-format-patch>.
 
 `git format-patch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">origin</span>
 
-- Write a `.patch` file for all the commits between 2 revisions to stdout:
+- Write a `.patch` file for all the commits between 2 revisions to `stdout`:
 
 `git format-patch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">revision_1</span>`..`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">revision_2</span>
 

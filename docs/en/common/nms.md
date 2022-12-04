@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/nms (English)
-description: "Command-line tool that recreates the famous data decryption effect seen in the 1992 movie Sneakers from stdin."
-content_hash: 30a0cce80e9c4300c70ce6c6786a09e3133a0c11
+description: "Command-line tool that recreates the famous data decryption effect seen in the 1992 movie Sneakers from `stdin`."
+content_hash: e067d7e251fabf19a2b5e62e033cd867669c9e10
+last_modified_at: 2022-12-04
 related_topics:
   - title: español version
     url: /es/common/nms.html
@@ -10,7 +11,7 @@ related_topics:
 ---
 # nms
 
-Command-line tool that recreates the famous data decryption effect seen in the 1992 movie Sneakers from stdin.
+Command-line tool that recreates the famous data decryption effect seen in the 1992 movie Sneakers from `stdin`.
 More information: <https://github.com/bartobri/no-more-secrets>.
 
 - Decrypt text after a keystroke:

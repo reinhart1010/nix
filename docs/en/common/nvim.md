@@ -2,8 +2,8 @@
 layout: page
 title: common/nvim (English)
 description: "Neovim, a programmer's text editor based on Vim, provides several modes for different kinds of text manipulation."
-content_hash: 9db8071ec21438d3043d752833cc9dcaa63d9c3f
-last_modified_at: 2022-11-29
+content_hash: 95c184b071fd516d84283ccff34c55a06bc3c41a
+last_modified_at: 2022-12-04
 related_topics:
   - title: Indonesia version
     url: /id/common/nvim.html
@@ -21,7 +21,7 @@ More information: <https://neovim.io>.
 
 - Open a file:
 
-`nvim `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`nvim `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Enter text editing mode (insert mode):
 

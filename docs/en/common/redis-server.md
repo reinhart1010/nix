@@ -2,14 +2,15 @@
 layout: page
 title: common/redis-server (English)
 description: "Persistent key-value database."
-content_hash: a8d26aa9c54b39bb2d1d120039cc84651897b873
+content_hash: 14000b90bee34eb3b252b9631223178d0f386169
+last_modified_at: 2022-12-04
 ---
 # redis-server
 
 Persistent key-value database.
 More information: <https://redis.io>.
 
-- Start Redis server, using the default port (6379), and write logs to stdout:
+- Start Redis server, using the default port (6379), and write logs to `stdout`:
 
 `redis-server`
 

@@ -2,7 +2,8 @@
 layout: page
 title: common/yq (English)
 description: "A lightweight and portable command-line YAML processor."
-content_hash: c5ff5283f8fc07c411bd2c1353bf93cb4c5ca772
+content_hash: c1731bf22d0ddea5575c14eac97e9e55adef35fc
+last_modified_at: 2022-12-04
 ---
 # yq
 
@@ -33,10 +34,10 @@ More information: <https://mikefarah.gitbook.io/yq/>.
 
 `yq write --inplace `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.yaml</span>` '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span>`' '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span>`'`
 
-- Merge two files and print to stdout (v4+):
+- Merge two files and print to `stdout` (v4+):
 
 `yq eval-all 'select(filename == "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.yaml</span>`") * select(filename == "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2.yaml</span>`")' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.yaml</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2.yaml</span>
 
-- Merge two files and print to stdout (v3):
+- Merge two files and print to `stdout` (v3):
 
 `yq merge `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.yaml</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2.yaml</span>` --colors`

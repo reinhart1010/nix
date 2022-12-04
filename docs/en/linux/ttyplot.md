@@ -1,12 +1,13 @@
 ---
 layout: page
 title: linux/ttyplot (English)
-description: "A realtime plotting utility for the command line with data input from stdin."
-content_hash: e3f51126ccda0785cdba62553a3f845c3e5858b4
+description: "A realtime plotting utility for the command line with data input from `stdin`."
+content_hash: 76fc3ccb0d46672c5205113b144f6f9f2e1b84a5
+last_modified_at: 2022-12-04
 ---
 # ttyplot
 
-A realtime plotting utility for the command line with data input from stdin.
+A realtime plotting utility for the command line with data input from `stdin`.
 More information: <https://github.com/tenox7/ttyplot>.
 
 - Plot the values `1`, `2` and `3` (`cat` prevents ttyplot to exit):

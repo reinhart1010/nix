@@ -2,7 +2,8 @@
 layout: page
 title: common/php (English)
 description: "PHP command-line interface."
-content_hash: 0998ce23bab52d9a09e9c17c0931f2fe743a5cde
+content_hash: 37247a1f0380ee73f1d0fbda729b61c2f0f5d40a
+last_modified_at: 2022-12-04
 related_topics:
   - title: polski version
     url: /pl/common/php.html
@@ -15,11 +16,11 @@ More information: <https://php.net>.
 
 - Parse and execute a PHP script:
 
-`php `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`php `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Check syntax on (i.e. lint) a PHP script:
 
-`php -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`php -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Run PHP interactively:
 

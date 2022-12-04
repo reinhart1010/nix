@@ -1,15 +1,13 @@
 ---
 layout: page
 title: common/licensor (English)
-description: "Write licenses to stdout."
-content_hash: 9b63cd64222261bf4eac733119e37cf89a9d3302
+description: "Write licenses to `stdout`."
+content_hash: 9498bb4e385038a2a62542449a1064c922764b3b
+last_modified_at: 2022-12-04
 ---
+# licensor
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># licensor
-
-Write licenses to stdout.
+Write licenses to `stdout`.
 More information: <https://github.com/raftario/licensor>.
 
 - Write the MIT license to a file named `LICENSE`:

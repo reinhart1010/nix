@@ -2,7 +2,8 @@
 layout: page
 title: common/pest (English)
 description: "A PHP testing framework with a focus on simplicity."
-content_hash: b1f68461286194bfe67ab27e4f9dfa33737b4ffb
+content_hash: 9b913412ff4a3e41e6e64baa2b307903fd7e2c08
+last_modified_at: 2022-12-04
 ---
 # pest
 
@@ -21,7 +22,7 @@ More information: <https://pestphp.com>.
 
 `pest --group `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>
 
-- Run tests and print the coverage report to stdout:
+- Run tests and print the coverage report to `stdout`:
 
 `pest --coverage`
 

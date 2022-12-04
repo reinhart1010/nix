@@ -2,7 +2,8 @@
 layout: page
 title: common/pngcheck (English)
 description: "Print detailed information about and verify PNG, JNG, and MNG files."
-content_hash: 3fde5aee2517710389f6bd28d21d94be98be6cae
+content_hash: a435ec9f93b13709d2a572f6c706fb8eac08d3ff
+last_modified_at: 2022-12-04
 ---
 # pngcheck
 
@@ -21,7 +22,7 @@ More information: <http://www.libpng.org/pub/png/apps/pngcheck.html>.
 
 `pngcheck -cvt `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.png</span>
 
-- Receive an image from stdin and display detailed information:
+- Receive an image from `stdin` and display detailed information:
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.png</span>` | pngcheck -cvt`
 

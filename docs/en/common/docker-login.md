@@ -2,10 +2,14 @@
 layout: page
 title: common/docker-login (English)
 description: "Log into a docker registry."
-content_hash: 073ee082a0e5dbb70efe69786675c5b99cdc447d
+content_hash: 0bbfad430cab7002dfa3689ff42df9b624ed475a
+last_modified_at: 2022-12-04
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-login.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/docker-login.html
     icon: bi bi-globe
 ---
 # docker login
@@ -25,6 +29,6 @@ More information: <https://docs.docker.com/engine/reference/commandline/login/>.
 
 `docker login --username `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>` --password `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server</span>
 
-- Log into a registry with password from stdin:
+- Log into a registry with password from `stdin`:
 
 `echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span>`" | docker login --username `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>` --password-stdin`

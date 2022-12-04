@@ -2,7 +2,8 @@
 layout: page
 title: common/dot (English)
 description: "Render an image of a `linear directed` network graph from a `graphviz` file."
-content_hash: 53246bc0ad53b5046470e65c407c103ed629cd7c
+content_hash: 097949fef76ba42cc6a97a15bf511b5d866989ea
+last_modified_at: 2022-12-04
 related_topics:
   - title: italiano version
     url: /it/common/dot.html
@@ -29,7 +30,7 @@ More information: <https://graphviz.org/doc/info/command.html>.
 
 `dot -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">format</span>` -O `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.gv</span>
 
-- Render a `gif` image using stdin and stdout:
+- Render a `gif` image using `stdin` and `stdout`:
 
 `echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">digraph {this -> that} </span>`" | dot -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gif</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.gif</span>
 

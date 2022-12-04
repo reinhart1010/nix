@@ -2,8 +2,12 @@
 layout: page
 title: common/base64 (English)
 description: "Encode or decode file or standard input to/from Base64, to standard output."
-content_hash: 9a44ed6592acbd27f53f1bda61709faa76966762
+content_hash: e195d8d1d2f05eb7c29d87c6fc193537317c980f
+last_modified_at: 2022-12-04
 related_topics:
+  - title: Deutsch version
+    url: /de/common/base64.html
+    icon: bi bi-globe
   - title: español version
     url: /es/common/base64.html
     icon: bi bi-globe
@@ -37,18 +41,18 @@ related_topics:
 Encode or decode file or standard input to/from Base64, to standard output.
 More information: <https://www.gnu.org/software/coreutils/base64>.
 
-- Encode the contents of a file as base64 and write the result to stdout:
+- Encode the contents of a file as base64 and write the result to `stdout`:
 
 `base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>
 
-- Decode the base64 contents of a file and write the result to stdout:
+- Decode the base64 contents of a file and write the result to `stdout`:
 
 `base64 --decode `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>
 
-- Encode from stdin:
+- Encode from `stdin`:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">somecommand</span>` | base64`
 
-- Decode from stdin:
+- Decode from `stdin`:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">somecommand</span>` | base64 --decode`

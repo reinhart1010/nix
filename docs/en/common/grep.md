@@ -2,8 +2,12 @@
 layout: page
 title: common/grep (English)
 description: "Find patterns in files using regular expressions."
-content_hash: 2c96c66837605e70b486f8188c1a4f98c14fbc2d
+content_hash: e6ec82b48feaa6c5215e3e080d8c4c9db35c13a3
+last_modified_at: 2022-12-04
 related_topics:
+  - title: dansk version
+    url: /da/common/grep.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/grep.html
     icon: bi bi-globe
@@ -24,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/grep.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/grep.html
     icon: bi bi-globe
 ---
 # grep
@@ -59,6 +66,6 @@ More information: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 `grep --only-matching "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Search stdin for lines that do not match a pattern:
+- Search `stdin` for lines that do not match a pattern:
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` | grep --invert-match "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`"`

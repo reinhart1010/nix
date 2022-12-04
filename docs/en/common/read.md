@@ -2,8 +2,8 @@
 layout: page
 title: common/read (English)
 description: "BASH builtin for retrieving data from standard input."
-content_hash: d28aa8568c52a873f9d5c9c46654937f33a35395
-last_modified_at: 2022-11-23
+content_hash: c64259069153068a084578a2be681d809eb05b9a
+last_modified_at: 2022-12-04
 ---
 # read
 
@@ -38,6 +38,6 @@ More information: <https://manned.org/read.1p>.
 
 `read -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span>
 
-- Read stdin and perform an action on every line:
+- Read `stdin` and perform an action on every line:
 
 `while read line; do echo "$line"; done`

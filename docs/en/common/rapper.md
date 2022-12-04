@@ -2,7 +2,8 @@
 layout: page
 title: common/rapper (English)
 description: "The Raptor RDF parsing utility."
-content_hash: 1f6115257873db23535a3683919242b54ad7256d
+content_hash: 36ed288aa352d9f44c2e4edab041de4e9ecea871
+last_modified_at: 2022-12-04
 ---
 # rapper
 
@@ -12,8 +13,8 @@ More information: <http://librdf.org/raptor/rapper.html>.
 
 - Convert an RDF/XML document to Turtle:
 
-`rapper -i rdfxml -o turtle `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`rapper -i rdfxml -o turtle `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Count the number of triples in a Turtle file:
 
-`rapper -i turtle -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`rapper -i turtle -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>

@@ -2,7 +2,8 @@
 layout: page
 title: common/egrep (English)
 description: "Find patterns in files using extended regular expression (supports `?`, `+`, `{}`, `()` and `|`)."
-content_hash: dcfc8ae39082a3f04cf702b2667b54210d08b31c
+content_hash: 283012a0288558812f16280ca36f6ae34876421f
+last_modified_at: 2022-12-04
 related_topics:
   - title: français version
     url: /fr/common/egrep.html
@@ -21,7 +22,7 @@ More information: <https://manned.org/egrep>.
 
 `egrep "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file3</span>
 
-- Search stdin for a pattern:
+- Search `stdin` for a pattern:
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` | egrep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>
 

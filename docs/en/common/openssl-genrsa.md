@@ -2,14 +2,15 @@
 layout: page
 title: common/openssl-genrsa (English)
 description: "OpenSSL command to generate RSA private keys."
-content_hash: 351ea211db38507bdce0fddcb6d792e8bb509b21
+content_hash: a3eae3bec3be6a71cd959ce162eb3c53f3b0eb7c
+last_modified_at: 2022-12-04
 ---
 # openssl genrsa
 
 OpenSSL command to generate RSA private keys.
 More information: <https://www.openssl.org/docs/manmaster/man1/openssl-genrsa.html>.
 
-- Generate an RSA private key of 2048 bits to stdout:
+- Generate an RSA private key of 2048 bits to `stdout`:
 
 `openssl genrsa`
 

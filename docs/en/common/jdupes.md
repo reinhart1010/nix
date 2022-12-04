@@ -2,7 +2,8 @@
 layout: page
 title: common/jdupes (English)
 description: "A powerful duplicate file finder and an enhanced fork of fdupes."
-content_hash: 954a550caf06ee5b03abef680fe618c2f844b989
+content_hash: ad92d7dbffb6d7868185824f73f0227179577281
+last_modified_at: 2022-12-04
 ---
 # jdupes
 
@@ -11,7 +12,7 @@ More information: <https://github.com/jbruchon/jdupes>.
 
 - Search a single directory:
 
-`jdupes `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory</span>
+`jdupes `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
 - Search multiple directories:
 
@@ -19,11 +20,11 @@ More information: <https://github.com/jbruchon/jdupes>.
 
 - Search all directories recursively:
 
-`jdupes --recurse `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory</span>
+`jdupes --recurse `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
 - Search directory recursively and let user choose files to preserve:
 
-`jdupes --delete --recurse `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory</span>
+`jdupes --delete --recurse `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
 - Search multiple directories and follow subdirectores under directory2, not directory1:
 

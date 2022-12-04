@@ -2,7 +2,8 @@
 layout: page
 title: osx/plutil (English)
 description: "View, convert, validate, or edit property list (\"plist\") files."
-content_hash: 0a4eec8792bf4fc038eae9e3e560f808c281a4e6
+content_hash: e3278593f642f6ed7fb8e2c97c0087e0818b023e
+last_modified_at: 2022-12-04
 ---
 # plutil
 
@@ -25,6 +26,6 @@ More information: <https://www.manpagez.com/man/1/plutil/>.
 
 `plutil -convert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xml1|binary1|json|swift|objc</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.plist</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/new_file.plist</span>
 
-- Convert a plist file to a different format, writing to stdout:
+- Convert a plist file to a different format, writing to `stdout`:
 
 `plutil -convert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xml1|binary1|json|swift|objc</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.plist</span>` -o -`

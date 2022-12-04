@@ -2,7 +2,8 @@
 layout: page
 title: common/circo (English)
 description: "Render an image of a `circular` network graph from a `graphviz` file."
-content_hash: c3bb89d0e272c775eb22c2841c0fe46467239330
+content_hash: ecc16ce0ca19091e788981896ab5cd5defe238b7
+last_modified_at: 2022-12-04
 ---
 # circo
 
@@ -22,7 +23,7 @@ More information: <https://graphviz.org/doc/info/command.html>.
 
 `circo -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">format</span>` -O `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.gv</span>
 
-- Render a `gif` image using stdin and stdout:
+- Render a `gif` image using `stdin` and `stdout`:
 
 `echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">digraph {this -> that} </span>`" | circo -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gif</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.gif</span>
 

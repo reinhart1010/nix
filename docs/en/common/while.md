@@ -2,7 +2,8 @@
 layout: page
 title: common/while (English)
 description: "Simple shell loop."
-content_hash: 105304909b644f36740331f30fffc877f76801e2
+content_hash: ab93c6be30849d3de82de2833b89181e975300b9
+last_modified_at: 2022-12-04
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/while.html
@@ -13,7 +14,7 @@ related_topics:
 Simple shell loop.
 More information: <https://manned.org/while>.
 
-- Read stdin and perform an action on every line:
+- Read `stdin` and perform an action on every line:
 
 `while read line; do echo "$line"; done`
 

@@ -2,7 +2,8 @@
 layout: page
 title: linux/gcov (English)
 description: "Code coverage analysis and profiling tool that discovers untested parts of a program."
-content_hash: 2fba2131283261dc764116334e9276915716f52a
+content_hash: 1b5d5b1007e20ac7ec0db29bcd5cb2eab566439c
+last_modified_at: 2022-12-04
 ---
 # gcov
 
@@ -18,7 +19,7 @@ More information: <https://gcc.gnu.org/onlinedocs/gcc/Invoking-Gcov.html>.
 
 `gcov --all-blocks `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.cpp</span>
 
-- Write branch frequencies to the output file and print summary information to stdout as a percentage:
+- Write branch frequencies to the output file and print summary information to `stdout` as a percentage:
 
 `gcov --branch-probabilities `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.cpp</span>
 

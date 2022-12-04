@@ -2,7 +2,8 @@
 layout: page
 title: common/comm (English)
 description: "Select or reject lines common to two files. Both files must be sorted."
-content_hash: bd48f48906635e36c1ed0ff4d7f957ac45aebe72
+content_hash: 29b5283df552f88b544d244d28e1e8be4ef7f10c
+last_modified_at: 2022-12-04
 related_topics:
   - title: italiano version
     url: /it/common/comm.html
@@ -24,7 +25,7 @@ More information: <https://www.gnu.org/software/coreutils/comm>.
 
 `comm -12 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file2</span>
 
-- Print only lines common to both files, reading one file from stdin:
+- Print only lines common to both files, reading one file from `stdin`:
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1</span>` | comm -12 - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file2</span>
 

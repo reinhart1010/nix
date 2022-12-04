@@ -2,7 +2,8 @@
 layout: page
 title: common/osage (English)
 description: "Render an image of a `clustered` network graph from a `graphviz` file."
-content_hash: b10d0ba7d52e9e0d1568fc515d947af90cd42bd8
+content_hash: 50d000e89d9d59029940deb232456fa81a022072
+last_modified_at: 2022-12-04
 ---
 # osage
 
@@ -22,7 +23,7 @@ More information: <https://graphviz.org/doc/info/command.html>.
 
 `osage -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">format</span>` -O `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.gv</span>
 
-- Render a `gif` image using stdin and stdout:
+- Render a `gif` image using `stdin` and `stdout`:
 
 `echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">digraph {this -> that} </span>`" | osage -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gif</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.gif</span>
 

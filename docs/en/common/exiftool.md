@@ -2,8 +2,8 @@
 layout: page
 title: common/exiftool (English)
 description: "Read and write meta information in files."
-content_hash: 6e0cf18ffe83fe91b93611254b86dfb7053ca91a
-last_modified_at: 2022-11-20
+content_hash: 746ebbae240325ab36740384f2dc175edcf41a78
+last_modified_at: 2022-12-04
 related_topics:
   - title: italiano version
     url: /it/common/exiftool.html
@@ -16,7 +16,7 @@ More information: <https://exiftool.org>.
 
 - Print the EXIF metadata for a given file:
 
-`exiftool `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`exiftool `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Remove all EXIF metadata from the given files:
 

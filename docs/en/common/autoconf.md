@@ -2,12 +2,14 @@
 layout: page
 title: common/autoconf (English)
 description: "Generate configuration scripts to automatically configure software source code packages."
-content_hash: 61794f76d7f9a795c63063d2f8a9cd0ee9c41573
+content_hash: 5b21803ae766211e7bbd980094ff882bc36f9c95
+last_modified_at: 2022-12-04
+related_topics:
+  - title: français version
+    url: /fr/common/autoconf.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># autoconf
+# autoconf
 
 Generate configuration scripts to automatically configure software source code packages.
 More information: <https://www.gnu.org/software/autoconf>.
@@ -16,7 +18,7 @@ More information: <https://www.gnu.org/software/autoconf>.
 
 `autoconf`
 
-- Generate a configuration script from the specified template; output to stdout:
+- Generate a configuration script from the specified template; output to `stdout`:
 
 `autoconf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">template-file</span>
 

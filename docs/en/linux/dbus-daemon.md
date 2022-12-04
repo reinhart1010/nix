@@ -2,7 +2,8 @@
 layout: page
 title: linux/dbus-daemon (English)
 description: "The D-Bus message daemon, allowing multiple programs to exchange messages."
-content_hash: 7d966a7d62f7e34dccc795a47fcf25b07fa28573
+content_hash: 052eca8c4b1e6d5ad84105bd3fd7e11d72894283
+last_modified_at: 2022-12-04
 ---
 # dbus-daemon
 
@@ -25,7 +26,7 @@ More information: <https://www.freedesktop.org/wiki/Software/dbus/>.
 
 `dbus-daemon --address `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">address</span>
 
-- Output the process ID to stdout:
+- Output the process ID to `stdout`:
 
 `dbus-daemon --print-pid`
 

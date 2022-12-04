@@ -2,7 +2,8 @@
 layout: page
 title: common/sh (English)
 description: "Bourne shell, the standard command language interpreter."
-content_hash: 5a7c8feeaeea588d54aef16907e93b4348136a14
+content_hash: f63d34d46a3e38bb2f016f111392a39796a330b4
+last_modified_at: 2022-12-04
 related_topics:
   - title: français version
     url: /fr/common/sh.html
@@ -32,6 +33,6 @@ More information: <https://manned.org/sh>.
 
 `sh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sh</span>
 
-- Read and execute commands from stdin:
+- Read and execute commands from `stdin`:
 
 `sh -s`

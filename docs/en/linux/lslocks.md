@@ -2,7 +2,8 @@
 layout: page
 title: linux/lslocks (English)
 description: "List local system locks."
-content_hash: 5514c2cb065f2eaa9e866aeab907b73440d2e13b
+content_hash: d216cd800f7ee943c4623ada9049af30cb0927fb
+last_modified_at: 2022-12-04
 ---
 # lslocks
 
@@ -25,6 +26,6 @@ More information: <https://manned.org/lslocks>.
 
 `lslocks --pid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PID</span>
 
-- List locks with JSON output to stdout:
+- List locks with JSON output to `stdout`:
 
 `lslocks --json`

@@ -2,7 +2,8 @@
 layout: page
 title: common/emacsclient (English)
 description: "Open files in an existing Emacs server."
-content_hash: 36043fadcf750a722933d0a06231b28110b2840c
+content_hash: e0759d65a466f988076df5c09f31b029c1463f5e
+last_modified_at: 2022-12-04
 related_topics:
   - title: Deutsch version
     url: /de/common/emacsclient.html
@@ -29,7 +30,7 @@ More information: <https://www.emacswiki.org/emacs/EmacsClient>.
 
 `emacsclient --create-frame `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Evaluate a command, printing the output to stdout, and then quit:
+- Evaluate a command, printing the output to `stdout`, and then quit:
 
 `emacsclient --eval '(`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>`)'`
 

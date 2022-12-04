@@ -2,7 +2,8 @@
 layout: page
 title: common/mailx (English)
 description: "Send and receive mail."
-content_hash: 96336c80cbdaa7e06907bd7cca6dfa7dbd22dd36
+content_hash: 6bd7806d4aad61f3082c256fff5245856f8fa0f3
+last_modified_at: 2022-12-04
 ---
 # mailx
 
@@ -31,4 +32,4 @@ More information: <https://manned.org/mailx>.
 
 - Send mail with an attachment:
 
-`mailx -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>` -s "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subject</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">to_addr</span>
+`mailx -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` -s "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subject</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">to_addr</span>

@@ -2,7 +2,8 @@
 layout: page
 title: common/black (English)
 description: "A Python auto code formatter."
-content_hash: a710da644b364a8afa1a5b89430b3dacf24501b7
+content_hash: 30f233267509b7284fe654c639ad6c2009261a1c
+last_modified_at: 2022-12-04
 related_topics:
   - title: italiano version
     url: /it/common/black.html
@@ -32,7 +33,7 @@ More information: <https://black.readthedocs.io/en/stable/usage_and_configuratio
 
 `black --diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
 
-- Auto-format a file or directory, emitting exclusively error messages to stderr:
+- Auto-format a file or directory, emitting exclusively error messages to `stderr`:
 
 `black --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
 

@@ -2,7 +2,8 @@
 layout: page
 title: common/git-hash-object (English)
 description: "Computes the unique hash key of content and optionally creates an object with specified type."
-content_hash: e492be4bb961af8115ee8324010bf952ba1b3dc4
+content_hash: 46db392ea13255434465b241d2688a2c1102c8ab
+last_modified_at: 2022-12-04
 ---
 # git hash-object
 
@@ -21,6 +22,6 @@ More information: <https://git-scm.com/docs/git-hash-object>.
 
 `git hash-object -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">blob|commit|tag|tree</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Compute the object ID from stdin:
+- Compute the object ID from `stdin`:
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` | git hash-object --stdin`

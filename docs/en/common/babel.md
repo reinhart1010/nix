@@ -2,8 +2,12 @@
 layout: page
 title: common/babel (English)
 description: "A transpiler which converts code from JavaScript ES6/ES7 syntax to ES5 syntax."
-content_hash: e780572362fe8bc1055a97225c2b9a8e8c2c94b1
+content_hash: ff39569eaeb0f7bd6083548a6df117d06b58e3db
+last_modified_at: 2022-12-04
 related_topics:
+  - title: français version
+    url: /fr/common/babel.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/babel.html
     icon: bi bi-globe
@@ -22,7 +26,7 @@ related_topics:
 A transpiler which converts code from JavaScript ES6/ES7 syntax to ES5 syntax.
 More information: <https://babeljs.io/>.
 
-- Transpile a specified input file and output to stdout:
+- Transpile a specified input file and output to `stdout`:
 
 `babel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 

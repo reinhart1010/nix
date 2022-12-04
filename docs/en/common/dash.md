@@ -2,13 +2,17 @@
 layout: page
 title: common/dash (English)
 description: "Debian Almquist Shell, a modern, POSIX-compliant implementation of `sh` (not Bash-compatible)."
-content_hash: d0a778c7bedce1f911f4fcdd27fe9f0da5e7f8da
+content_hash: 686f53618bee0828344c5524853959d883d389d8
+last_modified_at: 2022-12-04
 related_topics:
   - title: français version
     url: /fr/common/dash.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/dash.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/dash.html
     icon: bi bi-globe
 ---
 # dash
@@ -40,6 +44,6 @@ More information: <https://manned.org/dash>.
 
 `dash -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sh</span>
 
-- Execute specific commands from stdin:
+- Execute specific commands from `stdin`:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "echo 'dash is executed'"</span>` | dash`

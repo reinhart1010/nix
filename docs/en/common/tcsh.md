@@ -2,7 +2,8 @@
 layout: page
 title: common/tcsh (English)
 description: "C shell with file name completion and command line editing."
-content_hash: be9d7d387e7902d32de1357980011207ce925ce4
+content_hash: 7ddb558af3b20fafcb02e0767de3d0de6fb93631
+last_modified_at: 2022-12-04
 ---
 # tcsh
 
@@ -30,6 +31,6 @@ More information: <https://manned.org/tcsh>.
 
 `tcsh -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.tcsh</span>
 
-- Execute specific commands from stdin:
+- Execute specific commands from `stdin`:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "echo 'tcsh is executed'"</span>` | tcsh`

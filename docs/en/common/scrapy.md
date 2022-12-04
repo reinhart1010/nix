@@ -2,7 +2,8 @@
 layout: page
 title: common/scrapy (English)
 description: "Web-crawling framework."
-content_hash: 7b982f9e5e94fc270b2759a9f0dad45ed521c637
+content_hash: d48b6385761bb4afa6c4da8407991a53e478ceab
+last_modified_at: 2022-12-04
 ---
 # scrapy
 
@@ -25,7 +26,7 @@ More information: <https://scrapy.org>.
 
 `scrapy crawl `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">spider_name</span>
 
-- Fetch a webpage as Scrapy sees it and print the source to stdout:
+- Fetch a webpage as Scrapy sees it and print the source to `stdout`:
 
 `scrapy fetch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 

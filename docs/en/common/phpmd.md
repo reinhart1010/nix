@@ -2,7 +2,8 @@
 layout: page
 title: common/phpmd (English)
 description: "A PHP mess detector that checks for common potential problems."
-content_hash: 623dc7f6e61cf75b78a5d3e978ef23c886925d26
+content_hash: 7a4aa276c3d4df9128f578a83c20a234b4392f58
+last_modified_at: 2022-12-04
 ---
 # phpmd
 
@@ -29,7 +30,7 @@ More information: <https://github.com/phpmd/phpmd>.
 
 `phpmd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xml|text|html</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rulesets</span>` --exclude `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory_patterns</span>
 
-- Output the results to a file instead of stdout:
+- Output the results to a file instead of `stdout`:
 
 `phpmd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xml|text|html</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rulesets</span>` --reportfile `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/report_file</span>
 

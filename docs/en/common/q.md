@@ -2,7 +2,8 @@
 layout: page
 title: common/q (English)
 description: "Execute SQL-like queries on .csv and .tsv files."
-content_hash: 87016d30c36602f0573bffb60aaff92b6351a344
+content_hash: f3715267f9514bd113d9dafb1a9b888244da4a9a
+last_modified_at: 2022-12-04
 ---
 # q
 
@@ -21,7 +22,7 @@ More information: <https://harelba.github.io/q>.
 
 `q -d`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">delimiter</span>` -H "SELECT * from `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>`"`
 
-- Read data from stdin; '-' in the query represents the data from stdin:
+- Read data from `stdin`; '-' in the query represents the data from `stdin`:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output</span>` | q "select * from -"`
 

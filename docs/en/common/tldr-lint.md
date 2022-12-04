@@ -2,7 +2,8 @@
 layout: page
 title: common/tldr-lint (English)
 description: "Lint and format `tldr` pages."
-content_hash: 44646236fe292ba2bdf9e0401d55bdfa2748befb
+content_hash: 14200347f6c59ecf8986d88f9c646d0330494cd4
+last_modified_at: 2022-12-04
 related_topics:
   - title: polski version
     url: /pl/common/tldr-lint.html
@@ -23,7 +24,7 @@ More information: <https://github.com/tldr-pages/tldr-lint>.
 
 `tldr-lint `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pages_directory</span>
 
-- Format a specific page to stdout:
+- Format a specific page to `stdout`:
 
 `tldr-lint --format `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">page.md</span>
 

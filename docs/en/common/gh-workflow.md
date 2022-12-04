@@ -2,7 +2,8 @@
 layout: page
 title: common/gh-workflow (English)
 description: "List, view, and run GitHub Actions workflows."
-content_hash: cb8c7ee11de47d5e8560aaad4555540f6b66dc27
+content_hash: ddeaa4d6b1848143aa447e9cfb6f31ef089eb692
+last_modified_at: 2022-12-04
 ---
 # gh workflow
 
@@ -33,9 +34,9 @@ More information: <https://cli.github.com/manual/gh_workflow>.
 
 `gh workflow run `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id|workflow_name|filename.yml</span>` --raw-field `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">param1</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value1</span>` --raw-field `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">param2</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value2</span>
 
-- Run a manual workflow using a specific branch or tag with JSON parameters from stdin:
+- Run a manual workflow using a specific branch or tag with JSON parameters from `stdin`:
 
-`echo '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">{"param1":"value1", "param2":"value2"</span>`}' | gh workflow run `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id|workflow_name|filename.yml</span>` --ref `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_or_tag_name</span>
+`echo '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">{"param1":"value1", "param2":"value2"}</span>`' | gh workflow run `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id|workflow_name|filename.yml</span>` --ref `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_or_tag_name</span>
 
 - Enable or disable a specific workflow:
 

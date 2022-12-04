@@ -2,13 +2,17 @@
 layout: page
 title: common/clamscan (English)
 description: "A command-line virus scanner."
-content_hash: a6c5d98155bb9514272f8ad781072457e69e5b6d
+content_hash: 19275bfc6749a796cb024084311e06267452353d
+last_modified_at: 2022-12-04
 related_topics:
   - title: italiano version
     url: /it/common/clamscan.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/clamscan.html
+    icon: bi bi-globe
+  - title: ไทย version
+    url: /th/common/clamscan.html
     icon: bi bi-globe
 ---
 # clamscan
@@ -24,7 +28,7 @@ More information: <https://www.clamav.net>.
 
 `clamscan -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
-- Scan data from stdin:
+- Scan data from `stdin`:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` | clamscan -`
 

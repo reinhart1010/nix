@@ -2,7 +2,8 @@
 layout: page
 title: linux/aspell (English)
 description: "Interactive spell checker."
-content_hash: 1c540f997f25182852fcbbffc46984f840c57d10
+content_hash: d47b4ec88b8d9a8d8a89c8708613ca17e7458bf7
+last_modified_at: 2022-12-04
 related_topics:
   - title: Deutsch version
     url: /de/linux/aspell.html
@@ -12,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/aspell.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/linux/aspell.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/aspell.html
@@ -28,7 +32,7 @@ More information: <http://aspell.net/>.
 
 - List misspelled words from standard input:
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>` | aspell list`
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` | aspell list`
 
 - Show available dictionary languages:
 
@@ -40,4 +44,4 @@ More information: <http://aspell.net/>.
 
 - List misspelled words from standard input and ignore words from personal word list:
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>` | aspell --personal=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">personal-word-list.pws</span>` list`
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` | aspell --personal=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">personal-word-list.pws</span>` list`

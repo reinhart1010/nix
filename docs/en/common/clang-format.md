@@ -2,14 +2,15 @@
 layout: page
 title: common/clang-format (English)
 description: "Tool to auto-format C/C++/Java/JavaScript/Objective-C/Protobuf/C# code."
-content_hash: a227e2ad66e0603911bd039ca5c928c62f520f84
+content_hash: 33fc1e9eafb8a3ddb3e34cfa73b73b5cac4a515f
+last_modified_at: 2022-12-04
 ---
 # clang-format
 
 Tool to auto-format C/C++/Java/JavaScript/Objective-C/Protobuf/C# code.
 More information: <https://clang.llvm.org/docs/ClangFormat.html>.
 
-- Format a file and print the result to stdout:
+- Format a file and print the result to `stdout`:
 
 `clang-format `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 

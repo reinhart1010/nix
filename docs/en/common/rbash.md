@@ -2,7 +2,8 @@
 layout: page
 title: common/rbash (English)
 description: "Restricted Bash shell, equivalent to `bash --restricted`."
-content_hash: da399639dea544bb9ab54ef612e3fd6da948a997
+content_hash: 1ec06b4b7801f3e9c202c878f137ea0e90b72b08
+last_modified_at: 2022-12-04
 ---
 # rbash
 
@@ -31,6 +32,6 @@ More information: <https://www.gnu.org/software/bash/manual/html_node/The-Restri
 
 `rbash -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sh</span>
 
-- Read and execute commands from stdin:
+- Read and execute commands from `stdin`:
 
 `rbash -s`

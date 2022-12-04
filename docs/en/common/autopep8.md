@@ -2,8 +2,12 @@
 layout: page
 title: common/autopep8 (English)
 description: "Format Python code according to the PEP 8 style guide."
-content_hash: 12d51c88c3f1e965b228389a9611a086d09bdb62
+content_hash: 81f3a2683b8918f8813cbcedbfedc7582db27b37
+last_modified_at: 2022-12-04
 related_topics:
+  - title: français version
+    url: /fr/common/autopep8.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/autopep8.html
     icon: bi bi-globe
@@ -13,7 +17,7 @@ related_topics:
 Format Python code according to the PEP 8 style guide.
 More information: <https://github.com/hhatto/autopep8>.
 
-- Format a file to stdout, with a custom maximum line length:
+- Format a file to `stdout`, with a custom maximum line length:
 
 `autopep8 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.py</span>` --max-line-length `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">length</span>
 

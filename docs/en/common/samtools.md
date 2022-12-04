@@ -2,7 +2,8 @@
 layout: page
 title: common/samtools (English)
 description: "Tools for handling high-throughput sequencing (genomics) data."
-content_hash: 398e19ded18456bd8a596f6b625ac9783831681b
+content_hash: e24589afc8217dfbbcea5c3c6ee630f2c1903bb8
+last_modified_at: 2022-12-04
 ---
 # samtools
 
@@ -14,7 +15,7 @@ More information: <https://www.htslib.org>.
 
 `samtools view -S -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.sam</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.bam</span>
 
-- Take input from stdin (-) and print the SAM header and any reads overlapping a specific region to stdout:
+- Take input from `stdin` (-) and print the SAM header and any reads overlapping a specific region to `stdout`:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">other_command</span>` | samtools view -h - chromosome:start-end`
 

@@ -2,7 +2,8 @@
 layout: page
 title: common/promtool (English)
 description: "Tooling for the Prometheus monitoring system."
-content_hash: 909dfbb774df03e34a4b161d2f717903068a25d1
+content_hash: 639922cf9deb7c559acdbbeae4e2ffc5ac6d4f7c
+last_modified_at: 2022-12-04
 ---
 # promtool
 
@@ -17,7 +18,7 @@ More information: <https://prometheus.io/docs/prometheus/latest/getting_started/
 
 `promtool check rules `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rules_file.yml</span>
 
-- Pass Prometheus metrics over stdin to check them for consistency and correctness:
+- Pass Prometheus metrics over `stdin` to check them for consistency and correctness:
 
 `curl --silent `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com:9090/metrics/</span>` | promtool check metrics`
 

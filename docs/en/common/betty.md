@@ -2,7 +2,8 @@
 layout: page
 title: common/betty (English)
 description: "Use natural language to execute commands."
-content_hash: 11ac8d36ce69876efca1675cd45040daf8b404b1
+content_hash: e6f3464301d838307f6070069161cb1046ff7f63
+last_modified_at: 2022-12-04
 ---
 # betty
 
@@ -31,7 +32,7 @@ More information: <https://github.com/pickhardt/betty>.
 
 - Extract an archive into a directory:
 
-`betty unarchive `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive.tar.gz</span>` to `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory</span>
+`betty unarchive `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive.tar.gz</span>` to `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
 - Play Spotify:
 

@@ -2,7 +2,8 @@
 layout: page
 title: windows/rdpsign (English)
 description: "A tool for signing Remote Desktop Protocol (RDP) files."
-content_hash: 2c8cbf266606597b69b6548ec18c3c4a2752881b
+content_hash: 8c4713de6822774fd392fe68b8721de783c6eb3c
+last_modified_at: 2022-12-04
 related_topics:
   - title: 中文 version
     url: /zh/windows/rdpsign.html
@@ -29,6 +30,6 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 `rdpsign `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.rdp</span>` /v`
 
-- Test the signing by displaying the output to stdout without updating the file:
+- Test the signing by displaying the output to `stdout` without updating the file:
 
 `rdpsign `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.rdp</span>` /l`

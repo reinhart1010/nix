@@ -2,14 +2,15 @@
 layout: page
 title: common/prettier (English)
 description: "An opinionated code formatter for JavaScript, JSON, CSS, YAML, and more."
-content_hash: c86aa0eab6ced325381438d58f5bc806f531c8ac
+content_hash: 13665e838acdb70fb7bd0c65056765ab6e489179
+last_modified_at: 2022-12-04
 ---
 # prettier
 
 An opinionated code formatter for JavaScript, JSON, CSS, YAML, and more.
 More information: <https://prettier.io/>.
 
-- Format a file and print the result to stdout:
+- Format a file and print the result to `stdout`:
 
 `prettier `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 

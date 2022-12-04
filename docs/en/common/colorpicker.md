@@ -2,7 +2,8 @@
 layout: page
 title: common/colorpicker (English)
 description: "A minimalist X11 colorpicker."
-content_hash: 7005ba49408ea2bdc30598bb9009b5461d5c7a6c
+content_hash: a1558d386390d30b2bf7015f7732ec055a96a31e
+last_modified_at: 2022-12-04
 ---
 # colorpicker
 
@@ -10,7 +11,7 @@ A minimalist X11 colorpicker.
 Any mouse gesture except left click will exit the program.
 More information: <https://github.com/ym1234/colorpicker>.
 
-- Launch colorpicker and print the hexadecimal and RGB value of each clicked pixel to stdout:
+- Launch colorpicker and print the hexadecimal and RGB value of each clicked pixel to `stdout`:
 
 `colorpicker`
 

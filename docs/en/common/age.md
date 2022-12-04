@@ -2,16 +2,23 @@
 layout: page
 title: common/age (English)
 description: "A simple, modern and secure file encryption tool."
-content_hash: d8e8a671c5225d9322275f27378929d6f143e740
+content_hash: 250f0ef3dd0657420640939785fd1c1139ed7204
+last_modified_at: 2022-12-04
 related_topics:
   - title: Deutsch version
     url: /de/common/age.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/age.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/age.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/age.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/age.html
     icon: bi bi-globe
 ---
 # age
@@ -23,7 +30,7 @@ More information: <https://age-encryption.org>.
 
 `age --passphrase --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/encrypted_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/unencrypted_file</span>
 
-- Generate a key pair, saving the private key to an unencrypted file and printing the public key to stdout:
+- Generate a key pair, saving the private key to an unencrypted file and printing the public key to `stdout`:
 
 `age-keygen --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 

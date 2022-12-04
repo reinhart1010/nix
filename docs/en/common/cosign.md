@@ -2,7 +2,8 @@
 layout: page
 title: common/cosign (English)
 description: "Container Signing, Verification and Storage in an OCI registry."
-content_hash: aa856fb06e1231120c9bb9203ccf297d3b202a2c
+content_hash: 6c1f4fa2da1a1c2dbe3ca16cf54a92a38fc18d53
+last_modified_at: 2022-12-04
 ---
 # cosign
 
@@ -23,7 +24,7 @@ More information: <https://github.com/sigstore/cosign>.
 
 - Sign a blob with a local key pair file:
 
-`cosign sign-blob --key `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cosign.key</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`cosign sign-blob --key `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cosign.key</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Verify a container against a public key:
 

@@ -2,7 +2,8 @@
 layout: page
 title: common/xml-depyx (English)
 description: "Convert a PYX (ESIS - ISO 8879) document to XML format."
-content_hash: 8ce2a888bed57d80c12caf4e0c7336a58cf7aacd
+content_hash: 8e6f765d60f7a8723cd2a67914994c00bb04b00d
+last_modified_at: 2022-12-04
 ---
 # xml depyx
 
@@ -13,7 +14,7 @@ More information: <http://xmlstar.sourceforge.net/docs.php>.
 
 `xml depyx `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pyx|URI</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.xml</span>
 
-- Convert a PYX document from stdin to XML format:
+- Convert a PYX document from `stdin` to XML format:
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pyx</span>` | xml depyx > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.xml</span>
 

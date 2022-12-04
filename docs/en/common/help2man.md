@@ -2,7 +2,8 @@
 layout: page
 title: common/help2man (English)
 description: "Produce simple man pages from an executable's `--help` and `--version` output."
-content_hash: e5954f45e1f3afcd6a9dedf1439d8a232744a87b
+content_hash: f4b3a2914da499aff91189ae8c6ad004a4fceb3c
+last_modified_at: 2022-12-04
 ---
 # help2man
 
@@ -21,7 +22,7 @@ More information: <https://www.gnu.org/software/help2man>.
 
 `help2man `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executable</span>` --section `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">section</span>
 
-- Output to a file instead of stdout:
+- Output to a file instead of `stdout`:
 
 `help2man `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executable</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 

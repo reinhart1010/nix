@@ -2,7 +2,8 @@
 layout: page
 title: common/lz4 (English)
 description: "Compress or decompress .lz4 files."
-content_hash: 1b8724734429461e7fdd23dced962181b4f63afd
+content_hash: 58d816fa8857cf758ccf4a97b118a34edf0c7b5b
+last_modified_at: 2022-12-04
 ---
 # lz4
 
@@ -11,13 +12,13 @@ More information: <https://github.com/lz4/lz4>.
 
 - Compress a file:
 
-`lz4 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`lz4 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Decompress a file:
 
 `lz4 -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.lz4</span>
 
-- Decompress a file and write to stdout:
+- Decompress a file and write to `stdout`:
 
 `lz4 -dc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.lz4</span>
 
@@ -31,4 +32,4 @@ More information: <https://github.com/lz4/lz4>.
 
 - Compress a file using the best compression:
 
-`lz4 -9 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`lz4 -9 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>

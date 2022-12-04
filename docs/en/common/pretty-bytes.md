@@ -2,7 +2,8 @@
 layout: page
 title: common/pretty-bytes (English)
 description: "Convert bytes to a human-readable string."
-content_hash: acdf9139a17982ca3e998e1538d3c4ed651fc09f
+content_hash: eca55943777568a426f5f077938ff776e000bd7d
+last_modified_at: 2022-12-04
 ---
 # pretty-bytes
 
@@ -13,7 +14,7 @@ More information: <https://github.com/sindresorhus/pretty-bytes-cli>.
 
 `pretty-bytes `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1337</span>
 
-- Convert numeric bytes value from stdin to a human-readable string:
+- Convert numeric bytes value from `stdin` to a human-readable string:
 
 `echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1337</span>` | pretty-bytes`
 

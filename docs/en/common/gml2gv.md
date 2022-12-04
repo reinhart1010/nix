@@ -2,7 +2,8 @@
 layout: page
 title: common/gml2gv (English)
 description: "Convert a graph from `gml` to `gv` format."
-content_hash: 56735160363a2d076e8c893ee5de72d4f9706f30
+content_hash: a95941fe6985d44e709d31dd99ba65fd3591f2e4
+last_modified_at: 2022-12-04
 ---
 # gml2gv
 
@@ -14,7 +15,7 @@ More information: <https://graphviz.org/pdf/gml2gv.1.pdf>.
 
 `gml2gv -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.gv</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.gml</span>
 
-- Convert a graph using stdin and stdout:
+- Convert a graph using `stdin` and `stdout`:
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.gml</span>` | gml2gv > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.gv</span>
 

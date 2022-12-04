@@ -2,10 +2,14 @@
 layout: page
 title: common/git-prune (English)
 description: "Git command for pruning all unreachable objects from the object database."
-content_hash: 38b8c078f634925498ea39447e46cf9c5c10567d
+content_hash: 5f8ca8841f9c6094f20652e55f06584fb69271ad
+last_modified_at: 2022-12-04
 related_topics:
   - title: italiano version
     url: /it/common/git-prune.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-prune.html
     icon: bi bi-globe
 ---
 # git prune
@@ -18,7 +22,7 @@ More information: <https://git-scm.com/docs/git-prune>.
 
 `git prune --dry-run`
 
-- Prune unreachable objects and display what has been pruned to stdout:
+- Prune unreachable objects and display what has been pruned to `stdout`:
 
 `git prune --verbose`
 

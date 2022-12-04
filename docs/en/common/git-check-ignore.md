@@ -2,7 +2,8 @@
 layout: page
 title: common/git-check-ignore (English)
 description: "Analyze and debug Git ignore / exclude (\".gitignore\") files."
-content_hash: ec1672114e941c2e4c360bb261ba001e44b7ae03
+content_hash: 5d9f2e1ae8fb3615846cdb2984c4d16fd000e33c
+last_modified_at: 2022-12-04
 related_topics:
   - title: español version
     url: /es/common/git-check-ignore.html
@@ -33,7 +34,7 @@ More information: <https://git-scm.com/docs/git-check-ignore>.
 
 `git check-ignore `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
-- Use pathnames, one per line, from stdin:
+- Use pathnames, one per line, from `stdin`:
 
 `git check-ignore --stdin < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_list</span>
 

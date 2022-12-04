@@ -2,7 +2,8 @@
 layout: page
 title: common/ganache-cli (English)
 description: "Command-line version of Ganache, your personal blockchain for Ethereum development."
-content_hash: 4efb153db7f5dc2b97a4ad23eeb9423051881044
+content_hash: edb87f0935bf8134c8e50b7ef208409c48917220
+last_modified_at: 2022-12-04
 ---
 # ganache-cli
 
@@ -33,6 +34,6 @@ More information: <https://www.trufflesuite.com/ganache>.
 
 `ganache-cli --defaultBalanceEther=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">default_balance</span>
 
-- Run Ganache and log all requests to stdout:
+- Run Ganache and log all requests to `stdout`:
 
 `ganache-cli --verbose`

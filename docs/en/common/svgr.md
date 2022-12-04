@@ -2,25 +2,23 @@
 layout: page
 title: common/svgr (English)
 description: "Transform SVGs into React components."
-content_hash: c371c957ec60a197d6cb723bf8bbda9d08f9b281
+content_hash: ce791ac04252a817b4c4b28554b5b3965986979e
+last_modified_at: 2022-12-04
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># svgr
+# svgr
 
 Transform SVGs into React components.
 More information: <https://react-svgr.com>.
 
-- Transform a SVG file into a React component to stdout:
+- Transform a SVG file into a React component to `stdout`:
 
 `svgr -- `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.svg</span>
 
-- Transform a SVG file into a React component using TypeScript to stdout:
+- Transform a SVG file into a React component using TypeScript to `stdout`:
 
 `svgr --typescript -- `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.svg</span>
 
-- Transform a SVG file into a React component using JSX transform to stdout:
+- Transform a SVG file into a React component using JSX transform to `stdout`:
 
 `svgr --jsx-runtime automatic -- `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.svg</span>
 

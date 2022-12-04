@@ -2,7 +2,8 @@
 layout: page
 title: common/perl (English)
 description: "The Perl 5 language interpreter."
-content_hash: 1652c748bc253c5c59f0ab1902f8736373649bd9
+content_hash: 50a0f8a83cde60189ea946831bfa1b38e79f0702
+last_modified_at: 2022-12-04
 related_topics:
   - title: français version
     url: /fr/common/perl.html
@@ -37,10 +38,10 @@ More information: <https://www.perl.org>.
 
 `perl -p -e 's/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo\nbar</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foobar</span>`/g' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file</span>
 
-- Run a regular [e]xpression on stdin, printing matching [l]ines:
+- Run a regular [e]xpression on `stdin`, printing matching [l]ines:
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` | perl -n -l -e 'print if /`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span>`/'`
 
-- Run a regular [e]xpression on stdin, printing only the first capture group for each matching [l]ine:
+- Run a regular [e]xpression on `stdin`, printing only the first capture group for each matching [l]ine:
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` | perl -n -l -e 'print $1 if /`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">before</span>`(`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span>`)`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">after</span>`/'`

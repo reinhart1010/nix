@@ -2,7 +2,12 @@
 layout: page
 title: common/clamdscan (English)
 description: "A command-line virus scanner using the ClamAV Daemon."
-content_hash: b97f8eca53a405865ec83563707df6dc595601c6
+content_hash: 2d9f79c9bfd585c333ebf77a9a86d32fa1b7bda6
+last_modified_at: 2022-12-04
+related_topics:
+  - title: ไทย version
+    url: /th/common/clamdscan.html
+    icon: bi bi-globe
 ---
 # clamdscan
 
@@ -13,7 +18,7 @@ More information: <https://www.clamav.net>.
 
 `clamdscan `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
 
-- Scan data from stdin:
+- Scan data from `stdin`:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` | clamdscan -`
 

@@ -2,7 +2,8 @@
 layout: page
 title: common/gxl2gv (English)
 description: "Convert a graph from `gxl` to `gv` format."
-content_hash: 75233cb45fcb8c025682faace00dac41c03454f2
+content_hash: dd602247c5b4946a02c8c95382dced06e6edacbe
+last_modified_at: 2022-12-04
 ---
 # gxl2gv
 
@@ -14,7 +15,7 @@ More information: <https://graphviz.org/pdf/gxl2gv.1.pdf>.
 
 `gxl2gv -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.gv</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.gxl</span>
 
-- Convert a graph using stdin and stdout:
+- Convert a graph using `stdin` and `stdout`:
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.gxl</span>` | gxl2gv > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.gv</span>
 

@@ -2,14 +2,19 @@
 layout: page
 title: common/steam (English)
 description: "Video game platform by Valve."
-content_hash: 969ea9a6dfe354afb0e6d0b130ad61b355ed5a8f
+content_hash: c8c088241c66fdd59beb3517acca600a11c36fc9
+last_modified_at: 2022-12-04
+related_topics:
+  - title: Deutsch version
+    url: /de/common/steam.html
+    icon: bi bi-globe
 ---
 # steam
 
 Video game platform by Valve.
 More information: <https://developer.valvesoftware.com/wiki/Command_Line_Options>.
 
-- Launch Steam, printing debug messages to stdout:
+- Launch Steam, printing debug messages to `stdout`:
 
 `steam`
 

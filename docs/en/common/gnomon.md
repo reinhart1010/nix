@@ -2,14 +2,15 @@
 layout: page
 title: common/gnomon (English)
 description: "Utility to annotate console logging statements with timestamps and find slow processes."
-content_hash: 544d6aab4260f675e1651361b33adc4fc465ebab
+content_hash: bbbd5a89450ff3cb54d93ca60f7f75318291bc12
+last_modified_at: 2022-12-04
 ---
 # gnomon
 
 Utility to annotate console logging statements with timestamps and find slow processes.
 More information: <https://github.com/paypal/gnomon>.
 
-- Use UNIX (or DOS) pipes to pipe the stdout of any command through gnomon:
+- Use UNIX (or DOS) pipes to pipe the `stdout` of any command through gnomon:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">npm test</span>` | gnomon`
 

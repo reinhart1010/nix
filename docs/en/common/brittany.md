@@ -2,17 +2,15 @@
 layout: page
 title: common/brittany (English)
 description: "Pretty-print Haskell source files."
-content_hash: 9df2985ab4ae711236bfe0542361ce5d34b0d945
+content_hash: 4f8c981b2197bd7db97fdfa3c9dc3652e6d71e60
+last_modified_at: 2022-12-04
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># brittany
+# brittany
 
 Pretty-print Haskell source files.
 More information: <https://github.com/lspitzner/brittany#readme>.
 
-- Format a Haskell source file and print the result to stdout:
+- Format a Haskell source file and print the result to `stdout`:
 
 `brittany `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.hs</span>
 

@@ -2,12 +2,10 @@
 layout: page
 title: common/kcat (English)
 description: "Apache Kafka producer and consumer tool."
-content_hash: 06470327baa08ceb7b5b321cb21cc9ee6999940d
+content_hash: 582db6d01e846336c620aabe53d59ad5b5fd2841
+last_modified_at: 2022-12-04
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># kcat
+# kcat
 
 Apache Kafka producer and consumer tool.
 More information: <https://github.com/edenhill/kcat>.
@@ -24,7 +22,7 @@ More information: <https://github.com/edenhill/kcat>.
 
 `kcat -G `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group_id</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">topic</span>` -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">brokers</span>
 
-- Publish message by reading from stdin:
+- Publish message by reading from `stdin`:
 
 ` echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span>` | kcat -P -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">topic</span>` -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">brokers</span>
 

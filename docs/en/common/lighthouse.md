@@ -2,7 +2,8 @@
 layout: page
 title: common/lighthouse (English)
 description: "Analyzes web applications and web pages, collecting modern performance metrics and insights on developer best practices."
-content_hash: 5c3e61520d91c33ee5fb9ba6551721a9fb5b401d
+content_hash: 52fe1c50bffb804174169e1d105ac29ac6565d5a
+last_modified_at: 2022-12-04
 ---
 # lighthouse
 
@@ -21,7 +22,7 @@ More information: <https://github.com/GoogleChrome/lighthouse>.
 
 `lighthouse --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json</span>` --output-path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.json</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>
 
-- Generate a report using the browser in headless mode without logging to stdout:
+- Generate a report using the browser in headless mode without logging to `stdout`:
 
 `lighthouse --quiet --chrome-flags="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--headless</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>
 

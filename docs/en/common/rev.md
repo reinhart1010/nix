@@ -2,7 +2,8 @@
 layout: page
 title: common/rev (English)
 description: "Reverse a line of text."
-content_hash: a0f5088404178c9d894afc0c5ed7f1f8f356c002
+content_hash: 1fdab04c331e59e16bc63c3112aa0535e75e2c18
+last_modified_at: 2022-12-04
 related_topics:
   - title: Deutsch version
     url: /de/common/rev.html
@@ -20,6 +21,6 @@ More information: <https://manned.org/rev>.
 
 `echo "hello" | rev`
 
-- Reverse an entire file and print to stdout:
+- Reverse an entire file and print to `stdout`:
 
-`rev `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`rev `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>

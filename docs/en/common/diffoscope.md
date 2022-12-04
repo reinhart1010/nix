@@ -2,7 +2,8 @@
 layout: page
 title: common/diffoscope (English)
 description: "Compare files, archives, and directories."
-content_hash: caf7e90498db62caa845b6098cc1cf74d4291b7a
+content_hash: 9152151a139783f1e98668146a984935248f75e1
+last_modified_at: 2022-12-04
 ---
 # diffoscope
 
@@ -17,7 +18,7 @@ More information: <https://diffoscope.org>.
 
 `diffoscope --no-progress `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>
 
-- Compare two files and write an HTML-report to a file (use `-` for stdout):
+- Compare two files and write an HTML-report to a file (use `-` for `stdout`):
 
 `diffoscope --html `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/outfile|-</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>
 

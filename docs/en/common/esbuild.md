@@ -2,18 +2,23 @@
 layout: page
 title: common/esbuild (English)
 description: "JavaScript bundler and minifier built for speed."
-content_hash: 6c71ed4f2270dff990f71d8b33d9955560a389d8
+content_hash: d46499ed5fe1ea11f599f9ad9cbbaa08754dc7ba
+last_modified_at: 2022-12-04
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/common/esbuild.html
+    icon: bi bi-globe
 ---
 # esbuild
 
 JavaScript bundler and minifier built for speed.
 More information: <https://esbuild.github.io/>.
 
-- Bundle a JavaScript application and print to stdout:
+- Bundle a JavaScript application and print to `stdout`:
 
 `esbuild --bundle `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.js</span>
 
-- Bundle a JSX application from stdin:
+- Bundle a JSX application from `stdin`:
 
 `esbuild --bundle --outfile=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/out.js</span>` < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.jsx</span>
 

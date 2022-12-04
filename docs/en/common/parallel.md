@@ -2,7 +2,8 @@
 layout: page
 title: common/parallel (English)
 description: "Run commands on multiple CPU cores."
-content_hash: cb6b8c11b583303c06acc9b5660bb012ea5de2c3
+content_hash: a4d2177277f5702fc76bca89b5fd0f60c1a656e8
+last_modified_at: 2022-12-04
 ---
 # parallel
 
@@ -13,7 +14,7 @@ More information: <https://www.gnu.org/software/parallel>.
 
 `parallel gzip ::: `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file3</span>
 
-- Read arguments from stdin, run 4 jobs at once:
+- Read arguments from `stdin`, run 4 jobs at once:
 
 `ls *.txt | parallel -j4 gzip`
 
@@ -25,7 +26,7 @@ More information: <https://www.gnu.org/software/parallel>.
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">args</span>` | parallel -X `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
-- Break stdin into ~1M blocks, feed each block to stdin of new command:
+- Break `stdin` into ~1M blocks, feed each block to `stdin` of new command:
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">big_file.txt</span>` | parallel --pipe --block 1M `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 

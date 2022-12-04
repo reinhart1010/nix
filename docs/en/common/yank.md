@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/yank (English)
-description: "Read input from stdin and display a selection interface that allows a field to be selected and copied to the clipboard."
-content_hash: 8ae1a61b143d8109243beca904f9c3318033195c
+description: "Read input from `stdin` and display a selection interface that allows a field to be selected and copied to the clipboard."
+content_hash: 119daea74897d82bcd38a5ccef68203d68b6bd97
+last_modified_at: 2022-12-04
 related_topics:
   - title: 中文 version
     url: /zh/common/yank.html
@@ -10,7 +11,7 @@ related_topics:
 ---
 # yank
 
-Read input from stdin and display a selection interface that allows a field to be selected and copied to the clipboard.
+Read input from `stdin` and display a selection interface that allows a field to be selected and copied to the clipboard.
 More information: <https://manned.org/yank>.
 
 - Yank using the default delimiters (\f, \n, \r, \s, \t):

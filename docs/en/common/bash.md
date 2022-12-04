@@ -2,7 +2,8 @@
 layout: page
 title: common/bash (English)
 description: "Bourne-Again SHell, an `sh`-compatible command-line interpreter."
-content_hash: 9e47c94dcd5327d3a8ce13af11d7814da938e204
+content_hash: c5c36e88e2eea2f66e374ac547d64cb53a2f523a
+last_modified_at: 2022-12-04
 related_topics:
   - title: Deutsch version
     url: /de/common/bash.html
@@ -62,6 +63,6 @@ More information: <https://gnu.org/software/bash/>.
 
 `bash -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sh</span>
 
-- Execute specific commands from stdin:
+- Execute specific commands from `stdin`:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "echo 'bash is executed'"</span>` | bash`

@@ -2,7 +2,8 @@
 layout: page
 title: common/view (English)
 description: "A read-only version of `vim`."
-content_hash: da70c5165f9c9183527e4ad0cda2c4c9ee281c21
+content_hash: f1db61b91607b7a43f0d3bceb3ddb80486403287
+last_modified_at: 2022-12-04
 related_topics:
   - title: bosanski version
     url: /bs/common/view.html
@@ -16,7 +17,7 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/view.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/view.html
     icon: bi bi-globe
   - title: svenska version
@@ -34,4 +35,4 @@ More information: <https://www.vim.org>.
 
 - Open a file:
 
-`view `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`view `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>

@@ -2,7 +2,8 @@
 layout: page
 title: common/react-native (English)
 description: "A framework for building native apps with React."
-content_hash: 7f0778b345b5ae969db748a32f0133fb9560397a
+content_hash: 20231c088a1db5de10dab0b8d59203a5051b6838
+last_modified_at: 2022-12-04
 ---
 # react-native
 
@@ -33,10 +34,10 @@ More information: <https://reactnative.dev>.
 
 `react-native run-android --variant=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">release</span>
 
-- Start `logkitty` and print logs to stdout:
+- Start `logkitty` and print logs to `stdout`:
 
 `react-native log-android`
 
-- Start `tail system.log` for an iOS simulator and print logs to stdout:
+- Start `tail system.log` for an iOS simulator and print logs to `stdout`:
 
 `react-native log-ios`

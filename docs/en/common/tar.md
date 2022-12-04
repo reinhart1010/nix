@@ -2,7 +2,8 @@
 layout: page
 title: common/tar (English)
 description: "Archiving utility."
-content_hash: 35e5e47ee07241c7c0c2c89a8c9b4aa0d78c730a
+content_hash: 220e87f47ab0d176cade45280bc55a0dd0046b29
+last_modified_at: 2022-12-04
 related_topics:
   - title: Deutsch version
     url: /de/common/tar.html
@@ -21,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/tar.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/tar.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/tar.html
@@ -50,7 +54,7 @@ More information: <https://www.gnu.org/software/tar>.
 
 - E[x]tract a (compressed) archive [f]ile into the target directory:
 
-`tar xf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source.tar[.gz|.bz2|.xz]</span>` --directory=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory</span>
+`tar xf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source.tar[.gz|.bz2|.xz]</span>` --directory=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
 - [c]reate a compressed archive and write it to a [f]ile, using [a]rchive suffix to determine the compression program:
 

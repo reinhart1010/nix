@@ -2,7 +2,8 @@
 layout: page
 title: common/mkdir (English)
 description: "Creates a directory."
-content_hash: 4afd2cfcf94df6bda2c58a2efaa7c9b720247b7c
+content_hash: bea06b01ecaac5115580ea3c9317a1bcaa7efc2f
+last_modified_at: 2022-12-04
 related_topics:
   - title: español version
     url: /es/common/mkdir.html
@@ -25,6 +26,12 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/mkdir.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/mkdir.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/mkdir.html
+    icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/mkdir.html
     icon: bi bi-globe
@@ -36,7 +43,7 @@ More information: <https://www.gnu.org/software/coreutils/mkdir>.
 
 - Create a directory in current directory or given path:
 
-`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory</span>
+`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
 - Create multiple directories in the current directory:
 

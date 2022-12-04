@@ -2,7 +2,12 @@
 layout: page
 title: common/terraform-fmt (English)
 description: "Format configuration according to Terraform language style conventions."
-content_hash: 2c0efde8ff89eaef8be8273604904d8ff92e4bb6
+content_hash: 765e7fe75bb4dea1a33b3118db46685398d6ddae
+last_modified_at: 2022-12-04
+related_topics:
+  - title: Deutsch version
+    url: /de/common/terraform-fmt.html
+    icon: bi bi-globe
 ---
 # terraform fmt
 
@@ -21,6 +26,6 @@ More information: <https://www.terraform.io/docs/commands/fmt.html>.
 
 `terraform fmt -diff`
 
-- Do not list files that were formatted to stdout:
+- Do not list files that were formatted to `stdout`:
 
 `terraform fmt -list=false`

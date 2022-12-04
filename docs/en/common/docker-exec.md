@@ -2,10 +2,14 @@
 layout: page
 title: common/docker-exec (English)
 description: "Execute a command on an already running Docker container."
-content_hash: 1bc4feabfb70ed44c6bbb2ffa2307750a6fbd4e9
+content_hash: bb2201c62200261667e818dd09a98e479f0bbde8
+last_modified_at: 2022-12-04
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-exec.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/docker-exec.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/docker-exec.html
@@ -31,7 +35,7 @@ More information: <https://docs.docker.com/engine/reference/commandline/exec/>.
 
 `docker exec --interactive -tty --workdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
-- Run a command in background on existing container but keep stdin open:
+- Run a command in background on existing container but keep `stdin` open:
 
 `docker exec --interactive --detach `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 

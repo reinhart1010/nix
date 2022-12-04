@@ -2,7 +2,8 @@
 layout: page
 title: common/multitail (English)
 description: "Extension of tail."
-content_hash: 02f352ce700aa6853b0cf321ad9df253510e8671
+content_hash: 30b4349c302c8dd06f3f8ae58a5dfbf1983d8d82
+last_modified_at: 2022-12-04
 ---
 # multitail
 
@@ -15,7 +16,7 @@ More information: <https://manned.org/multitail>.
 
 - Tail all files in a directory in a single stream:
 
-`multitail -Q 1 '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory</span>`/*'`
+`multitail -Q 1 '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>`/*'`
 
 - Automatically add new files to a window:
 

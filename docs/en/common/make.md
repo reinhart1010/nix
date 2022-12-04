@@ -2,7 +2,8 @@
 layout: page
 title: common/make (English)
 description: "Task runner for targets described in Makefile."
-content_hash: 5a43c4fa813ae0a50a01bdb3b773ecaf6c85b202
+content_hash: 9496e105e7d611dd36f2c3c7994a0ce570791d02
+last_modified_at: 2022-12-04
 related_topics:
   - title: 中文 version
     url: /zh/common/make.html
@@ -28,11 +29,11 @@ More information: <https://www.gnu.org/software/make/manual/make.html>.
 
 - Use a specific Makefile:
 
-`make --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`make --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Execute make from another directory:
 
-`make --directory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory</span>
+`make --directory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
 - Force making of a target, even if source files are unchanged:
 
