@@ -1,19 +1,20 @@
 ---
 layout: page
 title: common/okular (English)
-description: "A universal document viewer."
-content_hash: 778332cd1b7ae420ac9bfea322bee8dd7a4baa80
+description: "View documents."
+content_hash: 293978f2ad30ac9fa027b93b733d95622a6d4605
+last_modified_at: 2022-12-05
 ---
 # okular
 
-A universal document viewer.
-More information: <https://okular.kde.org/>.
+View documents.
+More information: <https://docs.kde.org/stable5/en/okular/okular/command-line-options.html>.
 
-- Launch Okular:
+- Launch document viewer:
 
 `okular`
 
-- Open specific documents in Okular:
+- Open specific documents:
 
 `okular `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
@@ -21,11 +22,11 @@ More information: <https://okular.kde.org/>.
 
 `okular --page `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">page_number</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Open a document in presentation mode:
+- Open a specific document in presentation mode:
 
 `okular --presentation `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Open a document and start the print dialog:
+- Open a specific document and start a print dialog:
 
 `okular --print `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
