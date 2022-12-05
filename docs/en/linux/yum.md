@@ -2,15 +2,26 @@
 layout: page
 title: linux/yum (English)
 description: "Package management utility for RHEL, Fedora, and CentOS (for older versions)."
-content_hash: da7836e216afdf950cdf7f319357eeeaad8105ea
+content_hash: c92b22195abb9190c389b67f1d78b9f5347f0452
+last_modified_at: 2022-12-05
 related_topics:
+  - title: català version
+    url: /ca/linux/yum.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/yum.html
+    icon: bi bi-globe
   - title: فارسی version
     url: /fa/linux/yum.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/yum.html
     icon: bi bi-globe
 ---
 # yum
 
 Package management utility for RHEL, Fedora, and CentOS (for older versions).
+For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 More information: <https://manned.org/yum>.
 
 - Install a new package:

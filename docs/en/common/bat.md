@@ -2,8 +2,8 @@
 layout: page
 title: common/bat (English)
 description: "Print and concatenate files."
-content_hash: fd7be41a6f958b799a19e0798968587765aa88d0
-last_modified_at: 2022-12-04
+content_hash: 3890213bfa0417c97dff896408838c325228d8ad
+last_modified_at: 2022-12-05
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html
@@ -56,7 +56,7 @@ More information: <https://github.com/sharkdp/bat>.
 
 - Number all output lines:
 
-`bat -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`bat --number `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Syntax highlight a JSON file:
 

@@ -2,11 +2,13 @@
 layout: page
 title: linux/rpm (English)
 description: "RPM Package Manager."
-content_hash: 7f54a17edf85e6ad3821ec66fb3eebcda412a6a7
+content_hash: a5ce3594632272fea38b51cd73b71392130cbfde
+last_modified_at: 2022-12-05
 ---
 # rpm
 
 RPM Package Manager.
+For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 More information: <https://rpm.org/>.
 
 - Show version of httpd package:

@@ -2,7 +2,8 @@
 layout: page
 title: linux/dnf (English)
 description: "Package management utility for RHEL, Fedora, and CentOS (replaces yum)."
-content_hash: a331a207021bca011cd23ecee29ee93c665cd513
+content_hash: a42189187d9b061be87da1e67abada2d4752c5fb
+last_modified_at: 2022-12-05
 related_topics:
   - title: català version
     url: /ca/linux/dnf.html
@@ -19,6 +20,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/dnf.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/dnf.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/dnf.html
     icon: bi bi-globe
@@ -26,6 +30,7 @@ related_topics:
 # dnf
 
 Package management utility for RHEL, Fedora, and CentOS (replaces yum).
+For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 More information: <https://dnf.readthedocs.io>.
 
 - Upgrade installed packages to the newest available versions:
