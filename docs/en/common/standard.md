@@ -2,7 +2,8 @@
 layout: page
 title: common/standard (English)
 description: "The JavaScript Standard Style tool for linting and fixing JavaScript code."
-content_hash: bad5ac97b43f19c9ec7a4934b68c32b0dae60ec8
+content_hash: 88d1c67b4002fb1e440e25ca1409134781e9b033
+last_modified_at: 2022-12-06
 ---
 # standard
 
@@ -15,7 +16,7 @@ More information: <https://standardjs.com>.
 
 - Lint specific JavaScript file(s):
 
-`standard `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file(s)</span>
+`standard `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
 - Apply automatic fixes during linting:
 

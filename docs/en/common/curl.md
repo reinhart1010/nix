@@ -2,10 +2,14 @@
 layout: page
 title: common/curl (English)
 description: "Transfers data from or to a server."
-content_hash: fa3e465b2c3dc01652fc1b9fea862b318ae824c3
+content_hash: 466aeb9c7ade01eb25f727789fd26f10b5630127
+last_modified_at: 2022-12-06
 related_topics:
   - title: Deutsch version
     url: /de/common/curl.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/curl.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/curl.html
@@ -34,7 +38,7 @@ More information: <https://curl.se>.
 
 - Download the contents of a URL to a file:
 
-`curl `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>
+`curl `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Download a file, saving the output under the filename indicated by the URL:
 

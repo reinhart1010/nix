@@ -2,7 +2,8 @@
 layout: page
 title: common/sk (English)
 description: "Fuzzy finder written in Rust."
-content_hash: 21b86a4dd748ba10b02949db73a8cb6f0d336a03
+content_hash: 4e6a212dd20bb483c8648e219cae331fd7f6e45c
+last_modified_at: 2022-12-06
 ---
 # sk
 
@@ -24,4 +25,4 @@ More information: <https://github.com/lotabout/skim>.
 
 - Select multiple files with `Shift + Tab` and write to a file:
 
-`find `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` -type f | sk --multi > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>
+`find `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` -type f | sk --multi > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>

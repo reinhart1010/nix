@@ -2,7 +2,8 @@
 layout: page
 title: common/git-reset (English)
 description: "Undo commits or unstage changes, by resetting the current Git HEAD to the specified state."
-content_hash: 574a40eca3f6b08d6cc13adedb3217fee63fcfde
+content_hash: 9e42f731cbd81351968ca7cb8fde2ebe8c155b24
+last_modified_at: 2022-12-06
 related_topics:
   - title: español version
     url: /es/common/git-reset.html
@@ -12,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-reset.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-reset.html
     icon: bi bi-globe
 ---
 # git reset
@@ -26,7 +30,7 @@ More information: <https://git-scm.com/docs/git-reset>.
 
 - Unstage specific file(s):
 
-`git reset `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file(s)</span>
+`git reset `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
 - Interactively unstage portions of a file:
 

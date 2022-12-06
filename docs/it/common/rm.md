@@ -2,7 +2,8 @@
 layout: page
 title: common/rm (italiano)
 description: "Rimuovi file o directory."
-content_hash: 4bd10fac043a2f900e647ea5ddd6b46181e4ab25
+content_hash: 156a1af41b9f083d7a3ad3d00308493cb476137d
+last_modified_at: 2022-12-06
 related_topics:
   - title: English version
     url: /en/common/rm.html
@@ -51,7 +52,7 @@ Maggiori informazioni: <https://www.gnu.org/software/coreutils/rm>.
 
 - Rimuovi file interattivamente, chiedendo conferma prima di rimuovere ogni file:
 
-`rm -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file(s)</span>
+`rm -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file1 percorso/del/file2 ...</span>
 
 - Rimuovi file in modalità verbosa, scrivendo un messaggio a schermo per ogni file rimosso:
 

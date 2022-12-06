@@ -2,7 +2,8 @@
 layout: page
 title: common/mongod (English)
 description: "The MongoDB database server."
-content_hash: 22fda6cdb2850ec6fcd4a3b7128b22d62b358a7b
+content_hash: 0da38bc1fd57922d6ff3bbda0025461cffcfdd2a
+last_modified_at: 2022-12-06
 related_topics:
   - title: Indonesia version
     url: /id/common/mongod.html
@@ -18,7 +19,7 @@ More information: <https://docs.mongodb.com/manual/reference/program/mongod>.
 
 - Specify a config file:
 
-`mongod --config `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>
+`mongod --config `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Specify the port to listen on:
 

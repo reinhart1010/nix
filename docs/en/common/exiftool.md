@@ -2,8 +2,8 @@
 layout: page
 title: common/exiftool (English)
 description: "Read and write meta information in files."
-content_hash: 746ebbae240325ab36740384f2dc175edcf41a78
-last_modified_at: 2022-12-04
+content_hash: e9c44a510e4d1627f6c15a17882beeb74bba831e
+last_modified_at: 2022-12-06
 related_topics:
   - title: italiano version
     url: /it/common/exiftool.html
@@ -20,7 +20,7 @@ More information: <https://exiftool.org>.
 
 - Remove all EXIF metadata from the given files:
 
-`exiftool -All= `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1 file2 ...</span>
+`exiftool -All= `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
 - Remove GPS EXIF metadata from given image files:
 

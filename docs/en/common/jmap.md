@@ -2,7 +2,8 @@
 layout: page
 title: common/jmap (English)
 description: "Java memory map tool."
-content_hash: e0089d7854fc5f6fe7398f74273f6564d37d0fea
+content_hash: c8030d26d0517ef9df1e6a3b4a587c833ec19d61
+last_modified_at: 2022-12-06
 related_topics:
   - title: 中文 version
     url: /zh/common/jmap.html
@@ -27,4 +28,4 @@ More information: <https://docs.oracle.com/javase/7/docs/technotes/tools/share/j
 
 - Dump contents of the heap into a binary file for analysis with jhat:
 
-`jmap -dump:format=b,file=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">java_pid</span>
+`jmap -dump:format=b,file=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">java_pid</span>

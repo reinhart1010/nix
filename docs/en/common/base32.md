@@ -2,8 +2,8 @@
 layout: page
 title: common/base32 (English)
 description: "Encode or decode file or standard input to/from Base32, to standard output."
-content_hash: bba4ebfd87639a50ee8049e50227c0ef6d077e86
-last_modified_at: 2022-12-04
+content_hash: 27999a4b9aa975f2f33c1abe6771730684ca6858
+last_modified_at: 2022-12-06
 related_topics:
   - title: français version
     url: /fr/common/base32.html
@@ -34,11 +34,11 @@ More information: <https://www.gnu.org/software/coreutils/base32>.
 
 - Encode a file:
 
-`base32 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>
+`base32 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Decode a file:
 
-`base32 --decode `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>
+`base32 --decode `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Encode from `stdin`:
 

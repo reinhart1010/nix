@@ -2,7 +2,8 @@
 layout: page
 title: common/fortune (English)
 description: "Print a random quotation (fortune-cookie style)."
-content_hash: 0223348e29cba0c924507143dd02887c2fcd62ed
+content_hash: 6182e41f18134370b42ca98461b8fff80641e252
+last_modified_at: 2022-12-06
 related_topics:
   - title: Deutsch version
     url: /de/common/fortune.html
@@ -38,4 +39,4 @@ More information: <https://manned.org/fortune>.
 
 - Print a quotation from one of the database files listed by `fortune -f`:
 
-`fortune `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>
+`fortune `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>

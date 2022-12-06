@@ -2,7 +2,8 @@
 layout: page
 title: common/meshlabserver (English)
 description: "Command-line interface for the MeshLab 3D mesh processing software."
-content_hash: 207c040e81748b9f58dc1a2584f2e058b73b412d
+content_hash: 2626b03f5fc4788ee4741d6ef1b6cb3f22670668
+last_modified_at: 2022-12-06
 ---
 # meshlabserver
 
@@ -19,7 +20,7 @@ More information: <https://manned.org/meshlabserver>.
 
 - Dump a list of all the available processing filters into a file:
 
-`meshlabserver -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>
+`meshlabserver -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Process a 3D file using a filter script created in the MeshLab GUI (Filters > Show current filter script > Save Script):
 

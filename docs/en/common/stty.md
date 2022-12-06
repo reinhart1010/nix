@@ -2,7 +2,8 @@
 layout: page
 title: common/stty (English)
 description: "Set options for a terminal device interface."
-content_hash: dcf0272a8aa2f11111597f6198a93782127ca894
+content_hash: 2e01331d5666a9ae16b48dfaa505fc42359d738b
+last_modified_at: 2022-12-06
 related_topics:
   - title: 中文 version
     url: /zh/common/stty.html
@@ -17,13 +18,9 @@ More information: <https://www.gnu.org/software/coreutils/stty>.
 
 `stty --all`
 
-- Set the number of rows:
+- Set the number of rows or columns:
 
-`stty rows `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rows</span>
-
-- Set the number of columns:
-
-`stty cols `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cols</span>
+`stty `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rows|cols</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">count</span>
 
 - Get the actual transfer speed of a device:
 

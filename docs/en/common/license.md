@@ -2,8 +2,8 @@
 layout: page
 title: common/license (English)
 description: "Create license files for open-source projects."
-content_hash: 7d147f64cf88555b865cafec602acd0dc82d1eed
-last_modified_at: 2022-12-04
+content_hash: 6d3546bef5bdc333f26abe6c710cf4b69d10e5b9
+last_modified_at: 2022-12-06
 ---
 # license
 
@@ -16,7 +16,7 @@ More information: <https://nishanths.github.io/license>.
 
 - Generate a license and save it to a file:
 
-`license -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">license_name</span>
+`license -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">license_name</span>
 
 - List all available licenses:
 

@@ -2,7 +2,8 @@
 layout: page
 title: common/rm (English)
 description: "Remove files or directories."
-content_hash: 1047b871ee23e1c6730e9329d3eb2d86649e145e
+content_hash: 9c18321a320a12fb3797cb0c020ad217245fc467
+last_modified_at: 2022-12-06
 related_topics:
   - title: español version
     url: /es/common/rm.html
@@ -24,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/rm.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/rm.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/rm.html
@@ -48,7 +52,7 @@ More information: <https://www.gnu.org/software/coreutils/rm>.
 
 - Interactively remove multiple files, with a prompt before every removal:
 
-`rm -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file(s)</span>
+`rm -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
 - Remove files in verbose mode, printing a message for each removed file:
 

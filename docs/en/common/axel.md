@@ -2,8 +2,12 @@
 layout: page
 title: common/axel (English)
 description: "Download accelerator."
-content_hash: ae43a28d5087863101be8813d5a9f0d89deb2f50
+content_hash: 546a19deec056fb74e547cdb34a8f872a407eb49
+last_modified_at: 2022-12-06
 related_topics:
+  - title: français version
+    url: /fr/common/axel.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/axel.html
     icon: bi bi-globe
@@ -29,7 +33,7 @@ More information: <https://github.com/axel-download-accelerator/axel>.
 
 - Download and specify filename:
 
-`axel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>
+`axel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Download with multiple connections:
 

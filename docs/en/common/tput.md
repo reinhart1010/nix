@@ -2,7 +2,8 @@
 layout: page
 title: common/tput (English)
 description: "View and modify terminal settings and capabilities."
-content_hash: eda88f77bad2bc19639c59a8c65bf86fa1dd3117
+content_hash: d3c7eb4ff8cb27208d470856d1e3e1fc8e6a818c
+last_modified_at: 2022-12-06
 related_topics:
   - title: français version
     url: /fr/common/tput.html
@@ -33,6 +34,6 @@ More information: <https://manned.org/tput>.
 
 `tput sgr0`
 
-- Enable / Disable word wrap:
+- Enable or disable word wrap:
 
 `tput `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">smam|rmam</span>

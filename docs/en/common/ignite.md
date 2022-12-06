@@ -2,7 +2,8 @@
 layout: page
 title: common/ignite (English)
 description: "A CLI for React Native boilerplates, plugins, generators, and more."
-content_hash: 265b1b70558ba88f7d04120ec4f463f572f3ffcb
+content_hash: 4e3c23b8e33391fcf54ff4df796ab4237a985fdc
+last_modified_at: 2022-12-06
 ---
 # ignite
 
@@ -15,7 +16,7 @@ More information: <https://infinite.red/ignite>.
 
 - Generate file from a plugin:
 
-`ignite generate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plugin_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>
+`ignite generate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plugin_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Add an Ignite plugin to the project:
 

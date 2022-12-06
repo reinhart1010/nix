@@ -2,7 +2,8 @@
 layout: page
 title: common/espeak (English)
 description: "Uses text-to-speech to speak through the default sound device."
-content_hash: e4db920425a54e425d01e327d874339d6a665668
+content_hash: e0f63a73c7e27413b87843c21d20ad358c200764
+last_modified_at: 2022-12-06
 related_topics:
   - title: italiano version
     url: /it/common/espeak.html
@@ -19,7 +20,7 @@ More information: <http://espeak.sourceforge.net>.
 
 - Speak a file aloud:
 
-`espeak -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>
+`espeak -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Save output to a WAV audio file, rather than speaking it directly:
 

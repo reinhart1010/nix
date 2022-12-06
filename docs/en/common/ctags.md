@@ -2,7 +2,8 @@
 layout: page
 title: common/ctags (English)
 description: "Generates an index (or tag) file of language objects found in source files for many popular programming languages."
-content_hash: 0de3ae69cfa4e6c79afb46ce48ad0ac719734654
+content_hash: ed1f336eef3c5cc1da20593ad038b853ae7fa3f4
+last_modified_at: 2022-12-06
 ---
 # ctags
 
@@ -15,7 +16,7 @@ More information: <https://ctags.io/>.
 
 - Generate tags for all files in the current directory, and output them to a specific file, overwriting the file if it exists:
 
-`ctags -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>` *`
+`ctags -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` *`
 
 - Generate tags for all files in the current directory and all subdirectories:
 

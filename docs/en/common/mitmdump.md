@@ -2,7 +2,8 @@
 layout: page
 title: common/mitmdump (English)
 description: "View, record, and programmatically transform HTTP traffic."
-content_hash: 96976b454271cf87b48e710824327ce3d26176c6
+content_hash: 6d4fb36a80780e919ea7c4ff5c43adf783930e0e
+last_modified_at: 2022-12-06
 ---
 # mitmdump
 
@@ -12,7 +13,7 @@ More information: <https://docs.mitmproxy.org/stable/overview-tools/#mitmdump>.
 
 - Start a proxy and save all output to a file:
 
-`mitmdump -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>
+`mitmdump -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Filter a saved traffic file to just POST requests:
 
@@ -20,4 +21,4 @@ More information: <https://docs.mitmproxy.org/stable/overview-tools/#mitmdump>.
 
 - Replay a saved traffic file:
 
-`mitmdump -nc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>
+`mitmdump -nc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>

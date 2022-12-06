@@ -2,10 +2,14 @@
 layout: page
 title: common/asciinema (English)
 description: "Record and replay terminal sessions, and optionally share them on asciinema.org."
-content_hash: 3b1487539a3ec002a8d9541c30069d4fc08691df
+content_hash: 3f63213346c27ef16a2b6561fc2265961a119771
+last_modified_at: 2022-12-06
 related_topics:
   - title: español version
     url: /es/common/asciinema.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/asciinema.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/asciinema.html
@@ -23,7 +27,7 @@ related_topics:
 # asciinema
 
 Record and replay terminal sessions, and optionally share them on asciinema.org.
-More information: <https://asciinema.org/>.
+More information: <https://asciinema.org/docs/usage>.
 
 - Associate the local install of `asciinema` with an asciinema.org account:
 
