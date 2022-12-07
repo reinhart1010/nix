@@ -2,7 +2,8 @@
 layout: page
 title: linux/procs (English)
 description: "Display information about the active processes."
-content_hash: cb25220b6200529bf8a31baa4ea38aed7aa89189
+content_hash: 9ce0370779c4698284675166b00ce3779e216bbf
+last_modified_at: 2022-12-07
 ---
 # procs
 
@@ -13,18 +14,18 @@ More information: <https://github.com/dalance/procs>.
 
 `procs`
 
-- Show information about processes, if the commands which started them contain `zsh`:
+- List information about processes, if the commands which started them contain `zsh`:
 
 `procs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zsh</span>
 
-- Show information about all processes sorted by CPU time in [a]scending or [d]escending order:
+- List information about all processes sorted by CPU time in [a]scending or [d]escending order:
 
-`procs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--sortd|--sorta</span>` cpu`
+`procs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--sorta|--sortd</span>` cpu`
 
-- Show information about processes with either a PID, command, or user containing (`zsh` or `firefox`):
+- List information about processes with either a PID, command, or user containing `41` or `firefox`:
 
 `procs --or `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PID|command|user</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">41</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">firefox</span>
 
-- Show information about processes with both PID `41` and a command or user containing `zsh`:
+- List information about processes with both PID `41` and a command or user containing `zsh`:
 
 `procs --and `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">41</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zsh</span>

@@ -2,7 +2,12 @@
 layout: page
 title: common/fd (English)
 description: "An alternative to `find`."
-content_hash: 0b7c2d3b8e188e7a114c7f5459c84fcdcf31ccbd
+content_hash: 274e4252b443a30ee578f40b286966cd1b88fff3
+last_modified_at: 2022-12-07
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/common/fd.html
+    icon: bi bi-globe
 ---
 # fd
 
@@ -10,13 +15,13 @@ An alternative to `find`.
 Aims to be faster and easier to use than `find`.
 More information: <https://github.com/sharkdp/fd>.
 
-- Recursively find files matching the given pattern in the current directory:
+- Recursively find files matching a specific pattern in the current directory:
 
-`fd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern</span>
+`fd "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string|regex</span>`"`
 
 - Find files that begin with `foo`:
 
-`fd '^foo'`
+`fd "^foo"`
 
 - Find files with a specific extension:
 
@@ -24,12 +29,12 @@ More information: <https://github.com/sharkdp/fd>.
 
 - Find files in a specific directory:
 
-`fd '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern</span>`' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
+`fd "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string|regex</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
 - Include ignored and hidden files in the search:
 
-`fd --hidden --no-ignore '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern</span>`'`
+`fd --hidden --no-ignore "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string|regex</span>`"`
 
 - Execute a command on each search result returned:
 
-`fd '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern</span>`' --exec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
+`fd "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string|regex</span>`" --exec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
