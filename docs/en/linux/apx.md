@@ -2,41 +2,43 @@
 layout: page
 title: linux/apx (English)
 description: "Package management utility for Vanilla OS."
-content_hash: 6fe298a0007285fc57a550fc7aca03e9d5be5c60
+content_hash: 7b22baa50417106a01c28bf413c26ef7b0795cf3
+last_modified_at: 2022-12-13
+related_topics:
+  - title: தமிழ் version
+    url: /ta/linux/apx.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># apx
+# apx
 
 Package management utility for Vanilla OS.
-Install packages inside managed containers or directly inside the host.
+Install packages inside managed containers from multiple sources (`apx` supports --aur,--dnf flags in all commands).
 More information: <https://github.com/Vanilla-OS/apx>.
 
-- Install a package in the system and initialize the container:
+- Initialize the container:
 
-`sudo apx install --sys `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>` && apx init`
+`apx init`
 
-- Install package(s) in the system or install AUR package(s) inside a container:
+- Install specific packages in the container:
 
-`sudo apx install --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sys|aur</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 ...</span>
+`apx install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 ...</span>
 
-- Run an installed package from AUR:
+- Remove specific packages from the container:
 
-`apx --aur run `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
+`apx remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 ...</span>
 
-- Update the list of available packages in the system:
+- Search for specific packages:
 
-`sudo apx --sys update`
+`apx search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 ...</span>
 
-- Upgrade all installed packages in the system to their newest available version:
-
-`sudo apx --sys upgrade`
-
-- Remove package(s) in the system or from the AUR container:
-
-`sudo apx --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sys|aur</span>` remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 ...</span>
-
-- Enter the container to install packages using `apt` (Use `exit` inside the container to exit it):
+- Enter the managed container shell to execute commands (type `exit` to exit the container):
 
 `apx enter`
+
+- Update the list of available packages in the container:
+
+`apx update`
+
+- Upgrade all installed packages in the container to their newest available version:
+
+`apx upgrade`
