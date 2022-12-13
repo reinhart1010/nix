@@ -2,7 +2,8 @@
 layout: page
 title: common/gunzip (English)
 description: "Extract file(s) from a gzip (.gz) archive."
-content_hash: 726ac2ff096a73c7bfb03360b9a0b67dfb80b45b
+content_hash: d65e3ffa1b464a44028c014c072f6444661fd6b1
+last_modified_at: 2022-12-13
 ---
 # gunzip
 
@@ -24,3 +25,7 @@ More information: <https://manned.org/gunzip>.
 - List the contents of a compressed file:
 
 `gunzip --list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.txt.gz</span>
+
+- Decompress an archive from `stdin`:
+
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.gz</span>` | gunzip`
