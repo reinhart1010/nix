@@ -1,9 +1,13 @@
 ---
 layout: page
 title: common/touch (English)
-description: "Change a file access and modification times (atime, mtime)."
-content_hash: ae695fb98255c971db8d85898cb5e83cab2f4aca
+description: "Create files and set access/modification times."
+content_hash: 530c8cedbf62f052269f89bc4bef74b5db164ecf
+last_modified_at: 2022-12-15
 related_topics:
+  - title: català version
+    url: /ca/common/touch.html
+    icon: bi bi-globe
   - title: español version
     url: /es/common/touch.html
     icon: bi bi-globe
@@ -25,25 +29,21 @@ related_topics:
 ---
 # touch
 
-Change a file access and modification times (atime, mtime).
-More information: <https://www.gnu.org/software/coreutils/touch>.
+Create files and set access/modification times.
+More information: <https://manned.org/man/freebsd-13.1/touch>.
 
-- Create a new empty file(s) or change the times for existing file(s) to current time:
+- Create specific files:
 
-`touch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`touch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
-- Set the times on a file to a specific date and time:
+- Set the file [a]ccess or [m]odification times to the current one and don't [c]reate file if it doesn't exist:
 
-`touch -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYYMMDDHHMM.SS</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`touch -c -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">a|m</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
-- Set the time on a file to one hour in the past:
+- Set the file [t]ime to a specific value and don't [c]reate file if it doesn't exist:
 
-`touch -d "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-1 hour</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`touch -c -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYYMMDDHHMM.SS</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
-- Use the times from a file to set the times on a second file:
+- Set the file time of a specific file to the time of anothe[r] file and don't [c]reate file if it doesn't exist:
 
-`touch -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>
-
-- Create multiple files:
-
-`touch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file{1,2,3}.txt</span>
+`touch -c -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.emacs</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
