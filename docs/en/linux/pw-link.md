@@ -2,19 +2,21 @@
 layout: page
 title: linux/pw-link (English)
 description: "Manage links between ports in PipeWire."
-content_hash: 173e300bb6258596ba9c521d42db4b9e136d9bc0
+content_hash: 1ee2b062bbb43cc98ec1ab874ac3769faecaa4c9
+last_modified_at: 2022-12-16
+related_topics:
+  - title: Türkçe version
+    url: /tr/linux/pw-link.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pw-link
+# pw-link
 
 Manage links between ports in PipeWire.
 More information: <https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-Devices>.
 
 - List all audio output and input ports:
 
-`pw-link --output --input'`
+`pw-link --output --input`
 
 - Create a link between an output and an input port:
 
