@@ -2,7 +2,8 @@
 layout: page
 title: common/bzip2 (English)
 description: "A block-sorting file compressor."
-content_hash: 5ed55b45e00bc23eea8a3d7beafbbd27b124a9dd
+content_hash: 9931389909c6a8937a7a361ba95ab4a349555f09
+last_modified_at: 2022-12-19
 related_topics:
   - title: italiano version
     url: /it/common/bzip2.html
@@ -17,7 +18,7 @@ related_topics:
 # bzip2
 
 A block-sorting file compressor.
-More information: <http://bzip.org>.
+More information: <https://manned.org/bzip2>.
 
 - Compress a file:
 
@@ -30,3 +31,19 @@ More information: <http://bzip.org>.
 - Decompress a file to standard output:
 
 `bzip2 -dc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed_file.bz2</span>
+
+- Test the integrity of each file inside the archive file:
+
+`bzip2 --test `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed_file.bz2</span>
+
+- Show the compression ratio for each file processed with detailed information:
+
+`bzip2 --verbose `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed_files.bz2</span>
+
+- Decompress a file overwriting existing files:
+
+`bzip2 --force `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed_file.bz2</span>
+
+- Display help:
+
+`bzip2 -h`
