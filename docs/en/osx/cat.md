@@ -1,60 +1,17 @@
 ---
 layout: page
-title: common/cat (English)
+title: osx/cat (English)
 description: "Print and concatenate files."
-content_hash: 8589e15b03025951639932ffa57b29b1610d89da
+content_hash: 6a4fe595b5a7dd9dc59e126aabdb3b2834b787ea
 last_modified_at: 2022-12-21
-related_topics:
-  - title: Deutsch version
-    url: /de/common/cat.html
-    icon: bi bi-globe
-  - title: español version
-    url: /es/common/cat.html
-    icon: bi bi-globe
-  - title: فارسی version
-    url: /fa/common/cat.html
-    icon: bi bi-globe
-  - title: français version
-    url: /fr/common/cat.html
-    icon: bi bi-globe
-  - title: हिन्दी version
-    url: /hi/common/cat.html
-    icon: bi bi-globe
-  - title: Indonesia version
-    url: /id/common/cat.html
-    icon: bi bi-globe
-  - title: italiano version
-    url: /it/common/cat.html
-    icon: bi bi-globe
-  - title: 한국어 version
-    url: /ko/common/cat.html
-    icon: bi bi-globe
-  - title: नेपाली version
-    url: /ne/common/cat.html
-    icon: bi bi-globe
-  - title: norsk version
-    url: /no/common/cat.html
-    icon: bi bi-globe
-  - title: português (Brasil) version
-    url: /pt_BR/common/cat.html
-    icon: bi bi-globe
-  - title: русский version
-    url: /ru/common/cat.html
-    icon: bi bi-globe
-  - title: Türkçe version
-    url: /tr/common/cat.html
-    icon: bi bi-globe
-  - title: 中文 version
-    url: /zh/common/cat.html
-    icon: bi bi-globe
-  - title: 中文 (繁體, 台灣) version
-    url: /zh_TW/common/cat.html
-    icon: bi bi-globe
 ---
-# cat
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># cat
 
 Print and concatenate files.
-More information: <https://www.gnu.org/software/coreutils/cat>.
+More information: <https://keith.github.io/xcode-man-pages/cat.1.html>.
 
 - Print the contents of a file to the standard output:
 
@@ -75,3 +32,11 @@ More information: <https://www.gnu.org/software/coreutils/cat>.
 - Write `stdin` to a file:
 
 `cat - > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+
+- Number all output lines:
+
+`cat -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+
+- Display non-printable and whitespace characters (with `M-` prefix if non-ASCII):
+
+`cat -v -t -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
