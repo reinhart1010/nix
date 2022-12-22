@@ -2,13 +2,10 @@
 layout: page
 title: linux/qm-showcmd (English)
 description: "Show command line which is used to start the VM (debug info)."
-content_hash: c3c355bda89e15280d2a406cb9eb69dc81e17748
-last_modified_at: 2022-12-21
+content_hash: e7bf9d0e36af9b4012386f725a2eb072df7e6c86
+last_modified_at: 2022-12-22
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># qm showcmd
+# qm showcmd
 
 Show command line which is used to start the VM (debug info).
 More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
@@ -21,6 +18,6 @@ More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
 `qm showcmd --pretty `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_id</span>
 
-- Fetch config values from a given snapshot:
+- Fetch config values from a specific snapshot:
 
 `qm showcmd --snapshot `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_id</span>
