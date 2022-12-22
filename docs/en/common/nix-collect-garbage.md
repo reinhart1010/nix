@@ -2,7 +2,8 @@
 layout: page
 title: common/nix-collect-garbage (English)
 description: "Delete unused and unreachable nix store paths."
-content_hash: f54b8ef128a600dbc00cd0fc50b5b37b0f3cf605
+content_hash: c82e71e01aabfdeb8ec8635645a1a022d344b945
+last_modified_at: 2022-12-22
 ---
 # nix-collect-garbage
 
@@ -20,4 +21,4 @@ More information: <https://nixos.org/releases/nix/latest/manual/#sec-nix-collect
 
 - Delete all store paths older than 30 days:
 
-`sudo nix-collect-garbage --delete-older-than `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30d</span>
+`sudo nix-collect-garbage --delete-older-than 30d`
