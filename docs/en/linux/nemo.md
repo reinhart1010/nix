@@ -1,8 +1,9 @@
 ---
 layout: page
 title: linux/nemo (English)
-description: "File manager and graphical shell for Cinnamon."
-content_hash: 9475f942f3d9a5ccafecefcf8067567355e2e8d6
+description: "Manages files and directories in Cinnamon desktop environment."
+content_hash: d3671075141e98b967969af7a9b130774a5dd9e6
+last_modified_at: 2022-12-23
 related_topics:
   - title: മലയാളം version
     url: /ml/linux/nemo.html
@@ -10,17 +11,25 @@ related_topics:
 ---
 # nemo
 
-File manager and graphical shell for Cinnamon.
-More information: <https://github.com/linuxmint/nemo>.
+Manages files and directories in Cinnamon desktop environment.
+More information: <https://manned.org/nemo>.
 
-- Open a new window showing the user's home directory:
+- Open the current user home directory:
 
 `nemo`
 
-- Open a new window showing the current directory:
+- Open specific directories in separate windows:
 
-`nemo .`
+`nemo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1 path/to/directory2 ...</span>
 
-- Close all open nemo windows:
+- Open specific directories in tabs:
+
+`nemo --tabs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1 path/to/directory2 ...</span>
+
+- Open a directory with a specific window size:
+
+`nemo --geometry=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">600</span>`x`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">400</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
+
+- Close all windows:
 
 `nemo --quit`
