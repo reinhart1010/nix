@@ -2,7 +2,8 @@
 layout: page
 title: common/qmv (English)
 description: "Move files and directories using the default text editor to define the filenames."
-content_hash: b978973ce3bc9140e27ccd431488ffbfbb03e9a1
+content_hash: 9aa810354cdc9954f55914986309a082f51d1695
+last_modified_at: 2022-12-25
 ---
 # qmv
 
@@ -28,3 +29,7 @@ More information: <https://www.nongnu.org/renameutils/>.
 - Move files, but swap the positions of the source and the target filenames in the editor:
 
 `qmv --option swap `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.jpg</span>
+
+- Rename all files and folders in the current directory, but show only target filenames in the editor (you can think of it as a kind of simple mode):
+
+`qmv --format=do .`
