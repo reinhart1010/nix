@@ -2,9 +2,12 @@
 layout: page
 title: common/poetry (English)
 description: "Manage Python packages and dependencies."
-content_hash: 7ac503859779d41e08239d5b8c7c82b141b66f44
-last_modified_at: 2022-11-22
+content_hash: 86f5978c932c53944bee3b21222ae1f2b0b55e3c
+last_modified_at: 2022-12-27
 related_topics:
+  - title: Deutsch version
+    url: /de/common/poetry.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/poetry.html
     icon: bi bi-globe
@@ -41,7 +44,3 @@ More information: <https://python-poetry.org/docs/cli/>.
 - Bump the minor version of the project in `pyproject.toml`:
 
 `poetry version minor`
-
-- List all poetry subcommands:
-
-`poetry list`
