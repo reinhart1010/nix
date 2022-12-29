@@ -2,7 +2,8 @@
 layout: page
 title: linux/lsblk (हिन्दी)
 description: "उपकरणों के बारे में जानकारी सूचीबद्ध करता है।"
-content_hash: 2c57c58759baabeaec724189173abb7669d6844e
+content_hash: 54727a2d2f7b2816762ba2e0666b31f6e5e2711b
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/linux/lsblk.html
@@ -11,13 +12,10 @@ related_topics:
     url: /pt_BR/linux/lsblk.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># lsblk
+# lsblk
 
 उपकरणों के बारे में जानकारी सूचीबद्ध करता है।
-अधिक जानकारी: <https://manned.org/lsblk>.
+अधिक जानकारी: <https://manned.org/lsblk>।
 
 - सभी भंडारण उपकरणों को ट्री-समान प्रारूप में सूचीबद्ध करें:
 

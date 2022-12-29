@@ -2,13 +2,17 @@
 layout: page
 title: windows/choco-install (Indonesia)
 description: "Instal satu paket atau lebih dengan Chocolatey."
-content_hash: 435e1d4e4e57a074545b8c15c9ca51485db5fcc9
+content_hash: 8bbbc3e6fbb6a742ea8dac635052a80116762e3d
+last_modified_at: 2022-12-29
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-install.html
     icon: bi bi-globe
   - title: English version
     url: /en/windows/choco-install.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/windows/choco-install.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/choco-install.html
@@ -23,7 +27,7 @@ related_topics:
 # choco install
 
 Instal satu paket atau lebih dengan Chocolatey.
-Informasi lebih lanjut: <https://docs.chocolatey.org/en-us/choco/commands/install>.
+Informasi lebih lanjut: <https://chocolatey.org/docs/commands-install>.
 
 - Instal satu paket atau lebih paket yang dipisahkan oleh spasi:
 

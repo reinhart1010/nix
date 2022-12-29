@@ -1,8 +1,9 @@
 ---
 layout: page
 title: linux/ubuntu-bug (polski)
-description: "This command is an alias of `apport-bug`."
-content_hash: 2ed38a5a903b1d7e73d7779756eff1d2451660b1
+description: "To polecenie jest aliasem `apport-bug`."
+content_hash: 1ec75432b71ae7dd0d37de95333e8295585e168c
+last_modified_at: 2022-12-29
 related_topics:
   - title: català version
     url: /ca/linux/ubuntu-bug.html
@@ -14,14 +15,11 @@ related_topics:
     url: /es/linux/ubuntu-bug.html
     icon: bi bi-globe
 ---
+# ubuntu-bug
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+To polecenie jest aliasem `apport-bug`.
+Więcej informacji: <https://manned.org/ubuntu-bug>.
 
-<hr># ubuntu-bug
-
-This command is an alias of `apport-bug`.
-More information: <https://manned.org/ubuntu-bug>.
-
-- View documentation for the original command:
+- Zobacz dokumentację orginalnego polecenia:
 
 `tldr apport-bug`

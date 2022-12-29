@@ -2,20 +2,21 @@
 layout: page
 title: common/pnpm (Indonesia)
 description: "Manajer paket JavaScript dan Node.js yang cepat dan efisien."
-content_hash: 2f41e9537561b316581702804c25908709db6c87
+content_hash: 706f6e1ef2cb10e4a35349e4c6d584b818cd01d4
+last_modified_at: 2022-12-29
 related_topics:
+  - title: Deutsch version
+    url: /de/common/pnpm.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/pnpm.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pnpm
+# pnpm
 
 Manajer paket JavaScript dan Node.js yang cepat dan efisien.
 Mengelola proyek Node.js dan dependensi modulnya.
-Informasi lebih lanjut:: <https://pnpm.io>.
+Informasi lebih lanjut: <https://pnpm.io>.
 
 - Buat file `package.json` file:
 

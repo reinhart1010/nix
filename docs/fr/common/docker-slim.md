@@ -2,7 +2,8 @@
 layout: page
 title: common/docker-slim (français)
 description: "Analyser et optimiser les images Docker."
-content_hash: 2c1b4edbd1a65b24c3b78a98453711b0eaaf799d
+content_hash: 1f728d0ecec8075b0aa66a0746683fac8a65cea0
+last_modified_at: 2022-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-slim.html
@@ -11,13 +12,10 @@ related_topics:
     url: /en/common/docker-slim.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docker-slim
+# docker-slim
 
 Analyser et optimiser les images Docker.
-Plus d'informatiosn : <https://github.com/docker-slim/docker-slim>.
+Plus d'informations : <https://github.com/docker-slim/docker-slim>.
 
 - Démarrer DockerSlim en mode interactif :
 

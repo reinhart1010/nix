@@ -1,0 +1,22 @@
+---
+layout: page
+title: common/google-chrome (Türkçe)
+description: "Bu komut `chromium` için bir takma addır."
+content_hash: f7fd6eed62e4b099a27efb77f7605f0b5a4a171c
+last_modified_at: 2022-12-29
+related_topics:
+  - title: English version
+    url: /en/common/google-chrome.html
+    icon: bi bi-globe
+---
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># google-chrome
+
+Bu komut `chromium` için bir takma addır.
+Daha fazla bilgi için: <https://chrome.google.com>.
+
+- Asıl komutun belgelerini görüntüleyin:
+
+`tldr chromium`

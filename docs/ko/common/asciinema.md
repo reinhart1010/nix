@@ -2,13 +2,17 @@
 layout: page
 title: common/asciinema (한국어)
 description: "터미널 세션을 녹음하고 재생하며 선택적으로 asciinema.org에서 공유합니다."
-content_hash: 74813117ecd2fa991fad59202e61fd915d566ab9
+content_hash: fb776cd06f4e98462db2a6b6d94a76e4c485f5a9
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/common/asciinema.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/asciinema.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/asciinema.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/asciinema.html
@@ -23,7 +27,7 @@ related_topics:
 # asciinema
 
 터미널 세션을 녹음하고 재생하며 선택적으로 asciinema.org에서 공유합니다.
-더 많은 정보: <https://asciinema.org/>.
+더 많은 정보: <https://asciinema.org/docs/usage>.
 
 - `asciinema` 로컬 설치와 with an asciinema.org 계정을 연결하기:
 

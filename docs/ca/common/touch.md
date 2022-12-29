@@ -2,7 +2,8 @@
 layout: page
 title: common/touch (català)
 description: "Canvia els temps d'accés i modificació d'un fitxer (atime, ntime)."
-content_hash: c75a9b3d250f5d08d3ffefeb2e07aa914e69dbc7
+content_hash: 8f4c68cdd4cd7b9cb520b518219b55e849467e5e
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/common/touch.html
@@ -27,12 +28,18 @@ related_topics:
     icon: bi bi-globe
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/touch.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># touch
 
 Canvia els temps d'accés i modificació d'un fitxer (atime, ntime).
-Més informació: <https://www.gnu.org/software/coreutils/touch>.
+Més informació: <https://manned.org/man/freebsd-13.1/touch>.
 
 - Crea un o múltiples fitxers o canvia els temps al temps actual:
 

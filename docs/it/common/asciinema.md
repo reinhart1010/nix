@@ -2,7 +2,8 @@
 layout: page
 title: common/asciinema (italiano)
 description: "Registra e riproduci sessioni di terminale, condividendole opzionalmente su asciiname.org."
-content_hash: 0f787e09eca8587e36b702f0ec9e56ffd5140421
+content_hash: 624868d4fda61367e8e7bed395456c9c9f36412c
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/common/asciinema.html
@@ -26,7 +27,7 @@ related_topics:
 # asciinema
 
 Registra e riproduci sessioni di terminale, condividendole opzionalmente su asciiname.org.
-Maggiori informazioni: <https://asciinema.org/>.
+Maggiori informazioni: <https://asciinema.org/docs/usage>.
 
 - Associa l'installazione locale di `asciiname` ad un account di asciiname.org:
 

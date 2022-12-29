@@ -2,19 +2,17 @@
 layout: page
 title: linux/dex (français)
 description: "DesktopEntry Execution est un programme servant à générer et à exécuter des fichiers DesktopEntry de type Application"
-content_hash: 8c99742cf75eefbb6b838031af4700dfd6f5317c
+content_hash: d7c65058ec053632655b631e75f6cfd63865845c
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/linux/dex.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dex
+# dex
 
 DesktopEntry Execution est un programme servant à générer et à exécuter des fichiers DesktopEntry de type Application
-Plus d'information : <https://github.com/jceb/dex>.
+Plus d'informations : <https://github.com/jceb/dex>.
 
 - Exécute tous les programmes dans les dossiers de démarrage automatique :
 

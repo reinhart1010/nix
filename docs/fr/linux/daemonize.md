@@ -2,7 +2,8 @@
 layout: page
 title: linux/daemonize (français)
 description: "Lance une commande (qui ne se \"démonise\" pas elle-même) comme démon UNIX."
-content_hash: 64930404d8a0dd137d98944cc231472020dab1cd
+content_hash: b64396f9dfdcd29c8c502ac87f7325812617791b
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/linux/daemonize.html
@@ -11,7 +12,7 @@ related_topics:
 # daemonize
 
 Lance une commande (qui ne se "démonise" pas elle-même) comme démon UNIX.
-Plus d'informations : <https://software.clapper.org/daemonize/>.
+Plus d'informations : <http://software.clapper.org/daemonize/>.
 
 - Lance une commande comme démon :
 

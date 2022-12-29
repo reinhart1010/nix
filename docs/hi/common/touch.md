@@ -2,8 +2,12 @@
 layout: page
 title: common/touch (हिन्दी)
 description: "एक फ़ाइल का उपयोग और संशोधन समय (atime, mtime) बदलें।"
-content_hash: c431e908bfd2bb1b0ef875a4331b00b91940f927
+content_hash: e3b372727176ed1e5541122cd2ff2f96b1da2e41
+last_modified_at: 2022-12-29
 related_topics:
+  - title: català version
+    url: /ca/common/touch.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/touch.html
     icon: bi bi-globe
@@ -35,7 +39,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># touch
 
 एक फ़ाइल का उपयोग और संशोधन समय (atime, mtime) बदलें।
-अधिक जानकारी: <https://www.gnu.org/software/coreutils/touch>।
+अधिक जानकारी: <https://manned.org/man/freebsd-13.1/touch>।
 
 - एक नई खाली फ़ाइल बनाएं (मौजूदा फ़ाइल के लिए समय बदल दें):
 

@@ -2,7 +2,8 @@
 layout: page
 title: common/dotnet (中文 (繁體, 台灣))
 description: "適用於 .NET Core 的跨平台 .NET 命令列工具。"
-content_hash: 85a313a421d4990576f45d9ffa31ded7991ae4cf
+content_hash: ae858d2e5484e779e8c50f9f9872af606e0a517b
+last_modified_at: 2022-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/dotnet.html
@@ -30,7 +31,7 @@ related_topics:
 
 適用於 .NET Core 的跨平台 .NET 命令列工具。
 此命令也有關於其子命令的文件，例如：`dotnet build`.
-更多資訊：<https://learn.microsoft.com/dotnet/core/tools/>.
+更多資訊：<https://learn.microsoft.com/dotnet/core/tools>.
 
 - 初始化一個新的 .NET 專案：
 

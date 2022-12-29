@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco-list (தமிழ்)
 description: "சாக்லேட்டியுடன் ஒன்று அல்லது அதற்கு மேற்பட்ட தொகுப்புகளை நிறுவவும்."
-content_hash: cc6f080e7e1feb7e253652601e0e1e88528aa066
-last_modified_at: 2022-12-03
+content_hash: b0bbe8192ea93c5fcc43013dd41f323c69daff70
+last_modified_at: 2022-12-29
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-list.html
@@ -24,7 +24,7 @@ related_topics:
 # choco list
 
 சாக்லேட்டியுடன் ஒன்று அல்லது அதற்கு மேற்பட்ட தொகுப்புகளை நிறுவவும்.
-மேலும் விவரத்திற்கு: <https://chocolatey.org/docs/commands-install>.
+மேலும் விவரத்திற்கு: <https://chocolatey.org/docs/commands-list>.
 
 - கிடைக்கக்கூடிய அனைத்து தொகுப்புகளையும் காண்பி:
 

@@ -2,7 +2,8 @@
 layout: page
 title: common/mosquitto (português (Brasil))
 description: "Um broker de MQTT."
-content_hash: 09457a944048b941f569677c14eb8406bea1109e
+content_hash: 3b8ada9c3dc6981cebc0e08398826043b83bec09
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/common/mosquitto.html
@@ -11,7 +12,7 @@ related_topics:
 # mosquitto
 
 Um broker de MQTT.
-Mais informaçōes: <https://mosquitto.org/>.
+Mais informações: <https://mosquitto.org/>.
 
 - Inicia mosquitto:
 

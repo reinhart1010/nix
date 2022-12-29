@@ -2,7 +2,8 @@
 layout: page
 title: common/touch (español)
 description: "Cambia el tiempo de accesso y modificación de un archivo (atime, mtime)."
-content_hash: a77864beb995a34182921a91c07316c0af19d382
+content_hash: 852e254a091d1f59c1d9504f366ccd700a29c4eb
+last_modified_at: 2022-12-29
 related_topics:
   - title: català version
     url: /ca/common/touch.html
@@ -38,7 +39,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># touch
 
 Cambia el tiempo de accesso y modificación de un archivo (atime, mtime).
-Más información: <https://www.gnu.org/software/coreutils/touch>.
+Más información: <https://manned.org/man/freebsd-13.1/touch>.
 
 - Crea un archivo nuevo o cambia los tiempos de archivos existentes al tiempo actual:
 

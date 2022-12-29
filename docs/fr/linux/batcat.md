@@ -2,7 +2,8 @@
 layout: page
 title: linux/batcat (français)
 description: "Cette commande est un alias de `bat`."
-content_hash: 9b65b6ec8069123b584283921e3c4b527b23ae40
+content_hash: fc512a4d1a99cc0093fe9b3da6ad7850208ddbd4
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/linux/batcat.html
@@ -14,13 +15,10 @@ related_topics:
     url: /pt_BR/linux/batcat.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># batcat
+# batcat
 
 Cette commande est un alias de `bat`.
-Plus d'information : <https://github.com/sharkdp/bat>.
+Plus d'informations : <https://github.com/sharkdp/bat>.
 
 - Voir la documentation de la commande originale :
 

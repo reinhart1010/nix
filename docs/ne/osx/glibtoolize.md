@@ -1,0 +1,21 @@
+---
+layout: page
+title: osx/glibtoolize (नेपाली)
+description: "यो आदेश `-p linux libtoolize` को उपनाम हो |"
+content_hash: 790d8f1ef630c2d258abf9ff97a83ea4226a9a79
+last_modified_at: 2022-12-29
+related_topics:
+  - title: English version
+    url: /en/osx/glibtoolize.html
+    icon: bi bi-globe
+---
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># glibtoolize
+
+यो आदेश `-p linux libtoolize` को उपनाम हो |
+
+- मौलिक आदेशको लागि कागजात हेर्नुहोस्:
+
+`tldr -p linux libtoolize`

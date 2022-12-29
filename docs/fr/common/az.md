@@ -2,7 +2,8 @@
 layout: page
 title: common/az (français)
 description: "La CLI officielle de Microsoft Azure."
-content_hash: 7f4ad4f1327ff4621d17757ad70856f2098b8c36
+content_hash: 7671e2f83a37761776451cb9de549b8710666bb9
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/common/az.html
@@ -24,7 +25,7 @@ related_topics:
 
 La CLI officielle de Microsoft Azure.
 Certaines commandes comme `az login` ont leur propre documentation.
-Plus d'informations : <https://learn.microsoft.com/cli/azure/>.
+Plus d'informations : <https://learn.microsoft.com/cli/azure>.
 
 - Connexion à Azure :
 

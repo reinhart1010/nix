@@ -2,7 +2,8 @@
 layout: page
 title: linux/acpi (português (Brasil))
 description: "Exibe status da bateria ou informações térmicas."
-content_hash: 2218d74621e1bee353512ef25907853486011351
+content_hash: dd6cd3ce5f2b8f7095d67e0c316040a17edc8336
+last_modified_at: 2022-12-29
 related_topics:
   - title: català version
     url: /ca/linux/acpi.html
@@ -23,13 +24,10 @@ related_topics:
     url: /zh/linux/acpi.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># acpi
+# acpi
 
 Exibe status da bateria ou informações térmicas.
-Mais informação: <https://sourceforge.net/projects/acpiclient/files/acpiclient/>.
+Mais informações: <https://sourceforge.net/projects/acpiclient/files/acpiclient/>.
 
 - Exibe informações sobre a bateria:
 

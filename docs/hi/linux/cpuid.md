@@ -2,7 +2,8 @@
 layout: page
 title: linux/cpuid (हिन्दी)
 description: "सभी सीपीयू के बारे में विस्तृत जानकारी दिखाएं।"
-content_hash: e732bc82c475ff1e52a2155a6a56f795f5d0cdd2
+content_hash: f1babb0852968b0f3ae7a48b4e39677dec7f511e
+last_modified_at: 2022-12-29
 related_topics:
   - title: català version
     url: /ca/linux/cpuid.html
@@ -20,13 +21,10 @@ related_topics:
     url: /zh/linux/cpuid.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cpuid
+# cpuid
 
 सभी सीपीयू के बारे में विस्तृत जानकारी दिखाएं।
-अधिक जानकारी: <http://etallen.com/cpuid.html>.
+अधिक जानकारी: <http://etallen.com/cpuid.html>।
 
 - सभी CPU के लिए जानकारी दिखाएं:
 

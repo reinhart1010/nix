@@ -2,7 +2,8 @@
 layout: page
 title: sunos/truss (français)
 description: "Outil de dépannage pour tracer les appels système."
-content_hash: dbea8acb0a6cf9fe0bdeb81a909e99e1af0bdc7d
+content_hash: 5a378ec371d65c1dcda65024a1120c664035fd56
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/sunos/truss.html
@@ -17,14 +18,11 @@ related_topics:
     url: /tr/sunos/truss.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># truss
+# truss
 
 Outil de dépannage pour tracer les appels système.
 Équivalent SunOS de strace.
-Plus d'information : <https://www.unix.com/man-page/linux/1/truss>.
+Plus d'informations : <https://www.unix.com/man-page/linux/1/truss>.
 
 - Commencez à tracer un programme en l'exécutant, en suivant tous les processus enfants :
 

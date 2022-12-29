@@ -2,16 +2,26 @@
 layout: page
 title: linux/konsole (中文)
 description: "Konsole: KDE 终端模拟器。"
-content_hash: 433ac9ab80f27298a2d9fa325c4a6d43c1ec097b
+content_hash: 9ba86394888d69b5f23a00e919735b2b84515320
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/linux/konsole.html
     icon: bi bi-globe
 ---
-# konsole
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/linux/konsole.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># konsole
 
 Konsole: KDE 终端模拟器。
-更多信息：<https://konsole.kde.org>.
+更多信息：<https://docs.kde.org/trunk5/en/konsole/konsole/command-line-options.html>.
 
 - 在特定目录中打开一个新的 Konsole：
 

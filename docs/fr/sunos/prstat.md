@@ -2,7 +2,8 @@
 layout: page
 title: sunos/prstat (français)
 description: "Signaler les statistiques de processus actifs."
-content_hash: c690d529781747a09f9b9797aa86c8c2ee5c5a40
+content_hash: 4f26c6757057650230ee55972e11b079f251dd4b
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/sunos/prstat.html
@@ -17,13 +18,10 @@ related_topics:
     url: /tr/sunos/prstat.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># prstat
+# prstat
 
 Signaler les statistiques de processus actifs.
-Plus d'information : <https://www.unix.com/man-page/sunos/1m/prstat>.
+Plus d'informations : <https://www.unix.com/man-page/sunos/1m/prstat>.
 
 - Examinez tous les processus et rapportez les statistiques triées par utilisation du processeur :
 

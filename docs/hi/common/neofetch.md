@@ -2,7 +2,8 @@
 layout: page
 title: common/neofetch (हिन्दी)
 description: "आपके ऑपरेटिंग सिस्टम, सॉफ्टवेयर और हार्डवेयर के बारे में जानकारी प्रदर्शित करने के लिए CLI टूल।"
-content_hash: 4685919355f6cacc4e8972778d35001dc8e6cc28
+content_hash: 2e53c50af57e18a9c281862d9c4219acd458d3e9
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/common/neofetch.html
@@ -14,13 +15,10 @@ related_topics:
     url: /pt_BR/common/neofetch.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># neofetch
+# neofetch
 
 आपके ऑपरेटिंग सिस्टम, सॉफ्टवेयर और हार्डवेयर के बारे में जानकारी प्रदर्शित करने के लिए CLI टूल।
-अधिक जानकारी: <https://github.com/dylanaraps/neofetch>.
+अधिक जानकारी: <https://github.com/dylanaraps/neofetch>।
 
 - डिफ़ॉल्ट कॉन्फ़िगरेशन लौटाएं, और इसे बनाएं यदि यह पहली बार प्रोग्राम चलता है:
 

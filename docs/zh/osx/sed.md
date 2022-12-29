@@ -2,7 +2,8 @@
 layout: page
 title: osx/sed (中文)
 description: "以可用脚本的来批量编辑文本。"
-content_hash: a54844958fb4c0bf3ad33c183caccb8ecccfe299
+content_hash: d31baabe9b3c3abf2d8b09ca8e0edba1144e2724
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/osx/sed.html
@@ -20,7 +21,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># sed
 
 以可用脚本的来批量编辑文本。
-更多信息：<https://ss64.com/osx/sed.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/sed.1.html>.
 
 - 替换文件中第一个出现的字符串，并打印结果：
 

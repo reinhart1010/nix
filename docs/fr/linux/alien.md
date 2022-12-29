@@ -2,7 +2,8 @@
 layout: page
 title: linux/alien (français)
 description: "Convertit différents paquets d'installation vers d'autres formats :"
-content_hash: 7bce6e5995ddafd36f3f31f84664b2792ffcffa9
+content_hash: 1e089afc5c8c78fdcede3f68c630131a03cd05ef
+last_modified_at: 2022-12-29
 related_topics:
   - title: Deutsch version
     url: /de/linux/alien.html
@@ -17,13 +18,10 @@ related_topics:
     url: /ta/linux/alien.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># alien
+# alien
 
 Convertit différents paquets d'installation vers d'autres formats :
-Plus d'information : <https://manned.org/alien>.
+Plus d'informations : <https://manned.org/alien>.
 
 - Convertit un fichier d'installation spécifique vers le format Debian (extension `.deb`) :
 

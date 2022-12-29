@@ -2,8 +2,8 @@
 layout: page
 title: common/curl (français)
 description: "Transfère des données depuis ou vers un serveur."
-content_hash: c9cfc53f69036c8d73f009d999a3a1eb3845bec1
-last_modified_at: 2022-11-22
+content_hash: 5ebb8a9366f7c31cd27ff39bb9157c14ae4ba3c9
+last_modified_at: 2022-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/curl.html
@@ -34,7 +34,7 @@ related_topics:
 
 Transfère des données depuis ou vers un serveur.
 Accepte la plupart des protocoles, notamment HTTP, FTP et POP3.
-Plus d'informations : <https://curl.se/docs/manpage.html>.
+Plus d'informations : <https://curl.se>.
 
 - Télécharger le contenu d'une URL dans un fichier :
 

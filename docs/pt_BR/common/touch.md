@@ -2,7 +2,8 @@
 layout: page
 title: common/touch (português (Brasil))
 description: "Alterar os timestamps de acesso e de modificação (atime, mtime) de um arquivo."
-content_hash: d08d95ffc7a3e7aa0376af6a9959ef77e07d288e
+content_hash: cb3943b41cd7774fb3bc60376799587420664542
+last_modified_at: 2022-12-29
 related_topics:
   - title: català version
     url: /ca/common/touch.html
@@ -38,7 +39,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># touch
 
 Alterar os timestamps de acesso e de modificação (atime, mtime) de um arquivo.
-Mais informações: <https://www.gnu.org/software/coreutils/touch>.
+Mais informações: <https://manned.org/man/freebsd-13.1/touch>.
 
 - Criar novo(s) arquivo(s) vazio(s) ou alterar os timestamps do(s) arquivo(s) para o timestamp atual:
 

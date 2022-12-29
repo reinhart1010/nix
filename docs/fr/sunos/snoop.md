@@ -2,7 +2,8 @@
 layout: page
 title: sunos/snoop (français)
 description: "Renifleur de paquets réseau."
-content_hash: 1fdd31babd6bc7d40db331e26a844116cb5bd45f
+content_hash: ea04f83e566584d25a2106e55f5ba48979686d0f
+last_modified_at: 2022-12-29
 related_topics:
   - title: বাংলা version
     url: /bn/sunos/snoop.html
@@ -20,14 +21,11 @@ related_topics:
     url: /tr/sunos/snoop.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># snoop
+# snoop
 
 Renifleur de paquets réseau.
 Équivalent SunOS de tcpdump.
-Plus d'information : <https://www.unix.com/man-page/sunos/1m/snoop>.
+Plus d'informations : <https://www.unix.com/man-page/sunos/1m/snoop>.
 
 - Capturer des paquets sur une interface réseau spécifique :
 

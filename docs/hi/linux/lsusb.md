@@ -2,7 +2,8 @@
 layout: page
 title: linux/lsusb (हिन्दी)
 description: "यूएसबी बसों और उनसे जुड़े उपकरणों के बारे में जानकारी प्रदर्शित करें।"
-content_hash: 1055e456ba2f4142df814b647d50434cea26de6d
+content_hash: 3f89bb99464a22da19cd24630fa4eb495a62c9fb
+last_modified_at: 2022-12-29
 related_topics:
   - title: català version
     url: /ca/linux/lsusb.html
@@ -17,13 +18,10 @@ related_topics:
     url: /it/linux/lsusb.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># lsusb
+# lsusb
 
 यूएसबी बसों और उनसे जुड़े उपकरणों के बारे में जानकारी प्रदर्शित करें।
-अधिक जानकारी: <https://manned.org/lsusb>.
+अधिक जानकारी: <https://manned.org/lsusb>।
 
 - उपलब्ध सभी USB उपकरणों की सूची बनाएं:
 

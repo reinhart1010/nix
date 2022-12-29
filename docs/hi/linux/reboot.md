@@ -2,7 +2,8 @@
 layout: page
 title: linux/reboot (हिन्दी)
 description: "मशीन को `reboot` करें"
-content_hash: 1f393df2f70a16675343c10c7b003c105ad36ab0
+content_hash: 2f15f95f269c811cacc50609e41ee38da910053c
+last_modified_at: 2022-12-29
 related_topics:
   - title: català version
     url: /ca/linux/reboot.html
@@ -19,6 +20,9 @@ related_topics:
   - title: Indonesia version
     url: /id/linux/reboot.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/reboot.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/reboot.html
     icon: bi bi-globe
@@ -26,7 +30,7 @@ related_topics:
 # reboot
 
 मशीन को `reboot` करें
-अधिक जानकारी: <https://manned.org/reboot.8>.
+अधिक जानकारी: <https://manned.org/reboot.8>।
 
 - तुरंत पुनरारंभ करें:
 

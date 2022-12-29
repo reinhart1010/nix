@@ -2,7 +2,8 @@
 layout: page
 title: linux/a2query (Türkçe)
 description: "Apache ve Debian tabanlı işletim sistemlerinde çalışma süresi yapılandırmasını kurtar."
-content_hash: 5e431c90344850190f006126ca1bff6bb3ef996c
+content_hash: 5795b802d83777c925397294b50161b3eb322d53
+last_modified_at: 2022-12-29
 related_topics:
   - title: català version
     url: /ca/linux/a2query.html
@@ -29,13 +30,10 @@ related_topics:
     url: /zh/linux/a2query.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># a2query
+# a2query
 
 Apache ve Debian tabanlı işletim sistemlerinde çalışma süresi yapılandırmasını kurtar.
-Daha fazla bilgi için: <https://manpages.debian.org/buster/apache2/a2query.1.en.html>.
+Daha fazla bilgi için: <https://manpages.debian.org/latest/apache2/a2query.html>.
 
 - Etkinleştirilmiş Apache modüllerini sırala:
 

@@ -2,7 +2,8 @@
 layout: page
 title: common/asciinema (español)
 description: "Graba y reproduce sesiones de terminal, y opcionalmente compártelas en asciinema.org."
-content_hash: 7133512459f39d1df6dbf4fb374bc17141689072
+content_hash: 7c2559a031aba09f65c7aec276e7d2f26603ac54
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/common/asciinema.html
@@ -26,7 +27,7 @@ related_topics:
 # asciinema
 
 Graba y reproduce sesiones de terminal, y opcionalmente compártelas en asciinema.org.
-Más información: <https://asciinema.org/>.
+Más información: <https://asciinema.org/docs/usage>.
 
 - Asocia el programa local de `asciinema` con una cuenta de asciinema.org:
 

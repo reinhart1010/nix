@@ -2,7 +2,8 @@
 layout: page
 title: linux/reset (हिन्दी)
 description: "वर्तमान टर्मिनल को `reset` करें। संपूर्ण टर्मिनल स्क्रीन को साफ़ करता है।"
-content_hash: 776c1fc9a209c846d84afe0c067b6905365be729
+content_hash: c4d5cc6e27992b2a2ae72d48b6194d443379b919
+last_modified_at: 2022-12-29
 related_topics:
   - title: català version
     url: /ca/linux/reset.html
@@ -13,14 +14,14 @@ related_topics:
   - title: español version
     url: /es/linux/reset.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/reset.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># reset
+# reset
 
 वर्तमान टर्मिनल को `reset` करें। संपूर्ण टर्मिनल स्क्रीन को साफ़ करता है।
-अधिक जानकारी: <https://manned.org/reset>.
+अधिक जानकारी: <https://manned.org/reset>।
 
 - वर्तमान टर्मिनल को `reset` करें:
 

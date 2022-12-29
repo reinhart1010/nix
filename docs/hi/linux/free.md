@@ -2,7 +2,8 @@
 layout: page
 title: linux/free (हिन्दी)
 description: "सिस्टम में 'Free' और यूज्ड मेमोरी की मात्रा दिखाता है।"
-content_hash: 51807d2f629eda5f8644123ebd323eb12b2d7d72
+content_hash: 0266e777b10c4adcdba66e7ccac301c4b3b77015
+last_modified_at: 2022-12-29
 related_topics:
   - title: català version
     url: /ca/linux/free.html
@@ -17,13 +18,10 @@ related_topics:
     url: /pt_BR/linux/free.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># free
+# free
 
 सिस्टम में 'Free' और यूज्ड मेमोरी की मात्रा दिखाता है।
-अधिक जानकारी: <https://manned.org/free>.
+अधिक जानकारी: <https://manned.org/free>।
 
 - सिस्टम मेमोरी दिखाएं:
 

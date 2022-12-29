@@ -2,10 +2,14 @@
 layout: page
 title: windows/cls (ລາວ)
 description: "ລ້າງຕົວອັກສອນທັງໝົດເທິງໜ້າຈໍ"
-content_hash: b74708b1f394b69c572251b47e8b23b861f5d99b
+content_hash: 7f70b1e300e481495ceccf53121a419de6690ba2
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/windows/cls.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/windows/cls.html
     icon: bi bi-globe
   - title: فارسی version
     url: /fa/windows/cls.html
@@ -35,7 +39,7 @@ related_topics:
 # cls
 
 ລ້າງຕົວອັກສອນທັງໝົດເທິງໜ້າຈໍ
-ຂໍ້ມູນເພີ່ມເຕີມ: https://learn.microsoft.com/windows-server/administration/windows-commands/cls
+ຂໍ້ມູນເພີ່ມເຕີມ: <https://learn.microsoft.com/windows-server/administration/windows-commands/cls>.
 
 - ລ້າງຕົວອັກສອນທັງໝົດເທິງໜ້າຈໍ
 

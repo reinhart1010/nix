@@ -2,7 +2,8 @@
 layout: page
 title: common/docker-machine (français)
 description: "Créer et gérer des machines qui exécutent Docker."
-content_hash: ff52c31bc0af8dfe2d42b617be498e81030cd69d
+content_hash: 5d1ab9a0bb98588dfb75b73ef4ba4cc8b653cded
+last_modified_at: 2022-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-machine.html
@@ -20,13 +21,10 @@ related_topics:
     url: /tr/common/docker-machine.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docker-machine
+# docker-machine
 
 Créer et gérer des machines qui exécutent Docker.
-Plus d'informations: <https://docs.docker.com/machine/reference/>.
+Plus d'informations : <https://docs.docker.com/machine/reference/>.
 
 - Lister les machines Docker actuellement en cours d'exécution:
 

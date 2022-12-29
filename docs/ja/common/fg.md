@@ -2,7 +2,8 @@
 layout: page
 title: common/fg (日本語)
 description: "フォアグラウンドでジョブを実行する。"
-content_hash: c7a99323533078ff429fcc530e5f5dc2a9eda07a
+content_hash: 24bfa41de850e0e24e6a5a783e2ef7fb69d14cdf
+last_modified_at: 2022-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/fg.html
@@ -23,7 +24,7 @@ related_topics:
 # fg
 
 フォアグラウンドでジョブを実行する。
-詳しくはこちら: <https://manned.org/fg>.
+詳しくはこちら: <https://manned.org/fg>
 
 - 最も最近に停止されたジョブまたはバックグラウンドジョブをフォアグラウンドで実行する:
 

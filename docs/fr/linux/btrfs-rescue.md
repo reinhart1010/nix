@@ -2,7 +2,8 @@
 layout: page
 title: linux/btrfs-rescue (français)
 description: "Essayer de récupérer un système de fichiers btrfs endommagé."
-content_hash: 9072ea72dd10017d0580ce5ad5d2abccbfae2915
+content_hash: 1a2cb1272b8f0f442a8ce08e4b720236e9664f68
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/linux/btrfs-rescue.html
@@ -14,7 +15,7 @@ related_topics:
 # btrfs rescue
 
 Essayer de récupérer un système de fichiers btrfs endommagé.
-Plus d'informations : <https://btrfs.readthedocs.io/en/latest/btrfs-rescue.html>.
+Plus d'informations : <https://btrfs.readthedocs.io/en/latest/btrfs-rescue.html>.
 
 - Reconstruire les méta-données du système de fichiers (très lent) :
 

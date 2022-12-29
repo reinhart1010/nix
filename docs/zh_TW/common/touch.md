@@ -2,8 +2,12 @@
 layout: page
 title: common/touch (中文 (繁體, 台灣))
 description: "改變檔案的存取與修改時間。"
-content_hash: de99c8bedafb9af82a34cf7af0de894b4abc3721
+content_hash: 0cbc074ece9622abbfc29b55be33f64222018eac
+last_modified_at: 2022-12-29
 related_topics:
+  - title: català version
+    url: /ca/common/touch.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/touch.html
     icon: bi bi-globe
@@ -35,7 +39,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># touch
 
 改變檔案的存取與修改時間。
-更多資訊：<https://www.gnu.org/software/coreutils/touch>.
+更多資訊：<https://manned.org/man/freebsd-13.1/touch>.
 
 - 建立新檔案，或更新現存檔案的存取與修改時間：
 

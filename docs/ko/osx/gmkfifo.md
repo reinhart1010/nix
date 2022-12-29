@@ -1,0 +1,21 @@
+---
+layout: page
+title: osx/gmkfifo (한국어)
+description: "이 명령은 `-p linux mkfifo` 의 에일리어스 (별칭) 입니다."
+content_hash: 9b1c5b879328863a0e2c5ac9eec7964e6e292b25
+last_modified_at: 2022-12-29
+related_topics:
+  - title: English version
+    url: /en/osx/gmkfifo.html
+    icon: bi bi-globe
+---
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># gmkfifo
+
+이 명령은 `-p linux mkfifo` 의 에일리어스 (별칭) 입니다.
+
+- 원본 명령의 도큐멘테이션 (설명서) 보기:
+
+`tldr -p linux mkfifo`

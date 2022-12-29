@@ -2,7 +2,8 @@
 layout: page
 title: common/wget (हिन्दी)
 description: "वेब से फ़ाइलें डाउनलोड करें।"
-content_hash: cff9822554c4c74c1a8d23e157eddb75cdee6abd
+content_hash: fad8b717fa8556193523dc6823ec07d69df5856d
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/common/wget.html
@@ -17,14 +18,11 @@ related_topics:
     url: /zh/common/wget.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># wget
+# wget
 
 वेब से फ़ाइलें डाउनलोड करें।
 HTTP, HTTPS और FTP का समर्थन करता है।
-अधिक जानकारी: <https://www.gnu.org/software/wget>.
+अधिक जानकारी: <https://www.gnu.org/software/wget>।
 
 - किसी फ़ाइल में URL की अंतर्वस्तु डाउनलोड करें (इस मामले में "foo" नाम दिया गया है):
 

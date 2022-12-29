@@ -2,7 +2,8 @@
 layout: page
 title: linux/btrfs-device (français)
 description: "Gestion des partitions dans un système de fichiers BTRFS."
-content_hash: 5c699c94a1762b4046748974ac608310c2156cea
+content_hash: 2591066ac7cb8b0e85eb5c5b8dc9c8076c8d72ae
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/linux/btrfs-device.html
@@ -17,7 +18,7 @@ related_topics:
 # btrfs device
 
 Gestion des partitions dans un système de fichiers BTRFS.
-Plus d'information : <https://btrfs.readthedocs.io/en/latest/btrfs-device.html>.
+Plus d'informations : <https://btrfs.readthedocs.io/en/latest/btrfs-device.html>.
 
 - Ajouter un ou plusieurs périphériques à un système de fichiers btrfs :
 

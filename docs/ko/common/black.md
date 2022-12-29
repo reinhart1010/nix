@@ -2,7 +2,8 @@
 layout: page
 title: common/black (한국어)
 description: "Python 자동 코드 formatter."
-content_hash: 8ac0f7a38ac5b628f80a408b7f617c142b764af1
+content_hash: 88ed2ae833141cfd38ad38bb7b52e3db8e7f5609
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/common/black.html
@@ -14,7 +15,7 @@ related_topics:
 # black
 
 Python 자동 코드 formatter.
-더 많은 정보: <https://github.com/psf/black>.
+더 많은 정보: <https://black.readthedocs.io/en/stable/usage_and_configuration/the_basics.html>.
 
 - 파일 또는 전체 디렉토리의 자동 포맷:
 

@@ -2,13 +2,17 @@
 layout: page
 title: sunos/devfsadm (français)
 description: "Commande d'administration pour `/dev`. Maintient le `/dev` espace de noms."
-content_hash: 157d579069d698580541c03a2b591ec38ef929a0
+content_hash: cda7052d08b635275db74d98f627698ecef43eaa
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/sunos/devfsadm.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/sunos/devfsadm.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/sunos/devfsadm.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/sunos/devfsadm.html
@@ -17,13 +21,10 @@ related_topics:
     url: /tr/sunos/devfsadm.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># devfsadm
+# devfsadm
 
 Commande d'administration pour `/dev`. Maintient le `/dev` espace de noms.
-Plus d'information : <https://www.unix.com/man-page/sunos/1m/devfsadm>.
+Plus d'informations : <https://www.unix.com/man-page/sunos/1m/devfsadm>.
 
 - Rechercher de nouveaux disques :
 

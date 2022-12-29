@@ -2,8 +2,8 @@
 layout: page
 title: common/curl (한국어)
 description: "데이터를 서버에서 혹은 서버로 전송."
-content_hash: 93fed614b6f1b869b8367e142560a35cec827238
-last_modified_at: 2022-11-22
+content_hash: 213de13d53dee8379bc25a8c9d0cf72f9d74860e
+last_modified_at: 2022-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/curl.html
@@ -34,7 +34,7 @@ related_topics:
 
 데이터를 서버에서 혹은 서버로 전송.
 HTTP,FTP 및 POP3를 포함한 대부분의 프로토콜 지원.
-더 많은 정보: <https://curl.se/docs/manpage.html>.
+더 많은 정보: <https://curl.se>.
 
 - URL의 내용을 파일로 다운로드:
 

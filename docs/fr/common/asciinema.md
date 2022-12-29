@@ -2,7 +2,8 @@
 layout: page
 title: common/asciinema (français)
 description: "Enregistre et rejoue les sessions de terminal, et également partageable sur asciinema.org."
-content_hash: 630f35419670a70b8fc10120a639c14cbdb66511
+content_hash: 900ff6061e9e75e906eff8f6fc0c4f46a6a41297
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/common/asciinema.html
@@ -23,13 +24,10 @@ related_topics:
     url: /zh/common/asciinema.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># asciinema
+# asciinema
 
 Enregistre et rejoue les sessions de terminal, et également partageable sur asciinema.org.
-Plus d'informations : <https://asciinema.org/>.
+Plus d'informations : <https://asciinema.org/docs/usage>.
 
 - Associe l’installation locale de `asciinema` avec un compte asciinema.org :
 

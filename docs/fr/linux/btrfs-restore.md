@@ -2,7 +2,8 @@
 layout: page
 title: linux/btrfs-restore (français)
 description: "Tenter de récupérer des fichiers depuis un système de fichiers btrfs endommagé."
-content_hash: 5d30cff3d4edceea36a83650277f3302ac641136
+content_hash: 844e0ff175d30e699447319f2b3673f6efbdd93f
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/linux/btrfs-restore.html
@@ -11,7 +12,7 @@ related_topics:
 # btrfs restore
 
 Tenter de récupérer des fichiers depuis un système de fichiers btrfs endommagé.
-Plus d'information : <https://btrfs.readthedocs.io/en/latest/btrfs-restore.html>.
+Plus d'informations : <https://btrfs.readthedocs.io/en/latest/btrfs-restore.html>.
 
 - Restaurer tout les fichiers depuis un système de fichier btrfs vers un répertoire cible indiqué :
 

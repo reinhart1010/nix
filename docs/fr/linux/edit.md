@@ -2,7 +2,8 @@
 layout: page
 title: linux/edit (français)
 description: "Un alias à l'action de modification de `run-mailcap`."
-content_hash: 39ccd0807dbb9ee55eb19f226132af7caf9a28b2
+content_hash: d1dfced098e95da63a61fd568dbec2d9209d52e2
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/linux/edit.html
@@ -12,7 +13,7 @@ related_topics:
 
 Un alias à l'action de modification de `run-mailcap`.
 Originellement, `run-mailcap` est utilisé afin de modifier des fichiers mime-type.
-Plus d'informations : <https://www.computerhope.com/unix/uedit.html>.
+Plus d'informations : <https://www.computerhope.com/unix/uedit.htm>.
 
 - L'action de modification peut être utilisée pour voir n'importe quel fichier dans l'explorateur mailcap par défaut :
 

@@ -2,7 +2,8 @@
 layout: page
 title: common/bg (日本語)
 description: "一時停止していたジョブ（例. `Ctrl + Z` 使用時）を再開し、バックグラウンドで実行します。"
-content_hash: 19bc6623ae9b863200b37e149de1b1f3b70751ea
+content_hash: 737de1a8ce2e586572dbad094bb856ae12f25119
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/common/bg.html
@@ -22,7 +23,7 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/bg.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/bg.html
     icon: bi bi-globe
   - title: português (Brasil) version
@@ -38,7 +39,7 @@ related_topics:
 # bg
 
 一時停止していたジョブ（例. `Ctrl + Z` 使用時）を再開し、バックグラウンドで実行します。
-詳しくはこちら: <https://manned.org/bg>.
+詳しくはこちら: <https://manned.org/bg>
 
 - 最も最近に一時停止されたジョブを再開し、バックグラウンドで実行する:
 

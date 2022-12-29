@@ -2,7 +2,8 @@
 layout: page
 title: linux/ark (français)
 description: "Outil d'archive de KDE."
-content_hash: 6eb11e94e53ff2d37a077f309504043bd34ccbb0
+content_hash: ab8b2cb28c027cbcc21dd1c582ff9792c33cbf58
+last_modified_at: 2022-12-29
 related_topics:
   - title: Deutsch version
     url: /de/linux/ark.html
@@ -14,13 +15,10 @@ related_topics:
     url: /zh/linux/ark.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ark
+# ark
 
 Outil d'archive de KDE.
-Plus d'informations : <https://docks.kde.org/stable5/en/ark/ark/>.
+Plus d'informations : <https://docs.kde.org/stable5/en/ark/ark/>.
 
 - Extrait une archive dans le répertoire courant :
 

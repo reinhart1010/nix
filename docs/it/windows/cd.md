@@ -2,7 +2,8 @@
 layout: page
 title: windows/cd (italiano)
 description: "Mostra informazioni riguardo alla directory corrente e permette di muoversi in un altra directory."
-content_hash: 7cbfc3decc006a9c42b1fd76fc9942507623fb73
+content_hash: 97fa18049414a12bfb99a729352196b36c4e49b1
+last_modified_at: 2022-12-29
 related_topics:
   - title: বাংলা version
     url: /bn/windows/cd.html
@@ -33,12 +34,18 @@ related_topics:
     icon: bi bi-globe
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/windows/cd.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># cd
 
 Mostra informazioni riguardo alla directory corrente e permette di muoversi in un altra directory.
-Maggiori informazioni: <https://learn.microsoft.com/it-it/windows-server/administration/windows-commands/cd>.
+Maggiori informazioni: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
 - Mostra il percorso (path) della directory corrente:
 

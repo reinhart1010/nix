@@ -2,7 +2,8 @@
 layout: page
 title: sunos/prctl (français)
 description: "Obtenir ou définir les contrôles de ressources des processus, tâches et projets en cours d'exécution."
-content_hash: c356096557284fee2beff0153bf7c0c177f42546
+content_hash: 6186a436507f32932b4ea4cfa1462a3cbe50f0ec
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/sunos/prctl.html
@@ -17,13 +18,10 @@ related_topics:
     url: /tr/sunos/prctl.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># prctl
+# prctl
 
 Obtenir ou définir les contrôles de ressources des processus, tâches et projets en cours d'exécution.
-Plus d'information : <https://www.unix.com/man-page/sunos/1/prctl>.
+Plus d'informations : <https://www.unix.com/man-page/sunos/1/prctl>.
 
 - Examiner les limites et les autorisations des processus :
 

@@ -2,7 +2,8 @@
 layout: page
 title: linux/ascii (français)
 description: "Affiche les alias de caractères ASCII."
-content_hash: 940d94c71ea6b1ecbb5703beea1d73cdd46d5282
+content_hash: f4207cedda9c29333fc43486f561563f1a28c245
+last_modified_at: 2022-12-29
 related_topics:
   - title: Deutsch version
     url: /de/linux/ascii.html
@@ -17,13 +18,10 @@ related_topics:
     url: /zh/linux/ascii.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ascii
+# ascii
 
 Affiche les alias de caractères ASCII.
-Plus d'information : <https://www.catb.org/~esr/ascii/>.
+Plus d'informations : <http://www.catb.org/~esr/ascii/>.
 
 - Affiche les alias ASCII d'un caractère :
 

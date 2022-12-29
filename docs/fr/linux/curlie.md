@@ -2,19 +2,17 @@
 layout: page
 title: linux/curlie (français)
 description: "Curlie est un frontend pour curl qui ajoute la facilité d'utilisation de httpie."
-content_hash: 5e448d7226fbc28ba7bd690a825c20ccee68995b
+content_hash: b530d434be4d47617d5324ae247772c5c0c1d6bf
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/linux/curlie.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># curlie
+# curlie
 
 Curlie est un frontend pour curl qui ajoute la facilité d'utilisation de httpie.
-Plus d'information: <https://github.com/rs/curlie>.
+Plus d'informations : <https://github.com/rs/curlie>.
 
 - Envoie une requête GET :
 

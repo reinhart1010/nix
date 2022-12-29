@@ -2,13 +2,17 @@
 layout: page
 title: common/asciinema (中文)
 description: "录制和播放终端会话，也可以把他们分享到 asciinema.org."
-content_hash: 9b0a13ce7cff1da41ebf919e692e291f72a67128
+content_hash: 79837841ef4f1c4a4d03c3c5c72b1483d35e8ab8
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/common/asciinema.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/asciinema.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/asciinema.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/asciinema.html
@@ -23,7 +27,7 @@ related_topics:
 # asciinema
 
 录制和播放终端会话，也可以把他们分享到 asciinema.org.
-更多信息：<https://asciinema.org/>.
+更多信息：<https://asciinema.org/docs/usage>.
 
 - 将本地安装的`asciinema`与 asciinema.org 账号关联：
 

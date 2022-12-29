@@ -2,19 +2,17 @@
 layout: page
 title: linux/blight (français)
 description: "Utilitaire pour changer la luminosité de l'affichage."
-content_hash: f137e27b6c20d52cec8855e33adf34458f77ff56
+content_hash: 0722a07b550f4450630f5044b1909cb22e03a22c
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/linux/blight.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># blight
+# blight
 
 Utilitaire pour changer la luminosité de l'affichage.
-Plus d'information : <https://github.com/gutjuri/blight>.
+Plus d'informations : <https://github.com/gutjuri/blight>.
 
 - Fixe la luminosité de l'affichage à 50% :
 

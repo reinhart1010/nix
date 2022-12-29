@@ -2,20 +2,18 @@
 layout: page
 title: common/go-vet (Türkçe)
 description: "Go kaynak kodunu kontrol et ve şüpheli yapıları bildir (örneğin Go kaynak dosyalarını tiftik et)."
-content_hash: dd71050104d0af5eb6324ae6a1db1d9d112615b7
+content_hash: 86665ec427d653bc983f4041fad1e12f921229f6
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/common/go-vet.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># go vet
+# go vet
 
 Go kaynak kodunu kontrol et ve şüpheli yapıları bildir (örneğin Go kaynak dosyalarını tiftik et).
 Go vet komutu eğer sorun bulunduysa sıfır olmayan bir çıkış kodu yazdırır. Eğer herhangi bir sorun bulunmadıysa sıfır çıkış kodu yazdırılır.
-More information: <https://pkg.go.dev/cmd/vet>.
+Daha fazla bilgi için: <https://pkg.go.dev/cmd/vet>.
 
 - Mevcut dizindeki Go paketini kontrol et:
 

@@ -1,0 +1,84 @@
+---
+layout: page
+title: common/llvm-objdump (नेपाली)
+description: "यो आदेश `objdump` को उपनाम हो |"
+content_hash: ba83657708f90abc2b267a3342698929e6c0c991
+last_modified_at: 2022-12-29
+related_topics:
+  - title: bosanski version
+    url: /bs/common/llvm-objdump.html
+    icon: bi bi-globe
+  - title: Deutsch version
+    url: /de/common/llvm-objdump.html
+    icon: bi bi-globe
+  - title: English version
+    url: /en/common/llvm-objdump.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/llvm-objdump.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/llvm-objdump.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/common/llvm-objdump.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/llvm-objdump.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/common/llvm-objdump.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/llvm-objdump.html
+    icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/common/llvm-objdump.html
+    icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/common/llvm-objdump.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/llvm-objdump.html
+    icon: bi bi-globe
+  - title: norsk version
+    url: /no/common/llvm-objdump.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/llvm-objdump.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/llvm-objdump.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/llvm-objdump.html
+    icon: bi bi-globe
+  - title: svenska version
+    url: /sv/common/llvm-objdump.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/llvm-objdump.html
+    icon: bi bi-globe
+  - title: ไทย version
+    url: /th/common/llvm-objdump.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/llvm-objdump.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/llvm-objdump.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/llvm-objdump.html
+    icon: bi bi-globe
+---
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># llvm-objdump
+
+यो आदेश `objdump` को उपनाम हो |
+
+- मौलिक आदेशको लागि कागजात हेर्नुहोस्:
+
+`tldr objdump`

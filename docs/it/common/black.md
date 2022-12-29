@@ -2,7 +2,8 @@
 layout: page
 title: common/black (italiano)
 description: "Un formattatore automatico di codice Python."
-content_hash: fed25ff1a99ebfe9e71da130ffc944ec68a66a52
+content_hash: de8bfbd1b5bdf6783e8a1b63b6e08b6811acf7d6
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/common/black.html
@@ -14,7 +15,7 @@ related_topics:
 # black
 
 Un formattatore automatico di codice Python.
-Maggiori informazioni: <https://github.com/psf/black>.
+Maggiori informazioni: <https://black.readthedocs.io/en/stable/usage_and_configuration/the_basics.html>.
 
 - Auto-formatta un file o un'intera directory:
 

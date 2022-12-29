@@ -2,7 +2,8 @@
 layout: page
 title: linux/asciiart (français)
 description: "Convertit des images en ASCII."
-content_hash: 21576e6d69a1a808486c0aceca5d60ef05c17547
+content_hash: 8adac9dd9e13e8a1507251ada328b4b777faabf9
+last_modified_at: 2022-12-29
 related_topics:
   - title: Deutsch version
     url: /de/linux/asciiart.html
@@ -20,13 +21,10 @@ related_topics:
     url: /zh/linux/asciiart.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># asciiart
+# asciiart
 
 Convertit des images en ASCII.
-Plus d'information : <https://github.com/nodanaonlyzuul/asciiart>.
+Plus d'informations : <https://github.com/nodanaonlyzuul/asciiart>.
 
 - Lit une image depuis un fichier et l'affiche en ASCII :
 

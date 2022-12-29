@@ -2,7 +2,8 @@
 layout: page
 title: linux/ufw (தமிழ்)
 description: "சிக்கலற்ற ஃபயர்வால்."
-content_hash: 2b2ff9dfbf40021a479add05dc401b49468b3065
+content_hash: ba84c1a4e1b9dbe43a5dd26c13362d987018dac5
+last_modified_at: 2022-12-29
 related_topics:
   - title: català version
     url: /ca/linux/ufw.html
@@ -17,14 +18,11 @@ related_topics:
     url: /it/linux/ufw.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ufw
+# ufw
 
 சிக்கலற்ற ஃபயர்வால்.
 ஃபயர்வாலின் உள்ளமைவை எளிதாக்குவதை நோக்கமாகக் கொண்ட ஐப்டேபிள்களுக்கான முன்பக்கம்.
-மேலும் விவரத்திற்கு:  <https://wiki.ubuntu.com/UncomplicatedFirewall>.
+மேலும் விவரத்திற்கு: <https://wiki.ubuntu.com/UncomplicatedFirewall>.
 
 - `ufw` ஐ இயக்கு:
 

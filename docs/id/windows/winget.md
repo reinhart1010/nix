@@ -2,7 +2,8 @@
 layout: page
 title: windows/winget (Indonesia)
 description: "Manajer Paket Antarmuka Baris Perintah Windows."
-content_hash: 28c09fa3d60724e9f9196cc50b37fe39eda3cd7b
+content_hash: 3177e853fa25a36038cace072293e06b706039cb
+last_modified_at: 2022-12-29
 related_topics:
   - title: Deutsch version
     url: /de/windows/winget.html
@@ -29,7 +30,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># winget
 
 Manajer Paket Antarmuka Baris Perintah Windows.
-Informasi lebih lanjut: <https://learn.microsoft.com/id-id/windows/package-manager/winget>.
+Informasi lebih lanjut: <https://learn.microsoft.com/windows/package-manager/winget>.
 
 - Instal paket:
 

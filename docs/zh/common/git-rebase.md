@@ -2,7 +2,8 @@
 layout: page
 title: common/git-rebase (中文)
 description: "将 commits 从一个分支合并到另一个分支上。"
-content_hash: c3a11eb0e3d612a3fb93a7004c7fcb279c3a2a23
+content_hash: 358415f13afc06da9ce30778defd84f809d4ea91
+last_modified_at: 2022-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/git-rebase.html
@@ -23,14 +24,11 @@ related_topics:
     url: /tr/common/git-rebase.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git rebase
+# git rebase
 
 将 commits 从一个分支合并到另一个分支上。
 常用于跨分支的 commits 合并，在被合并分支的最头部构建新的 `commit`，表示合并完成。
-更多信息： <https://git-scm.com/docs/git-rebase>.
+更多信息：<https://git-scm.com/docs/git-rebase>.
 
 - 在另一个分支的头节点合并当前分支：
 

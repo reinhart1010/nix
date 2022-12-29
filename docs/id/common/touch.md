@@ -2,8 +2,12 @@
 layout: page
 title: common/touch (Indonesia)
 description: "Mengubah waktu akses (atime) dan waktu modifikasi (mtime) dari sebuah file."
-content_hash: 655cc15a2b37c3834de886873736f45d6ac2956e
+content_hash: 9d0c936559f54938343f722ae5d0ad0930e14c1b
+last_modified_at: 2022-12-29
 related_topics:
+  - title: català version
+    url: /ca/common/touch.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/touch.html
     icon: bi bi-globe
@@ -35,7 +39,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># touch
 
 Mengubah waktu akses (atime) dan waktu modifikasi (mtime) dari sebuah file.
-Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/touch>.
+Informasi lebih lanjut: <https://manned.org/man/freebsd-13.1/touch>.
 
 - Membuat file baru yang kosong atau mengubah waktu file yang telahj ada ke waktu sekarang:
 

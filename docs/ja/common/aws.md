@@ -2,7 +2,8 @@
 layout: page
 title: common/aws (日本語)
 description: "アマゾンウェブサービスの公式 CLI ツールです。"
-content_hash: 6dafcc963fc303dc46dcccc220aa1b7eeb70dd3b
+content_hash: 1e32cbfe3af7b1cd0511d992ce34cc3e5ca8e0b2
+last_modified_at: 2022-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/aws.html
@@ -26,14 +27,11 @@ related_topics:
     url: /pt_BR/common/aws.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws
+# aws
 
 アマゾンウェブサービスの公式 CLI ツールです。
 `aws S3` のようないくつかのサブコマンドには、使用方法についての独自のドキュメントがあります。
-詳しくはこちら: <https://aws.amazon.com/cli>.
+詳しくはこちら: <https://aws.amazon.com/cli>
 
 - AWS コマンドラインを設定する:
 

@@ -2,7 +2,8 @@
 layout: page
 title: sunos/svcadm (français)
 description: "Manipuler les instances de service."
-content_hash: ad2be6737c33c67303d1bc5f883aa77f6503c54e
+content_hash: 1398191cc8781e2719e639147af07557efa9a91d
+last_modified_at: 2022-12-29
 related_topics:
   - title: English version
     url: /en/sunos/svcadm.html
@@ -17,13 +18,10 @@ related_topics:
     url: /tr/sunos/svcadm.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># svcadm
+# svcadm
 
 Manipuler les instances de service.
-Plus d'information : <https://www.unix.com/man-page/linux/1m/svcadm>.
+Plus d'informations : <https://www.unix.com/man-page/linux/1m/svcadm>.
 
 - Activer un service dans la base de données de service:
 
