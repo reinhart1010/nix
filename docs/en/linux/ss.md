@@ -2,7 +2,8 @@
 layout: page
 title: linux/ss (English)
 description: "Utility to investigate sockets."
-content_hash: 4595a7c996baf0a851ca3a9f64772e1da1d3e37d
+content_hash: ba83e866442e1bbe2e89e8a37d5b37c26e8d4ed3
+last_modified_at: 2022-12-30
 ---
 # ss
 
@@ -36,3 +37,7 @@ More information: <https://manned.org/ss.8>.
 - Show all TCP IPv4 sockets locally connected on the subnet 192.168.0.0/16:
 
 `ss -4t src `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168/16</span>
+
+- Kill IPv4 or IPv6 Socket Connection with destination IP 192.168.1.17 and destination port 8080:
+
+`ss --kill dst `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.1.17</span>` dport = `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8080</span>

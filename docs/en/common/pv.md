@@ -2,8 +2,8 @@
 layout: page
 title: common/pv (English)
 description: "Monitor the progress of data through a pipe."
-content_hash: 5d81468e8ac6306681f71eb631955dfc1d0bb9c3
-last_modified_at: 2022-12-04
+content_hash: e5b11326d163f76a2e19fa70062874c4ce98331c
+last_modified_at: 2022-12-30
 ---
 # pv
 
@@ -14,9 +14,9 @@ More information: <https://manned.org/pv>.
 
 `pv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Measure the speed and amount of data flow between pipes (`-s` is optional):
+- Measure the speed and amount of data flow between pipes (`--size` is optional):
 
-`command1 | pv -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expected_amount_of_data_for_eta</span>` | command2`
+`command1 | pv --size `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expected_amount_of_data_for_eta</span>` | command2`
 
 - Filter a file, see both progress and amount of output data:
 
@@ -32,4 +32,4 @@ More information: <https://manned.org/pv>.
 
 - Stop reading after reading specified amount of data, rate limit to 1K/s:
 
-`pv -L 1K -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">maximum_file_size_to_be_read</span>
+`pv -L 1K --stop-at --size `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">maximum_file_size_to_be_read</span>
