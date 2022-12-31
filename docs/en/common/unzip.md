@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/unzip (English)
-description: "Extract compressed files in a ZIP archive."
-content_hash: 0a29feb450878f5aebc448e2c57e1b2a4abbe9d3
-last_modified_at: 2022-12-04
+description: "Extract files/directories from ZIP archives."
+content_hash: 7107ccda7b511013d8eb2c678124681c589c6702
+last_modified_at: 2022-12-31
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/unzip.html
@@ -14,25 +14,26 @@ related_topics:
 ---
 # unzip
 
-Extract compressed files in a ZIP archive.
+Extract files/directories from ZIP archives.
+See also: `zip`.
 More information: <https://manned.org/unzip>.
 
-- Extract zip file(s) (for multiple files, separate file paths by spaces):
+- Extract all files/directories from specific archives into the current directory:
 
-`unzip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file(s)</span>
+`unzip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive1.zip path/to/archive2.zip ...</span>
 
-- Extract zip files(s) to given path:
+- Extract files/directories from archives to a specific path:
 
-`unzip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">compressed_file(s)</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/put/extracted_file(s)</span>
+`unzip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive1.zip path/to/archive2.zip ...</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output</span>
 
-- List the contents of a zip file without extracting:
+- Extract files/directories from archives to `stdout`:
 
-`unzip -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.zip</span>
+`unzip -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive1.zip path/to/archive2.zip ...</span>
 
 - Extract the contents of the file(s) to `stdout` alongside the extracted file names:
 
-`unzip -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.zip</span>
+`unzip -O `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gbk</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive1.zip path/to/archive2.zip ...</span>
 
-- Extract a zip file created on Windows, containing files with non-ASCII (e.g. Chinese or Japanese characters) filenames:
+- List the contents of a specific archive without extracting them:
 
-`unzip -O `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gbk</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.zip</span>
+`unzip -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.zip</span>
