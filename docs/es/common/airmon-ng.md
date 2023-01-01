@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/airmon-ng (español)
-description: "Activar el modo monitor en dispositivos de red inalámbricos."
-content_hash: 18c6a08e6d04ca65c46bc8e8e4cf14c8a8c31513
-last_modified_at: 2022-12-31
+description: "Activa el modo monitor en dispositivos de red inalámbricos."
+content_hash: 55ba6fd7decad0a81ae6e44015d7dd1fc24091ac
+last_modified_at: 2023-01-01
 related_topics:
   - title: English version
     url: /en/common/airmon-ng.html
@@ -21,20 +21,17 @@ related_topics:
     url: /zh/common/airmon-ng.html
     icon: bi bi-globe
 ---
+# airmon-ng
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># airmon-ng
-
-Activar el modo monitor en dispositivos de red inalámbricos.
-Parte ode `aircrack-ng`.
+Activa el modo monitor en dispositivos de red inalámbricos.
+Parte de `aircrack-ng`.
 Más información: <https://www.aircrack-ng.org/doku.php?id=airmon-ng>.
 
-- Lista de dispositivos inalámbricos y sus estados:
+- Lista dispositivos inalámbricos y sus estados:
 
 `sudo airmon-ng`
 
-- Activar el modo monitor para un dispositivo específico:
+- Activa el modo monitor para un dispositivo específico:
 
 `sudo airmon-ng start `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wlan0</span>
 
