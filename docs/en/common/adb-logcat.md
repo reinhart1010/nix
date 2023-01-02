@@ -2,9 +2,17 @@
 layout: page
 title: common/adb-logcat (English)
 description: "Dump a log of system messages."
-content_hash: 6e504c4ed7d1aa464b87849b3cd414a06bd1ce5c
+content_hash: a4a5cafa695193d6bb46133ba8b4ba60554aa1c0
+last_modified_at: 2023-01-02
+related_topics:
+  - title: français version
+    url: /fr/common/adb-logcat.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/adb-logcat.html
+    icon: bi bi-globe
 ---
-# adb-logcat
+# adb logcat
 
 Dump a log of system messages.
 More information: <https://developer.android.com/studio/command-line/logcat>.
