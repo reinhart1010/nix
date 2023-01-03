@@ -1,12 +1,15 @@
 ---
 layout: page
-title: android/settings (English)
-description: "Get information about the Android OS."
-content_hash: fee8a73cf943c6bad937662e1acbe182d67d6c2d
+title: android/settings (বাংলা)
+description: "Android OS সম্পর্কে তথ্য পান।"
+content_hash: 7bcf8d1cef1e634951598bfc5a20451f3bfcac36
 last_modified_at: 2023-01-03
 related_topics:
   - title: Deutsch version
     url: /de/android/settings.html
+    icon: bi bi-globe
+  - title: English version
+    url: /en/android/settings.html
     icon: bi bi-globe
   - title: español version
     url: /es/android/settings.html
@@ -45,23 +48,26 @@ related_topics:
     url: /zh_TW/android/settings.html
     icon: bi bi-globe
 ---
-# settings
 
-Get information about the Android OS.
-More information: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
-- Display a list of settings in the `global` namespace:
+<hr># settings
 
-`settings list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">global</span>
+Android OS সম্পর্কে তথ্য পান।
+আরও তথ্য পাবেন: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
 
-- Get a value of a specific setting:
+- `global` নামস্থানে সেটিংসের একটি তালিকা প্রদর্শন করুন:
+
+`settings list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">গ্লোবাল</span>
+
+- একটি নির্দিষ্ট সেটিং এর মান পান:
 
 `settings get `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">global</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">airplane_mode_on</span>
 
-- Set a specific value of a setting:
+- একটি সেটিং এর একটি নির্দিষ্ট মান সেট করুন:
 
-`settings put `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">system</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">screen_brightness</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">42</span>
+`settings put `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">system</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">screen_brightness</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1..100</span>
 
-- Delete a specific setting:
+- একটি নির্দিষ্ট সেটিং মুছুন:
 
 `settings delete `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">secure</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">screensaver_enabled</span>

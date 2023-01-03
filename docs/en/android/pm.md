@@ -1,11 +1,15 @@
 ---
 layout: page
 title: android/pm (English)
-description: "Show information about apps on an Android device."
-content_hash: 9d3d3babbf2ef636f3ed3f94a817f89ff8e8d0a3
+description: "Display information about apps on an Android device."
+content_hash: 1a36c3c6cc8e817bc058af9343f3ef4f3acdd76a
+last_modified_at: 2023-01-03
 related_topics:
   - title: Deutsch version
     url: /de/android/pm.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/android/pm.html
     icon: bi bi-globe
   - title: français version
     url: /fr/android/pm.html
@@ -13,8 +17,23 @@ related_topics:
   - title: Indonesia version
     url: /id/android/pm.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/android/pm.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/android/pm.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/android/pm.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/android/pm.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/android/pm.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/android/pm.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/android/pm.html
@@ -25,25 +44,25 @@ related_topics:
 ---
 # pm
 
-Show information about apps on an Android device.
+Display information about apps on an Android device.
 More information: <https://developer.android.com/studio/command-line/adb#pm>.
 
-- Print a list of all installed apps:
+- List all installed apps:
 
 `pm list packages`
 
-- Print a list of all installed system apps:
+- List all installed system apps:
 
 `pm list packages -s`
 
-- Print a list of all installed 3rd-Party apps:
+- List all installed 3rd-Party apps:
 
 `pm list packages -3`
 
-- Print a list of apps matching specific keywords:
+- List apps matching specific keywords:
 
-`pm list packages `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keywords</span>
+`pm list packages `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword1 keyword2 ...</span>
 
-- Print the path of the APK of a specific app:
+- Display a path of the APK of a specific app:
 
 `pm path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app</span>
