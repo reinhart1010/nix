@@ -2,8 +2,12 @@
 layout: page
 title: common/cp (English)
 description: "Copy files and directories."
-content_hash: 47508adaef24eca729df7ac4b20651416f72583d
+content_hash: ab808ffdd058e99171f840a20db420aa58af1989
+last_modified_at: 2023-01-03
 related_topics:
+  - title: català version
+    url: /ca/common/cp.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/cp.html
     icon: bi bi-globe
@@ -31,8 +35,14 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cp.html
     icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/cp.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/cp.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/cp.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/cp.html
@@ -72,3 +82,7 @@ More information: <https://www.gnu.org/software/coreutils/cp>.
 - Follow symbolic links before copying:
 
 `cp -L `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">link</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target_directory</span>
+
+- Use the first argument as the destination directory (useful for `xargs ... | cp -t <DEST_DIR>`):
+
+`cp -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target_directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 ...</span>
