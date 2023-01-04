@@ -2,7 +2,8 @@
 layout: page
 title: common/rustc (português (Brasil))
 description: "O compilador Rust."
-content_hash: 0d884b7e8c98394837d3dfb77709d41e7e06a18a
+content_hash: 10a72c0397d8e5febacf12bb2e82353a29d16f61
+last_modified_at: 2023-01-04
 related_topics:
   - title: English version
     url: /en/common/rustc.html
@@ -16,15 +17,15 @@ Mais informações: <https://doc.rust-lang.org/rustc>.
 
 - Compila um único arquivo:
 
-`rustc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.rs</span>
+`rustc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.rs</span>
 
 - Compila com alta otimização:
 
-`rustc -O `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.rs</span>
+`rustc -O `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.rs</span>
 
 - Compila com informações de depuração:
 
-`rustc -g `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.rs</span>
+`rustc -g `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.rs</span>
 
 - Compila com otimizações específicas de arquitetura para a CPU atual:
 
