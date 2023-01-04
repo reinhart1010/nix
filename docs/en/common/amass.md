@@ -2,8 +2,15 @@
 layout: page
 title: common/amass (English)
 description: "In-depth Attack Surface Mapping and Asset Discovery tool."
-content_hash: 687e8ad1011f41948b1675eabfc0fc5e867bc5f6
+content_hash: ee51f2420c838643de4da84e7f5a9fa0b25356d8
+last_modified_at: 2023-01-04
 related_topics:
+  - title: français version
+    url: /fr/common/amass.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/amass.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/amass.html
     icon: bi bi-globe
@@ -14,9 +21,9 @@ In-depth Attack Surface Mapping and Asset Discovery tool.
 Some subcommands such as `amass db` have their own usage documentation.
 More information: <https://github.com/OWASP/Amass>.
 
-- Check the Amass version:
+- Execute an Amass subcommand:
 
-`amass -version`
+`amass `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
 
 - Show general help:
 
@@ -26,6 +33,6 @@ More information: <https://github.com/OWASP/Amass>.
 
 `amass -help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
 
-- Execute an Amass subcommand:
+- Display version:
 
-`amass `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
+`amass -version`

@@ -2,7 +2,8 @@
 layout: page
 title: common/amass (português (Brasil))
 description: "Ferramenta de Attack Surface Mapping (mapeamento de superfície de ataque) e Asset Discovery (descoberta de asset) em profundidade."
-content_hash: 680f242e2932705d5804e8b170b997acaf23f420
+content_hash: 3f8d67d81e9ec14bcd56ab07893ab6ce6e921527
+last_modified_at: 2023-01-04
 related_topics:
   - title: English version
     url: /en/common/amass.html
@@ -14,18 +15,15 @@ related_topics:
     url: /zh/common/amass.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># amass
+# amass
 
 Ferramenta de Attack Surface Mapping (mapeamento de superfície de ataque) e Asset Discovery (descoberta de asset) em profundidade.
 Alguns subcomandos como `amass db` tem sua propria documentacao de uso.
 Mais informações: <https://github.com/OWASP/Amass>.
 
-- Checa a versão de Amass:
+- Executa um subcomando Amass:
 
-`amass -version`
+`amass `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcomando</span>
 
 - Mostra ajuda geral:
 
@@ -35,6 +33,6 @@ Mais informações: <https://github.com/OWASP/Amass>.
 
 `amass -help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcomando</span>
 
-- Executa um subcomando Amass:
+- Mostra a versão:
 
-`amass `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcomando</span>
+`amass -version`

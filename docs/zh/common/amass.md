@@ -2,10 +2,17 @@
 layout: page
 title: common/amass (中文)
 description: "深度攻击面探测与资产发现工具。"
-content_hash: fcb5a960ff7835812267add38e1df99d9764787c
+content_hash: 33f442fdf721037b9fe4ccab7c1b0014f22e42c3
+last_modified_at: 2023-01-04
 related_topics:
   - title: English version
     url: /en/common/amass.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/amass.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/amass.html
     icon: bi bi-globe
 ---
 # amass
@@ -14,9 +21,9 @@ related_topics:
 此命令也有关于其子命令的文件，例如：`amass db`.
 更多信息：<https://github.com/OWASP/Amass>.
 
-- 查看 Amass 版本：
+- 执行 Amass 子命令：
 
-`amass -version`
+`amass `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">子命令</span>
 
 - 展示帮助信息：
 
@@ -26,6 +33,6 @@ related_topics:
 
 `amass -help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">子命令</span>
 
-- 执行 Amass 子命令：
+- 查看 Amass 版本：
 
-`amass `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">子命令</span>
+`amass -version`

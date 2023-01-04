@@ -2,27 +2,28 @@
 layout: page
 title: common/amass (français)
 description: "Outil de Cartographie des Attaques de Surface et découverte de ressource."
-content_hash: 0e147d11737f3bc2c873bcbdf75ac64ca3160e42
+content_hash: 5e063ffc8b630a15230773a861b2ba21287e4dfa
+last_modified_at: 2023-01-04
 related_topics:
   - title: English version
     url: /en/common/amass.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/amass.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/amass.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># amass
+# amass
 
 Outil de Cartographie des Attaques de Surface et découverte de ressource.
 Certaines commandes comme `amass db` ont leur propre documentation.
 Plus d'informations : <https://github.com/OWASP/Amass>.
 
-- Affiche la version de Amass :
+- Exécute une sous-commande Amass :
 
-`amass -version`
+`amass `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sous_commande</span>
 
 - Affiche l'aide général :
 
@@ -32,6 +33,6 @@ Plus d'informations : <https://github.com/OWASP/Amass>.
 
 `amass -help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sous_commande</span>
 
-- Exécute une sous-commande Amass :
+- Affiche la version :
 
-`amass `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sous_commande</span>
+`amass -version`
