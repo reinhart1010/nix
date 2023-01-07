@@ -2,7 +2,8 @@
 layout: page
 title: common/ksh (English)
 description: "Korn Shell, a Bash-compatible command-line interpreter."
-content_hash: bf163882311a3a8a186643071aa234ae52c960dd
+content_hash: e3421829c624baa9b222ba88951750624dc6a4a8
+last_modified_at: 2023-01-07
 related_topics:
   - title: français version
     url: /fr/common/ksh.html
@@ -11,21 +12,25 @@ related_topics:
 # ksh
 
 Korn Shell, a Bash-compatible command-line interpreter.
-See also `histexpand` for history expansion.
+See also: `histexpand`.
 More information: <http://kornshell.com>.
 
 - Start an interactive shell session:
 
 `ksh`
 
-- Execute a command and then exit:
+- Execute specific [c]ommands:
 
-`ksh -c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>`"`
+`ksh -c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 'ksh is executed'</span>`"`
 
-- Execute a script:
+- Execute a specific script:
 
 `ksh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.ksh</span>
 
-- Execute a script, printing each command before executing it:
+- Check a specific script for syntax errors without executing it:
+
+`ksh -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.ksh</span>
+
+- Execute a specific script, printing each command in the script before executing it:
 
 `ksh -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.ksh</span>

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/mkdir (English)
-description: "Creates a directory."
-content_hash: bea06b01ecaac5115580ea3c9317a1bcaa7efc2f
-last_modified_at: 2022-12-04
+description: "Create directories and set their permissions."
+content_hash: 62b237dedefcfd85b23fed742d35d48e2abe9026
+last_modified_at: 2023-01-07
 related_topics:
   - title: español version
     url: /es/common/mkdir.html
@@ -38,17 +38,17 @@ related_topics:
 ---
 # mkdir
 
-Creates a directory.
+Create directories and set their permissions.
 More information: <https://www.gnu.org/software/coreutils/mkdir>.
 
-- Create a directory in current directory or given path:
+- Create specific directories:
 
-`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
+`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1 path/to/directory2 ...</span>
 
-- Create multiple directories in the current directory:
+- Create specific directories and their [p]arents if needed:
 
-`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory_1 directory_2 ...</span>
+`mkdir -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1 path/to/directory2 ...</span>
 
-- Create directories recursively (useful for creating nested dirs):
+- Create directories with specific permissions:
 
-`mkdir -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
+`mkdir -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rwxrw-r--</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1 path/to/directory2 ...</span>

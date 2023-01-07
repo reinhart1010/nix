@@ -2,9 +2,12 @@
 layout: page
 title: common/rm (English)
 description: "Remove files or directories."
-content_hash: 9c18321a320a12fb3797cb0c020ad217245fc467
-last_modified_at: 2022-12-06
+content_hash: 387b808b533ebe9426c11dc516e68543a2a9f898
+last_modified_at: 2023-01-07
 related_topics:
+  - title: Deutsch version
+    url: /de/common/rm.html
+    icon: bi bi-globe
   - title: español version
     url: /es/common/rm.html
     icon: bi bi-globe
@@ -36,24 +39,25 @@ related_topics:
 # rm
 
 Remove files or directories.
+See also: `rmdir`.
 More information: <https://www.gnu.org/software/coreutils/rm>.
 
-- Remove files from arbitrary locations:
+- Remove specific files:
 
-`rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/another/file</span>
+`rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
-- Recursively remove a directory and all its subdirectories:
+- Remove specific files ignoring nonexistent ones:
 
-`rm -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
+`rm -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
-- Forcibly remove a directory, without prompting for confirmation or showing error messages:
-
-`rm -rf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
-
-- Interactively remove multiple files, with a prompt before every removal:
+- Remove specific files [i]nteractively prompting before each removal:
 
 `rm -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
-- Remove files in verbose mode, printing a message for each removed file:
+- Remove specific files printing info about each removal:
 
-`rm -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory/*</span>
+`rm -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
+
+- Remove specific files and directories [r]ecursively:
+
+`rm -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 ...</span>

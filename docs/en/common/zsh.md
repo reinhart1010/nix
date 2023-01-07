@@ -2,7 +2,8 @@
 layout: page
 title: common/zsh (English)
 description: "Z SHell, a Bash-compatible command-line interpreter."
-content_hash: 90973fcea70ace6fe6a221456ac1afc3cd436372
+content_hash: ea4c799d1f66b350de34f228ee85d6a284e6b820
+last_modified_at: 2023-01-07
 related_topics:
   - title: Deutsch version
     url: /de/common/zsh.html
@@ -19,6 +20,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/zsh.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/zsh.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/zsh.html
     icon: bi bi-globe
@@ -26,22 +30,30 @@ related_topics:
 # zsh
 
 Z SHell, a Bash-compatible command-line interpreter.
-See also `histexpand` for history expansion.
+See also: `bash`, `histexpand`.
 More information: <https://www.zsh.org>.
 
 - Start an interactive shell session:
 
 `zsh`
 
-- Execute a command and then exit:
+- Execute specific [c]ommands:
 
-`zsh -c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>`"`
+`zsh -c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Hello world</span>`"`
 
-- Execute a script:
+- Execute a specific script:
 
 `zsh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.zsh</span>
 
-- Execute a script, printing each command before executing it:
+- Check a specific script for syntax errors without executing it:
+
+`zsh --no-exec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.zsh</span>
+
+- Execute specific commands from stdin:
+
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Hello world</span>` | zsh`
+
+- Execute a specific script, printing each command in the script before executing it:
 
 `zsh --xtrace `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.zsh</span>
 
