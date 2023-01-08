@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/nano (English)
-description: "Simple, easy to use command-line text editor. An enhanced, free Pico clone."
-content_hash: 4d5cecc246e6905d3038a2648ea74277c23b2c75
+description: "Command-line text editor. An enhanced `Pico` clone."
+content_hash: 1b6b001a7b7993c3e03f705a168bbb94005927e6
+last_modified_at: 2023-01-08
 related_topics:
   - title: español version
     url: /es/common/nano.html
@@ -19,29 +20,33 @@ related_topics:
 ---
 # nano
 
-Simple, easy to use command-line text editor. An enhanced, free Pico clone.
+Command-line text editor. An enhanced `Pico` clone.
 More information: <https://nano-editor.org>.
 
-- Open a new file in nano:
+- Start the editor:
 
 `nano`
 
-- Open a specific file:
+- Start the editor without using configuration files:
 
-`nano `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`nano --ignorercfiles`
 
-- Open a specific file, positioning the cursor at the specified line and column:
+- Open specific files, moving to the next file when closing the previous one:
+
+`nano `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
+
+- Open a file and position the cursor at a specific line and column:
 
 `nano +`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">line</span>`,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">column</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Open a specific file and enable soft wrapping:
+- Open a file and enable soft wrapping:
 
 `nano --softwrap `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Open a specific file and indent new lines to the previous lines' indentation:
+- Open a file and indent new lines to the previous line's indentation:
 
 `nano --autoindent `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Open nano and create a backup file (`file~`) when saving edits:
+- Open a file and create a backup file (`path/to/file~`) on save:
 
 `nano --backup `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
