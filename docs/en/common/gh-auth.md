@@ -2,7 +2,8 @@
 layout: page
 title: common/gh-auth (English)
 description: "Authenticate with a GitHub host from the command-line."
-content_hash: 891f343c45bc6e110ced470c2db697df5099c287
+content_hash: ef9ae6f4b577dcf4ccc0e34cd1529456b0d4f0bb
+last_modified_at: 2023-01-09
 ---
 # gh auth
 
@@ -35,4 +36,4 @@ More information: <https://cli.github.com/manual/gh_auth>.
 
 - Expand the permission scopes:
 
-`gh auth refresh --scopes `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">write:org,read:public_key</span>
+`gh auth refresh --scopes `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repo,admin:repo_hook,admin:org,admin:public_key,admin:org_hook,...</span>
