@@ -2,8 +2,8 @@
 layout: page
 title: common/ansible-doc (español)
 description: "Muestra información sobre los módulos instalados en las bibliotecas de Ansible."
-content_hash: 0c88845341096c5da4d3bf05bc24c69783b3d746
-last_modified_at: 2023-01-08
+content_hash: a925b4276b80bba44fc0200f297f2e27d7c412ea
+last_modified_at: 2023-01-09
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible-doc.html
@@ -15,10 +15,7 @@ related_topics:
     url: /fr/common/ansible-doc.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ansible-doc
+# ansible-doc
 
 Muestra información sobre los módulos instalados en las bibliotecas de Ansible.
 Muestra una concisa lista de complementos y sus breves descripciones.
@@ -32,7 +29,7 @@ Más información: <https://docs.ansible.com/ansible/latest/cli/ansible-doc.html
 
 `ansible-doc --type `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">become|cache|callback|cliconf|connection|...</span>` --list`
 
-- Muestra información sobre un complemento acorde su acción específica (módulo):
+- Muestra información sobre un complemento acorde a su acción específica (módulo):
 
 `ansible-doc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_complemento</span>
 
