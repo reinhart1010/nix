@@ -2,7 +2,8 @@
 layout: page
 title: common/gh-codespace (English)
 description: "Connect and manage your codespaces in GitHub."
-content_hash: d76e79b9b0d842d33310c2523e1143414bb524a7
+content_hash: 7e591fefe70b00fc3684f781317a62424dcab91f
+last_modified_at: 2023-01-11
 ---
 # gh codespace
 
@@ -21,7 +22,7 @@ More information: <https://cli.github.com/manual/gh_codespace>.
 
 `gh codespace ssh`
 
-- Transfer a file to a codespace interactively:
+- Transfer a specific file to a codespace interactively:
 
 `gh codespace cp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source_file</span>` remote:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/remote_file</span>
 
@@ -29,7 +30,7 @@ More information: <https://cli.github.com/manual/gh_codespace>.
 
 `gh codespace ports`
 
-- Print the logs from a codespace interactively:
+- Display the logs from a codespace interactively:
 
 `gh codespace logs`
 
@@ -39,4 +40,4 @@ More information: <https://cli.github.com/manual/gh_codespace>.
 
 - Display help for a subcommand:
 
-`gh codespace `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>` --help`
+`gh codespace `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">code|cp|create|delete|edit|...</span>` --help`

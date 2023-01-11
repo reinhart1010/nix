@@ -2,7 +2,18 @@
 layout: page
 title: common/ansible-doc (English)
 description: "Display information on modules installed in Ansible libraries."
-content_hash: fb5ffc56221d9a6f237e4675f1a910c8dfc6b538
+content_hash: 40846412d891a5419a60e5e9822b045f364caa44
+last_modified_at: 2023-01-11
+related_topics:
+  - title: Deutsch version
+    url: /de/common/ansible-doc.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/ansible-doc.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/ansible-doc.html
+    icon: bi bi-globe
 ---
 # ansible-doc
 
@@ -16,7 +27,7 @@ More information: <https://docs.ansible.com/ansible/latest/cli/ansible-doc.html>
 
 - List available plugins of a specific type:
 
-`ansible-doc --type `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plugin_type</span>` --list`
+`ansible-doc --type `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">become|cache|callback|cliconf|connection|...</span>` --list`
 
 - Show information about a specific action plugin (module):
 
@@ -24,7 +35,7 @@ More information: <https://docs.ansible.com/ansible/latest/cli/ansible-doc.html>
 
 - Show information about a plugin with a specific type:
 
-`ansible-doc --type `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plugin_type</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plugin_name</span>
+`ansible-doc --type `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">become|cache|callback|cliconf|connection|...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plugin_name</span>
 
 - Show the playbook snippet for action plugin (modules):
 
