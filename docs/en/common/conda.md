@@ -2,8 +2,12 @@
 layout: page
 title: common/conda (English)
 description: "Package, dependency and environment management for any programming language."
-content_hash: 784fa189f872b53d404e3ef45fb677b65f0babb3
+content_hash: 2ccaa9cdbd71c55362ab0a0509cb6e4eb7851621
+last_modified_at: 2023-01-13
 related_topics:
+  - title: Deutsch version
+    url: /de/common/conda.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/conda.html
     icon: bi bi-globe
@@ -27,11 +31,11 @@ More information: <https://github.com/conda/conda>.
 
 - Load an environment:
 
-`conda `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">activate environment_name</span>
+`conda activate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment_name</span>
 
 - Unload an environment:
 
-`conda `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">deactivate</span>
+`conda deactivate`
 
 - Delete an environment (remove all packages):
 
