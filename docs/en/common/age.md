@@ -2,8 +2,8 @@
 layout: page
 title: common/age (English)
 description: "A simple, modern and secure file encryption tool."
-content_hash: 250f0ef3dd0657420640939785fd1c1139ed7204
-last_modified_at: 2022-12-04
+content_hash: bf9d8f15485cae2c8be2cc4a014a69ee46a5514d
+last_modified_at: 2023-01-24
 related_topics:
   - title: Deutsch version
     url: /de/common/age.html
@@ -24,7 +24,7 @@ related_topics:
 # age
 
 A simple, modern and secure file encryption tool.
-More information: <https://age-encryption.org>.
+More information: <https://github.com/FiloSottile/age>.
 
 - Generate an encrypted file that can be decrypted with a passphrase:
 
