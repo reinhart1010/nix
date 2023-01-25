@@ -2,7 +2,8 @@
 layout: page
 title: common/fc (English)
 description: "Open the most recent command and edit it."
-content_hash: a584d4207fbb0d2357eff13d7b77f77eebb6c266
+content_hash: b1c69eee0f9dbd1f5013c7e7fa3d4068f551f958
+last_modified_at: 2023-01-25
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/fc.html
@@ -30,7 +31,7 @@ More information: <https://manned.org/fc>.
 
 - List recent commands in reverse order:
 
-`fc -r`
+`fc -l -r`
 
 - List commands in a given interval:
 
