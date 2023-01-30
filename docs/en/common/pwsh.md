@@ -2,25 +2,31 @@
 layout: page
 title: common/pwsh (English)
 description: "PowerShell Core is a cross-platform automation and configuration tool/framework."
-content_hash: 39ca5c44525c064c7cb5c475f161ab3ea834e562
+content_hash: b3eb47947c174c278eb0b5260617e2938022db64
+last_modified_at: 2023-01-30
 ---
 # pwsh
 
 PowerShell Core is a cross-platform automation and configuration tool/framework.
+See also: `powershell`.
 More information: <https://learn.microsoft.com/powershell/>.
 
-- Start an instance of PowerShell:
+- Start an interactive shell session:
 
 `pwsh`
 
-- Execute a script and then exit:
+- Start an interactive shell session without loading startup configs:
 
-`pwsh -File `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ps1</span>
+`pwsh -NoProfile`
 
-- Set the execution policy for the current session:
+- Execute specific commands:
 
-`pwsh -ExecutionPolicy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AllSigned|Bypass|Default|RemoteSigned|Restricted|Undefined|Unrestricted</span>
+`pwsh -Command "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>`"`
 
-- Execute a command and then exit:
+- Execute a specific script:
 
-`pwsh -Command `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
+`pwsh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.ps1</span>
+
+- Start an interactive shell session with a specific execution policy:
+
+`pwsh -ExecutionPolicy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">AllSigned|Bypass|Default|RemoteSigned|Restricted|...</span>
