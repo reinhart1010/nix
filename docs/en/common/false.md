@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/false (English)
-description: "Returns an exit code of 1."
-content_hash: 384b67e9985787fe878b63f9ba481205d68493de
+description: "Returns a non-zero exit code."
+content_hash: ab61e6818e72bed459a97773f836fa9482afba1c
+last_modified_at: 2023-02-02
 related_topics:
   - title: bosanski version
     url: /bs/common/false.html
@@ -19,7 +20,7 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/false.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/false.html
     icon: bi bi-globe
   - title: svenska version
@@ -28,9 +29,9 @@ related_topics:
 ---
 # false
 
-Returns an exit code of 1.
+Returns a non-zero exit code.
 More information: <https://www.gnu.org/software/coreutils/false>.
 
-- Return an exit code of 1:
+- Return a non-zero exit code:
 
 `false`
