@@ -1,0 +1,39 @@
+---
+layout: page
+title: linux/konsave (English)
+description: "A CLI program that lets you save and apply your Linux customizations with just one command."
+content_hash: 53945760501cc110eae87d6debe9e7a3a6941c4f
+last_modified_at: 2023-02-02
+---
+# konsave
+
+A CLI program that lets you save and apply your Linux customizations with just one command.
+More information: <https://github.com/Prayag2/konsave>.
+
+- Save the current configuration as a profile:
+
+`konsave --save `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span>
+
+- Apply a profile:
+
+`konsave --apply `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span>
+
+- Save the current configuration as a profile, overwriting existing profiles if they exist with the same name:
+
+`konsave -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span>` --force`
+
+- List all profiles:
+
+`konsave --list`
+
+- Remove a profile:
+
+`konsave --remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span>
+
+- Export a profile as a `.knsv` to the home directory:
+
+`konsave --export-profile `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile_name</span>
+
+- Import a `.knsv` profile:
+
+`konsave --import-profile `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/profile_name.knsv</span>
