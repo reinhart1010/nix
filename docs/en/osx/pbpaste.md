@@ -2,8 +2,8 @@
 layout: page
 title: osx/pbpaste (English)
 description: "Send the contents of the clipboard to standard output."
-content_hash: 5949959ee8cf2adf82a314c25626c62a98f19109
-last_modified_at: 2022-12-04
+content_hash: 43e8d97b6df9141fdccf9261fb1f1e547899e7e5
+last_modified_at: 2023-02-03
 related_topics:
   - title: Deutsch version
     url: /de/osx/pbpaste.html
@@ -18,6 +18,7 @@ related_topics:
 # pbpaste
 
 Send the contents of the clipboard to standard output.
+Comparable to pressing Cmd + V on the keyboard.
 More information: <https://ss64.com/osx/pbpaste.html>.
 
 - Write the contents of the clipboard to a file:

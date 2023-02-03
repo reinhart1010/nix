@@ -2,8 +2,8 @@
 layout: page
 title: common/dd (English)
 description: "Convert and copy a file."
-content_hash: 6993463a1af99582f83578870c37a83c19a551e5
-last_modified_at: 2023-01-01
+content_hash: ddf69d2291353d0143e3f75e5ae8274fb8c39ddd
+last_modified_at: 2023-02-03
 related_topics:
   - title: Deutsch version
     url: /de/common/dd.html
@@ -43,7 +43,3 @@ More information: <https://www.gnu.org/software/coreutils/dd>.
 - Restore a drive from an IMG file:
 
 `dd if=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.img</span>` of=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/drive_device</span>
-
-- Check the progress of an ongoing dd operation (run this command from another shell):
-
-`kill -USR1 $(pgrep ^dd)`

@@ -1,13 +1,9 @@
 ---
 layout: page
-title: osx/head (English)
+title: linux/head (English)
 description: "Output the first part of files."
-content_hash: 92a146f91a5260e92e75c556a352c4143ee24776
+content_hash: 2b8962bfc67d7b0fd2981485e52aee29f0d1913d
 last_modified_at: 2023-02-03
-related_topics:
-  - title: 中文 version
-    url: /zh/osx/head.html
-    icon: bi bi-globe
 ---
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
@@ -15,7 +11,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># head
 
 Output the first part of files.
-More information: <https://keith.github.io/xcode-man-pages/head.1.html>.
+More information: <https://www.gnu.org/software/coreutils/head>.
 
 - Output the first few lines of a file:
 
