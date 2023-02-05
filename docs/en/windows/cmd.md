@@ -2,8 +2,15 @@
 layout: page
 title: windows/cmd (English)
 description: "The Windows command interpreter."
-content_hash: b55246096f9297505e359fa99b42dd775ea8e826
+content_hash: 64687282c7567e65270392d02d494e4fe3be696d
+last_modified_at: 2023-02-05
 related_topics:
+  - title: Deutsch version
+    url: /de/windows/cmd.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/cmd.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/windows/cmd.html
     icon: bi bi-globe
@@ -32,17 +39,17 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 `cmd`
 
-- Execute a [c]ommand:
+- Execute specific [c]ommands:
 
-`cmd /c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>`"`
+`cmd /c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Hello world</span>
 
-- Execute a script:
+- Execute a specific script:
 
-`cmd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.bat</span>
+`cmd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.bat</span>
 
-- Execute a command and then enter an interactive shell:
+- Execute specific commands and then enter an interactive shell:
 
-`cmd /k "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>`"`
+`cmd /k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Hello world</span>
 
 - Start an interactive shell session where `echo` is disabled in command output:
 
@@ -56,6 +63,6 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 `cmd /e:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span>
 
-- Start an interactive shell session with used Unicode encoding:
+- Start an interactive shell session with used [u]nicode encoding:
 
 `cmd /u`
