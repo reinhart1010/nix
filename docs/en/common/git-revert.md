@@ -2,7 +2,8 @@
 layout: page
 title: common/git-revert (English)
 description: "Create new commits which reverse the effect of earlier ones."
-content_hash: 261613e626400024f0cd160b7bb6880919acdc5e
+content_hash: 823d40b5700872c9bab9197415e780cbc12463a1
+last_modified_at: 2023-02-06
 related_topics:
   - title: español version
     url: /es/common/git-revert.html
@@ -12,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-revert.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-revert.html
     icon: bi bi-globe
 ---
 # git revert
@@ -26,6 +30,10 @@ More information: <https://git-scm.com/docs/git-revert>.
 - Revert the 5th last commit:
 
 `git revert HEAD~`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span>
+
+- Revert a specific commit:
+
+`git revert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0c01a9</span>
 
 - Revert multiple commits:
 
