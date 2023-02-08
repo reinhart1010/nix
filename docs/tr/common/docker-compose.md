@@ -2,7 +2,8 @@
 layout: page
 title: common/docker-compose (Türkçe)
 description: "Çoklu konteynerli docker uygulamalarını çalıştırın ve yönetin."
-content_hash: 8f887719c0657fbce7debc5f7b4e55851d3d3c8f
+content_hash: eebb6c9c42d0c6427b9f85b2a01e8aa0a84f7c30
+last_modified_at: 2023-02-08
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -37,7 +38,7 @@ Daha fazla bilgi için: <https://docs.docker.com/compose/reference/>.
 
 - Mevcut dizinde bir `docker-compose.yml` dosyası çalıştırarak arkaplandaki tüm konteynerleri çalıştırın ve başlatın:
 
-`docker compose up -d`
+`docker compose up --detach`
 
 - Tüm konteynerleri çalıştırın ve gerekiyorsa yeniden oluşturun:
 

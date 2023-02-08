@@ -2,7 +2,8 @@
 layout: page
 title: common/docker-compose (português (Brasil))
 description: "Executa e gerencia multi-containers de aplicações Docker."
-content_hash: 3a44ba6dcb96636f5a626becf0245a1b3f0488ad
+content_hash: d56b0f12d199e2db7280b0ef9dd70c4061724b1f
+last_modified_at: 2023-02-08
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -37,7 +38,7 @@ Mais informações: <https://docs.docker.com/compose/reference/>.
 
 - Cria e inicia todos os containers em segundo plano usando um arquivo `docker-compose.yml` do seu diretório atual:
 
-`docker compose up -d`
+`docker compose up --detach`
 
 - Inicia todos os containers. Se necessário, realiza um rebuild:
 

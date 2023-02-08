@@ -2,7 +2,8 @@
 layout: page
 title: common/docker-compose (한국어)
 description: "다중 컨테이너 도커 어플리케이션 실행 및 관리."
-content_hash: 298aeaf3057c8e6bfab9cf6901aabd1700da5567
+content_hash: d8d8b5284880daea70443ddf3fd63e790daa149c
+last_modified_at: 2023-02-08
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -26,16 +27,7 @@ related_topics:
     url: /tr/common/docker-compose.html
     icon: bi bi-globe
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/docker-compose.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># docker compose
+# docker compose
 
 다중 컨테이너 도커 어플리케이션 실행 및 관리.
 더 많은 정보: <https://docs.docker.com/compose/reference/>.
@@ -46,7 +38,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 - 현재 디렉토리의 `docker-compose.yml` 파일을 사용해 모든 컨테이너를 백그라운드에서 생성하고 실행하기:
 
-`docker compose up -d`
+`docker compose up --detach`
 
 - 모든 컨테이너 실행, 필요 시 재빌드:
 

@@ -2,7 +2,8 @@
 layout: page
 title: common/docker-compose (français)
 description: "Exécute et gère des applications au travers de plusieurs conteneurs Docker."
-content_hash: f46f4b2ccf51bf700adc360216728c41e46eaf01
+content_hash: f5526d26905a2c05ce75fec6ac1610d1e8187d2b
+last_modified_at: 2023-02-08
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -37,7 +38,7 @@ Plus d'informations : <https://docs.docker.com/compose/reference/>.
 
 - Crée et démarre en arrière-plan tous les conteneurs décrits dans le fichier `docker-compose.yml` du répertoire courant :
 
-`docker compose up -d`
+`docker compose up --detach`
 
 - Démarre tous les conteneurs après les avoir recréés si nécessaire :
 

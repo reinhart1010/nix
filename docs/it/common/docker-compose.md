@@ -2,7 +2,8 @@
 layout: page
 title: common/docker-compose (italiano)
 description: "Esegui e gestisci applicazioni Docker composte da più container."
-content_hash: 741b5da04bf10f399c73d08734958b51351b6294
+content_hash: b39bd4be49ad8d28a260737886b8b28e84e27af4
+last_modified_at: 2023-02-08
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -37,7 +38,7 @@ Maggiori informazioni: <https://docs.docker.com/compose/reference/>.
 
 - Crea ed avvia tutti i container in background utilizzando il file `docker-compose.yml` nella directory corrente:
 
-`docker compose up -d`
+`docker compose up --detach`
 
 - Avvia tutti i container, buildandoli di nuovo se necessario:
 
