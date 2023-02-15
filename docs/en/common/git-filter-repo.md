@@ -2,12 +2,10 @@
 layout: page
 title: common/git-filter-repo (English)
 description: "A versatile tool for rewriting Git history."
-content_hash: 38bef94e6ff449f1e33837fb4a0dea330f07137c
+content_hash: e1540aa1aa9de67a99308dba7c552a3fb23da7d1
+last_modified_at: 2023-02-15
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git filter-repo
+# git filter-repo
 
 A versatile tool for rewriting Git history.
 See also: `bfg`.
@@ -19,12 +17,12 @@ More information: <https://github.com/newren/git-filter-repo>.
 
 - Extract a single folder, keeping history:
 
-`git-filter-repo --path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/folder</span>
+`git filter-repo --path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/folder</span>
 
 - Remove a single folder, keeping history:
 
-`git-filter-repo --path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/folder</span>` --invert-paths`
+`git filter-repo --path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/folder</span>` --invert-paths`
 
 - Move everything from sub-folder one level up:
 
-`git-filter-repo --path-rename `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/folder/:</span>
+`git filter-repo --path-rename `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/folder/:</span>
