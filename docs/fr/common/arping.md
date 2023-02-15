@@ -2,7 +2,8 @@
 layout: page
 title: common/arping (français)
 description: "Découvre et sonde des hôtes dans un réseau en utilisant le protocol ARP."
-content_hash: b3b004e5af976b611b69e77a354e1cbdc22769bb
+content_hash: 0d9f61b3312c97e98f9a26cbcb3360badf07cc21
+last_modified_at: 2023-02-15
 related_topics:
   - title: English version
     url: /en/common/arping.html
@@ -14,10 +15,7 @@ related_topics:
     url: /ko/common/arping.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># arping
+# arping
 
 Découvre et sonde des hôtes dans un réseau en utilisant le protocol ARP.
 Très utile pour la découverte d'adresse MAC.
@@ -39,7 +37,7 @@ Plus d'informations : <https://github.com/ThomasHabets/arping>.
 
 `arping -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_d_appel</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_hôte</span>
 
-- Diffuse les paquets de requête ARP pour mettre à hour les caches ARP voisin :
+- Diffuse les paquets de requête ARP pour mettre à jour les caches ARP voisin :
 
 `arping -U `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_à_diffuser</span>
 
