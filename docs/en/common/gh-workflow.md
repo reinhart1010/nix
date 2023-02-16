@@ -2,8 +2,8 @@
 layout: page
 title: common/gh-workflow (English)
 description: "List, view, and run GitHub Actions workflows."
-content_hash: ddeaa4d6b1848143aa447e9cfb6f31ef089eb692
-last_modified_at: 2022-12-04
+content_hash: 06edf9098a5449e915b4be78fea366922c7c2767
+last_modified_at: 2023-02-16
 ---
 # gh workflow
 
@@ -24,7 +24,7 @@ More information: <https://cli.github.com/manual/gh_workflow>.
 
 - Display the YAML definition for a specific Git branch or tag:
 
-`gh workflow view `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id|workflow_name|filename.yml</span>` --ref `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_or_tag_name</span>` --yaml`
+`gh workflow view `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id|workflow_name|filename.yml</span>` --ref `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch|tag_name</span>` --yaml`
 
 - List workflow files (use `--all` to include disabled workflows):
 
@@ -32,11 +32,11 @@ More information: <https://cli.github.com/manual/gh_workflow>.
 
 - Run a manual workflow with parameters:
 
-`gh workflow run `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id|workflow_name|filename.yml</span>` --raw-field `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">param1</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value1</span>` --raw-field `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">param2</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value2</span>
+`gh workflow run `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id|workflow_name|filename.yml</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--raw-field param1=value1 --raw-field param2=value2 ...</span>
 
 - Run a manual workflow using a specific branch or tag with JSON parameters from `stdin`:
 
-`echo '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">{"param1":"value1", "param2":"value2"}</span>`' | gh workflow run `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id|workflow_name|filename.yml</span>` --ref `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_or_tag_name</span>
+`echo '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">{"param1": "value1", "param2": "value2", ...}</span>`' | gh workflow run `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id|workflow_name|filename.yml</span>` --ref `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch|tag_name</span>
 
 - Enable or disable a specific workflow:
 
