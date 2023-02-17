@@ -1,0 +1,44 @@
+---
+layout: page
+title: android/screencap (中文)
+description: "捕获移动设备显示器的屏幕截图。"
+content_hash: d1f2946e186c6d3c0a7aec581964a9ed744c0626
+last_modified_at: 2023-02-17
+related_topics:
+  - title: বাংলা version
+    url: /bn/android/screencap.html
+    icon: bi bi-globe
+  - title: English version
+    url: /en/android/screencap.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/android/screencap.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/android/screencap.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/android/screencap.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/android/screencap.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/android/screencap.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/android/screencap.html
+    icon: bi bi-globe
+---
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># screencap
+
+捕获移动设备显示器的屏幕截图。
+此命令只能通过 `adb shell` 使用。
+更多信息：<https://developer.android.com/studio/command-line/adb#screencap>.
+
+- 捕获屏幕截图：
+
+`screencap `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span>
