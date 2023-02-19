@@ -2,7 +2,8 @@
 layout: page
 title: linux/lftp (English)
 description: "Sophisticated file transfer program."
-content_hash: 4c07acc5417f9061743d482b01bcee67800bbc39
+content_hash: 4b757d426062e336c399124a0269b96d23f5f859
+last_modified_at: 2023-02-19
 ---
 # lftp
 
@@ -11,7 +12,7 @@ More information: <https://lftp.yar.ru/lftp-man.html>.
 
 - Connect to an FTP server:
 
-`lftp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ftp.example.com</span>
+`lftp --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ftp.example.com</span>
 
 - Download multiple files (glob expression):
 

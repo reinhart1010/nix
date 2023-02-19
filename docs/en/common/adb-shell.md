@@ -2,8 +2,12 @@
 layout: page
 title: common/adb-shell (English)
 description: "Android Debug Bridge Shell: Run remote shell commands on an Android emulator instance or connected Android devices."
-content_hash: c657155cb36850656fa2dcbb9394eb4d06e65be9
+content_hash: 97ffb25221e05349ec906bd9ad5496e4d95b8633
+last_modified_at: 2023-02-19
 related_topics:
+  - title: français version
+    url: /fr/common/adb-shell.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/adb-shell.html
     icon: bi bi-globe
@@ -28,7 +32,7 @@ related_topics:
 Android Debug Bridge Shell: Run remote shell commands on an Android emulator instance or connected Android devices.
 More information: <https://developer.android.com/studio/command-line/adb>.
 
-- Start a remote interactive shell on the emulator/device:
+- Start a remote interactive shell on the emulator or device:
 
 `adb shell`
 
@@ -52,7 +56,7 @@ More information: <https://developer.android.com/studio/command-line/adb>.
 
 `adb shell pm clear `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
-- Start an activity on emulator/device:
+- Start an activity on emulator or device:
 
 `adb shell am start -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">activity</span>
 
