@@ -2,7 +2,8 @@
 layout: page
 title: common/yt-dlp (English)
 description: "A youtube-dl fork with additional features and fixes."
-content_hash: bd776c74019f318717b66bd0133b2a1b0ca93e8f
+content_hash: b3c4bcf3394b8916894625e6632b34fafd2c4936
+last_modified_at: 2023-02-19
 related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/yt-dlp.html
@@ -18,19 +19,19 @@ More information: <https://github.com/yt-dlp/yt-dlp>.
 
 `yt-dlp "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span>`"`
 
+- List the available downloadable formats for a video:
+
+`yt-dlp --list-formats "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span>`"`
+
 - Download a video with a defined format, in this case the best mp4 video available (default is "bv\*+ba/b"):
 
 `yt-dlp --format "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4]</span>`" "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span>`"`
 
-- Extract audio from videos (required ffmpeg or ffprobe):
+- Extract audio from a video (requires ffmpeg or ffprobe):
 
 `yt-dlp --extract-audio "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span>`"`
 
-- Specify audio format of extracted audio (the default is "best"):
-
-`yt-dlp --extract-audio --audio-format `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mp3</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span>`"`
-
-- Specify audio quality of extracted audio (between 0 (best) and 10 (worst), default = 5):
+- Specify audio format and audio quality of extracted audio (between 0 (best) and 10 (worst), default = 5):
 
 `yt-dlp --extract-audio --audio-format `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mp3</span>` --audio-quality `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span>`"`
 

@@ -2,7 +2,12 @@
 layout: page
 title: osx/csrutil (English)
 description: "Manage the System Integrity Protection configuration."
-content_hash: a0b5f1296eb6a0dde2fa9e80382421bb31309dce
+content_hash: fcf55b9152faafc37776f4ba3121e2a474577153
+last_modified_at: 2023-02-19
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/osx/csrutil.html
+    icon: bi bi-globe
 ---
 # csrutil
 
@@ -27,7 +32,7 @@ More information: <https://ss64.com/osx/csrutil.html>.
 
 - Add an IPv4 address to the list of allowed NetBoot sources:
 
-`csrutil netboot add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address</span>
+`csrutil netboot add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip</span>
 
 - Reset the System Integrity Protection status and clear the NetBoot list:
 
