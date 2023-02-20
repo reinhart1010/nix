@@ -2,7 +2,12 @@
 layout: page
 title: osx/security (English)
 description: "Administer keychains, keys, certificates and the Security framework."
-content_hash: 5ef3da806d346314aaa1c59ccad84f8ee9c9439f
+content_hash: b24cce883dcf897f84dae9654204599122fbf948
+last_modified_at: 2023-02-20
+related_topics:
+  - title: polski version
+    url: /pl/osx/security.html
+    icon: bi bi-globe
 ---
 # security
 
@@ -27,12 +32,12 @@ More information: <https://ss64.com/osx/security.html>.
 
 - Add a certificate from file to a [k]eychain (if -k isn't specified, the default keychain is used):
 
-`security add-certificates -k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.keychain</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/cert.pem</span>
+`security add-certificates -k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.keychain</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/cert_file.pem</span>
 
 - Add a CA certificate to the per-user Trust Settings:
 
-`security add-trusted-cert -k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/user-keychain.keychain-db</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/ca-cert.pem</span>
+`security add-trusted-cert -k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/user-keychain.keychain-db</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/ca-cert_file.pem</span>
 
 - Remove a CA certificate from the per-user Trust Settings:
 
-`security remove-trusted-cert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/ca-cert.pem</span>
+`security remove-trusted-cert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/ca-cert_file.pem</span>

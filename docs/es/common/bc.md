@@ -2,10 +2,14 @@
 layout: page
 title: common/bc (español)
 description: "Un lenguaje de calculadora de precisión arbitraria."
-content_hash: ac46108674dcbd516d78f9afc7f26f4542a205bc
+content_hash: 161378e65464b45804a7f981573f512addada950
+last_modified_at: 2023-02-20
 related_topics:
   - title: English version
     url: /en/common/bc.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/bc.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/bc.html
@@ -26,20 +30,29 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># bc
 
 Un lenguaje de calculadora de precisión arbitraria.
+Ver también: `dc`.
 Más información: <https://manned.org/man/bc.1>.
 
-- Inicia `bc` en el modo interactivo utilizando la biblioteca matemática estándar:
+- Inicia una sesión interactiva:
 
-`bc -l`
+`bc`
 
-- Calcula el resultado de una expresión:
+- Inicia una sesión interactiva con la biblioteca matemática estándar activada:
 
-`bc <<< "(1 + 2) * 2 ^ 2"`
+`bc --mathlib`
 
-- Calcula el resultado de una expresión y fuerza a que el resultado tenga 10 cifras decimales:
+- Calcula una expresión:
 
-`bc <<< "scale=10; 5 / 3"`
+`echo '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5 / 3</span>`'' | bc`
 
-- Calcula el resultado de una expresión con el seno y coseno utilizando `mathlib`:
+- Ejecuta un script:
 
-`bc -l <<< "s(1) + c(1)"`
+`bc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/script.bc</span>
+
+- Calcula una expresión con la escala especificada:
+
+`echo 'scale = `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>`; `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5 / 3</span>`'' | bc`
+
+- Calcula una función seno/coseno/arctangente/logaritmo natural/exponencial utilizando `mathlib`:
+
+`echo '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">s|c|a|l|e</span>`(`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>`)'' | bc --mathlib`

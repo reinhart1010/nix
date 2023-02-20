@@ -2,8 +2,8 @@
 layout: page
 title: windows/msg (English)
 description: "Send a message to a specific user or session."
-content_hash: 4fa20460a4b290fd21b1aa0200e71f6d52fa42cf
-last_modified_at: 2022-12-04
+content_hash: 35c70fc6aa4c49388e56c9e526b48a1cc0e5fd28
+last_modified_at: 2023-02-20
 related_topics:
   - title: polski version
     url: /pl/windows/msg.html
@@ -35,4 +35,4 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 - Set a delay in seconds for a message:
 
-`msg /time:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">seconds</span>
+`msg /time:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>

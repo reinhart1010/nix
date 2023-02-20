@@ -2,7 +2,8 @@
 layout: page
 title: osx/systemsetup (English)
 description: "Configure System Preferences machine settings."
-content_hash: 4d9bd07403920148182659fa71ece166a8d52bc5
+content_hash: 2098419abc0f2c186c08e02ae1f279f7d2adcdb9
+last_modified_at: 2023-02-20
 related_topics:
   - title: português (Portugal) version
     url: /pt_PT/osx/systemsetup.html
@@ -34,4 +35,4 @@ More information: <https://support.apple.com/guide/remote-desktop/about-systemse
 
 - Specify a new startup disk:
 
-`systemsetup -setstartupdisk `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path</span>
+`systemsetup -setstartupdisk `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>

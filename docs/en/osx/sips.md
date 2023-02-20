@@ -2,7 +2,8 @@
 layout: page
 title: osx/sips (English)
 description: "Apple Scriptable Image Processing System."
-content_hash: 48d82f7a8af719edf53986e2e0b7c4131cd862c8
+content_hash: 7e277bb008a7ffbce267aac4ea1e65a13b9809a5
+last_modified_at: 2023-02-20
 related_topics:
   - title: 中文 version
     url: /zh/osx/sips.html
@@ -20,11 +21,11 @@ More information: <https://ss64.com/osx/sips.html>.
 
 - Resample image at specified size, Image aspect ratio may be altered:
 
-`sips --resampleHeightWidth `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1920</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">300</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.ext</span>
+`sips --resampleHeightWidth `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1920</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">300</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_file.ext</span>
 
 - Resample image so height and width aren't greater than specified size (notice the capital Z):
 
-`sips --resampleHeightWidthMax `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1920</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">300</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.ext</span>
+`sips --resampleHeightWidthMax `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1920</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">300</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image_file.ext</span>
 
 - Resample all images in a directory to fit a width of 960px (honoring aspect ratio):
 
@@ -36,4 +37,4 @@ More information: <https://ss64.com/osx/sips.html>.
 
 - Remove ColorSync ICC profile from an image:
 
-`sips --deleteProperty profile --deleteColorManagementProperties `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.ext</span>
+`sips --deleteProperty profile --deleteColorManagementProperties `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image_file.ext</span>

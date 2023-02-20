@@ -2,13 +2,10 @@
 layout: page
 title: windows/test-json (English)
 description: "Tests whether a string is a valid JSON document."
-content_hash: 37b524b449d91ceec3440941d40b2c37a2382d3d
-last_modified_at: 2022-12-21
+content_hash: 9aacd8e456d8f159619278d4336cf4c4e701e9b4
+last_modified_at: 2023-02-20
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># Test-Json
+# Test-Json
 
 Tests whether a string is a valid JSON document.
 This command can only be used through PowerShell.
@@ -24,4 +21,4 @@ More information: <https://learn.microsoft.com/powershell/module/microsoft.power
 
 - Test if a string from stdin matches a specific schema file:
 
-`'`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>`' | Test-Json -SchemaFile `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/schema.json</span>
+`'`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>`' | Test-Json -SchemaFile `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\schema_file.json</span>

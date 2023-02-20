@@ -2,7 +2,12 @@
 layout: page
 title: windows/invoke-webrequest (English)
 description: "Performs a HTTP/HTTPS request to the Web."
-content_hash: f13a143d7f07a9d0052589025c5914962ba38d03
+content_hash: c005ee60a501441e0a9d5c540787ee237d0c5ed5
+last_modified_at: 2023-02-20
+related_topics:
+  - title: Indonesia version
+    url: /id/windows/invoke-webrequest.html
+    icon: bi bi-globe
 ---
 # Invoke-WebRequest
 
@@ -12,7 +17,7 @@ More information: <https://learn.microsoft.com/powershell/module/microsoft.power
 
 - Download the contents of a URL to a file:
 
-`Invoke-WebRequest `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span>` -OutFile `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>
+`Invoke-WebRequest `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span>` -OutFile `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file</span>
 
 - Send form-encoded data (POST request of type `application/x-www-form-urlencoded`):
 

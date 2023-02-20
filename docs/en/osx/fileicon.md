@@ -2,7 +2,12 @@
 layout: page
 title: osx/fileicon (English)
 description: "A macOS CLI to manage custom file and folder icons."
-content_hash: 6bd9a41799a31a55b4bb17fd6f2fe0a54faf1a56
+content_hash: e7dfd8a1a0484b7776f1c6a9520bd2215288299f
+last_modified_at: 2023-02-20
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/osx/fileicon.html
+    icon: bi bi-globe
 ---
 # fileicon
 
@@ -11,7 +16,7 @@ More information: <https://github.com/mklement0/fileicon>.
 
 - Set a custom icon for a specific file or directory:
 
-`fileicon set `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/icon.png</span>
+`fileicon set `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/icon_file.png</span>
 
 - Remove a custom icon from a specific file or directory:
 

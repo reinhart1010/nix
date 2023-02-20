@@ -2,13 +2,10 @@
 layout: page
 title: osx/tart (English)
 description: "Build, run and manage macOS and Linux virtual machines (VMs) on Apple Silicon."
-content_hash: 6f5561a9753b3a901c362605b1f9845b69adf605
-last_modified_at: 2022-12-17
+content_hash: 539ae0d86d822bf51402dc3dd120e3432f1dd396
+last_modified_at: 2023-02-20
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># tart
+# tart
 
 Build, run and manage macOS and Linux virtual machines (VMs) on Apple Silicon.
 More information: <https://github.com/cirruslabs/tart>.
@@ -43,4 +40,4 @@ More information: <https://github.com/cirruslabs/tart>.
 
 - Change a VM's display resolution:
 
-`tart set `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm-name</span>` --display `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">width</span>`x`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">height</span>
+`tart set `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm-name</span>` --display `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">640</span>`x`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">400</span>

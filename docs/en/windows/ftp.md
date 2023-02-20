@@ -2,8 +2,12 @@
 layout: page
 title: windows/ftp (English)
 description: "Interactively transfer files between a local and remote FTP server."
-content_hash: 39cf4615bb9bec7be7af66c599303a028b309792
+content_hash: 28ddc48b3e826f6fb069ae6e1a5ce8d157aa0d9c
+last_modified_at: 2023-02-20
 related_topics:
+  - title: Deutsch version
+    url: /de/windows/ftp.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/ftp.html
     icon: bi bi-globe
@@ -27,7 +31,7 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 - Run a file containing a list of FTP commands:
 
-`ftp -s:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>
+`ftp -s:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>
 
 - Download multiple files (glob expression):
 

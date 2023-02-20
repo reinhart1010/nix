@@ -2,8 +2,8 @@
 layout: page
 title: osx/icalbuddy (English)
 description: "Command-line utility for printing events and tasks from the macOS calendar database."
-content_hash: 3d1702906af6231fa9864ead5155dafc14b2b552
-last_modified_at: 2022-11-21
+content_hash: 01485a2b0f8b92f13c94aa6bbba14a672a3ab4e3
+last_modified_at: 2023-02-20
 related_topics:
   - title: español version
     url: /es/osx/icalbuddy.html
@@ -31,7 +31,7 @@ More information: <https://hasseg.org/icalBuddy/>.
 
 - Show tasks for a specified number of days:
 
-`icalBuddy --includeOnlyEventsFromNowOn "tasksDueBefore:today+`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">days</span>`"`
+`icalBuddy --includeOnlyEventsFromNowOn "tasksDueBefore:today+`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8</span>`"`
 
 - Show events in a time range:
 

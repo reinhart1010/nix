@@ -2,7 +2,8 @@
 layout: page
 title: windows/invoke-item (English)
 description: "Open files in their respective default programs."
-content_hash: 53989d0aea0415037b37dc065c82ad486ecb7174
+content_hash: 5acc512386c385e300e801cfe9e62501a289c426
+last_modified_at: 2023-02-20
 ---
 # Invoke-Item
 
@@ -12,24 +13,24 @@ More information: <https://learn.microsoft.com/powershell/module/microsoft.power
 
 - Open a file in its default program:
 
-`Invoke-Item -Path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`Invoke-Item -Path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file</span>
 
 - Open all files inside a directory:
 
-`Invoke-Item -Path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory/*</span>
+`Invoke-Item -Path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory</span>`\*`
 
 - Open all PNGs inside a directory:
 
-`Invoke-Item -Path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory/*.png</span>
+`Invoke-Item -Path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory</span>`\*.png`
 
 - Open all files inside a directory containing a specific keyword:
 
-`Invoke-Item -Path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory/*</span>` -Include `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*keyword*</span>
+`Invoke-Item -Path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory</span>`\* -Include `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*keyword*</span>
 
 - Open all files inside a directory except those containing a specific keyword:
 
-`Invoke-Item -Path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory/*</span>` -Exclude `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*keyword*</span>
+`Invoke-Item -Path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory</span>`\* -Exclude `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*keyword*</span>
 
 - Perform a dry run to determine which files will be opened inside a directory through `Invoke-Item`:
 
-`Invoke-Item -Path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory/*</span>` -WhatIf`
+`Invoke-Item -Path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory</span>`\* -WhatIf`

@@ -2,7 +2,8 @@
 layout: page
 title: windows/tree (English)
 description: "Display a graphical tree of the directory structure for a path."
-content_hash: eef392edf9ade50fa7cbecd96165659832aa6051
+content_hash: 8cfddfe6c06ce26a4f800a0ba8d5d464b642f555
+last_modified_at: 2023-02-20
 related_topics:
   - title: Indonesia version
     url: /id/windows/tree.html
@@ -28,12 +29,12 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 - Display the tree for a specific directory:
 
-`tree `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
+`tree `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory</span>
 
 - Display the tree for a directory including files:
 
-`tree `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` /f`
+`tree `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory</span>` /f`
 
 - Display the tree using ASCII characters instead of extended characters:
 
-`tree `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` /a`
+`tree `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory</span>` /a`

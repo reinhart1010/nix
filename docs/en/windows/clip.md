@@ -2,10 +2,17 @@
 layout: page
 title: windows/clip (English)
 description: "Copy input content to the Windows clipboard."
-content_hash: fb3896650caa68335649c3f378eb8221c9e4fbd1
+content_hash: 0a1c1b91fd137774e9216529c3eff300da78c52f
+last_modified_at: 2023-02-20
 related_topics:
+  - title: Deutsch version
+    url: /de/windows/clip.html
+    icon: bi bi-globe
   - title: 日本語 version
     url: /ja/windows/clip.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/clip.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/clip.html
@@ -22,7 +29,7 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 - Copy the contents of a file to the Windows clipboard:
 
-`clip < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ext</span>
+`clip < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file.ext</span>
 
 - Copy text with a trailing newline to the Windows clipboard:
 

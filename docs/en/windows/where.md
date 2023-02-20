@@ -2,8 +2,12 @@
 layout: page
 title: windows/where (English)
 description: "Display the location of files that match the search pattern."
-content_hash: 80f66ee2de36fff13dbf58bd43baf13ebc4e8198
+content_hash: 468b9a651f574f64aa5c9ac136721e1a54679d65
+last_modified_at: 2023-02-20
 related_topics:
+  - title: русский version
+    url: /ru/windows/where.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/where.html
     icon: bi bi-globe
@@ -24,7 +28,7 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 - Recursively search for file pattern at specified path:
 
-`where /R `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_pattern</span>
+`where /R `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_pattern</span>
 
 - Silently return the error code for the location of the file pattern:
 

@@ -2,17 +2,14 @@
 layout: page
 title: osx/sed (English)
 description: "Edit text in a scriptable manner."
-content_hash: a1c917e156a71c93a8da61f4887ef4bbd64f067a
-last_modified_at: 2022-12-13
+content_hash: 32f7a72cab2dd7d5f712cda2fc62f9af48883575
+last_modified_at: 2023-02-20
 related_topics:
   - title: 中文 version
     url: /zh/osx/sed.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># sed
+# sed
 
 Edit text in a scriptable manner.
 See also: `awk`, `ed`.
@@ -24,7 +21,7 @@ More information: <https://keith.github.io/xcode-man-pages/sed.1.html>.
 
 - Execute a specific script [f]ile and print the result to `stdout`:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` | sed -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sed</span>
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` | sed -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script_file.sed</span>
 
 - Replace all `apple` (extended regex) occurrences with `APPLE` (extended regex) in all input lines and print the result to `stdout`:
 

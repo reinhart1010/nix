@@ -2,7 +2,8 @@
 layout: page
 title: windows/get-history (English)
 description: "Display PowerShell command history."
-content_hash: 38e5d82dd8d4ce878a405726a046c4002217f50b
+content_hash: 994429f691e9fa5441bb7e6edca35852e070042c
+last_modified_at: 2023-02-20
 ---
 # Get-History
 
@@ -20,4 +21,4 @@ More information: <https://learn.microsoft.com/powershell/module/microsoft.power
 
 - Display the last N commands:
 
-`Get-History -Count `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">count</span>
+`Get-History -Count `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>

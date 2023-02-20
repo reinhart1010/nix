@@ -2,7 +2,8 @@
 layout: page
 title: osx/launchctl (English)
 description: "A command-line interface to Apple's `launchd` manager for launch daemons (system-wide services) and launch agents (per-user programs)."
-content_hash: 974ab02c2d12762aeefd6d23c0ae0f4c454a634c
+content_hash: 77c0d239a3341533017d32d12c7715c02a6b634a
+last_modified_at: 2023-02-20
 related_topics:
   - title: 中文 version
     url: /zh/osx/launchctl.html
@@ -36,8 +37,8 @@ More information: <https://manned.org/launchctl>.
 
 - Manually run a known (loaded) agent/daemon, even if it is not the right time (note: this command uses the agent's label, rather than the filename):
 
-`launchctl start `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my_script</span>
+`launchctl start `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">script_file</span>
 
 - Manually kill the process associated with a known agent/daemon, if it is running:
 
-`launchctl stop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my_script</span>
+`launchctl stop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">script_file</span>

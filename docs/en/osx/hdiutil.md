@@ -2,7 +2,12 @@
 layout: page
 title: osx/hdiutil (English)
 description: "Utility to create and manage disk images."
-content_hash: ece96025947a87ce2eeee7fd9d6bb7f989075581
+content_hash: 92c143d514c965f4afa6e273dd69c310320f58dd
+last_modified_at: 2023-02-20
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/osx/hdiutil.html
+    icon: bi bi-globe
 ---
 # hdiutil
 
@@ -15,7 +20,7 @@ More information: <https://ss64.com/osx/hdiutil.html>.
 
 - Unmount an image:
 
-`hdiutil detach /Volumes/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_name</span>
+`hdiutil detach /Volumes/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">volume_file</span>
 
 - List mounted images:
 

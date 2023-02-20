@@ -2,7 +2,8 @@
 layout: page
 title: windows/ftype (English)
 description: "Display or modify file types used for file extension association."
-content_hash: a74ca3fa6656e691afeeafe53d489bb150a71b61
+content_hash: 772cf9a8f578e653182ab6782df96e6b77cb9382
+last_modified_at: 2023-02-20
 related_topics:
   - title: 中文 version
     url: /zh/windows/ftype.html
@@ -23,4 +24,4 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 - Set the associated program for a specific file type:
 
-`ftype `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_type</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/executable_command</span>`"`
+`ftype `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_type</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/executable_file</span>`"`

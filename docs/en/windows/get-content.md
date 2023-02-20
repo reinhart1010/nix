@@ -2,7 +2,8 @@
 layout: page
 title: windows/get-content (English)
 description: "Get the content of the item at the specified location."
-content_hash: a6de0171d626a0e35d016f25e7ad2ce8900da921
+content_hash: 17c8bf3b8adaf6261135f68cd61157435dfbc6e1
+last_modified_at: 2023-02-20
 ---
 # Get-Content
 
@@ -12,12 +13,12 @@ More information: <https://learn.microsoft.com/powershell/module/microsoft.power
 
 - Display the content of a file:
 
-`Get-Content -Path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`Get-Content -Path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file</span>
 
 - Display the first few lines of a file:
 
-`Get-Content -Path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` -TotalCount `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">count</span>
+`Get-Content -Path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file</span>` -TotalCount `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>
 
 - Display the content of the file and keep reading from it until `Ctrl + C` is pressed:
 
-`Get-Content -Path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` -Wait`
+`Get-Content -Path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file</span>` -Wait`

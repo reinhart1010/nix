@@ -2,7 +2,8 @@
 layout: page
 title: windows/for (English)
 description: "Conditionally execute a command several times."
-content_hash: 7f6285574009e3a98a8c0f4ccc1baa78cddfdfa5
+content_hash: ce1b74abfcfa39b96d987a14bdea058377412b4b
+last_modified_at: 2023-02-20
 ---
 # for
 
@@ -19,11 +20,11 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 - Iterate over a given list of files:
 
-`for %`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span>` in (`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_a.ext file_b.ext file_c.ext</span>`) do (`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Loop is executed</span>`)`
+`for %`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span>` in (`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file1.ext path\to\file2.ext ...</span>`) do (`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Loop is executed</span>`)`
 
 - Iterate over a given list of directories:
 
-`for /d %`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span>` in (`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory_a/ directory_b/ directory_c/</span>`) do (`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Loop is executed</span>`)`
+`for /d %`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span>` in (`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory1.ext path\to\directory2.ext ...</span>`) do (`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Loop is executed</span>`)`
 
 - Perform a given command in every directory:
 

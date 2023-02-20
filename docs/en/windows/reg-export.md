@@ -2,7 +2,8 @@
 layout: page
 title: windows/reg-export (English)
 description: "Export the specified sub keys and values into a file."
-content_hash: e3f13795597f06c15bdfa68592d75dffe36e2701
+content_hash: 1ddb34b6e9caadba1cff48963482e0d18523bc30
+last_modified_at: 2023-02-20
 related_topics:
   - title: 中文 version
     url: /zh/windows/reg-export.html
@@ -15,8 +16,8 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 - Export all sub keys and values of a specific key:
 
-`reg export `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.reg</span>
+`reg export `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file.reg</span>
 
 - Force overwriting of an existing file without prompt:
 
-`reg export `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.reg</span>` /y`
+`reg export `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file.reg</span>` /y`

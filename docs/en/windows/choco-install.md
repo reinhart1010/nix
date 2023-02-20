@@ -2,13 +2,23 @@
 layout: page
 title: windows/choco-install (English)
 description: "Install one or more packages with Chocolatey."
-content_hash: 45e47307f1c978ecc14e054052bacc4060a2e748
+content_hash: a4348e0cc77d4dd59e38eba8ed933e72948c70b4
+last_modified_at: 2023-02-20
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-install.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/windows/choco-install.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/windows/choco-install.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/choco-install.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/choco-install.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/choco-install.html
@@ -21,15 +31,15 @@ More information: <https://chocolatey.org/docs/commands-install>.
 
 - Install one or more space-separated packages:
 
-`choco install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package(s)</span>
+`choco install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 ...</span>
 
 - Install packages from a custom configuration file:
 
-`choco install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/packages.config</span>
+`choco install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\packages_file.config</span>
 
 - Install a specific nuspec or nupkg file:
 
-`choco install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`choco install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file</span>
 
 - Install a specific version of a package:
 

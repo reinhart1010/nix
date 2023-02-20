@@ -2,7 +2,8 @@
 layout: page
 title: windows/shutdown (English)
 description: "A tool for shutting down, restarting or logging off a machine."
-content_hash: 96ef007064c87b7ba71d83f4e5719b8be06f3764
+content_hash: 0c330bbbb69473ef0adeb5fa983bce4f268bee2f
+last_modified_at: 2023-02-20
 related_topics:
   - title: Nederlands version
     url: /nl/windows/shutdown.html
@@ -38,7 +39,7 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 - Specify a timeout in seconds to wait before shutting down:
 
-`shutdown /s /t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">seconds</span>
+`shutdown /s /t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8</span>
 
 - Abort a shutdown sequence whose timeout is yet to expire:
 

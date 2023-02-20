@@ -2,8 +2,12 @@
 layout: page
 title: osx/wacaw (English)
 description: "Command-line tool for macOS to capture both still pictures and video from an attached camera."
-content_hash: d8d7ec98156a5632809f5bd3da6e309f77e27ab5
+content_hash: 5ea521b0d46e8fac86d42d4f7d3f2abfa61e86d2
+last_modified_at: 2023-02-20
 related_topics:
+  - title: español version
+    url: /es/osx/wacaw.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/wacaw.html
     icon: bi bi-globe
@@ -19,11 +23,11 @@ More information: <http://webcam-tools.sourceforge.net>.
 
 - Record a video:
 
-`wacaw --video `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>` --duration `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">duration_in_seconds</span>
+`wacaw --video `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>` --duration `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>
 
 - Take a picture with custom resolution:
 
-`wacaw --width `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">width</span>` --height `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">height</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>
+`wacaw --width `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">width</span>` --height `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>
 
 - Copy image just taken to clipboard:
 

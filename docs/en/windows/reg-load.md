@@ -2,7 +2,8 @@
 layout: page
 title: windows/reg-load (English)
 description: "Load saved sub keys into a different sub key in the registry."
-content_hash: 1a8a8053a412eff3267683ab57df3e857cfb3e7d
+content_hash: 690421a75211f98b09a93750573509bb2b887035
+last_modified_at: 2023-02-20
 related_topics:
   - title: 中文 version
     url: /zh/windows/reg-load.html
@@ -16,4 +17,4 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 - Load a backup file into the specified key:
 
-`reg load `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`reg load `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file</span>

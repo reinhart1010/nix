@@ -2,13 +2,17 @@
 layout: page
 title: windows/wsl (English)
 description: "Manage the Windows Subsystem for Linux from the command-line."
-content_hash: da2f521f68e87ce2673e4d9e3804fb7d31602f50
+content_hash: b411a0c8dbe7272b2477c94cb7554104c00e988d
+last_modified_at: 2023-02-20
 related_topics:
   - title: Deutsch version
     url: /de/windows/wsl.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/wsl.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/windows/wsl.html
     icon: bi bi-globe
 ---
 # wsl
@@ -34,11 +38,11 @@ More information: <https://learn.microsoft.com/windows/wsl/reference>.
 
 - Export a distribution to a `.tar` file:
 
-`wsl --export `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">distribution</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/distro_fs.tar</span>
+`wsl --export `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">distribution</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\distro_file.tar</span>
 
 - Import a distribution from a `.tar` file:
 
-`wsl --import `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">distribution</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/install_location</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/distro_fs.tar</span>
+`wsl --import `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">distribution</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\install_location</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/distro_file.tar</span>
 
 - Change the version of wsl used for the specified distribution:
 

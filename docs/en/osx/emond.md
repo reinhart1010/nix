@@ -2,7 +2,12 @@
 layout: page
 title: osx/emond (English)
 description: "Event Monitor service that accepts events from various services, runs them through a simple rules engine, and takes action."
-content_hash: cd71cc330a0ed1986c8df1048e9d0620dedb1225
+content_hash: 243a86dca219a060c724575b789f846d05e3b25a
+last_modified_at: 2023-02-20
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/osx/emond.html
+    icon: bi bi-globe
 ---
 # emond
 
@@ -20,4 +25,4 @@ More information: <https://www.manpagez.com/man/8/emond/>.
 
 - Use a specific configuration file:
 
-`emond -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config</span>
+`emond -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config_file</span>

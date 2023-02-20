@@ -1,9 +1,13 @@
 ---
 layout: page
 title: common/cd (español)
-description: "Cambiar el directorio de trabajo."
-content_hash: 1ff8317b145deb3e25c3962d6bc1283b1a6730bb
+description: "Cambia el directorio de trabajo actual."
+content_hash: b392dc58c10506622929a2d77740903594fb8d60
+last_modified_at: 2023-02-20
 related_topics:
+  - title: català version
+    url: /ca/common/cd.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/cd.html
     icon: bi bi-globe
@@ -25,6 +29,9 @@ related_topics:
   - title: italiano version
     url: /it/common/cd.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/cd.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/cd.html
     icon: bi bi-globe
@@ -43,6 +50,9 @@ related_topics:
   - title: svenska version
     url: /sv/common/cd.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/cd.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/cd.html
     icon: bi bi-globe
@@ -50,23 +60,40 @@ related_topics:
     url: /zh_TW/common/cd.html
     icon: bi bi-globe
 ---
-# cd
 
-Cambiar el directorio de trabajo.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/cd.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># cd
+
+Cambia el directorio de trabajo actual.
 Más información: <https://manned.org/cd>.
 
 - Accede al directorio especificado:
 
 `cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span>
 
-- Accede al directorio *home* del usuario actual:
-
-`cd`
-
-- Accede al directorio padre del directorio actual:
+- Subir al directorio padre respecto del directorio actual:
 
 `cd ..`
 
-- Accede al directorio elegido previamente:
+- Accede al directorio raíz del usuario actual:
+
+`cd`
+
+- Accede al directorio personal del usuario especificado:
+
+`cd ~`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombredeusuario</span>
+
+- Ir al directorio elegido anteriormente:
 
 `cd -`
+
+- Ir al directorio raíz:
+
+`cd /`

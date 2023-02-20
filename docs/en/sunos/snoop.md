@@ -2,10 +2,23 @@
 layout: page
 title: sunos/snoop (English)
 description: "Network packet sniffer."
-content_hash: ed7ae3d64fbebcef7b7ce752b09a867acb1647db
+content_hash: 974c9411e200d3c8382e81ef711e438f802b299d
+last_modified_at: 2023-02-20
 related_topics:
   - title: বাংলা version
     url: /bn/sunos/snoop.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/sunos/snoop.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/sunos/snoop.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/sunos/snoop.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/sunos/snoop.html
     icon: bi bi-globe
 ---
 # snoop
@@ -20,11 +33,11 @@ More information: <https://www.unix.com/man-page/sunos/1m/snoop>.
 
 - Save captured packets in a file instead of displaying them:
 
-`snoop -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>
+`snoop -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Display verbose protocol layer summary of packets from a file:
 
-`snoop -V -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>
+`snoop -V -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Capture network packets that come from a hostname and go to a given port:
 
@@ -32,4 +45,4 @@ More information: <https://www.unix.com/man-page/sunos/1m/snoop>.
 
 - Capture and show a hex-dump of network packets exchanged between two IP addresses:
 
-`snoop -x0 -p4 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address_1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address_2</span>
+`snoop -x0 -p4 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip2</span>

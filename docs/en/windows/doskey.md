@@ -2,8 +2,12 @@
 layout: page
 title: windows/doskey (English)
 description: "Manage macros, windows commands and command-lines."
-content_hash: a5f913034ba2c1ff62580ec7ef1a1b7155763228
+content_hash: 6a4253078ecb69c7d35eaeef343e6afff5d81ff7
+last_modified_at: 2023-02-20
 related_topics:
+  - title: தமிழ் version
+    url: /ta/windows/doskey.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/doskey.html
     icon: bi bi-globe
@@ -35,8 +39,8 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 - Save macros to a file for portability:
 
-`doskey /macros > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">macinit</span>
+`doskey /macros > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\macinit_file</span>
 
 - Load macros from a file:
 
-`doskey /macrofile = `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">macinit</span>
+`doskey /macrofile = `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\macinit_file</span>

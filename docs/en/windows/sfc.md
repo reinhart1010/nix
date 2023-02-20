@@ -2,7 +2,8 @@
 layout: page
 title: windows/sfc (English)
 description: "Scans the integrity of Windows system files."
-content_hash: 5fdc321df91d69e264029677617766f552b48b04
+content_hash: d482e70711a17f7db8c5497606fc92381cae859f
+last_modified_at: 2023-02-20
 related_topics:
   - title: 中文 version
     url: /zh/windows/sfc.html
@@ -27,16 +28,16 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 - Scan a specific file and, if possible, repair any problems:
 
-`sfc /scanfile=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`sfc /scanfile=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file</span>
 
 - Scan a specific file without attempting to repair it:
 
-`sfc /verifyfile=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`sfc /verifyfile=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file</span>
 
 - When repairing offline, specify the boot directory:
 
-`sfc /offbootdir=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
+`sfc /offbootdir=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory</span>
 
 - When repairing offline, specify the Windows directory:
 
-`sfc /offwindir=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
+`sfc /offwindir=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory</span>

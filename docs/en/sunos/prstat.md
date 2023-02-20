@@ -2,7 +2,21 @@
 layout: page
 title: sunos/prstat (English)
 description: "Report active process statistics."
-content_hash: 649f2ed246333a050db65c967c9d0534078ab2f8
+content_hash: e05a751d06702fd62aacf37432e7063224e1e236
+last_modified_at: 2023-02-20
+related_topics:
+  - title: français version
+    url: /fr/sunos/prstat.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/sunos/prstat.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/sunos/prstat.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/sunos/prstat.html
+    icon: bi bi-globe
 ---
 # prstat
 
@@ -27,4 +41,4 @@ More information: <https://www.unix.com/man-page/sunos/1m/prstat>.
 
 - Print out a list of top 5 CPU using processes every second:
 
-`prstat -c -n 5 -s cpu 1`
+`prstat -c -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>` -s cpu `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>

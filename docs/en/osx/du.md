@@ -2,10 +2,14 @@
 layout: page
 title: osx/du (English)
 description: "Disk usage: estimate and summarize file and directory space usage."
-content_hash: 6db22dacb022310e8b080bb380957d1188c9db64
+content_hash: c89646c526560472fdc20397508f2a699193d43f
+last_modified_at: 2023-02-20
 related_topics:
   - title: Nederlands version
     url: /nl/osx/du.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/du.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/du.html
@@ -34,7 +38,7 @@ More information: <https://ss64.com/osx/du.html>.
 
 - List the human-readable sizes of a directory and any subdirectories, up to N levels deep:
 
-`du -h -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">N</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
+`du -h -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
 - List the human-readable size of all `.jpg` files in subdirectories of the current directory, and show a cumulative total at the end:
 

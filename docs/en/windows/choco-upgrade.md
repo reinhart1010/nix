@@ -2,13 +2,20 @@
 layout: page
 title: windows/choco-upgrade (English)
 description: "Upgrade one or more packages with Chocolatey."
-content_hash: 3a0bcb9e714091860710fb4d52a500965fec9575
+content_hash: af306418b740e4de1ff02e3f8074e084991beda9
+last_modified_at: 2023-02-20
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-upgrade.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/windows/choco-upgrade.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/choco-upgrade.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/choco-upgrade.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/choco-upgrade.html
@@ -21,7 +28,7 @@ More information: <https://chocolatey.org/docs/commands-upgrade>.
 
 - Upgrade one or more space-separated packages:
 
-`choco upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package(s)</span>
+`choco upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 ...</span>
 
 - Upgrade to a specific version of a package:
 
@@ -33,7 +40,7 @@ More information: <https://chocolatey.org/docs/commands-upgrade>.
 
 - Upgrade all except specified comma-separated packages:
 
-`choco upgrade all --except "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package(s)</span>`"`
+`choco upgrade all --except "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 ...</span>`"`
 
 - Confirm all prompts automatically:
 

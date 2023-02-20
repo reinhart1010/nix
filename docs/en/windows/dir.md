@@ -2,7 +2,8 @@
 layout: page
 title: windows/dir (English)
 description: "List directory contents."
-content_hash: 71de405f9b77d6f020aa5c7825054c087c20f48c
+content_hash: 7dd4af230dc27f21238778ee9456dfd54f11ef27
+last_modified_at: 2023-02-20
 related_topics:
   - title: català version
     url: /ca/windows/dir.html
@@ -22,6 +23,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/windows/dir.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/dir.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/dir.html
     icon: bi bi-globe
@@ -40,7 +44,7 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 - Show the contents of a given directory:
 
-`dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
+`dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory</span>
 
 - Show the contents of the current directory, including hidden ones:
 
@@ -48,4 +52,4 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 - Show the contents of a given directory, including hidden ones:
 
-`dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` /A`
+`dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory</span>` /A`

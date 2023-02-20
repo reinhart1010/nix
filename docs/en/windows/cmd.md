@@ -2,8 +2,8 @@
 layout: page
 title: windows/cmd (English)
 description: "The Windows command interpreter."
-content_hash: 64687282c7567e65270392d02d494e4fe3be696d
-last_modified_at: 2023-02-05
+content_hash: 3777ea9212f5de0287b8ae7bce1f766eb8eb433a
+last_modified_at: 2023-02-20
 related_topics:
   - title: Deutsch version
     url: /de/windows/cmd.html
@@ -45,7 +45,7 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 - Execute a specific script:
 
-`cmd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.bat</span>
+`cmd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\script.bat</span>
 
 - Execute specific commands and then enter an interactive shell:
 

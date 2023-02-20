@@ -2,7 +2,12 @@
 layout: page
 title: osx/xcode-select (English)
 description: "Switch between different versions of Xcode and the included developer tools."
-content_hash: 2ddbc2ad1f49c75754365271e56138ad8ad1af6e
+content_hash: 1a03d60fb917c3c3c75aad3af74f4e23ceb73625
+last_modified_at: 2023-02-20
+related_topics:
+  - title: Deutsch version
+    url: /de/osx/xcode-select.html
+    icon: bi bi-globe
 ---
 # xcode-select
 
@@ -20,7 +25,7 @@ More information: <https://developer.apple.com/library/archive/technotes/tn2339/
 
 - Select a given Xcode instance and use its developer directory as the active one:
 
-`xcode-select --switch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/Xcode.app</span>
+`xcode-select --switch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/Xcode_file.app</span>
 
 - Print the currently selected developer directory:
 

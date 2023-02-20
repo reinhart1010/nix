@@ -2,12 +2,10 @@
 layout: page
 title: windows/psexec (English)
 description: "Execute a command-line process on a remote machine."
-content_hash: c6029d995841624b886d9cc9e7bff016c7cfd182
+content_hash: 873fd55c2766df20fe5b4c08447ef4a62895ca5f
+last_modified_at: 2023-02-20
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># psexec
+# psexec
 
 Execute a command-line process on a remote machine.
 This is an advanced command and it might potentially be dangerous.
@@ -23,7 +21,7 @@ More information: <https://learn.microsoft.com/en-us/sysinternals/downloads/psex
 
 - Execute a command remotely and output the result to a file:
 
-`psexec \\`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span>` cmd /c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` -an ^>`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span>
+`psexec \\`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span>` cmd /c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` -an ^>`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file.txt</span>
 
 - Execute a program to interact with users:
 

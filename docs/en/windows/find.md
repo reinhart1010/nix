@@ -2,7 +2,8 @@
 layout: page
 title: windows/find (English)
 description: "Find a specified string in one or more files."
-content_hash: 9ad3b2cf4113b7064009db22df01c2d17f809e7a
+content_hash: c82aebfe743dc472f90f4c74c83e42e497cc7810
+last_modified_at: 2023-02-20
 related_topics:
   - title: Indonesia version
     url: /id/windows/find.html
@@ -12,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/windows/find.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/windows/find.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/find.html
@@ -27,16 +31,16 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 - Find lines that contain a specified string:
 
-`find "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
+`find "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file_or_directory</span>
 
 - Display lines that do not contain the specified string:
 
-`find "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>` /v`
+`find "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file_or_directory</span>` /v`
 
 - Display the count of lines that contain the specified string:
 
-`find "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>` /c`
+`find "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file_or_directory</span>` /c`
 
 - Display line numbers with the list of lines:
 
-`find "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>` /n`
+`find "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file_or_directory</span>` /n`
