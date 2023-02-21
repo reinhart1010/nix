@@ -2,7 +2,8 @@
 layout: page
 title: linux/module (English)
 description: "Modify a users' environment using the module command."
-content_hash: 62e8a5533c19523d1a01aaae2c0fe62da5e51af5
+content_hash: 317d79e6250d65f449d88a4d74a74205bbc728de
+last_modified_at: 2023-02-21
 ---
 # module
 
@@ -32,3 +33,7 @@ More information: <https://lmod.readthedocs.io/en/latest/010_user.html>.
 - Unload all loaded modules:
 
 `module purge`
+
+- Specify user-created modules:
+
+`module use `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/modulefiles</span>

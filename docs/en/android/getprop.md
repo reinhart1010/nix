@@ -2,10 +2,17 @@
 layout: page
 title: android/getprop (English)
 description: "Show information about Android system properties."
-content_hash: f24fa03541eb63449b5258b775b327f4acd9d5ac
+content_hash: c2f4e711a56ab8e9606c146e9a7938d5d9723bf1
+last_modified_at: 2023-02-21
 related_topics:
+  - title: বাংলা version
+    url: /bn/android/getprop.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/android/getprop.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/android/getprop.html
     icon: bi bi-globe
   - title: français version
     url: /fr/android/getprop.html
@@ -13,8 +20,26 @@ related_topics:
   - title: Indonesia version
     url: /id/android/getprop.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/android/getprop.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/android/getprop.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/android/getprop.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/android/getprop.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/android/getprop.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/android/getprop.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/android/getprop.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/android/getprop.html
@@ -34,7 +59,7 @@ More information: <https://manned.org/getprop>.
 
 - Display information about a specific property:
 
-`getprop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prop</span>
+`getprop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">property</span>
 
 - Display the SDK API level:
 
