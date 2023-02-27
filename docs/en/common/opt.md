@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/opt (English)
-description: "A tool that takes LLVM source files and runs specified optimizations and/or analysis on them."
-content_hash: 58cbbed679cc9b68714d630cd00d57dc2cee82bb
+description: "A tool that takes LLVM source files and runs specified optimizations and/or analyses on them."
+content_hash: 681c459dc0e94c29cc64b818c7c6b31590745d68
+last_modified_at: 2023-02-27
 ---
 # opt
 
-A tool that takes LLVM source files and runs specified optimizations and/or analysis on them.
+A tool that takes LLVM source files and runs specified optimizations and/or analyses on them.
 More information: <https://llvm.org/docs/CommandGuide/opt.html>.
 
 - Run an optimization or analysis on a bitcode file:
