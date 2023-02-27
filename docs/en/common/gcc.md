@@ -2,7 +2,8 @@
 layout: page
 title: common/gcc (English)
 description: "Preprocess and compile C and C++ source files, then assemble and link them together."
-content_hash: fa42e0a6277b1e3fd693bb357b5d796185a14c0e
+content_hash: fd937b0d33af16459af3e2961c2d161caed0b2e4
+last_modified_at: 2023-02-27
 related_topics:
   - title: Deutsch version
     url: /de/common/gcc.html
@@ -28,7 +29,7 @@ related_topics:
 Preprocess and compile C and C++ source files, then assemble and link them together.
 More information: <https://gcc.gnu.org>.
 
-- Compile multiple source files into executable:
+- Compile multiple source files into an executable:
 
 `gcc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source1.c path/to/source2.c ...</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_executable</span>
 
