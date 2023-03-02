@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/cut (español)
-description: "Recorta campos provenientes de la entrada estándar o de archivos."
-content_hash: 9ddb23c63c8f0de41606542b4fbb62443a649a22
+description: "Corta campos de `stdin` o archivos."
+content_hash: 006f5f163a442e0676100c9411934a3240fe3477
+last_modified_at: 2023-03-02
 related_topics:
   - title: Deutsch version
     url: /de/common/cut.html
@@ -16,32 +17,32 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cut.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/cut.html
+    icon: bi bi-globe
 ---
-# cut
 
-Recorta campos provenientes de la entrada estándar o de archivos.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/cut.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># cut
+
+Corta campos de `stdin` o archivos.
 Más información: <https://www.gnu.org/software/coreutils/cut>.
 
-- Recorta los primeros 16 caracteres de cada línea de la entrada estándar:
+- Imprime un rango específico de caracteres/campos de cada línea:
 
-`cut -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1-16</span>
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` | cut --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">characters|field</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|1,10|1-10|1-|-10</span>
 
-- Recorta los primeros 16 caracteres de cada línea de los archivos especificados:
+- Imprime un rango de cada línea con un delimitador específico:
 
-`cut -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1-16</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span>
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` | cut --delimiter="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">,</span>`" --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">campos</span>`={1</span>
 
-- Recorta todo desde el tercer caracter hasta el final de cada línea:
+- Imprime un rango de cada línea de un archivo específico:
 
-`cut -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3-</span>
-
-- Recorta el quinto campo de cada línea, usando los dos puntos como delimitadores de campos (por defecto el delimitador es tab):
-
-`cut -d'`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">:</span>`' -f`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>
-
-- Recorta el segundo y décimo campo de cada línea, usando los punto y coma como delimitadores:
-
-`cut -d'`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">;</span>`' -f`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2,10</span>
-
-- Recorta los campos del tercero al último de cada línea, usando los espacios como delimintadores:
-
-`cut -d'`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"> </span>`' -f`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3-</span>
+`cut --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caracteres</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
