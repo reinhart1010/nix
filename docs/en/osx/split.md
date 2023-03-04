@@ -2,7 +2,8 @@
 layout: page
 title: osx/split (English)
 description: "Split a file into pieces."
-content_hash: 16e126eda06a17fd23ce0f151f5aa86eea11e701
+content_hash: 42f6c2dac5921f581e0cc228367c248246f490b9
+last_modified_at: 2023-03-04
 related_topics:
   - title: 中文 version
     url: /zh/osx/split.html
@@ -24,3 +25,7 @@ More information: <https://ss64.com/osx/split.html>.
 - Split a file with 512 bytes in each split (except the last split; use 512k for kilobytes and 512m for megabytes):
 
 `split -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">512</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>
+
+- Split a file into 5 files. File is split such that each split has same size (except the last split):
+
+`split -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>
