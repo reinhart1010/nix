@@ -2,7 +2,8 @@
 layout: page
 title: linux/gsettings (English)
 description: "Query and modify dconf settings with schema validation."
-content_hash: 34394765082a4dd7b4bb7a244f7eb1cceb3f7419
+content_hash: aad65580e61d73d2ea48fc83624bd71219efdf8c
+last_modified_at: 2023-03-05
 ---
 # gsettings
 
@@ -15,7 +16,7 @@ More information: <https://access.redhat.com/documentation/en-us/red_hat_enterpr
 
 - Print the value of a key or the schema-provided default if the key has not been set in `dconf`:
 
-`gsetings get `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.example.schema</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example-key</span>
+`gsettings get `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.example.schema</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example-key</span>
 
 - Unset a key, so that its schema default value will be used:
 
