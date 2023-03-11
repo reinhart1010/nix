@@ -2,7 +2,8 @@
 layout: page
 title: common/openvpn (English)
 description: "OpenVPN client and daemon binary."
-content_hash: dbb310ee21675bb826b65dd4937e4f15f84ba2c1
+content_hash: 65e8a258f765bab7316d8d437cbbb9ad74544cd3
+last_modified_at: 2023-03-11
 ---
 # openvpn
 
@@ -23,7 +24,7 @@ More information: <https://openvpn.net/>.
 
 - Create a cryptographic key and save it to file:
 
-`openvpn --genkey --secret `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key</span>
+`openvpn --genkey secret `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/key</span>
 
 - Try to set up a peer-to-peer tunnel on bob.example.com host with a static key:
 
