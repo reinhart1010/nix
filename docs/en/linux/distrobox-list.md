@@ -1,13 +1,19 @@
 ---
 layout: page
 title: linux/distrobox-list (English)
-description: "List available Distrobox containers. It detects them and lists them separately from the rest of normal podman or Docker containers."
-content_hash: 6498fe55f75f7717b167f70487da7662378039e3
+description: "List all distrobox containers. See also: `tldr distrobox`."
+content_hash: 7fdef0334bcfca0d955f96f86480d96130f14f2e
+last_modified_at: 2023-03-19
+related_topics:
+  - title: தமிழ் version
+    url: /ta/linux/distrobox-list.html
+    icon: bi bi-globe
 ---
 # distrobox-list
 
-List available Distrobox containers. It detects them and lists them separately from the rest of normal podman or Docker containers.
-More information: <https://distrobox.privatedns.org>.
+List all distrobox containers. See also: `tldr distrobox`.
+Distrobox containers are listed separately from the rest of normal podman or Docker containers.
+More information: <https://distrobox.privatedns.org/usage/distrobox-list.html>.
 
 - List all distrobox containers:
 
@@ -15,4 +21,4 @@ More information: <https://distrobox.privatedns.org>.
 
 - List all distrobox containers with verbose information:
 
-`distrobox-list -v`
+`distrobox-list --verbose`

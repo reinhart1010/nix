@@ -1,18 +1,24 @@
 ---
 layout: page
 title: linux/distrobox-rm (English)
-description: "Delete Distrobox containers."
-content_hash: 7c8cc87d151da0d9a4e8c81004dd4a4a5350d1fa
+description: "Remove a distrobox container."
+content_hash: 5b42833e2ae0dd1f343c670a29a113511e4ccd4d
+last_modified_at: 2023-03-19
+related_topics:
+  - title: தமிழ் version
+    url: /ta/linux/distrobox-rm.html
+    icon: bi bi-globe
 ---
 # distrobox-rm
 
-Delete Distrobox containers.
-More information: <https://distrobox.privatedns.org>.
+Remove a distrobox container.
+Subcommand of `distrobox`. See also: `tldr distrobox`.
+More information: <https://distrobox.privatedns.org/usage/distrobox-rm.html>.
 
-- Remove a distrobox:
+- Remove a distrobox container (Tip: Stop the container before removing it):
 
 `distrobox-rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>
 
-- Remove a distrobox forcefully:
+- Remove a distrobox container forcefully:
 
 `distrobox-rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>` --force`

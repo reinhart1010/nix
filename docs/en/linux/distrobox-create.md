@@ -1,19 +1,24 @@
 ---
 layout: page
 title: linux/distrobox-create (English)
-description: "Create Distrobox containers with an input name and image."
-content_hash: 537e5f2f1e615d0b2c287cc884c3fcf0e6197c93
+description: "Create a distrobox container. See also: `tldr distrobox`."
+content_hash: 1c3815f201baf7aeeae9b363389cf2257f014283
+last_modified_at: 2023-03-19
+related_topics:
+  - title: தமிழ் version
+    url: /ta/linux/distrobox-create.html
+    icon: bi bi-globe
 ---
 # distrobox-create
 
-Create Distrobox containers with an input name and image.
-The created container will be tightly integrated with the host, allowing sharing of the HOME directory of the user, external storage, external usb devices and graphical apps (X11/Wayland), and audio.
-More information: <https://distrobox.privatedns.org>.
+Create a distrobox container. See also: `tldr distrobox`.
+The container created will be tightly integrated with the host, allowing sharing of the user's HOME directory, external storage, external USB devices, graphical apps (X11/Wayland), and audio.
+More information: <https://distrobox.privatedns.org/usage/distrobox-create.html>.
 
-- Create a distrobox using the Alpine image:
+- Create a distrobox container using the Ubuntu image:
 
-`distrobox-create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>` --image alpine`
+`distrobox-create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>` --image `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ubuntu:latest</span>
 
-- Clone a distrobox:
+- Clone a distrobox container:
 
 `distrobox-create --clone `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cloned_container_name</span>

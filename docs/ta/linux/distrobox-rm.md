@@ -2,24 +2,23 @@
 layout: page
 title: linux/distrobox-rm (தமிழ்)
 description: "டிஸ்ட்ரோபாக்ஸ் கொள்கலன்களை நீக்கு."
-content_hash: eb75030035e29e0478b6903d02a437f45639a9e1
+content_hash: 8c5533743ad7b84480645047cae6f25528c4764f
+last_modified_at: 2023-03-19
 related_topics:
   - title: English version
     url: /en/linux/distrobox-rm.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># distrobox-rm
+# distrobox-rm
 
 டிஸ்ட்ரோபாக்ஸ் கொள்கலன்களை நீக்கு.
-மேலும் விவரத்திற்கு: <https://distrobox.privatedns.org>.
+`டிஸ்ட்ரோபாக்ஸ்`ன் துணைக் கட்டளை. மேலும் பார்க்கவும்: `tldr distrobox`.
+மேலும் விவரத்திற்கு: <https://distrobox.privatedns.org/usage/distrobox-rm.html>.
 
-- டிஸ்ட்ரோபாக்ஸை அகற்றவும்:
+- டிஸ்ட்ரோபாக்ஸ் கொள்கலனை அகற்று (உதவிக்குறிப்பு: கொள்கலனை அகற்றும் முன் அதை நிறுத்தவும்):
 
 `distrobox-rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கொள்கலன்_பெயர்</span>
 
-- ஒரு டிஸ்ட்ரோபாக்ஸை வலுக்கட்டாயமாக அகற்றவும்:
+- ஒரு டிஸ்ட்ரோபாக்ஸ் கொள்கலனை வலுக்கட்டாயமாக அகற்றவும்:
 
 `distrobox-rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கொள்கலன்_பெயர்</span>` --force`

@@ -1,26 +1,28 @@
 ---
 layout: page
 title: linux/distrobox-enter (தமிழ்)
-description: "டிஸ்ட்ரோபாக்ஸ் கொள்கலனில் கட்டளையை இயக்கவும்."
-content_hash: b1e40db58cde1d6d9ee621ace1945405bca3b92a
+description: "டிஸ்ட்ரோபாக்ஸ் கொள்கலனை உள்ளிடவும். மேலும் காண்க: `tldr distrobox`."
+content_hash: 78f733e7b1627cc73eda6cb3958ac61239173afa
+last_modified_at: 2023-03-19
 related_topics:
   - title: English version
     url: /en/linux/distrobox-enter.html
     icon: bi bi-globe
 ---
+# distrobox-enter
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+டிஸ்ட்ரோபாக்ஸ் கொள்கலனை உள்ளிடவும். மேலும் காண்க: `tldr distrobox`.
+இயக்கப்படும் இயல்புநிலை கட்டளை உங்கள் SHELL, நீங்கள் இயக்குவதற்கு வெவ்வேறு ஓடுகள் அல்லது முழு கட்டளைகளையும் குறிப்பிடலாம். ஸ்கிரிப்ட், பயன்பாடு அல்லது சேவையில் பயன்படுத்தினால், `--headless' பயன்முறையைப் பயன்படுத்தி tty மற்றும் ஊடாடும் தன்மையை முடக்கலாம்.
+மேலும் விவரத்திற்கு: <https://distrobox.privatedns.org/usage/distrobox-enter.html>.
 
-<hr># distrobox-enter
+- டிஸ்ட்ரோபாக்ஸ் கொள்கலனை உள்ளிடவும்:
 
-டிஸ்ட்ரோபாக்ஸ் கொள்கலனில் கட்டளையை இயக்கவும்.
-முன்னிருப்பு கட்டளை செயல்படுத்தப்பட்டது உங்கள் ஷெல் ஆகும், இயக்குவதற்கு வெவ்வேறு ஷெல்கள் அல்லது முழு கட்டளைகளையும் குறிப்பிடவும். ஸ்கிரிப்ட், பயன்பாடு அல்லது சேவையில் பயன்படுத்தினால், tty மற்றும் ஊடாடும் தன்மையை முடக்க --headless பயன்முறையைக் குறிப்பிடலாம்.
-மேலும் விவரத்திற்கு: <https://distrobox.privatedns.org>.
+`distrobox-enter `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கொள்கலன்_பெயர்</span>
 
-- ஒரு டிஸ்ட்ரோபாக்ஸை உள்ளிட்டு, `sh -l` ஐ இயக்கவும்:
+- டிஸ்ட்ரோபாக்ஸ் கொள்கலனை உள்ளிட்டு, உள்நுழையும்போது கட்டளையை இயக்கவும்:
 
-`distrobox-enter container-name -- sh -l`
+`distrobox-enter `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கொள்கலன்_பெயர்</span>` -- `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sh -l</span>
 
-- ஒரு tty ஐ உடனடியாகச் செய்யாமல் ஒரு டிஸ்ட்ரோபாக்ஸை உள்ளிடவும்:
+- ஒரு tty ஐ உடனுக்குடன் இல்லாமல் ஒரு டிஸ்ட்ரோபாக்ஸ் கொள்கலனை உள்ளிடவும்:
 
-`distrobox-enter -H container-name -- uptime -p`
+`distrobox-enter --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கொள்கலன்_பெயர்</span>` -- `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uptime -p</span>

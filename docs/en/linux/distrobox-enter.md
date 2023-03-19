@@ -1,19 +1,28 @@
 ---
 layout: page
 title: linux/distrobox-enter (English)
-description: "Run a command in a Distrobox container."
-content_hash: cf5b614d45145eece311b2d758ea2df01468fb11
+description: "Enter a distrobox container. See also: `tldr distrobox`."
+content_hash: 18ae26812c396ca74356b0f4e5d33dc4c777f0c5
+last_modified_at: 2023-03-19
+related_topics:
+  - title: தமிழ் version
+    url: /ta/linux/distrobox-enter.html
+    icon: bi bi-globe
 ---
 # distrobox-enter
 
-Run a command in a Distrobox container.
-Default command executed is your SHELL, but you can specify different shells or entire commands to execute. If used inside a script, an application, or a service, you can specify the --headless mode to disable tty and interactivity.
-More information: <https://distrobox.privatedns.org>.
+Enter a distrobox container. See also: `tldr distrobox`.
+Default command executed is your SHELL, but you can specify different shells or entire commands to execute. If used inside a script, an application, or a service, you can use the `--headless` mode to disable the tty and interactivity.
+More information: <https://distrobox.privatedns.org/usage/distrobox-enter.html>.
 
-- Enter a distrobox and run `sh -l`:
+- Enter a distrobox container:
 
-`distrobox-enter container-name -- sh -l`
+`distrobox-enter `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>
 
-- Enter a distrobox without instantiating a tty:
+- Enter a distrobox container and run a command at login:
 
-`distrobox-enter -H container-name -- uptime -p`
+`distrobox-enter `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>` -- `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sh -l</span>
+
+- Enter a distrobox container without instantiating a tty:
+
+`distrobox-enter --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>` -- `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uptime -p</span>
