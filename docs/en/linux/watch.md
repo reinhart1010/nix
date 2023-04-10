@@ -2,7 +2,8 @@
 layout: page
 title: linux/watch (English)
 description: "Execute a command repeatedly, and monitor the output in full-screen mode."
-content_hash: b88f5f3e11ba2339514cb5d18e2fb5b4bceedd78
+content_hash: c52c3be0c00bec0904385f56bf90a476b6f0730d
+last_modified_at: 2023-04-10
 related_topics:
   - title: Deutsch version
     url: /de/linux/watch.html
@@ -27,3 +28,7 @@ More information: <https://manned.org/watch>.
 - Monitor "node" processes, refreshing every 3 seconds:
 
 `watch -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ps aux | grep node</span>`"`
+
+- Monitor disk space and if it changes, stop monitoring:
+
+`watch -g `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">df</span>

@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-logcat (español)
 description: "Vuelca un registro de mensajes del sistema."
-content_hash: b60d8bddc09ce50c82166d187caf0d330ef570ca
-last_modified_at: 2023-02-20
+content_hash: 8573be2ca9936fd8873d9e48b48d019a32f373da
+last_modified_at: 2023-04-10
 related_topics:
   - title: English version
     url: /en/common/adb-logcat.html
@@ -15,10 +15,7 @@ related_topics:
     url: /zh/common/adb-logcat.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># adb logcat
+# adb logcat
 
 Vuelca un registro de mensajes del sistema.
 Más información: <https://developer.android.com/studio/command-line/logcat>.
@@ -42,6 +39,14 @@ Más información: <https://developer.android.com/studio/command-line/logcat>.
 - Muestra los registros de todas las etiquetas con nivel de prioridad [W]arning y superior:
 
 `adb logcat *:W`
+
+- Muestra los registros de un proceso específico:
+
+`adb logcat --pid=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
+
+- Muestra los registros del proceso de un paquete específico:
+
+`adb logcat --pid=$(adb shell pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span>`)`
 
 - Colorea el registro (normalmente se utiliza con filtros):
 

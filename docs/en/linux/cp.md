@@ -2,16 +2,29 @@
 layout: page
 title: linux/cp (English)
 description: "Copy files and directories."
-content_hash: 88037e1ac8e3036340c8e6214afb8c3280a4684d
+content_hash: edce8d980abb1024e99d98d246bc05da7ca8062c
+last_modified_at: 2023-04-10
 related_topics:
+  - title: català version
+    url: /ca/linux/cp.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/cp.html
     icon: bi bi-globe
   - title: español version
     url: /es/linux/cp.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/cp.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/linux/cp.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/cp.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/cp.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/cp.html
@@ -19,8 +32,14 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/cp.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/cp.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/cp.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/linux/cp.html
     icon: bi bi-globe
 ---
 # cp
@@ -43,6 +62,10 @@ More information: <https://www.gnu.org/software/coreutils/cp>.
 - Copy a directory recursively, in verbose mode (shows files as they are copied):
 
 `cp -vr `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source_directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target_directory</span>
+
+- Copy multiple files at once to a directory:
+
+`cp -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/destination_directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
 - Copy text files to another location, in interactive mode (prompts user before overwriting):
 

@@ -2,9 +2,12 @@
 layout: page
 title: common/adb-logcat (English)
 description: "Dump a log of system messages."
-content_hash: a4a5cafa695193d6bb46133ba8b4ba60554aa1c0
-last_modified_at: 2023-01-02
+content_hash: 23d8e711a26f5c1db9d568e13cd3cb44957854ee
+last_modified_at: 2023-04-10
 related_topics:
+  - title: español version
+    url: /es/common/adb-logcat.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/adb-logcat.html
     icon: bi bi-globe
@@ -36,6 +39,14 @@ More information: <https://developer.android.com/studio/command-line/logcat>.
 - Display logs for all tags with priority level [W]arning and higher:
 
 `adb logcat *:W`
+
+- Display logs for a specific PID:
+
+`adb logcat --pid=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
+
+- Display logs for the process of a specific package:
+
+`adb logcat --pid=$(adb shell pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>`)`
 
 - Color the log (usually use with filters):
 

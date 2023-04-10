@@ -2,8 +2,12 @@
 layout: page
 title: android/logcat (español)
 description: "Vuelca un registro de mensajes del sistema, incluyendo seguimientos de pila cuando ocurren errores, y mensajes informativos enviados por las aplicaciones."
-content_hash: 4af47c7332ada570b6dbdee0099640699cf00898
+content_hash: bcad38726e239b5a989d82a820c113483b073a3e
+last_modified_at: 2023-04-10
 related_topics:
+  - title: বাংলা version
+    url: /bn/android/logcat.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/android/logcat.html
     icon: bi bi-globe
@@ -16,8 +20,20 @@ related_topics:
   - title: Indonesia version
     url: /id/android/logcat.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/android/logcat.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/android/logcat.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/android/logcat.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/android/logcat.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/android/logcat.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/android/logcat.html
@@ -45,6 +61,14 @@ Más información: <https://developer.android.com/studio/command-line/logcat>.
 
 `logcat -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 
-- Muestra líneas que coincidan con una expresión regular:
+- Muestra registros que coincidan con una expresión regular:
 
 `logcat --regex `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expresión_regular</span>
+
+- Muestra registros de un proceso específico:
+
+`logcat --pid=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
+
+- Muestra registros del proceso de un paquete específico:
+
+`logcat --pid=$(pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span>`)`

@@ -2,7 +2,8 @@
 layout: page
 title: common/node (English)
 description: "Server-side JavaScript platform (Node.js)."
-content_hash: 967726df40f16e668fadaa0fb9c848f8a52c6d21
+content_hash: fc60706b3dde876ea3073212cd140d3e8a693614
+last_modified_at: 2023-04-10
 related_topics:
   - title: Deutsch version
     url: /de/common/node.html
@@ -12,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/node.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/common/node.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/node.html
@@ -41,9 +45,9 @@ More information: <https://nodejs.org>.
 
 `node -e "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">code</span>`"`
 
-- Evaluate and print result, useful to see node's dependencies versions:
+- Evaluate and print the result, useful to print node's dependencies versions:
 
-`node -p "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process.versions</span>`"`
+`node -p "process.versions"`
 
 - Activate inspector, pausing execution until a debugger is connected once source code is fully parsed:
 

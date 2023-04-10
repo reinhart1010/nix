@@ -2,8 +2,12 @@
 layout: page
 title: android/logcat (English)
 description: "Dump a log of system messages, including stack traces when an error occurred, and information messages logged by applications."
-content_hash: 002b6b9a91ecf35209dc0bdbee8feb11ed13d02c
+content_hash: 52fa0c06c1973b0689d0466d14af9ec2abe2b0f3
+last_modified_at: 2023-04-10
 related_topics:
+  - title: বাংলা version
+    url: /bn/android/logcat.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/android/logcat.html
     icon: bi bi-globe
@@ -16,8 +20,20 @@ related_topics:
   - title: Indonesia version
     url: /id/android/logcat.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/android/logcat.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/android/logcat.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/android/logcat.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/android/logcat.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/android/logcat.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/android/logcat.html
@@ -48,3 +64,11 @@ More information: <https://developer.android.com/studio/command-line/logcat>.
 - Display lines that match a regular expression:
 
 `logcat --regex `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span>
+
+- Display logs for a specific PID:
+
+`logcat --pid=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
+
+- Display logs for the process of a specific package:
+
+`logcat --pid=$(pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>`)`

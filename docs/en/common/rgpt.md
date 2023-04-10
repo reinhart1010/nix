@@ -2,13 +2,10 @@
 layout: page
 title: common/rgpt (English)
 description: "An automated code review tool that uses GPT you can use straight from your terminal."
-content_hash: 8e4033b93a6e55fedb609e7d1f360cc5634bde94
-last_modified_at: 2023-03-20
+content_hash: d2d0588976902435de23953d94ef340b914c81dc
+last_modified_at: 2023-04-10
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rgpt
+# rgpt
 
 An automated code review tool that uses GPT you can use straight from your terminal.
 More information: <https://github.com/vibovenkat123/review-gpt>.
@@ -31,7 +28,7 @@ More information: <https://github.com/vibovenkat123/review-gpt>.
 
 - Ask GPT to review your code using a specific model:
 
-`rgpt --model `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">text-davinci-003</span>` --i "$(git diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>`)"`
+`rgpt --model `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">davinci</span>` --i "$(git diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>`)"`
 
 - Make `rgpt` use a JSON output:
 

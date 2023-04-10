@@ -2,8 +2,8 @@
 layout: page
 title: common/cp (English)
 description: "Copy files and directories."
-content_hash: ab808ffdd058e99171f840a20db420aa58af1989
-last_modified_at: 2023-01-03
+content_hash: 5eef61ec77680e89668695350698b0a3bde1b138
+last_modified_at: 2023-04-10
 related_topics:
   - title: català version
     url: /ca/common/cp.html
@@ -47,6 +47,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/cp.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/cp.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/cp.html
     icon: bi bi-globe
@@ -74,6 +77,10 @@ More information: <https://www.gnu.org/software/coreutils/cp>.
 - Copy a directory recursively, in verbose mode (shows files as they are copied):
 
 `cp -vR `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source_directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target_directory</span>
+
+- Copy multiple files at once to a directory:
+
+`cp -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/destination_directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
 - Copy text files to another location, in interactive mode (prompts user before overwriting):
 
