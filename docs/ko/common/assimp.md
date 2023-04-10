@@ -2,10 +2,17 @@
 layout: page
 title: common/assimp (한국어)
 description: "Open Asset Import Library 위한 Command-line 클라이언트."
-content_hash: 05f6ab703e020629869f80ea2c44757b32c0d07b
+content_hash: 9dc9f6f3c8bb843e06256a20205960c3b01b961e
+last_modified_at: 2023-04-10
 related_topics:
   - title: English version
     url: /en/common/assimp.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/assimp.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/assimp.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/assimp.html
@@ -15,7 +22,7 @@ related_topics:
 
 Open Asset Import Library 위한 Command-line 클라이언트.
 40 +3D 파일 형식을 지원하고 몇 개의 유명한 3D포맷으로 내보낼 수 있습니다.
-더 많은 정보: <http://www.assimp.org/>.
+더 많은 정보: <https://assimp-docs.readthedocs.io/>.
 
 - 지원되는 모든 가져오기 형식을 나열:
 

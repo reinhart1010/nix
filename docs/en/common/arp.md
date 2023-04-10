@@ -2,8 +2,12 @@
 layout: page
 title: common/arp (English)
 description: "Show and manipulate your system's ARP cache."
-content_hash: d8d24e04f1ad2f0d010d614c3ce963989f58179f
+content_hash: 3c1c877c0edbb7366b0d7102435cef2fb7284398
+last_modified_at: 2023-04-10
 related_topics:
+  - title: français version
+    url: /fr/common/arp.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/arp.html
     icon: bi bi-globe
@@ -15,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/arp.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/arp.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/arp.html
@@ -28,10 +35,6 @@ More information: <https://manned.org/arp>.
 - Show the current ARP table:
 
 `arp -a`
-
-- Clear the entire cache:
-
-`sudo arp -a -d`
 
 - Delete a specific entry:
 

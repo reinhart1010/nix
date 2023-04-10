@@ -2,10 +2,14 @@
 layout: page
 title: common/arp (polski)
 description: "Pokaż i manipuluj pamięcią podręczną ARP systemu."
-content_hash: 025913fe27540e7b16a286242a38fdb5c43cd915
+content_hash: 06e5a2cc960fdd7e9a19ae937b477e5ff89af124
+last_modified_at: 2023-04-10
 related_topics:
   - title: English version
     url: /en/common/arp.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/arp.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/arp.html
@@ -15,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/arp.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/arp.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/arp.html
@@ -28,10 +35,6 @@ Więcej informacji: <https://manned.org/arp>.
 - Pokaż bieżącą tabelę arp:
 
 `arp -a`
-
-- Wyczyść całość cache:
-
-`sudo arp -a -d`
 
 - Usuń konkretny wpis:
 

@@ -2,7 +2,8 @@
 layout: page
 title: common/arp (Türkçe)
 description: "Sistemin ARP önbelleğini görüntüle ve manipüle et."
-content_hash: 5a55f9b90343da3968e067d790d1cec1ab48abc3
+content_hash: 9b2e366fbb10cad92f0c839ac5f0c13f32a17e7d
+last_modified_at: 2023-04-10
 related_topics:
   - title: English version
     url: /en/common/arp.html
@@ -34,10 +35,6 @@ Daha fazla bilgi için: <https://manned.org/arp>.
 - Mevcut ARP tablosunu göster:
 
 `arp -a`
-
-- Tüm önbelleği temizle:
-
-`sudo arp -a -d`
 
 - Belirli bir girdiyi sil:
 

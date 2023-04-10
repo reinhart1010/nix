@@ -2,10 +2,14 @@
 layout: page
 title: common/assimp (français)
 description: "Client en ligne de commande pour l'Open Asset Import Library."
-content_hash: 25bb7e59d9bf8aa52b4d09353eb674541bf13541
+content_hash: 2599ee348636adc5f901c5ace8edee8030dea9ac
+last_modified_at: 2023-04-10
 related_topics:
   - title: English version
     url: /en/common/assimp.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/assimp.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/assimp.html
@@ -14,14 +18,11 @@ related_topics:
     url: /ko/common/assimp.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># assimp
+# assimp
 
 Client en ligne de commande pour l'Open Asset Import Library.
 Supporte le chargement de plus de 40 formats de fichiers 3D, et exporte vers quelques formats 3D populaire.
-Plus d'informations : <http://www.assimp.org/>.
+Plus d'informations : <https://assimp-docs.readthedocs.io/>.
 
 - Liste tous les formats d'import supportés :
 

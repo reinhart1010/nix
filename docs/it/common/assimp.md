@@ -2,10 +2,14 @@
 layout: page
 title: common/assimp (italiano)
 description: "Client da linea di comando per la Open Asset Import Library."
-content_hash: 0440d51e39cb19b329fe554456cae8e9e6949a25
+content_hash: 459d5b6e9ea89dd56cb25970f3fe60c57e650692
+last_modified_at: 2023-04-10
 related_topics:
   - title: English version
     url: /en/common/assimp.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/assimp.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/assimp.html
@@ -18,7 +22,7 @@ related_topics:
 
 Client da linea di comando per la Open Asset Import Library.
 Supporta il caricamento di 40+ formati di file per modelli 3D, e l'espoerazione di diversi formati 3D popolari.
-Maggiori informazioni: <http://www.assimp.org/>.
+Maggiori informazioni: <https://assimp-docs.readthedocs.io/>.
 
 - Elenca tutti i formati supportati:
 

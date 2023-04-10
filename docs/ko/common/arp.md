@@ -2,10 +2,14 @@
 layout: page
 title: common/arp (한국어)
 description: "시스템의 ARP 캐시 표시 및 조작."
-content_hash: 5d728a1a19c1149ebe0ef41050a7e7ce41c59ddd
+content_hash: 3a31c69a1402f00412bf17e3286be1ddc3aadcfb
+last_modified_at: 2023-04-10
 related_topics:
   - title: English version
     url: /en/common/arp.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/arp.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/arp.html
@@ -15,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/arp.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/arp.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/arp.html
@@ -28,10 +35,6 @@ related_topics:
 - 현재 arp 테이블을 보여줍니다:
 
 `arp -a`
-
-- 전체 캐시 삭제:
-
-`sudo arp -a -d`
 
 - 특정 엔트리 삭제:
 
