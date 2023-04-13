@@ -2,7 +2,8 @@
 layout: page
 title: common/copyq (English)
 description: "Clipboard manager with advanced features."
-content_hash: 1f4a0174e0fba5ba8ba9f597002684961c6c26ab
+content_hash: 12c09b2cd5d8f23a0d73288c7372083e2f8687d9
+last_modified_at: 2023-04-13
 related_topics:
   - title: 한국어 version
     url: /ko/common/copyq.html
@@ -11,7 +12,7 @@ related_topics:
 # copyq
 
 Clipboard manager with advanced features.
-More information: <https://hluk.github.io/CopyQ/>.
+More information: <https://copyq.readthedocs.io/en/latest/command-line.html>.
 
 - Launch CopyQ to store clipboard history:
 

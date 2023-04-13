@@ -2,7 +2,8 @@
 layout: page
 title: common/copyq (한국어)
 description: "고급 기능을 갖춘 클립보드 매니저."
-content_hash: 8070447601b7d79fcceafd818b3d91543ec34350
+content_hash: 501dc5312578c4ea7b568842eaa623924659c295
+last_modified_at: 2023-04-13
 related_topics:
   - title: English version
     url: /en/common/copyq.html
@@ -11,7 +12,7 @@ related_topics:
 # copyq
 
 고급 기능을 갖춘 클립보드 매니저.
-더 많은 정보: <https://hluk.github.io/CopyQ/>.
+더 많은 정보: <https://copyq.readthedocs.io/en/latest/command-line.html>.
 
 - copyQ를 시작하여 클립보드 기록 저장:
 

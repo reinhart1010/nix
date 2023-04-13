@@ -2,8 +2,8 @@
 layout: page
 title: common/blender (English)
 description: "Command-line interface to the Blender 3D computer graphics application."
-content_hash: b9f56f48bc24c41df2c7d13de7efab738656d0c9
-last_modified_at: 2022-12-06
+content_hash: 15d5804961967af4436eddf37e9c23a0b6b485d6
+last_modified_at: 2023-04-13
 related_topics:
   - title: italiano version
     url: /it/common/blender.html
@@ -16,7 +16,7 @@ related_topics:
 
 Command-line interface to the Blender 3D computer graphics application.
 Arguments are executed in the order they are given.
-More information: <https://manned.org/blender>.
+More information: <https://docs.blender.org/manual/en/latest/advanced/command_line/arguments.html>.
 
 - Render all frames of an animation in the background, without loading the UI (output is saved to `/tmp`):
 
