@@ -2,8 +2,12 @@
 layout: page
 title: common/apktool (English)
 description: "Reverse engineer APK files."
-content_hash: 5b1f103e2a71e15ce5ee14908e8e09c48f0167da
+content_hash: 14ee3992c7db240e05fb999298bfebaa764cecb0
+last_modified_at: 2023-04-14
 related_topics:
+  - title: français version
+    url: /fr/common/apktool.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/apktool.html
     icon: bi bi-globe
@@ -21,7 +25,7 @@ More information: <https://ibotpeaches.github.io/Apktool/>.
 
 - Decode an APK file:
 
-`apktool d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.apk</span>
+`apktool d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.apk</span>
 
 - Build an APK file from a directory:
 
@@ -29,4 +33,4 @@ More information: <https://ibotpeaches.github.io/Apktool/>.
 
 - Install and store a framework:
 
-`apktool if `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">framework.apk</span>
+`apktool if `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/framework.apk</span>
