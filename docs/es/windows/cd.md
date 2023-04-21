@@ -2,8 +2,8 @@
 layout: page
 title: windows/cd (español)
 description: "Muestra información sobre el directorio actual y le permite moverse a otro."
-content_hash: 15fb37aaa7105a222d5c46da605167d3c32e3323
-last_modified_at: 2023-04-13
+content_hash: 51454dea2a71ad16b80d327979697541ca6927e6
+last_modified_at: 2023-04-21
 related_topics:
   - title: বাংলা version
     url: /bn/windows/cd.html
@@ -54,14 +54,18 @@ Más informaciones: <https://learn.microsoft.com/windows-server/administration/w
 
 `cd`
 
+- Ir a la raíz de la unidad actual:
+
+`cd \`
+
 - Mover al directorio superior:
 
 `cd ..`
 
 - Mover a un directorio específico en el mismo disco:
 
-`cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span>
+`cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta\al\directorio</span>
 
 - Mover a un directorio específico en otro disco:
 
-`cd /d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span>
+`cd /d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta\al\directorio</span>
