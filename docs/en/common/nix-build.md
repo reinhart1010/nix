@@ -2,13 +2,18 @@
 layout: page
 title: common/nix-build (English)
 description: "Build a Nix expression."
-content_hash: 8adc459844860b2e362208b59e8fe8a48930d60e
-last_modified_at: 2022-12-22
+content_hash: 3af4a335315e6679f7f63fbf62199e4e57b1efc6
+last_modified_at: 2023-04-26
+related_topics:
+  - title: Deutsch version
+    url: /de/common/nix-build.html
+    icon: bi bi-globe
 ---
 # nix-build
 
 Build a Nix expression.
-More information: <https://nixos.org/releases/nix/latest/manual#sec-nix-build>.
+See also: `tldr nix3 build`.
+More information: <https://nixos.org/manual/nix/stable/command-ref/nix-build.html>.
 
 - Build a Nix expression:
 

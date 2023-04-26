@@ -2,13 +2,18 @@
 layout: page
 title: common/nix-shell (English)
 description: "Start an interactive shell based on a Nix expression."
-content_hash: 01985d44d71524c80f01e3cf11882c491712caf5
-last_modified_at: 2022-12-22
+content_hash: 248c998f186aa51f6e92c22484b4401286a53045
+last_modified_at: 2023-04-26
+related_topics:
+  - title: Deutsch version
+    url: /de/common/nix-shell.html
+    icon: bi bi-globe
 ---
 # nix-shell
 
 Start an interactive shell based on a Nix expression.
-More information: <https://nixos.org/manual/nix/stable/#sec-nix-shell>.
+See also: `tldr nix3 shell`.
+More information: <https://nixos.org/manual/nix/stable/command-ref/nix-shell.html>.
 
 - Start with nix expression in `shell.nix` or `default.nix` in the current directory:
 
