@@ -2,7 +2,8 @@
 layout: page
 title: common/autoflake (français)
 description: "Un outil pour enlever les imports et les variables inutilisés d'un code Python."
-content_hash: 15bc5172130738695deeec4ce668bed6ce968e2c
+content_hash: dc84a73aab7b2a65f264791ab00ec0bb09e6a466
+last_modified_at: 2023-05-01
 related_topics:
   - title: English version
     url: /en/common/autoflake.html
@@ -17,25 +18,22 @@ related_topics:
     url: /zh/common/autoflake.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># autoflake
+# autoflake
 
 Un outil pour enlever les imports et les variables inutilisés d'un code Python.
 Plus d'informations : <https://github.com/myint/autoflake>.
 
 - Enlève les variables non-utilisées d'un fichier et affiche la différence :
 
-`autoflake --remove-unused-variables `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier.py</span>
+`autoflake --remove-unused-variables `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.py</span>
 
 - Enlève les imports non-utilisés de plusieurs fichiers et affiche la différence :
 
-`autoflake --remove-all-unused-imports `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier1.py</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier2.py</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier3.py</span>
+`autoflake --remove-all-unused-imports `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier1.py chemin/vers/fichier2.py ...</span>
 
 - Enlève les variables non-utilisées d'un fichier, surcharge ce dernier :
 
-`autoflake --remove-unused-variables --in-place `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier.py</span>
+`autoflake --remove-unused-variables --in-place `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.py</span>
 
 - Enlève les variables non-utilisées de tous les fichiers d'un dossier de manière récursive, en les surchargeant :
 
