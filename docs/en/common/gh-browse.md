@@ -2,7 +2,8 @@
 layout: page
 title: common/gh-browse (English)
 description: "Open a GitHub repository in the browser or print the URL."
-content_hash: 94ceda0798be5a2f590081964cab2da266a0c579
+content_hash: 3fd27939ccd30ec6932b27d1d50a3505727f67d6
+last_modified_at: 2023-05-02
 ---
 # gh browse
 
@@ -27,7 +28,7 @@ More information: <https://cli.github.com/manual/gh_browse>.
 
 - Open a specific issue or pull request in the web browser:
 
-`gh browse `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">issue_or_pull_request_number</span>
+`gh browse `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">issue_number|pull_request_number</span>
 
 - Open a specific branch in the web browser:
 
@@ -35,7 +36,7 @@ More information: <https://cli.github.com/manual/gh_browse>.
 
 - Open a specific file or directory of the current repository in the web browser:
 
-`gh browse `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path_from_root_of_repository</span>
+`gh browse `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
 
 - Print the destination URL without open the web browser:
 
