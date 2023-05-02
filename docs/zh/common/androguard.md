@@ -1,16 +1,20 @@
 ---
 layout: page
 title: common/androguard (中文)
-description: "使用 python 编写的一款针对安卓应用的逆向工程工具。"
-content_hash: e5e846ca6705f860fada499eba1f875df08b2fe7
+description: "使用 Python 编写的一款针对安卓应用的逆向工程工具。"
+content_hash: dc33621f3b97ba6b7377db2e58b10cff5ed54177
+last_modified_at: 2023-05-02
 related_topics:
   - title: English version
     url: /en/common/androguard.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/androguard.html
+    icon: bi bi-globe
 ---
 # androguard
 
-使用 python 编写的一款针对安卓应用的逆向工程工具。
+使用 Python 编写的一款针对安卓应用的逆向工程工具。
 更多信息：<https://github.com/androguard/androguard>.
 
 - 展示 Android manifest 清单文件：

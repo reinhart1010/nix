@@ -2,7 +2,12 @@
 layout: page
 title: common/tox (English)
 description: "Automate Python testing across multiple Python versions."
-content_hash: d6d0fbc2b1b6b88edcc0d31de0fd853e5897149d
+content_hash: 7a847bef65a0c2c1e3d43417927a2d35def40cec
+last_modified_at: 2023-05-02
+related_topics:
+  - title: العربية version
+    url: /ar/common/tox.html
+    icon: bi bi-globe
 ---
 # tox
 
@@ -22,7 +27,7 @@ More information: <https://github.com/tox-dev/tox>.
 
 `tox --listenvs-all`
 
-- Run tests on a specific environment (e.g. python 3.6):
+- Run tests on a specific environment (e.g. Python 3.6):
 
 `tox -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">py36</span>
 

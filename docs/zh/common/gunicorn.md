@@ -2,7 +2,8 @@
 layout: page
 title: common/gunicorn (中文)
 description: "Python 的 WSGI http 服务器。"
-content_hash: 986bffde393ccba7d1c4c17e04aaa80fe655177b
+content_hash: f4b99e359e545d40efa01e41762395bac6d29880
+last_modified_at: 2023-05-02
 related_topics:
   - title: English version
     url: /en/common/gunicorn.html
@@ -13,7 +14,7 @@ related_topics:
 Python 的 WSGI http 服务器。
 更多信息：<https://gunicorn.org/>.
 
-- 运行 python web 应用程序：
+- 运行 Python web 应用程序：
 
 `gunicorn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">导入路径：应用程序</span>
 

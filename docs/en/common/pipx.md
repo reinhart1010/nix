@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/pipx (English)
-description: "Install and run python applications in isolated environments."
-content_hash: e4bee875f7b98eb82f9f28b4cf9162cea7c998c2
+description: "Install and run Python applications in isolated environments."
+content_hash: 48032e4525db17c1d4b84f70b33a5970792edc73
+last_modified_at: 2023-05-02
 ---
 # pipx
 
-Install and run python applications in isolated environments.
+Install and run Python applications in isolated environments.
 More information: <https://github.com/pypa/pipx>.
 
 - Run an app in a temporary virtual environment:

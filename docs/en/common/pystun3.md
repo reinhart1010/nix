@@ -1,13 +1,13 @@
 ---
 layout: page
 title: common/pystun3 (English)
-description: "Classic STUN client written in python."
-content_hash: 6c130bac2ae55502e23f3bb0ee1edca5c98e635d
-last_modified_at: 2023-04-10
+description: "Classic STUN client written in Python."
+content_hash: d26563b240cc03e89b78aff87dfc4999c691a064
+last_modified_at: 2023-05-02
 ---
 # pystun3
 
-Classic STUN client written in python.
+Classic STUN client written in Python.
 More information: <https://github.com/talkiq/pystun3>.
 
 - Make a STUN request:

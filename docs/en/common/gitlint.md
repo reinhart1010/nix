@@ -2,7 +2,8 @@
 layout: page
 title: common/gitlint (English)
 description: "Git commit message linter checks your commit messages for style."
-content_hash: 20eb356426ee5f4bf409e94aada5a9e47dc49ff4
+content_hash: 788bbbbe78b7cd4e9713ebee925fee168ebdd8fb
+last_modified_at: 2023-05-02
 ---
 # gitlint
 
@@ -17,7 +18,7 @@ More information: <https://jorisroovers.com/gitlint/>.
 
 `gitlint --commits `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">single_refspec_argument</span>
 
-- Path to a directory or python module with extra user-defined rules:
+- Path to a directory or Python module with extra user-defined rules:
 
 `gitlint --extra-path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
