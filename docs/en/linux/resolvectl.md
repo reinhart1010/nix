@@ -1,12 +1,13 @@
 ---
 layout: page
 title: linux/resolvectl (English)
-description: "Resolve domain names, IPV4 and IPv6 addresses, DNS resource records, and services."
-content_hash: 2b15c9aa1d5e765d15331ae9bc6c09476d47f1e2
+description: "Resolve domain names, IPv4 and IPv6 addresses, DNS resource records, and services."
+content_hash: 333f9b5fa011ea8c8ff14ae95914b4edf103511f
+last_modified_at: 2023-05-09
 ---
 # resolvectl
 
-Resolve domain names, IPV4 and IPv6 addresses, DNS resource records, and services.
+Resolve domain names, IPv4 and IPv6 addresses, DNS resource records, and services.
 Introspect and reconfigure the DNS resolver.
 More information: <https://www.freedesktop.org/software/systemd/man/resolvectl.html>.
 
@@ -18,11 +19,11 @@ More information: <https://www.freedesktop.org/software/systemd/man/resolvectl.h
 
 `resolvectl query `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain1 domain2 ...</span>
 
-- Retrieve the domain of a specified IP:
+- Retrieve the domain of a specified IP address:
 
 `resolvectl query `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address</span>
 
-- Retrieve an MX record of domain:
+- Retrieve an MX record of a domain:
 
 `resolvectl --legend=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">no</span>` --type=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">MX</span>` query `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain</span>
 
@@ -32,7 +33,7 @@ More information: <https://www.freedesktop.org/software/systemd/man/resolvectl.h
 
 - Retrieve the public key from an email address from an OPENPGPKEY DNS record:
 
-`resolvectl opengpg `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">email</span>
+`resolvectl openpgp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">email</span>
 
 - Retrieve a TLS key:
 

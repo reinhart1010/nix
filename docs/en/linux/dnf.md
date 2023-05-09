@@ -2,8 +2,8 @@
 layout: page
 title: linux/dnf (English)
 description: "Package management utility for RHEL, Fedora, and CentOS (replaces yum)."
-content_hash: a42189187d9b061be87da1e67abada2d4752c5fb
-last_modified_at: 2022-12-05
+content_hash: a26ed68dcc6d66565b4a13a7f1655052dad0b7d9
+last_modified_at: 2023-05-09
 related_topics:
   - title: català version
     url: /ca/linux/dnf.html
@@ -39,7 +39,7 @@ More information: <https://dnf.readthedocs.io>.
 
 - Search packages via keywords:
 
-`dnf search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keywords</span>
+`dnf search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword1 keyword2 ...</span>
 
 - Display details about a package:
 
@@ -47,19 +47,19 @@ More information: <https://dnf.readthedocs.io>.
 
 - Install a new package (use `-y` to confirm all prompts automatically):
 
-`sudo dnf install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
+`sudo dnf install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 ...</span>
 
 - Remove a package:
 
-`sudo dnf remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
+`sudo dnf remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 ...</span>
 
 - List installed packages:
 
 `dnf list --installed`
 
-- Find which packages provide a given file:
+- Find which packages provide a given command:
 
-`dnf provides `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`dnf provides `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
 - View all past operations:
 
