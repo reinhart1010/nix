@@ -2,7 +2,12 @@
 layout: page
 title: common/az-login (English)
 description: "Log in to Azure."
-content_hash: 415ae30870e9bce8606426b880ae8027ffd29aef
+content_hash: b91bd978feb257c2fd5dbacf038bb8018528afbd
+last_modified_at: 2023-05-10
+related_topics:
+  - title: Deutsch version
+    url: /de/common/az-login.html
+    icon: bi bi-globe
 ---
 # az login
 
@@ -16,7 +21,7 @@ More information: <https://learn.microsoft.com/cli/azure/reference-index#az_logi
 
 - Log in with a service principal using a client secret:
 
-`az login --service-principal --username `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://azure-cli-service-principal</span>` --passsword `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">secret</span>` --tenant `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">someone.onmicrosoft.com</span>
+`az login --service-principal --username `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://azure-cli-service-principal</span>` --password `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">secret</span>` --tenant `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">someone.onmicrosoft.com</span>
 
 - Log in with a service principal using a client certificate:
 
