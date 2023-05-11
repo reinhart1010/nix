@@ -2,7 +2,8 @@
 layout: page
 title: linux/sacctmgr (中文)
 description: "查看、配置、管理 Slurm 账户。"
-content_hash: c72bcb791385cfc869259f280eff28831e7be4d9
+content_hash: 4f2ffcf30347fc5799e4870778a3fce467a6be42
+last_modified_at: 2023-05-11
 related_topics:
   - title: English version
     url: /en/linux/sacctmgr.html
@@ -27,4 +28,4 @@ related_topics:
 
 - 以指定格式显示用户、账户资源关联、集群、账户的详细信息：
 
-`sacctmgr show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user|association|cluster|account</span>` format="Accout%10" format="GrpTRES%30"`
+`sacctmgr show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user|association|cluster|account</span>` format="Account%10" format="GrpTRES%30"`
