@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/git-push (italiano)
-description: "Invia i commit a un repository remoto."
-content_hash: 9f1af30d8f42f2ff4cf0e2fca1a85f0a14c25009
+description: "Invia i commit ad un repository remoto."
+content_hash: a49861fcd900a77bff45d22ed655ac3c15c7f107
+last_modified_at: 2023-05-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-push.html
@@ -16,6 +17,12 @@ related_topics:
   - title: français version
     url: /fr/common/git-push.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-push.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git-push.html
+    icon: bi bi-globe
 ---
 
 ### Outdated Translation
@@ -28,7 +35,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 <hr># git push
 
-Invia i commit a un repository remoto.
+Invia i commit ad un repository remoto.
 Maggiori informazioni: <https://git-scm.com/docs/git-push>.
 
 - Invia le modifiche fatte nel ramo corrente locale al corrispondente ramo remoto:
@@ -39,11 +46,15 @@ Maggiori informazioni: <https://git-scm.com/docs/git-push>.
 
 `git push `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_repository_remoto</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ramo</span>
 
-- Pubblica il ramo corrente in un repository remoto, specificando il nome del ramo remoto:
+- Invia le modifiche fatte in uno specifico ramo locale al corrispondente ramo remoto ed imposta il ramo remoto come destinazione di default per i push/pull del ramo locale:
 
-`git push `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_repository_remoto</span>` -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ramo_remoto</span>
+`git push -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_repository_remoto</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ramo</span>
 
-- Invia le modifiche fatte in ogni ramo locale ai corrispondenti rami remoti:
+- Invia le modifiche fatte in uno specifico ramo locale ad uno specifico ramo remoto:
+
+`git push `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_repository_remoto</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ramo</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ramo_remoto</span>
+
+- Invia le modifiche fatte in ogni ramo locale ai corrispondenti rami remoti in uno specifico repository remoto:
 
 `git push --all `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_repository_remoto</span>
 
