@@ -2,17 +2,23 @@
 layout: page
 title: common/xzless (English)
 description: "Display text from `.xz` and `.lzma` files."
-content_hash: 8d331a05da04234edc6af884856e80d89b529de2
+content_hash: f9dd1e2ed8bc7da2fa9e44fd7caa8e84645c369e
+last_modified_at: 2023-05-14
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># xzless
+# xzless
 
 Display text from `.xz` and `.lzma` files.
 See also: `less`.
 More information: <https://manned.org/xzless>.
 
-- Open a compressed file:
+- View a compressed file:
 
-`xzless `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.xz</span>
+`xzless `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive</span>
+
+- View a compressed file and display line numbers:
+
+`xzless --LINE-NUMBERS `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive</span>
+
+- View a compressed file and quit if the entire file can be displayed on the first screen:
+
+`xzless --quit-if-one-screen `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive</span>
