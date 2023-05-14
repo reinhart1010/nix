@@ -2,13 +2,20 @@
 layout: page
 title: linux/pacman-remove (English)
 description: "Arch Linux package manager utility."
-content_hash: 326464bb6d9deae691f23f0f7517d08004191a7f
+content_hash: 061ba206489826393a07317fbf3499bdf80830cd
+last_modified_at: 2023-05-14
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-remove.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/pacman-remove.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/pacman-remove.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/pacman-remove.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/pacman-remove.html
@@ -17,6 +24,7 @@ related_topics:
 # pacman --remove
 
 Arch Linux package manager utility.
+See also: `pacman`.
 More information: <https://man.archlinux.org/man/pacman.8>.
 
 - Remove a package and its dependencies:

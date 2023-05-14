@@ -2,7 +2,8 @@
 layout: page
 title: linux/pacman-sync (Türkçe)
 description: "Arch Linux paket yönetim aracı."
-content_hash: 741cf560b012fc5df454ed25f78110d90a2c1884
+content_hash: 0972aef5c2012e70472a0aad049e7ee9c03da3e5
+last_modified_at: 2023-05-14
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-sync.html
@@ -23,6 +24,7 @@ related_topics:
 # pacman --sync
 
 Arch Linux paket yönetim aracı.
+Ayrıca bakınız: `pacman`.
 Daha fazla bilgi için: <https://man.archlinux.org/man/pacman.8>.
 
 - Yeni bir paket indir::

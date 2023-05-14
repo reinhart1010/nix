@@ -2,13 +2,17 @@
 layout: page
 title: linux/pacman-query (English)
 description: "Arch Linux package manager utility."
-content_hash: 903e77184e416b1bf5063501a9c90af2786fac34
+content_hash: a675a1511597578f2a9a9bca45277c9ded78b8b4
+last_modified_at: 2023-05-14
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-query.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/pacman-query.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/pacman-query.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/pacman-query.html
@@ -17,6 +21,7 @@ related_topics:
 # pacman --query
 
 Arch Linux package manager utility.
+See also: `pacman`.
 More information: <https://man.archlinux.org/man/pacman.8>.
 
 - List installed packages and versions:

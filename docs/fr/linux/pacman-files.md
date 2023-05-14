@@ -2,13 +2,17 @@
 layout: page
 title: linux/pacman-files (français)
 description: "Interagis avec les bases de données de fichiers."
-content_hash: 0829a4443780e4c09203f703e5a199ff3199f0f5
+content_hash: 895cd544b5484402ecb60f94b8388e201d30a675
+last_modified_at: 2023-05-14
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-files.html
     icon: bi bi-globe
   - title: English version
     url: /en/linux/pacman-files.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/pacman-files.html
     icon: bi bi-globe
 ---
 
@@ -23,7 +27,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># pacman --files
 
 Interagis avec les bases de données de fichiers.
-Voir aussi `pkgfile`.
+Voir aussi: `pacman`, `pkgfile`.
 Plus d'informations : <https://man.archlinux.org/man/pacman.8>.
 
 - Mets à jour les bases de données des fichiers :

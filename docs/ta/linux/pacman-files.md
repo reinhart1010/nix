@@ -2,7 +2,7 @@
 layout: page
 title: linux/pacman-files (தமிழ்)
 description: "ஆர்ச் லினக்ஸ் தொகுப்பு மேலாளர் பயன்பாடு."
-content_hash: 762dd89c1ad93aa15f6ef14037ce457dfd0f1653
+content_hash: 5075c8a9ab9f29cf4be5e440f627b11a86799c3f
 last_modified_at: 2023-05-14
 related_topics:
   - title: Deutsch version
@@ -18,7 +18,7 @@ related_topics:
 # pacman --files
 
 ஆர்ச் லினக்ஸ் தொகுப்பு மேலாளர் பயன்பாடு.
-`pkgfile` ஐயும் பார்க்கவும்.
+இதையும் பார்க்கவும்: `pacman`, `pkgfile`.
 மேலும் விவரத்திற்கு: <https://man.archlinux.org/man/pacman.8>.
 
 - தொகுப்பு தரவுத்தளத்தைப் புதுப்பிக்கவும்:

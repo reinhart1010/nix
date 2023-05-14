@@ -2,7 +2,8 @@
 layout: page
 title: linux/pacman-remove (Indonesia)
 description: "Kegunaan manajer paket Arch Linux."
-content_hash: 550d39a340b88fcab897d757409062d5ad81a3fc
+content_hash: f641f33772e35672fa403ecd2c214667725363e1
+last_modified_at: 2023-05-14
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-remove.html
@@ -20,12 +21,10 @@ related_topics:
     url: /tr/linux/pacman-remove.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pacman --remove
+# pacman --remove
 
 Kegunaan manajer paket Arch Linux.
+Guarda anche: `pacman`.
 Informasi lebih lanjut: <https://man.archlinux.org/man/pacman.8>.
 
 - Hapus paket beserta dependensinya:

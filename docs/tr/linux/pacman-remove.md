@@ -2,7 +2,8 @@
 layout: page
 title: linux/pacman-remove (Türkçe)
 description: "Arch Linux paket yönetim aracı."
-content_hash: d67e8264478fe75a9419b56687db92172159a335
+content_hash: d0fe92cbd41b921a13a121b48f85680f6c9cf669
+last_modified_at: 2023-05-14
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-remove.html
@@ -23,6 +24,7 @@ related_topics:
 # pacman --remove
 
 Arch Linux paket yönetim aracı.
+Ayrıca bakınız: `pacman`.
 Daha fazla bilgi için: <https://man.archlinux.org/man/pacman.8>.
 
 - Bir paket ve bağlılıklarını sil:

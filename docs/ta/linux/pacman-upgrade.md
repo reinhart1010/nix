@@ -2,7 +2,8 @@
 layout: page
 title: linux/pacman-upgrade (தமிழ்)
 description: "ஆர்ச் லினக்ஸ் தொகுப்பு மேலாளர் பயன்பாடு."
-content_hash: e370e162f1094e456a02560e149ca932bc5e2388
+content_hash: 3e74eb9aef766ff11c3ddf07faf3ae3772214173
+last_modified_at: 2023-05-14
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-upgrade.html
@@ -20,6 +21,7 @@ related_topics:
 # pacman --upgrade
 
 ஆர்ச் லினக்ஸ் தொகுப்பு மேலாளர் பயன்பாடு.
+இதையும் பார்க்கவும்: `pacman`.
 மேலும் விவரத்திற்கு: <https://man.archlinux.org/man/pacman.8>.
 
 - கோப்புகளிலிருந்து ஒன்று அல்லது அதற்கு மேற்பட்ட தொகுப்புகளை நிறுவவும்:

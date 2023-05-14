@@ -2,10 +2,14 @@
 layout: page
 title: linux/pacman-mirrors (English)
 description: "Generate a pacman mirrorlist for Manjaro Linux."
-content_hash: ed87966b7f8aaf63997bc0b9a824e5ce27b910d7
+content_hash: 2a92cc5f94240b7eb8b76e87f803f175908afc59
+last_modified_at: 2023-05-14
 related_topics:
   - title: français version
     url: /fr/linux/pacman-mirrors.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/pacman-mirrors.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/pacman-mirrors.html
@@ -15,6 +19,7 @@ related_topics:
 
 Generate a pacman mirrorlist for Manjaro Linux.
 Every run of pacman-mirrors requires you to synchronize your database and update your system using `sudo pacman -Syyu`.
+See also: `pacman`.
 More information: <https://wiki.manjaro.org/index.php?title=Pacman-mirrors>.
 
 - Generate a mirrorlist using the default settings:

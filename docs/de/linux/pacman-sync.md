@@ -2,13 +2,20 @@
 layout: page
 title: linux/pacman-sync (Deutsch)
 description: "Arch Linux Paketverwaltungs-Werkzeug."
-content_hash: b906b657748667f8b666586578107cb6e783e1c6
+content_hash: 666bee7bb08d8be50866e579144131c416c17094
+last_modified_at: 2023-05-14
 related_topics:
   - title: English version
     url: /en/linux/pacman-sync.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/pacman-sync.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/pacman-sync.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/pacman-sync.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/pacman-sync.html
@@ -17,6 +24,7 @@ related_topics:
 # pacman --sync
 
 Arch Linux Paketverwaltungs-Werkzeug.
+Siehe auch: `pacman`.
 Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
 
 - Installiere ein neues Paket:

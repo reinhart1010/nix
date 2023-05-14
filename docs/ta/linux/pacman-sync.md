@@ -2,7 +2,8 @@
 layout: page
 title: linux/pacman-sync (தமிழ்)
 description: "ஆர்ச் லினக்ஸ் தொகுப்பு மேலாளர் பயன்பாடு."
-content_hash: e236a7d086f8229166ec29a685cad0c0e92bc0bf
+content_hash: 3d617b406e9e4881d1c3366c435ea8d7a50fd9f8
+last_modified_at: 2023-05-14
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-sync.html
@@ -13,16 +14,17 @@ related_topics:
   - title: français version
     url: /fr/linux/pacman-sync.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/pacman-sync.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/pacman-sync.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pacman --sync
+# pacman --sync
 
 ஆர்ச் லினக்ஸ் தொகுப்பு மேலாளர் பயன்பாடு.
+இதையும் பார்க்கவும்: `pacman`.
 மேலும் விவரத்திற்கு: <https://man.archlinux.org/man/pacman.8>.
 
 - ஒரு புதிய தொகுப்பை நிறுவவும்:

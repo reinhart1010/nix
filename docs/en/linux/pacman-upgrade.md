@@ -2,13 +2,17 @@
 layout: page
 title: linux/pacman-upgrade (English)
 description: "Arch Linux package manager utility."
-content_hash: 59b7606c06ed5354ebf486fce1ce7c74f95d7b65
+content_hash: d4e1c9f22cae3df8ef73fa7e69e4a22baf49b7b0
+last_modified_at: 2023-05-14
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-upgrade.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/pacman-upgrade.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/pacman-upgrade.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/pacman-upgrade.html
@@ -17,6 +21,7 @@ related_topics:
 # pacman --upgrade
 
 Arch Linux package manager utility.
+See also: `pacman`.
 More information: <https://man.archlinux.org/man/pacman.8>.
 
 - Install one or more packages from files:

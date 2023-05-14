@@ -2,7 +2,8 @@
 layout: page
 title: linux/pacman-deptest (தமிழ்)
 description: "குறிப்பிடப்பட்ட ஒவ்வொரு சார்புநிலையையும் சரிபார்த்து, கணினியில் தற்போது திருப்தி அடையாத சார்புகளின் பட்டியலைத் திருப்பி அனுப்பவும்."
-content_hash: 71e8f415d585e0664fc262566cbbbbf6c62b341e
+content_hash: 49454207abc418b1cc194b504d6da049e36ecd71
+last_modified_at: 2023-05-14
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-deptest.html
@@ -14,12 +15,10 @@ related_topics:
     url: /fr/linux/pacman-deptest.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pacman --deptest
+# pacman --deptest
 
 குறிப்பிடப்பட்ட ஒவ்வொரு சார்புநிலையையும் சரிபார்த்து, கணினியில் தற்போது திருப்தி அடையாத சார்புகளின் பட்டியலைத் திருப்பி அனுப்பவும்.
+இதையும் பார்க்கவும்: `pacman`.
 மேலும் விவரத்திற்கு: <https://man.archlinux.org/man/pacman.8>.
 
 - நிறுவப்படாத சார்புகளின் தொகுப்பு பெயர்களை அச்சிடவும்:

@@ -2,13 +2,17 @@
 layout: page
 title: linux/pacman-query (français)
 description: "Fais des requêtes dans la base de données des paquets installés."
-content_hash: 6b6abda7248fa4007abc876b77806a86434a7379
+content_hash: a74eb57a13a4a0b48becd0da0e8240201272d3d9
+last_modified_at: 2023-05-14
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-query.html
     icon: bi bi-globe
   - title: English version
     url: /en/linux/pacman-query.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/pacman-query.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/pacman-query.html
@@ -17,6 +21,7 @@ related_topics:
 # pacman --query
 
 Fais des requêtes dans la base de données des paquets installés.
+Voir aussi: `pacman`.
 Plus d'informations : <https://man.archlinux.org/man/pacman.8>.
 
 - Liste les paquets installés et leur version :

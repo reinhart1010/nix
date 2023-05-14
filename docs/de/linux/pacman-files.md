@@ -2,7 +2,7 @@
 layout: page
 title: linux/pacman-files (Deutsch)
 description: "Arch Linux Paketverwaltungs-Werkzeug."
-content_hash: a17d663b4be3bd9de821ac6ef6b5fda0bf01ea8c
+content_hash: b4f26b75853550fc736f391fac563571a64a382c
 last_modified_at: 2023-05-14
 related_topics:
   - title: English version
@@ -18,7 +18,7 @@ related_topics:
 # pacman --files
 
 Arch Linux Paketverwaltungs-Werkzeug.
-Siehe auch `pkgfile`.
+Siehe auch: `pacman`, `pkgfile`.
 Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
 
 - Aktualisiere die Paketdatenbank:

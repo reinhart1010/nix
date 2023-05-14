@@ -2,7 +2,8 @@
 layout: page
 title: linux/pacman-remove (தமிழ்)
 description: "ஆர்ச் லினக்ஸ் தொகுப்பு மேலாளர் பயன்பாடு."
-content_hash: c2557c1c637753a0921350ac284f67bf27b0862c
+content_hash: cd4b6f16639c44f8cd5cd709fef627ccbebe3a2e
+last_modified_at: 2023-05-14
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-remove.html
@@ -13,16 +14,17 @@ related_topics:
   - title: français version
     url: /fr/linux/pacman-remove.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/pacman-remove.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/pacman-remove.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pacman --remove
+# pacman --remove
 
 ஆர்ச் லினக்ஸ் தொகுப்பு மேலாளர் பயன்பாடு.
+இதையும் பார்க்கவும்: `pacman`.
 மேலும் விவரத்திற்கு: <https://man.archlinux.org/man/pacman.8>.
 
 - ஒரு தொகுப்பு மற்றும் அதன் சார்புகளை அகற்றவும்:

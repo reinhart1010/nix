@@ -2,7 +2,8 @@
 layout: page
 title: linux/pacman-mirrors (தமிழ்)
 description: "மஞ்சாரோ லினக்ஸுக்கு பேக்மேன் கண்ணாடி பட்டியலை உருவாக்கவும்."
-content_hash: be8f92b4f83b772bd8d20c1b2042932425f107be
+content_hash: 788e4d528015a18d7c8b8bfa98d83ec7fbb6975b
+last_modified_at: 2023-05-14
 related_topics:
   - title: English version
     url: /en/linux/pacman-mirrors.html
@@ -14,13 +15,11 @@ related_topics:
     url: /tr/linux/pacman-mirrors.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pacman-mirrors
+# pacman-mirrors
 
 மஞ்சாரோ லினக்ஸுக்கு பேக்மேன் கண்ணாடி பட்டியலை உருவாக்கவும்.
 பேக்மேன்-கண்ணாடிகள் ஒவ்வொரு ஓட்டத்திற்கும் உங்கள் தரவுத்தளத்தை ஒத்திசைக்க மற்றும் `sudo pacman -Syyu` ஐப் பயன்படுத்தி உங்கள் கணினியைப் புதுப்பிக்க வேண்டும்.
+இதையும் பார்க்கவும்: `pacman`.
 மேலும் விவரத்திற்கு: <https://wiki.manjaro.org/index.php?title=Pacman-mirrors>.
 
 - இயல்புநிலை அமைப்புகளைப் பயன்படுத்தி ஒரு கண்ணாடி பட்டியலை உருவாக்கவும்:
