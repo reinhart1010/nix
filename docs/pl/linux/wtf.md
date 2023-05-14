@@ -2,7 +2,8 @@
 layout: page
 title: linux/wtf (polski)
 description: "Pokazuje rozwinięcia akronimów."
-content_hash: a67cafd09205f9c0e65d1596861c3927605fc323
+content_hash: 7ab9f17e87a8a8b734e76c5dc4a17ba53182ea0a
+last_modified_at: 2023-05-14
 related_topics:
   - title: English version
     url: /en/linux/wtf.html
@@ -11,13 +12,10 @@ related_topics:
     url: /pt_BR/linux/wtf.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># wtf
+# wtf
 
 Pokazuje rozwinięcia akronimów.
-Więcej informacji: <https://manpages.debian.org/bsdgames/wtf.6.en.html>.
+Więcej informacji: <https://manpages.debian.org/latest/bsdgames/wtf.6.en.html>.
 
 - Rozwinięcie podanego akronimu:
 

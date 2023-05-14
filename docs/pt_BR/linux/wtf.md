@@ -2,16 +2,20 @@
 layout: page
 title: linux/wtf (português (Brasil))
 description: "Mostra a expansão de acrônimos."
-content_hash: bf8c4b7968ed75a9211891d56575761b78168c2d
+content_hash: 8d0594f087738ffd1d40a5d9498e039bbcd951d5
+last_modified_at: 2023-05-14
 related_topics:
   - title: English version
     url: /en/linux/wtf.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/wtf.html
     icon: bi bi-globe
 ---
 # wtf
 
 Mostra a expansão de acrônimos.
-Mais informações: <https://manpages.debian.org/bsdgames/wtf.6.en.html>.
+Mais informações: <https://manpages.debian.org/latest/bsdgames/wtf.6.en.html>.
 
 - Expande um acrônimo:
 

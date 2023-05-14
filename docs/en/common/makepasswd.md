@@ -2,12 +2,13 @@
 layout: page
 title: common/makepasswd (English)
 description: "Generate and encrypt passwords."
-content_hash: 5db36ced11b905a63e47c3d9f9e97cf346123d86
+content_hash: e3607b7195d448c740f5200ccb5b57bf7f99675b
+last_modified_at: 2023-05-14
 ---
 # makepasswd
 
 Generate and encrypt passwords.
-More information: <https://manpages.debian.org/stretch/makepasswd/makepasswd.1.en.html>.
+More information: <https://manpages.debian.org/latest/makepasswd/makepasswd.1.en.html>.
 
 - Generate a random password (8 to 10 characters long, containing letters and numbers):
 

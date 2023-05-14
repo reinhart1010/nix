@@ -2,20 +2,17 @@
 layout: page
 title: common/pdfseparate (Deutsch)
 description: "Extrahiere die Seiten einer Portable Document Format (PDF) Datei."
-content_hash: 568dd80d4753746454b5c94f7a678d3518e5a650
-last_modified_at: 2022-12-06
+content_hash: d88bf1bc157f0d1a8227e3afdd83f733a0a17b5d
+last_modified_at: 2023-05-14
 related_topics:
   - title: English version
     url: /en/common/pdfseparate.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pdfseparate
+# pdfseparate
 
 Extrahiere die Seiten einer Portable Document Format (PDF) Datei.
-Weitere Informationen: <https://manpages.debian.org/unstable/poppler-utils/pdfseparate.1.en.html>.
+Weitere Informationen: <https://manpages.debian.org/latest/poppler-utils/pdfseparate.1.en.html>.
 
 - Extrahiere die Seiten einer PDF Datei und speichere jede Seite als neue PDF Datei ab:
 

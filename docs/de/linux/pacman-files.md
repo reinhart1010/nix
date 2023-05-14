@@ -2,13 +2,17 @@
 layout: page
 title: linux/pacman-files (Deutsch)
 description: "Arch Linux Paketverwaltungs-Werkzeug."
-content_hash: 2ac55b13f33813cce4296c3c1a429c759685a94b
+content_hash: a17d663b4be3bd9de821ac6ef6b5fda0bf01ea8c
+last_modified_at: 2023-05-14
 related_topics:
   - title: English version
     url: /en/linux/pacman-files.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/pacman-files.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/pacman-files.html
     icon: bi bi-globe
 ---
 # pacman --files
@@ -36,10 +40,6 @@ Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
 - Liste die Dateien auf welche einem bestimmten Paket gehören:
 
 `pacman --files --list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paketname</span>
-
-- Liste nur den absoluten Pfad der Dateien auf:
-
-`pacman --query --list --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paketname</span>
 
 - Zeige Hilfe an:
 

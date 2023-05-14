@@ -2,7 +2,8 @@
 layout: page
 title: linux/snake4scores (català)
 description: "Mostra les màximes puntuacions del joc snake4."
-content_hash: 757c4cbbdc4a47b1ed0ac83d52ccf1a59b924d26
+content_hash: 3c1d4158b7c938e61628096ec26d53c72a1f28b4
+last_modified_at: 2023-05-14
 related_topics:
   - title: English version
     url: /en/linux/snake4scores.html
@@ -14,7 +15,7 @@ related_topics:
 # snake4scores
 
 Mostra les màximes puntuacions del joc snake4.
-Més informació: <https://manpages.debian.org/snake4/snake4.6.en.html>.
+Més informació: <https://manpages.debian.org/latest/snake4/snake4.6.en.html>.
 
 - Mostra les màximes puntuacions:
 

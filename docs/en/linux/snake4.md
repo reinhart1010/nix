@@ -2,12 +2,13 @@
 layout: page
 title: linux/snake4 (English)
 description: "Snake game in the terminal."
-content_hash: 8464ac4adcb95a8bb241cc8a97edbe3093b0fa67
+content_hash: 2eda5cbdbfc63f47535ef48058c5b0858bc44455
+last_modified_at: 2023-05-14
 ---
 # snake4
 
 Snake game in the terminal.
-More information: <https://manpages.debian.org/snake4/snake4.6.en.html>.
+More information: <https://manpages.debian.org/latest/snake4/snake4.6.en.html>.
 
 - Start a snake game:
 

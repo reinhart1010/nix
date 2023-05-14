@@ -2,7 +2,8 @@
 layout: page
 title: linux/lastcomm (English)
 description: "Show last commands executed."
-content_hash: a83b47d1b2b1836bb96d8496e7a9aaefb1b1755e
+content_hash: dcfeee38983c6bc2d76a6f254501890904da90d9
+last_modified_at: 2023-05-14
 related_topics:
   - title: Deutsch version
     url: /de/linux/lastcomm.html
@@ -11,7 +12,7 @@ related_topics:
 # lastcomm
 
 Show last commands executed.
-More information: <https://manpages.debian.org/stable/acct/lastcomm.1.en.html>.
+More information: <https://manpages.debian.org/latest/acct/lastcomm.1.en.html>.
 
 - Print information about all the commands in the acct (record file):
 

@@ -2,12 +2,13 @@
 layout: page
 title: linux/dget (English)
 description: "Download Debian packages."
-content_hash: cae40bb273953a5a1d3e80e501c31be690186375
+content_hash: 6c96e2b28026b2d5d2a1096db6df85380550d6fd
+last_modified_at: 2023-05-14
 ---
 # dget
 
 Download Debian packages.
-More information: <https://manpages.debian.org/dget>.
+More information: <https://manpages.debian.org/latest/devscripts/dget.1.en.html>.
 
 - Download a binary package:
 

@@ -2,7 +2,8 @@
 layout: page
 title: linux/arithmetic (中文)
 description: "测试见到你的算术问题。"
-content_hash: 6f3d913fda02e82644b891452e82687e24e6db8c
+content_hash: 97a41cc98530ee63749fa341ea6525e8252f5f9f
+last_modified_at: 2023-05-14
 related_topics:
   - title: Deutsch version
     url: /de/linux/arithmetic.html
@@ -14,7 +15,7 @@ related_topics:
 # arithmetic
 
 测试见到你的算术问题。
-更多信息：<https://manpages.debian.org/bsdgames/arithmetic.6.en.html>.
+更多信息：<https://manpages.debian.org/latest/bsdgames/arithmetic.6.en.html>.
 
 - 开始算术测试：
 

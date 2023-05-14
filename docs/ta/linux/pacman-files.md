@@ -2,7 +2,8 @@
 layout: page
 title: linux/pacman-files (தமிழ்)
 description: "ஆர்ச் லினக்ஸ் தொகுப்பு மேலாளர் பயன்பாடு."
-content_hash: 971023a9c651eafa04cf8b8015945c9da946a798
+content_hash: 762dd89c1ad93aa15f6ef14037ce457dfd0f1653
+last_modified_at: 2023-05-14
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-files.html
@@ -14,10 +15,7 @@ related_topics:
     url: /fr/linux/pacman-files.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pacman --files
+# pacman --files
 
 ஆர்ச் லினக்ஸ் தொகுப்பு மேலாளர் பயன்பாடு.
 `pkgfile` ஐயும் பார்க்கவும்.
@@ -42,10 +40,6 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 - குறிப்பிட்ட தொகுப்புக்கு சொந்தமான கோப்புகளை பட்டியலிடுங்கள்:
 
 `pacman --files --list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு_பெயர்</span>
-
-- கோப்புகளுக்கான முழுமையான பாதையை மட்டும் பட்டியலிடுங்கள்:
-
-`pacman --query --list --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு_பெயர்</span>
 
 - உதவியைக் காட்டு:
 
