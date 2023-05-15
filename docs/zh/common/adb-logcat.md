@@ -2,14 +2,27 @@
 layout: page
 title: common/adb-logcat (中文)
 description: "转储系统消息日志。"
-content_hash: e399235fe21326ec22ad1ce030cf994f1702d6da
+content_hash: 518682c8ca0272949e85967963830790d58cde77
+last_modified_at: 2023-05-15
 related_topics:
   - title: English version
     url: /en/common/adb-logcat.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/adb-logcat.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/adb-logcat.html
+    icon: bi bi-globe
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/adb-logcat.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># adb-logcat
 
@@ -35,6 +48,14 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 - 显示优先级为警告（W）及以上的所有标签的日志：
 
 `adb logcat *:W`
+
+- 显示特定 PID 的日志：
+
+`adb logcat --pid=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
+
+- 显示某个特定软件包的进程日志：
+
+`adb logcat --pid=$(adb shell pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">软件包</span>`)`
 
 - 给日志着色（通常与过滤器一起使用）:
 

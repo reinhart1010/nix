@@ -1,19 +1,23 @@
 ---
 layout: page
 title: common/n (中文)
-description: "用于管理多个节点版本的工具。"
-content_hash: 3a6b975037b641c9174ddd8ad3092592ffbb354a
+description: "用于管理多个 node 版本的工具。"
+content_hash: 048f4b2bb5419306d24a32236c1d5bef4682d888
+last_modified_at: 2023-05-15
 related_topics:
   - title: English version
     url: /en/common/n.html
     icon: bi bi-globe
+  - title: ไทย version
+    url: /th/common/n.html
+    icon: bi bi-globe
 ---
 # n
 
-用于管理多个节点版本的工具。
+用于管理多个 node 版本的工具。
 更多信息：<https://github.com/tj/n>.
 
-- 安装给定版本的节点。如果版本已经安装，它将被激活：
+- 安装给定版本的 node。如果版本已经安装，它将被激活：
 
 `n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">版本</span>
 
