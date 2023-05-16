@@ -2,8 +2,12 @@
 layout: page
 title: linux/systemd-run (English)
 description: "Run programs in transient scope units, service units, or path-, socket-, or timer-triggered service units."
-content_hash: 245a13a02f5adde987da34b64ec4c900ad908c89
-last_modified_at: 2023-04-21
+content_hash: 7207ef09da4e00dc7a3758ff8eb1f4af26a6edbe
+last_modified_at: 2023-05-16
+related_topics:
+  - title: polski version
+    url: /pl/linux/systemd-run.html
+    icon: bi bi-globe
 ---
 # systemd-run
 
@@ -32,12 +36,12 @@ More information: <https://www.freedesktop.org/software/systemd/man/systemd-run.
 
 - Share the terminal with the program (allowing interactive input/output) and make sure the execution details remain after the program exits:
 
-`systemd-run  --remain-after-exit --pty `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executable</span>
+`systemd-run --remain-after-exit --pty `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
 - Set properties (e.g. CPUQuota, MemoryMax) of the process and wait until it exits:
 
-`systemd-run --property MemoryMax=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">memory_in_bytes</span>` --property CPUQuota=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percentage_of_CPU_time</span>`% --wait `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executable</span>
+`systemd-run --property MemoryMax=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">memory_in_bytes</span>` --property CPUQuota=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percentage_of_CPU_time</span>`% --wait `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
 - Use the program in a shell pipeline:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executable1</span>` | systemd-run --pipe `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executable2</span>` | `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executable3</span>
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command1</span>` | systemd-run --pipe `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command2</span>` | `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command3</span>

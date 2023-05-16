@@ -2,7 +2,8 @@
 layout: page
 title: common/molecule (English)
 description: "Molecule helps testing Ansible roles."
-content_hash: b030f0a4e145d28cdaf4e7a3fd2bc3af3c34ce27
+content_hash: 209dafbeac648b0edf9a5f0805966057b7d0945d
+last_modified_at: 2023-05-16
 ---
 # molecule
 
@@ -24,6 +25,10 @@ More information: <https://molecule.readthedocs.io>.
 - Configure the instance:
 
 `molecule converge`
+
+- List scenarios of the instance:
+
+`molecule matrix converge`
 
 - Log in into the instance:
 
