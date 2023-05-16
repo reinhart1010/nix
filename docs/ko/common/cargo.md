@@ -2,7 +2,8 @@
 layout: page
 title: common/cargo (한국어)
 description: "Rust 패키지 관리프로그램."
-content_hash: 46dac7a56287aa28b35e23fc93d1b42b55ddf51b
+content_hash: 826f0263c11b8954f47fc34bf72f3364b16760d5
+last_modified_at: 2023-05-16
 related_topics:
   - title: Deutsch version
     url: /de/common/cargo.html
@@ -10,11 +11,20 @@ related_topics:
   - title: English version
     url: /en/common/cargo.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/cargo.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/cargo.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/cargo.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/cargo.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/cargo.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/cargo.html
@@ -33,7 +43,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 Rust 패키지 관리프로그램.
 Rust 프로젝트 및 해당 모듈 종속성(크레이트) 관리.
-더 많은 정보: <https://crates.io>.
+더 많은 정보: <https://doc.rust-lang.org/cargo>.
 
 - 크레이트 검색:
 

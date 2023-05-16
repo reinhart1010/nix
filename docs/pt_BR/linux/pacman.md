@@ -2,7 +2,8 @@
 layout: page
 title: linux/pacman (português (Brasil))
 description: "Utilitário de Arch Linux para gerenciamento de pacotes."
-content_hash: aa94ed47aef67b11c02b833508b9d04296ede989
+content_hash: 2c5317657c42be2c615fccf052f7623edf4bac7b
+last_modified_at: 2023-05-16
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -13,11 +14,20 @@ related_topics:
   - title: français version
     url: /fr/linux/pacman.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/pacman.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/pacman.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/pacman.html
+    icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/linux/pacman.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/pacman.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/pacman.html
@@ -29,7 +39,7 @@ related_topics:
 # pacman
 
 Utilitário de Arch Linux para gerenciamento de pacotes.
-Alguns subcomandos como `pacman sync` possuem sua própria documentação de uso.
+Veja também: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`,  `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
 Mais informações: <https://man.archlinux.org/man/pacman.8>.
 
 - Sincroniza e atualiza todos os pacotes:

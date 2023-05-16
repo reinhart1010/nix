@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman (English)
 description: "Arch Linux package manager utility."
-content_hash: edeae25345e04d3d93c269cb002194a5859ca1ea
-last_modified_at: 2022-12-05
+content_hash: 102b74327e401f3a84a4f3044305a9aec5f306dd
+last_modified_at: 2023-05-16
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/pacman.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/pacman.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/pacman.html
@@ -36,7 +39,7 @@ related_topics:
 # pacman
 
 Arch Linux package manager utility.
-Some subcommands such as `pacman sync` have their own usage documentation.
+See also: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`,  `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
 For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 More information: <https://man.archlinux.org/man/pacman.8>.
 

@@ -2,13 +2,17 @@
 layout: page
 title: common/cargo (español)
 description: "Gestiona proyectos Rust y sus dependencias de módulos (crates)."
-content_hash: 1373612c7d527e6fab77ecade3e7d335a9149778
+content_hash: f09b9022d3caf65d2bd691c3678dc8822560ec4c
+last_modified_at: 2023-05-16
 related_topics:
   - title: Deutsch version
     url: /de/common/cargo.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/cargo.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/cargo.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/cargo.html
@@ -19,18 +23,18 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/cargo.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/cargo.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/cargo.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cargo
+# cargo
 
 Gestiona proyectos Rust y sus dependencias de módulos (crates).
 Algunos subcomandos como `cargo build` tienen su propia documentación de uso.
-Más información: <https://crates.io>.
+Más información: <https://doc.rust-lang.org/cargo>.
 
 - Busca crates:
 

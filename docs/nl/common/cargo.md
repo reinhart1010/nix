@@ -2,7 +2,8 @@
 layout: page
 title: common/cargo (Nederlands)
 description: "Rust pakketbeheerder."
-content_hash: 8ab2a344551abad3ccbbfa3d840d5f1af0c3f72d
+content_hash: fd24ef7d811e0ee273cb3163af6b66c629e78955
+last_modified_at: 2023-05-16
 related_topics:
   - title: Deutsch version
     url: /de/common/cargo.html
@@ -10,11 +11,20 @@ related_topics:
   - title: English version
     url: /en/common/cargo.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/cargo.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/cargo.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/cargo.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/cargo.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/cargo.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/cargo.html
@@ -33,7 +43,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 Rust pakketbeheerder.
 Beheer Rust projecten en hun afhankelijkheden (crates).
-Meer informatie: <https://crates.io>.
+Meer informatie: <https://doc.rust-lang.org/cargo>.
 
 - Zoek naar crates:
 

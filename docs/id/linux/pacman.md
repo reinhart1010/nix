@@ -2,7 +2,8 @@
 layout: page
 title: linux/pacman (Indonesia)
 description: "Kegunaan manajer paket Arch Linux."
-content_hash: 1414d947c182f6b2e534c158c37eadd501e217ba
+content_hash: 23ebc45713718d4a988751047f3bafc09493893a
+last_modified_at: 2023-05-16
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -15,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/pacman.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/pacman.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/pacman.html
@@ -32,13 +36,10 @@ related_topics:
     url: /zh/linux/pacman.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pacman
+# pacman
 
 Kegunaan manajer paket Arch Linux.
-Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `pacman sync`.
+Guarda anche: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`,  `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
 Informasi lebih lanjut: <https://man.archlinux.org/man/pacman.8>.
 
 - Sinkronkan dan perbarui semua paket:

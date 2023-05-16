@@ -2,10 +2,17 @@
 layout: page
 title: common/cargo (Deutsch)
 description: "Verwalte Rust-Projekte und deren Abhängigkeiten (crates)."
-content_hash: f56f4f718a903d1effd7c4cf786309e6c32ff140
+content_hash: 50fce234c608afb8ef8f42122ff7c2b7d3c98e66
+last_modified_at: 2023-05-16
 related_topics:
   - title: English version
     url: /en/common/cargo.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/cargo.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/cargo.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/cargo.html
@@ -15,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/cargo.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/cargo.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/cargo.html
@@ -33,7 +43,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 Verwalte Rust-Projekte und deren Abhängigkeiten (crates).
 Manche Unterbefehle wie `cargo build` sind separat dokumentiert.
-Weitere Informationen: <https://crates.io>.
+Weitere Informationen: <https://doc.rust-lang.org/cargo>.
 
 - Suche nach Abhängigkeiten (crates):
 

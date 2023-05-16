@@ -2,8 +2,8 @@
 layout: page
 title: common/cargo (français)
 description: "Gestion d'un projet Rust et ses dependences (crates)."
-content_hash: b1730cfa75f9469c65e191436b91fb952d294807
-last_modified_at: 2022-12-29
+content_hash: 22fef0ce6fa5250ec47afedc550e1e6ef2354614
+last_modified_at: 2023-05-16
 related_topics:
   - title: Deutsch version
     url: /de/common/cargo.html
@@ -34,7 +34,7 @@ related_topics:
 
 Gestion d'un projet Rust et ses dependences (crates).
 Certaines sous-commandes comme `cargo build` ont leurs propres documentations.
-Plus d'informations : <https://crates.io>.
+Plus d'informations : <https://doc.rust-lang.org/cargo>.
 
 - Rechercher des crates :
 

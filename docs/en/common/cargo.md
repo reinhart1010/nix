@@ -2,10 +2,17 @@
 layout: page
 title: common/cargo (English)
 description: "Manage Rust projects and their module dependencies (crates)."
-content_hash: 5983a14312bea3ba0550e5d5b1bf31523f353225
+content_hash: ebd058ebbdda09b51fdf197762536928fbad8dce
+last_modified_at: 2023-05-16
 related_topics:
   - title: Deutsch version
     url: /de/common/cargo.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/cargo.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/cargo.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/cargo.html
@@ -16,6 +23,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/cargo.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/cargo.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/cargo.html
     icon: bi bi-globe
@@ -24,7 +34,7 @@ related_topics:
 
 Manage Rust projects and their module dependencies (crates).
 Some subcommands such as `cargo build` have their own usage documentation.
-More information: <https://crates.io>.
+More information: <https://doc.rust-lang.org/cargo>.
 
 - Search for crates:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/cargo (தமிழ்)
 description: "ரஸ்ட் திட்டங்கள் மற்றும் அவற்றின் தொகுதி சார்புகளை (கிரேட்ஸ்) நிர்வகிக்கவும்."
-content_hash: e9ee5839bf0a395437ffce9c3c14c0965fb0e498
-last_modified_at: 2022-12-03
+content_hash: d4d892514a5ca529e496894b62ccf1cf9e6386b8
+last_modified_at: 2023-05-16
 related_topics:
   - title: Deutsch version
     url: /de/common/cargo.html
@@ -30,20 +30,11 @@ related_topics:
     url: /pt_BR/common/cargo.html
     icon: bi bi-globe
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cargo.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cargo
+# cargo
 
 ரஸ்ட் திட்டங்கள் மற்றும் அவற்றின் தொகுதி சார்புகளை (கிரேட்ஸ்) நிர்வகிக்கவும்.
 `cargo build` போன்ற சில துணைக் கட்டளைகள் அவற்றின் சொந்த பயன்பாட்டு ஆவணங்களைக் கொண்டுள்ளன.
-மேலும் விவரத்திற்கு: <https://crates.io>.
+மேலும் விவரத்திற்கு: <https://doc.rust-lang.org/cargo>.
 
 - கிரேட்ஸைத் தேடுங்கள்:
 

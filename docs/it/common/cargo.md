@@ -2,7 +2,8 @@
 layout: page
 title: common/cargo (italiano)
 description: "Gestore di pacchetti di Rust."
-content_hash: f5a62593b607d6b76b13656397b6f470cf059eee
+content_hash: 03d477c7148495444c0ce6de4c7f7240734bd76a
+last_modified_at: 2023-05-16
 related_topics:
   - title: Deutsch version
     url: /de/common/cargo.html
@@ -12,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/cargo.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/cargo.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/cargo.html
@@ -40,7 +44,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 Gestore di pacchetti di Rust.
 Gestisce progetti Rust ed i moduli dai quali sono dipendenti (detti crate).
 Alcuni comandi aggiuntivi, come `cargo build`, hanno la propria documentazione.
-Maggiori informazioni: <https://crates.io>.
+Maggiori informazioni: <https://doc.rust-lang.org/cargo>.
 
 - Cerca una crate:
 
