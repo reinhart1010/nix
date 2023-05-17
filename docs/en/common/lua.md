@@ -2,7 +2,8 @@
 layout: page
 title: common/lua (English)
 description: "A powerful, light-weight embeddable programming language."
-content_hash: f73930c6f38a1a5e306c891c3f4004529b6d7e7c
+content_hash: db41a297de09dc16bd16ec5b32eb0ac38a53f400
+last_modified_at: 2023-05-17
 related_topics:
   - title: français version
     url: /fr/common/lua.html
@@ -19,8 +20,8 @@ More information: <https://www.lua.org>.
 
 - Execute a Lua script:
 
-`lua `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">script_name.lua</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--optional-argument</span>
+`lua `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.lua</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--optional-argument</span>
 
 - Execute a Lua expression:
 
-`lua -e '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">print( "Hello World" )</span>`'`
+`lua -e '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">print("Hello World")</span>`'`
