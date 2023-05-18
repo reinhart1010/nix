@@ -2,7 +2,7 @@
 layout: page
 title: common/7zr (한국어)
 description: "높은 파일압축률을 보여주는 압축 프로그램."
-content_hash: c5e463f680cb68812bedd2af250f94731478eb86
+content_hash: f600a415a63728027cd7aae9617520c53a7c815d
 last_modified_at: 2023-05-18
 related_topics:
   - title: Deutsch version
@@ -43,7 +43,7 @@ related_topics:
 
 높은 파일압축률을 보여주는 압축 프로그램.
 .7z파일들만을 지원하는 `7z`의 독립형 버전.
-더 많은 정보: <https://www.7-zip.org>.
+더 많은 정보: <https://manned.org/7zr>.
 
 - 파일이나 디렉토리 압축하기:
 

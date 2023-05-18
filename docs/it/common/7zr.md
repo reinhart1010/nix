@@ -2,13 +2,17 @@
 layout: page
 title: common/7zr (italiano)
 description: "Archiviatore di file con alto fattore di compressione."
-content_hash: 075a6f2649950e505e8359f477b1f2d0b9a9973a
+content_hash: be028b19ffa964ce935438abf33b87ed7c616dd7
+last_modified_at: 2023-05-18
 related_topics:
   - title: Deutsch version
     url: /de/common/7zr.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/7zr.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/7zr.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/7zr.html
@@ -48,7 +52,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 Archiviatore di file con alto fattore di compressione.
 Versione standalone di `7z` che supporta solo file .7z.
-Maggiori informazioni: <https://www.7-zip.org>.
+Maggiori informazioni: <https://manned.org/7zr>.
 
 - Archivia un file o una directory:
 

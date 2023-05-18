@@ -2,13 +2,20 @@
 layout: page
 title: common/7za (polski)
 description: "Archiwizator plików o wysokim współczynniku kompresji."
-content_hash: 456a027e4a0c39ce3d9c241445d728b87f56a724
+content_hash: 2ec58edb95671bbcf17e2e6356c65bc469316caa
+last_modified_at: 2023-05-18
 related_topics:
   - title: Deutsch version
     url: /de/common/7za.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/7za.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/7za.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/7za.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/7za.html
@@ -45,7 +52,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 Archiwizator plików o wysokim współczynniku kompresji.
 Samodzielna wersja `7z` z obsługą mniejszej liczby typów archiwów.
-Więcej informacji: <https://www.7-zip.org>.
+Więcej informacji: <https://manned.org/7za>.
 
 - Zarchiwizuj plik lub katalog:
 

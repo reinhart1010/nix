@@ -2,7 +2,7 @@
 layout: page
 title: common/7zr (Indonesia)
 description: "Pengarsip file dengan rasio kompresi yang tinggi."
-content_hash: 5c3f33cde602c76bd094a34e2f6605bde6b9e3a2
+content_hash: 26665dbca0f8e722a87ba48dd7a11429217c218f
 last_modified_at: 2023-05-18
 related_topics:
   - title: Deutsch version
@@ -43,7 +43,7 @@ related_topics:
 
 Pengarsip file dengan rasio kompresi yang tinggi.
 Serupa dengan `7z` namun mendukung format file arsip `.7z` saja.
-Informasi lebih lanjut: <https://www.7-zip.org>.
+Informasi lebih lanjut: <https://manned.org/7zr>.
 
 - Meng[a]rsipkan sebuah file atau direktori:
 

@@ -2,13 +2,20 @@
 layout: page
 title: common/7za (русский)
 description: "Архиватор файлов с высокой степенью сжатия."
-content_hash: 5364efb1b7c3602d92adc87b406a0d4a5c53864d
+content_hash: 1266fc18a763bbe2492d0e7c5bc768c961a91391
+last_modified_at: 2023-05-18
 related_topics:
   - title: Deutsch version
     url: /de/common/7za.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/7za.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/7za.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/7za.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/7za.html
@@ -36,7 +43,7 @@ related_topics:
 
 Архиватор файлов с высокой степенью сжатия.
 То же, что и `7z`, за исключением того, что поддерживает меньшее количество типов файлов, но является кроссплатформенным.
-Больше информации: <https://www.7-zip.org>.
+Больше информации: <https://manned.org/7za>.
 
 - Архивировать ([a]rchive) файл или папку:
 

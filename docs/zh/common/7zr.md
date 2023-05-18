@@ -2,7 +2,7 @@
 layout: page
 title: common/7zr (中文)
 description: "一个高压缩率的文件归档器。"
-content_hash: 627ed202652a33af3749c29c2b7493457497a2e8
+content_hash: ea0d5e378b74719ca15674697ec683fac5dddfc7
 last_modified_at: 2023-05-18
 related_topics:
   - title: Deutsch version
@@ -43,7 +43,7 @@ related_topics:
 
 一个高压缩率的文件归档器。
 类似于 `7z`，只支持 `.7z` 文件。
-更多信息：<https://www.7-zip.org>.
+更多信息：<https://manned.org/7zr>.
 
 - 归档一个文件或目录：
 

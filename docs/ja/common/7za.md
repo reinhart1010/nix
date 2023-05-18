@@ -2,13 +2,20 @@
 layout: page
 title: common/7za (日本語)
 description: "圧縮率の高いファイルアーカイバです。"
-content_hash: 8d87e0f9f00d239bf368ce0e51ddf233b5cb2ed8
+content_hash: 724453de4f843cef6088a0bfc0cfe513ff5874f1
+last_modified_at: 2023-05-18
 related_topics:
   - title: Deutsch version
     url: /de/common/7za.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/7za.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/7za.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/7za.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/7za.html
@@ -45,7 +52,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 圧縮率の高いファイルアーカイバです。
 `7z` よりも対応しているファイル形式は少ないですが、複数のプラットフォームに対応しています。
-詳しくはこちら: <https://www.7-zip.org>
+詳しくはこちら: <https://manned.org/7za>
 
 - ファイルまたはディレクトリを圧縮する:
 

@@ -2,13 +2,20 @@
 layout: page
 title: common/7za (中文)
 description: "一个高压缩率的文件归档器。"
-content_hash: bcdd6b93b6a933dbc8606f711aed83611bd7322f
+content_hash: e9c91ccd1dc959849f8dca2d9cfa80de622cec68
+last_modified_at: 2023-05-18
 related_topics:
   - title: Deutsch version
     url: /de/common/7za.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/7za.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/7za.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/7za.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/7za.html
@@ -36,7 +43,7 @@ related_topics:
 
 一个高压缩率的文件归档器。
 类似于 `7z`，支持的文档类型更少但跨平台。
-更多信息：<https://www.7-zip.org>.
+更多信息：<https://manned.org/7za>.
 
 - 归档一个文件或目录：
 

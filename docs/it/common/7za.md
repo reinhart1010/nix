@@ -2,13 +2,17 @@
 layout: page
 title: common/7za (italiano)
 description: "Archiviatore di file con alto fattore di compressione."
-content_hash: 15cafffc8377b29b195dd9137ac01c986890a152
+content_hash: 1242dda9594671d0e828973f66fbebe76f4f9b42
+last_modified_at: 2023-05-18
 related_topics:
   - title: Deutsch version
     url: /de/common/7za.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/7za.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/7za.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/7za.html
@@ -48,7 +52,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 Archiviatore di file con alto fattore di compressione.
 Versione standalone di `7z` con supporto a meno tipi di archivi.
-Maggiori informazioni: <https://www.7-zip.org>.
+Maggiori informazioni: <https://manned.org/7za>.
 
 - Archivia un file o una directory:
 

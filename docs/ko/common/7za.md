@@ -2,13 +2,17 @@
 layout: page
 title: common/7za (한국어)
 description: "높은 파일 압축률을 보여주는 파일 압축 프로그램."
-content_hash: 9444c1e8bff68b0454435ebbd0e0dd801b8fb4f7
+content_hash: 781e095257d46656b1b989fe9d1a22c5defd9acb
+last_modified_at: 2023-05-18
 related_topics:
   - title: Deutsch version
     url: /de/common/7za.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/7za.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/7za.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/7za.html
@@ -39,7 +43,7 @@ related_topics:
 
 높은 파일 압축률을 보여주는 파일 압축 프로그램.
 더 적은 압축 타입을 지원하지만, 크로스플랫폼인 점을 제외하면 `7z`과 유사합니다.
-더 많은 정보: <https://www.7-zip.org>.
+더 많은 정보: <https://manned.org/7za>.
 
 - 파일이나 디렉토리 압축하기:
 

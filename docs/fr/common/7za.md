@@ -2,13 +2,17 @@
 layout: page
 title: common/7za (français)
 description: "Un archiveur de fichiers avec un haut taux de compression."
-content_hash: 85f56764d239dafc217e72f41255769834e96c28
+content_hash: 23376c2d6651e54027ac3fdbbdc5fd0cda8d7f46
+last_modified_at: 2023-05-18
 related_topics:
   - title: Deutsch version
     url: /de/common/7za.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/7za.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/7za.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/7za.html
@@ -35,14 +39,11 @@ related_topics:
     url: /zh/common/7za.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># 7za
+# 7za
 
 Un archiveur de fichiers avec un haut taux de compression.
 Similaire à `7z` sauf qu'il supporte moins de type de fichiers mais il est multi-plateforme.
-Plus d'informations : <https://www.7-zip.org>.
+Plus d'informations : <https://manned.org/7za>.
 
 - Compresse un fichier ou un dossier :
 

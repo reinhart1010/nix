@@ -2,13 +2,20 @@
 layout: page
 title: common/7za (Indonesia)
 description: "Pengarsip file dengan rasio kompresi yang tinggi."
-content_hash: ebf9d4b5c95a654b037b01d9cacf91068cd3a76d
+content_hash: de31863d77c9bc9dff1d2866d9c385830bd0298d
+last_modified_at: 2023-05-18
 related_topics:
   - title: Deutsch version
     url: /de/common/7za.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/7za.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/7za.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/7za.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/7za.html
@@ -36,7 +43,7 @@ related_topics:
 
 Pengarsip file dengan rasio kompresi yang tinggi.
 Serupa dengan `7z` namun mendukung lebih sedikit format file arsip dan dapat digunakan lintas sistem operasi.
-Informasi lebih lanjut: <https://www.7-zip.org>.
+Informasi lebih lanjut: <https://manned.org/7za>.
 
 - Meng[a]rsipkan sebuah file atau direktori:
 

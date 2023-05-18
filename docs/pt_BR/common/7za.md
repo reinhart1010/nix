@@ -2,13 +2,17 @@
 layout: page
 title: common/7za (português (Brasil))
 description: "Um compactador de arquivos com alta taxa de compressão."
-content_hash: 6720dfff60b1d134f9396e0315e8552a1a4e351d
+content_hash: f77b79ca1f395b891946342ba74331d2cda82b66
+last_modified_at: 2023-05-18
 related_topics:
   - title: Deutsch version
     url: /de/common/7za.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/7za.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/7za.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/7za.html
@@ -35,20 +39,11 @@ related_topics:
     url: /zh/common/7za.html
     icon: bi bi-globe
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/7za.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># 7za
+# 7za
 
 Um compactador de arquivos com alta taxa de compressão.
 Versão compacta do `7z`, com suporte para menos tipos de arquivamento/compressão.
-Mais informações: <https://www.7-zip.org>.
+Mais informações: <https://manned.org/7za>.
 
 - Compactar um arquivo ou diretório:
 

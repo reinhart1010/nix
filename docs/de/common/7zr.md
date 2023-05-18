@@ -2,7 +2,7 @@
 layout: page
 title: common/7zr (Deutsch)
 description: "Ein Dateiarchivierer mit hoher Kompressionsrate."
-content_hash: 8e8360e4667304b4961ae16c2fd535cccdaeba99
+content_hash: 644d6fff866a3be9ebd2aa2bdf1ed55358c7f91e
 last_modified_at: 2023-05-18
 related_topics:
   - title: English version
@@ -43,7 +43,7 @@ related_topics:
 
 Ein Dateiarchivierer mit hoher Kompressionsrate.
 Eine alleinstehende Version von `7z`, die nur `.7z` Dateien unterstützt.
-Weitere Informationen: <https://www.7-zip.org>.
+Weitere Informationen: <https://manned.org/7zr>.
 
 - [a]rchiviere eine Datei oder ein Verzeichnis:
 

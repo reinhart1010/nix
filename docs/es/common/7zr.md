@@ -2,7 +2,7 @@
 layout: page
 title: common/7zr (español)
 description: "Archivador de ficheros con un alto ratio de compresión."
-content_hash: 004f7fe491e7d18603ea127249c38ff95ef7014b
+content_hash: 7dc158d9cd07e786ed06715670da29abb941f7c9
 last_modified_at: 2023-05-18
 related_topics:
   - title: Deutsch version
@@ -43,7 +43,7 @@ related_topics:
 
 Archivador de ficheros con un alto ratio de compresión.
 Similar a `7z` excepto que sólo soporta ficheros `.7z`.
-Más información: <https://www.7-zip.org>.
+Más información: <https://manned.org/7zr>.
 
 - [a]rchiva un archivo o directorio:
 

@@ -2,10 +2,17 @@
 layout: page
 title: common/7za (Deutsch)
 description: "Ein Dateiarchivierer mit hoher Kompressionsrate."
-content_hash: f59ac55ce1aa27c1358234d654d3e74f44a7bc01
+content_hash: 7ba40cbb49b8481c99ed6709d4fc19da415ffd28
+last_modified_at: 2023-05-18
 related_topics:
   - title: English version
     url: /en/common/7za.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/7za.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/7za.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/7za.html
@@ -36,7 +43,7 @@ related_topics:
 
 Ein Dateiarchivierer mit hoher Kompressionsrate.
 Eine alleinstehende Version von `7z` mit Unterstützung für neuere Archivtypen.
-Weitere Informationen: <https://www.7-zip.org>.
+Weitere Informationen: <https://manned.org/7za>.
 
 - [a]rchiviere eine Datei oder ein Verzeichnis:
 

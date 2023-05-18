@@ -2,13 +2,20 @@
 layout: page
 title: common/7zr (polski)
 description: "Archiwizator plików o wysokim współczynniku kompresji."
-content_hash: 33682cce14b04a040db7db6168c201e7f8407c84
+content_hash: 79f1282ac939aa86924a9dae251355059e52006d
+last_modified_at: 2023-05-18
 related_topics:
   - title: Deutsch version
     url: /de/common/7zr.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/7zr.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/7zr.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/7zr.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/7zr.html
@@ -45,7 +52,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 Archiwizator plików o wysokim współczynniku kompresji.
 Samodzielna wersja `7z` obsługująca tylko pliki typu .7z.
-Więcej informacji: <https://www.7-zip.org>.
+Więcej informacji: <https://manned.org/7zr>.
 
 - Zarchiwizuj plik lub katalog:
 

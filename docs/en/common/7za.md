@@ -2,11 +2,14 @@
 layout: page
 title: common/7za (English)
 description: "File archiver with a high compression ratio."
-content_hash: 81913a7a20a40d1af1ea28685db438b187047c1f
-last_modified_at: 2023-01-11
+content_hash: 96c4a97405f0877de41f997153ddf76ec2b5efeb
+last_modified_at: 2023-05-18
 related_topics:
   - title: Deutsch version
     url: /de/common/7za.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/7za.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/7za.html
@@ -40,7 +43,7 @@ related_topics:
 
 File archiver with a high compression ratio.
 Similar to `7z` except that it supports fewer file types but is cross-platform.
-More information: <https://www.7-zip.org>.
+More information: <https://manned.org/7za>.
 
 - [a]rchive a file or directory:
 

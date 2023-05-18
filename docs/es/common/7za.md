@@ -2,8 +2,8 @@
 layout: page
 title: common/7za (español)
 description: "Archivador de archivos con una alta relación de compresión."
-content_hash: 2771a7ca4e60c728a1e5d6af716eb69f53358b83
-last_modified_at: 2023-02-03
+content_hash: be010cf222fe925e522103a54173ffc88bda2616
+last_modified_at: 2023-05-18
 related_topics:
   - title: Deutsch version
     url: /de/common/7za.html
@@ -39,14 +39,11 @@ related_topics:
     url: /zh/common/7za.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># 7za
+# 7za
 
 Archivador de archivos con una alta relación de compresión.
 Similar a `7z`, salvo que admite menos tipos de archivos pero es multiplataforma.
-Más información: <https://www.7-zip.org>.
+Más información: <https://manned.org/7za>.
 
 - [a]rchivar un archivo o directorio:
 

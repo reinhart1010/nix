@@ -2,7 +2,7 @@
 layout: page
 title: common/7zr (français)
 description: "Un archiveur de fichiers avec un haut taux de compression."
-content_hash: d011b64490beb55e9c73cd0bdc99c204365a64b2
+content_hash: 4747414b6922f5950aad9d15f8b462cbf99f71ee
 last_modified_at: 2023-05-18
 related_topics:
   - title: Deutsch version
@@ -43,7 +43,7 @@ related_topics:
 
 Un archiveur de fichiers avec un haut taux de compression.
 Similaire à `7z` sauf qu'il supporte que les fichiers `.7z`.
-Plus d'informations : <https://www.7-zip.org>.
+Plus d'informations : <https://manned.org/7zr>.
 
 - Compresse un fichier ou un dossier :
 

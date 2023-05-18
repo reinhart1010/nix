@@ -2,7 +2,7 @@
 layout: page
 title: common/7zr (português (Brasil))
 description: "Um compactador de arquivos com alta taxa de compressão."
-content_hash: 725526998218719113ab3aab84dd338633193045
+content_hash: b71a318b5400083d0051de3192451ec150dae08b
 last_modified_at: 2023-05-18
 related_topics:
   - title: Deutsch version
@@ -43,7 +43,7 @@ related_topics:
 
 Um compactador de arquivos com alta taxa de compressão.
 Versão do `7z` com suporte apenas para o formato `.7z`.
-Mais informações: <https://www.7-zip.org>.
+Mais informações: <https://manned.org/7zr>.
 
 - Compactar um arquivo ou diretório:
 

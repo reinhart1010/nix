@@ -2,7 +2,7 @@
 layout: page
 title: common/7zr (русский)
 description: "Архиватор файлов с высокой степенью сжатия."
-content_hash: a64d1a6912f661f97cb1d38e9585a0c23e545a46
+content_hash: d0dbe6b7e238304e6cc87aeb905aa4b236b77711
 last_modified_at: 2023-05-18
 related_topics:
   - title: Deutsch version
@@ -43,7 +43,7 @@ related_topics:
 
 Архиватор файлов с высокой степенью сжатия.
 То же, что и `7z`, но поддерживает только файлы `.7z`.
-Больше информации: <https://www.7-zip.org>.
+Больше информации: <https://manned.org/7zr>.
 
 - Архивировать ([a]rchive) файл или папку:
 
