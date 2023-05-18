@@ -2,13 +2,20 @@
 layout: page
 title: common/7zr (русский)
 description: "Архиватор файлов с высокой степенью сжатия."
-content_hash: 69d11ca773338949d59a4f8f7f57f62eb0b6d5cd
+content_hash: a64d1a6912f661f97cb1d38e9585a0c23e545a46
+last_modified_at: 2023-05-18
 related_topics:
   - title: Deutsch version
     url: /de/common/7zr.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/7zr.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/7zr.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/7zr.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/7zr.html
@@ -44,7 +51,7 @@ related_topics:
 
 - Зашифровать существующий архив (включая имена файлов):
 
-`7zr a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/зашифрованного_архива.7z</span>` -p`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">пароль</span>` -mhe=on `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/архива.7z</span>
+`7zr a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/зашифрованного_архива.7z</span>` -p`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">пароль</span>` -mhe=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/архива.7z</span>
 
 - Распаковать (e[x]tract) существующий архив, сохраняя оригинальную структуру папок:
 
