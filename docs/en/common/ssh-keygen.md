@@ -2,7 +2,8 @@
 layout: page
 title: common/ssh-keygen (English)
 description: "Generate ssh keys used for authentication, password-less logins, and other things."
-content_hash: 4c93eb4383429172eec2ebe4b73cd9e96702857c
+content_hash: 1152b8118ed82589fb120c0b7fc10134c5cfca34
+last_modified_at: 2023-05-18
 related_topics:
   - title: Deutsch version
     url: /de/common/ssh-keygen.html
@@ -20,13 +21,9 @@ More information: <https://man.openbsd.org/ssh-keygen>.
 
 `ssh-keygen`
 
-- Specify file in which to save the key:
+- Generate an ed25519 key with 100 key derivation function rounds and save the key to a specific file:
 
-`ssh-keygen -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.ssh/filename</span>
-
-- Generate an ed25519 key with 100 key derivation function rounds:
-
-`ssh-keygen -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ed25519</span>` -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>
+`ssh-keygen -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ed25519</span>` -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.ssh/filename</span>
 
 - Generate an RSA 4096-bit key with email as a comment:
 
@@ -47,3 +44,7 @@ More information: <https://man.openbsd.org/ssh-keygen>.
 - Change the type of the key format (for example from OPENSSH format to PEM), the file will be rewritten in-place:
 
 `ssh-keygen -p -N "" -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PEM</span>` -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.ssh/OpenSSH_private_key</span>
+
+- Retrieve public key from secret key:
+
+`ssh-keygen -y -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.ssh/OpenSSH_private_key</span>
