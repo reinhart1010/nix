@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/shasum (English)
-description: "Calculate or check cryptographic SHA checksums."
-content_hash: cf3e5cd889776dfd4cc6ce98e2155040bd5bae8e
-last_modified_at: 2022-12-04
+description: "Calculate SHA cryptographic checksums."
+content_hash: 1b40aa8f61335894db6a16351cb3a4c993519e21
+last_modified_at: 2023-05-19
 related_topics:
   - title: தமிழ் version
     url: /ta/common/shasum.html
@@ -14,33 +14,37 @@ related_topics:
 ---
 # shasum
 
-Calculate or check cryptographic SHA checksums.
+Calculate SHA cryptographic checksums.
 More information: <https://manned.org/shasum>.
 
-- Calculate the SHA1 checksum for a file:
+- Calculate the SHA1 checksum for one or more files:
 
-`shasum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`shasum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
-- Calculate the SHA256 checksum for a file:
+- Calculate the SHA256 checksum for one or more files:
 
-`shasum --algorithm 256 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`shasum --algorithm 256 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
-- Calculate the SHA512 checksum for multiple files:
+- Calculate the SHA512 checksum for one or more files:
 
-`shasum --algorithm 512 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>
+`shasum --algorithm 512 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
+
+- Calculate a SHA1 checksum from `stdin`:
+
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">some_command</span>` | shasum`
 
 - Calculate and save the list of SHA256 checksums to a file:
 
-`shasum --algorithm 256 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sha256</span>
+`shasum --algorithm 256 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sha256</span>
 
-- Check a file with a list of sums against the directory's files:
+- Read a file of SHA1 sums and filenames and verify all files have matching checksums:
 
 `shasum --check `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Check a list of sums and only show a message for files for which verification fails:
+- Only show a message for missing files or when verification fails:
 
 `shasum --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Calculate the SHA1 checksum from `stdin`:
+- Only show a message when verification fails, ignoring missing files:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">some_command</span>` | shasum`
+`shasum --ignore-missing --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>

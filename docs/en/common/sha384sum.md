@@ -2,7 +2,8 @@
 layout: page
 title: common/sha384sum (English)
 description: "Calculate SHA384 cryptographic checksums."
-content_hash: 044003d0cd2052354712279c4b4a41e59f3c72b8
+content_hash: 746207b09d1ac95acc9c6fde76866f566ab22ec6
+last_modified_at: 2023-05-19
 related_topics:
   - title: sh version
     url: /sh/common/sha384sum.html
@@ -16,19 +17,19 @@ related_topics:
 Calculate SHA384 cryptographic checksums.
 More information: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-utilities.html>.
 
-- Calculate the SHA384 checksum for a file:
+- Calculate the SHA384 checksum for one or more files:
 
-`sha384sum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
-
-- Calculate SHA384 checksums for multiple files:
-
-`sha384sum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>
+`sha384sum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
 - Calculate and save the list of SHA384 checksums to a file:
 
-`sha384sum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sha384</span>
+`sha384sum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sha384</span>
 
-- Read a file of SHA384 sums and verify all files have matching checksums:
+- Calculate a SHA384 checksum from `stdin`:
+
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">some_command</span>` | sha384sum`
+
+- Read a file of SHA384 sums and filenames and verify all files have matching checksums:
 
 `sha384sum --check `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sha384</span>
 
@@ -36,6 +37,6 @@ More information: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-
 
 `sha384sum --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sha384</span>
 
-- Only show a message for files for which verification fails, ignoring missing files:
+- Only show a message when verification fails, ignoring missing files:
 
 `sha384sum --ignore-missing --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.sha384</span>

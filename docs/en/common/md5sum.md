@@ -2,8 +2,8 @@
 layout: page
 title: common/md5sum (English)
 description: "Calculate MD5 cryptographic checksums."
-content_hash: 760c798d9cf84df52cc03e6439541b9b3a1ec3a6
-last_modified_at: 2023-05-01
+content_hash: 1b7f1a81076ab74d74ae72dc822bfcf64bded107
+last_modified_at: 2023-05-19
 related_topics:
   - title: italiano version
     url: /it/common/md5sum.html
@@ -20,19 +20,19 @@ related_topics:
 Calculate MD5 cryptographic checksums.
 More information: <https://www.gnu.org/software/coreutils/md5sum>.
 
-- Calculate the MD5 checksum for a file:
+- Calculate the MD5 checksum for one or more files:
 
-`md5sum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`md5sum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
-- Calculate MD5 checksums for multiple files:
+- Calculate and save the list of MD5 checksums to a file:
 
-`md5sum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>
+`md5sum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.md5</span>
 
 - Calculate an MD5 checksum from `stdin`:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">some_command</span>`" | md5sum`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">some_command</span>` | md5sum`
 
-- Read a file of MD5SUMs and verify all files have matching checksums:
+- Read a file of MD5 sums and filenames and verify all files have matching checksums:
 
 `md5sum --check `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.md5</span>
 
@@ -40,6 +40,6 @@ More information: <https://www.gnu.org/software/coreutils/md5sum>.
 
 `md5sum --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.md5</span>
 
-- Only show a message for files for which verification fails, ignoring missing files:
+- Only show a message when verification fails, ignoring missing files:
 
 `md5sum --ignore-missing --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.md5</span>
