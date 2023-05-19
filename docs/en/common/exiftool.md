@@ -2,8 +2,8 @@
 layout: page
 title: common/exiftool (English)
 description: "Read and write meta information in files."
-content_hash: e9c44a510e4d1627f6c15a17882beeb74bba831e
-last_modified_at: 2022-12-06
+content_hash: a04158c0ee56daeac5b0f2f695d9dcba491b51c3
+last_modified_at: 2023-05-19
 related_topics:
   - title: italiano version
     url: /it/common/exiftool.html
@@ -28,7 +28,7 @@ More information: <https://exiftool.org>.
 
 - Remove all EXIF metadata from the given image files, then re-add metadata for color and orientation:
 
-`exiftool -All= -tagsfromfile @ -colorspacetags -orientation `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image1 image2 ...</span>
+`exiftool -All= -tagsfromfile @ -colorspacetags -orientation `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1 path/to/image2 ...</span>
 
 - Move the date at which all photos in a directory were taken 1 hour forward:
 

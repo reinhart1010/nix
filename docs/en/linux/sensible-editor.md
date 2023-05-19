@@ -2,8 +2,8 @@
 layout: page
 title: linux/sensible-editor (English)
 description: "Open the default editor."
-content_hash: 5518bef9013a86203f1f024df482a98dde1aa24c
-last_modified_at: 2022-12-04
+content_hash: ab085685ef3a5121775eab605b64b82ce893094b
+last_modified_at: 2023-05-19
 ---
 # sensible-editor
 
@@ -24,4 +24,4 @@ More information: <https://manned.org/sensible-editor>.
 
 - Open 3 files in vertically split editor windows at the same time:
 
-`sensible-editor -O3 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_3</span>
+`sensible-editor -O3 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 path/to/file3</span>

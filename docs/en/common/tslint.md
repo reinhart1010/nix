@@ -2,7 +2,8 @@
 layout: page
 title: common/tslint (English)
 description: "A pluggable linting utility for TypeScript."
-content_hash: 7d746c0aca424d6a4d3c3577fa73922f69b6ce18
+content_hash: 7cca15b7e9ad4b9154b17bc59a382825ee54a8e0
+last_modified_at: 2023-05-19
 ---
 # tslint
 
@@ -15,7 +16,7 @@ More information: <https://palantir.github.io/tslint>.
 
 - Lint on a given set of files:
 
-`tslint `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>`.js `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename1</span>`.js`
+`tslint `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.js path/to/file2.js ...</span>
 
 - Fix lint issues:
 
