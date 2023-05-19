@@ -1,20 +1,42 @@
 ---
 layout: page
 title: android/input (français)
-description: "Send event codes or touchscreen gestures to an Android device."
-content_hash: b7bce57af1604a3c0c6afea992ed584757e55dfb
+description: "Envoie à un appareil Android des codes événements ou des gestes d'écran tactile."
+content_hash: 4c4b734dd75bf501d364350424df98358bfef79a
+last_modified_at: 2023-05-19
 related_topics:
+  - title: বাংলা version
+    url: /bn/android/input.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/android/input.html
     icon: bi bi-globe
   - title: English version
     url: /en/android/input.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/android/input.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/input.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/android/input.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/android/input.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/android/input.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/android/input.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/android/input.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/android/input.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/android/input.html
@@ -28,7 +50,6 @@ related_topics:
 ---
 # input
 
-Send event codes or touchscreen gestures to an Android device.
 Envoie à un appareil Android des codes événements ou des gestes d'écran tactile.
 Cette commande peut être utilisé uniquement depuis `adb shell`.
 Plus d'informations : <https://developer.android.com/reference/android/view/KeyEvent.html#constants_1>.

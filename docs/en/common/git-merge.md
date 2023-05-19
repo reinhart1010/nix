@@ -2,7 +2,8 @@
 layout: page
 title: common/git-merge (English)
 description: "Merge branches."
-content_hash: c798b89b25c3790e173bac07d1232222c559d9cc
+content_hash: e3a06d255fe6cfa7f9ced906620f35ae730755d8
+last_modified_at: 2023-05-19
 related_topics:
   - title: español version
     url: /es/common/git-merge.html
@@ -12,6 +13,12 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-merge.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-merge.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git-merge.html
     icon: bi bi-globe
 ---
 # git merge
@@ -25,7 +32,7 @@ More information: <https://git-scm.com/docs/git-merge>.
 
 - Edit the merge message:
 
-`git merge -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span>
+`git merge --edit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span>
 
 - Merge a branch and create a merge commit:
 
@@ -34,3 +41,7 @@ More information: <https://git-scm.com/docs/git-merge>.
 - Abort a merge in case of conflicts:
 
 `git merge --abort`
+
+- Merge using a specific strategy:
+
+`git merge --strategy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">strategy</span>` --strategy-option `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">strategy_option</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name</span>

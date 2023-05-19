@@ -2,8 +2,12 @@
 layout: page
 title: common/eslint (polski)
 description: "Podłączane narzędzie lintowania dla JavaScript i JSX."
-content_hash: 5b5339a96bb77ff58ea9673eb96ae1bae047d834
+content_hash: c4c9b6a4d05c90749f0b92abdf90cc731f408c9d
+last_modified_at: 2023-05-19
 related_topics:
+  - title: Deutsch version
+    url: /de/common/eslint.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/eslint.html
     icon: bi bi-globe
@@ -22,7 +26,7 @@ Więcej informacji: <https://eslint.org>.
 
 - Lint na danym zestawie plików:
 
-`eslint `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwapliku</span>`.js `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwapliku1</span>`.js`
+`eslint `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku1.js ścieżka/do/pliku2.js ...</span>
 
 - Napraw lint issues:
 
@@ -30,4 +34,4 @@ Więcej informacji: <https://eslint.org>.
 
 - Lint z config:
 
-`eslint -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sciezka/do/pliku_config</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app/src</span>
+`eslint -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_konfiguracyjnego</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/źródła</span>
