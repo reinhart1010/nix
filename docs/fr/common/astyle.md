@@ -2,10 +2,14 @@
 layout: page
 title: common/astyle (français)
 description: "Indente, formate, et embelli du code source pour des languages de programmation comme C, C++, C# et Java."
-content_hash: 1e407d99e5dfd534929482739c320d448f084785
+content_hash: fe0d6813554227e4b582760784e78c56cb9ecab9
+last_modified_at: 2023-05-20
 related_topics:
   - title: English version
     url: /en/common/astyle.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/astyle.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/astyle.html
@@ -14,14 +18,11 @@ related_topics:
     url: /ko/common/astyle.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># astyle
+# astyle
 
 Indente, formate, et embelli du code source pour des languages de programmation comme C, C++, C# et Java.
 Pendant l'exécution, une copie du fichier original est créé avec un ".orig" suffixé au nom de fichier original.
-Plus d'informations : <http://astyle.sourceforge.net/>.
+Plus d'informations : <http://astyle.sourceforge.net>.
 
 - Applique le style par défaut de 4 espaces pour l'indentation et pas de changement de formatage :
 

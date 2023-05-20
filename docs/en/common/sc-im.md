@@ -2,8 +2,8 @@
 layout: page
 title: common/sc-im (English)
 description: "A curses based, vim-like spreadsheet calculator."
-content_hash: 946d541b22554f08b04167a5abbc928a42f76b57
-last_modified_at: 2022-12-06
+content_hash: cd5ac216579d2950b0939635175f423e66bc8850
+last_modified_at: 2023-05-20
 ---
 # SC-IM
 
@@ -13,7 +13,7 @@ More information: <https://github.com/andmarti1424/sc-im>.
 
 - Start SC-IM:
 
-`scim `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>`.csv`
+`scim `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.csv</span>
 
 - Enter a string into the current cell:
 

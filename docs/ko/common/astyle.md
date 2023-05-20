@@ -2,10 +2,17 @@
 layout: page
 title: common/astyle (한국어)
 description: "C, C ++, C # 및 Java 프로그래밍 언어에 대한 소스 코드 인덴터, 포맷터 및 미화기."
-content_hash: 8990b4dda1567abea8dc9776c47790a63d5f8a38
+content_hash: f590bc2d94b14e53d6018c5bbaede4f1ebcdf053
+last_modified_at: 2023-05-20
 related_topics:
   - title: English version
     url: /en/common/astyle.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/astyle.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/astyle.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/astyle.html
@@ -15,7 +22,7 @@ related_topics:
 
 C, C ++, C # 및 Java 프로그래밍 언어에 대한 소스 코드 인덴터, 포맷터 및 미화기.
 실행 시 원본 파일의 사본은 원래 파일 이름에 ".orig"가 추가된 상태로 작성된다.
-더 많은 정보: <http://astyle.sourceforge.net/>.
+더 많은 정보: <http://astyle.sourceforge.net>.
 
 - 들여쓰기 당 4개의 공백의 기본 스타일을 적용하고 형식 변경 없도록 적용:
 
