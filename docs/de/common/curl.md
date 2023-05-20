@@ -2,8 +2,8 @@
 layout: page
 title: common/curl (Deutsch)
 description: "Überträgt Daten von oder zu einem Server."
-content_hash: aa3f93bfb4e90d545154cad3ce3f6ef29f8621c7
-last_modified_at: 2022-12-29
+content_hash: c825d21b9f8d0d15b80d1bd6ce062cbe85429219
+last_modified_at: 2023-05-20
 related_topics:
   - title: English version
     url: /en/common/curl.html
@@ -34,7 +34,7 @@ related_topics:
 
 Überträgt Daten von oder zu einem Server.
 Unterstützt die meisten Protokolle, inklusive HTTP, FTP und POP3.
-Weitere Informationen: <https://curl.se>.
+Weitere Informationen: <https://curl.se/docs/manpage.html>.
 
 - Lade den Inhalt einer URL in eine Datei:
 

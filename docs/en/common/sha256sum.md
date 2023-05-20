@@ -2,8 +2,8 @@
 layout: page
 title: common/sha256sum (English)
 description: "Calculate SHA256 cryptographic checksums."
-content_hash: ffb43fef3ed654bcd758eb8f140f7c4d0a24cf99
-last_modified_at: 2023-05-19
+content_hash: be4d1bf282877014d24b26a48a23ab520cf342f1
+last_modified_at: 2023-05-20
 related_topics:
   - title: sh version
     url: /sh/common/sha256sum.html
@@ -27,7 +27,7 @@ More information: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-
 
 - Calculate a SHA256 checksum from `stdin`:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">some_command</span>` | sha256sum`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` | sha256sum`
 
 - Read a file of SHA256 sums and filenames and verify all files have matching checksums:
 

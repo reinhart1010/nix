@@ -2,8 +2,8 @@
 layout: page
 title: common/sha384sum (English)
 description: "Calculate SHA384 cryptographic checksums."
-content_hash: 746207b09d1ac95acc9c6fde76866f566ab22ec6
-last_modified_at: 2023-05-19
+content_hash: eeedb55045d80778d73b7e6f5a2e3299278270eb
+last_modified_at: 2023-05-20
 related_topics:
   - title: sh version
     url: /sh/common/sha384sum.html
@@ -27,7 +27,7 @@ More information: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-
 
 - Calculate a SHA384 checksum from `stdin`:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">some_command</span>` | sha384sum`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` | sha384sum`
 
 - Read a file of SHA384 sums and filenames and verify all files have matching checksums:
 

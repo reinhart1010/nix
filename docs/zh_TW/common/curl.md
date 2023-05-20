@@ -2,13 +2,17 @@
 layout: page
 title: common/curl (中文 (繁體, 台灣))
 description: "向 / 從一個伺服器傳輸數據。"
-content_hash: 008709ab0a70be8602fac377f5b49d6455538ea9
+content_hash: 1acfc862ab0a1be7e7b0848cd55b1159c8204dad
+last_modified_at: 2023-05-20
 related_topics:
   - title: Deutsch version
     url: /de/common/curl.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/curl.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/curl.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/curl.html
@@ -30,7 +34,7 @@ related_topics:
 
 向 / 從一個伺服器傳輸數據。
 支持大多數協議，包括 HTTP、FTP 和 POP3.
-更多資訊：<https://curl.se>.
+更多資訊：<https://curl.se/docs/manpage.html>.
 
 - 將指定 URL 的內容下載到檔案：
 

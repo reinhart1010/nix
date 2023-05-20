@@ -2,8 +2,8 @@
 layout: page
 title: common/md5sum (English)
 description: "Calculate MD5 cryptographic checksums."
-content_hash: 1b7f1a81076ab74d74ae72dc822bfcf64bded107
-last_modified_at: 2023-05-19
+content_hash: 1d41328293318f5803db4ccb98781639afb8fd5f
+last_modified_at: 2023-05-20
 related_topics:
   - title: italiano version
     url: /it/common/md5sum.html
@@ -30,7 +30,7 @@ More information: <https://www.gnu.org/software/coreutils/md5sum>.
 
 - Calculate an MD5 checksum from `stdin`:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">some_command</span>` | md5sum`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` | md5sum`
 
 - Read a file of MD5 sums and filenames and verify all files have matching checksums:
 

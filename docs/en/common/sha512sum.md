@@ -2,8 +2,8 @@
 layout: page
 title: common/sha512sum (English)
 description: "Calculate SHA512 cryptographic checksums."
-content_hash: f70fcefdfd3b0651b87e1d6395276e4f691f8cc8
-last_modified_at: 2023-05-19
+content_hash: 85a23b9cf3bfb875f1324c9cfffc87ceb8816880
+last_modified_at: 2023-05-20
 related_topics:
   - title: sh version
     url: /sh/common/sha512sum.html
@@ -27,7 +27,7 @@ More information: <https://www.gnu.org/software/coreutils/manual/html_node/sha2-
 
 - Calculate a SHA512 checksum from `stdin`:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">some_command</span>` | sha512sum`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` | sha512sum`
 
 - Read a file of SHA512 sums and filenames and verify all files have matching checksums:
 

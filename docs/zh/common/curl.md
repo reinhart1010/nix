@@ -2,13 +2,17 @@
 layout: page
 title: common/curl (中文)
 description: "向 / 从一个服务器传输数据。"
-content_hash: c5846a909f4553fb25e011baf7ff1a7c0d8dbb98
+content_hash: c82b217cb75bd80d0de246ffad9b4e227896e957
+last_modified_at: 2023-05-20
 related_topics:
   - title: Deutsch version
     url: /de/common/curl.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/curl.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/curl.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/curl.html
@@ -30,7 +34,7 @@ related_topics:
 
 向 / 从一个服务器传输数据。
 支持大多数协议，包括 HTTP, FTP, 和 POP3.
-更多信息：<https://curl.se>.
+更多信息：<https://curl.se/docs/manpage.html>.
 
 - 将指定 URL 的内容下载到文件：
 

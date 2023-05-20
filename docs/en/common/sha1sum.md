@@ -2,8 +2,8 @@
 layout: page
 title: common/sha1sum (English)
 description: "Calculate SHA1 cryptographic checksums."
-content_hash: 4a2a616d21f1ff0fd4b6dddc7de93a0008aed53b
-last_modified_at: 2023-05-19
+content_hash: b2178281d00f4a72f3a9e4d8604f92e8450991b9
+last_modified_at: 2023-05-20
 related_topics:
   - title: sh version
     url: /sh/common/sha1sum.html
@@ -27,7 +27,7 @@ More information: <https://www.gnu.org/software/coreutils/sha1sum>.
 
 - Calculate a SHA1 checksum from `stdin`:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">some_command</span>` | sha1sum`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` | sha1sum`
 
 - Read a file of SHA1 sums and filenames and verify all files have matching checksums:
 

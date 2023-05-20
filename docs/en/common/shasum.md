@@ -2,8 +2,8 @@
 layout: page
 title: common/shasum (English)
 description: "Calculate SHA cryptographic checksums."
-content_hash: 1b40aa8f61335894db6a16351cb3a4c993519e21
-last_modified_at: 2023-05-19
+content_hash: b510e09dc099ad4736e92f27bd9cbcd6ef9c97f3
+last_modified_at: 2023-05-20
 related_topics:
   - title: தமிழ் version
     url: /ta/common/shasum.html
@@ -31,7 +31,7 @@ More information: <https://manned.org/shasum>.
 
 - Calculate a SHA1 checksum from `stdin`:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">some_command</span>` | shasum`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` | shasum`
 
 - Calculate and save the list of SHA256 checksums to a file:
 

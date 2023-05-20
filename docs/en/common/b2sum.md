@@ -2,8 +2,8 @@
 layout: page
 title: common/b2sum (English)
 description: "Calculate BLAKE2 cryptographic checksums."
-content_hash: 702feb319101de53a43cbcced4bd30334066413e
-last_modified_at: 2023-05-19
+content_hash: 812aa844768ebb5ea24742ae0c11d264b2758a8a
+last_modified_at: 2023-05-20
 related_topics:
   - title: français version
     url: /fr/common/b2sum.html
@@ -33,7 +33,7 @@ More information: <https://www.gnu.org/software/coreutils/b2sum>.
 
 - Calculate a BLAKE2 checksum from `stdin`:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">some_command</span>` | b2sum`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` | b2sum`
 
 - Read a file of BLAKE2 sums and filenames and verify all files have matching checksums:
 

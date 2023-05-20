@@ -2,7 +2,8 @@
 layout: page
 title: common/docker-start (Türkçe)
 description: "Bir veya daha fazla durmuş konteyneri başlar."
-content_hash: 3325c0c2a01d7b7749709d3b814318e07c34a0dd
+content_hash: 154c410a9668a4ee9d13793d40c049e10ddc4b94
+last_modified_at: 2023-05-20
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-start.html
@@ -12,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/docker-start.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/docker-start.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker-start.html
@@ -36,4 +40,4 @@ Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/st
 
 - Bir veya daha fazla boşlukla ayrılarak belirtilmiş konteynerleri başlar:
 
-`docker start `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">konteyner(ler)</span>
+`docker start `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">konteyner1 konteyner2 ...</span>

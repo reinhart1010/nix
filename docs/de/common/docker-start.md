@@ -2,10 +2,17 @@
 layout: page
 title: common/docker-start (Deutsch)
 description: "Starte einen oder mehrere gestoppte Container."
-content_hash: 0b40ba1adfaf4330618c96f645a5180fa99cc183
+content_hash: cd58431a1660663f89583d7311ebb98956ef9f88
+last_modified_at: 2023-05-20
 related_topics:
   - title: English version
     url: /en/common/docker-start.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/docker-start.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/docker-start.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker-start.html
@@ -33,4 +40,4 @@ Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/sta
 
 - Starte einen oder mehrere durch Leerzeichen getrennte Container:
 
-`docker start `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container</span>
+`docker start `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container1 container2 ...</span>

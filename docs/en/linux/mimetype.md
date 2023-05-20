@@ -2,8 +2,8 @@
 layout: page
 title: linux/mimetype (English)
 description: "Automatically determine the MIME type of a file."
-content_hash: f9bd4a052698abf766c690f52d5fa8642046ef53
-last_modified_at: 2022-12-04
+content_hash: 232a0e8ce2dccc230b87b682325cec18246625c8
+last_modified_at: 2023-05-20
 ---
 # mimetype
 
@@ -24,7 +24,7 @@ More information: <https://manned.org/mimetype>.
 
 - Determine the MIME type of `stdin` (does not check a filename):
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">some_command</span>` | mimetype --stdin`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` | mimetype --stdin`
 
 - Display debug information about how the MIME type was determined:
 
