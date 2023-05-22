@@ -2,17 +2,23 @@
 layout: page
 title: common/mitmproxy (English)
 description: "An interactive man-in-the-middle HTTP proxy."
-content_hash: 0723c20eb7ec88d958eb54b615b86b0f42e44b3a
+content_hash: 4275976be78239e982fa02739b952f54dafe39ef
+last_modified_at: 2023-05-22
 ---
 # mitmproxy
 
 An interactive man-in-the-middle HTTP proxy.
-More information: <https://mitmproxy.org>.
+See also: `mitmweb`.
+More information: <https://docs.mitmproxy.org/stable/concepts-options>.
 
-- Start mitmproxy with default settings:
+- Start `mitmproxy` with default settings:
 
 `mitmproxy`
 
-- Start mitmproxy bound to custom address and port:
+- Start `mitmproxy` bound to a custom address and port:
 
-`mitmproxy -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span>
+`mitmproxy --listen-host `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address</span>` --listen-port `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span>
+
+- Start `mitmproxy` using a script to process traffic:
+
+`mitmproxy --scripts `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.py</span>
