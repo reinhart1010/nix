@@ -2,10 +2,17 @@
 layout: page
 title: common/apg (한국어)
 description: "임의로 복잡한 랜덤 암호를 만듭니다."
-content_hash: e0927a6771083639b49e4c55c8f1897250ed2cb9
+content_hash: b01557ea4d624dfd046461757d7ad9abfe13da30
+last_modified_at: 2023-05-22
 related_topics:
   - title: English version
     url: /en/common/apg.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/apg.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/apg.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/apg.html
@@ -40,4 +47,4 @@ related_topics:
 
 - 사전에 나타나지 않는 암호를 생성(사전 파일을 제공해야함):
 
-`apg -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">디렉토리_파일</span>
+`apg -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/디렉토리_파일</span>

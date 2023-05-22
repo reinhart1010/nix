@@ -2,10 +2,17 @@
 layout: page
 title: common/apg (português (Brasil))
 description: "Criar senhas aleatórias arbitrariamente complexas."
-content_hash: d863c8a29d9d265cc55b08b4878a5912a1b06b60
+content_hash: d861c50d6b79e8a63262cd90dd7758bdef4fd1f8
+last_modified_at: 2023-05-22
 related_topics:
   - title: English version
     url: /en/common/apg.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/apg.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/apg.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/apg.html
@@ -40,4 +47,4 @@ Mais informações: <https://manned.org/apg>.
 
 - Criar uma senha que não aparece em um dicionário provido pelo usuário:
 
-`apg -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_de_dicionario</span>
+`apg -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_de_dicionario</span>

@@ -2,10 +2,17 @@
 layout: page
 title: common/apg (italiano)
 description: "Crea password randomiche arbitrariamente complesse."
-content_hash: 04d501f2aa6f00fcb83dfa3c4fad7551c2d7f8eb
+content_hash: 631905ef9789eae800004a0c49187b0e9e18357c
+last_modified_at: 2023-05-22
 related_topics:
   - title: English version
     url: /en/common/apg.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/apg.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/apg.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/apg.html
@@ -40,4 +47,4 @@ Maggiori informazioni: <https://manned.org/apg>.
 
 - Crea una password che non è già presente in un dizionario (file dizionario fornito come argomento):
 
-`apg -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dizionario</span>
+`apg -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/dizionario</span>

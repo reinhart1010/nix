@@ -2,8 +2,15 @@
 layout: page
 title: common/apg (English)
 description: "Creates arbitrarily complex random passwords."
-content_hash: 8739c8c3a686392196390cee4e3c05fc5c960ab5
+content_hash: 55e432f6e18a6d43c3aa367eae5468775c531f4e
+last_modified_at: 2023-05-22
 related_topics:
+  - title: español version
+    url: /es/common/apg.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/apg.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/apg.html
     icon: bi bi-globe
@@ -40,4 +47,4 @@ More information: <https://manned.org/apg>.
 
 - Create a password that doesn't appear in a dictionary (the dictionary file has to be provided):
 
-`apg -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dictionary_file</span>
+`apg -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/dictionary_file</span>

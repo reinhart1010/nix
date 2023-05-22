@@ -2,8 +2,8 @@
 layout: page
 title: common/apg (español)
 description: "Crea contraseñas aleatorias arbitrariamente complejas."
-content_hash: 7c25cbc28539408897d95b9a2eb72ffcb49faf80
-last_modified_at: 2023-04-21
+content_hash: d36cd23ae6f0955617020f77f6ccde44c70f68ec
+last_modified_at: 2023-05-22
 related_topics:
   - title: English version
     url: /en/common/apg.html
@@ -24,10 +24,7 @@ related_topics:
     url: /zh/common/apg.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># apg
+# apg
 
 Crea contraseñas aleatorias arbitrariamente complejas.
 Más información: <https://manned.org/apg>.
@@ -50,4 +47,4 @@ Más información: <https://manned.org/apg>.
 
 - Crea una contraseña que no aparece en un diccionario (se debe proporcionar el archivo del diccionario):
 
-`apg -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_diccionario</span>
+`apg -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_diccionario</span>

@@ -2,10 +2,17 @@
 layout: page
 title: common/apg (中文)
 description: "生成任意复杂度的随机密码。"
-content_hash: c167356d2777d9f1d86fb4a847f0c0e3843a72c7
+content_hash: df2668d661c381515812a9b074d2c34ba7cb5bae
+last_modified_at: 2023-05-22
 related_topics:
   - title: English version
     url: /en/common/apg.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/apg.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/apg.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/apg.html
@@ -40,4 +47,4 @@ related_topics:
 
 - 生成未出现在字典中的密码（必须提供字典文件）：
 
-`apg -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字典文件</span>
+`apg -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/字典文件</span>

@@ -2,10 +2,14 @@
 layout: page
 title: common/apg (français)
 description: "Crée arbitrairement les mots de passe aléatoires et complexes."
-content_hash: 05999b3408f358167dc03dcfb7205d8bfe12e4f4
+content_hash: d6b14a7adc6d8b8ac3011063cf879d59158447a9
+last_modified_at: 2023-05-22
 related_topics:
   - title: English version
     url: /en/common/apg.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/apg.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/apg.html
@@ -20,10 +24,7 @@ related_topics:
     url: /zh/common/apg.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># apg
+# apg
 
 Crée arbitrairement les mots de passe aléatoires et complexes.
 Plus d'informations : <https://manned.org/apg>.
@@ -46,4 +47,4 @@ Plus d'informations : <https://manned.org/apg>.
 
 - Crée un mot de passe qui n'apparaît pas dans le dictionnaire (le fichier de dictionnaire doit être donné) :
 
-`apg -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier_dictionnaire</span>
+`apg -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_dictionnaire</span>
