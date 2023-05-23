@@ -2,13 +2,17 @@
 layout: page
 title: linux/ark (中文)
 description: "KDE 归档工具。"
-content_hash: 32370960777b66efd077eba94b6bd6cf412f895b
+content_hash: 0ee66dd03715c8de362d0d10b72cc52faf6067e5
+last_modified_at: 2023-05-23
 related_topics:
   - title: Deutsch version
     url: /de/linux/ark.html
     icon: bi bi-globe
   - title: English version
     url: /en/linux/ark.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/ark.html
     icon: bi bi-globe
 ---
 # ark
@@ -18,12 +22,12 @@ KDE 归档工具。
 
 - 将存档解压缩到当前目录：
 
-`ark --batch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">存档名</span>
+`ark --batch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/存档名</span>
 
 - 改变解压缩目录：
 
-`ark --batch --destination `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">解压缩目录路径</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">存档名</span>
+`ark --batch --destination `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目录</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/存档名</span>
 
 - 创建一个原本不存在的存档并向它添加文件：
 
-`ark --add-to `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">存档名</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件2</span>
+`ark --add-to `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/存档名</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件1 路径/到/文件2 ...</span>
