@@ -2,8 +2,8 @@
 layout: page
 title: common/eslint (English)
 description: "A pluggable linting utility for JavaScript and JSX."
-content_hash: 4af9080c669a43144961e45d86be240561c196ba
-last_modified_at: 2023-05-19
+content_hash: 96db9cc91a8225db71507561cedc28f97c26ef53
+last_modified_at: 2023-05-23
 related_topics:
   - title: Deutsch version
     url: /de/common/eslint.html
@@ -20,11 +20,11 @@ related_topics:
 A pluggable linting utility for JavaScript and JSX.
 More information: <https://eslint.org>.
 
-- Create ESLint config:
+- Create the ESLint config file:
 
 `eslint --init`
 
-- Lint on a given set of files:
+- Lint one or more files:
 
 `eslint `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.js path/to/file2.js ...</span>
 
@@ -32,6 +32,6 @@ More information: <https://eslint.org>.
 
 `eslint --fix`
 
-- Lint with config:
+- Lint using the specified config:
 
-`eslint -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source</span>
+`eslint -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.js path/to/file2.js</span>

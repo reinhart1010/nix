@@ -2,7 +2,8 @@
 layout: page
 title: linux/apt-cache (polski)
 description: "Narzędzie do zapytań o pakiety w Debianie i Ubuntu."
-content_hash: 961c666207a46f98bbc9da006213795bf0521b75
+content_hash: 04c9e9fb2ca244a87e23e5a83bb208102003255d
+last_modified_at: 2023-05-23
 related_topics:
   - title: català version
     url: /ca/linux/apt-cache.html
@@ -29,30 +30,27 @@ related_topics:
     url: /zh/linux/apt-cache.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># apt-cache
+# apt-cache
 
 Narzędzie do zapytań o pakiety w Debianie i Ubuntu.
 Więcej informacji: <https://manpages.debian.org/latest/apt/apt-cache.8.html>.
 
-- Wyszukanie pakietu w aktualnych źródłach:
+- Wyszukaj pakiet w aktualnych źródłach:
 
 `apt-cache search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zapytanie</span>
 
-- Pokazanie informacji o pakiecie:
+- Wyświetl informacje o pakiecie:
 
 `apt-cache show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span>
 
-- Pokazanie, czy pakiet jest zainstalowany i aktualnej wersji:
+- Wyświetl, czy pakiet jest zainstalowany w aktualnej wersji:
 
 `apt-cache policy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span>
 
-- Pokazanie zależności pakietu:
+- Wyświetl zależności pakietu:
 
 `apt-cache depends `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span>
 
-- Pokazanie pakietów mających zależność od konkretnego pakietu:
+- Wyświetl pakiety zależne od konkretnego pakietu:
 
 `apt-cache rdepends `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span>

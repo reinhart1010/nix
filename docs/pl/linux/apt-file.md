@@ -1,8 +1,9 @@
 ---
 layout: page
 title: linux/apt-file (polski)
-description: "Wyszukiwanie plików w pakietach apt, łącznie z tymi jeszcze nie zainstalowanymi."
-content_hash: cb7f8aced37bb14df2b945d7ecfd33e9277ee092
+description: "Wyszukaj pliki w pakietach apt, w tym jeszcze nie zainstalowanych."
+content_hash: 048d8cf55a949f95e7e3c09c73838eab6590bd12
+last_modified_at: 2023-05-23
 related_topics:
   - title: català version
     url: /ca/linux/apt-file.html
@@ -31,21 +32,21 @@ related_topics:
 ---
 # apt-file
 
-Wyszukiwanie plików w pakietach apt, łącznie z tymi jeszcze nie zainstalowanymi.
+Wyszukaj pliki w pakietach apt, w tym jeszcze nie zainstalowanych.
 Więcej informacji: <https://manpages.debian.org/latest/apt-file/apt-file.1.html>.
 
-- Aktualizacja bazy metadanych:
+- Zaktualizuj bazę metadanych:
 
 `sudo apt update`
 
-- Wyszukanie pakietu, który zawiera określony plik lub ścieżkę:
+- Wyszukaj pakiet, który zawiera określony plik lub ścieżkę:
 
 `apt-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search|find</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">część/ścieżki/do/pliku</span>
 
-- Wyświetlenie zawartości określonego pakietu:
+- Wyświetl zawartośċ określonego pakietu:
 
 `apt-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">show|list</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span>
 
-- Wyszukanie pakietów, które pasują do podanego `wyrażenia_regularnego`:
+- Wyszukaj pakiety, które pasują do podanego `wyrażenia_regularnego`:
 
 `apt-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search|find</span>` --regexp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wyrażenie_regularne</span>

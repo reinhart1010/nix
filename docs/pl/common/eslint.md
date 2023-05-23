@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/eslint (polski)
-description: "Podłączane narzędzie lintowania dla JavaScript i JSX."
-content_hash: c4c9b6a4d05c90749f0b92abdf90cc731f408c9d
-last_modified_at: 2023-05-19
+description: "Rozszerzalne narzędzie lintowania dla JavaScript i JSX."
+content_hash: b7b9762dfa41b5a25b8e94c6cead7f0e5f26d908
+last_modified_at: 2023-05-23
 related_topics:
   - title: Deutsch version
     url: /de/common/eslint.html
@@ -17,21 +17,21 @@ related_topics:
 ---
 # eslint
 
-Podłączane narzędzie lintowania dla JavaScript i JSX.
+Rozszerzalne narzędzie lintowania dla JavaScript i JSX.
 Więcej informacji: <https://eslint.org>.
 
-- Stwórz eslint config:
+- Stwórz plik konfiguracyjny ESlint:
 
 `eslint --init`
 
-- Lint na danym zestawie plików:
+- Lintuj jeden lub więcej plików:
 
 `eslint `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku1.js ścieżka/do/pliku2.js ...</span>
 
-- Napraw lint issues:
+- Napraw wykryte problemy:
 
 `eslint --fix`
 
-- Lint z config:
+- Lintuj używając podanego pliku konfiguracyjnego:
 
-`eslint -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_konfiguracyjnego</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/źródła</span>
+`eslint -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku_konfiguracyjnego</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku1.js ścieżka/do/pliku2.js</span>

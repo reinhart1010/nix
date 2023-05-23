@@ -1,8 +1,9 @@
 ---
 layout: page
 title: linux/apt-key (polski)
-description: "Narzędzie do zarządzania kluczami APT Package Manager dla Debiana i Ubuntu."
-content_hash: 7d3669f59007e7a2004c674e32f8acad9ebc3104
+description: "Narzędzie do zarządzania kluczami menedżera pakietów APT dla Debiana i Ubuntu."
+content_hash: 199ee0f687a5d8edbdad8a4ec6bc14e155b9ece4
+last_modified_at: 2023-05-23
 related_topics:
   - title: català version
     url: /ca/linux/apt-key.html
@@ -28,7 +29,7 @@ related_topics:
 ---
 # apt-key
 
-Narzędzie do zarządzania kluczami APT Package Manager dla Debiana i Ubuntu.
+Narzędzie do zarządzania kluczami menedżera pakietów APT dla Debiana i Ubuntu.
 Notatka: `apt-key` jest aktualnie przestarzały (za wyjątkiem użycia `apt-key del` w skryptach opiekunów).
 Więcej informacji: <https://manpages.debian.org/latest/apt/apt-key.8.html>.
 
@@ -36,18 +37,18 @@ Więcej informacji: <https://manpages.debian.org/latest/apt/apt-key.8.html>.
 
 `apt-key list`
 
-- Dodanie klucza do magazynu zaufanych kluczy:
+- Dodaj klucz do magazynu zaufanych kluczy:
 
 `apt-key add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">plik_z_kluczem_publicznym.asc</span>
 
-- Usunięcie klucza z magazynu zaufanych kluczy:
+- Usuń klucz z magazynu zaufanych kluczy:
 
 `apt-key del `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_klucza</span>
 
-- Dodanie zdalnego klucza do magazynu zaufanych kluczy:
+- Dodaj zdalny klucz do magazynu zaufanych kluczy:
 
 `wget -qO - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://host.tld/nazwa_pliku.key</span>` | apt-key add -`
 
-- Dodanie klucza z serwera kluczy na podstawie id klucza:
+- Dodaj klucz z serwera kluczy na podstawie id klucza:
 
 `apt-key adv --keyserver `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pgp.mit.edu</span>` --recv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_klucza</span>

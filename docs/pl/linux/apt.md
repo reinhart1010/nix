@@ -2,8 +2,12 @@
 layout: page
 title: linux/apt (polski)
 description: "Narzędzie do zarządzania pakietami dla dystrybucji bazujących na Debianie."
-content_hash: 5677902263509aac3b821ff5c1b54e44519771e7
+content_hash: 10653c2a07c4e208b25fbae9e5ec67979d7c1988
+last_modified_at: 2023-05-23
 related_topics:
+  - title: العربية version
+    url: /ar/linux/apt.html
+    icon: bi bi-globe
   - title: বাংলা version
     url: /bn/linux/apt.html
     icon: bi bi-globe
@@ -28,8 +32,14 @@ related_topics:
   - title: italiano version
     url: /it/linux/apt.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/linux/apt.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/apt.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/apt.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/apt.html
@@ -47,43 +57,41 @@ related_topics:
     url: /zh/linux/apt.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># apt
+# apt
 
 Narzędzie do zarządzania pakietami dla dystrybucji bazujących na Debianie.
-Zalecany zamiennik `apt-get` przy uyciu interaktywnym w Ubuntu w wersji 16.04 i wyższych.
+Zalecany zamiennik `apt-get` przy użyciu interaktywnym w Ubuntu w wersjach 16.04 i wyższych.
+Odpowiednie polecenia dla innych menedżerów pakietów: <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 Więcej informacji: <https://manpages.debian.org/latest/apt/apt.8.html>.
 
-- Aktualizacja listy dostępnych pakietów i ich wersji (zalecane uruchomienie przed innymi poleceniami `apt`):
+- Zaktualizuj listę dostępnych pakietów i ich wersji (zaleca się uruchomienie tego przed innymi poleceniami `apt`):
 
 `sudo apt update`
 
-- Wyszukanie podanego pakietu:
+- Wyszukaj podany pakiet:
 
 `apt search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span>
 
-- Wyświetlenie informacji o pakiecie:
+- Wyświetl informacje o podanym pakiecie:
 
 `apt show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span>
 
-- Instalacja pakietu lub aktualizacja do najnowszej dostępnej wersji:
+- Zainstaluj pakiet lub zaktualizuj go do najnowszej dostępnej wersji:
 
 `sudo apt install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span>
 
-- Usunięcie pakietu (użyj `purge` aby usunąć także pliki konfiguracyjne):
+- Usuń pakiet (użyj `purge` aby usunąć także pliki konfiguracyjne):
 
 `sudo apt remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span>
 
-- Aktualizacja wszystkich zainstalowanych pakietów do ich najnowszych wersji:
+- Zaktualizuj wszystkie zainstalowane pakiety do ich najnowszych wersji:
 
 `sudo apt upgrade`
 
-- Wyświetlenie wszystkich pakietów:
+- Wyświetl wszystkie pakiety:
 
 `apt list`
 
-- Wyświetlenie zainstalowanych pakietów:
+- Wyświetl zainstalowane pakiety:
 
 `apt list --installed`
