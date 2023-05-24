@@ -2,8 +2,8 @@
 layout: page
 title: common/clamscan (English)
 description: "A command-line virus scanner."
-content_hash: 19275bfc6749a796cb024084311e06267452353d
-last_modified_at: 2022-12-04
+content_hash: 552e13bbe79b7ef1e8e8fec8313cb3a7c26b6342
+last_modified_at: 2023-05-24
 related_topics:
   - title: italiano version
     url: /it/common/clamscan.html
@@ -18,7 +18,7 @@ related_topics:
 # clamscan
 
 A command-line virus scanner.
-More information: <https://www.clamav.net>.
+More information: <https://docs.clamav.net/manual/Usage/Scanning.html#clamscan>.
 
 - Scan a file for vulnerabilities:
 

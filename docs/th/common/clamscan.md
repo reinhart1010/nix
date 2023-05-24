@@ -2,7 +2,8 @@
 layout: page
 title: common/clamscan (ไทย)
 description: "โปรแกรมตรวจหาไวรัสบนคอมมานด์ไลน์"
-content_hash: 18fab2ccfdfcedbab60b9acbc8b58e11295a4b50
+content_hash: 4bf5a9e6565e19bdaa488baea232af4b46397f53
+last_modified_at: 2023-05-24
 related_topics:
   - title: English version
     url: /en/common/clamscan.html
@@ -14,13 +15,10 @@ related_topics:
     url: /ko/common/clamscan.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># clamscan
+# clamscan
 
 โปรแกรมตรวจหาไวรัสบนคอมมานด์ไลน์
-ข้อมูลเพิ่มเติม: <https://www.clamav.net>.
+ข้อมูลเพิ่มเติม: <https://docs.clamav.net/manual/Usage/Scanning.html#clamscan>.
 
 - แสกนไฟล์หาช่องโหว่ทางความปลอดภัย:
 

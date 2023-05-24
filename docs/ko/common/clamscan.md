@@ -2,7 +2,8 @@
 layout: page
 title: common/clamscan (한국어)
 description: "바이러스 검사를 하는 줄 명령어."
-content_hash: 6c9647dd530fc3a3381571249a813c1029fbf3c2
+content_hash: c6c81ae655b8b1f235c30323986503b403c4d4c6
+last_modified_at: 2023-05-24
 related_topics:
   - title: English version
     url: /en/common/clamscan.html
@@ -10,11 +11,14 @@ related_topics:
   - title: italiano version
     url: /it/common/clamscan.html
     icon: bi bi-globe
+  - title: ไทย version
+    url: /th/common/clamscan.html
+    icon: bi bi-globe
 ---
 # clamscan
 
 바이러스 검사를 하는 줄 명령어.
-더 많은 정보: <https://www.clamav.net>.
+더 많은 정보: <https://docs.clamav.net/manual/Usage/Scanning.html#clamscan>.
 
 - 약점이 있는 파일을 검사합니다:
 

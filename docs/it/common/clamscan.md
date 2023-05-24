@@ -2,7 +2,8 @@
 layout: page
 title: common/clamscan (italiano)
 description: "Scanner antivirus da linea di comando."
-content_hash: ba78729a3cca11416da219fed5b1f79f15681b17
+content_hash: 168ac075c0f6ca337a38c046d9288a73b45479e8
+last_modified_at: 2023-05-24
 related_topics:
   - title: English version
     url: /en/common/clamscan.html
@@ -17,7 +18,7 @@ related_topics:
 # clamscan
 
 Scanner antivirus da linea di comando.
-Maggiori informazioni: <https://www.clamav.net>.
+Maggiori informazioni: <https://docs.clamav.net/manual/Usage/Scanning.html#clamscan>.
 
 - Analizza un file cercando vulnerabilità:
 
