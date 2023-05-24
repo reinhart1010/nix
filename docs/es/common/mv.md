@@ -2,7 +2,8 @@
 layout: page
 title: common/mv (español)
 description: "Mueve o renombra archivos y directorios."
-content_hash: 8c630dc1422ed0a5edf1e2732bbb9eb907e94657
+content_hash: 5587662fa6ba5f568e4a7c77a59a1dc9a10fa8f3
+last_modified_at: 2023-05-24
 related_topics:
   - title: Deutsch version
     url: /de/common/mv.html
@@ -22,6 +23,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/mv.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/mv.html
+    icon: bi bi-globe
 ---
 
 ### Outdated Translation
@@ -39,20 +43,20 @@ Más información: <https://www.gnu.org/software/coreutils/mv>.
 
 - Mueve archivos en ubicaciones arbitrarias:
 
-`mv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">origen</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destino</span>
+`mv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/origen</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/destino</span>
 
 - Mueve sin solicitar confirmación antes de sobrescribir archivos existentes:
 
-`mv -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">origen</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destino</span>
+`mv -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/origen</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/destino</span>
 
 - Solicita confirmación antes de sobrescribir archivos existentes, independientemente de los permisos del archivo:
 
-`mv -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">origen</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destino</span>
+`mv -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/origen</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/destino</span>
 
 - No sobrescribe archivos existentes en el destino:
 
-`mv -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">origen</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destino</span>
+`mv -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/origen</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/destino</span>
 
 - Mueve archivos en modo detallado, mostrando los archivos después de moverlos:
 
-`mv -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">origen</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destino</span>
+`mv -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/origen</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/destino</span>
