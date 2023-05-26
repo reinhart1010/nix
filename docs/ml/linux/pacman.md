@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman (മലയാളം)
 description: "ആർച്ച് ലിന്ക്സിന്റെ പാക്കേജ് മാനേജുമെന്റ് യൂട്ടിലിറ്റി."
-content_hash: 3efa70c3de335409230ca6260e30d58e3ef68cd4
-last_modified_at: 2023-05-16
+content_hash: e62ba447d405b43a36ebffde3762835d38ab63a1
+last_modified_at: 2023-05-26
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -39,7 +39,7 @@ related_topics:
 # pacman
 
 ആർച്ച് ലിന്ക്സിന്റെ പാക്കേജ് മാനേജുമെന്റ് യൂട്ടിലിറ്റി.
-ഇതും കാണുക: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`,  `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
+ഇതും കാണുക: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
 കൂടുതൽ വിവരങ്ങൾ: <https://man.archlinux.org/man/pacman.8>.
 
 - ഇൻസ്റ്റാൾ ചെയ്‌ത എല്ലാ പാക്കേജും അപ്‌ഡേറ്റു ചെയ്യുക:

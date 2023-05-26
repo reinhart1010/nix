@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman (中文)
 description: "Arch Linux 的软件包管理器工具。"
-content_hash: ec58d345a513397c0ef8189aa222d4b60a76b2e2
-last_modified_at: 2023-05-16
+content_hash: ac6009b1edd8fb0e97bcaf2d3da78e02b8902d5a
+last_modified_at: 2023-05-26
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -39,7 +39,7 @@ related_topics:
 # pacman
 
 Arch Linux 的软件包管理器工具。
-也可以看看：`pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`,  `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
+也可以看看：`pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
 更多信息：<https://man.archlinux.org/man/pacman.8>.
 
 - 同步并更新所有软件包：

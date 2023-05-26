@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman (Türkçe)
 description: "Arch Linux paket yönetim aracı."
-content_hash: 1e25411398a61f11e63687768c7a40e8b0b0a748
-last_modified_at: 2023-05-16
+content_hash: 2b0239ddb172729ef2ce4d4a3dc98df52473d5f1
+last_modified_at: 2023-05-26
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -39,7 +39,7 @@ related_topics:
 # pacman
 
 Arch Linux paket yönetim aracı.
-Ayrıca bakınız: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`,  `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
+Ayrıca bakınız: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
 Daha fazla bilgi için: <https://man.archlinux.org/man/pacman.8>.
 
 - Tüm paketleri senkronize et ve güncelle:

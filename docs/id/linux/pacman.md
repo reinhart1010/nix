@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman (Indonesia)
 description: "Kegunaan manajer paket Arch Linux."
-content_hash: 23ebc45713718d4a988751047f3bafc09493893a
-last_modified_at: 2023-05-16
+content_hash: 8afb394c54edcb8a65e12282dcd942f3b6fae73c
+last_modified_at: 2023-05-26
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -39,7 +39,7 @@ related_topics:
 # pacman
 
 Kegunaan manajer paket Arch Linux.
-Guarda anche: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`,  `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
+Guarda anche: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
 Informasi lebih lanjut: <https://man.archlinux.org/man/pacman.8>.
 
 - Sinkronkan dan perbarui semua paket:

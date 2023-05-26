@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman (Deutsch)
 description: "Arch Linux Paket Management Tool."
-content_hash: 42df37ef2a2c2f7d39a326c12332277361b78e19
-last_modified_at: 2023-05-16
+content_hash: a2977e8db9451fecacb058a924ffd4b9b22ebc63
+last_modified_at: 2023-05-26
 related_topics:
   - title: English version
     url: /en/linux/pacman.html
@@ -39,7 +39,7 @@ related_topics:
 # pacman
 
 Arch Linux Paket Management Tool.
-Siehe auch: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`,  `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
+Siehe auch: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
 Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
 
 - Synchronisiere und aktualisiere alle Pakete:
