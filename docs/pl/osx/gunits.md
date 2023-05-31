@@ -2,20 +2,98 @@
 layout: page
 title: osx/gunits (polski)
 description: "To polecenie jest aliasem `-p linux units`."
-content_hash: 5011ba8f7be0021cd4fe373cd726703bd45e944f
-last_modified_at: 2022-12-29
+content_hash: d8d692c2d009e01dfb08a7c757607d4ced14aee9
+last_modified_at: 2023-05-31
 related_topics:
+  - title: العربية version
+    url: /ar/osx/gunits.html
+    icon: bi bi-globe
+  - title: bosanski version
+    url: /bs/osx/gunits.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/osx/gunits.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/osx/gunits.html
+    icon: bi bi-globe
+  - title: Deutsch version
+    url: /de/osx/gunits.html
+    icon: bi bi-globe
   - title: English version
     url: /en/osx/gunits.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/gunits.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/osx/gunits.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/osx/gunits.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/osx/gunits.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/osx/gunits.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/osx/gunits.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/osx/gunits.html
+    icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/osx/gunits.html
+    icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/osx/gunits.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/osx/gunits.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/osx/gunits.html
+    icon: bi bi-globe
+  - title: norsk version
+    url: /no/osx/gunits.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/gunits.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/osx/gunits.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/osx/gunits.html
+    icon: bi bi-globe
+  - title: svenska version
+    url: /sv/osx/gunits.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/osx/gunits.html
+    icon: bi bi-globe
+  - title: ไทย version
+    url: /th/osx/gunits.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/osx/gunits.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/osx/gunits.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/osx/gunits.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/osx/gunits.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gunits
+# gunits
 
 To polecenie jest aliasem `-p linux units`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr -p linux units`

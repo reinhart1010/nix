@@ -2,10 +2,20 @@
 layout: page
 title: common/tldrl (polski)
 description: "To polecenie jest aliasem `tldr-lint`."
-content_hash: b78bd66895b1830286575cb17d3d9cc870d51da0
+content_hash: f2826943052deeea539931f433acfa2e0147b3f9
+last_modified_at: 2023-05-31
 related_topics:
+  - title: العربية version
+    url: /ar/common/tldrl.html
+    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/tldrl.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/common/tldrl.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/common/tldrl.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/tldrl.html
@@ -31,17 +41,29 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/tldrl.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/tldrl.html
+    icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/common/tldrl.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/common/tldrl.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/tldrl.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/tldrl.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/tldrl.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/tldrl.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/common/tldrl.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/tldrl.html
@@ -73,6 +95,6 @@ related_topics:
 To polecenie jest aliasem `tldr-lint`.
 Więcej informacji: <https://github.com/tldr-pages/tldr-lint>.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr tldr-lint`

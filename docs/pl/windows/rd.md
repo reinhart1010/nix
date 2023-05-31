@@ -2,21 +2,99 @@
 layout: page
 title: windows/rd (polski)
 description: "To polecenie jest aliasem `rmdir`."
-content_hash: 758896146feb1f569dec6c9f9e3faf5c00e40d99
-last_modified_at: 2022-12-29
+content_hash: e32548fe3bf889d104f6e798a2d7bbc45591cd48
+last_modified_at: 2023-05-31
 related_topics:
+  - title: العربية version
+    url: /ar/windows/rd.html
+    icon: bi bi-globe
+  - title: bosanski version
+    url: /bs/windows/rd.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/windows/rd.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/windows/rd.html
+    icon: bi bi-globe
+  - title: Deutsch version
+    url: /de/windows/rd.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/rd.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/windows/rd.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/windows/rd.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/rd.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/windows/rd.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/rd.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/windows/rd.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/rd.html
+    icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/windows/rd.html
+    icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/windows/rd.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/windows/rd.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/rd.html
+    icon: bi bi-globe
+  - title: norsk version
+    url: /no/windows/rd.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/windows/rd.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/windows/rd.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/windows/rd.html
+    icon: bi bi-globe
+  - title: svenska version
+    url: /sv/windows/rd.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/rd.html
+    icon: bi bi-globe
+  - title: ไทย version
+    url: /th/windows/rd.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/windows/rd.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/windows/rd.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/windows/rd.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/windows/rd.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rd
+# rd
 
 To polecenie jest aliasem `rmdir`.
 Więcej informacji: <https://learn.microsoft.com/windows-server/administration/windows-commands/rd>.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr rmdir`

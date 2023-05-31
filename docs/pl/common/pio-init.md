@@ -2,10 +2,20 @@
 layout: page
 title: common/pio-init (polski)
 description: "To polecenie jest aliasem `pio project`."
-content_hash: f3053f07c822e5737b30b3fff3596f4ccd8ef6fc
+content_hash: d41c0abb4ee74455f8e679185494496f3be53838
+last_modified_at: 2023-05-31
 related_topics:
+  - title: العربية version
+    url: /ar/common/pio-init.html
+    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/pio-init.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/common/pio-init.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/common/pio-init.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/pio-init.html
@@ -31,17 +41,29 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/pio-init.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/pio-init.html
+    icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/common/pio-init.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/common/pio-init.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/pio-init.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/pio-init.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/pio-init.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/pio-init.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/common/pio-init.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/pio-init.html
@@ -54,6 +76,9 @@ related_topics:
     icon: bi bi-globe
   - title: ไทย version
     url: /th/common/pio-init.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/pio-init.html
     icon: bi bi-globe
   - title: українська version
     url: /uk/common/pio-init.html
@@ -69,6 +94,6 @@ related_topics:
 
 To polecenie jest aliasem `pio project`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr pio project`

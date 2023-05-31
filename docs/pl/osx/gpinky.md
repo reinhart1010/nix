@@ -2,20 +2,98 @@
 layout: page
 title: osx/gpinky (polski)
 description: "To polecenie jest aliasem `-p linux pinky`."
-content_hash: d332a9530d9306bb3bd3fbd797df6be61c6e273c
-last_modified_at: 2022-12-29
+content_hash: 2e75bcf951b33afb0b86cb3c75ef33a7e44060a3
+last_modified_at: 2023-05-31
 related_topics:
+  - title: العربية version
+    url: /ar/osx/gpinky.html
+    icon: bi bi-globe
+  - title: bosanski version
+    url: /bs/osx/gpinky.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/osx/gpinky.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/osx/gpinky.html
+    icon: bi bi-globe
+  - title: Deutsch version
+    url: /de/osx/gpinky.html
+    icon: bi bi-globe
   - title: English version
     url: /en/osx/gpinky.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/gpinky.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/osx/gpinky.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/osx/gpinky.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/osx/gpinky.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/osx/gpinky.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/osx/gpinky.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/osx/gpinky.html
+    icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/osx/gpinky.html
+    icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/osx/gpinky.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/osx/gpinky.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/osx/gpinky.html
+    icon: bi bi-globe
+  - title: norsk version
+    url: /no/osx/gpinky.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/gpinky.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/osx/gpinky.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/osx/gpinky.html
+    icon: bi bi-globe
+  - title: svenska version
+    url: /sv/osx/gpinky.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/osx/gpinky.html
+    icon: bi bi-globe
+  - title: ไทย version
+    url: /th/osx/gpinky.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/osx/gpinky.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/osx/gpinky.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/osx/gpinky.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/osx/gpinky.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gpinky
+# gpinky
 
 To polecenie jest aliasem `-p linux pinky`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr -p linux pinky`

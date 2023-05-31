@@ -2,10 +2,20 @@
 layout: page
 title: common/piodebuggdb (polski)
 description: "To polecenie jest aliasem `pio debug`."
-content_hash: 6d0efce6e8f198d39160c59867d092f41264d37d
+content_hash: 86ad990fbfb60f5710ca7fbc63a508359dea9300
+last_modified_at: 2023-05-31
 related_topics:
+  - title: العربية version
+    url: /ar/common/piodebuggdb.html
+    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/piodebuggdb.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/common/piodebuggdb.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/common/piodebuggdb.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/piodebuggdb.html
@@ -31,17 +41,29 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/piodebuggdb.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/piodebuggdb.html
+    icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/common/piodebuggdb.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/common/piodebuggdb.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/piodebuggdb.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/piodebuggdb.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/piodebuggdb.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/piodebuggdb.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/common/piodebuggdb.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/piodebuggdb.html
@@ -54,6 +76,9 @@ related_topics:
     icon: bi bi-globe
   - title: ไทย version
     url: /th/common/piodebuggdb.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/piodebuggdb.html
     icon: bi bi-globe
   - title: українська version
     url: /uk/common/piodebuggdb.html
@@ -69,6 +94,6 @@ related_topics:
 
 To polecenie jest aliasem `pio debug`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr pio debug`

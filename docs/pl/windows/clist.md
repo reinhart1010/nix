@@ -2,10 +2,20 @@
 layout: page
 title: windows/clist (polski)
 description: "To polecenie jest aliasem `choco list`."
-content_hash: f86f3db834367537788b676bc6db08138d610e18
+content_hash: 208b183cc50a4131ee6502600b1e7dfad05e6512
+last_modified_at: 2023-05-31
 related_topics:
+  - title: العربية version
+    url: /ar/windows/clist.html
+    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/clist.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/windows/clist.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/windows/clist.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/clist.html
@@ -31,17 +41,29 @@ related_topics:
   - title: 日本語 version
     url: /ja/windows/clist.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/clist.html
+    icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/windows/clist.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/windows/clist.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/windows/clist.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/windows/clist.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/windows/clist.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/clist.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/windows/clist.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/windows/clist.html
@@ -54,6 +76,9 @@ related_topics:
     icon: bi bi-globe
   - title: ไทย version
     url: /th/windows/clist.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/windows/clist.html
     icon: bi bi-globe
   - title: українська version
     url: /uk/windows/clist.html
@@ -70,6 +95,6 @@ related_topics:
 To polecenie jest aliasem `choco list`.
 Więcej informacji: <https://docs.chocolatey.org/en-us/choco/commands/list>.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr choco list`

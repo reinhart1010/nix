@@ -2,10 +2,20 @@
 layout: page
 title: windows/cinst (polski)
 description: "To polecenie jest aliasem `choco install`."
-content_hash: 7594e3955bea29c6831e94ffa5e2d33b9f2e5165
+content_hash: 7cc5c2e4b6df3980a8ef0a7d5b9dd4b29ba27b8d
+last_modified_at: 2023-05-31
 related_topics:
+  - title: العربية version
+    url: /ar/windows/cinst.html
+    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/cinst.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/windows/cinst.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/windows/cinst.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/cinst.html
@@ -31,17 +41,29 @@ related_topics:
   - title: 日本語 version
     url: /ja/windows/cinst.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/cinst.html
+    icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/windows/cinst.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/windows/cinst.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/windows/cinst.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/windows/cinst.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/windows/cinst.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/cinst.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/windows/cinst.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/windows/cinst.html
@@ -54,6 +76,9 @@ related_topics:
     icon: bi bi-globe
   - title: ไทย version
     url: /th/windows/cinst.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/windows/cinst.html
     icon: bi bi-globe
   - title: українська version
     url: /uk/windows/cinst.html
@@ -70,6 +95,6 @@ related_topics:
 To polecenie jest aliasem `choco install`.
 Więcej informacji: <https://docs.chocolatey.org/en-us/choco/commands/install>.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr choco install`

@@ -2,20 +2,98 @@
 layout: page
 title: osx/gtruncate (polski)
 description: "To polecenie jest aliasem `-p linux truncate`."
-content_hash: da6be3d2eb175442e0f3f9c21e0c04b4dbb48ca3
-last_modified_at: 2022-12-29
+content_hash: 44b91f427c2bb8566c3c0377c95b9cfb7641b85c
+last_modified_at: 2023-05-31
 related_topics:
+  - title: العربية version
+    url: /ar/osx/gtruncate.html
+    icon: bi bi-globe
+  - title: bosanski version
+    url: /bs/osx/gtruncate.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/osx/gtruncate.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/osx/gtruncate.html
+    icon: bi bi-globe
+  - title: Deutsch version
+    url: /de/osx/gtruncate.html
+    icon: bi bi-globe
   - title: English version
     url: /en/osx/gtruncate.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/gtruncate.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/osx/gtruncate.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/osx/gtruncate.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/osx/gtruncate.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/osx/gtruncate.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/osx/gtruncate.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/osx/gtruncate.html
+    icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/osx/gtruncate.html
+    icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/osx/gtruncate.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/osx/gtruncate.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/osx/gtruncate.html
+    icon: bi bi-globe
+  - title: norsk version
+    url: /no/osx/gtruncate.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/gtruncate.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/osx/gtruncate.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/osx/gtruncate.html
+    icon: bi bi-globe
+  - title: svenska version
+    url: /sv/osx/gtruncate.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/osx/gtruncate.html
+    icon: bi bi-globe
+  - title: ไทย version
+    url: /th/osx/gtruncate.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/osx/gtruncate.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/osx/gtruncate.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/osx/gtruncate.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/osx/gtruncate.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gtruncate
+# gtruncate
 
 To polecenie jest aliasem `-p linux truncate`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr -p linux truncate`

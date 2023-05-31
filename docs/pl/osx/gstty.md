@@ -2,20 +2,98 @@
 layout: page
 title: osx/gstty (polski)
 description: "To polecenie jest aliasem `-p linux stty`."
-content_hash: b7031a30da66606cebc84e4f4720de42f57c0e42
-last_modified_at: 2022-12-29
+content_hash: 876a19230ba106ca40c69a2da41ee89e05a0c40a
+last_modified_at: 2023-05-31
 related_topics:
+  - title: العربية version
+    url: /ar/osx/gstty.html
+    icon: bi bi-globe
+  - title: bosanski version
+    url: /bs/osx/gstty.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/osx/gstty.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/osx/gstty.html
+    icon: bi bi-globe
+  - title: Deutsch version
+    url: /de/osx/gstty.html
+    icon: bi bi-globe
   - title: English version
     url: /en/osx/gstty.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/gstty.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/osx/gstty.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/osx/gstty.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/osx/gstty.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/osx/gstty.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/osx/gstty.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/osx/gstty.html
+    icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/osx/gstty.html
+    icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/osx/gstty.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/osx/gstty.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/osx/gstty.html
+    icon: bi bi-globe
+  - title: norsk version
+    url: /no/osx/gstty.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/gstty.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/osx/gstty.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/osx/gstty.html
+    icon: bi bi-globe
+  - title: svenska version
+    url: /sv/osx/gstty.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/osx/gstty.html
+    icon: bi bi-globe
+  - title: ไทย version
+    url: /th/osx/gstty.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/osx/gstty.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/osx/gstty.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/osx/gstty.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/osx/gstty.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gstty
+# gstty
 
 To polecenie jest aliasem `-p linux stty`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr -p linux stty`

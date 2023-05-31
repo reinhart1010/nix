@@ -2,20 +2,98 @@
 layout: page
 title: osx/gtalk (polski)
 description: "To polecenie jest aliasem `-p linux talk`."
-content_hash: e5827ba32ae71c1e8b6f09a243f001b103360316
-last_modified_at: 2022-12-29
+content_hash: 51e3cbf0db9136348dce886310f68924b86e8f08
+last_modified_at: 2023-05-31
 related_topics:
+  - title: العربية version
+    url: /ar/osx/gtalk.html
+    icon: bi bi-globe
+  - title: bosanski version
+    url: /bs/osx/gtalk.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/osx/gtalk.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/osx/gtalk.html
+    icon: bi bi-globe
+  - title: Deutsch version
+    url: /de/osx/gtalk.html
+    icon: bi bi-globe
   - title: English version
     url: /en/osx/gtalk.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/gtalk.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/osx/gtalk.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/osx/gtalk.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/osx/gtalk.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/osx/gtalk.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/osx/gtalk.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/osx/gtalk.html
+    icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/osx/gtalk.html
+    icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/osx/gtalk.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/osx/gtalk.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/osx/gtalk.html
+    icon: bi bi-globe
+  - title: norsk version
+    url: /no/osx/gtalk.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/gtalk.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/osx/gtalk.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/osx/gtalk.html
+    icon: bi bi-globe
+  - title: svenska version
+    url: /sv/osx/gtalk.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/osx/gtalk.html
+    icon: bi bi-globe
+  - title: ไทย version
+    url: /th/osx/gtalk.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/osx/gtalk.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/osx/gtalk.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/osx/gtalk.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/osx/gtalk.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gtalk
+# gtalk
 
 To polecenie jest aliasem `-p linux talk`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr -p linux talk`

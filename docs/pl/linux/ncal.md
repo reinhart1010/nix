@@ -2,13 +2,20 @@
 layout: page
 title: linux/ncal (polski)
 description: "To polecenie jest aliasem `cal`."
-content_hash: 043c720f83d579ced32ea26b5dbc32a035db4b56
+content_hash: 022326c55e64a1a2b763d17d91bfe53e1c21aca9
+last_modified_at: 2023-05-31
 related_topics:
+  - title: العربية version
+    url: /ar/linux/ncal.html
+    icon: bi bi-globe
   - title: bosanski version
     url: /bs/linux/ncal.html
     icon: bi bi-globe
   - title: català version
     url: /ca/linux/ncal.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/linux/ncal.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/ncal.html
@@ -34,17 +41,29 @@ related_topics:
   - title: 日本語 version
     url: /ja/linux/ncal.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/ncal.html
+    icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/linux/ncal.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/ncal.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/linux/ncal.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/linux/ncal.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/linux/ncal.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/ncal.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/linux/ncal.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/linux/ncal.html
@@ -57,6 +76,9 @@ related_topics:
     icon: bi bi-globe
   - title: ไทย version
     url: /th/linux/ncal.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/linux/ncal.html
     icon: bi bi-globe
   - title: українська version
     url: /uk/linux/ncal.html
@@ -73,6 +95,6 @@ related_topics:
 To polecenie jest aliasem `cal`.
 Więcej informacji: <https://manned.org/ncal>.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr cal`

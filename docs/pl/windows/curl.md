@@ -2,8 +2,8 @@
 layout: page
 title: windows/curl (polski)
 description: "W PowerShell to polecenie może być aliasem `Invoke-WebRequest`, gdy oryginalny program `curl` (<https://curl.se>) nie jest poprawnie zainstalowany."
-content_hash: 9b34c8bb375ca8e1deba41f6fb17057b885e67a9
-last_modified_at: 2023-05-24
+content_hash: e7284c96c7d64fffd6f45d4652179f6a550a5a27
+last_modified_at: 2023-05-31
 related_topics:
   - title: العربية version
     url: /ar/windows/curl.html
@@ -107,7 +107,7 @@ W PowerShell to polecenie może być aliasem `Invoke-WebRequest`, gdy oryginalny
 
 `curl --version`
 
-- Zobacz dokumentację orginalnego polecenia `curl`:
+- Zobacz dokumentację oryginalnego polecenia `curl`:
 
 `tldr curl -p common`
 

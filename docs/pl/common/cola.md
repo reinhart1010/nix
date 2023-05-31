@@ -2,10 +2,20 @@
 layout: page
 title: common/cola (polski)
 description: "To polecenie jest aliasem `git-cola`."
-content_hash: 110221e15fb1c481f665f0be267a21333562e1df
+content_hash: 8345629f034e1f7cc596ad2d589558c0bb9bc04d
+last_modified_at: 2023-05-31
 related_topics:
+  - title: العربية version
+    url: /ar/common/cola.html
+    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/cola.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/common/cola.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/common/cola.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/cola.html
@@ -31,17 +41,29 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/cola.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/cola.html
+    icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/common/cola.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/common/cola.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/cola.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/cola.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/cola.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/cola.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/common/cola.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/cola.html
@@ -54,6 +76,9 @@ related_topics:
     icon: bi bi-globe
   - title: ไทย version
     url: /th/common/cola.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/cola.html
     icon: bi bi-globe
   - title: українська version
     url: /uk/common/cola.html
@@ -69,6 +94,6 @@ related_topics:
 
 To polecenie jest aliasem `git-cola`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr git-cola`

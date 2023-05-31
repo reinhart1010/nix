@@ -2,20 +2,98 @@
 layout: page
 title: osx/gdircolors (polski)
 description: "To polecenie jest aliasem `-p linux dircolors`."
-content_hash: 9c9da1ca588cc2d5721f1cbebc11c3448ed7f329
-last_modified_at: 2022-12-29
+content_hash: 20c00efe19ba1a053818bbdfa9befdb12dc6e405
+last_modified_at: 2023-05-31
 related_topics:
+  - title: العربية version
+    url: /ar/osx/gdircolors.html
+    icon: bi bi-globe
+  - title: bosanski version
+    url: /bs/osx/gdircolors.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/osx/gdircolors.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/osx/gdircolors.html
+    icon: bi bi-globe
+  - title: Deutsch version
+    url: /de/osx/gdircolors.html
+    icon: bi bi-globe
   - title: English version
     url: /en/osx/gdircolors.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/gdircolors.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/osx/gdircolors.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/osx/gdircolors.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/osx/gdircolors.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/osx/gdircolors.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/osx/gdircolors.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/osx/gdircolors.html
+    icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/osx/gdircolors.html
+    icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/osx/gdircolors.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/osx/gdircolors.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/osx/gdircolors.html
+    icon: bi bi-globe
+  - title: norsk version
+    url: /no/osx/gdircolors.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/gdircolors.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/osx/gdircolors.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/osx/gdircolors.html
+    icon: bi bi-globe
+  - title: svenska version
+    url: /sv/osx/gdircolors.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/osx/gdircolors.html
+    icon: bi bi-globe
+  - title: ไทย version
+    url: /th/osx/gdircolors.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/osx/gdircolors.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/osx/gdircolors.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/osx/gdircolors.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/osx/gdircolors.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gdircolors
+# gdircolors
 
 To polecenie jest aliasem `-p linux dircolors`.
 
-- Zobacz dokumentację orginalnego polecenia:
+- Zobacz dokumentację oryginalnego polecenia:
 
 `tldr -p linux dircolors`
