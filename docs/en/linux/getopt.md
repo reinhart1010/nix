@@ -1,12 +1,13 @@
 ---
 layout: page
 title: linux/getopt (English)
-description: "Parse command line arguments."
-content_hash: dc8fd539662e1f52595a2445e59abcf99bde856c
+description: "Parse command-line arguments."
+content_hash: dbb04b53a1d6e5fbcfbdf322f4624be63cefeddf
+last_modified_at: 2023-05-31
 ---
 # getopt
 
-Parse command line arguments.
+Parse command-line arguments.
 More information: <https://www.gnu.org/software/libc/manual/html_node/Getopt.html>.
 
 - Parse optional `verbose`/`version` flags with shorthands:

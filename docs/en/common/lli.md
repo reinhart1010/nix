@@ -2,7 +2,8 @@
 layout: page
 title: common/lli (English)
 description: "Directly execute programs from LLVM bitcode."
-content_hash: 9294787f93c0417baacead9dc925b7162856a5fc
+content_hash: def9ad6678f013e43e303eedfb2dd348b10a471f
+last_modified_at: 2023-05-31
 ---
 # lli
 
@@ -13,7 +14,7 @@ More information: <https://www.llvm.org/docs/CommandGuide/lli.html>.
 
 `lli `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ll</span>
 
-- Execute with command line arguments:
+- Execute with command-line arguments:
 
 `lli `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ll</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument1 argument2 ...</span>
 

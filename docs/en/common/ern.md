@@ -1,15 +1,13 @@
 ---
 layout: page
 title: common/ern (English)
-description: "Electrode Native platform command line client."
-content_hash: 1e0c2bd71ce6c11d4cbbbe2f848ff0a37357ad1f
+description: "Electrode Native platform command-line client."
+content_hash: 721b29f8f607fce99cfdefc5b44da56f3e36e01f
+last_modified_at: 2023-05-31
 ---
+# ern
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ern
-
-Electrode Native platform command line client.
+Electrode Native platform command-line client.
 More information: <https://native.electrode.io/reference/index-6>.
 
 - Create a new `ern` application (`MiniApp`):

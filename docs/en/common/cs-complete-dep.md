@@ -1,16 +1,13 @@
 ---
 layout: page
 title: common/cs-complete-dep (English)
-description: "Allows the developer to search for libraries without searching directly on the web but from the command line."
-content_hash: 96b822bf928b6e3cfeb5b1e514257520c2223003
-last_modified_at: 2023-01-09
+description: "Allows the developer to search for libraries without searching directly on the web but from the command-line."
+content_hash: a56419f0e98bf9010adcecb6c9577849c12fbc1e
+last_modified_at: 2023-05-31
 ---
+# cs complete dep
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cs complete dep
-
-Allows the developer to search for libraries without searching directly on the web but from the command line.
+Allows the developer to search for libraries without searching directly on the web but from the command-line.
 More information: <https://get-coursier.io/docs/cli-complete>.
 
 - Print which artifacts are published under a specific Maven group identifier:

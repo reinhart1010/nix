@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/gh-secret-set (English)
-description: "Create or update GitHub secrets from the command line."
-content_hash: 0dd4a96d1e6c7f1d8c4b7852b3b9d2b6eda93173
+description: "Create or update GitHub secrets from the command-line."
+content_hash: 6287defc5064fba362dc7de2c228621457f20ad4
+last_modified_at: 2023-05-31
 ---
 # gh secret set
 
-Create or update GitHub secrets from the command line.
+Create or update GitHub secrets from the command-line.
 More information: <https://cli.github.com/manual/gh_secret_set>.
 
 - Set a secret for the current repository (user will be prompted for the value):

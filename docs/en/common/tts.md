@@ -1,16 +1,13 @@
 ---
 layout: page
 title: common/tts (English)
-description: "Synthesize speech on the command line."
-content_hash: 9b926343d31a8ff1a0f238c2c76b2aed3f9d8a8d
-last_modified_at: 2023-01-24
+description: "Synthesize speech on the command-line."
+content_hash: aac34fdb1be638991fb83d1a46b1717f6e3ef612
+last_modified_at: 2023-05-31
 ---
+# tts
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># tts
-
-Synthesize speech on the command line.
+Synthesize speech on the command-line.
 More information: <https://github.com/coqui-ai/TTS#command-line-tts>.
 
 - Run text-to-speech with the default models, writing the output to "tts_output.wav":

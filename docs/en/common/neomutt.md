@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/neomutt (English)
-description: "NeoMutt command line email client."
-content_hash: bb9061babfb0ad1ef6d5a25b7ed9301ce8fb4809
+description: "NeoMutt command-line email client."
+content_hash: 2e540a385a9733ef28d4218bc29bcba24f7639af
+last_modified_at: 2023-05-31
 ---
 # neomutt
 
-NeoMutt command line email client.
+NeoMutt command-line email client.
 More information: <https://neomutt.org>.
 
 - Open the specified mailbox:

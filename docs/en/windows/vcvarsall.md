@@ -1,12 +1,13 @@
 ---
 layout: page
 title: windows/vcvarsall (English)
-description: "Setup the environment variables required for using the Microsoft Visual Studio tools from the command line."
-content_hash: 3adb2fb76f872ba8eae05b77aa1ae1406563a4e9
+description: "Setup the environment variables required for using the Microsoft Visual Studio tools from the command-line."
+content_hash: 045b0e665f60f423ea3fcc1680595dc51aa856aa
+last_modified_at: 2023-05-31
 ---
 # vcvarsall
 
-Setup the environment variables required for using the Microsoft Visual Studio tools from the command line.
+Setup the environment variables required for using the Microsoft Visual Studio tools from the command-line.
 The path of `vcvarsall` for a certain Visual Studio installation can be found using `vswhere`.
 More information: <https://learn.microsoft.com/cpp/build/building-on-the-command-line>.
 

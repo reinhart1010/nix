@@ -2,12 +2,13 @@
 layout: page
 title: common/tailscale-up (English)
 description: "Connects the client to the Tailscale network."
-content_hash: 309f9665a57b23a896434b1e0099bea34de9a412
+content_hash: 43dc5aa45bd03f8e7f8caf1ece4f5e305f13d274
+last_modified_at: 2023-05-31
 ---
 # tailscale up
 
 Connects the client to the Tailscale network.
-In version 1.8 and above, command line arguments are stored and reused until they're overwritten or `--reset` is called.
+In version 1.8 and above, command-line arguments are stored and reused until they're overwritten or `--reset` is called.
 More information: <https://tailscale.com/kb/admin/>.
 
 - Connect to Tailscale:

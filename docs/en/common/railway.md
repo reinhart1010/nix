@@ -1,15 +1,13 @@
 ---
 layout: page
 title: common/railway (English)
-description: "Connect code to a Railway project from the command line."
-content_hash: 8e487e3cd76c315a7c0fbad6e26ea83e128956dc
+description: "Connect code to a Railway project from the command-line."
+content_hash: 98a087c94254fa3a4c439045b6c4958ddc0bd429
+last_modified_at: 2023-05-31
 ---
+# railway
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># railway
-
-Connect code to a Railway project from the command line.
+Connect code to a Railway project from the command-line.
 More information: <https://railway.app/>.
 
 - Login to a Railway account:
@@ -20,7 +18,7 @@ More information: <https://railway.app/>.
 
 `railway link `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">projectId</span>
 
-- Create a new project directly from the command line:
+- Create a new project directly from the command-line:
 
 `railway init`
 

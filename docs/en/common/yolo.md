@@ -1,16 +1,13 @@
 ---
 layout: page
 title: common/yolo (English)
-description: "The YOLO command line interface lets you simply train, validate or infer models on various tasks and versions."
-content_hash: c3482420feaedc386c4758da80a563d42a4a070c
-last_modified_at: 2023-01-16
+description: "The YOLO command-line interface lets you simply train, validate or infer models on various tasks and versions."
+content_hash: 1c4ec358e34157d8dd9427e9c703856ce1a094cd
+last_modified_at: 2023-05-31
 ---
+# yolo
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># yolo
-
-The YOLO command line interface lets you simply train, validate or infer models on various tasks and versions.
+The YOLO command-line interface lets you simply train, validate or infer models on various tasks and versions.
 More information: <https://docs.ultralytics.com/cli/>.
 
 - Create a copy of the default configuration in your current working directory:

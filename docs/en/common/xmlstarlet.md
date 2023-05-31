@@ -1,16 +1,13 @@
 ---
 layout: page
 title: common/xmlstarlet (English)
-description: "A commandline XML/XSLT toolkit."
-content_hash: 9e6328eca18b5b6b2df34a7b4691f2658cca4238
-last_modified_at: 2023-05-16
+description: "A command-line XML/XSLT toolkit."
+content_hash: 5a7aaa9fc7b2cfd03c58e7161256d201737ec9e4
+last_modified_at: 2023-05-31
 ---
+# xmlstarlet
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># xmlstarlet
-
-A commandline XML/XSLT toolkit.
+A command-line XML/XSLT toolkit.
 Note: You will likely need to know XPath: <https://developer.mozilla.org/en-US/docs/Web/XPath>.
 More information: <https://xmlstar.sourceforge.net/docs.php>.
 

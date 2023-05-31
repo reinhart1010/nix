@@ -1,15 +1,13 @@
 ---
 layout: page
 title: common/clifm (English)
-description: "The command line file manager."
-content_hash: 8c77b38d0978db2d55e2aa4172aa4556201d6e28
+description: "The command-line file manager."
+content_hash: 0f7d6c0d0ab1a0eff8bdbacdf6ab1011d99cb16b
+last_modified_at: 2023-05-31
 ---
+# clifm
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># clifm
-
-The command line file manager.
+The command-line file manager.
 More information: <https://github.com/leo-arch/clifm>.
 
 - Start CliFM:

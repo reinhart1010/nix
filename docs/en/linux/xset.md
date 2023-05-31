@@ -2,7 +2,8 @@
 layout: page
 title: linux/xset (English)
 description: "User preference utility for X."
-content_hash: b1835d63c887166debf0adb8f69f9f9041974d2b
+content_hash: 7e66399205a8362be51d64422d978da75036de56
+last_modified_at: 2023-05-31
 ---
 # xset
 
@@ -12,6 +13,10 @@ More information: <https://manned.org/xset>.
 - Disable the screensaver:
 
 `xset s off`
+
+- Disable the bell sound:
+
+`xset b off`
 
 - Set the screensaver to start after 60 minutes of inactivity:
 

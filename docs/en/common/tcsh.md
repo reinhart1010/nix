@@ -1,13 +1,13 @@
 ---
 layout: page
 title: common/tcsh (English)
-description: "C shell with file name completion and command line editing."
-content_hash: 7ddb558af3b20fafcb02e0767de3d0de6fb93631
-last_modified_at: 2022-12-04
+description: "C shell with file name completion and command-line editing."
+content_hash: a8ffa465287f0c7bb6fa82c23e7dc3d71f8ec867
+last_modified_at: 2023-05-31
 ---
 # tcsh
 
-C shell with file name completion and command line editing.
+C shell with file name completion and command-line editing.
 See also: `csh`.
 More information: <https://manned.org/tcsh>.
 

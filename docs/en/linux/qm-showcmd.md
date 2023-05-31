@@ -1,16 +1,16 @@
 ---
 layout: page
 title: linux/qm-showcmd (English)
-description: "Show command line which is used to start the VM (debug info)."
-content_hash: e7bf9d0e36af9b4012386f725a2eb072df7e6c86
-last_modified_at: 2022-12-22
+description: "Show command-line which is used to start the VM (debug info)."
+content_hash: eee8945f507dadfd09172b1749a1a4be0f9dfa23
+last_modified_at: 2023-05-31
 ---
 # qm showcmd
 
-Show command line which is used to start the VM (debug info).
+Show command-line which is used to start the VM (debug info).
 More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
-- Show command line for a specific virtual machine:
+- Show command-line for a specific virtual machine:
 
 `qm showcmd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_id</span>
 

@@ -1,8 +1,9 @@
 ---
 layout: page
 title: linux/toolbox (English)
-description: "Tool for containerized command line environments on Linux."
-content_hash: d8e3ba68535cc516512ee9b100c82260e1ef19a0
+description: "Tool for containerized command-line environments on Linux."
+content_hash: 81c25dc8857f6d7fe8b5800a883e15c2d61d5de7
+last_modified_at: 2023-05-31
 related_topics:
   - title: தமிழ் version
     url: /ta/linux/toolbox.html
@@ -10,7 +11,7 @@ related_topics:
 ---
 # toolbox
 
-Tool for containerized command line environments on Linux.
+Tool for containerized command-line environments on Linux.
 Some subcommands such as `toolbox create` have their own usage documentation.
 More information: <https://manned.org/toolbox.1>.
 
