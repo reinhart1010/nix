@@ -2,7 +2,8 @@
 layout: page
 title: windows/assoc (தமிழ்)
 description: "கோப்பு நீட்டிப்புகள் மற்றும் கோப்பு வகைகளுக்கு இடையே உள்ள தொடர்பைக் காட்டவும் அல்லது மாற்றவும்."
-content_hash: 085922b37e5f87a1c450c278a01e48cf1283abc0
+content_hash: 62a641088117774411fdf2fd547a8a59571ced3c
+last_modified_at: 2023-06-02
 related_topics:
   - title: English version
     url: /en/windows/assoc.html
@@ -18,7 +19,13 @@ related_topics:
     icon: bi bi-globe
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/windows/assoc.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># assoc
 
@@ -36,3 +43,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 - குறிப்பிட்ட நீட்டிப்புக்கு தொடர்புடைய கோப்பு வகையை அமைக்கவும்:
 
 `assoc .`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">txt</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">txtfile</span>
+
+- ஒரு நேரத்தில் ஒரு திரையின் `assoc` வெளியீட்டைப் பார்க்கவும்:
+
+`assoc | `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">more</span>

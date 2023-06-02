@@ -2,13 +2,20 @@
 layout: page
 title: android/bugreportz (தமிழ்)
 description: "ஜிப் செய்யப்பட்ட ஆண்ட்ராய்டு பிழை அறிக்கையை உருவாக்கவும்."
-content_hash: deb4619ca834083e93b0482c763a59cdf31ba64a
+content_hash: 6a628f1045b24a6487c2e6d063a084f14f9aa551
+last_modified_at: 2023-06-02
 related_topics:
+  - title: বাংলা version
+    url: /bn/android/bugreportz.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/android/bugreportz.html
     icon: bi bi-globe
   - title: English version
     url: /en/android/bugreportz.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/android/bugreportz.html
     icon: bi bi-globe
   - title: français version
     url: /fr/android/bugreportz.html
@@ -16,8 +23,17 @@ related_topics:
   - title: Indonesia version
     url: /id/android/bugreportz.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/android/bugreportz.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/android/bugreportz.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/android/bugreportz.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/android/bugreportz.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/android/bugreportz.html
@@ -32,10 +48,7 @@ related_topics:
     url: /zh_TW/android/bugreportz.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bugreportz
+# bugreportz
 
 ஜிப் செய்யப்பட்ட ஆண்ட்ராய்டு பிழை அறிக்கையை உருவாக்கவும்.
 இந்தக் கட்டளையை `adb shell` மூலம் மட்டுமே பயன்படுத்த முடியும்.
@@ -53,6 +66,6 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 `bugreportz -v`
 
-- காட்சி உதவி:
+- உதவியைக் காட்டு:
 
 `bugreportz -h`

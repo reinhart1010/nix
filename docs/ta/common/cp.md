@@ -2,7 +2,8 @@
 layout: page
 title: common/cp (தமிழ்)
 description: "கோப்புகளையோ அடைவுகளையோ நகலெடு."
-content_hash: 0d813758bdc7a8bd32211f89c21df81733ddaacb
+content_hash: e0a282a1ff9ece0f11ebf013591648f2e2b31a78
+last_modified_at: 2023-06-02
 related_topics:
   - title: català version
     url: /ca/common/cp.html
@@ -37,8 +38,17 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cp.html
     icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/cp.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/cp.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/cp.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/cp.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/cp.html
@@ -47,7 +57,16 @@ related_topics:
     url: /zh_TW/common/cp.html
     icon: bi bi-globe
 ---
-# cp
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/cp.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># cp
 
 கோப்புகளையோ அடைவுகளையோ நகலெடு.
 மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/cp>.
@@ -68,6 +87,10 @@ related_topics:
 
 `cp -vR `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">மூல/அடைவிற்குப்/பாதை</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நகல்/அடைவிற்குப்/பாதை</span>
 
+- ஒரே நேரத்தில் பல கோப்புகளை ஒரு கோப்பகத்திற்கு நகலெடுக்கவும்:
+
+`cp -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">இலக்கு_அடைவுப்/பாதை</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு1 பாதை/டு/கோப்பு2 ...</span>
+
 - txt வகைப்பெயருடையக் கோப்புகளை ஊடாட்ட நிலையில் (ஏற்கனவே இருக்கும் கோப்புகள் மேலெழுதும் முன் உறுதிப்படுத்தக் கேட்கும்) நகலெடு:
 
 `cp -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நகல்/அடைவிற்குப்/பாதை</span>
@@ -75,3 +98,7 @@ related_topics:
 - நகலெடுக்கும் முன் குறியீட்டு இணைப்புகளைப் பின்பற்றவும்:
 
 `cp -L `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">இணைப்பு</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நகல்/அடைவிற்குப்/பாதை</span>
+
+- முதல் வாதத்தை இலக்கு கோப்பகமாகப் பயன்படுத்தவும் (`xargs ... | cp -t <DEST_DIR>`):
+
+`cp -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நகல்/அடைவிற்குப்/பாதை</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு_அல்லது_அடைவு1 பாதை/டு/கோப்பு_அல்லது_அடைவு2 ...</span>

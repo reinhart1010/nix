@@ -2,7 +2,8 @@
 layout: page
 title: linux/fdisk (தமிழ்)
 description: "பகிர்வு அட்டவணைகள் மற்றும் பகிர்வுகளை ஹார்ட் டிஸ்கில் நிர்வகிப்பதற்கான ஒரு நிரல்."
-content_hash: 60176e8692d5505f77a6b06be199281c2b9faddb
+content_hash: b01136d0066098ebc403eb08dda1b56e94df4e19
+last_modified_at: 2023-06-02
 related_topics:
   - title: English version
     url: /en/linux/fdisk.html
@@ -11,10 +12,7 @@ related_topics:
     url: /pt_BR/linux/fdisk.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># fdisk
+# fdisk
 
 பகிர்வு அட்டவணைகள் மற்றும் பகிர்வுகளை ஹார்ட் டிஸ்கில் நிர்வகிப்பதற்கான ஒரு நிரல்.
 மேலும் பார்க்கவும்: `partprobe`.
@@ -48,6 +46,6 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 `q`
 
-- ஒரு வட்டை பகிர்ந்தவுடன், உதவி மெனுவைத் திறக்கவும்:
+- ஒரு வட்டை பகிர்ந்தவுடன், உதவி பட்டியலைத் திறக்கவும்:
 
 `m`
