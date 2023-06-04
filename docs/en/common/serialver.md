@@ -2,14 +2,14 @@
 layout: page
 title: common/serialver (English)
 description: "Returns the serialVersionUID of classes."
-content_hash: 1f34e0a771e9fe36394543929c5929646867ef8a
-last_modified_at: 2022-12-04
+content_hash: ad89f9930de0619af2f97a4ef5e723fbba1f44f6
+last_modified_at: 2023-06-04
 ---
 # serialver
 
 Returns the serialVersionUID of classes.
 It does not set a security manager by default.
-More information: <https://docs.oracle.com/en/java/javase/19/docs/specs/man/serialver.html>.
+More information: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/serialver.html>.
 
 - Display the serialVersionUID of a class:
 

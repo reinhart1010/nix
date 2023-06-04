@@ -2,16 +2,26 @@
 layout: page
 title: common/jmap (中文)
 description: "Java 内存映射工具。"
-content_hash: f4c0dea2bb8c96054e9412cda9ccead83f1e16bb
+content_hash: 6ae4132a5d2714ac7b79d549541ced5dc1b756b5
+last_modified_at: 2023-06-04
 related_topics:
   - title: English version
     url: /en/common/jmap.html
     icon: bi bi-globe
 ---
-# jmap
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/jmap.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># jmap
 
 Java 内存映射工具。
-更多信息：<https://docs.oracle.com/javase/7/docs/technotes/tools/share/jmap.html>.
+更多信息：<https://docs.oracle.com/en/java/javase/20/docs/specs/man/jmap.html>.
 
 - 打印 Java 进程的共享对象映射（类似 pmap 的输出）：
 

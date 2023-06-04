@@ -2,7 +2,8 @@
 layout: page
 title: linux/pkgrm (español)
 description: "Elimina un paquete de un sistema CRUX."
-content_hash: 660509500656f6f506b7e63bb80041255d77beb5
+content_hash: 81e032a7306d352f34b4e86c24f20be7eff4d33b
+last_modified_at: 2023-06-04
 related_topics:
   - title: català version
     url: /ca/linux/pkgrm.html
@@ -14,7 +15,7 @@ related_topics:
 # pkgrm
 
 Elimina un paquete de un sistema CRUX.
-Más información: <https://docs.oracle.com/cd/E86824_01/html/E54764/pkgrm-1m.html>.
+Más información: <https://docs.oracle.com/cd/E88353_01/html/E72487/pkgrm-8.html>.
 
 - Elimina un paquete instalado:
 

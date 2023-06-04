@@ -2,7 +2,8 @@
 layout: page
 title: common/jarsigner (中文)
 description: "签名并验证 Java 存档（JAR）文件。"
-content_hash: b84eb92197531866ed44a2cd05eef919a6f2aba2
+content_hash: e1c412d01b94428ef413d2f40c80c714166ad66a
+last_modified_at: 2023-06-04
 related_topics:
   - title: English version
     url: /en/common/jarsigner.html
@@ -11,7 +12,7 @@ related_topics:
 # jarsigner
 
 签名并验证 Java 存档（JAR）文件。
-更多信息：<https://docs.oracle.com/javase/9/tools/jarsigner.htm>.
+更多信息：<https://docs.oracle.com/en/java/javase/20/docs/specs/man/jarsigner.html>.
 
 - 签名一个 `JAR` 文件：
 

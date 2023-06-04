@@ -2,12 +2,13 @@
 layout: page
 title: linux/pkgmk (English)
 description: "Make a binary package for use with pkgadd on CRUX."
-content_hash: dc4ce45b6a8fe5680491ab256f0765969b0bd727
+content_hash: fde01d7f2db54cc95d9daf14ea93cd7ef2c5fa64
+last_modified_at: 2023-06-04
 ---
 # pkgmk
 
 Make a binary package for use with pkgadd on CRUX.
-More information: <https://docs.oracle.com/cd/E19683-01/816-0210/6m6nb7mha/index.html>.
+More information: <https://docs.oracle.com/cd/E88353_01/html/E37839/pkgmk-1.html>.
 
 - Make and download a package:
 

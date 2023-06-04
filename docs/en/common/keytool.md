@@ -2,16 +2,13 @@
 layout: page
 title: common/keytool (English)
 description: "Keytool is a certificate management utility included with Java."
-content_hash: 32e5bc21f55835ffef77ed827731ac70b0ed9d46
-last_modified_at: 2023-02-21
+content_hash: 699a196de61b274f344eb5a39a4b989811823528
+last_modified_at: 2023-06-04
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># keytool
+# keytool
 
 Keytool is a certificate management utility included with Java.
-More information: <https://docs.oracle.com/en/java/javase/19/docs/specs/man/keytool.html>.
+More information: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/keytool.html>.
 
 - Create a keystore:
 

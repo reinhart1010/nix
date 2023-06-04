@@ -2,7 +2,8 @@
 layout: page
 title: common/javac (தமிழ்)
 description: "ஜாவா பயன்பாட்டு தொகுப்பாளர்."
-content_hash: e8dc8a0b2ba829ff953b24d02313cf49ea700337
+content_hash: 8059366a9c5519a7309970a5ad79dd0b5b08ad0a
+last_modified_at: 2023-06-04
 related_topics:
   - title: English version
     url: /en/common/javac.html
@@ -17,7 +18,7 @@ related_topics:
 # javac
 
 ஜாவா பயன்பாட்டு தொகுப்பாளர்.
-மேலும் விவரத்திற்கு: <https://docs.oracle.com/en/java/javase/19/docs/specs/man/javac.html>.
+மேலும் விவரத்திற்கு: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/javac.html>.
 
 - ஒரு `.java` கோப்பை தொகுக்கவும்:
 

@@ -2,7 +2,8 @@
 layout: page
 title: common/jps (English)
 description: "Show JVM process status of current user."
-content_hash: f83d05bd98f3f790a6def5bdbd40f9705ba2a201
+content_hash: f8abcdf4b3e3e31f5c4b2c9843cd7e867c23799c
+last_modified_at: 2023-06-04
 related_topics:
   - title: 中文 version
     url: /zh/common/jps.html
@@ -11,7 +12,7 @@ related_topics:
 # jps
 
 Show JVM process status of current user.
-More information: <https://docs.oracle.com/en/java/javase/11/tools/jps.html>.
+More information: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/jps.html>.
 
 - List all JVM processes:
 

@@ -2,7 +2,8 @@
 layout: page
 title: common/java (Indonesia)
 description: "Peluncur Aplikasi Java."
-content_hash: da7e165ace18198571d7ba6963a06a6c4dad21db
+content_hash: e1ceaf0b82f1cdf82a6ce9df82a46a3cbb14b8bd
+last_modified_at: 2023-06-04
 related_topics:
   - title: English version
     url: /en/common/java.html
@@ -23,7 +24,7 @@ related_topics:
 # java
 
 Peluncur Aplikasi Java.
-Informasi lebih lanjut: <https://docs.oracle.com/en/java/javase/19/docs/specs/man/java.html>.
+Informasi lebih lanjut: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/java.html>.
 
 - Jalankan berkas java `.class` yang mengandung method main dengan hanya menggunakan nama class:
 
