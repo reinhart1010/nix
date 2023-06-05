@@ -2,8 +2,12 @@
 layout: page
 title: common/ls (italiano)
 description: "Elenca i contenuti di una directory."
-content_hash: e8f5f4207f22fa7f1bba73390fc5b089c22e6b2f
+content_hash: 171791524b0c48a9d9b9f9ab9ee88ba4faaf4692
+last_modified_at: 2023-06-05
 related_topics:
+  - title: català version
+    url: /ca/common/ls.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/ls.html
     icon: bi bi-globe
@@ -31,6 +35,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/ls.html
     icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/ls.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/ls.html
     icon: bi bi-globe
@@ -39,6 +46,12 @@ related_topics:
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/ls.html
+    icon: bi bi-globe
+  - title: ไทย version
+    url: /th/common/ls.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/ls.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/ls.html
@@ -66,11 +79,15 @@ Maggiori informazioni: <https://www.gnu.org/software/coreutils/ls>.
 
 `ls -a`
 
-- Elenca tutti i file e mostra informazioni (permessi, dimensione e data di ultima modifica):
+- Elenca tutti i file, aggiungendo `/` in coda ai nomi delle directory:
+
+`ls -F`
+
+- Elenca tutti i file e mostra informazioni (permessi, proprietà, dimensione e data di ultima modifica):
 
 `ls -la`
 
-- Elenca tutti i file e mostra informazioni usando un formato facilmente leggibile (KiB, MiB, GiB):
+- Elenca tutti i file e mostra informazioni con la dimensione esposta usando un formato facilmente leggibile (KiB, MiB, GiB):
 
 `ls -lh`
 
@@ -78,6 +95,10 @@ Maggiori informazioni: <https://www.gnu.org/software/coreutils/ls>.
 
 `ls -lS`
 
-- Elenca tutti i file e mostra informazioni, ordinandoli per ultima modifica:
+- Elenca tutti i file e mostra informazioni, ordinandoli per data di ultima modifica (i più vecchi prima):
 
 `ls -ltr`
+
+- Elenca solo le directory:
+
+`ls -d */`
