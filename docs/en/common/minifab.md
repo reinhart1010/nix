@@ -2,7 +2,8 @@
 layout: page
 title: common/minifab (English)
 description: "Utility tool that automates the setup and deployment of Hyperledger Fabric networks."
-content_hash: bb661115e333ced1a4413ef20e579169355bbb7e
+content_hash: 5339efc0e302cd5b5dca93ede3787e92fa770bc6
+last_modified_at: 2023-06-05
 related_topics:
   - title: italiano version
     url: /it/common/minifab.html
@@ -43,4 +44,4 @@ More information: <https://github.com/hyperledger-labs/minifabric>.
 
 - Quickly run an application:
 
-`minifab apprun -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_programming_langauge</span>
+`minifab apprun -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_programming_language</span>

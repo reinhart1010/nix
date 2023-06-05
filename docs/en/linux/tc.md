@@ -2,12 +2,10 @@
 layout: page
 title: linux/tc (English)
 description: "Show / manipulate traffic control settings."
-content_hash: c3d6a586754844236faffb240448f324f54c0ea7
+content_hash: 9bc0b4caed4899950a9f740a46b0e339b7ecd5f0
+last_modified_at: 2023-06-05
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># tc
+# tc
 
 Show / manipulate traffic control settings.
 More information: <https://manned.org/tc>.
@@ -26,7 +24,7 @@ More information: <https://manned.org/tc>.
 
 - Limit bandwidth, burst rate and max latency:
 
-`tc qdisc add dev eth0 root tbf rate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">max_bandwith_mb</span>`mbit burst `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">max_burst_rate_kb</span>`kbit latency `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">max_latency_before_drop_ms</span>`ms`
+`tc qdisc add dev eth0 root tbf rate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">max_bandwidth_mb</span>`mbit burst `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">max_burst_rate_kb</span>`kbit latency `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">max_latency_before_drop_ms</span>`ms`
 
 - Show active traffic control policies:
 
