@@ -2,8 +2,12 @@
 layout: page
 title: common/git-config (中文)
 description: "管理 Git 仓库的自定义设置项。"
-content_hash: e8a902db90cd5c0da0fa4b50d0a08712c1cb36be
+content_hash: 935913eb61c3387e6c9cc2c9746201280b3df1da
+last_modified_at: 2023-06-06
 related_topics:
+  - title: Deutsch version
+    url: /de/common/git-config.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/git-config.html
     icon: bi bi-globe
@@ -16,6 +20,12 @@ related_topics:
   - title: italiano version
     url: /it/common/git-config.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-config.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git-config.html
+    icon: bi bi-globe
 ---
 # git config
 
@@ -27,13 +37,13 @@ related_topics:
 
 `git config --list --local`
 
-- 列出全局配置项（存储在 `~/.gitconfig`)：
+- 列出全局配置项（存储在 `~/.gitconfig`）：
 
 `git config --list --global`
 
-- 列出所有被修改过的配置项，包含局部的以及全局的：
+- 列出系统配置项（存储在 `/etc/gitconfig`），并且展示文件的位置：
 
-`git config --list`
+`git config --list --system --show-origin`
 
 - 获取某个配置项的值：
 
