@@ -2,7 +2,8 @@
 layout: page
 title: common/git-commit (English)
 description: "Commit files to the repository."
-content_hash: 0cc4f342805b8d18ba74083c462348c846c4a0dc
+content_hash: 8fdd86a74309fc2607f0841f908814332e071c98
+last_modified_at: 2023-06-06
 related_topics:
   - title: Deutsch version
     url: /de/common/git-commit.html
@@ -19,8 +20,14 @@ related_topics:
   - title: italiano version
     url: /it/common/git-commit.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/git-commit.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-commit.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-commit.html
     icon: bi bi-globe
   - title: українська version
     url: /uk/common/git-commit.html
@@ -33,19 +40,19 @@ More information: <https://git-scm.com/docs/git-commit>.
 
 - Commit staged files to the repository with a message:
 
-`git commit -m "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span>`"`
+`git commit --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span>`"`
 
 - Commit staged files with a message read from a file:
 
 `git commit --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/commit_message_file</span>
 
-- Auto stage all modified files and commit with a message:
+- Auto stage all modified and deleted files and commit with a message:
 
-`git commit -a -m "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span>`"`
+`git commit --all --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span>`"`
 
-- Commit staged files and [S]ign them with the GPG key defined in `~/.gitconfig`:
+- Commit staged files and sign them with the specified GPG key (or the one defined in the config file if no argument is specified):
 
-`git commit -S -m "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span>`"`
+`git commit --gpg-sign `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_id</span>` --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span>`"`
 
 - Update the last commit by adding the currently staged changes, changing the commit's hash:
 
@@ -57,4 +64,4 @@ More information: <https://git-scm.com/docs/git-commit>.
 
 - Create a commit, even if there are no staged files:
 
-`git commit -m "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span>`" --allow-empty`
+`git commit --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span>`" --allow-empty`
