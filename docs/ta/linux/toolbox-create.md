@@ -2,16 +2,14 @@
 layout: page
 title: linux/toolbox-create (தமிழ்)
 description: "புதிய `toolbox` கொள்கலனை உருவாக்கவும்."
-content_hash: b3a48568182722fec65ab7b42847343921eee389
+content_hash: acbd8b447db2e65c9da6bbf3d829c10b36b703a3
+last_modified_at: 2023-06-08
 related_topics:
   - title: English version
     url: /en/linux/toolbox-create.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># toolbox create
+# toolbox create
 
 புதிய `toolbox` கொள்கலனை உருவாக்கவும்.
 மேலும் விவரத்திற்கு: <https://manned.org/toolbox-create.1>.
@@ -30,8 +28,8 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 - தனிப்பயன் ஃபெடோரா படத்திலிருந்து `toolbox` கொள்கலனை உருவாக்கவும்:
 
-`toolbox create --image `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">registry.fedoraproject.org/fedora-toolbox:36</span>
+`toolbox create --image `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">registry.fedoraproject.org/fedora-toolbox:38</span>
 
 - ஃபெடோரா 36க்கான இயல்புநிலை படத்தைப் பயன்படுத்தி `toolbox` கொள்கலனை உருவாக்கவும்:
 
-`toolbox create --distro `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fedora</span>` --release `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">f36</span>
+`toolbox create --distro `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fedora</span>` --release `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">f38</span>

@@ -2,12 +2,14 @@
 layout: page
 title: linux/toolbox-run (English)
 description: "Run a command in an existing `toolbox` container."
-content_hash: 4c9b6b1bc8d5956ebfd353b60d0135271cf98d1f
+content_hash: 46a274a8155b31ad71ad6469d6750ddc8f9723c8
+last_modified_at: 2023-06-08
+related_topics:
+  - title: தமிழ் version
+    url: /ta/linux/toolbox-run.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># toolbox run
+# toolbox run
 
 Run a command in an existing `toolbox` container.
 See also: `toolbox enter`.
@@ -21,6 +23,6 @@ More information: <https://manned.org/toolbox-run>.
 
 `toolbox run --distro `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">distribution</span>` --release `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">release</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
-- Run `emacs` inside a `toolbox` container using the default image for Fedora 36:
+- Run `emacs` inside a `toolbox` container using the default image for Fedora 38:
 
-`toolbox run --distro `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fedora</span>` --release `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">f36</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">emacs</span>
+`toolbox run --distro `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fedora</span>` --release `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">f38</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">emacs</span>

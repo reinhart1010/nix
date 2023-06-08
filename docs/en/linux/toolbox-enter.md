@@ -2,12 +2,14 @@
 layout: page
 title: linux/toolbox-enter (English)
 description: "Enter a `toolbox` container for interactive use."
-content_hash: d31f09eeab73bb2000f4841f40d00c397fe38913
+content_hash: 8921a34caf665ae4f4c47379636bd9a28b3da57a
+last_modified_at: 2023-06-08
+related_topics:
+  - title: தமிழ் version
+    url: /ta/linux/toolbox-enter.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># toolbox enter
+# toolbox enter
 
 Enter a `toolbox` container for interactive use.
 See also: `toolbox run`.
@@ -21,6 +23,6 @@ More information: <https://manned.org/toolbox-enter.1>.
 
 `toolbox enter --release `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">release</span>
 
-- Enter a toolbox container using the default image for Fedora 36:
+- Enter a toolbox container using the default image for Fedora 38:
 
-`toolbox enter --distro `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fedora</span>` --release `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">f36</span>
+`toolbox enter --distro `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fedora</span>` --release `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">f38</span>

@@ -2,13 +2,17 @@
 layout: page
 title: windows/winget (English)
 description: "Windows Package Manager CLI."
-content_hash: 6295d0b1841097e41d00697ed60a040d60435f3f
+content_hash: 49948dd0abbe8f1bc0a265ea30249452c5c383fe
+last_modified_at: 2023-06-08
 related_topics:
   - title: Deutsch version
     url: /de/windows/winget.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/windows/winget.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/winget.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/winget.html
@@ -26,6 +30,10 @@ More information: <https://learn.microsoft.com/windows/package-manager/winget>.
 
 `winget install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
+- Remove a package (Note: `remove` can also be used instead of `uninstall`):
+
+`winget uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
+
 - Display information about a package:
 
 `winget show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
@@ -34,10 +42,18 @@ More information: <https://learn.microsoft.com/windows/package-manager/winget>.
 
 `winget search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
-- Upgrade all packages to latest versions:
+- Upgrade all packages to the latest versions:
 
 `winget upgrade --all`
 
-- List all packages installed that can be managed with winget:
+- List all packages installed that can be managed with `winget`:
 
 `winget list --source winget`
+
+- Import packages from a file, or export installed packages to a file:
+
+`winget `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">import|export</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--import-file|--output</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+
+- Validate manifests before submitting a PR to the winget-pkgs repository:
+
+`winget validate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/manifest</span>

@@ -2,16 +2,14 @@
 layout: page
 title: linux/gnome-extensions (தமிழ்)
 description: "டெர்மினலில் இருந்து க்னோம் நீட்டிப்புகளை நிர்வகிக்கவும்."
-content_hash: 02d6c115f2e2b0ba1c0f89d91f4287d119fa2db6
+content_hash: 00c6a1f97c267b10becf45efab4662fd715917b1
+last_modified_at: 2023-06-08
 related_topics:
   - title: English version
     url: /en/linux/gnome-extensions.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gnome-extensions
+# gnome-extensions
 
 டெர்மினலில் இருந்து க்னோம் நீட்டிப்புகளை நிர்வகிக்கவும்.
 மேலும் விவரத்திற்கு: <https://wiki.gnome.org/Projects/GnomeShell/Extensions>.
@@ -30,7 +28,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 - துணைக் கட்டளைக்கான உதவியைக் காண்பி (`பட்டியல்` போன்றவை):
 
-`gnome-extensions help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">துணைகட்டளை</span>
+`gnome-extensions help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">துணை_கட்டளை</span>
 
 - ஒரு குறிப்பிட்ட நீட்டிப்பை இயக்கு:
 

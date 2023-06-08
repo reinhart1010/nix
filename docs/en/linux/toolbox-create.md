@@ -2,12 +2,14 @@
 layout: page
 title: linux/toolbox-create (English)
 description: "Create a new `toolbox` container."
-content_hash: 0057cd964bd524345074ed622ec4bdb260ecb30d
+content_hash: 799858215772e3933b94f6719d625dd8ac6ec88b
+last_modified_at: 2023-06-08
+related_topics:
+  - title: தமிழ் version
+    url: /ta/linux/toolbox-create.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># toolbox create
+# toolbox create
 
 Create a new `toolbox` container.
 More information: <https://manned.org/toolbox-create.1>.
@@ -26,8 +28,8 @@ More information: <https://manned.org/toolbox-create.1>.
 
 - Create a `toolbox` container from a custom Fedora image:
 
-`toolbox create --image `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">registry.fedoraproject.org/fedora-toolbox:36</span>
+`toolbox create --image `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">registry.fedoraproject.org/fedora-toolbox:38</span>
 
-- Create a `toolbox` container using the default image for Fedora 36:
+- Create a `toolbox` container using the default image for Fedora 38:
 
-`toolbox create --distro `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fedora</span>` --release `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">f36</span>
+`toolbox create --distro `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fedora</span>` --release `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">f38</span>
