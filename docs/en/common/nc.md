@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/nc (English)
-description: "Netcat is a versatile utility for working with TCP or UDP data."
-content_hash: 430ae5da9fe1a8fd41a3a42f05f32cd864a0d28e
-last_modified_at: 2023-04-12
+description: "A versatile utility for working with TCP or UDP data."
+content_hash: c49a5cba0e8c676f65c19ab189ff865bc3f8245c
+last_modified_at: 2023-06-10
 related_topics:
   - title: español version
     url: /es/common/nc.html
@@ -14,7 +14,7 @@ related_topics:
 ---
 # nc
 
-Netcat is a versatile utility for working with TCP or UDP data.
+A versatile utility for working with TCP or UDP data.
 More information: <https://manned.org/man/nc.1>.
 
 - Establish a TCP connection:
@@ -41,10 +41,10 @@ More information: <https://manned.org/man/nc.1>.
 
 `nc -u -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span>
 
-- Act as proxy and forward data from a local TCP port to the given remote host:
+- Act as a proxy and forward data from a local TCP port to the given remote host:
 
 `nc -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local_port</span>` | nc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_port</span>
 
-- Send a HTTP request:
+- Send an HTTP GET request:
 
 `echo -e "GET / HTTP/1.1\nHost: `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span>`\n\n" | nc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span>` 80`
