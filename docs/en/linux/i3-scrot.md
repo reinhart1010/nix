@@ -2,7 +2,8 @@
 layout: page
 title: linux/i3-scrot (English)
 description: "Wrapper script around the screenshot utility `scrot` for the i3 window manager."
-content_hash: a64ec5df15b468f027376c2d2bc6180f84e5be9d
+content_hash: bbff403c54ec903312cb11ab61a29991e9284e10
+last_modified_at: 2023-06-12
 ---
 # i3-scrot
 
@@ -32,7 +33,7 @@ More information: <https://gitlab.manjaro.org/packages/community/i3/i3-scrot>.
 
 - Capture a screenshot of a specific selection and copy it to the clipboard:
 
-`i3-scrot --select-to-clibpoard`
+`i3-scrot --select-to-clipboard`
 
 - Capture a screenshot of the active window after a delay of 5 seconds:
 

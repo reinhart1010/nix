@@ -2,8 +2,8 @@
 layout: page
 title: common/vale (English)
 description: "Extensible style checker that supports multiple markup formats, such as Markdown and AsciiDoc."
-content_hash: 0be693145d7c8b88cc2bdaca320203af948dbc60
-last_modified_at: 2022-12-04
+content_hash: 12f37fc7e7bec61bceee7ab52f0ba7e0b1804384
+last_modified_at: 2023-06-12
 ---
 # vale
 
@@ -24,7 +24,7 @@ More information: <https://vale.sh>.
 
 - Check style issues at the specific severity and higher:
 
-`vale --minAlertLeve=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">suggestion|warning|error</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`vale --minAlertLevel=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">suggestion|warning|error</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Check the style from `stdin`, specifying markup format:
 

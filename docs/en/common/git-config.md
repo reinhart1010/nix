@@ -2,8 +2,12 @@
 layout: page
 title: common/git-config (English)
 description: "Manage custom configuration options for Git repositories."
-content_hash: a932c749567ecc4752267438e14357247e386a6e
+content_hash: 13fb8b1d3cbfa8a161706fb91e53312ca77995f5
+last_modified_at: 2023-06-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/git-config.html
+    icon: bi bi-globe
   - title: español version
     url: /es/common/git-config.html
     icon: bi bi-globe
@@ -15,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-config.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git-config.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/git-config.html
@@ -30,7 +37,7 @@ More information: <https://git-scm.com/docs/git-config>.
 
 `git config --list --local`
 
-- List only global configuration entries (stored in `~/.gitconfig`):
+- List only global configuration entries (stored in `~/.gitconfig` by default or in `$XDG_CONFIG_HOME/git/config` if such a file exists):
 
 `git config --list --global`
 
