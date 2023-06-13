@@ -1,13 +1,13 @@
 ---
 layout: page
 title: linux/tc (English)
-description: "Show / manipulate traffic control settings."
-content_hash: 9bc0b4caed4899950a9f740a46b0e339b7ecd5f0
-last_modified_at: 2023-06-05
+description: "Show/manipulate traffic control settings."
+content_hash: c1098fcd13f356d4b3bafe05017b13462d368fa3
+last_modified_at: 2023-06-13
 ---
 # tc
 
-Show / manipulate traffic control settings.
+Show/manipulate traffic control settings.
 More information: <https://manned.org/tc>.
 
 - Add constant network delay to outbound packages:

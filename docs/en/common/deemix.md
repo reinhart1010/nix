@@ -2,7 +2,8 @@
 layout: page
 title: common/deemix (English)
 description: "A barebone deezer downloader library built from the ashes of Deezloader Remix."
-content_hash: 14056c8998d015fec0365326ea51216429b90f63
+content_hash: 668e6e6ffd4f2b683706c4e385359b1112e081c6
+last_modified_at: 2023-06-13
 ---
 # deemix
 
@@ -14,7 +15,7 @@ More information: <https://deemix.app>.
 
 `deemix `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.deezer.com/us/track/00000000</span>
 
-- Download track / playlist at a specific bitrate:
+- Download track/playlist at a specific bitrate:
 
 `deemix --bitrate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">FLAC|MP3</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 

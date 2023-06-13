@@ -2,7 +2,8 @@
 layout: page
 title: linux/whiptail (English)
 description: "Display text-based dialog boxes from shell scripts."
-content_hash: 37658e6edc3ef704ce6f266a8a13f8fb7b77a684
+content_hash: 0eb0c6bfda6cb10fe66bd66cd5244004c9b1c98a
+last_modified_at: 2023-06-13
 ---
 # whiptail
 
@@ -17,7 +18,7 @@ More information: <https://manned.org/whiptail>.
 
 `whiptail --title "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">title</span>`" --yesno "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">height_in_chars</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">width_in_chars</span>
 
-- Customise the text on the yes / no buttons:
+- Customise the text on the yes/no buttons:
 
 `whiptail --title "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">title</span>`" --yes-button "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">text</span>`" --no-button "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">text</span>`" --yesno "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">height_in_chars</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">width_in_chars</span>
 

@@ -2,7 +2,8 @@
 layout: page
 title: common/clj (English)
 description: "Clojure tool to start a REPL or invoke a specific function with data."
-content_hash: 1a24e73aaed9c4c5f090b96dc2dc60406d61099c
+content_hash: 111ff95f4ad6611b96d20401040ec8bcccd0056e
+last_modified_at: 2023-06-13
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/clj.html
@@ -26,14 +27,14 @@ More information: <https://clojure.org/guides/deps_and_cli>.
 
 `clj -M -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">args</span>
 
-- Prepare a project by resolving dependencies, downloading libraries, and making / caching classpaths:
+- Prepare a project by resolving dependencies, downloading libraries, and making/caching classpaths:
 
 `clj -P`
 
 - Start an nREPL server with the CIDER middleware:
 
-`clj -Sdeps '{:deps {nrepl {:mvn/version "0.7.0"} cider/cider-nrepl {:mvn/version "0.25.2"</span>`}' -m nrepl.cmdline --middleware '["cider.nrepl/cider-middleware"]' --interactive`
+`clj -Sdeps '{:deps {nrepl {:mvn/version "0.7.0"} cider/cider-nrepl {:mvn/version "0.25.2"}</span>`' -m nrepl.cmdline --middleware '["cider.nrepl/cider-middleware"]' --interactive`
 
 - Start a REPL for ClojureScript and open a web browser:
 
-`clj -Sdeps '{:deps {org.clojure/clojurescript {:mvn/version "1.10.758"</span>`}' --main cljs.main --repl`
+`clj -Sdeps '{:deps {org.clojure/clojurescript {:mvn/version "1.10.758"}</span>`' --main cljs.main --repl`

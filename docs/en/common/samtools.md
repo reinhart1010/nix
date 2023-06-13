@@ -2,8 +2,8 @@
 layout: page
 title: common/samtools (English)
 description: "Tools for handling high-throughput sequencing (genomics) data."
-content_hash: e24589afc8217dfbbcea5c3c6ee630f2c1903bb8
-last_modified_at: 2022-12-04
+content_hash: dd06a59c4375b001935ac665848ed74b7e025c2e
+last_modified_at: 2023-06-13
 ---
 # samtools
 
@@ -31,7 +31,7 @@ More information: <https://www.htslib.org>.
 
 `samtools flagstat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sorted_input</span>
 
-- Count alignments to each index (chromosome / contig):
+- Count alignments to each index (chromosome/contig):
 
 `samtools idxstats `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sorted_indexed_input</span>
 

@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/swig (English)
-description: "Generate bindings between C / C++ code and various high level languages such as JavaScript, Python, C#, and more."
-content_hash: 9fd34a458274f8f8724b3d495e2f11ead3f618c3
+description: "Generate bindings between C/C++ code and various high level languages such as JavaScript, Python, C#, and more."
+content_hash: bc7350ca505ae72805e7d3517c143e30d7e933b8
+last_modified_at: 2023-06-13
 ---
 # swig
 
-Generate bindings between C / C++ code and various high level languages such as JavaScript, Python, C#, and more.
+Generate bindings between C/C++ code and various high level languages such as JavaScript, Python, C#, and more.
 It uses special .i or .swg files to generate the bindings (C/C++ with SWIG directives, then outputs a C/C++ file that contains all the wrapper code needed to build an extension module.
 More information: <http://www.swig.org>.
 

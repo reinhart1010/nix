@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/nmap (English)
-description: "Network exploration tool and security / port scanner."
-content_hash: 44d5187bba6631bc4c9578b7148173bcc01ba9e7
+description: "Network exploration tool and security/port scanner."
+content_hash: d566a31031d6a99bc66cccc0f5de28538f79fde5
+last_modified_at: 2023-06-13
 related_topics:
   - title: español version
     url: /es/common/nmap.html
@@ -10,13 +11,16 @@ related_topics:
   - title: italiano version
     url: /it/common/nmap.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/nmap.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/nmap.html
     icon: bi bi-globe
 ---
 # nmap
 
-Network exploration tool and security / port scanner.
+Network exploration tool and security/port scanner.
 Some features only activate when Nmap is run with root privileges.
 More information: <https://nmap.org>.
 

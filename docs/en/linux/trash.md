@@ -1,8 +1,9 @@
 ---
 layout: page
 title: linux/trash (English)
-description: "A CLI for managing the trashcan / recycling bin."
-content_hash: 9291aaaf4f2b557e3704de2d11475d3b31f864dc
+description: "A CLI for managing the trashcan/recycling bin."
+content_hash: c21df55f8b293ee9956bb5e665d91ac13aa723d8
+last_modified_at: 2023-06-13
 related_topics:
   - title: Türkçe version
     url: /tr/linux/trash.html
@@ -10,7 +11,7 @@ related_topics:
 ---
 # trash
 
-A CLI for managing the trashcan / recycling bin.
+A CLI for managing the trashcan/recycling bin.
 More information: <https://github.com/andreafrancia/trash-cli>.
 
 - Delete a file and send it to the trash:

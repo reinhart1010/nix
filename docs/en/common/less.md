@@ -2,7 +2,8 @@
 layout: page
 title: common/less (English)
 description: "Open a file for interactive reading, allowing scrolling and search."
-content_hash: c14bb37bb6b5efb4bd0acb17be9820bc9ae02653
+content_hash: d4ebe6339264b7499b65bae94f7be181c0313fc4
+last_modified_at: 2023-06-13
 related_topics:
   - title: Deutsch version
     url: /de/common/less.html
@@ -23,11 +24,11 @@ More information: <https://greenwoodsoftware.com/less/>.
 
 `less `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_file</span>
 
-- Page down / up:
+- Page down/up:
 
 `<Space> (down), b (up)`
 
-- Go to end / start of file:
+- Go to end/start of file:
 
 `G (end), g (start)`
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/ern (English)
 description: "Electrode Native platform command-line client."
-content_hash: 721b29f8f607fce99cfdefc5b44da56f3e36e01f
-last_modified_at: 2023-05-31
+content_hash: a8f59dfe5b51d054bff1b595f42d112869529506
+last_modified_at: 2023-06-13
 ---
 # ern
 
@@ -14,7 +14,7 @@ More information: <https://native.electrode.io/reference/index-6>.
 
 `ern create-miniapp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application_name</span>
 
-- Run one or more `MiniApps` in the iOS / Android Runner application:
+- Run one or more `MiniApps` in the iOS/Android Runner application:
 
 `ern run-`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ios|android</span>
 

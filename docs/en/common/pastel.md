@@ -2,7 +2,8 @@
 layout: page
 title: common/pastel (English)
 description: "Generate, analyze, convert and manipulate colors."
-content_hash: 7a02233eb8e29ab6097d3217ff76ad0804d1dc69
+content_hash: 56ad78fb168ce0dfc86673a9ab916d57613ba471
+last_modified_at: 2023-06-13
 ---
 # pastel
 
@@ -25,6 +26,6 @@ More information: <https://github.com/sharkdp/pastel>.
 
 `pastel distinct `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8</span>
 
-- Get a list of all X11 / CSS color names:
+- Get a list of all X11/CSS color names:
 
 `pastel list`

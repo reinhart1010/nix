@@ -1,8 +1,9 @@
 ---
 layout: page
 title: linux/ip (English)
-description: "Show / manipulate routing, devices, policy routing and tunnels."
-content_hash: 24d8dea59f3326e1437eaad120f96fdc24cc7630
+description: "Show/manipulate routing, devices, policy routing and tunnels."
+content_hash: d44055b4e13c8836f7528e6ff7fcd140874f93d0
+last_modified_at: 2023-06-13
 related_topics:
   - title: Deutsch version
     url: /de/linux/ip.html
@@ -10,10 +11,16 @@ related_topics:
   - title: français version
     url: /fr/linux/ip.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/ip.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/linux/ip.html
+    icon: bi bi-globe
 ---
 # ip
 
-Show / manipulate routing, devices, policy routing and tunnels.
+Show/manipulate routing, devices, policy routing and tunnels.
 Some subcommands such as `ip address` have their own usage documentation.
 More information: <https://www.man7.org/linux/man-pages/man8/ip.8.html>.
 

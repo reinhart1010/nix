@@ -2,7 +2,18 @@
 layout: page
 title: common/acme.sh-dns (English)
 description: "Use a DNS-01 challenge to issue a TLS certificate."
-content_hash: b79e0894a4b97f7161bf618bf34b52ee1cfcf4ae
+content_hash: 4d0543dff2a4ef2658fbddcbb95ea2f20c2de741
+last_modified_at: 2023-06-13
+related_topics:
+  - title: español version
+    url: /es/common/acme.sh-dns.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/acme.sh-dns.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/acme.sh-dns.html
+    icon: bi bi-globe
 ---
 # acme.sh --dns
 
@@ -21,7 +32,7 @@ More information: <https://github.com/acmesh-official/acme.sh/wiki>.
 
 `acme.sh --issue --dns `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dns_cf</span>` --domain `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>` --challenge-alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alias-for-example-validation.com</span>
 
-- Issue a certificate while disabling automatic Cloudflare / Google DNS polling after the DNS record is added by specifying a custom wait time in seconds:
+- Issue a certificate while disabling automatic Cloudflare/Google DNS polling after the DNS record is added by specifying a custom wait time in seconds:
 
 `acme.sh --issue --dns `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dns_namecheap</span>` --domain `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>` --dnssleep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">300</span>
 
