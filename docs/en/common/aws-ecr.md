@@ -2,7 +2,15 @@
 layout: page
 title: common/aws-ecr (English)
 description: "Push, pull, and manage container images."
-content_hash: 8231fbc070a0788c7e5c9a8020226e57905170b9
+content_hash: 92c39c6059d6eff5cc719fc39339ff2fe119abe6
+last_modified_at: 2023-06-14
+related_topics:
+  - title: français version
+    url: /fr/common/aws-ecr.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/aws-ecr.html
+    icon: bi bi-globe
 ---
 # aws ecr
 
@@ -31,7 +39,7 @@ More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/refe
 
 - Delete an image from a repository:
 
-`aws ecr batch-delete-image  --repository-name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository</span>` --image-ids imageTag=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">latest</span>
+`aws ecr batch-delete-image --repository-name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository</span>` --image-ids imageTag=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">latest</span>
 
 - Delete a repository:
 

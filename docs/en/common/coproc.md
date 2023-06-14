@@ -2,13 +2,10 @@
 layout: page
 title: common/coproc (English)
 description: "Bash builtin for creating interactive asynchronous subshells."
-content_hash: 83ebfe1942ff6efe721339032d1e3b93616a7942
-last_modified_at: 2022-12-19
+content_hash: ccc73ca791b5fe2cdc380831ff606e05f26f1b44
+last_modified_at: 2023-06-14
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># coproc
+# coproc
 
 Bash builtin for creating interactive asynchronous subshells.
 More information: <https://www.gnu.org/software/bash/manual/bash.html#Coprocesses>.
@@ -31,7 +28,7 @@ More information: <https://www.gnu.org/software/bash/manual/bash.html#Coprocesse
 
 - Create a coprocess which repeatedly reads `stdin` and runs some commands on the input:
 
-`coproc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>` {  while read line; do `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command1; command2; ...</span>`; done }`
+`coproc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>` { while read line; do `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command1; command2; ...</span>`; done }`
 
 - Create and use a coprocess running `bc`:
 

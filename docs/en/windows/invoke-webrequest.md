@@ -2,8 +2,8 @@
 layout: page
 title: windows/invoke-webrequest (English)
 description: "Performs a HTTP/HTTPS request to the Web."
-content_hash: c005ee60a501441e0a9d5c540787ee237d0c5ed5
-last_modified_at: 2023-02-20
+content_hash: c3d24b605eb8a81c7d8d0f09bc9fd2cb02dee081
+last_modified_at: 2023-06-14
 related_topics:
   - title: Indonesia version
     url: /id/windows/invoke-webrequest.html
@@ -29,7 +29,7 @@ More information: <https://learn.microsoft.com/powershell/module/microsoft.power
 
 - Send data in JSON format, specifying the appropriate content-type header:
 
-`Invoke-WebRequest -Body `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'{"name":"bob"}'</span>`  -ContentType 'application/json' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/users/1234</span>
+`Invoke-WebRequest -Body `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'{"name":"bob"}'</span>` -ContentType 'application/json' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/users/1234</span>
 
 - Pass a username and password for server authentication:
 

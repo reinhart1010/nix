@@ -1,16 +1,13 @@
 ---
 layout: page
 title: common/cs-install (English)
-description: "Install an application in the installation directory onfigured when installing `cs`  (to enable the binary to be loaded add to your `.bash_profile` the `$ eval \"$(cs install --env)\"` command)."
-content_hash: 535814eee4603544c6a127e429859baa4aa2b2a4
-last_modified_at: 2023-01-09
+description: "Install an application in the installation directory onfigured when installing `cs` (to enable the binary to be loaded add to your `.bash_profile` the `$ eval \"$(cs install --env)\"` command)."
+content_hash: 83415ab721d53b714f3f2e35ab72570b2b50d6b7
+last_modified_at: 2023-06-14
 ---
+# cs install
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cs install
-
-Install an application in the installation directory onfigured when installing `cs`  (to enable the binary to be loaded add to your `.bash_profile` the `$ eval "$(cs install --env)"` command).
+Install an application in the installation directory onfigured when installing `cs` (to enable the binary to be loaded add to your `.bash_profile` the `$ eval "$(cs install --env)"` command).
 More information: <https://get-coursier.io/docs/cli-install>.
 
 - Install a specific application:

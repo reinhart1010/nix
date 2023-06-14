@@ -2,8 +2,8 @@
 layout: page
 title: common/xml-escape (English)
 description: "Escape special XML characters, e.g. `<a1>` → `&lt;a1&gt;`."
-content_hash: 43a638bc070f3b441432e91fb306315f56745d96
-last_modified_at: 2022-12-04
+content_hash: 20742419b0f721923918522d7445db49de097691
+last_modified_at: 2023-06-14
 ---
 # xml escape
 
@@ -16,7 +16,7 @@ More information: <http://xmlstar.sourceforge.net/doc/xmlstarlet.pdf>.
 
 - Escape special XML characters from `stdin`:
 
-`echo  "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><a1></span>`" | xml escape`
+`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold"><a1></span>`" | xml escape`
 
 - Display help for the `escape` subcommand:
 

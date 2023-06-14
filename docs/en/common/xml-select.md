@@ -2,7 +2,8 @@
 layout: page
 title: common/xml-select (English)
 description: "Select from XML documents using XPATHs."
-content_hash: d744272bfc4bc3295e1eb1bd33b08bfdd46e5a39
+content_hash: d50cf5ca98f56ea52a00959150c3bbbb3669d53e
+last_modified_at: 2023-06-14
 ---
 # xml select
 
@@ -14,7 +15,7 @@ More information: <http://xmlstar.sourceforge.net/docs.php>.
 
 `xml select --template --match "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">XPATH1</span>`" --value-of "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">XPATH2</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.xml|URI</span>
 
-- Match  "XPATH1" and print the value of "XPATH2" as text with new-lines:
+- Match "XPATH1" and print the value of "XPATH2" as text with new-lines:
 
 `xml select --text --template --match "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">XPATH1</span>`" --value-of "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">XPATH2</span>`" --nl `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.xml|URI</span>
 

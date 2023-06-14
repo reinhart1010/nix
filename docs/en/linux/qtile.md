@@ -2,12 +2,10 @@
 layout: page
 title: linux/qtile (English)
 description: "A full-featured, hackable tiling window manager written and configured in Python."
-content_hash: f11d29b56c81fa6b9cbf71a1202459e13d0a1edc
+content_hash: 0aa0019c0ffa6a536c9d24f8e09159e6b6c53aa3
+last_modified_at: 2023-06-14
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># qtile
+# qtile
 
 A full-featured, hackable tiling window manager written and configured in Python.
 More information: <https://docs.qtile.org/en/latest/manual/commands/shell/index.html>.
@@ -16,7 +14,7 @@ More information: <https://docs.qtile.org/en/latest/manual/commands/shell/index.
 
 `qtile start`
 
-- Check the configuration file for any compilation errors (default location is  `~/.config/qtile/config.py`):
+- Check the configuration file for any compilation errors (default location is `~/.config/qtile/config.py`):
 
 `qtile check`
 
