@@ -2,7 +2,8 @@
 layout: page
 title: common/zellij (English)
 description: "Terminal multiplexer with batteries included."
-content_hash: 7ba2a391dd8eeb919ae567632e8989daa34a6379
+content_hash: db6682acfa8cdd9259f99c5858dfbc4e6abe2380
+last_modified_at: 2023-06-16
 ---
 # zellij
 
@@ -28,4 +29,4 @@ More information: <https://zellij.dev/documentation/>.
 
 - Detach from the current session (inside a zellij session):
 
-`Ctrl + N, D`
+`Ctrl + O, D`
