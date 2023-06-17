@@ -2,17 +2,23 @@
 layout: page
 title: common/age (English)
 description: "A simple, modern and secure file encryption tool."
-content_hash: bf9d8f15485cae2c8be2cc4a014a69ee46a5514d
-last_modified_at: 2023-01-24
+content_hash: 4291208da2fb799b065739684c9f8d57237aeecf
+last_modified_at: 2023-06-17
 related_topics:
   - title: Deutsch version
     url: /de/common/age.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/age.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/age.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/age.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/age.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/age.html
@@ -38,7 +44,7 @@ More information: <https://github.com/FiloSottile/age>.
 
 `age --recipient `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">public_key_1</span>` --recipient `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">public_key_2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/unencrypted_file</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/encrypted_file</span>
 
-- Encrypt a file with one or more public keys that are specified in a recipients file:
+- Encrypt a file to one or more recipients with their public keys specified in a file (one per line):
 
 `age --recipients-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/recipients_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/unencrypted_file</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/encrypted_file</span>
 

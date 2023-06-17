@@ -1,12 +1,14 @@
 ---
 layout: page
 title: linux/jobs (English)
-description: "BASH builtin for viewing information about processes spawned by the current shell."
-content_hash: 2152434e0f860d8e2eb7bff988da1ac13fc4d08b
+description: "Shell builtin for viewing information about processes spawned by the current shell."
+content_hash: 8dedb75dddaef5902c9e43b8671c5927f5b32bba
+last_modified_at: 2023-06-17
 ---
 # jobs
 
-BASH builtin for viewing information about processes spawned by the current shell.
+Shell builtin for viewing information about processes spawned by the current shell.
+Options other than `-l` and `-p` are exclusive to `bash`.
 More information: <https://manned.org/jobs>.
 
 - View jobs spawned by the current shell:
@@ -21,7 +23,7 @@ More information: <https://manned.org/jobs>.
 
 `jobs -n`
 
-- Display process ID of process group leader:
+- Display only process IDs:
 
 `jobs -p`
 
