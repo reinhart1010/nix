@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman (français)
 description: "Outil de gestion de paquets sur Arch Linux."
-content_hash: 12ae7b4a23606845f41524e4cfd359bcd6088252
-last_modified_at: 2023-05-26
+content_hash: 1895531e2a3c9437b5211c185600bc3c38f3f1ad
+last_modified_at: 2023-06-20
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -54,9 +54,9 @@ Plus d'informations : <https://man.archlinux.org/man/pacman.8>.
 
 `sudo pacman -Rs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_paquet</span>
 
-- Recherche dans la base de données des paquets une expression régulière ou mot clé :
+- Recherche dans la base de données des paquets contenant un certain fichier :
 
-`pacman -Ss "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">terme_recherche</span>`"`
+`pacman -F "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_fichier</span>`"`
 
 - Liste les paquets installés et leurs versions :
 
