@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman (English)
 description: "Arch Linux package manager utility."
-content_hash: a0a84953186dd542d568df210c862ebab7e3262a
-last_modified_at: 2023-05-26
+content_hash: 8305489cec4a8970240f2e4a46f251c923c2a8a7
+last_modified_at: 2023-06-20
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -55,9 +55,9 @@ More information: <https://man.archlinux.org/man/pacman.8>.
 
 `sudo pacman -Rs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
 
-- Search the package database for a regular expression or keyword:
+- Search the database for packages containing a specific file:
 
-`pacman -Ss "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`"`
+`pacman -F "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_name</span>`"`
 
 - List installed packages and versions:
 
