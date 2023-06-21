@@ -2,13 +2,10 @@
 layout: page
 title: common/mods (English)
 description: "AI for the command line, built for pipelines."
-content_hash: 118a7105d938287ccf0c230da7dc0a87d4d7bd1d
-last_modified_at: 2023-06-20
+content_hash: 097faca18de89f038716000937027901e34066b9
+last_modified_at: 2023-06-21
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mods
+# mods
 
 AI for the command line, built for pipelines.
 More information: <https://github.com/charmbracelet/mods>.
@@ -27,7 +24,7 @@ More information: <https://github.com/charmbracelet/mods>.
 
 - Ask for help with your documentation, in markdown format:
 
-`mods --format "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">write a new section to this readme for a feature that sends you a free rabbit if you hit r</span>` < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">README.md</span>`"`
+`mods --format "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">write a new section to this readme for a feature that sends you a free rabbit if you hit r</span>`" < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">README.md</span>
 
 - Organize your videos, in markdown format:
 
