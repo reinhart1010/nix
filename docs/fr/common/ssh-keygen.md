@@ -2,7 +2,8 @@
 layout: page
 title: common/ssh-keygen (français)
 description: "Génère des clés SSH. Utilisées entre autres pour l'authentification ou la connexion sans utiliser de mot de passe."
-content_hash: f6f43daee07c43c0e2c49a69a2b53f011964c1be
+content_hash: eee430908ff62418c4f1833cef81afe518dd96cf
+last_modified_at: 2023-06-23
 related_topics:
   - title: Deutsch version
     url: /de/common/ssh-keygen.html
@@ -24,13 +25,13 @@ Plus d'informations : <https://man.openbsd.org/ssh-keygen>.
 
 `ssh-keygen -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.ssh/fichier</span>
 
-- Génère une clé ed25519, avec 100 passages de fonction de dérivation de clé:
+- Génère une clé ed25519, avec 32 passages de fonction de dérivation de clé:
 
-`ssh-keygen -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ed25519</span>` -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>
+`ssh-keygen -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ed25519</span>` -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">32</span>
 
 - Génère une clé RSA de 4096 bits, avec l'adresse électronique en commentaire:
 
-`ssh-keygen -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dsa|ecdsa|ed25519|rsa</span>` -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4096</span>` -C "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commentaire|email</span>`"`
+`ssh-keygen -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rsa</span>` -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4096</span>` -C "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commentaire|email</span>`"`
 
 - Retire les clés d'une machine donnée du fichier `known_hosts` des hôtes connus (utile lorsque un hôte déjà enregistré change de clé) :
 

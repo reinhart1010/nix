@@ -2,8 +2,8 @@
 layout: page
 title: common/ssh-keygen (English)
 description: "Generate ssh keys used for authentication, password-less logins, and other things."
-content_hash: 1152b8118ed82589fb120c0b7fc10134c5cfca34
-last_modified_at: 2023-05-18
+content_hash: 102e0161fd6a4a8fdc4da8c0242edc8f38ed8a0c
+last_modified_at: 2023-06-23
 related_topics:
   - title: Deutsch version
     url: /de/common/ssh-keygen.html
@@ -21,13 +21,13 @@ More information: <https://man.openbsd.org/ssh-keygen>.
 
 `ssh-keygen`
 
-- Generate an ed25519 key with 100 key derivation function rounds and save the key to a specific file:
+- Generate an ed25519 key with 32 key derivation function rounds and save the key to a specific file:
 
-`ssh-keygen -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ed25519</span>` -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.ssh/filename</span>
+`ssh-keygen -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ed25519</span>` -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">32</span>` -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.ssh/filename</span>
 
 - Generate an RSA 4096-bit key with email as a comment:
 
-`ssh-keygen -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dsa|ecdsa|ed25519|rsa</span>` -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4096</span>` -C "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comment|email</span>`"`
+`ssh-keygen -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rsa</span>` -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4096</span>` -C "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comment|email</span>`"`
 
 - Remove the keys of a host from the known_hosts file (useful when a known host has a new key):
 
