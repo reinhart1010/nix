@@ -2,8 +2,12 @@
 layout: page
 title: android/logcat (Indonesia)
 description: "Tampilkan dan simpan log sistem."
-content_hash: d2ea8f27ea354cd40a8e982ce162b97c03f6777d
+content_hash: c8b4e0b5261152981e2e6783c28edf0d4f79a203
+last_modified_at: 2023-06-24
 related_topics:
+  - title: বাংলা version
+    url: /bn/android/logcat.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/android/logcat.html
     icon: bi bi-globe
@@ -16,8 +20,20 @@ related_topics:
   - title: français version
     url: /fr/android/logcat.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/android/logcat.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/android/logcat.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/android/logcat.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/android/logcat.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/android/logcat.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/android/logcat.html
@@ -32,7 +48,16 @@ related_topics:
     url: /zh_TW/android/logcat.html
     icon: bi bi-globe
 ---
-# logcat
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/android/logcat.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># logcat
 
 Tampilkan dan simpan log sistem.
 Informasi lebih lanjut: <https://developer.android.com/studio/command-line/logcat>.
@@ -48,3 +73,11 @@ Informasi lebih lanjut: <https://developer.android.com/studio/command-line/logca
 - Saring informasi log berdasarkan sintaks ekspresi reguler (regex) tertentu:
 
 `logcat --regex `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span>
+
+- Tampilkan log untuk nomor induk (PID) program yang sedang dijalankan:
+
+`logcat --pid=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
+
+- Tampilkan log untuk (kemasan) aplikasi yang sedang dijalankan:
+
+`logcat --pid=$(pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_kemasan_aplikasi</span>`)`
