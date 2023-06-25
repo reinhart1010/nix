@@ -2,7 +2,8 @@
 layout: page
 title: common/git-cherry-pick (Türkçe)
 description: "Varolan commit'ler ile getirilen yenilikleri mevcut dala uygula."
-content_hash: 471ad88c4c73f1b14a3decf152a7ef1b1a498aff
+content_hash: 5b89ec0d7319f584d8a15389321047ea42e83229
+last_modified_at: 2023-06-25
 related_topics:
   - title: বাংলা version
     url: /bn/common/git-cherry-pick.html
@@ -46,4 +47,4 @@ Daha fazla bilgi için: <https://git-scm.com/docs/git-cherry-pick>.
 
 - Bir commit'in değişikliklerini, herhangi bir yeni commit oluşturmadan çalışan dizine ekle:
 
-`git cherry-pick -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span>
+`git cherry-pick --no-commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span>

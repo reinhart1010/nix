@@ -2,7 +2,8 @@
 layout: page
 title: common/git-cherry-pick (español)
 description: "Aplica los cambios introducidos por commits existentes a la rama actual."
-content_hash: eed25bc45b380da83115569cb205d52f8b29f770
+content_hash: b144ca1c7227671f7705b063f564529d5fc236f6
+last_modified_at: 2023-06-25
 related_topics:
   - title: বাংলা version
     url: /bn/common/git-cherry-pick.html
@@ -16,8 +17,14 @@ related_topics:
   - title: italiano version
     url: /it/common/git-cherry-pick.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-cherry-pick.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-cherry-pick.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-cherry-pick.html
     icon: bi bi-globe
 ---
 # git cherry-pick
@@ -40,4 +47,4 @@ Más información: <https://git-scm.com/docs/git-cherry-pick>.
 
 - Añade los cambios de un commit al directorio de trabajo, sin crear un commit:
 
-`git cherry-pick -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span>
+`git cherry-pick --no-commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span>

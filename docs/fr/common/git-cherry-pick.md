@@ -2,7 +2,8 @@
 layout: page
 title: common/git-cherry-pick (français)
 description: "Appliquer les modifications introduites par les commits existants à la branche actuelle."
-content_hash: 633d24d1f9811b58e6bc1b074aacaa9d1b1aae2b
+content_hash: 33e26874c47a1e28453d7ca0d5d4e5a7baaab16d
+last_modified_at: 2023-06-25
 related_topics:
   - title: বাংলা version
     url: /bn/common/git-cherry-pick.html
@@ -16,8 +17,14 @@ related_topics:
   - title: italiano version
     url: /it/common/git-cherry-pick.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-cherry-pick.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-cherry-pick.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-cherry-pick.html
     icon: bi bi-globe
 ---
 # git cherry-pick
@@ -40,4 +47,4 @@ Plus d'informations : <https://git-scm.com/docs/git-cherry-pick>.
 
 - Appliquer les changements d'un commit à la branche courante sans créer de commit :
 
-`git cherry-pick -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span>
+`git cherry-pick --no-commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span>
