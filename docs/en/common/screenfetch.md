@@ -2,14 +2,15 @@
 layout: page
 title: common/screenfetch (English)
 description: "Display system information."
-content_hash: dc72fff49de11fd63c206c6915d3fb55ba4e67c2
+content_hash: 904d0044d8d10554e6326974d1868ed944f706e3
+last_modified_at: 2023-06-28
 ---
 # screenfetch
 
 Display system information.
 More information: <https://github.com/KittyKatt/screenFetch>.
 
-- Start screenfetch:
+- Start `screenfetch`:
 
 `screenfetch`
 

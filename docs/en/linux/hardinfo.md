@@ -2,14 +2,15 @@
 layout: page
 title: linux/hardinfo (English)
 description: "Show hardware information in GUI window."
-content_hash: f5f9bd4f9e1749cd963b9f4224ab6e46bbb8bc44
+content_hash: 714f4f9560e74caece715ade8d398be45f9ef3df
+last_modified_at: 2023-06-28
 ---
 # hardinfo
 
 Show hardware information in GUI window.
 More information: <https://github.com/lpereira/hardinfo>.
 
-- Start hardinfo:
+- Start `hardinfo`:
 
 `hardinfo`
 

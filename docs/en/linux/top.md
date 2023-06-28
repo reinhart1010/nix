@@ -2,8 +2,12 @@
 layout: page
 title: linux/top (English)
 description: "Display dynamic real-time information about running processes."
-content_hash: 31db987c670e418c91d00be48cfbd87273c8c0aa
+content_hash: 8e349ca34f9fa52d38ce3911c04bedd212d59944
+last_modified_at: 2023-06-28
 related_topics:
+  - title: català version
+    url: /ca/linux/top.html
+    icon: bi bi-globe
   - title: español version
     url: /es/linux/top.html
     icon: bi bi-globe
@@ -16,7 +20,7 @@ related_topics:
 Display dynamic real-time information about running processes.
 More information: <https://manned.org/top>.
 
-- Start top:
+- Start `top`:
 
 `top`
 

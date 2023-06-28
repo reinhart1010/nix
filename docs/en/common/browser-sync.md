@@ -2,7 +2,8 @@
 layout: page
 title: common/browser-sync (English)
 description: "Starts local web server that updates browser on file changes."
-content_hash: f77053ad746e89a425197c15884ef27b199bc2c8
+content_hash: 2bbb0dde030de76def3891c7b7228a66082c7133
+last_modified_at: 2023-06-28
 related_topics:
   - title: italiano version
     url: /it/common/browser-sync.html
@@ -31,6 +32,6 @@ More information: <https://browsersync.io/docs/command-line>.
 
 `browser-sync init`
 
-- Start browser-sync from config file:
+- Start Browsersync from config file:
 
 `browser-sync start --config `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config_file</span>

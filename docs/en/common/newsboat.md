@@ -2,7 +2,8 @@
 layout: page
 title: common/newsboat (English)
 description: "An RSS/Atom feed reader for text terminals."
-content_hash: 3cd1dbafad4c711f560094065df9498df93c495e
+content_hash: 859a1639962733bea3769e63bf8b62e9a564bf0d
+last_modified_at: 2023-06-28
 related_topics:
   - title: العربية version
     url: /ar/common/newsboat.html
@@ -21,7 +22,7 @@ More information: <https://newsboat.org/>.
 
 `echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/path/to/feed</span>` >> "${HOME}/.newsboat/urls"`
 
-- Start newsboat and refresh all feeds on startup:
+- Start Newsboat and refresh all feeds on startup:
 
 `newsboat -r`
 

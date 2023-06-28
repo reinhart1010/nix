@@ -2,7 +2,8 @@
 layout: page
 title: common/locust (English)
 description: "Load-testing tool to determine number of concurrent users a system can handle."
-content_hash: acee99d280ec1f1cc1244867001043b6e259811d
+content_hash: 7c86ea230225853da7a75f394052e13ffc3849e3
+last_modified_at: 2023-06-28
 ---
 # locust
 
@@ -21,14 +22,14 @@ More information: <https://locust.io>.
 
 `locust --no-web --clients=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` --hatch-rate=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>` --host=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span>
 
-- Start locust in master mode:
+- Start Locust in master mode:
 
 `locust --master --host=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span>
 
-- Connect locust slave to master:
+- Connect Locust slave to master:
 
 `locust --slave --host=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span>
 
-- Connect locust slave to master on a different machine:
+- Connect Locust slave to master on a different machine:
 
 `locust --slave --master-host=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">master_hostname</span>` --host=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span>

@@ -2,18 +2,19 @@
 layout: page
 title: common/diskonaut (English)
 description: "Terminal disk space navigator, written in Rust."
-content_hash: 6f17d1016f69e6a99d6c0772ea75a87a73ecec9c
+content_hash: f477402d902ce371922b0d6987045d917f369a22
+last_modified_at: 2023-06-28
 ---
 # diskonaut
 
 Terminal disk space navigator, written in Rust.
 More information: <https://github.com/imsnif/diskonaut>.
 
-- Start diskonaut in the current directory:
+- Start `diskonaut` in the current directory:
 
 `diskonaut`
 
-- Start diskonaut in a specific directory:
+- Start `diskonaut` in a specific directory:
 
 `diskonaut `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 

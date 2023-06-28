@@ -2,7 +2,8 @@
 layout: page
 title: common/sdcv (English)
 description: "StarDict, a command-line dictionary client."
-content_hash: 218ead6d94f7d09da7ffdca6f646d9eb84e86154
+content_hash: 5367b9a44224fa7469ba84467d25edfd5f23ea3b
+last_modified_at: 2023-06-28
 ---
 # sdcv
 
@@ -10,7 +11,7 @@ StarDict, a command-line dictionary client.
 Dictionaries are provided separately from the client.
 More information: <https://manned.org/sdcv>.
 
-- Start sdcv interactively:
+- Start `sdcv` interactively:
 
 `sdcv`
 

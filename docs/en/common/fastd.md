@@ -2,19 +2,16 @@
 layout: page
 title: common/fastd (English)
 description: "VPN daemon."
-content_hash: 27fbcb45fd50d820833ae7cfed9030053630f9f8
-last_modified_at: 2023-03-13
+content_hash: df0d0ddf934d74f625e19ce462ec7ad536743ec1
+last_modified_at: 2023-06-28
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># fastd
+# fastd
 
 VPN daemon.
 Works on Layer 2 or Layer 3, supports different encryption methods, used by Freifunk.
 More information: <https://fastd.readthedocs.io/en/stable/>.
 
-- Start fastd with a specific configuration file:
+- Start `fastd` with a specific configuration file:
 
 `fastd --config `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/fastd.conf</span>
 

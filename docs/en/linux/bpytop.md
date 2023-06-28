@@ -2,8 +2,12 @@
 layout: page
 title: linux/bpytop (English)
 description: "Display dynamic real-time information about running processes with graphs. Similar to `gtop` and `htop`."
-content_hash: 64b8fe7fd866f938a95c06aad5526a521e135675
+content_hash: 4086584a8b1760c0cb363d1a43222705ee3a5f41
+last_modified_at: 2023-06-28
 related_topics:
+  - title: català version
+    url: /ca/linux/bpytop.html
+    icon: bi bi-globe
   - title: español version
     url: /es/linux/bpytop.html
     icon: bi bi-globe
@@ -16,7 +20,7 @@ related_topics:
 Display dynamic real-time information about running processes with graphs. Similar to `gtop` and `htop`.
 More information: <https://github.com/aristocratos/bpytop>.
 
-- Start bpytop:
+- Start `bpytop`:
 
 `bpytop`
 

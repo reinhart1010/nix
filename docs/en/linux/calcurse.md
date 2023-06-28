@@ -2,7 +2,8 @@
 layout: page
 title: linux/calcurse (English)
 description: "A text-based calendar and scheduling application for the command-line."
-content_hash: 24fe215440749400cdcbe24abd9938c055390739
+content_hash: b626f3f6db7c90935e3a1c33b1c0559cfbae465e
+last_modified_at: 2023-06-28
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/calcurse.html
@@ -13,7 +14,7 @@ related_topics:
 A text-based calendar and scheduling application for the command-line.
 More information: <https://calcurse.org>.
 
-- Start calcurse on interactive mode:
+- Start `calcurse` on interactive mode:
 
 `calcurse`
 

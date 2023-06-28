@@ -2,7 +2,8 @@
 layout: page
 title: common/wordgrinder (English)
 description: "Command-line word processor."
-content_hash: 5915f375cdb1623d3cdd33164a55f946309b632c
+content_hash: 08160e548d2e9306def22e3838586bf933013570
+last_modified_at: 2023-06-28
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/wordgrinder.html
@@ -13,7 +14,7 @@ related_topics:
 Command-line word processor.
 More information: <https://cowlark.com/wordgrinder>.
 
-- Start wordgrinder (loads a blank document by default):
+- Start WordGrinder (loads a blank document by default):
 
 `wordgrinder`
 

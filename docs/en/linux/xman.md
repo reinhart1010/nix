@@ -2,14 +2,15 @@
 layout: page
 title: linux/xman (English)
 description: "Manual page viewer for X Window System."
-content_hash: 154a2f58a5094907560c8f56b5788b810aeba04e
+content_hash: 5ef143d61a981caac4c0b0098f6ecede3da31665
+last_modified_at: 2023-06-28
 ---
 # xman
 
 Manual page viewer for X Window System.
 More information: <https://manned.org/xman>.
 
-- Start xman in three-button window:
+- Start `xman` in three-button window:
 
 `xman`
 

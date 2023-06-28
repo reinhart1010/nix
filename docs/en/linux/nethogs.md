@@ -2,14 +2,15 @@
 layout: page
 title: linux/nethogs (English)
 description: "Monitor bandwidth usage per process."
-content_hash: 8dbbf7ca303e6a6b66c2bddc41ac752b24c0a03b
+content_hash: ed7f3725aeccc17afadcf58a4d647b3961dc8b2e
+last_modified_at: 2023-06-28
 ---
 # nethogs
 
 Monitor bandwidth usage per process.
 More information: <https://github.com/raboof/nethogs>.
 
-- Start nethogs as root (default device is eth0):
+- Start NetHogs as root (default device is `eth0`):
 
 `sudo nethogs`
 

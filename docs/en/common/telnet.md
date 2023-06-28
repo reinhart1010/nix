@@ -2,7 +2,12 @@
 layout: page
 title: common/telnet (English)
 description: "Connect to a specified port of a host using the telnet protocol."
-content_hash: 0a0bbd1c50f8f16356724a10e528cf1363d3ac0a
+content_hash: 7164cf0e9eb98df3330f86e185498df241768b80
+last_modified_at: 2023-06-28
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/telnet.html
+    icon: bi bi-globe
 ---
 # telnet
 
@@ -25,7 +30,7 @@ More information: <https://manned.org/telnet>.
 
 `Ctrl + ]`
 
-- Start telnet with "x" as the session termination character:
+- Start `telnet` with "x" as the session termination character:
 
 `telnet -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span>
 

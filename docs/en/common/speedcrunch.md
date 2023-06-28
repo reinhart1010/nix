@@ -2,17 +2,15 @@
 layout: page
 title: common/speedcrunch (English)
 description: "A high-precision scientific calculator."
-content_hash: e759b250326f05cc012023d558cb274827fb899d
+content_hash: 3582f50100100a75d3edaa52bb7b14b73c5c04a9
+last_modified_at: 2023-06-28
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># speedcrunch
+# speedcrunch
 
 A high-precision scientific calculator.
 More information: <https://www.speedcrunch.org>.
 
-- Start speedcrunch:
+- Start SpeedCrunch:
 
 `speedcrunch`
 

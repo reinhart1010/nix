@@ -2,14 +2,15 @@
 layout: page
 title: common/meld (English)
 description: "Graphical diffing and merging tool."
-content_hash: ada53cb9e555f7cebc3f8e2c2b8564ec3b8eecd0
+content_hash: b42047f0c341fde5fb759f0520be7b525623574c
+last_modified_at: 2023-06-28
 ---
 # meld
 
 Graphical diffing and merging tool.
 More information: <https://meldmerge.org/>.
 
-- Start meld:
+- Start `meld`:
 
 `meld`
 

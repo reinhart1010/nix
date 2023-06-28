@@ -2,7 +2,8 @@
 layout: page
 title: linux/collectd (English)
 description: "System statistics collection daemon."
-content_hash: f98e4616d677a56cdd9754ffe152e9df919e7df2
+content_hash: 75c8e8dd653076e14c10b6fd0ac2d6cb5ae036cd
+last_modified_at: 2023-06-28
 ---
 # collectd
 
@@ -21,7 +22,7 @@ More information: <https://collectd.org/>.
 
 `collectd -T`
 
-- Start collectd:
+- Start `collectd`:
 
 `collectd`
 

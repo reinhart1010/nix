@@ -2,14 +2,19 @@
 layout: page
 title: common/khal (English)
 description: "A text-based calendar and scheduling application for the command-line."
-content_hash: c871469b657c96097310d51a0851d5c0a5ca11c0
+content_hash: a6e4ad6d64e6c0e1dd39cfa3f146328b45d4d6eb
+last_modified_at: 2023-06-28
+related_topics:
+  - title: Deutsch version
+    url: /de/common/khal.html
+    icon: bi bi-globe
 ---
 # khal
 
 A text-based calendar and scheduling application for the command-line.
 More information: <https://lostpackets.de/khal>.
 
-- Start khal on interactive mode:
+- Start Khal on interactive mode:
 
 `ikhal`
 

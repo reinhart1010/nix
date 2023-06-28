@@ -2,10 +2,20 @@
 layout: page
 title: common/gdb (English)
 description: "The GNU Debugger."
-content_hash: 4aed151213d9f5b6e56cdc040bc729f874a33c54
+content_hash: 9932d18cc2864ac39bf316517875f95d5048fa80
+last_modified_at: 2023-06-28
 related_topics:
   - title: Deutsch version
     url: /de/common/gdb.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/gdb.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/gdb.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/gdb.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/gdb.html
@@ -32,6 +42,6 @@ More information: <https://www.gnu.org/software/gdb>.
 
 `gdb -ex "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commands</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executable</span>
 
-- Start gdb and pass arguments to the executable:
+- Start `gdb` and pass arguments to the executable:
 
 `gdb --args `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executable</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument2</span>
