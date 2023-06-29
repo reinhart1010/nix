@@ -2,8 +2,8 @@
 layout: page
 title: common/weechat (English)
 description: "Command-line internet relay chat client with various features."
-content_hash: 533a414783db9f59f926fa5bfc25e99ea17f2674
-last_modified_at: 2023-06-27
+content_hash: 5a7d946f6317743db640c9c1bface09c60cd22df
+last_modified_at: 2023-06-29
 ---
 # weechat
 
@@ -26,6 +26,6 @@ More information: <https://weechat.org/doc>.
 
 `weechat --no-connect`
 
-- Write default terminal colors to stdout:
+- Write default terminal colors to `stdout`:
 
 `weechat --colors`
