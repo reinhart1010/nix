@@ -2,7 +2,8 @@
 layout: page
 title: linux/archlinux-java (Deutsch)
 description: "Ein Helfer Script das Funktionen für Java-Umgebungen bereitstellt."
-content_hash: e1ef8959df841a6896db99d6ec606a05488f5d5b
+content_hash: e3c6fd31996512f1850adf88af024c60a37d74fe
+last_modified_at: 2023-06-30
 related_topics:
   - title: English version
     url: /en/linux/archlinux-java.html
@@ -14,7 +15,7 @@ related_topics:
 # archlinux-java
 
 Ein Helfer Script das Funktionen für Java-Umgebungen bereitstellt.
-Weitere Informationen: <https://github.com/michaellass/archlinux-java-run>.
+Weitere Informationen: <https://wiki.archlinux.org/title/Java#Switching_between_JVM>.
 
 - Liste installierte Java-Umgebungen:
 
