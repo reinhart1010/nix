@@ -2,8 +2,8 @@
 layout: page
 title: common/7za (Deutsch)
 description: "Ein Dateiarchivierer mit hoher Kompressionsrate."
-content_hash: 7ba40cbb49b8481c99ed6709d4fc19da415ffd28
-last_modified_at: 2023-05-18
+content_hash: 1c182cb6787b001fcd260fe05cbfb60c407d0a0e
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/7za.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/7za.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/7za.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/7za.html
@@ -61,7 +64,7 @@ Weitere Informationen: <https://manned.org/7za>.
 
 `7za x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/archiv.7z</span>` -o`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/verzeichnis</span>
 
-- E[x]trahiere ein Archiv nach stdout:
+- E[x]trahiere ein Archiv nach `stdout`:
 
 `7za x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/archiv.7z</span>` -so`
 

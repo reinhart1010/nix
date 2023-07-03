@@ -2,7 +2,8 @@
 layout: page
 title: common/logger (中文)
 description: "向系统日志增加记录（/var/log/syslog）。"
-content_hash: 83865835a29e55be17af0e7ee3fa6b6a25e7e490
+content_hash: 701c4fe618a6dea0bbaeaa5808a37d5c42baab5c
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/logger.html
@@ -17,7 +18,7 @@ related_topics:
 
 `logger `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">消息内容</span>
 
-- 从 stdin 获取输入并记录到系统日志 syslog：
+- 从 `stdin` 获取输入并记录到系统日志 syslog：
 
 `echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">记录内容</span>` | logger`
 

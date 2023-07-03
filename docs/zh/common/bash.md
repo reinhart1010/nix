@@ -2,7 +2,8 @@
 layout: page
 title: common/bash (中文)
 description: "Bourne-Again SHell."
-content_hash: 1d589dd89932faadc2f4e99a6cdb7337be2241a6
+content_hash: 47ea21965ed8d1045f11f22885ad247cc45fc2f4
+last_modified_at: 2023-07-03
 related_topics:
   - title: Deutsch version
     url: /de/common/bash.html
@@ -32,16 +33,7 @@ related_topics:
     url: /zh_TW/common/bash.html
     icon: bi bi-globe
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/bash.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># bash
+# bash
 
 Bourne-Again SHell.
 兼容`sh`的命令行解释器。
@@ -67,7 +59,7 @@ Bourne-Again SHell.
 
 `bash -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.sh</span>
 
-- 从输入（stdin）读取命令：
+- 从输入（`stdin`）读取命令：
 
 `bash -s`
 

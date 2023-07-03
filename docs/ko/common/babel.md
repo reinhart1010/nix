@@ -2,10 +2,14 @@
 layout: page
 title: common/babel (한국어)
 description: "코드를 JavaScript ES6/ES7 문법에서 ES5 문법으로 변환하는 변환기입니다."
-content_hash: dc09dfef977a03ed4df1ea844276eb8b289e99db
+content_hash: 29dfaad87a81b5ffd268d4e98f6a49617ef36597
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/babel.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/babel.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/babel.html
@@ -22,7 +26,7 @@ related_topics:
 코드를 JavaScript ES6/ES7 문법에서 ES5 문법으로 변환하는 변환기입니다.
 더 많은 정보: <https://babeljs.io/>.
 
-- 지정된 입력 파일을 변환하고 `stdout'으로 출력:
+- 지정된 입력 파일을 변환하고 stdout`'으로 출력:
 
 `babel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 

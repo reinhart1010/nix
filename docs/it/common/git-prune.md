@@ -2,10 +2,14 @@
 layout: page
 title: common/git-prune (italiano)
 description: "Elimina dal database degli oggetti quelli non più raggiungibili."
-content_hash: c23821ed691b643b1db4b80a11f955a23589e0a2
+content_hash: f58ab73415421fa73962402524aac2430742c008
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/git-prune.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-prune.html
     icon: bi bi-globe
 ---
 # git prune
@@ -18,7 +22,7 @@ Maggiori informazioni: <https://git-scm.com/docs/git-prune>.
 
 `git prune --dry-run`
 
-- Elimina gli oggetti non raggiungibili e stampane un elenco su stdout:
+- Elimina gli oggetti non raggiungibili e stampane un elenco su `stdout`:
 
 `git prune --verbose`
 

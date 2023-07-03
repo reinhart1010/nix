@@ -2,7 +2,8 @@
 layout: page
 title: common/dash (italiano)
 description: "Debian Almquist Shell, una implementazione di `sh` moderna, che conforme a POSIX, (non compatibile con Bash)."
-content_hash: 2e7367eeb06b8aec0ef69b7ecee6b94a90b469de
+content_hash: decb482de35a2ef6286f6d2ad349ce96fb9385ce
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/dash.html
@@ -10,8 +11,20 @@ related_topics:
   - title: français version
     url: /fr/common/dash.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/dash.html
+    icon: bi bi-globe
 ---
-# dash
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/dash.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># dash
 
 Debian Almquist Shell, una implementazione di `sh` moderna, che conforme a POSIX, (non compatibile con Bash).
 Maggiori informazioni: <https://manned.org/dash>.
@@ -36,6 +49,6 @@ Maggiori informazioni: <https://manned.org/dash>.
 
 `dash -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/dello/script.sh</span>
 
-- Leggi ed esegui commandi dal stdin:
+- Leggi ed esegui commandi dal `stdin`:
 
 `dash -s`

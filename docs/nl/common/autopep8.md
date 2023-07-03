@@ -2,10 +2,17 @@
 layout: page
 title: common/autopep8 (Nederlands)
 description: "Formatteer Python-code conform de PEP 8-stijlgids."
-content_hash: 1347c91f92b997be7a392d497e328a7fcd2e91cd
+content_hash: 843ea5c09e7f6cbeddd77fe38f6e81044ca0f2f3
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/autopep8.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/autopep8.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/autopep8.html
     icon: bi bi-globe
 ---
 # autopep8
@@ -13,7 +20,7 @@ related_topics:
 Formatteer Python-code conform de PEP 8-stijlgids.
 Meer informatie: <https://github.com/hhatto/autopep8>.
 
-- Formateer een bestand naar stdout, met een ingestelde maximale toegestane regellengte:
+- Formateer een bestand naar `stdout`, met een ingestelde maximale toegestane regellengte:
 
 `autopep8 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.py</span>` --max-line-length `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lengte</span>
 

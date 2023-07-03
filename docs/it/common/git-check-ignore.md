@@ -2,7 +2,8 @@
 layout: page
 title: common/git-check-ignore (italiano)
 description: "Analizza ed esegui il debug di \".gitignore\" e dei file esclusi."
-content_hash: 3d076a13569541d43bf4674148349008eefe2862
+content_hash: 9162d89a91ec274af08e74ec73f21be9a75ab8b1
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/git-check-ignore.html
@@ -33,7 +34,7 @@ Maggiori informazioni: <https://git-scm.com/docs/git-check-ignore>.
 
 `git check-ignore `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span>
 
-- Leggi i percorsi di file o directory da stdin (uno per riga) invece che dalla riga di comando:
+- Leggi i percorsi di file o directory da `stdin` (uno per riga) invece che dalla riga di comando:
 
 `git check-ignore --stdin < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/lista_dei_file_o_directory</span>
 

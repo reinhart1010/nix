@@ -2,8 +2,12 @@
 layout: page
 title: common/base64 (español)
 description: "Codifica o decodifica un archivo o la entrada estandar hacia/desde Base64, a la salida estandar."
-content_hash: 6802436d716f46f7e658327e0733eb6daad78423
+content_hash: 9c116808bd5e8651b7b520b03c42369307f079a1
+last_modified_at: 2023-07-03
 related_topics:
+  - title: Deutsch version
+    url: /de/common/base64.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/base64.html
     icon: bi bi-globe
@@ -45,10 +49,10 @@ Más información: <https://www.gnu.org/software/coreutils/base64>.
 
 `base64 --decode `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_archivo</span>
 
-- Codifica stdin:
+- Codifica `stdin`:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>` | base64`
 
-- Decodifica stdin:
+- Decodifica `stdin`:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>` | base64 --decode`

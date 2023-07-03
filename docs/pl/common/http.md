@@ -2,7 +2,8 @@
 layout: page
 title: common/http (polski)
 description: "HTTPie: HTTP client, ma być łatwiejszy w użyciu niż cURL."
-content_hash: e20d58ecf9fc53d91b51425d4db5c5199aeb5372
+content_hash: bdcb59e5eb3316d787ddf51c9fda5548dec10645
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/http.html
@@ -37,6 +38,6 @@ Więcej informacji: <https://httpie.org>.
 
 `http --auth `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwauzytkownika:haslo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">przyklad.org</span>
 
-- Określ surowe ciało żądania za pośrednictwem stdin:
+- Określ surowe ciało żądania za pośrednictwem `stdin`:
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dane.txt</span>` | http PUT `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">przyklad.org</span>

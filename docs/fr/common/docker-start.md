@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-start (français)
 description: "Lancer un ou plusieurs conteneurs arrêtés."
-content_hash: 18a75153bd996562e51221289a85f5d3f8ad79ad
-last_modified_at: 2023-05-20
+content_hash: a1df41fa3042017fd967649f26ef2e150d3052ce
+last_modified_at: 2023-07-03
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-start.html
@@ -34,7 +34,7 @@ Plus d'informations : <https://docs.docker.com/engine/reference/commandline/star
 
 `docker start `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">conteneur</span>
 
-- Lancer un conteneur, en attachant stdout et stderr et en transférant les signaux :
+- Lancer un conteneur, en attachant `stdout` et `stderr` et en transférant les signaux :
 
 `docker start --attach `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">conteneur</span>
 

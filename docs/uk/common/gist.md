@@ -2,7 +2,8 @@
 layout: page
 title: common/gist (українська)
 description: "Завантажує код у https://gist.github.com."
-content_hash: bb400fc198f3492851034ebed694590276ccfe90
+content_hash: bab0481016322214c869a21b8c633ba10ecc7490
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/gist.html
@@ -25,7 +26,7 @@ related_topics:
 
 `gist --private --description "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Змістовний опис</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ім'я_файлу.txt</span>` `
 
-- Прочитати контент з stdin і створити gist з цього:
+- Прочитати контент з `stdin` і створити gist з цього:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "привіт світ"</span>` | gist`
 

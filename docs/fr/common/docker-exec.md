@@ -2,7 +2,8 @@
 layout: page
 title: common/docker-exec (français)
 description: "Exécute une commande dans un conteneur déjà en cours d'exécution."
-content_hash: 28f8e1aa24fcfc4cb397f3f696ac12df3cb941ca
+content_hash: 0cfd1368438dbd3db00e8b9274ae1f38feec1e2f
+last_modified_at: 2023-07-03
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-exec.html
@@ -17,10 +18,7 @@ related_topics:
     url: /tr/common/docker-exec.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docker exec
+# docker exec
 
 Exécute une commande dans un conteneur déjà en cours d'exécution.
 Plus d'informations : <https://docs.docker.com/engine/reference/commandline/exec/>.
@@ -37,7 +35,7 @@ Plus d'informations : <https://docs.docker.com/engine/reference/commandline/exec
 
 `docker exec --interactive -tty --workdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/répertoire</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_conteneur</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commande</span>
 
-- Exécuter une commande en arrière-plan sur un conteneur existant mais garder stdin ouvert :
+- Exécuter une commande en arrière-plan sur un conteneur existant mais garder `stdin` ouvert :
 
 `docker exec --interactive --detach `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_conteneur</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commande</span>
 

@@ -2,7 +2,8 @@
 layout: page
 title: common/docker-secret (Türkçe)
 description: "Docker swarm sırlarını yönet."
-content_hash: 983190c8ff41214442af15e59301684ed1f95165
+content_hash: eb9e848cdf25deab6e64781f5cb8d9b123695fa2
+last_modified_at: 2023-07-03
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-secret.html
@@ -19,7 +20,7 @@ related_topics:
 Docker swarm sırlarını yönet.
 Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/secret/>.
 
-- stdin'den yeni bir sır yarat:
+- `stdin`'den yeni bir sır yarat:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">komut</span>` | docker secret create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sır_ismi</span>` -`
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/7za (русский)
 description: "Архиватор файлов с высокой степенью сжатия."
-content_hash: 1266fc18a763bbe2492d0e7c5bc768c961a91391
-last_modified_at: 2023-05-18
+content_hash: d71b5350044c1ea03cf73c89e99037f620883bf3
+last_modified_at: 2023-07-03
 related_topics:
   - title: Deutsch version
     url: /de/common/7za.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/7za.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/7za.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/7za.html
@@ -61,7 +64,7 @@ related_topics:
 
 `7za x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/архива.7z</span>` -o`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/папки</span>
 
-- Распаковать (e[x]tract) архив в stdout:
+- Распаковать (e[x]tract) архив в `stdout`:
 
 `7za x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/архива.7z</span>` -so`
 

@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/yank (中文)
-description: "从 stdin 读取输入并显示一个选择界面，该界面允许选择一个字段并将其复制到剪贴板。"
-content_hash: f1ac04b396cf39be08a29d9fd34dec6575638b2c
+description: "从 `stdin` 读取输入并显示一个选择界面，该界面允许选择一个字段并将其复制到剪贴板。"
+content_hash: 6ea0cf677b4f7ed9cc8c469cdcacbe580ef556ef
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/yank.html
@@ -10,7 +11,7 @@ related_topics:
 ---
 # yank
 
-从 stdin 读取输入并显示一个选择界面，该界面允许选择一个字段并将其复制到剪贴板。
+从 `stdin` 读取输入并显示一个选择界面，该界面允许选择一个字段并将其复制到剪贴板。
 更多信息：<https://manned.org/yank>.
 
 - 使用默认分隔符（\f, \n, \r, \s, \t）：

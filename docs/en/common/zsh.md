@@ -2,8 +2,8 @@
 layout: page
 title: common/zsh (English)
 description: "Z SHell, a Bash-compatible command-line interpreter."
-content_hash: ea4c799d1f66b350de34f228ee85d6a284e6b820
-last_modified_at: 2023-01-07
+content_hash: 06571ac85942cf97eea77b466a80848f35b7ffc9
+last_modified_at: 2023-07-03
 related_topics:
   - title: Deutsch version
     url: /de/common/zsh.html
@@ -49,7 +49,7 @@ More information: <https://www.zsh.org>.
 
 `zsh --no-exec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.zsh</span>
 
-- Execute specific commands from stdin:
+- Execute specific commands from `stdin`:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Hello world</span>` | zsh`
 

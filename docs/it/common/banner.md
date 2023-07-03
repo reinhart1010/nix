@@ -2,7 +2,8 @@
 layout: page
 title: common/banner (italiano)
 description: "Stampa il testo fornito per argomento come un grande banner in ASCII art."
-content_hash: 44bb9895b10d0913ab8ae907f844e9ea6b3721f5
+content_hash: c0a04eab4f241b758246b7ea81fb22440c3f42ee
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/banner.html
@@ -33,6 +34,6 @@ Maggiori informazioni: <https://manned.org/banner>.
 
 `banner -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello World</span>`"`
 
-- Leggi testo da stdin:
+- Leggi testo da `stdin`:
 
 `banner`

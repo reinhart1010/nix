@@ -2,8 +2,8 @@
 layout: page
 title: common/7zr (Deutsch)
 description: "Ein Dateiarchivierer mit hoher Kompressionsrate."
-content_hash: 644d6fff866a3be9ebd2aa2bdf1ed55358c7f91e
-last_modified_at: 2023-05-18
+content_hash: 67f84e8b30cb4442632473ec1120e8466dae4559
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/7zr.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/7zr.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/7zr.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/7zr.html
@@ -61,7 +64,7 @@ Weitere Informationen: <https://manned.org/7zr>.
 
 `7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/archiv.7z</span>` -o`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/verzeichnis</span>
 
-- E[x]trahiere ein Archiv nach stdout:
+- E[x]trahiere ein Archiv nach `stdout`:
 
 `7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/archiv.7z</span>` -so`
 

@@ -2,7 +2,8 @@
 layout: page
 title: common/babel (italiano)
 description: "Un transpiler che converte codice JavaScript da sintassi ES6/ES7 ad ES5."
-content_hash: d8b7fc12192aa7f711f2209d16598e80d16eb329
+content_hash: 7a3e62a8a25329e4dcf1acbe98097ad08f9c3ea7
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/babel.html
@@ -25,7 +26,7 @@ related_topics:
 Un transpiler che converte codice JavaScript da sintassi ES6/ES7 ad ES5.
 Maggiori informazioni: <https://babeljs.io/>.
 
-- Transpila uno specifico file e stampa il risultato su stdout:
+- Transpila uno specifico file e stampa il risultato su `stdout`:
 
 `babel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
 

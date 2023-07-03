@@ -2,8 +2,8 @@
 layout: page
 title: common/7zr (Indonesia)
 description: "Pengarsip file dengan rasio kompresi yang tinggi."
-content_hash: 26665dbca0f8e722a87ba48dd7a11429217c218f
-last_modified_at: 2023-05-18
+content_hash: a8b2d8768efbfdb57acb32254af2c2f399063cf8
+last_modified_at: 2023-07-03
 related_topics:
   - title: Deutsch version
     url: /de/common/7zr.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/7zr.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/7zr.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/7zr.html
@@ -61,7 +64,7 @@ Informasi lebih lanjut: <https://manned.org/7zr>.
 
 `7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/arsip.7z</span>` -o`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span>
 
-- Mengekstrak sebuah file arsip menuju stdout:
+- Mengekstrak sebuah file arsip menuju `stdout`:
 
 `7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/arsip.7z</span>` -so`
 

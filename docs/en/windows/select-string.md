@@ -2,8 +2,8 @@
 layout: page
 title: windows/select-string (English)
 description: "Finds text in strings and files in PowerShell."
-content_hash: 4aafc6027d20088d5e7ff42119288078517853ba
-last_modified_at: 2023-02-20
+content_hash: c905dac38e115b92bb411acd90af0f284f3db4c6
+last_modified_at: 2023-07-03
 ---
 # Select-String
 
@@ -28,6 +28,6 @@ More information: <https://learn.microsoft.com/powershell/module/microsoft.power
 
 `Select-String --Context `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2,3</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file</span>
 
-- Search stdin for lines that do not match a pattern:
+- Search `stdin` for lines that do not match a pattern:
 
 `Get-Content `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file</span>` | Select-String --NotMatch "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`"`

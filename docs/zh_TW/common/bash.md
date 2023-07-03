@@ -2,7 +2,8 @@
 layout: page
 title: common/bash (中文 (繁體, 台灣))
 description: "Bourne-Again SHell. 一個與 `sh` 相容的命令列。"
-content_hash: c46a9c3972f9cb5c4fea1c02e2973a26d97dfc99
+content_hash: f3c0b3dfbcb49e0f03d86c82cb273daa0519669d
+last_modified_at: 2023-07-03
 related_topics:
   - title: Deutsch version
     url: /de/common/bash.html
@@ -32,7 +33,16 @@ related_topics:
     url: /zh/common/bash.html
     icon: bi bi-globe
 ---
-# bash
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/bash.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># bash
 
 Bourne-Again SHell. 一個與 `sh` 相容的命令列。
 參照 `histexpand` 以使用 history expansion 特性。
@@ -58,7 +68,7 @@ Bourne-Again SHell. 一個與 `sh` 相容的命令列。
 
 `bash -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sh檔</span>
 
-- 從標準輸入 (stdin) 讀取並執行指令：
+- 從標準輸入 (`stdin`) 讀取並執行指令：
 
 `bash -s`
 

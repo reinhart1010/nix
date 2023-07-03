@@ -2,7 +2,8 @@
 layout: page
 title: common/comm (한국어)
 description: "두 파일의 공통되는 줄을 선택하거나 거절합니다."
-content_hash: 2ea0455229537035d46afff22a3436cde7284d88
+content_hash: 4900ff90e3a650cc7a2d43aef6d93ff17e505fd5
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/comm.html
@@ -25,7 +26,7 @@ related_topics:
 
 `comm -12 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일2</span>
 
-- stdin으로 읽어드린 하나의 파일과 나머지 파일의 공통된 줄들만 출력:
+- `stdin`으로 읽어드린 하나의 파일과 나머지 파일의 공통된 줄들만 출력:
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일1</span>` | comm -12 - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일2</span>
 

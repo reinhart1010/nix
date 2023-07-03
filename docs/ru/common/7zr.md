@@ -2,8 +2,8 @@
 layout: page
 title: common/7zr (русский)
 description: "Архиватор файлов с высокой степенью сжатия."
-content_hash: d0dbe6b7e238304e6cc87aeb905aa4b236b77711
-last_modified_at: 2023-05-18
+content_hash: 71c2e3d995df3a8b7c294937edf0edf9c496fcca
+last_modified_at: 2023-07-03
 related_topics:
   - title: Deutsch version
     url: /de/common/7zr.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/7zr.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/7zr.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/7zr.html
@@ -61,7 +64,7 @@ related_topics:
 
 `7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/архива.7z</span>` -o`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/папки</span>
 
-- Распаковать (e[x]tract) архив в stdout:
+- Распаковать (e[x]tract) архив в `stdout`:
 
 `7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/архива.7z</span>` -so`
 

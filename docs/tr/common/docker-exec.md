@@ -2,7 +2,8 @@
 layout: page
 title: common/docker-exec (Türkçe)
 description: "Halihazırda çalışan bir Docker konteyneri üstünde komut çalıştır."
-content_hash: f67427072bd2fcd5beac2ec4d669912e0c199106
+content_hash: a69a14518054704d3802028cc02d22a514ce2fa8
+last_modified_at: 2023-07-03
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-exec.html
@@ -34,7 +35,7 @@ Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/ex
 
 `docker exec --interactive -tty --workdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dizin</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">konteyner_ismi</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">komut</span>
 
-- Varolan konteyner üstünde arkaplanda çalışmak üzere bir komut çalıştır ancak stdin'i açık tut:
+- Varolan konteyner üstünde arkaplanda çalışmak üzere bir komut çalıştır ancak `stdin`'i açık tut:
 
 `docker exec --interactive --detach `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">konteyner_ismi</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">komut</span>
 

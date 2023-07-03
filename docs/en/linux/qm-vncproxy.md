@@ -1,15 +1,13 @@
 ---
 layout: page
 title: linux/qm-vncproxy (English)
-description: "Proxy Virtual Machine VNC (Virtual network computing) traffic to stdin/stdout."
-content_hash: 91d4f77bea7cbb8c66f0d98490f5ce8c5beab2fd
+description: "Proxy Virtual Machine VNC (Virtual network computing) traffic to `stdin` or `stdout`."
+content_hash: 45a04ee739ae5a789bb237c3a066eb75ae5176f5
+last_modified_at: 2023-07-03
 ---
+# qm vncproxy
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># qm vncproxy
-
-Proxy Virtual Machine VNC (Virtual network computing) traffic to stdin/stdout.
+Proxy Virtual Machine VNC (Virtual network computing) traffic to `stdin` or `stdout`.
 More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
 - Proxy a specific virtual machine:

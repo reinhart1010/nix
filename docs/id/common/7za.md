@@ -2,8 +2,8 @@
 layout: page
 title: common/7za (Indonesia)
 description: "Pengarsip file dengan rasio kompresi yang tinggi."
-content_hash: de31863d77c9bc9dff1d2866d9c385830bd0298d
-last_modified_at: 2023-05-18
+content_hash: e313367af704aba6608b21f6c8882dea0e34e7da
+last_modified_at: 2023-07-03
 related_topics:
   - title: Deutsch version
     url: /de/common/7za.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/7za.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/7za.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/7za.html
@@ -61,7 +64,7 @@ Informasi lebih lanjut: <https://manned.org/7za>.
 
 `7za x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/arsip.7z</span>` -o`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span>
 
-- Mengekstrak sebuah file arsip menuju stdout:
+- Mengekstrak sebuah file arsip menuju `stdout`:
 
 `7za x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/arsip.7z</span>` -so`
 

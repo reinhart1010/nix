@@ -2,7 +2,8 @@
 layout: page
 title: common/while (português (Brasil))
 description: "Loop simples da shell."
-content_hash: 7ea2724da06689c0cc8e7268967ae67f615e225f
+content_hash: ce62a23175da9886ae54de85c0e76ccab88e6bd9
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/while.html
@@ -13,7 +14,7 @@ related_topics:
 Loop simples da shell.
 Mais informações: <https://manned.org/while>.
 
-- Lê a entrada default (stdin) e realiza uma ação a cada linha:
+- Lê a entrada default (`stdin`) e realiza uma ação a cada linha:
 
 `while read line; do echo "$line"; done`
 

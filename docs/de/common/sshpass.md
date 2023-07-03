@@ -2,7 +2,8 @@
 layout: page
 title: common/sshpass (Deutsch)
 description: "Stelle SSH Passwörtern bereit."
-content_hash: e9e67d686b9d2002c47b0655d082843e638723a9
+content_hash: b2b0d75f74aea621c9191a46fb4310cf0d6dddaf
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/sshpass.html
@@ -13,7 +14,7 @@ related_topics:
 Stelle SSH Passwörtern bereit.
 Weitere Informationen: <https://manned.org/sshpass>.
 
-- Stelle eine Verbindung zu einem externen Server über ein Passwort aus einem Datei-Objekt her (in diesem Fall stdin):
+- Stelle eine Verbindung zu einem externen Server über ein Passwort aus einem Datei-Objekt her (in diesem Fall `stdin`):
 
 `sshpass -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span>` ssh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzer</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server</span>
 

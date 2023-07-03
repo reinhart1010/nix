@@ -2,7 +2,8 @@
 layout: page
 title: common/git-check-ignore (español)
 description: "Analiza y depura los archivos que Git debe ignorar / excluir (.gitignore)."
-content_hash: e9f3f13467224dfc7ed1a6d0a74fd8664c0aa55c
+content_hash: 09d9b8170d6e715cd9eca52641b1d2d5fffaf28a
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/git-check-ignore.html
@@ -15,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-check-ignore.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-check-ignore.html
     icon: bi bi-globe
 ---
 # git check-ignore
@@ -30,7 +34,7 @@ Más información: <https://git-scm.com/docs/git-check-ignore>.
 
 `git check-ignore `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span>
 
-- Usa nombres de rutas, uno por línea, a partir de la entrada estandar (stdin):
+- Usa nombres de rutas, uno por línea, a partir de la entrada estandar (`stdin`):
 
 `git check-ignore --stdin < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_lista</span>
 

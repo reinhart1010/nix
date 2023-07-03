@@ -2,16 +2,14 @@
 layout: page
 title: common/terraform-fmt (Deutsch)
 description: "Formatierung der Konfiguration gemäß den Konventionen der Terraform-Sprache."
-content_hash: d26aa212c8920372b5a9e3ea11631c52bec989a4
+content_hash: d22d7acd9cd7b0d7fbfab0fc762cd8d89da877f8
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/terraform-fmt.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># terraform fmt
+# terraform fmt
 
 Formatierung der Konfiguration gemäß den Konventionen der Terraform-Sprache.
 Weitere Informationen: <https://www.terraform.io/docs/commands/fmt.html>.
@@ -28,6 +26,6 @@ Weitere Informationen: <https://www.terraform.io/docs/commands/fmt.html>.
 
 `terraform fmt -diff`
 
-- Die Dateien mit Formatierungsinkonsistenzen werden nicht auf stdout ausgegeben:
+- Die Dateien mit Formatierungsinkonsistenzen werden nicht auf `stdout` ausgegeben:
 
 `terraform fmt -list=false`

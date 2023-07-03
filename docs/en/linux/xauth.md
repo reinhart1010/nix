@@ -2,12 +2,10 @@
 layout: page
 title: linux/xauth (English)
 description: "Edit and display the authorization information used in connecting to the X server."
-content_hash: f09454ed19444b70ad9f829ebaf619cec0a0add0
+content_hash: 7a3e149c745e87e9976d8bfd56b4d2cfb05b3589
+last_modified_at: 2023-07-03
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># xauth
+# xauth
 
 Edit and display the authorization information used in connecting to the X server.
 More information: <https://manned.org/xauth>.
@@ -32,7 +30,7 @@ More information: <https://manned.org/xauth>.
 
 `xauth remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">display_name</span>
 
-- Print the authorization entry for the current display to stdout:
+- Print the authorization entry for the current display to `stdout`:
 
 `xauth extract - $DISPLAY`
 

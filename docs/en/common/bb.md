@@ -2,12 +2,10 @@
 layout: page
 title: common/bb (English)
 description: "Native Clojure interpreter for scripting."
-content_hash: ff00c173e8e6f7281238ff6bfb2e34f38d214374
+content_hash: 10f73d5d2c785165e2f446f5e4226f67b353a5ce
+last_modified_at: 2023-07-03
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bb
+# bb
 
 Native Clojure interpreter for scripting.
 More information: <https://book.babashka.org/#usage>.
@@ -20,10 +18,10 @@ More information: <https://book.babashka.org/#usage>.
 
 `bb -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.clj</span>
 
-- Bind input to a sequence of lines from stdin:
+- Bind input to a sequence of lines from `stdin`:
 
 `printf "first\nsecond" | bb -i "(map clojure.string/capitalize *input*)"`
 
-- Bind input to a sequence of EDN(Extensible Data Notation) values from stdin:
+- Bind input to a sequence of EDN(Extensible Data Notation) values from `stdin`:
 
 `echo "{:key 'val}" | bb -I "(:key (first *input*))"`

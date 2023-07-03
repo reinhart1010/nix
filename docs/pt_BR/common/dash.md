@@ -2,7 +2,8 @@
 layout: page
 title: common/dash (português (Brasil))
 description: "Debian Almquist Shell, uma implementação moderna e compatível com POSIX de `sh` (não compatível com Bash)."
-content_hash: 1c78ad7a1c53fb209116cc77334d98b8c3247022
+content_hash: 02c65b79c204464939658d6a7435981d7337af0d
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/dash.html
@@ -15,7 +16,13 @@ related_topics:
     icon: bi bi-globe
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/dash.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># dash
 
@@ -42,6 +49,6 @@ Mais informações: <https://manned.org/dash>.
 
 `dash -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/script.sh</span>
 
-- Lê e executa comandos de stdin:
+- Lê e executa comandos de `stdin`:
 
 `dash -s`

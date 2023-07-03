@@ -2,7 +2,8 @@
 layout: page
 title: common/b2sum (français)
 description: "Calcule les sommes de contrôle cryptographiques BLAKE2."
-content_hash: b7da405054c1943acd814895d7822a13e438a4a7
+content_hash: 8ef360d34862f315a2a0ff411d812220bbd122a0
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/b2sum.html
@@ -17,10 +18,7 @@ related_topics:
     url: /ta/common/b2sum.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># b2sum
+# b2sum
 
 Calcule les sommes de contrôle cryptographiques BLAKE2.
 Plus d'informations : <https://www.gnu.org/software/coreutils/b2sum>.
@@ -33,7 +31,7 @@ Plus d'informations : <https://www.gnu.org/software/coreutils/b2sum>.
 
 `b2sum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier2</span>
 
-- Calcule la somme de contrôle BLAKE2 depuis stdin :
+- Calcule la somme de contrôle BLAKE2 depuis `stdin` :
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commande</span>` | b2sum`
 

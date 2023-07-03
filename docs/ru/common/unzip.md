@@ -2,7 +2,8 @@
 layout: page
 title: common/unzip (русский)
 description: "Извлекает сжатые файлы из архива zip."
-content_hash: 001ad0a90386209d9d47fd809e9db643f774d97f
+content_hash: 16ffd5741c41b7d72d787e1d4b9250f57afe84f6
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/unzip.html
@@ -11,7 +12,16 @@ related_topics:
     url: /pt_BR/common/unzip.html
     icon: bi bi-globe
 ---
-# unzip
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/unzip.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># unzip
 
 Извлекает сжатые файлы из архива zip.
 Больше информации: <https://manned.org/unzip>.
@@ -28,7 +38,7 @@ related_topics:
 
 `unzip -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">архив.zip</span>
 
-- Извлечь содержимое файла в stdout вместе с именами распакованных файлов:
+- Извлечь содержимое файла в `stdout` вместе с именами распакованных файлов:
 
 `unzip -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">архив.zip</span>
 

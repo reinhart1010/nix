@@ -2,7 +2,8 @@
 layout: page
 title: common/grep (Türkçe)
 description: "Düzenli ifadeler (Regex) kullanarak dosyalardaki kalıpları bul."
-content_hash: da7fe5928c41cdb4cabe7a9690ec0fcb17d77b0d
+content_hash: a89134f87e13e9f1aad5c7ea0ae94d1850a80bec
+last_modified_at: 2023-07-03
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -65,6 +66,6 @@ Daha fazla bilgi için: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 `grep --only-matching "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aranan_kalıp</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/yolu</span>
 
-- Bir kalıpla eşleşmeyen satırlar için stdin'de arama yap:
+- Bir kalıpla eşleşmeyen satırlar için `stdin`'de arama yap:
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/yolu</span>` | grep --invert-match "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aranan_kalıp</span>`"`

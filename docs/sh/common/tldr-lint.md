@@ -2,7 +2,8 @@
 layout: page
 title: common/tldr-lint (sh)
 description: "Lintuje i formatira tldr stranice."
-content_hash: 76e67507973bc68ad9b7e068b9bcc3bd0e4753f2
+content_hash: 341bfecfbdf93c41e342c3de96e3e35be3a35511
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/tldr-lint.html
@@ -23,7 +24,7 @@ Više informacija: <https://github.com/tldr-pages/tldr-lint>.
 
 `tldr-lint `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">direktorijum_stranica</span>
 
-- Formatiraj određenu stranicu u stdout:
+- Formatiraj određenu stranicu u `stdout`:
 
 `tldr-lint --format `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stranica.md</span>
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/7za (한국어)
 description: "높은 파일 압축률을 보여주는 파일 압축 프로그램."
-content_hash: 781e095257d46656b1b989fe9d1a22c5defd9acb
-last_modified_at: 2023-05-18
+content_hash: 1ca362f742756be5b8a4ac5fd88c6294b9247788
+last_modified_at: 2023-07-03
 related_topics:
   - title: Deutsch version
     url: /de/common/7za.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/common/7za.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/7za.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/7za.html
@@ -61,7 +64,7 @@ related_topics:
 
 `7za x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/archive.7z</span>` -o`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">아웃풋/의/경로</span>
 
-- stdout에 압축파일 추출:
+- `stdout`에 압축파일 추출:
 
 `7za x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/archive.7z</span>` -so`
 

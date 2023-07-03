@@ -2,7 +2,8 @@
 layout: page
 title: common/bash (español)
 description: "Bourne-Again SHell."
-content_hash: e770046740e41be8c7c25e34930edfe4a498a307
+content_hash: 65ee8b153da49ed793809ac263cc7a4c34c9b64c
+last_modified_at: 2023-07-03
 related_topics:
   - title: Deutsch version
     url: /de/common/bash.html
@@ -32,7 +33,16 @@ related_topics:
     url: /zh_TW/common/bash.html
     icon: bi bi-globe
 ---
-# bash
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/bash.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># bash
 
 Bourne-Again SHell.
 Intérprete de línea de comandos compatible con `sh`.
@@ -58,7 +68,7 @@ Más información: <https://gnu.org/software/bash/>.
 
 `bash -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo.sh</span>
 
-- Ejecuta comandos desde stdin (entrada estándar):
+- Ejecuta comandos desde `stdin` (entrada estándar):
 
 `bash -s`
 

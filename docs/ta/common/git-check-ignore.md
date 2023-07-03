@@ -2,7 +2,8 @@
 layout: page
 title: common/git-check-ignore (தமிழ்)
 description: "(\".gitignore\") கோப்புகளை புறக்கணிக்கவும் / விலக்கவும் பகுப்பாய்வு செய்து பிழைத்திருத்தம் செய்யுங்கள்."
-content_hash: 76d928d5ac44adf7f38065e34be0029d0ecdcc54
+content_hash: 507ab32b7990b507986e51dec61378be0e06f9a6
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/git-check-ignore.html
@@ -33,7 +34,7 @@ related_topics:
 
 `git check-ignore `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அடைவிற்குப்/பாதை</span>
 
-- stdin இலிருந்து ஒரு வரியில் ஒன்றுக்கு பாதை பெயர்களைப் பயன்படுத்தவும்:
+- `stdin` இலிருந்து ஒரு வரியில் ஒன்றுக்கு பாதை பெயர்களைப் பயன்படுத்தவும்:
 
 `git check-ignore --stdin < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு_பட்டியல்</span>
 

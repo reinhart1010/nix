@@ -2,7 +2,8 @@
 layout: page
 title: common/git-commit-tree (Türkçe)
 description: "Commit cisimleri oluşturmaya yarayan düşük seviyeli araç."
-content_hash: 01a0a3dab56a1ee9a4db75c5b7aa3461a6b765e6
+content_hash: 9c4d228365d85c3251de57e1e2aa61f0f7910a98
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/git-commit-tree.html
@@ -21,7 +22,7 @@ Daha fazla bilgi için: <https://git-scm.com/docs/git-commit-tree>.
 
 `git commit-tree `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ağaç</span>` -m "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mesaj</span>`"`
 
-- Bir dosyadan mesaj okuyan bir commit cismi oluştur (stdin için `-` ekini kullan):
+- Bir dosyadan mesaj okuyan bir commit cismi oluştur (`stdin` için `-` ekini kullan):
 
 `git commit-tree `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ağaç</span>` -F `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya</span>
 

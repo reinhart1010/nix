@@ -2,7 +2,8 @@
 layout: page
 title: common/banner (한국어)
 description: "주어진 인자를 큰 ASCII art로 출력."
-content_hash: 1300046eff4a07745e107f2e800a4b540c1ac5d0
+content_hash: 7228ebd448fc6934303941827c5ed8cd44d0b170
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/banner.html
@@ -33,6 +34,6 @@ related_topics:
 
 `banner -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello World</span>`"`
 
-- stdin에서 텍스트 읽기:
+- `stdin`에서 텍스트 읽기:
 
 `banner`

@@ -2,8 +2,12 @@
 layout: page
 title: common/base64 (français)
 description: "Encoder ou décoder un fichier ou l'entrée standard en utilisant le codage Base64 à destination de la sortie standard."
-content_hash: a7962163c6c6774eadb68cfeeba70409bb7caee8
+content_hash: f7a55646ca4a489ceb7c180e6e9f52c776fb2c90
+last_modified_at: 2023-07-03
 related_topics:
+  - title: Deutsch version
+    url: /de/common/base64.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/base64.html
     icon: bi bi-globe
@@ -45,10 +49,10 @@ Plus d'informations : <https://www.gnu.org/software/coreutils/base64>.
 
 `base64 --decode `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span>
 
-- Encode depuis stdin :
+- Encode depuis `stdin` :
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">une_commande</span>` | base64`
 
-- Décode depuis stdin :
+- Décode depuis `stdin` :
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">une_commande</span>` | base64 --decode`

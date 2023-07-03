@@ -2,22 +2,19 @@
 layout: page
 title: common/clang-format (Deutsch)
 description: "Programm zum Auto-Formatieren von C/C++/Java/JavaScript/Objective-C/Protobuf/C#-Code."
-content_hash: 764eb7daa752d31982dcad2adeb5f60a553948d1
-last_modified_at: 2023-02-21
+content_hash: 57c9a32d6d1be4b941a2de094e3884c117418abc
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/clang-format.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># clang-format
+# clang-format
 
 Programm zum Auto-Formatieren von C/C++/Java/JavaScript/Objective-C/Protobuf/C#-Code.
 Weitere Informationen: <https://clang.llvm.org/docs/ClangFormat.html>.
 
-- Formatiere eine Datei und schreibe das Ergebnis nach stdout:
+- Formatiere eine Datei und schreibe das Ergebnis nach `stdout`:
 
 `clang-format `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/quelldatei.cpp</span>
 

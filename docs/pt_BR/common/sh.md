@@ -2,7 +2,8 @@
 layout: page
 title: common/sh (português (Brasil))
 description: "Bourne shell, o interpretador padrão da linha de comando."
-content_hash: 39640b731bc6f47e421785c5bd067e9c696c2ebe
+content_hash: bf2cb182387c63940f366441ab229005c0049f01
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/sh.html
@@ -32,6 +33,6 @@ Mais informações: <https://manned.org/sh>.
 
 `sh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/script.sh</span>
 
-- Leia e execute comandos da entrada stdin (entrada padrão):
+- Leia e execute comandos da entrada `stdin` (entrada padrão):
 
 `sh -s`

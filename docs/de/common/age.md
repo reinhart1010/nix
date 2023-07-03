@@ -2,16 +2,29 @@
 layout: page
 title: common/age (Deutsch)
 description: "Ein einfaches, modernes und sicheres Dateiverschlüsselungswerkzeug."
-content_hash: 5ab4bfd7dde7b17f00214542e43195e9a15d7749
+content_hash: b2ebb5af319d3c2d49cd91aa1e4aa13b1bd78a2a
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/age.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/age.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/age.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/age.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/age.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/age.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/age.html
     icon: bi bi-globe
 ---
 # age
@@ -23,7 +36,7 @@ Weitere Informationen: <https://age-encryption.org>.
 
 `age --passphrase --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/verschlüsselter_datei</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/unverschlüsselter_datei</span>
 
-- Generiere ein Schlüsselpaar, speichere dabei den privaten Schlüssel in einer unverschlüsselten Datei und gib den öffentlichen Schlüssel zu stdout aus:
+- Generiere ein Schlüsselpaar, speichere dabei den privaten Schlüssel in einer unverschlüsselten Datei und gib den öffentlichen Schlüssel zu `stdout` aus:
 
 `age-keygen --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei</span>
 

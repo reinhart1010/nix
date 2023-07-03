@@ -2,7 +2,8 @@
 layout: page
 title: common/bash (Nederlands)
 description: "Bourne-Again SHell."
-content_hash: af29b4e33bb9665e4ed73d9594ce5b3a7700dff7
+content_hash: ffc3786eec22e4fc32cef2958de456811db749ab
+last_modified_at: 2023-07-03
 related_topics:
   - title: Deutsch version
     url: /de/common/bash.html
@@ -32,7 +33,16 @@ related_topics:
     url: /zh_TW/common/bash.html
     icon: bi bi-globe
 ---
-# bash
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/bash.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># bash
 
 Bourne-Again SHell.
 `sh`-ondersteunende commandoregel-interpreteerder.
@@ -58,7 +68,7 @@ Meer informatie: <https://gnu.org/software/bash/>.
 
 `bash -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestand.sh</span>
 
-- Voer commando's van stdin uit:
+- Voer commando's van `stdin` uit:
 
 `bash -s`
 

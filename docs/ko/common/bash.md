@@ -2,8 +2,8 @@
 layout: page
 title: common/bash (한국어)
 description: "Bourne-Again SHell, an `sh`- 호환 명령 행 인터프리터."
-content_hash: 6939f6b2e04aa8e0d442f5f1eb713e5ad7a6ef4c
-last_modified_at: 2022-12-29
+content_hash: 78311b22ee4937eaa584709fa42afc1cb2959a68
+last_modified_at: 2023-07-03
 related_topics:
   - title: Deutsch version
     url: /de/common/bash.html
@@ -33,7 +33,16 @@ related_topics:
     url: /zh_TW/common/bash.html
     icon: bi bi-globe
 ---
-# bash
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/bash.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># bash
 
 Bourne-Again SHell, an `sh`- 호환 명령 행 인터프리터.
 참조 : `zsh`, `histexpand` (history expansion).
@@ -63,6 +72,6 @@ Bourne-Again SHell, an `sh`- 호환 명령 행 인터프리터.
 
 `bash -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/script.sh</span>
 
-- stdin에서 bash 실행하기:
+- `stdin`에서 bash 실행하기:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "echo 'bash가 실행되었습니다'"</span>` | bash`

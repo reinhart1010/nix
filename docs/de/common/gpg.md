@@ -2,7 +2,8 @@
 layout: page
 title: common/gpg (Deutsch)
 description: "GNU Privacy Guard."
-content_hash: c676733ace66132d3596e43ccbce16ad03827073
+content_hash: 7f631f6a2d8dd5ef8ff285121cea87d8bffd546b
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/gpg.html
@@ -36,7 +37,7 @@ Weitere Informationen: <https://gnupg.org>.
 
 `gpg --symmetric `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doc.txt</span>
 
-- Entschlüssle `doc.txt.gpg` (Ausgabe nach stdout):
+- Entschlüssle `doc.txt.gpg` (Ausgabe nach `stdout`):
 
 `gpg --decrypt `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doc.txt.gpg</span>
 
@@ -44,10 +45,10 @@ Weitere Informationen: <https://gnupg.org>.
 
 `gpg --import `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">schlüssel.gpg</span>
 
-- Exportiere den öffentlichen Schlüssel von alice@beispiel.de (Ausgabe nach stdout):
+- Exportiere den öffentlichen Schlüssel von alice@beispiel.de (Ausgabe nach `stdout`):
 
 `gpg --export --armor `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice@beispiel.de</span>
 
-- Exportiere den privaten Schlüssel von alice@beispiel.de (Ausgabe nach stdout):
+- Exportiere den privaten Schlüssel von alice@beispiel.de (Ausgabe nach `stdout`):
 
 `gpg --export-secret-keys --armor `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice@beispiel.de</span>

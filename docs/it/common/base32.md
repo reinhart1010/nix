@@ -2,7 +2,8 @@
 layout: page
 title: common/base32 (italiano)
 description: "Codifica o decodifica file o standard input in Base32 su standard output."
-content_hash: 17122f062a3c6ca34ab68c0822ed2ad79a00e1e5
+content_hash: 3900fadfcac930c1c8b8face3afe8f6cbe461892
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/base32.html
@@ -39,10 +40,10 @@ Maggiori informazioni: <https://www.gnu.org/software/coreutils/base32>.
 
 `base32 --decode `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_file</span>
 
-- Codifica da stdin:
+- Codifica da `stdin`:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>` | base32`
 
-- Decodifica da stdin:
+- Decodifica da `stdin`:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>` | base32 --decode`

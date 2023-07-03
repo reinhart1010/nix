@@ -2,7 +2,8 @@
 layout: page
 title: common/git-prune (Türkçe)
 description: "Nesne veritabanından erişilemeyen tüm nesneleri budamaya yarayan git komutu."
-content_hash: 5af517af3d436075919611423e92b50e66ce5f54
+content_hash: acfa1d910b3510298130e5bbbbf12c35bc4a9116
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/git-prune.html
@@ -21,7 +22,7 @@ Daha fazla bilgi için: <https://git-scm.com/docs/git-prune>.
 
 `git prune --dry-run`
 
-- Erişilemeyen nesneleri buda ve stdout'a budanan şeyleri görüntüle:
+- Erişilemeyen nesneleri buda ve `stdout`'a budanan şeyleri görüntüle:
 
 `git prune --verbose`
 

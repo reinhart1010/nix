@@ -2,8 +2,8 @@
 layout: page
 title: common/md-to-clip (English)
 description: "Converter from tldr-pages to Command Line Interface Pages."
-content_hash: 9b4f156837206f5e26aabe3e664e2ce1cb564ade
-last_modified_at: 2023-03-23
+content_hash: a3137a8e20ce590287a547877399dc60dcb33ee9
+last_modified_at: 2023-07-03
 ---
 # md-to-clip
 
@@ -19,7 +19,7 @@ More information: <https://github.com/command-line-interface-pages/v2-tooling/tr
 
 `md-to-clip --output-directory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/page1.md path/to/page2.md ...</span>
 
-- Convert a tldr-page file to stdout:
+- Convert a tldr-page file to `stdout`:
 
 `md-to-clip --no-file-save <(echo '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">page-content</span>`')`
 

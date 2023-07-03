@@ -2,7 +2,8 @@
 layout: page
 title: common/git-check-ignore (français)
 description: "Analyser et déboguer les fichiers ignorés / exclus (\".gitignore\") de Git."
-content_hash: ddc0abe12ea4ca2d9028205cd550099fe3e6f953
+content_hash: daa081e792ef7b2c58b333ef27b5944cb4591543
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/git-check-ignore.html
@@ -15,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-check-ignore.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-check-ignore.html
     icon: bi bi-globe
 ---
 # git check-ignore
@@ -30,7 +34,7 @@ Plus d'informations : <https://git-scm.com/docs/git-check-ignore>.
 
 `git check-ignore `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/répertoire</span>
 
-- Utilisez des chemins d'accès, un par ligne, de stdin :
+- Utilisez des chemins d'accès, un par ligne, de `stdin` :
 
 `git check-ignore --stdin < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier_annexe</span>
 

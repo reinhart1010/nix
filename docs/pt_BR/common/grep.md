@@ -2,8 +2,12 @@
 layout: page
 title: common/grep (português (Brasil))
 description: "Acha padrões em arquivos usando expressões regulares."
-content_hash: 08cb66486246556191b54bd9492e958a40c71abb
+content_hash: 5d8cbc78e721bb2e3a34fd3e95211d2c869adcab
+last_modified_at: 2023-07-03
 related_topics:
+  - title: dansk version
+    url: /da/common/grep.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/grep.html
     icon: bi bi-globe
@@ -16,8 +20,17 @@ related_topics:
   - title: français version
     url: /fr/common/grep.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/grep.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/grep.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/grep.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/grep.html
     icon: bi bi-globe
 ---
 # grep
@@ -53,6 +66,6 @@ Mais informações: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 `grep --only-matching "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrão_pesquisado</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
 
-- Pesquisa stdin para linhas que não correspondem a um padrão:
+- Pesquisa `stdin` para linhas que não correspondem a um padrão:
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>` | grep --invert-match "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrão_pesquisado</span>`"`

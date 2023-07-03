@@ -2,7 +2,8 @@
 layout: page
 title: common/git-format-patch (Türkçe)
 description: "`.patch` dosyaları oluştur. Commit'leri e-posta olarak gönderirken işe yarar."
-content_hash: 4723d0a78a15aff352c6d14626b857f24d8550b6
+content_hash: 115d50eb76f78435519f9a8997cb6df5e913bd2c
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/git-format-patch.html
@@ -27,7 +28,7 @@ Daha fazla bilgi için: <https://git-scm.com/docs/git-format-patch>.
 
 `git format-patch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">origin</span>
 
-- stdout'daki belirtilen 2 revizyon arasındaki tüm commit'ler için bir `.patch` dosyası oluştur:
+- `stdout`'daki belirtilen 2 revizyon arasındaki tüm commit'ler için bir `.patch` dosyası oluştur:
 
 `git format-patch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">revizyon_1</span>`..`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">revizyon_2</span>
 

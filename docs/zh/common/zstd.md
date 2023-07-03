@@ -2,7 +2,8 @@
 layout: page
 title: common/zstd (中文)
 description: "使用 Zstandard 压缩来压缩 / 解压文件。"
-content_hash: 717600d6d39e02c3463102cc9afcabb2ad09169f
+content_hash: eefdbc5c5ef2d85fcb01b57f3bfa0b939d956fd5
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/zstd.html
@@ -21,7 +22,7 @@ related_topics:
 
 `zstd -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>`.zst`
 
-- 将文件解压缩到标准输出（stdout）：
+- 将文件解压缩到标准输出（`stdout`）：
 
 `zstd -dc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>`.zst`
 

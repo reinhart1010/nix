@@ -2,25 +2,23 @@
 layout: page
 title: common/esbuild (português (Brasil))
 description: "Empacotador e minificador JavaScript construído para velocidade."
-content_hash: d404594c20b4a9289d8037b555335a5c53b1b5d2
+content_hash: dd41f2422a82cd7190b416afb52e03de57b945d4
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/esbuild.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># esbuild
+# esbuild
 
 Empacotador e minificador JavaScript construído para velocidade.
 Mais informações: <https://esbuild.github.io/>.
 
-- Empacota uma aplicação JavaScript e imprime para stdout:
+- Empacota uma aplicação JavaScript e imprime para `stdout`:
 
 `esbuild --bundle `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.js</span>
 
-- Empacota uma aplicação JSX de stdin:
+- Empacota uma aplicação JSX de `stdin`:
 
 `esbuild --bundle --outfile=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/saída.js</span>` < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.jsx</span>
 

@@ -2,7 +2,8 @@
 layout: page
 title: common/banner (中文)
 description: "将给定参数输出为大型 ASCII 文字。"
-content_hash: 9dbbc495f282e30f1c49d0e1cc2197477409e835
+content_hash: fd0f8d4a5e978e90783ade66a2caa97d7b9f4820
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/banner.html
@@ -33,6 +34,6 @@ related_topics:
 
 `banner -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hello World</span>`"`
 
-- 从 stdin 中读取文本：
+- 从 `stdin` 中读取文本：
 
 `banner`

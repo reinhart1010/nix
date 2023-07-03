@@ -2,7 +2,8 @@
 layout: page
 title: common/docker-exec (italiano)
 description: "Esegui un comando su un Docker container in esecuzione."
-content_hash: a02295b2292fda7224f37e7f4aba19e6e371b47f
+content_hash: 3fbb223138d58d938a156e537cc468192788012a
+last_modified_at: 2023-07-03
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-exec.html
@@ -34,7 +35,7 @@ Maggiori informazioni: <https://docs.docker.com/engine/reference/commandline/exe
 
 `docker exec --interactive -tty --workdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_container</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>
 
-- Esegui un comando in background su un container esistente, mantenendo aperto stdin:
+- Esegui un comando in background su un container esistente, mantenendo aperto `stdin`:
 
 `docker exec --interactive --detach `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_container</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>
 

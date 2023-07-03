@@ -2,7 +2,8 @@
 layout: page
 title: common/bash (português (Brasil))
 description: "Bourne-Again SHell, um interpretador de linha de comando compatível com `sh`."
-content_hash: c0550cce6efda53db142b1c9538b66658b7dbce0
+content_hash: 6167998eda460212de8fe93a7161135108dbc85f
+last_modified_at: 2023-07-03
 related_topics:
   - title: Deutsch version
     url: /de/common/bash.html
@@ -32,7 +33,16 @@ related_topics:
     url: /zh_TW/common/bash.html
     icon: bi bi-globe
 ---
-# bash
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/bash.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># bash
 
 Bourne-Again SHell, um interpretador de linha de comando compatível com `sh`.
 Veja também `histexpand` para a expansão do histórico.
@@ -58,7 +68,7 @@ Mais informações: <https://gnu.org/software/bash/>.
 
 `bash -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/script.sh</span>
 
-- Ler e executar comandos do stdin (entrada padrão):
+- Ler e executar comandos do `stdin` (entrada padrão):
 
 `bash -s`
 

@@ -2,7 +2,8 @@
 layout: page
 title: common/git-format-patch (italiano)
 description: "Prepara file .patch. Utile per l'invio di commit via email."
-content_hash: 9e9ce57299b6e0f22d2be49bcabd6df0c1e91fb3
+content_hash: ae5fea3e27d38a85008029bf8846bb645544f18e
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/git-format-patch.html
@@ -12,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/git-format-patch.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-format-patch.html
     icon: bi bi-globe
 ---
 # git format-patch
@@ -24,7 +28,7 @@ Maggiori informazioni: <https://git-scm.com/docs/git-format-patch>.
 
 `git format-patch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">origin</span>
 
-- Scrivi su stdout un file `.patch` per l'intervallo di commit definito dai due commit dati:
+- Scrivi su `stdout` un file `.patch` per l'intervallo di commit definito dai due commit dati:
 
 `git format-patch --stdout `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_1</span>`..`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_2</span>
 

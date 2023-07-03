@@ -2,7 +2,8 @@
 layout: page
 title: common/base64 (Türkçe)
 description: "Bir dosya veya standart veriyi Base64 formatında şifrele veya yalın veri çıktısı olarak deşifre et."
-content_hash: feb40ff10500e08afa1a707ed2dedaf35e2bfc58
+content_hash: dc0cc82dde0880eb6111fa813c9b05a6e64ddab3
+last_modified_at: 2023-07-03
 related_topics:
   - title: Deutsch version
     url: /de/common/base64.html
@@ -48,10 +49,10 @@ Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/base64>.
 
 `base64 --decode `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosyaismi</span>
 
-- stdin'den şifrele:
+- `stdin`'den şifrele:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">herhangibirkomut</span>` | base64`
 
-- stdin'den deşifre et:
+- `stdin`'den deşifre et:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">herhangibirkomut</span>` | base64 --decode`

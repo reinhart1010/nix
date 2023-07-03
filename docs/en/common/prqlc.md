@@ -2,13 +2,10 @@
 layout: page
 title: common/prqlc (English)
 description: "PRQL compiler."
-content_hash: 14f49a388a5c9399c1820bb661caf6937431954b
-last_modified_at: 2023-03-21
+content_hash: abbc5266f372c9491794c45da69c8e84e963ac03
+last_modified_at: 2023-07-03
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># prqlc
+# prqlc
 
 PRQL compiler.
 PRQL is a modern language for transforming data - a simple, powerful, pipelined SQL replacement.
@@ -18,7 +15,7 @@ More information: <https://prql-lang.org>.
 
 `prqlc compile`
 
-- Compile a specific `.prql` file to stdout:
+- Compile a specific `.prql` file to `stdout`:
 
 `prqlc compile `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.prql</span>
 

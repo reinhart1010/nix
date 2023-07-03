@@ -2,7 +2,8 @@
 layout: page
 title: common/wc (español)
 description: "Cuenta líneas, palabras, y bytes."
-content_hash: e5113a3024f22f6e4e65b7e1d704d4b07edd24bb
+content_hash: e424ee026834ad427cc34e7fe3329cd9614fb020
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/wc.html
@@ -38,7 +39,7 @@ Más información: <https://www.gnu.org/software/coreutils/wc>.
 
 `wc --chars `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 
-- Cuenta todas las líneas, palabras y bytes desde stdin:
+- Cuenta todas las líneas, palabras y bytes desde `stdin`:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">find .</span>` | wc`
 

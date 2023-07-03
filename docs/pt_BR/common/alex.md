@@ -2,10 +2,17 @@
 layout: page
 title: common/alex (português (Brasil))
 description: "Uma ferramenta que captura escrita insensível e sem consideraçāo."
-content_hash: 7dfac51d2ee97cf712f56f2c3c56c723943ebef3
+content_hash: f3d35122be1f29061b55ee57a26038c0c699aeeb
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/alex.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/alex.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/alex.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/alex.html
@@ -14,16 +21,13 @@ related_topics:
     url: /ko/common/alex.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># alex
+# alex
 
 Uma ferramenta que captura escrita insensível e sem consideraçāo.
 Ajuda a encontrar no texto, frases favorecedoras de gênero, polarizantes, relacionadas à raça, insensíveis à religiao e outras frases desiguais.
 Mais informações: <https://github.com/get-alex/alex>.
 
-- Analisa o texto do stdin:
+- Analisa o texto do `stdin`:
 
 `echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">A rede dele parece boa</span>` | alex --stdin`
 

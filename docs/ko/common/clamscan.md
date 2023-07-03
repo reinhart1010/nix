@@ -2,8 +2,8 @@
 layout: page
 title: common/clamscan (한국어)
 description: "바이러스 검사를 하는 줄 명령어."
-content_hash: c6c81ae655b8b1f235c30323986503b403c4d4c6
-last_modified_at: 2023-05-24
+content_hash: dbb1c02091e29ca22cf953075efa2766915cf1ed
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/clamscan.html
@@ -28,7 +28,7 @@ related_topics:
 
 `clamscan -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/디렉토리</span>
 
-- stdin 으로부터 데이터를 검사합니다:
+- `stdin` 으로부터 데이터를 검사합니다:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">명령어</span>` | clamscan -`
 

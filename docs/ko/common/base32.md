@@ -2,7 +2,8 @@
 layout: page
 title: common/base32 (한국어)
 description: "파일 또는 표준 입력을 Base32와 표준 출력으로 인코딩하거나 디코딩함."
-content_hash: 188f6de9f9c77d35655280a79f137c1b95c489cf
+content_hash: c60e9f473ccdef67e2fb621a27fb344ece5f0a6a
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/base32.html
@@ -39,10 +40,10 @@ related_topics:
 
 `base32 --decode `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>
 
-- stdin에서 인코딩:
+- `stdin`에서 인코딩:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">somecommand</span>` | base32`
 
-- stdin에서 디코딩:
+- `stdin`에서 디코딩:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">somecommand</span>` | base32 --decode`

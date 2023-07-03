@@ -2,8 +2,12 @@
 layout: page
 title: common/base64 (Nederlands)
 description: "Codeer of decodeer bestand of standaardinvoer van/naar Base64 naar standaarduitvoer."
-content_hash: 47220bfde995c4ddd257ba43ddabe0cd0b3449e7
+content_hash: d664f67e0d504c0a28f22991c34fb1e5351eef46
+last_modified_at: 2023-07-03
 related_topics:
+  - title: Deutsch version
+    url: /de/common/base64.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/base64.html
     icon: bi bi-globe
@@ -45,10 +49,10 @@ Meer informatie: <https://www.gnu.org/software/coreutils/base64>.
 
 `base64 --decode `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestandsnaam</span>
 
-- Codeer stdin:
+- Codeer `stdin`:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eencommando</span>` | base64`
 
-- Decodeer stdin:
+- Decodeer `stdin`:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">eencommando</span>` | base64 --decode`

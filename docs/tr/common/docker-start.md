@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-start (Türkçe)
 description: "Bir veya daha fazla durmuş konteyneri başlar."
-content_hash: 154c410a9668a4ee9d13793d40c049e10ddc4b94
-last_modified_at: 2023-05-20
+content_hash: 777e5289cb335255f5c2081b9530dd249d0f80f2
+last_modified_at: 2023-07-03
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-start.html
@@ -34,7 +34,7 @@ Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/st
 
 `docker start `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">konteyner</span>
 
-- Bir konteyneri, ona stdout ile stderr'i ekleyerek ve sinyaller göndererek başlat:
+- Bir konteyneri, ona `stdout` ile `stderr`'i ekleyerek ve sinyaller göndererek başlat:
 
 `docker start --attach `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">konteyner</span>
 

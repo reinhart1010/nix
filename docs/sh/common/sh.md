@@ -2,7 +2,8 @@
 layout: page
 title: common/sh (sh)
 description: "Bourne ljuska."
-content_hash: 38aba4bcec72fcd4a7d6d536da9c9ac0337efc30
+content_hash: 12164082f925e465e98567d1ee902c88df1d03be
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/sh.html
@@ -32,6 +33,6 @@ Više informacija: <https://manned.org/sh>.
 
 `sh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">datoteka.sh</span>
 
-- Pokreni komande iz stdin-a:
+- Pokreni komande iz `stdin`-a:
 
 `sh -s`

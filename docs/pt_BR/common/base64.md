@@ -1,9 +1,13 @@
 ---
 layout: page
 title: common/base64 (português (Brasil))
-description: "Codifica ou decodifica um arquivo ou uma entrada padrão (stdin) de/para Base64, para uma saída padrão (stdout)."
-content_hash: aac57ceaefd1f06779bbb94a03f319bdf339757a
+description: "Codifica ou decodifica um arquivo ou uma entrada padrão (`stdin`) de/para Base64, para uma saída padrão (`stdout`)."
+content_hash: 0692ac03c5095b2da73ef1a5d75d2bb6b0a92707
+last_modified_at: 2023-07-03
 related_topics:
+  - title: Deutsch version
+    url: /de/common/base64.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/base64.html
     icon: bi bi-globe
@@ -34,21 +38,21 @@ related_topics:
 ---
 # base64
 
-Codifica ou decodifica um arquivo ou uma entrada padrão (stdin) de/para Base64, para uma saída padrão (stdout).
+Codifica ou decodifica um arquivo ou uma entrada padrão (`stdin`) de/para Base64, para uma saída padrão (`stdout`).
 Mais informações: <https://www.gnu.org/software/coreutils/base64>.
 
-- Codifica o conteúdo de um arquivo para base64 e grava o resultado em stdout:
+- Codifica o conteúdo de um arquivo para base64 e grava o resultado em `stdout`:
 
 `base64 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_arquivo</span>
 
-- Decodifica o conteúdo de um arquivo em base64 e grava o resultado em stdout:
+- Decodifica o conteúdo de um arquivo em base64 e grava o resultado em `stdout`:
 
 `base64 --decode `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_arquivo</span>
 
-- Codifica a partir de stdin:
+- Codifica a partir de `stdin`:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">algum_comando</span>` | base64`
 
-- Decodifica a partir de stdin:
+- Decodifica a partir de `stdin`:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">algum_comando</span>` | base64 --decode`

@@ -2,7 +2,8 @@
 layout: page
 title: common/base32 (polski)
 description: "Enkoduj lub dekoduj plik lub standardowe wejście do/z Base32, na standardowe wyjście."
-content_hash: d1fa35f599e2ef5178f186d0be84b5b57175b357
+content_hash: ddaa7baf8d2e4f26557274013e55ad9e2ecd9eb6
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/base32.html
@@ -39,10 +40,10 @@ Więcej informacji: <https://www.gnu.org/software/coreutils/base32>.
 
 `base32 --decode `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwapliku</span>
 
-- Enkoduj z stdin:
+- Enkoduj z `stdin`:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jakiespolecenie</span>` | base32`
 
-- Dekoduj z stdin:
+- Dekoduj z `stdin`:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jakiespolecenie</span>` | base32 --decode`

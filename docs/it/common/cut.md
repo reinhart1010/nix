@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/cut (italiano)
-description: "Taglia dividendo in campi stdin o file."
-content_hash: ccd231810aaca98fef9ab6d084e63fe23723613f
+description: "Taglia dividendo in campi `stdin` o file."
+content_hash: 50be6b22566b60e2c8139fa964983d3c24cee6a8
+last_modified_at: 2023-07-03
 related_topics:
   - title: Deutsch version
     url: /de/common/cut.html
@@ -16,13 +17,25 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cut.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/cut.html
+    icon: bi bi-globe
 ---
-# cut
 
-Taglia dividendo in campi stdin o file.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/cut.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># cut
+
+Taglia dividendo in campi `stdin` o file.
 Maggiori informazioni: <https://www.gnu.org/software/coreutils/cut>.
 
-- Estrai i primi 16 caratteri di ogni riga da stdin:
+- Estrai i primi 16 caratteri di ogni riga da `stdin`:
 
 `cut -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1-16</span>
 

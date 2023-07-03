@@ -2,7 +2,8 @@
 layout: page
 title: common/tldr-lint (Türkçe)
 description: "`tldr` sayfalarını gözden geçir ve biçimlendir."
-content_hash: 1761e453aed7542d9c68a5b8aaf02554f47684f9
+content_hash: 1529f02843397e5070462ba85e0d492e2be03b9a
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/tldr-lint.html
@@ -23,7 +24,7 @@ Daha fazla bilgi için: <https://github.com/tldr-pages/tldr-lint>.
 
 `tldr-lint `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sayfa_dizini</span>
 
-- Belirtilmiş bir sayfayı stdout'a biçimlendir:
+- Belirtilmiş bir sayfayı `stdout`'a biçimlendir:
 
 `tldr-lint --format `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">page.md</span>
 

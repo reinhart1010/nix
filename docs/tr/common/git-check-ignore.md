@@ -2,7 +2,8 @@
 layout: page
 title: common/git-check-ignore (Türkçe)
 description: "Git yoksayma / dışlama (\".gitignore\") dosyalarını analiz et."
-content_hash: 84755dc6904cdbce0d5059471a396f40efde679d
+content_hash: e6b10b1ad3a05fd69bc18b231f36db61038749ea
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/git-check-ignore.html
@@ -33,7 +34,7 @@ Daha fazla bilgi için: <https://git-scm.com/docs/git-check-ignore>.
 
 `git check-ignore `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dizin</span>
 
-- Her bir satıra tekabül edecek şekilde stdin'den yolisimleri kullan:
+- Her bir satıra tekabül edecek şekilde `stdin`'den yolisimleri kullan:
 
 `git check-ignore --stdin < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya_sırası</span>
 

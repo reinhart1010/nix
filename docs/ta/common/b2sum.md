@@ -2,10 +2,14 @@
 layout: page
 title: common/b2sum (தமிழ்)
 description: "BLAKE2 கிரிப்டோகிராஃபிக் செக்ஸம்களைக் கணக்கிடவும்."
-content_hash: bb7d4556d2d44091d215120cd4a00c1281e2f36e
+content_hash: f1e7c9769bf49699d9fec1336d883b2f6fd71e15
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/b2sum.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/b2sum.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/b2sum.html
@@ -27,7 +31,7 @@ BLAKE2 கிரிப்டோகிராஃபிக் செக்ஸம்
 
 `b2sum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு2</span>
 
-- stdin இலிருந்து BLAKE2 செக்சம் கணக்கிடவும்:
+- `stdin` இலிருந்து BLAKE2 செக்சம் கணக்கிடவும்:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">சில_கட்டளை</span>` | b2sum`
 

@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/base32 (português (Brasil))
-description: "Codifica ou decodifica um arquivo ou a entrada padrão (stdin) de/para Base32, para a saída padrão (stdout)."
-content_hash: d04c97d7b28eb958eef21185f642be2af251334c
+description: "Codifica ou decodifica um arquivo ou a entrada padrão (`stdin`) de/para Base32, para a saída padrão (`stdout`)."
+content_hash: 9e58e5d1c444d82d17b701935b1d3544f82dd49e
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/common/base32.html
@@ -28,7 +29,7 @@ related_topics:
 ---
 # base32
 
-Codifica ou decodifica um arquivo ou a entrada padrão (stdin) de/para Base32, para a saída padrão (stdout).
+Codifica ou decodifica um arquivo ou a entrada padrão (`stdin`) de/para Base32, para a saída padrão (`stdout`).
 Mais informações: <https://www.gnu.org/software/coreutils/base32>.
 
 - Codifica um arquivo:
@@ -39,10 +40,10 @@ Mais informações: <https://www.gnu.org/software/coreutils/base32>.
 
 `base32 --decode `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_arquivo</span>
 
-- Codifica a partir de stdin:
+- Codifica a partir de `stdin`:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">algum_comando</span>` | base32`
 
-- Decodifica a partir de stdin:
+- Decodifica a partir de `stdin`:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">algum_comando</span>` | base32 --decode`
