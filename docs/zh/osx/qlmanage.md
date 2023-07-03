@@ -2,8 +2,8 @@
 layout: page
 title: osx/qlmanage (中文)
 description: "QuickLook 服务器工具。"
-content_hash: 2ac5e477e60a8c74f0d91a2602e75638e2e5e54b
-last_modified_at: 2023-05-21
+content_hash: 03728392e82f6f684b4c192f3310e8917e8c7fcc
+last_modified_at: 2023-07-03
 related_topics:
   - title: English version
     url: /en/osx/qlmanage.html
@@ -16,7 +16,7 @@ QuickLook 服务器工具。
 
 - 快速显示一个或多个文件：
 
-`qlmanage -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件1个 路径/到/文件2个 ...</span>
+`qlmanage -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件1 路径/到/文件2 ...</span>
 
 - 计算生成当前目录中所有 jpeg 文件的缩略图，300px 宽 png 格式，并将它们放在一个指定目录中：
 
