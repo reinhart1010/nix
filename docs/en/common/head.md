@@ -2,8 +2,8 @@
 layout: page
 title: common/head (English)
 description: "Output the first part of files."
-content_hash: db7e48395726a62595d011854fb689708e1e1ae9
-last_modified_at: 2023-02-03
+content_hash: 51b5241e59e3df35b60c055e81bc9c024f3abafc
+last_modified_at: 2023-07-09
 related_topics:
   - title: Deutsch version
     url: /de/common/head.html
@@ -21,7 +21,7 @@ related_topics:
 # head
 
 Output the first part of files.
-More information: <https://www.gnu.org/software/coreutils/head>.
+More information: <https://manned.org/head.1p>.
 
 - Output the first few lines of a file:
 

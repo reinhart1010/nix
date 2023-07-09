@@ -2,13 +2,13 @@
 layout: page
 title: common/fold (English)
 description: "Wraps each line in an input file to fit a specified width and prints it to the standard output."
-content_hash: b01ee773754880b2371af2aae0d9f5ce857e1993
-last_modified_at: 2022-12-04
+content_hash: 13ecfe1c5479536e95f04405a8578f07c6e340c1
+last_modified_at: 2023-07-09
 ---
 # fold
 
 Wraps each line in an input file to fit a specified width and prints it to the standard output.
-More information: <https://www.gnu.org/software/coreutils/fold>.
+More information: <https://manned.org/fold.1p>.
 
 - Wrap each line to default width (80 characters):
 
