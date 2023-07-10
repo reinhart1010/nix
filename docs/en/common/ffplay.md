@@ -2,7 +2,8 @@
 layout: page
 title: common/ffplay (English)
 description: "A simple and portable media player using the FFmpeg libraries and the SDL library."
-content_hash: f71f9b9f413cb2e333768abfdeb9f1116623fb0a
+content_hash: 0e696f4899fda903875970aa3eb4e00834475eb4
+last_modified_at: 2023-07-10
 ---
 # ffplay
 
@@ -12,6 +13,14 @@ More information: <https://ffmpeg.org/ffplay-all.html>.
 - Play a media file:
 
 `ffplay `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+
+- Play audio from a media file without a GUI:
+
+`ffplay -nodisp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+
+- Play media passed by `ffmpeg` through `stdin`:
+
+`ffmpeg -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">copy</span>` -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">media_format</span>` - | ffplay -`
 
 - Play a video and show motion vectors in real time:
 
