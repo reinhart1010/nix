@@ -2,17 +2,18 @@
 layout: page
 title: common/peerindex (English)
 description: "Inspect MRT TABLE_DUMPV2 Peer Index Table."
-content_hash: b78b2145c9e0dcfc128d660a9bd0057d751a4719
-last_modified_at: 2023-06-23
+content_hash: ed32119b10f8baffedd6deaecdea641a720c0f6f
+last_modified_at: 2023-07-11
+related_topics:
+  - title: Deutsch version
+    url: /de/common/peerindex.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># peerindex
+# peerindex
 
 Inspect MRT TABLE_DUMPV2 Peer Index Table.
 Can read files compressed with gzip, bzip2 and xz.
-More information: <https://gitea.it/1414codeforge/ubgpsuite>.
+More information: <https://codeberg.org/1414codeforge/ubgpsuite>.
 
 - Output all peers:
 

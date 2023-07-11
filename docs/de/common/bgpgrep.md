@@ -2,21 +2,18 @@
 layout: page
 title: common/bgpgrep (Deutsch)
 description: "Filtert und gibt BGP-Daten in einem MRT-Dump aus."
-content_hash: a3cfc51659401c0c4261d9b692f40f233e6bff5f
-last_modified_at: 2023-07-10
+content_hash: 27a91ef973927c189475ff437be51d043babe039
+last_modified_at: 2023-07-11
 related_topics:
   - title: English version
     url: /en/common/bgpgrep.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bgpgrep
+# bgpgrep
 
 Filtert und gibt BGP-Daten in einem MRT-Dump aus.
 Kann mit gzip, bzip2 und xz komprimierte Dateien lesen.
-Weitere Informationen: <https://gitea.it/1414codeforge/ubgpsuite>.
+Weitere Informationen: <https://codeberg.org/1414codeforge/ubgpsuite>.
 
 - Gib alle Routen aus:
 

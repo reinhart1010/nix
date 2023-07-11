@@ -2,13 +2,10 @@
 layout: page
 title: common/whisper (English)
 description: "CLI tool to convert audio files to txt,vtt,srt,tsv,json."
-content_hash: 89227b6a93366f3c5399c0ef18e43b5899b053c8
-last_modified_at: 2023-03-06
+content_hash: 4ff82f11c0096ca5c0feeed4d0e2e0da3b66b4f8
+last_modified_at: 2023-07-11
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># whisper
+# whisper
 
 CLI tool to convert audio files to txt,vtt,srt,tsv,json.
 More information: <https://github.com/openai/whisper>.
@@ -19,7 +16,7 @@ More information: <https://github.com/openai/whisper>.
 
 - Convert an audio file specifying the output format of the converted file:
 
-`whisper `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/audio.mp3</span>` --output-format `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">txt</span>
+`whisper `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/audio.mp3</span>` --output_format `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">txt</span>
 
 - Convert an audio file using a specific model for conversion:
 
