@@ -2,19 +2,16 @@
 layout: page
 title: common/birdc (English)
 description: "Bird remote control."
-content_hash: 5e6853fe5a51f76598dfd0cde79ad898f06c0a51
-last_modified_at: 2023-03-20
+content_hash: 1314aeea9bd6ef62d7bf0f4e8b948057bdef06fe
+last_modified_at: 2023-07-13
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># birdc
+# birdc
 
 Bird remote control.
 Command tool to retrieve information like routes from bird and perform configurations during runtime.
 More information: <https://bird.network.cz/>.
 
-- Open the remote control console::
+- Open the remote control console:
 
 `birdc`
 
@@ -26,7 +23,7 @@ More information: <https://bird.network.cz/>.
 
 `birdc show status`
 
-- Show all active protocols:
+- Show all configured protocols:
 
 `birdc show protocols`
 

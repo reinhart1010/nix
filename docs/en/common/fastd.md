@@ -2,8 +2,8 @@
 layout: page
 title: common/fastd (English)
 description: "VPN daemon."
-content_hash: df0d0ddf934d74f625e19ce462ec7ad536743ec1
-last_modified_at: 2023-06-28
+content_hash: a4a91429a6bcd48994a870fc75f3c2a89a7697e9
+last_modified_at: 2023-07-13
 ---
 # fastd
 
@@ -31,6 +31,6 @@ More information: <https://fastd.readthedocs.io/en/stable/>.
 
 `fastd --show-key --config `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/fastd.conf</span>
 
-- Show the current version::
+- Show the current version:
 
 `fastd -v`
