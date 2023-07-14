@@ -1,11 +1,21 @@
 ---
 layout: page
 title: common/llvm-nm (ไทย)
-description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `nm`."
-content_hash: 2f7ecb669d14af920d6c2d75c71bd88e10d15e9e
+description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `nm`"
+content_hash: a5621466febe371cb16c1c34b4dda1e4f0d65682
+last_modified_at: 2023-07-14
 related_topics:
+  - title: العربية version
+    url: /ar/common/llvm-nm.html
+    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/llvm-nm.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/common/llvm-nm.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/common/llvm-nm.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/llvm-nm.html
@@ -31,13 +41,22 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/llvm-nm.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/llvm-nm.html
+    icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/common/llvm-nm.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/common/llvm-nm.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/llvm-nm.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/llvm-nm.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/llvm-nm.html
     icon: bi bi-globe
   - title: polski version
@@ -45,6 +64,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/llvm-nm.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/common/llvm-nm.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/llvm-nm.html
@@ -54,6 +76,9 @@ related_topics:
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/llvm-nm.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/llvm-nm.html
     icon: bi bi-globe
   - title: українська version
     url: /uk/common/llvm-nm.html
@@ -67,7 +92,7 @@ related_topics:
 ---
 # llvm-nm
 
-คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `nm`.
+คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `nm`
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 

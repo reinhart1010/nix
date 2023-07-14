@@ -2,13 +2,17 @@
 layout: page
 title: windows/explorer (ไทย)
 description: "โปรแกรมจัดการไฟล์ของวินโดวส์."
-content_hash: cabbe54589ef09948f76e7f75e1fcda1b898d1e3
+content_hash: 28c1af82f48d8b0bd1b46a2859b4d7916c6166b2
+last_modified_at: 2023-07-14
 related_topics:
   - title: English version
     url: /en/windows/explorer.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/windows/explorer.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/explorer.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/explorer.html
@@ -20,13 +24,10 @@ related_topics:
     url: /zh_TW/windows/explorer.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># explorer
+# explorer
 
 โปรแกรมจัดการไฟล์ของวินโดวส์.
-ข้อมูลเพิ่มเติม: <https://ss64.com/nt/explorer.html>.
+ข้อมูลเพิ่มเติม: <https://ss64.com/nt/explorer.html>
 
 - เปิดโปรแกรมจัดการไฟล์:
 

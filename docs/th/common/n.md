@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/n (ไทย)
-description: "เครื่องมือในการจัดการเวอร์ชั่นของ node."
-content_hash: c0c166f11fb55edbe079b5396cac3c5c82f1f372
+description: "เครื่องมือในการจัดการเวอร์ชั่นของ node"
+content_hash: 6e68fd225182be9e0782db4992e59f2206f13423
+last_modified_at: 2023-07-14
 related_topics:
   - title: English version
     url: /en/common/n.html
@@ -13,8 +14,8 @@ related_topics:
 ---
 # n
 
-เครื่องมือในการจัดการเวอร์ชั่นของ node.
-ข้อมูลเพิ่มเติม: <https://github.com/tj/n>.
+เครื่องมือในการจัดการเวอร์ชั่นของ node
+ข้อมูลเพิ่มเติม: <https://github.com/tj/n>
 
 - ติดตั้ง node เวอร์ชั่นที่กำหนด ถ้าหากเวอร์ชั่นที่กำหนดถูกติดตั้งแล้ว เวอร์ชั่นดังกล่าวจะถูกเปิดใช้งาน:
 

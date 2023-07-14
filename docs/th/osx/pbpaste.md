@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/pbpaste (ไทย)
-description: "ส่งเนื้อหาของคลิปบอร์ดไปยังผลผลิตมาตรฐาน (`stdout`)."
-content_hash: b75da3d4d99c9efa4e942ceea32fb1b48b7f8acf
-last_modified_at: 2023-02-03
+description: "ส่งเนื้อหาของคลิปบอร์ดไปยังผลผลิตมาตรฐาน (`stdout`)"
+content_hash: 248f84ff8283960d2cb5e5284433091c61c2e92f
+last_modified_at: 2023-07-14
 related_topics:
   - title: Deutsch version
     url: /de/osx/pbpaste.html
@@ -18,14 +18,11 @@ related_topics:
     url: /zh/osx/pbpaste.html
     icon: bi bi-globe
 ---
+# pbpaste
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pbpaste
-
-ส่งเนื้อหาของคลิปบอร์ดไปยังผลผลิตมาตรฐาน (`stdout`).
-เทียบได้กับการกดปุ่ม Cmd + V บนแป้นพิมพ์.
-ข้อมูลเพิ่มเติม: <https://ss64.com/osx/pbpaste.html>.
+ส่งเนื้อหาของคลิปบอร์ดไปยังผลผลิตมาตรฐาน (`stdout`)
+เทียบได้กับการกดปุ่ม Cmd + V บนแป้นพิมพ์
+ข้อมูลเพิ่มเติม: <https://ss64.com/osx/pbpaste.html>
 
 - เขียนเนื้อหาของคลิปบอร์ดไปยังไฟล์:
 

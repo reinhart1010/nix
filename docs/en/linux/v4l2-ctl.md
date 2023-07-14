@@ -2,7 +2,8 @@
 layout: page
 title: linux/v4l2-ctl (English)
 description: "Control video devices."
-content_hash: d0a07e0ca5d156844b419509bef7fb91ca9b265d
+content_hash: 87e8f4a34f943bb76720fc44e7f1c9c1952d3d0f
+last_modified_at: 2023-07-14
 ---
 # v4l2-ctl
 
@@ -35,4 +36,8 @@ More information: <https://manned.org/v4l2-ctl>.
 
 - List all video device's controls and their values:
 
-`v4l2-ctl --list-ctrls --device `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/video_device</span>
+`v4l2-ctl --list-ctrls --device `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/video_device</span>
+
+- Set the value of a video device control:
+
+`v4l2-ctl --device `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/video_device</span>` --set-ctrl=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">control_name</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span>

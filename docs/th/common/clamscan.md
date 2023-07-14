@@ -2,8 +2,8 @@
 layout: page
 title: common/clamscan (ไทย)
 description: "โปรแกรมตรวจหาไวรัสบนคอมมานด์ไลน์"
-content_hash: 4bf5a9e6565e19bdaa488baea232af4b46397f53
-last_modified_at: 2023-05-24
+content_hash: ac6349b9bf72c9c894069a5d808dc4f747654fb2
+last_modified_at: 2023-07-14
 related_topics:
   - title: English version
     url: /en/common/clamscan.html
@@ -18,7 +18,7 @@ related_topics:
 # clamscan
 
 โปรแกรมตรวจหาไวรัสบนคอมมานด์ไลน์
-ข้อมูลเพิ่มเติม: <https://docs.clamav.net/manual/Usage/Scanning.html#clamscan>.
+ข้อมูลเพิ่มเติม: <https://docs.clamav.net/manual/Usage/Scanning.html#clamscan>
 
 - แสกนไฟล์หาช่องโหว่ทางความปลอดภัย:
 

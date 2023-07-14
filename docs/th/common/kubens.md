@@ -1,20 +1,18 @@
 ---
 layout: page
 title: common/kubens (ไทย)
-description: "คำสั่งอรรถประโยชน์สำหรับสลับเนมสเปซของ Kubernetes."
-content_hash: 5dd4f83613ff34dda89c57bc6184659505366c0e
+description: "คำสั่งอรรถประโยชน์สำหรับสลับเนมสเปซของ Kubernetes"
+content_hash: 69245cda767d1728a46b2f80336cfd954d18a042
+last_modified_at: 2023-07-14
 related_topics:
   - title: English version
     url: /en/common/kubens.html
     icon: bi bi-globe
 ---
+# kubens
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># kubens
-
-คำสั่งอรรถประโยชน์สำหรับสลับเนมสเปซของ Kubernetes.
-ข้อมูลเพิ่มเติม: <https://github.com/ahmetb/kubectx>.
+คำสั่งอรรถประโยชน์สำหรับสลับเนมสเปซของ Kubernetes
+ข้อมูลเพิ่มเติม: <https://github.com/ahmetb/kubectx>
 
 - แสดงเนมสเปซทั้งหมด:
 

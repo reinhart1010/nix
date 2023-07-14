@@ -2,7 +2,8 @@
 layout: page
 title: common/ls (ไทย)
 description: "แสดงชื่อ ขนาด หรือข้อมูลเบื้องต้นของแต่ละไฟล์หรือโฟลเดอร์"
-content_hash: bb52b5ad8875736423cb5f3c0d7973107097ed21
+content_hash: 04f0a11cce32bf3cb0ac48ba4cda313563ed19cd
+last_modified_at: 2023-07-14
 related_topics:
   - title: català version
     url: /ca/common/ls.html
@@ -37,6 +38,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/ls.html
     icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/ls.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/ls.html
     icon: bi bi-globe
@@ -53,13 +57,10 @@ related_topics:
     url: /zh_TW/common/ls.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ls
+# ls
 
 แสดงชื่อ ขนาด หรือข้อมูลเบื้องต้นของแต่ละไฟล์หรือโฟลเดอร์
-ข้อมูลเพิ่มเติม: <https://www.gnu.org/software/coreutils/ls>.
+ข้อมูลเพิ่มเติม: <https://www.gnu.org/software/coreutils/ls>
 
 - แสดงชื่อไฟล์หรือโฟลเดอร์ หนึ่งชื่อต่อบรรทัด:
 

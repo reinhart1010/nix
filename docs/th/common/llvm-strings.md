@@ -1,11 +1,21 @@
 ---
 layout: page
 title: common/llvm-strings (ไทย)
-description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `strings`."
-content_hash: 6fdc08b05195c09bed41dd51483447a9ede78d31
+description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `strings`"
+content_hash: e5c0b653196febdf52eacfcdde6892a90525df3f
+last_modified_at: 2023-07-14
 related_topics:
+  - title: العربية version
+    url: /ar/common/llvm-strings.html
+    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/llvm-strings.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/common/llvm-strings.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/common/llvm-strings.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/llvm-strings.html
@@ -31,13 +41,22 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/llvm-strings.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/llvm-strings.html
+    icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/common/llvm-strings.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/common/llvm-strings.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/llvm-strings.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/llvm-strings.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/llvm-strings.html
     icon: bi bi-globe
   - title: polski version
@@ -45,6 +64,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/llvm-strings.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/common/llvm-strings.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/llvm-strings.html
@@ -54,6 +76,9 @@ related_topics:
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/llvm-strings.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/llvm-strings.html
     icon: bi bi-globe
   - title: українська version
     url: /uk/common/llvm-strings.html
@@ -67,7 +92,7 @@ related_topics:
 ---
 # llvm-strings
 
-คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `strings`.
+คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `strings`
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 

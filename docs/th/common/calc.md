@@ -2,7 +2,8 @@
 layout: page
 title: common/calc (ไทย)
 description: "เครื่องคิดเลขแบบโต้ตอบในเทอร์มินัล"
-content_hash: 2c7db7a10a6265fb17ebcae468d348d2c59cfeed
+content_hash: ee0283bd4e0ba7a219dbf186333ee55a15063385
+last_modified_at: 2023-07-14
 related_topics:
   - title: català version
     url: /ca/common/calc.html
@@ -16,6 +17,9 @@ related_topics:
   - title: español version
     url: /es/common/calc.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/calc.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/common/calc.html
     icon: bi bi-globe
@@ -26,13 +30,10 @@ related_topics:
     url: /ta/common/calc.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># calc
+# calc
 
 เครื่องคิดเลขแบบโต้ตอบในเทอร์มินัล
-ข้อมูลเพิ่มเติม: <https://github.com/lcn2/calc>.
+ข้อมูลเพิ่มเติม: <https://github.com/lcn2/calc>
 
 - คำนวณในแบบโต้ตอบ:
 

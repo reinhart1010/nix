@@ -1,11 +1,21 @@
 ---
 layout: page
 title: common/pio-init (ไทย)
-description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `pio project`."
-content_hash: ed7f81f23bc7092944c0f93e76c960e138961ca0
+description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `pio project`"
+content_hash: 8d365b157cd4aa40b4329ce9a7a888e8efc16a69
+last_modified_at: 2023-07-14
 related_topics:
+  - title: العربية version
+    url: /ar/common/pio-init.html
+    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/pio-init.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/common/pio-init.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/common/pio-init.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/pio-init.html
@@ -31,13 +41,22 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/pio-init.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/pio-init.html
+    icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/common/pio-init.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/common/pio-init.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/pio-init.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/pio-init.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/pio-init.html
     icon: bi bi-globe
   - title: polski version
@@ -45,6 +64,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/pio-init.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/common/pio-init.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/pio-init.html
@@ -54,6 +76,9 @@ related_topics:
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/pio-init.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/pio-init.html
     icon: bi bi-globe
   - title: українська version
     url: /uk/common/pio-init.html
@@ -67,7 +92,7 @@ related_topics:
 ---
 # pio-init
 
-คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `pio project`.
+คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `pio project`
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 

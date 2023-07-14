@@ -1,24 +1,99 @@
 ---
 layout: page
 title: common/bundler (ไทย)
-description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `bundle`."
-content_hash: b2ce7ed3de0638ac9583afe9dde9700a5501e91e
-last_modified_at: 2022-12-29
+description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `bundle`"
+content_hash: 49b37370a5ad601639a1ace381a8ce6398463977
+last_modified_at: 2023-07-14
 related_topics:
+  - title: العربية version
+    url: /ar/common/bundler.html
+    icon: bi bi-globe
+  - title: bosanski version
+    url: /bs/common/bundler.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/common/bundler.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/common/bundler.html
+    icon: bi bi-globe
+  - title: Deutsch version
+    url: /de/common/bundler.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/bundler.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/bundler.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/bundler.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/common/bundler.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/bundler.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/common/bundler.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/bundler.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/bundler.html
+    icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/common/bundler.html
+    icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/common/bundler.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/bundler.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/bundler.html
+    icon: bi bi-globe
+  - title: norsk version
+    url: /no/common/bundler.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/bundler.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/bundler.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/common/bundler.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/bundler.html
+    icon: bi bi-globe
+  - title: svenska version
+    url: /sv/common/bundler.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/bundler.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/bundler.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/bundler.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/bundler.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/bundler.html
+    icon: bi bi-globe
 ---
+# bundler
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bundler
-
-คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `bundle`.
-ข้อมูลเพิ่มเติม: <https://bundler.io/man/bundle.1.html>.
+คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `bundle`
+ข้อมูลเพิ่มเติม: <https://bundler.io/man/bundle.1.html>
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 

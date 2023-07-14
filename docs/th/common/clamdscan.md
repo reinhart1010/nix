@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/clamdscan (ไทย)
-description: "โปรแกรมแสกนหาไวรัสบนคอมมานด์ไลน์ โดยใช้โปรแกรมพื้นหลัง ClamAV."
-content_hash: 15e70bc7546cc5e9045de8f3ab13cc36a09c879f
-last_modified_at: 2023-05-24
+description: "โปรแกรมแสกนหาไวรัสบนคอมมานด์ไลน์ โดยใช้โปรแกรมพื้นหลัง ClamAV"
+content_hash: 16fb90fba5ee5b13185e8a0c74270678850c89c6
+last_modified_at: 2023-07-14
 related_topics:
   - title: English version
     url: /en/common/clamdscan.html
@@ -11,8 +11,8 @@ related_topics:
 ---
 # clamdscan
 
-โปรแกรมแสกนหาไวรัสบนคอมมานด์ไลน์ โดยใช้โปรแกรมพื้นหลัง ClamAV.
-ข้อมูลเพิ่มเติม: <https://docs.clamav.net/manual/Usage/Scanning.html#clamdscan>.
+โปรแกรมแสกนหาไวรัสบนคอมมานด์ไลน์ โดยใช้โปรแกรมพื้นหลัง ClamAV
+ข้อมูลเพิ่มเติม: <https://docs.clamav.net/manual/Usage/Scanning.html#clamdscan>
 
 - แสกนข้อบกพร่องของไฟล์หรือไฟล์ในไดเรคทอรี:
 

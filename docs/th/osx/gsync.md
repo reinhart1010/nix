@@ -1,20 +1,98 @@
 ---
 layout: page
 title: osx/gsync (ไทย)
-description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux sync`."
-content_hash: 74042b6c5a34898d7377174708d898c1a5a567b7
-last_modified_at: 2022-12-29
+description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux sync`"
+content_hash: f206ac1ac501f212b91662058b63aea8c1181548
+last_modified_at: 2023-07-14
 related_topics:
+  - title: العربية version
+    url: /ar/osx/gsync.html
+    icon: bi bi-globe
+  - title: bosanski version
+    url: /bs/osx/gsync.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/osx/gsync.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/osx/gsync.html
+    icon: bi bi-globe
+  - title: Deutsch version
+    url: /de/osx/gsync.html
+    icon: bi bi-globe
   - title: English version
     url: /en/osx/gsync.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/gsync.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/osx/gsync.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/osx/gsync.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/osx/gsync.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/osx/gsync.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/osx/gsync.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/osx/gsync.html
+    icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/osx/gsync.html
+    icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/osx/gsync.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/osx/gsync.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/osx/gsync.html
+    icon: bi bi-globe
+  - title: norsk version
+    url: /no/osx/gsync.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/osx/gsync.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/gsync.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/osx/gsync.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/osx/gsync.html
+    icon: bi bi-globe
+  - title: svenska version
+    url: /sv/osx/gsync.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/osx/gsync.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/osx/gsync.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/osx/gsync.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/osx/gsync.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/osx/gsync.html
+    icon: bi bi-globe
 ---
+# gsync
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gsync
-
-คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux sync`.
+คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux sync`
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 

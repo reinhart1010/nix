@@ -1,20 +1,18 @@
 ---
 layout: page
 title: common/kubectx (ไทย)
-description: "คำสั่งอรรถประโยชน์สำหรับสลับบริบทของคำสั่ง `kubectl`."
-content_hash: 7212239dc2c7b676251e8ad3bd61d63c382de05a
+description: "คำสั่งอรรถประโยชน์สำหรับสลับบริบทของคำสั่ง `kubectl`"
+content_hash: f5b4953976a34941873e595fbaf93b1a75597ee1
+last_modified_at: 2023-07-14
 related_topics:
   - title: English version
     url: /en/common/kubectx.html
     icon: bi bi-globe
 ---
+# kubectx
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># kubectx
-
-คำสั่งอรรถประโยชน์สำหรับสลับบริบทของคำสั่ง `kubectl`.
-ข้อมูลเพิ่มเติม: <https://github.com/ahmetb/kubectx>.
+คำสั่งอรรถประโยชน์สำหรับสลับบริบทของคำสั่ง `kubectl`
+ข้อมูลเพิ่มเติม: <https://github.com/ahmetb/kubectx>
 
 - แสดงบริบททั้งหมด:
 

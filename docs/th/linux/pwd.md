@@ -2,19 +2,23 @@
 layout: page
 title: linux/pwd (ไทย)
 description: "แสดงชื่อของไดเรกทอรีที่ทำงานอยู่"
-content_hash: 20d1b595504e160a0ee6af9f5a0aec5a549aff71
+content_hash: d76be09bf3a5e4f4e7bc58ff834c741a2fd16dd5
+last_modified_at: 2023-07-14
 related_topics:
   - title: English version
     url: /en/linux/pwd.html
     icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/linux/pwd.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/linux/pwd.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pwd
+# pwd
 
 แสดงชื่อของไดเรกทอรีที่ทำงานอยู่
-ข้อมูลเพิ่มเติม: <https://www.gnu.org/software/coreutils/pwd>.
+ข้อมูลเพิ่มเติม: <https://www.gnu.org/software/coreutils/pwd>
 
 - แสดงชื่อของไดเรกทอรีที่ทำงานอยู่:
 

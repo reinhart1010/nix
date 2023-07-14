@@ -1,14 +1,21 @@
 ---
 layout: page
 title: linux/ncal (ไทย)
-description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `cal`."
-content_hash: 861c60fdb3ad2ae29fc1ec275f209347affd8ecd
+description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `cal`"
+content_hash: 54958505bdddbb39fd475e0ac6a47ad5f9334629
+last_modified_at: 2023-07-14
 related_topics:
+  - title: العربية version
+    url: /ar/linux/ncal.html
+    icon: bi bi-globe
   - title: bosanski version
     url: /bs/linux/ncal.html
     icon: bi bi-globe
   - title: català version
     url: /ca/linux/ncal.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/linux/ncal.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/ncal.html
@@ -34,13 +41,22 @@ related_topics:
   - title: 日本語 version
     url: /ja/linux/ncal.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/ncal.html
+    icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/linux/ncal.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/ncal.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/linux/ncal.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/linux/ncal.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/linux/ncal.html
     icon: bi bi-globe
   - title: polski version
@@ -48,6 +64,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/ncal.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/linux/ncal.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/linux/ncal.html
@@ -57,6 +76,9 @@ related_topics:
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/ncal.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/linux/ncal.html
     icon: bi bi-globe
   - title: українська version
     url: /uk/linux/ncal.html
@@ -70,8 +92,8 @@ related_topics:
 ---
 # ncal
 
-คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `cal`.
-ข้อมูลเพิ่มเติม: <https://manned.org/ncal>.
+คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `cal`
+ข้อมูลเพิ่มเติม: <https://manned.org/ncal>
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 

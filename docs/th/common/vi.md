@@ -1,11 +1,21 @@
 ---
 layout: page
 title: common/vi (ไทย)
-description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `vim`."
-content_hash: 652d317a33a882c816959318d43bb4fb2a5c6b84
+description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `vim`"
+content_hash: 772663106f6891212264635fd19bb1ddbc00ba3c
+last_modified_at: 2023-07-14
 related_topics:
+  - title: العربية version
+    url: /ar/common/vi.html
+    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/vi.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/common/vi.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/common/vi.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/vi.html
@@ -31,13 +41,22 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/vi.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/vi.html
+    icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/common/vi.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/common/vi.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/vi.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/vi.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/vi.html
     icon: bi bi-globe
   - title: polski version
@@ -45,6 +64,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/vi.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/common/vi.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/vi.html
@@ -54,6 +76,9 @@ related_topics:
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/vi.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/vi.html
     icon: bi bi-globe
   - title: українська version
     url: /uk/common/vi.html
@@ -67,7 +92,7 @@ related_topics:
 ---
 # vi
 
-คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `vim`.
+คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `vim`
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 

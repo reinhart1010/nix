@@ -2,7 +2,8 @@
 layout: page
 title: linux/ac (ไทย)
 description: "แสดงสถิติที่ผู้ใช้งานได้เชื่อมต่อเข้ามาในระบบเป็นเวลานานเท่าไหร่"
-content_hash: 9d2abfab5f8f4ae3445ceb2bb6a5e2d342e1b376
+content_hash: 6e459392bc6965836a2380ef0d1d374229ea61c0
+last_modified_at: 2023-07-14
 related_topics:
   - title: català version
     url: /ca/linux/ac.html
@@ -12,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: English version
     url: /en/linux/ac.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/ac.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/ac.html
@@ -23,13 +27,10 @@ related_topics:
     url: /zh/linux/ac.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ac
+# ac
 
 แสดงสถิติที่ผู้ใช้งานได้เชื่อมต่อเข้ามาในระบบเป็นเวลานานเท่าไหร่
-ข้อมูลเพิ่มเติม: <https://www.gnu.org/software/acct/manual/accounting.html#ac>.
+ข้อมูลเพิ่มเติม: <https://www.gnu.org/software/acct/manual/accounting.html#ac>
 
 - แสดงสถิติเวลาที่ผู้ใช้ปัจจุบันได้เชื่อมต่อเข้ามาในระบบในหลักชั่วโมง:
 

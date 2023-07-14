@@ -1,11 +1,21 @@
 ---
 layout: page
 title: windows/cinst (ไทย)
-description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `choco install`."
-content_hash: 0910f2588c01a88aab8c463be3220f7b57c540f9
+description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `choco install`"
+content_hash: b42694db4e1333ce74b894b7c3741cf7b6099915
+last_modified_at: 2023-07-14
 related_topics:
+  - title: العربية version
+    url: /ar/windows/cinst.html
+    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/cinst.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/windows/cinst.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/windows/cinst.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/cinst.html
@@ -31,13 +41,22 @@ related_topics:
   - title: 日本語 version
     url: /ja/windows/cinst.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/cinst.html
+    icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/windows/cinst.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/windows/cinst.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/windows/cinst.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/windows/cinst.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/windows/cinst.html
     icon: bi bi-globe
   - title: polski version
@@ -45,6 +64,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/cinst.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/windows/cinst.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/windows/cinst.html
@@ -54,6 +76,9 @@ related_topics:
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/windows/cinst.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/windows/cinst.html
     icon: bi bi-globe
   - title: українська version
     url: /uk/windows/cinst.html
@@ -67,8 +92,8 @@ related_topics:
 ---
 # cinst
 
-คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `choco install`.
-ข้อมูลเพิ่มเติม: <https://docs.chocolatey.org/en-us/choco/commands/install>.
+คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `choco install`
+ข้อมูลเพิ่มเติม: <https://docs.chocolatey.org/en-us/choco/commands/install>
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 

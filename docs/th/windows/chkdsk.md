@@ -2,7 +2,8 @@
 layout: page
 title: windows/chkdsk (ไทย)
 description: "ความสมบูรณ์ของระบบไฟล์และข้อมูลเมตาของระบบไฟล์บนดิสก์โวลุ่มและแก้ไขข้อผิดพลาดของระบบ"
-content_hash: e46c56e5c88b29a71266fe27372be7be6a8327f0
+content_hash: 6f702cb57a28bd2366a450075c123bf4803900c9
+last_modified_at: 2023-07-14
 related_topics:
   - title: English version
     url: /en/windows/chkdsk.html
@@ -10,14 +11,17 @@ related_topics:
   - title: Indonesia version
     url: /id/windows/chkdsk.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/chkdsk.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/chkdsk.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># chkdsk
+# chkdsk
 
 ความสมบูรณ์ของระบบไฟล์และข้อมูลเมตาของระบบไฟล์บนดิสก์โวลุ่มและแก้ไขข้อผิดพลาดของระบบ
-ข้อมูลเพิ่มเติม: <https://learn.microsoft.com/windows-server/administration/windows-commands/chkdsk>.
+ข้อมูลเพิ่มเติม: <https://learn.microsoft.com/windows-server/administration/windows-commands/chkdsk>
 
 - ระบุตัวอักษรไดรฟ์ (ตามด้วยเครื่องหมาย colon), mount point, หรือชื่อของไดรฟ์:
 

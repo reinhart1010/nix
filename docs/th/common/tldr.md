@@ -2,7 +2,8 @@
 layout: page
 title: common/tldr (ไทย)
 description: "แสดงตัวอย่างแบบง่ายสำหรับเครื่องมือบน command-line จากโปรเจคท์ tldr-pages."
-content_hash: 0b8c3af65546dc8439bd1e7358286b5e131a93a5
+content_hash: f355b98f0ac44e35db1e9234a83dfd1e380e3fc8
+last_modified_at: 2023-07-14
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
@@ -21,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/tldr.html
+    icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/common/tldr.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/tldr.html
@@ -47,7 +51,7 @@ related_topics:
 # tldr
 
 แสดงตัวอย่างแบบง่ายสำหรับเครื่องมือบน command-line จากโปรเจคท์ tldr-pages.
-ข้อมูลเพิ่มเติม: <https://tldr.sh>.
+ข้อมูลเพิ่มเติม: <https://tldr.sh>
 
 - แสดงตัวอย่างการใช้งานคำสั่งที่ใช้บ่อย (บอกใบ้นิดนึง: นี่คือเหตุผลที่คุณสนใจใช้บริการของเราใช่ไหมล่ะ!):
 

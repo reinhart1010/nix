@@ -1,11 +1,21 @@
 ---
 layout: page
 title: common/tldrl (ไทย)
-description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `tldr-lint`."
-content_hash: 916f5c277baaea3d8018865dbe391e2e43eca1f1
+description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `tldr-lint`"
+content_hash: 4f4415a8e2ad5dde04271b9ca14a270b92f639e4
+last_modified_at: 2023-07-14
 related_topics:
+  - title: العربية version
+    url: /ar/common/tldrl.html
+    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/tldrl.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/common/tldrl.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/common/tldrl.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/tldrl.html
@@ -31,13 +41,22 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/tldrl.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/tldrl.html
+    icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/common/tldrl.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/common/tldrl.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/tldrl.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/tldrl.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/tldrl.html
     icon: bi bi-globe
   - title: polski version
@@ -45,6 +64,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/tldrl.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/common/tldrl.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/tldrl.html
@@ -70,8 +92,8 @@ related_topics:
 ---
 # tldrl
 
-คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `tldr-lint`.
-ข้อมูลเพิ่มเติม: <https://github.com/tldr-pages/tldr-lint>.
+คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `tldr-lint`
+ข้อมูลเพิ่มเติม: <https://github.com/tldr-pages/tldr-lint>
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
