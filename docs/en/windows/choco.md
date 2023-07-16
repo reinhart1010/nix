@@ -1,29 +1,42 @@
 ---
 layout: page
 title: windows/choco (English)
-description: "A command-line interface for the Chocolatey package manager."
-content_hash: e2acd595e6cbae6a577c92b0cab82cdd29d85673
+description: "The Chocolatey package manager."
+content_hash: 748b021a17338be528ea2e1088c254d9ae953f3c
+last_modified_at: 2023-07-16
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/choco.html
+    icon: bi bi-globe
   - title: 日本語 version
     url: /ja/windows/choco.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/windows/choco.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/choco.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/choco.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/choco.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/windows/choco.html
     icon: bi bi-globe
 ---
 # choco
 
-A command-line interface for the Chocolatey package manager.
+The Chocolatey package manager.
 Some subcommands such as `choco install` have their own usage documentation.
 More information: <https://chocolatey.org>.
 
-- Execute Chocolatey command:
+- Execute a Chocolatey command:
 
 `choco `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 

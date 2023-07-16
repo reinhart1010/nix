@@ -1,15 +1,13 @@
 ---
 layout: page
 title: common/glab-mr-create (English)
-description: "Manage GitLab merge requests from the command-line."
-content_hash: 6566e6c0bbe9fa188af39f595cf11e019b06ad7c
+description: "Manage GitLab merge requests."
+content_hash: 445b7bb0364b914cd05139ccc9522b06587e0855
+last_modified_at: 2023-07-16
 ---
+# glab mr create
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># glab mr create
-
-Manage GitLab merge requests from the command-line.
+Manage GitLab merge requests.
 More information: <https://glab.readthedocs.io/en/latest/mr/create.html>.
 
 - Interactively create a merge request:

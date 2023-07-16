@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/glab-alias (English)
-description: "Manage GitLab CLI command aliases from the command-line."
-content_hash: 44bcf69dfb900db8e42bf215498613c53d978d30
+description: "Manage GitLab CLI command aliases."
+content_hash: 23d1aeea05a674e6a8f0e6c7ecefc272d2d785a0
+last_modified_at: 2023-07-16
 ---
 # glab alias
 
-Manage GitLab CLI command aliases from the command-line.
+Manage GitLab CLI command aliases.
 More information: <https://glab.readthedocs.io/en/latest/alias>.
 
 - Display the subcommand help:

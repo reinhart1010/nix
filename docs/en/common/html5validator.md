@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/html5validator (English)
-description: "A command-line tool for testing HTML5 validity."
-content_hash: 2937519f49a76a86c921496394a382cb16711aaa
+description: "Validate HTML5."
+content_hash: dbdc6b945ac6cab266041dcffdf74953014d9cf1
+last_modified_at: 2023-07-16
 ---
 # html5validator
 
-A command-line tool for testing HTML5 validity.
+Validate HTML5.
 More information: <https://github.com/svenkreiss/html5validator>.
 
 - Validate a specific file:

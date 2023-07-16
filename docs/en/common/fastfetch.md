@@ -1,15 +1,13 @@
 ---
 layout: page
 title: common/fastfetch (English)
-description: "A CLI tool to display information about your operating system, software and hardware."
-content_hash: 1704e5089910448f8db311ec75903cb87fca96f5
+description: "Display information about your operating system, software and hardware."
+content_hash: f06dc57e13dcfca8de982f6233c92aa9dfb957f6
+last_modified_at: 2023-07-16
 ---
+# fastfetch
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># fastfetch
-
-A CLI tool to display information about your operating system, software and hardware.
+Display information about your operating system, software and hardware.
 More information: <https://github.com/LinusDierheimer/fastfetch>.
 
 - Display system information:

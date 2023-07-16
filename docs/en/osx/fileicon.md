@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/fileicon (English)
-description: "A macOS CLI to manage custom file and folder icons."
-content_hash: e7dfd8a1a0484b7776f1c6a9520bd2215288299f
-last_modified_at: 2023-02-20
+description: "Manage custom file and folder icons."
+content_hash: 1362143a26d993f4667b23343a231ed386426393
+last_modified_at: 2023-07-16
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/osx/fileicon.html
@@ -11,7 +11,7 @@ related_topics:
 ---
 # fileicon
 
-A macOS CLI to manage custom file and folder icons.
+Manage custom file and folder icons.
 More information: <https://github.com/mklement0/fileicon>.
 
 - Set a custom icon for a specific file or directory:

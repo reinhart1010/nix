@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/dep (English)
-description: "A CLI tool for deployment of PHP applications."
-content_hash: 5ec25a60ccb4d97e985cbf4fc88bf170ec722d62
+description: "Deploy PHP applications."
+content_hash: f994e1f37cfa02729cae0380b5c8783c78daa76d
+last_modified_at: 2023-07-16
 related_topics:
   - title: italiano version
     url: /it/common/dep.html
@@ -13,7 +14,7 @@ related_topics:
 ---
 # dep
 
-A CLI tool for deployment of PHP applications.
+Deploy PHP applications.
 Note: The Go command `dep` with the same name is deprecated and archived.
 More information: <https://deployer.org>.
 

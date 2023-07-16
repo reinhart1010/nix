@@ -1,8 +1,9 @@
 ---
 layout: page
 title: linux/iwctl (English)
-description: "A command-line tool for controlling the iwd network supplicant."
-content_hash: de79efe4675e926541c7a3bc88bdf2c9a954f547
+description: "Control the `iwd` network supplicant."
+content_hash: bb0c2358cc72df42ec1e505b7ad740f621f2c8d7
+last_modified_at: 2023-07-16
 related_topics:
   - title: français version
     url: /fr/linux/iwctl.html
@@ -10,7 +11,7 @@ related_topics:
 ---
 # iwctl
 
-A command-line tool for controlling the iwd network supplicant.
+Control the `iwd` network supplicant.
 More information: <https://iwd.wiki.kernel.org/gettingstarted>.
 
 - Start the interactive mode, in this mode you can enter the commands directly, with autocompletion:

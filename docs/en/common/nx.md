@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/nx (English)
-description: "CLI utility for managing `nx` workspaces."
-content_hash: f6ac9a5bb2ab2c921286e27755c4e174ac3b817b
+description: "Manage `nx` workspaces."
+content_hash: 84efd2cbc28d616ed8d50d861c1e76e8ae1dd896
+last_modified_at: 2023-07-16
 ---
 # nx
 
-CLI utility for managing `nx` workspaces.
+Manage `nx` workspaces.
 More information: <https://nx.dev/l/r/getting-started/nx-cli>.
 
 - Build a specific project:

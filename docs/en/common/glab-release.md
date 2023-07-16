@@ -1,15 +1,13 @@
 ---
 layout: page
 title: common/glab-release (English)
-description: "Manage GitLab releases from the command-line."
-content_hash: e0242e9f036ffa1d1887c1c2bf6b4c75a77e9588
+description: "Manage GitLab releases."
+content_hash: 25e913faad4e6ad975703247fc447bcd1339a793
+last_modified_at: 2023-07-16
 ---
+# glab release
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># glab release
-
-Manage GitLab releases from the command-line.
+Manage GitLab releases.
 More information: <https://glab.readthedocs.io/en/latest/release>.
 
 - List releases in a Gitlab repository, limited to 30 items:

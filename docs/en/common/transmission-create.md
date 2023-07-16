@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/transmission-create (English)
-description: "A CLI utility to create BitTorrent .torrent files."
-content_hash: b23102ad8b3d8336d6618a107cba5d178c2e9206
+description: "Create BitTorrent `.torrent` files."
+content_hash: d876ed41d8499dd560c076823d262ed6f466a4ae
+last_modified_at: 2023-07-16
 ---
 # transmission-create
 
-A CLI utility to create BitTorrent .torrent files.
+Create BitTorrent `.torrent` files.
 More information: <https://manned.org/transmission-create>.
 
 - Create a torrent with 2048 KB as the piece size:

@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/resume (English)
-description: "CLI tool to easily setup a new resume."
-content_hash: b83f7a1d53d6de1771dca2395bbbaa5139605ed0
+description: "Easily setup a new resume."
+content_hash: 9ac7dde34b037a5beff00e619a4ea6909819fe59
+last_modified_at: 2023-07-16
 ---
 # resume
 
-CLI tool to easily setup a new resume.
+Easily setup a new resume.
 More information: <https://github.com/jsonresume/resume-cli>.
 
 - Create a new `resume.json` file in the current working directory:

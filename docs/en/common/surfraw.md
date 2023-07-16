@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/surfraw (English)
-description: "CLI to query a variety of web search engines."
-content_hash: 6e22ebc08091e09f3d8510cea683fd6c4de6bfce
+description: "Query a variety of web search engines."
+content_hash: 13a88be57c463757c09eef62d77f3f193f558ec4
+last_modified_at: 2023-07-16
 ---
 # surfraw
 
-CLI to query a variety of web search engines.
+Query a variety of web search engines.
 Consists of a collection of elvi, each of which knows how to search a specific website.
 More information: <http://surfraw.org>.
 

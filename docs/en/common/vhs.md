@@ -1,20 +1,20 @@
 ---
 layout: page
 title: common/vhs (English)
-description: "CLI home video recorder to generate terminal gifs from code."
-content_hash: f6a7b3a2b59884b252aa4ef19a310dc6de73ec69
-last_modified_at: 2023-04-10
+description: "Generate terminal gifs from a tape file."
+content_hash: 9126a699956bd156a15618de0908dcdaa2d3b975
+last_modified_at: 2023-07-16
 ---
 # vhs
 
-CLI home video recorder to generate terminal gifs from code.
+Generate terminal gifs from a tape file.
 More information: <https://github.com/charmbracelet/vhs>.
 
-- Create a tape file (Add commands to the tap file using your editor):
+- Create a tape file (add commands to the tape file using an editor):
 
 `vhs new `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tape</span>
 
-- Record inputs to a tape file (Once done, exit the shell to create the tape):
+- Record inputs to a tape file (once done, exit the shell to create the tape):
 
 `vhs record > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tape</span>
 
@@ -22,7 +22,7 @@ More information: <https://github.com/charmbracelet/vhs>.
 
 `vhs record --shell `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">shell</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tape</span>
 
-- Validate a type file's syntax:
+- Validate the syntax of a tape file:
 
 `vhs validate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tape</span>
 
@@ -30,6 +30,6 @@ More information: <https://github.com/charmbracelet/vhs>.
 
 `vhs < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tape</span>
 
-- Publish a gif to https://vhs.charm.sh and get a shareable URL:
+- Publish a gif to <https://vhs.charm.sh> and get a shareable URL:
 
 `vhs publish `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.gif</span>

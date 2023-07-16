@@ -1,11 +1,15 @@
 ---
 layout: page
 title: linux/bluetoothctl (English)
-description: "Manage Bluetooth devices from the command-line."
-content_hash: 371666eb23759dd153614b0d19621f6485ad3526
+description: "Manage Bluetooth devices."
+content_hash: 38ffaf92846a33d91956e4b0650369d56bb20432
+last_modified_at: 2023-07-16
 related_topics:
   - title: മലയാളം version
     url: /ml/linux/bluetoothctl.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/bluetoothctl.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/bluetoothctl.html
@@ -13,7 +17,7 @@ related_topics:
 ---
 # bluetoothctl
 
-Manage Bluetooth devices from the command-line.
+Manage Bluetooth devices.
 More information: <https://bitbucket.org/serkanp/bluetoothctl>.
 
 - Enter the `bluetoothctl` shell:

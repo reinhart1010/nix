@@ -1,16 +1,23 @@
 ---
 layout: page
 title: common/gh (English)
-description: "Work seamlessly with GitHub from the command-line."
-content_hash: 22bd932821e492e3bd0d07800b8cc6e4211ae9a1
+description: "Work seamlessly with GitHub."
+content_hash: c0c09c3a0a47a51313dc2224a9a03590e5e303a0
+last_modified_at: 2023-07-16
 related_topics:
+  - title: Deutsch version
+    url: /de/common/gh.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/gh.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/gh.html
     icon: bi bi-globe
 ---
 # gh
 
-Work seamlessly with GitHub from the command-line.
+Work seamlessly with GitHub.
 Some subcommands such as `gh config` have their own usage documentation.
 More information: <https://cli.github.com/>.
 

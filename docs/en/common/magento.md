@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/magento (English)
-description: "A CLI for managing the Magento PHP framework."
-content_hash: 2da71870ecea9ea3a477a733709ea5ad9b04e2ed
+description: "Manage the Magento PHP framework."
+content_hash: 759629bf285784f1f3b322c68c3c27d2440bf0c4
+last_modified_at: 2023-07-16
 ---
 # magento
 
-A CLI for managing the Magento PHP framework.
+Manage the Magento PHP framework.
 More information: <https://magento.com>.
 
 - Enable one or more space-separated modules:

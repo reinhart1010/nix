@@ -1,9 +1,13 @@
 ---
 layout: page
 title: common/neofetch (English)
-description: "CLI tool to display information about your operating system, software and hardware."
-content_hash: 02a4f9e622313bb6654f162523430bee99a09ff8
+description: "Display information about your operating system, software and hardware."
+content_hash: 86f09a7bb7fb43cef626adc599a44438b9a0e50c
+last_modified_at: 2023-07-16
 related_topics:
+  - title: हिन्दी version
+    url: /hi/common/neofetch.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/neofetch.html
     icon: bi bi-globe
@@ -13,7 +17,7 @@ related_topics:
 ---
 # neofetch
 
-CLI tool to display information about your operating system, software and hardware.
+Display information about your operating system, software and hardware.
 More information: <https://github.com/dylanaraps/neofetch>.
 
 - Return the default config, and create it if it's the first time the program runs:

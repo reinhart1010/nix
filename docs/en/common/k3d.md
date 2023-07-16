@@ -1,13 +1,13 @@
 ---
 layout: page
 title: common/k3d (English)
-description: "Wrapper CLI to easily create k3s clusters inside Docker."
-content_hash: 72f7823f49af02da0259940df4103bb55945d221
-last_modified_at: 2022-11-24
+description: "A wrapper to easily create k3s clusters inside Docker."
+content_hash: 787872767d8bd5f590e9a466720133bfd940738a
+last_modified_at: 2023-07-16
 ---
 # k3d
 
-Wrapper CLI to easily create k3s clusters inside Docker.
+A wrapper to easily create k3s clusters inside Docker.
 More information: <https://k3d.io>.
 
 - Create a cluster:

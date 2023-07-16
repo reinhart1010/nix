@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/viu (English)
-description: "A small command-line application to view images from the terminal."
-content_hash: 321ba5b79af53e8ea3b1b3dbf464134c657a00af
+description: "View images on the terminal."
+content_hash: 5dcb5e00e9f153e5d585a84cf362fe09d9b30cde
+last_modified_at: 2023-07-16
 ---
 # viu
 
-A small command-line application to view images from the terminal.
+View images on the terminal.
 More information: <https://github.com/atanunq/viu>.
 
 - Render an image or animated GIF:

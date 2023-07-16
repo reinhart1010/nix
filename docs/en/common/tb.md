@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/tb (English)
-description: "CLI for managing tasks and notes across multiple boards."
-content_hash: 69c4ffae1cc3561f2f3e67f393a9cb64446377ee
+description: "Manage tasks and notes across multiple boards."
+content_hash: 94747946d4cdc2e6c35aabe8e51d750758a3c531
+last_modified_at: 2023-07-16
 ---
 # tb
 
-CLI for managing tasks and notes across multiple boards.
+Manage tasks and notes across multiple boards.
 More information: <https://github.com/klaussinani/taskbook>.
 
 - Add a new task to a board:

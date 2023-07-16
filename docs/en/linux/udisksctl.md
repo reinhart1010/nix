@@ -1,12 +1,13 @@
 ---
 layout: page
 title: linux/udisksctl (English)
-description: "A command-line program used to interact with the udisksd daemon process."
-content_hash: f6d64b36188eae094715bf88047c11ecc5d754da
+description: "Interact with `udisksd` to query and manipulate storage devices."
+content_hash: b742ed9389acb4406e370fa1f896ce266a243ca4
+last_modified_at: 2023-07-16
 ---
 # udisksctl
 
-A command-line program used to interact with the udisksd daemon process.
+Interact with `udisksd` to query and manipulate storage devices.
 More information: <http://storaged.org/doc/udisks2-api/latest/udisksctl.1.html>.
 
 - Show high-level information about disk drives and block devices:

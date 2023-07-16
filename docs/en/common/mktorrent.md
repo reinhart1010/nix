@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/mktorrent (English)
-description: "A CLI utility to create BitTorrent metainfo files."
-content_hash: 3bccf6a606a15af468d862e0e03f447dba6fae9c
+description: "Create BitTorrent metainfo files."
+content_hash: 7c9c4cdaa15f56c2eca0f3944e035784c73ba277
+last_modified_at: 2023-07-16
 ---
 # mktorrent
 
-A CLI utility to create BitTorrent metainfo files.
+Create BitTorrent metainfo files.
 More information: <https://github.com/Rudde/mktorrent>.
 
 - Create a torrent with 2^21 KB as the piece size:

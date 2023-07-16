@@ -1,8 +1,9 @@
 ---
 layout: page
 title: linux/apache2ctl (English)
-description: "The CLI tool to administrate HTTP web server Apache."
-content_hash: 77325d00382c53b33af5b8539707734425608fdf
+description: "Administrate the Apache HTTP web server."
+content_hash: 7b6c10fbb63fce21ae02f6ad74288c460932a43a
+last_modified_at: 2023-07-16
 related_topics:
   - title: Deutsch version
     url: /de/linux/apache2ctl.html
@@ -19,7 +20,7 @@ related_topics:
 ---
 # apache2ctl
 
-The CLI tool to administrate HTTP web server Apache.
+Administrate the Apache HTTP web server.
 This command comes with Debian based OSes, for RHEL based ones see `httpd`.
 More information: <https://manpages.debian.org/latest/apache2/apache2ctl.8.en.html>.
 

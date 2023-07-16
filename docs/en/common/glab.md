@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/glab (English)
-description: "Work seamlessly with GitLab from the command-line."
-content_hash: f78306e50b95bb1bda94bfe61a1656e20c7ae28d
+description: "Work seamlessly with GitLab."
+content_hash: ff0b6978a9f9c13e9197902545ae991d467c4267
+last_modified_at: 2023-07-16
 ---
 # glab
 
-Work seamlessly with GitLab from the command-line.
+Work seamlessly with GitLab.
 Some subcommands such as `glab config` have their own usage documentation.
 More information: <https://github.com/profclems/glab>.
 

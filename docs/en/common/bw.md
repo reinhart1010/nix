@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/bw (English)
-description: "A CLI to access and manage a Bitwarden vault."
-content_hash: b0d218b8e49df4a26a79fef24a98372593c676f6
+description: "Access and manage a Bitwarden vault."
+content_hash: dcf7f4bf7c409831943d1e3e9bd75d1a8c9631d6
+last_modified_at: 2023-07-16
 related_topics:
   - title: italiano version
     url: /it/common/bw.html
@@ -13,7 +14,7 @@ related_topics:
 ---
 # bw
 
-A CLI to access and manage a Bitwarden vault.
+Access and manage a Bitwarden vault.
 More information: <https://help.bitwarden.com/article/cli/>.
 
 - Log in to a Bitwarden user account:

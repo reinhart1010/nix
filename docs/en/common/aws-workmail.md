@@ -1,15 +1,13 @@
 ---
 layout: page
 title: common/aws-workmail (English)
-description: "Manage Amazon WorkMail using the CLI."
-content_hash: c2b0990082a9bdfaca531335281387aaea3f8b40
+description: "Manage Amazon WorkMail."
+content_hash: 261e77fb2e578ca1d5fbc7e84d0f8c268965bed9
+last_modified_at: 2023-07-16
 ---
+# aws workmail
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws workmail
-
-Manage Amazon WorkMail using the CLI.
+Manage Amazon WorkMail.
 More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/workmail/index.html>.
 
 - List all WorkMail organizations:

@@ -1,8 +1,9 @@
 ---
 layout: page
 title: windows/fondue (English)
-description: "A command-line installer for optional Windows features."
-content_hash: b296c257a6ea5e12ed468913c709e62b3e0b2c89
+description: "Install optional Windows features."
+content_hash: b7784ac41dc371f130e4a966ea6b9bc7592bba61
+last_modified_at: 2023-07-16
 related_topics:
   - title: 中文 version
     url: /zh/windows/fondue.html
@@ -10,7 +11,7 @@ related_topics:
 ---
 # fondue
 
-A command-line installer for optional Windows features.
+Install optional Windows features.
 More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/fondue>.
 
 - Enable a specific Windows feature:

@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/ldapsearch (English)
-description: "CLI utility for querying an LDAP directory."
-content_hash: c4f8386fadcbe04bb9a5238bc6fbcaccb9b55c78
+description: "Query an LDAP directory."
+content_hash: 5f6d857b7e19ef7011ea3a86877873a613e925f7
+last_modified_at: 2023-07-16
 ---
 # ldapsearch
 
-CLI utility for querying an LDAP directory.
+Query an LDAP directory.
 More information: <https://docs.ldap.com/ldap-sdk/docs/tool-usages/ldapsearch.html>.
 
 - Query an LDAP server for all items that are a member of the given group and return the object's displayName value:

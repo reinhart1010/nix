@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/cmstp (English)
-description: "A command-line tool for managing connection service profiles."
-content_hash: ed10ab99dc2de4a5b8063808b04a68e307429fd1
-last_modified_at: 2023-02-20
+description: "Manage connection service profiles."
+content_hash: 8b531de0173aed1be317bca02521411dd6deb715
+last_modified_at: 2023-07-16
 related_topics:
   - title: தமிழ் version
     url: /ta/windows/cmstp.html
@@ -14,7 +14,7 @@ related_topics:
 ---
 # cmstp
 
-A command-line tool for managing connection service profiles.
+Manage connection service profiles.
 More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/cmstp>.
 
 - Install a specific profile:

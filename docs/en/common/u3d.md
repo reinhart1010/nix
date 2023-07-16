@@ -1,16 +1,16 @@
 ---
 layout: page
 title: common/u3d (English)
-description: "Set of tools to interact with Unity from command-line."
-content_hash: 42715b0b1c9670c1e03749b2cda3c108d5af112d
-last_modified_at: 2023-05-31
+description: "A set of tools to interact with Unity."
+content_hash: bc8b974ba6a22d6be2e8a3051d14ece7e8e34800
+last_modified_at: 2023-07-16
 ---
 # u3d
 
-Set of tools to interact with Unity from command-line.
+A set of tools to interact with Unity.
 More information: <https://github.com/DragonBox/u3d>.
 
-- Open project from the current directory in correct Unity version:
+- Open the project in the current directory using the correct Unity version:
 
 `u3d`
 

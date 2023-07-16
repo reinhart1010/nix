@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/kube-capacity (English)
-description: "A simple CLI that provides an overview of the resource requests, limits, and utilization in a Kubernetes cluster."
-content_hash: 1182654b9b80ee3d5f5a8443134301aba6847e8f
+description: "Provide an overview of resource requests, limits, and utilization in a Kubernetes cluster."
+content_hash: b08b338a52894cd6929263b5d998edff69186466
+last_modified_at: 2023-07-16
 ---
 # kube-capacity
 
-A simple CLI that provides an overview of the resource requests, limits, and utilization in a Kubernetes cluster.
+Provide an overview of resource requests, limits, and utilization in a Kubernetes cluster.
 Combine the best parts of `kubectl top` and `kubectl describe` into a CLI focused on cluster resources.
 More information: <https://github.com/robscott/kube-capacity>.
 

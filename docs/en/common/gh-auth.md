@@ -1,13 +1,13 @@
 ---
 layout: page
 title: common/gh-auth (English)
-description: "Authenticate with a GitHub host from the command-line."
-content_hash: ef9ae6f4b577dcf4ccc0e34cd1529456b0d4f0bb
-last_modified_at: 2023-01-09
+description: "Authenticate with a GitHub host."
+content_hash: 3df5bf947c77335dedde0897c20ebca1565acf77
+last_modified_at: 2023-07-16
 ---
 # gh auth
 
-Authenticate with a GitHub host from the command-line.
+Authenticate with a GitHub host.
 More information: <https://cli.github.com/manual/gh_auth>.
 
 - Log in with interactive prompt:

@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/x_x (English)
-description: "View Excel and CSV files from the command-line."
-content_hash: e21dc06c0861e946468785c6547f1cb587b3543b
+description: "View Excel and CSV files."
+content_hash: 3f5e5507007fad878b1186ca4504bdccd53bb134
+last_modified_at: 2023-07-16
 ---
 # x_x
 
-View Excel and CSV files from the command-line.
+View Excel and CSV files.
 More information: <https://github.com/kristianperkins/x_x>.
 
 - View an XLSX or CSV file:

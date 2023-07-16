@@ -1,13 +1,13 @@
 ---
 layout: page
 title: linux/konsave (English)
-description: "A CLI program that lets you save and apply your Linux customizations with just one command."
-content_hash: 53945760501cc110eae87d6debe9e7a3a6941c4f
-last_modified_at: 2023-02-02
+description: "Save and apply your Linux customizations with just one command."
+content_hash: c490d59102cd6707a10d9e70aa0726efd4ac0ab8
+last_modified_at: 2023-07-16
 ---
 # konsave
 
-A CLI program that lets you save and apply your Linux customizations with just one command.
+Save and apply your Linux customizations with just one command.
 More information: <https://github.com/Prayag2/konsave>.
 
 - Save the current configuration as a profile:

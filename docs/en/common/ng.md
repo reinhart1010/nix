@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/ng (English)
-description: "Command-line Interface (CLI) for creating and managing Angular applications."
-content_hash: e5fc9308204665d07af7e28ab146a15e1936ae75
+description: "Create and manage Angular applications."
+content_hash: e859f0048f4a0b9fd4cbef04b98e149c967221fe
+last_modified_at: 2023-07-16
 related_topics:
   - title: Türkçe version
     url: /tr/common/ng.html
@@ -10,7 +11,7 @@ related_topics:
 ---
 # ng
 
-Command-line Interface (CLI) for creating and managing Angular applications.
+Create and manage Angular applications.
 More information: <https://angular.io/cli>.
 
 - Create a new Angular application inside a directory:

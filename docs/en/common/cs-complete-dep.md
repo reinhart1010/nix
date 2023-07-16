@@ -1,13 +1,13 @@
 ---
 layout: page
 title: common/cs-complete-dep (English)
-description: "Allows the developer to search for libraries without searching directly on the web but from the command-line."
-content_hash: a56419f0e98bf9010adcecb6c9577849c12fbc1e
-last_modified_at: 2023-05-31
+description: "Search for libraries without doing it directly on the web."
+content_hash: bff3bcc4394e0d243646ae65c285b0674d5771cb
+last_modified_at: 2023-07-16
 ---
 # cs complete dep
 
-Allows the developer to search for libraries without searching directly on the web but from the command-line.
+Search for libraries without doing it directly on the web.
 More information: <https://get-coursier.io/docs/cli-complete>.
 
 - Print which artifacts are published under a specific Maven group identifier:

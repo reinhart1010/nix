@@ -1,16 +1,23 @@
 ---
 layout: page
 title: osx/osascript (English)
-description: "Run AppleScript or JavaScript for Automation (JXA) from the command-line."
-content_hash: 017da9f0c4d424857336b074c9b7baf89fbc9666
+description: "Run AppleScript or JavaScript for Automation (JXA)."
+content_hash: 53e3a2ed0cd73b4704be354becd73a643a6466d4
+last_modified_at: 2023-07-16
 related_topics:
+  - title: español version
+    url: /es/osx/osascript.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/osx/osascript.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/osascript.html
     icon: bi bi-globe
 ---
 # osascript
 
-Run AppleScript or JavaScript for Automation (JXA) from the command-line.
+Run AppleScript or JavaScript for Automation (JXA).
 More information: <https://ss64.com/osx/osascript.html>.
 
 - Run an AppleScript command:

@@ -1,13 +1,13 @@
 ---
 layout: page
 title: windows/virtualboxvm (English)
-description: "The VirtualBox virtual machine management CLI."
-content_hash: 0a802ee22f358bece1849af7b65c5f575db359ad
-last_modified_at: 2023-02-20
+description: "Manage VirtualBox virtual machines."
+content_hash: d50dee2a7e130558ac90f439c626cf2dc826bb1e
+last_modified_at: 2023-07-16
 ---
 # virtualboxvm
 
-The VirtualBox virtual machine management CLI.
+Manage VirtualBox virtual machines.
 More information: <https://www.virtualbox.org>.
 
 - Start a virtual machine:

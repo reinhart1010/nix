@@ -1,12 +1,13 @@
 ---
 layout: page
 title: linux/rtorrent (English)
-description: "Download torrents over the command-line."
-content_hash: c490135c4e22d7a732dbc34827e8f240c413b968
+description: "Download torrents."
+content_hash: e3d6b06d906660641ed4afd461c0e178a00bc9f3
+last_modified_at: 2023-07-16
 ---
 # rtorrent
 
-Download torrents over the command-line.
+Download torrents.
 More information: <https://github.com/rakshasa/rtorrent>.
 
 - Add a torrent file or magnet to be downloaded:

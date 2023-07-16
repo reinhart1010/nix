@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/plesk (English)
-description: "Plesk hosting control panel CLI interface."
-content_hash: 297567dffb67239b5565b50fd6f18374cd583ab1
+description: "Plesk hosting control panel."
+content_hash: 32424c47882f9119e3154f6325352c649e139b24
+last_modified_at: 2023-07-16
 ---
 # plesk
 
-Plesk hosting control panel CLI interface.
+Plesk hosting control panel.
 More information: <https://docs.plesk.com>.
 
 - Generate an auto login link for the admin user and print it:

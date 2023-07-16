@@ -1,16 +1,20 @@
 ---
 layout: page
 title: common/balena (English)
-description: "Interact with the balenaCloud, openBalena and the balena API from the command-line."
-content_hash: cc314138383bc60cf6a32b525b297ea7c337f0ac
+description: "Interact with the balenaCloud, openBalena and the balena API."
+content_hash: 22aae16601cd90b58d0e8bfd9995d439b54a4457
+last_modified_at: 2023-07-16
 related_topics:
+  - title: français version
+    url: /fr/common/balena.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/balena.html
     icon: bi bi-globe
 ---
 # balena
 
-Interact with the balenaCloud, openBalena and the balena API from the command-line.
+Interact with the balenaCloud, openBalena and the balena API.
 More information: <https://www.balena.io/docs/reference/cli/>.
 
 - Log in to the balenaCloud account:

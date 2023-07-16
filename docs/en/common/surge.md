@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/surge (English)
-description: "Simple command-line web publishing."
-content_hash: cc0d64ad1818cca5dde7093658d8ab9bac666db0
+description: "Simple web publishing."
+content_hash: 3f935656715b3a2b5c1edb8958683d8ff95a7187
+last_modified_at: 2023-07-16
 ---
 # surge
 
-Simple command-line web publishing.
+Simple web publishing.
 More information: <https://surge.sh>.
 
 - Upload a new site to surge.sh:

@@ -1,13 +1,13 @@
 ---
 layout: page
 title: common/sd (English)
-description: "Intuitive find & replace CLI."
-content_hash: 8b12a067163e0f794162ad1d9f1c0d40ec0113a8
-last_modified_at: 2022-12-14
+description: "Intuitive find and replace."
+content_hash: 4c73968008c77300e751b2f7de29e2b6fcb6f051
+last_modified_at: 2023-07-16
 ---
 # sd
 
-Intuitive find & replace CLI.
+Intuitive find and replace.
 More information: <https://github.com/chmln/sd>.
 
 - Trim some whitespace using a regular expression (output stream: `stdout`):

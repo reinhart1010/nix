@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/speedtest-cli (English)
-description: "Unofficial command-line interface for testing internet bandwidth using https://speedtest.net."
-content_hash: a30bdf0aac7fb21aba74445b5d0e037b3836d6de
+description: "Test internet bandwidth using <https://speedtest.net>."
+content_hash: 74b03aec679f651c428627b855846a0702eda7c8
+last_modified_at: 2023-07-16
 ---
 # speedtest-cli
 
-Unofficial command-line interface for testing internet bandwidth using https://speedtest.net.
+Test internet bandwidth using <https://speedtest.net>.
 See also `speedtest` for the official CLI.
 More information: <https://github.com/sivel/speedtest-cli>.
 

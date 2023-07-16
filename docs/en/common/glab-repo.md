@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/glab-repo (English)
-description: "Work with GitLab repositories on the command-line."
-content_hash: 50c415ec248a88e3568c144aeba64440472c6d5a
+description: "Work with GitLab repositories."
+content_hash: 61b6938e2a7ee62f65e9592d56fab322bbfea44e
+last_modified_at: 2023-07-16
 ---
 # glab repo
 
-Work with GitLab repositories on the command-line.
+Work with GitLab repositories.
 More information: <https://glab.readthedocs.io/en/latest/repo/index.html#synopsis>.
 
 - Create a new repository (if the repository name is not set, the default name will be the name of the current directory):

@@ -1,12 +1,13 @@
 ---
 layout: page
 title: linux/larasail (English)
-description: "A CLI tool for managing Laravel on Digital Ocean servers."
-content_hash: 7ea9c7aed19f9d8e133673be4ea300246faaeeb8
+description: "Manage Laravel on Digital Ocean servers."
+content_hash: b16ece02c7587b5dbc7170b4bcd9ff87974f2b04
+last_modified_at: 2023-07-16
 ---
 # larasail
 
-A CLI tool for managing Laravel on Digital Ocean servers.
+Manage Laravel on Digital Ocean servers.
 More information: <https://github.com/thedevdojo/larasail>.
 
 - Set up the server with Laravel dependencies using the default PHP version:

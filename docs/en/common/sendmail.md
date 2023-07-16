@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/sendmail (English)
-description: "Send email from the command-line."
-content_hash: 9244f2f0b03b158d0ad70eff22b06e2413cf0332
+description: "Send email."
+content_hash: 72df27b5946ca195224c0166880d3366d2840e7d
+last_modified_at: 2023-07-16
 ---
 # sendmail
 
-Send email from the command-line.
+Send email.
 More information: <https://manned.org/sendmail>.
 
 - Send a message with the content of `message.txt` to the mail directory of local user `username`:

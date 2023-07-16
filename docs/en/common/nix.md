@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/nix (English)
-description: "Powerful package manager that makes package management reliable, reproducible, and declarative."
-content_hash: 6fce0d19a37c366e333a3b9dd4835de9da912855
-last_modified_at: 2023-04-26
+description: "A powerful package manager that makes package management reliable, reproducible, and declarative."
+content_hash: 03f14f3db79fc788ffb6fadf2010aec6cab13726
+last_modified_at: 2023-07-16
 related_topics:
   - title: Deutsch version
     url: /de/common/nix.html
@@ -11,8 +11,8 @@ related_topics:
 ---
 # nix
 
-Powerful package manager that makes package management reliable, reproducible, and declarative.
-The `nix` command-line utility is experimental and requires enabling experimental features. For a classic, stable interface, see `tldr nix classic`.
+A powerful package manager that makes package management reliable, reproducible, and declarative.
+`nix` is experimental and requires enabling experimental features. For a classic, stable interface, see `tldr nix classic`.
 Some `nix` subcommands such as `build`, `develop`, `flake`, `registry`, `profile`, `search`, `repl`, `store`, `edit`, `why-depends` etc. have their own usage documentation, accessible via `tldr nix3 subcommand`.
 More information: <https://nixos.org/manual/nix>.
 

@@ -1,12 +1,13 @@
 ---
 layout: page
 title: linux/kscreen-doctor (English)
-description: "Change and manipulate the screen setup from the command-line."
-content_hash: 3bdf9a7f082bd78c1c60e6b7ce90d37255b95131
+description: "Change and manipulate the screen setup."
+content_hash: 6b97667c618cb9e72da0132f6b4cc81cb4283ef8
+last_modified_at: 2023-07-16
 ---
 # kscreen-doctor
 
-Change and manipulate the screen setup from the command-line.
+Change and manipulate the screen setup.
 More information: <https://invent.kde.org/plasma/libkscreen>.
 
 - Show display output information:

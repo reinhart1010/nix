@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/cheat (English)
-description: "Create and view interactive cheat sheets on the command-line."
-content_hash: f3a04b526eb671a7ffccae9e51e2e26515fd0f6a
+description: "Create and view interactive cheat sheets."
+content_hash: 19036e13c764b5bbc4b3f9eae2b265e74b292d77
+last_modified_at: 2023-07-16
 ---
 # cheat
 
-Create and view interactive cheat sheets on the command-line.
+Create and view interactive cheat sheets.
 More information: <https://github.com/cheat/cheat>.
 
 - Show example usage of a command:

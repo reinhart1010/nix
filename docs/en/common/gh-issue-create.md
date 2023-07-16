@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/gh-issue-create (English)
-description: "Create GitHub issues on a repository from the command-line."
-content_hash: 4174e69e44026580fa083aaa880a50a1329547c5
+description: "Create GitHub issues on a repository."
+content_hash: bbffa5e78df93279d088e19d8fa6190bbea5ed9f
+last_modified_at: 2023-07-16
 ---
 # gh issue create
 
-Create GitHub issues on a repository from the command-line.
+Create GitHub issues on a repository.
 More information: <https://cli.github.com/manual/gh_issue_create>.
 
 - Create a new issue against the current repository interactively:

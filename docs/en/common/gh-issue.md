@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/gh-issue (English)
-description: "Manage GitHub issues from the command-line."
-content_hash: 1d083cfaf2bc6513637d09eeeb94ff896d4499f2
+description: "Manage GitHub issues."
+content_hash: 600b0734010558d483d32db6fab09a5816608e13
+last_modified_at: 2023-07-16
 ---
 # gh issue
 
-Manage GitHub issues from the command-line.
+Manage GitHub issues.
 More information: <https://cli.github.com/manual/gh_issue>.
 
 - Display a specific issue:

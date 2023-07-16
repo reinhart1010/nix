@@ -1,16 +1,20 @@
 ---
 layout: page
 title: linux/nmcli (English)
-description: "A command-line tool for controlling NetworkManager."
-content_hash: b5c739475f85fc5403bac591526f3ae211b6baba
+description: "Manage the network configuration using NetworkManager."
+content_hash: c1ca7a4fad7822c6b64c7ae79eafe22b8d4570fe
+last_modified_at: 2023-07-16
 related_topics:
   - title: മലയാളം version
     url: /ml/linux/nmcli.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/linux/nmcli.html
+    icon: bi bi-globe
 ---
 # nmcli
 
-A command-line tool for controlling NetworkManager.
+Manage the network configuration using NetworkManager.
 Some subcommands such as `nmcli monitor` have their own usage documentation.
 More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 

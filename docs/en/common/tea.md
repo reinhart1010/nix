@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/tea (English)
-description: "A command-line tool to interact with Gitea servers."
-content_hash: 6dbe8ba8898b373a1bdd35e67d7d8acfb60fb2b3
+description: "Interact with Gitea servers."
+content_hash: 8a97e3becfe5dbf6f64f2770e4ae8f60a6fd994e
+last_modified_at: 2023-07-16
 ---
 # tea
 
-A command-line tool to interact with Gitea servers.
+Interact with Gitea servers.
 More information: <https://gitea.com/gitea/tea>.
 
 - Log into a Gitea server:

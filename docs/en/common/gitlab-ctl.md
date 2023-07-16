@@ -1,12 +1,17 @@
 ---
 layout: page
 title: common/gitlab-ctl (English)
-description: "CLI tool for managing the GitLab omnibus."
-content_hash: 44c40c75a812f5a34edb4f2d18a880d36153116c
+description: "Manage the GitLab omnibus."
+content_hash: d1336b348581407cfc5506f67634a12156d89270
+last_modified_at: 2023-07-16
+related_topics:
+  - title: Türkçe version
+    url: /tr/common/gitlab-ctl.html
+    icon: bi bi-globe
 ---
 # gitlab-ctl
 
-CLI tool for managing the GitLab omnibus.
+Manage the GitLab omnibus.
 More information: <https://docs.gitlab.com/omnibus/maintenance/>.
 
 - Display the status of every service:

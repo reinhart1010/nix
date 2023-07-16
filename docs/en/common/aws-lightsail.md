@@ -1,15 +1,13 @@
 ---
 layout: page
 title: common/aws-lightsail (English)
-description: "Manage Amazon Lightsail resources using the CLI."
-content_hash: 4eff3e76e2d91371bee54177358c7b8420c39e4b
+description: "Manage Amazon Lightsail resources."
+content_hash: 338a72a79f2efe587e6349b2eae00b1e9296b482
+last_modified_at: 2023-07-16
 ---
+# aws lightsail
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws lightsail
-
-Manage Amazon Lightsail resources using the CLI.
+Manage Amazon Lightsail resources.
 More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/lightsail/index.html>.
 
 - List all virtual private servers, or instances:

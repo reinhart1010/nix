@@ -1,12 +1,13 @@
 ---
 layout: page
 title: linux/protonvpn-cli (English)
-description: "Official client for ProtonVPN service from the command-line."
-content_hash: 3af01c46ab0ad4fcef452c5f9f4c34cc09dee51f
+description: "Official ProtonVPN client."
+content_hash: 6c983833b7d8224819d7dbbdd1de6aa9451d370f
+last_modified_at: 2023-07-16
 ---
 # protonvpn-cli
 
-Official client for ProtonVPN service from the command-line.
+Official ProtonVPN client.
 More information: <https://github.com/ProtonVPN/linux-cli>.
 
 - Log in to the ProtonVPN account:

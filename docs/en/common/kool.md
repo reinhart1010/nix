@@ -1,15 +1,13 @@
 ---
 layout: page
 title: common/kool (English)
-description: "Build software development environments from the command-line."
-content_hash: 0afd87fff34f5a929471398738bdf6777a43247f
+description: "Build software development environments."
+content_hash: bc84022d92e8e11e5be57cb7e186a4aeaf0458e3
+last_modified_at: 2023-07-16
 ---
+# kool
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># kool
-
-Build software development environments from the command-line.
+Build software development environments.
 More information: <https://kool.dev/docs/>.
 
 - Create a project using a specific preset:

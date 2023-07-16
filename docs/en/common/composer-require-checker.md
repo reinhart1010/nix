@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/composer-require-checker (English)
-description: "A CLI tool to analyze Composer dependencies for soft dependencies."
-content_hash: 6d8d692dffef9bb5303319f3850995a635e6a1ef
+description: "Analyze Composer dependencies for soft dependencies."
+content_hash: 675813bb10d8a944460a104f7fe15914aa587fc4
+last_modified_at: 2023-07-16
 ---
 # composer-require-checker
 
-A CLI tool to analyze Composer dependencies for soft dependencies.
+Analyze Composer dependencies for soft dependencies.
 More information: <https://github.com/maglnet/ComposerRequireChecker>.
 
 - Analyze a Composer JSON file:

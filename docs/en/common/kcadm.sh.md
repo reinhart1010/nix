@@ -1,15 +1,13 @@
 ---
 layout: page
 title: common/kcadm.sh (English)
-description: "Perform administration tasks from the command-line interface (CLI)."
-content_hash: 18701b865eca79aca3bd8fc765bdcd31f500a2b2
+description: "Perform administration tasks."
+content_hash: c0405b67b3720dd24fbba39479ac621c9d37a58d
+last_modified_at: 2023-07-16
 ---
+# kcadm.sh
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># kcadm.sh
-
-Perform administration tasks from the command-line interface (CLI).
+Perform administration tasks.
 More information: <https://www.keycloak.org/docs/latest/server_admin/#admin-cli>.
 
 - Start an authenticated session:

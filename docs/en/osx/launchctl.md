@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/launchctl (English)
-description: "A command-line interface to Apple's `launchd` manager for launch daemons (system-wide services) and launch agents (per-user programs)."
-content_hash: 77c0d239a3341533017d32d12c7715c02a6b634a
-last_modified_at: 2023-02-20
+description: "Control Apple's `launchd` manager for launch daemons (system-wide services) and launch agents (per-user programs)."
+content_hash: 49877cd5c97ce95628989acc6a3135c555216daf
+last_modified_at: 2023-07-16
 related_topics:
   - title: 中文 version
     url: /zh/osx/launchctl.html
@@ -11,7 +11,7 @@ related_topics:
 ---
 # launchctl
 
-A command-line interface to Apple's `launchd` manager for launch daemons (system-wide services) and launch agents (per-user programs).
+Control Apple's `launchd` manager for launch daemons (system-wide services) and launch agents (per-user programs).
 `launchd` loads XML-based `*.plist` files placed in the appropriate locations, and runs the corresponding commands according to their defined schedule.
 More information: <https://manned.org/launchctl>.
 

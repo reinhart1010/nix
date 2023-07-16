@@ -1,15 +1,13 @@
 ---
 layout: page
 title: common/gh-label (English)
-description: "Work with GitHub labels on the command-line."
-content_hash: 4d1d0227f15d1c6a1cbf8bab57dff2abea38558d
+description: "Work with GitHub labels."
+content_hash: 96179b6ea92e5f8d94c391111057eb808100102d
+last_modified_at: 2023-07-16
 ---
+# gh label
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gh label
-
-Work with GitHub labels on the command-line.
+Work with GitHub labels.
 More information: <https://cli.github.com/manual/gh_label>.
 
 - List labels for the repository in the current directory:

@@ -1,12 +1,13 @@
 ---
 layout: page
 title: linux/tuxi (English)
-description: "A CLI tool that scrapes Google search results and SERPs that provides instant and concise answers."
-content_hash: d395789884b891da9d4a0146f028d2bb89063a83
+description: "Scrape Google search results and SERPs and provide instant and concise answers."
+content_hash: 240cb85e752a40d50dc2f633b1d68d5ff7ae23f1
+last_modified_at: 2023-07-16
 ---
 # tuxi
 
-A CLI tool that scrapes Google search results and SERPs that provides instant and concise answers.
+Scrape Google search results and SERPs and provide instant and concise answers.
 More information: <https://github.com/Bugswriter/tuxi>.
 
 - Make a search using Google:

@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/knife (English)
-description: "CLI for interacting with a Chef server from a local Chef repo."
-content_hash: 5773470679542186685e957d793e67a6644e98f6
+description: "Interact with a Chef server from a local Chef repo."
+content_hash: 3383b3302fd5f449083089bcdc7a1c4aac6a7968
+last_modified_at: 2023-07-16
 ---
 # knife
 
-CLI for interacting with a Chef server from a local Chef repo.
+Interact with a Chef server from a local Chef repo.
 More information: <https://docs.chef.io/knife.html>.
 
 - Bootstrap a new node:

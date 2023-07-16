@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/hostess (English)
-description: "An idempotent command-line utility for managing the `/etc/hosts` file."
-content_hash: 04892c3067848403bf54938ba946bc7e69f34a93
+description: "Manage the `/etc/hosts` file."
+content_hash: 9459bb6ada29707124371bc9fd9bedbb7d76883b
+last_modified_at: 2023-07-16
 ---
 # hostess
 
-An idempotent command-line utility for managing the `/etc/hosts` file.
+Manage the `/etc/hosts` file.
 More information: <https://github.com/cbednarski/hostess>.
 
 - List domains, target IP addresses and on/off status:

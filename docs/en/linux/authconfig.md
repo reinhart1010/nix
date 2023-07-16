@@ -1,8 +1,9 @@
 ---
 layout: page
 title: linux/authconfig (English)
-description: "A CLI interface for configuring system authentication resources."
-content_hash: 02a10d8a7be42784a09ae80f38013de1880d304c
+description: "Configure system authentication resources."
+content_hash: e4ad8cefd5d47db2c4da41ac4baa7c19e6a32269
+last_modified_at: 2023-07-16
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/authconfig.html
@@ -13,7 +14,7 @@ related_topics:
 ---
 # authconfig
 
-A CLI interface for configuring system authentication resources.
+Configure system authentication resources.
 More information: <https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/system-level_authentication_guide/authconfig-install>.
 
 - Display the current configuration (or dry run):

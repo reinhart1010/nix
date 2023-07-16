@@ -1,14 +1,13 @@
 ---
 layout: page
 title: windows/bleachbit_console (English)
-description: "The Bleachbit command-line interface (CLI) allows users to automate the process of cleaning junk files on their system."
-content_hash: df475917fddcb301bbc20d1ca94b72ca9b8b6aff
-last_modified_at: 2023-04-10
+description: "Clean junk files on the filesystem."
+content_hash: 68de7eeff747b494194fa82dac5ea06cbfcbb954
+last_modified_at: 2023-07-16
 ---
 # bleachbit_console
 
-The Bleachbit command-line interface (CLI) allows users to automate the process of cleaning junk files on their system.
-It can be run with various command-line arguments to perform different clean-up operations.
+Clean junk files on the filesystem.
 More information: <https://docs.bleachbit.org/doc/command-line-interface.html>.
 
 - Perform the clean-up operation and delete files:

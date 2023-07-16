@@ -1,12 +1,17 @@
 ---
 layout: page
 title: common/gitlab-runner (English)
-description: "CLI tool for managing GitLab runners."
-content_hash: 57bab1d5f496559f873df1af5bb5f5dff4a8f0df
+description: "Manage GitLab runners."
+content_hash: 2c32f5607d66b084e642454583b81efc13268bd9
+last_modified_at: 2023-07-16
+related_topics:
+  - title: Türkçe version
+    url: /tr/common/gitlab-runner.html
+    icon: bi bi-globe
 ---
 # gitlab-runner
 
-CLI tool for managing GitLab runners.
+Manage GitLab runners.
 More information: <https://docs.gitlab.com/runner/>.
 
 - Register a runner:

@@ -1,15 +1,13 @@
 ---
 layout: page
 title: common/exercism (English)
-description: "Download and solve problems from the command-line."
-content_hash: f4e42642bc6db7692ffa74eb61e0b494fcaded90
+description: "Download and solve problems."
+content_hash: 9a039f95b6756ac795ebd38bda821a0290c6ae0b
+last_modified_at: 2023-07-16
 ---
+# exercism
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># exercism
-
-Download and solve problems from the command-line.
+Download and solve problems.
 More information: <https://exercism.org/docs/using/solving-exercises/working-locally>.
 
 - Configure the application token and the preferred workspace for Exercism:

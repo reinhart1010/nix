@@ -1,15 +1,13 @@
 ---
 layout: page
 title: common/spicetify (English)
-description: "A CLI utility to customize the Spotify client UI and functionality."
-content_hash: 13858f67eee3da2a2f861a7ab326d9db0121b9ac
+description: "Customize the Spotify client UI and functionality."
+content_hash: 5a4549046f515e416ffebb394b518caa79d54fd4
+last_modified_at: 2023-07-16
 ---
+# spicetify
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># spicetify
-
-A CLI utility to customize the Spotify client UI and functionality.
+Customize the Spotify client UI and functionality.
 More information: <https://spicetify.app>.
 
 - Generate a configuration file on very first run and display help:

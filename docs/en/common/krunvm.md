@@ -1,16 +1,17 @@
 ---
 layout: page
 title: common/krunvm (English)
-description: "CLI-based utility for creating MicroVMs from OCI images."
-content_hash: 5b6a2cea756b1ed4a37f2faaeb8b28543ec18623
-last_modified_at: 2022-12-09
+description: "Create MicroVMs from OCI images."
+content_hash: f4f116d53a3800e825ccba8b0ec3411ac5ce2383
+last_modified_at: 2023-07-16
+related_topics:
+  - title: español version
+    url: /es/common/krunvm.html
+    icon: bi bi-globe
 ---
+# krunvm
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># krunvm
-
-CLI-based utility for creating MicroVMs from OCI images.
+Create MicroVMs from OCI images.
 More information: <https://github.com/containers/krunvm>.
 
 - Create MicroVM based on Fedora:

@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/cpdf (English)
-description: "CLI to manipulate existing PDF files in a variety of ways."
-content_hash: 5ebc035df84f659d32b725bdf6a105708550b0f6
+description: "Manipulate PDF files."
+content_hash: 146ec5fd3df10d82896c19df2ce7b686f2afa95b
+last_modified_at: 2023-07-16
 related_topics:
   - title: español version
     url: /es/common/cpdf.html
@@ -10,7 +11,7 @@ related_topics:
 ---
 # cpdf
 
-CLI to manipulate existing PDF files in a variety of ways.
+Manipulate PDF files.
 More information: <https://www.coherentpdf.com/cpdfmanual/cpdfmanual.html>.
 
 - Select pages 1, 2, 3 and 6 from a source document and write those to a destination document:

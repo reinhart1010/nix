@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/fastlane (English)
-description: "Build and release mobile applications from the command-line."
-content_hash: 84852104d6ca9b7636c38dd8259cfccf60771e3c
+description: "Build and release mobile applications."
+content_hash: 4c7ef9ac8bc7ce85044b68d969240b9b655fc6c2
+last_modified_at: 2023-07-16
 ---
 # fastlane
 
-Build and release mobile applications from the command-line.
+Build and release mobile applications.
 More information: <https://docs.fastlane.tools/actions/>.
 
 - Build and sign the iOS application in the current directory:

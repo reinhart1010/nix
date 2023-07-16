@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/gsutil (English)
-description: "The gsutil CLI lets you access Google Cloud Storage from the command-line."
-content_hash: 7fbd3582b96ab9237e02eed6bfebe891582795e6
-last_modified_at: 2023-05-31
+description: "Access Google Cloud Storage."
+content_hash: b8021ab72e9956d53baeacb82455cf9ed93e7212
+last_modified_at: 2023-07-16
 ---
 # gsutil
 
-The gsutil CLI lets you access Google Cloud Storage from the command-line.
-You can use gsutil to do a wide range of bucket and object management tasks.
+Access Google Cloud Storage.
+You can use `gsutil` to do a wide range of bucket and object management tasks.
 More information: <https://cloud.google.com/storage/docs/gsutil>.
 
 - List all buckets in a project you are logged into:

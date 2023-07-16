@@ -1,12 +1,13 @@
 ---
 layout: page
 title: linux/light (English)
-description: "CLI to control the backlight of your screen."
-content_hash: 5a5a8b385266e8092a6cab93f58f5a204b325e65
+description: "Control the backlight of your screen."
+content_hash: 6faacf366fb5281d9d73c772ed2229c291731504
+last_modified_at: 2023-07-16
 ---
 # light
 
-CLI to control the backlight of your screen.
+Control the backlight of your screen.
 More information: <https://manned.org/light>.
 
 - Get the current backlight value in percent:

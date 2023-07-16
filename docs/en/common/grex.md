@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/grex (English)
-description: "Simple command-line tool to generate regular expressions."
-content_hash: 07345649284fce8fb24500691745a50e882ef000
+description: "Generate regular expressions."
+content_hash: 594bd49ff4be3462e4559ba2c3c35419c2736563
+last_modified_at: 2023-07-16
 ---
 # grex
 
-Simple command-line tool to generate regular expressions.
+Generate regular expressions.
 More information: <https://github.com/pemistahl/grex>.
 
 - Generate a simple regular expression:

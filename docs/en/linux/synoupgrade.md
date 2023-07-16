@@ -1,12 +1,13 @@
 ---
 layout: page
 title: linux/synoupgrade (English)
-description: "Upgrade a Synology DiskStation Manager (DSM) from the command-line."
-content_hash: 0f613a42c8fd2c27da7f4738f5330adc5d96e8a2
+description: "Upgrade Synology DiskStation Manager (DSM) - the Synology NAS operating system."
+content_hash: 34a7e2de2a0c85fc617d319d51f95d42924624d6
+last_modified_at: 2023-07-16
 ---
 # synoupgrade
 
-Upgrade a Synology DiskStation Manager (DSM) from the command-line.
+Upgrade Synology DiskStation Manager (DSM) - the Synology NAS operating system.
 More information: <https://www.synology.com/dsm>.
 
 - Check if upgrades are available:

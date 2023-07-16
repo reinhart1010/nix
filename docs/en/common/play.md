@@ -2,12 +2,13 @@
 layout: page
 title: common/play (English)
 description: "Audio player of SoX - Sound eXchange."
-content_hash: cfee77f0242fdafa962daedc2f67d47790adf691
+content_hash: 94bf51efd91816df1a6e0eb0bd0c57fa948b763b
+last_modified_at: 2023-07-16
 ---
 # play
 
 Audio player of SoX - Sound eXchange.
-Plays any audio from the command-line, with audio formats identified by the extension.
+Plays any audio, with audio formats identified by the extension.
 More information: <http://sox.sourceforge.net>.
 
 - Play the given audio file:

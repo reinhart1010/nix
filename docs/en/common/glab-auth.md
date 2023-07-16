@@ -1,15 +1,13 @@
 ---
 layout: page
 title: common/glab-auth (English)
-description: "Authenticate with a GitLab host from the command-line."
-content_hash: d811b3b2dbb31bb05380a2edfd0d5ac133513a27
+description: "Authenticate with a GitLab host."
+content_hash: 3cc6eb47b5233eb4bcc047d7ef983f753c89cf82
+last_modified_at: 2023-07-16
 ---
+# glab auth
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># glab auth
-
-Authenticate with a GitLab host from the command-line.
+Authenticate with a GitLab host.
 More information: <https://glab.readthedocs.io/en/latest/auth>.
 
 - Log in with interactive prompt:

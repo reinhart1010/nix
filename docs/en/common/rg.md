@@ -1,13 +1,17 @@
 ---
 layout: page
 title: common/rg (English)
-description: "Ripgrep is a recursive line-oriented CLI search tool."
-content_hash: ec11ad0bde830e1508192d2fd2e20b2231b03e88
-last_modified_at: 2023-02-21
+description: "Ripgrep is a recursive line-oriented search tool."
+content_hash: bdff6254ac956331c2bd604ecf5738acf13bb5fd
+last_modified_at: 2023-07-16
+related_topics:
+  - title: Türkçe version
+    url: /tr/common/rg.html
+    icon: bi bi-globe
 ---
 # rg
 
-Ripgrep is a recursive line-oriented CLI search tool.
+Ripgrep is a recursive line-oriented search tool.
 Aims to be a faster alternative to `grep`.
 More information: <https://github.com/BurntSushi/ripgrep>.
 

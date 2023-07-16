@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/gh-secret (English)
-description: "Manage GitHub secrets from the command-line."
-content_hash: 47f6d247efd124addf252e2067532c7d71fbe8f1
+description: "Manage GitHub secrets."
+content_hash: 963fed142d2e02dd98218aa7668183bfb986b1ca
+last_modified_at: 2023-07-16
 ---
 # gh secret
 
-Manage GitHub secrets from the command-line.
+Manage GitHub secrets.
 More information: <https://cli.github.com/manual/gh_secret>.
 
 - List secret keys for the current repository:

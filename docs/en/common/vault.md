@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/vault (English)
-description: "A CLI to interact with HashiCorp Vault."
-content_hash: 976f33101d516fa908397a8bc1cf6e04afbfdfa0
+description: "Interact with HashiCorp Vault."
+content_hash: 6a2bfba01be78d71aedcb0be4721a6c84f65cf22
+last_modified_at: 2023-07-16
 ---
 # vault
 
-A CLI to interact with HashiCorp Vault.
+Interact with HashiCorp Vault.
 More information: <https://www.vaultproject.io/docs/commands>.
 
 - Connect to a Vault server and initialize a new encrypted data store:

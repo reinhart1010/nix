@@ -1,13 +1,13 @@
 ---
 layout: page
 title: common/tts (English)
-description: "Synthesize speech on the command-line."
-content_hash: aac34fdb1be638991fb83d1a46b1717f6e3ef612
-last_modified_at: 2023-05-31
+description: "Synthesize speech."
+content_hash: a59955963054c7b111bb7ff9a80da78d7918d6cf
+last_modified_at: 2023-07-16
 ---
 # tts
 
-Synthesize speech on the command-line.
+Synthesize speech.
 More information: <https://github.com/coqui-ai/TTS#command-line-tts>.
 
 - Run text-to-speech with the default models, writing the output to "tts_output.wav":

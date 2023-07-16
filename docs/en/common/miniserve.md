@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/miniserve (English)
-description: "Simple HTTP file server CLI."
-content_hash: 9b8fdc981df348d284206a99558bfad920b24561
+description: "Simple HTTP file server."
+content_hash: 463707473f9a20dcca1fc13d86d4a001338b3efa
+last_modified_at: 2023-07-16
 ---
 # miniserve
 
-Simple HTTP file server CLI.
+Simple HTTP file server.
 More information: <https://github.com/svenstaro/miniserve>.
 
 - Serve a directory:

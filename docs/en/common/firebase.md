@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/firebase (English)
-description: "Test, manage, and deploy Firebase projects from the command-line."
-content_hash: 32f385513e9cf455aecfa3957891f9a40cdf14bb
+description: "Test, manage, and deploy Firebase projects."
+content_hash: 338c9c99fc774c35aecb34d1928904326b5fd26a
+last_modified_at: 2023-07-16
 ---
 # firebase
 
-Test, manage, and deploy Firebase projects from the command-line.
+Test, manage, and deploy Firebase projects.
 More information: <https://github.com/firebase/firebase-tools>.
 
 - Log in to <https://console.firebase.google.com>:

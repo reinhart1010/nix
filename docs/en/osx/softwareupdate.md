@@ -1,8 +1,9 @@
 ---
 layout: page
 title: osx/softwareupdate (English)
-description: "A tool for updating macOS App Store apps via the command-line."
-content_hash: b9dccf31d4c46f6b157b06ae89035fdbd691bc1a
+description: "Update macOS App Store apps."
+content_hash: 26ef167076b6573b0d761f6c3e3a31547eb034d3
+last_modified_at: 2023-07-16
 related_topics:
   - title: português (Portugal) version
     url: /pt_PT/osx/softwareupdate.html
@@ -13,7 +14,7 @@ related_topics:
 ---
 # softwareupdate
 
-A tool for updating macOS App Store apps via the command-line.
+Update macOS App Store apps.
 More information: <https://ss64.com/osx/softwareupdate.html>.
 
 - List all available updates:

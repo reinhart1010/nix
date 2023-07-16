@@ -1,12 +1,17 @@
 ---
 layout: page
 title: common/gitlab (English)
-description: "Ruby wrapper and CLI for the GitLab API."
-content_hash: 759918e9a11afb36319c7b28f8304bb43f4c8b48
+description: "Ruby wrapper for the GitLab API."
+content_hash: 1c60e8cadbf349bb4751e3d0f16b6aac731b7211
+last_modified_at: 2023-07-16
+related_topics:
+  - title: Türkçe version
+    url: /tr/common/gitlab.html
+    icon: bi bi-globe
 ---
 # gitlab
 
-Ruby wrapper and CLI for the GitLab API.
+Ruby wrapper for the GitLab API.
 Some subcommands such as `gitlab ctl` have their own usage documentation.
 More information: <https://narkoz.github.io/gitlab/>.
 

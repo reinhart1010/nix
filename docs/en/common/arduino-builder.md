@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/arduino-builder (English)
-description: "A command-line tool for compiling arduino sketches."
-content_hash: 3d98a7c497448c6241206d3584997e7ed80bdddf
-last_modified_at: 2022-12-05
+description: "Compile arduino sketches."
+content_hash: 663e3c6769a47d1331b86b27b02331143f6954f3
+last_modified_at: 2023-07-16
 related_topics:
   - title: français version
     url: /fr/common/arduino-builder.html
@@ -14,7 +14,7 @@ related_topics:
 ---
 # arduino-builder
 
-A command-line tool for compiling arduino sketches.
+Compile arduino sketches.
 DEPRECATION WARNING: This tool is being phased out in favor of `arduino`.
 More information: <https://github.com/arduino/arduino-builder>.
 

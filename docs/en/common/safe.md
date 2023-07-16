@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/safe (English)
-description: "A CLI to interact with HashiCorp Vault."
-content_hash: 0751e790067cd4b1c5bc04460fa1888bc662f487
+description: "Interact with HashiCorp Vault."
+content_hash: 880de94eeb30d9a6eb48d32573337c43a8502a38
+last_modified_at: 2023-07-16
 ---
 # safe
 
-A CLI to interact with HashiCorp Vault.
+Interact with HashiCorp Vault.
 More information: <https://github.com/starkandwayne/safe>.
 
 - Add a safe target:

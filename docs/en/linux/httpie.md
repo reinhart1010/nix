@@ -1,12 +1,13 @@
 ---
 layout: page
 title: linux/httpie (English)
-description: "A user friendly command-line HTTP tool."
-content_hash: 553425c4d987236e9c944542b4f67e7daa188728
+description: "A user friendly HTTP tool."
+content_hash: 17eb43fcf109fee2735d33e79084aeb27076778e
+last_modified_at: 2023-07-16
 ---
 # httpie
 
-A user friendly command-line HTTP tool.
+A user friendly HTTP tool.
 More information: <https://github.com/httpie/httpie>.
 
 - Send a GET request (default method with no request data):

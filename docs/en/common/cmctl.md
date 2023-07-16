@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/cmctl (English)
-description: "A CLI tool that can help you to manage cert-manager resources inside your cluster."
-content_hash: 3be0f6805d1899f3127d01e268a68143c3840a40
+description: "Manage cert-manager resources inside your cluster."
+content_hash: 06d072cb2d04f6ddbea13ffeab09596749cc09ca
+last_modified_at: 2023-07-16
 ---
 # cmctl
 
-A CLI tool that can help you to manage cert-manager resources inside your cluster.
+Manage cert-manager resources inside your cluster.
 Check cert signing status, approve/deny requests, and issue new certificate requests.
 More information: <https://cert-manager.io/docs/usage/cmctl/>.
 

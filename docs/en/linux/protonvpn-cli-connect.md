@@ -1,12 +1,13 @@
 ---
 layout: page
 title: linux/protonvpn-cli-connect (English)
-description: "Official client to connect to ProtonVPN from the command-line."
-content_hash: 016d97cdad20edaebda96a340f34be87e3466ca2
+description: "Connect to ProtonVPN."
+content_hash: 80f8e67d798a54559e01cab58e8053123989de86
+last_modified_at: 2023-07-16
 ---
 # protonvpn-cli connect
 
-Official client to connect to ProtonVPN from the command-line.
+Connect to ProtonVPN.
 More information: <https://protonvpn.com/support/linux-vpn-setup/>.
 
 - Connect to ProtonVPN interactively:

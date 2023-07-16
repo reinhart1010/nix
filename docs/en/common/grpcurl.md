@@ -1,12 +1,14 @@
 ---
 layout: page
 title: common/grpcurl (English)
-description: "Like cURL, but for gRPC: CLI tool for interacting with gRPC servers."
-content_hash: 116e1d3c24ee1e524e42907cc240c84c04d2174c
+description: "Interact with gRPC servers."
+content_hash: 116af83e616874e544457e1f0275ca6860d15c9b
+last_modified_at: 2023-07-16
 ---
 # grpcurl
 
-Like cURL, but for gRPC: CLI tool for interacting with gRPC servers.
+Interact with gRPC servers.
+Like `curl`, but for gRPC.
 More information: <https://github.com/fullstorydev/grpcurl>.
 
 - Send an empty request:

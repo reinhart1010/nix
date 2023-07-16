@@ -2,7 +2,8 @@
 layout: page
 title: common/ts-node (English)
 description: "Run TypeScript code directly, without any compiling."
-content_hash: 9af3546b489d57342bbec2068894f7fe223bd14d
+content_hash: 1604db0f57e26492f0fcb591314c952a0652dd5d
+last_modified_at: 2023-07-16
 ---
 # ts-node
 
@@ -17,7 +18,7 @@ More information: <https://typestrong.org/ts-node>.
 
 `ts-node --skip-project `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.ts</span>
 
-- Evaluate TypeScript code passed as a literal on the command-line:
+- Evaluate TypeScript code passed as a literal:
 
 `ts-node --eval '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">console.log("Hello World")</span>`'`
 

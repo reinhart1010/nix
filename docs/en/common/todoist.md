@@ -1,16 +1,20 @@
 ---
 layout: page
 title: common/todoist (English)
-description: "Access Todoist from the command-line."
-content_hash: 2449b3d4ae71eda33223b9fddc171107081229e2
+description: "Access <https://todoist.com> from the command-line."
+content_hash: 7f457cf1c0739e7b88463e6e254e68ad2d72ef6a
+last_modified_at: 2023-07-16
 related_topics:
   - title: română version
     url: /ro/common/todoist.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/todoist.html
+    icon: bi bi-globe
 ---
 # todoist
 
-Access Todoist from the command-line.
+Access <https://todoist.com> from the command-line.
 More information: <https://github.com/sachaos/todoist>.
 
 - Add a task:

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/gh-gist (English)
-description: "Work with GitHub Gists on the command-line."
-content_hash: 70ac597276256b0b30070a1d6c7806f46e0e104f
-last_modified_at: 2023-05-02
+description: "Work with GitHub Gists."
+content_hash: 173eb867209459756150a173637131fc273e6890
+last_modified_at: 2023-07-16
 related_topics:
   - title: 中文 version
     url: /zh/common/gh-gist.html
@@ -11,7 +11,7 @@ related_topics:
 ---
 # gh gist
 
-Work with GitHub Gists on the command-line.
+Work with GitHub Gists.
 More information: <https://cli.github.com/manual/gh_gist>.
 
 - Create a new Gist from a space-separated list of files:

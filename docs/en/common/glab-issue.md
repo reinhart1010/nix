@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/glab-issue (English)
-description: "Manage GitLab issues from the command-line."
-content_hash: 3d3ee3b71f597464004ee7c48adf7d9a924e24f8
+description: "Manage GitLab issues."
+content_hash: f077bdcebe3605dff21806160f27b06bce3ce0db
+last_modified_at: 2023-07-16
 ---
 # glab issue
 
-Manage GitLab issues from the command-line.
+Manage GitLab issues.
 More information: <https://glab.readthedocs.io/en/latest/issue>.
 
 - Display a specific issue:

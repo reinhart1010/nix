@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/particle (English)
-description: "A command-line tool for interacting with Particle devices."
-content_hash: 202edd8d5c8ced705fb0b5924ce7aa7a515cc677
+description: "Interact with Particle devices."
+content_hash: 955ee7ac78070d9e7442a2520b4988f4de257a05
+last_modified_at: 2023-07-16
 ---
 # particle
 
-A command-line tool for interacting with Particle devices.
+Interact with Particle devices.
 More information: <https://docs.particle.io/tutorials/developer-tools/cli>.
 
 - Log in or create an account for the Particle CLI:

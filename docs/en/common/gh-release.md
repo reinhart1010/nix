@@ -1,13 +1,13 @@
 ---
 layout: page
 title: common/gh-release (English)
-description: "Manage GitHub releases from the command-line."
-content_hash: 2ad9c145175a0b0528ef521ffb48935937bfd7cc
-last_modified_at: 2023-05-04
+description: "Manage GitHub releases."
+content_hash: e6753d4fba88b31ef93df8d8ed18f31fe0026283
+last_modified_at: 2023-07-16
 ---
 # gh release
 
-Manage GitHub releases from the command-line.
+Manage GitHub releases.
 More information: <https://cli.github.com/manual/gh_release>.
 
 - List releases in a GitHub repository, limited to 30 items:

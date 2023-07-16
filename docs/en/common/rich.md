@@ -1,15 +1,13 @@
 ---
 layout: page
 title: common/rich (English)
-description: "Rich CLI is a toolbox for fancy output in the terminal."
-content_hash: 1fa2e7fa6de07e82cf5e31c6af9769fbcc8c40ad
+description: "A toolbox for fancy output in the terminal."
+content_hash: f554702eb450b80162d4f1930fe318f56f0fabd2
+last_modified_at: 2023-07-16
 ---
+# rich
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rich
-
-Rich CLI is a toolbox for fancy output in the terminal.
+A toolbox for fancy output in the terminal.
 More information: <https://github.com/Textualize/rich-cli>.
 
 - Display a file with syntax highlighting:

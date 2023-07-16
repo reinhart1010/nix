@@ -1,12 +1,17 @@
 ---
 layout: page
 title: common/gh-alias (English)
-description: "Manage GitHub CLI command aliases from the command-line."
-content_hash: 2cc9b06e1739e769d41774a52931440edfef07dd
+description: "Manage GitHub CLI command aliases."
+content_hash: 23c24f6803b81062aa2510eef7eb724c761611e8
+last_modified_at: 2023-07-16
+related_topics:
+  - title: français version
+    url: /fr/common/gh-alias.html
+    icon: bi bi-globe
 ---
 # gh alias
 
-Manage GitHub CLI command aliases from the command-line.
+Manage GitHub CLI command aliases.
 More information: <https://cli.github.com/manual/gh_alias>.
 
 - Display the subcommand help:

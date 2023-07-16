@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/etcdctl (English)
-description: "CLI interface for interacting with etcd, a highly-available key-value pair store."
-content_hash: d9ac17456a6af59d8899759becc37cddf8bc0066
+description: "Interact with `etcd`, a highly-available key-value pair store."
+content_hash: f12aafb96e5c8afa422a4e17fdcf111a38294179
+last_modified_at: 2023-07-16
 ---
 # etcdctl
 
-CLI interface for interacting with etcd, a highly-available key-value pair store.
+Interact with `etcd`, a highly-available key-value pair store.
 More information: <https://etcd.io/docs/latest/dev-guide/interacting_v3/>.
 
 - Display the value associated with a specified key:

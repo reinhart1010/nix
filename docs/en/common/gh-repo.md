@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/gh-repo (English)
-description: "Work with GitHub repositories on the command-line."
-content_hash: c158298140ffe76e5db6009077bfadf650141fd1
+description: "Work with GitHub repositories."
+content_hash: be8789476431e59201f97f0a4b8df01177f2a4ca
+last_modified_at: 2023-07-16
 related_topics:
   - title: 中文 version
     url: /zh/common/gh-repo.html
@@ -10,7 +11,7 @@ related_topics:
 ---
 # gh repo
 
-Work with GitHub repositories on the command-line.
+Work with GitHub repositories.
 More information: <https://cli.github.com/manual/gh_repo>.
 
 - Create a new repository (if the repository name is not set, the default name will be the name of the current directory):

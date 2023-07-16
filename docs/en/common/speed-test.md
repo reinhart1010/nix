@@ -1,12 +1,13 @@
 ---
 layout: page
 title: common/speed-test (English)
-description: "Test your internet connection speed and ping using speedtest.net from the CLI."
-content_hash: bdbd040348c2b1e0b1a3b5c4838c8ef139611883
+description: "Test your internet connection speed and ping using <https://speedtest.net>."
+content_hash: a33c74921f1bb14c7d0b7b342ffc39531cdc9c62
+last_modified_at: 2023-07-16
 ---
 # speed-test
 
-Test your internet connection speed and ping using speedtest.net from the CLI.
+Test your internet connection speed and ping using <https://speedtest.net>.
 More information: <https://github.com/sindresorhus/speed-test>.
 
 - Test your internet connection and ping speed:

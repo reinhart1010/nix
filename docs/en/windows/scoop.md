@@ -1,8 +1,9 @@
 ---
 layout: page
 title: windows/scoop (English)
-description: "A command-line installer for Windows."
-content_hash: 121b7d37bedb7df8d58701583098734704b1a6e7
+description: "The Scoop package manager."
+content_hash: 1666db47f011f808861e0af5bdb3e30447b3c49f
+last_modified_at: 2023-07-16
 related_topics:
   - title: Deutsch version
     url: /de/windows/scoop.html
@@ -16,7 +17,7 @@ related_topics:
 ---
 # scoop
 
-A command-line installer for Windows.
+The Scoop package manager.
 More information: <https://scoop.sh>.
 
 - Install a package:
