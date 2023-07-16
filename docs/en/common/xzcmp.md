@@ -1,16 +1,14 @@
 ---
 layout: page
 title: common/xzcmp (English)
-description: "Compare compressed files."
-content_hash: fd6807b24125327680d10133ffb7f5aa902a3c38
-last_modified_at: 2023-01-02
+description: "Invokes `cmp` on files compressed with `xz`, `lzma`, `gzip`, `bzip2`, `lzop`, or `zstd`."
+content_hash: edeb8ce8e82bd6318e1d91410e468c589aa97d0b
+last_modified_at: 2023-07-16
 ---
+# xzcmp
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># xzcmp
-
-Compare compressed files.
+Invokes `cmp` on files compressed with `xz`, `lzma`, `gzip`, `bzip2`, `lzop`, or `zstd`.
+All options specified are passed directly to `cmp`.
 More information: <https://manned.org/xzcmp>.
 
 - Compare two specific files:
