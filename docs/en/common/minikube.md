@@ -2,7 +2,8 @@
 layout: page
 title: common/minikube (English)
 description: "Tool to run Kubernetes locally."
-content_hash: 5ebc1d3219014d9bf53a0dcc1e4836bb660eb22b
+content_hash: 046d238ee78f9dc78c2cdc787ca496f4f6a1b6d2
+last_modified_at: 2023-07-17
 ---
 # minikube
 
@@ -32,3 +33,7 @@ More information: <https://github.com/kubernetes/minikube>.
 - Delete the cluster:
 
 `minikube delete`
+
+- Connect to LoadBalancer services:
+
+`minikube tunnel`
