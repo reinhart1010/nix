@@ -2,10 +2,17 @@
 layout: page
 title: linux/lsusb (English)
 description: "Display information about USB buses and devices connected to them."
-content_hash: 4253c98e1d63770302709f0024de970d7f50fb13
+content_hash: e2ea2a138566dd5d0311cf64cff1644ce55f0f34
+last_modified_at: 2023-07-18
 related_topics:
+  - title: català version
+    url: /ca/linux/lsusb.html
+    icon: bi bi-globe
   - title: español version
     url: /es/linux/lsusb.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/lsusb.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/lsusb.html
@@ -30,7 +37,7 @@ More information: <https://manned.org/lsusb>.
 
 - List detailed information about a USB device:
 
-`lsusb -D `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device</span>
+`lsusb --verbose -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bus</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device number</span>
 
 - List devices with a specified vendor and product ID only:
 
