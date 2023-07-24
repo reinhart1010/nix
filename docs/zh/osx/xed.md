@@ -2,7 +2,8 @@
 layout: page
 title: osx/xed (中文)
 description: "用 Xcode 打开要编辑的文件。"
-content_hash: 269512b9a6063e1cd65a488a514ca2f78266b44d
+content_hash: 693c091657fa639e1c76669b203f1e2322a39051
+last_modified_at: 2023-07-24
 related_topics:
   - title: English version
     url: /en/osx/xed.html
@@ -22,8 +23,8 @@ related_topics:
 
 - 在 Xcode 中打开文件，如果不存在则创建：
 
-`xed -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名</span>
+`xed --create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名</span>
 
 - 在 Xcode 中打开一个文件并跳转到第 75 行：
 
-`xed -l 75 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名</span>
+`xed --line 75 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名</span>

@@ -2,8 +2,8 @@
 layout: page
 title: linux/nmcli (English)
 description: "Manage the network configuration using NetworkManager."
-content_hash: c1ca7a4fad7822c6b64c7ae79eafe22b8d4570fe
-last_modified_at: 2023-07-16
+content_hash: 38474a1a2354e8f1adb4229005179c08746d203a
+last_modified_at: 2023-07-24
 related_topics:
   - title: മലയാളം version
     url: /ml/linux/nmcli.html
@@ -17,6 +17,14 @@ related_topics:
 Manage the network configuration using NetworkManager.
 Some subcommands such as `nmcli monitor` have their own usage documentation.
 More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
+
+- List all available wifi networks:
+
+`nmcli device wifi`
+
+- Connect to a wifi network:
+
+`nmcli dev wifi connect `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SSID</span>
 
 - Run an `nmcli` subcommand:
 
