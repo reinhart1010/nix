@@ -2,7 +2,8 @@
 layout: page
 title: common/echo (English)
 description: "Print given arguments."
-content_hash: fa0168195acac53ddce6751fccdc57e74296500d
+content_hash: f264eab46955028a77c2c4ddf74e6d0f7147afb4
+last_modified_at: 2023-07-25
 related_topics:
   - title: Deutsch version
     url: /de/common/echo.html
@@ -24,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/echo.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/echo.html
     icon: bi bi-globe
   - title: српски version
     url: /sr/common/echo.html
@@ -59,3 +63,7 @@ More information: <https://www.gnu.org/software/coreutils/echo>.
 - Enable interpretation of backslash escapes (special characters):
 
 `echo -e "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Column 1\tColumn 2</span>`"`
+
+- Print the exit status of the last executed command (Note: In Windows Command Prompt and PowerShell the equivalent commands are `echo %errorlevel%` and `$lastexitcode` respectively):
+
+`echo $?`
