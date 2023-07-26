@@ -2,16 +2,17 @@
 layout: page
 title: linux/pw-play (English)
 description: "Shorthand tool for pw-cat --playback."
-content_hash: 27edcdf734c9aa7aeb92bc12e2832300ad14828d
+content_hash: 9c15d0c3f3036e98af17accd9fba93e094c3bc9d
+last_modified_at: 2023-07-26
+related_topics:
+  - title: Türkçe version
+    url: /tr/linux/pw-play.html
+    icon: bi bi-globe
 ---
 # pw-play
 
 Shorthand tool for pw-cat --playback.
 More information: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI>.
-
-- List all available playback targets:
-
-`pw-play --list-targets`
 
 - Play a wav sound file over the default target:
 
