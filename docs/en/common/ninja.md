@@ -2,7 +2,8 @@
 layout: page
 title: common/ninja (English)
 description: "A Build system designed to be fast."
-content_hash: 1f4ced13c92634bde487dae59a62e3c4fbdffb67
+content_hash: 031d96c5801cbff63b832e65ba667b016ae38832
+last_modified_at: 2023-07-27
 related_topics:
   - title: 中文 version
     url: /zh/common/ninja.html
@@ -16,6 +17,10 @@ More information: <https://ninja-build.org/manual.html>.
 - Build in the current directory:
 
 `ninja`
+
+- Build in the current directory, executing 4 jobs at a time in parallel:
+
+`ninja -j `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span>
 
 - Build a program in a given directory:
 
