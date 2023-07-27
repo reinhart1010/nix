@@ -2,7 +2,8 @@
 layout: page
 title: linux/xdg-open (català)
 description: "Obre un arxiu o URL en l'aplicació predeterminada del usuari."
-content_hash: 670f3d2b9737b1c7022b0bc1d7e77f9c793a3852
+content_hash: f8f2b08e251f1242dc1aca625e03a2ca7957794f
+last_modified_at: 2023-07-27
 related_topics:
   - title: English version
     url: /en/linux/xdg-open.html
@@ -16,7 +17,7 @@ related_topics:
 Obre un arxiu o URL en l'aplicació predeterminada del usuari.
 Més informació: <https://portland.freedesktop.org/doc/xdg-open.html>.
 
-- Obre el directori actual en l'explorador d'arxius predeterminat::
+- Obre el directori actual en l'explorador d'arxius predeterminat:
 
 `xdg-open .`
 

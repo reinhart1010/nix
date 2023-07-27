@@ -2,7 +2,8 @@
 layout: page
 title: linux/a2enmod (Türkçe)
 description: "Debian tabanlı işletim sistemlerinde Apache modülünü etkinleştir."
-content_hash: ea067bfa8e8f932870fac600d6bdd65adbdad89f
+content_hash: 17bcf3528920b26a3349031f7d269ed8c81a282e
+last_modified_at: 2023-07-27
 related_topics:
   - title: català version
     url: /ca/linux/a2enmod.html
@@ -12,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: English version
     url: /en/linux/a2enmod.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/a2enmod.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/a2enmod.html
@@ -29,15 +33,12 @@ related_topics:
     url: /zh/linux/a2enmod.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># a2enmod
+# a2enmod
 
 Debian tabanlı işletim sistemlerinde Apache modülünü etkinleştir.
 Daha fazla bilgi için: <https://manpages.debian.org/latest/apache2/a2enmod.8.en.html>.
 
-- Bir modülü etkinleştir::
+- Bir modülü etkinleştir:
 
 `sudo a2enmod `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modül</span>
 
