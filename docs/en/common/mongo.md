@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/mongo (English)
-description: "MongoDB interactive shell client."
-content_hash: 6b32b433167f36ffd365c47c46866fac0af34660
+description: "The legacy MongoDB shell. See `mongosh` for the new shell."
+content_hash: 4df61d4e0f31ebfc73b563f489aa0d5d89a69217
+last_modified_at: 2023-08-01
 related_topics:
   - title: français version
     url: /fr/common/mongo.html
@@ -13,21 +14,22 @@ related_topics:
 ---
 # mongo
 
-MongoDB interactive shell client.
+The legacy MongoDB shell. See `mongosh` for the new shell.
+Note: all connection options can be replaced with one string: `mongodb://user@host:port/db_name?authSource=authdb_name`.
 More information: <https://docs.mongodb.com/manual/reference/program/mongo>.
+
+- Connect to a local database on the default port (`mongodb://localhost:27017`):
+
+`mongo`
 
 - Connect to a database:
 
-`mongo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database</span>
+`mongo --host `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>` --port `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">db_name</span>
 
-- Connect to a database running on a given host on a given port:
+- Authenticate using the specified username on the specified database (you will be prompted for a password):
 
-`mongo --host `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>` --port `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database</span>
+`mongo --host `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>` --port `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span>` --username `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>` --authenticationDatabase `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">authdb_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">db_name</span>
 
-- Connect to a database with a given username; user will be prompted for password:
+- Evaluate a JavaScript expression on a database:
 
-`mongo --username `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database</span>` --password`
-
-- Evaluate a JavaScript expression on the database:
-
-`mongo --eval '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">JSON.stringify(db.foo.findOne())</span>`' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">database</span>
+`mongo --eval '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">JSON.stringify(db.foo.findOne())</span>`' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">db_name</span>
