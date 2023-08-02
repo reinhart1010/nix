@@ -1,8 +1,9 @@
 ---
 layout: page
 title: linux/nmcli-connection (English)
-description: "Connection management with NetworkManager."
-content_hash: ccc27db3b79ad3e3915be17ed5ffde3eda2d9a72
+description: "Manage connections with NetworkManager."
+content_hash: 8c13f81a894074d681e08a73ea0b3f857bd454e9
+last_modified_at: 2023-08-02
 related_topics:
   - title: Türkçe version
     url: /tr/linux/nmcli-connection.html
@@ -10,7 +11,7 @@ related_topics:
 ---
 # nmcli connection
 
-Connection management with NetworkManager.
+Manage connections with NetworkManager.
 This subcommand can also be called with `nmcli c`.
 More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
@@ -18,7 +19,7 @@ More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
 `nmcli connection`
 
-- Activate a connection by specifying a UUID:
+- Activate a connection:
 
 `nmcli connection up uuid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uuid</span>
 
@@ -38,6 +39,6 @@ More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
 `nmcli connection add ifname `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface_name</span>` type `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ethernet</span>` ip4 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.0.0.7/8</span>` gw4 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.0.0.1</span>` ipv4.dns `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10.0.0.1</span>` ipv6.method `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ignore</span>
 
-- Create a VPN connection using OpenVPN from a OVPN file:
+- Create a VPN connection using OpenVPN from an OVPN file:
 
 `nmcli connection import type `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">openvpn</span>` file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/vpn_config.ovpn</span>

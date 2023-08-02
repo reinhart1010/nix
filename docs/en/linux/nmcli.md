@@ -2,8 +2,8 @@
 layout: page
 title: linux/nmcli (English)
 description: "Manage the network configuration using NetworkManager."
-content_hash: 38474a1a2354e8f1adb4229005179c08746d203a
-last_modified_at: 2023-07-24
+content_hash: 0679b81467ce5283305144c594c90fa6f38071d6
+last_modified_at: 2023-08-02
 related_topics:
   - title: മലയാളം version
     url: /ml/linux/nmcli.html
@@ -15,29 +15,32 @@ related_topics:
 # nmcli
 
 Manage the network configuration using NetworkManager.
-Some subcommands such as `nmcli monitor` have their own usage documentation.
 More information: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
-- List all available wifi networks:
+- View documentation for running `nmcli` as a NetworkManager secret/polkit agent:
 
-`nmcli device wifi`
+`tldr nmcli agent`
 
-- Connect to a wifi network:
+- View documentation for managing network connections:
 
-`nmcli dev wifi connect `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SSID</span>
+`tldr nmcli connection`
 
-- Run an `nmcli` subcommand:
+- View documentation for managing network interfaces and establishing new Wi-Fi connections:
 
-`nmcli `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">agent|connection|device|general|help|monitor|networking|radio</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_options</span>
+`tldr nmcli device`
 
-- Display the current version of NetworkManager:
+- View documentation for managing general settings of NetworkManager:
 
-`nmcli --version`
+`tldr nmcli general`
 
-- Display help:
+- View documentation for NetworkManager's activity monitor:
 
-`nmcli --help`
+`tldr nmcli monitor`
 
-- Display help for a subcommand:
+- View documentation for enabling/disabling and checking the status of networking:
 
-`nmcli `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>` --help`
+`tldr nmcli networking`
+
+- View documentation for managing radio switches:
+
+`tldr nmcli radio`
