@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/case (English)
-description: "Branch based on the value of an expression."
-content_hash: 48355b59eb14cc3a03408f4db62ea4e8023b04b6
+description: "Bash builtin construct for creating multi-choice conditional statements."
+content_hash: 9e3c60cdc299d50be45d24c9a04a54bbad0b8d18
+last_modified_at: 2023-08-04
 related_topics:
   - title: italiano version
     url: /it/common/case.html
@@ -16,8 +17,8 @@ related_topics:
 ---
 # case
 
-Branch based on the value of an expression.
-More information: <https://manned.org/case>.
+Bash builtin construct for creating multi-choice conditional statements.
+More information: <https://www.gnu.org/software/bash/manual/bash.html#index-case>.
 
 - Match a variable against string literals to decide which command to run:
 
