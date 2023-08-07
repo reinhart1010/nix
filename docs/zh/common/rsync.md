@@ -2,7 +2,8 @@
 layout: page
 title: common/rsync (中文)
 description: "一种快速，通用，远程（和本地）文件复制工具。"
-content_hash: 7dad3ef3c84e39d73f28f8a7f6300d431209d70b
+content_hash: 49bd8987ab7d936d5d9127d6e5a7cc9e4544ca3c
+last_modified_at: 2023-08-07
 related_topics:
   - title: English version
     url: /en/common/rsync.html
@@ -13,11 +14,14 @@ related_topics:
   - title: Indonesia version
     url: /id/common/rsync.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/rsync.html
+    icon: bi bi-globe
 ---
 # rsync
 
 一种快速，通用，远程（和本地）文件复制工具。
-更多信息：<https://manned.org/rsync>.
+更多信息：<https://download.samba.org/pub/rsync/rsync.1>.
 
 - 从本地传输文件到远程主机：
 

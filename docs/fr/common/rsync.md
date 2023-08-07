@@ -2,13 +2,17 @@
 layout: page
 title: common/rsync (français)
 description: "Transférer des fichiers vers ou depuis un hôte distant (pas entre deux hôtes distants)."
-content_hash: e905695f8f88bb225a63a148c87a815b3cf04338
+content_hash: fae0a79421ac9a9917693549ba3bffaaf67ac967
+last_modified_at: 2023-08-07
 related_topics:
   - title: English version
     url: /en/common/rsync.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/rsync.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/rsync.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/rsync.html
@@ -18,7 +22,7 @@ related_topics:
 
 Transférer des fichiers vers ou depuis un hôte distant (pas entre deux hôtes distants).
 Peut transférer un ou plusieurs fichiers correspondant à un motif.
-Plus d'informations : <https://manned.org/rsync>.
+Plus d'informations : <https://download.samba.org/pub/rsync/rsync.1>.
 
 - Transférer un fichier local vers un serveur distant :
 

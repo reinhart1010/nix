@@ -2,13 +2,17 @@
 layout: page
 title: common/rsync (Indonesia)
 description: "Transfer file ke atau dari sebuah _remote host_ (bukan di antara 2 _remote host_)."
-content_hash: 2b51ebe30be7b79c5325c057d8fb74ae67bb6611
+content_hash: 4221f83f47dc52a17be9b018c59cebe65506a92a
+last_modified_at: 2023-08-07
 related_topics:
   - title: English version
     url: /en/common/rsync.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/rsync.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/rsync.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/rsync.html
@@ -18,7 +22,7 @@ related_topics:
 
 Transfer file ke atau dari sebuah _remote host_ (bukan di antara 2 _remote host_).
 Bisa transfer satuan file, maupun beberapa file yang sesuai dengan pola tertentu.
-Informasi lebih lanjut: <https://manned.org/rsync>.
+Informasi lebih lanjut: <https://download.samba.org/pub/rsync/rsync.1>.
 
 - Transfer file dari lokal ke _remote host_:
 
