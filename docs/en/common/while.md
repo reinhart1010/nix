@@ -2,8 +2,8 @@
 layout: page
 title: common/while (English)
 description: "Simple shell loop."
-content_hash: ab93c6be30849d3de82de2833b89181e975300b9
-last_modified_at: 2022-12-04
+content_hash: 2dc331e80b2571c7ced27b3b0f65e30ea006a5a4
+last_modified_at: 2023-08-08
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/while.html
@@ -12,7 +12,7 @@ related_topics:
 # while
 
 Simple shell loop.
-More information: <https://manned.org/while>.
+More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#tag_18_09_04_09>.
 
 - Read `stdin` and perform an action on every line:
 
