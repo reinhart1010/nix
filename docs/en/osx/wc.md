@@ -2,7 +2,8 @@
 layout: page
 title: osx/wc (English)
 description: "Count lines, words, or bytes."
-content_hash: 3523908766613c9b2fd9218bdd8f053a461ecdfd
+content_hash: 4f830487c30965fab30a03ec4d2a997de4a6c6b4
+last_modified_at: 2023-08-09
 related_topics:
   - title: polski version
     url: /pl/osx/wc.html
@@ -29,6 +30,6 @@ More information: <https://ss64.com/osx/wc.html>.
 
 `wc -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Use standard input to count lines, words and characters (bytes) in that order:
+- Use `stdin` to count lines, words and characters (bytes) in that order:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">find .</span>` | wc`

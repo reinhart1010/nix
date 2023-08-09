@@ -1,12 +1,13 @@
 ---
 layout: page
 title: linux/scriptreplay (English)
-description: "Replay a typescript created by the `script` command to the standard output."
-content_hash: 2d4f1fc8a5e34c58dbe6c0345312ffa4625f09fe
+description: "Replay a typescript created by the `script` command to `stdout`."
+content_hash: aa13b3c9cc9f5d2b7ee22e77ae84d8a5553af86f
+last_modified_at: 2023-08-09
 ---
 # scriptreplay
 
-Replay a typescript created by the `script` command to the standard output.
+Replay a typescript created by the `script` command to `stdout`.
 More information: <https://manned.org/scriptreplay>.
 
 - Replay a typescript at the speed it was recorded:

@@ -2,14 +2,19 @@
 layout: page
 title: common/pdftotext (English)
 description: "Convert PDF files to plain text format."
-content_hash: dc7c10053268e0e2205e376a840bc6a17e4b3e17
+content_hash: c24fb942a5c3d2947081344728e813669fee6c5c
+last_modified_at: 2023-08-09
+related_topics:
+  - title: Deutsch version
+    url: /de/common/pdftotext.html
+    icon: bi bi-globe
 ---
 # pdftotext
 
 Convert PDF files to plain text format.
 More information: <https://www.xpdfreader.com/pdftotext-man.html>.
 
-- Convert `filename.pdf` to plain text and print it to standard output:
+- Convert `filename.pdf` to plain text and print it to `stdout`:
 
 `pdftotext `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename.pdf</span>` -`
 

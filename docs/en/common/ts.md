@@ -1,13 +1,13 @@
 ---
 layout: page
 title: common/ts (English)
-description: "Add timestamps to every line from standard input."
-content_hash: 899bd25914cc486164fa471c7394a3ce20b7c49a
-last_modified_at: 2023-05-20
+description: "Add timestamps to every line from `stdin`."
+content_hash: a1c476a55cba9614d791a725340156bc4cdf7789
+last_modified_at: 2023-08-09
 ---
 # ts
 
-Add timestamps to every line from standard input.
+Add timestamps to every line from `stdin`.
 More information: <https://joeyh.name/code/moreutils/>.
 
 - Add a timestamp to the beginning of each line:

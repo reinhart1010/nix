@@ -2,14 +2,15 @@
 layout: page
 title: linux/slop (English)
 description: "Get a selection of the screen."
-content_hash: f748a4a4b91f92d4ad15800cf1f1b4d89d1f2dc0
+content_hash: 64877bac5cf329c6153060a9972f904d34624204
+last_modified_at: 2023-08-09
 ---
 # slop
 
 Get a selection of the screen.
 More information: <https://github.com/naelstrof/slop>.
 
-- Wait for the user to make a selection and output its geometry to standard output:
+- Wait for the user to make a selection and output its geometry to `stdout`:
 
 `slop`
 

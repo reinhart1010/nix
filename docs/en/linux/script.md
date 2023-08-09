@@ -2,7 +2,8 @@
 layout: page
 title: linux/script (English)
 description: "Record all terminal output to file."
-content_hash: 3fbb2bc8d8e85fc1d217e3fbefae4d17c970e169
+content_hash: c1b492840fbd1578992e53560f72aef7fe895caf
+last_modified_at: 2023-08-09
 ---
 # script
 
@@ -21,6 +22,6 @@ More information: <https://manned.org/script>.
 
 `script -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/session.out</span>
 
-- Record timing information (data is outputted to the standard error):
+- Record timing information (data is outputted to `stderr`):
 
 `script -t 2> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/timingfile</span>

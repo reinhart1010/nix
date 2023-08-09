@@ -1,9 +1,13 @@
 ---
 layout: page
 title: linux/dmesg (English)
-description: "Write the kernel messages to standard output."
-content_hash: bff773d3b0f4da37295d6c2a9e93d3e539f2d361
+description: "Write the kernel messages to `stdout`."
+content_hash: f4feb8c8b8bc1aa55a46ade12db5fe8c4e7e7ddd
+last_modified_at: 2023-08-09
 related_topics:
+  - title: català version
+    url: /ca/linux/dmesg.html
+    icon: bi bi-globe
   - title: español version
     url: /es/linux/dmesg.html
     icon: bi bi-globe
@@ -16,7 +20,7 @@ related_topics:
 ---
 # dmesg
 
-Write the kernel messages to standard output.
+Write the kernel messages to `stdout`.
 More information: <https://manned.org/dmesg>.
 
 - Show kernel messages:

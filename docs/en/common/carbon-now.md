@@ -2,8 +2,8 @@
 layout: page
 title: common/carbon-now (English)
 description: "Create beautiful images of code."
-content_hash: e6820bf84e526be1f91ef7455248d00306b2493f
-last_modified_at: 2022-12-04
+content_hash: 66aebc1163ae87ebd8a862caa28bcfe48fb50060
+last_modified_at: 2023-08-09
 related_topics:
   - title: 中文 version
     url: /zh/common/carbon-now.html
@@ -22,7 +22,7 @@ More information: <https://github.com/mixn/carbon-now-cli>.
 
 `carbon-now --from-clipboard`
 
-- Create an image from standard input using default settings:
+- Create an image from `stdin` using default settings:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input</span>` | carbon-now`
 

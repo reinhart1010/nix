@@ -2,15 +2,15 @@
 layout: page
 title: linux/pridecat (English)
 description: "Like cat but more colorful :)."
-content_hash: 40027a75a38f36c1c082041903a419cd04e52e1e
-last_modified_at: 2022-12-04
+content_hash: b700793a1e43dec6900590fb193c8a208ad31926
+last_modified_at: 2023-08-09
 ---
 # pridecat
 
 Like cat but more colorful :).
 More information: <https://github.com/lunasorcery/pridecat>.
 
-- Print the contents of a file in pride colors to the standard output:
+- Print the contents of a file in pride colors to `stdout`:
 
 `pridecat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 

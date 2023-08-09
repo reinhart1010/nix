@@ -2,8 +2,8 @@
 layout: page
 title: common/cat (English)
 description: "Print and concatenate files."
-content_hash: 8589e15b03025951639932ffa57b29b1610d89da
-last_modified_at: 2022-12-21
+content_hash: 4ae3360c8454bc6bf1184ef863e0d1686028632b
+last_modified_at: 2023-08-09
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/cat.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/cat.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/cat.html
@@ -56,7 +59,7 @@ related_topics:
 Print and concatenate files.
 More information: <https://www.gnu.org/software/coreutils/cat>.
 
-- Print the contents of a file to the standard output:
+- Print the contents of a file to `stdout`:
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 

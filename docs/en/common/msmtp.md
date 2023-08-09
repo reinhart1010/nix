@@ -2,12 +2,13 @@
 layout: page
 title: common/msmtp (English)
 description: "An SMTP client."
-content_hash: a234fb136ee16b68b5111c61513034a52417be76
+content_hash: 9f8daec54697544df57d9f782c3b290d6247e508
+last_modified_at: 2023-08-09
 ---
 # msmtp
 
 An SMTP client.
-It reads text from standard input and sends it to an SMTP server.
+It reads text from `stdin` and sends it to an SMTP server.
 More information: <https://marlam.de/msmtp>.
 
 - Send an email using the default account configured in `~/.msmtprc`:

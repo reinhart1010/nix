@@ -1,16 +1,13 @@
 ---
 layout: page
 title: common/basenc (English)
-description: "Encode or decode file or standard input using a specified encoding, to standard output."
-content_hash: 495175ff50287491a3f2126c7b36aaceb1150a09
-last_modified_at: 2023-05-09
+description: "Encode or decode file or `stdin` using a specified encoding, to `stdout`."
+content_hash: e1454d59dac7edec6c5c74d890ae6082380c1a6f
+last_modified_at: 2023-08-09
 ---
+# basenc
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># basenc
-
-Encode or decode file or standard input using a specified encoding, to standard output.
+Encode or decode file or `stdin` using a specified encoding, to `stdout`.
 More information: <https://www.gnu.org/software/coreutils/basenc>.
 
 - Encode a file with base64 encoding:

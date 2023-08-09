@@ -2,8 +2,8 @@
 layout: page
 title: common/pueue-follow (English)
 description: "Follow the output of a currently running task."
-content_hash: f9576fb105d362d9c40767c3a32984118e03624c
-last_modified_at: 2022-12-04
+content_hash: f859cc4c9ea5d2a58a1d56e19914145e14f8a9d4
+last_modified_at: 2023-08-09
 ---
 # pueue follow
 
@@ -15,6 +15,6 @@ More information: <https://github.com/Nukesor/pueue>.
 
 `pueue follow `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span>
 
-- Follow the `stderr` of a task:
+- Follow `stderr` of a task:
 
 `pueue follow --err `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_id</span>

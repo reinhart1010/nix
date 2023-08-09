@@ -1,16 +1,17 @@
 ---
 layout: page
 title: linux/sqfscat (English)
-description: "Concatenate files from a squashfs filesystem and print them to standard output."
-content_hash: 4c93163d4fff89b4b02543d2310dd9b04520e48d
-last_modified_at: 2023-05-25
+description: "Concatenate files from a squashfs filesystem and print them to `stdout`."
+content_hash: 6b0bd3459578c1a591f1f1c00e4521cb31302c30
+last_modified_at: 2023-08-09
+related_topics:
+  - title: polski version
+    url: /pl/linux/sqfscat.html
+    icon: bi bi-globe
 ---
+# sqfscat
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># sqfscat
-
-Concatenate files from a squashfs filesystem and print them to standard output.
+Concatenate files from a squashfs filesystem and print them to `stdout`.
 More information: <https://manned.org/sqfscat>.
 
 - Display the contents of one or more files from a squashfs filesystem:

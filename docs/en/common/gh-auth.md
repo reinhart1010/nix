@@ -2,8 +2,8 @@
 layout: page
 title: common/gh-auth (English)
 description: "Authenticate with a GitHub host."
-content_hash: 3df5bf947c77335dedde0897c20ebca1565acf77
-last_modified_at: 2023-07-16
+content_hash: fa39aaa4aa77128892a5cc7932ec72aebc59f8ea
+last_modified_at: 2023-08-09
 ---
 # gh auth
 
@@ -14,7 +14,7 @@ More information: <https://cli.github.com/manual/gh_auth>.
 
 `gh auth login`
 
-- Log in with a token from standard input (created in https://github.com/settings/tokens):
+- Log in with a token from `stdin` (created in https://github.com/settings/tokens):
 
 `echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">your_token</span>` | gh auth login --with-token`
 

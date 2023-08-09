@@ -2,8 +2,8 @@
 layout: page
 title: common/bzip2 (English)
 description: "A block-sorting file compressor."
-content_hash: 9931389909c6a8937a7a361ba95ab4a349555f09
-last_modified_at: 2022-12-19
+content_hash: 3bca63a9d5c541b008c532de79b4353ad1aac2a7
+last_modified_at: 2023-08-09
 related_topics:
   - title: italiano version
     url: /it/common/bzip2.html
@@ -28,7 +28,7 @@ More information: <https://manned.org/bzip2>.
 
 `bzip2 -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed_file.bz2</span>
 
-- Decompress a file to standard output:
+- Decompress a file to `stdout`:
 
 `bzip2 -dc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed_file.bz2</span>
 

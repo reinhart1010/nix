@@ -2,7 +2,8 @@
 layout: page
 title: common/gpg2 (English)
 description: "GNU Privacy Guard 2."
-content_hash: b140a2728c2ef6adf4301b398aed025ab4d7802a
+content_hash: 87449cddef6b166db83a880d02a1325e5caa2004
+last_modified_at: 2023-08-09
 related_topics:
   - title: Deutsch version
     url: /de/common/gpg2.html
@@ -29,7 +30,7 @@ More information: <https://docs.releng.linuxfoundation.org/en/latest/gpg.html>.
 
 `gpg2 --symmetric `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/doc.txt</span>
 
-- Decrypt a specified file, writing the result to the standard output:
+- Decrypt a specified file, writing the result to `stdout`:
 
 `gpg2 --decrypt `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/doc.txt.gpg</span>
 
@@ -37,10 +38,10 @@ More information: <https://docs.releng.linuxfoundation.org/en/latest/gpg.html>.
 
 `gpg2 --import `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/public_key.gpg</span>
 
-- Export the public key of a specified email address to the standard output:
+- Export the public key of a specified email address to `stdout`:
 
 `gpg2 --export --armor `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice@example.com</span>
 
-- Export the private key with a specified email address to the standard output:
+- Export the private key with a specified email address to `stdout`:
 
 `gpg2 --export-secret-keys --armor `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice@example.com</span>

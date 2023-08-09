@@ -2,8 +2,8 @@
 layout: page
 title: linux/hardinfo (English)
 description: "Show hardware information in GUI window."
-content_hash: 714f4f9560e74caece715ade8d398be45f9ef3df
-last_modified_at: 2023-06-28
+content_hash: e08a70999fa6b76dfa5fbc3e3c440c5b578e556a
+last_modified_at: 2023-08-09
 ---
 # hardinfo
 
@@ -14,7 +14,7 @@ More information: <https://github.com/lpereira/hardinfo>.
 
 `hardinfo`
 
-- Print report to standard output:
+- Print report to `stdout`:
 
 `hardinfo -r`
 

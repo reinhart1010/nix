@@ -2,14 +2,15 @@
 layout: page
 title: common/pygmentize (English)
 description: "Python-based syntax highlighter."
-content_hash: 77385ec8c141e4cf0ad809175bc596fa5dae6873
+content_hash: f334408808c42ac7b924a4bc452119f636d7c7b8
+last_modified_at: 2023-08-09
 ---
 # pygmentize
 
 Python-based syntax highlighter.
 More information: <https://pygments.org/docs/cmdline/>.
 
-- Highlight file syntax and print to standard output (language is inferred from the file extension):
+- Highlight file syntax and print to `stdout` (language is inferred from the file extension):
 
 `pygmentize `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.py</span>
 

@@ -2,7 +2,8 @@
 layout: page
 title: common/git-bundle (English)
 description: "Package objects and references into an archive."
-content_hash: 1c2d37d8d0462b7644ada7094d28ed924fce2886
+content_hash: d4c3310bff89b37d3f1c52f02e3f571ab07be2ab
+last_modified_at: 2023-08-09
 related_topics:
   - title: français version
     url: /fr/common/git-bundle.html
@@ -12,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-bundle.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-bundle.html
     icon: bi bi-globe
 ---
 # git bundle
@@ -39,7 +43,7 @@ More information: <https://git-scm.com/docs/git-bundle>.
 
 `git bundle verify `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.bundle</span>
 
-- Print to the standard output the list of references contained in a bundle:
+- Print to `stdout` the list of references contained in a bundle:
 
 `git bundle unbundle `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.bundle</span>
 

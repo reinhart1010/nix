@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/tee (English)
-description: "Read from standard input and write to standard output and files (or commands)."
-content_hash: 847e7401637f73cb238efbc353f1783b31ab854a
+description: "Read from `stdin` and write to `stdout` and files (or commands)."
+content_hash: 43af1dfbd8295afdfe4bd84b00decff87832ed54
+last_modified_at: 2023-08-09
 related_topics:
   - title: español version
     url: /es/common/tee.html
@@ -10,10 +11,10 @@ related_topics:
 ---
 # tee
 
-Read from standard input and write to standard output and files (or commands).
+Read from `stdin` and write to `stdout` and files (or commands).
 More information: <https://www.gnu.org/software/coreutils/tee>.
 
-- Copy standard input to each file, and also to standard output:
+- Copy `stdin` to each file, and also to `stdout`:
 
 `echo "example" | tee `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
@@ -21,7 +22,7 @@ More information: <https://www.gnu.org/software/coreutils/tee>.
 
 `echo "example" | tee -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Print standard input to the terminal, and also pipe it into another program for further processing:
+- Print `stdin` to the terminal, and also pipe it into another program for further processing:
 
 `echo "example" | tee `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/tty</span>` | `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xargs printf "[%s]"</span>
 

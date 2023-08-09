@@ -2,8 +2,12 @@
 layout: page
 title: common/at (English)
 description: "Execute commands once at a later time."
-content_hash: b942ffaed5e1573b4961e566f672a8825a6c98aa
+content_hash: b1e026616f9935794214916a34b19bec8a7aea08
+last_modified_at: 2023-08-09
 related_topics:
+  - title: español version
+    url: /es/common/at.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/at.html
     icon: bi bi-globe
@@ -32,11 +36,11 @@ Execute commands once at a later time.
 Service atd (or atrun) should be running for the actual executions.
 More information: <https://manned.org/at>.
 
-- Execute commands from standard input in 5 minutes (press `Ctrl + D` when done):
+- Execute commands from `stdin` in 5 minutes (press `Ctrl + D` when done):
 
 `at now + 5 minutes`
 
-- Execute a command from standard input at 10:00 AM today:
+- Execute a command from `stdin` at 10:00 AM today:
 
 `echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./make_db_backup.sh</span>`" | at 1000`
 

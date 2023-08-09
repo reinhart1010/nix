@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/base32 (English)
-description: "Encode or decode file or standard input to/from Base32, to standard output."
-content_hash: 27999a4b9aa975f2f33c1abe6771730684ca6858
-last_modified_at: 2022-12-06
+description: "Encode or decode file or `stdin` to/from Base32, to `stdout`."
+content_hash: d84e0049b6eb61b83d81da08bda1dcbb71f07295
+last_modified_at: 2023-08-09
 related_topics:
   - title: français version
     url: /fr/common/base32.html
@@ -29,7 +29,7 @@ related_topics:
 ---
 # base32
 
-Encode or decode file or standard input to/from Base32, to standard output.
+Encode or decode file or `stdin` to/from Base32, to `stdout`.
 More information: <https://www.gnu.org/software/coreutils/base32>.
 
 - Encode a file:

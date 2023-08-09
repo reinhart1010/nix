@@ -2,10 +2,14 @@
 layout: page
 title: linux/flameshot (English)
 description: "Screenshot utility with a GUI."
-content_hash: 77fe7e0904dae1c72a5108fe094050d307b0aad0
+content_hash: 3da9c3b3823c06f32ff4fd61dcef6ad25a39aa27
+last_modified_at: 2023-08-09
 related_topics:
   - title: français version
     url: /fr/linux/flameshot.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/flameshot.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/flameshot.html
@@ -37,7 +41,7 @@ More information: <https://flameshot.org>.
 
 `flameshot screen --number `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span>
 
-- Create a screenshot and print it to the standard output:
+- Create a screenshot and print it to `stdout`:
 
 `flameshot gui --raw`
 

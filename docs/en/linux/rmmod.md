@@ -2,7 +2,8 @@
 layout: page
 title: linux/rmmod (English)
 description: "Remove modules from the Linux kernel."
-content_hash: c39bcefda53ecd62674a124845096b120f74959b
+content_hash: 68cd8ae63a82ca95c543ed2901250d84f2b7b003
+last_modified_at: 2023-08-09
 ---
 # rmmod
 
@@ -17,7 +18,7 @@ More information: <https://manned.org/rmmod>.
 
 `sudo rmmod --verbose `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module_name</span>
 
-- Remove a module from the kernel and send errors to syslog instead of standard error:
+- Remove a module from the kernel and send errors to syslog instead of `stderr`:
 
 `sudo rmmod --syslog `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module_name</span>
 

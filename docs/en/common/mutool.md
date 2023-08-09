@@ -2,8 +2,8 @@
 layout: page
 title: common/mutool (English)
 description: "Convert PDF files, query information and extract data."
-content_hash: 1e9680536d52adac29da5bf81b772731a905d611
-last_modified_at: 2023-05-21
+content_hash: dafcf215726ce502950b4292888cf43c0fa5a127
+last_modified_at: 2023-08-09
 ---
 # mutool
 
@@ -14,7 +14,7 @@ More information: <https://mupdf.readthedocs.io/en/latest/mupdf-command-line.htm
 
 `mutool convert -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output%nd.png</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pdf</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1-10</span>
 
-- Convert pages 2, 3 and 5 of a PDF into text in the standard output:
+- Convert pages 2, 3 and 5 of a PDF into text in `stdout`:
 
 `mutool draw -F `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">txt</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pdf</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2,3,5</span>
 

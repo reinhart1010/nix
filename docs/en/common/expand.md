@@ -2,8 +2,8 @@
 layout: page
 title: common/expand (English)
 description: "Convert tabs to spaces."
-content_hash: 52f114995f39e1c753aff88ae362f885afec8887
-last_modified_at: 2022-12-04
+content_hash: 99b0fe2b39ea697b4b0865d002015d85ecb69e20
+last_modified_at: 2023-08-09
 related_topics:
   - title: italiano version
     url: /it/common/expand.html
@@ -14,11 +14,11 @@ related_topics:
 Convert tabs to spaces.
 More information: <https://www.gnu.org/software/coreutils/expand>.
 
-- Convert tabs in each file to spaces, writing to standard output:
+- Convert tabs in each file to spaces, writing to `stdout`:
 
 `expand `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Convert tabs to spaces, reading from standard input:
+- Convert tabs to spaces, reading from `stdin`:
 
 `expand`
 

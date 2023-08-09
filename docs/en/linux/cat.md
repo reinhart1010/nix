@@ -2,18 +2,22 @@
 layout: page
 title: linux/cat (English)
 description: "Print and concatenate files."
-content_hash: d9069ba1cc929e2e6973d235020d8f4353388921
-last_modified_at: 2022-12-21
+content_hash: d1525df9d27dfb4db147161c8867f6ca52ee0d9f
+last_modified_at: 2023-08-09
+related_topics:
+  - title: हिन्दी version
+    url: /hi/linux/cat.html
+    icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/linux/cat.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cat
+# cat
 
 Print and concatenate files.
 More information: <https://www.gnu.org/software/coreutils/cat>.
 
-- Print the contents of a file to the standard output:
+- Print the contents of a file to `stdout`:
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 

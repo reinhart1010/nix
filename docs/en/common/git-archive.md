@@ -2,7 +2,8 @@
 layout: page
 title: common/git-archive (English)
 description: "Create an archive of files from a named tree."
-content_hash: e632c58abad29b1c13a095828c43829125939a4c
+content_hash: 7897361ac535155b2ad9d61066b2b63242e7117c
+last_modified_at: 2023-08-09
 related_topics:
   - title: Deutsch version
     url: /de/common/git-archive.html
@@ -16,17 +17,20 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/git-archive.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-archive.html
+    icon: bi bi-globe
 ---
 # git archive
 
 Create an archive of files from a named tree.
 More information: <https://git-scm.com/docs/git-archive>.
 
-- Create a tar archive from the contents of the current HEAD and print it to standard output:
+- Create a tar archive from the contents of the current HEAD and print it to `stdout`:
 
 `git archive --verbose HEAD`
 
-- Create a zip archive from the current HEAD and print it to standard output:
+- Create a zip archive from the current HEAD and print it to `stdout`:
 
 `git archive --verbose --format=zip HEAD`
 

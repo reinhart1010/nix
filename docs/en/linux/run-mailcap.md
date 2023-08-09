@@ -2,7 +2,8 @@
 layout: page
 title: linux/run-mailcap (English)
 description: "Run MailCap Programs."
-content_hash: c9f9245577e53d032a845a308a5f93621d906b04
+content_hash: bf5487f55f03b6929a99af112af70f0fb7c96176
+last_modified_at: 2023-08-09
 ---
 # run-mailcap
 
@@ -22,7 +23,7 @@ More information: <https://manned.org/run-mailcap>.
 
 `run-mailcap --action=ACTION --debug `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>
 
-- Ignore any "copiousoutput" directive and forward output to standard output:
+- Ignore any "copiousoutput" directive and forward output to `stdout`:
 
 `run-mailcap --action=ACTION --nopager `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>
 

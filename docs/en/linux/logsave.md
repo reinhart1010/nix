@@ -2,7 +2,8 @@
 layout: page
 title: linux/logsave (English)
 description: "Save the output of a command in a logfile."
-content_hash: 154170d5d553d739a183e30f8e1600d0c29f140a
+content_hash: aefc6a191cc096aa7e4b8934d2f8a00bb64a73d8
+last_modified_at: 2023-08-09
 related_topics:
   - title: Deutsch version
     url: /de/linux/logsave.html
@@ -20,7 +21,7 @@ More information: <https://manned.org/logsave>.
 
 `logsave `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/logfile</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
-- Take input from standard input and save it in a log file:
+- Take input from `stdin` and save it in a log file:
 
 `logsave `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">logfile</span>` -`
 

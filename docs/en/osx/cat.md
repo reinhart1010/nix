@@ -2,18 +2,15 @@
 layout: page
 title: osx/cat (English)
 description: "Print and concatenate files."
-content_hash: 6a4fe595b5a7dd9dc59e126aabdb3b2834b787ea
-last_modified_at: 2022-12-21
+content_hash: 8524c290834cf8d14f3c4c19f2f10959e24adb8b
+last_modified_at: 2023-08-09
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cat
+# cat
 
 Print and concatenate files.
 More information: <https://keith.github.io/xcode-man-pages/cat.1.html>.
 
-- Print the contents of a file to the standard output:
+- Print the contents of a file to `stdout`:
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 

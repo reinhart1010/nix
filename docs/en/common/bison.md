@@ -2,7 +2,8 @@
 layout: page
 title: common/bison (English)
 description: "GNU parser generator."
-content_hash: f42673820015a75c5f6ba795f69e92cad1089c32
+content_hash: 671a201c24d572499face01e821e10af9ff05113
+last_modified_at: 2023-08-09
 ---
 # bison
 
@@ -13,7 +14,7 @@ More information: <https://www.gnu.org/software/bison/>.
 
 `bison `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.y</span>
 
-- Compile in debug mode, which causes the resulting parser to write additional information to the standard output:
+- Compile in debug mode, which causes the resulting parser to write additional information to `stdout`:
 
 `bison --debug `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.y</span>
 

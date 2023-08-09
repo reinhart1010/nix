@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/column (English)
-description: "Format standard input or a file into multiple columns."
-content_hash: d85c018ce84a7ec85b36dc730abc7183b38d3a21
+description: "Format `stdin` or a file into multiple columns."
+content_hash: 5903944c4bb8332b8a2902ec90423703a433044e
+last_modified_at: 2023-08-09
 related_topics:
   - title: italiano version
     url: /it/common/column.html
@@ -13,7 +14,7 @@ related_topics:
 ---
 # column
 
-Format standard input or a file into multiple columns.
+Format `stdin` or a file into multiple columns.
 Columns are filled before rows; the default separator is a whitespace.
 More information: <https://manned.org/column>.
 

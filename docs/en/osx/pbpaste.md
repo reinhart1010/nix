@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/pbpaste (English)
-description: "Send the contents of the clipboard to standard output."
-content_hash: 43e8d97b6df9141fdccf9261fb1f1e547899e7e5
-last_modified_at: 2023-02-03
+description: "Send the contents of the clipboard to `stdout`."
+content_hash: 32aaed7f4bdab3b25e474302d76b25f5701b32d2
+last_modified_at: 2023-08-09
 related_topics:
   - title: Deutsch version
     url: /de/osx/pbpaste.html
@@ -11,13 +11,16 @@ related_topics:
   - title: Indonesia version
     url: /id/osx/pbpaste.html
     icon: bi bi-globe
+  - title: ไทย version
+    url: /th/osx/pbpaste.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/pbpaste.html
     icon: bi bi-globe
 ---
 # pbpaste
 
-Send the contents of the clipboard to standard output.
+Send the contents of the clipboard to `stdout`.
 Comparable to pressing Cmd + V on the keyboard.
 More information: <https://ss64.com/osx/pbpaste.html>.
 

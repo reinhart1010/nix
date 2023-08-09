@@ -2,7 +2,8 @@
 layout: page
 title: common/sops (English)
 description: "SOPS: Secrets OPerationS."
-content_hash: 9338abac15ed193ef5d2a6d3f5969c83525ccb13
+content_hash: dbe25572744918f65a5cb1fdd0c42f80ee910e8d
+last_modified_at: 2023-08-09
 ---
 # sops
 
@@ -14,7 +15,7 @@ More information: <https://github.com/mozilla/sops>.
 
 `sops -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/myfile.json</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/myfile.enc.json</span>
 
-- Decrypt a file to the standard output:
+- Decrypt a file to `stdout`:
 
 `sops -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/myfile.enc.json</span>
 

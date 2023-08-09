@@ -2,7 +2,8 @@
 layout: page
 title: linux/keyctl (English)
 description: "Manipulate the Linux kernel keyring."
-content_hash: 5ea258c2c45ec46775a876b22a7908311263fcae
+content_hash: 2dd5a8ca9583d1464b897506764821aee5c63f6e
+last_modified_at: 2023-08-09
 ---
 # keyctl
 
@@ -21,7 +22,7 @@ More information: <https://manned.org/keyctl>.
 
 `keyctl add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">type_keyring</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_value</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_keyring</span>
 
-- Store a key with its value from standard input:
+- Store a key with its value from `stdin`:
 
 `echo -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_value</span>` | keyctl padd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">type_keyring</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_keyring</span>
 

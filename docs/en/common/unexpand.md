@@ -2,19 +2,19 @@
 layout: page
 title: common/unexpand (English)
 description: "Convert spaces to tabs."
-content_hash: 1f164447be49dec5c8ab03a1ae9ddfb7bca2f246
-last_modified_at: 2022-12-04
+content_hash: ec8eb81071d4a70e4571a8ddab03a5a01175376d
+last_modified_at: 2023-08-09
 ---
 # unexpand
 
 Convert spaces to tabs.
 More information: <https://www.gnu.org/software/coreutils/unexpand>.
 
-- Convert blanks in each file to tabs, writing to standard output:
+- Convert blanks in each file to tabs, writing to `stdout`:
 
 `unexpand `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Convert blanks to tabs, reading from standard output:
+- Convert blanks to tabs, reading from `stdout`:
 
 `unexpand`
 

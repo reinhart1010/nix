@@ -2,12 +2,13 @@
 layout: page
 title: common/mail (English)
 description: "The command operates on the user's mailbox if no argument is given."
-content_hash: 2537591e6c31ba8091f368eb800b3fd5609349dc
+content_hash: 82baa0095ef584d47e857d8fb3b6e918b7fc84de
+last_modified_at: 2023-08-09
 ---
 # mail
 
 The command operates on the user's mailbox if no argument is given.
-To send an email the message body is built from standard input.
+To send an email the message body is built from `stdin`.
 More information: <https://manned.org/mail>.
 
 - Send a typed email message. The command-line below continues after pressing Enter key. Input CC email-id (optional) press Enter key. Input message text (can be multiline). Press Ctrl-D key to complete the message text:

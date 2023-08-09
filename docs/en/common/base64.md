@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/base64 (English)
-description: "Encode or decode file or standard input to/from Base64, to standard output."
-content_hash: b1c84cf4331da3ea0e062ba8b9e346e1d994649b
-last_modified_at: 2022-12-06
+description: "Encode or decode file or `stdin` to/from Base64, to `stdout`."
+content_hash: 4584ca846577114040a4c8f1c7f7e7ec7437b591
+last_modified_at: 2023-08-09
 related_topics:
   - title: Deutsch version
     url: /de/common/base64.html
@@ -38,7 +38,7 @@ related_topics:
 ---
 # base64
 
-Encode or decode file or standard input to/from Base64, to standard output.
+Encode or decode file or `stdin` to/from Base64, to `stdout`.
 More information: <https://www.gnu.org/software/coreutils/base64>.
 
 - Encode the contents of a file as base64 and write the result to `stdout`:

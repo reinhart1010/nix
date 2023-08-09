@@ -2,8 +2,8 @@
 layout: page
 title: common/bzip3 (English)
 description: "An efficient statistical file compressor."
-content_hash: b4007e0d7505ef29cfee240e9477c6f1707bc1c0
-last_modified_at: 2023-06-28
+content_hash: 686c81e48aee3c1ba2d4dec19e0b5f8a16ad5cc9
+last_modified_at: 2023-08-09
 ---
 # bzip3
 
@@ -18,7 +18,7 @@ More information: <https://github.com/kspalaiologos/bzip3>.
 
 `bzip3 -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed_file.bz3</span>
 
-- Decompress a file to standard output:
+- Decompress a file to `stdout`:
 
 `bzip3 -dc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/compressed_file.bz3</span>
 

@@ -2,7 +2,8 @@
 layout: page
 title: common/batch (English)
 description: "Execute commands at a later time when the system load levels permit."
-content_hash: bf552c062d52116322cb1b3c32ff8bd2312c8e7b
+content_hash: 1ff462dda84df85df3c05c981b8fa15d6193a679
+last_modified_at: 2023-08-09
 related_topics:
   - title: italiano version
     url: /it/common/batch.html
@@ -23,11 +24,11 @@ Execute commands at a later time when the system load levels permit.
 Service atd (or atrun) should be running for the actual executions.
 More information: <https://manned.org/batch>.
 
-- Execute commands from standard input (press `Ctrl + D` when done):
+- Execute commands from `stdin` (press `Ctrl + D` when done):
 
 `batch`
 
-- Execute a command from standard input:
+- Execute a command from `stdin`:
 
 `echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./make_db_backup.sh</span>`" | batch`
 
