@@ -2,7 +2,8 @@
 layout: page
 title: common/git-annex (Türkçe)
 description: "Git ile dosyaları, dosyaların içeriğine bakmadan yönet."
-content_hash: d5598943ec3bfa807bbee9b10d0586ae010ce74d
+content_hash: 0721a0cb7bfea3da9e446a2f563c1490e320af9f
+last_modified_at: 2023-08-09
 related_topics:
   - title: English version
     url: /en/common/git-annex.html
@@ -18,10 +19,6 @@ related_topics:
 
 Git ile dosyaları, dosyaların içeriğine bakmadan yönet.
 Daha fazla bilgi için: <https://git-annex.branchable.com>.
-
-- Yardım:
-
-`git annex help`
 
 - Git annex ile bir depo başlat:
 
@@ -42,3 +39,7 @@ Daha fazla bilgi için: <https://git-annex.branchable.com>.
 - Bir dosya veya dizin al:
 
 `git annex get `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya_veya_dizin</span>
+
+- Yardım görüntüle:
+
+`git annex help`

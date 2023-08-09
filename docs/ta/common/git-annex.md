@@ -2,7 +2,8 @@
 layout: page
 title: common/git-annex (தமிழ்)
 description: "கோப்புகளை அவற்றின் உள்ளடக்கங்களை சரிபார்க்காமல், ஜிட் மூலம் நிர்வகிக்கவும்."
-content_hash: bd7f3f50717bf28ed7ddc353cbc9f007f8a03127
+content_hash: 99ee7386172bc32726d85f1cab7ef9e66bdcf363
+last_modified_at: 2023-08-09
 related_topics:
   - title: English version
     url: /en/common/git-annex.html
@@ -19,10 +20,6 @@ related_topics:
 கோப்புகளை அவற்றின் உள்ளடக்கங்களை சரிபார்க்காமல், ஜிட் மூலம் நிர்வகிக்கவும்.
 ஒரு கோப்பு இணைக்கப்படும்போது, ​​அதன் உள்ளடக்கம் ஒரு முக்கிய மதிப்புக் கடைக்கு நகர்த்தப்படும், மேலும் உள்ளடக்கத்தை சுட்டிக்காட்டும் ஒரு சிம்லிங்க் செய்யப்படுகிறது.
 மேலும் விவரத்திற்கு: <https://git-annex.branchable.com>.
-
-- உதவி:
-
-`git annex help`
 
 - `git annex` உடன் ஒரு களஞ்சியத்தை தொடங்கவும்:
 
@@ -43,3 +40,7 @@ related_topics:
 - ஒரு கோப்பு அல்லது கோப்பகத்தைப் பெறுங்கள்:
 
 `git annex get `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு_அல்லது_அடைவு</span>
+
+- உதவியைக் காட்டு:
+
+`git annex help`

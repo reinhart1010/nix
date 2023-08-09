@@ -2,8 +2,8 @@
 layout: page
 title: common/pushd (English)
 description: "Place a directory on a stack so it can be accessed later."
-content_hash: 89fedd8ad3c8cd4f20186d45736ba834be45e611
-last_modified_at: 2022-12-04
+content_hash: 9fe0421b912cf5399dc790094cc4621a13cf5c78
+last_modified_at: 2023-08-09
 related_topics:
   - title: dansk version
     url: /da/common/pushd.html
@@ -13,6 +13,7 @@ related_topics:
 
 Place a directory on a stack so it can be accessed later.
 See also `popd` to switch back to original directory and `dirs` to display directory stack contents.
+More information: <https://www.gnu.org/software/bash/manual/html_node/Directory-Stack-Builtins.html>.
 
 - Switch to directory and push it on the stack:
 
@@ -25,3 +26,7 @@ See also `popd` to switch back to original directory and `dirs` to display direc
 - Rotate stack by making the 5th element the top of the stack:
 
 `pushd +4`
+
+- Rotate the stack 4 times to the left (the current directory stays at the top by replacing the 5th element):
+
+`pushd -n +4`

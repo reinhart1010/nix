@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/time (English)
-description: "See how long a command takes."
-content_hash: 6d264102831494ee66bc50e6d52dc77b7d85db1a
+description: "Measure how long a command took to run."
+content_hash: 290c148e1437b8697cbf04590da3760e5406d62f
+last_modified_at: 2023-08-09
 related_topics:
   - title: bosanski version
     url: /bs/common/time.html
@@ -16,7 +17,7 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/time.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/time.html
     icon: bi bi-globe
   - title: svenska version
@@ -25,9 +26,10 @@ related_topics:
 ---
 # time
 
-See how long a command takes.
+Measure how long a command took to run.
+Note: `time` can either exist as a shell builtin, a standalone program or both.
 More information: <https://manned.org/time>.
 
-- Time "ls":
+- Run the `command` and print the time measurements to `stdout`:
 
-`time ls`
+`time `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>

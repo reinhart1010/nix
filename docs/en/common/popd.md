@@ -2,7 +2,12 @@
 layout: page
 title: common/popd (English)
 description: "Remove a directory placed on the directory stack via the pushd shell built-in."
-content_hash: a2bfcf9290dd5569c3430c07ccdbd8da3cbccf32
+content_hash: 676c07791b39ef733de26548d2d941ef4f8fbb3d
+last_modified_at: 2023-08-09
+related_topics:
+  - title: dansk version
+    url: /da/common/popd.html
+    icon: bi bi-globe
 ---
 # popd
 
@@ -21,3 +26,7 @@ More information: <https://www.gnu.org/software/bash/manual/html_node/Directory-
 - Remove the Nth directory (starting from zero to the right from the list printed with `dirs`):
 
 `popd -N`
+
+- Remove the 1st directory (starting from zero to the left from the list printed with `dirs`):
+
+`popd -n`

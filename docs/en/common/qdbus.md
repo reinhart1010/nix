@@ -2,7 +2,8 @@
 layout: page
 title: common/qdbus (English)
 description: "Inter-Process Communication (IPC) and Remote Procedure Calling (RPC) mechanism originally developed for Linux."
-content_hash: ceb8df81685f25914de026f6ee79d788a5a1bedf
+content_hash: 7cf03447a47e6c563cd87604a14517bb43b72053
+last_modified_at: 2023-08-09
 ---
 # qdbus
 
@@ -37,6 +38,6 @@ More information: <https://doc.qt.io/qt-5/qtdbus-index.html>.
 
 `qdbus `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.kde.kglobalaccel</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/component/kmix</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">invokeShortcut</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">increase_volume</span>`"`
 
-- Display help:
+- Gracefully log out and then do nothing, reboot or shut down:
 
-`qdbus --help`
+`qdbus `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.kde.Shutdown</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/Shutdown</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">logout|logoutAndReboot|logoutAndShutdown</span>
