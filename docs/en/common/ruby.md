@@ -2,8 +2,8 @@
 layout: page
 title: common/ruby (English)
 description: "Ruby programming language interpreter."
-content_hash: 8fe58c26fa9599ebd448fc036de3aa5a8b13add9
-last_modified_at: 2023-06-23
+content_hash: 0e47ffcd78e89c38e211d04d8a31904fb3ba3b36
+last_modified_at: 2023-08-09
 related_topics:
   - title: Indonesia version
     url: /id/common/ruby.html
@@ -15,11 +15,8 @@ related_topics:
 # ruby
 
 Ruby programming language interpreter.
+See also: `gem`, `bundler`, `rake`, `irb`.
 More information: <https://www.ruby-lang.org>.
-
-- Start a REPL (interactive shell):
-
-`irb`
 
 - Execute a Ruby script:
 

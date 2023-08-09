@@ -1,13 +1,18 @@
 ---
 layout: page
 title: common/gem (English)
-description: "Interact with the package manager for the Ruby programming language."
-content_hash: 11413e7ed075c4d1237b9ecc570a05b02eef3988
+description: "A package manager for the Ruby programming language."
+content_hash: 6e2ac4046b11b8c525d2b056fbade794799fa31c
+last_modified_at: 2023-08-09
+related_topics:
+  - title: தமிழ் version
+    url: /ta/common/gem.html
+    icon: bi bi-globe
 ---
 # gem
 
-Interact with the package manager for the Ruby programming language.
-More information: <https://rubygems.org>.
+A package manager for the Ruby programming language.
+More information: <https://guides.rubygems.org>.
 
 - Search for remote gem(s) and show all available versions:
 
@@ -15,19 +20,19 @@ More information: <https://rubygems.org>.
 
 - Install the latest version of a gem:
 
-`gem install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gemname</span>
+`gem install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gem_name</span>
 
-- Install specific version of a gem:
+- Install a specific version of a gem:
 
-`gem install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gemname</span>` --version `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.0.0</span>
+`gem install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gem_name</span>` --version `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.0.0</span>
 
 - Install the latest matching (SemVer) version of a gem:
 
-`gem install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gemname</span>` --version '~> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.0</span>`'`
+`gem install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gem_name</span>` --version '~> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.0</span>`'`
 
 - Update a gem:
 
-`gem update `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gemname</span>
+`gem update `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gem_name</span>
 
 - List all local gems:
 
@@ -35,8 +40,8 @@ More information: <https://rubygems.org>.
 
 - Uninstall a gem:
 
-`gem uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gemname</span>
+`gem uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gem_name</span>
 
-- Uninstall specific version of a gem:
+- Uninstall a specific version of a gem:
 
-`gem uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gemname</span>` --version `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.0.0</span>
+`gem uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gem_name</span>` --version `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.0.0</span>
