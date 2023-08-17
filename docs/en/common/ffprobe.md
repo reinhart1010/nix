@@ -2,7 +2,8 @@
 layout: page
 title: common/ffprobe (English)
 description: "Multimedia stream analyzer."
-content_hash: e5d129e03850129cc64becfdc075de733f83a526
+content_hash: cc0e90f91a590c56d079b8ddf5c1a218523d6b56
+last_modified_at: 2023-08-17
 related_topics:
   - title: Deutsch version
     url: /de/common/ffprobe.html
@@ -18,7 +19,7 @@ More information: <https://ffmpeg.org/ffprobe.html>.
 
 - Display all available stream info for a media file:
 
-`ffprobe -v error -show_entries `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.mp4</span>
+`ffprobe -v error -show_streams `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input.mp4</span>
 
 - Display media duration:
 

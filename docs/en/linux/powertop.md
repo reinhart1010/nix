@@ -2,7 +2,12 @@
 layout: page
 title: linux/powertop (English)
 description: "Optimize battery power usage."
-content_hash: e8259ac477c8ae383015680e31b562b612691247
+content_hash: eb8d374a66f62e37cdd19557921443e79604b46b
+last_modified_at: 2023-08-17
+related_topics:
+  - title: polski version
+    url: /pl/linux/powertop.html
+    icon: bi bi-globe
 ---
 # powertop
 
@@ -20,3 +25,7 @@ More information: <https://github.com/fenrus75/powertop>.
 - Tune to optimal settings:
 
 `sudo powertop --auto-tune`
+
+- Generate a report for a specified number of seconds (instead of 20 by default):
+
+`sudo powertop --time=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>
