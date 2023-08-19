@@ -1,26 +1,24 @@
 ---
 layout: page
 title: linux/swapoff (English)
-description: "Disables device or file for swapping."
-content_hash: 9030f1c4f6fbebd0b6f1b3d86c7a21f8bf0570da
+description: "Disable devices and files for swapping."
+content_hash: 2d19114ed7fe1be38c9ff2f73faa7927f4142117
+last_modified_at: 2023-08-19
 ---
 # swapoff
 
-Disables device or file for swapping.
+Disable devices and files for swapping.
+Note: `path/to/file` can either point to a regular file or a swap partition.
 More information: <https://manned.org/swapoff>.
 
-- Disable a given swap partition:
-
-`swapoff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb7</span>
-
-- Disable a given swap file:
+- Disable a given swap area:
 
 `swapoff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Disable all swap areas:
+- Disable all swap areas in `/proc/swaps`:
 
-`swapoff -a`
+`swapoff --all`
 
-- Disable swap by label of a device or file:
+- Disable a swap partition by its label:
 
-`swapoff -L `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">swap1</span>
+`swapoff -L `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">label</span>

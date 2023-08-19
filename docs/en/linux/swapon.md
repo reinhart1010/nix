@@ -1,30 +1,28 @@
 ---
 layout: page
 title: linux/swapon (English)
-description: "Enables device or file for swapping."
-content_hash: 6c936945495927ad8ae741514dd7ebce9275ca9e
+description: "Enable devices and files for swapping."
+content_hash: 36ef26e9dbcfa29c39e3884bdf1399c90f7b84d8
+last_modified_at: 2023-08-19
 ---
 # swapon
 
-Enables device or file for swapping.
+Enable devices and files for swapping.
+Note: `path/to/file` can either point to a regular file or a swap partition.
 More information: <https://manned.org/swapon>.
 
-- Get swap information:
+- Show swap information:
 
-`swapon -s`
+`swapon`
 
-- Enable a given swap partition:
-
-`swapon `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdb7</span>
-
-- Enable a given swap file:
+- Enable a given swap area:
 
 `swapon `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Enable all swap areas:
+- Enable all swap areas specified in `/etc/fstab` except those with the `noauto` option:
 
-`swapon -a`
+`swapon --all`
 
-- Enable swap by label of a device or file:
+- Enable a swap partition by its label:
 
-`swapon -L `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">swap1</span>
+`swapon -L `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">label</span>
