@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-compose (English)
 description: "Run and manage multi container docker applications."
-content_hash: b1e30ba5fd6b6cf8860b35c5de8caf6e82259638
-last_modified_at: 2023-02-08
+content_hash: b833fb27438abae6ba7d2ac0386d5f1452c02ca1
+last_modified_at: 2023-08-20
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/docker-compose.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/docker-compose.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/docker-compose.html
@@ -44,9 +47,9 @@ More information: <https://docs.docker.com/compose/reference/>.
 
 `docker compose up --build`
 
-- Start all containers using an alternate compose file:
+- Start all containers by specifying a project name and using an alternate compose file:
 
-`docker compose --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` up`
+`docker compose -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_name</span>` --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` up`
 
 - Stop all running containers:
 

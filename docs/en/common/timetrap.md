@@ -2,7 +2,8 @@
 layout: page
 title: common/timetrap (English)
 description: "Simple command-line time tracker written in Ruby."
-content_hash: 3d2bbca7d4f1b37622e999984a6ad3f4f1ce5962
+content_hash: bb37b754e69e0044d62a5ff18cbfdddd4545ecce
+last_modified_at: 2023-08-20
 ---
 # timetrap
 
@@ -20,3 +21,7 @@ More information: <https://github.com/samg/timetrap>.
 - Display the current timesheet:
 
 `timetrap display`
+
+- Edit the last entry's end time:
+
+`timetrap edit --end `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">time</span>

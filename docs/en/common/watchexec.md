@@ -2,7 +2,8 @@
 layout: page
 title: common/watchexec (English)
 description: "Run arbitrary commands when files change."
-content_hash: 68ec34d5cb9f76ef1a91d96fd36949afe07f96ed
+content_hash: b016e36327f5126d60d26b2e9a8c75add5d56abb
+last_modified_at: 2023-08-20
 ---
 # watchexec
 
@@ -23,4 +24,4 @@ More information: <https://github.com/watchexec/watchexec>.
 
 - Call/restart `my_server` when any file in the current directory change, sending `SIGKILL` to stop the child process:
 
-`watchexec --restart --signal `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGKILL</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my_server</span>
+`watchexec --restart --stop-signal `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGKILL</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my_server</span>

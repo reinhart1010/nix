@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-compose (español)
 description: "Ejecuta y gestiona múltiples contenedores Docker."
-content_hash: a2daa70a0b87e34d9752f6265f78ea7c61f2c2fe
-last_modified_at: 2023-02-08
+content_hash: ff7a13764e4f5cac5d387dd2eb8a9e6ac46d7918
+last_modified_at: 2023-08-20
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/docker-compose.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/docker-compose.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/docker-compose.html
@@ -44,9 +47,9 @@ Más información: <https://docs.docker.com/compose/reference/>.
 
 `docker compose up --build`
 
-- Inicia todos los contenedores usando un archivo compose alternativo:
+- Inicia todos los contenedores especificando un nombre de proyecto y usando un archivo compose alternativo:
 
-`docker compose --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span>` up`
+`docker compose  -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_proyecto</span>` --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span>` up`
 
 - Detiene todos los contenedores en ejecución:
 
