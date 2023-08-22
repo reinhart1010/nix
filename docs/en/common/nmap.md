@@ -2,9 +2,12 @@
 layout: page
 title: common/nmap (English)
 description: "Network exploration tool and security/port scanner."
-content_hash: d566a31031d6a99bc66cccc0f5de28538f79fde5
-last_modified_at: 2023-06-13
+content_hash: 9b2f7651a19aa7300ee9ceaea87a3ae330f40e03
+last_modified_at: 2023-08-22
 related_topics:
+  - title: Deutsch version
+    url: /de/common/nmap.html
+    icon: bi bi-globe
   - title: español version
     url: /es/common/nmap.html
     icon: bi bi-globe
@@ -28,9 +31,9 @@ More information: <https://nmap.org>.
 
 `nmap -O `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_or_hostname</span>
 
-- Try to determine whether the specified hosts are up (ping scan) and what their names are:
+- Try to determine whether the specified hosts are up (ping scan) and what their names and MAC addresses are:
 
-`nmap -sn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_or_hostname</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">optional_another_address</span>
+`sudo nmap -sn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_or_hostname</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">optional_another_address</span>
 
 - Also enable scripts, service detection, OS fingerprinting and traceroute:
 
