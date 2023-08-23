@@ -2,8 +2,8 @@
 layout: page
 title: common/procs (English)
 description: "Display information about the active processes."
-content_hash: 9ce0370779c4698284675166b00ce3779e216bbf
-last_modified_at: 2023-04-10
+content_hash: 9b95edd105fa6da9f6acef427e46c46b38fc6dc7
+last_modified_at: 2023-08-23
 ---
 # procs
 
@@ -13,6 +13,10 @@ More information: <https://github.com/dalance/procs>.
 - List all processes showing the PID, user, CPU usage, memory usage, and the command which started them:
 
 `procs`
+
+- List all processes as a tree:
+
+`procs --tree`
 
 - List information about processes, if the commands which started them contain `zsh`:
 
