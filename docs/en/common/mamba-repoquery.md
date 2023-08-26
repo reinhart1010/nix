@@ -2,19 +2,17 @@
 layout: page
 title: common/mamba-repoquery (English)
 description: "Efficiently query conda and mamba package repositories and package dependencies."
-content_hash: 401d32dd14c0d975c5914f906518521b6a7b1fb4
+content_hash: a8e0dffb48fea18903ba0b1c137f5658f7c77f9b
+last_modified_at: 2023-08-26
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mamba repoquery
+# mamba repoquery
 
 Efficiently query conda and mamba package repositories and package dependencies.
 More information: <https://mamba.readthedocs.io/en/latest/user_guide/mamba.html#repoquery>.
 
 - Search for all available versions of a particular package:
 
-`mamba repoquery search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`mamba repoquery search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Search for all packages satisfying specific constraints:
 

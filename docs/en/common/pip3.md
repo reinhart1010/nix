@@ -2,7 +2,8 @@
 layout: page
 title: common/pip3 (English)
 description: "Python package manager."
-content_hash: 504fd30fafc211ff3b36202366133a29085e4586
+content_hash: 35d9672c09dccfbcb467a6ea4021be3d79ee4a7b
+last_modified_at: 2023-08-26
 related_topics:
   - title: français version
     url: /fr/common/pip3.html
@@ -19,25 +20,21 @@ related_topics:
 Python package manager.
 More information: <https://pip.pypa.io>.
 
-- Find available packages:
-
-`pip3 search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
-
 - Install a package:
 
-`pip3 install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`pip3 install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Install a specific version of a package:
 
-`pip3 install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>`==`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_version</span>
+`pip3 install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>`==`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span>
 
 - Upgrade a package:
 
-`pip3 install --upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`pip3 install --upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Uninstall a package:
 
-`pip3 uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`pip3 uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Save the list of installed packages to a file:
 
@@ -49,4 +46,4 @@ More information: <https://pip.pypa.io>.
 
 - Show installed package info:
 
-`pip3 show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`pip3 show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>

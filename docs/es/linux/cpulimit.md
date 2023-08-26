@@ -2,8 +2,12 @@
 layout: page
 title: linux/cpulimit (español)
 description: "Una herramienta para limitar el uso del CPU de otros procesos."
-content_hash: f7e39f29ab22c49b98303afd2ed87e3c66ccbaf9
+content_hash: 9cebe15a6e42bced9129fe88a4c052162c07cdc1
+last_modified_at: 2023-08-26
 related_topics:
+  - title: català version
+    url: /ca/linux/cpulimit.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/cpulimit.html
     icon: bi bi-globe
@@ -23,7 +27,7 @@ Más información: <http://cpulimit.sourceforge.net/>.
 
 - Ejecuta un programa determinado y limita su uso a solo el 50% del CPU:
 
-`cpulimit --limit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span>` -- `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programa arg1 arg2 ...</span>
+`cpulimit --limit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span>` -- `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programa argument1 argument2 ...</span>
 
 - Ejecuta un programa, limita el uso del CPU a 50% y corre cpulimit en segundo plano:
 

@@ -2,11 +2,14 @@
 layout: page
 title: linux/dpkg (English)
 description: "Debian package manager."
-content_hash: ef2f2734ebf9332e6da20d0b97e2246886c6f265
-last_modified_at: 2022-12-05
+content_hash: 73e0c056d0b371b494495220acfc4f2b6efb16bd
+last_modified_at: 2023-08-26
 related_topics:
   - title: Deutsch version
     url: /de/linux/dpkg.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/dpkg.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/linux/dpkg.html
@@ -31,7 +34,7 @@ More information: <https://manpages.debian.org/latest/dpkg/dpkg.html>.
 
 - Remove a package:
 
-`dpkg -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`dpkg -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - List installed packages:
 
@@ -39,7 +42,7 @@ More information: <https://manpages.debian.org/latest/dpkg/dpkg.html>.
 
 - List a package's contents:
 
-`dpkg -L `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`dpkg -L `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - List contents of a local package file:
 
@@ -47,4 +50,4 @@ More information: <https://manpages.debian.org/latest/dpkg/dpkg.html>.
 
 - Find out which package owns a file:
 
-`dpkg -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>
+`dpkg -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>

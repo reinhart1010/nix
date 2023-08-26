@@ -2,17 +2,14 @@
 layout: page
 title: common/kubectl-run (Deutsch)
 description: "Pods in Kubernetes ausführen. Gibt den Pod-Generator an, um einen deprecation Fehler in einigen Kubernetes Versionen zu vermeiden."
-content_hash: f3e07b4d5720b97d5f0c525b8af3e08fa518edcc
-last_modified_at: 2022-12-21
+content_hash: 6922f1a892dba12d4c4c697b3e18759080bb2166
+last_modified_at: 2023-08-26
 related_topics:
   - title: English version
     url: /en/common/kubectl-run.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># kubectl run
+# kubectl run
 
 Pods in Kubernetes ausführen. Gibt den Pod-Generator an, um einen deprecation Fehler in einigen Kubernetes Versionen zu vermeiden.
 Weitere Informationen: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#run>.
@@ -35,4 +32,4 @@ Weitere Informationen: <https://kubernetes.io/docs/reference/generated/kubectl/k
 
 - Führe einen Ubuntu-Pod aus, überschreibe den Standardbefehl mit echo und gib eigene Argumente an:
 
-`kubectl run --generator=run-pod/v1 temp-ubuntu --image=ubuntu:20.04 --command -- echo arg1 arg2 arg3`
+`kubectl run --generator=run-pod/v1 temp-ubuntu --image=ubuntu:20.04 --command -- echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument1 argument2 ...</span>

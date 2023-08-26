@@ -2,7 +2,8 @@
 layout: page
 title: linux/pacstall (English)
 description: "An AUR package manager for Ubuntu."
-content_hash: 5790da158030331b70a07da19da33760141a56aa
+content_hash: ba656d354a14ba0ac87a722d05142854888b8e4d
+last_modified_at: 2023-08-26
 ---
 # pacstall
 
@@ -11,15 +12,15 @@ More information: <https://github.com/pacstall/pacstall>.
 
 - Search the package database for a package name:
 
-`pacstall --search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`pacstall --search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">query</span>
 
 - Install a package:
 
-`pacstall --install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`pacstall --install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Remove a package:
 
-`pacstall --remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`pacstall --remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Add a repository to the database (only GitHub and GitLab are supported):
 
@@ -35,7 +36,7 @@ More information: <https://github.com/pacstall/pacstall>.
 
 - Display information about a package:
 
-`pacstall --query-info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`pacstall --query-info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - List all installed packages:
 

@@ -2,7 +2,12 @@
 layout: page
 title: common/conda-create (English)
 description: "Create new conda environments."
-content_hash: 7efecf5530185b20c03edfe96b4543c14b28d1f5
+content_hash: 30103b6140c6952f4a38baffdc4a102d51537441
+last_modified_at: 2023-08-26
+related_topics:
+  - title: Deutsch version
+    url: /de/common/conda-create.html
+    icon: bi bi-globe
 ---
 # conda create
 
@@ -19,4 +24,4 @@ More information: <https://docs.conda.io/projects/conda/en/latest/commands/creat
 
 - Create a new environment with a specified name and install a given package:
 
-`conda create --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">env_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`conda create --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">env_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>

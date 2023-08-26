@@ -2,10 +2,14 @@
 layout: page
 title: common/pip-install (English)
 description: "Install Python packages."
-content_hash: df57e274870b53ee5b0e766333446def2ad6a8df
+content_hash: 98b9cc218ec0279d4511ab11716457c15edd3fda
+last_modified_at: 2023-08-26
 related_topics:
   - title: Deutsch version
     url: /de/common/pip-install.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/pip-install.html
     icon: bi bi-globe
 ---
 # pip install
@@ -15,11 +19,11 @@ More information: <https://pip.pypa.io>.
 
 - Install a package:
 
-`pip install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`pip install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Install a specific version of a package:
 
-`pip install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>`==`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_version</span>
+`pip install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>`==`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span>
 
 - Install packages listed in a file:
 

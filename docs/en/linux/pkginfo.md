@@ -2,8 +2,8 @@
 layout: page
 title: linux/pkginfo (English)
 description: "Query the package database on a CRUX system."
-content_hash: 56997caed5b2ca86a33294fcf3a7e382d4203c69
-last_modified_at: 2022-12-04
+content_hash: 14ecfd31cca3ab5dbaed5b8f801a8b34b7b675c0
+last_modified_at: 2023-08-26
 ---
 # pkginfo
 
@@ -16,7 +16,7 @@ More information: <https://crux.nu/Main/Handbook3-6#ntoc19>.
 
 - List files owned by a package:
 
-`pkginfo -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`pkginfo -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - List the owner(s) of files matching a pattern:
 

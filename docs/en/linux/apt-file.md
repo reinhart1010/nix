@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-file (English)
 description: "Search for files in apt packages, including ones not yet installed."
-content_hash: 0f1dd94338d699fb711120ce8f3d2f25390f5b31
-last_modified_at: 2022-12-08
+content_hash: 2e6b8d5fc2a238fecb25cbeb8b28475ac8c02688
+last_modified_at: 2023-08-26
 related_topics:
   - title: català version
     url: /ca/linux/apt-file.html
@@ -45,7 +45,7 @@ More information: <https://manpages.debian.org/latest/apt-file/apt-file.1.html>.
 
 - List the contents of a specific package:
 
-`apt-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">show|list</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`apt-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">show|list</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Search for packages that match the `regular_expression`:
 

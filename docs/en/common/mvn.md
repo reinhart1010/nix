@@ -2,7 +2,8 @@
 layout: page
 title: common/mvn (English)
 description: "Apache Maven."
-content_hash: 57f6d07e3c92bf3de101f2e09327cd00ea4fede8
+content_hash: 79500822961acf40b3b7bf5ac2ed6925ff1fdfe4
+last_modified_at: 2023-08-26
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/mvn.html
@@ -43,8 +44,8 @@ More information: <https://maven.apache.org>.
 
 - Clean and then package the code with a given build profile:
 
-`mvn clean -P`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile</span>` package`
+`mvn clean -P `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profile</span>` package`
 
 - Run a class with a main method:
 
-`mvn exec:java -Dexec.mainClass="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.example.Main</span>`" -Dexec.args="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arg1 arg2</span>`"`
+`mvn exec:java -Dexec.mainClass="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.example.Main</span>`" -Dexec.args="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument1 argument2 ...</span>`"`

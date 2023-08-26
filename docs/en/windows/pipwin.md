@@ -2,8 +2,8 @@
 layout: page
 title: windows/pipwin (English)
 description: "A tool to install unofficial Python package binaries on Windows."
-content_hash: bcf4cc233c24500613f265f671c10a6223390df4
-last_modified_at: 2023-02-20
+content_hash: cbfd9a61b4b9148feaad2a11e2079079da6f2e33
+last_modified_at: 2023-08-26
 ---
 # pipwin
 
@@ -20,15 +20,15 @@ More information: <https://github.com/lepisma/pipwin>.
 
 - Install a package:
 
-`pipwin install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`pipwin install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Uninstall a package:
 
-`pipwin uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`pipwin uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Download a package to a specific directory:
 
-`pipwin download --dest `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`pipwin download --dest `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Install packages according to `requirements.txt`:
 

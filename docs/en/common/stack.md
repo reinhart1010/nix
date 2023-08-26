@@ -2,7 +2,8 @@
 layout: page
 title: common/stack (English)
 description: "Tool for managing Haskell projects."
-content_hash: 06646b0a7ea06de259a399cad08aa99bc3ea8b97
+content_hash: 55e471a72c5b41a87795265bf7b5c3ff55b18c4a
+last_modified_at: 2023-08-26
 ---
 # stack
 
@@ -11,7 +12,7 @@ More information: <https://github.com/commercialhaskell/stack>.
 
 - Create a new package:
 
-`stack new `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">template_name</span>
+`stack new `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">template</span>
 
 - Compile a package:
 
@@ -31,4 +32,4 @@ More information: <https://github.com/commercialhaskell/stack>.
 
 - Run a program and pass an argument to it:
 
-`stack exec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program_name</span>` -- `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument</span>
+`stack exec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span>` -- `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument</span>

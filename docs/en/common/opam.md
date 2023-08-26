@@ -2,7 +2,8 @@
 layout: page
 title: common/opam (English)
 description: "OCaml Package Manager."
-content_hash: 488fb59a973d95385464605070db8b6a16ddadc4
+content_hash: 672fb71761866fa79dc251de1dd2f39b6d912fb9
+last_modified_at: 2023-08-26
 ---
 # opam
 
@@ -16,15 +17,15 @@ More information: <https://opam.ocaml.org/>.
 
 - Search for packages:
 
-`opam search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`opam search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">query</span>
 
 - Install a package and all of its dependencies:
 
-`opam install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`opam install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Display detailed information about a package:
 
-`opam show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`opam show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - List all installed packages:
 

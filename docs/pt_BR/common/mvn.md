@@ -2,7 +2,8 @@
 layout: page
 title: common/mvn (português (Brasil))
 description: "Ferramenta para a criação e gerenciamento de projetos Java."
-content_hash: baf8cf58057bd9c61585c3e05b0da2e2e6048aad
+content_hash: 965c6db9b390eec81bfd4736d237e97e51b506d4
+last_modified_at: 2023-08-26
 related_topics:
   - title: English version
     url: /en/common/mvn.html
@@ -46,4 +47,4 @@ Mais informações: <https://maven.apache.org>.
 
 - Executar uma classe que possua o método `main`:
 
-`mvn exec:java -Dexec.mainClass="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome.do.pacote.classe</span>`" -Dexec.args="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arg1 arg2</span>`"`
+`mvn exec:java -Dexec.mainClass="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome.do.pacote.classe</span>`" -Dexec.args="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument1 argument2 ...</span>`"`

@@ -2,7 +2,8 @@
 layout: page
 title: common/yarn-why (English)
 description: "Identifies why a Yarn package has been installed."
-content_hash: 1270a429adcd0140a212b3b03c03db361fa923a2
+content_hash: 60705b81c90cabe6acd2fa26e6337c37c46f52a0
+last_modified_at: 2023-08-26
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/yarn-why.html
@@ -21,4 +22,4 @@ More information: <https://github.com/amio/yarn-why>.
 
 - Show why a Yarn package is installed:
 
-`yarn-why `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`yarn-why `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>

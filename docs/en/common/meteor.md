@@ -2,7 +2,8 @@
 layout: page
 title: common/meteor (English)
 description: "Full-stack JavaScript platform for building web applications."
-content_hash: d839b03bda3a6a6b7b3b0e2281a0d8301bc3792d
+content_hash: f49f70e9c819dc61516c94ef93f12f7f6b4362cd
+last_modified_at: 2023-08-26
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/meteor.html
@@ -27,11 +28,11 @@ More information: <https://meteor.com>.
 
 - Add a package to the project:
 
-`meteor add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`meteor add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Remove a package from the project:
 
-`meteor remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`meteor remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Create a production build of the project as a tarball under the given directory:
 

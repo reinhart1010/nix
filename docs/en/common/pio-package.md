@@ -2,7 +2,8 @@
 layout: page
 title: common/pio-package (English)
 description: "Manage packages in the registry."
-content_hash: 0a1fce7ee30a148a168c805159b1edd55362059c
+content_hash: 30af5f643a726a1eadb3e4f69c037dd2fad3fea4
+last_modified_at: 2023-08-26
 ---
 # pio package
 
@@ -32,12 +33,12 @@ More information: <https://docs.platformio.org/en/latest/core/userguide/package/
 
 - Remove all versions of a published package from the registry:
 
-`pio package unpublish `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`pio package unpublish `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Remove a specific version of a published package from the registry:
 
-`pio package unpublish `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span>
+`pio package unpublish `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span>
 
 - Undo the removal, putting all versions or a specific version of the package back into the registry:
 
-`pio package unpublish --undo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span>
+`pio package unpublish --undo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span>

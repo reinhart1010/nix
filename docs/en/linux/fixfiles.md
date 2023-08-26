@@ -2,13 +2,10 @@
 layout: page
 title: linux/fixfiles (English)
 description: "Fix file SELinux security contexts."
-content_hash: 686c38b21c5f06798f693802c8c94e5ff233da28
-last_modified_at: 2023-05-02
+content_hash: 38641d5c7423adb9e4ee0389820a2042401a21e5
+last_modified_at: 2023-08-26
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># fixfiles
+# fixfiles
 
 Fix file SELinux security contexts.
 More information: <https://manned.org/fixfiles>.
@@ -27,7 +24,7 @@ More information: <https://manned.org/fixfiles>.
 
 - Use the [R]pm database to discover all files within specific packages and restore the file contexts:
 
-`fixfiles -R `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rpm_package_name1,rpm_package_name2 ...</span>
+`fixfiles -R `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rpm_package1,rpm_package2 ...</span>
 
 - Run a diff on the `PREVIOUS_FILECONTEXT` file to the [C]urrently installed one, and restore the context of all affected files:
 

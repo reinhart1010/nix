@@ -2,8 +2,12 @@
 layout: page
 title: linux/cpulimit (English)
 description: "A tool to throttle the CPU usage of other processes."
-content_hash: 59c1a39802e63b5b7e5498d4a7c923141d9166f7
+content_hash: 2ac97794def71695404b3655e35d35285c0ca9c0
+last_modified_at: 2023-08-26
 related_topics:
+  - title: català version
+    url: /ca/linux/cpulimit.html
+    icon: bi bi-globe
   - title: español version
     url: /es/linux/cpulimit.html
     icon: bi bi-globe
@@ -23,7 +27,7 @@ More information: <http://cpulimit.sourceforge.net/>.
 
 - Launch a given program and limit it to only use 50% of the CPU:
 
-`cpulimit --limit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span>` -- `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program arg1 arg2 ...</span>
+`cpulimit --limit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span>` -- `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program argument1 argument2 ...</span>
 
 - Launch a program, limit its CPU usage to 50% and run cpulimit in the background:
 

@@ -2,7 +2,8 @@
 layout: page
 title: linux/yaourt (English)
 description: "Arch Linux utility for building packages from the Arch User Repository."
-content_hash: 2536c03094be46073f3d149153693cea755dedfc
+content_hash: ed4bbd72ddb1182814156aa7322a17353c55debf
+last_modified_at: 2023-08-26
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/yaourt.html
@@ -22,15 +23,15 @@ More information: <https://linuxcommandlibrary.com/man/yaourt>.
 
 - Install a new package (includes AUR):
 
-`yaourt -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`yaourt -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Remove a package and its dependencies (includes AUR packages):
 
-`yaourt -Rs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`yaourt -Rs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Search the package database for a keyword (including AUR):
 
-`yaourt -Ss `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`yaourt -Ss `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">query</span>
 
 - List installed packages, versions, and repositories (AUR packages will be listed under the repository name 'local'):
 

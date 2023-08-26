@@ -2,7 +2,8 @@
 layout: page
 title: common/npm-why (English)
 description: "Identifies why an npm package is installed."
-content_hash: 7ab5a5489bc22f4510f712c2493423a83254919f
+content_hash: 99d5dd6b05aed92416e5868335cbab73251b9374
+last_modified_at: 2023-08-26
 related_topics:
   - title: Deutsch version
     url: /de/common/npm-why.html
@@ -18,4 +19,4 @@ More information: <https://github.com/amio/npm-why>.
 
 - Show why an npm package is installed:
 
-`npm-why `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`npm-why `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>

@@ -2,7 +2,8 @@
 layout: page
 title: common/pip (English)
 description: "Python package manager."
-content_hash: e748f65f90ab76ad3719875ae366d40713f2f7d7
+content_hash: 6754f6c1dc8acddd4d82e1edbb6ddf4880b16eed
+last_modified_at: 2023-08-26
 related_topics:
   - title: Deutsch version
     url: /de/common/pip.html
@@ -25,7 +26,7 @@ More information: <https://pip.pypa.io>.
 
 - Install a package (see `pip install` for more install examples):
 
-`pip install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`pip install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Install a package to the user's directory instead of the system-wide default location:
 
@@ -33,11 +34,11 @@ More information: <https://pip.pypa.io>.
 
 - Upgrade a package:
 
-`pip install --upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`pip install --upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Uninstall a package:
 
-`pip uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`pip uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Save installed packages to file:
 
@@ -45,7 +46,7 @@ More information: <https://pip.pypa.io>.
 
 - Show installed package info:
 
-`pip show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`pip show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Install packages from a file:
 

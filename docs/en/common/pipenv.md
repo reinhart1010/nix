@@ -2,7 +2,8 @@
 layout: page
 title: common/pipenv (English)
 description: "Simple and unified Python development workflow."
-content_hash: 27e4b5ce4d4cbe485ad280c3986d4336698d0b0c
+content_hash: b4255a2be430935670cb5019e044e36dda430b46
+last_modified_at: 2023-08-26
 related_topics:
   - title: français version
     url: /fr/common/pipenv.html
@@ -24,7 +25,7 @@ More information: <https://pypi.org/project/pipenv>.
 
 - Install a package:
 
-`pipenv install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`pipenv install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Install all the dependencies for a project:
 
@@ -36,7 +37,7 @@ More information: <https://pypi.org/project/pipenv>.
 
 - Uninstall a package:
 
-`pipenv uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`pipenv uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Start a shell within the created virtual environment:
 

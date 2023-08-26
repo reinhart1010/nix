@@ -2,7 +2,8 @@
 layout: page
 title: linux/pkgfile (English)
 description: "Tool for searching files from packages in the official repositories on arch-based systems."
-content_hash: 5c29ea1ac291bd2ebb505e5fd4e23694a6195d2b
+content_hash: 971eab98f87f15dbd7ae45d4ce6ad2a9a099f994
+last_modified_at: 2023-08-26
 ---
 # pkgfile
 
@@ -20,11 +21,11 @@ More information: <https://man.archlinux.org/man/extra/pkgfile/pkgfile.1>.
 
 - List all files provided by a package:
 
-`pkgfile --list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`pkgfile --list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
-- List only files provided by a package located within the `bin` or `sbin` directory:
+- List executables provided by a package:
 
-`pkgfile --list --binaries `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`pkgfile --list --binaries `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Search for a package that owns a specific file using case-insensitive matching:
 

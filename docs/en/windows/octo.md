@@ -2,7 +2,8 @@
 layout: page
 title: windows/octo (English)
 description: "Command-line tools for Octopus Deploy."
-content_hash: b20bdb3c7138232b7e1548e2180aaed12ef03e4c
+content_hash: 0a30f6478c0439f3700286bb5bdc0043d0d7ac85
+last_modified_at: 2023-08-26
 ---
 # octo
 
@@ -11,11 +12,11 @@ More information: <https://octopus.com/docs/octopus-rest-api/octo.exe-command-li
 
 - Create a package:
 
-`octo pack --id=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`octo pack --id=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Push a package to a repository on the Octopus server:
 
-`octo push --package=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`octo push --package=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Create a release:
 

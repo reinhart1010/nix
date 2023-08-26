@@ -2,7 +2,8 @@
 layout: page
 title: common/espanso (English)
 description: "Cross-platform Text Expander written in Rust."
-content_hash: 0133ff946e47f98a6a630268dc9697be779e5c05
+content_hash: cdafed480f99834971e06765cd6824649c830e2e
+last_modified_at: 2023-08-26
 related_topics:
   - title: español version
     url: /es/common/espanso.html
@@ -26,7 +27,7 @@ More information: <https://espanso.org>.
 
 - Install a package from the hub store (<https://hub.espanso.org/>):
 
-`espanso install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`espanso install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Restart (required after installing a package, useful in case of failure):
 

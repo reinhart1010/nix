@@ -2,8 +2,8 @@
 layout: page
 title: android/cmd (English)
 description: "Android service manager."
-content_hash: 1eb27301a6a0efbdfe42b8d0cba12a2ed8de67f9
-last_modified_at: 2023-01-04
+content_hash: afe98a36c1e2fd7c4ade240e66b0c2701e035f6b
+last_modified_at: 2023-08-26
 related_topics:
   - title: বাংলা version
     url: /bn/android/cmd.html
@@ -66,4 +66,4 @@ More information: <https://cs.android.com/android/platform/superproject/+/master
 
 - Call a service with specific arguments:
 
-`cmd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arg1 arg2 ...</span>
+`cmd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument1 argument2 ...</span>

@@ -2,7 +2,8 @@
 layout: page
 title: common/python (English)
 description: "Python language interpreter."
-content_hash: 7b4edb76f0757afc1f097d316a8a0d61f751321c
+content_hash: d949784b98d0095d78eda18a5d7e571e8cb30ecb
+last_modified_at: 2023-08-26
 related_topics:
   - title: Indonesia version
     url: /id/common/python.html
@@ -44,7 +45,7 @@ More information: <https://www.python.org>.
 
 - Install a package using `pip`:
 
-`python -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pip</span>` install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`python -m pip install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Interactively debug a Python script:
 

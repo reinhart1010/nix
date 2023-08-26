@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-query (English)
 description: "Arch Linux package manager utility."
-content_hash: a675a1511597578f2a9a9bca45277c9ded78b8b4
-last_modified_at: 2023-05-14
+content_hash: 5e7e2d3dd06c2a7a89d846a798b884043724be5a
+last_modified_at: 2023-08-26
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-query.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/linux/pacman-query.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/pacman-query.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/pacman-query.html
@@ -38,11 +41,11 @@ More information: <https://man.archlinux.org/man/pacman.8>.
 
 - Display information about an installed package:
 
-`pacman --query --info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`pacman --query --info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - List files owned by a package:
 
-`pacman --query --list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`pacman --query --list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - List orphan packages (installed as dependencies but not required by any package):
 

@@ -2,7 +2,8 @@
 layout: page
 title: common/pypy (English)
 description: "Fast and compliant alternative implementation of the Python language."
-content_hash: 142210fc2de7ddf056744c295641754ad01eaa72
+content_hash: eaf050ac2f08b3b884a7e013624b6a32eb432187
+last_modified_at: 2023-08-26
 ---
 # pypy
 
@@ -31,7 +32,7 @@ More information: <https://doc.pypy.org>.
 
 - Install a package using pip:
 
-`pypy -m pip install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`pypy -m pip install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Interactively debug a Python script:
 

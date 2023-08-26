@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman (English)
 description: "Arch Linux package manager utility."
-content_hash: 8305489cec4a8970240f2e4a46f251c923c2a8a7
-last_modified_at: 2023-06-20
+content_hash: 88d25badeb7463e9dbc46cad8018c28dbdaf04b5
+last_modified_at: 2023-08-26
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -49,11 +49,11 @@ More information: <https://man.archlinux.org/man/pacman.8>.
 
 - Install a new package:
 
-`sudo pacman -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`sudo pacman -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Remove a package and its dependencies:
 
-`sudo pacman -Rs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`sudo pacman -Rs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Search the database for packages containing a specific file:
 

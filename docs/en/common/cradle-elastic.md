@@ -2,7 +2,8 @@
 layout: page
 title: common/cradle-elastic (English)
 description: "Manage the Elasticsearch instances for a Cradle instance."
-content_hash: 2dff576f0cc83f1aaac774602d1d968f4ae4b1c1
+content_hash: ec25cc7973da7a40048a2fc7d4c12f08c01c0de7
+last_modified_at: 2023-08-26
 related_topics:
   - title: Deutsch version
     url: /de/common/cradle-elastic.html
@@ -25,7 +26,7 @@ More information: <https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-
 
 - Truncate the Elasticsearch index for a specific package:
 
-`cradle elastic flush `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`cradle elastic flush `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Submit the Elasticsearch schema:
 
@@ -33,7 +34,7 @@ More information: <https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-
 
 - Submit the Elasticsearch schema for a specific package:
 
-`cradle elastic map `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`cradle elastic map `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Populate the Elasticsearch indices for all packages:
 
@@ -41,4 +42,4 @@ More information: <https://cradlephp.github.io/docs/3.B.-Reference-Command-Line-
 
 - Populate the Elasticsearch indices for a specific package:
 
-`cradle elastic populate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`cradle elastic populate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>

@@ -2,7 +2,15 @@
 layout: page
 title: linux/paru (English)
 description: "An AUR helper and pacman wrapper."
-content_hash: 9d95d89114de52ae25bd8feef5ea99bcea020ffa
+content_hash: 2ec53cdbcc6d0594be3c526741d887b23b37c65a
+last_modified_at: 2023-08-26
+related_topics:
+  - title: Deutsch version
+    url: /de/linux/paru.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/paru.html
+    icon: bi bi-globe
 ---
 # paru
 
@@ -23,12 +31,12 @@ More information: <https://github.com/Morganamilo/paru>.
 
 - Get information about a package:
 
-`paru -Si `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`paru -Si `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Download `PKGBUILD` and other package source files from the AUR or ABS:
 
-`paru --getpkgbuild `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`paru --getpkgbuild `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Display the `PKGBUILD` file of a package:
 
-`paru --getpkgbuild --print `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`paru --getpkgbuild --print `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>

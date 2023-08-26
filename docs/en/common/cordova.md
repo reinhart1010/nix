@@ -2,7 +2,8 @@
 layout: page
 title: common/cordova (English)
 description: "Mobile apps with HTML, CSS & JS."
-content_hash: 039b81a00dc6b7001d55b3561504e19ce36e75f2
+content_hash: 6082243c8ae85ad908e8c107b15f5397fbc1c8eb
+last_modified_at: 2023-08-26
 related_topics:
   - title: italiano version
     url: /it/common/cordova.html
@@ -18,7 +19,7 @@ More information: <https://cordova.apache.org/docs/en/latest/guide/cli/>.
 
 - Create a Cordova project:
 
-`cordova create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_name</span>
+`cordova create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_name</span>
 
 - Display the current workspace status:
 

@@ -2,7 +2,8 @@
 layout: page
 title: linux/pacaur (English)
 description: "A utility for Arch Linux to build and install packages from the Arch User Repository."
-content_hash: f955a721036ac1b8a927e610d9796bdcb687af2c
+content_hash: b50948ad847b29dfc0e5b266aeedb02daf6499a9
+last_modified_at: 2023-08-26
 ---
 # pacaur
 
@@ -19,11 +20,11 @@ More information: <https://github.com/rmarquis/pacaur>.
 
 - Install a new package (includes AUR):
 
-`pacaur -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`pacaur -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Remove a package and its dependencies (includes AUR packages):
 
-`pacaur -Rs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`pacaur -Rs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Search the package database for a keyword (includes AUR):
 

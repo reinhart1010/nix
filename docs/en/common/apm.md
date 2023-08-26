@@ -2,8 +2,15 @@
 layout: page
 title: common/apm (English)
 description: "Atom editor Package Manager."
-content_hash: 3b2a0534218b6cafc31b7d319d4da77d3031e0ae
+content_hash: a054137ed7ee52c1876dcacdd639875a942c7050
+last_modified_at: 2023-08-26
 related_topics:
+  - title: español version
+    url: /es/common/apm.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/apm.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/apm.html
     icon: bi bi-globe
@@ -25,12 +32,12 @@ More information: <https://github.com/atom/apm>.
 
 - Install a package from http://atom.io/packages or a theme from http://atom.io/themes:
 
-`apm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`apm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Remove a package/theme:
 
-`apm remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`apm remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Upgrade a package/theme:
 
-`apm upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`apm upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>

@@ -2,8 +2,12 @@
 layout: page
 title: osx/port (English)
 description: "Package manager for macOS."
-content_hash: 4a53e80bf7b8143c50252b999452d2ae9b272a72
+content_hash: 701cc798927b7699b6b3fd6ff3014091e1030cbc
+last_modified_at: 2023-08-26
 related_topics:
+  - title: español version
+    url: /es/osx/port.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/port.html
     icon: bi bi-globe
@@ -19,7 +23,7 @@ More information: <https://www.macports.org>.
 
 - Install a package:
 
-`sudo port install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`sudo port install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - List installed packages:
 

@@ -2,8 +2,12 @@
 layout: page
 title: common/composer (English)
 description: "A package-based dependency manager for PHP projects."
-content_hash: d665334c814fe7a844cd5468d92134a9cced051e
+content_hash: 7e522cb01ffe70654701188e81a3899d8d39d2d7
+last_modified_at: 2023-08-26
 related_topics:
+  - title: Indonesia version
+    url: /id/common/composer.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/composer.html
     icon: bi bi-globe
@@ -22,7 +26,7 @@ More information: <https://getcomposer.org/>.
 
 - Add a package as a dependency for this project, adding it to `composer.json`:
 
-`composer require `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user/package_name</span>
+`composer require `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user/package</span>
 
 - Install all the dependencies in this project's `composer.json` and create `composer.lock`:
 
@@ -30,7 +34,7 @@ More information: <https://getcomposer.org/>.
 
 - Uninstall a package from this project, removing it as a dependency from `composer.json`:
 
-`composer remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user/package_name</span>
+`composer remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user/package</span>
 
 - Update all the dependencies in this project's `composer.json` and note versions in `composer.lock` file:
 
@@ -42,7 +46,7 @@ More information: <https://getcomposer.org/>.
 
 - Learn more about why a dependency can't be installed:
 
-`composer why-not `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user/package_name</span>
+`composer why-not `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user/package</span>
 
 - Update composer to its latest version:
 

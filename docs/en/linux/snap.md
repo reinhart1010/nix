@@ -2,8 +2,8 @@
 layout: page
 title: linux/snap (English)
 description: "Manage the \"snap\" self-contained software packages."
-content_hash: f745ea10accdd446766d4f584f09a77361ef97ce
-last_modified_at: 2023-07-16
+content_hash: aee55707149cdf82adec1107470f658317aa6998
+last_modified_at: 2023-08-26
 related_topics:
   - title: বাংলা version
     url: /bn/linux/snap.html
@@ -20,19 +20,19 @@ More information: <https://manned.org/snap>.
 
 - Search for a package:
 
-`snap find `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`snap find `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">query</span>
 
 - Install a package:
 
-`snap install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`snap install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Update a package:
 
-`snap refresh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`snap refresh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Update a package to another channel (track, risk, or branch):
 
-`snap refresh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>` --channel=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">channel</span>
+`snap refresh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>` --channel=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">channel</span>
 
 - Update all packages:
 
@@ -44,7 +44,7 @@ More information: <https://manned.org/snap>.
 
 - Uninstall a package:
 
-`snap remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`snap remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Check for recent snap changes in the system:
 

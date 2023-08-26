@@ -2,8 +2,12 @@
 layout: page
 title: linux/apt-mark (English)
 description: "Utility to change the status of installed packages."
-content_hash: 97632a533ed9dbb93d228cb7eb92adb673699b9b
+content_hash: 867300749f8f1c4751c7ada7713978b578ac6872
+last_modified_at: 2023-08-26
 related_topics:
+  - title: català version
+    url: /ca/linux/apt-mark.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/apt-mark.html
     icon: bi bi-globe
@@ -30,15 +34,15 @@ More information: <https://manpages.debian.org/latest/apt/apt-mark.8.html>.
 
 - Mark a package as automatically installed:
 
-`sudo apt-mark auto `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`sudo apt-mark auto `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Hold a package at its current version and prevent updates to it:
 
-`sudo apt-mark hold `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`sudo apt-mark hold `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Allow a package to be updated again:
 
-`sudo apt-mark unhold `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`sudo apt-mark unhold `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Show manually installed packages:
 
