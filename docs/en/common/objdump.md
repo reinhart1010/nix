@@ -2,7 +2,8 @@
 layout: page
 title: common/objdump (English)
 description: "View information about object files."
-content_hash: 73f43ea0c9a56a544fd2ce013073d7a7683b9f49
+content_hash: 8180947faeca8208d725dff39cb22fcd485753c0
+last_modified_at: 2023-08-29
 ---
 # objdump
 
@@ -12,6 +13,10 @@ More information: <https://manned.org/objdump>.
 - Display the file header information:
 
 `objdump -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">binary</span>
+
+- Display all header information:
+
+`objdump -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">binary</span>
 
 - Display the disassembled output of executable sections:
 
