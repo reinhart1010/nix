@@ -2,8 +2,8 @@
 layout: page
 title: common/base64 (Deutsch)
 description: "Kodieren oder Dekodieren von Dateien oder Standardeingaben in/aus Base64, zur Standardausgabe."
-content_hash: ed302879d06764728cba466f07d4c4ac2893097b
-last_modified_at: 2023-07-03
+content_hash: 565974dcc37c4d6058c18c878cd49c8e5b05d873
+last_modified_at: 2023-08-29
 related_topics:
   - title: English version
     url: /en/common/base64.html
@@ -51,8 +51,8 @@ Weitere Informationen: <https://www.gnu.org/software/coreutils/base64>.
 
 - Kodiere von `stdin`:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ein_kommando</span>` | base64`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehl</span>` | base64`
 
 - Dekodiere von `stdin`:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ein_kommando</span>` | base64 --decode`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehl</span>` | base64 --decode`
