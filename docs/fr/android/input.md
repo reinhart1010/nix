@@ -2,8 +2,8 @@
 layout: page
 title: android/input (français)
 description: "Envoie à un appareil Android des codes événements ou des gestes d'écran tactile."
-content_hash: 4c4b734dd75bf501d364350424df98358bfef79a
-last_modified_at: 2023-05-19
+content_hash: 438c50126b9ccf84e41eb2aecfeb30981eebb577
+last_modified_at: 2023-08-30
 related_topics:
   - title: বাংলা version
     url: /bn/android/input.html
@@ -51,7 +51,7 @@ related_topics:
 # input
 
 Envoie à un appareil Android des codes événements ou des gestes d'écran tactile.
-Cette commande peut être utilisé uniquement depuis `adb shell`.
+Cette commande peut être utilisée uniquement depuis `adb shell`.
 Plus d'informations : <https://developer.android.com/reference/android/view/KeyEvent.html#constants_1>.
 
 - Envoie un code événement (un seul caractère) à un appareil Android :
