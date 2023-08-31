@@ -1,13 +1,18 @@
 ---
 layout: page
 title: linux/schroot (English)
-description: "Run command or start an interactive shell with a different root directory. More customizable than `chroot`."
-content_hash: 854aaabbfeb46e6647f19ea5b279f90b575369c5
+description: "Run a command or start an interactive shell with a different root directory. More customizable than `chroot`."
+content_hash: 1fb09cda3a0a34ba3d348cf1c40f96c0c51c570a
+last_modified_at: 2023-08-31
 ---
 # schroot
 
-Run command or start an interactive shell with a different root directory. More customizable than `chroot`.
+Run a command or start an interactive shell with a different root directory. More customizable than `chroot`.
 More information: <https://wiki.debian.org/Schroot>.
+
+- List available chroots:
+
+`schroot --list`
 
 - Run a command in a specific chroot:
 
@@ -25,6 +30,14 @@ More information: <https://wiki.debian.org/Schroot>.
 
 `schroot --chroot `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chroot</span>` --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span>
 
-- List available chroots:
+- Begin a new session (a unique session ID is returned on `stdout`):
 
-`schroot --list`
+`schroot --begin-session --chroot `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chroot</span>
+
+- Connect to an existing session:
+
+`schroot --run-session --chroot `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">session_id</span>
+
+- End an existing session:
+
+`schroot --end-session --chroot `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">session_id</span>
