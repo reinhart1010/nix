@@ -1,14 +1,19 @@
 ---
 layout: page
 title: common/rustup (English)
-description: "Rust toolchain installer."
-content_hash: efab3e4f97632eb7dbc7d6ca0513a808cd44d78e
+description: "Install, manage, and update Rust toolchains."
+content_hash: 7c43b6ce9df4400ff203eba72341bbd53b4f81e2
+last_modified_at: 2023-09-02
+related_topics:
+  - title: தமிழ் version
+    url: /ta/common/rustup.html
+    icon: bi bi-globe
 ---
 # rustup
 
-Rust toolchain installer.
 Install, manage, and update Rust toolchains.
-More information: <https://github.com/rust-lang/rustup.rs>.
+Some subcommands, such as `toolchain`, `target`, `update`, etc. have their own usage documentation.
+More information: <https://rust-lang.github.io/rustup>.
 
 - Install the nightly toolchain for your system:
 
@@ -18,7 +23,7 @@ More information: <https://github.com/rust-lang/rustup.rs>.
 
 `rustup default nightly`
 
-- Use the nightly toolchain when inside the current project, but leave global settings unchanged:
+- Use the nightly toolchain when inside the current project but leave global settings unchanged:
 
 `rustup override set nightly`
 
@@ -30,10 +35,10 @@ More information: <https://github.com/rust-lang/rustup.rs>.
 
 `rustup show`
 
-- Run cargo build with a certain toolchain:
+- Run `cargo build` with a certain toolchain:
 
-`rustup run `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">toolchain_name</span>` cargo build`
+`rustup run `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">toolchain</span>` cargo build`
 
-- Open the local rust documentation in the default web browser:
+- Open the local Rust documentation in the default web browser:
 
 `rustup doc`
