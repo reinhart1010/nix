@@ -2,10 +2,14 @@
 layout: page
 title: common/git (English)
 description: "Distributed version control system."
-content_hash: 37394afa7d2b5d66d3d68d7c74a3f24b2fadecf6
+content_hash: 179d31c1383ce629e3f7937a498b2a648a03d686
+last_modified_at: 2023-09-05
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/git.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/git.html
@@ -16,6 +20,15 @@ related_topics:
   - title: italiano version
     url: /it/common/git.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/git.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git.html
+    icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/common/git.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/git.html
     icon: bi bi-globe
@@ -25,14 +38,23 @@ related_topics:
   - title: српски version
     url: /sr/common/git.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/git.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git.html
+    icon: bi bi-globe
   - title: українська version
     url: /uk/common/git.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/git.html
     icon: bi bi-globe
 ---
 # git
 
 Distributed version control system.
-Some subcommands such as `commit`, `add`, `branch`, `checkout`, `push`, etc. have their own usage documentation, accessible via `tldr git subcommand`.
+Some subcommands such as `commit`, `add`, `branch`, `checkout`, `push`, etc. have their own usage documentation.
 More information: <https://git-scm.com/>.
 
 - Check the Git version:
