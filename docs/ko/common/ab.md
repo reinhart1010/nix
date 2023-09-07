@@ -2,7 +2,8 @@
 layout: page
 title: common/ab (한국어)
 description: "아파치 벤치마킹 도구."
-content_hash: daa73251598f834e7050cdbb622236fd827dcad0
+content_hash: 11b1c8efa56871bcd0fdeb8393fb9ae330ebd3b0
+last_modified_at: 2023-09-07
 related_topics:
   - title: Deutsch version
     url: /de/common/ab.html
@@ -13,10 +14,16 @@ related_topics:
   - title: español version
     url: /es/common/ab.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/ab.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/ab.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: Nederlands version
+    url: /nl/common/ab.html
+    icon: bi bi-globe
+  - title: norsk version
     url: /no/common/ab.html
     icon: bi bi-globe
   - title: português (Brasil) version
@@ -47,15 +54,19 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 로드 테스트를 수행하는 가장 간단한 도구.
 더 많은 정보: <https://httpd.apache.org/docs/current/programs/ab.html>.
 
-- 주어진 URL에 대해 100개의 HTTP GET 요청 실행:
+- 지정된 URL에 대해 100개의 HTTP GET 요청 실행:
 
 `ab -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
-- 지정된 URL에 대해 최대 10개의 요청을 동시에 처리하여 100개의 HTTP GET을 실행:
+- 지정된 URL에 대해 100개의 HTTP GET 요청을 최대 10개의 요청을 동시에 처리하며 실행:
 
 `ab -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
-- 생존을 유지하며 사용:
+- 지정된 파일의 JSON 페이로드를 사용하여 URL에 대해 100개의 HTTP POST 요청 실행:
+
+`ab -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application/json</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일.json</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+
+- HTTP [K]eep Alive 사용, 즉 하나의 HTTP 세션 내에서 여러 요청을 수행:
 
 `ab -k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
