@@ -2,8 +2,8 @@
 layout: page
 title: common/zstd (English)
 description: "Compress or decompress files with Zstandard compression."
-content_hash: 57c48ae4984df17c5eb13c567135dc7aa0ddf07b
-last_modified_at: 2022-12-04
+content_hash: 47614052751e30a8acb816a314803cb0c270c53f
+last_modified_at: 2023-09-07
 related_topics:
   - title: 中文 version
     url: /zh/common/zstd.html
@@ -20,11 +20,11 @@ More information: <https://github.com/facebook/zstd>.
 
 - Decompress a file:
 
-`zstd -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>`.zst`
+`zstd --decompress `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.zst</span>
 
 - Decompress to `stdout`:
 
-`zstd -dc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>`.zst`
+`zstd --decompress --stdout `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.zst</span>
 
 - Compress a file specifying the compression level, where 1=fastest, 19=slowest and 3=default:
 
