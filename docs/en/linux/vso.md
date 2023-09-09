@@ -1,43 +1,43 @@
 ---
 layout: page
 title: linux/vso (English)
-description: "Utility to perform maintenance tasks on Vanilla OS."
-content_hash: d9c0765b78d0f7cda3a0476f7270795ec9ecd0ad
-last_modified_at: 2023-03-12
+description: "Package manager, system updater and a task automator for Vanilla OS."
+content_hash: 67a664f98c2e89266f4322307fa93c0f829ccc49
+last_modified_at: 2023-09-09
 ---
 # vso
 
-Utility to perform maintenance tasks on Vanilla OS.
+Package manager, system updater and a task automator for Vanilla OS.
 More information: <https://github.com/Vanilla-OS/vanilla-system-operator>.
 
-- Trigger a system update immediately:
+- Check for system updates to the host system:
 
-`sudo vso trigger-update --now`
+`vso sys-upgrade check`
 
-- Check for package updates and list them:
+- Upgrade the host system now:
 
-`sudo vso update-check`
+`vso sys-upgrade upgrade --now`
 
-- Create an automated task upon an application's launch:
+- Initialize the Pico subsystem (used for package management):
 
-`vso create-task --name "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>`" --description "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>`" --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command|on-condition-command</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>`" --on-process `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">integer</span>
+`vso pico-init`
 
-- Create an automated task to execute during boot:
+- Install applications inside the subsystem:
 
-`vso create-task --name "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>`" --description "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>`" --command "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>`" --on-boot`
+`vso install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 ...</span>
 
-- Create an automated task to execute during specific battery states:
+- Remove applications from the subsystem:
 
-`vso create-task --name "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>`" --description "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>`" --command "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>`" --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on-low-battery|on-charge|on-battery|on-full-battery</span>
+`vso remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 ...</span>
 
-- Create an automated task which asks for a confirmation before execution:
+- Enter the subsystem's shell:
 
-`vso create-task --name "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>`" --description "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>`" --command "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>`" --need-confirm`
+`vso shell`
 
-- Create an automated task to execute during network connection or disconnection:
+- Run an application from the subsystem:
 
-`vso create-task --name "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>`" --description "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">string</span>`" --command "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>`" --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on-network|on-disconnect</span>
+`vso run `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
-- Delete an automated task:
+- Display VSO configuration:
 
-`vso delete-task "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task</span>`"`
+`vso config show`
