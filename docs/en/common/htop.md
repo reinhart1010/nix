@@ -2,8 +2,8 @@
 layout: page
 title: common/htop (English)
 description: "Display dynamic real-time information about running processes. An enhanced version of `top`."
-content_hash: 601eda5d65e5b9ed27cddd6120fb7910b0c17345
-last_modified_at: 2023-06-28
+content_hash: dc4dec03ce1273f5c5f96e60b134bbf7f75775c0
+last_modified_at: 2023-09-10
 related_topics:
   - title: español version
     url: /es/common/htop.html
@@ -37,6 +37,10 @@ More information: <https://htop.dev/>.
 - Sort processes by a specified `sort_item` (use `htop --sort help` for available options):
 
 `htop --sort `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sort_item</span>
+
+- Start `htop` with the specified delay between updates, in tenths of a second (i.e. 50 = 5 seconds):
+
+`htop --delay 50`
 
 - See interactive commands while running htop:
 
