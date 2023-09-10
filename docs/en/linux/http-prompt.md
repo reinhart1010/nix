@@ -2,14 +2,15 @@
 layout: page
 title: linux/http-prompt (English)
 description: "An interactive command-line HTTP client featuring autocomplete and syntax highlighting."
-content_hash: ba63e02ae17a7c1ac68802e9a0b464cb82aa580a
+content_hash: bf964f43dbf27633cfbd20158a0f63bd711aa4cc
+last_modified_at: 2023-09-10
 ---
 # http-prompt
 
 An interactive command-line HTTP client featuring autocomplete and syntax highlighting.
 More information: <https://github.com/httpie/http-prompt>.
 
-- Launch a session targeting the default URL of http://localhost:8000 or the previous session:
+- Launch a session targeting the default URL of <http://localhost:8000> or the previous session:
 
 `http-prompt`
 

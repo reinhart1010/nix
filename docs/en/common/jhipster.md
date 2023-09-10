@@ -2,7 +2,8 @@
 layout: page
 title: common/jhipster (English)
 description: "Web application generator using either monolithic or microservices architecture."
-content_hash: 0eb3cdb62b8e79f7f15e832e6cc5a714010b7655
+content_hash: e535c576d50ec41af93c2d60b337bd91d3ab36a9
+last_modified_at: 2023-09-10
 ---
 # jhipster
 
@@ -29,7 +30,7 @@ More information: <https://www.jhipster.tech/>.
 
 `jhipster entity `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">entity_name</span>
 
-- Import a JDL file to configure your application (see: https://start.jhipster.tech/jdl-studio/):
+- Import a JDL file to configure your application (see: <https://start.jhipster.tech/jdl-studio/>):
 
 `jhipster import-jdl `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">first_file.jh second_file.jh ... n_file.jh</span>
 

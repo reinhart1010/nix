@@ -2,7 +2,8 @@
 layout: page
 title: common/jekyll (தமிழ்)
 description: "ஒரு எளிய, வலைப்பதிவு அறிந்த, நிலையான தள ஜெனரேட்டர்."
-content_hash: 84e4bffb37b6e16c62702b40bda1cc09832f1bbc
+content_hash: ccc8c368a28f9604e4c4c9b4ddd6027d5e3ebb9d
+last_modified_at: 2023-09-10
 related_topics:
   - title: English version
     url: /en/common/jekyll.html
@@ -16,7 +17,7 @@ related_topics:
 ஒரு எளிய, வலைப்பதிவு அறிந்த, நிலையான தள ஜெனரேட்டர்.
 மேலும் விவரத்திற்கு: <https://jekyllrb.com/docs/usage/>.
 
-- ஒரு மேம்பாட்டு சேவையகத்தை உருவாக்கவும், அது இயங்குவது `http://localhost:4000/` இல்:
+- ஒரு மேம்பாட்டு சேவையகத்தை உருவாக்கவும், அது இயங்குவது <http://localhost:4000/> இல்:
 
 `jekyll serve`
 

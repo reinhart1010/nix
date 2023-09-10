@@ -2,14 +2,15 @@
 layout: page
 title: common/linkchecker (English)
 description: "Command-line client to check HTML documents and websites for broken links."
-content_hash: 095ac8d900907bb081e9160b7663f3e08d214973
+content_hash: a5e9ffb2977318f32e7091e9f5f18e5fe1b825f7
+last_modified_at: 2023-09-10
 ---
 # linkchecker
 
 Command-line client to check HTML documents and websites for broken links.
 More information: <https://linkchecker.github.io/linkchecker/>.
 
-- Find broken links on https://example.com/:
+- Find broken links on <https://example.com/>:
 
 `linkchecker `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/</span>
 

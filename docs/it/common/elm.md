@@ -2,7 +2,8 @@
 layout: page
 title: common/elm (italiano)
 description: "Compila ed esegui file sorgente Elm."
-content_hash: c99f6fa1dab7ed1c9a0a2e00bafa25f872b539e0
+content_hash: dffb026d04afb69cc365a6537b890f28697a1ca8
+last_modified_at: 2023-09-10
 related_topics:
   - title: English version
     url: /en/common/elm.html
@@ -33,6 +34,6 @@ Maggiori informazioni: <https://elm-lang.org>.
 
 `elm reactor`
 
-- Installa un pacchetto Elm da https://package.elm-lang.org:
+- Installa un pacchetto Elm da <https://package.elm-lang.org>:
 
 `elm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">author</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>

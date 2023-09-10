@@ -2,7 +2,12 @@
 layout: page
 title: common/gitsome (English)
 description: "A terminal-based interface for GitHub, accessed via the `gh` command."
-content_hash: afe0c3aa56bf0e54b0719c0b914625f6cb50e4da
+content_hash: af4c3dbf9b116474c65434417c9a0f86dd28b3b3
+last_modified_at: 2023-09-10
+related_topics:
+  - title: Türkçe version
+    url: /tr/common/gitsome.html
+    icon: bi bi-globe
 ---
 # gitsome
 
@@ -18,7 +23,7 @@ More information: <https://github.com/donnemartin/gitsome>.
 
 `gh configure`
 
-- List notifications for the current account (as would be seen in https://github.com/notifications):
+- List notifications for the current account (as would be seen in <https://github.com/notifications>):
 
 `gh notifications`
 

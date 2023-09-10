@@ -2,7 +2,8 @@
 layout: page
 title: common/hugo (Indonesia)
 description: "Penghasil website statis berbasis template. Menggunakan modul, komponen dan tema."
-content_hash: c169145636d6f0b5f7cc7a90d35a1a5b7f5b4015
+content_hash: 1e0239dd8feee0a63bc3636d0093112a6272dad1
+last_modified_at: 2023-09-10
 related_topics:
   - title: English version
     url: /en/common/hugo.html
@@ -17,7 +18,7 @@ Informasi lebih lanjut: <https://gohugo.io>.
 
 `hugo new site `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/website</span>
 
-- Membuat tema Hugo baru (tema juga dapat diunduh dari https://themes.gohugo.io/):
+- Membuat tema Hugo baru (tema juga dapat diunduh dari <https://themes.gohugo.io/>):
 
 `hugo new theme `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_tema</span>
 

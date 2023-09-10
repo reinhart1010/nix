@@ -2,8 +2,8 @@
 layout: page
 title: common/hugo (English)
 description: "Template-based static site generator. Uses modules, components, and themes."
-content_hash: 0130069dd5a2e22259d6a69a83ca156574f9b8a9
-last_modified_at: 2023-05-18
+content_hash: 6247ed40b589b5ab81ad5aef8a9ce31b20a033b7
+last_modified_at: 2023-09-10
 related_topics:
   - title: Indonesia version
     url: /id/common/hugo.html
@@ -18,7 +18,7 @@ More information: <https://gohugo.io>.
 
 `hugo new site `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/site</span>
 
-- Create a new Hugo theme (themes may also be downloaded from https://themes.gohugo.io/):
+- Create a new Hugo theme (themes may also be downloaded from <https://themes.gohugo.io/>):
 
 `hugo new theme `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">theme_name</span>
 

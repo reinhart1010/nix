@@ -2,7 +2,8 @@
 layout: page
 title: linux/gbp (English)
 description: "A system to integrate the Debian package build system with Git."
-content_hash: dbf3f371a9046a43b7a19cd75b3c0631fc9319d8
+content_hash: b91f118290b687a5edb0a6a279f572bfa1bea9db
+last_modified_at: 2023-09-10
 ---
 # gbp
 
@@ -21,7 +22,7 @@ More information: <http://honk.sigxcpu.org/projects/git-buildpackage/manual-html
 
 `DIST=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bullseye</span>` ARCH=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">amd64</span>` gbp buildpackage -jauto -us -uc --git-builder=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">git-pbuilder</span>
 
-- Specify a package to be a source-only upload in the `.changes` file (see https://wiki.debian.org/SourceOnlyUpload):
+- Specify a package to be a source-only upload in the `.changes` file (see <https://wiki.debian.org/SourceOnlyUpload>):
 
 `gbp buildpackage -jauto -us -uc --changes-options=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-S</span>
 

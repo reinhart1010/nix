@@ -2,7 +2,8 @@
 layout: page
 title: common/gitsome (Türkçe)
 description: "GitHub için gh komutuyla erişilebilen terminal tabanlı arayüz."
-content_hash: 8c4015fbea4c046957be6f8d5c6a473fcd1eed64
+content_hash: beb64e5bb5eddaae02e54f6b511c533121424112
+last_modified_at: 2023-09-10
 related_topics:
   - title: English version
     url: /en/common/gitsome.html
@@ -22,7 +23,7 @@ Daha fazla bilgi için: <https://github.com/donnemartin/gitsome>.
 
 `gh configure`
 
-- Mevcut hesap için bildirimleri (https://github.com/notifications adresinde görülebildiği gibi) sırala:
+- Mevcut hesap için bildirimleri (<https://github.com/notifications> adresinde görülebildiği gibi) sırala:
 
 `gh notifications`
 

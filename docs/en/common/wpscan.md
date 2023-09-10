@@ -2,7 +2,8 @@
 layout: page
 title: common/wpscan (English)
 description: "WordPress vulnerability scanner."
-content_hash: bf0b51d0f148e035c2b3a06d4bd712944663d630
+content_hash: c0242eeceae5edac2a77ce206fc59d099ebf679d
+last_modified_at: 2023-09-10
 ---
 # wpscan
 
@@ -37,6 +38,6 @@ More information: <https://github.com/wpscanteam/wpscan>.
 
 `wpscan --url `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>` --usernames `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username|path/to/usernames.txt</span>` --passwords `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/passwords.txt</span>` threads `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20</span>
 
-- Scan a WordPress website, collecting vulnerability data from the WPVulnDB (https://wpvulndb.com/):
+- Scan a WordPress website, collecting vulnerability data from the WPVulnDB (<https://wpvulndb.com/>):
 
 `wpscan --url `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>` --api-token `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">token</span>

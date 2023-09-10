@@ -2,10 +2,14 @@
 layout: page
 title: common/apm (français)
 description: "Gestionnaire de paquets pour Atom."
-content_hash: 74db11715ffc59c22cfd7a04acd6f6a5f577e37c
+content_hash: f30cbad155205968a6455dedac3db90d6d3a54cb
+last_modified_at: 2023-09-10
 related_topics:
   - title: English version
     url: /en/common/apm.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/apm.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/apm.html
@@ -20,16 +24,13 @@ related_topics:
     url: /zh/common/apm.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># apm
+# apm
 
 Gestionnaire de paquets pour Atom.
 Voir `atom`.
 Plus d'informations : <https://github.com/atom/apm>.
 
-- Installe un paquet depuis http://atom.io/packages ou un thème depuis http://atom.io/themes :
+- Installe un paquet depuis <http://atom.io/packages> ou un thème depuis <http://atom.io/themes> :
 
 `apm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_paquet</span>
 

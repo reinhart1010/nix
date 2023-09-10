@@ -2,7 +2,8 @@
 layout: page
 title: common/elm (English)
 description: "Compile and run Elm source files."
-content_hash: 7944839304ac3c960ad4056fe3674e6ed7c5604e
+content_hash: 420d212353f8d0f87dc3baba4c0aba27f28ee4c3
+last_modified_at: 2023-09-10
 related_topics:
   - title: italiano version
     url: /it/common/elm.html
@@ -33,6 +34,6 @@ More information: <https://elm-lang.org>.
 
 `elm reactor`
 
-- Install Elm package from https://package.elm-lang.org:
+- Install Elm package from <https://package.elm-lang.org>:
 
 `elm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">author</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>

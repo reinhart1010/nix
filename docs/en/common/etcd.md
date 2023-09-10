@@ -2,7 +2,8 @@
 layout: page
 title: common/etcd (English)
 description: "A distributed, reliable key-value store for the most critical data of a distributed system."
-content_hash: 7c9181058a2dbef2b12f8112ebb6f745e0e10e36
+content_hash: 66bfd1c56263b50aff619152700c93a4c40fca88
+last_modified_at: 2023-09-10
 related_topics:
   - title: 中文 version
     url: /zh/common/etcd.html
@@ -25,6 +26,6 @@ More information: <https://etcd.io>.
 
 `etcd --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">my_etcd_cluster</span>
 
-- Start a single-node etcd cluster with extensive metrics available at http://localhost:2379/debug/pprof/:
+- Start a single-node etcd cluster with extensive metrics available at <http://localhost:2379/debug/pprof/>:
 
 `etcd --enable-pprof --metrics extensive`

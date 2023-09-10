@@ -2,10 +2,17 @@
 layout: page
 title: common/apm (italiano)
 description: "Manager di pacchetti per l'editor di testo Atom."
-content_hash: ba66edbe5479413554c7eaeecd9a6081ef89bc99
+content_hash: 8affcb62d18335bc2e926eca23b75a1386d9b48d
+last_modified_at: 2023-09-10
 related_topics:
   - title: English version
     url: /en/common/apm.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/apm.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/apm.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/apm.html
@@ -23,7 +30,7 @@ Manager di pacchetti per l'editor di testo Atom.
 Vedi `atom`.
 Maggiori informazioni: <https://github.com/atom/apm>.
 
-- Installa pacchetti da http://atom.io/packages e temi da http://atom.io/themes:
+- Installa pacchetti da <http://atom.io/packages> e temi da <http://atom.io/themes>:
 
 `apm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_pacchetto</span>
 

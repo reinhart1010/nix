@@ -2,7 +2,8 @@
 layout: page
 title: common/calibre-server (한국어)
 description: "네트워크를 통해 전자책을 배포하는 데 사용할 수 있는 서버 어플리케이션."
-content_hash: b2026f00c41e636c8820b3a1dc5cd526d3e36169
+content_hash: 893cd7f1f5897cd300060d4b0a171b42fb0344c7
+last_modified_at: 2023-09-10
 related_topics:
   - title: English version
     url: /en/common/calibre-server.html
@@ -18,11 +19,11 @@ related_topics:
 Calibre 전자책 라이브러리의 일부.
 더 많은 정보: <https://manual.calibre-ebook.com/generated/en/calibre-server.html>.
 
-- 전자책을 배포할 서버 시작. http://localhost:8080에 연결:
+- 전자책을 배포할 서버 시작. <http://localhost:8080> 에 연결:
 
 `calibre-server`
 
-- 다른 포트에서 서버 시작. http://localhost:port에 연결:
+- 다른 포트에서 서버 시작. <http://localhost:port> 에 연결:
 
 `calibre-server --port `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">포트번호</span>
 

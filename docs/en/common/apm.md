@@ -2,8 +2,8 @@
 layout: page
 title: common/apm (English)
 description: "Atom editor Package Manager."
-content_hash: a054137ed7ee52c1876dcacdd639875a942c7050
-last_modified_at: 2023-08-26
+content_hash: 94b881cd55a769304cf37920fc98b91847b492e4
+last_modified_at: 2023-09-10
 related_topics:
   - title: español version
     url: /es/common/apm.html
@@ -30,7 +30,7 @@ Atom editor Package Manager.
 See `atom`.
 More information: <https://github.com/atom/apm>.
 
-- Install a package from http://atom.io/packages or a theme from http://atom.io/themes:
+- Install a package from <http://atom.io/packages> or a theme from <http://atom.io/themes>:
 
 `apm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
