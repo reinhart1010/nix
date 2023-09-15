@@ -2,10 +2,23 @@
 layout: page
 title: common/act (한국어)
 description: "Docker를 사용하여 로컬로 GitHub작업 실행."
-content_hash: d13d0dd09abf464ca26c8b3a599f16fedb0aa75c
+content_hash: e33a159d35e5b9a70e39fd6d7f6073a8193142b6
+last_modified_at: 2023-09-15
 related_topics:
   - title: English version
     url: /en/common/act.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/act.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/act.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/act.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/act.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/act.html
@@ -14,7 +27,16 @@ related_topics:
     url: /zh/common/act.html
     icon: bi bi-globe
 ---
-# act
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/act.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># act
 
 Docker를 사용하여 로컬로 GitHub작업 실행.
 더 많은 정보: <https://github.com/nektos/act>.
@@ -42,3 +64,7 @@ Docker를 사용하여 로컬로 GitHub작업 실행.
 - 자세한 로그 표시:
 
 `act -v`
+
+- 특정 워크플로우 실행:
+
+`act push -W `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/워크플로우</span>
