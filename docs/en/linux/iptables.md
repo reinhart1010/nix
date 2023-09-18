@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/iptables (English)
-description: "Program that allows configuration of tables, chains and rules provided by the Linux kernel firewall."
-content_hash: a01188b55ee839046d3c5241732e2508d38dde33
-last_modified_at: 2023-09-12
+description: "Configure tables, chains and rules of the Linux kernel IPv4 firewall."
+content_hash: de59b0f7b953f2a1ddf1310ab61a13e7ebb123c1
+last_modified_at: 2023-09-18
 related_topics:
   - title: italiano version
     url: /it/linux/iptables.html
@@ -14,8 +14,9 @@ related_topics:
 ---
 # iptables
 
-Program that allows configuration of tables, chains and rules provided by the Linux kernel firewall.
-More information: <https://www.netfilter.org/projects/iptables/>.
+Configure tables, chains and rules of the Linux kernel IPv4 firewall.
+Use `ip6tables` to set rules for IPv6 traffic. See also: `iptables-save`, `iptables-restore`.
+More information: <https://manned.org/iptables>.
 
 - View chains, rules, packet/byte counters and line numbers for the filter table:
 
@@ -31,7 +32,7 @@ More information: <https://www.netfilter.org/projects/iptables/>.
 
 - [A]ppend rule to chain policy for IP considering [p]rotocol and port:
 
-`sudo iptables --append `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chain</span>` --source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip</span>` --protocol `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">protocol</span>` --dport `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span>` --jump `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rule</span>
+`sudo iptables --append `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chain</span>` --source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip</span>` --protocol `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp|udp|icmp|...</span>` --dport `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span>` --jump `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rule</span>
 
 - Add a NAT rule to translate all traffic from the `192.168.0.0/24` subnet to the host's public IP:
 
@@ -40,11 +41,3 @@ More information: <https://www.netfilter.org/projects/iptables/>.
 - [D]elete chain rule:
 
 `sudo iptables --delete `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chain</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rule_line_number</span>
-
-- Save `iptables` configuration of a given [t]able to a file:
-
-`sudo iptables-save --table `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tablename</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/iptables_file</span>
-
-- Restore `iptables` configuration from a file:
-
-`sudo iptables-restore < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/iptables_file</span>
