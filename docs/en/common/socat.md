@@ -2,7 +2,8 @@
 layout: page
 title: common/socat (English)
 description: "Multipurpose relay (SOcket CAT)."
-content_hash: c17d89f9333e9fce7d2a0953829fde18150fee6f
+content_hash: dbe39dab7d577cbf8a7c13657c2366717281c964
+last_modified_at: 2023-09-19
 ---
 # socat
 
@@ -12,6 +13,10 @@ More information: <http://www.dest-unreach.org/socat/>.
 - Listen to a port, wait for an incoming connection and transfer data to STDIO:
 
 `socat - TCP-LISTEN:8080,fork`
+
+- Listen on a port using SSL and print to STDOUT:
+
+`socat OPENSSL-LISTEN:4433,reuseaddr,cert=./cert.pem,cafile=./ca.cert.pem,key=./key.pem,verify=0 STDOUT`
 
 - Create a connection to a host and port, transfer data in STDIO to connected host:
 
