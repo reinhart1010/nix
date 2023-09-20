@@ -2,8 +2,12 @@
 layout: page
 title: linux/resolvectl (English)
 description: "Resolve domain names, IPv4 and IPv6 addresses, DNS resource records, and services."
-content_hash: 333f9b5fa011ea8c8ff14ae95914b4edf103511f
-last_modified_at: 2023-05-09
+content_hash: 2d1a78e0aa9e659bc1202472c7578817b65cb67b
+last_modified_at: 2023-09-20
+related_topics:
+  - title: polski version
+    url: /pl/linux/resolvectl.html
+    icon: bi bi-globe
 ---
 # resolvectl
 
@@ -23,6 +27,14 @@ More information: <https://www.freedesktop.org/software/systemd/man/resolvectl.h
 
 `resolvectl query `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_address</span>
 
+- Flush all local DNS caches:
+
+`resolvectl flush-caches`
+
+- Display DNS statistics (transactions, cache, and DNSSEC verdicts):
+
+`resolvectl statistics`
+
 - Retrieve an MX record of a domain:
 
 `resolvectl --legend=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">no</span>` --type=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">MX</span>` query `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain</span>
@@ -30,10 +42,6 @@ More information: <https://www.freedesktop.org/software/systemd/man/resolvectl.h
 - Resolve an SRV record, for example _xmpp-server._tcp gmail.com:
 
 `resolvectl service _`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service</span>`._`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">protocol</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>
-
-- Retrieve the public key from an email address from an OPENPGPKEY DNS record:
-
-`resolvectl openpgp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">email</span>
 
 - Retrieve a TLS key:
 
