@@ -2,8 +2,12 @@
 layout: page
 title: common/date (한국어)
 description: "시스템 날짜 설정 및 표시."
-content_hash: 6a2e072d1efa5d588e1f38fcd0daca503afd62cc
+content_hash: 839f4d276097bb1f25c24a91dcae0ed9831555e6
+last_modified_at: 2023-09-20
 related_topics:
+  - title: Deutsch version
+    url: /de/common/date.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/date.html
     icon: bi bi-globe
@@ -50,3 +54,15 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 - 특정 날짜를 Unix 타임스탬프 형식으로 변환:
 
 `date -d "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2018-09-01 00:00</span>`" +%s --utc`
+
+- 현재 날짜를 RFC-3339 형식으로 표시 (`YYYY-MM-DD hh:mm:ss TZ`):
+
+`date --rfc-3339=s`
+
+- `MMDDhhmmYYYY.ss` (`YYYY` 와 `.ss`는 선택 사항) 형식을 사용해 현재 날짜를 설정:
+
+`date `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">093023592021.59</span>
+
+- ISO 기준 현재 몇 번째 주인지 표시:
+
+`date +%V`
