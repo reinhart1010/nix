@@ -2,7 +2,8 @@
 layout: page
 title: common/shellcheck (English)
 description: "Shell script static analysis tool."
-content_hash: 40790a20ad86cc332310fd8c9ed03c181f815112
+content_hash: dba8143ec48f093dd280c8b8e51d1a4732f58fcb
+last_modified_at: 2023-09-26
 ---
 # shellcheck
 
@@ -24,7 +25,7 @@ More information: <https://www.shellcheck.net>.
 
 - Also check any sourced shell scripts:
 
-`shellcheck --checked-sourced `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sh</span>
+`shellcheck --check-sourced `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sh</span>
 
 - Display output in the specified format (defaults to `tty`):
 
