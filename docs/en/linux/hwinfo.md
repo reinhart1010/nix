@@ -2,16 +2,13 @@
 layout: page
 title: linux/hwinfo (English)
 description: "Probe for the hardware present in the system."
-content_hash: 9f5f459d27ae8303d75ce9c17a5da6916584f6d6
-last_modified_at: 2023-09-28
+content_hash: b6794b8f8f56addd861f83219e891633a41ce05f
+last_modified_at: 2023-09-30
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># hwinfo
+# hwinfo
 
 Probe for the hardware present in the system.
-More information: <https://manned.org/hwinfo>.
+More information: <https://manpages.opensuse.org/hwinfo/hwinfo.8.en.html>.
 
 - Get graphics card information:
 
