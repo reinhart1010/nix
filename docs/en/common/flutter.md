@@ -2,7 +2,8 @@
 layout: page
 title: common/flutter (English)
 description: "Google's free, open source, and cross-platform mobile app SDK."
-content_hash: 2546a2446e8cd1e35063cca01059164e31d5547e
+content_hash: 538fe7ff62207bba53cb11d98937a1ceb3da4626
+last_modified_at: 2023-10-01
 related_topics:
   - title: Deutsch version
     url: /de/common/flutter.html
@@ -14,6 +15,7 @@ related_topics:
 # flutter
 
 Google's free, open source, and cross-platform mobile app SDK.
+Some subcommands such as `flutter pub` have their own usage documentation.
 More information: <https://github.com/flutter/flutter/wiki/The-flutter-tool>.
 
 - Initialize a new Flutter project in a directory of the same name:
@@ -31,10 +33,6 @@ More information: <https://github.com/flutter/flutter/wiki/The-flutter-tool>.
 - Run Flutter on all started emulators and connected devices:
 
 `flutter run -d all`
-
-- Download all packages specified in `pubspec.yaml`:
-
-`flutter pub get`
 
 - Run tests in a terminal from the root of the project:
 
