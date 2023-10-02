@@ -2,7 +2,8 @@
 layout: page
 title: linux/ufw (català)
 description: "Tallafocs sense complicacions (_Uncomplicated Firewall_)."
-content_hash: 354fa27e0f982ab86a3cb38e66a904601eb64f0d
+content_hash: 8d591fb5ed2de2d48c2f6628905bcfdc230b7a7f
+last_modified_at: 2023-10-02
 related_topics:
   - title: English version
     url: /en/linux/ufw.html
@@ -13,11 +14,14 @@ related_topics:
   - title: italiano version
     url: /it/linux/ufw.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/ufw.html
+    icon: bi bi-globe
 ---
 # ufw
 
 Tallafocs sense complicacions (_Uncomplicated Firewall_).
-Interfície d'usuari de iptables per facilitar la configuració d'un firewall.
+Interfície d'usuari de `iptables` per facilitar la configuració d'un firewall.
 Més informació: <https://wiki.ubuntu.com/UncomplicatedFirewall>.
 
 - Activa ufw:

@@ -2,19 +2,26 @@
 layout: page
 title: linux/ufw (italiano)
 description: "ufw (Uncomplicated Firewall) - Firewall Semplice."
-content_hash: 58612d3484ea7db22be6bd640c913d71113fec19
+content_hash: edaa723e45a72240578103216ee22fba380361ae
+last_modified_at: 2023-10-02
 related_topics:
+  - title: català version
+    url: /ca/linux/ufw.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/ufw.html
     icon: bi bi-globe
   - title: español version
     url: /es/linux/ufw.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/ufw.html
+    icon: bi bi-globe
 ---
 # ufw
 
 ufw (Uncomplicated Firewall) - Firewall Semplice.
-Frontend per iptables per semplificare la configurazione di un firewall.
+Frontend per `iptables` per semplificare la configurazione di un firewall.
 Maggiori informazioni: <https://wiki.ubuntu.com/UncomplicatedFirewall>.
 
 - Accendi ufw:

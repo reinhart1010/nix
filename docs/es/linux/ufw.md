@@ -2,19 +2,26 @@
 layout: page
 title: linux/ufw (español)
 description: "Cortafuegos sin complicaciones (_Uncomplicated Firewall_)."
-content_hash: d0b8d7bbcaa66eeb2a6b24f3dc6ea8b6aaf4b819
+content_hash: 6f1bf1163823747fe98e64c73444d4a4b7d1e5aa
+last_modified_at: 2023-10-02
 related_topics:
+  - title: català version
+    url: /ca/linux/ufw.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/ufw.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/ufw.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/ufw.html
+    icon: bi bi-globe
 ---
 # ufw
 
 Cortafuegos sin complicaciones (_Uncomplicated Firewall_).
-Interfaz de usuario de iptables para facilitar la configuración de un firewall.
+Interfaz de usuario de `iptables` para facilitar la configuración de un firewall.
 Más información: <https://wiki.ubuntu.com/UncomplicatedFirewall>.
 
 - Activa ufw:

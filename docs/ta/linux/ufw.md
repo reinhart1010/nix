@@ -2,8 +2,8 @@
 layout: page
 title: linux/ufw (தமிழ்)
 description: "சிக்கலற்ற ஃபயர்வால்."
-content_hash: ba84c1a4e1b9dbe43a5dd26c13362d987018dac5
-last_modified_at: 2022-12-29
+content_hash: c95aee27f34dd16b925ed302ea69d32b35dadd01
+last_modified_at: 2023-10-02
 related_topics:
   - title: català version
     url: /ca/linux/ufw.html
@@ -21,7 +21,7 @@ related_topics:
 # ufw
 
 சிக்கலற்ற ஃபயர்வால்.
-ஃபயர்வாலின் உள்ளமைவை எளிதாக்குவதை நோக்கமாகக் கொண்ட ஐப்டேபிள்களுக்கான முன்பக்கம்.
+ஃபயர்வாலின் உள்ளமைவை எளிதாக்குவதை நோக்கமாகக் கொண்ட `iptables` முன்பக்கம்.
 மேலும் விவரத்திற்கு: <https://wiki.ubuntu.com/UncomplicatedFirewall>.
 
 - `ufw` ஐ இயக்கு:

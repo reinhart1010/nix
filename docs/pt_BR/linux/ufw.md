@@ -1,12 +1,15 @@
 ---
 layout: page
-title: linux/ufw (English)
-description: "Uncomplicated Firewall."
-content_hash: e26d4baeac1cb7970078c560a7dfe6ed4ba45bf3
+title: linux/ufw (português (Brasil))
+description: "Firewall Descomplicado."
+content_hash: 0893716b76cd7a433066030a5f633f356a330c3a
 last_modified_at: 2023-10-02
 related_topics:
   - title: català version
     url: /ca/linux/ufw.html
+    icon: bi bi-globe
+  - title: English version
+    url: /en/linux/ufw.html
     icon: bi bi-globe
   - title: español version
     url: /es/linux/ufw.html
@@ -18,40 +21,43 @@ related_topics:
     url: /ta/linux/ufw.html
     icon: bi bi-globe
 ---
-# ufw
 
-Uncomplicated Firewall.
-Frontend for `iptables` aiming to make configuration of a firewall easier.
-More information: <https://wiki.ubuntu.com/UncomplicatedFirewall>.
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
-- Enable ufw:
+<hr># ufw
+
+Firewall Descomplicado.
+Frontend para `iptables` com o objetivo de facilitar a configuração de um firewall.
+Mais informações: <https://wiki.ubuntu.com/UncomplicatedFirewall>.
+
+- Habilitar ufw:
 
 `ufw enable`
 
-- Disable ufw:
+- Desabilitar ufw:
 
 `ufw disable`
 
-- Show ufw rules, along with their numbers:
+- Mostrar regras ufw, juntamente com seus números:
 
 `ufw status numbered`
 
-- Allow incoming traffic on port 5432 on this host with a comment identifying the service:
+- Permitir tráfego de entrada na porta 5432 nesse host com um que identifique o serviço:
 
 `ufw allow `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5432</span>` comment "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Service</span>`"`
 
-- Allow only TCP traffic from 192.168.0.4 to any address on this host, on port 22:
+- Permitir apenas tráfego TCP de 192.168.0.4 pra qualquer endereço deste host, na porta 22 :
 
 `ufw allow proto `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tcp</span>` from `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">192.168.0.4</span>` to `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">any</span>` port `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">22</span>
 
-- Deny traffic on port 80 on this host:
+- Negar tráfego na porta 80 desse host :
 
 `ufw deny `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">80</span>
 
-- Deny all UDP traffic to ports in range 8412:8500:
+- Negar todo o tráfego UDP para portas no intervalo 8412:8500:
 
 `ufw deny proto `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">udp</span>` from `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">any</span>` to `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">any</span>` port `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8412:8500</span>
 
-- Delete a particular rule. The rule number can be retrieved from the `ufw status numbered` command:
+- Deletar uma regra particular. O número da regra pode ser recuperado com o `ufw status numbered` comando:
 
 `ufw delete `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rule_number</span>
