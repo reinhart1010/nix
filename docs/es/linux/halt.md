@@ -2,10 +2,17 @@
 layout: page
 title: linux/halt (español)
 description: "Detiene, apaga o reinicia la máquina."
-content_hash: 796d7708fc3c6bf33791e44d32998b0be0b6233f
+content_hash: 5e73d31ec971103280c68567466d040457664941
+last_modified_at: 2023-10-03
 related_topics:
+  - title: català version
+    url: /ca/linux/halt.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/halt.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/halt.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/halt.html
@@ -23,7 +30,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># halt
 
 Detiene, apaga o reinicia la máquina.
-Más información: <https://www.man7.org/linux/man-pages/man8/halt.8.html>.
+Más información: <https://manned.org/halt.8>.
 
 - Detiene la máquina:
 

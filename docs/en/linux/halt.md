@@ -2,10 +2,17 @@
 layout: page
 title: linux/halt (English)
 description: "Halt the system."
-content_hash: 000d4e90bac5d06d22f084a5aeb3a7e48b339761
+content_hash: 144b16c314e73e7c528314836f1c216466a7faa6
+last_modified_at: 2023-10-03
 related_topics:
+  - title: català version
+    url: /ca/linux/halt.html
+    icon: bi bi-globe
   - title: español version
     url: /es/linux/halt.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/halt.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/halt.html
@@ -14,7 +21,7 @@ related_topics:
 # halt
 
 Halt the system.
-More information: <https://www.man7.org/linux/man-pages/man8/halt.8.html>.
+More information: <https://manned.org/halt.8>.
 
 - Halt the system:
 

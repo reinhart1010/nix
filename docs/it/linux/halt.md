@@ -2,13 +2,20 @@
 layout: page
 title: linux/halt (italiano)
 description: "Arresta, spegne o riavvia la macchina."
-content_hash: 6bf8063be4996b8b45b964a6ba8a9bfd5a1e572d
+content_hash: 8b18cd141ebbf6abff8d0f56d956327335b0cdb1
+last_modified_at: 2023-10-03
 related_topics:
+  - title: català version
+    url: /ca/linux/halt.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/halt.html
     icon: bi bi-globe
   - title: español version
     url: /es/linux/halt.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/halt.html
     icon: bi bi-globe
 ---
 
@@ -23,7 +30,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># halt
 
 Arresta, spegne o riavvia la macchina.
-Maggiori informazioni: <https://www.man7.org/linux/man-pages/man8/halt.8.html>.
+Maggiori informazioni: <https://manned.org/halt.8>.
 
 - Arresta la macchina:
 

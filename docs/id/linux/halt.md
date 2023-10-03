@@ -2,7 +2,8 @@
 layout: page
 title: linux/halt (Indonesia)
 description: "Hentikan sistem."
-content_hash: da244870925924a05da51b4e64006c0020e2b96b
+content_hash: da70c5b2d2e53ab151c78f0d8e058c10db84aa00
+last_modified_at: 2023-10-03
 related_topics:
   - title: català version
     url: /ca/linux/halt.html
@@ -20,7 +21,7 @@ related_topics:
 # halt
 
 Hentikan sistem.
-Informasi lebih lanjut: <https://www.man7.org/linux/man-pages/man8/halt.8.html>.
+Informasi lebih lanjut: <https://manned.org/halt.8>.
 
 - Hentikan sistem:
 
