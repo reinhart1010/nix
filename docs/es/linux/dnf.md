@@ -2,7 +2,8 @@
 layout: page
 title: linux/dnf (español)
 description: "Administrador de paquetes para RHEL, CentOS y Fedora (Reemplaza a yum)."
-content_hash: 6d676b443b69e67f6816fd7264a02de1eaa42905
+content_hash: d6787848af63934eb92cca7fa5fb02b3377efd10
+last_modified_at: 2023-10-03
 related_topics:
   - title: català version
     url: /ca/linux/dnf.html
@@ -15,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/linux/dnf.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/dnf.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/dnf.html
@@ -64,6 +68,6 @@ Más información: <https://dnf.readthedocs.io>.
 
 `dnf list --installed`
 
-- Encuentra que paquete provee un archivo determinado:
+- Encuentra qué paquete provee un archivo determinado:
 
 `dnf provides `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span>
