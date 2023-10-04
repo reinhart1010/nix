@@ -2,7 +2,8 @@
 layout: page
 title: linux/reboot (English)
 description: "Reboot the system."
-content_hash: 71c95e1fec297fc913b07be93cf2666259fe966d
+content_hash: a02044e19a18b1544175fcb2c0fcb66cbf57d545
+last_modified_at: 2023-10-04
 related_topics:
   - title: català version
     url: /ca/linux/reboot.html
@@ -18,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/linux/reboot.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/reboot.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/reboot.html
@@ -36,7 +40,7 @@ More information: <https://manned.org/reboot.8>.
 
 `reboot --poweroff`
 
-- Halt the system (same as `halt`):
+- Halt (terminates all processes and shuts down the CPU) the system (same as `halt`):
 
 `reboot --halt`
 

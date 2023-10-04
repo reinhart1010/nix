@@ -1,8 +1,9 @@
 ---
 layout: page
 title: linux/reboot (français)
-description: "Réinitialisez le système."
-content_hash: cc391060250e69e9999604e5a356e669018682e2
+description: "Redémarre le système."
+content_hash: 36ecb43815b95bc00f143a610162fe441bb3e872
+last_modified_at: 2023-10-04
 related_topics:
   - title: català version
     url: /ca/linux/reboot.html
@@ -19,6 +20,9 @@ related_topics:
   - title: Indonesia version
     url: /id/linux/reboot.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/reboot.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/reboot.html
     icon: bi bi-globe
@@ -34,21 +38,25 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 <hr># reboot
 
-Réinitialisez le système.
+Redémarre le système.
 Plus d'informations : <https://manned.org/reboot.8>.
 
-- Réinitialisez le système normalement :
+- Redémarre le système :
 
 `reboot`
 
-- Mettrez le système hors tension :
+- Éteint le système (identique à `poweroff`) :
 
 `reboot --poweroff`
 
-- Arrêtez toutes les fonctions du CPU :
+- Arrête (met fin à tous les processus et arrête le processeur) le système (identique à `halt`) :
 
 `reboot --halt`
 
-- Réinitialisez le système maintenant mais propre :
+- Redémarre immédiatement sans contacter le gestionnaire du système :
 
 `reboot --force`
+
+- Écrit l'entrée wtmp shutdown sans redémarrer le système :
+
+`reboot --wtmp-only`
