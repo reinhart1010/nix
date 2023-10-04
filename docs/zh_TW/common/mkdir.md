@@ -2,7 +2,8 @@
 layout: page
 title: common/mkdir (中文 (繁體, 台灣))
 description: "建立目錄。"
-content_hash: 51ebf79ec80baf1f8efce4bb9db6edcec7236a78
+content_hash: cf33423fe4514b120e4a99ee5b98b09f86cbc38b
+last_modified_at: 2023-10-04
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -28,6 +29,12 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/mkdir.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/mkdir.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/mkdir.html
+    icon: bi bi-globe
 ---
 
 ### Outdated Translation
@@ -50,3 +57,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 - 遞迴建立目錄，若上層目錄尚未被建立則會一併建立：
 
 `mkdir -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目錄/完整/路徑</span>
+
+- 使用指定的權限建立新目錄：
+
+`mkdir -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rwxrw-r--</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目錄/完整/路徑</span>

@@ -2,7 +2,8 @@
 layout: page
 title: common/magick (English)
 description: "Create, edit, compose, or convert bitmap images."
-content_hash: 2032f69c7024d751c4da4523ac19fd8e7bf9d142
+content_hash: c0ff4b321dcfff9068988054d33d7a1f200432c8
+last_modified_at: 2023-10-04
 related_topics:
   - title: Nederlands version
     url: /nl/common/magick.html
@@ -20,7 +21,7 @@ More information: <https://imagemagick.org/>.
 
 - Resize an image, making a new copy:
 
-`magick convert -resize `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100x100</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.jpg</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.jpg</span>
+`magick `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_image.jpg</span>` -resize `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100x100</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_image.jpg</span>
 
 - Create a GIF using images:
 
