@@ -2,19 +2,20 @@
 layout: page
 title: common/mogrify (English)
 description: "Perform operations on multiple images, such as resizing, cropping, flipping, and adding effects."
-content_hash: 89eb45f9d0a94bb2339fed2684af1b46b8040861
+content_hash: d1e683fcbe5bcdb2da34dbb9e11f49ec4b526d2a
+last_modified_at: 2023-10-05
 ---
 # mogrify
 
 Perform operations on multiple images, such as resizing, cropping, flipping, and adding effects.
-Changes are applied directly to the original file.
+Changes are applied directly to the original file. Part of ImageMagick.
 More information: <https://imagemagick.org/script/mogrify.php>.
 
 - Resize all JPEG images in the directory to 50% of their initial size:
 
 `mogrify -resize `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50%</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.jpg</span>
 
-- Resize all images starting with "DSC" to 800x600:
+- Resize all images starting with `DSC` to 800x600:
 
 `mogrify -resize `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">800x600</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">DSC*</span>
 
