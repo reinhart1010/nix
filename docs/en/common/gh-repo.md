@@ -2,8 +2,8 @@
 layout: page
 title: common/gh-repo (English)
 description: "Work with GitHub repositories."
-content_hash: be8789476431e59201f97f0a4b8df01177f2a4ca
-last_modified_at: 2023-07-16
+content_hash: cf3d64d92f74dd60dc0189fc239350003427cd77
+last_modified_at: 2023-10-08
 related_topics:
   - title: 中文 version
     url: /zh/common/gh-repo.html
@@ -34,9 +34,9 @@ More information: <https://cli.github.com/manual/gh_repo>.
 
 `gh repo list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">owner</span>
 
-- List only non-forks repositories:
+- List only non-forks repositories and limit the number of repositories to list (default: 30):
 
-`gh repo list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">owner</span>` --non-forks`
+`gh repo list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">owner</span>` --source -L `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">limit</span>
 
 - List repositories with a specific primary coding language:
 
