@@ -2,8 +2,8 @@
 layout: page
 title: common/ruby (English)
 description: "Ruby programming language interpreter."
-content_hash: 0e47ffcd78e89c38e211d04d8a31904fb3ba3b36
-last_modified_at: 2023-08-09
+content_hash: d2560c3568912f19397617e9c95fcd35aff8756e
+last_modified_at: 2023-10-08
 related_topics:
   - title: Indonesia version
     url: /id/common/ruby.html
@@ -33,6 +33,10 @@ More information: <https://www.ruby-lang.org>.
 - Start the built-in HTTP server on port 8080 in the current directory:
 
 `ruby -run -e httpd`
+
+- Locally execute a Ruby binary without installing the required library it depends on:
+
+`ruby -I `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/library_folder</span>` -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">library_require_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/bin_folder/bin_name</span>
 
 - Show the version of Ruby you are using:
 
