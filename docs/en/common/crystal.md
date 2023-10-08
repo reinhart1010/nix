@@ -2,7 +2,8 @@
 layout: page
 title: common/crystal (English)
 description: "Tool for managing Crystal source code."
-content_hash: ccc2fb5c1805dada001d962ba869483fa55fbbdf
+content_hash: b12cbb31c1837d01465dd775ef604247132fd136
+last_modified_at: 2023-10-08
 related_topics:
   - title: italiano version
     url: /it/common/crystal.html
@@ -23,6 +24,18 @@ More information: <https://crystal-lang.org/reference/using_the_compiler>.
 - Compile a file and all dependencies to a single executable:
 
 `crystal build `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.cr</span>
+
+- Read Crystal source code from the command line or `stdin`, and execute it:
+
+`crystal eval '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">code</span>`'`
+
+- Generate API documentation from inline docstrings in Crystal files:
+
+`crystal docs`
+
+- Compile and run a Crystal specification suite:
+
+`crystal spec`
 
 - Start a local interactive server for testing the language:
 

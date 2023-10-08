@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/jq (English)
-description: "A command-line JSON processor that uses a domain-specific language."
-content_hash: 166868f5340e5c66f57a59a9fdd2ebf2c7eff6f0
+description: "A command-line JSON processor that uses a domain-specific language (DSL)."
+content_hash: 26e3d0d40fccc2116f4c11e173fbe42af120b211
+last_modified_at: 2023-10-08
 related_topics:
   - title: Deutsch version
     url: /de/common/jq.html
@@ -13,10 +14,10 @@ related_topics:
 ---
 # jq
 
-A command-line JSON processor that uses a domain-specific language.
+A command-line JSON processor that uses a domain-specific language (DSL).
 More information: <https://stedolan.github.io/jq/manual/>.
 
-- Execute a specific expression (print a colored and formatted json):
+- Execute a specific expression (print a colored and formatted JSON output):
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat path/to/file.json</span>` | jq '.'`
 

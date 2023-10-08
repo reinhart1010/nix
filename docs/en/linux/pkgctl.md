@@ -1,18 +1,39 @@
 ---
 layout: page
 title: linux/pkgctl (English)
-description: "Unified command-line devtools frontend for Arch Linux."
-content_hash: f9786230083b2984012fd63ae86efc885e526289
-last_modified_at: 2023-08-09
+description: "Unified command-line frontend for Arch Linux devtools."
+content_hash: ddb57249ccfbe8c450317450785a4a0ab4409a01
+last_modified_at: 2023-10-08
 ---
+# pkgctl
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pkgctl
-
-Unified command-line devtools frontend for Arch Linux.
+Unified command-line frontend for Arch Linux devtools.
 More information: <https://man.archlinux.org/man/pkgctl.1>.
 
-- Download PKGBUILD of a package in a folder named `package_name`:
+- View documentation for authenticating `pkgctl` with services like GitLab:
 
-`pkgctl repo clone --protocol=https `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
+`tldr pkgctl auth`
+
+- View documentation for building packages inside a clean `chroot`:
+
+`tldr pkgctl build`
+
+- View documentation for updating the binary repository as final release step:
+
+`tldr pkgctl db update`
+
+- View documentation for comparing package files using different modes:
+
+`tldr pkgctl diff`
+
+- View documentation for releasing build artifacts:
+
+`tldr pkgctl release`
+
+- View documentation for managing Git packaging repositories and their configuration:
+
+`tldr pkgctl repo`
+
+- Display version:
+
+`pkgctl version`

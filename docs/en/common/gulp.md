@@ -2,12 +2,13 @@
 layout: page
 title: common/gulp (English)
 description: "JavaScript task runner and streaming build system."
-content_hash: 631fc140cc733d6e0dcf97eb8e668d656e11acfa
+content_hash: 3e1b4c038239dece039614ce4d90ab07a9f5b95e
+last_modified_at: 2023-10-08
 ---
 # gulp
 
 JavaScript task runner and streaming build system.
-Tasks are defined within gulpfile.js at the project root.
+Tasks are defined within `gulpfile.js` at the project root.
 More information: <https://github.com/gulpjs/gulp-cli>.
 
 - Run the default task:
@@ -17,3 +18,7 @@ More information: <https://github.com/gulpjs/gulp-cli>.
 - Run individual tasks:
 
 `gulp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">othertask</span>
+
+- Print the task dependency tree for the loaded gulpfile:
+
+`gulp --tasks`
