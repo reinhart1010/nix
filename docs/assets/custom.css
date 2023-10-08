@@ -176,13 +176,13 @@
 
 /* Primary Color Overrides (Optional) */
 :root {
-  --primary-color: var(--violet-color) !important;
-  --primary-color-light: var(--violet-color-light);
-  --primary-color-very-light: var(--violet-color-very-light);
-  --primary-color-dark: var(--violet-color-dark);
-  --primary-color-very-dark: var(--violet-color-very-dark);
-  --primary-box-shadow-color: var(--violet-box-shadow-color);
-  --primary-box-shadow-color-darker: var(--violet-box-shadow-color-darker);
+  --primary-color: var(--fuchsia-color) !important;
+  --primary-color-light: var(--fuchsia-color-light);
+  --primary-color-very-light: var(--fuchsia-color-very-light);
+  --primary-color-dark: var(--fuchsia-color-dark);
+  --primary-color-very-dark: var(--fuchsia-color-very-dark);
+  --primary-box-shadow-color: var(--fuchsia-box-shadow-color);
+  --primary-box-shadow-color-darker: var(--fuchsia-box-shadow-color-darker);
 }
 
 .dark-mode {
