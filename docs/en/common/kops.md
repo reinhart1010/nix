@@ -2,8 +2,8 @@
 layout: page
 title: common/kops (English)
 description: "Create, destroy, upgrade and maintain Kubernetes clusters."
-content_hash: cdb6c543a81e8282858425f687e71f64bcede8fe
-last_modified_at: 2023-07-16
+content_hash: d42d761c5f14cb7a9d377813846976226df1496a
+last_modified_at: 2023-10-10
 ---
 # kops
 
@@ -29,3 +29,7 @@ More information: <https://github.com/kubernetes/kops/>.
 - Delete a cluster:
 
 `kops delete cluster `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_name</span>` --yes`
+
+- Validate a cluster:
+
+`kops validate cluster `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cluster_name</span>` --wait `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wait_time_until_ready</span>` --count `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">num_required_validations</span>
