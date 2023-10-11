@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/alias (Nederlands)
-description: "Maakt een alias aan -- Woorden die vervangen woorden door commando's."
-content_hash: 4f8e9bb126b5d896485d7b6d321c68c9f5db2d45
+description: "Maakt een alias aan -- Woorden die vervangen worden door commando's."
+content_hash: bb888fb758463b8d512d688ff38115032c10252a
+last_modified_at: 2023-10-11
 related_topics:
   - title: Deutsch version
     url: /de/common/alias.html
@@ -43,13 +44,22 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/alias.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/alias.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/alias.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/alias.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/alias.html
     icon: bi bi-globe
 ---
 # alias
 
-Maakt een alias aan -- Woorden die vervangen woorden door commando's.
+Maakt een alias aan -- Woorden die vervangen worden door commando's.
 Een alias blijft bestaan in de huidige shell sessie, tenzij gedefinieerd in de configuratie van de shell, bijvoorbeeld in `~/.bashrc`.
 Meer informatie: <https://tldp.org/LDP/abs/html/aliases.html>.
 
