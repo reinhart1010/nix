@@ -2,8 +2,8 @@
 layout: page
 title: windows/dir (English)
 description: "List directory contents."
-content_hash: 7dd4af230dc27f21238778ee9456dfd54f11ef27
-last_modified_at: 2023-02-20
+content_hash: 91bf1f541e8708edd6051c46db2af6ddd5aa59c1
+last_modified_at: 2023-10-11
 related_topics:
   - title: català version
     url: /ca/windows/dir.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/windows/dir.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/dir.html
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/windows/dir.html
@@ -48,8 +51,12 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 - Show the contents of the current directory, including hidden ones:
 
-`dir /A`
+`dir /a`
 
 - Show the contents of a given directory, including hidden ones:
 
-`dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory</span>` /A`
+`dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\directory</span>` /a`
+
+- Show a bare list of directories and files, with no additional information:
+
+`dir /b`

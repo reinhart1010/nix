@@ -2,7 +2,8 @@
 layout: page
 title: common/npm (English)
 description: "JavaScript and Node.js package manager."
-content_hash: b878bc173d53d868ba77e2678cbd97f84cdc6885
+content_hash: f1f30b5c54ae38913f2c70245c810cc94fb77960
+last_modified_at: 2023-10-11
 related_topics:
   - title: Deutsch version
     url: /de/common/npm.html
@@ -27,24 +28,24 @@ More information: <https://www.npmjs.com>.
 
 - Download a specific version of a package and add it to the list of dependencies in `package.json`:
 
-`npm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module_name</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span>
+`npm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span>
 
-- Download a package and add it to the list of dev dependencies in `package.json`:
+- Download the latest version of a package and add it to the list of dev dependencies in `package.json`:
 
-`npm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module_name</span>` --save-dev`
+`npm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>` --save-dev`
 
-- Download a package and install it globally:
+- Download the latest version of a package and install it globally:
 
-`npm install --global `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module_name</span>
+`npm install --global `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
 
 - Uninstall a package and remove it from the list of dependencies in `package.json`:
 
-`npm uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module_name</span>
+`npm uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
 
 - Print a tree of locally installed dependencies:
 
 `npm list`
 
-- List top-level globally installed modules:
+- List top-level globally installed packages:
 
 `npm list --global --depth=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0</span>
