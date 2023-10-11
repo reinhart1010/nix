@@ -2,15 +2,13 @@
 layout: page
 title: common/az-version (English)
 description: "Shows the current version of Azure CLI modules and extensions."
-content_hash: 4b78699cae9db57963433d7c3ff83fd544923edf
+content_hash: 8ab38061cba78ed1ac6709d801d8e8f4a5acbee3
+last_modified_at: 2023-10-11
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># az version
+# az version
 
 Shows the current version of Azure CLI modules and extensions.
-Part of `az`, the command-line client for Microsoft Azure.
+Part of `az`.
 More information: <https://learn.microsoft.com/cli/azure/reference-index?view=azure-cli-latest#az-version>.
 
 - Show the current version of Azure CLI modules and extensions in JSON format:

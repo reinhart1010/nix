@@ -2,15 +2,13 @@
 layout: page
 title: common/az-upgrade (English)
 description: "Upgrade Azure CLI and Extensions."
-content_hash: 89556dca0ae362f377735cac3c0b020fb1ee0c04
+content_hash: e701f653e32393d257a80e81ef0f7509828e9df1
+last_modified_at: 2023-10-11
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># az upgrade
+# az upgrade
 
 Upgrade Azure CLI and Extensions.
-Part of `az`, the command-line client for Microsoft Azure.
+Part of `az`.
 More information: <https://learn.microsoft.com/cli/azure/reference-index?view=azure-cli-latest#az-upgrade>.
 
 - Upgrade Azure CLI:

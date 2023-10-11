@@ -2,8 +2,8 @@
 layout: page
 title: common/az-login (English)
 description: "Log in to Azure."
-content_hash: b91bd978feb257c2fd5dbacf038bb8018528afbd
-last_modified_at: 2023-05-10
+content_hash: 1d9df22c463e46efbbc482bad18e23c4bd9f9f22
+last_modified_at: 2023-10-11
 related_topics:
   - title: Deutsch version
     url: /de/common/az-login.html
@@ -12,7 +12,7 @@ related_topics:
 # az login
 
 Log in to Azure.
-Part of `az`, the command-line client for Microsoft Azure.
+Part of `az`.
 More information: <https://learn.microsoft.com/cli/azure/reference-index#az_login>.
 
 - Log in interactively:
