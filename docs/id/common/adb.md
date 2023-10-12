@@ -2,7 +2,8 @@
 layout: page
 title: common/adb (Indonesia)
 description: "Android Debug Bridge: berkomunikasi dengan emulator Android atau perangkat Android terhubung."
-content_hash: 1d95fb6043bf6f0e228de8fc9580f39c5a99fad4
+content_hash: 84310c76bf5758914ab58b85a6db866eb986bf9b
+last_modified_at: 2023-10-12
 related_topics:
   - title: English version
     url: /en/common/adb.html
@@ -45,26 +46,26 @@ Informasi lebih lanjut: <https://developer.android.com/studio/command-line/adb>.
 
 `adb start-server`
 
-- Menghentikan proses server adb:
+- Hentikan proses server adb:
 
 `adb kill-server`
 
-- Memulai shell jarak jauh pada emulator/perangkat tujuan:
+- Mulai shell jarak jauh pada emulator/perangkat tujuan:
 
 `adb shell`
 
-- Menginstal aplikasi Android ke emulator/perangkat tujuan:
+- Instal aplikasi Android ke emulator/perangkat tujuan:
 
 `adb install -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/berkas.apk</span>
 
-- Menyalin berkas/direktori dari perangkat tujuan:
+- Salin berkas/direktori dari perangkat tujuan:
 
 `adb pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/berkas_atau_direktori_perangkat</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/direktori_lokal_tujuan</span>
 
-- Menyalin berkas/direktori ke perangkat tujuan:
+- Salin berkas/direktori ke perangkat tujuan:
 
 `adb push `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/berkas_atau_direktori_lokal</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/direktori_perangkat_tujuan</span>
 
-- Mendapatkan daftar perangkat yang terhubung:
+- Dapatkan daftar perangkat yang terhubung:
 
 `adb devices`
