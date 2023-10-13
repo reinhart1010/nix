@@ -2,8 +2,8 @@
 layout: page
 title: common/composer (English)
 description: "A package-based dependency manager for PHP projects."
-content_hash: 7e522cb01ffe70654701188e81a3899d8d39d2d7
-last_modified_at: 2023-08-26
+content_hash: 1792c08a588525b86ebf3f2ed2f182e2104cb1ee
+last_modified_at: 2023-10-13
 related_topics:
   - title: Indonesia version
     url: /id/common/composer.html
@@ -24,7 +24,7 @@ More information: <https://getcomposer.org/>.
 
 `composer init`
 
-- Add a package as a dependency for this project, adding it to `composer.json`:
+- Add a package as a dependency for this project, adding an entry to `composer.json`:
 
 `composer require `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user/package</span>
 
@@ -32,15 +32,15 @@ More information: <https://getcomposer.org/>.
 
 `composer install`
 
-- Uninstall a package from this project, removing it as a dependency from `composer.json`:
+- Uninstall a package from this project, removing it as a dependency from `composer.json` and `composer.lock`:
 
 `composer remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user/package</span>
 
-- Update all the dependencies in this project's `composer.json` and note versions in `composer.lock` file:
+- Update all the dependencies in this project's `composer.json` and note new versions in `composer.lock` file:
 
 `composer update`
 
-- Update composer lock only after updating `composer.json` manually:
+- Update only `composer.lock` after updating `composer.json` manually:
 
 `composer update --lock`
 
