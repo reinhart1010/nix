@@ -2,12 +2,13 @@
 layout: page
 title: common/az-lock (English)
 description: "Manage Azure locks."
-content_hash: 0256475a8080cd5783c146983556c8a9ddd90e5e
+content_hash: 0aa80df8e1fea271a1fedb5a13811a0036c984ab
+last_modified_at: 2023-10-15
 ---
 # az lock
 
 Manage Azure locks.
-Part of `azure-cli`.
+Part of `azure-cli` (also known as `az`).
 More information: <https://learn.microsoft.com/cli/azure/lock>.
 
 - Create a read-only subscription level lock:

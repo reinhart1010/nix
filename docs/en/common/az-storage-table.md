@@ -2,12 +2,13 @@
 layout: page
 title: common/az-storage-table (English)
 description: "Manage NoSQL key-value storage in Azure."
-content_hash: 49988bca2cac5e228f56ab94ae74b5030350d84c
+content_hash: e7e64ec9328b60e4eb7835e426641d3221af1444
+last_modified_at: 2023-10-15
 ---
 # az storage table
 
 Manage NoSQL key-value storage in Azure.
-Part of `azure-cli`.
+Part of `azure-cli` (also known as `az`).
 More information: <https://learn.microsoft.com/cli/azure/storage/table>.
 
 - Create a new table in the storage account:

@@ -2,16 +2,14 @@
 layout: page
 title: common/az-acr (English)
 description: "Manage private registries with Azure Container Registries."
-content_hash: 03bda7919e69a26906d6b62ac085922acadbe01c
-last_modified_at: 2023-10-11
+content_hash: e1e2caaa4279d1de6f08acee9021ecf97ac0310e
+last_modified_at: 2023-10-15
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># az acr
+# az acr
 
 Manage private registries with Azure Container Registries.
-More information: <https://learn.microsoft.com/en-us/cli/azure/acr>.
+Part of `azure-cli` (also known as `az`).
+More information: <https://learn.microsoft.com/cli/azure/acr>.
 
 - Create a managed container registry:
 

@@ -2,16 +2,14 @@
 layout: page
 title: common/az-provider (English)
 description: "Manage resource providers."
-content_hash: 86e729035b441a42f2865a86237e2fae7bd0c225
+content_hash: 511c17eaf81203f9d0b340378b211c017c7376d9
+last_modified_at: 2023-10-15
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># az provider
+# az provider
 
 Manage resource providers.
-Part of `azure-cli`.
-More information: <https://docs.microsoft.com/cli/azure/provider>.
+Part of `azure-cli` (also known as `az`).
+More information: <https://learn.microsoft.com/cli/azure/provider>.
 
 - Register a provider:
 

@@ -2,15 +2,13 @@
 layout: page
 title: common/az-storage-queue (English)
 description: "Manage storage queues in Azure."
-content_hash: 7f03b10eb2e9cddd648d2e90b188bffd9efd63f6
+content_hash: e9aa5003f0572be49f22f6b0d1e70b2bbab221a3
+last_modified_at: 2023-10-15
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># az storage queue
+# az storage queue
 
 Manage storage queues in Azure.
-Part of `azure-cli`.
+Part of `azure-cli` (also known as `az`).
 More information: <https://learn.microsoft.com/cli/azure/storage/queue>.
 
 - Create a queue:

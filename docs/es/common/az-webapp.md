@@ -2,19 +2,17 @@
 layout: page
 title: common/az-webapp (español)
 description: "Administra aplicaciones web alojadas en Azure Cloud Services."
-content_hash: 403cdd17ad5bc9da334cc5b052567007550a8c5d
+content_hash: 063f8f1bba988fa78cd002af07e8df98d4c9b56e
+last_modified_at: 2023-10-15
 related_topics:
   - title: English version
     url: /en/common/az-webapp.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># az webapp
+# az webapp
 
 Administra aplicaciones web alojadas en Azure Cloud Services.
-Parte de `azure-cli`.
+Parte de `azure-cli` (también conocido como `az`)..
 Más información: <https://learn.microsoft.com/cli/azure/webapp>.
 
 - Lista los entornos de ejecución disponibles para una aplicación web:

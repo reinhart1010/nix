@@ -2,20 +2,17 @@
 layout: page
 title: common/az-storage (español)
 description: "Administra los recursos de Azure Cloud Storage."
-content_hash: 5d2d33ac963b21d70be2012fbde8b385fd173da7
-last_modified_at: 2023-10-14
+content_hash: 55b2d86e904b8378d73df29318cb983f9c3fb51a
+last_modified_at: 2023-10-15
 related_topics:
   - title: English version
     url: /en/common/az-storage.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># az storage
+# az storage
 
 Administra los recursos de Azure Cloud Storage.
-Parte de `azure-cli`.
+Parte de `azure-cli` (también conocido como `az`).
 Más información: <https://learn.microsoft.com/cli/azure/storage>.
 
 - Crea una cuenta de almacenamiento:

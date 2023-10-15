@@ -2,27 +2,24 @@
 layout: page
 title: common/az-bicep (español)
 description: "Grupo de comandos de la CLI de Bicep."
-content_hash: ed3b19dc0313e9b7f9a0af7304b014fe933819e1
-last_modified_at: 2023-10-09
+content_hash: a488bc1300270bb4b94683a869c6cf4fe43473ea
+last_modified_at: 2023-10-15
 related_topics:
   - title: English version
     url: /en/common/az-bicep.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># az bicep
+# az bicep
 
 Grupo de comandos de la CLI de Bicep.
-Parte de `azure-cli`.
+Parte de `azure-cli` (también conocido como `az`).
 Más información: <https://learn.microsoft.com/cli/azure/bicep>.
 
 - Instala la CLI de Bicep.
 
 `az bicep install`
 
-- Crear un archivo de Bicep:
+- Crea un archivo de Bicep:
 
 `az bicep build --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.bicep</span>
 

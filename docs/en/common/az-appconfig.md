@@ -2,8 +2,8 @@
 layout: page
 title: common/az-appconfig (English)
 description: "Manage App configurations on Azure."
-content_hash: 6a2c92a54fb9eeb50122e6338c0051c47f7c527a
-last_modified_at: 2023-10-11
+content_hash: d6c494a4bc7305b5daabb4885df3d1569e3eccec
+last_modified_at: 2023-10-15
 related_topics:
   - title: español version
     url: /es/common/az-appconfig.html
@@ -12,7 +12,7 @@ related_topics:
 # az appconfig
 
 Manage App configurations on Azure.
-Part of `az`.
+Part of `azure-cli` (also known as `az`).
 More information: <https://learn.microsoft.com/cli/azure/appconfig>.
 
 - Create an App Configuration:

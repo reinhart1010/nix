@@ -2,19 +2,17 @@
 layout: page
 title: common/az-sshkey (español)
 description: "Administra claves públicas SSH con máquinas virtuales."
-content_hash: fdd61528eef24aaceb13da89fbccb2aa78391a3d
+content_hash: 7af0b6f765335c35719f393cb1c0a1c3812a7f6f
+last_modified_at: 2023-10-15
 related_topics:
   - title: English version
     url: /en/common/az-sshkey.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># az sshkey
+# az sshkey
 
 Administra claves públicas SSH con máquinas virtuales.
-Parte de `azure-cli`.
+Parte de `azure-cli` (también conocido como `az`).
 Más información: <https://learn.microsoft.com/cli/azure/sshkey>.
 
 - Crea una nueva clave SSH:

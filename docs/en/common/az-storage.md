@@ -2,13 +2,17 @@
 layout: page
 title: common/az-storage (English)
 description: "Manage Azure Cloud Storage resources."
-content_hash: ed2afe5ee232410dd618af8bdb1cf26b609ebd21
-last_modified_at: 2023-10-14
+content_hash: 48b32dc6b75fd496c72f3af57d183cc7b76a39be
+last_modified_at: 2023-10-15
+related_topics:
+  - title: español version
+    url: /es/common/az-storage.html
+    icon: bi bi-globe
 ---
 # az storage
 
 Manage Azure Cloud Storage resources.
-Part of `azure-cli`.
+Part of `azure-cli` (also known as `az`).
 More information: <https://learn.microsoft.com/cli/azure/storage>.
 
 - Create a storage account:

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/touch (português (Brasil))
-description: "Alterar os timestamps de acesso e de modificação (atime, mtime) de um arquivo."
-content_hash: cb3943b41cd7774fb3bc60376799587420664542
-last_modified_at: 2022-12-29
+description: "Cria arquivos e define tempo de acesso/modificação."
+content_hash: 344375dbeec1ac7905b925bb4d4a179ccce3b11f
+last_modified_at: 2023-10-15
 related_topics:
   - title: català version
     url: /ca/common/touch.html
@@ -38,25 +38,21 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 <hr># touch
 
-Alterar os timestamps de acesso e de modificação (atime, mtime) de um arquivo.
+Cria arquivos e define tempo de acesso/modificação.
 Mais informações: <https://manned.org/man/freebsd-13.1/touch>.
 
-- Criar novo(s) arquivo(s) vazio(s) ou alterar os timestamps do(s) arquivo(s) para o timestamp atual:
+- Cria arquivos especificados:
 
-`touch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
+`touch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo1 caminho/para/arquivo2 ...</span>
 
-- Definir os timestamps de um arquivo para uma data e hora específica:
+- Define o tempo de [a]cesso ou [m]odificação do arquivo como o atual e não [c]ria o arquivo se ele não existir:
 
-`touch -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYYMMDDHHMM.SS</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
+`touch -c -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">a|m</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo1 caminho/para/arquivo2 ...</span>
 
-- Definir os timestamps de um arquivo para uma hora no passado:
+- Define o [t]empo do arquivo para um valor especificado e não [c]ria o arquivo se ele não existir:
 
-`touch -d "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-1 hour</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
+`touch -c -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYYMMDDHHMM.SS</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo1 caminho/para/arquivo2 ...</span>
 
-- Usar as timestamps de um arquivo para definir as timestamps de um segundo arquivo:
+- Define o tempo de um arquivo específico para o tempo de out[r]o arquivo e não [c]ria o arquivo se ele não existir:
 
-`touch -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo2</span>
-
-- Criar múltiplos arquivos:
-
-`touch -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo{1,2,3}.txt</span>
+`touch -c -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.emacs</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo1 caminho/para/arquivo2 ...</span>

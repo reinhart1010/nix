@@ -2,7 +2,8 @@
 layout: page
 title: common/cat (português (Brasil))
 description: "Exibe e concatena o conteúdo de arquivos."
-content_hash: 094c2f6f2ac41116bc8d0b571b24b7fe23ee90eb
+content_hash: 21eb9509996978a3a6d1b649ad430c396651dcf8
+last_modified_at: 2023-10-15
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -28,14 +29,23 @@ related_topics:
   - title: italiano version
     url: /it/common/cat.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/cat.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/cat.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: नेपाली version
+    url: /ne/common/cat.html
+    icon: bi bi-globe
+  - title: norsk version
     url: /no/common/cat.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/cat.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/cat.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/cat.html
@@ -58,18 +68,22 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 Exibe e concatena o conteúdo de arquivos.
 Mais informações: <https://www.gnu.org/software/coreutils/cat>.
 
-- Exibir o conteúdo de um arquivo no terminal:
+- Exibe o conteúdo de um arquivo na `stdout`:
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo</span>
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
 
-- Concatenar o conteúdo de vários arquivos em um arquivo de destino:
+- Concatena o conteúdo de vários arquivos em um arquivo de saída:
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo2</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_de_destino</span>
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo1 caminho/para/arquivo2 ...</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_de_saída</span>
 
-- Adicionar o conteúdo de vários arquivos ao final de um arquivo de destino:
+- Anexa o conteúdo de vários arquivos ao final de um arquivo de saída:
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo2</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_de_destino</span>
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo1 caminho/para/arquivo2 ...</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_de_saída</span>
 
-- Exibir o conteúdo de um arquivo no terminal numerando as linhas:
+- Copia o conteúdo de um arquivo em um arquivo de saída sem armazenamento em buffer:
 
-`cat -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo</span>
+`cat -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/tty12</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/tty13</span>
+
+- Escreve a `stdin` em um arquivo:
+
+`cat - > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>

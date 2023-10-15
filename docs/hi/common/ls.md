@@ -1,9 +1,13 @@
 ---
 layout: page
 title: common/ls (हिन्दी)
-description: "निर्देशिका सामग्री को सूचीबद्ध करें।"
-content_hash: fd4ed137d0eb2ec5c3a390d989443c0d2ec026f3
+description: "डायरेक्टरी की सामग्री की सूची दिखाएं।"
+content_hash: 25191a7e79c2672ba3bc2888c277c2c68ab2689a
+last_modified_at: 2023-10-15
 related_topics:
+  - title: català version
+    url: /ca/common/ls.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/ls.html
     icon: bi bi-globe
@@ -31,6 +35,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/ls.html
     icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/ls.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/ls.html
     icon: bi bi-globe
@@ -39,6 +46,12 @@ related_topics:
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/ls.html
+    icon: bi bi-globe
+  - title: ไทย version
+    url: /th/common/ls.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/ls.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/ls.html
@@ -55,33 +68,37 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 <hr># ls
 
-निर्देशिका सामग्री को सूचीबद्ध करें।
-अधिक जानकारी: <https://www.gnu.org/software/coreutils/ls>।
+डायरेक्टरी की सामग्री की सूची दिखाएं।
+और जानकारी: <https://www.gnu.org/software/coreutils/ls>.
 
-- प्रति पंक्ति एक फ़ाइल की सूची बनाएं:
+- एक प्रति पंक्ति फ़ाइलों की सूची दिखाएं:
 
 `ls -1`
 
-- छिपी हुई फाइलों सहित सभी फाइलों की सूची बनाएं:
+- सभी फ़ाइलें दिखाएं, छुपी हुई फ़ाइलें समेत:
 
 `ls -a`
 
-- सभी फाइलों को सूचीबद्ध करें, '/' के साथ निर्देशिका नामों को समाप्त करें:
+- सभी फ़ाइलों की सूची दिखाएं, जहाँ नामों के आखिर में `/` जोड़ा गया है:
 
 `ls -F`
 
-- सभी फ़ाइलों की लंबी प्रारूप सूची (अनुमतियाँ, स्वामित्व, आकार और परिवर्तन तिथि):
+- सभी फ़ाइलों की लॉन्ग सूची (अनुमतियाँ, स्वामित्व, आकार, और संशोधन तिथि) दिखाएं:
 
 `ls -la`
 
-- मानव पठनीय इकाइयों (KiB, MiB, GiB) का उपयोग करके प्रदर्शित आकार के साथ लंबी प्रारूप सूची:
+- लॉन्ग सूची जिसमें ह्यूमन-रीडेबल इकाइयों (KiB, MiB, GiB) का उपयोग करके आकार दिखाया गया है:
 
 `ls -lh`
 
-- आकार के अनुसार क्रमबद्ध लंबी सूची (घटते हुए):
+- आकार के आधार पर क्रमबद्ध की गई लॉन्ग सूची (अवरोही):
 
 `ls -lS`
 
-- संशोधन की तारीख (सबसे पहले) द्वारा क्रमबद्ध सभी फाइलों की लंबी प्रारूप सूची:
+- संशोधन तिथि के क्रम में क्रमबद्ध की गई सभी फ़ाइलों की लॉन्ग सूची (सबसे पुरानी पहले):
 
 `ls -ltr`
+
+- केवल डायरेक्टरी दिखाएं:
+
+`ls -d */`

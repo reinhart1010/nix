@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/nano (português (Brasil))
-description: "Editor de texto de linha de comando simples e fácil de usar. Um clone melhorado e gratuito de Pico."
-content_hash: 16b35990b7d83b114f0f74921084ef73499eb73c
+description: "Editor de texto de linha de comando. Um clone melhorado de `Pico`."
+content_hash: 7cc8441e0fb59ac1335b9dde758a76f21f399e86
+last_modified_at: 2023-10-15
 related_topics:
   - title: English version
     url: /en/common/nano.html
@@ -17,31 +18,44 @@ related_topics:
     url: /nl/common/nano.html
     icon: bi bi-globe
 ---
-# nano
 
-Editor de texto de linha de comando simples e fácil de usar. Um clone melhorado e gratuito de Pico.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/nano.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># nano
+
+Editor de texto de linha de comando. Um clone melhorado de `Pico`.
 Mais informações: <https://nano-editor.org>.
 
-- Abre um novo arquivo no nano:
+- Inicia o editor:
 
 `nano`
 
-- Abre um arquivo específico:
+- Inicia o editor sem usar arquivos de configuração:
 
-`nano `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
+`nano --ignorercfiles`
 
-- Abre um arquivo específico, posicionando o cursor na linha e coluna especificadas:
+- Abre arquivos específicos, passando para o próximo arquivos ao fechar o anterior:
+
+`nano `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo1 caminho/para/arquivo2 ...</span>
+
+- Abre um arquivo e posiciona o cursor na linha e coluna especificadas:
 
 `nano +`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">linha</span>`,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">coluna</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
 
-- Abre um arquivo específico e habilita soft wrapping:
+- Abre um arquivo e habilita soft wrapping:
 
 `nano --softwrap `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
 
-- Abre um arquivo específico e indenta novas linhas para a indentação das linhas anteriores:
+- Abre um arquivo e indenta novas linhas de acordo com a indentação da linha anterior:
 
 `nano --autoindent `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
 
-- Abre nano e cria um arquivo backup (`file~`) quando salva edições:
+- Abre um arquivo e cria um arquivo de backup (`caminho/para/arquivo~`) ao salvá-lo:
 
 `nano --backup `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>

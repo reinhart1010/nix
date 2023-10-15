@@ -2,17 +2,18 @@
 layout: page
 title: common/az-devops (English)
 description: "Manage Azure DevOps organizations."
-content_hash: e91b4fc0d5d79e37137a45fbd0ce5b7f287d9814
-last_modified_at: 2023-03-20
+content_hash: 26f45452d3d77addfcc81143b97d2f6d76cc3b23
+last_modified_at: 2023-10-15
+related_topics:
+  - title: español version
+    url: /es/common/az-devops.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># az devops
+# az devops
 
 Manage Azure DevOps organizations.
-Part of `azure-cli`.
-More information: <https://learn.microsoft.com/en-us/cli/azure/devops?view=azure-cli-latest>.
+Part of `azure-cli` (also known as `az`).
+More information: <https://learn.microsoft.com/cli/azure/devops>.
 
 - Set the Personal Access Token (PAT) to login to a particular organization:
 

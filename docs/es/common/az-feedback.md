@@ -2,22 +2,19 @@
 layout: page
 title: common/az-feedback (español)
 description: "Envía comentarios al equipo de Azure CLI."
-content_hash: fe3751a9df0729cede86aad206812e867cd31cd8
-last_modified_at: 2023-10-09
+content_hash: d7dedad9fc0524cd12d7ed5b2a4c1269d8d73f3f
+last_modified_at: 2023-10-15
 related_topics:
   - title: English version
     url: /en/common/az-feedback.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># az feedback
+# az feedback
 
 Envía comentarios al equipo de Azure CLI.
-Parte de `azure-cli`.
+Parte de `azure-cli` (también conocido como `az`).
 Más información: <https://learn.microsoft.com/cli/azure/reference-index#az_feedback>.
 
-- Envia comentarios al equipo de Azure CLI:
+- Envía comentarios al equipo de Azure CLI:
 
 `az feedback`

@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/python (português (Brasil))
-description: "O interpretador de linguagem Python."
-content_hash: 01a1d41b59ca1f305af95b26b107f28aba291896
+description: "Interpretador da linguagem Python."
+content_hash: bdaea74b09948804eae62951c2bcaad198a8cf5a
+last_modified_at: 2023-10-15
 related_topics:
   - title: English version
     url: /en/common/python.html
@@ -28,33 +29,37 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 <hr># python
 
-O interpretador de linguagem Python.
+Interpretador da linguagem Python.
 Mais informações: <https://www.python.org>.
 
 - Inicia o REPL (shell interativo):
 
 `python`
 
-- Executa o script do arquivo Python alvo:
+- Executa um arquivo Python específico:
 
-`python `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">script.py</span>
+`python `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.py</span>
 
-- Executa o script como parte do shell interativo:
+- Executa um arquivo Python específico e inicia um REPL:
 
-`python -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">script.py</span>
+`python -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.py</span>
 
 - Executa uma expressão em Python:
 
 `python -c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expressão</span>`"`
 
-- Roda um módulo de biblioteca como um script (declara o fim da lista de opções):
+- Roda o script do módulo de biblioteca especificado:
 
 `python -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modulo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argumentos</span>
 
-- Instala um pacote usando pip:
+- Instala um pacote usando `pip`:
 
 `python -m pip install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span>
 
 - Depura interativamente um script de Python:
 
-`python -m pdb `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">script.py</span>
+`python -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdb</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.py</span>
+
+- Inicia o servidor HTTP integrado na porta 8000 no diretório atual:
+
+`python -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http.server</span>

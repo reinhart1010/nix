@@ -2,12 +2,17 @@
 layout: page
 title: common/az-vm (English)
 description: "Manage virtual machines in Azure."
-content_hash: d0a4e943333718c14e74159a6a994a666b1f2f84
+content_hash: e014d5df22007723bc83ca15b3e229968830ff43
+last_modified_at: 2023-10-15
+related_topics:
+  - title: español version
+    url: /es/common/az-vm.html
+    icon: bi bi-globe
 ---
 # az vm
 
 Manage virtual machines in Azure.
-Part of `azure-cli`.
+Part of `azure-cli` (also known as `az`).
 More information: <https://learn.microsoft.com/cli/azure/vm>.
 
 - List details of available Virtual Machines:

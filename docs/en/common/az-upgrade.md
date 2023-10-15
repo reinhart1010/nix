@@ -2,13 +2,17 @@
 layout: page
 title: common/az-upgrade (English)
 description: "Upgrade Azure CLI and Extensions."
-content_hash: e701f653e32393d257a80e81ef0f7509828e9df1
-last_modified_at: 2023-10-11
+content_hash: 7e55941049b52cb0612ca3be35fa39e2e6727b19
+last_modified_at: 2023-10-15
+related_topics:
+  - title: español version
+    url: /es/common/az-upgrade.html
+    icon: bi bi-globe
 ---
 # az upgrade
 
 Upgrade Azure CLI and Extensions.
-Part of `az`.
+Part of `azure-cli` (also known as `az`).
 More information: <https://learn.microsoft.com/cli/azure/reference-index?view=azure-cli-latest#az-upgrade>.
 
 - Upgrade Azure CLI:

@@ -2,12 +2,13 @@
 layout: page
 title: common/az-storage-entity (English)
 description: "Manage Azure Table storage entities."
-content_hash: 2bb449bbdf879d696252a07bbeed8427cba4a144
+content_hash: 15fe8e825d22306e658d798459449b6ca80361f0
+last_modified_at: 2023-10-15
 ---
 # az storage entity
 
 Manage Azure Table storage entities.
-Part of `azure-cli`.
+Part of `azure-cli` (also known as `az`).
 More information: <https://learn.microsoft.com/cli/azure/storage/entity>.
 
 - Insert an entity into a table:

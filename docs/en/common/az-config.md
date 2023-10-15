@@ -2,12 +2,20 @@
 layout: page
 title: common/az-config (English)
 description: "Manage Azure CLI configuration."
-content_hash: afff0b867e60e5accbe4e99ab6ebfb6dabd0036d
+content_hash: af2a32717eb465ddb8934f0c4fda0a06f0290d9c
+last_modified_at: 2023-10-15
+related_topics:
+  - title: Deutsch version
+    url: /de/common/az-config.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/az-config.html
+    icon: bi bi-globe
 ---
 # az config
 
 Manage Azure CLI configuration.
-Part of `azure-cli`.
+Part of `azure-cli` (also known as `az`).
 More information: <https://learn.microsoft.com/cli/azure/config>.
 
 - Print all configurations:

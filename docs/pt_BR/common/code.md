@@ -1,14 +1,21 @@
 ---
 layout: page
 title: common/code (português (Brasil))
-description: "Visual Studio Code."
-content_hash: 0de03f17fe1c3c1edc54797a79f9c2e995ae2349
+description: "Editor de código extensível e multi plataforma."
+content_hash: 3181ee996daaa9ae8c88110ef855740559491131
+last_modified_at: 2023-10-15
 related_topics:
   - title: Deutsch version
     url: /de/common/code.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/code.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/code.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/code.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/code.html
@@ -23,31 +30,48 @@ related_topics:
     url: /zh_TW/common/code.html
     icon: bi bi-globe
 ---
-# code
 
-Visual Studio Code.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/code.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># code
+
+Editor de código extensível e multi plataforma.
 Mais informações: <https://github.com/microsoft/vscode>.
 
-- Abrir o VS Code:
+- Inicia Visual Studio Code:
 
 `code`
 
-- Abrir o diretório atual no VS Code:
+- Abre arquivos/diretórios específicos:
 
-`code .`
+`code `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_ou_diretório1 caminho/para/arquivo_ou_diretório2 ...</span>
 
-- Abrir um arquivo ou diretório no VS Code:
+- Compara dois arquivos específicos:
 
-`code `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo-ou-diretório</span>
+`code --diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo2</span>
 
-- Abrir um arquivo ou diretório numa janela já aberta do VS Code:
+- Abre arquivos/diretórios específicos em uma nova janela:
 
-`code --reuse-window `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo-ou-diretório</span>
+`code --new-window `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_ou_diretório1 caminho/para/arquivo_ou_diretório2 ...</span>
 
-- Comparar o conteúdo de dois arquivos no VS Code:
+- Instala/desinstala uma extensão específica:
 
-`code -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo2</span>
+`code --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">install|uninstall</span>`-extension `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">editor.extensão</span>
 
-- Iniciar o VS Code com permissão de super usuário (sudo):
+- Imprime as extensões instaladas:
 
-`sudo code `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>` --user-data-dir`
+`code --list-extensions`
+
+- Imprime extensões instaladas com suas versões:
+
+`code --list-extensions --show-versions`
+
+- Inicia o editor como um superusuário (root) enquanto armazena dados do usuário em um diretório específico:
+
+`sudo code --user-data-dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span>

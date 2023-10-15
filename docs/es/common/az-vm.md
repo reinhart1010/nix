@@ -2,19 +2,17 @@
 layout: page
 title: common/az-vm (español)
 description: "Administra máquinas virtuales en Azure."
-content_hash: d2f11e9d988481e22251f5257c02e338d1c93661
+content_hash: 7ef227978aa730e6df6def8738760c11cd8772a9
+last_modified_at: 2023-10-15
 related_topics:
   - title: English version
     url: /en/common/az-vm.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># az vm
+# az vm
 
 Administra máquinas virtuales en Azure.
-Parte de `azure-cli`.
+Parte de `azure-cli` (también conocido como `az`).
 Más información: <https://learn.microsoft.com/cli/azure/vm>.
 
 - Lista los detalles de las máquinas virtuales disponibles:

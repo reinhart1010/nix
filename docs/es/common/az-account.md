@@ -2,20 +2,17 @@
 layout: page
 title: common/az-account (español)
 description: "Administra la información de una suscripción de Azure."
-content_hash: 9206a002151613b0a5cc00e9f0ec42ba420747ab
-last_modified_at: 2023-10-09
+content_hash: b08f57501a1e513424d142f448df717db7ae2d8c
+last_modified_at: 2023-10-15
 related_topics:
   - title: English version
     url: /en/common/az-account.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># az account
+# az account
 
 Administra la información de una suscripción de Azure.
-Parte de `az`, el cliente de línea de comandos para Microsoft Azure.
+Parte de `azure-cli` (también conocido como `az`).
 Más información: <https://learn.microsoft.com/cli/azure/account>.
 
 - Lista las suscripciones de la cuenta activa:

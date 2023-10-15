@@ -2,20 +2,17 @@
 layout: page
 title: common/az-tag (español)
 description: "Administra etiquetas en un recurso de Azure."
-content_hash: 64976e2ca3a07e363a89b8c80b9781923ac67ac3
-last_modified_at: 2023-10-14
+content_hash: 14d02c7dd6c4e1e82597e5a90e3b1d613c6bbad5
+last_modified_at: 2023-10-15
 related_topics:
   - title: English version
     url: /en/common/az-tag.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># az tag
+# az tag
 
 Administra etiquetas en un recurso de Azure.
-Parte de `azure-cli`.
+Parte de `azure-cli` (también conocido como `az`).
 Más información: <https://learn.microsoft.com/cli/azure/tag>.
 
 - Crea un valor de etiqueta:

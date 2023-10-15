@@ -2,12 +2,13 @@
 layout: page
 title: common/az-term (English)
 description: "Manage marketplace agreement with marketplaceordering."
-content_hash: 2e7e37ab52e3eb5bd387fab4a4e2455cf4b62521
+content_hash: 8c136376e663652fa342b0279db2a63a706636c3
+last_modified_at: 2023-10-15
 ---
 # az term
 
 Manage marketplace agreement with marketplaceordering.
-Part of `azure-cli`.
+Part of `azure-cli` (also known as `az`).
 More information: <https://learn.microsoft.com/cli/azure/term>.
 
 - Print marketplace terms:

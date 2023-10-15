@@ -2,13 +2,18 @@
 layout: page
 title: common/az-group (English)
 description: "Manage resource groups and template deployments."
-content_hash: 03668c75d7592e06e9d2c3085460ba47a2590755
+content_hash: 6328563a37a90393efa2b66add49d8017e470413
+last_modified_at: 2023-10-15
+related_topics:
+  - title: español version
+    url: /es/common/az-group.html
+    icon: bi bi-globe
 ---
 # az group
 
 Manage resource groups and template deployments.
-Part of `azure-cli`.
-More information: <https://docs.microsoft.com/cli/azure/group>.
+Part of `azure-cli` (also known as `az`).
+More information: <https://learn.microsoft.com/cli/azure/group>.
 
 - Create a new resource group:
 

@@ -2,12 +2,17 @@
 layout: page
 title: common/az-bicep (English)
 description: "Bicep CLI command group."
-content_hash: 6eb5e81afafe78a46de2070d5b23444bffcfe1dd
+content_hash: 0cfb617432f18139d12b67b9a1ec7a66247c8526
+last_modified_at: 2023-10-15
+related_topics:
+  - title: español version
+    url: /es/common/az-bicep.html
+    icon: bi bi-globe
 ---
 # az bicep
 
 Bicep CLI command group.
-Part of `azure-cli`.
+Part of `azure-cli` (also known as `az`).
 More information: <https://learn.microsoft.com/cli/azure/bicep>.
 
 - Install Bicep CLI:

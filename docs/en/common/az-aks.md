@@ -2,17 +2,14 @@
 layout: page
 title: common/az-aks (English)
 description: "Manage Azure Kubernetes Service (AKS) clusters."
-content_hash: 7318ad6ed5d5e1d6134c140d5252b1525d4f640c
-last_modified_at: 2023-10-14
+content_hash: c2cc120edca7ec233a951d74e5cb700dab4ceac0
+last_modified_at: 2023-10-15
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># az aks
+# az aks
 
 Manage Azure Kubernetes Service (AKS) clusters.
-Part of `azure-cli`.
-More information: <https://docs.microsoft.com/cli/azure/aks>.
+Part of `azure-cli` (also known as `az`).
+More information: <https://learn.microsoft.com/cli/azure/aks>.
 
 - List AKS clusters:
 

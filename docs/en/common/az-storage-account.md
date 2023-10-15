@@ -2,12 +2,13 @@
 layout: page
 title: common/az-storage-account (English)
 description: "Manage storage accounts in Azure."
-content_hash: c9e6324628d8a5c37901d3e1bf359912f8d276c4
+content_hash: d5e599609d4e921116aa37fc464b3ba2296d8006
+last_modified_at: 2023-10-15
 ---
 # az storage account
 
 Manage storage accounts in Azure.
-Part of `azure-cli`.
+Part of `azure-cli` (also known as `az`).
 More information: <https://learn.microsoft.com/cli/azure/storage/account>.
 
 - Create an storage account:

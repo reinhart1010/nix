@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/pip3 (português (Brasil))
-description: "Gerenciador de pacotes para Python."
-content_hash: 114a8886f76874389fe5eb25f655bb83c38dad01
+description: "Gerenciador de pacotes Python."
+content_hash: 919415618d02413402dbf6ca57b6dbcd0bee3b82
+last_modified_at: 2023-10-15
 related_topics:
   - title: English version
     url: /en/common/pip3.html
@@ -14,14 +15,19 @@ related_topics:
     url: /id/common/pip3.html
     icon: bi bi-globe
 ---
-# pip3
 
-Gerenciador de pacotes para Python.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/pip3.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># pip3
+
+Gerenciador de pacotes Python.
 Mais informações: <https://pip.pypa.io>.
-
-- Encontra pacotes disponíveis:
-
-`pip3 search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_pacote</span>
 
 - Instala um pacote:
 
@@ -29,7 +35,7 @@ Mais informações: <https://pip.pypa.io>.
 
 - Instala uma versão específica de um pacote:
 
-`pip3 install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_pacote</span>`==`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versao_pacote</span>
+`pip3 install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_pacote</span>`==`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versão_pacote</span>
 
 - Atualiza um pacote:
 

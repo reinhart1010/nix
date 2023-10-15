@@ -2,17 +2,18 @@
 layout: page
 title: common/az-apim (English)
 description: "Manage Azure API Management services."
-content_hash: 1b438b323ced3b62a5df5d237c59f5202ae9f89f
-last_modified_at: 2023-10-11
+content_hash: 8981ae06e3fbe8edf8dfede7a9b97bb13fce3290
+last_modified_at: 2023-10-15
+related_topics:
+  - title: español version
+    url: /es/common/az-apim.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># az apim
+# az apim
 
 Manage Azure API Management services.
-Part of `az`.
-More information: <https://docs.microsoft.com/cli/azure/apim>.
+Part of `azure-cli` (also known as `az`).
+More information: <https://learn.microsoft.com/cli/azure/apim>.
 
 - List API Management services within a resource group:
 

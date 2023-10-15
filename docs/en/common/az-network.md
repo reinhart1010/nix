@@ -2,12 +2,13 @@
 layout: page
 title: common/az-network (English)
 description: "Manage Azure Network resources."
-content_hash: 85e8dd4b58fe23f77853bdcf07ecb88932e8db6e
+content_hash: ab67d5a938f6c619dde394719409d93db0bceb7d
+last_modified_at: 2023-10-15
 ---
 # az network
 
 Manage Azure Network resources.
-Part of `azure-cli`.
+Part of `azure-cli` (also known as `az`).
 More information: <https://learn.microsoft.com/cli/azure/network>.
 
 - List network resources in a region that are used against a subscription quota:

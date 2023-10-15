@@ -2,17 +2,14 @@
 layout: page
 title: common/az-repos (English)
 description: "Manage Azure DevOps repos."
-content_hash: 8c4b253799730958d2d85949112186f17250c85b
-last_modified_at: 2023-03-20
+content_hash: 34e6794f245e6acc4d302cc0e999bc8bd3fb36c9
+last_modified_at: 2023-10-15
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># az repos
+# az repos
 
 Manage Azure DevOps repos.
-Part of `azure-cli`.
-More information: <https://learn.microsoft.com/en-us/cli/azure/repos?view=azure-cli-latest>.
+Part of `azure-cli` (also known as `az`).
+More information: <https://learn.microsoft.com/cli/azure/repos>.
 
 - List all repos in a specific project:
 

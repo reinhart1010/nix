@@ -2,7 +2,8 @@
 layout: page
 title: common/docker-build (português (Brasil))
 description: "Cria uma imagem a partir de um Dockerfile."
-content_hash: 2ac7f80b11127e19e137b8fdceb094026b120cbb
+content_hash: 51b10d50c0efaeb7ff37e73c4fe1dd63adb6120a
+last_modified_at: 2023-10-15
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-build.html
@@ -13,8 +14,17 @@ related_topics:
   - title: français version
     url: /fr/common/docker-build.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/docker-build.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/docker-build.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/docker-build.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/docker-build.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/docker-build.html
@@ -37,21 +47,25 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 Cria uma imagem a partir de um Dockerfile.
 Mais informações: <https://docs.docker.com/engine/reference/commandline/build/>.
 
-- Cria uma imagem docker usando o Dockerfile presente no diretório atual:
+- Cria uma imagem docker usando o Dockerfile no diretório atual:
 
 `docker build .`
 
-- Cria uma imagem docker usando o Dockerfile de uma URL específica:
+- Cria uma imagem docker a partir de um Dockerfile em uma URL específica:
 
 `docker build `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">github.com/creack/docker-firefox</span>
 
-- Cria uma imagem docker e cria uma tag para ela:
+- Cria uma imagem docker e cria uma etiqueta para ela:
 
-`docker build --tag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome:tag</span>` .`
+`docker build --tag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome:etiqueta</span>` .`
+
+- Cria uma imagem docker sem contexto de criação:
+
+`docker build --tag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome:etiqueta</span>` - < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Dockerfile</span>
 
 - Não usa o cache na criação da imagem:
 
-`docker build --no-cache --tag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome:tag</span>` .`
+`docker build --no-cache --tag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome:etiqueta</span>` .`
 
 - Cria uma imagem docker usando um Dockerfile específico:
 

@@ -2,13 +2,14 @@
 layout: page
 title: common/az-redis (English)
 description: "Manage Redis caches."
-content_hash: e50fd43c483640c8d5240db61a558df80d02c0cb
+content_hash: dc74a6d871588bfefa6334eaa4716f3e0ee4224e
+last_modified_at: 2023-10-15
 ---
 # az redis
 
 Manage Redis caches.
-Part of `azure-cli`.
-More information: <https://docs.microsoft.com/cli/azure/redis>.
+Part of `azure-cli` (also known as `az`).
+More information: <https://learn.microsoft.com/cli/azure/redis>.
 
 - Create a new Redis cache instance:
 

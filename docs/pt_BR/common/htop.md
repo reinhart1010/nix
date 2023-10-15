@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/htop (português (Brasil))
-description: "Visualizar informação dinâmica em tempo real acerca de processos em execução. Uma versão melhorada do comando `top`."
-content_hash: 577333bf3c2add74a28eedfc86dc94d5e5488fdc
+description: "Exibe informação dinâmica em tempo real acerca de processos em execução. Uma versão melhorada do comando `top`."
+content_hash: 8ac15c194312534da3500761cf30a4af05c8f8aa
+last_modified_at: 2023-10-15
 related_topics:
   - title: English version
     url: /en/common/htop.html
@@ -12,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/htop.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/htop.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/htop.html
@@ -28,20 +32,20 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 <hr># htop
 
-Visualizar informação dinâmica em tempo real acerca de processos em execução. Uma versão melhorada do comando `top`.
+Exibe informação dinâmica em tempo real acerca de processos em execução. Uma versão melhorada do comando `top`.
 Mais informações: <https://htop.dev/>.
 
-- Inicializa htop:
+- Inicializa `htop`:
 
 `htop`
 
-- Inicializa htop mostrando somente processos pertencentes a um usuário:
+- Inicializa `htop` mostrando somente processos pertencentes a um usuário:
 
 `htop --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_usuário</span>
 
-- Ordena processos por um `item_de_ordenacao` (utilize `htop --sort help` para ver as opçōes disponíveis):
+- Ordena processos por um `item_de_ordenação` (utilize `htop --sort help` para ver as opções disponíveis):
 
-`htop --sort `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">item_de_ordenacao</span>
+`htop --sort `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">item_de_ordenação</span>
 
 - Vê comandos interativos enquanto roda `htop`:
 

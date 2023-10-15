@@ -2,8 +2,8 @@
 layout: page
 title: common/az-logout (español)
 description: "Cierra la sesión de una suscripción de Azure."
-content_hash: de0d2016265246558412ecc7bcb565f48a6fd004
-last_modified_at: 2022-12-29
+content_hash: 03521a73debcc65205c3b72ae91a0316bbce2010
+last_modified_at: 2023-10-15
 related_topics:
   - title: Deutsch version
     url: /de/common/az-logout.html
@@ -15,7 +15,7 @@ related_topics:
 # az logout
 
 Cierra la sesión de una suscripción de Azure.
-Parte de `azure-cli`.
+Parte de `azure-cli` (también conocido como `az`).
 Más información: <https://learn.microsoft.com/cli/azure/reference-index#az_logout>.
 
 - Cierra la sesión de la cuenta activa:

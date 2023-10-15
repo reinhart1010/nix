@@ -1,15 +1,18 @@
 ---
 layout: page
 title: common/java (português (Brasil))
-description: "Inicializador de Programas Java."
-content_hash: 4f916fcf2884bdd0ac878d8d912ab39ad2858809
-last_modified_at: 2023-06-04
+description: "Inicializador de programas Java."
+content_hash: 39d4b2fee905a5b94b99bae41515ff31bff8caab
+last_modified_at: 2023-10-15
 related_topics:
   - title: English version
     url: /en/common/java.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/java.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/java.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/java.html
@@ -32,22 +35,26 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 <hr># java
 
-Inicializador de Programas Java.
+Inicializador de programas Java.
 Mais informações: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/java.html>.
 
 - Executa um arquivo Java `.class` que contém um método main, usando o nome da classe:
 
 `java `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_classe</span>
 
+- Executa um programa Java e usa classes adicionais de terceiros ou definidas pelo usuário:
+
+`java -classpath `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/classes1</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/classes2</span>`:. `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_classe</span>
+
 - Executa um programa `.jar`:
 
-`java -jar `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.jar</span>
+`java -jar `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_arquivo.jar</span>
 
-- Executa um programa `.jar`, com o debugger tentando conectar-se na porta 5005:
+- Executa um programa `.jar` com o debugger aguardando conexão na porta 5005:
 
-`java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.jar</span>
+`java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=*:5005 -jar `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_arquivo.jar</span>
 
-- Exiba a versão do JDK, JRE e Hotspot:
+- Exiba a versão do JDK, JRE e HotSpot:
 
 `java -version`
 

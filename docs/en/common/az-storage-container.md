@@ -2,12 +2,13 @@
 layout: page
 title: common/az-storage-container (English)
 description: "Manage blob storage containers in Azure."
-content_hash: 8175a26b4ec14894e23cd7af05c502794e8ac31d
+content_hash: 8d8c480e40f7d697fbb05bdaa88da3a0566d7a84
+last_modified_at: 2023-10-15
 ---
 # az storage container
 
 Manage blob storage containers in Azure.
-Part of `azure-cli`.
+Part of `azure-cli` (also known as `az`).
 More information: <https://learn.microsoft.com/cli/azure/storage/container>.
 
 - Create a container in a storage account:

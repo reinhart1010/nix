@@ -2,12 +2,17 @@
 layout: page
 title: common/az-tag (English)
 description: "Manage tags on a resource."
-content_hash: 0c507fe9bf9ac1bc58ebfef21a6053f9c3177214
+content_hash: 1c9c94f6c8040a678763f3177e622f835b5be112
+last_modified_at: 2023-10-15
+related_topics:
+  - title: español version
+    url: /es/common/az-tag.html
+    icon: bi bi-globe
 ---
 # az tag
 
 Manage tags on a resource.
-Part of `azure-cli`.
+Part of `azure-cli` (also known as `az`).
 More information: <https://learn.microsoft.com/cli/azure/tag>.
 
 - Create a tag value:

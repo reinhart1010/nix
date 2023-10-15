@@ -2,13 +2,17 @@
 layout: page
 title: common/echo (português (Brasil))
 description: "Imprime os argumentos passados."
-content_hash: 2362d8d719f0258a44b5056012abf906a48b38d7
+content_hash: acef38857314b7a217f3272babf73c5b521a0230
+last_modified_at: 2023-10-15
 related_topics:
   - title: Deutsch version
     url: /de/common/echo.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/echo.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/echo.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/echo.html
@@ -25,6 +29,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/echo.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/echo.html
+    icon: bi bi-globe
   - title: српски version
     url: /sr/common/echo.html
     icon: bi bi-globe
@@ -35,27 +42,40 @@ related_topics:
     url: /zh_TW/common/echo.html
     icon: bi bi-globe
 ---
-# echo
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/echo.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># echo
 
 Imprime os argumentos passados.
 Mais informações: <https://www.gnu.org/software/coreutils/echo>.
 
-- Imrpime uma mensagem de texto. Nota: aspas são opcionais:
+- Imprime uma mensagem de texto. Nota: aspas são opcionais:
 
-`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Uma mensagem</span>`"`
+`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Olá Mundo</span>`"`
 
-- Imprime uma mensagem com as variáveis de ambiente:
+- Imprime uma mensagem com variáveis de ambiente:
 
-`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Meu path é $PATH</span>`"`
+`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Meu caminho é $PATH</span>`"`
 
-- Imprime uma mensagem sem adicionar uma nova linha em seguida:
+- Imprime uma mensagem sem adicionar uma nova linha no final:
 
-`echo -n "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Uma mensagem</span>`"`
+`echo -n "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Olá Mundo</span>`"`
 
-- Adiciona uma messagem no arquivo:
+- Adiciona uma mensagem no arquivo:
 
-`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Uma mensagem</span>`" >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.txt</span>
+`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Olá Mundo</span>`" >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.txt</span>
 
-- Habilita interpretação dos códigos de escape após barra invetida (caracteres especiais):
+- Habilita interpretação dos códigos de escape após barra invertida (caracteres especiais):
 
 `echo -e "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Coluna 1\tColuna 2</span>`"`
+
+- Imprime o status de saída do último comando executado (Nota: no prompt de comando do Windows e no PowerShell, os comandos equivalentes são `echo %errorlevel%` e `$lastexitcode` respectivamente):
+
+`echo $?`

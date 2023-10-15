@@ -1,14 +1,18 @@
 ---
 layout: page
 title: common/man (português (Brasil))
-description: "Utilitário para exibir páginas do manual."
-content_hash: 8f1af17c606716d80dc746051f2353648327b8af
+description: "Formata e exibe páginas de manual."
+content_hash: b69f083448203dcd9276379386f6314d7b8f640d
+last_modified_at: 2023-10-15
 related_topics:
   - title: English version
     url: /en/common/man.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/man.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/man.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/man.html
@@ -25,25 +29,33 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 <hr># man
 
-Utilitário para exibir páginas do manual.
+Formata e exibe páginas de manual.
 Mais informações: <https://www.man7.org/linux/man-pages/man1/man.1.html>.
 
-- Visualizar o manual de um comando:
+- Exibe a página de manual de um comando:
 
 `man `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>
 
-- Visualizar a página da seção 7 do manual de um comando:
+- Exibe a página de manual de um comando da seção 7:
 
 `man `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>
 
-- Visualizar o caminho procurado pelas páginas do manual:
+- Lista todas as seções disponíveis para um comando:
+
+`man -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>
+
+- Exibe o caminho procurado pelas páginas de manual:
 
 `man --path`
 
-- Visualizar o caminho do manual de um comando:
+- Exibe a localização de uma página de manual em vez da própria página de manual:
 
 `man -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>
 
-- Procurar manuais contendo um termo de pesquisa:
+- Exibe a página de manual usando uma localidade específica:
+
+`man `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>` --locale=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">localidade</span>
+
+- Procura páginas de manual contendo um termo de pesquisa:
 
 `man -k "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">termo_de_pesquisa</span>`"`

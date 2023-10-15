@@ -2,12 +2,13 @@
 layout: page
 title: common/az-pipelines (English)
 description: "Manage Azure Pipelines resources."
-content_hash: b8cb3aab100403b71261ba5c13806c7bb6eb365c
+content_hash: 7e42f744d25982470c3d0d440e4116c095738cd8
+last_modified_at: 2023-10-15
 ---
 # az pipelines
 
 Manage Azure Pipelines resources.
-Part of `azure-cli`.
+Part of `azure-cli` (also known as `az`).
 More information: <https://learn.microsoft.com/cli/azure/pipelines>.
 
 - Create a new Azure Pipeline (YAML based):

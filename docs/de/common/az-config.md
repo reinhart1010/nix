@@ -2,19 +2,20 @@
 layout: page
 title: common/az-config (Deutsch)
 description: "Verwalten der Azure CLI-Konfiguration."
-content_hash: 8b6894c7c676f12b6a3a7ddc30a82caf32e9d4ac
+content_hash: 735120d2cb3f3f2854339550e5b78f78a19ff271
+last_modified_at: 2023-10-15
 related_topics:
   - title: English version
     url: /en/common/az-config.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/az-config.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># az config
+# az config
 
 Verwalten der Azure CLI-Konfiguration.
-Teil von `azure-cli`.
+Teil von `azure-cli` (auch bekannt als `az`).
 Weitere Informationen: <https://learn.microsoft.com/cli/azure/config>.
 
 - Rufe alle Konfigurationen ab:

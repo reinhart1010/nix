@@ -2,8 +2,8 @@
 layout: page
 title: common/bash (português (Brasil))
 description: "Bourne-Again SHell, um interpretador de linha de comando compatível com `sh`."
-content_hash: 6167998eda460212de8fe93a7161135108dbc85f
-last_modified_at: 2023-07-03
+content_hash: 42925e4863cf215371241de2145fd0648e535694
+last_modified_at: 2023-10-15
 related_topics:
   - title: Deutsch version
     url: /de/common/bash.html
@@ -45,33 +45,37 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># bash
 
 Bourne-Again SHell, um interpretador de linha de comando compatível com `sh`.
-Veja também `histexpand` para a expansão do histórico.
+Veja também: `zsh`, `histexpand` (expansão do histórico).
 Mais informações: <https://gnu.org/software/bash/>.
 
-- Iniciar uma seção interativa do shell:
+- Inicia uma sessão interativa do shell:
 
 `bash`
 
-- Executar um comando e sair:
+- Inicia uma sessão interativa do shell sem carregar as configurações de inicialização:
 
-`bash -c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>`"`
+`bash --norc`
 
-- Executar um script:
+- Executa [c]omandos específicos:
+
+`bash -c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 'bash é executado'</span>`"`
+
+- Executa um script específico:
 
 `bash `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/script.sh</span>
 
-- Executar um script, exibindo cada comando antes de executá-lo:
+- Executa um script específico exibindo cada comando antes de executá-lo:
 
 `bash -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/script.sh</span>
 
-- Executar os comandos de um script, parando de executar no primeiro erro:
+- Executa um script específico e para no primeiro [e]rro:
 
 `bash -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/script.sh</span>
 
-- Ler e executar comandos do `stdin` (entrada padrão):
+- Executa comandos específicos da `stdin`:
 
-`bash -s`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "echo 'bash é executado'"</span>` | bash`
 
-- Exibir a versão do Bash (`$BASH_VERSION` abrange apenas a versão sem informações da licença):
+- Inicia uma sessão do shell [r]estrita:
 
-`bash --version`
+`bash -r`

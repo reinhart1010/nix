@@ -2,7 +2,8 @@
 layout: page
 title: common/zsh (português (Brasil))
 description: "Z SHell, um interpretador de linha de comando compatível com o Bash."
-content_hash: e30698470e64dd04b48f9b6b0fd866a739404ac3
+content_hash: 5535312339139346662af513009489e59e909f15
+last_modified_at: 2023-10-15
 related_topics:
   - title: Deutsch version
     url: /de/common/zsh.html
@@ -19,32 +20,56 @@ related_topics:
   - title: italiano version
     url: /it/common/zsh.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/zsh.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/zsh.html
     icon: bi bi-globe
 ---
-# zsh
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/zsh.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># zsh
 
 Z SHell, um interpretador de linha de comando compatível com o Bash.
-Veja também `histexpand` para um histórico expandido.
+Veja também `bash`, `histexpand`.
 Mais informações: <https://www.zsh.org>.
 
 - Inicie uma sessão shell interativa:
 
 `zsh`
 
-- Execute um comando e depois saia da shell:
+- Execute [c]omandos específicos:
 
-`zsh -c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>`"`
+`zsh -c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Olá Mundo</span>`"`
 
-- Execute um script:
+- Execute um script específico:
 
 `zsh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/script.zsh</span>
 
-- Execute um script, imprimindo cada comando antes de executá-lo:
+- Verifica um script específico por erros de sintaxe sem executá-lo:
+
+`zsh --no-exec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/script.zsh</span>
+
+- Executa comandos específicos da `stdin`:
+
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Olá Mundo</span>` | zsh`
+
+- Execute um script específico, imprimindo cada comando do script antes de executá-lo:
 
 `zsh --xtrace `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/script.zsh</span>
 
 - Inicie uma sessão shell interativa no modo verboso, imprimindo cada comando antes de executá-lo:
 
 `zsh --verbose`
+
+- Executa um comando específico dentro do `zsh` com padrões glob desativados:
+
+`noglob `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>

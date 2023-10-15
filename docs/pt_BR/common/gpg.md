@@ -2,8 +2,8 @@
 layout: page
 title: common/gpg (português (Brasil))
 description: "GNU Privacy Guard."
-content_hash: 3ba84e0ada7d35a7be8807c82459877d73f061ab
-last_modified_at: 2023-07-03
+content_hash: 8cfeab9f9c529a09e480cf470dad7e3311ecd4a7
+last_modified_at: 2023-10-15
 related_topics:
   - title: Deutsch version
     url: /de/common/gpg.html
@@ -27,21 +27,26 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># gpg
 
 GNU Privacy Guard.
+Veja `gpg2` para o GNU Privacy Guard 2. A maioria dos sistemas operacionais criam link simbólico entre `gpg` e `gpg2`.
 Mais informações: <https://gnupg.org>.
 
-- Assina doc.txt, sem criptografá-lo (cria um arquivo de saída doc.txt.asc):
+- Cria uma chave GPG pública e privada interativamente:
+
+`gpg --full-generate-key`
+
+- Assina doc.txt sem criptografia (cria um arquivo de saída `doc.txt.asc`):
 
 `gpg --clearsign `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doc.txt</span>
 
-- Criptografa doc.txt para alice@example.com (cria um arquivo de saída `doc.txt.gpg`):
+- Criptografa e assina `doc.txt` para alice@example.com e bob@example.com (cria um arquivo de saída `doc.txt.gpg`):
 
-`gpg --encrypt --recipient `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice@example.com</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doc.txt</span>
+`gpg --encrypt --sign --recipient `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alice@example.com</span>` --recipient `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bob@example.com</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doc.txt</span>
 
-- Criptografa doc.txt apenas com uma senha simétrica (cria um arquivo de sadída `doc.txt.gpg`):
+- Criptografa `doc.txt` apenas com uma senha simétrica (cria um arquivo de saída `doc.txt.gpg`):
 
 `gpg --symmetric `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doc.txt</span>
 
-- Descriptografa doc.txt.gpg (envia saída para `stdout`):
+- Descriptografa `doc.txt.gpg` (envia saída para `stdout`):
 
 `gpg --decrypt `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">doc.txt.gpg</span>
 
