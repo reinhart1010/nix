@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/docker-build (Indonesia)
-description: "Membangun sebuah image dari Dockerfile."
-content_hash: fa638d6c81fa599270601299c280c6219129300d
-last_modified_at: 2023-10-05
+description: "Bangun sebuah image dari Dockerfile."
+content_hash: 275a94a5e787e3c67e132849a0c7381f597f5f5e
+last_modified_at: 2023-10-15
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-build.html
@@ -33,12 +33,9 @@ related_topics:
     url: /zh/common/docker-build.html
     icon: bi bi-globe
 ---
+# docker build
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docker build
-
-Membangun sebuah image dari Dockerfile.
+Bangun sebuah image dari Dockerfile.
 Informasi lebih lanjut: https://docs.docker.com/engine/reference/commandline/build/.
 
 - Bangun sebuah image docker meggunakan Dockerfile dalam direktori saat ini:
