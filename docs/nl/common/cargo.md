@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/cargo (Nederlands)
-description: "Rust pakketbeheerder."
-content_hash: fd24ef7d811e0ee273cb3163af6b66c629e78955
-last_modified_at: 2023-05-16
+description: "Beheer Rust projecten en hun afhankelijkheden (crates)."
+content_hash: 25888b6f214a0350c7ccc1b378b1e43c68ec833e
+last_modified_at: 2023-10-17
 related_topics:
   - title: Deutsch version
     url: /de/common/cargo.html
@@ -41,8 +41,8 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 <hr># cargo
 
-Rust pakketbeheerder.
 Beheer Rust projecten en hun afhankelijkheden (crates).
+Sommige subcommando's zoals `build` hebben hun eigen documentatie.
 Meer informatie: <https://doc.rust-lang.org/cargo>.
 
 - Zoek naar crates:
@@ -57,17 +57,21 @@ Meer informatie: <https://doc.rust-lang.org/cargo>.
 
 `cargo install --list`
 
-- Maak een nieuwe Rust-binary (bin) of -bibliotheek (lib) in de huidige map:
+- Maak een nieuwe Rust-binary (bin) of -bibliotheek (lib) in de gegeven map. (Standaard is de huidige map):
 
-`cargo init --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bin|lib</span>
+`cargo init --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bin|lib</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/map</span>
 
-- Maak een nieuwe Rust-binary (bin) of -bibliotheek (lib) in de gegeven map:
+- Voeg een afhankelijkheid toe aan `Cargo.toml` in de huidge map:
 
-`cargo new `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/map</span>` --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bin|lib</span>
+`cargo add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">afhankelijkheid</span>
 
-- Bouw het Rust-project in de huidige map:
+- Bouw het Rust-project in de huidige map door gebruik te maken van het release-profiel:
 
-`cargo build`
+`cargo build --release`
+
+- Bouw het Rust-project in de huidige map door gebruik te maken van de nachtelijkse compiler (vereist `rustup`):
+
+`cargo +nightly build`
 
 - Bouw met een gegeven aantal taken. (Standaard is het aantal CPU-kernen):
 
