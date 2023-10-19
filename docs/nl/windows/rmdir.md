@@ -1,8 +1,9 @@
 ---
 layout: page
 title: windows/rmdir (Nederlands)
-description: "Verwijdert een directory en zijn inhoud."
-content_hash: 6b046930570ccf64eba54729ddf43e441f43918f
+description: "Verwijdert een map en zijn inhoud."
+content_hash: 8c3f7b38e05202fb02dde616047881293e2d4836
+last_modified_at: 2023-10-19
 related_topics:
   - title: English version
     url: /en/windows/rmdir.html
@@ -19,17 +20,17 @@ related_topics:
 ---
 # rmdir
 
-Verwijdert een directory en zijn inhoud.
+Verwijdert een map en zijn inhoud.
 Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/rmdir>.
 
-- Verwijder een lege directory:
+- Verwijder een lege map:
 
-`rmdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/directory</span>
+`rmdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/map</span>
 
-- Verwijder een directory en zen inhoud recursief:
+- Verwijder een map en zen inhoud recursief:
 
-`rmdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/directory</span>` /s`
+`rmdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/map</span>` /s`
 
-- Verwijder een directory en zen inhoud recursief zonder te vragen:
+- Verwijder een map en zen inhoud recursief zonder te vragen:
 
-`rmdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/directory</span>` /s /q`
+`rmdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/map</span>` /s /q`

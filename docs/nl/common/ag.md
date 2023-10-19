@@ -2,8 +2,8 @@
 layout: page
 title: common/ag (Nederlands)
 description: "The Silver Searcher. Zoals ack, maar wil sneller zijn."
-content_hash: caa3ef4ef079420f43f32925b52076e0b1649306
-last_modified_at: 2023-06-08
+content_hash: 6fea5347c281dd34f375e874ce6ffc8c041de381
+last_modified_at: 2023-10-19
 related_topics:
   - title: English version
     url: /en/common/ag.html
@@ -36,10 +36,7 @@ related_topics:
     url: /zh/common/ag.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ag
+# ag
 
 The Silver Searcher. Zoals ack, maar wil sneller zijn.
 Meer informatie: <https://github.com/ggreer/the_silver_searcher>.
@@ -50,7 +47,7 @@ Meer informatie: <https://github.com/ggreer/the_silver_searcher>.
 
 - Vind bestanden die "foo" bevatten in een specifieke map:
 
-`ag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/directory</span>
+`ag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/map</span>
 
 - Vind bestanden die "foo" bevatten, maar vermeld alleen de bestandsnamen:
 

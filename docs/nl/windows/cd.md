@@ -2,8 +2,8 @@
 layout: page
 title: windows/cd (Nederlands)
 description: "Geeft de naam van de huidige werkmap weer of wijzigt deze."
-content_hash: 5b3c98d1d28ea86c0a0a279e176e08c4d92e9dbb
-last_modified_at: 2023-10-16
+content_hash: cc7e45871763a8b2e62b65eef5904b6ecc124a61
+last_modified_at: 2023-10-19
 related_topics:
   - title: বাংলা version
     url: /bn/windows/cd.html
@@ -39,21 +39,12 @@ related_topics:
     url: /ta/windows/cd.html
     icon: bi bi-globe
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/cd.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cd
+# cd
 
 Geeft de naam van de huidige werkmap weer of wijzigt deze.
 Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
-- Geef de naam van de huidige directory weer:
+- Geef de naam van de huidige map weer:
 
 `cd`
 
@@ -61,14 +52,14 @@ Meer informatie: <https://learn.microsoft.com/windows-server/administration/wind
 
 `cd \`
 
-- Ga naar de ouder van de huidige directory:
+- Ga naar de ouder van de huidige map:
 
 `cd ..`
 
-- Ga naar een directory in dezelfde drive:
+- Ga naar een map in dezelfde drive:
 
-`cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\directory</span>
+`cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\map</span>
 
-- Ga naar een directory in een andere drive:
+- Ga naar een map in een andere drive:
 
-`cd /d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C}:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\directory</span>
+`cd /d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C}:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\map</span>

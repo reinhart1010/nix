@@ -2,8 +2,8 @@
 layout: page
 title: common/chmod (Nederlands)
 description: "Verander de toegangstoestemmingen van een bestand of map."
-content_hash: fc65f49504cbf3481521ccdbc5b486006981ed36
-last_modified_at: 2023-10-17
+content_hash: dbf88e74c4191c8de681dd9e27e0f13d7e20b63c
+last_modified_at: 2023-10-19
 related_topics:
   - title: Deutsch version
     url: /de/common/chmod.html
@@ -48,16 +48,7 @@ related_topics:
     url: /zh_TW/common/chmod.html
     icon: bi bi-globe
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/chmod.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># chmod
+# chmod
 
 Verander de toegangstoestemmingen van een bestand of map.
 Meer informatie: <https://www.gnu.org/software/coreutils/chmod>.
@@ -68,7 +59,7 @@ Meer informatie: <https://www.gnu.org/software/coreutils/chmod>.
 
 - Geef de gebruiker ([u]ser) het recht om een bestand of map te lezen ([r]ead) en schrijven ([w]rite):
 
-`chmod u+rw `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_directory</span>
+`chmod u+rw `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_map</span>
 
 - Haal uitvoertoestemming (e[x]ecute) voor een bestand weg van de [g]roep:
 
@@ -92,4 +83,4 @@ Meer informatie: <https://www.gnu.org/software/coreutils/chmod>.
 
 - Geef recursief alle gebruikers ([a]ll users) toegang om bestanden te lezen ([r]ead) en uitvoertoestemming (e[X]ecute) voor alle onderliggende mappen in een map:
 
-`chmod -R a+rX `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/directory</span>
+`chmod -R a+rX `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/map</span>

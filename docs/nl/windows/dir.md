@@ -2,8 +2,8 @@
 layout: page
 title: windows/dir (Nederlands)
 description: "Geeft de inhoud weer van een map."
-content_hash: 7b4c8c2ec76d888d27bfc210ea598fadebf077ae
-last_modified_at: 2023-10-17
+content_hash: 37663439707621e001ba8e6dd13ab8fb8af42135
+last_modified_at: 2023-10-19
 related_topics:
   - title: català version
     url: /ca/windows/dir.html
@@ -36,16 +36,7 @@ related_topics:
     url: /zh_TW/windows/dir.html
     icon: bi bi-globe
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/dir.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># dir
+# dir
 
 Geeft de inhoud weer van een map.
 Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/dir>.
@@ -56,7 +47,7 @@ Meer informatie: <https://learn.microsoft.com/windows-server/administration/wind
 
 - Geef de inhoud weer van een gegeven map:
 
-`dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\directory</span>
+`dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\map</span>
 
 - Geef de inhoud weer van de huidige map, inclusief verborgen bestanden:
 
@@ -64,7 +55,7 @@ Meer informatie: <https://learn.microsoft.com/windows-server/administration/wind
 
 - Geef de inhoud weer van een gegeven map, inclusief verborgen bestanden:
 
-`dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\directory</span>` /A`
+`dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\map</span>` /A`
 
 - Toon een lijst met mappen en bestanden, zonder extra informatie:
 

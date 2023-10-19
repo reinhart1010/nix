@@ -2,8 +2,8 @@
 layout: page
 title: common/alacritty (Nederlands)
 description: "Cross-platform, GPU-versnelde terminalemulator."
-content_hash: b5adff09f8e0922a87ee7d344d7dea6eb0c37968
-last_modified_at: 2023-07-28
+content_hash: cf95f83dfc11414bc6a28eef8c2774a380401aed
+last_modified_at: 2023-10-19
 related_topics:
   - title: Deutsch version
     url: /de/common/alacritty.html
@@ -36,10 +36,7 @@ related_topics:
     url: /zh/common/alacritty.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># alacritty
+# alacritty
 
 Cross-platform, GPU-versnelde terminalemulator.
 Meer informatie: <https://github.com/alacritty/alacritty>.
@@ -48,9 +45,9 @@ Meer informatie: <https://github.com/alacritty/alacritty>.
 
 `alacritty`
 
-- Uitvoeren in een specifieke directory:
+- Uitvoeren in een specifieke map:
 
-`alacritty --working-directory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/directory</span>
+`alacritty --working-directory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/map</span>
 
 - Voer een opdracht uit in een nieuw Alacritty-venster:
 

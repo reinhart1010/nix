@@ -2,8 +2,8 @@
 layout: page
 title: common/7zr (Nederlands)
 description: "Bestandsarchiver met een hoge compressieverhouding."
-content_hash: 62b6dd853ad157fb579f4840f76a05b789ed7914
-last_modified_at: 2023-05-18
+content_hash: 35d615c8f60263ebfbbc3ee8dbc11eea7dc4a7ba
+last_modified_at: 2023-10-19
 related_topics:
   - title: Deutsch version
     url: /de/common/7zr.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/7zr.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/7zr.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/7zr.html
@@ -35,6 +38,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/7zr.html
     icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/common/7zr.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/common/7zr.html
     icon: bi bi-globe
@@ -42,28 +48,25 @@ related_topics:
     url: /zh/common/7zr.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># 7zr
+# 7zr
 
 Bestandsarchiver met een hoge compressieverhouding.
 Vergelijkbaar met `7z`, behalve dat het alleen `.7z`-bestanden ondersteunt.
 Meer informatie: <https://manned.org/7zr>.
 
-- Archiveer een bestand of directory:
+- Archiveer een bestand of map:
 
-`7zr a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/archief.7z</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_directory</span>
+`7zr a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/archief.7z</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_map</span>
 
 - Versleutel een bestaand archief (inclusief bestandsnamen):
 
 `7zr a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/versleuteld.7z</span>` -p`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wachtwoord</span>` -mhe=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/archief.7z</span>
 
-- Pak een archief uit met behoud van de originele directory structuur:
+- Pak een archief uit met behoud van de originele map structuur:
 
 `7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/archief.7z</span>
 
-- Pak een archief uit naar een specifieke directory:
+- Pak een archief uit naar een specifieke map:
 
 `7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/archief.7z</span>` -o`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitkomst</span>
 

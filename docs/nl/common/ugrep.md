@@ -2,7 +2,8 @@
 layout: page
 title: common/ugrep (Nederlands)
 description: "Ultrasnelle bestandszoeker met interactive UI."
-content_hash: b3e1ac9e48c4f3daa9bd73ab96fd7b6de0ab4b01
+content_hash: 5733c07472df8ace67ee5245ea786f7280e5bd4d
+last_modified_at: 2023-10-19
 related_topics:
   - title: Deutsch version
     url: /de/common/ugrep.html
@@ -20,15 +21,15 @@ Meer informatie: <https://github.com/Genivia/ugrep>.
 
 `ugrep --query`
 
-- Zoek recursief met een regex zoekpatroon in de huidige directory naar passende bestanden:
+- Zoek recursief met een regex zoekpatroon in de huidige map naar passende bestanden:
 
 `ugrep "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span>`"`
 
-- Zoek een gegeven bestand of bestanden in een gegeven directory en laat de passende regelnummers zien:
+- Zoek een gegeven bestand of bestanden in een gegeven map en laat de passende regelnummers zien:
 
-`ugrep --line-number "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_directory</span>
+`ugrep --line-number "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_map</span>
 
-- Zoek recursief in de huidige directory en geef een lijst met passende bestanden:
+- Zoek recursief in de huidige map en geef een lijst met passende bestanden:
 
 `ugrep --files-with-matches "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span>`"`
 
@@ -36,7 +37,7 @@ Meer informatie: <https://github.com/Genivia/ugrep>.
 
 `ugrep --fuzzy=3 "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span>`"`
 
-- Zoek passende gecomprimeerde bestanden, zip en tar archieven recursief in de huidige directory:
+- Zoek passende gecomprimeerde bestanden, zip en tar archieven recursief in de huidige map:
 
 `ugrep --decompress "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span>`"`
 
