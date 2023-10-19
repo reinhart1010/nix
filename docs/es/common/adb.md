@@ -2,7 +2,8 @@
 layout: page
 title: common/adb (español)
 description: "Android Debug Bridge: comunica con una instancia de un emulador Android o conecta dispositivos Android."
-content_hash: 3fb85a59e8363d78c931645f5694df85d7982111
+content_hash: e0e9f1e4eed7ae94200a87f15d45de47e62f8bb6
+last_modified_at: 2023-10-19
 related_topics:
   - title: English version
     url: /en/common/adb.html
@@ -49,7 +50,7 @@ Más información: <https://developer.android.com/studio/command-line/adb>.
 
 `adb kill-server`
 
-- Inicia una terminal remota en la instance del emulador/dispositivo de destino:
+- Inicia una terminal remota en la instancia del emulador/dispositivo de destino:
 
 `adb shell`
 
