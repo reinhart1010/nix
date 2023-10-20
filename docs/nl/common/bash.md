@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/bash (Nederlands)
-description: "Bourne-Again SHell."
-content_hash: ffc3786eec22e4fc32cef2958de456811db749ab
-last_modified_at: 2023-07-03
+description: "Bourne-Again SHell, `sh`-ondersteunende commandoregel-interpreteerder."
+content_hash: 46f429de9af0aa44dd12a8bc6a245775729225c3
+last_modified_at: 2023-10-20
 related_topics:
   - title: Deutsch version
     url: /de/common/bash.html
@@ -44,34 +44,38 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 <hr># bash
 
-Bourne-Again SHell.
-`sh`-ondersteunende commandoregel-interpreteerder.
+Bourne-Again SHell, `sh`-ondersteunende commandoregel-interpreteerder.
+Bekijk ook: `zsh`, `histexpand` (history expansion).
 Meer informatie: <https://gnu.org/software/bash/>.
 
-- Start interactieve shell:
+- Start een interactieve shell sessie:
 
 `bash`
 
-- Voer een commando uit:
+- Start een interactieve shell sessie zonder het laden van startup configuratie:
 
-`bash -c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span>`"`
+`bash --norc`
+
+- Voer een [c]ommando uit:
+
+`bash -c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 'bash is executed'</span>`"`
 
 - Voer commando's van bestand uit:
 
-`bash `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestand.sh</span>
+`bash `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/script.sh</span>
 
 - Voer commando's van bestand uit, en print alle uitgevoerde commando's naar de terminal:
 
-`bash -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestand.sh</span>
+`bash -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/script.sh</span>
 
 - Voer commando's van bestand uit, en stop bij de eerste fout:
 
-`bash -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestand.sh</span>
+`bash -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/script.sh</span>
 
 - Voer commando's van `stdin` uit:
 
-`bash -s`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "echo 'bash is executed'"</span>` | bash`
 
-- Print de versieinformatie van bash (gebruik `echo $BASH_VERSION` om alleen de versie te krijgen zonder licentie):
+- Start een beperkte shell sessie:
 
-`bash --version`
+`bash -r`
