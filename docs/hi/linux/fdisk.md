@@ -1,0 +1,57 @@
+---
+layout: page
+title: linux/fdisk (हिन्दी)
+description: "एक प्रोग्राम जो हार्ड डिस्क पर पार्टीशन टेबल और पार्टीशन का प्रबंधन करने के लिए है।"
+content_hash: f412da1a8e2a1192fee7b50624f5805fb2e1ea14
+last_modified_at: 2023-10-20
+related_topics:
+  - title: English version
+    url: /en/linux/fdisk.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/fdisk.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/fdisk.html
+    icon: bi bi-globe
+---
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># fdisk
+
+एक प्रोग्राम जो हार्ड डिस्क पर पार्टीशन टेबल और पार्टीशन का प्रबंधन करने के लिए है।
+देखें भी: `partprobe`.
+अधिक जानकारी: <https://manned.org/fdisk>.
+
+- पार्टीशनों की सूची दिखाएं:
+
+`sudo fdisk -l`
+
+- पार्टीशन मैनिपुलेटर शुरू करें:
+
+`sudo fdisk `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sdX</span>
+
+- एक डिस्क को पार्टीशन करते समय, एक पार्टीशन बनाएं:
+
+`n`
+
+- एक डिस्क को पार्टीशन करते समय, डिलीट करने के लिए एक पार्टीशन का चयन करें:
+
+`d`
+
+- एक डिस्क को पार्टीशन करते समय, पार्टीशन टेबल देखें:
+
+`p`
+
+- एक डिस्क को पार्टीशन करते समय, की गई परिवर्तनों को लिखें:
+
+`w`
+
+- एक डिस्क को पार्टीशन करते समय, की गई परिवर्तनों को छोड़ दें:
+
+`q`
+
+- एक डिस्क को पार्टीशन करते समय, हेल्प मेनू खोलें:
+
+`m`
