@@ -1,8 +1,9 @@
 ---
 layout: page
 title: osx/open (Indonesia)
-description: "Membuka file, direktori, dan aplikasi."
-content_hash: 23becd2ee8439ce607da95f95f471fff7bee9035
+description: "Buka file, direktori, dan aplikasi."
+content_hash: 27429458b5e336b0b3d8c78665a43f7e6fa39e4c
+last_modified_at: 2023-10-20
 related_topics:
   - title: Deutsch version
     url: /de/osx/open.html
@@ -10,27 +11,36 @@ related_topics:
   - title: English version
     url: /en/osx/open.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/open.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/open.html
     icon: bi bi-globe
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/osx/open.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># open
 
-Membuka file, direktori, dan aplikasi.
+Buka file, direktori, dan aplikasi.
 Informasi lebih lanjut: <https://ss64.com/osx/open.html>.
 
-- Membuka sebuah file di dalam aplikasi default:
+- Buka sebuah file di dalam aplikasi default:
 
-`open `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.ext</span>
+`open `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file.ext</span>
 
-- Membuka aplikasi macOS tertentu:
+- Buka aplikasi macOS tertentu:
 
 `open -a "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Aplikasi</span>`"`
 
-- Membuka sebuah aplikasi macOS berdasarkan ID pengenal (bundle identifier) tertentu (gunakan `osascript` untuk mencari ID pengenal aplikasi secara mudah dan cepat):
+- Buka sebuah aplikasi macOS berdasarkan ID pengenal (bundle identifier) tertentu (gunakan `osascript` untuk mencari ID pengenal aplikasi secara mudah dan cepat):
 
 `open -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.domain.aplikasi</span>
 
