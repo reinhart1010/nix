@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/yes (Nederlands)
-description: "Print herhaaldelijk iets op het scherm."
-content_hash: 004914938c830bae17d3221385b2d0aebd692fd3
+description: "Iets herhaaldelijk uitvoeren."
+content_hash: 79fcec2b6da72de1361898da5b86c82136552271
+last_modified_at: 2023-10-20
 related_topics:
   - title: English version
     url: /en/common/yes.html
@@ -34,7 +35,8 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 <hr># yes
 
-Print herhaaldelijk iets op het scherm.
+Iets herhaaldelijk uitvoeren.
+Deze opdracht wordt vaak gebruikt om ja te beantwoorden op elke prompt door installatieopdrachten (zoals apt-get).
 Meer informatie: <https://www.gnu.org/software/coreutils/yes>.
 
 - Print herhaaldelijk "bericht":
@@ -44,3 +46,7 @@ Meer informatie: <https://www.gnu.org/software/coreutils/yes>.
 - Print herhaaldelijk "y":
 
 `yes`
+
+- Accepteer alles wat wordt gevraagd door het commando `apt-get`:
+
+`yes | sudo apt-get install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programma</span>

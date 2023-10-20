@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/nano (Nederlands)
-description: "Simpele, makkelijk te gebruiken command-line tekst bewerker. Een verbeterde, gratis Pico kloon."
-content_hash: 384c5029a903075e6fa811e60895d21d0ed1a3cd
+description: "Command-line tekst bewerker. Een verbeterde `Pico` kloon."
+content_hash: 38c22ac58fb28a9069488d5569efc6015e845115
+last_modified_at: 2023-10-20
 related_topics:
   - title: English version
     url: /en/common/nano.html
@@ -17,31 +18,44 @@ related_topics:
     url: /pt_BR/common/nano.html
     icon: bi bi-globe
 ---
-# nano
 
-Simpele, makkelijk te gebruiken command-line tekst bewerker. Een verbeterde, gratis Pico kloon.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/nano.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># nano
+
+Command-line tekst bewerker. Een verbeterde `Pico` kloon.
 Meer informatie: <https://nano-editor.org>.
 
-- Open een nieuw bestand in nano:
+- Start de tekst bewerker:
 
 `nano`
 
-- Open een specifiek bestand:
+- Start de tekst bewerker zonder gebruik te maken van configuratiebestanden:
 
-`nano `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
+`nano --ignorercfiles`
 
-- Open een bepaald bestand, met de cursor gezet in een gegeven regel en kolom:
+- Open specifieke bestanden, ga naar het volgende bestand bij het sluiten van de vorige:
+
+`nano `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand2</span>
+
+- Open een bestand en positioneer de cursor op een specifieke regel en kolom:
 
 `nano +`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regel</span>`,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kolom</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
 
-- Open een bepaald bestand en zet 'soft wrapping' aan:
+- Open een bestand en zet 'soft wrapping' aan:
 
 `nano --softwrap `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
 
-- Open een bepaald bestand en spring nieuwe regels in volgens de inspringing van de vorige regel:
+- Open een bestand en spring nieuwe regels in volgens de inspringing van de vorige regel:
 
 `nano --autoindent `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
 
-- Open nano en maak een reservekopie (`bestand~`) bij het opslaan van veranderingen:
+- Open een bestand en maak een reservekopie (`pad/naar/bestand~`) bij het opslaan:
 
 `nano --backup `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>

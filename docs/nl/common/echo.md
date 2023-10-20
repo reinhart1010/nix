@@ -2,13 +2,17 @@
 layout: page
 title: common/echo (Nederlands)
 description: "Drukt gegeven argumenten af."
-content_hash: 5f7186084c83efcea42d3e8b3deedc2fb2a8bbe7
+content_hash: 84bd8514810a458c6ba112a8227128ffa892a73c
+last_modified_at: 2023-10-20
 related_topics:
   - title: Deutsch version
     url: /de/common/echo.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/echo.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/echo.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/echo.html
@@ -25,6 +29,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/echo.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/echo.html
+    icon: bi bi-globe
   - title: српски version
     url: /sr/common/echo.html
     icon: bi bi-globe
@@ -35,7 +42,16 @@ related_topics:
     url: /zh_TW/common/echo.html
     icon: bi bi-globe
 ---
-# echo
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/echo.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># echo
 
 Drukt gegeven argumenten af.
 Meer informatie: <https://www.gnu.org/software/coreutils/echo>.
@@ -56,6 +72,10 @@ Meer informatie: <https://www.gnu.org/software/coreutils/echo>.
 
 `echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Hallo Wereld</span>`" >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bestand.txt</span>
 
-- Schakel interpretatie van backslash ontkoming in (speciale karakters):
+- Interpretatie van backslash-escapes (speciale tekens) inschakelen:
 
 `echo -e "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kolom 1\kolom 2</span>`"`
+
+- Druk de afsluitstatus van de laatst uitgevoerde opdracht af (Opmerking: in Windows Command Prompt en PowerShell zijn de equivalente opdrachten respectievelijk `echo %errorlevel%` en `$lastexitcode`):
+
+`echo $?`
