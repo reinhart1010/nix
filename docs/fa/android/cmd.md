@@ -2,8 +2,8 @@
 layout: page
 title: android/cmd (فارسی)
 description: "مدیر سرویس اندروید."
-content_hash: 1395cf53e6caa645718df53536e3ded9402927c9
-last_modified_at: 2023-09-14
+content_hash: a5522f0ea32e93009b0df0d2af37e0c5a1929e8b
+last_modified_at: 2023-10-21
 related_topics:
   - title: বাংলা version
     url: /bn/android/cmd.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/android/cmd.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/android/cmd.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/cmd.html
@@ -54,13 +57,10 @@ related_topics:
     url: /zh_TW/android/cmd.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cmd
+# cmd
 
 مدیر سرویس اندروید.
-اطلاعات بیشتر: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/cmd/>.
+اطلاعات بیشتر: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/cmd/>.
 
 - فهرست تمام سرویس های درحال اجرا :
 

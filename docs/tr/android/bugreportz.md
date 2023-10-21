@@ -2,13 +2,23 @@
 layout: page
 title: android/bugreportz (Türkçe)
 description: "Ziplenmiş bir Android bug raporu oluştur."
-content_hash: a39d125ebc1a007140ca50ca1ae8811ee97ce767
+content_hash: 5e2095c518e4629751e71df5f5bfd531d6792745
+last_modified_at: 2023-10-21
 related_topics:
+  - title: বাংলা version
+    url: /bn/android/bugreportz.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/android/bugreportz.html
     icon: bi bi-globe
   - title: English version
     url: /en/android/bugreportz.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/android/bugreportz.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/android/bugreportz.html
     icon: bi bi-globe
   - title: français version
     url: /fr/android/bugreportz.html
@@ -24,6 +34,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/android/bugreportz.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/android/bugreportz.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/android/bugreportz.html
@@ -42,7 +55,7 @@ related_topics:
 
 Ziplenmiş bir Android bug raporu oluştur.
 Bu komut yalnızca `adb shell` ile kullanılabilir.
-Daha fazla bilgi için: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreportz>.
+Daha fazla bilgi için: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreportz>.
 
 - Bir Android cihazı için ziplenmiş şekilde eksizsiz bir bug raporu oluşturGenerate a complete zipped bug report of an Android device:
 

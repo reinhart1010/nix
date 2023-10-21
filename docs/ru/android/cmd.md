@@ -2,8 +2,8 @@
 layout: page
 title: android/cmd (русский)
 description: "Сервис менеджер Android."
-content_hash: aac88a6287d98029896f0eeeed497bb9d05c43f7
-last_modified_at: 2022-12-04
+content_hash: 35975b71226492ec599ded9fd0d9df8e243e3a0a
+last_modified_at: 2023-10-21
 related_topics:
   - title: বাংলা version
     url: /bn/android/cmd.html
@@ -14,8 +14,17 @@ related_topics:
   - title: English version
     url: /en/android/cmd.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/android/cmd.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/android/cmd.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/android/cmd.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/android/cmd.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/cmd.html
@@ -51,7 +60,7 @@ related_topics:
 # cmd
 
 Сервис менеджер Android.
-Больше информации: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/cmd/>.
+Больше информации: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/cmd/>.
 
 - Список всех запущенных сервисов:
 

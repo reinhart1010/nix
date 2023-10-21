@@ -2,7 +2,8 @@
 layout: page
 title: common/fastboot (English)
 description: "Communicate with connected Android devices when in bootloader mode (the one place `adb` doesn't work)."
-content_hash: 94517ed39f28234984e5bbc94ae72943811013f8
+content_hash: 7f9677cdb506173709ee2fbce3d7ceb4ea703494
+last_modified_at: 2023-10-21
 related_topics:
   - title: italiano version
     url: /it/common/fastboot.html
@@ -14,7 +15,7 @@ related_topics:
 # fastboot
 
 Communicate with connected Android devices when in bootloader mode (the one place `adb` doesn't work).
-More information: <https://cs.android.com/android/platform/superproject/+/master:system/core/fastboot>.
+More information: <https://cs.android.com/android/platform/superproject/+/main:system/core/fastboot>.
 
 - Unlock the bootloader:
 

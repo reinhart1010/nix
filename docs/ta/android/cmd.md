@@ -2,7 +2,8 @@
 layout: page
 title: android/cmd (தமிழ்)
 description: "ஆண்ட்ராய்டு சேவை நிர்வாகி."
-content_hash: 00f56576d5594920cf33f6787820d3eb1caa8373
+content_hash: b836d6274a40d59992ca72c1774fc41c6204aeff
+last_modified_at: 2023-10-21
 related_topics:
   - title: বাংলা version
     url: /bn/android/cmd.html
@@ -13,8 +14,17 @@ related_topics:
   - title: English version
     url: /en/android/cmd.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/android/cmd.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/android/cmd.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/android/cmd.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/android/cmd.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/cmd.html
@@ -22,8 +32,17 @@ related_topics:
   - title: italiano version
     url: /it/android/cmd.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/android/cmd.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/android/cmd.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/android/cmd.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/android/cmd.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/android/cmd.html
@@ -38,13 +57,10 @@ related_topics:
     url: /zh_TW/android/cmd.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cmd
+# cmd
 
 ஆண்ட்ராய்டு சேவை நிர்வாகி.
-மேலும் விவரத்திற்கு: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/cmd/>.
+மேலும் விவரத்திற்கு: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/cmd/>.
 
 - இயங்கும் ஒவ்வொரு சேவையையும் பட்டியலிடுங்கள்:
 

@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreport (বাংলা)
 description: "একটি অ্যান্ড্রয়েড বাগ রিপোর্ট দেখান।"
-content_hash: 711436dd6c2e254976b4262c1cb31806806c644e
-last_modified_at: 2023-01-03
+content_hash: 71a0bd976fc067ea128a022e2c284a451c5af137
+last_modified_at: 2023-10-21
 related_topics:
   - title: Deutsch version
     url: /de/android/bugreport.html
@@ -14,14 +14,23 @@ related_topics:
   - title: español version
     url: /es/android/bugreport.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/android/bugreport.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/android/bugreport.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/android/bugreport.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/bugreport.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/bugreport.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/bugreport.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/android/bugreport.html
@@ -51,14 +60,11 @@ related_topics:
     url: /zh_TW/android/bugreport.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bugreport
+# bugreport
 
 একটি অ্যান্ড্রয়েড বাগ রিপোর্ট দেখান।
 এই কমান্ডটি শুধুমাত্র `adb shell` এর মাধ্যমে ব্যবহার করা যেতে পারে।
-আরও তথ্য পাবেন: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreport>.
+আরও তথ্য পাবেন: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreport>.
 
 - একটি অ্যান্ড্রয়েড ডিভাইসের একটি সম্পূর্ণ বাগ রিপোর্ট দেখান:
 

@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreport (français)
 description: "Affiche un rapport de bug Android."
-content_hash: 74388a35605091c16aa28a172f25f0c8b319e301
-last_modified_at: 2023-08-30
+content_hash: cf2e8be69a3dff21a8abbca197239816e071eb4d
+last_modified_at: 2023-10-21
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreport.html
@@ -17,11 +17,20 @@ related_topics:
   - title: español version
     url: /es/android/bugreport.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/android/bugreport.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/android/bugreport.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/bugreport.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/bugreport.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/bugreport.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/android/bugreport.html
@@ -55,7 +64,7 @@ related_topics:
 
 Affiche un rapport de bug Android.
 Cette commande peut être utilisée uniquement depuis `adb shell`.
-Plus d'informations : <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreport>.
+Plus d'informations : <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreport>.
 
 - Affiche un rapport de bug d'un appareil Android :
 

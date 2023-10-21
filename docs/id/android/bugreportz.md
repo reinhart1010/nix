@@ -2,19 +2,38 @@
 layout: page
 title: android/bugreportz (Indonesia)
 description: "Buat sebuah laporan masalah Android dalam format file arsip (zip)."
-content_hash: 97ecbaa29716680972d1fcdc54111cf7c36805d0
+content_hash: d85e1ec9b42951ca21f8e49f0c47fba505319354
+last_modified_at: 2023-10-21
 related_topics:
+  - title: বাংলা version
+    url: /bn/android/bugreportz.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/android/bugreportz.html
     icon: bi bi-globe
   - title: English version
     url: /en/android/bugreportz.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/android/bugreportz.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/android/bugreportz.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/android/bugreportz.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/android/bugreportz.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/android/bugreportz.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/android/bugreportz.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/android/bugreportz.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/android/bugreportz.html
@@ -36,7 +55,7 @@ related_topics:
 
 Buat sebuah laporan masalah Android dalam format file arsip (zip).
 Perintah ini hanya dapat digunakan di dalam `adb shell`.
-Informasi lebih lanjut: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreportz>.
+Informasi lebih lanjut: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreportz>.
 
 - Buatkan sebuah arsip laporan masalah perangkat Android secara lengkap:
 

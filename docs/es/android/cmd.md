@@ -2,8 +2,8 @@
 layout: page
 title: android/cmd (español)
 description: "Administrador de servicios Android."
-content_hash: e6194069c4a9922fe8943855a6d582ce0741caa2
-last_modified_at: 2022-12-12
+content_hash: ca28f10499968e599b3de8ea4009874feedc50f4
+last_modified_at: 2023-10-21
 related_topics:
   - title: বাংলা version
     url: /bn/android/cmd.html
@@ -14,8 +14,14 @@ related_topics:
   - title: English version
     url: /en/android/cmd.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/android/cmd.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/android/cmd.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/android/cmd.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/cmd.html
@@ -51,13 +57,10 @@ related_topics:
     url: /zh_TW/android/cmd.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cmd
+# cmd
 
 Administrador de servicios Android.
-Más información: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/cmd/>.
+Más información: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/cmd/>.
 
 - Enumera todos los servicios en ejecución:
 

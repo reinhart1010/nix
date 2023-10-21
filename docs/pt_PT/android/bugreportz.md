@@ -2,13 +2,23 @@
 layout: page
 title: android/bugreportz (português (Portugal))
 description: "Gera um relatório de bugs do Android em formato .zip."
-content_hash: 3566cbb0d863500d0e8d2737de03df9e139f0602
+content_hash: 4fdf89d6805fc7a6a77e8999728678c1c7704525
+last_modified_at: 2023-10-21
 related_topics:
+  - title: বাংলা version
+    url: /bn/android/bugreportz.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/android/bugreportz.html
     icon: bi bi-globe
   - title: English version
     url: /en/android/bugreportz.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/android/bugreportz.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/android/bugreportz.html
     icon: bi bi-globe
   - title: français version
     url: /fr/android/bugreportz.html
@@ -21,6 +31,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/android/bugreportz.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/android/bugreportz.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/android/bugreportz.html
@@ -38,14 +51,11 @@ related_topics:
     url: /zh_TW/android/bugreportz.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bugreportz
+# bugreportz
 
 Gera um relatório de bugs do Android em formato .zip.
 Este comando só pode ser utilizado com a `adb shell`.
-Mais informações: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreportz>.
+Mais informações: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreportz>.
 
 - Mostrar um relatório completo de bugs de um dispositivo Android em formato .zip:
 

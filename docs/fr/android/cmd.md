@@ -2,7 +2,8 @@
 layout: page
 title: android/cmd (français)
 description: "Manager de service Android."
-content_hash: f3408efb828b05461a8eb4951c8c310cf80f8907
+content_hash: 0ee462c9243e7332d5ea92b6ed98a2cf181c6978
+last_modified_at: 2023-10-21
 related_topics:
   - title: বাংলা version
     url: /bn/android/cmd.html
@@ -13,14 +14,38 @@ related_topics:
   - title: English version
     url: /en/android/cmd.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/android/cmd.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/android/cmd.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/android/cmd.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/cmd.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/cmd.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/android/cmd.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/android/cmd.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/android/cmd.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/android/cmd.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/android/cmd.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/android/cmd.html
     icon: bi bi-globe
   - title: o‘zbek version
     url: /uz/android/cmd.html
@@ -35,7 +60,7 @@ related_topics:
 # cmd
 
 Manager de service Android.
-Plus d'informations : <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/cmd/>.
+Plus d'informations : <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/cmd/>.
 
 - Liste tous les services en cours d'exécution :
 

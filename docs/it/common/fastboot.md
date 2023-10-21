@@ -2,7 +2,8 @@
 layout: page
 title: common/fastboot (italiano)
 description: "Comunica con il dispositivo Android connessione quando in modalità bootloader (la situazione in cui `adb` non funziona)."
-content_hash: 811accbe9c620e440ab87c4c05f79a5b5dd5da4a
+content_hash: 60577282ece6cdd5abd2f537322a2e204f28f254
+last_modified_at: 2023-10-21
 related_topics:
   - title: English version
     url: /en/common/fastboot.html
@@ -14,7 +15,7 @@ related_topics:
 # fastboot
 
 Comunica con il dispositivo Android connessione quando in modalità bootloader (la situazione in cui `adb` non funziona).
-Maggiori informazioni: <https://cs.android.com/android/platform/superproject/+/master:system/core/fastboot>.
+Maggiori informazioni: <https://cs.android.com/android/platform/superproject/+/main:system/core/fastboot>.
 
 - Sblocca il bootloader:
 

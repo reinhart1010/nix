@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreportz (தமிழ்)
 description: "ஜிப் செய்யப்பட்ட ஆண்ட்ராய்டு பிழை அறிக்கையை உருவாக்கவும்."
-content_hash: 6a628f1045b24a6487c2e6d063a084f14f9aa551
-last_modified_at: 2023-06-02
+content_hash: 7a469524606840ff49b1b660fb4d4dfef5f24fcf
+last_modified_at: 2023-10-21
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/android/bugreportz.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/android/bugreportz.html
     icon: bi bi-globe
   - title: français version
     url: /fr/android/bugreportz.html
@@ -52,7 +55,7 @@ related_topics:
 
 ஜிப் செய்யப்பட்ட ஆண்ட்ராய்டு பிழை அறிக்கையை உருவாக்கவும்.
 இந்தக் கட்டளையை `adb shell` மூலம் மட்டுமே பயன்படுத்த முடியும்.
-மேலும் விவரத்திற்கு: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreportz>.
+மேலும் விவரத்திற்கு: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreportz>.
 
 - ஒரு ஆண்ட்ராய்டு சாதனத்தின் முழுமையான ஜிப் செய்யப்பட்ட பிழை அறிக்கையை உருவாக்கவும்:
 

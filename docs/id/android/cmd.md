@@ -2,7 +2,8 @@
 layout: page
 title: android/cmd (Indonesia)
 description: "Manajer layanan (daemon) untuk Android."
-content_hash: a1775cfe3c20b13d673e6b85aa8ffd4aff98f7b9
+content_hash: b94beebc232d1466f1b1ad50863700db7191c354
+last_modified_at: 2023-10-21
 related_topics:
   - title: বাংলা version
     url: /bn/android/cmd.html
@@ -13,14 +14,32 @@ related_topics:
   - title: English version
     url: /en/android/cmd.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/android/cmd.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/android/cmd.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/android/cmd.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/android/cmd.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/cmd.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/android/cmd.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/android/cmd.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/android/cmd.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/android/cmd.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/android/cmd.html
@@ -41,7 +60,7 @@ related_topics:
 # cmd
 
 Manajer layanan (daemon) untuk Android.
-Informasi lebih lanjut: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/cmd/>.
+Informasi lebih lanjut: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/cmd/>.
 
 - Lihat daftar layanan yang sedang berjalan:
 

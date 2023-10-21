@@ -2,8 +2,8 @@
 layout: page
 title: android/cmd (English)
 description: "Android service manager."
-content_hash: afe98a36c1e2fd7c4ade240e66b0c2701e035f6b
-last_modified_at: 2023-08-26
+content_hash: 9e62765f05cd7c0493fa3e964a4ce0dd2f93bb23
+last_modified_at: 2023-10-21
 related_topics:
   - title: বাংলা version
     url: /bn/android/cmd.html
@@ -14,8 +14,14 @@ related_topics:
   - title: español version
     url: /es/android/cmd.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/android/cmd.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/android/cmd.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/android/cmd.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/cmd.html
@@ -54,7 +60,7 @@ related_topics:
 # cmd
 
 Android service manager.
-More information: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/cmd/>.
+More information: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/cmd/>.
 
 - [l]ist all running services:
 

@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreport (فارسی)
 description: "نمایش یک گزارش خطا اندروید."
-content_hash: eef58cb9e001de532f9818b8e105401fa9463998
-last_modified_at: 2023-09-14
+content_hash: 31902336bbc958406b286387009050d8ab9c759e
+last_modified_at: 2023-10-21
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreport.html
@@ -20,11 +20,17 @@ related_topics:
   - title: français version
     url: /fr/android/bugreport.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/android/bugreport.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/bugreport.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/bugreport.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/bugreport.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/android/bugreport.html
@@ -54,14 +60,11 @@ related_topics:
     url: /zh_TW/android/bugreport.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bugreport
+# bugreport
 
 نمایش یک گزارش خطا اندروید.
 این دستور فقط از طریق `adb shell` قابل اجراست.
-اطلاعات بیشتر: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreport>.
+اطلاعات بیشتر: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreport>.
 
 - یک گزارش خطای کامل از دستگاه مورد نظر نمایش میدهد :
 

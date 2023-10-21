@@ -2,16 +2,29 @@
 layout: page
 title: android/bugreport (português (Portugal))
 description: "Mostra um relatório de bugs do Android."
-content_hash: ae46acf596a670b63d712eea0928535e9e47c0ee
+content_hash: 79341424952105105c0116c4327822d0e692e3d9
+last_modified_at: 2023-10-21
 related_topics:
+  - title: বাংলা version
+    url: /bn/android/bugreport.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/android/bugreport.html
     icon: bi bi-globe
   - title: English version
     url: /en/android/bugreport.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/android/bugreport.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/android/bugreport.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/android/bugreport.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/android/bugreport.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/bugreport.html
@@ -19,11 +32,17 @@ related_topics:
   - title: italiano version
     url: /it/android/bugreport.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/bugreport.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/android/bugreport.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/android/bugreport.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/android/bugreport.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/android/bugreport.html
@@ -41,14 +60,11 @@ related_topics:
     url: /zh_TW/android/bugreport.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bugreport
+# bugreport
 
 Mostra um relatório de bugs do Android.
 Este comando só pode ser utilizado com a `adb shell`.
-Mais informações: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreport>.
+Mais informações: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreport>.
 
 - Mostrar um relatório completo de bugs de um dispositivo Android:
 

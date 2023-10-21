@@ -2,23 +2,38 @@
 layout: page
 title: android/bugreport (русский)
 description: "Показать отчет об ошибках Android."
-content_hash: 3be128ecdfb1b78960a25726f8418d655d5f1393
-last_modified_at: 2022-12-04
+content_hash: ae492cced1e69404fbb1b6a32f4e17e86e33e91a
+last_modified_at: 2023-10-21
 related_topics:
+  - title: বাংলা version
+    url: /bn/android/bugreport.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/android/bugreport.html
     icon: bi bi-globe
   - title: English version
     url: /en/android/bugreport.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/android/bugreport.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/android/bugreport.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/android/bugreport.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/android/bugreport.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/bugreport.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/bugreport.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/bugreport.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/android/bugreport.html
@@ -49,7 +64,7 @@ related_topics:
 
 Показать отчет об ошибках Android.
 Эту команду можно использовать только через `adb shell`.
-Больше информации: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreport>.
+Больше информации: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreport>.
 
 - Показать полный отчет об ошибках на устройстве Android:
 

@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreportz (فارسی)
 description: "تولید یک گزارش خطای اندروید فشرده شده."
-content_hash: c14d9bb06e6e58e6cf7db8d8d0bfbb2d19bc93ab
-last_modified_at: 2023-09-14
+content_hash: 35ccef40c7fdf195784b9cc78b604c54c817e794
+last_modified_at: 2023-10-21
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -51,14 +51,11 @@ related_topics:
     url: /zh_TW/android/bugreportz.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bugreportz
+# bugreportz
 
 تولید یک گزارش خطای اندروید فشرده شده.
 این دستور فقط از طریق `adb shell` قابل اجراست.
-اطلاعات بیشتر: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreportz>.
+اطلاعات بیشتر: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreportz>.
 
 - تولید که گزارش خطای کامل از یک دستگاه اندرویدی :
 

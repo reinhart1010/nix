@@ -2,23 +2,35 @@
 layout: page
 title: android/bugreport (español)
 description: "Muestra un informe de error de Android."
-content_hash: 214ac3f243a35926647e4b6369f0ca2d0dca0d56
-last_modified_at: 2022-12-13
+content_hash: 069066bd6ed2c8320bd856e6335f150bbb26b297
+last_modified_at: 2023-10-21
 related_topics:
+  - title: বাংলা version
+    url: /bn/android/bugreport.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/android/bugreport.html
     icon: bi bi-globe
   - title: English version
     url: /en/android/bugreport.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/android/bugreport.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/android/bugreport.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/android/bugreport.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/bugreport.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/bugreport.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/bugreport.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/android/bugreport.html
@@ -48,14 +60,11 @@ related_topics:
     url: /zh_TW/android/bugreport.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bugreport
+# bugreport
 
 Muestra un informe de error de Android.
 Este comando solo se puede usar a través de `adb shell`.
-Más información: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreport>.
+Más información: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreport>.
 
 - Muestra un informe completo de errores de un dispositivo Android:
 

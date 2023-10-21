@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreport (한국어)
 description: "Android 장치의 버그 보고서를 표시합니다."
-content_hash: e11fe9410166607c5f328b8c767f35a912552946
-last_modified_at: 2023-09-20
+content_hash: 3b8493ed0188f488dc93e1661adb30d96cb044d2
+last_modified_at: 2023-10-21
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreport.html
@@ -22,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/android/bugreport.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/android/bugreport.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/bugreport.html
@@ -57,14 +60,11 @@ related_topics:
     url: /zh_TW/android/bugreport.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bugreport
+# bugreport
 
 Android 장치의 버그 보고서를 표시합니다.
 이 명령은 `adb shell`을 통해서만 사용할 수 있습니다.
-더 많은 정보: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/bugreport>.
+더 많은 정보: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreport>.
 
 - Android 장치의 완전한 버그 보고서를 표시:
 
