@@ -1,19 +1,16 @@
 ---
 layout: page
 title: common/ddgr (English)
-description: "Commandline utility to search DuckDuckGo (html version) from the terminal."
-content_hash: c1d966e9e99b3cc83cd9728c178e609a16b3f0ff
-last_modified_at: 2023-10-19
+description: "Search DuckDuckGo (HTML version) from the terminal."
+content_hash: 1c671c060df91ea046a50117d6ea626a471acc22
+last_modified_at: 2023-10-22
 ---
+# ddgr
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+Search DuckDuckGo (HTML version) from the terminal.
+More information: <https://github.com/jarun/ddgr>.
 
-<hr># ddgr
-
-Commandline utility to search DuckDuckGo (html version) from the terminal.
-More information: <https://github.com/jarun/ddg>.
-
-- Start interactive mode:
+- Start in interactive mode:
 
 `ddgr`
 
@@ -21,11 +18,11 @@ More information: <https://github.com/jarun/ddg>.
 
 `ddgr `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword</span>
 
-- Limit the search results number to N:
+- Limit the number of search results to `N`:
 
 `ddgr -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">N</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword</span>
 
-- Show the complete URL in search results:
+- Display the complete URL in search results:
 
 `ddgr -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword</span>
 
@@ -33,7 +30,7 @@ More information: <https://github.com/jarun/ddg>.
 
 `ddgr !w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword</span>
 
-- Perform a website specific search:
+- Perform a website-specific search:
 
 `ddgr -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">site</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword</span>
 

@@ -2,8 +2,8 @@
 layout: page
 title: android/cmd (हिन्दी)
 description: "एंड्रॉइड सेवा प्रबंधक।"
-content_hash: 73e9c7ed745540b76c6942a1efd797a9fe6ba609
-last_modified_at: 2023-10-20
+content_hash: 6a587260bf9e357ab5d27e778ad49d15ca52addb
+last_modified_at: 2023-10-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/cmd.html
@@ -57,13 +57,10 @@ related_topics:
     url: /zh_TW/android/cmd.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cmd
+# cmd
 
 एंड्रॉइड सेवा प्रबंधक।
-अधिक जानकारी: <https://cs.android.com/android/platform/superproject/+/master:frameworks/native/cmds/cmd/>.
+अधिक जानकारी: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/cmd/>.
 
 - सभी चल रही सेवाओं की सूची[l] बनाएं:
 

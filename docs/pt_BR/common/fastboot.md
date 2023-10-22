@@ -2,7 +2,8 @@
 layout: page
 title: common/fastboot (português (Brasil))
 description: "Se comunica com dispositivos Android conectados quando iniciados no modo _fastboot_ (o único lugar em que `adb` não funciona)."
-content_hash: c699c5366805f0fdeef94aebb6bab79a35b008a8
+content_hash: 3296f0ebfb2e767e41affd14449823171b8d9e01
+last_modified_at: 2023-10-22
 related_topics:
   - title: English version
     url: /en/common/fastboot.html
@@ -14,7 +15,7 @@ related_topics:
 # fastboot
 
 Se comunica com dispositivos Android conectados quando iniciados no modo _fastboot_ (o único lugar em que `adb` não funciona).
-Mais informações: <https://cs.android.com/android/platform/superproject/+/master:system/core/fastboot>.
+Mais informações: <https://cs.android.com/android/platform/superproject/+/main:system/core/fastboot>.
 
 - Desbloqueia o bootloader:
 
