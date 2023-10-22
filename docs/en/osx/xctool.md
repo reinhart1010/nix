@@ -2,7 +2,8 @@
 layout: page
 title: osx/xctool (English)
 description: "Tool for building Xcode projects."
-content_hash: 99f189dd911c39de2e95b7727fdd04910b5222dc
+content_hash: c2dc20e30acdf16dca4f2a6421c01369ad50939a
+last_modified_at: 2023-10-22
 related_topics:
   - title: 中文 version
     url: /zh/osx/xctool.html
@@ -11,7 +12,7 @@ related_topics:
 # xctool
 
 Tool for building Xcode projects.
-More information: <https://github.com/facebook/xctool>.
+More information: <https://github.com/facebookarchive/xctool>.
 
 - Build a single project without any workspace:
 
