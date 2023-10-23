@@ -2,7 +2,7 @@
 layout: page
 title: linux/apk (polski)
 description: "Narzędzie zarządzania pakietami Alpine Linux."
-content_hash: 8d410edf9c7219f37d19a6c82d59091a1264f878
+content_hash: 44f6a65cbc8a698b4620ccdbff4c141ae49bba83
 last_modified_at: 2023-10-23
 related_topics:
   - title: Deutsch version
@@ -39,7 +39,7 @@ Więcej informacji: <https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_mana
 
 `apk update`
 
-- Instaluj nowy pakiet:
+- Zainstaluj nowy pakiet:
 
 `apk add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span>
 
@@ -53,7 +53,7 @@ Więcej informacji: <https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_mana
 
 - Szukaj pakietu za pomocą słów kluczowych:
 
-`apk search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">słowo kluczowe</span>
+`apk search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">słowa_kluczowe</span>
 
 - Wyświetl informacje o określonym pakiecie:
 

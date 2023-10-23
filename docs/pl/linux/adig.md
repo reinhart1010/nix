@@ -1,8 +1,8 @@
 ---
 layout: page
 title: linux/adig (polski)
-description: "Wyświetla informacje otrzymane z serwerów DNS (Domain Name System)."
-content_hash: b19d55cbd7225f3bfde100eac320ffe0c53639df
+description: "Wyświetl informacje otrzymane z serwerów DNS (Domain Name System)."
+content_hash: 119162927e59282002e34f1b46aa60507cbba512
 last_modified_at: 2023-10-23
 related_topics:
   - title: English version
@@ -14,7 +14,7 @@ related_topics:
 ---
 # adig
 
-Wyświetla informacje otrzymane z serwerów DNS (Domain Name System).
+Wyświetl informacje otrzymane z serwerów DNS (Domain Name System).
 Więcej informacji: <https://manned.org/adig>.
 
 - Wyświetl rekord A (domyślny) z DNS dla hosta(-ów):
@@ -25,14 +25,14 @@ Więcej informacji: <https://manned.org/adig>.
 
 `adig -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
 
-- Podłącz do określonego [s]erwera DNS:
+- Połącz z określonym [s]erwerem DNS:
 
 `adig -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.2.3.4</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
 
-- Użyj określonego portu TCP łącząc się do serwera DNS:
+- Użyj określonego portu TCP łącząc się z serwerem DNS:
 
 `adig -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
 
-- Użyj określonego portu UDP łącząc się do serwera DNS:
+- Użyj określonego portu UDP łącząc się z serwerem DNS:
 
 `adig -U `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>

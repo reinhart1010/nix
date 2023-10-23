@@ -1,8 +1,8 @@
 ---
 layout: page
 title: linux/alien (polski)
-description: "Konwertuje różne pakiety instalacyjne na inne formaty."
-content_hash: db62700a23db2c234b147c397b77f695ce3fd98b
+description: "Konwertuj różne pakiety instalacyjne na inne formaty."
+content_hash: 12596a7de823b50ae2310b5fe26718ba881ec6db
 last_modified_at: 2023-10-23
 related_topics:
   - title: Deutsch version
@@ -23,10 +23,10 @@ related_topics:
 ---
 # alien
 
-Konwertuje różne pakiety instalacyjne na inne formaty.
+Konwertuj różne pakiety instalacyjne na inne formaty.
 Więcej informacji: <https://manned.org/alien>.
 
-- Konwertuj wskazany plik instalacyjny do formatu Debiana (rozszerenie `.deb`):
+- Konwertuj wskazany plik instalacyjny do formatu Debiana (rozszerzenie `.deb`):
 
 `sudo alien --to-deb `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku</span>
 

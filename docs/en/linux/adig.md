@@ -1,17 +1,20 @@
 ---
 layout: page
 title: linux/adig (English)
-description: "Prints information received from Domain Name System (DNS) servers."
-content_hash: 91ef093b109588df456daf4ebe661eed653151e8
-last_modified_at: 2023-01-06
+description: "Print information received from Domain Name System (DNS) servers."
+content_hash: 8bc00b16ddd1acf4f6a1970e18dd58fab1d48fe9
+last_modified_at: 2023-10-23
 related_topics:
+  - title: polski version
+    url: /pl/linux/adig.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/adig.html
     icon: bi bi-globe
 ---
 # adig
 
-Prints information received from Domain Name System (DNS) servers.
+Print information received from Domain Name System (DNS) servers.
 More information: <https://manned.org/adig>.
 
 - Display A (default) record from DNS for hostname(s):

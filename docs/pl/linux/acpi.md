@@ -1,8 +1,8 @@
 ---
 layout: page
 title: linux/acpi (polski)
-description: "Wyśwetla status baterii lub informacje dotyczące temperatury."
-content_hash: 837862dec1eae75a53503905bb6d39ba88f62a0f
+description: "Wyśwetl status baterii lub informacje dotyczące temperatury."
+content_hash: 82614305f7976d56d9946906d6cedf40e8482108
 last_modified_at: 2023-10-23
 related_topics:
   - title: català version
@@ -29,7 +29,7 @@ related_topics:
 ---
 # acpi
 
-Wyśwetla status baterii lub informacje dotyczące temperatury.
+Wyśwetl status baterii lub informacje dotyczące temperatury.
 Więcej informacji: <https://sourceforge.net/projects/acpiclient/files/acpiclient/>.
 
 - Pokaż informacje o baterii:
