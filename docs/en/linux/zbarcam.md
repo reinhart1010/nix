@@ -1,19 +1,16 @@
 ---
 layout: page
 title: linux/zbarcam (English)
-description: "Scans and decodes barcodes (and QR codes) from a video device."
-content_hash: bb1b60e4db4adba9bcab028b29c112de627844a6
-last_modified_at: 2023-07-08
+description: "Scan and decode barcodes (and QR codes) from a video device."
+content_hash: 5af1e79dbc28782a6ffcfe9bd5da90fe3e3c3609
+last_modified_at: 2023-10-24
 ---
+# zbarcam
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># zbarcam
-
-Scans and decodes barcodes (and QR codes) from a video device.
+Scan and decode barcodes (and QR codes) from a video device.
 More information: <https://manned.org/zbarcam>.
 
-- Continuously read barcodes and print them to standard output:
+- Continuously read barcodes and print them to `stdout`:
 
 `zbarcam`
 

@@ -2,13 +2,10 @@
 layout: page
 title: common/duckdb (English)
 description: "Command-line client for DuckDB, an in-process analytical SQL engine."
-content_hash: e79ec0686e357aa1b5ae29c53f1c84b8e60eae1e
-last_modified_at: 2023-08-11
+content_hash: 33e06a22653026c107c02b1b2f030a74e486e4ba
+last_modified_at: 2023-10-24
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># duckdb
+# duckdb
 
 Command-line client for DuckDB, an in-process analytical SQL engine.
 More information: <https://duckdb.org>.
@@ -37,7 +34,7 @@ More information: <https://duckdb.org>.
 
 `duckdb `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/dbfile</span>` -init `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.sql</span>
 
-- Read CSV from stdin and write CSV to stdout:
+- Read CSV from `stdin` and write CSV to `stdout`:
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.csv</span>` | duckdb -c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">COPY (FROM read_csv_auto('/dev/stdin')) TO '/dev/stdout' WITH (FORMAT CSV, HEADER)</span>`"`
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/perl (English)
 description: "The Perl 5 language interpreter."
-content_hash: 1d1ca04596c69eda270ef0dee29e8c11486e04d2
-last_modified_at: 2023-10-23
+content_hash: ae856694e8d376adfc9896befcaab20aed702d45
+last_modified_at: 2023-10-24
 related_topics:
   - title: français version
     url: /fr/common/perl.html
@@ -14,7 +14,7 @@ related_topics:
 The Perl 5 language interpreter.
 More information: <https://www.perl.org>.
 
-- Print lines from stdin [m/] matching regex1 and case insensitive [/i] regex2:
+- Print lines from `stdin` [m/] matching regex1 and case insensitive [/i] regex2:
 
 `perl -n -e 'print if m/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regex1</span>`/ and m/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regex2</span>`/i'`
 

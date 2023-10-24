@@ -2,13 +2,10 @@
 layout: page
 title: linux/compress (English)
 description: "Compress files using the Unix `compress` command."
-content_hash: 7f9a76fb10db490e26c824be3da4239d3dcc0675
-last_modified_at: 2023-10-21
+content_hash: 6da176ac8ecd7fedc885fd8c8982900a1ef80b61
+last_modified_at: 2023-10-24
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># compress
+# compress
 
 Compress files using the Unix `compress` command.
 More information: <https://manned.org/compress.1>.
@@ -25,7 +22,7 @@ More information: <https://manned.org/compress.1>.
 
 `compress -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bits</span>
 
-- Write to standard output (no files are changed):
+- Write to `stdout` (no files are changed):
 
 `compress -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
