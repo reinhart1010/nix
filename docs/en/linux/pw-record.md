@@ -1,17 +1,19 @@
 ---
 layout: page
 title: linux/pw-record (English)
-description: "Shorthand tool for pw-cat --playback."
-content_hash: 0791297fdc1199c30b8b4b86c6ca21979ab22dc6
+description: "Record audio files through pipewire."
+content_hash: 88ea4b9454c46fc0299eb4567d903c25e6d2c454
+last_modified_at: 2023-10-24
+related_topics:
+  - title: Türkçe version
+    url: /tr/linux/pw-record.html
+    icon: bi bi-globe
 ---
 # pw-record
 
-Shorthand tool for pw-cat --playback.
+Record audio files through pipewire.
+Shorthand for pw-cat --record.
 More information: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI>.
-
-- List all available record targets:
-
-`pw-record --list-targets`
 
 - Record a sample recording using the default target:
 

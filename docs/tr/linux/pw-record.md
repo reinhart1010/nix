@@ -1,24 +1,19 @@
 ---
 layout: page
 title: linux/pw-record (Türkçe)
-description: "pw-cat --playback komutu için kısayol aracı."
-content_hash: 4b57f6d732939b1af2f778f5049f60dd5e96ff8e
+description: "Pipewire aracılığıyla ses dosyalarını kaydedin."
+content_hash: 7328a7708fc332a881b1ac7e0c188a7716c2141a
+last_modified_at: 2023-10-24
 related_topics:
   - title: English version
     url: /en/linux/pw-record.html
     icon: bi bi-globe
 ---
+# pw-record
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pw-record
-
-pw-cat --playback komutu için kısayol aracı.
+Pipewire aracılığıyla ses dosyalarını kaydedin.
+pw-cat --record için kısaltma.
 Daha fazla bilgi için: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI>.
-
-- Tüm erişilebilir kayıt hedeflerini sırala:
-
-`pw-record --list-targets`
 
 - Varsayılan hedefi kullanarak örnek bir ses kaydı al:
 

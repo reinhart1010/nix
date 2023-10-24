@@ -1,25 +1,22 @@
 ---
 layout: page
 title: linux/pw-cat (English)
-description: "Pipewire tool for playing and recording audio files."
-content_hash: fda764d6867553ec753c9e381b66f44fcac8c577
+description: "Play and record audio files through pipewire."
+content_hash: 7c8d7d09e962325b6fde819aaa6c3ef46f9f1b95
+last_modified_at: 2023-10-24
+related_topics:
+  - title: Türkçe version
+    url: /tr/linux/pw-cat.html
+    icon: bi bi-globe
 ---
 # pw-cat
 
-Pipewire tool for playing and recording audio files.
+Play and record audio files through pipewire.
 More information: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_CLI>.
-
-- List all available playback targets:
-
-`pw-cat --playback --list-targets`
 
 - Play a WAV file over the default target:
 
 `pw-cat --playback `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.wav</span>
-
-- List all available record targets:
-
-`pw-cat --record --list-targets`
 
 - Record a sample recording at a different volume level:
 

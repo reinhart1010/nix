@@ -2,8 +2,8 @@
 layout: page
 title: common/hugo (English)
 description: "Template-based static site generator. Uses modules, components, and themes."
-content_hash: 6247ed40b589b5ab81ad5aef8a9ce31b20a033b7
-last_modified_at: 2023-09-10
+content_hash: f4f4f01ee17234eddfdef1d2b752271009d35aa8
+last_modified_at: 2023-10-24
 related_topics:
   - title: Indonesia version
     url: /id/common/hugo.html
@@ -33,6 +33,10 @@ More information: <https://gohugo.io>.
 - Build a site including pages that are marked as a "draft":
 
 `hugo --buildDrafts`
+
+- Build a site on your local IP:
+
+`hugo server --bind `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local-ip</span>` --baseURL `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://local-ip</span>
 
 - Build a site to a given directory:
 
