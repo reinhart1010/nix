@@ -2,7 +2,8 @@
 layout: page
 title: common/gh-screensaver (English)
 description: "Extension for GitHub CLI that runs animated terminal screensavers."
-content_hash: 9ccddf0bffeb4fde6c1b5a0cb4a497acc764b674
+content_hash: f240962323c12240743d6bde90967492ae4903fd
+last_modified_at: 2023-10-25
 ---
 # gh screensaver
 
@@ -16,7 +17,7 @@ More information: <https://github.com/vilmibm/gh-screensaver>.
 
 - Run a specific screensaver:
 
-`gh screensaver --saver `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fireworks|marquee|pipes|pollock|starfield</span>
+`gh screensaver --saver `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fireworks|life|marquee|pipes|pollock|starfield</span>
 
 - Run the "marquee" screensaver with a specific text and font:
 
