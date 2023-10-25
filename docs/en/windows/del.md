@@ -2,16 +2,34 @@
 layout: page
 title: windows/del (English)
 description: "Delete one or more files."
-content_hash: 50842596ac49e511324fcf3efced446a46a1513b
+content_hash: eda6f28eee95d0d14f6d89fb57956d2eaaeee809
+last_modified_at: 2023-10-25
 related_topics:
+  - title: Deutsch version
+    url: /de/windows/del.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/del.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/del.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/del.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/windows/del.html
     icon: bi bi-globe
 ---
 # del
 
 Delete one or more files.
+In PowerShell, this command is an alias of `Remove-Item`. This documentation is based on the Command Prompt (`cmd`) version of `del`.
 More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/del>.
+
+- View the documentation of the equivalent PowerShell command:
+
+`tldr remove-item`
 
 - Delete one or more space-separated files or patterns:
 

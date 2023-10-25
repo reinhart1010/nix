@@ -2,17 +2,14 @@
 layout: page
 title: windows/slmgr.vbs (English)
 description: "Install, activate, and manage Windows licenses."
-content_hash: 0bc7e7796723e10aed55032d5977b6aa06dc9271
-last_modified_at: 2023-07-16
+content_hash: b01b5d4f8c6b3cd973c2c6c87c49a1576b872277
+last_modified_at: 2023-10-25
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># slmgr.vbs
+# slmgr.vbs
 
 Install, activate, and manage Windows licenses.
 This command may override, deactivate, and/or remove your current Windows license. Please proceed with caution.
-More information: <https://docs.microsoft.com/windows-server/get-started/activation-slmgr-vbs-options>.
+More information: <https://learn.microsoft.com/windows-server/get-started/activation-slmgr-vbs-options>.
 
 - [d]isplay the current Windows [l]icense [i]nformation:
 

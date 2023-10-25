@@ -2,8 +2,8 @@
 layout: page
 title: windows/rmdir (English)
 description: "Remove a directory and its contents."
-content_hash: c1568f89cfd3f9dc180e327ee64997f528887674
-last_modified_at: 2023-02-20
+content_hash: 36d3f5e93b47be8f115683864445fe75900d2aa9
+last_modified_at: 2023-10-25
 related_topics:
   - title: Nederlands version
     url: /nl/windows/rmdir.html
@@ -21,7 +21,12 @@ related_topics:
 # rmdir
 
 Remove a directory and its contents.
+In PowerShell, this command is an alias of `Remove-Item`. This documentation is based on the Command Prompt (`cmd`) version of `rmdir`.
 More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/rmdir>.
+
+- View the documentation of the equivalent PowerShell command:
+
+`tldr remove-item`
 
 - Remove an empty directory:
 
