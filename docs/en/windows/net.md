@@ -2,16 +2,13 @@
 layout: page
 title: windows/net (English)
 description: "System utility to view and modify network-related settings."
-content_hash: a2f41a4cea875cc18463817b4ed75d3742109d61
-last_modified_at: 2023-07-13
+content_hash: 9d7d9c670a362c693008f97f4608651e5634fef3
+last_modified_at: 2023-10-25
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># net
+# net
 
 System utility to view and modify network-related settings.
-More information: <https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/gg651155(v=ws.11)>.
+More information: <https://learn.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/gg651155(v=ws.11)>.
 
 - Start or stop a Windows service synchronously:
 

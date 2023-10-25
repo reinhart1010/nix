@@ -2,8 +2,8 @@
 layout: page
 title: linux/cp (Nederlands)
 description: "Kopieer bestanden en mappen."
-content_hash: ad6b8b34f79ff5cb6d8050bc34d644218b9d01da
-last_modified_at: 2023-10-20
+content_hash: a32fcd14d25b5b29a545821f1551d3fedfadfb41
+last_modified_at: 2023-10-25
 related_topics:
   - title: català version
     url: /ca/linux/cp.html
@@ -42,16 +42,7 @@ related_topics:
     url: /zh_TW/linux/cp.html
     icon: bi bi-globe
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/cp.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cp
+# cp
 
 Kopieer bestanden en mappen.
 Meer informatie: <https://www.gnu.org/software/coreutils/cp>.
@@ -64,7 +55,7 @@ Meer informatie: <https://www.gnu.org/software/coreutils/cp>.
 
 `cp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bron_bestand.ext</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/doel_map</span>
 
-- Kopieer de inhoud van een map recursief naar een andere locatie (als de doelmap bestaat, dan wordt de map hierin gekopieerd)
+- Kopieer de inhoud van een map recursief naar een andere locatie (als de doelmap bestaat, dan wordt de map hierin gekopieerd):
 
 `cp -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bron_map</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/doel_map</span>
 

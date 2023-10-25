@@ -1,14 +1,18 @@
 ---
 layout: page
 title: linux/archinstall (Nederlands)
-description: "Begeleidende Arch Linux installatie met een twist"
-content_hash: 364d8f40300e6bd284d75ff8e060ec6d69a4930b
+description: "Begeleidende Arch Linux installatie met een twist."
+content_hash: eb575744c06c9da63d336ece576255d99ce8e292
+last_modified_at: 2023-10-25
 related_topics:
   - title: Deutsch version
     url: /de/linux/archinstall.html
     icon: bi bi-globe
   - title: English version
     url: /en/linux/archinstall.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/archinstall.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/archinstall.html
@@ -23,12 +27,9 @@ related_topics:
     url: /zh/linux/archinstall.html
     icon: bi bi-globe
 ---
+# archinstall
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># archinstall
-
-Begeleidende Arch Linux installatie met een twist
+Begeleidende Arch Linux installatie met een twist.
 Meer informatie: <https://archinstall.readthedocs.io>.
 
 - Start de interactieve installatie:

@@ -2,12 +2,17 @@
 layout: page
 title: windows/choice (English)
 description: "Prompt user to select a choice and return the selected choice index."
-content_hash: 00e6b063221f029280f85fb25275a103a4a7f44c
+content_hash: 67221db8113f14d217fa398bc8de9ee5a6434d3d
+last_modified_at: 2023-10-25
+related_topics:
+  - title: தமிழ் version
+    url: /ta/windows/choice.html
+    icon: bi bi-globe
 ---
 # choice
 
 Prompt user to select a choice and return the selected choice index.
-More information: <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/choice>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/choice>.
 
 - Prompt the current user to select a `Y` or `N` choice:
 

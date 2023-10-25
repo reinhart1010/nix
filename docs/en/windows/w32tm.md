@@ -2,13 +2,13 @@
 layout: page
 title: windows/w32tm (English)
 description: "Query and control the w32time time synchronization service."
-content_hash: 19da3052fbd7b83ac952b05570aee95d36b96878
-last_modified_at: 2023-07-01
+content_hash: b923c4a8b77329b3197916f2293242fe9dee7e2a
+last_modified_at: 2023-10-25
 ---
 # w32tm
 
 Query and control the w32time time synchronization service.
-More information: <https://learn.microsoft.com/en-us/windows-server/networking/windows-time-service/windows-time-service-tools-and-settings>.
+More information: <https://learn.microsoft.com/windows-server/networking/windows-time-service/windows-time-service-tools-and-settings>.
 
 - Show the current status of time synchronization:
 
