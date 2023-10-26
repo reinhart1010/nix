@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco-upgrade (français)
 description: "Surclassez un ou plusieurs forfaits avec Chocolatey."
-content_hash: e83a1782c3ae95a5dd8afbb2e51c79acb553b4b7
-last_modified_at: 2023-10-25
+content_hash: 2e1e7f7f8b9965afec51d97ba992d915cc204480
+last_modified_at: 2023-10-26
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-upgrade.html
@@ -27,38 +27,35 @@ related_topics:
     url: /zh/windows/choco-upgrade.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># choco upgrade
+# choco upgrade
 
 Surclassez un ou plusieurs forfaits avec Chocolatey.
 Plus d'information: <https://chocolatey.org/docs/commands-upgrade>.
 
-- Mettre à niveau un ou plusieurs packages séparés par des espaces:
+- Mettre à niveau un ou plusieurs packages séparés par des espaces :
 
 `choco upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet1 paquet2 ...</span>
 
-- Mise à niveau vers une version spécifique d'un package:
+- Mise à niveau vers une version spécifique d'un package :
 
 `choco upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet</span>` --version `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span>
 
-- Mettre à niveau tous les packages:
+- Mettre à niveau tous les packages :
 
 `choco upgrade all`
 
-- Mettre à niveau tous les packages sauf ceux spécifiés, séparés par des virgules:
+- Mettre à niveau tous les packages sauf ceux spécifiés, séparés par des virgules :
 
 `choco upgrade all --except "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet1 paquet2 ...</span>`"`
 
-- Confirmer automatiquement toutes les invites:
+- Confirmer automatiquement toutes les invites :
 
 `choco upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet</span>` --yes`
 
-- Spécifier une source personnalisée à partir de laquelle recevoir les packages:
+- Spécifier une source personnalisée à partir de laquelle recevoir les packages :
 
 `choco upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet</span>` --source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">source_url|alias</span>
 
-- Fournir un nom d'utilisateur et un mot de passe pour l'authentification:
+- Fournir un nom d'utilisateur et un mot de passe pour l'authentification :
 
 `choco upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet</span>` --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom d'utilisateur</span>` --password `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mot de passe</span>

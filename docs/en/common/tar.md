@@ -2,8 +2,8 @@
 layout: page
 title: common/tar (English)
 description: "Archiving utility."
-content_hash: dd2a6bd8efd83b734fd60c41ac922229f1c3ae1e
-last_modified_at: 2023-02-21
+content_hash: ba42bc1ab62affc668675b5c88bc3e2194276fd6
+last_modified_at: 2023-10-26
 related_topics:
   - title: Deutsch version
     url: /de/common/tar.html
@@ -56,7 +56,7 @@ More information: <https://www.gnu.org/software/tar>.
 
 `tar xf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.tar[.gz|.bz2|.xz]</span>` --directory=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
-- [c]reate a compressed archive and write it to a [f]ile, using [a]rchive suffix to determine the compression program:
+- [c]reate a compressed archive and write it to a [f]ile, using the file extension to [a]utomatically determine the compression program:
 
 `tar caf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target.tar.xz</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 

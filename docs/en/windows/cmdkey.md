@@ -2,13 +2,10 @@
 layout: page
 title: windows/cmdkey (English)
 description: "Create, show, and delete stored user names and passwords."
-content_hash: fb5a65e164dbb9492f712757d208bc964423942a
-last_modified_at: 2023-06-30
+content_hash: a305130da57bbef40ba8f46d55703f99cf9efb53
+last_modified_at: 2023-10-26
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cmdkey
+# cmdkey
 
 Create, show, and delete stored user names and passwords.
 More information: <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cmdkey>.
@@ -23,4 +20,4 @@ More information: <https://learn.microsoft.com/en-us/windows-server/administrati
 
 - Delete credentials for a specific target:
 
-`cmdkey.exe /delete `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_name</span>
+`cmdkey /delete `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target_name</span>

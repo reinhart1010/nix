@@ -2,7 +2,7 @@
 layout: page
 title: windows/choco-uninstall (français)
 description: "Désinstallez un ou plusieurs packages avec Chocolatey."
-content_hash: 5aea92d6928ec78c17daf583669bf19bf7ae5c78
+content_hash: 0c629c61386c9b851a5249aaeb490f83f73a2a41
 last_modified_at: 2023-10-26
 related_topics:
   - title: Deutsch version
@@ -29,22 +29,22 @@ related_topics:
 Désinstallez un ou plusieurs packages avec Chocolatey.
 Plus d'information: <https://chocolatey.org/docs/commands-uninstall>.
 
-- Désinstaller un ou plusieurs packages séparés par des espaces:
+- Désinstaller un ou plusieurs packages séparés par des espaces :
 
 `choco uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet1 paquet2 ...</span>
 
-- Désinstaller une version spécifique d'un package:
+- Désinstaller une version spécifique d'un package :
 
 `choco uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet</span>` --version `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span>
 
-- Confirmer automatiquement toutes les invites:
+- Confirmer automatiquement toutes les invites :
 
 `choco uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet</span>` --yes`
 
-- Supprimez toutes les dépendances lors de la désinstallation:
+- Supprimez toutes les dépendances lors de la désinstallation :
 
 `choco uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet</span>` --remove-dependencies`
 
-- Désinstaller tous les packages:
+- Désinstaller tous les packages :
 
 `choco uninstall all`
