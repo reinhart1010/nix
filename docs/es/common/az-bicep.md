@@ -2,8 +2,8 @@
 layout: page
 title: common/az-bicep (español)
 description: "Grupo de comandos de la CLI de Bicep."
-content_hash: a488bc1300270bb4b94683a869c6cf4fe43473ea
-last_modified_at: 2023-10-15
+content_hash: 5b841a75e1ba67d1ecf6dbc140abd0dc2e67e0c8
+last_modified_at: 2023-10-26
 related_topics:
   - title: English version
     url: /en/common/az-bicep.html
@@ -15,7 +15,7 @@ Grupo de comandos de la CLI de Bicep.
 Parte de `azure-cli` (también conocido como `az`).
 Más información: <https://learn.microsoft.com/cli/azure/bicep>.
 
-- Instala la CLI de Bicep.
+- Instala la CLI de Bicep:
 
 `az bicep install`
 

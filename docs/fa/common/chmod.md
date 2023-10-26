@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/chmod (فارسی)
-description: "تغییر مجوز(ها)ی دسترسی به یک فایل یا پوشه"
-content_hash: 07b7f8aa567df3bd3381d3b27b00deb986cc1962
-last_modified_at: 2023-08-09
+description: "تغییر مجوز(ها)ی دسترسی به یک فایل یا پوشه."
+content_hash: 84a932794a2c7dd7aef4e538a42407f9b7597bef
+last_modified_at: 2023-10-26
 related_topics:
   - title: Deutsch version
     url: /de/common/chmod.html
@@ -26,6 +26,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/chmod.html
     icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/common/chmod.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/chmod.html
     icon: bi bi-globe
@@ -41,43 +44,43 @@ related_topics:
   - title: 中文 version
     url: /zh/common/chmod.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/chmod.html
+    icon: bi bi-globe
 ---
+# chmod
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># chmod
-
-تغییر مجوز(ها)ی دسترسی به یک فایل یا پوشه
+تغییر مجوز(ها)ی دسترسی به یک فایل یا پوشه.
 اطلاعات بیشتر : <https://www.gnu.org/software/coreutils/chmod>.
 
-- به مالک فایل دسترسی اجرا میدهد
+- به مالک فایل دسترسی اجرا میدهد:
 
 `chmod u+x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/فایل</span>
 
-- به کابر مالک دسترسی خواند|نوشتن یک فایل|پوشه را میدهد
+- به کابر مالک دسترسی خواند|نوشتن یک فایل|پوشه را میدهد:
 
 `chmod u+rw `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/فایل_یا_پوشه</span>
 
-- دسترسی اجرا را از گروه صلب میکند
+- دسترسی اجرا را از گروه صلب میکند:
 
 `chmod g-x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/فایل</span>
 
-- به تمامی کاربرها دسترسی خواندن و اجرا میدهد
+- به تمامی کاربرها دسترسی خواندن و اجرا میدهد:
 
 `chmod a+rx `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/فایل</span>
 
-- به دیگران(کاربرانی که صاحب فایل نیستند) دسترسی های گروه را میدهد
+- به دیگران(کاربرانی که صاحب فایل نیستند) دسترسی های گروه را میدهد:
 
 `chmod o=g `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/فایل</span>
 
-- به همگان همه دسترسی(ها) را میدهد
+- به همگان همه دسترسی(ها) را میدهد:
 
 `chmod o= `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/فایل</span>
 
-- به صورت بازگشتی به گروه و دیگران دسترسی نوشتن میدهد
+- به صورت بازگشتی به گروه و دیگران دسترسی نوشتن میدهد:
 
 `chmod -R g+w,o+w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/پوشه</span>
 
-- به صورت بازگشتی در پوشه و زیرپوشه(ها) دسترسی اجرا و خواندن فایل(ها) را میدهد
+- به صورت بازگشتی در پوشه و زیرپوشه(ها) دسترسی اجرا و خواندن فایل(ها) را میدهد:
 
 `chmod -R a+rX `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/پوشه</span>

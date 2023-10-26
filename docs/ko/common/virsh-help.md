@@ -2,8 +2,8 @@
 layout: page
 title: common/virsh-help (한국어)
 description: "`virsh` 명령 또는 명령 그룹에 대한 정보 표시."
-content_hash: 1021f20ab1a7369315c02f0727e45eb77a2605ec
-last_modified_at: 2023-10-22
+content_hash: 4f085cb89b8e3c0c58089adbb91bc6101f11a1f7
+last_modified_at: 2023-10-26
 related_topics:
   - title: English version
     url: /en/common/virsh-help.html
@@ -26,7 +26,7 @@ related_topics:
 
 `virsh help | grep "keyword"`
 
-- 카테고리의 명령 나열
+- 카테고리의 명령 나열:
 
 `virsh help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">카테고리_키워드</span>
 

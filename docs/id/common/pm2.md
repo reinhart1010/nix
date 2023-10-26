@@ -1,19 +1,17 @@
 ---
 layout: page
 title: common/pm2 (Indonesia)
-description: "Manajer proses untuk Node.js"
-content_hash: a5da812c42246355450e0ae97bec8fc65c710f88
+description: "Manajer proses untuk Node.js."
+content_hash: f386b72b39520d7084bb1521f39b4fadf6e0d75e
+last_modified_at: 2023-10-26
 related_topics:
   - title: English version
     url: /en/common/pm2.html
     icon: bi bi-globe
 ---
+# pm2
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pm2
-
-Manajer proses untuk Node.js
+Manajer proses untuk Node.js.
 Digunakan untuk manajemen log, pemantauan, dan pengaturan proses.
 Informasi lebih lanjut: <https://pm2.keymetrics.io>.
 

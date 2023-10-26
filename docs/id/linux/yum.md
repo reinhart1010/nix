@@ -2,8 +2,8 @@
 layout: page
 title: linux/yum (Indonesia)
 description: "Utilitas manajemen paket untuk RHEL, Fedora, dan CentOS (untuk versi-versi yang lebih lama)."
-content_hash: 19499dcafb134bdc7e2f857828668d1f908bc082
-last_modified_at: 2023-10-05
+content_hash: 47ce879fa642a69422e04a7366fca58192572dac
+last_modified_at: 2023-10-26
 related_topics:
   - title: català version
     url: /ca/linux/yum.html
@@ -21,16 +21,13 @@ related_topics:
     url: /pt_BR/linux/yum.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># yum
+# yum
 
 Utilitas manajemen paket untuk RHEL, Fedora, dan CentOS (untuk versi-versi yang lebih lama).
 Untuk perintah-perintah setara dalam pengelola paket lainnya, lihat <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 Informasi lebih lanjut: <https://manned.org/yum>.
 
-- Instal sebuah paket baru
+- Instal sebuah paket baru:
 
 `yum install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span>
 

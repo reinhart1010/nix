@@ -2,8 +2,8 @@
 layout: page
 title: linux/ip (italiano)
 description: "Mostra / manipola routing, dispositivi, criteri di routing e tunnel."
-content_hash: 865c98373a032921bfa9cd56839cf5ec07e448ea
-last_modified_at: 2023-07-03
+content_hash: fefdba0520e77e0206b59b8c28cee4f6633b8e60
+last_modified_at: 2023-10-26
 related_topics:
   - title: Deutsch version
     url: /de/linux/ip.html
@@ -21,13 +21,10 @@ related_topics:
     url: /tr/linux/ip.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ip
+# ip
 
 Mostra / manipola routing, dispositivi, criteri di routing e tunnel.
-Alcuni sottocomandi, come `ip address`, hanno una propria documentazione d'uso. Maggiori informazioni: <https://www.man7.org/linux/man-pages/man8/ip.8.html>
+Alcuni sottocomandi, come `ip address`, hanno una propria documentazione d'uso. Maggiori informazioni: <https://www.man7.org/linux/man-pages/man8/ip.8.html>.
 
 - Elenca le interfacce con informazioni dettagliate:
 

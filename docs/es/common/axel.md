@@ -2,8 +2,8 @@
 layout: page
 title: common/axel (español)
 description: "Acelerador de descargas."
-content_hash: dcd9b8b3a34dfcda3e06ce7efe901e7ef6e6cb3a
-last_modified_at: 2023-07-16
+content_hash: 69c6aa213c87c1cf4fad3ba89ef0096514146647
+last_modified_at: 2023-10-26
 related_topics:
   - title: English version
     url: /en/common/axel.html
@@ -24,10 +24,7 @@ related_topics:
     url: /zh/common/axel.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># axel
+# axel
 
 Acelerador de descargas.
 Protocolos soportados HTTP, HTTPS y FTP.
@@ -45,7 +42,7 @@ Más información: <https://github.com/axel-download-accelerator/axel>.
 
 `axel -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">num_conexiones</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
-- Busca copias espejo.
+- Busca copias espejo:
 
 `axel -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">num_de_espejos</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 

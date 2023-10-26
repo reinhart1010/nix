@@ -2,8 +2,8 @@
 layout: page
 title: common/tldr (português (Brasil))
 description: "Exibe páginas de ajuda simples para ferramentas de linha de comando do projeto tldr-pages."
-content_hash: 30c5c8d3aba67fdf33d840956cc94bbf40f3c7e9
-last_modified_at: 2023-10-14
+content_hash: b196cae80057fd0b39b2a8b44e2d477046aa1d04
+last_modified_at: 2023-10-26
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
@@ -56,7 +56,7 @@ related_topics:
 Exibe páginas de ajuda simples para ferramentas de linha de comando do projeto tldr-pages.
 Mais informações: <https://tldr.sh>.
 
-- Imprime a página do tldr para um comando específico (dica: é assim que você chegou aqui!)
+- Imprime a página do tldr para um comando específico (dica: é assim que você chegou aqui!):
 
 `tldr `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>
 

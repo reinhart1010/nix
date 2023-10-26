@@ -2,16 +2,23 @@
 layout: page
 title: common/ani-cli (Deutsch)
 description: "Ein Cli zum Stöbern und Anschauen von Anime."
-content_hash: 51fa4897ce280ef7d894043d84693565d077dce1
+content_hash: 0a8b94f802d6848aa7ca56c7a131c1a8af12e7b9
+last_modified_at: 2023-10-26
 related_topics:
   - title: English version
     url: /en/common/ani-cli.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/ani-cli.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/ani-cli.html
     icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/common/ani-cli.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/ani-cli.html
     icon: bi bi-globe
 ---
 # ani-cli
@@ -39,6 +46,6 @@ Weitere Informationen: <https://github.com/pystardust/ani-cli>.
 
 `ani-cli -c`
 
-- `ani-cli` aktualisieren:
+- Aktualisiere `ani-cli`:
 
 `ani-cli -U`

@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco-install (italiano)
 description: "Installa uno o più pacchetti con Chocolatey."
-content_hash: 05e02d49c2dccae35570b6c9379f770bbd71aca3
-last_modified_at: 2023-07-03
+content_hash: 48cb6ae910d43952cda66000793593ac81ff1141
+last_modified_at: 2023-10-26
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-install.html
@@ -27,13 +27,10 @@ related_topics:
     url: /zh/windows/choco-install.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># choco install
+# choco install
 
 Installa uno o più pacchetti con Chocolatey.
-Maggiori informazioni: <https://chocolatey.org/docs/commands-install>
+Maggiori informazioni: <https://chocolatey.org/docs/commands-install>.
 
 - Installa uno o più pacchetti separati da spazio:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/rsync (português (Brasil))
 description: "Transfira arquivos para ou de um host remote (mas não entre dois hosts remotos), usando SSH por padrão."
-content_hash: c44bb254fc7ce2d0a43e417da07422afce383929
-last_modified_at: 2023-10-14
+content_hash: 4348c30b28bf3cfae83477c96324dfb861be191f
+last_modified_at: 2023-10-26
 related_topics:
   - title: English version
     url: /en/common/rsync.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/rsync.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/rsync.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/rsync.html
@@ -24,7 +27,7 @@ related_topics:
 # rsync
 
 Transfira arquivos para ou de um host remote (mas não entre dois hosts remotos), usando SSH por padrão.
-para especificar um caminho remoto, use `host:caminho/para/arquivo_ou_diretório`.
+Para especificar um caminho remoto, use `host:caminho/para/arquivo_ou_diretório`.
 Mais informações: <https://download.samba.org/pub/rsync/rsync.1>.
 
 - Transfere um arquivo:

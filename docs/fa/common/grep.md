@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/grep (فارسی)
-description: "یافتن الگو در فایل ها به کمک عبارات با قاعده"
-content_hash: b999c728dcbb1fc54c97592ce5524a5e4f7e74f5
-last_modified_at: 2023-08-09
+description: "یافتن الگو در فایل ها به کمک عبارات با قاعده."
+content_hash: d6d8ebe5abe0a695802d00cc23ae065fe7338f23
+last_modified_at: 2023-10-26
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -36,12 +36,9 @@ related_topics:
     url: /tr/common/grep.html
     icon: bi bi-globe
 ---
+# grep
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># grep
-
-یافتن الگو در فایل ها به کمک عبارات با قاعده
+یافتن الگو در فایل ها به کمک عبارات با قاعده.
 اطلاعات بیشتر : <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - جستجو یک الگو در یک فایل :
@@ -52,7 +49,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 `grep --fixed-strings "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">رشته_مورد_نظر</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/فایل</span>
 
-- جستجو بازگشتی یک الگو در تمامی فایل های یک پوشه، نمایش تمامی خطوط منطبق، فایل های باینری را رد میکند
+- جستجو بازگشتی یک الگو در تمامی فایل های یک پوشه، نمایش تمامی خطوط منطبق، فایل های باینری را رد میکند:
 
 `grep --recursive --line-number --binary-files=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">without-match</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">الگو_جستجو</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/پوشه</span>
 
@@ -60,7 +57,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 `grep --extended-regexp --ignore-case "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">الگو_جستجو</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/فایل</span>
 
-- چاپ 3 خط از قبل و بعد محل انطباق
+- چاپ 3 خط از قبل و بعد محل انطباق:
 
 `grep --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">الگو_جستجو</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/فایل</span>
 

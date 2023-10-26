@@ -2,8 +2,8 @@
 layout: page
 title: common/diff (فارسی)
 description: "مقایسه فایل(ها) و پوشه(ها)."
-content_hash: ff2610f4e6c8c142383dcd5d580562b5362ee709
-last_modified_at: 2023-08-09
+content_hash: f169e8d889e42462532acaa7b7e57ab7e8c4f22c
+last_modified_at: 2023-10-26
 related_topics:
   - title: Deutsch version
     url: /de/common/diff.html
@@ -33,10 +33,7 @@ related_topics:
     url: /zh_TW/common/diff.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># diff
+# diff
 
 مقایسه فایل(ها) و پوشه(ها).
 اطلاعات بیشتر: <https://man7.org/linux/man-pages/man1/diff.1.html>.
@@ -45,11 +42,11 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 `diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">فایل قدیمی</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">فایل_جدید</span>
 
-- مقایسه فایل ها، با صرف نظر از فاصله های خالی
+- مقایسه فایل ها، با صرف نظر از فاصله های خالی:
 
 `diff --ignore-all-space `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">فایل قدیمی</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">فایل_جدید</span>
 
-- مقایسه فایل ها، با نمایش تفاوت ها در کنار هم
+- مقایسه فایل ها، با نمایش تفاوت ها در کنار هم:
 
 `diff --side-by-side `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">فایل قدیمی</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">فایل_جدید</span>
 
@@ -57,11 +54,11 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 `diff --unified `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">فایل قدیمی</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">فایل_جدید</span>
 
-- مقایسه بازگشتی پوشه ها (نمایش اسامی متفاوت فایل ها و پوشه ها و همچنین تغییرات فایل ها)
+- مقایسه بازگشتی پوشه ها (نمایش اسامی متفاوت فایل ها و پوشه ها و همچنین تغییرات فایل ها):
 
 `diff --recursive `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">پوشه_قدیمی</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">پوشه_جدید</span>
 
-- نمایش نام فایل های متفاوت مقایسه شده
+- نمایش نام فایل های متفاوت مقایسه شده:
 
 `diff --recursive --brief `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">پوشه_قدیمی</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">پوشه_جدید</span>
 

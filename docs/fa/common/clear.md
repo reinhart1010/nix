@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/clear (فارسی)
-description: "پاک کردن صفحه ترمینال"
-content_hash: be2840e28a432c129c23b3c05a0c5a08d6e8b736
-last_modified_at: 2023-08-09
+description: "پاک کردن صفحه ترمینال."
+content_hash: 21d12d7bddc4b32013470bc3de5c55e2b59499a4
+last_modified_at: 2023-10-26
 related_topics:
   - title: Deutsch version
     url: /de/common/clear.html
@@ -33,12 +33,9 @@ related_topics:
     url: /zh/common/clear.html
     icon: bi bi-globe
 ---
+# clear
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># clear
-
-پاک کردن صفحه ترمینال
+پاک کردن صفحه ترمینال.
 اطلاعات بیشتر: <https://manned.org/clear>.
 
 - پاک کردن صفحه (معادل فشردن کلیدهای کنترل+ال در پوسته بش) :
@@ -49,7 +46,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 `clear -x`
 
-- مشخص نمودن نوع ترمینال برای پاکسازی (مقدار پیشفرض در متغییر عمومی `Term`)
+- مشخص نمودن نوع ترمینال برای پاکسازی (مقدار پیشفرض در متغییر عمومی `Term`):
 
 `clear -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">نوع_ترمینال</span>
 

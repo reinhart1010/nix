@@ -2,8 +2,8 @@
 layout: page
 title: windows/cls (ລາວ)
 description: "ລ້າງຕົວອັກສອນທັງໝົດເທິງໜ້າຈໍ"
-content_hash: 7f70b1e300e481495ceccf53121a419de6690ba2
-last_modified_at: 2022-12-29
+content_hash: 433762ea3b250471a71df6d23d5b956d83488a26
+last_modified_at: 2023-10-26
 related_topics:
   - title: English version
     url: /en/windows/cls.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/windows/cls.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/cls.html
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/windows/cls.html
@@ -36,11 +39,20 @@ related_topics:
     url: /zh_TW/windows/cls.html
     icon: bi bi-globe
 ---
-# cls
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/windows/cls.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># cls
 
 ລ້າງຕົວອັກສອນທັງໝົດເທິງໜ້າຈໍ
 ຂໍ້ມູນເພີ່ມເຕີມ: <https://learn.microsoft.com/windows-server/administration/windows-commands/cls>.
 
-- ລ້າງຕົວອັກສອນທັງໝົດເທິງໜ້າຈໍ
+- ລ້າງຕົວອັກສອນທັງໝົດເທິງໜ້າຈໍ:
 
 `cls`

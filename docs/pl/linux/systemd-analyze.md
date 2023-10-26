@@ -2,20 +2,17 @@
 layout: page
 title: linux/systemd-analyze (polski)
 description: "Analizuj i debuguj menedżera systemu."
-content_hash: 0c82b41792c3b5cf5199ec3de1fa583c7c1bd83d
-last_modified_at: 2023-05-14
+content_hash: 2e3eb8cc8bda41ed700b1ec999f63998a09933fd
+last_modified_at: 2023-10-26
 related_topics:
   - title: English version
     url: /en/linux/systemd-analyze.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># systemd-analyze
+# systemd-analyze
 
 Analizuj i debuguj menedżera systemu.
-Wyświetl szczegóły dotyczące czasiu procesu uruchamiania jednostek (usług, punktów montowania, urządzeń, gniazd):
+Wyświetl szczegóły dotyczące czasiu procesu uruchamiania jednostek (usług, punktów montowania, urządzeń, gniazd).
 Więcej informacji: <https://www.freedesktop.org/software/systemd/man/systemd-analyze.html>.
 
 - Wyświetl wszystkie uruchomione jednostki, uporządkowane według czasu ich inicjalizacji:

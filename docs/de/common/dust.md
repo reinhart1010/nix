@@ -2,7 +2,8 @@
 layout: page
 title: common/dust (Deutsch)
 description: "Dust gib einen sofortigen Überblick, welche Verzeichnisse Festplatten Speicherplatz benutzen."
-content_hash: 7668ae88d2cc93209a5d4c18f0adb1daf199688a
+content_hash: 1db886ed2093fa7a737e8cb65d2f6d27f5ab3443
+last_modified_at: 2023-10-26
 related_topics:
   - title: English version
     url: /en/common/dust.html
@@ -11,10 +12,7 @@ related_topics:
     url: /pt_BR/common/dust.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dust
+# dust
 
 Dust gib einen sofortigen Überblick, welche Verzeichnisse Festplatten Speicherplatz benutzen.
 Weitere Informationen: <https://github.com/bootandy/dust>.
@@ -27,7 +25,7 @@ Weitere Informationen: <https://github.com/bootandy/dust>.
 
 `dust `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zum/verzeichnis1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zum/verzeichnis2</span>
 
-- 30 Verzeichnisse anzeigen (Standardwert: 21):
+- Zeige 30 Verzeichnisse an (Standardwert: 21):
 
 `dust --number-of-lines `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30</span>
 

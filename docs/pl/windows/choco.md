@@ -2,13 +2,20 @@
 layout: page
 title: windows/choco (polski)
 description: "Interfejs wiersza polecenia dla menadżera pakietów Chocolatey."
-content_hash: 1ef71129f77b41cedf9024d749d0b0d1cb28faef
+content_hash: f555cf83a2024adc0f79eb9e93d29bac2b22f106
+last_modified_at: 2023-10-26
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco.html
     icon: bi bi-globe
   - title: English version
     url: /en/windows/choco.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/choco.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/choco.html
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/windows/choco.html
@@ -22,11 +29,11 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/choco.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/windows/choco.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># choco
+# choco
 
 Interfejs wiersza polecenia dla menadżera pakietów Chocolatey.
 Niektóre podkomendy takie jak `choco install` posiadają osobną dokumentację.
@@ -44,6 +51,6 @@ Więcej informacji: <https://chocolatey.org>.
 
 `choco `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">komenda</span>` -?`
 
-- Wyświetlenie zainstalowanej wersji Chocolatey
+- Wyświetlenie zainstalowanej wersji Chocolatey:
 
 `choco --version`

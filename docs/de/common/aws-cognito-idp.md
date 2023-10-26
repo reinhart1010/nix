@@ -2,8 +2,8 @@
 layout: page
 title: common/aws-cognito-idp (Deutsch)
 description: "Verwalten des Amazon Cognito-Benutzerpools, seiner Benutzer und Gruppen mit der CLI."
-content_hash: 82262e646f602fe063dd92467dc3b1891eed2670
-last_modified_at: 2023-08-04
+content_hash: 3091c5c63170e2a3bec66a3add067cf2cffc4127
+last_modified_at: 2023-10-26
 related_topics:
   - title: English version
     url: /en/common/aws-cognito-idp.html
@@ -12,13 +12,10 @@ related_topics:
     url: /es/common/aws-cognito-idp.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws cognito-idp
+# aws cognito-idp
 
 Verwalten des Amazon Cognito-Benutzerpools, seiner Benutzer und Gruppen mit der CLI.
-Weitere Informationen: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cognito-idp/index.html>
+Weitere Informationen: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cognito-idp/index.html>.
 
 - Erstelle einen neuen Cognito-Benutzerpool:
 

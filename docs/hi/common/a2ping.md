@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/a2ping (हिन्दी)
-description: "छवियों को ईपीएस या पीडीएफ फाइलों में परिवर्तित करें।"
-content_hash: 86f3ea3f2e1706e3ccb3745e76acc31512d40b71
+description: "छवियों को EPS या PDF फाइलों में परिवर्तित करें।"
+content_hash: e289ecb93dfb5ad6b0f43b2d04b4ca5810c4280a
 last_modified_at: 2023-10-26
 related_topics:
   - title: English version
@@ -11,32 +11,32 @@ related_topics:
 ---
 # a2ping
 
-छवियों को ईपीएस या पीडीएफ फाइलों में परिवर्तित करें।
+छवियों को EPS या PDF फाइलों में परिवर्तित करें।
 अधिक जानकारी: <https://manned.org/a2ping>.
 
-- एक छवि को पीडीएफ में बदलें (ध्यान दें: आउटपुट फ़ाइल नाम निर्दिष्ट करना वैकल्पिक है):
+- एक छवि को PDF में बदलें (ध्यान दें: आउटपुट फ़ाइल नाम निर्दिष्ट करना वैकल्पिक है):
 
-`a2ping `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पथ/से/छवि.ext</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.pdf</span>
+`a2ping `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">छवि.ext/का/पथ</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आउटपुट.pdf/का/पथ</span>
 
 - निर्दिष्ट विधि का उपयोग करके दस्तावेज़ को संपीड़ित करें:
 
-`a2ping --nocompress `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">none|zip|best|flate</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पथ/से/फ़ाइल</span>
+`a2ping --nocompress `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">none|zip|best|flate</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल/का/पथ</span>
 
 - यदि मौजूद है तो HiResBoundingBox को स्कैन करें (ध्यान दें: यह डिफ़ॉल्ट रूप से हाँ है):
 
-`a2ping --nohires `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पथ/से/फ़ाइल</span>
+`a2ping --nohires `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल/का/पथ</span>
 
 - मूल पृष्ठ के नीचे और बाईं ओर पृष्ठ सामग्री की अनुमति दें (नोट: यह डिफ़ॉल्ट रूप से नहीं है):
 
-`a2ping --below `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पथ/से/फ़ाइल</span>
+`a2ping --below `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल/का/पथ</span>
 
 - `gs` के लिए अतिरिक्त तर्क पारित करें:
 
-`a2ping --gsextra `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">तर्क</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पथ/से/फ़ाइल</span>
+`a2ping --gsextra `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">तर्क</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल/का/पथ</span>
 
-- बाहरी प्रोग्राम में अतिरिक्त तर्क पास करें (यानी पीडीएफटॉप्स):
+- बाहरी प्रोग्राम में अतिरिक्त तर्क पास करें (यानी pdftops):
 
-`a2ping --extra `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">तर्क</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">पथ/से/फ़ाइल</span>
+`a2ping --extra `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">तर्क</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल/का/पथ</span>
 
 - सहायता प्रदर्शित करें:
 

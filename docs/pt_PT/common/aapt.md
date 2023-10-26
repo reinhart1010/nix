@@ -2,8 +2,8 @@
 layout: page
 title: common/aapt (português (Portugal))
 description: "Android Asset Packaging Tool."
-content_hash: 4d36b012ed8665345a5feb7b522b1047a6f93f2b
-last_modified_at: 2023-09-10
+content_hash: 19bc1e512a462d8cd43cd64bb53a0ea6648d2707
+last_modified_at: 2023-10-26
 related_topics:
   - title: Deutsch version
     url: /de/common/aapt.html
@@ -17,6 +17,9 @@ related_topics:
   - title: français version
     url: /fr/common/aapt.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/common/aapt.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/aapt.html
     icon: bi bi-globe
@@ -26,6 +29,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/aapt.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/aapt.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/common/aapt.html
     icon: bi bi-globe
@@ -33,13 +39,10 @@ related_topics:
     url: /zh/common/aapt.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aapt
+# aapt
 
 Android Asset Packaging Tool.
-Compila e empacotar os recursos de uma aplicação Android."
+Compila e empacotar os recursos de uma aplicação Android.
 Mais informação: <https://elinux.org/Android_aapt>.
 
 - Listar os ficheiros contidos num arquivo APK:

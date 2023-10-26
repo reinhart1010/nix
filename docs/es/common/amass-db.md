@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/amass-db (español)
-description: "interactúa con una base de datos Amass."
-content_hash: a5dcadbc18b688b9fdca7f1f23758aa38ae53b6f
-last_modified_at: 2023-02-13
+description: "Interactúa con una base de datos Amass."
+content_hash: 62f9754babb590aef8444d041bbe2566353223a2
+last_modified_at: 2023-10-26
 related_topics:
   - title: English version
     url: /en/common/amass-db.html
@@ -12,12 +12,9 @@ related_topics:
     url: /fr/common/amass-db.html
     icon: bi bi-globe
 ---
+# amass db
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># amass db
-
-interactúa con una base de datos Amass.
+Interactúa con una base de datos Amass.
 Más información: <https://github.com/OWASP/Amass/blob/master/doc/user_guide.md#the-db-subcommand>.
 
 - Lista de todas las enumeraciones realizadas en la base de datos:

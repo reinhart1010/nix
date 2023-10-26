@@ -2,8 +2,8 @@
 layout: page
 title: common/open.fish (Indonesia)
 description: "Buka file, direktori, dan alamat URI dengan aplikasi-aplikasi default yang dapat membukanya."
-content_hash: 9d3a148d306316f084dadf9dcfa9fe101a69bc8f
-last_modified_at: 2023-10-20
+content_hash: 2f46db26a5f5e14607f29fe39011cbe2c5e6808a
+last_modified_at: 2023-10-26
 related_topics:
   - title: English version
     url: /en/common/open.fish.html
@@ -13,7 +13,7 @@ related_topics:
 
 Buka file, direktori, dan alamat URI dengan aplikasi-aplikasi default yang dapat membukanya.
 Perintah ini tersedia melalui `fish` dalam sistem operasi yang tidak menawarkan perintah `open` secara bawaan (seperti Haiku dan macOS).
-Informasi lebih lanjut: <https://fishshell.com/docs/current/cmds/open.html>
+Informasi lebih lanjut: <https://fishshell.com/docs/current/cmds/open.html>.
 
 - Buka sebuah file di dalam aplikasi default:
 

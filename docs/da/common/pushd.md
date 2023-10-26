@@ -2,14 +2,24 @@
 layout: page
 title: common/pushd (dansk)
 description: "Tilføj en mappe til mappe-stakken, så den kan tilgås på et senere tidspunkt."
-content_hash: 505775560a08fba879dbdf3bec9580e9a35d7cfd
+content_hash: 5046d0177ebd648928dce285848af946be10d0e3
+last_modified_at: 2023-10-26
 related_topics:
   - title: English version
     url: /en/common/pushd.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/pushd.html
+    icon: bi bi-globe
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/pushd.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># pushd
 
@@ -25,6 +35,6 @@ Mere information: <https://www.gnu.org/software/bash/manual/html_node/Directory-
 
 `pushd`
 
-- Rotér mappe-stakken ved at gøre det femte element til det første i mappe-stakken.
+- Rotér mappe-stakken ved at gøre det femte element til det første i mappe-stakken:
 
 `pushd +4`

@@ -2,10 +2,14 @@
 layout: page
 title: common/kill (español)
 description: "Envía una señal a un proceso, usualmente relacionado a detener el proceso."
-content_hash: 6892457a6168e62d09e7a48d133a4bf8da56b2ba
+content_hash: 090debd04fcc1942cd63347eb78b88dd0d252f70
+last_modified_at: 2023-10-26
 related_topics:
   - title: English version
     url: /en/common/kill.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/kill.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/kill.html
@@ -14,13 +18,10 @@ related_topics:
     url: /pt_BR/common/kill.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># kill
+# kill
 
 Envía una señal a un proceso, usualmente relacionado a detener el proceso.
-kill envia una señal para terminar uno o un grupo de procesos.
+Kill envia una señal para terminar uno o un grupo de procesos.
 Más información: <https://manned.org/kill>.
 
 - Termina un programa usando la señal SIGTERM (terminar) por defecto:

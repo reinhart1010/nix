@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/chown (فارسی)
-description: "مالک فایل یا پوشه را تغییر میدهد"
-content_hash: 3b7a53220d679c48aca72abd11b392ed9507ec96
-last_modified_at: 2023-08-09
+description: "مالک فایل یا پوشه را تغییر میدهد."
+content_hash: d570fec098cb35f6245253debbb0aa93d86829d3
+last_modified_at: 2023-10-26
 related_topics:
   - title: Deutsch version
     url: /de/common/chown.html
@@ -36,23 +36,20 @@ related_topics:
     url: /zh/common/chown.html
     icon: bi bi-globe
 ---
+# chown
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># chown
-
-مالک فایل یا پوشه را تغییر میدهد
+مالک فایل یا پوشه را تغییر میدهد.
 اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/chown>.
 
 - تغییر مالک یه فایل یا پوشه:
 
 `chown `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">کاربر</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/فایل_یا_پوشه</span>
 
-- تغییر کاربر و گروه مالک فایل
+- تغییر کاربر و گروه مالک فایل:
 
 `chown `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">کاربر</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">گروه</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/فایل_یا_پوشه</span>
 
-- تغییر بازگشتی مالک یه پوشه و محتویات آن
+- تغییر بازگشتی مالک یه پوشه و محتویات آن:
 
 `chown -R `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">کاربر</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/پوشه</span>
 
@@ -60,6 +57,6 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 `chown -h `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">کاربر</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/فایل_میانبر</span>
 
-- تغییر مالک یک فایل/پوشه برای همسان شدن با فایل مرجع
+- تغییر مالک یک فایل/پوشه برای همسان شدن با فایل مرجع:
 
 `chown --reference=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/فایل_مرجع</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/فایل_یا_پوشه</span>

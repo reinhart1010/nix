@@ -2,8 +2,8 @@
 layout: page
 title: windows/robocopy (italiano)
 description: "Copia robusta di file e directory."
-content_hash: c3c92e3d6f9544e74d821f959660741fa043ab36
-last_modified_at: 2023-07-03
+content_hash: d171372f215100b27fae9ccafa263e7c8cf915ae
+last_modified_at: 2023-10-26
 related_topics:
   - title: Deutsch version
     url: /de/windows/robocopy.html
@@ -12,14 +12,11 @@ related_topics:
     url: /en/windows/robocopy.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># robocopy
+# robocopy
 
 Copia robusta di file e directory.
 Di default, i file saranno copiati solo se la sorgente e la destinazione hanno timestamp o dimensioni diverse.
-Maggiori informazioni: <https://learn.microsoft.com/it-it/windows-server/administration/windows-commands/robocopy>
+Maggiori informazioni: <https://learn.microsoft.com/it-it/windows-server/administration/windows-commands/robocopy>.
 
 - Copia tutti i file `.jpg` e `.bmp` da una directory ad un'altra:
 

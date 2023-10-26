@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/cd (Nederlands)
-description: "Geeft de naam van de huidige werkmap weer of wijzigt deze."
-content_hash: cc7e45871763a8b2e62b65eef5904b6ecc124a61
-last_modified_at: 2023-10-19
+description: "Geef de naam van de huidige werkmap weer of wijzig deze."
+content_hash: b5d2d333be649627a61af8e0ec5d9763b3a3e58c
+last_modified_at: 2023-10-26
 related_topics:
   - title: বাংলা version
     url: /bn/windows/cd.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/cd.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/cd.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/windows/cd.html
@@ -38,23 +41,32 @@ related_topics:
   - title: தமிழ் version
     url: /ta/windows/cd.html
     icon: bi bi-globe
+  - title: ไทย version
+    url: /th/windows/cd.html
+    icon: bi bi-globe
 ---
-# cd
 
-Geeft de naam van de huidige werkmap weer of wijzigt deze.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/windows/cd.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># cd
+
+Geef de naam van de huidige werkmap weer of wijzig deze.
+In PowerShell is deze opdracht een alias van `Set-Location`. Deze documentatie is gebaseerd op de Command Prompt (`cmd`) versie van `cd`.
 Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
+
+- Bekijk documentatie van het equivalente PowerShell-commando:
+
+`tldr set-location`
 
 - Geef de naam van de huidige map weer:
 
 `cd`
-
-- Ga naar de hoofdmap:
-
-`cd \`
-
-- Ga naar de ouder van de huidige map:
-
-`cd ..`
 
 - Ga naar een map in dezelfde drive:
 
@@ -63,3 +75,15 @@ Meer informatie: <https://learn.microsoft.com/windows-server/administration/wind
 - Ga naar een map in een andere drive:
 
 `cd /d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C}:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\map</span>
+
+- Ga naar de bovenliggende map van de huidige map:
+
+`cd ..`
+
+- Ga naar de thuismap van de huidige gebruiker:
+
+`cd %userprofile%`
+
+- Ga naar de hoofdmap:
+
+`cd \`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/xcodes (Indonesia)
 description: "Unduh, pasang, dan atur pemasangan aplikasi Xcode dalam versi yang berbeda."
-content_hash: 5c9af8d842d1c17ed43b5d7a7c7916ce96cf35d6
-last_modified_at: 2023-10-16
+content_hash: 30b3b638348e074fe6d3ce9b8c5407e6f661f1df
+last_modified_at: 2023-10-26
 related_topics:
   - title: English version
     url: /en/osx/xcodes.html
@@ -12,10 +12,7 @@ related_topics:
     url: /pt_BR/osx/xcodes.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># xcodes
+# xcodes
 
 Unduh, pasang, dan atur pemasangan aplikasi Xcode dalam versi yang berbeda.
 Informasi lebih lanjut: <https://github.com/xcodesorg/xcodes>.
@@ -28,7 +25,7 @@ Informasi lebih lanjut: <https://github.com/xcodesorg/xcodes>.
 
 `xcodes list`
 
-- Pilih versi Xcode yang hendak digunakan sebagai default, dengan menyertakan versi atau lokasi aplikasi
+- Pilih versi Xcode yang hendak digunakan sebagai default, dengan menyertakan versi atau lokasi aplikasi:
 
 `xcodes select `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versi_xcode|jalan/menuju/Xcode.app</span>
 
