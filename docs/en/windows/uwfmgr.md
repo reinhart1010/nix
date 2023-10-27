@@ -2,17 +2,14 @@
 layout: page
 title: windows/uwfmgr (English)
 description: "Unified Write Filter (UWF)."
-content_hash: babb5028b362761ea9bca2b9ca198dc5c3f8df16
-last_modified_at: 2023-09-02
+content_hash: 77975890934a57e4a6eb9d1b36d3ff6fd8372bed
+last_modified_at: 2023-10-27
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># uwfmgr
+# uwfmgr
 
 Unified Write Filter (UWF).
 Protect drives by redirecting any writes to the drive to a virtual overlay. Writes are discarded upon reboot unless committed by default.
-More information: <https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/customize/unified-write-filter>.
+More information: <https://learn.microsoft.com/windows/iot/iot-enterprise/customize/unified-write-filter>.
 
 - Get the current status:
 

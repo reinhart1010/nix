@@ -2,14 +2,14 @@
 layout: page
 title: windows/measure-object (English)
 description: "Calculates the numeric properties of objects, and the characters, words, and lines in string objects, such as files of text."
-content_hash: 746399514e1d43a927d67d7e034f4a2c49c953df
-last_modified_at: 2023-02-20
+content_hash: 42ddf04fb64d067b173f56e37e19befa2a3cbd14
+last_modified_at: 2023-10-27
 ---
 # Measure-Object
 
 Calculates the numeric properties of objects, and the characters, words, and lines in string objects, such as files of text.
 This command can only be used through PowerShell.
-More information: <https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/measure-object>.
+More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/measure-object>.
 
 - Count the files and folders in a directory:
 

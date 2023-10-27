@@ -2,16 +2,17 @@
 layout: page
 title: windows/certutil (English)
 description: "A tool to manage and configure certificate information."
-content_hash: 1adf1d984478d8babf6c98807bfb94a94fde6318
-last_modified_at: 2023-10-17
+content_hash: 03b5f55dd56fa6df793e64f5af98e04ee35d6268
+last_modified_at: 2023-10-27
+related_topics:
+  - title: हिन्दी version
+    url: /hi/windows/certutil.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># certutil
+# certutil
 
 A tool to manage and configure certificate information.
-More information: <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/certutil>.
+More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/certutil>.
 
 - Dump the configuration information or files:
 

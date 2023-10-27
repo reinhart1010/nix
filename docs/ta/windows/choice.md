@@ -2,19 +2,17 @@
 layout: page
 title: windows/choice (தமிழ்)
 description: "ஒரு தேர்வைத் தேர்ந்தெடுத்து, தேர்ந்தெடுக்கப்பட்ட தேர்வுக் குறியீட்டை வழங்க பயனரைத் தூண்டவும்."
-content_hash: 85806bf28e5f70813e42025e99b0029b6e6a72b1
+content_hash: eea8aff10fc0d6a0adc833116ca912161c9410a6
+last_modified_at: 2023-10-27
 related_topics:
   - title: English version
     url: /en/windows/choice.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># choice
+# choice
 
 ஒரு தேர்வைத் தேர்ந்தெடுத்து, தேர்ந்தெடுக்கப்பட்ட தேர்வுக் குறியீட்டை வழங்க பயனரைத் தூண்டவும்.
-மேலும் விவரத்திற்கு: <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/choice>.
+மேலும் விவரத்திற்கு: <https://learn.microsoft.com/windows-server/administration/windows-commands/choice>.
 
 - தற்போதைய பயனரை `Y` அல்லது `N` தேர்வைத் தேர்ந்தெடுக்கும்படி கேட்கவும்:
 

@@ -2,20 +2,17 @@
 layout: page
 title: windows/certutil (हिन्दी)
 description: "सर्टीफिकेट सूचना को प्रबंधित और विन्यसित करने के लिए एक टूल।"
-content_hash: 857c549c5e0ac4daf62e1eca360f0bc95a64c469
-last_modified_at: 2023-10-20
+content_hash: 59b73863c37b922b2097f3b49fff46c177c7ff7c
+last_modified_at: 2023-10-27
 related_topics:
   - title: English version
     url: /en/windows/certutil.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># certutil
+# certutil
 
 सर्टीफिकेट सूचना को प्रबंधित और विन्यसित करने के लिए एक टूल।
-अधिक जानकारी: <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/certutil>.
+अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/certutil>.
 
 - विन्यास सूचना या फ़ाइलों को डंप करें:
 

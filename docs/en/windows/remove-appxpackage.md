@@ -2,16 +2,13 @@
 layout: page
 title: windows/remove-appxpackage (English)
 description: "A PowerShell utility to remove an app package from one or more user accounts."
-content_hash: b4f8a592f7f8a12bb9b0cdd3299c86e3eb9b6333
-last_modified_at: 2023-10-22
+content_hash: 2e4c74f3b2c82b1aa26c65cfeeb0d5399c8ddec1
+last_modified_at: 2023-10-27
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># remove-appxpackage
+# remove-appxpackage
 
 A PowerShell utility to remove an app package from one or more user accounts.
-More information: <https://learn.microsoft.com/en-us/powershell/module/appx/remove-appxpackage>.
+More information: <https://learn.microsoft.com/powershell/module/appx/remove-appxpackage>.
 
 - Remove an app package:
 

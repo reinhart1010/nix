@@ -2,8 +2,8 @@
 layout: page
 title: windows/cd (ไทย)
 description: "แสดงชื่อหรือเปลี่ยนไดเร็กทอรีการทำงานปัจจุบัน"
-content_hash: b14631b1e3f3f282d16c16bba7fbcc6c352d7e94
-last_modified_at: 2023-10-20
+content_hash: 0436183611acc32c3e81658559b98289f46dca41
+last_modified_at: 2023-10-27
 related_topics:
   - title: বাংলা version
     url: /bn/windows/cd.html
@@ -46,12 +46,18 @@ related_topics:
     icon: bi bi-globe
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/windows/cd.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># cd
 
 แสดงชื่อหรือเปลี่ยนไดเร็กทอรีการทำงานปัจจุบัน
-ข้อมูลเพิ่มเติม: <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cd>
+ข้อมูลเพิ่มเติม: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>
 
 - แสดงชื่อของไดเร็กทอรีปัจจุบัน:
 

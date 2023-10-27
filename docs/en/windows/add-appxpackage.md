@@ -2,16 +2,17 @@
 layout: page
 title: windows/add-appxpackage (English)
 description: "A PowerShell utility to add a signed app package (`.appx`, `.msix`, `.appxbundle` and `.msixbundle`) to a user account."
-content_hash: 5b1e0ab6ac88c540878963fa5e19d336c7c2a8a4
-last_modified_at: 2023-10-21
+content_hash: 35b77509a52838ef432d32ccd8d056bf3556e741
+last_modified_at: 2023-10-27
+related_topics:
+  - title: हिन्दी version
+    url: /hi/windows/add-appxpackage.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># add-appxpackage
+# add-appxpackage
 
 A PowerShell utility to add a signed app package (`.appx`, `.msix`, `.appxbundle` and `.msixbundle`) to a user account.
-More information: <https://learn.microsoft.com/en-us/powershell/module/appx/add-appxpackage>.
+More information: <https://learn.microsoft.com/powershell/module/appx/add-appxpackage>.
 
 - Add an app package:
 

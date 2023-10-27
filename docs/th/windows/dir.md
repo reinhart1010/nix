@@ -2,8 +2,8 @@
 layout: page
 title: windows/dir (ไทย)
 description: "แสดงรายการเนื้อหาไดเรกทอรี"
-content_hash: e40023a1a7a363658962898d23cd481534930708
-last_modified_at: 2023-10-20
+content_hash: d0819cf22f7eb06d51fae5156238ec20f5e14f3e
+last_modified_at: 2023-10-27
 related_topics:
   - title: català version
     url: /ca/windows/dir.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: English version
     url: /en/windows/dir.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/dir.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/windows/dir.html
@@ -40,12 +43,18 @@ related_topics:
     icon: bi bi-globe
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/windows/dir.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># dir
 
 แสดงรายการเนื้อหาไดเรกทอรี
-ข้อมูลเพิ่มเติม: <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/dir>
+ข้อมูลเพิ่มเติม: <https://learn.microsoft.com/windows-server/administration/windows-commands/dir>
 
 - แสดงเนื้อหาของไดเร็กทอรีปัจจุบัน:
 

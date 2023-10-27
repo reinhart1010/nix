@@ -2,13 +2,13 @@
 layout: page
 title: windows/netsh-interface-portproxy (English)
 description: "Configure and display the status of various network components."
-content_hash: ab13fe50892b26c3053777df0fa4132c89eaba25
-last_modified_at: 2023-07-14
+content_hash: 7e8a2c6d29b5e649c47f16709187ca1d2c371b6a
+last_modified_at: 2023-10-27
 ---
 # netsh interface portproxy
 
 Configure and display the status of various network components.
-More information: <https://learn.microsoft.com/en-us/windows-server/networking/technologies/netsh/netsh-interface-portproxy>.
+More information: <https://learn.microsoft.com/windows-server/networking/technologies/netsh/netsh-interface-portproxy>.
 
 - Display the current port forwarding setup:
 

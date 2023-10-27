@@ -2,8 +2,8 @@
 layout: page
 title: windows/cmd (ไทย)
 description: "ตัวแปลคำสั่งของ Windows"
-content_hash: ca99b2fd646f8fc85896ee23fef80c8e0874099a
-last_modified_at: 2023-10-20
+content_hash: 7b9cedcd25b5a0cdf87b5d93253e8f279777b90e
+last_modified_at: 2023-10-27
 related_topics:
   - title: Deutsch version
     url: /de/windows/cmd.html
@@ -33,13 +33,10 @@ related_topics:
     url: /zh_TW/windows/cmd.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cmd
+# cmd
 
 ตัวแปลคำสั่งของ Windows
-ข้อมูลเพิ่มเติม: <https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cmd>
+ข้อมูลเพิ่มเติม: <https://learn.microsoft.com/windows-server/administration/windows-commands/cmd>
 
 - เริ่มเซสชันเชลล์แบบโต้ตอบ:
 

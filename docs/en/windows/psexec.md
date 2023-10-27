@@ -2,14 +2,14 @@
 layout: page
 title: windows/psexec (English)
 description: "Execute a command-line process on a remote machine."
-content_hash: 873fd55c2766df20fe5b4c08447ef4a62895ca5f
-last_modified_at: 2023-02-20
+content_hash: 031a06ddb571712ac93dd2a5a787d965106a0ec7
+last_modified_at: 2023-10-27
 ---
 # psexec
 
 Execute a command-line process on a remote machine.
 This is an advanced command and it might potentially be dangerous.
-More information: <https://learn.microsoft.com/en-us/sysinternals/downloads/psexec>.
+More information: <https://learn.microsoft.com/sysinternals/downloads/psexec>.
 
 - Execute a command using `cmd` in a remote shell:
 
