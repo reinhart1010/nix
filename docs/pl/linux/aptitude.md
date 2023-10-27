@@ -2,7 +2,7 @@
 layout: page
 title: linux/aptitude (polski)
 description: "Narzędzie zarządzania pakietami dla Debiana i Ubuntu."
-content_hash: acf71d7dc25d9541c56c101e73d2be92f79e7da1
+content_hash: b07abe07804e8c1b18f90d4312b6cb5abc9e11d7
 last_modified_at: 2023-10-27
 related_topics:
   - title: català version
@@ -50,7 +50,7 @@ Więcej informacji: <https://manpages.debian.org/latest/aptitude/aptitude.8.html
 
 `aptitude search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span>
 
-- Wyszukaj zainstalowany pakeit (`?installed` jest wyszukiwanym terminem w `aptitude`):
+- Wyszukaj zainstalowany pakiet (`?installed` jest terminem wyszukiwania w `aptitude`):
 
 `aptitude search '?installed(`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span>`)'`
 
