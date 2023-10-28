@@ -2,14 +2,20 @@
 layout: page
 title: common/npm (English)
 description: "JavaScript and Node.js package manager."
-content_hash: f1f30b5c54ae38913f2c70245c810cc94fb77960
-last_modified_at: 2023-10-11
+content_hash: e841e8f1e3c2ae9988dd05918c3573891e9c0ca4
+last_modified_at: 2023-10-28
 related_topics:
   - title: Deutsch version
     url: /de/common/npm.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/npm.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/npm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/npm.html
     icon: bi bi-globe
 ---
 # npm
@@ -22,7 +28,7 @@ More information: <https://www.npmjs.com>.
 
 `npm init`
 
-- Download all the packages listed as dependencies in package.json:
+- Download all the packages listed as dependencies in `package.json`:
 
 `npm install`
 
@@ -42,7 +48,7 @@ More information: <https://www.npmjs.com>.
 
 `npm uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
 
-- Print a tree of locally installed dependencies:
+- List of locally installed dependencies:
 
 `npm list`
 

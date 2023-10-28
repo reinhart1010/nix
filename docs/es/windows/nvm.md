@@ -1,0 +1,42 @@
+---
+layout: page
+title: windows/nvm (español)
+description: "Instala, desinstala o cambiar entre versiones de Node.js."
+content_hash: e0a3a779fe32cd7572f8a44fcf4206fdefc3e0b9
+last_modified_at: 2023-10-28
+related_topics:
+  - title: English version
+    url: /en/windows/nvm.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/windows/nvm.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/windows/nvm.html
+    icon: bi bi-globe
+---
+# nvm
+
+Instala, desinstala o cambiar entre versiones de Node.js.
+Admite números de versión como "12.8" o "v16.13.1", y etiquetas como "stable", "system", etc.
+Más información: <https://github.com/coreybutler/nvm-windows>.
+
+- Instala una versión específica de Node.js:
+
+`nvm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versión_de_node</span>
+
+- Establece la versión por defecto de Node.js (debe ejecutarse como Administrador):
+
+`nvm use `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versión_de_node</span>
+
+- Lista todas las versiones disponibles de Node.js y destaca la versión por defecto:
+
+`nvm list`
+
+- Lista de todas las versiones remotas de Node.js:
+
+`nvm ls-remote`
+
+- Desinstalación de una versión determinada de Node.js:
+
+`nvm uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versión_de_node</span>
