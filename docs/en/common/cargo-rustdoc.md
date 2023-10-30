@@ -1,25 +1,27 @@
 ---
 layout: page
 title: common/cargo-rustdoc (English)
-description: "Generate documentation for the Rust package."
-content_hash: 8f8643bf282e217246258ef134fcf1fdd39dfef9
-last_modified_at: 2023-10-08
+description: "Build the documentation of Rust packages."
+content_hash: a5b3c18c07660743373f192ffb35951407d0200b
+last_modified_at: 2023-10-30
 ---
+# cargo rustdoc
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cargo rustdoc
-
-Generate documentation for the Rust package.
+Build the documentation of Rust packages.
+Similar to `cargo doc`, but you can pass options to `rustdoc`. See `rustdoc --help` for all available options.
 More information: <https://doc.rust-lang.org/cargo/commands/cargo-rustdoc.html>.
 
-- Open the documentation in the browser:
+- Pass options to `rustdoc`:
 
-`cargo rustdoc --open`
+`cargo rustdoc -- `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rustdoc_options</span>
 
-- Specify the package to document:
+- Warn about a documentation lint:
 
-`cargo rustdoc --package `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">spec</span>
+`cargo rustdoc -- --warn rustdoc::`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lint_name</span>
+
+- Ignore a documentation lint:
+
+`cargo rustdoc -- --allow rustdoc::`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lint_name</span>
 
 - Document the package's library:
 
@@ -36,7 +38,3 @@ More information: <https://doc.rust-lang.org/cargo/commands/cargo-rustdoc.html>.
 - Document the specified integration test:
 
 `cargo rustdoc --test `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>
-
-- Display help:
-
-`cargo rustdoc --help`

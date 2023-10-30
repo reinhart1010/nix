@@ -1,26 +1,34 @@
 ---
 layout: page
 title: common/cargo-doc (English)
-description: "Build and view Rust package documentation offline."
-content_hash: 13297bb8ec0c06e4876fc39d31c356a2fc73d7f9
+description: "Build the documentation of Rust packages."
+content_hash: 8188707bff514815a1dbdc6623be17d6590a040b
+last_modified_at: 2023-10-30
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/common/cargo-doc.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/cargo-doc.html
+    icon: bi bi-globe
 ---
 # cargo doc
 
-Build and view Rust package documentation offline.
+Build the documentation of Rust packages.
 More information: <https://doc.rust-lang.org/cargo/commands/cargo-doc.html>.
 
-- Build and view the default package documentation in the browser:
+- Build the documentation for the current project and all dependencies:
+
+`cargo doc`
+
+- Do not build documentation for dependencies:
+
+`cargo doc --no-deps`
+
+- Build and open the documentation in a browser:
 
 `cargo doc --open`
 
-- Build documentation without accessing the network:
-
-`cargo doc --offline`
-
-- View a particular package's documentation:
+- Build and view the documentation of a particular package:
 
 `cargo doc --open --package `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
-
-- View a particular package's documentation offline:
-
-`cargo doc --open --offline --package `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>

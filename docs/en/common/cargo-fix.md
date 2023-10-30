@@ -2,13 +2,10 @@
 layout: page
 title: common/cargo-fix (English)
 description: "Automatically fix lint warnings reported by `rustc`."
-content_hash: 582d670b264f83a51ab04d01ece848b01a82fbad
-last_modified_at: 2023-10-02
+content_hash: 201663619e51377cc28f791c67a418bdb101d2d0
+last_modified_at: 2023-10-30
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cargo fix
+# cargo fix
 
 Automatically fix lint warnings reported by `rustc`.
 More information: <https://doc.rust-lang.org/cargo/commands/cargo-fix.html>.
@@ -21,6 +18,10 @@ More information: <https://doc.rust-lang.org/cargo/commands/cargo-fix.html>.
 
 `cargo fix --allow-dirty`
 
+- Migrate a package to the next Rust edition:
+
+`cargo fix --edition`
+
 - Fix the package’s library:
 
 `cargo fix --lib`
@@ -32,15 +33,3 @@ More information: <https://doc.rust-lang.org/cargo/commands/cargo-fix.html>.
 - Fix all members in the workspace:
 
 `cargo fix --workspace`
-
-- Set the directory for all generated artifacts and intermediate files:
-
-`cargo fix --target-dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
-
-- Restrict Cargo from access to network for any reason:
-
-`cargo fix --offline`
-
-- Run `n` jobs in parallel (default: number of logical CPUs):
-
-`cargo fix --jobs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span>

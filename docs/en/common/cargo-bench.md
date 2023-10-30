@@ -2,13 +2,10 @@
 layout: page
 title: common/cargo-bench (English)
 description: "Compile and execute benchmarks."
-content_hash: 9958efc65642ba7c578de7bcab6cce65f1476fc3
-last_modified_at: 2023-10-02
+content_hash: ae536d896a91c5a43c6b9ded84f7edb5ce8df0e6
+last_modified_at: 2023-10-30
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cargo bench
+# cargo bench
 
 Compile and execute benchmarks.
 More information: <https://doc.rust-lang.org/cargo/commands/cargo-bench.html>.
@@ -17,13 +14,13 @@ More information: <https://doc.rust-lang.org/cargo/commands/cargo-bench.html>.
 
 `cargo bench`
 
+- Don't stop when a benchmark fails:
+
+`cargo bench --no-fail-fast`
+
 - Compile, but don’t run benchmarks:
 
 `cargo bench --no-run`
-
-- Benchmark only the specified packages:
-
-`cargo bench --package `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Benchmark the specified benchmark:
 

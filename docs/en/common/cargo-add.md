@@ -1,15 +1,20 @@
 ---
 layout: page
 title: common/cargo-add (English)
-description: "Add dependencies to a Rust project's `Cargo.toml` file."
-content_hash: 8f16435ac1d444f262620086dd5559b853dd5baa
+description: "Add dependencies to a Rust project's `Cargo.toml` manifest."
+content_hash: d2e24e2784f2dc9501a024099ab1ba8525d27922
+last_modified_at: 2023-10-30
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/common/cargo-add.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/cargo-add.html
+    icon: bi bi-globe
 ---
+# cargo add
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cargo add
-
-Add dependencies to a Rust project's `Cargo.toml` file.
+Add dependencies to a Rust project's `Cargo.toml` manifest.
 More information: <https://doc.rust-lang.org/cargo/commands/cargo-add.html>.
 
 - Add the latest version of a dependency to the current project:
@@ -30,7 +35,7 @@ More information: <https://doc.rust-lang.org/cargo/commands/cargo-add.html>.
 
 - Add a local crate as a dependency:
 
-`cargo add --path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/crate</span>
+`cargo add --path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/crate_directory</span>
 
 - Add a development or build dependency:
 

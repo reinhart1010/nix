@@ -2,7 +2,15 @@
 layout: page
 title: common/cargo-test (English)
 description: "Execute the unit and integration tests of a Rust package."
-content_hash: 29af1e9bbb539db5ec56abc64c4e30da292f2d6d
+content_hash: 8d0becd90c2a7095bbd4215c782061d4142804f8
+last_modified_at: 2023-10-30
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/common/cargo-test.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/cargo-test.html
+    icon: bi bi-globe
 ---
 # cargo test
 
@@ -15,11 +23,7 @@ More information: <https://doc.rust-lang.org/cargo/commands/cargo-test.html>.
 
 - Set the number of simultaneous running test cases:
 
-`cargo test -- --test-threads=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">count</span>
-
-- Require that `Cargo.lock` is up to date:
-
-`cargo test --locked`
+`cargo test -- --test-threads `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">count</span>
 
 - Test artifacts in release mode, with optimizations:
 
@@ -29,7 +33,7 @@ More information: <https://doc.rust-lang.org/cargo/commands/cargo-test.html>.
 
 `cargo test --workspace`
 
-- Run tests for a package:
+- Run tests for a specific package:
 
 `cargo test --package `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 

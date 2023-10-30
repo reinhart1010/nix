@@ -1,13 +1,13 @@
 ---
 layout: page
 title: common/cargo-metadata (English)
-description: "Outputs the workspace members and resolved dependencies of current package."
-content_hash: d407c7b41702e4dceae2759e1ec6b94e4bd685cc
-last_modified_at: 2023-10-22
+description: "Output the workspace members and resolved dependencies of current package as JSON."
+content_hash: cb8a039c79b0e6775565c9b8c4f79f7c5623369c
+last_modified_at: 2023-10-30
 ---
 # cargo metadata
 
-Outputs the workspace members and resolved dependencies of current package.
+Output the workspace members and resolved dependencies of current package as JSON.
 Note: The output format is subject to change in future versions of Cargo.
 More information: <https://doc.rust-lang.org/cargo/commands/cargo-metadata.html>.
 

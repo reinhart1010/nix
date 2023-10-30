@@ -2,16 +2,13 @@
 layout: page
 title: common/cargo-run (English)
 description: "Run the current Cargo package."
-content_hash: 123db3f76acb282cbd4aeb9af2530f6f3ea58cd1
-last_modified_at: 2023-10-08
+content_hash: 85d00d5f04efb8fbb98abab4944b1ace05b397d0
+last_modified_at: 2023-10-30
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cargo run
+# cargo run
 
 Run the current Cargo package.
-Note: Set the working directory of the binary executed to the current working directory.
+Note: the working directory of the executed binary will be set to the current working directory.
 More information: <https://doc.rust-lang.org/cargo/commands/cargo-run.html>.
 
 - Run the default binary target:
@@ -30,7 +27,7 @@ More information: <https://doc.rust-lang.org/cargo/commands/cargo-run.html>.
 
 `cargo run --features `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">feature1 feature2 ...</span>
 
-- Disable the default feature:
+- Disable the default features:
 
 `cargo run --no-default-features`
 

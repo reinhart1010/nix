@@ -1,17 +1,26 @@
 ---
 layout: page
 title: common/cargo-rustc (English)
-description: "Compile a Rust package, and pass extra options to the compiler."
-content_hash: 8823175c544dc6479e764f2692406fc5f1c68b45
+description: "Compile a Rust package. Similar to `cargo build`, but you can pass extra options to the compiler."
+content_hash: 282575de079361564020ecbe3f43c85deb0c6c6d
+last_modified_at: 2023-10-30
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/common/cargo-rustc.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/cargo-rustc.html
+    icon: bi bi-globe
 ---
 # cargo rustc
 
-Compile a Rust package, and pass extra options to the compiler.
+Compile a Rust package. Similar to `cargo build`, but you can pass extra options to the compiler.
+See `rustc --help` for all available options.
 More information: <https://doc.rust-lang.org/cargo/commands/cargo-rustc.html>.
 
-- Build the package or packages defined by the `Cargo.toml` manifest file in the current working directory:
+- Build the package and pass options to `rustc`:
 
-`cargo rustc`
+`cargo rustc -- `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rustc_options</span>
 
 - Build artifacts in release mode, with optimizations:
 
@@ -21,11 +30,11 @@ More information: <https://doc.rust-lang.org/cargo/commands/cargo-rustc.html>.
 
 `cargo rustc --release -- -C target-cpu=native`
 
-- Compile with speed optimization:
+- Compile with speed optimizations:
 
 `cargo rustc -- -C opt-level `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|2|3</span>
 
-- Compile with [s]ize optimization (`z` also turns off loop vectorization):
+- Compile with [s]ize optimizations (`z` also turns off loop vectorization):
 
 `cargo rustc -- -C opt-level `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">s|z</span>
 
