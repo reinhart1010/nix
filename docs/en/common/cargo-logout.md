@@ -2,15 +2,16 @@
 layout: page
 title: common/cargo-logout (English)
 description: "Remove an API token from the registry locally."
-content_hash: 28b36ae9432c7e1e64362ac4221d2515d43d5595
-last_modified_at: 2023-10-30
+content_hash: 5c67fa614438c2e571c71e77b16d43375bc73511
+last_modified_at: 2023-10-31
 ---
 # cargo logout
 
 Remove an API token from the registry locally.
+The token is used to authenticate to a package registry. You can add it back using `cargo login`.
 More information: <https://doc.rust-lang.org/cargo/commands/cargo-logout.html>.
 
-- Remove the API token from the local credential storage:
+- Remove an API token from the local credential storage (located in `$CARGO_HOME/credentials.toml`):
 
 `cargo logout`
 
