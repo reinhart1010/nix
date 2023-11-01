@@ -2,13 +2,17 @@
 layout: page
 title: common/echo (中文)
 description: "输出给定参数。"
-content_hash: 479f9d2533dfbd41eb1a78988c6b18ab27dac6dd
+content_hash: 532cd84d19dac4af837da9cd4ba7a34d9265c2e9
+last_modified_at: 2023-11-01
 related_topics:
   - title: Deutsch version
     url: /de/common/echo.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/echo.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/echo.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/echo.html
@@ -27,6 +31,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/echo.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/echo.html
     icon: bi bi-globe
   - title: српски version
     url: /sr/common/echo.html
@@ -59,3 +66,7 @@ related_topics:
 - 启用反斜杠转义的解释（特殊字符）：
 
 `echo -e "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Column 1\tColumn 2</span>`"`
+
+- 输出执行的上一条指令的退出状态（注：在 Windows 命令提示符和 PowerShell 中，对应的命令分别是 `echo %errorlevel%` 和 `$lastexitcode`）：
+
+`echo $?`
