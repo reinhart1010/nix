@@ -2,7 +2,8 @@
 layout: page
 title: common/youtube-dl (polski)
 description: "Pobieraj wideo i audio z YouTube i podobnych portali."
-content_hash: 547b1fd483381f8aa954f159bdd90243afdb9777
+content_hash: 725187e060d93074dde806a88854256261085422
+last_modified_at: 2023-11-01
 related_topics:
   - title: català version
     url: /ca/common/youtube-dl.html
@@ -26,7 +27,7 @@ Więcej informacji: <http://rg3.github.io/youtube-dl/>.
 
 `youtube-dl '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span>`'`
 
-- Listuj wszystkie formaty dostępne dla filmu lub playlisty:
+- Wypisz wszystkie formaty dostępne dla filmu lub playlisty:
 
 `youtube-dl --list-formats '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=Mwa0_nE9H7A</span>`'`
 
@@ -38,7 +39,7 @@ Więcej informacji: <http://rg3.github.io/youtube-dl/>.
 
 `youtube-dl -x --audio-format `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mp3</span>` '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>`'`
 
-- Pobierz wideo ze ścieżką audio złączone w jendym pliku w najlepszej dostępnej jakości:
+- Pobierz wideo ze ścieżką audio złączone w jednym pliku w najlepszej dostępnej jakości:
 
 `youtube-dl -f bestvideo+bestaudio '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>`'`
 
