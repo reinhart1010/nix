@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/git-stage (Türkçe)
-description: "Değiştirilmiş dosyaları indekse ekle."
-content_hash: 2c44212ce0aa7b334641a51da6590430f03d3f1b
+description: "Bu komut `git add` için bir takma addır."
+content_hash: e627f600a8d2057bfcf41b01ddb67d778d40ac36
+last_modified_at: 2023-11-01
 related_topics:
   - title: English version
     url: /en/common/git-stage.html
@@ -16,34 +17,9 @@ related_topics:
 ---
 # git stage
 
-Değiştirilmiş dosyaları indekse ekle.
-Bu komut `git add`'in eş anlamlısıdır.
+Bu komut `git add` için bir takma addır.
 Daha fazla bilgi için: <https://git-scm.com/docs/git-stage>.
 
-- İndekse bir dosya ekle:
+- Asıl komutun belgelerini görüntüleyin:
 
-`git stage `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya</span>
-
-- Tüm (izlenen veya izlenmeyen) dosyaları ekle:
-
-`git stage -A`
-
-- Yalnızca izlenen dosyaları ekle:
-
-`git stage -u`
-
-- Yoksayılan dosyaları dahi ekle:
-
-`git stage -f`
-
-- Dosyaların parçalarını etkileşimli olarak sahnele:
-
-`git stage -p`
-
-- Belirtilen dosyaların parçalarını etkileşimli olarak sahnele:
-
-`git stage -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya</span>
-
-- Bir dosyayı etkileşimli olarak sahnele:
-
-`git stage -i`
+`tldr git-add`

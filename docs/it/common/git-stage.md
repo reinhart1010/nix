@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/git-stage (italiano)
-description: "Aggiungi file all'area di stage."
-content_hash: 9303737ee802ffc715331fadc29f44539982fe88
+description: "Questo comando è un alias per `git add`."
+content_hash: ffbd27d8efabd58ac5026a5ea8ecca1ae74b3176
+last_modified_at: 2023-11-01
 related_topics:
   - title: English version
     url: /en/common/git-stage.html
@@ -16,34 +17,9 @@ related_topics:
 ---
 # git stage
 
-Aggiungi file all'area di stage.
-Sinonimo di `git add`.
+Questo comando è un alias per `git add`.
 Maggiori informazioni: <https://git-scm.com/docs/git-stage>.
 
-- Aggiungi un file all'indice:
+- Consulta la documentazione del comando originale:
 
-`git stage `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
-
-- Aggiungi tutti i file (tracciati e non):
-
-`git stage -A`
-
-- Aggiungi solo file già tracciati:
-
-`git stage -u`
-
-- Aggiungi anche file ignorati:
-
-`git stage -f`
-
-- Aggiungi parti di file all'area di stage in modo interattivo:
-
-`git stage -p`
-
-- Aggiungi parti di un dato file all'area di stage in modo interattivo:
-
-`git stage -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
-
-- Aggiungi all'area di stage in modo interattivo:
-
-`git stage -i`
+`tldr git-add`
