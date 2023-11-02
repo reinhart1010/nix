@@ -2,9 +2,12 @@
 layout: page
 title: windows/path (हिन्दी)
 description: "निष्पादन योग्य फ़ाइलों के लिए खोज पथ प्रदर्शित या सेट करें।"
-content_hash: fc24bf6e0951b74f1b3ca78638d03fc9447ac19a
-last_modified_at: 2023-10-25
+content_hash: b41e79a15970a21439b991f478980db4c707984a
+last_modified_at: 2023-11-02
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/path.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/path.html
     icon: bi bi-globe
@@ -15,13 +18,10 @@ related_topics:
     url: /zh_TW/windows/path.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># path
+# path
 
 निष्पादन योग्य फ़ाइलों के लिए खोज पथ प्रदर्शित या सेट करें।
-अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/path>.
+अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/path>।
 
 - वर्तमान पथ प्रदर्शित करें:
 

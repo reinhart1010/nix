@@ -2,8 +2,8 @@
 layout: page
 title: common/aircrack-ng (Nederlands)
 description: "Kraak WEP- en WPA/WPA2-sleutels van handshake in vastgelegde pakketten."
-content_hash: 7c6720725c3ea522618010ed2b4c5157e03fb955
-last_modified_at: 2023-07-11
+content_hash: fd35391e87739f33366f6a146ff70353252e1367
+last_modified_at: 2023-11-02
 related_topics:
   - title: Deutsch version
     url: /de/common/aircrack-ng.html
@@ -15,14 +15,11 @@ related_topics:
     url: /es/common/aircrack-ng.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aircrack-ng
+# aircrack-ng
 
 Kraak WEP- en WPA/WPA2-sleutels van handshake in vastgelegde pakketten.
 Onderdeel van Aircrack-ng netwerksoftwaresuite.
-Meer Informatie: <https://www.aircrack-ng.org/doku.php?id=aircrack-ng>.
+Meer informatie: <https://www.aircrack-ng.org/doku.php?id=aircrack-ng>.
 
 - Kraak-sleutel uit opnamebestand met behulp van woordenlijst:
 

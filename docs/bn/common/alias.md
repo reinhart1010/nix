@@ -2,8 +2,8 @@
 layout: page
 title: common/alias (বাংলা)
 description: "উপনাম তৈরি করে -- এই শব্দগুলি যেগুলি কমান্ড স্ট্রিং দ্বারা প্রতিস্থাপন করা হয়।"
-content_hash: 7fde51ddd8212305e1a58b0a67841c109b983a07
-last_modified_at: 2023-10-28
+content_hash: 01cbc6ebbe8864e81784c2418662fbb857dd5613
+last_modified_at: 2023-11-02
 related_topics:
   - title: Deutsch version
     url: /de/common/alias.html
@@ -60,14 +60,11 @@ related_topics:
     url: /zh_TW/common/alias.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># alias
+# alias
 
 উপনাম তৈরি করে -- এই শব্দগুলি যেগুলি কমান্ড স্ট্রিং দ্বারা প্রতিস্থাপন করা হয়।
 উপনাম বর্তমান শেল সেশনে শেষ হয় যতক্ষণ না সেট করা হয়, উদাহরণ: `~/.bashrc`।
-আরও জানতে: <https://tldp.org/LDP/abs/html/aliases.html>.
+আরও তথ্য পাবেন: <https://tldp.org/LDP/abs/html/aliases.html>।
 
 - সমস্ত উপনামের তালিকা তৈরি করুন:
 

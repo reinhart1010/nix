@@ -2,8 +2,8 @@
 layout: page
 title: android/pkg (বাংলা)
 description: "Termux এর জন্য একটি প্যাকেজ ব্যবস্থাপনা ইউটিলিটি।"
-content_hash: b0839e89e6ff93e43892c9e5a8daa339673bf650
-last_modified_at: 2023-01-03
+content_hash: 7f5c39fa08d0d1209f7c931d8ec232ae5c5e538e
+last_modified_at: 2023-11-02
 related_topics:
   - title: Deutsch version
     url: /de/android/pkg.html
@@ -14,8 +14,14 @@ related_topics:
   - title: español version
     url: /es/android/pkg.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/android/pkg.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/android/pkg.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/android/pkg.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/pkg.html
@@ -41,17 +47,17 @@ related_topics:
   - title: Türkçe version
     url: /tr/android/pkg.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/android/pkg.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/android/pkg.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pkg
+# pkg
 
 Termux এর জন্য একটি প্যাকেজ ব্যবস্থাপনা ইউটিলিটি।
-আরও তথ্য পাবেন: <https://wiki.termux.com/wiki/Package_Management>.
+আরও তথ্য পাবেন: <https://wiki.termux.com/wiki/Package_Management>।
 
 - সমস্ত ইনস্টল করা প্যাকেজ আপগ্রেড করুন:
 

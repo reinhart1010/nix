@@ -1,8 +1,9 @@
 ---
 layout: page
 title: windows/rmdir (中文)
-description: "删除一个目录和其中的内容。"
-content_hash: b57fd29256706985b955c18bea0490ee05b9b93b
+description: "这是 `remove-item` 命令的一个别名。"
+content_hash: 6985aa2ecf6d08a91515320e8f60565429453e52
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/windows/rmdir.html
@@ -13,20 +14,24 @@ related_topics:
   - title: தமிழ் version
     url: /ta/windows/rmdir.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/windows/rmdir.html
+    icon: bi bi-globe
 ---
-# rmdir
 
-删除一个目录和其中的内容。
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/windows/rmdir.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># rmdir
+
+这是 `remove-item` 命令的一个别名。
 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/rmdir>.
 
-- 删除一个空目录：
+- 原命令的文档在：
 
-`rmdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目录的路径</span>
-
-- 递归删除一个目录及其中的内容：
-
-`rmdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目录的路径</span>` /s`
-
-- 在没有提示的情况下递归删除目录及其内容：
-
-`rmdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` /s /q`
+`tldr remove-item`

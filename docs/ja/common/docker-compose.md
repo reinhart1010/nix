@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-compose (日本語)
 description: "複数コンテナを持つDockerアプリケーションの実行と管理をします。"
-content_hash: 5c4c32fc553c86be851925b7f12891741e452522
-last_modified_at: 2023-02-08
+content_hash: 9654c1cc2d405a64ef88f4b2593719fae75ae95f
+last_modified_at: 2023-11-02
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -17,11 +17,17 @@ related_topics:
   - title: français version
     url: /fr/common/docker-compose.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/docker-compose.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/docker-compose.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/docker-compose.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/docker-compose.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker-compose.html
@@ -30,13 +36,10 @@ related_topics:
     url: /tr/common/docker-compose.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docker compose
+# docker compose
 
 複数コンテナを持つDockerアプリケーションの実行と管理をします。
-詳しくはこちら: <https://docs.docker.com/compose/reference/>.
+詳しくはこちら: <https://docs.docker.com/compose/reference/>
 
 - 実行中のコンテナ全てをリスト表示する:
 

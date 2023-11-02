@@ -2,9 +2,12 @@
 layout: page
 title: windows/where (فارسی)
 description: "نمایش محل فایل باینری یا اجرایی یک دستور در لینوکس."
-content_hash: 48e03e1ef1c37aeacb34d881f0aebc44646a8714
-last_modified_at: 2023-10-24
+content_hash: 223d85ca3dbdd3b56f837710d5de685da23e952d
+last_modified_at: 2023-11-02
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/where.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/where.html
     icon: bi bi-globe
@@ -27,6 +30,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># where
 
 نمایش محل فایل باینری یا اجرایی یک دستور در لینوکس.
+اطلاعات بیشتر: <https://learn.microsoft.com/windows-server/administration/windows-commands/where>.
 
 - نمایش محل فایل اجرایی یک دستور:
 

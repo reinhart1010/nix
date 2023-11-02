@@ -2,7 +2,8 @@
 layout: page
 title: common/cat (नेपाली)
 description: "फाइलहरू देखाउनुहोस् र जोड्नुहोस्।"
-content_hash: fcdb64274cc9f06bc2d969f54919e196f999de12
+content_hash: d9c227d868384971c06f94b70b47d2b906531df0
+last_modified_at: 2023-11-02
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -28,10 +29,13 @@ related_topics:
   - title: italiano version
     url: /it/common/cat.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/cat.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/cat.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/cat.html
     icon: bi bi-globe
   - title: português (Brasil) version
@@ -40,6 +44,9 @@ related_topics:
   - title: русский version
     url: /ru/common/cat.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/cat.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/cat.html
     icon: bi bi-globe
@@ -47,13 +54,10 @@ related_topics:
     url: /zh_TW/common/cat.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cat
+# cat
 
 फाइलहरू देखाउनुहोस् र जोड्नुहोस्।
-थप जानकारी: <https://www.gnu.org/software/coreutils/cat>.
+थप जानकारी: <https://www.gnu.org/software/coreutils/cat>।
 
 - फाइल भित्रका कुराहरुलाई मानक आउटपुटमा देखाउनुहोस्:
 

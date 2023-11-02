@@ -2,8 +2,8 @@
 layout: page
 title: common/ls (हिन्दी)
 description: "डायरेक्टरी की सामग्री की सूची दिखाएं।"
-content_hash: 25191a7e79c2672ba3bc2888c277c2c68ab2689a
-last_modified_at: 2023-10-15
+content_hash: efdb91e22a92bfdb24df57b42b7897c63be1ce7b
+last_modified_at: 2023-11-02
 related_topics:
   - title: català version
     url: /ca/common/ls.html
@@ -38,6 +38,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/ls.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/ls.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/ls.html
     icon: bi bi-globe
@@ -57,19 +60,10 @@ related_topics:
     url: /zh_TW/common/ls.html
     icon: bi bi-globe
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ls.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ls
+# ls
 
 डायरेक्टरी की सामग्री की सूची दिखाएं।
-और जानकारी: <https://www.gnu.org/software/coreutils/ls>.
+अधिक जानकारी: <https://www.gnu.org/software/coreutils/ls>।
 
 - एक प्रति पंक्ति फ़ाइलों की सूची दिखाएं:
 

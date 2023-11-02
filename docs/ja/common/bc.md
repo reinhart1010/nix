@@ -2,8 +2,8 @@
 layout: page
 title: common/bc (日本語)
 description: "任意の精度で計算を行える言語です。"
-content_hash: b164a8b491917f3a414bf5e27089a4ef40064bb9
-last_modified_at: 2023-09-20
+content_hash: 555003ae32eb8c93aabb97a4dc09ac12369d1401
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/common/bc.html
@@ -20,15 +20,15 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/bc.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/bc.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bc
+# bc
 
 任意の精度で計算を行える言語です。
 `dc`も参照してください。
-詳しくはこちら: <https://manned.org/man/bc.1>.
+詳しくはこちら: <https://manned.org/man/bc.1>
 
 - 対話モードのセッションを開始する:
 

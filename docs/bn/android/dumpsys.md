@@ -2,8 +2,8 @@
 layout: page
 title: android/dumpsys (বাংলা)
 description: "অ্যান্ড্রয়েড সিস্টেম পরিষেবা সম্পর্কে তথ্য প্রদান করে।"
-content_hash: f9828256bb273d39d405b304414795dca5096624
-last_modified_at: 2023-01-03
+content_hash: f4028b41b222fbfb1a8cf7fb2ce6de998108a76f
+last_modified_at: 2023-11-02
 related_topics:
   - title: Deutsch version
     url: /de/android/dumpsys.html
@@ -14,8 +14,14 @@ related_topics:
   - title: español version
     url: /es/android/dumpsys.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/android/dumpsys.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/android/dumpsys.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/android/dumpsys.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/dumpsys.html
@@ -38,6 +44,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/android/dumpsys.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/android/dumpsys.html
+    icon: bi bi-globe
   - title: o‘zbek version
     url: /uz/android/dumpsys.html
     icon: bi bi-globe
@@ -48,14 +57,11 @@ related_topics:
     url: /zh_TW/android/dumpsys.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dumpsys
+# dumpsys
 
 অ্যান্ড্রয়েড সিস্টেম পরিষেবা সম্পর্কে তথ্য প্রদান করে।
 এই কমান্ডটি শুধুমাত্র `adb shell` এর মাধ্যমে ব্যবহার করা যেতে পারে।
-আরও তথ্য পাবেন: <https://developer.android.com/studio/command-line/dumpsys>.
+আরও তথ্য পাবেন: <https://developer.android.com/studio/command-line/dumpsys>।
 
 - সমস্ত সিস্টেম পরিষেবার জন্য ডায়াগনস্টিক আউটপুট পান:
 

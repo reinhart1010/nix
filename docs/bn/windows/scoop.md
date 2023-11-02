@@ -2,8 +2,8 @@
 layout: page
 title: windows/scoop (বাংলা)
 description: "স্কুপ প্যাকেজ ম্যানেজার।"
-content_hash: 1c5fde8829ccfc018e637a620d6c3fbedf61e6c2
-last_modified_at: 2023-10-23
+content_hash: 8e3913099f472f4276e3b7cfbe242eb5ad07cbb9
+last_modified_at: 2023-11-02
 related_topics:
   - title: Deutsch version
     url: /de/windows/scoop.html
@@ -21,13 +21,10 @@ related_topics:
     url: /zh/windows/scoop.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># scoop
+# scoop
 
 স্কুপ প্যাকেজ ম্যানেজার।
-আরও তথ্যের জন্য: <https://scoop.sh>.
+আরও তথ্য পাবেন: <https://scoop.sh>।
 
 - একটি প্যাকেজ ইনস্টল করুন:
 

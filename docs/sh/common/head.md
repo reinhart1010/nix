@@ -2,7 +2,8 @@
 layout: page
 title: common/head (sh)
 description: "Prikazuje prvi deo datoteka."
-content_hash: cdbcfee56943acaa6d787dd05ae7b06bfb19e53c
+content_hash: ac33a75f7761783c534c55b77efb041b80b7a019
+last_modified_at: 2023-11-02
 related_topics:
   - title: Deutsch version
     url: /de/common/head.html
@@ -10,14 +11,29 @@ related_topics:
   - title: English version
     url: /en/common/head.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/head.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/head.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/head.html
+    icon: bi bi-globe
 ---
-# head
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/head.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># head
 
 Prikazuje prvi deo datoteka.
-Više informacija: <https://www.gnu.org/software/coreutils/head>.
+Više informacija: <https://manned.org/head.1p>.
 
 - Prikaži prvih nekoliko linija datoteke:
 

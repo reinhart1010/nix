@@ -2,8 +2,8 @@
 layout: page
 title: windows/wget (Nederlands)
 description: "In PowerShell kan dit commando een alias zijn van `Invoke-WebRequest` als het originele `wget` programma (<https://www.gnu.org/software/wget>) niet correct is geïnstalleerd."
-content_hash: f5ebca71b6f0025730ba6013ce7b61781042b197
-last_modified_at: 2023-10-16
+content_hash: 752c9bfecea70796058d2dab5e9d16acb7a09fc1
+last_modified_at: 2023-11-02
 related_topics:
   - title: العربية version
     url: /ar/windows/wget.html
@@ -90,18 +90,10 @@ related_topics:
     url: /zh_TW/windows/wget.html
     icon: bi bi-globe
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/wget.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># wget
+# wget
 
 In PowerShell kan dit commando een alias zijn van `Invoke-WebRequest` als het originele `wget` programma (<https://www.gnu.org/software/wget>) niet correct is geïnstalleerd.
+Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Controleer of `wget` correct is geïnstalleerd door het versienummer te printen. Als dit commando resulteert in een error, heeft PowerShell dit commando mogelijk vervangen met `Invoke-WebRequest`:
 

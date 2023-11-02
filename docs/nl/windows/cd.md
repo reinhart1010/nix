@@ -2,8 +2,8 @@
 layout: page
 title: windows/cd (Nederlands)
 description: "Geef de naam van de huidige werkmap weer of wijzig deze."
-content_hash: b5d2d333be649627a61af8e0ec5d9763b3a3e58c
-last_modified_at: 2023-10-26
+content_hash: e1c3bc9d8709c562c37bc2e8d1d1fe1966479355
+last_modified_at: 2023-11-02
 related_topics:
   - title: বাংলা version
     url: /bn/windows/cd.html
@@ -45,16 +45,7 @@ related_topics:
     url: /th/windows/cd.html
     icon: bi bi-globe
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/cd.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cd
+# cd
 
 Geef de naam van de huidige werkmap weer of wijzig deze.
 In PowerShell is deze opdracht een alias van `Set-Location`. Deze documentatie is gebaseerd op de Command Prompt (`cmd`) versie van `cd`.
@@ -74,7 +65,7 @@ Meer informatie: <https://learn.microsoft.com/windows-server/administration/wind
 
 - Ga naar een map in een andere drive:
 
-`cd /d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C}:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\map</span>
+`cd /d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\map</span>
 
 - Ga naar de bovenliggende map van de huidige map:
 

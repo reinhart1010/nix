@@ -2,9 +2,12 @@
 layout: page
 title: common/ac (हिन्दी)
 description: "उपयोगकर्ता कितने समय से जुड़े हुए हैं, इसके आँकड़े प्रिंट करें।"
-content_hash: 9174dff993bc6046ff3018f8792053667294556f
-last_modified_at: 2023-10-26
+content_hash: 5310571a1018cba7c4cfa4280156aef70b75ed33
+last_modified_at: 2023-11-02
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/ac.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/ac.html
     icon: bi bi-globe
@@ -27,7 +30,7 @@ related_topics:
 # ac
 
 उपयोगकर्ता कितने समय से जुड़े हुए हैं, इसके आँकड़े प्रिंट करें।
-अधिक जानकारी: <https://man.openbsd.org/ac>.
+अधिक जानकारी: <https://man.openbsd.org/ac>।
 
 - प्रिंट करें कि वर्तमान उपयोगकर्ता कितने समय तक कनेक्ट रहा है, घंटों में:
 

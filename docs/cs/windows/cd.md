@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/cd (čeština)
-description: "Zobrazit aktuální adresář nebo přesun do jiného adresáře."
-content_hash: 4534369d13df3f8c940944618313ea931781de01
-last_modified_at: 2023-10-09
+description: "Tento příkaz je aliasem pro `set-location`."
+content_hash: 8c303353668abcd4ce293d8e4f48bda89661936d
+last_modified_at: 2023-11-02
 related_topics:
   - title: বাংলা version
     url: /bn/windows/cd.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/cd.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/cd.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/windows/cd.html
@@ -38,28 +41,24 @@ related_topics:
   - title: தமிழ் version
     url: /ta/windows/cd.html
     icon: bi bi-globe
+  - title: ไทย version
+    url: /th/windows/cd.html
+    icon: bi bi-globe
 ---
-# cd
 
-Zobrazit aktuální adresář nebo přesun do jiného adresáře.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/windows/cd.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># cd
+
+Tento příkaz je aliasem pro `set-location`.
 Více informací: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
-- Zobrazit cestu k aktuálnímu adresáři:
+- Podívejte se na dokumentaci původního příkazu:
 
-`cd`
-
-- Přesun do kořenového adresáře aktuálního disku:
-
-`cd \`
-
-- Přesun do nadřazené složky aktuálního adresáře:
-
-`cd ..`
-
-- Přesun do zadaného adresáře na stejném disku:
-
-`cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cesta\k\adresari</span>
-
-- Přesun do zadaného adresáře na jiném disku:
-
-`cd /d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cesta\k\adresari</span>
+`tldr set-location`

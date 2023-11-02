@@ -2,8 +2,8 @@
 layout: page
 title: windows/wget (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `wget -p common`"
-content_hash: 6a3b5623aa661d3f4f86287725e0629e2607b3aa
-last_modified_at: 2023-07-14
+content_hash: 3df97b74b35b538834700f472cff515f29e552a7
+last_modified_at: 2023-11-02
 related_topics:
   - title: العربية version
     url: /ar/windows/wget.html
@@ -102,7 +102,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># wget
 
 คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `wget -p common`
-ข้อมูลเพิ่มเติม: <https://www.gnu.org/software/wget>
+ข้อมูลเพิ่มเติม: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 

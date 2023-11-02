@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreportz (नेपाली)
 description: "जिप गरिएको एन्ड्रोइड बग रिपोर्ट उत्पन्न गर्नुहोस्।"
-content_hash: dc22b3a173821a36fbe7e6814869f73d91f7d188
-last_modified_at: 2023-10-25
+content_hash: 4453f7b5041d90e89e33559779c88e5534cd1829
+last_modified_at: 2023-11-02
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -22,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/android/bugreportz.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/android/bugreportz.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/bugreportz.html
@@ -44,6 +47,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/android/bugreportz.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/android/bugreportz.html
+    icon: bi bi-globe
   - title: o‘zbek version
     url: /uz/android/bugreportz.html
     icon: bi bi-globe
@@ -54,14 +60,11 @@ related_topics:
     url: /zh_TW/android/bugreportz.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># Bugreport
+# Bugreport
 
 जिप गरिएको एन्ड्रोइड बग रिपोर्ट उत्पन्न गर्नुहोस्।
 यो आदेश `adb shell` मार्फत मात्र प्रयोग गर्न सकिन्छ।
-थप जानकारी: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreportz>.
+थप जानकारी: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreportz>।
 
 - एन्ड्रोइड उपकरणको पूर्ण जिप गरिएको बग रिपोर्ट उत्पन्न गर्नुहोस्:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/git-commit (日本語)
 description: "リポジトリにファイルをコミットします。"
-content_hash: 0c6d3da4c18b9a0939e988904a6a893f217b8990
-last_modified_at: 2023-04-10
+content_hash: b217fa85ad8c8435266b4f4188ef1b440aa451df
+last_modified_at: 2023-11-02
 related_topics:
   - title: Deutsch version
     url: /de/common/git-commit.html
@@ -23,6 +23,9 @@ related_topics:
   - title: italiano version
     url: /it/common/git-commit.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-commit.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-commit.html
     icon: bi bi-globe
@@ -33,13 +36,10 @@ related_topics:
     url: /uk/common/git-commit.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git commit
+# git commit
 
 リポジトリにファイルをコミットします。
-詳しくはこちら: <https://git-scm.com/docs/git-commit>.
+詳しくはこちら: <https://git-scm.com/docs/git-commit>
 
 - メッセージと共に、ステージ済のファイルをリポジトリにコミットする:
 

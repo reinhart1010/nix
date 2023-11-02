@@ -2,8 +2,8 @@
 layout: page
 title: windows/iwr (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `invoke-webrequest`"
-content_hash: fb2f25955e13462cf2a8523b3ccdc903aaea692b
-last_modified_at: 2023-07-14
+content_hash: ed2853563caec184cf49548b0e6cdf552be24678
+last_modified_at: 2023-11-02
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
@@ -93,6 +93,7 @@ related_topics:
 # iwr
 
 คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `invoke-webrequest`
+ข้อมูลเพิ่มเติม: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 

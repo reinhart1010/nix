@@ -2,9 +2,12 @@
 layout: page
 title: common/ab (Nederlands)
 description: "Apache HTTP-serverbenchmarktool."
-content_hash: 0ccfead12a58eb1e4d2378cae0e606e7675a7d3c
-last_modified_at: 2023-05-26
+content_hash: 0f3ad7f0f437ceae393f3ab1735901385466fa8f
+last_modified_at: 2023-11-02
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/ab.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/ab.html
     icon: bi bi-globe
@@ -19,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ab.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/ab.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/ab.html
@@ -39,13 +45,10 @@ related_topics:
     url: /zh/common/ab.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ab
+# ab
 
 Apache HTTP-serverbenchmarktool.
-Meer Informatie: <https://httpd.apache.org/docs/current/programs/ab.html>.
+Meer informatie: <https://httpd.apache.org/docs/current/programs/ab.html>.
 
 - Voer 100 HTTP GET-verzoeken uit naar een bepaalde URL:
 

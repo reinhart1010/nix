@@ -2,9 +2,12 @@
 layout: page
 title: windows/date (हिन्दी)
 description: "सिस्टम दिनांक प्रदर्शित या सेट करता है।"
-content_hash: b3ed476ce480685fe35b1253d9a4d670ffb4472d
-last_modified_at: 2023-10-19
+content_hash: 0f27d15fe77e878abdec71fa8a309898a4aa9a3a
+last_modified_at: 2023-11-02
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/date.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/date.html
     icon: bi bi-globe
@@ -15,13 +18,10 @@ related_topics:
     url: /it/windows/date.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># date
+# date
 
 सिस्टम दिनांक प्रदर्शित या सेट करता है।
-अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/date>.
+अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/date>।
 
 - वर्तमान सिस्टम तिथि प्रदर्शित करें और नई तिथि दर्ज करने का संकेत दें (अपरिवर्तित रखने के लिए खाली छोड़ें):
 

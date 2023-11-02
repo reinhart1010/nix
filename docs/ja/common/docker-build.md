@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-build (日本語)
 description: "Dockerfileからイメージを構築します。"
-content_hash: 28b863fe3d7178b11032b40d9f8b8dcf5ef47902
-last_modified_at: 2023-02-04
+content_hash: fd1496be1e4dab1cd96068ea9244ae8fcadaf8f8
+last_modified_at: 2023-11-02
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-build.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/docker-build.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/docker-build.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/docker-build.html
@@ -30,13 +33,10 @@ related_topics:
     url: /zh/common/docker-build.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docker build
+# docker build
 
 Dockerfileからイメージを構築します。
-詳しくはこちら: <https://docs.docker.com/engine/reference/commandline/build/>.
+詳しくはこちら: <https://docs.docker.com/engine/reference/commandline/build/>
 
 - カレントディレクトリ内のDockerfileを使ってDockerイメージを構築する:
 

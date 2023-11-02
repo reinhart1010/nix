@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-compose (नेपाली)
 description: "बहु कन्टेनर डकर अनुप्रयोगहरू चलाउनुहोस् र व्यवस्थापन गर्नुहोस्।"
-content_hash: e0914e1a6d59b737e0069d624501232a88bfe8dc
-last_modified_at: 2023-10-08
+content_hash: eeb20c3602c7d25394042b68aede2f95c0dd2351
+last_modified_at: 2023-11-02
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/docker-compose.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/docker-compose.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/docker-compose.html
@@ -33,13 +36,10 @@ related_topics:
     url: /tr/common/docker-compose.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docker compose
+# docker compose
 
 बहु कन्टेनर डकर अनुप्रयोगहरू चलाउनुहोस् र व्यवस्थापन गर्नुहोस्।
-थप जानकारी: <https://docs.docker.com/compose/reference/>.
+थप जानकारी: <https://docs.docker.com/compose/reference/>।
 
 - सबै चलिरहेको कन्टेनरहरू सूचीबद्ध गर्नुहोस्:
 

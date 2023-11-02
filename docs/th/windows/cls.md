@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/cls (ไทย)
-description: "ล้างตัวอักษรทั้งหมดที่อยู่บนหน้าต่าง"
-content_hash: 55f2c042f29589aa66ff38c4a39caf3eecd32a88
-last_modified_at: 2023-07-14
+description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `clear-host`"
+content_hash: d9a19c7357b6c670ff33d3a932396a2812bd5261
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/windows/cls.html
@@ -39,11 +39,20 @@ related_topics:
     url: /zh_TW/windows/cls.html
     icon: bi bi-globe
 ---
-# cls
 
-ล้างตัวอักษรทั้งหมดที่อยู่บนหน้าต่าง
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/windows/cls.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># cls
+
+คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `clear-host`
 ข้อมูลเพิ่มเติม: <https://learn.microsoft.com/windows-server/administration/windows-commands/cls>
 
-- ล้างตัวอักษรทั้งหมดบนหน้าจอ:
+- เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 
-`cls`
+`tldr clear-host`

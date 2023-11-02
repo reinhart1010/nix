@@ -2,8 +2,8 @@
 layout: page
 title: windows/wget (polski)
 description: "To polecenie jest aliasem `wget -p common`."
-content_hash: 89d1e3efd14804b7e5e389c2d9f6836acbf6c222
-last_modified_at: 2023-05-31
+content_hash: 99465d72b95695de2748641bb7adbd1a21fbeda8
+last_modified_at: 2023-11-02
 related_topics:
   - title: العربية version
     url: /ar/windows/wget.html
@@ -102,7 +102,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># wget
 
 To polecenie jest aliasem `wget -p common`.
-Więcej informacji: <https://www.gnu.org/software/wget>.
+Więcej informacji: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

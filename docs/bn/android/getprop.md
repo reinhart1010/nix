@@ -2,8 +2,8 @@
 layout: page
 title: android/getprop (বাংলা)
 description: "অ্যান্ড্রয়েড সিস্টেম বৈশিষ্ট্য সম্পর্কে তথ্য দেখান।"
-content_hash: 5c7a4110ae8b9468728de9b4a899e0d0d9a83828
-last_modified_at: 2023-01-03
+content_hash: 1f51667ab1cc0f7206136c0b29612d3ca738c40e
+last_modified_at: 2023-11-02
 related_topics:
   - title: Deutsch version
     url: /de/android/getprop.html
@@ -14,8 +14,14 @@ related_topics:
   - title: español version
     url: /es/android/getprop.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/android/getprop.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/android/getprop.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/android/getprop.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/getprop.html
@@ -41,6 +47,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/android/getprop.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/android/getprop.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/android/getprop.html
     icon: bi bi-globe
@@ -48,13 +57,10 @@ related_topics:
     url: /zh_TW/android/getprop.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># getprop
+# getprop
 
 অ্যান্ড্রয়েড সিস্টেম বৈশিষ্ট্য সম্পর্কে তথ্য দেখান।
-আরও তথ্য পাবেন: <https://manned.org/getprop>.
+আরও তথ্য পাবেন: <https://manned.org/getprop>।
 
 - অ্যান্ড্রয়েড সিস্টেম বৈশিষ্ট্য সম্পর্কে তথ্য প্রদর্শন করুন:
 

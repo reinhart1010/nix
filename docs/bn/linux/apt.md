@@ -2,8 +2,15 @@
 layout: page
 title: linux/apt (বাংলা)
 description: "ডেবিয়ান ভিত্তিক ডিস্ট্রিবিউশনের জন্য প্যাকেজ ম্যানেজমেন্ট ইউটিলিটি।"
-content_hash: 0058eeee8cae216f6ee88a0e332e44d62dbc26fc
+content_hash: bc82bab12200863c2dcd02ab8987d286c5515e3a
+last_modified_at: 2023-11-02
 related_topics:
+  - title: العربية version
+    url: /ar/linux/apt.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/linux/apt.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/apt.html
     icon: bi bi-globe
@@ -16,11 +23,26 @@ related_topics:
   - title: français version
     url: /fr/linux/apt.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/apt.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/apt.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/linux/apt.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/linux/apt.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/apt.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/apt.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/apt.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/apt.html
@@ -28,8 +50,14 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/linux/apt.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/apt.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/apt.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/apt.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apt.html
@@ -39,7 +67,7 @@ related_topics:
 
 ডেবিয়ান ভিত্তিক ডিস্ট্রিবিউশনের জন্য প্যাকেজ ম্যানেজমেন্ট ইউটিলিটি।
 ইন্টারেক্টিভভাবে ব্যবহৃত হলে উবুন্টু সংস্করণ 16.04 এবং তার পরবর্তী সংস্করনের জন্য `apt-get` এর পরিবরতে রেকোমেন্ডেড প্রতিস্থাপন।
-আরও তথ্য পাবেন: <https://manpages.debian.org/latest/apt/apt.8.html>.
+আরও তথ্য পাবেন: <https://manpages.debian.org/latest/apt/apt.8.html>।
 
 - উপলভ্য প্যাকেজ এবং সংস্করণের তালিকা আপডেট করুন (অন্যান্য `apt` কমান্ডের আগে এটি চালানোর পরামর্শ দেওয়া হচ্ছে):
 

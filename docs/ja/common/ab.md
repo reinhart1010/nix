@@ -2,9 +2,12 @@
 layout: page
 title: common/ab (日本語)
 description: "Apache HTTP server のベンチマーク用ツールです。"
-content_hash: cf0cf246c0d9bdbe58d15e5bc8d1bd0e53e6040b
-last_modified_at: 2023-10-21
+content_hash: afd0c4ecb69361c4cc53c16fddc7308e5833959e
+last_modified_at: 2023-11-02
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/ab.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/ab.html
     icon: bi bi-globe
@@ -42,13 +45,10 @@ related_topics:
     url: /zh/common/ab.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ab
+# ab
 
 Apache HTTP server のベンチマーク用ツールです。
-詳細情報はこちら: <https://httpd.apache.org/docs/current/programs/ab.html>.
+詳しくはこちら: <https://httpd.apache.org/docs/current/programs/ab.html>
 
 - 指定された URL に 100 個の GET リクエストを送信する:
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/fdisk (हिन्दी)
 description: "एक प्रोग्राम जो हार्ड डिस्क पर पार्टीशन टेबल और पार्टीशन का प्रबंधन करने के लिए है।"
-content_hash: f412da1a8e2a1192fee7b50624f5805fb2e1ea14
-last_modified_at: 2023-10-20
+content_hash: a8e1481a826c6af53c94ecb1a87ad9e557cb0678
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/linux/fdisk.html
@@ -15,14 +15,11 @@ related_topics:
     url: /ta/linux/fdisk.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># fdisk
+# fdisk
 
 एक प्रोग्राम जो हार्ड डिस्क पर पार्टीशन टेबल और पार्टीशन का प्रबंधन करने के लिए है।
 देखें भी: `partprobe`.
-अधिक जानकारी: <https://manned.org/fdisk>.
+अधिक जानकारी: <https://manned.org/fdisk>।
 
 - पार्टीशनों की सूची दिखाएं:
 

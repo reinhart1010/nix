@@ -2,8 +2,8 @@
 layout: page
 title: common/popd (中文)
 description: "通过 pushd shell 内置程序删除目录堆栈中的目录。"
-content_hash: d8c8f87f3e283e774793b573db31cb9af4b9c8b1
-last_modified_at: 2023-10-26
+content_hash: b565fb0006158690fa1d721e60c75399f5d92321
+last_modified_at: 2023-11-02
 related_topics:
   - title: dansk version
     url: /da/common/popd.html
@@ -24,6 +24,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># popd
 
 通过 pushd shell 内置程序删除目录堆栈中的目录。
+更多信息：<https://www.gnu.org/software/bash/manual/html_node/Directory-Stack-Builtins.html>.
 
 - 从堆栈中删除顶部目录，并用 `cd` 跳转到该目录：
 

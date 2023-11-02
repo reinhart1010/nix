@@ -2,8 +2,8 @@
 layout: page
 title: linux/archinstall (हिन्दी)
 description: "एक सहायक लाइब्रेरी जो आर्क लिनक्स (Arch Linux) की स्थापना को स्वचालित करती है।"
-content_hash: 3f381d1ac910f1ff909e25045e764b9cfc0b081c
-last_modified_at: 2023-10-14
+content_hash: a8bb45f8567b6814c40bd3629da80ab4c6cef340
+last_modified_at: 2023-11-02
 related_topics:
   - title: Deutsch version
     url: /de/linux/archinstall.html
@@ -27,13 +27,10 @@ related_topics:
     url: /zh/linux/archinstall.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># archinstall
+# archinstall
 
 एक सहायक लाइब्रेरी जो आर्क लिनक्स (Arch Linux) की स्थापना को स्वचालित करती है।
-अधिक जानकारी: <https://archinstall.readthedocs.io>.
+अधिक जानकारी: <https://archinstall.readthedocs.io>।
 
 - इंटरैक्टिव इंस्टॉलर प्रारंभ करें:
 

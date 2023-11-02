@@ -2,20 +2,17 @@
 layout: page
 title: windows/net (বাংলা)
 description: "সিস্টেম ইউটিলিটি যাতে নেটওয়ার্ক-সম্পর্কিত সেটিংস দেখা এবং পরিবর্তন করা হয়।"
-content_hash: 08d959f35c9c7669f1b903d42c90b9780b0a5381
-last_modified_at: 2023-10-30
+content_hash: 17dcfd988131f6df93f71d06a3924f324b6a417f
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/windows/net.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># net
+# net
 
 সিস্টেম ইউটিলিটি যাতে নেটওয়ার্ক-সম্পর্কিত সেটিংস দেখা এবং পরিবর্তন করা হয়।
-আরও তথ্য পাবেন: <https://learn.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/gg651155(v=ws.11)>.
+আরও তথ্য পাবেন: <https://learn.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/gg651155(v=ws.11)>।
 
 - একটি Windows সার্ভিস সমকালিনভাবে চালু বা বন্ধ করুন:
 

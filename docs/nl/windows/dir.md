@@ -2,8 +2,8 @@
 layout: page
 title: windows/dir (Nederlands)
 description: "Geeft de inhoud weer van een map."
-content_hash: 37663439707621e001ba8e6dd13ab8fb8af42135
-last_modified_at: 2023-10-19
+content_hash: 7609a83d9e5514a8213893c7425d3257a78c50aa
+last_modified_at: 2023-11-02
 related_topics:
   - title: català version
     url: /ca/windows/dir.html
@@ -13,6 +13,12 @@ related_topics:
     icon: bi bi-globe
   - title: English version
     url: /en/windows/dir.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/windows/dir.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/dir.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/windows/dir.html
@@ -28,6 +34,9 @@ related_topics:
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/windows/dir.html
+    icon: bi bi-globe
+  - title: ไทย version
+    url: /th/windows/dir.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/dir.html
@@ -55,7 +64,7 @@ Meer informatie: <https://learn.microsoft.com/windows-server/administration/wind
 
 - Geef de inhoud weer van een gegeven map, inclusief verborgen bestanden:
 
-`dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\map</span>` /A`
+`dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad\naar\map</span>` /a`
 
 - Toon een lijst met mappen en bestanden, zonder extra informatie:
 

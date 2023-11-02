@@ -2,8 +2,8 @@
 layout: page
 title: windows/find (বাংলা)
 description: "এক বা একাধিক ফাইলে নির্দিষ্ট স্ট্রিং খোঁজা।"
-content_hash: bf9ea964ea760f9eb8943b2e0adfae82f7a31dd5
-last_modified_at: 2023-10-26
+content_hash: d87dc7f3ac00ffe9a3fffc03fb6fbe6971867eb2
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/windows/find.html
@@ -30,13 +30,10 @@ related_topics:
     url: /zh_TW/windows/find.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># find
+# find
 
 এক বা একাধিক ফাইলে নির্দিষ্ট স্ট্রিং খোঁজা।
-আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/find>.
+আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/find>।
 
 - ঐ স্ট্রিং যুক্ত লাইন গুলি খোঁজা:
 

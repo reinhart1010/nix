@@ -2,8 +2,8 @@
 layout: page
 title: android/getprop (हिन्दी)
 description: "एंड्रॉइड सिस्टम गुणों के बारे में जानकारी दिखाएं।"
-content_hash: e96ba5545c4a9268060d41ed7e94312291b50acb
-last_modified_at: 2023-10-25
+content_hash: 661a5621467b4e273cfa39a3e54fda20c949bb37
+last_modified_at: 2023-11-02
 related_topics:
   - title: বাংলা version
     url: /bn/android/getprop.html
@@ -47,6 +47,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/android/getprop.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/android/getprop.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/android/getprop.html
     icon: bi bi-globe
@@ -54,13 +57,10 @@ related_topics:
     url: /zh_TW/android/getprop.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># getprop
+# getprop
 
 एंड्रॉइड सिस्टम गुणों के बारे में जानकारी दिखाएं।
-अधिक जानकारी: <https://manned.org/getprop>.
+अधिक जानकारी: <https://manned.org/getprop>।
 
 - एंड्रॉइड सिस्टम गुणों के बारे में जानकारी प्रदर्शित करें:
 

@@ -2,8 +2,8 @@
 layout: page
 title: android/screencap (हिन्दी)
 description: "मोबाइल डिस्प्ले का स्क्रीनशॉट लें।"
-content_hash: 078027e1bf253a1a451b0547fe1b36b4d913e3ce
-last_modified_at: 2023-10-25
+content_hash: a1641de0b23594e212fd7ebb6555a3afb23647db
+last_modified_at: 2023-11-02
 related_topics:
   - title: বাংলা version
     url: /bn/android/screencap.html
@@ -35,18 +35,18 @@ related_topics:
   - title: Türkçe version
     url: /tr/android/screencap.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/android/screencap.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/android/screencap.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># screencap
+# screencap
 
 मोबाइल डिस्प्ले का स्क्रीनशॉट लें।
 इस कमांड का उपयोग केवल `adb shell` के माध्यम से किया जा सकता है।
-अधिक जानकारी: <https://developer.android.com/studio/command-line/adb#screencap>.
+अधिक जानकारी: <https://developer.android.com/studio/command-line/adb#screencap>।
 
 - कोई स्क्रीनशॉट लें:
 

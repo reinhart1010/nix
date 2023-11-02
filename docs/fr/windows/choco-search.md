@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco-search (français)
 description: "Recherchez un forfait local ou distant avec Chocolatey."
-content_hash: 95e54c4d8c85bc85087774b9bd24dca09eb7fdb2
-last_modified_at: 2023-10-26
+content_hash: 4c0870c2e827d178be8718786cc90ad3e24bd6de
+last_modified_at: 2023-11-02
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-search.html
@@ -21,13 +21,10 @@ related_topics:
     url: /zh/windows/choco-search.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># choco search
+# choco search
 
 Recherchez un forfait local ou distant avec Chocolatey.
-Plus d'information: <https://chocolatey.org/docs/commands-search>.
+Plus d'informations : <https://chocolatey.org/docs/commands-search>.
 
 - Rechercher un forfait :
 

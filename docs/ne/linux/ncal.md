@@ -2,14 +2,20 @@
 layout: page
 title: linux/ncal (नेपाली)
 description: "यो आदेश `cal` को उपनाम हो |"
-content_hash: a5437ef07ca327c30681065af8f399979542b11c
-last_modified_at: 2022-12-29
+content_hash: 37ccc92accfe3e7a553331139746a410cf4717a7
+last_modified_at: 2023-11-02
 related_topics:
+  - title: العربية version
+    url: /ar/linux/ncal.html
+    icon: bi bi-globe
   - title: bosanski version
     url: /bs/linux/ncal.html
     icon: bi bi-globe
   - title: català version
     url: /ca/linux/ncal.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/linux/ncal.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/ncal.html
@@ -35,6 +41,9 @@ related_topics:
   - title: 日本語 version
     url: /ja/linux/ncal.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/ncal.html
+    icon: bi bi-globe
   - title: ລາວ version
     url: /lo/linux/ncal.html
     icon: bi bi-globe
@@ -53,6 +62,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/ncal.html
     icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/linux/ncal.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/linux/ncal.html
     icon: bi bi-globe
@@ -65,6 +77,9 @@ related_topics:
   - title: ไทย version
     url: /th/linux/ncal.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/linux/ncal.html
+    icon: bi bi-globe
   - title: українська version
     url: /uk/linux/ncal.html
     icon: bi bi-globe
@@ -75,13 +90,10 @@ related_topics:
     url: /zh_TW/linux/ncal.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ncal
+# ncal
 
 यो आदेश `cal` को उपनाम हो |
-थप जानकारी: <https://manned.org/ncal>.
+थप जानकारी: <https://manned.org/ncal>।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

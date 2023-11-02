@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreport (हिन्दी)
 description: "एंड्रॉयड बग रिपोर्ट दिखाएँ।"
-content_hash: d97e6232b0fdf8e02c6de57880a8ee10bdfa1dba
-last_modified_at: 2023-10-20
+content_hash: 89cd6c9badff13381e352cb48cc4e4c978fe2625
+last_modified_at: 2023-11-02
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreport.html
@@ -32,6 +32,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/android/bugreport.html
     icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/android/bugreport.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/android/bugreport.html
     icon: bi bi-globe
@@ -50,6 +53,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/android/bugreport.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/android/bugreport.html
+    icon: bi bi-globe
   - title: o‘zbek version
     url: /uz/android/bugreport.html
     icon: bi bi-globe
@@ -60,14 +66,11 @@ related_topics:
     url: /zh_TW/android/bugreport.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bugreport
+# bugreport
 
 एंड्रॉयड बग रिपोर्ट दिखाएँ।
 इस कमांड का उपयोग केवल `adb shell` के माध्यम से किया जा सकता है।
-अधिक जानकारी: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreport>.
+अधिक जानकारी: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreport>।
 
 - एंड्रॉयड डिवाइस की संपूर्ण बग रिपोर्ट प्रदर्शित करें:
 

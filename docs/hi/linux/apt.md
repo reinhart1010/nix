@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt (हिन्दी)
 description: "डेबियन आधारित वितरणों के लिए पैकेज प्रबंधन उपयोगिता।"
-content_hash: 4e0d19edb4a9780c450103d04c1d0674ccc34e7f
-last_modified_at: 2023-06-20
+content_hash: 3b571ee753eb5e94bcdd94ec46d7d10a3f5598bd
+last_modified_at: 2023-11-02
 related_topics:
   - title: العربية version
     url: /ar/linux/apt.html
@@ -56,19 +56,19 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/apt.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/apt.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apt.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># apt
+# apt
 
 डेबियन आधारित वितरणों के लिए पैकेज प्रबंधन उपयोगिता।
 उबंटू संस्करण १६.०४ और बाद में इंटरैक्टिव रूप से उपयोग किए जाने पर `apt-get` के लिए अनुशंसित प्रतिस्थापन।
 अन्य पैकेज प्रबंधकों में समतुल्य कमांड के लिए, देखें <https://wiki.archlinux.org/title/Pacman/Rosetta>।
-अधिक जानकारी: <https://manpages.debian.org/latest/apt/apt.8.html>.
+अधिक जानकारी: <https://manpages.debian.org/latest/apt/apt.8.html>।
 
 - उपलब्ध पैकेजों और संस्करणों की सूची को अपडेट करें (इसे अन्य `apt` कमांड से पहले चलाने की अनुशंसा की जाती है):
 

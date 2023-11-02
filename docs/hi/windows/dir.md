@@ -2,8 +2,8 @@
 layout: page
 title: windows/dir (हिन्दी)
 description: "निर्देशिका सामग्री सूचीबद्ध करें।"
-content_hash: 061f36947cf7f0b44658057749fe5a8c35f3694b
-last_modified_at: 2023-10-24
+content_hash: dda5ae1357642d3e74f21e5e5e1ec2c6dd65cd56
+last_modified_at: 2023-11-02
 related_topics:
   - title: català version
     url: /ca/windows/dir.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: English version
     url: /en/windows/dir.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/windows/dir.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/windows/dir.html
@@ -42,13 +45,10 @@ related_topics:
     url: /zh_TW/windows/dir.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dir
+# dir
 
 निर्देशिका सामग्री सूचीबद्ध करें।
-अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/dir>.
+अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/dir>।
 
 - वर्तमान निर्देशिका की सामग्री दिखाएँ:
 

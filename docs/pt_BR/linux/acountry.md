@@ -2,17 +2,20 @@
 layout: page
 title: linux/acountry (português (Brasil))
 description: "Imprime o país onde um endereço IPv4 ou nome do servidor estão localizados."
-content_hash: 1efd479e35c90c8fa67764f07470102eeeb13925
-last_modified_at: 2023-01-11
+content_hash: adc8da39fc39475931890eb4ee3b0b63ad378a02
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/linux/acountry.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/acountry.html
     icon: bi bi-globe
 ---
 # acountry
 
 Imprime o país onde um endereço IPv4 ou nome do servidor estão localizados.
-Mais informação: <https://manned.org/acountry>.
+Mais informações: <https://manned.org/acountry>.
 
 - Imprime um país onde um endereço IPv4 ou host está localizado:
 

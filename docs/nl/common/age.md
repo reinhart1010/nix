@@ -2,8 +2,8 @@
 layout: page
 title: common/age (Nederlands)
 description: "Een eenvoudige, moderne en veilige tool voor het versleutelen van bestanden."
-content_hash: 1a6d7b934e7b66fa2a01a358583202d1c699e8cc
-last_modified_at: 2023-10-20
+content_hash: 4f31be1afac219d7f6255a10a79b02624280039d
+last_modified_at: 2023-11-02
 related_topics:
   - title: Deutsch version
     url: /de/common/age.html
@@ -27,16 +27,7 @@ related_topics:
     url: /zh/common/age.html
     icon: bi bi-globe
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/age.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># age
+# age
 
 Een eenvoudige, moderne en veilige tool voor het versleutelen van bestanden.
 Bekijk `age-keygen` hoe je sleutelparen kan genereren.
@@ -52,7 +43,7 @@ Meer informatie: <https://github.com/FiloSottile/age>.
 
 - Versleutel een bestand met een of meer openbare sleutels die zijn opgegeven in het bestand van een ontvanger:
 
-`age --recipients-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/ontvangers_bestand</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/niet-versleuteld_bestand</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/versleuteld_bestand</span>
+`age --recipients-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/ontvangers_bestand</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/versleuteld_bestand</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/niet-versleuteld_bestand</span>
 
 - Decodeer een bestand met een wachtwoordzin:
 

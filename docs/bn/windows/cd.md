@@ -2,16 +2,29 @@
 layout: page
 title: windows/cd (বাংলা)
 description: "বর্তমান ওয়ার্কিং ডিরেক্টরির নাম প্রদর্শন বা পরিবর্তন করে।"
-content_hash: c31d6507a3f123df6c753a03fe76a3296ec214d2
+content_hash: cae096bcbb6888671585ca10214df9f0c816642d
+last_modified_at: 2023-11-02
 related_topics:
+  - title: čeština version
+    url: /cs/windows/cd.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/cd.html
     icon: bi bi-globe
   - title: English version
     url: /en/windows/cd.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/windows/cd.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/cd.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/windows/cd.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/cd.html
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/windows/cd.html
@@ -22,14 +35,29 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/windows/cd.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/windows/cd.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/windows/cd.html
     icon: bi bi-globe
+  - title: ไทย version
+    url: /th/windows/cd.html
+    icon: bi bi-globe
 ---
-# cd
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/windows/cd.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># cd
 
 বর্তমান ওয়ার্কিং ডিরেক্টরির নাম প্রদর্শন বা পরিবর্তন করে।
-আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
+আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>।
 
 - একই ড্রাইভে একটি ডিরেক্টরিতে যান:
 

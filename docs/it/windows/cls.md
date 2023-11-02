@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/cls (italiano)
-description: "Pulisce lo schermo del terminale."
-content_hash: 4bf556f7acd19741a8aceed73bfb40fe3439f897
-last_modified_at: 2023-04-10
+description: "Questo comando è un alias per `clear-host`."
+content_hash: f87c344c6185d552ef46766ee757c51d0ca9cae2
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/windows/cls.html
@@ -40,13 +40,19 @@ related_topics:
     icon: bi bi-globe
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/windows/cls.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># cls
 
-Pulisce lo schermo del terminale.
+Questo comando è un alias per `clear-host`.
 Maggiori informazioni: <https://learn.microsoft.com/windows-server/administration/windows-commands/cls>.
 
-- Pulisce lo schermo:
+- Consulta la documentazione del comando originale:
 
-`cls`
+`tldr clear-host`

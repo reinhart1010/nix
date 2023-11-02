@@ -2,7 +2,8 @@
 layout: page
 title: common/vlc (नेपाली)
 description: "क्रस प्लेटफर्म मल्टिमिडिया प्लेयर।"
-content_hash: 40e25dafa51469dc376cb667d9288ece1241f80c
+content_hash: 9ce2724c0f9b266519c9e7c58c01ef2be1ecf866
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/common/vlc.html
@@ -17,13 +18,10 @@ related_topics:
     url: /zh/common/vlc.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># vlc
+# vlc
 
 क्रस प्लेटफर्म मल्टिमिडिया प्लेयर।
-थप जानकारी: <https://wiki.videolan.org/Documentation:Command_line/>.
+थप जानकारी: <https://wiki.videolan.org/Documentation:Command_line/>।
 
 - एउटा फाइल प्ले गर्नुहोस्:
 

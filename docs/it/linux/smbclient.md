@@ -2,20 +2,17 @@
 layout: page
 title: linux/smbclient (italiano)
 description: "Programma client simile ad FTP per server SMB/CIFS."
-content_hash: 91661e0f35c13fadadb6969aef5551f7e2b31d2b
-last_modified_at: 2023-07-03
+content_hash: 3e047ca2f58785fb3072823bed9e8190c39b90ef
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/linux/smbclient.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># smbclient
+# smbclient
 
 Programma client simile ad FTP per server SMB/CIFS.
-Maggiori informazioni: <https://manned.org/man.it/smbclient.1>.
+Maggiori informazioni: <https://manned.org/smbclient>.
 
 - Connettiti ad una share (all'utente verrà richiesta la password; `exit` per uscire dalla sessione):
 

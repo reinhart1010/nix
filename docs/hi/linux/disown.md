@@ -2,21 +2,18 @@
 layout: page
 title: linux/disown (हिन्दी)
 description: "उप-प्रक्रियाओं को उस शेल से परे रहने की अनुमति दें जिससे वे जुड़े हुए हैं।"
-content_hash: 9e13138a25d24b577a506af021d3f451cd914598
-last_modified_at: 2023-10-04
+content_hash: 5e0188e7a72d4bae831aa32b453e239a8209757c
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/linux/disown.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># disown
+# disown
 
 उप-प्रक्रियाओं को उस शेल से परे रहने की अनुमति दें जिससे वे जुड़े हुए हैं।
 `jobs` कमांड भी देखें।
-अधिक जानकारी: <https://www.gnu.org/software/bash/manual/bash.html#index-disown>.
+अधिक जानकारी: <https://www.gnu.org/software/bash/manual/bash.html#index-disown>।
 
 - वर्तमान कार्य को अस्वीकार करें:
 

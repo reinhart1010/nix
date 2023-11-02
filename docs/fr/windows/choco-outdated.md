@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco-outdated (français)
 description: "Vérifiez les packages obsolètes avec Chocolatey."
-content_hash: 1cb7c2331826009b5dc7b6958a0a0a4f47773307
-last_modified_at: 2023-10-22
+content_hash: b01af09d8d1f80ccb98079bb18c03b7f4c205ed0
+last_modified_at: 2023-11-02
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-outdated.html
@@ -21,13 +21,10 @@ related_topics:
     url: /zh/windows/choco-outdated.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># choco outdated
+# choco outdated
 
 Vérifiez les packages obsolètes avec Chocolatey.
-Plus d'information: <https://chocolatey.org/docs/commands-outdated>.
+Plus d'informations : <https://chocolatey.org/docs/commands-outdated>.
 
 - Afficher une liste des packages obsolètes sous forme de tableau :
 

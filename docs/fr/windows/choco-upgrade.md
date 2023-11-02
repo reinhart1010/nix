@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco-upgrade (français)
 description: "Surclassez un ou plusieurs forfaits avec Chocolatey."
-content_hash: 2e1e7f7f8b9965afec51d97ba992d915cc204480
-last_modified_at: 2023-10-26
+content_hash: 8187366a25a00c88215c29474fdb49baf3c43a59
+last_modified_at: 2023-11-02
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-upgrade.html
@@ -30,7 +30,7 @@ related_topics:
 # choco upgrade
 
 Surclassez un ou plusieurs forfaits avec Chocolatey.
-Plus d'information: <https://chocolatey.org/docs/commands-upgrade>.
+Plus d'informations : <https://chocolatey.org/docs/commands-upgrade>.
 
 - Mettre à niveau un ou plusieurs packages séparés par des espaces :
 

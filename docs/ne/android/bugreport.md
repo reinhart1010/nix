@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreport (नेपाली)
 description: "एन्ड्रोइड बग रिपोर्ट देखाउनुहोस्।"
-content_hash: 45e5f67442dfa5ccb74b936fdda1b9684c178f55
-last_modified_at: 2023-10-23
+content_hash: ae58e0c3c5f5f7296678bc471b2fcb9b7b18a616
+last_modified_at: 2023-11-02
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreport.html
@@ -53,6 +53,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/android/bugreport.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/android/bugreport.html
+    icon: bi bi-globe
   - title: o‘zbek version
     url: /uz/android/bugreport.html
     icon: bi bi-globe
@@ -67,7 +70,7 @@ related_topics:
 
 एन्ड्रोइड बग रिपोर्ट देखाउनुहोस्।
 यो आदेश `adb shell` मार्फत मात्र प्रयोग गर्न सकिन्छ।
-थप जानकारी: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreport>.
+थप जानकारी: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreport>।
 
 - एन्ड्रोइड उपकरणको पूर्ण बग रिपोर्ट प्रदर्शन गर्नुहोस्:
 

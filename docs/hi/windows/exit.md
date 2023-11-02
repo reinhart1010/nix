@@ -2,9 +2,12 @@
 layout: page
 title: windows/exit (हिन्दी)
 description: "वर्तमान सीएमडी इंस्टेंस या वर्तमान बैच फ़ाइल से बाहर निकलें।"
-content_hash: 1315e1c7bb4898389aa55ba569e93123cc23bcb5
-last_modified_at: 2023-10-19
+content_hash: 992e0fbe81d70c3f2e50b2c9c1b2d22102a766b5
+last_modified_at: 2023-11-02
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/exit.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/exit.html
     icon: bi bi-globe
@@ -21,13 +24,10 @@ related_topics:
     url: /zh_TW/windows/exit.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># exit
+# exit
 
 वर्तमान सीएमडी इंस्टेंस या वर्तमान बैच फ़ाइल से बाहर निकलें।
-अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/exit>.
+अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/exit>।
 
 - वर्तमान सीएमडी उदाहरण से बाहर निकलें:
 

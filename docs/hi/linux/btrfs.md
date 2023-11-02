@@ -2,8 +2,8 @@
 layout: page
 title: linux/btrfs (हिन्दी)
 description: "लिनक्स के लिए कॉपी-ऑन-राइट (COW) सिद्धांत पर आधारित एक फ़ाइल सिस्टम।"
-content_hash: 0f2baeea6d6967885235baf77b03dff73ac69679
-last_modified_at: 2023-10-20
+content_hash: cf4939ec6dd8d2b4d108fe79936b880c425c517c
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/linux/btrfs.html
@@ -22,7 +22,7 @@ related_topics:
 
 लिनक्स के लिए कॉपी-ऑन-राइट (COW) सिद्धांत पर आधारित एक फ़ाइल सिस्टम।
 कुछ सब-कमांड जैसे `btrfs device`, उनका खुद का उपयोग दस्तावेज़न है।
-अधिक जानकारी: <https://btrfs.readthedocs.io/en/latest/btrfs.html>.
+अधिक जानकारी: <https://btrfs.readthedocs.io/en/latest/btrfs.html>।
 
 - उप-वॉल्यूम बनाएं:
 

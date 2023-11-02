@@ -2,8 +2,8 @@
 layout: page
 title: common/ac (বাংলা)
 description: "ব্যবহারকারী কতক্ষণ সংযোগিত আছেন, সেই পরিস্থিতিগুলি প্রিন্ট করুন।"
-content_hash: 37627b8fcbe893a12c0fd2c3b821d03e06958f48
-last_modified_at: 2023-10-28
+content_hash: a1324c221a1cc03734a424d6696661c5bc10d033
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/common/ac.html
@@ -27,13 +27,10 @@ related_topics:
     url: /zh/common/ac.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ac
+# ac
 
 ব্যবহারকারী কতক্ষণ সংযোগিত আছেন, সেই পরিস্থিতিগুলি প্রিন্ট করুন।
-আরও জানতে: <https://man.openbsd.org/ac>.
+আরও তথ্য পাবেন: <https://man.openbsd.org/ac>।
 
 - বর্তমান ব্যবহারকারী কত সময় ধরে সংযোগিত আছে, ঘণ্টায়:
 

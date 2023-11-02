@@ -2,8 +2,8 @@
 layout: page
 title: linux/parted (हिन्दी)
 description: "एक पार्टीशन मैनिपुलेशन प्रोग्राम।"
-content_hash: 5dc2375fee7c4781e7906d866af50a255b367658
-last_modified_at: 2023-10-16
+content_hash: 396830ef68e842d47aaf26ee72d6a15e1f553a30
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/linux/parted.html
@@ -12,14 +12,11 @@ related_topics:
     url: /uk/linux/parted.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># parted
+# parted
 
 एक पार्टीशन मैनिपुलेशन प्रोग्राम।
 देखें भी: `partprobe`.
-अधिक जानकारी: <https://www.gnu.org/software/parted/parted.html>.
+अधिक जानकारी: <https://www.gnu.org/software/parted/parted.html>।
 
 - सभी ब्लॉक डिवाइस पर पार्टीशनों की सूची दिखाएं:
 

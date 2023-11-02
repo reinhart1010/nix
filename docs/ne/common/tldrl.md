@@ -2,11 +2,20 @@
 layout: page
 title: common/tldrl (नेपाली)
 description: "यो आदेश `tldr-lint` को उपनाम हो |"
-content_hash: 955c68b731ecb2e644bc0425de8f848c0e30ef26
-last_modified_at: 2022-12-29
+content_hash: 7765d66a98105aced1d5c09e25c3aceb6663e582
+last_modified_at: 2023-11-02
 related_topics:
+  - title: العربية version
+    url: /ar/common/tldrl.html
+    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/tldrl.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/common/tldrl.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/common/tldrl.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/tldrl.html
@@ -32,6 +41,9 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/tldrl.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/tldrl.html
+    icon: bi bi-globe
   - title: ລາວ version
     url: /lo/common/tldrl.html
     icon: bi bi-globe
@@ -49,6 +61,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/tldrl.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/common/tldrl.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/tldrl.html
@@ -75,13 +90,10 @@ related_topics:
     url: /zh_TW/common/tldrl.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># tldrl
+# tldrl
 
 यो आदेश `tldr-lint` को उपनाम हो |
-थप जानकारी: <https://github.com/tldr-pages/tldr-lint>.
+थप जानकारी: <https://github.com/tldr-pages/tldr-lint>।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

@@ -1,0 +1,105 @@
+---
+layout: page
+title: osx/gdirname (suomi)
+description: "Tämä komento on `-p linux dirname`:n alias."
+content_hash: bb253a9694f673d82c62cc13f9c3463059655108
+last_modified_at: 2023-11-02
+related_topics:
+  - title: العربية version
+    url: /ar/osx/gdirname.html
+    icon: bi bi-globe
+  - title: bosanski version
+    url: /bs/osx/gdirname.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/osx/gdirname.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/osx/gdirname.html
+    icon: bi bi-globe
+  - title: Deutsch version
+    url: /de/osx/gdirname.html
+    icon: bi bi-globe
+  - title: English version
+    url: /en/osx/gdirname.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/osx/gdirname.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/osx/gdirname.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/osx/gdirname.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/osx/gdirname.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/osx/gdirname.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/osx/gdirname.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/osx/gdirname.html
+    icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/osx/gdirname.html
+    icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/osx/gdirname.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/osx/gdirname.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/osx/gdirname.html
+    icon: bi bi-globe
+  - title: norsk version
+    url: /no/osx/gdirname.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/osx/gdirname.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/gdirname.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/osx/gdirname.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/osx/gdirname.html
+    icon: bi bi-globe
+  - title: svenska version
+    url: /sv/osx/gdirname.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/osx/gdirname.html
+    icon: bi bi-globe
+  - title: ไทย version
+    url: /th/osx/gdirname.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/osx/gdirname.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/osx/gdirname.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/osx/gdirname.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/osx/gdirname.html
+    icon: bi bi-globe
+---
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># gdirname
+
+Tämä komento on `-p linux dirname`:n alias.
+
+- Katso alkuperäisen komennon dokumentaatiossa:
+
+`tldr -p linux dirname`

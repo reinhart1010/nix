@@ -2,8 +2,8 @@
 layout: page
 title: windows/chrome (বাংলা)
 description: "এই আদেশটির উপনাম `chromium`।"
-content_hash: 0d0c6d7ca20c937f36cda23d86f85013a466e13d
-last_modified_at: 2023-10-26
+content_hash: 119b767c993d7b1faa6c427f1e7556bae4459346
+last_modified_at: 2023-11-02
 related_topics:
   - title: العربية version
     url: /ar/windows/chrome.html
@@ -93,13 +93,10 @@ related_topics:
     url: /zh_TW/windows/chrome.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># chrome
+# chrome
 
 এই আদেশটির উপনাম `chromium`।
-আরও তথ্যের জন্য: <https://chrome.google.com>.
+আরও তথ্য পাবেন: <https://chrome.google.com>।
 
 - মৌল আদেশের জন্য ডকুমেন্টেশন দেখুন:
 

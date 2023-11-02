@@ -2,11 +2,14 @@
 layout: page
 title: windows/curl (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `curl -p common`"
-content_hash: 586aa6ced9c7cdf1287930c6874428796bcfa457
-last_modified_at: 2023-07-14
+content_hash: d2b686de062117592fb48064173e45098c7151f9
+last_modified_at: 2023-11-02
 related_topics:
   - title: العربية version
     url: /ar/windows/curl.html
+    icon: bi bi-globe
+  - title: বাংলা version
+    url: /bn/windows/curl.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/curl.html
@@ -102,7 +105,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># curl
 
 คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `curl -p common`
-ข้อมูลเพิ่มเติม: <https://curl.se>
+ข้อมูลเพิ่มเติม: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>
 
 - เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
 

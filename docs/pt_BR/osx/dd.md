@@ -2,22 +2,32 @@
 layout: page
 title: osx/dd (português (Brasil))
 description: "Converte e copia um arquivo."
-content_hash: 2ac0536fb81947cee388bac8943c0f2a058115fb
+content_hash: 6b37afedcab0bc85ad709fe988c94fb08492c833
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/osx/dd.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/osx/dd.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/dd.html
     icon: bi bi-globe
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/osx/dd.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># dd
 
 Converte e copia um arquivo.
-Mais informações: <https://ss64.com/osx/dd.html>.
+Mais informações: <https://keith.github.io/xcode-man-pages/dd.1.html>.
 
 - Cria uma unidade USB inicializável a partir de um arquivo isohybrid (tal como `archlinux-xxx.iso`):
 

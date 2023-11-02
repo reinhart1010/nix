@@ -2,8 +2,8 @@
 layout: page
 title: linux/cat (हिन्दी)
 description: "फ़ाइलों को प्रिंट करता है और जोड़ता है।"
-content_hash: 61f2b89461b654ae15b783140798ec41eae5fbe4
-last_modified_at: 2023-06-16
+content_hash: 6ea714665264e415c5af819d3bd5ffbeab46b2b2
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/linux/cat.html
@@ -11,14 +11,14 @@ related_topics:
   - title: മലയാളം version
     url: /ml/linux/cat.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/cat.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cat
+# cat
 
 फ़ाइलों को प्रिंट करता है और जोड़ता है।
-अधिक जानकारी: <https://www.gnu.org/software/coreutils/cat>.
+अधिक जानकारी: <https://www.gnu.org/software/coreutils/cat>।
 
 - फ़ाइल की सामग्री को मानक (standard) आउटपुट पर प्रिंट करें:
 

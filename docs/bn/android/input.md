@@ -2,8 +2,8 @@
 layout: page
 title: android/input (বাংলা)
 description: "একটি Android ডিভাইসে ইভেন্ট কোড বা টাচস্ক্রিন অঙ্গভঙ্গি পাঠান।"
-content_hash: bdd0fb771468526516b72a82a359da340882cf06
-last_modified_at: 2023-01-03
+content_hash: 6238af488e191c755e26d40733eaff080ea62099
+last_modified_at: 2023-11-02
 related_topics:
   - title: Deutsch version
     url: /de/android/input.html
@@ -14,8 +14,14 @@ related_topics:
   - title: español version
     url: /es/android/input.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/android/input.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/android/input.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/android/input.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/input.html
@@ -41,6 +47,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/android/input.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/android/input.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/android/input.html
     icon: bi bi-globe
@@ -48,14 +57,11 @@ related_topics:
     url: /zh_TW/android/input.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># input
+# input
 
 একটি Android ডিভাইসে ইভেন্ট কোড বা টাচস্ক্রিন অঙ্গভঙ্গি পাঠান।
 এই কমান্ডটি শুধুমাত্র `adb shell` এর মাধ্যমে ব্যবহার করা যেতে পারে।
-আরও তথ্য পাবেন: <https://developer.android.com/reference/android/view/KeyEvent.html#constants_1>.
+আরও তথ্য পাবেন: <https://developer.android.com/reference/android/view/KeyEvent.html#constants_1>।
 
 - একটি Android ডিভাইসে একটি একক অক্ষরের জন্য একটি ইভেন্ট কোড পাঠান:
 

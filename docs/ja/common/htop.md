@@ -2,8 +2,8 @@
 layout: page
 title: common/htop (日本語)
 description: "実行中のプロセスに関する動的なリアルタイム情報を表示する。 `top` の拡張版。"
-content_hash: a812fc8cb5a4138fd1b22b9d7276ad2072139c63
-last_modified_at: 2023-01-20
+content_hash: fe401e953c39d9fd3df04017da0a9c3729b2e4b7
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/common/htop.html
@@ -14,6 +14,9 @@ related_topics:
   - title: Indonesia version
     url: /id/common/htop.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/htop.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/htop.html
     icon: bi bi-globe
@@ -22,12 +25,18 @@ related_topics:
     icon: bi bi-globe
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/htop.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># htop
 
 実行中のプロセスに関する動的なリアルタイム情報を表示する。 `top` の拡張版。
-詳しくはこちら: <https://htop.dev/>.
+詳しくはこちら: <https://htop.dev/>
 
 - htop を起動:
 

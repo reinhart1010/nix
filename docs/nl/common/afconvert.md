@@ -2,8 +2,8 @@
 layout: page
 title: common/afconvert (Nederlands)
 description: "Converteren tussen AFF en onbewerkte bestandsindelingen."
-content_hash: 052f1d7ed0f891535f620c9b23c56e0d4317160b
-last_modified_at: 2023-06-08
+content_hash: 9593e4c7bbc097448a5fbcf6e09092c4ce343cc5
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/common/afconvert.html
@@ -11,17 +11,17 @@ related_topics:
   - title: español version
     url: /es/common/afconvert.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/afconvert.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/afconvert.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># afconvert
+# afconvert
 
 Converteren tussen AFF en onbewerkte bestandsindelingen.
-More information: <https://manned.org/afconvert.1>.
+Meer informatie: <https://manned.org/afconvert.1>.
 
 - Gebruik een specifieke extensie (standaard: `aff`):
 

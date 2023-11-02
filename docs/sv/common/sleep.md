@@ -2,7 +2,8 @@
 layout: page
 title: common/sleep (svenska)
 description: "Fördröjning under bestämd tid."
-content_hash: 93b4cca2160ea370d058009db5ccd57e1d10f90e
+content_hash: 91bd9f8c1403913b90456b84ad892ecdcdd6c612
+last_modified_at: 2023-11-02
 related_topics:
   - title: Deutsch version
     url: /de/common/sleep.html
@@ -13,14 +14,26 @@ related_topics:
   - title: فارسی version
     url: /fa/common/sleep.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/common/sleep.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/common/sleep.html
     icon: bi bi-globe
 ---
-# sleep
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/sleep.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># sleep
 
 Fördröjning under bestämd tid.
-Mer information: <https://www.gnu.org/software/coreutils/sleep>.
+Mer information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/sleep.html>.
 
 - Fördröj i sekunder:
 

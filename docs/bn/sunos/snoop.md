@@ -2,17 +2,30 @@
 layout: page
 title: sunos/snoop (বাংলা)
 description: "নেটওয়ার্ক প্যাকেট স্নিফার।"
-content_hash: 8e056c3c8a5655932e246b1df7a0b4e23e385a1b
+content_hash: c8125bf2c29dc895dc6d5aac0c2bc1483327124a
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/sunos/snoop.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/sunos/snoop.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/sunos/snoop.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/sunos/snoop.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/sunos/snoop.html
     icon: bi bi-globe
 ---
 # snoop
 
 নেটওয়ার্ক প্যাকেট স্নিফার।
 SunOS এর জন্য tcpdump এর সমতুল্য।
-আরও তথ্য পাবেন: <https://www.unix.com/man-page/sunos/1m/snoop>.
+আরও তথ্য পাবেন: <https://www.unix.com/man-page/sunos/1m/snoop>।
 
 - একটি নির্দিষ্ট নেটওয়ার্ক ইন্টারফেসে প্যাকেটগুলি ক্যাপচার করুন:
 

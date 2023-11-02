@@ -2,20 +2,17 @@
 layout: page
 title: common/scrapy (日本語)
 description: "ウェブクローリングのフレームワークです。"
-content_hash: a8568dd361f1bc579df33f8914176efb2cf328c1
-last_modified_at: 2023-01-29
+content_hash: b7c085234b9086d00412d9f2fea89189fb7c92c1
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/common/scrapy.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># scrapy
+# scrapy
 
 ウェブクローリングのフレームワークです。
-詳しくはこちら: <https://scrapy.org>.
+詳しくはこちら: <https://scrapy.org>
 
 - プロジェクトを作成する:
 

@@ -2,14 +2,17 @@
 layout: page
 title: windows/choco-upgrade (हिन्दी)
 description: "चॉकलेटी के साथ एक या अधिक पैकेज अपग्रेड करें।"
-content_hash: f993647ea6b8b1e28d50abb811141cdde10f2790
-last_modified_at: 2023-10-19
+content_hash: a4b1af4bbb274be3efbb8f14299ccd66794ff476
+last_modified_at: 2023-11-02
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-upgrade.html
     icon: bi bi-globe
   - title: English version
     url: /en/windows/choco-upgrade.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/windows/choco-upgrade.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/windows/choco-upgrade.html
@@ -24,13 +27,10 @@ related_topics:
     url: /zh/windows/choco-upgrade.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># choco upgrade
+# choco upgrade
 
 चॉकलेटी के साथ एक या अधिक पैकेज अपग्रेड करें।
-अधिक जानकारी: <https://chocolatey.org/docs/commands-upgrade>.
+अधिक जानकारी: <https://chocolatey.org/docs/commands-upgrade>।
 
 - एक या अधिक स्थान-पृथक पैकेजों को अपग्रेड करें:
 

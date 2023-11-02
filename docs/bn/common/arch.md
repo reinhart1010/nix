@@ -2,8 +2,8 @@
 layout: page
 title: common/arch (বাংলা)
 description: "সিস্টেমের আর্কিটেকচারের নাম দেখানো।"
-content_hash: f8af8c95750ad67e7eed9044a5cb266133390dde
-last_modified_at: 2023-10-28
+content_hash: 2c8278bbacfa0ae08fb0dbeeea0395e5981304ce
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/common/arch.html
@@ -45,14 +45,11 @@ related_topics:
     url: /zh/common/arch.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># arch
+# arch
 
 সিস্টেমের আর্কিটেকচারের নাম দেখানো।
 `uname` ওয়েবসাইটে দেখানো যাক।
-আরও জানতে: <https://www.gnu.org/software/coreutils/arch>.
+আরও তথ্য পাবেন: <https://www.gnu.org/software/coreutils/arch>।
 
 - সিস্টেম আর্কিটেকচার দেখানো:
 

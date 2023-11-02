@@ -2,9 +2,12 @@
 layout: page
 title: common/abduco (Nederlands)
 description: "Terminal sessiemanager."
-content_hash: 9cf4df9fa11d73d19210ee2c3ba5bb2059afe5c8
-last_modified_at: 2023-05-26
+content_hash: f8cc4a6ef321f165da02a27ac8aab8184b648b5b
+last_modified_at: 2023-11-02
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/abduco.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/abduco.html
     icon: bi bi-globe
@@ -33,13 +36,10 @@ related_topics:
     url: /zh/common/abduco.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># abduco
+# abduco
 
 Terminal sessiemanager.
-Meer Informatie: <http://www.brain-dump.org/projects/abduco/>.
+Meer informatie: <http://www.brain-dump.org/projects/abduco/>.
 
 - Lijst van sessies:
 

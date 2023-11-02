@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-system (日本語)
 description: "Dockerのデータ管理とシステム全体に関わる情報の表示をします。"
-content_hash: 21786bf7ca9057d382489f2825794b9389001941
-last_modified_at: 2023-02-08
+content_hash: e9ece56253bfa82808e549e93ff1505877366a17
+last_modified_at: 2023-11-02
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-system.html
@@ -14,17 +14,17 @@ related_topics:
   - title: français version
     url: /fr/common/docker-system.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/docker-system.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/docker-system.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docker system
+# docker system
 
 Dockerのデータ管理とシステム全体に関わる情報の表示をします。
-詳しくはこちら: <https://docs.docker.com/engine/reference/commandline/system/>.
+詳しくはこちら: <https://docs.docker.com/engine/reference/commandline/system/>
 
 - ヘルプの表示をする:
 

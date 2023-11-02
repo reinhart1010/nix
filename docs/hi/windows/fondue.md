@@ -2,8 +2,8 @@
 layout: page
 title: windows/fondue (हिन्दी)
 description: "वैकल्पिक विंडोज़ सुविधाएँ स्थापित करें।"
-content_hash: 74ed44b66acf78c060b3dcd9ff45649dbc87bed9
-last_modified_at: 2023-10-25
+content_hash: dc0405687d7d8dff75307de6f144fb98deb286c6
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/windows/fondue.html
@@ -12,13 +12,10 @@ related_topics:
     url: /zh/windows/fondue.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># fondue
+# fondue
 
 वैकल्पिक विंडोज़ सुविधाएँ स्थापित करें।
-अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/fondue>.
+अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/fondue>।
 
 - एक विशिष्ट विंडोज़ सुविधा सक्षम करें:
 

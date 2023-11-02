@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco-new (français)
 description: "Générez de nouveaux fichiers de spécifications de package avec Chocolatey."
-content_hash: 051835b828e2ea3ca54a68f9767a042692e12f0a
-last_modified_at: 2023-10-26
+content_hash: f358f582c7fa463d770e49ad6bc9af8060422acc
+last_modified_at: 2023-11-02
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-new.html
@@ -21,13 +21,10 @@ related_topics:
     url: /zh/windows/choco-new.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># choco new
+# choco new
 
 Générez de nouveaux fichiers de spécifications de package avec Chocolatey.
-Plus d'information: <https://chocolatey.org/docs/commands-new>.
+Plus d'informations : <https://chocolatey.org/docs/commands-new>.
 
 - Créer un nouveau squelette de package :
 

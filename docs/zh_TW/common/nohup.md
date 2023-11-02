@@ -2,8 +2,8 @@
 layout: page
 title: common/nohup (中文 (繁體, 台灣))
 description: "當終端被關閉時允許程序繼續存在運作。"
-content_hash: 6bb8a4bcc5c2eb3b96b8443c5d3fdbbac6b12ce0
-last_modified_at: 2023-10-04
+content_hash: ce371337b1992d81f22f494e6b4a144eb495ccde
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/common/nohup.html
@@ -18,13 +18,10 @@ related_topics:
     url: /sv/common/nohup.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># nohup
+# nohup
 
 當終端被關閉時允許程序繼續存在運作。
-更多資訊： <https://www.gnu.org/software/coreutils/nohup>.
+更多資訊：<https://www.gnu.org/software/coreutils/nohup>.
 
 - 執行一個可以在終端機之外繼續執行的程序：
 

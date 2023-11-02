@@ -2,7 +2,8 @@
 layout: page
 title: linux/iptables (italiano)
 description: "Programma che permette di configurare tabelle, catene e regole fornite dal firewall del kernel Linux."
-content_hash: fb804e4d7cf5dc0d5981ff35ad837fa83c91a4de
+content_hash: 32665effa371109e8c8efd4e5f5abb6369613e9f
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/linux/iptables.html
@@ -23,7 +24,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># iptables
 
 Programma che permette di configurare tabelle, catene e regole fornite dal firewall del kernel Linux.
-Maggiori informazioni: <https://www.netfilter.org/projects/iptables/>.
+Maggiori informazioni: <https://manned.org/iptables>.
 
 - Visualizza catene, regole e contatori di pacchetti/byte per la tabella dei filtri:
 

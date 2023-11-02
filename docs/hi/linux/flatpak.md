@@ -2,8 +2,8 @@
 layout: page
 title: linux/flatpak (हिन्दी)
 description: "फ्लैटपैक अनुप्रयोग और रनटाइम बनाएं, स्थापित करें और चलाएं।"
-content_hash: 34cfa0574db9461511d5b630c8c37972f4df4130
-last_modified_at: 2023-10-16
+content_hash: 17260b462fb894d87dda4e99452518f47a5ba349
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/linux/flatpak.html
@@ -18,13 +18,10 @@ related_topics:
     url: /zh/linux/flatpak.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># flatpak
+# flatpak
 
 फ्लैटपैक अनुप्रयोग और रनटाइम बनाएं, स्थापित करें और चलाएं।
-अधिक जानकारी: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak>.
+अधिक जानकारी: <https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak>।
 
 - एक स्थापित अनुप्रयोग चलाएं:
 

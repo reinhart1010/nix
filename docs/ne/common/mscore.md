@@ -2,11 +2,20 @@
 layout: page
 title: common/mscore (नेपाली)
 description: "यो आदेश `musescore` को उपनाम हो |"
-content_hash: 5b548f0a672f8d64a6023e68384ea87e5e5316bd
-last_modified_at: 2022-12-29
+content_hash: 83e612e90856d0561c521660b98c5c0871a70b06
+last_modified_at: 2023-11-02
 related_topics:
+  - title: العربية version
+    url: /ar/common/mscore.html
+    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/mscore.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/common/mscore.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/common/mscore.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/mscore.html
@@ -32,6 +41,9 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/mscore.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/mscore.html
+    icon: bi bi-globe
   - title: ລາວ version
     url: /lo/common/mscore.html
     icon: bi bi-globe
@@ -50,6 +62,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/mscore.html
     icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/common/mscore.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/common/mscore.html
     icon: bi bi-globe
@@ -62,6 +77,9 @@ related_topics:
   - title: ไทย version
     url: /th/common/mscore.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/mscore.html
+    icon: bi bi-globe
   - title: українська version
     url: /uk/common/mscore.html
     icon: bi bi-globe
@@ -72,13 +90,10 @@ related_topics:
     url: /zh_TW/common/mscore.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mscore
+# mscore
 
 यो आदेश `musescore` को उपनाम हो |
-थप जानकारी: <https://musescore.org/handbook/command-line-options>.
+थप जानकारी: <https://musescore.org/handbook/command-line-options>।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

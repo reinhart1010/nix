@@ -2,16 +2,26 @@
 layout: page
 title: osx/head (中文)
 description: "输出文件的开头部分。"
-content_hash: 4732dc97cc5ba2dc3e143ff92462bbf0f0090651
+content_hash: 038db66aceecca0591f0afed0b5a90de45b0639e
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/osx/head.html
     icon: bi bi-globe
 ---
-# head
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/osx/head.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># head
 
 输出文件的开头部分。
-更多信息：<https://ss64.com/osx/head.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/head.1.html>.
 
 - 输出文件的前几行：
 

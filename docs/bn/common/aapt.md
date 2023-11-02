@@ -2,8 +2,8 @@
 layout: page
 title: common/aapt (বাংলা)
 description: "এন্ড্রয়েড এসেট প্যাকেজিং টুল।"
-content_hash: ed65048f750e0dae25a2b714535ffdc9b5a8a7a8
-last_modified_at: 2023-10-28
+content_hash: ca3b95c3074e17430daf7537a24aca473eeffb3a
+last_modified_at: 2023-11-02
 related_topics:
   - title: Deutsch version
     url: /de/common/aapt.html
@@ -42,14 +42,11 @@ related_topics:
     url: /zh/common/aapt.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aapt
+# aapt
 
 এন্ড্রয়েড এসেট প্যাকেজিং টুল।
 এন্ড্রয়েড অ্যাপের সম্পদগুলি সংকলিত এবং প্যাকেজ করুন।
-আরও জানতে: <https://elinux.org/Android_aapt>.
+আরও তথ্য পাবেন: <https://elinux.org/Android_aapt>।
 
 - APK সংগ্রহে অন্তর্ভুক্ত ফাইলের তালিকা তৈরি করুন:
 

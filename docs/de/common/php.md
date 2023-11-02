@@ -2,8 +2,8 @@
 layout: page
 title: common/php (Deutsch)
 description: "PHP Befehlszeilenschnittstelle."
-content_hash: db09330334c79ba282ea292de35e343ecea4bbf0
-last_modified_at: 2023-10-09
+content_hash: 94f75b2d8809bf59bf881e43aedd90e483481beb
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/common/php.html
@@ -12,13 +12,10 @@ related_topics:
     url: /pl/common/php.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># php
+# php
 
 PHP Befehlszeilenschnittstelle.
-Mehr Informationen: <https://php.net>.
+Weitere Informationen: <https://php.net>.
 
 - Analysiere ein PHP-Skript und führe es aus:
 

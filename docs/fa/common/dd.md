@@ -2,8 +2,8 @@
 layout: page
 title: common/dd (فارسی)
 description: "تبدیل و کپی یک فایل."
-content_hash: 7acec182aa3aafc12b09d646be86e1cf0a8faeb1
-last_modified_at: 2023-10-26
+content_hash: dcaf350150fc8d33188a6052a7c93c7303633542
+last_modified_at: 2023-11-02
 related_topics:
   - title: Deutsch version
     url: /de/common/dd.html
@@ -21,7 +21,7 @@ related_topics:
 # dd
 
 تبدیل و کپی یک فایل.
-بیشتر اطلاعات: <https://www.gnu.org/software/coreutils/dd>.
+اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/dd>.
 
 - یک حافظه قابل حمل با قابلیت بوت شدن میسازد، برای مثال `archlinux-xxx.iso` :
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/age (français)
 description: "Un outil de cryptage de fichiers simple, moderne et sécurisé."
-content_hash: 106a039e14fe8582a16715bd4fd64500583e0307
-last_modified_at: 2023-07-03
+content_hash: 77334b0f18eb4a53b0984b80da305bc251b66f30
+last_modified_at: 2023-11-02
 related_topics:
   - title: Deutsch version
     url: /de/common/age.html
@@ -27,10 +27,19 @@ related_topics:
     url: /zh/common/age.html
     icon: bi bi-globe
 ---
-# age
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/age.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># age
 
 Un outil de cryptage de fichiers simple, moderne et sécurisé.
-Plus d'informations : <https://age-encryption.org>.
+Plus d'informations : <https://github.com/FiloSottile/age>.
 
 - Générez un fichier crypté qui peut être décrypté avec une mot de passe:
 

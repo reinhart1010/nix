@@ -2,9 +2,12 @@
 layout: page
 title: windows/title (हिन्दी)
 description: "कमांड प्रॉम्प्ट विंडो का शीर्षक सेट करें।"
-content_hash: 31966a9d2be26617821ee43e5530f8ec89503843
-last_modified_at: 2023-10-27
+content_hash: 60f91e3a1de98275c82c9c589938266177ec34bb
+last_modified_at: 2023-11-02
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/title.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/title.html
     icon: bi bi-globe
@@ -21,13 +24,10 @@ related_topics:
     url: /zh_TW/windows/title.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># title
+# title
 
 कमांड प्रॉम्प्ट विंडो का शीर्षक सेट करें।
-अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/title>.
+अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/title>।
 
 - वर्तमान कमांड प्रॉम्प्ट विंडो का शीर्षक सेट करें:
 

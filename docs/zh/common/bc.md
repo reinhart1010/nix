@@ -2,8 +2,8 @@
 layout: page
 title: common/bc (中文)
 description: "一个任意精度计算器语言。"
-content_hash: d31bdf312469f327912f936594d58b77c36a3473
-last_modified_at: 2023-10-22
+content_hash: bc77ed2180fab344963322c463eb8274a0b55a34
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/common/bc.html
@@ -28,7 +28,7 @@ related_topics:
 
 一个任意精度计算器语言。
 另请参阅：`dc`.
-更多信息: <https://manned.org/man/bc.1>.
+更多信息：<https://manned.org/man/bc.1>.
 
 - 启动交互式会话：
 

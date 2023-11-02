@@ -2,8 +2,8 @@
 layout: page
 title: common/ugrep (Nederlands)
 description: "Ultrasnelle bestandszoeker met interactive UI."
-content_hash: 5733c07472df8ace67ee5245ea786f7280e5bd4d
-last_modified_at: 2023-10-19
+content_hash: 00fc750c7dfa32dde831e5e677fc41ea1f2bfa66
+last_modified_at: 2023-11-02
 related_topics:
   - title: Deutsch version
     url: /de/common/ugrep.html
@@ -35,7 +35,7 @@ Meer informatie: <https://github.com/Genivia/ugrep>.
 
 - Zoek "fuzzy" met maximaal 3 extra, missende of verwisselende karakters in het patroon:
 
-`ugrep --fuzzy=3 "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span>`"`
+`ugrep --fuzzy=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span>`"`
 
 - Zoek passende gecomprimeerde bestanden, zip en tar archieven recursief in de huidige map:
 
@@ -47,4 +47,4 @@ Meer informatie: <https://github.com/Genivia/ugrep>.
 
 - Zoek alleen passende bestanden van het type C++ (gebruik `--type=list` voor een lijst van typenamen):
 
-`ugrep --type=cpp "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span>`"`
+`ugrep --file-type=cpp "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zoekpatroon</span>`"`

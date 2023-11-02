@@ -2,11 +2,14 @@
 layout: page
 title: windows/curl (Nederlands)
 description: "In PowerShell kan dit commando een alias zijn van `Invoke-WebRequest` als het originele `curl` programma (<https://curl.se>) niet correct is geïnstalleerd."
-content_hash: ef01d65e9f0481a770577f257143ed6237729d21
-last_modified_at: 2023-10-16
+content_hash: f771f916a9f6300000ce66d07041f006bd186f9a
+last_modified_at: 2023-11-02
 related_topics:
   - title: العربية version
     url: /ar/windows/curl.html
+    icon: bi bi-globe
+  - title: বাংলা version
+    url: /bn/windows/curl.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/curl.html
@@ -90,18 +93,10 @@ related_topics:
     url: /zh_TW/windows/curl.html
     icon: bi bi-globe
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/curl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># curl
+# curl
 
 In PowerShell kan dit commando een alias zijn van `Invoke-WebRequest` als het originele `curl` programma (<https://curl.se>) niet correct is geïnstalleerd.
+Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Controleer of `curl` correct is geïnstalleerd door het versienummer te printen. Als dit commando resulteert in een error, heeft PowerShell dit commando mogelijk vervangen met `Invoke-WebRequest`:
 

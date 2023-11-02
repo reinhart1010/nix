@@ -2,21 +2,18 @@
 layout: page
 title: common/sccmap (中文)
 description: "提取有向图的强连通分量。"
-content_hash: 89a4bce753a5480e57829c3078ccf35e687ddea3
-last_modified_at: 2023-02-17
+content_hash: 56244ce863421e7b8b92083e0984cb5b7f386382
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/common/sccmap.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># sccmap
+# sccmap
 
 提取有向图的强连通分量。
 Graphviz 过滤器：`acyclic`、`bcomps`、`comps`、`edgepaint`、`gvcolor`、`gvpack`、`mingle`、`nop`、`sccmap`、`tred` 和 `unflatten`。
-更多信息： <https://www.graphviz.org/pdf/sccmap.1.pdf>.
+更多信息：<https://www.graphviz.org/pdf/sccmap.1.pdf>.
 
 - 从一个或多个有向图中提取强连通分量：
 

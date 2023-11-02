@@ -2,8 +2,8 @@
 layout: page
 title: windows/set (বাংলা)
 description: "CMD-এর বর্তমান ইনস্ট্যান্সের জন্য পরিবেশ চেরা বা সেট করুন।"
-content_hash: ec8ad31ff606de76262c5686750abc5e572f1c6a
-last_modified_at: 2023-10-30
+content_hash: 1b16b346622bd83b97f5398f76b39bb5d76d964d
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/windows/set.html
@@ -21,13 +21,10 @@ related_topics:
     url: /zh_TW/windows/set.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># set
+# set
 
 CMD-এর বর্তমান ইনস্ট্যান্সের জন্য পরিবেশ চেরা বা সেট করুন।
-আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/set>.
+আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/set>।
 
 - সমস্ত বর্তমান পরিবেশ চেরা তালিকাভুক্ত করুন:
 

@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreportz (हिन्दी)
 description: "एक ज़िप्ड एंड्रॉइड बग रिपोर्ट तैयार करें।"
-content_hash: a4e3ed06ac9001f153f6959a574eaafe885f9741
-last_modified_at: 2023-10-25
+content_hash: 1fd0242d007dab7923a11140e9702d443df08fa3
+last_modified_at: 2023-11-02
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -26,6 +26,9 @@ related_topics:
   - title: Indonesia version
     url: /id/android/bugreportz.html
     icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/android/bugreportz.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/android/bugreportz.html
     icon: bi bi-globe
@@ -44,6 +47,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/android/bugreportz.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/android/bugreportz.html
+    icon: bi bi-globe
   - title: o‘zbek version
     url: /uz/android/bugreportz.html
     icon: bi bi-globe
@@ -54,14 +60,11 @@ related_topics:
     url: /zh_TW/android/bugreportz.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bugreportz
+# bugreportz
 
 एक ज़िप्ड एंड्रॉइड बग रिपोर्ट तैयार करें।
 इस कमांड का उपयोग केवल `adb shell` के माध्यम से किया जा सकता है।
-अधिक जानकारी: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreportz>.
+अधिक जानकारी: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreportz>।
 
 - एंड्रॉइड डिवाइस की संपूर्ण ज़िप्ड बग रिपोर्ट तैयार करें:
 

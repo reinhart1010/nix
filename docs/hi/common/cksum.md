@@ -2,8 +2,8 @@
 layout: page
 title: common/cksum (हिन्दी)
 description: "किसी फ़ाइल की CRC चेकसम और बाइट गिनती की गणना करें।"
-content_hash: 1bd1d23c0b6fcfe6ae43e6f1992c876ab7f01f20
-last_modified_at: 2023-10-26
+content_hash: f8f75dd8217694ef51660e1f822b35b871d12c55
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/common/cksum.html
@@ -18,14 +18,11 @@ related_topics:
     url: /ta/common/cksum.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cksum
+# cksum
 
 किसी फ़ाइल की CRC चेकसम और बाइट गिनती की गणना करें।
 ध्यान दें, पुराने UNIX सिस्टम पर CRC कार्यान्वयन भिन्न हो सकता है।
-अधिक जानकारी: <https://www.gnu.org/software/coreutils/cksum>.
+अधिक जानकारी: <https://www.gnu.org/software/coreutils/cksum>।
 
 - 32-बिट चेकसम, बाइट्स में आकार और फ़ाइल नाम प्रदर्शित करें:
 

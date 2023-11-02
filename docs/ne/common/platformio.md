@@ -2,11 +2,20 @@
 layout: page
 title: common/platformio (नेपाली)
 description: "यो आदेश `pio` को उपनाम हो |"
-content_hash: 9a7464dfcd24c27c800f532dc810cd3443537a3c
-last_modified_at: 2022-12-29
+content_hash: c30dfa9999d8af08aa2201c8f58964da9acf9d89
+last_modified_at: 2023-11-02
 related_topics:
+  - title: العربية version
+    url: /ar/common/platformio.html
+    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/platformio.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/common/platformio.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/common/platformio.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/platformio.html
@@ -32,6 +41,9 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/platformio.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/platformio.html
+    icon: bi bi-globe
   - title: ລາວ version
     url: /lo/common/platformio.html
     icon: bi bi-globe
@@ -50,6 +62,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/platformio.html
     icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/common/platformio.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/common/platformio.html
     icon: bi bi-globe
@@ -62,6 +77,9 @@ related_topics:
   - title: ไทย version
     url: /th/common/platformio.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/platformio.html
+    icon: bi bi-globe
   - title: українська version
     url: /uk/common/platformio.html
     icon: bi bi-globe
@@ -72,13 +90,10 @@ related_topics:
     url: /zh_TW/common/platformio.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># platformio
+# platformio
 
 यो आदेश `pio` को उपनाम हो |
-थप जानकारी: <https://docs.platformio.org/en/latest/core/userguide/>.
+थप जानकारी: <https://docs.platformio.org/en/latest/core/userguide/>।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

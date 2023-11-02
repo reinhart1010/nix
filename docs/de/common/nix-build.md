@@ -2,8 +2,8 @@
 layout: page
 title: common/nix-build (Deutsch)
 description: "Erstellen eines Nix-Ausdrucks."
-content_hash: a83d7767a7294db0664ebf7b43d0b05831eb4b9f
-last_modified_at: 2023-01-01
+content_hash: 4484623e9a108440747211b68df80d4bff41596d
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/common/nix-build.html
@@ -12,7 +12,7 @@ related_topics:
 # nix-build
 
 Erstellen eines Nix-Ausdrucks.
-Weitere Informationen: <https://nixos.org/releases/nix/latest/manual#sec-nix-build>.
+Weitere Informationen: <https://nixos.org/manual/nix/stable/command-ref/nix-build.html>.
 
 - Erstelle einen Nix-Ausdruck:
 

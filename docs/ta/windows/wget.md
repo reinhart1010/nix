@@ -2,8 +2,8 @@
 layout: page
 title: windows/wget (தமிழ்)
 description: "PowerShell இல், அசல் `wget` நிரல் (<https://www.gnu.org/software/wget>) சரியாக நிறுவப்படாதபோது இந்தக் கட்டளை `Invoke-WebRequest` என்பதன் மாற்றுப் பெயராக இருக்கலாம்."
-content_hash: 22a2a067153feba148057a1d9c9a4bd45efad5f0
-last_modified_at: 2023-06-02
+content_hash: 3d0c9b28339944514e9473481a3f140ad09b89ec
+last_modified_at: 2023-11-02
 related_topics:
   - title: العربية version
     url: /ar/windows/wget.html
@@ -90,18 +90,10 @@ related_topics:
     url: /zh_TW/windows/wget.html
     icon: bi bi-globe
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/wget.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># wget
+# wget
 
 PowerShell இல், அசல் `wget` நிரல் (<https://www.gnu.org/software/wget>) சரியாக நிறுவப்படாதபோது இந்தக் கட்டளை `Invoke-WebRequest` என்பதன் மாற்றுப் பெயராக இருக்கலாம்.
+மேலும் விவரத்திற்கு: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - அதன் பதிப்பு எண்ணை அச்சிட்டு `wget` சரியாக நிறுவப்பட்டுள்ளதா என்பதைச் சரிபார்க்கவும். இந்த கட்டளை பிழையாக மதிப்பிடப்பட்டால், PowerShell இந்த கட்டளையை `Invoke-WebRequest` உடன் மாற்றியிருக்கலாம்:
 

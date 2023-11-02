@@ -2,8 +2,8 @@
 layout: page
 title: linux/systemctl (हिन्दी)
 description: "systemd सिस्टम और सेवा प्रबंधक को नियंत्रित करें।"
-content_hash: 28500b7f49220d189cdf8bdadbe24f66a3b7021d
-last_modified_at: 2023-10-16
+content_hash: 077d5484f46a817f3ab3924669ce322eeab6c287
+last_modified_at: 2023-11-02
 related_topics:
   - title: català version
     url: /ca/linux/systemctl.html
@@ -17,20 +17,23 @@ related_topics:
   - title: français version
     url: /fr/linux/systemctl.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/systemctl.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/linux/systemctl.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/systemctl.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/systemctl.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># systemctl
+# systemctl
 
 systemd सिस्टम और सेवा प्रबंधक को नियंत्रित करें।
-अधिक जानकारी: <https://www.freedesktop.org/software/systemd/man/systemctl.html>.
+अधिक जानकारी: <https://www.freedesktop.org/software/systemd/man/systemctl.html>।
 
 - सभी चल रही सेवाएँ दिखाएं:
 

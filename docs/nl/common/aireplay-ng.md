@@ -2,9 +2,12 @@
 layout: page
 title: common/aireplay-ng (Nederlands)
 description: "Injecteer pakketten in een draadloos netwerk."
-content_hash: d05e34a7d148c6e76fb28afab7ca62dff1ae66dc
-last_modified_at: 2023-07-11
+content_hash: 55f80d74accd045ebb32af8e83a8b62a6d6f323e
+last_modified_at: 2023-11-02
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/aireplay-ng.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/aireplay-ng.html
     icon: bi bi-globe
@@ -14,18 +17,18 @@ related_topics:
   - title: español version
     url: /es/common/aireplay-ng.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/common/aireplay-ng.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/aireplay-ng.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aireplay-ng
+# aireplay-ng
 
 Injecteer pakketten in een draadloos netwerk.
 Deel van `aircrack-ng`.
-Meer Informatie: <https://www.aircrack-ng.org/doku.php?id=aireplay-ng>.
+Meer informatie: <https://www.aircrack-ng.org/doku.php?id=aireplay-ng>.
 
 - Stuur een specifiek aantal losgekoppelde pakketten op basis van het MAC-adres van een toegangspunt, het MAC-adres van een cliënt en een interface:
 

@@ -2,11 +2,14 @@
 layout: page
 title: common/asciidoctor (русский)
 description: "Преобразователь AsciiDoc файлов в другие форматы для публикации."
-content_hash: 9e9b64b024f0efec02f99278fe5896eed8712f94
-last_modified_at: 2023-02-05
+content_hash: 6defcd86eab9dcf21d85a4ac24ddab78d6c1ae38
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/common/asciidoctor.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/asciidoctor.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/asciidoctor.html
@@ -15,13 +18,10 @@ related_topics:
     url: /pt_BR/common/asciidoctor.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># asciidoctor
+# asciidoctor
 
 Преобразователь AsciiDoc файлов в другие форматы для публикации.
-Дополнительная информация: <https://docs.asciidoctor.org>.
+Больше информации: <https://docs.asciidoctor.org>.
 
 - Преобразовать данный `.adoc` файл в HTML (формат на выходе по умолчанию):
 

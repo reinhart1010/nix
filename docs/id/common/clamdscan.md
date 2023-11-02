@@ -2,8 +2,8 @@
 layout: page
 title: common/clamdscan (Indonesia)
 description: "Sebuah program pemindai virus berbasis command-line."
-content_hash: e4a7f5e8991f75c6a4bf3aaa8dd99a7760c78f6a
-last_modified_at: 2023-08-22
+content_hash: 89999fd4af7ebdc552af7b81a303b9db2cceb12a
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/common/clamdscan.html
@@ -12,13 +12,10 @@ related_topics:
     url: /th/common/clamdscan.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># clamdscan
+# clamdscan
 
 Sebuah program pemindai virus berbasis command-line.
-Informasi lebih lanjut: <https://www.clamav.net>.
+Informasi lebih lanjut: <https://docs.clamav.net/manual/Usage/Scanning.html#clamdscan>.
 
 - Pindai kerentanan suatu file atau direktori tertentu:
 

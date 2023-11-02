@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/time (Nederlands)
-description: "Kijk hoe lang een opdracht duurt."
-content_hash: be59bf1fd2b7b8eaf50dd3e4b19ef24672e29ea5
+description: "Meet hoe lang het uitvoeren van een commando duurt."
+content_hash: bc9bba0d245d8cab1f8fcb95eb770f366c33e208
+last_modified_at: 2023-11-02
 related_topics:
   - title: bosanski version
     url: /bs/common/time.html
@@ -16,7 +17,7 @@ related_topics:
   - title: हिन्दी version
     url: /hi/common/time.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/time.html
     icon: bi bi-globe
   - title: svenska version
@@ -25,9 +26,10 @@ related_topics:
 ---
 # time
 
-Kijk hoe lang een opdracht duurt.
+Meet hoe lang het uitvoeren van een commando duurt.
+Opmerking: `time` kan ofwel bestaan als een shell builtin, een op zichzelf staand programma of beide.
 Meer informatie: <https://manned.org/time>.
 
-- Tijd "ls":
+- Voer het `commando` uit en print de tijdmetingen naar `stdout`::
 
-`time ls`
+`time `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commando</span>

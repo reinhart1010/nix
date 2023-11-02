@@ -2,8 +2,8 @@
 layout: page
 title: linux/apache2ctl (हिन्दी)
 description: "अपाचे HTTP वेब सर्वर का प्रबंधन करें।"
-content_hash: bd37210e833fb6be6f44413024b6a3a4ee80bfb2
-last_modified_at: 2023-10-26
+content_hash: dbdcdc4b73d890399c2ab983f53d6bb32b919200
+last_modified_at: 2023-11-02
 related_topics:
   - title: Deutsch version
     url: /de/linux/apache2ctl.html
@@ -21,14 +21,11 @@ related_topics:
     url: /zh/linux/apache2ctl.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># apache2ctl
+# apache2ctl
 
 अपाचे HTTP वेब सर्वर का प्रबंधन करें।
 यह कमांड डेबियन आधारित ओएस के साथ आता है, आरएचईएल आधारित ओएस के लिए `httpd` देखें।
-अधिक जानकारी: <https://manpages.debian.org/latest/apache2/apache2ctl.8.en.html>.
+अधिक जानकारी: <https://manpages.debian.org/latest/apache2/apache2ctl.8.en.html>।
 
 - अपाचे डेमॉन प्रारंभ करें. यदि संदेश पहले से चल रहा हो तो उसे फेंकें:
 

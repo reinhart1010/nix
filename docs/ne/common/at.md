@@ -2,10 +2,14 @@
 layout: page
 title: common/at (नेपाली)
 description: "पछि एक पटक आदेशहरू कार्यान्वयन गर्छ।"
-content_hash: 1e5b2e48dd07b3314daff2a26858aa9348619f6b
+content_hash: e346fbb2ead6035bcae66f7d776a40b00258d63a
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/common/at.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/at.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/at.html
@@ -30,7 +34,7 @@ related_topics:
 
 पछि एक पटक आदेशहरू कार्यान्वयन गर्छ।
 वास्तविक कार्यान्वयनको लागि service atd(अथवा atrun) चलिरहेको हुनुपर्छ।
-थप जानकारी: <https://manned.org/at>.
+थप जानकारी: <https://manned.org/at>।
 
 - मानक इनपुट बाट आदेशहरू ५ मिनटमा कार्यान्वयन गर्नुहोस् (सकिएपछि `Ctrl +D` थिच्नुहोस्):
 

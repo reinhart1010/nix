@@ -2,11 +2,17 @@
 layout: page
 title: windows/mkdir (हिन्दी)
 description: "एक निर्देशिका बनाता है।"
-content_hash: 8763b540e126ce8f0753aa5e0b124de300df88c9
-last_modified_at: 2023-10-27
+content_hash: 1e2057f857069ecad4beb5af30e4582a83a896a0
+last_modified_at: 2023-11-02
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/mkdir.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/mkdir.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/windows/mkdir.html
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/windows/mkdir.html
@@ -24,13 +30,10 @@ related_topics:
     url: /zh_TW/windows/mkdir.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mkdir
+# mkdir
 
 एक निर्देशिका बनाता है।
-अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/mkdir>.
+अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/mkdir>।
 
 - एक निर्देशिका बनाएं:
 

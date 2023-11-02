@@ -2,7 +2,8 @@
 layout: page
 title: common/vim (Nederlands)
 description: "Vim (Vi IMproved), een command-line tekst bewerker, geeft toegang tot verschillende manieren van tekst manipulatie."
-content_hash: 3339952bd7039f4abdc4221f672c9320b46cf780
+content_hash: 25950ae279a3558bba7da00980fc4356ae2b3aa1
+last_modified_at: 2023-11-02
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -28,11 +29,17 @@ related_topics:
   - title: polski version
     url: /pl/common/vim.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/vim.html
+    icon: bi bi-globe
   - title: українська version
     url: /uk/common/vim.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/vim.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/vim.html
     icon: bi bi-globe
 ---
 # vim
@@ -57,9 +64,9 @@ Meer informatie: <https://www.vim.org>.
 
 `:wq<Enter>`
 
-- Maak de laatste verandering ongedaan:
+- Terug naar normale modues en maak de laatste verandering ongedaan:
 
-`u`
+`<ESC>u`
 
 - Zoek een patroon in het bestand (druk op `n`/`N` om naar de volgende/vorige overeenkomst te gaan):
 

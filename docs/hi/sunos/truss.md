@@ -2,8 +2,8 @@
 layout: page
 title: sunos/truss (हिन्दी)
 description: "सिस्टम कॉल को ट्रेस करने के लिए समस्या निराकरण टूल।"
-content_hash: d26c3d9fbede425532f654a78032ec03d883aba8
-last_modified_at: 2023-10-19
+content_hash: 29ed989fc1dee09d3f50aba145a8d36f071b4413
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/sunos/truss.html
@@ -21,14 +21,11 @@ related_topics:
     url: /tr/sunos/truss.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># truss
+# truss
 
 सिस्टम कॉल को ट्रेस करने के लिए समस्या निराकरण टूल।
 SunOS का संगत strace।
-अधिक जानकारी: <https://www.unix.com/man-page/linux/1/truss>.
+अधिक जानकारी: <https://www.unix.com/man-page/linux/1/truss>।
 
 - एक प्रोग्राम को ट्रेस करने के लिए प्रायोगिकरण करके उसकी सभी उपक्रमों का पालन करें:
 

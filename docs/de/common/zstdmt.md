@@ -1,0 +1,21 @@
+---
+layout: page
+title: common/zstdmt (Deutsch)
+description: "Dieser Befehl ist ein Alias von `zstd`."
+content_hash: 1b77e39dd920e40d1a92be2fcdeffc940b7567d6
+last_modified_at: 2023-11-02
+related_topics:
+  - title: English version
+    url: /en/common/zstdmt.html
+    icon: bi bi-globe
+---
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># zstdmt
+
+Dieser Befehl ist ein Alias von `zstd`.
+
+- Zeige die Dokumentation für den originalen Befehl an:
+
+`tldr zstd`

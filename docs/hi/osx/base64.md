@@ -2,8 +2,8 @@
 layout: page
 title: osx/base64 (हिन्दी)
 description: "बेस 64 प्रस्तुतीकरण का उपयोग करके कोड और डिकोड करें।"
-content_hash: 0f216562467da2333481e4c337a78049ea2c8281
-last_modified_at: 2023-10-21
+content_hash: e82a2b2161aee16de3e422caee5a5822540aabd8
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/osx/base64.html
@@ -21,13 +21,10 @@ related_topics:
     url: /zh/osx/base64.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># base64
+# base64
 
 बेस 64 प्रस्तुतीकरण का उपयोग करके कोड और डिकोड करें।
-अधिक जानकारी: <https://www.unix.com/man-page/osx/1/base64/>.
+अधिक जानकारी: <https://www.unix.com/man-page/osx/1/base64/>।
 
 - फ़ाइल को कोड करें:
 

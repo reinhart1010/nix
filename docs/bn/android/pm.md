@@ -2,8 +2,8 @@
 layout: page
 title: android/pm (বাংলা)
 description: "একটি Android ডিভাইসে অ্যাপ্লিকেশন সম্পর্কে তথ্য দেখান।"
-content_hash: 180f0b49a1f6c756e5efa1e194631936e3e866b1
-last_modified_at: 2023-01-03
+content_hash: 3abf2d447e63bc84a4e5e75da1905b4fe5329b38
+last_modified_at: 2023-11-02
 related_topics:
   - title: Deutsch version
     url: /de/android/pm.html
@@ -14,8 +14,14 @@ related_topics:
   - title: español version
     url: /es/android/pm.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/android/pm.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/android/pm.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/android/pm.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/pm.html
@@ -38,6 +44,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/android/pm.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/android/pm.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/android/pm.html
     icon: bi bi-globe
@@ -45,13 +54,10 @@ related_topics:
     url: /zh_TW/android/pm.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pm
+# pm
 
 একটি Android ডিভাইসে অ্যাপ্লিকেশন সম্পর্কে তথ্য দেখান।
-আরও তথ্য পাবেন: <https://developer.android.com/studio/command-line/adb#pm>.
+আরও তথ্য পাবেন: <https://developer.android.com/studio/command-line/adb#pm>।
 
 - সমস্ত ইনস্টল করা অ্যাপের একটি তালিকা প্রিন্ট করুন:
 

@@ -2,20 +2,26 @@
 layout: page
 title: common/afconvert (中文)
 description: "在 AFF 和 raw 文件格式之间进行转换。"
-content_hash: d5559f442bae180939a3db6976aca283c7631c64
-last_modified_at: 2023-01-06
+content_hash: 9f83880913941ecc854ccc6a33bf0fbb6c055983
+last_modified_at: 2023-11-02
 related_topics:
   - title: English version
     url: /en/common/afconvert.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/afconvert.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/afconvert.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/afconvert.html
+    icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># afconvert
+# afconvert
 
 在 AFF 和 raw 文件格式之间进行转换。
-更多信息: <https://manned.org/afconvert.1>.
+更多信息：<https://manned.org/afconvert.1>.
 
 - 使用一个特定的扩展名（默认：`aff`）：
 

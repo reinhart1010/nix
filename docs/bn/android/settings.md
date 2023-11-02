@@ -2,8 +2,8 @@
 layout: page
 title: android/settings (বাংলা)
 description: "Android OS সম্পর্কে তথ্য পান।"
-content_hash: 7bcf8d1cef1e634951598bfc5a20451f3bfcac36
-last_modified_at: 2023-01-03
+content_hash: 7091a5f108cad023fab95345e5b2b7ebe02af07d
+last_modified_at: 2023-11-02
 related_topics:
   - title: Deutsch version
     url: /de/android/settings.html
@@ -14,8 +14,14 @@ related_topics:
   - title: español version
     url: /es/android/settings.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/android/settings.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/android/settings.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/android/settings.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/settings.html
@@ -41,6 +47,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/android/settings.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/android/settings.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/android/settings.html
     icon: bi bi-globe
@@ -48,13 +57,10 @@ related_topics:
     url: /zh_TW/android/settings.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># settings
+# settings
 
 Android OS সম্পর্কে তথ্য পান।
-আরও তথ্য পাবেন: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
+আরও তথ্য পাবেন: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>।
 
 - `global` নামস্থানে সেটিংসের একটি তালিকা প্রদর্শন করুন:
 

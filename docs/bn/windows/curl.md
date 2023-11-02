@@ -2,8 +2,8 @@
 layout: page
 title: windows/curl (বাংলা)
 description: "পাওয়ারশেলে, এই কমান্ডটি অরিজিনাল `curl` প্রোগ্রাম (<https://curl.se>) সঠিকভাবে ইনস্টল না থাকলে এটি `Invoke-WebRequest` এর এলিয়াস হতে পারে।"
-content_hash: eca1e920d6af2be452e6eb5ef8468cc2405d258b
-last_modified_at: 2023-10-30
+content_hash: c125bea8866f083f626085ede669b57d491c6b99
+last_modified_at: 2023-11-02
 related_topics:
   - title: العربية version
     url: /ar/windows/curl.html
@@ -93,13 +93,10 @@ related_topics:
     url: /zh_TW/windows/curl.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># curl
+# curl
 
 পাওয়ারশেলে, এই কমান্ডটি অরিজিনাল `curl` প্রোগ্রাম (<https://curl.se>) সঠিকভাবে ইনস্টল না থাকলে এটি `Invoke-WebRequest` এর এলিয়াস হতে পারে।
-আরও তথ্য পাবেন: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
+আরও তথ্য পাবেন: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>।
 
 - চেষ্টা করুন যে কি `curl` সঠিকভাবে ইনস্টল করা হয়েছে কিনা, এর সংস্করণ নম্বর প্রিন্ট করে। যদি এই কমান্ডটি একটি ত্রুটির মধ্যে মূল `Invoke-WebRequest` দিয়ে বদলে যায়, তবে:
 

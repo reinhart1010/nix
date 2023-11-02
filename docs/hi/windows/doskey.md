@@ -2,9 +2,12 @@
 layout: page
 title: windows/doskey (हिन्दी)
 description: "मैक्रोज़, विंडोज़ कमांड और कमांड-लाइन प्रबंधित करें।"
-content_hash: 7c4a7340aaf2d5c945d71e9946111a30fcd71124
-last_modified_at: 2023-10-27
+content_hash: c6df753557ea2666c09360080d0b28fbb7803b9d
+last_modified_at: 2023-11-02
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/doskey.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/doskey.html
     icon: bi bi-globe
@@ -18,7 +21,7 @@ related_topics:
 # doskey
 
 मैक्रोज़, विंडोज़ कमांड और कमांड-लाइन प्रबंधित करें।
-अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/doskey>.
+अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/doskey>।
 
 - उपलब्ध मैक्रोज़ की सूची बनाएं:
 
