@@ -2,7 +2,7 @@
 layout: page
 title: common/cli53 (English)
 description: "Command line tool for Amazon Route 53."
-content_hash: 49c6f43037ec9fc73f5ef6cfec6a367432fac938
+content_hash: 312ee227bce274a7469591754ae29db1153c2fc5
 last_modified_at: 2023-11-03
 ---
 # cli53
@@ -32,7 +32,7 @@ More information: <https://github.com/barnybug/cli53>.
 
 - Create a `www` subdomain pointing to an IP address:
 
-`cli53 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rc|rrcreate</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mydomain.com} `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'www 300 A 150.130.110.1'</span>
+`cli53 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rc|rrcreate</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mydomain.com</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'www 300 A 150.130.110.1'</span>
 
 - Replace a `www` subdomain pointing to a different IP:
 
