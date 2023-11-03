@@ -2,7 +2,8 @@
 layout: page
 title: linux/udevadm (English)
 description: "Linux `udev` management tool."
-content_hash: 6aa602fba67e729f143422c41429719d9e2f09f7
+content_hash: 381ac2afa6208a3e10250d6f0b95ccbe807ebaf7
+last_modified_at: 2023-11-03
 ---
 # udevadm
 
@@ -21,9 +22,9 @@ More information: <https://www.freedesktop.org/software/systemd/man/udevadm>.
 
 `sudo udevadm monitor --udev`
 
-- List attributes of a device:
+- List attributes of device `/dev/sda`:
 
-`sudo udevadm info --attribute-walk --path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda1</span>
+`sudo udevadm info --attribute-walk `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda</span>
 
 - Reload all `udev` rules:
 
@@ -32,3 +33,7 @@ More information: <https://www.freedesktop.org/software/systemd/man/udevadm>.
 - Trigger all `udev` rules to run:
 
 `sudo udevadm trigger`
+
+- Test an event run by simulating loading of `/dev/sda`:
+
+`sudo udevadm test `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/sda</span>

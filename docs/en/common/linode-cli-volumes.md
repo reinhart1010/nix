@@ -2,8 +2,8 @@
 layout: page
 title: common/linode-cli-volumes (English)
 description: "Manage Linode Volumes."
-content_hash: d34399a0220aefdaa668c36e83b61949ef15df52
-last_modified_at: 2023-09-17
+content_hash: 1ecc0c4d063ef6ae89ffb59f0f10d02eaeec8e50
+last_modified_at: 2023-11-03
 ---
 # linode-cli volumes
 
@@ -11,7 +11,7 @@ Manage Linode Volumes.
 See also: `linode-cli`.
 More information: <https://www.linode.com/docs/products/tools/cli/guides/block-storage-volumes/>.
 
-- List current Volumnes:
+- List current Volumes:
 
 `linode-cli volumes list`
 
