@@ -2,8 +2,8 @@
 layout: page
 title: common/rsync (English)
 description: "Transfer files either to or from a remote host (but not between two remote hosts), by default using SSH."
-content_hash: cab1aa14c73d3b1c953c4ee6692aaea746b86f0e
-last_modified_at: 2023-08-07
+content_hash: 2cf94743e9dad0112fcfe28be525d8f76fbb599e
+last_modified_at: 2023-11-04
 related_topics:
   - title: français version
     url: /fr/common/rsync.html
@@ -11,8 +11,14 @@ related_topics:
   - title: Indonesia version
     url: /id/common/rsync.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/rsync.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/rsync.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/rsync.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/rsync.html
@@ -21,14 +27,14 @@ related_topics:
 # rsync
 
 Transfer files either to or from a remote host (but not between two remote hosts), by default using SSH.
-To specify a remote path, use `host:path/to/file_or_directory`.
+To specify a remote path, use `user@host:path/to/file_or_directory`.
 More information: <https://download.samba.org/pub/rsync/rsync.1>.
 
 - Transfer a file:
 
 `rsync `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/destination</span>
 
-- Use archive mode (recursively copy directories, copy symlinks without resolving and preserve permissions, ownership and modification times):
+- Use archive mode (recursively copy directories, copy symlinks without resolving, and preserve permissions, ownership and modification times):
 
 `rsync --archive `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/destination</span>
 
@@ -44,9 +50,9 @@ More information: <https://download.samba.org/pub/rsync/rsync.1>.
 
 `rsync --recursive `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source</span>`/ `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/destination</span>
 
-- Recursively copy directories, use archive mode, resolve symlinks and skip files that are newer on the destination:
+- Use archive mode, resolve symlinks and skip files that are newer on the destination:
 
-`rsync --recursive --archive --update --copy-links `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/destination</span>
+`rsync --archive --update --copy-links `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/destination</span>
 
 - Transfer a directory to a remote host running `rsyncd` and delete files on the destination that do not exist on the source:
 
