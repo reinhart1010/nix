@@ -2,8 +2,8 @@
 layout: page
 title: common/grep (فارسی)
 description: "یافتن الگو در فایل ها به کمک عبارات با قاعده."
-content_hash: f5e72ec11b21e36a5e6cffd5bb20e5a32aa2f04e
-last_modified_at: 2023-11-02
+content_hash: d6d8ebe5abe0a695802d00cc23ae065fe7338f23
+last_modified_at: 2023-11-04
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -39,7 +39,7 @@ related_topics:
 # grep
 
 یافتن الگو در فایل ها به کمک عبارات با قاعده.
-اطلاعات بیشتر: <https://www.gnu.org/software/grep/manual/grep.html>.
+اطلاعات بیشتر : <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - جستجو یک الگو در یک فایل :
 

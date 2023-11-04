@@ -2,8 +2,8 @@
 layout: page
 title: common/nix (Deutsch)
 description: "Dienstprogramme für die Nix-Sprache und den Nix-Speicher."
-content_hash: 524097b5a027c9e2231db754208c3de35a8590d8
-last_modified_at: 2023-11-02
+content_hash: 0e7496e27bc1bf2925522e5a6663cfe88986e4f9
+last_modified_at: 2023-11-04
 related_topics:
   - title: English version
     url: /en/common/nix.html
@@ -21,7 +21,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># nix
 
 Dienstprogramme für die Nix-Sprache und den Nix-Speicher.
-Weitere Informationen: <https://nixos.org/manual/nix>.
+Weitere Informationen: <https://nixos.org>.
 
 - Suche nach einem Paket über seinen Namen oder seine Beschreibung:
 

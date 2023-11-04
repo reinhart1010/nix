@@ -2,8 +2,8 @@
 layout: page
 title: common/alias (नेपाली)
 description: "उपनामहरु बनाउछ -- शब्दहरू जुन आदेश स्ट्रिङद्वारा प्रतिस्थापन गरिन्छ।"
-content_hash: fbdf247a41187c89f9f0831fa9826640c3538e14
-last_modified_at: 2023-11-02
+content_hash: 1950617168c8af28ae040a7303c1e13ed5bb0ba8
+last_modified_at: 2023-11-04
 related_topics:
   - title: বাংলা version
     url: /bn/common/alias.html
@@ -64,7 +64,7 @@ related_topics:
 
 उपनामहरु बनाउछ -- शब्दहरू जुन आदेश स्ट्रिङद्वारा प्रतिस्थापन गरिन्छ।
 शेलको कन्फिगरेसन फाइलमा (जस्तै `~/.bashrc`) परिभाषित नगरेको खन्डमा उपनामहरुको आयु चलिरहेको शेल् सेसन् सङै सकिन्छ।
-थप जानकारी: <https://tldp.org/LDP/abs/html/aliases.html>।
+थप जानकारी: <https://tldp.org/LDP/abs/html/aliases.html>.
 
 - सबै उपनामहरुको सुची बनाउनुहोस्:
 

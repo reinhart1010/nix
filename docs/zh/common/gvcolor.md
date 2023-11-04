@@ -2,8 +2,8 @@
 layout: page
 title: common/gvcolor (中文)
 description: "用一系列颜色为有序有向图着色。"
-content_hash: 21ae03134577f3ad34ab6f33c4aa2fec5921d290
-last_modified_at: 2023-11-02
+content_hash: df671a9d78a20e805829be137bb97102524893f8
+last_modified_at: 2023-11-04
 related_topics:
   - title: English version
     url: /en/common/gvcolor.html
@@ -13,7 +13,7 @@ related_topics:
 
 用一系列颜色为有序有向图着色。
 Graphviz 过滤器: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, & `unflatten`。
-更多信息：<https://graphviz.org/pdf/gvcolor.1.pdf>.
+更多信息: <https://graphviz.org/pdf/gvcolor.1.pdf>.
 
 - 为一个或多个已被 `dot` 处理的有序有向图着色:
 

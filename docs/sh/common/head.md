@@ -2,8 +2,8 @@
 layout: page
 title: common/head (sh)
 description: "Prikazuje prvi deo datoteka."
-content_hash: ac33a75f7761783c534c55b77efb041b80b7a019
-last_modified_at: 2023-11-02
+content_hash: cdbcfee56943acaa6d787dd05ae7b06bfb19e53c
+last_modified_at: 2023-11-04
 related_topics:
   - title: Deutsch version
     url: /de/common/head.html
@@ -33,7 +33,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># head
 
 Prikazuje prvi deo datoteka.
-Više informacija: <https://manned.org/head.1p>.
+Više informacija: <https://www.gnu.org/software/coreutils/head>.
 
 - Prikaži prvih nekoliko linija datoteke:
 

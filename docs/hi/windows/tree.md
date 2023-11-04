@@ -2,8 +2,8 @@
 layout: page
 title: windows/tree (हिन्दी)
 description: "पथ के लिए निर्देशिका संरचना का ग्राफ़िकल ट्री प्रदर्शित करें।"
-content_hash: 7759bf9a1673fa35a6a8423c60a1cb4cfa6b225a
-last_modified_at: 2023-11-02
+content_hash: 8400176364015b49af566a507657706cdd1f3c10
+last_modified_at: 2023-11-04
 related_topics:
   - title: English version
     url: /en/windows/tree.html
@@ -24,7 +24,7 @@ related_topics:
 # tree
 
 पथ के लिए निर्देशिका संरचना का ग्राफ़िकल ट्री प्रदर्शित करें।
-अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/tree>।
+अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/tree>.
 
 - वर्तमान निर्देशिका के लिए ट्री प्रदर्शित करें:
 

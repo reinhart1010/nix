@@ -2,8 +2,8 @@
 layout: page
 title: android/dalvikvm (বাংলা)
 description: "অ্যান্ড্রয়েড জাভা ভার্চুয়াল মেশিন।"
-content_hash: 4662a75b6e05e122b0c4964fcee66210fab51fc7
-last_modified_at: 2023-11-02
+content_hash: 6704e0b16c51a799f49924e86589aac1a93c183d
+last_modified_at: 2023-11-04
 related_topics:
   - title: Deutsch version
     url: /de/android/dalvikvm.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/dalvikvm.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/android/dalvikvm.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/android/dalvikvm.html
@@ -63,7 +66,7 @@ related_topics:
 # dalvikvm
 
 অ্যান্ড্রয়েড জাভা ভার্চুয়াল মেশিন।
-আরও তথ্য পাবেন: <https://source.android.com/devices/tech/dalvik>।
+আরও তথ্য পাবেন: <https://source.android.com/devices/tech/dalvik>.
 
 - একটি নির্দিষ্ট জাভা প্রোগ্রাম শুরু করুন:
 

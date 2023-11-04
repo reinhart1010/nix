@@ -2,17 +2,23 @@
 layout: page
 title: common/gnmic-sub (नेपाली)
 description: "यो आदेश `gnmic subscribe` को उपनाम हो |"
-content_hash: 80973c0dacf0cda7ee17a0073d284ab7dca57479
-last_modified_at: 2023-11-02
+content_hash: 54867aab733f3abe4b15405dfeeeac152ccfb1a8
+last_modified_at: 2023-11-04
 related_topics:
   - title: العربية version
     url: /ar/common/gnmic-sub.html
+    icon: bi bi-globe
+  - title: বাংলা version
+    url: /bn/common/gnmic-sub.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/gnmic-sub.html
     icon: bi bi-globe
   - title: català version
     url: /ca/common/gnmic-sub.html
+    icon: bi bi-globe
+  - title: čeština version
+    url: /cs/common/gnmic-sub.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/common/gnmic-sub.html
@@ -25,6 +31,12 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/gnmic-sub.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/gnmic-sub.html
+    icon: bi bi-globe
+  - title: suomi version
+    url: /fi/common/gnmic-sub.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/gnmic-sub.html
@@ -65,8 +77,14 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/gnmic-sub.html
     icon: bi bi-globe
+  - title: română version
+    url: /ro/common/gnmic-sub.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/common/gnmic-sub.html
+    icon: bi bi-globe
+  - title: српски version
+    url: /sr/common/gnmic-sub.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/common/gnmic-sub.html
@@ -83,6 +101,9 @@ related_topics:
   - title: українська version
     url: /uk/common/gnmic-sub.html
     icon: bi bi-globe
+  - title: o‘zbek version
+    url: /uz/common/gnmic-sub.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/gnmic-sub.html
     icon: bi bi-globe
@@ -93,7 +114,7 @@ related_topics:
 # gnmic-sub
 
 यो आदेश `gnmic subscribe` को उपनाम हो |
-थप जानकारी: <https://gnmic.kmrd.dev/cmd/subscribe>।
+थप जानकारी: <https://gnmic.kmrd.dev/cmd/subscribe>.
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

@@ -2,8 +2,8 @@
 layout: page
 title: windows/mkdir (বাংলা)
 description: "একটি নির্দেশিকা তৈরি করে।"
-content_hash: df1cf51d2006203d7bd209248df303af0787a2c8
-last_modified_at: 2023-11-02
+content_hash: 2014e48bdd9750a565bba8fbaccb03c9dc3f0d8c
+last_modified_at: 2023-11-04
 related_topics:
   - title: English version
     url: /en/windows/mkdir.html
@@ -33,7 +33,7 @@ related_topics:
 # mkdir
 
 একটি নির্দেশিকা তৈরি করে।
-আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/mkdir>।
+আরও তথ্যের জন্য: <https://learn.microsoft.com/windows-server/administration/windows-commands/mkdir>.
 
 - একটি নির্দেশিকা তৈরি করুন:
 

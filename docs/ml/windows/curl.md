@@ -2,8 +2,8 @@
 layout: page
 title: windows/curl (മലയാളം)
 description: "ഈ കമാൻഡ് `curl -p common` എന്നത്തിന്റെ അപരനാമമാണ്."
-content_hash: c52f921aad34aeb231f0535f8d256b2ce66305d8
-last_modified_at: 2023-11-02
+content_hash: c9cc08cd298cd107744a2a51fef989c2f57ec508
+last_modified_at: 2023-11-04
 related_topics:
   - title: العربية version
     url: /ar/windows/curl.html
@@ -17,6 +17,9 @@ related_topics:
   - title: català version
     url: /ca/windows/curl.html
     icon: bi bi-globe
+  - title: čeština version
+    url: /cs/windows/curl.html
+    icon: bi bi-globe
   - title: dansk version
     url: /da/windows/curl.html
     icon: bi bi-globe
@@ -28,6 +31,12 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/curl.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/windows/curl.html
+    icon: bi bi-globe
+  - title: suomi version
+    url: /fi/windows/curl.html
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/curl.html
@@ -68,8 +77,14 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/curl.html
     icon: bi bi-globe
+  - title: română version
+    url: /ro/windows/curl.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/curl.html
+    icon: bi bi-globe
+  - title: српски version
+    url: /sr/windows/curl.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/curl.html
@@ -85,6 +100,9 @@ related_topics:
     icon: bi bi-globe
   - title: українська version
     url: /uk/windows/curl.html
+    icon: bi bi-globe
+  - title: o‘zbek version
+    url: /uz/windows/curl.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/curl.html
@@ -105,7 +123,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># curl
 
 ഈ കമാൻഡ് `curl -p common` എന്നത്തിന്റെ അപരനാമമാണ്.
-കൂടുതൽ വിവരങ്ങൾ: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
+കൂടുതൽ വിവരങ്ങൾ: <https://curl.se>.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 

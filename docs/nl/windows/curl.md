@@ -2,8 +2,8 @@
 layout: page
 title: windows/curl (Nederlands)
 description: "In PowerShell kan dit commando een alias zijn van `Invoke-WebRequest` als het originele `curl` programma (<https://curl.se>) niet correct is geïnstalleerd."
-content_hash: f771f916a9f6300000ce66d07041f006bd186f9a
-last_modified_at: 2023-11-02
+content_hash: ef01d65e9f0481a770577f257143ed6237729d21
+last_modified_at: 2023-11-04
 related_topics:
   - title: العربية version
     url: /ar/windows/curl.html
@@ -17,6 +17,9 @@ related_topics:
   - title: català version
     url: /ca/windows/curl.html
     icon: bi bi-globe
+  - title: čeština version
+    url: /cs/windows/curl.html
+    icon: bi bi-globe
   - title: dansk version
     url: /da/windows/curl.html
     icon: bi bi-globe
@@ -28,6 +31,12 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/curl.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/windows/curl.html
+    icon: bi bi-globe
+  - title: suomi version
+    url: /fi/windows/curl.html
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/curl.html
@@ -68,8 +77,14 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/curl.html
     icon: bi bi-globe
+  - title: română version
+    url: /ro/windows/curl.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/curl.html
+    icon: bi bi-globe
+  - title: српски version
+    url: /sr/windows/curl.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/curl.html
@@ -86,6 +101,9 @@ related_topics:
   - title: українська version
     url: /uk/windows/curl.html
     icon: bi bi-globe
+  - title: o‘zbek version
+    url: /uz/windows/curl.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/curl.html
     icon: bi bi-globe
@@ -96,7 +114,6 @@ related_topics:
 # curl
 
 In PowerShell kan dit commando een alias zijn van `Invoke-WebRequest` als het originele `curl` programma (<https://curl.se>) niet correct is geïnstalleerd.
-Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Controleer of `curl` correct is geïnstalleerd door het versienummer te printen. Als dit commando resulteert in een error, heeft PowerShell dit commando mogelijk vervangen met `Invoke-WebRequest`:
 

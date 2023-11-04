@@ -2,8 +2,8 @@
 layout: page
 title: common/sleep (മലയാളം)
 description: "കാലതാമസം വരുത്തുവാനുള്ള പ്രോഗ്രാം."
-content_hash: 61f8e5aff253c31a85f3ae966d8dfb8b885c9919
-last_modified_at: 2023-11-02
+content_hash: 8568f066b516593ba881e72cb41d5b34a003da4c
+last_modified_at: 2023-11-04
 related_topics:
   - title: Deutsch version
     url: /de/common/sleep.html
@@ -33,7 +33,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># sleep
 
 കാലതാമസം വരുത്തുവാനുള്ള പ്രോഗ്രാം.
-കൂടുതൽ വിവരങ്ങൾ: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/sleep.html>.
+കൂടുതൽ വിവരങ്ങൾ: <https://www.gnu.org/software/coreutils/sleep>.
 
 - നിമിഷങ്ങൾ വൈകിക്കാൻ:
 

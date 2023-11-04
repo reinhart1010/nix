@@ -2,8 +2,8 @@
 layout: page
 title: linux/nologin (हिन्दी)
 description: "उपयोक्ता को लॉग इन करने से रोकने वाला वैकल्पिक शैल."
-content_hash: 62bac20f74df996db05982ac06ba13d469717306
-last_modified_at: 2023-11-02
+content_hash: da379e978c9ee98ecf7b3eec7414c0933b9d46b4
+last_modified_at: 2023-11-04
 related_topics:
   - title: Deutsch version
     url: /de/linux/nologin.html
@@ -15,7 +15,7 @@ related_topics:
 # nologin
 
 उपयोक्ता को लॉग इन करने से रोकने वाला वैकल्पिक शैल.
-अधिक जानकारी: <https://manned.org/nologin.5>।
+अधिक जानकारी: <https://manned.org/nologin.5>.
 
 - उपयोक्ता को लॉग इन करने से रोकने के लिए उपयोक्ता की लॉगिन शैल को 'नोलॉगिन' पर सेट करें:
 

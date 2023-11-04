@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco-upgrade (हिन्दी)
 description: "चॉकलेटी के साथ एक या अधिक पैकेज अपग्रेड करें।"
-content_hash: a4b1af4bbb274be3efbb8f14299ccd66794ff476
-last_modified_at: 2023-11-02
+content_hash: f993647ea6b8b1e28d50abb811141cdde10f2790
+last_modified_at: 2023-11-04
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-upgrade.html
@@ -30,7 +30,7 @@ related_topics:
 # choco upgrade
 
 चॉकलेटी के साथ एक या अधिक पैकेज अपग्रेड करें।
-अधिक जानकारी: <https://chocolatey.org/docs/commands-upgrade>।
+अधिक जानकारी: <https://chocolatey.org/docs/commands-upgrade>.
 
 - एक या अधिक स्थान-पृथक पैकेजों को अपग्रेड करें:
 

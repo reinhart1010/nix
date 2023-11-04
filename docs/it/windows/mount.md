@@ -2,8 +2,8 @@
 layout: page
 title: windows/mount (italiano)
 description: "Montare le condivisioni di rete del Network File System (NFS)."
-content_hash: d665fb26dc86ff80a980eb126b353a6256b383b9
-last_modified_at: 2023-11-02
+content_hash: cc044480c86d073ce3d196ccc8c98af260dd1ffa
+last_modified_at: 2023-11-04
 related_topics:
   - title: English version
     url: /en/windows/mount.html
@@ -12,7 +12,7 @@ related_topics:
 # mount
 
 Montare le condivisioni di rete del Network File System (NFS).
-Maggiori informazioni: <https://learn.microsoft.com/windows-server/administration/windows-commands/mount>.
+Maggiori informazioni: <https://learn.microsoft.com/it-it/windows-server/administration/windows-commands/mount>.
 
 - Monta una share con la lettera di unità "Z":
 

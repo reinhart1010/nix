@@ -2,17 +2,23 @@
 layout: page
 title: windows/cuninst (नेपाली)
 description: "यो आदेश `choco uninstall` को उपनाम हो |"
-content_hash: 27b7467838ec568899b534d4277a90bc19997f7c
-last_modified_at: 2023-11-02
+content_hash: 0538a5934a73ace536307e175c92d0d2a72e1f09
+last_modified_at: 2023-11-04
 related_topics:
   - title: العربية version
     url: /ar/windows/cuninst.html
+    icon: bi bi-globe
+  - title: বাংলা version
+    url: /bn/windows/cuninst.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/cuninst.html
     icon: bi bi-globe
   - title: català version
     url: /ca/windows/cuninst.html
+    icon: bi bi-globe
+  - title: čeština version
+    url: /cs/windows/cuninst.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/windows/cuninst.html
@@ -25,6 +31,12 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/cuninst.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/windows/cuninst.html
+    icon: bi bi-globe
+  - title: suomi version
+    url: /fi/windows/cuninst.html
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/cuninst.html
@@ -65,8 +77,14 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/cuninst.html
     icon: bi bi-globe
+  - title: română version
+    url: /ro/windows/cuninst.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/cuninst.html
+    icon: bi bi-globe
+  - title: српски version
+    url: /sr/windows/cuninst.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/cuninst.html
@@ -83,6 +101,9 @@ related_topics:
   - title: українська version
     url: /uk/windows/cuninst.html
     icon: bi bi-globe
+  - title: o‘zbek version
+    url: /uz/windows/cuninst.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/cuninst.html
     icon: bi bi-globe
@@ -93,7 +114,7 @@ related_topics:
 # cuninst
 
 यो आदेश `choco uninstall` को उपनाम हो |
-थप जानकारी: <https://docs.chocolatey.org/en-us/choco/commands/uninstall>।
+थप जानकारी: <https://docs.chocolatey.org/en-us/choco/commands/uninstall>.
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

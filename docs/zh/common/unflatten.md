@@ -2,8 +2,8 @@
 layout: page
 title: common/unflatten (中文)
 description: "调整有向图以改善布局的纵横比。"
-content_hash: dd474290a8fb3c3991e3b8bf4b21ce6ad7958a20
-last_modified_at: 2023-11-02
+content_hash: 48c5ecf03416c3c42d3e015edf88356693f59606
+last_modified_at: 2023-11-04
 related_topics:
   - title: English version
     url: /en/common/unflatten.html
@@ -13,7 +13,7 @@ related_topics:
 
 调整有向图以改善布局的纵横比。
 Graphviz 过滤器: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, 和 `unflatten`。
-更多信息：<https://www.graphviz.org/pdf/unflatten.1.pdf>.
+更多信息: <https://www.graphviz.org/pdf/unflatten.1.pdf>.
 
 - 调整一个或多个有向图以改善布局的纵横比:
 

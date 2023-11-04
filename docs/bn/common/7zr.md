@@ -2,8 +2,8 @@
 layout: page
 title: common/7zr (বাংলা)
 description: "একটি উচ্চ সঙ্কোচন অনুবাদক সাথে ফাইল অ্যার্কাইভার।"
-content_hash: 4d226c7b3117c19c3b3e4352941301465ec76d3a
-last_modified_at: 2023-11-02
+content_hash: e2b28216339ec6f00ae477ebe7198f074ce0b55a
+last_modified_at: 2023-11-04
 related_topics:
   - title: Deutsch version
     url: /de/common/7zr.html
@@ -55,7 +55,7 @@ related_topics:
 
 একটি উচ্চ সঙ্কোচন অনুবাদক সাথে ফাইল অ্যার্কাইভার।
 `7z` এর মত, কিন্তু এটি কেবলমাত্র `.7z` ফাইলগুলি সমর্থন করে।
-আরও তথ্য পেতে: <https://manned.org/7zr>|
+আরও তথ্য পেতে: <https://manned.org/7zr>.
 
 - একটি ফাইল বা ডিরেক্টরি অ্যার্কাইভ করুন:
 

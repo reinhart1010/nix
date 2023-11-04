@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-compose (日本語)
 description: "複数コンテナを持つDockerアプリケーションの実行と管理をします。"
-content_hash: 9654c1cc2d405a64ef88f4b2593719fae75ae95f
-last_modified_at: 2023-11-02
+content_hash: 5c4c32fc553c86be851925b7f12891741e452522
+last_modified_at: 2023-11-04
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -39,7 +39,7 @@ related_topics:
 # docker compose
 
 複数コンテナを持つDockerアプリケーションの実行と管理をします。
-詳しくはこちら: <https://docs.docker.com/compose/reference/>
+詳しくはこちら: <https://docs.docker.com/compose/reference/>.
 
 - 実行中のコンテナ全てをリスト表示する:
 

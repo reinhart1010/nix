@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco-source (हिन्दी)
 description: "चॉकलेटी वाले पैकेजों के लिए स्रोत प्रबंधित करें।"
-content_hash: a00fd1855307a7383ff3b12434077b18b4721613
-last_modified_at: 2023-11-02
+content_hash: 5c9647de36dd0a35b275196dd20faec51b5f5e12
+last_modified_at: 2023-11-04
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-source.html
@@ -27,7 +27,7 @@ related_topics:
 # choco source
 
 चॉकलेटी वाले पैकेजों के लिए स्रोत प्रबंधित करें।
-अधिक जानकारी: <https://chocolatey.org/docs/commands-source>।
+अधिक जानकारी: <https://chocolatey.org/docs/commands-source>.
 
 - वर्तमान में उपलब्ध स्रोतों की सूची बनाएं:
 

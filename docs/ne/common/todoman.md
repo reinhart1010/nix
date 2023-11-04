@@ -2,17 +2,23 @@
 layout: page
 title: common/todoman (नेपाली)
 description: "यो आदेश `todo` को उपनाम हो |"
-content_hash: 9359e45c4a0342df30a994693529df51f0c3c648
-last_modified_at: 2023-11-02
+content_hash: 81b72ac63a797d5e803ebfa6071ff2fb30deaa1c
+last_modified_at: 2023-11-04
 related_topics:
   - title: العربية version
     url: /ar/common/todoman.html
+    icon: bi bi-globe
+  - title: বাংলা version
+    url: /bn/common/todoman.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/todoman.html
     icon: bi bi-globe
   - title: català version
     url: /ca/common/todoman.html
+    icon: bi bi-globe
+  - title: čeština version
+    url: /cs/common/todoman.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/common/todoman.html
@@ -25,6 +31,12 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/todoman.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/todoman.html
+    icon: bi bi-globe
+  - title: suomi version
+    url: /fi/common/todoman.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/todoman.html
@@ -65,8 +77,14 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/todoman.html
     icon: bi bi-globe
+  - title: română version
+    url: /ro/common/todoman.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/common/todoman.html
+    icon: bi bi-globe
+  - title: српски version
+    url: /sr/common/todoman.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/common/todoman.html
@@ -83,6 +101,9 @@ related_topics:
   - title: українська version
     url: /uk/common/todoman.html
     icon: bi bi-globe
+  - title: o‘zbek version
+    url: /uz/common/todoman.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/todoman.html
     icon: bi bi-globe
@@ -93,7 +114,7 @@ related_topics:
 # todoman
 
 यो आदेश `todo` को उपनाम हो |
-थप जानकारी: <https://todoman.readthedocs.io/>।
+थप जानकारी: <https://todoman.readthedocs.io/>.
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

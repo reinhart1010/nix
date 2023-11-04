@@ -2,17 +2,23 @@
 layout: page
 title: windows/iwr (українська)
 description: "Ця команда є псевдонімом для `invoke-webrequest`."
-content_hash: 2e986faff1cb639236d11f7dc1741ed8ac4c7c2c
-last_modified_at: 2023-11-02
+content_hash: 6e328f7d2de84f76411c1bc4ed2a77b6509fea0a
+last_modified_at: 2023-11-04
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
+    icon: bi bi-globe
+  - title: বাংলা version
+    url: /bn/windows/iwr.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/iwr.html
     icon: bi bi-globe
   - title: català version
     url: /ca/windows/iwr.html
+    icon: bi bi-globe
+  - title: čeština version
+    url: /cs/windows/iwr.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/windows/iwr.html
@@ -25,6 +31,12 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/iwr.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/windows/iwr.html
+    icon: bi bi-globe
+  - title: suomi version
+    url: /fi/windows/iwr.html
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/iwr.html
@@ -68,8 +80,14 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/iwr.html
     icon: bi bi-globe
+  - title: română version
+    url: /ro/windows/iwr.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/iwr.html
+    icon: bi bi-globe
+  - title: српски version
+    url: /sr/windows/iwr.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/iwr.html
@@ -83,6 +101,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/windows/iwr.html
     icon: bi bi-globe
+  - title: o‘zbek version
+    url: /uz/windows/iwr.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/iwr.html
     icon: bi bi-globe
@@ -93,7 +114,6 @@ related_topics:
 # iwr
 
 Ця команда є псевдонімом для `invoke-webrequest`.
-Більше інформації: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Дивись документацію для оригінальної команди:
 

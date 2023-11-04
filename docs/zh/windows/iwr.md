@@ -2,17 +2,23 @@
 layout: page
 title: windows/iwr (中文)
 description: "这是 `invoke-webrequest` 命令的一个别名。"
-content_hash: e7784f12c71719bc4ed469f44dec6e8b25e1cc9b
-last_modified_at: 2023-11-02
+content_hash: 9cab703bb5f1fe881fadc1b59bca4d619fb2a52d
+last_modified_at: 2023-11-04
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
+    icon: bi bi-globe
+  - title: বাংলা version
+    url: /bn/windows/iwr.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/iwr.html
     icon: bi bi-globe
   - title: català version
     url: /ca/windows/iwr.html
+    icon: bi bi-globe
+  - title: čeština version
+    url: /cs/windows/iwr.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/windows/iwr.html
@@ -25,6 +31,12 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/iwr.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/windows/iwr.html
+    icon: bi bi-globe
+  - title: suomi version
+    url: /fi/windows/iwr.html
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/iwr.html
@@ -68,8 +80,14 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/iwr.html
     icon: bi bi-globe
+  - title: română version
+    url: /ro/windows/iwr.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/iwr.html
+    icon: bi bi-globe
+  - title: српски version
+    url: /sr/windows/iwr.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/iwr.html
@@ -86,6 +104,9 @@ related_topics:
   - title: українська version
     url: /uk/windows/iwr.html
     icon: bi bi-globe
+  - title: o‘zbek version
+    url: /uz/windows/iwr.html
+    icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/iwr.html
     icon: bi bi-globe
@@ -93,7 +114,6 @@ related_topics:
 # iwr
 
 这是 `invoke-webrequest` 命令的一个别名。
-更多信息：<https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - 原命令的文档在：
 

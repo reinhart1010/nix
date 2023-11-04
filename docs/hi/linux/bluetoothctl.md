@@ -2,8 +2,8 @@
 layout: page
 title: linux/bluetoothctl (हिन्दी)
 description: "ब्लूटूथ उपकरणों का प्रबंधन करें।"
-content_hash: 27c06470b18a4951ad0f740d61c52564d46f1a24
-last_modified_at: 2023-11-02
+content_hash: 0241ba5fcb6c2b87b2bf55310ebe7a47723defe3
+last_modified_at: 2023-11-04
 related_topics:
   - title: English version
     url: /en/linux/bluetoothctl.html
@@ -21,7 +21,7 @@ related_topics:
 # bluetoothctl
 
 ब्लूटूथ उपकरणों का प्रबंधन करें।
-अधिक जानकारी: <https://bitbucket.org/serkanp/bluetoothctl>।
+अधिक जानकारी: <https://bitbucket.org/serkanp/bluetoothctl>.
 
 - `bluetoothctl` शैल में प्रवेश करें:
 

@@ -2,8 +2,8 @@
 layout: page
 title: osx/dd (中文)
 description: "转换并复制文件。"
-content_hash: 7ccfa6b2b216f82c39beb30261d03e3f8c8a7ca4
-last_modified_at: 2023-11-02
+content_hash: 0b28f3baa6f624cfd7583b3d79af4c2e4b474645
+last_modified_at: 2023-11-04
 related_topics:
   - title: English version
     url: /en/osx/dd.html
@@ -27,7 +27,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># dd
 
 转换并复制文件。
-更多信息：<https://keith.github.io/xcode-man-pages/dd.1.html>.
+更多信息：<https://ss64.com/osx/dd.html>.
 
 - 从 isohybrid 文件（如 archlinux-xxx.iso）制作可用于引导系统启动的 USB 驱动器：
 

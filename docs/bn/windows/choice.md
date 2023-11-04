@@ -2,8 +2,8 @@
 layout: page
 title: windows/choice (বাংলা)
 description: "ব্যবহারকারীকে একটি চয়েস নির্বাচন করতে উৎসাহিত করুন এবং নির্বাচিত চয়েস ইনডেক্স ফিরিয়ে দিন।"
-content_hash: 5381a954ddd1a28bf7c921cf0847afa3d96ee027
-last_modified_at: 2023-11-02
+content_hash: d8ce311a847b4475f7313d766730a67f31c60543
+last_modified_at: 2023-11-04
 related_topics:
   - title: English version
     url: /en/windows/choice.html
@@ -15,7 +15,7 @@ related_topics:
 # choice
 
 ব্যবহারকারীকে একটি চয়েস নির্বাচন করতে উৎসাহিত করুন এবং নির্বাচিত চয়েস ইনডেক্স ফিরিয়ে দিন।
-আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/choice>।
+আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/choice>.
 
 - বর্তমান ব্যবহারকারীকে `Y` বা `N` চয়েস নির্বাচন করতে:
 

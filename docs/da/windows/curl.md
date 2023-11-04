@@ -2,8 +2,8 @@
 layout: page
 title: windows/curl (dansk)
 description: "Denne kommando er et alias af `curl -p common`."
-content_hash: ac2beb4cc49ab62ab86935f7d6cfe339dcb2ebe1
-last_modified_at: 2023-11-02
+content_hash: 0731483e9f781047cb8999306e9a7d962e9a1cf0
+last_modified_at: 2023-11-04
 related_topics:
   - title: العربية version
     url: /ar/windows/curl.html
@@ -17,6 +17,9 @@ related_topics:
   - title: català version
     url: /ca/windows/curl.html
     icon: bi bi-globe
+  - title: čeština version
+    url: /cs/windows/curl.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/curl.html
     icon: bi bi-globe
@@ -25,6 +28,12 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/curl.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/windows/curl.html
+    icon: bi bi-globe
+  - title: suomi version
+    url: /fi/windows/curl.html
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/curl.html
@@ -68,8 +77,14 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/curl.html
     icon: bi bi-globe
+  - title: română version
+    url: /ro/windows/curl.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/curl.html
+    icon: bi bi-globe
+  - title: српски version
+    url: /sr/windows/curl.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/curl.html
@@ -85,6 +100,9 @@ related_topics:
     icon: bi bi-globe
   - title: українська version
     url: /uk/windows/curl.html
+    icon: bi bi-globe
+  - title: o‘zbek version
+    url: /uz/windows/curl.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/curl.html
@@ -105,7 +123,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># curl
 
 Denne kommando er et alias af `curl -p common`.
-Mere information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
+Mere information: <https://curl.se>.
 
 - Se dokumentation for den oprindelige kommando:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/colorls (日本語)
 description: "カラー化と Font Awesome アイコンの使用によりターミナルの ls コマンドを美しくした Ruby の gem です。"
-content_hash: f5c59e66853dca7273846da9bdf74a5523624c31
-last_modified_at: 2023-11-02
+content_hash: ee116bb7323c683619819c41498cb01bc8b616ef
+last_modified_at: 2023-11-04
 related_topics:
   - title: English version
     url: /en/common/colorls.html
@@ -12,7 +12,7 @@ related_topics:
 # colorls
 
 カラー化と Font Awesome アイコンの使用によりターミナルの ls コマンドを美しくした Ruby の gem です。
-詳しくはこちら: <https://github.com/athityakumar/colorls>
+詳しくはこちら: <https://github.com/athityakumar/colorls>.
 
 - ファイルを 1 行ずつ表示する:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/case (italiano)
 description: "Esegui branch diversi in base al valore di un'espressione."
-content_hash: 19e18ce2bf1a9e29cbdc4fed1496e5a3f30a427b
-last_modified_at: 2023-11-02
+content_hash: 9c3ff779e1800c61b36f05b128e324262d52a47a
+last_modified_at: 2023-11-04
 related_topics:
   - title: English version
     url: /en/common/case.html
@@ -18,7 +18,7 @@ related_topics:
 # case
 
 Esegui branch diversi in base al valore di un'espressione.
-Maggiori informazioni: <https://www.gnu.org/software/bash/manual/bash.html#index-case>.
+Maggiori informazioni: <https://manned.org/case>.
 
 - Esegui il match di una variabile su diverse stringhe per decidere che comando eseguire:
 

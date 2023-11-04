@@ -2,8 +2,8 @@
 layout: page
 title: common/babel (हिन्दी)
 description: "एक ट्रांसपिलर जो कोड को जावास्क्रिप्ट ES6/ES7 सिंटैक्स से ES5 सिंटैक्स में परिवर्तित करता है।"
-content_hash: a2173f16148fdf158446c2b7a1c561973ce658d7
-last_modified_at: 2023-11-02
+content_hash: 7c52516d330d88277409ad78f8f9d54f7d121670
+last_modified_at: 2023-11-04
 related_topics:
   - title: English version
     url: /en/common/babel.html
@@ -27,7 +27,7 @@ related_topics:
 # babel
 
 एक ट्रांसपिलर जो कोड को जावास्क्रिप्ट ES6/ES7 सिंटैक्स से ES5 सिंटैक्स में परिवर्तित करता है।
-अधिक जानकारी: <https://babeljs.io/>।
+अधिक जानकारी: <https://babeljs.io/>.
 
 - एक निर्दिष्ट इनपुट फ़ाइल और आउटपुट को `stdout` में ट्रांसपाइल करें:
 

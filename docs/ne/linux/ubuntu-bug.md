@@ -2,17 +2,23 @@
 layout: page
 title: linux/ubuntu-bug (नेपाली)
 description: "यो आदेश `apport-bug` को उपनाम हो |"
-content_hash: 183d61673d8e81328a9e0bc888c128da8d514997
-last_modified_at: 2023-11-02
+content_hash: 70789cfa80f5531cd456df6ba150628f8a6d650c
+last_modified_at: 2023-11-04
 related_topics:
   - title: العربية version
     url: /ar/linux/ubuntu-bug.html
+    icon: bi bi-globe
+  - title: বাংলা version
+    url: /bn/linux/ubuntu-bug.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/linux/ubuntu-bug.html
     icon: bi bi-globe
   - title: català version
     url: /ca/linux/ubuntu-bug.html
+    icon: bi bi-globe
+  - title: čeština version
+    url: /cs/linux/ubuntu-bug.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/linux/ubuntu-bug.html
@@ -25,6 +31,12 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/linux/ubuntu-bug.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/ubuntu-bug.html
+    icon: bi bi-globe
+  - title: suomi version
+    url: /fi/linux/ubuntu-bug.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/ubuntu-bug.html
@@ -65,8 +77,14 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/linux/ubuntu-bug.html
     icon: bi bi-globe
+  - title: română version
+    url: /ro/linux/ubuntu-bug.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/linux/ubuntu-bug.html
+    icon: bi bi-globe
+  - title: српски version
+    url: /sr/linux/ubuntu-bug.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/linux/ubuntu-bug.html
@@ -83,6 +101,9 @@ related_topics:
   - title: українська version
     url: /uk/linux/ubuntu-bug.html
     icon: bi bi-globe
+  - title: o‘zbek version
+    url: /uz/linux/ubuntu-bug.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/ubuntu-bug.html
     icon: bi bi-globe
@@ -93,7 +114,7 @@ related_topics:
 # ubuntu-bug
 
 यो आदेश `apport-bug` को उपनाम हो |
-थप जानकारी: <https://manned.org/ubuntu-bug>।
+थप जानकारी: <https://manned.org/ubuntu-bug>.
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

@@ -2,8 +2,8 @@
 layout: page
 title: windows/color (বাংলা)
 description: "কনসোল পূর্বপরক্ষ এবং পৃষ্ঠভূমির রঙ নির্ধারণ করুন।"
-content_hash: 1e29320b8f8e96fa594fedc4a7f9c44af8c7d051
-last_modified_at: 2023-11-02
+content_hash: cd88cdbc7bcd3cae0928653768e8e21dd3baa695
+last_modified_at: 2023-11-04
 related_topics:
   - title: català version
     url: /ca/windows/color.html
@@ -36,7 +36,7 @@ related_topics:
 # color
 
 কনসোল পূর্বপরক্ষ এবং পৃষ্ঠভূমির রঙ নির্ধারণ করুন।
-আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/color>।
+আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/color>.
 
 - কনসোল রঙগুলি ডিফল্ট মানে নির্ধারণ করুন:
 

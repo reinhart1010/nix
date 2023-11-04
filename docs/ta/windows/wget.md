@@ -2,17 +2,23 @@
 layout: page
 title: windows/wget (தமிழ்)
 description: "PowerShell இல், அசல் `wget` நிரல் (<https://www.gnu.org/software/wget>) சரியாக நிறுவப்படாதபோது இந்தக் கட்டளை `Invoke-WebRequest` என்பதன் மாற்றுப் பெயராக இருக்கலாம்."
-content_hash: 3d0c9b28339944514e9473481a3f140ad09b89ec
-last_modified_at: 2023-11-02
+content_hash: 22a2a067153feba148057a1d9c9a4bd45efad5f0
+last_modified_at: 2023-11-04
 related_topics:
   - title: العربية version
     url: /ar/windows/wget.html
+    icon: bi bi-globe
+  - title: বাংলা version
+    url: /bn/windows/wget.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/wget.html
     icon: bi bi-globe
   - title: català version
     url: /ca/windows/wget.html
+    icon: bi bi-globe
+  - title: čeština version
+    url: /cs/windows/wget.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/windows/wget.html
@@ -25,6 +31,12 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/wget.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/windows/wget.html
+    icon: bi bi-globe
+  - title: suomi version
+    url: /fi/windows/wget.html
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/wget.html
@@ -68,8 +80,14 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/wget.html
     icon: bi bi-globe
+  - title: română version
+    url: /ro/windows/wget.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/wget.html
+    icon: bi bi-globe
+  - title: српски version
+    url: /sr/windows/wget.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/wget.html
@@ -83,6 +101,9 @@ related_topics:
   - title: українська version
     url: /uk/windows/wget.html
     icon: bi bi-globe
+  - title: o‘zbek version
+    url: /uz/windows/wget.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/wget.html
     icon: bi bi-globe
@@ -93,7 +114,6 @@ related_topics:
 # wget
 
 PowerShell இல், அசல் `wget` நிரல் (<https://www.gnu.org/software/wget>) சரியாக நிறுவப்படாதபோது இந்தக் கட்டளை `Invoke-WebRequest` என்பதன் மாற்றுப் பெயராக இருக்கலாம்.
-மேலும் விவரத்திற்கு: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - அதன் பதிப்பு எண்ணை அச்சிட்டு `wget` சரியாக நிறுவப்பட்டுள்ளதா என்பதைச் சரிபார்க்கவும். இந்த கட்டளை பிழையாக மதிப்பிடப்பட்டால், PowerShell இந்த கட்டளையை `Invoke-WebRequest` உடன் மாற்றியிருக்கலாம்:
 

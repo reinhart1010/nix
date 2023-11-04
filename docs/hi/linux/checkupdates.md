@@ -2,8 +2,8 @@
 layout: page
 title: linux/checkupdates (हिन्दी)
 description: "आर्क लिनक्स में लंबित अद्यतनों की जाँच करने के लिए उपकरण।"
-content_hash: e9c278e313c253bcfd12a12b621600426340b64d
-last_modified_at: 2023-11-02
+content_hash: dd336b246be11ca121347ec4a1cda64deaf54c88
+last_modified_at: 2023-11-04
 related_topics:
   - title: English version
     url: /en/linux/checkupdates.html
@@ -12,7 +12,7 @@ related_topics:
 # checkupdates
 
 आर्क लिनक्स में लंबित अद्यतनों की जाँच करने के लिए उपकरण।
-अधिक जानकारी: <https://man.archlinux.org/man/checkupdates.8>।
+अधिक जानकारी: <https://man.archlinux.org/man/checkupdates.8>.
 
 - लंबित अद्यतनों की सूची बनाएं:
 

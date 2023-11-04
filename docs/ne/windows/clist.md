@@ -2,17 +2,23 @@
 layout: page
 title: windows/clist (नेपाली)
 description: "यो आदेश `choco list` को उपनाम हो |"
-content_hash: 0246bb996018195a6c67982826aa6ddbf2b6e1c8
-last_modified_at: 2023-11-02
+content_hash: 09037493248f71c27df700717df0262a66f98ede
+last_modified_at: 2023-11-04
 related_topics:
   - title: العربية version
     url: /ar/windows/clist.html
+    icon: bi bi-globe
+  - title: বাংলা version
+    url: /bn/windows/clist.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/clist.html
     icon: bi bi-globe
   - title: català version
     url: /ca/windows/clist.html
+    icon: bi bi-globe
+  - title: čeština version
+    url: /cs/windows/clist.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/windows/clist.html
@@ -25,6 +31,12 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/clist.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/windows/clist.html
+    icon: bi bi-globe
+  - title: suomi version
+    url: /fi/windows/clist.html
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/clist.html
@@ -65,8 +77,14 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/clist.html
     icon: bi bi-globe
+  - title: română version
+    url: /ro/windows/clist.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/clist.html
+    icon: bi bi-globe
+  - title: српски version
+    url: /sr/windows/clist.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/clist.html
@@ -83,6 +101,9 @@ related_topics:
   - title: українська version
     url: /uk/windows/clist.html
     icon: bi bi-globe
+  - title: o‘zbek version
+    url: /uz/windows/clist.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/clist.html
     icon: bi bi-globe
@@ -93,7 +114,7 @@ related_topics:
 # clist
 
 यो आदेश `choco list` को उपनाम हो |
-थप जानकारी: <https://docs.chocolatey.org/en-us/choco/commands/list>।
+थप जानकारी: <https://docs.chocolatey.org/en-us/choco/commands/list>.
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

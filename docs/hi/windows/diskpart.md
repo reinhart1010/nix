@@ -2,8 +2,8 @@
 layout: page
 title: windows/diskpart (हिन्दी)
 description: "डिस्क, वॉल्यूम और विभाजन प्रबंधक।"
-content_hash: e825118789e58c2deaa001deec73446c176060bf
-last_modified_at: 2023-11-02
+content_hash: e9c790e458e47d9f5a08bc633aedfa586f019a08
+last_modified_at: 2023-11-04
 related_topics:
   - title: English version
     url: /en/windows/diskpart.html
@@ -18,7 +18,7 @@ related_topics:
 # diskpart
 
 डिस्क, वॉल्यूम और विभाजन प्रबंधक।
-अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/diskpart>।
+अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/diskpart>.
 
 - इसकी कमांड-लाइन दर्ज करने के लिए प्रशासनिक कमांड प्रॉम्प्ट में डिस्कपार्ट (diskpart) को स्वयं चलाएँ:
 

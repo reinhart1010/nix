@@ -2,8 +2,8 @@
 layout: page
 title: windows/curl (português (Portugal))
 description: "Este comando é um alias de `curl -p common`."
-content_hash: dfebd20fc070e54ddf20c43b19eac6fc94630ca2
-last_modified_at: 2023-11-02
+content_hash: 7bd51896208bbc52ef1c03e829edf67fd0e73ffc
+last_modified_at: 2023-11-04
 related_topics:
   - title: العربية version
     url: /ar/windows/curl.html
@@ -17,6 +17,9 @@ related_topics:
   - title: català version
     url: /ca/windows/curl.html
     icon: bi bi-globe
+  - title: čeština version
+    url: /cs/windows/curl.html
+    icon: bi bi-globe
   - title: dansk version
     url: /da/windows/curl.html
     icon: bi bi-globe
@@ -28,6 +31,12 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/curl.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/windows/curl.html
+    icon: bi bi-globe
+  - title: suomi version
+    url: /fi/windows/curl.html
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/curl.html
@@ -68,8 +77,14 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/windows/curl.html
     icon: bi bi-globe
+  - title: română version
+    url: /ro/windows/curl.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/curl.html
+    icon: bi bi-globe
+  - title: српски version
+    url: /sr/windows/curl.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/curl.html
@@ -85,6 +100,9 @@ related_topics:
     icon: bi bi-globe
   - title: українська version
     url: /uk/windows/curl.html
+    icon: bi bi-globe
+  - title: o‘zbek version
+    url: /uz/windows/curl.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/curl.html
@@ -105,7 +123,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># curl
 
 Este comando é um alias de `curl -p common`.
-Mais informações: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
+Mais informações: <https://curl.se>.
 
 - Ver documentação do comando original:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/ab (Nederlands)
 description: "Apache HTTP-serverbenchmarktool."
-content_hash: 0f3ad7f0f437ceae393f3ab1735901385466fa8f
-last_modified_at: 2023-11-02
+content_hash: 0ccfead12a58eb1e4d2378cae0e606e7675a7d3c
+last_modified_at: 2023-11-04
 related_topics:
   - title: বাংলা version
     url: /bn/common/ab.html
@@ -48,7 +48,7 @@ related_topics:
 # ab
 
 Apache HTTP-serverbenchmarktool.
-Meer informatie: <https://httpd.apache.org/docs/current/programs/ab.html>.
+Meer Informatie: <https://httpd.apache.org/docs/current/programs/ab.html>.
 
 - Voer 100 HTTP GET-verzoeken uit naar een bepaalde URL:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/bg (नेपाली)
 description: "निलम्बित गरिएका कामहरुलाई (जस्तै `Ctrl + Z` प्रयोग गरेर) पुन: सुरु गर्छ, अनि तिनीहरुलाई पृष्ठभूमिमा चलाइरहन्छ।"
-content_hash: ef36bd61065d6bac0ddd491dab55ea22727377a5
-last_modified_at: 2023-11-02
+content_hash: 9f835a57753378c8f2f36692688ce035ce338995
+last_modified_at: 2023-11-04
 related_topics:
   - title: English version
     url: /en/common/bg.html
@@ -39,7 +39,7 @@ related_topics:
 # bg
 
 निलम्बित गरिएका कामहरुलाई (जस्तै `Ctrl + Z` प्रयोग गरेर) पुन: सुरु गर्छ, अनि तिनीहरुलाई पृष्ठभूमिमा चलाइरहन्छ।
-थप जानकारी: <https://manned.org/bg>।
+थप जानकारी: <https://manned.org/bg>.
 
 - सबैभन्दा भर्खर् निलम्बित गरिएको कामलाई पुन: सुरु गर्नुहोस् अनि पृष्ठभूमिमा चलाउनुहोस्:
 

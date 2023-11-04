@@ -2,8 +2,8 @@
 layout: page
 title: common/sleep (فارسی)
 description: "ایجاد تاخیر بر اساس زمان."
-content_hash: 07f61177517f6ec05bb3a585da36851cf7c4979d
-last_modified_at: 2023-11-02
+content_hash: bcd4a0637d6ae15d8a378ba778b8e05054c63cc2
+last_modified_at: 2023-11-04
 related_topics:
   - title: Deutsch version
     url: /de/common/sleep.html
@@ -33,7 +33,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># sleep
 
 ایجاد تاخیر بر اساس زمان.
-اطلاعات بیشتر: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/sleep.html>.
+اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/sleep>.
 
 - تاخیر به ثانیه:
 

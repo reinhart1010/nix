@@ -2,8 +2,8 @@
 layout: page
 title: common/aapt (हिन्दी)
 description: "एंड्रॉइड एसेट पैकेजिंग टूल।"
-content_hash: 53064abf41eac397732828f8e68b86df15cf24cc
-last_modified_at: 2023-11-02
+content_hash: 4ff3ffbaf19bec1591e57fbf890ba44191ac26c3
+last_modified_at: 2023-11-04
 related_topics:
   - title: বাংলা version
     url: /bn/common/aapt.html
@@ -46,7 +46,7 @@ related_topics:
 
 एंड्रॉइड एसेट पैकेजिंग टूल।
 एंड्रॉइड ऐप के संसाधनों को संकलित और पैकेज करें।
-अधिक जानकारी: <https://elinux.org/Android_aapt>।
+अधिक जानकारी: <https://elinux.org/Android_aapt>.
 
 - APK संग्रह में शामिल फ़ाइलों की सूची बनाएं:
 

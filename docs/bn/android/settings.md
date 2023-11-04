@@ -2,8 +2,8 @@
 layout: page
 title: android/settings (বাংলা)
 description: "Android OS সম্পর্কে তথ্য পান।"
-content_hash: 7091a5f108cad023fab95345e5b2b7ebe02af07d
-last_modified_at: 2023-11-02
+content_hash: 7bcf8d1cef1e634951598bfc5a20451f3bfcac36
+last_modified_at: 2023-11-04
 related_topics:
   - title: Deutsch version
     url: /de/android/settings.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/settings.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/android/settings.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/android/settings.html
@@ -60,7 +63,7 @@ related_topics:
 # settings
 
 Android OS সম্পর্কে তথ্য পান।
-আরও তথ্য পাবেন: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>।
+আরও তথ্য পাবেন: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
 
 - `global` নামস্থানে সেটিংসের একটি তালিকা প্রদর্শন করুন:
 

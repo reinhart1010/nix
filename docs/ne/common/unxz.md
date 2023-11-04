@@ -2,17 +2,23 @@
 layout: page
 title: common/unxz (नेपाली)
 description: "यो आदेश `xz` को उपनाम हो |"
-content_hash: 8e1a3bea0f3a1af37ba064d073b3a2007823cc72
-last_modified_at: 2023-11-02
+content_hash: 70b8bf73ced6f5aac2fb77c4a3acbb7befcba54f
+last_modified_at: 2023-11-04
 related_topics:
   - title: العربية version
     url: /ar/common/unxz.html
+    icon: bi bi-globe
+  - title: বাংলা version
+    url: /bn/common/unxz.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/unxz.html
     icon: bi bi-globe
   - title: català version
     url: /ca/common/unxz.html
+    icon: bi bi-globe
+  - title: čeština version
+    url: /cs/common/unxz.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/common/unxz.html
@@ -25,6 +31,12 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/unxz.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/unxz.html
+    icon: bi bi-globe
+  - title: suomi version
+    url: /fi/common/unxz.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/unxz.html
@@ -65,8 +77,14 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/unxz.html
     icon: bi bi-globe
+  - title: română version
+    url: /ro/common/unxz.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/common/unxz.html
+    icon: bi bi-globe
+  - title: српски version
+    url: /sr/common/unxz.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/common/unxz.html
@@ -83,6 +101,9 @@ related_topics:
   - title: українська version
     url: /uk/common/unxz.html
     icon: bi bi-globe
+  - title: o‘zbek version
+    url: /uz/common/unxz.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/unxz.html
     icon: bi bi-globe
@@ -93,7 +114,7 @@ related_topics:
 # unxz
 
 यो आदेश `xz` को उपनाम हो |
-थप जानकारी: <https://manned.org/unxz>।
+थप जानकारी: <https://manned.org/unxz>.
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

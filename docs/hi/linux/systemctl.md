@@ -2,8 +2,8 @@
 layout: page
 title: linux/systemctl (हिन्दी)
 description: "systemd सिस्टम और सेवा प्रबंधक को नियंत्रित करें।"
-content_hash: 077d5484f46a817f3ab3924669ce322eeab6c287
-last_modified_at: 2023-11-02
+content_hash: 28500b7f49220d189cdf8bdadbe24f66a3b7021d
+last_modified_at: 2023-11-04
 related_topics:
   - title: català version
     url: /ca/linux/systemctl.html
@@ -33,7 +33,7 @@ related_topics:
 # systemctl
 
 systemd सिस्टम और सेवा प्रबंधक को नियंत्रित करें।
-अधिक जानकारी: <https://www.freedesktop.org/software/systemd/man/systemctl.html>।
+अधिक जानकारी: <https://www.freedesktop.org/software/systemd/man/systemctl.html>.
 
 - सभी चल रही सेवाएँ दिखाएं:
 

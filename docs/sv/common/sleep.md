@@ -2,8 +2,8 @@
 layout: page
 title: common/sleep (svenska)
 description: "Fördröjning under bestämd tid."
-content_hash: 91bd9f8c1403913b90456b84ad892ecdcdd6c612
-last_modified_at: 2023-11-02
+content_hash: 93b4cca2160ea370d058009db5ccd57e1d10f90e
+last_modified_at: 2023-11-04
 related_topics:
   - title: Deutsch version
     url: /de/common/sleep.html
@@ -33,7 +33,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># sleep
 
 Fördröjning under bestämd tid.
-Mer information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/sleep.html>.
+Mer information: <https://www.gnu.org/software/coreutils/sleep>.
 
 - Fördröj i sekunder:
 

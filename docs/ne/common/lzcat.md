@@ -2,17 +2,23 @@
 layout: page
 title: common/lzcat (नेपाली)
 description: "यो आदेश `xz` को उपनाम हो |"
-content_hash: fb6a882cdc151ad6f8c40dbda342ddfa9628714d
-last_modified_at: 2023-11-02
+content_hash: 55ad83d1d462262eb7aeb8360db545e29c7d1470
+last_modified_at: 2023-11-04
 related_topics:
   - title: العربية version
     url: /ar/common/lzcat.html
+    icon: bi bi-globe
+  - title: বাংলা version
+    url: /bn/common/lzcat.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/lzcat.html
     icon: bi bi-globe
   - title: català version
     url: /ca/common/lzcat.html
+    icon: bi bi-globe
+  - title: čeština version
+    url: /cs/common/lzcat.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/common/lzcat.html
@@ -25,6 +31,12 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/lzcat.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/lzcat.html
+    icon: bi bi-globe
+  - title: suomi version
+    url: /fi/common/lzcat.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/lzcat.html
@@ -65,8 +77,14 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/lzcat.html
     icon: bi bi-globe
+  - title: română version
+    url: /ro/common/lzcat.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/common/lzcat.html
+    icon: bi bi-globe
+  - title: српски version
+    url: /sr/common/lzcat.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/common/lzcat.html
@@ -83,6 +101,9 @@ related_topics:
   - title: українська version
     url: /uk/common/lzcat.html
     icon: bi bi-globe
+  - title: o‘zbek version
+    url: /uz/common/lzcat.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/lzcat.html
     icon: bi bi-globe
@@ -93,7 +114,7 @@ related_topics:
 # lzcat
 
 यो आदेश `xz` को उपनाम हो |
-थप जानकारी: <https://manned.org/lzcat>।
+थप जानकारी: <https://manned.org/lzcat>.
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

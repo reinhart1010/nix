@@ -2,8 +2,8 @@
 layout: page
 title: common/mingle (中文)
 description: "捆绑图形布局中的边缘。"
-content_hash: 99796b451bb6ead0d4cd9097eb874c2f2e16e4d1
-last_modified_at: 2023-11-02
+content_hash: a2c92ab166b8233bc312176d05945506febce5b5
+last_modified_at: 2023-11-04
 related_topics:
   - title: English version
     url: /en/common/mingle.html
@@ -13,7 +13,7 @@ related_topics:
 
 捆绑图形布局中的边缘。
 Graphviz 过滤器：`acyclic`、`bcomps`、`comps`、`edgepaint`、`gvcolor`、`gvpack`、`mingle`、`nop`、`sccmap`、`tred` 和 `unflatten`。
-更多信息：<https://www.graphviz.org/pdf/mingle.1.pdf>.
+更多信息： <https://www.graphviz.org/pdf/mingle.1.pdf>.
 
 - 捆绑一个或多个已经有布局信息的图形布局的边缘：
 

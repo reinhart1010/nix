@@ -1,10 +1,31 @@
 ---
 layout: page
 title: windows/cls (ไทย)
-description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `clear-host`"
-content_hash: d9a19c7357b6c670ff33d3a932396a2812bd5261
-last_modified_at: 2023-11-02
+description: "ล้างตัวอักษรทั้งหมดที่อยู่บนหน้าต่าง"
+content_hash: 55f2c042f29589aa66ff38c4a39caf3eecd32a88
+last_modified_at: 2023-11-04
 related_topics:
+  - title: العربية version
+    url: /ar/windows/cls.html
+    icon: bi bi-globe
+  - title: বাংলা version
+    url: /bn/windows/cls.html
+    icon: bi bi-globe
+  - title: bosanski version
+    url: /bs/windows/cls.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/windows/cls.html
+    icon: bi bi-globe
+  - title: čeština version
+    url: /cs/windows/cls.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/windows/cls.html
+    icon: bi bi-globe
+  - title: Deutsch version
+    url: /de/windows/cls.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/cls.html
     icon: bi bi-globe
@@ -13,6 +34,15 @@ related_topics:
     icon: bi bi-globe
   - title: فارسی version
     url: /fa/windows/cls.html
+    icon: bi bi-globe
+  - title: suomi version
+    url: /fi/windows/cls.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/windows/cls.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/cls.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/windows/cls.html
@@ -23,14 +53,56 @@ related_topics:
   - title: 日本語 version
     url: /ja/windows/cls.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/cls.html
+    icon: bi bi-globe
   - title: ລາວ version
     url: /lo/windows/cls.html
+    icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/windows/cls.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/windows/cls.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/cls.html
+    icon: bi bi-globe
+  - title: norsk version
+    url: /no/windows/cls.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/windows/cls.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/cls.html
     icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/windows/cls.html
+    icon: bi bi-globe
+  - title: română version
+    url: /ro/windows/cls.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/windows/cls.html
+    icon: bi bi-globe
+  - title: српски version
+    url: /sr/windows/cls.html
+    icon: bi bi-globe
+  - title: svenska version
+    url: /sv/windows/cls.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/windows/cls.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/windows/cls.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/windows/cls.html
+    icon: bi bi-globe
+  - title: o‘zbek version
+    url: /uz/windows/cls.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/cls.html
@@ -50,9 +122,9 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 <hr># cls
 
-คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `clear-host`
+ล้างตัวอักษรทั้งหมดที่อยู่บนหน้าต่าง
 ข้อมูลเพิ่มเติม: <https://learn.microsoft.com/windows-server/administration/windows-commands/cls>
 
-- เรียกดูรายละเอียดสำหรับคำสั่งตัวเต็ม:
+- ล้างตัวอักษรทั้งหมดบนหน้าจอ:
 
-`tldr clear-host`
+`cls`

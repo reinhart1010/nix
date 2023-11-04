@@ -2,8 +2,8 @@
 layout: page
 title: windows/doskey (বাংলা)
 description: "ম্যাক্রোজ, উইন্ডোজ কমান্ড এবং কমান্ড-লাইন পরিচালনা করুন।"
-content_hash: cae9f8d0dfcdd2f6a67f125bdb55474eb13cd715
-last_modified_at: 2023-11-02
+content_hash: a0384e94ab1ff9f13bbbf2308440ccd7d085ca20
+last_modified_at: 2023-11-04
 related_topics:
   - title: English version
     url: /en/windows/doskey.html
@@ -21,7 +21,7 @@ related_topics:
 # doskey
 
 ম্যাক্রোজ, উইন্ডোজ কমান্ড এবং কমান্ড-লাইন পরিচালনা করুন।
-আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/doskey>।
+আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/doskey>.
 
 - উপস্থিত ম্যাক্রোগুলির তালিকা তৈরি করুন:
 

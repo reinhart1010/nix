@@ -2,8 +2,8 @@
 layout: page
 title: windows/exit (বাংলা)
 description: "বর্তমান CMD ইনস্ট্যান্স বা বর্তমান ব্যাচ ফাইল থেকে বাহির হোন।"
-content_hash: 930267a110428e60647777c7d146bce60b9037e9
-last_modified_at: 2023-11-02
+content_hash: 233046628bc7710cfc264a52e54e8e1eac7a6e2c
+last_modified_at: 2023-11-04
 related_topics:
   - title: Deutsch version
     url: /de/windows/exit.html
@@ -27,7 +27,7 @@ related_topics:
 # exit
 
 বর্তমান CMD ইনস্ট্যান্স বা বর্তমান ব্যাচ ফাইল থেকে বাহির হোন।
-আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/exit>।
+আরও তথ্যের জন্য: https://learn.microsoft.com/windows-server/administration/windows-commands/exit.
 
 - বর্তমান CMD উদাহরণ থেকে বাহির হোন:
 

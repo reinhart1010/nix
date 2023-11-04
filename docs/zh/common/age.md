@@ -2,8 +2,8 @@
 layout: page
 title: common/age (中文)
 description: "一个简单、现代、安全的文件加密工具。"
-content_hash: f9b631de8ff2e6259390ffade6ebf6e9695d88f4
-last_modified_at: 2023-11-02
+content_hash: 6ed42cbe7cee99caa89ce71b7122a2526207eaf8
+last_modified_at: 2023-11-04
 related_topics:
   - title: Deutsch version
     url: /de/common/age.html
@@ -39,7 +39,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># age
 
 一个简单、现代、安全的文件加密工具。
-更多信息：<https://github.com/FiloSottile/age>.
+更多信息：<https://age-encryption.org>.
 
 - 生成一个可以用密码短语（passphrase）解密的加密文件：
 

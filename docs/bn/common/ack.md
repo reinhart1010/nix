@@ -2,8 +2,8 @@
 layout: page
 title: common/ack (বাংলা)
 description: "একটি গ্রেপের মত খোঁজ টুল, ডেভেলপারদের জন্য অপটিমাইজড করা."
-content_hash: ea5ef68ccbd81edc9ed289145f21925b6ea3f2f7
-last_modified_at: 2023-11-02
+content_hash: 05fdfde1f44235e5e1906dd25402f8b739d82048
+last_modified_at: 2023-11-04
 related_topics:
   - title: English version
     url: /en/common/ack.html
@@ -46,7 +46,7 @@ related_topics:
 
 একটি গ্রেপের মত খোঁজ টুল, ডেভেলপারদের জন্য অপটিমাইজড করা.
 আরও দেখুন: `rg`, যা অধিক দ্রুত।
-আরও তথ্য পেতে: <https://beyondgrep.com/documentation>|
+আরও তথ্য পেতে: <https://beyondgrep.com/documentation>.
 
 - বর্তমান ডিরেক্টরির অব্যাপ্তিতে স্ট্রিং বা নিয়মিত অভিব্যক্তি সম্মিলিত ফাইলগুলি জন্য খোঁজ করুন:
 

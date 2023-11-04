@@ -2,8 +2,8 @@
 layout: page
 title: common/scrapy (日本語)
 description: "ウェブクローリングのフレームワークです。"
-content_hash: b7c085234b9086d00412d9f2fea89189fb7c92c1
-last_modified_at: 2023-11-02
+content_hash: a8568dd361f1bc579df33f8914176efb2cf328c1
+last_modified_at: 2023-11-04
 related_topics:
   - title: English version
     url: /en/common/scrapy.html
@@ -12,7 +12,7 @@ related_topics:
 # scrapy
 
 ウェブクローリングのフレームワークです。
-詳しくはこちら: <https://scrapy.org>
+詳しくはこちら: <https://scrapy.org>.
 
 - プロジェクトを作成する:
 

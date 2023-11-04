@@ -2,8 +2,8 @@
 layout: page
 title: linux/backlight_control (हिन्दी)
 description: "प्रतिशत मानों का उपयोग करके लिनक्स मशीन की बैकलाइट को नियंत्रित करें।"
-content_hash: 5d0acc1fa46e5f0c2663cb9428c4340774f9340d
-last_modified_at: 2023-11-02
+content_hash: dd33b9c0631bd740dfc8340833931b0c7856a106
+last_modified_at: 2023-11-04
 related_topics:
   - title: English version
     url: /en/linux/backlight_control.html
@@ -12,7 +12,7 @@ related_topics:
 # backlight_control
 
 प्रतिशत मानों का उपयोग करके लिनक्स मशीन की बैकलाइट को नियंत्रित करें।
-अधिक जानकारी: <https://github.com/Hendrikto/backlight_control>।
+अधिक जानकारी: <https://github.com/Hendrikto/backlight_control>.
 
 - एक विशिष्ट प्रतिशत गणना द्वारा बैकलाइट बढ़ाएँ/घटाएँ:
 

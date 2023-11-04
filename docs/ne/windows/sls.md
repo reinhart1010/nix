@@ -2,17 +2,23 @@
 layout: page
 title: windows/sls (नेपाली)
 description: "यो आदेश `where-object` को उपनाम हो |"
-content_hash: 2fba40b3ca47a3771189699593513b0c8fe96726
-last_modified_at: 2023-11-02
+content_hash: 44224437178281ddf7e9029563cc64d21a142db9
+last_modified_at: 2023-11-04
 related_topics:
   - title: العربية version
     url: /ar/windows/sls.html
+    icon: bi bi-globe
+  - title: বাংলা version
+    url: /bn/windows/sls.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/sls.html
     icon: bi bi-globe
   - title: català version
     url: /ca/windows/sls.html
+    icon: bi bi-globe
+  - title: čeština version
+    url: /cs/windows/sls.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/windows/sls.html
@@ -25,6 +31,12 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/sls.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/windows/sls.html
+    icon: bi bi-globe
+  - title: suomi version
+    url: /fi/windows/sls.html
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/sls.html
@@ -65,8 +77,14 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/sls.html
     icon: bi bi-globe
+  - title: română version
+    url: /ro/windows/sls.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/sls.html
+    icon: bi bi-globe
+  - title: српски version
+    url: /sr/windows/sls.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/sls.html
@@ -83,6 +101,9 @@ related_topics:
   - title: українська version
     url: /uk/windows/sls.html
     icon: bi bi-globe
+  - title: o‘zbek version
+    url: /uz/windows/sls.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/sls.html
     icon: bi bi-globe
@@ -93,7 +114,7 @@ related_topics:
 # sls
 
 यो आदेश `where-object` को उपनाम हो |
-थप जानकारी: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>।
+थप जानकारी: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

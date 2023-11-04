@@ -2,17 +2,23 @@
 layout: page
 title: windows/iwr (português (Portugal))
 description: "Este comando é um alias de `invoke-webrequest`."
-content_hash: 2d22ba4a7676258f3735445ecfe4ca0029fd42d4
-last_modified_at: 2023-11-02
+content_hash: c8ab3cce5ad5bb957e1ffa0d17203616690dab77
+last_modified_at: 2023-11-04
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
+    icon: bi bi-globe
+  - title: বাংলা version
+    url: /bn/windows/iwr.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/iwr.html
     icon: bi bi-globe
   - title: català version
     url: /ca/windows/iwr.html
+    icon: bi bi-globe
+  - title: čeština version
+    url: /cs/windows/iwr.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/windows/iwr.html
@@ -25,6 +31,12 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/iwr.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/windows/iwr.html
+    icon: bi bi-globe
+  - title: suomi version
+    url: /fi/windows/iwr.html
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/iwr.html
@@ -65,8 +77,14 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/windows/iwr.html
     icon: bi bi-globe
+  - title: română version
+    url: /ro/windows/iwr.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/iwr.html
+    icon: bi bi-globe
+  - title: српски version
+    url: /sr/windows/iwr.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/iwr.html
@@ -83,6 +101,9 @@ related_topics:
   - title: українська version
     url: /uk/windows/iwr.html
     icon: bi bi-globe
+  - title: o‘zbek version
+    url: /uz/windows/iwr.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/iwr.html
     icon: bi bi-globe
@@ -93,7 +114,6 @@ related_topics:
 # iwr
 
 Este comando é um alias de `invoke-webrequest`.
-Mais informações: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Ver documentação do comando original:
 

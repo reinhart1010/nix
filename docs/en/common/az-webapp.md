@@ -2,8 +2,8 @@
 layout: page
 title: common/az-webapp (English)
 description: "Manage Web Applications hosted in Azure Cloud Services."
-content_hash: 386cbecfb510ab65f6a95ac992fd8271500aecb5
-last_modified_at: 2023-11-02
+content_hash: c68ef6afef1fef39643d28ad4e2c42876a9f0115
+last_modified_at: 2023-11-04
 related_topics:
   - title: español version
     url: /es/common/az-webapp.html
@@ -13,7 +13,7 @@ related_topics:
 
 Manage Web Applications hosted in Azure Cloud Services.
 Part of `azure-cli` (also known as `az`).
-More information: <https://learn.microsoft.com/cli/azure/webapp>.
+Mode information: <https://learn.microsoft.com/cli/azure/webapp>.
 
 - List available runtimes for a web application:
 

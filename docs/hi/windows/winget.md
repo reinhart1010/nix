@@ -2,8 +2,8 @@
 layout: page
 title: windows/winget (हिन्दी)
 description: "विंडोज़ पैकेज प्रबंधक।"
-content_hash: 576f6a482f43967e112aabb40568e8f40db241ab
-last_modified_at: 2023-11-02
+content_hash: 551eec38240ad755a34f7766d281a22e5d6c45a3
+last_modified_at: 2023-11-04
 related_topics:
   - title: Deutsch version
     url: /de/windows/winget.html
@@ -30,7 +30,7 @@ related_topics:
 # winget
 
 विंडोज़ पैकेज प्रबंधक।
-अधिक जानकारी: <https://learn.microsoft.com/windows/package-manager/winget>।
+अधिक जानकारी: <https://learn.microsoft.com/windows/package-manager/winget>.
 
 - एक पैकेज इनस्टॉल करें:
 

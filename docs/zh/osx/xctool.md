@@ -2,8 +2,8 @@
 layout: page
 title: osx/xctool (中文)
 description: "用于构建 Xcode 项目的工具。"
-content_hash: f6526be6e69b69640371a68541ec236e5d6ab5d9
-last_modified_at: 2023-11-02
+content_hash: 769bcda2cffa6bbdcc723333763963676bf61dac
+last_modified_at: 2023-11-04
 related_topics:
   - title: English version
     url: /en/osx/xctool.html
@@ -15,7 +15,7 @@ related_topics:
 # xctool
 
 用于构建 Xcode 项目的工具。
-更多信息：<https://github.com/facebookarchive/xctool>.
+更多信息：<https://github.com/facebook/xctool>.
 
 - 在没有任何工作区的情况下生成单个项目：
 

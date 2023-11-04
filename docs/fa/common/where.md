@@ -2,8 +2,8 @@
 layout: page
 title: common/where (فارسی)
 description: "نمایش محل فایل باینری یا اجرایی یک دستور در لینوکس."
-content_hash: d9db190e0161cde5e8881d2f802f95687440b070
-last_modified_at: 2023-11-02
+content_hash: 48e03e1ef1c37aeacb34d881f0aebc44646a8714
+last_modified_at: 2023-11-04
 related_topics:
   - title: dansk version
     url: /da/common/where.html
@@ -21,7 +21,6 @@ related_topics:
 # where
 
 نمایش محل فایل باینری یا اجرایی یک دستور در لینوکس.
-اطلاعات بیشتر: <https://zsh.sourceforge.io/Doc/Release/Shell-Builtin-Commands.html>.
 
 - نمایش محل فایل اجرایی یک دستور:
 

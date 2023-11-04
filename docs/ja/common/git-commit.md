@@ -2,8 +2,8 @@
 layout: page
 title: common/git-commit (日本語)
 description: "リポジトリにファイルをコミットします。"
-content_hash: b217fa85ad8c8435266b4f4188ef1b440aa451df
-last_modified_at: 2023-11-02
+content_hash: 0c6d3da4c18b9a0939e988904a6a893f217b8990
+last_modified_at: 2023-11-04
 related_topics:
   - title: Deutsch version
     url: /de/common/git-commit.html
@@ -39,7 +39,7 @@ related_topics:
 # git commit
 
 リポジトリにファイルをコミットします。
-詳しくはこちら: <https://git-scm.com/docs/git-commit>
+詳しくはこちら: <https://git-scm.com/docs/git-commit>.
 
 - メッセージと共に、ステージ済のファイルをリポジトリにコミットする:
 

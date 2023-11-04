@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreportz (বাংলা)
 description: "একটি জিপ করা অ্যান্ড্রয়েড বাগ রিপোর্ট তৈরি করুন।"
-content_hash: e5c8cd95cf77daaba3943887b7cf9dc66ddea554
-last_modified_at: 2023-11-02
+content_hash: e4ff35025bae139de057096de31679c75a2552bb
+last_modified_at: 2023-11-04
 related_topics:
   - title: Deutsch version
     url: /de/android/bugreportz.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/android/bugreportz.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/android/bugreportz.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/android/bugreportz.html
@@ -64,7 +67,7 @@ related_topics:
 
 একটি জিপ করা অ্যান্ড্রয়েড বাগ রিপোর্ট তৈরি করুন।
 এই কমান্ডটি শুধুমাত্র `adb shell` এর মাধ্যমে ব্যবহার করা যেতে পারে।
-আরও তথ্য পাবেন: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreportz>।
+আরও তথ্য পাবেন: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreportz>.
 
 - একটি অ্যান্ড্রয়েড ডিভাইসের একটি সম্পূর্ণ জিপ করা বাগ রিপোর্ট তৈরি করুন:
 

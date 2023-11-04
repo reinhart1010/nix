@@ -2,8 +2,8 @@
 layout: page
 title: windows/find (हिन्दी)
 description: "एक या अधिक फ़ाइलों में निर्दिष्ट स्ट्रिंग ढूंढें।"
-content_hash: b769dc22107be833f654ba9bbf00304570a7b839
-last_modified_at: 2023-11-02
+content_hash: ecafbac7a15ecf7f31a97bd49a0d4a9e223d1165
+last_modified_at: 2023-11-04
 related_topics:
   - title: বাংলা version
     url: /bn/windows/find.html
@@ -33,7 +33,7 @@ related_topics:
 # find
 
 एक या अधिक फ़ाइलों में निर्दिष्ट स्ट्रिंग ढूंढें।
-अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/find>।
+अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/find>.
 
 - वे पंक्तियाँ खोजें जिनमें एक निर्दिष्ट स्ट्रिंग हो:
 

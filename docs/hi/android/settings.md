@@ -2,8 +2,8 @@
 layout: page
 title: android/settings (हिन्दी)
 description: "एंड्रॉइड ओएस के बारे में जानकारी प्राप्त करें।"
-content_hash: 421fc23984a770a508feccea4f9796ad3e6bd657
-last_modified_at: 2023-11-02
+content_hash: 7b322b36a605c25ddda01ec7d3e0fe28efef7e83
+last_modified_at: 2023-11-04
 related_topics:
   - title: বাংলা version
     url: /bn/android/settings.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/settings.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/android/settings.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/android/settings.html
@@ -60,7 +63,7 @@ related_topics:
 # settings
 
 एंड्रॉइड ओएस के बारे में जानकारी प्राप्त करें।
-अधिक जानकारी: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>।
+अधिक जानकारी: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
 
 - `global` नेमस्पेस में सेटिंग्स की एक सूची प्रदर्शित करें:
 

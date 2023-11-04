@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-cp (日本語)
 description: "ホスト、コンテナのファイルシステム間でファイルやディレクトリをコピーします。"
-content_hash: f7ce050af58bca91688824356e7de8e3394cd21c
-last_modified_at: 2023-11-02
+content_hash: 320918f768ea9ca1d30568776772fe67515d90bd
+last_modified_at: 2023-11-04
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-cp.html
@@ -24,7 +24,7 @@ related_topics:
 # docker cp
 
 ホスト、コンテナのファイルシステム間でファイルやディレクトリをコピーします。
-詳しくはこちら: <https://docs.docker.com/engine/reference/commandline/cp>
+詳しくはこちら: <https://docs.docker.com/engine/reference/commandline/cp>.
 
 - ホストからコンテナへファイルやディレクトリをコピーする:
 

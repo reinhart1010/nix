@@ -2,17 +2,23 @@
 layout: page
 title: common/lzma (नेपाली)
 description: "यो आदेश `xz` को उपनाम हो |"
-content_hash: 607cf2962bdf9aca47c080cce50dcb325f3d2840
-last_modified_at: 2023-11-02
+content_hash: 206ada8c3908632fb0761a6caf8654509589899d
+last_modified_at: 2023-11-04
 related_topics:
   - title: العربية version
     url: /ar/common/lzma.html
+    icon: bi bi-globe
+  - title: বাংলা version
+    url: /bn/common/lzma.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/lzma.html
     icon: bi bi-globe
   - title: català version
     url: /ca/common/lzma.html
+    icon: bi bi-globe
+  - title: čeština version
+    url: /cs/common/lzma.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/common/lzma.html
@@ -25,6 +31,12 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/lzma.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/lzma.html
+    icon: bi bi-globe
+  - title: suomi version
+    url: /fi/common/lzma.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/lzma.html
@@ -65,8 +77,14 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/lzma.html
     icon: bi bi-globe
+  - title: română version
+    url: /ro/common/lzma.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/common/lzma.html
+    icon: bi bi-globe
+  - title: српски version
+    url: /sr/common/lzma.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/common/lzma.html
@@ -83,6 +101,9 @@ related_topics:
   - title: українська version
     url: /uk/common/lzma.html
     icon: bi bi-globe
+  - title: o‘zbek version
+    url: /uz/common/lzma.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/lzma.html
     icon: bi bi-globe
@@ -93,7 +114,7 @@ related_topics:
 # lzma
 
 यो आदेश `xz` को उपनाम हो |
-थप जानकारी: <https://manned.org/lzma>।
+थप जानकारी: <https://manned.org/lzma>.
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

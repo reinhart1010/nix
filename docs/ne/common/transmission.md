@@ -2,17 +2,23 @@
 layout: page
 title: common/transmission (नेपाली)
 description: "यो आदेश `transmission-daemon` को उपनाम हो |"
-content_hash: 1893305c7c5444611be61fab5d0332d43d749bbc
-last_modified_at: 2023-11-02
+content_hash: f86c37d741d0a31128cfb43850d78ec56b01a940
+last_modified_at: 2023-11-04
 related_topics:
   - title: العربية version
     url: /ar/common/transmission.html
+    icon: bi bi-globe
+  - title: বাংলা version
+    url: /bn/common/transmission.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/transmission.html
     icon: bi bi-globe
   - title: català version
     url: /ca/common/transmission.html
+    icon: bi bi-globe
+  - title: čeština version
+    url: /cs/common/transmission.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/common/transmission.html
@@ -25,6 +31,12 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/transmission.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/transmission.html
+    icon: bi bi-globe
+  - title: suomi version
+    url: /fi/common/transmission.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/transmission.html
@@ -65,8 +77,14 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/transmission.html
     icon: bi bi-globe
+  - title: română version
+    url: /ro/common/transmission.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/common/transmission.html
+    icon: bi bi-globe
+  - title: српски version
+    url: /sr/common/transmission.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/common/transmission.html
@@ -82,6 +100,9 @@ related_topics:
     icon: bi bi-globe
   - title: українська version
     url: /uk/common/transmission.html
+    icon: bi bi-globe
+  - title: o‘zbek version
+    url: /uz/common/transmission.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/transmission.html
@@ -102,7 +123,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># transmission
 
 यो आदेश `transmission-daemon` को उपनाम हो |
-थप जानकारी: <https://transmissionbt.com/>।
+थप जानकारी: <https://transmissionbt.com/>.
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

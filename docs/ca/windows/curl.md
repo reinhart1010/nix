@@ -2,8 +2,8 @@
 layout: page
 title: windows/curl (català)
 description: "Aquest comandament és un àlies de `curl -p common`."
-content_hash: 50d07b8703c3b90b3d2ae8319653f3e57a302141
-last_modified_at: 2023-11-02
+content_hash: c8813414e92cacbd625389525d0eb0d5e4fe840b
+last_modified_at: 2023-11-04
 related_topics:
   - title: العربية version
     url: /ar/windows/curl.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/curl.html
+    icon: bi bi-globe
+  - title: čeština version
+    url: /cs/windows/curl.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/windows/curl.html
@@ -25,6 +28,12 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/curl.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/windows/curl.html
+    icon: bi bi-globe
+  - title: suomi version
+    url: /fi/windows/curl.html
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/curl.html
@@ -68,8 +77,14 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/curl.html
     icon: bi bi-globe
+  - title: română version
+    url: /ro/windows/curl.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/curl.html
+    icon: bi bi-globe
+  - title: српски version
+    url: /sr/windows/curl.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/curl.html
@@ -85,6 +100,9 @@ related_topics:
     icon: bi bi-globe
   - title: українська version
     url: /uk/windows/curl.html
+    icon: bi bi-globe
+  - title: o‘zbek version
+    url: /uz/windows/curl.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/curl.html
@@ -105,7 +123,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># curl
 
 Aquest comandament és un àlies de `curl -p common`.
-Més informació: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
+Més informació: <https://curl.se>.
 
 - Veure documentació pel comandament original:
 

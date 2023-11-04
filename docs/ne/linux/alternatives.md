@@ -2,17 +2,23 @@
 layout: page
 title: linux/alternatives (नेपाली)
 description: "यो आदेश `update-alternatives` को उपनाम हो |"
-content_hash: ccc2254defd0a7346837b9a8f871d3c0023e0be5
-last_modified_at: 2023-11-02
+content_hash: 6854c2180dd44fe31217f27de6b42d8c907c6401
+last_modified_at: 2023-11-04
 related_topics:
   - title: العربية version
     url: /ar/linux/alternatives.html
+    icon: bi bi-globe
+  - title: বাংলা version
+    url: /bn/linux/alternatives.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/linux/alternatives.html
     icon: bi bi-globe
   - title: català version
     url: /ca/linux/alternatives.html
+    icon: bi bi-globe
+  - title: čeština version
+    url: /cs/linux/alternatives.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/linux/alternatives.html
@@ -25,6 +31,12 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/linux/alternatives.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/alternatives.html
+    icon: bi bi-globe
+  - title: suomi version
+    url: /fi/linux/alternatives.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/alternatives.html
@@ -65,8 +77,14 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/linux/alternatives.html
     icon: bi bi-globe
+  - title: română version
+    url: /ro/linux/alternatives.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/linux/alternatives.html
+    icon: bi bi-globe
+  - title: српски version
+    url: /sr/linux/alternatives.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/linux/alternatives.html
@@ -83,6 +101,9 @@ related_topics:
   - title: українська version
     url: /uk/linux/alternatives.html
     icon: bi bi-globe
+  - title: o‘zbek version
+    url: /uz/linux/alternatives.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/alternatives.html
     icon: bi bi-globe
@@ -93,7 +114,7 @@ related_topics:
 # alternatives
 
 यो आदेश `update-alternatives` को उपनाम हो |
-थप जानकारी: <https://manned.org/alternatives>।
+थप जानकारी: <https://manned.org/alternatives>.
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

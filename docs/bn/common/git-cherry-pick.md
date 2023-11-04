@@ -2,8 +2,8 @@
 layout: page
 title: common/git-cherry-pick (বাংলা)
 description: "বিদ্যমান কমিট দ্বারা প্রবর্তিত পরিবর্তনগুলি বর্তমান ব্র্যাঞ্চে প্রয়োগ করুন।"
-content_hash: b6a7ca4daa4e82b97b208563d93ccbfe4b6ee345
-last_modified_at: 2023-11-02
+content_hash: 51a4c4aa9ce49298ad5da62d908287d2915be8e7
+last_modified_at: 2023-11-04
 related_topics:
   - title: English version
     url: /en/common/git-cherry-pick.html
@@ -31,7 +31,7 @@ related_topics:
 
 বিদ্যমান কমিট দ্বারা প্রবর্তিত পরিবর্তনগুলি বর্তমান ব্র্যাঞ্চে প্রয়োগ করুন।
 অন্য ব্র্যাঞ্চে পরিবর্তনগুলি প্রয়োগ করতে, প্রথমে পছন্দসই ব্র্যাঞ্চে স্যুইচ করতে `git checkout` ব্যবহার করুন।
-আরও তথ্য পাবেন: <https://git-scm.com/docs/git-cherry-pick>।
+আরও তথ্য পাবেন: <https://git-scm.com/docs/git-cherry-pick>.
 
 - বর্তমান ব্র্যাঞ্চে কমিট করুন:
 

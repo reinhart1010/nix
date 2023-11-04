@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco-new (français)
 description: "Générez de nouveaux fichiers de spécifications de package avec Chocolatey."
-content_hash: f358f582c7fa463d770e49ad6bc9af8060422acc
-last_modified_at: 2023-11-02
+content_hash: 051835b828e2ea3ca54a68f9767a042692e12f0a
+last_modified_at: 2023-11-04
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-new.html
@@ -24,7 +24,7 @@ related_topics:
 # choco new
 
 Générez de nouveaux fichiers de spécifications de package avec Chocolatey.
-Plus d'informations : <https://chocolatey.org/docs/commands-new>.
+Plus d'information: <https://chocolatey.org/docs/commands-new>.
 
 - Créer un nouveau squelette de package :
 

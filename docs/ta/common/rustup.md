@@ -2,8 +2,8 @@
 layout: page
 title: common/rustup (தமிழ்)
 description: "ரஸ்ட் டூல்செயின் நிறுவி."
-content_hash: 8641454b05a4312bd9dbd8f8ad1d91fdaa63c6a6
-last_modified_at: 2023-11-02
+content_hash: 00133002cc5ad164c7855b718b377241a8e8bb42
+last_modified_at: 2023-11-04
 related_topics:
   - title: English version
     url: /en/common/rustup.html
@@ -13,7 +13,7 @@ related_topics:
 
 ரஸ்ட் டூல்செயின் நிறுவி.
 ரஸ்ட் டூல்செயின்களை நிறுவவும், நிர்வகிக்கவும் மற்றும் புதுப்பிக்கவும் இதை பயன்படுத்துகிறோம்.
-மேலும் விவரத்திற்கு: <https://rust-lang.github.io/rustup>.
+மேலும் விவரத்திற்கு: <https://github.com/rust-lang/rustup.rs>.
 
 - உங்கள் கணினிக்கு இரவு டூல்செயின்களை நிறுவவும்:
 

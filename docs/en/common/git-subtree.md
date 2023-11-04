@@ -2,8 +2,8 @@
 layout: page
 title: common/git-subtree (English)
 description: "Tool to manage project dependencies as subprojects."
-content_hash: 195e3a6ad5b4b8243250b210258061c53ea51421
-last_modified_at: 2023-11-02
+content_hash: 90dfa712aee7f8a75e9d6a4a32a2550e3941eaa5
+last_modified_at: 2023-11-04
 related_topics:
   - title: français version
     url: /fr/common/git-subtree.html
@@ -18,7 +18,7 @@ related_topics:
 # git subtree
 
 Tool to manage project dependencies as subprojects.
-More information: <https://manned.org/git-subtree.1>.
+More information: <https://manpages.debian.org/testing/git-man/git-subtree.1.en.html>.
 
 - Add a Git repository as a subtree:
 

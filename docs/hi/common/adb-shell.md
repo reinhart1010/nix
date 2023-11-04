@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-shell (हिन्दी)
 description: "एंड्रॉइड डीबग ब्रिज शेल: एंड्रॉइड एमुलेटर इंस्टेंस या कनेक्टेड एंड्रॉइड डिवाइस पर रिमोट शेल कमांड चलाएं।"
-content_hash: 8035955f311f34ec3bbf8e7c278e9ec38bf596b9
-last_modified_at: 2023-11-02
+content_hash: 0d6ea1a91fc054a22e663286c9264b0bc7f8e22d
+last_modified_at: 2023-11-04
 related_topics:
   - title: English version
     url: /en/common/adb-shell.html
@@ -39,7 +39,7 @@ related_topics:
 # adb shell
 
 एंड्रॉइड डीबग ब्रिज शेल: एंड्रॉइड एमुलेटर इंस्टेंस या कनेक्टेड एंड्रॉइड डिवाइस पर रिमोट शेल कमांड चलाएं।
-अधिक जानकारी: <https://developer.android.com/studio/command-line/adb>।
+अधिक जानकारी: <https://developer.android.com/studio/command-line/adb>.
 
 - एम्यूलेटर या डिवाइस पर रिमोट इंटरैक्टिव शेल प्रारंभ करें:
 

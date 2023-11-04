@@ -2,8 +2,8 @@
 layout: page
 title: common/nc (español)
 description: "Netcat es una utilidad versátil para trabajar con datos TCP o UDP."
-content_hash: e7100aae24b2a2ee93d3f30f085f379b35eb3c6d
-last_modified_at: 2023-11-02
+content_hash: b60705c610fdc3902a7c737a7baca1fafa340cb2
+last_modified_at: 2023-11-04
 related_topics:
   - title: English version
     url: /en/common/nc.html
@@ -15,7 +15,7 @@ related_topics:
 # nc
 
 Netcat es una utilidad versátil para trabajar con datos TCP o UDP.
-Más información: <https://manned.org/man/nc.1>.
+Más información: <https://nmap.org/ncat>.
 
 - Escucha en un puerto determinado e imprime cualquier dato recibido:
 

@@ -2,8 +2,8 @@
 layout: page
 title: android/dumpsys (हिन्दी)
 description: "एंड्रॉइड सिस्टम सेवाओं के बारे में जानकारी प्रदान करें।"
-content_hash: 81a4f74975537554f10eda8701077257861370df
-last_modified_at: 2023-11-02
+content_hash: 3a8380d5e5372953f7db77ae53618a6efde814cf
+last_modified_at: 2023-11-04
 related_topics:
   - title: বাংলা version
     url: /bn/android/dumpsys.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/dumpsys.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/android/dumpsys.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/android/dumpsys.html
@@ -61,7 +64,7 @@ related_topics:
 
 एंड्रॉइड सिस्टम सेवाओं के बारे में जानकारी प्रदान करें।
 इस कमांड का उपयोग केवल `adb shell` के माध्यम से किया जा सकता है।
-अधिक जानकारी: <https://developer.android.com/studio/command-line/dumpsys>।
+अधिक जानकारी: <https://developer.android.com/studio/command-line/dumpsys>.
 
 - सभी सिस्टम सेवाओं के लिए नैदानिक आउटपुट प्राप्त करें:
 

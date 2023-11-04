@@ -2,8 +2,8 @@
 layout: page
 title: common/git-config (Deutsch)
 description: "Verwalten von benutzerdefinierten Optionen für Git Repositories."
-content_hash: b9a8cbd65d1d48cbb46d41bb7db44edf8af0276a
-last_modified_at: 2023-11-02
+content_hash: aa4bdcc598f4c9256defafa664d14d8afaf233cb
+last_modified_at: 2023-11-04
 related_topics:
   - title: English version
     url: /en/common/git-config.html
@@ -34,7 +34,7 @@ related_topics:
 
 Verwalten von benutzerdefinierten Optionen für Git Repositories.
 Diese Optionen können lokal (für das aktiven Repository) or global (für den aktiven Benutzer) sein.
-Weitere Informationen: <https://git-scm.com/docs/git-config>.
+Weitere Informationen: <https://git-scm.com/docs/git-config/de>.
 
 - Liste nur lokale Konfigurationseinträge (gespeichert unter `.git/config` im aktiven Repository) auf:
 

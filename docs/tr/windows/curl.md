@@ -2,8 +2,8 @@
 layout: page
 title: windows/curl (Türkçe)
 description: "Bu komut `curl -p common` için bir takma addır."
-content_hash: 1baa6ff2f09820d7fd1dfbd182fbda73a58d26bb
-last_modified_at: 2023-11-02
+content_hash: 835e17de39757b2179d747a6749f81374139da0f
+last_modified_at: 2023-11-04
 related_topics:
   - title: العربية version
     url: /ar/windows/curl.html
@@ -17,6 +17,9 @@ related_topics:
   - title: català version
     url: /ca/windows/curl.html
     icon: bi bi-globe
+  - title: čeština version
+    url: /cs/windows/curl.html
+    icon: bi bi-globe
   - title: dansk version
     url: /da/windows/curl.html
     icon: bi bi-globe
@@ -28,6 +31,12 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/curl.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/windows/curl.html
+    icon: bi bi-globe
+  - title: suomi version
+    url: /fi/windows/curl.html
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/curl.html
@@ -71,8 +80,14 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/curl.html
     icon: bi bi-globe
+  - title: română version
+    url: /ro/windows/curl.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/curl.html
+    icon: bi bi-globe
+  - title: српски version
+    url: /sr/windows/curl.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/curl.html
@@ -85,6 +100,9 @@ related_topics:
     icon: bi bi-globe
   - title: українська version
     url: /uk/windows/curl.html
+    icon: bi bi-globe
+  - title: o‘zbek version
+    url: /uz/windows/curl.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/curl.html
@@ -105,7 +123,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># curl
 
 Bu komut `curl -p common` için bir takma addır.
-Daha fazla bilgi için: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
+Daha fazla bilgi için: <https://curl.se>.
 
 - Asıl komutun belgelerini görüntüleyin:
 

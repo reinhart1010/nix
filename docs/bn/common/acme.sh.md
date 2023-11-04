@@ -2,8 +2,8 @@
 layout: page
 title: common/acme.sh (বাংলা)
 description: "ACME ক্লায়েন্ট প্রোটোকল প্রয়োজনীয় স্ক্রিপ্ট, certbot এর একটি বিকল্প।"
-content_hash: 54b2d2009e7cb2b57253912c9a1d3f3a788b99b4
-last_modified_at: 2023-11-02
+content_hash: 4d99209c04ad3f33bae59f467f927f7e3abd078c
+last_modified_at: 2023-11-04
 related_topics:
   - title: English version
     url: /en/common/acme.sh.html
@@ -28,7 +28,7 @@ related_topics:
 
 ACME ক্লায়েন্ট প্রোটোকল প্রয়োজনীয় স্ক্রিপ্ট, certbot এর একটি বিকল্প।
 `acme.sh dns` দেখুন।
-আরও তথ্য পেতে: <https://github.com/acmesh-official/acme.sh>|
+আরও তথ্য পেতে: <https://github.com/acmesh-official/acme.sh>.
 
 - ওয়েবরুট মোড ব্যবহার করে একটি সার্টিফিকেট ইস্যু করুন:
 

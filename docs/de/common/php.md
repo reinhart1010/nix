@@ -2,8 +2,8 @@
 layout: page
 title: common/php (Deutsch)
 description: "PHP Befehlszeilenschnittstelle."
-content_hash: 94f75b2d8809bf59bf881e43aedd90e483481beb
-last_modified_at: 2023-11-02
+content_hash: db09330334c79ba282ea292de35e343ecea4bbf0
+last_modified_at: 2023-11-04
 related_topics:
   - title: English version
     url: /en/common/php.html
@@ -15,7 +15,7 @@ related_topics:
 # php
 
 PHP Befehlszeilenschnittstelle.
-Weitere Informationen: <https://php.net>.
+Mehr Informationen: <https://php.net>.
 
 - Analysiere ein PHP-Skript und führe es aus:
 

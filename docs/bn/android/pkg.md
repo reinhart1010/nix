@@ -2,8 +2,8 @@
 layout: page
 title: android/pkg (বাংলা)
 description: "Termux এর জন্য একটি প্যাকেজ ব্যবস্থাপনা ইউটিলিটি।"
-content_hash: 7f5c39fa08d0d1209f7c931d8ec232ae5c5e538e
-last_modified_at: 2023-11-02
+content_hash: b0839e89e6ff93e43892c9e5a8daa339673bf650
+last_modified_at: 2023-11-04
 related_topics:
   - title: Deutsch version
     url: /de/android/pkg.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/pkg.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/android/pkg.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/android/pkg.html
@@ -57,7 +60,7 @@ related_topics:
 # pkg
 
 Termux এর জন্য একটি প্যাকেজ ব্যবস্থাপনা ইউটিলিটি।
-আরও তথ্য পাবেন: <https://wiki.termux.com/wiki/Package_Management>।
+আরও তথ্য পাবেন: <https://wiki.termux.com/wiki/Package_Management>.
 
 - সমস্ত ইনস্টল করা প্যাকেজ আপগ্রেড করুন:
 

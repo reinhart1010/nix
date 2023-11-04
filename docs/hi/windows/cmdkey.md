@@ -2,8 +2,8 @@
 layout: page
 title: windows/cmdkey (हिन्दी)
 description: "संग्रहीत उपयोगकर्ता नाम और पासवर्ड बनाएं, दिखाएं और हटाएं।"
-content_hash: eb73173ea000585281fca280c3fc89e95d98873b
-last_modified_at: 2023-11-02
+content_hash: 2505bd1842a19d77fb86ec3048cbc007d566e539
+last_modified_at: 2023-11-04
 related_topics:
   - title: English version
     url: /en/windows/cmdkey.html
@@ -12,7 +12,7 @@ related_topics:
 # cmdkey
 
 संग्रहीत उपयोगकर्ता नाम और पासवर्ड बनाएं, दिखाएं और हटाएं।
-अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/cmdkey>।
+अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/cmdkey>.
 
 - सभी उपयोगकर्ता क्रेडेंशियल्स की एक सूची दिखाएं:
 

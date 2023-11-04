@@ -2,17 +2,23 @@
 layout: page
 title: windows/wget (dansk)
 description: "Denne kommando er et alias af `wget -p common`."
-content_hash: b4e02896517b2e53f7fb2cf9f9f93b329eac68e8
-last_modified_at: 2023-11-02
+content_hash: f06894d4e16ec95022672fd2e60c2efff805366f
+last_modified_at: 2023-11-04
 related_topics:
   - title: العربية version
     url: /ar/windows/wget.html
+    icon: bi bi-globe
+  - title: বাংলা version
+    url: /bn/windows/wget.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/wget.html
     icon: bi bi-globe
   - title: català version
     url: /ca/windows/wget.html
+    icon: bi bi-globe
+  - title: čeština version
+    url: /cs/windows/wget.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/wget.html
@@ -22,6 +28,12 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/wget.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/windows/wget.html
+    icon: bi bi-globe
+  - title: suomi version
+    url: /fi/windows/wget.html
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/wget.html
@@ -65,8 +77,14 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/wget.html
     icon: bi bi-globe
+  - title: română version
+    url: /ro/windows/wget.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/wget.html
+    icon: bi bi-globe
+  - title: српски version
+    url: /sr/windows/wget.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/wget.html
@@ -82,6 +100,9 @@ related_topics:
     icon: bi bi-globe
   - title: українська version
     url: /uk/windows/wget.html
+    icon: bi bi-globe
+  - title: o‘zbek version
+    url: /uz/windows/wget.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/wget.html
@@ -102,7 +123,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># wget
 
 Denne kommando er et alias af `wget -p common`.
-Mere information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
+Mere information: <https://www.gnu.org/software/wget>.
 
 - Se dokumentation for den oprindelige kommando:
 

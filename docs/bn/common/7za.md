@@ -2,8 +2,8 @@
 layout: page
 title: common/7za (বাংলা)
 description: "একটি উচ্চ সঙ্কোচন অনুবাদক সাথে ফাইল অ্যার্কাইভার।"
-content_hash: 247380e7dd35f7229978608481c6e94371e235be
-last_modified_at: 2023-11-02
+content_hash: 57b802b523e3578040a5d9572079431c4b78d95b
+last_modified_at: 2023-11-04
 related_topics:
   - title: Deutsch version
     url: /de/common/7za.html
@@ -58,7 +58,7 @@ related_topics:
 
 একটি উচ্চ সঙ্কোচন অনুবাদক সাথে ফাইল অ্যার্কাইভার।
 `7z` এর মত, কিন্তু এটি কম ফাইল ধরণসমূহ সমর্থন করে এবং ক্রস-প্ল্যাটফর্ম।
-আরও তথ্য পেতে: <https://manned.org/7za>|
+আরও তথ্য পেতে: <https://manned.org/7za>.
 
 - একটি ফাইল বা ডিরেক্টরি অ্যার্কাইভ করুন:
 

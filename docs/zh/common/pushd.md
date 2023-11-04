@@ -2,8 +2,8 @@
 layout: page
 title: common/pushd (中文)
 description: "将目录放在堆栈上，以便以后访问。"
-content_hash: da6148d499bf1981ce377d33c78c902bd47ddfda
-last_modified_at: 2023-11-02
+content_hash: 07286754714120c4db6f06241a6eaa6e7bc32bb8
+last_modified_at: 2023-11-04
 related_topics:
   - title: dansk version
     url: /da/common/pushd.html
@@ -25,7 +25,6 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 将目录放在堆栈上，以便以后访问。
 另请参阅 `popd` 命令说明，以切换回原始目录。
-更多信息：<https://www.gnu.org/software/bash/manual/html_node/Directory-Stack-Builtins.html>.
 
 - 切换到目录并将其添加到堆栈上：
 

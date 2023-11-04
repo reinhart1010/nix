@@ -2,8 +2,8 @@
 layout: page
 title: common/nix-shell (Deutsch)
 description: "Startet eine interaktive Shell, die auf einem Nix-Ausdruck basiert."
-content_hash: 5913bff6d05f44a8223e857a98e7f4cc67724ba3
-last_modified_at: 2023-11-02
+content_hash: f85cbd4cebb9548c4d664512d6edc9a64428fff9
+last_modified_at: 2023-11-04
 related_topics:
   - title: English version
     url: /en/common/nix-shell.html
@@ -12,7 +12,7 @@ related_topics:
 # nix-shell
 
 Startet eine interaktive Shell, die auf einem Nix-Ausdruck basiert.
-Weitere Informationen: <https://nixos.org/manual/nix/stable/command-ref/nix-shell.html>.
+Weitere Informationen: <https://nixos.org/manual/nix/stable/#sec-nix-shell>.
 
 - Starte mit Nix-Ausdruck in `shell.nix` oder `default.nix` im aktuellen Verzeichnis:
 

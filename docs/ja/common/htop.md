@@ -2,8 +2,8 @@
 layout: page
 title: common/htop (日本語)
 description: "実行中のプロセスに関する動的なリアルタイム情報を表示する。 `top` の拡張版。"
-content_hash: fe401e953c39d9fd3df04017da0a9c3729b2e4b7
-last_modified_at: 2023-11-02
+content_hash: a812fc8cb5a4138fd1b22b9d7276ad2072139c63
+last_modified_at: 2023-11-04
 related_topics:
   - title: English version
     url: /en/common/htop.html
@@ -36,7 +36,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># htop
 
 実行中のプロセスに関する動的なリアルタイム情報を表示する。 `top` の拡張版。
-詳しくはこちら: <https://htop.dev/>
+詳しくはこちら: <https://htop.dev/>.
 
 - htop を起動:
 

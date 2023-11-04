@@ -2,17 +2,23 @@
 layout: page
 title: linux/batcat (नेपाली)
 description: "यो आदेश `bat` को उपनाम हो |"
-content_hash: 2e70a091b773b8a9d7e0884e13277b0693fdc196
-last_modified_at: 2023-11-02
+content_hash: 49036029e65c2d1231f32b3d572d07117be49fcd
+last_modified_at: 2023-11-04
 related_topics:
   - title: العربية version
     url: /ar/linux/batcat.html
+    icon: bi bi-globe
+  - title: বাংলা version
+    url: /bn/linux/batcat.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/linux/batcat.html
     icon: bi bi-globe
   - title: català version
     url: /ca/linux/batcat.html
+    icon: bi bi-globe
+  - title: čeština version
+    url: /cs/linux/batcat.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/linux/batcat.html
@@ -25,6 +31,12 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/linux/batcat.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/batcat.html
+    icon: bi bi-globe
+  - title: suomi version
+    url: /fi/linux/batcat.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/batcat.html
@@ -65,8 +77,14 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/linux/batcat.html
     icon: bi bi-globe
+  - title: română version
+    url: /ro/linux/batcat.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/linux/batcat.html
+    icon: bi bi-globe
+  - title: српски version
+    url: /sr/linux/batcat.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/linux/batcat.html
@@ -83,6 +101,9 @@ related_topics:
   - title: українська version
     url: /uk/linux/batcat.html
     icon: bi bi-globe
+  - title: o‘zbek version
+    url: /uz/linux/batcat.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/batcat.html
     icon: bi bi-globe
@@ -93,7 +114,7 @@ related_topics:
 # batcat
 
 यो आदेश `bat` को उपनाम हो |
-थप जानकारी: <https://github.com/sharkdp/bat>।
+थप जानकारी: <https://github.com/sharkdp/bat>.
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

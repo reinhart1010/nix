@@ -2,8 +2,8 @@
 layout: page
 title: common/age (italiano)
 description: "Uno strumento semplice, moderno e sicuro per la cifratura di file."
-content_hash: dc2ea7a9471bafd83a5eaca6bd267b0eadd8b7ab
-last_modified_at: 2023-11-02
+content_hash: 8fb0fe4a1e50f597c2e5c6a19943b9d821306940
+last_modified_at: 2023-11-04
 related_topics:
   - title: Deutsch version
     url: /de/common/age.html
@@ -39,7 +39,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># age
 
 Uno strumento semplice, moderno e sicuro per la cifratura di file.
-Maggiori informazioni: <https://github.com/FiloSottile/age>.
+Maggiori informazioni: <https://age-encryption.org>.
 
 - Generare un file cifrato che può essere decifrato con una passphrase:
 

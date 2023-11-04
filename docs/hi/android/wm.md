@@ -2,8 +2,8 @@
 layout: page
 title: android/wm (हिन्दी)
 description: "एंड्रॉइड डिवाइस की स्क्रीन के बारे में जानकारी दिखाएं।"
-content_hash: b49fea9ad09b6f97ba8c157f1445f4f10438911d
-last_modified_at: 2023-11-02
+content_hash: 852568a8939882b2439b71cc15d52b8c001fb6ab
+last_modified_at: 2023-11-04
 related_topics:
   - title: বাংলা version
     url: /bn/android/wm.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/wm.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/android/wm.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/android/wm.html
@@ -61,7 +64,7 @@ related_topics:
 
 एंड्रॉइड डिवाइस की स्क्रीन के बारे में जानकारी दिखाएं।
 इस कमांड का उपयोग केवल `adb shell` के माध्यम से किया जा सकता है।
-अधिक जानकारी: <https://adbinstaller.com/commands/adb-shell-wm-5b672b17e7958178a2955538>।
+अधिक जानकारी: <https://adbinstaller.com/commands/adb-shell-wm-5b672b17e7958178a2955538>.
 
 - एंड्रॉइड डिवाइस की स्क्रीन का भौतिक आकार प्रदर्शित करें:
 

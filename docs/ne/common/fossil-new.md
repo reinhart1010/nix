@@ -2,17 +2,23 @@
 layout: page
 title: common/fossil-new (नेपाली)
 description: "यो आदेश `fossil-init` को उपनाम हो |"
-content_hash: a5e5bda2aee8835d321ddd0f2dcfe24ca37f4519
-last_modified_at: 2023-11-02
+content_hash: 58fd0205300d638d1f428bbf833dde1df9c265f1
+last_modified_at: 2023-11-04
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
+    icon: bi bi-globe
+  - title: বাংলা version
+    url: /bn/common/fossil-new.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/fossil-new.html
     icon: bi bi-globe
   - title: català version
     url: /ca/common/fossil-new.html
+    icon: bi bi-globe
+  - title: čeština version
+    url: /cs/common/fossil-new.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/common/fossil-new.html
@@ -25,6 +31,12 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/fossil-new.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/fossil-new.html
+    icon: bi bi-globe
+  - title: suomi version
+    url: /fi/common/fossil-new.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/fossil-new.html
@@ -65,8 +77,14 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/fossil-new.html
     icon: bi bi-globe
+  - title: română version
+    url: /ro/common/fossil-new.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/common/fossil-new.html
+    icon: bi bi-globe
+  - title: српски version
+    url: /sr/common/fossil-new.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/common/fossil-new.html
@@ -83,6 +101,9 @@ related_topics:
   - title: українська version
     url: /uk/common/fossil-new.html
     icon: bi bi-globe
+  - title: o‘zbek version
+    url: /uz/common/fossil-new.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/fossil-new.html
     icon: bi bi-globe
@@ -93,7 +114,7 @@ related_topics:
 # fossil-new
 
 यो आदेश `fossil-init` को उपनाम हो |
-थप जानकारी: <https://fossil-scm.org/home/help/new>।
+थप जानकारी: <https://fossil-scm.org/home/help/new>.
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

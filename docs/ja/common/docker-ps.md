@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-ps (日本語)
 description: "Dockerコンテナ一覧を表示します。"
-content_hash: a2089b602f8a2a6456ce486a45234ffeed13f5bd
-last_modified_at: 2023-11-02
+content_hash: 730b51fe9d60aa8b5cf6fb30185ef7ab4c702e72
+last_modified_at: 2023-11-04
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-ps.html
@@ -27,7 +27,7 @@ related_topics:
 # docker ps
 
 Dockerコンテナ一覧を表示します。
-詳しくはこちら: <https://docs.docker.com/engine/reference/commandline/ps/>
+詳しくはこちら: <https://docs.docker.com/engine/reference/commandline/ps/>.
 
 - 現在実行中のdockerコンテナ一覧を表示する:
 
