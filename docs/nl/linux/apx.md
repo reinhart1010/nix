@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/apx (Nederlands)
-description: "Dit commando is een alias van `apx pkgmanagers`."
-content_hash: 97cea71fff7b29ddbb7767301da3cb5febc23705
-last_modified_at: 2023-11-02
+description: "Pakketbeheerhulpprogramma met ondersteuning voor meerdere bronnen, zodat u pakketten in subsystemen kunt installeren."
+content_hash: 18a5d807377fbfb5593a17701c5067550ccfbc66
+last_modified_at: 2023-11-05
 related_topics:
   - title: English version
     url: /en/linux/apx.html
@@ -17,9 +17,17 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># apx
 
-Dit commando is een alias van `apx pkgmanagers`.
+Pakketbeheerhulpprogramma met ondersteuning voor meerdere bronnen, zodat u pakketten in subsystemen kunt installeren.
 Meer informatie: <https://github.com/Vanilla-OS/apx>.
 
-- Bekijk de documentatie van het originele commando:
+- Bekijk de documentatie voor het beheren van pakketmanagers:
 
 `tldr apx pkgmanagers`
+
+- Bekijk de documentatie voor het beheren van stapels:
+
+`tldr apx stacks`
+
+- Bekijk de documentatie voor het beheren van subsystemen:
+
+`tldr apx subsystems`

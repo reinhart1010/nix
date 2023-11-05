@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/pkgctl (Nederlands)
-description: "Dit commando is een alias van `pkgctl auth`."
-content_hash: 2deb497fe22e64072bb6353d9ba57f40f239719c
-last_modified_at: 2023-11-02
+description: "Verenigde command-line frontend voor Arch Linux devtools."
+content_hash: 39dae78363a54f5af6a79688156978b718075183
+last_modified_at: 2023-11-05
 related_topics:
   - title: English version
     url: /en/linux/pkgctl.html
@@ -14,9 +14,33 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># pkgctl
 
-Dit commando is een alias van `pkgctl auth`.
+Verenigde command-line frontend voor Arch Linux devtools.
 Meer informatie: <https://man.archlinux.org/man/pkgctl.1>.
 
-- Bekijk de documentatie van het originele commando:
+- Bekijk de documentatie voor het authenticeren van `pkgctl` met diensten zoals GitLab:
 
 `tldr pkgctl auth`
+
+- Bekijk de documentatie voor het bouwen van pakketten in een schone `chroot`:
+
+`tldr pkgctl build`
+
+- Bekijk de documentatie voor het bijwerken van de binaire repository als een stap voor definitieve release:
+
+`tldr pkgctl db update`
+
+- Bekijk de documentatie voor het vergelijken van pakketbestanden met behulp van verschillende modi:
+
+`tldr pkgctl diff`
+
+- Bekijk de documentatie voor het vrijgeven van buildartefacten:
+
+`tldr pkgctl release`
+
+- Bekijk de documentatie voor het beheren van Git-verpakkingsrepositories en hun configuratie:
+
+`tldr pkgctl repo`
+
+- Toon versie:
+
+`pkgctl version`

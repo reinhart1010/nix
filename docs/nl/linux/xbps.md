@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/xbps (Nederlands)
-description: "Dit commando is een alias van `xbps-install`."
-content_hash: fcb169f78f09cf4048ba066bf51d0dfbcf1d1e6b
-last_modified_at: 2023-11-02
+description: "Het X Binary Package System is de pakketbeheerder die wordt gebruikt door Void Linux."
+content_hash: 08937aae6b784240d38117f13f30a1e001690787
+last_modified_at: 2023-11-05
 related_topics:
   - title: English version
     url: /en/linux/xbps.html
@@ -14,9 +14,18 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># xbps
 
-Dit commando is een alias van `xbps-install`.
+Het X Binary Package System is de pakketbeheerder die wordt gebruikt door Void Linux.
+For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 Meer informatie: <https://docs.voidlinux.org/xbps/index.html>.
 
-- Bekijk de documentatie van het originele commando:
+- Bekijk de documentatie voor installeren en bijwerken van pakketten:
 
 `tldr xbps-install`
+
+- Bekijk de documentatie voor verwijderen van pakketten:
+
+`tldr xbps-remove`
+
+- Bekijk documentatie om op zoek te gaan naar pakket- en repository-informatie:
+
+`tldr xbps-query`

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/just (Nederlands)
-description: "Dit commando is een alias van `just.1`."
-content_hash: 7b293efa5ccafb261bc68d23fce6843737b2b5e6
-last_modified_at: 2023-11-02
+description: "`just` kan naar meerdere commando's met dezelfde naam verwijzen."
+content_hash: 330246b961f9d9d4285ce9c2f31c0d6eb7f0908e
+last_modified_at: 2023-11-05
 related_topics:
   - title: English version
     url: /en/common/just.html
@@ -14,8 +14,12 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># just
 
-Dit commando is een alias van `just.1`.
+`just` kan naar meerdere commando's met dezelfde naam verwijzen.
 
-- Bekijk de documentatie van het originele commando:
+- Bekijk de documentatie voor het commando:
 
 `tldr just.1`
+
+- Bekijk de documentatie voor de V8 JavaScript runtime voor Linux:
+
+`tldr just.js`

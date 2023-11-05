@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/open (Nederlands)
-description: "Dit commando is een alias van `open -p osx`."
-content_hash: 7c3b1cab370ddd66c86a7847170c1a655d6862d4
-last_modified_at: 2023-11-02
+description: "`open` kan verwijzen naar meerdere commando's met dezelfde naam."
+content_hash: 9cd391598b9597bd6a955cbdfbf793718d7874ab
+last_modified_at: 2023-11-05
 related_topics:
   - title: English version
     url: /en/common/open.html
@@ -17,8 +17,16 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># open
 
-Dit commando is een alias van `open -p osx`.
+`open` kan verwijzen naar meerdere commando's met dezelfde naam.
 
-- Bekijk de documentatie van het originele commando:
+- Bekijk de documentatie voor het commando dat beschikbaar is in macOS:
 
 `tldr open -p osx`
+
+- Bekijk de documentatie voor het macOS commando in oudere versies van de `tldr` command-line client:
+
+`tldr open -o osx`
+
+- Bekijk de documentatie voor het command beschikbaar via `fish`:
+
+`tldr open.fish`

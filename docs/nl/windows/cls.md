@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/cls (Nederlands)
-description: "Dit commando is een alias van `clear-host`."
-content_hash: 10aafd1f7b39ee58fe3935ec94dab8e78056bc4e
-last_modified_at: 2023-11-02
+description: "Wist het scherm."
+content_hash: 8be91e84652806a2ce5ae586f4c0736d27dfd388
+last_modified_at: 2023-11-05
 related_topics:
   - title: English version
     url: /en/windows/cls.html
@@ -47,9 +47,14 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># cls
 
-Dit commando is een alias van `clear-host`.
+Wist het scherm.
+In PowerShell is dit commando een alias van `Clear-Host`. Deze documentatie is gebaseerd op de Command Prompt (`cmd`) versie van `cls`.
 Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/cls>.
 
-- Bekijk de documentatie van het originele commando:
+- Bekijk de documentatie van het equivalente PowerShell commando:
 
 `tldr clear-host`
+
+- Wis het scherm:
+
+`cls`

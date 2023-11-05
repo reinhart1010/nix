@@ -2,10 +2,20 @@
 layout: page
 title: common/mscore (Nederlands)
 description: "Dit commando is een alias van `musescore`."
-content_hash: 8fb42224299c147badd19938b3813c9d0779934a
+content_hash: 29a29086d321380c37118ca84399829e28fa7122
+last_modified_at: 2023-11-05
 related_topics:
+  - title: العربية version
+    url: /ar/common/mscore.html
+    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/mscore.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/common/mscore.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/common/mscore.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/mscore.html
@@ -31,10 +41,19 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/mscore.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/mscore.html
+    icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/common/mscore.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/common/mscore.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: नेपाली version
+    url: /ne/common/mscore.html
+    icon: bi bi-globe
+  - title: norsk version
     url: /no/common/mscore.html
     icon: bi bi-globe
   - title: polski version
@@ -42,6 +61,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/mscore.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/common/mscore.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/mscore.html
@@ -54,6 +76,9 @@ related_topics:
     icon: bi bi-globe
   - title: ไทย version
     url: /th/common/mscore.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/mscore.html
     icon: bi bi-globe
   - title: українська version
     url: /uk/common/mscore.html
@@ -70,6 +95,6 @@ related_topics:
 Dit commando is een alias van `musescore`.
 Meer informatie: <https://musescore.org/handbook/command-line-options>.
 
-- Bekijk documentatie voor het originele commando:
+- Bekijk de documentatie voor het originele commando:
 
 `tldr musescore`

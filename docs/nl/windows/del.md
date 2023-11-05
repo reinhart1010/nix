@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/del (Nederlands)
-description: "Dit commando is een alias van `remove-item`."
-content_hash: 2405c268656338b37f3b23374d91d0aac2bd86ae
-last_modified_at: 2023-11-02
+description: "Verwijder een of meer bestanden."
+content_hash: 7284309269bcf23e33e067b90ff298485249ecb9
+last_modified_at: 2023-11-05
 related_topics:
   - title: Deutsch version
     url: /de/windows/del.html
@@ -32,9 +32,38 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># del
 
-Dit commando is een alias van `remove-item`.
+Verwijder een of meer bestanden.
+In PowerShell is dit commando een alias van `Remove-Item`. Deze documentatie is gebaseerd op de Command Prompt (`cmd`) versie van `del`.
 Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/del>.
 
-- Bekijk de documentatie van het originele commando:
+- Bekijk de documentatie van het equivalente PowerShell commando:
 
 `tldr remove-item`
+
+- Verwijder een of meer, door spatie gescheiden, bestanden of patronen:
+
+`del `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_pattern</span>
+
+- Vraag om bevestiging voordat u elk bestand verwijdert:
+
+`del `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_pattern</span>` /p`
+
+- Forceer de verwijdering van alleen-lezen bestanden:
+
+`del `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_pattern</span>` /f`
+
+- Verwijder de bestand(en) recursief uit alle submappen:
+
+`del `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_pattern</span>` /s`
+
+- Vraag niet om bevestiging voor het verwijderen van bestanden gebaseerd op een globale wildcard:
+
+`del `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_pattern</span>` /q`
+
+- Geef de beschikbare hulp en lijst met attributen weer:
+
+`del /?`
+
+- Verwijder bestanden op basis van opgegeven kenmerken:
+
+`del `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_pattern</span>` /a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">attribute</span>
