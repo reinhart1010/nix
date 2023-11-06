@@ -2,8 +2,8 @@
 layout: page
 title: common/head (italiano)
 description: "Stampa a schermo le prime linee di un file."
-content_hash: 944c8579613613f33b73bb8b1c8705523c4ba155
-last_modified_at: 2023-11-04
+content_hash: d64363e1d571bfdecde74f90ac7401efb2d58447
+last_modified_at: 2023-11-06
 related_topics:
   - title: Deutsch version
     url: /de/common/head.html
@@ -33,7 +33,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># head
 
 Stampa a schermo le prime linee di un file.
-Maggiori informazioni: <https://www.gnu.org/software/coreutils/head>.
+Maggiori informazioni: <https://manned.org/head.1p>.
 
 - Stampa a schermo le prime linee di un file:
 

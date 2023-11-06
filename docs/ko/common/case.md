@@ -2,8 +2,8 @@
 layout: page
 title: common/case (한국어)
 description: "표현식의 값에 근거하여 분기."
-content_hash: ef1c8dfa32e37f150333736a92060d60386e04c1
-last_modified_at: 2023-11-04
+content_hash: a2c7952b60cfe9200652ce0b3469c3d38bc9c370
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/common/case.html
@@ -18,7 +18,7 @@ related_topics:
 # case
 
 표현식의 값에 근거하여 분기.
-더 많은 정보: <https://manned.org/case>.
+더 많은 정보: <https://www.gnu.org/software/bash/manual/bash.html#index-case>.
 
 - 변수를 문자열 리터럴과 일치시켜 실행할 명령어 결정:
 

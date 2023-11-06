@@ -2,8 +2,8 @@
 layout: page
 title: common/history (日本語)
 description: "コマンドラインの履歴です。"
-content_hash: 3e33436ea09950b9dd6fb8f4c22bae8bb57084eb
-last_modified_at: 2023-11-04
+content_hash: 6d340509f20e3399fdf0c84d07b73fbcf7136a4c
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/common/history.html
@@ -27,7 +27,7 @@ related_topics:
 # history
 
 コマンドラインの履歴です。
-詳しくはこちら: <https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html>.
+詳しくはこちら: <https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html>
 
 - コマンドの履歴一覧を行番号付きで表示する:
 

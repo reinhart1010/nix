@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (বাংলা)
 description: "সিস্টেম বার্তার একটি লগ ডাম্প করুন, যখন একটি ত্রুটি ঘটেছে স্ট্যাক ট্রেস সহ, এবং অ্যাপ্লিকেশন দ্বারা লগ করা তথ্য বার্তা।"
-content_hash: 95c21118b508b16fd6fab6d12389758e028c76b2
-last_modified_at: 2023-11-04
+content_hash: 987020b5c67963e4b1ecce3c4579531a9c168e35
+last_modified_at: 2023-11-06
 related_topics:
   - title: Deutsch version
     url: /de/android/logcat.html
@@ -72,7 +72,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># logcat
 
 সিস্টেম বার্তার একটি লগ ডাম্প করুন, যখন একটি ত্রুটি ঘটেছে স্ট্যাক ট্রেস সহ, এবং অ্যাপ্লিকেশন দ্বারা লগ করা তথ্য বার্তা।
-আরও তথ্য পাবেন: <https://developer.android.com/studio/command-line/logcat>.
+আরও তথ্য পাবেন: <https://developer.android.com/studio/command-line/logcat>।
 
 - সিস্টেম লগগুলি প্রদর্শন করুন:
 

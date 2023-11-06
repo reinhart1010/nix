@@ -2,23 +2,17 @@
 layout: page
 title: common/platformio (नेपाली)
 description: "यो आदेश `pio` को उपनाम हो |"
-content_hash: 9a7464dfcd24c27c800f532dc810cd3443537a3c
-last_modified_at: 2023-11-04
+content_hash: c30dfa9999d8af08aa2201c8f58964da9acf9d89
+last_modified_at: 2023-11-06
 related_topics:
   - title: العربية version
     url: /ar/common/platformio.html
-    icon: bi bi-globe
-  - title: বাংলা version
-    url: /bn/common/platformio.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/platformio.html
     icon: bi bi-globe
   - title: català version
     url: /ca/common/platformio.html
-    icon: bi bi-globe
-  - title: čeština version
-    url: /cs/common/platformio.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/common/platformio.html
@@ -31,12 +25,6 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/platformio.html
-    icon: bi bi-globe
-  - title: فارسی version
-    url: /fa/common/platformio.html
-    icon: bi bi-globe
-  - title: suomi version
-    url: /fi/common/platformio.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/platformio.html
@@ -77,14 +65,8 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/platformio.html
     icon: bi bi-globe
-  - title: română version
-    url: /ro/common/platformio.html
-    icon: bi bi-globe
   - title: русский version
     url: /ru/common/platformio.html
-    icon: bi bi-globe
-  - title: српски version
-    url: /sr/common/platformio.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/common/platformio.html
@@ -101,9 +83,6 @@ related_topics:
   - title: українська version
     url: /uk/common/platformio.html
     icon: bi bi-globe
-  - title: o‘zbek version
-    url: /uz/common/platformio.html
-    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/platformio.html
     icon: bi bi-globe
@@ -114,7 +93,7 @@ related_topics:
 # platformio
 
 यो आदेश `pio` को उपनाम हो |
-थप जानकारी: <https://docs.platformio.org/en/latest/core/userguide/>.
+थप जानकारी: <https://docs.platformio.org/en/latest/core/userguide/>।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

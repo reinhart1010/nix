@@ -2,8 +2,8 @@
 layout: page
 title: common/curl (日本語)
 description: "データをサーバーから転送、もしくはサーバーへ転送します。"
-content_hash: 0b8fa50ff801fb6600402a880278492c72acf53b
-last_modified_at: 2023-11-04
+content_hash: b6678659e8716caeabeab6fb8d5d7d363883f673
+last_modified_at: 2023-11-06
 related_topics:
   - title: Deutsch version
     url: /de/common/curl.html
@@ -37,7 +37,7 @@ related_topics:
 
 データをサーバーから転送、もしくはサーバーへ転送します。
 HTTP、FTP、POP3を含むほとんどのプロトコルをサポートしています。
-詳しくはこちら: <https://curl.se>.
+詳しくはこちら: <https://curl.se/docs/manpage.html>
 
 - URLのコンテンツをファイルにダウンロードする:
 

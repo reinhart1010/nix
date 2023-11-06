@@ -2,8 +2,8 @@
 layout: page
 title: windows/type (हिन्दी)
 description: "एक फाइल की सामग्रियों को प्रदर्शित कीजिए।"
-content_hash: 88de637ca8538d6ac2abc09b696abf9f4b99c43a
-last_modified_at: 2023-11-04
+content_hash: 348de8c03a52fae4a26fed0c2d2d454cfd9850f4
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/windows/type.html
@@ -24,7 +24,7 @@ related_topics:
 # type
 
 एक फाइल की सामग्रियों को प्रदर्शित कीजिए।
-अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/type>.
+अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/type>।
 
 - किसी विशिष्ट फ़ाइल की सामग्री प्रदर्शित करें:
 

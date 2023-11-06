@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco-info (français)
 description: "Afficher des informations détaillées sur un forfait avec Chocolatey."
-content_hash: 51c043f55832f9db08174a29eda1be54476bbef2
-last_modified_at: 2023-11-04
+content_hash: 4337b73a05d305b32b35fad74584e97911c0fdbc
+last_modified_at: 2023-11-06
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-info.html
@@ -30,7 +30,7 @@ related_topics:
 # choco info
 
 Afficher des informations détaillées sur un forfait avec Chocolatey.
-Plus d'information : <https://chocolatey.org/docs/commands-info>.
+Plus d'informations : <https://chocolatey.org/docs/commands-info>.
 
 - Afficher des informations sur un package spécifique :
 

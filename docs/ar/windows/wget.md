@@ -2,20 +2,14 @@
 layout: page
 title: windows/wget (العربية)
 description: "هذا الأمر هو اسم مستعار لـ `wget -p common`."
-content_hash: 79baa6cdc1f18f194ec819982b01f769803a5076
-last_modified_at: 2023-11-04
+content_hash: 8f079d195c987c59da7df1bd656508bbc9a53f80
+last_modified_at: 2023-11-06
 related_topics:
-  - title: বাংলা version
-    url: /bn/windows/wget.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/wget.html
     icon: bi bi-globe
   - title: català version
     url: /ca/windows/wget.html
-    icon: bi bi-globe
-  - title: čeština version
-    url: /cs/windows/wget.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/windows/wget.html
@@ -28,12 +22,6 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/wget.html
-    icon: bi bi-globe
-  - title: فارسی version
-    url: /fa/windows/wget.html
-    icon: bi bi-globe
-  - title: suomi version
-    url: /fi/windows/wget.html
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/wget.html
@@ -77,14 +65,8 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/wget.html
     icon: bi bi-globe
-  - title: română version
-    url: /ro/windows/wget.html
-    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/wget.html
-    icon: bi bi-globe
-  - title: српски version
-    url: /sr/windows/wget.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/wget.html
@@ -100,9 +82,6 @@ related_topics:
     icon: bi bi-globe
   - title: українська version
     url: /uk/windows/wget.html
-    icon: bi bi-globe
-  - title: o‘zbek version
-    url: /uz/windows/wget.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/wget.html
@@ -123,7 +102,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># wget
 
 هذا الأمر هو اسم مستعار لـ `wget -p common`.
-لمزيد من التفاصيل: <https://www.gnu.org/software/wget>.
+لمزيد من التفاصيل: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - إعرض التوثيقات للأمر الأصلي:
 

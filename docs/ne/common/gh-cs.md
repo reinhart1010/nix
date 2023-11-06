@@ -2,23 +2,17 @@
 layout: page
 title: common/gh-cs (नेपाली)
 description: "यो आदेश `gh-codespace` को उपनाम हो |"
-content_hash: ed64f954bc44c321bceaf4a7c6f0709c9e8b5986
-last_modified_at: 2023-11-04
+content_hash: f5c9621ee6a0c790e54cb6e27e94da41bfd1fff9
+last_modified_at: 2023-11-06
 related_topics:
   - title: العربية version
     url: /ar/common/gh-cs.html
-    icon: bi bi-globe
-  - title: বাংলা version
-    url: /bn/common/gh-cs.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/gh-cs.html
     icon: bi bi-globe
   - title: català version
     url: /ca/common/gh-cs.html
-    icon: bi bi-globe
-  - title: čeština version
-    url: /cs/common/gh-cs.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/common/gh-cs.html
@@ -31,12 +25,6 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/gh-cs.html
-    icon: bi bi-globe
-  - title: فارسی version
-    url: /fa/common/gh-cs.html
-    icon: bi bi-globe
-  - title: suomi version
-    url: /fi/common/gh-cs.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/gh-cs.html
@@ -77,14 +65,8 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/gh-cs.html
     icon: bi bi-globe
-  - title: română version
-    url: /ro/common/gh-cs.html
-    icon: bi bi-globe
   - title: русский version
     url: /ru/common/gh-cs.html
-    icon: bi bi-globe
-  - title: српски version
-    url: /sr/common/gh-cs.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/common/gh-cs.html
@@ -101,9 +83,6 @@ related_topics:
   - title: українська version
     url: /uk/common/gh-cs.html
     icon: bi bi-globe
-  - title: o‘zbek version
-    url: /uz/common/gh-cs.html
-    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/gh-cs.html
     icon: bi bi-globe
@@ -114,7 +93,7 @@ related_topics:
 # gh-cs
 
 यो आदेश `gh-codespace` को उपनाम हो |
-थप जानकारी: <https://cli.github.com/manual/gh_codespace>.
+थप जानकारी: <https://cli.github.com/manual/gh_codespace>।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

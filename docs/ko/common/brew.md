@@ -2,13 +2,17 @@
 layout: page
 title: common/brew (한국어)
 description: "macOS와 Linux를 위한 패키지 관리자."
-content_hash: 3cccdbbd66fd5d24f97af56f6ab0d21b8117ffef
+content_hash: cb35c474a7f38bf8a7def7e438432b4cc332619c
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/common/brew.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/brew.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/brew.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/brew.html
@@ -26,13 +30,10 @@ related_topics:
     url: /zh_TW/common/brew.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># brew
+# brew
 
 macOS와 Linux를 위한 패키지 관리자.
-더 많은 정보: <https://brew.sh>.
+더 많은 정보: <https://docs.brew.sh/Manpage>.
 
 - 공식(formula) 혹은 캐스크(cask)의 최신 안정 버전을 설치 (개발 버전을 원한다면 `--devel` 사용):
 

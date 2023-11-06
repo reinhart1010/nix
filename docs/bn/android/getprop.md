@@ -2,8 +2,8 @@
 layout: page
 title: android/getprop (বাংলা)
 description: "অ্যান্ড্রয়েড সিস্টেম বৈশিষ্ট্য সম্পর্কে তথ্য দেখান।"
-content_hash: 5c7a4110ae8b9468728de9b4a899e0d0d9a83828
-last_modified_at: 2023-11-04
+content_hash: 1f51667ab1cc0f7206136c0b29612d3ca738c40e
+last_modified_at: 2023-11-06
 related_topics:
   - title: Deutsch version
     url: /de/android/getprop.html
@@ -63,7 +63,7 @@ related_topics:
 # getprop
 
 অ্যান্ড্রয়েড সিস্টেম বৈশিষ্ট্য সম্পর্কে তথ্য দেখান।
-আরও তথ্য পাবেন: <https://manned.org/getprop>.
+আরও তথ্য পাবেন: <https://manned.org/getprop>।
 
 - অ্যান্ড্রয়েড সিস্টেম বৈশিষ্ট্য সম্পর্কে তথ্য প্রদর্শন করুন:
 

@@ -2,8 +2,8 @@
 layout: page
 title: windows/bcdboot (हिन्दी)
 description: "बूट फ़ाइलों को कॉन्फ़िगर या सुधारें।"
-content_hash: 7f2880c1c6f83299e66d3cb410dd08663c2b61c7
-last_modified_at: 2023-11-04
+content_hash: f434e3143a613dca0aa595ab24027fb89640971d
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/windows/bcdboot.html
@@ -12,7 +12,7 @@ related_topics:
 # bcdboot
 
 बूट फ़ाइलों को कॉन्फ़िगर या सुधारें।
-अधिक जानकारी: <https://learn.microsoft.com/windows-hardware/manufacture/desktop/bcdboot-command-line-options-techref-di>.
+अधिक जानकारी: <https://learn.microsoft.com/windows-hardware/manufacture/desktop/bcdboot-command-line-options-techref-di>।
 
 - स्रोत विंडोज़ फ़ोल्डर से BCD फ़ाइलों का उपयोग करके सिस्टम विभाजन को प्रारंभ करें:
 

@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco (हिन्दी)
 description: "चॉकलेटी पैकेज प्रबंधक।"
-content_hash: 9ff9c455a473a82ec5507189d3d827d6d4389065
-last_modified_at: 2023-11-04
+content_hash: 98f7c4849b3dd1c3e229485a73e7dac36b28a0f9
+last_modified_at: 2023-11-06
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco.html
@@ -40,7 +40,7 @@ related_topics:
 
 चॉकलेटी पैकेज प्रबंधक।
 `choco install` जैसे कुछ उपकमांड के पास अपना उपयोग दस्तावेज़ भी हैं।
-अधिक जानकारी: <https://chocolatey.org>.
+अधिक जानकारी: <https://chocolatey.org>।
 
 - चॉकलेटी आज्ञा को निष्पादित करें:
 

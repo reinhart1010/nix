@@ -2,7 +2,8 @@
 layout: page
 title: common/brew (italiano)
 description: "Gestore di pacchetti per macOS."
-content_hash: 3bfa220639bd6fa660ed4af95ee4f991be36a5a4
+content_hash: 6c7561ae581bdd254fbd3a05f8ae1e06c5b4a0bb
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/common/brew.html
@@ -10,8 +11,17 @@ related_topics:
   - title: español version
     url: /es/common/brew.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/brew.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/brew.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/brew.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/brew.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/brew.html
@@ -23,7 +33,7 @@ related_topics:
 # brew
 
 Gestore di pacchetti per macOS.
-Maggiori informazioni: <https://brew.sh>.
+Maggiori informazioni: <https://docs.brew.sh/Manpage>.
 
 - Cerca formule e cask:
 

@@ -2,23 +2,17 @@
 layout: page
 title: osx/launchd (नेपाली)
 description: "यो आदेश `launchctl` को उपनाम हो |"
-content_hash: 8858082f4fe44399e07a2b9f80628accbc9273f2
-last_modified_at: 2023-11-04
+content_hash: e281b0700b6b2fb8651e442cfa603b8c85c28105
+last_modified_at: 2023-11-06
 related_topics:
   - title: العربية version
     url: /ar/osx/launchd.html
-    icon: bi bi-globe
-  - title: বাংলা version
-    url: /bn/osx/launchd.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/osx/launchd.html
     icon: bi bi-globe
   - title: català version
     url: /ca/osx/launchd.html
-    icon: bi bi-globe
-  - title: čeština version
-    url: /cs/osx/launchd.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/osx/launchd.html
@@ -31,12 +25,6 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/osx/launchd.html
-    icon: bi bi-globe
-  - title: فارسی version
-    url: /fa/osx/launchd.html
-    icon: bi bi-globe
-  - title: suomi version
-    url: /fi/osx/launchd.html
     icon: bi bi-globe
   - title: français version
     url: /fr/osx/launchd.html
@@ -77,14 +65,8 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/osx/launchd.html
     icon: bi bi-globe
-  - title: română version
-    url: /ro/osx/launchd.html
-    icon: bi bi-globe
   - title: русский version
     url: /ru/osx/launchd.html
-    icon: bi bi-globe
-  - title: српски version
-    url: /sr/osx/launchd.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/osx/launchd.html
@@ -100,9 +82,6 @@ related_topics:
     icon: bi bi-globe
   - title: українська version
     url: /uk/osx/launchd.html
-    icon: bi bi-globe
-  - title: o‘zbek version
-    url: /uz/osx/launchd.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/launchd.html
@@ -123,7 +102,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># launchd
 
 यो आदेश `launchctl` को उपनाम हो |
-थप जानकारी: <https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/Introduction.html>.
+थप जानकारी: <https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/Introduction.html>।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

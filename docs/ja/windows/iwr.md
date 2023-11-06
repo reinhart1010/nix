@@ -2,23 +2,17 @@
 layout: page
 title: windows/iwr (日本語)
 description: "このコマンドは `invoke-webrequest` のエイリアスです。"
-content_hash: 46e9d17c272d688e747b7ba79bd1493dfe790102
-last_modified_at: 2023-11-04
+content_hash: 4e0fce7f05e0d4c699261ece31593233b853698d
+last_modified_at: 2023-11-06
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
-    icon: bi bi-globe
-  - title: বাংলা version
-    url: /bn/windows/iwr.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/iwr.html
     icon: bi bi-globe
   - title: català version
     url: /ca/windows/iwr.html
-    icon: bi bi-globe
-  - title: čeština version
-    url: /cs/windows/iwr.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/windows/iwr.html
@@ -31,12 +25,6 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/iwr.html
-    icon: bi bi-globe
-  - title: فارسی version
-    url: /fa/windows/iwr.html
-    icon: bi bi-globe
-  - title: suomi version
-    url: /fi/windows/iwr.html
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/iwr.html
@@ -77,14 +65,8 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/iwr.html
     icon: bi bi-globe
-  - title: română version
-    url: /ro/windows/iwr.html
-    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/iwr.html
-    icon: bi bi-globe
-  - title: српски version
-    url: /sr/windows/iwr.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/iwr.html
@@ -101,9 +83,6 @@ related_topics:
   - title: українська version
     url: /uk/windows/iwr.html
     icon: bi bi-globe
-  - title: o‘zbek version
-    url: /uz/windows/iwr.html
-    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/iwr.html
     icon: bi bi-globe
@@ -114,6 +93,7 @@ related_topics:
 # iwr
 
 このコマンドは `invoke-webrequest` のエイリアスです。
+詳しくはこちら: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>
 
 - オリジナルのコマンドのドキュメントを表示する:
 

@@ -2,16 +2,26 @@
 layout: page
 title: common/brew (español)
 description: "Administrador de paquetes para macOS y Linux."
-content_hash: 620ef3d9b4781ba4e8cd80862b26cfd53e60d288
+content_hash: 6e2f72e12ef99d1bccff08a1bc75e304a1260aab
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/common/brew.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/brew.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/brew.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/brew.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/brew.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/brew.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/brew.html
@@ -23,7 +33,7 @@ related_topics:
 # brew
 
 Administrador de paquetes para macOS y Linux.
-Más información: <https://brew.sh>.
+Más información: <https://docs.brew.sh/Manpage>.
 
 - Instala la última versión estable de una fórmula (usar `--devel` para versiones de desarrollo):
 

@@ -2,8 +2,8 @@
 layout: page
 title: android/cmd (नेपाली)
 description: "एन्ड्रोइड सेवा प्रबन्धक।"
-content_hash: ce2ced74c2feb43582758bd76b9646204fbe0ebc
-last_modified_at: 2023-11-04
+content_hash: cfbaff4f390772272c051de02f1ae2ada63b0eb6
+last_modified_at: 2023-11-06
 related_topics:
   - title: বাংলা version
     url: /bn/android/cmd.html
@@ -69,7 +69,7 @@ related_topics:
 # cmd
 
 एन्ड्रोइड सेवा प्रबन्धक।
-थप जानकारी: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/cmd/>.
+थप जानकारी: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/cmd/>।
 
 - [l] सबै चलिरहेको सेवाहरू छन्:
 

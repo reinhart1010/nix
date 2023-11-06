@@ -2,8 +2,8 @@
 layout: page
 title: common/ffmpeg (नेपाली)
 description: "भिडियो रूपान्तरण उपकरण।"
-content_hash: d7498066a08ee8435d0fe97f0bf7c97dc5207556
-last_modified_at: 2023-11-04
+content_hash: 22b3eb8a36e576cf7897a76e8b340e9e6dc11e1b
+last_modified_at: 2023-11-06
 related_topics:
   - title: Deutsch version
     url: /de/common/ffmpeg.html
@@ -21,7 +21,7 @@ related_topics:
 # ffmpeg
 
 भिडियो रूपान्तरण उपकरण।
-थप जानकारी: <https://ffmpeg.org>.
+थप जानकारी: <https://ffmpeg.org>।
 
 - भिडियोबाट ध्वनि निकाल्नुहोस् र MP3 को रूपमा सेभ गर्नुहोस:
 

@@ -2,23 +2,17 @@
 layout: page
 title: common/fossil-delete (नेपाली)
 description: "यो आदेश `fossil rm` को उपनाम हो |"
-content_hash: c680f9a53a773ace745a32ac8397f21be972ea35
-last_modified_at: 2023-11-04
+content_hash: 8e3ebc32a238cef75c1493c651a4512b06b649b2
+last_modified_at: 2023-11-06
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-delete.html
-    icon: bi bi-globe
-  - title: বাংলা version
-    url: /bn/common/fossil-delete.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/fossil-delete.html
     icon: bi bi-globe
   - title: català version
     url: /ca/common/fossil-delete.html
-    icon: bi bi-globe
-  - title: čeština version
-    url: /cs/common/fossil-delete.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/common/fossil-delete.html
@@ -31,12 +25,6 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/fossil-delete.html
-    icon: bi bi-globe
-  - title: فارسی version
-    url: /fa/common/fossil-delete.html
-    icon: bi bi-globe
-  - title: suomi version
-    url: /fi/common/fossil-delete.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/fossil-delete.html
@@ -77,14 +65,8 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/fossil-delete.html
     icon: bi bi-globe
-  - title: română version
-    url: /ro/common/fossil-delete.html
-    icon: bi bi-globe
   - title: русский version
     url: /ru/common/fossil-delete.html
-    icon: bi bi-globe
-  - title: српски version
-    url: /sr/common/fossil-delete.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/common/fossil-delete.html
@@ -101,9 +83,6 @@ related_topics:
   - title: українська version
     url: /uk/common/fossil-delete.html
     icon: bi bi-globe
-  - title: o‘zbek version
-    url: /uz/common/fossil-delete.html
-    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/fossil-delete.html
     icon: bi bi-globe
@@ -114,7 +93,7 @@ related_topics:
 # fossil-delete
 
 यो आदेश `fossil rm` को उपनाम हो |
-थप जानकारी: <https://fossil-scm.org/home/help/delete>.
+थप जानकारी: <https://fossil-scm.org/home/help/delete>।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

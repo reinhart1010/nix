@@ -2,8 +2,8 @@
 layout: page
 title: common/acme.sh-dns (বাংলা)
 description: "TLS সার্টিফিকেট ইস্যু করার জন্য DNS-01 চ্যালেঞ্জ ব্যবহার করুন।"
-content_hash: 0a6998c7fcdc83ba72b6323ff4bb1e812271985f
-last_modified_at: 2023-11-04
+content_hash: ba1f138f28fb12d4e07f2d1359224bd50467ae7c
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/common/acme.sh-dns.html
@@ -21,7 +21,7 @@ related_topics:
 # acme.sh --dns
 
 TLS সার্টিফিকেট ইস্যু করার জন্য DNS-01 চ্যালেঞ্জ ব্যবহার করুন।
-আরও তথ্য পেতে: <https://github.com/acmesh-official/acme.sh/wiki>.
+আরও তথ্য পাবেন: <https://github.com/acmesh-official/acme.sh/wiki>।
 
 - স্বয়ংক্রিয় DNS API মোড ব্যবহার করে একটি সার্টিফিকেট ইস্যু করুন:
 

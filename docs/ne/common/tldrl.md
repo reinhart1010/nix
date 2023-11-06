@@ -2,23 +2,17 @@
 layout: page
 title: common/tldrl (नेपाली)
 description: "यो आदेश `tldr-lint` को उपनाम हो |"
-content_hash: 955c68b731ecb2e644bc0425de8f848c0e30ef26
-last_modified_at: 2023-11-04
+content_hash: 7765d66a98105aced1d5c09e25c3aceb6663e582
+last_modified_at: 2023-11-06
 related_topics:
   - title: العربية version
     url: /ar/common/tldrl.html
-    icon: bi bi-globe
-  - title: বাংলা version
-    url: /bn/common/tldrl.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/tldrl.html
     icon: bi bi-globe
   - title: català version
     url: /ca/common/tldrl.html
-    icon: bi bi-globe
-  - title: čeština version
-    url: /cs/common/tldrl.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/common/tldrl.html
@@ -31,12 +25,6 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/tldrl.html
-    icon: bi bi-globe
-  - title: فارسی version
-    url: /fa/common/tldrl.html
-    icon: bi bi-globe
-  - title: suomi version
-    url: /fi/common/tldrl.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/tldrl.html
@@ -77,14 +65,8 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/tldrl.html
     icon: bi bi-globe
-  - title: română version
-    url: /ro/common/tldrl.html
-    icon: bi bi-globe
   - title: русский version
     url: /ru/common/tldrl.html
-    icon: bi bi-globe
-  - title: српски version
-    url: /sr/common/tldrl.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/common/tldrl.html
@@ -101,9 +83,6 @@ related_topics:
   - title: українська version
     url: /uk/common/tldrl.html
     icon: bi bi-globe
-  - title: o‘zbek version
-    url: /uz/common/tldrl.html
-    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/tldrl.html
     icon: bi bi-globe
@@ -114,7 +93,7 @@ related_topics:
 # tldrl
 
 यो आदेश `tldr-lint` को उपनाम हो |
-थप जानकारी: <https://github.com/tldr-pages/tldr-lint>.
+थप जानकारी: <https://github.com/tldr-pages/tldr-lint>।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

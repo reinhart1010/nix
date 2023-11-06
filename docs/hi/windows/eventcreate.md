@@ -2,8 +2,8 @@
 layout: page
 title: windows/eventcreate (हिन्दी)
 description: "इवेंट लॉग में कस्टम प्रविष्टियाँ बनाएँ।"
-content_hash: c932daad250fc73cacb847a803e43365dadfb6d5
-last_modified_at: 2023-11-04
+content_hash: 3c6faac2e4eb75462dd5391ec0f560f3df67bfcc
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/windows/eventcreate.html
@@ -16,7 +16,7 @@ related_topics:
 
 इवेंट लॉग में कस्टम प्रविष्टियाँ बनाएँ।
 इवेंट आईडी 1 और 1000 के बीच कोई भी संख्या हो सकती है।
-अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/eventcreate>.
+अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/eventcreate>।
 
 - लॉग में दी गई आईडी (1-1000) के साथ एक नया ईवेंट बनाएं:
 

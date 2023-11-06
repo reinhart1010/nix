@@ -2,8 +2,8 @@
 layout: page
 title: android/dumpsys (বাংলা)
 description: "অ্যান্ড্রয়েড সিস্টেম পরিষেবা সম্পর্কে তথ্য প্রদান করে।"
-content_hash: f9828256bb273d39d405b304414795dca5096624
-last_modified_at: 2023-11-04
+content_hash: f4028b41b222fbfb1a8cf7fb2ce6de998108a76f
+last_modified_at: 2023-11-06
 related_topics:
   - title: Deutsch version
     url: /de/android/dumpsys.html
@@ -64,7 +64,7 @@ related_topics:
 
 অ্যান্ড্রয়েড সিস্টেম পরিষেবা সম্পর্কে তথ্য প্রদান করে।
 এই কমান্ডটি শুধুমাত্র `adb shell` এর মাধ্যমে ব্যবহার করা যেতে পারে।
-আরও তথ্য পাবেন: <https://developer.android.com/studio/command-line/dumpsys>.
+আরও তথ্য পাবেন: <https://developer.android.com/studio/command-line/dumpsys>।
 
 - সমস্ত সিস্টেম পরিষেবার জন্য ডায়াগনস্টিক আউটপুট পান:
 

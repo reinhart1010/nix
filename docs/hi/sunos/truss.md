@@ -2,8 +2,8 @@
 layout: page
 title: sunos/truss (हिन्दी)
 description: "सिस्टम कॉल को ट्रेस करने के लिए समस्या निराकरण टूल।"
-content_hash: d26c3d9fbede425532f654a78032ec03d883aba8
-last_modified_at: 2023-11-04
+content_hash: 29ed989fc1dee09d3f50aba145a8d36f071b4413
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/sunos/truss.html
@@ -25,7 +25,7 @@ related_topics:
 
 सिस्टम कॉल को ट्रेस करने के लिए समस्या निराकरण टूल।
 SunOS का संगत strace।
-अधिक जानकारी: <https://www.unix.com/man-page/linux/1/truss>.
+अधिक जानकारी: <https://www.unix.com/man-page/linux/1/truss>।
 
 - एक प्रोग्राम को ट्रेस करने के लिए प्रायोगिकरण करके उसकी सभी उपक्रमों का पालन करें:
 

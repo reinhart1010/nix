@@ -2,8 +2,8 @@
 layout: page
 title: windows/ipconfig (हिन्दी)
 description: "विंडोज़ के नेटवर्क कॉन्फ़िगरेशन को प्रदर्शित और प्रबंधित करें।"
-content_hash: 600bd172348fe4fecfbe211f554db4d001237f1c
-last_modified_at: 2023-11-04
+content_hash: 753a690621f69e9fcb2cc4712b90cf826931bb28
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/windows/ipconfig.html
@@ -30,7 +30,7 @@ related_topics:
 # ipconfig
 
 विंडोज़ के नेटवर्क कॉन्फ़िगरेशन को प्रदर्शित और प्रबंधित करें।
-अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/ipconfig>.
+अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/ipconfig>।
 
 - नेटवर्क अडैप्टर की एक सूची दिखाएँ:
 

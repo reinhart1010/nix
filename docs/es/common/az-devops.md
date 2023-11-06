@@ -2,8 +2,8 @@
 layout: page
 title: common/az-devops (español)
 description: "Administra organizaciones de Azure DevOps."
-content_hash: 60b63a8c39594252148758155242c38974111b1f
-last_modified_at: 2023-11-04
+content_hash: e440ee0c59814e43cb78ba152e6d865475bf9685
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/common/az-devops.html
@@ -13,7 +13,7 @@ related_topics:
 
 Administra organizaciones de Azure DevOps.
 Parte de `azure-cli` (también conocido como `az`).
-Más información: <https://learn.microsoft.com/cli/azure/devops?view=azure-cli-latest>.
+Más información: <https://learn.microsoft.com/cli/azure/devops>.
 
 - Configura el Token de Acceso Personal (PAT) para iniciar sesión en una organización específica:
 

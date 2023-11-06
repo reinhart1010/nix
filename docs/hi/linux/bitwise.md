@@ -2,8 +2,8 @@
 layout: page
 title: linux/bitwise (हिन्दी)
 description: "गतिशील आधार रूपांतरण और बिट हेरफेर का समर्थन करने वाला मल्टी बेस इंटरैक्टिव कैलकुलेटर।"
-content_hash: 5d8f0344218ba050e0907032e36478831357b114
-last_modified_at: 2023-11-04
+content_hash: 3ef4da00f3521f4e32bad3f7d538b0a248566c61
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/linux/bitwise.html
@@ -15,7 +15,7 @@ related_topics:
 # bitwise
 
 गतिशील आधार रूपांतरण और बिट हेरफेर का समर्थन करने वाला मल्टी बेस इंटरैक्टिव कैलकुलेटर।
-अधिक जानकारी: <https://github.com/mellowcandle/bitwise>.
+अधिक जानकारी: <https://github.com/mellowcandle/bitwise>।
 
 - इंटरैक्टिव मोड का उपयोग करके चलाएँ:
 

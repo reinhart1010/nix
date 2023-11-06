@@ -2,23 +2,17 @@
 layout: page
 title: linux/megadl (नेपाली)
 description: "यो आदेश `megatools-dl` को उपनाम हो |"
-content_hash: 27f92708a9ef689647677870554a640f8531fd41
-last_modified_at: 2023-11-04
+content_hash: 01130361d802f62d5bcc9ac63cc8e4afa3aff6db
+last_modified_at: 2023-11-06
 related_topics:
   - title: العربية version
     url: /ar/linux/megadl.html
-    icon: bi bi-globe
-  - title: বাংলা version
-    url: /bn/linux/megadl.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/linux/megadl.html
     icon: bi bi-globe
   - title: català version
     url: /ca/linux/megadl.html
-    icon: bi bi-globe
-  - title: čeština version
-    url: /cs/linux/megadl.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/linux/megadl.html
@@ -31,12 +25,6 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/linux/megadl.html
-    icon: bi bi-globe
-  - title: فارسی version
-    url: /fa/linux/megadl.html
-    icon: bi bi-globe
-  - title: suomi version
-    url: /fi/linux/megadl.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/megadl.html
@@ -77,14 +65,8 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/linux/megadl.html
     icon: bi bi-globe
-  - title: română version
-    url: /ro/linux/megadl.html
-    icon: bi bi-globe
   - title: русский version
     url: /ru/linux/megadl.html
-    icon: bi bi-globe
-  - title: српски version
-    url: /sr/linux/megadl.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/linux/megadl.html
@@ -101,9 +83,6 @@ related_topics:
   - title: українська version
     url: /uk/linux/megadl.html
     icon: bi bi-globe
-  - title: o‘zbek version
-    url: /uz/linux/megadl.html
-    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/megadl.html
     icon: bi bi-globe
@@ -114,7 +93,7 @@ related_topics:
 # megadl
 
 यो आदेश `megatools-dl` को उपनाम हो |
-थप जानकारी: <https://megatools.megous.com/man/megatools-dl.html>.
+थप जानकारी: <https://megatools.megous.com/man/megatools-dl.html>।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

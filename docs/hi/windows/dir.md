@@ -2,8 +2,8 @@
 layout: page
 title: windows/dir (हिन्दी)
 description: "निर्देशिका सामग्री सूचीबद्ध करें।"
-content_hash: 061f36947cf7f0b44658057749fe5a8c35f3694b
-last_modified_at: 2023-11-04
+content_hash: dda5ae1357642d3e74f21e5e5e1ec2c6dd65cd56
+last_modified_at: 2023-11-06
 related_topics:
   - title: català version
     url: /ca/windows/dir.html
@@ -48,7 +48,7 @@ related_topics:
 # dir
 
 निर्देशिका सामग्री सूचीबद्ध करें।
-अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/dir>.
+अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/dir>।
 
 - वर्तमान निर्देशिका की सामग्री दिखाएँ:
 

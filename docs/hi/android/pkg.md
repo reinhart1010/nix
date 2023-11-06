@@ -2,8 +2,8 @@
 layout: page
 title: android/pkg (हिन्दी)
 description: "टर्मक्स के लिए पैकेज प्रबंधन उपयोगिता।"
-content_hash: e4e8ddef891cffba1ddcd9216a192d6b5744d8b4
-last_modified_at: 2023-11-04
+content_hash: 6a238e8342b37902c3963c0fc873e033bd69fe57
+last_modified_at: 2023-11-06
 related_topics:
   - title: বাংলা version
     url: /bn/android/pkg.html
@@ -60,7 +60,7 @@ related_topics:
 # pkg
 
 टर्मक्स के लिए पैकेज प्रबंधन उपयोगिता।
-अधिक जानकारी: <https://wiki.termux.com/wiki/Package_Management>.
+अधिक जानकारी: <https://wiki.termux.com/wiki/Package_Management>।
 
 - सभी स्थापित पैकेजों को अपग्रेड करें:
 

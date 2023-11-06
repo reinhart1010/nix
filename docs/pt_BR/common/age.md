@@ -2,8 +2,8 @@
 layout: page
 title: common/age (português (Brasil))
 description: "Uma simples, moderna e segura ferramenta de criptografia de arquivos."
-content_hash: 36355dcab8b1e5b5c52e5e555dab9e00fd7a520c
-last_modified_at: 2023-11-04
+content_hash: f4505f82ae5b98ee873f6a9b418170ee380660c7
+last_modified_at: 2023-11-06
 related_topics:
   - title: Deutsch version
     url: /de/common/age.html
@@ -39,7 +39,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># age
 
 Uma simples, moderna e segura ferramenta de criptografia de arquivos.
-Mais informações: <https://age-encryption.org>.
+Mais informações: <https://github.com/FiloSottile/age>.
 
 - Gera um arquivo criptografado que pode ser descriptografado com uma frase-chave:
 

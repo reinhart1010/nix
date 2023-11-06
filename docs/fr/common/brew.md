@@ -2,7 +2,8 @@
 layout: page
 title: common/brew (français)
 description: "Gestionnaire de paquets pour macOS et Linux."
-content_hash: 3d81bbd1a8852bf90e750f05e1509f0883ff3a8b
+content_hash: dbfebd48bb07be5d772fc32e388e16f5229a0711
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/common/brew.html
@@ -29,13 +30,10 @@ related_topics:
     url: /zh_TW/common/brew.html
     icon: bi bi-globe
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># brew
+# brew
 
 Gestionnaire de paquets pour macOS et Linux.
-Plus d'informations : <https://brew.sh>.
+Plus d'informations : <https://docs.brew.sh/Manpage>.
 
 - Installe la dernière version stable d'une formule ou d'un cask (ajouter `--devel` pour une version de développement):
 

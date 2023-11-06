@@ -2,8 +2,8 @@
 layout: page
 title: common/head (русский)
 description: "Выводит первую часть файлов."
-content_hash: 4e30535db105e74f883d6beceb44d66f79c1a5ae
-last_modified_at: 2023-11-04
+content_hash: 4f252c818e614e62a32a94e0ca743889a8b81163
+last_modified_at: 2023-11-06
 related_topics:
   - title: Deutsch version
     url: /de/common/head.html
@@ -33,7 +33,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># head
 
 Выводит первую часть файлов.
-Больше информации: <https://www.gnu.org/software/coreutils/head>.
+Больше информации: <https://manned.org/head.1p>.
 
 - Вывести первые несколько строк из файла:
 

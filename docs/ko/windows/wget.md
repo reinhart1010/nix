@@ -2,23 +2,17 @@
 layout: page
 title: windows/wget (한국어)
 description: "이 명령은 `wget -p common` 의 에일리어스 (별칭) 입니다."
-content_hash: 43514456b18c7e15b53aae5cbe604bbce26a99d7
-last_modified_at: 2023-11-04
+content_hash: d7ce1df00b2461c4b31d1e5e93c97ed8bd423e8e
+last_modified_at: 2023-11-06
 related_topics:
   - title: العربية version
     url: /ar/windows/wget.html
-    icon: bi bi-globe
-  - title: বাংলা version
-    url: /bn/windows/wget.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/wget.html
     icon: bi bi-globe
   - title: català version
     url: /ca/windows/wget.html
-    icon: bi bi-globe
-  - title: čeština version
-    url: /cs/windows/wget.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/windows/wget.html
@@ -31,12 +25,6 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/wget.html
-    icon: bi bi-globe
-  - title: فارسی version
-    url: /fa/windows/wget.html
-    icon: bi bi-globe
-  - title: suomi version
-    url: /fi/windows/wget.html
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/wget.html
@@ -77,14 +65,8 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/wget.html
     icon: bi bi-globe
-  - title: română version
-    url: /ro/windows/wget.html
-    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/wget.html
-    icon: bi bi-globe
-  - title: српски version
-    url: /sr/windows/wget.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/wget.html
@@ -100,9 +82,6 @@ related_topics:
     icon: bi bi-globe
   - title: українська version
     url: /uk/windows/wget.html
-    icon: bi bi-globe
-  - title: o‘zbek version
-    url: /uz/windows/wget.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/wget.html
@@ -123,7 +102,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># wget
 
 이 명령은 `wget -p common` 의 에일리어스 (별칭) 입니다.
-더 많은 정보: <https://www.gnu.org/software/wget>.
+더 많은 정보: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - 원본 명령의 도큐멘테이션 (설명서) 보기:
 

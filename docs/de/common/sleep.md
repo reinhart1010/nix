@@ -2,8 +2,8 @@
 layout: page
 title: common/sleep (Deutsch)
 description: "Verzögert für einen bestimmten Zeitraum."
-content_hash: 8ed9b1e41e0c9188754b354a5eea7ec4125987a6
-last_modified_at: 2023-11-04
+content_hash: e754c0b8bd7ddc53b04b3310ee7812a380e85f95
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/common/sleep.html
@@ -33,7 +33,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># sleep
 
 Verzögert für einen bestimmten Zeitraum.
-Weitere Informationen: <https://www.gnu.org/software/coreutils/sleep>.
+Weitere Informationen: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/sleep.html>.
 
 - Verzögere in Sekunden:
 

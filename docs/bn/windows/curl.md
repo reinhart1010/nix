@@ -2,8 +2,8 @@
 layout: page
 title: windows/curl (বাংলা)
 description: "পাওয়ারশেলে, এই কমান্ডটি অরিজিনাল `curl` প্রোগ্রাম (<https://curl.se>) সঠিকভাবে ইনস্টল না থাকলে এটি `Invoke-WebRequest` এর এলিয়াস হতে পারে।"
-content_hash: eca1e920d6af2be452e6eb5ef8468cc2405d258b
-last_modified_at: 2023-11-04
+content_hash: c125bea8866f083f626085ede669b57d491c6b99
+last_modified_at: 2023-11-06
 related_topics:
   - title: العربية version
     url: /ar/windows/curl.html
@@ -13,9 +13,6 @@ related_topics:
     icon: bi bi-globe
   - title: català version
     url: /ca/windows/curl.html
-    icon: bi bi-globe
-  - title: čeština version
-    url: /cs/windows/curl.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/windows/curl.html
@@ -28,12 +25,6 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/curl.html
-    icon: bi bi-globe
-  - title: فارسی version
-    url: /fa/windows/curl.html
-    icon: bi bi-globe
-  - title: suomi version
-    url: /fi/windows/curl.html
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/curl.html
@@ -77,14 +68,8 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/curl.html
     icon: bi bi-globe
-  - title: română version
-    url: /ro/windows/curl.html
-    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/curl.html
-    icon: bi bi-globe
-  - title: српски version
-    url: /sr/windows/curl.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/curl.html
@@ -101,9 +86,6 @@ related_topics:
   - title: українська version
     url: /uk/windows/curl.html
     icon: bi bi-globe
-  - title: o‘zbek version
-    url: /uz/windows/curl.html
-    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/curl.html
     icon: bi bi-globe
@@ -114,7 +96,7 @@ related_topics:
 # curl
 
 পাওয়ারশেলে, এই কমান্ডটি অরিজিনাল `curl` প্রোগ্রাম (<https://curl.se>) সঠিকভাবে ইনস্টল না থাকলে এটি `Invoke-WebRequest` এর এলিয়াস হতে পারে।
-আরও তথ্য পাবেন: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
+আরও তথ্য পাবেন: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>।
 
 - চেষ্টা করুন যে কি `curl` সঠিকভাবে ইনস্টল করা হয়েছে কিনা, এর সংস্করণ নম্বর প্রিন্ট করে। যদি এই কমান্ডটি একটি ত্রুটির মধ্যে মূল `Invoke-WebRequest` দিয়ে বদলে যায়, তবে:
 

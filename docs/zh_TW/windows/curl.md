@@ -2,8 +2,8 @@
 layout: page
 title: windows/curl (中文 (繁體, 台灣))
 description: "這是 `curl -p common` 命令的一個別名。"
-content_hash: eb0b2f2c29681c3ab0cb37546db271b028b45938
-last_modified_at: 2023-11-04
+content_hash: e2de6dd00969e2040da9bcd0af5d8113764addfb
+last_modified_at: 2023-11-06
 related_topics:
   - title: العربية version
     url: /ar/windows/curl.html
@@ -17,9 +17,6 @@ related_topics:
   - title: català version
     url: /ca/windows/curl.html
     icon: bi bi-globe
-  - title: čeština version
-    url: /cs/windows/curl.html
-    icon: bi bi-globe
   - title: dansk version
     url: /da/windows/curl.html
     icon: bi bi-globe
@@ -31,12 +28,6 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/curl.html
-    icon: bi bi-globe
-  - title: فارسی version
-    url: /fa/windows/curl.html
-    icon: bi bi-globe
-  - title: suomi version
-    url: /fi/windows/curl.html
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/curl.html
@@ -80,14 +71,8 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/curl.html
     icon: bi bi-globe
-  - title: română version
-    url: /ro/windows/curl.html
-    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/curl.html
-    icon: bi bi-globe
-  - title: српски version
-    url: /sr/windows/curl.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/curl.html
@@ -103,9 +88,6 @@ related_topics:
     icon: bi bi-globe
   - title: українська version
     url: /uk/windows/curl.html
-    icon: bi bi-globe
-  - title: o‘zbek version
-    url: /uz/windows/curl.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/curl.html
@@ -123,7 +105,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># curl
 
 這是 `curl -p common` 命令的一個別名。
-更多資訊：<https://curl.se>.
+更多資訊：<https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - 原命令的文件在：
 

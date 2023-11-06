@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-start (日本語)
 description: "1つまたは複数の停止中コンテナを起動します。"
-content_hash: 1642a28c5f753b4f7410ffeb3a762f66a34db3fa
-last_modified_at: 2023-11-04
+content_hash: 83ae047b89bf42574eefd65258e04b44e224eb11
+last_modified_at: 2023-11-06
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-start.html
@@ -24,7 +24,7 @@ related_topics:
 # docker start
 
 1つまたは複数の停止中コンテナを起動します。
-詳しくはこちら: <https://docs.docker.com/engine/reference/commandline/start/>.
+詳しくはこちら: <https://docs.docker.com/engine/reference/commandline/start/>
 
 - ヘルプを表示する:
 

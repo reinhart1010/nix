@@ -2,23 +2,17 @@
 layout: page
 title: windows/iwr (Nederlands)
 description: "Dit commando is een alias van `invoke-webrequest`."
-content_hash: a5c94b9161d749137d076bfe29c6031b69c34743
-last_modified_at: 2023-11-04
+content_hash: f933ae9eadc248f80e6d24f91bc931c4f0ceaa02
+last_modified_at: 2023-11-06
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
-    icon: bi bi-globe
-  - title: বাংলা version
-    url: /bn/windows/iwr.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/iwr.html
     icon: bi bi-globe
   - title: català version
     url: /ca/windows/iwr.html
-    icon: bi bi-globe
-  - title: čeština version
-    url: /cs/windows/iwr.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/windows/iwr.html
@@ -31,12 +25,6 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/iwr.html
-    icon: bi bi-globe
-  - title: فارسی version
-    url: /fa/windows/iwr.html
-    icon: bi bi-globe
-  - title: suomi version
-    url: /fi/windows/iwr.html
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/iwr.html
@@ -77,14 +65,8 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/iwr.html
     icon: bi bi-globe
-  - title: română version
-    url: /ro/windows/iwr.html
-    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/iwr.html
-    icon: bi bi-globe
-  - title: српски version
-    url: /sr/windows/iwr.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/iwr.html
@@ -101,9 +83,6 @@ related_topics:
   - title: українська version
     url: /uk/windows/iwr.html
     icon: bi bi-globe
-  - title: o‘zbek version
-    url: /uz/windows/iwr.html
-    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/iwr.html
     icon: bi bi-globe
@@ -114,6 +93,7 @@ related_topics:
 # iwr
 
 Dit commando is een alias van `invoke-webrequest`.
+Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Bekijk de documentatie van het originele commando:
 

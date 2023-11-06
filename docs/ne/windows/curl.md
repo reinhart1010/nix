@@ -2,8 +2,8 @@
 layout: page
 title: windows/curl (नेपाली)
 description: "यो आदेश `curl -p common` को उपनाम हो |"
-content_hash: 5897fb0892673aa26007bf14ce6688804b20e948
-last_modified_at: 2023-11-04
+content_hash: 75f03824818d8e16f2bb5bdaca70e801dd162bc7
+last_modified_at: 2023-11-06
 related_topics:
   - title: العربية version
     url: /ar/windows/curl.html
@@ -17,9 +17,6 @@ related_topics:
   - title: català version
     url: /ca/windows/curl.html
     icon: bi bi-globe
-  - title: čeština version
-    url: /cs/windows/curl.html
-    icon: bi bi-globe
   - title: dansk version
     url: /da/windows/curl.html
     icon: bi bi-globe
@@ -31,12 +28,6 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/curl.html
-    icon: bi bi-globe
-  - title: فارسی version
-    url: /fa/windows/curl.html
-    icon: bi bi-globe
-  - title: suomi version
-    url: /fi/windows/curl.html
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/curl.html
@@ -77,14 +68,8 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/curl.html
     icon: bi bi-globe
-  - title: română version
-    url: /ro/windows/curl.html
-    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/curl.html
-    icon: bi bi-globe
-  - title: српски version
-    url: /sr/windows/curl.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/curl.html
@@ -100,9 +85,6 @@ related_topics:
     icon: bi bi-globe
   - title: українська version
     url: /uk/windows/curl.html
-    icon: bi bi-globe
-  - title: o‘zbek version
-    url: /uz/windows/curl.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/curl.html
@@ -123,7 +105,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># curl
 
 यो आदेश `curl -p common` को उपनाम हो |
-थप जानकारी: <https://curl.se>.
+थप जानकारी: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

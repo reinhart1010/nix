@@ -2,8 +2,8 @@
 layout: page
 title: common/abduco (Nederlands)
 description: "Terminal sessiemanager."
-content_hash: 9cf4df9fa11d73d19210ee2c3ba5bb2059afe5c8
-last_modified_at: 2023-11-04
+content_hash: f8cc4a6ef321f165da02a27ac8aab8184b648b5b
+last_modified_at: 2023-11-06
 related_topics:
   - title: বাংলা version
     url: /bn/common/abduco.html
@@ -39,7 +39,7 @@ related_topics:
 # abduco
 
 Terminal sessiemanager.
-Meer Informatie: <http://www.brain-dump.org/projects/abduco/>.
+Meer informatie: <http://www.brain-dump.org/projects/abduco/>.
 
 - Lijst van sessies:
 

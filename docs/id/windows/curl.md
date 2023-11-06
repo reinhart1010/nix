@@ -2,8 +2,8 @@
 layout: page
 title: windows/curl (Indonesia)
 description: "Perintah ini dapat merupakan alias dari `Invoke-WebRequest` jika program `curl` (<https://curl.se>) tidak terpasang secara benar di PowerShell."
-content_hash: e667952f8aea8f526d0c616004b8769d4058b8a8
-last_modified_at: 2023-11-04
+content_hash: 892b155fdd2380eff80d63e9943163c0db70b763
+last_modified_at: 2023-11-06
 related_topics:
   - title: العربية version
     url: /ar/windows/curl.html
@@ -17,9 +17,6 @@ related_topics:
   - title: català version
     url: /ca/windows/curl.html
     icon: bi bi-globe
-  - title: čeština version
-    url: /cs/windows/curl.html
-    icon: bi bi-globe
   - title: dansk version
     url: /da/windows/curl.html
     icon: bi bi-globe
@@ -31,12 +28,6 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/curl.html
-    icon: bi bi-globe
-  - title: فارسی version
-    url: /fa/windows/curl.html
-    icon: bi bi-globe
-  - title: suomi version
-    url: /fi/windows/curl.html
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/curl.html
@@ -77,14 +68,8 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/curl.html
     icon: bi bi-globe
-  - title: română version
-    url: /ro/windows/curl.html
-    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/curl.html
-    icon: bi bi-globe
-  - title: српски version
-    url: /sr/windows/curl.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/curl.html
@@ -101,9 +86,6 @@ related_topics:
   - title: українська version
     url: /uk/windows/curl.html
     icon: bi bi-globe
-  - title: o‘zbek version
-    url: /uz/windows/curl.html
-    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/curl.html
     icon: bi bi-globe
@@ -114,6 +96,7 @@ related_topics:
 # curl
 
 Perintah ini dapat merupakan alias dari `Invoke-WebRequest` jika program `curl` (<https://curl.se>) tidak terpasang secara benar di PowerShell.
+Informasi lebih lanjut: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Cari tahu apakah `curl` sudah terpasang dengan benar dengan menampilkan versi program tersebut. Jika perintah ini memunculkan pesan galat/error, maka PowerShell berkemungkinan sedang menggantinya dengan `Invoke-WebRequest`:
 

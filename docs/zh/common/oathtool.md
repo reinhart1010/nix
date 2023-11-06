@@ -2,8 +2,8 @@
 layout: page
 title: common/oathtool (中文)
 description: "OATH 一次性密码工具。"
-content_hash: 337f549b57a5f75a69eafc73c14b562e68a3199f
-last_modified_at: 2023-11-04
+content_hash: 23cc6c934a04e8688aed3778185aede0dd3905d4
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/common/oathtool.html
@@ -12,6 +12,7 @@ related_topics:
 # oathtool
 
 OATH 一次性密码工具。
+更多信息：<https://www.nongnu.org/oath-toolkit/oathtool.1.html>.
 
 - 生成 TOTP 令牌（行为类似于 Google Authenticator）：
 

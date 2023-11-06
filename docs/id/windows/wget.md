@@ -2,23 +2,17 @@
 layout: page
 title: windows/wget (Indonesia)
 description: "Perintah ini dapat merupakan alias dari `Invoke-WebRequest` jika program `wget` (<https://www.gnu.org/software/wget>) tidak terpasang secara benar di PowerShell."
-content_hash: d451a723d1eea415536fbe9aa3f90a54331eb4cf
-last_modified_at: 2023-11-04
+content_hash: b2e748e69223235c30ffa60aff845b49f3adca3a
+last_modified_at: 2023-11-06
 related_topics:
   - title: العربية version
     url: /ar/windows/wget.html
-    icon: bi bi-globe
-  - title: বাংলা version
-    url: /bn/windows/wget.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/wget.html
     icon: bi bi-globe
   - title: català version
     url: /ca/windows/wget.html
-    icon: bi bi-globe
-  - title: čeština version
-    url: /cs/windows/wget.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/windows/wget.html
@@ -31,12 +25,6 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/wget.html
-    icon: bi bi-globe
-  - title: فارسی version
-    url: /fa/windows/wget.html
-    icon: bi bi-globe
-  - title: suomi version
-    url: /fi/windows/wget.html
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/wget.html
@@ -77,14 +65,8 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/wget.html
     icon: bi bi-globe
-  - title: română version
-    url: /ro/windows/wget.html
-    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/wget.html
-    icon: bi bi-globe
-  - title: српски version
-    url: /sr/windows/wget.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/wget.html
@@ -101,9 +83,6 @@ related_topics:
   - title: українська version
     url: /uk/windows/wget.html
     icon: bi bi-globe
-  - title: o‘zbek version
-    url: /uz/windows/wget.html
-    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/wget.html
     icon: bi bi-globe
@@ -114,6 +93,7 @@ related_topics:
 # wget
 
 Perintah ini dapat merupakan alias dari `Invoke-WebRequest` jika program `wget` (<https://www.gnu.org/software/wget>) tidak terpasang secara benar di PowerShell.
+Informasi lebih lanjut: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Cari tahu apakah `wget` sudah terpasang dengan benar dengan menampilkan versi program tersebut. Jika perintah ini memunculkan pesan galat/error, maka PowerShell berkemungkinan sedang menggantinya dengan `Invoke-WebRequest`:
 

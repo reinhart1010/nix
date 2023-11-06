@@ -2,8 +2,8 @@
 layout: page
 title: common/gem (தமிழ்)
 description: "ரூபி நிரலாக்க மொழிக்கான தொகுப்பு மேலாளருடன் தொடர்பு கொள்ளுங்கள்."
-content_hash: cde9e731da6a37c4a0ee0aca3827083d12a7d312
-last_modified_at: 2023-11-04
+content_hash: e4df69e1db82ccdd668260a5d884b70e33e8ecf2
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/common/gem.html
@@ -15,7 +15,7 @@ related_topics:
 # gem
 
 ரூபி நிரலாக்க மொழிக்கான தொகுப்பு மேலாளருடன் தொடர்பு கொள்ளுங்கள்.
-மேலும் விவரத்திற்கு: <https://rubygems.org>.
+மேலும் விவரத்திற்கு: <https://guides.rubygems.org>.
 
 - தொலை ரத்தினங்களைத் தேடி, கிடைக்கக்கூடிய அனைத்து பதிப்புகளையும் காட்டு:
 

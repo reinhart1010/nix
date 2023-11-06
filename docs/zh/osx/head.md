@@ -2,8 +2,8 @@
 layout: page
 title: osx/head (中文)
 description: "输出文件的开头部分。"
-content_hash: 4732dc97cc5ba2dc3e143ff92462bbf0f0090651
-last_modified_at: 2023-11-04
+content_hash: 038db66aceecca0591f0afed0b5a90de45b0639e
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/osx/head.html
@@ -21,7 +21,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># head
 
 输出文件的开头部分。
-更多信息：<https://ss64.com/osx/head.html>.
+更多信息：<https://keith.github.io/xcode-man-pages/head.1.html>.
 
 - 输出文件的前几行：
 

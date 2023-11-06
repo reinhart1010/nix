@@ -2,8 +2,8 @@
 layout: page
 title: common/a2ping (বাংলা)
 description: "চিত্রগুলি কে EPS বা PDF ফাইলে রূপান্তর করুন।"
-content_hash: 767eaebdd870850cd7cd259ef3f6c90d466f742f
-last_modified_at: 2023-11-04
+content_hash: 2304eb134797235fde5dbc4d6dac7395142cbcbf
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/common/a2ping.html
@@ -14,11 +14,14 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/a2ping.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/a2ping.html
+    icon: bi bi-globe
 ---
 # a2ping
 
 চিত্রগুলি কে EPS বা PDF ফাইলে রূপান্তর করুন।
-আরও জানতে: <https://manned.org/a2ping>.
+আরও তথ্য পাবেন: <https://manned.org/a2ping>।
 
 - একটি চিত্রকে PDF তে রূপান্তর করুন (নোট: আউটপুট ফাইল নাম নির্দিষ্ট করা ঐচ্ছিক):
 

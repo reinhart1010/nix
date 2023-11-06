@@ -2,23 +2,17 @@
 layout: page
 title: common/clamav (नेपाली)
 description: "यो आदेश `clamdscan` को उपनाम हो |"
-content_hash: c96082a400f3ad71c425702b60187a18c58b5fb3
-last_modified_at: 2023-11-04
+content_hash: 80ab84f251505cca68cccf07f40fa49d0b1cf985
+last_modified_at: 2023-11-06
 related_topics:
   - title: العربية version
     url: /ar/common/clamav.html
-    icon: bi bi-globe
-  - title: বাংলা version
-    url: /bn/common/clamav.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/clamav.html
     icon: bi bi-globe
   - title: català version
     url: /ca/common/clamav.html
-    icon: bi bi-globe
-  - title: čeština version
-    url: /cs/common/clamav.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/common/clamav.html
@@ -31,12 +25,6 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/clamav.html
-    icon: bi bi-globe
-  - title: فارسی version
-    url: /fa/common/clamav.html
-    icon: bi bi-globe
-  - title: suomi version
-    url: /fi/common/clamav.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/clamav.html
@@ -77,14 +65,8 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/clamav.html
     icon: bi bi-globe
-  - title: română version
-    url: /ro/common/clamav.html
-    icon: bi bi-globe
   - title: русский version
     url: /ru/common/clamav.html
-    icon: bi bi-globe
-  - title: српски version
-    url: /sr/common/clamav.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/common/clamav.html
@@ -100,9 +82,6 @@ related_topics:
     icon: bi bi-globe
   - title: українська version
     url: /uk/common/clamav.html
-    icon: bi bi-globe
-  - title: o‘zbek version
-    url: /uz/common/clamav.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/clamav.html
@@ -123,7 +102,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># clamav
 
 यो आदेश `clamdscan` को उपनाम हो |
-थप जानकारी: <https://www.clamav.net>.
+थप जानकारी: <https://www.clamav.net>।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

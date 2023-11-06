@@ -2,17 +2,23 @@
 layout: page
 title: windows/cd (español)
 description: "Muestra información sobre el directorio actual y le permite moverse a otro."
-content_hash: 51454dea2a71ad16b80d327979697541ca6927e6
-last_modified_at: 2023-04-21
+content_hash: 9b1bdf8bf9c14e3be96e3cc7ead44eb64b42e477
+last_modified_at: 2023-11-06
 related_topics:
   - title: বাংলা version
     url: /bn/windows/cd.html
+    icon: bi bi-globe
+  - title: čeština version
+    url: /cs/windows/cd.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/cd.html
     icon: bi bi-globe
   - title: English version
     url: /en/windows/cd.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/cd.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/windows/cd.html
@@ -35,6 +41,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/windows/cd.html
     icon: bi bi-globe
+  - title: ไทย version
+    url: /th/windows/cd.html
+    icon: bi bi-globe
 ---
 
 ### Outdated Translation
@@ -48,7 +57,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># cd
 
 Muestra información sobre el directorio actual y le permite moverse a otro.
-Más informaciones: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
+Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
 - Muestra la ruta (path) del directorio actual:
 

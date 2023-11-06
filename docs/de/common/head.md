@@ -2,8 +2,8 @@
 layout: page
 title: common/head (Deutsch)
 description: "Gibt den ersten Teil einer Datei aus."
-content_hash: 336589aecd44f6207233ef7b178b21d785f540c0
-last_modified_at: 2023-11-04
+content_hash: 69044aaa34eaa730451d04046d026d724d4878df
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/common/head.html
@@ -33,7 +33,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># head
 
 Gibt den ersten Teil einer Datei aus.
-Weitere Informationen: <https://www.gnu.org/software/coreutils/head>.
+Weitere Informationen: <https://manned.org/head.1p>.
 
 - Gib die ersten paar Zeilen einer Datei aus:
 

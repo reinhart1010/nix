@@ -2,7 +2,8 @@
 layout: page
 title: common/brew (தமிழ்)
 description: "மேக் ஓஎஸ் மற்றும் லினக்ஸ் கான தொகுப்பு மேலாளர்."
-content_hash: 5fe242d868436992aa4b53aab58e9cb45bd83f9e
+content_hash: 668ac2a140de24df7577d02da7d231a2af19dd8e
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/common/brew.html
@@ -10,8 +11,14 @@ related_topics:
   - title: español version
     url: /es/common/brew.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/brew.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/brew.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/brew.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/brew.html
@@ -26,7 +33,7 @@ related_topics:
 # brew
 
 மேக் ஓஎஸ் மற்றும் லினக்ஸ் கான தொகுப்பு மேலாளர்.
-மேலும் விவரத்திற்கு: <https://brew.sh>.
+மேலும் விவரத்திற்கு: <https://docs.brew.sh/Manpage>.
 
 - ஃபார்முலா அல்லது கேஸ்கின் சமீபத்திய நிலையான பதிப்பை நிறுவவும் (மேம்பாடு பதிப்புகளுக்கு `--devel` ஐப் பயன்படுத்தவும்):
 

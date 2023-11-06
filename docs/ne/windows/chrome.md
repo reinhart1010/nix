@@ -2,8 +2,8 @@
 layout: page
 title: windows/chrome (नेपाली)
 description: "यो आदेश `chromium` को उपनाम हो |"
-content_hash: 1e27bb0da5c6331d64d1812908e53f53ff50fa6e
-last_modified_at: 2023-11-04
+content_hash: 4a00f922235af3bc6e4094da5833ee5ac49ebcca
+last_modified_at: 2023-11-06
 related_topics:
   - title: العربية version
     url: /ar/windows/chrome.html
@@ -17,9 +17,6 @@ related_topics:
   - title: català version
     url: /ca/windows/chrome.html
     icon: bi bi-globe
-  - title: čeština version
-    url: /cs/windows/chrome.html
-    icon: bi bi-globe
   - title: dansk version
     url: /da/windows/chrome.html
     icon: bi bi-globe
@@ -31,12 +28,6 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/chrome.html
-    icon: bi bi-globe
-  - title: فارسی version
-    url: /fa/windows/chrome.html
-    icon: bi bi-globe
-  - title: suomi version
-    url: /fi/windows/chrome.html
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/chrome.html
@@ -77,14 +68,8 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/chrome.html
     icon: bi bi-globe
-  - title: română version
-    url: /ro/windows/chrome.html
-    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/chrome.html
-    icon: bi bi-globe
-  - title: српски version
-    url: /sr/windows/chrome.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/chrome.html
@@ -101,9 +86,6 @@ related_topics:
   - title: українська version
     url: /uk/windows/chrome.html
     icon: bi bi-globe
-  - title: o‘zbek version
-    url: /uz/windows/chrome.html
-    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/chrome.html
     icon: bi bi-globe
@@ -114,7 +96,7 @@ related_topics:
 # chrome
 
 यो आदेश `chromium` को उपनाम हो |
-थप जानकारी: <https://chrome.google.com>.
+थप जानकारी: <https://chrome.google.com>।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

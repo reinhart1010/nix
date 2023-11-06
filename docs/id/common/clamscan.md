@@ -2,8 +2,8 @@
 layout: page
 title: common/clamscan (Indonesia)
 description: "Sebuah program pemindai virus berbasis command-line."
-content_hash: 562b96da3540073985b8aff1f0b3d9ba19b92070
-last_modified_at: 2023-11-04
+content_hash: f5fc735459655b54b7465fbdba0f1fe7810a4a13
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/common/clamscan.html
@@ -21,7 +21,7 @@ related_topics:
 # clamscan
 
 Sebuah program pemindai virus berbasis command-line.
-Informasi lebih lanjut: <https://www.clamav.net>.
+Informasi lebih lanjut: <https://docs.clamav.net/manual/Usage/Scanning.html#clamscan>.
 
 - Pindai kerentanan sebuah file:
 

@@ -2,8 +2,8 @@
 layout: page
 title: windows/scoop (हिन्दी)
 description: "स्कूप पैकेज मैनेजर।"
-content_hash: 70bf4ab23ed180d94744c2e54edd626819d76efa
-last_modified_at: 2023-11-04
+content_hash: 2cd4107c626d74fc922b17114fea58ce09f16df0
+last_modified_at: 2023-11-06
 related_topics:
   - title: বাংলা version
     url: /bn/windows/scoop.html
@@ -24,7 +24,7 @@ related_topics:
 # scoop
 
 स्कूप पैकेज मैनेजर।
-अधिक जानकारी: <https://scoop.sh>.
+अधिक जानकारी: <https://scoop.sh>।
 
 - एक पैकेज स्थापित करें:
 

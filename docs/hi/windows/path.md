@@ -2,8 +2,8 @@
 layout: page
 title: windows/path (हिन्दी)
 description: "निष्पादन योग्य फ़ाइलों के लिए खोज पथ प्रदर्शित या सेट करें।"
-content_hash: fc24bf6e0951b74f1b3ca78638d03fc9447ac19a
-last_modified_at: 2023-11-04
+content_hash: b41e79a15970a21439b991f478980db4c707984a
+last_modified_at: 2023-11-06
 related_topics:
   - title: বাংলা version
     url: /bn/windows/path.html
@@ -21,7 +21,7 @@ related_topics:
 # path
 
 निष्पादन योग्य फ़ाइलों के लिए खोज पथ प्रदर्शित या सेट करें।
-अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/path>.
+अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/path>।
 
 - वर्तमान पथ प्रदर्शित करें:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/cat (नेपाली)
 description: "फाइलहरू देखाउनुहोस् र जोड्नुहोस्।"
-content_hash: fcdb64274cc9f06bc2d969f54919e196f999de12
-last_modified_at: 2023-11-04
+content_hash: d9c227d868384971c06f94b70b47d2b906531df0
+last_modified_at: 2023-11-06
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -57,7 +57,7 @@ related_topics:
 # cat
 
 फाइलहरू देखाउनुहोस् र जोड्नुहोस्।
-थप जानकारी: <https://www.gnu.org/software/coreutils/cat>.
+थप जानकारी: <https://www.gnu.org/software/coreutils/cat>।
 
 - फाइल भित्रका कुराहरुलाई मानक आउटपुटमा देखाउनुहोस्:
 

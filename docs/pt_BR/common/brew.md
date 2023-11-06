@@ -2,7 +2,8 @@
 layout: page
 title: common/brew (português (Brasil))
 description: "A versão Linux do gerenciador de pacotes Homebrew."
-content_hash: b69c66b1a2f52815fb0d8423bd6304e2028b4246
+content_hash: bc21826e7b49f7fbc1dc1d336f6a44f49dd331f3
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/common/brew.html
@@ -10,8 +11,17 @@ related_topics:
   - title: español version
     url: /es/common/brew.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/brew.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/brew.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/brew.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/brew.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/brew.html
@@ -23,7 +33,7 @@ related_topics:
 # brew
 
 A versão Linux do gerenciador de pacotes Homebrew.
-Mais informações: <https://brew.sh>.
+Mais informações: <https://docs.brew.sh/Manpage>.
 
 - Buscar por fórmulas disponíveis:
 

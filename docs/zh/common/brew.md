@@ -2,7 +2,8 @@
 layout: page
 title: common/brew (中文)
 description: "Linux 和 macOS 的包管理器。"
-content_hash: 3e82b141c60f08228fba4cb19be2e7385667046c
+content_hash: 408a962c0b4f9bcdbbf6f5d424fb86b1016bba39
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/common/brew.html
@@ -10,11 +11,20 @@ related_topics:
   - title: español version
     url: /es/common/brew.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/brew.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/brew.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/brew.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/brew.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/brew.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/brew.html
@@ -23,7 +33,7 @@ related_topics:
 # brew
 
 Linux 和 macOS 的包管理器。
-更多信息：<https://brew.sh>.
+更多信息：<https://docs.brew.sh/Manpage>.
 
 - 安装最新稳定版的配方（formula）或木桶（cask），使用 `--devel` 安装开发版：
 

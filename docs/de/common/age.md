@@ -2,8 +2,8 @@
 layout: page
 title: common/age (Deutsch)
 description: "Ein einfaches, modernes und sicheres Dateiverschlüsselungswerkzeug."
-content_hash: b2ebb5af319d3c2d49cd91aa1e4aa13b1bd78a2a
-last_modified_at: 2023-11-04
+content_hash: 713cb95c3c84e8eb110a8e77e1e50586e9e9b2f3
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/common/age.html
@@ -39,7 +39,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># age
 
 Ein einfaches, modernes und sicheres Dateiverschlüsselungswerkzeug.
-Weitere Informationen: <https://age-encryption.org>.
+Weitere Informationen: <https://github.com/FiloSottile/age>.
 
 - Generiere eine verschlüsselte Datei, die mit einer Passphrase entschlüsselt werden kann:
 

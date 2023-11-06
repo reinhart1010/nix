@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreport (বাংলা)
 description: "একটি অ্যান্ড্রয়েড বাগ রিপোর্ট দেখান।"
-content_hash: 71a0bd976fc067ea128a022e2c284a451c5af137
-last_modified_at: 2023-11-04
+content_hash: 08cfe3a7744319271b25bbea635a5ebf7fdb106f
+last_modified_at: 2023-11-06
 related_topics:
   - title: Deutsch version
     url: /de/android/bugreport.html
@@ -73,7 +73,7 @@ related_topics:
 
 একটি অ্যান্ড্রয়েড বাগ রিপোর্ট দেখান।
 এই কমান্ডটি শুধুমাত্র `adb shell` এর মাধ্যমে ব্যবহার করা যেতে পারে।
-আরও তথ্য পাবেন: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreport>.
+আরও তথ্য পাবেন: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreport>।
 
 - একটি অ্যান্ড্রয়েড ডিভাইসের একটি সম্পূর্ণ বাগ রিপোর্ট দেখান:
 

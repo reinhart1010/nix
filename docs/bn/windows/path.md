@@ -2,8 +2,8 @@
 layout: page
 title: windows/path (বাংলা)
 description: "কার্যকর ফাইলগুলির জন্য পথ খোঁজা বা সেট করতে পারেন।"
-content_hash: a51e8980d3c2baee4ad27835b6041ec22ae61755
-last_modified_at: 2023-11-04
+content_hash: ed41f07d3b6e651d980bc3c9068d974236fba355
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/windows/path.html
@@ -21,7 +21,7 @@ related_topics:
 # path
 
 কার্যকর ফাইলগুলির জন্য পথ খোঁজা বা সেট করতে পারেন।
-আরও তথ্যের জন্য: <https://learn.microsoft.com/windows-server/administration/windows-commands/path>.
+আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/path>।
 
 - বর্তমান পথটি দেখানো:
 

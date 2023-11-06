@@ -2,8 +2,8 @@
 layout: page
 title: windows/color (हिन्दी)
 description: "कंसोल अग्रभूमि और पृष्ठभूमि रंग सेट करें।"
-content_hash: 352c16cf9695e9f1ca61b8080010bddb4be88a6a
-last_modified_at: 2023-11-04
+content_hash: d748e4f949419aa385cc6b4ec6810f2931dfa8b7
+last_modified_at: 2023-11-06
 related_topics:
   - title: বাংলা version
     url: /bn/windows/color.html
@@ -36,7 +36,7 @@ related_topics:
 # color
 
 कंसोल अग्रभूमि और पृष्ठभूमि रंग सेट करें।
-अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/color>.
+अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/color>।
 
 - कंसोल रंगों को डिफ़ॉल्ट मानों पर सेट करें:
 

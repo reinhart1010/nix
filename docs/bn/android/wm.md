@@ -2,8 +2,8 @@
 layout: page
 title: android/wm (বাংলা)
 description: "একটি অ্যান্ড্রয়েড ডিভাইসের স্ক্রীন সম্পর্কে তথ্য দেখান।"
-content_hash: 2bab0f1b3bbea83655556f3ef889ea942040e4a1
-last_modified_at: 2023-11-04
+content_hash: 6f8b73e7a15390e52f2a6df9bb080fdc184c7b0f
+last_modified_at: 2023-11-06
 related_topics:
   - title: Deutsch version
     url: /de/android/wm.html
@@ -64,7 +64,7 @@ related_topics:
 
 একটি অ্যান্ড্রয়েড ডিভাইসের স্ক্রীন সম্পর্কে তথ্য দেখান।
 এই কমান্ডটি শুধুমাত্র `adb shell` এর মাধ্যমে ব্যবহার করা যেতে পারে।
-আরও তথ্য পাবেন: <https://adbinstaller.com/commands/adb-shell-wm-5b672b17e7958178a2955538>.
+আরও তথ্য পাবেন: <https://adbinstaller.com/commands/adb-shell-wm-5b672b17e7958178a2955538>।
 
 - একটি অ্যান্ড্রয়েড ডিভাইসের স্ক্রিনের শারীরিক আকার প্রদর্শন করুন:
 

@@ -2,23 +2,17 @@
 layout: page
 title: common/fossil-forget (नेपाली)
 description: "यो आदेश `fossil rm` को उपनाम हो |"
-content_hash: 5600ec6d8dc38315da6cff2bfea7d6ab7a82cbd9
-last_modified_at: 2023-11-04
+content_hash: 88d6bf2fe91b10ca81c133051d37c2549cd4e4be
+last_modified_at: 2023-11-06
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-forget.html
-    icon: bi bi-globe
-  - title: বাংলা version
-    url: /bn/common/fossil-forget.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/fossil-forget.html
     icon: bi bi-globe
   - title: català version
     url: /ca/common/fossil-forget.html
-    icon: bi bi-globe
-  - title: čeština version
-    url: /cs/common/fossil-forget.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/common/fossil-forget.html
@@ -31,12 +25,6 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/fossil-forget.html
-    icon: bi bi-globe
-  - title: فارسی version
-    url: /fa/common/fossil-forget.html
-    icon: bi bi-globe
-  - title: suomi version
-    url: /fi/common/fossil-forget.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/fossil-forget.html
@@ -77,14 +65,8 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/fossil-forget.html
     icon: bi bi-globe
-  - title: română version
-    url: /ro/common/fossil-forget.html
-    icon: bi bi-globe
   - title: русский version
     url: /ru/common/fossil-forget.html
-    icon: bi bi-globe
-  - title: српски version
-    url: /sr/common/fossil-forget.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/common/fossil-forget.html
@@ -101,9 +83,6 @@ related_topics:
   - title: українська version
     url: /uk/common/fossil-forget.html
     icon: bi bi-globe
-  - title: o‘zbek version
-    url: /uz/common/fossil-forget.html
-    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/fossil-forget.html
     icon: bi bi-globe
@@ -114,7 +93,7 @@ related_topics:
 # fossil-forget
 
 यो आदेश `fossil rm` को उपनाम हो |
-थप जानकारी: <https://fossil-scm.org/home/help/forget>.
+थप जानकारी: <https://fossil-scm.org/home/help/forget>।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

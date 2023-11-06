@@ -2,23 +2,17 @@
 layout: page
 title: linux/bspwm (नेपाली)
 description: "यो आदेश `bspc` को उपनाम हो |"
-content_hash: 5e89bfc151e91252456aa2fcacba040dc8f6452f
-last_modified_at: 2023-11-04
+content_hash: 4cb72463ca339644d6162a43e8fcb524e1ddb7b0
+last_modified_at: 2023-11-06
 related_topics:
   - title: العربية version
     url: /ar/linux/bspwm.html
-    icon: bi bi-globe
-  - title: বাংলা version
-    url: /bn/linux/bspwm.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/linux/bspwm.html
     icon: bi bi-globe
   - title: català version
     url: /ca/linux/bspwm.html
-    icon: bi bi-globe
-  - title: čeština version
-    url: /cs/linux/bspwm.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/linux/bspwm.html
@@ -31,12 +25,6 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/linux/bspwm.html
-    icon: bi bi-globe
-  - title: فارسی version
-    url: /fa/linux/bspwm.html
-    icon: bi bi-globe
-  - title: suomi version
-    url: /fi/linux/bspwm.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/bspwm.html
@@ -77,14 +65,8 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/linux/bspwm.html
     icon: bi bi-globe
-  - title: română version
-    url: /ro/linux/bspwm.html
-    icon: bi bi-globe
   - title: русский version
     url: /ru/linux/bspwm.html
-    icon: bi bi-globe
-  - title: српски version
-    url: /sr/linux/bspwm.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/linux/bspwm.html
@@ -100,9 +82,6 @@ related_topics:
     icon: bi bi-globe
   - title: українська version
     url: /uk/linux/bspwm.html
-    icon: bi bi-globe
-  - title: o‘zbek version
-    url: /uz/linux/bspwm.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/bspwm.html
@@ -123,7 +102,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># bspwm
 
 यो आदेश `bspc` को उपनाम हो |
-थप जानकारी: <https://github.com/baskerville/bspwm>.
+थप जानकारी: <https://github.com/baskerville/bspwm>।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

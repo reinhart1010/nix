@@ -2,8 +2,8 @@
 layout: page
 title: android/pm (বাংলা)
 description: "একটি Android ডিভাইসে অ্যাপ্লিকেশন সম্পর্কে তথ্য দেখান।"
-content_hash: 180f0b49a1f6c756e5efa1e194631936e3e866b1
-last_modified_at: 2023-11-04
+content_hash: 3abf2d447e63bc84a4e5e75da1905b4fe5329b38
+last_modified_at: 2023-11-06
 related_topics:
   - title: Deutsch version
     url: /de/android/pm.html
@@ -60,7 +60,7 @@ related_topics:
 # pm
 
 একটি Android ডিভাইসে অ্যাপ্লিকেশন সম্পর্কে তথ্য দেখান।
-আরও তথ্য পাবেন: <https://developer.android.com/studio/command-line/adb#pm>.
+আরও তথ্য পাবেন: <https://developer.android.com/studio/command-line/adb#pm>।
 
 - সমস্ত ইনস্টল করা অ্যাপের একটি তালিকা প্রিন্ট করুন:
 

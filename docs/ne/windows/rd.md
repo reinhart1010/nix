@@ -2,23 +2,17 @@
 layout: page
 title: windows/rd (नेपाली)
 description: "यो आदेश `rmdir` को उपनाम हो |"
-content_hash: 1e86942ee73fdd5e139575b6c37d016dbcbe73ab
-last_modified_at: 2023-11-04
+content_hash: 3fed6cd53109ca839c9a1102d9e5fc55c730080b
+last_modified_at: 2023-11-06
 related_topics:
   - title: العربية version
     url: /ar/windows/rd.html
-    icon: bi bi-globe
-  - title: বাংলা version
-    url: /bn/windows/rd.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/rd.html
     icon: bi bi-globe
   - title: català version
     url: /ca/windows/rd.html
-    icon: bi bi-globe
-  - title: čeština version
-    url: /cs/windows/rd.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/windows/rd.html
@@ -31,12 +25,6 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/rd.html
-    icon: bi bi-globe
-  - title: فارسی version
-    url: /fa/windows/rd.html
-    icon: bi bi-globe
-  - title: suomi version
-    url: /fi/windows/rd.html
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/rd.html
@@ -77,14 +65,8 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/rd.html
     icon: bi bi-globe
-  - title: română version
-    url: /ro/windows/rd.html
-    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/rd.html
-    icon: bi bi-globe
-  - title: српски version
-    url: /sr/windows/rd.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/rd.html
@@ -100,9 +82,6 @@ related_topics:
     icon: bi bi-globe
   - title: українська version
     url: /uk/windows/rd.html
-    icon: bi bi-globe
-  - title: o‘zbek version
-    url: /uz/windows/rd.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/rd.html
@@ -123,7 +102,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># rd
 
 यो आदेश `rmdir` को उपनाम हो |
-थप जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/rd>.
+थप जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/rd>।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

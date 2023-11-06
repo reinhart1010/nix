@@ -2,8 +2,8 @@
 layout: page
 title: common/7za (हिन्दी)
 description: "उच्च संपीड़न अनुपात के साथ फ़ाइल संग्रहकर्ता।"
-content_hash: 3e95ec7272a9f078556493a3b25eeac973d315ca
-last_modified_at: 2023-11-04
+content_hash: d892d02fedac5c5d16f1f25a0926ab18e9348413
+last_modified_at: 2023-11-06
 related_topics:
   - title: বাংলা version
     url: /bn/common/7za.html
@@ -58,7 +58,7 @@ related_topics:
 
 उच्च संपीड़न अनुपात के साथ फ़ाइल संग्रहकर्ता।
 `7z` के समान, सिवाय इसके कि यह कम फ़ाइल प्रकारों का समर्थन करता है लेकिन क्रॉस-प्लेटफ़ॉर्म है।
-अधिक जानकारी: <https://manned.org/7za>.
+अधिक जानकारी: <https://manned.org/7za>।
 
 - किसी फ़ाइल या निर्देशिका को संग्रहित करें:
 

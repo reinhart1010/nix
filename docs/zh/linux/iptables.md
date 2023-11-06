@@ -2,8 +2,8 @@
 layout: page
 title: linux/iptables (中文)
 description: "可用于配置 Linux 内核防火墙提供的过滤表、规则链和规则的程序。"
-content_hash: c5a8baa4a727028eaadc24a177ad426628013ac9
-last_modified_at: 2023-11-04
+content_hash: 0d8234007ce3d3d8379fd02b3375102ff4038481
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/linux/iptables.html
@@ -24,7 +24,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># iptables
 
 可用于配置 Linux 内核防火墙提供的过滤表、规则链和规则的程序。
-更多信息：<https://www.netfilter.org/projects/iptables/>.
+更多信息：<https://manned.org/iptables>.
 
 - 查看过滤表的规则链、规则以及数据包/字节计数器：
 

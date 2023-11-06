@@ -2,8 +2,8 @@
 layout: page
 title: common/git-subtree (italiano)
 description: "Strumento per gestire le dipendenze di un progetto come progetti secondari."
-content_hash: 1287ea8e2b8584db20478280befa80be390c7feb
-last_modified_at: 2023-11-04
+content_hash: b929f0979755f3a3e282a78d51b43655e41edb2e
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/common/git-subtree.html
@@ -18,7 +18,7 @@ related_topics:
 # git subtree
 
 Strumento per gestire le dipendenze di un progetto come progetti secondari.
-Maggiori informazioni: <https://manpages.debian.org/testing/git-man/git-subtree.1.en.html>.
+Maggiori informazioni: <https://manpages.debian.org/latest/git-man/git-subtree.1.html>.
 
 - Aggiungi un repository Git come albero secondario:
 

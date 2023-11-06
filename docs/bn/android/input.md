@@ -2,8 +2,8 @@
 layout: page
 title: android/input (বাংলা)
 description: "একটি Android ডিভাইসে ইভেন্ট কোড বা টাচস্ক্রিন অঙ্গভঙ্গি পাঠান।"
-content_hash: bdd0fb771468526516b72a82a359da340882cf06
-last_modified_at: 2023-11-04
+content_hash: 6238af488e191c755e26d40733eaff080ea62099
+last_modified_at: 2023-11-06
 related_topics:
   - title: Deutsch version
     url: /de/android/input.html
@@ -64,7 +64,7 @@ related_topics:
 
 একটি Android ডিভাইসে ইভেন্ট কোড বা টাচস্ক্রিন অঙ্গভঙ্গি পাঠান।
 এই কমান্ডটি শুধুমাত্র `adb shell` এর মাধ্যমে ব্যবহার করা যেতে পারে।
-আরও তথ্য পাবেন: <https://developer.android.com/reference/android/view/KeyEvent.html#constants_1>.
+আরও তথ্য পাবেন: <https://developer.android.com/reference/android/view/KeyEvent.html#constants_1>।
 
 - একটি Android ডিভাইসে একটি একক অক্ষরের জন্য একটি ইভেন্ট কোড পাঠান:
 

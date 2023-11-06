@@ -2,8 +2,8 @@
 layout: page
 title: windows/date (हिन्दी)
 description: "सिस्टम दिनांक प्रदर्शित या सेट करता है।"
-content_hash: b3ed476ce480685fe35b1253d9a4d670ffb4472d
-last_modified_at: 2023-11-04
+content_hash: 0f27d15fe77e878abdec71fa8a309898a4aa9a3a
+last_modified_at: 2023-11-06
 related_topics:
   - title: বাংলা version
     url: /bn/windows/date.html
@@ -21,7 +21,7 @@ related_topics:
 # date
 
 सिस्टम दिनांक प्रदर्शित या सेट करता है।
-अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/date>.
+अधिक जानकारी: <https://learn.microsoft.com/windows-server/administration/windows-commands/date>।
 
 - वर्तमान सिस्टम तिथि प्रदर्शित करें और नई तिथि दर्ज करने का संकेत दें (अपरिवर्तित रखने के लिए खाली छोड़ें):
 

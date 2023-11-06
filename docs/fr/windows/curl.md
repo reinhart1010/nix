@@ -2,8 +2,8 @@
 layout: page
 title: windows/curl (français)
 description: "Cette commande est un alias de `curl -p common`."
-content_hash: 7f7b1c06caa75e06889ac2e1c810cc673d6a191c
-last_modified_at: 2023-11-04
+content_hash: eb73ee05c0c5674231cbe54a41c06d7695c2e041
+last_modified_at: 2023-11-06
 related_topics:
   - title: العربية version
     url: /ar/windows/curl.html
@@ -17,9 +17,6 @@ related_topics:
   - title: català version
     url: /ca/windows/curl.html
     icon: bi bi-globe
-  - title: čeština version
-    url: /cs/windows/curl.html
-    icon: bi bi-globe
   - title: dansk version
     url: /da/windows/curl.html
     icon: bi bi-globe
@@ -31,12 +28,6 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/curl.html
-    icon: bi bi-globe
-  - title: فارسی version
-    url: /fa/windows/curl.html
-    icon: bi bi-globe
-  - title: suomi version
-    url: /fi/windows/curl.html
     icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/windows/curl.html
@@ -77,14 +68,8 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/curl.html
     icon: bi bi-globe
-  - title: română version
-    url: /ro/windows/curl.html
-    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/curl.html
-    icon: bi bi-globe
-  - title: српски version
-    url: /sr/windows/curl.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/curl.html
@@ -100,9 +85,6 @@ related_topics:
     icon: bi bi-globe
   - title: українська version
     url: /uk/windows/curl.html
-    icon: bi bi-globe
-  - title: o‘zbek version
-    url: /uz/windows/curl.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/curl.html
@@ -123,7 +105,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># curl
 
 Cette commande est un alias de `curl -p common`.
-Plus d'informations : <https://curl.se>.
+Plus d'informations : <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Voir la documentation de la commande originale :
 

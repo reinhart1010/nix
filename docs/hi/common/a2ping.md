@@ -2,8 +2,8 @@
 layout: page
 title: common/a2ping (हिन्दी)
 description: "छवियों को EPS या PDF फाइलों में परिवर्तित करें।"
-content_hash: e289ecb93dfb5ad6b0f43b2d04b4ca5810c4280a
-last_modified_at: 2023-11-04
+content_hash: 42e4e705ead17fa4ddad264ff2862f543a84c03b
+last_modified_at: 2023-11-06
 related_topics:
   - title: বাংলা version
     url: /bn/common/a2ping.html
@@ -14,11 +14,14 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/a2ping.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/a2ping.html
+    icon: bi bi-globe
 ---
 # a2ping
 
 छवियों को EPS या PDF फाइलों में परिवर्तित करें।
-अधिक जानकारी: <https://manned.org/a2ping>.
+अधिक जानकारी: <https://manned.org/a2ping>।
 
 - एक छवि को PDF में बदलें (ध्यान दें: आउटपुट फ़ाइल नाम निर्दिष्ट करना वैकल्पिक है):
 

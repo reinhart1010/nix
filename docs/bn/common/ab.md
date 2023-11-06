@@ -2,8 +2,8 @@
 layout: page
 title: common/ab (বাংলা)
 description: "এপাচি এইচটিটিপি সার্ভার বেঞ্চমার্কিং টুল।"
-content_hash: e691799226ab3e4ab65cb45c447c28c299b416d4
-last_modified_at: 2023-11-04
+content_hash: d2cda9090456764a492f77fa9bcad2f4c29c86a2
+last_modified_at: 2023-11-06
 related_topics:
   - title: Deutsch version
     url: /de/common/ab.html
@@ -48,7 +48,7 @@ related_topics:
 # ab
 
 এপাচি এইচটিটিপি সার্ভার বেঞ্চমার্কিং টুল।
-আরও তথ্য পেতে: <https://httpd.apache.org/docs/current/programs/ab.html>.
+আরও তথ্য পাবেন: <https://httpd.apache.org/docs/current/programs/ab.html>।
 
 - নির্দিষ্ট URL এ ১০০টি HTTP GET অনুরোধ প্রয়ান করুন:
 

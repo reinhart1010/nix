@@ -2,8 +2,8 @@
 layout: page
 title: common/gvpack (中文)
 description: "将多个具有布局信息的图形布局组合在一起。"
-content_hash: 361ad1083e3e132c4d08afe976aeab79346e55ec
-last_modified_at: 2023-11-04
+content_hash: 96c4c6029161f0a3ca60385c1840496907247822
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/common/gvpack.html
@@ -13,7 +13,7 @@ related_topics:
 
 将多个具有布局信息的图形布局组合在一起。
 Graphviz 过滤器: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred` 和 `unflatten`。
-更多信息: <https://graphviz.org/pdf/gvpack.1.pdf>.
+更多信息：<https://graphviz.org/pdf/gvpack.1.pdf>.
 
 - 将多个具有布局信息的图形布局组合在一起：
 

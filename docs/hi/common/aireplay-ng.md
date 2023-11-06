@@ -2,8 +2,8 @@
 layout: page
 title: common/aireplay-ng (हिन्दी)
 description: "वायरलेस नेटवर्क में पैकेट इंजेक्ट करें।"
-content_hash: 2463313b516b041eb73a1e28f076e9f8f1d13b2f
-last_modified_at: 2023-11-04
+content_hash: f121d853ff607f887b7a5bf3ca375f46269e137f
+last_modified_at: 2023-11-06
 related_topics:
   - title: বাংলা version
     url: /bn/common/aireplay-ng.html
@@ -28,7 +28,7 @@ related_topics:
 
 वायरलेस नेटवर्क में पैकेट इंजेक्ट करें।
 `aireplay-ng` का हिस्सा।
-अधिक जानकारी: <https://www.aircrack-ng.org/doku.php?id=aireplay-ng>.
+अधिक जानकारी: <https://www.aircrack-ng.org/doku.php?id=aireplay-ng>।
 
 - एक्सेस प्वाइंट के MAC पते, क्लाइंट के MAC पते और एक इंटरफ़ेस को देखते हुए एक विशिष्ट संख्या में असंबद्ध पैकेट भेजें:
 

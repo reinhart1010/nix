@@ -2,23 +2,17 @@
 layout: page
 title: linux/cgroups (नेपाली)
 description: "यो आदेश `cgclassify` को उपनाम हो |"
-content_hash: 73bbc4bb2aa52f823011ee6442e4cf2be55e47a1
-last_modified_at: 2023-11-04
+content_hash: d4072248509eb38a03f47d83751665c17e41f50b
+last_modified_at: 2023-11-06
 related_topics:
   - title: العربية version
     url: /ar/linux/cgroups.html
-    icon: bi bi-globe
-  - title: বাংলা version
-    url: /bn/linux/cgroups.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/linux/cgroups.html
     icon: bi bi-globe
   - title: català version
     url: /ca/linux/cgroups.html
-    icon: bi bi-globe
-  - title: čeština version
-    url: /cs/linux/cgroups.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/linux/cgroups.html
@@ -31,12 +25,6 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/linux/cgroups.html
-    icon: bi bi-globe
-  - title: فارسی version
-    url: /fa/linux/cgroups.html
-    icon: bi bi-globe
-  - title: suomi version
-    url: /fi/linux/cgroups.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/cgroups.html
@@ -77,14 +65,8 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/linux/cgroups.html
     icon: bi bi-globe
-  - title: română version
-    url: /ro/linux/cgroups.html
-    icon: bi bi-globe
   - title: русский version
     url: /ru/linux/cgroups.html
-    icon: bi bi-globe
-  - title: српски version
-    url: /sr/linux/cgroups.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/linux/cgroups.html
@@ -100,9 +82,6 @@ related_topics:
     icon: bi bi-globe
   - title: українська version
     url: /uk/linux/cgroups.html
-    icon: bi bi-globe
-  - title: o‘zbek version
-    url: /uz/linux/cgroups.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/cgroups.html
@@ -123,7 +102,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># cgroups
 
 यो आदेश `cgclassify` को उपनाम हो |
-थप जानकारी: <https://www.kernel.org/doc/Documentation/cgroup-v2.txt>.
+थप जानकारी: <https://www.kernel.org/doc/Documentation/cgroup-v2.txt>।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 

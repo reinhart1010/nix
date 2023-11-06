@@ -2,8 +2,8 @@
 layout: page
 title: common/case (中文)
 description: "case ... esac 与其他语言中的 switch ... case 语句类似，是一种多分枝选择结构。"
-content_hash: 49838d3e61eee8b760687f574b926adc6e62f5e1
-last_modified_at: 2023-11-04
+content_hash: cf150e43adf29bc0fe7e369b916c74b91946997d
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/common/case.html
@@ -18,7 +18,7 @@ related_topics:
 # case
 
 case ... esac 与其他语言中的 switch ... case 语句类似，是一种多分枝选择结构。
-更多信息：<https://manned.org/case>.
+更多信息：<https://www.gnu.org/software/bash/manual/bash.html#index-case>.
 
 - 通过字符串字面量判断执行分支：
 

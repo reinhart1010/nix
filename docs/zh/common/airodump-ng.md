@@ -2,8 +2,8 @@
 layout: page
 title: common/airodump-ng (中文)
 description: "捕获数据包并显示有关无线网络的信息。"
-content_hash: 4bf63ed620068d7896de640ad1e779faf87f0adb
-last_modified_at: 2023-11-04
+content_hash: a02344f7d072a67f90c07d575c78d32613a52186
+last_modified_at: 2023-11-06
 related_topics:
   - title: Deutsch version
     url: /de/common/airodump-ng.html
@@ -22,7 +22,7 @@ related_topics:
 
 捕获数据包并显示有关无线网络的信息。
 `aircrack-ng` 的一部分。
-更多信息： <https://www.aircrack-ng.org/doku.php?id=airodump-ng>.
+更多信息：<https://www.aircrack-ng.org/doku.php?id=airodump-ng>.
 
 - 捕获数据包并显示有关无线网络的信息：
 

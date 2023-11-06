@@ -2,8 +2,8 @@
 layout: page
 title: common/bc (日本語)
 description: "任意の精度で計算を行える言語です。"
-content_hash: b164a8b491917f3a414bf5e27089a4ef40064bb9
-last_modified_at: 2023-11-04
+content_hash: 555003ae32eb8c93aabb97a4dc09ac12369d1401
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/common/bc.html
@@ -28,7 +28,7 @@ related_topics:
 
 任意の精度で計算を行える言語です。
 `dc`も参照してください。
-詳しくはこちら: <https://manned.org/man/bc.1>.
+詳しくはこちら: <https://manned.org/man/bc.1>
 
 - 対話モードのセッションを開始する:
 

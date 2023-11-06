@@ -2,8 +2,8 @@
 layout: page
 title: windows/curl (العربية)
 description: "هذا الأمر هو اسم مستعار لـ `curl -p common`."
-content_hash: c60997ce20e3a97b5e7e419c9d6e670f301a5728
-last_modified_at: 2023-11-04
+content_hash: 6c2dee7ea4af5732f2645b433b5db44dc871cd5a
+last_modified_at: 2023-11-06
 related_topics:
   - title: বাংলা version
     url: /bn/windows/curl.html
@@ -13,9 +13,6 @@ related_topics:
     icon: bi bi-globe
   - title: català version
     url: /ca/windows/curl.html
-    icon: bi bi-globe
-  - title: čeština version
-    url: /cs/windows/curl.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/windows/curl.html
@@ -28,12 +25,6 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/curl.html
-    icon: bi bi-globe
-  - title: فارسی version
-    url: /fa/windows/curl.html
-    icon: bi bi-globe
-  - title: suomi version
-    url: /fi/windows/curl.html
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/curl.html
@@ -77,14 +68,8 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/curl.html
     icon: bi bi-globe
-  - title: română version
-    url: /ro/windows/curl.html
-    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/curl.html
-    icon: bi bi-globe
-  - title: српски version
-    url: /sr/windows/curl.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/curl.html
@@ -100,9 +85,6 @@ related_topics:
     icon: bi bi-globe
   - title: українська version
     url: /uk/windows/curl.html
-    icon: bi bi-globe
-  - title: o‘zbek version
-    url: /uz/windows/curl.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/curl.html
@@ -123,7 +105,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># curl
 
 هذا الأمر هو اسم مستعار لـ `curl -p common`.
-لمزيد من التفاصيل: <https://curl.se>.
+لمزيد من التفاصيل: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - إعرض التوثيقات للأمر الأصلي:
 

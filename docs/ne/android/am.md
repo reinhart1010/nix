@@ -2,8 +2,8 @@
 layout: page
 title: android/am (नेपाली)
 description: "एन्ड्रोइड गतिविधि प्रबन्धक।"
-content_hash: e29572555a70c6de8e7479b980da051173385600
-last_modified_at: 2023-11-04
+content_hash: 36b705f7224bad5fbf231fefccf31a7dce61de1b
+last_modified_at: 2023-11-06
 related_topics:
   - title: বাংলা version
     url: /bn/android/am.html
@@ -72,7 +72,7 @@ related_topics:
 # am
 
 एन्ड्रोइड गतिविधि प्रबन्धक।
-थप जानकारी: <https://developer.android.com/studio/command-line/adb#am>.
+थप जानकारी: <https://developer.android.com/studio/command-line/adb#am>।
 
 - एक विशेष गतिविधि सुरु गर्नुहोस्:
 

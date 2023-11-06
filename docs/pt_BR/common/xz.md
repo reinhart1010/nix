@@ -2,8 +2,8 @@
 layout: page
 title: common/xz (português (Brasil))
 description: "Compactar ou descompactar arquivos com a extensão .xz ou .lzma."
-content_hash: 67c072505ce5e067518084835369f47a74c3fa39
-last_modified_at: 2023-11-04
+content_hash: 9438ff7704e88ffa93cf2c55ee04c94dde51f1c0
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/common/xz.html
@@ -12,7 +12,7 @@ related_topics:
 # xz
 
 Compactar ou descompactar arquivos com a extensão .xz ou .lzma.
-Mais informações: <https://tukaani.org/xz/format.html>.
+Mais informações: <https://manned.org/xz>.
 
 - Compactar um arquivo no formato xz:
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/makepkg (हिन्दी)
 description: "एक पैकेज बनाएं जिसका उपयोग `pacman` के साथ किया जा सकता है।"
-content_hash: a0dee540c3d7f011c611f2006010ceb759e2188f
-last_modified_at: 2023-11-04
+content_hash: 988d2788396388d7167ee83f94a041bdd20bc65d
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/linux/makepkg.html
@@ -16,7 +16,7 @@ related_topics:
 
 एक पैकेज बनाएं जिसका उपयोग `pacman` के साथ किया जा सकता है।
 डिफ़ॉल्ट रूप में वर्तमान काम कर रहे डायरेक्टरी में `PKGBUILD` फ़ाइल का उपयोग करता है।
-अधिक जानकारी: <https://man.archlinux.org/man/makepkg.8>.
+अधिक जानकारी: <https://man.archlinux.org/man/makepkg.8>।
 
 - एक पैकेज बनाएं:
 

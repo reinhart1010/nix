@@ -2,8 +2,8 @@
 layout: page
 title: common/ab (日本語)
 description: "Apache HTTP server のベンチマーク用ツールです。"
-content_hash: cf0cf246c0d9bdbe58d15e5bc8d1bd0e53e6040b
-last_modified_at: 2023-11-04
+content_hash: afd0c4ecb69361c4cc53c16fddc7308e5833959e
+last_modified_at: 2023-11-06
 related_topics:
   - title: বাংলা version
     url: /bn/common/ab.html
@@ -48,7 +48,7 @@ related_topics:
 # ab
 
 Apache HTTP server のベンチマーク用ツールです。
-詳細情報はこちら: <https://httpd.apache.org/docs/current/programs/ab.html>.
+詳しくはこちら: <https://httpd.apache.org/docs/current/programs/ab.html>
 
 - 指定された URL に 100 個の GET リクエストを送信する:
 

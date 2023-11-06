@@ -2,23 +2,17 @@
 layout: page
 title: windows/wget (Nederlands)
 description: "In PowerShell kan dit commando een alias zijn van `Invoke-WebRequest` als het originele `wget` programma (<https://www.gnu.org/software/wget>) niet correct is geïnstalleerd."
-content_hash: f5ebca71b6f0025730ba6013ce7b61781042b197
-last_modified_at: 2023-11-04
+content_hash: 752c9bfecea70796058d2dab5e9d16acb7a09fc1
+last_modified_at: 2023-11-06
 related_topics:
   - title: العربية version
     url: /ar/windows/wget.html
-    icon: bi bi-globe
-  - title: বাংলা version
-    url: /bn/windows/wget.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/wget.html
     icon: bi bi-globe
   - title: català version
     url: /ca/windows/wget.html
-    icon: bi bi-globe
-  - title: čeština version
-    url: /cs/windows/wget.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/windows/wget.html
@@ -31,12 +25,6 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/wget.html
-    icon: bi bi-globe
-  - title: فارسی version
-    url: /fa/windows/wget.html
-    icon: bi bi-globe
-  - title: suomi version
-    url: /fi/windows/wget.html
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/wget.html
@@ -77,14 +65,8 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/wget.html
     icon: bi bi-globe
-  - title: română version
-    url: /ro/windows/wget.html
-    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/wget.html
-    icon: bi bi-globe
-  - title: српски version
-    url: /sr/windows/wget.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/wget.html
@@ -101,9 +83,6 @@ related_topics:
   - title: українська version
     url: /uk/windows/wget.html
     icon: bi bi-globe
-  - title: o‘zbek version
-    url: /uz/windows/wget.html
-    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/wget.html
     icon: bi bi-globe
@@ -114,6 +93,7 @@ related_topics:
 # wget
 
 In PowerShell kan dit commando een alias zijn van `Invoke-WebRequest` als het originele `wget` programma (<https://www.gnu.org/software/wget>) niet correct is geïnstalleerd.
+Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Controleer of `wget` correct is geïnstalleerd door het versienummer te printen. Als dit commando resulteert in een error, heeft PowerShell dit commando mogelijk vervangen met `Invoke-WebRequest`:
 

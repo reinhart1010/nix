@@ -2,8 +2,8 @@
 layout: page
 title: common/cp (नेपाली)
 description: "फाइलहरू र डिरेक्टोरीहरू सार्नुहोस।"
-content_hash: 6f6608e9e403ff86a95736aed402b8d1edf7a1b9
-last_modified_at: 2023-11-04
+content_hash: 6b0eddb461d7c136be803836fd2a2855600d2d79
+last_modified_at: 2023-11-06
 related_topics:
   - title: català version
     url: /ca/common/cp.html
@@ -69,7 +69,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># cp
 
 फाइलहरू र डिरेक्टोरीहरू सार्नुहोस।
-थप जानकारी: <https://www.gnu.org/software/coreutils/cp>.
+थप जानकारी: <https://www.gnu.org/software/coreutils/cp>।
 
 - एउटा स्थान बाट अर्को स्थानमा फाइलहरु सार्नुहोस:
 

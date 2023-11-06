@@ -2,20 +2,14 @@
 layout: page
 title: windows/iwr (bosanski)
 description: "Ova komanda je pseudonim za `invoke-webrequest`."
-content_hash: d296ea71a3ce0161323504e523925b2cf8d1e179
-last_modified_at: 2023-11-04
+content_hash: 214b63d78962eac42fd167d74db95a4e40833f77
+last_modified_at: 2023-11-06
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
     icon: bi bi-globe
-  - title: বাংলা version
-    url: /bn/windows/iwr.html
-    icon: bi bi-globe
   - title: català version
     url: /ca/windows/iwr.html
-    icon: bi bi-globe
-  - title: čeština version
-    url: /cs/windows/iwr.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/windows/iwr.html
@@ -28,12 +22,6 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/iwr.html
-    icon: bi bi-globe
-  - title: فارسی version
-    url: /fa/windows/iwr.html
-    icon: bi bi-globe
-  - title: suomi version
-    url: /fi/windows/iwr.html
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/iwr.html
@@ -77,14 +65,8 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/iwr.html
     icon: bi bi-globe
-  - title: română version
-    url: /ro/windows/iwr.html
-    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/iwr.html
-    icon: bi bi-globe
-  - title: српски version
-    url: /sr/windows/iwr.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/iwr.html
@@ -101,9 +83,6 @@ related_topics:
   - title: українська version
     url: /uk/windows/iwr.html
     icon: bi bi-globe
-  - title: o‘zbek version
-    url: /uz/windows/iwr.html
-    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/iwr.html
     icon: bi bi-globe
@@ -114,6 +93,7 @@ related_topics:
 # iwr
 
 Ova komanda je pseudonim za `invoke-webrequest`.
+Više informacija: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Pogledaj dokumentaciju za izvornu komandu:
 

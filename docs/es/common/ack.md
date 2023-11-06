@@ -2,8 +2,8 @@
 layout: page
 title: common/ack (español)
 description: "Una herramienta de búsqueda como grep, optimizada para desarrolladores."
-content_hash: 2bf891ed438eefe9b1e3e2bc408a76710906af74
-last_modified_at: 2023-11-04
+content_hash: 47239a3701e06ebccf99069b468d9afb623a4c99
+last_modified_at: 2023-11-06
 related_topics:
   - title: বাংলা version
     url: /bn/common/ack.html
@@ -46,7 +46,7 @@ related_topics:
 
 Una herramienta de búsqueda como grep, optimizada para desarrolladores.
 Ver también: `rg`, que es más rápido.
-More information: <https://beyondgrep.com/documentation>.
+Más información: <https://beyondgrep.com/documentation>.
 
 - Busca archivos que contengan una cadena o expresión regular en el directorio actual de forma recursiva:
 

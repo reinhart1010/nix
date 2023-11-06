@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreportz (हिन्दी)
 description: "एक ज़िप्ड एंड्रॉइड बग रिपोर्ट तैयार करें।"
-content_hash: a4e3ed06ac9001f153f6959a574eaafe885f9741
-last_modified_at: 2023-11-04
+content_hash: 1fd0242d007dab7923a11140e9702d443df08fa3
+last_modified_at: 2023-11-06
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -67,7 +67,7 @@ related_topics:
 
 एक ज़िप्ड एंड्रॉइड बग रिपोर्ट तैयार करें।
 इस कमांड का उपयोग केवल `adb shell` के माध्यम से किया जा सकता है।
-अधिक जानकारी: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreportz>.
+अधिक जानकारी: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreportz>।
 
 - एंड्रॉइड डिवाइस की संपूर्ण ज़िप्ड बग रिपोर्ट तैयार करें:
 

@@ -2,8 +2,8 @@
 layout: page
 title: windows/curl (தமிழ்)
 description: "PowerShell இல், அசல் `curl` நிரல் (<https://curl.se>) சரியாக நிறுவப்படாதபோது இந்தக் கட்டளை `Invoke-WebRequest` என்பதன் மாற்றுப்பெயராக இருக்கலாம்."
-content_hash: 44d7a0b4e28038e74cbac0997bff7c3c506b120c
-last_modified_at: 2023-11-04
+content_hash: 059c7ed63cd5de2c4d402a980b9c77d862a2848a
+last_modified_at: 2023-11-06
 related_topics:
   - title: العربية version
     url: /ar/windows/curl.html
@@ -17,9 +17,6 @@ related_topics:
   - title: català version
     url: /ca/windows/curl.html
     icon: bi bi-globe
-  - title: čeština version
-    url: /cs/windows/curl.html
-    icon: bi bi-globe
   - title: dansk version
     url: /da/windows/curl.html
     icon: bi bi-globe
@@ -31,12 +28,6 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/curl.html
-    icon: bi bi-globe
-  - title: فارسی version
-    url: /fa/windows/curl.html
-    icon: bi bi-globe
-  - title: suomi version
-    url: /fi/windows/curl.html
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/curl.html
@@ -80,14 +71,8 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/curl.html
     icon: bi bi-globe
-  - title: română version
-    url: /ro/windows/curl.html
-    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/curl.html
-    icon: bi bi-globe
-  - title: српски version
-    url: /sr/windows/curl.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/curl.html
@@ -101,9 +86,6 @@ related_topics:
   - title: українська version
     url: /uk/windows/curl.html
     icon: bi bi-globe
-  - title: o‘zbek version
-    url: /uz/windows/curl.html
-    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/curl.html
     icon: bi bi-globe
@@ -114,6 +96,7 @@ related_topics:
 # curl
 
 PowerShell இல், அசல் `curl` நிரல் (<https://curl.se>) சரியாக நிறுவப்படாதபோது இந்தக் கட்டளை `Invoke-WebRequest` என்பதன் மாற்றுப்பெயராக இருக்கலாம்.
+மேலும் விவரத்திற்கு: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - அதன் பதிப்பு எண்ணை அச்சிட்டு `curl` சரியாக நிறுவப்பட்டுள்ளதா என்பதைச் சரிபார்க்கவும். இந்த கட்டளை பிழையாக மதிப்பிடப்பட்டால், PowerShell இந்த கட்டளையை `Invoke-WebRequest` உடன் மாற்றியிருக்கலாம்:
 

@@ -2,7 +2,8 @@
 layout: page
 title: common/brew (中文 (繁體, 台灣))
 description: "Linux 和 macOS 的套件管理工具。"
-content_hash: fde29ba269ad49cd8375dd97c2cfe32ec19f443b
+content_hash: d11ecf13f78dbb17cd0b97788ce29fe5257df5c7
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/common/brew.html
@@ -10,11 +11,20 @@ related_topics:
   - title: español version
     url: /es/common/brew.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/brew.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/brew.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/brew.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/brew.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/brew.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/brew.html
@@ -23,7 +33,7 @@ related_topics:
 # brew
 
 Linux 和 macOS 的套件管理工具。
-更多資訊：<https://brew.sh>.
+更多資訊：<https://docs.brew.sh/Manpage>.
 
 - 安裝最新穩定版的配方（formula）或木桶（cask），使用 `--devel` 安裝開發版：
 

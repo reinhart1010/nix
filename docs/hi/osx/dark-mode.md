@@ -2,8 +2,8 @@
 layout: page
 title: osx/dark-mode (हिन्दी)
 description: "MacOS डार्क मोड को नियंत्रित करें।"
-content_hash: 142b43ae160bd364070b3765a2c4d50bb5e34670
-last_modified_at: 2023-11-04
+content_hash: f8ffaacd99c97d6e0d554ec12fcfb10bcdcbaae7
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/osx/dark-mode.html
@@ -21,7 +21,7 @@ related_topics:
 # dark-mode
 
 MacOS डार्क मोड को नियंत्रित करें।
-अधिक जानकारी: <https://github.com/sindresorhus/dark-mode>.
+अधिक जानकारी: <https://github.com/sindresorhus/dark-mode>।
 
 - डार्क मोड टॉगल करें (यदि यह वर्तमान में बंद है तो इसे चालू करें, यदि यह वर्तमान में चालू है तो इसे बंद करें):
 

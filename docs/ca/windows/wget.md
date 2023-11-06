@@ -2,20 +2,14 @@
 layout: page
 title: windows/wget (català)
 description: "Aquest comandament és un àlies de `wget -p common`."
-content_hash: dde7e8fbc5a22de689244de4e6f28bc762608778
-last_modified_at: 2023-11-04
+content_hash: 19962395d99aeacf9ac5ec85f5319c0ea26274fd
+last_modified_at: 2023-11-06
 related_topics:
   - title: العربية version
     url: /ar/windows/wget.html
     icon: bi bi-globe
-  - title: বাংলা version
-    url: /bn/windows/wget.html
-    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/wget.html
-    icon: bi bi-globe
-  - title: čeština version
-    url: /cs/windows/wget.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/windows/wget.html
@@ -28,12 +22,6 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/wget.html
-    icon: bi bi-globe
-  - title: فارسی version
-    url: /fa/windows/wget.html
-    icon: bi bi-globe
-  - title: suomi version
-    url: /fi/windows/wget.html
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/wget.html
@@ -77,14 +65,8 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/wget.html
     icon: bi bi-globe
-  - title: română version
-    url: /ro/windows/wget.html
-    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/wget.html
-    icon: bi bi-globe
-  - title: српски version
-    url: /sr/windows/wget.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/wget.html
@@ -100,9 +82,6 @@ related_topics:
     icon: bi bi-globe
   - title: українська version
     url: /uk/windows/wget.html
-    icon: bi bi-globe
-  - title: o‘zbek version
-    url: /uz/windows/wget.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/wget.html
@@ -123,7 +102,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># wget
 
 Aquest comandament és un àlies de `wget -p common`.
-Més informació: <https://www.gnu.org/software/wget>.
+Més informació: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
 - Veure documentació pel comandament original:
 

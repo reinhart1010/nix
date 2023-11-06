@@ -2,8 +2,8 @@
 layout: page
 title: android/screencap (हिन्दी)
 description: "मोबाइल डिस्प्ले का स्क्रीनशॉट लें।"
-content_hash: 078027e1bf253a1a451b0547fe1b36b4d913e3ce
-last_modified_at: 2023-11-04
+content_hash: a1641de0b23594e212fd7ebb6555a3afb23647db
+last_modified_at: 2023-11-06
 related_topics:
   - title: বাংলা version
     url: /bn/android/screencap.html
@@ -49,7 +49,7 @@ related_topics:
 
 मोबाइल डिस्प्ले का स्क्रीनशॉट लें।
 इस कमांड का उपयोग केवल `adb shell` के माध्यम से किया जा सकता है।
-अधिक जानकारी: <https://developer.android.com/studio/command-line/adb#screencap>.
+अधिक जानकारी: <https://developer.android.com/studio/command-line/adb#screencap>।
 
 - कोई स्क्रीनशॉट लें:
 

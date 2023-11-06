@@ -2,8 +2,8 @@
 layout: page
 title: linux/apk (हिन्दी)
 description: "अल्पाइन लिनक्स पैकेज प्रबंधन उपकरण।"
-content_hash: 2b6f4949b57f8fd86acef8dea1fd53f8e2c81142
-last_modified_at: 2023-11-04
+content_hash: 1b89fb13ce726a469936a38b0b36ebffdbf83ef2
+last_modified_at: 2023-11-06
 related_topics:
   - title: Deutsch version
     url: /de/linux/apk.html
@@ -36,7 +36,7 @@ related_topics:
 # apk
 
 अल्पाइन लिनक्स पैकेज प्रबंधन उपकरण।
-अधिक जानकारी: <https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management>.
+अधिक जानकारी: <https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management>।
 
 - सभी दूरस्थ रिपॉजिटरी से रिपॉजिटरी इंडेक्स अपडेट करें:
 

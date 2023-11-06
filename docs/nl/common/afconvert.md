@@ -2,8 +2,8 @@
 layout: page
 title: common/afconvert (Nederlands)
 description: "Converteren tussen AFF en onbewerkte bestandsindelingen."
-content_hash: 052f1d7ed0f891535f620c9b23c56e0d4317160b
-last_modified_at: 2023-11-04
+content_hash: 9593e4c7bbc097448a5fbcf6e09092c4ce343cc5
+last_modified_at: 2023-11-06
 related_topics:
   - title: English version
     url: /en/common/afconvert.html
@@ -21,7 +21,7 @@ related_topics:
 # afconvert
 
 Converteren tussen AFF en onbewerkte bestandsindelingen.
-More information: <https://manned.org/afconvert.1>.
+Meer informatie: <https://manned.org/afconvert.1>.
 
 - Gebruik een specifieke extensie (standaard: `aff`):
 

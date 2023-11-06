@@ -2,8 +2,8 @@
 layout: page
 title: android/input (हिन्दी)
 description: "एंड्रॉइड डिवाइस पर इवेंट कोड या टचस्क्रीन जेस्चर भेजें।"
-content_hash: b5311c641046cdbe111a6528ebf3105c6e21f743
-last_modified_at: 2023-11-04
+content_hash: c7ea49964a9aee664265060ead1409f7cad4ff79
+last_modified_at: 2023-11-06
 related_topics:
   - title: বাংলা version
     url: /bn/android/input.html
@@ -64,7 +64,7 @@ related_topics:
 
 एंड्रॉइड डिवाइस पर इवेंट कोड या टचस्क्रीन जेस्चर भेजें।
 इस कमांड का उपयोग केवल `adb shell` के माध्यम से किया जा सकता है।
-अधिक जानकारी: <https://developer.android.com/reference/android/view/KeyEvent.html#constants_1>.
+अधिक जानकारी: <https://developer.android.com/reference/android/view/KeyEvent.html#constants_1>।
 
 - किसी एकल वर्ण के लिए किसी एंड्रॉइड डिवाइस पर ईवेंट कोड भेजें::
 

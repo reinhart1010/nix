@@ -2,23 +2,17 @@
 layout: page
 title: windows/cinst (नेपाली)
 description: "यो आदेश `choco install` को उपनाम हो |"
-content_hash: 68df346ab7cf56787a80468e8e7150e5f14688de
-last_modified_at: 2023-11-04
+content_hash: c1713ef0751eb8d698c335a4925b02bccc9b17d1
+last_modified_at: 2023-11-06
 related_topics:
   - title: العربية version
     url: /ar/windows/cinst.html
-    icon: bi bi-globe
-  - title: বাংলা version
-    url: /bn/windows/cinst.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/cinst.html
     icon: bi bi-globe
   - title: català version
     url: /ca/windows/cinst.html
-    icon: bi bi-globe
-  - title: čeština version
-    url: /cs/windows/cinst.html
     icon: bi bi-globe
   - title: dansk version
     url: /da/windows/cinst.html
@@ -31,12 +25,6 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/windows/cinst.html
-    icon: bi bi-globe
-  - title: فارسی version
-    url: /fa/windows/cinst.html
-    icon: bi bi-globe
-  - title: suomi version
-    url: /fi/windows/cinst.html
     icon: bi bi-globe
   - title: français version
     url: /fr/windows/cinst.html
@@ -77,14 +65,8 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/windows/cinst.html
     icon: bi bi-globe
-  - title: română version
-    url: /ro/windows/cinst.html
-    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/cinst.html
-    icon: bi bi-globe
-  - title: српски version
-    url: /sr/windows/cinst.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/cinst.html
@@ -101,9 +83,6 @@ related_topics:
   - title: українська version
     url: /uk/windows/cinst.html
     icon: bi bi-globe
-  - title: o‘zbek version
-    url: /uz/windows/cinst.html
-    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/cinst.html
     icon: bi bi-globe
@@ -114,7 +93,7 @@ related_topics:
 # cinst
 
 यो आदेश `choco install` को उपनाम हो |
-थप जानकारी: <https://docs.chocolatey.org/en-us/choco/commands/install>.
+थप जानकारी: <https://docs.chocolatey.org/en-us/choco/commands/install>।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 
