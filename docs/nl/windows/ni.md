@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/ni (Nederlands)
-description: "Dit commando is een alias van `new-item`."
-content_hash: def113397adc9ed9bebf5b23ed506bdf7c4ec73d
-last_modified_at: 2023-11-02
+description: "In PowerShell is dit commando een alias van `New-Item`."
+content_hash: 7e45d9c428aa1e666028360df21a0aa7176d4e11
+last_modified_at: 2023-11-07
 related_topics:
   - title: English version
     url: /en/windows/ni.html
@@ -14,7 +14,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># ni
 
-Dit commando is een alias van `new-item`.
+In PowerShell is dit commando een alias van `New-Item`.
 Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/new-item>.
 
 - Bekijk de documentatie van het originele commando:

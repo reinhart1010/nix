@@ -2,8 +2,8 @@
 layout: page
 title: common/clamav (Nederlands)
 description: "Open-source anti-virus programma."
-content_hash: 97c2cc1cc14a3302348a1273fc9e825b9557c83c
-last_modified_at: 2023-10-20
+content_hash: a1945e03d64cbf569431b02e4ff287ede4e3d4fd
+last_modified_at: 2023-11-07
 related_topics:
   - title: العربية version
     url: /ar/common/clamav.html
@@ -90,19 +90,10 @@ related_topics:
     url: /zh_TW/common/clamav.html
     icon: bi bi-globe
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/clamav.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ClamAV
+# ClamAV
 
 Open-source anti-virus programma.
-ClamAV is geen commando, maar een set van commandos.
+ClamAV is geen commando, maar een set van commando's.
 Meer informatie: <https://www.clamav.net>.
 
 - Toon de tldr pagina om bestanden te scannen door gebruik te maken van de `clamd` daemon:

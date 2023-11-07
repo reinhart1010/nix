@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/clear (Nederlands)
-description: "Dit commando is een alias van `clear-host`."
-content_hash: 16d2625519dd008ac8d2f9a2adcd1445e712000e
-last_modified_at: 2023-11-02
+description: "In PowerShell is dit commando een alias van `Clear-Host`."
+content_hash: 90b0ca200f73824be90ccbc069c00617334483a9
+last_modified_at: 2023-11-07
 related_topics:
   - title: English version
     url: /en/windows/clear.html
@@ -17,7 +17,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># clear
 
-Dit commando is een alias van `clear-host`.
+In PowerShell is dit commando een alias van `Clear-Host`.
 
 - Bekijk de documentatie van het originele commando:
 

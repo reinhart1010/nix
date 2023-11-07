@@ -2,8 +2,8 @@
 layout: page
 title: common/cargo (Nederlands)
 description: "Beheer Rust projecten en hun afhankelijkheden (crates)."
-content_hash: 25888b6f214a0350c7ccc1b378b1e43c68ec833e
-last_modified_at: 2023-10-17
+content_hash: a2552d474661f11acafc523fa8784127f2e1b0c5
+last_modified_at: 2023-11-07
 related_topics:
   - title: Deutsch version
     url: /de/common/cargo.html
@@ -30,19 +30,10 @@ related_topics:
     url: /ta/common/cargo.html
     icon: bi bi-globe
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cargo.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cargo
+# cargo
 
 Beheer Rust projecten en hun afhankelijkheden (crates).
-Sommige subcommando's zoals `build` hebben hun eigen documentatie.
+Sommige subcommando's zoals `build` hebben een eigen documentatie pagina.
 Meer informatie: <https://doc.rust-lang.org/cargo>.
 
 - Zoek naar crates:

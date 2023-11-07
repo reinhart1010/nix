@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/sl (Nederlands)
-description: "Dit commando is een alias van `set-location`."
-content_hash: 44d64843c1e630fbf8138483596c2df064dd717b
-last_modified_at: 2023-11-02
+description: "In PowerShell is dit commando een alias van `Set-Location`."
+content_hash: ee5d3c1c7a12748143277761c1a0c91d3c2ef212
+last_modified_at: 2023-11-07
 related_topics:
   - title: English version
     url: /en/windows/sl.html
@@ -14,7 +14,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># sl
 
-Dit commando is een alias van `set-location`.
+In PowerShell is dit commando een alias van `Set-Location`.
 Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/set-location>.
 
 - Bekijk de documentatie van het originele commando:

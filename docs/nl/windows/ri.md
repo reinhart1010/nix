@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/ri (Nederlands)
-description: "Dit commando is een alias van `remove-item`."
-content_hash: 4409a73f9d2c9916134af3993346d12c09095d4c
-last_modified_at: 2023-11-02
+description: "In PowerShell is dit commando een alias van `Remove-Item`."
+content_hash: 422710a3aa338e2bae6b32f664b1b79eb9258732
+last_modified_at: 2023-11-07
 related_topics:
   - title: English version
     url: /en/windows/ri.html
@@ -14,7 +14,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># ri
 
-Dit commando is een alias van `remove-item`.
+In PowerShell is dit commando een alias van `Remove-Item`.
 Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/remove-item>.
 
 - Bekijk de documentatie van het originele commando:
