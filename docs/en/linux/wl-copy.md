@@ -2,7 +2,12 @@
 layout: page
 title: linux/wl-copy (English)
 description: "Wayland clipboard manipulation tool."
-content_hash: 9acd7ef7ce26cb08a9007599647f806592749a80
+content_hash: 42a9b5c0a967dbce00620fc7517e0feff98ff4c6
+last_modified_at: 2023-11-07
+related_topics:
+  - title: Türkçe version
+    url: /tr/linux/wl-copy.html
+    icon: bi bi-globe
 ---
 # wl-copy
 
@@ -21,6 +26,10 @@ More information: <https://github.com/bugaevc/wl-clipboard>.
 - Copy for only one paste and then clear it:
 
 `wl-copy --paste-once "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">text</span>`"`
+
+- Copy an image:
+
+`wl-copy < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image</span>
 
 - Clear the clipboard:
 
