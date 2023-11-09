@@ -2,7 +2,7 @@
 layout: page
 title: common/docker-container-rename (polski)
 description: "To polecenie jest aliasem `docker rename`."
-content_hash: 5ccf3f6d91c22214baea124f5346ca6ffbf9eb7a
+content_hash: 3642274a3f422f9e83b3ab7cc3b1b36939d81764
 last_modified_at: 2023-11-09
 related_topics:
   - title: English version
@@ -15,6 +15,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># docker container rename
 
 To polecenie jest aliasem `docker rename`.
+Więcej informacji: <https://docs.docker.com/engine/reference/commandline/rename>.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

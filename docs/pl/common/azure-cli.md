@@ -2,7 +2,7 @@
 layout: page
 title: common/azure-cli (polski)
 description: "To polecenie jest aliasem `az`."
-content_hash: 2afc653cf7b887692624d465431dd3b6ddfccf36
+content_hash: 2863a3c75df495d523b2c25726e2a23105c24a14
 last_modified_at: 2023-11-09
 related_topics:
   - title: English version
@@ -15,6 +15,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># azure-cli
 
 To polecenie jest aliasem `az`.
+Więcej informacji: <https://learn.microsoft.com/cli/azure>.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

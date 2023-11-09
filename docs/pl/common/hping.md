@@ -2,7 +2,7 @@
 layout: page
 title: common/hping (polski)
 description: "To polecenie jest aliasem `hping3`."
-content_hash: f939f05f412331d39d48e1f577852e97636844e1
+content_hash: 141becaddbe340564a243efb135d96098e460259
 last_modified_at: 2023-11-09
 related_topics:
   - title: English version
@@ -18,6 +18,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># hping
 
 To polecenie jest aliasem `hping3`.
+Więcej informacji: <https://github.com/antirez/hping>.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

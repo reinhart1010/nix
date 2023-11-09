@@ -2,7 +2,7 @@
 layout: page
 title: common/docker-container-rm (polski)
 description: "To polecenie jest aliasem `docker rm`."
-content_hash: 68b8ae8bf84e9089f528c33821f10d655bd8940a
+content_hash: 9ed517b46fb6b4692864503e05f4f47e3ba4c86b
 last_modified_at: 2023-11-09
 related_topics:
   - title: English version
@@ -15,6 +15,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># docker container rm
 
 To polecenie jest aliasem `docker rm`.
+Więcej informacji: <https://docs.docker.com/engine/reference/commandline/rm>.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

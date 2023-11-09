@@ -2,7 +2,7 @@
 layout: page
 title: common/docker-container-top (polski)
 description: "To polecenie jest aliasem `docker top`."
-content_hash: 45ca4ba43943d774655e65c6a19e0f8eb44cd8bf
+content_hash: 638fbb2c605795a1efe2d0d0fe96f593332bab4f
 last_modified_at: 2023-11-09
 related_topics:
   - title: English version
@@ -15,6 +15,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># docker container top
 
 To polecenie jest aliasem `docker top`.
+Więcej informacji: <https://docs.docker.com/engine/reference/commandline/top>.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
