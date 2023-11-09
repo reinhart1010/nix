@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/unzstd (polski)
-description: "To polecenie jest aliasem `zstd`."
-content_hash: f43d576836ca40e8d81d2bdef51c66d36dfc1055
-last_modified_at: 2023-11-02
+description: "To polecenie jest aliasem `zstd --decompress`."
+content_hash: b3e785e59c4e5ad2a6ea5516361422b4e6f85f62
+last_modified_at: 2023-11-09
 related_topics:
   - title: English version
     url: /en/common/unzstd.html
@@ -14,7 +14,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># unzstd
 
-To polecenie jest aliasem `zstd`.
+To polecenie jest aliasem `zstd --decompress`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/zstdcat (polski)
-description: "To polecenie jest aliasem `zstd`."
-content_hash: e70071ed5d736d346bb4935b691aaed73d61d501
-last_modified_at: 2023-11-02
+description: "To polecenie jest aliasem `zstd --decompress --stdout`."
+content_hash: c2d1808e88b2b84fe64cea38ff1346dea47aa239
+last_modified_at: 2023-11-09
 related_topics:
   - title: English version
     url: /en/common/zstdcat.html
@@ -14,7 +14,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># zstdcat
 
-To polecenie jest aliasem `zstd`.
+To polecenie jest aliasem `zstd --decompress --stdout`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

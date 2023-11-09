@@ -1,12 +1,15 @@
 ---
 layout: page
 title: common/linode-cli (polski)
-description: "To polecenie jest aliasem `linode-cli account`."
-content_hash: 5273a21d4ea4f266cdcf5e7f2c6b5615203885f3
-last_modified_at: 2023-11-02
+description: "Zarządzaj usługami w chmurze Linode."
+content_hash: 025a5a0da55b3ed49621d3c7a43e93d6feb0f8b4
+last_modified_at: 2023-11-09
 related_topics:
   - title: English version
     url: /en/common/linode-cli.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/linode-cli.html
     icon: bi bi-globe
 ---
 
@@ -14,9 +17,38 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># linode-cli
 
-To polecenie jest aliasem `linode-cli account`.
+Zarządzaj usługami w chmurze Linode.
+Niektóre podkomendy, takie jak `events` mają osobną dokumentację.
 Więcej informacji: <https://www.linode.com/docs/products/tools/cli/get-started/>.
 
-- Zobacz dokumentację oryginalnego polecenia:
+- Wypisz wszystkie instancje Linode:
+
+`linode-cli linodes list`
+
+- Zobacz dokumentację dotyczącą zarządzania kontami Linode:
 
 `tldr linode-cli account`
+
+- Zobacz dokumentację dotyczącą zarządzania instancjami Linode:
+
+`tldr linode-cli linodes`
+
+- Zobacz dokumentację dotyczącą zarządzania klastrami Linode Kubernetes Engine (LKE):
+
+`tldr linode-cli lke`
+
+- Zobacz dokumentację dotyczącą zarządzania modułami równoważenia obciążenia (NodeBalancers):
+
+`tldr linode-cli nodebalancers`
+
+- Zobacz dokumentację dotyczącą zarządzania Linode Object Storage:
+
+`tldr linode-cli object-storage`
+
+- Zobacz dokumentację dotyczącą zarządzania domenami i konfiguracją DNS:
+
+`tldr linode-cli domains`
+
+- Zobacz dokumentację dotyczącą zarządzania wolumenami Linode:
+
+`tldr linode-cli volumes`

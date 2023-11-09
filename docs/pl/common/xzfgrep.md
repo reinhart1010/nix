@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/xzfgrep (polski)
-description: "To polecenie jest aliasem `xzgrep`."
-content_hash: d8b428c0d9a17a0da867d8d68a70b588978adac0
-last_modified_at: 2023-11-02
+description: "To polecenie jest aliasem `xzgrep --fixed-strings`."
+content_hash: 215f44450926499e1770b1d0abeb938f1918214f
+last_modified_at: 2023-11-09
 related_topics:
   - title: English version
     url: /en/common/xzfgrep.html
@@ -14,7 +14,8 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># xzfgrep
 
-To polecenie jest aliasem `xzgrep`.
+To polecenie jest aliasem `xzgrep --fixed-strings`.
+Zobacz także: `fgrep`.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

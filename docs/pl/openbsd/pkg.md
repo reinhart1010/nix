@@ -1,12 +1,15 @@
 ---
 layout: page
 title: openbsd/pkg (polski)
-description: "To polecenie jest aliasem `pkg_add`."
-content_hash: c6e35291f6d582954bb733e36b92944ff7501aa3
-last_modified_at: 2023-11-02
+description: "Menedżer pakietów OpenBSD."
+content_hash: 136b643a1004f28d5a53506aef211caf546f285b
+last_modified_at: 2023-11-09
 related_topics:
   - title: English version
     url: /en/openbsd/pkg.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/openbsd/pkg.html
     icon: bi bi-globe
 ---
 
@@ -14,9 +17,17 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># pkg
 
-To polecenie jest aliasem `pkg_add`.
+Menedżer pakietów OpenBSD.
 Więcej informacji: <https://www.openbsd.org/faq/faq15.html>.
 
-- Zobacz dokumentację oryginalnego polecenia:
+- Zobacz dokumentację dotyczącą instalowania/aktualizowania pakietów:
 
 `tldr pkg_add`
+
+- Zobacz dokumentację dotyczącą usuwania pakietów:
+
+`tldr pkg_delete`
+
+- Zobacz dokumentację dotyczącą pokazywania informacji o pakietach:
+
+`tldr pkg_info`

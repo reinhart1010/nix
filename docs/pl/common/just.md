@@ -1,12 +1,15 @@
 ---
 layout: page
 title: common/just (polski)
-description: "To polecenie jest aliasem `just.1`."
-content_hash: 9fa5ae12b5b66b3c5cdfbf0a3c77f4ad4d982566
-last_modified_at: 2023-11-02
+description: "`just` może odnosić się do kilku komend o tej samej nazwie."
+content_hash: 6042d27c636c2a7aead71c683db7517b11cffa1d
+last_modified_at: 2023-11-09
 related_topics:
   - title: English version
     url: /en/common/just.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/just.html
     icon: bi bi-globe
 ---
 
@@ -14,8 +17,12 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># just
 
-To polecenie jest aliasem `just.1`.
+`just` może odnosić się do kilku komend o tej samej nazwie.
 
-- Zobacz dokumentację oryginalnego polecenia:
+- Zobacz dokumentację programu uruchamiającego polecenia:
 
 `tldr just.1`
+
+- Zobacz dokumentację środowiska V8 JavaScript:
+
+`tldr just.js`

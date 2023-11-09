@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/zstdmt (polski)
-description: "To polecenie jest aliasem `zstd`."
-content_hash: 9bad48ab577ff9964ff87365d4eec6b3bc83f01f
-last_modified_at: 2023-11-02
+description: "To polecenie jest aliasem `zstd --threads 0` (które ustawia liczbę wątków pracy na liczbę fizycznych rdzeni procesora)."
+content_hash: d7d52cfff40c415a341bfa9628c822d04332761e
+last_modified_at: 2023-11-09
 related_topics:
   - title: English version
     url: /en/common/zstdmt.html
@@ -14,7 +14,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># zstdmt
 
-To polecenie jest aliasem `zstd`.
+To polecenie jest aliasem `zstd --threads 0` (które ustawia liczbę wątków pracy na liczbę fizycznych rdzeni procesora).
 
 - Zobacz dokumentację oryginalnego polecenia:
 

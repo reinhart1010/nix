@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/open (polski)
-description: "To polecenie jest aliasem `open -p osx`."
-content_hash: 69056dd9cb7cea9af12740b2563e7e7e40992049
-last_modified_at: 2023-11-02
+description: "`open` może odnosić się do kilku komend o tej samej nazwie."
+content_hash: 1be7afc52e2cbee656970acba360f730f4229afd
+last_modified_at: 2023-11-09
 related_topics:
   - title: English version
     url: /en/common/open.html
@@ -11,14 +11,21 @@ related_topics:
   - title: Indonesia version
     url: /id/common/open.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/open.html
+    icon: bi bi-globe
 ---
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># open
 
-To polecenie jest aliasem `open -p osx`.
+`open` może odnosić się do kilku komend o tej samej nazwie.
 
-- Zobacz dokumentację oryginalnego polecenia:
+- Zobacz dokumentację komendy dostępnej w macOS:
 
 `tldr open -p osx`
+
+- Zobacz dokumentację komendy dostępnej w `fish`:
+
+`tldr open.fish`
