@@ -2,8 +2,8 @@
 layout: page
 title: common/ps-nvm (English)
 description: "PowerShell-based utility to manage multiple Node.js versions, inspired by `nvm`."
-content_hash: 6b7d190c4b21d2292ed4ec3b933edf3a99150c40
-last_modified_at: 2023-11-03
+content_hash: c5d732c0a9d6c0d5fa673e9c276c1ce93528102b
+last_modified_at: 2023-11-10
 ---
 # ps-nvm
 
@@ -21,7 +21,7 @@ More information: <https://github.com/aaronpowell/ps-nvm>.
 
 - View documentation for `Install-NodeVersion`, a tool to install Node.js runtime versions:
 
-`tldr get-nodeversion`
+`tldr install-nodeversion`
 
 - View documentation for `Remove-NodeVersion`, a tool to uninstall an existing Node.js version:
 
