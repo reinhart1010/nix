@@ -129,10 +129,10 @@ for lang in i18n["languages"]:
         tldri18n_status = i18n["entries"][hierarchy[0]]["pages"][hierarchy[1]]["status"][lang]
 
         if "content_hash" not in current_page.metadata.keys() or current_page.metadata["content_hash"] != content_hash:
-          print(content_hash + " does not match with current " + current_page.metadata["content_hash"])
+          print("%s does not match with current %s" % (content_hash, current_page.metadata["content_hash"]))
           extract_page(lang, page)
         elif "tldri18n_status" not in current_page.metadata.keys() or current_page.metadata["tldri18n_status"] != tldri18n_status:
-          print(tldri18n_status + " does not match with current " + current_page.metadata["tldri18n_status"])
+          print("%s does not match with current %s" % (tldri18n_status, current_page.metadata["tldri18n_status"]))
           extract_page(lang, page)
       except AttributeError:
         extract_page(lang, page)
