@@ -1,8 +1,8 @@
 ---
 layout: page
 title: windows/sls (bosanski)
-description: "Ova komanda je pseudonim za `where-object`."
-content_hash: 2721c2fabe76ebde6823ad07b4b041be038eefe6
+description: "Ova komanda je pseudonim za `Select-String`."
+content_hash: bbedef112dc183ff49e02428b249ddaced552101
 last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
@@ -93,9 +93,9 @@ tldri18n_status: 2
 ---
 # sls
 
-Ova komanda je pseudonim za `where-object`.
+Ova komanda je pseudonim za `Select-String`.
 Više informacija: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - Pogledaj dokumentaciju za izvornu komandu:
 
-`tldr where-object`
+`tldr select-string`

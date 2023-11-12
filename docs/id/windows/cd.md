@@ -1,8 +1,8 @@
 ---
 layout: page
 title: windows/cd (Indonesia)
-description: "Menampilkan direktori kerja saat ini atau pindah ke direktori lain."
-content_hash: b731fd1a6de67c57759bf40123734e9fc95e8c93
+description: "Tampilkan direktori kerja saat ini atau pindah ke direktori lain."
+content_hash: 5149014519c3bdb095a8046ac9efa993c1769840
 last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
@@ -51,25 +51,34 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># cd
 
-Menampilkan direktori kerja saat ini atau pindah ke direktori lain.
+Tampilkan direktori kerja saat ini atau pindah ke direktori lain.
+Dalam PowerShell, perintah ini merupakan alias dari `Set-Location`. Dokumentasi ini ditulis menurut perintah `cd` versi Command Prompt (`cmd`).
 Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
+
+- Lihat dokumentasi untuk perintah PowerShell serupa:
+
+`tldr set-location`
 
 - Tampilkan nama dari direktori saat ini:
 
 `cd`
 
-- Pergi menuju root dari drive saat ini:
+- Pergi menuju suatu direktori pada drive yang sama:
 
-`cd \`
+`cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan\menuju\direktori</span>
+
+- Pergi menuju direktori tertentu pada [d]rive yang berbeda:
+
+`cd /d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan\menuju\direktori</span>
 
 - Pergi menuju induk dari direktori dari saat ini:
 
 `cd ..`
 
-- Pergi menuju suatu direktori pada drive yang sama:
+- Pergi menuju direktori pangkal/home milik pengguna saat ini:
 
-`cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span>
+`cd %userprofile%`
 
-- Pergi menuju direktori tertentu di [d]rive yang berbeda:
+- Pergi menuju akar (root) dari drive saat ini:
 
-`cd /d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan\menuju\direktori</span>
+`cd \`

@@ -1,8 +1,8 @@
 ---
 layout: page
 title: windows/sls (Nederlands)
-description: "Dit commando is een alias van `where-object`."
-content_hash: b2d303b984214452a35d7f1f3d879c133a5640bf
+description: "Dit commando is een alias van `Select-String`."
+content_hash: bf4efa5c4ad6d20c6f39053db7acb4265997f508
 last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
@@ -93,9 +93,9 @@ tldri18n_status: 2
 ---
 # sls
 
-Dit commando is een alias van `where-object`.
+Dit commando is een alias van `Select-String`.
 Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - Bekijk de documentatie van het originele commando:
 
-`tldr where-object`
+`tldr select-string`

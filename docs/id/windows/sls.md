@@ -1,8 +1,8 @@
 ---
 layout: page
 title: windows/sls (Indonesia)
-description: "Perintah ini merupakan alias dari `where-object`."
-content_hash: 9561bc66a720b03f24cda8ef67163735b164d10e
+description: "Perintah ini merupakan alias dari `Select-String`."
+content_hash: 6144d117c34f157501dfabf7fbbc5010504a6459
 last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
@@ -93,9 +93,9 @@ tldri18n_status: 2
 ---
 # sls
 
-Perintah ini merupakan alias dari `where-object`.
+Perintah ini merupakan alias dari `Select-String`.
 Informasi lebih lanjut: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - Menampilkan dokumentasi untuk perintah asli:
 
-`tldr where-object`
+`tldr select-string`

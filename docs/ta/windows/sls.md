@@ -1,8 +1,8 @@
 ---
 layout: page
 title: windows/sls (தமிழ்)
-description: "இக்கட்டளை `where-object` கட்டளையின் மற்றொருப் பெயர்."
-content_hash: b301c5e68830f12ce34e1f55a0070926fce48628
+description: "இக்கட்டளை `Select-String` கட்டளையின் மற்றொருப் பெயர்."
+content_hash: 6d42221b2d2bac4175291b2be9ea09fbd50c4ecf
 last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
@@ -93,9 +93,9 @@ tldri18n_status: 2
 ---
 # sls
 
-இக்கட்டளை `where-object` கட்டளையின் மற்றொருப் பெயர்.
+இக்கட்டளை `Select-String` கட்டளையின் மற்றொருப் பெயர்.
 மேலும் விவரத்திற்கு: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - அக்கட்டளையின் விளக்கத்தைக் காண:
 
-`tldr where-object`
+`tldr select-string`

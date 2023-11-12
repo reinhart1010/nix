@@ -1,8 +1,8 @@
 ---
 layout: page
 title: windows/sls (Deutsch)
-description: "Dieser Befehl ist ein Alias von `where-object`."
-content_hash: db3c1d8a5dc96d455bda9004f9695d9387ccd408
+description: "Dieser Befehl ist ein Alias von `Select-String`."
+content_hash: ac7b5a7da9c606a77ca1f3e5f7184e194cf316da
 last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
@@ -93,9 +93,9 @@ tldri18n_status: 2
 ---
 # sls
 
-Dieser Befehl ist ein Alias von `where-object`.
+Dieser Befehl ist ein Alias von `Select-String`.
 Weitere Informationen: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - Zeige die Dokumentation für den originalen Befehl an:
 
-`tldr where-object`
+`tldr select-string`

@@ -1,8 +1,8 @@
 ---
 layout: page
 title: windows/sls (العربية)
-description: "هذا الأمر هو اسم مستعار لـ `where-object`."
-content_hash: 4f2d5e51291cd5c6f8c73148c8025fd33f756411
+description: "هذا الأمر هو اسم مستعار لـ `Select-String`."
+content_hash: c7c117628288493694a9b146b21cd184f14144c0
 last_modified_at: 2023-11-12
 related_topics:
   - title: bosanski version
@@ -93,9 +93,9 @@ tldri18n_status: 2
 ---
 # sls
 
-هذا الأمر هو اسم مستعار لـ `where-object`.
+هذا الأمر هو اسم مستعار لـ `Select-String`.
 لمزيد من التفاصيل: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - إعرض التوثيقات للأمر الأصلي:
 
-`tldr where-object`
+`tldr select-string`

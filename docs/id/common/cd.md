@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/cd (Indonesia)
-description: "Mengganti direktori kerja saat ini."
-content_hash: b0cd07b68c272dbb27b35f73be33659c9c55ae44
+description: "Ubah direktori kerja saat ini."
+content_hash: ae9866101c2ea3130fa38cc68d37e0aaa1496b5f
 last_modified_at: 2023-11-12
 related_topics:
   - title: català version
@@ -66,7 +66,7 @@ tldri18n_status: 2
 ---
 # cd
 
-Mengganti direktori kerja saat ini.
+Ubah direktori kerja saat ini.
 Informasi lebih lanjut: <https://manned.org/cd>.
 
 - Pergi menuju direktori yang ditentukan:
@@ -81,7 +81,7 @@ Informasi lebih lanjut: <https://manned.org/cd>.
 
 `cd`
 
-- Pergi menuju direktori pangkal/home milik pengguna yang ditentukan:
+- Pergi menuju direktori pangkal/home milik pengguna tertentu:
 
 `cd ~`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>
 

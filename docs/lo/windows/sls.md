@@ -1,8 +1,8 @@
 ---
 layout: page
 title: windows/sls (ລາວ)
-description: "ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `where-object`."
-content_hash: 28721e84550583dc7975a151c23338b8f4219679
+description: "ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `Select-String`."
+content_hash: 7cce6011e56c2c4a21d6afbe9ec21f7f6ff64356
 last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
@@ -93,9 +93,9 @@ tldri18n_status: 2
 ---
 # sls
 
-ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `where-object`.
+ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `Select-String`.
 ຂໍ້ມູນເພີ່ມເຕີມ: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - ເປີດເບິ່ງລາຍລະອຽດຂອງຄຳສັ່ງແບບເຕັມ:
 
-`tldr where-object`
+`tldr select-string`

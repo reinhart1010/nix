@@ -1,22 +1,29 @@
 ---
 layout: page
 title: windows/sl (Indonesia)
-description: "Perintah ini merupakan alias dari `set-location`."
-content_hash: 0eeccbf506237beec9f7ca7ad42073ddcdfcdb98
-last_modified_at: 2023-11-02
+description: "Perintah ini merupakan alias dari `Set-Location` di PowerShell."
+content_hash: c14f1d4d3c7967e07b37b9b625a9ef0eb6aae787
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/sl.html
     icon: bi bi-globe
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
 
-<hr># sl
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
 
-Perintah ini merupakan alias dari `set-location`.
+<a class="btn btn-primary" href="{{ site.url }}/en/windows/sl.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># iwr
+
+Perintah ini merupakan alias dari `Set-Location` di PowerShell.
 Informasi lebih lanjut: <https://learn.microsoft.com/powershell/module/microsoft.powershell.management/set-location>.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr set-location`

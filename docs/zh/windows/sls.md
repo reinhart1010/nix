@@ -1,8 +1,8 @@
 ---
 layout: page
 title: windows/sls (中文)
-description: "这是 `where-object` 命令的一个别名。"
-content_hash: f11cb069f5acb82ca494bf9f9539bbd0056c5d71
+description: "这是 `Select-String` 命令的一个别名。"
+content_hash: ed1c9d781615eae83d5bbf772f2b74f20213fd34
 last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
@@ -93,9 +93,9 @@ tldri18n_status: 2
 ---
 # sls
 
-这是 `where-object` 命令的一个别名。
+这是 `Select-String` 命令的一个别名。
 更多信息：<https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - 原命令的文档在：
 
-`tldr where-object`
+`tldr select-string`

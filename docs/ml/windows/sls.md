@@ -1,8 +1,8 @@
 ---
 layout: page
 title: windows/sls (മലയാളം)
-description: "ഈ കമാൻഡ് `where-object` എന്നത്തിന്റെ അപരനാമമാണ്."
-content_hash: 2288a075fc792485e8e50c4f9f14609687e42bdc
+description: "ഈ കമാൻഡ് `Select-String` എന്നത്തിന്റെ അപരനാമമാണ്."
+content_hash: d0beec0d795a02105c8bde32013b35f491dbc4ca
 last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
@@ -93,9 +93,9 @@ tldri18n_status: 2
 ---
 # sls
 
-ഈ കമാൻഡ് `where-object` എന്നത്തിന്റെ അപരനാമമാണ്.
+ഈ കമാൻഡ് `Select-String` എന്നത്തിന്റെ അപരനാമമാണ്.
 കൂടുതൽ വിവരങ്ങൾ: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - യഥാർത്ഥ കമാൻഡിനായി ഡോക്യുമെന്റേഷൻ കാണുക:
 
-`tldr where-object`
+`tldr select-string`

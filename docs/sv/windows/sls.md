@@ -1,8 +1,8 @@
 ---
 layout: page
 title: windows/sls (svenska)
-description: "Det här kommandot är ett alias för `where-object`."
-content_hash: 7ab7a469df28f79ea8761f544b3e15378df2b031
+description: "Det här kommandot är ett alias för `Select-String`."
+content_hash: 35c39dc14a14a868b92609c6a793f7c7f0a6d085
 last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
@@ -93,9 +93,9 @@ tldri18n_status: 2
 ---
 # sls
 
-Det här kommandot är ett alias för `where-object`.
+Det här kommandot är ett alias för `Select-String`.
 Mer information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - Se dokumentationen för orginalkommandot:
 
-`tldr where-object`
+`tldr select-string`

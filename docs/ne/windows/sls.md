@@ -1,8 +1,8 @@
 ---
 layout: page
 title: windows/sls (नेपाली)
-description: "यो आदेश `where-object` को उपनाम हो |"
-content_hash: 2fba40b3ca47a3771189699593513b0c8fe96726
+description: "यो आदेश `Select-String` को उपनाम हो |"
+content_hash: a185d4440954f4d6b64a56e4e243f096f53b9426
 last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
@@ -93,9 +93,9 @@ tldri18n_status: 2
 ---
 # sls
 
-यो आदेश `where-object` को उपनाम हो |
+यो आदेश `Select-String` को उपनाम हो |
 थप जानकारी: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>।
 
 - मौलिक आदेशको लागि कागजात हेर्नुहोस्:
 
-`tldr where-object`
+`tldr select-string`

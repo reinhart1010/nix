@@ -1,8 +1,8 @@
 ---
 layout: page
 title: windows/sls (Türkçe)
-description: "Bu komut `where-object` için bir takma addır."
-content_hash: d43edfc0e056618232ab4197564b45e0c8235a61
+description: "Bu komut `Select-String` için bir takma addır."
+content_hash: 3f7269697be03b2bbc73f1973052a3c10a6255fa
 last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
@@ -93,9 +93,9 @@ tldri18n_status: 2
 ---
 # sls
 
-Bu komut `where-object` için bir takma addır.
+Bu komut `Select-String` için bir takma addır.
 Daha fazla bilgi için: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr where-object`
+`tldr select-string`

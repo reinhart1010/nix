@@ -1,8 +1,8 @@
 ---
 layout: page
 title: windows/sls (português (Brasil))
-description: "Este comando é um pseudônimo de `where-object`."
-content_hash: 231f2eccab295bcec015fcfffb8bde2250da628f
+description: "Este comando é um pseudônimo de `Select-String`."
+content_hash: ed4760bf1ec975c7d9640720c651ca8d1c3c1cba
 last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
@@ -93,9 +93,9 @@ tldri18n_status: 2
 ---
 # sls
 
-Este comando é um pseudônimo de `where-object`.
+Este comando é um pseudônimo de `Select-String`.
 Mais informações: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - Ver documentação sobre o comando original:
 
-`tldr where-object`
+`tldr select-string`

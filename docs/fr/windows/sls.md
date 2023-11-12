@@ -1,8 +1,8 @@
 ---
 layout: page
 title: windows/sls (français)
-description: "Cette commande est un alias de `where-object`."
-content_hash: 6231d7a239f8d8a48686afefc9432174d1a8499f
+description: "Cette commande est un alias de `Select-String`."
+content_hash: e4fd985fb6b33857fa877e6285f864eafa870680
 last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
@@ -93,9 +93,9 @@ tldri18n_status: 2
 ---
 # sls
 
-Cette commande est un alias de `where-object`.
+Cette commande est un alias de `Select-String`.
 Plus d'informations : <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - Voir la documentation de la commande originale :
 
-`tldr where-object`
+`tldr select-string`

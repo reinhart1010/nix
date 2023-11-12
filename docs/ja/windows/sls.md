@@ -1,8 +1,8 @@
 ---
 layout: page
 title: windows/sls (日本語)
-description: "このコマンドは `where-object` のエイリアスです。"
-content_hash: 0896845da2b50d0b464a6b94912a5becc332cadb
+description: "このコマンドは `Select-String` のエイリアスです。"
+content_hash: ce1c3e8cab5b98c6c7dbdd3f9af7568437ad7763
 last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
@@ -93,9 +93,9 @@ tldri18n_status: 2
 ---
 # sls
 
-このコマンドは `where-object` のエイリアスです。
+このコマンドは `Select-String` のエイリアスです。
 詳しくはこちら: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>
 
 - オリジナルのコマンドのドキュメントを表示する:
 
-`tldr where-object`
+`tldr select-string`

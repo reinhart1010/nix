@@ -1,8 +1,8 @@
 ---
 layout: page
 title: windows/sls (українська)
-description: "Ця команда є псевдонімом для `where-object`."
-content_hash: 5949834fdc33359d3eb0c8a5c6dc9860214858cb
+description: "Ця команда є псевдонімом для `Select-String`."
+content_hash: ba4f054aae18356a0e225ea1fd8271f34f3f0552
 last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
@@ -93,9 +93,9 @@ tldri18n_status: 2
 ---
 # sls
 
-Ця команда є псевдонімом для `where-object`.
+Ця команда є псевдонімом для `Select-String`.
 Більше інформації: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - Дивись документацію для оригінальної команди:
 
-`tldr where-object`
+`tldr select-string`

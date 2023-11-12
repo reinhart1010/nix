@@ -1,8 +1,8 @@
 ---
 layout: page
 title: windows/sls (polski)
-description: "To polecenie jest aliasem `where-object`."
-content_hash: a3baa01e64c057523f6b12e23fd803ca7cd7cc23
+description: "To polecenie jest aliasem `Select-String`."
+content_hash: 4a0182c7c27efda18de94f074a284e6975df2e4b
 last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
@@ -93,9 +93,9 @@ tldri18n_status: 2
 ---
 # sls
 
-To polecenie jest aliasem `where-object`.
+To polecenie jest aliasem `Select-String`.
 Więcej informacji: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/select-string>.
 
 - Zobacz dokumentację oryginalnego polecenia:
 
-`tldr where-object`
+`tldr select-string`

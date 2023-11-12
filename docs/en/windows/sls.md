@@ -2,7 +2,7 @@
 layout: page
 title: windows/sls (English)
 description: "This command is an alias of `Select-String`."
-content_hash: 3797a2546ee46200e2116022783408f67e466f2f
+content_hash: 85e2f656c253e288826ee0878a807f9437ad2460
 last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
@@ -98,4 +98,4 @@ More information: <https://learn.microsoft.com/powershell/module/microsoft.power
 
 - View documentation for the original command:
 
-`tldr where-object`
+`tldr select-string`

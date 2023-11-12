@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/powershell (English)
-description: "Command-line shell and scripting language designed especially for system administration."
-content_hash: 72550ede8d5b17a87a6306e53b7fb512ae9ecf25
+description: "This command may be mistaken as the cross-platform version of PowerShell (formerly known as PowerShell Core), which uses `pwsh` instead of `powershell`."
+content_hash: 4cdb1c0eb793708416d4368af947dc98bc7dddf7
 last_modified_at: 2023-11-12
 related_topics:
   - title: français version
@@ -21,38 +21,18 @@ tldri18n_status: 2
 ---
 # powershell
 
-Command-line shell and scripting language designed especially for system administration.
-See also: `pwsh`.
-More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/powershell>.
+This command may be mistaken as the cross-platform version of PowerShell (formerly known as PowerShell Core), which uses `pwsh` instead of `powershell`.
+The original `powershell` command in Windows is still available to use the legacy Windows version of PowerShell (version 5.1 and below).
+More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_pwsh>.
 
-- Start an interactive shell session:
+- View the documentation for the command referring to the latest, cross-platform version of PowerShell (version 6 and above):
 
-`powershell`
+`tldr pwsh`
 
-- Start an interactive shell session without loading startup configs:
+- View the documentation for the command referring to the legacy Windows PowerShell (version 5.1 and below):
 
-`powershell -NoProfile`
+`tldr powershell -p windows`
 
-- Execute specific commands:
+- View the documentation for the command referring to the legacy Windows PowerShell in older versions of `tldr` command-line client:
 
-`powershell -Command "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 'powershell is executed'</span>`"`
-
-- Execute a specific script:
-
-`powershell -File `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.ps1</span>
-
-- Start a session with a specific version of PowerShell:
-
-`powershell -Version `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span>
-
-- Prevent a shell from exit after running startup commands:
-
-`powershell -NoExit`
-
-- Describe the format of data sent to PowerShell:
-
-`powershell -InputFormat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Text|XML</span>
-
-- Determine how an output from PowerShell is formatted:
-
-`powershell -OutputFormat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Text|XML</span>
+`tldr powershell -o windows`
