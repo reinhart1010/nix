@@ -55,11 +55,11 @@ def extract_page(lang: str, page: str):
   # Generate frontmatters
   front_matter = "---\n"
   front_matter += "layout: page\n"
-  front_matter += "title: " + title + "\n"
-  front_matter += "description: \"" + content[2][2:-1].replace("\"", "\\\"") + "\"\n"
+  front_matter += "title: %s\n" % (title)
+  front_matter += "description: \"%s\"\n" % (content[2][2:-1].replace("\"", "\\\""))
   print(content[2][2:-1])
-  front_matter += "content_hash: " + FileHash("sha1").hash_file(source_file) + "\n"
-  front_matter += "last_modified_at: " + datetime.today().strftime("%Y-%m-%d") + "\n"
+  front_matter += "content_hash: %s\n" % (FileHash("sha1").hash_file(source_file))
+  front_matter += "last_modified_at: %s\n" % (datetime.today().strftime("%Y-%m-%d"))
 
   if len(translations) > 0:
     front_matter += "related_topics:\n"
@@ -68,23 +68,31 @@ def extract_page(lang: str, page: str):
       front_matter += "  - title: " + locale + " version\n"
       front_matter += "    url: /" + translation + "/" + page[:-3] + ".html\n"
       front_matter += "    icon: bi bi-globe\n"
-      
+  
+  tldri18n_status = 0 # Translation is unknown
+  try:
+    tldri18n_status = i18n["entries"][hierarchy[0]]["pages"][hierarchy[1]]["status"][lang]
+    # 0: No data
+    # 1: Outdated translation
+    # 2: Translation is OK
+  except KeyError:
+    pass
+
+  front_matter += "tldri18n_status: %d\n" % (tldri18n_status)
   front_matter += "---\n"
 
-  try:
-    isOutdated = i18n["entries"][hierarchy[0]]["pages"][hierarchy[1]]["status"][lang]
-    if isOutdated == 1:
-      front_matter += "\n"
-      front_matter += "### Outdated Translation\n"
-      front_matter += "This entry is currently considered outdated and its contents may not be up-to-date with other translations.\n"
-      front_matter += "\n"
-      front_matter += "Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.\n"
-      front_matter += "\n"
-      front_matter += "<a class=\"btn btn-primary\" href=\"{{ site.url }}/en/" + page[:-3] + ".html\">View original (English) version</a>"
-      front_matter += "\n"
-      front_matter += "<a class=\"btn\" href=\"https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md\">Contributing Guidelines</a>\n"
-      front_matter += "\n<hr>"
-  except KeyError:
+  if tldri18n_status == 0:
+    front_matter += "\n"
+    front_matter += "### Outdated Translation\n"
+    front_matter += "This entry is currently considered outdated and its contents may not be up-to-date with other translations.\n"
+    front_matter += "\n"
+    front_matter += "Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.\n"
+    front_matter += "\n"
+    front_matter += "<a class=\"btn btn-primary\" href=\"{{ site.url }}/en/" + page[:-3] + ".html\">View original (English) version</a>"
+    front_matter += "\n"
+    front_matter += "<a class=\"btn\" href=\"https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md\">Contributing Guidelines</a>\n"
+    front_matter += "\n<hr>"
+  if tldri18n_status == 1:
     front_matter += "\n"
     front_matter += "This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.\n"
     front_matter += "\n<hr>"
@@ -117,9 +125,14 @@ for lang in i18n["languages"]:
       try:
         current_page = frontmatter.load(target_file)
         content_hash = FileHash("sha1").hash_file(source_file)
+        hierarchy = page[:-3].split(sep="/")
+        tldri18n_status = i18n["entries"][hierarchy[0]]["pages"][hierarchy[1]]["status"][lang]
 
         if "content_hash" not in current_page.metadata.keys() or current_page.metadata["content_hash"] != content_hash:
           print(content_hash + " does not match with current " + current_page.metadata["content_hash"])
+          extract_page(lang, page)
+        else if "tldri18n_status" not in current_page.metadata.keys() or current_page.metadata["tldri18n_status"] != tldri18n_status:
+          print(tldri18n_status + " does not match with current " + current_page.metadata["tldri18n_status"])
           extract_page(lang, page)
       except AttributeError:
         extract_page(lang, page)
