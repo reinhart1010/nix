@@ -3,6 +3,7 @@ layout: page
 title: osx/port (español)
 description: "Gestor de paquetes para macOS."
 content_hash: 41a3b53a28612a6bad6502714d301db72d3fc6c8
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/port.html
@@ -10,11 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/port.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># port
+# port
 
 Gestor de paquetes para macOS.
 Más información: <https://www.macports.org>.

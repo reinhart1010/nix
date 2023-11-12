@@ -3,7 +3,8 @@ layout: page
 title: common/cargo-fix (English)
 description: "Automatically fix lint warnings reported by `rustc`."
 content_hash: 201663619e51377cc28f791c67a418bdb101d2d0
-last_modified_at: 2023-10-30
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # cargo fix
 

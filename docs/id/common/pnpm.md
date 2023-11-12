@@ -3,7 +3,7 @@ layout: page
 title: common/pnpm (Indonesia)
 description: "Manajer paket JavaScript dan Node.js yang cepat dan efisien."
 content_hash: 706f6e1ef2cb10e4a35349e4c6d584b818cd01d4
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/pnpm.html
@@ -11,6 +11,10 @@ related_topics:
   - title: English version
     url: /en/common/pnpm.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/pnpm.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pnpm
 

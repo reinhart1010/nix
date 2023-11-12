@@ -3,16 +3,17 @@ layout: page
 title: common/virsh (português (Brasil))
 description: "Gerenciar domínios de convidados do virsh. (NOTA: 'guest_id' pode ser o ID, nome ou UUID do convidado)."
 content_hash: df46cd59c652ef026651d4d589c3d037e0d9931f
-last_modified_at: 2023-09-18
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/virsh.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/virsh.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># virsh
+# virsh
 
 Gerenciar domínios de convidados do virsh. (NOTA: 'guest_id' pode ser o ID, nome ou UUID do convidado).
 Alguns subcomandos, como `virsh list`, têm sua própria documentação de uso.

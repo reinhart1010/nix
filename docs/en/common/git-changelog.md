@@ -3,6 +3,8 @@ layout: page
 title: common/git-changelog (English)
 description: "Generate a changelog report from repository commits and tags."
 content_hash: 0b4b4acac0b6aeb7c2ec6457ad041d65db061afc
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git changelog
 

@@ -3,6 +3,8 @@ layout: page
 title: common/hg-commit (English)
 description: "Commit all staged or specified files to the repository."
 content_hash: 0e0e8221ae045b4c159826dc8617963d7dd60509
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # hg commit
 

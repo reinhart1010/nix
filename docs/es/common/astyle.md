@@ -3,7 +3,7 @@ layout: page
 title: common/astyle (español)
 description: "Indentador, formateador y embellecedor de código fuente para los lenguajes de programación C, C++, C# y Java."
 content_hash: f318ca1e0805fdf023f6a6ffde48a0c1658eee13
-last_modified_at: 2023-05-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/astyle.html
@@ -17,6 +17,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/astyle.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # astyle
 

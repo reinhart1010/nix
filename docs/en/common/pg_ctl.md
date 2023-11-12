@@ -3,6 +3,8 @@ layout: page
 title: common/pg_ctl (English)
 description: "Utility for controlling a PostgreSQL server and database cluster."
 content_hash: 60dbf27c29ffde71fe21220078e0d2c3ce41c0fb
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pg_ctl
 

@@ -3,7 +3,7 @@ layout: page
 title: common/git-branch (português (Brasil))
 description: "Comando principal do Git para trabalhar com branches."
 content_hash: d7eb2213546cf3a5a508d1b9eb328ba7df9c5f44
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-branch.html
@@ -29,11 +29,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-branch.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git branch
+# git branch
 
 Comando principal do Git para trabalhar com branches.
 Mais informações: <https://git-scm.com/docs/git-branch>.

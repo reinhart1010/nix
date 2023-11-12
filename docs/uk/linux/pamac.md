@@ -3,16 +3,14 @@ layout: page
 title: linux/pamac (українська)
 description: "Утиліта командного рядка для GUI менеджера пакетів pamac."
 content_hash: f8be51eda926e844e0b5bf27935c81a7e1a98bf9
-last_modified_at: 2023-10-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/pamac.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pamac
+# pamac
 
 Утиліта командного рядка для GUI менеджера пакетів pamac.
 Якщо ви не можете побачити пакети AUR, увімкніть його `/etc/pamac.conf` або в GUI.

@@ -3,10 +3,12 @@ layout: page
 title: common/jhat (中文)
 description: "Java 堆分析工具。"
 content_hash: bff72c49b6ad8746d4f6ed3a83f5277dc65c5c18
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/jhat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # jhat
 

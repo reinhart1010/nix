@@ -3,7 +3,7 @@ layout: page
 title: linux/btrfs-restore (português (Brasil))
 description: "Tenta salvar arquivos de um sistema de arquivos btrfs danificado."
 content_hash: b6fc24c8ed62a5aee83bfd3c45c21cd5b44f5f5e
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/btrfs-restore.html
@@ -11,11 +11,9 @@ related_topics:
   - title: français version
     url: /fr/linux/btrfs-restore.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># btrfs restore
+# btrfs restore
 
 Tenta salvar arquivos de um sistema de arquivos btrfs danificado.
 Mais informações: <https://btrfs.readthedocs.io/en/latest/btrfs-restore.html>.

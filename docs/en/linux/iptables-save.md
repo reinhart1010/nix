@@ -3,12 +3,10 @@ layout: page
 title: linux/iptables-save (English)
 description: "Save the `iptables` IPv4 configuration."
 content_hash: 1d8e24437410e5427585238ac9454a33f4b73cf4
-last_modified_at: 2023-09-18
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># iptables-save
+# iptables-save
 
 Save the `iptables` IPv4 configuration.
 Use `ip6tables-save` to to the same for IPv6.

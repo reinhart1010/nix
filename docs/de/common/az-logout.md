@@ -3,7 +3,7 @@ layout: page
 title: common/az-logout (Deutsch)
 description: "Von Azure-Abonnements abmelden."
 content_hash: 774577d35ccf509e9c3d5cafa452180786e4a9e3
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/az-logout.html
@@ -11,6 +11,7 @@ related_topics:
   - title: español version
     url: /es/common/az-logout.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # az logout
 

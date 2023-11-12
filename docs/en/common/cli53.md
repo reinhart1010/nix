@@ -3,7 +3,8 @@ layout: page
 title: common/cli53 (English)
 description: "Command line tool for Amazon Route 53."
 content_hash: 312ee227bce274a7469591754ae29db1153c2fc5
-last_modified_at: 2023-11-03
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # cli53
 

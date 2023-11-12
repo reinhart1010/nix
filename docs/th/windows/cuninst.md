@@ -3,7 +3,7 @@ layout: page
 title: windows/cuninst (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `choco uninstall`"
 content_hash: ad38245c78ed1ff762c7063398b29bfbf92dff61
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/cuninst.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/cuninst.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cuninst
 

@@ -3,6 +3,12 @@ layout: page
 title: common/vegeta (English)
 description: "A command-line utility and a library for HTTP load testing."
 content_hash: 7a0634354158fbf9190aacf380b30259433ad10d
+last_modified_at: 2023-11-12
+related_topics:
+  - title: français version
+    url: /fr/common/vegeta.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # vegeta
 

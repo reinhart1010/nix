@@ -3,10 +3,12 @@ layout: page
 title: windows/ftype (中文)
 description: "显示或修改用于文件扩展名关联的文件类型。"
 content_hash: ac8a3eda3d17c5733ca10064bf9e9958f76f2be5
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/ftype.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ftype
 

@@ -3,7 +3,7 @@ layout: page
 title: common/hexdump (português (Brasil))
 description: "Imprime dados no formato ASCII, decimal, hexadecimal ou octal."
 content_hash: ac2cba001a9a6e96633d5dd084079c1bc760e52d
-last_modified_at: 2023-08-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/hexdump.html
@@ -14,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/hexdump.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # hexdump
 

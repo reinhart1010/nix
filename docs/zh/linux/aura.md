@@ -3,10 +3,12 @@ layout: page
 title: linux/aura (中文)
 description: "Aura 包管理器：一个安全且支持多语言的 Arch Linux 和 AUR 的包管理器。"
 content_hash: b33346104b31324c6ab93857d39820c0c250c76e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/aura.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aura
 

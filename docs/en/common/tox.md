@@ -3,11 +3,12 @@ layout: page
 title: common/tox (English)
 description: "Automate Python testing across multiple Python versions."
 content_hash: 7a847bef65a0c2c1e3d43417927a2d35def40cec
-last_modified_at: 2023-05-02
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/tox.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tox
 

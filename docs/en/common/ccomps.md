@@ -3,6 +3,12 @@ layout: page
 title: common/ccomps (English)
 description: "Decompose graphs into their connected components."
 content_hash: 4c497328fcc129fc457e5499b06d152d0973a566
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 中文 version
+    url: /zh/common/ccomps.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ccomps
 

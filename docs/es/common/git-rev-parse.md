@@ -3,6 +3,7 @@ layout: page
 title: common/git-rev-parse (español)
 description: "Muestra metadatos relativos a revisiones específicas."
 content_hash: 36c1e9dee9ad6bf7e1fe93063b987d04b5ee154a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-rev-parse.html
@@ -16,6 +17,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-rev-parse.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git rev-parse
 

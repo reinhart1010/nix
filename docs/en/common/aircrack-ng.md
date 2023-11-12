@@ -3,12 +3,20 @@ layout: page
 title: common/aircrack-ng (English)
 description: "Crack WEP and WPA/WPA2 keys from handshake in captured packets."
 content_hash: ef4f67d2786fe69e1045f62c7f380788e93dee5d
-last_modified_at: 2023-03-07
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/aircrack-ng.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/aircrack-ng.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/aircrack-ng.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aircrack-ng
+# aircrack-ng
 
 Crack WEP and WPA/WPA2 keys from handshake in captured packets.
 Part of Aircrack-ng network software suite.

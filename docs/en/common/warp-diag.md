@@ -3,10 +3,12 @@ layout: page
 title: common/warp-diag (English)
 description: "Diagnostic and feedback tool for Cloudflare's WARP service."
 content_hash: c39ff32899183f7da2d428321d37888d70c8de7e
+last_modified_at: 2023-11-12
 related_topics:
   - title: Indonesia version
     url: /id/common/warp-diag.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # warp-diag
 

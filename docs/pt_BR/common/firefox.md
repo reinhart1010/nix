@@ -3,6 +3,7 @@ layout: page
 title: common/firefox (português (Brasil))
 description: "Um browser livre e de código aberto."
 content_hash: fd5626f99bb17db6ffe1c012d77f160df47408d1
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/firefox.html
@@ -10,6 +11,7 @@ related_topics:
   - title: English version
     url: /en/common/firefox.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # firefox
 

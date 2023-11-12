@@ -3,6 +3,7 @@ layout: page
 title: common/dirname (한국어)
 description: "주어진 파일 혹은 디렉토리 경로의 부모 디렉토리를 계산한다."
 content_hash: 3b533258c90827700add1cdbd6fe7f87c4391a20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/dirname.html
@@ -13,6 +14,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/dirname.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dirname
 

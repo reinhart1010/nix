@@ -3,7 +3,8 @@ layout: page
 title: linux/collectd (English)
 description: "System statistics collection daemon."
 content_hash: 75c8e8dd653076e14c10b6fd0ac2d6cb5ae036cd
-last_modified_at: 2023-06-28
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # collectd
 

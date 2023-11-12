@@ -3,7 +3,7 @@ layout: page
 title: common/eslint (English)
 description: "A pluggable linting utility for JavaScript and JSX."
 content_hash: 96db9cc91a8225db71507561cedc28f97c26ef53
-last_modified_at: 2023-05-23
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/eslint.html
@@ -14,6 +14,7 @@ related_topics:
   - title: polski version
     url: /pl/common/eslint.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # eslint
 

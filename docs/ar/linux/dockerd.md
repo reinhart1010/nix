@@ -3,10 +3,15 @@ layout: page
 title: linux/dockerd (العربية)
 description: "هي عملية مستمرة تعمل في الخلفية تبدأها لتتحكم في حاويات الدوكر."
 content_hash: c32469f9f49ac9be87d146b0d433fba607214bcb
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/dockerd.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/dockerd.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dockerd
 

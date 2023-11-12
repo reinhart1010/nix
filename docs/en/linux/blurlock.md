@@ -3,6 +3,8 @@ layout: page
 title: linux/blurlock (English)
 description: "A simple wrapper around the i3 screen locker `i3lock`, which blurs the screen."
 content_hash: 34bdbeb7305a744b7971c18011cd52b3ff0ac3c2
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # blurlock
 

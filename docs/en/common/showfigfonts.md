@@ -3,10 +3,12 @@ layout: page
 title: common/showfigfonts (English)
 description: "Display available figlet fonts."
 content_hash: 5a3286a15535cda9e0056761a950ca9a1333859f
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/showfigfonts.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # showfigfonts
 

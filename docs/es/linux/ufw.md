@@ -3,7 +3,7 @@ layout: page
 title: linux/ufw (español)
 description: "Cortafuegos sin complicaciones (_Uncomplicated Firewall_)."
 content_hash: 6f1bf1163823747fe98e64c73444d4a4b7d1e5aa
-last_modified_at: 2023-10-02
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/ufw.html
@@ -14,9 +14,13 @@ related_topics:
   - title: italiano version
     url: /it/linux/ufw.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/ufw.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/ufw.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ufw
 

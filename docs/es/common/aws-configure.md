@@ -3,7 +3,7 @@ layout: page
 title: common/aws-configure (español)
 description: "Gestiona la configuración para la CLI de AWS."
 content_hash: 84a56f8c508785c03f6bfd102a8f842f469dbd4c
-last_modified_at: 2023-04-21
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/aws-configure.html
@@ -14,11 +14,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/aws-configure.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws configure
+# aws configure
 
 Gestiona la configuración para la CLI de AWS.
 Más información: <https://docs.aws.amazon.com/cli/latest/reference/configure/>.

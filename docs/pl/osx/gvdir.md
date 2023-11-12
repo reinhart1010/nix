@@ -3,7 +3,7 @@ layout: page
 title: osx/gvdir (polski)
 description: "To polecenie jest aliasem `-p linux vdir`."
 content_hash: c427dc21317c1f1755b1ba1f275855feb15ebca3
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gvdir.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gvdir.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gvdir
 

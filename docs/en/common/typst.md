@@ -3,12 +3,10 @@ layout: page
 title: common/typst (English)
 description: "Compile a Typst file to PDF."
 content_hash: 49c70c7ef1389ba32bb96e685896c5ec103b5123
-last_modified_at: 2023-07-24
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># typst
+# typst
 
 Compile a Typst file to PDF.
 Note: Specifying the output location is optional.

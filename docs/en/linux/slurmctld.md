@@ -3,12 +3,10 @@ layout: page
 title: linux/slurmctld (English)
 description: "Monitor all other Slurm daemons and resources, accept work (jobs), and allocate resources to those jobs."
 content_hash: 6d77bba4b8324e3be0686728a4945fc807abcd35
-last_modified_at: 2023-10-22
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># slurmctld
+# slurmctld
 
 Monitor all other Slurm daemons and resources, accept work (jobs), and allocate resources to those jobs.
 More information: <https://slurm.schedmd.com/slurmctld.html>.

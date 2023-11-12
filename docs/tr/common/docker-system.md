@@ -3,6 +3,7 @@ layout: page
 title: common/docker-system (Türkçe)
 description: "Docker verilerini yönet ve sistem bilgisi görüntüle."
 content_hash: 44a87dac3c14c8a090970d4efb282dfd4d6b2462
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-system.html
@@ -13,6 +14,13 @@ related_topics:
   - title: français version
     url: /fr/common/docker-system.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/docker-system.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/docker-system.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker system
 

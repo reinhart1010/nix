@@ -3,7 +3,14 @@ layout: page
 title: common/cd (한국어)
 description: "현재 작업중인 디렉토리 변경."
 content_hash: 8ece9eb068688ba93b3c1653d4cc4ec4045b71b9
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/common/cd.html
+    icon: bi bi-globe
+  - title: čeština version
+    url: /cs/common/cd.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/cd.html
     icon: bi bi-globe
@@ -28,6 +35,9 @@ related_topics:
   - title: italiano version
     url: /it/common/cd.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/cd.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/cd.html
     icon: bi bi-globe
@@ -43,14 +53,21 @@ related_topics:
   - title: svenska version
     url: /sv/common/cd.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/cd.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/cd.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/cd.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# cd
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># cd
 
 현재 작업중인 디렉토리 변경.
 더 많은 정보: <https://manned.org/cd>.

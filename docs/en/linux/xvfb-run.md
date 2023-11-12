@@ -3,6 +3,8 @@ layout: page
 title: linux/xvfb-run (English)
 description: "Run a command in a virtual X server environment."
 content_hash: ad274b64cf88d1732609f4055b9a662f32c5b8f4
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xvfb-run
 

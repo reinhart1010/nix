@@ -3,7 +3,8 @@ layout: page
 title: linux/hwinfo (English)
 description: "Probe for the hardware present in the system."
 content_hash: b6794b8f8f56addd861f83219e891633a41ce05f
-last_modified_at: 2023-09-30
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # hwinfo
 

@@ -3,7 +3,7 @@ layout: page
 title: common/sha512sum (English)
 description: "Calculate SHA512 cryptographic checksums."
 content_hash: 85a23b9cf3bfb875f1324c9cfffc87ceb8816880
-last_modified_at: 2023-05-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: sh version
     url: /sh/common/sha512sum.html
@@ -11,6 +11,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/sha512sum.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sha512sum
 

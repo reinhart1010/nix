@@ -3,6 +3,8 @@ layout: page
 title: linux/runuser (English)
 description: "Run commands as a specific user and group without asking for password (needs root privileges)."
 content_hash: 7279cf7b36e5c06a8ee744de42afc1c397c51a20
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # runuser
 

@@ -3,13 +3,18 @@ layout: page
 title: common/ssh-add (English)
 description: "Manage loaded ssh keys in the ssh-agent."
 content_hash: bbe2881c087ee31460e5ab31a9cebc417dff1f76
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/ssh-add.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/ssh-add.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/ssh-add.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ssh-add
 

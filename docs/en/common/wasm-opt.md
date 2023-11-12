@@ -3,6 +3,8 @@ layout: page
 title: common/wasm-opt (English)
 description: "Optimize WebAssembly binary files."
 content_hash: 2f53c59eff0ee9aecff70c383732d766b5cb83ee
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # wasm-opt
 

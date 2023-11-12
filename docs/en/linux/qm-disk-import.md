@@ -3,12 +3,10 @@ layout: page
 title: linux/qm-disk-import (English)
 description: "Import a disk image to a virtual machine as an unused disk."
 content_hash: 43f25b73fbe6d6d6fe44f38677b39f13af4c157f
-last_modified_at: 2023-07-19
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># qm disk import
+# qm disk import
 
 Import a disk image to a virtual machine as an unused disk.
 The supported image formats for `qemu-img`, such as raw, qcow2, qed, vdi, vmdk, and vhd must be used.

@@ -3,7 +3,7 @@ layout: page
 title: common/docker-secret (Türkçe)
 description: "Docker swarm sırlarını yönet."
 content_hash: eb9e848cdf25deab6e64781f5cb8d9b123695fa2
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-secret.html
@@ -14,6 +14,10 @@ related_topics:
   - title: français version
     url: /fr/common/docker-secret.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/docker-secret.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker secret
 

@@ -3,6 +3,7 @@ layout: page
 title: common/git-tag (Türkçe)
 description: "Etiketleri oluştur, sırala, sil veya doğrula."
 content_hash: 590b8dbb90fe6270e324f0a852d481acf51dd1f4
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-tag.html
@@ -22,6 +23,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/git-tag.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git tag
 

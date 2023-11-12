@@ -3,7 +3,8 @@ layout: page
 title: common/xml-depyx (English)
 description: "Convert a PYX (ESIS - ISO 8879) document to XML format."
 content_hash: 8e6f765d60f7a8723cd2a67914994c00bb04b00d
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xml depyx
 

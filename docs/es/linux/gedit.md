@@ -3,6 +3,7 @@ layout: page
 title: linux/gedit (español)
 description: "Editor de texto del proyecto GNOME."
 content_hash: 377b96aeac630637e5b8399ad23f33f1acbf5895
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/gedit.html
@@ -16,11 +17,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/linux/gedit.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gedit
+# gedit
 
 Editor de texto del proyecto GNOME.
 Más información: <https://help.gnome.org/users/gedit/stable/>.

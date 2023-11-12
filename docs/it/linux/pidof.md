@@ -3,10 +3,12 @@ layout: page
 title: linux/pidof (italiano)
 description: "Ottiene l'ID di un processo a partire dal suo nome."
 content_hash: 31c52f2d76252aa188927c574a4138835bf29aba
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/pidof.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pidof
 

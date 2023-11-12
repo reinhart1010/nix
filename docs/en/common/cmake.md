@@ -3,7 +3,7 @@ layout: page
 title: common/cmake (English)
 description: "Cross-platform build automation system, that generates recipes for native build systems."
 content_hash: a0e9bfda20ab1adb2c123cd4d7bb76efc2c5f7f7
-last_modified_at: 2023-04-21
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/cmake.html
@@ -20,6 +20,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/cmake.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cmake
 

@@ -3,6 +3,12 @@ layout: page
 title: linux/ip-link (English)
 description: "Manage network interfaces."
 content_hash: a9a81756bc6de76e335cdfbc3096a70257ebb782
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Türkçe version
+    url: /tr/linux/ip-link.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ip link
 

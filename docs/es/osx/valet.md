@@ -3,16 +3,14 @@ layout: page
 title: osx/valet (español)
 description: "Un entorno de desarrollo Laravel que permite alojar sitios a través de túneles locales en `http://<ejemplo>.test`."
 content_hash: e53ae4ea29649f4d5da8b7d576771c669213d5a7
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/valet.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># valet
+# valet
 
 Un entorno de desarrollo Laravel que permite alojar sitios a través de túneles locales en `http://<ejemplo>.test`.
 Más información: <https://laravel.com/docs/valet>.

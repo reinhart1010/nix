@@ -3,7 +3,7 @@ layout: page
 title: common/git-apply (English)
 description: "Apply a patch to files and/or to the index without creating a commit."
 content_hash: 45ffec5ea054a170937a13d18176b0c7d5779ea5
-last_modified_at: 2023-04-10
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-apply.html
@@ -17,6 +17,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-apply.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git apply
 

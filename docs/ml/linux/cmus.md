@@ -3,6 +3,7 @@ layout: page
 title: linux/cmus (മലയാളം)
 description: "കമാൻഡ് ലൈനിൽ  പ്രവർത്തിക്കുന്ന മ്യൂസിക് പ്ലെയർ."
 content_hash: 9fc080983374b26faeea23a5cff2782a38f1d10e
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/cmus.html
@@ -19,6 +20,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/cmus.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cmus
 

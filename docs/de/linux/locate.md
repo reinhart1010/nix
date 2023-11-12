@@ -3,10 +3,15 @@ layout: page
 title: linux/locate (Deutsch)
 description: "Zum schnellen Finden von Dateinamen."
 content_hash: 611545733342a962c0f445f9271951240011c140
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/locate.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/locate.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # locate
 

@@ -3,7 +3,7 @@ layout: page
 title: common/git-config (中文)
 description: "管理 Git 仓库的自定义设置项。"
 content_hash: 935913eb61c3387e6c9cc2c9746201280b3df1da
-last_modified_at: 2023-06-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-config.html
@@ -20,12 +20,16 @@ related_topics:
   - title: italiano version
     url: /it/common/git-config.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-config.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-config.html
     icon: bi bi-globe
   - title: українська version
     url: /uk/common/git-config.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git config
 

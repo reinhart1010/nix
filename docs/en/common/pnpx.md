@@ -3,6 +3,8 @@ layout: page
 title: common/pnpx (English)
 description: "Directly execute binaries from npm packages, using `pnpm` instead of `npm`."
 content_hash: be78395f88c380d2e5013e75673e3112189191af
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pnpx
 

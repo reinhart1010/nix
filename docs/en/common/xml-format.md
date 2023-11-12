@@ -3,7 +3,8 @@ layout: page
 title: common/xml-format (English)
 description: "Format an XML document."
 content_hash: 59ea3c9f57dbea172848dbf8299d023b85308cea
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xml format
 

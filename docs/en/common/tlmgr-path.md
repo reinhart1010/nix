@@ -3,6 +3,8 @@ layout: page
 title: common/tlmgr-path (English)
 description: "Add or remove symlinks for TeX Live executables, man pages and info pages."
 content_hash: 87105e52794c51ecdc443380bc4eaa4385747907
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tlmgr path
 

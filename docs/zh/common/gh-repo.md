@@ -3,19 +3,15 @@ layout: page
 title: common/gh-repo (中文)
 description: "在命令行上操作 GitHub 仓库。"
 content_hash: 697e5e859e71007a40c94fef375e98504731f451
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/gh-repo.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gh-repo.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># gh repo
 

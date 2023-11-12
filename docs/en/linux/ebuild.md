@@ -3,6 +3,8 @@ layout: page
 title: linux/ebuild (English)
 description: "A low level interface to the Gentoo Portage system."
 content_hash: 5130b7b01d25da339a3a18f7ae653d84d01cd30d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ebuild
 

@@ -3,7 +3,8 @@ layout: page
 title: common/coproc (English)
 description: "Bash builtin for creating interactive asynchronous subshells."
 content_hash: ccc73ca791b5fe2cdc380831ff606e05f26f1b44
-last_modified_at: 2023-06-14
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # coproc
 

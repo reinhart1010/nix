@@ -3,6 +3,7 @@ layout: page
 title: linux/cp (українська)
 description: "Скопіювати файли і папки."
 content_hash: baeb2a861bb1e5f8ecc5f8b6806961eed2ae4d0e
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/cp.html
@@ -16,8 +17,17 @@ related_topics:
   - title: español version
     url: /es/linux/cp.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/cp.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/linux/cp.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/cp.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/cp.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/cp.html
@@ -28,6 +38,10 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/cp.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/linux/cp.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.

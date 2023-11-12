@@ -3,6 +3,8 @@ layout: page
 title: linux/x0vncserver (English)
 description: "TigerVNC Server for X displays."
 content_hash: 82ff2f62ec86f48d83cacee02a1625d6bbadfb62
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # x0vncserver
 

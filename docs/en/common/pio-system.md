@@ -3,6 +3,8 @@ layout: page
 title: common/pio-system (English)
 description: "Miscellaneous system commands for PlatformIO."
 content_hash: c3fca4873a3437d9de2c53aa06e09350d903a7b0
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pio system
 

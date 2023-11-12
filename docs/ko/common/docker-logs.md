@@ -3,12 +3,16 @@ layout: page
 title: common/docker-logs (한국어)
 description: "컨테이너 로그들을 출력한다."
 content_hash: f4c7c7bce9bf5689c191d484b0148af446521b2b
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-logs.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/docker-logs.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/docker-logs.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/docker-logs.html
@@ -19,6 +23,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-logs.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker logs
 

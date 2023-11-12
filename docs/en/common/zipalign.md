@@ -3,6 +3,8 @@ layout: page
 title: common/zipalign (English)
 description: "Zip archive alignment tool."
 content_hash: 6197a0be3d299e52d07efbdee1b59135a1305aee
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # zipalign
 

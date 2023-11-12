@@ -3,11 +3,12 @@ layout: page
 title: common/rg (English)
 description: "Ripgrep is a recursive line-oriented search tool."
 content_hash: bdff6254ac956331c2bd604ecf5738acf13bb5fd
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: Türkçe version
     url: /tr/common/rg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rg
 

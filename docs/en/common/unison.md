@@ -3,6 +3,8 @@ layout: page
 title: common/unison (English)
 description: "Bidirectional file synchronisation tool."
 content_hash: 3a77f45ceff56ab036de88be264b5f01725ca808
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # unison
 

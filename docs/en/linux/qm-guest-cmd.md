@@ -3,7 +3,8 @@ layout: page
 title: linux/qm-guest-cmd (English)
 description: "Execute QEMU Guest Agent commands."
 content_hash: 77c72de58f2c9d1bc078d4a1315b83450dc727f7
-last_modified_at: 2023-01-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # qm guest cmd
 

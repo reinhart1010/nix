@@ -3,10 +3,12 @@ layout: page
 title: common/minetestserver (Türkçe)
 description: "Çok oyunculu sınırsız dünyalı bloklu sanbox sunucusu."
 content_hash: 9051285a6125cfda2f223672f182472c92faa003
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/minetestserver.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # minetestserver
 

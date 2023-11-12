@@ -3,6 +3,8 @@ layout: page
 title: linux/resolveip (English)
 description: "Resolve hostnames to their IP addresses and vice versa."
 content_hash: e48afa76d08f7135ae22563997dc7473fc6b4956
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # resolveip
 

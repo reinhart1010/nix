@@ -3,7 +3,8 @@ layout: page
 title: common/gh-auth (English)
 description: "Authenticate with a GitHub host."
 content_hash: 2b6439b01d3484a106bce8b60bd6d0b49ee031ca
-last_modified_at: 2023-09-10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gh auth
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/po4a-updatepo (English)
 description: "Update the translation (in PO format) of a documentation."
 content_hash: ef7a3eacdd6ab02da62273726abc0c3a8fb433b1
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # po4a-updatepo
 

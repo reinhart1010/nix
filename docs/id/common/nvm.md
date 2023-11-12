@@ -3,6 +3,7 @@ layout: page
 title: common/nvm (Indonesia)
 description: "Memasang, melepas, atau mengganti versi Node.js yang dipakai."
 content_hash: 05a8f0ff70f6acd68532ee45a4df718b284dcca2
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/nvm.html
@@ -10,6 +11,7 @@ related_topics:
   - title: English version
     url: /en/common/nvm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nvm
 

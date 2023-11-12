@@ -3,10 +3,13 @@ layout: page
 title: common/autoflake (italiano)
 description: "Uno strumento per rimuovere import e variabili inutilizzati da codice Python."
 content_hash: e35079061b6f5097d6d61f52f8772d6ea5c6e8ba
-last_modified_at: 2023-05-01
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/autoflake.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/autoflake.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/autoflake.html
@@ -17,6 +20,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/autoflake.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # autoflake
 

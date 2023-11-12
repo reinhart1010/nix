@@ -3,6 +3,15 @@ layout: page
 title: linux/parted (English)
 description: "A partition manipulation program."
 content_hash: dd1e9d074bc00973a306b926086eb31afa2301a9
+last_modified_at: 2023-11-12
+related_topics:
+  - title: हिन्दी version
+    url: /hi/linux/parted.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/parted.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # parted
 

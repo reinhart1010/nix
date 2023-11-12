@@ -3,7 +3,12 @@ layout: page
 title: common/linode-cli-object-storage (English)
 description: "Manage Linode Object Storage."
 content_hash: 26e6a5cbcf360ae0dd8456d45b64323f6b278156
-last_modified_at: 2023-09-17
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Nederlands version
+    url: /nl/common/linode-cli-object-storage.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # linode-cli object-storage
 

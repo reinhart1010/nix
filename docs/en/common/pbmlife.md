@@ -3,12 +3,10 @@ layout: page
 title: common/pbmlife (English)
 description: "Apply Conway's Rules of Life to a PBM image."
 content_hash: 07947f38323ef77c1ee4607df7ea02ee01d956b5
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pbmlife
+# pbmlife
 
 Apply Conway's Rules of Life to a PBM image.
 More information: <https://netpbm.sourceforge.net/doc/pbmlife.html>.

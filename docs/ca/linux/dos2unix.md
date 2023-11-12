@@ -3,6 +3,7 @@ layout: page
 title: linux/dos2unix (català)
 description: "Canvia salts de línia amb format DOS a salts de línia amb format Unix."
 content_hash: 32e045467feea647d9aa61dea7567532096e63df
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/dos2unix.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/dos2unix.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dos2unix
 

@@ -3,6 +3,8 @@ layout: page
 title: common/virt-sparsify (English)
 description: "Make virtual machine drive images thin-provisioned."
 content_hash: 0e7255742082888d032f0acfd66776f890545a37
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # virt-sparsify
 

@@ -3,6 +3,8 @@ layout: page
 title: common/git-rename-remote (English)
 description: "Change remote for pulling and pushing."
 content_hash: c5ee2e27bf8dc7e6df199d33ded3dc8a816aba7e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git rename-remote
 

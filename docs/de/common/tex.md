@@ -3,10 +3,12 @@ layout: page
 title: common/tex (Deutsch)
 description: "Kompiliere eine TeX Quelldatei in ein DVI Dokument."
 content_hash: f198ebc28d5177517f3869dafa48647c4546f4f0
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/tex.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tex
 

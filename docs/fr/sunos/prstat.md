@@ -3,7 +3,7 @@ layout: page
 title: sunos/prstat (français)
 description: "Signaler les statistiques de processus actifs."
 content_hash: 4f26c6757057650230ee55972e11b079f251dd4b
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/sunos/prstat.html
@@ -17,6 +17,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/sunos/prstat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # prstat
 

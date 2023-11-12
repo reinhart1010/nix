@@ -3,10 +3,12 @@ layout: page
 title: linux/lvs (English)
 description: "Display information about logical volumes."
 content_hash: ee398243cb9d6603bf2cc5ea53de18f034a2f7b3
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/linux/lvs.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lvs
 

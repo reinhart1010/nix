@@ -3,12 +3,10 @@ layout: page
 title: common/cs-fetch (English)
 description: "Fetch fetches the JARs of one or more dependencies."
 content_hash: 2439b76383dd7058e6d2953dc6071b1efc798d8b
-last_modified_at: 2023-01-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cs fetch
+# cs fetch
 
 Fetch fetches the JARs of one or more dependencies.
 More information: <https://get-coursier.io/docs/cli-fetch>.

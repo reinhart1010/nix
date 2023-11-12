@@ -3,6 +3,8 @@ layout: page
 title: common/vzdump (English)
 description: "Backup Utility for virtual machines and containers."
 content_hash: de36c03bf051bc0d5f93873ca09d831d38289b34
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # vzdump
 

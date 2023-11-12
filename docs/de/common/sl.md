@@ -3,6 +3,7 @@ layout: page
 title: common/sl (Deutsch)
 description: "Dampflokomotive welche durch das Terminal fährt."
 content_hash: fc662566eb3d8f3c9761e9cf69ab30b804729164
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/sl.html
@@ -10,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/sl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sl
 

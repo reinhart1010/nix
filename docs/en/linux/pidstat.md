@@ -3,6 +3,8 @@ layout: page
 title: linux/pidstat (English)
 description: "Show system resource usage, including CPU, memory, IO etc."
 content_hash: ef865c4325acfc496aceededb3a3f53c7e4fa9d7
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pidstat
 

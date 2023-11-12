@@ -3,6 +3,7 @@ layout: page
 title: common/git-reset (español)
 description: "Deshace commits o desmarca cambios mediante el reseteo del actual HEAD de Git al estado especificado."
 content_hash: dd122793cd00ae58f3537a24c44d3495456dbc95
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-reset.html
@@ -13,6 +14,13 @@ related_topics:
   - title: italiano version
     url: /it/common/git-reset.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-reset.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-reset.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git reset
 

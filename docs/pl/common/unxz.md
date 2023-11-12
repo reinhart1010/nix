@@ -3,7 +3,7 @@ layout: page
 title: common/unxz (polski)
 description: "To polecenie jest aliasem `xz`."
 content_hash: 355802754e47f2d6874f98a0e62a7fd50312cca5
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/unxz.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/unxz.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # unxz
 

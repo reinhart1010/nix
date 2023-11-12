@@ -3,7 +3,12 @@ layout: page
 title: common/pystun3 (English)
 description: "Classic STUN client written in Python."
 content_hash: d26563b240cc03e89b78aff87dfc4999c691a064
-last_modified_at: 2023-05-02
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/pystun3.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pystun3
 

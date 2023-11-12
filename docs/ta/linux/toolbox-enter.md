@@ -3,11 +3,12 @@ layout: page
 title: linux/toolbox-enter (தமிழ்)
 description: "ஊடாடும் பயன்பாட்டிற்கு `toolbox` கொள்கலனை உள்ளிடவும்."
 content_hash: 16433371b7d998cb2ca91ebc0833db0e11d930ea
-last_modified_at: 2023-06-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/toolbox-enter.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # toolbox enter
 

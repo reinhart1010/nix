@@ -3,11 +3,10 @@ layout: page
 title: linux/checkupdates-aur (English)
 description: "Tool to check pending updates from the Arch User Repository (AUR)."
 content_hash: e9178018898147659e6fdad368cbe64498942f98
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># checkupdates-aur
+# checkupdates-aur
 
 Tool to check pending updates from the Arch User Repository (AUR).
 More information: <https://metacpan.org/dist/OS-CheckUpdates-AUR>.

@@ -3,7 +3,7 @@ layout: page
 title: common/which (русский)
 description: "Отобразить абсолютный путь к программе."
 content_hash: 53b7249580eddf043f327f9172370017e126b85e
-last_modified_at: 2023-01-07
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/which.html
@@ -17,11 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/which.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># which
+# which
 
 Отобразить абсолютный путь к программе.
 Больше информации: <https://manned.org/which>.

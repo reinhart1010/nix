@@ -3,7 +3,8 @@ layout: page
 title: common/pretty-bytes (English)
 description: "Convert bytes to a human-readable string."
 content_hash: eca55943777568a426f5f077938ff776e000bd7d
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pretty-bytes
 

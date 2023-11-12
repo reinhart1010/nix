@@ -3,7 +3,8 @@ layout: page
 title: common/gnomon (English)
 description: "Utility to annotate console logging statements with timestamps and find slow processes."
 content_hash: 10e95ff66c97b75706172295a78fe1b3b66d4b23
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gnomon
 

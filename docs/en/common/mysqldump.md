@@ -3,6 +3,7 @@ layout: page
 title: common/mysqldump (English)
 description: "Backups MySQL databases."
 content_hash: 33a3a784489f7295e1798c3bee2384ba9815c74f
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/mysqldump.html
@@ -10,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/mysqldump.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mysqldump
 

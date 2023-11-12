@@ -3,7 +3,7 @@ layout: page
 title: windows/clist (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `choco list`"
 content_hash: a5722773b782a46fc2f8d8966ad3659b556839d9
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/clist.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/clist.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # clist
 

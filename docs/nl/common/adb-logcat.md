@@ -3,7 +3,7 @@ layout: page
 title: common/adb-logcat (Nederlands)
 description: "Dump een logboek met systeemberichten."
 content_hash: c327b9389bb5c272c1b8d4946bc662378771f5d0
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/adb-logcat.html
@@ -17,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/adb-logcat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # adb logcat
 

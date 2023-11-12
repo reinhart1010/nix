@@ -3,10 +3,15 @@ layout: page
 title: osx/cot (português (Brasil))
 description: "Editor de texto puro para macOS."
 content_hash: f63cb446d4a6afe7ef622d5549c4cfb46b51e3ce
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/cot.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/cot.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cot
 

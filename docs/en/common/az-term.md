@@ -3,7 +3,8 @@ layout: page
 title: common/az-term (English)
 description: "Manage marketplace agreement with marketplaceordering."
 content_hash: 8c136376e663652fa342b0279db2a63a706636c3
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # az term
 

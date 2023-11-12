@@ -3,6 +3,18 @@ layout: page
 title: common/go (English)
 description: "Tool for managing go source code."
 content_hash: 0ccb141dc6f3431b8261a2ba5412c74d9f21999c
+last_modified_at: 2023-11-12
+related_topics:
+  - title: français version
+    url: /fr/common/go.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/go.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/go.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # go
 

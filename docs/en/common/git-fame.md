@@ -3,6 +3,8 @@ layout: page
 title: common/git-fame (English)
 description: "Pretty-print Git repository contributions."
 content_hash: 9c7f0f7e864d370b6e6cafd45dcf0d9daa1bd090
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git fame
 

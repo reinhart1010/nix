@@ -3,7 +3,7 @@ layout: page
 title: common/7zr (বাংলা)
 description: "একটি উচ্চ সঙ্কোচন অনুবাদক সাথে ফাইল অ্যার্কাইভার।"
 content_hash: 569f9467eb393bed2c02f5e33dba014bef9c74fb
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/7zr.html
@@ -50,6 +50,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/7zr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # 7zr
 

@@ -3,6 +3,12 @@ layout: page
 title: linux/kdocker (English)
 description: "Easily dock applications to the system tray."
 content_hash: a7673b2181dca8524f4dfa152a8c77aad72a42ae
+last_modified_at: 2023-11-12
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/linux/kdocker.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # kdocker
 

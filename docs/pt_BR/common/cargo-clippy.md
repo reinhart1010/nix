@@ -3,7 +3,7 @@ layout: page
 title: common/cargo-clippy (português (Brasil))
 description: "Conjunto de validadores para identificar erros comuns e melhorar código em Rust."
 content_hash: fda6a954bcc4b3949a871743e298b1fbe6d7f51e
-last_modified_at: 2023-08-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/cargo-clippy.html
@@ -11,11 +11,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/cargo-clippy.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cargo clippy
+# cargo clippy
 
 Conjunto de validadores para identificar erros comuns e melhorar código em Rust.
 Mais informações: <https://github.com/rust-lang/rust-clippy>.

@@ -3,6 +3,8 @@ layout: page
 title: common/spatial (English)
 description: "A set of commands for managing and developing SpatialOS projects."
 content_hash: 5293d4d9a3a9bc59b949b25517dec4601f7fc548
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # spatial
 

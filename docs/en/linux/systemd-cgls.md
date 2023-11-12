@@ -3,7 +3,8 @@ layout: page
 title: linux/systemd-cgls (English)
 description: "Show the contents of the selected Linux control group hierarchy in a tree."
 content_hash: 96566f3b6eb82ca10195597a1c59c72ad1e0cd57
-last_modified_at: 2023-10-13
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # systemd-cgls
 

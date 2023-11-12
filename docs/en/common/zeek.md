@@ -3,6 +3,8 @@ layout: page
 title: common/zeek (English)
 description: "Passive network traffic analyzer."
 content_hash: 46e7d7de315618310d40ac2800a8903787c8e29d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # zeek
 

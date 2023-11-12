@@ -3,6 +3,8 @@ layout: page
 title: common/pngcrush (English)
 description: "PNG compression utility."
 content_hash: 2a260ce080655406bf981d668e05cfd9e7df6ed5
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pngcrush
 

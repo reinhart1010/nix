@@ -3,10 +3,12 @@ layout: page
 title: linux/toolbox-init-container (English)
 description: "Initialize a running `toolbox` container."
 content_hash: 1033eb06fd52069ac07cb3a4ecc85e545dc408f6
+last_modified_at: 2023-11-12
 related_topics:
   - title: தமிழ் version
     url: /ta/linux/toolbox-init-container.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # toolbox init-container
 

@@ -3,7 +3,7 @@ layout: page
 title: linux/apt (polski)
 description: "Narzędzie do zarządzania pakietami dla dystrybucji bazujących na Debianie."
 content_hash: 10653c2a07c4e208b25fbae9e5ec67979d7c1988
-last_modified_at: 2023-05-23
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/linux/apt.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/apt.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/apt.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/linux/apt.html
@@ -53,9 +56,13 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/apt.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/apt.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apt.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apt
 

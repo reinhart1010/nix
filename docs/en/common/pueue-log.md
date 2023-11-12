@@ -3,6 +3,8 @@ layout: page
 title: common/pueue-log (English)
 description: "Display the log output of 1 or more tasks."
 content_hash: 9c32039cbd584d2a66ff43efa478bcb6825a448b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pueue log
 

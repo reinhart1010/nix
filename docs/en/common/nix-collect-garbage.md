@@ -3,7 +3,12 @@ layout: page
 title: common/nix-collect-garbage (English)
 description: "Delete unused and unreachable nix store paths."
 content_hash: c82e71e01aabfdeb8ec8635645a1a022d344b945
-last_modified_at: 2022-12-22
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/nix-collect-garbage.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nix-collect-garbage
 

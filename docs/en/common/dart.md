@@ -3,6 +3,18 @@ layout: page
 title: common/dart (English)
 description: "The tool for managing Dart projects."
 content_hash: d4f64d217f26238d27399c0bd1de5ec808a7f1ca
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/dart.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/dart.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/dart.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dart
 

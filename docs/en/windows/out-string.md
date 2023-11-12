@@ -3,12 +3,10 @@ layout: page
 title: windows/out-string (English)
 description: "Outputs input objects as a string."
 content_hash: b63647b0e69acffd6bbbaac6ca1190258d922a21
-last_modified_at: 2022-12-21
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># Out-String
+# Out-String
 
 Outputs input objects as a string.
 This command can only be used through PowerShell.

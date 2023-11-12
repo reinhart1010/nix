@@ -3,6 +3,8 @@ layout: page
 title: common/mysqld (English)
 description: "Start the MySQL database server."
 content_hash: 326f809b46584f04f99e0dc9386c8d3befda5a04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mysqld
 

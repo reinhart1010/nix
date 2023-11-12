@@ -3,10 +3,12 @@ layout: page
 title: linux/dpkg-deb (italiano)
 description: "Impacchetta, spacchetta e fornisce informazioni su archivi Debian."
 content_hash: d341b596d653c486b4c0151085fb98446f1a97a9
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/dpkg-deb.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dpkg-deb
 

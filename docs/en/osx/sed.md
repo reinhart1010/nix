@@ -3,11 +3,15 @@ layout: page
 title: osx/sed (English)
 description: "Edit text in a scriptable manner."
 content_hash: 32f7a72cab2dd7d5f712cda2fc62f9af48883575
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/osx/sed.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/sed.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sed
 

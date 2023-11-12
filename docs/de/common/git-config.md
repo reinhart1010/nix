@@ -3,7 +3,7 @@ layout: page
 title: common/git-config (Deutsch)
 description: "Verwalten von benutzerdefinierten Optionen für Git Repositories."
 content_hash: b9a8cbd65d1d48cbb46d41bb7db44edf8af0276a
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-config.html
@@ -29,6 +29,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/git-config.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git config
 

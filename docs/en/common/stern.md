@@ -3,6 +3,8 @@ layout: page
 title: common/stern (English)
 description: "Tail multiple pods and containers from Kubernetes."
 content_hash: bda6c23c23edff1a699a0d3e3bd0be478592a76c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # stern
 

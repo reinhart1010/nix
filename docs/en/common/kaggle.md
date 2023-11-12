@@ -3,6 +3,8 @@ layout: page
 title: common/kaggle (English)
 description: "Official CLI for Kaggle implemented in Python 3."
 content_hash: 07048f769f77b09c818cd89a6270c025361cf467
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # kaggle
 

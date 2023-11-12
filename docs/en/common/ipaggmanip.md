@@ -3,6 +3,8 @@ layout: page
 title: common/ipaggmanip (English)
 description: "Manipulate aggregate statistics produced by `ipaggcreate`."
 content_hash: 6c4dfb73b9334caabc182dba814de541013fca07
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ipaggmanip
 

@@ -3,12 +3,10 @@ layout: page
 title: common/aws-cloudformation (English)
 description: "Model, provision, and manage AWS and third-party resources by treating infrastructure as code."
 content_hash: bfdbd47f88452b8e336dff10cc1429001aea2918
-last_modified_at: 2023-05-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws cloudformation
+# aws cloudformation
 
 Model, provision, and manage AWS and third-party resources by treating infrastructure as code.
 More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloudformation/index.html>.

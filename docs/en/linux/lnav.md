@@ -3,6 +3,12 @@ layout: page
 title: linux/lnav (English)
 description: "Advanced log file viewer to analyze logs with little to no setup."
 content_hash: 485b977693564762338debbaa17ee23cedb5d5ae
+last_modified_at: 2023-11-12
+related_topics:
+  - title: русский version
+    url: /ru/linux/lnav.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lnav
 

@@ -3,14 +3,21 @@ layout: page
 title: common/hping3 (Nederlands)
 description: "Geavanceerd pinghulpprogramma dat protocollen ondersteunt zoals TCP, UDP en IP."
 content_hash: dbe0d6df59e46c915b7513f3137c7bcdfa0f909e
-last_modified_at: 2023-11-07
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/hping3.html
     icon: bi bi-globe
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/hping3.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># hping3
 

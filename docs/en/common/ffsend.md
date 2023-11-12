@@ -3,11 +3,12 @@ layout: page
 title: common/ffsend (English)
 description: "Easily and securely share files."
 content_hash: 39500b2357e172c58fd7edbaf0779f49f9f31d9c
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ffsend.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ffsend
 

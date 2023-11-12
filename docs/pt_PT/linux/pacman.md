@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman (português (Portugal))
 description: "Utilitário para gerir pacotes Arch Linux."
 content_hash: 918c58ab687815c2f55bab1e3f4e9cb578b90c68
-last_modified_at: 2023-05-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -32,9 +32,13 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/pacman.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/pacman.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/pacman.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pacman
 

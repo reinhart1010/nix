@@ -3,16 +3,14 @@ layout: page
 title: common/aws-sqs (português (Brasil))
 description: "Cria, apaga, e envia mensagens para filas para o serviço AWS SQS."
 content_hash: d3a7fc5ef266c6f3ac037261fbad9b8c5d83f9bc
-last_modified_at: 2023-10-12
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/aws-sqs.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws sqs
+# aws sqs
 
 Cria, apaga, e envia mensagens para filas para o serviço AWS SQS.
 Mais informações: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sqs/index.html>.

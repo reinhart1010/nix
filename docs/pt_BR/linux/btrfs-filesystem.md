@@ -3,6 +3,7 @@ layout: page
 title: linux/btrfs-filesystem (português (Brasil))
 description: "Gerencia sistemas de arquivos btrfs."
 content_hash: 91656fc2230d949337d2bbba001830b7446027bd
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/btrfs-filesystem.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/btrfs-filesystem.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # btrfs filesystem
 

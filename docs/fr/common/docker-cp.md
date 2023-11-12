@@ -3,7 +3,7 @@ layout: page
 title: common/docker-cp (français)
 description: "Copier des fichiers ou des répertoires entre les systèmes de fichiers hôte et conteneur."
 content_hash: e4257862d8ad4e7c24c04e297cc072d4d4bf6d58
-last_modified_at: 2023-08-30
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-cp.html
@@ -20,6 +20,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/docker-cp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker cp
 

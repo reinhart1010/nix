@@ -3,6 +3,7 @@ layout: page
 title: common/git-switch (français)
 description: "Basculez entre les branches Git. Nécessite la version 2.23+ de Git."
 content_hash: c1c9e05c5a5f4b58c68fc7a35e307264ad5d0f3e
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-switch.html
@@ -16,9 +17,13 @@ related_topics:
   - title: italiano version
     url: /it/common/git-switch.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-switch.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/git-switch.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git switch
 

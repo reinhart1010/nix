@@ -3,6 +3,8 @@ layout: page
 title: linux/ddcutil (English)
 description: "Control the settings of connected displays via DDC/CI."
 content_hash: 381fda904e402d47740f2b85055c251585e01362
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ddcutil
 

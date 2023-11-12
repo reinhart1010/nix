@@ -3,7 +3,7 @@ layout: page
 title: common/base32 (português (Brasil))
 description: "Codifica ou decodifica um arquivo ou a entrada padrão (`stdin`) de/para Base32, para a saída padrão (`stdout`)."
 content_hash: 9e58e5d1c444d82d17b701935b1d3544f82dd49e
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/base32.html
@@ -26,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/base32.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # base32
 

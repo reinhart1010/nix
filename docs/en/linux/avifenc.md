@@ -3,7 +3,8 @@ layout: page
 title: linux/avifenc (English)
 description: "AV1 Image File Format (AVIF) encoder."
 content_hash: 1a1594c79fe60882536c426b5311994d9bcb60af
-last_modified_at: 2023-07-30
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # avifenc
 

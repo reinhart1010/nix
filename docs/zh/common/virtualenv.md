@@ -3,10 +3,12 @@ layout: page
 title: common/virtualenv (中文)
 description: "创建被隔离的的 Python 虚拟环境。"
 content_hash: 48f389751fa9ef6478d18ba6c4d8ec20992c882b
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/virtualenv.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # virtualenv
 

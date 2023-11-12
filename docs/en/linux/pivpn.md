@@ -3,6 +3,8 @@ layout: page
 title: linux/pivpn (English)
 description: "Easy security-hardened OpenVPN setup and manager."
 content_hash: 81961f2f189a621dcdf998d66e9a060643a7b1a7
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pivpn
 

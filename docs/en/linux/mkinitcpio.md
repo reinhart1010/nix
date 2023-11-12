@@ -3,6 +3,8 @@ layout: page
 title: linux/mkinitcpio (English)
 description: "Generates initial ramdisk environments for booting the Linux kernel based on the specified preset(s)."
 content_hash: d67f64f9743332d62970350b2fdfc1fe80238eca
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mkinitcpio
 

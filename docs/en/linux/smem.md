@@ -3,11 +3,10 @@ layout: page
 title: linux/smem (English)
 description: "Print memory usage for programs."
 content_hash: 572e9443b7150db2182bcc5ba98fe8cd67c38c4b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># smem
+# smem
 
 Print memory usage for programs.
 More information: <https://manned.org/smem>.

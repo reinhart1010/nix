@@ -3,7 +3,8 @@ layout: page
 title: common/xml-unescape (English)
 description: "Unescape special XML characters, e.g. `&lt;a1&gt;` → `<a1>`."
 content_hash: f10909bf0fe30f02356f08f108cc367f09dc2864
-last_modified_at: 2023-06-14
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xml unescape
 

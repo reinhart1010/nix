@@ -3,10 +3,13 @@ layout: page
 title: common/head (English)
 description: "Output the first part of files."
 content_hash: 51b5241e59e3df35b60c055e81bc9c024f3abafc
-last_modified_at: 2023-07-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/head.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/head.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/head.html
@@ -17,6 +20,7 @@ related_topics:
   - title: sh version
     url: /sh/common/head.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # head
 

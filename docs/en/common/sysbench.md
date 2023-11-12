@@ -3,11 +3,10 @@ layout: page
 title: common/sysbench (English)
 description: "Benchmark a System's CPU, IO and memory."
 content_hash: 0f9e0ca2b1b3c056bc11390920f58b4c823e6802
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># sysbench
+# sysbench
 
 Benchmark a System's CPU, IO and memory.
 More information: <https://github.com/akopytov/sysbench/>.

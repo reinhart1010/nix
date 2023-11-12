@@ -3,7 +3,7 @@ layout: page
 title: common/fossil-delete (नेपाली)
 description: "यो आदेश `fossil rm` को उपनाम हो |"
 content_hash: 8e3ebc32a238cef75c1493c651a4512b06b649b2
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-delete.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/fossil-delete.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fossil-delete
 

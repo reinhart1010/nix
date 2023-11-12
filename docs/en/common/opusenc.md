@@ -3,10 +3,12 @@ layout: page
 title: common/opusenc (English)
 description: "Convert WAV or FLAC audio to Opus."
 content_hash: 8a158b065fef791c52f2ef1ec2bf10fb34524c1d
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/opusenc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # opusenc
 

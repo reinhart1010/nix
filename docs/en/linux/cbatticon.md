@@ -3,12 +3,10 @@ layout: page
 title: linux/cbatticon (English)
 description: "A lightweight and fast battery icon that sits in your system tray."
 content_hash: c79e1ac114bf98ff038e4019fa9c7819dac50fa7
-last_modified_at: 2023-11-01
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cbatticon
+# cbatticon
 
 A lightweight and fast battery icon that sits in your system tray.
 More information: <https://github.com/valr/cbatticon>.

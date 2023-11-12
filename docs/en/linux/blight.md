@@ -3,11 +3,14 @@ layout: page
 title: linux/blight (English)
 description: "Utility for changing the display brightness."
 content_hash: 16d962735a0165701e477cc21406712ab68ccc71
+last_modified_at: 2023-11-12
+related_topics:
+  - title: français version
+    url: /fr/linux/blight.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># blight
+# blight
 
 Utility for changing the display brightness.
 More information: <https://github.com/gutjuri/blight>.

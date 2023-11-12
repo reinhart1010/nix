@@ -3,7 +3,7 @@ layout: page
 title: windows/pwsh-where (polski)
 description: "To polecenie jest aliasem `Where-Object`."
 content_hash: 23e94db59d91e16fb78f8631d253ce48352bf3fa
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/pwsh-where.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/pwsh-where.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pwsh-where
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/check-language-support (English)
 description: "Display a list of missing language packages on Ubuntu."
 content_hash: c9922e07271fbefa12872ea440a50cfd7b1f3525
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # check-language-support
 

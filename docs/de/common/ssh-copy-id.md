@@ -3,6 +3,7 @@ layout: page
 title: common/ssh-copy-id (Deutsch)
 description: "Installiere den öffentlichen Teil eines SSH Schlüssels in der `authorized_keys` Datei auf einem externen Server."
 content_hash: 683c69bc97ad048a3bbbc780d5c630a9899a5a66
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ssh-copy-id.html
@@ -10,6 +11,10 @@ related_topics:
   - title: français version
     url: /fr/common/ssh-copy-id.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/ssh-copy-id.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ssh-copy-id
 

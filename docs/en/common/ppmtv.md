@@ -3,12 +3,10 @@ layout: page
 title: common/ppmtv (English)
 description: "Make a PPM Image look like taken from an American TV."
 content_hash: 0f2a128a6d95f9bf315f9f584a3d035460d1690e
-last_modified_at: 2023-10-31
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ppmtv
+# ppmtv
 
 Make a PPM Image look like taken from an American TV.
 Dim every other row of image data down by the specified dim factor (a number between 0 and 1).

@@ -3,18 +3,23 @@ layout: page
 title: sunos/svcs (Nederlands)
 description: "Geef informatie over actieve services."
 content_hash: a294d8e1a4c7c69a2e53ae59e54d2988c0ca7d7e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/sunos/svcs.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/sunos/svcs.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/sunos/svcs.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/sunos/svcs.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># svcs
+# svcs
 
 Geef informatie over actieve services.
 Meer informatie: <https://www.unix.com/man-page/linux/1/svcs>.

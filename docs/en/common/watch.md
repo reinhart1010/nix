@@ -3,6 +3,8 @@ layout: page
 title: common/watch (English)
 description: "Execute a program periodically, showing output fullscreen."
 content_hash: 99837075a183ce7542d82d16ed74771042f9906f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # watch
 

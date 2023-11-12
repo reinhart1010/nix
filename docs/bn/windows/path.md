@@ -3,7 +3,7 @@ layout: page
 title: windows/path (বাংলা)
 description: "কার্যকর ফাইলগুলির জন্য পথ খোঁজা বা সেট করতে পারেন।"
 content_hash: ed41f07d3b6e651d980bc3c9068d974236fba355
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/path.html
@@ -17,6 +17,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/path.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # path
 

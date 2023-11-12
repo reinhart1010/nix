@@ -3,7 +3,7 @@ layout: page
 title: common/a2ping (한국어)
 description: "이미지를 EPS 또는 PDF 파일로 변환."
 content_hash: fad3d74b40f558eba90c312b8f1dacf30500a1c3
-last_modified_at: 2023-11-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/common/a2ping.html
@@ -14,6 +14,10 @@ related_topics:
   - title: हिन्दी version
     url: /hi/common/a2ping.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/a2ping.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # a2ping
 

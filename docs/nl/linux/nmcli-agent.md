@@ -3,16 +3,14 @@ layout: page
 title: linux/nmcli-agent (Nederlands)
 description: "Draai `nmcli` als een NetworkManager secret/polkit agent."
 content_hash: 7d76c6ec1e85e4008c5f166e5ef7988545506e28
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/nmcli-agent.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># nmcli agent
+# nmcli agent
 
 Draai `nmcli` als een NetworkManager secret/polkit agent.
 Dit subcommando kan ook aangeroepen worden met `nmcli a`.

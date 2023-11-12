@@ -3,6 +3,7 @@ layout: page
 title: osx/airport (中文)
 description: "无线网络配置工具。"
 content_hash: ccf9814b8fc27579fc27cf584a2c213ea7102c0f
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/airport.html
@@ -13,6 +14,10 @@ related_topics:
   - title: italiano version
     url: /it/osx/airport.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/airport.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # airport
 

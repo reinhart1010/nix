@@ -3,7 +3,7 @@ layout: page
 title: android/dumpsys (français)
 description: "Fourni des informations sur les services du système Android."
 content_hash: 8931d666fdc6408692583047796a6a7cd1ac6acf
-last_modified_at: 2023-08-30
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/dumpsys.html
@@ -17,8 +17,17 @@ related_topics:
   - title: español version
     url: /es/android/dumpsys.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/android/dumpsys.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/android/dumpsys.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/dumpsys.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/android/dumpsys.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/android/dumpsys.html
@@ -38,6 +47,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/android/dumpsys.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/android/dumpsys.html
+    icon: bi bi-globe
   - title: o‘zbek version
     url: /uz/android/dumpsys.html
     icon: bi bi-globe
@@ -47,6 +59,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/dumpsys.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dumpsys
 

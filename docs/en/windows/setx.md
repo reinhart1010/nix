@@ -3,6 +3,8 @@ layout: page
 title: windows/setx (English)
 description: "Sets persistent environment variables."
 content_hash: dec0347570905047c854753126441c78e0df088a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # setx
 

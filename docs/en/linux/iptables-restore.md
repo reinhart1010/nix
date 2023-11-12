@@ -3,12 +3,10 @@ layout: page
 title: linux/iptables-restore (English)
 description: "Restore the `iptables` IPv4 configuration."
 content_hash: 1907e409314e01ff35bb1f58c0bedd34ab3c6b15
-last_modified_at: 2023-09-18
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># iptables-restore
+# iptables-restore
 
 Restore the `iptables` IPv4 configuration.
 Use `ip6tables-restore` to do the same for IPv6.

@@ -3,7 +3,8 @@ layout: page
 title: common/install-nodeversion (English)
 description: "Install Node.js runtime versions for `ps-nvm`."
 content_hash: f76e85b623396bbb3f44a0a49b3c2c631b343501
-last_modified_at: 2023-11-03
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # Install-NodeVersion
 

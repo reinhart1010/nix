@@ -3,7 +3,7 @@ layout: page
 title: osx/gprintenv (polski)
 description: "To polecenie jest aliasem `-p linux printenv`."
 content_hash: ae51b04d70fa17a1b4c8dc8c6419818b994ad277
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gprintenv.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gprintenv.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gprintenv
 

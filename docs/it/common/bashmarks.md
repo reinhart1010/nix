@@ -3,6 +3,7 @@ layout: page
 title: common/bashmarks (italiano)
 description: "Salva e salta a directory comunemente utilizzate usilizzando comandi di un carattere."
 content_hash: 690b1a7442150f818e73006c5a867d7b3ea1bb78
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/bashmarks.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/bashmarks.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bashmarks
 

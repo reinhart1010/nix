@@ -3,6 +3,7 @@ layout: page
 title: common/pyenv (中文)
 description: "在多个 Python 版本之间轻松切换。"
 content_hash: 38be409c2445156f0073e7fa6f210df6bc73db3e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/pyenv.html
@@ -10,6 +11,10 @@ related_topics:
   - title: italiano version
     url: /it/common/pyenv.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/pyenv.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pyenv
 

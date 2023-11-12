@@ -3,6 +3,8 @@ layout: page
 title: common/mr (English)
 description: "Manage all of your version control repositories at once."
 content_hash: 58b89312ebbcfddebdc61b6abe00aa0a2e4c3cbc
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mr
 

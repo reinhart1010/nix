@@ -3,6 +3,8 @@ layout: page
 title: common/truffle (English)
 description: "A tool for developing smart contracts for running services on the Ethereum blockchain."
 content_hash: 96bcb65d7892a08320a2bbc4cae817b6aaee1e52
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # truffle
 

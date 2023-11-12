@@ -3,10 +3,12 @@ layout: page
 title: linux/cuyo (English)
 description: "Tetris like game."
 content_hash: 5fb25c0edd1f014cbfd996b47f0109fefbf2d1c3
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/cuyo.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cuyo
 

@@ -3,12 +3,22 @@ layout: page
 title: common/airpaste (English)
 description: "Share messages and files on the same network using mDNS."
 content_hash: 99bcee9e9f1cbf39282eb5c70b81e56e361d2855
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/common/airpaste.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/airpaste.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/airpaste.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/airpaste.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/airpaste.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/airpaste.html
@@ -16,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/airpaste.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # airpaste
 

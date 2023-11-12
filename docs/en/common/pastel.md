@@ -3,7 +3,8 @@ layout: page
 title: common/pastel (English)
 description: "Generate, analyze, convert and manipulate colors."
 content_hash: 56ad78fb168ce0dfc86673a9ab916d57613ba471
-last_modified_at: 2023-06-13
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pastel
 

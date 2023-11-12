@@ -3,12 +3,17 @@ layout: page
 title: common/exiftool (italiano)
 description: "Leggi e scrivi metadati nei file."
 content_hash: c1a6076e2a53c2fc2e48a082ab9c325d26b9357a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/exiftool.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# exiftool
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># exiftool
 
 Leggi e scrivi metadati nei file.
 Maggiori informazioni: <https://exiftool.org>.

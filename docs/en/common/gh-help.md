@@ -3,6 +3,8 @@ layout: page
 title: common/gh-help (English)
 description: "Display help about the GitHub CLI command."
 content_hash: 61675ce84c4cec5235035b55aff51efd55b27c28
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gh help
 

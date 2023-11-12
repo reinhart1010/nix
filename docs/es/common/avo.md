@@ -3,7 +3,7 @@ layout: page
 title: common/avo (español)
 description: "La interfaz oficial de línea de comandos para Avo."
 content_hash: dc934b93f04a81adfc09fb11e34f488b046590e0
-last_modified_at: 2023-04-10
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/avo.html
@@ -11,11 +11,9 @@ related_topics:
   - title: français version
     url: /fr/common/avo.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># avo
+# avo
 
 La interfaz oficial de línea de comandos para Avo.
 Más información: <https://www.avo.app/docs/implementation/cli>.

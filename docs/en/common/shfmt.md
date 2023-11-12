@@ -3,12 +3,10 @@ layout: page
 title: common/shfmt (English)
 description: "Shell parser, formatter and interpreter."
 content_hash: 4d3e1a54b7338d10bcd9471c97359e0dc1bc252c
-last_modified_at: 2023-05-05
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># shfmt
+# shfmt
 
 Shell parser, formatter and interpreter.
 More information: <https://pkg.go.dev/mvdan.cc/sh>.

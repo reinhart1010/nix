@@ -3,10 +3,12 @@ layout: page
 title: common/cpdf (español)
 description: "Interfaz de línea de comandos para manipular documentos PDF existentes de diferentes maneras."
 content_hash: a8f0c14229e2c2a47e9e4ff8203ee70f443721ad
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/cpdf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cpdf
 

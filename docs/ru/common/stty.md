@@ -3,7 +3,7 @@ layout: page
 title: common/stty (русский)
 description: "Настройка параметров интерфейса терминального устройства."
 content_hash: bc5c5219098e465b75ca5c0a9fcf46c900a240ee
-last_modified_at: 2022-12-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/stty.html
@@ -11,11 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/stty.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># stty
+# stty
 
 Настройка параметров интерфейса терминального устройства.
 Больше информации: <https://www.gnu.org/software/coreutils/stty>.

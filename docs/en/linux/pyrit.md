@@ -3,7 +3,8 @@ layout: page
 title: linux/pyrit (English)
 description: "WPA/WPA2 cracking tool using computational power."
 content_hash: 1123573d6572e77e89f32108291c8640a3676d6e
-last_modified_at: 2022-12-30
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pyrit
 

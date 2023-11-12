@@ -3,10 +3,12 @@ layout: page
 title: linux/betterlockscreen (中文)
 description: "简洁的锁屏程序。"
 content_hash: 8260a95178a1baba28e27dbb38f31bc43ef81b84
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/betterlockscreen.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # betterlockscreen
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/kexec (English)
 description: "Directly reboot into a new kernel."
 content_hash: b76ecec45e2ee7b443240848b8ab26e591cb4c8a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # kexec
 

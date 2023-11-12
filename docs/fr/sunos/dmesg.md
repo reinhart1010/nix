@@ -3,6 +3,7 @@ layout: page
 title: sunos/dmesg (français)
 description: "Écrire les messages du noyau sur la sortie standard."
 content_hash: f2f91c23f86c484add394f47d1c601e77d2735f8
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/sunos/dmesg.html
@@ -19,6 +20,7 @@ related_topics:
   - title: 中文 version
     url: /zh/sunos/dmesg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dmesg
 

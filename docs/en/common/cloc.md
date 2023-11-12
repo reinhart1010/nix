@@ -3,6 +3,7 @@ layout: page
 title: common/cloc (English)
 description: "Count, and compute differences of, lines of source code and comments."
 content_hash: defbfafaabd8e454ce524bfe28c565528a26f5ac
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/cloc.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cloc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cloc
 

@@ -3,11 +3,14 @@ layout: page
 title: linux/toolbox-rm (English)
 description: "Remove one or more `toolbox` containers."
 content_hash: bc3baffb0af235a34d4d3be77605232eba3f3fa2
+last_modified_at: 2023-11-12
+related_topics:
+  - title: தமிழ் version
+    url: /ta/linux/toolbox-rm.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># toolbox rm
+# toolbox rm
 
 Remove one or more `toolbox` containers.
 See also: `toolbox rmi`.

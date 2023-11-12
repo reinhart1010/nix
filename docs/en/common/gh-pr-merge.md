@@ -3,6 +3,8 @@ layout: page
 title: common/gh-pr-merge (English)
 description: "Merge GitHub pull requests."
 content_hash: 433d3f3133a414eceee397ff66beaec26284c902
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gh pr merge
 

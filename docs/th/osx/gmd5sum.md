@@ -3,7 +3,7 @@ layout: page
 title: osx/gmd5sum (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux md5sum`"
 content_hash: 51eccd3df9bc6925c6fb87def4566f7f86142a90
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gmd5sum.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gmd5sum.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gmd5sum
 

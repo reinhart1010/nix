@@ -3,6 +3,7 @@ layout: page
 title: common/histexpand (español)
 description: "Reutiliza y expande el historial de la shell en `sh`, `bash`, `zsh`, `rbash` y `ksh`."
 content_hash: fe6a8c5c34f028bdfec55924c0898d0f7c2e75d9
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/histexpand.html
@@ -10,6 +11,10 @@ related_topics:
   - title: français version
     url: /fr/common/histexpand.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/histexpand.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # history expansion
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/hdparm (English)
 description: "Get and set SATA and IDE hard drive parameters."
 content_hash: 7152a8106e1dbcda5d09e2810bae40f76ed8c4da
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # hdparm
 

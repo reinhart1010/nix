@@ -3,6 +3,7 @@ layout: page
 title: linux/xrandr (Deutsch)
 description: "Setzt die Auflösung, Orientierung und/oder Reflektion eines Bildschirmausgangs."
 content_hash: eebcce4fd088e99a5db30f253a85b5f89f6e31c4
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/xrandr.html
@@ -10,6 +11,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/xrandr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xrandr
 

@@ -3,7 +3,7 @@ layout: page
 title: common/agate (italiano)
 description: "Un semplice server per il protocollo di rete Gemini."
 content_hash: 0c79d6efddf0d1e742c4e8bb9599e252330377e7
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/agate.html
@@ -23,11 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/agate.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># agate
+# agate
 
 Un semplice server per il protocollo di rete Gemini.
 Maggiori informazioni: <https://github.com/mbrubeck/agate>.

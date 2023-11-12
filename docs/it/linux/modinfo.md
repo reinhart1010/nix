@@ -3,10 +3,12 @@ layout: page
 title: linux/modinfo (italiano)
 description: "Estrae le informazioni riguardarti un modulo del kernel Linux."
 content_hash: 009ac24b50c64753f6008b70edda3c9c440ab4b3
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/modinfo.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # modinfo
 

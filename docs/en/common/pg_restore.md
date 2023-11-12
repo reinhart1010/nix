@@ -3,6 +3,8 @@ layout: page
 title: common/pg_restore (English)
 description: "Restore a PostgreSQL database from an archive file created by pg_dump."
 content_hash: 938bcda137417e1580ff54a67e8228af65697832
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pg_restore
 

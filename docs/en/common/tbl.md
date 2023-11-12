@@ -3,6 +3,8 @@ layout: page
 title: common/tbl (English)
 description: "Table preprocessor for the groff (GNU Troff) document formatting system."
 content_hash: ae7cfb065797710cea155df3af3978d7f24b3091
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tbl
 

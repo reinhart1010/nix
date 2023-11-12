@@ -3,9 +3,13 @@ layout: page
 title: common/autossh (français)
 description: "Lance, surveille et redémarre les connections SSH."
 content_hash: 846cce90f0730903bb0886abc97496f54de25d3e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/autossh.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/autossh.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/autossh.html
@@ -13,11 +17,12 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/autossh.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/autossh.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># autossh
+# autossh
 
 Lance, surveille et redémarre les connections SSH.
 Reconnecte automatiquement pour garder le tunnel de transfert de port ouvert. Accepte toutes les options de `ssh`.

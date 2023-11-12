@@ -3,7 +3,8 @@ layout: page
 title: common/nix3-edit (English)
 description: "Open the Nix expression of a Nix package in $EDITOR."
 content_hash: 27400a2ff8ef3869a5a4ff747e147db88b5ce7fd
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # nix edit
 

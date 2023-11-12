@@ -3,6 +3,8 @@ layout: page
 title: linux/lsscsi (English)
 description: "List SCSI devices (or hosts) and their attributes."
 content_hash: 93c1a9e59b609ade877a5649041e27b241e12c55
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lsscsi
 

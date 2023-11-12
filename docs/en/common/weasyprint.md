@@ -3,10 +3,12 @@ layout: page
 title: common/weasyprint (English)
 description: "Render HTML to PDF or PNG."
 content_hash: 93918913e2c7767742dd131acbedc7aa9fe3e67e
+last_modified_at: 2023-11-12
 related_topics:
   - title: русский version
     url: /ru/common/weasyprint.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # weasyprint
 

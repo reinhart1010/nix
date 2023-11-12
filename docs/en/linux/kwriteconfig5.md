@@ -3,6 +3,8 @@ layout: page
 title: linux/kwriteconfig5 (English)
 description: "Write KConfig entries for KDE Plasma."
 content_hash: 2e8ac0b9d5b5c88b856c8320452d685cfd764a22
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # kwriteconfig5
 

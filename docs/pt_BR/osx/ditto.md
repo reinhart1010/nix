@@ -3,6 +3,7 @@ layout: page
 title: osx/ditto (português (Brasil))
 description: "Copia arquivos e diretórios."
 content_hash: 7a5124738e94655d142214d1e1324ebb9da404d2
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/osx/ditto.html
@@ -13,11 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/ditto.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ditto
+# ditto
 
 Copia arquivos e diretórios.
 Mais informações: <https://ss64.com/osx/ditto.html>.

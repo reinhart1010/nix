@@ -3,6 +3,8 @@ layout: page
 title: common/zdb (English)
 description: "ZFS debugger."
 content_hash: 2bd4f7a05bd04c96080532ee30da684df65fbb0e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # zdb
 

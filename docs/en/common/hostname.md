@@ -3,10 +3,15 @@ layout: page
 title: common/hostname (English)
 description: "Show or set the system's host name."
 content_hash: b7ce086fcd4fbc903ac405a146de53344762a294
+last_modified_at: 2023-11-12
 related_topics:
+  - title: русский version
+    url: /ru/common/hostname.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/hostname.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # hostname
 

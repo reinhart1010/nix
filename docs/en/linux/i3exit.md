@@ -3,6 +3,8 @@ layout: page
 title: linux/i3exit (English)
 description: "Exit the i3 window manager."
 content_hash: 7375e5a72074efdcfda105c92849cef475f3c367
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # i3exit
 

@@ -3,7 +3,7 @@ layout: page
 title: common/git-status (English)
 description: "Show the changes to files in a Git repository."
 content_hash: 8205c2b612def105e6c50ede0e5dd7fba60a8cc5
-last_modified_at: 2023-10-22
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-status.html
@@ -32,6 +32,7 @@ related_topics:
   - title: українська version
     url: /uk/common/git-status.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git status
 

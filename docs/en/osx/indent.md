@@ -3,11 +3,12 @@ layout: page
 title: osx/indent (English)
 description: "Change the appearance of a C/C++ program by inserting or deleting whitespace."
 content_hash: ccacf5f55e15436e7a1625d215576ddfb48b5a0d
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/osx/indent.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # indent
 

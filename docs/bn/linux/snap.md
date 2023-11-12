@@ -3,7 +3,7 @@ layout: page
 title: linux/snap (বাংলা)
 description: "\"স্ন্যাপ\" স্বয়ংসম্পূর্ণ সফটওয়্যার প্যাকেজসমুহ  পরিচালনার জন্য একটি টুল।"
 content_hash: fbdeaf1e5e2514c92320bdf3ec5271badb9e5aa2
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/snap.html
@@ -11,6 +11,7 @@ related_topics:
   - title: മലയാളം version
     url: /ml/linux/snap.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # snap
 

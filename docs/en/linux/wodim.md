@@ -3,6 +3,8 @@ layout: page
 title: linux/wodim (English)
 description: "Command (aliased as `cdrecord` on some systems) for recording data to CDs or DVDs."
 content_hash: 78403d2a764bc17458b492d3310f3edad3d0cff7
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # wodim
 

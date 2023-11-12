@@ -3,6 +3,8 @@ layout: page
 title: common/sn (English)
 description: "Mono StrongName utility for signing and verifying IL assemblies."
 content_hash: ea3e58d1eee5cf35810d73295a199fb73f1e17ae
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sn
 

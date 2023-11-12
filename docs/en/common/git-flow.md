@@ -3,10 +3,15 @@ layout: page
 title: common/git-flow (English)
 description: "A collection of Git extensions to provide high-level repository operations."
 content_hash: 9d77b55ac099c5e612439ccc4c314128841542cc
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/git-flow.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-flow.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git flow
 

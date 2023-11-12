@@ -3,7 +3,8 @@ layout: page
 title: common/vale (English)
 description: "Extensible style checker that supports multiple markup formats, such as Markdown and AsciiDoc."
 content_hash: 12f37fc7e7bec61bceee7ab52f0ba7e0b1804384
-last_modified_at: 2023-06-12
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # vale
 

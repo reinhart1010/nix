@@ -3,6 +3,8 @@ layout: page
 title: linux/dnsrecon (English)
 description: "DNS enumeration tool."
 content_hash: b044d79dba4e9eb709866c51e3658d6d8d59ba86
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dnsrecon
 

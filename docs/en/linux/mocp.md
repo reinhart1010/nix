@@ -3,6 +3,8 @@ layout: page
 title: linux/mocp (English)
 description: "Music on Console (MOC) audio player."
 content_hash: c8f9325c28632448cdd8954ed258fcf350949ef5
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mocp
 

@@ -3,6 +3,7 @@ layout: page
 title: common/tldr-lint (polski)
 description: "Waliduj i formatuj strony dokumentacji `tldr`."
 content_hash: 556543425905d10ba687d021c1114967363804a7
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/tldr-lint.html
@@ -13,6 +14,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/tldr-lint.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tldr-lint
 

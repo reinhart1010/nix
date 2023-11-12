@@ -3,7 +3,7 @@ layout: page
 title: linux/locate (English)
 description: "Find filenames quickly."
 content_hash: 34906bbc62ca6b7942d44e1dbfd2fc45583d630b
-last_modified_at: 2023-07-19
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/locate.html
@@ -11,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/locate.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # locate
 

@@ -3,6 +3,7 @@ layout: page
 title: common/dhcpwn (한국어)
 description: "DHCP IP 소진하는 공격을 테스트하고 로컬 DHCP 트래픽을 스니핑한다."
 content_hash: c28289b74d6aa6769ac53291d0343f9f1b824cce
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/dhcpwn.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/dhcpwn.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dhcpwn
 

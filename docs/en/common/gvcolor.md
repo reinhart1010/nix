@@ -3,6 +3,12 @@ layout: page
 title: common/gvcolor (English)
 description: "Colorize a ranked digraph with a range of colors."
 content_hash: 4ec7b8afa213d074f49d89024a6491c76efc4144
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 中文 version
+    url: /zh/common/gvcolor.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gvcolor
 

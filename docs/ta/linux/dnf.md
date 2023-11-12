@@ -3,6 +3,7 @@ layout: page
 title: linux/dnf (தமிழ்)
 description: "RHEL, Fedora மற்றும் CentOS க்கான தொகுப்பு மேலாண்மை பயன்பாடு (yum ஐ மாற்றுகிறது)."
 content_hash: 1f6e830ce05391002643baa7cf953e18d21b0382
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/dnf.html
@@ -16,8 +17,14 @@ related_topics:
   - title: español version
     url: /es/linux/dnf.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/dnf.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/linux/dnf.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/dnf.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/dnf.html
@@ -25,6 +32,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/dnf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dnf
 

@@ -3,6 +3,8 @@ layout: page
 title: common/sdk (English)
 description: "Tool for managing parallel versions of multiple Software Development Kits."
 content_hash: 730153e9e8990fba675bffe355291a2196b3ba9e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sdk
 

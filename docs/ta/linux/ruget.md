@@ -3,14 +3,18 @@ layout: page
 title: linux/ruget (தமிழ்)
 description: "ரஸ்டில் எழுதப்பட்ட wget மாற்று."
 content_hash: d07ea762627c05e1dba8c237023354b1ff7ec659
-last_modified_at: 2022-12-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/ruget.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/ruget.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/linux/ruget.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ruget
 

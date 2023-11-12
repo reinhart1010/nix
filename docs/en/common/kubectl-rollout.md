@@ -3,6 +3,12 @@ layout: page
 title: common/kubectl-rollout (English)
 description: "Manage the rollout of a Kubernetes resource (deployments, daemonsets, and statefulsets)."
 content_hash: f1eed6ef67e82a2c1b9bf1df5c9d0fdb921622e3
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/kubectl-rollout.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # kubectl rollout
 

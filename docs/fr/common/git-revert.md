@@ -3,6 +3,7 @@ layout: page
 title: common/git-revert (français)
 description: "Créer un nouveau commit qui efface les changements du précédent."
 content_hash: 1d4a3cf76ef7239aef0f2c1cac8ee372de73f7de
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-revert.html
@@ -13,8 +14,15 @@ related_topics:
   - title: italiano version
     url: /it/common/git-revert.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-revert.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# git revert
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git revert
 
 Créer un nouveau commit qui efface les changements du précédent.
 Plus d'informations : <https://git-scm.com/docs/git-revert>.

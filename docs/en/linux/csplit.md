@@ -3,11 +3,12 @@ layout: page
 title: linux/csplit (English)
 description: "Split a file into pieces."
 content_hash: 97587e35b3059b0a757af932f03529feb6c5018c
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/csplit.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # csplit
 

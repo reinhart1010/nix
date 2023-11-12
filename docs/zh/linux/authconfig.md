@@ -3,6 +3,7 @@ layout: page
 title: linux/authconfig (中文)
 description: "用于设置系统认证资源的命令行界面。"
 content_hash: 7c56f2f4246b9540c65d6d5b91ef3a412f182c37
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/authconfig.html
@@ -10,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/authconfig.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # authconfig
 

@@ -3,12 +3,16 @@ layout: page
 title: common/clear (español)
 description: "Limpia la pantalla de la terminal."
 content_hash: 884bf63783a868aef19f40a5e765814ce946ee69
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/clear.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/clear.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/clear.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/clear.html
@@ -28,6 +32,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/clear.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # clear
 

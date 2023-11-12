@@ -3,10 +3,12 @@ layout: page
 title: windows/reg-import (中文)
 description: "从一个文件导入所有可用的键、子键和值。"
 content_hash: 7b71580f8b536ed1e392df5d7640ef99582d0659
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/reg-import.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # reg import
 

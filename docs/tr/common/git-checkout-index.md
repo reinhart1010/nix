@@ -3,6 +3,7 @@ layout: page
 title: common/git-checkout-index (Türkçe)
 description: "Dosyaları indeksten çalışma ağacına kopyala."
 content_hash: 97f847008655e1a539595fa6b545b6c9e64366d5
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-checkout-index.html
@@ -10,6 +11,7 @@ related_topics:
   - title: українська version
     url: /uk/common/git-checkout-index.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git checkout-index
 

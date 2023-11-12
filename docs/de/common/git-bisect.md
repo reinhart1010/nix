@@ -3,6 +3,7 @@ layout: page
 title: common/git-bisect (Deutsch)
 description: "Benutzt binäre Suche um den commit ausfindig zu machen, welcher einen Fehler beinhaltet."
 content_hash: 901c43c3b8d06dfa3fc0c79b52f6142082db94be
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-bisect.html
@@ -22,15 +23,10 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-bisect.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-bisect.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># git bisect
 

@@ -3,11 +3,12 @@ layout: page
 title: windows/forfiles (English)
 description: "Select one or more files to execute a specified command on."
 content_hash: 4f8a0c7d8b470ac79a8024c324d9874d1c3f256f
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/windows/forfiles.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # forfiles
 

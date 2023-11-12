@@ -3,6 +3,8 @@ layout: page
 title: linux/fakeroot (English)
 description: "Run a command in an environment faking root privileges for file manipulation."
 content_hash: 209f48ce0826b8db3783773ed4d2b1ba8788e333
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fakeroot
 

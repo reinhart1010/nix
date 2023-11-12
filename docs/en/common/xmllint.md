@@ -3,6 +3,8 @@ layout: page
 title: common/xmllint (English)
 description: "XML parser and linter that supports XPath, a syntax for navigating XML trees."
 content_hash: 7b200fe0a7b60acc38a1f6416590d202b863866b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xmllint
 

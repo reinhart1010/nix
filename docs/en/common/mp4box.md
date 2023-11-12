@@ -3,7 +3,8 @@ layout: page
 title: common/mp4box (English)
 description: "MPEG-4 Systems Toolbox - Muxes streams into MP4 container."
 content_hash: c99391ed98a8874422bfb3479f726e74c038b1ff
-last_modified_at: 2022-12-06
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mp4box
 

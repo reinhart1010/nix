@@ -3,6 +3,8 @@ layout: page
 title: common/ocamlc (English)
 description: "The OCaml bytecode compiler."
 content_hash: dd8cc4f8ab29cce5c384e43e6f020601f8eba257
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ocamlc
 

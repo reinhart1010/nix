@@ -3,7 +3,7 @@ layout: page
 title: common/ls (português (Brasil))
 description: "Lista o conteúdo de um diretório."
 content_hash: 6848a38d1c1eca26b83607e03915bd514d88a938
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/common/ls.html
@@ -41,6 +41,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/ls.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/ls.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/common/ls.html
     icon: bi bi-globe
@@ -56,17 +59,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/ls.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ls.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ls
+# ls
 
 Lista o conteúdo de um diretório.
 Mais informações: <https://www.gnu.org/software/coreutils/ls>.

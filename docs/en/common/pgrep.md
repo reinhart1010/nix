@@ -3,6 +3,8 @@ layout: page
 title: common/pgrep (English)
 description: "Find or signal processes by name."
 content_hash: f0e0b68511db392be2eae0ac746f5beced596c2b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pgrep
 

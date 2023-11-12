@@ -3,16 +3,14 @@ layout: page
 title: linux/nmcli-general (Nederlands)
 description: "Beheer algemene instellingen van NetworkManager."
 content_hash: 3099d38440c63741e21817f36adcc8118e0b34ad
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/nmcli-general.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># nmcli general
+# nmcli general
 
 Beheer algemene instellingen van NetworkManager.
 Dit subcommando kan ook aangeroepen worden met `nmcli g`.

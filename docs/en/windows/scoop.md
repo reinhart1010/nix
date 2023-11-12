@@ -3,10 +3,16 @@ layout: page
 title: windows/scoop (English)
 description: "The Scoop package manager."
 content_hash: 1666db47f011f808861e0af5bdb3e30447b3c49f
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/scoop.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/scoop.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/scoop.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/windows/scoop.html
@@ -14,6 +20,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/scoop.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # scoop
 

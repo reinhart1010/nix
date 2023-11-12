@@ -3,6 +3,15 @@ layout: page
 title: common/avo (English)
 description: "The official command-line interface for Avo."
 content_hash: 493e10029b9f500cbb3aad771d933c654ad2fcd4
+last_modified_at: 2023-11-12
+related_topics:
+  - title: español version
+    url: /es/common/avo.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/avo.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # avo
 

@@ -3,7 +3,8 @@ layout: page
 title: common/emulator (English)
 description: "Manage Android emulators."
 content_hash: 3b17fe68f592e0c4cdfa067d662e9e5fb6542654
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # emulator
 

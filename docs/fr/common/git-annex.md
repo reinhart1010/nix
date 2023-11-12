@@ -3,7 +3,7 @@ layout: page
 title: common/git-annex (français)
 description: "Gérez les fichiers avec Git, sans archiver leur contenu."
 content_hash: 42c52c57fed6548e66aa38bfbeb999fa22de8b27
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-annex.html
@@ -14,6 +14,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-annex.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git annex
 

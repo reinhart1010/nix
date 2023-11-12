@@ -3,6 +3,7 @@ layout: page
 title: linux/xrandr (Türkçe)
 description: "Bir ekran için boyut, yön ve/veya çıkış yansımasını ayarla."
 content_hash: 383050965ab79dca6768bd783807da1aa455eddc
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/xrandr.html
@@ -10,6 +11,7 @@ related_topics:
   - title: English version
     url: /en/linux/xrandr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xrandr
 

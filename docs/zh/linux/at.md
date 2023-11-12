@@ -3,13 +3,18 @@ layout: page
 title: linux/at (中文)
 description: "在指定时间执行命令。"
 content_hash: 54d0fb10b25fc5bbaffbf055bcd42eeb231367d8
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/at.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/at.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/at.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # at
 

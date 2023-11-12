@@ -3,6 +3,7 @@ layout: page
 title: common/git-update-ref (français)
 description: "Commande Git pour créer, mettre à jour et supprimer des références Git."
 content_hash: 1caaf2223c100c8a3c5bc03d15432d526dc9e5fa
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-update-ref.html
@@ -10,6 +11,10 @@ related_topics:
   - title: italiano version
     url: /it/common/git-update-ref.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-update-ref.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git update-ref
 

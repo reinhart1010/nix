@@ -3,11 +3,10 @@ layout: page
 title: common/progress (English)
 description: "Display/Monitor the progress of running coreutils."
 content_hash: 5c700c5dc43910d5aeafbd07029da9c4f92bc946
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># progress
+# progress
 
 Display/Monitor the progress of running coreutils.
 More information: <https://github.com/Xfennec/progress>.

@@ -3,18 +3,20 @@ layout: page
 title: windows/ftp (Deutsch)
 description: "Interaktiver Dateitransfer zwischen einem lokalen und einem entfernten FTP-Server."
 content_hash: b117ea8068d2ce0ec1da4e78afa77d9a7ea34fd3
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/ftp.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/ftp.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/ftp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ftp
+# ftp
 
 Interaktiver Dateitransfer zwischen einem lokalen und einem entfernten FTP-Server.
 Weitere Informationen: <https://learn.microsoft.com/windows-server/administration/windows-commands/ftp>.

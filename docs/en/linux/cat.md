@@ -3,7 +3,7 @@ layout: page
 title: linux/cat (English)
 description: "Print and concatenate files."
 content_hash: d1525df9d27dfb4db147161c8867f6ca52ee0d9f
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: हिन्दी version
     url: /hi/linux/cat.html
@@ -11,6 +11,10 @@ related_topics:
   - title: മലയാളം version
     url: /ml/linux/cat.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/cat.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cat
 

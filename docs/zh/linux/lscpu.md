@@ -3,7 +3,7 @@ layout: page
 title: linux/lscpu (中文)
 description: "显示 CPU 架构信息。"
 content_hash: 557746d9299bd3c057b5757381282a8584db4f1c
-last_modified_at: 2023-10-27
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/lscpu.html
@@ -14,6 +14,7 @@ related_topics:
   - title: русский version
     url: /ru/linux/lscpu.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lscpu
 

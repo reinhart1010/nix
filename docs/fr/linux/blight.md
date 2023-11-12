@@ -3,11 +3,12 @@ layout: page
 title: linux/blight (français)
 description: "Utilitaire pour changer la luminosité de l'affichage."
 content_hash: 0722a07b550f4450630f5044b1909cb22e03a22c
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/blight.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # blight
 

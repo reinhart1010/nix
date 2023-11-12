@@ -3,7 +3,7 @@ layout: page
 title: android/screencap (हिन्दी)
 description: "मोबाइल डिस्प्ले का स्क्रीनशॉट लें।"
 content_hash: a1641de0b23594e212fd7ebb6555a3afb23647db
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/screencap.html
@@ -44,6 +44,7 @@ related_topics:
   - title: 中文 version
     url: /zh/android/screencap.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # screencap
 

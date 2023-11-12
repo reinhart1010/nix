@@ -3,7 +3,8 @@ layout: page
 title: common/xzgrep (English)
 description: "Search files possibly compressed with `xz`, `lzma`, `gzip`, `bzip2`, `lzop`, or `zstd` using regular expressions."
 content_hash: 36394ac74d38186eca0bced7a70b32c95459d160
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xzgrep
 

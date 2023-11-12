@@ -3,6 +3,8 @@ layout: page
 title: common/pdf-parser (English)
 description: "Identify fundamental elements of a PDF file without rendering it."
 content_hash: e8afb49b81e96f20539ee243066e90f2e45d922e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pdf-parser
 

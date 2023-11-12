@@ -3,7 +3,8 @@ layout: page
 title: common/socat (English)
 description: "Multipurpose relay (SOcket CAT)."
 content_hash: dbe39dab7d577cbf8a7c13657c2366717281c964
-last_modified_at: 2023-09-19
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # socat
 

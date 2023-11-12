@@ -3,12 +3,10 @@ layout: page
 title: common/retry (English)
 description: "Repeat command until it succeeds or a criterion is met."
 content_hash: 5a64c33f1e9aa4f1df90799343159608e719c941
-last_modified_at: 2023-02-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># retry
+# retry
 
 Repeat command until it succeeds or a criterion is met.
 More information: <https://github.com/minfrin/retry>.

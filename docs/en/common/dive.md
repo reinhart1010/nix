@@ -3,6 +3,7 @@ layout: page
 title: common/dive (English)
 description: "A tool for exploring a Docker image, layer contents, and discovering ways to shrink it."
 content_hash: da89b268a57d377de291d0188708cc8acac582e4
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/dive.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/dive.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dive
 

@@ -3,7 +3,7 @@ layout: page
 title: common/piodebuggdb (polski)
 description: "To polecenie jest aliasem `pio debug`."
 content_hash: 86ad990fbfb60f5710ca7fbc63a508359dea9300
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/piodebuggdb.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/piodebuggdb.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # piodebuggdb
 

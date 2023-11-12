@@ -3,6 +3,8 @@ layout: page
 title: common/hg-log (English)
 description: "Display the revision history of the repository."
 content_hash: d46cf4b9f19686c0aceddf6eb15cc392ce6e1463
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # hg log
 

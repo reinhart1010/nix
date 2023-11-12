@@ -3,7 +3,7 @@ layout: page
 title: common/fish (English)
 description: "The Friendly Interactive SHell, a command-line interpreter designed to be user friendly."
 content_hash: f3073734aa9fe4e063970705f7457b545b1d35fc
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/fish.html
@@ -11,6 +11,7 @@ related_topics:
   - title: français version
     url: /fr/common/fish.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fish
 

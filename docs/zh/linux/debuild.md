@@ -3,11 +3,12 @@ layout: page
 title: linux/debuild (中文)
 description: "从源代码构建 `Debian` 软件包的工具。"
 content_hash: 86e103c3bdc175b789db03ab48d54979daf703d7
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/debuild.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # debuild
 

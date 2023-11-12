@@ -3,11 +3,14 @@ layout: page
 title: linux/pw-cli (English)
 description: "The PipeWire Command Line Interface."
 content_hash: 931fdae672438a7a5323271d948b46c3a227de04
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Türkçe version
+    url: /tr/linux/pw-cli.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pw-cli
+# pw-cli
 
 The PipeWire Command Line Interface.
 More information: <https://docs.pipewire.org/page_man_pw_cli_1.html>.

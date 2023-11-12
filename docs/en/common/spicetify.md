@@ -3,7 +3,8 @@ layout: page
 title: common/spicetify (English)
 description: "Customize the Spotify client UI and functionality."
 content_hash: 5a4549046f515e416ffebb394b518caa79d54fd4
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # spicetify
 

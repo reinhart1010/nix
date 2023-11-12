@@ -3,7 +3,8 @@ layout: page
 title: linux/handlr (English)
 description: "Manage your default applications."
 content_hash: 589c640cfdb90a7cf22e3d2219da3c4faab1e9d5
-last_modified_at: 2023-03-12
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # handlr
 

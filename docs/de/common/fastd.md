@@ -3,16 +3,14 @@ layout: page
 title: common/fastd (Deutsch)
 description: "VPN daemon."
 content_hash: e1fdfd8be3df8a58354cc632e021f7769c1cc7db
-last_modified_at: 2023-07-13
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/fastd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># fastd
+# fastd
 
 VPN daemon.
 Arbeitet auf Schicht 2 oder Schicht 3, unterstützt verschiedene Verschlüsselungsmethoden, wird von Freifunk verwendet.

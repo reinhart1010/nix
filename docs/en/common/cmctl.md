@@ -3,7 +3,8 @@ layout: page
 title: common/cmctl (English)
 description: "Manage cert-manager resources inside your cluster."
 content_hash: 06d072cb2d04f6ddbea13ffeab09596749cc09ca
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # cmctl
 

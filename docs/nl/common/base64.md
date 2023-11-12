@@ -3,7 +3,7 @@ layout: page
 title: common/base64 (Nederlands)
 description: "Codeer of decodeer bestand of standaardinvoer van/naar Base64 naar standaarduitvoer."
 content_hash: d664f67e0d504c0a28f22991c34fb1e5351eef46
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/base64.html
@@ -35,6 +35,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/base64.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # base64
 

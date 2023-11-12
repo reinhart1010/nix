@@ -3,7 +3,8 @@ layout: page
 title: common/limactl (English)
 description: "Virtual machine manager for Linux guests, with multiple VM templates available."
 content_hash: 2db0583bb5b8f33a8b1aa51d8187f633fb9626e2
-last_modified_at: 2023-09-06
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # limactl
 

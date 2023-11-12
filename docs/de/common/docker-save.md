@@ -3,13 +3,21 @@ layout: page
 title: common/docker-save (Deutsch)
 description: "Exportiere eines oder mehrere Docker Images in ein Archiv."
 content_hash: 2f6f29b5b1d801d3d2cfe6f823e5b5e63b932dd1
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/docker-save.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/docker-save.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/docker-save.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/docker-save.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker save
 

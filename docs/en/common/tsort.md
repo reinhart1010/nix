@@ -3,7 +3,8 @@ layout: page
 title: common/tsort (English)
 description: "Perform a topological sort."
 content_hash: 6b79a26a94a595cbf5535ac1f5e981effbd4bfba
-last_modified_at: 2023-05-11
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tsort
 

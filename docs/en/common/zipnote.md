@@ -3,11 +3,10 @@ layout: page
 title: common/zipnote (English)
 description: "View, add, or edit a zip archive's comments."
 content_hash: c596c5934bce92ac8419df00bb74f0a778479529
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># zipnote
+# zipnote
 
 View, add, or edit a zip archive's comments.
 Files can also be renamed in the zip archive.

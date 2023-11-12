@@ -3,6 +3,8 @@ layout: page
 title: linux/dphys-swapfile (English)
 description: "Manage the swap file on Debian-based Linux systems."
 content_hash: 7834d3bc462582abeffb18345ebb5fd005454e2c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dphys-swapfile
 

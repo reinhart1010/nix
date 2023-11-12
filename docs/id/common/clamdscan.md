@@ -3,7 +3,7 @@ layout: page
 title: common/clamdscan (Indonesia)
 description: "Sebuah program pemindai virus berbasis command-line."
 content_hash: 89999fd4af7ebdc552af7b81a303b9db2cceb12a
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/clamdscan.html
@@ -11,6 +11,7 @@ related_topics:
   - title: ไทย version
     url: /th/common/clamdscan.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # clamdscan
 

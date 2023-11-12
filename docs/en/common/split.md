@@ -3,11 +3,12 @@ layout: page
 title: common/split (English)
 description: "Split a file into pieces."
 content_hash: 5050761963e0ec348f6947f6da72e41a018496d0
-last_modified_at: 2022-12-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Indonesia version
     url: /id/common/split.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # split
 

@@ -3,6 +3,27 @@ layout: page
 title: common/acme.sh (English)
 description: "Shell script implementing ACME client protocol, an alternative to certbot."
 content_hash: 1ba3c8ac2e022acad26a93f833e5955f3b16dbd1
+last_modified_at: 2023-11-12
+related_topics:
+  - title: বাংলা version
+    url: /bn/common/acme.sh.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/acme.sh.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/acme.sh.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/acme.sh.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/acme.sh.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/acme.sh.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # acme.sh
 

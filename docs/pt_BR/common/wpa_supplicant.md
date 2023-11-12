@@ -3,10 +3,12 @@ layout: page
 title: common/wpa_supplicant (português (Brasil))
 description: "Gerenciador de redes wireless protegidas."
 content_hash: cf6db84939be800b086355baa158e1b1495c0304
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/wpa_supplicant.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wpa_supplicant
 

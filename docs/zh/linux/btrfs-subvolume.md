@@ -3,6 +3,7 @@ layout: page
 title: linux/btrfs-subvolume (中文)
 description: "管理 btrfs 子卷和快照。"
 content_hash: f70a8c8ea63b477f8532e9ee337d6ce39667ac9b
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/btrfs-subvolume.html
@@ -13,6 +14,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/btrfs-subvolume.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # btrfs subvolume
 

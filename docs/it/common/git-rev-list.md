@@ -3,6 +3,7 @@ layout: page
 title: common/git-rev-list (italiano)
 description: "Elenca le revisioni (commit) in ordine cronologico inverso."
 content_hash: f7d7063e023992fc383782a37a9b92fa8cfd9450
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-rev-list.html
@@ -13,15 +14,13 @@ related_topics:
   - title: français version
     url: /fr/common/git-rev-list.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-rev-list.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-rev-list.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># git rev-list
 

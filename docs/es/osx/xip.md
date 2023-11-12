@@ -3,7 +3,7 @@ layout: page
 title: osx/xip (español)
 description: "Crea o expande archivos comprimidos en un archivo xip seguro."
 content_hash: 2b0925f1203954d2d0c8af1c73dd7bddd0806ba0
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/xip.html
@@ -11,11 +11,9 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/osx/xip.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># xip
+# xip
 
 Crea o expande archivos comprimidos en un archivo xip seguro.
 Sólo los archivos firmados por Apple son de confianza, por lo que esta herramienta no debe utilizarse para crear archivos comprimidos.

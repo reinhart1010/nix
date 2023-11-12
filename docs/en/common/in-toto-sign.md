@@ -3,6 +3,8 @@ layout: page
 title: common/in-toto-sign (English)
 description: "Sign in-toto link or layout metadata or verify their signatures."
 content_hash: f71f90922d1e776569b0a59d3f28c01e3fdd0b09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # in-toto-sign
 

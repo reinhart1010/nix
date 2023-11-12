@@ -3,12 +3,17 @@ layout: page
 title: common/open.fish (English)
 description: "Opens files, directories, and URIs with default applications."
 content_hash: 8c2928ccd0d52b27c33ad9fc949bf9c0ca6ee814
-last_modified_at: 2023-10-10
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Indonesia version
+    url: /id/common/open.fish.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/open.fish.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># open
+# open
 
 Opens files, directories, and URIs with default applications.
 This command is available through `fish` on operating systems without the built-in `open` command (e.g. Haiku and macOS).

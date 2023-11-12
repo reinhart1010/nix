@@ -3,7 +3,7 @@ layout: page
 title: osx/dot_clean (español)
 description: "Fusiona los archivos ._* con los archivos nativos correspondientes."
 content_hash: d30f714715c80000da6f14f50b79d3afacaec47f
-last_modified_at: 2023-08-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/dot_clean.html
@@ -11,11 +11,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/osx/dot_clean.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dot_clean
+# dot_clean
 
 Fusiona los archivos ._* con los archivos nativos correspondientes.
 Más información: <https://ss64.com/osx/dot_clean.html>.

@@ -3,6 +3,7 @@ layout: page
 title: common/node (中文)
 description: "服务器后端 JavaScript 平台（Node.js）。"
 content_hash: 8b7bd750583c22ceb2f1baa26ba5b98952ad7b19
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/node.html
@@ -16,11 +17,18 @@ related_topics:
   - title: Indonesia version
     url: /id/common/node.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/common/node.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/node.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# node
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># node
 
 服务器后端 JavaScript 平台（Node.js）。
 更多信息：<https://nodejs.org>.

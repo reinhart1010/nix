@@ -3,6 +3,7 @@ layout: page
 title: common/cppclean (한국어)
 description: "C++ 프로젝트에서 사용하지 않는 코드 찾기."
 content_hash: 60e3973254f3a35cd14c0b91803017fe15ad48e3
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/cppclean.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/cppclean.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cppclean
 

@@ -3,6 +3,7 @@ layout: page
 title: linux/apt-get (Türkçe)
 description: "Debian ve Ubuntu paket yönetim aracı."
 content_hash: 0b515acd2f1b124e08652423f0199a715de05c4b
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/linux/apt-get.html
@@ -19,18 +20,31 @@ related_topics:
   - title: español version
     url: /es/linux/apt-get.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/apt-get.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/linux/apt-get.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/apt-get.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/apt-get.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/apt-get.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/apt-get.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/apt-get.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apt-get.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apt-get
 

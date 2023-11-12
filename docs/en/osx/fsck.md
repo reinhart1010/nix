@@ -3,10 +3,18 @@ layout: page
 title: osx/fsck (English)
 description: "Check the integrity of a filesystem or repair it. The filesystem should be unmounted at the time the command is run."
 content_hash: 45a3cd26a33377e3cbfd4ba96950b1d55839d474
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/osx/fsck.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/fsck.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/fsck.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fsck
 

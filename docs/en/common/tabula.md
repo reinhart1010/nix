@@ -3,6 +3,8 @@ layout: page
 title: common/tabula (English)
 description: "Extract tables from PDF files."
 content_hash: 7996dbe3d624a42003eb80d52bee212e6aaaefb0
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tabula
 

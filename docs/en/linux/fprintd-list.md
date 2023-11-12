@@ -3,6 +3,8 @@ layout: page
 title: linux/fprintd-list (English)
 description: "List enrolled fingerprints."
 content_hash: 70b88afd6e6b1487758012ca73b8c5ced201a9ba
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fprintd-list
 

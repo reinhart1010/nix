@@ -3,7 +3,12 @@ layout: page
 title: common/iverilog (English)
 description: "Preprocesses and compiles Verilog HDL (IEEE-1364) code into executable programs for simulation."
 content_hash: e9dcfcc978dcf8ea1da534b3196834caa48cb149
-last_modified_at: 2022-11-27
+last_modified_at: 2023-11-12
+related_topics:
+  - title: தமிழ் version
+    url: /ta/common/iverilog.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # iverilog
 

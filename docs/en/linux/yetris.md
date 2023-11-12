@@ -3,6 +3,8 @@ layout: page
 title: linux/yetris (English)
 description: "Clone of the game Tetris in the terminal."
 content_hash: e8c9c7fc5d31ef7758b77096b5d9ca693e03b418
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # yetris
 

@@ -3,7 +3,7 @@ layout: page
 title: linux/lsusb (English)
 description: "Display information about USB buses and devices connected to them."
 content_hash: e2ea2a138566dd5d0311cf64cff1644ce55f0f34
-last_modified_at: 2023-07-18
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/lsusb.html
@@ -17,6 +17,7 @@ related_topics:
   - title: italiano version
     url: /it/linux/lsusb.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lsusb
 

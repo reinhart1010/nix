@@ -3,7 +3,7 @@ layout: page
 title: android/cmd (polski)
 description: "Menedżer usług Android."
 content_hash: eb2fb00d5c27fb886ecad1f190c122eec72b1878
-last_modified_at: 2023-10-21
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/cmd.html
@@ -32,6 +32,12 @@ related_topics:
   - title: italiano version
     url: /it/android/cmd.html
     icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/android/cmd.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/android/cmd.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/android/cmd.html
     icon: bi bi-globe
@@ -47,6 +53,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/android/cmd.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/android/cmd.html
+    icon: bi bi-globe
   - title: o‘zbek version
     url: /uz/android/cmd.html
     icon: bi bi-globe
@@ -56,6 +65,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/cmd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cmd
 

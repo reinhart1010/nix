@@ -3,13 +3,18 @@ layout: page
 title: common/jar (中文)
 description: "Java 应用程序 / 类库打包程序。"
 content_hash: 9ae7efcae70fef4887a5026ecf6343b3b4fdc3e2
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/jar.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/jar.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/jar.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # jar
 

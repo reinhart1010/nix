@@ -3,7 +3,8 @@ layout: page
 title: common/uudecode (English)
 description: "Decode files encoded by `uuencode`."
 content_hash: 0c7e672111f730283809a5631ab61fd89f004d25
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # uudecode
 

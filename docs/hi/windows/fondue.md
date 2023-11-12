@@ -3,7 +3,7 @@ layout: page
 title: windows/fondue (हिन्दी)
 description: "वैकल्पिक विंडोज़ सुविधाएँ स्थापित करें।"
 content_hash: dc0405687d7d8dff75307de6f144fb98deb286c6
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/fondue.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/fondue.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fondue
 

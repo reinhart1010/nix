@@ -3,6 +3,7 @@ layout: page
 title: common/vlc (中文)
 description: "跨平台多媒体播放器。"
 content_hash: 4a91b5d59260c967c9731319f3a3d2663abd0cff
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/vlc.html
@@ -10,9 +11,13 @@ related_topics:
   - title: italiano version
     url: /it/common/vlc.html
     icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/vlc.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/vlc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # vlc
 

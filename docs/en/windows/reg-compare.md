@@ -3,10 +3,12 @@ layout: page
 title: windows/reg-compare (English)
 description: "Compare keys and their values in the registry."
 content_hash: af18162c32d97ad3f376d52d08500049ccaed81a
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/windows/reg-compare.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # reg compare
 

@@ -3,6 +3,7 @@ layout: page
 title: common/deluged (italiano)
 description: "Un processo demone per il client BitTorrent Deluge."
 content_hash: a85d324fdf18680bb96b9e3f0d10dd8cb53b44cf
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/deluged.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/deluged.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # deluged
 

@@ -3,6 +3,8 @@ layout: page
 title: common/gnucash (English)
 description: "Personal and small-business financial-accounting software."
 content_hash: d79fe4e2c2fab57b1c45989f03e43980c0a9fc22
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gnucash
 

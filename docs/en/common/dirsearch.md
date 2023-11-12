@@ -3,10 +3,12 @@ layout: page
 title: common/dirsearch (English)
 description: "Web path scanner."
 content_hash: d7da1d683e14b1c0baf5062c839416c996fc322c
+last_modified_at: 2023-11-12
 related_topics:
   - title: Türkçe version
     url: /tr/common/dirsearch.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dirsearch
 

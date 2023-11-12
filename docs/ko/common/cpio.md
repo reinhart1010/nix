@@ -3,6 +3,7 @@ layout: page
 title: common/cpio (한국어)
 description: "아카이브 안팎으로 파일을 복사. cpio의 custom binary, old ASCII, new ASCII, crc, HPUX binary, HPUX old ASCII, old tar, POSIX.1 tar.와 같은 아카이브 형식을 지원함."
 content_hash: e716d9dc3aa65c22b9c1685da5d482a6227aa147
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/cpio.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/cpio.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cpio
 

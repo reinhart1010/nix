@@ -3,6 +3,7 @@ layout: page
 title: common/test (日本語)
 description: "条件を評価します。"
 content_hash: 1829048151b0207ebc4523d91d39ac1c00ba3436
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/test.html
@@ -10,6 +11,7 @@ related_topics:
   - title: polski version
     url: /pl/common/test.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # test
 

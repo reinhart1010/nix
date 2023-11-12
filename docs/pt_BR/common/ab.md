@@ -3,7 +3,11 @@ layout: page
 title: common/ab (português (Brasil))
 description: "Ferramenta da Apache para realizar benchmarking e testes de carga em servidores web."
 content_hash: 13506d35fee5c782bcf284f2f2d2e66e38b55df3
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/ab.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/ab.html
     icon: bi bi-globe
@@ -13,13 +17,22 @@ related_topics:
   - title: español version
     url: /es/common/ab.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/ab.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/ab.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/ab.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/ab.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: Nederlands version
+    url: /nl/common/ab.html
+    icon: bi bi-globe
+  - title: norsk version
     url: /no/common/ab.html
     icon: bi bi-globe
   - title: русский version
@@ -31,15 +44,10 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ab.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ab.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># ab
 

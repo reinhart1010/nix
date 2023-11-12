@@ -3,6 +3,8 @@ layout: page
 title: linux/hlint (English)
 description: "Tool for suggesting improvements to Haskell code."
 content_hash: 18410879853be6bb64d16f26101d19414a211a4a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # hlint
 

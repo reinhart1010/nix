@@ -3,6 +3,8 @@ layout: page
 title: linux/lrztar (English)
 description: "A wrapper for `lrzip` to simplify compression of directories."
 content_hash: 5be3e3ced3c8d5eded35d118c6912d2a67eab87b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lrztar
 

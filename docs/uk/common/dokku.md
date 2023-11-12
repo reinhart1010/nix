@@ -3,6 +3,7 @@ layout: page
 title: common/dokku (українська)
 description: "Міні-Heroku на основі Docker (PaaS)."
 content_hash: 751e5cb399c5bfcfbf6aacb4bd3d84b5c86ab6b4
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/dokku.html
@@ -13,11 +14,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/dokku.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dokku
+# dokku
 
 Міні-Heroku на основі Docker (PaaS).
 Легко розгортає кілька програм на власному сервері різними мовами за допомогою однієї команди `git-push`.

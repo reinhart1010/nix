@@ -3,11 +3,12 @@ layout: page
 title: windows/reg (English)
 description: "Manage keys and their values in the Windows registry."
 content_hash: b0a83a3d249b46fa0a7f97e25428f9f12f412efb
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/windows/reg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # reg
 

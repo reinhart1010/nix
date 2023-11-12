@@ -3,6 +3,8 @@ layout: page
 title: common/eva (English)
 description: "Simple calculator REPL, similar to `bc`, with syntax highlighting and persistent history."
 content_hash: 817cf19d2e1d3b0be926f48e71ef610c40c25ae8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # eva
 

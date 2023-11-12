@@ -3,6 +3,8 @@ layout: page
 title: linux/ipcmk (English)
 description: "Create IPC (Inter-process Communication) resources."
 content_hash: 6050f701492ddaccdd60c2a108f125d6bf9fcd66
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ipcmk
 

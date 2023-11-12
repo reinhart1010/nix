@@ -3,7 +3,7 @@ layout: page
 title: linux/xbps-install (Nederlands)
 description: "XBPS hulpprogramma om pakketten te (her)installeren en bij te werken."
 content_hash: 0ca18f6339c30a27aa390d15a853e7d8e56d1be7
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/xbps-install.html
@@ -11,11 +11,9 @@ related_topics:
   - title: русский version
     url: /ru/linux/xbps-install.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># xbps-install
+# xbps-install
 
 XBPS hulpprogramma om pakketten te (her)installeren en bij te werken.
 Bekijk ook: `xbps`.

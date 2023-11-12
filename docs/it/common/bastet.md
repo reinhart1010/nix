@@ -3,10 +3,12 @@ layout: page
 title: common/bastet (italiano)
 description: "Clone di Tetris nel Terminale."
 content_hash: 34c6e1bfe1ec45e24b03dbeb8e72b68364b1a098
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/bastet.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bastet
 

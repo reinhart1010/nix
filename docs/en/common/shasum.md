@@ -3,7 +3,7 @@ layout: page
 title: common/shasum (English)
 description: "Calculate SHA cryptographic checksums."
 content_hash: b510e09dc099ad4736e92f27bd9cbcd6ef9c97f3
-last_modified_at: 2023-05-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: தமிழ் version
     url: /ta/common/shasum.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/shasum.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # shasum
 

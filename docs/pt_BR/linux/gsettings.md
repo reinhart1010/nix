@@ -3,16 +3,14 @@ layout: page
 title: linux/gsettings (português (Brasil))
 description: "Consulta e modifica configurações do dconf com validação de esquema."
 content_hash: 166669a9986baac98493c5bda955a32b51ac673f
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/gsettings.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gsettings
+# gsettings
 
 Consulta e modifica configurações do dconf com validação de esquema.
 Mais informações: <https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/using_the_desktop_environment_in_rhel_8/configuring-gnome-at-low-level_using-the-desktop-environment-in-rhel-8#using-gsettings-command_configuring-gnome-at-low-level>.

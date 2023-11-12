@@ -3,7 +3,7 @@ layout: page
 title: common/git-log (português (Brasil))
 description: "Mostra um histórico de commits."
 content_hash: 25c0b56d29a360e1f3ab58a9c2d6e54909eec0f7
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-log.html
@@ -26,11 +26,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/git-log.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git log
+# git log
 
 Mostra um histórico de commits.
 Mais informações: <https://git-scm.com/docs/git-log>.

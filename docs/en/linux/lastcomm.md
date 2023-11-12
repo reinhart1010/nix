@@ -3,11 +3,12 @@ layout: page
 title: linux/lastcomm (English)
 description: "Show last commands executed."
 content_hash: dcfeee38983c6bc2d76a6f254501890904da90d9
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/lastcomm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lastcomm
 

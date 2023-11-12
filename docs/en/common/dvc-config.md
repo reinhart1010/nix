@@ -3,6 +3,8 @@ layout: page
 title: common/dvc-config (English)
 description: "Low level command to manage custom configuration options for dvc repositories."
 content_hash: b3ee42dd17492ed7824f54c70dea2a5092272dbd
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dvc config
 

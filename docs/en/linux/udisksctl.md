@@ -3,7 +3,8 @@ layout: page
 title: linux/udisksctl (English)
 description: "Interact with `udisksd` to query and manipulate storage devices."
 content_hash: b742ed9389acb4406e370fa1f896ce266a243ca4
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # udisksctl
 

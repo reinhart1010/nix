@@ -3,12 +3,16 @@ layout: page
 title: common/diff (français)
 description: "Compare deux fichiers ou répertoires."
 content_hash: 70714d9d75f392c67224acc3b00d369ba274ea95
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/diff.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/diff.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/diff.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/diff.html
@@ -25,11 +29,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/diff.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/diff.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># diff
+# diff
 
 Compare deux fichiers ou répertoires.
 Plus d'informations : <https://man7.org/linux/man-pages/man1/diff.1.html>.

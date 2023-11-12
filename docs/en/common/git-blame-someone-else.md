@@ -3,6 +3,8 @@ layout: page
 title: common/git-blame-someone-else (English)
 description: "Blame someone else for your bad code."
 content_hash: 9739b4cdb8d531a7cef73aec379619d1b4ef2784
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git blame-someone-else
 

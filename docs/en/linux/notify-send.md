@@ -3,6 +3,8 @@ layout: page
 title: linux/notify-send (English)
 description: "Uses the current desktop environment's notification system to create a notification."
 content_hash: 3d0d0607496a97f9aa72d4311f0bafea53cd44be
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # notify-send
 

@@ -3,6 +3,12 @@ layout: page
 title: linux/enum4linux (English)
 description: "Tool for enumerating Windows and Samba information from remote systems."
 content_hash: 576499d242b98705cf7eebab317c82f749dffe7e
+last_modified_at: 2023-11-12
+related_topics:
+  - title: italiano version
+    url: /it/linux/enum4linux.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # enum4linux
 

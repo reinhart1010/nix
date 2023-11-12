@@ -3,12 +3,14 @@ layout: page
 title: linux/pkgctl-repo (English)
 description: "Manage Git packaging repositories and their configuration for Arch Linux."
 content_hash: db825038fc5f0bde2c02f00666b4d5ce20db205d
-last_modified_at: 2023-08-14
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Nederlands version
+    url: /nl/linux/pkgctl-repo.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pkgctl repo
+# pkgctl repo
 
 Manage Git packaging repositories and their configuration for Arch Linux.
 See also: `pkgctl`.

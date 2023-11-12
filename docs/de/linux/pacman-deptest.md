@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman-deptest (Deutsch)
 description: "Überprüfe alle angegebenen Abhängigkeiten und gib eine Liste von Abhängigkeiten zurück, welche auf dem System nicht erfüllt sind."
 content_hash: aff522249e9b0c855579576e621b5bcfefb5371a
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/pacman-deptest.html
@@ -11,9 +11,13 @@ related_topics:
   - title: français version
     url: /fr/linux/pacman-deptest.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/pacman-deptest.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/pacman-deptest.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pacman --deptest
 

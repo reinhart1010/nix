@@ -3,9 +3,13 @@ layout: page
 title: common/cd (Deutsch)
 description: "Ändere das aktuelle Arbeitsverzeichnis."
 content_hash: 3f777ae567e555a486d28cb7e75f386f11951215
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/common/cd.html
+    icon: bi bi-globe
+  - title: čeština version
+    url: /cs/common/cd.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/cd.html
@@ -27,6 +31,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/cd.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/cd.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/cd.html
@@ -55,6 +62,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/cd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cd
 

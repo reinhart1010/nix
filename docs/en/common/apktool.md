@@ -3,8 +3,11 @@ layout: page
 title: common/apktool (English)
 description: "Reverse engineer APK files."
 content_hash: 14ee3992c7db240e05fb999298bfebaa764cecb0
-last_modified_at: 2023-04-14
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/common/apktool.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/apktool.html
     icon: bi bi-globe
@@ -14,9 +17,13 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/apktool.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/apktool.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/apktool.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apktool
 

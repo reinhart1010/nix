@@ -3,7 +3,7 @@ layout: page
 title: common/mysql (中文 (繁體, 台灣))
 description: "MySQL 命令列工具。"
 content_hash: 6482381fd4e3daef6f17bc86afa532f1fbba8424
-last_modified_at: 2023-10-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/mysql.html
@@ -20,11 +20,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/mysql.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mysql
+# mysql
 
 MySQL 命令列工具。
 更多資訊：<https://www.mysql.com/>.

@@ -3,6 +3,7 @@ layout: page
 title: common/more (italiano)
 description: "Aprire un file per la lettura interattiva, con scorrimento e ricerca."
 content_hash: fa152610e087f0f8dd1c6ec2e4736ea35bf45628
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/more.html
@@ -10,6 +11,10 @@ related_topics:
   - title: español version
     url: /es/common/more.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/more.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # more
 

@@ -3,11 +3,15 @@ layout: page
 title: common/sshpass (English)
 description: "An ssh password provider."
 content_hash: 345dea53528262e677b0df8e6b877486a7359c12
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/sshpass.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/sshpass.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sshpass
 

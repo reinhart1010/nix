@@ -3,7 +3,7 @@ layout: page
 title: osx/sips (español)
 description: "Sistema de procesamiento de imágenes Apple Scriptable."
 content_hash: dc07e1d86bfc130bc73227c8b5bf9db1eba5f3f6
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/sips.html
@@ -11,11 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/sips.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># sips
+# sips
 
 Sistema de procesamiento de imágenes Apple Scriptable.
 Imágenes Raster/Query y Perfiles ICC ColorSync.

@@ -3,6 +3,8 @@ layout: page
 title: linux/deborphan (English)
 description: "Display orphan packages on operating systems using the APT package manager."
 content_hash: 53300da01e426beb732e693bf5fab558a201f054
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # deborphan
 

@@ -3,7 +3,7 @@ layout: page
 title: common/flutter (English)
 description: "Google's free, open source, and cross-platform mobile app SDK."
 content_hash: 538fe7ff62207bba53cb11d98937a1ceb3da4626
-last_modified_at: 2023-10-01
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/flutter.html
@@ -11,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/flutter.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # flutter
 

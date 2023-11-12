@@ -3,7 +3,7 @@ layout: page
 title: common/nc (한국어)
 description: "Netcat은 TCP 또는 UDP 데이터 작업을 위한 다목적 유틸리티입니다."
 content_hash: c995356385a8c519eca7be5d3a474df439eee4f3
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/nc.html
@@ -11,6 +11,7 @@ related_topics:
   - title: español version
     url: /es/common/nc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nc
 

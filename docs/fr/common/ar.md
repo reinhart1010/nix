@@ -3,6 +3,7 @@ layout: page
 title: common/ar (français)
 description: "Crée, modifie et extrais depuis des archives (`.a`, `.so`, `.o`)."
 content_hash: 2ff4586f5ac2d87830e3ec78e57d0c8bdd560bc4
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ar.html
@@ -16,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ar.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ar
 

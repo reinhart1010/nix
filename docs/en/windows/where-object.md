@@ -3,12 +3,10 @@ layout: page
 title: windows/where-object (English)
 description: "Selects objects from a collection based on their property values."
 content_hash: 6cf3cab959b9cef8f008c4d4b11d7fd18ddb7f23
-last_modified_at: 2022-12-21
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># Where-Object
+# Where-Object
 
 Selects objects from a collection based on their property values.
 This command can only be used through PowerShell.

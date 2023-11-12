@@ -3,7 +3,8 @@ layout: page
 title: common/shred (English)
 description: "Overwrite files to securely delete data."
 content_hash: d82bbea4555ed79c32778eba2ecd8d89b01f6a6f
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # shred
 

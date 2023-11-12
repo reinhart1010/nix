@@ -3,12 +3,19 @@ layout: page
 title: windows/choco-upgrade (polski)
 description: "Aktualizacja jednej lub więcej paczek zarządzanych przez Chocolatey."
 content_hash: 9d5a239ce3ddd3b36359f550ac682183942f5549
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-upgrade.html
     icon: bi bi-globe
   - title: English version
     url: /en/windows/choco-upgrade.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/windows/choco-upgrade.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/choco-upgrade.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/choco-upgrade.html
@@ -19,11 +26,9 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/choco-upgrade.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># choco upgrade
+# choco upgrade
 
 Aktualizacja jednej lub więcej paczek zarządzanych przez Chocolatey.
 Więcej informacji: <https://chocolatey.org/docs/commands-upgrade>.

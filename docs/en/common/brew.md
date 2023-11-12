@@ -3,7 +3,7 @@ layout: page
 title: common/brew (English)
 description: "Homebrew - a package manager for macOS and Linux."
 content_hash: 5fdcaf539ac4716af7fa0a623be920a0ac876aed
-last_modified_at: 2023-11-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/brew.html
@@ -29,6 +29,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/brew.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # brew
 

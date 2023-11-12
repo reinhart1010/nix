@@ -3,6 +3,8 @@ layout: page
 title: linux/ddrescue (English)
 description: "Data recovery tool that reads data from damaged block devices."
 content_hash: ae2431f19d36d82c0e8873927c34d715253f73f2
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ddrescue
 

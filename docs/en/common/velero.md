@@ -3,6 +3,8 @@ layout: page
 title: common/velero (English)
 description: "Backup and migrate Kubernetes applications and their persistent volumes."
 content_hash: c13676cb263c9f2317f7dd389e890dfe4b1de3e2
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # velero
 

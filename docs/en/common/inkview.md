@@ -3,6 +3,8 @@ layout: page
 title: common/inkview (English)
 description: "Inkscape graphical SVG previewer."
 content_hash: bd395f6eb6c458c9853d1a530c84a5a467a80ab4
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # inkview
 

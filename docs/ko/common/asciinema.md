@@ -3,7 +3,7 @@ layout: page
 title: common/asciinema (한국어)
 description: "터미널 세션을 녹음하고 재생하며 선택적으로 asciinema.org에서 공유합니다."
 content_hash: fb776cd06f4e98462db2a6b6d94a76e4c485f5a9
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/asciinema.html
@@ -23,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/asciinema.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # asciinema
 

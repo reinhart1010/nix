@@ -3,10 +3,12 @@ layout: page
 title: windows/reg-unload (English)
 description: "Remove data from the registry that was loaded using the `reg load` command."
 content_hash: 8c9e10c2c653282edc0974c2f01d28cea38e2e11
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/windows/reg-unload.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # reg unload
 

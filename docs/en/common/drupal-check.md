@@ -3,6 +3,8 @@ layout: page
 title: common/drupal-check (English)
 description: "Check Drupal PHP code for deprecations."
 content_hash: d375c9a2fea348135d1c60d8a83edee359e527b8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # drupal-check
 

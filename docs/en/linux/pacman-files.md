@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman-files (English)
 description: "Arch Linux package manager utility."
 content_hash: 197db7d61cf73b553ebc34a7e5e28c2750d224cb
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-files.html
@@ -17,6 +17,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/linux/pacman-files.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pacman --files
 

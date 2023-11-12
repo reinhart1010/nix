@@ -3,6 +3,7 @@ layout: page
 title: common/git-pull (Indonesia)
 description: "Tarik cabang dari repositori remote and menggabungkan ke repositori lokal."
 content_hash: 308068ab0ca9d8df3f30aec50c6c0e47d112d0c4
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-pull.html
@@ -19,6 +20,9 @@ related_topics:
   - title: italiano version
     url: /it/common/git-pull.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-pull.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-pull.html
     icon: bi bi-globe
@@ -28,6 +32,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/git-pull.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git pull
 

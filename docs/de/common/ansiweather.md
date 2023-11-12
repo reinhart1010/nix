@@ -3,10 +3,13 @@ layout: page
 title: common/ansiweather (Deutsch)
 description: "Ein Shell-Skript um die aktuellen Wetterbedingungen in einem Terminal anzuzeigen."
 content_hash: 502c261bce4c55a8512e69410a3512f743e285b0
-last_modified_at: 2022-12-19
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ansiweather.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/ansiweather.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/ansiweather.html
@@ -20,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ansiweather.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ansiweather
 

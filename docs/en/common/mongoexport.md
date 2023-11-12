@@ -3,7 +3,8 @@ layout: page
 title: common/mongoexport (English)
 description: "Produce exports of data stored in a MongoDB instance formatted as JSON or CSV."
 content_hash: b12aeaa1f3f7a081d8c7c928a52bbf05a4cede73
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mongoexport
 

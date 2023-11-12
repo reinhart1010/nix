@@ -3,7 +3,8 @@ layout: page
 title: common/supervisord (English)
 description: "Supervisor is a client/server system for controlling some processes on UNIX-like operating systems."
 content_hash: 95f4c467d96a73fe436888193d13e3ff9553a083
-last_modified_at: 2023-06-28
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # supervisord
 

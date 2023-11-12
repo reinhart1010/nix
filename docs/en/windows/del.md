@@ -3,13 +3,19 @@ layout: page
 title: windows/del (English)
 description: "Delete one or more files."
 content_hash: eda6f28eee95d0d14f6d89fb57956d2eaaeee809
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/del.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/windows/del.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/windows/del.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/del.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/windows/del.html
@@ -20,6 +26,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/del.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # del
 

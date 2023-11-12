@@ -3,11 +3,12 @@ layout: page
 title: osx/qlmanage (中文)
 description: "QuickLook 服务器工具。"
 content_hash: 03728392e82f6f684b4c192f3310e8917e8c7fcc
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/qlmanage.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # qlmanage
 

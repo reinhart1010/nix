@@ -3,7 +3,8 @@ layout: page
 title: common/serialver (English)
 description: "Returns the serialVersionUID of classes."
 content_hash: ad89f9930de0619af2f97a4ef5e723fbba1f44f6
-last_modified_at: 2023-06-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # serialver
 

@@ -3,6 +3,8 @@ layout: page
 title: common/glib-compile-resources (English)
 description: "Compiles resource files (e.g. images) into a binary resource bundle."
 content_hash: 2b1a4c67251e7237ff0eaea5c17e4a7958c4eaea
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # glib-compile-resources
 

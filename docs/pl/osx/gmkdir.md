@@ -3,7 +3,7 @@ layout: page
 title: osx/gmkdir (polski)
 description: "To polecenie jest aliasem `-p linux mkdir`."
 content_hash: a1b6808530d5eba3c652c74a5579b959ee60e50a
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gmkdir.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gmkdir.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gmkdir
 

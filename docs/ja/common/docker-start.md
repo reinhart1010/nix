@@ -3,7 +3,7 @@ layout: page
 title: common/docker-start (日本語)
 description: "1つまたは複数の停止中コンテナを起動します。"
 content_hash: 83ae047b89bf42574eefd65258e04b44e224eb11
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-start.html
@@ -20,6 +20,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-start.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker start
 

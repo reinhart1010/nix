@@ -3,7 +3,8 @@ layout: page
 title: common/okular (English)
 description: "View documents."
 content_hash: 293978f2ad30ac9fa027b93b733d95622a6d4605
-last_modified_at: 2022-12-05
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # okular
 

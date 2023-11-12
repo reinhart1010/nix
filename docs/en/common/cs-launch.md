@@ -3,7 +3,8 @@ layout: page
 title: common/cs-launch (English)
 description: "Launch an application from the name directly from one or more Maven dependencies without the need of installing it."
 content_hash: 79f5b8cd0f6ba0c90454e53c139ece2533a95174
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # cs launch
 

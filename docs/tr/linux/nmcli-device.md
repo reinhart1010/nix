@@ -3,10 +3,15 @@ layout: page
 title: linux/nmcli-device (Türkçe)
 description: "NetworkManager ile donanım aygıtı yönetimi."
 content_hash: 8e85160d29c7fed6d9d9c78a06ee7ac66a29fd1a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/nmcli-device.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/nmcli-device.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nmcli device
 

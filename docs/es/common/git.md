@@ -3,6 +3,7 @@ layout: page
 title: common/git (español)
 description: "Sistema de control de versiones distribuido."
 content_hash: ab46d7e2c69f58c0f6c6396ca53304e657173410
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
@@ -19,6 +20,15 @@ related_topics:
   - title: italiano version
     url: /it/common/git.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/git.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git.html
+    icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/common/git.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/git.html
     icon: bi bi-globe
@@ -28,12 +38,19 @@ related_topics:
   - title: српски version
     url: /sr/common/git.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/git.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git.html
     icon: bi bi-globe
   - title: українська version
     url: /uk/common/git.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/git.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git
 

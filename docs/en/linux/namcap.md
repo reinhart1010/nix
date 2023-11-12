@@ -3,6 +3,8 @@ layout: page
 title: linux/namcap (English)
 description: "Check binary packages and source `PKGBUILD`s for common packaging mistakes."
 content_hash: b0cc3f12ba07c2f7c15feaec64a24c5f5d8da075
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # namcap
 

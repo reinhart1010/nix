@@ -3,7 +3,7 @@ layout: page
 title: osx/gcksum (polski)
 description: "To polecenie jest aliasem `-p linux cksum`."
 content_hash: bd123a9bce32739d29e4ec2b12bcf4d32bd51b14
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gcksum.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gcksum.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gcksum
 

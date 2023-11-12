@@ -3,10 +3,12 @@ layout: page
 title: common/img2pdf (português (Brasil))
 description: "Ferramenta de conversão sem perdas de imagens para PDF."
 content_hash: ba98a5a2a52fbcb3b71ec5841dd7e50013b598c7
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/img2pdf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # img2pdf
 

@@ -3,6 +3,7 @@ layout: page
 title: common/batch (한국어)
 description: "시스템 로드 레벨이 허가된 후, 명령을 실행하십시오. 실제로 실행하기 위해서는 atd (혹은 atrun) 를 실행해야합니다."
 content_hash: 872682cff88f645083b5b327dc94ab636b439790
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/batch.html
@@ -16,6 +17,7 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/batch.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # batch
 

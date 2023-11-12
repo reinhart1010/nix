@@ -3,6 +3,7 @@ layout: page
 title: common/docker-build (한국어)
 description: "도커파일로부터 이미지 빌드."
 content_hash: c4af4c2b2fdcd89f34f707982f59cf8cc7225776
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-build.html
@@ -13,8 +14,14 @@ related_topics:
   - title: français version
     url: /fr/common/docker-build.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/docker-build.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/docker-build.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/docker-build.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker-build.html
@@ -25,11 +32,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/docker-build.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docker build
+# docker build
 
 도커파일로부터 이미지 빌드.
 더 많은 정보: <https://docs.docker.com/engine/reference/commandline/build/>.

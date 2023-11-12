@@ -3,10 +3,12 @@ layout: page
 title: common/chars (한국어)
 description: "다양한 ASCII 및 유니코드 문자 및 코드 포인트에 대한 이름 및 코드 표시."
 content_hash: 8293056347b77b0100edb4e4bd69e14608cf125b
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/chars.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chars
 

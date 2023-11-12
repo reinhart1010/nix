@@ -3,13 +3,18 @@ layout: page
 title: linux/useradd (English)
 description: "Create a new user."
 content_hash: ca4959633d81bbbf6b0854bf9014cbe0bd1af989
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/useradd.html
+    icon: bi bi-globe
   - title: español version
     url: /es/linux/useradd.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/useradd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # useradd
 

@@ -3,6 +3,12 @@ layout: page
 title: common/whois (English)
 description: "Command-line client for the WHOIS (RFC 3912) protocol."
 content_hash: 320b4c5d6079a956d4ffac8e2afbd20c43b5ed20
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 中文 version
+    url: /zh/common/whois.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # whois
 

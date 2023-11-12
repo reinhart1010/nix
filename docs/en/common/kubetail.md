@@ -3,6 +3,8 @@ layout: page
 title: common/kubetail (English)
 description: "Utility to tail multiple Kubernetes pod logs at the same time."
 content_hash: beb019b09baf5d24c0da06691b209fd0254e8bed
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # kubetail
 

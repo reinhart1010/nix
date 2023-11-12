@@ -3,7 +3,8 @@ layout: page
 title: common/vf (English)
 description: "VirtualFish is a fish shell tool for managing Python virtual environments."
 content_hash: 97143d3edb9e74015f56eacc3dac89a04e4f9ed9
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # vf
 

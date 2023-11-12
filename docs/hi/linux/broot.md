@@ -3,15 +3,14 @@ layout: page
 title: linux/broot (हिन्दी)
 description: "निर्देशिकाओंको पथ-प्रदर्शित करने का एक बेहतर तरीका।"
 content_hash: 3b9dbaee985c11ded314fd6dd1f284d09eb1dd96
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/broot.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># broot
+# broot
 
 निर्देशिकाओंको पथ-प्रदर्शित करने का एक बेहतर तरीका।
 `br` भी देखें।

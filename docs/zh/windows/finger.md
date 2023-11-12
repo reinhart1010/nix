@@ -3,10 +3,12 @@ layout: page
 title: windows/finger (中文)
 description: "返回有关指定系统上的一个或多个用户的信息。"
 content_hash: ede6cb4f896e3ef9a32901938944900845c59cde
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/finger.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # finger
 

@@ -3,6 +3,8 @@ layout: page
 title: common/st-util (English)
 description: "Run GDB (GNU Debugger) server to interact with STM32 ARM Cortex microcontoller."
 content_hash: fe9f08df6807dd6c4b9934fe7092a4394700d135
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # st-util
 

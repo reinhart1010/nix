@@ -3,6 +3,8 @@ layout: page
 title: common/godot (English)
 description: "An open source 2D and 3D game engine."
 content_hash: 4095a8fd750e3dc719522a88336af0ce32fc4cd7
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # godot
 

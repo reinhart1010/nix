@@ -3,6 +3,8 @@ layout: page
 title: linux/quotacheck (English)
 description: "Scan a filesystem for disk usage; create, check and repair quota files."
 content_hash: 2b10da442c1c07b16976965b451ab127489ec885
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # quotacheck
 

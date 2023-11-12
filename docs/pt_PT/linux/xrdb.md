@@ -3,10 +3,12 @@ layout: page
 title: linux/xrdb (português (Portugal))
 description: "Utilitário de base de dados de recursos para servidor X window em sistemas tipo Unix."
 content_hash: 95cd1d484d0c417e06436d80773c776f20e6ff2d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/xrdb.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xrdb
 

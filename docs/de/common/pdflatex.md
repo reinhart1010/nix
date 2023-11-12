@@ -3,10 +3,12 @@ layout: page
 title: common/pdflatex (Deutsch)
 description: "Kompiliere eine LaTeX Quelldatei in ein PDF Dokument."
 content_hash: 6fc06c27fd68a26992648cb2b5c28d9daeb608a4
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/pdflatex.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pdflatex
 

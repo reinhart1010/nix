@@ -3,7 +3,8 @@ layout: page
 title: windows/w32tm (English)
 description: "Query and control the w32time time synchronization service."
 content_hash: b923c4a8b77329b3197916f2293242fe9dee7e2a
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # w32tm
 

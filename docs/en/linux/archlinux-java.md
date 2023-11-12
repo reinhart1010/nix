@@ -3,7 +3,7 @@ layout: page
 title: linux/archlinux-java (English)
 description: "Switch between installed Java environments."
 content_hash: 1d63733109129cea7b26e4dd734339bceec57b4f
-last_modified_at: 2023-06-30
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/archlinux-java.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/archlinux-java.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # archlinux-java
 

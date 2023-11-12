@@ -3,16 +3,14 @@ layout: page
 title: common/edgepaint (中文)
 description: "对图形布局的边缘进行着色，以澄清交叉边缘。"
 content_hash: 2e1049b08115484aa50ce8df1f0c438d12a0b5f8
-last_modified_at: 2023-02-17
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/edgepaint.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># edgepaint
+# edgepaint
 
 对图形布局的边缘进行着色，以澄清交叉边缘。
 Graphviz 过滤器：`acyclic`、`bcomps`、`comps`、`edgepaint`、`gvcolor`、`gvpack`、`mingle`、`nop`、`sccmap`、`tred` 和 `unflatten`。

@@ -3,12 +3,10 @@ layout: page
 title: linux/shnsplit (English)
 description: "Splits audio files according to a `.cue` file."
 content_hash: d0906e6bd87705b578cd7b0ccf853345baa96743
-last_modified_at: 2023-10-10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># shnsplit
+# shnsplit
 
 Splits audio files according to a `.cue` file.
 More information: <http://shnutils.freeshell.org/shntool/>.

@@ -3,6 +3,8 @@ layout: page
 title: common/haxelib (English)
 description: "Haxe Library Manager."
 content_hash: 7920cc85d55c5c0c72054beeffa90045dbc83a4c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # haxelib
 

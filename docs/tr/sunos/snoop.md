@@ -3,6 +3,7 @@ layout: page
 title: sunos/snoop (Türkçe)
 description: "Ağ paketi inceleyici."
 content_hash: c1a869a11564626ee8a6a60dafd52935d33a5021
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/sunos/snoop.html
@@ -10,17 +11,18 @@ related_topics:
   - title: English version
     url: /en/sunos/snoop.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/sunos/snoop.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/sunos/snoop.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/sunos/snoop.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># snoop
+# snoop
 
 Ağ paketi inceleyici.
 SunOS'in tcpdump alternatifi.

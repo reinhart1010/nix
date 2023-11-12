@@ -3,6 +3,12 @@ layout: page
 title: common/edgepaint (English)
 description: "Colorize edges of a graph layout to clarify crossing edges."
 content_hash: c8df23f551533cb535b4eb73dbbb2cde6f4318bc
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 中文 version
+    url: /zh/common/edgepaint.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # edgepaint
 

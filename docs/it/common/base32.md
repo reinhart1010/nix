@@ -3,7 +3,7 @@ layout: page
 title: common/base32 (italiano)
 description: "Codifica o decodifica file o standard input in Base32 su standard output."
 content_hash: 3900fadfcac930c1c8b8face3afe8f6cbe461892
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/base32.html
@@ -26,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/base32.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # base32
 

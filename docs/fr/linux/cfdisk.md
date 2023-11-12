@@ -3,6 +3,7 @@ layout: page
 title: linux/cfdisk (français)
 description: "Un programme pour gérer les tables de partitions et les partitions sur un disque dur en utilisant une interface utilisateur de type \"curses\"."
 content_hash: b12cf991bee219190b8f742da21eeafaee6af26f
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/cfdisk.html
@@ -10,6 +11,10 @@ related_topics:
   - title: English version
     url: /en/linux/cfdisk.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/cfdisk.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cfdisk
 

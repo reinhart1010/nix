@@ -3,7 +3,7 @@ layout: page
 title: common/tar (français)
 description: "Utilitaire d'archivage."
 content_hash: 6f644b326cfa1be66e5f6d268a65c8a68a5363dd
-last_modified_at: 2022-11-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/tar.html
@@ -29,6 +29,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/tar.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tar
 

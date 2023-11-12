@@ -3,7 +3,8 @@ layout: page
 title: common/gnmic-get (English)
 description: "Get a snapshot of a gnmi network device operation data."
 content_hash: 4f5d4e766fbed296f9f3009ddbb0c18f58d92848
-last_modified_at: 2023-05-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gnmic get
 

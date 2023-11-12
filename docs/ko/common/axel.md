@@ -3,9 +3,16 @@ layout: page
 title: common/axel (한국어)
 description: "가속기를 다운로드 하십시오. HTTP, HTTPS, FTP를 지원합니다."
 content_hash: bcf4f87144adfcadf9f9e480792ab36cbb10ad1c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/axel.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/axel.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/axel.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/axel.html
@@ -16,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/axel.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # axel
 

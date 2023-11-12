@@ -3,7 +3,7 @@ layout: page
 title: windows/robocopy (italiano)
 description: "Copia robusta di file e directory."
 content_hash: fe10bc7886ecbb71b170c8106c587a9642d1aafe
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/robocopy.html
@@ -11,6 +11,7 @@ related_topics:
   - title: English version
     url: /en/windows/robocopy.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # robocopy
 

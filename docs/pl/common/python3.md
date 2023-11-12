@@ -3,7 +3,7 @@ layout: page
 title: common/python3 (polski)
 description: "To polecenie jest aliasem `python`."
 content_hash: f5bf04eae9159b1566f20a3c7a754434f5d7dcfe
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/python3.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/python3.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # python3
 

@@ -3,7 +3,8 @@ layout: page
 title: linux/terminator (English)
 description: "Arrange multiple GNOME terminals in one window."
 content_hash: eac2dbb93592718d3e588ae51ee96d39471a6212
-last_modified_at: 2023-06-28
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # terminator
 

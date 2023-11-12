@@ -3,6 +3,7 @@ layout: page
 title: common/cradle-package (Deutsch)
 description: "Verwalte Pakete für Cradle Instanzen."
 content_hash: c5eff420b2895e8d14a619f1f3ec61a7a6be0c47
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/cradle-package.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cradle-package.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cradle package
 

@@ -3,7 +3,8 @@ layout: page
 title: common/xml-select (English)
 description: "Select from XML documents using XPATHs."
 content_hash: d50cf5ca98f56ea52a00959150c3bbbb3669d53e
-last_modified_at: 2023-06-14
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xml select
 

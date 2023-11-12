@@ -3,6 +3,7 @@ layout: page
 title: common/cordova (한국어)
 description: "HTML, CSS 및 JS가 포함된 모바일 앱."
 content_hash: baff4326e0f7b4f4b40940c058393ee1190f486f
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/cordova.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/cordova.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cordova
 

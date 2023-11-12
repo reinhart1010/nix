@@ -3,7 +3,7 @@ layout: page
 title: osx/gtelnet (polski)
 description: "To polecenie jest aliasem `-p linux telnet`."
 content_hash: 07d06fcb75595f625cdd54e130402d231fb6b068
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gtelnet.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gtelnet.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gtelnet
 

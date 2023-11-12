@@ -3,11 +3,23 @@ layout: page
 title: linux/pwd (English)
 description: "Print name of current/working directory."
 content_hash: 3c822c58e9f54c143a86295bb0db43bbf127d153
+last_modified_at: 2023-11-12
+related_topics:
+  - title: ລາວ version
+    url: /lo/linux/pwd.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/pwd.html
+    icon: bi bi-globe
+  - title: ไทย version
+    url: /th/linux/pwd.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/linux/pwd.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pwd
+# pwd
 
 Print name of current/working directory.
 More information: <https://www.gnu.org/software/coreutils/pwd>.

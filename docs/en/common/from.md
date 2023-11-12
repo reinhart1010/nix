@@ -3,6 +3,8 @@ layout: page
 title: common/from (English)
 description: "Prints mail header lines from the current user's mailbox."
 content_hash: a0ecf77e9f08a449ca5fa7379c78210650d6af41
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # from
 

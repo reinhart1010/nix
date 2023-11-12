@@ -3,7 +3,7 @@ layout: page
 title: common/make (한국어)
 description: "Makefile에 작성된 대상에 대한 작업 실행기입니다."
 content_hash: 4e2d5fdbb826c729561ffe70d1f44b4d924cce24
-last_modified_at: 2023-10-22
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/make.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/make.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # make
 

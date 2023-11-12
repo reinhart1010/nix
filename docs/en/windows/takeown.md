@@ -3,11 +3,12 @@ layout: page
 title: windows/takeown (English)
 description: "Take ownership of a file or directory."
 content_hash: 6ab40a23e30a9521786adf26b8144facab2ac178
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/windows/takeown.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # takeown
 

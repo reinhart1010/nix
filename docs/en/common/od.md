@@ -3,6 +3,8 @@ layout: page
 title: common/od (English)
 description: "Display file contents in octal, decimal or hexadecimal format."
 content_hash: ff0b844d3ab733bd53d0befdfd5a17ab43647a77
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # od
 

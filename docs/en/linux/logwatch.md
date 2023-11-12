@@ -3,10 +3,12 @@ layout: page
 title: linux/logwatch (English)
 description: "Summarizes many different logs for common services (e.g. apache, pam_unix, sshd, etc.) in a single report."
 content_hash: 854c3bf774e55f0f99d6e5c5ca81105a882e1855
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/logwatch.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # logwatch
 

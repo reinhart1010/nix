@@ -3,7 +3,7 @@ layout: page
 title: windows/iwr (العربية)
 description: "هذا الأمر هو اسم مستعار لـ `invoke-webrequest`."
 content_hash: 40176880a13d151ffc3885b076a1b0b7034d5fbd
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: bosanski version
     url: /bs/windows/iwr.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/iwr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # iwr
 

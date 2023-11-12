@@ -3,6 +3,8 @@ layout: page
 title: common/helix (English)
 description: "Helix, A post-modern text editor, provides several modes for different kinds of text manipulation."
 content_hash: 57dec74fe57c11e893ca6571f56d9d35be2e2bb4
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # helix
 

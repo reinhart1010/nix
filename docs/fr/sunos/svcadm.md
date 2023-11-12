@@ -3,7 +3,7 @@ layout: page
 title: sunos/svcadm (français)
 description: "Manipuler les instances de service."
 content_hash: 1398191cc8781e2719e639147af07557efa9a91d
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/sunos/svcadm.html
@@ -17,6 +17,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/sunos/svcadm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # svcadm
 

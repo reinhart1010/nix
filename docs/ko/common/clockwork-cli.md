@@ -3,6 +3,7 @@ layout: page
 title: common/clockwork-cli (한국어)
 description: "Clockwork PHP 디버깅 프레임워크를 위한 줄 명령어 인터페이스."
 content_hash: 8f7fe4cc6c90a37f690260a75268e5ca6e78af4f
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/clockwork-cli.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/clockwork-cli.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # clockwork-cli
 

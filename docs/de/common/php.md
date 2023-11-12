@@ -3,7 +3,7 @@ layout: page
 title: common/php (Deutsch)
 description: "PHP Befehlszeilenschnittstelle."
 content_hash: 94f75b2d8809bf59bf881e43aedd90e483481beb
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/php.html
@@ -11,6 +11,7 @@ related_topics:
   - title: polski version
     url: /pl/common/php.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # php
 

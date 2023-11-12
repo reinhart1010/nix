@@ -3,10 +3,15 @@ layout: page
 title: osx/duti (中文)
 description: "在 macOS 上为文档类型和网页设置默认打开的应用程序。"
 content_hash: 588f220e36180dd45343c6954b0e1612c4975522
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/duti.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/duti.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # duti
 

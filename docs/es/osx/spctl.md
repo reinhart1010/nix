@@ -3,16 +3,14 @@ layout: page
 title: osx/spctl (español)
 description: "Gestiona el subsistema de políticas de evaluación de seguridad."
 content_hash: bf158bb4365cad350f368ac1c4c3eb874969d947
-last_modified_at: 2023-07-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/spctl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># spctl
+# spctl
 
 Gestiona el subsistema de políticas de evaluación de seguridad.
 Utilidad para gestionar Gatekeeper en macOS.

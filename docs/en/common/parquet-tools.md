@@ -3,6 +3,8 @@ layout: page
 title: common/parquet-tools (English)
 description: "A tool to show, inspect and manipulate Parquet file."
 content_hash: 99e957987f95b0f31955ab569dfc60435f187159
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # parquet-tools
 

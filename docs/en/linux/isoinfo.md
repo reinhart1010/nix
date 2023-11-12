@@ -3,7 +3,8 @@ layout: page
 title: linux/isoinfo (English)
 description: "Utility programs for dumping and verifying ISO disk images."
 content_hash: 0ea88bbfbc43eb9734323c8714ff78f902f3bce5
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # isoinfo
 

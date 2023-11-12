@@ -3,6 +3,7 @@ layout: page
 title: common/ssh (हिन्दी)
 description: "सिक्योर शेल एक प्रोटोकॉल है जिसका उपयोग रिमोट सिस्टम पर सुरक्षित रूप से लॉग ऑन करने के लिए किया जाता है।"
 content_hash: cda4cde5bb986c3fc17a5f01244ba072cafa7446
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ssh.html
@@ -13,6 +14,13 @@ related_topics:
   - title: français version
     url: /fr/common/ssh.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/ssh.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/ssh.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ssh
 

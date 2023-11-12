@@ -3,7 +3,8 @@ layout: page
 title: linux/xauth (English)
 description: "Edit and display the authorization information used in connecting to the X server."
 content_hash: 7a3e149c745e87e9976d8bfd56b4d2cfb05b3589
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xauth
 

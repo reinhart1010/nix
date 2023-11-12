@@ -3,7 +3,8 @@ layout: page
 title: windows/octo (English)
 description: "Command-line tools for Octopus Deploy."
 content_hash: 0a30f6478c0439f3700286bb5bdc0043d0d7ac85
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # octo
 

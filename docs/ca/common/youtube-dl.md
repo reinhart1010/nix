@@ -3,6 +3,7 @@ layout: page
 title: common/youtube-dl (català)
 description: "Descarrega videos de YouTube i altres pàgines web."
 content_hash: f4bf17c9cdb1bb14048b5bd51e9d538861c0f9f4
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/youtube-dl.html
@@ -16,11 +17,9 @@ related_topics:
   - title: polski version
     url: /pl/common/youtube-dl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># youtube-dl
+# youtube-dl
 
 Descarrega videos de YouTube i altres pàgines web.
 Més informació: <http://rg3.github.io/youtube-dl/>.

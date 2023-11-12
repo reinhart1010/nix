@@ -3,7 +3,7 @@ layout: page
 title: common/git-check-ignore (italiano)
 description: "Analizza ed esegui il debug di \".gitignore\" e dei file esclusi."
 content_hash: 9162d89a91ec274af08e74ec73f21be9a75ab8b1
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-check-ignore.html
@@ -20,6 +20,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-check-ignore.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git check-ignore
 

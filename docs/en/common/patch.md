@@ -3,6 +3,8 @@ layout: page
 title: common/patch (English)
 description: "Patch a file (or files) with a diff file."
 content_hash: 5e0ff66dbefba08c123381a010134ebe4fd02f13
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # patch
 

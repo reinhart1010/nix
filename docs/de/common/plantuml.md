@@ -3,10 +3,12 @@ layout: page
 title: common/plantuml (Deutsch)
 description: "Erstelle UML-Diagramme aus einer reinen Textsprache und rendere sie in verschiedenen Formaten."
 content_hash: 608c3e683f14635af549bf50a99ac42f742c05f4
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/plantuml.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # plantuml
 

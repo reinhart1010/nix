@@ -3,9 +3,16 @@ layout: page
 title: windows/set (polski)
 description: "Wyświetl lub ustaw zmienne środowiskowe dla bieżącej instancji CMD."
 content_hash: eb590ac20314c0cca5dc547c45b3c4c8a405f245
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/set.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/set.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/windows/set.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/set.html
@@ -13,6 +20,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/set.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # set
 

@@ -3,7 +3,8 @@ layout: page
 title: linux/stegsnow (English)
 description: "Steganography tool for concealing and extracting messages in text files encoded as tabs and spaces."
 content_hash: b8953f0e012b8fdb8996d613bcc5500d8892cce0
-last_modified_at: 2023-03-11
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # stegsnow
 

@@ -3,6 +3,8 @@ layout: page
 title: common/declare (English)
 description: "Declare variables and give them attributes."
 content_hash: db736e7a68742fe686468329e5ba45883970627a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # declare
 

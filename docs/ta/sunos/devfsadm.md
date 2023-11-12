@@ -3,10 +3,24 @@ layout: page
 title: sunos/devfsadm (தமிழ்)
 description: "`/dev` க்கான நிர்வாக கட்டளை. `/dev` பெயர்வெளியை பராமரிக்கிறது."
 content_hash: 7693369d71186853359a20e5e66a41790505d558
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/sunos/devfsadm.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/sunos/devfsadm.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/sunos/devfsadm.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/sunos/devfsadm.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/sunos/devfsadm.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # devfsadm
 

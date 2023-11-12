@@ -3,6 +3,7 @@ layout: page
 title: common/git-bisect (français)
 description: "Utiliser une recherche binaire pour trouver le commit qui a introduit un bug."
 content_hash: 828fef7ea8031bc05fc9a6e58504d77af3e904a9
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-bisect.html
@@ -19,8 +20,15 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/git-bisect.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-bisect.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# git bisect
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git bisect
 
 Utiliser une recherche binaire pour trouver le commit qui a introduit un bug.
 Git saute automatiquement d'avant en arrière dans le graphe de commit pour isoler le commit défectueux.

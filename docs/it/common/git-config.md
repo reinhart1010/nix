@@ -3,7 +3,11 @@ layout: page
 title: common/git-config (italiano)
 description: "Configura le impostazioni di uno o piu repository Git."
 content_hash: 806c85948ebdd795d186e4a582e8faee0ed78b8b
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/git-config.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/git-config.html
     icon: bi bi-globe
@@ -13,18 +17,22 @@ related_topics:
   - title: français version
     url: /fr/common/git-config.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-config.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-config.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git-config.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/git-config.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-config.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># git config
 

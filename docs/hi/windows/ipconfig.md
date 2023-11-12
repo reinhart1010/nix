@@ -3,7 +3,7 @@ layout: page
 title: windows/ipconfig (हिन्दी)
 description: "विंडोज़ के नेटवर्क कॉन्फ़िगरेशन को प्रदर्शित और प्रबंधित करें।"
 content_hash: 753a690621f69e9fcb2cc4712b90cf826931bb28
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/ipconfig.html
@@ -26,6 +26,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/ipconfig.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ipconfig
 

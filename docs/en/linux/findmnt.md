@@ -3,6 +3,8 @@ layout: page
 title: linux/findmnt (English)
 description: "Find your filesystem."
 content_hash: e3be890f2d0a407062280a776c964670b73aa824
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # findmnt
 

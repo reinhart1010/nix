@@ -3,11 +3,10 @@ layout: page
 title: linux/qm-migrate (English)
 description: "Migrate a virtual machine."
 content_hash: e1e7cd8fe71591cb5e0cb33abc2daa045dfcb225
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># qm migrate
+# qm migrate
 
 Migrate a virtual machine.
 Used to create a new migration task.

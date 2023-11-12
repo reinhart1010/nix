@@ -3,11 +3,15 @@ layout: page
 title: common/rustc (português (Brasil))
 description: "O compilador Rust."
 content_hash: 10a72c0397d8e5febacf12bb2e82353a29d16f61
-last_modified_at: 2023-01-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/rustc.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/rustc.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rustc
 

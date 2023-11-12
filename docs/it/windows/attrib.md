@@ -3,7 +3,7 @@ layout: page
 title: windows/attrib (italiano)
 description: "Mostra o cambia gli attributi di file e cartelle."
 content_hash: 0c3c7a820f1392a526e1dca79d103c9c67be2549
-last_modified_at: 2023-04-21
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/attrib.html
@@ -17,11 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/attrib.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># attrib
+# attrib
 
 Mostra o cambia gli attributi di file e cartelle.
 Maggiori informazioni: <https://learn.microsoft.com/windows-server/administration/windows-commands/attrib>.

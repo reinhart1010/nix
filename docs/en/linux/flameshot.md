@@ -3,7 +3,7 @@ layout: page
 title: linux/flameshot (English)
 description: "Screenshot utility with a GUI."
 content_hash: 3da9c3b3823c06f32ff4fd61dcef6ad25a39aa27
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/linux/flameshot.html
@@ -14,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/flameshot.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # flameshot
 

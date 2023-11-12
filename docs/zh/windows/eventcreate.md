@@ -3,10 +3,15 @@ layout: page
 title: windows/eventcreate (中文)
 description: "在事件日志中创建自定义条目。"
 content_hash: c1a3365d2f1a1f9937516d8a56152537c9a33442
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/eventcreate.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/eventcreate.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # eventcreate
 

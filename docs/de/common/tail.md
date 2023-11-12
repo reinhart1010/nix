@@ -3,13 +3,18 @@ layout: page
 title: common/tail (Deutsch)
 description: "Gib das Ende einer Datei aus."
 content_hash: 642dd0fef6ba16e1254c2c8ba064b00069e52287
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/tail.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/tail.html
+    icon: bi bi-globe
   - title: sh version
     url: /sh/common/tail.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tail
 

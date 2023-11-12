@@ -3,7 +3,8 @@ layout: page
 title: common/cargo-locate-project (English)
 description: "Print the full path to the `Cargo.toml` manifest of the current project."
 content_hash: 907f7941315954d40ad1029f5be56a0f88f77e19
-last_modified_at: 2023-10-30
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # cargo locate-project
 

@@ -3,6 +3,8 @@ layout: page
 title: common/pdftocairo (English)
 description: "Converts PDF files to PNG/JPEG/TIFF/PDF/PS/EPS/SVG using cairo."
 content_hash: 71e2901aca0a25e772216ac50887b2a63de88f8b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pdftocairo
 

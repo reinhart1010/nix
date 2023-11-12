@@ -3,6 +3,8 @@ layout: page
 title: linux/jpegtran (English)
 description: "Perform lossless transformation of JPEG files."
 content_hash: 14091c4a66ce0bc09b4c1ecae0e4d19adadf87d6
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # jpegtran
 

@@ -3,7 +3,7 @@ layout: page
 title: common/code (português (Brasil))
 description: "Editor de código extensível e multi plataforma."
 content_hash: 3181ee996daaa9ae8c88110ef855740559491131
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/code.html
@@ -29,17 +29,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/code.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/code.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># code
+# code
 
 Editor de código extensível e multi plataforma.
 Mais informações: <https://github.com/microsoft/vscode>.

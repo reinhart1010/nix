@@ -3,6 +3,7 @@ layout: page
 title: common/git-restore (Türkçe)
 description: "Çalışan ağaç dosyalarını onar. Git sürümü 2.23+ olmalıdır."
 content_hash: 582b40da2935b2c55c679b18928e5ef6fc096b69
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-restore.html
@@ -16,6 +17,7 @@ related_topics:
   - title: italiano version
     url: /it/common/git-restore.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git restore
 

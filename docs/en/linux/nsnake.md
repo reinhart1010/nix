@@ -3,6 +3,8 @@ layout: page
 title: linux/nsnake (English)
 description: "Snake game in the terminal."
 content_hash: 81838d653ae10cc4231e2ebc6170c3f1d98decb3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # nsnake
 

@@ -3,6 +3,8 @@ layout: page
 title: windows/tskill (English)
 description: "Ends a process running in a session on a Remote Desktop Session Host."
 content_hash: 94e8e3916491cef3ec6a494de22347d63091e84c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tskill
 

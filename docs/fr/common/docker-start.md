@@ -3,7 +3,7 @@ layout: page
 title: common/docker-start (français)
 description: "Lancer un ou plusieurs conteneurs arrêtés."
 content_hash: a1df41fa3042017fd967649f26ef2e150d3052ce
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-start.html
@@ -20,6 +20,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-start.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker start
 

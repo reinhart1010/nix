@@ -3,10 +3,12 @@ layout: page
 title: common/aws-vault (Deutsch)
 description: "Ein Tresor für Entwicklungsumgebungen, um AWS Sicherheitsschlüssel sicher speichern und abrufen zu können."
 content_hash: 7c2d91220db5e9575e85d8671e02e4ed8ab778a9
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/aws-vault.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws-vault
 

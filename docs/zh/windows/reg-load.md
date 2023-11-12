@@ -3,10 +3,12 @@ layout: page
 title: windows/reg-load (中文)
 description: "将保存的子键加载到不同的子键中。"
 content_hash: 2c1592b0c5a2b5317600b451e34f6a0d6a89a572
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/reg-load.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # reg load
 

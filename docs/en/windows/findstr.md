@@ -3,10 +3,12 @@ layout: page
 title: windows/findstr (English)
 description: "Find specified text within one or more files."
 content_hash: c76d4f93c759d5d2a247b5f62fdf2debdaedb5e0
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/windows/findstr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # findstr
 

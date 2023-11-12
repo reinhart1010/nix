@@ -3,7 +3,8 @@ layout: page
 title: linux/mdbook (English)
 description: "Create online books by writing Markdown files."
 content_hash: 582492518339cd300bb4e67b234e8c7bbfe23d6e
-last_modified_at: 2023-09-10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mdbook
 

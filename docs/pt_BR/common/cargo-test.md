@@ -3,7 +3,7 @@ layout: page
 title: common/cargo-test (português (Brasil))
 description: "Executa os testes unitários e de integração de um pacote Rust."
 content_hash: ca1be9b5f454bd4416694248dc39b00471e8d911
-last_modified_at: 2023-08-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/cargo-test.html
@@ -11,6 +11,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/cargo-test.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.

@@ -3,12 +3,22 @@ layout: page
 title: common/airpaste (한국어)
 description: "동일 네트워크 내에서 메시지와 파일들 공유."
 content_hash: be09a36b3933209805aef3127b80e083d704b03c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/airpaste.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/airpaste.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/airpaste.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/airpaste.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/airpaste.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/airpaste.html
@@ -16,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/airpaste.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # airpaste
 

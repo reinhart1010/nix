@@ -3,9 +3,16 @@ layout: page
 title: common/asdf (italiano)
 description: "Interfaccia da linea di comando per gestire le versionai di diversi pacchetti."
 content_hash: 0e98fb75036184ce6af8d2a708697c3b5a601b6e
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/asdf.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/asdf.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/asdf.html
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/common/asdf.html
@@ -19,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/asdf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # asdf
 

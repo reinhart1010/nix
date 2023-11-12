@@ -3,6 +3,8 @@ layout: page
 title: common/kubeadm (English)
 description: "Command-line interface for creating and managing Kubernetes clusters."
 content_hash: a78a9f8ecb1ebf5a2999e844f8856f22fe8de22c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # kubeadm
 

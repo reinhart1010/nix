@@ -3,6 +3,7 @@ layout: page
 title: common/git-clone (Deutsch)
 description: "Klone ein existierendes Repository."
 content_hash: 3a84a40a4a61ae80323ef1d3544b9bff2c2f2d35
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-clone.html
@@ -19,9 +20,25 @@ related_topics:
   - title: italiano version
     url: /it/common/git-clone.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-clone.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-clone.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-clone.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-clone.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git-clone.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/git-clone.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git clone
 

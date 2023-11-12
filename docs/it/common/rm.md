@@ -3,8 +3,11 @@ layout: page
 title: common/rm (italiano)
 description: "Rimuovi file o directory."
 content_hash: 156a1af41b9f083d7a3ad3d00308493cb476137d
-last_modified_at: 2022-12-06
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/rm.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/rm.html
     icon: bi bi-globe
@@ -20,6 +23,9 @@ related_topics:
   - title: polski version
     url: /pl/common/rm.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/rm.html
+    icon: bi bi-globe
   - title: svenska version
     url: /sv/common/rm.html
     icon: bi bi-globe
@@ -32,6 +38,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/rm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rm
 

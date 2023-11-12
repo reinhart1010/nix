@@ -3,6 +3,7 @@ layout: page
 title: common/git-merge (Türkçe)
 description: "Dalları birleştir."
 content_hash: 8b087f1c53e05800d4406fd83f19302bbd2cadd7
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-merge.html
@@ -19,8 +20,12 @@ related_topics:
   - title: українська version
     url: /uk/common/git-merge.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# git merge
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git merge
 
 Dalları birleştir.
 Daha fazla bilgi için: <https://git-scm.com/docs/git-merge>.

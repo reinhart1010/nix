@@ -3,13 +3,19 @@ layout: page
 title: windows/exit (italiano)
 description: "Esci dall'istanza CMD corrente o dal file batch corrente."
 content_hash: dfc5a1febaf82f44e3bc218dc185e257562c3e18
-last_modified_at: 2023-04-21
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/exit.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/exit.html
     icon: bi bi-globe
   - title: English version
     url: /en/windows/exit.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/exit.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/exit.html
@@ -17,11 +23,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/exit.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># exit
+# exit
 
 Esci dall'istanza CMD corrente o dal file batch corrente.
 Maggiori informazioni: <https://learn.microsoft.com/windows-server/administration/windows-commands/exit>.

@@ -3,8 +3,11 @@ layout: page
 title: windows/mkdir (español)
 description: "Crea un directorio."
 content_hash: bf2c64f6d3098afc58d0d8a38a964883514e1578
-last_modified_at: 2023-10-28
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/mkdir.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/mkdir.html
     icon: bi bi-globe
@@ -26,6 +29,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/mkdir.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mkdir
 

@@ -3,7 +3,8 @@ layout: page
 title: common/killall (English)
 description: "Send kill signal to all instances of a process by name (must be exact name)."
 content_hash: 435f4171f5c2a503a1b38c1f538a417d59f2c592
-last_modified_at: 2022-11-24
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # killall
 

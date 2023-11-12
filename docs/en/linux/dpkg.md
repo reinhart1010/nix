@@ -3,7 +3,7 @@ layout: page
 title: linux/dpkg (English)
 description: "Debian package manager."
 content_hash: 73e0c056d0b371b494495220acfc4f2b6efb16bd
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/dpkg.html
@@ -20,6 +20,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/dpkg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dpkg
 

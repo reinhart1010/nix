@@ -3,7 +3,7 @@ layout: page
 title: windows/winget (中文 (繁體, 台灣))
 description: "Windows 套件管理員的命令列工具。"
 content_hash: c8e5f2cb485fd254b0a566e48ee2486bc668270d
-last_modified_at: 2023-10-18
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/winget.html
@@ -26,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/winget.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # winget
 

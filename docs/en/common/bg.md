@@ -3,12 +3,19 @@ layout: page
 title: common/bg (English)
 description: "Resumes jobs that have been suspended (e.g. using `Ctrl + Z`), and keeps them running in the background."
 content_hash: d34a2bc40c4c3e0a29facaa515555a4f44d9face
+last_modified_at: 2023-11-12
 related_topics:
+  - title: français version
+    url: /fr/common/bg.html
+    icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/common/bg.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/bg.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/bg.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/bg.html
@@ -16,15 +23,19 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/bg.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/bg.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/bg.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/bg.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/bg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bg
 

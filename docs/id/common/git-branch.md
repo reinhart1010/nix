@@ -3,6 +3,7 @@ layout: page
 title: common/git-branch (Indonesia)
 description: "Perintah Git utama untuk bekerja dengan cabang (_branch_)."
 content_hash: c526b7b31306779ebc28a633aab85d59ba1eca16
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-branch.html
@@ -19,12 +20,16 @@ related_topics:
   - title: italiano version
     url: /it/common/git-branch.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-branch.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-branch.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-branch.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git branch
 

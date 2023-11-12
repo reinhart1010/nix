@@ -3,7 +3,8 @@ layout: page
 title: common/license (English)
 description: "Create license files for open-source projects."
 content_hash: 6d3546bef5bdc333f26abe6c710cf4b69d10e5b9
-last_modified_at: 2022-12-06
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # license
 

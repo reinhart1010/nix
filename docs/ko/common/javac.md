@@ -3,7 +3,7 @@ layout: page
 title: common/javac (한국어)
 description: "자바 애플리케이션 컴파일러."
 content_hash: 69ebf67280da0c88ba5cc6597a005efb62b211ae
-last_modified_at: 2023-10-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/javac.html
@@ -17,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/javac.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # javac
 

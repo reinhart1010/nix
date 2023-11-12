@@ -3,6 +3,8 @@ layout: page
 title: common/llvm-config (English)
 description: "Get various configuration information needed to compile programs which use LLVM."
 content_hash: cb28cbe56b1ef1208c5404a9a9caa2acfd5c2b4f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # llvm-config
 

@@ -3,6 +3,7 @@ layout: page
 title: common/git-pr (français)
 description: "Récupère les pull-requests GitHub localement."
 content_hash: fe531d4f2871d7a8e82b18de2d04f48a6aa04959
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-pr.html
@@ -10,6 +11,13 @@ related_topics:
   - title: español version
     url: /es/common/git-pr.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-pr.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-pr.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git pr
 

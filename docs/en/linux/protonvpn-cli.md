@@ -3,7 +3,8 @@ layout: page
 title: linux/protonvpn-cli (English)
 description: "Official ProtonVPN client."
 content_hash: b1136051dfc0712091da6f5aa42b00032de62bf9
-last_modified_at: 2023-10-03
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # protonvpn-cli
 

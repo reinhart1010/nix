@@ -3,7 +3,7 @@ layout: page
 title: common/docker-service (português (Brasil))
 description: "Gerenciar os serviços em um daemon do Docker."
 content_hash: 094bc3a55a9ee6683176cf4aad1dd42ef204d06e
-last_modified_at: 2023-09-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-service.html
@@ -17,11 +17,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-service.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docker service
+# docker service
 
 Gerenciar os serviços em um daemon do Docker.
 Mais informações: <https://docs.docker.com/engine/reference/commandline/service/>.

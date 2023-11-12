@@ -3,11 +3,12 @@ layout: page
 title: common/while (português (Brasil))
 description: "Loop simples da shell."
 content_hash: 5de5356085606d270ffdb17e46189effc8995807
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/while.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # while
 

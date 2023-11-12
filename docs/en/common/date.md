@@ -3,7 +3,11 @@ layout: page
 title: common/date (English)
 description: "Set or display the system date."
 content_hash: 88340709aed9d77322d57eb598f577aa39cc0369
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/date.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/date.html
     icon: bi bi-globe
@@ -16,6 +20,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/date.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # date
 

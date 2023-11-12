@@ -3,15 +3,23 @@ layout: page
 title: common/rubocop (中文)
 description: "格式化 Ruby 文件。"
 content_hash: 01209e16548ba55d233de1bb7a3e7f31b22daf4d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/rubocop.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/rubocop.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/rubocop.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/rubocop.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rubocop
+# rubocop
 
 格式化 Ruby 文件。
 更多信息：<https://docs.rubocop.org/rubocop/usage/basic_usage.html>.

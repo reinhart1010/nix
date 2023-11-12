@@ -3,11 +3,10 @@ layout: page
 title: common/pint (English)
 description: "An opinionated PHP code style fixer based on PHP-CS-Fixer."
 content_hash: 4b0c54447434b8fbae8cfe5fa76d725a2cb03e3e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># Pint
+# Pint
 
 An opinionated PHP code style fixer based on PHP-CS-Fixer.
 More information: <https://laravel.com/docs/pint>.

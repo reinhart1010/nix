@@ -3,7 +3,8 @@ layout: page
 title: common/rich (English)
 description: "A toolbox for fancy output in the terminal."
 content_hash: f554702eb450b80162d4f1930fe318f56f0fabd2
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rich
 

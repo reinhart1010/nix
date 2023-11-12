@@ -3,6 +3,7 @@ layout: page
 title: linux/beep (中文)
 description: "让电脑扬声器发出哔哔声的实用程序。"
 content_hash: f6216c9ecc0c52840f255aec37b00a58d5f9383d
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/beep.html
@@ -10,9 +11,13 @@ related_topics:
   - title: English version
     url: /en/linux/beep.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/linux/beep.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/beep.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # beep
 

@@ -3,6 +3,8 @@ layout: page
 title: common/xml-edit (English)
 description: "Edit an XML document."
 content_hash: 1683049a96a4ebbcad38ac5957abb0b524ceb79e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xml edit
 

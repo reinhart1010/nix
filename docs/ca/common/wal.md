@@ -3,10 +3,12 @@ layout: page
 title: common/wal (català)
 description: "Una eina per crear esquemes de colors basats en els colors dominants del fons de pantalla."
 content_hash: afa97fd9b6e6d003dec9c2d5978059a75afedad1
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/wal.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wal
 

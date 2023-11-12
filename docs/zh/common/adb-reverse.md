@@ -3,9 +3,13 @@ layout: page
 title: common/adb-reverse (中文)
 description: "安卓调试桥-反射： 反向映射安卓模拟器实例或者已连接的实体设备的套接字连接。"
 content_hash: cea2da4adce90573bb7b4a0638d63f746eb45d3c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/adb-reverse.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/adb-reverse.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/adb-reverse.html
@@ -13,12 +17,16 @@ related_topics:
   - title: Indonesia version
     url: /id/common/adb-reverse.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/adb-reverse.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/adb-reverse.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/adb-reverse.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # adb reverse
 

@@ -3,6 +3,7 @@ layout: page
 title: common/aws-s3 (português (Brasil))
 description: "Interface de linha de comando para AWS S3."
 content_hash: 7ce24daa75c5dbd8a3bbb558cc32669b21bf1f78
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-s3.html
@@ -10,12 +11,16 @@ related_topics:
   - title: English version
     url: /en/common/aws-s3.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/aws-s3.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/aws-s3.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/aws-s3.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws s3
 

@@ -3,11 +3,10 @@ layout: page
 title: linux/dnstracer (English)
 description: "The dnstracer command determines where a DNS gets its information from."
 content_hash: 008bda74ce7d8f6a0e33dd609c4c5c76de8b664a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dnstracer
+# dnstracer
 
 The dnstracer command determines where a DNS gets its information from.
 More information: <https://manned.org/dnstracer>.

@@ -3,7 +3,7 @@ layout: page
 title: common/zsh (English)
 description: "Z SHell, a Bash-compatible command-line interpreter."
 content_hash: 06571ac85942cf97eea77b466a80848f35b7ffc9
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/zsh.html
@@ -26,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/zsh.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # zsh
 

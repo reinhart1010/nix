@@ -3,7 +3,7 @@ layout: page
 title: common/asciinema (Nederlands)
 description: "Neemt en speelt terminal sessies af, en deelt hem optioneel op asciinema.org."
 content_hash: 21c7583bde237a70c22470caebe47e7a9b06436b
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/asciinema.html
@@ -23,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/asciinema.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # asciinema
 

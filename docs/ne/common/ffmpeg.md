@@ -3,7 +3,7 @@ layout: page
 title: common/ffmpeg (नेपाली)
 description: "भिडियो रूपान्तरण उपकरण।"
 content_hash: 22b3eb8a36e576cf7897a76e8b340e9e6dc11e1b
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ffmpeg.html
@@ -17,6 +17,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/ffmpeg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ffmpeg
 

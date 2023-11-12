@@ -3,7 +3,8 @@ layout: page
 title: common/imgtoppm (English)
 description: "Converts various image file formats to the PPM (Portable Pixmap) format."
 content_hash: eb05742bc338e3599292c71e80904bcfe2ca74ae
-last_modified_at: 2023-10-30
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # imgtoppm
 

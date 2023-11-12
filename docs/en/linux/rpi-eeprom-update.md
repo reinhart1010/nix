@@ -3,11 +3,10 @@ layout: page
 title: linux/rpi-eeprom-update (English)
 description: "Tool to update EEPROM and view other EEPROM information."
 content_hash: f79fdfedf2f0b7da0ecb8084ae58e18109b36658
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rpi-eeprom-update
+# rpi-eeprom-update
 
 Tool to update EEPROM and view other EEPROM information.
 More information: <https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#rpi-eeprom-update>.

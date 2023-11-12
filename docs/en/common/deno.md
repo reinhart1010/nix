@@ -3,13 +3,21 @@ layout: page
 title: common/deno (English)
 description: "A secure runtime for JavaScript and TypeScript."
 content_hash: 184cfd09f367b8641e614a4e3896e3ccaca8e12f
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/deno.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/deno.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/deno.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/deno.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # deno
 

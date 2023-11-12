@@ -3,6 +3,7 @@ layout: page
 title: common/cmake (français)
 description: "Système de construction logicielle multiplateforme, qui permet de générer des recettes de construction pour les systèmes de construction natifs."
 content_hash: 2f2118acf0432a6b2dba2c4ec5752cfb31b19d7a
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/cmake.html
@@ -19,8 +20,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/cmake.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# cmake
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># cmake
 
 Système de construction logicielle multiplateforme, qui permet de générer des recettes de construction pour les systèmes de construction natifs.
 Plus d'informations : <https://cmake.org/cmake/help/latest/manual/cmake.1.html>.

@@ -3,10 +3,15 @@ layout: page
 title: windows/taskkill (English)
 description: "Terminate a process by its process ID or name."
 content_hash: c85a19b0fd674359e39daa60a31fd3be61e0648b
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/windows/taskkill.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/windows/taskkill.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # taskkill
 

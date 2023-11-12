@@ -3,6 +3,8 @@ layout: page
 title: common/xgettext (English)
 description: "Extract gettext strings from code files."
 content_hash: 5e0bfe42182226c8258e123f62e1828fba729abd
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xgettext
 

@@ -3,7 +3,12 @@ layout: page
 title: linux/nmcli-agent (English)
 description: "Run `nmcli` as a NetworkManager secret agent or polkit agent."
 content_hash: cda84b1b0af171c616ce7fab0ebb092988150c7a
-last_modified_at: 2023-08-02
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Nederlands version
+    url: /nl/linux/nmcli-agent.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nmcli agent
 

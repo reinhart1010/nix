@@ -3,6 +3,7 @@ layout: page
 title: common/git-difftool (English)
 description: "Show file changes using external diff tools. Accepts the same options and arguments as `git diff`."
 content_hash: 93d186eac651a11b39b80bee429785aab4c1814b
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/git-difftool.html
@@ -10,6 +11,10 @@ related_topics:
   - title: italiano version
     url: /it/common/git-difftool.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-difftool.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git difftool
 

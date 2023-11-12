@@ -3,10 +3,12 @@ layout: page
 title: common/clj (português (Brasil))
 description: "Ferramenta de Clojure para iniciar um REPL ou invocar uma função com argumentos."
 content_hash: e521aacd0fdf37dafa192fed76e31b0a3ae0179b
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/clj.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # clj
 
@@ -32,8 +34,8 @@ Mais informações: <https://clojure.org/guides/deps_and_cli>.
 
 - Inicia um servidor nREPL com o *middleware* CIDER:
 
-`clj -Sdeps '{:deps {nrepl {:mvn/version "0.7.0"} cider/cider-nrepl {:mvn/version "0.25.2"</span>`}' -m nrepl.cmdline --middleware '["cider.nrepl/cider-middleware"]' --interactive`
+`clj -Sdeps '{:deps {nrepl {:mvn/version "0.7.0"} cider/cider-nrepl {:mvn/version "0.25.2"}</span>`' -m nrepl.cmdline --middleware '["cider.nrepl/cider-middleware"]' --interactive`
 
 - Inicia um REPL para ClojureScript e abre um navegador web:
 
-`clj -Sdeps '{:deps {org.clojure/clojurescript {:mvn/version "1.10.758"</span>`}' --main cljs.main --repl`
+`clj -Sdeps '{:deps {org.clojure/clojurescript {:mvn/version "1.10.758"}</span>`' --main cljs.main --repl`

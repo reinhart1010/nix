@@ -3,7 +3,7 @@ layout: page
 title: android/pm (हिन्दी)
 description: "एंड्रॉइड डिवाइस पर ऐप्स के बारे में जानकारी प्रदर्शित करें।"
 content_hash: ecfcdf542a72de1b08e408492175723ad9d75288
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/pm.html
@@ -56,6 +56,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/pm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pm
 

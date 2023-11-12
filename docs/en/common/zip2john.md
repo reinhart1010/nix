@@ -3,11 +3,10 @@ layout: page
 title: common/zip2john (English)
 description: "A tool to extract password hashes from zip files for use with John the Ripper password cracker."
 content_hash: 7be682fe0a48409727c28c639184eb771ab9ff68
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># zip2john
+# zip2john
 
 A tool to extract password hashes from zip files for use with John the Ripper password cracker.
 This is a utility tool usually installed as part of the John the Ripper installation.

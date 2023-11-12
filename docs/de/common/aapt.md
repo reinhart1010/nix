@@ -3,15 +3,37 @@ layout: page
 title: common/aapt (Deutsch)
 description: "Android Asset Packaging Tool."
 content_hash: 89905f75545cfff770e09da5979702ccbb3418f6
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/aapt.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/aapt.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/aapt.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/aapt.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/common/aapt.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/aapt.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/aapt.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/aapt.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/aapt.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/common/aapt.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/aapt.html
@@ -19,6 +41,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/aapt.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aapt
 

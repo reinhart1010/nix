@@ -3,7 +3,7 @@ layout: page
 title: linux/snap (English)
 description: "Manage the \"snap\" self-contained software packages."
 content_hash: aee55707149cdf82adec1107470f658317aa6998
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/linux/snap.html
@@ -11,6 +11,7 @@ related_topics:
   - title: മലയാളം version
     url: /ml/linux/snap.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # snap
 

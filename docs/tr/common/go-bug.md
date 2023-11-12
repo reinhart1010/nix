@@ -3,6 +3,7 @@ layout: page
 title: common/go-bug (Türkçe)
 description: "Bug bildir."
 content_hash: fa94c77f55cb40b8ea9996b1217fac6fc089165e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/go-bug.html
@@ -13,11 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/go-bug.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># go bug
+# go bug
 
 Bug bildir.
 Daha fazla bilgi için: <https://golang.org/cmd/go/#hdr-Start_a_bug_report>.

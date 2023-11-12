@@ -3,6 +3,7 @@ layout: page
 title: common/comm (italiano)
 description: "Seleziona o ignora linee comuni a due file. Entrambi i file devono essere ordinati."
 content_hash: 3ed462f51dc500d9a6ce385b6908bf183f41da56
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/comm.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/comm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # comm
 

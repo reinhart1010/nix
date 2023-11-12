@@ -3,7 +3,11 @@ layout: page
 title: linux/shutdown (français)
 description: "Éteint et redémarre le système."
 content_hash: 2d8d97955b70d1af71e777ee77eebb2eb08aeb82
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/shutdown.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/shutdown.html
     icon: bi bi-globe
@@ -13,6 +17,7 @@ related_topics:
   - title: italiano version
     url: /it/linux/shutdown.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # shutdown
 

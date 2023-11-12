@@ -3,7 +3,7 @@ layout: page
 title: common/rsync (Indonesia)
 description: "Transfer file ke atau dari sebuah _remote host_ (bukan di antara 2 _remote host_)."
 content_hash: 4221f83f47dc52a17be9b018c59cebe65506a92a
-last_modified_at: 2023-08-07
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/rsync.html
@@ -11,12 +11,19 @@ related_topics:
   - title: français version
     url: /fr/common/rsync.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/rsync.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/rsync.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/rsync.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/rsync.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rsync
 

@@ -3,7 +3,7 @@ layout: page
 title: osx/gpathchk (polski)
 description: "To polecenie jest aliasem `-p linux pathchk`."
 content_hash: 7b5bbe864e21d1ba1ab4b2c12e1560120551ebc6
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gpathchk.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gpathchk.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gpathchk
 

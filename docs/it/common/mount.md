@@ -3,6 +3,7 @@ layout: page
 title: common/mount (italiano)
 description: "Fornisce accesso a un intero filesystem in una directory specifica."
 content_hash: 1fa94fc7b292e752402cce5741412fd369b36759
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/mount.html
@@ -10,8 +11,15 @@ related_topics:
   - title: English version
     url: /en/common/mount.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/mount.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# mount
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># mount
 
 Fornisce accesso a un intero filesystem in una directory specifica.
 Maggiori informazioni: <https://manned.org/mount.8>.

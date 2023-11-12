@@ -3,9 +3,13 @@ layout: page
 title: common/tree (português (Brasil))
 description: "Exibe o conteúdo do diretório atual em formato de árvore."
 content_hash: 2615b282c9b6a1ad874fee1347d8e8feef0f48c2
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/tree.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/tree.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/tree.html
@@ -16,6 +20,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/tree.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tree
 

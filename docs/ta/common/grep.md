@@ -3,7 +3,11 @@ layout: page
 title: common/grep (தமிழ்)
 description: "கோப்பில் தேடுகுறித்தொடர்களுடன் தேடு."
 content_hash: c4edd3de426a24d52d03bc08ede75061c496fedb
+last_modified_at: 2023-11-12
 related_topics:
+  - title: dansk version
+    url: /da/common/grep.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/grep.html
     icon: bi bi-globe
@@ -12,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/grep.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/grep.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/grep.html
@@ -25,6 +32,10 @@ related_topics:
   - title: русский version
     url: /ru/common/grep.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/grep.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # grep
 

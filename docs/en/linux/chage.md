@@ -3,6 +3,7 @@ layout: page
 title: linux/chage (English)
 description: "Change user account and password expiry information."
 content_hash: 2c94e3f55de58ea8046506fb8bd610b6e7f88dfb
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/chage.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/chage.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chage
 

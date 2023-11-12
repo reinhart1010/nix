@@ -3,7 +3,8 @@ layout: page
 title: common/x_x (English)
 description: "View Excel and CSV files."
 content_hash: 3f5e5507007fad878b1186ca4504bdccd53bb134
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # x_x
 

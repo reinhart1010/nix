@@ -3,6 +3,8 @@ layout: page
 title: common/pycodestyle (English)
 description: "A tool to check Python code against PEP 8 style conventions."
 content_hash: a0fcdb4997d5d952ce35a251bb874e14343129b4
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pycodestyle
 

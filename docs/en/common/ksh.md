@@ -3,11 +3,12 @@ layout: page
 title: common/ksh (English)
 description: "Korn Shell, a Bash-compatible command-line interpreter."
 content_hash: e3421829c624baa9b222ba88951750624dc6a4a8
-last_modified_at: 2023-01-07
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/ksh.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ksh
 

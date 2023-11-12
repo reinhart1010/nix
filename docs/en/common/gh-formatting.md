@@ -3,6 +3,8 @@ layout: page
 title: common/gh-formatting (English)
 description: "Formatting options for JSON data exported from gh GitHub CLI command."
 content_hash: d57c21e738b5473345d0bdd5c191207ae669e974
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gh formatting
 

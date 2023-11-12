@@ -3,7 +3,7 @@ layout: page
 title: android/bugreportz (français)
 description: "Génère une archive d'un rapport de bug Android."
 content_hash: 141f7f8109751a75428bb654ca3fd1d48542945c
-last_modified_at: 2023-10-21
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -20,8 +20,17 @@ related_topics:
   - title: فارسی version
     url: /fa/android/bugreportz.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/android/bugreportz.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/bugreportz.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/android/bugreportz.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/android/bugreportz.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/android/bugreportz.html
@@ -41,6 +50,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/android/bugreportz.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/android/bugreportz.html
+    icon: bi bi-globe
   - title: o‘zbek version
     url: /uz/android/bugreportz.html
     icon: bi bi-globe
@@ -50,6 +62,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/bugreportz.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bugreportz
 

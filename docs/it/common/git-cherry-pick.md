@@ -3,7 +3,7 @@ layout: page
 title: common/git-cherry-pick (italiano)
 description: "Applica al ramo corrente le modifiche introdotte da commit esistenti."
 content_hash: a8a05f51cde1d13ce893e18240307846583e754a
-last_modified_at: 2023-06-25
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/common/git-cherry-pick.html
@@ -26,6 +26,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-cherry-pick.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git cherry-pick
 

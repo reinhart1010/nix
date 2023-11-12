@@ -3,6 +3,7 @@ layout: page
 title: common/dircolors (한국어)
 description: "LS_COLOR 환경변수와 스타일 `ls`, `dir`, 등을 설정하기 위한 명령어들을 출력한다."
 content_hash: f2b97b5f7662db31e84e5ef0f0bac34dd7ff632d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/dircolors.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/dircolors.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dircolors
 

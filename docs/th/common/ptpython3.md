@@ -3,7 +3,7 @@ layout: page
 title: common/ptpython3 (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `ptpython`"
 content_hash: aeeb534e8e470157f4313b9ac25755c84ded9807
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/ptpython3.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/ptpython3.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ptpython3
 

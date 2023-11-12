@@ -3,10 +3,12 @@ layout: page
 title: osx/tmutil (English)
 description: "Utility for managing Time Machine backups. Most verbs require root privileges."
 content_hash: 18a0807ca9cb7005c26bf7c833b17adc96a0d89a
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/osx/tmutil.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tmutil
 

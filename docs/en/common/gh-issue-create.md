@@ -3,7 +3,8 @@ layout: page
 title: common/gh-issue-create (English)
 description: "Create GitHub issues on a repository."
 content_hash: bbffa5e78df93279d088e19d8fa6190bbea5ed9f
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gh issue create
 

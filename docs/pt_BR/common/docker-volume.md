@@ -3,7 +3,7 @@ layout: page
 title: common/docker-volume (português (Brasil))
 description: "Gerenciar volumes do Docker."
 content_hash: 9d06f4181d89fe7af0078e5c0af098a1fc48d493
-last_modified_at: 2023-09-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/docker-volume.html
@@ -11,11 +11,9 @@ related_topics:
   - title: français version
     url: /fr/common/docker-volume.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docker volume
+# docker volume
 
 Gerenciar volumes do Docker.
 Mais informações: <https://docs.docker.com/engine/reference/commandline/volume/>.

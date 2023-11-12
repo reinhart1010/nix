@@ -3,7 +3,7 @@ layout: page
 title: common/platformio (polski)
 description: "To polecenie jest aliasem `pio`."
 content_hash: e9274ea7b334184036278a5468dc086d85eb932a
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/platformio.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/platformio.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # platformio
 

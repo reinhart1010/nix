@@ -3,9 +3,19 @@ layout: page
 title: windows/cmd (தமிழ்)
 description: "விண்டோஸ் கட்டளை மொழிபெயர்ப்பாளர்."
 content_hash: a6aaae5feeb6fb95716ff63d373bc8141738a49a
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/windows/cmd.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/cmd.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/windows/cmd.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/cmd.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/windows/cmd.html
@@ -16,12 +26,16 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/windows/cmd.html
     icon: bi bi-globe
+  - title: ไทย version
+    url: /th/windows/cmd.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/cmd.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/cmd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cmd
 

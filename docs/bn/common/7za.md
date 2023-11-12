@@ -3,7 +3,7 @@ layout: page
 title: common/7za (বাংলা)
 description: "একটি উচ্চ সঙ্কোচন অনুবাদক সাথে ফাইল অ্যার্কাইভার।"
 content_hash: d9ba4efa9d4e4b38bd651ac44b7eff1d740aa916
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/7za.html
@@ -53,6 +53,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/7za.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # 7za
 

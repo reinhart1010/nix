@@ -3,7 +3,7 @@ layout: page
 title: common/clang-cpp (polski)
 description: "To polecenie jest aliasem `clang++`."
 content_hash: 36d0e45187c546e43b84e1f4ea594937069c1b97
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/clang-cpp.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/clang-cpp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # clang-cpp
 

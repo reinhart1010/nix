@@ -3,6 +3,8 @@ layout: page
 title: common/subfinder (English)
 description: "A subdomain discovery tool that discovers valid subdomains for websites."
 content_hash: 2070ce2bf560efab1dbdd83304b3d9a3aacb88f5
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # subfinder
 

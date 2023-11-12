@@ -3,6 +3,7 @@ layout: page
 title: windows/cmstp (தமிழ்)
 description: "இணைப்பு சேவை சுயவிவரங்களை நிர்வகிப்பதற்கான கட்டளை வரி கருவி."
 content_hash: 2c5533a8e471d9a73f01c71ec86c987e4ac3a495
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/cmstp.html
@@ -10,11 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/cmstp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cmstp
+# cmstp
 
 இணைப்பு சேவை சுயவிவரங்களை நிர்வகிப்பதற்கான கட்டளை வரி கருவி.
 மேலும் விவரத்திற்கு: <https://learn.microsoft.com/windows-server/administration/windows-commands/cmstp>.

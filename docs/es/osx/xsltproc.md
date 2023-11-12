@@ -3,7 +3,7 @@ layout: page
 title: osx/xsltproc (español)
 description: "Transforma XML con XSLT para producir una salida (normalmente HTML o XML)."
 content_hash: 091639d10417b4ec8db1d9e4c35b1a2ea5a6a047
-last_modified_at: 2023-05-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/xsltproc.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/xsltproc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xsltproc
 

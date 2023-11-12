@@ -3,10 +3,15 @@ layout: page
 title: common/git-commit-graph (українська)
 description: "Записує та перевіряє файл графіку комітів Git."
 content_hash: 39ad65661fec71295da66d293e3cb70206a611a3
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-commit-graph.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-commit-graph.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git commit-graph
 

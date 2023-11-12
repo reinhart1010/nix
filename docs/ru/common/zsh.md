@@ -3,6 +3,7 @@ layout: page
 title: common/zsh (русский)
 description: "Z SHell — командный интерпретатор, совместимый с Bash."
 content_hash: 1e586e1808999f059fdcc8f37dbf0b6d538cc773
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/zsh.html
@@ -25,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/zsh.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.

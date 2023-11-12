@@ -3,19 +3,29 @@ layout: page
 title: common/aireplay-ng (中文)
 description: "向无线网络注入数据包。"
 content_hash: 11f057a2ee2ddf5d67f239f4ff94ff5993ddefc7
-last_modified_at: 2023-02-24
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/aireplay-ng.html
+    icon: bi bi-globe
+  - title: Deutsch version
+    url: /de/common/aireplay-ng.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/aireplay-ng.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/aireplay-ng.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/common/aireplay-ng.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/aireplay-ng.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aireplay-ng
+# aireplay-ng
 
 向无线网络注入数据包。
 `aircrack-ng` 的一部分。

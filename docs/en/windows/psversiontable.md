@@ -3,12 +3,10 @@ layout: page
 title: windows/psversiontable (English)
 description: "A read-only variable (as `$PSVersionTable`) to get the current PowerShell version."
 content_hash: 93b974f75b7204107611b4002c9de129076e86d6
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># PSVersionTable
+# PSVersionTable
 
 A read-only variable (as `$PSVersionTable`) to get the current PowerShell version.
 This command can only be run under PowerShell.

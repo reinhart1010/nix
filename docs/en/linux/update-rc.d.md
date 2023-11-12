@@ -3,6 +3,8 @@ layout: page
 title: linux/update-rc.d (English)
 description: "Install and remove services which are System-V style init script links."
 content_hash: a2b71c3414fc7e13b688fc8d6522a883372669b2
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # update-rc.d
 

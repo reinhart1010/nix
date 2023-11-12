@@ -3,7 +3,7 @@ layout: page
 title: common/kubectl (Deutsch)
 description: "Befehlszeilenschnittstelle zur Ausführung von Befehlen gegen Kubernetes-Cluster."
 content_hash: 2d951af8547b179aeccca3c72ba98977e543bfc4
-last_modified_at: 2022-12-21
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/kubectl.html
@@ -14,11 +14,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/kubectl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># kubectl
+# kubectl
 
 Befehlszeilenschnittstelle zur Ausführung von Befehlen gegen Kubernetes-Cluster.
 Einige Unterbefehle wie `kubectl run` haben ihre eigene Dokumentation zur Verwendung.

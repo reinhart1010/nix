@@ -3,7 +3,8 @@ layout: page
 title: linux/whiptail (English)
 description: "Display text-based dialog boxes from shell scripts."
 content_hash: 0eb0c6bfda6cb10fe66bd66cd5244004c9b1c98a
-last_modified_at: 2023-06-13
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # whiptail
 

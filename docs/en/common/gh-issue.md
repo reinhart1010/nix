@@ -3,7 +3,8 @@ layout: page
 title: common/gh-issue (English)
 description: "Manage GitHub issues."
 content_hash: 600b0734010558d483d32db6fab09a5816608e13
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gh issue
 

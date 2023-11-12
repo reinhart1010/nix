@@ -3,15 +3,14 @@ layout: page
 title: common/go-mod (Türkçe)
 description: "Modül yönetimi."
 content_hash: fa123d3267e7c36e6d54f91b47181488ab291215
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/go-mod.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># go mod
+# go mod
 
 Modül yönetimi.
 Daha fazla bilgi için: <https://golang.org/cmd/go/#hdr-Module_maintenance>.

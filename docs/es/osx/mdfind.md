@@ -3,7 +3,7 @@ layout: page
 title: osx/mdfind (español)
 description: "Lista los archivos que coinciden con una consulta dada."
 content_hash: 8e5406ac2397bbd5418b0e10ca4c81bf74fa3adc
-last_modified_at: 2023-09-13
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/mdfind.html
@@ -11,11 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/mdfind.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mdfind
+# mdfind
 
 Lista los archivos que coinciden con una consulta dada.
 Más información: <https://ss64.com/osx/mdfind.html>.

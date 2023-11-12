@@ -3,7 +3,8 @@ layout: page
 title: linux/qm-guest-exec (English)
 description: "Execute a specific command via a guest agent."
 content_hash: 0297e3eadd86acb4226fd3d0d69bd9c2e7e576b7
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # qm guest exec
 

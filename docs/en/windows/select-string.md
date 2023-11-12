@@ -3,7 +3,8 @@ layout: page
 title: windows/select-string (English)
 description: "Finds text in strings and files in PowerShell."
 content_hash: c905dac38e115b92bb411acd90af0f284f3db4c6
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # Select-String
 

@@ -3,7 +3,12 @@ layout: page
 title: common/linode-cli-account (English)
 description: "Manage Linode accounts."
 content_hash: 55bc84d87ed2b05c7e9dc541df6a932fe226591b
-last_modified_at: 2023-09-17
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Nederlands version
+    url: /nl/common/linode-cli-account.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # linode-cli account
 

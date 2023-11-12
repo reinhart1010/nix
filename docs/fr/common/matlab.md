@@ -3,6 +3,7 @@ layout: page
 title: common/matlab (français)
 description: "Environnement de calcul numérique créé par MathWorks."
 content_hash: 4abb25cb372a9e108c4f8884e27901c3d508516e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/matlab.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/matlab.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # matlab
 

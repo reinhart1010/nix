@@ -3,12 +3,10 @@ layout: page
 title: common/rustdoc (English)
 description: "Generate documentation for a Rust crate."
 content_hash: 8fd3da232e967032aba8e85a215c2e91e4f9c91e
-last_modified_at: 2023-10-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rustdoc
+# rustdoc
 
 Generate documentation for a Rust crate.
 More information: <https://doc.rust-lang.org/stable/rustdoc>.

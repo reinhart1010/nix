@@ -3,6 +3,7 @@ layout: page
 title: common/go-fix (Türkçe)
 description: "Yeni API'ler kullanmak için paketleri güncelle."
 content_hash: 2a3ecb61a4e12d18b34767313540e247be33944a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/go-fix.html
@@ -10,11 +11,9 @@ related_topics:
   - title: svenska version
     url: /sv/common/go-fix.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># go fix
+# go fix
 
 Yeni API'ler kullanmak için paketleri güncelle.
 Daha fazla bilgi için: <https://golang.org/cmd/go/#hdr-Update_packages_to_use_new_APIs>.

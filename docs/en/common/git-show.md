@@ -3,6 +3,7 @@ layout: page
 title: common/git-show (English)
 description: "Show various types of Git objects (commits, tags, etc.)."
 content_hash: 2fc495c0edeb3c5897a8d199243265d9ba227a0d
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/git-show.html
@@ -13,6 +14,10 @@ related_topics:
   - title: italiano version
     url: /it/common/git-show.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-show.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git show
 

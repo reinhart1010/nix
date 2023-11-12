@@ -3,7 +3,8 @@ layout: page
 title: common/kate (English)
 description: "KDE's advanced text editor."
 content_hash: ce939998fbab2e5ae1b6698132630f4d64d88c20
-last_modified_at: 2022-11-29
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # kate
 

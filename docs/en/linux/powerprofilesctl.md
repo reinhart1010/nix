@@ -3,6 +3,8 @@ layout: page
 title: linux/powerprofilesctl (English)
 description: "Make power profiles handling available over D-Bus."
 content_hash: 8795671e163feb9eb8c1c4092a32411fc02fca47
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # powerprofilesctl
 

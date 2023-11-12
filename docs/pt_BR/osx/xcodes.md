@@ -3,11 +3,15 @@ layout: page
 title: osx/xcodes (português (Brasil))
 description: "Baixe, instale e gerencie várias versões do Xcode."
 content_hash: 572f69b7718c15543fef54f895f10483e37aa334
-last_modified_at: 2023-10-02
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/xcodes.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/osx/xcodes.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xcodes
 

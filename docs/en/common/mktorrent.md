@@ -3,7 +3,8 @@ layout: page
 title: common/mktorrent (English)
 description: "Create BitTorrent metainfo files."
 content_hash: 7c9c4cdaa15f56c2eca0f3944e035784c73ba277
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mktorrent
 

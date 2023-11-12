@@ -3,6 +3,7 @@ layout: page
 title: common/compgen (português (Brasil))
 description: "Um programa para auto completar comandos no Bash, ele é executado ao pressionar duas vezes a tecla TAB."
 content_hash: 9bef3ff9b3f0b1425fe7fdb7241d5e022b958bf3
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/compgen.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/compgen.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # compgen
 

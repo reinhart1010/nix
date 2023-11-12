@@ -3,6 +3,7 @@ layout: page
 title: common/chroot (italiano)
 description: "Esegui un comando o una shell interattiva con una speciale directory root."
 content_hash: 2ba44fe39d209755bcb4745383a0712d44eb5744
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/chroot.html
@@ -22,6 +23,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/chroot.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chroot
 

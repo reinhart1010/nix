@@ -3,7 +3,7 @@ layout: page
 title: common/sha384sum (English)
 description: "Calculate SHA384 cryptographic checksums."
 content_hash: eeedb55045d80778d73b7e6f5a2e3299278270eb
-last_modified_at: 2023-05-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: sh version
     url: /sh/common/sha384sum.html
@@ -11,6 +11,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/sha384sum.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sha384sum
 

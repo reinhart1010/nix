@@ -3,6 +3,8 @@ layout: page
 title: common/redshift (English)
 description: "Adjust the color temperature of your screen according to your surroundings."
 content_hash: 79175bfa5daa7879332eee0b9fa117a47e142e96
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # redshift
 

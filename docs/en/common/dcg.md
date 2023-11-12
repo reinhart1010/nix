@@ -3,6 +3,8 @@ layout: page
 title: common/dcg (English)
 description: "Drupal code generator."
 content_hash: 578caa87fcb18cf62b5cecaceb54b6340d689252
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dcg
 

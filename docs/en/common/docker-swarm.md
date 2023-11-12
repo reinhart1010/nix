@@ -3,13 +3,21 @@ layout: page
 title: common/docker-swarm (English)
 description: "A container orchestration tool."
 content_hash: 66b32061afc06057857d6a521aa5e237b828c17b
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-swarm.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/docker-swarm.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/docker-swarm.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/docker-swarm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker swarm
 

@@ -3,11 +3,10 @@ layout: page
 title: common/pg_dumpall (English)
 description: "Extract a PostgreSQL database cluster into a script file or other archive file."
 content_hash: 756b774bbd970de859e6dc41049a0d5a29aa9a92
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pg_dumpall
+# pg_dumpall
 
 Extract a PostgreSQL database cluster into a script file or other archive file.
 More information: <https://www.postgresql.org/docs/current/app-pg-dumpall.html>.

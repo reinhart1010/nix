@@ -3,6 +3,12 @@ layout: page
 title: common/ghc (English)
 description: "The Glasgow Haskell Compiler."
 content_hash: 9c4564cae21e64f1a488a9dbb38da2445e5ce0cf
+last_modified_at: 2023-11-12
+related_topics:
+  - title: русский version
+    url: /ru/common/ghc.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ghc
 

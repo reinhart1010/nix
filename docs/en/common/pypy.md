@@ -3,7 +3,8 @@ layout: page
 title: common/pypy (English)
 description: "Fast and compliant alternative implementation of the Python language."
 content_hash: eaf050ac2f08b3b884a7e013624b6a32eb432187
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pypy
 

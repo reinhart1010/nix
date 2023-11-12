@@ -2,7 +2,8 @@
 layout: page
 title: common/nano (français)
 description: "Éditeur de texte simple et convivial. C'est un clone libre et amélioré de Pico."
-content_hash: 41accf7dcbfd2e6d3d5c5b3a74b76b79fb398c0f
+content_hash: f7583a5092a852aeb56f64f137ef3faf5eb62772
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/nano.html
@@ -16,15 +17,10 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/nano.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/nano.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># nano
 
@@ -47,6 +43,6 @@ Plus d'informations : <https://nano-editor.org>.
 
 `nano -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span>
 
-- Avant la modification, sauvegarde le fichier actuel sous le format <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_fichier_actuel</span>`~` :
+- Avant la modification, sauvegarde le fichier actuel sous le format `nom_du_fichier_actuel~` :
 
 `nano -B `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span>

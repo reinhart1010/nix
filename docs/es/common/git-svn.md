@@ -3,6 +3,7 @@ layout: page
 title: common/git-svn (español)
 description: "Operacion bidreccional entre un repositorio Subversión y otro Git."
 content_hash: cba60761e8b4b862d8c691909ced919a1cd4500c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-svn.html
@@ -16,6 +17,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-svn.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git svn
 

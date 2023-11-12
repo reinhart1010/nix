@@ -3,7 +3,7 @@ layout: page
 title: common/curl (日本語)
 description: "データをサーバーから転送、もしくはサーバーへ転送します。"
 content_hash: b6678659e8716caeabeab6fb8d5d7d363883f673
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/curl.html
@@ -32,6 +32,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/curl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # curl
 

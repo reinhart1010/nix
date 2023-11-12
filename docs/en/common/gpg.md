@@ -3,7 +3,7 @@ layout: page
 title: common/gpg (English)
 description: "GNU Privacy Guard."
 content_hash: b106e8d2e657400c8c812ba8d360071be4b8d35a
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/gpg.html
@@ -14,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/gpg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gpg
 

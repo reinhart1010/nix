@@ -3,6 +3,8 @@ layout: page
 title: linux/smbget (English)
 description: "`wget`-like utility for downloading files from SMB servers."
 content_hash: 2ca2070ab3148132cab61a8a056d76de3fa67a94
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # smbget
 

@@ -3,7 +3,8 @@ layout: page
 title: common/traceroute (English)
 description: "Print the route packets trace to network host."
 content_hash: baf6da7699a46e75c4bea5b3e7e6c7604e3214ce
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # traceroute
 

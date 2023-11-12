@@ -3,7 +3,8 @@ layout: page
 title: linux/qm-suspend (English)
 description: "Suspends a virtual machine (VM) in the Proxmox Virtual Environment (PVE)."
 content_hash: d1853c0672967552798be8051fbf3e805c2d8ef8
-last_modified_at: 2023-07-13
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # qm suspend
 

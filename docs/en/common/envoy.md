@@ -3,6 +3,8 @@ layout: page
 title: common/envoy (English)
 description: "A PHP-based task manager for Laravel remote servers."
 content_hash: 8b8a402c156fd9cf10d6d7967c14baeb8dda568c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # envoy
 

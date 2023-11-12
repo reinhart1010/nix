@@ -3,13 +3,24 @@ layout: page
 title: sunos/dmesg (தமிழ்)
 description: "கர்னல் செய்திகளை நிலையான வெளியீட்டிற்கு எழுதவும்."
 content_hash: a1e2e40f4ff2279cf6d7ab2380a9cd46b52e5eac
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/sunos/dmesg.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/sunos/dmesg.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/sunos/dmesg.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/sunos/dmesg.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/sunos/dmesg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dmesg
 

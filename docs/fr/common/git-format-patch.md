@@ -3,6 +3,7 @@ layout: page
 title: common/git-format-patch (français)
 description: "Préparer des fichiers de correctifs, utiles pour les envoyer par courriel."
 content_hash: e077fbf33396eeeebfdd0894592cc32d80917d1e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-format-patch.html
@@ -13,6 +14,10 @@ related_topics:
   - title: italiano version
     url: /it/common/git-format-patch.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-format-patch.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git format-patch
 

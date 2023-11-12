@@ -3,11 +3,10 @@ layout: page
 title: linux/qm-rescan (English)
 description: "Rescan all storages and update disk sizes and unused disk images of a virtual machine."
 content_hash: c20f5ace317798b6a80f4b6c4a0b46f9a54d82da
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># qm rescan
+# qm rescan
 
 Rescan all storages and update disk sizes and unused disk images of a virtual machine.
 More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.

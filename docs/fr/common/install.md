@@ -3,12 +3,17 @@ layout: page
 title: common/install (français)
 description: "Copie des fichiers et met à jour leurs attributs."
 content_hash: b79d09be625d1fb1d82b20aeb2b658e7feb76dcc
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/install.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# install
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># install
 
 Copie des fichiers et met à jour leurs attributs.
 Copie des fichiers (souvent des exécutables) dans un répertoire système comme `/usr/local/bin` et leur donne les permissions et propriétaires appropriés.

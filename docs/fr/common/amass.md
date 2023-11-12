@@ -3,10 +3,13 @@ layout: page
 title: common/amass (français)
 description: "Outil de Cartographie des Attaques de Surface et découverte de ressource."
 content_hash: 5e063ffc8b630a15230773a861b2ba21287e4dfa
-last_modified_at: 2023-01-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/amass.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/amass.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/amass.html
@@ -14,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/amass.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # amass
 

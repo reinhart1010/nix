@@ -3,6 +3,8 @@ layout: page
 title: linux/lxterminal (English)
 description: "Terminal emulator for LXDE."
 content_hash: 11a1a5219566f58dcf708e42c7a658053cf86bbc
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lxterminal
 

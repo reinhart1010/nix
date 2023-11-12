@@ -3,7 +3,7 @@ layout: page
 title: common/clang (Deutsch)
 description: "Compiler für C, C++ und Objective-C Quelldateien. Kann als Ersatz für GCC genutzt werden."
 content_hash: 39b674b2465fd6d51c1d402e74dc8734ce5c80c1
-last_modified_at: 2023-02-21
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/clang.html
@@ -14,11 +14,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/clang.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># clang
+# clang
 
 Compiler für C, C++ und Objective-C Quelldateien. Kann als Ersatz für GCC genutzt werden.
 Weitere Informationen: <https://clang.llvm.org/docs/ClangCommandLineReference.html>.

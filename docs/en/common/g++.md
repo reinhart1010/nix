@@ -3,6 +3,7 @@ layout: page
 title: common/g++ (English)
 description: "Compiles C++ source files."
 content_hash: 1e1934a060b199f9daa4ffadb55600dfa589e788
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/g++.html
@@ -10,12 +11,16 @@ related_topics:
   - title: Indonesia version
     url: /id/common/g++.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/g++.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/g++.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/g++.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # g++
 

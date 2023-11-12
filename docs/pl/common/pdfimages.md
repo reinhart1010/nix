@@ -3,10 +3,12 @@ layout: page
 title: common/pdfimages (polski)
 description: "Narzędzie do wyodrębniania obrazów z plików PDF."
 content_hash: 6cde8125fb1daec6209456bbbfa5fc0895241aba
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/pdfimages.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pdfimages
 

@@ -3,7 +3,7 @@ layout: page
 title: windows/curl (Nederlands)
 description: "In PowerShell kan dit commando een alias zijn van `Invoke-WebRequest` als het originele `curl` programma (<https://curl.se/>) niet correct is geïnstalleerd."
 content_hash: a3ba92b53390511c00e196e4f2c14a013d690423
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/curl.html
@@ -92,6 +92,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/curl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # curl
 

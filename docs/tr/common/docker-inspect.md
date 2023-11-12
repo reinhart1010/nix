@@ -3,6 +3,7 @@ layout: page
 title: common/docker-inspect (Türkçe)
 description: "Docker objelerinde bulunan düşük seviye bilgiyi gösterir."
 content_hash: 4d7097a29190132b4378ebc91e1fc8191be26ea9
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-inspect.html
@@ -16,6 +17,10 @@ related_topics:
   - title: italiano version
     url: /it/common/docker-inspect.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/docker-inspect.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker inspect
 

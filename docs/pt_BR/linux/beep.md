@@ -3,6 +3,7 @@ layout: page
 title: linux/beep (português (Brasil))
 description: "Utilitário que permite o computador emitir sons."
 content_hash: 804cbf3a572fc753288f13d7a043a24eb49858f6
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/beep.html
@@ -10,9 +11,13 @@ related_topics:
   - title: English version
     url: /en/linux/beep.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/linux/beep.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/beep.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # beep
 

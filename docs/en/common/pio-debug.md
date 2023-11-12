@@ -3,6 +3,8 @@ layout: page
 title: common/pio-debug (English)
 description: "Debug PlatformIO projects."
 content_hash: 28dce6c899515bc5f09ba676beb5e91ac5bf6294
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pio debug
 

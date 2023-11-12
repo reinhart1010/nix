@@ -3,16 +3,17 @@ layout: page
 title: common/virsh-help (português (Brasil))
 description: "Exibir informações sobre comandos ou grupos de comandos do `virsh`."
 content_hash: 1d865edf6138fb96e490b3cbc0b96b2377edccf4
-last_modified_at: 2023-09-18
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/virsh-help.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/virsh-help.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># virsh-help
+# virsh-help
 
 Exibir informações sobre comandos ou grupos de comandos do `virsh`.
 Veja também: `virsh`.

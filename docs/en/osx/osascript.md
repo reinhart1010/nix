@@ -3,7 +3,7 @@ layout: page
 title: osx/osascript (English)
 description: "Run AppleScript or JavaScript for Automation (JXA)."
 content_hash: 53e3a2ed0cd73b4704be354becd73a643a6466d4
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/osx/osascript.html
@@ -14,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/osascript.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # osascript
 

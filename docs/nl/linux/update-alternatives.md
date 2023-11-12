@@ -3,14 +3,21 @@ layout: page
 title: linux/update-alternatives (Nederlands)
 description: "Een handig hulpmiddel voor het onderhouden van symbolische links om standaard commando's te bepalen."
 content_hash: 56e13bfe7966c76006b40ae40a4f3c78c28b7b3a
-last_modified_at: 2023-11-10
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/update-alternatives.html
     icon: bi bi-globe
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/linux/update-alternatives.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># update-alternatives
 

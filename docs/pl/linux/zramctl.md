@@ -3,15 +3,17 @@ layout: page
 title: linux/zramctl (polski)
 description: "Tworzenie i kontrola urządzeń zram."
 content_hash: 16d013a4363a9f6af2ed028ca44506b1d665cafb
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/zramctl.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/zramctl.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># zramctl
+# zramctl
 
 Tworzenie i kontrola urządzeń zram.
 Użyj `mkfs` lub `mkswap` aby sformatować urządzenia zram na partycje.

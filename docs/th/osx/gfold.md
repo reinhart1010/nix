@@ -3,7 +3,7 @@ layout: page
 title: osx/gfold (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux fold`"
 content_hash: 33a8e40329bb97e94d68765ed4f38b514df8f5e3
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gfold.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gfold.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gfold
 

@@ -3,12 +3,10 @@ layout: page
 title: linux/systemd-sysusers (English)
 description: "Create system users and groups."
 content_hash: e79d5f1cb5ef1dd60c67217cd618a68ea120f22e
-last_modified_at: 2023-09-11
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># systemd-sysusers
+# systemd-sysusers
 
 Create system users and groups.
 If the config file is not specified, files in the `sysusers.d` directories are used.

@@ -3,6 +3,7 @@ layout: page
 title: common/df (français)
 description: "Montre un aperçu de l'utilisation de l'espace disque."
 content_hash: ec48702d1d3d646b5b106a2eb70882094e84fc87
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/df.html
@@ -10,12 +11,28 @@ related_topics:
   - title: English version
     url: /en/common/df.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/df.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/df.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/df.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/df.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/df.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/df.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/df.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # df
 

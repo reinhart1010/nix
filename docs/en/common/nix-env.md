@@ -3,6 +3,12 @@ layout: page
 title: common/nix-env (English)
 description: "Manipulate or query Nix user environments."
 content_hash: b10891ffcfafde98aa0249d09c844fe5c482dcd1
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/nix-env.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nix-env
 

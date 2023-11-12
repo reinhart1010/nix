@@ -3,6 +3,7 @@ layout: page
 title: linux/chage (português (Brasil))
 description: "Gerencia informações de expiração de conta e senha do usuário."
 content_hash: fd20d6a334cfaae268824fb67131460231f48472
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/chage.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/chage.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chage
 

@@ -3,6 +3,7 @@ layout: page
 title: linux/sensible-browser (English)
 description: "Open the default browser."
 content_hash: b2434136840ddae5b5422fa1d05260b567fe7770
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/sensible-browser.html
@@ -10,6 +11,7 @@ related_topics:
   - title: español version
     url: /es/linux/sensible-browser.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sensible-browser
 

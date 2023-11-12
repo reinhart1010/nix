@@ -3,6 +3,8 @@ layout: page
 title: linux/update-alternatives (English)
 description: "A convenient tool for maintaining symbolic links to determine default commands."
 content_hash: 43a49b88be22bdc9d6d0a6021571f2db150ad4b5
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # update-alternatives
 

@@ -3,6 +3,8 @@ layout: page
 title: common/tlmgr-update (English)
 description: "Update TeX Live packages."
 content_hash: c7614285922b8543167af34dc33ba90c7b3e1cd3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tlmgr update
 

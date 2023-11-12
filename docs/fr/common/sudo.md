@@ -3,6 +3,7 @@ layout: page
 title: common/sudo (français)
 description: "Exécute une commande unique en tant que super-utilisateur (super-user) ou un autre utilisateur."
 content_hash: e1018046c443a058c4dac9be0bc5bc8cdc949d57
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/sudo.html
@@ -13,6 +14,10 @@ related_topics:
   - title: polski version
     url: /pl/common/sudo.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/sudo.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sudo
 

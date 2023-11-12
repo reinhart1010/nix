@@ -3,7 +3,8 @@ layout: page
 title: common/zek (English)
 description: "Generate a Go struct from XML."
 content_hash: 13411905c6766a4d6dca261eff02732b8edc1c0d
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # zek
 

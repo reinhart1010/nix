@@ -3,6 +3,7 @@ layout: page
 title: common/berks (한국어)
 description: "Chef 자세한 설명서 의존 관리자."
 content_hash: f8639d110dcae038378089c4c802873edcc43d32
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/berks.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/berks.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # berks
 

@@ -3,11 +3,12 @@ layout: page
 title: common/etcd (English)
 description: "A distributed, reliable key-value store for the most critical data of a distributed system."
 content_hash: 66bfd1c56263b50aff619152700c93a4c40fca88
-last_modified_at: 2023-09-10
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/common/etcd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # etcd
 

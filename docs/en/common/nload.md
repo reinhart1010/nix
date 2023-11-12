@@ -3,6 +3,8 @@ layout: page
 title: common/nload (English)
 description: "A tool for visualizing network usage in the terminal."
 content_hash: 422d2719e95fddc32affb4a39b580ef2aa11ee9c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # nload
 

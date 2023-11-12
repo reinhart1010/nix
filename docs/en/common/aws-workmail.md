@@ -3,7 +3,8 @@ layout: page
 title: common/aws-workmail (English)
 description: "Manage Amazon WorkMail."
 content_hash: 261e77fb2e578ca1d5fbc7e84d0f8c268965bed9
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # aws workmail
 

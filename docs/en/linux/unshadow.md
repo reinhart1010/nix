@@ -3,6 +3,8 @@ layout: page
 title: linux/unshadow (English)
 description: "Utility provided by the John the Ripper project to obtain the traditional Unix password file if the system uses shadow passwords."
 content_hash: d6ad38805d71a181fca0adf4f5860576a768d977
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # unshadow
 

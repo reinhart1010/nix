@@ -3,7 +3,7 @@ layout: page
 title: common/ffprobe (English)
 description: "Multimedia stream analyzer."
 content_hash: cc0e90f91a590c56d079b8ddf5c1a218523d6b56
-last_modified_at: 2023-08-17
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ffprobe.html
@@ -11,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/ffprobe.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ffprobe
 

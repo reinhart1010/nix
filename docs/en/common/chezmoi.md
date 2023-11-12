@@ -3,6 +3,12 @@ layout: page
 title: common/chezmoi (English)
 description: "A multi-machine dotfile manager, written in Go."
 content_hash: dbb58fbcab65a26f71e195f0e5612d87b3cdef7e
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/chezmoi.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # Chezmoi
 

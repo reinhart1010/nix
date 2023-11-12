@@ -3,6 +3,8 @@ layout: page
 title: linux/ipset (English)
 description: "A tool to create IP sets for firewall rules."
 content_hash: 4660af40576663f02bfbaadd461d35718084ff4e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ipset
 

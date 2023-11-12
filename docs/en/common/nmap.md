@@ -3,7 +3,7 @@ layout: page
 title: common/nmap (English)
 description: "Network exploration tool and security/port scanner."
 content_hash: 9b2f7651a19aa7300ee9ceaea87a3ae330f40e03
-last_modified_at: 2023-08-22
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/nmap.html
@@ -20,6 +20,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/nmap.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nmap
 

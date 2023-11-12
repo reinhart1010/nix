@@ -3,7 +3,8 @@ layout: page
 title: common/grpcurl (English)
 description: "Interact with gRPC servers."
 content_hash: 116af83e616874e544457e1f0275ca6860d15c9b
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # grpcurl
 

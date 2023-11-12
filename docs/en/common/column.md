@@ -3,7 +3,7 @@ layout: page
 title: common/column (English)
 description: "Format `stdin` or a file into multiple columns."
 content_hash: 5903944c4bb8332b8a2902ec90423703a433044e
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/column.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/column.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # column
 

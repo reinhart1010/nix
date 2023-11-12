@@ -3,6 +3,7 @@ layout: page
 title: common/docker-secret (français)
 description: "Gérer les secrets de Docker swarm."
 content_hash: ed2c3b465b9a588b9d9a7fd342a41164dbf9e078
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-secret.html
@@ -10,14 +11,15 @@ related_topics:
   - title: English version
     url: /en/common/docker-secret.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/docker-secret.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/docker-secret.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docker secret
+# docker secret
 
 Gérer les secrets de Docker swarm.
 Plus d'informations : <https://docs.docker.com/engine/reference/commandline/secret/>.

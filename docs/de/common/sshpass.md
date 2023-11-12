@@ -3,11 +3,15 @@ layout: page
 title: common/sshpass (Deutsch)
 description: "Stelle SSH Passwörtern bereit."
 content_hash: b2b0d75f74aea621c9191a46fb4310cf0d6dddaf
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/sshpass.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/sshpass.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sshpass
 

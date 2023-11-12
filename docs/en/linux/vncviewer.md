@@ -3,6 +3,8 @@ layout: page
 title: linux/vncviewer (English)
 description: "Launches a VNC (Virtual Network Computing) client."
 content_hash: a66f2ffc0deab43c82d15c8f36f4c0378c5a3848
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # vncviewer
 

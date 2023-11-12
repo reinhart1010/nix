@@ -3,7 +3,7 @@ layout: page
 title: android/am (বাংলা)
 description: "অ্যান্ড্রয়েড অ্যাক্টিভিটি ম্যানেজার।"
 content_hash: bc4419bf5713c30de5481ece525109e800ac4785
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/android/am.html
@@ -68,6 +68,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/am.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # am
 

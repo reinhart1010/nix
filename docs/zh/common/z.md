@@ -3,6 +3,7 @@ layout: page
 title: common/z (中文)
 description: "记录被使用次数最多的目录并允许在它们之间以字符串或正则表达式来进行匹配和跳转。"
 content_hash: 1e1920df03ebb978aa834a93deec2f614730b3ae
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/z.html
@@ -13,15 +14,10 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/z.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/z.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># z
 

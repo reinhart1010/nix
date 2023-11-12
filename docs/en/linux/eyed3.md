@@ -3,10 +3,12 @@ layout: page
 title: linux/eyed3 (English)
 description: "Read and manipulate metadata of MP3 files."
 content_hash: 786fde2b27b3508a971b50056854b6fcc91609d8
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/eyed3.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # eyeD3
 

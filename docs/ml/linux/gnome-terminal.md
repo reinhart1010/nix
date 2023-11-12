@@ -3,10 +3,15 @@ layout: page
 title: linux/gnome-terminal (മലയാളം)
 description: "ഗ്നോം ടെർമിനൽ എമുലേറ്റർ."
 content_hash: 8162cfdf556160e6a26eb537312b6f5a48563d73
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/gnome-terminal.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/gnome-terminal.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gnome-terminal
 

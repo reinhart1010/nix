@@ -3,11 +3,12 @@ layout: page
 title: common/pip-uninstall (English)
 description: "Uninstall Python packages."
 content_hash: e98388c330c6f4aa3574e7f88d2a5e6c3e887ea6
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/pip-uninstall.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pip uninstall
 

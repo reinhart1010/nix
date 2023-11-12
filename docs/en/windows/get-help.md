@@ -3,12 +3,10 @@ layout: page
 title: windows/get-help (English)
 description: "Display help information and documentation for PowerShell commands, aka. cmdlets."
 content_hash: efcd121f7c56e3dc19b19c1096e06925a34dd9d1
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># Get-Help
+# Get-Help
 
 Display help information and documentation for PowerShell commands, aka. cmdlets.
 This command can only be run through PowerShell.

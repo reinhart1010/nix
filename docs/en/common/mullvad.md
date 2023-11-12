@@ -3,11 +3,10 @@ layout: page
 title: common/mullvad (English)
 description: "CLI client for Mullvad VPN."
 content_hash: edb2a33d535de3d580f270e1ab88c52028351937
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mullvad
+# mullvad
 
 CLI client for Mullvad VPN.
 More information: <https://mullvad.net/>.

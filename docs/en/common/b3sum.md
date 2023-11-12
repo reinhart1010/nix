@@ -3,7 +3,8 @@ layout: page
 title: common/b3sum (English)
 description: "Calculate BLAKE3 cryptographic checksums."
 content_hash: 045441251a4dcc63b49b742f39d140b31eb28a78
-last_modified_at: 2023-05-20
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # b3sum
 

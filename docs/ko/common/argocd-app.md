@@ -3,7 +3,7 @@ layout: page
 title: common/argocd-app (한국어)
 description: "Argo CD로 애플리케이션을 관리하는 명령줄 인터페이스."
 content_hash: 2f674e319513b956a1873bdcc92efe5c64edffba
-last_modified_at: 2023-11-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/argocd-app.html
@@ -11,11 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/argocd-app.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># argocd app
+# argocd app
 
 Argo CD로 애플리케이션을 관리하는 명령줄 인터페이스.
 더 많은 정보: <https://argo-cd.readthedocs.io/en/stable/user-guide/commands/argocd_app/>.

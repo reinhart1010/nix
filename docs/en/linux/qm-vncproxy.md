@@ -3,7 +3,8 @@ layout: page
 title: linux/qm-vncproxy (English)
 description: "Proxy Virtual Machine VNC (Virtual network computing) traffic to `stdin` or `stdout`."
 content_hash: 45a04ee739ae5a789bb237c3a066eb75ae5176f5
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # qm vncproxy
 

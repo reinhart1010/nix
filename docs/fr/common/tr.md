@@ -3,10 +3,12 @@ layout: page
 title: common/tr (français)
 description: "Convertisseur de caractères : exécute des remplacements basés sur des caractères uniques et des jeux de caractères."
 content_hash: 80ac798bea4cf17f87084f84ae901400ec4ca7bc
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/tr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tr
 

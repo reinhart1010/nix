@@ -3,6 +3,8 @@ layout: page
 title: linux/loadkeys (English)
 description: "Load the kernel keymap for the console."
 content_hash: 7a8c74b9b044d9671543395fd8469bde3ae3655c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # loadkeys
 

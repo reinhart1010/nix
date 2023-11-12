@@ -3,6 +3,8 @@ layout: page
 title: common/irssi (English)
 description: "Text based IRC client."
 content_hash: c1c806316511b8ab47c8b6537aa72c7e23052df5
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # irssi
 

@@ -3,6 +3,12 @@ layout: page
 title: common/husky (English)
 description: "Native Git hooks made easy."
 content_hash: 82830e4ff4be855d7002d3dc8d16e02a6961f8ce
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/husky.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # husky
 

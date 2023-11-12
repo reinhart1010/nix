@@ -3,18 +3,20 @@ layout: page
 title: common/ansible-inventory (Deutsch)
 description: "Anzeigen oder Ausgeben eines Ansible-Inventars."
 content_hash: 16145072df8bd6d658c0a65b4a2fecafef53237a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ansible-inventory.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/ansible-inventory.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/ansible-inventory.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ansible-inventory
+# ansible-inventory
 
 Anzeigen oder Ausgeben eines Ansible-Inventars.
 Siehe auch: `ansible`.

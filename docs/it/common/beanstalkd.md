@@ -3,6 +3,7 @@ layout: page
 title: common/beanstalkd (italiano)
 description: "Un semplice e generico gestore di code di lavoro."
 content_hash: 9aa77ce7fc20b8dea31a8286c87b7ab8727cdc74
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/beanstalkd.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/beanstalkd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # beanstalkd
 

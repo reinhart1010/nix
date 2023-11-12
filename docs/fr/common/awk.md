@@ -3,6 +3,7 @@ layout: page
 title: common/awk (français)
 description: "Langage de programmation polyvalent pour travailler sur des fichiers."
 content_hash: 57cb230ef6cd88998c887ef5d83eadf789b7bed4
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/awk.html
@@ -22,6 +23,13 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/awk.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/awk.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/awk.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # awk
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/lvremove (English)
 description: "Remove one or more logical volumes."
 content_hash: 62d270a9ab7a4a292b2c742d03ed62c140010677
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lvremove
 

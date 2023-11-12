@@ -3,6 +3,12 @@ layout: page
 title: linux/rename (English)
 description: "Rename multiple files."
 content_hash: 2f34214508ede6240250c66da5aec2c59d843d23
+last_modified_at: 2023-11-12
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/linux/rename.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rename
 

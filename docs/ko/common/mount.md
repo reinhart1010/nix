@@ -3,7 +3,7 @@ layout: page
 title: common/mount (한국어)
 description: "하나의 폴더에 있는 전체 파일 시스템에 대한 접근을 제공합니다."
 content_hash: a27bbe281dc085d0034c55e85b59ff7a67b7274c
-last_modified_at: 2023-10-21
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/mount.html
@@ -14,11 +14,9 @@ related_topics:
   - title: italiano version
     url: /it/common/mount.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mount
+# mount
 
 하나의 폴더에 있는 전체 파일 시스템에 대한 접근을 제공합니다.
 더 많은 정보: <https://manned.org/mount.8>.

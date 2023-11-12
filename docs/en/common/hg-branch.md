@@ -3,6 +3,8 @@ layout: page
 title: common/hg-branch (English)
 description: "Create or show a branch name."
 content_hash: 263cbaee2b2ee5be06c4b93f03535977a86657eb
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # hg branch
 

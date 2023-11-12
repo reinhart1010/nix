@@ -3,11 +3,10 @@ layout: page
 title: common/glab-mr-merge (English)
 description: "Merge GitLab merge requests."
 content_hash: cae7996afe40ee8be3a1881684853b1ecd91db8c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># glab mr merge
+# glab mr merge
 
 Merge GitLab merge requests.
 More information: <https://glab.readthedocs.io/en/latest/mr/merge.html>.

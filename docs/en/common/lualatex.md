@@ -3,6 +3,8 @@ layout: page
 title: common/lualatex (English)
 description: "An extended version of TeX using Lua to compile."
 content_hash: 85e03f68a69cfa3f44b339540bf1b51e9b4711ea
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lualatex
 

@@ -3,7 +3,7 @@ layout: page
 title: osx/gwhois (polski)
 description: "To polecenie jest aliasem `-p linux whois`."
 content_hash: e556a9235522354075292a519e5d816a778ddab9
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gwhois.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gwhois.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gwhois
 

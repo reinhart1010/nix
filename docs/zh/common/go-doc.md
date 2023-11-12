@@ -3,10 +3,15 @@ layout: page
 title: common/go-doc (中文)
 description: "显示包或符号的文档。"
 content_hash: 943c0f9c919b306dfa961d0eea64bae2a86d90b9
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/go-doc.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/go-doc.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # go doc
 

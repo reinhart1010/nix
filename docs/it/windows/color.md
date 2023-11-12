@@ -3,8 +3,11 @@ layout: page
 title: windows/color (italiano)
 description: "Imposta i colori di primo piano e di sfondo della console."
 content_hash: 21b945051525723812dd4977798fa8121ab03b77
-last_modified_at: 2023-04-21
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/color.html
+    icon: bi bi-globe
   - title: català version
     url: /ca/windows/color.html
     icon: bi bi-globe
@@ -13,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: English version
     url: /en/windows/color.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/color.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/color.html
@@ -23,11 +29,12 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/color.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/windows/color.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># color
+# color
 
 Imposta i colori di primo piano e di sfondo della console.
 Maggiori informazioni: <https://learn.microsoft.com/windows-server/administration/windows-commands/color>.

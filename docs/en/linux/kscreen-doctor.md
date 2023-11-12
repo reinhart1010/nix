@@ -3,7 +3,8 @@ layout: page
 title: linux/kscreen-doctor (English)
 description: "Change and manipulate the screen setup."
 content_hash: 6b97667c618cb9e72da0132f6b4cc81cb4283ef8
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # kscreen-doctor
 

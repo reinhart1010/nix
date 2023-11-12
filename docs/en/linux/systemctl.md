@@ -3,10 +3,33 @@ layout: page
 title: linux/systemctl (English)
 description: "Control the systemd system and service manager."
 content_hash: 462e499be14831d34e7f99c95a387de08f5ca6dd
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/systemctl.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/systemctl.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/linux/systemctl.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/systemctl.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/systemctl.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/systemctl.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/systemctl.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/systemctl.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # systemctl
 

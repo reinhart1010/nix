@@ -3,15 +3,14 @@ layout: page
 title: linux/gnome-screenshot (தமிழ்)
 description: "திரை, சாளரம் அல்லது பயனர் வரையறுக்கப்பட்ட பகுதியைப் படம்பிடித்து, படத்தை ஒரு கோப்பில் சேமிக்கவும்."
 content_hash: 6590c15eca4624d140989b9a38bbb3febae79c91
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/gnome-screenshot.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gnome-screenshot
+# gnome-screenshot
 
 திரை, சாளரம் அல்லது பயனர் வரையறுக்கப்பட்ட பகுதியைப் படம்பிடித்து, படத்தை ஒரு கோப்பில் சேமிக்கவும்.
 மேலும் விவரத்திற்கு: <https://manned.org/gnome-screenshot>.

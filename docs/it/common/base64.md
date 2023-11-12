@@ -3,7 +3,7 @@ layout: page
 title: common/base64 (italiano)
 description: "Codifica o decodifica file o standard input in Base64 su standard output."
 content_hash: 3b43de144f0939dd5e186c9fcaf97abc35371db8
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/base64.html
@@ -35,6 +35,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/base64.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # base64
 

@@ -3,6 +3,7 @@ layout: page
 title: common/browser-sync (italiano)
 description: "Avvia un web-server locale che si aggiorna al cambiamento dei file."
 content_hash: 7d1f1b31ca77556a6ffae067179314744a09fa83
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/browser-sync.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/browser-sync.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # browser-sync
 

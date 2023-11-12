@@ -3,7 +3,7 @@ layout: page
 title: linux/bootctl (हिन्दी)
 description: "EFI फर्मवेयर बूट सेटिंग्स का नियंत्रण करें और बूट लोडर प्रबंधित करें।"
 content_hash: eced71a9465323f36ee82e4986cca3a7114aa4ba
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/bootctl.html
@@ -11,6 +11,7 @@ related_topics:
   - title: polski version
     url: /pl/linux/bootctl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bootctl
 

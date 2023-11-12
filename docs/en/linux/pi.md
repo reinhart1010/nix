@@ -3,11 +3,12 @@ layout: page
 title: linux/pi (English)
 description: "Compute decimal Archimedes' constant Pi."
 content_hash: af0a6ad5fba7d5e1345870af40a00cdff52e7cfc
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/pi.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pi
 

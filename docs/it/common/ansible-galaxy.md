@@ -3,6 +3,7 @@ layout: page
 title: common/ansible-galaxy (italiano)
 description: "Crea e gestisci ruoli di Ansible."
 content_hash: 32ba735aae3dc4a95648f67d9ea63c58f6393972
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible-galaxy.html
@@ -10,12 +11,16 @@ related_topics:
   - title: English version
     url: /en/common/ansible-galaxy.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/ansible-galaxy.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/ansible-galaxy.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/ansible-galaxy.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ansible-galaxy
 

@@ -3,10 +3,12 @@ layout: page
 title: common/flake8 (italiano)
 description: "Programma per verificare lo stile e la qualità di un codice Python."
 content_hash: 38e5b5246746575637b89827282786a4ce53fa59
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/flake8.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # flake8
 

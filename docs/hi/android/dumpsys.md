@@ -3,7 +3,7 @@ layout: page
 title: android/dumpsys (हिन्दी)
 description: "एंड्रॉइड सिस्टम सेवाओं के बारे में जानकारी प्रदान करें।"
 content_hash: 81a4f74975537554f10eda8701077257861370df
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/dumpsys.html
@@ -59,6 +59,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/dumpsys.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dumpsys
 

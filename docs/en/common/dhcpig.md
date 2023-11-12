@@ -3,12 +3,10 @@ layout: page
 title: common/dhcpig (English)
 description: "Initiates an advanced DHCP exhaustion attack and stress test."
 content_hash: 0d84b76a9f04d48f3faa3761c45a223bbf79ccb8
-last_modified_at: 2023-08-10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dhcpig
+# dhcpig
 
 Initiates an advanced DHCP exhaustion attack and stress test.
 DHCPig needs to be run with root privileges.

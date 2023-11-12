@@ -3,16 +3,14 @@ layout: page
 title: osx/ps (español)
 description: "Información sobre los procesos en ejecución."
 content_hash: 3d0e008d79d3e046e9bba478fa2c64861d5964ae
-last_modified_at: 2023-11-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/ps.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ps
+# ps
 
 Información sobre los procesos en ejecución.
 Más información: <https://www.unix.com/man-page/osx/1/ps/>.

@@ -3,6 +3,8 @@ layout: page
 title: linux/hcitool (English)
 description: "Monitor, configure connections, and send special commands to Bluetooth devices."
 content_hash: e2e8e6a16c345274fb6a932f40aeadea15ca1cc7
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # hcitool
 

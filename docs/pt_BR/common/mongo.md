@@ -3,6 +3,7 @@ layout: page
 title: common/mongo (português (Brasil))
 description: "Cliente shell interativo de MongoDB."
 content_hash: a614248062cc622aeab44a2f6723bc9a85790562
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/mongo.html
@@ -10,6 +11,7 @@ related_topics:
   - title: français version
     url: /fr/common/mongo.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mongo
 

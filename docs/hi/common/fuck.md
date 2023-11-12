@@ -3,6 +3,7 @@ layout: page
 title: common/fuck (हिन्दी)
 description: "आपके पिछले कंसोल कमांड को ठीक करता है।"
 content_hash: a1fb33ea7d3ded4784baf42e4b063274d14b591e
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/fuck.html
@@ -10,11 +11,12 @@ related_topics:
   - title: English version
     url: /en/common/fuck.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/fuck.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># fuck
+# fuck
 
 आपके पिछले कंसोल कमांड को ठीक करता है।
 अधिक जानकारी: <https://github.com/nvbn/thefuck>।

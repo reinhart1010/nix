@@ -3,6 +3,7 @@ layout: page
 title: osx/textutil (español)
 description: "Manipula archivos de texto en varios formatos."
 content_hash: 7681b1882af0c66981d59aeed84d8eb9ad2e48b9
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/textutil.html
@@ -10,11 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/textutil.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># textutil
+# textutil
 
 Manipula archivos de texto en varios formatos.
 Más información: <https://ss64.com/osx/textutil.html>.

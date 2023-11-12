@@ -3,10 +3,15 @@ layout: page
 title: osx/xcodebuild (English)
 description: "Build Xcode projects."
 content_hash: 9d8dbc8d867f9bcc763622e35cf02ec9eefb1a4f
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/osx/xcodebuild.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/xcodebuild.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xcodebuild
 

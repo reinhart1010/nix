@@ -3,6 +3,7 @@ layout: page
 title: linux/ifdown (polski)
 description: "Wyłącza interfejsy sieciowe."
 content_hash: 17772f7286cce687d71356c05299fd9eb434ac27
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/ifdown.html
@@ -16,11 +17,9 @@ related_topics:
   - title: français version
     url: /fr/linux/ifdown.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ifdown
+# ifdown
 
 Wyłącza interfejsy sieciowe.
 Więcej informacji: <https://manned.org/ifdown>.

@@ -3,6 +3,7 @@ layout: page
 title: common/calc (தமிழ்)
 description: "முனையத்தில் ஒரு ஊடாடும் தன்னிச்சையான துல்லியமான கால்குலேட்டர்."
 content_hash: fb2e1c2ead603dd3d2061d9ba7a5588313823ff0
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/common/calc.html
@@ -16,12 +17,19 @@ related_topics:
   - title: español version
     url: /es/common/calc.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/calc.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/common/calc.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/calc.html
     icon: bi bi-globe
+  - title: ไทย version
+    url: /th/common/calc.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # calc
 

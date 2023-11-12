@@ -3,6 +3,8 @@ layout: page
 title: common/gixy (English)
 description: "Analyze nginx configuration files."
 content_hash: 08690a9900ef8d5280c418424e2e243afedfa0a9
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gixy
 

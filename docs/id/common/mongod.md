@@ -3,6 +3,7 @@ layout: page
 title: common/mongod (Indonesia)
 description: "Server database MongoDB."
 content_hash: 3e2d0b8ff899dbf8176bf0fd6411a5ae2b671404
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/mongod.html
@@ -10,8 +11,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/mongod.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# mongod
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># mongod
 
 Server database MongoDB.
 Informasi lebih lanjut: <https://docs.mongodb.com/manual/reference/program/mongod>.

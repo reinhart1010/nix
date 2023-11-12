@@ -3,6 +3,7 @@ layout: page
 title: common/git-checkout (தமிழ்)
 description: "வேலை செய்யும் மரத்திற்கு ஒரு கிளை அல்லது பாதைகளை செக்கவுட் செய்ய."
 content_hash: 172ef5254287ffe2de9d6c57139a0fc4777bfb44
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-checkout.html
@@ -19,9 +20,16 @@ related_topics:
   - title: italiano version
     url: /it/common/git-checkout.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-checkout.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-checkout.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git-checkout.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git checkout
 

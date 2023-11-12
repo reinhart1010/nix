@@ -3,7 +3,8 @@ layout: page
 title: windows/tee-object (English)
 description: "Saves command output in a file or variable and also sends it down the pipeline."
 content_hash: 6c10936bd4d1181136171d1bd8641d30f11160c5
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # Tee-Object
 

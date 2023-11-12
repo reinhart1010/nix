@@ -3,10 +3,15 @@ layout: page
 title: osx/lldb (中文)
 description: "LLVM 低级调试器。"
 content_hash: 51e2c47247066fc664896a1d6bb9dcb7a8f40ef2
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/lldb.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/lldb.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lldb
 

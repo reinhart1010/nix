@@ -3,10 +3,12 @@ layout: page
 title: linux/nordvpn (Deutsch)
 description: "Kommandozeilen-Schnittstelle für NordVPN."
 content_hash: c370f9983af7df34854c8dd1036cdb4d774f5c3c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/nordvpn.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nordvpn
 

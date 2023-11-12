@@ -3,7 +3,8 @@ layout: page
 title: linux/systemd-tmpfiles (English)
 description: "Create, delete and clean up volatile and temporary files and directories."
 content_hash: 6bc9cdeb05d1ab48a35a0a8a8207129292a20446
-last_modified_at: 2023-09-07
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # systemd-tmpfiles
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/ytfzf (English)
 description: "A POSIX script that helps you find and download videos and music."
 content_hash: 216b13b35428ab20efdcf9cb5609b5ecdf9c39b0
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ytfzf
 

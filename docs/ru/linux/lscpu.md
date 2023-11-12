@@ -3,16 +3,20 @@ layout: page
 title: linux/lscpu (русский)
 description: "Отображает информацию о центральном процессоре."
 content_hash: 092564bcbc5a20c86b287004925c36065ac3c9a5
-last_modified_at: 2023-01-17
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/lscpu.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/lscpu.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/linux/lscpu.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># lscpu
+# lscpu
 
 Отображает информацию о центральном процессоре.
 Больше информации: <https://manned.org/lscpu>.

@@ -3,6 +3,8 @@ layout: page
 title: common/plenv (English)
 description: "Switch between multiple versions of Perl."
 content_hash: 361118b5d2601d1446e9d6529330d564c77442c9
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # plenv
 

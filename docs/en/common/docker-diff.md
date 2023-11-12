@@ -3,7 +3,8 @@ layout: page
 title: common/docker-diff (English)
 description: "Inspect changes to files or directories on a container's filesystem."
 content_hash: 26b36e1ec2df4897013ec0b791d0dead44eb7466
-last_modified_at: 2023-10-22
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # docker diff
 

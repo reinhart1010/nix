@@ -3,6 +3,12 @@ layout: page
 title: linux/mkfs.fat (English)
 description: "Creates an MS-DOS filesystem inside a partition."
 content_hash: 45291653ac2dc0e0342c5211962063352dc40eb6
+last_modified_at: 2023-11-12
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/linux/mkfs.fat.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mkfs.fat
 

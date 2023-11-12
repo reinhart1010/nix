@@ -3,7 +3,8 @@ layout: page
 title: linux/qm-list (English)
 description: "List all virtual machines."
 content_hash: 660592f877efbce5841c7713ef83c6b110d3a178
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # qm list
 

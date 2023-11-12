@@ -3,10 +3,12 @@ layout: page
 title: common/fastmod (العربية)
 description: "أداة للاستبدال الجزئي للنصوص في قاعدة الأكواد لديك."
 content_hash: 947d68d6119e3a91e8e7c5583ac5eb5b7f47ac20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/fastmod.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fastmod
 

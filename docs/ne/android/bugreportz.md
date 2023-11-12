@@ -3,7 +3,7 @@ layout: page
 title: android/bugreportz (नेपाली)
 description: "जिप गरिएको एन्ड्रोइड बग रिपोर्ट उत्पन्न गर्नुहोस्।"
 content_hash: 4453f7b5041d90e89e33559779c88e5534cd1829
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -62,6 +62,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/bugreportz.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # Bugreport
 

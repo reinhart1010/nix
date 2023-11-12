@@ -3,6 +3,7 @@ layout: page
 title: linux/bpftrace (中文)
 description: "Linux eBPF 的高级跟踪语言。"
 content_hash: 5f254834c6fcd9db7a1fcb297585cad00885b5ca
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/bpftrace.html
@@ -10,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/bpftrace.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bpftrace
 
@@ -26,7 +28,7 @@ Linux eBPF 的高级跟踪语言。
 
 - 运行单行程序（例如按程序进行系统调用计数）：
 
-`sudo bpftrace -e '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tracepoint:raw_syscalls:sys_enter { @[comm] = count(); </span>`}'`
+`sudo bpftrace -e '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tracepoint:raw_syscalls:sys_enter { @[comm] = count(); }</span>`'`
 
 - 从文件运行程序：
 
@@ -34,7 +36,7 @@ Linux eBPF 的高级跟踪语言。
 
 - 通过 PID 跟踪程序：
 
-`sudo bpftrace -e '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tracepoint:raw_syscalls:sys_enter /pid == 123/ { @[comm] = count(); </span>`}'`
+`sudo bpftrace -e '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tracepoint:raw_syscalls:sys_enter /pid == 123/ { @[comm] = count(); }</span>`'`
 
 - 进行试运行并以 eBPF 格式显示输出：
 

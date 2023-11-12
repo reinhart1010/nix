@@ -3,15 +3,14 @@ layout: page
 title: linux/toolbox-rmi (தமிழ்)
 description: "ஒன்று அல்லது அதற்கு மேற்பட்ட `toolbox` படங்களை அகற்றவும்."
 content_hash: 5f435eb7927346a66301259d839f00daa7ff7037
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/toolbox-rmi.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># toolbox rmi
+# toolbox rmi
 
 ஒன்று அல்லது அதற்கு மேற்பட்ட `toolbox` படங்களை அகற்றவும்.
 மேலும் பார்க்கவும்: `toolbox rm`.

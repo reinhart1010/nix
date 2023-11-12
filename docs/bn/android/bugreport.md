@@ -3,7 +3,7 @@ layout: page
 title: android/bugreport (বাংলা)
 description: "একটি অ্যান্ড্রয়েড বাগ রিপোর্ট দেখান।"
 content_hash: 08cfe3a7744319271b25bbea635a5ebf7fdb106f
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/android/bugreport.html
@@ -68,6 +68,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/bugreport.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bugreport
 

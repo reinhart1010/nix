@@ -3,10 +3,12 @@ layout: page
 title: common/weasyprint (русский)
 description: "Переводить HTML в PDF или PNG."
 content_hash: 85588acd865a2fbb33ec39f8a1c36e1e2ed10803
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/weasyprint.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # weasyprint
 

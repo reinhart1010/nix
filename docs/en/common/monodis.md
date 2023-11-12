@@ -3,6 +3,8 @@ layout: page
 title: common/monodis (English)
 description: "The Mono Common Intermediate Language (CIL) disassembler."
 content_hash: 88f32a9532b9ec017e57a12459c8ad107b1aeacc
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # monodis
 

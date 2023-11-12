@@ -3,14 +3,21 @@ layout: page
 title: common/xzgrep (Nederlands)
 description: "Zoek bestanden die mogelijk worden gecomprimeerd met `xz`, `lzma`, `gzip`, `bzip2`, `lzop`, of `zstd` met behulp van reguliere expressies."
 content_hash: 69f9f48c7894cad1f86d134ebeff3b08f537aeba
-last_modified_at: 2023-11-07
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/xzgrep.html
     icon: bi bi-globe
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/xzgrep.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># xzgrep
 

@@ -3,7 +3,8 @@ layout: page
 title: common/zellij (English)
 description: "Terminal multiplexer with batteries included."
 content_hash: db6682acfa8cdd9259f99c5858dfbc4e6abe2380
-last_modified_at: 2023-06-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # zellij
 

@@ -3,6 +3,8 @@ layout: page
 title: common/virtualenvwrapper (English)
 description: "Group of simple wrapper commands for Python's `virtualenv` tool."
 content_hash: 6928029d54ee69aac1d09f2623a32937e417564b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # virtualenvwrapper
 

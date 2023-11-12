@@ -3,6 +3,7 @@ layout: page
 title: linux/arecord (中文)
 description: "ALSA 声卡驱动的声音录制器。"
 content_hash: 1a4421fc72bb0a74dc5988b0c49f5dac5711e54a
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/arecord.html
@@ -10,6 +11,7 @@ related_topics:
   - title: English version
     url: /en/linux/arecord.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # arecored
 

@@ -3,7 +3,8 @@ layout: page
 title: common/tt (English)
 description: "A terminal based typing test."
 content_hash: 64a60eb6eb561c9b930998af9f98bae1cf152dd2
-last_modified_at: 2023-10-03
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tt
 

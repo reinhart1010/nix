@@ -3,6 +3,7 @@ layout: page
 title: common/borg (한국어)
 description: "중복제거 백업 도구. 파일시스템으로 마운트할 수 있는 로컬 또는 원격 저장소를 제작."
 content_hash: d34f203e6d2c54b07f4345d9029189a048d427c9
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/borg.html
@@ -16,6 +17,7 @@ related_topics:
   - title: italiano version
     url: /it/common/borg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # borg
 

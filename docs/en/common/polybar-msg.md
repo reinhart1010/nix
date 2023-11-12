@@ -3,12 +3,10 @@ layout: page
 title: common/polybar-msg (English)
 description: "Control `polybar` using inter-process-messaging (IPC)."
 content_hash: e668e651ab4b396a8e42f0ddb96521a2df0b6e47
-last_modified_at: 2023-08-02
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># polybar-msg
+# polybar-msg
 
 Control `polybar` using inter-process-messaging (IPC).
 Note: IPC is disabled by default and can be enabled by setting `enable-ipc = true` in the Polybar config.

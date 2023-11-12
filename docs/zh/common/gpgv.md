@@ -3,10 +3,12 @@ layout: page
 title: common/gpgv (中文)
 description: "验证 OpenPGP 签名。"
 content_hash: d2c345d812dbbcae90a97670bc95a173953dc27c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/gpgv.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gpgv
 

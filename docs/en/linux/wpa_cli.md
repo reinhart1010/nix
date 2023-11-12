@@ -3,6 +3,12 @@ layout: page
 title: linux/wpa_cli (English)
 description: "Add and configure wlan interfaces."
 content_hash: 03db642a6a5226d87d866eca198bcb2b9c89eb56
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Türkçe version
+    url: /tr/linux/wpa_cli.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wpa_cli
 

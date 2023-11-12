@@ -3,10 +3,12 @@ layout: page
 title: windows/reg-delete (中文)
 description: "从注册表中删除键和值。"
 content_hash: 930a9ee1c9bb30a00f10dbeab47d65b68a1a06bc
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/reg-delete.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # reg delete
 

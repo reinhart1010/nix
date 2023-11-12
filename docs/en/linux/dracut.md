@@ -3,12 +3,10 @@ layout: page
 title: linux/dracut (English)
 description: "Generate initramfs images to boot the Linux kernel."
 content_hash: d51225e05bd8e346a7090aaca813dbdc01654e6c
-last_modified_at: 2023-09-20
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dracut
+# dracut
 
 Generate initramfs images to boot the Linux kernel.
 Dracut uses options from configuration files in `/etc/dracut.conf`, `/etc/dracut.conf.d/*.conf` and `/usr/lib/dracut/dracut.conf.d/*.conf` by default.

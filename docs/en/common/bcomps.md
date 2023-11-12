@@ -3,6 +3,12 @@ layout: page
 title: common/bcomps (English)
 description: "Decompose graphs into their biconnected components."
 content_hash: 40864abec2bf99891d3ac67c30f97b7155536582
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 中文 version
+    url: /zh/common/bcomps.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bcomps
 

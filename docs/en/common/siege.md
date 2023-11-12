@@ -3,6 +3,8 @@ layout: page
 title: common/siege (English)
 description: "HTTP loadtesting and benchmarking tool."
 content_hash: 2de2a264fa7d1a1744cb3e48144bf724a4d57cec
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # siege
 

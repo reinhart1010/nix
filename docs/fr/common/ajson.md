@@ -3,15 +3,23 @@ layout: page
 title: common/ajson (français)
 description: "Exécute un JSONPath sur un objet JSON."
 content_hash: a50160dda09ef09bdad4f05cb60b5da6fef52cad
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ajson.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/ajson.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ajson.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/ajson.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ajson
+# ajson
 
 Exécute un JSONPath sur un objet JSON.
 Plus d'informations : <https://github.com/spyzhov/ajson>.

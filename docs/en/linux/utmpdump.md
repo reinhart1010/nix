@@ -3,7 +3,8 @@ layout: page
 title: linux/utmpdump (English)
 description: "Dump and load btmp, utmp and wtmp accounting files."
 content_hash: 2daa9d3075a6c12144f2982849e8bb2c9cc1d170
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # utmpdump
 

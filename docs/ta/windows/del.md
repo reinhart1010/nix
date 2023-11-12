@@ -3,13 +3,30 @@ layout: page
 title: windows/del (தமிழ்)
 description: "ஒன்று அல்லது அதற்கு மேற்பட்ட கோப்புகளை நீக்கவும்."
 content_hash: da8ae76e02a466a57af9d3d0176059743a463231
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/windows/del.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/del.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/windows/del.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/del.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/del.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/del.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/windows/del.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.

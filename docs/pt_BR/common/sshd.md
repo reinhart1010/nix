@@ -3,16 +3,14 @@ layout: page
 title: common/sshd (português (Brasil))
 description: "Daemon do Secure Shell - permite que máquinas remotas façam login de forma segura na máquina atual."
 content_hash: eedd16c5cdbc99fd457a9bfb0b177d78b0603329
-last_modified_at: 2023-09-18
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/sshd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># sshd
+# sshd
 
 Daemon do Secure Shell - permite que máquinas remotas façam login de forma segura na máquina atual.
 Máquinas remotas podem executar comandos como se estivessem sendo executados nesta máquina.

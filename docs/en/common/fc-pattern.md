@@ -3,6 +3,8 @@ layout: page
 title: common/fc-pattern (English)
 description: "Shows information about a font matching a pattern."
 content_hash: 97816cf9e552d1716e016ab7fef01d210f27bc88
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fc-pattern
 

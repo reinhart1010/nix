@@ -3,7 +3,8 @@ layout: page
 title: common/mamba-repoquery (English)
 description: "Efficiently query conda and mamba package repositories and package dependencies."
 content_hash: a8e0dffb48fea18903ba0b1c137f5658f7c77f9b
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mamba repoquery
 

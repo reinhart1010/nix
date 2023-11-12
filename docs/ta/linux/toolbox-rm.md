@@ -3,15 +3,14 @@ layout: page
 title: linux/toolbox-rm (தமிழ்)
 description: "ஒன்று அல்லது அதற்கு மேற்பட்ட `toolbox` கொள்கலன்களை அகற்றவும்."
 content_hash: 4d41e1bae4a0be51a9964ef101e2d1dea7abcc99
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/toolbox-rm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># toolbox rm
+# toolbox rm
 
 ஒன்று அல்லது அதற்கு மேற்பட்ட `toolbox` கொள்கலன்களை அகற்றவும்.
 மேலும் பார்க்கவும்:  `toolbox rmi`.

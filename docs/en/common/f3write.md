@@ -3,6 +3,8 @@ layout: page
 title: common/f3write (English)
 description: "Fill a drive out with .h2w files to test its real capacity."
 content_hash: 81ac65c95d3b20200108776c5ca2e5394809deff
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # f3write
 

@@ -3,11 +3,12 @@ layout: page
 title: common/oathtool (中文)
 description: "OATH 一次性密码工具。"
 content_hash: 23cc6c934a04e8688aed3778185aede0dd3905d4
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/oathtool.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # oathtool
 

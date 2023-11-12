@@ -3,7 +3,7 @@ layout: page
 title: common/ls (नेपाली)
 description: "एउटा डिरेक्टोरीमा भएका सबै वस्तुहरुको सुची देखाउँछ।"
 content_hash: 828d88c3e2ded815202fa552975e8df717477820
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/common/ls.html
@@ -59,6 +59,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/ls.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ls
 

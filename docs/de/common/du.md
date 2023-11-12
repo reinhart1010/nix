@@ -3,9 +3,13 @@ layout: page
 title: common/du (Deutsch)
 description: "Disk usage: Plattenplatzverbrauch von Dateien und Verzeichnissen ermitteln."
 content_hash: fee933e6f4e24aac01d5bb0bcfdae12ca0a8d192
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/du.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/du.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/du.html
@@ -16,6 +20,13 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/du.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/du.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/du.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # du
 

@@ -3,7 +3,7 @@ layout: page
 title: common/aircrack-ng (español)
 description: "Crackea claves WEP y WPA/WPA2 desde handshake en paquetes capturados."
 content_hash: a2326e3477dc683a22d5aa6c884795aa193eca10
-last_modified_at: 2023-05-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/aircrack-ng.html
@@ -11,11 +11,12 @@ related_topics:
   - title: English version
     url: /en/common/aircrack-ng.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/aircrack-ng.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aircrack-ng
+# aircrack-ng
 
 Crackea claves WEP y WPA/WPA2 desde handshake en paquetes capturados.
 Parte de la suite de software de red Aircrack-ng.

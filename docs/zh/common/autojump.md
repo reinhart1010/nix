@@ -3,13 +3,21 @@ layout: page
 title: common/autojump (中文)
 description: "快速跳转，访问次数最多的文件夹优先。"
 content_hash: 1ca7a674d144cb46d93be0f007ba2f6b668edd66
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/autojump.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/autojump.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/autojump.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/autojump.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # autojump
 

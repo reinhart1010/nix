@@ -3,6 +3,8 @@ layout: page
 title: common/svgcleaner (English)
 description: "SVG optimizing utility."
 content_hash: 80416b7414353702b0026a3d1a9099306b780378
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # svgcleaner
 

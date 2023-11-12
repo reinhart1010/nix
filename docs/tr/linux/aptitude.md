@@ -3,6 +3,7 @@ layout: page
 title: linux/aptitude (Türkçe)
 description: "Debian ve Ubuntu paket yönetim aracı."
 content_hash: 1c5bf03873e5efde163f3d9b9e4528422edcec19
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/aptitude.html
@@ -16,15 +17,22 @@ related_topics:
   - title: español version
     url: /es/linux/aptitude.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/aptitude.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/aptitude.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/aptitude.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/aptitude.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/aptitude.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aptitude
 

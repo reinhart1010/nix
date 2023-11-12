@@ -3,7 +3,8 @@ layout: page
 title: common/prqlc (English)
 description: "PRQL compiler."
 content_hash: abbc5266f372c9491794c45da69c8e84e963ac03
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # prqlc
 

@@ -3,10 +3,12 @@ layout: page
 title: linux/gpasswd (العربية)
 description: "إدارة `/etc/group` و `/etc/gshadow`."
 content_hash: 161fd4a5ebc24d8e3e562680f5000252dac83bdc
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/gpasswd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gpasswd
 

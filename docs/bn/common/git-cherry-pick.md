@@ -3,7 +3,7 @@ layout: page
 title: common/git-cherry-pick (বাংলা)
 description: "বিদ্যমান কমিট দ্বারা প্রবর্তিত পরিবর্তনগুলি বর্তমান ব্র্যাঞ্চে প্রয়োগ করুন।"
 content_hash: b6a7ca4daa4e82b97b208563d93ccbfe4b6ee345
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-cherry-pick.html
@@ -26,6 +26,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-cherry-pick.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git cherry-pick
 

@@ -3,6 +3,7 @@ layout: page
 title: linux/br (português (Brasil))
 description: "Navega árvore de diretórios interativamente."
 content_hash: 4c6dafcd61aee561f9ed38a7a0e5b29996c431b2
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/br.html
@@ -10,6 +11,7 @@ related_topics:
   - title: हिन्दी version
     url: /hi/linux/br.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # br
 

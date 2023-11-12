@@ -3,10 +3,12 @@ layout: page
 title: linux/dpkg-deb (English)
 description: "Pack, unpack and provide information about Debian archives."
 content_hash: 2f8b81c170fb1625c00b69028b96d7448eae0739
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/linux/dpkg-deb.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dpkg-deb
 

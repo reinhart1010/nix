@@ -3,11 +3,12 @@ layout: page
 title: linux/wine (தமிழ்)
 description: "யூனிக்ஸ் அடிப்படையிலான கணினிகளில் விண்டோஸ் இயங்குதளங்களை இயக்கவும்."
 content_hash: cc53f2b2e791cc4a54277d148efd549c7d2c0c7c
-last_modified_at: 2023-07-27
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/wine.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wine
 

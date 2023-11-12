@@ -3,6 +3,8 @@ layout: page
 title: common/fisher (English)
 description: "Fisher, a fish-shell plugin manager."
 content_hash: 70bd7738351d3d6124a496e09a9b170ba4dc1782
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fisher
 

@@ -3,10 +3,15 @@ layout: page
 title: common/zoxide (français)
 description: "Garde une trace des répertoires les plus utilisés."
 content_hash: 3ed3a099d01f6c27c509de7eaaf5ada454059c9e
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/zoxide.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/zoxide.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # zoxide
 

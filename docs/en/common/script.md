@@ -3,6 +3,8 @@ layout: page
 title: common/script (English)
 description: "Make a typescript file of a terminal session."
 content_hash: a2aee4baec5b6d976fdd7fda42e878857fd29ec9
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # script
 

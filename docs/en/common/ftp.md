@@ -3,6 +3,7 @@ layout: page
 title: common/ftp (English)
 description: "Tools to interact with a server via File Transfer Protocol."
 content_hash: 0f00136ac70be9abbd14ad1dcc4e9b32d5cd0391
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/ftp.html
@@ -10,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/ftp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ftp
 

@@ -3,12 +3,14 @@ layout: page
 title: osx/ipconfig (English)
 description: "View and control IP configuration state."
 content_hash: 16fb0cb985afdac226c925cff3c9d54c190e75f4
-last_modified_at: 2023-05-26
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 中文 version
+    url: /zh/osx/ipconfig.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ipconfig
+# ipconfig
 
 View and control IP configuration state.
 More information: <https://ss64.com/osx/ipconfig.html>.

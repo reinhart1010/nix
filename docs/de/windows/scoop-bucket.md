@@ -3,6 +3,7 @@ layout: page
 title: windows/scoop-bucket (Deutsch)
 description: "Verwalte \"Eimer\": Git-Repositories, welche Dateien enthalten, die beschreiben, wie Scoop Programme installiert werden."
 content_hash: fc64dd8356bf6677cc93ddaf93b73d8fd00deeaa
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/scoop-bucket.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/scoop-bucket.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # scoop bucket
 

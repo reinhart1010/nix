@@ -3,6 +3,7 @@ layout: page
 title: linux/certbot (Nederlands)
 description: "De Let's Encrypt Agent om automatisch TLS certificaten te verkrijgen en te vernieuwen."
 content_hash: c1d278191a9cdd68b06c009b75f4c5d0dd78acfd
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/certbot.html
@@ -13,6 +14,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/certbot.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # certbot
 

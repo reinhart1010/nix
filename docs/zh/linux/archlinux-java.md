@@ -3,7 +3,7 @@ layout: page
 title: linux/archlinux-java (中文)
 description: "提供 Java 环境设置功能的一个帮助脚本。"
 content_hash: f433bd8f7fd18c49c5ae6c56bc9c3e2985a053b6
-last_modified_at: 2023-06-30
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/archlinux-java.html
@@ -11,8 +11,12 @@ related_topics:
   - title: English version
     url: /en/linux/archlinux-java.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# archlinux-java
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># archlinux-java
 
 提供 Java 环境设置功能的一个帮助脚本。
 更多信息：<https://wiki.archlinux.org/title/Java#Switching_between_JVM>.

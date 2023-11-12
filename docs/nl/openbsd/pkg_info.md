@@ -3,16 +3,14 @@ layout: page
 title: openbsd/pkg_info (Nederlands)
 description: "Bekijk informatie over pakketten in OpenBSD."
 content_hash: f192c6919fa6e12fe254589fa6b7838216aae7c6
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/openbsd/pkg_info.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pkg_info
+# pkg_info
 
 Bekijk informatie over pakketten in OpenBSD.
 Bekijk ook: `pkg_add`, `pkg_delete`.

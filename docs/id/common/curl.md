@@ -3,7 +3,7 @@ layout: page
 title: common/curl (Indonesia)
 description: "Mentransfer data dari atau ke server."
 content_hash: 683cd5aff9dd59df0fd7872bb22138ed3bbd6218
-last_modified_at: 2023-05-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/curl.html
@@ -17,6 +17,9 @@ related_topics:
   - title: italiano version
     url: /it/common/curl.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/curl.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/curl.html
     icon: bi bi-globe
@@ -29,6 +32,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/curl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # curl
 

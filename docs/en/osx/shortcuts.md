@@ -3,7 +3,12 @@ layout: page
 title: osx/shortcuts (English)
 description: "Manage shortcuts."
 content_hash: c05d66a7e55d34865a0b0aa548c4cb7b151556ec
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+related_topics:
+  - title: español version
+    url: /es/osx/shortcuts.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # shortcuts
 

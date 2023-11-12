@@ -3,6 +3,8 @@ layout: page
 title: linux/cgcreate (English)
 description: "Create cgroups, used to limit, measure, and control resources used by processes."
 content_hash: 29b7da33506de8c27818a1afda33a2fc157e98c2
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # cgcreate
 

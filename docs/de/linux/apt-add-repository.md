@@ -3,6 +3,7 @@ layout: page
 title: linux/apt-add-repository (Deutsch)
 description: "Editiere die Repository-Listen."
 content_hash: b145a9a631b5d8e856119ee6878148e2ec77926f
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/apt-add-repository.html
@@ -19,12 +20,16 @@ related_topics:
   - title: italiano version
     url: /it/linux/apt-add-repository.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/apt-add-repository.html
+    icon: bi bi-globe
   - title: ไทย version
     url: /th/linux/apt-add-repository.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apt-add-repository.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apt-add-repository
 

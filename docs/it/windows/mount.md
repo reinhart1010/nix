@@ -3,11 +3,12 @@ layout: page
 title: windows/mount (italiano)
 description: "Montare le condivisioni di rete del Network File System (NFS)."
 content_hash: d665fb26dc86ff80a980eb126b353a6256b383b9
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/mount.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mount
 

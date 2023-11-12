@@ -3,9 +3,19 @@ layout: page
 title: common/ansiweather (italiano)
 description: "Uno script per mostrare le attuali condizioni meteo nel tuo terminale."
 content_hash: 6b1695af6b7c50b483189b38ccef56c7800e9d85
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/ansiweather.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/ansiweather.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/ansiweather.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/ansiweather.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/ansiweather.html
@@ -13,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ansiweather.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ansiweather
 

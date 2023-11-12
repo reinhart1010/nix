@@ -3,10 +3,12 @@ layout: page
 title: common/fnm (português (Brasil))
 description: "Gerenciador de versão Node.js rápido."
 content_hash: e8bddd7c843a7efe0f8ff602d764da8cd5847c32
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/fnm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fnm
 

@@ -3,11 +3,10 @@ layout: page
 title: common/serve (English)
 description: "Static file serving and directory listing."
 content_hash: bac7dba2b8d25bc0fb54040f2e72a61bc7782ab2
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># serve
+# serve
 
 Static file serving and directory listing.
 More information: <https://github.com/vercel/serve>.

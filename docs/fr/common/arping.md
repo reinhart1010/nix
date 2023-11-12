@@ -3,10 +3,16 @@ layout: page
 title: common/arping (français)
 description: "Découvre et sonde des hôtes dans un réseau en utilisant le protocol ARP."
 content_hash: 0d9f61b3312c97e98f9a26cbcb3360badf07cc21
-last_modified_at: 2023-02-15
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/arping.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/arping.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/arping.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/arping.html
@@ -14,6 +20,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/arping.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # arping
 

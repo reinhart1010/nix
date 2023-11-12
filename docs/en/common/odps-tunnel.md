@@ -3,7 +3,8 @@ layout: page
 title: common/odps-tunnel (English)
 description: "Data tunnel in ODPS (Open Data Processing Service)."
 content_hash: 71570a613d9abfc85b0e897c5144064adea8a81c
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # odps tunnel
 

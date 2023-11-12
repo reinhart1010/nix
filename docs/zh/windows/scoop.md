@@ -3,16 +3,24 @@ layout: page
 title: windows/scoop (中文)
 description: "Windows 的命令行安装程序。"
 content_hash: d61bb2f70d59b2c62859d4c232d84cf80c091c18
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/scoop.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/scoop.html
     icon: bi bi-globe
   - title: English version
     url: /en/windows/scoop.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/scoop.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/windows/scoop.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # scoop
 

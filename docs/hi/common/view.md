@@ -3,6 +3,7 @@ layout: page
 title: common/view (हिन्दी)
 description: "`Vim` का केवल-पढ़ने वाला संस्करण।"
 content_hash: 4b849bdd7504bfaa883cdb453150362baca87e3f
+last_modified_at: 2023-11-12
 related_topics:
   - title: bosanski version
     url: /bs/common/view.html
@@ -16,7 +17,7 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/view.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/view.html
     icon: bi bi-globe
   - title: svenska version
@@ -25,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/view.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # view
 

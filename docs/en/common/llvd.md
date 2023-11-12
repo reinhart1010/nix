@@ -3,11 +3,10 @@ layout: page
 title: common/llvd (English)
 description: "Linkedin Learning Video Downloader."
 content_hash: 834f45542d795ce88b69db4da9793bd23d01cd91
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># llvd
+# llvd
 
 Linkedin Learning Video Downloader.
 More information: <https://github.com/knowbee/llvd>.

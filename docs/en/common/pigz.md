@@ -3,7 +3,8 @@ layout: page
 title: common/pigz (English)
 description: "Multithreaded zlib compression utility."
 content_hash: 8a483797d47d966f58a47077b5ecb7547224cabd
-last_modified_at: 2022-12-06
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pigz
 

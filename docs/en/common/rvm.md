@@ -3,6 +3,7 @@ layout: page
 title: common/rvm (English)
 description: "A tool for easily installing, managing, and working with multiple ruby environments."
 content_hash: 29cd8d77e46f96d2f89afe4335a013a842a4a720
+last_modified_at: 2023-11-12
 related_topics:
   - title: Indonesia version
     url: /id/common/rvm.html
@@ -10,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/rvm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rvm
 

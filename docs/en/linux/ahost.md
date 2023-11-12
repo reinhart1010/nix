@@ -3,11 +3,14 @@ layout: page
 title: linux/ahost (English)
 description: "DNS lookup utility to display the A or AAAA record linked with a hostname or IP address."
 content_hash: 61f39f5d2767294437058708030ea5adf47c6e31
+last_modified_at: 2023-11-12
+related_topics:
+  - title: polski version
+    url: /pl/linux/ahost.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ahost
+# ahost
 
 DNS lookup utility to display the A or AAAA record linked with a hostname or IP address.
 More information: <https://manned.org/ahost>.

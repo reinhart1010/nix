@@ -3,7 +3,7 @@ layout: page
 title: common/next (español)
 description: "Framework React que utiliza el renderizado del lado del servidor para crear aplicaciones web optimizadas."
 content_hash: c5b0abe5f72f8ebfa2725686ba21aeb2855e868c
-last_modified_at: 2023-10-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/next.html
@@ -11,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/next.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # next
 

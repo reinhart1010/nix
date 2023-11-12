@@ -3,9 +3,19 @@ layout: page
 title: common/adb-reverse (English)
 description: "Android Debug Bridge Reverse: reverse socket connections from an Android emulator instance or connected Android devices."
 content_hash: 4fc730c1a0f6da354b4f0d884ee2de0bb7bec20b
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/common/adb-reverse.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/adb-reverse.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/adb-reverse.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/adb-reverse.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/adb-reverse.html
@@ -16,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/adb-reverse.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # adb reverse
 

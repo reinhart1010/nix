@@ -3,16 +3,17 @@ layout: page
 title: common/cargo-add (தமிழ்)
 description: "ரஸ்ட் திட்டத்தின் `Cargo.toml` கோப்பில் சார்புகளைச் சேர்க்கவும்."
 content_hash: f97702630fddcd018689c5800fa91f7c25206f48
-last_modified_at: 2023-05-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/cargo-add.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/cargo-add.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cargo add
+# cargo add
 
 ரஸ்ட் திட்டத்தின் `Cargo.toml` கோப்பில் சார்புகளைச் சேர்க்கவும்.
 மேலும் விவரத்திற்கு: <https://doc.rust-lang.org/cargo/commands/cargo-add.html>.

@@ -3,6 +3,7 @@ layout: page
 title: common/git-reflog (español)
 description: "Muestra un registro de cambios de las referencias (*reflog*) locales como HEAD, ramas o etiquetas."
 content_hash: da091f229934145e6164481224f195af67d0c067
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-reflog.html
@@ -13,6 +14,10 @@ related_topics:
   - title: italiano version
     url: /it/common/git-reflog.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-reflog.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git reflog
 

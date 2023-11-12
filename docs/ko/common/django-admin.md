@@ -3,11 +3,12 @@ layout: page
 title: common/django-admin (한국어)
 description: "관리 작업을 위한 Django 유틸리티."
 content_hash: b21b86963587ae4e3f221391c7afc1752002ed4b
-last_modified_at: 2023-10-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/django-admin.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # django-admin
 

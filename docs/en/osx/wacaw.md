@@ -3,7 +3,7 @@ layout: page
 title: osx/wacaw (English)
 description: "Command-line tool for macOS to capture both still pictures and video from an attached camera."
 content_hash: 5ea521b0d46e8fac86d42d4f7d3f2abfa61e86d2
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/osx/wacaw.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/wacaw.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wacaw
 

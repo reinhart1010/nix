@@ -3,6 +3,7 @@ layout: page
 title: common/histexpand (français)
 description: "Réutiliser et développer l'historique des commandes shell dans `sh`, `bash`, `zsh`, `rbash` et `ksh`."
 content_hash: 6526e1acbc80d6c2e178f8734cfe21a2ba804641
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/histexpand.html
@@ -10,6 +11,10 @@ related_topics:
   - title: español version
     url: /es/common/histexpand.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/histexpand.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # history expansion
 

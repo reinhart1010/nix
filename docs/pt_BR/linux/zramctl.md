@@ -3,6 +3,7 @@ layout: page
 title: linux/zramctl (português (Brasil))
 description: "Configura e controla dispositivos zram."
 content_hash: 8c07a44e94c62a6ab517730b57178edef668fa2d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/zramctl.html
@@ -10,11 +11,9 @@ related_topics:
   - title: polski version
     url: /pl/linux/zramctl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># zramctl
+# zramctl
 
 Configura e controla dispositivos zram.
 Use `mkfs` ou `mkswap` para formatar dispositivos zram para partições.

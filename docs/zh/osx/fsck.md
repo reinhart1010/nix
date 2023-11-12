@@ -3,10 +3,18 @@ layout: page
 title: osx/fsck (中文)
 description: "检查或修复文件系统的完整性，运行命令时应卸载文件系统。"
 content_hash: efca59ea81f9e17416ed43407cfbcb80c91cc9e7
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/fsck.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/fsck.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/fsck.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fsck
 

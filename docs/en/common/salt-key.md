@@ -3,6 +3,8 @@ layout: page
 title: common/salt-key (English)
 description: "Manages salt minion keys on the salt master."
 content_hash: c874fc3f83bf39e5e47b04de120a130d3f0c6fbe
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # salt-key
 

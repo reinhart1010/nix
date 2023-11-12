@@ -3,6 +3,7 @@ layout: page
 title: linux/cp (Türkçe)
 description: "Dosya ve dizinleri kopyala."
 content_hash: 339dfbfc48ffa3621b72617788bb99a076616263
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/cp.html
@@ -40,8 +41,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/linux/cp.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# cp
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># cp
 
 Dosya ve dizinleri kopyala.
 Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/cp>.

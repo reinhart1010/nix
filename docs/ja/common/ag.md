@@ -3,7 +3,7 @@ layout: page
 title: common/ag (日本語)
 description: "Silver Searcher と呼ばれます。ack コマンドに似ていますが、より高速化を目指したコマンドです。"
 content_hash: 42b6520c22d3f33b0273d703e652b6c133bc1a20
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ag.html
@@ -20,6 +20,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/ag.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ag.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/ag.html
     icon: bi bi-globe
@@ -32,6 +35,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ag.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ag
 

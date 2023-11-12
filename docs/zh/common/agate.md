@@ -3,21 +3,29 @@ layout: page
 title: common/agate (中文)
 description: "一个简单的 Gemini 网络协议的服务器。"
 content_hash: 23b57af8f89d2d18323237dd32ea9b3f93130e4c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/agate.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/agate.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/agate.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/common/agate.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/agate.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/agate.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># agate
+# agate
 
 一个简单的 Gemini 网络协议的服务器。
 更多信息：<https://github.com/mbrubeck/agate>.

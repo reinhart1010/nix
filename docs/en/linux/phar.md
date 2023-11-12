@@ -3,6 +3,8 @@ layout: page
 title: linux/phar (English)
 description: "Create, update or extract PHP archives (PHAR)."
 content_hash: 30faffa02b1616f8e9dc8f2d0fc0464ef6a03aab
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # phar
 

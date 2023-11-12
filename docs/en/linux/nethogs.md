@@ -3,7 +3,8 @@ layout: page
 title: linux/nethogs (English)
 description: "Monitor bandwidth usage per process."
 content_hash: ed7f3725aeccc17afadcf58a4d647b3961dc8b2e
-last_modified_at: 2023-06-28
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # nethogs
 

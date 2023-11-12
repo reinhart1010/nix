@@ -3,6 +3,12 @@ layout: page
 title: osx/log (English)
 description: "View, export, and configure logging systems."
 content_hash: 20197b4af08b009ddc316f911d1389b6b88aed19
+last_modified_at: 2023-11-12
+related_topics:
+  - title: italiano version
+    url: /it/osx/log.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # log
 

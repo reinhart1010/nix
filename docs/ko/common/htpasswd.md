@@ -3,16 +3,14 @@ layout: page
 title: common/htpasswd (한국어)
 description: "기본 인증을 사용하여 웹 서버 폴더를 보호하기 위해 htpasswd 파일을 생성하고 관리합니다."
 content_hash: 4e2fa7bcb88121581e80d8f387065221c06cedc0
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/htpasswd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># htpasswd
+# htpasswd
 
 기본 인증을 사용하여 웹 서버 폴더를 보호하기 위해 htpasswd 파일을 생성하고 관리합니다.
 더 많은 정보: <https://httpd.apache.org/docs/current/programs/htpasswd.html>.

@@ -3,6 +3,7 @@ layout: page
 title: linux/brctl (English)
 description: "Ethernet bridge administration."
 content_hash: e3ffe0b75c00e8ef8a03e1759ef2d84466bf6fef
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/brctl.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/brctl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # brctl
 

@@ -3,6 +3,8 @@ layout: page
 title: common/realpath (English)
 description: "Display the resolved absolute path for a file or directory."
 content_hash: a18268623c052c653aba39095be4714ca2f39792
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # realpath
 

@@ -3,6 +3,8 @@ layout: page
 title: common/gprof (English)
 description: "Performance analysis tool for many programming languages."
 content_hash: ff61d481614591ad001f7fad74934d4ad4f177bf
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gprof
 

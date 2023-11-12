@@ -3,13 +3,24 @@ layout: page
 title: common/autossh (italiano)
 description: "Esegue, monitora e riavvia connessioni SSH."
 content_hash: e48253d4ec918bfb8bad7d8b6156be05651a50b0
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/autossh.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/autossh.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/autossh.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/autossh.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/autossh.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # autossh
 

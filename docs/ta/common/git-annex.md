@@ -3,7 +3,7 @@ layout: page
 title: common/git-annex (தமிழ்)
 description: "கோப்புகளை அவற்றின் உள்ளடக்கங்களை சரிபார்க்காமல், ஜிட் மூலம் நிர்வகிக்கவும்."
 content_hash: 99ee7386172bc32726d85f1cab7ef9e66bdcf363
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-annex.html
@@ -14,6 +14,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-annex.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git annex
 

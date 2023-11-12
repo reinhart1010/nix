@@ -3,6 +3,8 @@ layout: page
 title: common/transcrypt (English)
 description: "Transparently encrypt files within a Git repository."
 content_hash: 8790cabb153cd7c4788d1cf879afa363bf379b10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # transcrypt
 

@@ -3,6 +3,7 @@ layout: page
 title: common/git-notes (Türkçe)
 description: "Nesne notları ekle veya incele."
 content_hash: 848ab4bb1b4adfa62e0ec8927d82d597eea5b032
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-notes.html
@@ -10,6 +11,7 @@ related_topics:
   - title: français version
     url: /fr/common/git-notes.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git notes
 

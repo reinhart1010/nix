@@ -3,7 +3,8 @@ layout: page
 title: common/identify (English)
 description: "Describe the format and characteristics of one or more image files."
 content_hash: f87b7ee2cfbadb41a48fa0c6b697018186b26761
-last_modified_at: 2023-10-05
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # identify
 

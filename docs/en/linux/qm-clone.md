@@ -3,11 +3,10 @@ layout: page
 title: linux/qm-clone (English)
 description: "Create a copy of virtual machine on QEMU/KVM Virtual Machine Manager."
 content_hash: 52b79fa4dfe23ae649bfd3ede454d84fe16b7209
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># qm clone
+# qm clone
 
 Create a copy of virtual machine on QEMU/KVM Virtual Machine Manager.
 More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.

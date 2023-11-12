@@ -3,12 +3,10 @@ layout: page
 title: common/cargo-clean (English)
 description: "Remove generated artifacts in the `target` directory."
 content_hash: 6385a2eea0a8fbb57ac3bb8a6761bd4b1e9b2acb
-last_modified_at: 2023-10-01
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cargo clean
+# cargo clean
 
 Remove generated artifacts in the `target` directory.
 More information: <https://doc.rust-lang.org/cargo/commands/cargo-clean.html>.

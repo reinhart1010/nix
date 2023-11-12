@@ -3,7 +3,7 @@ layout: page
 title: linux/apt-get (فارسی)
 description: "ابزار مدیریت بسته‌های دبیان و اوبونتو."
 content_hash: 2cabfd36edb875efb3bd781aadf718f2601f1f57
-last_modified_at: 2023-10-22
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/linux/apt-get.html
@@ -29,6 +29,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/apt-get.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/apt-get.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/apt-get.html
     icon: bi bi-globe
@@ -41,11 +44,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/apt-get.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># apt-get
+# apt-get
 
 ابزار مدیریت بسته‌های دبیان و اوبونتو.
 جستجو در بسته‌ها با استفاده از `apt-cache`.

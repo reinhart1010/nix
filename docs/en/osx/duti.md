@@ -3,10 +3,15 @@ layout: page
 title: osx/duti (English)
 description: "Set default applications for document types and URL schemes on macOS."
 content_hash: f9b2355a2e00d4edc52c9851bced00798aac0ff9
+last_modified_at: 2023-11-12
 related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/osx/duti.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/duti.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # duti
 

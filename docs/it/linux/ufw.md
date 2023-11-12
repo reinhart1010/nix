@@ -3,7 +3,7 @@ layout: page
 title: linux/ufw (italiano)
 description: "Ufw (Uncomplicated Firewall) - Firewall Semplice."
 content_hash: d45f9353d19b46f7232f2f71ac296c97003442d4
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/ufw.html
@@ -20,6 +20,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/linux/ufw.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ufw
 

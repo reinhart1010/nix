@@ -3,16 +3,14 @@ layout: page
 title: common/kubectl-logs (Deutsch)
 description: "Logs für Container in einem Pod anzeigen."
 content_hash: 9b0ab5362ad52cbf6a5dd8a3cbbf32cc57c9a95b
-last_modified_at: 2022-12-21
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/kubectl-logs.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># kubectl logs
+# kubectl logs
 
 Logs für Container in einem Pod anzeigen.
 Weitere Informationen: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#logs>.

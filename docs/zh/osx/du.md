@@ -3,13 +3,24 @@ layout: page
 title: osx/du (中文)
 description: "磁盘使用率：估计和汇总文件和目录空间使用率。"
 content_hash: e8fd281c70a9d834bfd14755181fdd2221fd70da
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/du.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/du.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/osx/du.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/du.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/osx/du.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # du
 

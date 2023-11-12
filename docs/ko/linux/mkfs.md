@@ -3,7 +3,7 @@ layout: page
 title: linux/mkfs (한국어)
 description: "하드 디스크 파티션에 리눅스 파일 시스템 구축."
 content_hash: 458e95f5882fd19f3d053048ce917ac31b36b569
-last_modified_at: 2023-10-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/mkfs.html
@@ -14,11 +14,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/mkfs.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mkfs
+# mkfs
 
 하드 디스크 파티션에 리눅스 파일 시스템 구축.
 이 명령어는 파일 시스템이 정해진 mkfs.<type>를 위해 더 이상 사용되지 않습니다.

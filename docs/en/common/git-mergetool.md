@@ -3,10 +3,15 @@ layout: page
 title: common/git-mergetool (English)
 description: "Run merge conflict resolution tools to resolve merge conflicts."
 content_hash: b7d3f42b6028080be241f572794234fc2ea3292f
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/git-mergetool.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-mergetool.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git mergetool
 

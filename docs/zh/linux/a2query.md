@@ -3,12 +3,19 @@ layout: page
 title: linux/a2query (中文)
 description: "在基于 Debian 的操作系统上查看 Apache 运行配置。"
 content_hash: 372a492dc4c4a24c2838a8478515249520a4e8cc
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/a2query.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/a2query.html
     icon: bi bi-globe
   - title: English version
     url: /en/linux/a2query.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/a2query.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/a2query.html
@@ -22,6 +29,10 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/linux/a2query.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/linux/a2query.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # a2query
 

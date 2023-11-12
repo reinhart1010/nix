@@ -1,8 +1,9 @@
 ---
 layout: page
-title: common/false (norsk bokmål (Norge))
+title: common/false (norsk)
 description: "Returner en utgangskode på 1."
 content_hash: 70ae7eb0ea3fe39ae9e4b1297d8c768f479ff036
+last_modified_at: 2023-11-12
 related_topics:
   - title: bosanski version
     url: /bs/common/false.html
@@ -25,6 +26,7 @@ related_topics:
   - title: svenska version
     url: /sv/common/false.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # false
 

@@ -3,14 +3,18 @@ layout: page
 title: common/autopep8 (English)
 description: "Format Python code according to the PEP 8 style guide."
 content_hash: 81f3a2683b8918f8813cbcedbfedc7582db27b37
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/common/autopep8.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/autopep8.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/autopep8.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # autopep8
 

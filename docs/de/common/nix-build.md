@@ -3,11 +3,12 @@ layout: page
 title: common/nix-build (Deutsch)
 description: "Erstellen eines Nix-Ausdrucks."
 content_hash: 4484623e9a108440747211b68df80d4bff41596d
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/nix-build.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nix-build
 

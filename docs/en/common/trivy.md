@@ -3,6 +3,8 @@ layout: page
 title: common/trivy (English)
 description: "Scanner for vulnerabilities in container images, file systems, and Git repositories, as well as for configuration issues."
 content_hash: 229e28e491fbea8e5b76c31b77db78829621cfe8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # trivy
 

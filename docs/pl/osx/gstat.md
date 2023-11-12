@@ -3,7 +3,7 @@ layout: page
 title: osx/gstat (polski)
 description: "To polecenie jest aliasem `-p linux stat`."
 content_hash: da9c1d100ff029af74e9ff66ae47515a2cea2949
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gstat.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gstat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gstat
 

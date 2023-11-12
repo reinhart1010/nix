@@ -3,11 +3,12 @@ layout: page
 title: common/magick (Nederlands)
 description: "Creër, bewerk, vorm, of converteer bitmapafbeeldingen."
 content_hash: ad424a0ec49cbe0b5baa7c546c8330fe0d1bf23d
-last_modified_at: 2023-11-02
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/magick.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # magick
 

@@ -3,7 +3,8 @@ layout: page
 title: linux/vso (English)
 description: "Package manager, system updater and a task automator for Vanilla OS."
 content_hash: 67a664f98c2e89266f4322307fa93c0f829ccc49
-last_modified_at: 2023-09-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # vso
 

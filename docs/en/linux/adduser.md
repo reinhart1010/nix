@@ -3,9 +3,22 @@ layout: page
 title: linux/adduser (English)
 description: "User addition utility."
 content_hash: 5135379d5878851982469f3869fc37d8bfd0a571
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/adduser.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/adduser.html
+    icon: bi bi-globe
+  - title: suomi version
+    url: /fi/linux/adduser.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/adduser.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/adduser.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/adduser.html
@@ -16,6 +29,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/adduser.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # adduser
 

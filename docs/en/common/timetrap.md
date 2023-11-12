@@ -3,7 +3,8 @@ layout: page
 title: common/timetrap (English)
 description: "Simple command-line time tracker written in Ruby."
 content_hash: bb37b754e69e0044d62a5ff18cbfdddd4545ecce
-last_modified_at: 2023-08-20
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # timetrap
 

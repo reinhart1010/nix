@@ -3,7 +3,7 @@ layout: page
 title: common/git-checkout (português (Brasil))
 description: "Faz checkout de uma branch ou caminhos para uma árvore de trabalho."
 content_hash: 1cb6b52c815cb90392ba188beb89ae7da551d0c9
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-checkout.html
@@ -29,11 +29,9 @@ related_topics:
   - title: українська version
     url: /uk/common/git-checkout.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git checkout
+# git checkout
 
 Faz checkout de uma branch ou caminhos para uma árvore de trabalho.
 Mais informações: <https://git-scm.com/docs/git-checkout>.

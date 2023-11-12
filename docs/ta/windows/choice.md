@@ -3,11 +3,15 @@ layout: page
 title: windows/choice (தமிழ்)
 description: "ஒரு தேர்வைத் தேர்ந்தெடுத்து, தேர்ந்தெடுக்கப்பட்ட தேர்வுக் குறியீட்டை வழங்க பயனரைத் தூண்டவும்."
 content_hash: eea8aff10fc0d6a0adc833116ca912161c9410a6
-last_modified_at: 2023-10-27
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/choice.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/choice.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choice
 

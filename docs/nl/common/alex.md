@@ -3,7 +3,7 @@ layout: page
 title: common/alex (Nederlands)
 description: "Een tool die ongevoelig, onattent schrijven opvangt."
 content_hash: 5e73d4ac6a41777b8c6b5a6677604306522cc096
-last_modified_at: 2023-10-19
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/alex.html
@@ -23,6 +23,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/alex.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # alex
 

@@ -3,6 +3,7 @@ layout: page
 title: common/git-commit (தமிழ்)
 description: "கோப்புகளை களஞ்சியத்திற்கு கமிட்செய்ய."
 content_hash: 3e6d03066c9dd323256f8d4bfb3b05d2e3da843a
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-commit.html
@@ -22,12 +23,19 @@ related_topics:
   - title: italiano version
     url: /it/common/git-commit.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/git-commit.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-commit.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-commit.html
     icon: bi bi-globe
   - title: українська version
     url: /uk/common/git-commit.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git commit
 

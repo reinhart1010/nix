@@ -3,6 +3,7 @@ layout: page
 title: common/ssh-agent (français)
 description: "Lance un agent SSH."
 content_hash: c279c22380db1a103eeb1824d81a26421f35ddc0
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ssh-agent.html
@@ -10,6 +11,10 @@ related_topics:
   - title: English version
     url: /en/common/ssh-agent.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/ssh-agent.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ssh-agent
 

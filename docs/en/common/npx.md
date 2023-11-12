@@ -3,7 +3,7 @@ layout: page
 title: common/npx (English)
 description: "Execute binaries from `npm` packages."
 content_hash: f91fcea7520b93c123c950aaeb3bd86751e27c08
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/npx.html
@@ -11,6 +11,10 @@ related_topics:
   - title: italiano version
     url: /it/common/npx.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/npx.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # npx
 

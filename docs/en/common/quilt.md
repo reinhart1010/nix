@@ -3,6 +3,8 @@ layout: page
 title: common/quilt (English)
 description: "Tool to manage a series of patches."
 content_hash: 126faff45a27fdcac44fa85fc73dbe5c5790d576
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # quilt
 

@@ -3,6 +3,8 @@ layout: page
 title: common/speedtest (English)
 description: "Official command-line interface for testing internet bandwidth using https://speedtest.net."
 content_hash: 0677816f344edd40b83aa840804ce6126997350b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # speedtest
 

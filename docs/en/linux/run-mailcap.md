@@ -3,7 +3,8 @@ layout: page
 title: linux/run-mailcap (English)
 description: "Run MailCap Programs."
 content_hash: bf5487f55f03b6929a99af112af70f0fb7c96176
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # run-mailcap
 

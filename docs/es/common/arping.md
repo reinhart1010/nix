@@ -3,7 +3,7 @@ layout: page
 title: common/arping (español)
 description: "Descubrir y sondear hosts en una red utilizando el protocolo ARP."
 content_hash: 4f920a014723ec6d75fe221755b9e0080df15014
-last_modified_at: 2023-05-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/arping.html
@@ -20,6 +20,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/arping.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # arping
 

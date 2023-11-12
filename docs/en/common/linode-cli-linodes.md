@@ -3,7 +3,12 @@ layout: page
 title: common/linode-cli-linodes (English)
 description: "Manage Linode instances."
 content_hash: 6844e20d1ce38626ec8e8869f42478256e93924b
-last_modified_at: 2023-09-17
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Nederlands version
+    url: /nl/common/linode-cli-linodes.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # linode-cli linodes
 

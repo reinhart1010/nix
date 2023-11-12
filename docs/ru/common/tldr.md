@@ -3,6 +3,7 @@ layout: page
 title: common/tldr (русский)
 description: "Показывает простые страницы помощи для инструментов коммандной строки из проекта tldr-pages."
 content_hash: 5b337a288635ea4f6515d6abe737a66069786c25
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
@@ -22,8 +23,14 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/tldr.html
     icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/common/tldr.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/tldr.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/tldr.html
     icon: bi bi-globe
   - title: sh version
     url: /sh/common/tldr.html
@@ -43,6 +50,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/tldr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tldr
 

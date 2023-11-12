@@ -3,6 +3,15 @@ layout: page
 title: common/go-build (English)
 description: "Compile Go sources."
 content_hash: 6af81b12fdc4701965abcbf109f9a64e7387d52d
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Türkçe version
+    url: /tr/common/go-build.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/go-build.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # go build
 

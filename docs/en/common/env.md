@@ -3,13 +3,18 @@ layout: page
 title: common/env (English)
 description: "Show the environment or run a program in a modified environment."
 content_hash: 49922b5c3430d619cc25b3dda56c6c5e4feef294
+last_modified_at: 2023-11-12
 related_topics:
+  - title: français version
+    url: /fr/common/env.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/env.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/env.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # env
 

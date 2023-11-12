@@ -3,7 +3,8 @@ layout: page
 title: common/gh-browse (English)
 description: "Open a GitHub repository in the browser or print the URL."
 content_hash: 3fd27939ccd30ec6932b27d1d50a3505727f67d6
-last_modified_at: 2023-05-02
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gh browse
 

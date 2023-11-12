@@ -3,7 +3,8 @@ layout: page
 title: common/az-storage-queue (English)
 description: "Manage storage queues in Azure."
 content_hash: e9aa5003f0572be49f22f6b0d1e70b2bbab221a3
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # az storage queue
 

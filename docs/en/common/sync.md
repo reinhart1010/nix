@@ -3,6 +3,8 @@ layout: page
 title: common/sync (English)
 description: "Flushes all pending write operations to the appropriate disks."
 content_hash: 8e43f35d3644793849502fe05332d7443fe4080b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sync
 

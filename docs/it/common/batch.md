@@ -3,6 +3,7 @@ layout: page
 title: common/batch (italiano)
 description: "Esegui comandi nel futuro quando il carico di lavoro del sistema lo permette."
 content_hash: f872f58a6176ff49d9df5cefaf1e2f6b51383616
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/batch.html
@@ -16,6 +17,7 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/batch.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # batch
 

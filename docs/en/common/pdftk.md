@@ -3,6 +3,7 @@ layout: page
 title: common/pdftk (English)
 description: "PDF toolkit."
 content_hash: 6ecd03473f85965d3647257df47a9d8b60693ec3
+last_modified_at: 2023-11-12
 related_topics:
   - title: polski version
     url: /pl/common/pdftk.html
@@ -10,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/pdftk.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pdftk
 

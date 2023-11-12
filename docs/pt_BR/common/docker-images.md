@@ -3,12 +3,16 @@ layout: page
 title: common/docker-images (português (Brasil))
 description: "Gerencia imagens Docker."
 content_hash: caca88d805b362f84d9aa4e5e6aa1303fc05a343
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-images.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/docker-images.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/docker-images.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/docker-images.html
@@ -22,8 +26,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-images.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# docker images
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># docker images
 
 Gerencia imagens Docker.
 Mais informações: <https://docs.docker.com/engine/reference/commandline/images/>.

@@ -3,12 +3,17 @@ layout: page
 title: linux/ldd (Deutsch)
 description: "Zeigt Abhängigkeiten von dynamischen Bibliotheken an."
 content_hash: a1292ed3bc2777e01f0b5083fb7c82a11cbee963
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/ldd.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# ldd
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># ldd
 
 Zeigt Abhängigkeiten von dynamischen Bibliotheken an.
 Weitere Informationen: <https://manned.org/ldd>.

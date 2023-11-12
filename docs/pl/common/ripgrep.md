@@ -3,7 +3,7 @@ layout: page
 title: common/ripgrep (polski)
 description: "To polecenie jest aliasem `rg`."
 content_hash: 30bd1ca9b349724e7b39c35a1fcad73daf6de6c2
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/ripgrep.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/ripgrep.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ripgrep
 

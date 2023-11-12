@@ -3,6 +3,8 @@ layout: page
 title: common/nextflow (English)
 description: "Tool for running computational pipelines. Mostly used for bioinformatics workflows."
 content_hash: b3ae5824070d002bd668936c1a82b02d9b18b41a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # nextflow
 

@@ -3,13 +3,23 @@ layout: page
 title: osx/xcodes-runtimes (português (Brasil))
 description: "Gerencia runtimes do Simulador Xcode."
 content_hash: 19acccf45363eb49a67b44eb50ee997d6f65920f
-last_modified_at: 2023-10-02
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/xcodes-runtimes.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/xcodes-runtimes.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/osx/xcodes-runtimes.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# xcodes runtimes
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># xcodes runtimes
 
 Gerencia runtimes do Simulador Xcode.
 Mais informações: <https://github.com/xcodesorg/xcodes>.

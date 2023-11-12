@@ -3,6 +3,8 @@ layout: page
 title: linux/dunstify (English)
 description: "A notification tool that is an extension of notify-send, but has more features based around dunst."
 content_hash: 5946faaaa2b1ed1f7c76df8e31f6eadbdd69a055
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dunstify
 

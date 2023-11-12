@@ -3,16 +3,14 @@ layout: page
 title: common/aws-batch (한국어)
 description: "AWS Batch를 통해 배치 컴퓨팅 워크로드를 실행합니다."
 content_hash: 6b97c0d859a8a01a13c20ce7b087dbb2b7ca1bcb
-last_modified_at: 2023-10-01
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/aws-batch.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws batch
+# aws batch
 
 AWS Batch를 통해 배치 컴퓨팅 워크로드를 실행합니다.
 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/batch/index.html>.

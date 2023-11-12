@@ -3,16 +3,14 @@ layout: page
 title: osx/hdiutil (português (Brasil))
 description: "Utilitário para criar e gerenciar imagens de disco."
 content_hash: f7b0c2bba36aa5f9d6519649704ff346fdc81570
-last_modified_at: 2022-11-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/hdiutil.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># hdiutil
+# hdiutil
 
 Utilitário para criar e gerenciar imagens de disco.
 Mais informações: <https://ss64.com/osx/hdiutil.html>.

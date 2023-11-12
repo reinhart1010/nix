@@ -3,7 +3,8 @@ layout: page
 title: common/nu (English)
 description: "Nushell (\"a new type of shell\") takes a modern, structured approach to your command-line."
 content_hash: a559a0daa3a54394581d866e1122672f39922818
-last_modified_at: 2023-02-01
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # nu
 

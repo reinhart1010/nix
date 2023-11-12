@@ -3,7 +3,8 @@ layout: page
 title: common/mods (English)
 description: "AI for the command line, built for pipelines."
 content_hash: 097faca18de89f038716000937027901e34066b9
-last_modified_at: 2023-06-21
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mods
 

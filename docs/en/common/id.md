@@ -3,6 +3,7 @@ layout: page
 title: common/id (English)
 description: "Display current user and group identity."
 content_hash: 74176aa9f0356087caa7803c03da4d86cba22e48
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/id.html
@@ -10,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/id.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # id
 

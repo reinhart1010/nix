@@ -3,7 +3,8 @@ layout: page
 title: common/basenc (English)
 description: "Encode or decode file or `stdin` using a specified encoding, to `stdout`."
 content_hash: e1454d59dac7edec6c5c74d890ae6082380c1a6f
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # basenc
 

@@ -3,7 +3,7 @@ layout: page
 title: common/cargo-add (português (Brasil))
 description: "Adiciona dependências ao arquivo `Cargo.toml` de um projeto Rust."
 content_hash: 56c2c09338b8b4421c4c36a96589f43e5be1e45e
-last_modified_at: 2023-08-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/cargo-add.html
@@ -11,11 +11,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/cargo-add.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cargo add
+# cargo add
 
 Adiciona dependências ao arquivo `Cargo.toml` de um projeto Rust.
 Mais informações: <https://doc.rust-lang.org/cargo/commands/cargo-add.html>.

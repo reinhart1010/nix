@@ -3,9 +3,19 @@ layout: page
 title: common/ansiweather (한국어)
 description: "당신의 터미널에서 현재 날씨 상태를 표시하는 쉘 스크립트."
 content_hash: 7c503192f7afab593cf1d27cff2c35299ecbceab
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/ansiweather.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/ansiweather.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/ansiweather.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/ansiweather.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ansiweather.html
@@ -13,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ansiweather.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ansiweather
 

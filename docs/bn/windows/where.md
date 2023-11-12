@@ -3,7 +3,7 @@ layout: page
 title: windows/where (বাংলা)
 description: "অনুসন্ধান প্যাটার্নের সাথে মিলছে ফাইলগুলির অবস্থান প্রদর্শন করুন।"
 content_hash: 7674160efe3ee321a96b7356f3a678ef32549e71
-last_modified_at: 2023-10-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/where.html
@@ -17,11 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/where.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># where
+# where
 
 অনুসন্ধান প্যাটার্নের সাথে মিলছে ফাইলগুলির অবস্থান প্রদর্শন করুন।
 ডিফল্টস্ কারেন্ট ওয়ার্ক ডিরেক্টরি এবং PATH এনভায়রনমেন্ট ভেরিয়েবলে পাথের অবস্থানগুলি।

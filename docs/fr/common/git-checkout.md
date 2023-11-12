@@ -3,6 +3,7 @@ layout: page
 title: common/git-checkout (français)
 description: "Extraire une branche ou des chemins vers l'arborescence de travail."
 content_hash: 56662ba57f8fca26a0181ce273dd6a8dc7defcc1
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-checkout.html
@@ -16,9 +17,19 @@ related_topics:
   - title: italiano version
     url: /it/common/git-checkout.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-checkout.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-checkout.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-checkout.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git-checkout.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git checkout
 

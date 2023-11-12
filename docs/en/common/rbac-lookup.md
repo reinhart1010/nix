@@ -3,6 +3,8 @@ layout: page
 title: common/rbac-lookup (English)
 description: "Find roles and cluster roles attached to any user, service account or group name in your Kubernetes cluster."
 content_hash: f07ec67ddd4406c55ce16874f220e9605fff4d64
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rbac-lookup
 

@@ -3,7 +3,8 @@ layout: page
 title: linux/systemd-hwdb (English)
 description: "Hardware database management tool."
 content_hash: 26f1f7c1368ed2f7c4db49cc091cab842bec6073
-last_modified_at: 2023-07-25
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # systemd-hwdb
 

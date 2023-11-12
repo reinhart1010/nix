@@ -3,11 +3,10 @@ layout: page
 title: common/standard-version (English)
 description: "Automate versioning and changelog generation, with SemVer and Conventional Commits."
 content_hash: e2df90fbb67bdbce84dae0be6ba76d154b5c129b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># standard-version
+# standard-version
 
 Automate versioning and changelog generation, with SemVer and Conventional Commits.
 More information: <https://github.com/conventional-changelog/standard-version>.

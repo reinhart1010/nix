@@ -3,12 +3,10 @@ layout: page
 title: common/neotoppm (English)
 description: "Convert an Atari Neochrome NEO file into a PPM image."
 content_hash: 2a3e14535b92443aa8bf6000ad501925cb936f75
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># neotoppm
+# neotoppm
 
 Convert an Atari Neochrome NEO file into a PPM image.
 More information: <https://netpbm.sourceforge.net/doc/neotoppm.html>.

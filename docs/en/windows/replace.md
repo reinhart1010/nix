@@ -3,7 +3,8 @@ layout: page
 title: windows/replace (English)
 description: "Replace files."
 content_hash: d405bbfdb18e4c24006e22edd7263c67a73a009c
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # replace
 

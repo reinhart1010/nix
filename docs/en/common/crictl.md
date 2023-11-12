@@ -3,11 +3,10 @@ layout: page
 title: common/crictl (English)
 description: "Command-line for CRI-compatible container runtimes."
 content_hash: 5a528ac7509dd3f050666bab071aca24233d155b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># crictl
+# crictl
 
 Command-line for CRI-compatible container runtimes.
 More information: <https://github.com/kubernetes-sigs/cri-tools/blob/master/docs/crictl.md>.

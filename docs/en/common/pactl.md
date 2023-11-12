@@ -3,6 +3,8 @@ layout: page
 title: common/pactl (English)
 description: "Control a running PulseAudio sound server."
 content_hash: f33507ce10190a33dba04160761b3317eff08557
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pactl
 

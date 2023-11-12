@@ -3,6 +3,8 @@ layout: page
 title: common/reflac (English)
 description: "Recompress FLAC files in-place while preserving metadata."
 content_hash: 6af3e039bae9fe4ce58ee97f656ee3b36d68a809
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # reflac
 

@@ -3,11 +3,10 @@ layout: page
 title: linux/createrepo (English)
 description: "Initializes an RPM repository in the given directory, including all XML and SQLite files."
 content_hash: 1c180c11b66d189826dbfe236cb8aa71fa8d72fe
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># createrepo
+# createrepo
 
 Initializes an RPM repository in the given directory, including all XML and SQLite files.
 More information: <https://manned.org/createrepo>.

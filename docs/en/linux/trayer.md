@@ -3,12 +3,10 @@ layout: page
 title: linux/trayer (English)
 description: "A lightweight GTK-2 based systray."
 content_hash: 609e5307a2e4a269bc041a174e51779a52c98eb4
-last_modified_at: 2023-07-01
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># trayer
+# trayer
 
 A lightweight GTK-2 based systray.
 More information: <https://github.com/sargon/trayer-srg>.

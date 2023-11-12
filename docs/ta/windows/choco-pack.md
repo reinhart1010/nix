@@ -3,6 +3,7 @@ layout: page
 title: windows/choco-pack (தமிழ்)
 description: "ஒரு `NuGet` விவரக்குறிப்பை `nupkg` கோப்பில் தொகுக்கவும்."
 content_hash: b12d3a2721f8ec27c81e3f3f82e4077b0428117a
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-pack.html
@@ -10,14 +11,15 @@ related_topics:
   - title: English version
     url: /en/windows/choco-pack.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/windows/choco-pack.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/choco-pack.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># choco pack
+# choco pack
 
 ஒரு `NuGet` விவரக்குறிப்பை `nupkg` கோப்பில் தொகுக்கவும்.
 மேலும் விவரத்திற்கு: <https://chocolatey.org/docs/commands-pack>.

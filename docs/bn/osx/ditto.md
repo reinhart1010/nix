@@ -3,7 +3,7 @@ layout: page
 title: osx/ditto (বাংলা)
 description: "ফাইল এবং ডিরেক্টরি কপি করুন।"
 content_hash: 76be5680e21d90910e03776f21c4e7de5208bff0
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/ditto.html
@@ -14,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/ditto.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ditto
 

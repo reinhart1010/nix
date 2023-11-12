@@ -3,7 +3,11 @@ layout: page
 title: common/git-config (українська)
 description: "Керує спеціальними параметрами конфігурації для репозиторію Git."
 content_hash: 8ab31a96cc4997a67ca9dec6fa27dfb8bbd93749
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/git-config.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/git-config.html
     icon: bi bi-globe
@@ -16,17 +20,18 @@ related_topics:
   - title: italiano version
     url: /it/common/git-config.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-config.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-config.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/git-config.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git config
+# git config
 
 Керує спеціальними параметрами конфігурації для репозиторію Git.
 Конфігурації можуть бути локальні (для поточного репозиторію) або глобальні (для поточного користувача).

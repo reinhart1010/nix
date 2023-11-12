@@ -3,6 +3,8 @@ layout: page
 title: common/circup (English)
 description: "The CircuitPython library updater."
 content_hash: 390837c78ca5089814a7306f7bdeeb86c167a53b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # circup
 

@@ -3,7 +3,8 @@ layout: page
 title: linux/debman (English)
 description: "Read man pages from uninstalled packages."
 content_hash: 753e0dde430aad3e4b346330c0d93ddfdecf8740
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # debman
 

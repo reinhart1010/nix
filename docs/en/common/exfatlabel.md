@@ -3,12 +3,10 @@ layout: page
 title: common/exfatlabel (English)
 description: "Get or set an exFAT filesystem label."
 content_hash: 174bcfbb6caf5ca2ed8a5e85adf946640eb260ab
-last_modified_at: 2023-07-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># exfatlabel
+# exfatlabel
 
 Get or set an exFAT filesystem label.
 More information: <https://manned.org/exfatlabel>.

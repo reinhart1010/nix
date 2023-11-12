@@ -3,7 +3,8 @@ layout: page
 title: common/shellcheck (English)
 description: "Shell script static analysis tool."
 content_hash: dba8143ec48f093dd280c8b8e51d1a4732f58fcb
-last_modified_at: 2023-09-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # shellcheck
 

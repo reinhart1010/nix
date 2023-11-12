@@ -3,6 +3,7 @@ layout: page
 title: common/convmv (한국어)
 description: "한 인코딩에서 다른 인코딩으로 파일 이름(파일 내용 X)을 변환."
 content_hash: 844d0187e88620a5eded8424813e47ea63d2ff8f
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/convmv.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/convmv.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # convmv
 

@@ -3,15 +3,14 @@ layout: page
 title: common/topydo (français)
 description: "Une application de liste de choses à faire qui utilise le format todo.txt."
 content_hash: 88b78fbae79f88954461d4d1946b638fc7cd0c60
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/topydo.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># topydo
+# topydo
 
 Une application de liste de choses à faire qui utilise le format todo.txt.
 Plus d'informations : <https://github.com/topydo/topydo>.

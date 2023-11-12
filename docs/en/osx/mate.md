@@ -3,11 +3,10 @@ layout: page
 title: osx/mate (English)
 description: "General-purpose text editor for macOS."
 content_hash: 46d8ca1b9606b830951f087167d8ae12281e47c8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mate
+# mate
 
 General-purpose text editor for macOS.
 More information: <https://macromates.com/>.

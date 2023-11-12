@@ -3,13 +3,18 @@ layout: page
 title: common/jq (Deutsch)
 description: "Ein JSON-Verarbeiter für die Kommandozeile mit einer domänenspezifischen Sprache."
 content_hash: 808d8950717bef856aa67501c00db57351701b67
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/jq.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/jq.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/common/jq.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # jq
 

@@ -3,6 +3,7 @@ layout: page
 title: common/git-update-ref (Türkçe)
 description: "Git referanslarını yaratmak, güncellemek ve silmeye yarayan bir Git komutu."
 content_hash: 79a80ab34d5fbd9d658e02d5427a5d0651a64c11
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-update-ref.html
@@ -13,6 +14,7 @@ related_topics:
   - title: italiano version
     url: /it/common/git-update-ref.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git update-ref
 

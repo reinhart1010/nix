@@ -3,7 +3,7 @@ layout: page
 title: windows/iwr (한국어)
 description: "이 명령은 `invoke-webrequest` 의 에일리어스 (별칭) 입니다."
 content_hash: c9a90272f221813fb4b437a5b18a100219d7a9af
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/iwr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # iwr
 

@@ -3,9 +3,13 @@ layout: page
 title: common/aria2c (Indonesia)
 description: "Utilitas unduhan cepat."
 content_hash: 50e555a69dc45f95f1f8c8ff49e80585130278df
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/aria2c.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/aria2c.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/aria2c.html
@@ -19,11 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/aria2c.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aria2c
+# aria2c
 
 Utilitas unduhan cepat.
 Mendukung HTTP(S), FTP, SFTP, BitTorrent, dan Metalink.

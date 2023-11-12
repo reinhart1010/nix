@@ -3,11 +3,12 @@ layout: page
 title: common/buku (中文)
 description: "命令行版本的书签管理器。"
 content_hash: e8a912d64451ad0a2abef809ae916fcd9feee3a9
-last_modified_at: 2023-06-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/buku.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # buku
 

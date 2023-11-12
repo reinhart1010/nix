@@ -3,6 +3,7 @@ layout: page
 title: common/basename (한국어)
 description: "경로명의 디렉토리가 아닌 부분을 반환."
 content_hash: bb2989a16a0138df188c1c2fe53e3528679ad2e4
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/basename.html
@@ -19,18 +20,16 @@ related_topics:
   - title: polski version
     url: /pl/common/basename.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/basename.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/basename.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/basename.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># basename
 

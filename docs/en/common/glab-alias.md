@@ -3,7 +3,8 @@ layout: page
 title: common/glab-alias (English)
 description: "Manage GitLab CLI command aliases."
 content_hash: 23d1aeea05a674e6a8f0e6c7ecefc272d2d785a0
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # glab alias
 

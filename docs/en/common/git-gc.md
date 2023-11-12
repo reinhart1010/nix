@@ -3,6 +3,7 @@ layout: page
 title: common/git-gc (English)
 description: "Optimise the local repository by cleaning unnecessary files."
 content_hash: 3a268d897289a51eb4b99308d778bf12ebf81ba6
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/git-gc.html
@@ -13,6 +14,13 @@ related_topics:
   - title: italiano version
     url: /it/common/git-gc.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-gc.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-gc.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git gc
 

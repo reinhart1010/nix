@@ -3,6 +3,8 @@ layout: page
 title: common/dlv (English)
 description: "Debugger for the Go programming language."
 content_hash: ce4b05aa5d39c58540428e78e9578cf7915fe7d5
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dlv
 

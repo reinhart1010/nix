@@ -3,6 +3,8 @@ layout: page
 title: common/pve-firewall (English)
 description: "Manage Proxmox VE Firewall."
 content_hash: fd93329bd567f933d86e2f1d41d65716b9e7a83b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pve-firewall
 

@@ -3,11 +3,10 @@ layout: page
 title: linux/xdg-settings (English)
 description: "Manage settings of XDG-compatible desktop environments."
 content_hash: f4b6cee7d6b310136b2efa82bbfefa1c14ed5149
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># xdg-settings
+# xdg-settings
 
 Manage settings of XDG-compatible desktop environments.
 More information: <https://portland.freedesktop.org/doc/xdg-settings.html>.

@@ -3,10 +3,12 @@ layout: page
 title: common/decaffeinate (italiano)
 description: "Converti script CoffeScript in JavaScript moderno."
 content_hash: 5b7d46ae5474f01c9d893726f58c1892c2db54a3
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/decaffeinate.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # decaffeinate
 

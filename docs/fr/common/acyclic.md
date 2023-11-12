@@ -3,15 +3,23 @@ layout: page
 title: common/acyclic (français)
 description: "Construit un graphe orienté acyclique en inversant quelques sommets."
 content_hash: c9b24e6f999de0ff1c5982444e8afc3f3a823ed6
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/acyclic.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/acyclic.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/acyclic.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/acyclic.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># acyclic
+# acyclic
 
 Construit un graphe orienté acyclique en inversant quelques sommets.
 Filtres Graphviz : `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, & `unflatten`.

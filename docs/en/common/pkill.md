@@ -3,6 +3,12 @@ layout: page
 title: common/pkill (English)
 description: "Signal process by name."
 content_hash: 15ff110b04bc464b9d9973016e0d9ee8aa163a57
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/pkill.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pkill
 

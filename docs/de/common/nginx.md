@@ -3,18 +3,20 @@ layout: page
 title: common/nginx (Deutsch)
 description: "Nginx Webserver."
 content_hash: b9b65eb75209c8434f3cf29ac63002c63b003de5
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/nginx.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/nginx.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/nginx.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># nginx
+# nginx
 
 Nginx Webserver.
 Weitere Informationen: <https://nginx.org/en/>.

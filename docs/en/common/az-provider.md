@@ -3,7 +3,8 @@ layout: page
 title: common/az-provider (English)
 description: "Manage resource providers."
 content_hash: 511c17eaf81203f9d0b340378b211c017c7376d9
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # az provider
 

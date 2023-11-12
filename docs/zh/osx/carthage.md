@@ -3,10 +3,15 @@ layout: page
 title: osx/carthage (中文)
 description: "Cocoa 应用程序的依赖性管理工具。"
 content_hash: 058934b507537d98a20889972c54d8c51270cbec
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/carthage.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/carthage.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # carthage
 

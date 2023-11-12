@@ -3,11 +3,12 @@ layout: page
 title: linux/disown (हिन्दी)
 description: "उप-प्रक्रियाओं को उस शेल से परे रहने की अनुमति दें जिससे वे जुड़े हुए हैं।"
 content_hash: 5e0188e7a72d4bae831aa32b453e239a8209757c
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/disown.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # disown
 

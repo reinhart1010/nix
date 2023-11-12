@@ -3,7 +3,7 @@ layout: page
 title: common/docker-compose (日本語)
 description: "複数コンテナを持つDockerアプリケーションの実行と管理をします。"
 content_hash: 9654c1cc2d405a64ef88f4b2593719fae75ae95f
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -35,6 +35,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-compose.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker compose
 

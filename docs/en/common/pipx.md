@@ -3,7 +3,8 @@ layout: page
 title: common/pipx (English)
 description: "Install and run Python applications in isolated environments."
 content_hash: 48032e4525db17c1d4b84f70b33a5970792edc73
-last_modified_at: 2023-05-02
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pipx
 

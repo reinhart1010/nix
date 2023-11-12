@@ -3,10 +3,15 @@ layout: page
 title: osx/csrutil (português (Brasil))
 description: "Gerencia a configuração do System Integrity Protection (SIP)."
 content_hash: 6b61d2a3577aaee374fd312248e219f068733ba0
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/csrutil.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/csrutil.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # csrutil
 

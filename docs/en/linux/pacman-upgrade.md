@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman-upgrade (English)
 description: "Arch Linux package manager utility."
 content_hash: d4e1c9f22cae3df8ef73fa7e69e4a22baf49b7b0
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-upgrade.html
@@ -14,9 +14,13 @@ related_topics:
   - title: Indonesia version
     url: /id/linux/pacman-upgrade.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/pacman-upgrade.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/pacman-upgrade.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pacman --upgrade
 

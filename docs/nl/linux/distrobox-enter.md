@@ -3,7 +3,7 @@ layout: page
 title: linux/distrobox-enter (Nederlands)
 description: "Betreed een distrobox container."
 content_hash: c17ece8ab58d908d1cfcf230858e2a01397d9f79
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/distrobox-enter.html
@@ -14,11 +14,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/linux/distrobox-enter.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># distrobox-enter
+# distrobox-enter
 
 Betreed een distrobox container.
 Subcommando van `distrobox`. Bekijk ook: `tldr distrobox`.

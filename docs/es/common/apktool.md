@@ -3,7 +3,7 @@ layout: page
 title: common/apktool (español)
 description: "Ingeniería inversa de archivos APK."
 content_hash: 141362d6e020ee972982f585ec370f45ef06245f
-last_modified_at: 2023-04-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/apktool.html
@@ -17,14 +17,15 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/apktool.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/apktool.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/apktool.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># apktool
+# apktool
 
 Ingeniería inversa de archivos APK.
 Más información: <https://ibotpeaches.github.io/Apktool/>.

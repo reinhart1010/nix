@@ -3,7 +3,8 @@ layout: page
 title: common/az-storage-table (English)
 description: "Manage NoSQL key-value storage in Azure."
 content_hash: e7e64ec9328b60e4eb7835e426641d3221af1444
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # az storage table
 

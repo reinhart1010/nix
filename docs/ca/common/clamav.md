@@ -3,7 +3,7 @@ layout: page
 title: common/clamav (català)
 description: "Programa antivirus de codi obert."
 content_hash: 25c29a751c56b17cac1018a9451a6eddc38b085a
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/clamav.html
@@ -89,17 +89,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/clamav.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/clamav.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ClamAV
+# ClamAV
 
 Programa antivirus de codi obert.
 ClamAV no és una ordre, sinó un conjunt d'ordres.

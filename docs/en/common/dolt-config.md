@@ -3,6 +3,8 @@ layout: page
 title: common/dolt-config (English)
 description: "Read and write local (per repository) and global (per user) Dolt configuration variables."
 content_hash: ad8870ce90f010122e36fd0003a693dfbce97ec1
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dolt config
 

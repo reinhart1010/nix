@@ -3,7 +3,7 @@ layout: page
 title: common/mongo (English)
 description: "The legacy MongoDB shell. See `mongosh` for the new shell."
 content_hash: 4df61d4e0f31ebfc73b563f489aa0d5d89a69217
-last_modified_at: 2023-08-01
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/mongo.html
@@ -11,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/mongo.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mongo
 

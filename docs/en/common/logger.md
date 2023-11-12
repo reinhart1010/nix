@@ -3,11 +3,12 @@ layout: page
 title: common/logger (English)
 description: "Add messages to syslog (/var/log/syslog)."
 content_hash: 1ae83139b7fb4f6e56bd17735b5c5c7d74c0f091
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/common/logger.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # logger
 

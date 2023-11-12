@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman (polski)
 description: "Narzędzie do zarządzania pakietami w Arch Linuksie."
 content_hash: 22dd599c875abb4efaa355bc02207a94ad3ab27e
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -32,14 +32,15 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/pacman.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/pacman.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/pacman.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pacman
+# pacman
 
 Narzędzie do zarządzania pakietami w Arch Linuksie.
 Zobacz także: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.

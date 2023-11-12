@@ -3,6 +3,8 @@ layout: page
 title: common/pio-settings (English)
 description: "View and modify PlatformIO settings."
 content_hash: eab1a0a28cd58728d9882c479dfb2ff97ba9523b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pio settings
 

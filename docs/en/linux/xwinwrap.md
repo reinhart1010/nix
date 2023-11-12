@@ -3,10 +3,12 @@ layout: page
 title: linux/xwinwrap (English)
 description: "Run a player or a program as desktop background."
 content_hash: 4bbf035cc1be618b55fbb8a95d37b1ddc557a953
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/xwinwrap.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xwinwrap
 

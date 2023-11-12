@@ -3,12 +3,23 @@ layout: page
 title: common/sed (日本語)
 description: "スクリプトによるテキスト編集。"
 content_hash: 009eea9f3f129a6e7e02e373bcbc66e18b45130c
+last_modified_at: 2023-11-12
 related_topics:
+  - title: dansk version
+    url: /da/common/sed.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/sed.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/sed.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# sed
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># sed
 
 スクリプトによるテキスト編集。
 詳しくはこちら: <https://www.gnu.org/software/sed/manual/sed.html>
@@ -23,7 +34,7 @@ related_topics:
 
 - ファイル内のすべての文字列を置き換え、ファイルを上書きする(すなわち インプレイス):
 
-`sed -i 's/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">置き換え前</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">置き換え後</span>`/g' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル名</span>`}`
+`sed -i 's/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">置き換え前</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">置き換え後</span>`/g' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル名}</span>
 
 - ラインパターンに一致する行のみを置換:
 
@@ -31,7 +42,7 @@ related_topics:
 
 - ラインパターンに一致する行を削除する:
 
-`sed '/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ラインパターン</span>`/d' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル名</span>`}`
+`sed '/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ラインパターン</span>`/d' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル名}</span>
 
 - ファイルの最初の 11 行を表示する:
 

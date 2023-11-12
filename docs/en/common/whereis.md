@@ -3,6 +3,7 @@ layout: page
 title: common/whereis (English)
 description: "Locate the binary, source, and manual page files for a command."
 content_hash: 6dd5ce2ede6ce161921e72bd311c4ab6c1365a27
+last_modified_at: 2023-11-12
 related_topics:
   - title: فارسی version
     url: /fa/common/whereis.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/whereis.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # whereis
 

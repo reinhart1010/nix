@@ -3,10 +3,12 @@ layout: page
 title: common/enscript (italiano)
 description: "Converti file di testo in PostScript, HTML, RTF, ANSI ed overstrike."
 content_hash: 03d06bb7b63afe08215518e8aef16fce3514fe51
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/enscript.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # enscript
 

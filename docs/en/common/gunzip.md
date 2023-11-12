@@ -3,7 +3,8 @@ layout: page
 title: common/gunzip (English)
 description: "Extract file(s) from a gzip (.gz) archive."
 content_hash: d65e3ffa1b464a44028c014c072f6444661fd6b1
-last_modified_at: 2022-12-13
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gunzip
 

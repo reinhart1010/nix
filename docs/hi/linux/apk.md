@@ -3,7 +3,7 @@ layout: page
 title: linux/apk (हिन्दी)
 description: "अल्पाइन लिनक्स पैकेज प्रबंधन उपकरण।"
 content_hash: 1b89fb13ce726a469936a38b0b36ebffdbf83ef2
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/apk.html
@@ -32,6 +32,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/apk.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apk
 

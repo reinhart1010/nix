@@ -3,6 +3,12 @@ layout: page
 title: common/vercel (English)
 description: "Deploy and manage your Vercel deployments."
 content_hash: aed73e67ebc165bd239ed16be3649152dd5620b7
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/vercel.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # vercel
 

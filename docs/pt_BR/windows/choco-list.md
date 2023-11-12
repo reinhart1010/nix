@@ -3,6 +3,7 @@ layout: page
 title: windows/choco-list (português (Brasil))
 description: "Exibir uma lista de pacotes com Chocolatey."
 content_hash: 94a69058bd438be5e510c0733d470cca017b68fc
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-list.html
@@ -10,9 +11,16 @@ related_topics:
   - title: English version
     url: /en/windows/choco-list.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/windows/choco-list.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/choco-list.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/choco-list.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco list
 

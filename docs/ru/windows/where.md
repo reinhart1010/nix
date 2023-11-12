@@ -3,18 +3,23 @@ layout: page
 title: windows/where (русский)
 description: "Показ расположения файлов, удовлетворяющих шаблону поиска."
 content_hash: 795eb40cd59cb910b0ab09a84adc55e34fcd7250
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/where.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/where.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/windows/where.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/where.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># where
+# where
 
 Показ расположения файлов, удовлетворяющих шаблону поиска.
 По умолчанию поиск производится в текущей папке и по путям в переменной окружения PATH.

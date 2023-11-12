@@ -3,7 +3,7 @@ layout: page
 title: common/beanstalkd (English)
 description: "A simple and generic work-queue server."
 content_hash: 1a916aa45d70cae88b2955163af8fde7dfd3814b
-last_modified_at: 2023-06-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/beanstalkd.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/beanstalkd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # beanstalkd
 

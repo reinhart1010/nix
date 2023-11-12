@@ -3,6 +3,7 @@ layout: page
 title: common/git-add (Türkçe)
 description: "Değiştirilmiş dosyaları indekse ekle."
 content_hash: 3296f3781d9dadbbd4a55884f01431b465e5cbae
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-add.html
@@ -34,6 +35,7 @@ related_topics:
   - title: українська version
     url: /uk/common/git-add.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git add
 

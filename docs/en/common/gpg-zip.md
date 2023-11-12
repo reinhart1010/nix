@@ -3,10 +3,12 @@ layout: page
 title: common/gpg-zip (English)
 description: "Encrypt files and directories in an archive using GPG."
 content_hash: 55b253f4a20874148b183ee09d0b7d10306e97ad
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/common/gpg-zip.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gpg-zip
 

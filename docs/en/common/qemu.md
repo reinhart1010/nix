@@ -3,6 +3,8 @@ layout: page
 title: common/qemu (English)
 description: "Generic machine emulator and virtualizer."
 content_hash: c9667f46a29b736f15ea45d83427115387730855
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # qemu
 

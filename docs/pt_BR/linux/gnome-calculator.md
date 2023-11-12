@@ -3,15 +3,17 @@ layout: page
 title: linux/gnome-calculator (português (Brasil))
 description: "A calculadora oficial para o ambiente de desktop GNOME."
 content_hash: 40ce80a9046c1bcd7566c880dc18fc8191ccf673
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/gnome-calculator.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/gnome-calculator.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gnome-calculator
+# gnome-calculator
 
 A calculadora oficial para o ambiente de desktop GNOME.
 Mais informações: <https://wiki.gnome.org/Apps/Calculator>.

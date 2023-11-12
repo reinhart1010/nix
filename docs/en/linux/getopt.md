@@ -3,7 +3,8 @@ layout: page
 title: linux/getopt (English)
 description: "Parse command-line arguments."
 content_hash: dbb04b53a1d6e5fbcfbdf322f4624be63cefeddf
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # getopt
 

@@ -3,7 +3,8 @@ layout: page
 title: common/nix3-run (English)
 description: "Run an application from a Nix flake."
 content_hash: 8169a8973d0544489a64756c753eca3167a4b05e
-last_modified_at: 2023-08-22
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # nix run
 

@@ -3,11 +3,12 @@ layout: page
 title: common/az-group (español)
 description: "Administra grupos de recursos e implementaciones de plantillas."
 content_hash: fa8ba0b295c1395d6dfa8c7bb46ed1caed53a060
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/az-group.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # az group
 

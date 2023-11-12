@@ -3,6 +3,7 @@ layout: page
 title: common/git-mergetool (Türkçe)
 description: "Birleştirme sırasında yaşanan karışıklıkları çözmek için karışıklık çözücü araçları çalıştırır."
 content_hash: d36f3373e89ade6ea3be80f1067f30b0918e457a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-mergetool.html
@@ -10,6 +11,7 @@ related_topics:
   - title: français version
     url: /fr/common/git-mergetool.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git mergetool
 

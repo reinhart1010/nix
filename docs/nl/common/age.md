@@ -3,7 +3,7 @@ layout: page
 title: common/age (Nederlands)
 description: "Een eenvoudige, moderne en veilige tool voor het versleutelen van bestanden."
 content_hash: 4f31be1afac219d7f6255a10a79b02624280039d
-last_modified_at: 2023-11-02
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/age.html
@@ -26,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/age.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # age
 

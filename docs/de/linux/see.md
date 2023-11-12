@@ -3,10 +3,12 @@ layout: page
 title: linux/see (Deutsch)
 description: "Alias für die Ansicht von `run-mailcap`."
 content_hash: 99a629f062dd66cce9d33fac0304ea76f14f5260
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/see.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # see
 

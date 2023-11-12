@@ -3,10 +3,15 @@ layout: page
 title: osx/xattr (English)
 description: "Utility to work with extended filesystem attributes."
 content_hash: b47b316ea74c27cceb636f5204d0544774fb3647
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/osx/xattr.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/xattr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xattr
 

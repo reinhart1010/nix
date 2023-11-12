@@ -3,7 +3,8 @@ layout: page
 title: common/jhipster (English)
 description: "Web application generator using either monolithic or microservices architecture."
 content_hash: e535c576d50ec41af93c2d60b337bd91d3ab36a9
-last_modified_at: 2023-09-10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # jhipster
 

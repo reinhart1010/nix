@@ -3,6 +3,7 @@ layout: page
 title: common/dig (English)
 description: "DNS lookup utility."
 content_hash: 8ac985f563a8ee262028956f09f1a9176239c0df
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/dig.html
@@ -19,6 +20,10 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/dig.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/dig.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dig
 

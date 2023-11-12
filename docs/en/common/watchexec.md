@@ -3,7 +3,8 @@ layout: page
 title: common/watchexec (English)
 description: "Run arbitrary commands when files change."
 content_hash: 273b393f5e55d5b88d346c4d321da38773423e0e
-last_modified_at: 2023-08-23
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # watchexec
 

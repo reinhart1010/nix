@@ -3,11 +3,14 @@ layout: page
 title: common/mcs (English)
 description: "Mono C# Compiler."
 content_hash: f3ae14da928d04798e1d62b38eb25c22dd52e8dc
+last_modified_at: 2023-11-12
+related_topics:
+  - title: русский version
+    url: /ru/common/mcs.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mcs
+# mcs
 
 Mono C# Compiler.
 More information: <https://manned.org/mcs.1>.

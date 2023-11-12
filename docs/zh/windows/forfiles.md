@@ -3,10 +3,12 @@ layout: page
 title: windows/forfiles (中文)
 description: "选择一个或多个文件以执行指定的命令。"
 content_hash: 86ef9be6393584fbe9ef0fdc0b8e752c11f750b7
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/forfiles.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # forfiles
 

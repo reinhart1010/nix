@@ -3,6 +3,12 @@ layout: page
 title: linux/protontricks (English)
 description: "A simple wrapper that runs Winetricks commands for Proton enabled games."
 content_hash: 3ccbe23fb2e2d8847b133089c3372cac32259516
+last_modified_at: 2023-11-12
+related_topics:
+  - title: தமிழ் version
+    url: /ta/linux/protontricks.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # protontricks
 

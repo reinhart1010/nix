@@ -3,10 +3,12 @@ layout: page
 title: windows/rdpsign (中文)
 description: "用于签名远程桌面协议（RDP）文件的工具。"
 content_hash: bf98114243c613518d8ec25bd6cac7dc9d35e0c7
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/rdpsign.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rdpsign
 

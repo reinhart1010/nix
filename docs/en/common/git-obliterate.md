@@ -3,6 +3,8 @@ layout: page
 title: common/git-obliterate (English)
 description: "Delete specific files and erase their history from a Git repository."
 content_hash: eb5f6a7e9b58d54788ef92a0be504ce63065003c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git obliterate
 

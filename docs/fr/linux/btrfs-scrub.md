@@ -3,14 +3,18 @@ layout: page
 title: linux/btrfs-scrub (français)
 description: "Éxaminer un système de fichiers btrfs pour vérifier l'intégrité de ses données."
 content_hash: 201941a5679b43acf996545846f3ede1a19a232f
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/btrfs-scrub.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/btrfs-scrub.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/btrfs-scrub.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # btrfs scrub
 

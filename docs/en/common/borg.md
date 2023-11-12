@@ -3,6 +3,7 @@ layout: page
 title: common/borg (English)
 description: "Deduplicating backup tool."
 content_hash: ff40c8cd6e4ab70919928dad341d075ad09ed465
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/borg.html
@@ -16,6 +17,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/borg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # borg
 

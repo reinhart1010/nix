@@ -3,9 +3,13 @@ layout: page
 title: common/astronomer (français)
 description: "Outil qui détecte les étoiles non-légitimes d'un robot sur les projets GitHub."
 content_hash: 0406e5ef26c276d58918b3de7e254bcad1d31ca2
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/astronomer.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/astronomer.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/astronomer.html
@@ -16,11 +20,9 @@ related_topics:
   - title: polski version
     url: /pl/common/astronomer.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># astronomer
+# astronomer
 
 Outil qui détecte les étoiles non-légitimes d'un robot sur les projets GitHub.
 Plus d'informations : <https://github.com/Ullaakut/astronomer>.

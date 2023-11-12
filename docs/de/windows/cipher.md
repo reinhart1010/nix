@@ -3,7 +3,7 @@ layout: page
 title: windows/cipher (Deutsch)
 description: "Zeigt oder Verändert die Verschlüsselung von Verzeichnissen und Dateien auf NTFS-Laufwerken."
 content_hash: 2c2034b6b46670bbfc3749d4e669416165683888
-last_modified_at: 2022-12-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/cipher.html
@@ -14,11 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/cipher.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cipher
+# cipher
 
 Zeigt oder Verändert die Verschlüsselung von Verzeichnissen und Dateien auf NTFS-Laufwerken.
 Weitere Informationen: <https://learn.microsoft.com/windows-server/administration/windows-commands/cipher>.

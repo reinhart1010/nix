@@ -3,10 +3,15 @@ layout: page
 title: osx/ping (English)
 description: "Send ICMP ECHO_REQUEST packets to network hosts."
 content_hash: 4b8fdb3299601d1b32f0c74e25e306b8bfc288b3
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/osx/ping.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/ping.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ping
 

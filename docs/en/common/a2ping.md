@@ -3,12 +3,23 @@ layout: page
 title: common/a2ping (English)
 description: "Convert images into EPS or PDF files."
 content_hash: 0694259dc5300cccf98f251f83782f77c91b6771
-last_modified_at: 2023-10-14
+last_modified_at: 2023-11-12
+related_topics:
+  - title: বাংলা version
+    url: /bn/common/a2ping.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/common/a2ping.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/a2ping.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/a2ping.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># a2ping
+# a2ping
 
 Convert images into EPS or PDF files.
 More information: <https://manned.org/a2ping>.

@@ -3,7 +3,7 @@ layout: page
 title: android/settings (বাংলা)
 description: "Android OS সম্পর্কে তথ্য পান।"
 content_hash: 7091a5f108cad023fab95345e5b2b7ebe02af07d
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/android/settings.html
@@ -59,6 +59,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/settings.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # settings
 

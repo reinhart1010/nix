@@ -3,7 +3,7 @@ layout: page
 title: osx/launchctl (Nederlands)
 description: "Beheer Apple's `launchd` manager voor launch daemons (systeembrede diensten) en launch agents (programma's per gebruiker)."
 content_hash: 0f721247fd94b18a3934673a34b268efb0bcbfb9
-last_modified_at: 2023-10-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/launchctl.html
@@ -11,11 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/launchctl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># launchctl
+# launchctl
 
 Beheer Apple's `launchd` manager voor launch daemons (systeembrede diensten) en launch agents (programma's per gebruiker).
 `launchd` laadt op XML gebaseerde `*.plist`-bestanden die op de juiste locaties zijn geplaatst, en voert de corresponderende commando's uit volgens hun gedefinieerde schema.

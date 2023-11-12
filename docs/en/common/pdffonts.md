@@ -3,6 +3,8 @@ layout: page
 title: common/pdffonts (English)
 description: "Portable Document Format (PDF) file fonts information viewer."
 content_hash: 56fbe73390f981b297e0c28079195bf36659b558
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pdffonts
 

@@ -3,13 +3,18 @@ layout: page
 title: common/jar (português (Brasil))
 description: "Compactador de Bibliotecas e Aplicações Java."
 content_hash: 1d99786a593c0db788c8caa55d768bafc1c5eb44
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/jar.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/jar.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/jar.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # jar
 

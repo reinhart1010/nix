@@ -3,6 +3,7 @@ layout: page
 title: common/csc (한국어)
 description: "마이크로 소프트 사의 C# 컴파일러."
 content_hash: eab59133e71d0664448bcdd533c59b8607fb94ec
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/csc.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/csc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # csc
 

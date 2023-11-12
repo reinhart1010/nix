@@ -3,6 +3,8 @@ layout: page
 title: common/tailscale (English)
 description: "A private WireGuard network service."
 content_hash: c5a60f3e6c7bdef853160e7e2a43978b900a179a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tailscale
 

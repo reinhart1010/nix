@@ -3,7 +3,7 @@ layout: page
 title: linux/btrfs (हिन्दी)
 description: "लिनक्स के लिए कॉपी-ऑन-राइट (COW) सिद्धांत पर आधारित एक फ़ाइल सिस्टम।"
 content_hash: cf4939ec6dd8d2b4d108fe79936b880c425c517c
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/btrfs.html
@@ -17,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/btrfs.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # btrfs
 

@@ -3,7 +3,8 @@ layout: page
 title: common/trash-cli (English)
 description: "A command-line interface to the trashcan APIs."
 content_hash: f0aaa5c7e3312ee87947b897ff14d478a3fff4bc
-last_modified_at: 2022-12-08
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # trash-cli
 

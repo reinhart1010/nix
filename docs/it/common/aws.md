@@ -3,12 +3,19 @@ layout: page
 title: common/aws (italiano)
 description: "Il tool da linea di comando ufficiale per Amazon Web Services."
 content_hash: f0afb2a1d3f36a9e38cb7eddf19397c24ec17bab
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/aws.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/aws.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/aws.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/aws.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/aws.html
@@ -19,15 +26,13 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/aws.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/aws.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/aws.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># aws
 

@@ -3,7 +3,8 @@ layout: page
 title: common/yq (English)
 description: "A lightweight and portable command-line YAML processor."
 content_hash: c1731bf22d0ddea5575c14eac97e9e55adef35fc
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # yq
 

@@ -3,6 +3,7 @@ layout: page
 title: common/csvsort (한국어)
 description: "csvkit에 포함된 CSV 파일을 정렬."
 content_hash: 4a37e2e2f16add9dccf0df4a3a238775eec091af
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/csvsort.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/csvsort.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # csvsort
 

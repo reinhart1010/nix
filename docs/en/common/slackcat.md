@@ -3,6 +3,8 @@ layout: page
 title: common/slackcat (English)
 description: "Utility for passing files and command output to Slack."
 content_hash: 56848414ce674267dbd8c6f7caa62d14a9c9bb6e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # slackcat
 

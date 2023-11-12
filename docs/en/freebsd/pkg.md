@@ -3,7 +3,12 @@ layout: page
 title: freebsd/pkg (English)
 description: "FreeBSD package manager."
 content_hash: 106dfe04368acbeb093bf5acd6c31a8edd24ab2b
-last_modified_at: 2023-10-30
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Nederlands version
+    url: /nl/freebsd/pkg.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pkg
 

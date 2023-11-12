@@ -3,6 +3,7 @@ layout: page
 title: common/fmt (English)
 description: "Reformat a text file by joining its paragraphs and limiting the line width to given number of characters (75 by default)."
 content_hash: ef21f095733f08b23dd446f5655747d4eed44a32
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/fmt.html
@@ -10,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/fmt.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fmt
 

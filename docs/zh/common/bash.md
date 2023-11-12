@@ -3,7 +3,7 @@ layout: page
 title: common/bash (中文)
 description: "Bourne-Again SHell."
 content_hash: 47ea21965ed8d1045f11f22885ad247cc45fc2f4
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/bash.html
@@ -32,6 +32,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/bash.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bash
 

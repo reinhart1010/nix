@@ -3,7 +3,7 @@ layout: page
 title: common/brew (한국어)
 description: "macOS와 Linux를 위한 패키지 관리자."
 content_hash: cb35c474a7f38bf8a7def7e438432b4cc332619c
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/brew.html
@@ -29,6 +29,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/brew.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # brew
 

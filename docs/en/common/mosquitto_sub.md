@@ -3,6 +3,8 @@ layout: page
 title: common/mosquitto_sub (English)
 description: "A simple MQTT version 3.1.1 client that will subscribe to topics and print the messages that it receives."
 content_hash: b160a4b9b9d8c834c5e884764663b4455f5cbb2a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mosquitto_sub
 

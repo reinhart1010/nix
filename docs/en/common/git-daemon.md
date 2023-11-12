@@ -3,6 +3,8 @@ layout: page
 title: common/git-daemon (English)
 description: "A really simple server for Git repositories."
 content_hash: f1dbe7719de6206a343e9e2abe71e6b64aaf6ba7
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git daemon
 

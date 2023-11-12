@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman-files (polski)
 description: "Narzędzie do zarządzania pakietami w Arch Linuksie."
 content_hash: c71da61f99988c5495ce69206604efb7b30ea711
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-files.html
@@ -17,11 +17,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/linux/pacman-files.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pacman --files
+# pacman --files
 
 Narzędzie do zarządzania pakietami w Arch Linuksie.
 Zobacz także: `pacman`, `pkgfile`.

@@ -3,6 +3,7 @@ layout: page
 title: windows/choco-feature (Deutsch)
 description: "Interagiere mit Funktionen, die das Verhalten von Chocolatey verändern."
 content_hash: e7d110a3e99b235f54250e9d1851e76a37a514fa
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/choco-feature.html
@@ -10,9 +11,16 @@ related_topics:
   - title: 日本語 version
     url: /ja/windows/choco-feature.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/windows/choco-feature.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/choco-feature.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/choco-feature.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco feature
 

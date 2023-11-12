@@ -3,11 +3,10 @@ layout: page
 title: linux/virt-xml-validate (English)
 description: "Validate `libvirt` XML files against a schema."
 content_hash: 34aa7cc6e9d289417cbb6d80144a788c7461004a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># virt-xml-validate
+# virt-xml-validate
 
 Validate `libvirt` XML files against a schema.
 If a schema is not specified, the schema is determined by the root element in the XML file.

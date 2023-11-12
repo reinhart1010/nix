@@ -3,7 +3,7 @@ layout: page
 title: osx/xcodes-runtimes (Indonesia)
 description: "Atur pemasangan runtime Simulator yang tersedia bagi aplikasi Xcode."
 content_hash: c5954a6ca3ba55c6992111c993693e580b59b212
-last_modified_at: 2023-10-30
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/xcodes-runtimes.html
@@ -14,6 +14,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/osx/xcodes-runtimes.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xcodes runtimes
 

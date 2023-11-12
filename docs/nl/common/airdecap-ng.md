@@ -3,11 +3,12 @@ layout: page
 title: common/airdecap-ng (Nederlands)
 description: "Decodeer een WEP-, WPA- of WPA2-gecodeerd opnamebestand."
 content_hash: f1466f1b48e76aa89259258132190be2887b590f
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/airdecap-ng.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # airdecap-ng
 

@@ -3,6 +3,8 @@ layout: page
 title: common/rscript (English)
 description: "Run a script with the R programming language."
 content_hash: ae03b71c17a0e3a61ebf3430923bf352ac066f3e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # Rscript
 

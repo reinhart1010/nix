@@ -3,7 +3,7 @@ layout: page
 title: osx/gtty (polski)
 description: "To polecenie jest aliasem `-p linux tty`."
 content_hash: fe96e013d85bb29eda235ee8f355594d283bd7d2
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gtty.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gtty.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gtty
 

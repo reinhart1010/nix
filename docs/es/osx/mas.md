@@ -3,7 +3,7 @@ layout: page
 title: osx/mas (español)
 description: "Interfaz de línea de comandos para la Mac App Store."
 content_hash: 55ff1e573c176c44510e4f0fee6f64e9df9889c3
-last_modified_at: 2023-11-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/mas.html
@@ -11,11 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/mas.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mas
+# mas
 
 Interfaz de línea de comandos para la Mac App Store.
 Más información: <https://github.com/mas-cli/mas>.

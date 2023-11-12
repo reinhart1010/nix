@@ -3,7 +3,8 @@ layout: page
 title: common/betty (English)
 description: "Use natural language to execute commands."
 content_hash: e110195ec5bd0e26bf97332f2b939f5e1f8be45b
-last_modified_at: 2023-04-11
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # betty
 

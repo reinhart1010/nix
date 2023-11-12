@@ -3,12 +3,14 @@ layout: page
 title: common/aws-cloud9 (English)
 description: "Manage Cloud9 - a collection of tools to code, build, run, test, debug, and release software in the cloud."
 content_hash: b0eb49f6fbb8aa915755bc350c41a3ee146a70b7
-last_modified_at: 2023-08-25
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/aws-cloud9.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws cloud9
+# aws cloud9
 
 Manage Cloud9 - a collection of tools to code, build, run, test, debug, and release software in the cloud.
 More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloud9/index.html>.

@@ -3,6 +3,7 @@ layout: page
 title: common/cradle-elastic (italiano)
 description: "Gestisci le istanze ElasticSearch per un'istanza Cradle."
 content_hash: ea52ab8b882216b95870e8aacc334e9e1be1675b
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/cradle-elastic.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cradle-elastic.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cradle elastic
 

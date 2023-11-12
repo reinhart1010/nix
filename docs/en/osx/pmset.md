@@ -3,10 +3,12 @@ layout: page
 title: osx/pmset (English)
 description: "Configure macOS power management settings, as one might do in System Preferences > Energy Saver."
 content_hash: 20a4972edbdbd265e663b461876b571e9cc911c6
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/osx/pmset.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pmset
 

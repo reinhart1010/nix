@@ -3,6 +3,8 @@ layout: page
 title: common/smbmap (English)
 description: "Allow users to enumerate samba share drives across an entire domain."
 content_hash: 7c9eb099bd44d9f16aa606aea629fe7cfdbab677
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # smbmap
 

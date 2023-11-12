@@ -3,15 +3,14 @@ layout: page
 title: linux/openvpn3 (中文)
 description: "OpenVPN 3 Linux 客户端。"
 content_hash: 29d168b6ce9336acd1258b2913af87fb75441b5f
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/openvpn3.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># openvpn3
+# openvpn3
 
 OpenVPN 3 Linux 客户端。
 更多信息：<https://community.openvpn.net/openvpn/wiki/OpenVPN3Linux>.

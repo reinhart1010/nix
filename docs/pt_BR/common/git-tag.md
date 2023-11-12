@@ -3,6 +3,7 @@ layout: page
 title: common/git-tag (português (Brasil))
 description: "Cria, exibe, exclui ou verifica tags."
 content_hash: 0b7b3af20f998a9d294baa6ad5acb8617db2701f
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-tag.html
@@ -19,6 +20,10 @@ related_topics:
   - title: italiano version
     url: /it/common/git-tag.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-tag.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git tag
 

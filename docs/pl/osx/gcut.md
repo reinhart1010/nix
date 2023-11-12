@@ -3,7 +3,7 @@ layout: page
 title: osx/gcut (polski)
 description: "To polecenie jest aliasem `-p linux cut`."
 content_hash: 586c97a555e3c5065e8da520fe5c0e6ad0715dce
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gcut.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gcut.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gcut
 

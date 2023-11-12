@@ -3,9 +3,13 @@ layout: page
 title: windows/tree (Indonesia)
 description: "Menampilkan struktur direktori pada suatu lokasi dengan tampilan grafis pohon."
 content_hash: 14a8d572e99a35d96a65ddd36cc55e46b8618f3a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/tree.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/tree.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/tree.html
@@ -16,6 +20,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/tree.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tree
 

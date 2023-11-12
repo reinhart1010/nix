@@ -3,7 +3,7 @@ layout: page
 title: common/autoflake (español)
 description: "Una herramienta para eliminar importaciones y variables no utilizadas del código Python."
 content_hash: 013d42901a24725aadb2c4e932dbef618f2803b7
-last_modified_at: 2023-07-10
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/autoflake.html
@@ -20,11 +20,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/autoflake.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># autoflake
+# autoflake
 
 Una herramienta para eliminar importaciones y variables no utilizadas del código Python.
 Más información: <https://github.com/myint/autoflake>.

@@ -3,7 +3,8 @@ layout: page
 title: common/xmlstarlet (English)
 description: "A command-line XML/XSLT toolkit."
 content_hash: 3022073933a5ce785dde5310bec6f2bc6544337e
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xmlstarlet
 

@@ -3,6 +3,12 @@ layout: page
 title: linux/daemonize (English)
 description: "Run a command (that does not daemonize itself) as a Unix daemon."
 content_hash: 92c29201cfd1f9dcb02f1e109070370ef2c271a4
+last_modified_at: 2023-11-12
+related_topics:
+  - title: français version
+    url: /fr/linux/daemonize.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # daemonize
 

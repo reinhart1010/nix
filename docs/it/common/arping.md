@@ -3,13 +3,24 @@ layout: page
 title: common/arping (italiano)
 description: "Scopri e interroga host in una rete utilizzando il protocollo ARP."
 content_hash: 98b43a6484838ff832601bdcd80c8fffd367daae
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/arping.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/arping.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/arping.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/arping.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/arping.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # arping
 

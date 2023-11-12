@@ -3,6 +3,7 @@ layout: page
 title: common/boot (English)
 description: "Build tooling for the Clojure programming language."
 content_hash: a7eb28445c2203022c0b0a25a21b16f20e90149b
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/boot.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/boot.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # boot
 

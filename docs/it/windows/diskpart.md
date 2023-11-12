@@ -3,14 +3,18 @@ layout: page
 title: windows/diskpart (italiano)
 description: "Gestore di dischi, volumi e partizioni."
 content_hash: 3bfe99c203c95d24c556fc08aa73894d2a35966e
-last_modified_at: 2023-04-13
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/diskpart.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/diskpart.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/windows/diskpart.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # diskpart
 

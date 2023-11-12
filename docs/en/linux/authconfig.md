@@ -3,7 +3,7 @@ layout: page
 title: linux/authconfig (English)
 description: "Configure system authentication resources."
 content_hash: e4ad8cefd5d47db2c4da41ac4baa7c19e6a32269
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/authconfig.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/authconfig.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # authconfig
 

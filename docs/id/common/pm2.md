@@ -3,11 +3,12 @@ layout: page
 title: common/pm2 (Indonesia)
 description: "Manajer proses untuk Node.js."
 content_hash: f386b72b39520d7084bb1521f39b4fadf6e0d75e
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/pm2.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pm2
 

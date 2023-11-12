@@ -3,6 +3,8 @@ layout: page
 title: common/doctl-kubernetes-cluster (English)
 description: "Manage Kubernetes clusters and view configuration options relating to clusters."
 content_hash: feac679dbf334c8e6bc464cb214007b01cc6f219
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # doctl kubernetes cluster
 

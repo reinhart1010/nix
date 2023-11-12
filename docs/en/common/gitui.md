@@ -3,7 +3,8 @@ layout: page
 title: common/gitui (English)
 description: "Terminal UI for Git."
 content_hash: e1b9b6b0566e85bcf961de034147cbc373906239
-last_modified_at: 2023-10-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gitui
 

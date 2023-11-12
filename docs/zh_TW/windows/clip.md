@@ -3,7 +3,7 @@ layout: page
 title: windows/clip (中文 (繁體, 台灣))
 description: "將輸入的內容複製到 Windows 剪貼簿中。"
 content_hash: 8c9ef96735bba04bcd6f7c7eb17bcd9a52b2508a
-last_modified_at: 2023-10-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/clip.html
@@ -23,11 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/clip.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># clip
+# clip
 
 將輸入的內容複製到 Windows 剪貼簿中。
 更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/clip>.

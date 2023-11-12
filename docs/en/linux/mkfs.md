@@ -3,10 +3,18 @@ layout: page
 title: linux/mkfs (English)
 description: "Build a Linux filesystem on a hard disk partition."
 content_hash: 807634959f735be39b828998902a5289e5a05bd2
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/linux/mkfs.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/mkfs.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/mkfs.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mkfs
 

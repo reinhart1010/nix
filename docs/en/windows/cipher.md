@@ -3,7 +3,7 @@ layout: page
 title: windows/cipher (English)
 description: "Display or alter the encryption of directories and files on NTFS volumes."
 content_hash: d17a1486fee4c040168998eedcafc4139ab687ce
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/cipher.html
@@ -14,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/cipher.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cipher
 

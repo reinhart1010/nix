@@ -3,7 +3,7 @@ layout: page
 title: common/pip (English)
 description: "Python package manager."
 content_hash: 6754f6c1dc8acddd4d82e1edbb6ddf4880b16eed
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/pip.html
@@ -17,6 +17,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/pip.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pip
 

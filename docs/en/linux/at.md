@@ -3,13 +3,18 @@ layout: page
 title: linux/at (English)
 description: "Executes commands at a specified time."
 content_hash: 3d130aa9b383b023f0fad11bae70b6f62d26f0f7
+last_modified_at: 2023-11-12
 related_topics:
+  - title: français version
+    url: /fr/linux/at.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/at.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/at.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # at
 

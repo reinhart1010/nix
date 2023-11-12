@@ -3,7 +3,7 @@ layout: page
 title: common/brew (italiano)
 description: "Gestore di pacchetti per macOS."
 content_hash: 6c7561ae581bdd254fbd3a05f8ae1e06c5b4a0bb
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/brew.html
@@ -29,6 +29,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/brew.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # brew
 

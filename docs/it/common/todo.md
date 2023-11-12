@@ -3,10 +3,15 @@ layout: page
 title: common/todo (italiano)
 description: "Un semplice gestore per i todo da linea di comando."
 content_hash: 0c34a04385da3e0d09ba7c89d4983edea3ca49a5
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/todo.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/todo.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # todo
 

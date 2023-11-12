@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman (中文)
 description: "Arch Linux 的软件包管理器工具。"
 content_hash: ac6009b1edd8fb0e97bcaf2d3da78e02b8902d5a
-last_modified_at: 2023-05-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -35,6 +35,10 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/pacman.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/pacman.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pacman
 

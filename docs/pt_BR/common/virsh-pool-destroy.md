@@ -3,16 +3,17 @@ layout: page
 title: common/virsh-pool-destroy (português (Brasil))
 description: "Interrompe um pool de armazenamento ativo de máquina virtual."
 content_hash: 72ef7253455316d073170c2dffb7400f1276d314
-last_modified_at: 2023-09-18
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/virsh-pool-destroy.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/virsh-pool-destroy.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># virsh pool-destroy
+# virsh pool-destroy
 
 Interrompe um pool de armazenamento ativo de máquina virtual.
 Veja também: `virsh`, `virsh-pool-delete`.

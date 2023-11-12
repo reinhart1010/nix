@@ -3,6 +3,7 @@ layout: page
 title: common/berks (English)
 description: "Chef cookbook dependency manager."
 content_hash: 9c21fb6569ca4abe74d9d39c89648505112dc909
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/berks.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/berks.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # berks
 

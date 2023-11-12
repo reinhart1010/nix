@@ -3,18 +3,20 @@ layout: page
 title: common/autopep8 (français)
 description: "Formate du code Python en accord avec le style PEP 8."
 content_hash: 254cf863dbc5565396b39b0ff22a1502c0136565
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/autopep8.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/autopep8.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/autopep8.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># autopep8
+# autopep8
 
 Formate du code Python en accord avec le style PEP 8.
 Plus d'informations : <https://github.com/hhatto/autopep8>.

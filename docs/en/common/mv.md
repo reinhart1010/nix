@@ -3,7 +3,7 @@ layout: page
 title: common/mv (English)
 description: "Move or rename files and directories."
 content_hash: 82306a4773ddb9b60784778e19feea31ac5a3935
-last_modified_at: 2023-05-24
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/mv.html
@@ -20,12 +20,16 @@ related_topics:
   - title: italiano version
     url: /it/common/mv.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/mv.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/mv.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/mv.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mv
 

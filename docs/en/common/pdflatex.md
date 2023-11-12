@@ -3,10 +3,12 @@ layout: page
 title: common/pdflatex (English)
 description: "Compile a PDF document from LaTeX source files."
 content_hash: 9d8282b4d6b3c13ae34938ff68eb627715e5572a
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/pdflatex.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pdflatex
 

@@ -3,10 +3,12 @@ layout: page
 title: linux/readelf (中文)
 description: "显示 EFI 文件信息。"
 content_hash: de6371bcbc76964f65be72cc06a20fdf2ee47b2d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/readelf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # readelf
 

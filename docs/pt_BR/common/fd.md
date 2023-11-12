@@ -3,15 +3,14 @@ layout: page
 title: common/fd (português (Brasil))
 description: "Uma alternativa para `find`."
 content_hash: 89dd865e9ab3d41965b9f744cde389d6d0c3b0b3
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/fd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># fd
+# fd
 
 Uma alternativa para `find`.
 Visa ser mais rápido e fácil de usar do que `find`.

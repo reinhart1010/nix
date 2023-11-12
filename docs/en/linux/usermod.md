@@ -3,13 +3,18 @@ layout: page
 title: linux/usermod (English)
 description: "Modifies a user account."
 content_hash: d61ebca4c9ef20e00e6a64934d46ddcfe5653838
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/usermod.html
+    icon: bi bi-globe
   - title: español version
     url: /es/linux/usermod.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/usermod.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # usermod
 

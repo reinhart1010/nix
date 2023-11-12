@@ -3,7 +3,7 @@ layout: page
 title: linux/btrfs-subvolume (français)
 description: "Gestion des sous-volumes et instantanés btrfs."
 content_hash: 6cdf702147a6e2429fca520cc7254a8dc248a072
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/btrfs-subvolume.html
@@ -14,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/btrfs-subvolume.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # btrfs subvolume
 

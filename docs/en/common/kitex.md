@@ -3,11 +3,14 @@ layout: page
 title: common/kitex (English)
 description: "Code generation tool provided by the Go RPC framework Kitex."
 content_hash: 8cb68df462e761a3a6b223f6b61041b59702c301
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 中文 version
+    url: /zh/common/kitex.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># kitex
+# kitex
 
 Code generation tool provided by the Go RPC framework Kitex.
 Kitex accepts both thrift and protobuf IDLs, and supports generating a skeleton of a server side project.

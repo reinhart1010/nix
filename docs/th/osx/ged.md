@@ -3,7 +3,7 @@ layout: page
 title: osx/ged (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux ed`"
 content_hash: 42d63f7aa75841a219719217cb8bfa008267a9e4
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/ged.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/ged.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ged
 

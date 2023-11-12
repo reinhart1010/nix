@@ -3,10 +3,12 @@ layout: page
 title: windows/repair-bde (中文)
 description: "尝试修复或解密损坏的 BitLocker 加密卷。"
 content_hash: d4cb29a9f1b63133af87e04ed0030c680e8cd6fa
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/repair-bde.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # repair-bde
 

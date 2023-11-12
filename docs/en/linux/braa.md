@@ -3,12 +3,10 @@ layout: page
 title: linux/braa (English)
 description: "Ultra-fast mass SNMP scanner allowing multiple hosts simultaneously."
 content_hash: 364b1e9f9dd50c21146dfb4dc9a0f3541650b6e6
-last_modified_at: 2022-12-06
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># braa
+# braa
 
 Ultra-fast mass SNMP scanner allowing multiple hosts simultaneously.
 More information: <https://github.com/mteg/braa>.

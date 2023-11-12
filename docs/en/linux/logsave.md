@@ -3,7 +3,7 @@ layout: page
 title: linux/logsave (English)
 description: "Save the output of a command in a logfile."
 content_hash: aefc6a191cc096aa7e4b8934d2f8a00bb64a73d8
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/logsave.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/logsave.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # logsave
 

@@ -3,10 +3,12 @@ layout: page
 title: common/xcv (português (Brasil))
 description: "Corta, copia e cola na linha de comando."
 content_hash: f01c2222f6e0d39dcd12a1dbf31de8c1c318785f
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/xcv.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xcv
 

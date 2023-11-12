@@ -3,7 +3,7 @@ layout: page
 title: windows/pwsh-where (नेपाली)
 description: "यो आदेश `Where-Object` को उपनाम हो |"
 content_hash: 3186b4067f98aebe4ee494cf6a9564d1a639f1d1
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/pwsh-where.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/pwsh-where.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pwsh-where
 

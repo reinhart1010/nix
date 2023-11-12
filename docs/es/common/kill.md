@@ -3,7 +3,7 @@ layout: page
 title: common/kill (español)
 description: "Envía una señal a un proceso, usualmente relacionado a detener el proceso."
 content_hash: 090debd04fcc1942cd63347eb78b88dd0d252f70
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/kill.html
@@ -17,6 +17,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/kill.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # kill
 

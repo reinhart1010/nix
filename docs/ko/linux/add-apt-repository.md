@@ -3,7 +3,7 @@ layout: page
 title: linux/add-apt-repository (한국어)
 description: "적절한 저장소 정의를 관리합니다."
 content_hash: 78e3b6491c0c2e097de22a7d9a84c95bb0b19d99
-last_modified_at: 2023-10-22
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/add-apt-repository.html
@@ -23,11 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/add-apt-repository.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># add-apt-repository
+# add-apt-repository
 
 적절한 저장소 정의를 관리합니다.
 더 많은 정보: <https://manned.org/apt-add-repository>.

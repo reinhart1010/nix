@@ -3,7 +3,7 @@ layout: page
 title: common/virsh-pool-delete (한국어)
 description: "비활성 가상 머신 스토리지 풀의 기본 스토리지 시스템 삭제."
 content_hash: f4d660e36737de0b42af83bce6193ef4e90eedc1
-last_modified_at: 2023-10-22
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/virsh-pool-delete.html
@@ -11,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/virsh-pool-delete.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # virsh pool-delete
 

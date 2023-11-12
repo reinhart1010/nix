@@ -3,7 +3,7 @@ layout: page
 title: common/git-check-ignore (தமிழ்)
 description: "(\".gitignore\") கோப்புகளை புறக்கணிக்கவும் / விலக்கவும் பகுப்பாய்வு செய்து பிழைத்திருத்தம் செய்யுங்கள்."
 content_hash: 507ab32b7990b507986e51dec61378be0e06f9a6
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-check-ignore.html
@@ -20,6 +20,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-check-ignore.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git check-ignore
 

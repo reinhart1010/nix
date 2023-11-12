@@ -3,6 +3,7 @@ layout: page
 title: common/fish (français)
 description: "Friendly Interactive SHell, un interpréteur de ligne de commande, conçu pour être facile à utiliser."
 content_hash: e01394b90b64b2ecf9879480c13b18dbb152e365
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/fish.html
@@ -10,15 +11,10 @@ related_topics:
   - title: English version
     url: /en/common/fish.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/fish.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># fish
 

@@ -3,7 +3,7 @@ layout: page
 title: common/cabal (English)
 description: "Command-line interface to the Haskell package infrastructure (Cabal)."
 content_hash: 9a17b55870f6b73ee42504a21ab7160d1a39bb3c
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/cabal.html
@@ -17,6 +17,7 @@ related_topics:
   - title: русский version
     url: /ru/common/cabal.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cabal
 

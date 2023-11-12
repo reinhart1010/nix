@@ -3,7 +3,7 @@ layout: page
 title: osx/ghostid (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux hostid`"
 content_hash: 1c09984435eee361d01ad6894f1c52078eb5cc88
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/ghostid.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/ghostid.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ghostid
 

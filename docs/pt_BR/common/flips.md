@@ -3,11 +3,14 @@ layout: page
 title: common/flips (português (Brasil))
 description: "Cria e aplica patches em arquivos IPS e BPS."
 content_hash: bb7376772287b9c34567b6ede5ced61bec7d31c6
+last_modified_at: 2023-11-12
+related_topics:
+  - title: English version
+    url: /en/common/flips.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># flips
+# flips
 
 Cria e aplica patches em arquivos IPS e BPS.
 Mais informações: <https://github.com/Alcaro/Flips>.

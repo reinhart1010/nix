@@ -3,16 +3,14 @@ layout: page
 title: common/uptime (한국어)
 description: "시스템이 실행된 기간 및 기타 정보."
 content_hash: 0fdca25317607dc3acfb64fd34bb3fec10fa0a3e
-last_modified_at: 2023-10-23
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/uptime.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># uptime
+# uptime
 
 시스템이 실행된 기간 및 기타 정보.
 더 많은 정보: <https://www.gnu.org/software/coreutils/uptime>.

@@ -3,7 +3,11 @@ layout: page
 title: common/youtube-dl (Indonesia)
 description: "Unduh video dari YouTube dan situs web lain."
 content_hash: b10410ace2aa28fdd942f5c310b9ed34245099fd
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/common/youtube-dl.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/youtube-dl.html
     icon: bi bi-globe
@@ -13,11 +17,9 @@ related_topics:
   - title: polski version
     url: /pl/common/youtube-dl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># youtube-dl
+# youtube-dl
 
 Unduh video dari YouTube dan situs web lain.
 Informasi lebih lanjut: <http://rg3.github.io/youtube-dl/>.

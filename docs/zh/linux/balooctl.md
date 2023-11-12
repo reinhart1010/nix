@@ -3,10 +3,12 @@ layout: page
 title: linux/balooctl (中文)
 description: "KDE Plasma 的文件索引和搜索框架。"
 content_hash: 1628d47403bd5a362e67b9582477d0c7cd4371c3
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/balooctl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # balooctl
 

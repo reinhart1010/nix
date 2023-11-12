@@ -3,12 +3,10 @@ layout: page
 title: common/dotnet-add-reference (English)
 description: "Add .NET project-to-project references."
 content_hash: 0aa4ace899e546466a2b157a88050d6d44ff06bf
-last_modified_at: 2023-10-18
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dotnet add reference
+# dotnet add reference
 
 Add .NET project-to-project references.
 More information: <https://learn.microsoft.com/dotnet/core/tools/dotnet-add-reference>.

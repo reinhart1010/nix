@@ -3,10 +3,12 @@ layout: page
 title: common/dexdump (English)
 description: "Display information about Android DEX files."
 content_hash: 6ee7f692f154193ec036bf497db538a2a687776d
+last_modified_at: 2023-11-12
 related_topics:
   - title: 한국어 version
     url: /ko/common/dexdump.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dexdump
 

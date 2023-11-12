@@ -3,19 +3,30 @@ layout: page
 title: linux/zypper (español)
 description: "Utilidad para la gestión de paquetes en SUSE y openSUSE."
 content_hash: e7b81cd9d9f6d92b7357b5971e089a9e971201eb
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/zypper.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/zypper.html
     icon: bi bi-globe
   - title: English version
     url: /en/linux/zypper.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/zypper.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/linux/zypper.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/zypper.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/zypper.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # zypper
 

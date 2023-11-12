@@ -3,6 +3,8 @@ layout: page
 title: common/git-brv (English)
 description: "Print a list of branches, sorted by last commit date."
 content_hash: 36db5badb986e53505e989eaf55f74da995c4fd8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git brv
 

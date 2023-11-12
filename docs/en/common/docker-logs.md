@@ -3,9 +3,13 @@ layout: page
 title: common/docker-logs (English)
 description: "Print container logs."
 content_hash: c497cfadeebe03f47c7dcb3434c7f98462663b67
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-logs.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/docker-logs.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/docker-logs.html
@@ -19,6 +23,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-logs.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker logs
 

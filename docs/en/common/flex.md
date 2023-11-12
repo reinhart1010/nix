@@ -3,6 +3,8 @@ layout: page
 title: common/flex (English)
 description: "Lexical analyzer generator. Based on `lex`."
 content_hash: 3a86ea52c37d6cf3f3f8f4f4f0a17a3e353270ba
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # flex
 

@@ -3,10 +3,15 @@ layout: page
 title: osx/m (中文)
 description: "macOS 上的瑞士军刀。"
 content_hash: 7b270a13c8b65d63eec050ab07fb82fb496a212c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/m.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/m.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # m
 

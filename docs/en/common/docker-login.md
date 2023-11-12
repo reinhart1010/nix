@@ -3,7 +3,7 @@ layout: page
 title: common/docker-login (English)
 description: "Log into a docker registry."
 content_hash: 0bbfad430cab7002dfa3689ff42df9b624ed475a
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-login.html
@@ -11,6 +11,10 @@ related_topics:
   - title: français version
     url: /fr/common/docker-login.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/docker-login.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker login
 

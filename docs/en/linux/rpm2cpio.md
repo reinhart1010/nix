@@ -3,11 +3,10 @@ layout: page
 title: linux/rpm2cpio (English)
 description: "Convert an RPM package to a `cpio` archive."
 content_hash: 3c1cd7bd8fde3c225d863ee3dfa77a1ab62adc63
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rpm2cpio
+# rpm2cpio
 
 Convert an RPM package to a `cpio` archive.
 More information: <http://ftp.rpm.org/max-rpm/s1-rpm-miscellania-rpm2cpio.html>.

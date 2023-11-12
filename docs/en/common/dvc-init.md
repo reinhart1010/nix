@@ -3,6 +3,8 @@ layout: page
 title: common/dvc-init (English)
 description: "Initialize a new local DVC repository."
 content_hash: e8e194998ab005de54a4556ca216fca0b1f927cf
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dvc init
 

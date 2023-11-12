@@ -3,6 +3,12 @@ layout: page
 title: osx/spctl (English)
 description: "Manage the security assessment policy subsystem."
 content_hash: c96018fdef699274d14bf6defd3c303eb17d7531
+last_modified_at: 2023-11-12
+related_topics:
+  - title: español version
+    url: /es/osx/spctl.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # spctl
 

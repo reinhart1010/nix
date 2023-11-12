@@ -3,6 +3,7 @@ layout: page
 title: common/git-apply (Deutsch)
 description: "Integriere eine Patch-Datei und/oder füge sie zum Index hinzu."
 content_hash: 1fcd2ad72a43d65bf7408f3a21e35f2407b0ba7d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-apply.html
@@ -13,6 +14,10 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/git-apply.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-apply.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git apply
 

@@ -3,7 +3,7 @@ layout: page
 title: common/git-add (Nederlands)
 description: "Voegt gewijzigde bestanden toe aan de index."
 content_hash: 1c82e72f6282e3d0729f5620e06ffb509da9253f
-last_modified_at: 2023-11-07
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-add.html
@@ -38,9 +38,16 @@ related_topics:
   - title: українська version
     url: /uk/common/git-add.html
     icon: bi bi-globe
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/git-add.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># git add
 

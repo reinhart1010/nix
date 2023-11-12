@@ -3,6 +3,8 @@ layout: page
 title: common/mycli (English)
 description: "A command-line client for MySQL that can do auto-completion and syntax highlighting."
 content_hash: fd8d2e0731e62dbd90df3a17b802f5c028ca66e3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mycli
 

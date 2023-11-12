@@ -3,10 +3,15 @@ layout: page
 title: osx/mdfind (中文)
 description: "列出与给定查询匹配的文件。"
 content_hash: 461bc1bd2e381d53566a73a1a458b2db0868cac8
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/mdfind.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/mdfind.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mdfind
 

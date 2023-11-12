@@ -3,10 +3,12 @@ layout: page
 title: linux/numlockx (Deutsch)
 description: "Steuere den Num-Lock-Tasten-Status in X11-Sitzungen."
 content_hash: 2dc04139ba88ff1ac7ee82918751b7b7369e6cb9
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/numlockx.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # numlockx
 

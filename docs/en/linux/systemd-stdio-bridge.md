@@ -3,12 +3,10 @@ layout: page
 title: linux/systemd-stdio-bridge (English)
 description: "Implement a proxy between `stdin`/`stdout` and a D-Bus."
 content_hash: a80eea5ae4bb75ce0c284f0a32003c4b612235ad
-last_modified_at: 2023-10-30
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># systemd-stdio-bridge
+# systemd-stdio-bridge
 
 Implement a proxy between `stdin`/`stdout` and a D-Bus.
 Note: It expects to receive an open connection via `stdin`/`stdout` when started, and will create a new connection to the specified bus.

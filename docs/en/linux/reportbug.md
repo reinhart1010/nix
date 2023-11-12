@@ -3,6 +3,8 @@ layout: page
 title: linux/reportbug (English)
 description: "Bug report tool of Debian distribution."
 content_hash: 7886fcbe943f5c24813b72df837b50bd0c6ce545
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # reportbug
 

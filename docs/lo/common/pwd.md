@@ -3,7 +3,11 @@ layout: page
 title: common/pwd (ລາວ)
 description: "ສະແດງຊື່ directory ທີ່ເຮັດວຽກຢູ່"
 content_hash: b521a46801e47efc232e6c089c8b060794edc4b4
+last_modified_at: 2023-11-12
 related_topics:
+  - title: العربية version
+    url: /ar/common/pwd.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/pwd.html
     icon: bi bi-globe
@@ -22,12 +26,16 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/pwd.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/pwd.html
+    icon: bi bi-globe
   - title: ไทย version
     url: /th/common/pwd.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/pwd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pwd
 

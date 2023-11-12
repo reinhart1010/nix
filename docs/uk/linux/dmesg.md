@@ -3,7 +3,7 @@ layout: page
 title: linux/dmesg (українська)
 description: "Відобразити повідомлення ядра в `stdout`."
 content_hash: fe55c681dd1a965253347174b9e5ae1199c48a12
-last_modified_at: 2023-10-21
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/dmesg.html
@@ -20,11 +20,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/dmesg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dmesg
+# dmesg
 
 Відобразити повідомлення ядра в `stdout`.
 Більше інформації: <https://manned.org/dmesg>.

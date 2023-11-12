@@ -3,11 +3,12 @@ layout: page
 title: linux/xsel (English)
 description: "X11 selection and clipboard manipulation tool."
 content_hash: 38dba975a37b26be53bb121ac383357da4aa4d06
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/linux/xsel.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xsel
 

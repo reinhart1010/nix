@@ -3,7 +3,7 @@ layout: page
 title: linux/archinstall (Nederlands)
 description: "Begeleidende Arch Linux installatie met een twist."
 content_hash: eb575744c06c9da63d336ece576255d99ce8e292
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/archinstall.html
@@ -26,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/archinstall.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # archinstall
 

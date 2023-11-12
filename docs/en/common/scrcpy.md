@@ -3,10 +3,12 @@ layout: page
 title: common/scrcpy (English)
 description: "Display and control your Android device on a desktop."
 content_hash: 390cfb05b47c5d9e2bbb43b07b73cee076b4c006
+last_modified_at: 2023-11-12
 related_topics:
   - title: Indonesia version
     url: /id/common/scrcpy.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # scrcpy
 

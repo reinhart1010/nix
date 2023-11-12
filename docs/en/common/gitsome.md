@@ -3,11 +3,12 @@ layout: page
 title: common/gitsome (English)
 description: "A terminal-based interface for GitHub, accessed via the `gh` command."
 content_hash: af4c3dbf9b116474c65434417c9a0f86dd28b3b3
-last_modified_at: 2023-09-10
+last_modified_at: 2023-11-12
 related_topics:
   - title: Türkçe version
     url: /tr/common/gitsome.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gitsome
 

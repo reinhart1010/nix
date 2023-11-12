@@ -3,10 +3,12 @@ layout: page
 title: common/texdoc (Deutsch)
 description: "Suche nach passenden Dokumentationen für (La)TeX Befehle oder Packages."
 content_hash: de8d3d4e988fd9d534dd7a42558d9b745fa5d2cc
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/texdoc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # texdoc
 

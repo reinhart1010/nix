@@ -3,7 +3,7 @@ layout: page
 title: common/git-blame (English)
 description: "Show commit hash and last author on each line of a file."
 content_hash: c41c896425d592a8120d7cbeb7c2042f36e4f83d
-last_modified_at: 2022-12-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-blame.html
@@ -26,6 +26,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-blame.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git blame
 

@@ -3,12 +3,14 @@ layout: page
 title: linux/apx-stacks (English)
 description: "Manage stacks in `apx`."
 content_hash: 414e1a5ba3a97d8bd41ed12db022406d594bf4d0
-last_modified_at: 2023-09-20
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Nederlands version
+    url: /nl/linux/apx-stacks.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># apx stacks
+# apx stacks
 
 Manage stacks in `apx`.
 Note: user-created stack configurations are stored in `~/.local/share/apx/stacks`.

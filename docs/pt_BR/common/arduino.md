@@ -3,12 +3,20 @@ layout: page
 title: common/arduino (português (Brasil))
 description: "Arduino Studio - Ambiente de Desenvolvimento Integrado para a plataforma Arduino."
 content_hash: 1ee94dfc2e2de326836e2d823fb64ead60e751b8
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/arduino.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/arduino.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# arduino
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># arduino
 
 Arduino Studio - Ambiente de Desenvolvimento Integrado para a plataforma Arduino.
 Mais informações: <https://github.com/arduino/Arduino/blob/master/build/shared/manpage.adoc>.

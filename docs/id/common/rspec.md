@@ -3,15 +3,14 @@ layout: page
 title: common/rspec (Indonesia)
 description: "Kerangka pengujian dalam Behavior-driven development yang ditulis dalam bahasa Ruby untuk menguji kode Ruby."
 content_hash: f8949488bc3db6e6867a1e11701052628e3e4a71
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/rspec.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rspec
+# rspec
 
 Kerangka pengujian dalam Behavior-driven development yang ditulis dalam bahasa Ruby untuk menguji kode Ruby.
 Informasi lebih lanjut: <https://rspec.info>.

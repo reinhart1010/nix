@@ -3,6 +3,7 @@ layout: page
 title: common/git-rebase (Deutsch)
 description: "Wende Commits von einem Branch auf einen anderen Branch an."
 content_hash: 2ee68059abc63845dc329f3c92e06b3ca5f8b90c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-rebase.html
@@ -16,6 +17,16 @@ related_topics:
   - title: italiano version
     url: /it/common/git-rebase.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-rebase.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-rebase.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/git-rebase.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git rebase
 

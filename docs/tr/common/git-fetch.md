@@ -3,6 +3,7 @@ layout: page
 title: common/git-fetch (Türkçe)
 description: "Uzak bir depodaki cisim ve referansları indir."
 content_hash: 1fb1010668815536ed79ee149727b1f510684a99
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-fetch.html
@@ -19,6 +20,7 @@ related_topics:
   - title: italiano version
     url: /it/common/git-fetch.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git fetch
 

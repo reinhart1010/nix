@@ -3,6 +3,8 @@ layout: page
 title: common/php-yii (English)
 description: "Yii Framework's command-line interface."
 content_hash: 62d35ab45c5f6624cbf8fe5187bfbc9ad4f4edc7
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # php yii
 

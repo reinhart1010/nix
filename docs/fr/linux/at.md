@@ -3,6 +3,7 @@ layout: page
 title: linux/at (français)
 description: "Exécute des commandes à des temps détermintés."
 content_hash: 19ae50e572dc1357ed9a20377c204a9e27282134
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/at.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/at.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # at
 

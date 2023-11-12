@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman-remove (français)
 description: "Supprimes des paquets."
 content_hash: 4dc3e64a5a8b48dd075de7f39668eca95697fb8b
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-remove.html
@@ -14,12 +14,16 @@ related_topics:
   - title: Indonesia version
     url: /id/linux/pacman-remove.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/pacman-remove.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/pacman-remove.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/pacman-remove.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pacman --remove
 

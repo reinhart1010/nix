@@ -3,7 +3,11 @@ layout: page
 title: common/cp (中文 (繁體, 台灣))
 description: "複製檔案或整個目錄。"
 content_hash: 8b56b39980d38b8f9320cc375d2ddb30a4c91ec6
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/common/cp.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/cp.html
     icon: bi bi-globe
@@ -34,17 +38,30 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cp.html
     icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/cp.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/cp.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/cp.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/cp.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/cp.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/cp.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# cp
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># cp
 
 複製檔案或整個目錄。
 更多資訊：<https://www.gnu.org/software/coreutils/cp>.

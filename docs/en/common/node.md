@@ -3,7 +3,7 @@ layout: page
 title: common/node (English)
 description: "Server-side JavaScript platform (Node.js)."
 content_hash: fc60706b3dde876ea3073212cd140d3e8a693614
-last_modified_at: 2023-04-10
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/node.html
@@ -23,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/node.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # node
 

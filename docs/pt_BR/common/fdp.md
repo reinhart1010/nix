@@ -3,11 +3,12 @@ layout: page
 title: common/fdp (português (Brasil))
 description: "Renderiza uma imagem de um gráfico de rede `force-directed` a partir de um arquivo `graphviz`."
 content_hash: ce51fc4956f89ff0f8a9b85aef5f5ea7fc398cb2
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/fdp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fdp
 

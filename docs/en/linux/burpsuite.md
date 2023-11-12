@@ -3,11 +3,10 @@ layout: page
 title: linux/burpsuite (English)
 description: "A GUI based application mainly used in web application penetration testing."
 content_hash: 35d24d9527633b105125919b557669c8ccca91c3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># burpsuite
+# burpsuite
 
 A GUI based application mainly used in web application penetration testing.
 More information: <https://portswigger.net/burp/documentation/desktop/getting-started/launch-from-command-line>.

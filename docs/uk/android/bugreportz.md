@@ -3,7 +3,7 @@ layout: page
 title: android/bugreportz (українська)
 description: "Згенерувати зіпований звіт багів."
 content_hash: 6618809d1862743e846c8a3963be7868faa6bcf9
-last_modified_at: 2023-10-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -32,6 +32,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/android/bugreportz.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/android/bugreportz.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/android/bugreportz.html
     icon: bi bi-globe
@@ -59,11 +62,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/bugreportz.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bugreportz
+# bugreportz
 
 Згенерувати зіпований звіт багів.
 Ця команда може бути виконана тільки за допомогою `adb shell`.

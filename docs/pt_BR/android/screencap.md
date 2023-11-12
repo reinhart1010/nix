@@ -3,16 +3,31 @@ layout: page
 title: android/screencap (português (Brasil))
 description: "Tira uma scrennshot do display mobile."
 content_hash: ec3f5a0ef4391e28fa07f3c4fc0afa81a185c375
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/android/screencap.html
+    icon: bi bi-globe
   - title: English version
     url: /en/android/screencap.html
     icon: bi bi-globe
   - title: español version
     url: /es/android/screencap.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/android/screencap.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/android/screencap.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/android/screencap.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/android/screencap.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/android/screencap.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/android/screencap.html
@@ -23,6 +38,13 @@ related_topics:
   - title: Türkçe version
     url: /tr/android/screencap.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/android/screencap.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/android/screencap.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # screencap
 

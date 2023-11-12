@@ -3,6 +3,7 @@ layout: page
 title: common/nvm (English)
 description: "Install, uninstall or switch between Node.js versions."
 content_hash: 2ce449cdc38460dad4b165d202fd0beb17cc48f0
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/nvm.html
@@ -10,6 +11,7 @@ related_topics:
   - title: Indonesia version
     url: /id/common/nvm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nvm
 

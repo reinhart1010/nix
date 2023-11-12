@@ -3,7 +3,7 @@ layout: page
 title: windows/choco (español)
 description: "El gestor de paquetes Chocolatey."
 content_hash: 2c2c68809fe78151cc1c1f5f521474690e2516ea
-last_modified_at: 2023-10-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco.html
@@ -35,6 +35,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/choco.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco
 

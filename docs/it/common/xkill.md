@@ -3,6 +3,7 @@ layout: page
 title: common/xkill (italiano)
 description: "Termina una finestra interattivamente attraverso la sessione grafica."
 content_hash: c99c51f542aeab29f5d69c29797770ac380278d8
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/xkill.html
@@ -19,15 +20,10 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/xkill.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/xkill.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># xkill
 

@@ -3,8 +3,11 @@ layout: page
 title: osx/du (English)
 description: "Disk usage: estimate and summarize file and directory space usage."
 content_hash: c89646c526560472fdc20397508f2a699193d43f
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/osx/du.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/osx/du.html
     icon: bi bi-globe
@@ -14,6 +17,10 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/du.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/osx/du.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # du
 

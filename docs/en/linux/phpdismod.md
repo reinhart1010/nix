@@ -3,6 +3,8 @@ layout: page
 title: linux/phpdismod (English)
 description: "Disable PHP extensions on Debian-based OSes."
 content_hash: a8e2e896efdbb92ad4578add2bd277b5aeda9a18
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # phpdismod
 

@@ -3,7 +3,8 @@ layout: page
 title: common/hg (English)
 description: "Mercurial - a distributed source control management system."
 content_hash: cb0d7c4817639b7473390445f5d0a1ddd1513d5c
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # hg
 

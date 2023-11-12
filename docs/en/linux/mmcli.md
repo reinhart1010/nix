@@ -3,7 +3,8 @@ layout: page
 title: linux/mmcli (English)
 description: "Control and monitor the ModemManager."
 content_hash: fe8ea4d026f395746bd639fbb302ed2441794830
-last_modified_at: 2023-07-24
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mmcli
 

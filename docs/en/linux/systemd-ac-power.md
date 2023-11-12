@@ -3,12 +3,10 @@ layout: page
 title: linux/systemd-ac-power (English)
 description: "Report whether the computer is connected to an external power source."
 content_hash: 4c9f83a101cf843bee6ed3e82f507848932a0a0c
-last_modified_at: 2023-05-15
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># systemd-ac-power
+# systemd-ac-power
 
 Report whether the computer is connected to an external power source.
 More information: <https://www.freedesktop.org/software/systemd/man/systemd-ac-power.html>.

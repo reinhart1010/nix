@@ -3,6 +3,12 @@ layout: page
 title: common/git-credential (English)
 description: "Retrieve and store user credentials."
 content_hash: 07c11010c5e50b7c8aa3e59b523803dee510e096
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Türkçe version
+    url: /tr/common/git-credential.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git credential
 

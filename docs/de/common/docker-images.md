@@ -3,9 +3,13 @@ layout: page
 title: common/docker-images (Deutsch)
 description: "Verwalte Docker Images."
 content_hash: 0a2bd0fa3ea47b86121fa5d43ff19e2f3dc1050c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/docker-images.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/docker-images.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/docker-images.html
@@ -22,8 +26,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-images.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# docker images
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># docker images
 
 Verwalte Docker Images.
 Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/images/>.

@@ -3,11 +3,10 @@ layout: page
 title: linux/telinit (English)
 description: "Change SysV runlevel."
 content_hash: 1886afe1d0dd38a6f8426666e70edebe52a4f83e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># telinit
+# telinit
 
 Change SysV runlevel.
 Since the concept SysV runlevels is obsolete the runlevel requests will be transparently translated into systemd unit activation requests.

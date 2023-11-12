@@ -3,6 +3,8 @@ layout: page
 title: common/bssh (English)
 description: "A GUI tool for browsing for SSH/VNC servers on the local network."
 content_hash: 9d9c093549654eda0edd0a628343f971b2517914
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # bssh
 

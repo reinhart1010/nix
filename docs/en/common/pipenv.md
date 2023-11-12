@@ -3,11 +3,12 @@ layout: page
 title: common/pipenv (English)
 description: "Simple and unified Python development workflow."
 content_hash: b4255a2be430935670cb5019e044e36dda430b46
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/pipenv.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pipenv
 

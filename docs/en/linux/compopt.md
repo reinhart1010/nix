@@ -3,11 +3,10 @@ layout: page
 title: linux/compopt (English)
 description: "Print or change the completion options for a command."
 content_hash: 99d52b0bc6ecab52eb5c3e9d5dda5743a87925d7
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># compopt
+# compopt
 
 Print or change the completion options for a command.
 More information: <https://manned.org/compopt>.

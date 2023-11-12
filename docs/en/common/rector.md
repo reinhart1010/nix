@@ -3,6 +3,8 @@ layout: page
 title: common/rector (English)
 description: "An automated tool for updating and refactoring PHP 5.3+ code."
 content_hash: 610f93bf1a35a903c3d67728255d2262025756cc
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rector
 

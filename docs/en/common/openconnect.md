@@ -3,6 +3,8 @@ layout: page
 title: common/openconnect (English)
 description: "A VPN client, for Cisco AnyConnect VPNs and others."
 content_hash: 73440fee16322c378325bb97e8584be246b03e1b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # openconnect
 

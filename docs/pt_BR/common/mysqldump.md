@@ -3,6 +3,7 @@ layout: page
 title: common/mysqldump (português (Brasil))
 description: "Realizar e restaurar backups no MySQL."
 content_hash: f2f88ee57a04b5267a78fa18adfffc95bff9a826
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/mysqldump.html
@@ -10,15 +11,10 @@ related_topics:
   - title: español version
     url: /es/common/mysqldump.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/mysqldump.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># mysqldump
 

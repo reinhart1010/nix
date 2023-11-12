@@ -3,6 +3,8 @@ layout: page
 title: linux/nft (English)
 description: "Allows configuration of tables, chains and rules provided by the Linux kernel firewall."
 content_hash: dcfc2b87cf3d14999a89f77d10d38d9bd60cb755
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # nft
 

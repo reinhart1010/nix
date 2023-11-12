@@ -3,6 +3,8 @@ layout: page
 title: common/in-toto-record (English)
 description: "Create a signed link metadata file to provide evidence for supply chain steps."
 content_hash: f54ad93ecd1a0c49d3fc8b364945ecb3f5c45122
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # in-toto-record
 

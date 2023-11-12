@@ -3,12 +3,10 @@ layout: page
 title: common/tre (English)
 description: "Show the contents of the current directory as a tree."
 content_hash: 9edef3fd3419d8c66c63ddac81fd82cf55e4667a
-last_modified_at: 2023-07-01
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># tre
+# tre
 
 Show the contents of the current directory as a tree.
 Respects the `.gitignore` settings by default.

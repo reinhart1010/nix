@@ -3,7 +3,7 @@ layout: page
 title: common/sha224sum (English)
 description: "Calculate SHA224 cryptographic checksums."
 content_hash: 44e133e547b516589f5bc5a96d7506a5c646af0f
-last_modified_at: 2023-05-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: sh version
     url: /sh/common/sha224sum.html
@@ -11,6 +11,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/sha224sum.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sha224sum
 

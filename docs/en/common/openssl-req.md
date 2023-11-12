@@ -3,6 +3,8 @@ layout: page
 title: common/openssl-req (English)
 description: "OpenSSL command to manage PKCS#10 Certificate Signing Requests."
 content_hash: b42b0180d8b82ffb9cf5a3ba40688c2b52da7301
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # openssl req
 

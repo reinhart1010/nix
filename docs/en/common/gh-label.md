@@ -3,7 +3,8 @@ layout: page
 title: common/gh-label (English)
 description: "Work with GitHub labels."
 content_hash: 96179b6ea92e5f8d94c391111057eb808100102d
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gh label
 

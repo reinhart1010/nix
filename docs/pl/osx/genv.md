@@ -3,7 +3,7 @@ layout: page
 title: osx/genv (polski)
 description: "To polecenie jest aliasem `-p linux env`."
 content_hash: f9c778f7dbe25a88497ef489da1a0f30360f7773
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/genv.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/genv.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # genv
 

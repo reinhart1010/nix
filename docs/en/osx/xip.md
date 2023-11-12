@@ -3,10 +3,15 @@ layout: page
 title: osx/xip (English)
 description: "Create or expand compressed files in a secure xip archive."
 content_hash: 334b4c6eae3a89d2f21cf9d63743066244dad4d3
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/osx/xip.html
+    icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/osx/xip.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xip
 

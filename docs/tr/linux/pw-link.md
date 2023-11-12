@@ -3,15 +3,14 @@ layout: page
 title: linux/pw-link (Türkçe)
 description: "PipeWire'daki portlar arası linkleri yönet."
 content_hash: 7078351168239f721c52551f4eabff85bcc1324c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/pw-link.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pw-link
+# pw-link
 
 PipeWire'daki portlar arası linkleri yönet.
 Daha fazla bilgi için: <https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-Devices>.

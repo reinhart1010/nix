@@ -3,12 +3,10 @@ layout: page
 title: common/eyuvtoppm (English)
 description: "Convert a Berkeley YUV file to PPM."
 content_hash: 24623236176d7e3eaf0391bf6cd6b09a567d3c68
-last_modified_at: 2023-11-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># eyuvtoppm
+# eyuvtoppm
 
 Convert a Berkeley YUV file to PPM.
 More information: <https://netpbm.sourceforge.net/doc/eyuvtoppm.html>.

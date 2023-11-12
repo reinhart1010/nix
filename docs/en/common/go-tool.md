@@ -3,6 +3,12 @@ layout: page
 title: common/go-tool (English)
 description: "Run a specific Go tool or command."
 content_hash: 076a67b38ad8aba7b0af3496141c8f7ef43bffc9
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Türkçe version
+    url: /tr/common/go-tool.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # go tool
 

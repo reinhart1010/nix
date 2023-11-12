@@ -3,7 +3,7 @@ layout: page
 title: common/git (தமிழ்)
 description: "விநியோகிக்கப்பட்ட பதிப்பு கட்டுப்பாட்டு அமைப்பு."
 content_hash: df70ad7b2a0199ae293c97c89ee07b251291860c
-last_modified_at: 2023-05-22
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
@@ -50,11 +50,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/git.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git
+# git
 
 விநியோகிக்கப்பட்ட பதிப்பு கட்டுப்பாட்டு அமைப்பு.
 `commit`, `add`, `branch`, `checkout`, `push`போன்ற சில துணைக் கட்டளைகள் அவற்றின் சொந்த பயன்பாட்டு ஆவணங்களைக் கொண்டுள்ளன, அவை `tldr git subcommand` வழியாக அணுகலாம்.

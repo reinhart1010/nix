@@ -3,6 +3,7 @@ layout: page
 title: linux/aplay (中文)
 description: "ALSA 声卡驱动程序的命令行声音播放器。"
 content_hash: 70285c1aa9771cd499c66b2b3c34bc6438278cfc
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/aplay.html
@@ -10,6 +11,10 @@ related_topics:
   - title: English version
     url: /en/linux/aplay.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/aplay.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aplay
 

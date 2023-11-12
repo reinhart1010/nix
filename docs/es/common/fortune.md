@@ -3,6 +3,7 @@ layout: page
 title: common/fortune (español)
 description: "Imprime por pantalla una cita aleatoria (al estilo de una galleta de la suerte)."
 content_hash: e4a8298c00b89f5b2dae99f0cbfd497e996d647f
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/fortune.html
@@ -10,6 +11,7 @@ related_topics:
   - title: English version
     url: /en/common/fortune.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fortune
 

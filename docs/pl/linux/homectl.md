@@ -3,16 +3,14 @@ layout: page
 title: linux/homectl (polski)
 description: "Twórz, usuwaj, zmieniaj lub sprawdzaj katalogi domowe używając usługi systemd-homed."
 content_hash: 45b526707dbbcc93895f1570a3f8b6222cf0385c
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/homectl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># homectl
+# homectl
 
 Twórz, usuwaj, zmieniaj lub sprawdzaj katalogi domowe używając usługi systemd-homed.
 Więcej informacji: <https://manned.org/homectl>.

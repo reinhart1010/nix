@@ -3,6 +3,8 @@ layout: page
 title: common/pio-lib (English)
 description: "Manage PlatformIO libraries."
 content_hash: 1211dc314a162d2273d17cf1c50fbb8725333563
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pio lib
 

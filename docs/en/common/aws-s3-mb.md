@@ -3,11 +3,10 @@ layout: page
 title: common/aws-s3-mb (English)
 description: "Create S3 buckets."
 content_hash: 694d3e9f686a507dda91e7571b144781a8312025
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws s3 mb
+# aws s3 mb
 
 Create S3 buckets.
 More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/mb.html>.

@@ -3,6 +3,8 @@ layout: page
 title: linux/pvdisplay (English)
 description: "Display information about Logical Volume Manager (LVM) physical volumes."
 content_hash: 492f87cd276fb7bce5df978f110c0262afdc87ba
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pvdisplay
 

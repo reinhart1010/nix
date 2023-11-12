@@ -3,7 +3,7 @@ layout: page
 title: osx/osascript (español)
 description: "Ejecuta AppleScript o JavaScript for Automation (JXA) desde la línea de comandos."
 content_hash: 24f37348c78980bad41ad14ce862dc8c39ba8a6d
-last_modified_at: 2023-06-30
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/osascript.html
@@ -14,11 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/osascript.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># osascript
+# osascript
 
 Ejecuta AppleScript o JavaScript for Automation (JXA) desde la línea de comandos.
 Más información: <https://ss64.com/osx/osascript.html>.

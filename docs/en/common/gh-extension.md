@@ -3,6 +3,8 @@ layout: page
 title: common/gh-extension (English)
 description: "Manage extensions for the GitHub CLI."
 content_hash: c46fb3c1666ae5a7697bb7fe1427ab02fbdab3d7
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gh extension
 

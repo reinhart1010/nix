@@ -3,7 +3,7 @@ layout: page
 title: osx/gsha384sum (polski)
 description: "To polecenie jest aliasem `-p linux sha384sum`."
 content_hash: 24d176e2a4057eec8b67a71876a9e0ae1b69a569
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gsha384sum.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gsha384sum.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gsha384sum
 

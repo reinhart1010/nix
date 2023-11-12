@@ -3,7 +3,7 @@ layout: page
 title: common/tldr-lint (Türkçe)
 description: "`tldr` sayfalarını gözden geçir ve biçimlendir."
 content_hash: 1529f02843397e5070462ba85e0d492e2be03b9a
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/tldr-lint.html
@@ -14,6 +14,7 @@ related_topics:
   - title: sh version
     url: /sh/common/tldr-lint.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tldr-lint
 

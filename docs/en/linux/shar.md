@@ -3,12 +3,10 @@ layout: page
 title: linux/shar (English)
 description: "Create a shell archive."
 content_hash: 9853bd8fd74f0005a8863846e33d2843436924f8
-last_modified_at: 2023-08-29
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># shar
+# shar
 
 Create a shell archive.
 More information: <https://www.gnu.org/software/sharutils/manual/sharutils.html>.

@@ -3,18 +3,20 @@ layout: page
 title: osx/fsck (português (Brasil))
 description: "Verifica a integridade de um sistema de arquivos ou repara ele. O sistema de arquivos deve ser desmontado no momento em que o comando é executado."
 content_hash: d7dbf93963eb004d8c29370d5120c1df7554d602
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/fsck.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/fsck.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/fsck.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># fsck
+# fsck
 
 Verifica a integridade de um sistema de arquivos ou repara ele. O sistema de arquivos deve ser desmontado no momento em que o comando é executado.
 É um wrapper que chama `fsck_hfs`, `fsck_apfs`, `fsck_msdos`, `fsck_exfat`, e `fsck_udf` conforme necessário.

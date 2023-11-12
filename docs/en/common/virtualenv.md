@@ -3,10 +3,12 @@ layout: page
 title: common/virtualenv (English)
 description: "Create virtual isolated Python environments."
 content_hash: 132b0050af898fd4460b318c3cf970b26cb0a363
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/common/virtualenv.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # virtualenv
 

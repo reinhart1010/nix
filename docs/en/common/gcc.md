@@ -3,7 +3,7 @@ layout: page
 title: common/gcc (English)
 description: "Preprocess and compile C and C++ source files, then assemble and link them together."
 content_hash: fd937b0d33af16459af3e2961c2d161caed0b2e4
-last_modified_at: 2023-02-27
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/gcc.html
@@ -23,6 +23,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/gcc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gcc
 

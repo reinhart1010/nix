@@ -3,6 +3,7 @@ layout: page
 title: common/git-checkout (español)
 description: "Comprueba una rama o rutas con el arbol de trabajo."
 content_hash: 70fbee437c83b0f9deb180227e59d54ce8fd3c6c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-checkout.html
@@ -16,9 +17,19 @@ related_topics:
   - title: italiano version
     url: /it/common/git-checkout.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-checkout.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-checkout.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-checkout.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git-checkout.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git checkout
 

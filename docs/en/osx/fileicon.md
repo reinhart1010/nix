@@ -3,11 +3,12 @@ layout: page
 title: osx/fileicon (English)
 description: "Manage custom file and folder icons."
 content_hash: 1362143a26d993f4667b23343a231ed386426393
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/osx/fileicon.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fileicon
 

@@ -3,7 +3,7 @@ layout: page
 title: windows/where (فارسی)
 description: "نمایش محل فایل باینری یا اجرایی یک دستور در لینوکس."
 content_hash: 223d85ca3dbdd3b56f837710d5de685da23e952d
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/windows/where.html
@@ -17,15 +17,10 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/where.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/where.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># where
 

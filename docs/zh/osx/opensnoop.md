@@ -3,10 +3,15 @@ layout: page
 title: osx/opensnoop (中文)
 description: "跟踪系统中打开的文件标识符。"
 content_hash: c158431ee0b16eadc35eaa1afefbab01198cc75e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/opensnoop.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/opensnoop.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # opensnoop
 

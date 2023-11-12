@@ -3,11 +3,10 @@ layout: page
 title: linux/goldeneye.py (English)
 description: "A HTTP DoS test tool."
 content_hash: 0f13e5d3afd133e3825dd16f3bec0d46b583deba
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># goldeneye.py
+# goldeneye.py
 
 A HTTP DoS test tool.
 More information: <https://github.com/jseidl/GoldenEye>.

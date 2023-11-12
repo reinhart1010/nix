@@ -3,7 +3,7 @@ layout: page
 title: osx/gpaste (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux paste`"
 content_hash: 5cc3f68c36c833bf57a117da97ccbb60e4947272
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gpaste.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gpaste.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gpaste
 

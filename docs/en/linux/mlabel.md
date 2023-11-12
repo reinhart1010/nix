@@ -3,12 +3,10 @@ layout: page
 title: linux/mlabel (English)
 description: "Set an MS-DOS volume label for FAT and VFAT filesystems."
 content_hash: 1b1dc3cfc99de3b81e8e172453fe3856797017ec
-last_modified_at: 2023-07-18
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mlabel
+# mlabel
 
 Set an MS-DOS volume label for FAT and VFAT filesystems.
 More information: <https://www.gnu.org/software/mtools/manual/mtools.html#mlabel>.

@@ -3,6 +3,8 @@ layout: page
 title: common/stow (English)
 description: "Symlink manager."
 content_hash: 540cfed23e5e73dd916acb197325cd3781f56ecd
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # stow
 

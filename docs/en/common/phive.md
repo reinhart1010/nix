@@ -3,6 +3,8 @@ layout: page
 title: common/phive (English)
 description: "The Phar Installation and Verification Environment for secure PHP application deployment."
 content_hash: 2cb005e0cf7b952234fbf970ebae0266b59d7867
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # phive
 

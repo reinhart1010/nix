@@ -3,6 +3,8 @@ layout: page
 title: common/hg-serve (English)
 description: "Start a standalone Mercurial web server for browsing repositories."
 content_hash: 3af36928ac798528ac9ec6312e0fd7c837a8f9d2
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # hg serve
 

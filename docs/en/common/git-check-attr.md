@@ -3,6 +3,12 @@ layout: page
 title: common/git-check-attr (English)
 description: "For every pathname, list if each attribute is unspecified, set, or unset as a gitattribute on that pathname."
 content_hash: 44126e101f59e8228c6382b1b46d54eaf9ee7635
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Türkçe version
+    url: /tr/common/git-check-attr.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git check-attr
 

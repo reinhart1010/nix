@@ -3,7 +3,8 @@ layout: page
 title: common/lebab (English)
 description: "A JavaScript modernizer for transpiling code to ES6/ES7."
 content_hash: 5ddf673f95967d56ef9897353f517f6a456435ef
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lebab
 

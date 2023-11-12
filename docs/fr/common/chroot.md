@@ -3,6 +3,7 @@ layout: page
 title: common/chroot (français)
 description: "Exécute une commande ou un shell interactif avec un répertoire racine spécial."
 content_hash: 2e49ac3f164ad0522d1fd7b8fbdfd16acb68e6dc
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/chroot.html
@@ -22,11 +23,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/chroot.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># chroot
+# chroot
 
 Exécute une commande ou un shell interactif avec un répertoire racine spécial.
 Plus d'informations : <https://www.gnu.org/software/coreutils/chroot>.

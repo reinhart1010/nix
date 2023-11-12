@@ -3,6 +3,8 @@ layout: page
 title: common/mediainfo (English)
 description: "Display metadata from video and audio files."
 content_hash: ceac1e36b7abefcc9c77a39df2efc0f7df370f84
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mediainfo
 

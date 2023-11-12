@@ -3,7 +3,8 @@ layout: page
 title: common/qmv (English)
 description: "Move files and directories using the default text editor to define the filenames."
 content_hash: 9aa810354cdc9954f55914986309a082f51d1695
-last_modified_at: 2022-12-25
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # qmv
 

@@ -3,7 +3,7 @@ layout: page
 title: common/kubectl (italiano)
 description: "Interfaccia interattiva da linea di comando per eseguire comandi sui clusters Kubernetes."
 content_hash: b5c9e736e55c221a56911b0e33996103510320c4
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/kubectl.html
@@ -14,6 +14,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/kubectl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # kubectl
 

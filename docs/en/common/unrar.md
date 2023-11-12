@@ -3,6 +3,7 @@ layout: page
 title: common/unrar (English)
 description: "Extract RAR archives."
 content_hash: 87a1214bf1b922c73e56124086fb903ae1cf7864
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/unrar.html
@@ -10,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/unrar.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # unrar
 

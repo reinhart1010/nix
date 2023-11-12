@@ -3,7 +3,7 @@ layout: page
 title: windows/getmac (español)
 description: "Muestra las direcciones MAC de un sistema."
 content_hash: 7309673545f0f044df8c815ed286f05029462e64
-last_modified_at: 2023-07-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/getmac.html
@@ -11,11 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/getmac.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># getmac
+# getmac
 
 Muestra las direcciones MAC de un sistema.
 Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/getmac>.

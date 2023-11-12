@@ -3,10 +3,12 @@ layout: page
 title: linux/lastb (English)
 description: "Show a listing of last logged in users."
 content_hash: 551eeed051f2f10bcd02c0087f3719a574aba23c
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/lastb.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lastb
 

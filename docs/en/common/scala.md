@@ -3,6 +3,8 @@ layout: page
 title: common/scala (English)
 description: "Scala application launcher and interactive interpreter."
 content_hash: 94ddeb5a8984debcba0f283819ec86b10fb5a2d2
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # scala
 

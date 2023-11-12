@@ -3,12 +3,10 @@ layout: page
 title: common/kubectl-replace (English)
 description: "Replace a resource by file or `stdin`."
 content_hash: ef5f4ee0a7666f083a891a4d6fa2dc1cf9721c81
-last_modified_at: 2023-10-20
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># kubctl replace
+# kubctl replace
 
 Replace a resource by file or `stdin`.
 More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#replace>.

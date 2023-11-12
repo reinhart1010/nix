@@ -3,6 +3,7 @@ layout: page
 title: common/adb (中文)
 description: "安卓调试桥：与 Android 模拟器或已连接的 Android 设备通信。"
 content_hash: 9a52615107796895628a701b3928f2005511bb94
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/adb.html
@@ -34,6 +35,7 @@ related_topics:
   - title: русский version
     url: /ru/common/adb.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # adb
 

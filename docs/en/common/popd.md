@@ -3,11 +3,15 @@ layout: page
 title: common/popd (English)
 description: "Remove a directory placed on the directory stack via the pushd shell built-in."
 content_hash: 676c07791b39ef733de26548d2d941ef4f8fbb3d
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: dansk version
     url: /da/common/popd.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/popd.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # popd
 

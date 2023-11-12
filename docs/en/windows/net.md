@@ -3,7 +3,12 @@ layout: page
 title: windows/net (English)
 description: "System utility to view and modify network-related settings."
 content_hash: 9d7d9c670a362c693008f97f4608651e5634fef3
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
+related_topics:
+  - title: বাংলা version
+    url: /bn/windows/net.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # net
 

@@ -3,13 +3,21 @@ layout: page
 title: linux/flatpak (português (Brasil))
 description: "Construa, instale e execute aplicações e plataformas flatpak."
 content_hash: ee75ed15b3c5717f7b7cfb8509f0ca13b55871fe
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/flatpak.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/flatpak.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/flatpak.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/flatpak.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # flatpak
 

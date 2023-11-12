@@ -3,7 +3,8 @@ layout: page
 title: linux/pkgfile (English)
 description: "Tool for searching files from packages in the official repositories on arch-based systems."
 content_hash: 971eab98f87f15dbd7ae45d4ce6ad2a9a099f994
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pkgfile
 

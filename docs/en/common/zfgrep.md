@@ -3,11 +3,10 @@ layout: page
 title: common/zfgrep (English)
 description: "Matches fixed strings in possibly compressed files."
 content_hash: b5836c1c98c9e7a54e147239f9236f09dbc1914e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># zfgrep
+# zfgrep
 
 Matches fixed strings in possibly compressed files.
 Equivalent to `grep -F` with input decompressed first if necessary.

@@ -3,7 +3,8 @@ layout: page
 title: linux/i3-scrot (English)
 description: "Wrapper script around the screenshot utility `scrot` for the i3 window manager."
 content_hash: bbff403c54ec903312cb11ab61a29991e9284e10
-last_modified_at: 2023-06-12
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # i3-scrot
 

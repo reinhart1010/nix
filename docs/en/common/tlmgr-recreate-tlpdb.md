@@ -3,7 +3,8 @@ layout: page
 title: common/tlmgr-recreate-tlpdb (English)
 description: "Recreate the TeX Live package database."
 content_hash: 2754578b550f54eca57e2172d690ba6c9508ae99
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tlmgr recreate-tlpdb
 

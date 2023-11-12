@@ -3,6 +3,8 @@ layout: page
 title: common/progpilot (English)
 description: "A PHP static analysis tool for detecting security vulnerabilities."
 content_hash: b5b48b044085790bbebeb4f23626a5ab65581593
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # progpilot
 

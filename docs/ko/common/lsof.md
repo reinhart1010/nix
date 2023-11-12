@@ -3,6 +3,7 @@ layout: page
 title: common/lsof (한국어)
 description: "열린 파일과 상응하는 프로세스들을 나열합니다."
 content_hash: 220b5c31b3eacb70051e79c5fe5c41f55af58cf3
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/lsof.html
@@ -10,11 +11,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/lsof.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># lsof
+# lsof
 
 열린 파일과 상응하는 프로세스들을 나열합니다.
 참고: 다른 사람으로부터 열린 파일 리스트는 루트 권한 ( 혹은 sudo ) 이 요구됩니다.

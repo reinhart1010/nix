@@ -3,6 +3,7 @@ layout: page
 title: common/git-gc (italiano)
 description: "Ottimizza il repository locale ripulendolo dai file non necessari."
 content_hash: e55ebbb75321f7f25533dfa6e495d76b6f312b19
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-gc.html
@@ -13,6 +14,13 @@ related_topics:
   - title: français version
     url: /fr/common/git-gc.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-gc.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-gc.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git gc
 

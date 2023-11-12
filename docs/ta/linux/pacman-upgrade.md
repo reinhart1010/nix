@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman-upgrade (தமிழ்)
 description: "ஆர்ச் லினக்ஸ் தொகுப்பு மேலாளர் பயன்பாடு."
 content_hash: 3e74eb9aef766ff11c3ddf07faf3ae3772214173
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-upgrade.html
@@ -17,6 +17,10 @@ related_topics:
   - title: Indonesia version
     url: /id/linux/pacman-upgrade.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/pacman-upgrade.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pacman --upgrade
 

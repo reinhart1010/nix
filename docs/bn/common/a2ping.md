@@ -3,7 +3,7 @@ layout: page
 title: common/a2ping (বাংলা)
 description: "চিত্রগুলি কে EPS বা PDF ফাইলে রূপান্তর করুন।"
 content_hash: 2304eb134797235fde5dbc4d6dac7395142cbcbf
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/a2ping.html
@@ -17,6 +17,7 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/a2ping.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # a2ping
 

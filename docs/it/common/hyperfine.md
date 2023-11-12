@@ -3,10 +3,12 @@ layout: page
 title: common/hyperfine (italiano)
 description: "Strumento di benchmarking con interfaccia CLI."
 content_hash: f0257820f7fb963f6943f7a975a6f2bdb2c1ca68
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/hyperfine.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # hyperfine
 

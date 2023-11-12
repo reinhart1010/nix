@@ -3,10 +3,12 @@ layout: page
 title: linux/xbacklight (English)
 description: "Utility to adjust backlight brightness using the RandR extension."
 content_hash: 5de7c1fa2a65a56fa23e00ac1d512f94b9e88a8a
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/linux/xbacklight.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xbacklight
 

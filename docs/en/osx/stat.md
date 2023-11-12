@@ -3,11 +3,12 @@ layout: page
 title: osx/stat (English)
 description: "Display file status."
 content_hash: 497b87b1e2755b41eaf93cba23a8117f428383d8
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/osx/stat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # stat
 

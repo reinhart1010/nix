@@ -3,11 +3,10 @@ layout: page
 title: common/tailscale-file (English)
 description: "Send files across connected devices on a Tailscale network."
 content_hash: 728491001aecbf98bdd3a2be0f3a767e6d442bed
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># tailscale file
+# tailscale file
 
 Send files across connected devices on a Tailscale network.
 It currently does not support sending files to devices owned by other users even on the same Tailscale network.

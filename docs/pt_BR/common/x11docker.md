@@ -3,16 +3,14 @@ layout: page
 title: common/x11docker (português (Brasil))
 description: "Executar aplicativos de GUI e interfaces de desktop seguramente em contêineres do Docker."
 content_hash: bbaf2836c71842d41277ae121904baa5e67ca973
-last_modified_at: 2023-09-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/x11docker.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># x11docker
+# x11docker
 
 Executar aplicativos de GUI e interfaces de desktop seguramente em contêineres do Docker.
 Veja também `xephyr`.

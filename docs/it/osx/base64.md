@@ -3,7 +3,7 @@ layout: page
 title: osx/base64 (italiano)
 description: "Codifica e decodifica utilizzando la rappresentazione in base64."
 content_hash: ddf666b7c9559c8b030528c5eb4a2562449788b7
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/base64.html
@@ -11,12 +11,16 @@ related_topics:
   - title: español version
     url: /es/osx/base64.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/osx/base64.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/osx/base64.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/base64.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # base64
 

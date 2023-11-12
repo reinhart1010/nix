@@ -3,6 +3,7 @@ layout: page
 title: linux/apt-mark (català)
 description: "Eina per canviar l'estat dels paquets instal·lats."
 content_hash: c2272a4b439b0e3fda4b5d3eab922f3dc226b838
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/apt-mark.html
@@ -19,12 +20,16 @@ related_topics:
   - title: italiano version
     url: /it/linux/apt-mark.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/apt-mark.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/apt-mark.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apt-mark.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apt-mark
 

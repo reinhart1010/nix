@@ -3,15 +3,14 @@ layout: page
 title: common/ld (Indonesia)
 description: "Menghubungkan file-file obyek berbarengan."
 content_hash: 649171a07b8466e5b8b57f9e81c1d4c543aeb0a0
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ld.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ld
+# ld
 
 Menghubungkan file-file obyek berbarengan.
 Informasi lebih lanjut: <https://sourceware.org/binutils/docs-2.38/ld.html>.

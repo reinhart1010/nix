@@ -3,6 +3,8 @@ layout: page
 title: common/exiv2 (English)
 description: "Image metadata manipulation tool."
 content_hash: e0c1463bb2ce0435917cd847809040da95c45660
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # exiv2
 

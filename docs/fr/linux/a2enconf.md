@@ -3,12 +3,19 @@ layout: page
 title: linux/a2enconf (français)
 description: "Active un fichier de configuration sur une distribution Debian."
 content_hash: c9973f7681708491d0a83a0b835fb4ca911175ad
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/a2enconf.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/a2enconf.html
     icon: bi bi-globe
   - title: English version
     url: /en/linux/a2enconf.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/a2enconf.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/a2enconf.html
@@ -19,9 +26,13 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/linux/a2enconf.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/linux/a2enconf.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/a2enconf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # a2enconf
 

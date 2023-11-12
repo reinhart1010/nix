@@ -3,7 +3,7 @@ layout: page
 title: common/aria2 (español)
 description: "Este comando es un alias de `aria2c`."
 content_hash: 17592e6d2457274dc9347d70cd9c30f9cce8a116
-last_modified_at: 2023-02-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: bosanski version
     url: /bs/common/aria2.html
@@ -23,11 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/aria2.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aria2
+# aria2
 
 Este comando es un alias de `aria2c`.
 

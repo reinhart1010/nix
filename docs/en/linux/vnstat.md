@@ -3,6 +3,8 @@ layout: page
 title: linux/vnstat (English)
 description: "A console-based network traffic monitor."
 content_hash: dbc29a07beb2774935b0249dfe5a0fbaf49650e3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # vnstat
 

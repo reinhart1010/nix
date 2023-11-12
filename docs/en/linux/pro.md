@@ -3,12 +3,10 @@ layout: page
 title: linux/pro (English)
 description: "Manage Ubuntu Pro services."
 content_hash: 0db2c5a7164a4d6b35a5f6b600a2e9ef8936e6eb
-last_modified_at: 2023-05-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pro
+# pro
 
 Manage Ubuntu Pro services.
 More information: <https://manpages.ubuntu.com/manpages/latest/en/man1/ubuntu-advantage.1.html>.

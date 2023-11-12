@@ -3,7 +3,11 @@ layout: page
 title: linux/cmus (English)
 description: "Command-line Music Player."
 content_hash: 7b6d98928f9e9a6954dad34b034f3c77d259a2c2
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/cmus.html
+    icon: bi bi-globe
   - title: español version
     url: /es/linux/cmus.html
     icon: bi bi-globe
@@ -16,6 +20,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/cmus.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cmus
 

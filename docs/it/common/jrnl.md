@@ -3,10 +3,12 @@ layout: page
 title: common/jrnl (italiano)
 description: "Una semplice applicazione da linea di comando per tenere un diario."
 content_hash: b40a318c1c29bd5d4e67bc6adf8988660e31db5e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/jrnl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # jrnl
 

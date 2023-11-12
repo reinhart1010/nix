@@ -3,10 +3,12 @@ layout: page
 title: common/zopflipng (English)
 description: "PNG compression utility."
 content_hash: 2db233ebe20fdd25f26b36bf810e1d6569bdd4fb
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/zopflipng.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # zopflipng
 

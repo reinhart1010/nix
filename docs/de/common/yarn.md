@@ -3,6 +3,7 @@ layout: page
 title: common/yarn (Deutsch)
 description: "JavaScript und Node.js Paket-Manager Alternative."
 content_hash: 9db3eff2d4d7c9ef571fd611df23053bfd6a1489
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/yarn.html
@@ -10,14 +11,15 @@ related_topics:
   - title: Indonesia version
     url: /id/common/yarn.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/yarn.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/yarn.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># yarn
+# yarn
 
 JavaScript und Node.js Paket-Manager Alternative.
 Weitere Informationen: <https://yarnpkg.com>.

@@ -3,6 +3,7 @@ layout: page
 title: common/git (中文)
 description: "分布式版本控制系统。"
 content_hash: d31bb6acaf250704b1c1d6c0c008ba7a049f4f32
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
@@ -22,8 +23,14 @@ related_topics:
   - title: italiano version
     url: /it/common/git.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/git.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/git.html
+    icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/common/git.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/git.html
@@ -34,17 +41,18 @@ related_topics:
   - title: српски version
     url: /sr/common/git.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/git.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git.html
     icon: bi bi-globe
   - title: українська version
     url: /uk/common/git.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git
+# git
 
 分布式版本控制系统。
 类似如 `commit`、`add`、`branch`、`checkout`、`push` 等子命令都有自己的使用文档，可以通过 `tldr git `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">子命令</span> 的形式查阅。

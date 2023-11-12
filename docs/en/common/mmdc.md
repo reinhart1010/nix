@@ -3,6 +3,8 @@ layout: page
 title: common/mmdc (English)
 description: "CLI for mermaid, a diagram generation tool with a domain-specific language."
 content_hash: a1eef6f97cc7623a97337d36779dd53d95c8f53d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mmdc
 

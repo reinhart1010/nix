@@ -3,7 +3,8 @@ layout: page
 title: common/mytop (English)
 description: "Display MySQL server performance info like `top`."
 content_hash: c4d44141f1a53a52f2638576210112e150a45a25
-last_modified_at: 2023-06-28
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mytop
 

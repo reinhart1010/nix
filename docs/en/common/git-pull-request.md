@@ -3,12 +3,10 @@ layout: page
 title: common/git-pull-request (English)
 description: "Create a pull request for a project on GitHub."
 content_hash: ca5b99406305dbde833f3d3c56bb065ad48b136e
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git pull-request
+# git pull-request
 
 Create a pull request for a project on GitHub.
 Part of `git-extras`.

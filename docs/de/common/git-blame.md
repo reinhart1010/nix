@@ -3,6 +3,7 @@ layout: page
 title: common/git-blame (Deutsch)
 description: "Zeige den Commit-Hash und den letzten Autor jeder Zeile einer Datei."
 content_hash: fc9f797d6f9c242299ed082fd19535a3c2d68d29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-blame.html
@@ -16,11 +17,21 @@ related_topics:
   - title: italiano version
     url: /it/common/git-blame.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-blame.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-blame.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-blame.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# git blame
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git blame
 
 Zeige den Commit-Hash und den letzten Autor jeder Zeile einer Datei.
 Weitere Informationen: <https://git-scm.com/docs/git-blame>.

@@ -3,7 +3,8 @@ layout: page
 title: windows/sc (English)
 description: "Communicate with the Service Control Manager and services."
 content_hash: b789d5617a015c2ebee6995424a650ac9bbc1a12
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sc
 

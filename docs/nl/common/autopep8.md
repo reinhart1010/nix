@@ -3,7 +3,7 @@ layout: page
 title: common/autopep8 (Nederlands)
 description: "Formatteer Python-code conform de PEP 8-stijlgids."
 content_hash: 843ea5c09e7f6cbeddd77fe38f6e81044ca0f2f3
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/autopep8.html
@@ -14,6 +14,7 @@ related_topics:
   - title: français version
     url: /fr/common/autopep8.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # autopep8
 

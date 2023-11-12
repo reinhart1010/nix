@@ -3,11 +3,10 @@ layout: page
 title: common/you-get (English)
 description: "Download media contents (videos, audios, images) from the Web."
 content_hash: 2b3578496fe997bf57c620178a1de7b130a5823d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># you-get
+# you-get
 
 Download media contents (videos, audios, images) from the Web.
 More information: <https://you-get.org>.

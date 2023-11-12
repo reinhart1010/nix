@@ -3,6 +3,8 @@ layout: page
 title: common/fakedata (English)
 description: "Generate fake data using a large variety of generators."
 content_hash: 445f506d945c553347f2ace861894eae496dd2c3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fakedata
 
@@ -27,4 +29,4 @@ More information: <https://github.com/lucapette/fakedata>.
 
 - Generate data using a custom output template (the first letter of generator names must be capitalized):
 
-`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">\{\{Generator\}\</span>`}" | fakedata`
+`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">\{\{Generator\}\}</span>`" | fakedata`

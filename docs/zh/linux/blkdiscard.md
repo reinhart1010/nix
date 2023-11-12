@@ -3,10 +3,12 @@ layout: page
 title: linux/blkdiscard (中文)
 description: "丢弃存储设备上的设备扇区。对 SSD 有用。"
 content_hash: 2b07a5fb58b09c077d5c1ddc831168424fb3cd53
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/blkdiscard.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # blkdiscard
 

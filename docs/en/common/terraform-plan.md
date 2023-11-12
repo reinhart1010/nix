@@ -3,6 +3,12 @@ layout: page
 title: common/terraform-plan (English)
 description: "Generate and show Terraform execution plans."
 content_hash: bdbcbf1198a91fc925efd6ba8ef892988bef6759
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/terraform-plan.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # terraform plan
 

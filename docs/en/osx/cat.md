@@ -3,7 +3,8 @@ layout: page
 title: osx/cat (English)
 description: "Print and concatenate files."
 content_hash: 8524c290834cf8d14f3c4c19f2f10959e24adb8b
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # cat
 

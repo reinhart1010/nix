@@ -3,6 +3,7 @@ layout: page
 title: linux/xterm (Indonesia)
 description: "Emulator terminal untuk sistem window X."
 content_hash: 7f4c0514cd0ac9064c4e936bc1bf16fced6c5cf3
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/xterm.html
@@ -10,6 +11,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/xterm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xterm
 

@@ -3,13 +3,18 @@ layout: page
 title: linux/addr2line (English)
 description: "Convert addresses of a binary into file names and line numbers."
 content_hash: ab687241983f529192257f45d78cbafbac81ccdc
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/addr2line.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/addr2line.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/addr2line.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # addr2line
 

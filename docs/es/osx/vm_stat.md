@@ -3,16 +3,14 @@ layout: page
 title: osx/vm_stat (español)
 description: "Muestra estadísticas de memoria virtual."
 content_hash: dfac302350fc4e1eb8b4373732df91a0f4823cb1
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/vm_stat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># vm_stat
+# vm_stat
 
 Muestra estadísticas de memoria virtual.
 Más información: <https://www.unix.com/man-page/osx/1/vm_stat>.

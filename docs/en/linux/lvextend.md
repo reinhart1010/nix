@@ -3,6 +3,8 @@ layout: page
 title: linux/lvextend (English)
 description: "Increase the size of a logical volume."
 content_hash: fe91c39a2f4dc1262607136af65c23790243ff3a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lvextend
 

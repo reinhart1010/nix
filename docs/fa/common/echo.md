@@ -3,7 +3,7 @@ layout: page
 title: common/echo (فارسی)
 description: "چاپ ورودی داده شده."
 content_hash: 6c6a049f5a69498d78cbc91ca6f7f915430908d6
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/echo.html
@@ -41,6 +41,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/echo.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # echo
 

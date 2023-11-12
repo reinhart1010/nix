@@ -3,7 +3,7 @@ layout: page
 title: osx/readlink (español)
 description: "Sigue enlaces simbólicos y obtiene información sobre enlaces simbólicos."
 content_hash: b041fbed9a4ad04d505042ea9a825e65e0a02c94
-last_modified_at: 2023-08-13
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/readlink.html
@@ -11,11 +11,9 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/osx/readlink.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># readlink
+# readlink
 
 Sigue enlaces simbólicos y obtiene información sobre enlaces simbólicos.
 Más información: <https://www.gnu.org/software/coreutils/readlink>.

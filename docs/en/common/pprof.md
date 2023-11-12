@@ -3,6 +3,8 @@ layout: page
 title: common/pprof (English)
 description: "Command-line tool for visualization and analysis of profile data."
 content_hash: ce6389e253295bc2b130e0a8e2673cb57f023c0d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pprof
 

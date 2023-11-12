@@ -3,6 +3,7 @@ layout: page
 title: common/dirname (italiano)
 description: "Determina la directory genitore di un determinato file o percorso."
 content_hash: 56be5df5c1186db9540bd47165615465dd6be102
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/dirname.html
@@ -13,6 +14,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/dirname.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dirname
 

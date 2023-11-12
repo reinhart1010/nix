@@ -3,7 +3,8 @@ layout: page
 title: common/promtool (English)
 description: "Tooling for the Prometheus monitoring system."
 content_hash: 639922cf9deb7c559acdbbeae4e2ffc5ac6d4f7c
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # promtool
 

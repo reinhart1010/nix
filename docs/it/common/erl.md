@@ -3,10 +3,12 @@ layout: page
 title: common/erl (italiano)
 description: "Esegui e gestisci programmi nel linguaggio di programmazione Erlang."
 content_hash: c6b9e9630049420a7b6a46daddcadeeef0dd7f79
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/erl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # erl
 

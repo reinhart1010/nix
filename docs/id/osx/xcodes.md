@@ -3,7 +3,7 @@ layout: page
 title: osx/xcodes (Indonesia)
 description: "Unduh, pasang, dan atur pemasangan aplikasi Xcode dalam versi yang berbeda."
 content_hash: 30b3b638348e074fe6d3ce9b8c5407e6f661f1df
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/xcodes.html
@@ -11,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/osx/xcodes.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xcodes
 

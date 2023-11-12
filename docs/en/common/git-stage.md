@@ -3,7 +3,7 @@ layout: page
 title: common/git-stage (English)
 description: "This command is an alias of `git add`."
 content_hash: 95dddeb6a3dee55667f59155d7bb2b0b616e89de
-last_modified_at: 2023-11-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/git-stage.html
@@ -14,6 +14,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-stage.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git stage
 

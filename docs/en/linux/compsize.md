@@ -3,6 +3,8 @@ layout: page
 title: linux/compsize (English)
 description: "Calculate the compression ratio of a set of files on a btrfs filesystem."
 content_hash: 438d2ff8782af98be60f3231102dc96854a6ef1c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # compsize
 

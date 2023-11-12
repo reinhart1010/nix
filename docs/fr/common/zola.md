@@ -3,10 +3,15 @@ layout: page
 title: common/zola (français)
 description: "Un générateur de site statique à partir d'un unique binaire sans dépendance."
 content_hash: 364c27a39b32694b6a150fd7183b252356e56d42
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/zola.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/zola.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # zola
 

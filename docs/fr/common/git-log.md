@@ -3,6 +3,7 @@ layout: page
 title: common/git-log (français)
 description: "Afficher un historique de commits."
 content_hash: 6921bd489ac268bde672ff12ba1e3a2c25f1a63b
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-log.html
@@ -16,9 +17,16 @@ related_topics:
   - title: italiano version
     url: /it/common/git-log.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-log.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-log.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/git-log.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git log
 

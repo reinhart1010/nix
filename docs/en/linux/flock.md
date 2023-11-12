@@ -3,6 +3,8 @@ layout: page
 title: linux/flock (English)
 description: "Manage locks from shell scripts."
 content_hash: 7f7db889d6a50137eabc81ec1143e3a768d84846
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # flock
 

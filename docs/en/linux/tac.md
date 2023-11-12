@@ -3,6 +3,8 @@ layout: page
 title: linux/tac (English)
 description: "Display and concatenate files with lines in reversed order."
 content_hash: c460eed15d5039af22344f9d85ccd78c686693e2
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tac
 

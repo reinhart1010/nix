@@ -3,6 +3,12 @@ layout: page
 title: linux/uuid (English)
 description: "Generate and decode Universally Unique Identifiers (UUID)."
 content_hash: 71115e3072e85c9907f3649e40d20083b325eab6
+last_modified_at: 2023-11-12
+related_topics:
+  - title: polski version
+    url: /pl/linux/uuid.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # uuid
 

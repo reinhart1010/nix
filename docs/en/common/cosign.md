@@ -3,7 +3,8 @@ layout: page
 title: common/cosign (English)
 description: "Container Signing, Verification and Storage in an OCI registry."
 content_hash: 6c1f4fa2da1a1c2dbe3ca16cf54a92a38fc18d53
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # cosign
 

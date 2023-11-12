@@ -3,6 +3,7 @@ layout: page
 title: linux/addpart (português (Brasil))
 description: "Informa ao kernel do Linux sobre a existência da partição especificada."
 content_hash: 1aa9be79aaeae75c4098bbd9bfe7e08d33584986
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/addpart.html
@@ -16,11 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/addpart.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># addpart
+# addpart
 
 Informa ao kernel do Linux sobre a existência da partição especificada.
 O comando é um wrapper do ioctl `add partition`.

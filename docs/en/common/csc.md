@@ -3,6 +3,7 @@ layout: page
 title: common/csc (English)
 description: "The Microsoft C# Compiler."
 content_hash: 758a2f767c2864e0635e5f44c26839bdfc86ed23
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/csc.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/csc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # csc
 

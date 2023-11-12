@@ -3,7 +3,8 @@ layout: page
 title: linux/pacaur (English)
 description: "A utility for Arch Linux to build and install packages from the Arch User Repository."
 content_hash: b50948ad847b29dfc0e5b266aeedb02daf6499a9
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pacaur
 

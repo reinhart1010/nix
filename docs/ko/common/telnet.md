@@ -3,15 +3,14 @@ layout: page
 title: common/telnet (한국어)
 description: "telnet 프로토콜을 사용해 호스트의 특정 포트에 연결합니다."
 content_hash: 7806f82f4b4d3602d6bd25600e55d38e17fd6d5c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/telnet.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># telnet
+# telnet
 
 telnet 프로토콜을 사용해 호스트의 특정 포트에 연결합니다.
 더 많은 정보: <https://manned.org/telnet>.

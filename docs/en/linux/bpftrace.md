@@ -3,6 +3,7 @@ layout: page
 title: linux/bpftrace (English)
 description: "High-level tracing language for Linux eBPF."
 content_hash: e2a7f0e2d61d8ad84d418ed4d96ada20b3fa8974
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/bpftrace.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/bpftrace.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bpftrace
 
@@ -26,7 +28,7 @@ More information: <https://github.com/iovisor/bpftrace>.
 
 - Run a one-liner program (e.g. syscall count by program):
 
-`sudo bpftrace -e '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tracepoint:raw_syscalls:sys_enter { @[comm] = count(); </span>`}'`
+`sudo bpftrace -e '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tracepoint:raw_syscalls:sys_enter { @[comm] = count(); }</span>`'`
 
 - Run a program from a file:
 
@@ -34,7 +36,7 @@ More information: <https://github.com/iovisor/bpftrace>.
 
 - Trace a program by PID:
 
-`sudo bpftrace -e '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tracepoint:raw_syscalls:sys_enter /pid == 123/ { @[comm] = count(); </span>`}'`
+`sudo bpftrace -e '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tracepoint:raw_syscalls:sys_enter /pid == 123/ { @[comm] = count(); }</span>`'`
 
 - Do a dry run and display the output in eBPF format:
 

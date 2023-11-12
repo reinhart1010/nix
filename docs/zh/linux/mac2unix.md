@@ -3,10 +3,12 @@ layout: page
 title: linux/mac2unix (中文)
 description: "将 macOS 样式的行尾更改为 Unix 样式。"
 content_hash: 76d0e612f063346b3f6178b305871ca99d4f30e2
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/mac2unix.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mac2unix
 

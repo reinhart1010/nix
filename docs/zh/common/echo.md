@@ -3,7 +3,7 @@ layout: page
 title: common/echo (中文)
 description: "输出给定参数。"
 content_hash: 532cd84d19dac4af837da9cd4ba7a34d9265c2e9
-last_modified_at: 2023-11-01
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/echo.html
@@ -41,6 +41,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/echo.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # echo
 

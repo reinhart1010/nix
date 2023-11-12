@@ -3,11 +3,12 @@ layout: page
 title: common/gitlab-runner (English)
 description: "Manage GitLab runners."
 content_hash: 2c32f5607d66b084e642454583b81efc13268bd9
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: Türkçe version
     url: /tr/common/gitlab-runner.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gitlab-runner
 

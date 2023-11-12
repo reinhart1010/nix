@@ -3,7 +3,7 @@ layout: page
 title: android/dalvikvm (हिन्दी)
 description: "एंड्रॉइड जावा वर्चुअल मशीन।"
 content_hash: 50407833375ecd315b132a9911333594114d71af
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/dalvikvm.html
@@ -62,6 +62,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/dalvikvm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dalvikvm
 

@@ -3,11 +3,12 @@ layout: page
 title: linux/xcowsay (中文)
 description: "在您的 Linux 桌面上显示一头可爱的牛和指定的消息。"
 content_hash: b440a495603f02812c48fdf841260a6e4d13b272
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/xcowsay.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xcowsay
 

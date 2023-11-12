@@ -3,10 +3,12 @@ layout: page
 title: linux/ldconfig (English)
 description: "Configure symlinks and cache for shared library dependencies."
 content_hash: 79b3ff76b2451c6464b25301a1aa06e91086523c
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/ldconfig.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ldconfig
 

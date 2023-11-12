@@ -3,11 +3,12 @@ layout: page
 title: common/wordgrinder (English)
 description: "Command-line word processor."
 content_hash: 08160e548d2e9306def22e3838586bf933013570
-last_modified_at: 2023-06-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/wordgrinder.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wordgrinder
 

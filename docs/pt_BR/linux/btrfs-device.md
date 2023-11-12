@@ -3,6 +3,7 @@ layout: page
 title: linux/btrfs-device (português (Brasil))
 description: "Gerencia dispositivos em um sistema de arquivos btrfs."
 content_hash: 10bbfd7413432e0513476da0d2703099e04542e6
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/btrfs-device.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/btrfs-device.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # btrfs device
 

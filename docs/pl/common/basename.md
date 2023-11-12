@@ -3,6 +3,7 @@ layout: page
 title: common/basename (polski)
 description: "Usuwa wiodące nazwy katalogów ze ścieżki."
 content_hash: 7474741525599fbe23ae29015c5feaa2eac8fb03
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/basename.html
@@ -19,9 +20,13 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/basename.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/basename.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/basename.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # basename
 

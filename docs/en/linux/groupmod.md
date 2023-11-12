@@ -3,6 +3,8 @@ layout: page
 title: linux/groupmod (English)
 description: "Modify existing user groups in the system."
 content_hash: 5ae8a480fde61d6251dc8c2032b4c4960422baaa
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # groupmod
 

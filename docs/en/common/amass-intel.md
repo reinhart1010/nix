@@ -3,6 +3,15 @@ layout: page
 title: common/amass-intel (English)
 description: "Collect open source intel on an organisation like root domains and ASNs."
 content_hash: 37ecc38050fcf6286d9d2fae44d3c920bb2f7d80
+last_modified_at: 2023-11-12
+related_topics:
+  - title: español version
+    url: /es/common/amass-intel.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/amass-intel.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # amass intel
 

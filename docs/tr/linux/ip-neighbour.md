@@ -3,10 +3,12 @@ layout: page
 title: linux/ip-neighbour (Türkçe)
 description: "Komşu/ARP tablosu yönetimi IP alt komutu."
 content_hash: 04ce9c09e83b81f0b9ee6ac9c1bb97521504b66b
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/ip-neighbour.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ip neighbour
 

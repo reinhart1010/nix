@@ -3,11 +3,12 @@ layout: page
 title: windows/sfc (English)
 description: "Scans the integrity of Windows system files."
 content_hash: d482e70711a17f7db8c5497606fc92381cae859f
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/windows/sfc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sfc
 

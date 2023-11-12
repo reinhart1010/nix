@@ -3,6 +3,7 @@ layout: page
 title: windows/xcopy (Deutsch)
 description: "Kopieren von Dateien und Verzeichnisbäumen."
 content_hash: d9e972339397d88aa42d605ee5b55f155c6a5b4d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/xcopy.html
@@ -10,12 +11,16 @@ related_topics:
   - title: Indonesia version
     url: /id/windows/xcopy.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/xcopy.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/windows/xcopy.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/xcopy.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xcopy
 

@@ -3,6 +3,7 @@ layout: page
 title: common/tmux (English)
 description: "Terminal multiplexer. It allows multiple sessions with windows, panes, and more."
 content_hash: 4841d5bdc1083d39155f2e6468183096d199865c
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/tmux.html
@@ -10,9 +11,16 @@ related_topics:
   - title: français version
     url: /fr/common/tmux.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/tmux.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/tmux.html
+    icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/common/tmux.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tmux
 

@@ -3,13 +3,24 @@ layout: page
 title: windows/set (中文 (繁體, 台灣))
 description: "顯示或設定當前 CMD 執行個體的環境變數。"
 content_hash: b5facec2d801fbe1c84dc3d5812be6c059ad852c
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/set.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/set.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/windows/set.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/windows/set.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/set.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # set
 

@@ -3,6 +3,7 @@ layout: page
 title: common/git-rev-list (English)
 description: "List revisions (commits) in reverse chronological order."
 content_hash: a822e98e89fd9628a54d306a4b14445baa36a74b
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/git-rev-list.html
@@ -16,6 +17,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-rev-list.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git rev-list
 

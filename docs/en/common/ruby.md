@@ -3,14 +3,18 @@ layout: page
 title: common/ruby (English)
 description: "Ruby programming language interpreter."
 content_hash: d2560c3568912f19397617e9c95fcd35aff8756e
-last_modified_at: 2023-10-08
+last_modified_at: 2023-11-12
 related_topics:
+  - title: français version
+    url: /fr/common/ruby.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/ruby.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/ruby.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ruby
 

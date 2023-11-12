@@ -3,7 +3,7 @@ layout: page
 title: linux/btrfs-device (français)
 description: "Gestion des partitions dans un système de fichiers BTRFS."
 content_hash: 2591066ac7cb8b0e85eb5c5b8dc9c8076c8d72ae
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/btrfs-device.html
@@ -14,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/btrfs-device.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # btrfs device
 

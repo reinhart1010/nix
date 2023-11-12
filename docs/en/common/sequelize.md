@@ -3,6 +3,8 @@ layout: page
 title: common/sequelize (English)
 description: "Promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server."
 content_hash: 02cc8b72a918c355b86ea1c25505629e2d5bec98
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sequelize
 

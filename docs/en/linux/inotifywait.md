@@ -3,6 +3,8 @@ layout: page
 title: linux/inotifywait (English)
 description: "Waits for changes to one or more files."
 content_hash: d49e3aa551e933c4fb67634a62bd51d98e98c0f4
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # inotifywait
 

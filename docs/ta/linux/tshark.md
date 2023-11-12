@@ -3,16 +3,14 @@ layout: page
 title: linux/tshark (தமிழ்)
 description: "பாக்கெட் பகுப்பாய்வு கருவி, வயர்ஷார்க்கின் CLI பதிப்பு."
 content_hash: b872dbb8eae9753e99b190bc1310e2ec5697d654
-last_modified_at: 2022-12-01
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/tshark.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># tshark
+# tshark
 
 பாக்கெட் பகுப்பாய்வு கருவி, வயர்ஷார்க்கின் CLI பதிப்பு.
 மேலும் விவரத்திற்கு: <https://tshark.dev/>.

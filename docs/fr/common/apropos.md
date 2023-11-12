@@ -3,12 +3,16 @@ layout: page
 title: common/apropos (français)
 description: "Recherche dans les pages de manuel, par exemple pour trouver une nouvelle commande."
 content_hash: 3735fafc21d2df005fda498c3bed55e0e1ff0fdd
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/apropos.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/apropos.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/apropos.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/apropos.html
@@ -19,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/apropos.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apropos
 

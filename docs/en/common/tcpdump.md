@@ -3,6 +3,12 @@ layout: page
 title: common/tcpdump (English)
 description: "Dump traffic on a network."
 content_hash: 75f0e9b528935fd51ee9484df26d0bd1deef0daf
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/tcpdump.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tcpdump
 

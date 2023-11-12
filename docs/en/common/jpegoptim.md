@@ -3,6 +3,8 @@ layout: page
 title: common/jpegoptim (English)
 description: "Optimise JPEG images."
 content_hash: 0382bf108d8f63b511122837f9dbdb29b71232c7
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # jpegoptim
 

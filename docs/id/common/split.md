@@ -3,15 +3,14 @@ layout: page
 title: common/split (Indonesia)
 description: "Memisahkan sebuah file menjadi beberapa bagian."
 content_hash: 26f854e86843f7c6c57d74dcf76507379e3d1cd6
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/split.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># split
+# split
 
 Memisahkan sebuah file menjadi beberapa bagian.
 Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/split>.

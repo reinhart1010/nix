@@ -3,6 +3,7 @@ layout: page
 title: common/atom (English)
 description: "A cross-platform pluggable text editor."
 content_hash: d2ded01da883e013149b702f0f958ad63845d526
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/atom.html
@@ -25,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/atom.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # atom
 

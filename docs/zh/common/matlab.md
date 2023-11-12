@@ -3,6 +3,7 @@ layout: page
 title: common/matlab (中文)
 description: "MathWorks 制作的数值计算环境。"
 content_hash: 2e7ba2d4be82deb2765dbb2c455f34e538308f95
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/matlab.html
@@ -10,6 +11,7 @@ related_topics:
   - title: français version
     url: /fr/common/matlab.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # matlab
 

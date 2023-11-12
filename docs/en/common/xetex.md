@@ -3,6 +3,8 @@ layout: page
 title: common/xetex (English)
 description: "Compile a PDF document from XeTeX source files."
 content_hash: d6166050f727fd10c3d20b149c865b193e8753fb
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xetex
 

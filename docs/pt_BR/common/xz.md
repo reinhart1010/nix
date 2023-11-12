@@ -3,11 +3,12 @@ layout: page
 title: common/xz (português (Brasil))
 description: "Compactar ou descompactar arquivos com a extensão .xz ou .lzma."
 content_hash: 9438ff7704e88ffa93cf2c55ee04c94dde51f1c0
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/xz.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xz
 

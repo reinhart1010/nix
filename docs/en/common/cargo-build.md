@@ -3,6 +3,15 @@ layout: page
 title: common/cargo-build (English)
 description: "Compile a local package and all of its dependencies."
 content_hash: b945076558c3a4c6cbb5561f095f4b047fe1c66d
+last_modified_at: 2023-11-12
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/common/cargo-build.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/cargo-build.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cargo build
 

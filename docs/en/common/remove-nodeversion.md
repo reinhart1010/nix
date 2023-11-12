@@ -3,7 +3,8 @@ layout: page
 title: common/remove-nodeversion (English)
 description: "Uninstall Node.js runtime versions for `ps-nvm`."
 content_hash: 0770adeff1dd53ea1b55b9b3f39ab655619008a7
-last_modified_at: 2023-11-03
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # Remove-NodeVersion
 

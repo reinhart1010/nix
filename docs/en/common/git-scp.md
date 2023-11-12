@@ -3,11 +3,10 @@ layout: page
 title: common/git-scp (English)
 description: "Copy files from the current working tree to the working directory of a remote repository."
 content_hash: 64257aa277e3330060b1abda3095fe0690f75cec
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git scp
+# git scp
 
 Copy files from the current working tree to the working directory of a remote repository.
 Part of `git-extras`. Uses `rsync` to transfer files.

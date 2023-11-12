@@ -3,7 +3,7 @@ layout: page
 title: common/ping (español)
 description: "Envía paquetes ICMP ECHO_REQUEST (pings) a hosts de la red."
 content_hash: c48c6d9ca83b86cbe008dc316981fa56b836a595
-last_modified_at: 2023-02-13
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ping.html
@@ -14,11 +14,12 @@ related_topics:
   - title: Indonesia version
     url: /id/common/ping.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/ping.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ping
+# ping
 
 Envía paquetes ICMP ECHO_REQUEST (pings) a hosts de la red.
 Más información: <https://manned.org/ping>.

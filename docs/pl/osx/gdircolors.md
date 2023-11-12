@@ -3,7 +3,7 @@ layout: page
 title: osx/gdircolors (polski)
 description: "To polecenie jest aliasem `-p linux dircolors`."
 content_hash: 20c00efe19ba1a053818bbdfa9befdb12dc6e405
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gdircolors.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gdircolors.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gdircolors
 

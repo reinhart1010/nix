@@ -3,12 +3,10 @@ layout: page
 title: common/stressapptest (English)
 description: "Userspace memory and IO test."
 content_hash: b0a5f57d0961d481c085d6644b8683718eda12fe
-last_modified_at: 2023-09-05
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># stressapptest
+# stressapptest
 
 Userspace memory and IO test.
 More information: <https://github.com/stressapptest/stressapptest>.

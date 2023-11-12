@@ -3,7 +3,7 @@ layout: page
 title: common/base32 (Türkçe)
 description: "Bir dosya veya standart veriyi Base32 formatında şifrele veya yalın veri çıktısı olarak deşifre et."
 content_hash: 1f1391ad8937dfaa75f973853aef13725ac7df1e
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/base32.html
@@ -26,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/base32.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # base32
 

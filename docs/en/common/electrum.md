@@ -3,10 +3,12 @@ layout: page
 title: common/electrum (English)
 description: "Ergonomic Bitcoin wallet and private key management."
 content_hash: 5e52ea1d50b981822f47a2ecf464cdd8785b7722
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/electrum.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # electrum
 

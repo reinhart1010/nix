@@ -3,6 +3,7 @@ layout: page
 title: common/git-update-index (Türkçe)
 description: "İndeksi manipüle etmeye yarayan bir Git komutu."
 content_hash: ce3719f6d02ab95363c49e017d08a2d7336ba237
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-update-index.html
@@ -10,6 +11,7 @@ related_topics:
   - title: français version
     url: /fr/common/git-update-index.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git update-index
 

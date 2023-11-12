@@ -3,6 +3,8 @@ layout: page
 title: common/swagger-codegen (English)
 description: "Generate code and documentation for your REST api from a OpenAPI/swagger definition."
 content_hash: 2a2eaf18c7b73b13d1f19aebab66c6ed1b77f716
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # swagger-codegen
 

@@ -3,11 +3,29 @@ layout: page
 title: common/aireplay-ng (English)
 description: "Inject packets into a wireless network."
 content_hash: 092adbb30ebf937a5a8fbbee335907c9fc953fe7
+last_modified_at: 2023-11-12
+related_topics:
+  - title: বাংলা version
+    url: /bn/common/aireplay-ng.html
+    icon: bi bi-globe
+  - title: Deutsch version
+    url: /de/common/aireplay-ng.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/aireplay-ng.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/common/aireplay-ng.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/aireplay-ng.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/aireplay-ng.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aireplay-ng
+# aireplay-ng
 
 Inject packets into a wireless network.
 Part of `aircrack-ng`.

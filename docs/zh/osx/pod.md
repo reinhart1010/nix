@@ -3,10 +3,12 @@ layout: page
 title: osx/pod (中文)
 description: "Swift 和 Objective-C Cocoa 项目的依赖关系管理。"
 content_hash: 6d92f4be0c142f97aac158c42dde411584e9a39b
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/pod.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pod
 

@@ -3,6 +3,7 @@ layout: page
 title: linux/asciiart (தமிழ்)
 description: "படங்களை ASCII ஆக மாற்றவும்."
 content_hash: c6eaed0291d0fcb022d9f07b710fce18b291ae04
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/asciiart.html
@@ -10,12 +11,16 @@ related_topics:
   - title: English version
     url: /en/linux/asciiart.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/asciiart.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/asciiart.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/asciiart.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # asciiart
 

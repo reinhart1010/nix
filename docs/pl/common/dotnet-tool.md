@@ -3,15 +3,14 @@ layout: page
 title: common/dotnet-tool (polski)
 description: "Zarządzaj narzędziami .NET i szukaj narzędzi opublikowanych w repozytorium NuGet."
 content_hash: 1d4b2e35fbc854887dc84dd55855ec1eab2eaeb4
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/dotnet-tool.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dotnet tool
+# dotnet tool
 
 Zarządzaj narzędziami .NET i szukaj narzędzi opublikowanych w repozytorium NuGet.
 Więcej informacji: <https://learn.microsoft.com/dotnet/core/tools/global-tools>.

@@ -3,10 +3,13 @@ layout: page
 title: common/autoflake (中文)
 description: "一个工具，用于检查 Python 代码中未被使用的引入和变量。"
 content_hash: d4064c032bc97394d166d8c431f6878080a409dd
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/autoflake.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/autoflake.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/autoflake.html
@@ -17,6 +20,7 @@ related_topics:
   - title: polski version
     url: /pl/common/autoflake.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # autoflake
 

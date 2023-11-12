@@ -3,7 +3,7 @@ layout: page
 title: osx/gsha512sum (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux sha512sum`"
 content_hash: 57a62d715aab9b063e841ce197564aa5146b13fd
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gsha512sum.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gsha512sum.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gsha512sum
 

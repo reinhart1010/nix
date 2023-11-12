@@ -3,6 +3,8 @@ layout: page
 title: windows/rpcinfo (English)
 description: "List programs via RPC on remote computers."
 content_hash: 53552822d451ce90524bed804667decfb9011f18
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rpcinfo
 

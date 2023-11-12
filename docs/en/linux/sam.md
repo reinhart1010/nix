@@ -3,6 +3,8 @@ layout: page
 title: linux/sam (English)
 description: "AWS Serverless Application Model (SAM) CLI."
 content_hash: 49a812debec0b670fdc38d0c5cc4e4bc48812558
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sam
 

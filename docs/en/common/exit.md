@@ -3,6 +3,7 @@ layout: page
 title: common/exit (English)
 description: "Exit the shell."
 content_hash: 38985a55b824c08741f9a3d98ac6b477a2a46a27
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/exit.html
@@ -10,12 +11,16 @@ related_topics:
   - title: हिन्दी version
     url: /hi/common/exit.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/exit.html
+    icon: bi bi-globe
   - title: svenska version
     url: /sv/common/exit.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/exit.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # exit
 

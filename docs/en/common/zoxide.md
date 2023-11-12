@@ -3,10 +3,15 @@ layout: page
 title: common/zoxide (English)
 description: "Keep track of the most frequently used directories."
 content_hash: c3a180ecd4a27a35a3f1985dfe030c7c5a8f2cbc
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/zoxide.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/zoxide.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # zoxide
 

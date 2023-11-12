@@ -3,6 +3,7 @@ layout: page
 title: linux/snap (മലയാളം)
 description: "സ്നാപ്പ് സെൽഫ് കൺറ്റൈൻഡ് പാക്കേജുകൾ നിയന്ത്രിക്കുവാനുള്ള യൂട്ടിലിറ്റി."
 content_hash: 094ad893eb4ae6ea0ad0172609dd4b843e935211
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/linux/snap.html
@@ -10,6 +11,7 @@ related_topics:
   - title: English version
     url: /en/linux/snap.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # snap
 

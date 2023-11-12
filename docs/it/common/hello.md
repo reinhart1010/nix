@@ -3,11 +3,12 @@ layout: page
 title: common/hello (italiano)
 description: "Stampa a schermo \"Hello, world!\", \"hello, world\" oppure del testo personalizzabile."
 content_hash: 31594b1ccc393c90dda91ab030774dc71658de00
-last_modified_at: 2023-10-24
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/hello.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # hello
 

@@ -3,6 +3,7 @@ layout: page
 title: linux/alien (தமிழ்)
 description: "வெவ்வேறு நிறுவல் தொகுப்புகளை மற்ற வடிவங்களுக்கு மாற்றவும்."
 content_hash: abc7c0cec9a816d8d2bb6f0ff9e02c36dfbdeefd
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/alien.html
@@ -10,14 +11,18 @@ related_topics:
   - title: English version
     url: /en/linux/alien.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/alien.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/alien.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/alien.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># alien
+# alien
 
 வெவ்வேறு நிறுவல் தொகுப்புகளை மற்ற வடிவங்களுக்கு மாற்றவும்.
 மேலும் விவரத்திற்கு: <https://manned.org/alien>.

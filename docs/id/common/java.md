@@ -3,10 +3,13 @@ layout: page
 title: common/java (Indonesia)
 description: "Peluncur Aplikasi Java."
 content_hash: e1ceaf0b82f1cdf82a6ce9df82a46a3cbb14b8bd
-last_modified_at: 2023-06-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/java.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/java.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/java.html
@@ -20,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/java.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # java
 

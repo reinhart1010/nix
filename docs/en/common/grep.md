@@ -3,7 +3,7 @@ layout: page
 title: common/grep (English)
 description: "Find patterns in files using regular expressions."
 content_hash: e6ec82b48feaa6c5215e3e080d8c4c9db35c13a3
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/grep.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/grep.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/grep.html
@@ -32,6 +35,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/grep.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # grep
 

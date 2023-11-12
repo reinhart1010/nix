@@ -3,7 +3,7 @@ layout: page
 title: common/fastboot (português (Brasil))
 description: "Se comunica com dispositivos Android conectados quando iniciados no modo _fastboot_ (o único lugar em que `adb` não funciona)."
 content_hash: 3296f0ebfb2e767e41affd14449823171b8d9e01
-last_modified_at: 2023-10-22
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/fastboot.html
@@ -11,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/fastboot.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fastboot
 

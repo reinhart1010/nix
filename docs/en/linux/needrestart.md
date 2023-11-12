@@ -3,6 +3,8 @@ layout: page
 title: linux/needrestart (English)
 description: "Check which daemons need to be restarted after library upgrades."
 content_hash: 94ce2ad22483adb863d73f40c75f67d55db063c5
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # needrestart
 

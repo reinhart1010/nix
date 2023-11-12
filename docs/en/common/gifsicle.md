@@ -3,6 +3,8 @@ layout: page
 title: common/gifsicle (English)
 description: "GIF manipulator."
 content_hash: 5ece94172cad6bac59175b539dbb9c0f24f5635c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gifsicle
 

@@ -3,6 +3,7 @@ layout: page
 title: common/go-doc (Türkçe)
 description: "Bir paket veya sembolün dokümentasyonunu göster."
 content_hash: 6e4188c5378b7db2d03149805dd788a71d44df43
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/go-doc.html
@@ -10,11 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/go-doc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># go doc
+# go doc
 
 Bir paket veya sembolün dokümentasyonunu göster.
 Daha fazla bilgi için: <https://golang.org/cmd/go/#hdr-Show_documentation_for_package_or_symbol>.

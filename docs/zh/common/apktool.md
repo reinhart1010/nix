@@ -3,9 +3,16 @@ layout: page
 title: common/apktool (中文)
 description: "APK 文件反编译工具。"
 content_hash: 61a0785903bfb12d1df2b55b1c3cefc84b195af8
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/apktool.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/apktool.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/apktool.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/apktool.html
@@ -13,6 +20,10 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/apktool.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/apktool.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apktool
 

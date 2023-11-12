@@ -3,9 +3,13 @@ layout: page
 title: common/aws-cur (ລາວ)
 description: "Create, query, ແລະ delete AWS ທີ່ສະແດງເຖິງຄຳຈຳກັດຄວາມ."
 content_hash: b68bb4dd09d40f5434cf488aa9b1dd786194a02b
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/aws-cur.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/aws-cur.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/aws-cur.html
@@ -13,6 +17,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/aws-cur.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws cur
 

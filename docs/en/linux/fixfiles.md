@@ -3,7 +3,8 @@ layout: page
 title: linux/fixfiles (English)
 description: "Fix file SELinux security contexts."
 content_hash: 38641d5c7423adb9e4ee0389820a2042401a21e5
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fixfiles
 

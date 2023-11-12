@@ -3,6 +3,8 @@ layout: page
 title: common/ipython (English)
 description: "A Python shell with automatic history, dynamic object introspection, easier configuration, command completion, access to the system shell and more."
 content_hash: 02d642a1b5812d1015b60cb4d9c17e56a1761c47
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # IPython
 

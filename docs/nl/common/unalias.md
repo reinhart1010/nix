@@ -3,6 +3,7 @@ layout: page
 title: common/unalias (Nederlands)
 description: "Verwijder aliassen."
 content_hash: e9e12960af82325d4f6a3aa4de234b981a1cbdf2
+last_modified_at: 2023-11-12
 related_topics:
   - title: bosanski version
     url: /bs/common/unalias.html
@@ -13,7 +14,7 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/unalias.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/unalias.html
     icon: bi bi-globe
   - title: svenska version
@@ -22,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/unalias.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # unalias
 

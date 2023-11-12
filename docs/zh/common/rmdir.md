@@ -3,9 +3,16 @@ layout: page
 title: common/rmdir (中文)
 description: "删除一个目录。"
 content_hash: 8714c768834ff36ff5e7861d860afdc7568f4bcf
+last_modified_at: 2023-11-12
 related_topics:
+  - title: العربية version
+    url: /ar/common/rmdir.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/rmdir.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/common/rmdir.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/rmdir.html
@@ -13,11 +20,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/rmdir.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rmdir
+# rmdir
 
 删除一个目录。
 更多信息：<https://www.gnu.org/software/coreutils/rmdir>.

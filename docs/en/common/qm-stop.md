@@ -3,11 +3,10 @@ layout: page
 title: common/qm-stop (English)
 description: "Stop a virtual machine."
 content_hash: 57a30a4208c0cb0c701d317133ea56aeafb23bb9
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># qm stop
+# qm stop
 
 Stop a virtual machine.
 More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.

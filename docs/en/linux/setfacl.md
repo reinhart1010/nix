@@ -3,6 +3,8 @@ layout: page
 title: linux/setfacl (English)
 description: "Set file access control lists (ACL)."
 content_hash: f3cc5bb74eaa2ed4db4d901c847c86033ed10160
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # setfacl
 

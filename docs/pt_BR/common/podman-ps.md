@@ -3,16 +3,14 @@ layout: page
 title: common/podman-ps (português (Brasil))
 description: "Listar contêineres do Podman."
 content_hash: 95487e3bbd5d0dc4c5b433f6270dae4bf2b3a9a9
-last_modified_at: 2023-09-18
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/podman-ps.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># podman ps
+# podman ps
 
 Listar contêineres do Podman.
 Mais informações: <https://docs.podman.io/en/latest/markdown/podman-ps.1.html>.

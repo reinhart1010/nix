@@ -3,10 +3,12 @@ layout: page
 title: common/jest (français)
 description: "Une plateforme de test JavaScript sans configuration."
 content_hash: 2914de236508d7cf7817c031aae0e8854553db22
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/jest.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # jest
 

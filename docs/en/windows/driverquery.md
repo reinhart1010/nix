@@ -3,10 +3,12 @@ layout: page
 title: windows/driverquery (English)
 description: "Display information about installed device drivers."
 content_hash: e53c38aa5da131c53b04da14851688b03b17212f
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/windows/driverquery.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # driverquery
 

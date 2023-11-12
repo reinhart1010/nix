@@ -3,11 +3,10 @@ layout: page
 title: common/gpgconf (English)
 description: "Modify .gnupg home directories."
 content_hash: 161f62cb6e7cd9a81e62d261ff866bb2bddeb8bf
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gpgconf
+# gpgconf
 
 Modify .gnupg home directories.
 More information: <https://www.gnupg.org/documentation/manuals/gnupg/gpgconf.html>.

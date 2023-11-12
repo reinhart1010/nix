@@ -3,7 +3,7 @@ layout: page
 title: common/blender (한국어)
 description: "Blender 3D 컴퓨터 그래픽스 어플리케이션의 커맨드라인 인터페이스. 인자는 주어진 순서대로 실행."
 content_hash: 662b3bdb4459feb1927d0a876b6649180f9a9f42
-last_modified_at: 2023-04-17
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/blender.html
@@ -11,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/blender.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # blender
 

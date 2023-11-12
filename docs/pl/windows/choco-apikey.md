@@ -3,6 +3,7 @@ layout: page
 title: windows/choco-apikey (polski)
 description: "Zarządzanie kluczami API dla żródeł Chocolatey."
 content_hash: fb75ad5dcb503bde32fb5a0fe9206e90ba000fca
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-apikey.html
@@ -10,17 +11,18 @@ related_topics:
   - title: English version
     url: /en/windows/choco-apikey.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/choco-apikey.html
+    icon: bi bi-globe
   - title: 日本語 version
     url: /ja/windows/choco-apikey.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/windows/choco-apikey.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># choco apikey
+# choco apikey
 
 Zarządzanie kluczami API dla żródeł Chocolatey.
 Więcej informacji: <https://chocolatey.org/docs/commands-apikey>.

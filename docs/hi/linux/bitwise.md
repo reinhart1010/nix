@@ -3,7 +3,7 @@ layout: page
 title: linux/bitwise (हिन्दी)
 description: "गतिशील आधार रूपांतरण और बिट हेरफेर का समर्थन करने वाला मल्टी बेस इंटरैक्टिव कैलकुलेटर।"
 content_hash: 3ef4da00f3521f4e32bad3f7d538b0a248566c61
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/bitwise.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/bitwise.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bitwise
 

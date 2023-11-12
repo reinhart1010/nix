@@ -3,7 +3,7 @@ layout: page
 title: common/a2ping (हिन्दी)
 description: "छवियों को EPS या PDF फाइलों में परिवर्तित करें।"
 content_hash: 42e4e705ead17fa4ddad264ff2862f543a84c03b
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/common/a2ping.html
@@ -17,6 +17,7 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/a2ping.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # a2ping
 

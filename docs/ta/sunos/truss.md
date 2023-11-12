@@ -3,10 +3,24 @@ layout: page
 title: sunos/truss (தமிழ்)
 description: "சிஸ்டம் அழைப்புகளைத் தடமறிவதற்கான பிழைகாணல் கருவி."
 content_hash: f3d5a61de522b1df4542addadb523009e9ba749b
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/sunos/truss.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/sunos/truss.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/sunos/truss.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/sunos/truss.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/sunos/truss.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # truss
 

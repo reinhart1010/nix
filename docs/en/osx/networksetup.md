@@ -3,10 +3,12 @@ layout: page
 title: osx/networksetup (English)
 description: "Configuration tool for Network System Preferences."
 content_hash: b3c3a6edf610567d9bc89062cedb6283fd523c55
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/osx/networksetup.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # networksetup
 

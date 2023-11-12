@@ -3,6 +3,7 @@ layout: page
 title: common/adb (English)
 description: "Android Debug Bridge: communicate with an Android emulator instance or connected Android devices."
 content_hash: 1bce9d36231a15a2aa8c483ec240716aab18a4ea
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/adb.html
@@ -34,6 +35,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/adb.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # adb
 

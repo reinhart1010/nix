@@ -3,10 +3,12 @@ layout: page
 title: linux/zipcloak (español)
 description: "Encripta el contenido de un archivo zip."
 content_hash: 95641f03d5dea3d273147ab84a6e814ddb9157aa
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/zipcloak.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # zipcloak
 

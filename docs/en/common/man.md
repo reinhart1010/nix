@@ -3,6 +3,7 @@ layout: page
 title: common/man (English)
 description: "Format and display manual pages."
 content_hash: 294ae70e8071017fb172c3cacb7f25fa3aba3ecf
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/man.html
@@ -10,9 +11,13 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/man.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/man.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/man.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # man
 

@@ -3,7 +3,8 @@ layout: page
 title: common/kcadm.sh (English)
 description: "Perform administration tasks."
 content_hash: c0405b67b3720dd24fbba39479ac621c9d37a58d
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # kcadm.sh
 

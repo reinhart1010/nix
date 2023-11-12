@@ -3,12 +3,16 @@ layout: page
 title: common/echo (français)
 description: "Affiche les paramètres donnés dans la console."
 content_hash: db044101b8631dd4a4ffe0c0b8fa36b5af6282ee
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/echo.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/echo.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/echo.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/echo.html
@@ -25,6 +29,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/echo.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/echo.html
+    icon: bi bi-globe
   - title: српски version
     url: /sr/common/echo.html
     icon: bi bi-globe
@@ -34,8 +41,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/echo.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# echo
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># echo
 
 Affiche les paramètres donnés dans la console.
 Plus d'informations : <https://www.gnu.org/software/coreutils/echo>.

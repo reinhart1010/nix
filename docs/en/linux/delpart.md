@@ -3,7 +3,8 @@ layout: page
 title: linux/delpart (English)
 description: "Ask the Linux kernel to forget about a partition."
 content_hash: 363d9b5f6f393c1347503d2db778e3ff807d4552
-last_modified_at: 2023-10-22
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # delpart
 

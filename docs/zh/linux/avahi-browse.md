@@ -3,12 +3,17 @@ layout: page
 title: linux/avahi-browse (中文)
 description: "显示通过 mDNS/DNS-SD 暴露在本地网络的服务和主机。"
 content_hash: 37a64cc0bffe66d0ea93e8042f5b25efc2a637ee
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/avahi-browse.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# avahi-browse
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># avahi-browse
 
 显示通过 mDNS/DNS-SD 暴露在本地网络的服务和主机。
 Avahi 与苹果设备的 Bonjour（Zeroconf）兼容。

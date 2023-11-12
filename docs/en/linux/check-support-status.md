@@ -3,6 +3,8 @@ layout: page
 title: linux/check-support-status (English)
 description: "Identify installed Debian packages for which support has had to be limited or prematurely ended."
 content_hash: 43f59f8813f3ef60bcca6ecf71424bcebb505305
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # check-support-status
 

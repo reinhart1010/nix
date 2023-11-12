@@ -3,7 +3,7 @@ layout: page
 title: linux/yaourt (English)
 description: "Arch Linux utility for building packages from the Arch User Repository."
 content_hash: ed4bbd72ddb1182814156aa7322a17353c55debf
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/yaourt.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/yaourt.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # yaourt
 

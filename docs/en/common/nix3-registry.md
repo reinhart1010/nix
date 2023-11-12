@@ -3,12 +3,10 @@ layout: page
 title: common/nix3-registry (English)
 description: "Manage a Nix flake registry."
 content_hash: 52523cdf70fa39b60ebeb57dfdc8425f3aa21951
-last_modified_at: 2023-04-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># nix registry
+# nix registry
 
 Manage a Nix flake registry.
 See `tldr nix3 flake` for information about flakes.

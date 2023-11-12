@@ -3,19 +3,15 @@ layout: page
 title: linux/i3lock (português (Brasil))
 description: "Bloqueador de tela simples para o i3wm."
 content_hash: 5ed56d15250f2bfd2bf7d3c072c0e18183533276
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/i3lock.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/i3lock.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># i3lock
 

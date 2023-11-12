@@ -3,7 +3,8 @@ layout: page
 title: common/tcsh (English)
 description: "C shell with file name completion and command-line editing."
 content_hash: a8ffa465287f0c7bb6fa82c23e7dc3d71f8ec867
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tcsh
 

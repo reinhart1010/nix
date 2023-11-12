@@ -3,6 +3,12 @@ layout: page
 title: linux/ip-route (English)
 description: "IP Routing table management subcommand."
 content_hash: ef7de6d33b8a4d92c4cbc20f99a9351ba29a8782
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Türkçe version
+    url: /tr/linux/ip-route.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ip route
 

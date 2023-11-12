@@ -3,16 +3,17 @@ layout: page
 title: common/argocd-app (español)
 description: "Interfaz de línea de comandos para gestionar aplicaciones por CD Argo."
 content_hash: cbdb05d49a0eed0b8a46c309751089b1fd1eebe1
-last_modified_at: 2023-03-21
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/argocd-app.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/argocd-app.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># argocd app
+# argocd app
 
 Interfaz de línea de comandos para gestionar aplicaciones por CD Argo.
 Más información: <https://argo-cd.readthedocs.io/en/stable/user-guide/commands/argocd_app/>.

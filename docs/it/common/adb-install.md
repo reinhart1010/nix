@@ -3,15 +3,22 @@ layout: page
 title: common/adb-install (italiano)
 description: "Android Debug Bridge Install: Invia pacchetti ad un emulatore Android od ad un dispositivo Android connesso."
 content_hash: cee84f6d1c0e0a204ba5ae1d6fa72e3a85549ae1
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/adb-install.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/adb-install.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/adb-install.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/adb-install.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/adb-install.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/adb-install.html
@@ -25,15 +32,10 @@ related_topics:
   - title: 中文 version
     url: /zh/common/adb-install.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/adb-install.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># adb install
 

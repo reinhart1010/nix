@@ -3,7 +3,8 @@ layout: page
 title: common/tlmgr-pinning (English)
 description: "The pinning action manages the pinning file."
 content_hash: 45affa6a59481097ffdde3c90076195271c609b9
-last_modified_at: 2023-04-10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tlmgr pinning
 

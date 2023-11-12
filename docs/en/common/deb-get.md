@@ -3,11 +3,10 @@ layout: page
 title: common/deb-get (English)
 description: "`apt-get` functionality for `.deb` packages published in third party repositories or via direct download."
 content_hash: 8b1f57be38738807a651c284ca661fe515a20fc4
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># deb-get
+# deb-get
 
 `apt-get` functionality for `.deb` packages published in third party repositories or via direct download.
 Works with Linux distributions which use `apt-get`.

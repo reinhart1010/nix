@@ -3,7 +3,7 @@ layout: page
 title: linux/yum (English)
 description: "Package management utility for RHEL, Fedora, and CentOS (for older versions)."
 content_hash: c92b22195abb9190c389b67f1d78b9f5347f0452
-last_modified_at: 2022-12-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/yum.html
@@ -14,9 +14,13 @@ related_topics:
   - title: فارسی version
     url: /fa/linux/yum.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/yum.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/yum.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # yum
 

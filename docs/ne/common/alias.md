@@ -3,7 +3,7 @@ layout: page
 title: common/alias (नेपाली)
 description: "उपनामहरु बनाउछ -- शब्दहरू जुन आदेश स्ट्रिङद्वारा प्रतिस्थापन गरिन्छ।"
 content_hash: fbdf247a41187c89f9f0831fa9826640c3538e14
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/common/alias.html
@@ -59,6 +59,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/alias.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # alias
 

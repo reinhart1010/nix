@@ -3,10 +3,12 @@ layout: page
 title: common/kotlin (English)
 description: "Kotlin application launcher."
 content_hash: 1bc54df5ab3681183f11990a5ca2e33750e4b21f
+last_modified_at: 2023-11-12
 related_topics:
   - title: svenska version
     url: /sv/common/kotlin.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # kotlin
 

@@ -3,12 +3,10 @@ layout: page
 title: common/wkhtmltopdf (English)
 description: "An open-source command-line tool to convert HTML documents or web pages into PDF files."
 content_hash: 084fcca54e5b075b0b8d15ed10a42231f77f74bf
-last_modified_at: 2023-10-02
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># wkhtmltopdf
+# wkhtmltopdf
 
 An open-source command-line tool to convert HTML documents or web pages into PDF files.
 More information: <https://wkhtmltopdf.org/>.

@@ -3,6 +3,8 @@ layout: page
 title: common/git-mr (English)
 description: "Check out GitLab merge requests locally."
 content_hash: 557e55b2e91a074e59b28a71b361ca0250d3b701
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git mr
 

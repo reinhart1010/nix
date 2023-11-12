@@ -3,6 +3,7 @@ layout: page
 title: common/git-ignore-io (Deutsch)
 description: "Erstelle `.gitignore` Dateien aus vorgefertigten Vorlagen."
 content_hash: 6684211791b842d68bfb2dfcf9c8e164011cea3f
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-ignore-io.html
@@ -13,6 +14,7 @@ related_topics:
   - title: italiano version
     url: /it/common/git-ignore-io.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git ignore-io
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/mt (English)
 description: "Control magnetic tape drive operation (commonly LTO tape)."
 content_hash: 8490f8a359af2112dd8df6e76f33e45e02b32379
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mt
 

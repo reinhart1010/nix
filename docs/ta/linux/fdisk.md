@@ -3,14 +3,18 @@ layout: page
 title: linux/fdisk (தமிழ்)
 description: "பகிர்வு அட்டவணைகள் மற்றும் பகிர்வுகளை ஹார்ட் டிஸ்கில் நிர்வகிப்பதற்கான ஒரு நிரல்."
 content_hash: b01136d0066098ebc403eb08dda1b56e94df4e19
-last_modified_at: 2023-06-02
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/fdisk.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/fdisk.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/fdisk.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fdisk
 

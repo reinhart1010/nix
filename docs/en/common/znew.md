@@ -3,11 +3,10 @@ layout: page
 title: common/znew (English)
 description: "Recompress files from `.Z` to `.gz` format."
 content_hash: db89b1fa8e22a01dfe93d6b9ba5feb7614122522
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># znew
+# znew
 
 Recompress files from `.Z` to `.gz` format.
 More information: <https://manned.org/znew>.

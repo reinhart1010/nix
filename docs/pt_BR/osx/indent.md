@@ -3,16 +3,14 @@ layout: page
 title: osx/indent (português (Brasil))
 description: "Altera a aparência de um programa C/C++ inserindo ou excluindo espaços em branco."
 content_hash: 27c912655e406e1e9f96e14e9b2a27405ba691ea
-last_modified_at: 2022-11-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/indent.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># indent
+# indent
 
 Altera a aparência de um programa C/C++ inserindo ou excluindo espaços em branco.
 Mais informações: <https://www.freebsd.org/cgi/man.cgi?query=indent>.

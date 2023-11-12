@@ -3,11 +3,10 @@ layout: page
 title: linux/qm-snapshot (English)
 description: "Create virtual machine snapshots."
 content_hash: 86017e2dc8f311d894e41d5d8d91322173652441
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># qm snapshot
+# qm snapshot
 
 Create virtual machine snapshots.
 More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.

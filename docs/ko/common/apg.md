@@ -3,7 +3,7 @@ layout: page
 title: common/apg (한국어)
 description: "임의로 복잡한 랜덤 암호를 만듭니다."
 content_hash: b01557ea4d624dfd046461757d7ad9abfe13da30
-last_modified_at: 2023-05-22
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/apg.html
@@ -23,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/apg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apg
 

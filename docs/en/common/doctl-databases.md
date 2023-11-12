@@ -3,12 +3,10 @@ layout: page
 title: common/doctl-databases (English)
 description: "Manage your MySQL, Redis, PostgreSQL, and MongoDB database services."
 content_hash: f1743b1569670e89260dd1bf56ae8429c05ba71b
-last_modified_at: 2023-10-12
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># doctl databases
+# doctl databases
 
 Manage your MySQL, Redis, PostgreSQL, and MongoDB database services.
 More information: <https://docs.digitalocean.com/reference/doctl/reference/databases>.

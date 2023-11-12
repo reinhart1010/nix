@@ -3,18 +3,29 @@ layout: page
 title: common/acme.sh (中文)
 description: "实现了 ACME 客户端协议的 shell 脚本，是 certbot 的替代品。"
 content_hash: 863659724324fce0344728ef77a3ba68b7651d00
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/acme.sh.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/acme.sh.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/acme.sh.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/acme.sh.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/acme.sh.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/acme.sh.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># acme.sh
+# acme.sh
 
 实现了 ACME 客户端协议的 shell 脚本，是 certbot 的替代品。
 另见 `acme.sh dns`。

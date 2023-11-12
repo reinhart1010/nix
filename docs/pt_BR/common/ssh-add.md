@@ -3,7 +3,7 @@ layout: page
 title: common/ssh-add (português (Brasil))
 description: "Gerencia as chaves SSH carregadas no ssh-agent."
 content_hash: f42ba257e1ddee8990277d43085ee032606030fa
-last_modified_at: 2023-09-18
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ssh-add.html
@@ -14,11 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ssh-add.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ssh-add
+# ssh-add
 
 Gerencia as chaves SSH carregadas no ssh-agent.
 Certifique-se de que o ssh-agent esteja em execução para que as chaves sejam carregadas nele.

@@ -3,12 +3,10 @@ layout: page
 title: common/bioradtopgm (English)
 description: "Convert a Biorad confocal file into a PGM file."
 content_hash: cf4f4ae932f86a257cd9af53acdff78baa39821e
-last_modified_at: 2023-10-19
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bioradtopgm
+# bioradtopgm
 
 Convert a Biorad confocal file into a PGM file.
 More information: <https://netpbm.sourceforge.net/doc/bioradtopgm.html>.

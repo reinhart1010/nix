@@ -3,10 +3,12 @@ layout: page
 title: common/duplicity (English)
 description: "Creates incremental, compressed, encrypted and versioned backups."
 content_hash: cd282b0ab27372590a44d4232f2a8815558d5b58
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/duplicity.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # duplicity
 

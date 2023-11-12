@@ -3,10 +3,12 @@ layout: page
 title: common/gocryptfs (English)
 description: "Encrypted overlay filesystem written in Go."
 content_hash: 5114dfc0103832467b7433bf742b944d220beef2
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/gocryptfs.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gocryptfs
 

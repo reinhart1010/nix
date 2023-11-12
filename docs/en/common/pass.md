@@ -3,10 +3,12 @@ layout: page
 title: common/pass (English)
 description: "Tool for storing and reading passwords or other sensitive data."
 content_hash: 6708e0e83f154b0e4ed1f00f65fc6343ebcb8f54
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/pass.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pass
 

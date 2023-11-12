@@ -3,9 +3,13 @@ layout: page
 title: common/docker-stats (English)
 description: "Display a live stream of resource usage statistics for containers."
 content_hash: cdb5ae61e8ea9ae606e7f06e26a9b949e603a467
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-stats.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/docker-stats.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker-stats.html
@@ -13,6 +17,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-stats.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker stats
 

@@ -3,6 +3,7 @@ layout: page
 title: common/git-annotate (한국어)
 description: "각각의 파일란에 커밋한 해쉬와 마지막 작성자를 보여 줍니다."
 content_hash: 646e2991921e2921196cdb9b53e4a17c01b2ca00
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-annotate.html
@@ -10,8 +11,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-annotate.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# git annotate
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git annotate
 
 각각의 파일란에 커밋한 해쉬와 마지막 작성자를 보여 줍니다.
 깃 어노테이트 보다 많이 사용되는 깃 블레임을 살펴 보세요.

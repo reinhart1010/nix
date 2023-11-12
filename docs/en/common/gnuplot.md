@@ -3,6 +3,8 @@ layout: page
 title: common/gnuplot (English)
 description: "A graph plotter that outputs in several formats."
 content_hash: 706fefa8d77dbc38edacc13f16f849c929057320
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gnuplot
 

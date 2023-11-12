@@ -3,11 +3,12 @@ layout: page
 title: common/zstd (English)
 description: "Compress or decompress files with Zstandard compression."
 content_hash: 47614052751e30a8acb816a314803cb0c270c53f
-last_modified_at: 2023-09-07
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/common/zstd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # zstd
 

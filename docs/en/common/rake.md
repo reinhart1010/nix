@@ -3,12 +3,10 @@ layout: page
 title: common/rake (English)
 description: "A Make-like program for Ruby."
 content_hash: 16e4f8542a0184f209c1d89edc090eb31e3d8399
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rake
+# rake
 
 A Make-like program for Ruby.
 Tasks for `rake` are specified in a Rakefile.

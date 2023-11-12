@@ -3,7 +3,8 @@ layout: page
 title: common/goimports (English)
 description: "Updates Go import lines, adding missing ones and removing unreferenced ones."
 content_hash: 44365fdd9a2d17bd3c5c3335512b304d881a263b
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # goimports
 

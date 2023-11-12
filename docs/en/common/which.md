@@ -3,6 +3,7 @@ layout: page
 title: common/which (English)
 description: "Locate a program in the user's path."
 content_hash: 3b63bf30e97d31f534befc893af0cf7d4b3d60fb
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/which.html
@@ -10,9 +11,13 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/which.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/which.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/which.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # which
 

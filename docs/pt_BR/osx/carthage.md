@@ -3,6 +3,7 @@ layout: page
 title: osx/carthage (português (Brasil))
 description: "Ferramenta de gerenciamento de dependências para aplicativos Cocoa."
 content_hash: e0552b3842c4b3e1c3beb5fb90b0c628ccf87b45
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/carthage.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/carthage.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # carthage
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/flash (English)
 description: "Flash cards in the terminal."
 content_hash: a5cc57a84dd12a6f9fe670cab6e87bbbac391213
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # flash
 

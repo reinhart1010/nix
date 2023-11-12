@@ -3,11 +3,15 @@ layout: page
 title: osx/cot (English)
 description: "The Plain-Text Editor for macOS."
 content_hash: 47595f2933708022bbc0fa16831cad754c4476c6
-last_modified_at: 2023-02-19
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/osx/cot.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/osx/cot.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cot
 

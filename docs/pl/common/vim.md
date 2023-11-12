@@ -3,6 +3,7 @@ layout: page
 title: common/vim (polski)
 description: "Vim (Vi IMproved), edytor tekstu wiersza polecenia, oferuje kilka trybów dla różnych rodzajów manipulacji tekstem."
 content_hash: a7be85009f6c0008a33246266ff13eae29883888
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -22,8 +23,14 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/vim.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/vim.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/vim.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/vim.html
     icon: bi bi-globe
   - title: українська version
     url: /uk/common/vim.html
@@ -31,6 +38,10 @@ related_topics:
   - title: 中文 version
     url: /zh/common/vim.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/vim.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # vim
 

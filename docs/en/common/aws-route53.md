@@ -3,11 +3,12 @@ layout: page
 title: common/aws-route53 (English)
 description: "CLI for AWS Route53 - Route 53 is a highly available and scalable Domain Name System (DNS) web service."
 content_hash: cca6468dad1a7bfdd98be92e94d42e905a9acb56
-last_modified_at: 2023-06-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/aws-route53.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws route53
 

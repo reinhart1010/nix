@@ -3,6 +3,7 @@ layout: page
 title: common/acyclic (español)
 description: "Hace un gráfico acíclico invirtiendo algunos bordes."
 content_hash: 58c01ef69a68c2f9ff3cd7f03ccf739d19d9a0ef
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/acyclic.html
@@ -10,11 +11,15 @@ related_topics:
   - title: français version
     url: /fr/common/acyclic.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/acyclic.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/acyclic.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># acyclic
+# acyclic
 
 Hace un gráfico acíclico invirtiendo algunos bordes.
 Filtros Graphviz: `acyclic`, `bcomps`, `comps`, `edgepaint`, `gvcolor`, `gvpack`, `mingle`, `nop`, `sccmap`, `tred`, & `unflatten`.

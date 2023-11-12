@@ -3,7 +3,12 @@ layout: page
 title: common/birdc (English)
 description: "Bird remote control."
 content_hash: 1314aeea9bd6ef62d7bf0f4e8b948057bdef06fe
-last_modified_at: 2023-07-13
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/birdc.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # birdc
 

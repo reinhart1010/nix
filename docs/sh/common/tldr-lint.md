@@ -3,7 +3,7 @@ layout: page
 title: common/tldr-lint (sh)
 description: "Lintuje i formatira tldr stranice."
 content_hash: 341bfecfbdf93c41e342c3de96e3e35be3a35511
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/tldr-lint.html
@@ -14,6 +14,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/tldr-lint.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tldr-lint
 

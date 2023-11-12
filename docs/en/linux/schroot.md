@@ -3,7 +3,8 @@ layout: page
 title: linux/schroot (English)
 description: "Run a command or start an interactive shell with a different root directory. More customizable than `chroot`."
 content_hash: 1fb09cda3a0a34ba3d348cf1c40f96c0c51c570a
-last_modified_at: 2023-08-31
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # schroot
 

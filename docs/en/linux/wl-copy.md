@@ -3,11 +3,12 @@ layout: page
 title: linux/wl-copy (English)
 description: "Wayland clipboard manipulation tool."
 content_hash: 42a9b5c0a967dbce00620fc7517e0feff98ff4c6
-last_modified_at: 2023-11-07
+last_modified_at: 2023-11-12
 related_topics:
   - title: Türkçe version
     url: /tr/linux/wl-copy.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wl-copy
 

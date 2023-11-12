@@ -3,15 +3,17 @@ layout: page
 title: common/passwd (français)
 description: "Passwd est un outil de changement de mot de passe utilisateur."
 content_hash: f3d3a0fd7c4d1dc7503f3edd098a262c1d4082c7
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/passwd.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/passwd.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># passwd
+# passwd
 
 Passwd est un outil de changement de mot de passe utilisateur.
 Plus d'informations : <https://manned.org/passwd>.

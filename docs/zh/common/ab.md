@@ -3,7 +3,11 @@ layout: page
 title: common/ab (中文)
 description: "Apache 基准测试工具。"
 content_hash: 10cdc2711c55632f47a79a953260d4e83ed3f365
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/ab.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/ab.html
     icon: bi bi-globe
@@ -13,13 +17,22 @@ related_topics:
   - title: español version
     url: /es/common/ab.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/ab.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/ab.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/ab.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/ab.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: Nederlands version
+    url: /nl/common/ab.html
+    icon: bi bi-globe
+  - title: norsk version
     url: /no/common/ab.html
     icon: bi bi-globe
   - title: português (Brasil) version
@@ -31,6 +44,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/ab.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ab
 

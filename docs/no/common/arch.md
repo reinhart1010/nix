@@ -1,11 +1,24 @@
 ---
 layout: page
-title: common/arch (norsk bokmål (Norge))
+title: common/arch (norsk)
 description: "Vis navnet på systemarkitekturen."
 content_hash: 9993af063cb37f60f0b98062fddeacc6f6a9fcde
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/arch.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/arch.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/arch.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/arch.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/common/arch.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/arch.html
@@ -25,9 +38,13 @@ related_topics:
   - title: svenska version
     url: /sv/common/arch.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/arch.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/arch.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # arch
 

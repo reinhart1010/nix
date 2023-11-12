@@ -3,16 +3,14 @@ layout: page
 title: windows/remove-item (Nederlands)
 description: "Verwijder bestanden, mappen, evenals registersleutels en subkeys."
 content_hash: 40c356840268d97671a76f8012aa9e336266ef7f
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/remove-item.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># Remove-Item
+# Remove-Item
 
 Verwijder bestanden, mappen, evenals registersleutels en subkeys.
 Deze opdracht kan alleen door PowerShell worden uitgevoerd.

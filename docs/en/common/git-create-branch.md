@@ -3,6 +3,8 @@ layout: page
 title: common/git-create-branch (English)
 description: "Create a Git branch in a repository."
 content_hash: 9d609b74cad7893543bf60138b85b313f1598bad
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git create-branch
 

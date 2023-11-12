@@ -3,6 +3,8 @@ layout: page
 title: common/zmore (English)
 description: "View gzip compressed files with `more`."
 content_hash: 0a60da969ea097a32efc33886d4d8180e5275c3c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # zmore
 

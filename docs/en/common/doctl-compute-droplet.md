@@ -3,6 +3,8 @@ layout: page
 title: common/doctl-compute-droplet (English)
 description: "List, create, and delete virtual machines which are called droplets."
 content_hash: 6dba8cc92470aac56dcde63b95e2e13d30056e78
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # doctl compute droplet
 

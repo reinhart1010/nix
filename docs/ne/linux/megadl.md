@@ -3,7 +3,7 @@ layout: page
 title: linux/megadl (नेपाली)
 description: "यो आदेश `megatools-dl` को उपनाम हो |"
 content_hash: 01130361d802f62d5bcc9ac63cc8e4afa3aff6db
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/linux/megadl.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/linux/megadl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # megadl
 

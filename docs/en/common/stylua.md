@@ -3,7 +3,8 @@ layout: page
 title: common/stylua (English)
 description: "An opinionated Lua code formatter."
 content_hash: 32f639bd0cd545497f7f914f26ed0a30c58b0a4d
-last_modified_at: 2023-09-17
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # stylua
 

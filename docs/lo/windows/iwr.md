@@ -3,7 +3,7 @@ layout: page
 title: windows/iwr (ລາວ)
 description: "ຄຳສັ່ງນີ້ເປັນອີກຊື່ໜຶ່ງຂອງຄຳສັ່ງ `invoke-webrequest`."
 content_hash: 8332a32b01980aacebb29df9432e0f09b6b7c87e
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/iwr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # iwr
 

@@ -3,11 +3,10 @@ layout: page
 title: linux/qm-rollback (English)
 description: "Rollback the VM state to a specified snapshot."
 content_hash: e0b287a7282748878eeb21da28108f2393df5912
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># qm rollback
+# qm rollback
 
 Rollback the VM state to a specified snapshot.
 More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.

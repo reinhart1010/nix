@@ -3,7 +3,7 @@ layout: page
 title: common/at (नेपाली)
 description: "पछि एक पटक आदेशहरू कार्यान्वयन गर्छ।"
 content_hash: e346fbb2ead6035bcae66f7d776a40b00258d63a
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/at.html
@@ -29,6 +29,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/at.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # at
 

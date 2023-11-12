@@ -3,12 +3,10 @@ layout: page
 title: linux/systemd-socket-activate (English)
 description: "Socket activation for systemd services."
 content_hash: 22ea5f52977824cc81dc1cc44d7a6417751083b7
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># systemd-socket-activate
+# systemd-socket-activate
 
 Socket activation for systemd services.
 More information: <https://www.freedesktop.org/software/systemd/man/latest/systemd-socket-activate.html>.

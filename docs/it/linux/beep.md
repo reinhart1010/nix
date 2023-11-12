@@ -3,7 +3,7 @@ layout: page
 title: linux/beep (italiano)
 description: "Un'utilità per emettere un segnale acustico all'altoparlante del PC."
 content_hash: 08ff15ddea45d9e8b0f73ec22871e9321f9e57ef
-last_modified_at: 2023-04-21
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/beep.html
@@ -17,11 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/beep.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># beep
+# beep
 
 Un'utilità per emettere un segnale acustico all'altoparlante del PC.
 Maggiori informazioni: <https://github.com/spkr-beep/beep>.

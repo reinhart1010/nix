@@ -3,6 +3,8 @@ layout: page
 title: common/hadolint (English)
 description: "Dockerfile linter."
 content_hash: 0585ff20e30a96e378865e0128c3ef3f0d479d9d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # hadolint
 

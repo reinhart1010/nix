@@ -3,10 +3,12 @@ layout: page
 title: common/dotnet-ef (English)
 description: "Perform design-time development tasks for Entity Framework Core."
 content_hash: 34fe34324395c32117b461ff5fc5408ae2fa260e
+last_modified_at: 2023-11-12
 related_topics:
   - title: polski version
     url: /pl/common/dotnet-ef.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dotnet ef
 

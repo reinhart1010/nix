@@ -3,11 +3,14 @@ layout: page
 title: common/podman-compose (English)
 description: "Run and manage Compose Specification container definition."
 content_hash: e7470f361a36f2f5267b7d52d47a6897bf670451
+last_modified_at: 2023-11-12
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/common/podman-compose.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># podman-compose
+# podman-compose
 
 Run and manage Compose Specification container definition.
 More information: <https://github.com/containers/podman-compose>.

@@ -3,6 +3,8 @@ layout: page
 title: common/xplr (English)
 description: "Terminal-based file system explorer."
 content_hash: c4dd384e5533408f4b59e469eaa5c1c2144afd38
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xplr
 

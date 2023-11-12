@@ -3,7 +3,7 @@ layout: page
 title: common/conda (English)
 description: "Package, dependency and environment management for any programming language."
 content_hash: 2ccaa9cdbd71c55362ab0a0509cb6e4eb7851621
-last_modified_at: 2023-01-13
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/conda.html
@@ -14,6 +14,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/conda.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # conda
 

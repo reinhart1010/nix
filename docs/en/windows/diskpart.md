@@ -3,14 +3,18 @@ layout: page
 title: windows/diskpart (English)
 description: "Disk, volume and partition manager."
 content_hash: dc89a17a1caced97dbd7d3ff2c3ab59370bd93ee
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
+  - title: हिन्दी version
+    url: /hi/windows/diskpart.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/windows/diskpart.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/windows/diskpart.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # diskpart
 

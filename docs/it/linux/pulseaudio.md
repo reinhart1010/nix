@@ -3,6 +3,7 @@ layout: page
 title: linux/pulseaudio (italiano)
 description: "Programma che permette di gestire il daemon audio di sistema."
 content_hash: 7565c6f2f3ccd66cf9823e9d351b2754c67fed72
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/pulseaudio.html
@@ -10,6 +11,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/pulseaudio.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pulseaudio
 

@@ -3,7 +3,11 @@ layout: page
 title: common/asdf (français)
 description: "Interface en ligne de commande pour gérer les versions de différents paquets."
 content_hash: 4065dd889c55e11850a1aef11a6456076d89dae2
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/asdf.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/asdf.html
     icon: bi bi-globe
@@ -22,11 +26,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/asdf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># asdf
+# asdf
 
 Interface en ligne de commande pour gérer les versions de différents paquets.
 Plus d'informations : <https://asdf-vm.com>.

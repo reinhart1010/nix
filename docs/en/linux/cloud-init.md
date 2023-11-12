@@ -3,11 +3,10 @@ layout: page
 title: linux/cloud-init (English)
 description: "Command line tool for managing cloud instance initialization."
 content_hash: 59433dbeaf852388daf6daba5a80a1ebf6272284
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cloud-init
+# cloud-init
 
 Command line tool for managing cloud instance initialization.
 More information: <https://cloudinit.readthedocs.io>.

@@ -3,11 +3,10 @@ layout: page
 title: common/php-cs-fixer (English)
 description: "Automatic coding style fixer for PHP."
 content_hash: 0d66cf5ba171b669cac46b94eb223cc849a8a854
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># PHP-CS-Fixer
+# PHP-CS-Fixer
 
 Automatic coding style fixer for PHP.
 More information: <https://github.com/FriendsOfPHP/PHP-CS-Fixer>.

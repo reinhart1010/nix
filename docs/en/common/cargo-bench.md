@@ -3,7 +3,8 @@ layout: page
 title: common/cargo-bench (English)
 description: "Compile and execute benchmarks."
 content_hash: ae536d896a91c5a43c6b9ded84f7edb5ce8df0e6
-last_modified_at: 2023-10-30
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # cargo bench
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/qsub (English)
 description: "Submits a script to the queue management system TORQUE."
 content_hash: 8cab03ed5f070968b9ea834fb193aeef072f4745
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # qsub
 

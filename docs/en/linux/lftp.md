@@ -3,7 +3,8 @@ layout: page
 title: linux/lftp (English)
 description: "Sophisticated file transfer program."
 content_hash: 4b757d426062e336c399124a0269b96d23f5f859
-last_modified_at: 2023-02-19
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lftp
 

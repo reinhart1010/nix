@@ -3,6 +3,12 @@ layout: page
 title: linux/wajig (English)
 description: "Simplified all-in-one-place system support tool for Debian-based systems."
 content_hash: 5bcf9d12d168506739fb7bb483e11ea897204e39
+last_modified_at: 2023-11-12
+related_topics:
+  - title: polski version
+    url: /pl/linux/wajig.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wajig
 

@@ -3,12 +3,10 @@ layout: page
 title: common/gfortran (English)
 description: "Preprocess and compile Fortran source files, then assemble and link them together."
 content_hash: d0ffd9e0bfbb467cc71e01388180e4dea10c928e
-last_modified_at: 2023-02-17
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gfortran
+# gfortran
 
 Preprocess and compile Fortran source files, then assemble and link them together.
 More information: <https://gcc.gnu.org/wiki/GFortran>.

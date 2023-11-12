@@ -3,11 +3,10 @@ layout: page
 title: linux/mashtree (English)
 description: "Makes a fast tree from genomes."
 content_hash: a164be50f75c1a7d722f1fc37348549f6511b582
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mashtree
+# mashtree
 
 Makes a fast tree from genomes.
 Does not make a phylogeny.

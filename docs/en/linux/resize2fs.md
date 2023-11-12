@@ -3,6 +3,8 @@ layout: page
 title: linux/resize2fs (English)
 description: "Resize an ext2, ext3 or ext4 filesystem."
 content_hash: 47aeda876e7c8e49fdf5167031e65247b1e12876
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # resize2fs
 

@@ -3,6 +3,7 @@ layout: page
 title: linux/cfdisk (Nederlands)
 description: "Een programma voor het beheren van partitie tabellen en partities op een harde schijf met het gebruik van een UI."
 content_hash: 69119db48edf93d4654bf363f9bc638d6668da5f
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/cfdisk.html
@@ -13,11 +14,9 @@ related_topics:
   - title: français version
     url: /fr/linux/cfdisk.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cfdisk
+# cfdisk
 
 Een programma voor het beheren van partitie tabellen en partities op een harde schijf met het gebruik van een UI.
 Meer informatie: <https://manned.org/cfdisk>.

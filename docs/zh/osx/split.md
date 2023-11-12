@@ -3,12 +3,17 @@ layout: page
 title: osx/split (中文)
 description: "把一个文件拆分成几块。"
 content_hash: 2ff59cbbbba9e43a9dd542fd8f4bea5a3102297a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/split.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# split
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># split
 
 把一个文件拆分成几块。
 更多信息：<https://ss64.com/osx/split.html>.

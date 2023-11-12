@@ -3,11 +3,12 @@ layout: page
 title: common/gh-gist (English)
 description: "Work with GitHub Gists."
 content_hash: 173eb867209459756150a173637131fc273e6890
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/common/gh-gist.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gh gist
 

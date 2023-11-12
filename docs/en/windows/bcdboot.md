@@ -3,7 +3,12 @@ layout: page
 title: windows/bcdboot (English)
 description: "Configure or repair boot files."
 content_hash: e21205690d264a66bb69b0f227ccf9edffc15565
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
+related_topics:
+  - title: हिन्दी version
+    url: /hi/windows/bcdboot.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bcdboot
 

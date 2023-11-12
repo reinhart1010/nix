@@ -3,14 +3,21 @@ layout: page
 title: osx/pbcopy (English)
 description: "Copy data from `stdin` to the clipboard."
 content_hash: 2811b12339ce628f1eb25677af749c70c5562cf7
-last_modified_at: 2023-02-03
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/osx/pbcopy.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/osx/pbcopy.html
+    icon: bi bi-globe
+  - title: ไทย version
+    url: /th/osx/pbcopy.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/pbcopy.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pbcopy
 

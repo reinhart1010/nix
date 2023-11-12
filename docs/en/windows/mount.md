@@ -3,6 +3,12 @@ layout: page
 title: windows/mount (English)
 description: "Mount Network File System (NFS) network shares."
 content_hash: 0df643efa4b257050e26ebff91b624597f09931a
+last_modified_at: 2023-11-12
+related_topics:
+  - title: italiano version
+    url: /it/windows/mount.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mount
 

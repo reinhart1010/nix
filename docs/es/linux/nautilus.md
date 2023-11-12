@@ -3,6 +3,7 @@ layout: page
 title: linux/nautilus (español)
 description: "Explorador de archivos por defecto para el entorno de escritorio GNOME."
 content_hash: bfdc5c485609bc2eeb8a2e7fac91173a12c4a23a
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/nautilus.html
@@ -10,11 +11,9 @@ related_topics:
   - title: English version
     url: /en/linux/nautilus.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># nautilus
+# nautilus
 
 Explorador de archivos por defecto para el entorno de escritorio GNOME.
 También conocido como Archivos de GNOME.

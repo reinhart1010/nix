@@ -3,6 +3,8 @@ layout: page
 title: linux/vmware-checkvm (English)
 description: "Checks to see if the current host is a VMware VM or not."
 content_hash: e9c2c5958de274f04cd170eaccfbaa55cfc54c42
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # vmware-checkvm
 

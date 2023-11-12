@@ -3,7 +3,7 @@ layout: page
 title: common/adb-shell (Nederlands)
 description: "Android Debug Bridge Shell: Voer externe shell-opdrachten uit op een Android-emulatorinstantie of aangesloten Android-apparaten."
 content_hash: 3f38c7cfd7efbe96aba3bb7fabaf1a178a8be0e2
-last_modified_at: 2023-06-01
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/adb-shell.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/adb-shell.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/common/adb-shell.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/adb-shell.html
@@ -32,11 +35,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/adb-shell.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># adb shell
+# adb shell
 
 Android Debug Bridge Shell: Voer externe shell-opdrachten uit op een Android-emulatorinstantie of aangesloten Android-apparaten.
 Meer informatie: <https://developer.android.com/studio/command-line/adb>.

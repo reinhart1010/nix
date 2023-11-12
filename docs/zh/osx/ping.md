@@ -3,11 +3,15 @@ layout: page
 title: osx/ping (中文)
 description: "向网络主机发送 ICMP 回显请求数据包。"
 content_hash: 20c49a14bb9871215e69e2b45c8278428e2e3a87
-last_modified_at: 2023-06-13
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/ping.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/ping.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ping
 

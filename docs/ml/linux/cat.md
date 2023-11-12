@@ -3,16 +3,20 @@ layout: page
 title: linux/cat (മലയാളം)
 description: "ഫയലുകൾ പ്രിന്റ് ചെയ്യുവാനും സംയോജിപ്പിക്കുവാനുമുള്ള കമാൻഡ്."
 content_hash: 4bb1fee104fdc83e49dc4586ea39a0f7cc0c5a86
-last_modified_at: 2023-05-23
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/cat.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/cat.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/cat.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cat
+# cat
 
 ഫയലുകൾ പ്രിന്റ് ചെയ്യുവാനും സംയോജിപ്പിക്കുവാനുമുള്ള കമാൻഡ്.
 കൂടുതൽ വിവരങ്ങൾ: <https://www.gnu.org/software/coreutils/cat>.

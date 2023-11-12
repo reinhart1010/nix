@@ -3,15 +3,14 @@ layout: page
 title: linux/expect (polski)
 description: "Wykonuje skrypty, które dokonują interakcji z programami przyjmującymi dane od użytkownika."
 content_hash: 2b4b78398ffd25b7d7b2eb6ccf6c883ca66a3e30
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/expect.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># expect
+# expect
 
 Wykonuje skrypty, które dokonują interakcji z programami przyjmującymi dane od użytkownika.
 Więcej informacji: <https://manned.org/expect>.

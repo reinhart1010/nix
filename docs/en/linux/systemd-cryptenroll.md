@@ -3,12 +3,10 @@ layout: page
 title: linux/systemd-cryptenroll (English)
 description: "Interactively enroll or remove methods used to unlock LUKS2-encrypted partitions/block devices."
 content_hash: ad51c015693f0a600cef63d93e4873ff2f6d0f7e
-last_modified_at: 2023-10-02
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># systemd-cryptenroll
+# systemd-cryptenroll
 
 Interactively enroll or remove methods used to unlock LUKS2-encrypted partitions/block devices.
 In order to allow a partition to be unlocked during system boot using something other than a Password, also update the crypttab file and initramfs.

@@ -3,7 +3,7 @@ layout: page
 title: common/bun (中文)
 description: "JavaScript 运行时和工具箱。"
 content_hash: d42c160122952be6c57c3b40fa9866497037bc3d
-last_modified_at: 2023-11-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/bun.html
@@ -14,11 +14,9 @@ related_topics:
   - title: polski version
     url: /pl/common/bun.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bun
+# bun
 
 JavaScript 运行时和工具箱。
 包含打包工具、测试运行器和包管理器。

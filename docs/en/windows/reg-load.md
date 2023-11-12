@@ -3,11 +3,12 @@ layout: page
 title: windows/reg-load (English)
 description: "Load saved sub keys into a different sub key in the registry."
 content_hash: 690421a75211f98b09a93750573509bb2b887035
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/windows/reg-load.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # reg load
 

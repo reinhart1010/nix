@@ -3,16 +3,24 @@ layout: page
 title: common/uname (English)
 description: "Print details about the current machine and the operating system running on it."
 content_hash: b238cdaad0bf4c1eef0bfd6841ef75a70d62a4b9
+last_modified_at: 2023-11-12
 related_topics:
   - title: فارسی version
     url: /fa/common/uname.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/uname.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/uname.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/uname.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/uname.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # uname
 

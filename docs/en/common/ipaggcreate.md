@@ -3,6 +3,8 @@ layout: page
 title: common/ipaggcreate (English)
 description: "Produce aggregate statistics of TCP/IP dumps."
 content_hash: 00410e7e75e2b1bdcc3289d537d9b7b7627f67df
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ipaggcreate
 

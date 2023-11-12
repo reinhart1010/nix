@@ -3,12 +3,10 @@ layout: page
 title: common/kubectl-apply (English)
 description: "Manages applications through files defining Kubernetes resources. It creates and updates resources in a cluster."
 content_hash: 5bd24846e9a31d312100b5e88e82412563dd78b1
-last_modified_at: 2023-10-19
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># kubectl apply
+# kubectl apply
 
 Manages applications through files defining Kubernetes resources. It creates and updates resources in a cluster.
 More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#apply>.

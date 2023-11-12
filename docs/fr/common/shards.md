@@ -3,11 +3,12 @@ layout: page
 title: common/shards (français)
 description: "Outil de gestion des dépendances pour le langage Crystal."
 content_hash: db83ff2061cc7e388ffcea4fbe09f211bb0758ff
-last_modified_at: 2023-04-10
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/shards.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # shards
 

@@ -3,6 +3,8 @@ layout: page
 title: common/gh-api (English)
 description: "Makes authenticated HTTP requests to the GitHub API and prints the response."
 content_hash: b6f3ea1e0db40a1ddb61c1b808707360b56c900b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gh api
 

@@ -3,10 +3,12 @@ layout: page
 title: common/elinks (italiano)
 description: "Un browser testuale simile a lynx."
 content_hash: 09064cbb61d045c52809ed6c84e1c6edeb732471
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/elinks.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # elinks
 

@@ -3,6 +3,7 @@ layout: page
 title: common/git-cherry-pick (한국어)
 description: "기존의 커밋에서 가져온 변경내용을 현재 브랜치에 적용합니다."
 content_hash: 5d5682b3f24529ef3f3e5ae90530a564959ebf4e
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/common/git-cherry-pick.html
@@ -25,11 +26,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-cherry-pick.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git cherry-pick
+# git cherry-pick
 
 기존의 커밋에서 가져온 변경내용을 현재 브랜치에 적용합니다.
 변경내용을 다른 브랜치에 적용하고싶으면, 우선 `git checkout`을 사용해 원하는 브랜치로 변경하세요.

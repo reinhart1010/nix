@@ -3,9 +3,13 @@ layout: page
 title: common/docker-stats (Deutsch)
 description: "Zeige den Ressourcen-Verbrauch von Containern in Echtzeit."
 content_hash: d1abb60f62c98a221848e26220e60a3079a8487f
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/docker-stats.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/docker-stats.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker-stats.html
@@ -13,6 +17,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-stats.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker stats
 

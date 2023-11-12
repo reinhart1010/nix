@@ -3,11 +3,10 @@ layout: page
 title: linux/xed (English)
 description: "Edit files in Cinnamon desktop environment."
 content_hash: d556b979dcd4e6b32b687277df3899a429543ec3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># xed
+# xed
 
 Edit files in Cinnamon desktop environment.
 More information: <https://github.com/linuxmint/xed>.

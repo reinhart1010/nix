@@ -3,6 +3,7 @@ layout: page
 title: linux/flameshot (português (Brasil))
 description: "Função de captura da tela com uma Interface Gráfica do Usuário."
 content_hash: 2124cf0aa915a4c06de10f84743abfd1f13ae543
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/flameshot.html
@@ -13,11 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/flameshot.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># flameshot
+# flameshot
 
 Função de captura da tela com uma Interface Gráfica do Usuário.
 Suporta edição básica de imagens, como texto, formas, cores e imgur.

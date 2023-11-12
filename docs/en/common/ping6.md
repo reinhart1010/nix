@@ -3,6 +3,15 @@ layout: page
 title: common/ping6 (English)
 description: "Send ICMP ECHO_REQUEST packets to network hosts via IPv6 address."
 content_hash: 77a7947d8d6285c885ccc2a441502d4a25937549
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/ping6.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/ping6.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ping6
 

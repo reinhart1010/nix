@@ -3,11 +3,14 @@ layout: page
 title: common/vt (English)
 description: "Command-line interface for VirusTotal."
 content_hash: 7c52440f078dbf8df7ad74afe336929337a98f80
+last_modified_at: 2023-11-12
+related_topics:
+  - title: தமிழ் version
+    url: /ta/common/vt.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># vt
+# vt
 
 Command-line interface for VirusTotal.
 API key from a VirusTotal account is required for this command.

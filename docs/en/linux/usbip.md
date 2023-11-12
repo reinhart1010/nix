@@ -3,12 +3,10 @@ layout: page
 title: linux/usbip (English)
 description: "Use USB devices remotely."
 content_hash: e58072bdebeaa5894a34b3f3e1554b02ed439013
-last_modified_at: 2023-07-28
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># usbip
+# usbip
 
 Use USB devices remotely.
 More information: <https://usbip.sourceforge.net>.

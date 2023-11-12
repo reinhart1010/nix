@@ -3,7 +3,7 @@ layout: page
 title: common/cargo (português (Brasil))
 description: "Gerencia projetos Rust e as dependências dos modulos (crates)."
 content_hash: cedf2fd49bcaeecc3c00a6d3c43e2b6291653d02
-last_modified_at: 2023-05-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/cargo.html
@@ -29,6 +29,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/cargo.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cargo
 

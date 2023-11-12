@@ -3,6 +3,8 @@ layout: page
 title: common/radare2 (English)
 description: "A set of reverse engineering tools."
 content_hash: 2ca6ceb24a032077c870d5d518b6bbf8f320b99b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # radare2
 

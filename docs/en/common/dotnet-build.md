@@ -3,6 +3,7 @@ layout: page
 title: common/dotnet-build (English)
 description: "Builds a .NET application and its dependencies."
 content_hash: 1dde27068e92de06c3a49eeb45265985f8ad52dc
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/dotnet-build.html
@@ -13,6 +14,7 @@ related_topics:
   - title: русский version
     url: /ru/common/dotnet-build.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dotnet build
 

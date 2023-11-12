@@ -3,6 +3,7 @@ layout: page
 title: common/du (italiano)
 description: "Utilizzo del disco: stima e riassumi lo spazio utilizzato da file e directory."
 content_hash: 7ea623ae8713fdf08a9da7f3adc89d2616502e53
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/du.html
@@ -19,6 +20,13 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/du.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/du.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/du.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # du
 

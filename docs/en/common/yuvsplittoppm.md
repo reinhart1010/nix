@@ -3,12 +3,10 @@ layout: page
 title: common/yuvsplittoppm (English)
 description: "Convert three subsampled Abekas YUV files to one PPM image."
 content_hash: b25ff819d17dd7f6f5c354c6d70328c27eccf766
-last_modified_at: 2023-11-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># yuvsplittoppm
+# yuvsplittoppm
 
 Convert three subsampled Abekas YUV files to one PPM image.
 More information: <https://netpbm.sourceforge.net/doc/yuvsplittoppm.html>.

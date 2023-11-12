@@ -3,10 +3,18 @@ layout: page
 title: common/ebook-convert (English)
 description: "Can be used to convert e-books between common formats, e.g. PDF, EPUB and MOBI."
 content_hash: c1eaebb834d586183b945c323bfb391b8277c8f6
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/ebook-convert.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/ebook-convert.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/ebook-convert.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ebook-convert
 

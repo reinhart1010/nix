@@ -3,16 +3,14 @@ layout: page
 title: common/bird (Deutsch)
 description: "BIRD Internet Routing Daemon."
 content_hash: 19d3a178cd6acf1a02d8d0668224ea6b7c3c8875
-last_modified_at: 2023-07-13
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/bird.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bird
+# bird
 
 BIRD Internet Routing Daemon.
 Routing-Daemon mit Unterstützung für BGP, OSPF, Babel und weitere.

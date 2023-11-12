@@ -3,6 +3,8 @@ layout: page
 title: linux/partprobe (English)
 description: "Notify the operating system kernel of partition table changes."
 content_hash: d711109409d40cb0b31ac40e538f969ecae35568
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # partprobe
 

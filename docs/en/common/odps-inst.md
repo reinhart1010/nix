@@ -3,6 +3,8 @@ layout: page
 title: common/odps-inst (English)
 description: "Manage instances in ODPS (Open Data Processing Service)."
 content_hash: eb01e19a0c0eae2c73ad262e278d8e499178af92
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # odps inst
 

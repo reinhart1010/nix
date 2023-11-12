@@ -3,6 +3,7 @@ layout: page
 title: common/couchdb (한국어)
 description: "Apache CouchDB 데이터베이스 서버의 명령 행 인터페이스."
 content_hash: e931ddbd6568d52765b047e82249866dd8ba5edd
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/couchdb.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/couchdb.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # couchdb
 

@@ -3,6 +3,8 @@ layout: page
 title: common/odps-auth (English)
 description: "User authorities in ODPS (Open Data Processing Service)."
 content_hash: 3bb1550327aa498817a048d0342a579b77d21ff4
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # odps auth
 

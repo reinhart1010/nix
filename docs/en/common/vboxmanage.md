@@ -3,6 +3,8 @@ layout: page
 title: common/vboxmanage (English)
 description: "Command-line interface to VirtualBox."
 content_hash: 06d05310b24f71ad478e8e3f3c7248e11bce9905
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # VBoxManage
 

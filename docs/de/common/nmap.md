@@ -3,7 +3,7 @@ layout: page
 title: common/nmap (Deutsch)
 description: "Netzwerk-Erkundungs-Werkzeug und Security / Port Scanner."
 content_hash: b51c720685069ed4a45d5083a773fe2d1c0ee67e
-last_modified_at: 2023-06-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/nmap.html
@@ -20,11 +20,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/nmap.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># nmap
+# nmap
 
 Netzwerk-Erkundungs-Werkzeug und Security / Port Scanner.
 Manche Funktionen können nur benutzt werden, wenn Nmap mit Root Rechten ausgeführt wird.

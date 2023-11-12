@@ -3,6 +3,8 @@ layout: page
 title: common/local (English)
 description: "Declare local variables and give them attributes."
 content_hash: 840d8449060cc50bfb6dba68e2baed61c33edbf9
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # local
 

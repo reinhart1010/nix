@@ -3,13 +3,21 @@ layout: page
 title: common/sudo (English)
 description: "Executes a single command as the superuser or another user."
 content_hash: 46d0db7b5395698d0b70c407a3f9128941db5927
+last_modified_at: 2023-11-12
 related_topics:
+  - title: français version
+    url: /fr/common/sudo.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/sudo.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/sudo.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/sudo.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sudo
 

@@ -3,8 +3,11 @@ layout: page
 title: common/arp (English)
 description: "Show and manipulate your system's ARP cache."
 content_hash: 3c1c877c0edbb7366b0d7102435cef2fb7284398
-last_modified_at: 2023-04-10
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/arp.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/arp.html
     icon: bi bi-globe
@@ -26,6 +29,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/arp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # arp
 

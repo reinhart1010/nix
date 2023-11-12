@@ -3,16 +3,14 @@ layout: page
 title: common/linode-cli-lke (Nederlands)
 description: "Beheer Linode Kubernetes Engine (LKE) clusters."
 content_hash: 806f6a831f27885d8ecd5a4a42e68e3a1fd07f45
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/linode-cli-lke.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># linode-cli lke
+# linode-cli lke
 
 Beheer Linode Kubernetes Engine (LKE) clusters.
 Bekijk ook: `linode-cli`.

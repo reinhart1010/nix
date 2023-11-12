@@ -3,7 +3,7 @@ layout: page
 title: linux/abbr (polski)
 description: "Zarządzaj skrótami dla powłoki fish."
 content_hash: a2d3b9a80392c09311821d73d6be615c56c22f2f
-last_modified_at: 2023-10-19
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/abbr.html
@@ -26,11 +26,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/abbr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># abbr
+# abbr
 
 Zarządzaj skrótami dla powłoki fish.
 Zdefiniowane przez użytkownika słowa są zastępowane po wpisaniu dłuższymi zwrotami.

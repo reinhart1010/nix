@@ -3,7 +3,7 @@ layout: page
 title: common/tail (español)
 description: "Muestra las últimas líneas de un archivo de texto determinado."
 content_hash: b93f3f58762ee9c29decf0a53aa8ca8d0a42f050
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/tail.html
@@ -14,6 +14,7 @@ related_topics:
   - title: sh version
     url: /sh/common/tail.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tail
 

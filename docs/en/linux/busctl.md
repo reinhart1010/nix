@@ -3,12 +3,10 @@ layout: page
 title: linux/busctl (English)
 description: "Introspect and monitor the D-Bus bus."
 content_hash: ae5278719154758c4d4a95b3cac67ed416a0491a
-last_modified_at: 2023-06-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># busctl
+# busctl
 
 Introspect and monitor the D-Bus bus.
 More information: <https://www.freedesktop.org/software/systemd/man/busctl.html>.

@@ -3,10 +3,12 @@ layout: page
 title: common/ng (Türkçe)
 description: "Angular uygulamaları oluşturup yönetmek için bir Komut Satırı Arayüzü (CLI)."
 content_hash: 4c1e27c71e66f598964c5091af1d1422bf884867
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ng.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ng
 

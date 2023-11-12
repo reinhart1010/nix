@@ -3,7 +3,8 @@ layout: page
 title: common/ctags (English)
 description: "Generates an index (or tag) file of language objects found in source files for many popular programming languages."
 content_hash: ed1f336eef3c5cc1da20593ad038b853ae7fa3f4
-last_modified_at: 2022-12-06
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ctags
 

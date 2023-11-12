@@ -3,7 +3,7 @@ layout: page
 title: common/neofetch (हिन्दी)
 description: "आपके ऑपरेटिंग सिस्टम, सॉफ्टवेयर और हार्डवेयर के बारे में जानकारी प्रदर्शित करने के लिए CLI टूल।"
 content_hash: 2e53c50af57e18a9c281862d9c4219acd458d3e9
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/neofetch.html
@@ -14,6 +14,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/neofetch.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # neofetch
 

@@ -3,7 +3,7 @@ layout: page
 title: linux/apt-key (polski)
 description: "Narzędzie do zarządzania kluczami menedżera pakietów APT dla Debiana i Ubuntu."
 content_hash: 199ee0f687a5d8edbdad8a4ec6bc14e155b9ece4
-last_modified_at: 2023-05-23
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/apt-key.html
@@ -26,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/apt-key.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apt-key
 

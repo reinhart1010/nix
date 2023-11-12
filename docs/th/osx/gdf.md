@@ -3,7 +3,7 @@ layout: page
 title: osx/gdf (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux df`"
 content_hash: 72126e767cbccca37bc83492725cfaf990c0fec7
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gdf.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gdf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gdf
 

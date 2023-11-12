@@ -3,11 +3,10 @@ layout: page
 title: common/ogrmerge.py (English)
 description: "Merge several vector datasets into a single one."
 content_hash: 2100a7f6ea224b38f02598c97f733a8d366138f6
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ogrmerge.py
+# ogrmerge.py
 
 Merge several vector datasets into a single one.
 More information: <https://gdal.org/programs/ogrmerge.html>.

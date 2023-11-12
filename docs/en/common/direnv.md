@@ -3,10 +3,12 @@ layout: page
 title: common/direnv (English)
 description: "Shell extension to load and unload environment variables depending on the current directory."
 content_hash: c6b0657e7261a2ec4cfa7f7c4f17ceb1b09cd78d
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/direnv.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # direnv
 

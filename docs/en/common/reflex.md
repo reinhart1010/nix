@@ -3,6 +3,8 @@ layout: page
 title: common/reflex (English)
 description: "Tool to watch a directory and rerun a command when certain files change."
 content_hash: 00d25f74b9a8a6bc3570a524051aa450990d2af3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # reflex
 

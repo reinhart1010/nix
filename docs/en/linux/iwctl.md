@@ -3,11 +3,12 @@ layout: page
 title: linux/iwctl (English)
 description: "Control the `iwd` network supplicant."
 content_hash: bb0c2358cc72df42ec1e505b7ad740f621f2c8d7
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/linux/iwctl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # iwctl
 

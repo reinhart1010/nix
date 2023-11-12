@@ -3,7 +3,7 @@ layout: page
 title: windows/eventcreate (हिन्दी)
 description: "इवेंट लॉग में कस्टम प्रविष्टियाँ बनाएँ।"
 content_hash: 3c6faac2e4eb75462dd5391ec0f560f3df67bfcc
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/eventcreate.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/eventcreate.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # eventcreate
 

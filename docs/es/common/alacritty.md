@@ -3,6 +3,7 @@ layout: page
 title: common/alacritty (español)
 description: "Emulador de terminal acelerado por GPU y multiplataforma."
 content_hash: c8e7ac528dc17cb53a2c7a925794c54379ce1034
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/alacritty.html
@@ -22,6 +23,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/alacritty.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/alacritty.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/alacritty.html
     icon: bi bi-globe
@@ -31,11 +35,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/alacritty.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># alacritty
+# alacritty
 
 Emulador de terminal acelerado por GPU y multiplataforma.
 Más información: <https://github.com/alacritty/alacritty>.

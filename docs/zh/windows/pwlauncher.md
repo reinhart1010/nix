@@ -3,10 +3,12 @@ layout: page
 title: windows/pwlauncher (中文)
 description: "用于管理 Windows To Go 启动选项的命令行工具。"
 content_hash: e28d0b30874fd905278d46ec78f490462c084d6d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/pwlauncher.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pwlauncher
 

@@ -3,6 +3,8 @@ layout: page
 title: common/doas (English)
 description: "Executes a command as another user."
 content_hash: fa62ae362f068653562ffe94c82b49e9810afd7c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # doas
 

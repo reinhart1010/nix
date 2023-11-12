@@ -3,6 +3,12 @@ layout: page
 title: common/lp (English)
 description: "Print files."
 content_hash: b851c0e51cbdf142cc69e5f2f346927875e4d506
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/lp.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lp
 

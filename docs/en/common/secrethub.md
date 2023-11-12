@@ -3,7 +3,8 @@ layout: page
 title: common/secrethub (English)
 description: "A tool to keep secrets out of config files."
 content_hash: 2dc337b1d93aadbaf71432246e8432325f922ed5
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # secrethub
 

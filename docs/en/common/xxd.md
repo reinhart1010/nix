@@ -3,10 +3,12 @@ layout: page
 title: common/xxd (English)
 description: "Create a hexadecimal representation (hexdump) from a binary file, or vice-versa."
 content_hash: 11307f855ec9d473ae9bd5c287afca09535d19b9
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/xxd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xxd
 

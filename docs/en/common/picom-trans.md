@@ -3,6 +3,8 @@ layout: page
 title: common/picom-trans (English)
 description: "Set the window opacity for the `picom` window compositor."
 content_hash: 8928de784f040117479719dd926c365a62f654b3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # picom-trans
 

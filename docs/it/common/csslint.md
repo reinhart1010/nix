@@ -3,6 +3,7 @@ layout: page
 title: common/csslint (italiano)
 description: "Un linter per codice CSS."
 content_hash: 6a1e7d5681c1149be58a4820f37f63a607ea1089
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/csslint.html
@@ -13,6 +14,7 @@ related_topics:
   - title: polski version
     url: /pl/common/csslint.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # csslint
 

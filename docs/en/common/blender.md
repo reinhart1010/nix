@@ -3,7 +3,7 @@ layout: page
 title: common/blender (English)
 description: "Command-line interface to the Blender 3D computer graphics application."
 content_hash: 15d5804961967af4436eddf37e9c23a0b6b485d6
-last_modified_at: 2023-04-13
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/blender.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/blender.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # blender
 

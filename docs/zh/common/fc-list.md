@@ -3,6 +3,7 @@ layout: page
 title: common/fc-list (中文)
 description: "列出系统上安装的可用字体。"
 content_hash: 92452bf72c1613d0872b4c2f2f76a334a24cb63d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/fc-list.html
@@ -10,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/fc-list.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fc-list
 

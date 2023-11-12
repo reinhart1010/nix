@@ -3,6 +3,8 @@ layout: page
 title: common/phpspec (English)
 description: "A Behaviour Driven Development tool for PHP."
 content_hash: 9ec24a59f7a965ebe94798e9eb72d5c49eb65d26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # phpspec
 

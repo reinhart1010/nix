@@ -3,11 +3,10 @@ layout: page
 title: common/aws-s3-ls (English)
 description: "List AWS S3 buckets, folders (prefixes), and files (objects)."
 content_hash: f886b5bc97b5bf672f20f98be6e6a0048bbc359b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws s3 ls
+# aws s3 ls
 
 List AWS S3 buckets, folders (prefixes), and files (objects).
 More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/ls.html>.

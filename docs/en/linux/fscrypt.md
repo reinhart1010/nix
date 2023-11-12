@@ -3,6 +3,8 @@ layout: page
 title: linux/fscrypt (English)
 description: "Go tool for managing Linux filesystem encryption."
 content_hash: 447e058bde13ec27cc2910ed8375616bdd63b48c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fscrypt
 

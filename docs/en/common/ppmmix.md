@@ -3,10 +3,17 @@ layout: page
 title: common/ppmmix (English)
 description: "Blend together two PPM images."
 content_hash: e7ad1aedca0dcb04ae74e9232089ff0393fcee71
-last_modified_at: 2023-11-10
+last_modified_at: 2023-11-12
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/ppmmix.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># ppmmix
 

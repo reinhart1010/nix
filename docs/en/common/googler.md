@@ -3,6 +3,8 @@ layout: page
 title: common/googler (English)
 description: "Search Google from command-line."
 content_hash: 23f016571f104f5095c26b4a69b5e3b2e02aa3e1
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # googler
 

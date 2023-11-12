@@ -3,6 +3,7 @@ layout: page
 title: common/bosh (italiano)
 description: "Strumento da linea di comando per distribuire e gestire director BOSH."
 content_hash: 48c9792129a3fe265b6b4277c2694601c8d1cc9f
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/bosh.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/bosh.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bosh
 

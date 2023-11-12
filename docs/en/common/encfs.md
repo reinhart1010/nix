@@ -3,6 +3,8 @@ layout: page
 title: common/encfs (English)
 description: "Mounts or creates encrypted virtual filesystems."
 content_hash: 66c624867cf83521bab8e8917a8db32f5d0f0aad
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # encfs
 

@@ -3,7 +3,7 @@ layout: page
 title: common/gitmoji (한국어)
 description: "커밋 시 이모티콘을 사용하기 위한 대화형 명령줄 도구입니다."
 content_hash: d64b5bacf96d6edc7f9fc705ddd358055bdfe213
-last_modified_at: 2023-10-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/gitmoji.html
@@ -11,11 +11,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/gitmoji.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gitmoji
+# gitmoji
 
 커밋 시 이모티콘을 사용하기 위한 대화형 명령줄 도구입니다.
 더 많은 정보: <https://github.com/carloscuesta/gitmoji-cli>.

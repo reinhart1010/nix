@@ -3,6 +3,7 @@ layout: page
 title: common/git-rm (italiano)
 description: "Cancella file dall'indice del repository e dal filesystem locale."
 content_hash: 5bb8c065bf66cddc91183e13cf1f910eee5d7df4
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-rm.html
@@ -22,6 +23,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-rm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git rm
 

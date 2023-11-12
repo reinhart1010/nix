@@ -3,11 +3,23 @@ layout: page
 title: common/airodump-ng (English)
 description: "Capture packets and display information about wireless networks."
 content_hash: 74b82b9e3b9258a4dcb13bccccf103cd1993c59c
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/airodump-ng.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/airodump-ng.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/airodump-ng.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/airodump-ng.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># airodump-ng
+# airodump-ng
 
 Capture packets and display information about wireless networks.
 Part of `aircrack-ng`.

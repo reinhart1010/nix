@@ -3,6 +3,8 @@ layout: page
 title: common/sqlmap (English)
 description: "Detect and exploit SQL injection flaws."
 content_hash: 5f85407b3bd244c5bec489b02355da6ad4a881cf
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sqlmap
 

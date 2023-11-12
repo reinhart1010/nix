@@ -3,16 +3,14 @@ layout: page
 title: common/lpinfo (Deutsch)
 description: "Liste verbundene Drucker und installierte Treiber für den CUPS Druckserver."
 content_hash: a7359e7411781f6797b64b61ee4042f048427713
-last_modified_at: 2022-12-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/lpinfo.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># lpinfo
+# lpinfo
 
 Liste verbundene Drucker und installierte Treiber für den CUPS Druckserver.
 Weitere Informationen: <https://www.cups.org/doc/man-lpinfo.html>.

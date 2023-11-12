@@ -3,7 +3,8 @@ layout: page
 title: common/openvpn (English)
 description: "OpenVPN client and daemon binary."
 content_hash: 65e8a258f765bab7316d8d437cbbb9ad74544cd3
-last_modified_at: 2023-03-11
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # openvpn
 

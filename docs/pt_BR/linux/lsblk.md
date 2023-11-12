@@ -3,10 +3,24 @@ layout: page
 title: linux/lsblk (português (Brasil))
 description: "Lista informações sobre dispositivos."
 content_hash: a4d0a8442aaefd2cdf07dab86424fab957d02fd0
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/lsblk.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/lsblk.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/linux/lsblk.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/lsblk.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/linux/lsblk.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lsblk
 

@@ -3,6 +3,7 @@ layout: page
 title: linux/bmon (português (Brasil))
 description: "Monitora a largura de banda e produz estatísticas relacionadas a rede."
 content_hash: a02904590093c402b1c3563e326be7ab631d298a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/bmon.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/bmon.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bmon
 

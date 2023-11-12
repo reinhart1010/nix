@@ -3,6 +3,7 @@ layout: page
 title: windows/print (中文)
 description: "将文本文件打印到打印机。"
 content_hash: 3c810555c9f4505e8af57ac7ee8b9018444fee54
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/print.html
@@ -16,6 +17,10 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/windows/print.html
     icon: bi bi-globe
+  - title: svenska version
+    url: /sv/windows/print.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # print
 

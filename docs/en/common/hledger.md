@@ -3,11 +3,10 @@ layout: page
 title: common/hledger (English)
 description: "A plain text accounting software for the command-line."
 content_hash: 60e50f919a8b57d6189e438adaf715f46f01d6e1
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># hledger
+# hledger
 
 A plain text accounting software for the command-line.
 More information: <https://hledger.org>.

@@ -3,13 +3,18 @@ layout: page
 title: osx/route (中文)
 description: "手动操作路由表。"
 content_hash: 0204860736143a6b84b7b532895f1f2a8d2574c5
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/route.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/route.html
+    icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/osx/route.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # route
 

@@ -3,7 +3,7 @@ layout: page
 title: common/ab (বাংলা)
 description: "এপাচি এইচটিটিপি সার্ভার বেঞ্চমার্কিং টুল।"
 content_hash: d2cda9090456764a492f77fa9bcad2f4c29c86a2
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ab.html
@@ -44,6 +44,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ab.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ab
 

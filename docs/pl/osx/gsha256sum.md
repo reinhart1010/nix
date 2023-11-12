@@ -3,7 +3,7 @@ layout: page
 title: osx/gsha256sum (polski)
 description: "To polecenie jest aliasem `-p linux sha256sum`."
 content_hash: ea29d2e67b64a65a2fab056c50d9c8642a2c6657
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gsha256sum.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gsha256sum.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gsha256sum
 

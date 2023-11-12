@@ -3,10 +3,15 @@ layout: page
 title: linux/debootstrap (English)
 description: "Create a basic Debian system."
 content_hash: aba09cf7432832437a642f6c172ecb7735fc6931
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Indonesia version
+    url: /id/linux/debootstrap.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/debootstrap.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # debootstrap
 

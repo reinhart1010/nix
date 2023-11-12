@@ -3,10 +3,21 @@ layout: page
 title: windows/logoff (中文)
 description: "注销登录会话。"
 content_hash: 6dc09ae53309c0265c75ccfd4a1328414da5ccb8
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/logoff.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/windows/logoff.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/logoff.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/windows/logoff.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # logoff
 

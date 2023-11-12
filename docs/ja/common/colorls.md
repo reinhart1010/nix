@@ -3,11 +3,12 @@ layout: page
 title: common/colorls (日本語)
 description: "カラー化と Font Awesome アイコンの使用によりターミナルの ls コマンドを美しくした Ruby の gem です。"
 content_hash: f5c59e66853dca7273846da9bdf74a5523624c31
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/colorls.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # colorls
 

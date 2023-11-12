@@ -3,10 +3,15 @@ layout: page
 title: common/dust (English)
 description: "Dust gives an instant overview of which directories are using disk space."
 content_hash: 4e029e295d36a268adda90ffaaf6c59224f7f64c
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/dust.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/dust.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dust
 

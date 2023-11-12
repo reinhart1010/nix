@@ -3,12 +3,10 @@ layout: page
 title: common/ifs (English)
 description: "IFS (Internal Field Separator) is a special environment variable that defines the delimiter used for word splitting in Unix shells."
 content_hash: 56e8b058a68a96d9c917a39d00451b9658c4d358
-last_modified_at: 2023-10-03
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># IFS
+# IFS
 
 IFS (Internal Field Separator) is a special environment variable that defines the delimiter used for word splitting in Unix shells.
 The default value of IFS is a space, tab, and newline. The three characters serve as delimiters.

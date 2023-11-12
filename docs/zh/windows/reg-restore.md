@@ -3,10 +3,12 @@ layout: page
 title: windows/reg-restore (中文)
 description: "从备份文件中恢复键和值。"
 content_hash: d50c11b44c74fbf1a7dc423b3c8ac5632dfb0926
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/reg-restore.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # reg restore
 

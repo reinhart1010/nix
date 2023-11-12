@@ -3,10 +3,13 @@ layout: page
 title: common/echo (English)
 description: "Print given arguments."
 content_hash: f264eab46955028a77c2c4ddf74e6d0f7147afb4
-last_modified_at: 2023-07-25
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/echo.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/echo.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/echo.html
@@ -38,6 +41,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/echo.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # echo
 

@@ -3,6 +3,8 @@ layout: page
 title: common/ocaml (English)
 description: "The OCaml repl (read-evaluate-print-loop)."
 content_hash: c484d4996dcabc5d572c535b87397e48ec89f17e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ocaml
 

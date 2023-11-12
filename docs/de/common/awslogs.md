@@ -3,10 +3,12 @@ layout: page
 title: common/awslogs (Deutsch)
 description: "CLI um Log-Gruppen, Streams und Events von Amazon CloudWatch Logs abzurufen."
 content_hash: b18cbd6170f075501653327f257b9f13fb9a6363
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/awslogs.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # awslogs
 

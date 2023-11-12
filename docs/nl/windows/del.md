@@ -3,7 +3,7 @@ layout: page
 title: windows/del (Nederlands)
 description: "Verwijder een of meer bestanden."
 content_hash: 7284309269bcf23e33e067b90ff298485249ecb9
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/del.html
@@ -26,11 +26,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/del.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># del
+# del
 
 Verwijder een of meer bestanden.
 In PowerShell is dit commando een alias van `Remove-Item`. Deze documentatie is gebaseerd op de Command Prompt (`cmd`) versie van `del`.

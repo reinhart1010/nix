@@ -3,16 +3,17 @@ layout: page
 title: common/virsh-pool-delete (português (Brasil))
 description: "Exclui o sistema de armazenamento subjacente de um pool de armazenamento de máquina virtual inativo."
 content_hash: eb0dae74061eff4113863bc60327fce93c0214bf
-last_modified_at: 2023-09-18
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/virsh-pool-delete.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/virsh-pool-delete.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># virsh pool-delete
+# virsh pool-delete
 
 Exclui o sistema de armazenamento subjacente de um pool de armazenamento de máquina virtual inativo.
 Veja também: `virsh`, `virsh-pool-destroy`, `virsh-pool-undefine`.

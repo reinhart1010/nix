@@ -3,6 +3,7 @@ layout: page
 title: common/git-stash (Türkçe)
 description: "Yerel Git düzenlemelerini geçici bir alanda sakla."
 content_hash: f40eaa9332f8a0a71ffa112d4682339ec756e1ce
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-stash.html
@@ -16,6 +17,7 @@ related_topics:
   - title: italiano version
     url: /it/common/git-stash.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git stash
 

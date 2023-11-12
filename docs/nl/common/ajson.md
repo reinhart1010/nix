@@ -3,7 +3,7 @@ layout: page
 title: common/ajson (Nederlands)
 description: "Voert JSONPath uit op JSON-objecten."
 content_hash: 4d2dbd57e36d0058f22a8c1e769b4dd5abe59ba0
-last_modified_at: 2023-07-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ajson.html
@@ -17,11 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ajson.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ajson
+# ajson
 
 Voert JSONPath uit op JSON-objecten.
 Meer informatie: <https://github.com/spyzhov/ajson>.

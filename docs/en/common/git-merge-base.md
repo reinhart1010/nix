@@ -3,12 +3,10 @@ layout: page
 title: common/git-merge-base (English)
 description: "Find a common ancestor of two commits."
 content_hash: fb1a9ea6fb3686cb6a9aac1a1cd9a50e25ef0a4a
-last_modified_at: 2022-12-11
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git merge-base
+# git merge-base
 
 Find a common ancestor of two commits.
 More information: <https://git-scm.com/docs/git-merge-base>.

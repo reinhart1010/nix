@@ -3,7 +3,8 @@ layout: page
 title: common/shift (English)
 description: "Shell built-in command that shifts the arguments passed to the calling function or script by a specified number of places."
 content_hash: 833f425f17ac929212d936d7dd7b94acd4a1d51e
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # shift
 

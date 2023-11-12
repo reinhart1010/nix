@@ -3,7 +3,7 @@ layout: page
 title: linux/autorandr (English)
 description: "Automatically change screen layout."
 content_hash: 481a8b1690235c044c6bdce2a77903b2a47e0448
-last_modified_at: 2022-12-30
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/autorandr.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/autorandr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # autorandr
 

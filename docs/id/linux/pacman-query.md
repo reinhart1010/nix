@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman-query (Indonesia)
 description: "Kegunaan manajer paket Arch Linux."
 content_hash: ba1bf660e06d223d0547ea71ccd108a032645e1b
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-query.html
@@ -14,9 +14,13 @@ related_topics:
   - title: français version
     url: /fr/linux/pacman-query.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/pacman-query.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/pacman-query.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pacman --query
 

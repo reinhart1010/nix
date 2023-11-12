@@ -3,6 +3,12 @@ layout: page
 title: linux/dconf-write (English)
 description: "Write key values in dconf databases."
 content_hash: c6e9cfac7d36a06007267d85f05abb721b9d2e2a
+last_modified_at: 2023-11-12
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/linux/dconf-write.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dconf write
 

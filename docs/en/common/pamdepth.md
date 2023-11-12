@@ -3,12 +3,10 @@ layout: page
 title: common/pamdepth (English)
 description: "Reduce the depth (i.e. color resolution) in an image."
 content_hash: 7bdd4b183c7510f1b46cd36e59e4b9728ddb4377
-last_modified_at: 2023-11-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pamdepth
+# pamdepth
 
 Reduce the depth (i.e. color resolution) in an image.
 More information: <https://netpbm.sourceforge.net/doc/pamdepth.html>.

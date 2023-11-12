@@ -3,6 +3,18 @@ layout: page
 title: common/ansible-pull (English)
 description: "Pull ansible playbooks from a VCS repo and executes them for the local host."
 content_hash: 366afa2faaff48332c9139fe75e45ca9618be59c
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/ansible-pull.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/ansible-pull.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/ansible-pull.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ansible-pull
 

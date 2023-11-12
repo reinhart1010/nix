@@ -3,10 +3,19 @@ layout: page
 title: common/clang-cpp (português (Portugal))
 description: "Este comando é um alias de `clang++`."
 content_hash: 4ea6c4c2a5e0fd4ca195b72ab8ab9781f72256aa
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
+  - title: العربية version
+    url: /ar/common/clang-cpp.html
+    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/clang-cpp.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/common/clang-cpp.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/common/clang-cpp.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/clang-cpp.html
@@ -41,6 +50,9 @@ related_topics:
   - title: മലയാളം version
     url: /ml/common/clang-cpp.html
     icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/clang-cpp.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/clang-cpp.html
     icon: bi bi-globe
@@ -65,6 +77,9 @@ related_topics:
   - title: ไทย version
     url: /th/common/clang-cpp.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/clang-cpp.html
+    icon: bi bi-globe
   - title: українська version
     url: /uk/common/clang-cpp.html
     icon: bi bi-globe
@@ -74,11 +89,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/clang-cpp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># clang-cpp
+# clang-cpp
 
 Este comando é um alias de `clang++`.
 

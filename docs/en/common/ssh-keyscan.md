@@ -3,6 +3,7 @@ layout: page
 title: common/ssh-keyscan (English)
 description: "Get the public ssh keys of remote hosts."
 content_hash: 9832f92cdbc9e351b68d39086d8cb4ef482f7892
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ssh-keyscan.html
@@ -10,6 +11,10 @@ related_topics:
   - title: français version
     url: /fr/common/ssh-keyscan.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/ssh-keyscan.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ssh-keyscan
 

@@ -3,7 +3,8 @@ layout: page
 title: common/wpscan (English)
 description: "WordPress vulnerability scanner."
 content_hash: c0242eeceae5edac2a77ce206fc59d099ebf679d
-last_modified_at: 2023-09-10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # wpscan
 

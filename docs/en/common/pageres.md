@@ -3,6 +3,8 @@ layout: page
 title: common/pageres (English)
 description: "Capture screenshots of websites in various resolutions."
 content_hash: 1754d84220d7206c17eb34d251e416f97d1b70d2
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pageres
 

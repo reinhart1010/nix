@@ -3,7 +3,7 @@ layout: page
 title: osx/xctool (中文)
 description: "用于构建 Xcode 项目的工具。"
 content_hash: f6526be6e69b69640371a68541ec236e5d6ab5d9
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/xctool.html
@@ -11,6 +11,7 @@ related_topics:
   - title: español version
     url: /es/osx/xctool.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xctool
 

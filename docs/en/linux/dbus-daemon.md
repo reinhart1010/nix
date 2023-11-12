@@ -3,7 +3,8 @@ layout: page
 title: linux/dbus-daemon (English)
 description: "The D-Bus message daemon, allowing multiple programs to exchange messages."
 content_hash: 052eca8c4b1e6d5ad84105bd3fd7e11d72894283
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dbus-daemon
 

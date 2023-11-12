@@ -3,6 +3,8 @@ layout: page
 title: linux/dstat (English)
 description: "Versatile tool for generating system resource statistics."
 content_hash: 27cde56288295e8da238ed10315b3a5679043faa
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dstat
 

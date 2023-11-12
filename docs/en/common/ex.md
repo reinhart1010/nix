@@ -3,6 +3,8 @@ layout: page
 title: common/ex (English)
 description: "Command-line text editor."
 content_hash: 5bf969fb8e1ad80d8bcd5d1dff99058ff2233b11
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ex
 

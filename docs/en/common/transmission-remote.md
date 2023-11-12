@@ -3,6 +3,8 @@ layout: page
 title: common/transmission-remote (English)
 description: "Remote control utility for transmission-daemon and transmission."
 content_hash: ce5ccde395805036f3ca0a858dc3c4a6160152d0
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # transmission-remote
 

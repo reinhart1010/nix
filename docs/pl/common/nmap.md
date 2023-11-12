@@ -3,7 +3,11 @@ layout: page
 title: common/nmap (polski)
 description: "Narzędzie do enumeracji sieci oraz skanowania portów."
 content_hash: 30141b036e7f34475fc30eb39ef957e62aa4bb83
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/nmap.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/nmap.html
     icon: bi bi-globe
@@ -16,6 +20,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/nmap.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nmap
 

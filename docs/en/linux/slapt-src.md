@@ -3,6 +3,8 @@ layout: page
 title: linux/slapt-src (English)
 description: "A utility to automate building of slackbuilds."
 content_hash: e1cc1ddbbfdbf3b5a650bd0e4a8af606e8d0b75e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # slapt-src
 

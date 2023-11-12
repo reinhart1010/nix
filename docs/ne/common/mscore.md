@@ -3,7 +3,7 @@ layout: page
 title: common/mscore (नेपाली)
 description: "यो आदेश `musescore` को उपनाम हो |"
 content_hash: 83e612e90856d0561c521660b98c5c0871a70b06
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/mscore.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/mscore.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mscore
 

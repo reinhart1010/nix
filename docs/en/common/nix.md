@@ -3,11 +3,12 @@ layout: page
 title: common/nix (English)
 description: "A powerful package manager that makes package management reliable, reproducible, and declarative."
 content_hash: d77592180fb8cb164d7d9c695e3853def9f27852
-last_modified_at: 2023-09-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/nix.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nix
 

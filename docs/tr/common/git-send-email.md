@@ -3,6 +3,7 @@ layout: page
 title: common/git-send-email (Türkçe)
 description: "Bir yama koleksiyonunu e-posta olarak gönder."
 content_hash: 8b6502cad2b4c84c7e402acfb5bba579a7c6cf71
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-send-email.html
@@ -13,6 +14,7 @@ related_topics:
   - title: italiano version
     url: /it/common/git-send-email.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git send-email
 

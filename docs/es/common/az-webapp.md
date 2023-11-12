@@ -3,11 +3,12 @@ layout: page
 title: common/az-webapp (español)
 description: "Administra aplicaciones web alojadas en Azure Cloud Services."
 content_hash: 063f8f1bba988fa78cd002af07e8df98d4c9b56e
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/az-webapp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # az webapp
 

@@ -3,10 +3,12 @@ layout: page
 title: common/gitlab-ctl (Türkçe)
 description: "Çok amaçlı GitLab yönetim CLI aracı."
 content_hash: 10a70fb59fb269aa588770a21ffc4491401bc270
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/gitlab-ctl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gitlab-ctl
 

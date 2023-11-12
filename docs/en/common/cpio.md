@@ -3,7 +3,7 @@ layout: page
 title: common/cpio (English)
 description: "Copies files in and out of archives."
 content_hash: 1556229537ad1073451128b1e826c674536a26fc
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/cpio.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cpio.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cpio
 

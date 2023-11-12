@@ -3,11 +3,12 @@ layout: page
 title: windows/cmdkey (हिन्दी)
 description: "संग्रहीत उपयोगकर्ता नाम और पासवर्ड बनाएं, दिखाएं और हटाएं।"
 content_hash: eb73173ea000585281fca280c3fc89e95d98873b
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/cmdkey.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cmdkey
 

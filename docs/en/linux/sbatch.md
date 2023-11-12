@@ -3,6 +3,8 @@ layout: page
 title: linux/sbatch (English)
 description: "Submit a batch job to the SLURM scheduler."
 content_hash: 0784dddad317a64039636e32bf94c2542d298913
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sbatch
 

@@ -3,6 +3,7 @@ layout: page
 title: common/git-mv (italiano)
 description: "Sposta o rinomina file e aggiorna l'indice Git."
 content_hash: 5b2b170bc665073d177cde422ba06f0bef22922f
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-mv.html
@@ -19,6 +20,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-mv.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git mv
 

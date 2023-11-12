@@ -3,6 +3,7 @@ layout: page
 title: linux/rig (català)
 description: "Utilitat per generar un nom, cognom, carrer i número, en conjunt d'una ubicació geogràfica consistent (un conjunt vàlid de ciutat, estat i codi postal)."
 content_hash: e8f5e7ed10b0cc693942ede57d8809340ef98e3c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/rig.html
@@ -10,6 +11,7 @@ related_topics:
   - title: español version
     url: /es/linux/rig.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rig
 

@@ -3,6 +3,7 @@ layout: page
 title: common/which (中文)
 description: "在用户的`PATH`中寻找可执行文件的路径。"
 content_hash: 8bafca0fa7b0212a89e102caed096c36bc16d3c2
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/which.html
@@ -13,6 +14,10 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/which.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/which.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # which
 

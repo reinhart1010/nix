@@ -3,13 +3,18 @@ layout: page
 title: linux/aplay (Deutsch)
 description: "Command-line Musik Player für den ALSA-Soundkarten-Treiber."
 content_hash: f4302531389f99acf0011fc415978d48cab0039c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/aplay.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/aplay.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/aplay.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aplay
 

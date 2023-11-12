@@ -3,6 +3,7 @@ layout: page
 title: windows/ver (فارسی)
 description: "نمایش شماره نسخه ویندوز یا داس."
 content_hash: f80e6133318d899fd602ceb4c9ca1b521b9d6fdf
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/ver.html
@@ -19,6 +20,10 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/ver.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/windows/ver.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ver
 

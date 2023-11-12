@@ -3,16 +3,27 @@ layout: page
 title: windows/choco-source (Deutsch)
 description: "Verwalte die Paketquellen mit Chocolatey."
 content_hash: 5f1cb9e77a50ef9293cc8fb8ad0ddbc872b8a7ed
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/choco-source.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/choco-source.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/windows/choco-source.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/choco-source.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/choco-source.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/choco-source.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco source
 

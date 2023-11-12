@@ -3,6 +3,8 @@ layout: page
 title: common/git-rename-tag (English)
 description: "Rename a Git tag."
 content_hash: f11398f69a51ba7655937b080dbcb64f56d8e853
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git rename-tag
 

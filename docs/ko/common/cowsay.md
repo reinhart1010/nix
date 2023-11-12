@@ -3,6 +3,7 @@ layout: page
 title: common/cowsay (한국어)
 description: "무언가를 말하거나 생각하는 ASCII 문자(기본적으로 cow)를 생성."
 content_hash: c428828f16c3b2c172d67644c926deb91c908918
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/cowsay.html
@@ -10,15 +11,10 @@ related_topics:
   - title: italiano version
     url: /it/common/cowsay.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cowsay.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># cowsay
 

@@ -3,10 +3,12 @@ layout: page
 title: linux/aurvote (中文)
 description: "为 AUR 中的包投票。"
 content_hash: baa210c7eeb28924d6eecfe15744740cef36d65c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/aurvote.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aurvote
 

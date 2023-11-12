@@ -3,12 +3,10 @@ layout: page
 title: common/skate (English)
 description: "Simple and powerful key-value store."
 content_hash: 4ec0bb3fcb9176c0f2b7f810fc988c54fd70d655
-last_modified_at: 2023-04-14
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># skate
+# skate
 
 Simple and powerful key-value store.
 More information: <https://github.com/charmbracelet/skate>.

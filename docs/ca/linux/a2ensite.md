@@ -3,12 +3,16 @@ layout: page
 title: linux/a2ensite (català)
 description: "Activa un host virtual d'Apache en sistemes operatius basats en Debian."
 content_hash: d7efbe6478aa3d4afbaabeb256d0c5887a45b50d
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/a2ensite.html
     icon: bi bi-globe
   - title: English version
     url: /en/linux/a2ensite.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/a2ensite.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/a2ensite.html
@@ -22,9 +26,13 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/linux/a2ensite.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/linux/a2ensite.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/a2ensite.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # a2ensite
 

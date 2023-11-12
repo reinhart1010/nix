@@ -3,6 +3,7 @@ layout: page
 title: common/git-sizer (français)
 description: "Calcule diverses métriques de taille de dépôt Git et vous alerte de tout ce qui pourrait causer des problèmes ou des inconvénients."
 content_hash: f245d3defbde0488ed6ed4d5067af98eaf02f629
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-sizer.html
@@ -13,6 +14,10 @@ related_topics:
   - title: italiano version
     url: /it/common/git-sizer.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-sizer.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git sizer
 

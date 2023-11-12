@@ -3,7 +3,7 @@ layout: page
 title: linux/btrfs-inspect-internal (français)
 description: "Recherche des informations internes concernant un système de fichier btrfs."
 content_hash: 8cc7e08f2346554c230185151bec0ec2e7729491
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/btrfs-inspect-internal.html
@@ -11,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/btrfs-inspect-internal.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # btrfs inspect-internal
 

@@ -3,7 +3,7 @@ layout: page
 title: linux/arithmetic (Deutsch)
 description: "Quiz über simple arithmetische Probleme."
 content_hash: 5afc21ea096b574bd481b5026c9059b1994c263a
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/arithmetic.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/arithmetic.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # arithmetic
 

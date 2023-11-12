@@ -3,6 +3,7 @@ layout: page
 title: common/git-show-ref (English)
 description: "Git command for listing references."
 content_hash: 05837a1a06ce5b4640392a7ad482155ef78f950b
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/git-show-ref.html
@@ -10,6 +11,10 @@ related_topics:
   - title: italiano version
     url: /it/common/git-show-ref.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-show-ref.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git show-ref
 

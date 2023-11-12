@@ -3,11 +3,10 @@ layout: page
 title: common/csv2tsv (English)
 description: "Convert CSV (comma-separated) text to TSV (tab-separated) format."
 content_hash: cad7106bc5ff3c1ab375f754ef2613ee99fcb4bb
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># csv2tsv
+# csv2tsv
 
 Convert CSV (comma-separated) text to TSV (tab-separated) format.
 More information: <https://github.com/eBay/tsv-utils/blob/master/README.md#csv2tsv>.

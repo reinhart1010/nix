@@ -3,6 +3,7 @@ layout: page
 title: common/false (한국어)
 description: "종료 코드 1을 반환한다."
 content_hash: 2d4b3c37ff40670ef849377f368766b0fd491c7f
+last_modified_at: 2023-11-12
 related_topics:
   - title: bosanski version
     url: /bs/common/false.html
@@ -19,12 +20,13 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/false.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/false.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/common/false.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # false
 

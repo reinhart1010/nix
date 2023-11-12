@@ -3,6 +3,8 @@ layout: page
 title: linux/numactl (English)
 description: "Control NUMA policy for processes or shared memory."
 content_hash: 770299b7ac8954a8e045bd8ca48985c75cc0f4d5
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # numactl
 

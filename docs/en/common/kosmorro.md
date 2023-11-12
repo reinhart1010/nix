@@ -3,10 +3,12 @@ layout: page
 title: common/kosmorro (English)
 description: "Compute the ephemerides and the events for a given date, at a given position on Earth."
 content_hash: 070670c76d4bdd98e18746fb95a00edf0af406e3
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/kosmorro.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # kosmorro
 

@@ -3,10 +3,15 @@ layout: page
 title: osx/port (中文)
 description: "macOS 包管理器软件（类似 brew）。"
 content_hash: e9d40e221b106a15b4af19af9f97228c06109418
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/port.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/port.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # port
 

@@ -3,7 +3,8 @@ layout: page
 title: common/mcfly (English)
 description: "A smart command history search and management tool."
 content_hash: 760c1d2be04ef5f19b6969985bf5dec5fc3745cd
-last_modified_at: 2023-04-10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mcfly
 

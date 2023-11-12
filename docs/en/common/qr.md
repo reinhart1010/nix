@@ -3,6 +3,8 @@ layout: page
 title: common/qr (English)
 description: "Generate QR codes in the terminal with ANSI VT-100 escape codes."
 content_hash: a3a3c85a7468b93cafab060061b2d635870e9241
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # qr
 

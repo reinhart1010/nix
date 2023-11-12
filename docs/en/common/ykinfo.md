@@ -3,6 +3,8 @@ layout: page
 title: common/ykinfo (English)
 description: "Get basic information from a YubiKey."
 content_hash: 15e9e671acbdeb06b30c42afef71b0019333e557
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ykinfo
 

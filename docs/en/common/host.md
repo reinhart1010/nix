@@ -3,6 +3,8 @@ layout: page
 title: common/host (English)
 description: "Lookup Domain Name Server."
 content_hash: a5bb9d0348fbe5b2149a7fbb9d6bd213e7b99bbe
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # host
 

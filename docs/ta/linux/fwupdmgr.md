@@ -3,15 +3,14 @@ layout: page
 title: linux/fwupdmgr (தமிழ்)
 description: "`fwupd` ஐப் பயன்படுத்தி UEFI உட்பட சாதன நிலைபொருளைப் புதுப்பிப்பதற்கான ஒரு கருவி."
 content_hash: f33097cdb13114f039d7fcac311ded98d67f6f16
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/fwupdmgr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># fwupdmgr
+# fwupdmgr
 
 `fwupd` ஐப் பயன்படுத்தி UEFI உட்பட சாதன நிலைபொருளைப் புதுப்பிப்பதற்கான ஒரு கருவி.
 மேலும் விவரத்திற்கு: <https://fwupd.org/>.

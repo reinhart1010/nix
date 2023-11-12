@@ -3,11 +3,12 @@ layout: page
 title: linux/pw-record (English)
 description: "Record audio files through pipewire."
 content_hash: 88ea4b9454c46fc0299eb4567d903c25e6d2c454
-last_modified_at: 2023-10-24
+last_modified_at: 2023-11-12
 related_topics:
   - title: Türkçe version
     url: /tr/linux/pw-record.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pw-record
 

@@ -3,6 +3,8 @@ layout: page
 title: common/git-show-tree (English)
 description: "Show a decorated tree graph with all branches of a Git repository, showing annotations."
 content_hash: 925bb43b5cd8ddd7775ef5cca06720f838e96c5b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git show-tree
 

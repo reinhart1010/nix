@@ -3,11 +3,10 @@ layout: page
 title: common/mysqlbinlog (English)
 description: "Utility for processing MySQL binary log files."
 content_hash: 2d1389c8f7595bdea973386d3e2883bbd2b555c5
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mysqlbinlog
+# mysqlbinlog
 
 Utility for processing MySQL binary log files.
 More information: <https://dev.mysql.com/doc/refman/8.0/en/mysqlbinlog.html>.

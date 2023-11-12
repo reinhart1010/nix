@@ -3,7 +3,7 @@ layout: page
 title: osx/ping (español)
 description: "Envía paquetes ICMP ECHO_REQUEST a hosts de la red."
 content_hash: dd44c97a09efdf725b0f03b61182ddda6c3924c9
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/ping.html
@@ -11,11 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/ping.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ping
+# ping
 
 Envía paquetes ICMP ECHO_REQUEST a hosts de la red.
 Más información: <https://ss64.com/osx/ping.html>.

@@ -3,7 +3,8 @@ layout: page
 title: common/sk (English)
 description: "Fuzzy finder written in Rust."
 content_hash: df6157601ec397209d5d14c940b2628d94da28ea
-last_modified_at: 2023-06-28
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sk
 

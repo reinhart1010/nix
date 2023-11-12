@@ -3,10 +3,12 @@ layout: page
 title: common/gzip (English)
 description: "Compress/uncompress files with gzip compression (LZ77)."
 content_hash: 7e412f80768a66f468b47aa7dc27eb7821d861b6
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/gzip.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gzip
 

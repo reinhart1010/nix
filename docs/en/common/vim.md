@@ -3,7 +3,7 @@ layout: page
 title: common/vim (English)
 description: "Vim (Vi IMproved), a command-line text editor, provides several modes for different kinds of text manipulation."
 content_hash: 9ae7144dd2f335381454d1b11a55d7f2cd596b40
-last_modified_at: 2022-11-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -38,6 +38,10 @@ related_topics:
   - title: 中文 version
     url: /zh/common/vim.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/vim.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # vim
 

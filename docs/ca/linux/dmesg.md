@@ -3,6 +3,7 @@ layout: page
 title: linux/dmesg (català)
 description: "Escriu els missatges del kernel a la sortida estàndar."
 content_hash: f5ea53eda6b903caa687ad038da55e4300622c37
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/dmesg.html
@@ -13,9 +14,13 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/dmesg.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/dmesg.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/dmesg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dmesg
 

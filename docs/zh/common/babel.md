@@ -3,9 +3,16 @@ layout: page
 title: common/babel (中文)
 description: "一款 JavaScript 的编译器，将下一代 ES 语法转换为兼容语法。"
 content_hash: 16685b19a7186f792425ac7aa6e7d0e2bd4fdb42
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/babel.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/babel.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/common/babel.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/babel.html
@@ -16,6 +23,7 @@ related_topics:
   - title: polski version
     url: /pl/common/babel.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # babel
 

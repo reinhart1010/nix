@@ -3,6 +3,8 @@ layout: page
 title: common/dvc-gc (English)
 description: "Remove unused files and directories from the cache or remote storage."
 content_hash: df2c525d85f681454b223f7842fdb432ff740a6f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dvc gc
 

@@ -3,7 +3,8 @@ layout: page
 title: windows/measure-object (English)
 description: "Calculates the numeric properties of objects, and the characters, words, and lines in string objects, such as files of text."
 content_hash: 42ddf04fb64d067b173f56e37e19befa2a3cbd14
-last_modified_at: 2023-10-27
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # Measure-Object
 

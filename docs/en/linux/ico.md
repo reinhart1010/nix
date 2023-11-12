@@ -3,12 +3,10 @@ layout: page
 title: linux/ico (English)
 description: "Displays an animation of a polyhedron."
 content_hash: 08b2b4c67671b20b3f8a3beaa188080f808658ef
-last_modified_at: 2023-10-11
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ico
+# ico
 
 Displays an animation of a polyhedron.
 More information: <https://manned.org/ico.1>.

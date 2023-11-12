@@ -3,13 +3,24 @@ layout: page
 title: common/autossh (한국어)
 description: "SSH 연결을 실행, 모니터링 및 재시작. port 재전송 tunnel을 유지하기 위해 자동 재연결. 모든 ssh 플래그 허용."
 content_hash: 1b962e1c67768f9f89dd0fc5ea1e84e414d2f896
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/autossh.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/autossh.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/autossh.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/autossh.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/autossh.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # autossh
 

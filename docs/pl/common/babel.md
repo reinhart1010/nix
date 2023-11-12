@@ -3,13 +3,16 @@ layout: page
 title: common/babel (polski)
 description: "Transpiler, który konwertuje kod ze składni JavaScript ES6 / ES7 na składnię ES5."
 content_hash: 1804ded7288561bca72cb6b685557e839a93cf74
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/babel.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/babel.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/common/babel.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/babel.html
@@ -20,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/babel.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # babel
 

@@ -3,6 +3,8 @@ layout: page
 title: common/mocha (English)
 description: "Execute Mocha JavaScript test runner."
 content_hash: 574d1405730876562c3fd1a0410f8380fb27b151
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mocha
 

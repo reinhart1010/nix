@@ -3,10 +3,12 @@ layout: page
 title: common/ffsend (Deutsch)
 description: "Teile Dateien einfach und sicher in der Command-line."
 content_hash: 897489f17eaafc001620a09a5a7aaf1695458676
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ffsend.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ffsend
 

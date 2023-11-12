@@ -3,7 +3,7 @@ layout: page
 title: common/git-config (English)
 description: "Manage custom configuration options for Git repositories."
 content_hash: 13fb8b1d3cbfa8a161706fb91e53312ca77995f5
-last_modified_at: 2023-06-12
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-config.html
@@ -17,6 +17,9 @@ related_topics:
   - title: italiano version
     url: /it/common/git-config.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-config.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-config.html
     icon: bi bi-globe
@@ -26,6 +29,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/git-config.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git config
 

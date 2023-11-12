@@ -3,7 +3,7 @@ layout: page
 title: osx/caffeinate (English)
 description: "Prevent macOS from sleeping."
 content_hash: b166d2199cbe0dbb409324b27cc0f81e31d83107
-last_modified_at: 2023-09-23
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/osx/caffeinate.html
@@ -26,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/caffeinate.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # caffeinate
 

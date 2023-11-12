@@ -3,7 +3,8 @@ layout: page
 title: linux/gummy (English)
 description: "Screen brightness/temperature manager for Linux/X11."
 content_hash: 21efb861d84503345b24d79f65c1821dc0f7af80
-last_modified_at: 2023-03-03
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gummy
 

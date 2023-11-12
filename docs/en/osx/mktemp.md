@@ -3,12 +3,10 @@ layout: page
 title: osx/mktemp (English)
 description: "Create a temporary file or directory."
 content_hash: 1c71becd44b69ae3fa114f7b1b9d875faa1b5445
-last_modified_at: 2023-10-03
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mktemp
+# mktemp
 
 Create a temporary file or directory.
 More information: <https://keith.github.io/xcode-man-pages/mktemp.1.html>.

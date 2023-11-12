@@ -3,7 +3,7 @@ layout: page
 title: common/git-reset (Türkçe)
 description: "Mevcut Git HEAD'ini belirtilen duruma sıfırlayarak commit'leri veya değişiklikleri geri al."
 content_hash: 0b6f8cd288a1aefc7401372381ea1abd79434079
-last_modified_at: 2023-07-27
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-reset.html
@@ -17,6 +17,10 @@ related_topics:
   - title: italiano version
     url: /it/common/git-reset.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-reset.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git reset
 

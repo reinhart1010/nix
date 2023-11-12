@@ -3,6 +3,8 @@ layout: page
 title: common/git-feature (English)
 description: "Create or merge feature branches."
 content_hash: 4eae00f9ead5eed01d8617bc94f76fa9cfbb2fb9
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git feature
 

@@ -3,7 +3,7 @@ layout: page
 title: linux/apt (Nederlands)
 description: "Hulpprogramma voor pakketbeheer voor op Debian gebaseerde distributies."
 content_hash: 12ecc6af2c2d8e96ba58fe91514b257a34ce0d6a
-last_modified_at: 2023-01-10
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/linux/apt.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/apt.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/apt.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/linux/apt.html
@@ -53,14 +56,15 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/apt.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/apt.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apt.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># apt
+# apt
 
 Hulpprogramma voor pakketbeheer voor op Debian gebaseerde distributies.
 Aanbevolen vervanging voor `apt-get` bij interactief gebruik in Ubuntu versie 16.04 en later.

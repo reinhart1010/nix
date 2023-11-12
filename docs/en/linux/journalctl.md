@@ -3,6 +3,15 @@ layout: page
 title: linux/journalctl (English)
 description: "Query the systemd journal."
 content_hash: 564a7ce3896fb387253fcf4dd955c6648c3022a2
+last_modified_at: 2023-11-12
+related_topics:
+  - title: polski version
+    url: /pl/linux/journalctl.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/journalctl.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # journalctl
 

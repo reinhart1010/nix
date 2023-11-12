@@ -3,10 +3,12 @@ layout: page
 title: common/pdfgrep (English)
 description: "Search text in PDF files."
 content_hash: cd7997dd4fc8ce0dc95e4c531836a2692a57dc1f
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/common/pdfgrep.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pdfgrep
 

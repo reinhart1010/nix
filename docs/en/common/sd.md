@@ -3,7 +3,8 @@ layout: page
 title: common/sd (English)
 description: "Intuitive find and replace."
 content_hash: 4c73968008c77300e751b2f7de29e2b6fcb6f051
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sd
 

@@ -3,7 +3,8 @@ layout: page
 title: common/json5 (English)
 description: "A command-line tool for converting JSON5 files to JSON."
 content_hash: 97cd970f2b7a3262a19912123bb5a8c06e7e9957
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # json5
 

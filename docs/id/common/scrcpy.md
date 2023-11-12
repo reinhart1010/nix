@@ -3,10 +3,12 @@ layout: page
 title: common/scrcpy (Indonesia)
 description: "Tampilkan layar and kontrol perangkat Android anda di dalam desktop."
 content_hash: 341da6e16637c7526459bf9e858b4d19634d86e9
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/scrcpy.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # scrcpy
 

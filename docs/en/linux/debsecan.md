@@ -3,6 +3,8 @@ layout: page
 title: linux/debsecan (English)
 description: "Debian Security Analyzer, a tool to list vulnerabilities on a particular Debian installation."
 content_hash: 0b3843c404894b92875d77367a7f1fad77cb4c32
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # debsecan
 

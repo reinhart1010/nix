@@ -3,7 +3,7 @@ layout: page
 title: common/npm (한국어)
 description: "JavaScript 및 Node.js 패키지 관리자."
 content_hash: adf43d60df8d07342e0d98cfbedf82fafb3a4ee7
-last_modified_at: 2023-10-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/npm.html
@@ -11,14 +11,15 @@ related_topics:
   - title: English version
     url: /en/common/npm.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/npm.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/npm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># npm
+# npm
 
 JavaScript 및 Node.js 패키지 관리자.
 Node.js 프로젝트 및 모듈 의존성을 관리합니다.

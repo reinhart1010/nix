@@ -3,6 +3,8 @@ layout: page
 title: linux/rusnapshot (English)
 description: "BTRFS snapshotting utility written in Rust."
 content_hash: 23fef987e5f72c3acb0bbabc7c6f8c57b1a38acb
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rusnapshot
 

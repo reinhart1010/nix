@@ -3,16 +3,14 @@ layout: page
 title: linux/lnav (русский)
 description: "Инструмент для просмотра и анализа файлов журналов (логов)."
 content_hash: 15f511f416d280944cb0fc1b98515b3a14007256
-last_modified_at: 2023-01-17
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/lnav.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># lnav
+# lnav
 
 Инструмент для просмотра и анализа файлов журналов (логов).
 Больше информации: <https://docs.lnav.org/en/latest/cli.html>.

@@ -3,6 +3,8 @@ layout: page
 title: common/pass-otp (English)
 description: "A pass extension for managing one-time-password (OTP) tokens."
 content_hash: 3bc25175f3aba0ce85e999c2af90c5afeea43af3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pass otp
 

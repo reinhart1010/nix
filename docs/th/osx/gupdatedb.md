@@ -3,7 +3,7 @@ layout: page
 title: osx/gupdatedb (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux updatedb`"
 content_hash: 4329e1824faeafd1a6b95a12c4229498be36da4f
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gupdatedb.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gupdatedb.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gupdatedb
 

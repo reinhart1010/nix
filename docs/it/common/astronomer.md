@@ -3,9 +3,16 @@ layout: page
 title: common/astronomer (italiano)
 description: "Strumento per individuare star illegittime da account bot su progetti GitHub."
 content_hash: 27a7d6262006ec0cd5b380c95894b9f5c28e58ce
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/astronomer.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/astronomer.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/astronomer.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/astronomer.html
@@ -13,6 +20,7 @@ related_topics:
   - title: polski version
     url: /pl/common/astronomer.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # astronomer
 

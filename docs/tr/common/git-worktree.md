@@ -3,6 +3,7 @@ layout: page
 title: common/git-worktree (Türkçe)
 description: "Aynı depoya bağlı çoklu çalışan ağaçları yönet."
 content_hash: 6a3a2fcce0a4369f594acd26b177f50913e524aa
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-worktree.html
@@ -16,6 +17,7 @@ related_topics:
   - title: italiano version
     url: /it/common/git-worktree.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git worktree
 

@@ -3,7 +3,7 @@ layout: page
 title: osx/gbasename (polski)
 description: "To polecenie jest aliasem `-p linux basename`."
 content_hash: c481ce02dc3680318c86fc530dc4a79217dc0484
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gbasename.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gbasename.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gbasename
 

@@ -3,11 +3,14 @@ layout: page
 title: linux/backlight_control (English)
 description: "Control a linux machine's backlight using percentage values."
 content_hash: d7b71a56b39269026d3894fd7f50689650c80a8e
+last_modified_at: 2023-11-12
+related_topics:
+  - title: हिन्दी version
+    url: /hi/linux/backlight_control.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># backlight_control
+# backlight_control
 
 Control a linux machine's backlight using percentage values.
 More information: <https://github.com/Hendrikto/backlight_control>.

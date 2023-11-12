@@ -3,12 +3,10 @@ layout: page
 title: windows/move-item (English)
 description: "Move or rename files, directories, registry keys, and other PowerShell data items."
 content_hash: 009ecaea0f0e6afaf4f7ec365cad44c99bd8a220
-last_modified_at: 2023-11-01
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># Move-Item
+# Move-Item
 
 Move or rename files, directories, registry keys, and other PowerShell data items.
 This command can only be run through PowerShell.

@@ -3,11 +3,10 @@ layout: page
 title: common/gacutil (English)
 description: "Global Assembly Cache (CAG) management utility."
 content_hash: 0b23aea67011d7aaa9488361428e2694d0668445
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gacutil
+# gacutil
 
 Global Assembly Cache (CAG) management utility.
 More information: <https://manned.org/gacutil>.

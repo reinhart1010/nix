@@ -3,16 +3,17 @@ layout: page
 title: common/cargo-build (தமிழ்)
 description: "ஒரு உள்ளூர் தொகுப்பு மற்றும் அதன் அனைத்து சார்புகளையும் தொகுக்கவும்."
 content_hash: e593393a658e5a47f7babc100555d1f962e8b53e
-last_modified_at: 2023-05-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/cargo-build.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/cargo-build.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cargo build
+# cargo build
 
 ஒரு உள்ளூர் தொகுப்பு மற்றும் அதன் அனைத்து சார்புகளையும் தொகுக்கவும்.
 மேலும் விவரத்திற்கு: <https://doc.rust-lang.org/cargo/commands/cargo-build.html>.

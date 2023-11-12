@@ -3,12 +3,10 @@ layout: page
 title: windows/measure-command (English)
 description: "Measures the time it takes to run script blocks and cmdlets."
 content_hash: 62d91fb7fd73ac33a7fbeb94420a86c59e64af44
-last_modified_at: 2022-12-21
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># Measure-Command
+# Measure-Command
 
 Measures the time it takes to run script blocks and cmdlets.
 This command can only be used through PowerShell.

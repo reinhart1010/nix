@@ -3,6 +3,7 @@ layout: page
 title: common/dotnet (polski)
 description: "Wieloplatformowe narzędzia wiersza polecenia .NET dla platformy .NET Core."
 content_hash: 0885bdccb6dc94a297392e246ec704e646c06c83
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/dotnet.html
@@ -25,6 +26,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/dotnet.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dotnet
 

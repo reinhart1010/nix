@@ -3,6 +3,8 @@ layout: page
 title: common/pre-commit (English)
 description: "Create Git hooks that get run before a commit."
 content_hash: 23c4db7acf8750a0bcc2589fdff321cfa4a8c31d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pre-commit
 

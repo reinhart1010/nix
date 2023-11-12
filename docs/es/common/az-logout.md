@@ -3,7 +3,7 @@ layout: page
 title: common/az-logout (español)
 description: "Cierra la sesión de una suscripción de Azure."
 content_hash: 03521a73debcc65205c3b72ae91a0316bbce2010
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/az-logout.html
@@ -11,6 +11,7 @@ related_topics:
   - title: English version
     url: /en/common/az-logout.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # az logout
 

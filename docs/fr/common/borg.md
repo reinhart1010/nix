@@ -3,6 +3,7 @@ layout: page
 title: common/borg (français)
 description: "Outil de sauvegarde avec dé-duplication."
 content_hash: b2bb5710123f256e0e7f91da90384367119511a1
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/borg.html
@@ -16,6 +17,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/borg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # borg
 

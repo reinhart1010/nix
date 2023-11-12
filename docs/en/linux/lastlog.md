@@ -3,10 +3,12 @@ layout: page
 title: linux/lastlog (English)
 description: "Show the most recent login of all users or of a given user."
 content_hash: b4b8496973c1ab67e914c39ef37f50df75fa948a
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/lastlog.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lastlog
 

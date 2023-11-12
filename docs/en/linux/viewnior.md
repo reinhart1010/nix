@@ -3,6 +3,8 @@ layout: page
 title: linux/viewnior (English)
 description: "Simple and elegant image viewer."
 content_hash: 7b07fde00eceaa786e15ff6bd57db9b0d5f084cf
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # viewnior
 

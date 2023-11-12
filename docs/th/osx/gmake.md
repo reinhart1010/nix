@@ -3,7 +3,7 @@ layout: page
 title: osx/gmake (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux make`"
 content_hash: d82dbef88548677c70aad10d94104ea012e74bbc
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gmake.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gmake.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gmake
 

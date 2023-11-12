@@ -3,7 +3,7 @@ layout: page
 title: common/rustc (English)
 description: "The Rust compiler."
 content_hash: 6fca564556b72182165c506dadc377ef3b4a8400
-last_modified_at: 2023-06-23
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/rustc.html
@@ -11,6 +11,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/rustc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rustc
 

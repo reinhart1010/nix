@@ -3,6 +3,7 @@ layout: page
 title: common/gh (Deutsch)
 description: "Arbeite mit GitHub von der Konsole aus."
 content_hash: 73c98c32a766df4b4275df0297b7ce2aae84d144
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/gh.html
@@ -13,11 +14,9 @@ related_topics:
   - title: Indonesia version
     url: /id/common/gh.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gh
+# gh
 
 Arbeite mit GitHub von der Konsole aus.
 Manche Unterbefehle wie `gh config` sind separat dokumentiert.

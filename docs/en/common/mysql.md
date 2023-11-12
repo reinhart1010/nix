@@ -3,6 +3,7 @@ layout: page
 title: common/mysql (English)
 description: "The MySQL command-line tool."
 content_hash: 85f2613a503d1a665485e5cbaf38c0680a4ad750
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/mysql.html
@@ -16,6 +17,10 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/mysql.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/mysql.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mysql
 

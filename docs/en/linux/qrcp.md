@@ -3,11 +3,10 @@ layout: page
 title: linux/qrcp (English)
 description: "A file transfer tool."
 content_hash: b3a864596ba90899da0eb4a95e59588d1ffb4c80
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># qrcp
+# qrcp
 
 A file transfer tool.
 More information: <https://github.com/claudiodangelis/qrcp>.

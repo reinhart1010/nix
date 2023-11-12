@@ -3,6 +3,7 @@ layout: page
 title: common/entr (polski)
 description: "Uruchom dowolną komendę, gdy zmieni się plik."
 content_hash: a38ef0b28679a0ca1887179abbfdfee2688a5560
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/entr.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/entr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # entr
 

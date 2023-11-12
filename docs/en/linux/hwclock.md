@@ -3,6 +3,8 @@ layout: page
 title: linux/hwclock (English)
 description: "Used for reading or changing the hardware clock. Usually requires root."
 content_hash: 17982af4c8ac48ad503cdbc64b206e43f7ecd2c2
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # hwclock
 

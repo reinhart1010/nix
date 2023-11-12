@@ -3,7 +3,7 @@ layout: page
 title: osx/gtest (polski)
 description: "To polecenie jest aliasem `-p linux test`."
 content_hash: 604c3e9e93b2b91167b0706d1430b2313aa1b6b5
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gtest.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gtest.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gtest
 

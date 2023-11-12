@@ -3,7 +3,8 @@ layout: page
 title: common/iconv (English)
 description: "Converts text from one encoding to another."
 content_hash: 405ec57752b7d9c5e61b645955fa81cbffe09764
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # iconv
 

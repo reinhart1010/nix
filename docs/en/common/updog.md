@@ -3,6 +3,8 @@ layout: page
 title: common/updog (English)
 description: "A replacement for Python's SimpleHTTPServer."
 content_hash: 7712117ffef3663b5b2abbb67f98fbc887b28773
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # updog
 

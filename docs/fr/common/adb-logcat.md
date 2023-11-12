@@ -3,10 +3,21 @@ layout: page
 title: common/adb-logcat (français)
 description: "Jeter une log des messages systèmes."
 content_hash: 01cd335b18755a0e923204ba7ecef231928c546e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/adb-logcat.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/adb-logcat.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/adb-logcat.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/adb-logcat.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.

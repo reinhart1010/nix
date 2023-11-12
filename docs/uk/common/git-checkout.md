@@ -3,6 +3,7 @@ layout: page
 title: common/git-checkout (українська)
 description: "Перемикає на гілку чи шлях до робочої директорії."
 content_hash: ba4892e1d29104d8b7203178f7681dab77755ce0
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-checkout.html
@@ -19,17 +20,18 @@ related_topics:
   - title: italiano version
     url: /it/common/git-checkout.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-checkout.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-checkout.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-checkout.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git checkout
+# git checkout
 
 Перемикає на гілку чи шлях до робочої директорії.
 Більше інформації: <https://git-scm.com/docs/git-checkout>.

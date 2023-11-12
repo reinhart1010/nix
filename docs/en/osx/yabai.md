@@ -3,6 +3,12 @@ layout: page
 title: osx/yabai (English)
 description: "A tiling window manager for macOS based on binary space partitioning."
 content_hash: f6301448c1e61bedd70ea082b705290110213ec4
+last_modified_at: 2023-11-12
+related_topics:
+  - title: español version
+    url: /es/osx/yabai.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # yabai
 

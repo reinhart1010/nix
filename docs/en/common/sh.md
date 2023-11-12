@@ -3,7 +3,7 @@ layout: page
 title: common/sh (English)
 description: "Bourne shell, the standard command language interpreter."
 content_hash: f63d34d46a3e38bb2f016f111392a39796a330b4
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/sh.html
@@ -14,6 +14,7 @@ related_topics:
   - title: sh version
     url: /sh/common/sh.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sh
 

@@ -3,15 +3,14 @@ layout: page
 title: common/go-test (Türkçe)
 description: "Go paketlerini test et (dosyalar `_test.go` ifadesiyle bitmeli)."
 content_hash: 946d5a96bc03e0a38f7b503b0e81cafcb7274271
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/go-test.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># go test
+# go test
 
 Go paketlerini test et (dosyalar `_test.go` ifadesiyle bitmeli).
 Daha fazla bilgi için: <https://golang.org/cmd/go/#hdr-Testing_flags>.

@@ -3,6 +3,7 @@ layout: page
 title: common/basename (中文)
 description: "移除一个路径的目录部分字符。"
 content_hash: 2f1cd9cadcbd7b2333fe2bde8b95a2a92f45e614
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/basename.html
@@ -22,6 +23,10 @@ related_topics:
   - title: polski version
     url: /pl/common/basename.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/basename.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # basename
 

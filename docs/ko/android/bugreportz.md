@@ -3,7 +3,7 @@ layout: page
 title: android/bugreportz (한국어)
 description: "압축된 Android 버그 리포트 생성."
 content_hash: ea4eaddbb84f94eb0502c5295df25ba28f8c43b0
-last_modified_at: 2023-11-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -65,9 +65,16 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/bugreportz.html
     icon: bi bi-globe
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/android/bugreportz.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># bugreportz
 

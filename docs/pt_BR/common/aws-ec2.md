@@ -3,6 +3,7 @@ layout: page
 title: common/aws-ec2 (português (Brasil))
 description: "Inteface de linha de comando para o AWS EC2."
 content_hash: c99e3913ddd829531322c3211d7e8711657c7f45
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-ec2.html
@@ -13,6 +14,7 @@ related_topics:
   - title: français version
     url: /fr/common/aws-ec2.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws ec2
 

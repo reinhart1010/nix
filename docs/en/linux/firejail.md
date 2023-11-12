@@ -3,6 +3,8 @@ layout: page
 title: linux/firejail (English)
 description: "Securely sandboxes processes to containers using built-in Linux capabilities."
 content_hash: fa0ec865de0d5ae7bbf80ccbc7e2885edd0d0618
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # firejail
 

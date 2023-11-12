@@ -3,6 +3,7 @@ layout: page
 title: common/banner (हिन्दी)
 description: "दिए गए तर्क को एक बड़ी ASCII कला के रूप में प्रिंट करें।"
 content_hash: 371a5f5ee8f84f5d64739c0656951ef5c4185828
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/banner.html
@@ -19,6 +20,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/banner.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # banner
 

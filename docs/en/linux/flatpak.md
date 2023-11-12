@@ -3,7 +3,11 @@ layout: page
 title: linux/flatpak (English)
 description: "Build, install and run flatpak applications and runtimes."
 content_hash: 017921a8bffb9268ce21d3bc031c55a5076b1811
+last_modified_at: 2023-11-12
 related_topics:
+  - title: हिन्दी version
+    url: /hi/linux/flatpak.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/flatpak.html
     icon: bi bi-globe
@@ -13,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/flatpak.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # flatpak
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/sreport (English)
 description: "Generate reports on jobs, users, and clusters from accounting data."
 content_hash: 8d6a220557966205d38c87757b741dff61757541
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sreport
 

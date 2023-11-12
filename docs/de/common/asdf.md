@@ -3,6 +3,7 @@ layout: page
 title: common/asdf (Deutsch)
 description: "Verwalte installierte Versionen von verschiedenen Paketen."
 content_hash: ba081a598538ed66ecad0f3bc4f8936428330b13
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/asdf.html
@@ -25,11 +26,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/asdf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># asdf
+# asdf
 
 Verwalte installierte Versionen von verschiedenen Paketen.
 Plugins (z.B. asdf-node) werden für spezifische Pakete verwendet.

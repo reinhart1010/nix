@@ -3,6 +3,8 @@ layout: page
 title: common/wrangler (English)
 description: "Cloudflare Workers command-line tool."
 content_hash: e5768e755e3c9379a7e96eda10161794c35c5d7b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # wrangler
 

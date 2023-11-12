@@ -3,6 +3,8 @@ layout: page
 title: common/nslookup (English)
 description: "Query name server(s) for various domain records."
 content_hash: cd13c639e60f9266493ad1f655a1bb0fbb5279b6
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # nslookup
 

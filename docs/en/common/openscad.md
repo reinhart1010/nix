@@ -3,6 +3,8 @@ layout: page
 title: common/openscad (English)
 description: "Software for creating solid 3D CAD objects."
 content_hash: 1b19d12b01681b9912caae445ae7ad92b6940675
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # openscad
 

@@ -3,7 +3,7 @@ layout: page
 title: common/md5sum (English)
 description: "Calculate MD5 cryptographic checksums."
 content_hash: 1d41328293318f5803db4ccb98781639afb8fd5f
-last_modified_at: 2023-05-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/md5sum.html
@@ -14,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/md5sum.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # md5sum
 

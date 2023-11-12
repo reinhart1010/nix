@@ -3,6 +3,7 @@ layout: page
 title: linux/xrandr (English)
 description: "Set the size, orientation and/or reflection of the outputs for a screen."
 content_hash: 61c68dca6d6ed991e9976e34ffb953ac751ea3b0
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/xrandr.html
@@ -10,6 +11,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/xrandr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xrandr
 

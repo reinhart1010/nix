@@ -3,6 +3,8 @@ layout: page
 title: common/zipinfo (English)
 description: "List detailed information about the contents of a `.zip` file."
 content_hash: 747122e52f2b0274cec0e643063ec75595187883
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # zipinfo
 

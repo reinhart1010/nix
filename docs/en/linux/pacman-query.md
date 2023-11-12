@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman-query (English)
 description: "Arch Linux package manager utility."
 content_hash: 5e7e2d3dd06c2a7a89d846a798b884043724be5a
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-query.html
@@ -20,6 +20,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/pacman-query.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pacman --query
 

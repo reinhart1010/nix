@@ -3,6 +3,7 @@ layout: page
 title: common/docker-build (中文)
 description: "从 Dockerfile 打包镜像。"
 content_hash: f9e6dfd3d634f48a6c42230311e078abf3292352
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-build.html
@@ -13,8 +14,17 @@ related_topics:
   - title: français version
     url: /fr/common/docker-build.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/docker-build.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/docker-build.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/docker-build.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/docker-build.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker-build.html
@@ -22,6 +32,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-build.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker build
 

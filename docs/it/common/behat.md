@@ -3,6 +3,7 @@ layout: page
 title: common/behat (italiano)
 description: "Un framework PHP per lo sviluppo quidato dal comportamento."
 content_hash: 93db116c1a658af6026b34954738420deedd6d4e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/behat.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/behat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # behat
 

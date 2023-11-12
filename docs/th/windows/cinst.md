@@ -3,7 +3,7 @@ layout: page
 title: windows/cinst (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `choco install`"
 content_hash: b42694db4e1333ce74b894b7c3741cf7b6099915
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/cinst.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/cinst.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cinst
 

@@ -3,16 +3,14 @@ layout: page
 title: common/unar (中文)
 description: "从归档文件中提取内容。"
 content_hash: c4223f7e7ec00cd32c829ea677ee685c3a666946
-last_modified_at: 2023-02-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/unar.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># unar
+# unar
 
 从归档文件中提取内容。
 更多信息：<https://manned.org/unar>.

@@ -3,11 +3,10 @@ layout: page
 title: linux/qm-config (English)
 description: "Display the virtual machine configuration with pending configuration changes applied."
 content_hash: dba70677ab8face07f4b37dbff943bc6291ddafb
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># qm config
+# qm config
 
 Display the virtual machine configuration with pending configuration changes applied.
 More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.

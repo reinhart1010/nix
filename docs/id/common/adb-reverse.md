@@ -3,7 +3,7 @@ layout: page
 title: common/adb-reverse (Indonesia)
 description: "Android Debug Bridge Reverse: membalik koneksi socket dari emulator Android atau perangkat Android terhubung."
 content_hash: 6dbd0fdb139b08a5ae89444ec79b623bdbee9f98
-last_modified_at: 2023-10-12
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/adb-reverse.html
@@ -26,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/adb-reverse.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # adb reverse
 

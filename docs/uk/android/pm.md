@@ -3,7 +3,7 @@ layout: page
 title: android/pm (українська)
 description: "Вивести інформацію про застосунки на Android девайсі."
 content_hash: 959c0e6103151848d546b057de1c3f2513b2183b
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/pm.html
@@ -56,6 +56,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/pm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pm
 

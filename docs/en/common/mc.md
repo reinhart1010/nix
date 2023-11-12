@@ -3,11 +3,12 @@ layout: page
 title: common/mc (English)
 description: "Midnight Commander, a terminal based file manager."
 content_hash: bb94ca6a68b71f0ca32fdc64e17db3a9b9fbb47f
-last_modified_at: 2023-06-27
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/mc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mc
 

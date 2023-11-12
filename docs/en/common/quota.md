@@ -3,6 +3,8 @@ layout: page
 title: common/quota (English)
 description: "Display users' disk space usage and allocated limits."
 content_hash: f519e0efe495b19707955032ccbb6684eda9f9e1
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # quota
 

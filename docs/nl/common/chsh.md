@@ -3,7 +3,7 @@ layout: page
 title: common/chsh (Nederlands)
 description: "Wijzig de login-shell van de gebruiker."
 content_hash: 649cd0883f97302b08155590aacb32b7cb22be28
-last_modified_at: 2023-10-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: bosanski version
     url: /bs/common/chsh.html
@@ -38,17 +38,9 @@ related_topics:
   - title: svenska version
     url: /sv/common/chsh.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/chsh.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># chsh
+# chsh
 
 Wijzig de login-shell van de gebruiker.
 Meer informatie: <https://manned.org/chsh>.

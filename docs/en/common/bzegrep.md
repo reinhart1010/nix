@@ -3,11 +3,10 @@ layout: page
 title: common/bzegrep (English)
 description: "Find extended regular expression patterns in bzip2 compressed files using egrep."
 content_hash: 4a5ff14b08d5a50f83ef361b986d1ceab46499a7
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bzegrep
+# bzegrep
 
 Find extended regular expression patterns in bzip2 compressed files using egrep.
 More information: <https://manned.org/bzegrep>.

@@ -3,7 +3,7 @@ layout: page
 title: common/cut (English)
 description: "Cut out fields from `stdin` or files."
 content_hash: 17979f8af9292ea67b49d1ce71dec901147923a5
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/cut.html
@@ -17,9 +17,13 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cut.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/cut.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/common/cut.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cut
 

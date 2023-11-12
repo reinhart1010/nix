@@ -3,12 +3,10 @@ layout: page
 title: common/idea (English)
 description: "JetBrains Java and Kotlin IDE."
 content_hash: 473af328350f4bf012aac6f3dcfbb2d16f595d89
-last_modified_at: 2023-09-28
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># idea
+# idea
 
 JetBrains Java and Kotlin IDE.
 More information: <https://www.jetbrains.com/help/idea/working-with-the-ide-features-from-command-line.html>.

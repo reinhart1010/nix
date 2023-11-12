@@ -3,10 +3,15 @@ layout: page
 title: linux/bitwise (English)
 description: "Multi base interactive calculator supporting dynamic base conversion and bit manipulation."
 content_hash: bd856fa673ea97632671af68d82feca0f36f3afd
+last_modified_at: 2023-11-12
 related_topics:
+  - title: हिन्दी version
+    url: /hi/linux/bitwise.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/bitwise.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bitwise
 

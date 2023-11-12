@@ -3,6 +3,8 @@ layout: page
 title: linux/runcon (English)
 description: "Run a program in a different SELinux security context."
 content_hash: e8a085897ad68d78715ecc76e59603598673bf91
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # runcon
 

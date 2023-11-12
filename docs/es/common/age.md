@@ -3,7 +3,7 @@ layout: page
 title: common/age (español)
 description: "Una herramienta de encriptación de archivos sencilla, moderna y segura."
 content_hash: 8444815eebfb8eede993b9746dc7af8eff582eb8
-last_modified_at: 2023-02-13
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/age.html
@@ -17,12 +17,16 @@ related_topics:
   - title: italiano version
     url: /it/common/age.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/age.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/age.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/age.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.

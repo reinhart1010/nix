@@ -3,6 +3,7 @@ layout: page
 title: common/git-apply (Türkçe)
 description: "İndeks veya dosyalara yama uygula."
 content_hash: 17c53957a35c39c5ed2eb3fe1916aeea66059fdc
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-apply.html
@@ -16,6 +17,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/git-apply.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git apply
 

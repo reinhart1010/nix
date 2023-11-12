@@ -3,6 +3,12 @@ layout: page
 title: common/pm2 (English)
 description: "Process manager for Node.js."
 content_hash: 07f4baa179d33dd5cd81757f6d3465e6a04593b3
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Indonesia version
+    url: /id/common/pm2.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pm2
 

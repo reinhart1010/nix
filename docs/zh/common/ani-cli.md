@@ -3,7 +3,7 @@ layout: page
 title: common/ani-cli (中文)
 description: "一个用于浏览和观看动漫的命令行工具。"
 content_hash: fdb68bf5100b321a20f2c75195c91e802cd3f4ff
-last_modified_at: 2023-04-10
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ani-cli.html
@@ -20,6 +20,7 @@ related_topics:
   - title: മലയാളം version
     url: /ml/common/ani-cli.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ani-cli
 

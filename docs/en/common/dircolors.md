@@ -3,7 +3,7 @@ layout: page
 title: common/dircolors (English)
 description: "Output commands to set the LS_COLOR environment variable and style `ls`, `dir`, etc."
 content_hash: 330e1be2c2d0f4923337f3b4f26ae5fb24c0f222
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/dircolors.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/dircolors.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dircolors
 

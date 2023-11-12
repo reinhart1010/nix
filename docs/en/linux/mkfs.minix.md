@@ -3,6 +3,8 @@ layout: page
 title: linux/mkfs.minix (English)
 description: "Creates a Minix filesystem inside a partition."
 content_hash: af752c1cb9f638a7a1bab886d8767a45a1e15290
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mkfs.minix
 

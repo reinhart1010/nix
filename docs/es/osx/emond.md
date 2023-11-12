@@ -3,7 +3,7 @@ layout: page
 title: osx/emond (español)
 description: "Servicio de Monitor de Eventos que acepta eventos de varios servicios, los ejecuta a través de un simple motor de reglas, y toma acciones."
 content_hash: e459290f63b728433cd66991c3c362868bc208b7
-last_modified_at: 2023-08-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/emond.html
@@ -11,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/osx/emond.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # emond
 

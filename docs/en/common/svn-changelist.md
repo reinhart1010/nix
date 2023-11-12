@@ -3,6 +3,8 @@ layout: page
 title: common/svn-changelist (English)
 description: "Associate a changelist with a set of files."
 content_hash: f03c3222ef9529a111b3fab6593e75988deef15e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # svn changelist
 

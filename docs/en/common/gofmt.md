@@ -3,6 +3,8 @@ layout: page
 title: common/gofmt (English)
 description: "Tool for formatting Go source code."
 content_hash: 0fdc1986567334b3c643c1af597d05760e358933
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gofmt
 

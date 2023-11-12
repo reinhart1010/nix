@@ -3,6 +3,7 @@ layout: page
 title: common/clear (中文)
 description: "清空终端的屏幕。"
 content_hash: e50d24aa3da926e5868ef8b0257c980d3cbbe0df
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/clear.html
@@ -12,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/clear.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/clear.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/clear.html
@@ -28,6 +32,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/clear.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # clear
 

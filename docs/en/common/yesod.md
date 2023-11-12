@@ -3,6 +3,8 @@ layout: page
 title: common/yesod (English)
 description: "Helper tool for Yesod, a Haskell-based web framework."
 content_hash: 0c6b8e20a37ddd931485fbe921d43f0b87baf259
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # yesod
 

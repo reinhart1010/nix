@@ -3,6 +3,8 @@ layout: page
 title: common/ocrmypdf (English)
 description: "Generate a searchable PDF or PDF/A from a scanned PDF or an image of text."
 content_hash: d9eb54efafb078b7c574122acec5d24c3d913d99
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ocrmypdf
 

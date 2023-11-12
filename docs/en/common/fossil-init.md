@@ -3,11 +3,10 @@ layout: page
 title: common/fossil-init (English)
 description: "Initialize a new repository for a project."
 content_hash: f22c40c87d218577142500119d1a49efbfbc5e9a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># fossil init
+# fossil init
 
 Initialize a new repository for a project.
 See also: `fossil clone`.

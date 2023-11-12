@@ -3,11 +3,10 @@ layout: page
 title: common/flite (English)
 description: "Speech synthesis engine."
 content_hash: 4c07b96630989a705407e276a53b82046ea379db
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># flite
+# flite
 
 Speech synthesis engine.
 More information: <http://www.festvox.org/flite/doc/>.

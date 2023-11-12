@@ -3,6 +3,7 @@ layout: page
 title: common/ansible-galaxy (français)
 description: "Crée et gère les rôles Ansible."
 content_hash: b977f9bf810fa47d45584299552cf481bb72f6f2
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible-galaxy.html
@@ -19,11 +20,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ansible-galaxy.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ansible-galaxy
+# ansible-galaxy
 
 Crée et gère les rôles Ansible.
 Plus d'informations : <https://docs.ansible.com/ansible/latest/cli/ansible-galaxy.html>.

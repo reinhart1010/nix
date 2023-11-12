@@ -3,6 +3,8 @@ layout: page
 title: linux/lvm (English)
 description: "Manage physical volumes, volume groups, and logical volumes using the Logical Volume Manager (LVM) interactive shell."
 content_hash: 013c2f15e64d1d7e6ea487f624b9f082d1fa0096
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lvm
 

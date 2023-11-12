@@ -3,12 +3,10 @@ layout: page
 title: common/hub-create (English)
 description: "Create a new repository on GitHub."
 content_hash: 92232a440096f10db7da87df0b1f6ad965359525
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># hub create
+# hub create
 
 Create a new repository on GitHub.
 More information: <https://hub.github.com/hub-create.1.html>.

@@ -3,10 +3,15 @@ layout: page
 title: linux/gnome-terminal (English)
 description: "The GNOME Terminal emulator."
 content_hash: 7b881c705f30641a545447fa09e1ee40bd115dfa
+last_modified_at: 2023-11-12
 related_topics:
   - title: മലയാളം version
     url: /ml/linux/gnome-terminal.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/gnome-terminal.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gnome-terminal
 

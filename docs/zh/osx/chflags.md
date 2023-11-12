@@ -3,10 +3,15 @@ layout: page
 title: osx/chflags (中文)
 description: "更改文件或文件夹的标志。"
 content_hash: 7d49c00c24fb80d8936798e4b243b6c830c97c56
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/chflags.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/chflags.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chflags
 

@@ -3,10 +3,15 @@ layout: page
 title: common/zola (English)
 description: "A static site generator in a single binary with everything built-in."
 content_hash: 0a4b2be94d7ae276b461709be5f5b5e6832fee88
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/zola.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/zola.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # zola
 

@@ -3,6 +3,8 @@ layout: page
 title: common/ss-local (English)
 description: "Run a Shadowsocks client as a SOCKS5 proxy."
 content_hash: ceb9ea1f19c09191ebc6b0247ab07b67c4a0aae5
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ss-local
 

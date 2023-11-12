@@ -3,7 +3,7 @@ layout: page
 title: windows/path (हिन्दी)
 description: "निष्पादन योग्य फ़ाइलों के लिए खोज पथ प्रदर्शित या सेट करें।"
 content_hash: b41e79a15970a21439b991f478980db4c707984a
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/windows/path.html
@@ -17,6 +17,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/path.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # path
 

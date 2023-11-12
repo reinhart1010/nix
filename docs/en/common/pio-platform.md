@@ -3,6 +3,8 @@ layout: page
 title: common/pio-platform (English)
 description: "Manage PlatformIO development platforms."
 content_hash: 42f7dd97205c97cc5e84fbf33f6be5c576dddfd1
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pio platform
 

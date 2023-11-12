@@ -3,11 +3,12 @@ layout: page
 title: common/ninja (中文)
 description: "一个快速的构建系统。"
 content_hash: f8a08e7f519212335cd993253a1b520b79d02b6d
-last_modified_at: 2023-07-27
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ninja.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ninja
 

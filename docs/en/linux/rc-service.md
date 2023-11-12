@@ -3,6 +3,8 @@ layout: page
 title: linux/rc-service (English)
 description: "Locate and run OpenRC services with arguments."
 content_hash: b9a1b4a70ca838a616fd6531779530f8b0585163
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rc-service
 

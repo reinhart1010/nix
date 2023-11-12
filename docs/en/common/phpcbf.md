@@ -3,6 +3,8 @@ layout: page
 title: common/phpcbf (English)
 description: "Fix violations detected by phpcs."
 content_hash: 1c2f2995da443e477b265bf5034d6cbbbc0cd0e5
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # phpcbf
 

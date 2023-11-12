@@ -3,6 +3,7 @@ layout: page
 title: common/deluge-console (English)
 description: "An interactive interface for the Deluge BitTorrent client."
 content_hash: 9e78ff93fd25e6aab2e7689d9508cd6f1c91a965
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/deluge-console.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/deluge-console.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # deluge-console
 

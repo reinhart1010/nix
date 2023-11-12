@@ -3,18 +3,26 @@ layout: page
 title: common/adscript (中文)
 description: "用于 Adscript 文件的编译器。"
 content_hash: b103990bcc0507adbc52a66f1489d54a4e803d7b
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/adscript.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/adscript.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/adscript.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/adscript.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/adscript.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># adscript
+# adscript
 
 用于 Adscript 文件的编译器。
 更多信息：<https://github.com/Amplus2/Adscript>.

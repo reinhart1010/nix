@@ -3,6 +3,7 @@ layout: page
 title: common/detox (한국어)
 description: "작업하기 쉽도록 파일 이름을 다시 설정합니다."
 content_hash: 7465f4383e7b585a29bcc7b9a2d9a97d0f0e1879
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/detox.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/detox.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # detox
 

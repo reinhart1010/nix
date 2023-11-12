@@ -3,11 +3,10 @@ layout: page
 title: common/pulumi (English)
 description: "Define infrastructure on any cloud using familiar programming languages."
 content_hash: 2ed27e5dbd31dd61c4b59bfa4999bfcacf206c29
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pulumi
+# pulumi
 
 Define infrastructure on any cloud using familiar programming languages.
 More information: <https://www.pulumi.com/docs/reference/cli>.

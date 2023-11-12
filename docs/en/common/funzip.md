@@ -3,6 +3,8 @@ layout: page
 title: common/funzip (English)
 description: "Print the content of the first (non-directory) member in an archive without extraction."
 content_hash: 980a8907cf8b1a81554ee288464eca3a6b699bdb
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # funzip
 

@@ -3,7 +3,7 @@ layout: page
 title: common/zoxide (Deutsch)
 description: "Behält den Überblick über die am häufigsten verwendeten Verzeichnisse."
 content_hash: d67d830c6c83d029d15d7cd9ead0b84c2247bcf3
-last_modified_at: 2023-10-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/zoxide.html
@@ -11,11 +11,9 @@ related_topics:
   - title: français version
     url: /fr/common/zoxide.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># zoxide
+# zoxide
 
 Behält den Überblick über die am häufigsten verwendeten Verzeichnisse.
 Verwendet einen Ranking-Algorithmus, um zum besten Treffer zu navigieren.

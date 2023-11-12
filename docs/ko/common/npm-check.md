@@ -3,7 +3,7 @@ layout: page
 title: common/npm-check (한국어)
 description: "오래되고, 부정확하고, 사용되지 않는 npm 패키지 의존성을 확인하세요."
 content_hash: fd128b6f9a91611d89d0045aeb6dbc65effa0cba
-last_modified_at: 2023-10-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/npm-check.html
@@ -11,11 +11,9 @@ related_topics:
   - title: English version
     url: /en/common/npm-check.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># npm-check
+# npm-check
 
 오래되고, 부정확하고, 사용되지 않는 npm 패키지 의존성을 확인하세요.
 더 많은 정보: <https://github.com/dylang/npm-check>.

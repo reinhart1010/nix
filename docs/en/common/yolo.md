@@ -3,7 +3,8 @@ layout: page
 title: common/yolo (English)
 description: "The YOLO command-line interface lets you simply train, validate or infer models on various tasks and versions."
 content_hash: 1c4ec358e34157d8dd9427e9c703856ce1a094cd
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # yolo
 

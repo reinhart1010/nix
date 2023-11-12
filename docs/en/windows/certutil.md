@@ -3,11 +3,12 @@ layout: page
 title: windows/certutil (English)
 description: "A tool to manage and configure certificate information."
 content_hash: 03b5f55dd56fa6df793e64f5af98e04ee35d6268
-last_modified_at: 2023-10-27
+last_modified_at: 2023-11-12
 related_topics:
   - title: हिन्दी version
     url: /hi/windows/certutil.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # certutil
 

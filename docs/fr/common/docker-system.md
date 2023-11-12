@@ -3,6 +3,7 @@ layout: page
 title: common/docker-system (français)
 description: "Gérer les données Docker et afficher des informations sur l'ensemble du système."
 content_hash: fb2f79acfa60cee1e11afa7bd5336b1e18481c2a
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-system.html
@@ -10,14 +11,18 @@ related_topics:
   - title: English version
     url: /en/common/docker-system.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/docker-system.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/docker-system.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/docker-system.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docker system
+# docker system
 
 Gérer les données Docker et afficher des informations sur l'ensemble du système.
 Plus d'informations : <https://docs.docker.com/engine/reference/commandline/system/>.

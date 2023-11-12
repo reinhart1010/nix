@@ -3,10 +3,21 @@ layout: page
 title: linux/uname (தமிழ்)
 description: "Uname அது இயங்கும் இயந்திரம் மற்றும் இயக்க முறைமை பற்றிய தகவல்களை அச்சிடுகிறது."
 content_hash: 199aea2442bd1cf4437ced811e9146e8de5ec476
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/uname.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/linux/uname.html
+    icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/linux/uname.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/uname.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # uname
 

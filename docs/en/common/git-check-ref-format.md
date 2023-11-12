@@ -3,6 +3,12 @@ layout: page
 title: common/git-check-ref-format (English)
 description: "Checks if a given refname is acceptable, and exits with a non-zero status if it is not."
 content_hash: 01b9c8da01dcaea135e25659a41b94a8b40f1ea2
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Türkçe version
+    url: /tr/common/git-check-ref-format.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git check-ref-format
 

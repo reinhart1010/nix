@@ -3,7 +3,8 @@ layout: page
 title: linux/goaccess (English)
 description: "An open source real-time web log analyzer."
 content_hash: bb5fb57a0cfc4fc6b7b224d503e539f0eeb0acd8
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # goaccess
 

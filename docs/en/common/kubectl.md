@@ -3,10 +3,18 @@ layout: page
 title: common/kubectl (English)
 description: "Command-line interface for running commands against Kubernetes clusters."
 content_hash: 0645607b6cbc94d6674ea002db6a32cf3aed4ee0
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/kubectl.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/common/kubectl.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/kubectl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # kubectl
 

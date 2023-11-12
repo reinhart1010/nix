@@ -3,6 +3,8 @@ layout: page
 title: linux/mkfs.ntfs (English)
 description: "Creates a NTFS filesystem inside a partition."
 content_hash: e581d6272dc14b45e01b1fc4b2e5d7f4e93c16c7
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mkfs.ntfs
 

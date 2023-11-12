@@ -3,7 +3,8 @@ layout: page
 title: common/expr (English)
 description: "Evaluate expressions and manipulate strings."
 content_hash: 8dc55c6425b5b8859ad35405bd0b7fe29a036a42
-last_modified_at: 2023-02-21
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # expr
 

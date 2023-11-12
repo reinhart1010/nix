@@ -3,6 +3,7 @@ layout: page
 title: linux/apache2ctl (中文)
 description: "Apache HTTP web 服务器命令行管理工具。"
 content_hash: 43c8960b035cc43fb9f4e68bc7bed65910988bbf
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/apache2ctl.html
@@ -13,9 +14,13 @@ related_topics:
   - title: français version
     url: /fr/linux/apache2ctl.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/apache2ctl.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/apache2ctl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apache2ctl
 

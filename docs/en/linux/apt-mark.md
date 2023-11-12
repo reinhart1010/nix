@@ -3,7 +3,7 @@ layout: page
 title: linux/apt-mark (English)
 description: "Utility to change the status of installed packages."
 content_hash: 867300749f8f1c4751c7ada7713978b578ac6872
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/apt-mark.html
@@ -20,12 +20,16 @@ related_topics:
   - title: italiano version
     url: /it/linux/apt-mark.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/apt-mark.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/apt-mark.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apt-mark.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apt-mark
 

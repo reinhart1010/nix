@@ -3,6 +3,7 @@ layout: page
 title: common/git-add (தமிழ்)
 description: "மாற்றப்பட்ட கோப்புகளை குறியீட்டில் சேர்க்கிறது."
 content_hash: 8096d70cec115cc94942e528ca521b7373691e99
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-add.html
@@ -34,6 +35,7 @@ related_topics:
   - title: українська version
     url: /uk/common/git-add.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git add
 

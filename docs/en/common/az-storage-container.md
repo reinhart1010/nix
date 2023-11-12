@@ -3,7 +3,8 @@ layout: page
 title: common/az-storage-container (English)
 description: "Manage blob storage containers in Azure."
 content_hash: 8d8c480e40f7d697fbb05bdaa88da3a0566d7a84
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # az storage container
 

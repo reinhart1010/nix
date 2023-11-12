@@ -3,6 +3,7 @@ layout: page
 title: common/csvcut (italiano)
 description: "Filtra e tronca file CSV. Come il comando Unix `cut`, ma per dati tabellari."
 content_hash: e6d44263c2e8cb192ce24a590685c0ab345d1e3a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/csvcut.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/csvcut.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # csvcut
 

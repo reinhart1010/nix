@@ -3,7 +3,8 @@ layout: page
 title: common/opam (English)
 description: "OCaml Package Manager."
 content_hash: 672fb71761866fa79dc251de1dd2f39b6d912fb9
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # opam
 

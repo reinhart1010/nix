@@ -3,7 +3,7 @@ layout: page
 title: common/wget (한국어)
 description: "웹에서 파일을 다운로드합니다."
 content_hash: 63c5ead85b28aa6bf6a7e201dcf9e6b643787358
-last_modified_at: 2023-10-21
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/wget.html
@@ -20,11 +20,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/wget.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># wget
+# wget
 
 웹에서 파일을 다운로드합니다.
 HTTP, HTTPS 및 FTP를 지원합니다.

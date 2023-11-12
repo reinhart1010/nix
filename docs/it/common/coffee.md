@@ -3,6 +3,7 @@ layout: page
 title: common/coffee (italiano)
 description: "Esegui script CoffeScript o compilali in JavaScript."
 content_hash: 9e8cdbe52bda8d1c9b739e46585591f37d949b8f
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/coffee.html
@@ -10,6 +11,10 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/coffee.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/coffee.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # coffee
 

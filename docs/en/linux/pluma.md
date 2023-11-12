@@ -3,11 +3,10 @@ layout: page
 title: linux/pluma (English)
 description: "Edit files in MATE desktop environment."
 content_hash: b0fd701733ea64a0b76dedd7e5c5a37ce4cc9517
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pluma
+# pluma
 
 Edit files in MATE desktop environment.
 More information: <https://manned.org/pluma>.

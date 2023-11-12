@@ -3,10 +3,12 @@ layout: page
 title: common/rails-destroy (English)
 description: "Destroy Rails resources."
 content_hash: b4a2cb6144cc19f276c35c7ea941119f01478397
+last_modified_at: 2023-11-12
 related_topics:
   - title: Indonesia version
     url: /id/common/rails-destroy.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rails destroy
 

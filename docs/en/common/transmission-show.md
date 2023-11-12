@@ -3,11 +3,10 @@ layout: page
 title: common/transmission-show (English)
 description: "Get information about a torrent file."
 content_hash: 8e7f39fefd0e1326b017b9517ddac844eb1d28a3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># transmission-show
+# transmission-show
 
 Get information about a torrent file.
 See also: `transmission`.

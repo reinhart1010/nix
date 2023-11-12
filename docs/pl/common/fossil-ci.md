@@ -3,7 +3,7 @@ layout: page
 title: common/fossil-ci (polski)
 description: "To polecenie jest aliasem `fossil-commit`."
 content_hash: 344596945d97cbea8b145ba446c4a9ebcbed48b6
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-ci.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/fossil-ci.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fossil-ci
 

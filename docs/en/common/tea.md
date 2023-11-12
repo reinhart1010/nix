@@ -3,7 +3,8 @@ layout: page
 title: common/tea (English)
 description: "Interact with Gitea servers."
 content_hash: 8a97e3becfe5dbf6f64f2770e4ae8f60a6fd994e
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tea
 

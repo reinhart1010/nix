@@ -3,12 +3,10 @@ layout: page
 title: windows/tracert (English)
 description: "Receive information about each step in the route between your PC and the target."
 content_hash: 1c9cdb6e82df0fb11044e4295f96c8aa6902a2f6
-last_modified_at: 2023-04-14
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># tracert
+# tracert
 
 Receive information about each step in the route between your PC and the target.
 More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/tracert>.

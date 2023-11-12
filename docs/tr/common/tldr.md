@@ -3,6 +3,7 @@ layout: page
 title: common/tldr (Türkçe)
 description: "Komut satırı araçları için tldr-pages projesinden basit yardım sayfaları görüntüler."
 content_hash: 777c980fbb3ac65de3ffff55d4ab48a70f407c41
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
@@ -28,6 +29,9 @@ related_topics:
   - title: polski version
     url: /pl/common/tldr.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/tldr.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/common/tldr.html
     icon: bi bi-globe
@@ -46,6 +50,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/tldr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tldr
 

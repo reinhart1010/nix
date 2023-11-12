@@ -3,12 +3,14 @@ layout: page
 title: linux/sqfstar (polski)
 description: "Utwórz system plików squashfs z archiwum tar."
 content_hash: 361a6e6afd7543b41a70836448815945403bf821
-last_modified_at: 2023-05-09
+last_modified_at: 2023-11-12
+related_topics:
+  - title: English version
+    url: /en/linux/sqfstar.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># sqfstar
+# sqfstar
 
 Utwórz system plików squashfs z archiwum tar.
 Więcej informacji: <https://manned.org/sqfstar>.

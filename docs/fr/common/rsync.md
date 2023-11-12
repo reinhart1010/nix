@@ -3,7 +3,7 @@ layout: page
 title: common/rsync (français)
 description: "Transférer des fichiers vers ou depuis un hôte distant (pas entre deux hôtes distants)."
 content_hash: fae0a79421ac9a9917693549ba3bffaaf67ac967
-last_modified_at: 2023-08-07
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/rsync.html
@@ -11,12 +11,19 @@ related_topics:
   - title: Indonesia version
     url: /id/common/rsync.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/rsync.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/rsync.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/rsync.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/rsync.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rsync
 

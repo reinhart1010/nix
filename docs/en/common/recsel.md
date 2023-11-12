@@ -3,6 +3,8 @@ layout: page
 title: common/recsel (English)
 description: "Print records from a recfile: a human-editable, plain text database."
 content_hash: e7a18193b007572db5851eebb59b57fc302c0209
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # recsel
 

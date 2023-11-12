@@ -3,7 +3,7 @@ layout: page
 title: windows/iwr (Indonesia)
 description: "Perintah ini merupakan alias dari `Invoke-WebRequest` di PowerShell."
 content_hash: b1fdf137e88e29dc93b6b33b8d70d7f2e19714e7
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/iwr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # iwr
 

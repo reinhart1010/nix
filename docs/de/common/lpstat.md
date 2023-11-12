@@ -3,16 +3,14 @@ layout: page
 title: common/lpstat (Deutsch)
 description: "Zeige Statusinformationen von Druckern."
 content_hash: b44323b1ccac78f57628b90e9262c72e96b6a789
-last_modified_at: 2022-12-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/lpstat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># lpstat
+# lpstat
 
 Zeige Statusinformationen von Druckern.
 Weitere Informationen: <https://manned.org/lpstat>.

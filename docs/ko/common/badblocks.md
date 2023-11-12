@@ -3,6 +3,7 @@ layout: page
 title: common/badblocks (한국어)
 description: "불량 블록이 있는지 장치를 검사하십시오."
 content_hash: 6833ce4f9acfb1e0d9450da8b882e637ace3e422
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/badblocks.html
@@ -10,15 +11,10 @@ related_topics:
   - title: italiano version
     url: /it/common/badblocks.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/badblocks.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># badblocks
 

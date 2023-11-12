@@ -2,8 +2,8 @@
 layout: page
 title: linux/whatis (日本語)
 description: "マニュアルページから、一行の説明文を表示します。"
-content_hash: 927898628ca3d8fe9b6ddb64acce6f625d7b628d
-last_modified_at: 2023-11-06
+content_hash: 6218c6496ee1644e698e1f2e1154ef5ad3f76840
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/whatis.html
@@ -11,6 +11,7 @@ related_topics:
   - title: فارسی version
     url: /fa/linux/whatis.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # whatis
 
@@ -33,6 +34,6 @@ related_topics:
 
 `whatis --regex '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wish[0-9]\.[0-9]</span>`'`
 
-- 言語を指定して説明文で表示する (`manpage-`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ja</span> パッケージが必要です):
+- 言語を指定して説明文で表示する:
 
 `whatis --locale=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ja</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">コマンド</span>

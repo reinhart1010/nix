@@ -3,6 +3,8 @@ layout: page
 title: common/esptool.py (English)
 description: "Bootloader utility for Espressif chips (e.g. ESP8266)."
 content_hash: 392c9100861072aa34389b55da1cbfc9635fe28e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # esptool.py
 

@@ -3,6 +3,8 @@ layout: page
 title: common/ffe (English)
 description: "Extract fields from a flat database file and write to another format."
 content_hash: eba24c8f62369415868ad4b0f49eddbd91e595f7
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ffe
 

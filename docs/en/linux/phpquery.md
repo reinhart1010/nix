@@ -3,6 +3,8 @@ layout: page
 title: linux/phpquery (English)
 description: "PHP extension manager for Debian-based OSes."
 content_hash: 87591b4ff4abd3cc5797ac8b997d6da84d532199
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # phpquery
 

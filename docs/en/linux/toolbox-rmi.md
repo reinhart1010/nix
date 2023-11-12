@@ -3,11 +3,14 @@ layout: page
 title: linux/toolbox-rmi (English)
 description: "Remove one or more `toolbox` images."
 content_hash: f52577ffa68d3b4d01862a38530cb14f58174e2a
+last_modified_at: 2023-11-12
+related_topics:
+  - title: தமிழ் version
+    url: /ta/linux/toolbox-rmi.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># toolbox rmi
+# toolbox rmi
 
 Remove one or more `toolbox` images.
 See also: `toolbox rm`.

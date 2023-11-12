@@ -3,6 +3,7 @@ layout: page
 title: linux/zathura (português (Brasil))
 description: "Um visualizador de documentos modular e baseado em vim, com uma linha de comando integrada."
 content_hash: 04f289bf797e4f33ded68d93986a633e31415eb4
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/zathura.html
@@ -13,6 +14,7 @@ related_topics:
   - title: italiano version
     url: /it/linux/zathura.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # zathura
 

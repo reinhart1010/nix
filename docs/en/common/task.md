@@ -3,10 +3,12 @@ layout: page
 title: common/task (English)
 description: "Command-line to-do list manager."
 content_hash: 908553453b94dc012906748bb2e0a601281b289f
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/task.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # task
 

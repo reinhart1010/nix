@@ -3,6 +3,7 @@ layout: page
 title: common/dhcpwn (italiano)
 description: "Testa attacchi di esaurimento IP DHCP ed intercetta il traffico DHCP locale."
 content_hash: 745f66012ccd4bbc813e73b1d47bb65447bdbf3a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/dhcpwn.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/dhcpwn.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dhcpwn
 

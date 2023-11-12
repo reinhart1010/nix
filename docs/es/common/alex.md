@@ -3,7 +3,7 @@ layout: page
 title: common/alex (español)
 description: "Una herramienta que detecta escritura insensible y desconsiderada."
 content_hash: 9db99bd48326290f57c66660bd9593c9ebe57509
-last_modified_at: 2023-01-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/alex.html
@@ -17,14 +17,15 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/alex.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/alex.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/alex.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># alex
+# alex
 
 Una herramienta que detecta escritura insensible y desconsiderada.
 Ayuda a encontrar en el texto frases que son parciales con el género, que polarizan, o están relacionadas con la raza, son desconsideradas con la religión u otras frases tendenciosas.

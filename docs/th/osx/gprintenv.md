@@ -3,7 +3,7 @@ layout: page
 title: osx/gprintenv (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux printenv`"
 content_hash: 31d360af7a009a11822945ad4056f6172cc5521f
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gprintenv.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gprintenv.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gprintenv
 

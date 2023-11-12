@@ -3,7 +3,7 @@ layout: page
 title: common/asciinema (italiano)
 description: "Registra e riproduci sessioni di terminale, condividendole opzionalmente su asciiname.org."
 content_hash: 624868d4fda61367e8e7bed395456c9c9f36412c
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/asciinema.html
@@ -23,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/asciinema.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # asciinema
 

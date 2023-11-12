@@ -3,10 +3,12 @@ layout: page
 title: common/aws-secretsmanager (português (Brasil))
 description: "Armazena, gerencia, e obtem secrets."
 content_hash: 1357f67ac082b27b6a4093f1ea7650f9d8794807
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/aws-secretsmanager.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws secretsmanager
 

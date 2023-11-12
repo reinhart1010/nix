@@ -3,7 +3,12 @@ layout: page
 title: linux/sed (English)
 description: "Edit text in a scriptable manner."
 content_hash: 468701549d75a3eead13a2b58bdbef3dd95d97d7
-last_modified_at: 2023-03-12
+last_modified_at: 2023-11-12
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/linux/sed.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sed
 

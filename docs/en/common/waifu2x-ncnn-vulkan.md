@@ -3,12 +3,10 @@ layout: page
 title: common/waifu2x-ncnn-vulkan (English)
 description: "Image upscaler for manga/anime-style images using NCNN neural network framework."
 content_hash: 0c4e1a28987285e142af2be722495f7778edee7c
-last_modified_at: 2022-12-06
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># waifu2x-ncnn-vulkan
+# waifu2x-ncnn-vulkan
 
 Image upscaler for manga/anime-style images using NCNN neural network framework.
 More information: <https://github.com/nihui/waifu2x-ncnn-vulkan>.

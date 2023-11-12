@@ -3,7 +3,7 @@ layout: page
 title: sunos/devfsadm (français)
 description: "Commande d'administration pour `/dev`. Maintient le `/dev` espace de noms."
 content_hash: cda7052d08b635275db74d98f627698ecef43eaa
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/sunos/devfsadm.html
@@ -20,6 +20,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/sunos/devfsadm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # devfsadm
 

@@ -3,16 +3,14 @@ layout: page
 title: common/iverilog (தமிழ்)
 description: "வெரிலாக் HDL (IEEE-1364) குறியீட்டை உருவகப்படுத்துதலுக்காக இயங்கக்கூடிய நிரல்களாக முன்செயலாக்கி தொகுக்கிறது."
 content_hash: d339bd26845eb99c40dd0474f4afd6ce680f3f2f
-last_modified_at: 2022-12-01
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/iverilog.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># iverilog
+# iverilog
 
 வெரிலாக் HDL (IEEE-1364) குறியீட்டை உருவகப்படுத்துதலுக்காக இயங்கக்கூடிய நிரல்களாக முன்செயலாக்கி தொகுக்கிறது.
 மேலும் விவரத்திற்கு: <https://github.com/steveicarus/iverilog>.

@@ -3,10 +3,15 @@ layout: page
 title: linux/bitwise (中文)
 description: "支持动态基数转换和位操作的多基数交互式计算器。"
 content_hash: 282f951d2fcf301b46068430ef89e42090d591c4
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/bitwise.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/bitwise.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bitwise
 

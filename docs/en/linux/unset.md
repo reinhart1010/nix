@@ -3,6 +3,8 @@ layout: page
 title: linux/unset (English)
 description: "Remove shell variables or functions."
 content_hash: 35bf28ef8d0f04d95cc7a12a582dc198e54dafee
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # unset
 

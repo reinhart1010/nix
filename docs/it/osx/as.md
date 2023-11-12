@@ -3,6 +3,7 @@ layout: page
 title: osx/as (italiano)
 description: "Assembler GNU portabile."
 content_hash: 6cf17db989b55af0a0960413c6d7c0f6665b22c1
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/as.html
@@ -16,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/as.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # as
 

@@ -3,6 +3,8 @@ layout: page
 title: common/handbrakecli (English)
 description: "Command-line interface to the HandBrake video conversion and DVD ripping tool."
 content_hash: 3458ad5ff2a670d96ab3ac31ba11402552479195
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # handbrakecli
 

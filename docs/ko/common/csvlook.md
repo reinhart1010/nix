@@ -3,6 +3,7 @@ layout: page
 title: common/csvlook (한국어)
 description: "콘솔에서 csvkit에 포함된 CSV 파일을 고정 너비 테이블로 렌더링."
 content_hash: febf6b9a4332d9a9c63ea812cfcdaf36d3292339
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/csvlook.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/csvlook.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # csvlook
 

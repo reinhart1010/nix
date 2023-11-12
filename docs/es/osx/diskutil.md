@@ -3,7 +3,7 @@ layout: page
 title: osx/diskutil (español)
 description: "Utilidad para gestionar discos y volúmenes locales."
 content_hash: 6d29df84dcc1c8ebb8438d2f155c0338484e464d
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/osx/diskutil.html
@@ -20,11 +20,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/diskutil.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># diskutil
+# diskutil
 
 Utilidad para gestionar discos y volúmenes locales.
 Más información: <https://ss64.com/osx/diskutil.html>.

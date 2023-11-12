@@ -3,7 +3,7 @@ layout: page
 title: osx/gnumfmt (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux numfmt`"
 content_hash: 25f4351da28ef1dd1c6de72c2ac0dc19d0643e96
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gnumfmt.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gnumfmt.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gnumfmt
 

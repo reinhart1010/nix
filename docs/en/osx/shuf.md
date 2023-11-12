@@ -3,13 +3,18 @@ layout: page
 title: osx/shuf (English)
 description: "Generate random permutations."
 content_hash: d0dfc9979798054b5544e0630a9173f3014967fb
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/osx/shuf.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/osx/shuf.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/shuf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # shuf
 

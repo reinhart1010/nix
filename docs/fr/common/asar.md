@@ -3,9 +3,13 @@ layout: page
 title: common/asar (français)
 description: "Un outil d'archivage pour la plateforme Electron."
 content_hash: f4f3c1510e512f08e3c62e88e042d8bee1e99edd
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/asar.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/asar.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/asar.html
@@ -19,11 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/asar.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># asar
+# asar
 
 Un outil d'archivage pour la plateforme Electron.
 Plus d'informations : <https://github.com/electron/asar>.

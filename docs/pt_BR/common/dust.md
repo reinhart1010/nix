@@ -3,10 +3,15 @@ layout: page
 title: common/dust (português (Brasil))
 description: "Dust oferece uma visão geral de quais diretórios estão usando espaço em disco."
 content_hash: 73e03ee09a46daa278f6b3f6c1d381ca8749a984
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/dust.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/dust.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dust
 

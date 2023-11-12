@@ -3,11 +3,10 @@ layout: page
 title: common/transmission-daemon (English)
 description: "Daemon controlled with `transmission-remote` or its web interface."
 content_hash: 91e851e05ece7c2548d450b41632bc6047e91525
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># transmission-daemon
+# transmission-daemon
 
 Daemon controlled with `transmission-remote` or its web interface.
 See also: `transmission`.

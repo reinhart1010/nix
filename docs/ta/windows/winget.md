@@ -3,13 +3,16 @@ layout: page
 title: windows/winget (தமிழ்)
 description: "விண்டோஸ் தொகுப்பு மேலாளர் CLI."
 content_hash: babe07d526c42ab18fcfd4c8e64c60ab57840813
-last_modified_at: 2023-06-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/winget.html
     icon: bi bi-globe
   - title: English version
     url: /en/windows/winget.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/winget.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/windows/winget.html
@@ -23,11 +26,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/winget.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># winget
+# winget
 
 விண்டோஸ் தொகுப்பு மேலாளர் CLI.
 மேலும் விவரத்திற்கு: <https://learn.microsoft.com/windows/package-manager/winget>.

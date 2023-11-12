@@ -3,6 +3,7 @@ layout: page
 title: common/bmaptool (한국어)
 description: "블록 맵을 지능적으로 생성 및 복사( `cp` 혹은 `dd`보다 빠른 속도)."
 content_hash: 3db164b1f181291ab4de55cd0a9388e4d9e259b6
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/bmaptool.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/bmaptool.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bmaptool
 

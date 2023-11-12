@@ -3,6 +3,24 @@ layout: page
 title: common/adscript (English)
 description: "Compiler for Adscript files."
 content_hash: 273c162ce76f1d1d77c2cf1882727022d3c42ff0
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/adscript.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/adscript.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/adscript.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/adscript.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/adscript.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # adscript
 

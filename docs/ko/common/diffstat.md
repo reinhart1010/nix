@@ -3,6 +3,7 @@ layout: page
 title: common/diffstat (한국어)
 description: "`diff` 명령어의 결과로부터 히스토그램을 생성한다."
 content_hash: 3bf21d15e9b60acb1cd6efc02a9d9234c612deac
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/diffstat.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/diffstat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # diffstat
 

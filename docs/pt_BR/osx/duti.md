@@ -3,6 +3,7 @@ layout: page
 title: osx/duti (português (Brasil))
 description: "Define os aplicativos padrão para tipos de documentos e esquemas de URL no macOS."
 content_hash: b45776a0b681017af9a4c93b808026689eb04772
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/duti.html
@@ -10,11 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/duti.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># duti
+# duti
 
 Define os aplicativos padrão para tipos de documentos e esquemas de URL no macOS.
 Mais informações: <https://github.com/moretension/duti>.

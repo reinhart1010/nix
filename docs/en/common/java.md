@@ -3,10 +3,13 @@ layout: page
 title: common/java (English)
 description: "Java application launcher."
 content_hash: 33458bdeecadf32b6592b7063b77849d42110a12
-last_modified_at: 2023-06-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: Indonesia version
     url: /id/common/java.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/java.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/java.html
@@ -20,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/java.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # java
 

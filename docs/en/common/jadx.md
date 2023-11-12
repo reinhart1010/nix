@@ -3,6 +3,8 @@ layout: page
 title: common/jadx (English)
 description: "Dex to Java decompiler."
 content_hash: fb9dbe1a34036c97fe17480e36c52610947bb8dc
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # jadx
 

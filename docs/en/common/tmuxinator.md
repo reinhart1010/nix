@@ -3,6 +3,8 @@ layout: page
 title: common/tmuxinator (English)
 description: "Create and manage tmux sessions easily."
 content_hash: d980c92c16e25a542ef567db2fae688a78cb391d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tmuxinator
 

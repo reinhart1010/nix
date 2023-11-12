@@ -3,7 +3,8 @@ layout: page
 title: common/monodevelop (English)
 description: "Cross platform IDE for C#, F# and more."
 content_hash: 4239a22b9d082b31d1a0e43a2d6b1ebf39a7af25
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # monodevelop
 

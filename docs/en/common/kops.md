@@ -3,7 +3,8 @@ layout: page
 title: common/kops (English)
 description: "Create, destroy, upgrade and maintain Kubernetes clusters."
 content_hash: d42d761c5f14cb7a9d377813846976226df1496a
-last_modified_at: 2023-10-10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # kops
 

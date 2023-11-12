@@ -3,10 +3,13 @@ layout: page
 title: windows/explorer (English)
 description: "The Windows File Explorer."
 content_hash: 8a560c0ca6cd7910eeed92af80447203458e5005
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: Indonesia version
     url: /id/windows/explorer.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/explorer.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/explorer.html
@@ -20,6 +23,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/explorer.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # explorer
 

@@ -3,10 +3,12 @@ layout: page
 title: common/buzzphrase (한국어)
 description: "임의의 buzzphrase를 출력하는 Node.js 명령 줄 도구."
 content_hash: f5563fb83050890b89166e633e709aa7e3c5187d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/buzzphrase.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # buzzphrase
 

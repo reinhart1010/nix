@@ -3,13 +3,16 @@ layout: page
 title: windows/choco-info (தமிழ்)
 description: "சாக்லேட்டியுடன் கூடிய தொகுப்பு பற்றிய விரிவான தகவலைக் காண்பி."
 content_hash: e092040ac734c5b501549f752ac31612c812c148
-last_modified_at: 2022-12-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-info.html
     icon: bi bi-globe
   - title: English version
     url: /en/windows/choco-info.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/windows/choco-info.html
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/windows/choco-info.html
@@ -23,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/choco-info.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco info
 

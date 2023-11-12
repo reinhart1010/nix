@@ -3,8 +3,14 @@ layout: page
 title: windows/find (English)
 description: "Find a specified string in one or more files."
 content_hash: c82aebfe743dc472f90f4c74c83e42e497cc7810
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/find.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/find.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/windows/find.html
     icon: bi bi-globe
@@ -23,6 +29,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/find.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # find
 

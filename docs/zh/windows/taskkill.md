@@ -3,10 +3,15 @@ layout: page
 title: windows/taskkill (中文)
 description: "按进程 id 或进程名终止进程。"
 content_hash: eb8cc50145153ecf4e24cc94cb53736dc8798aa3
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/taskkill.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/windows/taskkill.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # taskkill
 

@@ -3,6 +3,7 @@ layout: page
 title: linux/aspell (മലയാളം)
 description: "ഒരു ഇന്ററാക്ടിവ് സ്പെൽ ചെക്കർ."
 content_hash: c551c70bb243f8e48c5c95912309ab3ef8b96a1d
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/aspell.html
@@ -13,9 +14,13 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/aspell.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/linux/aspell.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/aspell.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aspell
 

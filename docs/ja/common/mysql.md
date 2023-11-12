@@ -3,6 +3,7 @@ layout: page
 title: common/mysql (日本語)
 description: "MySQL のコマンドラインツールです。"
 content_hash: 78582cf341c8ab477a1f2134c6b95c1b80ec59c9
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/mysql.html
@@ -16,6 +17,10 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/mysql.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/mysql.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mysql
 

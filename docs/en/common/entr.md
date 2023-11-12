@@ -3,10 +3,15 @@ layout: page
 title: common/entr (English)
 description: "Run arbitrary commands when files change."
 content_hash: 3adc1d47907c4eee78026631cdb81b9a6bf51179
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/entr.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/entr.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # entr
 

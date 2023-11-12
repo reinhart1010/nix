@@ -3,11 +3,10 @@ layout: page
 title: common/gyb (English)
 description: "Command line tool for locally backing up Gmail messages using Gmail's API over HTTPS."
 content_hash: 38742fcc500fc6fe7d6b3b06fe33fa0b25583a0e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gyb
+# gyb
 
 Command line tool for locally backing up Gmail messages using Gmail's API over HTTPS.
 More information: <https://github.com/GAM-team/got-your-back>.

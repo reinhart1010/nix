@@ -3,6 +3,8 @@ layout: page
 title: common/evil-winrm (English)
 description: "Windows Remote Management (WinRM) shell for pentesting."
 content_hash: 65770c8ed97e3f0f0897300608617dd7e8dd0813
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # evil-winrm
 

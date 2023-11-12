@@ -3,10 +3,16 @@ layout: page
 title: windows/title (norsk)
 description: "Setter tittelen på Ledetekst vindu."
 content_hash: 3e3833e4905293e2cc5992beb75ce81d824194a3
-last_modified_at: 2023-02-08
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/title.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/title.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/title.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/title.html
@@ -17,11 +23,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/title.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># title
+# title
 
 Setter tittelen på Ledetekst vindu.
 Mer informasjon: <https://learn.microsoft.com/windows-server/administration/windows-commands/title>.

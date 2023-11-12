@@ -3,7 +3,7 @@ layout: page
 title: windows/cinst (नेपाली)
 description: "यो आदेश `choco install` को उपनाम हो |"
 content_hash: c1713ef0751eb8d698c335a4925b02bccc9b17d1
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/cinst.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/cinst.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cinst
 

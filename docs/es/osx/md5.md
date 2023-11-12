@@ -3,7 +3,7 @@ layout: page
 title: osx/md5 (español)
 description: "Calcula sumas de comprobación criptográficas MD5."
 content_hash: cce8f9635c609b142923e53213af70d56a0c41f0
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/osx/md5.html
@@ -14,11 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/md5.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># md5
+# md5
 
 Calcula sumas de comprobación criptográficas MD5.
 Más información: <https://ss64.com/osx/md5.html>.

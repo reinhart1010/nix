@@ -3,6 +3,7 @@ layout: page
 title: common/git-fetch (Deutsch)
 description: "Lade Objekte und Referenzen (refs) von einem entfernten Repository."
 content_hash: 9b993b2c9d1ec51900d128c275b2a8b564032287
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-fetch.html
@@ -16,6 +17,10 @@ related_topics:
   - title: italiano version
     url: /it/common/git-fetch.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-fetch.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git fetch
 

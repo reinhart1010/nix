@@ -3,7 +3,7 @@ layout: page
 title: common/virsh (한국어)
 description: "virsh 게스트 도메인을 관리합니다. (NOTE: 'guest_id'는 게스트의 아이디, 이름 또는 UUID일 수 있습니다)."
 content_hash: b5d75c530d3fa0718cecd21df20159efe90a1b1c
-last_modified_at: 2023-10-22
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/virsh.html
@@ -11,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/virsh.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # virsh
 

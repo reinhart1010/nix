@@ -3,6 +3,7 @@ layout: page
 title: common/consul-kv (한국어)
 description: "서비스 검색 기능과 상태 확인을 위한 분산된 키-값(key-value)쌍 저장."
 content_hash: 68af1865e1b7f1a4a410adfb6c4968718ea29093
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/consul-kv.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/consul-kv.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # consul-kv
 

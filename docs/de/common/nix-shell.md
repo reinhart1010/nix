@@ -3,11 +3,12 @@ layout: page
 title: common/nix-shell (Deutsch)
 description: "Startet eine interaktive Shell, die auf einem Nix-Ausdruck basiert."
 content_hash: 5913bff6d05f44a8223e857a98e7f4cc67724ba3
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/nix-shell.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nix-shell
 

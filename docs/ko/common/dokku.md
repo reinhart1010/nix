@@ -3,6 +3,7 @@ layout: page
 title: common/dokku (한국어)
 description: "도커로 구동되는 미니-Heroku (PaaS)."
 content_hash: e5964ee2d4a0071465121fb4b83083524cb37956
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/dokku.html
@@ -10,6 +11,10 @@ related_topics:
   - title: italiano version
     url: /it/common/dokku.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/dokku.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dokku
 

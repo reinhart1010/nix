@@ -3,7 +3,8 @@ layout: page
 title: common/az-version (English)
 description: "Shows the current version of Azure CLI modules and extensions."
 content_hash: ed065f126c12ef77e1c1e208c7a3521d558b2287
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # az version
 

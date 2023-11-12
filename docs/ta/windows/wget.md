@@ -3,7 +3,7 @@ layout: page
 title: windows/wget (தமிழ்)
 description: "PowerShell இல், அசல் `wget` நிரல் (<https://www.gnu.org/software/wget>) சரியாக நிறுவப்படாதபோது இந்தக் கட்டளை `Invoke-WebRequest` என்பதன் மாற்றுப் பெயராக இருக்கலாம்."
 content_hash: 3d0c9b28339944514e9473481a3f140ad09b89ec
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/wget.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/wget.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wget
 

@@ -3,6 +3,8 @@ layout: page
 title: common/qemu-img (English)
 description: "Tool for Quick Emulator Virtual HDD image creation and manipulation."
 content_hash: 5a91997ae494235d57bd5ff0daaa0954a473ba77
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # qemu-img
 

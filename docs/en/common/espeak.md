@@ -3,11 +3,12 @@ layout: page
 title: common/espeak (English)
 description: "Uses text-to-speech to speak through the default sound device."
 content_hash: e0f63a73c7e27413b87843c21d20ad358c200764
-last_modified_at: 2022-12-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/espeak.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # espeak
 

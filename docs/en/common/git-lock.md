@@ -3,6 +3,8 @@ layout: page
 title: common/git-lock (English)
 description: "Lock a file in a Git repository from being modified by a commit."
 content_hash: 81869108aabfc250c959f4aa4e7555247d712c97
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git lock
 

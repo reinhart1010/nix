@@ -3,11 +3,12 @@ layout: page
 title: common/az-tag (English)
 description: "Manage tags on a resource."
 content_hash: 1c9c94f6c8040a678763f3177e622f835b5be112
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/az-tag.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # az tag
 

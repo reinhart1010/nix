@@ -3,7 +3,7 @@ layout: page
 title: windows/choco-upgrade (français)
 description: "Surclassez un ou plusieurs forfaits avec Chocolatey."
 content_hash: 8187366a25a00c88215c29474fdb49baf3c43a59
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-upgrade.html
@@ -26,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/choco-upgrade.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco upgrade
 

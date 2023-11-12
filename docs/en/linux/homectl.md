@@ -3,6 +3,12 @@ layout: page
 title: linux/homectl (English)
 description: "Create, remove, change or inspect home directories using the systemd-homed service."
 content_hash: 54ccf5c4f5ece90afbd6eb5c64002c52c8a1030f
+last_modified_at: 2023-11-12
+related_topics:
+  - title: polski version
+    url: /pl/linux/homectl.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # homectl
 

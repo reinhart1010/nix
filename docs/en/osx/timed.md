@@ -3,6 +3,8 @@ layout: page
 title: osx/timed (English)
 description: "Service that synchronizes system time (e.g. using NTP)."
 content_hash: 1ef3a380c9c09cd2d7684ee82c6075bb850ccd78
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # timed
 

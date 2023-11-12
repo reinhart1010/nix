@@ -3,6 +3,8 @@ layout: page
 title: common/iotop (English)
 description: "Display a table of current I/O usage by processes or threads."
 content_hash: 775576eec92771611c2eccad8898e5bf990c440a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # iotop
 

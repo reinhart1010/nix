@@ -3,6 +3,7 @@ layout: page
 title: common/tty (svenska)
 description: "Returnerar terminalnamn."
 content_hash: 96c79dea04327786cad56985c1dc1a46a298ee54
+last_modified_at: 2023-11-12
 related_topics:
   - title: bosanski version
     url: /bs/common/tty.html
@@ -16,9 +17,13 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/tty.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/tty.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/tty.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tty
 

@@ -3,6 +3,12 @@ layout: page
 title: common/unar (English)
 description: "Extract contents from archive files."
 content_hash: 0f6fb72541a479fc8cf7f39df13c8979e3968d12
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 中文 version
+    url: /zh/common/unar.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # unar
 

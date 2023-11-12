@@ -3,6 +3,8 @@ layout: page
 title: common/hg-push (English)
 description: "Push changes from the local repository to a specified destination."
 content_hash: ec5abe6681ca0e237b6b154841a0e3a9527e5def
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # hg push
 

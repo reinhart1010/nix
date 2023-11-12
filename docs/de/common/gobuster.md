@@ -3,10 +3,12 @@ layout: page
 title: common/gobuster (Deutsch)
 description: "Findet versteckte Pfade auf Webservern und mehr."
 content_hash: 51ac165a3c1b5b3f2ec813163e77f4916efbbef9
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/gobuster.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gobuster
 

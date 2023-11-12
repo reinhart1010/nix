@@ -3,7 +3,8 @@ layout: page
 title: linux/fold (English)
 description: "Folds long lines for fixed-width output devices."
 content_hash: 484192b27f79b7536d266f6a501d3d22362ab456
-last_modified_at: 2023-07-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fold
 

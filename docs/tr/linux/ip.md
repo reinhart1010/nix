@@ -3,6 +3,7 @@ layout: page
 title: linux/ip (Türkçe)
 description: "Yönlendirmeyi, aygıtları, kural yönlendirmesini ve tünelleri görüntüle / değiştir."
 content_hash: e97c011ca7cb6380c5dd31fad3c22dc835eec670
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/ip.html
@@ -13,9 +14,13 @@ related_topics:
   - title: français version
     url: /fr/linux/ip.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/linux/ip.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/ip.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ip
 

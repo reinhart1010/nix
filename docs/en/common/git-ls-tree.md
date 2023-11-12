@@ -3,7 +3,7 @@ layout: page
 title: common/git-ls-tree (English)
 description: "List the contents of a tree object."
 content_hash: 7fa430e4f973e4de7415270cfc8871f39d61b252
-last_modified_at: 2023-10-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/git-ls-tree.html
@@ -17,6 +17,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-ls-tree.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git ls-tree
 

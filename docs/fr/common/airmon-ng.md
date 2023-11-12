@@ -3,9 +3,19 @@ layout: page
 title: common/airmon-ng (français)
 description: "Active le mode surveillance sur les appareils sans fils."
 content_hash: 0fa85276d3996648e1db27a376c87979a731e90f
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/airmon-ng.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/airmon-ng.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/airmon-ng.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/airmon-ng.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/airmon-ng.html
@@ -13,11 +23,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/airmon-ng.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/airmon-ng.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># airmon-ng
+# airmon-ng
 
 Active le mode surveillance sur les appareils sans fils.
 Plus d'informations : <https://www.aircrack-ng.org/doku.php?id=airmon-ng>.

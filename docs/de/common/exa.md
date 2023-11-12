@@ -3,6 +3,7 @@ layout: page
 title: common/exa (Deutsch)
 description: "Ein moderner Ersatz für `ls` (Verzeichnisinhalte auflisten)."
 content_hash: a4fc13a12b40f046721e9a06ac0aeeb36e682e90
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/exa.html
@@ -10,6 +11,10 @@ related_topics:
   - title: italiano version
     url: /it/common/exa.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/exa.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # exa
 

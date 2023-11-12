@@ -3,11 +3,12 @@ layout: page
 title: linux/gnome-extensions (தமிழ்)
 description: "டெர்மினலில் இருந்து க்னோம் நீட்டிப்புகளை நிர்வகிக்கவும்."
 content_hash: 00c6a1f97c267b10becf45efab4662fd715917b1
-last_modified_at: 2023-06-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/gnome-extensions.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gnome-extensions
 

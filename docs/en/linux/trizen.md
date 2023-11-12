@@ -3,6 +3,8 @@ layout: page
 title: linux/trizen (English)
 description: "Arch Linux utility for building packages from the Arch User Repository (AUR)."
 content_hash: 57ad4de75b19a6a20357a8d8c0b97d33913557e6
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # trizen
 

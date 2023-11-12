@@ -3,6 +3,8 @@ layout: page
 title: common/varnishlog (English)
 description: "Display Varnish logs."
 content_hash: 116024ad7a0cea0a15da9a6bda06cfd0d0887036
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # varnishlog
 

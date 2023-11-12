@@ -3,6 +3,8 @@ layout: page
 title: linux/startx (English)
 description: "The startx script is a front end to xinit that provides a nice user interface for running a single session of the X Window System."
 content_hash: 6a851a3610ef6f1289b162a63a838e79741492d1
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # startx
 

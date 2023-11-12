@@ -3,7 +3,7 @@ layout: page
 title: windows/exit (বাংলা)
 description: "বর্তমান CMD ইনস্ট্যান্স বা বর্তমান ব্যাচ ফাইল থেকে বাহির হোন।"
 content_hash: 930267a110428e60647777c7d146bce60b9037e9
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/exit.html
@@ -23,6 +23,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/exit.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # exit
 

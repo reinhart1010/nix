@@ -3,6 +3,8 @@ layout: page
 title: common/php-coveralls (English)
 description: "A PHP client for Coveralls."
 content_hash: 2c5ba15f221ff145f4d31defa721633932644080
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # php-coveralls
 

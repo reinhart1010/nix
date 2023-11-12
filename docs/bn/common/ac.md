@@ -3,7 +3,7 @@ layout: page
 title: common/ac (বাংলা)
 description: "ব্যবহারকারী কতক্ষণ সংযোগিত আছেন, সেই পরিস্থিতিগুলি প্রিন্ট করুন।"
 content_hash: a1324c221a1cc03734a424d6696661c5bc10d033
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ac.html
@@ -26,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ac.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ac
 

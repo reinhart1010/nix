@@ -3,11 +3,12 @@ layout: page
 title: common/copyq (한국어)
 description: "고급 기능을 갖춘 클립보드 매니저."
 content_hash: 501dc5312578c4ea7b568842eaa623924659c295
-last_modified_at: 2023-04-13
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/copyq.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # copyq
 

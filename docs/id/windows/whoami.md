@@ -3,6 +3,7 @@ layout: page
 title: windows/whoami (Indonesia)
 description: "Menampilkan detail informasi pengguna saat ini."
 content_hash: aa52944e8842987acdd3ed555191f9c27869502a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/whoami.html
@@ -10,14 +11,27 @@ related_topics:
   - title: français version
     url: /fr/windows/whoami.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/whoami.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/windows/whoami.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/whoami.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/whoami.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/windows/whoami.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# whoami
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># whoami
 
 Menampilkan detail informasi pengguna saat ini.
 Informasi lebih lanjut: <https://learn.microsoft.com/windows-server/administration/windows-commands/whoami>.

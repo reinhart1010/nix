@@ -3,7 +3,7 @@ layout: page
 title: android/bugreport (नेपाली)
 description: "एन्ड्रोइड बग रिपोर्ट देखाउनुहोस्।"
 content_hash: ae58e0c3c5f5f7296678bc471b2fcb9b7b18a616
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreport.html
@@ -68,6 +68,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/bugreport.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bugreport
 

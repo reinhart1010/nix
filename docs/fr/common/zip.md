@@ -3,6 +3,7 @@ layout: page
 title: common/zip (français)
 description: "Empaquette et compresse (archive) les fichiers en un fichier zip."
 content_hash: aaa3546837580267ed9d159242ee88911486ca61
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/zip.html
@@ -16,8 +17,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/zip.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# zip
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># zip
 
 Empaquette et compresse (archive) les fichiers en un fichier zip.
 Plus d'informations : <https://manned.org/zip>.

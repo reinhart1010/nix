@@ -3,6 +3,8 @@ layout: page
 title: osx/sntpd (English)
 description: "An SNTP server."
 content_hash: 0d8a239244fd9f01bd0b7ad667fef325429a184e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sntpd
 

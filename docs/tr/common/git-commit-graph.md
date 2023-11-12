@@ -3,6 +3,7 @@ layout: page
 title: common/git-commit-graph (Türkçe)
 description: "Git commit-graph dosyalarını yaz ve doğrula."
 content_hash: 9a683cf1f50cd024f4b6f9919030c7b622b22876
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-commit-graph.html
@@ -10,6 +11,7 @@ related_topics:
   - title: українська version
     url: /uk/common/git-commit-graph.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git commit-graph
 

@@ -3,10 +3,12 @@ layout: page
 title: linux/unix2dos (中文)
 description: "将 Unix 样式的行尾更改为 DOS 样式。"
 content_hash: c5fb2876a20c9135e650c024a12933f49537024c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/unix2dos.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # unix2dos
 

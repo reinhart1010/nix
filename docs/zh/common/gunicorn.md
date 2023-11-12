@@ -3,11 +3,12 @@ layout: page
 title: common/gunicorn (中文)
 description: "Python 的 WSGI http 服务器。"
 content_hash: f4b99e359e545d40efa01e41762395bac6d29880
-last_modified_at: 2023-05-02
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/gunicorn.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gunicorn
 

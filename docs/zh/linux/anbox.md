@@ -3,6 +3,7 @@ layout: page
 title: linux/anbox (中文)
 description: "在任何 GNU/Linux 操作系统上运行安卓应用。"
 content_hash: bb921e091029c72ff34a6cc6a3b7bbe2a3b52353
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/anbox.html
@@ -10,9 +11,13 @@ related_topics:
   - title: English version
     url: /en/linux/anbox.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/linux/anbox.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/anbox.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # anbox
 

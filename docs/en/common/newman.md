@@ -3,6 +3,8 @@ layout: page
 title: common/newman (English)
 description: "Collection runner for Postman."
 content_hash: adb137092abcad8bace8056227ecb6abbc6665de
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # newman
 

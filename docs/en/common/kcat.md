@@ -3,7 +3,8 @@ layout: page
 title: common/kcat (English)
 description: "Apache Kafka producer and consumer tool."
 content_hash: 582db6d01e846336c620aabe53d59ad5b5fd2841
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # kcat
 

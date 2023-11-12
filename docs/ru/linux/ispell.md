@@ -3,10 +3,12 @@ layout: page
 title: linux/ispell (русский)
 description: "Интерактивная проверка орфографии."
 content_hash: 4f3210d8bf7a67e673a99a8992f057b4c3fdbe11
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/ispell.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ispell
 

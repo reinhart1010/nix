@@ -3,6 +3,8 @@ layout: page
 title: linux/lshw (English)
 description: "List detailed information about hardware configurations as root user."
 content_hash: 9fe508a6175651a3a3f38e9eef6e27add3db9db1
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lshw
 

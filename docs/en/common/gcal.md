@@ -3,10 +3,12 @@ layout: page
 title: common/gcal (English)
 description: "Displays calendar."
 content_hash: b9109e6f7fc27bc81f3e0b20c0aac5c5fb5808ec
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/gcal.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gcal
 

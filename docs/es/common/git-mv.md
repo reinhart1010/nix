@@ -3,6 +3,7 @@ layout: page
 title: common/git-mv (español)
 description: "Mueve o renombra archivos y actualiza el índice Git."
 content_hash: 6e1ec27e61292370e7d62ed899b734091756ec35
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-mv.html
@@ -16,6 +17,10 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/git-mv.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-mv.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git mv
 

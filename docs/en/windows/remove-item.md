@@ -3,12 +3,14 @@ layout: page
 title: windows/remove-item (English)
 description: "Delete files, folders, as well as registry keys and subkeys."
 content_hash: 60ced6c7858631767ce8f7005cba622aae505e4d
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Nederlands version
+    url: /nl/windows/remove-item.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># Remove-Item
+# Remove-Item
 
 Delete files, folders, as well as registry keys and subkeys.
 This command can only be run through PowerShell.

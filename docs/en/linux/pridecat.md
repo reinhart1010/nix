@@ -3,7 +3,8 @@ layout: page
 title: linux/pridecat (English)
 description: "Like cat but more colorful :)."
 content_hash: b700793a1e43dec6900590fb193c8a208ad31926
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pridecat
 

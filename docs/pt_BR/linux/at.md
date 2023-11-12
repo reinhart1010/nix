@@ -3,22 +3,21 @@ layout: page
 title: linux/at (português (Brasil))
 description: "Executa comandos em um determinado momento."
 content_hash: b0857f9d9fa40ebe8b4851f39c1362b6bf2e5788
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/at.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/at.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/at.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/at.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># at
 

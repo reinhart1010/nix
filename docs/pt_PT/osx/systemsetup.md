@@ -3,6 +3,7 @@ layout: page
 title: osx/systemsetup (português (Portugal))
 description: "Configura as definições de Preferencias do Sistema da máquina."
 content_hash: 80fb9325a12e4cccd4f5b1fe60d89f332af9bf83
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/systemsetup.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/systemsetup.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # systemsetup
 

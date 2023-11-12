@@ -3,6 +3,7 @@ layout: page
 title: common/git-shortlog (italiano)
 description: "Riassume l'output di `git log`."
 content_hash: e1cc019da9c301c6ff4b0861fae43a18c28ad75a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-shortlog.html
@@ -13,6 +14,10 @@ related_topics:
   - title: français version
     url: /fr/common/git-shortlog.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-shortlog.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git shortlog
 

@@ -3,7 +3,7 @@ layout: page
 title: windows/choco-new (français)
 description: "Générez de nouveaux fichiers de spécifications de package avec Chocolatey."
 content_hash: f358f582c7fa463d770e49ad6bc9af8060422acc
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-new.html
@@ -20,6 +20,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/choco-new.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco new
 

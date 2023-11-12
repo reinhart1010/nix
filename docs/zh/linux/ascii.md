@@ -3,6 +3,7 @@ layout: page
 title: linux/ascii (中文)
 description: "显示 ASCII 字符的别名。"
 content_hash: 6368282d4d7abd3d29f2ef8e3bfcaf540d6d1d27
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/ascii.html
@@ -10,6 +11,13 @@ related_topics:
   - title: English version
     url: /en/linux/ascii.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/ascii.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/ascii.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ascii
 

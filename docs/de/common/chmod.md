@@ -3,12 +3,16 @@ layout: page
 title: common/chmod (Deutsch)
 description: "Ändere die Zugriffsberechtigungen einer Datei oder eines Verzeichnisses."
 content_hash: 080239e8e409f9728f07a78b1dbea322a0ddf2fc
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/chmod.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/chmod.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/chmod.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/chmod.html
@@ -21,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/chmod.html
+    icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/common/chmod.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/chmod.html
@@ -37,6 +44,10 @@ related_topics:
   - title: 中文 version
     url: /zh/common/chmod.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/chmod.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chmod
 

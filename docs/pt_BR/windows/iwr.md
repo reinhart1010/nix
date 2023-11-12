@@ -3,7 +3,7 @@ layout: page
 title: windows/iwr (português (Brasil))
 description: "Este comando é um pseudônimo de `invoke-webrequest`."
 content_hash: c8b0aa47d3265facb52a553263db6ea6ea4999e2
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/iwr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # iwr
 

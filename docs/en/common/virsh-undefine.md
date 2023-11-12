@@ -3,6 +3,15 @@ layout: page
 title: common/virsh-undefine (English)
 description: "Delete a virtual machine."
 content_hash: 460b107cb7b0e92989bd33809cdf5645679cbd0c
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/virsh-undefine.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/virsh-undefine.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # virsh-undefine
 

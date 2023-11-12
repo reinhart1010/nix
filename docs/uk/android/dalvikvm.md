@@ -3,7 +3,7 @@ layout: page
 title: android/dalvikvm (українська)
 description: "Віртуальна машина Android Java."
 content_hash: fe35b678d86587c4efeab2d1f5953985120740f3
-last_modified_at: 2023-10-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/dalvikvm.html
@@ -32,6 +32,9 @@ related_topics:
   - title: italiano version
     url: /it/android/dalvikvm.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/android/dalvikvm.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/android/dalvikvm.html
     icon: bi bi-globe
@@ -59,11 +62,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/dalvikvm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dalvikvm
+# dalvikvm
 
 Віртуальна машина Android Java.
 Більше інформації: <https://source.android.com/devices/tech/dalvik>.

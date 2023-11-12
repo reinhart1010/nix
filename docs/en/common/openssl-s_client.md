@@ -3,6 +3,8 @@ layout: page
 title: common/openssl-s_client (English)
 description: "OpenSSL command to create TLS client connections."
 content_hash: 0c5cffdda585932c867b103bc4353422aa221b31
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # openssl s_client
 

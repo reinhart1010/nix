@@ -3,6 +3,8 @@ layout: page
 title: common/dillo (English)
 description: "A lightweight web browser intended for slow computers."
 content_hash: b0058248717707ee23ab343424ef03c338a2b615
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dillo
 

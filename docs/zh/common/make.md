@@ -3,12 +3,20 @@ layout: page
 title: common/make (中文)
 description: "Makefile 文件描述目标的任务运行器。"
 content_hash: dce568fd2464807acd6e84fa1e2dd6f2f7053e87
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/make.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/make.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# make
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># make
 
 Makefile 文件描述目标的任务运行器。
 通常用于控制源代码中可执行文件的编译。

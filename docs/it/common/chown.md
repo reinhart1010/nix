@@ -3,6 +3,7 @@ layout: page
 title: common/chown (italiano)
 description: "Cambia utente e gruppo proprietario di file e directory."
 content_hash: 942b2117cb20e24d49c7799a7d28ca023e4f94ff
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/chown.html
@@ -12,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/chown.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/chown.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/chown.html
@@ -31,6 +35,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/chown.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chown
 

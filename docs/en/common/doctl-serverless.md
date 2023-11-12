@@ -3,11 +3,10 @@ layout: page
 title: common/doctl-serverless (English)
 description: "Manage serverless functions."
 content_hash: 40c22bc6cae6e17f1fff07aadf91b0ca3965ac18
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># doctl serverless
+# doctl serverless
 
 Manage serverless functions.
 More information: <https://docs.digitalocean.com/reference/doctl/reference/serverless/>.

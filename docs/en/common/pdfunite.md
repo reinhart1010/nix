@@ -3,6 +3,12 @@ layout: page
 title: common/pdfunite (English)
 description: "PDF merging utility."
 content_hash: 8bdf27dfe295d3684a08475c4d211e4d9794c7f5
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/pdfunite.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pdfunite
 

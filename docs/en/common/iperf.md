@@ -3,6 +3,8 @@ layout: page
 title: common/iperf (English)
 description: "Measure network bandwidth between computers."
 content_hash: d50f0ab9cd86b254d8eb1372b7eb2354baec5609
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # iperf
 

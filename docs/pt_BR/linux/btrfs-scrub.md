@@ -3,7 +3,7 @@ layout: page
 title: linux/btrfs-scrub (português (Brasil))
 description: "Varre os sistemas de arquivos btrfs para verificar a integridade dos dados."
 content_hash: d7c77b00a46b918b270885b4d9d2cd3824ee4cda
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/btrfs-scrub.html
@@ -14,11 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/btrfs-scrub.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># btrfs scrub
+# btrfs scrub
 
 Varre os sistemas de arquivos btrfs para verificar a integridade dos dados.
 Recomenda-se fazer uma varredura uma vez por mês.

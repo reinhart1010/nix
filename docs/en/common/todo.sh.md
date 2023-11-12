@@ -3,12 +3,10 @@ layout: page
 title: common/todo.sh (English)
 description: "Simple and extensible shell script for managing your `todo.txt` file."
 content_hash: 7e4580a4c02129510ae1fa7ff0a0c8715a99d1a7
-last_modified_at: 2023-09-27
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># todo.sh
+# todo.sh
 
 Simple and extensible shell script for managing your `todo.txt` file.
 More information: <https://github.com/todotxt/todo.txt-cli>.

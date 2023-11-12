@@ -3,12 +3,19 @@ layout: page
 title: windows/ipconfig (русский)
 description: "Отображение и управление сетевыми настройками Windows."
 content_hash: c8dd777cb2f70b76811ac88c35409382cc23841d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/ipconfig.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/ipconfig.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/windows/ipconfig.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/ipconfig.html
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/windows/ipconfig.html
@@ -19,6 +26,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/ipconfig.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.

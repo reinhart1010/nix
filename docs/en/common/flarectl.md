@@ -3,11 +3,10 @@ layout: page
 title: common/flarectl (English)
 description: "Official CLI for Cloudflare."
 content_hash: c6d216f97d7cdcb53fa6585882f98244a910e27e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># flarectl
+# flarectl
 
 Official CLI for Cloudflare.
 More information: <https://github.com/cloudflare/cloudflare-go/blob/master/cmd/flarectl/README.md>.

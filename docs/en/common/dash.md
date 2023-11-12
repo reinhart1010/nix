@@ -3,7 +3,7 @@ layout: page
 title: common/dash (English)
 description: "Debian Almquist Shell, a modern, POSIX-compliant implementation of `sh` (not Bash-compatible)."
 content_hash: 686f53618bee0828344c5524853959d883d389d8
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/dash.html
@@ -14,6 +14,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/dash.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dash
 

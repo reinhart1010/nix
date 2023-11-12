@@ -3,7 +3,8 @@ layout: page
 title: linux/dget (English)
 description: "Download Debian packages."
 content_hash: 7d8bba1e6f0e454a5727c19effa5d852ffe13566
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dget
 

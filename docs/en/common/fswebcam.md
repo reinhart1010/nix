@@ -3,6 +3,8 @@ layout: page
 title: common/fswebcam (English)
 description: "Small and simple webcam for *nix."
 content_hash: 1b03f1f233b7b32909618102ce36a0d47184dff2
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fswebcam
 

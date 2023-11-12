@@ -3,6 +3,7 @@ layout: page
 title: common/ffmpeg (português (Brasil))
 description: "Ferramenta de conversão de vídeo."
 content_hash: 8d1d2d764cc82b9d1feb9723ff512b3b64841e21
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ffmpeg.html
@@ -13,6 +14,10 @@ related_topics:
   - title: italiano version
     url: /it/common/ffmpeg.html
     icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/ffmpeg.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ffmpeg
 

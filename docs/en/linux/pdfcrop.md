@@ -3,12 +3,10 @@ layout: page
 title: linux/pdfcrop (English)
 description: "Detect and remove margins in each page in a PDF file."
 content_hash: 8e5b22789138ed6b3b02c6d784515b4946ea95e4
-last_modified_at: 2023-10-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pdfcrop
+# pdfcrop
 
 Detect and remove margins in each page in a PDF file.
 More information: <https://github.com/ho-tex/pdfcrop>.

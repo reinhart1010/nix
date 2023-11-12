@@ -3,11 +3,10 @@ layout: page
 title: linux/pacdiff (English)
 description: "Maintenance utility for `.pacorig`, `.pacnew` and `.pacsave` files created by `pacman`."
 content_hash: 05e27a4957b9fa76e6537938ebf5b4328faa6c2e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pacdiff
+# pacdiff
 
 Maintenance utility for `.pacorig`, `.pacnew` and `.pacsave` files created by `pacman`.
 More information: <https://man.archlinux.org/man/pacdiff>.

@@ -1,8 +1,9 @@
 ---
 layout: page
 title: common/tar (Deutsch)
-description: "Archivierungs Tool."
-content_hash: 65dc7eed18ab4a5f1d7342a7765eb2765ed8ef0c
+description: "Archivierungstool."
+content_hash: d5d71a7cdf1848bee173fafb8b1f9aa6a801e92e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/tar.html
@@ -22,13 +23,17 @@ related_topics:
   - title: русский version
     url: /ru/common/tar.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/tar.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/tar.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tar
 
-Archivierungs Tool.
+Archivierungstool.
 Häufig kombiniert mit anderen Methoden zur Komprimierung, wie gzip oder bzip2.
 Weitere Informationen: <https://www.gnu.org/software/tar>.
 
@@ -52,7 +57,7 @@ Weitere Informationen: <https://www.gnu.org/software/tar>.
 
 `tar xf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/quelle.tar</span>` -C `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">verzeichnis</span>
 
-- Erstelle ein komprimiertes Archiv und benutze den Archiv Suffix um die Kompressionsmethode zu wählen:
+- Erstelle ein komprimiertes Archiv und benutze den die Dateiendung des Archivs um die Kompressionsmethode zu wählen:
 
 `tar caf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ziel.tar.xz</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei3</span>
 

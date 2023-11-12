@@ -3,10 +3,12 @@ layout: page
 title: common/git-credential (Türkçe)
 description: "Kullanıcı kimlik bilgilerini kurtar ve sakla."
 content_hash: 108edaab8ac26a4dfc2bbb807f41826f3daf8406
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-credential.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git credential
 

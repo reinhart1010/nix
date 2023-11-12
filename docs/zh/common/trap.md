@@ -3,10 +3,12 @@ layout: page
 title: common/trap (中文)
 description: "在进程或操作系统接收到信号后自动执行命令。"
 content_hash: 4943c3e69046a11a56eb861e96281680e8a2c4b1
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/trap.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # trap
 

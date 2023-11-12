@@ -3,18 +3,20 @@ layout: page
 title: common/gh (français)
 description: "Travailler harmonieusement avec GitHub depuis la ligne de commande."
 content_hash: c3eb34c1448a290a018bfc62ebc7e1cded85dfb6
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/gh.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/gh.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/gh.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gh
+# gh
 
 Travailler harmonieusement avec GitHub depuis la ligne de commande.
 Certaines commandes comme `gh config` ont leur propre documentation.

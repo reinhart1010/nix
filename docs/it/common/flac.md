@@ -3,10 +3,12 @@ layout: page
 title: common/flac (italiano)
 description: "Codifica, decodifica e controlla file flac."
 content_hash: 50b1a578ae11c2e78d2892a984398d17da49b61d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/flac.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # flac
 

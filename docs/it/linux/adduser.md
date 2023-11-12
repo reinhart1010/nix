@@ -3,6 +3,7 @@ layout: page
 title: linux/adduser (italiano)
 description: "Servizio per aggiungere utenti."
 content_hash: d8bb9f5e1317a7443e5bb6602f00ed9fc5f47d50
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/adduser.html
@@ -10,21 +11,28 @@ related_topics:
   - title: English version
     url: /en/linux/adduser.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/adduser.html
+    icon: bi bi-globe
+  - title: suomi version
+    url: /fi/linux/adduser.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/adduser.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/adduser.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/adduser.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/adduser.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/adduser.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># adduser
 

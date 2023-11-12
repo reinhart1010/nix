@@ -3,7 +3,7 @@ layout: page
 title: linux/acpi (polski)
 description: "Wyśwetl status baterii lub informacje dotyczące temperatury."
 content_hash: 82614305f7976d56d9946906d6cedf40e8482108
-last_modified_at: 2023-10-23
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/acpi.html
@@ -26,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/acpi.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # acpi
 

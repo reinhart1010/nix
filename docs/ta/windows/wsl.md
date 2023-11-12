@@ -3,7 +3,7 @@ layout: page
 title: windows/wsl (தமிழ்)
 description: "லினக்ஸிற்கான விண்டோஸ் துணை அமைப்பை கட்டளை வரியிலிருந்து நிர்வகிக்கவும்."
 content_hash: f2318f36becf8f9693c1a0eeb75b38b9d8ae86dc
-last_modified_at: 2023-07-18
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/wsl.html
@@ -17,11 +17,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/wsl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># wsl
+# wsl
 
 லினக்ஸிற்கான விண்டோஸ் துணை அமைப்பை கட்டளை வரியிலிருந்து நிர்வகிக்கவும்.
 மேலும் விவரத்திற்கு: <https://learn.microsoft.com/windows/wsl/reference>.

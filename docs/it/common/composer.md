@@ -3,22 +3,24 @@ layout: page
 title: common/composer (italiano)
 description: "Un gestore di dipendenze a pacchetti per progetti PHP."
 content_hash: a020ea8725eba8f279f8b7b089373d5725308a5b
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/composer.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/composer.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/composer.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/composer.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/composer.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># composer
 

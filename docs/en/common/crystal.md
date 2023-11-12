@@ -3,14 +3,18 @@ layout: page
 title: common/crystal (English)
 description: "Tool for managing Crystal source code."
 content_hash: b12cbb31c1837d01465dd775ef604247132fd136
-last_modified_at: 2023-10-08
+last_modified_at: 2023-11-12
 related_topics:
+  - title: français version
+    url: /fr/common/crystal.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/crystal.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/crystal.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # crystal
 

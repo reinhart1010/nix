@@ -3,22 +3,24 @@ layout: page
 title: common/sudo (polski)
 description: "Wykonuje pojedyncze polecenie jako superuser lub inny użytkownik."
 content_hash: 2e2606ac42a19a4fe11beecd6482fcd1c06cf689
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/sudo.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/sudo.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/sudo.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/sudo.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/sudo.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># sudo
 

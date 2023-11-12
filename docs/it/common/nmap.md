@@ -3,16 +3,24 @@ layout: page
 title: common/nmap (italiano)
 description: "Nmap è un tool per port scanning ed esplorazione di rete."
 content_hash: e7121a8b72d3b143c656d629474bb462d6747503
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/nmap.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/nmap.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/nmap.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/nmap.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/nmap.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nmap
 

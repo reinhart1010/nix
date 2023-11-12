@@ -3,11 +3,15 @@ layout: page
 title: windows/choice (English)
 description: "Prompt user to select a choice and return the selected choice index."
 content_hash: 67221db8113f14d217fa398bc8de9ee5a6434d3d
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/choice.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/windows/choice.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choice
 

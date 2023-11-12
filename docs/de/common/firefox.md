@@ -3,6 +3,7 @@ layout: page
 title: common/firefox (Deutsch)
 description: "Ein gratis Open Source Internet Browser."
 content_hash: be0154b86d300df57ebeb3feb2a6748cb559f131
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/firefox.html
@@ -10,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/firefox.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # firefox
 

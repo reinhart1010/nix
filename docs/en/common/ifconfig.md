@@ -3,10 +3,15 @@ layout: page
 title: common/ifconfig (English)
 description: "Network Interface Configurator."
 content_hash: 43576d96114665670cdf17d1b4a02e571fc1a100
+last_modified_at: 2023-11-12
 related_topics:
+  - title: فارسی version
+    url: /fa/common/ifconfig.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/ifconfig.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ifconfig
 

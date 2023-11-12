@@ -3,6 +3,7 @@ layout: page
 title: common/git-bundle (français)
 description: "Empaquetez des objets et des références dans une archive."
 content_hash: 1a698725f12e40c017d21bd1686463d0f34deb82
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-bundle.html
@@ -13,6 +14,10 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/git-bundle.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-bundle.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git bundle
 

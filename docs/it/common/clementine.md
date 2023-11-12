@@ -3,6 +3,7 @@ layout: page
 title: common/clementine (italiano)
 description: "Un moderno player e gestore di librerie musicali."
 content_hash: 9050a0bd5f166fcb270a988cc1c490a79f11bbd1
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/clementine.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/clementine.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # clementine
 

@@ -3,7 +3,8 @@ layout: page
 title: common/react-native (English)
 description: "A framework for building native apps with React."
 content_hash: 20231c088a1db5de10dab0b8d59203a5051b6838
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # react-native
 

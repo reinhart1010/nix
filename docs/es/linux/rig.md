@@ -3,10 +3,15 @@ layout: page
 title: linux/rig (español)
 description: "Utilidad para generar un nombre, apellido, calle y número, junto a ubicación geográfica consistente (un conjunto válido de ciudad, estado y código postal)."
 content_hash: 888400b070e116fc568f65899bce8e31ac8c62b8
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/rig.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/rig.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rig
 

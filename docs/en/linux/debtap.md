@@ -3,11 +3,10 @@ layout: page
 title: linux/debtap (English)
 description: "Convert Debian packages into Arch Linux packages."
 content_hash: 2f2ac3da83845dc5d02d98cae3da06f228d08f49
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># debtap
+# debtap
 
 Convert Debian packages into Arch Linux packages.
 See also: `pacman-upgrade`.

@@ -3,7 +3,7 @@ layout: page
 title: common/git (English)
 description: "Distributed version control system."
 content_hash: 179d31c1383ce629e3f7937a498b2a648a03d686
-last_modified_at: 2023-09-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
@@ -50,6 +50,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/git.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git
 

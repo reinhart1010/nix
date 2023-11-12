@@ -3,6 +3,8 @@ layout: page
 title: common/idnits (English)
 description: "Check internet-drafts for submission nits."
 content_hash: 74ebcee38856fb7dfbc04077a1a467c43b0f1f18
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # idnits
 

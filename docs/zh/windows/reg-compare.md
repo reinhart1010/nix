@@ -3,10 +3,12 @@ layout: page
 title: windows/reg-compare (中文)
 description: "比较注册表中的键和值。"
 content_hash: c72253701b8638a8c20ec289956ab2b6b0cb90b7
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/reg-compare.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # reg compare
 

@@ -3,7 +3,8 @@ layout: page
 title: windows/virtualboxvm (English)
 description: "Manage VirtualBox virtual machines."
 content_hash: d50dee2a7e130558ac90f439c626cf2dc826bb1e
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # virtualboxvm
 

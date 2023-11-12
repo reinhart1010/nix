@@ -3,6 +3,7 @@ layout: page
 title: common/ssh (français)
 description: "Secure Shell est un protocole utilisé pour se connecter de façon sécurisée à des systèmes distants."
 content_hash: 03c3cf695491ed52675931ea1dc9f13007717978
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ssh.html
@@ -13,6 +14,13 @@ related_topics:
   - title: हिन्दी version
     url: /hi/common/ssh.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/ssh.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/ssh.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ssh
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/reptyr (English)
 description: "Move a running process to a new terminal."
 content_hash: a22ae12c7e8cf545e71f524862ea5b028044b479
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # reptyr
 

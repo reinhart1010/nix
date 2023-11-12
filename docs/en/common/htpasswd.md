@@ -3,6 +3,12 @@ layout: page
 title: common/htpasswd (English)
 description: "Create and manage htpasswd files to protect web server directories using basic authentication."
 content_hash: 58ab11b15dd6f31b8041918676631939deb1e55f
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/htpasswd.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # htpasswd
 

@@ -3,7 +3,7 @@ layout: page
 title: linux/adduser (suomi)
 description: "Käyttäjän lisäysapuohjelma."
 content_hash: fe682fe9be32e4f191a1c513f4367be168b704db
-last_modified_at: 2023-10-27
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/adduser.html
@@ -29,6 +29,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/adduser.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # adduser
 

@@ -3,7 +3,7 @@ layout: page
 title: common/python (English)
 description: "Python language interpreter."
 content_hash: d949784b98d0095d78eda18a5d7e571e8cb30ecb
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: Indonesia version
     url: /id/common/python.html
@@ -17,6 +17,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/python.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # python
 

@@ -3,7 +3,8 @@ layout: page
 title: common/rmlint (English)
 description: "Find space waste and other broken things on your filesystem."
 content_hash: 58146b239819d68cce751620bce1e02ab7e8b73d
-last_modified_at: 2023-10-28
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rmlint
 

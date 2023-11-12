@@ -3,7 +3,7 @@ layout: page
 title: osx/gcp (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux cp`"
 content_hash: ebb14218435c4d1233eb43044a63427ce68c8dfb
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gcp.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gcp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gcp
 

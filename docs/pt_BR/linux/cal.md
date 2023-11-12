@@ -3,7 +3,11 @@ layout: page
 title: linux/cal (português (Brasil))
 description: "Exibe as informações do calendário, destacando o dia atual."
 content_hash: d4d60c8f4e22f77f2841c0ae7c1b6f22c3575ebf
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/cal.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/cal.html
     icon: bi bi-globe
@@ -13,12 +17,19 @@ related_topics:
   - title: español version
     url: /es/linux/cal.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/cal.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/cal.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/cal.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/cal.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cal
 

@@ -3,7 +3,11 @@ layout: page
 title: common/asdf (English)
 description: "Command-line interface for managing versions of different packages."
 content_hash: 3e726550ddbbbf54236a9ffc281cb28821ff3ffd
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/asdf.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/asdf.html
     icon: bi bi-globe
@@ -22,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/asdf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # asdf
 

@@ -3,6 +3,8 @@ layout: page
 title: common/pixiecore (English)
 description: "Tool to manage the network booting of machines."
 content_hash: a1b370c87e91c6f30626aeaccf5dc022c921fd3a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pixiecore
 

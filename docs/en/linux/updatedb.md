@@ -3,6 +3,8 @@ layout: page
 title: linux/updatedb (English)
 description: "Create or update the database used by `locate`."
 content_hash: bc226495f348b518344613eb600c7a4ceb89f7bc
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # updatedb
 

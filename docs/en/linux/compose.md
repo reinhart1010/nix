@@ -3,6 +3,8 @@ layout: page
 title: linux/compose (English)
 description: "An alias to a `run-mailcap`'s action compose."
 content_hash: 4138f1094ef5123ec68af69bd060dbf725a302f0
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # compose
 

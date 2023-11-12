@@ -3,6 +3,7 @@ layout: page
 title: common/docker-network (Türkçe)
 description: "Docker ağları oluştur ve yönet."
 content_hash: 39ad621c891bc2d853b66bb24f69c66c06836ce4
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-network.html
@@ -16,6 +17,10 @@ related_topics:
   - title: italiano version
     url: /it/common/docker-network.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/docker-network.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker network
 

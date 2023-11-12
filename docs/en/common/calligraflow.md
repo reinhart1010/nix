@@ -3,12 +3,10 @@ layout: page
 title: common/calligraflow (English)
 description: "Calligra's flowchart and diagram application."
 content_hash: b5ce7a524ee3ce5bb6efadf88f9c6e2d35b5a748
-last_modified_at: 2022-12-01
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># calligraflow
+# calligraflow
 
 Calligra's flowchart and diagram application.
 See also: `calligrastage`, `calligrawords`, `calligrasheets`.

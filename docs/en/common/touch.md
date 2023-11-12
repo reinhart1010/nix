@@ -3,7 +3,7 @@ layout: page
 title: common/touch (English)
 description: "Create files and set access/modification times."
 content_hash: 530c8cedbf62f052269f89bc4bef74b5db164ecf
-last_modified_at: 2022-12-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/common/touch.html
@@ -26,6 +26,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/touch.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # touch
 

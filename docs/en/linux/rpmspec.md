@@ -3,6 +3,8 @@ layout: page
 title: linux/rpmspec (English)
 description: "Query a RPM spec file."
 content_hash: 28a18be028be6f8ca69bd5d894ac0f47212c2bf1
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rpmspec
 

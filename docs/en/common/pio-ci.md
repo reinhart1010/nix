@@ -3,6 +3,8 @@ layout: page
 title: common/pio-ci (English)
 description: "Build PlatformIO projects with an arbitrary source code structure."
 content_hash: ebecb3ddf46dda252ce59fa64bfc1c83ecbf9ce8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pio ci
 

@@ -3,6 +3,8 @@ layout: page
 title: common/rc (English)
 description: "A modern simplistic port listener & reverse shell."
 content_hash: 28011d849c7304d0182ec434c6783fba8342d64c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rc
 

@@ -3,7 +3,7 @@ layout: page
 title: android/wm (فارسی)
 description: "نمایش اطلاعات مربوط به صفحه نمایش یک دستگاه اندروید."
 content_hash: 0b64db280b26a4fcf67e475cb57b020430e35f44
-last_modified_at: 2023-09-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/wm.html
@@ -20,11 +20,17 @@ related_topics:
   - title: français version
     url: /fr/android/wm.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/android/wm.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/wm.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/wm.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/android/wm.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/android/wm.html
@@ -44,17 +50,18 @@ related_topics:
   - title: Türkçe version
     url: /tr/android/wm.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/android/wm.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/android/wm.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/wm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># wm
+# wm
 
 نمایش اطلاعات مربوط به صفحه نمایش یک دستگاه اندروید.
 این دستور فقط از طریق `adb shell` قابل اجراست.

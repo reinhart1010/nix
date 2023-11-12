@@ -3,6 +3,8 @@ layout: page
 title: common/grumphp (English)
 description: "A PHP Composer plugin that enables source code quality checks."
 content_hash: 55388afb1e79a4ce6568918c2ec46ed3d59a11f9
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # grumphp
 

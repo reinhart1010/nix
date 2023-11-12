@@ -3,6 +3,8 @@ layout: page
 title: common/ybacklight (English)
 description: "Manage screen backlight brightness. See also `xbacklight`."
 content_hash: 989ecc3338fe9d95669161851e50fd3fe9cff6d8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ybacklight
 

@@ -3,6 +3,7 @@ layout: page
 title: osx/systemsetup (中文)
 description: "配置系统首选项计算机设置。"
 content_hash: 714ec58672675b60e07a5c341e53201b870522b8
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/systemsetup.html
@@ -10,6 +11,7 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/osx/systemsetup.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # systemsetup
 

@@ -3,6 +3,7 @@ layout: page
 title: windows/choco-uninstall (中文)
 description: "使用 Chocolatey 卸载一个或多个包。"
 content_hash: 0b5651c1a0160ae510d74d7b250b66dfec72cd3b
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-uninstall.html
@@ -10,9 +11,19 @@ related_topics:
   - title: English version
     url: /en/windows/choco-uninstall.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/windows/choco-uninstall.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/windows/choco-uninstall.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/choco-uninstall.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/choco-uninstall.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco uninstall
 

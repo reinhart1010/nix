@@ -3,9 +3,13 @@ layout: page
 title: linux/asciiart (Deutsch)
 description: "Konvertiere Bilder zu ASCII."
 content_hash: b24c4ee44a9741a969cac99091dd96485e98865b
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/asciiart.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/asciiart.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/asciiart.html
@@ -16,6 +20,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/asciiart.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # asciiart
 

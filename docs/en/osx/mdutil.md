@@ -3,10 +3,12 @@ layout: page
 title: osx/mdutil (English)
 description: "Manage the metadata stores used by Spotlight for indexing."
 content_hash: e90d2a436b7bf61122310a456d30be66f8b64218
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/osx/mdutil.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mdutil
 

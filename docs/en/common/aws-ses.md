@@ -3,6 +3,12 @@ layout: page
 title: common/aws-ses (English)
 description: "CLI for AWS Simple Email Service."
 content_hash: fb22970ceaca601dd99b47e4aaa298e0ff6a94bd
+last_modified_at: 2023-11-12
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/common/aws-ses.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws ses
 

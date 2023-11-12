@@ -3,13 +3,18 @@ layout: page
 title: common/ssh-add (français)
 description: "Gère les clés SSH enregistrées dans l'agent SSH `ssh-agent`."
 content_hash: c592bbcf05569c3d05ff73b33beee0359c88e385
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ssh-add.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/ssh-add.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/ssh-add.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ssh-add
 

@@ -3,6 +3,8 @@ layout: page
 title: common/optipng (English)
 description: "PNG file optimization utility."
 content_hash: 39df17d5b38ab85088f833e4ef7420fc13ad55c1
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # optipng
 

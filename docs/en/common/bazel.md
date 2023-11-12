@@ -3,11 +3,10 @@ layout: page
 title: common/bazel (English)
 description: "Open-source build and test tool similar to Make, Maven, and Gradle."
 content_hash: 31f60002f26cb9c85b1053c6879b97208028eba5
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bazel
+# bazel
 
 Open-source build and test tool similar to Make, Maven, and Gradle.
 More information: <https://bazel.build/reference/command-line-reference>.

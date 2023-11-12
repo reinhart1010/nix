@@ -3,7 +3,8 @@ layout: page
 title: common/gh-pr-create (English)
 description: "Manage GitHub pull requests."
 content_hash: c8c6a0787099eba1bbb79172fab941183cb8c571
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gh pr create
 

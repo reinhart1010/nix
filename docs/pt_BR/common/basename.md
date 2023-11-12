@@ -3,6 +3,7 @@ layout: page
 title: common/basename (português (Brasil))
 description: "Remove o prefixo de um caminho."
 content_hash: b179d32408adf2c00a199a82d22830f79dbbf2d0
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/basename.html
@@ -25,11 +26,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/basename.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># basename
+# basename
 
 Remove o prefixo de um caminho.
 Mais informações: <https://www.gnu.org/software/coreutils/basename>.

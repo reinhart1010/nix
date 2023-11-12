@@ -3,6 +3,7 @@ layout: page
 title: common/git-grep (français)
 description: "Rechercher une occurrence de texte n'importe où dans l'historique d'un dépôt git."
 content_hash: b31e20dba9fb8d38ef2fb8282a3906c6cd093bb3
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-grep.html
@@ -13,6 +14,10 @@ related_topics:
   - title: italiano version
     url: /it/common/git-grep.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-grep.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git-grep
 

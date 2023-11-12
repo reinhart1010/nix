@@ -3,7 +3,7 @@ layout: page
 title: common/espanso (English)
 description: "Cross-platform Text Expander written in Rust."
 content_hash: cdafed480f99834971e06765cd6824649c830e2e
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/espanso.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/espanso.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # espanso
 

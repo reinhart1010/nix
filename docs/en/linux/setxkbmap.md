@@ -3,6 +3,8 @@ layout: page
 title: linux/setxkbmap (English)
 description: "Set the keyboard using the X Keyboard Extension."
 content_hash: e0091f7b4d2805d9ff7b30e0d278bc893462b770
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # setxkbmap
 

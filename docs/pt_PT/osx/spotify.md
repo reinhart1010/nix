@@ -3,6 +3,7 @@ layout: page
 title: osx/spotify (português (Portugal))
 description: "Interface de linha de comando para Spotify."
 content_hash: 160e1ffbfb0e684e616e4c4e37105aa150942e5d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/spotify.html
@@ -10,6 +11,7 @@ related_topics:
   - title: español version
     url: /es/osx/spotify.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # spotify
 

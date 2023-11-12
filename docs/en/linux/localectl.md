@@ -3,6 +3,12 @@ layout: page
 title: linux/localectl (English)
 description: "Control the system locale and keyboard layout settings."
 content_hash: c43969e25c30b2ad0ff1069960bef6df98faf1bd
+last_modified_at: 2023-11-12
+related_topics:
+  - title: polski version
+    url: /pl/linux/localectl.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # localectl
 

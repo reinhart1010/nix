@@ -3,6 +3,7 @@ layout: page
 title: windows/choco-source (中文)
 description: "使用 Chocolatey 管理包的源。"
 content_hash: 8bd0b5172045d9d8d8c4a09781f2ec368e1772b4
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-source.html
@@ -10,9 +11,19 @@ related_topics:
   - title: English version
     url: /en/windows/choco-source.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/choco-source.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/windows/choco-source.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/choco-source.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/choco-source.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco source
 

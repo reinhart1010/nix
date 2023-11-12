@@ -3,10 +3,19 @@ layout: page
 title: windows/mkdir (한국어)
 description: "이 명령은 디렉터리를 생성합니다."
 content_hash: 18149858ded127e4e2b5ab45168c1a8263abcf78
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/mkdir.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/mkdir.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/windows/mkdir.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/mkdir.html
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/windows/mkdir.html
@@ -20,6 +29,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/mkdir.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.

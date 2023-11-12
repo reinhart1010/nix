@@ -3,10 +3,12 @@ layout: page
 title: common/yapf (Nederlands)
 description: "Python stijlgidschecker."
 content_hash: 06f8aef5f6df4328a7af98dd2ff1564a6bc2778b
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/yapf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # yapf
 

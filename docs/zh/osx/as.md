@@ -3,6 +3,7 @@ layout: page
 title: osx/as (中文)
 description: "便携式 GNU 汇编程序。"
 content_hash: ca57bae7db94eecfe7ac8eee6781b0afde4ed836
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/as.html
@@ -13,6 +14,10 @@ related_topics:
   - title: italiano version
     url: /it/osx/as.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/as.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # as
 

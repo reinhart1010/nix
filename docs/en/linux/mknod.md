@@ -3,6 +3,8 @@ layout: page
 title: linux/mknod (English)
 description: "Create block or character device special files."
 content_hash: 3701bce486606a1d7079a65389f109edc65a9196
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mknod
 

@@ -3,11 +3,12 @@ layout: page
 title: linux/toolbox-help (தமிழ்)
 description: "`toolbox` பற்றிய உதவித் தகவலைக் காட்டுகிறது."
 content_hash: f0d8e661d78134293c19fdf419f175c0be1fc99c
-last_modified_at: 2023-06-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/toolbox-help.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # toolbox help
 

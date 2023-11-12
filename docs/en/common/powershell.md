@@ -3,10 +3,21 @@ layout: page
 title: common/powershell (English)
 description: "Command-line shell and scripting language designed especially for system administration."
 content_hash: 72550ede8d5b17a87a6306e53b7fb512ae9ecf25
+last_modified_at: 2023-11-12
 related_topics:
+  - title: français version
+    url: /fr/common/powershell.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/common/powershell.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/powershell.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/powershell.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # powershell
 

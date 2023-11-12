@@ -3,6 +3,7 @@ layout: page
 title: windows/scoop-bucket (中文)
 description: "管理 bucket: 包含描述 scoop 应如何安装应用程序的文件的 Git 存储库。"
 content_hash: 30930b79eaa89a724c6b3afe5749290ca4822629
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/scoop-bucket.html
@@ -13,6 +14,7 @@ related_topics:
   - title: Indonesia version
     url: /id/windows/scoop-bucket.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # scoop bucket
 

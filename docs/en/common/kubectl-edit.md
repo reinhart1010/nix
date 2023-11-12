@@ -3,12 +3,10 @@ layout: page
 title: common/kubectl-edit (English)
 description: "Edit Kubernetes resources."
 content_hash: adc82d0a856c6ff099d534f9bc482c3b768ffab3
-last_modified_at: 2023-05-10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># kubectl edit
+# kubectl edit
 
 Edit Kubernetes resources.
 More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#edit>.

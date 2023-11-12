@@ -3,16 +3,17 @@ layout: page
 title: linux/parted (українська)
 description: "Програма для роботи з розділами."
 content_hash: a7c9cd431a7740c9eb9534dae30fce1e1c905e50
-last_modified_at: 2023-10-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/parted.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/parted.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># parted
+# parted
 
 Програма для роботи з розділами.
 Дивіться також: `partprobe`.

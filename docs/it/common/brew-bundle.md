@@ -3,6 +3,7 @@ layout: page
 title: common/brew-bundle (italiano)
 description: "Bundler per Homebrew, Homebrew Cask e per il Mac App Store."
 content_hash: 91516a2e783a8986dcf8653bbdc466e494dd3f77
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/brew-bundle.html
@@ -10,6 +11,10 @@ related_topics:
   - title: English version
     url: /en/common/brew-bundle.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/brew-bundle.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # brew bundle
 

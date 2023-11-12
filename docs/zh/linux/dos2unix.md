@@ -3,6 +3,7 @@ layout: page
 title: linux/dos2unix (中文)
 description: "将 DOS 样式的行尾更改为 Unix 样式。"
 content_hash: 87fcfe8490ad7a0ffa5ea3ebbaf45b59dc31b652
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/dos2unix.html
@@ -13,6 +14,7 @@ related_topics:
   - title: español version
     url: /es/linux/dos2unix.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dos2unix
 

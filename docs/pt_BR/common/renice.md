@@ -3,15 +3,14 @@ layout: page
 title: common/renice (português (Brasil))
 description: "Altera a prioridade/agradabilidade de agendamento de um ou mais processos em execução."
 content_hash: 726a95beb0c2d9d52b9bc49ece6b452444c16f90
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/renice.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># renice
+# renice
 
 Altera a prioridade/agradabilidade de agendamento de um ou mais processos em execução.
 Os valores de agradabilidade variam de -20 (mais favorável ao processo) a 19 (menos favorável ao processo).

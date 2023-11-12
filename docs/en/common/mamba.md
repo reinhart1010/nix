@@ -3,11 +3,10 @@ layout: page
 title: common/mamba (English)
 description: "Fast, cross-platform package manager, intended as a drop-in replacement for conda."
 content_hash: 19c2d481a971aac42700b54fdc6c1beb88d64bb4
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mamba
+# mamba
 
 Fast, cross-platform package manager, intended as a drop-in replacement for conda.
 Some subcommands such as `mamba repoquery` have their own usage documentation.

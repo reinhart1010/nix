@@ -3,16 +3,14 @@ layout: page
 title: common/aws-ses (português (Brasil))
 description: "Interface de linha de comando para o AWS Simple Email Service."
 content_hash: 0a4e27863a37c65ddad39aa95b0c14e950f73b12
-last_modified_at: 2023-10-12
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/aws-ses.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws ses
+# aws ses
 
 Interface de linha de comando para o AWS Simple Email Service.
 Serviço em nuvem com alta performance para envio e recebimento de emails.

@@ -3,7 +3,7 @@ layout: page
 title: windows/choco-outdated (français)
 description: "Vérifiez les packages obsolètes avec Chocolatey."
 content_hash: b01af09d8d1f80ccb98079bb18c03b7f4c205ed0
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-outdated.html
@@ -20,6 +20,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/choco-outdated.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco outdated
 

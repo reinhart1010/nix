@@ -3,6 +3,8 @@ layout: page
 title: common/dvc-unfreeze (English)
 description: "Unfreeze stages in the DVC pipeline."
 content_hash: a6ad33caf5809f148d3c23506d7592fe4beb1cad
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dvc unfreeze
 

@@ -3,6 +3,7 @@ layout: page
 title: common/file (中文)
 description: "确定文件类型。"
 content_hash: 8a8eba4603c5015a0516305affef2518a58db1a9
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/file.html
@@ -13,6 +14,7 @@ related_topics:
   - title: italiano version
     url: /it/common/file.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # file
 

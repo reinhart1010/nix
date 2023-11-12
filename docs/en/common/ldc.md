@@ -3,7 +3,8 @@ layout: page
 title: common/ldc (English)
 description: "D compiler using LLVM as a backend."
 content_hash: 70c13c01e36ffc0449d4ff2d70b5e6684440e834
-last_modified_at: 2023-10-30
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ldc
 

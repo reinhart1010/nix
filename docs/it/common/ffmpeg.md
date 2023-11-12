@@ -3,6 +3,7 @@ layout: page
 title: common/ffmpeg (italiano)
 description: "Tool per convertire audio e video."
 content_hash: a9371d4ddf4402b5021f33953a5c590d4f3bd062
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ffmpeg.html
@@ -10,9 +11,13 @@ related_topics:
   - title: English version
     url: /en/common/ffmpeg.html
     icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/ffmpeg.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/ffmpeg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ffmpeg
 

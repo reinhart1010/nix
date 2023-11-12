@@ -3,9 +3,13 @@ layout: page
 title: common/docker-machine (Deutsch)
 description: "Erstelle und verwalte Maschinen, die Docker ausführen."
 content_hash: bd98b04b3da42426ece0174196487fa679d49219
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/docker-machine.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/docker-machine.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/docker-machine.html
@@ -13,9 +17,13 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/docker-machine.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/docker-machine.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/docker-machine.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker-machine
 

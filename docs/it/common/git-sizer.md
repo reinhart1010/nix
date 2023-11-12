@@ -3,6 +3,7 @@ layout: page
 title: common/git-sizer (italiano)
 description: "Calcola varie metriche dimensionali su repository Git e avvisa quando i loro valori rilevano problematicità."
 content_hash: 33f7f8bc5c1fabb77338dd5413c3e028509f5da5
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-sizer.html
@@ -13,6 +14,10 @@ related_topics:
   - title: français version
     url: /fr/common/git-sizer.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-sizer.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git sizer
 

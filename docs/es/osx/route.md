@@ -3,7 +3,7 @@ layout: page
 title: osx/route (español)
 description: "Manipula manualmente las tablas de enrutamiento."
 content_hash: 8055d205e0c632efc7be96edd8e4f40c0d6b4956
-last_modified_at: 2023-10-19
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/route.html
@@ -14,11 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/route.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># route
+# route
 
 Manipula manualmente las tablas de enrutamiento.
 Necesita ser root.

@@ -3,7 +3,7 @@ layout: page
 title: common/case (中文)
 description: "case ... esac 与其他语言中的 switch ... case 语句类似，是一种多分枝选择结构。"
 content_hash: cf150e43adf29bc0fe7e369b916c74b91946997d
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/case.html
@@ -14,6 +14,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/case.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # case
 

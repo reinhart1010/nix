@@ -3,7 +3,8 @@ layout: page
 title: common/mail (English)
 description: "The command operates on the user's mailbox if no argument is given."
 content_hash: 82baa0095ef584d47e857d8fb3b6e918b7fc84de
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mail
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/timeshift (English)
 description: "System restore utility."
 content_hash: c63baa272dca0af332d0ff9e509e9c67db2f3b1d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # timeshift
 

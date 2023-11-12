@@ -3,11 +3,10 @@ layout: page
 title: linux/qm-resume (English)
 description: "Resume a virtual machine."
 content_hash: f9fbd7ea4135d9f00a004a1c990be9c4ff4f5e3f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># qm resume
+# qm resume
 
 Resume a virtual machine.
 More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.

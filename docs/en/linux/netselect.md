@@ -3,6 +3,8 @@ layout: page
 title: linux/netselect (English)
 description: "Speed test for choosing a fast network server."
 content_hash: ef8f46dfecc8b016a81753b79132370986fc0d09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # netselect
 

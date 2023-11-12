@@ -3,11 +3,15 @@ layout: page
 title: common/esbuild (português (Brasil))
 description: "Empacotador e minificador JavaScript construído para velocidade."
 content_hash: dd41f2422a82cd7190b416afb52e03de57b945d4
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/esbuild.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/esbuild.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # esbuild
 

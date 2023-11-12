@@ -3,15 +3,23 @@ layout: page
 title: linux/usermod (español)
 description: "Modifica una cuenta de usuario."
 content_hash: fbf0995f94a882711141cae52539b98df33efe7b
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/usermod.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/usermod.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/usermod.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# usermod
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># usermod
 
 Modifica una cuenta de usuario.
 Más información: <https://manned.org/usermod>.

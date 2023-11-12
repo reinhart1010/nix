@@ -3,11 +3,10 @@ layout: page
 title: common/comby (English)
 description: "Tool for structural code search and replace that supports many languages."
 content_hash: b61e094e9d96530cb05bcceda00f3b7070c17973
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># comby
+# comby
 
 Tool for structural code search and replace that supports many languages.
 More information: <https://github.com/comby-tools/comby>.

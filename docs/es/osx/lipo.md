@@ -3,16 +3,14 @@ layout: page
 title: osx/lipo (español)
 description: "Herramienta para el manejo de binarios universales Mach-O."
 content_hash: 19252de081c0e4804f7ea708601f57bd369a80dd
-last_modified_at: 2023-07-25
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/lipo.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># lipo
+# lipo
 
 Herramienta para el manejo de binarios universales Mach-O.
 Más información: <https://ss64.com/osx/lipo.html>.

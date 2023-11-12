@@ -3,6 +3,7 @@ layout: page
 title: common/docker-swarm (Türkçe)
 description: "Bir konteyner orkestrasyon aracı."
 content_hash: 038a385efeed5cee4b5803047b1f76399047ebd9
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-swarm.html
@@ -13,6 +14,10 @@ related_topics:
   - title: français version
     url: /fr/common/docker-swarm.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/docker-swarm.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker swarm
 

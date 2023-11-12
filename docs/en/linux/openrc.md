@@ -3,6 +3,8 @@ layout: page
 title: linux/openrc (English)
 description: "The OpenRC service manager."
 content_hash: 62729feaed52e38270be6bde46aa040c133f0f3b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # openrc
 

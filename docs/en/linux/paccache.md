@@ -3,6 +3,8 @@ layout: page
 title: linux/paccache (English)
 description: "A pacman cache cleaning utility."
 content_hash: 56a15a2c57dfb7e970addb06189b81a266375bf1
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # paccache
 

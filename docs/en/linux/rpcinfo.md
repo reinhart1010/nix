@@ -3,6 +3,8 @@ layout: page
 title: linux/rpcinfo (English)
 description: "Makes an RPC call to an RPC server and reports what it finds."
 content_hash: 7b82aaeeacbb9a8979088bc425683c668106eee0
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rpcinfo
 

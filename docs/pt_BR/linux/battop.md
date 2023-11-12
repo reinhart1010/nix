@@ -3,15 +3,14 @@ layout: page
 title: linux/battop (português (Brasil))
 description: "Um visualizador interativo para as baterias instaladas no seu notebook."
 content_hash: c7ff4bedfc2e88a85a17aa89df45e11f5a9168b7
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/battop.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># battop
+# battop
 
 Um visualizador interativo para as baterias instaladas no seu notebook.
 Mais informações: <https://github.com/svartalf/rust-battop>.

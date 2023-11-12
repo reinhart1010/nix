@@ -3,7 +3,7 @@ layout: page
 title: common/a2ping (Nederlands)
 description: "Converteer afbeeldingen in EPS- of PDF-bestanden."
 content_hash: 43f39682c8e840981be91472307977d25d20ed3f
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/common/a2ping.html
@@ -17,11 +17,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/a2ping.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># a2ping
+# a2ping
 
 Converteer afbeeldingen in EPS- of PDF-bestanden.
 Meer informatie: <https://manned.org/a2ping>.

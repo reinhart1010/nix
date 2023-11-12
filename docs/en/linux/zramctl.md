@@ -3,6 +3,15 @@ layout: page
 title: linux/zramctl (English)
 description: "Setup and control zram devices."
 content_hash: 1d09726a8d4deb446eab03444cad64e8bebd166f
+last_modified_at: 2023-11-12
+related_topics:
+  - title: polski version
+    url: /pl/linux/zramctl.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/zramctl.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # zramctl
 

@@ -3,11 +3,15 @@ layout: page
 title: common/docker-volume (français)
 description: "Gérer les volumes de Docker."
 content_hash: 70c2e29730fa64d5332b705d97614a9db4e93f00
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/docker-volume.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/docker-volume.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker volume
 

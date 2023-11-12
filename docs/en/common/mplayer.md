@@ -3,6 +3,8 @@ layout: page
 title: common/mplayer (English)
 description: "Cross-platform multimedia player."
 content_hash: 75947baf7988444352508d8b4965da2f13b5db00
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mplayer
 

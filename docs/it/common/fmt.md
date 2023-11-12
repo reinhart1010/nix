@@ -3,6 +3,7 @@ layout: page
 title: common/fmt (italiano)
 description: "Riformatta i paragrafi di un file di testo unendoli e limitando la larghezza delle righe a un dato numero di caratteri (di default 75)."
 content_hash: 9655416c7c85282da37845442bb55117e567103b
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/fmt.html
@@ -10,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/fmt.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fmt
 

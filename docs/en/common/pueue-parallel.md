@@ -3,6 +3,8 @@ layout: page
 title: common/pueue-parallel (English)
 description: "Set the amount of allowed parallel tasks."
 content_hash: 3c1e05de5220e7cc9d7db02f11e144d42e3491e3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pueue parallel
 

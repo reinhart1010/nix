@@ -3,6 +3,7 @@ layout: page
 title: common/git-cherry-pick (தமிழ்)
 description: "தற்போதுள்ள கமிட்டுகளால் அறிமுகப்படுத்தப்பட்ட மாற்றங்களை தற்போதைய கிளையில் பயன்படுத்துங்கள்."
 content_hash: 5256ab88ef9b34566b85fd38f283bce765ced0ea
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/common/git-cherry-pick.html
@@ -19,9 +20,13 @@ related_topics:
   - title: italiano version
     url: /it/common/git-cherry-pick.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-cherry-pick.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-cherry-pick.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git cherry-pick
 

@@ -3,6 +3,8 @@ layout: page
 title: common/nm (English)
 description: "List symbol names in object files."
 content_hash: 02a5e43cba5259afbb3acde20e580a8abda05d8c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # nm
 

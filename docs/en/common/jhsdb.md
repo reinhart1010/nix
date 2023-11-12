@@ -3,6 +3,8 @@ layout: page
 title: common/jhsdb (English)
 description: "Attach to a Java process or launch a postmortem debugger to analyze the core dump from a crashed Java Virtual Machine."
 content_hash: 01061522d7bcec4b2ed6a672864cbe67ddbf9bb6
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # jhsdb
 

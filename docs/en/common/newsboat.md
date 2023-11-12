@@ -3,11 +3,12 @@ layout: page
 title: common/newsboat (English)
 description: "An RSS/Atom feed reader for text terminals."
 content_hash: 859a1639962733bea3769e63bf8b62e9a564bf0d
-last_modified_at: 2023-06-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/newsboat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # newsboat
 

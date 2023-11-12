@@ -3,12 +3,10 @@ layout: page
 title: common/nping (English)
 description: "Network packet generation tool/ping utility."
 content_hash: 2dc1d8e328d31389a564b74ddadc4ab5538c642e
-last_modified_at: 2023-07-12
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># nping
+# nping
 
 Network packet generation tool/ping utility.
 More information: <https://nmap.org/nping/>.

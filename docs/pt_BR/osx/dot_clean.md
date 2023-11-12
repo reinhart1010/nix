@@ -3,15 +3,17 @@ layout: page
 title: osx/dot_clean (português (Brasil))
 description: "Mescla ._* arquivos com arquivos nativos correspondentes."
 content_hash: 77bbe9e37d16c443c0e3b60f986f87d7dbfb6150
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/dot_clean.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/dot_clean.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dot_clean
+# dot_clean
 
 Mescla ._* arquivos com arquivos nativos correspondentes.
 Mais informações: <https://ss64.com/osx/dot_clean.html>.

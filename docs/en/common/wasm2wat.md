@@ -3,6 +3,8 @@ layout: page
 title: common/wasm2wat (English)
 description: "Convert a file from the WebAssembly binary format to the text format."
 content_hash: a45e065eb3665aece7e7dbc4fea92a3eb78f583b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # wasm2wat
 

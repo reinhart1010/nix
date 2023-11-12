@@ -3,11 +3,10 @@ layout: page
 title: common/xidel (English)
 description: "Download and extract data from HTML/XML pages as well as JSON APIs."
 content_hash: 3e8b87b09ae192f46a0cfdc970e3c4c3a7c96459
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># xidel
+# xidel
 
 Download and extract data from HTML/XML pages as well as JSON APIs.
 More information: <https://www.videlibri.de/xidel.html>.

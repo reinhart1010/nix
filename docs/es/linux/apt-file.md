@@ -3,7 +3,11 @@ layout: page
 title: linux/apt-file (español)
 description: "Busca archivos en paquetes apt, incluyendo los que aún no fueron instalados."
 content_hash: 2b4112f2b01f7c2ee7aa359fe55825cf9bef9e3d
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/apt-file.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/apt-file.html
     icon: bi bi-globe
@@ -16,21 +20,19 @@ related_topics:
   - title: italiano version
     url: /it/linux/apt-file.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/apt-file.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/apt-file.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apt-file.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/apt-file.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># apt-file
 

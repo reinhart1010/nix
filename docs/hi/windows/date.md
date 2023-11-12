@@ -3,7 +3,7 @@ layout: page
 title: windows/date (हिन्दी)
 description: "सिस्टम दिनांक प्रदर्शित या सेट करता है।"
 content_hash: 0f27d15fe77e878abdec71fa8a309898a4aa9a3a
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/windows/date.html
@@ -17,6 +17,7 @@ related_topics:
   - title: italiano version
     url: /it/windows/date.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # date
 

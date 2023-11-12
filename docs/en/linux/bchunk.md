@@ -3,12 +3,10 @@ layout: page
 title: linux/bchunk (English)
 description: "Convert CD images to a set of `.iso` and `.cdr` tracks."
 content_hash: ded1cf9496983f5728d026118ede4c4ffd76c620
-last_modified_at: 2023-06-18
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bchunk
+# bchunk
 
 Convert CD images to a set of `.iso` and `.cdr` tracks.
 More information: <http://he.fi/bchunk>.

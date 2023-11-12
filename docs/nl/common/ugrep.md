@@ -3,7 +3,7 @@ layout: page
 title: common/ugrep (Nederlands)
 description: "Ultrasnelle bestandszoeker met interactive UI."
 content_hash: 00fc750c7dfa32dde831e5e677fc41ea1f2bfa66
-last_modified_at: 2023-11-02
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ugrep.html
@@ -11,6 +11,7 @@ related_topics:
   - title: English version
     url: /en/common/ugrep.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ugrep
 

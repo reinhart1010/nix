@@ -3,6 +3,8 @@ layout: page
 title: common/in2csv (English)
 description: "Converts various tabular data formats into CSV."
 content_hash: fec6b126e416fe9ed772f6c864031961d0cf5d98
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # in2csv
 

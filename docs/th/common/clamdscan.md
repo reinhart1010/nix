@@ -3,11 +3,15 @@ layout: page
 title: common/clamdscan (ไทย)
 description: "โปรแกรมแสกนหาไวรัสบนคอมมานด์ไลน์ โดยใช้โปรแกรมพื้นหลัง ClamAV"
 content_hash: 16fb90fba5ee5b13185e8a0c74270678850c89c6
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/clamdscan.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/clamdscan.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # clamdscan
 

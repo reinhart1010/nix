@@ -3,7 +3,7 @@ layout: page
 title: osx/ghostname (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux hostname`"
 content_hash: 6393da8c3d86906db0f3c98174035dad805e516e
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/ghostname.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/ghostname.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ghostname
 

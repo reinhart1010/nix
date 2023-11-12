@@ -3,6 +3,7 @@ layout: page
 title: common/aws-kinesis (português (Brasil))
 description: "CLI oficial da AWS para o serviço de streamin de dados Amazon Kinesis."
 content_hash: fb874848e964ab0c90cdb6ef3893a0391cbd5965
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-kinesis.html
@@ -10,14 +11,15 @@ related_topics:
   - title: English version
     url: /en/common/aws-kinesis.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/aws-kinesis.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/aws-kinesis.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws kinesis
+# aws kinesis
 
 CLI oficial da AWS para o serviço de streamin de dados Amazon Kinesis.
 Mais informações: <https://docs.aws.amazon.com/cli/latest/reference/kinesis/index.html#cli-aws-kinesis>.

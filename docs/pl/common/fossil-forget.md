@@ -3,7 +3,7 @@ layout: page
 title: common/fossil-forget (polski)
 description: "To polecenie jest aliasem `fossil rm`."
 content_hash: a7729e6554e1a98c12f28931f1e9ae2994d746da
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-forget.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/fossil-forget.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fossil-forget
 

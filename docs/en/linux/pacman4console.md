@@ -3,6 +3,12 @@ layout: page
 title: linux/pacman4console (English)
 description: "A text-based console game inspired by the original Pacman."
 content_hash: 711f918a2355888cc08dda0300d5459b98cca852
+last_modified_at: 2023-11-12
+related_topics:
+  - title: தமிழ் version
+    url: /ta/linux/pacman4console.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pacman4console
 

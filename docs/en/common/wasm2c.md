@@ -3,6 +3,8 @@ layout: page
 title: common/wasm2c (English)
 description: "Convert a file from the WebAssembly binary format to a C source file and header."
 content_hash: 8dd765a2d8da25fe8253ad3e01597fafca7cea39
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # wasm2c
 

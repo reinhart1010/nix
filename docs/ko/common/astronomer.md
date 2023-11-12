@@ -3,9 +3,16 @@ layout: page
 title: common/astronomer (한국어)
 description: "GitHub 프로젝트의 봇 계정에서 불법적인 star를 탐지하는 도구."
 content_hash: 3b39f888ce8ca3cbe9f10c3d35059747ae2dcb24
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/astronomer.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/astronomer.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/astronomer.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/astronomer.html
@@ -13,6 +20,7 @@ related_topics:
   - title: polski version
     url: /pl/common/astronomer.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # astronomer
 

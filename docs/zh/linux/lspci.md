@@ -3,7 +3,7 @@ layout: page
 title: linux/lspci (中文)
 description: "列出所有 PCI 设备。"
 content_hash: 52fa4464bc57c4018a4ef58d296870c7cf278409
-last_modified_at: 2023-10-27
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/lspci.html
@@ -11,6 +11,7 @@ related_topics:
   - title: русский version
     url: /ru/linux/lspci.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lspci
 

@@ -3,6 +3,7 @@ layout: page
 title: common/ssh-copy-id (English)
 description: "Install your public key in a remote machine's authorized_keys."
 content_hash: 14b30d38ab4b5749ac063a233ffbf4ea3a3fc912
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ssh-copy-id.html
@@ -10,6 +11,10 @@ related_topics:
   - title: français version
     url: /fr/common/ssh-copy-id.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/ssh-copy-id.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ssh-copy-id
 

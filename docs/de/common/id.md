@@ -3,6 +3,7 @@ layout: page
 title: common/id (Deutsch)
 description: "Zeige den aktuellen Benutzer und dessen Gruppenzugehörigkeit an."
 content_hash: a47e11a5e20afd59eb98ef4cb48f4af557aaf948
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/id.html
@@ -10,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/id.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # id
 

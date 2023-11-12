@@ -3,14 +3,21 @@ layout: page
 title: common/anki (中文)
 description: "强大、智能的记忆卡片软件。"
 content_hash: 36a518d8e994a58f188dbf32c8529567b6180afa
-last_modified_at: 2023-04-10
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/anki.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/anki.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/anki.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/anki.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # anki
 

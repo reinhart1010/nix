@@ -3,13 +3,21 @@ layout: page
 title: osx/date (English)
 description: "Set or display the system date."
 content_hash: 3f4cbdbd7a71dde2357f34f7b7a7fd0d7153e96d
+last_modified_at: 2023-11-12
 related_topics:
   - title: Indonesia version
     url: /id/osx/date.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/osx/date.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/date.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/date.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # date
 

@@ -3,7 +3,7 @@ layout: page
 title: osx/du (español)
 description: "Uso del disco: estima y resume el uso del espacio de archivos y directorios."
 content_hash: d35de9c75981ce891be291f488d83af869eb9884
-last_modified_at: 2023-10-21
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/du.html
@@ -20,11 +20,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/du.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># du
+# du
 
 Uso del disco: estima y resume el uso del espacio de archivos y directorios.
 Más información: <https://ss64.com/osx/du.html>.

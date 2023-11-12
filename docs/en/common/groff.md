@@ -3,6 +3,8 @@ layout: page
 title: common/groff (English)
 description: "GNU replacement for the `troff` and `nroff` typesetting utilities."
 content_hash: fd73539ead9a4070a02e3bd3d14a28524be2f58f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # groff
 

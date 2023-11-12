@@ -3,6 +3,8 @@ layout: page
 title: linux/inxi (English)
 description: "Print a summary of system information and resources for debugging purposes."
 content_hash: 834ba1d559c5c25323456e4a46c9a48f33447f36
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # inxi
 

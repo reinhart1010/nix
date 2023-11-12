@@ -3,6 +3,7 @@ layout: page
 title: common/git-grep (Türkçe)
 description: "Belirtilen söz dizisini bir deponun geçmişi dahil tüm dosyalarında ara."
 content_hash: 8ee92e9db67eb8c4719ca19320fff454a44ec6c1
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-grep.html
@@ -16,6 +17,7 @@ related_topics:
   - title: italiano version
     url: /it/common/git-grep.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git-grep
 

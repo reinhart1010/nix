@@ -3,13 +3,18 @@ layout: page
 title: osx/cal (Indonesia)
 description: "Menampilkan informasi kalender."
 content_hash: ec2c27b1009e95b2465f2bda8f19d7c8e059b946
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/cal.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/cal.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/cal.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cal
 

@@ -3,7 +3,7 @@ layout: page
 title: common/az-config (Deutsch)
 description: "Verwalten der Azure CLI-Konfiguration."
 content_hash: 735120d2cb3f3f2854339550e5b78f78a19ff271
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/az-config.html
@@ -11,6 +11,7 @@ related_topics:
   - title: español version
     url: /es/common/az-config.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # az config
 

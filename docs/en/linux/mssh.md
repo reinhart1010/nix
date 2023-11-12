@@ -3,6 +3,8 @@ layout: page
 title: linux/mssh (English)
 description: "GTK+ based SSH client for interacting with multiple SSH servers at once."
 content_hash: ed26c2535c11bdbbffa52e9d522d7d013d9b5afa
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mssh
 

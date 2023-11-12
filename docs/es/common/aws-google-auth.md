@@ -3,7 +3,7 @@ layout: page
 title: common/aws-google-auth (español)
 description: "Herramienta de línea de comandos para adquirir credenciales temporales de AWS (STS) utilizando Google Apps como proveedor federado (Single Sign-On)."
 content_hash: 19169d06d47adb723a1de14942661249f289cf03
-last_modified_at: 2023-05-19
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-google-auth.html
@@ -20,11 +20,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/aws-google-auth.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws-google-auth
+# aws-google-auth
 
 Herramienta de línea de comandos para adquirir credenciales temporales de AWS (STS) utilizando Google Apps como proveedor federado (Single Sign-On).
 Más información: <https://github.com/cevoaustralia/aws-google-auth>.

@@ -3,7 +3,8 @@ layout: page
 title: windows/get-content (English)
 description: "Get the content of the item at the specified location."
 content_hash: 17c8bf3b8adaf6261135f68cd61157435dfbc6e1
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # Get-Content
 

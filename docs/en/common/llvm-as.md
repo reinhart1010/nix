@@ -3,6 +3,8 @@ layout: page
 title: common/llvm-as (English)
 description: "LLVM Intermediate Representation (`.ll`) to Bitcode (`.bc`) assembler."
 content_hash: 4e103a9cb3718931594b3d13e8e8fb2ca03356f6
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # llvm-as
 

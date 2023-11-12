@@ -3,11 +3,15 @@ layout: page
 title: common/rustfmt (中文)
 description: "格式化 Rust 源代码的工具。"
 content_hash: d59262524bf4fe72d752307ccc3dc56461471eda
-last_modified_at: 2023-01-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/rustfmt.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/rustfmt.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rustfmt
 

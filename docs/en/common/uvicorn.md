@@ -3,6 +3,8 @@ layout: page
 title: common/uvicorn (English)
 description: "Python ASGI HTTP Server, for asynchronous projects."
 content_hash: dcf0e54997072c8d0ac8d78a746a78aaba74838f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # uvicorn
 

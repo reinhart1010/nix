@@ -3,9 +3,16 @@ layout: page
 title: common/asdf (português (Brasil))
 description: "Utilitário para a gestão de versões de linguagens e programas."
 content_hash: 6006dae0f302ccdced6e5442cd7937772a578181
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/asdf.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/asdf.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/asdf.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/asdf.html
@@ -19,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/asdf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # asdf
 

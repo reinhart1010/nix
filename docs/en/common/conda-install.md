@@ -3,12 +3,10 @@ layout: page
 title: common/conda-install (English)
 description: "Install packages into an existing conda environment."
 content_hash: 0597d5c9d92d58eb19bec14519a74e0c53abfc3f
-last_modified_at: 2023-07-30
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># conda install
+# conda install
 
 Install packages into an existing conda environment.
 More information: <https://docs.conda.io/projects/conda/en/latest/commands/install.html>.

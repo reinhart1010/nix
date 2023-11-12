@@ -3,12 +3,17 @@ layout: page
 title: common/dc (italiano)
 description: "Calcolatore a precisione arbitraria. Usa la notazione polacca inversa (RPN)."
 content_hash: ca494ffb46e378916f5acfbadb1550fcadc61448
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/dc.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# dc
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># dc
 
 Calcolatore a precisione arbitraria. Usa la notazione polacca inversa (RPN).
 Maggiori informazioni: <https://www.gnu.org/software/bc/manual/dc-1.05/html_mono/dc.html>.

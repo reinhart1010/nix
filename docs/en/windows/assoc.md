@@ -3,7 +3,7 @@ layout: page
 title: windows/assoc (English)
 description: "Display or change associations between file extensions and file types."
 content_hash: f4ecc63d0facde8f65d6cfa8f2c9c766b5145b80
-last_modified_at: 2022-12-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: 日本語 version
     url: /ja/windows/assoc.html
@@ -17,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/assoc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # assoc
 

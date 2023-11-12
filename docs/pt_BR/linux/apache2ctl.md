@@ -3,6 +3,7 @@ layout: page
 title: linux/apache2ctl (português (Brasil))
 description: "Interface de controle do servidor web HTTP Apache."
 content_hash: dffab39ff1e9fb55ef3b4e9f8ffbaaf8dd211eb1
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/apache2ctl.html
@@ -13,9 +14,13 @@ related_topics:
   - title: français version
     url: /fr/linux/apache2ctl.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/apache2ctl.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apache2ctl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apache2ctl
 

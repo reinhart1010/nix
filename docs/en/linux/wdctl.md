@@ -3,6 +3,8 @@ layout: page
 title: linux/wdctl (English)
 description: "Show the hardware watchdog status."
 content_hash: cc47376d34c5a89154801169a86f0c57bd00fed1
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # wdctl
 

@@ -3,7 +3,7 @@ layout: page
 title: windows/iwr (Deutsch)
 description: "Dieser Befehl ist ein Alias von `invoke-webrequest`."
 content_hash: 06059f789841a0b61cd6ad6dd1f5028510bfa127
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/iwr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # iwr
 

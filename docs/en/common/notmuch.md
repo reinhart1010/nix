@@ -3,6 +3,8 @@ layout: page
 title: common/notmuch (English)
 description: "Command-line based program for indexing, searching, reading, and tagging large collections of email messages."
 content_hash: 36d6c09f9a09e7f6b9bc0968d88e53d956ccf65c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # notmuch
 

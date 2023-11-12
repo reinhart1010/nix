@@ -3,9 +3,13 @@ layout: page
 title: common/chgrp (Nederlands)
 description: "Verander beheerdersgroep van bestanden en mappen."
 content_hash: 9141bb4b7e9a4d14bb69c4151f40d43f5a7f5046
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/chgrp.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/chgrp.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/chgrp.html
@@ -13,6 +17,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/chgrp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chgrp
 

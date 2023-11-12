@@ -3,7 +3,7 @@ layout: page
 title: linux/ufw (தமிழ்)
 description: "சிக்கலற்ற ஃபயர்வால்."
 content_hash: c95aee27f34dd16b925ed302ea69d32b35dadd01
-last_modified_at: 2023-10-02
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/ufw.html
@@ -17,6 +17,10 @@ related_topics:
   - title: italiano version
     url: /it/linux/ufw.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/ufw.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ufw
 

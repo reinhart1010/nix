@@ -3,7 +3,7 @@ layout: page
 title: common/docker-compose (English)
 description: "Run and manage multi container docker applications."
 content_hash: b833fb27438abae6ba7d2ac0386d5f1452c02ca1
-last_modified_at: 2023-08-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -14,6 +14,9 @@ related_topics:
   - title: français version
     url: /fr/common/docker-compose.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/docker-compose.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/docker-compose.html
     icon: bi bi-globe
@@ -23,12 +26,16 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/docker-compose.html
     icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/docker-compose.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker-compose.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/docker-compose.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker compose
 

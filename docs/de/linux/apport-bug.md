@@ -3,6 +3,7 @@ layout: page
 title: linux/apport-bug (Deutsch)
 description: "Reiche einen Fehlerbericht über Ubuntu ein."
 content_hash: a7c571f6989ff913bc29fbf774f4d77fdc1ba568
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/apport-bug.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/apport-bug.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apport-bug
 

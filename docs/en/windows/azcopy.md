@@ -3,11 +3,12 @@ layout: page
 title: windows/azcopy (English)
 description: "A file transfer tool for uploading to Azure Cloud Storage Accounts."
 content_hash: aa98ee51545d24934a5c9b5ca7871fb5160824d3
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: தமிழ் version
     url: /ta/windows/azcopy.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # azcopy
 

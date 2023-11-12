@@ -3,15 +3,14 @@ layout: page
 title: common/go-version (Türkçe)
 description: "Go sürümünü yazdır."
 content_hash: 7581d347dec140a7eecc8cc454f6bc59ef2a990d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/go-version.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># go version
+# go version
 
 Go sürümünü yazdır.
 Daha fazla bilgi için: <https://golang.org/cmd/go/#hdr-Print_Go_version>.

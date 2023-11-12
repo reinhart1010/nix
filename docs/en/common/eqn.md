@@ -3,6 +3,8 @@ layout: page
 title: common/eqn (English)
 description: "Equation preprocessor for the groff (GNU Troff) document formatting system."
 content_hash: dcad4bf2a7432a86777a347c3c28a6b6012c60b2
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # eqn
 

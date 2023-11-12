@@ -3,6 +3,7 @@ layout: page
 title: windows/rmdir (தமிழ்)
 description: "ஒரு கோப்பகம் மற்றும் அதன் உள்ளடக்கங்களை அகற்றவும்."
 content_hash: df6295653f528379b8923ca0ab9448c770186cdb
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/rmdir.html
@@ -13,8 +14,15 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/rmdir.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/windows/rmdir.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# rmdir
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># rmdir
 
 ஒரு கோப்பகம் மற்றும் அதன் உள்ளடக்கங்களை அகற்றவும்.
 மேலும் விவரத்திற்கு: <https://learn.microsoft.com/windows-server/administration/windows-commands/rmdir>.

@@ -3,6 +3,8 @@ layout: page
 title: common/dvc-fetch (English)
 description: "Download DVC tracked files and directories from a remote repository."
 content_hash: f8083c861134ec8304f8efa76afbc0fc3cd60f88
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dvc fetch
 

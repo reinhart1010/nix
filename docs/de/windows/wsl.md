@@ -3,13 +3,21 @@ layout: page
 title: windows/wsl (Deutsch)
 description: "Verwalte das Windows Subsystem für Linux von der Kommandozeile."
 content_hash: faa557f2af9173442e10a5fd8c0e380f869e360a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/wsl.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/wsl.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/wsl.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/windows/wsl.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wsl
 

@@ -3,11 +3,18 @@ layout: page
 title: linux/distrobox-enter (தமிழ்)
 description: "டிஸ்ட்ரோபாக்ஸ் கொள்கலனை உள்ளிடவும். மேலும் காண்க: `tldr distrobox`."
 content_hash: 78f733e7b1627cc73eda6cb3958ac61239173afa
-last_modified_at: 2023-03-19
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/distrobox-enter.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/distrobox-enter.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/distrobox-enter.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # distrobox-enter
 

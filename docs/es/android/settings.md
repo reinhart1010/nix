@@ -3,22 +3,34 @@ layout: page
 title: android/settings (español)
 description: "Muestra información sobre el sistema operativo Android."
 content_hash: ea8ebd8b6c6cba9d153171f7a72f8833fcf9b4d2
-last_modified_at: 2022-12-25
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/android/settings.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/android/settings.html
     icon: bi bi-globe
   - title: English version
     url: /en/android/settings.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/android/settings.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/android/settings.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/android/settings.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/settings.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/settings.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/android/settings.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/android/settings.html
@@ -38,17 +50,18 @@ related_topics:
   - title: Türkçe version
     url: /tr/android/settings.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/android/settings.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/android/settings.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/settings.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># settings
+# settings
 
 Muestra información sobre el sistema operativo Android.
 Más información: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.

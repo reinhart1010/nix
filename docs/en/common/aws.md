@@ -3,12 +3,19 @@ layout: page
 title: common/aws (English)
 description: "The official CLI tool for Amazon Web Services."
 content_hash: 8e65f3ba899595b369864578538a4c519b0d1602
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/aws.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/aws.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/aws.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/aws.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/aws.html
@@ -19,6 +26,10 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/aws.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/aws.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws
 

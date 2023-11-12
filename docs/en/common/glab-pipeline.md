@@ -3,11 +3,10 @@ layout: page
 title: common/glab-pipeline (English)
 description: "List, view, and run GitLab CI/CD pipelines."
 content_hash: d7e663a715f6a1255a151f72c7c790193fdfb472
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># glab pipeline
+# glab pipeline
 
 List, view, and run GitLab CI/CD pipelines.
 More information: <https://glab.readthedocs.io/en/latest/pipeline>.

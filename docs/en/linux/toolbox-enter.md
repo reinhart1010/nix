@@ -3,11 +3,12 @@ layout: page
 title: linux/toolbox-enter (English)
 description: "Enter a `toolbox` container for interactive use."
 content_hash: 8921a34caf665ae4f4c47379636bd9a28b3da57a
-last_modified_at: 2023-06-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: தமிழ் version
     url: /ta/linux/toolbox-enter.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # toolbox enter
 

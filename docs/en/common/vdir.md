@@ -3,6 +3,8 @@ layout: page
 title: common/vdir (English)
 description: "List directory contents."
 content_hash: 54ea4ae4aac636b93ed127f9a06bc2b6efe6ebb9
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # vdir
 

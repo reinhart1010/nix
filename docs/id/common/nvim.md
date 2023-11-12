@@ -3,6 +3,7 @@ layout: page
 title: common/nvim (Indonesia)
 description: "Neovim, teks editor programmer berbasis Vim, menyediakan beberapa mode untuk manipulasi teks berbeda jenis."
 content_hash: 0579d8e3a0aa2595c5dfec676b8ec2927913bbaf
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/nvim.html
@@ -10,6 +11,10 @@ related_topics:
   - title: italiano version
     url: /it/common/nvim.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/nvim.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nvim
 

@@ -3,6 +3,8 @@ layout: page
 title: common/jmtpfs (English)
 description: "FUSE-based filesystem for accessing MTP devices."
 content_hash: 87e39ed2c21249661a6c9141715707d8f08a87cd
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # jmtpfs
 

@@ -3,11 +3,10 @@ layout: page
 title: common/gt (English)
 description: "Create and manage sequences of dependent code changes (stacks) for Git and GitHub."
 content_hash: 0e3ebc7cc2f7d36a5fd24f0a70e5b4f9975bf7e5
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gt
+# gt
 
 Create and manage sequences of dependent code changes (stacks) for Git and GitHub.
 More information: <https://docs.graphite.dev>.

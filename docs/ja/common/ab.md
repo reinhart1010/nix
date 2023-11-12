@@ -3,7 +3,7 @@ layout: page
 title: common/ab (日本語)
 description: "Apache HTTP server のベンチマーク用ツールです。"
 content_hash: afd0c4ecb69361c4cc53c16fddc7308e5833959e
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/common/ab.html
@@ -44,6 +44,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ab.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ab
 

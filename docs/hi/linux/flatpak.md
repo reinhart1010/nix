@@ -3,7 +3,7 @@ layout: page
 title: linux/flatpak (हिन्दी)
 description: "फ्लैटपैक अनुप्रयोग और रनटाइम बनाएं, स्थापित करें और चलाएं।"
 content_hash: 17260b462fb894d87dda4e99452518f47a5ba349
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/flatpak.html
@@ -17,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/flatpak.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # flatpak
 

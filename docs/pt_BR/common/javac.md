@@ -3,10 +3,13 @@ layout: page
 title: common/javac (português (Brasil))
 description: "O compilador de aplicações Java."
 content_hash: a8b521160b452b4652af2a30d27d588b21703180
-last_modified_at: 2023-06-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/javac.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/javac.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/javac.html
@@ -14,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/javac.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # javac
 

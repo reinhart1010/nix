@@ -3,7 +3,7 @@ layout: page
 title: common/assimp (español)
 description: "Cliente de línea de comandos para la biblioteca Open Asset Import."
 content_hash: 48729554af6aa000be865151686d0b7e2f04c1a7
-last_modified_at: 2023-03-21
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/assimp.html
@@ -17,11 +17,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/assimp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># assimp
+# assimp
 
 Cliente de línea de comandos para la biblioteca Open Asset Import.
 Admite la carga de más de 40 formatos de archivo 3D y la exportación a varios formatos 3D populares.

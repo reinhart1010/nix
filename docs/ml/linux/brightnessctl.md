@@ -3,18 +3,20 @@ layout: page
 title: linux/brightnessctl (മലയാളം)
 description: "മോണിറ്ററിന്റെ പ്രകാശതീവ്രത ലഭിക്കുവാനും നിയന്ത്രിക്കുവാനുമുള്ള ഗ്നു/ലിനക്സ് അധിഷ്ഠിത യൂട്ടിലിറ്റി."
 content_hash: 566e81337609ee79aef18aa884008b2994a2ddae
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/brightnessctl.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/linux/brightnessctl.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/brightnessctl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># brightnessctl
+# brightnessctl
 
 മോണിറ്ററിന്റെ പ്രകാശതീവ്രത ലഭിക്കുവാനും നിയന്ത്രിക്കുവാനുമുള്ള ഗ്നു/ലിനക്സ് അധിഷ്ഠിത യൂട്ടിലിറ്റി.
 കൂടുതൽ വിവരങ്ങൾ: <https://github.com/Hummer12007/brightnessctl>.

@@ -3,12 +3,10 @@ layout: page
 title: common/zeisstopnm (English)
 description: "Convert a Zeiss confocal file to Netbpm format."
 content_hash: e5372c5f613b5b50d96e1435e57da644c2e3a069
-last_modified_at: 2023-10-10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># zeisstopnm
+# zeisstopnm
 
 Convert a Zeiss confocal file to Netbpm format.
 More information: <https://manned.org/zeisstopnm.1>.

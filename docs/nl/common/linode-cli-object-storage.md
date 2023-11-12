@@ -3,16 +3,14 @@ layout: page
 title: common/linode-cli-object-storage (Nederlands)
 description: "Beheer Linode Object Storage."
 content_hash: 6ab6501dac0b97a8f7158a791e2211694825ed2a
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/linode-cli-object-storage.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># linode-cli object-storage
+# linode-cli object-storage
 
 Beheer Linode Object Storage.
 Bekijk ook: `linode-cli`.

@@ -3,6 +3,7 @@ layout: page
 title: common/whereis (فارسی)
 description: "پیداکردن فایل اجرایی، سورس، صفحه راهنما برای یک دستور."
 content_hash: 9863d960137787399ba4ba32bf49a13ee1c33993
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/whereis.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/whereis.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # whereis
 

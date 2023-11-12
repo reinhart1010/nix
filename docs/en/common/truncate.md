@@ -3,6 +3,8 @@ layout: page
 title: common/truncate (English)
 description: "Shrink or extend the size of a file to the specified size."
 content_hash: 063ad8188c6457a550bf26d609f1843763b60ddd
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # truncate
 

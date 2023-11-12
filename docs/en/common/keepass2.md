@@ -3,6 +3,8 @@ layout: page
 title: common/keepass2 (English)
 description: "A light-weight password manager."
 content_hash: 5209de334601ba46dc5161f616dafa69f8a8e557
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # keepass2
 

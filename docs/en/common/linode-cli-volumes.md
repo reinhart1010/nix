@@ -3,7 +3,12 @@ layout: page
 title: common/linode-cli-volumes (English)
 description: "Manage Linode Volumes."
 content_hash: 1ecc0c4d063ef6ae89ffb59f0f10d02eaeec8e50
-last_modified_at: 2023-11-03
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Nederlands version
+    url: /nl/common/linode-cli-volumes.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # linode-cli volumes
 

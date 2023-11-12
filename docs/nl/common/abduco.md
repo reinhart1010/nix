@@ -3,7 +3,7 @@ layout: page
 title: common/abduco (Nederlands)
 description: "Terminal sessiemanager."
 content_hash: f8cc4a6ef321f165da02a27ac8aab8184b648b5b
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/common/abduco.html
@@ -35,6 +35,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/abduco.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # abduco
 

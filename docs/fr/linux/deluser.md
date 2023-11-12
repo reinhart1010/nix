@@ -3,6 +3,7 @@ layout: page
 title: linux/deluser (français)
 description: "Supprime un utilisateur du système."
 content_hash: cf520e733ce70770e66d6d9e2fb5bc6b3849e4c3
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/deluser.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/linux/deluser.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # deluser
 

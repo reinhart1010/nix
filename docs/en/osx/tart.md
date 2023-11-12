@@ -3,7 +3,12 @@ layout: page
 title: osx/tart (English)
 description: "Build, run and manage macOS and Linux virtual machines (VMs) on Apple Silicon."
 content_hash: 539ae0d86d822bf51402dc3dd120e3432f1dd396
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
+related_topics:
+  - title: español version
+    url: /es/osx/tart.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tart
 

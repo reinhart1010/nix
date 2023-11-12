@@ -3,10 +3,12 @@ layout: page
 title: common/minetest (Türkçe)
 description: "Çok oyunculu sınırsız dünyalı bloklu sandbox oyun motoru."
 content_hash: 5d47059f5686fa359a1fcdc34fcaa980d49dd6e5
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/minetest.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # minetest
 

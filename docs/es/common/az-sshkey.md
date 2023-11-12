@@ -3,11 +3,12 @@ layout: page
 title: common/az-sshkey (español)
 description: "Administra claves públicas SSH con máquinas virtuales."
 content_hash: 7af0b6f765335c35719f393cb1c0a1c3812a7f6f
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/az-sshkey.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # az sshkey
 

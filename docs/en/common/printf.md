@@ -3,6 +3,8 @@ layout: page
 title: common/printf (English)
 description: "Format and print text."
 content_hash: 67efcbb0378d96456e8ef0757c803549e6b03f24
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # printf
 

@@ -3,11 +3,12 @@ layout: page
 title: linux/wall (English)
 description: "Write a message on the terminals of users currently logged in."
 content_hash: 77e207d24b787f3c4afcc988d89b108828e8b946
-last_modified_at: 2023-02-11
+last_modified_at: 2023-11-12
 related_topics:
   - title: polski version
     url: /pl/linux/wall.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wall
 

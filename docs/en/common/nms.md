@@ -3,11 +3,12 @@ layout: page
 title: common/nms (English)
 description: "Command-line tool that recreates the famous data decryption effect seen in the 1992 movie Sneakers from `stdin`."
 content_hash: e067d7e251fabf19a2b5e62e033cd867669c9e10
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/nms.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nms
 

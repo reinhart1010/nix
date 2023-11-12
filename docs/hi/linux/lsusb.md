@@ -3,7 +3,7 @@ layout: page
 title: linux/lsusb (हिन्दी)
 description: "यूएसबी बसों और उनसे जुड़े उपकरणों के बारे में जानकारी प्रदर्शित करें।"
 content_hash: 3f89bb99464a22da19cd24630fa4eb495a62c9fb
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/lsusb.html
@@ -17,6 +17,7 @@ related_topics:
   - title: italiano version
     url: /it/linux/lsusb.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lsusb
 

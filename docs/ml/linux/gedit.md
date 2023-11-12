@@ -3,6 +3,7 @@ layout: page
 title: linux/gedit (മലയാളം)
 description: "ഗ്നോം ഡെസ്ക്ടോപ് പ്രോജക്ടിന്റെ ടെക്സ്റ്റ് എഡിറ്റർ."
 content_hash: 0e5cf3722314662b93f552eb3182663025c9e0ac
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/gedit.html
@@ -16,6 +17,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/linux/gedit.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gedit
 

@@ -3,11 +3,12 @@ layout: page
 title: linux/calcurse (English)
 description: "A text-based calendar and scheduling application for the command-line."
 content_hash: b626f3f6db7c90935e3a1c33b1c0559cfbae465e
-last_modified_at: 2023-06-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/calcurse.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # calcurse
 

@@ -3,6 +3,8 @@ layout: page
 title: common/phpcpd (English)
 description: "A copy and paste detector for PHP code."
 content_hash: 6668b29fd81331acaff77d1208cbb96690b92f54
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # phpcpd
 

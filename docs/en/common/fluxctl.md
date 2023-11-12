@@ -3,6 +3,8 @@ layout: page
 title: common/fluxctl (English)
 description: "Command-line tool for Flux v1."
 content_hash: 72ff9063d20e07dde5b1434f5330a5e108534e20
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fluxctl
 

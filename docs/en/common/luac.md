@@ -3,6 +3,8 @@ layout: page
 title: common/luac (English)
 description: "Lua bytecode compiler."
 content_hash: efdd88175949181c531ace67692c6e98b17a2a6b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # luac
 

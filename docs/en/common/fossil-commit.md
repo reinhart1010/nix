@@ -3,11 +3,10 @@ layout: page
 title: common/fossil-commit (English)
 description: "Commit files to a Fossil repository."
 content_hash: 5a98a89daeba13e47ac2ba3221d0d4b3c4f96277
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># fossil commit
+# fossil commit
 
 Commit files to a Fossil repository.
 More information: <https://fossil-scm.org/home/help/commit>.

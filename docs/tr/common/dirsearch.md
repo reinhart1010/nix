@@ -3,10 +3,12 @@ layout: page
 title: common/dirsearch (Türkçe)
 description: "Ağ yolu tarayıcı."
 content_hash: 538f8f3fa256632a1991fe354dc5e3b5f6efdcfb
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/dirsearch.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dirsearch
 

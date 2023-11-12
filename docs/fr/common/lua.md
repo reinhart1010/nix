@@ -3,10 +3,12 @@ layout: page
 title: common/lua (français)
 description: "Un langage de programmation puissant, léger, et convenable aux systèmes embarqués."
 content_hash: c9917c37521d0e58b50d8d4fc2ae2ff139e7732c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/lua.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lua
 

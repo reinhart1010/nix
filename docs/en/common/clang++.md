@@ -3,6 +3,15 @@ layout: page
 title: common/clang++ (English)
 description: "Compiles C++ source files."
 content_hash: 8979fadf7eb8cc7d47a50a2e914bf4d0afe4748f
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/clang++.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/clang++.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # clang++
 

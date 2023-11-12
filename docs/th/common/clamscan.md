@@ -3,10 +3,13 @@ layout: page
 title: common/clamscan (ไทย)
 description: "โปรแกรมตรวจหาไวรัสบนคอมมานด์ไลน์"
 content_hash: ac6349b9bf72c9c894069a5d808dc4f747654fb2
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/clamscan.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/clamscan.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/clamscan.html
@@ -14,6 +17,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/clamscan.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # clamscan
 

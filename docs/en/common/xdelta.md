@@ -3,6 +3,8 @@ layout: page
 title: common/xdelta (English)
 description: "Delta encoding utility."
 content_hash: 79d85fea5945b4dcb6ff3f7fa792d658c25751dd
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xdelta
 

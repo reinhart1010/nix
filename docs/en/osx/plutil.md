@@ -3,7 +3,8 @@ layout: page
 title: osx/plutil (English)
 description: "View, convert, validate, or edit property list (\"plist\") files."
 content_hash: e3278593f642f6ed7fb8e2c97c0087e0818b023e
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # plutil
 

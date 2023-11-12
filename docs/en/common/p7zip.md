@@ -3,6 +3,8 @@ layout: page
 title: common/p7zip (English)
 description: "Wrapper of 7-Zip file archiver with high compression ratio."
 content_hash: fdbfb42844fc2c4b7eb8d78fae14479c309ec2e6
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # p7zip
 

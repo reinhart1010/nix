@@ -3,11 +3,10 @@ layout: page
 title: common/pyats-version (English)
 description: "View and upgrade the pyATS installation."
 content_hash: 329c156f59a236f95e4faa932eb91b250b978b98
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pyats version
+# pyats version
 
 View and upgrade the pyATS installation.
 More information: <https://developer.cisco.com/pyats/>.

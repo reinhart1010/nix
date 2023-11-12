@@ -3,7 +3,7 @@ layout: page
 title: common/batch (English)
 description: "Execute commands at a later time when the system load levels permit."
 content_hash: 1ff462dda84df85df3c05c981b8fa15d6193a679
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/batch.html
@@ -17,6 +17,7 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/batch.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # batch
 

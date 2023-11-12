@@ -3,13 +3,21 @@ layout: page
 title: linux/gedit (português (Portugal))
 description: "Editor de texto para Desktop do GNOME."
 content_hash: 1d6cea55a2b98b8a1bd4e88c8355d94b7ca2b5d1
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/gedit.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/linux/gedit.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/gedit.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/gedit.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gedit
 

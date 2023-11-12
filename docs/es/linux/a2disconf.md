@@ -3,7 +3,7 @@ layout: page
 title: linux/a2disconf (español)
 description: "Deshabilita un archivo de configuración de Apache en sistemas operativos basados en Debian."
 content_hash: baab5ab05258ce9d7c22eafb160cd7b14c5320e5
-last_modified_at: 2023-03-21
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/a2disconf.html
@@ -32,11 +32,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/a2disconf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># a2disconf
+# a2disconf
 
 Deshabilita un archivo de configuración de Apache en sistemas operativos basados en Debian.
 Más información: <https://manpages.debian.org/latest/apache2/a2disconf.8.en.html>.

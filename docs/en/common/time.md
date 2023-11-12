@@ -3,7 +3,7 @@ layout: page
 title: common/time (English)
 description: "Measure how long a command took to run."
 content_hash: 290c148e1437b8697cbf04590da3760e5406d62f
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: bosanski version
     url: /bs/common/time.html
@@ -23,6 +23,7 @@ related_topics:
   - title: svenska version
     url: /sv/common/time.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # time
 

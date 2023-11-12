@@ -3,6 +3,7 @@ layout: page
 title: common/git-init (हिन्दी)
 description: "एक नया स्थानीय गिट रिपॉजिटरी शुरू करता है।"
 content_hash: 958f484547f0e44b1658b3ee93c13231ff0c2c20
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-init.html
@@ -19,6 +20,13 @@ related_topics:
   - title: italiano version
     url: /it/common/git-init.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-init.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-init.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git init
 

@@ -3,10 +3,15 @@ layout: page
 title: osx/wacaw (中文)
 description: "一个用于 macOS 的小命令行工具，允许您从连接的摄像头捕获静止图片和视频。"
 content_hash: bab1e6d515cd648be2791f4e989def1dffea9356
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/wacaw.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/wacaw.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wacaw
 

@@ -3,6 +3,8 @@ layout: page
 title: common/sdiff (English)
 description: "Compare the differences between and optionally merge 2 files."
 content_hash: 51fbd9e354fb93b1bb68b09da15b4881084fbcba
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sdiff
 

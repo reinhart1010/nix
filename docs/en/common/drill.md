@@ -3,10 +3,15 @@ layout: page
 title: common/drill (English)
 description: "Perform various DNS queries."
 content_hash: b1997c82fea963823fd48c340dadfe8fe2067381
+last_modified_at: 2023-11-12
 related_topics:
+  - title: français version
+    url: /fr/common/drill.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/drill.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # drill
 

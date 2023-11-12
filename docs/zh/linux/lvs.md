@@ -3,10 +3,12 @@ layout: page
 title: linux/lvs (中文)
 description: "显示逻辑卷信息。"
 content_hash: 1225af5e64614761fc26aa4cb735f2f0d97080f2
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/lvs.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lvs
 

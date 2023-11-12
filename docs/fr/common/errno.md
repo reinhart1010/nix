@@ -3,15 +3,14 @@ layout: page
 title: common/errno (français)
 description: "Recherche les noms et descriptions des codes errno."
 content_hash: 344be6a7c133b63fe96ca5317648f5618c1fdf16
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/errno.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># errno
+# errno
 
 Recherche les noms et descriptions des codes errno.
 Plus d'informations : <https://joeyh.name/code/moreutils/>.

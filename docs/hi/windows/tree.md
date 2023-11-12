@@ -3,7 +3,7 @@ layout: page
 title: windows/tree (हिन्दी)
 description: "पथ के लिए निर्देशिका संरचना का ग्राफ़िकल ट्री प्रदर्शित करें।"
 content_hash: 7759bf9a1673fa35a6a8423c60a1cb4cfa6b225a
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/tree.html
@@ -20,6 +20,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/tree.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tree
 

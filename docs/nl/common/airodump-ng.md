@@ -3,7 +3,7 @@ layout: page
 title: common/airodump-ng (Nederlands)
 description: "Leg pakketten vast en geef informatie over draadloze netwerken weer."
 content_hash: 82abd4458705d4532c3824eab752285384ba651b
-last_modified_at: 2023-07-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/airodump-ng.html
@@ -17,11 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/airodump-ng.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># airodump-ng
+# airodump-ng
 
 Leg pakketten vast en geef informatie over draadloze netwerken weer.
 Deel van `aircrack-ng`.

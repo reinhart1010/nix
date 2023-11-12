@@ -3,7 +3,8 @@ layout: page
 title: common/help2man (English)
 description: "Produce simple man pages from an executable's `--help` and `--version` output."
 content_hash: f4b3a2914da499aff91189ae8c6ad004a4fceb3c
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # help2man
 

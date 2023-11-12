@@ -3,6 +3,7 @@ layout: page
 title: common/git-reset (italiano)
 description: "Annulla commit o rimuovi modifiche dall'area di stage, reimpostando l'HEAD corrente su uno specifico stato."
 content_hash: be0b94fd6fed67bf8be56c73296e822970bc6114
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-reset.html
@@ -13,9 +14,13 @@ related_topics:
   - title: français version
     url: /fr/common/git-reset.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-reset.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-reset.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git reset
 

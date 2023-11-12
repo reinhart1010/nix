@@ -3,7 +3,8 @@ layout: page
 title: common/viu (English)
 description: "View images on the terminal."
 content_hash: 5dcb5e00e9f153e5d585a84cf362fe09d9b30cde
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # viu
 

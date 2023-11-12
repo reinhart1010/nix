@@ -3,6 +3,8 @@ layout: page
 title: common/mkcert (English)
 description: "Tool for making locally-trusted development certificates."
 content_hash: 9e9b94cace7f7a7e384ddde48088029175bf92cd
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mkcert
 

@@ -3,7 +3,7 @@ layout: page
 title: android/cmd (বাংলা)
 description: "অ্যান্ড্রয়েড সার্ভিস ম্যানেজার।"
 content_hash: 8f399440539d0c95c217769f7f246b3b84bd9f14
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/android/cmd.html
@@ -65,6 +65,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/cmd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cmd
 

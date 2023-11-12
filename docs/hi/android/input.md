@@ -3,7 +3,7 @@ layout: page
 title: android/input (हिन्दी)
 description: "एंड्रॉइड डिवाइस पर इवेंट कोड या टचस्क्रीन जेस्चर भेजें।"
 content_hash: c7ea49964a9aee664265060ead1409f7cad4ff79
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/input.html
@@ -59,6 +59,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/input.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # input
 

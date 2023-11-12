@@ -3,15 +3,14 @@ layout: page
 title: common/jwt (português (Brasil))
 description: "Uma ferramenta de linha de comando (command-line tool) para trabalhar com JSON Web Tokens (JWTs)."
 content_hash: 180c298135c9a3a7aeda980f9d3f1f21f62f0fea
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/jwt.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># jwt
+# jwt
 
 Uma ferramenta de linha de comando (command-line tool) para trabalhar com JSON Web Tokens (JWTs).
 Algoritmos de encriptação disponíveis são HS256, HS384, HS512, RS256, RS384, RS512, ES256, ES384.

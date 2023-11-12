@@ -3,7 +3,8 @@ layout: page
 title: linux/swaplabel (English)
 description: "Print or change the label or UUID of a swap area."
 content_hash: 56ed4c2bdef31c45543a0f12b99d109812b92e13
-last_modified_at: 2023-07-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # swaplabel
 

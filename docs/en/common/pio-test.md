@@ -3,6 +3,8 @@ layout: page
 title: common/pio-test (English)
 description: "Run local tests on a PlatformIO project."
 content_hash: 11fe1db01a6e992824e62bb14e940216edb77d7f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pio test
 

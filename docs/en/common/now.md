@@ -3,6 +3,8 @@ layout: page
 title: common/now (English)
 description: "Cloud platform for serverless deployment."
 content_hash: 8e89b180a26d0c4e1fea5a48fcf9f424f005634d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # now
 

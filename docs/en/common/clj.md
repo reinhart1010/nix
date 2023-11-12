@@ -3,11 +3,12 @@ layout: page
 title: common/clj (English)
 description: "Clojure tool to start a REPL or invoke a specific function with data."
 content_hash: 111ff95f4ad6611b96d20401040ec8bcccd0056e
-last_modified_at: 2023-06-13
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/clj.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # clj
 

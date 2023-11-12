@@ -3,11 +3,10 @@ layout: page
 title: common/gdal_translate (English)
 description: "Convert raster data between different formats."
 content_hash: e81f2816ef895fe7d818dc3d5a25bead72420829
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gdal_translate
+# gdal_translate
 
 Convert raster data between different formats.
 More information: <https://gdal.org/programs/gdal_translate>.

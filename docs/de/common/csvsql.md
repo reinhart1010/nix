@@ -3,10 +3,12 @@ layout: page
 title: common/csvsql (Deutsch)
 description: "Generiere SQL-Anweisungen für eine CSV-Datei oder führe diese Anweisungen direkt in einer Datenbank aus."
 content_hash: 195e5fad225df3f4ec2721c77cd289fbd158cefe
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/csvsql.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # csvsql
 

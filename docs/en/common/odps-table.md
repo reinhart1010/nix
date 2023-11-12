@@ -3,6 +3,8 @@ layout: page
 title: common/odps-table (English)
 description: "Create and modify tables in ODPS (Open Data Processing Service)."
 content_hash: a917170ba15b076f7e702c85d30fa052e30d776e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # odps table
 

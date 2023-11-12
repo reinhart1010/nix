@@ -3,6 +3,7 @@ layout: page
 title: common/awk (polski)
 description: "Wszechstronny język programowania do pracy na plikach."
 content_hash: 83d5a24a594a9c196d1a8891c57ec36b30e843e0
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/awk.html
@@ -22,6 +23,13 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/awk.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/awk.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/awk.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # awk
 

@@ -3,6 +3,7 @@ layout: page
 title: windows/rmdir (中文 (繁體, 台灣))
 description: "刪除一個目錄和裡面的內容。"
 content_hash: d14d063069ea34921c1fa98edd732cd2224a8ce3
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/rmdir.html
@@ -16,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/rmdir.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.

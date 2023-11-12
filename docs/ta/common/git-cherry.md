@@ -3,6 +3,7 @@ layout: page
 title: common/git-cherry (தமிழ்)
 description: "அப்ஸ்ட்ரீமில் இன்னும் பயன்படுத்தப்படாத கமிட்டுகளைக் கண்டறியவும்."
 content_hash: 5ec5aefacf69eb95bd14d8971869ae49bbffb445
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-cherry.html
@@ -13,6 +14,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-cherry.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git cherry
 

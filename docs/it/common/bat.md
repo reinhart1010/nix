@@ -3,6 +3,7 @@ layout: page
 title: common/bat (italiano)
 description: "Stampa e concatena file."
 content_hash: 5ec9880edd746bb5b5738ebc4fee33a4eea2bf63
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html
@@ -16,18 +17,28 @@ related_topics:
   - title: français version
     url: /fr/common/bat.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/bat.html
+    icon: bi bi-globe
   - title: 日本語 version
     url: /ja/common/bat.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/bat.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/bat.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/bat.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/bat.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/bat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bat
 

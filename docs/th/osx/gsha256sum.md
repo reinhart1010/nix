@@ -3,7 +3,7 @@ layout: page
 title: osx/gsha256sum (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux sha256sum`"
 content_hash: 9142ebef747ab4444d4849e25d762690f15ab7bb
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gsha256sum.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gsha256sum.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gsha256sum
 

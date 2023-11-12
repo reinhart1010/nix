@@ -3,7 +3,7 @@ layout: page
 title: common/ssh-keygen (português (Brasil))
 description: "Gera chaves SSH usadas para autenticação, logins sem senha e outras finalidades."
 content_hash: 4bc0e34a288bf8be72a7a4ee6bc20444852d0e10
-last_modified_at: 2023-09-18
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ssh-keygen.html
@@ -14,11 +14,9 @@ related_topics:
   - title: français version
     url: /fr/common/ssh-keygen.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ssh-keygen
+# ssh-keygen
 
 Gera chaves SSH usadas para autenticação, logins sem senha e outras finalidades.
 Mais informações: <https://man.openbsd.org/ssh-keygen>.

@@ -3,7 +3,7 @@ layout: page
 title: linux/parted (हिन्दी)
 description: "एक पार्टीशन मैनिपुलेशन प्रोग्राम।"
 content_hash: 396830ef68e842d47aaf26ee72d6a15e1f553a30
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/parted.html
@@ -11,6 +11,7 @@ related_topics:
   - title: українська version
     url: /uk/linux/parted.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # parted
 

@@ -3,7 +3,11 @@ layout: page
 title: linux/apt (中文)
 description: "基于 Debian 的发行版上的软件包管理工具。"
 content_hash: 36732ab2bb89d640a58119ffa5f4f51dc02f9edc
+last_modified_at: 2023-11-12
 related_topics:
+  - title: العربية version
+    url: /ar/linux/apt.html
+    icon: bi bi-globe
   - title: বাংলা version
     url: /bn/linux/apt.html
     icon: bi bi-globe
@@ -22,14 +26,26 @@ related_topics:
   - title: français version
     url: /fr/linux/apt.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/apt.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/linux/apt.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/apt.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/linux/apt.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/apt.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/apt.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/apt.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/apt.html
@@ -37,9 +53,16 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/linux/apt.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/apt.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/apt.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/apt.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apt
 

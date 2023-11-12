@@ -3,6 +3,8 @@ layout: page
 title: common/gdalbuildvrt (English)
 description: "Build Virtual Datasets from a list of existing datasets."
 content_hash: 4c9557644b600e9e90829ea3c44ab5113b6997d4
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gdalbuildvrt
 

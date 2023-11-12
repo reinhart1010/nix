@@ -3,7 +3,7 @@ layout: page
 title: osx/gchmod (polski)
 description: "To polecenie jest aliasem `-p linux chmod`."
 content_hash: 612e6d552754e0ca444355bb813a56699b47cc74
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gchmod.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gchmod.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gchmod
 

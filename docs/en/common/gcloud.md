@@ -3,6 +3,15 @@ layout: page
 title: common/gcloud (English)
 description: "The official CLI tool for Google Cloud Platform."
 content_hash: 84cf69bea3e6f1f1e3a42693bbce30a40d294762
+last_modified_at: 2023-11-12
+related_topics:
+  - title: dansk version
+    url: /da/common/gcloud.html
+    icon: bi bi-globe
+  - title: Deutsch version
+    url: /de/common/gcloud.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gcloud
 

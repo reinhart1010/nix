@@ -3,11 +3,12 @@ layout: page
 title: linux/toolbox-create (English)
 description: "Create a new `toolbox` container."
 content_hash: 799858215772e3933b94f6719d625dd8ac6ec88b
-last_modified_at: 2023-06-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: தமிழ் version
     url: /ta/linux/toolbox-create.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # toolbox create
 

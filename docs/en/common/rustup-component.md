@@ -3,12 +3,10 @@ layout: page
 title: common/rustup-component (English)
 description: "Modify a toolchain's installed components."
 content_hash: f3ee0d3469b793bb13e4d53a797b6b626c9127ad
-last_modified_at: 2023-09-19
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rustup component
+# rustup component
 
 Modify a toolchain's installed components.
 Without the `--toolchain` option `rustup` will use the default toolchain. See `rustup help toolchain` for more information about toolchains.

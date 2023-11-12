@@ -3,11 +3,10 @@ layout: page
 title: common/pixterm (English)
 description: "Image printing in the terminal."
 content_hash: f9cf49db3fc037bb0c8024f1c164bcb7dfb72b8f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pixterm
+# pixterm
 
 Image printing in the terminal.
 See also: `chafa`, `catimg`.

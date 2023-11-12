@@ -3,6 +3,12 @@ layout: page
 title: linux/qmrestore (English)
 description: "Restore QemuServer vzdump backups."
 content_hash: cb84635b10dc824e4be09ec43d2b29dcb681ad6d
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/linux/qmrestore.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # qmrestore
 

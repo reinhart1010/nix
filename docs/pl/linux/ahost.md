@@ -3,11 +3,12 @@ layout: page
 title: linux/ahost (polski)
 description: "Narzędzie zapytań DNS do wyświetlania rekordów A lub AAAA powiązanych z nazwą hosta lub adresem IP."
 content_hash: d38445d29bd7a8a9c41d4a741983bf6cf236fed5
-last_modified_at: 2023-10-23
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/ahost.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ahost
 

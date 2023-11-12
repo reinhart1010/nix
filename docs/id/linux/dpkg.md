@@ -3,6 +3,7 @@ layout: page
 title: linux/dpkg (Indonesia)
 description: "Manajer paket Debian."
 content_hash: f8cbe3b4441a3a45502dc100840ce5b5e98f57e9
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/dpkg.html
@@ -10,12 +11,16 @@ related_topics:
   - title: English version
     url: /en/linux/dpkg.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/dpkg.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/linux/dpkg.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/dpkg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dpkg
 

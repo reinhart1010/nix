@@ -3,7 +3,8 @@ layout: page
 title: common/silicon (English)
 description: "Create an image of source code."
 content_hash: 5da07a37f712de46a821996ecb07dbb3eb2e2e2d
-last_modified_at: 2023-06-14
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # silicon
 

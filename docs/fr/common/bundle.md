@@ -3,6 +3,7 @@ layout: page
 title: common/bundle (français)
 description: "Gestionnaire de dépendances pour le langage de programmation Ruby."
 content_hash: 4d218f96d227ab476f87247eb71fddc23d4a3e7d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/bundle.html
@@ -16,6 +17,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/bundle.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bundle
 

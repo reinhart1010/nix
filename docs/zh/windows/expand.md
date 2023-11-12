@@ -3,10 +3,12 @@ layout: page
 title: windows/expand (中文)
 description: "解压一个或多个 cab 文件。"
 content_hash: 0bd8e50faf95045f95a25292cef80028d8922917
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/expand.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # expand
 

@@ -3,11 +3,10 @@ layout: page
 title: linux/pdfxup (English)
 description: "N-up PDF pages."
 content_hash: ae8462208588b3833b0490878882f97af7523c58
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pdfxup
+# pdfxup
 
 N-up PDF pages.
 N-upping means putting multiple pages onto one page by scaling and rotating them into a grid.

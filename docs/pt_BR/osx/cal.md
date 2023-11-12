@@ -3,6 +3,7 @@ layout: page
 title: osx/cal (português (Brasil))
 description: "Exibe informações de calendário."
 content_hash: 1bdeed52fa19dc31bbc3a597a58ae7c886ba3ceb
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/cal.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/cal.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cal
 

@@ -3,18 +3,23 @@ layout: page
 title: windows/path (中文 (繁體, 台灣))
 description: "顯示或設定可執行檔的搜尋路徑。"
 content_hash: 5aa4a08957ddc30df60ae97c60c6f6c67f6511fb
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/path.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/path.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/path.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/path.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># path
+# path
 
 顯示或設定可執行檔的搜尋路徑。
 更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/path>.

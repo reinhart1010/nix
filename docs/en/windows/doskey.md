@@ -3,14 +3,21 @@ layout: page
 title: windows/doskey (English)
 description: "Manage macros, windows commands and command-lines."
 content_hash: 6a4253078ecb69c7d35eaeef343e6afff5d81ff7
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/doskey.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/doskey.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/windows/doskey.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/doskey.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # doskey
 

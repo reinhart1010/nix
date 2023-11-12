@@ -3,11 +3,12 @@ layout: page
 title: windows/certutil (हिन्दी)
 description: "सर्टीफिकेट सूचना को प्रबंधित और विन्यसित करने के लिए एक टूल।"
 content_hash: b082aade25021df35f4edbb6fde1da8211e73564
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/certutil.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # certutil
 

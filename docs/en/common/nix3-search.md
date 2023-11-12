@@ -3,12 +3,10 @@ layout: page
 title: common/nix3-search (English)
 description: "Search for packages in a Nix flake."
 content_hash: cf0e78fa875b470b9a74b5bf7ac383aa6e5ac3cc
-last_modified_at: 2023-04-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># nix search
+# nix search
 
 Search for packages in a Nix flake.
 See `tldr nix3 flake` for information about flakes.

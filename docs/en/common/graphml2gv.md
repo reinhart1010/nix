@@ -3,7 +3,8 @@ layout: page
 title: common/graphml2gv (English)
 description: "Convert a graph from `graphml` to `gv` format."
 content_hash: 062f5eec903e4a0ae5d37f7db876fb30706f9c75
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # graphml2gv
 

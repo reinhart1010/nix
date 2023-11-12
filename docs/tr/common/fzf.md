@@ -3,16 +3,14 @@ layout: page
 title: common/fzf (Türkçe)
 description: "Komut satırı belirsiz bulucu."
 content_hash: 819ecec3ed8e72c6a079ee8a3172452b715ea216
-last_modified_at: 2023-03-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/fzf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># fzf
+# fzf
 
 Komut satırı belirsiz bulucu.
 Sk'ya benzer.

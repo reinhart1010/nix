@@ -3,15 +3,17 @@ layout: page
 title: common/docker-commit (français)
 description: "Créer une nouvelle image depuis les changement d'un conteneur."
 content_hash: d7fd314a3adde5e0ee21d43cdf232d8589af6cf5
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/docker-commit.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/docker-commit.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docker commit
+# docker commit
 
 Créer une nouvelle image depuis les changement d'un conteneur.
 Plus d'informations : <https://docs.docker.com/engine/reference/commandline/commit/>.

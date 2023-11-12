@@ -3,6 +3,8 @@ layout: page
 title: common/stolonctl (English)
 description: "CLI for Stolon, a cloud native PostgreSQL manager for PostgreSQL high availability."
 content_hash: 6e73ff40e2439bdf17eaab4e03dead399fc7ea12
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # stolonctl
 

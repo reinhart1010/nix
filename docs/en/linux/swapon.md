@@ -3,7 +3,8 @@ layout: page
 title: linux/swapon (English)
 description: "Enable devices and files for swapping."
 content_hash: 36ef26e9dbcfa29c39e3884bdf1399c90f7b84d8
-last_modified_at: 2023-08-19
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # swapon
 

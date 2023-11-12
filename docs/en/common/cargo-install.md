@@ -3,12 +3,10 @@ layout: page
 title: common/cargo-install (English)
 description: "Build and install a Rust binary."
 content_hash: 43cdea9bee39e77ae4039a749f525564ffb7d91d
-last_modified_at: 2023-11-01
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cargo install
+# cargo install
 
 Build and install a Rust binary.
 More information: <https://doc.rust-lang.org/cargo/commands/cargo-install.html>.

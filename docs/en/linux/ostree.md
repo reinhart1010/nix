@@ -2,19 +2,17 @@
 layout: page
 title: linux/ostree (English)
 description: "Version control for binary files similar to git but optimized for operating system root filesystems."
-content_hash: 8e36f08d480ee7f3f935d53e062e567df761609e
-last_modified_at: 2023-02-09
+content_hash: a6144ac35a6dde6f649b5243366556cca2422dd6
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ostree
+# ostree
 
 Version control for binary files similar to git but optimized for operating system root filesystems.
 OSTree is the foundation for immutable image-based operating systems such as Fedora Silverblue, Fedora IoT or Fedora CoreOS.
 More information: <https://ostreedev.github.io/ostree>.
 
-- Initialize a repository of the files in `$PWD` with metadata in `$PWD/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repo</span>:
+- Initialize a repository of the files in `$PWD` with metadata in `$PWD/path/to/repo`:
 
 `ostree init --repo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/repo</span>
 

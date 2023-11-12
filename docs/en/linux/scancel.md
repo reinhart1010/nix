@@ -3,6 +3,8 @@ layout: page
 title: linux/scancel (English)
 description: "Cancel a Slurm job."
 content_hash: 49b6173ef15fb6c791f40250917609dc80b2afb4
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # scancel
 

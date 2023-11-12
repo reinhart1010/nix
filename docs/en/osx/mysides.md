@@ -3,12 +3,10 @@ layout: page
 title: osx/mysides (English)
 description: "Add, list and remove finder favorites."
 content_hash: dd8e90ba6567e0babd5022f4cc4daf60c906d5bf
-last_modified_at: 2023-10-31
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mysides
+# mysides
 
 Add, list and remove finder favorites.
 More information: <https://github.com/mosen/mysides>.

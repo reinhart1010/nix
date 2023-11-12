@@ -3,7 +3,7 @@ layout: page
 title: windows/choice (বাংলা)
 description: "ব্যবহারকারীকে একটি চয়েস নির্বাচন করতে উৎসাহিত করুন এবং নির্বাচিত চয়েস ইনডেক্স ফিরিয়ে দিন।"
 content_hash: 5381a954ddd1a28bf7c921cf0847afa3d96ee027
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/choice.html
@@ -11,6 +11,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/windows/choice.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choice
 

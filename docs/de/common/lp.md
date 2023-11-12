@@ -3,16 +3,14 @@ layout: page
 title: common/lp (Deutsch)
 description: "Druckt Dateien."
 content_hash: 25152c8ddc9b84fc7d841f7cad25f2b45448ffc4
-last_modified_at: 2022-12-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/lp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># lp
+# lp
 
 Druckt Dateien.
 Weitere Informationen: <https://manned.org/lp>.

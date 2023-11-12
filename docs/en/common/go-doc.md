@@ -3,6 +3,15 @@ layout: page
 title: common/go-doc (English)
 description: "Show documentation for a package or symbol."
 content_hash: 83d28cae326b904a97ddcbdf98e68159b6d7137f
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Türkçe version
+    url: /tr/common/go-doc.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/go-doc.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # go doc
 

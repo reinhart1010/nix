@@ -3,10 +3,12 @@ layout: page
 title: common/exec (italiano)
 description: "Sostituisci il processo corrente con un altro."
 content_hash: c64aa28317eb6c7c07acff82095cfdebb4895eb6
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/exec.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # exec
 

@@ -3,7 +3,8 @@ layout: page
 title: common/sdcv (English)
 description: "StarDict, a command-line dictionary client."
 content_hash: 5367b9a44224fa7469ba84467d25edfd5f23ea3b
-last_modified_at: 2023-06-28
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sdcv
 

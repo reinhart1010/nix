@@ -3,11 +3,10 @@ layout: page
 title: common/webstorm (English)
 description: "The JetBrains JavaScript IDE."
 content_hash: eff96a54b27dbf75977faa5eef07b5892664d862
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># webstorm
+# webstorm
 
 The JetBrains JavaScript IDE.
 More information: <https://www.jetbrains.com/help/webstorm/working-with-the-ide-features-from-command-line.html>.

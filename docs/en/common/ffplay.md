@@ -3,7 +3,8 @@ layout: page
 title: common/ffplay (English)
 description: "A simple and portable media player using the FFmpeg libraries and the SDL library."
 content_hash: 0e696f4899fda903875970aa3eb4e00834475eb4
-last_modified_at: 2023-07-10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ffplay
 

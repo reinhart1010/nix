@@ -3,6 +3,8 @@ layout: page
 title: common/pinky (English)
 description: "Print user information using the `finger` protocol."
 content_hash: 13b3747151797e3ec15e0fc67047b9a7bacb660c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pinky
 

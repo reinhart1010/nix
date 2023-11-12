@@ -3,11 +3,15 @@ layout: page
 title: osx/top (English)
 description: "Display dynamic real-time information about running processes."
 content_hash: 72c16604e6adef207715936fd6ba96b9fd9e581f
-last_modified_at: 2023-06-28
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/osx/top.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/top.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # top
 

@@ -3,6 +3,7 @@ layout: page
 title: common/git-show-ref (Türkçe)
 description: "Referans sıralamak için git komutu."
 content_hash: bb006ed801e2e7076d4334883c4fdbb6acb25e21
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-show-ref.html
@@ -13,6 +14,7 @@ related_topics:
   - title: italiano version
     url: /it/common/git-show-ref.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git show-ref
 

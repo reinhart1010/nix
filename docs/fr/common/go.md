@@ -3,15 +3,20 @@ layout: page
 title: common/go (français)
 description: "Outil de gestion du code source Go."
 content_hash: fc674df9a8e1dac46be91d36bc974e8dfda74bf5
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/go.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/go.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/go.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># go
+# go
 
 Outil de gestion du code source Go.
 Certaines sous-commandes telles que `go build` ont leur propre documentation d'utilisation.

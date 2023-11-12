@@ -3,6 +3,7 @@ layout: page
 title: common/git-worktree (English)
 description: "Manage multiple working trees attached to the same repository."
 content_hash: b178f294190af79e7474904501dc00ff4f6ef26e
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/git-worktree.html
@@ -13,6 +14,10 @@ related_topics:
   - title: italiano version
     url: /it/common/git-worktree.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-worktree.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git worktree
 

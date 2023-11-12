@@ -3,7 +3,11 @@ layout: page
 title: common/bundle (English)
 description: "Dependency manager for the Ruby programming language."
 content_hash: 3f7e8c24efacb822570d0a484282735c5299db24
+last_modified_at: 2023-11-12
 related_topics:
+  - title: français version
+    url: /fr/common/bundle.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/bundle.html
     icon: bi bi-globe
@@ -13,6 +17,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/bundle.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bundle
 

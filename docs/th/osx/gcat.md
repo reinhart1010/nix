@@ -3,7 +3,7 @@ layout: page
 title: osx/gcat (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux cat`"
 content_hash: e827e94f27eadd9e1757d8cfe3261d179ad69901
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gcat.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gcat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gcat
 

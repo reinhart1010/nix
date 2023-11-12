@@ -3,7 +3,7 @@ layout: page
 title: common/git-revert (English)
 description: "Create new commits which reverse the effect of earlier ones."
 content_hash: 823d40b5700872c9bab9197415e780cbc12463a1
-last_modified_at: 2023-02-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/git-revert.html
@@ -17,6 +17,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-revert.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git revert
 

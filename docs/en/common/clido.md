@@ -3,12 +3,10 @@ layout: page
 title: common/clido (English)
 description: "Save-state TODO app for the terminal."
 content_hash: 9d31604c980bd1bf655c9737bf3df8600b220852
-last_modified_at: 2023-06-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># clido
+# clido
 
 Save-state TODO app for the terminal.
 More information: <https://codeberg.org/Oglo12/clido/wiki>.

@@ -3,7 +3,7 @@ layout: page
 title: osx/gtail (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux tail`"
 content_hash: 0d68baea81b86960f715c91209b81e666addace2
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gtail.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gtail.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gtail
 

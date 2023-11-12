@@ -3,7 +3,7 @@ layout: page
 title: linux/lsblk (українська)
 description: "Показує інформацію про пристрої."
 content_hash: 923fba81851958b75291a68e566d5859f6ba65c7
-last_modified_at: 2023-10-30
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/lsblk.html
@@ -20,6 +20,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/lsblk.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lsblk
 

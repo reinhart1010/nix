@@ -3,7 +3,8 @@ layout: page
 title: common/paste (English)
 description: "Merge lines of files."
 content_hash: 6dba12be94741a03cd3748c5908eaeb4cbd99de0
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # paste
 

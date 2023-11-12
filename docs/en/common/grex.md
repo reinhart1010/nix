@@ -3,7 +3,8 @@ layout: page
 title: common/grex (English)
 description: "Generate regular expressions."
 content_hash: 594bd49ff4be3462e4559ba2c3c35419c2736563
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # grex
 

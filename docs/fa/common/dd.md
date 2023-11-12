@@ -3,7 +3,7 @@ layout: page
 title: common/dd (فارسی)
 description: "تبدیل و کپی یک فایل."
 content_hash: dcaf350150fc8d33188a6052a7c93c7303633542
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/dd.html
@@ -17,6 +17,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/dd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dd
 

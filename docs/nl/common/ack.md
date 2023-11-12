@@ -3,8 +3,11 @@ layout: page
 title: common/ack (Nederlands)
 description: "Een zoektool zoals grep, geoptimaliseerd voor ontwikkelaars."
 content_hash: 0600727738e321f0ad9f9d99513d6231df40ee31
-last_modified_at: 2023-05-30
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/ack.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/ack.html
     icon: bi bi-globe
@@ -38,11 +41,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ack.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ack
+# ack
 
 Een zoektool zoals grep, geoptimaliseerd voor ontwikkelaars.
 Zie ook: `rg`, dat is veel sneller.

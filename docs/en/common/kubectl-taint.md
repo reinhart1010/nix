@@ -3,12 +3,10 @@ layout: page
 title: common/kubectl-taint (English)
 description: "Update the taints on one or more nodes."
 content_hash: c69e012de6fbc4415ade387360a4d3a515c7cf48
-last_modified_at: 2023-10-21
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># kubectl taint
+# kubectl taint
 
 Update the taints on one or more nodes.
 More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#taint>.

@@ -3,6 +3,8 @@ layout: page
 title: linux/iwconfig (English)
 description: "Configure and show the parameters of a wireless network interface."
 content_hash: 051e17d4e10abc0e8d0588cc1825edc51cf9e1c4
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # iwconfig
 

@@ -3,7 +3,7 @@ layout: page
 title: osx/ed (español)
 description: "El editor de texto original de Unix."
 content_hash: adb6b3e84cc0c2e730e6aa9ce97b0e69f213e308
-last_modified_at: 2023-08-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/ed.html
@@ -14,11 +14,9 @@ related_topics:
   - title: русский version
     url: /ru/osx/ed.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ed
+# ed
 
 El editor de texto original de Unix.
 Ver también: `awk`, `sed`.

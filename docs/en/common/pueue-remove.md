@@ -3,6 +3,8 @@ layout: page
 title: common/pueue-remove (English)
 description: "Remove tasks from the list. Running or paused tasks need to be killed first."
 content_hash: 3edaae15fc5921ab87b001203753c6a7b1b8ffca
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pueue remove
 

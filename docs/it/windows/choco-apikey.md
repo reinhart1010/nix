@@ -3,7 +3,7 @@ layout: page
 title: windows/choco-apikey (italiano)
 description: "Gestisci le chiavi API per le fonti di Chocolatey."
 content_hash: e5b3fd4b302fed810d9025ce3ae60833c1969211
-last_modified_at: 2023-04-21
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-apikey.html
@@ -20,11 +20,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/windows/choco-apikey.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># choco apikey
+# choco apikey
 
 Gestisci le chiavi API per le fonti di Chocolatey.
 Maggiori informazioni: <https://chocolatey.org/docs/commands-apikey>.

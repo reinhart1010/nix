@@ -3,6 +3,8 @@ layout: page
 title: linux/cpufreq-aperf (English)
 description: "Calculate the average CPU frequency over a time period."
 content_hash: 7fe79c9e31ee8a9eb6caa1b07a218449b0c2e95c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # cpufreq-aperf
 

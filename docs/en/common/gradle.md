@@ -3,10 +3,12 @@ layout: page
 title: common/gradle (English)
 description: "Gradle is an open source build automation system."
 content_hash: 3102adc84356d1bb31af5fa96b7f0a610d54fe7c
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/gradle.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gradle
 

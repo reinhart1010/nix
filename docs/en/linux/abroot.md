@@ -3,7 +3,7 @@ layout: page
 title: linux/abroot (English)
 description: "Utility providing full immutability and atomicity by transacting between 2 root partition states (A⟺B)."
 content_hash: 5b263d451ccd3ffdd9ba183f837cd63e543d22e3
-last_modified_at: 2023-09-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/linux/abroot.html
@@ -11,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/abroot.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # abroot
 

@@ -3,6 +3,7 @@ layout: page
 title: common/docker-service (Türkçe)
 description: "Bir docker daemon'unun üzerindeki servisleri yönet."
 content_hash: 6dafde101350c5513f91d13b121475f296195280
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-service.html
@@ -13,6 +14,10 @@ related_topics:
   - title: français version
     url: /fr/common/docker-service.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/docker-service.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker service
 

@@ -3,11 +3,10 @@ layout: page
 title: linux/qm-wait (English)
 description: "Wait until the virtual machine is stopped."
 content_hash: 651bf2dd4a058b3972bc54fa02e06785f65c6892
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># qm wait
+# qm wait
 
 Wait until the virtual machine is stopped.
 More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.

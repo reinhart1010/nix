@@ -3,6 +3,7 @@ layout: page
 title: linux/dnf (Indonesia)
 description: "Manajer paket untuk distribusi Linux RHEL, Fedora, dan CentOS (pengganti yum)."
 content_hash: dc42dd278b06d079274db7e906e42bc5b0920c11
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/dnf.html
@@ -16,14 +17,24 @@ related_topics:
   - title: español version
     url: /es/linux/dnf.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/dnf.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/dnf.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/dnf.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/dnf.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/linux/dnf.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dnf
+# dnf
 
 Manajer paket untuk distribusi Linux RHEL, Fedora, dan CentOS (pengganti yum).
 Informasi lebih lanjut: <https://dnf.readthedocs.io>.

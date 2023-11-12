@@ -3,7 +3,7 @@ layout: page
 title: linux/alternatives (नेपाली)
 description: "यो आदेश `update-alternatives` को उपनाम हो |"
 content_hash: ccc2254defd0a7346837b9a8f871d3c0023e0be5
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/linux/alternatives.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/linux/alternatives.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # alternatives
 

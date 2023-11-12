@@ -3,11 +3,23 @@ layout: page
 title: linux/uname (English)
 description: "Uname prints information about the machine and operating system it is run on."
 content_hash: 95b0d01ad815e734618294390ead3be8ef942563
+last_modified_at: 2023-11-12
+related_topics:
+  - title: italiano version
+    url: /it/linux/uname.html
+    icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/linux/uname.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/uname.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/uname.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># uname
+# uname
 
 Uname prints information about the machine and operating system it is run on.
 More information: <https://www.gnu.org/software/coreutils/manual/html_node/uname-invocation.html>.

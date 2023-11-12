@@ -3,6 +3,7 @@ layout: page
 title: linux/top (español)
 description: "Muestra información dinámica en tiempo real sobre procesos ejecutándose."
 content_hash: f21671da0b297db1ee64d7394862975cf323fc7f
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/top.html
@@ -13,6 +14,10 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/top.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/linux/top.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # top
 

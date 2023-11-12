@@ -3,11 +3,15 @@ layout: page
 title: common/javadoc (中文)
 description: "从源代码以 HTML 格式生成 Java API 文档。"
 content_hash: 9e5cd142f8a327915eb6bff64874a8da6faf7c02
-last_modified_at: 2023-06-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/javadoc.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/javadoc.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # javadoc
 

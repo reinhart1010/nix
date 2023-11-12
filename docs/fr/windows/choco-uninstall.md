@@ -3,7 +3,7 @@ layout: page
 title: windows/choco-uninstall (français)
 description: "Désinstallez un ou plusieurs packages avec Chocolatey."
 content_hash: 36fa9ef1f4fc4aacdcb5d212bd63f26a23e9922b
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-uninstall.html
@@ -23,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/choco-uninstall.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco uninstall
 

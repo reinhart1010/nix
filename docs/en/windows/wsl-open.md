@@ -3,7 +3,12 @@ layout: page
 title: windows/wsl-open (English)
 description: "Open a file or URL from within Windows Subsystem for Linux in the user's default Windows GUI application."
 content_hash: 7da629d71db0b0c990ba14eb7c6fc3e2d90174e1
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
+related_topics:
+  - title: தமிழ் version
+    url: /ta/windows/wsl-open.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wsl-open
 

@@ -3,7 +3,7 @@ layout: page
 title: android/getprop (Nederlands)
 description: "Toon informatie over Android systeemeigenschappen."
 content_hash: f29f758ab1be0ebcc7387fa1a179e52b2ead27f8
-last_modified_at: 2023-11-02
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/getprop.html
@@ -59,11 +59,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/getprop.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># getprop
+# getprop
 
 Toon informatie over Android systeemeigenschappen.
 Meer informatie: <https://manned.org/getprop>.

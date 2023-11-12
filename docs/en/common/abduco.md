@@ -3,15 +3,31 @@ layout: page
 title: common/abduco (English)
 description: "Terminal session manager."
 content_hash: 54f279c53cf0b4a9cfe29d4a6a3145ce43eefadd
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/abduco.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/abduco.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/abduco.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/abduco.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/abduco.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: Nederlands version
+    url: /nl/common/abduco.html
+    icon: bi bi-globe
+  - title: norsk version
     url: /no/common/abduco.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/abduco.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/abduco.html
@@ -19,6 +35,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/abduco.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # abduco
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/tracepath (English)
 description: "Trace the path to a network host discovering MTU along this path."
 content_hash: d41edc7bb97b32f2e9a7432f0e1ccc6fbc696676
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tracepath
 

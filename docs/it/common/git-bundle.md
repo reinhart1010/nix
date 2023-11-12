@@ -3,6 +3,7 @@ layout: page
 title: common/git-bundle (italiano)
 description: "Colloca oggetti e riferimenti in un archivio."
 content_hash: 4a057daac32a0aef873459909f1c63570c6be143
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-bundle.html
@@ -16,6 +17,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-bundle.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git bundle
 

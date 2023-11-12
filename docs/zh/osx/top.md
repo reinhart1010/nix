@@ -3,10 +3,15 @@ layout: page
 title: osx/top (中文)
 description: "显示运行进程的动态实时信息。"
 content_hash: ce46eace6fee1a79a8637df12f60e927b666d799
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/top.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/top.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # top
 

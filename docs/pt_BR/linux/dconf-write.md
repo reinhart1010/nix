@@ -3,16 +3,14 @@ layout: page
 title: linux/dconf-write (português (Brasil))
 description: "Escreve valores de chave nos bancos de dados dconf."
 content_hash: 5aba5c3da62767c114ec9df0fb6dce56ef7b832a
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/dconf-write.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dconf write
+# dconf write
 
 Escreve valores de chave nos bancos de dados dconf.
 Veja também: `dconf`.

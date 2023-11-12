@@ -3,11 +3,10 @@ layout: page
 title: common/zdiff (English)
 description: "Invoke `diff` on gzipped files."
 content_hash: 2e7b88410edf180eec401fed85518d03041c823d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># zdiff
+# zdiff
 
 Invoke `diff` on gzipped files.
 More information: <https://manned.org/zdiff>.

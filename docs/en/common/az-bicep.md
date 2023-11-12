@@ -3,11 +3,12 @@ layout: page
 title: common/az-bicep (English)
 description: "Bicep CLI command group."
 content_hash: 0cfb617432f18139d12b67b9a1ec7a66247c8526
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/az-bicep.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # az bicep
 

@@ -3,7 +3,7 @@ layout: page
 title: common/act (English)
 description: "Execute GitHub Actions locally using Docker."
 content_hash: c8bc3b3164a37856c94e738128ca1944c2c8fd19
-last_modified_at: 2023-02-21
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/act.html
@@ -14,6 +14,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/act.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/act.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/act.html
     icon: bi bi-globe
@@ -23,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/act.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # act
 

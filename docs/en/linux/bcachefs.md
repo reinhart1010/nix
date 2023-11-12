@@ -3,12 +3,10 @@ layout: page
 title: linux/bcachefs (English)
 description: "Manage `bcachefs` filesystems/devices."
 content_hash: 8782877fa5875224cfe5aad0ae8210f93cf2141c
-last_modified_at: 2023-10-01
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bcachefs
+# bcachefs
 
 Manage `bcachefs` filesystems/devices.
 More information: <https://bcachefs.org/bcachefs-principles-of-operation.pdf>.

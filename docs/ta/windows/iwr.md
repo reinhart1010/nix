@@ -3,7 +3,7 @@ layout: page
 title: windows/iwr (தமிழ்)
 description: "இக்கட்டளை `invoke-webrequest` கட்டளையின் மற்றொருப் பெயர்."
 content_hash: ded8455ee919f8e6a9274f6ec1eca1f29060d600
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/iwr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # iwr
 

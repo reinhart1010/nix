@@ -3,6 +3,8 @@ layout: page
 title: linux/e4defrag (English)
 description: "Defragment an ext4 filesystem."
 content_hash: ec87b9c88b99f0de63fa1d98417ff915e3d8db6e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # e4defrag
 

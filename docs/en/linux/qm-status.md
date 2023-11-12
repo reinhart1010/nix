@@ -3,11 +3,10 @@ layout: page
 title: linux/qm-status (English)
 description: "Show virtual machine status."
 content_hash: 4a668696ba1382fc28a66c33bddb2fbcaf5e879b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># qm status
+# qm status
 
 Show virtual machine status.
 More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.

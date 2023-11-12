@@ -3,10 +3,12 @@ layout: page
 title: linux/blkdiscard (English)
 description: "Discards device sectors on storage devices. Useful for SSDs."
 content_hash: 95d07d8e674a1cd762afef9f81afbe3e9ad5b372
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/linux/blkdiscard.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # blkdiscard
 

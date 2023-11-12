@@ -3,6 +3,7 @@ layout: page
 title: common/git-grep (español)
 description: "Encuentra dentro de archivos en cualquier parte del historial del repositorio."
 content_hash: 990db2b3c3c51a21abc48d4bef4b54209bbfe0c5
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-grep.html
@@ -16,6 +17,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-grep.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git-grep
 

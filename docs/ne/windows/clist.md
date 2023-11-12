@@ -3,7 +3,7 @@ layout: page
 title: windows/clist (नेपाली)
 description: "यो आदेश `choco list` को उपनाम हो |"
 content_hash: 0246bb996018195a6c67982826aa6ddbf2b6e1c8
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/clist.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/clist.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # clist
 

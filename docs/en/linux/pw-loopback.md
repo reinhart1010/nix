@@ -3,6 +3,12 @@ layout: page
 title: linux/pw-loopback (English)
 description: "Tool for creating loopback devices in pipewire."
 content_hash: 42caeb878d139bd6e36c86ba1c91acbb020fd2ea
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Türkçe version
+    url: /tr/linux/pw-loopback.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pw-loopback
 

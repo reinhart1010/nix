@@ -3,15 +3,14 @@ layout: page
 title: common/whois (中文)
 description: "WHOIS（RFC 3912）协议的命令行客户端。"
 content_hash: 099f95efa64e62068704bf52d14fbd4089725ff9
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/whois.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># whois
+# whois
 
 WHOIS（RFC 3912）协议的命令行客户端。
 更多信息：<https://github.com/rfc1036/whois>.

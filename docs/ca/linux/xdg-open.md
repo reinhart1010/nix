@@ -3,7 +3,7 @@ layout: page
 title: linux/xdg-open (català)
 description: "Obre un arxiu o URL en l'aplicació predeterminada del usuari."
 content_hash: f8f2b08e251f1242dc1aca625e03a2ca7957794f
-last_modified_at: 2023-07-27
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/xdg-open.html
@@ -11,6 +11,7 @@ related_topics:
   - title: español version
     url: /es/linux/xdg-open.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xdg-open
 

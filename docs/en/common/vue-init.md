@@ -3,10 +3,12 @@ layout: page
 title: common/vue-init (English)
 description: "Legacy project initialization subcommand of the Vue.js framework."
 content_hash: 0b89299afc9e1863fe242cf89cceda5d18e9c612
+last_modified_at: 2023-11-12
 related_topics:
   - title: Indonesia version
     url: /id/common/vue-init.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # vue init
 

@@ -3,6 +3,7 @@ layout: page
 title: linux/aspell (Deutsch)
 description: "Interaktiver Korrekturleser."
 content_hash: de1b5cddd4b2e0dce97e78a5ad449b6357460c21
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/aspell.html
@@ -13,9 +14,13 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/aspell.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/linux/aspell.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/aspell.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aspell
 

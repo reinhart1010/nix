@@ -3,7 +3,7 @@ layout: page
 title: common/nohup (中文 (繁體, 台灣))
 description: "當終端被關閉時允許程序繼續存在運作。"
 content_hash: ce371337b1992d81f22f494e6b4a144eb495ccde
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/nohup.html
@@ -17,6 +17,7 @@ related_topics:
   - title: svenska version
     url: /sv/common/nohup.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nohup
 

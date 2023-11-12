@@ -3,11 +3,12 @@ layout: page
 title: linux/toolbox (English)
 description: "Tool for containerized command-line environments on Linux."
 content_hash: 81c25dc8857f6d7fe8b5800a883e15c2d61d5de7
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: தமிழ் version
     url: /ta/linux/toolbox.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # toolbox
 

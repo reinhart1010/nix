@@ -3,11 +3,12 @@ layout: page
 title: windows/rdpsign (English)
 description: "A tool for signing Remote Desktop Protocol (RDP) files."
 content_hash: 897fec1e24aa7a430b3ee41bf22fc5a3dfc1e99e
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/windows/rdpsign.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rdpsign
 

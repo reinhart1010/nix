@@ -3,6 +3,7 @@ layout: page
 title: linux/dmidecode (català)
 description: "Mostra la taula de continguts del DMI (també conegut com SMBIOS) en un format llegible per humans."
 content_hash: a933397c242110f5c3cfd5390929acea2ed85267
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/dmidecode.html
@@ -13,6 +14,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/dmidecode.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dmidecode
 

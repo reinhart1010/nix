@@ -3,7 +3,7 @@ layout: page
 title: common/cargo (English)
 description: "Manage Rust projects and their module dependencies (crates)."
 content_hash: 3a6dab702b8548873ced0ec11f7d5fcf0bcf2bdc
-last_modified_at: 2023-09-22
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/cargo.html
@@ -29,6 +29,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/cargo.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cargo
 

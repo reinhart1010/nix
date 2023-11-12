@@ -3,12 +3,10 @@ layout: page
 title: linux/postconf (English)
 description: "Postfix configuration utility."
 content_hash: cdd0991d85db613489849e34f1ed19674f20d5fb
-last_modified_at: 2023-10-08
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># postconf
+# postconf
 
 Postfix configuration utility.
 This command displays the values of the `main.cf` configuration parameters by default and warns about possible mistyped parameter names. It can also change the `main.cf` configuration parameter values.

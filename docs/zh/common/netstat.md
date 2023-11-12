@@ -3,19 +3,18 @@ layout: page
 title: common/netstat (中文)
 description: "显示与网络相关的信息，如打开的连接、打开的套接字端口等。"
 content_hash: 614f6127cbc5aaf9c64796b2ef7675afb7dc88b9
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/netstat.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/netstat.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/netstat.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># netstat
 

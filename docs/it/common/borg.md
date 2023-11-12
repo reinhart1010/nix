@@ -3,6 +3,7 @@ layout: page
 title: common/borg (italiano)
 description: "Strumento di backup con deduplicazione."
 content_hash: 8152efe5f35fa41fb50032f1a730fa343bbffa6d
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/borg.html
@@ -16,6 +17,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/borg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # borg
 

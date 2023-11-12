@@ -3,7 +3,7 @@ layout: page
 title: common/apg (中文)
 description: "生成任意复杂度的随机密码。"
 content_hash: df2668d661c381515812a9b074d2c34ba7cb5bae
-last_modified_at: 2023-05-22
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/apg.html
@@ -23,6 +23,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/apg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apg
 

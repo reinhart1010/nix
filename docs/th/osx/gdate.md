@@ -3,7 +3,7 @@ layout: page
 title: osx/gdate (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux date`"
 content_hash: e8c408d4dd2abd297efe98360aa390dd8288a346
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gdate.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gdate.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gdate
 

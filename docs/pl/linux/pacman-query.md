@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman-query (polski)
 description: "Narzędzie do zarządzania pakietami w Arch Linuksie."
 content_hash: 67935301acc75645aeef4e587bcf12209a3fbe92
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-query.html
@@ -20,11 +20,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/pacman-query.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pacman --query
+# pacman --query
 
 Narzędzie do zarządzania pakietami w Arch Linuksie.
 Zobacz także: `pacman`.

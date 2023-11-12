@@ -3,6 +3,7 @@ layout: page
 title: linux/brctl (中文)
 description: "以太网桥管理。"
 content_hash: 3f61197ff86cdc06e3fbdc1ad95d475c6571f203
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/brctl.html
@@ -10,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/brctl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # brctl
 

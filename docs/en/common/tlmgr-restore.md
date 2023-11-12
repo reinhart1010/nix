@@ -3,11 +3,10 @@ layout: page
 title: common/tlmgr-restore (English)
 description: "Restore package backups created with `tlmgr backup`."
 content_hash: cc0586d9ad850c70fec8ac4aa2c100cc257cfacf
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># tlmgr restore
+# tlmgr restore
 
 Restore package backups created with `tlmgr backup`.
 The default backup directory is specified by the `backupdir` option, and can be obtained with `tlmgr option`.

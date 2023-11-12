@@ -3,6 +3,8 @@ layout: page
 title: common/pio (English)
 description: "Development environment for embedded boards."
 content_hash: 2be44903bcb2844ab19b7249337a241cd94d7f85
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pio
 

@@ -3,7 +3,7 @@ layout: page
 title: common/date (português (Brasil))
 description: "Define ou exibe a data do sistema."
 content_hash: 1e0b6bde0153d87e0ae65f92d24cbab8b4afd871
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/date.html
@@ -20,17 +20,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/date.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/date.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># date
+# date
 
 Define ou exibe a data do sistema.
 Mais informações: <https://www.gnu.org/software/coreutils/date>.

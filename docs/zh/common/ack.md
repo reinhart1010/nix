@@ -3,9 +3,16 @@ layout: page
 title: common/ack (中文)
 description: "一个类似 grep 的搜索工具，为程序员优化。"
 content_hash: 7229a6a4871c97d8f180b69494a4486d89502b74
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/ack.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/ack.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/ack.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/ack.html
@@ -16,7 +23,10 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/ack.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: Nederlands version
+    url: /nl/common/ack.html
+    icon: bi bi-globe
+  - title: norsk version
     url: /no/common/ack.html
     icon: bi bi-globe
   - title: polski version
@@ -31,6 +41,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/ack.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ack
 

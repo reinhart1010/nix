@@ -3,7 +3,12 @@ layout: page
 title: common/airdecap-ng (English)
 description: "Decrypt a WEP, WPA or WPA2 encrypted capture file."
 content_hash: 40458b5a6ff885299740fd16bfcd4fcbfb737551
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Nederlands version
+    url: /nl/common/airdecap-ng.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # airdecap-ng
 

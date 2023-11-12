@@ -3,12 +3,10 @@ layout: page
 title: common/cargo-report (English)
 description: "Display various kinds of reports."
 content_hash: 4faa876674c05bda18ad2f348dda590c49f4be2a
-last_modified_at: 2023-10-02
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cargo report
+# cargo report
 
 Display various kinds of reports.
 More information: <https://doc.rust-lang.org/cargo/commands/cargo-report.html>.

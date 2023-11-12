@@ -3,11 +3,12 @@ layout: page
 title: osx/yaa (español)
 description: "Crea y manipula archivos YAA."
 content_hash: 935b4f153fa3b9a04db1781ac387e9769686ac7d
-last_modified_at: 2023-05-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/yaa.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # yaa
 

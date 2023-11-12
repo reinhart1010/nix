@@ -3,6 +3,7 @@ layout: page
 title: common/git-pull (Deutsch)
 description: "Hole Branches von einem entfernten Repository und binde sie in das lokale Repository ein."
 content_hash: 8a714e31955c6540c6dfbe7abd8ff18de782bc1a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-pull.html
@@ -13,9 +14,25 @@ related_topics:
   - title: français version
     url: /fr/common/git-pull.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/git-pull.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-pull.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-pull.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-pull.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git-pull.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/git-pull.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git pull
 

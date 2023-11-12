@@ -3,11 +3,12 @@ layout: page
 title: linux/pw-play (English)
 description: "Record audio files through pipewire."
 content_hash: d594150f5b4075ea5d85cf9e840e21dedeab970e
-last_modified_at: 2023-10-23
+last_modified_at: 2023-11-12
 related_topics:
   - title: Türkçe version
     url: /tr/linux/pw-play.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pw-play
 

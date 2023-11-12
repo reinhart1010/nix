@@ -3,7 +3,7 @@ layout: page
 title: common/dust (Deutsch)
 description: "Dust gib einen sofortigen Überblick, welche Verzeichnisse Festplatten Speicherplatz benutzen."
 content_hash: 1db886ed2093fa7a737e8cb65d2f6d27f5ab3443
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/dust.html
@@ -11,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/dust.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dust
 

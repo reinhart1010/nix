@@ -3,6 +3,12 @@ layout: page
 title: common/ghcup (English)
 description: "Haskell toolchain installer."
 content_hash: d1a0a63816b87b9681681b0175447a8d2afdf8b1
+last_modified_at: 2023-11-12
+related_topics:
+  - title: русский version
+    url: /ru/common/ghcup.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ghcup
 

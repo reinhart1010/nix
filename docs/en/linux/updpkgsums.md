@@ -3,11 +3,10 @@ layout: page
 title: linux/updpkgsums (English)
 description: "Update the checksums of the sources in a `PKGBUILD`."
 content_hash: 117bf56fd7e696ba118b18b63929e2c0463bc8db
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># updpkgsums
+# updpkgsums
 
 Update the checksums of the sources in a `PKGBUILD`.
 Unless a preexisting hashing algorithm is used, SHA256 will be used.

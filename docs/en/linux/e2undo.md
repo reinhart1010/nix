@@ -3,6 +3,8 @@ layout: page
 title: linux/e2undo (English)
 description: "Replay undo logs for an ext2/ext3/ext4 filesystem."
 content_hash: 33dcdfdc9bf378ba2b76459b85a4aba711314a22
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # e2undo
 

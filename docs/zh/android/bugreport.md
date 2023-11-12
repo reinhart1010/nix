@@ -3,7 +3,7 @@ layout: page
 title: android/bugreport (中文)
 description: "显示安卓的 Bug 报告。"
 content_hash: 727a57d32dd8110afc979ac950f17fe3e5cbed90
-last_modified_at: 2023-10-21
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreport.html
@@ -35,6 +35,12 @@ related_topics:
   - title: 한국어 version
     url: /ko/android/bugreport.html
     icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/android/bugreport.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/android/bugreport.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/android/bugreport.html
     icon: bi bi-globe
@@ -53,12 +59,16 @@ related_topics:
   - title: Türkçe version
     url: /tr/android/bugreport.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/android/bugreport.html
+    icon: bi bi-globe
   - title: o‘zbek version
     url: /uz/android/bugreport.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/bugreport.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bugreport
 

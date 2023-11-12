@@ -3,6 +3,8 @@ layout: page
 title: common/tlmgr-shell (English)
 description: "Start an interactive shell of the native TeX Live manager."
 content_hash: 61d97b53e17ae3f081a8d8f5458130aec2a050fc
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tlmgr shell
 

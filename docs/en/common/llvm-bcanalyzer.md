@@ -3,6 +3,8 @@ layout: page
 title: common/llvm-bcanalyzer (English)
 description: "LLVM Bitcode (`.bc`) analyzer."
 content_hash: cff093f93bf248938fa39617acd255a07bda1e37
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # llvm-bcanalyzer
 

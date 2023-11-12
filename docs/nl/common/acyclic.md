@@ -3,7 +3,7 @@ layout: page
 title: common/acyclic (Nederlands)
 description: "Maak een gerichte grafiek acyclisch door enkele randen om te keren."
 content_hash: 17c5686543451cdfc770e0f021dc462be134e3be
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/acyclic.html
@@ -17,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/acyclic.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # acyclic
 

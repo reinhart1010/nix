@@ -3,7 +3,8 @@ layout: page
 title: common/jdupes (English)
 description: "A powerful duplicate file finder and an enhanced fork of fdupes."
 content_hash: ad92d7dbffb6d7868185824f73f0227179577281
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # jdupes
 

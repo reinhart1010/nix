@@ -3,7 +3,8 @@ layout: page
 title: linux/konsave (English)
 description: "Save and apply your Linux customizations with just one command."
 content_hash: c490d59102cd6707a10d9e70aa0726efd4ac0ab8
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # konsave
 

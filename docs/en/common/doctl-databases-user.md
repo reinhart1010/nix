@@ -3,12 +3,10 @@ layout: page
 title: common/doctl-databases-user (English)
 description: "View details for, and create, database users."
 content_hash: 332a3014b8dd079701ca566b6df5617a6f8cf0d6
-last_modified_at: 2023-10-12
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># doctl databases user
+# doctl databases user
 
 View details for, and create, database users.
 More information: <https://docs.digitalocean.com/reference/doctl/reference/databases/user>.

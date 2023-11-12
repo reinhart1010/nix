@@ -3,7 +3,8 @@ layout: page
 title: common/u3d (English)
 description: "A set of tools to interact with Unity."
 content_hash: bc8b974ba6a22d6be2e8a3051d14ece7e8e34800
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # u3d
 

@@ -3,12 +3,10 @@ layout: page
 title: linux/slurmrestd (English)
 description: "Interface to Slurm via REST API. It can be used in two modes: *Inetd Mode* & *Listen Mode*."
 content_hash: b5a47b62639cfa992f6332d32cc40d024928410d
-last_modified_at: 2023-10-22
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># slurmrestd
+# slurmrestd
 
 Interface to Slurm via REST API. It can be used in two modes: *Inetd Mode* & *Listen Mode*.
 More information: <https://slurm.schedmd.com/slurmrestd.html>.

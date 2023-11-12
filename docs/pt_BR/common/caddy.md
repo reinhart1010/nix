@@ -3,15 +3,17 @@ layout: page
 title: common/caddy (português (Brasil))
 description: "Um servidor web open source, pronto para empresas, com HTTPS automático, escrito em Go."
 content_hash: 4b4ee7498b38a8e44f6276ccdf6d6315c5939de8
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/caddy.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/caddy.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># caddy
+# caddy
 
 Um servidor web open source, pronto para empresas, com HTTPS automático, escrito em Go.
 Mais informações: <https://caddyserver.com>.

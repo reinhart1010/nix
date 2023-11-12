@@ -3,12 +3,10 @@ layout: page
 title: linux/help (English)
 description: "Display information about Bash builtin commands."
 content_hash: 6ad002dbd539f42ec1f07e4bc34d7c5425f82213
-last_modified_at: 2023-07-30
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># help
+# help
 
 Display information about Bash builtin commands.
 More information: <https://www.gnu.org/software/bash/manual/bash.html#index-help>.

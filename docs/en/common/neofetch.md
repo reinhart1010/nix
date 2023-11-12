@@ -3,7 +3,7 @@ layout: page
 title: common/neofetch (English)
 description: "Display information about your operating system, software and hardware."
 content_hash: 86f09a7bb7fb43cef626adc599a44438b9a0e50c
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: हिन्दी version
     url: /hi/common/neofetch.html
@@ -14,6 +14,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/neofetch.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # neofetch
 

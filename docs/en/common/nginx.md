@@ -3,10 +3,18 @@ layout: page
 title: common/nginx (English)
 description: "Nginx web server."
 content_hash: 6f8426379aa40cf61eca3a06fd5712ec8874ca2f
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/nginx.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/nginx.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/nginx.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nginx
 

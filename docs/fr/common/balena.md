@@ -3,6 +3,7 @@ layout: page
 title: common/balena (français)
 description: "Interagis avec balenaCloud, openBAlena et l'API balena depuis la ligne de commande."
 content_hash: 060a6ddf5764cf0d6fb8cbfb1665f714aad0a0ea
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/balena.html
@@ -10,11 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/balena.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># balena
+# balena
 
 Interagis avec balenaCloud, openBAlena et l'API balena depuis la ligne de commande.
 Plus d'informations : <https://www.balena.io/docs/reference/cli/>.

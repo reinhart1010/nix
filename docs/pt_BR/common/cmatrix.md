@@ -3,6 +3,7 @@ layout: page
 title: common/cmatrix (português (Brasil))
 description: "Exibe um padrão semelhante à Matrix rolando na tela do terminal."
 content_hash: 0868c5e08a59f1da261c38312a2ce484a62f8602
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/common/cmatrix.html
@@ -13,11 +14,9 @@ related_topics:
   - title: italiano version
     url: /it/common/cmatrix.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cmatrix
+# cmatrix
 
 Exibe um padrão semelhante à Matrix rolando na tela do terminal.
 Mais informações: <https://github.com/abishekvashok/cmatrix>.

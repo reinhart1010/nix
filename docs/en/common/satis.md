@@ -3,6 +3,8 @@ layout: page
 title: common/satis (English)
 description: "The command-line utility for the Satis static Composer repository."
 content_hash: 1e34e20ac10724fcd8a45b0b289e52f347b12906
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # satis
 

@@ -3,11 +3,10 @@ layout: page
 title: common/zegrep (English)
 description: "Find extended regular expression patterns in compressed files using `egrep`."
 content_hash: d8e2b4674822696522a5ebf87944032ed5787ba4
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># zegrep
+# zegrep
 
 Find extended regular expression patterns in compressed files using `egrep`.
 More information: <https://www.unix.com/man-page/freebsd/1/zegrep/>.

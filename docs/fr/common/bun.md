@@ -3,16 +3,20 @@ layout: page
 title: common/bun (français)
 description: "Moteur d'exécution et boîte à outils JavaScript."
 content_hash: b8a157ec2c4e8ed34d90ce1c84cf1a51954685bc
-last_modified_at: 2023-10-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/bun.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/bun.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/bun.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bun
+# bun
 
 Moteur d'exécution et boîte à outils JavaScript.
 Comprend un empaqueteur, un exécuteur de tests et un gestionnaire de paquets.

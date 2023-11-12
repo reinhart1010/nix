@@ -3,10 +3,12 @@ layout: page
 title: windows/reg-export (中文)
 description: "将指定的子键和值导出到文件中。"
 content_hash: dcadaae99347d667a3c160103cd37577c0905d88
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/reg-export.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # reg export
 

@@ -3,7 +3,7 @@ layout: page
 title: common/apg (français)
 description: "Crée arbitrairement les mots de passe aléatoires et complexes."
 content_hash: d6b14a7adc6d8b8ac3011063cf879d59158447a9
-last_modified_at: 2023-05-22
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/apg.html
@@ -23,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/apg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apg
 

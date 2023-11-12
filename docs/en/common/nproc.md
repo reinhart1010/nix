@@ -3,6 +3,8 @@ layout: page
 title: common/nproc (English)
 description: "Print the number of processing units (normally CPUs) available."
 content_hash: f48a356d7714ffeac53c805d690a937232e50e1f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # nproc
 

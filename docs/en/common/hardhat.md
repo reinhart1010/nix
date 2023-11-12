@@ -3,6 +3,8 @@ layout: page
 title: common/hardhat (English)
 description: "A development environment for Ethereum software."
 content_hash: d85dd96a58024a16225d3a5c724a70d805f91060
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # hardhat
 

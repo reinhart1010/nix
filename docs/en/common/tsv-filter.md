@@ -3,11 +3,10 @@ layout: page
 title: common/tsv-filter (English)
 description: "Filter lines of a TSV file by running tests against individual fields."
 content_hash: 72da1286ea802cac4f421e3437f7e6af858d5f0e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># tsv-filter
+# tsv-filter
 
 Filter lines of a TSV file by running tests against individual fields.
 More information: <https://github.com/eBay/tsv-utils#tsv-filter>.

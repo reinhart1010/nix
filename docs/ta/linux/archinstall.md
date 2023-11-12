@@ -3,6 +3,7 @@ layout: page
 title: linux/archinstall (தமிழ்)
 description: "ஒரு திருப்பத்துடன் வழிகாட்டப்பட்ட ஆர்ச் லினக்ஸ் நிறுவி."
 content_hash: e96539956577749ad26039e11a1077db23046d08
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/archinstall.html
@@ -10,12 +11,22 @@ related_topics:
   - title: English version
     url: /en/linux/archinstall.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/archinstall.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/archinstall.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/archinstall.html
+    icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/linux/archinstall.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/archinstall.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # archinstall
 

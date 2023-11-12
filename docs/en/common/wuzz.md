@@ -3,7 +3,8 @@ layout: page
 title: common/wuzz (English)
 description: "Tool to interactively inspect HTTP requests and responses."
 content_hash: 9957c581cadccdb12ab47d805148d2c5b7c2652c
-last_modified_at: 2023-06-28
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # wuzz
 

@@ -3,7 +3,7 @@ layout: page
 title: common/aws-backup (한국어)
 description: "Amazon Web Services와 관련 데이터를 보호하기 위해 설계된 통합 백업 서비스."
 content_hash: 5b03f643e1234720e5b65d425708ba50e24f9893
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-backup.html
@@ -11,6 +11,7 @@ related_topics:
   - title: English version
     url: /en/common/aws-backup.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws backup
 

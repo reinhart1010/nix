@@ -3,7 +3,7 @@ layout: page
 title: common/fortune (English)
 description: "Print a random quotation (fortune-cookie style)."
 content_hash: 6182e41f18134370b42ca98461b8fff80641e252
-last_modified_at: 2022-12-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/fortune.html
@@ -11,6 +11,7 @@ related_topics:
   - title: español version
     url: /es/common/fortune.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fortune
 

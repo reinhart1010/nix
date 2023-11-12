@@ -3,7 +3,8 @@ layout: page
 title: common/qutebrowser (English)
 description: "A keyboard-driven, vim-like browser based on PyQt5."
 content_hash: d8df5cb2a75b6c5fa042597ef80eabeb8f4699cd
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # qutebrowser
 

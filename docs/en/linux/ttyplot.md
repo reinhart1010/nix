@@ -3,7 +3,8 @@ layout: page
 title: linux/ttyplot (English)
 description: "A realtime plotting utility for the command-line with data input from `stdin`."
 content_hash: 9601c084ded02f910ff92c6cf1370bf7d2db1b53
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ttyplot
 

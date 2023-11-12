@@ -3,11 +3,12 @@ layout: page
 title: common/sccmap (中文)
 description: "提取有向图的强连通分量。"
 content_hash: 56244ce863421e7b8b92083e0984cb5b7f386382
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/sccmap.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sccmap
 

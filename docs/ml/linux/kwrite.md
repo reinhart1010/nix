@@ -3,10 +3,12 @@ layout: page
 title: linux/kwrite (മലയാളം)
 description: "KDE ഡെസ്ക്ടോപ് പ്രോജക്ടിന്റെ ടെക്സ്റ്റ് എഡിറ്റർ."
 content_hash: 90d0dd2a8a1b5608a3c51955470f85e8ec97ceb9
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/kwrite.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # kwrite
 

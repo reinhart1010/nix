@@ -3,7 +3,7 @@ layout: page
 title: common/git-prune (Türkçe)
 description: "Nesne veritabanından erişilemeyen tüm nesneleri budamaya yarayan git komutu."
 content_hash: acfa1d910b3510298130e5bbbbf12c35bc4a9116
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-prune.html
@@ -11,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/git-prune.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git prune
 

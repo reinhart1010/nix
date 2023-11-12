@@ -3,7 +3,7 @@ layout: page
 title: windows/chrome (বাংলা)
 description: "এই আদেশটির উপনাম `chromium`।"
 content_hash: 119b767c993d7b1faa6c427f1e7556bae4459346
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/chrome.html
@@ -92,6 +92,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/chrome.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chrome
 

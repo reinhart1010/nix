@@ -3,12 +3,10 @@ layout: page
 title: linux/slurmdbd (English)
 description: "Provides a secure enterprise-wide interface to a database for Slurm."
 content_hash: daae23c0574176f3f7956c897ebdc05f823f63e0
-last_modified_at: 2023-10-22
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># slurmdbd
+# slurmdbd
 
 Provides a secure enterprise-wide interface to a database for Slurm.
 More information: <https://slurm.schedmd.com/slurmdbd.html>.

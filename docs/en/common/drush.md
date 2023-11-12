@@ -3,10 +3,12 @@ layout: page
 title: common/drush (English)
 description: "A command-line shell and scripting interface for Drupal."
 content_hash: fd143e5ce736eaa964e592c37506074d22ad3f90
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/drush.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # drush
 

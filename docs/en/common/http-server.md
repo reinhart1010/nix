@@ -3,6 +3,8 @@ layout: page
 title: common/http-server (English)
 description: "Simple static HTTP server to serve static files."
 content_hash: becc1f03c5f96eef8c53420210da8336c49c493a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # http-server
 

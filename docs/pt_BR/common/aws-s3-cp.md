@@ -3,11 +3,12 @@ layout: page
 title: common/aws-s3-cp (português (Brasil))
 description: "Copia arquivos locais ou objetos do S3 para outros diretórios locais ou no S3."
 content_hash: f04fac4e58c7a3b2b61586240daaf6938416bc76
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/aws-s3-cp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws s3 cp
 

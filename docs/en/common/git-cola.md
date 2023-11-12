@@ -3,6 +3,8 @@ layout: page
 title: common/git-cola (English)
 description: "A powerful Git GUI with a slick and intuitive user interface."
 content_hash: c545578f75fa5357eeb21440ddf56ace281eccb3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git cola
 

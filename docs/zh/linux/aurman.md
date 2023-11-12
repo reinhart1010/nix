@@ -3,10 +3,12 @@ layout: page
 title: linux/aurman (中文)
 description: "用来构建和安装 AUR 包的 Arch Linux 实用工具。"
 content_hash: b7de5838c8569749475652f293a0ffb26f4aa77a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/aurman.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aurman
 

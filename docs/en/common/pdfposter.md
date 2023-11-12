@@ -3,6 +3,8 @@ layout: page
 title: common/pdfposter (English)
 description: "Convert a large-sheeted PDF into multiple A4 pages for printing."
 content_hash: 8e6fbc404990b2c36807be9be5d80ec0cacb91e8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pdfposter
 

@@ -3,6 +3,8 @@ layout: page
 title: common/solo (English)
 description: "Interact with Solo hardware security keys."
 content_hash: e55656597c4f249642af429a46703f46d464d9d9
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # solo
 

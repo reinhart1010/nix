@@ -3,6 +3,7 @@ layout: page
 title: linux/sysctl (Deutsch)
 description: "Laufzeit-Kernelparameter auflisten und ändern."
 content_hash: 556f8f879b1426b3c18829f595864909f030a808
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/sysctl.html
@@ -10,6 +11,7 @@ related_topics:
   - title: français version
     url: /fr/linux/sysctl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sysctl
 

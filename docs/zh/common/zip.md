@@ -3,6 +3,7 @@ layout: page
 title: common/zip (中文)
 description: "将文件打包并压缩（存档）为 zip 文件。"
 content_hash: 73202f94ea9b4574f8793a8f563bfd0b6601fbe1
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/zip.html
@@ -16,8 +17,12 @@ related_topics:
   - title: русский version
     url: /ru/common/zip.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# zip
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># zip
 
 将文件打包并压缩（存档）为 zip 文件。
 更多信息：<https://manned.org/zip>.

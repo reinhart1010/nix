@@ -3,6 +3,7 @@ layout: page
 title: common/git-cherry (français)
 description: "Rechercher des commits qui n'ont pas encore été appliqués en amont."
 content_hash: 5d056f6580fc78285fa4feca70df3927f9fb82fa
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-cherry.html
@@ -10,6 +11,10 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/git-cherry.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-cherry.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git cherry
 

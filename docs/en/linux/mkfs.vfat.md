@@ -3,6 +3,8 @@ layout: page
 title: linux/mkfs.vfat (English)
 description: "Creates an MS-DOS filesystem inside a partition."
 content_hash: 9ca3c706aed1ecfb774968adde0eb730e2fbaacf
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mkfs.vfat
 

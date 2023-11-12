@@ -3,6 +3,8 @@ layout: page
 title: linux/maim (English)
 description: "Screenshot utility."
 content_hash: 49644ebf30b02bcd8120a6dbe9064b1533585f02
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # maim
 

@@ -3,7 +3,8 @@ layout: page
 title: common/gitlint (English)
 description: "Git commit message linter checks your commit messages for style."
 content_hash: 788bbbbe78b7cd4e9713ebee925fee168ebdd8fb
-last_modified_at: 2023-05-02
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gitlint
 

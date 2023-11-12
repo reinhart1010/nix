@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman (English)
 description: "Arch Linux package manager utility."
 content_hash: 88d25badeb7463e9dbc46cad8018c28dbdaf04b5
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -32,9 +32,13 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/pacman.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/pacman.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/pacman.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pacman
 

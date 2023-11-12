@@ -3,6 +3,8 @@ layout: page
 title: common/packtpub (English)
 description: "Download freely offered books from packtpub.com."
 content_hash: 720e92a0e101e5160c411d23202730b23fecac2c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # packtpub
 

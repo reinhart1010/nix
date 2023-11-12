@@ -3,7 +3,7 @@ layout: page
 title: common/act (Nederlands)
 description: "Voer GitHub-acties lokaal uit met behulp van Docker."
 content_hash: 3a88f77f69e2c5d253b10447ae808769c8abe83e
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/act.html
@@ -26,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/act.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # act
 

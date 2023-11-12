@@ -3,7 +3,7 @@ layout: page
 title: common/bundler (नेपाली)
 description: "यो आदेश `bundle` को उपनाम हो |"
 content_hash: a2fa0c523414f47154a081597bc4e835089e9b19
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/bundler.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/bundler.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bundler
 

@@ -3,7 +3,7 @@ layout: page
 title: common/calc (português (Brasil))
 description: "Uma calculadora interativa de precisão arbitrária no terminal."
 content_hash: b59bf2a7e9a258be4654eff8b5e70bf5bb555e57
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/common/calc.html
@@ -29,17 +29,9 @@ related_topics:
   - title: ไทย version
     url: /th/common/calc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/calc.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># calc
+# calc
 
 Uma calculadora interativa de precisão arbitrária no terminal.
 Mais informações: <https://github.com/lcn2/calc>.

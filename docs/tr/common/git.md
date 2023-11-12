@@ -3,6 +3,7 @@ layout: page
 title: common/git (Türkçe)
 description: "Dağıtım sürüö kontrol sistemi."
 content_hash: 006212cdbb3e5a5a7345d6d53044599e9171c9f6
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
@@ -22,6 +23,9 @@ related_topics:
   - title: italiano version
     url: /it/common/git.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/git.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/git.html
     icon: bi bi-globe
@@ -37,12 +41,16 @@ related_topics:
   - title: српски version
     url: /sr/common/git.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/git.html
+    icon: bi bi-globe
   - title: українська version
     url: /uk/common/git.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/git.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git
 

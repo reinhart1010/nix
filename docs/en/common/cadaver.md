@@ -3,7 +3,8 @@ layout: page
 title: common/cadaver (English)
 description: "WebDAV client for Unix."
 content_hash: 9fab353ca3f8214023df42bc2844074bd7251eeb
-last_modified_at: 2023-10-24
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # cadaver
 

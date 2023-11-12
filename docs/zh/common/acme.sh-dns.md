@@ -3,15 +3,23 @@ layout: page
 title: common/acme.sh-dns (中文)
 description: "使用 DNS-01 挑战来签发 TLS 证书。"
 content_hash: 28a40fbb07e93ddd2ef3dbcf11d311d999a17156
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/acme.sh-dns.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/acme.sh-dns.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/acme.sh-dns.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/acme.sh-dns.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># acme.sh --dns
+# acme.sh --dns
 
 使用 DNS-01 挑战来签发 TLS 证书。
 更多信息：<https://github.com/acmesh-official/acme.sh/wiki>.

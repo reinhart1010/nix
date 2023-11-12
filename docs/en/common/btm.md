@@ -3,10 +3,15 @@ layout: page
 title: common/btm (English)
 description: "An alternative to `top`."
 content_hash: 68b6b07c70ed9d7aea1bcea7efaab05624e86b6f
+last_modified_at: 2023-11-12
 related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/common/btm.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/btm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # btm
 

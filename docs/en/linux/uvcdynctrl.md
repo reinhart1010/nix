@@ -2,7 +2,9 @@
 layout: page
 title: linux/uvcdynctrl (English)
 description: "A libwebcam command-line tool to manage dynamic controls in uvcvideo."
-content_hash: 8a6392975cdc3f1a0cd1cf5e3425a060e06e9eb3
+content_hash: c3a7880ca0d08645337933285dccdb2b4360ecf9
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # uvcdynctrl
 
@@ -21,7 +23,7 @@ More information: <https://manned.org/uvcdynctrl>.
 
 `uvcdynctrl -c`
 
-- Set a new control value (for negative values, add -- before `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-value</span>`):
+- Set a new control value (for negative values, use `-- -value`):
 
 `uvcdynctrl -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">control_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span>
 

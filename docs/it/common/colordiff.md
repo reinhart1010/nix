@@ -3,11 +3,12 @@ layout: page
 title: common/colordiff (italiano)
 description: "Un'utilità per aggiungere colore all'output diff."
 content_hash: 235e522804f845398dca51b5086967818db6b90f
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/colordiff.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # colordiff
 

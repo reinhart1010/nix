@@ -3,6 +3,12 @@ layout: page
 title: common/john (English)
 description: "Password cracker."
 content_hash: 7ba92c99a6ee43c878a3007c9e4f32b3e11462fd
+last_modified_at: 2023-11-12
+related_topics:
+  - title: français version
+    url: /fr/common/john.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # john
 

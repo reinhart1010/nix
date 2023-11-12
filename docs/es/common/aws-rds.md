@@ -3,7 +3,7 @@ layout: page
 title: common/aws-rds (español)
 description: "CLI para AWS Relational Database Service."
 content_hash: 4b3debbb056718bbf2cf02226d35c78f61f55195
-last_modified_at: 2023-04-22
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/aws-rds.html
@@ -11,11 +11,9 @@ related_topics:
   - title: français version
     url: /fr/common/aws-rds.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws rds
+# aws rds
 
 CLI para AWS Relational Database Service.
 Crea y administra bases de datos relacionales.

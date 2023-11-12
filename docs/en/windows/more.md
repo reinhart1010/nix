@@ -3,7 +3,7 @@ layout: page
 title: windows/more (English)
 description: "Display paginated output from `stdin` or a file."
 content_hash: 42d86ac57ec4e68b652c7be646ec89199e57e74a
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/windows/more.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/more.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # more
 

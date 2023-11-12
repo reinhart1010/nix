@@ -3,16 +3,14 @@ layout: page
 title: common/podman-image (português (Brasil))
 description: "Gerenciar imagens Docker."
 content_hash: 30a79b11f7eb87e8c2c1c29170307a107a64e8b6
-last_modified_at: 2023-09-18
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/podman-image.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># podman image
+# podman image
 
 Gerenciar imagens Docker.
 Veja também `podman build`, `podman import` e `podman pull`.

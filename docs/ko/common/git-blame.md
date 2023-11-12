@@ -3,6 +3,7 @@ layout: page
 title: common/git-blame (한국어)
 description: "각각의 파일 라인에 커밋 해쉬와 마지막 작성자를 보여줍니다."
 content_hash: 816c76d6f2d7fae04872a95ff2631f467975a2b1
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-blame.html
@@ -25,6 +26,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-blame.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.

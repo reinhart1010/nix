@@ -3,8 +3,11 @@ layout: page
 title: common/aapt (português (Brasil))
 description: "Ferramenta Android de empacotamento de recursos."
 content_hash: ec6ffc3549f8ec982d1b9aeb1917ad38c3fe59db
-last_modified_at: 2023-10-12
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/aapt.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/aapt.html
     icon: bi bi-globe
@@ -16,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/aapt.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/common/aapt.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/aapt.html
@@ -35,11 +41,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/aapt.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aapt
+# aapt
 
 Ferramenta Android de empacotamento de recursos.
 Compila e empacota recursos de um aplicativo Android.

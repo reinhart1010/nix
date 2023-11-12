@@ -3,7 +3,7 @@ layout: page
 title: windows/set (বাংলা)
 description: "CMD-এর বর্তমান ইনস্ট্যান্সের জন্য পরিবেশ চেরা বা সেট করুন।"
 content_hash: 1b16b346622bd83b97f5398f76b39bb5d76d964d
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/set.html
@@ -20,6 +20,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/set.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # set
 

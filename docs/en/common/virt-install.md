@@ -3,7 +3,8 @@ layout: page
 title: common/virt-install (English)
 description: "Create virtual machines with libvirt and begin OS installation."
 content_hash: 251faa2af7c8686a9b3bb59d56d7d0b636c0ded0
-last_modified_at: 2023-06-14
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # virt-install
 

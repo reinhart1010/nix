@@ -3,7 +3,7 @@ layout: page
 title: common/tldr (português (Brasil))
 description: "Exibe páginas de ajuda simples para ferramentas de linha de comando do projeto tldr-pages."
 content_hash: b196cae80057fd0b39b2a8b44e2d477046aa1d04
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
@@ -50,6 +50,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/tldr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tldr
 

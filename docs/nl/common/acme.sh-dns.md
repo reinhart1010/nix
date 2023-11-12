@@ -3,8 +3,11 @@ layout: page
 title: common/acme.sh-dns (Nederlands)
 description: "Gebruik een DNS-01 challenge om een TLS-certificaat uit te geven."
 content_hash: f5df6f9612f9b92f6fe639289288e55028d77c05
-last_modified_at: 2023-05-30
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/acme.sh-dns.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/acme.sh-dns.html
     icon: bi bi-globe
@@ -14,11 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/acme.sh-dns.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># acme.sh --dns
+# acme.sh --dns
 
 Gebruik een DNS-01 challenge om een TLS-certificaat uit te geven.
 Meer informatie: <https://github.com/acmesh-official/acme.sh/wiki>.

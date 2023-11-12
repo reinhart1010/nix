@@ -3,6 +3,8 @@ layout: page
 title: common/redis-cli (English)
 description: "Opens a connection to a Redis server."
 content_hash: d9851d847fbae8dd133a8fc294879f180d30a9d5
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # redis-cli
 

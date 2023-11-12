@@ -3,6 +3,8 @@ layout: page
 title: linux/lxc-profile (English)
 description: "Manage profiles for LXD containers."
 content_hash: 3ea9233806057c37722c9460f86098d921b33e9b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lxc profile
 

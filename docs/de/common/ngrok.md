@@ -3,15 +3,14 @@ layout: page
 title: common/ngrok (Deutsch)
 description: "Reverse-Proxy, welcher einen sicheren Tunnel von einem öffentlichen Endpunkt zu einem lokal verfügbaren Webservice erstellt."
 content_hash: 7b8073d6065b9721baefeb3669837ff1da7ba6c4
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ngrok.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ngrok
+# ngrok
 
 Reverse-Proxy, welcher einen sicheren Tunnel von einem öffentlichen Endpunkt zu einem lokal verfügbaren Webservice erstellt.
 Weitere Informationen: <https://ngrok.com>.

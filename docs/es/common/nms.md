@@ -3,10 +3,12 @@ layout: page
 title: common/nms (español)
 description: "Herramienta de línea de comandos que recrea el famoso efecto de desencriptado de datos de la película Sneakers (1992)."
 content_hash: 595faaeaad79a32558b8a603fa2f4480f741fb75
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/nms.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nms
 

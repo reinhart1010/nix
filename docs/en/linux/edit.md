@@ -3,6 +3,12 @@ layout: page
 title: linux/edit (English)
 description: "An alias to a `run-mailcap`'s action edit."
 content_hash: 8a31aa14b0a40171accd8642ddddb2a527bd33bc
+last_modified_at: 2023-11-12
+related_topics:
+  - title: français version
+    url: /fr/linux/edit.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # edit
 

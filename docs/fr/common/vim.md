@@ -3,6 +3,7 @@ layout: page
 title: common/vim (français)
 description: "Vim (Vi IMproved), un éditeur de texte en ligne de commandes, fournit plusieurs modes pour différentes manipulations de texte."
 content_hash: fd21fda67493d70f001b027ae76a96b0775b4708
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -28,12 +29,19 @@ related_topics:
   - title: polski version
     url: /pl/common/vim.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/vim.html
+    icon: bi bi-globe
   - title: українська version
     url: /uk/common/vim.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/vim.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/vim.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # vim
 

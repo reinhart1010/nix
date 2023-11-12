@@ -3,6 +3,7 @@ layout: page
 title: common/ssh-add (中文)
 description: "在 ssh 代理中管理加载的 ssh 密钥。"
 content_hash: 4aed6481e0efe0ce17fdab6df66683cf8a103667
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ssh-add.html
@@ -10,6 +11,10 @@ related_topics:
   - title: français version
     url: /fr/common/ssh-add.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/ssh-add.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ssh-add
 

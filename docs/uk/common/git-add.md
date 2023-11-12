@@ -3,6 +3,7 @@ layout: page
 title: common/git-add (українська)
 description: "Додає змінені файли до індексу."
 content_hash: af22354155b9a7419afa0c3f7eb3efbeceaa5b05
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-add.html
@@ -22,12 +23,19 @@ related_topics:
   - title: italiano version
     url: /it/common/git-add.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-add.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-add.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-add.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-add.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git add
 

@@ -3,7 +3,7 @@ layout: page
 title: common/b2sum (தமிழ்)
 description: "BLAKE2 கிரிப்டோகிராஃபிக் செக்ஸம்களைக் கணக்கிடவும்."
 content_hash: f1e7c9769bf49699d9fec1336d883b2f6fd71e15
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/b2sum.html
@@ -17,6 +17,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/b2sum.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # b2sum
 

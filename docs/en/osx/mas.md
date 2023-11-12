@@ -3,10 +3,15 @@ layout: page
 title: osx/mas (English)
 description: "Command-line interface for the Mac App Store."
 content_hash: 16f04ca0ae727890097118c83fc261941181f09f
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/osx/mas.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/mas.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mas
 

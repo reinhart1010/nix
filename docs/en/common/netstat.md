@@ -3,10 +3,15 @@ layout: page
 title: common/netstat (English)
 description: "Displays network-related information such as open connections, open socket ports, etc."
 content_hash: 60028e5f42890a4f8e5af2601594563ba0d8b593
+last_modified_at: 2023-11-12
 related_topics:
+  - title: 한국어 version
+    url: /ko/common/netstat.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/netstat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # netstat
 

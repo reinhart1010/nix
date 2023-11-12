@@ -3,13 +3,18 @@ layout: page
 title: linux/chcon (한국어)
 description: "파일 또는 파일/디렉토리의 SELinux 보안 내용 변경."
 content_hash: 08245e850fbc10e455ba16d4531327977befeb54
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/chcon.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/chcon.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/linux/chcon.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chcon
 

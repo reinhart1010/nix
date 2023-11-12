@@ -3,15 +3,14 @@ layout: page
 title: common/subl (Indonesia)
 description: "Editor teks Sublime."
 content_hash: 9301480aa6f5564e11318b54136e9eec6f2d6b7b
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/subl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># subl
+# subl
 
 Editor teks Sublime.
 Informasi lebih lanjut: <https://www.sublimetext.com>.

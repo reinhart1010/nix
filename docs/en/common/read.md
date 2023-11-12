@@ -3,7 +3,8 @@ layout: page
 title: common/read (English)
 description: "Shell builtin for retrieving data from `stdin`."
 content_hash: c69af816601dfeac20a55623c4fe6544a9dfcd20
-last_modified_at: 2023-07-07
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # read
 

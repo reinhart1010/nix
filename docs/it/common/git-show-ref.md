@@ -3,6 +3,7 @@ layout: page
 title: common/git-show-ref (italiano)
 description: "Elenca i riferimenti."
 content_hash: 8145f8632c2a88a9628f71cf8cc22594cab8f38f
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-show-ref.html
@@ -13,6 +14,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-show-ref.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git show-ref
 

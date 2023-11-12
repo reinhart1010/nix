@@ -3,7 +3,7 @@ layout: page
 title: osx/ggroups (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux groups`"
 content_hash: a4baf28281bff1f6528446b657efa5b4a9910208
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/ggroups.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/ggroups.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ggroups
 

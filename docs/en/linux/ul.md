@@ -3,10 +3,12 @@ layout: page
 title: linux/ul (English)
 description: "Performs the underlining of a text."
 content_hash: 35fbb185fbf3c6a6850a20461b483ca3935e069b
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/linux/ul.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ul
 

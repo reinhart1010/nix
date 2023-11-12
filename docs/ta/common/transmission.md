@@ -3,7 +3,7 @@ layout: page
 title: common/transmission (தமிழ்)
 description: "Transmission ஒரு எளிய டொரண்ட் (torrent) வாடிக்கையாளர்."
 content_hash: b348aea0d7617bd63c5a1f4645d68a6e00773e4f
-last_modified_at: 2023-06-02
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/transmission.html
@@ -89,17 +89,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/transmission.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/transmission.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># transmission
+# transmission
 
 Transmission ஒரு எளிய டொரண்ட் (torrent) வாடிக்கையாளர்.
 Transmission ஒரு கட்டளை அல்ல, ஆனால் கட்டளைகளின் தொகுப்பு. கீழே உள்ள பக்கங்களைப் பார்க்கவும்.

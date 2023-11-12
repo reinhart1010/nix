@@ -3,7 +3,7 @@ layout: page
 title: linux/lsblk (русский)
 description: "Отобразить информацию об устройствах."
 content_hash: c8dd3cc2136117aeb4538f261e4a6ea70788c737
-last_modified_at: 2023-01-17
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/lsblk.html
@@ -14,11 +14,15 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/lsblk.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/lsblk.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/linux/lsblk.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># lsblk
+# lsblk
 
 Отобразить информацию об устройствах.
 Больше информации: <https://manned.org/lsblk>.

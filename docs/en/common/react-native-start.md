@@ -3,6 +3,8 @@ layout: page
 title: common/react-native-start (English)
 description: "Command-line tools to start the React Native server."
 content_hash: fd2aabcdd093fe6fbe01bee269de4001bfd05783
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # react-native start
 

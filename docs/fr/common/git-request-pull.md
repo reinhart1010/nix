@@ -3,10 +3,15 @@ layout: page
 title: common/git-request-pull (français)
 description: "Générer une requête demandant au projet en amont d'inclure les modifications dans son arborescence."
 content_hash: 4ba2151322a6fea35600ad6d9da1217fab710065
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-request-pull.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-request-pull.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git request-pull
 

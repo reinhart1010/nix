@@ -3,7 +3,7 @@ layout: page
 title: windows/cuninst (polski)
 description: "To polecenie jest aliasem `choco uninstall`."
 content_hash: c12e961c8702a3fe09b4fc29afa5d6f0f4f955ab
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/cuninst.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/cuninst.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cuninst
 

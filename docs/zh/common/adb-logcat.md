@@ -3,7 +3,7 @@ layout: page
 title: common/adb-logcat (中文)
 description: "转储系统消息日志。"
 content_hash: 518682c8ca0272949e85967963830790d58cde77
-last_modified_at: 2023-05-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/adb-logcat.html
@@ -14,17 +14,12 @@ related_topics:
   - title: français version
     url: /fr/common/adb-logcat.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/adb-logcat.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/adb-logcat.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># adb-logcat
+# adb-logcat
 
 转储系统消息日志。
 更多信息：<https://developer.android.com/studio/command-line/logcat>.

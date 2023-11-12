@@ -3,6 +3,8 @@ layout: page
 title: common/vgmstream_cli (English)
 description: "Play a wide variety of audio formats used in video games and convert them into `wav`."
 content_hash: 57068f57be1aae835d29fba368aaaf905e9d5353
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # vgmstream_cli
 

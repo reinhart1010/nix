@@ -3,6 +3,7 @@ layout: page
 title: common/git-lfs (Türkçe)
 description: "Git depolarındaki büyük dosyalarla çalış."
 content_hash: 825fb39ef6a22bf7537b423e915f716332c4a574
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-lfs.html
@@ -16,6 +17,7 @@ related_topics:
   - title: italiano version
     url: /it/common/git-lfs.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git lfs
 

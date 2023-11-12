@@ -3,10 +3,15 @@ layout: page
 title: osx/istats (中文)
 description: "一个显示 CPU 温度、风扇速度和电池状态等统计数据的命令行工具。"
 content_hash: ada0de7fc5b03b94534f4f7927c8f2d6920c5f5e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/istats.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/istats.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # istats
 

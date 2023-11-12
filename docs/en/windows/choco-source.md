@@ -3,10 +3,13 @@ layout: page
 title: windows/choco-source (English)
 description: "Manage sources for packages with Chocolatey."
 content_hash: 301ef4d6dc70efc97619a0faaf274a3df29a2b24
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-source.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/choco-source.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/windows/choco-source.html
@@ -20,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/choco-source.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco source
 

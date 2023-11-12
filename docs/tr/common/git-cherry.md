@@ -3,6 +3,7 @@ layout: page
 title: common/git-cherry (Türkçe)
 description: "Ana depoya aktarılması gereken commit'leri bul."
 content_hash: 35e990bb9fb2dc3637fe57c3a5a8fda099d2ee1b
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-cherry.html
@@ -13,6 +14,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/git-cherry.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git cherry
 

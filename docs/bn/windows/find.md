@@ -3,7 +3,7 @@ layout: page
 title: windows/find (বাংলা)
 description: "এক বা একাধিক ফাইলে নির্দিষ্ট স্ট্রিং খোঁজা।"
 content_hash: d87dc7f3ac00ffe9a3fffc03fb6fbe6971867eb2
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/find.html
@@ -29,6 +29,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/find.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # find
 

@@ -3,7 +3,7 @@ layout: page
 title: osx/gbase32 (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux base32`"
 content_hash: ed9e0e9cd0e1314bacc6cbc05580b6b1434b820e
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gbase32.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gbase32.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gbase32
 

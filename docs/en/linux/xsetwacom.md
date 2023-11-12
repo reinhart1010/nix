@@ -3,6 +3,8 @@ layout: page
 title: linux/xsetwacom (English)
 description: "Command-line tool to change settings for Wacom pen tablets at runtime."
 content_hash: 7093d9bd968767fa38bc067de7975efa3a7d5ec5
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xsetwacom
 

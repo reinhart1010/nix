@@ -3,12 +3,10 @@ layout: page
 title: common/ppmtoyuvsplit (English)
 description: "Convert a PPM image to three subsampled Abekas YUV files."
 content_hash: cdbae470e3a0b341918224752764572982bcbdcd
-last_modified_at: 2023-11-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ppmtoyuvsplit
+# ppmtoyuvsplit
 
 Convert a PPM image to three subsampled Abekas YUV files.
 More information: <https://netpbm.sourceforge.net/doc/ppmtoyuvsplit.html>.

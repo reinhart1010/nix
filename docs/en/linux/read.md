@@ -3,12 +3,10 @@ layout: page
 title: linux/read (English)
 description: "Shell builtin for retrieving data from `stdin`."
 content_hash: f3b2d3da296d88d186f0dd1fe0004763c6c2c8b7
-last_modified_at: 2023-07-07
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># read
+# read
 
 Shell builtin for retrieving data from `stdin`.
 More information: <https://manned.org/read.1p>.

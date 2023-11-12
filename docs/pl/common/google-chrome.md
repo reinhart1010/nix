@@ -3,7 +3,7 @@ layout: page
 title: common/google-chrome (polski)
 description: "To polecenie jest aliasem `chromium`."
 content_hash: 14158c4a039136a21dbc5367a97d008fd0438a27
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/google-chrome.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/google-chrome.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # google-chrome
 

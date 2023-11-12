@@ -3,11 +3,10 @@ layout: page
 title: common/zgrep (English)
 description: "Grep text patterns from files within compressed file (equivalent to grep -Z)."
 content_hash: 2aa800e93d62bb4e6b045e632a1a97b8ee299315
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># zgrep
+# zgrep
 
 Grep text patterns from files within compressed file (equivalent to grep -Z).
 More information: <https://manned.org/zgrep>.

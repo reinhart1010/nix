@@ -3,6 +3,7 @@ layout: page
 title: common/jekyll (français)
 description: "Générateur de site statique simple, adapté aux blogs."
 content_hash: e0b9af40b62d9ed05123d5543696b410b682c07d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/jekyll.html
@@ -10,6 +11,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/jekyll.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # jekyll
 

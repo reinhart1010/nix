@@ -3,11 +3,12 @@ layout: page
 title: common/rar (polski)
 description: "Archiwizator RAR. Obsługuje wielotomowe archiwa, które mogą być opcjonalnie samorozpakowujące się."
 content_hash: ddc3cb1ec8d29ed5623feeec2cc36dd73f00741a
-last_modified_at: 2023-11-01
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/rar.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rar
 

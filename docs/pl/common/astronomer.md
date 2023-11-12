@@ -3,9 +3,16 @@ layout: page
 title: common/astronomer (polski)
 description: "Narzędzie wykrywające nielegalne gwiazdki z kont botów w projektach GithHub."
 content_hash: 9e0a5e460ed28fdf1057747f6362aadfc72a18f2
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/astronomer.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/astronomer.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/astronomer.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/astronomer.html
@@ -13,6 +20,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/astronomer.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # astronomer
 

@@ -3,6 +3,8 @@ layout: page
 title: common/git-verify-commit (English)
 description: "Check for GPG verification of commits."
 content_hash: d8d833e1f713e83af9e459f83d6188d9bfd87d47
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git verify-commit
 

@@ -3,7 +3,11 @@ layout: page
 title: linux/dmesg (中文)
 description: "显示或控制内核环形缓冲区。"
 content_hash: 7e45e14e8705202e3f41aebff5296a786cd39470
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/dmesg.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/dmesg.html
     icon: bi bi-globe
@@ -13,6 +17,10 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/dmesg.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/dmesg.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dmesg
 

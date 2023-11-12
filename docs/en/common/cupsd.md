@@ -3,6 +3,8 @@ layout: page
 title: common/cupsd (English)
 description: "Server daemon for the CUPS print server."
 content_hash: 2748c9c078c2bc5b08b477217c77b3619fd2c46d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # cupsd
 

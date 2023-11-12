@@ -3,6 +3,8 @@ layout: page
 title: common/virt-sysprep (English)
 description: "Reset, unconfigure, or customize a virtual machine image."
 content_hash: a6d2a1de3ae481a2f3c0c121790c1592e00df977
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # virt-sysprep
 

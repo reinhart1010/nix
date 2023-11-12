@@ -3,14 +3,18 @@ layout: page
 title: osx/cut (English)
 description: "Cut out fields from `stdin` or files."
 content_hash: 692d27bfd66443f0762fec6d0518bf9e730ec4e9
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/osx/cut.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/osx/cut.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/osx/cut.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cut
 

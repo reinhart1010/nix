@@ -3,6 +3,7 @@ layout: page
 title: common/ln (español)
 description: "Crea enlaces a archivos y directorios."
 content_hash: 3bc7b355dc2099586e55fa03d7c70a32374eab75
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ln.html
@@ -16,14 +17,18 @@ related_topics:
   - title: italiano version
     url: /it/common/ln.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/ln.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/ln.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/ln.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ln
+# ln
 
 Crea enlaces a archivos y directorios.
 Más información: <https://www.gnu.org/software/coreutils/ln>.

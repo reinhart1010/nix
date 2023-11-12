@@ -3,6 +3,8 @@ layout: page
 title: common/swift (English)
 description: "Create, run and build Swift projects."
 content_hash: f6636064de437c3c6e6fd6f96621b1637dd6d961
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # swift
 

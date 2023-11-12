@@ -3,6 +3,8 @@ layout: page
 title: common/vgrep (English)
 description: "A user friendly pager for grep."
 content_hash: a9257117d4c4efe7d2c6795039e3c91bbb41cdfd
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # vgrep
 

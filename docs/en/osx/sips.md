@@ -3,11 +3,15 @@ layout: page
 title: osx/sips (English)
 description: "Apple Scriptable Image Processing System."
 content_hash: 7e277bb008a7ffbce267aac4ea1e65a13b9809a5
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/osx/sips.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/sips.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sips
 

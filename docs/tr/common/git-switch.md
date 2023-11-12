@@ -3,6 +3,7 @@ layout: page
 title: common/git-switch (Türkçe)
 description: "Git dalları arasında geçiş yap. Gir sürümü 2.23+ olmalıdır."
 content_hash: b4a68331ecdff915168b19251d85321a2cad200f
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-switch.html
@@ -22,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/git-switch.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git switch
 

@@ -3,7 +3,8 @@ layout: page
 title: common/meld (English)
 description: "Graphical diffing and merging tool."
 content_hash: b42047f0c341fde5fb759f0520be7b525623574c
-last_modified_at: 2023-06-28
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # meld
 

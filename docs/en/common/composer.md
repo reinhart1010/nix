@@ -3,7 +3,7 @@ layout: page
 title: common/composer (English)
 description: "A package-based dependency manager for PHP projects."
 content_hash: 1792c08a588525b86ebf3f2ed2f182e2104cb1ee
-last_modified_at: 2023-10-13
+last_modified_at: 2023-11-12
 related_topics:
   - title: Indonesia version
     url: /id/common/composer.html
@@ -14,6 +14,10 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/composer.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/composer.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # composer
 

@@ -3,6 +3,8 @@ layout: page
 title: common/fc-match (English)
 description: "Match available fonts."
 content_hash: bd5d4ef3c8d53c8bf91eebfad911270120fa5ae8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fc-match
 

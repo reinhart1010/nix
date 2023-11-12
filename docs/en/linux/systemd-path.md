@@ -3,12 +3,10 @@ layout: page
 title: linux/systemd-path (English)
 description: "List and query system and user paths."
 content_hash: 91678aa3e4d2cffe09db41d5b306f1a02a7b521c
-last_modified_at: 2023-08-22
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># systemd-path
+# systemd-path
 
 List and query system and user paths.
 More information: <https://www.freedesktop.org/software/systemd/man/systemd-path.html>.

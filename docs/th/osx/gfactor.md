@@ -3,7 +3,7 @@ layout: page
 title: osx/gfactor (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux factor`"
 content_hash: f832ce7ee75be6f35d476ccb2ac327c51519634a
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gfactor.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gfactor.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gfactor
 

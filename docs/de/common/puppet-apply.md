@@ -3,10 +3,12 @@ layout: page
 title: common/puppet-apply (Deutsch)
 description: "Wende ein Puppet-Manifest lokal an."
 content_hash: a2d26333c35181c5824dbdfe1eaec2b54251a5d4
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/puppet-apply.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # puppet apply
 

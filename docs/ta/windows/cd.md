@@ -3,16 +3,25 @@ layout: page
 title: windows/cd (தமிழ்)
 description: "தற்போதைய வேலை கோப்பகத்தைக் காட்டவும் அல்லது வேறு கோப்பகத்திற்கு நகர்த்தவும்."
 content_hash: bf073bb408ce22b650725de5380fd8fa4703ccd2
-last_modified_at: 2022-12-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/windows/cd.html
+    icon: bi bi-globe
+  - title: čeština version
+    url: /cs/windows/cd.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/cd.html
     icon: bi bi-globe
   - title: English version
     url: /en/windows/cd.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/windows/cd.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/cd.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/windows/cd.html
@@ -32,15 +41,13 @@ related_topics:
   - title: русский version
     url: /ru/windows/cd.html
     icon: bi bi-globe
+  - title: ไทย version
+    url: /th/windows/cd.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/cd.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># cd
 

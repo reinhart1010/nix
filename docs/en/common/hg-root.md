@@ -3,6 +3,8 @@ layout: page
 title: common/hg-root (English)
 description: "Display the root location of a Hg repository."
 content_hash: 6560ceb96d5136e7303e8e33afe9f3c94a863d30
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # hg root
 

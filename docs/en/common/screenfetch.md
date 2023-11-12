@@ -3,7 +3,8 @@ layout: page
 title: common/screenfetch (English)
 description: "Display system information."
 content_hash: 904d0044d8d10554e6326974d1868ed944f706e3
-last_modified_at: 2023-06-28
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # screenfetch
 

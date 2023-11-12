@@ -3,6 +3,8 @@ layout: page
 title: common/timew (English)
 description: "A time tracking tool used to measure the duration of activities."
 content_hash: b8d0c13b5ec741d7565ca04896463cebf67573c7
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # timew
 

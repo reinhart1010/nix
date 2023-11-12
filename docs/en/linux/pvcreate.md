@@ -3,6 +3,8 @@ layout: page
 title: linux/pvcreate (English)
 description: "Initialize a disk or partition for use as a physical volume."
 content_hash: 7465ed586b1a85896afb73e2de39cdfad3a7ef56
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pvcreate
 

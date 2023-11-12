@@ -3,6 +3,8 @@ layout: page
 title: linux/kjv (English)
 description: "The word of God available right on your desktop."
 content_hash: c903f505d8cff4829e7c3e7223d34f33acfaf1a3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # kjv
 

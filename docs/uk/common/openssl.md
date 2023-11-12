@@ -3,10 +3,12 @@ layout: page
 title: common/openssl (українська)
 description: "Набір кріптографічних інструментів OpenSSL."
 content_hash: d94ea1eb4e0d712595e850770eb39a7791469fbc
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/openssl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # openssl
 

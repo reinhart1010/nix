@@ -3,6 +3,7 @@ layout: page
 title: common/git-cat-file (français)
 description: "Fournir des informations sur le contenu ou le type et la taille des objets du dépôt Git."
 content_hash: 9f10d61a197f90362d7f77c96ed615083d328366
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-cat-file.html
@@ -13,6 +14,10 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/git-cat-file.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-cat-file.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git cat-file
 

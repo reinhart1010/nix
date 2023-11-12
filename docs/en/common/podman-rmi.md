@@ -3,7 +3,12 @@ layout: page
 title: common/podman-rmi (English)
 description: "Remove one or more Podman images."
 content_hash: e9ecc5280efccb09d1b460171f00c493995df337
-last_modified_at: 2023-03-12
+last_modified_at: 2023-11-12
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/common/podman-rmi.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # podman rmi
 

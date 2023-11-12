@@ -3,12 +3,16 @@ layout: page
 title: common/code (français)
 description: "Éditeur de code multiplateforme et extensible."
 content_hash: 74126a80f459111df211834d41be263a50e21d24
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/code.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/code.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/code.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/code.html
@@ -25,6 +29,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/code.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # code
 

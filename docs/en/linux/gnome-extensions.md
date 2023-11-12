@@ -3,6 +3,12 @@ layout: page
 title: linux/gnome-extensions (English)
 description: "Manage gnome extensions from the terminal."
 content_hash: bdd588ab074f884c6043d2fda921b20d8a16bddb
+last_modified_at: 2023-11-12
+related_topics:
+  - title: தமிழ் version
+    url: /ta/linux/gnome-extensions.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gnome-extensions
 

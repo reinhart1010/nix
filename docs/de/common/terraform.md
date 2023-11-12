@@ -3,10 +3,12 @@ layout: page
 title: common/terraform (Deutsch)
 description: "Erstellen und Bereitstellen von Infrastruktur als Code für Cloud-Anbieter."
 content_hash: b832fef855ac2b415820b7d1954f72fdb8796fa2
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/terraform.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # terraform
 

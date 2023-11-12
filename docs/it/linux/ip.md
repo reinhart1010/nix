@@ -3,7 +3,7 @@ layout: page
 title: linux/ip (italiano)
 description: "Mostra / manipola routing, dispositivi, criteri di routing e tunnel."
 content_hash: b31509a50f14b9a1c0d1abc72b093f566c5337f1
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/ip.html
@@ -20,6 +20,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/ip.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ip
 

@@ -3,6 +3,8 @@ layout: page
 title: common/waitress-serve (English)
 description: "Pure Python WSGI HTTP Server."
 content_hash: 53696944a2e9b95cb7070a4e02e0a8ad7b101f67
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # waitress-serve
 

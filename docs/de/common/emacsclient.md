@@ -3,7 +3,7 @@ layout: page
 title: common/emacsclient (Deutsch)
 description: "Öffnet Dateien in einem laufenden Emacs-Server."
 content_hash: 000ec9f242dbe5c35583489cf51550eb78424bcd
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/emacsclient.html
@@ -11,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/emacsclient.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # emacsclient
 

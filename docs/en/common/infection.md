@@ -3,6 +3,8 @@ layout: page
 title: common/infection (English)
 description: "A mutation testing framework for PHP."
 content_hash: ca5038a458e69bac435ec0ac409250c1dee700b9
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # infection
 

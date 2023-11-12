@@ -3,6 +3,8 @@ layout: page
 title: common/highlight (English)
 description: "Outputs syntax-highlighted source code to a variety of formats."
 content_hash: 1c3650be303e6ce4167f1514097652d841292713
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # highlight
 

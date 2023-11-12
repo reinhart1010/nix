@@ -3,7 +3,7 @@ layout: page
 title: common/airpaste (español)
 description: "Comparte mesages y archivos sobre la misma red usando mDNS."
 content_hash: 20564f215973b4e2b9a693e0e17f36da7b6bd32b
-last_modified_at: 2023-01-02
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/airpaste.html
@@ -17,17 +17,18 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/airpaste.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/airpaste.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/airpaste.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/airpaste.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># airpaste
+# airpaste
 
 Comparte mesages y archivos sobre la misma red usando mDNS.
 Más información: <https://github.com/mafintosh/airpaste>.

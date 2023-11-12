@@ -3,11 +3,12 @@ layout: page
 title: common/rustup (English)
 description: "Install, manage, and update Rust toolchains."
 content_hash: 7c43b6ce9df4400ff203eba72341bbd53b4f81e2
-last_modified_at: 2023-09-02
+last_modified_at: 2023-11-12
 related_topics:
   - title: தமிழ் version
     url: /ta/common/rustup.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rustup
 

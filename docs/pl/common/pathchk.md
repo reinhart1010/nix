@@ -3,10 +3,12 @@ layout: page
 title: common/pathchk (polski)
 description: "Sprawdź poprawność oraz przenośność jednej lub większej ilości ścieżek."
 content_hash: 6147172f8833d6f79c9584efedc7c7f5bf146acf
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/pathchk.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pathchk
 

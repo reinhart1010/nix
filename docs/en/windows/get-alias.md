@@ -3,12 +3,10 @@ layout: page
 title: windows/get-alias (English)
 description: "List and get command aliases in the current PowerShell session."
 content_hash: 94f31bbe35554d9c65ecdd5d2c208d2d98b692df
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># Get-Alias
+# Get-Alias
 
 List and get command aliases in the current PowerShell session.
 This command can only be run under PowerShell.

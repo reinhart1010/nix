@@ -3,7 +3,7 @@ layout: page
 title: common/git-am (English)
 description: "Apply patch files and create a commit. Useful when receiving commits via email."
 content_hash: 2122b298185915645993dda5473a3388f3cfdf17
-last_modified_at: 2023-04-10
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-am.html
@@ -26,6 +26,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-am.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git am
 

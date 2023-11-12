@@ -3,6 +3,7 @@ layout: page
 title: common/csvformat (한국어)
 description: "csvkit에 포함된 CSV 파일을 사용자 정의 출력으로 변환."
 content_hash: 4e1d50a46bd74c76ab1d9a09cb014fc24c1888bc
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/csvformat.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/csvformat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # csvformat
 

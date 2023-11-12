@@ -3,7 +3,7 @@ layout: page
 title: common/afconvert (中文)
 description: "在 AFF 和 raw 文件格式之间进行转换。"
 content_hash: 9f83880913941ecc854ccc6a33bf0fbb6c055983
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/afconvert.html
@@ -17,6 +17,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/afconvert.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # afconvert
 

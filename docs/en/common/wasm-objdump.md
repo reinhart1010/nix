@@ -3,6 +3,8 @@ layout: page
 title: common/wasm-objdump (English)
 description: "Display information from WebAssembly binaries."
 content_hash: 2b853d8f5b2e3c44ab31285185bac038cc948f3d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # wasm-objdump
 

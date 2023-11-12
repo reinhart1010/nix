@@ -3,6 +3,8 @@ layout: page
 title: common/nikto (English)
 description: "Web server scanner which performs tests against web servers for multiple items."
 content_hash: 68e6814c1d74c0f90e81aacb81795a65cedfcfcf
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # nikto
 

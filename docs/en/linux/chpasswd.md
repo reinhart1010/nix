@@ -3,7 +3,8 @@ layout: page
 title: linux/chpasswd (English)
 description: "Change the passwords for multiple users by using `stdin`."
 content_hash: 935520753e20b7ddf0f917ee18b6ba122259bd1d
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # chpasswd
 

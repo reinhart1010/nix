@@ -3,10 +3,12 @@ layout: page
 title: common/git-rename-branch (English)
 description: "Rename a Git branch."
 content_hash: 1871976e84238f209ea24e0de63958f62e5a0914
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/common/git-rename-branch.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git rename-branch
 

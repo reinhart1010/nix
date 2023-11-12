@@ -3,6 +3,7 @@ layout: page
 title: windows/choco-pack (中文)
 description: "将 nuspec 打包到已编译的 nupkg."
 content_hash: 569f591baccb189611545fd92e3d339137e59edf
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-pack.html
@@ -10,6 +11,13 @@ related_topics:
   - title: English version
     url: /en/windows/choco-pack.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/windows/choco-pack.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/choco-pack.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco pack
 

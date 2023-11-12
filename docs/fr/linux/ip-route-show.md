@@ -3,11 +3,12 @@ layout: page
 title: linux/ip-route-show (français)
 description: "Sous commande de gestion de l'affichage des tables de routage."
 content_hash: 3e90d6165836027c76a4a39e667c14c00e9a3b49
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/ip-route-show.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ip route show
 

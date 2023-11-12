@@ -3,10 +3,15 @@ layout: page
 title: windows/eventcreate (English)
 description: "Create custom entries in the event log."
 content_hash: 3af5343d3c45f2c9fedf48458385260f609cb843
+last_modified_at: 2023-11-12
 related_topics:
+  - title: हिन्दी version
+    url: /hi/windows/eventcreate.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/eventcreate.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # eventcreate
 

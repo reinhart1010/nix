@@ -3,6 +3,7 @@ layout: page
 title: common/unclutter (bosanski)
 description: "Skriva kursor miša."
 content_hash: 1fe4b2b5199a89d528e7acaf4245520bdc4a4f31
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/unclutter.html
@@ -16,12 +17,13 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/unclutter.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/unclutter.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/common/unclutter.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # unclutter
 

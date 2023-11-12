@@ -3,6 +3,7 @@ layout: page
 title: common/git-add (Indonesia)
 description: "Menambahkan file yang diubah ke indeks."
 content_hash: d4840ff22be5da8bc9f6bf5bdcde7a8067198175
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-add.html
@@ -19,15 +20,22 @@ related_topics:
   - title: italiano version
     url: /it/common/git-add.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-add.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-add.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-add.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-add.html
+    icon: bi bi-globe
   - title: українська version
     url: /uk/common/git-add.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git add
 

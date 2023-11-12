@@ -3,9 +3,13 @@ layout: page
 title: common/chroot (English)
 description: "Run command or interactive shell with special root directory."
 content_hash: 3452e81acd9235f247e74ccbc2cfb0656c44fd84
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/chroot.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/chroot.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/chroot.html
@@ -19,6 +23,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/chroot.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chroot
 

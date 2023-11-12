@@ -3,7 +3,7 @@ layout: page
 title: common/aireplay-ng (বাংলা)
 description: "ওয়ায়ারলেস নেটওয়ার্কে প্যাকেট ইনজেক্ট করুন।"
 content_hash: 844c8c9030b00b73c071e5d493645b5978b6959f
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/aireplay-ng.html
@@ -23,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/aireplay-ng.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aireplay-ng
 

@@ -3,11 +3,15 @@ layout: page
 title: common/esbuild (English)
 description: "JavaScript bundler and minifier built for speed."
 content_hash: d46499ed5fe1ea11f599f9ad9cbbaa08754dc7ba
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
+  - title: 한국어 version
+    url: /ko/common/esbuild.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/esbuild.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # esbuild
 

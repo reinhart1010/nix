@@ -3,6 +3,7 @@ layout: page
 title: common/cppcheck (italiano)
 description: "Strumento di analisi statica per codice C/C++."
 content_hash: 12952e97036746d180313337ea7f9467a20b8c11
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/cppcheck.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cppcheck.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cppcheck
 

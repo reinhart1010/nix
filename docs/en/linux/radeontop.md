@@ -3,10 +3,12 @@ layout: page
 title: linux/radeontop (English)
 description: "Show utilization of AMD GPUs."
 content_hash: 20121c8fc8d66434b38cc474fa1159d15e17d6e3
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/linux/radeontop.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # radeontop
 

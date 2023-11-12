@@ -3,6 +3,8 @@ layout: page
 title: linux/repo-add (English)
 description: "Package database maintenance utility which enables installation of said package via Pacman."
 content_hash: 4aa7c957c5f723a72b2f0b32929ab5175c4ba725
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # repo-add
 

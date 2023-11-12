@@ -3,6 +3,8 @@ layout: page
 title: common/zpool (English)
 description: "Manage ZFS pools."
 content_hash: d7f54fadfa9acf17a03b0625aad3b9846c9debe3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # zpool
 

@@ -3,7 +3,8 @@ layout: page
 title: common/mitmproxy (English)
 description: "An interactive man-in-the-middle HTTP proxy."
 content_hash: 9f50388ec03bd51403bdcc575a0512fd470c742c
-last_modified_at: 2023-06-03
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mitmproxy
 

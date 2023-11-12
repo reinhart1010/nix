@@ -3,6 +3,8 @@ layout: page
 title: common/dvc-commit (English)
 description: "Record changes to DVC-tracked files in the project."
 content_hash: 12b3cac07f7e997f3441f7c36542fe275d7ee791
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dvc commit
 

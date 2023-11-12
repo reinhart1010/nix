@@ -3,6 +3,8 @@ layout: page
 title: common/makensis (English)
 description: "Cross-platform compiler for NSIS installers."
 content_hash: 6cc9e4943469a0dcb2f120b315c8ad4d7a2b3fa6
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # makensis
 

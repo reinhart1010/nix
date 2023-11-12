@@ -3,7 +3,7 @@ layout: page
 title: common/llvm-g++ (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `clang++`"
 content_hash: 4accad21a89f4b7f23843da67f574c0e15e9b15a
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/llvm-g++.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/llvm-g++.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # llvm-g++
 

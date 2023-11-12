@@ -3,6 +3,8 @@ layout: page
 title: linux/extrace (English)
 description: "Trace exec() calls."
 content_hash: 108be45a287e95f2b36b2a198e4a25519d99e5e1
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # extrace
 

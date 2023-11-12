@@ -3,7 +3,8 @@ layout: page
 title: linux/systemd-ask-password (English)
 description: "Query the user for a system password."
 content_hash: b6e6dc44e5220721a7cae8cf41e6dbefec1a5267
-last_modified_at: 2023-10-08
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # systemd-ask-password
 

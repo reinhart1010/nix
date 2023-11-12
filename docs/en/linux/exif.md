@@ -3,6 +3,8 @@ layout: page
 title: linux/exif (English)
 description: "Show and change EXIF information in JPEG files."
 content_hash: 63be5e30be751c177a522322b944e45b848309b3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # exif
 

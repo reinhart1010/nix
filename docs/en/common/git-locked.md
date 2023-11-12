@@ -3,6 +3,8 @@ layout: page
 title: common/git-locked (English)
 description: "List locked files in a Git repository."
 content_hash: e13c0b736adb7c9929f1aa18f5f86d67ca5eb363
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git locked
 

@@ -3,6 +3,7 @@ layout: page
 title: common/bower (English)
 description: "A package manager optimized for front-end web development."
 content_hash: 6e4f19796c8dcf0d685448219aa9d1f277aa1ad2
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/bower.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/bower.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bower
 

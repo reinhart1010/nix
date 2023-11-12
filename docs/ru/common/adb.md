@@ -3,6 +3,7 @@ layout: page
 title: common/adb (русский)
 description: "Android Debug Bridge: управление запущенным эмулятором Android или подключенным устройством Android."
 content_hash: 98277f74ba730831f783dc0954dc931880d2b585
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/adb.html
@@ -34,6 +35,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/adb.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # adb
 

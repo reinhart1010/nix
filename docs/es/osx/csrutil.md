@@ -3,7 +3,7 @@ layout: page
 title: osx/csrutil (español)
 description: "Gestionar la configuración de la Protección de Integridad del Sistema."
 content_hash: 75a8ad7de67e6163700aae20cf3ad4cabff261b7
-last_modified_at: 2023-08-13
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/csrutil.html
@@ -11,11 +11,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/osx/csrutil.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># csrutil
+# csrutil
 
 Gestionar la configuración de la Protección de Integridad del Sistema.
 Más información: <https://ss64.com/osx/csrutil.html>.

@@ -3,7 +3,7 @@ layout: page
 title: common/cut (Deutsch)
 description: "Schneide Felder von `stdin` oder einer Datei aus."
 content_hash: 6adc59ca52b91fe14c59575ae13bb249daef2def
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/cut.html
@@ -17,9 +17,13 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cut.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/cut.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/common/cut.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cut
 

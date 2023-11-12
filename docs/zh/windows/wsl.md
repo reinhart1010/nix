@@ -3,6 +3,7 @@ layout: page
 title: windows/wsl (中文)
 description: "从命令行管理适用于 Linux 的 Windows 子系统。"
 content_hash: 173daa5879dbcd48fd3a875100c8f19fd912777b
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/wsl.html
@@ -10,6 +11,13 @@ related_topics:
   - title: English version
     url: /en/windows/wsl.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/wsl.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/windows/wsl.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wsl
 

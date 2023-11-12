@@ -3,10 +3,12 @@ layout: page
 title: common/pwgen (中文)
 description: "生成可拼写发音的密码。"
 content_hash: c3524505682b021b57fee926086276172d95cb41
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/pwgen.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pwgen
 

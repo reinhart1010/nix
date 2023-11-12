@@ -3,7 +3,7 @@ layout: page
 title: common/todoman (नेपाली)
 description: "यो आदेश `todo` को उपनाम हो |"
 content_hash: 9359e45c4a0342df30a994693529df51f0c3c648
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/todoman.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/todoman.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # todoman
 

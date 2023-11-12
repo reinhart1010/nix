@@ -3,6 +3,8 @@ layout: page
 title: linux/rpcclient (English)
 description: "MS-RPC client tool (part of the samba suite)."
 content_hash: 22886f6813a2441835c9c2248ba3c6f3d61d4b83
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rpcclient
 

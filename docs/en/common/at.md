@@ -3,7 +3,7 @@ layout: page
 title: common/at (English)
 description: "Execute commands once at a later time."
 content_hash: b1e026616f9935794214916a34b19bec8a7aea08
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/at.html
@@ -29,6 +29,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/at.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # at
 

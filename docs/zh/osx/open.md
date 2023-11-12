@@ -3,6 +3,7 @@ layout: page
 title: osx/open (中文)
 description: "打开文件、目录和应用程序。"
 content_hash: da231b0f0fb7659d05fd0dce47a4f1a7fffa48fc
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/osx/open.html
@@ -10,11 +11,18 @@ related_topics:
   - title: English version
     url: /en/osx/open.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/open.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/osx/open.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# open
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># open
 
 打开文件、目录和应用程序。
 更多信息：<https://ss64.com/osx/open.html>.

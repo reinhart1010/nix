@@ -3,10 +3,12 @@ layout: page
 title: common/hexo (中文)
 description: "快速、简洁且高效的博客框架。"
 content_hash: ac0a72c8b1990cb1cf1d02e8a7c4072fe06baafc
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/hexo.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # hexo
 

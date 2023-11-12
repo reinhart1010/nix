@@ -3,11 +3,12 @@ layout: page
 title: common/jarsigner (中文)
 description: "签名并验证 Java 存档（JAR）文件。"
 content_hash: e1c412d01b94428ef413d2f40c80c714166ad66a
-last_modified_at: 2023-06-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/jarsigner.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # jarsigner
 

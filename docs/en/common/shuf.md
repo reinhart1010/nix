@@ -3,7 +3,8 @@ layout: page
 title: common/shuf (English)
 description: "Generate random permutations."
 content_hash: 565ad9445e46afeda022a65a55a40db5eb50d7c4
-last_modified_at: 2022-12-06
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # shuf
 

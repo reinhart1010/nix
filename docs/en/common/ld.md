@@ -3,11 +3,14 @@ layout: page
 title: common/ld (English)
 description: "Link object files together."
 content_hash: 07ee2f1a3a317bdafb43a4898742449a29ad7f20
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Indonesia version
+    url: /id/common/ld.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ld
+# ld
 
 Link object files together.
 More information: <https://sourceware.org/binutils/docs-2.38/ld.html>.

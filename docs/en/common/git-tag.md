@@ -3,6 +3,7 @@ layout: page
 title: common/git-tag (English)
 description: "Create, list, delete or verify tags."
 content_hash: b8fbcb60c7a90f4ed3f3e9f903b6e61b5dfb73ce
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-tag.html
@@ -19,6 +20,10 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/git-tag.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-tag.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git tag
 

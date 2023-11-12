@@ -3,6 +3,7 @@ layout: page
 title: windows/print (polski)
 description: "Wyślij plik tekstowy do drukarki."
 content_hash: 43c87385e68e970b0ae22e29fb573952857f6e29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/print.html
@@ -13,9 +14,13 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/windows/print.html
     icon: bi bi-globe
+  - title: svenska version
+    url: /sv/windows/print.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/print.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # print
 

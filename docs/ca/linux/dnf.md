@@ -3,6 +3,7 @@ layout: page
 title: linux/dnf (català)
 description: "Administrador de paquets per RHEL, CentOS i Fedora (Reemplaça a yum)."
 content_hash: a557e7689de0252b1450451603ae1de8adca7dc6
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/dnf.html
@@ -13,9 +14,25 @@ related_topics:
   - title: español version
     url: /es/linux/dnf.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/dnf.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/dnf.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/dnf.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/dnf.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/dnf.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/linux/dnf.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dnf
 

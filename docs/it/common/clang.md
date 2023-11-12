@@ -3,22 +3,21 @@ layout: page
 title: common/clang (italiano)
 description: "Compilatore per sorgenti C, C++ ed Objective-C. Può essere usato come alternativa a GCC."
 content_hash: ec58c949f07ac8ef4977b9d42c48fbf2363359be
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/clang.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/clang.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/clang.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/clang.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># clang
 

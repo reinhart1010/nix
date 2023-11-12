@@ -3,12 +3,10 @@ layout: page
 title: common/rarcrack (English)
 description: "Password cracker for rar, zip and 7z archives."
 content_hash: 891ebbfad71b6327dd5f2f5ed3e970f9a0b4c9b3
-last_modified_at: 2023-05-10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rarcrack
+# rarcrack
 
 Password cracker for rar, zip and 7z archives.
 

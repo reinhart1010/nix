@@ -3,6 +3,7 @@ layout: page
 title: common/fc-list (English)
 description: "List available fonts installed on the system."
 content_hash: 5d6b74cc87975fbbcd3c0d3dc4b2ceab67b9e561
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/fc-list.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/fc-list.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fc-list
 

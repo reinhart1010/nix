@@ -3,6 +3,8 @@ layout: page
 title: common/sqlite-utils (English)
 description: "Command-line tool used to manipulate SQLite databases in a number of different ways."
 content_hash: 272d09ceb3828a049d9da1c8623dbfd6c6c3aee1
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sqlite-utils
 

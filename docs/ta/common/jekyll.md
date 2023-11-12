@@ -3,7 +3,7 @@ layout: page
 title: common/jekyll (தமிழ்)
 description: "ஒரு எளிய, வலைப்பதிவு அறிந்த, நிலையான தள ஜெனரேட்டர்."
 content_hash: ccc8c368a28f9604e4c4c9b4ddd6027d5e3ebb9d
-last_modified_at: 2023-09-10
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/jekyll.html
@@ -11,6 +11,7 @@ related_topics:
   - title: français version
     url: /fr/common/jekyll.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # jekyll
 

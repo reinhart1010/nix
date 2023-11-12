@@ -3,6 +3,8 @@ layout: page
 title: linux/screenkey (English)
 description: "A screencast tool to display keys pressed."
 content_hash: 685b7b2f82d4cc8bf04bf9f62501fdda513d82ff
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # screenkey
 

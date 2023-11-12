@@ -3,6 +3,8 @@ layout: page
 title: common/fkill (English)
 description: "Fabulously kill processes. Cross-platform."
 content_hash: a7c347afb7f31ab84c404d7e8c95875a13061325
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fkill
 

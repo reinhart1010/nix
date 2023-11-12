@@ -3,10 +3,12 @@ layout: page
 title: common/git-check-ref-format (Türkçe)
 description: "Girilen referans isminin kabul edilebilir olup olmadığını kontrol eder, ve eğer kabul edilemezse sıfır olmayan bir çıktı verir."
 content_hash: 0e8ba06ef98ee2591dddf0b55b8ece95571d483f
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-check-ref-format.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git check-ref-format
 

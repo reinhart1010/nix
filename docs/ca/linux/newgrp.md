@@ -3,6 +3,7 @@ layout: page
 title: linux/newgrp (català)
 description: "Canvia el grup primari de pertinència."
 content_hash: efc0c8060b52403c4924cf42ca84a09d9050b1ab
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/newgrp.html
@@ -10,6 +11,10 @@ related_topics:
   - title: español version
     url: /es/linux/newgrp.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/newgrp.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # newgrp
 

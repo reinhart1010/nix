@@ -3,10 +3,12 @@ layout: page
 title: osx/networksetup (中文)
 description: "网络系统首选项配置工具。"
 content_hash: 6ba32ce7ac24b641572a32ff4a92b4eff36024dd
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/networksetup.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # networksetup
 

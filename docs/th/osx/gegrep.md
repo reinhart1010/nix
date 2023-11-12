@@ -3,7 +3,7 @@ layout: page
 title: osx/gegrep (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux egrep`"
 content_hash: 43dc36976054b1a95c395e25f4858c1e0dc5403c
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gegrep.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gegrep.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gegrep
 

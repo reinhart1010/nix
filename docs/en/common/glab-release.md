@@ -3,7 +3,8 @@ layout: page
 title: common/glab-release (English)
 description: "Manage GitLab releases."
 content_hash: 25e913faad4e6ad975703247fc447bcd1339a793
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # glab release
 

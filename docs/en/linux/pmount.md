@@ -3,6 +3,8 @@ layout: page
 title: linux/pmount (English)
 description: "Mount arbitrary hotpluggable devices as a normal user."
 content_hash: f062dbd56470e594a7aca99477dd95ff81bbe9b2
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pmount
 

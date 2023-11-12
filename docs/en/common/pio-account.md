@@ -3,6 +3,8 @@ layout: page
 title: common/pio-account (English)
 description: "Manage your PlatformIO account in the command-line."
 content_hash: 6ccf11adf4042b6c8c1b96d6e434d653571c9e43
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pio account
 

@@ -3,12 +3,10 @@ layout: page
 title: linux/systemd-tty-ask-password-agent (English)
 description: "List or process pending systemd password requests."
 content_hash: 55dd90b7c460d1e4cde0c65c7ead399e654a1ca3
-last_modified_at: 2023-09-02
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># systemd-tty-ask-password-agent
+# systemd-tty-ask-password-agent
 
 List or process pending systemd password requests.
 More information: <https://www.freedesktop.org/software/systemd/man/systemd-tty-ask-password-agent.html>.

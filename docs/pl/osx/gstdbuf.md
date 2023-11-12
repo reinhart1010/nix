@@ -3,7 +3,7 @@ layout: page
 title: osx/gstdbuf (polski)
 description: "To polecenie jest aliasem `-p linux stdbuf`."
 content_hash: a4df33ea8ab90076d73909832dbcc911d9d9966a
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gstdbuf.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gstdbuf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gstdbuf
 

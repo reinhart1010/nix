@@ -3,7 +3,7 @@ layout: page
 title: common/docker-build (português (Brasil))
 description: "Cria uma imagem a partir de um Dockerfile."
 content_hash: 51b10d50c0efaeb7ff37e73c4fe1dd63adb6120a
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-build.html
@@ -32,17 +32,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/docker-build.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/docker-build.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># docker build
+# docker build
 
 Cria uma imagem a partir de um Dockerfile.
 Mais informações: <https://docs.docker.com/engine/reference/commandline/build/>.

@@ -1,17 +1,24 @@
 ---
 layout: page
-title: common/bg (norsk bokmål (Norge))
+title: common/bg (norsk)
 description: "Gjenopptar jobber som er suspendert (f.eks. ved hjelp av `Ctrl + Z`), og holder dem i gang i bakgrunnen."
 content_hash: fef487381f2faaa75daa999b036b83d542d83649
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/bg.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/bg.html
     icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/common/bg.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/bg.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/bg.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/bg.html
@@ -22,9 +29,13 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/bg.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/bg.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/bg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bg
 

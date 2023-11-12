@@ -3,10 +3,12 @@ layout: page
 title: common/trap (English)
 description: "Automatically execute commands after receiving signals by processes or the operating system."
 content_hash: d499954498b0bbcc39e122d9f46f391b077fe1f0
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/common/trap.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # trap
 

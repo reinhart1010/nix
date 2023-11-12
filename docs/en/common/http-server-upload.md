@@ -3,6 +3,8 @@ layout: page
 title: common/http-server-upload (English)
 description: "Zero-configuration command-line HTTP server which provides a lightweight interface to upload files."
 content_hash: 9c614f7f1238f14cb8da144888da65ec26f6aae4
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # http-server-upload
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/playerctl (English)
 description: "Utility to control different media players."
 content_hash: 3037d54b3938a588e1e31199ed685990e433bcdd
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # playerctl
 

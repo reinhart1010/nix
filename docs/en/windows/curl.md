@@ -3,10 +3,13 @@ layout: page
 title: windows/curl (English)
 description: "In PowerShell, this command may be an alias of `Invoke-WebRequest` when the original `curl` program (<https://curl.se>) is not properly installed."
 content_hash: c8c85ca58f7a47570e030bb255cc15ddcad8f494
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/curl.html
+    icon: bi bi-globe
+  - title: বাংলা version
+    url: /bn/windows/curl.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/curl.html
@@ -89,6 +92,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/curl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # curl
 

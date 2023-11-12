@@ -3,7 +3,8 @@ layout: page
 title: common/knife (English)
 description: "Interact with a Chef server from a local Chef repo."
 content_hash: 3383b3302fd5f449083089bcdc7a1c4aac6a7968
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # knife
 

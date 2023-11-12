@@ -3,13 +3,18 @@ layout: page
 title: osx/cal (English)
 description: "Prints calendar information."
 content_hash: 1d57b3bea96d4bcac59c9366eb3899fbd689addd
+last_modified_at: 2023-11-12
 related_topics:
   - title: Indonesia version
     url: /id/osx/cal.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/cal.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/cal.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cal
 

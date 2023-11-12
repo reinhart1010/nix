@@ -3,7 +3,8 @@ layout: page
 title: common/upx (English)
 description: "Compress or decompress executables."
 content_hash: 67db83273368fe914a48a19374b0400ef7ef338a
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # upx
 

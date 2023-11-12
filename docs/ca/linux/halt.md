@@ -3,7 +3,7 @@ layout: page
 title: linux/halt (català)
 description: "Deté, apaga o reinicia la màquina."
 content_hash: 0c43d7b3926b8475dff7471584e39a3d8b34038e
-last_modified_at: 2023-10-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/halt.html
@@ -17,6 +17,7 @@ related_topics:
   - title: italiano version
     url: /it/linux/halt.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # halt
 

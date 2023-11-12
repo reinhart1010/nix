@@ -3,7 +3,8 @@ layout: page
 title: common/javap (English)
 description: "Disassemble one or more class files and list them."
 content_hash: 61829a079f58baa528594301692043db6dc93971
-last_modified_at: 2023-06-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # javap
 

@@ -3,7 +3,7 @@ layout: page
 title: common/cmp (فارسی)
 description: "مقایسه بایت به بایت دو فایل."
 content_hash: d27a16fa6cc9c00388366724a367496c34f6b1b5
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/cmp.html
@@ -14,6 +14,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cmp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cmp
 

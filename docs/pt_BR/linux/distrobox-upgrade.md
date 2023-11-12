@@ -3,16 +3,17 @@ layout: page
 title: linux/distrobox-upgrade (português (Brasil))
 description: "Atualizar um ou vários contêineres distrobox."
 content_hash: ee9ff830dd07cda2a512665c334a0ade61742718
-last_modified_at: 2023-09-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/distrobox-upgrade.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/distrobox-upgrade.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># distrobox-upgrade
+# distrobox-upgrade
 
 Atualizar um ou vários contêineres distrobox.
 Subcomando de `distrobox`. Veja também: `tldr distrobox`.

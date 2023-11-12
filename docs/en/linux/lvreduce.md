@@ -3,6 +3,8 @@ layout: page
 title: linux/lvreduce (English)
 description: "Reduce the size of a logical volume."
 content_hash: e408aa97a9eb98628652cc1edc42a91eabec96cf
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lvreduce
 

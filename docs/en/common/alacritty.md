@@ -3,9 +3,16 @@ layout: page
 title: common/alacritty (English)
 description: "Cross-platform, GPU-accelerated terminal emulator."
 content_hash: f6c217999b3e9d169f9e8699f044d6c3254919f5
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/alacritty.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/alacritty.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/alacritty.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/alacritty.html
@@ -16,12 +23,19 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/alacritty.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/alacritty.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/alacritty.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/common/alacritty.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/alacritty.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # alacritty
 

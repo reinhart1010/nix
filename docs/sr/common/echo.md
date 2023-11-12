@@ -3,12 +3,16 @@ layout: page
 title: common/echo (српски)
 description: "Prikazuje date argumente."
 content_hash: 63657390e150aeb89521d1dc3d26973b0a091fe4
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/echo.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/echo.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/echo.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/echo.html
@@ -28,14 +32,21 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/echo.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/echo.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/echo.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/echo.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# echo
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># echo
 
 Prikazuje date argumente.
 Više informacija na: <https://www.gnu.org/software/coreutils/echo>.

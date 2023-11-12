@@ -3,11 +3,18 @@ layout: page
 title: linux/distrobox-list (தமிழ்)
 description: "அனைத்து டிஸ்ட்ரோபாக்ஸ் கொள்கலன்களையும் பட்டியலிடுங்கள். மேலும் பார்க்கவும்: `tldr distrobox`."
 content_hash: f757efe13298a364bb10fb924052754c1e38d961
-last_modified_at: 2023-03-19
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/distrobox-list.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/distrobox-list.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/distrobox-list.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # distrobox-list
 

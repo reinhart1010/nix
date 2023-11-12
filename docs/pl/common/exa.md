@@ -3,7 +3,7 @@ layout: page
 title: common/exa (polski)
 description: "Nowoczesny odpowiednik `ls` (wyświetla zawartość katalogu)."
 content_hash: 602afede9822f0825e4d06d32ed9ba29fd00d0db
-last_modified_at: 2023-10-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/exa.html
@@ -14,11 +14,9 @@ related_topics:
   - title: italiano version
     url: /it/common/exa.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># exa
+# exa
 
 Nowoczesny odpowiednik `ls` (wyświetla zawartość katalogu).
 Więcej informacji: <https://the.exa.website>.

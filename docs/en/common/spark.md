@@ -3,6 +3,8 @@ layout: page
 title: common/spark (English)
 description: "The Laravel Spark command-line tool."
 content_hash: 9b7e0b4a726f885cbe7d9467517f24adf662e261
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # spark
 

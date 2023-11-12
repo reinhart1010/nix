@@ -3,6 +3,8 @@ layout: page
 title: common/lsd (English)
 description: "List directory contents."
 content_hash: ac1b0a0276565439edc11cb478f1e8dc5ca49ff6
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lsd
 

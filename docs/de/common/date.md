@@ -3,7 +3,7 @@ layout: page
 title: common/date (Deutsch)
 description: "Setze die Systemzeit oder zeige sie an."
 content_hash: 452703e414acc4987f60cb8f0a4e4808f902efaf
-last_modified_at: 2022-11-30
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/date.html
@@ -20,11 +20,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/date.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># date
+# date
 
 Setze die Systemzeit oder zeige sie an.
 Weitere Informationen: <https://www.gnu.org/software/coreutils/date>.

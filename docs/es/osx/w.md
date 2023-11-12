@@ -3,7 +3,7 @@ layout: page
 title: osx/w (español)
 description: "Muestra quién está conectado y qué está haciendo."
 content_hash: 02a220a24be74120a7d5cafa3866071575e90441
-last_modified_at: 2023-06-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/w.html
@@ -14,11 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/w.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># w
+# w
 
 Muestra quién está conectado y qué está haciendo.
 Imprime el inicio de sesión del usuario, TTY, host remoto, tiempo de inicio de sesiòn, tiempo de inactividad, proceso actual.

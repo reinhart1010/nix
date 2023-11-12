@@ -3,13 +3,21 @@ layout: page
 title: common/arp-scan (English)
 description: "Send ARP packets to hosts (specified as IP addresses or hostnames) to scan the local network."
 content_hash: 4fe43f9a266f99a8110c63336982a3cd7e499b54
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/arp-scan.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/arp-scan.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/arp-scan.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/arp-scan.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # arp-scan
 

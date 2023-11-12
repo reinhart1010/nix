@@ -3,7 +3,8 @@ layout: page
 title: linux/rpm (English)
 description: "RPM Package Manager."
 content_hash: 27f164893329445be3113d214bb2034081f3efdc
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rpm
 

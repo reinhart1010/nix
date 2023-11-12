@@ -3,6 +3,7 @@ layout: page
 title: common/git-cat-file (தமிழ்)
 description: "கிட் களஞ்சிய பொருள்களுக்கான உள்ளடக்கம் அல்லது வகை மற்றும் அளவு தகவல்களை வழங்கவும்."
 content_hash: 76385a89935dfedb3553097d4b4128a5d08259b7
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-cat-file.html
@@ -16,6 +17,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-cat-file.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git cat-file
 

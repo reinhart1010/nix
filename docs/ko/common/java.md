@@ -3,7 +3,7 @@ layout: page
 title: common/java (한국어)
 description: "자바 애플리케이션 실행기."
 content_hash: 1235c1a6a83b9e5f8c1c49356c845c37a00b6691
-last_modified_at: 2023-10-13
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/java.html
@@ -23,11 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/java.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># java
+# java
 
 자바 애플리케이션 실행기.
 더 많은 정보: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/java.html>.

@@ -3,12 +3,10 @@ layout: page
 title: linux/dbclient (English)
 description: "Lightweight Dropbear Secure Shell client."
 content_hash: efa74dc42d105c9c66cca35aa14ffe06f02fa823
-last_modified_at: 2023-03-14
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dbclient
+# dbclient
 
 Lightweight Dropbear Secure Shell client.
 More information: <https://manned.org/dbclient.1>.

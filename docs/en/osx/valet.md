@@ -3,7 +3,12 @@ layout: page
 title: osx/valet (English)
 description: "A Laravel development environment that allows hosting sites via local tunnels on `http://<example>.test`."
 content_hash: fa1353e3091bc8d1f691537c8ca7ea0ec9c64aee
-last_modified_at: 2023-06-25
+last_modified_at: 2023-11-12
+related_topics:
+  - title: español version
+    url: /es/osx/valet.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # valet
 

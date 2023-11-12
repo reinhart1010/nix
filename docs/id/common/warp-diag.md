@@ -3,10 +3,12 @@ layout: page
 title: common/warp-diag (Indonesia)
 description: "Alat diagnostik dan umpan balik bagi layanan Cloudflare WARP."
 content_hash: 33b705efc49da30527558d90552309b89ec46b9a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/warp-diag.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # warp-diag
 

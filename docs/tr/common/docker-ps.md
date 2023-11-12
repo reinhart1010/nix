@@ -3,6 +3,7 @@ layout: page
 title: common/docker-ps (Türkçe)
 description: "Docker konteynerlerini sırala."
 content_hash: d67cb2d4baf89d1ad9dd698ff034adbfe5c6a2fe
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-ps.html
@@ -13,9 +14,16 @@ related_topics:
   - title: français version
     url: /fr/common/docker-ps.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/docker-ps.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/docker-ps.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker-ps.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker ps
 

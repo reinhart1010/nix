@@ -3,6 +3,7 @@ layout: page
 title: common/du (日本語)
 description: "ディスク使用状況: ファイルとディレクトリの使用量の概算を表示します。"
 content_hash: e611d29f782ec2d65a5d5fd2ea34f80336208f2c
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/du.html
@@ -19,6 +20,13 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/du.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/du.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/du.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # du
 

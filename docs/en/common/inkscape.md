@@ -3,10 +3,12 @@ layout: page
 title: common/inkscape (English)
 description: "An SVG (Scalable Vector Graphics) editing program."
 content_hash: a52cc5bd03d04a3aa9b32ecd52f99c3df5899a57
+last_modified_at: 2023-11-12
 related_topics:
   - title: Nederlands version
     url: /nl/common/inkscape.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # inkscape
 

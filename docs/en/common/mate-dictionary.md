@@ -3,11 +3,10 @@ layout: page
 title: common/mate-dictionary (English)
 description: "Look up words on dictionaries."
 content_hash: 3457f5278799a6ebc8efce198a10973d254a2573
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mate-dictionary
+# mate-dictionary
 
 Look up words on dictionaries.
 More information: <https://manned.org/mate-dictionary>.

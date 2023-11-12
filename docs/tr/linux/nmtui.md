@@ -3,6 +3,7 @@ layout: page
 title: linux/nmtui (Türkçe)
 description: "NetworkManager'ı denetlemek için metin tabanlı kullanıcı arayüzü."
 content_hash: aa68813f93326c5dfe17c80577c2d518fde0e385
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/nmtui.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/linux/nmtui.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nmtui
 

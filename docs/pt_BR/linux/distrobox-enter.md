@@ -3,19 +3,20 @@ layout: page
 title: linux/distrobox-enter (português (Brasil))
 description: "Entrar em um contêiner distrobox. Veja também: `tldr distrobox`."
 content_hash: b832489ffa679287747b03a492161b8350602f88
-last_modified_at: 2023-09-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/distrobox-enter.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/distrobox-enter.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/distrobox-enter.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># distrobox-enter
+# distrobox-enter
 
 Entrar em um contêiner distrobox. Veja também: `tldr distrobox`.
 O comando padrão executado é o seu SHELL, mas você pode especificar shells diferentes ou comandos completos para serem executados.

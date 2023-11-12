@@ -3,10 +3,18 @@ layout: page
 title: common/kubectl (português (Brasil))
 description: "Linha de comando para executar comando em clusters do Kubernetes."
 content_hash: b3c459fdb3ef1376f0782efe8da5d6291ca141de
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/kubectl.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/kubectl.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/common/kubectl.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # kubectl
 

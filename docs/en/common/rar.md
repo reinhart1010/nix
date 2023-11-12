@@ -3,10 +3,12 @@ layout: page
 title: common/rar (English)
 description: "The RAR archiver. Supports multi-volume archives that can be optionally self-extracting."
 content_hash: 8348ec5dd42fac546b21346dd0edc9eeaa59e866
+last_modified_at: 2023-11-12
 related_topics:
   - title: polski version
     url: /pl/common/rar.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rar
 

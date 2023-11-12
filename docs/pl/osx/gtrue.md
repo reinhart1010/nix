@@ -3,7 +3,7 @@ layout: page
 title: osx/gtrue (polski)
 description: "To polecenie jest aliasem `-p linux true`."
 content_hash: 381c001666f35289c70033c1d77541aaf93da073
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gtrue.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gtrue.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gtrue
 

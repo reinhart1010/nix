@@ -3,6 +3,7 @@ layout: page
 title: common/aws-google-auth (한국어)
 description: "Google Apps를 페더레이션(Single Sign-On)공급자로 사용하여 AWS 임시(STS) 자격 증명을 획득하는 명령 줄 도구입니다."
 content_hash: 59b8cf8ba7bf18993415b9d217fee9ee017b739e
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-google-auth.html
@@ -10,6 +11,16 @@ related_topics:
   - title: English version
     url: /en/common/aws-google-auth.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/aws-google-auth.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/aws-google-auth.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/aws-google-auth.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws-google-auth
 

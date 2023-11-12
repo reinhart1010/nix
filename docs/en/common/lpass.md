@@ -3,6 +3,8 @@ layout: page
 title: common/lpass (English)
 description: "Command-line interface for the LastPass password manager."
 content_hash: b84a80ec965022a1c5968492c30366717abfbced
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lpass
 

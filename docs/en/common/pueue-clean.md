@@ -3,6 +3,8 @@ layout: page
 title: common/pueue-clean (English)
 description: "Remove all finished tasks from the list and clear logs."
 content_hash: 1e24237e9d679cb7bcfc08a5d27cbf9d38403136
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pueue clean
 

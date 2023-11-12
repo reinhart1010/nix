@@ -3,10 +3,12 @@ layout: page
 title: common/erl (English)
 description: "Run and manage programs in the Erlang programming language."
 content_hash: d0834f293575c4da352f7ad054c580e82cc24638
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/erl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # erl
 

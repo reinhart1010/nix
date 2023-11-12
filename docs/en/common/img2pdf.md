@@ -3,10 +3,12 @@ layout: page
 title: common/img2pdf (English)
 description: "Command-line lossless converter of raster images to PDF."
 content_hash: 70a5bc3612b9c8a156b0c5948bad21bc2b0a3f80
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/img2pdf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # img2pdf
 

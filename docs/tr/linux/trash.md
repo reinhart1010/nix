@@ -3,11 +3,12 @@ layout: page
 title: linux/trash (Türkçe)
 description: "Çöp / geri dönüşüm kutusunu yönetmek için bir komut satırı arayüzü."
 content_hash: 75caf2319b7b7220aad1e3a48584448711c4ee79
-last_modified_at: 2023-09-24
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/trash.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # trash
 

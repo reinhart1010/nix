@@ -3,6 +3,7 @@ layout: page
 title: linux/alpine (Deutsch)
 description: "Ein E-Mail und Usenet Client mit pico/nano-inspirierten Interface."
 content_hash: 62feed7c5edaf0903c3e6e11f6a6cb232e4c6639
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/alpine.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/alpine.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # alpine
 

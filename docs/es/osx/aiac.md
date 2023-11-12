@@ -3,16 +3,14 @@ layout: page
 title: osx/aiac (español)
 description: "Utiliza OpenAI para generar configuraciones IaC, utilidades, consultas y más."
 content_hash: 097cf1ba04f3f3b304803d3063ec7aef7fcf50af
-last_modified_at: 2023-06-25
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/aiac.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aiac
+# aiac
 
 Utiliza OpenAI para generar configuraciones IaC, utilidades, consultas y más.
 Más información: <https://github.com/gofireflyio/aiac>.

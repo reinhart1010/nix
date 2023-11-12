@@ -3,15 +3,14 @@ layout: page
 title: linux/uuidgen (polski)
 description: "Stwórz unikalny identyfikator (UUIDs)."
 content_hash: 4e7413928794c5eee888bdebd65db6d4633a0b2c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/uuidgen.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># uuidgen
+# uuidgen
 
 Stwórz unikalny identyfikator (UUIDs).
 Zobacz też `uuid`.

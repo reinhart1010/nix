@@ -3,10 +3,13 @@ layout: page
 title: windows/winget (English)
 description: "Windows Package Manager."
 content_hash: dbc426cbea9a0abec7bf6cc98080cb171a388409
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/winget.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/winget.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/windows/winget.html
@@ -23,6 +26,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/winget.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # winget
 

@@ -3,9 +3,13 @@ layout: page
 title: common/at (한국어)
 description: "명령 실행 후 한 번 실행합니다."
 content_hash: ff5b1135be7334a4319f719b646a5523d2d3b22f
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/at.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/at.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/at.html
@@ -25,6 +29,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/at.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # at
 

@@ -3,10 +3,15 @@ layout: page
 title: osx/csshx (português (Brasil))
 description: "Ferramenta de Cluster SSH para macOS."
 content_hash: c315e16c42b0f4b467f83c77d2c2f9cf1d63a9fc
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/csshx.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/csshx.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # csshX
 

@@ -3,7 +3,11 @@ layout: page
 title: common/alias (français)
 description: "Créé des alias -- mots qui sont remplacés par une commande textuelle."
 content_hash: 3bf6b1299ede5177d6a9dc946c4725e2b776db68
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/alias.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/alias.html
     icon: bi bi-globe
@@ -43,9 +47,19 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/alias.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/alias.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/alias.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/alias.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/alias.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # alias
 

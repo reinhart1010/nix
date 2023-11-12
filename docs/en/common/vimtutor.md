@@ -3,7 +3,7 @@ layout: page
 title: common/vimtutor (English)
 description: "Vim tutor, teaching the basic vim commands."
 content_hash: d42ed69414c8c4d124e3180749206e4d8f9f31fe
-last_modified_at: 2022-11-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/vimtutor.html
@@ -14,6 +14,7 @@ related_topics:
   - title: svenska version
     url: /sv/common/vimtutor.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # vimtutor
 

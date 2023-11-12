@@ -3,12 +3,10 @@ layout: page
 title: common/dotnet-add-package (English)
 description: "Add or update a .NET package reference in a project file."
 content_hash: 759a044172bf8de4b3a57b69734a5f71cb315292
-last_modified_at: 2023-10-18
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dotnet add package
+# dotnet add package
 
 Add or update a .NET package reference in a project file.
 More information: <https://learn.microsoft.com/dotnet/core/tools/dotnet-add-package>.

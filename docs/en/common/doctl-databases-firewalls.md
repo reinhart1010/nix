@@ -3,12 +3,10 @@ layout: page
 title: common/doctl-databases-firewalls (English)
 description: "Manage firewalls for database clusters."
 content_hash: 94fbe320b7e9090f46897365a270828511ffdd35
-last_modified_at: 2023-10-12
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># doctl databases firewalls
+# doctl databases firewalls
 
 Manage firewalls for database clusters.
 More information: <https://docs.digitalocean.com/reference/doctl/reference/databases/firewalls>.

@@ -3,16 +3,14 @@ layout: page
 title: common/aws-cloudwatch (한국어)
 description: "AWS 리소스를 모니터링하여 리소스 이용률, 애플리케이션 성능 및 운영 상태에 대한 시스템 전반적인 가시성 확보."
 content_hash: 9e68f4bbc931364047684f741dee213e288c3d3e
-last_modified_at: 2023-10-01
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/aws-cloudwatch.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws cloudwatch
+# aws cloudwatch
 
 AWS 리소스를 모니터링하여 리소스 이용률, 애플리케이션 성능 및 운영 상태에 대한 시스템 전반적인 가시성 확보.
 더 많은 정보: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloudwatch/index.html>.

@@ -3,11 +3,12 @@ layout: page
 title: common/eza (polski)
 description: "Nowoczesny odpowiednik `ls`, fork `exa`."
 content_hash: ec762a81fe4fccd5663d26a9d56989ee37092fcc
-last_modified_at: 2023-10-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/eza.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # eza
 

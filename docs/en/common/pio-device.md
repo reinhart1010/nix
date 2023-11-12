@@ -3,6 +3,8 @@ layout: page
 title: common/pio-device (English)
 description: "Manage and monitor PlatformIO devices."
 content_hash: b2627138acce7373c1cd4336fadb984ca24ad591
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pio device
 

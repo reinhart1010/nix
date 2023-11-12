@@ -3,10 +3,15 @@ layout: page
 title: osx/getfileinfo (English)
 description: "Get information about a file in an HFS+ directory."
 content_hash: 5e26f440c4977aab9d5fcb3137207855344fd328
+last_modified_at: 2023-11-12
 related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/osx/getfileinfo.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/getfileinfo.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # GetFileInfo
 

@@ -3,6 +3,7 @@ layout: page
 title: common/csvpy (italiano)
 description: "Carica un file CSV in una shell Python."
 content_hash: 490491b8cb7a8e842412dc3c1457e5a9a96dea03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/csvpy.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/csvpy.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # csvpy
 

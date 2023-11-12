@@ -3,7 +3,7 @@ layout: page
 title: common/asciidoctor (español)
 description: "Un procesador que convierte archivos AsciiDoc a un formato publicable."
 content_hash: 5d494644043397a857c862c19799efe11462b45b
-last_modified_at: 2023-04-21
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/asciidoctor.html
@@ -17,11 +17,9 @@ related_topics:
   - title: русский version
     url: /ru/common/asciidoctor.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># asciidoctor
+# asciidoctor
 
 Un procesador que convierte archivos AsciiDoc a un formato publicable.
 Más información: <https://docs.asciidoctor.org>.

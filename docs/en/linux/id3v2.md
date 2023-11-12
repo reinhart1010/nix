@@ -3,12 +3,10 @@ layout: page
 title: linux/id3v2 (English)
 description: "Manages id3v2 tags, converts and lists id3v1."
 content_hash: 1df61fdee20a8f31e8478150f358e248b38e26af
-last_modified_at: 2022-12-23
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># id3v2
+# id3v2
 
 Manages id3v2 tags, converts and lists id3v1.
 More information: <https://manned.org/id3v2.1>.

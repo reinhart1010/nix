@@ -3,11 +3,12 @@ layout: page
 title: common/go-vet (Türkçe)
 description: "Go kaynak kodunu kontrol et ve şüpheli yapıları bildir (örneğin Go kaynak dosyalarını tiftik et)."
 content_hash: 86665ec427d653bc983f4041fad1e12f921229f6
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/go-vet.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # go vet
 

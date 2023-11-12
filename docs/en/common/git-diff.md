@@ -3,6 +3,7 @@ layout: page
 title: common/git-diff (English)
 description: "Show changes to tracked files."
 content_hash: 0755c0a602dc12ed1f232616182a4453c0a54235
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/git-diff.html
@@ -13,6 +14,13 @@ related_topics:
   - title: italiano version
     url: /it/common/git-diff.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-diff.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-diff.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git diff
 

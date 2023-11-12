@@ -3,12 +3,16 @@ layout: page
 title: windows/cmd (italiano)
 description: "L'interprete dei comandi di Windows."
 content_hash: e555c120a7ddf222f78d3bbe82ba48cd3b6a5978
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/cmd.html
     icon: bi bi-globe
   - title: English version
     url: /en/windows/cmd.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/windows/cmd.html
     icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/windows/cmd.html
@@ -22,12 +26,16 @@ related_topics:
   - title: தமிழ் version
     url: /ta/windows/cmd.html
     icon: bi bi-globe
+  - title: ไทย version
+    url: /th/windows/cmd.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/cmd.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/cmd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cmd
 

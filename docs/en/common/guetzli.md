@@ -3,6 +3,8 @@ layout: page
 title: common/guetzli (English)
 description: "JPEG image compression utility."
 content_hash: 05ba1b435444a619f46df8e7b56df1db0aacfec8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # guetzli
 

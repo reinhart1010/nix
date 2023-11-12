@@ -3,7 +3,7 @@ layout: page
 title: common/find (English)
 description: "Find files or directories under the given directory tree, recursively."
 content_hash: 733908698bb057e29d6c666d6c0c3e833d5958fd
-last_modified_at: 2023-07-27
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/find.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/find.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # find
 

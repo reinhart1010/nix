@@ -3,7 +3,7 @@ layout: page
 title: linux/apt (বাংলা)
 description: "ডেবিয়ান ভিত্তিক ডিস্ট্রিবিউশনের জন্য প্যাকেজ ম্যানেজমেন্ট ইউটিলিটি।"
 content_hash: bc82bab12200863c2dcd02ab8987d286c5515e3a
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/linux/apt.html
@@ -62,6 +62,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/apt.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apt
 

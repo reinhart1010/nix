@@ -3,6 +3,8 @@ layout: page
 title: common/choose (English)
 description: "A human-friendly and fast alternative to cut and (sometimes) awk."
 content_hash: a7297692eae0dd056b8f77a01cf715e20239740a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # choose
 

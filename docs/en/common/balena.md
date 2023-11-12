@@ -3,7 +3,7 @@ layout: page
 title: common/balena (English)
 description: "Interact with the balenaCloud, openBalena and the balena API."
 content_hash: 22aae16601cd90b58d0e8bfd9995d439b54a4457
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/balena.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/balena.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # balena
 

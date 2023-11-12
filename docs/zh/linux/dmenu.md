@@ -3,10 +3,12 @@ layout: page
 title: linux/dmenu (中文)
 description: "动态菜单。"
 content_hash: f8864dde9487db21e9ba4efbf0d984ebbc62f63b
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/dmenu.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dmenu
 

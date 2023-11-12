@@ -3,6 +3,8 @@ layout: page
 title: linux/physlock (English)
 description: "Lock all consoles and virtual terminals."
 content_hash: dc916953074e27f7ab5286ae870591de03442b12
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # physlock
 

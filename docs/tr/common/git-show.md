@@ -3,6 +3,7 @@ layout: page
 title: common/git-show (Türkçe)
 description: "Çeşitli Git nesnelerini (commit'ler, etiketler vs.) görüntüle."
 content_hash: 951a6a883a8a985dd77a9bff42d9e826e4320688
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-show.html
@@ -16,6 +17,7 @@ related_topics:
   - title: italiano version
     url: /it/common/git-show.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git show
 

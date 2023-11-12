@@ -3,10 +3,12 @@ layout: page
 title: common/gocryptfs (italiano)
 description: "Filesystem crittografato scritto in Go."
 content_hash: 6f1513c42dd9afc5c780293b7b21dfe759853528
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/gocryptfs.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gocryptfs
 

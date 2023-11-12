@@ -3,7 +3,8 @@ layout: page
 title: linux/mktemp (English)
 description: "Create a temporary file or directory."
 content_hash: 50d8699894af766f11cd9847b7d8768c84dee097
-last_modified_at: 2023-10-03
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mktemp
 

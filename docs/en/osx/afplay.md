@@ -3,6 +3,7 @@ layout: page
 title: osx/afplay (English)
 description: "Command-line audio player."
 content_hash: eea63e12f22a6b47f1f8bd920b3c11b2772143e6
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/osx/afplay.html
@@ -10,6 +11,10 @@ related_topics:
   - title: italiano version
     url: /it/osx/afplay.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/afplay.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # afplay
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/lrunzip (English)
 description: "A large file decompression program."
 content_hash: 393a36913c1e27bf6536f11890d1adb9fab1295e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lrunzip
 

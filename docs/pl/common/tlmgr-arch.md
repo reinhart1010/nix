@@ -3,7 +3,7 @@ layout: page
 title: common/tlmgr-arch (polski)
 description: "To polecenie jest aliasem `tlmgr platform`."
 content_hash: a8fa493aa4bdeed8901f3dfc1e95cc5a06a1e4f7
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/tlmgr-arch.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/tlmgr-arch.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tlmgr-arch
 

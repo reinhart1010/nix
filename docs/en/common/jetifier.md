@@ -3,6 +3,8 @@ layout: page
 title: common/jetifier (English)
 description: "Jetifier AndroidX transition tool in npm format, with a react-native compatible style."
 content_hash: 7521fbc485fd3e194eec0928047fa7a7763c7581
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # jetifier
 

@@ -3,7 +3,8 @@ layout: page
 title: common/lighthouse (English)
 description: "Analyzes web applications and web pages, collecting modern performance metrics and insights on developer best practices."
 content_hash: 52fe1c50bffb804174169e1d105ac29ac6565d5a
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lighthouse
 

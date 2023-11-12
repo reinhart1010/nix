@@ -3,13 +3,27 @@ layout: page
 title: common/gcc (Deutsch)
 description: "Präprozessiert und kompiliert C und C++ Quellcodedateien und linkt diese anschließend zusammen."
 content_hash: 3b84434c2068e72a86f085a19793e77b0f8227d2
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/gcc.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/gcc.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/gcc.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/gcc.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/gcc.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/gcc.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gcc
 

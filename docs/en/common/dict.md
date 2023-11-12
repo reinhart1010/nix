@@ -3,6 +3,8 @@ layout: page
 title: common/dict (English)
 description: "Command line dictionary using the DICT protocol."
 content_hash: d5e6610ae7e3c0596377f93e954e0715033f95e2
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dict
 

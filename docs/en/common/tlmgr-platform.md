@@ -3,6 +3,8 @@ layout: page
 title: common/tlmgr-platform (English)
 description: "Manage TeX Live platforms."
 content_hash: 31e0ba8aa0a12744dbeb66960e3f0cedff848485
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tldr platform
 

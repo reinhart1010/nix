@@ -3,10 +3,12 @@ layout: page
 title: common/xkcdpass (polski)
 description: "Konfigurowalny generator haseł tworzący mocne hasła."
 content_hash: fc2f4d90c9fd0d2d766659c61fcd3300c55f3e42
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/xkcdpass.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xkcdpass
 

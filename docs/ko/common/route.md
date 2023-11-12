@@ -3,11 +3,12 @@ layout: page
 title: common/route (한국어)
 description: "route 명령어를 사용하여 라우팅 테이블 설정."
 content_hash: 46e5a60a17b744982037d010adcb6045cdcb25df
-last_modified_at: 2023-10-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/route.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # route
 

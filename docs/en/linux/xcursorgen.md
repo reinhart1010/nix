@@ -3,7 +3,8 @@ layout: page
 title: linux/xcursorgen (English)
 description: "Create an X cursor file from a collection of PNGs."
 content_hash: 16406b7d5b7ae5e5f127d0fb6e55163c8629dd48
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xcursorgen
 

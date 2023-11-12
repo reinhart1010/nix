@@ -3,7 +3,7 @@ layout: page
 title: linux/adduser (हिन्दी)
 description: "उपयोगकर्ता जोड़ने की उपयोगिता।"
 content_hash: f191fdbfaaa946e900434b815cc268db9b8ed638
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/adduser.html
@@ -29,6 +29,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/adduser.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # adduser
 

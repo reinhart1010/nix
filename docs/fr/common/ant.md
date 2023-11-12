@@ -3,6 +3,7 @@ layout: page
 title: common/ant (français)
 description: "Apache Ant."
 content_hash: 517a9870767dee6f8eeda8afad55dd9058fc315c
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ant.html
@@ -10,11 +11,15 @@ related_topics:
   - title: English version
     url: /en/common/ant.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/ant.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/ant.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ant
+# ant
 
 Apache Ant.
 Outil pour construire et gérer les projets basés sur du Java.

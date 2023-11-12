@@ -3,6 +3,8 @@ layout: page
 title: linux/nsenter (English)
 description: "Run a new command in a running process' namespace."
 content_hash: 0a344e98499ccb349dc22ebe4dd8bac8881cc9f3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # nsenter
 

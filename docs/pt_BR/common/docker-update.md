@@ -3,16 +3,14 @@ layout: page
 title: common/docker-update (português (Brasil))
 description: "Atualizar a configuração de contêineres Docker."
 content_hash: 53ae41337e7bee405ee9cd8ae23436a77b31d81f
-last_modified_at: 2023-09-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/docker-update.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docker update
+# docker update
 
 Atualizar a configuração de contêineres Docker.
 Este comando não é suportado para contêineres Windows.

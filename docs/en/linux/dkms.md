@@ -3,6 +3,8 @@ layout: page
 title: linux/dkms (English)
 description: "A framework that allows for dynamic building of kernel modules."
 content_hash: af6e4f60975f7673b77718d9ec2df3c73b6fe65f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dkms
 

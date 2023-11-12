@@ -3,7 +3,8 @@ layout: page
 title: linux/qm-showcmd (English)
 description: "Show command-line which is used to start the VM (debug info)."
 content_hash: eee8945f507dadfd09172b1749a1a4be0f9dfa23
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # qm showcmd
 

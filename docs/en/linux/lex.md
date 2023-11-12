@@ -3,7 +3,8 @@ layout: page
 title: linux/lex (English)
 description: "Lexical analyzer generator."
 content_hash: e1b6b7a3f4a9789442160a118ea57854c4461873
-last_modified_at: 2023-04-10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lex
 

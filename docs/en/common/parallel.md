@@ -3,7 +3,8 @@ layout: page
 title: common/parallel (English)
 description: "Run commands on multiple CPU cores."
 content_hash: a4d2177277f5702fc76bca89b5fd0f60c1a656e8
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # parallel
 

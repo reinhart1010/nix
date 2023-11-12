@@ -3,10 +3,12 @@ layout: page
 title: common/expand (italiano)
 description: "Converti caratteri tab in spazi."
 content_hash: e83e0b2f4097a652cad6b76723eb6562692ec548
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/expand.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # expand
 

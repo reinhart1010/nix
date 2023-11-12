@@ -3,6 +3,7 @@ layout: page
 title: common/go (中文)
 description: "管理 Go 源代码的工具。"
 content_hash: 9c2e71b1f8f75575257c92878fa0d4580048a433
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/go.html
@@ -10,11 +11,12 @@ related_topics:
   - title: français version
     url: /fr/common/go.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/go.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># go
+# go
 
 管理 Go 源代码的工具。
 此命令也有关于其子命令的文件，例如：`go build`.

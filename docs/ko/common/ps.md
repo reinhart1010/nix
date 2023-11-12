@@ -3,7 +3,7 @@ layout: page
 title: common/ps (한국어)
 description: "실행 중인 프로세스에 대한 정보입니다."
 content_hash: 84e5a08c06b83e88fc58a402b6a5432a4cb5712e
-last_modified_at: 2023-10-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ps.html
@@ -17,6 +17,7 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/ps.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ps
 

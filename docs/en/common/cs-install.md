@@ -3,7 +3,8 @@ layout: page
 title: common/cs-install (English)
 description: "Install an application in the installation directory onfigured when installing `cs` (to enable the binary to be loaded add to your `.bash_profile` the `$ eval \"$(cs install --env)\"` command)."
 content_hash: 83415ab721d53b714f3f2e35ab72570b2b50d6b7
-last_modified_at: 2023-06-14
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # cs install
 

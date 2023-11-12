@@ -3,7 +3,7 @@ layout: page
 title: common/llvm-strings (polski)
 description: "To polecenie jest aliasem `strings`."
 content_hash: 16af8f72b22fd6e7d964e88001e53b78700b0fbf
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/llvm-strings.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/llvm-strings.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # llvm-strings
 

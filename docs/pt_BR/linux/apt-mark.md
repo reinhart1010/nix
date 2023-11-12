@@ -3,7 +3,11 @@ layout: page
 title: linux/apt-mark (português (Brasil))
 description: "Utilitário que altera as configurações dos pacotes instalados."
 content_hash: 4573e72af68b8b30de225d8bd4356743775f44a9
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/apt-mark.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/apt-mark.html
     icon: bi bi-globe
@@ -19,9 +23,13 @@ related_topics:
   - title: italiano version
     url: /it/linux/apt-mark.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/apt-mark.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apt-mark.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apt-mark
 

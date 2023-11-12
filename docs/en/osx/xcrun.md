@@ -3,7 +3,12 @@ layout: page
 title: osx/xcrun (English)
 description: "Run or locate development tools and properties."
 content_hash: a3d409dd9f327a2269a40585a37d7f31b603f8c6
-last_modified_at: 2023-06-10
+last_modified_at: 2023-11-12
+related_topics:
+  - title: español version
+    url: /es/osx/xcrun.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xcrun
 

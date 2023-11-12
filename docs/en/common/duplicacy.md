@@ -3,6 +3,8 @@ layout: page
 title: common/duplicacy (English)
 description: "A lock-free deduplication cloud backup tool."
 content_hash: 9099aba58ee44cc43cba0e288b0b41f3add17946
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # duplicacy
 

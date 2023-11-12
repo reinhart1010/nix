@@ -3,7 +3,8 @@ layout: page
 title: common/mailx (English)
 description: "Send and receive mail."
 content_hash: 6bd7806d4aad61f3082c256fff5245856f8fa0f3
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mailx
 

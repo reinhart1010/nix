@@ -3,6 +3,7 @@ layout: page
 title: common/command (English)
 description: "Command forces the shell to execute the program and ignore any functions, builtins and aliases with the same name."
 content_hash: c6a668c283d760bdf4a74f2bc40839480eae196b
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/command.html
@@ -19,6 +20,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/command.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # command
 

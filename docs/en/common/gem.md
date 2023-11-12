@@ -3,11 +3,15 @@ layout: page
 title: common/gem (English)
 description: "A package manager for the Ruby programming language."
 content_hash: 6e2ac4046b11b8c525d2b056fbade794799fa31c
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
+  - title: français version
+    url: /fr/common/gem.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/gem.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gem
 

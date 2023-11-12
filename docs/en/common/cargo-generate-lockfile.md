@@ -3,7 +3,8 @@ layout: page
 title: common/cargo-generate-lockfile (English)
 description: "Generate the `Cargo.lock` file for the current package. Similar to `cargo update`, but has less options."
 content_hash: 608307e9c62d5b680f85d6777daac8aef9b94f64
-last_modified_at: 2023-10-30
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # cargo generate-lockfile
 

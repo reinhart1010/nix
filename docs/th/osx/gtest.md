@@ -3,7 +3,7 @@ layout: page
 title: osx/gtest (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux test`"
 content_hash: 35652074909f2ddfabafad33aac334930b111e62
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gtest.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gtest.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gtest
 

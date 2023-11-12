@@ -3,10 +3,15 @@ layout: page
 title: common/pip-install (Deutsch)
 description: "Installiere Python-Pakete."
 content_hash: b5046ff9552b10989c48a8661f7ee0628287ba1e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/pip-install.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/pip-install.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pip install
 

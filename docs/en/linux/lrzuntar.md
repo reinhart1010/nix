@@ -3,6 +3,8 @@ layout: page
 title: linux/lrzuntar (English)
 description: "A wrapper for `lrunzip` to simplify decompression of directories."
 content_hash: a8a28ff83d87ad08ef00c8bf83b6a0294d208660
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lrzuntar
 

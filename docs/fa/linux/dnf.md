@@ -3,7 +3,7 @@ layout: page
 title: linux/dnf (فارسی)
 description: "ابزار مدیریت بسته‌ها برای RHEL، Fedora و CentOS (جایگزین `yum`)."
 content_hash: 74b54392c392347bca0f541362430437f43a1a88
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/dnf.html
@@ -32,11 +32,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/dnf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dnf
+# dnf
 
 ابزار مدیریت بسته‌ها برای RHEL، Fedora و CentOS (جایگزین `yum`).
 برای دستورات معادل در دیگر مدیران بسته، به <https://wiki.archlinux.org/title/Pacman/Rosetta> مراجعه کنید.

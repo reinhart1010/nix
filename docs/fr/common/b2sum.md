@@ -3,7 +3,7 @@ layout: page
 title: common/b2sum (français)
 description: "Calcule les sommes de contrôle cryptographiques BLAKE2."
 content_hash: 8ef360d34862f315a2a0ff411d812220bbd122a0
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/b2sum.html
@@ -17,6 +17,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/b2sum.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # b2sum
 

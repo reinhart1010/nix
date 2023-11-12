@@ -3,11 +3,10 @@ layout: page
 title: linux/minicom (English)
 description: "A program to communicate with the serial interface of a device."
 content_hash: 9fdae2f8db1956451b48237b67d2a01d5f3d4c1a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># minicom
+# minicom
 
 A program to communicate with the serial interface of a device.
 More information: <https://manned.org/minicom>.

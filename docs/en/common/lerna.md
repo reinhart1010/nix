@@ -3,11 +3,10 @@ layout: page
 title: common/lerna (English)
 description: "A tool for managing JavaScript projects with multiple packages."
 content_hash: 98751c6914c8a341e33abde5c6b4a73f9a3790a5
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># lerna
+# lerna
 
 A tool for managing JavaScript projects with multiple packages.
 More information: <https://lerna.js.org>.

@@ -3,6 +3,7 @@ layout: page
 title: common/vim (한국어)
 description: "Vim (Vi IMproved)는 커맨드 라인 텍스트 에디터로 다양한 종류의 텍스트 조작을 위해 여러 모드를 지원합니다."
 content_hash: de80d1473b3046f4ccd5d38c98803a389286c65e
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -28,17 +29,21 @@ related_topics:
   - title: polski version
     url: /pl/common/vim.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/vim.html
+    icon: bi bi-globe
   - title: українська version
     url: /uk/common/vim.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/vim.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/vim.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># vim
+# vim
 
 Vim (Vi IMproved)는 커맨드 라인 텍스트 에디터로 다양한 종류의 텍스트 조작을 위해 여러 모드를 지원합니다.
 `i` 를 눌러 입력 모드로 들어가고, `<Esc>` 를 눌러 Vim 명령어를 입력할 수 있는 일반 모드로 들어갑니다.

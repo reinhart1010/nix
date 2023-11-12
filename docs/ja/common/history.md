@@ -3,7 +3,7 @@ layout: page
 title: common/history (日本語)
 description: "コマンドラインの履歴です。"
 content_hash: 6d340509f20e3399fdf0c84d07b73fbcf7136a4c
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/history.html
@@ -23,6 +23,7 @@ related_topics:
   - title: русский version
     url: /ru/common/history.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # history
 

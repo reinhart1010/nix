@@ -3,6 +3,8 @@ layout: page
 title: linux/mkfs.cramfs (English)
 description: "Creates a ROM filesystem inside a partition."
 content_hash: 5e768632a3cca620812ec898141e681b6d545c94
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mkfs.cramfs
 

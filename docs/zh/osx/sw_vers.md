@@ -3,10 +3,15 @@ layout: page
 title: osx/sw_vers (中文)
 description: "打印 macOS 操作系统的版本信息。"
 content_hash: 6134b32b225495030ec86b2e26dfa0f8e39adb43
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/sw_vers.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/sw_vers.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sw_vers
 

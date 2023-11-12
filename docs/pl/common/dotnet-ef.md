@@ -3,10 +3,12 @@ layout: page
 title: common/dotnet-ef (polski)
 description: "Narzędzia projektowania dla Entity Framework Core."
 content_hash: 0b389358cdf3dd29c5fd682e3cefa4d7eda24f8c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/dotnet-ef.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dotnet ef
 

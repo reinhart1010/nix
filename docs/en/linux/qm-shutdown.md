@@ -3,11 +3,10 @@ layout: page
 title: linux/qm-shutdown (English)
 description: "Shutdown a virtual machine on QEMU/KVM Virtual Machine Manager."
 content_hash: 05390b5aecad2bfdc876d997f45b065a2a6f1fb2
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># qm shutdown
+# qm shutdown
 
 Shutdown a virtual machine on QEMU/KVM Virtual Machine Manager.
 More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.

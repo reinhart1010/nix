@@ -3,6 +3,7 @@ layout: page
 title: common/cradle-deploy (italiano)
 description: "Gestisci distribuzioni Cradle."
 content_hash: 01df5260e88eabdeda03da29742a90800b7d5046
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/cradle-deploy.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cradle-deploy.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cradle deploy
 

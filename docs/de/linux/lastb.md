@@ -3,10 +3,12 @@ layout: page
 title: linux/lastb (Deutsch)
 description: "Zeigt eine Liste der zuletzt angemeldeten Benutzer an."
 content_hash: c0b25de32abb6dc225714690370af1c0cfb6e02a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/lastb.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lastb
 

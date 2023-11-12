@@ -3,11 +3,12 @@ layout: page
 title: common/carbon-now (English)
 description: "Create beautiful images of code."
 content_hash: 66aebc1163ae87ebd8a862caa28bcfe48fb50060
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/common/carbon-now.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # carbon-now
 

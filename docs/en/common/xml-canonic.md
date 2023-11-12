@@ -3,6 +3,8 @@ layout: page
 title: common/xml-canonic (English)
 description: "Make XML documents canonical."
 content_hash: 9625266b7ac526c5338d2cdd608ee14177a5b1cd
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xml canonic
 

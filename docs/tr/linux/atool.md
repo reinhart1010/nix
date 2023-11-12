@@ -3,10 +3,12 @@ layout: page
 title: linux/atool (Türkçe)
 description: "Çeşitli biçimlerdeki arşivleri yönetin."
 content_hash: 31130cb159ff6ebd045d1a7d8633d72a515ac656
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/atool.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # atool
 

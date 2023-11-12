@@ -3,11 +3,15 @@ layout: page
 title: osx/wc (English)
 description: "Count lines, words, or bytes."
 content_hash: 4f830487c30965fab30a03ec4d2a997de4a6c6b4
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/osx/wc.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/osx/wc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wc
 

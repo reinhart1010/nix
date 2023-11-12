@@ -3,12 +3,10 @@ layout: page
 title: linux/systemd-inhibit (English)
 description: "Prohibit the system from entering certain power states."
 content_hash: 2cfcc674c55eef36420531d8a28b0fc472d9554b
-last_modified_at: 2023-10-10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># systemd-inhibit
+# systemd-inhibit
 
 Prohibit the system from entering certain power states.
 Inhibitor locks may be used to block or delay system sleep and shutdown requests as well as automatic idle handling.

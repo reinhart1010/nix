@@ -3,7 +3,7 @@ layout: page
 title: common/apm (português (Brasil))
 description: "Gerenciador de pacotes do editor de texto Atom."
 content_hash: 223f279fe68807b6570f814b7d024c8f3d618158
-last_modified_at: 2023-09-10
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/apm.html
@@ -23,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/apm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apm
 

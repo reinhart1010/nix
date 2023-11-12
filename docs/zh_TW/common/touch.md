@@ -3,7 +3,7 @@ layout: page
 title: common/touch (中文 (繁體, 台灣))
 description: "改變檔案的存取與修改時間。"
 content_hash: 0cbc074ece9622abbfc29b55be33f64222018eac
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/common/touch.html
@@ -26,15 +26,10 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/touch.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/touch.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># touch
 

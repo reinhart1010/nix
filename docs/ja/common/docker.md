@@ -3,7 +3,7 @@ layout: page
 title: common/docker (日本語)
 description: "Dockerコンテナ及びDockerイメージの管理を行います。"
 content_hash: ee8d1c540619cb0c8879ec37381ff0caf50bfb85
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -38,6 +38,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/docker.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker
 

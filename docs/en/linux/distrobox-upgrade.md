@@ -3,12 +3,17 @@ layout: page
 title: linux/distrobox-upgrade (English)
 description: "Upgrade one or multiple distrobox containers."
 content_hash: 263ce27cd154af28d17269b2e90b77c2f54f79ea
-last_modified_at: 2023-03-19
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Nederlands version
+    url: /nl/linux/distrobox-upgrade.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/distrobox-upgrade.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># distrobox-upgrade
+# distrobox-upgrade
 
 Upgrade one or multiple distrobox containers.
 Subcommand of `distrobox`. See also: `tldr distrobox`.

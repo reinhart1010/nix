@@ -3,6 +3,7 @@ layout: page
 title: common/unclutter (Nederlands)
 description: "Verbergt de muiscursor."
 content_hash: dd2865d76047ba1d1979fe8a008e5a0abc442ccf
+last_modified_at: 2023-11-12
 related_topics:
   - title: bosanski version
     url: /bs/common/unclutter.html
@@ -16,12 +17,13 @@ related_topics:
   - title: فارسی version
     url: /fa/common/unclutter.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/unclutter.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/common/unclutter.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # unclutter
 

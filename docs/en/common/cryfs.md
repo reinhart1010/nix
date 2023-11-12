@@ -3,10 +3,12 @@ layout: page
 title: common/cryfs (English)
 description: "A cryptographic filesystem for the cloud."
 content_hash: e448bb3289dc842ee964cd84103c35a045526921
+last_modified_at: 2023-11-12
 related_topics:
   - title: 한국어 version
     url: /ko/common/cryfs.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cryfs
 

@@ -3,9 +3,13 @@ layout: page
 title: windows/cd (日本語)
 description: "現在の作業ディレクトリの名前を表示するか、現在の作業ディレクトリを変更します。"
 content_hash: 1ffc522864d37f554f643861cfbbf4c45971ee4a
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/windows/cd.html
+    icon: bi bi-globe
+  - title: čeština version
+    url: /cs/windows/cd.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/cd.html
@@ -13,8 +17,17 @@ related_topics:
   - title: English version
     url: /en/windows/cd.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/windows/cd.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/cd.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/windows/cd.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/cd.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/windows/cd.html
@@ -22,11 +35,21 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/windows/cd.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/windows/cd.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/windows/cd.html
     icon: bi bi-globe
+  - title: ไทย version
+    url: /th/windows/cd.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# cd
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># cd
 
 現在の作業ディレクトリの名前を表示するか、現在の作業ディレクトリを変更します。
 詳しくはこちら: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>

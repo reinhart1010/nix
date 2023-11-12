@@ -3,6 +3,8 @@ layout: page
 title: common/fping (English)
 description: "A more powerful ping which can ping multiple hosts."
 content_hash: 5a7e0c40e47151d24c7f811994c64eb46c3a4ef0
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fping
 

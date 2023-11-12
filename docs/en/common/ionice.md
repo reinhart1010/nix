@@ -3,6 +3,8 @@ layout: page
 title: common/ionice (English)
 description: "Get or set program I/O scheduling class and priority."
 content_hash: e1b40d13c8263281c71796d5acf6d67e3b6f6374
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ionice
 

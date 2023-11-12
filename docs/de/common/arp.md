@@ -3,7 +3,7 @@ layout: page
 title: common/arp (Deutsch)
 description: "Den ARP Cache des Systems anzeigen und manipulieren."
 content_hash: 23ad4b2f1f0aadc9e85c843af7b73dc8cf72b54b
-last_modified_at: 2023-05-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/arp.html
@@ -29,6 +29,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/arp.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.

@@ -3,6 +3,7 @@ layout: page
 title: common/dotnet (English)
 description: "Cross platform .NET command-line tools for .NET Core."
 content_hash: f7827da80e3efece84387c938350bff737a9f902
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/dotnet.html
@@ -25,6 +26,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/dotnet.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dotnet
 

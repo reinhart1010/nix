@@ -3,15 +3,20 @@ layout: page
 title: common/ansible-doc (français)
 description: "Affiche les informations des modules installés dans les librairies Ansible."
 content_hash: 25ad41f0e50ca012d681a314b91daec4bfb81934
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/ansible-doc.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/ansible-doc.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/ansible-doc.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ansible-doc
+# ansible-doc
 
 Affiche les informations des modules installés dans les librairies Ansible.
 Affiche une liste concise des plugins et leurs description courte.

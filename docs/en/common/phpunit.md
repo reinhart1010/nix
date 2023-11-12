@@ -3,7 +3,8 @@ layout: page
 title: common/phpunit (English)
 description: "PHPUnit command-line test runner."
 content_hash: b147479151d478e30b39070c7f5b516903d15cf0
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # phpunit
 

@@ -3,7 +3,8 @@ layout: page
 title: linux/udevadm (English)
 description: "Linux `udev` management tool."
 content_hash: 381ac2afa6208a3e10250d6f0b95ccbe807ebaf7
-last_modified_at: 2023-11-03
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # udevadm
 

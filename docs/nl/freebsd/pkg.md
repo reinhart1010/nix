@@ -3,16 +3,14 @@ layout: page
 title: freebsd/pkg (Nederlands)
 description: "FreeBSD pakketbeheerder."
 content_hash: 143d99ce07bb2319dcbac4de3db59529342f8ad2
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/freebsd/pkg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pkg
+# pkg
 
 FreeBSD pakketbeheerder.
 Meer informatie: <https://man.freebsd.org/cgi/man.cgi?query=pkg&sektion=8>.

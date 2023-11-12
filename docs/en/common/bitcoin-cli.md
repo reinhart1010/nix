@@ -3,6 +3,7 @@ layout: page
 title: common/bitcoin-cli (English)
 description: "Command-line client to interact with the Bitcoin daemon via RPC calls."
 content_hash: 9871b45402f71d548631a23db7f15ed53ba34d9b
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/bitcoin-cli.html
@@ -13,6 +14,7 @@ related_topics:
   - title: polski version
     url: /pl/common/bitcoin-cli.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bitcoin-cli
 

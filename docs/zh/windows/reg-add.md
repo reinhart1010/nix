@@ -3,10 +3,12 @@ layout: page
 title: windows/reg-add (中文)
 description: "将新的键值添加到注册表中。"
 content_hash: 076f652d589f3e745f8e56344acb0979739c3e12
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/reg-add.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # reg add
 

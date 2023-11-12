@@ -3,6 +3,8 @@ layout: page
 title: linux/qm-reboot (English)
 description: "Reboot a virtual machine by shutting it down, and starting it again after applying pending changes."
 content_hash: af11b3c22cdaf5d998d77d4c05c2246c458372f6
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # qm reboot
 

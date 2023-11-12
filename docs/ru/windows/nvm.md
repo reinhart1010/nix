@@ -3,13 +3,18 @@ layout: page
 title: windows/nvm (русский)
 description: "Установка, удаление и переключение между версиями Node.js."
 content_hash: 7e0e9b0e4b50ce742cac2d10c66a39c9859e1a1d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/nvm.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/windows/nvm.html
+    icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/nvm.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.

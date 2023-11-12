@@ -3,8 +3,11 @@ layout: page
 title: common/arch (español)
 description: "Muestra el nombre de la arquitectura del sistema."
 content_hash: 44cf26af1e68df0dabcdfae9cdc3d05ed2839b30
-last_modified_at: 2023-03-02
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/arch.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/arch.html
     icon: bi bi-globe
@@ -41,11 +44,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/arch.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># arch
+# arch
 
 Muestra el nombre de la arquitectura del sistema.
 Ver también `uname`.

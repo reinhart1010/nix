@@ -3,7 +3,7 @@ layout: page
 title: linux/a2query (Türkçe)
 description: "Apache ve Debian tabanlı işletim sistemlerinde çalışma süresi yapılandırmasını kurtar."
 content_hash: 5795b802d83777c925397294b50161b3eb322d53
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/a2query.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: English version
     url: /en/linux/a2query.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/a2query.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/a2query.html
@@ -29,6 +32,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/a2query.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # a2query
 

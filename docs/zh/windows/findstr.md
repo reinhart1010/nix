@@ -3,10 +3,12 @@ layout: page
 title: windows/findstr (中文)
 description: "在一个或多个文件中查找指定的文本。"
 content_hash: e04eabcdbbee8e33cf272d4f4cb336e76f75e034
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/findstr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # findstr
 

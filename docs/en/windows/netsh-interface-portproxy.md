@@ -3,7 +3,8 @@ layout: page
 title: windows/netsh-interface-portproxy (English)
 description: "Configure and display the status of various network components."
 content_hash: 7e8a2c6d29b5e649c47f16709187ca1d2c371b6a
-last_modified_at: 2023-10-27
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # netsh interface portproxy
 

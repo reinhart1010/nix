@@ -3,6 +3,12 @@ layout: page
 title: common/rspec (English)
 description: "Behavior-driven development testing framework written in Ruby to test Ruby code."
 content_hash: cee7e0e5a3a0d295f4e80cae4847ec2826bafd47
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Indonesia version
+    url: /id/common/rspec.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rspec
 

@@ -3,6 +3,7 @@ layout: page
 title: windows/print (português (Brasil))
 description: "Imprimir um arquivo de texto em uma impressora."
 content_hash: 7abe4613c94c0f52962f4ba7f1f8762deb673805
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/print.html
@@ -13,9 +14,13 @@ related_topics:
   - title: polski version
     url: /pl/windows/print.html
     icon: bi bi-globe
+  - title: svenska version
+    url: /sv/windows/print.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/print.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # print
 

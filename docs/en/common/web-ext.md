@@ -3,6 +3,8 @@ layout: page
 title: common/web-ext (English)
 description: "A command-line tool for managing web extension development."
 content_hash: c85f56ac1cb4174506890b7c1b038f9afa565fa4
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # web-ext
 

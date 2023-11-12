@@ -3,7 +3,7 @@ layout: page
 title: windows/systeminfo (中文 (繁體, 台灣))
 description: "顯示本機或遠端電腦的作業系統配置。"
 content_hash: 9fd9a20f915c91b1bc0f27e1818f349dec1c89fc
-last_modified_at: 2023-10-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/systeminfo.html
@@ -11,11 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/systeminfo.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># systeminfo
+# systeminfo
 
 顯示本機或遠端電腦的作業系統配置。
 更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/systeminfo>.

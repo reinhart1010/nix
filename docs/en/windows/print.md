@@ -3,7 +3,7 @@ layout: page
 title: windows/print (English)
 description: "Print a text file to a printer."
 content_hash: ae04dc6f53a8e6198f994c175039110886184deb
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: Indonesia version
     url: /id/windows/print.html
@@ -20,6 +20,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/print.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # print
 

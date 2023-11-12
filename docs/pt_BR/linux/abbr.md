@@ -3,6 +3,7 @@ layout: page
 title: linux/abbr (português (Brasil))
 description: "Gerencie abreviações para fish-shell."
 content_hash: c2fe75634f755f6d971ae0040b11a8544883e597
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/abbr.html
@@ -13,17 +14,21 @@ related_topics:
   - title: English version
     url: /en/linux/abbr.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/linux/abbr.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/linux/abbr.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/abbr.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/abbr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># abbr
+# abbr
 
 Gerencie abreviações para fish-shell.
 Palavras definidas pelo usuário são substituídas por frases longas assim que são digitadas.

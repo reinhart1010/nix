@@ -3,11 +3,10 @@ layout: page
 title: common/tailscale-ssh (English)
 description: "SSH to a Tailscale machine (Linux Only)."
 content_hash: 9310732ea7ff0b7e81097aa1c9913a36a8e606c1
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># tailscale ssh
+# tailscale ssh
 
 SSH to a Tailscale machine (Linux Only).
 More information: <https://tailscale.com/kb/1193/tailscale-ssh>.

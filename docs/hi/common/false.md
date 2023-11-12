@@ -3,6 +3,7 @@ layout: page
 title: common/false (हिन्दी)
 description: "1 का एग्जिट कोड लौटाता है।"
 content_hash: 2c99d4f856da3cde96cc02801f24a8634489048d
+last_modified_at: 2023-11-12
 related_topics:
   - title: bosanski version
     url: /bs/common/false.html
@@ -19,12 +20,13 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/false.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/false.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/common/false.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # false
 

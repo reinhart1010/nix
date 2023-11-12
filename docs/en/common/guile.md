@@ -3,6 +3,8 @@ layout: page
 title: common/guile (English)
 description: "Guile Scheme interpreter."
 content_hash: ae130ae6c66a8e918acf3364d08a70f9c3f514ae
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # guile
 

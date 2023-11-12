@@ -3,12 +3,17 @@ layout: page
 title: linux/bootctl (polski)
 description: "Kontroluj ustawienia oprogramowania układowego EFI i zarządzaj programem rozruchowym."
 content_hash: 1189dc11b8c5c020363d0fdb7c0752193541a7c0
-last_modified_at: 2023-05-02
+last_modified_at: 2023-11-12
+related_topics:
+  - title: English version
+    url: /en/linux/bootctl.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/bootctl.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bootctl
+# bootctl
 
 Kontroluj ustawienia oprogramowania układowego EFI i zarządzaj programem rozruchowym.
 Więcej informacji: <https://manned.org/bootctl>.

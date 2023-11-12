@@ -3,16 +3,17 @@ layout: page
 title: common/cargo-rustc (தமிழ்)
 description: "ரஸ்ட் தொகுப்பைத் தொகுத்து, கூடுதல் விருப்பங்களை கம்பைலருக்கு அனுப்பவும்."
 content_hash: 654d05bb924330f6e8c39264f26762d61562750c
-last_modified_at: 2023-05-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/cargo-rustc.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/cargo-rustc.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cargo rustc
+# cargo rustc
 
 ரஸ்ட் தொகுப்பைத் தொகுத்து, கூடுதல் விருப்பங்களை கம்பைலருக்கு அனுப்பவும்.
 மேலும் விவரத்திற்கு: <https://doc.rust-lang.org/cargo/commands/cargo-rustc.html>.

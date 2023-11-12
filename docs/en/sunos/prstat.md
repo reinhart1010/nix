@@ -3,7 +3,7 @@ layout: page
 title: sunos/prstat (English)
 description: "Report active process statistics."
 content_hash: e05a751d06702fd62aacf37432e7063224e1e236
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/sunos/prstat.html
@@ -17,6 +17,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/sunos/prstat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # prstat
 

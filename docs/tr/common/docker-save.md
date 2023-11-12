@@ -3,7 +3,7 @@ layout: page
 title: common/docker-save (Türkçe)
 description: "Bir veya daha fazla docker imgesini arşivlemek için dışa aktar."
 content_hash: 2cbcd448a1920dc68da39f1cbcb572dd762b9d7b
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-save.html
@@ -14,6 +14,10 @@ related_topics:
   - title: français version
     url: /fr/common/docker-save.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/docker-save.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker save
 

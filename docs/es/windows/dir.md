@@ -3,7 +3,7 @@ layout: page
 title: windows/dir (español)
 description: "Lista el contenido del directorio."
 content_hash: 93157b021d39a7d975b43e9fb7c468a237f184b5
-last_modified_at: 2023-10-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/windows/dir.html
@@ -44,6 +44,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/dir.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dir
 

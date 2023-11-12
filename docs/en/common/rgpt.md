@@ -3,7 +3,8 @@ layout: page
 title: common/rgpt (English)
 description: "An automated code review tool that uses GPT you can use straight from your terminal."
 content_hash: d2d0588976902435de23953d94ef340b914c81dc
-last_modified_at: 2023-04-10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rgpt
 

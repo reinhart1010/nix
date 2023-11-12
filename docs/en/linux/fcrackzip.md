@@ -3,6 +3,8 @@ layout: page
 title: linux/fcrackzip (English)
 description: "ZIP archive password cracking utility."
 content_hash: a9d592d6721897b09dbc3f30896791d3314a6bf0
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fcrackzip
 

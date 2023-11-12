@@ -3,6 +3,7 @@ layout: page
 title: linux/authconfig (português (Brasil))
 description: "Interface de linha comandos para configurar o sistema de autenticação."
 content_hash: 2af339f43ecbf52e2225c1b39b5bcde1577f0c26
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/authconfig.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/authconfig.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # authconfig
 

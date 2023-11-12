@@ -3,10 +3,12 @@ layout: page
 title: common/phpbu (Deutsch)
 description: "Ein Backup framework für PHP."
 content_hash: 4090b78e1d7351a3bede4648a1d3eac8687d10d1
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/phpbu.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # phpbu
 

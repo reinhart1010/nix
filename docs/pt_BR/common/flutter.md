@@ -3,10 +3,15 @@ layout: page
 title: common/flutter (português (Brasil))
 description: "SDK livre e open source do Google para desenvolvimento de aplicativos mobile cross-platform."
 content_hash: f3c8c829787bf379435f28dfdd9425501f29e259
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/flutter.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/flutter.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # flutter
 

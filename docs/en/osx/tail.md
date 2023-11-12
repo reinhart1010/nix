@@ -3,7 +3,8 @@ layout: page
 title: osx/tail (English)
 description: "Display the last part of a file."
 content_hash: 1cf4f7dcfa961ba792221ef6b413705ef14eb909
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tail
 

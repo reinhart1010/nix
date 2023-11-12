@@ -3,7 +3,7 @@ layout: page
 title: common/git-cherry-pick (English)
 description: "Apply the changes introduced by existing commits to the current branch."
 content_hash: 1d2b06e32d0a3a662c4a1469e4d5ae96219c6416
-last_modified_at: 2023-06-25
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/common/git-cherry-pick.html
@@ -26,6 +26,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-cherry-pick.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git cherry-pick
 

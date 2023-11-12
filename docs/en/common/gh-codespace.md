@@ -3,7 +3,8 @@ layout: page
 title: common/gh-codespace (English)
 description: "Connect and manage your codespaces in GitHub."
 content_hash: 7e591fefe70b00fc3684f781317a62424dcab91f
-last_modified_at: 2023-01-11
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gh codespace
 

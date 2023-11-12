@@ -3,10 +3,12 @@ layout: page
 title: common/fc-cache (中文)
 description: "扫描字体目录，以便建立字体缓存文件。"
 content_hash: f7015214e3b7a4cecb29768bb1dd6b63e71a405f
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/fc-cache.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fc-cache
 

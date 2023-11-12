@@ -3,10 +3,15 @@ layout: page
 title: linux/mkfs.btrfs (English)
 description: "Create a btrfs filesystem."
 content_hash: 79a241e798f88ca67c896fa09f3dde736246739b
+last_modified_at: 2023-11-12
 related_topics:
   - title: Indonesia version
     url: /id/linux/mkfs.btrfs.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/mkfs.btrfs.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mkfs.btrfs
 

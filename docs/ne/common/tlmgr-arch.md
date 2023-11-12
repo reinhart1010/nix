@@ -3,7 +3,7 @@ layout: page
 title: common/tlmgr-arch (नेपाली)
 description: "यो आदेश `tlmgr platform` को उपनाम हो |"
 content_hash: a44e3ec6508af15a01411cf847b3f9ae195bd436
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/tlmgr-arch.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/tlmgr-arch.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tlmgr-arch
 

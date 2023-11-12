@@ -3,11 +3,10 @@ layout: page
 title: common/gdalwarp (English)
 description: "Image reprojection and warping utility."
 content_hash: 0ea9abf39b14f4d2d18b5d3d9d1ccf339d22e085
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gdalwarp
+# gdalwarp
 
 Image reprojection and warping utility.
 More information: <https://gdal.org/programs/gdalwarp>.

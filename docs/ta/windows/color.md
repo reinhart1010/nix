@@ -3,7 +3,11 @@ layout: page
 title: windows/color (தமிழ்)
 description: "கன்சோலின் முன்புறம் மற்றும் பின்னணி வண்ணங்களை அமைக்கவும்."
 content_hash: 2697f45150d4ad9d7a0f97d698efde7c905bf78e
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/color.html
+    icon: bi bi-globe
   - title: català version
     url: /ca/windows/color.html
     icon: bi bi-globe
@@ -13,17 +17,24 @@ related_topics:
   - title: English version
     url: /en/windows/color.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/color.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/color.html
+    icon: bi bi-globe
   - title: svenska version
     url: /sv/windows/color.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/color.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/windows/color.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># color
+# color
 
 கன்சோலின் முன்புறம் மற்றும் பின்னணி வண்ணங்களை அமைக்கவும்.
 மேலும் விவரத்திற்கு: <https://learn.microsoft.com/windows-server/administration/windows-commands/color>.

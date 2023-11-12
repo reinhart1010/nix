@@ -3,6 +3,8 @@ layout: page
 title: common/s (English)
 description: "Web search from the terminal."
 content_hash: 2c1a7736254832abc06beed66462487345b00b0c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # s
 

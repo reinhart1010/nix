@@ -3,6 +3,8 @@ layout: page
 title: linux/rdesktop (English)
 description: "Remote Desktop Protocol client."
 content_hash: ef4bef13e8a41b5a03070ca064c78c1d16a51341
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rdesktop
 

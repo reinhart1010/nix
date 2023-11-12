@@ -3,7 +3,8 @@ layout: page
 title: windows/if (English)
 description: "Performs conditional processing in batch scripts."
 content_hash: 8e6ad27feeeee5d91fc986abdfe17ea3f2e22908
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # if
 

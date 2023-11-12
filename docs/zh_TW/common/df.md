@@ -3,6 +3,7 @@ layout: page
 title: common/df (中文 (繁體, 台灣))
 description: "概述檔案系統的磁碟空間的使用情況。"
 content_hash: c2ab64fbb63c6cab389f2fbcec4bd1a3e4b17ece
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/df.html
@@ -12,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/df.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/df.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/df.html
@@ -28,11 +32,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/df.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># df
+# df
 
 概述檔案系統的磁碟空間的使用情況。
 更多資訊：<https://www.gnu.org/software/coreutils/df>.

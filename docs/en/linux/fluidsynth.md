@@ -3,7 +3,8 @@ layout: page
 title: linux/fluidsynth (English)
 description: "Synthesize audio from MIDI files."
 content_hash: 5f05ddce052160b92e09d81a74379b795eeaecf6
-last_modified_at: 2023-08-08
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fluidsynth
 

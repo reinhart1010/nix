@@ -3,7 +3,8 @@ layout: page
 title: common/w3m (English)
 description: "A text-based web browser."
 content_hash: 401e8ce4941d38ea7ce0ac566c2b443906b4f5df
-last_modified_at: 2023-09-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # w3m
 

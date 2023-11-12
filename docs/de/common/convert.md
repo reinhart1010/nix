@@ -3,6 +3,7 @@ layout: page
 title: common/convert (Deutsch)
 description: "ImageMagick Bildkonvertierungswerkzeug."
 content_hash: e5c7d526f964df67480afa673da7ff15cc0f862c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/convert.html
@@ -19,6 +20,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/convert.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # convert
 

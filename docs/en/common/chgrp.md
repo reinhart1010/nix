@@ -3,7 +3,11 @@ layout: page
 title: common/chgrp (English)
 description: "Change group ownership of files and directories."
 content_hash: 9ba75f415fb63f360c02eddbff149961614ed20c
+last_modified_at: 2023-11-12
 related_topics:
+  - title: français version
+    url: /fr/common/chgrp.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/chgrp.html
     icon: bi bi-globe
@@ -13,6 +17,7 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/chgrp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chgrp
 

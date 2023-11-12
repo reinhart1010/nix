@@ -3,7 +3,7 @@ layout: page
 title: common/docker-compose (Indonesia)
 description: "Jalankan dan kelola aplikasi Docker dengan beberapa kontainer."
 content_hash: 39b1b621a46b6ad26f813432086bf0fa383a43c3
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -35,11 +35,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-compose.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docker compose
+# docker compose
 
 Jalankan dan kelola aplikasi Docker dengan beberapa kontainer.
 Informasi lebih lanjut: <https://docs.docker.com/compose/reference/>.

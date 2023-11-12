@@ -3,7 +3,7 @@ layout: page
 title: common/antibody (한국어)
 description: "\"가장 빠른\" 쉘 플러그인 관리자."
 content_hash: 0b3d213bb957728b355d44ed5f02ec50034ca659
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/antibody.html
@@ -14,9 +14,16 @@ related_topics:
   - title: français version
     url: /fr/common/antibody.html
     icon: bi bi-globe
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/antibody.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># antibody
 

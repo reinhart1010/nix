@@ -3,7 +3,8 @@ layout: page
 title: common/xml-pyx (English)
 description: "Convert an XML document to PYX (ESIS - ISO 8879) format."
 content_hash: f87fb1fe7e0c56093fd2f21f9ba55c04c2e9a20a
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xml pyx
 

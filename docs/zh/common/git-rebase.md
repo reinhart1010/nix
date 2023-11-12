@@ -3,7 +3,7 @@ layout: page
 title: common/git-rebase (中文)
 description: "将 commits 从一个分支合并到另一个分支上。"
 content_hash: 358415f13afc06da9ce30778defd84f809d4ea91
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-rebase.html
@@ -20,9 +20,13 @@ related_topics:
   - title: italiano version
     url: /it/common/git-rebase.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-rebase.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-rebase.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git rebase
 

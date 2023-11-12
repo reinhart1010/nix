@@ -3,11 +3,12 @@ layout: page
 title: common/cotton (English)
 description: "Markdown test specification runner."
 content_hash: ed097dddddd8d66f39b08bc821a08db421ccf738
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: 한국어 version
     url: /ko/common/cotton.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cotton
 

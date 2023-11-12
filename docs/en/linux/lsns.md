@@ -2,12 +2,11 @@
 layout: page
 title: linux/lsns (English)
 description: "List information about all namespaces or about the specified namespace."
-content_hash: d65121d9a5c38c8ea54be0300d25ace1d59c26c5
+content_hash: 57191acbd9ee5c73c89e77b93b89fc25b9824359
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># lsns
+# lsns
 
 List information about all namespaces or about the specified namespace.
 More information: <https://man7.org/linux/man-pages/man8/lsns.8.html>.
@@ -20,14 +19,14 @@ More information: <https://man7.org/linux/man-pages/man8/lsns.8.html>.
 
 `lsns --json`
 
-- List namespaces associated with `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>`:
+- List namespaces associated with the specified process:
 
 `lsns --task `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
 
 - List the specified type of namespaces only:
 
-`lsns --type <mnt|net|ipc|user|pid|uts|cgroup|time>`
+`lsns --type `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mnt|net|ipc|user|pid|uts|cgroup|time</span>
 
 - List namespaces, only showing the namespace ID, type, PID, and command:
 
-`lsns --output NS,TYPE,PID,COMMAND`
+`lsns --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">NS,TYPE,PID,COMMAND</span>

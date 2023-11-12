@@ -3,6 +3,18 @@ layout: page
 title: common/pnpm (English)
 description: "Fast, disk space efficient package manager for Node.js."
 content_hash: 675db413a96db424aeae1fb944dfe76ecd3f6d82
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/pnpm.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/pnpm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/pnpm.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pnpm
 

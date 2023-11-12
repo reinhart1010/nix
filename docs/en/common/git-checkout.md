@@ -3,7 +3,7 @@ layout: page
 title: common/git-checkout (English)
 description: "Checkout a branch or paths to the working tree."
 content_hash: 65a6548733f94897170085329eaff32bcd1390a1
-last_modified_at: 2022-12-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/git-checkout.html
@@ -17,6 +17,9 @@ related_topics:
   - title: italiano version
     url: /it/common/git-checkout.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-checkout.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-checkout.html
     icon: bi bi-globe
@@ -26,6 +29,7 @@ related_topics:
   - title: українська version
     url: /uk/common/git-checkout.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git checkout
 

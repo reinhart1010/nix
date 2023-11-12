@@ -3,6 +3,7 @@ layout: page
 title: common/git-ls-tree (italiano)
 description: "Elenca il contenuto di un oggetto albero."
 content_hash: a2443bcaa27e0addaf6da7091f3b97a0c0f4ebb4
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-ls-tree.html
@@ -13,8 +14,15 @@ related_topics:
   - title: français version
     url: /fr/common/git-ls-tree.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-ls-tree.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# git ls-tree
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git ls-tree
 
 Elenca il contenuto di un oggetto albero.
 Maggiori informazioni: <https://git-scm.com/docs/git-ls-tree>.

@@ -3,15 +3,14 @@ layout: page
 title: common/protoc (中文)
 description: "解析 Google Protobuf `.proto` 文件并生成指定语言的输出。"
 content_hash: 277532bb2524ca11984030f888418ba906844b06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/protoc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># protoc
+# protoc
 
 解析 Google Protobuf `.proto` 文件并生成指定语言的输出。
 更多信息：<https://developers.google.com/protocol-buffers>.

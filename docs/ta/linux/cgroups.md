@@ -3,7 +3,7 @@ layout: page
 title: linux/cgroups (தமிழ்)
 description: "Cgroups எனப்படும் கட்டுப்பாட்டு குழுக்கள், செயல்முறைகள் மூலம் வள பயன்பாட்டை கட்டுப்படுத்துதல், அளவிடுதல் மற்றும் கட்டுப்படுத்துவதற்கான லினக்ஸ் கர்னல் (Linux kernel) அம்சமாகும்."
 content_hash: a7250653e60ef034217f65568b980e1d2268fc1f
-last_modified_at: 2023-06-02
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/linux/cgroups.html
@@ -89,17 +89,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/linux/cgroups.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/cgroups.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cgroups
+# cgroups
 
 Cgroups எனப்படும் கட்டுப்பாட்டு குழுக்கள், செயல்முறைகள் மூலம் வள பயன்பாட்டை கட்டுப்படுத்துதல், அளவிடுதல் மற்றும் கட்டுப்படுத்துவதற்கான லினக்ஸ் கர்னல் (Linux kernel) அம்சமாகும்.
 Cgroups எனினும் ஒரு கட்டளை அல்ல, மாறாக கட்டளைகளின் தொகுப்பு, கீழே உள்ள தொடர்புடைய பக்கங்களைப் பார்க்கவும்.

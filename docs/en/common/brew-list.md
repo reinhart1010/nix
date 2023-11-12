@@ -3,12 +3,10 @@ layout: page
 title: common/brew-list (English)
 description: "List installed formulae/casks or their files."
 content_hash: 667d0fa3a0298f64bc7803f77a986a508b714d2f
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># brew list
+# brew list
 
 List installed formulae/casks or their files.
 More information: <https://docs.brew.sh/Manpage#list-ls-options-installed_formulainstalled_cask->.

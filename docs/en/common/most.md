@@ -3,7 +3,8 @@ layout: page
 title: common/most (English)
 description: "Open one or several files for interactive reading, allowing scrolling and search."
 content_hash: b596ebd9b55e9447d892f5dbd84a9836798c5f7b
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # most
 

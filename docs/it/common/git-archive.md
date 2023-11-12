@@ -3,6 +3,7 @@ layout: page
 title: common/git-archive (italiano)
 description: "Crea un archivio dei file nell'albero di lavoro."
 content_hash: f655a3284c05bc93c9ac4ac2fc719483104a56b0
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-archive.html
@@ -19,6 +20,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-archive.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git archive
 

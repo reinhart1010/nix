@@ -3,6 +3,8 @@ layout: page
 title: linux/mcookie (English)
 description: "Generates random 128-bit hexadecimal numbers."
 content_hash: 1d9d3f3167d6c769be712f5afca3c22156268313
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mcookie
 

@@ -3,7 +3,7 @@ layout: page
 title: osx/gcat (polski)
 description: "To polecenie jest aliasem `-p linux cat`."
 content_hash: 0cb92a81eccedf27796aa68ce7efb7d38ae871dd
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gcat.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gcat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gcat
 

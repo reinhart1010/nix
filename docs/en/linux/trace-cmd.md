@@ -3,11 +3,10 @@ layout: page
 title: linux/trace-cmd (English)
 description: "Utility to interact with the Ftrace Linux kernel internal tracer."
 content_hash: 2b076564995265a086ccae30c82ad24c51b50f6f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># trace-cmd
+# trace-cmd
 
 Utility to interact with the Ftrace Linux kernel internal tracer.
 This utility only runs as root.

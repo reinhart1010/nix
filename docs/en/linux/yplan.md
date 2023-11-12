@@ -3,12 +3,10 @@ layout: page
 title: linux/yplan (English)
 description: "Generate LaTeX code for a two-page vertical daily planner for any chosen year."
 content_hash: 952d7bd790e19b4372b7105a8ad001919013339d
-last_modified_at: 2023-10-07
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># yplan
+# yplan
 
 Generate LaTeX code for a two-page vertical daily planner for any chosen year.
 The generated output can be converted or printed using conversion tools such as `pandoc`, `pdflatex`, or `xetex`.

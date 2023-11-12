@@ -3,10 +3,12 @@ layout: page
 title: common/hunspell (English)
 description: "Check spelling."
 content_hash: 6d7384af31affbb3f380830d69a05c38b74b5e6b
+last_modified_at: 2023-11-12
 related_topics:
   - title: русский version
     url: /ru/common/hunspell.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # hunspell
 

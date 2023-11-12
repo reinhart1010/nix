@@ -3,6 +3,8 @@ layout: page
 title: common/dvc-diff (English)
 description: "Show changes in DVC tracked file and directories."
 content_hash: a6bf1613b1af2e1e972164e90784e8c70ac4c869
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dvc diff
 

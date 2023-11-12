@@ -3,6 +3,7 @@ layout: page
 title: common/badblocks (English)
 description: "Search a device for bad blocks."
 content_hash: 3295857d131f847e21b5eafb1612a035662c54c8
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/badblocks.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/badblocks.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # badblocks
 

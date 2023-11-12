@@ -3,6 +3,7 @@ layout: page
 title: common/unclutter (Deutsch)
 description: "Versteckt den Mauszeiger."
 content_hash: 991ccf4f340e2c3a95dfa020b4faa5ad559274af
+last_modified_at: 2023-11-12
 related_topics:
   - title: bosanski version
     url: /bs/common/unclutter.html
@@ -16,12 +17,13 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/unclutter.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/unclutter.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/common/unclutter.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # unclutter
 

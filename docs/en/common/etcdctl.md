@@ -3,7 +3,8 @@ layout: page
 title: common/etcdctl (English)
 description: "Interact with `etcd`, a highly-available key-value pair store."
 content_hash: f12aafb96e5c8afa422a4e17fdcf111a38294179
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # etcdctl
 

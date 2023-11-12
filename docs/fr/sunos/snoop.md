@@ -3,7 +3,7 @@ layout: page
 title: sunos/snoop (français)
 description: "Renifleur de paquets réseau."
 content_hash: ea04f83e566584d25a2106e55f5ba48979686d0f
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/sunos/snoop.html
@@ -20,6 +20,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/sunos/snoop.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # snoop
 

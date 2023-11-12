@@ -3,6 +3,21 @@ layout: page
 title: common/ping (English)
 description: "Send ICMP ECHO_REQUEST packets to network hosts."
 content_hash: 5fb8ed399c505a0a2962b34560700243a4be5a68
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/ping.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/ping.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/ping.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/ping.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ping
 

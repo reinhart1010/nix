@@ -3,7 +3,8 @@ layout: page
 title: common/diffoscope (English)
 description: "Compare files, archives, and directories."
 content_hash: 9152151a139783f1e98668146a984935248f75e1
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # diffoscope
 

@@ -3,6 +3,8 @@ layout: page
 title: common/xml-list (English)
 description: "List a directory's contents (like `ls`) in XML format."
 content_hash: 2ae92a991ef8533ca906c547caa286110adc0a7b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xml list
 

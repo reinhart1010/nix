@@ -3,6 +3,8 @@ layout: page
 title: common/phpenv (English)
 description: "A PHP version manager for development purposes."
 content_hash: d87fe0ef7753630027a3ccdda6d7913dbf627e4a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # phpenv
 

@@ -3,6 +3,8 @@ layout: page
 title: common/obs (English)
 description: "Open Broadcaster Software."
 content_hash: f5745503d17c7082d3ac0aca284d8134cf8a8ada
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # obs
 

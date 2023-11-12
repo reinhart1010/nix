@@ -3,6 +3,8 @@ layout: page
 title: linux/cewl (English)
 description: "URL spidering tool for making a cracking wordlist from web content."
 content_hash: f4f4a2ad85be0f6e04e86ab54ace195a7a6ad691
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # cewl
 

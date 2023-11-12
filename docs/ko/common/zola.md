@@ -3,7 +3,7 @@ layout: page
 title: common/zola (한국어)
 description: "단일 실행 파일에 모든 기능이 들어있는 정적 사이트 생성기."
 content_hash: 5283d95df1b1ef685250a744c20caad4b2ee5b7b
-last_modified_at: 2023-10-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/zola.html
@@ -11,6 +11,7 @@ related_topics:
   - title: français version
     url: /fr/common/zola.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # zola
 

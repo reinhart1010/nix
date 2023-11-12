@@ -3,7 +3,7 @@ layout: page
 title: windows/cd (English)
 description: "Display the current working directory or move to a different directory."
 content_hash: 7dd4bc0c1c9551d85bbc49de4ab578a1e7b6766f
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/windows/cd.html
@@ -44,6 +44,7 @@ related_topics:
   - title: ไทย version
     url: /th/windows/cd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cd
 

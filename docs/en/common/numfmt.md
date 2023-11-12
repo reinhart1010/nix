@@ -3,6 +3,8 @@ layout: page
 title: common/numfmt (English)
 description: "Convert numbers to and from human-readable strings."
 content_hash: 0fa87c05a0ed2ba708a6fb7895c579cd30b7e35f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # numfmt
 

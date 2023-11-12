@@ -3,6 +3,8 @@ layout: page
 title: common/qpdf (English)
 description: "Versatile PDF transformation software."
 content_hash: 0fc0907b926c73b2dea9aac6196915f1ada0998a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # qpdf
 

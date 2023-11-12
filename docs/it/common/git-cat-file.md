@@ -3,6 +3,7 @@ layout: page
 title: common/git-cat-file (italiano)
 description: "Visualizza il contenuto di un oggetto Git nel repository o mostrane dimensione e tipo."
 content_hash: acd679264c8339a4e9c212001c5e4bdd46a9197e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-cat-file.html
@@ -13,6 +14,10 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/git-cat-file.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-cat-file.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git cat-file
 

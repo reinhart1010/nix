@@ -3,6 +3,7 @@ layout: page
 title: common/man (தமிழ்)
 description: "கையேடு பக்கங்களை வடிவமைத்து காட்டவும்."
 content_hash: e2b23e209455ec71764056ec561d4b1a62602efb
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/man.html
@@ -16,11 +17,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/man.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># man
+# man
 
 கையேடு பக்கங்களை வடிவமைத்து காட்டவும்.
 மேலும் விவரத்திற்கு: <https://www.man7.org/linux/man-pages/man1/man.1.html>.

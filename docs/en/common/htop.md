@@ -3,7 +3,7 @@ layout: page
 title: common/htop (English)
 description: "Display dynamic real-time information about running processes. An enhanced version of `top`."
 content_hash: 5d2c83cae44e569599ed9541066c1d6b12334675
-last_modified_at: 2023-09-12
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/htop.html
@@ -14,12 +14,16 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/htop.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/htop.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/htop.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/htop.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # htop
 

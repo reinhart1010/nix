@@ -3,6 +3,8 @@ layout: page
 title: common/nvidia-smi (English)
 description: "Aid the management and monitoring of NVIDIA GPU devices."
 content_hash: 4b4ddd5f8ee751d240424c3121e17504fc993bc2
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # nvidia-smi
 

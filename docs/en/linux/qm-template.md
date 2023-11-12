@@ -3,7 +3,8 @@ layout: page
 title: linux/qm-template (English)
 description: "Create a Proxmox VM template."
 content_hash: 786d7399a01c0790cd11546bb299e596d32b9da6
-last_modified_at: 2023-07-13
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # qm template
 

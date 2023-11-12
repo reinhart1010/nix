@@ -3,7 +3,7 @@ layout: page
 title: common/touch (português (Portugal))
 description: "Atualizar as timestamps de um ficheiro para a hora atual."
 content_hash: 1dd89e9ed4120da7280af5e19ca3852b682cdd59
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/common/touch.html
@@ -26,6 +26,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/touch.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # touch
 

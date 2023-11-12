@@ -3,6 +3,7 @@ layout: page
 title: common/pdftk (português (Brasil))
 description: "Conjunto de utilitários para manipular arquivos PDF."
 content_hash: ab148a903473c912b68cd6c4ac44d00232247676
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/pdftk.html
@@ -10,6 +11,7 @@ related_topics:
   - title: polski version
     url: /pl/common/pdftk.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pdftk
 

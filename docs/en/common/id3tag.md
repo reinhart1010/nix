@@ -3,10 +3,12 @@ layout: page
 title: common/id3tag (English)
 description: "Tool for reading, writing, and manipulating ID3v1 and ID3v2 tags of MP3 files."
 content_hash: f5ef779d1fe87767ddf8ee4b2a24b97aa0ca0742
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/id3tag.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # id3tag
 

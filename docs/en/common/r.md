@@ -3,6 +3,7 @@ layout: page
 title: common/r (English)
 description: "R language interpreter."
 content_hash: 3248a8f8b1c81e32749e2ae8623f510327b843d4
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/r.html
@@ -10,6 +11,7 @@ related_topics:
   - title: polski version
     url: /pl/common/r.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # R
 

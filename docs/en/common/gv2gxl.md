@@ -3,7 +3,8 @@ layout: page
 title: common/gv2gxl (English)
 description: "Convert a graph from `gv` to `gxl` format."
 content_hash: dbe247075e6e9046e564550539d22c16d5a96d56
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gv2gxl
 

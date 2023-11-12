@@ -3,10 +3,12 @@ layout: page
 title: common/gitk (Türkçe)
 description: "Görsel Git depo tarayıcısı."
 content_hash: 46bae2b906bae74ff0943f2435ddfb1d78b732cc
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/gitk.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gitk
 

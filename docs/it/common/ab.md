@@ -3,7 +3,11 @@ layout: page
 title: common/ab (italiano)
 description: "Strumento di benchmarking di Apache. Il più semplice modo per eseguire un test sul carico del server."
 content_hash: 9c9cb69f1dbbf504121aa5b051f7e04b94c01cd8
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/ab.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/ab.html
     icon: bi bi-globe
@@ -16,10 +20,16 @@ related_topics:
   - title: français version
     url: /fr/common/ab.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/ab.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/ab.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: Nederlands version
+    url: /nl/common/ab.html
+    icon: bi bi-globe
+  - title: norsk version
     url: /no/common/ab.html
     icon: bi bi-globe
   - title: português (Brasil) version
@@ -34,6 +44,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ab.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ab
 

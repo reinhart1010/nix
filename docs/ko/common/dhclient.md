@@ -3,10 +3,12 @@ layout: page
 title: common/dhclient (한국어)
 description: "DHCP 클라이언트."
 content_hash: d68676bfdd4c996e79e35292fa74687e10db1f6f
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/dhclient.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dhclient
 

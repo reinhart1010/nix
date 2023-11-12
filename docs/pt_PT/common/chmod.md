@@ -3,6 +3,7 @@ layout: page
 title: common/chmod (português (Portugal))
 description: "Alterar as permissões de acesso a um ficheiro ou diretório."
 content_hash: 3b52a05522a886a15a348a63e0916ad71d50cbcc
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/chmod.html
@@ -13,14 +14,23 @@ related_topics:
   - title: español version
     url: /es/common/chmod.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/chmod.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/chmod.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/chmod.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/chmod.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/chmod.html
+    icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/common/chmod.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/chmod.html
@@ -31,15 +41,16 @@ related_topics:
   - title: русский version
     url: /ru/common/chmod.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/chmod.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/chmod.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/chmod.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># chmod
 

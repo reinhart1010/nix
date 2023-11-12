@@ -3,10 +3,18 @@ layout: page
 title: osx/osascript (中文)
 description: "在命令行中运行指定的 AppleScript 或 JavaScript 脚本程序。"
 content_hash: 56d87ce0a4497f44d7f8731d53499eaf7a605fbd
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/osascript.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/osascript.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/osx/osascript.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # osascript
 

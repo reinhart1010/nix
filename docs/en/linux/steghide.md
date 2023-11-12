@@ -3,6 +3,8 @@ layout: page
 title: linux/steghide (English)
 description: "Steganography tool for JPEG, BMP, WAV and AU file formats."
 content_hash: 5c46ab925229b47b5ff43330a39bd91a7468b5d8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # steghide
 

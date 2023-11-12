@@ -3,7 +3,7 @@ layout: page
 title: common/docker-compose (नेपाली)
 description: "बहु कन्टेनर डकर अनुप्रयोगहरू चलाउनुहोस् र व्यवस्थापन गर्नुहोस्।"
 content_hash: eeb20c3602c7d25394042b68aede2f95c0dd2351
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -35,6 +35,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-compose.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker compose
 

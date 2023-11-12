@@ -3,7 +3,7 @@ layout: page
 title: osx/gmd5sum (polski)
 description: "To polecenie jest aliasem `-p linux md5sum`."
 content_hash: 4273718e890d5a4fa910fe482ee21b609d67989a
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gmd5sum.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gmd5sum.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gmd5sum
 

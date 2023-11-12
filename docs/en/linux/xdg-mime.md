@@ -3,6 +3,8 @@ layout: page
 title: linux/xdg-mime (English)
 description: "Query and manage MIME types according to the XDG standard."
 content_hash: 3cd7b9c595e39dcc8c244e4dc021fb27cfa9e603
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xdg-mime
 

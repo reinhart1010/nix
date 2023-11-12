@@ -3,7 +3,8 @@ layout: page
 title: common/play (English)
 description: "Audio player of SoX - Sound eXchange."
 content_hash: 94bf51efd91816df1a6e0eb0bd0c57fa948b763b
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # play
 

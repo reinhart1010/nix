@@ -3,6 +3,8 @@ layout: page
 title: linux/sar (English)
 description: "Monitor performance of various Linux subsystems."
 content_hash: d17bdfcbcf94b857ef3994b31e438ea4af8420d8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sar
 

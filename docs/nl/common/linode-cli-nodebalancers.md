@@ -3,16 +3,14 @@ layout: page
 title: common/linode-cli-nodebalancers (Nederlands)
 description: "Beheer Linode NodeBalancers."
 content_hash: 3cb8b2cdf525fc40a501d7494f3ff8b132de138c
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/linode-cli-nodebalancers.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># linode-cli nodebalancers
+# linode-cli nodebalancers
 
 Beheer Linode NodeBalancers.
 Bekijk ook: `linode-cli`.

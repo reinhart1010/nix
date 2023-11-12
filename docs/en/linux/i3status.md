@@ -3,7 +3,8 @@ layout: page
 title: linux/i3status (English)
 description: "Status line for the i3 window manager."
 content_hash: 68dbfab370980574aae63b16416cad9784ee1a46
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # i3status
 

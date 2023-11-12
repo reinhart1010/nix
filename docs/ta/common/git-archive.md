@@ -3,6 +3,7 @@ layout: page
 title: common/git-archive (தமிழ்)
 description: "பெயரிடப்பட்ட மரத்திலிருந்து கோப்புகளின் காப்பகத்தை உருவாக்கவும்."
 content_hash: a74b7222e16d5b124a7fec38f59dc7e14b9b8ba5
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-archive.html
@@ -19,6 +20,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-archive.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git archive
 

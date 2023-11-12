@@ -3,10 +3,12 @@ layout: page
 title: common/git-check-attr (Türkçe)
 description: "`gitattributes` içeriği görüntüleme aracı."
 content_hash: e6e692a81c67b4e196470aa13fdaf3892ca45a5b
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-check-attr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git check-attr
 

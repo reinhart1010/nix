@@ -3,6 +3,7 @@ layout: page
 title: common/git-merge (español)
 description: "Fusiona ramas."
 content_hash: cfdccb41f2c03ef5835956fe2dc16de41ce66a6d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-merge.html
@@ -13,8 +14,18 @@ related_topics:
   - title: italiano version
     url: /it/common/git-merge.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-merge.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git-merge.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# git merge
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git merge
 
 Fusiona ramas.
 Más información: <https://git-scm.com/docs/git-merge>.

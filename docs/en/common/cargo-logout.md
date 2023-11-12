@@ -3,7 +3,8 @@ layout: page
 title: common/cargo-logout (English)
 description: "Remove an API token from the registry locally."
 content_hash: 5c67fa614438c2e571c71e77b16d43375bc73511
-last_modified_at: 2023-10-31
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # cargo logout
 

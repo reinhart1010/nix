@@ -3,12 +3,10 @@ layout: page
 title: linux/mkosi (English)
 description: "Tool for building modern, legacy-free Linux images."
 content_hash: 6b5ffbcfa7cf462eb1606deb6d1ed706ed3f03e2
-last_modified_at: 2023-09-27
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mkosi
+# mkosi
 
 Tool for building modern, legacy-free Linux images.
 Part of `systemd`.

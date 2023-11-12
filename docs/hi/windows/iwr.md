@@ -3,7 +3,7 @@ layout: page
 title: windows/iwr (हिन्दी)
 description: "यह आदेश `invoke-webrequest` का उपनाम है।"
 content_hash: 97b3d3add3a2e0051ae51cf3bb5a22080eb059e6
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/iwr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # iwr
 

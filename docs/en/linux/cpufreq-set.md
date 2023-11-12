@@ -3,6 +3,8 @@ layout: page
 title: linux/cpufreq-set (English)
 description: "A tool to modify CPU frequency settings."
 content_hash: 9025784e67e4b94a7974aa21284cfd8e0ad58201
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # cpufreq-set
 

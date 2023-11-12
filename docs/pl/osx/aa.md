@@ -3,7 +3,7 @@ layout: page
 title: osx/aa (polski)
 description: "To polecenie jest aliasem `yaa`."
 content_hash: 4d9ce769245390a23c8afaa0025496a9f6ede182
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/aa.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/aa.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aa
 

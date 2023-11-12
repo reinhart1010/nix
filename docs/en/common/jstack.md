@@ -3,6 +3,8 @@ layout: page
 title: common/jstack (English)
 description: "Java stack trace tool."
 content_hash: 3d1635e471d7b825135da1d5635d12f227141040
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # jstack
 

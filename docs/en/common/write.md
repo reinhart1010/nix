@@ -3,10 +3,12 @@ layout: page
 title: common/write (English)
 description: "Write a message on the terminal of a specified logged in user (ctrl-C to stop writing messages)."
 content_hash: 47986c5f36e36b1b6ab34958499bce1278e53137
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/common/write.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # write
 

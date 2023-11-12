@@ -3,11 +3,12 @@ layout: page
 title: common/kubectl-run (Deutsch)
 description: "Pods in Kubernetes ausführen. Gibt den Pod-Generator an, um einen deprecation Fehler in einigen Kubernetes Versionen zu vermeiden."
 content_hash: 6922f1a892dba12d4c4c697b3e18759080bb2166
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/kubectl-run.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # kubectl run
 

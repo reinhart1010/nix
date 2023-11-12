@@ -3,6 +3,7 @@ layout: page
 title: common/unalias (中文)
 description: "移除别名。"
 content_hash: f6127b4a9604155e67635581d40c4df46839ccc9
+last_modified_at: 2023-11-12
 related_topics:
   - title: bosanski version
     url: /bs/common/unalias.html
@@ -16,12 +17,13 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/unalias.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/unalias.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/common/unalias.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # unalias
 

@@ -3,11 +3,12 @@ layout: page
 title: common/bgpgrep (Deutsch)
 description: "Filtert und gibt BGP-Daten in einem MRT-Dump aus."
 content_hash: 27a91ef973927c189475ff437be51d043babe039
-last_modified_at: 2023-07-11
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/bgpgrep.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bgpgrep
 

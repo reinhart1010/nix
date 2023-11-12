@@ -3,7 +3,7 @@ layout: page
 title: common/git-format-patch (Türkçe)
 description: "`.patch` dosyaları oluştur. Commit'leri e-posta olarak gönderirken işe yarar."
 content_hash: 115d50eb76f78435519f9a8997cb6df5e913bd2c
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-format-patch.html
@@ -17,6 +17,7 @@ related_topics:
   - title: italiano version
     url: /it/common/git-format-patch.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git format-patch
 

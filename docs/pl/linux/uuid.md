@@ -3,15 +3,14 @@ layout: page
 title: linux/uuid (polski)
 description: "Twórz i dekoduj uniwersalne identyfikatory (UUID)."
 content_hash: 3851f37e916b30e578dc78879e616ca6784be27b
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/uuid.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># uuid
+# uuid
 
 Twórz i dekoduj uniwersalne identyfikatory (UUID).
 Zobacz też `uuidgen`.

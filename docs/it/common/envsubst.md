@@ -3,11 +3,12 @@ layout: page
 title: common/envsubst (italiano)
 description: "Sostituisci variabili di ambiente con il loro valore in stringhe di formato della shell."
 content_hash: d18fbbe103600180f9f91cfe968062331e198a93
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/envsubst.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # envsubst
 

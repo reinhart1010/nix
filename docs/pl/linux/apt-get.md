@@ -3,7 +3,7 @@ layout: page
 title: linux/apt-get (polski)
 description: "Narzędzie do zarządzania pakietami Debiana i Ubuntu."
 content_hash: b2a907df7ae04d28712716a2ee256bf18950c059
-last_modified_at: 2023-10-24
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/linux/apt-get.html
@@ -44,11 +44,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/apt-get.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># apt-get
+# apt-get
 
 Narzędzie do zarządzania pakietami Debiana i Ubuntu.
 Szukaj pakietów używając `apt-cache`.

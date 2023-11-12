@@ -3,12 +3,10 @@ layout: page
 title: common/cargo-help (English)
 description: "Display help on `cargo` and its subcommands."
 content_hash: 60923c4d270fa767a18fda5b4a1450fe2a92e546
-last_modified_at: 2023-09-12
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cargo help
+# cargo help
 
 Display help on `cargo` and its subcommands.
 More information: <https://doc.rust-lang.org/cargo/commands/cargo-help.html>.

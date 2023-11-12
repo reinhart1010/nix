@@ -3,12 +3,10 @@ layout: page
 title: linux/cam (English)
 description: "Frontend tool for `libcamera`."
 content_hash: 879bc612e833daffa4c5c28cdff454590f4639f4
-last_modified_at: 2023-07-24
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cam
+# cam
 
 Frontend tool for `libcamera`.
 More information: <https://libcamera.org/docs.html>.

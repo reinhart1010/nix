@@ -3,11 +3,12 @@ layout: page
 title: common/az-devops (español)
 description: "Administra organizaciones de Azure DevOps."
 content_hash: e440ee0c59814e43cb78ba152e6d865475bf9685
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/az-devops.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # az devops
 

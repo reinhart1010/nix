@@ -3,6 +3,8 @@ layout: page
 title: common/aws-s3api (English)
 description: "Create and delete Amazon S3 buckets and edit bucket properties."
 content_hash: 183c1894a15129db5c4ab4322182866e40bb89e0
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # aws s3api
 

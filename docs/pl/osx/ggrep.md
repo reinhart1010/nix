@@ -3,7 +3,7 @@ layout: page
 title: osx/ggrep (polski)
 description: "To polecenie jest aliasem `-p linux grep`."
 content_hash: bd164aabcf6b1bf6a526943f97e195686c6cc620
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/ggrep.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/ggrep.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ggrep
 

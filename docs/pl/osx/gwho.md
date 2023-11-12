@@ -3,7 +3,7 @@ layout: page
 title: osx/gwho (polski)
 description: "To polecenie jest aliasem `-p linux who`."
 content_hash: e015a93208b4087a49e90cac86b6567e80e99505
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gwho.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gwho.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gwho
 

@@ -3,11 +3,12 @@ layout: page
 title: linux/systemd-run (English)
 description: "Run programs in transient scope units, service units, or path-, socket-, or timer-triggered service units."
 content_hash: 7207ef09da4e00dc7a3758ff8eb1f4af26a6edbe
-last_modified_at: 2023-05-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: polski version
     url: /pl/linux/systemd-run.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # systemd-run
 

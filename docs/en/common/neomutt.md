@@ -3,7 +3,8 @@ layout: page
 title: common/neomutt (English)
 description: "NeoMutt command-line email client."
 content_hash: 2e540a385a9733ef28d4218bc29bcba24f7639af
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # neomutt
 

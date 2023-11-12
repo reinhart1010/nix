@@ -3,6 +3,8 @@ layout: page
 title: linux/mkfs.exfat (English)
 description: "Creates an exfat filesystem inside a partition."
 content_hash: c175bd5d46c49d9b1ebecf39c47312a7de91bcf9
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mkfs.exfat
 

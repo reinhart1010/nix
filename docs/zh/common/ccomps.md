@@ -3,16 +3,14 @@ layout: page
 title: common/ccomps (中文)
 description: "将图形分解为它们的连通分量。"
 content_hash: 7433c8a310d6bcb1f0a9cf52a580fc53bcb4dfea
-last_modified_at: 2023-02-17
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ccomps.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ccomps
+# ccomps
 
 将图形分解为它们的连通分量。
 Graphviz 过滤器：`acyclic`、`bcomps`、`comps`、`edgepaint`、`gvcolor`、`gvpack`、`mingle`、`nop`、`sccmap`、`tred` 和 `unflatten`。

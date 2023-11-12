@@ -3,11 +3,12 @@ layout: page
 title: linux/anbox (Deutsch)
 description: "Führe Android-Anwendungen auf jedem GNU/Linux-Betriebssystem aus."
 content_hash: fed629914f70ef64f675406b5e9d9750ac989791
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/anbox.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/linux/anbox.html
     icon: bi bi-globe
   - title: தமிழ் version
@@ -16,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/anbox.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # anbox
 

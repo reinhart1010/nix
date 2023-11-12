@@ -3,7 +3,7 @@ layout: page
 title: common/acme.sh-dns (বাংলা)
 description: "TLS সার্টিফিকেট ইস্যু করার জন্য DNS-01 চ্যালেঞ্জ ব্যবহার করুন।"
 content_hash: ba1f138f28fb12d4e07f2d1359224bd50467ae7c
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/acme.sh-dns.html
@@ -17,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/acme.sh-dns.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # acme.sh --dns
 

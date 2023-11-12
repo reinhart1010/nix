@@ -3,7 +3,7 @@ layout: page
 title: common/apg (italiano)
 description: "Crea password randomiche arbitrariamente complesse."
 content_hash: 631905ef9789eae800004a0c49187b0e9e18357c
-last_modified_at: 2023-05-22
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/apg.html
@@ -23,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/apg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apg
 

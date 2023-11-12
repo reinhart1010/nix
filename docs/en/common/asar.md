@@ -3,7 +3,7 @@ layout: page
 title: common/asar (English)
 description: "A file archiver for the Electron platform."
 content_hash: facda8f42acf62cbc7b95b4108f95f4173c11fda
-last_modified_at: 2023-04-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/asar.html
@@ -23,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/asar.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # asar
 

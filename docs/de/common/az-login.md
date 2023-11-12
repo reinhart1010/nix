@@ -3,11 +3,12 @@ layout: page
 title: common/az-login (Deutsch)
 description: "Melden Sie sich bei Azure an."
 content_hash: fafaa4373ff0ef2fc0d4e82091253bdfcc6b4d5f
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/az-login.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # az login
 

@@ -3,11 +3,10 @@ layout: page
 title: common/tuckr (English)
 description: "Dotfile manager written in Rust."
 content_hash: 79b46a7cabf73e3ffc50857759cf507005847174
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># tuckr
+# tuckr
 
 Dotfile manager written in Rust.
 More information: <https://github.com/RaphGL/Tuckr>.

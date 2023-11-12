@@ -3,12 +3,10 @@ layout: page
 title: common/rustup-completions (English)
 description: "Generate shell completions for `rustup` and `cargo`."
 content_hash: 8812ad12e2b0daed1c966ab0916d0d189dd3ebac
-last_modified_at: 2023-09-19
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rustup completions
+# rustup completions
 
 Generate shell completions for `rustup` and `cargo`.
 More information: <https://rust-lang.github.io/rustup>.

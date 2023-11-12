@@ -3,15 +3,14 @@ layout: page
 title: common/conda-create (Deutsch)
 description: "Erstelle neue Conda-Umgebungen."
 content_hash: be3e8183476ae5d61b9d673ef1d748e6df248773
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/conda-create.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># conda create
+# conda create
 
 Erstelle neue Conda-Umgebungen.
 Weitere Informationen: <https://docs.conda.io/projects/conda/en/latest/commands/create.html>.

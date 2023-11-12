@@ -3,6 +3,8 @@ layout: page
 title: linux/etckeeper (English)
 description: "Track system configuration files in Git."
 content_hash: af9fd206762d797511224b643a3e39e02a1251dd
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # etckeeper
 

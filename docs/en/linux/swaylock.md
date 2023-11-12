@@ -3,12 +3,10 @@ layout: page
 title: linux/swaylock (English)
 description: "Screen locking utility for Wayland compositors."
 content_hash: 0b59f95fd14d12dad787df46a5af4942a4baed5a
-last_modified_at: 2023-08-25
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># swaylock
+# swaylock
 
 Screen locking utility for Wayland compositors.
 More information: <https://manned.org/swaylock>.

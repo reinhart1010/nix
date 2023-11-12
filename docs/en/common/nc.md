@@ -3,7 +3,7 @@ layout: page
 title: common/nc (English)
 description: "Netcat is a versatile utility for redirecting IO into a network stream."
 content_hash: a2c518af77892e5b7370d6a38ddf23c681b54373
-last_modified_at: 2023-07-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/nc.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/nc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nc
 

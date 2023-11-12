@@ -3,16 +3,14 @@ layout: page
 title: linux/xbps-remove (Nederlands)
 description: "XBPS hulpprogramma voor het verwijderen van pakketten."
 content_hash: f52297c01d4a2b9c8ecc31a29e62890e529c6be4
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/xbps-remove.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># xbps-remove
+# xbps-remove
 
 XBPS hulpprogramma voor het verwijderen van pakketten.
 Bekijk ook: `xbps`.

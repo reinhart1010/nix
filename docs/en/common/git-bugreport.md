@@ -3,6 +3,12 @@ layout: page
 title: common/git-bugreport (English)
 description: "Captures debug information from the system and user, generating a text file to aid in the reporting of a bug in Git."
 content_hash: 40103b0d4997eb9f41051c81fd464930603e234b
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Türkçe version
+    url: /tr/common/git-bugreport.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git bugreport
 

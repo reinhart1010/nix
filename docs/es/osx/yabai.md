@@ -3,10 +3,12 @@ layout: page
 title: osx/yabai (español)
 description: "Un administrador de ventanas en mosaico para macOS basado en la partición de espacio binario."
 content_hash: 79d74c5fd436e8a1a9ed67413370a8215e8f463e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/yabai.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # yabai
 

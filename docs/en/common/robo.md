@@ -3,6 +3,12 @@ layout: page
 title: common/robo (English)
 description: "PHP task runner."
 content_hash: dd7cbfdd8f573fa0b4fec6e2952d987851032204
+last_modified_at: 2023-11-12
+related_topics:
+  - title: العربية version
+    url: /ar/common/robo.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # robo
 

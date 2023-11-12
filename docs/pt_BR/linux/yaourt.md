@@ -3,6 +3,7 @@ layout: page
 title: linux/yaourt (português (Brasil))
 description: "Utilitário de Arch Linux para compilaçào de pacotes AUR (Arch User Repository)."
 content_hash: e424870e42db7bea08b1c4c2289df26f607ac6f3
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/yaourt.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/yaourt.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # yaourt
 

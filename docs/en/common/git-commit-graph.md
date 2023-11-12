@@ -3,10 +3,15 @@ layout: page
 title: common/git-commit-graph (English)
 description: "Write and verify Git commit-graph files."
 content_hash: f1efe392aa8641461a5cbecb3bda81e0843d1f25
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Türkçe version
+    url: /tr/common/git-commit-graph.html
+    icon: bi bi-globe
   - title: українська version
     url: /uk/common/git-commit-graph.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git commit-graph
 

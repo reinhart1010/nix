@@ -3,15 +3,20 @@ layout: page
 title: windows/diskpart (தமிழ்)
 description: "வட்டு, தொகுதி மற்றும் பகிர்வு மேலாளர்."
 content_hash: 0499f552ae57d99c634b8bd5a1ae296524d27e74
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/diskpart.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/diskpart.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/diskpart.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># diskpart
+# diskpart
 
 வட்டு, தொகுதி மற்றும் பகிர்வு மேலாளர்.
 மேலும் விவரத்திற்கு: <https://learn.microsoft.com/windows-server/administration/windows-commands/diskpart>.

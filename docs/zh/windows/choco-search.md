@@ -3,6 +3,7 @@ layout: page
 title: windows/choco-search (中文)
 description: "使用 Chocolatey 搜索一个本地或远程的包。"
 content_hash: 321f6724ec030c7582175045566244cae0fef34c
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-search.html
@@ -10,6 +11,16 @@ related_topics:
   - title: English version
     url: /en/windows/choco-search.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/windows/choco-search.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/windows/choco-search.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/choco-search.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco search
 

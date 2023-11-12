@@ -3,6 +3,7 @@ layout: page
 title: windows/print (Indonesia)
 description: "Mencetak sebuah file teks ke dalam mesin pencetak (printer)."
 content_hash: b581cb9a1f6756530e857b6ab2606a82aac99aa5
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/print.html
@@ -13,9 +14,13 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/windows/print.html
     icon: bi bi-globe
+  - title: svenska version
+    url: /sv/windows/print.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/print.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # print
 

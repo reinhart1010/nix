@@ -3,8 +3,11 @@ layout: page
 title: common/7zr (Indonesia)
 description: "Pengarsip file dengan rasio kompresi yang tinggi."
 content_hash: a8b2d8768efbfdb57acb32254af2c2f399063cf8
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/7zr.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/7zr.html
     icon: bi bi-globe
@@ -13,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/7zr.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/7zr.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/7zr.html
@@ -35,12 +41,16 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/7zr.html
     icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/common/7zr.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/common/7zr.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/7zr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # 7zr
 

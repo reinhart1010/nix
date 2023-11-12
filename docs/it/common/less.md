@@ -3,6 +3,7 @@ layout: page
 title: common/less (italiano)
 description: "Apri un file per lettura interattiva, permettendo di scorrere e cercare testo al suo interno."
 content_hash: f17f620b8366d1a2497c58eeafabb2bbbf4259d7
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/less.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/less.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # less
 

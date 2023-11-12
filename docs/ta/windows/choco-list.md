@@ -3,7 +3,7 @@ layout: page
 title: windows/choco-list (தமிழ்)
 description: "சாக்லேட்டியுடன் ஒன்று அல்லது அதற்கு மேற்பட்ட தொகுப்புகளை நிறுவவும்."
 content_hash: b0bbe8192ea93c5fcc43013dd41f323c69daff70
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-list.html
@@ -20,6 +20,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/choco-list.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco list
 

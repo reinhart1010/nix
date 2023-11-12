@@ -3,10 +3,13 @@ layout: page
 title: common/dd (English)
 description: "Convert and copy a file."
 content_hash: ddf69d2291353d0143e3f75e5ae8274fb8c39ddd
-last_modified_at: 2023-02-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/dd.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/dd.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/dd.html
@@ -14,6 +17,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/dd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dd
 

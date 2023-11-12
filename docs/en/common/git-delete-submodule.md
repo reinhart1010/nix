@@ -3,11 +3,10 @@ layout: page
 title: common/git-delete-submodule (English)
 description: "Delete a specific submodule from a `git` repository."
 content_hash: 88d9c62304bc8c1bb6cd8c93cc47d12101169c7f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git delete-submodule
+# git delete-submodule
 
 Delete a specific submodule from a `git` repository.
 Part of `git-extras`.

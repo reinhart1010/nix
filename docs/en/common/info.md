@@ -3,6 +3,8 @@ layout: page
 title: common/info (English)
 description: "Reads documentation stored in the info format."
 content_hash: 4ed0e89ccb3354b0a36f15c444187df5830235fb
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # info
 

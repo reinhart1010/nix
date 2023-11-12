@@ -3,6 +3,8 @@ layout: page
 title: common/gpg-tui (English)
 description: "Terminal user interface for GNU Public Guard."
 content_hash: c7601a78537435d76a85c33e9408316a2dd32efb
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gpg-tui
 

@@ -3,10 +3,12 @@ layout: page
 title: common/git-column (Türkçe)
 description: "Kolonlarda veri görüntüle."
 content_hash: 30d275091d476b5a217ad03deda09e495340a26a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-column.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git column
 

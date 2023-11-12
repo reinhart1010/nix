@@ -3,7 +3,7 @@ layout: page
 title: linux/arithmetic (中文)
 description: "测试见到你的算术问题。"
 content_hash: 97a41cc98530ee63749fa341ea6525e8252f5f9f
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/arithmetic.html
@@ -11,6 +11,7 @@ related_topics:
   - title: English version
     url: /en/linux/arithmetic.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # arithmetic
 

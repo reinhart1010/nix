@@ -3,12 +3,10 @@ layout: page
 title: linux/getconf (English)
 description: "Get configuration values from your Linux system."
 content_hash: e2a1faec0f699974e12f9d3def1a9f02e3dbf02c
-last_modified_at: 2023-01-11
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># getconf
+# getconf
 
 Get configuration values from your Linux system.
 More information: <https://manned.org/getconf.1>.

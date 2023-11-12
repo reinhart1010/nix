@@ -3,7 +3,7 @@ layout: page
 title: common/vim (Nederlands)
 description: "Vim (Vi IMproved), een command-line tekst bewerker, geeft toegang tot verschillende manieren van tekst manipulatie."
 content_hash: 25950ae279a3558bba7da00980fc4356ae2b3aa1
-last_modified_at: 2023-11-02
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -41,6 +41,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/vim.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # vim
 

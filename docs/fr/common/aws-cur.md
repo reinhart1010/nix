@@ -3,18 +3,23 @@ layout: page
 title: common/aws-cur (français)
 description: "Crée, requête et supprime des rapports de définition d'utilisation AWS."
 content_hash: c3b1bb008d0ca423e2a8b561c17d91118cc8d52b
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/aws-cur.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/aws-cur.html
+    icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/common/aws-cur.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/aws-cur.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws cur
+# aws cur
 
 Crée, requête et supprime des rapports de définition d'utilisation AWS.
 Plus d'informations : <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cur/index.html>.

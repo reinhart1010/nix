@@ -3,11 +3,12 @@ layout: page
 title: common/az-bicep (español)
 description: "Grupo de comandos de la CLI de Bicep."
 content_hash: 5b841a75e1ba67d1ecf6dbc140abd0dc2e67e0c8
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/az-bicep.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # az bicep
 

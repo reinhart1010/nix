@@ -3,6 +3,8 @@ layout: page
 title: common/ipsumdump (English)
 description: "Summarise TCP/IP dumps into a human and machine readable ASCII format."
 content_hash: 689c2f8b95990914a3e241921418c7af31a7abd5
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ipsumdump
 

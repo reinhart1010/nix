@@ -3,6 +3,7 @@ layout: page
 title: common/docker-rmi (français)
 description: "Supprimer une ou plusieurs images Docker."
 content_hash: ed351d8a199ef1252460675ad45637b50ca3a8bb
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-rmi.html
@@ -16,11 +17,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-rmi.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docker rmi
+# docker rmi
 
 Supprimer une ou plusieurs images Docker.
 Plus d'informations : <https://docs.docker.com/engine/reference/commandline/rmi/>.

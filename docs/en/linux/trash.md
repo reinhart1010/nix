@@ -3,11 +3,12 @@ layout: page
 title: linux/trash (English)
 description: "Manage the trashcan/recycling bin."
 content_hash: 82035475b664197ee4ca038635a5915156e87f44
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: Türkçe version
     url: /tr/linux/trash.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # trash
 

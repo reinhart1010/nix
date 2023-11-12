@@ -3,6 +3,8 @@ layout: page
 title: linux/sinfo (English)
 description: "View information about Slurm nodes and partitions."
 content_hash: 8eca124d17e50bef1cf194315ef663837baad987
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sinfo
 

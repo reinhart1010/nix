@@ -3,6 +3,7 @@ layout: page
 title: common/ugrep (English)
 description: "Ultra fast search tool with query TUI."
 content_hash: 7b571f3ef7357cce5582b2e654beaa5e4de4e351
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ugrep.html
@@ -10,6 +11,7 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/ugrep.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ugrep
 

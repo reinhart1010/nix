@@ -3,13 +3,16 @@ layout: page
 title: windows/choco (polski)
 description: "Interfejs wiersza polecenia dla menadżera pakietów Chocolatey."
 content_hash: f555cf83a2024adc0f79eb9e93d29bac2b22f106
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco.html
     icon: bi bi-globe
   - title: English version
     url: /en/windows/choco.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/windows/choco.html
     icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/windows/choco.html
@@ -32,6 +35,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/choco.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco
 

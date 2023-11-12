@@ -3,6 +3,8 @@ layout: page
 title: common/pickle (English)
 description: "A PHP extension installer based on Composer."
 content_hash: 6c1a5419ff771c0bca8af28b44b5b0e93fe32d38
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pickle
 

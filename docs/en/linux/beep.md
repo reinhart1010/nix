@@ -3,9 +3,13 @@ layout: page
 title: linux/beep (English)
 description: "A utility to beep the PC speaker."
 content_hash: 106fca5ec06d245b1a59e3bc6c70e08b40d39dff
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/beep.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/linux/beep.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/beep.html
@@ -13,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/beep.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # beep
 

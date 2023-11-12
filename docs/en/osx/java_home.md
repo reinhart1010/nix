@@ -3,12 +3,14 @@ layout: page
 title: osx/java_home (English)
 description: "Return a value for $JAVA_HOME or execute command using this variable."
 content_hash: 379d377481ce3e10aaa1f290fe95863f1cb7a7c3
-last_modified_at: 2023-01-02
+last_modified_at: 2023-11-12
+related_topics:
+  - title: español version
+    url: /es/osx/java_home.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># java_home
+# java_home
 
 Return a value for $JAVA_HOME or execute command using this variable.
 More information: <https://www.unix.com/man-page/osx/1/java_home>.

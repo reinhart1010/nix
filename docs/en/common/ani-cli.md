@@ -3,9 +3,13 @@ layout: page
 title: common/ani-cli (English)
 description: "A cli to browse and watch anime."
 content_hash: 143f350f7d626984dc6b2d6543a8dff517c5058c
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ani-cli.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/ani-cli.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/ani-cli.html
@@ -13,6 +17,10 @@ related_topics:
   - title: മലയാളം version
     url: /ml/common/ani-cli.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/ani-cli.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ani-cli
 

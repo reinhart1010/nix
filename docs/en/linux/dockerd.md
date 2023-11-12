@@ -3,10 +3,15 @@ layout: page
 title: linux/dockerd (English)
 description: "A persistent process to start and manage docker containers."
 content_hash: fcee22fbb061c76f7906e5ae35eeffe8def19e31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/linux/dockerd.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/dockerd.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dockerd
 

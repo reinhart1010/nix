@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman-key (தமிழ்)
 description: "பேக்மேனின் கீரிங்கை நிர்வகிக்க GnuPGக்கான ரேப்பர் ஸ்கிரிப்ட் பயன்படுத்தப்படுகிறது."
 content_hash: 345c742401f260ef5a04296c441c13b0bf422616
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/pacman-key.html
@@ -11,6 +11,10 @@ related_topics:
   - title: français version
     url: /fr/linux/pacman-key.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/pacman-key.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pacman-key
 

@@ -3,11 +3,10 @@ layout: page
 title: common/grafana-cli (English)
 description: "A small executable that is bundled with Grafana serve."
 content_hash: 27d2ffdd011d36a21b44ff202158467cc9ba60c0
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># grafana-cli
+# grafana-cli
 
 A small executable that is bundled with Grafana serve.
 More information: <https://grafana.com/docs/grafana/latest/cli/>.

@@ -3,6 +3,8 @@ layout: page
 title: common/lwp-request (English)
 description: "Simple command-line HTTP client."
 content_hash: d2a75e1d92c5d3b6cb32a9078b1794449226bca2
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lwp-request
 

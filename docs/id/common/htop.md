@@ -3,6 +3,7 @@ layout: page
 title: common/htop (Indonesia)
 description: "Menampilkan informasi waktu nyata dinamis tentang proses yang berjalan. Versi `top` yang disempurnakan."
 content_hash: d5613cca6244236fb875c8019a4f9a1fdf267060
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/htop.html
@@ -10,9 +11,19 @@ related_topics:
   - title: español version
     url: /es/common/htop.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/htop.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/htop.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/htop.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/htop.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.

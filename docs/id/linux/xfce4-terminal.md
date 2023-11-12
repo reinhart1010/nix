@@ -3,6 +3,7 @@ layout: page
 title: linux/xfce4-terminal (Indonesia)
 description: "Emulator terminal XFCE4."
 content_hash: 79bbe722d060c2605e2dfd682fb1e902e410767e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/xfce4-terminal.html
@@ -10,11 +11,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/xfce4-terminal.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># xfce4-terminal
+# xfce4-terminal
 
 Emulator terminal XFCE4.
 Informasi lebih lanjut: <https://docs.xfce.org/apps/xfce4-terminal/start>.

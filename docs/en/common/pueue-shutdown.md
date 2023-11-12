@@ -3,6 +3,8 @@ layout: page
 title: common/pueue-shutdown (English)
 description: "Remotely shut down the daemon."
 content_hash: 462de62f961607bf2b1bca11b339fe027600ada3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pueue shutdown
 

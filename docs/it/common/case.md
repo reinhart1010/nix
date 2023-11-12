@@ -3,7 +3,7 @@ layout: page
 title: common/case (italiano)
 description: "Esegui branch diversi in base al valore di un'espressione."
 content_hash: 19e18ce2bf1a9e29cbdc4fed1496e5a3f30a427b
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/case.html
@@ -14,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/case.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # case
 

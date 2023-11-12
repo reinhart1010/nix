@@ -3,6 +3,7 @@ layout: page
 title: common/diffstat (italiano)
 description: "Crea un istogramma dall'output del comando `diff`."
 content_hash: 5ca8ac80b4890ae1bdfb0a21e67c6f3926949d5d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/diffstat.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/diffstat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # diffstat
 

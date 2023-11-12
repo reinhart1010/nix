@@ -3,7 +3,7 @@ layout: page
 title: osx/xcodebuild (español)
 description: "Construye proyectos Xcode."
 content_hash: 72071b8d4157a6b14bf26d425672b72294261cf9
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/xcodebuild.html
@@ -11,11 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/xcodebuild.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># xcodebuild
+# xcodebuild
 
 Construye proyectos Xcode.
 Más información: <https://developer.apple.com/library/archive/technotes/tn2339/_index.html>.

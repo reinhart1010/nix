@@ -3,7 +3,8 @@ layout: page
 title: linux/jobs (English)
 description: "Shell builtin for viewing information about processes spawned by the current shell."
 content_hash: 8dedb75dddaef5902c9e43b8671c5927f5b32bba
-last_modified_at: 2023-06-17
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # jobs
 

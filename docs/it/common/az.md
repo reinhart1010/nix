@@ -3,9 +3,13 @@ layout: page
 title: common/az (italiano)
 description: "Strumento ufficiale da linea di comando per Microsoft Azure."
 content_hash: c68809ec5420bb370cb5c2d34844349f264ab700
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/az.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/az.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/az.html
@@ -19,6 +23,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/az.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # az
 

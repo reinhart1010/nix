@@ -3,6 +3,8 @@ layout: page
 title: common/git-whatchanged (English)
 description: "Show what has changed with recent commits or files."
 content_hash: f28fb5cf775d9cb561cc408664d4224ab7a1d648
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git whatchanged
 

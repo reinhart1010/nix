@@ -3,6 +3,12 @@ layout: page
 title: linux/groupadd (English)
 description: "Add user groups to the system."
 content_hash: 22b4b5f659fc18376118567def31eee07577407c
+last_modified_at: 2023-11-12
+related_topics:
+  - title: polski version
+    url: /pl/linux/groupadd.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # groupadd
 

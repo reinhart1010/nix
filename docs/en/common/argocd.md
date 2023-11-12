@@ -3,12 +3,14 @@ layout: page
 title: common/argocd (English)
 description: "Command-line interface to control a Argo CD server."
 content_hash: d431358b57e6e80c8af6a031567ba5fadbb7ef9b
-last_modified_at: 2023-03-02
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/argocd.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># argocd
+# argocd
 
 Command-line interface to control a Argo CD server.
 Some subcommands such as `argocd app` have their own usage documentation.

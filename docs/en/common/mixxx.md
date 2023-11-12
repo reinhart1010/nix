@@ -3,6 +3,8 @@ layout: page
 title: common/mixxx (English)
 description: "Free and open source cross-platform DJ software."
 content_hash: c4960a7e90592448fb3f360c3be5611c7098a435
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mixxx
 

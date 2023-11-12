@@ -3,6 +3,8 @@ layout: page
 title: linux/spi (English)
 description: "A meta package manager that handles both packages and slackbuilds."
 content_hash: d5a3f27b49440d4b57682dda4bd6587e47e7f96b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # spi
 

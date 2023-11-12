@@ -3,7 +3,8 @@ layout: page
 title: common/az-storage-blob (English)
 description: "Manage blob storage containers and objects in Azure."
 content_hash: c9fff792c8b70c073545c6d32b75a079771d7776
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # az storage blob
 

@@ -3,6 +3,8 @@ layout: page
 title: common/psql (English)
 description: "PostgreSQL command-line client."
 content_hash: 83ca0b1f75dd31d9d27884284190b67075331f4d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # psql
 

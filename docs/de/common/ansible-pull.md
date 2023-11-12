@@ -3,18 +3,20 @@ layout: page
 title: common/ansible-pull (Deutsch)
 description: "Laden eines Ansible-Playbooks aus einem VCS-Repository und ausführen auf dem lokalen Host."
 content_hash: 58c7849c33a706c8495646e5da98f9f44e304e68
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ansible-pull.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/ansible-pull.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/ansible-pull.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ansible-pull
+# ansible-pull
 
 Laden eines Ansible-Playbooks aus einem VCS-Repository und ausführen auf dem lokalen Host.
 Weitere Informationen: <https://docs.ansible.com/ansible/latest/cli/ansible-pull.html>.

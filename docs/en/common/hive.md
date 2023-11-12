@@ -3,6 +3,8 @@ layout: page
 title: common/hive (English)
 description: "CLI tool for Apache Hive."
 content_hash: 266f874dd278aaa8dfd671363b147d31510815c8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # hive
 

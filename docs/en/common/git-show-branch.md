@@ -3,6 +3,7 @@ layout: page
 title: common/git-show-branch (English)
 description: "Show branches and their commits."
 content_hash: a9aea40211a305f362fcfc0a6535d2ccf57c6277
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/git-show-branch.html
@@ -10,6 +11,10 @@ related_topics:
   - title: italiano version
     url: /it/common/git-show-branch.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-show-branch.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git show-branch
 

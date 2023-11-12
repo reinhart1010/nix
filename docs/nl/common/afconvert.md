@@ -3,7 +3,7 @@ layout: page
 title: common/afconvert (Nederlands)
 description: "Converteren tussen AFF en onbewerkte bestandsindelingen."
 content_hash: 9593e4c7bbc097448a5fbcf6e09092c4ce343cc5
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/afconvert.html
@@ -17,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/afconvert.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # afconvert
 

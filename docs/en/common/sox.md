@@ -3,6 +3,8 @@ layout: page
 title: common/sox (English)
 description: "Sound eXchange: play, record and convert audio files."
 content_hash: eedb3081399de9cf079b488638bdaa1820949037
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sox
 

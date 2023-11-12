@@ -3,6 +3,7 @@ layout: page
 title: common/crontab (English)
 description: "Schedule cron jobs to run on a time interval for the current user."
 content_hash: 88c07ce208be880950d4f96b5b2a19efebd72a95
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/crontab.html
@@ -10,6 +11,10 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/crontab.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/crontab.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # crontab
 

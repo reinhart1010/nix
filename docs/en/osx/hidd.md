@@ -3,11 +3,17 @@ layout: page
 title: osx/hidd (English)
 description: "HID library userland daemon."
 content_hash: 73a983bbd23b3fc9c06bbc929525bfcc2c047be7
+last_modified_at: 2023-11-12
+related_topics:
+  - title: español version
+    url: /es/osx/hidd.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/hidd.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># hidd
+# hidd
 
 HID library userland daemon.
 It should not be invoked manually.

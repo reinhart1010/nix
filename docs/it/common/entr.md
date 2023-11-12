@@ -3,10 +3,15 @@ layout: page
 title: common/entr (italiano)
 description: "Esegui comandi arbitrari al cambiamento di file."
 content_hash: 2133ab9ef8ddf505bee6ba361ee525a9c80edcae
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/entr.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/entr.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # entr
 

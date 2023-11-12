@@ -3,13 +3,21 @@ layout: page
 title: linux/flatpak (中文)
 description: "构建、安装和运行 Flatpak 应用和运行时。"
 content_hash: 247903f34c361848466448a35448ce79e7dd55c8
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/flatpak.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/flatpak.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/flatpak.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/flatpak.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # flatpak
 

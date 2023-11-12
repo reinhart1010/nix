@@ -3,6 +3,7 @@ layout: page
 title: common/mkdir (தமிழ்)
 description: "அடைவை உருவாக்கு."
 content_hash: 4b92d48ff40a06d892a9680c7c37766e8ce6b4ff
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -25,12 +26,16 @@ related_topics:
   - title: српски version
     url: /sr/common/mkdir.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/mkdir.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/mkdir.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/mkdir.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mkdir
 

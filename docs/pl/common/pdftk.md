@@ -3,6 +3,7 @@ layout: page
 title: common/pdftk (polski)
 description: "Zestaw narzędzi PDF."
 content_hash: be7ec62cdca5357bc61d39f66cc61366a1a42111
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/pdftk.html
@@ -10,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/pdftk.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pdftk
 

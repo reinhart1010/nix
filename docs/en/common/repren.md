@@ -3,6 +3,8 @@ layout: page
 title: common/repren (English)
 description: "Multi-pattern string replacement and file renaming tool."
 content_hash: defcdb2967c46cdd9ba0ea5b36d6eb1663e3006e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # repren
 

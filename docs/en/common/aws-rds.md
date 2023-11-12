@@ -3,6 +3,15 @@ layout: page
 title: common/aws-rds (English)
 description: "CLI for AWS Relational Database Service."
 content_hash: 6a329951af852ce4fff4b12006f8448754547cc0
+last_modified_at: 2023-11-12
+related_topics:
+  - title: español version
+    url: /es/common/aws-rds.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/aws-rds.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws rds
 

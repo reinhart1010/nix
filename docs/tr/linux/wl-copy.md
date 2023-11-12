@@ -3,10 +3,12 @@ layout: page
 title: linux/wl-copy (Türkçe)
 description: "Wayland için pano değiştirme aracı."
 content_hash: e730d467bf960e3b1eaf07fa96c88d4cb6753794
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/wl-copy.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wl-copy
 

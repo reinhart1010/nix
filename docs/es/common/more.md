@@ -3,6 +3,7 @@ layout: page
 title: common/more (español)
 description: "Abre un archivo para lectura interactiva, permitiendo navegar y buscar."
 content_hash: 23bec2f5c808e5cc371ab0115a9ada14e5078f64
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/more.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/more.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # more
 

@@ -3,7 +3,7 @@ layout: page
 title: common/asciinema (español)
 description: "Graba y reproduce sesiones de terminal, y opcionalmente compártelas en asciinema.org."
 content_hash: 7c2559a031aba09f65c7aec276e7d2f26603ac54
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/asciinema.html
@@ -23,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/asciinema.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # asciinema
 

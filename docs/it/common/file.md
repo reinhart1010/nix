@@ -3,6 +3,7 @@ layout: page
 title: common/file (italiano)
 description: "Determina il tipo di file."
 content_hash: 08ed583aedbc0c46ff0fb109bafc590e29160a23
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/file.html
@@ -13,11 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/file.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># file
+# file
 
 Determina il tipo di file.
 Maggiori informazioni: <https://manned.org/file>.

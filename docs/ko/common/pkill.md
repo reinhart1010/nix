@@ -3,15 +3,14 @@ layout: page
 title: common/pkill (한국어)
 description: "프로세스 이름에 따라 시그널을 전송합니다."
 content_hash: 9ba7099241517b6c699177b5ee21ef1d09cb9b64
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/pkill.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pkill
+# pkill
 
 프로세스 이름에 따라 시그널을 전송합니다.
 주로 프로세스를 종료하는데 사용합니다.

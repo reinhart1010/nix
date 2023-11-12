@@ -3,10 +3,13 @@ layout: page
 title: windows/wsl (English)
 description: "Manage the Windows Subsystem for Linux."
 content_hash: b2a682dc7e7cdd6b856a082363a7a661d7e58a1f
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/wsl.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/wsl.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/wsl.html
@@ -14,6 +17,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/wsl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wsl
 

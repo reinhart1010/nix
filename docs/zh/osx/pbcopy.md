@@ -3,10 +3,13 @@ layout: page
 title: osx/pbcopy (中文)
 description: "将来自标准输入的数据放入剪贴板。"
 content_hash: 73f28f22d67af5867f23aa821ce05d635d62cf9b
-last_modified_at: 2023-06-13
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/pbcopy.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/osx/pbcopy.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/osx/pbcopy.html
@@ -14,6 +17,7 @@ related_topics:
   - title: ไทย version
     url: /th/osx/pbcopy.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pbcopy
 

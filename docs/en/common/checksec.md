@@ -3,12 +3,10 @@ layout: page
 title: common/checksec (English)
 description: "Check security properties of executables."
 content_hash: 80e01b56c7bd67b191c9ba52fec23b4b569f754e
-last_modified_at: 2023-08-29
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># checksec
+# checksec
 
 Check security properties of executables.
 More information: <https://github.com/slimm609/checksec.sh>.

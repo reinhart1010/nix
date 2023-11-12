@@ -3,7 +3,8 @@ layout: page
 title: common/msmtp (English)
 description: "An SMTP client."
 content_hash: 9f8daec54697544df57d9f782c3b290d6247e508
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # msmtp
 

@@ -3,11 +3,12 @@ layout: page
 title: common/clang-format (Deutsch)
 description: "Programm zum Auto-Formatieren von C/C++/Java/JavaScript/Objective-C/Protobuf/C#-Code."
 content_hash: 57c9a32d6d1be4b941a2de094e3884c117418abc
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/clang-format.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # clang-format
 

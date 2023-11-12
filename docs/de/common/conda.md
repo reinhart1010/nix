@@ -3,6 +3,7 @@ layout: page
 title: common/conda (Deutsch)
 description: "Eine Paket-, Abhängigkeits- und Umgebungsverwaltung für beliebige Programmiersprachen."
 content_hash: 6fd5c20d2eced14791bd8f50207817c6c4f83944
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/conda.html
@@ -13,11 +14,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/conda.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># conda
+# conda
 
 Eine Paket-, Abhängigkeits- und Umgebungsverwaltung für beliebige Programmiersprachen.
 Manche Unterbefehle wie `conda create` sind separat dokumentiert.

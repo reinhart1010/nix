@@ -3,11 +3,12 @@ layout: page
 title: windows/expand (English)
 description: "Uncompress one or more Windows Cabinet files."
 content_hash: 81e7285782845289508cffd44c6c7062d97c6844
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/windows/expand.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # expand
 

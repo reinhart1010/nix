@@ -3,6 +3,7 @@ layout: page
 title: common/git-submodule (français)
 description: "Inspecter, mettre à jour et manager des sous-modules."
 content_hash: fcd4f56a1623889330b8327f145e03d89892dadf
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-submodule.html
@@ -13,6 +14,10 @@ related_topics:
   - title: italiano version
     url: /it/common/git-submodule.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-submodule.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git submodule
 

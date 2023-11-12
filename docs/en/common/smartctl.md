@@ -3,6 +3,8 @@ layout: page
 title: common/smartctl (English)
 description: "Monitor disk health including SMART data."
 content_hash: 9f459c366379896c3366536d5d712c1461028d41
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # smartctl
 

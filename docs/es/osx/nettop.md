@@ -3,16 +3,14 @@ layout: page
 title: osx/nettop (español)
 description: "Muestra información actualizada sobre la red."
 content_hash: e88448e3cfd7cefb34fdaa4e55398c3038620a79
-last_modified_at: 2023-09-13
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/nettop.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># nettop
+# nettop
 
 Muestra información actualizada sobre la red.
 Más información: <https://www.manpagez.com/man/1/nettop/>.

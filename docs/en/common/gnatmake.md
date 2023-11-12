@@ -3,6 +3,8 @@ layout: page
 title: common/gnatmake (English)
 description: "A low-level build tool for Ada programs (part of the GNAT toolchain)."
 content_hash: a2f4fa69bd381ecda2a289320b6f0feeb993f328
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gnatmake
 

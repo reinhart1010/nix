@@ -3,7 +3,12 @@ layout: page
 title: common/scrapy (English)
 description: "Web-crawling framework."
 content_hash: d48b6385761bb4afa6c4da8407991a53e478ceab
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 日本語 version
+    url: /ja/common/scrapy.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # scrapy
 

@@ -3,11 +3,12 @@ layout: page
 title: linux/daemonize (français)
 description: "Lance une commande (qui ne se \"démonise\" pas elle-même) comme démon UNIX."
 content_hash: b64396f9dfdcd29c8c502ac87f7325812617791b
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/daemonize.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # daemonize
 

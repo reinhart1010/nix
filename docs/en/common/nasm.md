@@ -3,6 +3,8 @@ layout: page
 title: common/nasm (English)
 description: "The Netwide Assembler, a portable 80x86 assembler."
 content_hash: fe4fe1f63ed0a3d723b6126977fe20639445d347
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # nasm
 

@@ -3,7 +3,7 @@ layout: page
 title: common/poetry (English)
 description: "Manage Python packages and dependencies."
 content_hash: 86f5978c932c53944bee3b21222ae1f2b0b55e3c
-last_modified_at: 2022-12-27
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/poetry.html
@@ -11,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/poetry.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # poetry
 

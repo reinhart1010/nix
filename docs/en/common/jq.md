@@ -3,14 +3,18 @@ layout: page
 title: common/jq (English)
 description: "A command-line JSON processor that uses a domain-specific language (DSL)."
 content_hash: 26e3d0d40fccc2116f4c11e173fbe42af120b211
-last_modified_at: 2023-10-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/jq.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/jq.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/common/jq.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # jq
 

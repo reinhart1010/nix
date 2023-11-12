@@ -3,6 +3,7 @@ layout: page
 title: common/git-reflog (français)
 description: "Affiche un log des changements locaux comme HEAD, tags et branches."
 content_hash: 62f2127ce84fb29bd4b1b0470fca59d20ca8e354
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-reflog.html
@@ -13,6 +14,10 @@ related_topics:
   - title: italiano version
     url: /it/common/git-reflog.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-reflog.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git reflog
 

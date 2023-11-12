@@ -3,7 +3,8 @@ layout: page
 title: windows/remove-appxpackage (English)
 description: "A PowerShell utility to remove an app package from one or more user accounts."
 content_hash: 2e4c74f3b2c82b1aa26c65cfeeb0d5399c8ddec1
-last_modified_at: 2023-10-27
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # remove-appxpackage
 

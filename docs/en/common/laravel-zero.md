@@ -3,10 +3,12 @@ layout: page
 title: common/laravel-zero (English)
 description: "A command-line installer for the Laravel Zero framework."
 content_hash: 1e867457460ba684203653598f7daa07c01fd237
+last_modified_at: 2023-11-12
 related_topics:
   - title: Indonesia version
     url: /id/common/laravel-zero.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # laravel-zero
 

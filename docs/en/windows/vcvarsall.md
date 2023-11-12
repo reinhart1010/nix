@@ -3,7 +3,8 @@ layout: page
 title: windows/vcvarsall (English)
 description: "Setup the environment variables required for using the Microsoft Visual Studio tools."
 content_hash: 2d0e79a7137f59153c5c5d6c36eaae6da873ec35
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # vcvarsall
 

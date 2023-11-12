@@ -3,7 +3,7 @@ layout: page
 title: windows/choco-outdated (தமிழ்)
 description: "சாக்லேட்டியுடன் காலாவதியான தொகுப்புகளைச் சரிபார்க்கவும்."
 content_hash: 58746a97bf0d4a059d06e928c8961c3cf1225968
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-outdated.html
@@ -11,12 +11,16 @@ related_topics:
   - title: English version
     url: /en/windows/choco-outdated.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/windows/choco-outdated.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/windows/choco-outdated.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/choco-outdated.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco outdated
 

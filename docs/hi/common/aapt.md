@@ -3,7 +3,7 @@ layout: page
 title: common/aapt (हिन्दी)
 description: "एंड्रॉइड एसेट पैकेजिंग टूल।"
 content_hash: 53064abf41eac397732828f8e68b86df15cf24cc
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/common/aapt.html
@@ -41,6 +41,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/aapt.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aapt
 

@@ -3,6 +3,7 @@ layout: page
 title: common/docker-system (Deutsch)
 description: "Verwalte Docker Daten und zeige systemweite Informationen an."
 content_hash: 97a712c48710c1b2c015f43deff59d647e65e708
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/docker-system.html
@@ -10,9 +11,16 @@ related_topics:
   - title: français version
     url: /fr/common/docker-system.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/docker-system.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/docker-system.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/docker-system.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker system
 

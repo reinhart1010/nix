@@ -3,6 +3,12 @@ layout: page
 title: linux/qm-create (English)
 description: "Create or restore a virtual machine on QEMU/KVM Virtual Machine Manager."
 content_hash: 667457daf2535af7c9c12256357e70bc8dbeaa47
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/linux/qm-create.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # qm create
 

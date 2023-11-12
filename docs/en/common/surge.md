@@ -3,7 +3,8 @@ layout: page
 title: common/surge (English)
 description: "Simple web publishing."
 content_hash: 3f935656715b3a2b5c1edb8958683d8ff95a7187
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # surge
 

@@ -3,12 +3,20 @@ layout: page
 title: linux/whatis (فارسی)
 description: "نمایش توضیحات یک خطی از صفحات راهنما."
 content_hash: 5bf1009a1d02cd82c06ea46863d3cd7eeb959f5e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/whatis.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/linux/whatis.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# whatis
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># whatis
 
 نمایش توضیحات یک خطی از صفحات راهنما.
 اطلاعات بیشتر: <https://manned.org/whatis>.

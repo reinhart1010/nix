@@ -3,7 +3,7 @@ layout: page
 title: osx/grcp (polski)
 description: "To polecenie jest aliasem `-p linux rcp`."
 content_hash: acf71c542b2118fc0c268ca80e984b5fe6daaf54
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/grcp.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/grcp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # grcp
 

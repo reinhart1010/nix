@@ -3,9 +3,16 @@ layout: page
 title: common/aria2c (français)
 description: "Utilitaire de téléchargement."
 content_hash: 5c46f58fa9881844525a3b0e3d0cc42fee95bab5
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/aria2c.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/aria2c.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/aria2c.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/aria2c.html
@@ -16,11 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/aria2c.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aria2c
+# aria2c
 
 Utilitaire de téléchargement.
 Supporte HTTP(S), FTP, SFTP, BitTorrent, et Metalink.

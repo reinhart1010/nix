@@ -3,6 +3,7 @@ layout: page
 title: linux/aspell (русский)
 description: "Интерактивная проверка орфографии."
 content_hash: bf0c4602aad7dd40322c76b458190903bab2e148
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/aspell.html
@@ -19,11 +20,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/aspell.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aspell
+# aspell
 
 Интерактивная проверка орфографии.
 Больше информации: <http://aspell.net/>.

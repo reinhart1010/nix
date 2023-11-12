@@ -3,6 +3,7 @@ layout: page
 title: common/chromium (français)
 description: "Navigateur Web open source principalement développé et maintenu par Google."
 content_hash: da6f4956795f754cd04ba534fdf4a3e1996abc39
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/chromium.html
@@ -19,6 +20,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/chromium.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chromium
 

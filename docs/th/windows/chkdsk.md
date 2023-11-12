@@ -3,7 +3,7 @@ layout: page
 title: windows/chkdsk (ไทย)
 description: "ความสมบูรณ์ของระบบไฟล์และข้อมูลเมตาของระบบไฟล์บนดิสก์โวลุ่มและแก้ไขข้อผิดพลาดของระบบ"
 content_hash: 6f702cb57a28bd2366a450075c123bf4803900c9
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/chkdsk.html
@@ -17,6 +17,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/windows/chkdsk.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chkdsk
 

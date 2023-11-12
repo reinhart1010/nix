@@ -3,10 +3,12 @@ layout: page
 title: common/wal (English)
 description: "A tool to create color schemes based on the dominant colors of a wallpaper."
 content_hash: 19f222f1074b845bb30d34cd85f799112446be9a
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/common/wal.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wal
 

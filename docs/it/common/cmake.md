@@ -3,6 +3,7 @@ layout: page
 title: common/cmake (italiano)
 description: "Generatore di ambienti di compilazione multipiattaforma."
 content_hash: 888d2a7edd4cc80b25a3b42a26d7ccffaf0cdf9c
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/cmake.html
@@ -19,15 +20,10 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/cmake.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cmake.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># cmake
 

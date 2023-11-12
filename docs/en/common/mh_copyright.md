@@ -3,11 +3,10 @@ layout: page
 title: common/mh_copyright (English)
 description: "Adjust copyright headers for MATLAB or Octave code."
 content_hash: 0f30e8532c01e99eade5abc8ad086667f2e3d847
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mh_copyright
+# mh_copyright
 
 Adjust copyright headers for MATLAB or Octave code.
 More information: <https://misshit.org>.

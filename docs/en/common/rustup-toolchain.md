@@ -3,12 +3,10 @@ layout: page
 title: common/rustup-toolchain (English)
 description: "Manage Rust toolchains."
 content_hash: c160fc36fe3e18ed06b271d2bd655c097dcc5846
-last_modified_at: 2023-09-02
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rustup toolchain
+# rustup toolchain
 
 Manage Rust toolchains.
 See `rustup help toolchain` for more information about toolchains.

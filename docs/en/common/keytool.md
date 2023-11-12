@@ -3,7 +3,8 @@ layout: page
 title: common/keytool (English)
 description: "Keytool is a certificate management utility included with Java."
 content_hash: 13a8f306f864b565b406776f58284f707d439483
-last_modified_at: 2023-06-14
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # keytool
 

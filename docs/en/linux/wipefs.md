@@ -3,6 +3,8 @@ layout: page
 title: linux/wipefs (English)
 description: "Wipe filesystem, raid, or partition-table signatures from a device."
 content_hash: e28a4fd67c09fd7d4da4ac4d612751d6338aa192
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # wipefs
 

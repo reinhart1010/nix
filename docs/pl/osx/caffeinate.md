@@ -3,7 +3,7 @@ layout: page
 title: osx/caffeinate (polski)
 description: "Nie pozwól aby macOS się uśpił."
 content_hash: 19c1c720b3b06955b0b2626278c76cf5c4e73baf
-last_modified_at: 2022-11-22
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/osx/caffeinate.html
@@ -26,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/caffeinate.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.

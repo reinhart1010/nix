@@ -3,7 +3,8 @@ layout: page
 title: linux/zforce (English)
 description: "Add a `.gz` extension to files compressed using `gzip`."
 content_hash: 12b9a00b9a70204db6bb4f35c62b1ea55302c8df
-last_modified_at: 2023-10-10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # zforce
 

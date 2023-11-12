@@ -3,13 +3,18 @@ layout: page
 title: osx/shuf (Indonesia)
 description: "Generate permutasi acak."
 content_hash: 92f0958ef6eeed31e42214c7b11cbf29078d78ad
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/shuf.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/shuf.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/shuf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # shuf
 

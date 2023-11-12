@@ -3,9 +3,16 @@ layout: page
 title: common/wget (English)
 description: "Download files from the Web."
 content_hash: f5e4f812069707eeeb91d269b734b6a0f4ec61ca
+last_modified_at: 2023-11-12
 related_topics:
+  - title: हिन्दी version
+    url: /hi/common/wget.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/wget.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/wget.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/wget.html
@@ -13,6 +20,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/wget.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wget
 

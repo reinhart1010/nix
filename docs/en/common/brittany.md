@@ -3,7 +3,8 @@ layout: page
 title: common/brittany (English)
 description: "Pretty-print Haskell source files."
 content_hash: 4f8c981b2197bd7db97fdfa3c9dc3652e6d71e60
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # brittany
 

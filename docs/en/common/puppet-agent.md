@@ -3,10 +3,12 @@ layout: page
 title: common/puppet-agent (English)
 description: "Retrieves the client configuration from a Puppet server and applies it to the local host."
 content_hash: 16d1fb26f3a75feecd3a0f36cfdc908f2885abee
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/puppet-agent.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # puppet agent
 

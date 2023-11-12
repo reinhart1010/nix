@@ -3,6 +3,8 @@ layout: page
 title: common/glow (English)
 description: "Render Markdown in the terminal."
 content_hash: f3fd2a32bf9431b7724e2953498c9057ef7104c3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # glow
 

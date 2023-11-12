@@ -3,7 +3,7 @@ layout: page
 title: common/apktool (한국어)
 description: "APK 파일 리버스 엔지니어링."
 content_hash: a6def34b5c79861040f508538b72a4cc6b41f984
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/apktool.html
@@ -23,11 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/apktool.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># apktool
+# apktool
 
 APK 파일 리버스 엔지니어링.
 더 많은 정보: <https://ibotpeaches.github.io/Apktool/>.

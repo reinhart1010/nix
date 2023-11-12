@@ -3,6 +3,8 @@ layout: page
 title: common/security-checker (English)
 description: "Check if a PHP application uses dependencies with known security vulnerabilities."
 content_hash: ef33a45998a10bb04a4934ab403ed7988d1bbd56
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # security-checker
 

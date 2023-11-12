@@ -3,6 +3,8 @@ layout: page
 title: common/mmls (English)
 description: "Display the partition layout of a volume system."
 content_hash: f4633f9cb3e2c1e64646b35e44e11ffeb7172a97
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mmls
 

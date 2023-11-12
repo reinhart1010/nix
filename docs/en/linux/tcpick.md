@@ -3,12 +3,10 @@ layout: page
 title: linux/tcpick (English)
 description: "Packet sniffing and network traffic analysis tool."
 content_hash: de0f1737badf56d9c1773b1e066e51d754c5ae68
-last_modified_at: 2023-10-02
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># tcpick
+# tcpick
 
 Packet sniffing and network traffic analysis tool.
 It can capture and display TCP connections and data. It can also monitor network traffic on a specific interface, host, or port.

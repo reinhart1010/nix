@@ -3,16 +3,14 @@ layout: page
 title: linux/dconf-read (português (Brasil))
 description: "Lê valores de chave dos bancos de dados dconf."
 content_hash: 38e15032dc62ec759a1c71e4b6d748da7cc615c4
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/dconf-read.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dconf read
+# dconf read
 
 Lê valores de chave dos bancos de dados dconf.
 Veja também: `dconf`.

@@ -3,7 +3,7 @@ layout: page
 title: common/amass-db (español)
 description: "Interactúa con una base de datos Amass."
 content_hash: 62f9754babb590aef8444d041bbe2566353223a2
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/amass-db.html
@@ -11,6 +11,7 @@ related_topics:
   - title: français version
     url: /fr/common/amass-db.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # amass db
 

@@ -3,7 +3,8 @@ layout: page
 title: common/set-nodeversion (English)
 description: "Set the default Node.js version for `ps-nvm`."
 content_hash: 93fc710df7821d431fc3567091fdb2ce0f007121
-last_modified_at: 2023-11-03
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # Set-NodeVersion
 

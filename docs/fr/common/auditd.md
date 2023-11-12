@@ -3,15 +3,14 @@ layout: page
 title: common/auditd (français)
 description: "Réponds aux requêtes depuis l'outil d'audition et de notifications du kernel."
 content_hash: 00d9d5ce7eb025ab68aa7bc5128d28a020e8b9e1
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/auditd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># auditd
+# auditd
 
 Réponds aux requêtes depuis l'outil d'audition et de notifications du kernel.
 Il ne doit pas être utilisé manuellement.

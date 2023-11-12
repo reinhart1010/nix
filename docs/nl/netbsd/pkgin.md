@@ -3,16 +3,14 @@ layout: page
 title: netbsd/pkgin (Nederlands)
 description: "Beheer `pkgsrc` binary pakketten op NetBSD."
 content_hash: 801fb5963417fc206bf28ad43ace456e35b043b5
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/netbsd/pkgin.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pkgin
+# pkgin
 
 Beheer `pkgsrc` binary pakketten op NetBSD.
 Meer informatie: <https://pkgin.net/#usage>.

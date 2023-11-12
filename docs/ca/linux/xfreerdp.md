@@ -3,6 +3,7 @@ layout: page
 title: linux/xfreerdp (català)
 description: "Implementació lliure del protocol d'escriptori remot (_Remote Desktop Protocol_)."
 content_hash: 968eded64c7b0663cb1354d2de0f688a1ca3bfc7
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/xfreerdp.html
@@ -10,8 +11,12 @@ related_topics:
   - title: español version
     url: /es/linux/xfreerdp.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# xfreerdp
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># xfreerdp
 
 Implementació lliure del protocol d'escriptori remot (_Remote Desktop Protocol_).
 Més informació: <https://www.freerdp.com>.

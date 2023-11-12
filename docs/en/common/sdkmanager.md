@@ -3,6 +3,8 @@ layout: page
 title: common/sdkmanager (English)
 description: "Tool to install packages for the Android SDK."
 content_hash: ea00865e1ab4c2abac3e77fa521d11c46bce67e9
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sdkmanager
 

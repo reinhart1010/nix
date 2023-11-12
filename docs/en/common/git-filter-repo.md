@@ -3,7 +3,8 @@ layout: page
 title: common/git-filter-repo (English)
 description: "A versatile tool for rewriting Git history."
 content_hash: e1540aa1aa9de67a99308dba7c552a3fb23da7d1
-last_modified_at: 2023-02-15
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git filter-repo
 

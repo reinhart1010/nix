@@ -3,11 +3,12 @@ layout: page
 title: common/bgpgrep (English)
 description: "Filter and print BGP data within MRT dumps."
 content_hash: 8c4d829a4bdd9905ad22bf4e8e352a0847d462c3
-last_modified_at: 2023-07-11
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/bgpgrep.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bgpgrep
 

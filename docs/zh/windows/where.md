@@ -3,10 +3,21 @@ layout: page
 title: windows/where (中文)
 description: "显示与搜索模式匹配的文件的位置。"
 content_hash: 4149da614a0686253028c79081ebac583898204e
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/where.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/where.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/windows/where.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/windows/where.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # where
 

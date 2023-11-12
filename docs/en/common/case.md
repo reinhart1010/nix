@@ -3,7 +3,7 @@ layout: page
 title: common/case (English)
 description: "Bash builtin construct for creating multi-choice conditional statements."
 content_hash: 9e3c60cdc299d50be45d24c9a04a54bbad0b8d18
-last_modified_at: 2023-08-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/case.html
@@ -14,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/case.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # case
 

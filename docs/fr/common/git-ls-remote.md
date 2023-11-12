@@ -3,6 +3,7 @@ layout: page
 title: common/git-ls-remote (français)
 description: "Commande Git pour répertorier les références dans un dépôt distant en fonction du nom ou de l'URL."
 content_hash: 373aec3dd95cb0ebb75e4f5587abcc9eb2deb51f
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-ls-remote.html
@@ -10,6 +11,10 @@ related_topics:
   - title: italiano version
     url: /it/common/git-ls-remote.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-ls-remote.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git ls-remote
 

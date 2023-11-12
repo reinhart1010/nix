@@ -3,16 +3,17 @@ layout: page
 title: common/vite (한국어)
 description: "Vite 프로젝트 생성합니다."
 content_hash: 47ffc6787cf70b3702ce873eea7643d3affd9a97
-last_modified_at: 2023-10-19
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/vite.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/vite.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># Vite
+# Vite
 
 Vite 프로젝트 생성합니다.
 자바스크립트 프로젝트를 빌드하는 데 사용됩니다.

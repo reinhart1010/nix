@@ -3,7 +3,8 @@ layout: page
 title: common/composer-require-checker (English)
 description: "Analyze Composer dependencies for soft dependencies."
 content_hash: 675813bb10d8a944460a104f7fe15914aa587fc4
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # composer-require-checker
 

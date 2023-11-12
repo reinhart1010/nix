@@ -3,11 +3,12 @@ layout: page
 title: windows/bcdboot (हिन्दी)
 description: "बूट फ़ाइलों को कॉन्फ़िगर या सुधारें।"
 content_hash: f434e3143a613dca0aa595ab24027fb89640971d
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/bcdboot.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bcdboot
 

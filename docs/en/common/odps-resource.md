@@ -3,6 +3,8 @@ layout: page
 title: common/odps-resource (English)
 description: "Manage resources in ODPS (Open Data Processing Service)."
 content_hash: e656a62b8dbabd5ba47b637ace4b059fc295fcb9
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # odps resource
 

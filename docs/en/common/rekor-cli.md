@@ -3,6 +3,8 @@ layout: page
 title: common/rekor-cli (English)
 description: "Immutable tamper resistant ledger of metadata generated within a software projects supply chain."
 content_hash: 787b202fb944764db35fdd164c03ce9d3e199c3e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rekor-cli
 

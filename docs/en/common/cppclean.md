@@ -3,6 +3,7 @@ layout: page
 title: common/cppclean (English)
 description: "Find unused code in C++ projects."
 content_hash: 772cebfe4e9a1bf38cd431a843cc7eb5badc0f1b
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/cppclean.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cppclean.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cppclean
 

@@ -3,10 +3,18 @@ layout: page
 title: linux/mkfs (italiano)
 description: "Costruisce un filesystem Linux su una partizione del disco rigido."
 content_hash: 5b4cbb8356b8593866cfa03404f93492e3241035
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/mkfs.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/mkfs.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/mkfs.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mkfs
 

@@ -3,7 +3,7 @@ layout: page
 title: windows/choco-search (தமிழ்)
 description: "சாக்லேட்டியுடன் உள்ளூர் அல்லது தொலைநிலைப் பொதியைத் தேடுங்கள்."
 content_hash: 6fffe27f65096f42fdeefdf95b365f0ae300f73b
-last_modified_at: 2022-12-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-search.html
@@ -11,12 +11,16 @@ related_topics:
   - title: English version
     url: /en/windows/choco-search.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/windows/choco-search.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/windows/choco-search.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/choco-search.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco search
 

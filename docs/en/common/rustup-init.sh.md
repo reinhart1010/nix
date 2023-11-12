@@ -3,11 +3,14 @@ layout: page
 title: common/rustup-init.sh (English)
 description: "Script to install `rustup` and the Rust toolchain."
 content_hash: 3126beffe167d524c7b705dc3f46fe045fa247d1
+last_modified_at: 2023-11-12
+related_topics:
+  - title: தமிழ் version
+    url: /ta/common/rustup-init.sh.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rustup-init.sh
+# rustup-init.sh
 
 Script to install `rustup` and the Rust toolchain.
 More information: <https://forge.rust-lang.org/infra/other-installation-methods.html#rustup>.

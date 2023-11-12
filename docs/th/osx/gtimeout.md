@@ -3,7 +3,7 @@ layout: page
 title: osx/gtimeout (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux timeout`"
 content_hash: 7a59a95c4810dd2fe9d24b8be44e3a75f73278af
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gtimeout.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gtimeout.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gtimeout
 

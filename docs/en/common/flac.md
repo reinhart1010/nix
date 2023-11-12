@@ -3,10 +3,12 @@ layout: page
 title: common/flac (English)
 description: "Encodes, decodes and tests FLAC files."
 content_hash: 2444aec7d287f81dc968683cc9dbb70955c50b42
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/flac.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # flac
 

@@ -3,12 +3,10 @@ layout: page
 title: common/brew-search (English)
 description: "Search for casks and formulae."
 content_hash: 906de6a58cdb0f2fd996d5d4581216fe5a47196c
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># brew search
+# brew search
 
 Search for casks and formulae.
 More information: <https://docs.brew.sh/Manpage#search--s-options-textregex->.

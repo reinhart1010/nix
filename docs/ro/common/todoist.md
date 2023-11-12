@@ -3,10 +3,15 @@ layout: page
 title: common/todoist (română)
 description: "Acest program îți permite să folosești Todoist din linia de comandă."
 content_hash: e7b576d585d15b8ca6eb51800017f0b16b01f98f
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/todoist.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/todoist.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # todoist
 

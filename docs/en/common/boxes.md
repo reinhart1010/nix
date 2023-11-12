@@ -3,12 +3,10 @@ layout: page
 title: common/boxes (English)
 description: "Draw, remove, and repair ASCII art boxes."
 content_hash: 58956e07f54e9f3f2c8827cab0b5b57474666265
-last_modified_at: 2023-05-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># boxes
+# boxes
 
 Draw, remove, and repair ASCII art boxes.
 More information: <https://boxes.thomasjensen.com>.

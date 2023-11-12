@@ -3,6 +3,12 @@ layout: page
 title: linux/st (English)
 description: "A simple terminal emulator for the X Window System."
 content_hash: 587df647508a4aadc95fb64fb803525aede3dbf8
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Indonesia version
+    url: /id/linux/st.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # st
 

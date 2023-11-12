@@ -3,7 +3,8 @@ layout: page
 title: common/tlmgr-info (English)
 description: "Show information about TeX Live packages."
 content_hash: de292b2a3c8bcafb2daa7fce8d799523d05deba9
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tlmgr info
 

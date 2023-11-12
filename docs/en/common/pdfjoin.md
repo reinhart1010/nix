@@ -3,6 +3,8 @@ layout: page
 title: common/pdfjoin (English)
 description: "PDF merging utility based on pdfjam."
 content_hash: 6298dd6db75f0a97113350a9fa59f679a818eff3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pdfjoin
 

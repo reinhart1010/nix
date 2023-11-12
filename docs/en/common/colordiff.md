@@ -3,10 +3,12 @@ layout: page
 title: common/colordiff (English)
 description: "A tool to colorize diff output."
 content_hash: 9cd8ec3da21c482d2346d20b2f2cccdb5bea118e
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/colordiff.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # colordiff
 

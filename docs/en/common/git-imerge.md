@@ -3,6 +3,7 @@ layout: page
 title: common/git-imerge (English)
 description: "Perform a merge or rebase between two Git branches incrementally."
 content_hash: 38d0424f3bc86699f60237a7d579775680655883
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/git-imerge.html
@@ -13,6 +14,10 @@ related_topics:
   - title: italiano version
     url: /it/common/git-imerge.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-imerge.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git-imerge
 

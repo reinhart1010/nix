@@ -3,7 +3,8 @@ layout: page
 title: linux/picom (English)
 description: "Standalone compositor for Xorg."
 content_hash: 4118c9daa7544ddb73cd34317288e59ce7c130a6
-last_modified_at: 2023-04-10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # picom
 

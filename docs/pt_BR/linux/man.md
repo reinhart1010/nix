@@ -3,7 +3,7 @@ layout: page
 title: linux/man (português (Brasil))
 description: "Formata e exibe páginas do manual."
 content_hash: e4f7c461cb1937ddf7f051a7103597d0b6b9dcbb
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/man.html
@@ -17,6 +17,9 @@ related_topics:
   - title: Indonesia version
     url: /id/linux/man.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/man.html
+    icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/linux/man.html
     icon: bi bi-globe
@@ -26,11 +29,9 @@ related_topics:
   - title: українська version
     url: /uk/linux/man.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># man
+# man
 
 Formata e exibe páginas do manual.
 Mais informações: <https://manned.org/man>.

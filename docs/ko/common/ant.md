@@ -3,7 +3,7 @@ layout: page
 title: common/ant (한국어)
 description: "Apache Ant."
 content_hash: aba61c444a5fdede8d937f9daf81214b71e5f338
-last_modified_at: 2023-09-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ant.html
@@ -17,11 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ant.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ant
+# ant
 
 Apache Ant.
 자바 기반 프로젝트를 빌드하고 관리하는 도구.

@@ -3,7 +3,7 @@ layout: page
 title: common/adb-install (español)
 description: "Instalación de Android Debug Bridge: Envía paquetes a una instancia del emulador de Android o a dispositivos Android conectados."
 content_hash: a79847601b16b526304f23881c8854659d2acd3c
-last_modified_at: 2023-02-13
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/adb-install.html
@@ -17,6 +17,9 @@ related_topics:
   - title: italiano version
     url: /it/common/adb-install.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/adb-install.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/adb-install.html
     icon: bi bi-globe
@@ -29,11 +32,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/adb-install.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># adb install
+# adb install
 
 Instalación de Android Debug Bridge: Envía paquetes a una instancia del emulador de Android o a dispositivos Android conectados.
 Más información: <https://developer.android.com/studio/command-line/adb>.

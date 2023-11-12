@@ -3,6 +3,7 @@ layout: page
 title: common/bower (中文)
 description: "前端 web 开发的包管理优化工具。"
 content_hash: 20463705f4aa2a7a82491f369bafba034ae172c8
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/bower.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/bower.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bower
 

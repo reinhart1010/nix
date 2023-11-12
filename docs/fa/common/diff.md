@@ -3,7 +3,7 @@ layout: page
 title: common/diff (فارسی)
 description: "مقایسه فایل(ها) و پوشه(ها)."
 content_hash: f169e8d889e42462532acaa7b7e57ab7e8c4f22c
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/diff.html
@@ -32,6 +32,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/diff.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # diff
 

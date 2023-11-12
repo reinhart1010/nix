@@ -3,16 +3,14 @@ layout: page
 title: linux/pkgctl (Nederlands)
 description: "Verenigde command-line frontend voor Arch Linux devtools."
 content_hash: 39dae78363a54f5af6a79688156978b718075183
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/pkgctl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pkgctl
+# pkgctl
 
 Verenigde command-line frontend voor Arch Linux devtools.
 Meer informatie: <https://man.archlinux.org/man/pkgctl.1>.

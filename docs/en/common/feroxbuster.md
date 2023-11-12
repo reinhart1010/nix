@@ -3,12 +3,10 @@ layout: page
 title: common/feroxbuster (English)
 description: "Simple, fast, recursive content discovery tool written in Rust."
 content_hash: dddd4a2470f69511cb2d3fb2a90f4602e8a160af
-last_modified_at: 2022-11-27
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># feroxbuster
+# feroxbuster
 
 Simple, fast, recursive content discovery tool written in Rust.
 Used to brute-force hidden paths on web servers and more.

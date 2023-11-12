@@ -3,10 +3,12 @@ layout: page
 title: linux/ldd (English)
 description: "Display shared library dependencies of a binary."
 content_hash: 7cb436d54b48721f225cfc85c450c0df66bf45bf
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/ldd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ldd
 

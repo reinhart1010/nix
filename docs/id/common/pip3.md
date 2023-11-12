@@ -3,6 +3,7 @@ layout: page
 title: common/pip3 (Indonesia)
 description: "Pengelola paket Python."
 content_hash: 1dcc3dd2dc2c5cc636c1836bc28ef34a2b27bff9
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/pip3.html
@@ -13,8 +14,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/pip3.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# pip3
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># pip3
 
 Pengelola paket Python.
 Informasi lebih lanjut: <https://pip.pypa.io>.

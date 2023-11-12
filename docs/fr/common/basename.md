@@ -3,6 +3,7 @@ layout: page
 title: common/basename (français)
 description: "Retourne la portion ne contenant pas de dossiers d'un chemin complet."
 content_hash: d38c1eabc175ac4658c8cdf12ee49e118742e166
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/basename.html
@@ -19,9 +20,13 @@ related_topics:
   - title: polski version
     url: /pl/common/basename.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/basename.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/basename.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # basename
 

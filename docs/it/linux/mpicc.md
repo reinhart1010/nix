@@ -3,12 +3,14 @@ layout: page
 title: linux/mpicc (italiano)
 description: "Involucro Open MPI per il compilatore di C."
 content_hash: 908f3f3978fc478434d0165e30afdb352e42a7c3
-last_modified_at: 2023-04-13
+last_modified_at: 2023-11-12
+related_topics:
+  - title: English version
+    url: /en/linux/mpicc.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mpicc
+# mpicc
 
 Involucro Open MPI per il compilatore di C.
 Shell che esegue sul compilatore, aggiungono i relevanti argomenti e linkers necessari a compilare/collegare programmi Open MPI, invocando il sottostante compilatore di C per effettuare le effetive operazioni.

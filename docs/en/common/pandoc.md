@@ -3,6 +3,8 @@ layout: page
 title: common/pandoc (English)
 description: "Convert documents between various formats."
 content_hash: b6e12474bf6c316bd637a5d5721c70c5f2710a38
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pandoc
 

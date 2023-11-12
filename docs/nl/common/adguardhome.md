@@ -3,7 +3,7 @@ layout: page
 title: common/adguardhome (Nederlands)
 description: "Netwerkbrede software voor het blokkeren van advertenties en tracking."
 content_hash: 4299a8035f3c95c3affd3939dba6df3671204fcd
-last_modified_at: 2023-10-19
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/adguardhome.html
@@ -17,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/adguardhome.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # AdGuardHome
 

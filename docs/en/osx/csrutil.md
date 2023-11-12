@@ -3,11 +3,15 @@ layout: page
 title: osx/csrutil (English)
 description: "Manage the System Integrity Protection configuration."
 content_hash: fcf55b9152faafc37776f4ba3121e2a474577153
-last_modified_at: 2023-02-19
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/osx/csrutil.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/osx/csrutil.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # csrutil
 

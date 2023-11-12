@@ -3,6 +3,7 @@ layout: page
 title: common/git-bisect (español)
 description: "Utiliza la búsqueda binaria para encontrar el commit que introdujo un error."
 content_hash: 9fdcc4bb8bfb0fd3d3018512d8ba16f21e055a40
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-bisect.html
@@ -19,8 +20,15 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/git-bisect.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-bisect.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# git bisect
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git bisect
 
 Utiliza la búsqueda binaria para encontrar el commit que introdujo un error.
 Git salta de un lado a otro del gráfico de commits para hasta alcanzar progresivamente el commit defectuoso.

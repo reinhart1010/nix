@@ -3,16 +3,14 @@ layout: page
 title: linux/apx-stacks (Nederlands)
 description: "Beheer stacks in `apx`."
 content_hash: 698da9b6dfc5c4c12a75a84e455ddccc57584286
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/apx-stacks.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># apx stacks
+# apx stacks
 
 Beheer stacks in `apx`.
 Let op: Door gebruikers gecreëerde pakketbeheerderconfiguraties worden opgeslagen in `~/.local/share/apx/pkgmanagers`.

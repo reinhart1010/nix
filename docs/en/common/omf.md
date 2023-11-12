@@ -3,6 +3,8 @@ layout: page
 title: common/omf (English)
 description: "Oh My Fish, the Fishshell Framework."
 content_hash: dfa40fdde293982bb1c61e5e5403c6676633d619
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # omf
 

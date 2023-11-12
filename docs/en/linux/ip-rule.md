@@ -3,6 +3,12 @@ layout: page
 title: linux/ip-rule (English)
 description: "IP routing policy database management."
 content_hash: 733fcf247bd68611c1b34a5b8e3be748f8233bd3
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Türkçe version
+    url: /tr/linux/ip-rule.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ip rule
 

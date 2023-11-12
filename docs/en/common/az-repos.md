@@ -3,7 +3,8 @@ layout: page
 title: common/az-repos (English)
 description: "Manage Azure DevOps repos."
 content_hash: 34e6794f245e6acc4d302cc0e999bc8bd3fb36c9
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # az repos
 

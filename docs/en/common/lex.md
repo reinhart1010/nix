@@ -3,7 +3,8 @@ layout: page
 title: common/lex (English)
 description: "Lexical analyzer generator."
 content_hash: f22f261ad6c19b397497eb7fc8ab26e2a632671c
-last_modified_at: 2023-04-10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lex
 

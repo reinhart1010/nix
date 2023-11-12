@@ -3,7 +3,7 @@ layout: page
 title: linux/cpuid (हिन्दी)
 description: "सभी सीपीयू के बारे में विस्तृत जानकारी दिखाएं।"
 content_hash: f1babb0852968b0f3ae7a48b4e39677dec7f511e
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/cpuid.html
@@ -20,6 +20,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/cpuid.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cpuid
 

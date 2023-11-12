@@ -3,11 +3,12 @@ layout: page
 title: common/elm (English)
 description: "Compile and run Elm source files."
 content_hash: 420d212353f8d0f87dc3baba4c0aba27f28ee4c3
-last_modified_at: 2023-09-10
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/elm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # elm
 

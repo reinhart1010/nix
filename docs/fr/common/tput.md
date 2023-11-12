@@ -3,10 +3,15 @@ layout: page
 title: common/tput (français)
 description: "Accède et modifie les paramètres du terminal."
 content_hash: 04c0a0d9abe670648b47f9f5ffeb92765eed4c3c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/tput.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/tput.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tput
 

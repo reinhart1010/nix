@@ -3,6 +3,8 @@ layout: page
 title: common/ykman (English)
 description: "The YubiKey Manager can be used to configure all aspects of the YubiKey."
 content_hash: fca1cf4ca33b4e044706188472c0117798e945b3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ykman
 

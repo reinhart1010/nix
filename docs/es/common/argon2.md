@@ -3,16 +3,14 @@ layout: page
 title: common/argon2 (español)
 description: "Calcula hashes criptográficos Argon2."
 content_hash: da4387e9c89ba7a0ce83307dad5926438c7747b7
-last_modified_at: 2023-03-02
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/argon2.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># argon2
+# argon2
 
 Calcula hashes criptográficos Argon2.
 Más información: <https://github.com/P-H-C/phc-winner-argon2#command-line-utility>.

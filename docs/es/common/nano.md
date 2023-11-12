@@ -3,6 +3,7 @@ layout: page
 title: common/nano (español)
 description: "Editor sencillo y fácil de usar. Un clon libre y mejorado de Pico."
 content_hash: 9e44497651d1dc152a56b9e7f49e6f01ab2b0467
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/nano.html
@@ -16,8 +17,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/nano.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# nano
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># nano
 
 Editor sencillo y fácil de usar. Un clon libre y mejorado de Pico.
 Más información: <https://nano-editor.org>.

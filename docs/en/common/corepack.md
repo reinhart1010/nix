@@ -3,6 +3,8 @@ layout: page
 title: common/corepack (English)
 description: "Zero-runtime-dependency package acting as bridge between Node projects and their package managers."
 content_hash: ec2a036ae79dda3f8a9a80de2d728692ac7e9708
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # corepack
 

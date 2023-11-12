@@ -3,11 +3,10 @@ layout: page
 title: common/ptpython (English)
 description: "A better Python REPL."
 content_hash: b5c8021f5c78484e01649136fd9d7883a4b54261
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ptpython
+# ptpython
 
 A better Python REPL.
 More information: <https://github.com/prompt-toolkit/ptpython>.

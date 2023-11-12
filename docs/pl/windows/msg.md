@@ -3,6 +3,7 @@ layout: page
 title: windows/msg (polski)
 description: "Wyślij wiadomość do wybranego użytnownika lub sesji."
 content_hash: b23d2ee99627465b833c0b80a1315c6f2affe066
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/msg.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/msg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # msg
 

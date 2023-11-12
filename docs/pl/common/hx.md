@@ -3,7 +3,7 @@ layout: page
 title: common/hx (polski)
 description: "To polecenie jest aliasem `helix`."
 content_hash: 20a13d3c10dd2f5b290dc7c65ebb271673ed3651
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/hx.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/hx.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # hx
 

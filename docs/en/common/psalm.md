@@ -3,6 +3,8 @@ layout: page
 title: common/psalm (English)
 description: "A static analysis tool for finding errors in PHP applications."
 content_hash: 45203cd7046a360b3dc80548bf837b8e461777b6
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # psalm
 

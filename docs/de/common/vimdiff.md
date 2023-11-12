@@ -3,6 +3,7 @@ layout: page
 title: common/vimdiff (Deutsch)
 description: "Öffne zwei oder mehr Dateien in Vim und zeige ihre Unterschiede an."
 content_hash: ce737153555a000bd614f0fa3a27669bc78bc83c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/vimdiff.html
@@ -10,11 +11,9 @@ related_topics:
   - title: español version
     url: /es/common/vimdiff.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># vimdiff
+# vimdiff
 
 Öffne zwei oder mehr Dateien in Vim und zeige ihre Unterschiede an.
 Siehe auch `vim`.

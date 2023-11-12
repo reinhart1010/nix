@@ -3,7 +3,7 @@ layout: page
 title: common/calibre-server (italiano)
 description: "Un'applicazione server che può essere usata per distribuire e-book in una rete."
 content_hash: fb463eb118f02b295560508eabef5a7f68a967ea
-last_modified_at: 2023-09-10
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/calibre-server.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/calibre-server.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # calibre-server
 

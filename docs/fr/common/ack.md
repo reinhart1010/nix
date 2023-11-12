@@ -3,9 +3,16 @@ layout: page
 title: common/ack (français)
 description: "Un outil de recherche comme grep, optimisé pour les développeurs."
 content_hash: b4218d43e06887ca87542a2a13cebbb4e152c978
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/ack.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/ack.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/ack.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ack.html
@@ -13,7 +20,10 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/ack.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: Nederlands version
+    url: /nl/common/ack.html
+    icon: bi bi-globe
+  - title: norsk version
     url: /no/common/ack.html
     icon: bi bi-globe
   - title: polski version
@@ -31,11 +41,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ack.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ack
+# ack
 
 Un outil de recherche comme grep, optimisé pour les développeurs.
 Regardez aussi : `rg`, qui est beaucoup plus rapide.

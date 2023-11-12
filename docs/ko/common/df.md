@@ -3,6 +3,7 @@ layout: page
 title: common/df (한국어)
 description: "파일 시스템 디스크 공간 사용량에 대한 개요를 제공합니다."
 content_hash: 3d1694733f6a08ed47da2df536f7db8bd57a7896
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/df.html
@@ -10,21 +11,31 @@ related_topics:
   - title: English version
     url: /en/common/df.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/df.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/df.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/df.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/df.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/df.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/df.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/df.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/df.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># df
 

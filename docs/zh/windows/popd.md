@@ -3,10 +3,12 @@ layout: page
 title: windows/popd (中文)
 description: "将当前目录切换到`pushd`命令存储的目录。"
 content_hash: 8a0b21e401b98ec01834e1b5f321918dc8df4d91
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/popd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # popd
 

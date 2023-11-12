@@ -3,6 +3,7 @@ layout: page
 title: common/git-log (中文)
 description: "查看提交历史。"
 content_hash: 15fcc8da794b13ff0b985c46c401ed2a3447b5a8
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-log.html
@@ -19,6 +20,13 @@ related_topics:
   - title: italiano version
     url: /it/common/git-log.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-log.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-log.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git log
 

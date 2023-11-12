@@ -3,7 +3,7 @@ layout: page
 title: windows/msg (English)
 description: "Send a message to a specific user or session."
 content_hash: 35c70fc6aa4c49388e56c9e526b48a1cc0e5fd28
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: polski version
     url: /pl/windows/msg.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/msg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # msg
 

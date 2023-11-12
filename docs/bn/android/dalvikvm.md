@@ -3,7 +3,7 @@ layout: page
 title: android/dalvikvm (বাংলা)
 description: "অ্যান্ড্রয়েড জাভা ভার্চুয়াল মেশিন।"
 content_hash: 4662a75b6e05e122b0c4964fcee66210fab51fc7
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/android/dalvikvm.html
@@ -62,6 +62,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/dalvikvm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dalvikvm
 

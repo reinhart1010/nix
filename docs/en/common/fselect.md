@@ -3,6 +3,8 @@ layout: page
 title: common/fselect (English)
 description: "Find files with SQL-like queries."
 content_hash: cd85fc41cd2b04e4bbf186e03f85f02e88e1cc4d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fselect
 

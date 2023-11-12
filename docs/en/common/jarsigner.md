@@ -3,11 +3,12 @@ layout: page
 title: common/jarsigner (English)
 description: "Sign and verify Java archive (JAR) files."
 content_hash: 63afb3f3519b6736e3d7da07394c4012a97f5c93
-last_modified_at: 2023-06-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/common/jarsigner.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # jarsigner
 

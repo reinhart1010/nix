@@ -3,6 +3,7 @@ layout: page
 title: common/wc (polski)
 description: "Zlicza linie, słowa, i bajty."
 content_hash: 6207bd0f4733f885258a1600a319b017c072a5f0
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/wc.html
@@ -13,9 +14,13 @@ related_topics:
   - title: français version
     url: /fr/common/wc.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/wc.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/wc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wc
 

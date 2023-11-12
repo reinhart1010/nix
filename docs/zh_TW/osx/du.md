@@ -3,10 +3,13 @@ layout: page
 title: osx/du (中文 (繁體, 台灣))
 description: "硬碟使用量：估算每個檔案以及目錄所佔用的硬碟容量。"
 content_hash: 0ead61fbbe9818ba8b13dc5f35b199df219cb23d
-last_modified_at: 2023-10-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/du.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/osx/du.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/osx/du.html
@@ -17,11 +20,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/du.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># du
+# du
 
 硬碟使用量：估算每個檔案以及目錄所佔用的硬碟容量。
 更多資訊：<https://ss64.com/osx/du.html>.

@@ -3,7 +3,8 @@ layout: page
 title: common/pbmtoascii (English)
 description: "Convert a PBM image to ASCII graphics."
 content_hash: 4e02c8f3c881a818a602d02745caa648cd4eca06
-last_modified_at: 2023-10-27
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pbmtoascii
 

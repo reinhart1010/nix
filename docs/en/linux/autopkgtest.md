@@ -3,6 +3,8 @@ layout: page
 title: linux/autopkgtest (English)
 description: "Run tests on Debian packages."
 content_hash: 9d8049cff35264a76ae6d9c1a16d436bd65ae2cf
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # autopkgtest
 

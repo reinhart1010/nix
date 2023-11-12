@@ -3,7 +3,8 @@ layout: page
 title: linux/pkgmk (English)
 description: "Make a binary package for use with pkgadd on CRUX."
 content_hash: fde01d7f2db54cc95d9daf14ea93cd7ef2c5fa64
-last_modified_at: 2023-06-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pkgmk
 

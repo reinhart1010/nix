@@ -3,11 +3,12 @@ layout: page
 title: windows/net (বাংলা)
 description: "সিস্টেম ইউটিলিটি যাতে নেটওয়ার্ক-সম্পর্কিত সেটিংস দেখা এবং পরিবর্তন করা হয়।"
 content_hash: 17dcfd988131f6df93f71d06a3924f324b6a417f
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/net.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # net
 

@@ -3,6 +3,8 @@ layout: page
 title: common/ocamlopt (English)
 description: "The OCaml native code compiler."
 content_hash: f9762eab14c6ba5677e58801e1aded83cb16c289
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ocamlopt
 

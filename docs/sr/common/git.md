@@ -3,12 +3,16 @@ layout: page
 title: common/git (српски)
 description: "Distribuirani sistem kontrole verzija."
 content_hash: 844c9f7939655575da4010ccf4a7229b208cb990
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/git.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/git.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/git.html
@@ -19,15 +23,34 @@ related_topics:
   - title: italiano version
     url: /it/common/git.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/git.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git.html
+    icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/common/git.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/git.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/git.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git.html
+    icon: bi bi-globe
   - title: українська version
     url: /uk/common/git.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/git.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git
 

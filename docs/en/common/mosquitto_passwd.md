@@ -3,6 +3,8 @@ layout: page
 title: common/mosquitto_passwd (English)
 description: "Manage password files for mosquitto."
 content_hash: 2c5150ffa867de9ba96f949e46ecbcb0fb72a2bf
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mosquitto_passwd
 

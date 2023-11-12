@@ -3,7 +3,8 @@ layout: page
 title: linux/uncompress (English)
 description: "Uncompress files compressed using the Unix `compress` command."
 content_hash: 69561e0af682e9015c544504cc92b78658aaed13
-last_modified_at: 2023-10-24
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # uncompress
 

@@ -3,10 +3,12 @@ layout: page
 title: common/calendar (português (Brasil))
 description: "Mostra eventos de um arquivo calendar."
 content_hash: 98fba375647f74ed42bc5d99309c2d77f17046ea
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/calendar.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # calendar
 

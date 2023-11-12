@@ -3,7 +3,8 @@ layout: page
 title: linux/rankmirrors (English)
 description: "Rank a list of Pacman mirrors by connection and opening speed."
 content_hash: 3dd63783ecfdca91f2b9e3ac5c9d3b4a8e5d824b
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rankmirrors
 

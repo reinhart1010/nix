@@ -3,6 +3,7 @@ layout: page
 title: linux/ip-address (Türkçe)
 description: "IP adresi yönetimi alt komutu."
 content_hash: 92bd7ef240313962bb11342ed5f6c330812d6225
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/ip-address.html
@@ -13,6 +14,7 @@ related_topics:
   - title: français version
     url: /fr/linux/ip-address.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ip address
 

@@ -3,15 +3,20 @@ layout: page
 title: common/ansible-pull (français)
 description: "Récupère les playbook ansible depuis un dépôt VCS et exécute les en local."
 content_hash: f6d2f3c4e8f11ec85d1a3e0f4626679b51af0095
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/ansible-pull.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/ansible-pull.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/ansible-pull.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ansible-pull
+# ansible-pull
 
 Récupère les playbook ansible depuis un dépôt VCS et exécute les en local.
 Plus d'informations : <https://docs.ansible.com/ansible/latest/cli/ansible-pull.html>.

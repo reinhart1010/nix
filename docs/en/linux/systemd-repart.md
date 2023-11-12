@@ -3,12 +3,10 @@ layout: page
 title: linux/systemd-repart (English)
 description: "Automatically grow and add partitions."
 content_hash: 4fe0f329ab85890eda364c1d9020e3e5d8452799
-last_modified_at: 2023-10-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># systemd-repart
+# systemd-repart
 
 Automatically grow and add partitions.
 Grows and adds partitions based on the configuration files described in repart.d.

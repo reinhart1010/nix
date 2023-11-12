@@ -3,6 +3,8 @@ layout: page
 title: common/ncc (English)
 description: "Compile a Node.js application into a single file."
 content_hash: e427425d405753fa2e204dbc008e6ab81d4196e6
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ncc
 

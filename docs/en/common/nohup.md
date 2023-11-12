@@ -3,6 +3,7 @@ layout: page
 title: common/nohup (English)
 description: "Allows for a process to live when the terminal gets killed."
 content_hash: 4af6cb649c9983d28becd8df3832cc1976754570
+last_modified_at: 2023-11-12
 related_topics:
   - title: فارسی version
     url: /fa/common/nohup.html
@@ -13,6 +14,10 @@ related_topics:
   - title: svenska version
     url: /sv/common/nohup.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/nohup.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nohup
 

@@ -3,6 +3,8 @@ layout: page
 title: common/git-info (English)
 description: "Display Git repository information."
 content_hash: d11a0325e6437482a3e4c125fc42842aac53f420
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git info
 

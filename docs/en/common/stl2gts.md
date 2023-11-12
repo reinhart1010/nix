@@ -3,6 +3,8 @@ layout: page
 title: common/stl2gts (English)
 description: "Convert STL files into the GTS (GNU triangulated surface library) file format."
 content_hash: 59b9681c3a3970d9647652919c83199cf3ea8506
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # stl2gts
 

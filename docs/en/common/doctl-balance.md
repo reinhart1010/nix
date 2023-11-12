@@ -3,6 +3,8 @@ layout: page
 title: common/doctl-balance (English)
 description: "Show the balance of a Digital Ocean account."
 content_hash: 28aeb779b2fece51f81f13211dfe3dc0367f6742
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # doctl balance
 

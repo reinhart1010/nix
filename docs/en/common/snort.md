@@ -3,7 +3,8 @@ layout: page
 title: common/snort (English)
 description: "Open-source network intrusion detection system."
 content_hash: 053295de4125a68f43361ae8dab08e88006cac63
-last_modified_at: 2023-04-10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # snort
 

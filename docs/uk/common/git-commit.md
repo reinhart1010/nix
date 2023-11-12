@@ -3,6 +3,7 @@ layout: page
 title: common/git-commit (українська)
 description: "Комітить файли до репозиторію."
 content_hash: bc9a82848944cc6ba76436895a7bfd6c0bf59cb5
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-commit.html
@@ -22,9 +23,19 @@ related_topics:
   - title: italiano version
     url: /it/common/git-commit.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/git-commit.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-commit.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-commit.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-commit.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git commit
 

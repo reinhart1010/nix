@@ -3,6 +3,8 @@ layout: page
 title: common/jtbl (English)
 description: "Utility to print JSON and JSON Lines data as a table in the terminal."
 content_hash: e1c384063ca4a67c701f17e10a3944e859dc5c7f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # jtbl
 

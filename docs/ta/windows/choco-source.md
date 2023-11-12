@@ -3,13 +3,16 @@ layout: page
 title: windows/choco-source (தமிழ்)
 description: "சாக்லேட்டி மூலம் தொகுப்புகளுக்கான ஆதாரங்களை நிர்வகிக்கவும்."
 content_hash: 7420d53125b78131116a7525beffc713c40151df
-last_modified_at: 2022-12-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-source.html
     icon: bi bi-globe
   - title: English version
     url: /en/windows/choco-source.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/choco-source.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/windows/choco-source.html
@@ -20,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/choco-source.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco source
 

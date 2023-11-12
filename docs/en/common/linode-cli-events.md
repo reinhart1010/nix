@@ -3,7 +3,8 @@ layout: page
 title: common/linode-cli-events (English)
 description: "Manage Linode events."
 content_hash: 6a3c3fe2cc3698bad07e7eb27873dcd90d73272d
-last_modified_at: 2023-09-17
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # linode-cli events
 

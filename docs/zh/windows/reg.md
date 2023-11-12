@@ -3,10 +3,12 @@ layout: page
 title: windows/reg (中文)
 description: "用于在 Windows 注册表中管理键及其值的命令行界面。"
 content_hash: 40a03eaa3a4f0cd53b439ecc03c11cfe8f9ba269
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/reg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # reg
 

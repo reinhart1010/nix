@@ -3,6 +3,8 @@ layout: page
 title: common/inkmake (English)
 description: "GNU Makefile-style SVG exporting using Inkscape's backend."
 content_hash: 225646a433854b2c4df72135a5098a0b8479d6b2
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # inkmake
 

@@ -3,7 +3,7 @@ layout: page
 title: common/du (中文 (繁體, 台灣))
 description: "硬碟使用量：估算每個檔案以及目錄所佔用的硬碟容量。"
 content_hash: 54876d24bc923fae87e88ff16a2106d482269e99
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/du.html
@@ -26,6 +26,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/du.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # du
 

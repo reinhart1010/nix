@@ -3,12 +3,14 @@ layout: page
 title: linux/unsquashfs (polski)
 description: "Dekompresuj, rozpakuj i wyświetl listę plików w systemach plików squashfs."
 content_hash: 8669f573a9611fe9cbb46b0e2be47002849e9082
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
+related_topics:
+  - title: English version
+    url: /en/linux/unsquashfs.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># unsquashfs
+# unsquashfs
 
 Dekompresuj, rozpakuj i wyświetl listę plików w systemach plików squashfs.
 Więcej informacji: <https://manned.org/unsquashfs>.

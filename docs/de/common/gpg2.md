@@ -3,6 +3,7 @@ layout: page
 title: common/gpg2 (Deutsch)
 description: "GNU Privacy Guard 2."
 content_hash: 0b853e1c18bce646c4b42be61676b18ff1481551
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/gpg2.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/gpg2.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gpg2
 

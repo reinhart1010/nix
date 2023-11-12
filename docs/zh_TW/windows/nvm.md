@@ -3,10 +3,18 @@ layout: page
 title: windows/nvm (中文 (繁體, 台灣))
 description: "安裝、解除安裝，或切換不同 Node.js 版本。"
 content_hash: f98a4beefb422ad62d936aa24e3d6376dbfbb0ef
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/nvm.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/windows/nvm.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/windows/nvm.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.

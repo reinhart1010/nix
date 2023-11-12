@@ -3,16 +3,14 @@ layout: page
 title: osx/xcrun (español)
 description: "Ejecuta o localiza herramientas de desarrollo y propiedades."
 content_hash: 928f99e2ec98799f1a367a7ba585c0c7ed2aadb6
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/xcrun.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># xcrun
+# xcrun
 
 Ejecuta o localiza herramientas de desarrollo y propiedades.
 Más información: <https://www.unix.com/man-page/osx/1/xcrun/>.

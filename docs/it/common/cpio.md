@@ -3,6 +3,7 @@ layout: page
 title: common/cpio (italiano)
 description: "Copia file da/a archivi."
 content_hash: a5a9050194788f74e8af7a82f477e6f52c70e6ba
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/cpio.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cpio.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cpio
 

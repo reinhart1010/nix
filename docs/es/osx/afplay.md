@@ -3,6 +3,7 @@ layout: page
 title: osx/afplay (español)
 description: "Reproductor de audio de línea de comandos."
 content_hash: 2c2d6f8290dbb3f731557cf426166a92a6bb1467
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/afplay.html
@@ -10,6 +11,10 @@ related_topics:
   - title: italiano version
     url: /it/osx/afplay.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/afplay.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # afplay
 

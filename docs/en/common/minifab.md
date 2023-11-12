@@ -3,11 +3,12 @@ layout: page
 title: common/minifab (English)
 description: "Utility tool that automates the setup and deployment of Hyperledger Fabric networks."
 content_hash: 34762c42ce688d7110fe960969f5149b250208b9
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/minifab.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # minifab
 

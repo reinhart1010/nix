@@ -3,7 +3,8 @@ layout: page
 title: common/montage (English)
 description: "Tiles images into a customizable grid."
 content_hash: 975feae859c6ea0cecadd7882de8f041bcf95724
-last_modified_at: 2023-10-05
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # montage
 

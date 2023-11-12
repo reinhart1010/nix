@@ -3,7 +3,7 @@ layout: page
 title: common/autopep8 (español)
 description: "Formatea el código Python según la guía de estilo PEP 8."
 content_hash: 25facfe8e3d4f774f4ff1684c306a74e85811cac
-last_modified_at: 2023-04-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/autopep8.html
@@ -14,11 +14,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/autopep8.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># autopep8
+# autopep8
 
 Formatea el código Python según la guía de estilo PEP 8.
 Más información: <https://github.com/hhatto/autopep8>.

@@ -3,6 +3,7 @@ layout: page
 title: linux/dmesg (español)
 description: "Escribe los mensajes del núcleo a la salida estándar."
 content_hash: d2698f50dad9fa68fc8b4a5e40063b329c3c4ab2
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/dmesg.html
@@ -13,9 +14,13 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/dmesg.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/dmesg.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/dmesg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dmesg
 

@@ -3,11 +3,12 @@ layout: page
 title: common/terraform-fmt (Deutsch)
 description: "Formatierung der Konfiguration gemäß den Konventionen der Terraform-Sprache."
 content_hash: d22d7acd9cd7b0d7fbfab0fc762cd8d89da877f8
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/terraform-fmt.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # terraform fmt
 

@@ -3,7 +3,7 @@ layout: page
 title: osx/gsum (polski)
 description: "To polecenie jest aliasem `-p linux sum`."
 content_hash: 3e5a084556b1342166337ea03d7165f580904c01
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gsum.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gsum.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gsum
 

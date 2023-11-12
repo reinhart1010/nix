@@ -3,6 +3,8 @@ layout: page
 title: common/ogr2ogr (English)
 description: "Convert geospatial vector data between file formats."
 content_hash: e6d7e3483dde31d8f148e081a5cba0ff6f4bddf0
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ogr2ogr
 

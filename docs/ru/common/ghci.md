@@ -3,10 +3,12 @@ layout: page
 title: common/ghci (русский)
 description: "Интерактивная среда Glasgow Haskell Compiler."
 content_hash: b0aa0e41359ae1f0c9ebd4692850c9cad06cf7e4
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ghci.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ghci
 

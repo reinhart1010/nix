@@ -3,16 +3,17 @@ layout: page
 title: common/virsh-undefine (português (Brasil))
 description: "Excluir uma máquina virtual."
 content_hash: 484204cefdbadd528da8e66190063122df386c47
-last_modified_at: 2023-09-18
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/virsh-undefine.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/virsh-undefine.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># virsh-undefine
+# virsh-undefine
 
 Excluir uma máquina virtual.
 Mais informações: <https://manned.org/virsh>.

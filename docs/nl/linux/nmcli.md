@@ -3,7 +3,7 @@ layout: page
 title: linux/nmcli (Nederlands)
 description: "Beheer de netwerk configuratie via NetworkManager."
 content_hash: 4c45301838c4b960dce682f62f346fcbbba7d2be
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/nmcli.html
@@ -14,11 +14,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/nmcli.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># nmcli
+# nmcli
 
 Beheer de netwerk configuratie via NetworkManager.
 Meer informatie: <https://networkmanager.dev/docs/api/latest/nmcli.html>.

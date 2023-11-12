@@ -3,12 +3,10 @@ layout: page
 title: common/nix3-shell (English)
 description: "Start a shell in which the specified packages are available."
 content_hash: af21f2c3f0fe6f90b5df2b6d4713ce057db54161
-last_modified_at: 2023-04-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># nix shell
+# nix shell
 
 Start a shell in which the specified packages are available.
 See also: `tldr nix-shell`. See `tldr nix3 flake` for information about flakes.

@@ -3,10 +3,12 @@ layout: page
 title: linux/numlockx (English)
 description: "Control the number lock key status in X11 sessions."
 content_hash: 3351652ff9006c137d7ce7da94e932ca6a33215d
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/numlockx.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # numlockx
 

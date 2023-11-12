@@ -3,7 +3,7 @@ layout: page
 title: sunos/devfsadm (русский)
 description: "Команда администрирования для `/dev`. Поддерживает пространство имен `/dev`."
 content_hash: 507a3f0909ed555aaf095d91b606f61c0eb836d5
-last_modified_at: 2022-12-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/sunos/devfsadm.html
@@ -20,11 +20,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/sunos/devfsadm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># devfsadm
+# devfsadm
 
 Команда администрирования для `/dev`. Поддерживает пространство имен `/dev`.
 Больше информации: <https://www.unix.com/man-page/sunos/1m/devfsadm>.

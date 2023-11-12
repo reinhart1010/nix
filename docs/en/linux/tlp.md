@@ -3,6 +3,8 @@ layout: page
 title: linux/tlp (English)
 description: "Advanced power management for Linux."
 content_hash: e5a2bf6472187dd4d2013183228ee15578868866
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tlp
 

@@ -3,12 +3,19 @@ layout: page
 title: common/alacritty (中文)
 description: "跨平台，GPU 加速的终端模拟器。"
 content_hash: 2d20fdbb554530be4bcdba8010912d1cc9ba9a8d
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/alacritty.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/alacritty.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/alacritty.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/alacritty.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/alacritty.html
@@ -19,9 +26,16 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/alacritty.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/alacritty.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/alacritty.html
     icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/common/alacritty.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # alacritty
 

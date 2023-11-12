@@ -3,6 +3,8 @@ layout: page
 title: common/git-reauthor (English)
 description: "Change details about an author identity. Since this command rewrites the Git history, `--force` will be needed when pushing next time."
 content_hash: b77ac3e96b97b58b83abfe6d6d03398ca2207753
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git reauthor
 

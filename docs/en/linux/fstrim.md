@@ -3,6 +3,8 @@ layout: page
 title: linux/fstrim (English)
 description: "Discard unused blocks on a mounted filesystem."
 content_hash: e607e0bd2d287f32283095cd39389c3bd6f53015
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fstrim
 

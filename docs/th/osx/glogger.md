@@ -3,7 +3,7 @@ layout: page
 title: osx/glogger (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux logger`"
 content_hash: 98227b70794329d8039b8f1707964e18e281e39c
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/glogger.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/glogger.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # glogger
 

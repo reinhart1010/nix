@@ -3,7 +3,7 @@ layout: page
 title: linux/top (中文 (繁體, 台灣))
 description: "即時顯示系統執行程序的資訊。"
 content_hash: e4c694dabe7423aaf0398ca3aa6a7a2b26c09c0a
-last_modified_at: 2023-10-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/top.html
@@ -17,11 +17,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/top.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># top
+# top
 
 即時顯示系統執行程序的資訊。
 更多資訊：<https://manned.org/top>.

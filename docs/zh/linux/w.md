@@ -3,10 +3,15 @@ layout: page
 title: linux/w (中文)
 description: "显示登录者及其进程。"
 content_hash: e98b146e6f886f71f358e0e5a40aab6a7e841793
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/w.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/linux/w.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # w
 

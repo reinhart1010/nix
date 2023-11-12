@@ -3,10 +3,13 @@ layout: page
 title: common/az (français)
 description: "La CLI officielle de Microsoft Azure."
 content_hash: 7671e2f83a37761776451cb9de549b8710666bb9
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/az.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/az.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/az.html
@@ -20,6 +23,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/az.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # az
 

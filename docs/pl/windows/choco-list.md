@@ -3,6 +3,7 @@ layout: page
 title: windows/choco-list (polski)
 description: "Wyświetlanie listy pakietów Chocolatey."
 content_hash: 8e024ed7bb294615d346dce4512143d75716dd8b
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-list.html
@@ -19,11 +20,9 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/choco-list.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># choco list
+# choco list
 
 Wyświetlanie listy pakietów Chocolatey.
 Więcej informacji: <https://chocolatey.org/docs/commands-list>.

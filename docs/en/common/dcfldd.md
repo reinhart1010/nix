@@ -3,6 +3,8 @@ layout: page
 title: common/dcfldd (English)
 description: "Enhanced version of dd for forensics and security."
 content_hash: e0ba8b242d55f80990b0a8f4b56454287778756b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dcfldd
 

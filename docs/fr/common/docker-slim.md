@@ -3,7 +3,7 @@ layout: page
 title: common/docker-slim (français)
 description: "Analyser et optimiser les images Docker."
 content_hash: 1f728d0ecec8075b0aa66a0746683fac8a65cea0
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-slim.html
@@ -11,6 +11,10 @@ related_topics:
   - title: English version
     url: /en/common/docker-slim.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/docker-slim.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker-slim
 

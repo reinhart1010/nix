@@ -3,6 +3,7 @@ layout: page
 title: linux/cal (தமிழ்)
 description: "தற்போதைய நாள் தனிப்படுத்தப்பட்ட காலண்டர் தகவலை அச்சிடுகிறது."
 content_hash: f6ec32170869b4b0fbcc8c3d832b88264fc2e49d
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/cal.html
@@ -16,6 +17,9 @@ related_topics:
   - title: español version
     url: /es/linux/cal.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/cal.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/cal.html
     icon: bi bi-globe
@@ -25,6 +29,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/cal.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cal
 

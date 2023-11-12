@@ -3,7 +3,7 @@ layout: page
 title: common/wc (한국어)
 description: "줄 단어 및 바이트 수 계산."
 content_hash: 149fc64647ffa43f7bc5370214891292d31e3f5a
-last_modified_at: 2023-10-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/wc.html
@@ -20,11 +20,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/wc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># wc
+# wc
 
 줄 단어 및 바이트 수 계산.
 더 많은 정보: <https://www.gnu.org/software/coreutils/wc>.

@@ -1,8 +1,9 @@
 ---
 layout: page
-title: common/logname (norsk bokmål (Norge))
+title: common/logname (norsk)
 description: "Viser brukerens login navn."
 content_hash: 401bf54ff42895f530d17deff1c7ee45400cf03f
+last_modified_at: 2023-11-12
 related_topics:
   - title: bosanski version
     url: /bs/common/logname.html
@@ -19,6 +20,7 @@ related_topics:
   - title: svenska version
     url: /sv/common/logname.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # logname
 

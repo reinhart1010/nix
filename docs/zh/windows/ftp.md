@@ -3,10 +3,18 @@ layout: page
 title: windows/ftp (中文)
 description: "在本地和远程 FTP 服务器之间交互式传输文件。"
 content_hash: 0287a89affa171725754f5f586b33c513bbf41a2
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/windows/ftp.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/ftp.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/ftp.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ftp
 

@@ -3,10 +3,12 @@ layout: page
 title: windows/reg-delete (English)
 description: "Delete keys or their values from the registry."
 content_hash: adc201eda298771b53638c4968304c9a642060e8
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/windows/reg-delete.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # reg delete
 

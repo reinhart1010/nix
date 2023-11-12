@@ -3,7 +3,7 @@ layout: page
 title: common/cargo-build (português (Brasil))
 description: "Compila um projeto Rust em um pacote local incluindo todas as suas dependências."
 content_hash: 30495deec2ca2bec6cf31a64321d12c8d4951688
-last_modified_at: 2023-08-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/cargo-build.html
@@ -11,11 +11,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/cargo-build.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cargo build
+# cargo build
 
 Compila um projeto Rust em um pacote local incluindo todas as suas dependências.
 Mais informações: <https://doc.rust-lang.org/cargo/commands/cargo-build.html>.

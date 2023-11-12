@@ -3,10 +3,15 @@ layout: page
 title: linux/btrfs-restore (English)
 description: "Try to salvage files from a damaged btrfs filesystem."
 content_hash: 8afaa02960fe6daa7f7aea792125825d959bb7dd
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/linux/btrfs-restore.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/btrfs-restore.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # btrfs restore
 

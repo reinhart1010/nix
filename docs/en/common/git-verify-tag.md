@@ -3,6 +3,8 @@ layout: page
 title: common/git-verify-tag (English)
 description: "Check for GPG verification of tags."
 content_hash: 4069655cfa5bee8e554772a4c9ba83d0879c7e51
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git verify-tag
 

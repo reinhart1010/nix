@@ -3,6 +3,8 @@ layout: page
 title: linux/pactree (English)
 description: "Package dependency tree viewer for pacman."
 content_hash: ff572b853933a2db63158042c2795af7930a99c2
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pactree
 

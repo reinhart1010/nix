@@ -3,6 +3,7 @@ layout: page
 title: common/bower (한국어)
 description: "front-end 웹 개발에 최적화된 패키지 관리자. 패키지는 GitHub 사용자/reop 요약, Git의 엔드포인트, URL 혹은 등록된 패키지일 수 있습니다."
 content_hash: 9cd4528dc9632943624a9633d1cfaa740de25b63
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/bower.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/bower.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bower
 

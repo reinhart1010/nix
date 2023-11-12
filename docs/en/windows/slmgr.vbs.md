@@ -3,7 +3,8 @@ layout: page
 title: windows/slmgr.vbs (English)
 description: "Install, activate, and manage Windows licenses."
 content_hash: b01b5d4f8c6b3cd973c2c6c87c49a1576b872277
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # slmgr.vbs
 

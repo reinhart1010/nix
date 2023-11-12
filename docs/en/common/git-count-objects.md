@@ -3,6 +3,12 @@ layout: page
 title: common/git-count-objects (English)
 description: "Count the number of unpacked objects and their disk consumption."
 content_hash: 9b77716c15e93737464c9620290829330dcd0ceb
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Türkçe version
+    url: /tr/common/git-count-objects.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git count-objects
 

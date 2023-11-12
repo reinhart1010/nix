@@ -3,10 +3,12 @@ layout: page
 title: common/git-count-objects (Türkçe)
 description: "Paketlenmemiş cisimlerin miktarını ve disk tüketimlerini hesapla."
 content_hash: 5d3252661b893d5c0e3c9d4f1363c08f802ad446
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-count-objects.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git count-objects
 

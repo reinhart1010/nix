@@ -3,6 +3,8 @@ layout: page
 title: common/lein (English)
 description: "Manage Clojure projects with declarative configuration."
 content_hash: 51222bac28b07dc068863cb5789c757678ecaa84
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lein
 

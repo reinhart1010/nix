@@ -3,7 +3,7 @@ layout: page
 title: common/git-init (português (Brasil))
 description: "Inicializa um novo repositório Git local."
 content_hash: 07df12c912e0d0578e9241ab03856dc2c0604b9a
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-init.html
@@ -26,11 +26,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-init.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git init
+# git init
 
 Inicializa um novo repositório Git local.
 Mais informações: <https://git-scm.com/docs/git-init>.

@@ -3,7 +3,7 @@ layout: page
 title: android/pm (Nederlands)
 description: "Toon informatie over apps op een Android-apparaat."
 content_hash: 91c5a8153406032fab322507dec245055a4f6c9c
-last_modified_at: 2023-11-02
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/pm.html
@@ -56,11 +56,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/pm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pm
+# pm
 
 Toon informatie over apps op een Android-apparaat.
 Meer informatie: <https://developer.android.com/studio/command-line/adb#pm>.

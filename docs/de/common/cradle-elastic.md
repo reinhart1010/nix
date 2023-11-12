@@ -3,6 +3,7 @@ layout: page
 title: common/cradle-elastic (Deutsch)
 description: "Verwalte ElasticSearch Instanzen einer Cradle Instanz."
 content_hash: 5ef640928b8190f72654c5d36441457c1e9269cf
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/cradle-elastic.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cradle-elastic.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cradle elastic
 

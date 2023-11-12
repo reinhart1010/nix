@@ -3,6 +3,8 @@ layout: page
 title: common/tsc (English)
 description: "TypeScript compiler."
 content_hash: ac5dd7ef37b501755fc0d35f6b34612583402eff
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tsc
 

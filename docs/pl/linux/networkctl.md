@@ -3,12 +3,14 @@ layout: page
 title: linux/networkctl (polski)
 description: "Zapytaj o stan łączy sieciowych."
 content_hash: 86b35001c2bb668c0c5cf7dfe924ce0fc8885229
-last_modified_at: 2023-04-23
+last_modified_at: 2023-11-12
+related_topics:
+  - title: English version
+    url: /en/linux/networkctl.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># networkctl
+# networkctl
 
 Zapytaj o stan łączy sieciowych.
 Zarządzaj konfiguracją sieci za pomocą `systemd-networkd`.

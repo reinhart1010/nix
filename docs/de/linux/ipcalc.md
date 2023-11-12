@@ -3,10 +3,12 @@ layout: page
 title: linux/ipcalc (Deutsch)
 description: "Einfache Operationen und Berechnungen mit IP-Adressen und Netzwerken durchführen."
 content_hash: 2a78e7534040212374a1a26a2fb619874c0cc211
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/ipcalc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ipcalc
 

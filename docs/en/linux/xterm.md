@@ -3,10 +3,15 @@ layout: page
 title: linux/xterm (English)
 description: "A terminal emulator for the X Window System."
 content_hash: 54546a64f18b00492423c05d4b8852488aae183a
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Indonesia version
+    url: /id/linux/xterm.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/xterm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xterm
 

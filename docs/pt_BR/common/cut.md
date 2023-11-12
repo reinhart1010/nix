@@ -3,7 +3,7 @@ layout: page
 title: common/cut (português (Brasil))
 description: "Recorta campos do `stdin` ou de arquivos."
 content_hash: d27c2c9aa3e4b9a7e959e7c04f6037d0d0de215f
-last_modified_at: 2023-10-22
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/cut.html
@@ -23,6 +23,7 @@ related_topics:
   - title: русский version
     url: /ru/common/cut.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cut
 

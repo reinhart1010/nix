@@ -3,8 +3,11 @@ layout: page
 title: common/arp (한국어)
 description: "시스템의 ARP 캐시 표시 및 조작."
 content_hash: 3a31c69a1402f00412bf17e3286be1ddc3aadcfb
-last_modified_at: 2023-04-10
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/arp.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/arp.html
     icon: bi bi-globe
@@ -26,6 +29,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/arp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # arp
 

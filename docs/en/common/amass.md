@@ -3,8 +3,11 @@ layout: page
 title: common/amass (English)
 description: "In-depth Attack Surface Mapping and Asset Discovery tool."
 content_hash: ee51f2420c838643de4da84e7f5a9fa0b25356d8
-last_modified_at: 2023-01-04
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/common/amass.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/amass.html
     icon: bi bi-globe
@@ -14,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/amass.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # amass
 

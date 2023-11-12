@@ -3,7 +3,8 @@ layout: page
 title: common/whisper (English)
 description: "Convert audio files to `txt`, `vtt`, `srt`, `tsv` and `json`."
 content_hash: a1fde2f0b95449e0625768a9bbf9daca6c7da031
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # whisper
 

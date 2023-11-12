@@ -3,7 +3,7 @@ layout: page
 title: common/git-merge (English)
 description: "Merge branches."
 content_hash: e3a06d255fe6cfa7f9ced906620f35ae730755d8
-last_modified_at: 2023-05-19
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/git-merge.html
@@ -20,6 +20,7 @@ related_topics:
   - title: українська version
     url: /uk/common/git-merge.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git merge
 

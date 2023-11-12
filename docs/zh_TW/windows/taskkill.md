@@ -3,6 +3,7 @@ layout: page
 title: windows/taskkill (中文 (繁體, 台灣))
 description: "經由處理程序識別碼 (PID) 或映像名稱終止程序。"
 content_hash: a4880bbffe02a77f1761840f66637d823d189136
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/taskkill.html
@@ -10,11 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/taskkill.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># taskkill
+# taskkill
 
 經由處理程序識別碼 (PID) 或映像名稱終止程序。
 更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/taskkill>.

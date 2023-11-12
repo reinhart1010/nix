@@ -3,7 +3,7 @@ layout: page
 title: linux/cc (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `gcc`"
 content_hash: 86d80a6bfd9e88907d2aab45a97b0665e7a73a47
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/linux/cc.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/linux/cc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cc
 

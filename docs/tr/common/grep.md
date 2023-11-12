@@ -3,7 +3,7 @@ layout: page
 title: common/grep (Türkçe)
 description: "Düzenli ifadeler (Regex) kullanarak dosyalardaki kalıpları bul."
 content_hash: a89134f87e13e9f1aad5c7ea0ae94d1850a80bec
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/grep.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/grep.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/grep.html
@@ -32,6 +35,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/grep.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # grep
 

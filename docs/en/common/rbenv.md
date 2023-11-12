@@ -3,6 +3,7 @@ layout: page
 title: common/rbenv (English)
 description: "A tool to easily install Ruby versions and manage application environments."
 content_hash: eb925338c133ef7fd81756a5b0125b0f521a5843
+last_modified_at: 2023-11-12
 related_topics:
   - title: Indonesia version
     url: /id/common/rbenv.html
@@ -10,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/rbenv.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rbenv
 

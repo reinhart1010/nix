@@ -3,8 +3,11 @@ layout: page
 title: common/7za (فارسی)
 description: "بایگانی کننده فایل با ضریب فشرده سازی بالا."
 content_hash: d2a4264d6d12a9c2093bf0418ae64dada07603f5
-last_modified_at: 2023-09-14
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/7za.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/7za.html
     icon: bi bi-globe
@@ -16,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/7za.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/common/7za.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/7za.html
@@ -47,11 +53,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/7za.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># 7za
+# 7za
 
 بایگانی کننده فایل با ضریب فشرده سازی بالا.
 مشابه `7z` با قابلیت پشتیبانی از انواع فایل کمتر ولی قابلیت پشتیبانی از چندین سیستم عامل.

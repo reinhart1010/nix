@@ -3,6 +3,8 @@ layout: page
 title: linux/woeusb (English)
 description: "Windows media creation tool."
 content_hash: 90699d30ab2fe6fdf2000b87f3c0c4254654e607
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # woeusb
 

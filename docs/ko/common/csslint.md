@@ -3,6 +3,7 @@ layout: page
 title: common/csslint (한국어)
 description: "CSS 코드용 린터."
 content_hash: 4ed6b83b3657166ebb0924b280afe2c7b9cbcf26
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/csslint.html
@@ -13,6 +14,7 @@ related_topics:
   - title: polski version
     url: /pl/common/csslint.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # csslint
 

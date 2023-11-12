@@ -3,12 +3,10 @@ layout: page
 title: common/holehe (English)
 description: "Holehe checks if an email is attached to an account on sites like Twitter, Instagram, Imgur and over 120 others."
 content_hash: 4513112b1dee2b855decd8e86e3c394bcd60ed9b
-last_modified_at: 2023-01-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># holehe
+# holehe
 
 Holehe checks if an email is attached to an account on sites like Twitter, Instagram, Imgur and over 120 others.
 More information: <https://github.com/megadose/holehe#-cli-example>.

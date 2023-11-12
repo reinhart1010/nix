@@ -3,18 +3,23 @@ layout: page
 title: linux/uname (മലയാളം)
 description: "ഈ യൂട്ടിലിറ്റി നിങ്ങളുടെ മെഷീൻ അഥവാ ഓപ്പറേറ്റിംഗ് സിസ്റ്റം വിവരങ്ങൾ പ്രിന്റ് ചെയ്യിക്കുന്നു."
 content_hash: ceaa00772163ceeeaa979cb216cdd9e482bfb773
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/uname.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/linux/uname.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/uname.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/uname.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># uname
+# uname
 
 ഈ യൂട്ടിലിറ്റി നിങ്ങളുടെ മെഷീൻ അഥവാ ഓപ്പറേറ്റിംഗ് സിസ്റ്റം വിവരങ്ങൾ പ്രിന്റ് ചെയ്യിക്കുന്നു.
 കൂടുതൽ വിവരങ്ങൾ: <https://www.gnu.org/software/coreutils/manual/html_node/uname-invocation.html>.

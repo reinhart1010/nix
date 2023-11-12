@@ -3,6 +3,7 @@ layout: page
 title: common/users (فارسی)
 description: "نمایش لیست کاربران لاگین شده."
 content_hash: 5e2ed1c018e02b3abb841b6d3612f47936ddd82a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/users.html
@@ -10,6 +11,7 @@ related_topics:
   - title: svenska version
     url: /sv/common/users.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # users
 

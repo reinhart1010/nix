@@ -3,7 +3,7 @@ layout: page
 title: linux/cpulimit (English)
 description: "A tool to throttle the CPU usage of other processes."
 content_hash: 2ac97794def71695404b3655e35d35285c0ca9c0
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/cpulimit.html
@@ -11,6 +11,7 @@ related_topics:
   - title: español version
     url: /es/linux/cpulimit.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cpulimit
 

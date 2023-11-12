@@ -3,6 +3,7 @@ layout: page
 title: common/dirs (Türkçe)
 description: "Dizin yığını görüntüler veya üzerinde oynama yapar."
 content_hash: 72e5adfab27f07a9a23e9cd6055f2ecc8b0747d9
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/dirs.html
@@ -16,6 +17,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/dirs.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dirs
 

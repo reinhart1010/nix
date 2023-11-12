@@ -3,6 +3,8 @@ layout: page
 title: common/openssl-dgst (English)
 description: "OpenSSL command to generate digest values and perform signature operations."
 content_hash: 0c116599121243f3651007de16a3db949b17811d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # openssl dgst
 

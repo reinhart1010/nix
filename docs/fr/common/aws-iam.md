@@ -3,6 +3,7 @@ layout: page
 title: common/aws-iam (français)
 description: "CLI pour AWS IAM."
 content_hash: 13230e8ad5f3a93404f3d7889aa699e497aa5b41
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-iam.html
@@ -10,11 +11,15 @@ related_topics:
   - title: English version
     url: /en/common/aws-iam.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/aws-iam.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/aws-iam.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws iam
+# aws iam
 
 CLI pour AWS IAM.
 Plus d'informations : <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/iam/index.html>.

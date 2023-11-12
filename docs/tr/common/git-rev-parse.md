@@ -3,6 +3,7 @@ layout: page
 title: common/git-rev-parse (Türkçe)
 description: "Belirtilen sürümler için metaveri görüntüle."
 content_hash: 1e8a53c724130b49fffa63f1d725e2481c296cc9
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-rev-parse.html
@@ -16,6 +17,7 @@ related_topics:
   - title: italiano version
     url: /it/common/git-rev-parse.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git rev-parse
 

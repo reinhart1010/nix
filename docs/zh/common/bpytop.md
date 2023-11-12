@@ -3,12 +3,20 @@ layout: page
 title: common/bpytop (中文)
 description: "用图形显示有关正在运行的进程的动态实时信息。类似于 `gtop` 和 `htop`."
 content_hash: 956dfb839a2481dd619a6dbab6b8894d9b4a0a26
-last_modified_at: 2023-06-30
+last_modified_at: 2023-11-12
+related_topics:
+  - title: català version
+    url: /ca/common/bpytop.html
+    icon: bi bi-globe
+  - title: English version
+    url: /en/common/bpytop.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/bpytop.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bpytop
+# bpytop
 
 用图形显示有关正在运行的进程的动态实时信息。类似于 `gtop` 和 `htop`.
 更多信息：<https://github.com/aristocratos/bpytop>.

@@ -3,7 +3,8 @@ layout: page
 title: linux/qm-disk-move (English)
 description: "Move a virtual disk from one storage to another within the same Proxmox cluster."
 content_hash: 768849f528d948a15f18d6b57e4efcacba1154bc
-last_modified_at: 2023-07-25
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # qm disk move
 

@@ -3,6 +3,7 @@ layout: page
 title: common/deluged (한국어)
 description: "Deluge BitTorrent 클라이언트를 위한 데몬 프로세스."
 content_hash: ea9788f550f8e635a17e31cc777180ab86d600a5
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/deluged.html
@@ -13,6 +14,7 @@ related_topics:
   - title: italiano version
     url: /it/common/deluged.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # deluged
 

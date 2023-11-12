@@ -3,7 +3,8 @@ layout: page
 title: linux/systemd-sysext (English)
 description: "Activate or deactivate system extension images."
 content_hash: 85dbdbb7a7794749504d57e028c944b15c83f521
-last_modified_at: 2023-09-17
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # systemd-sysext
 

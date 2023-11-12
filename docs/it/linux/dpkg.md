@@ -3,6 +3,7 @@ layout: page
 title: linux/dpkg (italiano)
 description: "Gestore di pacchetti Debian."
 content_hash: 01210d78080fdbbc15d9d54c888478429523b652
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/dpkg.html
@@ -10,12 +11,16 @@ related_topics:
   - title: English version
     url: /en/linux/dpkg.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/dpkg.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/linux/dpkg.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/dpkg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dpkg
 

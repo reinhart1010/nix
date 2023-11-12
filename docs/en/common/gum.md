@@ -3,11 +3,10 @@ layout: page
 title: common/gum (English)
 description: "A tool for making glamorous shell scripts."
 content_hash: 7fa19dbfae7556588a10172e6a60c1ee9b800e3b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gum
+# gum
 
 A tool for making glamorous shell scripts.
 More information: <https://github.com/charmbracelet/gum>.

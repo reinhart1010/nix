@@ -3,7 +3,8 @@ layout: page
 title: common/csvkit (English)
 description: "Manipulation toolkit for CSV files."
 content_hash: ddd7383344d25e907de9647f4c9f8d8732a3d7a2
-last_modified_at: 2023-05-20
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # csvkit
 

@@ -3,6 +3,7 @@ layout: page
 title: common/git-lfs (italiano)
 description: "Lavora con file di grandi dimensioni in repository Git."
 content_hash: ecd2e1d50397ebbb5085adddbf78e0c797c83eba
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-lfs.html
@@ -13,6 +14,10 @@ related_topics:
   - title: français version
     url: /fr/common/git-lfs.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-lfs.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git lfs
 

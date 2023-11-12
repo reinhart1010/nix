@@ -3,12 +3,10 @@ layout: page
 title: common/cargo-publish (English)
 description: "Upload a package to a registry."
 content_hash: a5f4bbe6ae51ae288af06d111ad8cb106c9c35d9
-last_modified_at: 2023-10-31
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cargo publish
+# cargo publish
 
 Upload a package to a registry.
 Note: you have to add an authentication token using `cargo login` before publishing a package.

@@ -3,6 +3,7 @@ layout: page
 title: common/cradle (English)
 description: "The Cradle PHP framework."
 content_hash: f95b3d6153f9e280f96f5250e47de9108cfd0d3c
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/cradle.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cradle.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cradle
 

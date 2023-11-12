@@ -3,10 +3,21 @@ layout: page
 title: common/powershell (தமிழ்)
 description: "குறிப்பாக கணினி நிர்வாகத்திற்காக வடிவமைக்கப்பட்ட கட்டளை வரி ஷெல் மற்றும் ஸ்கிரிப்டிங் மொழி."
 content_hash: 34489a93c3ef09b597c8f7f3e04208f9b9d1094a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/powershell.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/powershell.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/common/powershell.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/powershell.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # powershell
 

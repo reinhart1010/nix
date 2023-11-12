@@ -3,6 +3,7 @@ layout: page
 title: common/cat (Türkçe)
 description: "Dosyaları yazdır ve birleştir."
 content_hash: fffbf67d267aad2a468ce16f6a5df2665666f252
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -28,13 +29,16 @@ related_topics:
   - title: italiano version
     url: /it/common/cat.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/cat.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/cat.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/common/cat.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/cat.html
     icon: bi bi-globe
   - title: português (Brasil) version
@@ -49,6 +53,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/cat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cat
 

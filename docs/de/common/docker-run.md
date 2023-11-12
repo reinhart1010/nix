@@ -3,9 +3,16 @@ layout: page
 title: common/docker-run (Deutsch)
 description: "Führe einen Befehl in einem neuen Docker Container aus."
 content_hash: c0c1285d8629f05a5c183f56b3ca529623b0edc8
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/docker-run.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/docker-run.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/docker-run.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker-run.html
@@ -13,17 +20,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-run.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/docker-run.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># docker run
+# docker run
 
 Führe einen Befehl in einem neuen Docker Container aus.
 Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/run/>.

@@ -3,7 +3,7 @@ layout: page
 title: common/aws-cur (español)
 description: "Crea, solicita y elimina definiciones de informes de uso de AWS."
 content_hash: 2ec6837edd9f486406bd41b79a4e818e27e43ea2
-last_modified_at: 2023-05-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/aws-cur.html
@@ -17,6 +17,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/aws-cur.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws cur
 

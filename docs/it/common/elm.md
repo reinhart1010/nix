@@ -3,11 +3,12 @@ layout: page
 title: common/elm (italiano)
 description: "Compila ed esegui file sorgente Elm."
 content_hash: dffb026d04afb69cc365a6537b890f28697a1ca8
-last_modified_at: 2023-09-10
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/elm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # elm
 

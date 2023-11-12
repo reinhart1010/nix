@@ -3,7 +3,8 @@ layout: page
 title: common/llvm-dis (English)
 description: "Converts LLVM bitcode files into human-readable LLVM Intermediate Representation (IR)."
 content_hash: ed362cf997e5a3f452ab2cce9e9ad68bb3534228
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # llvm-dis
 

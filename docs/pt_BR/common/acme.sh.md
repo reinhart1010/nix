@@ -3,8 +3,11 @@ layout: page
 title: common/acme.sh (português (Brasil))
 description: "Script shell script que implementa o protocolo cliente ACME, ma alternativa para o certbot."
 content_hash: d5a5ce828321b73240621503cef2ce6c787ccbba
-last_modified_at: 2023-10-12
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/acme.sh.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/acme.sh.html
     icon: bi bi-globe
@@ -20,11 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/acme.sh.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># acme.sh
+# acme.sh
 
 Script shell script que implementa o protocolo cliente ACME, ma alternativa para o certbot.
 Veja também `acme.sh dns`.

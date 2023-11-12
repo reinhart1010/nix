@@ -3,9 +3,13 @@ layout: page
 title: common/diff (Deutsch)
 description: "Vergleiche Dateien und Verzeichnisse."
 content_hash: 9255b47c5b30bff7c9ba268de0ff75e5ed32c951
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/diff.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/diff.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/diff.html
@@ -25,17 +29,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/diff.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/diff.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/diff.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># diff
+# diff
 
 Vergleiche Dateien und Verzeichnisse.
 Weitere Informationen: <https://man7.org/linux/man-pages/man1/diff.1.html>.

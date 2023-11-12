@@ -3,7 +3,8 @@ layout: page
 title: common/tcc (English)
 description: "A tiny C compiler that can run C source files as scripts and otherwise has command-line options similar to `gcc`."
 content_hash: fd7ee42c2c67e28cda51b3eaa55548df622ba843
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tcc
 

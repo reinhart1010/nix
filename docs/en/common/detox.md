@@ -3,7 +3,7 @@ layout: page
 title: common/detox (English)
 description: "Renames files to make them easier to work with."
 content_hash: 299579fc8ce84751f77857db81b7d01ff95c66a4
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/detox.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/detox.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # detox
 

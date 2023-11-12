@@ -3,6 +3,8 @@ layout: page
 title: common/mongoimport (English)
 description: "Imports content from a JSON, CSV, or TSV file into a MongoDB database."
 content_hash: 2769e4b481fc504335effbdd09c5163615d36ec8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mongoimport
 

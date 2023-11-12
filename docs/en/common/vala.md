@@ -3,6 +3,8 @@ layout: page
 title: common/vala (English)
 description: "Vala code runner."
 content_hash: 419aa3e494a023eff085dc4a59529a21fd84868c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # vala
 

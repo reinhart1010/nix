@@ -3,11 +3,10 @@ layout: page
 title: linux/xxhsum (English)
 description: "Print or verify checksums using fast non-cryptographic algorithm xxHash."
 content_hash: 173e27b10da1f0f5c3e294a159c2750db8afe854
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># xxhsum
+# xxhsum
 
 Print or verify checksums using fast non-cryptographic algorithm xxHash.
 More information: <https://github.com/Cyan4973/xxHash>.

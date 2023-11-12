@@ -3,6 +3,7 @@ layout: page
 title: common/mkdir (Türkçe)
 description: "Yeni bir dizin oluştur."
 content_hash: c834fe4a2ae2adef0559d80fd2cc2f37f74415ae
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -34,6 +35,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/mkdir.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mkdir
 

@@ -3,12 +3,10 @@ layout: page
 title: linux/extrepo (English)
 description: "Manage external Debian repositories."
 content_hash: 431ce88c797cd34a110b1e604fc31e992717cce3
-last_modified_at: 2023-10-08
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># extrepo
+# extrepo
 
 Manage external Debian repositories.
 It is used to manage external repositories in Debian.

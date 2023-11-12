@@ -3,11 +3,10 @@ layout: page
 title: common/turbo (English)
 description: "High-performance build system for JavaScript and TypeScript codebases."
 content_hash: b24a01ca5147b1595d13369b0248f263f6d472b1
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># turbo
+# turbo
 
 High-performance build system for JavaScript and TypeScript codebases.
 See also: `nx`.

@@ -3,11 +3,14 @@ layout: page
 title: common/cwebp (русский)
 description: "Сжимает файл изображения в формат WebP."
 content_hash: a464571396b6f0d199b3608fd5a08f5b78d42a3b
+last_modified_at: 2023-11-12
+related_topics:
+  - title: English version
+    url: /en/common/cwebp.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cwebp
+# cwebp
 
 Сжимает файл изображения в формат WebP.
 Больше информации: <https://developers.google.com/speed/webp/docs/cwebp>.

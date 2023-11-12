@@ -3,7 +3,7 @@ layout: page
 title: linux/ip (English)
 description: "Show/manipulate routing, devices, policy routing and tunnels."
 content_hash: d44055b4e13c8836f7528e6ff7fcd140874f93d0
-last_modified_at: 2023-06-13
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/ip.html
@@ -11,12 +11,16 @@ related_topics:
   - title: français version
     url: /fr/linux/ip.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/linux/ip.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/ip.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/ip.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ip
 

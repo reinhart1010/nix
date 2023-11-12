@@ -3,11 +3,12 @@ layout: page
 title: windows/reg-restore (English)
 description: "Restore a key and its values from a backup file."
 content_hash: 8501e56f5817c313e0685cc8460e9e070b92e9ab
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/windows/reg-restore.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # reg restore
 

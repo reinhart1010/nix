@@ -3,7 +3,7 @@ layout: page
 title: linux/pkgrm (català)
 description: "Elimina un paquet d'un sistema CRUX."
 content_hash: 6bdaf0cb5a2234b6e617ac3644bd8aaf91cdfdb8
-last_modified_at: 2023-06-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/pkgrm.html
@@ -11,6 +11,7 @@ related_topics:
   - title: español version
     url: /es/linux/pkgrm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pkgrm
 

@@ -3,7 +3,7 @@ layout: page
 title: common/fossil-new (नेपाली)
 description: "यो आदेश `fossil-init` को उपनाम हो |"
 content_hash: a5e5bda2aee8835d321ddd0f2dcfe24ca37f4519
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/fossil-new.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fossil-new
 

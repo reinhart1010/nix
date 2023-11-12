@@ -3,6 +3,7 @@ layout: page
 title: common/git-sizer (English)
 description: "Computes various Git repository size metrics and alerts you to any that might cause problems or inconvenience."
 content_hash: e7728edab019714dd10f7806b5a802953da5a71b
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/git-sizer.html
@@ -13,6 +14,10 @@ related_topics:
   - title: italiano version
     url: /it/common/git-sizer.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-sizer.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git sizer
 

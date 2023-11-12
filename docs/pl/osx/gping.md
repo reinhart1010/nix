@@ -3,7 +3,7 @@ layout: page
 title: osx/gping (polski)
 description: "To polecenie jest aliasem `-p linux ping`."
 content_hash: c85012a320b831a43deb63a56e52190d19acb46f
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gping.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gping.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gping
 

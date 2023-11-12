@@ -3,6 +3,7 @@ layout: page
 title: linux/arecord (Deutsch)
 description: "Sound Recorder für den ALSA-Soundkarten-Treiber."
 content_hash: efe2b411dd0a93e0662fe86c83c8ed1e4d19649e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/arecord.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/arecord.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # arecord
 

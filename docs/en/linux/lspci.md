@@ -3,6 +3,15 @@ layout: page
 title: linux/lspci (English)
 description: "List all PCI devices."
 content_hash: f3a0660c9ca9a726122635f9fccdf6932ba5ccf1
+last_modified_at: 2023-11-12
+related_topics:
+  - title: русский version
+    url: /ru/linux/lspci.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/linux/lspci.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lspci
 

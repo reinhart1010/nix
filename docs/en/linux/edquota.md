@@ -3,6 +3,8 @@ layout: page
 title: linux/edquota (English)
 description: "Edit quotas for a user or group. By default it operates on all filesystems with quotas."
 content_hash: 546da6f2f31f07d43c665d2c4f7a9a1fc03c8b5c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # edquota
 

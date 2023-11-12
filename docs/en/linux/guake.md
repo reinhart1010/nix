@@ -3,6 +3,8 @@ layout: page
 title: linux/guake (English)
 description: "A drop-down terminal for GNOME."
 content_hash: 478f0d4f8c45e8392be8e9553c7b37ac309b87fa
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # guake
 

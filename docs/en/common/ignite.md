@@ -3,7 +3,8 @@ layout: page
 title: common/ignite (English)
 description: "A CLI for React Native boilerplates, plugins, generators, and more."
 content_hash: 4e3c23b8e33391fcf54ff4df796ab4237a985fdc
-last_modified_at: 2022-12-06
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ignite
 

@@ -3,11 +3,15 @@ layout: page
 title: common/make (English)
 description: "Task runner for targets described in Makefile."
 content_hash: 9496e105e7d611dd36f2c3c7994a0ce570791d02
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
+  - title: 한국어 version
+    url: /ko/common/make.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/make.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # make
 

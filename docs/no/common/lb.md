@@ -1,12 +1,14 @@
 ---
 layout: page
-title: common/lb (norsk bokmål (Norge))
+title: common/lb (norsk)
 description: "Et verktøy for å administrere en blogg i den gjeldende katalogen."
 content_hash: 69ca86f9e508aea1b6ce52b4611cad56a6f4fa91
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/lb.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lb
 

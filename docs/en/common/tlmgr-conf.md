@@ -3,11 +3,10 @@ layout: page
 title: common/tlmgr-conf (English)
 description: "Manage the TeX Live configuration."
 content_hash: 675927da180a6454454a9ecfc03c3cb4972cd653
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># tlmgr conf
+# tlmgr conf
 
 Manage the TeX Live configuration.
 More information: <https://www.tug.org/texlive/tlmgr.html>.

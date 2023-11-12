@@ -3,13 +3,20 @@ layout: page
 title: linux/apx (தமிழ்)
 description: "தொகுப்பு மேலாண்மை பயன்பாடு."
 content_hash: 5d4b2542ccd9b501f7a7f739eece05bc28451059
-last_modified_at: 2023-03-11
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/apx.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/apx.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# apx
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># apx
 
 தொகுப்பு மேலாண்மை பயன்பாடு.
 பல மூலங்களிலிருந்து நிர்வகிக்கப்பட்ட கொள்கலன்களுக்குள் தொகுப்புகளை நிறுவவும் (`apx` அனைத்து கட்டளைகளிலும் --aur,--dnf, --apk கொடிகளை ஆதரிக்கிறது).

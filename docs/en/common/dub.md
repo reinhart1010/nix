@@ -3,7 +3,8 @@ layout: page
 title: common/dub (English)
 description: "Package manager for D packages."
 content_hash: 43844292ae92bbe53c437463d3c5a452af9accaa
-last_modified_at: 2023-10-30
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dub
 

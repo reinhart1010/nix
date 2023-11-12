@@ -3,11 +3,12 @@ layout: page
 title: common/git-column (English)
 description: "Display data in columns."
 content_hash: c17812c01378d44d946f3f1a6df66b53f45ece9a
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: Türkçe version
     url: /tr/common/git-column.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git column
 

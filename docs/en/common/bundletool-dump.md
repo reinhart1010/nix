@@ -3,6 +3,8 @@ layout: page
 title: common/bundletool-dump (English)
 description: "Command-line tool to manipulate Android Application Bundles."
 content_hash: 1adfe9798bc4aaffe07b665cbf2cf286c3003e7f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # bundletool dump
 

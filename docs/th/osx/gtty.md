@@ -3,7 +3,7 @@ layout: page
 title: osx/gtty (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux tty`"
 content_hash: c9c8b4c50adea314415f52dce8a8585c079f432b
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gtty.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gtty.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gtty
 

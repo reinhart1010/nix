@@ -3,6 +3,8 @@ layout: page
 title: linux/rkhunter (English)
 description: "Searches for rootkits and malware."
 content_hash: 2f3b1eb2e24c4b86c5f39702e795b764f0d612d2
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rkhunter
 

@@ -3,7 +3,7 @@ layout: page
 title: common/git-mv (English)
 description: "Move or rename files and update the Git index."
 content_hash: 711ce51c717c2deadfdb7d5e9a45c8d042bfd498
-last_modified_at: 2023-05-25
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/git-mv.html
@@ -20,6 +20,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-mv.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git mv
 

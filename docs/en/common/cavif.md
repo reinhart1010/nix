@@ -3,12 +3,10 @@ layout: page
 title: common/cavif (English)
 description: "PNG/JPEG to AVIF converter."
 content_hash: d5b06888ee38845e06f8f7f6660434c6b0651df7
-last_modified_at: 2023-07-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cavif
+# cavif
 
 PNG/JPEG to AVIF converter.
 More information: <https://github.com/kornelski/cavif-rs>.

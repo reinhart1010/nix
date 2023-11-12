@@ -3,16 +3,14 @@ layout: page
 title: osx/wwand (español)
 description: "Daemon de configuración del dispositivo USB WWAN."
 content_hash: afa3891b4bf320d57c2bd2a8a83745e3113f0d7d
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/wwand.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># wwand
+# wwand
 
 Daemon de configuración del dispositivo USB WWAN.
 No debe invocarse manualmente.

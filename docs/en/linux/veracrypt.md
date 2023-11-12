@@ -3,6 +3,8 @@ layout: page
 title: linux/veracrypt (English)
 description: "Free and open source disk encryption software."
 content_hash: b84df2212613b52fe521845ffcbd5773df8f96e1
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # veracrypt
 

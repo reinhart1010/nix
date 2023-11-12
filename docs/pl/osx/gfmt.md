@@ -3,7 +3,7 @@ layout: page
 title: osx/gfmt (polski)
 description: "To polecenie jest aliasem `-p linux fmt`."
 content_hash: af72dddf29e9b12f0b3c176a68b7b7da5fc08c53
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gfmt.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gfmt.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gfmt
 

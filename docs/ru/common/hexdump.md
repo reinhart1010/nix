@@ -3,18 +3,20 @@ layout: page
 title: common/hexdump (русский)
 description: "Дамп файла в ASCII, десятичном, шестнадцатеричном и восьмеричном форматах."
 content_hash: 076490840d253ed91c23bf13f42b0727cd29977f
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/hexdump.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/hexdump.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/hexdump.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># hexdump
+# hexdump
 
 Дамп файла в ASCII, десятичном, шестнадцатеричном и восьмеричном форматах.
 Больше информации: <https://manned.org/hexdump>.

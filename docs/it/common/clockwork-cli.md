@@ -3,6 +3,7 @@ layout: page
 title: common/clockwork-cli (italiano)
 description: "Una interfaccia da linea di comando per il framework PHP Clockwork."
 content_hash: f7227c9b01a51f0fd2cc1a283484ed4e658282b1
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/clockwork-cli.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/clockwork-cli.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # clockwork-cli
 

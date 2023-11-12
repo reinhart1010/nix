@@ -3,7 +3,7 @@ layout: page
 title: common/ajson (中文)
 description: "对 JSON 对象执行 JSONPath 操作。"
 content_hash: 5e870b371d723dd903eef2c29f20ca6992d287e2
-last_modified_at: 2023-03-12
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ajson.html
@@ -14,11 +14,12 @@ related_topics:
   - title: français version
     url: /fr/common/ajson.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ajson.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ajson
+# ajson
 
 对 JSON 对象执行 JSONPath 操作。
 更多信息：<https://github.com/spyzhov/ajson>.

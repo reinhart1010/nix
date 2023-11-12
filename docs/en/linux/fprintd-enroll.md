@@ -3,6 +3,8 @@ layout: page
 title: linux/fprintd-enroll (English)
 description: "Enroll fingerprints into the database."
 content_hash: 056a01824b14eec9d2e15b015d0a36f9281dcf0d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fprintd-enroll
 

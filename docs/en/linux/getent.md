@@ -3,6 +3,8 @@ layout: page
 title: linux/getent (English)
 description: "Get entries from Name Service Switch libraries."
 content_hash: 95e0f913c8978ed706c13ec04a5300eeba660796
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # getent
 

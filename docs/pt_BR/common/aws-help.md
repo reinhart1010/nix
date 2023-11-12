@@ -3,18 +3,20 @@ layout: page
 title: common/aws-help (português (Brasil))
 description: "Exibe ajuda sobre o AWS CLI."
 content_hash: f6e41cd2bb1b80a8f28c94b24afa2f867d499007
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/aws-help.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/aws-help.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/aws-help.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws help
+# aws help
 
 Exibe ajuda sobre o AWS CLI.
 Mais informações: <https://docs.aws.amazon.com/cli/latest/userguide/cli-usage-help.html>.

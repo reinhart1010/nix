@@ -3,7 +3,7 @@ layout: page
 title: common/docker-ps (日本語)
 description: "Dockerコンテナ一覧を表示します。"
 content_hash: a2089b602f8a2a6456ce486a45234ffeed13f5bd
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-ps.html
@@ -23,6 +23,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-ps.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker ps
 

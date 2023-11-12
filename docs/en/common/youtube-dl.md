@@ -3,13 +3,21 @@ layout: page
 title: common/youtube-dl (English)
 description: "Download videos from YouTube and other websites."
 content_hash: a0f7e52362fe37e9364f32339360e74166d8c017
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/common/youtube-dl.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/youtube-dl.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/youtube-dl.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/youtube-dl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # youtube-dl
 

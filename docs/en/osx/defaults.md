@@ -3,10 +3,15 @@ layout: page
 title: osx/defaults (English)
 description: "Read and write macOS user configuration for applications."
 content_hash: 5358f53e44db79b912a9e441b067e8d8fb8ef7d2
+last_modified_at: 2023-11-12
 related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/osx/defaults.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/defaults.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # defaults
 

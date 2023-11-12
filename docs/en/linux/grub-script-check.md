@@ -3,7 +3,8 @@ layout: page
 title: linux/grub-script-check (English)
 description: "The program `grub-script-check` takes a GRUB script file and checks it for syntax errors."
 content_hash: 68e68cf58b762040115cd0641254198b832fe956
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # grub-script-check
 

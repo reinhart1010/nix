@@ -3,6 +3,7 @@ layout: page
 title: windows/comp (தமிழ்)
 description: "இரண்டு கோப்புகள் அல்லது கோப்புகளின் தொகுப்புகளின் உள்ளடக்கங்களை ஒப்பிடுக."
 content_hash: b15c688fd5486a07602caa6e73fa3de6aeb83580
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/comp.html
@@ -10,11 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/comp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># comp
+# comp
 
 இரண்டு கோப்புகள் அல்லது கோப்புகளின் தொகுப்புகளின் உள்ளடக்கங்களை ஒப்பிடுக.
 கோப்புகளின் தொகுப்புகளை ஒப்பிட, வைல்டு கார்டுகளைப் (*) பயன்படுத்தவும்.

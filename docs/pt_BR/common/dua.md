@@ -3,16 +3,14 @@ layout: page
 title: common/dua (português (Brasil))
 description: "Dua (Analisador de Uso de Disco) é uma ferramenta para análise conveniente do uso de disco dado um diretório."
 content_hash: 78fcb25afd0057179f79bf2cfe036cd889657c67
-last_modified_at: 2023-10-12
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/dua.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dua
+# dua
 
 Dua (Analisador de Uso de Disco) é uma ferramenta para análise conveniente do uso de disco dado um diretório.
 Mais informações: <https://github.com/Byron/dua-cli>.

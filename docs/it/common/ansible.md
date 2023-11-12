@@ -3,6 +3,7 @@ layout: page
 title: common/ansible (italiano)
 description: "Gestisce gruppi di computer da remoto via SSH."
 content_hash: 6ebcfe8d5cbe2953e1dd21275f936cbdd1eb6841
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible.html
@@ -16,9 +17,13 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/ansible.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/ansible.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/ansible.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ansible
 

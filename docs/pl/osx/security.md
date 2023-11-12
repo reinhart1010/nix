@@ -3,10 +3,12 @@ layout: page
 title: osx/security (polski)
 description: "Administruj pękami kluczy, kluczami, certyfikatami oraz framework'iem Security."
 content_hash: b55b8b8bef248795db1f40da6eee5e7d2464fa6a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/security.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # security
 

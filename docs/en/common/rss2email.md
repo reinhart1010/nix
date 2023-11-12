@@ -3,11 +3,10 @@ layout: page
 title: common/rss2email (English)
 description: "Tool for delivering news from RSS feeds to an email program."
 content_hash: cdef3d6b4488b80e2933d3792e774eee7784605b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rss2email
+# rss2email
 
 Tool for delivering news from RSS feeds to an email program.
 More information: <https://github.com/rss2email/rss2email>.

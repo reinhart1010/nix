@@ -3,7 +3,8 @@ layout: page
 title: common/xml (English)
 description: "XMLStarlet Toolkit: Query, edit, check, convert and transform XML documents."
 content_hash: 2779593486d438d0f7b9a7d8d69e12b1ef74d932
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xml
 

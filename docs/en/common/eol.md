@@ -3,7 +3,8 @@ layout: page
 title: common/eol (English)
 description: "Show end-of-life dates (EoLs) for a number of products."
 content_hash: 5033fa6adb57cd0f7d0f6ef2885bd4de8a0f5ce1
-last_modified_at: 2023-06-21
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # eol
 

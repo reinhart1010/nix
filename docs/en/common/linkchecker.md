@@ -3,7 +3,8 @@ layout: page
 title: common/linkchecker (English)
 description: "Command-line client to check HTML documents and websites for broken links."
 content_hash: a5e9ffb2977318f32e7091e9f5f18e5fe1b825f7
-last_modified_at: 2023-09-10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # linkchecker
 

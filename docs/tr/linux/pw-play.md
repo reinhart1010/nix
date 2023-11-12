@@ -3,10 +3,12 @@ layout: page
 title: linux/pw-play (Türkçe)
 description: "pw-cat --playback komutu için kısayol aracı."
 content_hash: 56deee24327467bd1b7b1c224c2a1d3409da4f9a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/pw-play.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.

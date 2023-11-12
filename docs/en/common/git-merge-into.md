@@ -3,6 +3,8 @@ layout: page
 title: common/git-merge-into (English)
 description: "Merge one branch into another branch."
 content_hash: 464f770e97ef05d2ff77d0628ada8a780f94a0b8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git merge-into
 

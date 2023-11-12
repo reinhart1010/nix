@@ -3,10 +3,12 @@ layout: page
 title: linux/nordvpn (English)
 description: "Command-line interface for NordVPN."
 content_hash: 3ca3a2c3cd5df1ab6ae8448559582d110d5a2392
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/nordvpn.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nordvpn
 

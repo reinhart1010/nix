@@ -3,7 +3,7 @@ layout: page
 title: common/go-build (Türkçe)
 description: "Go kaynaklarını derle."
 content_hash: bf39908084b05cf9b1bce8bfaff70070c117b7b4
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/go-build.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/go-build.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # go build
 

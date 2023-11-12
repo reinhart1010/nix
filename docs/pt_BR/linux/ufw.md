@@ -3,7 +3,7 @@ layout: page
 title: linux/ufw (português (Brasil))
 description: "Firewall Descomplicado."
 content_hash: 0893716b76cd7a433066030a5f633f356a330c3a
-last_modified_at: 2023-10-02
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/ufw.html
@@ -20,11 +20,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/linux/ufw.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ufw
+# ufw
 
 Firewall Descomplicado.
 Frontend para `iptables` com o objetivo de facilitar a configuração de um firewall.

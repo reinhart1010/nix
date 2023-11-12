@@ -3,10 +3,15 @@ layout: page
 title: common/arduino-builder (português (Brasil))
 description: "Uma ferramenta de linha de comando para compilar sketches do arduino."
 content_hash: 9411b6ea5b9bc8db16bd982eab6ff0f6b7249dbf
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/arduino-builder.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/arduino-builder.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # arduino-builder
 

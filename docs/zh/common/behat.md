@@ -3,6 +3,7 @@ layout: page
 title: common/behat (中文)
 description: "基于 Behaviour-Driven Development 的自动化测试 PHP 框架。"
 content_hash: 89934e8fc2fc3b5dddf47be859c4e85e42812883
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/behat.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/behat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # behat
 

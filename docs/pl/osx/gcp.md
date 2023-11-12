@@ -3,7 +3,7 @@ layout: page
 title: osx/gcp (polski)
 description: "To polecenie jest aliasem `-p linux cp`."
 content_hash: bf96d71360524b4cbd8127aec429f0b7e28b01a8
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gcp.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gcp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gcp
 

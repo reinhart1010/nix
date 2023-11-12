@@ -3,6 +3,8 @@ layout: page
 title: linux/extundelete (English)
 description: "Recover deleted files from ext3 or ext4 partitions by parsing the journal."
 content_hash: 3e811cdbbd765ae73231de51a668b711a8fd650f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # extundelete
 

@@ -3,7 +3,7 @@ layout: page
 title: common/git-reset (português (Brasil))
 description: "Desfaz os commits ou as alterações nào preparadas, redefinindo o Git HEAD atual para o estado especificado."
 content_hash: 68b9a525eaa1a962e1afccfb10b9527f268a93cf
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-reset.html
@@ -20,11 +20,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-reset.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git reset
+# git reset
 
 Desfaz os commits ou as alterações nào preparadas, redefinindo o Git HEAD atual para o estado especificado.
 Se um caminho é passado, funcionará como "não preparado"; se um hash de commit ou uma branch é passado, funcionará como "sem commit".

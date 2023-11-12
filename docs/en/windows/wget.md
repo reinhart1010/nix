@@ -3,7 +3,7 @@ layout: page
 title: windows/wget (English)
 description: "In PowerShell, this command may be an alias of `Invoke-WebRequest` when the original `wget` program (<https://www.gnu.org/software/wget>) is not properly installed."
 content_hash: 2d654e4f1982200ff6f9438286a510f9a2e60d61
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/wget.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/wget.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wget
 

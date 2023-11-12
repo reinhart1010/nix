@@ -3,10 +3,19 @@ layout: page
 title: windows/cinst (한국어)
 description: "이 명령은 `choco install` 의 에일리어스 (별칭) 입니다."
 content_hash: 84e4ebe67159dfc6ad83ad41ca3fd43548ef3687
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
+  - title: العربية version
+    url: /ar/windows/cinst.html
+    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/cinst.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/windows/cinst.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/windows/cinst.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/cinst.html
@@ -38,6 +47,9 @@ related_topics:
   - title: മലയാളം version
     url: /ml/windows/cinst.html
     icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/windows/cinst.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/windows/cinst.html
     icon: bi bi-globe
@@ -49,6 +61,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/cinst.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/windows/cinst.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/windows/cinst.html
@@ -62,6 +77,9 @@ related_topics:
   - title: ไทย version
     url: /th/windows/cinst.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/windows/cinst.html
+    icon: bi bi-globe
   - title: українська version
     url: /uk/windows/cinst.html
     icon: bi bi-globe
@@ -71,11 +89,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/cinst.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cinst
+# cinst
 
 이 명령은 `choco install` 의 에일리어스 (별칭) 입니다.
 더 많은 정보: <https://docs.chocolatey.org/en-us/choco/commands/install>.

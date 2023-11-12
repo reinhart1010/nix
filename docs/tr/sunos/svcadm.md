@@ -3,9 +3,13 @@ layout: page
 title: sunos/svcadm (Türkçe)
 description: "Servisleri idare et."
 content_hash: c6f2029e48618d2440dcfd6b201a07c77368051e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/sunos/svcadm.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/sunos/svcadm.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/sunos/svcadm.html
@@ -13,11 +17,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/sunos/svcadm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># svcadm
+# svcadm
 
 Servisleri idare et.
 Daha fazla bilgi için: <https://www.unix.com/man-page/linux/1m/svcadm>.

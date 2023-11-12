@@ -3,6 +3,7 @@ layout: page
 title: common/ansible (français)
 description: "Gestionnaire de groupes d'ordinateurs à distance depuis SSH. (Utiliser le fichier `/etc/ansible/hosts` pour ajouter de nouveaux groupes/hôtes)."
 content_hash: 5174a0b68dc8e18537b72b1f3950758a32c469c8
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible.html
@@ -16,9 +17,13 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/ansible.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/ansible.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/ansible.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ansible
 

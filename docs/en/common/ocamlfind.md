@@ -3,7 +3,8 @@ layout: page
 title: common/ocamlfind (English)
 description: "The findlib package manager for OCaml."
 content_hash: 1eb5d6968d6cd395c5523646ad9da76b02159912
-last_modified_at: 2023-05-19
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ocamlfind
 

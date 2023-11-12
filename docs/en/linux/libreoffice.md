@@ -3,6 +3,8 @@ layout: page
 title: linux/libreoffice (English)
 description: "CLI for the powerful and free office suite LibreOffice."
 content_hash: 44e404e29edc1d5da5f837d2e6034fa6bcdef28a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # libreoffice
 

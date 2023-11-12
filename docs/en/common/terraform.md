@@ -3,6 +3,12 @@ layout: page
 title: common/terraform (English)
 description: "Create and deploy infrastructure as code to cloud providers."
 content_hash: ae61982b4b78c6638461c6d79b78d95d766662d7
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/terraform.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # terraform
 

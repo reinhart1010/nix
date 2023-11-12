@@ -3,7 +3,8 @@ layout: page
 title: common/mosquitto_pub (English)
 description: "A simple MQTT version 3.1.1 client that will publish a single message on a topic and exit."
 content_hash: 02801feb109ae1eabc40da0b00757144ab7bd991
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mosquitto_pub
 

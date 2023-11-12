@@ -3,7 +3,7 @@ layout: page
 title: android/cmd (हिन्दी)
 description: "एंड्रॉइड सेवा प्रबंधक।"
 content_hash: efd9507ce7996e2061d990098b2ad9dba4d87fad
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/cmd.html
@@ -65,6 +65,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/cmd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cmd
 

@@ -3,7 +3,7 @@ layout: page
 title: windows/explorer (italiano)
 description: "Il file explorer di Windows."
 content_hash: 8bb619f68bd1c9d03088d5f37f10aac30311df15
-last_modified_at: 2023-04-21
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/explorer.html
@@ -23,11 +23,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/explorer.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># explorer
+# explorer
 
 Il file explorer di Windows.
 Maggiori informazioni: <https://ss64.com/nt/explorer.html>.

@@ -3,7 +3,8 @@ layout: page
 title: linux/eopkg (English)
 description: "Package manager for Solus."
 content_hash: 2f6b555e38f160d32c0c2c4d11f0b1ee5b410496
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # eopkg
 

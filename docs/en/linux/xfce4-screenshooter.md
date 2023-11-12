@@ -3,10 +3,12 @@ layout: page
 title: linux/xfce4-screenshooter (English)
 description: "The XFCE4 screenshot tool."
 content_hash: 4c323b09dabd50f64794fae38bbb290fdc4a4b94
+last_modified_at: 2023-11-12
 related_topics:
   - title: Türkçe version
     url: /tr/linux/xfce4-screenshooter.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xfce4-screenshooter
 

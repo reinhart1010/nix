@@ -3,10 +3,12 @@ layout: page
 title: common/nth (português (Brasil))
 description: "Name That Hash - Nomeia o tipo de um hash em um instante."
 content_hash: bb5fc4e68700aac7fcc046892e7de656e2062c9d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/nth.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nth
 

@@ -3,7 +3,7 @@ layout: page
 title: linux/hostnamectl (polski)
 description: "Wyświetl lub ustaw nazwę hosta tego komputera."
 content_hash: bb4ed23c5218877aea056a04119ca81e4255a258
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/hostnamectl.html
@@ -11,11 +11,9 @@ related_topics:
   - title: русский version
     url: /ru/linux/hostnamectl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># hostnamectl
+# hostnamectl
 
 Wyświetl lub ustaw nazwę hosta tego komputera.
 Więcej informacji: <https://manned.org/hostnamectl>.

@@ -3,6 +3,8 @@ layout: page
 title: common/mix (English)
 description: "Mix is a build tool that provides tasks for creating, compiling, and testing Elixir projects, managing its dependencies, and more."
 content_hash: f927c8506291439b8bf11342b32cc33f4bda558b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mix
 

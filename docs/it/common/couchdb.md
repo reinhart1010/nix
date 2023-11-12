@@ -3,6 +3,7 @@ layout: page
 title: common/couchdb (italiano)
 description: "Interfaccia da linea di comando per il server di database Apache CouchDB."
 content_hash: 384909540a8f77a86ef6c0460907b90a2ae91410
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/couchdb.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/couchdb.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # couchdb
 

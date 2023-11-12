@@ -3,6 +3,8 @@ layout: page
 title: common/groups (English)
 description: "Print group memberships for a user."
 content_hash: 0bbfa4d4ea332d286b165ba5b00016d59285b766
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # groups
 

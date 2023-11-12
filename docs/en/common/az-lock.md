@@ -3,7 +3,8 @@ layout: page
 title: common/az-lock (English)
 description: "Manage Azure locks."
 content_hash: 0aa80df8e1fea271a1fedb5a13811a0036c984ab
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # az lock
 

@@ -3,13 +3,18 @@ layout: page
 title: linux/chcon (English)
 description: "Change SELinux security context of a file or files/directories."
 content_hash: 125e58c59d74a71010b1f6b1876f587ba4440254
+last_modified_at: 2023-11-12
 related_topics:
+  - title: français version
+    url: /fr/linux/chcon.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/linux/chcon.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/linux/chcon.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chcon
 

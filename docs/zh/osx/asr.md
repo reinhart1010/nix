@@ -3,6 +3,7 @@ layout: page
 title: osx/asr (中文)
 description: "将磁盘映像还原（复制）到卷上。"
 content_hash: afee41da4315b8f686ff64c6fcb02483cd26675a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/asr.html
@@ -13,6 +14,10 @@ related_topics:
   - title: italiano version
     url: /it/osx/asr.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/asr.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # asr
 

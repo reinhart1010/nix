@@ -3,6 +3,8 @@ layout: page
 title: common/hg-remove (English)
 description: "Remove specified files from the staging area."
 content_hash: 6b21fe0e5bd6c998364a31076c8ef72705a6cd8d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # hg remove
 

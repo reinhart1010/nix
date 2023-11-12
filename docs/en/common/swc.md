@@ -3,7 +3,8 @@ layout: page
 title: common/swc (English)
 description: "JavaScript and TypeScript compiler written in Rust."
 content_hash: 2c049196d7a11c09a0676132f0bdf141ebf16b51
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # swc
 

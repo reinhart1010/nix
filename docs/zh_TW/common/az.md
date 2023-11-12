@@ -3,10 +3,13 @@ layout: page
 title: common/az (中文 (繁體, 台灣))
 description: "Microsoft Azure 的官方客戶端工具。"
 content_hash: a76503ef41f617a16d5a2c05307c1e58f25619c1
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/az.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/az.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/az.html
@@ -20,6 +23,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/az.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # az
 

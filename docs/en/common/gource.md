@@ -3,6 +3,8 @@ layout: page
 title: common/gource (English)
 description: "Renders an animated tree diagram of Git, SVN, Mercurial and Bazaar repositories."
 content_hash: 8e259863434ccd3878a5264e1834eb26fe0165b0
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gource
 

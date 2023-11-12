@@ -3,16 +3,24 @@ layout: page
 title: common/nmap (español)
 description: "Herramienta de exploración de redes y escáner de seguridad / puertos."
 content_hash: cdb070df3b39fdff3fe77bbefee0dd55cf546b43
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/nmap.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/nmap.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/nmap.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/nmap.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/nmap.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nmap
 

@@ -3,10 +3,12 @@ layout: page
 title: common/awslogs (English)
 description: "Queries groups, streams and events from Amazon CloudWatch logs."
 content_hash: 0771ff954bbb581253956c8b932cd687475768be
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/awslogs.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # awslogs
 

@@ -3,10 +3,15 @@ layout: page
 title: windows/fc (中文)
 description: "比较两个文件或文件集之间的差异。"
 content_hash: 0a37a61812d10472478c185f992d2e1b48232426
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/fc.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/windows/fc.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fc
 

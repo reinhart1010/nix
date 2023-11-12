@@ -3,6 +3,8 @@ layout: page
 title: common/kotlinc (English)
 description: "Kotlin compiler."
 content_hash: fa1b9580631766833142caf63300eb31ead6982c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # kotlinc
 

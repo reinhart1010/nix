@@ -3,7 +3,7 @@ layout: page
 title: android/am (हिन्दी)
 description: "एंड्रॉइड गतिविधि प्रबंधक।"
 content_hash: f4f9ce1ea3abb87eef8647f7ef610148b55f00cf
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/am.html
@@ -68,6 +68,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/am.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # am
 

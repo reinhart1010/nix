@@ -3,6 +3,8 @@ layout: page
 title: linux/prename (English)
 description: "Rename multiple files."
 content_hash: 2cad46c8c112be4567c7c12aff723dc31a15340c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rename
 

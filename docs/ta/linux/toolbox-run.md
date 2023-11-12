@@ -3,11 +3,12 @@ layout: page
 title: linux/toolbox-run (தமிழ்)
 description: "ஏற்கனவே உள்ள `toolbox` கொள்கலனுக்குள் கட்டளையை இயக்கவும்."
 content_hash: 248aac6bd39387c43e585cd0e211c67dd0150cfb
-last_modified_at: 2023-06-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/toolbox-run.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # toolbox run
 

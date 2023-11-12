@@ -3,6 +3,12 @@ layout: page
 title: osx/safeejectgpu (English)
 description: "Eject a GPU safely."
 content_hash: 887bc0a24996d41ff5d0bf0035b73b2fc4c8a3a3
+last_modified_at: 2023-11-12
+related_topics:
+  - title: español version
+    url: /es/osx/safeejectgpu.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # SafeEjectGPU
 

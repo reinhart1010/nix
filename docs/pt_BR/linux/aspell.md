@@ -3,6 +3,7 @@ layout: page
 title: linux/aspell (português (Brasil))
 description: "Verificador ortográfico interativo."
 content_hash: 72d7799160faacf9d562d869f1f1473c4e2d90e6
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/aspell.html
@@ -13,9 +14,13 @@ related_topics:
   - title: മലയാളം version
     url: /ml/linux/aspell.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/linux/aspell.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/aspell.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aspell
 

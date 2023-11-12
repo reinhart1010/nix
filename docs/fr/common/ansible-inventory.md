@@ -3,15 +3,20 @@ layout: page
 title: common/ansible-inventory (français)
 description: "Display or dump an Ansible inventory."
 content_hash: 4b651b2f22178a25339c62048bf0aa91d344c745
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/ansible-inventory.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/ansible-inventory.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/ansible-inventory.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ansible-inventory
+# ansible-inventory
 
 Display or dump an Ansible inventory.
 Voir aussi : `ansible`.

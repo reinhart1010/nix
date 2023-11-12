@@ -3,9 +3,13 @@ layout: page
 title: common/apropos (Deutsch)
 description: "Durchsuche die Handbuchseiten nach Namen und Beschreibungen."
 content_hash: 557a8c26fe9773095b7f7b610fe89bc3305cf443
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/apropos.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/apropos.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/apropos.html
@@ -19,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/apropos.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apropos
 

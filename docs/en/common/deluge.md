@@ -3,6 +3,7 @@ layout: page
 title: common/deluge (English)
 description: "A command-line BitTorrent client."
 content_hash: 781db6ca10a8ac506c046b1df4ce9670ef6f87a4
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/deluge.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/deluge.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # deluge
 

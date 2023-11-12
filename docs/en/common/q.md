@@ -3,7 +3,8 @@ layout: page
 title: common/q (English)
 description: "Execute SQL-like queries on .csv and .tsv files."
 content_hash: f3715267f9514bd113d9dafb1a9b888244da4a9a
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # q
 

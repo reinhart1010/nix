@@ -3,7 +3,7 @@ layout: page
 title: common/todoist (English)
 description: "Access <https://todoist.com> from the command-line."
 content_hash: 7f457cf1c0739e7b88463e6e254e68ad2d72ef6a
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: română version
     url: /ro/common/todoist.html
@@ -11,6 +11,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/todoist.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # todoist
 

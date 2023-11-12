@@ -3,6 +3,8 @@ layout: page
 title: linux/iw (English)
 description: "Show and manipulate wireless devices."
 content_hash: 8c483ce331e418a42040923a01a9b11314c65079
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # iw
 

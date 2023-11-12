@@ -3,7 +3,7 @@ layout: page
 title: osx/systemsetup (English)
 description: "Configure System Preferences machine settings."
 content_hash: 2098419abc0f2c186c08e02ae1f279f7d2adcdb9
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Portugal) version
     url: /pt_PT/osx/systemsetup.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/systemsetup.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # systemsetup
 

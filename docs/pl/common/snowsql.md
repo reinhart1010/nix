@@ -3,11 +3,14 @@ layout: page
 title: common/snowsql (polski)
 description: "Narzędzie wiersza SnowSQL serwisu bazodanowego Snowflake."
 content_hash: 634f2dfaf7484bef2d5b0c9a3d3338e39fe2b369
+last_modified_at: 2023-11-12
+related_topics:
+  - title: English version
+    url: /en/common/snowsql.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># snowsql
+# snowsql
 
 Narzędzie wiersza SnowSQL serwisu bazodanowego Snowflake.
 Więcej informacji: <https://docs.snowflake.com/en/user-guide/snowsql.html>.

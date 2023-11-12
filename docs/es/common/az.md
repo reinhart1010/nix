@@ -3,7 +3,7 @@ layout: page
 title: common/az (español)
 description: "La herramienta de línea de comandos de Azure."
 content_hash: 10fe33f69f103d01e902553e886a34c9c9ca5aff
-last_modified_at: 2023-10-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/az.html
@@ -23,11 +23,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/az.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># az
+# az
 
 La herramienta de línea de comandos de Azure.
 Algunos subcomandos como `az login` tienen su propia documentación de uso.

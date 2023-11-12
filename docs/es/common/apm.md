@@ -3,7 +3,7 @@ layout: page
 title: common/apm (español)
 description: "Editor Atom Package Manager."
 content_hash: ce787510176c7865efa0b7d3bb65fec8fc24f317
-last_modified_at: 2023-09-10
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/apm.html
@@ -23,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/apm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apm
 

@@ -3,6 +3,8 @@ layout: page
 title: common/git-delete-tag (English)
 description: "Delete existing local and remote tags."
 content_hash: c54c8177fc74f2096d29c7f4c27f4e4d18f9b174
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git delete-tag
 

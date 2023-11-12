@@ -3,6 +3,7 @@ layout: page
 title: osx/afinfo (português (Brasil))
 description: "Parser de metadados de arquivos de áudio para OS X."
 content_hash: 91af1f94f255ba4c2ab749b88870205da842bbf1
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/afinfo.html
@@ -16,11 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/afinfo.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># afinfo
+# afinfo
 
 Parser de metadados de arquivos de áudio para OS X.
 Comando nativo do OS X.

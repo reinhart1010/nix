@@ -3,6 +3,8 @@ layout: page
 title: linux/pvs (English)
 description: "Display information about physical volumes."
 content_hash: d4c2c6434ee28c03c243a39ab08a6e9cf383e73e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pvs
 

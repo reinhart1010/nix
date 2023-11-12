@@ -3,6 +3,7 @@ layout: page
 title: common/bup (한국어)
 description: "Git 팩 파일 형식을 기반으로 하는 백업 시스템, 빠른 증분 저장 및. 전역 중복 제거 기능 제공."
 content_hash: 24d1924dcefd5958902c2fc32e4ba2d263f5a0d8
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/bup.html
@@ -10,6 +11,10 @@ related_topics:
   - title: italiano version
     url: /it/common/bup.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/bup.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bup
 

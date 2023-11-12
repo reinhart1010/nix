@@ -3,6 +3,8 @@ layout: page
 title: linux/tcptraceroute (English)
 description: "A traceroute implementation using TCP packets."
 content_hash: 9b6f106701bd10d41df13ee13d172b43da9aaab4
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tcptraceroute
 

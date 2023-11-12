@@ -3,10 +3,15 @@ layout: page
 title: common/vimdiff (español)
 description: "Abre dos o más archivos en Vim y muestra las diferencias entre ellos."
 content_hash: d887319a5de8dbae511bfd3698cf520471383162
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/vimdiff.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/vimdiff.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # vimdiff
 

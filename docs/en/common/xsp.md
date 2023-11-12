@@ -3,12 +3,10 @@ layout: page
 title: common/xsp (English)
 description: "Mono ASP.NET Web Server."
 content_hash: 878ef9d4f060e081df576124c62e909cff39aacc
-last_modified_at: 2023-05-13
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># xsp
+# xsp
 
 Mono ASP.NET Web Server.
 More information: <https://www.mono-project.com/docs/web/aspnet/>.

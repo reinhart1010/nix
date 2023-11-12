@@ -3,7 +3,7 @@ layout: page
 title: common/stun (한국어)
 description: "클래식 STUN 클라이언트."
 content_hash: 70238d9a2f807923b049ec2649a8b2eb6d3bf5e7
-last_modified_at: 2023-10-19
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/stun.html
@@ -11,11 +11,9 @@ related_topics:
   - title: English version
     url: /en/common/stun.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># stun
+# stun
 
 클래식 STUN 클라이언트.
 더 많은 정보: <https://manned.org/stun.1>.

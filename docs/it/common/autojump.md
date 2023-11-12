@@ -3,13 +3,21 @@ layout: page
 title: common/autojump (italiano)
 description: "Salta velocemente tra le directory che usi più spesso."
 content_hash: e8e745faa367ff95b2feb4c7d9749234c7282f49
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/autojump.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/autojump.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/autojump.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/autojump.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # autojump
 

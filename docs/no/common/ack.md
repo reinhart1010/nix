@@ -1,17 +1,30 @@
 ---
 layout: page
-title: common/ack (norsk bokmål (Norge))
+title: common/ack (norsk)
 description: "Et søkeverktøy som grep, optimalisert for utviklere."
 content_hash: ecc6631ee39b4325a737d16bac89820fa355b790
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/ack.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/ack.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/ack.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/ack.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ack.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/ack.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ack.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/ack.html
@@ -28,6 +41,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ack.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ack
 

@@ -3,13 +3,21 @@ layout: page
 title: common/yarn (中文)
 description: "JavaScript 和 Node.js package manager 的一个替代。"
 content_hash: 7a0fcbe6b3eb2667cee3830527e1c08a924649ce
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/yarn.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/yarn.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/yarn.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/yarn.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # yarn
 

@@ -3,6 +3,7 @@ layout: page
 title: common/zsh (Deutsch)
 description: "Z SHell."
 content_hash: b70fbb929ac0e2d5149f4063fee230d2d17ed5eb
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/zsh.html
@@ -19,11 +20,18 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/zsh.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/zsh.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/zsh.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# zsh
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># zsh
 
 Z SHell.
 Mit `bash` und `sh` kompatible Eingabeaufforderung.

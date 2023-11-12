@@ -3,6 +3,18 @@ layout: page
 title: common/ansible-inventory (English)
 description: "Display or dump an Ansible inventory."
 content_hash: a802d407ddd26291e485f1435fed9865b73c939d
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/ansible-inventory.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/ansible-inventory.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/ansible-inventory.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ansible-inventory
 

@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman (Indonesia)
 description: "Kegunaan manajer paket Arch Linux."
 content_hash: 8afb394c54edcb8a65e12282dcd942f3b6fae73c
-last_modified_at: 2023-05-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -32,9 +32,13 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/pacman.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/pacman.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/pacman.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pacman
 

@@ -3,7 +3,8 @@ layout: page
 title: linux/gbp (English)
 description: "A system to integrate the Debian package build system with Git."
 content_hash: b91f118290b687a5edb0a6a279f572bfa1bea9db
-last_modified_at: 2023-09-10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gbp
 

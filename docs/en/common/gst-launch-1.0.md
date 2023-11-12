@@ -3,12 +3,10 @@ layout: page
 title: common/gst-launch-1.0 (English)
 description: "Build and run a GStreamer pipeline."
 content_hash: 7915f593812c095003b1db0c3d64c249b1ce2e0a
-last_modified_at: 2023-07-27
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gst-launch-1.0
+# gst-launch-1.0
 
 Build and run a GStreamer pipeline.
 More information: <https://gstreamer.freedesktop.org/documentation/tools/gst-launch.html?gi-language=c>.

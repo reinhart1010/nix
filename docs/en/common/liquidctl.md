@@ -3,12 +3,10 @@ layout: page
 title: common/liquidctl (English)
 description: "Control liquid coolers."
 content_hash: e4183bf2164eb6f96b830f8ac898c4ff3631a2e7
-last_modified_at: 2023-09-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># liquidctl
+# liquidctl
 
 Control liquid coolers.
 More information: <https://github.com/liquidctl/liquidctl>.

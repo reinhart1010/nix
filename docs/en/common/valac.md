@@ -3,6 +3,8 @@ layout: page
 title: common/valac (English)
 description: "Vala code compiler."
 content_hash: 353a94474ead26fcae6789029d1b1023084cab60
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # valac
 

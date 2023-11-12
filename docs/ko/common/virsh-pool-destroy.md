@@ -3,7 +3,7 @@ layout: page
 title: common/virsh-pool-destroy (한국어)
 description: "활성 가상 머신 스토리지 풀 중지."
 content_hash: 84c40290879477b3851c9113c21ae0db64668f55
-last_modified_at: 2023-10-22
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/virsh-pool-destroy.html
@@ -11,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/virsh-pool-destroy.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # virsh pool-destroy
 

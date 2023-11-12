@@ -3,7 +3,11 @@ layout: page
 title: linux/shutdown (italiano)
 description: "Spegni e riavvia il sistema."
 content_hash: 2be464563bfb7587c3baee63ce1284186b0139b8
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/shutdown.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/shutdown.html
     icon: bi bi-globe
@@ -13,6 +17,7 @@ related_topics:
   - title: français version
     url: /fr/linux/shutdown.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # shutdown
 

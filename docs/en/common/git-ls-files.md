@@ -3,10 +3,12 @@ layout: page
 title: common/git-ls-files (English)
 description: "Show information about files in the index and the working tree."
 content_hash: 6517f1992f2b4e7766856eaf71919ad6dff95773
+last_modified_at: 2023-11-12
 related_topics:
   - title: Türkçe version
     url: /tr/common/git-ls-files.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git ls-files
 

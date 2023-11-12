@@ -3,7 +3,7 @@ layout: page
 title: linux/ark (English)
 description: "KDE's archiving tool."
 content_hash: 003615db6fe3568de1f5118ef4509f251e3f8643
-last_modified_at: 2022-12-02
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/ark.html
@@ -14,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/ark.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ark
 

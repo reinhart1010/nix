@@ -3,6 +3,8 @@ layout: page
 title: common/peludna-prognoza (English)
 description: "Fetch pollen measurement data for Croatian cities from your terminal using Pliva's allergies data API."
 content_hash: c5e40578fb15184c7fd028506be1e48e450c77c8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # peludna-prognoza
 

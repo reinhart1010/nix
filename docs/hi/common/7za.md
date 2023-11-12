@@ -3,7 +3,7 @@ layout: page
 title: common/7za (हिन्दी)
 description: "उच्च संपीड़न अनुपात के साथ फ़ाइल संग्रहकर्ता।"
 content_hash: d892d02fedac5c5d16f1f25a0926ab18e9348413
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/common/7za.html
@@ -53,6 +53,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/7za.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # 7za
 

@@ -1,8 +1,9 @@
 ---
 layout: page
-title: common/zless (norsk bokmål (Norge))
+title: common/zless (norsk)
 description: "Vis komprimerte filer."
 content_hash: 5183e42c21ef3b6d35c016d1f34f5094f423da6c
+last_modified_at: 2023-11-12
 related_topics:
   - title: bosanski version
     url: /bs/common/zless.html
@@ -19,6 +20,7 @@ related_topics:
   - title: svenska version
     url: /sv/common/zless.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # zless
 

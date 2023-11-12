@@ -3,11 +3,10 @@ layout: page
 title: linux/powerstat (English)
 description: "Measures the power consumption of a computer that has a battery power source or supports the RAPL interface."
 content_hash: 381085aeb9f3466529c502987a6521703417d3db
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># powerstat
+# powerstat
 
 Measures the power consumption of a computer that has a battery power source or supports the RAPL interface.
 More information: <https://manned.org/powerstat>.

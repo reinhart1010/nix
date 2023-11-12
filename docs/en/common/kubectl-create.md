@@ -3,12 +3,10 @@ layout: page
 title: common/kubectl-create (English)
 description: "Create a resource from a file or from `stdin`."
 content_hash: 8a4dac4e927a5e9b1c67c90734f9d19ede31a096
-last_modified_at: 2023-10-21
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># kubectl create
+# kubectl create
 
 Create a resource from a file or from `stdin`.
 More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#create>.

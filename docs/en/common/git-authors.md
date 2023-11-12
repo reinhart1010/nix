@@ -3,7 +3,8 @@ layout: page
 title: common/git-authors (English)
 description: "Generate a list of committers of a Git repository."
 content_hash: 79afaac4e9aaa0a92f676b059e7b56ef6f66e8e4
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git authors
 

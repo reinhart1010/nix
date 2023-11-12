@@ -3,12 +3,10 @@ layout: page
 title: common/cargo-yank (English)
 description: "Remove a pushed crate from the index. This should only be used when you accidentally release a significantly broken crate."
 content_hash: 0a366101b3b3b0fb7a46b69cefb15eedcb089f9d
-last_modified_at: 2023-10-31
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cargo yank
+# cargo yank
 
 Remove a pushed crate from the index. This should only be used when you accidentally release a significantly broken crate.
 Note: this does not remove any data. The crate is still present after a yank - this just prevents new projects from using it.

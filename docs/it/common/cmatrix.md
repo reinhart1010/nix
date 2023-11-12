@@ -3,10 +3,18 @@ layout: page
 title: common/cmatrix (italiano)
 description: "Genera lettere che cadono, come in Matrix."
 content_hash: 1c1bee243d7617302d6abc278a9ee2749abf0c80
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/common/cmatrix.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/cmatrix.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/cmatrix.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cmatrix
 

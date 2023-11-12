@@ -3,7 +3,7 @@ layout: page
 title: linux/cat (हिन्दी)
 description: "फ़ाइलों को प्रिंट करता है और जोड़ता है।"
 content_hash: 6ea714665264e415c5af819d3bd5ffbeab46b2b2
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/cat.html
@@ -14,6 +14,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/cat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cat
 

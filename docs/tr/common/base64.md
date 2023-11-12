@@ -3,7 +3,7 @@ layout: page
 title: common/base64 (Türkçe)
 description: "Bir dosya veya standart veriyi Base64 formatında şifrele veya yalın veri çıktısı olarak deşifre et."
 content_hash: dc0cc82dde0880eb6111fa813c9b05a6e64ddab3
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/base64.html
@@ -35,6 +35,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/base64.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # base64
 

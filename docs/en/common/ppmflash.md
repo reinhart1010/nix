@@ -3,7 +3,8 @@ layout: page
 title: common/ppmflash (English)
 description: "Brighten a PPM image file."
 content_hash: 0f78c33fb0959ae5aad25433c8a15457a03dcc4c
-last_modified_at: 2023-10-22
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ppmflash
 

@@ -3,7 +3,7 @@ layout: page
 title: linux/distrobox-rm (Nederlands)
 description: "Verwijder een distrobox container."
 content_hash: 32a4386df43c9bf649029308f0be1ad88f475b65
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/distrobox-rm.html
@@ -14,11 +14,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/linux/distrobox-rm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># distrobox-rm
+# distrobox-rm
 
 Verwijder een distrobox container.
 Subcommando van `distrobox`. Bekijk ook: `tldr distrobox`.

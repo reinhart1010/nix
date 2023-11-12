@@ -3,15 +3,17 @@ layout: page
 title: common/amass-db (français)
 description: "Intéragie avec une base de données Amass."
 content_hash: 85df4b769d891cefb6a93db2540004843a7263c3
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/amass-db.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/amass-db.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># amass db
+# amass db
 
 Intéragie avec une base de données Amass.
 Plus d'informations : <https://github.com/OWASP/Amass/blob/master/doc/user_guide.md#the-db-subcommand>.

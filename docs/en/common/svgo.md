@@ -3,6 +3,8 @@ layout: page
 title: common/svgo (English)
 description: "SVG Optimizer: a Node.js-based tool for optimizing Scalable Vector Graphics files."
 content_hash: 7af6d3021e59147599924c78926d962ebff4ef4d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # svgo
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/strip (English)
 description: "Discard symbols from executables or object files."
 content_hash: a5d3e728cf76f1b094801e0ca57f40252bc2c1d6
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # strip
 

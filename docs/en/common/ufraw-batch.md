@@ -3,6 +3,8 @@ layout: page
 title: common/ufraw-batch (English)
 description: "Convert RAW files from cameras into standard image files."
 content_hash: 72cc9564851650a8438748bcad83bca372af027e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ufraw-batch
 

@@ -3,12 +3,10 @@ layout: page
 title: common/wfuzz (English)
 description: "A web application bruteforcer."
 content_hash: 110c5e1ad739aa0002de0a8cbe46bcee367af59f
-last_modified_at: 2023-05-03
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># wfuzz
+# wfuzz
 
 A web application bruteforcer.
 More information: <https://wfuzz.readthedocs.io/en/latest/user/basicusage.html>.

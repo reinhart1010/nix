@@ -3,6 +3,8 @@ layout: page
 title: common/takeout (English)
 description: "A Docker-based development-only dependency manager."
 content_hash: baed2b248d5d519308043e40119fe312bab71b27
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # takeout
 

@@ -3,16 +3,14 @@ layout: page
 title: common/omz (Deutsch)
 description: "Oh My Zsh Kommandozeilenwerkzeug."
 content_hash: 25a2861fe9d405bb0316a43450df9d539e4ebbe0
-last_modified_at: 2023-10-22
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/omz.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># omz
+# omz
 
 Oh My Zsh Kommandozeilenwerkzeug.
 Weitere Informationen: <https://github.com/ohmyzsh/ohmyzsh>.

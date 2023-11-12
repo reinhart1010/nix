@@ -3,7 +3,7 @@ layout: page
 title: common/git-annex (Türkçe)
 description: "Git ile dosyaları, dosyaların içeriğine bakmadan yönet."
 content_hash: 0721a0cb7bfea3da9e446a2f563c1490e320af9f
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-annex.html
@@ -14,6 +14,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/git-annex.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git annex
 

@@ -1,8 +1,9 @@
 ---
 layout: page
-title: common/unclutter (norsk bokmål (Norge))
+title: common/unclutter (norsk)
 description: "Gjemmer musepekeren."
 content_hash: a6549dc20fef2374a7024b05431dc4b4b6437865
+last_modified_at: 2023-11-12
 related_topics:
   - title: bosanski version
     url: /bs/common/unclutter.html
@@ -22,6 +23,7 @@ related_topics:
   - title: svenska version
     url: /sv/common/unclutter.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # unclutter
 

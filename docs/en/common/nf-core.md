@@ -3,6 +3,8 @@ layout: page
 title: common/nf-core (English)
 description: "The nf-core framework tools, to create, check and develop best-practice guidelines for Nextflow."
 content_hash: faaa6735ba3cc519c8a5455dc1898ea65eaedd6c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # nf-core
 

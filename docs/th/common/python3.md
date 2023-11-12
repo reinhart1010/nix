@@ -3,7 +3,7 @@ layout: page
 title: common/python3 (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `python`"
 content_hash: 1646696e8b93cee1bdc0fb55ba5b2f3a18146dbd
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/python3.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/python3.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # python3
 

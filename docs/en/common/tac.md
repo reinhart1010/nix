@@ -3,10 +3,12 @@ layout: page
 title: common/tac (English)
 description: "Display and concatenate files with lines in reversed order."
 content_hash: 039c52634f81c084524ab2dfc19be1fba58e3068
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/tac.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tac
 

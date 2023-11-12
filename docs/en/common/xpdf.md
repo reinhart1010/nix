@@ -3,6 +3,8 @@ layout: page
 title: common/xpdf (English)
 description: "Portable Document Format (PDF) file viewer."
 content_hash: 54dbd97aa0c4bf22b1be8253349d5d4bce21c889
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xpdf
 

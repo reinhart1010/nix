@@ -3,11 +3,10 @@ layout: page
 title: common/scan-build (English)
 description: "Command-line utility to run a static analyzer over a codebase as part of performing a regular build."
 content_hash: 86487d78fa554d3434b76432571092c3a2962606
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># scan-build
+# scan-build
 
 Command-line utility to run a static analyzer over a codebase as part of performing a regular build.
 More information: <https://clang-analyzer.llvm.org/scan-build.html>.

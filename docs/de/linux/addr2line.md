@@ -3,6 +3,7 @@ layout: page
 title: linux/addr2line (Deutsch)
 description: "Konvertiere Adressen von Binärdateien in Dateinamen und Zeilennummern."
 content_hash: 35585f286cc115dcf80a3c0f54a5e1ede530620d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/addr2line.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/addr2line.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # addr2line
 

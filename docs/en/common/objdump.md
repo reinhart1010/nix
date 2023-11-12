@@ -3,7 +3,8 @@ layout: page
 title: common/objdump (English)
 description: "View information about object files."
 content_hash: 8180947faeca8208d725dff39cb22fcd485753c0
-last_modified_at: 2023-08-29
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # objdump
 

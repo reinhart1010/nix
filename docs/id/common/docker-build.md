@@ -3,7 +3,7 @@ layout: page
 title: common/docker-build (Indonesia)
 description: "Bangun sebuah image dari Dockerfile."
 content_hash: e0fdbd3c100231d251a0dfb6130dc390770ae462
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-build.html
@@ -32,6 +32,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/docker-build.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker build
 

@@ -3,6 +3,8 @@ layout: page
 title: common/git-effort (English)
 description: "Display how much activity a file has had, showing commits per file and \"active days\" i.e. total number of days that contributed to the file."
 content_hash: 333c15e7c8daa5e0d8afa32dfc063fd335e7b77c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git effort
 

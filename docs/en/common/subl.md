@@ -3,6 +3,12 @@ layout: page
 title: common/subl (English)
 description: "Sublime Text editor."
 content_hash: 27fd92dadfc7745df50efdd04edcad2c0ccba915
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Indonesia version
+    url: /id/common/subl.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # subl
 

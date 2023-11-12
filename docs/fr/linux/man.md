@@ -3,6 +3,7 @@ layout: page
 title: linux/man (français)
 description: "Interface de consultation des pages du manuel de référence."
 content_hash: 99e1bfed3b661290004d0d48345676c1fba202f9
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/man.html
@@ -10,6 +11,25 @@ related_topics:
   - title: español version
     url: /es/linux/man.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/man.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/man.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/man.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/linux/man.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/linux/man.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/man.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # man
 

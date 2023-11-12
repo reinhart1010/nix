@@ -3,6 +3,8 @@ layout: page
 title: common/nvm.fish (English)
 description: "Install, uninstall, or switch between Node.js versions under the `fish` shell."
 content_hash: 020432b4f994089ff33d5cd953c4064f6031eb5a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # nvm
 

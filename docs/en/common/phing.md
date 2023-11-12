@@ -3,6 +3,8 @@ layout: page
 title: common/phing (English)
 description: "A PHP build tool based on Apache Ant."
 content_hash: 72c8363270c9a4f4827e70710f49fb9db67aa0c8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # phing
 

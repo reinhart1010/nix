@@ -3,11 +3,12 @@ layout: page
 title: common/expand (English)
 description: "Convert tabs to spaces."
 content_hash: 99b0fe2b39ea697b4b0865d002015d85ecb69e20
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/expand.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # expand
 

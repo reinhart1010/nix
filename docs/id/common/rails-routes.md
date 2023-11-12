@@ -3,10 +3,12 @@ layout: page
 title: common/rails-routes (Indonesia)
 description: "Menampilkan daftar _routes_ di aplikasi Rails."
 content_hash: 2314b744ba8221530bf4631080d6d6edbae7e1d9
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/rails-routes.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rails routes
 

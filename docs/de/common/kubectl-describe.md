@@ -3,16 +3,14 @@ layout: page
 title: common/kubectl-describe (Deutsch)
 description: "Details von Kubernetes-Objekten und -Ressourcen anzeigen."
 content_hash: e4557674fdc74bf66093a5534b13fcb99b6a5bf5
-last_modified_at: 2022-12-21
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/kubectl-describe.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># kubectl describe
+# kubectl describe
 
 Details von Kubernetes-Objekten und -Ressourcen anzeigen.
 Weitere Informationen: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#describe>.

@@ -3,9 +3,13 @@ layout: page
 title: common/aws-s3 (English)
 description: "CLI for AWS S3 - provides storage through web services interfaces."
 content_hash: a0c0ea9ac755cecdeb4dcccd6ef1690ccf341b09
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-s3.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/aws-s3.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/aws-s3.html
@@ -16,6 +20,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/aws-s3.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws s3
 

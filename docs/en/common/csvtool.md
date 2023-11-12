@@ -3,6 +3,8 @@ layout: page
 title: common/csvtool (English)
 description: "Utility to filter and extract data from CSV formatted sources."
 content_hash: 67000fb667b846c7e6b424ef71024fa7eeacd3c8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # csvtool
 

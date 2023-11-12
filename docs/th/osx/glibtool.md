@@ -3,7 +3,7 @@ layout: page
 title: osx/glibtool (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux libtool`"
 content_hash: a9efcc9a790ae0b5df95dd3b0d7343322051b54b
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/glibtool.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/glibtool.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # glibtool
 

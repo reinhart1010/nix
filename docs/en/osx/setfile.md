@@ -3,12 +3,10 @@ layout: page
 title: osx/setfile (English)
 description: "Sets file attributes on files in an HFS+ directory."
 content_hash: a198b0a19868d80560b35ce2cb48a74e8408667f
-last_modified_at: 2022-11-27
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># setfile
+# setfile
 
 Sets file attributes on files in an HFS+ directory.
 More information: <https://ss64.com/osx/setfile.html>.

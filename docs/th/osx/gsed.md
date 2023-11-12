@@ -3,7 +3,7 @@ layout: page
 title: osx/gsed (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux sed`"
 content_hash: aab01c4586f724d60bb0e44594243e234d020cbe
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gsed.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gsed.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gsed
 

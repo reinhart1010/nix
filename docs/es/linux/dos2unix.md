@@ -3,6 +3,7 @@ layout: page
 title: linux/dos2unix (español)
 description: "Cambia saltos de línea con formato DOS a saltos de línea con formato Unix."
 content_hash: 377b32826e4b97e7881f210f8bda48f7ce6ac5ab
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/dos2unix.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/dos2unix.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dos2unix
 

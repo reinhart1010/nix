@@ -3,6 +3,7 @@ layout: page
 title: windows/choco-list (中文)
 description: "使用 Chocolatey 显示包列表。"
 content_hash: 33b612097803e35814760289187af3154ce9dfc7
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-list.html
@@ -10,9 +11,16 @@ related_topics:
   - title: English version
     url: /en/windows/choco-list.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/windows/choco-list.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/choco-list.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/choco-list.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco list
 

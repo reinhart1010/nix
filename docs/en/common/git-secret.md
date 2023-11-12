@@ -3,6 +3,8 @@ layout: page
 title: common/git-secret (English)
 description: "Bash tool which stores private data inside a Git repository."
 content_hash: 779e778e8af8b0ac8ca09c2b2119f2ae4cdcc857
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git secret
 

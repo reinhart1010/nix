@@ -3,6 +3,8 @@ layout: page
 title: linux/cryptcat (English)
 description: "Cryptcat is netcat with encryption capabilities."
 content_hash: c35dc6910026b8fb7de447f72d4f22dcb83d91ec
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # cryptcat
 

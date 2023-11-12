@@ -3,6 +3,15 @@ layout: page
 title: common/go-env (English)
 description: "Manage environment variables used by the Go toolchain."
 content_hash: b5f7fa64b4a393d6afe8ffcc3ed9e5fc62b3e1f4
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Türkçe version
+    url: /tr/common/go-env.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/go-env.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # go env
 

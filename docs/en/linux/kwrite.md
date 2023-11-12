@@ -3,10 +3,12 @@ layout: page
 title: linux/kwrite (English)
 description: "Text editor of the KDE Desktop project."
 content_hash: 80336201cf53978d86a5f608daddde574bf98ce4
+last_modified_at: 2023-11-12
 related_topics:
   - title: മലയാളം version
     url: /ml/linux/kwrite.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # kwrite
 

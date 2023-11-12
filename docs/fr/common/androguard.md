@@ -3,6 +3,7 @@ layout: page
 title: common/androguard (français)
 description: "Outil d’ingénierie inverse pour les applications Android. Écrit en Python."
 content_hash: 8d52d8ef180bd66091b42088bcb503fdac690c20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/androguard.html
@@ -10,11 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/androguard.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># androguard
+# androguard
 
 Outil d’ingénierie inverse pour les applications Android. Écrit en Python.
 Plus d'informations : <https://github.com/androguard/androguard>.

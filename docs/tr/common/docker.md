@@ -3,6 +3,7 @@ layout: page
 title: common/docker (Türkçe)
 description: "Docker konteyner ve imgelerini yönetir."
 content_hash: 9651d83e2d8e3a482052105d2ef26a09229b7551
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -22,6 +23,9 @@ related_topics:
   - title: italiano version
     url: /it/common/docker.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/docker.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/docker.html
     icon: bi bi-globe
@@ -34,6 +38,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/docker.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker
 

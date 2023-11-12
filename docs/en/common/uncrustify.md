@@ -3,7 +3,8 @@ layout: page
 title: common/uncrustify (English)
 description: "C, C++, C#, D, Java and Pawn source code formatter."
 content_hash: 42b764fd35205418f674bb7448838cf65651d832
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # uncrustify
 

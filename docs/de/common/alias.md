@@ -3,7 +3,11 @@ layout: page
 title: common/alias (Deutsch)
 description: "Erstellt Aliasse - Alterative Namen für Befehle."
 content_hash: b284b665895d6761abbe3194cad9a6325a220e3e
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/alias.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/alias.html
     icon: bi bi-globe
@@ -43,9 +47,19 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/alias.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/alias.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/alias.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/alias.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/alias.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # alias
 

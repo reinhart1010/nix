@@ -3,7 +3,7 @@ layout: page
 title: common/mvn (português (Brasil))
 description: "Ferramenta para a criação e gerenciamento de projetos Java."
 content_hash: 965c6db9b390eec81bfd4736d237e97e51b506d4
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/mvn.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/mvn.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mvn
 

@@ -3,6 +3,8 @@ layout: page
 title: common/install-tl (English)
 description: "TeX Live cross-platform installer."
 content_hash: a13e9b63e6029ce2bbd3836f887cfb2f63b2fbb6
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # install-tl
 

@@ -3,11 +3,10 @@ layout: page
 title: common/rgrep (English)
 description: "Recursively find patterns in files using regular expressions."
 content_hash: 61433f8520f8303f87110fa7670782c885f5623b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rgrep
+# rgrep
 
 Recursively find patterns in files using regular expressions.
 Equivalent to `grep -r`.

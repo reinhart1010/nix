@@ -3,6 +3,8 @@ layout: page
 title: common/git-merge-repo (English)
 description: "Merge two repository histories."
 content_hash: 9ab21268ab463786631433abb1383671c11a5950
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git merge-repo
 

@@ -3,6 +3,7 @@ layout: page
 title: common/dotnet-restore (English)
 description: "Restores the dependencies and tools of a .NET project."
 content_hash: e9d749b1b818eae1bf9f6f96175c53bf6f9c164c
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/dotnet-restore.html
@@ -13,6 +14,7 @@ related_topics:
   - title: русский version
     url: /ru/common/dotnet-restore.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dotnet restore
 

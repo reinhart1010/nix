@@ -3,7 +3,7 @@ layout: page
 title: common/apg (English)
 description: "Creates arbitrarily complex random passwords."
 content_hash: 55e432f6e18a6d43c3aa367eae5468775c531f4e
-last_modified_at: 2023-05-22
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/apg.html
@@ -23,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/apg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apg
 

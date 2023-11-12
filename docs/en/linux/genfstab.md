@@ -3,6 +3,8 @@ layout: page
 title: linux/genfstab (English)
 description: "Arch Linux install script to generate output suitable for addition to an fstab file."
 content_hash: 5f115361468fa78aae502d32e2512f06f00557c0
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # genfstab
 

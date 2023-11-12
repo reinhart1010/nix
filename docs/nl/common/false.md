@@ -3,6 +3,7 @@ layout: page
 title: common/false (Nederlands)
 description: "Geeft een afsluitcode van 1 terug."
 content_hash: ff3b7848c40eb985e84183d08d06a96f222a1223
+last_modified_at: 2023-11-12
 related_topics:
   - title: bosanski version
     url: /bs/common/false.html
@@ -19,12 +20,13 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/false.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/false.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/common/false.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # false
 

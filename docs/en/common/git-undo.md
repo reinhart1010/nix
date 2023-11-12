@@ -3,6 +3,8 @@ layout: page
 title: common/git-undo (English)
 description: "Undo recent commits."
 content_hash: e49cc903bf4109227f938b9516718030f6ef0d80
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git undo
 

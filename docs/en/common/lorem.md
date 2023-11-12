@@ -3,6 +3,8 @@ layout: page
 title: common/lorem (English)
 description: "Create more or less random lorem ipsum text."
 content_hash: ccaa37c99bb25e5fbf3c78ef0ee0149450c4ce5a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lorem
 

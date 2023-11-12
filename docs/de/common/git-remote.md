@@ -3,6 +3,7 @@ layout: page
 title: common/git-remote (Deutsch)
 description: "Verwalte eine gewisse Anzahl an Repositories (remotes)."
 content_hash: 50ecea6640530fe6c39a3ed0a43c437a9b5ce4f0
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-remote.html
@@ -22,11 +23,18 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/git-remote.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-remote.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/git-remote.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# git remote
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git remote
 
 Verwalte eine gewisse Anzahl an Repositories (remotes).
 Weitere Informationen: <https://git-scm.com/docs/git-remote>.

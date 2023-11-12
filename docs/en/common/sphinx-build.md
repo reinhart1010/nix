@@ -3,6 +3,8 @@ layout: page
 title: common/sphinx-build (English)
 description: "Sphinx documentation generator."
 content_hash: 4378640e53eaaf0d9e1733a7bdb919bf5bff11b6
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sphinx-build
 

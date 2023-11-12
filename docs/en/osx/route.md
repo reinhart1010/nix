@@ -3,13 +3,18 @@ layout: page
 title: osx/route (English)
 description: "Manually manipulate the routing tables."
 content_hash: 8feee592fe0a2f6bb3c86f0fd6ab76c1faa6d271
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/osx/route.html
+    icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/osx/route.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/route.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # route
 

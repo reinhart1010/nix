@@ -3,6 +3,8 @@ layout: page
 title: common/llvm-cat (English)
 description: "Concatenate LLVM Bitcode (`.bc`) files."
 content_hash: ad8ff9455318e4e5d8f930f7029fbe5f4bbd5cbe
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # llvm-cat
 

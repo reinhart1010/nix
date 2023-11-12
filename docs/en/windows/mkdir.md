@@ -3,10 +3,22 @@ layout: page
 title: windows/mkdir (English)
 description: "Creates a directory."
 content_hash: 9183fa8346da304418d9a6269523ee33d340267e
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/mkdir.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/windows/mkdir.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/mkdir.html
+    icon: bi bi-globe
   - title: 日本語 version
     url: /ja/windows/mkdir.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/mkdir.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/mkdir.html
@@ -17,6 +29,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/mkdir.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mkdir
 

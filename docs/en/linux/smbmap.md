@@ -3,6 +3,8 @@ layout: page
 title: linux/smbmap (English)
 description: "SMB enumeration tool."
 content_hash: eb309eb57cbf47eaa341aea3aca76b7a4654b8ad
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # smbmap
 

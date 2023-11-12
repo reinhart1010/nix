@@ -3,6 +3,8 @@ layout: page
 title: common/vela (English)
 description: "Command-line tools for the Vela pipeline."
 content_hash: b40435bb7ff0d072336ad298c298740f0d91d7d7
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # vela
 

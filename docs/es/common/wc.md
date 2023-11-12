@@ -3,7 +3,7 @@ layout: page
 title: common/wc (español)
 description: "Cuenta líneas, palabras, y bytes."
 content_hash: e424ee026834ad427cc34e7fe3329cd9614fb020
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/wc.html
@@ -11,12 +11,16 @@ related_topics:
   - title: français version
     url: /fr/common/wc.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/wc.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/wc.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/wc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wc
 

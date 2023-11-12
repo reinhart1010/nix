@@ -3,6 +3,8 @@ layout: page
 title: common/xonsh (English)
 description: "Python-powered, cross-platform, Unix-gazing shell."
 content_hash: 8eb90e11fb13dd99fe3625da5ab57b9a319f17ba
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xonsh
 

@@ -3,7 +3,11 @@ layout: page
 title: common/aapt (Indonesia)
 description: "Alat Pemaketan Android Asset."
 content_hash: 1d98db8157a36ba57c46a2804106239d1b683d65
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/aapt.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/aapt.html
     icon: bi bi-globe
@@ -13,12 +17,31 @@ related_topics:
   - title: español version
     url: /es/common/aapt.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/aapt.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/common/aapt.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/aapt.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/aapt.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/aapt.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/common/aapt.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/common/aapt.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/aapt.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aapt
 

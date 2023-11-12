@@ -3,6 +3,8 @@ layout: page
 title: common/ulimit (English)
 description: "Get and set user limits."
 content_hash: ce617ab09d2a15235d1f6e6441a34d7beb995c97
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ulimit
 

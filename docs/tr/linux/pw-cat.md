@@ -3,11 +3,12 @@ layout: page
 title: linux/pw-cat (Türkçe)
 description: "Pipewire üzerinden ses dosyalarını çalın ve kaydedin."
 content_hash: fc7355a7279d3d2018a0e6795fc9af4fcc7f91c8
-last_modified_at: 2023-10-24
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/pw-cat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pw-cat
 

@@ -3,7 +3,7 @@ layout: page
 title: common/sed (한국어)
 description: "스크립트 가능한 방식으로 텍스트 편집."
 content_hash: 115b6c60550bb561c16121be638afdb23c7c5160
-last_modified_at: 2023-10-19
+last_modified_at: 2023-11-12
 related_topics:
   - title: dansk version
     url: /da/common/sed.html
@@ -14,11 +14,9 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/sed.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># sed
+# sed
 
 스크립트 가능한 방식으로 텍스트 편집.
 함께 보기: `awk`, `ed`.

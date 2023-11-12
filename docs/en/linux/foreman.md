@@ -3,6 +3,8 @@ layout: page
 title: linux/foreman (English)
 description: "Manage Procfile-based applications."
 content_hash: 95e447e2804561fad9d208ad748623ef406a1301
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # foreman
 

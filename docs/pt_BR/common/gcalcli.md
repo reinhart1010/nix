@@ -3,10 +3,12 @@ layout: page
 title: common/gcalcli (português (Brasil))
 description: "Ferramenta de linha de comando para interagir com o Google Agenda."
 content_hash: ece58e06d2bad00e99aae97a7be11ccac14dbf23
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/gcalcli.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gcalcli
 

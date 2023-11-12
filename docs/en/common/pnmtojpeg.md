@@ -3,12 +3,10 @@ layout: page
 title: common/pnmtojpeg (English)
 description: "Converts a PNM image file to the JPEG/JFIF/EXIF image format."
 content_hash: 63592ea59acf2ee532aa527f6a67982e39a2da09
-last_modified_at: 2023-10-19
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pnmtojpeg
+# pnmtojpeg
 
 Converts a PNM image file to the JPEG/JFIF/EXIF image format.
 More information: <https://netpbm.sourceforge.net/doc/pnmtojpeg.html>.

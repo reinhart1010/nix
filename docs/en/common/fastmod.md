@@ -3,10 +3,12 @@ layout: page
 title: common/fastmod (English)
 description: "A fast partial replacement for the codemod tool, replace and replace all in the whole codebase."
 content_hash: 8ab3b321548bd752063b1cf81603791950d59cfe
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/fastmod.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fastmod
 

@@ -3,7 +3,8 @@ layout: page
 title: linux/debchange (English)
 description: "Tool for maintenance of the debian/changelog file in a Debian source package."
 content_hash: f4fece26ddae31309509141c25f2111d6dff9d2e
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # debchange
 

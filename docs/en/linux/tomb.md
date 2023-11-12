@@ -3,6 +3,8 @@ layout: page
 title: linux/tomb (English)
 description: "Manage encrypted storage directories that can be safely transported and hidden in a filesystem."
 content_hash: 6e14a78e852d2c7ef0cfe1cd845b8348588fb86f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tomb
 

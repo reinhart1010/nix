@@ -3,16 +3,17 @@ layout: page
 title: linux/lspci (русский)
 description: "Отобразить список всех подключенных PCI-устройств."
 content_hash: c94b9c5dcee4d818aaf14484516c6a58337d5af5
-last_modified_at: 2023-01-17
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/lspci.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/linux/lspci.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># lspci
+# lspci
 
 Отобразить список всех подключенных PCI-устройств.
 Больше информации: <https://manned.org/lspci>.

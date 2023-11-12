@@ -3,7 +3,7 @@ layout: page
 title: windows/choco (हिन्दी)
 description: "चॉकलेटी पैकेज प्रबंधक।"
 content_hash: 98f7c4849b3dd1c3e229485a73e7dac36b28a0f9
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco.html
@@ -35,6 +35,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/choco.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco
 

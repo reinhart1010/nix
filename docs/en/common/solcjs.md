@@ -3,6 +3,8 @@ layout: page
 title: common/solcjs (English)
 description: "A set of JavaScript bindings for the Solidity compiler."
 content_hash: 0a8aa90fd9dfd16e4fd0642a86ae5e599e83af94
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # solcjs
 

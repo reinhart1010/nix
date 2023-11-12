@@ -3,6 +3,8 @@ layout: page
 title: linux/lxi (English)
 description: "Control LXI compatible instruments such as oscilloscopes."
 content_hash: 71d9afb4019cc34a789d5edfac193949decc4231
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lxi
 

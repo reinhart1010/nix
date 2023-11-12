@@ -3,12 +3,10 @@ layout: page
 title: common/qmmp (English)
 description: "An audio player."
 content_hash: d74ce0e91330a6076a1b6d308fba3b577ee1d5d6
-last_modified_at: 2022-11-20
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># qmmp
+# qmmp
 
 An audio player.
 More information: <http://qmmp.ylsoftware.com>.

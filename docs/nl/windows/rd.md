@@ -3,7 +3,7 @@ layout: page
 title: windows/rd (Nederlands)
 description: "Deze opdracht is een alias van `rmdir` op de Command Prompt (`cmd`), en vervolgens `Remove-Item` in PowerShell."
 content_hash: 4798ccf53a545d180e418373f055c7183509ba7e
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/rd.html
@@ -89,17 +89,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/rd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/rd.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># rd
+# rd
 
 Deze opdracht is een alias van `rmdir` op de Command Prompt (`cmd`), en vervolgens `Remove-Item` in PowerShell.
 Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/rd>.

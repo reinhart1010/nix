@@ -3,6 +3,8 @@ layout: page
 title: linux/cockpit-ws (English)
 description: "Communicate between the browser application and various configuration tools and services like `cockpit-bridge`."
 content_hash: 27f1dca73e1bb0c9f97227d57a65486d9621f9e8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # cockpit-ws
 

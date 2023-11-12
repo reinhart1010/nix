@@ -3,10 +3,15 @@ layout: page
 title: linux/xfce4-terminal (English)
 description: "The XFCE4 terminal emulator."
 content_hash: 8b413d6423a885c8e700fc94af9e651864524419
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Indonesia version
+    url: /id/linux/xfce4-terminal.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/xfce4-terminal.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xfce4-terminal
 

@@ -3,7 +3,7 @@ layout: page
 title: common/cradle-elastic (English)
 description: "Manage the Elasticsearch instances for a Cradle instance."
 content_hash: ec25cc7973da7a40048a2fc7d4c12f08c01c0de7
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/cradle-elastic.html
@@ -14,6 +14,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cradle-elastic.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cradle elastic
 

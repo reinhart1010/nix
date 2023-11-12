@@ -3,6 +3,8 @@ layout: page
 title: linux/vgcreate (English)
 description: "Create volume groups combining multiple mass-storage devices."
 content_hash: d819028d284f72e03960378d9f7756d523507106
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # vgcreate
 

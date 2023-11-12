@@ -3,6 +3,12 @@ layout: page
 title: linux/xcowsay (English)
 description: "Display a cute cow and message on your Linux desktop."
 content_hash: d6a7db3ec04311d8c0193682b136aca3ab94d3c9
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 中文 version
+    url: /zh/linux/xcowsay.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xcowsay
 

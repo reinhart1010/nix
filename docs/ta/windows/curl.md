@@ -3,7 +3,7 @@ layout: page
 title: windows/curl (தமிழ்)
 description: "PowerShell இல், அசல் `curl` நிரல் (<https://curl.se>) சரியாக நிறுவப்படாதபோது இந்தக் கட்டளை `Invoke-WebRequest` என்பதன் மாற்றுப்பெயராக இருக்கலாம்."
 content_hash: 059c7ed63cd5de2c4d402a980b9c77d862a2848a
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/curl.html
@@ -92,6 +92,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/curl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # curl
 

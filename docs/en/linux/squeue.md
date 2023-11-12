@@ -3,6 +3,8 @@ layout: page
 title: linux/squeue (English)
 description: "View the jobs queued in the SLURM scheduler."
 content_hash: 1f4f206f4ebad2fe5d1fcefc9fd37fc8290d5403
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # squeue
 

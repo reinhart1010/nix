@@ -3,6 +3,8 @@ layout: page
 title: windows/wmic (English)
 description: "Interactive shell for detailed information about running processes."
 content_hash: f66f7e2308db70d1dead40f581efe050bd73500e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # wmic
 

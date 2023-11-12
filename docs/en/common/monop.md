@@ -3,6 +3,8 @@ layout: page
 title: common/monop (English)
 description: "Finds and displays signatures of Types and methods inside .NET assemblies."
 content_hash: 17a2c3bd1a508c8ab80d757e421f028712c4c400
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # monop
 

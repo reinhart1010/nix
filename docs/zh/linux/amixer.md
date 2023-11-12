@@ -3,6 +3,7 @@ layout: page
 title: linux/amixer (中文)
 description: "ALSA 声卡驱动程序的混合器。"
 content_hash: 52084980d0205ebc2c3305629ed037722a3a855a
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/amixer.html
@@ -10,6 +11,10 @@ related_topics:
   - title: English version
     url: /en/linux/amixer.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/amixer.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # amixer
 

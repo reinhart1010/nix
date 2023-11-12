@@ -3,6 +3,7 @@ layout: page
 title: common/dotnet (Deutsch)
 description: "Plattformübergreifende Kommandozeilenanwendungen für .NET Core."
 content_hash: 902d2cf1ec4c580c62bb7dd6235ad50a4bd44e36
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/dotnet.html
@@ -25,6 +26,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/dotnet.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dotnet
 

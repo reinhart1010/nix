@@ -3,7 +3,7 @@ layout: page
 title: common/docker-exec (français)
 description: "Exécute une commande dans un conteneur déjà en cours d'exécution."
 content_hash: 0cfd1368438dbd3db00e8b9274ae1f38feec1e2f
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-exec.html
@@ -14,9 +14,13 @@ related_topics:
   - title: italiano version
     url: /it/common/docker-exec.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/docker-exec.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/docker-exec.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker exec
 

@@ -3,16 +3,17 @@ layout: page
 title: linux/xbps-install (русский)
 description: "XBPS утилита по (пере)установке и обновлению пакетов."
 content_hash: 343e731c3e451e3d935ee972464f0027f8de81a3
-last_modified_at: 2023-09-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/xbps-install.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/xbps-install.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># xbps-install
+# xbps-install
 
 XBPS утилита по (пере)установке и обновлению пакетов.
 Смотрите также: `xbps`.

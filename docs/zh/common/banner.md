@@ -3,7 +3,7 @@ layout: page
 title: common/banner (中文)
 description: "将给定参数输出为大型 ASCII 文字。"
 content_hash: fd0f8d4a5e978e90783ade66a2caa97d7b9f4820
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/banner.html
@@ -20,6 +20,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/banner.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # banner
 

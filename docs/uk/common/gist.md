@@ -3,11 +3,12 @@ layout: page
 title: common/gist (українська)
 description: "Завантажує код у https://gist.github.com."
 content_hash: bab0481016322214c869a21b8c633ba10ecc7490
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/gist.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gist
 

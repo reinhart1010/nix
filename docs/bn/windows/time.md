@@ -3,7 +3,7 @@ layout: page
 title: windows/time (বাংলা)
 description: "সিস্টেম সময় প্রদর্শন বা সেট করুন।"
 content_hash: 42446212fdf91dfc569224f81ac121ba1273ca61
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/time.html
@@ -11,6 +11,7 @@ related_topics:
   - title: polski version
     url: /pl/windows/time.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # time
 

@@ -3,6 +3,7 @@ layout: page
 title: common/aws-ec2 (English)
 description: "CLI for AWS EC2."
 content_hash: 63f65f4af71ef0f7fb5096445dfdc82273f23a7c
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-ec2.html
@@ -13,6 +14,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/aws-ec2.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws ec2
 

@@ -3,7 +3,7 @@ layout: page
 title: linux/systemctl (português (Brasil))
 description: "Controla o sistema systemd e o gerenciador de serviços."
 content_hash: 37f2bc30e7808459690f7bfff36659b3c5365770
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/systemctl.html
@@ -17,14 +17,21 @@ related_topics:
   - title: français version
     url: /fr/linux/systemctl.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/systemctl.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/systemctl.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/linux/systemctl.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/systemctl.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># systemctl
+# systemctl
 
 Controla o sistema systemd e o gerenciador de serviços.
 Mais informações: <https://www.freedesktop.org/software/systemd/man/systemctl.html>.

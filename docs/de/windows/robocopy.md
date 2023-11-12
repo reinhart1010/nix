@@ -3,15 +3,17 @@ layout: page
 title: windows/robocopy (Deutsch)
 description: "Robustes Kopieren von Dateien und Ordnern."
 content_hash: c1d58126fabc43f7aa97995d4aaf2a937e143623
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/robocopy.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/robocopy.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># robocopy
+# robocopy
 
 Robustes Kopieren von Dateien und Ordnern.
 Standardmäßig werden Dateien nur kopiert, wenn die Quell- und Zieldatei ein unterschiedliches Änderungsdatum oder eine unterschiedliche Dateigröße haben.

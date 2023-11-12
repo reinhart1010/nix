@@ -3,6 +3,8 @@ layout: page
 title: common/pt (English)
 description: "Platinum Searcher."
 content_hash: 799ec70f7566aea489b5531a042bdbfbb9280898
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pt
 

@@ -3,6 +3,8 @@ layout: page
 title: common/bfg (English)
 description: "Remove large files or passwords from Git history like git-filter-branch."
 content_hash: 5f7b05630ec9571dcf466bbc1e077edbf03e243b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # bfg
 

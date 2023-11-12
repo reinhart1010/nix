@@ -3,6 +3,8 @@ layout: page
 title: linux/pihole (English)
 description: "Terminal interface for the Pi-hole ad-blocking DNS server."
 content_hash: 5addb6cc796e957d63e585aa6bb37ffaae9e1423
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pihole
 

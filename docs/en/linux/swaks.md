@@ -3,11 +3,10 @@ layout: page
 title: linux/swaks (English)
 description: "Swiss Army Knife SMTP, the all-purpose SMTP transaction tester."
 content_hash: b6563503a335b396185482f67a52270aea48fa06
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># swaks
+# swaks
 
 Swiss Army Knife SMTP, the all-purpose SMTP transaction tester.
 More information: <https://github.com/jetmore/swaks/blob/develop/doc/base.pod>.

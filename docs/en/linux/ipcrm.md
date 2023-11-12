@@ -3,6 +3,8 @@ layout: page
 title: linux/ipcrm (English)
 description: "Delete IPC (Inter-process Communication) resources."
 content_hash: 3c0551073eea73b898462a5fcebcb570b2ad39f7
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ipcrm
 

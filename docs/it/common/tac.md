@@ -3,19 +3,15 @@ layout: page
 title: common/tac (italiano)
 description: "Stampa e concatena file al contrario."
 content_hash: 4dec5f22a58d44d376de4192c7c24b7820d8b51c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/tac.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/tac.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># tac
 

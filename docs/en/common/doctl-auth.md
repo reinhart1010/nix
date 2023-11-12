@@ -3,6 +3,8 @@ layout: page
 title: common/doctl-auth (English)
 description: "Authenticate doctl with one or more API tokens."
 content_hash: 8e4f72d09af0b89e227171340bc01c3c7072c63b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # doctl auth
 

@@ -3,6 +3,7 @@ layout: page
 title: windows/choco-outdated (polski)
 description: "Sprawdzenie nieaktualnych pakietów zarządzanych przez Chocolatey."
 content_hash: 8f871c313b7d8bf55a2b230881aab0087d44ea70
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-outdated.html
@@ -10,17 +11,18 @@ related_topics:
   - title: English version
     url: /en/windows/choco-outdated.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/windows/choco-outdated.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/windows/choco-outdated.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/choco-outdated.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># choco outdated
+# choco outdated
 
 Sprawdzenie nieaktualnych pakietów zarządzanych przez Chocolatey.
 Więcej informacji: <https://chocolatey.org/docs/commands-outdated>.

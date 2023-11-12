@@ -3,12 +3,10 @@ layout: page
 title: common/doctl-databases-options (English)
 description: "Enable the navigation of available options under each database engine."
 content_hash: 362037a6a8faea0ae056c93cf4abe9fe41c7a173
-last_modified_at: 2023-10-12
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># doctl databases options
+# doctl databases options
 
 Enable the navigation of available options under each database engine.
 More information: <https://docs.digitalocean.com/reference/doctl/reference/databases/options>.

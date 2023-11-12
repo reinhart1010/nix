@@ -3,6 +3,7 @@ layout: page
 title: common/git-remote (italiano)
 description: "Gestisci i collegamenti remoti (\"remote\") di un repository locale."
 content_hash: f56557ab1e94614706b7d253a94ec2765bac44e0
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-remote.html
@@ -22,11 +23,18 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/git-remote.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-remote.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/git-remote.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# git remote
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git remote
 
 Gestisci i collegamenti remoti ("remote") di un repository locale.
 Maggiori informazioni: <https://git-scm.com/docs/git-remote>.

@@ -3,6 +3,8 @@ layout: page
 title: common/xmlto (English)
 description: "Apply an XSL stylesheet to an XML document."
 content_hash: 9a26181875bf5d6ea6cfaa1f13be888b91ef1089
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xmlto
 

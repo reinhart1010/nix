@@ -3,6 +3,7 @@ layout: page
 title: linux/apt (Türkçe)
 description: "Debian tabanlı dağıtımlar için paket yönetim aracı."
 content_hash: 48f76325858b16377fded75edc5e54b5ccf9cd2d
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/linux/apt.html
@@ -25,6 +26,9 @@ related_topics:
   - title: français version
     url: /fr/linux/apt.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/apt.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/linux/apt.html
     icon: bi bi-globe
@@ -36,6 +40,9 @@ related_topics:
     icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/apt.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/apt.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/linux/apt.html
@@ -49,9 +56,13 @@ related_topics:
   - title: தமிழ் version
     url: /ta/linux/apt.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/apt.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apt.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apt
 

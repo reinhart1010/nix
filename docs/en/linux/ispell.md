@@ -3,10 +3,12 @@ layout: page
 title: linux/ispell (English)
 description: "Interactive spell checking."
 content_hash: 52f52b37ec4a622051e5c296b05d27379bccfce8
+last_modified_at: 2023-11-12
 related_topics:
   - title: русский version
     url: /ru/linux/ispell.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ispell
 

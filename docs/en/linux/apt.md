@@ -3,7 +3,7 @@ layout: page
 title: linux/apt (English)
 description: "Package management utility for Debian based distributions."
 content_hash: 7c03a184ac273090d1477b5c62637de159a1cd5a
-last_modified_at: 2022-12-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/linux/apt.html
@@ -23,6 +23,9 @@ related_topics:
   - title: français version
     url: /fr/linux/apt.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/apt.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/linux/apt.html
     icon: bi bi-globe
@@ -34,6 +37,9 @@ related_topics:
     icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/apt.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/apt.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/linux/apt.html
@@ -50,9 +56,13 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/apt.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/apt.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apt.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apt
 

@@ -3,6 +3,8 @@ layout: page
 title: common/mongorestore (English)
 description: "Utility to import a collection or database from a binary dump into a MongoDB instance."
 content_hash: 3ca4c8b9ce669b3d0835a2e97250b44cd8b2f606
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mongorestore
 

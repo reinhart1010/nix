@@ -3,11 +3,12 @@ layout: page
 title: common/gitlab (English)
 description: "Ruby wrapper for the GitLab API."
 content_hash: 1c60e8cadbf349bb4751e3d0f16b6aac731b7211
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: Türkçe version
     url: /tr/common/gitlab.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gitlab
 

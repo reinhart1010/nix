@@ -3,6 +3,8 @@ layout: page
 title: common/if (English)
 description: "Performs conditional processing in shell scripts."
 content_hash: 0a5b2e6a1886d84490b7b9bb332335e11d298fc5
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # if
 

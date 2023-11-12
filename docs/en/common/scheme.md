@@ -3,6 +3,8 @@ layout: page
 title: common/scheme (English)
 description: "MIT Scheme language interpreter and REPL (interactive shell)."
 content_hash: ac66ad783db9f8fd42080735acd622abeb35117d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # scheme
 

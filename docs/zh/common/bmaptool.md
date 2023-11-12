@@ -3,6 +3,7 @@ layout: page
 title: common/bmaptool (中文)
 description: "便捷地创建或复制块文件映射（被设计的比`cp`或`dd`更快）。"
 content_hash: 60092b64229cf2bc4d3ce4c8395446fa5f1fba61
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/bmaptool.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/bmaptool.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bmaptool
 

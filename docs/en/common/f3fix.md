@@ -3,6 +3,8 @@ layout: page
 title: common/f3fix (English)
 description: "Edit the partition table of a fake flash drive."
 content_hash: bea53b69f2ffd345f3b6b7a28ed6d822c49dfe6c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # f3fix
 

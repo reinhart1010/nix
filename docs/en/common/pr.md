@@ -3,6 +3,8 @@ layout: page
 title: common/pr (English)
 description: "Paginate or columnate files for printing."
 content_hash: 481ac23cf9c7b912bf175dcb1202a7a3847a63e1
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pr
 

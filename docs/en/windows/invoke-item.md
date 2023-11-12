@@ -3,7 +3,8 @@ layout: page
 title: windows/invoke-item (English)
 description: "Open files in their respective default programs."
 content_hash: 5acc512386c385e300e801cfe9e62501a289c426
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # Invoke-Item
 

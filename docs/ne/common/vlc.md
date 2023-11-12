@@ -3,7 +3,7 @@ layout: page
 title: common/vlc (नेपाली)
 description: "क्रस प्लेटफर्म मल्टिमिडिया प्लेयर।"
 content_hash: 9ce2724c0f9b266519c9e7c58c01ef2be1ecf866
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/vlc.html
@@ -17,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/vlc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # vlc
 

@@ -3,6 +3,8 @@ layout: page
 title: common/popeye (English)
 description: "Utility that reports potential issues with Kubernetes deployment manifests."
 content_hash: 3562e0f4284b41b639dd237a368d5d9a8d71b310
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # popeye
 

@@ -3,6 +3,7 @@ layout: page
 title: common/git-help (Türkçe)
 description: "Git hakkında yardım bilgisi görüntüleme aracı."
 content_hash: 519088262e37cef9e9dd13ab5c722828cd2638c3
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-help.html
@@ -16,6 +17,7 @@ related_topics:
   - title: italiano version
     url: /it/common/git-help.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git help
 

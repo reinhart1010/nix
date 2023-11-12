@@ -3,7 +3,11 @@ layout: page
 title: common/grep (русский)
 description: "Поиск по шаблону в файлах используя регулярные выражения."
 content_hash: e9aa53a4cc0772659c4dae439a1dcb7b53d0a41d
+last_modified_at: 2023-11-12
 related_topics:
+  - title: dansk version
+    url: /da/common/grep.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/grep.html
     icon: bi bi-globe
@@ -13,8 +17,14 @@ related_topics:
   - title: español version
     url: /es/common/grep.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/grep.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/grep.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/grep.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/grep.html
@@ -22,11 +32,12 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/grep.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/grep.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># grep
+# grep
 
 Поиск по шаблону в файлах используя регулярные выражения.
 Больше информации: <https://www.gnu.org/software/grep/manual/grep.html>.

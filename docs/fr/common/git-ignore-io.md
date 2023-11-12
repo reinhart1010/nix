@@ -3,6 +3,7 @@ layout: page
 title: common/git-ignore-io (français)
 description: "Générer le fichier .gitignore depuis des templates prédéfinis."
 content_hash: 8a7109ea6238abe86371d31290be99a4beda2e70
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-ignore-io.html
@@ -13,6 +14,7 @@ related_topics:
   - title: italiano version
     url: /it/common/git-ignore-io.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git ignore-io
 

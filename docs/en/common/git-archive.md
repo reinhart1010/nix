@@ -3,7 +3,7 @@ layout: page
 title: common/git-archive (English)
 description: "Create an archive of files from a named tree."
 content_hash: 7897361ac535155b2ad9d61066b2b63242e7117c
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-archive.html
@@ -20,6 +20,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-archive.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git archive
 

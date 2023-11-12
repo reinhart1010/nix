@@ -3,6 +3,8 @@ layout: page
 title: common/interdiff (English)
 description: "Show differences between two diff files."
 content_hash: 579c740b56348d6b478c7aec272193c4ee474631
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # interdiff
 

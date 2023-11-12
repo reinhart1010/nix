@@ -3,6 +3,8 @@ layout: page
 title: linux/file-rename (English)
 description: "Rename multiple files."
 content_hash: ee6fe6d6cb3d16e3b80725c1c7c3aa986d7427ec
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rename
 

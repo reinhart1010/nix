@@ -3,6 +3,15 @@ layout: page
 title: common/go-clean (English)
 description: "Remove object files and cached files."
 content_hash: 708a9585361b6055dd24720e773909448b4017be
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Türkçe version
+    url: /tr/common/go-clean.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/go-clean.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # go clean
 

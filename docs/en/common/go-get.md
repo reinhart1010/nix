@@ -3,6 +3,12 @@ layout: page
 title: common/go-get (English)
 description: "Add a dependency package, or download packages in legacy GOPATH mode."
 content_hash: 9c64c4fb4f727a86774eda7aa78d2666eedecfc8
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Türkçe version
+    url: /tr/common/go-get.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # go get
 

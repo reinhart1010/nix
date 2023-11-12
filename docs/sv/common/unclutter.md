@@ -3,6 +3,7 @@ layout: page
 title: common/unclutter (svenska)
 description: "Döljer muspekaren."
 content_hash: 32668ef55c88efb1dfb9dad051eca9b68c6d07c3
+last_modified_at: 2023-11-12
 related_topics:
   - title: bosanski version
     url: /bs/common/unclutter.html
@@ -19,9 +20,10 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/unclutter.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/unclutter.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # unclutter
 

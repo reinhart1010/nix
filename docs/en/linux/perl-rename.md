@@ -3,6 +3,8 @@ layout: page
 title: linux/perl-rename (English)
 description: "Rename multiple files."
 content_hash: 18cd75a21c1deba87df28466fd91633249230f69
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rename
 

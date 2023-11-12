@@ -3,6 +3,8 @@ layout: page
 title: common/travis (English)
 description: "Command-line client to interface with Travis CI."
 content_hash: f04d506a50260fa5db1f46c725b16e9959c6a884
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # travis
 

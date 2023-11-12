@@ -3,7 +3,7 @@ layout: page
 title: linux/systemctl (한국어)
 description: "systemd 시스템 및 서비스 관리자를 제어합니다."
 content_hash: 55a1802e1e84eaf864d0d36373bb1a453568b73e
-last_modified_at: 2023-10-17
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/systemctl.html
@@ -26,11 +26,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/systemctl.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/systemctl.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># systemctl
+# systemctl
 
 systemd 시스템 및 서비스 관리자를 제어합니다.
 더 많은 정보: <https://www.freedesktop.org/software/systemd/man/systemctl.html>.

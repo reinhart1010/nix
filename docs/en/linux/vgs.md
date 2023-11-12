@@ -3,6 +3,8 @@ layout: page
 title: linux/vgs (English)
 description: "Display information about volume groups."
 content_hash: 06a4a09b69a145070f27193e7bfc0e1c965de897
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # vgs
 

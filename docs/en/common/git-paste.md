@@ -3,12 +3,10 @@ layout: page
 title: common/git-paste (English)
 description: "Send commits to a pastebin site using `pastebinit`."
 content_hash: 30f129b5c41ee623efe5856b80c9c0a21b8177f7
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git paste
+# git paste
 
 Send commits to a pastebin site using `pastebinit`.
 Part of `git-extras`.

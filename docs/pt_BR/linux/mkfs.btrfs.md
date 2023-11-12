@@ -3,7 +3,7 @@ layout: page
 title: linux/mkfs.btrfs (português (Brasil))
 description: "Crie um sistema de arquivos btrfs."
 content_hash: 89634ec45b65f10dbc8ca466d2e939deb785e924
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/mkfs.btrfs.html
@@ -11,11 +11,9 @@ related_topics:
   - title: Indonesia version
     url: /id/linux/mkfs.btrfs.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mkfs.btrfs
+# mkfs.btrfs
 
 Crie um sistema de arquivos btrfs.
 O padrão é `raid1`, que especifica 2 cópias de um determinado bloco de dados espalhados por 2 dispositivos diferentes.

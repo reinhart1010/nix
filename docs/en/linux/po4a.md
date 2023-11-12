@@ -3,6 +3,8 @@ layout: page
 title: linux/po4a (English)
 description: "Update both PO files and translated documents."
 content_hash: b1ddce2e5482d4864dcdbc90b1fe0465ef36b052
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # po4a
 

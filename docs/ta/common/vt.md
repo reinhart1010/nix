@@ -3,11 +3,12 @@ layout: page
 title: common/vt (தமிழ்)
 description: "வைரஸ் டோட்டலுக்கான கட்டளை-வரி இடைமுகம்."
 content_hash: 3b82ff46cfafa379d1168b547fdeb86cf5972ab5
-last_modified_at: 2022-12-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/vt.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # vt
 

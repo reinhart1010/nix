@@ -3,6 +3,8 @@ layout: page
 title: common/kak (English)
 description: "Kakoune is a mode-based code editor implementing the \"multiple selections\" paradigm."
 content_hash: fd1bfc75d99b9290dae35ae394ca7b0b35665c9b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # kak
 

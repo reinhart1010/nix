@@ -3,7 +3,7 @@ layout: page
 title: osx/csshx (español)
 description: "Herramienta SSH de clúster para macOS."
 content_hash: 092741156b233dbf0e30a26b402624aa3b39e977
-last_modified_at: 2023-08-13
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/csshx.html
@@ -11,11 +11,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/osx/csshx.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># csshX
+# csshX
 
 Herramienta SSH de clúster para macOS.
 Más información: <https://github.com/brockgr/csshx>.

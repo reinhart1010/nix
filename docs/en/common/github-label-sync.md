@@ -3,10 +3,12 @@ layout: page
 title: common/github-label-sync (English)
 description: "A command-line interface for synchronizing GitHub labels."
 content_hash: 7e700920b13b09e497157fb2f1162ec4e9931fd2
+last_modified_at: 2023-11-12
 related_topics:
   - title: Türkçe version
     url: /tr/common/github-label-sync.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # github-label-sync
 

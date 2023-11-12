@@ -3,7 +3,8 @@ layout: page
 title: linux/chronyc (English)
 description: "Query the Chrony NTP daemon."
 content_hash: 4bf37a53ad739bebd629b3a628b94a3aa7bd3e9e
-last_modified_at: 2023-06-28
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # chronyc
 

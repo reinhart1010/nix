@@ -3,13 +3,18 @@ layout: page
 title: linux/dmidecode (português (Brasil))
 description: "Exibe em formato de fácil leitura o sumário DMI (também conhecido como SMBIOS) ."
 content_hash: 57815451261eadbd872131c0a1f2011a079c1873
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/dmidecode.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/dmidecode.html
     icon: bi bi-globe
   - title: español version
     url: /es/linux/dmidecode.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dmidecode
 

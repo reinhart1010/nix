@@ -3,11 +3,12 @@ layout: page
 title: windows/repair-bde (English)
 description: "Attempt to repair or decrypt a damaged BitLocker-encrypted volume."
 content_hash: e107c4fc59d3552e5e2970776511a377e7b198c0
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/windows/repair-bde.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # repair-bde
 

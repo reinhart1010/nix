@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman-sync (polski)
 description: "Narzędzie do zarządzania pakietami w Arch Linuksie."
 content_hash: 50c33078cb0e0831086d798e63fea0cd125116f9
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-sync.html
@@ -23,11 +23,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/pacman-sync.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pacman --sync
+# pacman --sync
 
 Narzędzie do zarządzania pakietami w Arch Linuksie.
 Zobacz także: `pacman`.

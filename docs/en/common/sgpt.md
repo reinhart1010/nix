@@ -3,12 +3,10 @@ layout: page
 title: common/sgpt (English)
 description: "Command-line productivity tool powered by OpenAI's GPT models."
 content_hash: 2989e5ec151e2edb497015f381a1c1191482606e
-last_modified_at: 2023-04-22
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># sgpt
+# sgpt
 
 Command-line productivity tool powered by OpenAI's GPT models.
 More information: <https://github.com/TheR1D/shell_gpt#readme>.

@@ -3,6 +3,8 @@ layout: page
 title: linux/fallocate (English)
 description: "Reserve or deallocate disk space to files."
 content_hash: cd664dd0d623b04fd8c794831bb8392c65a55a4f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fallocate
 

@@ -3,7 +3,7 @@ layout: page
 title: common/ssh (한국어)
 description: "보안 쉘은 원격 시스템에 안전하게 로그인하는 데 사용되는 프로토콜입니다."
 content_hash: 996066f9fb51ffe8963355247348d60cc9636693
-last_modified_at: 2023-10-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ssh.html
@@ -20,11 +20,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/ssh.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ssh
+# ssh
 
 보안 쉘은 원격 시스템에 안전하게 로그인하는 데 사용되는 프로토콜입니다.
 원격 서버에서 명령을 기록하거나 실행하는 데 사용할 수 있습니다.

@@ -3,11 +3,12 @@ layout: page
 title: linux/powertop (English)
 description: "Optimize battery power usage."
 content_hash: eb8d374a66f62e37cdd19557921443e79604b46b
-last_modified_at: 2023-08-17
+last_modified_at: 2023-11-12
 related_topics:
   - title: polski version
     url: /pl/linux/powertop.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # powertop
 

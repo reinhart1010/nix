@@ -3,7 +3,8 @@ layout: page
 title: common/opt (English)
 description: "A tool that takes LLVM source files and runs specified optimizations and/or analyses on them."
 content_hash: 681c459dc0e94c29cc64b818c7c6b31590745d68
-last_modified_at: 2023-02-27
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # opt
 

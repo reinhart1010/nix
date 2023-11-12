@@ -3,6 +3,12 @@ layout: page
 title: common/csh (English)
 description: "The shell (command interpreter) with C-like syntax."
 content_hash: 2ab86ec8bc602ded35a0e9f148751047cdbdddd9
+last_modified_at: 2023-11-12
+related_topics:
+  - title: français version
+    url: /fr/common/csh.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # csh
 

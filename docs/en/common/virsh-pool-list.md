@@ -3,6 +3,15 @@ layout: page
 title: common/virsh-pool-list (English)
 description: "List information about virtual machine storage pools."
 content_hash: 91878c964c06c2b9a7660ca7c905424e544a62de
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/virsh-pool-list.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/virsh-pool-list.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # virsh pool-list
 

@@ -3,6 +3,8 @@ layout: page
 title: common/rdfind (English)
 description: "Find files with duplicate content and get rid of them."
 content_hash: b048a07f95034abca4d476a27a17f940687c5e2b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rdfind
 

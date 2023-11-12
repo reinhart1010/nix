@@ -3,7 +3,7 @@ layout: page
 title: common/nc (Nederlands)
 description: "Netcat is een veelzijdig hulpprogramma voor het omleiden van IO naar een netwerkstream."
 content_hash: 5df06cb7c1309786a0bd53056536a3bf45b6fcd3
-last_modified_at: 2023-11-07
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/nc.html
@@ -14,9 +14,16 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/nc.html
     icon: bi bi-globe
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/nc.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># nc
 

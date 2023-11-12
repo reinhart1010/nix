@@ -3,6 +3,7 @@ layout: page
 title: linux/xclip (English)
 description: "X11 clipboard manipulation tool, similar to `xsel`."
 content_hash: c31ef64924868855b52c8bfecc6d8ec01f61ec07
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/linux/xclip.html
@@ -10,6 +11,7 @@ related_topics:
   - title: français version
     url: /fr/linux/xclip.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xclip
 

@@ -3,12 +3,10 @@ layout: page
 title: common/pop (English)
 description: "Send emails from your terminal."
 content_hash: 81133dfeb73654d8e21af3806d355f2804cf2685
-last_modified_at: 2023-08-05
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pop
+# pop
 
 Send emails from your terminal.
 More information: <https://github.com/charmbracelet/pop>.

@@ -3,7 +3,7 @@ layout: page
 title: common/virsh-help (한국어)
 description: "`virsh` 명령 또는 명령 그룹에 대한 정보 표시."
 content_hash: 4f085cb89b8e3c0c58089adbb91bc6101f11a1f7
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/virsh-help.html
@@ -11,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/virsh-help.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # virsh-help
 

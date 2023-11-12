@@ -3,7 +3,7 @@ layout: page
 title: osx/appsleepd (español)
 description: "Proporciona servicios de suspensión de aplicaciones."
 content_hash: af1e442903b583cd20d0858eabb467e72924ecda
-last_modified_at: 2023-08-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/appsleepd.html
@@ -11,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/osx/appsleepd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # appsleepd
 

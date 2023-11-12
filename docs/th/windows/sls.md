@@ -3,7 +3,7 @@ layout: page
 title: windows/sls (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `where-object`"
 content_hash: 7ca9b9814fcdc93a822c4e4b4343d108ca57b790
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/sls.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/sls.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sls
 

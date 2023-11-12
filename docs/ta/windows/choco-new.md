@@ -3,7 +3,7 @@ layout: page
 title: windows/choco-new (தமிழ்)
 description: "சாக்லேட்டியுடன் புதிய தொகுப்பு விவரக்குறிப்பு கோப்புகளை உருவாக்கவும்."
 content_hash: 97e0954dc2932a7661be74d9d6bfcaac637b64cc
-last_modified_at: 2022-12-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-new.html
@@ -11,12 +11,16 @@ related_topics:
   - title: English version
     url: /en/windows/choco-new.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/windows/choco-new.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/windows/choco-new.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/choco-new.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco new
 

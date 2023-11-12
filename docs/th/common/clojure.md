@@ -3,7 +3,7 @@ layout: page
 title: common/clojure (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `clj`"
 content_hash: 5fddeca2ad3170e1c3b7fe7d3a3bbde0643f5e29
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/clojure.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/clojure.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # clojure
 

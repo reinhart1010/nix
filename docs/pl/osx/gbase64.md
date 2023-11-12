@@ -3,7 +3,7 @@ layout: page
 title: osx/gbase64 (polski)
 description: "To polecenie jest aliasem `-p linux base64`."
 content_hash: 024dae12d61a53eff6e31c4d7c1f777adfbf71ab
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gbase64.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gbase64.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gbase64
 

@@ -3,6 +3,7 @@ layout: page
 title: common/batch (português (Portugal))
 description: "Executar comandos num momento mais tarde quando a carga do sistema permitir."
 content_hash: fb1d41d1578808ee5962b1904318ebc684eee82e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/batch.html
@@ -16,6 +17,7 @@ related_topics:
   - title: polski version
     url: /pl/common/batch.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # batch
 

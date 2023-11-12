@@ -3,6 +3,8 @@ layout: page
 title: common/zfs (English)
 description: "Manage ZFS filesystems."
 content_hash: 23dd92783d4c8a10d47ea8199f1014d98a459e2e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # zfs
 

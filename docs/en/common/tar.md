@@ -3,7 +3,7 @@ layout: page
 title: common/tar (English)
 description: "Archiving utility."
 content_hash: ba42bc1ab62affc668675b5c88bc3e2194276fd6
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/tar.html
@@ -29,6 +29,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/tar.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tar
 

@@ -3,9 +3,13 @@ layout: page
 title: common/at (português (Brasil))
 description: "Ferramenta para o agendamento de comandos."
 content_hash: eeceefb6c201edf4b8a56bd97c5422d0223f2003
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/at.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/at.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/at.html
@@ -25,6 +29,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/at.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # at
 

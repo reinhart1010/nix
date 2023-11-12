@@ -3,12 +3,16 @@ layout: page
 title: common/echo (한국어)
 description: "주어진 인자들을 출력한다."
 content_hash: 6e5b904e96564a3a7a3a6093ed9ae78ce73c3281
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/echo.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/echo.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/echo.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/echo.html
@@ -25,6 +29,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/echo.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/echo.html
+    icon: bi bi-globe
   - title: српски version
     url: /sr/common/echo.html
     icon: bi bi-globe
@@ -34,8 +41,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/echo.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# echo
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># echo
 
 주어진 인자들을 출력한다.
 더 많은 정보: <https://www.gnu.org/software/coreutils/echo>.

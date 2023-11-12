@@ -3,6 +3,7 @@ layout: page
 title: common/dotnet-publish (русский)
 description: "Публикует .NET-приложение и его зависимости в папку для развёртываения на целевой системе."
 content_hash: 0dcb445d9c6d61f8994212543263bf0c1a094414
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/dotnet-publish.html
@@ -13,6 +14,7 @@ related_topics:
   - title: polski version
     url: /pl/common/dotnet-publish.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dotnet publish
 

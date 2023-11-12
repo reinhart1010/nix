@@ -3,7 +3,7 @@ layout: page
 title: common/git-cherry-pick (Türkçe)
 description: "Varolan commit'ler ile getirilen yenilikleri mevcut dala uygula."
 content_hash: 5b89ec0d7319f584d8a15389321047ea42e83229
-last_modified_at: 2023-06-25
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/common/git-cherry-pick.html
@@ -26,6 +26,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/git-cherry-pick.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git cherry-pick
 

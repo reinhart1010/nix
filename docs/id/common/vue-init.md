@@ -3,10 +3,12 @@ layout: page
 title: common/vue-init (Indonesia)
 description: "Sub-perintah untuk menginisialisasi proyek warisan framework Vue.js."
 content_hash: efcf007a8ce3886425c85d8aa4229eabcad699fb
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/vue-init.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # vue init
 

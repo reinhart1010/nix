@@ -3,11 +3,14 @@ layout: page
 title: common/atuin (English)
 description: "Store your shell history in a searchable database."
 content_hash: ddb03e98a5fd990e5fe9e454df1ca33faea12bd8
+last_modified_at: 2023-11-12
+related_topics:
+  - title: français version
+    url: /fr/common/atuin.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># atuin
+# atuin
 
 Store your shell history in a searchable database.
 Optionally sync your encrypted history between machines.

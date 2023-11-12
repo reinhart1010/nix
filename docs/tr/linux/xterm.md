@@ -3,6 +3,7 @@ layout: page
 title: linux/xterm (Türkçe)
 description: "X Ekran Sistemi için terminal öykünücüsü."
 content_hash: e5d2a17c731f0e264b66f59ec11f939dd86eae5a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/xterm.html
@@ -10,6 +11,7 @@ related_topics:
   - title: Indonesia version
     url: /id/linux/xterm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xterm
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/stress (English)
 description: "A tool to stress test CPU, memory, and IO on a Linux system."
 content_hash: b279ffb6cae22b262afa8baf8c6bf294723722cb
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # stress
 

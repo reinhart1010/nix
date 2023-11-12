@@ -3,11 +3,12 @@ layout: page
 title: common/unflatten (中文)
 description: "调整有向图以改善布局的纵横比。"
 content_hash: dd474290a8fb3c3991e3b8bf4b21ce6ad7958a20
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/unflatten.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # unflatten
 

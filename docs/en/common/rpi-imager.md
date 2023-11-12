@@ -3,11 +3,10 @@ layout: page
 title: common/rpi-imager (English)
 description: "Flash images onto storage devices."
 content_hash: c199df57395aed7d1887cd8c9c93a087b3ef8a04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rpi-imager
+# rpi-imager
 
 Flash images onto storage devices.
 More information: <https://github.com/raspberrypi/rpi-imager>.

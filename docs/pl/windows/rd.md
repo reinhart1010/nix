@@ -3,7 +3,7 @@ layout: page
 title: windows/rd (polski)
 description: "To polecenie jest aliasem `rmdir`."
 content_hash: e32548fe3bf889d104f6e798a2d7bbc45591cd48
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/rd.html
@@ -89,8 +89,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/rd.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# rd
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># rd
 
 To polecenie jest aliasem `rmdir`.
 Więcej informacji: <https://learn.microsoft.com/windows-server/administration/windows-commands/rd>.

@@ -3,7 +3,8 @@ layout: page
 title: linux/http-prompt (English)
 description: "An interactive command-line HTTP client featuring autocomplete and syntax highlighting."
 content_hash: bf964f43dbf27633cfbd20158a0f63bd711aa4cc
-last_modified_at: 2023-09-10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # http-prompt
 

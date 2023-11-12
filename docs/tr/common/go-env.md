@@ -3,6 +3,7 @@ layout: page
 title: common/go-env (Türkçe)
 description: "Go toolchain'in kullandığı ortam değişkenlerini yönet."
 content_hash: f37535f44d4f259df5fe6b23489968917a122a7c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/go-env.html
@@ -10,11 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/go-env.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># go env
+# go env
 
 Go toolchain'in kullandığı ortam değişkenlerini yönet.
 Daha fazla bilgi için: <https://golang.org/cmd/go/#hdr-Print_Go_environment_information>.

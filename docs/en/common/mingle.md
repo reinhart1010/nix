@@ -3,6 +3,12 @@ layout: page
 title: common/mingle (English)
 description: "Bundle the edges of a graph layout."
 content_hash: 2951d77c8977cc6560424ba8fb203335d59d99a3
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 中文 version
+    url: /zh/common/mingle.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mingle
 

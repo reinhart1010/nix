@@ -3,6 +3,8 @@ layout: page
 title: common/volta (English)
 description: "A JavaScript Tool Manager that installs Node.js runtimes, npm and Yarn package managers, or any binaries from npm."
 content_hash: 38601dd194f81c85dc3c2a5d605be32912f64101
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # volta
 

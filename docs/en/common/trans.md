@@ -3,6 +3,8 @@ layout: page
 title: common/trans (English)
 description: "Translate Shell is a command-line translator."
 content_hash: f5545b77a467fdaabe2d4d24323e9cb27b4f6c93
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # trans
 

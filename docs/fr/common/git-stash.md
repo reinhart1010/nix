@@ -3,6 +3,7 @@ layout: page
 title: common/git-stash (français)
 description: "Stocker les modifications Git locales dans une zone temporaire."
 content_hash: 24492b055292456505ddcaa5178b2c88bc5e0b25
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-stash.html
@@ -13,6 +14,10 @@ related_topics:
   - title: italiano version
     url: /it/common/git-stash.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-stash.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git stash
 

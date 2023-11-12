@@ -3,6 +3,7 @@ layout: page
 title: linux/zathura (Deutsch)
 description: "Ein vim-artiger modaler Dokumentenbetrachter mit integrierter Kommandozeile."
 content_hash: baf7c55316ad28242b92e730dc2c1ac4ae5b59ab
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/zathura.html
@@ -13,6 +14,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/zathura.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # zathura
 

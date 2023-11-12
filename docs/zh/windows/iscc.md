@@ -3,10 +3,12 @@ layout: page
 title: windows/iscc (中文)
 description: "Inno Setup 安装程序的编译器。"
 content_hash: 89bceb43ff83ae9509c294a5e00ef52d23135d6e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/iscc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # iscc
 

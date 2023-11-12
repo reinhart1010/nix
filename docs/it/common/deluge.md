@@ -3,6 +3,7 @@ layout: page
 title: common/deluge (italiano)
 description: "Client BItTorrent da linea di comando."
 content_hash: 553efaa388907cbea0a6388838a755fac608e0ec
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/deluge.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/deluge.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # deluge
 

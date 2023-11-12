@@ -3,6 +3,7 @@ layout: page
 title: common/ls (català)
 description: "Llista els continguts d'un directori."
 content_hash: 8e3ad1d6638b74b39e16dc3f1b6b58d8f3244906
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ls.html
@@ -34,6 +35,12 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/ls.html
     icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/ls.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/ls.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/ls.html
     icon: bi bi-globe
@@ -43,14 +50,18 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/ls.html
     icon: bi bi-globe
+  - title: ไทย version
+    url: /th/common/ls.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/ls.html
+    icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/ls.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ls
+# ls
 
 Llista els continguts d'un directori.
 Més informació: <https://www.gnu.org/software/coreutils/ls>.

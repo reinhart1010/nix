@@ -3,6 +3,7 @@ layout: page
 title: linux/yum (português (Brasil))
 description: "Gerenciador de pacotes utilitário para RHEL, Fedora e CentOS (para outras versões)."
 content_hash: 06c1a615faa9b58449a22bf62b7670916e9d670c
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/yum.html
@@ -16,11 +17,12 @@ related_topics:
   - title: فارسی version
     url: /fa/linux/yum.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/yum.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># yum
+# yum
 
 Gerenciador de pacotes utilitário para RHEL, Fedora e CentOS (para outras versões).
 Mais informações: <https://manned.org/yum>.

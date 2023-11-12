@@ -3,6 +3,8 @@ layout: page
 title: common/git-unlock (English)
 description: "Unlock a file in a Git repository so it can be modified by a commit."
 content_hash: b611d107b525d6ec59cc6acfd10825944531dcbd
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git unlock
 

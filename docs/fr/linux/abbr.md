@@ -3,6 +3,7 @@ layout: page
 title: linux/abbr (français)
 description: "Gère les abréviations pour le shell Fish."
 content_hash: bbef4e2de4e31d9f1a6c4f2d1ec858b0113aa685
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/abbr.html
@@ -13,11 +14,21 @@ related_topics:
   - title: English version
     url: /en/linux/abbr.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/linux/abbr.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/abbr.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/abbr.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/linux/abbr.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># abbr
+# abbr
 
 Gère les abréviations pour le shell Fish.
 Les mots définis par l'utilisateur sont remplacés par des phrases plus longues après leur saisie.

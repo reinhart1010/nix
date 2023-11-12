@@ -3,6 +3,8 @@ layout: page
 title: windows/psping (English)
 description: "A ping tool that includes TCP ping, latency and bandwidth measurement."
 content_hash: ecc0ed06e10b06e34c7e12bb5a537f8f62868785
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # psping
 

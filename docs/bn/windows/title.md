@@ -3,7 +3,7 @@ layout: page
 title: windows/title (বাংলা)
 description: "কমান্ড প্রম্পট উইন্ডোর শিরোনাম সেট করুন।"
 content_hash: 7fc7dd14a847dcaafdabfe6b620e43c9725c9080
-last_modified_at: 2023-10-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/title.html
@@ -23,11 +23,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/title.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># title
+# title
 
 কমান্ড প্রম্পট উইন্ডোর শিরোনাম সেট করুন।
 আরও তথ্য পাবেন: <https://learn.microsoft.com/windows-server/administration/windows-commands/title>।

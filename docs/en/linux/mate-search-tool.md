@@ -3,11 +3,10 @@ layout: page
 title: linux/mate-search-tool (English)
 description: "Search files in MATE desktop environment."
 content_hash: 884359d4eacabf6c57906e6717355450c11e7ede
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mate-search-tool
+# mate-search-tool
 
 Search files in MATE desktop environment.
 More information: <https://manned.org/mate-search-tool>.

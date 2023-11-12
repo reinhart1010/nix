@@ -3,12 +3,10 @@ layout: page
 title: linux/virt-viewer (English)
 description: "Minimal graphical interface for a virtual machine (VM)."
 content_hash: 202573fefbb138801c1382d27dccad3d2e0e8a89
-last_modified_at: 2022-12-01
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># virt-viewer
+# virt-viewer
 
 Minimal graphical interface for a virtual machine (VM).
 NOTE: 'domain' refers to the name, UUID or ID for the existing VMs (See: tldr virsh).

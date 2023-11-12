@@ -3,6 +3,8 @@ layout: page
 title: linux/genkernel (English)
 description: "Gentoo Linux utility to compile and install kernels."
 content_hash: a98c1c7241294712d224bc35db179f1f53f9b3c0
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # genkernel
 

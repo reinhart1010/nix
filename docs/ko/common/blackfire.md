@@ -3,6 +3,7 @@ layout: page
 title: common/blackfire (한국어)
 description: "PHP용 커맨드라인 프로파일링 도구."
 content_hash: d78591bcb5550505b72d100dbd200c50e8761f55
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/blackfire.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/blackfire.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # blackfire
 

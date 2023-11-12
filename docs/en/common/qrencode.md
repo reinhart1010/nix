@@ -3,6 +3,8 @@ layout: page
 title: common/qrencode (English)
 description: "QR Code generator. Supports PNG and EPS."
 content_hash: a7d64fbd6d81b043c5ea85a88b5d68258bee3cc8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # qrencode
 

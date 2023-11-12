@@ -3,6 +3,8 @@ layout: page
 title: common/stormlock (English)
 description: "Centralized locking system."
 content_hash: 98985c6ae19914aa8cd98295d3f6bad664efe2f8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # Stormlock
 

@@ -3,6 +3,8 @@ layout: page
 title: common/starship (English)
 description: "The minimal, blazing-fast, and infinitely customizable prompt for any shell."
 content_hash: 69566cda4b31a2deb7d64ddffb4ed6d02baa8a8b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # starship
 

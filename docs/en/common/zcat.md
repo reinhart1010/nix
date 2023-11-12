@@ -3,7 +3,8 @@ layout: page
 title: common/zcat (English)
 description: "Print data from gzip compressed files."
 content_hash: 2c36dcf68e162565cf323723c4ae40b687fa5d30
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # zcat
 

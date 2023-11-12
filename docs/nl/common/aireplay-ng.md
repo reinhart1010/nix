@@ -3,7 +3,7 @@ layout: page
 title: common/aireplay-ng (Nederlands)
 description: "Injecteer pakketten in een draadloos netwerk."
 content_hash: 55f80d74accd045ebb32af8e83a8b62a6d6f323e
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/common/aireplay-ng.html
@@ -23,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/aireplay-ng.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aireplay-ng
 

@@ -3,11 +3,12 @@ layout: page
 title: linux/konsole (English)
 description: "KDE's terminal emulator."
 content_hash: fafb6157830c18e5238ce7b669db590fc1a6b7e3
-last_modified_at: 2022-12-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/linux/konsole.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # konsole
 

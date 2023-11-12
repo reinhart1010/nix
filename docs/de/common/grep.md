@@ -3,22 +3,39 @@ layout: page
 title: common/grep (Deutsch)
 description: "Findet Ausdrücke in einem Eingabetext."
 content_hash: ccda58b3309be9038a765653173caa80b0ca0812
+last_modified_at: 2023-11-12
 related_topics:
+  - title: dansk version
+    url: /da/common/grep.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/grep.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/grep.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/grep.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/grep.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/grep.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/grep.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/grep.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/grep.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/grep.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # grep
 

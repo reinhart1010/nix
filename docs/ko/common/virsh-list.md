@@ -3,7 +3,7 @@ layout: page
 title: common/virsh-list (한국어)
 description: "가상 머신의 ID, 이름, 상태 나열."
 content_hash: 4267f8dd7e101b5f7177279aebfa2d89f6529af4
-last_modified_at: 2023-10-22
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/virsh-list.html
@@ -11,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/virsh-list.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # virsh-list
 

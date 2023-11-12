@@ -3,12 +3,10 @@ layout: page
 title: common/datashader_cli (English)
 description: "Quick visualization of large datasets using CLI based on datashader."
 content_hash: 7195ce394965f17c37dc4fbf195c6e9e41c43ba5
-last_modified_at: 2023-06-23
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># datashader_cli
+# datashader_cli
 
 Quick visualization of large datasets using CLI based on datashader.
 More information: <https://github.com/wybert/datashader-cli>.

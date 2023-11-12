@@ -3,6 +3,15 @@ layout: page
 title: linux/mkfs.ext4 (English)
 description: "Creates an ext4 filesystem inside a partition."
 content_hash: 045f29bb528e6146d0ac77baf387c36d26cf22f0
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Indonesia version
+    url: /id/linux/mkfs.ext4.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/mkfs.ext4.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mkfs.ext4
 

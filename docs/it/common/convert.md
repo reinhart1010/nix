@@ -3,6 +3,7 @@ layout: page
 title: common/convert (italiano)
 description: "Strumento della suite immagineMagick per la conversione di immagini."
 content_hash: 98141928c00475cae4cd559433c1db197c5609bb
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/convert.html
@@ -19,15 +20,10 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/convert.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/convert.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># convert
 

@@ -3,6 +3,7 @@ layout: page
 title: common/git-fetch (italiano)
 description: "Scarica oggetti e riferimenti da un repository remoto."
 content_hash: eaac816d048a05bb856458b8c445f6d0f7a33772
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-fetch.html
@@ -16,6 +17,10 @@ related_topics:
   - title: français version
     url: /fr/common/git-fetch.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-fetch.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git fetch
 

@@ -3,6 +3,7 @@ layout: page
 title: common/docker-stats (português (Brasil))
 description: "Exibe estatísticas dinâmicas de uso de recursos dos containers."
 content_hash: 49c197d18027205435a968faffdd9bf220341e95
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-stats.html
@@ -10,9 +11,13 @@ related_topics:
   - title: English version
     url: /en/common/docker-stats.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/docker-stats.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/docker-stats.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker stats
 

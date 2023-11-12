@@ -3,16 +3,14 @@ layout: page
 title: common/duc (português (Brasil))
 description: "Duc é uma coleção de ferramentas para indexar, inspecionar e visualizar uso do disco. O duc mantém uma base de dados dos tamanhos acumlados dos diretórios do sistema de arquivos, permitindo buscas nessa base, ou a criação de gráficos elegantes."
 content_hash: d869a642fdcdc45117c908409ab96280efa691bb
-last_modified_at: 2023-10-12
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/duc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># duc
+# duc
 
 Duc é uma coleção de ferramentas para indexar, inspecionar e visualizar uso do disco. O duc mantém uma base de dados dos tamanhos acumlados dos diretórios do sistema de arquivos, permitindo buscas nessa base, ou a criação de gráficos elegantes.
 Mais informações: <https://duc.zevv.nl/>.

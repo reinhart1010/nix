@@ -3,7 +3,8 @@ layout: page
 title: common/git-hash-object (English)
 description: "Computes the unique hash key of content and optionally creates an object with specified type."
 content_hash: 46db392ea13255434465b241d2688a2c1102c8ab
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git hash-object
 

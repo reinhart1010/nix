@@ -3,10 +3,15 @@ layout: page
 title: common/sshfs (Deutsch)
 description: "Dateisystem Client für SSH."
 content_hash: aeae42371935a322750108d184c94c3793edeb88
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/sshfs.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/sshfs.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sshfs
 

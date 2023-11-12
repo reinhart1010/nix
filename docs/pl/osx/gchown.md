@@ -3,7 +3,7 @@ layout: page
 title: osx/gchown (polski)
 description: "To polecenie jest aliasem `-p linux chown`."
 content_hash: 0cfcacbc0e1e5e6ff808193bd830d1f53ed34d20
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gchown.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gchown.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gchown
 

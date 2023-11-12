@@ -3,6 +3,7 @@ layout: page
 title: osx/archey (中文)
 description: "漂亮地显示简单系统信息工具。"
 content_hash: 7d845c3f0f429feb626ba85c0e4aeb68e5e3cffa
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/archey.html
@@ -13,6 +14,10 @@ related_topics:
   - title: italiano version
     url: /it/osx/archey.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/archey.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # archey
 

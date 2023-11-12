@@ -3,13 +3,24 @@ layout: page
 title: osx/diskutil (italiano)
 description: "Strumento per gestire i dischi locali e i volumi."
 content_hash: b215551d23a33e425a45be06a63589b49a7b9c84
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/osx/diskutil.html
+    icon: bi bi-globe
   - title: English version
     url: /en/osx/diskutil.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/osx/diskutil.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/diskutil.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/diskutil.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # diskutil
 

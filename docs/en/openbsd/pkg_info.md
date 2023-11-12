@@ -3,7 +3,12 @@ layout: page
 title: openbsd/pkg_info (English)
 description: "View information about packages in OpenBSD."
 content_hash: c963a2846fde85d5ef8922e0de5bc4e2558b9c55
-last_modified_at: 2023-10-22
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Nederlands version
+    url: /nl/openbsd/pkg_info.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pkg_info
 

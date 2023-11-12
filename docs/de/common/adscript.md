@@ -3,7 +3,7 @@ layout: page
 title: common/adscript (Deutsch)
 description: "Compiler für Adscript Dateien."
 content_hash: 57d8bdf1243226c0b995f5efd8a20fd4accd8c09
-last_modified_at: 2023-01-30
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/adscript.html
@@ -14,14 +14,15 @@ related_topics:
   - title: français version
     url: /fr/common/adscript.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/adscript.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/adscript.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># adscript
+# adscript
 
 Compiler für Adscript Dateien.
 Weitere Informationen: <https://github.com/Amplus2/Adscript>.

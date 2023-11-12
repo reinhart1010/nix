@@ -3,15 +3,14 @@ layout: page
 title: linux/pacman4console (தமிழ்)
 description: "அசல் பேக்மேனால் ஈர்க்கப்பட்ட உரை அடிப்படையிலான கன்சோல் கேம்."
 content_hash: 105d000f07d41a0797e859c4fcd1ea3c8d3c726e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/pacman4console.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pacman4console
+# pacman4console
 
 அசல் பேக்மேனால் ஈர்க்கப்பட்ட உரை அடிப்படையிலான கன்சோல் கேம்.
 மேலும் விவரத்திற்கு: <https://github.com/YoctoForBeaglebone/pacman4console>.

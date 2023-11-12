@@ -3,6 +3,8 @@ layout: page
 title: linux/tune2fs (English)
 description: "Adjust parameters of an ext2, ext3 or ext4 filesystem."
 content_hash: f15fc196f599b4aeb8a67e162661165fa3f57e8b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tune2fs
 

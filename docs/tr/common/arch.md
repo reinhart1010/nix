@@ -3,9 +3,16 @@ layout: page
 title: common/arch (Türkçe)
 description: "Sistem mimarisinin ismini göster."
 content_hash: 9c9f357064bc65c5570307421574c9fcbf77b28e
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/arch.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/arch.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/arch.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/arch.html
@@ -25,7 +32,7 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/arch.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/arch.html
     icon: bi bi-globe
   - title: português (Brasil) version
@@ -37,6 +44,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/arch.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # arch
 

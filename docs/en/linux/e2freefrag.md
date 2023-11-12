@@ -3,6 +3,8 @@ layout: page
 title: linux/e2freefrag (English)
 description: "Print the free space fragmentation information for ext2/ext3/ext4 filesystems."
 content_hash: 51aaa06cd2612e07cbd110350dce57eb25746b40
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # e2freefrag
 

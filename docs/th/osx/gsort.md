@@ -3,7 +3,7 @@ layout: page
 title: osx/gsort (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux sort`"
 content_hash: 04e7609e2807f40ef42bc0bfebb02df09a5915d6
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gsort.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gsort.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gsort
 

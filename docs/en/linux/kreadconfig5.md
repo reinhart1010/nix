@@ -3,6 +3,8 @@ layout: page
 title: linux/kreadconfig5 (English)
 description: "Read KConfig entries for KDE Plasma."
 content_hash: a86fcd4b3e73fc93a5ef62aa38f24a6a7e4b7476
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # kreadconfig5
 

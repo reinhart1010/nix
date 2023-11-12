@@ -3,7 +3,7 @@ layout: page
 title: osx/gsum (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux sum`"
 content_hash: d6dcde8308a73fd25134ae982ec5bfad98fc8630
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gsum.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gsum.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gsum
 

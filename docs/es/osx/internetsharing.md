@@ -3,7 +3,7 @@ layout: page
 title: osx/internetsharing (español)
 description: "Configura Internet Sharing."
 content_hash: 777cf88d3d6cb722cd05baecb54cc1cd99849ad4
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/internetsharing.html
@@ -11,11 +11,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/osx/internetsharing.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># Compartir Internet
+# Compartir Internet
 
 Configura Internet Sharing.
 No debe invocarse manualmente.

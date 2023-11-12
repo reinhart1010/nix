@@ -3,7 +3,7 @@ layout: page
 title: osx/icalbuddy (English)
 description: "Command-line utility for printing events and tasks from the macOS calendar database."
 content_hash: 01485a2b0f8b92f13c94aa6bbba14a672a3ab4e3
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/osx/icalbuddy.html
@@ -11,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/osx/icalbuddy.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # icalBuddy
 

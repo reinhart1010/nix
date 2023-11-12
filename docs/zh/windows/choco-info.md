@@ -3,6 +3,7 @@ layout: page
 title: windows/choco-info (中文)
 description: "显示有关 Chocolatey 包的详细信息。"
 content_hash: 87232e4e471b92b730834878d06c1334178e0ebd
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-info.html
@@ -10,12 +11,22 @@ related_topics:
   - title: English version
     url: /en/windows/choco-info.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/windows/choco-info.html
+    icon: bi bi-globe
   - title: 日本語 version
     url: /ja/windows/choco-info.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/windows/choco-info.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/choco-info.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/choco-info.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco info
 

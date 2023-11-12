@@ -3,10 +3,15 @@ layout: page
 title: osx/sips (中文)
 description: "苹果的处理文件脚本系统。"
 content_hash: 8b43ca65a59a9aa6e4b8c3651a4d5354d50de32b
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/sips.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/sips.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sips
 

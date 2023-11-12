@@ -3,15 +3,14 @@ layout: page
 title: common/vegeta (français)
 description: "Un utilitaire de ligne de commande et une bibliothèque pour les tests de charge HTTP."
 content_hash: 6c224dde9c122dcfd95aff36d67fa53273dd163e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/vegeta.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># vegeta
+# vegeta
 
 Un utilitaire de ligne de commande et une bibliothèque pour les tests de charge HTTP.
 Voir aussi `ab`.

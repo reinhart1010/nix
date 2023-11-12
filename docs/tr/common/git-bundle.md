@@ -3,6 +3,7 @@ layout: page
 title: common/git-bundle (Türkçe)
 description: "Cisim ve referansları bir arşive paketle."
 content_hash: 112e3c4775c6c2861ee9de3fdf98b66a00380fb5
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-bundle.html
@@ -16,6 +17,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/git-bundle.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git bundle
 

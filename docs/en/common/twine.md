@@ -3,6 +3,8 @@ layout: page
 title: common/twine (English)
 description: "Utility for publishing Python packages on PyPI."
 content_hash: 7ad3db260997006b25605d26326dcf596fc66e0b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # twine
 

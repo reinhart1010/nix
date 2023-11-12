@@ -3,7 +3,7 @@ layout: page
 title: common/ansiweather (español)
 description: "Un script de shell para mostrar las condiciones meteorológicas actuales en tu terminal."
 content_hash: 0f76deb4a2f0d5dff58a170060d26fe1cb575705
-last_modified_at: 2023-02-07
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ansiweather.html
@@ -23,11 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ansiweather.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ansiweather
+# ansiweather
 
 Un script de shell para mostrar las condiciones meteorológicas actuales en tu terminal.
 Más información: <https://github.com/fcambus/ansiweather>.

@@ -3,11 +3,12 @@ layout: page
 title: linux/bluetoothd (English)
 description: "Daemon to manage bluetooth devices."
 content_hash: 44b4875bee635d90b436858d12c48ed2ece304e7
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/linux/bluetoothd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bluetoothd
 

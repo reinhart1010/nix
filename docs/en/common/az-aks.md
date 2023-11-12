@@ -3,7 +3,8 @@ layout: page
 title: common/az-aks (English)
 description: "Manage Azure Kubernetes Service (AKS) clusters."
 content_hash: c2cc120edca7ec233a951d74e5cb700dab4ceac0
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # az aks
 

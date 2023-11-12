@@ -3,6 +3,7 @@ layout: page
 title: common/btm (português (Brasil))
 description: "Uma alternativa ao `top`."
 content_hash: 825ac17b25b7f040428b56b939894e52798b2922
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/btm.html
@@ -10,11 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/btm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># btm
+# btm
 
 Uma alternativa ao `top`.
 Tem como objetivo ser leve, multiplataforma e mais gráfico que o `top`.

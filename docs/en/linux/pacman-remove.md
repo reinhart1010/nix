@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman-remove (English)
 description: "Arch Linux package manager utility."
 content_hash: a04337c1acfddc108f08a3af0a6e1e589c6fc72e
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-remove.html
@@ -23,6 +23,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/pacman-remove.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pacman --remove
 

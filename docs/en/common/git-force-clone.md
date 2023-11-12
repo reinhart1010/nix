@@ -3,11 +3,10 @@ layout: page
 title: common/git-force-clone (English)
 description: "Provides the basic functionality of `git clone`, but if the destination git repository already exists it will force-reset it to resemble a clone of the remote."
 content_hash: f6b530498dcbe4324534cf6515733cc68ce8edb6
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git force-clone
+# git force-clone
 
 Provides the basic functionality of `git clone`, but if the destination git repository already exists it will force-reset it to resemble a clone of the remote.
 Part of `git-extras`.

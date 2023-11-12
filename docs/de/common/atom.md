@@ -3,6 +3,7 @@ layout: page
 title: common/atom (Deutsch)
 description: "Ein plattformübergreifender erweiterbarer Texteditor."
 content_hash: f7639acfe3ea3660df850ef234a4c8f03d6e5456
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/atom.html
@@ -25,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/atom.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # atom
 

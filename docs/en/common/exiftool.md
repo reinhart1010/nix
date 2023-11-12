@@ -3,11 +3,12 @@ layout: page
 title: common/exiftool (English)
 description: "Read and write meta information in files."
 content_hash: a04158c0ee56daeac5b0f2f695d9dcba491b51c3
-last_modified_at: 2023-05-19
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/exiftool.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # exiftool
 

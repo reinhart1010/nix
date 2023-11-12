@@ -3,6 +3,7 @@ layout: page
 title: common/tree (Türkçe)
 description: "Mevcut dizinin içeriğini ağaç biçiminde göster."
 content_hash: 7f4a7274b383b98d08f22178337252d91009f7bb
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/tree.html
@@ -19,6 +20,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/tree.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tree
 

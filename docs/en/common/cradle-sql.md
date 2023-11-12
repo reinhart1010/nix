@@ -3,7 +3,7 @@ layout: page
 title: common/cradle-sql (English)
 description: "Manage Cradle SQL databases."
 content_hash: c87bb811bc779e4004b1a7e27ed66b183dffee56
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/cradle-sql.html
@@ -14,6 +14,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cradle-sql.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cradle sql
 

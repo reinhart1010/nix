@@ -3,13 +3,21 @@ layout: page
 title: common/atoum (한국어)
 description: "PHP를 위한 단순하고 현대적이며 직관적인 단위 테스트 프레임워크."
 content_hash: 48c1b9bd018b8002daee9034b86c3cff44d08180
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/atoum.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/atoum.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/atoum.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/atoum.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # atoum
 

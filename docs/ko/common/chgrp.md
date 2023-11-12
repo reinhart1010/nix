@@ -3,9 +3,13 @@ layout: page
 title: common/chgrp (한국어)
 description: "파일 및 디렉토리의 그룹 소유권 변경."
 content_hash: fcf13d3ca2e44d7016f7b368d1ede1f4f8e02466
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/chgrp.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/chgrp.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/chgrp.html
@@ -13,6 +17,7 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/chgrp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chgrp
 

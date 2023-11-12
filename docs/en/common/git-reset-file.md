@@ -3,6 +3,8 @@ layout: page
 title: common/git-reset-file (English)
 description: "Revert a file to HEAD or a specific commit."
 content_hash: 1a29fc0e0209320cb29c27488a15ea0b5ba22292
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git reset-file
 

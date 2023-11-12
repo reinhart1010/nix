@@ -3,7 +3,7 @@ layout: page
 title: osx/pbcopy (español)
 description: "Copia datos de `stdin` al portapapeles."
 content_hash: a262394258e6640a3c4b6515ac3f024474489120
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/pbcopy.html
@@ -17,11 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/pbcopy.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pbcopy
+# pbcopy
 
 Copia datos de `stdin` al portapapeles.
 Comparable a pulsar Cmd + C en el teclado.

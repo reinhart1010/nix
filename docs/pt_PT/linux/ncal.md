@@ -3,13 +3,19 @@ layout: page
 title: linux/ncal (português (Portugal))
 description: "Este comando é um alias de `cal`."
 content_hash: fb8df7d0bb0406ad09d5d4ce3235dfb5d7426067
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
+  - title: العربية version
+    url: /ar/linux/ncal.html
+    icon: bi bi-globe
   - title: bosanski version
     url: /bs/linux/ncal.html
     icon: bi bi-globe
   - title: català version
     url: /ca/linux/ncal.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/linux/ncal.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/ncal.html
@@ -35,11 +41,17 @@ related_topics:
   - title: 日本語 version
     url: /ja/linux/ncal.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/ncal.html
+    icon: bi bi-globe
   - title: ລາວ version
     url: /lo/linux/ncal.html
     icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/ncal.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/linux/ncal.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/linux/ncal.html
@@ -65,6 +77,9 @@ related_topics:
   - title: ไทย version
     url: /th/linux/ncal.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/linux/ncal.html
+    icon: bi bi-globe
   - title: українська version
     url: /uk/linux/ncal.html
     icon: bi bi-globe
@@ -74,11 +89,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/linux/ncal.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ncal
+# ncal
 
 Este comando é um alias de `cal`.
 Mais informações: <https://manned.org/ncal>.

@@ -3,16 +3,14 @@ layout: page
 title: common/aws-sts (português (Brasil))
 description: "Serviço de Token de Segurança (STS) que permite solicitar credenciais temporárias para usuários (IAM) ou federados."
 content_hash: 531c68f17e9f6aeb22eeca9521b1ffcc196ac80b
-last_modified_at: 2023-10-12
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/aws-sts.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws sts
+# aws sts
 
 Serviço de Token de Segurança (STS) que permite solicitar credenciais temporárias para usuários (IAM) ou federados.
 Mais informações: <https://docs.aws.amazon.com/cli/latest/reference/sts/>.

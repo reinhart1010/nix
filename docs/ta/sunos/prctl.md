@@ -3,9 +3,13 @@ layout: page
 title: sunos/prctl (தமிழ்)
 description: "இயங்கும் செயல்முறைகளின், பணிகள் மற்றும் திட்டங்களின் ஆதாரக் கட்டுப்பாடு பெறவும் அல்லது அமைக்கவும்."
 content_hash: cedd6471f33f1accb795cb297040852c18367a96
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/sunos/prctl.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/sunos/prctl.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/sunos/prctl.html
@@ -13,6 +17,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/sunos/prctl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # prctl
 

@@ -3,6 +3,8 @@ layout: page
 title: common/slimrb (English)
 description: "Convert Slim files to HTML."
 content_hash: c5b6382504d0bc3d6e96159cb3da73081c727a18
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # slimrb
 

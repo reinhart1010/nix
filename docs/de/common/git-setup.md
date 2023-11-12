@@ -3,16 +3,14 @@ layout: page
 title: common/git-setup (Deutsch)
 description: "Erstelle ein Git Repository in einem bestimmten Verzeichnis und committe alle Dateien."
 content_hash: 36d9cc98beb579e241c9a529e1c9aaf7705bb914
-last_modified_at: 2022-12-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-setup.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git setup
+# git setup
 
 Erstelle ein Git Repository in einem bestimmten Verzeichnis und committe alle Dateien.
 Teil der `git-extras`.

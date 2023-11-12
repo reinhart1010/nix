@@ -3,6 +3,7 @@ layout: page
 title: linux/zypper (português (Brasil))
 description: "Utilitário de gerenciamento de pacotes SUSE e openSUSE."
 content_hash: 023657f13ac2f1009716a5a517831322e5459578
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/zypper.html
@@ -16,17 +17,18 @@ related_topics:
   - title: español version
     url: /es/linux/zypper.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/zypper.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/linux/zypper.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/zypper.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># zypper
+# zypper
 
 Utilitário de gerenciamento de pacotes SUSE e openSUSE.
 Mais informações: <https://en.opensuse.org/SDB:Zypper_manual>.

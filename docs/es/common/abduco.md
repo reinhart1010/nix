@@ -3,7 +3,11 @@ layout: page
 title: common/abduco (español)
 description: "Administrador de sesión de terminal."
 content_hash: 6341df6435019cf54240cf991207f3b553101fdf
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/abduco.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/abduco.html
     icon: bi bi-globe
@@ -16,7 +20,10 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/abduco.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: Nederlands version
+    url: /nl/common/abduco.html
+    icon: bi bi-globe
+  - title: norsk version
     url: /no/common/abduco.html
     icon: bi bi-globe
   - title: português (Brasil) version
@@ -28,11 +35,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/abduco.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># abduco
+# abduco
 
 Administrador de sesión de terminal.
 Más información: <http://www.brain-dump.org/projects/abduco/>.

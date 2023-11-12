@@ -3,6 +3,12 @@ layout: page
 title: common/go-install (English)
 description: "Compile and install packages named by the import paths."
 content_hash: 6b2d1e52b5062542608bcab4a50cd121c3094f1f
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Türkçe version
+    url: /tr/common/go-install.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # go install
 

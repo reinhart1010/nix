@@ -3,7 +3,11 @@ layout: page
 title: linux/apt-mark (italiano)
 description: "Servizio per cambiare lo stato di un pacchetto installato."
 content_hash: ed80bda94cf1e923db97104440fb5dafa300068d
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/apt-mark.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/apt-mark.html
     icon: bi bi-globe
@@ -16,12 +20,16 @@ related_topics:
   - title: français version
     url: /fr/linux/apt-mark.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/apt-mark.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/apt-mark.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apt-mark.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apt-mark
 

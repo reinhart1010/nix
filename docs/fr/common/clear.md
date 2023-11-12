@@ -3,6 +3,7 @@ layout: page
 title: common/clear (français)
 description: "Efface l'écran du terminal."
 content_hash: 52b7c6a757d903dbe6c80a89f851f6c5b0ada7b4
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/clear.html
@@ -12,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/clear.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/clear.html
     icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/common/clear.html
@@ -28,6 +32,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/clear.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # clear
 

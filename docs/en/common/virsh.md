@@ -3,6 +3,15 @@ layout: page
 title: common/virsh (English)
 description: "Manage virsh guest domains. (NOTE: 'guest_id' can be the id, name or UUID of the guest)."
 content_hash: 1977ced82b2ebee2ce04bc577fe4f925afe3a7c8
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/virsh.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/virsh.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # virsh
 

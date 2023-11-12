@@ -3,9 +3,16 @@ layout: page
 title: windows/scoop (Deutsch)
 description: "Ein Kommandozeilenwerkzeug, um Windows-Programme (hier bezeichnet als Pakete) zu installieren."
 content_hash: a2c3cefb1f3981162294c389bc662ab7f1aab95d
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/scoop.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/scoop.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/scoop.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/windows/scoop.html
@@ -13,6 +20,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/scoop.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # scoop
 

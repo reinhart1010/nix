@@ -3,6 +3,8 @@ layout: page
 title: common/mongodump (English)
 description: "Utility to export the contents of a MongoDB instance."
 content_hash: 2f7f7494d1bf3c51d32f59e815a7a64f217cd561
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mongodump
 

@@ -3,6 +3,7 @@ layout: page
 title: common/git-annotate (Türkçe)
 description: "Her satırdaki dosyanın yanında en son commit değeri ve yazarını göster."
 content_hash: 3edea2333adc46c2da0d8062c5d1e2f0123a8ba1
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-annotate.html
@@ -10,8 +11,12 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/git-annotate.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# git annotate
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git annotate
 
 Her satırdaki dosyanın yanında en son commit değeri ve yazarını göster.
 Ayrıca `git annotate` yerine tercih edilen `git blame` sayfasına bakılması önerilir.

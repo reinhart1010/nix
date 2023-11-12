@@ -3,6 +3,7 @@ layout: page
 title: common/browser-sync (한국어)
 description: "파일 변경에 따라 브라우저를 업데이트 하는 로컬 웹 서버 시작."
 content_hash: 18a5978df8a5541a3ec2172c3b310b2be2b7de2a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/browser-sync.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/browser-sync.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # browser-sync
 

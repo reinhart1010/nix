@@ -3,7 +3,8 @@ layout: page
 title: common/fold (English)
 description: "Wrap each line in an input file to fit a specified width and print it to `stdout`."
 content_hash: e0a6491ef5cb0285f7f55b56e16f1911613f3774
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fold
 

@@ -3,11 +3,10 @@ layout: page
 title: linux/blastp (English)
 description: "Protein-Protein BLAST."
 content_hash: 5eda3f8f451221202d2d240a18b666675df9e13c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># blastp
+# blastp
 
 Protein-Protein BLAST.
 More information: <https://www.ncbi.nlm.nih.gov/books/NBK279684/table/appendices.T.blastp_application_options/>.

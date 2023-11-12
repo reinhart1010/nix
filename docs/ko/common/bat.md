@@ -3,6 +3,7 @@ layout: page
 title: common/bat (한국어)
 description: "파일들을 출력하고 연결. 구문 강조와 Git 통합을 가진`cat`클론."
 content_hash: b2ad9c9d6ef1ee64509c536327730875dfa70e8b
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html
@@ -16,18 +17,28 @@ related_topics:
   - title: français version
     url: /fr/common/bat.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/bat.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/bat.html
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/common/bat.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/bat.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/bat.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/bat.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/bat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bat
 

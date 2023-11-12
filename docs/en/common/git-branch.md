@@ -3,6 +3,7 @@ layout: page
 title: common/git-branch (English)
 description: "Main Git command for working with branches."
 content_hash: e40dbf063469f3e460fe0c2b0aba9de01a28a950
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-branch.html
@@ -19,9 +20,16 @@ related_topics:
   - title: italiano version
     url: /it/common/git-branch.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-branch.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-branch.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-branch.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git branch
 

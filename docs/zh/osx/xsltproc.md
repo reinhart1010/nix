@@ -3,10 +3,15 @@ layout: page
 title: osx/xsltproc (中文)
 description: "用 XSLT 转换 XML 以生成输出（通常是 HTML 或 XML）。"
 content_hash: b24a4847187867f6c4e0d66550945a10b0eacf5c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/xsltproc.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/xsltproc.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xsltproc
 

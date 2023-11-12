@@ -3,13 +3,21 @@ layout: page
 title: common/adguardhome (English)
 description: "A network-wide software for blocking ads & tracking."
 content_hash: b99fd5abef42609b60061fe0abef23ba14f767e5
+last_modified_at: 2023-11-12
 related_topics:
+  - title: français version
+    url: /fr/common/adguardhome.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/adguardhome.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/common/adguardhome.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/adguardhome.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # AdGuardHome
 

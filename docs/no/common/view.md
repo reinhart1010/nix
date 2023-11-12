@@ -1,8 +1,9 @@
 ---
 layout: page
-title: common/view (norsk bokmål (Norge))
+title: common/view (norsk)
 description: "En skrivebeskytter vesjon av `vim`."
 content_hash: 2af2db10481f35ff9ca330fb59e5dc96f21434ab
+last_modified_at: 2023-11-12
 related_topics:
   - title: bosanski version
     url: /bs/common/view.html
@@ -25,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/view.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # view
 

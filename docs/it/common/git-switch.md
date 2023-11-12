@@ -3,6 +3,7 @@ layout: page
 title: common/git-switch (italiano)
 description: "Passa ad altri rami. Richiede versioni di Git successive alla 2.23."
 content_hash: a87822801ad5351150f066da8aadfa65732858aa
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-switch.html
@@ -16,9 +17,13 @@ related_topics:
   - title: français version
     url: /fr/common/git-switch.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-switch.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/git-switch.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git switch
 

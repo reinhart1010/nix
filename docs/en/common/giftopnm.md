@@ -3,12 +3,10 @@ layout: page
 title: common/giftopnm (English)
 description: "Convert a GIF file into a PNM image."
 content_hash: d228429ad26497798abd71c22fd5f28585136f88
-last_modified_at: 2023-10-27
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># giftopnm
+# giftopnm
 
 Convert a GIF file into a PNM image.
 More information: <https://netpbm.sourceforge.net/doc/giftopnm.html>.

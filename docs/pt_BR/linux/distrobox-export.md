@@ -3,16 +3,17 @@ layout: page
 title: linux/distrobox-export (português (Brasil))
 description: "Exportar um aplicativo/serviço/binário do contêiner para o sistema operacional host."
 content_hash: 627e0db80764a43bd4e012bfa32d4a9d8bc525d6
-last_modified_at: 2023-09-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/distrobox-export.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/distrobox-export.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># distrobox-export
+# distrobox-export
 
 Exportar um aplicativo/serviço/binário do contêiner para o sistema operacional host.
 Subcomando de `distrobox`. Veja também: `tldr distrobox`.

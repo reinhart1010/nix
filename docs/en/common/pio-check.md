@@ -3,6 +3,8 @@ layout: page
 title: common/pio-check (English)
 description: "Perform a static analysis check on a PlatformIO project."
 content_hash: 9c25bd086eef5683166640af0b3a32e830f867e8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pio check
 

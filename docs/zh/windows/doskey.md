@@ -3,10 +3,21 @@ layout: page
 title: windows/doskey (中文)
 description: "管理宏，Windows 命令和命令行。"
 content_hash: a0ca5856f59668c2c9c1fa46801d69dcad5d25e4
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/doskey.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/doskey.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/doskey.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/doskey.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # doskey
 

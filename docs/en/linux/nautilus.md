@@ -3,6 +3,15 @@ layout: page
 title: linux/nautilus (English)
 description: "Default file explorer for GNOME desktop environment."
 content_hash: 2bcdc5e667c459096f5f707296bd035898be368c
+last_modified_at: 2023-11-12
+related_topics:
+  - title: català version
+    url: /ca/linux/nautilus.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/nautilus.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nautilus
 

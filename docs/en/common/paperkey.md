@@ -3,6 +3,8 @@ layout: page
 title: common/paperkey (English)
 description: "An OpenPGP key archiver."
 content_hash: 17ce057ccefc75955b93a71f12e9183b02fe6d82
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # paperkey
 

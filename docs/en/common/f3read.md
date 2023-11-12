@@ -3,6 +3,8 @@ layout: page
 title: common/f3read (English)
 description: "Validate .h2w files to test the real capacity of the drive."
 content_hash: fd587f50fec5efb0cb025005318930c1df01bd94
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # f3read
 

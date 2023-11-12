@@ -3,7 +3,7 @@ layout: page
 title: linux/apx (Nederlands)
 description: "Pakketbeheerhulpprogramma met ondersteuning voor meerdere bronnen, zodat u pakketten in subsystemen kunt installeren."
 content_hash: 18a5d807377fbfb5593a17701c5067550ccfbc66
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/apx.html
@@ -11,11 +11,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/linux/apx.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># apx
+# apx
 
 Pakketbeheerhulpprogramma met ondersteuning voor meerdere bronnen, zodat u pakketten in subsystemen kunt installeren.
 Meer informatie: <https://github.com/Vanilla-OS/apx>.

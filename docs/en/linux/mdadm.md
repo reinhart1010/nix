@@ -3,6 +3,8 @@ layout: page
 title: linux/mdadm (English)
 description: "RAID management utility."
 content_hash: 38136903a0cb612af6812fad3dfeb3d116186b6f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mdadm
 

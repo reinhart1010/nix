@@ -3,6 +3,8 @@ layout: page
 title: linux/mountpoint (English)
 description: "Test if a directory is a filesystem mountpoint."
 content_hash: a4572c7ab9bde1b353db96a70d094490cc46cacf
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mountpoint
 

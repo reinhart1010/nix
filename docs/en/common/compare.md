@@ -3,7 +3,7 @@ layout: page
 title: common/compare (English)
 description: "Create a comparison image to visually annotate the difference between two images."
 content_hash: ffd78e7a8fcc375c9ca50665f2a606c48cd421d8
-last_modified_at: 2023-10-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/compare.html
@@ -11,6 +11,7 @@ related_topics:
   - title: हिन्दी version
     url: /hi/common/compare.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # compare
 

@@ -3,16 +3,14 @@ layout: page
 title: common/pssh (português (Brasil))
 description: "Programa de SSH paralelo."
 content_hash: e478f81c1555a9a29847c246e4fea8c854dadfd0
-last_modified_at: 2023-09-18
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/pssh.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pssh
+# pssh
 
 Programa de SSH paralelo.
 Mais informações: <https://manned.org/pssh>.

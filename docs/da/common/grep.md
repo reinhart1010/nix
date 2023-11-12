@@ -3,6 +3,7 @@ layout: page
 title: common/grep (dansk)
 description: "Find mønstre i filer via regulære udtryk (regular expressions)."
 content_hash: 5453e1099cd700705bceb851de0b743af0c19480
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/grep.html
@@ -12,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/grep.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/grep.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/grep.html
@@ -31,11 +35,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/grep.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># grep
+# grep
 
 Find mønstre i filer via regulære udtryk (regular expressions).
 Mere information: <https://www.gnu.org/software/grep/manual/grep.html>.

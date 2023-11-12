@@ -3,6 +3,7 @@ layout: page
 title: common/git-cat-file (English)
 description: "Provide content or type and size information for Git repository objects."
 content_hash: 3b89fad0dd99b1faae4af8e8d39a71e8cf2d42b4
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/git-cat-file.html
@@ -13,6 +14,10 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/git-cat-file.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-cat-file.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git cat-file
 

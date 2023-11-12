@@ -3,7 +3,7 @@ layout: page
 title: android/dumpsys (বাংলা)
 description: "অ্যান্ড্রয়েড সিস্টেম পরিষেবা সম্পর্কে তথ্য প্রদান করে।"
 content_hash: f4028b41b222fbfb1a8cf7fb2ce6de998108a76f
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/android/dumpsys.html
@@ -59,6 +59,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/dumpsys.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dumpsys
 

@@ -3,11 +3,12 @@ layout: page
 title: common/meteor (English)
 description: "Full-stack JavaScript platform for building web applications."
 content_hash: f49f70e9c819dc61516c94ef93f12f7f6b4362cd
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/meteor.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # meteor
 

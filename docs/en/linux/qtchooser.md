@@ -3,6 +3,8 @@ layout: page
 title: linux/qtchooser (English)
 description: "A wrapper used to select between Qt development binary versions."
 content_hash: a4d4359569bb93d8483d04010733939ac2fd25a3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # qtchooser
 

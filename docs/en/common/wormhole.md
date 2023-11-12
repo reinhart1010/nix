@@ -3,6 +3,8 @@ layout: page
 title: common/wormhole (English)
 description: "Get things from one computer to another, safely."
 content_hash: 8e58bb0d35f32c3aac6490cd5bb4d9671b9d879d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # wormhole
 

@@ -3,6 +3,8 @@ layout: page
 title: common/xephyr (English)
 description: "A nested X server that runs as an X application."
 content_hash: 260133a1c59ccf93f053cd4e9912c6f32672b9c8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # Xephyr
 

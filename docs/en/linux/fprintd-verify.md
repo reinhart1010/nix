@@ -3,6 +3,8 @@ layout: page
 title: linux/fprintd-verify (English)
 description: "Verify fingerprints against the database."
 content_hash: 10c38cf043cfeae053cf1f27debf2617382dc8c5
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fprintd-verify
 

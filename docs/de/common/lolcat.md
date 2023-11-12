@@ -3,10 +3,12 @@ layout: page
 title: common/lolcat (Deutsch)
 description: "Färbe Text in Regenbogenfarben ein."
 content_hash: 32a4c9bad5efb555609db2800dd6b0b9c72cce82
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/lolcat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lolcat
 

@@ -3,11 +3,10 @@ layout: page
 title: common/pkg-config (English)
 description: "Provide the details of installed libraries for compiling applications."
 content_hash: 92b053035b839fe55deba1c3a7774a56c4d5040d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pkg-config
+# pkg-config
 
 Provide the details of installed libraries for compiling applications.
 More information: <https://www.freedesktop.org/wiki/Software/pkg-config/>.

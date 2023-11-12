@@ -3,10 +3,13 @@ layout: page
 title: windows/chrome (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `chromium`"
 content_hash: d5e812d72a58fb975398e267980d204506e8a2c9
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/chrome.html
+    icon: bi bi-globe
+  - title: বাংলা version
+    url: /bn/windows/chrome.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/chrome.html
@@ -89,6 +92,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/chrome.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chrome
 

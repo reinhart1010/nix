@@ -3,6 +3,7 @@ layout: page
 title: linux/alpine (中文)
 description: "一个电子邮件客户端和 usenet 新闻组程序，具有 pico/nano 风格的界面。"
 content_hash: aeb58e86d3a2880ec96f77fa9f2437a16b231c27
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/alpine.html
@@ -13,6 +14,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/alpine.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # alpine
 

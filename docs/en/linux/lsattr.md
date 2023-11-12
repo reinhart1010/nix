@@ -3,10 +3,12 @@ layout: page
 title: linux/lsattr (English)
 description: "List file attributes on a Linux filesystem."
 content_hash: 0177b636f58b1b1dc59c0923a032e211afffe4bb
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/linux/lsattr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lsattr
 

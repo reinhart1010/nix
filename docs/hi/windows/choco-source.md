@@ -3,7 +3,7 @@ layout: page
 title: windows/choco-source (हिन्दी)
 description: "चॉकलेटी वाले पैकेजों के लिए स्रोत प्रबंधित करें।"
 content_hash: a00fd1855307a7383ff3b12434077b18b4721613
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-source.html
@@ -23,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/choco-source.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco source
 

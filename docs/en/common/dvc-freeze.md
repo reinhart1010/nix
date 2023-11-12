@@ -3,6 +3,8 @@ layout: page
 title: common/dvc-freeze (English)
 description: "Freeze stages in the DVC pipeline."
 content_hash: 24c36e58b16b04e82c1e673e9c26760df5e45733
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dvc freeze
 

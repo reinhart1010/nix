@@ -3,7 +3,8 @@ layout: page
 title: common/cargo-metadata (English)
 description: "Output the workspace members and resolved dependencies of current package as JSON."
 content_hash: cb8a039c79b0e6775565c9b8c4f79f7c5623369c
-last_modified_at: 2023-10-30
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # cargo metadata
 

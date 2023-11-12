@@ -3,6 +3,7 @@ layout: page
 title: common/git-reset (français)
 description: "Enlève des commits ou des changements en réinitialisant la tête Git à l'état spécifié."
 content_hash: 098aa6eb350fad4a98807fea1ecbcd6d5048e30a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-reset.html
@@ -13,6 +14,13 @@ related_topics:
   - title: italiano version
     url: /it/common/git-reset.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-reset.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-reset.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git reset
 

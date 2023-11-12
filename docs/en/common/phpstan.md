@@ -3,6 +3,8 @@ layout: page
 title: common/phpstan (English)
 description: "A PHP static analysis tool to discover bugs in code."
 content_hash: b18356a51351b9f306c6e080e7805106185a0cbc
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # phpstan
 

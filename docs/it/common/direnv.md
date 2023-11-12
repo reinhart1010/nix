@@ -3,10 +3,12 @@ layout: page
 title: common/direnv (italiano)
 description: "Estensione della shell per aggiungere o rimuovere variabili d'ambiente in base alla directory corrente."
 content_hash: a1927c89f4fe8a2afb31d9c1c92d62e89802cb45
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/direnv.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # direnv
 

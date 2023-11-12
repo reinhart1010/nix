@@ -3,7 +3,7 @@ layout: page
 title: osx/gexpr (polski)
 description: "To polecenie jest aliasem `-p linux expr`."
 content_hash: bce65ffda4f2ba620db1eb45154fb18fee532b07
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gexpr.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gexpr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gexpr
 

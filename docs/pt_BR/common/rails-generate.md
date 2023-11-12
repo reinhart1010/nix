@@ -3,6 +3,7 @@ layout: page
 title: common/rails-generate (português (Brasil))
 description: "Gerar artefatos Rails a partir de um modelo em um projeto existente."
 content_hash: cfa8aa0dbc772a8cd51079126ca8bb36ee921fe6
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/rails-generate.html
@@ -10,15 +11,10 @@ related_topics:
   - title: Indonesia version
     url: /id/common/rails-generate.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/rails-generate.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># rails generate
 

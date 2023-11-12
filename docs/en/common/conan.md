@@ -3,6 +3,8 @@ layout: page
 title: common/conan (English)
 description: "The open source, decentralized and cross-platform package manager to create and share all your native binaries."
 content_hash: 706169a0ece85a895612a00a2603b2d6eac4d2f4
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # conan
 

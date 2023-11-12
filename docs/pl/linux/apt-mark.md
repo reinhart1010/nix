@@ -3,7 +3,7 @@ layout: page
 title: linux/apt-mark (polski)
 description: "Narzędzie do zmiany statusu zainstalowanych pakietów."
 content_hash: d14b181ecd438c62bd15ce75b2d5de7ca2e89a64
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/apt-mark.html
@@ -29,11 +29,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/apt-mark.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># apt-mark
+# apt-mark
 
 Narzędzie do zmiany statusu zainstalowanych pakietów.
 Więcej informacji: <https://manpages.debian.org/latest/apt/apt-mark.8.html>.

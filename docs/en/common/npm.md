@@ -3,7 +3,7 @@ layout: page
 title: common/npm (English)
 description: "JavaScript and Node.js package manager."
 content_hash: e841e8f1e3c2ae9988dd05918c3573891e9c0ca4
-last_modified_at: 2023-10-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/npm.html
@@ -17,6 +17,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/npm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # npm
 

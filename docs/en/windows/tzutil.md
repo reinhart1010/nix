@@ -3,10 +3,12 @@ layout: page
 title: windows/tzutil (English)
 description: "A tool for displaying or configuring the system time zone."
 content_hash: 72d99e6a6bd160cecd6acc53bb5b2fea2404e042
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/windows/tzutil.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tzutil
 

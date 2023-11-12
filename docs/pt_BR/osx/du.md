@@ -3,9 +3,13 @@ layout: page
 title: osx/du (português (Brasil))
 description: "Uso do Disco: estima e resume o uso do espaço de arquivos e diretórios."
 content_hash: 0c1cb3c2d850c429ce8513c94ee1f251367a3b36
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/du.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/osx/du.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/osx/du.html
@@ -13,11 +17,12 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/du.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/osx/du.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># du
+# du
 
 Uso do Disco: estima e resume o uso do espaço de arquivos e diretórios.
 Mais informações: <https://ss64.com/osx/du.html>.

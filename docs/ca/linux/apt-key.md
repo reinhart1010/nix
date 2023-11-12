@@ -3,6 +3,7 @@ layout: page
 title: linux/apt-key (català)
 description: "Eina de gestió de claus per al Gestor de Paquets APT (APT Package Manager) en Debian i Ubuntu."
 content_hash: 839cc4407875a26ba0513321206056df5418e130
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/apt-key.html
@@ -16,12 +17,16 @@ related_topics:
   - title: italiano version
     url: /it/linux/apt-key.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/apt-key.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/apt-key.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apt-key.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apt-key
 

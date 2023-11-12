@@ -3,10 +3,15 @@ layout: page
 title: common/npm-check (English)
 description: "Check for outdated, incorrect, and unused npm package dependencies."
 content_hash: 9770aec3b9e7fee2a2a30553e73876059570fc8c
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/npm-check.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/npm-check.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # npm-check
 

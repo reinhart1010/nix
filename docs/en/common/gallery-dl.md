@@ -3,7 +3,8 @@ layout: page
 title: common/gallery-dl (English)
 description: "Download image galleries and collections from several image hosting sites."
 content_hash: f5116c7e5d4c21f655630c56d2b5d975640deb30
-last_modified_at: 2023-07-12
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gallery-dl
 

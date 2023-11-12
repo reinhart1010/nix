@@ -3,6 +3,7 @@ layout: page
 title: common/git-update-ref (italiano)
 description: "Crea, aggiorna e cancella riferimenti Git."
 content_hash: 9ac7c85ed23eed80ca004f9e3dd49ac703909e92
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-update-ref.html
@@ -10,6 +11,10 @@ related_topics:
   - title: français version
     url: /fr/common/git-update-ref.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-update-ref.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git update-ref
 

@@ -3,10 +3,13 @@ layout: page
 title: osx/du (Nederlands)
 description: "Disk gebruik: schat en groepeer bestand en map ruimte gebruik."
 content_hash: 3d2f1b6e48d1a4a29e5946b864e4d5eb5e3128f0
-last_modified_at: 2023-10-19
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/du.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/osx/du.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/osx/du.html
@@ -17,6 +20,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/du.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # du
 

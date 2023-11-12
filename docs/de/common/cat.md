@@ -3,6 +3,7 @@ layout: page
 title: common/cat (Deutsch)
 description: "Verkette und gib einzelne oder mehrere Dateien aus."
 content_hash: ae394ecbd3c32daf147be09aac11e12de8ea63a0
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/cat.html
@@ -25,10 +26,16 @@ related_topics:
   - title: italiano version
     url: /it/common/cat.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/cat.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/cat.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: नेपाली version
+    url: /ne/common/cat.html
+    icon: bi bi-globe
+  - title: norsk version
     url: /no/common/cat.html
     icon: bi bi-globe
   - title: português (Brasil) version
@@ -37,12 +44,16 @@ related_topics:
   - title: русский version
     url: /ru/common/cat.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/cat.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/cat.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/cat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cat
 

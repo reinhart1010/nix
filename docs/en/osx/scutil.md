@@ -3,6 +3,7 @@ layout: page
 title: osx/scutil (English)
 description: "Manage system configuration parameters."
 content_hash: 82b2801f34bafa17fbe27f5b7b27b8f349e8bdb3
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Portugal) version
     url: /pt_PT/osx/scutil.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/scutil.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # scutil
 

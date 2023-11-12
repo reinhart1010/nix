@@ -3,7 +3,8 @@ layout: page
 title: common/gh-release (English)
 description: "Manage GitHub releases."
 content_hash: e6753d4fba88b31ef93df8d8ed18f31fe0026283
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gh release
 

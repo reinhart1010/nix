@@ -3,12 +3,10 @@ layout: page
 title: common/packwiz (English)
 description: "Create, edit and manage Minecraft modpacks."
 content_hash: e002519f8343324e7c27a33a7b8ce8f89a7a2be6
-last_modified_at: 2023-08-29
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># packwiz
+# packwiz
 
 Create, edit and manage Minecraft modpacks.
 More information: <https://packwiz.infra.link/reference/commands/packwiz/>.

@@ -3,7 +3,7 @@ layout: page
 title: windows/msiexec (English)
 description: "Install, update, repair, or uninstall Windows programs using MSI and MSP package files."
 content_hash: ab2a6241df2c5e0a23be7d2132b6ff942979c7a7
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: Indonesia version
     url: /id/windows/msiexec.html
@@ -11,6 +11,7 @@ related_topics:
   - title: русский version
     url: /ru/windows/msiexec.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # msiexec
 

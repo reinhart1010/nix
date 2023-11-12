@@ -3,7 +3,7 @@ layout: page
 title: android/logcat (Indonesia)
 description: "Tampilkan dan simpan log sistem."
 content_hash: c8b4e0b5261152981e2e6783c28edf0d4f79a203
-last_modified_at: 2023-06-24
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -17,11 +17,20 @@ related_topics:
   - title: español version
     url: /es/android/logcat.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/android/logcat.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/android/logcat.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/android/logcat.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/android/logcat.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/android/logcat.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/android/logcat.html
@@ -41,23 +50,18 @@ related_topics:
   - title: Türkçe version
     url: /tr/android/logcat.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/android/logcat.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/android/logcat.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/logcat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/android/logcat.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># logcat
+# logcat
 
 Tampilkan dan simpan log sistem.
 Informasi lebih lanjut: <https://developer.android.com/studio/command-line/logcat>.

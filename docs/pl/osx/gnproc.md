@@ -3,7 +3,7 @@ layout: page
 title: osx/gnproc (polski)
 description: "To polecenie jest aliasem `-p linux nproc`."
 content_hash: 5ade79b8e39baa70ffd972bbaf9ddda1fbab2261
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gnproc.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gnproc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gnproc
 

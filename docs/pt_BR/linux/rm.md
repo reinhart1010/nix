@@ -3,7 +3,7 @@ layout: page
 title: linux/rm (português (Brasil))
 description: "Remove arquivos ou diretórios."
 content_hash: 616c4d67382af102e6e65a3dc4c2dbfdecf0ce0b
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/rm.html
@@ -11,11 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/linux/rm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rm
+# rm
 
 Remove arquivos ou diretórios.
 Veja também: `rmdir`.

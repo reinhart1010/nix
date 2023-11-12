@@ -3,9 +3,13 @@ layout: page
 title: common/dig (日本語)
 description: "DNS 情報を調べるユーティリティーです。"
 content_hash: 793405a5baf3ad4b239cd8ef5778b29759c6509d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/dig.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/dig.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/dig.html
@@ -16,6 +20,10 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/dig.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/dig.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dig
 

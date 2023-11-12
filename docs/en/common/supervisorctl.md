@@ -3,7 +3,8 @@ layout: page
 title: common/supervisorctl (English)
 description: "Supervisor is a client/server system that allows its users to control a number of processes on UNIX-like operating systems."
 content_hash: c6b444a9a031fcafe281d4b1201e6eb8b0002860
-last_modified_at: 2023-07-19
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # supervisorctl
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/nixos-option (English)
 description: "Inspect a NixOS configuration."
 content_hash: f04b71941ba1713d6afd50293a6fc814298468aa
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # nixos-option
 

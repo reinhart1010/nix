@@ -3,6 +3,7 @@ layout: page
 title: common/zless (bosanski)
 description: "Pregledaj kompresovane datoteke."
 content_hash: 2be7a4ac9bc939e68f93ecd82600356a39b27876
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/zless.html
@@ -13,12 +14,13 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/zless.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/zless.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/common/zless.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # zless
 

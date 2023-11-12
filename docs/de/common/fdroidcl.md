@@ -3,10 +3,12 @@ layout: page
 title: common/fdroidcl (Deutsch)
 description: "F-Droid CLI (Command-line Interface) Client."
 content_hash: 1da73ad541dd37a59263dec24cc9396649b8b3fc
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/fdroidcl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fdroidcl
 

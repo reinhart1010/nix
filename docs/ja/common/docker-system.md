@@ -3,7 +3,7 @@ layout: page
 title: common/docker-system (日本語)
 description: "Dockerのデータ管理とシステム全体に関わる情報の表示をします。"
 content_hash: e9ece56253bfa82808e549e93ff1505877366a17
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-system.html
@@ -20,6 +20,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-system.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker system
 

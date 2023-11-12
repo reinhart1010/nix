@@ -3,6 +3,8 @@ layout: page
 title: linux/rc-status (English)
 description: "Show status info about runlevels."
 content_hash: 12fd1f5607c64f1ddbd1d23fefad82b445fc7871
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rc-status
 

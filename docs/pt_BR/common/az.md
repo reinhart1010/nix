@@ -3,9 +3,13 @@ layout: page
 title: common/az (português (Brasil))
 description: "A interface de linha de comando oficial do Microsoft Azure."
 content_hash: edcd7022a74af2cd871a7d2f4ac29f413d580d30
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/az.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/az.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/az.html
@@ -19,6 +23,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/az.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # az
 

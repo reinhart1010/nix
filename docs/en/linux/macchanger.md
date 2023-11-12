@@ -3,6 +3,8 @@ layout: page
 title: linux/macchanger (English)
 description: "Command-line utility for manipulating network interface MAC addresses."
 content_hash: e2c5044c456bbf443bce655070df3c2bdfc10c2c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # macchanger
 

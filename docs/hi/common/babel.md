@@ -3,7 +3,7 @@ layout: page
 title: common/babel (हिन्दी)
 description: "एक ट्रांसपिलर जो कोड को जावास्क्रिप्ट ES6/ES7 सिंटैक्स से ES5 सिंटैक्स में परिवर्तित करता है।"
 content_hash: a2173f16148fdf158446c2b7a1c561973ce658d7
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/babel.html
@@ -23,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/babel.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # babel
 

@@ -3,7 +3,7 @@ layout: page
 title: common/adb (Indonesia)
 description: "Android Debug Bridge: berkomunikasi dengan emulator Android atau perangkat Android terhubung."
 content_hash: 84310c76bf5758914ab58b85a6db866eb986bf9b
-last_modified_at: 2023-10-12
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/adb.html
@@ -35,6 +35,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/adb.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # adb
 

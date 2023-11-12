@@ -3,11 +3,12 @@ layout: page
 title: common/magick (English)
 description: "Create, edit, compose, or convert between image formats."
 content_hash: 5bebb3d6591866281f574c17424fc1dbd6040295
-last_modified_at: 2023-10-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: Nederlands version
     url: /nl/common/magick.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # magick
 

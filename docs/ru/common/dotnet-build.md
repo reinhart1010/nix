@@ -3,6 +3,7 @@ layout: page
 title: common/dotnet-build (русский)
 description: "Собирает приложение .NET и все его зависимости."
 content_hash: da212785429ad89cee827a2a7d1df4169ec9df19
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/dotnet-build.html
@@ -13,6 +14,7 @@ related_topics:
   - title: polski version
     url: /pl/common/dotnet-build.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dotnet build
 

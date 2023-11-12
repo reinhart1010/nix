@@ -3,6 +3,7 @@ layout: page
 title: common/fmt (português (Brasil))
 description: "Reformata um arquivo de texto juntando seus parágrafos e limitando a largura da linha a um determinado número de caracteres (75 por padrão)."
 content_hash: 8f87923f51aafc1143bd5325436d37aa58a8c94d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/fmt.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/fmt.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fmt
 

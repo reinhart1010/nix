@@ -3,16 +3,14 @@ layout: page
 title: common/pdfunite (Deutsch)
 description: "Füge PDF Dateien zusammen."
 content_hash: d3def429f1776ae4354ad74b9d38ecdd4d4c768f
-last_modified_at: 2022-11-30
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/pdfunite.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pdfunite
+# pdfunite
 
 Füge PDF Dateien zusammen.
 Weitere Informationen: <https://github.com/mtgrosser/pdfunite>.

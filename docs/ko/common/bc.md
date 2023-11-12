@@ -3,6 +3,7 @@ layout: page
 title: common/bc (한국어)
 description: "계산기의 기능을 수행합니다."
 content_hash: 4e3537c1df00346ca03d064f1dd14c7b8913d08a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/bc.html
@@ -10,18 +11,22 @@ related_topics:
   - title: español version
     url: /es/common/bc.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/bc.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/bc.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/bc.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/bc.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/bc.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># bc
 

@@ -3,7 +3,7 @@ layout: page
 title: common/ls (தமிழ்)
 description: "அடைவு உள்ளடக்கத்தைப் பட்டியலிடு."
 content_hash: 29fd80414c08129db8bc9db4a35741dd1fb081e4
-last_modified_at: 2022-12-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/common/ls.html
@@ -41,6 +41,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/ls.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/ls.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/ls.html
     icon: bi bi-globe
@@ -56,17 +59,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/ls.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ls.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ls
+# ls
 
 அடைவு உள்ளடக்கத்தைப் பட்டியலிடு.
 மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/ls>.

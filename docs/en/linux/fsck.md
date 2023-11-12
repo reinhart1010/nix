@@ -3,10 +3,12 @@ layout: page
 title: linux/fsck (English)
 description: "Check the integrity of a filesystem or repair it. The filesystem should be unmounted at the time the command is run."
 content_hash: 7c8da085585609da40e62e66cf6eb4aa8d18a224
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/linux/fsck.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fsck
 

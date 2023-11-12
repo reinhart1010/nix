@@ -3,6 +3,7 @@ layout: page
 title: linux/as (français)
 description: "Assembleur GNU portable. Principalement destiné pour assembler la sortie de `gcc` pour être utilisé par `ld`."
 content_hash: 0d2f447cc2be9ef214ee5ed040e498c3bf4973fe
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/as.html
@@ -16,11 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/as.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># as
+# as
 
 Assembleur GNU portable. Principalement destiné pour assembler la sortie de `gcc` pour être utilisé par `ld`.
 Plus d'informations : <https://manned.org/as>.

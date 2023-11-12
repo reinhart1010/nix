@@ -3,7 +3,8 @@ layout: page
 title: common/fastlane (English)
 description: "Build and release mobile applications."
 content_hash: 4c7ef9ac8bc7ce85044b68d969240b9b655fc6c2
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fastlane
 

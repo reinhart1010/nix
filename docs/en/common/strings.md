@@ -3,7 +3,8 @@ layout: page
 title: common/strings (English)
 description: "Find printable strings in an object file or binary."
 content_hash: 71e4ba4518a7a5be7ebd0c5f932604bd1fc622d3
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # strings
 

@@ -3,6 +3,8 @@ layout: page
 title: common/unlink (English)
 description: "Remove a link to a file from the filesystem."
 content_hash: fbfca5668ba0729bf300d0dffef04fbae789944a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # unlink
 

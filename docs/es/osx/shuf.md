@@ -3,7 +3,7 @@ layout: page
 title: osx/shuf (español)
 description: "Genera permutaciones aleatorias."
 content_hash: 13a10a89788a97ce3cdd04d4863327fd0fc6f47b
-last_modified_at: 2023-07-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/shuf.html
@@ -14,11 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/shuf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># shuf
+# shuf
 
 Genera permutaciones aleatorias.
 Más información: <https://www.unix.com/man-page/linux/1/shuf/>.

@@ -3,6 +3,8 @@ layout: page
 title: common/pio-remote (English)
 description: "Helper command for PlatformIO Remote Development."
 content_hash: 817c4796cd8d7ae7c47cf7716b1b50c24b166961
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pio remote
 

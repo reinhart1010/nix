@@ -3,6 +3,8 @@ layout: page
 title: common/latexmk (English)
 description: "Compile LaTeX source files into finished documents."
 content_hash: ad9ccf5e77314c6f7c09d3977e9c4e192f7c4a66
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # latexmk
 

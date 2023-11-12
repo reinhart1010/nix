@@ -3,6 +3,8 @@ layout: page
 title: common/pgbench (English)
 description: "Run a benchmark test on PostgreSQL."
 content_hash: dca7c2ac421b0f1037b52cc96049f017d0d2d108
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pgbench
 

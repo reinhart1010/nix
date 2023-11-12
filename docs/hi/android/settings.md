@@ -3,7 +3,7 @@ layout: page
 title: android/settings (हिन्दी)
 description: "एंड्रॉइड ओएस के बारे में जानकारी प्राप्त करें।"
 content_hash: 421fc23984a770a508feccea4f9796ad3e6bd657
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/settings.html
@@ -59,6 +59,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/settings.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # settings
 

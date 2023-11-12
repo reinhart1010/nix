@@ -3,11 +3,10 @@ layout: page
 title: osx/kmutil (English)
 description: "Utility for managing kernel extensions (kexts) and kext collections on disk."
 content_hash: 64aadae07ef6542e0760a9987860fc348f481e0e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># kmutil
+# kmutil
 
 Utility for managing kernel extensions (kexts) and kext collections on disk.
 More information: <https://keith.github.io/xcode-man-pages/kmutil.8.html>.

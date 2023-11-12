@@ -3,13 +3,21 @@ layout: page
 title: linux/lsusb (italiano)
 description: "Visualizza le informazioni su i bus USB e i dispositivi a loro connessi."
 content_hash: cc1db0fa427bc379344456a487f8e8ac0bc93246
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/lsusb.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/lsusb.html
     icon: bi bi-globe
   - title: español version
     url: /es/linux/lsusb.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/lsusb.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lsusb
 

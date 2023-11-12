@@ -3,6 +3,7 @@ layout: page
 title: linux/apk (español)
 description: "Herramienta de gestión de paquetes de Alpine Linux."
 content_hash: 0481e3434a2e6f73d886e0e511e842ae79bd8f09
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/apk.html
@@ -13,17 +14,27 @@ related_topics:
   - title: français version
     url: /fr/linux/apk.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/apk.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/linux/apk.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/apk.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/apk.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/apk.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apk.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># apk
+# apk
 
 Herramienta de gestión de paquetes de Alpine Linux.
 Más información: <https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management>.

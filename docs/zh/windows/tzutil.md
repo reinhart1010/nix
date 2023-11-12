@@ -3,10 +3,12 @@ layout: page
 title: windows/tzutil (中文)
 description: "用于显示或配置系统时区的工具。"
 content_hash: e940e69f4c8fd916bd52398ae2151e0d64dcb23a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/tzutil.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tzutil
 

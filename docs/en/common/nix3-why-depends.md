@@ -3,12 +3,10 @@ layout: page
 title: common/nix3-why-depends (English)
 description: "Show why a package depends on another package."
 content_hash: fba82b8d2bdfa25d2190d74b5abf632f89420b05
-last_modified_at: 2023-04-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># nix why-depends
+# nix why-depends
 
 Show why a package depends on another package.
 More information: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-why-depends.html>.

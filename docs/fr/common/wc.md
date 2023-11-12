@@ -3,7 +3,7 @@ layout: page
 title: common/wc (français)
 description: "Compte les lignes, les mots ou les octets."
 content_hash: 4f9b8572ca38aa5cbb3d9cdcf91b334694164176
-last_modified_at: 2022-11-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/wc.html
@@ -11,12 +11,16 @@ related_topics:
   - title: español version
     url: /es/common/wc.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/wc.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/wc.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/wc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wc
 

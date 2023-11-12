@@ -3,11 +3,12 @@ layout: page
 title: windows/ftype (English)
 description: "Display or modify file types used for file extension association."
 content_hash: 772cf9a8f578e653182ab6782df96e6b77cb9382
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/windows/ftype.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ftype
 

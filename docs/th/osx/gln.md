@@ -3,7 +3,7 @@ layout: page
 title: osx/gln (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux ln`"
 content_hash: 3e0f4a015109eb34e55330bdfb0e83833e4b1535
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gln.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gln.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gln
 

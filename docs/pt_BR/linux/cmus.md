@@ -3,7 +3,11 @@ layout: page
 title: linux/cmus (português (Brasil))
 description: "Player de música via terminal."
 content_hash: ff6a49b4280108d50248970d69ef56711ec6bfd9
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/cmus.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/cmus.html
     icon: bi bi-globe
@@ -16,6 +20,7 @@ related_topics:
   - title: മലയാളം version
     url: /ml/linux/cmus.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cmus
 

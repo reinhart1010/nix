@@ -3,15 +3,17 @@ layout: page
 title: osx/xcode-select (Deutsch)
 description: "Wechsel zwischen verschiedenen Xcode Versionen und den enthaltenen Entwicklertools."
 content_hash: 7c1127f332a00d2e7d1f310bfa63db63e46bf073
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/xcode-select.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/xcode-select.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># xcode-select
+# xcode-select
 
 Wechsel zwischen verschiedenen Xcode Versionen und den enthaltenen Entwicklertools.
 Wird auch verwendet, um den Pfad zu Xcode zu aktualisieren, wenn dieser sich nach einer Installation geändert hat.

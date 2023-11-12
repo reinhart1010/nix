@@ -3,11 +3,14 @@ layout: page
 title: common/oathtool (English)
 description: "OATH one-time password tool."
 content_hash: 861204430f0a75d148687c49293b06d298560385
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 中文 version
+    url: /zh/common/oathtool.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># oathtool
+# oathtool
 
 OATH one-time password tool.
 More information: <https://www.nongnu.org/oath-toolkit/oathtool.1.html>.

@@ -3,7 +3,7 @@ layout: page
 title: osx/open (español)
 description: "Abre archivos, directorios y aplicaciones."
 content_hash: 9bfac2ebbf8464c092def56371e65ccd4d6672cb
-last_modified_at: 2023-07-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/osx/open.html
@@ -17,11 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/open.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># open
+# open
 
 Abre archivos, directorios y aplicaciones.
 Más información: <https://ss64.com/osx/open.html>.

@@ -3,6 +3,7 @@ layout: page
 title: linux/ntfsfix (español)
 description: "Arregla problemas habituales de una partición NTFS."
 content_hash: 7fd7e31ef786ed91d4eff7529ca87787b4622a37
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/ntfsfix.html
@@ -10,6 +11,7 @@ related_topics:
   - title: English version
     url: /en/linux/ntfsfix.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ntfsfix
 

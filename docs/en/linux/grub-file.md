@@ -3,12 +3,10 @@ layout: page
 title: linux/grub-file (English)
 description: "Check if a file is of a specific bootable image type."
 content_hash: 603383e7ff8b315c095b57df55b7068bc9bd5062
-last_modified_at: 2023-03-07
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># grub-file
+# grub-file
 
 Check if a file is of a specific bootable image type.
 More information: <https://manned.org/grub-file>.

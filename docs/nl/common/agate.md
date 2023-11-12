@@ -3,7 +3,7 @@ layout: page
 title: common/agate (Nederlands)
 description: "Een eenvoudige server voor het Gemini-netwerkprotocol."
 content_hash: 57e27d42c7a05b0307fcbd5fba692e947798f97a
-last_modified_at: 2023-06-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/agate.html
@@ -14,17 +14,18 @@ related_topics:
   - title: français version
     url: /fr/common/agate.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/common/agate.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/agate.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/agate.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># agate
+# agate
 
 Een eenvoudige server voor het Gemini-netwerkprotocol.
 Meer informatie: <https://github.com/mbrubeck/agate>.

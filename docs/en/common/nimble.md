@@ -3,7 +3,8 @@ layout: page
 title: common/nimble (English)
 description: "Package manager for the Nim programming language."
 content_hash: 2360036e0c672685ad379c1f87b8e6c2b95ec73c
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # nimble
 

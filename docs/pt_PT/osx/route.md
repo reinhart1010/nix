@@ -3,13 +3,18 @@ layout: page
 title: osx/route (português (Portugal))
 description: "Alteração manual da tabela de rotas."
 content_hash: 7644b6c6cdcad56ee00959db6c8910d4b507b2be
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/route.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/route.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/route.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # route
 

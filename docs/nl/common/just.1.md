@@ -3,16 +3,14 @@ layout: page
 title: common/just.1 (Nederlands)
 description: "Sla op en run project-specifieke commands uit."
 content_hash: 70ba8f318c694b183ca6c9dbc6f0a1f44fe6c250
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/just.1.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># just
+# just
 
 Sla op en run project-specifieke commands uit.
 Meer informatie: <https://github.com/casey/just>.

@@ -3,16 +3,24 @@ layout: page
 title: common/docker-network (Deutsch)
 description: "Erzeuge und verwalte Docker Netzwerke."
 content_hash: ddc30f2bc8c0467e89805ba6f9c8d856f959488a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/docker-network.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/docker-network.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/docker-network.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/docker-network.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/docker-network.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker network
 

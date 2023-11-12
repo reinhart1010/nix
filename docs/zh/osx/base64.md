@@ -3,13 +3,24 @@ layout: page
 title: osx/base64 (中文)
 description: "使用 Base64 来进行编码和解码。"
 content_hash: a1e6b3ad21ee2930c72fad91ed1a86a3408dc9fc
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/base64.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/base64.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/osx/base64.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/osx/base64.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/base64.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # base64
 

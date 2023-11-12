@@ -3,11 +3,12 @@ layout: page
 title: common/gist (English)
 description: "Upload code to https://gist.github.com."
 content_hash: 48f234ca7f1aab27a82134e82a19971d58e73304
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: українська version
     url: /uk/common/gist.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gist
 

@@ -3,6 +3,8 @@ layout: page
 title: common/kind (English)
 description: "Tool for running local Kubernetes clusters using Docker container \"nodes\"."
 content_hash: adafebab6708129aa22380fb4bcd3115b8ec6d97
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # kind
 

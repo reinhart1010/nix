@@ -3,7 +3,8 @@ layout: page
 title: common/exercism (English)
 description: "Download and solve problems."
 content_hash: 9a039f95b6756ac795ebd38bda821a0290c6ae0b
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # exercism
 

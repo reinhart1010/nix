@@ -3,12 +3,10 @@ layout: page
 title: common/btop (English)
 description: "A resource monitor that shows information about the CPU, memory, disks, network and processes."
 content_hash: a99729fa4a5a542c67e01f4f20e5bf3dff5418eb
-last_modified_at: 2023-06-30
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># btop
+# btop
 
 A resource monitor that shows information about the CPU, memory, disks, network and processes.
 A C++ version of `bpytop`.

@@ -3,12 +3,10 @@ layout: page
 title: common/cargo-owner (English)
 description: "Manage the owners of a crate on the registry."
 content_hash: 970436ec1d6fdbd9ccdef8c9c5c4a3d209cc4c66
-last_modified_at: 2023-10-31
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cargo owner
+# cargo owner
 
 Manage the owners of a crate on the registry.
 More information: <https://doc.rust-lang.org/cargo/commands/cargo-owner.html>.

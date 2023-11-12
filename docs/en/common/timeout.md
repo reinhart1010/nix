@@ -3,6 +3,8 @@ layout: page
 title: common/timeout (English)
 description: "Run a command with a time limit."
 content_hash: 25cc2f8bceb6d228074f97c6df7ecc7afef65252
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # timeout
 

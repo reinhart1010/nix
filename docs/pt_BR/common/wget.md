@@ -3,16 +3,24 @@ layout: page
 title: common/wget (português (Brasil))
 description: "Baixar arquivos da Internet."
 content_hash: becbd7c284aa493ea0ed6355b8e2bbec74697127
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/wget.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/common/wget.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/wget.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/wget.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/wget.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wget
 

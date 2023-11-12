@@ -3,6 +3,7 @@ layout: page
 title: common/cmark (한국어)
 description: "CommonMark Markdown 텍스트를 다른 텍스트 형식으로 변환합니다."
 content_hash: 00fce0659ba0f89e1570c9e87d3b046c249f6290
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/cmark.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/cmark.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cmark
 

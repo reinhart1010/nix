@@ -3,6 +3,12 @@ layout: page
 title: common/webpack (English)
 description: "Bundle a web project's js files and other assets into a single output file."
 content_hash: b786259688c72a923fd66bf8271f446258da6106
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/webpack.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # webpack
 

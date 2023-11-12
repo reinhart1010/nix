@@ -3,7 +3,8 @@ layout: page
 title: linux/mimetype (English)
 description: "Automatically determine the MIME type of a file."
 content_hash: 232a0e8ce2dccc230b87b682325cec18246625c8
-last_modified_at: 2023-05-20
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mimetype
 

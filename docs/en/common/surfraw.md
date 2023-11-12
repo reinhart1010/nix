@@ -3,7 +3,8 @@ layout: page
 title: common/surfraw (English)
 description: "Query a variety of web search engines."
 content_hash: 13a88be57c463757c09eef62d77f3f193f558ec4
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # surfraw
 

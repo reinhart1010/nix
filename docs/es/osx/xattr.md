@@ -3,7 +3,7 @@ layout: page
 title: osx/xattr (español)
 description: "Utilidad para trabajar con atributos extendidos del sistema de ficheros."
 content_hash: d1312251da7c52a1c904889d14d63d5a166ae130
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/xattr.html
@@ -11,11 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/xattr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># xattr
+# xattr
 
 Utilidad para trabajar con atributos extendidos del sistema de ficheros.
 Más información: <https://ss64.com/osx/xattr.html>.

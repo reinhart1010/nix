@@ -3,6 +3,7 @@ layout: page
 title: common/docker (Indonesia)
 description: "Mengatur kontainer Docker dan image."
 content_hash: 507af69ee2a2de043362925aa9e28c223801dc84
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -19,6 +20,9 @@ related_topics:
   - title: italiano version
     url: /it/common/docker.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/docker.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/docker.html
     icon: bi bi-globe
@@ -34,6 +38,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/docker.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker
 

@@ -3,7 +3,8 @@ layout: page
 title: common/keep-header (English)
 description: "Keep first line untouched by a command, passing it directly to `stdout`."
 content_hash: d025cd42bff29f9777edfdf77fa5b3bf81fc91c4
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # keep-header
 

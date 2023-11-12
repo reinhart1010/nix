@@ -3,10 +3,12 @@ layout: page
 title: osx/pmset (中文)
 description: "配置 macOS 电源管理设置，就像在系统首选项 > 节能程序中一样。"
 content_hash: 406e1a71ccb886bdc376e187c2bc17c3f31531cb
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/pmset.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pmset
 

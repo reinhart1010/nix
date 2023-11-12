@@ -3,7 +3,8 @@ layout: page
 title: linux/mmdebstrap (English)
 description: "Create a Debian chroot."
 content_hash: b655220316ff3b15212045829f1c98cdbaae17fc
-last_modified_at: 2023-04-10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mmdebstrap
 

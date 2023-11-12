@@ -3,12 +3,16 @@ layout: page
 title: common/chown (English)
 description: "Change user and group ownership of files and directories."
 content_hash: 552eb631d94f5b36b4028d9841c56eaa79f72889
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/chown.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/chown.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/chown.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/chown.html
@@ -28,6 +32,10 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/chown.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/chown.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chown
 

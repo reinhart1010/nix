@@ -3,7 +3,8 @@ layout: page
 title: linux/xman (English)
 description: "Manual page viewer for X Window System."
 content_hash: 5ef143d61a981caac4c0b0098f6ecede3da31665
-last_modified_at: 2023-06-28
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xman
 

@@ -3,7 +3,7 @@ layout: page
 title: common/netstat (한국어)
 description: "열린 연결 및 소켓 포트 등과 같은 네트워크 관련 정보를 표시합니다."
 content_hash: 647894ad1ad93547216655e5728cfc7440a30ac2
-last_modified_at: 2023-10-23
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/netstat.html
@@ -11,11 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/netstat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># netstat
+# netstat
 
 열린 연결 및 소켓 포트 등과 같은 네트워크 관련 정보를 표시합니다.
 더 많은 정보: <https://man7.org/linux/man-pages/man8/netstat.8.html>.

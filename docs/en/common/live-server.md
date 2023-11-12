@@ -3,6 +3,8 @@ layout: page
 title: common/live-server (English)
 description: "A simple development HTTP server with live reload capability."
 content_hash: 7bb9a5b1d804b6e3a5212ba0c74d54174c5382ca
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # live-server
 

@@ -3,11 +3,14 @@ layout: page
 title: linux/dconf-reset (English)
 description: "Reset key values in dconf databases."
 content_hash: ed6e864e507f1f7e534fd9b88a3cec78051c4a1d
+last_modified_at: 2023-11-12
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/linux/dconf-reset.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dconf reset
+# dconf reset
 
 Reset key values in dconf databases.
 See also: `dconf`.

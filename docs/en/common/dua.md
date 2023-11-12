@@ -3,6 +3,12 @@ layout: page
 title: common/dua (English)
 description: "Dua (Disk Usage Analyzer) is a tool to conveniently learn about the usage of disk space of a given directory."
 content_hash: afa100c831ec864f8ae32f32f3580d15fb2e305f
+last_modified_at: 2023-11-12
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/common/dua.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dua
 

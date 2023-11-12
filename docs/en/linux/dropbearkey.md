@@ -3,12 +3,10 @@ layout: page
 title: linux/dropbearkey (English)
 description: "Generate SSH keys in Dropbear format."
 content_hash: 7a270574c79e599361143197b95c1224ea4ecd4b
-last_modified_at: 2023-03-20
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dropbearkey
+# dropbearkey
 
 Generate SSH keys in Dropbear format.
 More information: <https://manned.org/dropbearkey.1>.

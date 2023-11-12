@@ -3,21 +3,14 @@ layout: page
 title: common/puppet-agent (Deutsch)
 description: "Ruft die Client-Konfiguration eines Puppetservers ab und setzt diese auf dem System um."
 content_hash: eb194c7ac2f5db1770b0a994b11d721c19664048
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/puppet-agent.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/puppet-agent.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># puppet agent
+# puppet agent
 
 Ruft die Client-Konfiguration eines Puppetservers ab und setzt diese auf dem System um.
 Weitere Informationen: <https://puppet.com/docs/puppet/7/man/agent.html>.

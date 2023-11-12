@@ -3,6 +3,8 @@ layout: page
 title: linux/zenity (English)
 description: "Display dialogs from the command-line/shell scripts."
 content_hash: 3dc0d69eac9ebbe9edac6bfe0387cce689f5e4d6
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # zenity
 

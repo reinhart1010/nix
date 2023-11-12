@@ -3,7 +3,7 @@ layout: page
 title: android/dumpsys (فارسی)
 description: "ارائه اطلاعات درباره سیستم سرویس اندروید."
 content_hash: da9864f54782ca647bee42477a0d9520acf5862b
-last_modified_at: 2023-09-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/dumpsys.html
@@ -20,8 +20,14 @@ related_topics:
   - title: français version
     url: /fr/android/dumpsys.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/android/dumpsys.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/dumpsys.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/android/dumpsys.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/android/dumpsys.html
@@ -41,6 +47,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/android/dumpsys.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/android/dumpsys.html
+    icon: bi bi-globe
   - title: o‘zbek version
     url: /uz/android/dumpsys.html
     icon: bi bi-globe
@@ -50,11 +59,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/dumpsys.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dumpsys
+# dumpsys
 
 ارائه اطلاعات درباره سیستم سرویس اندروید.
 این دستور فقط از طریق `adb shell` قابل اجراست.

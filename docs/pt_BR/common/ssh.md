@@ -3,7 +3,7 @@ layout: page
 title: common/ssh (português (Brasil))
 description: "O Secure Shell é um protocolo usado para fazer login de forma segura em sistemas remotos."
 content_hash: 29525ce16004358da0cc97856fa939fcfb6bbc14
-last_modified_at: 2023-09-18
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ssh.html
@@ -17,11 +17,12 @@ related_topics:
   - title: हिन्दी version
     url: /hi/common/ssh.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/ssh.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ssh
+# ssh
 
 O Secure Shell é um protocolo usado para fazer login de forma segura em sistemas remotos.
 Ele pode ser usado para fazer login ou executar comandos em um servidor remoto.

@@ -3,6 +3,8 @@ layout: page
 title: linux/named (English)
 description: "Execute the DNS (Dynamic Name Service) server daemon that converts host names to IP addresses and vice versa."
 content_hash: 8297d06744756835a1a11c968483edd516c09feb
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # named
 

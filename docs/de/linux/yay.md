@@ -3,6 +3,7 @@ layout: page
 title: linux/yay (Deutsch)
 description: "Yet Another Yogurt: Ein Programm für Arch Linux um Pakete vom Arch User Repository zu installieren."
 content_hash: 0f2bd5493253c439f1d96d1e831608aafa93bfd4
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/yay.html
@@ -16,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/yay.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # yay
 

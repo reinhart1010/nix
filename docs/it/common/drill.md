@@ -3,10 +3,15 @@ layout: page
 title: common/drill (italiano)
 description: "Esegui varie query DNS."
 content_hash: 86ca4b8f262515724ca8c9edac6c44dc2230ca70
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/drill.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/drill.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # drill
 

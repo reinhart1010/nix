@@ -3,6 +3,8 @@ layout: page
 title: linux/genie (English)
 description: "Set up and use a \"bottle\" namespace to run systemd under WSL (Windows Subsystem for Linux)."
 content_hash: acac9b787af500cfd731a6e5f08c347881414990
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # genie
 

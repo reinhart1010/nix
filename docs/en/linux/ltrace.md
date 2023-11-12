@@ -3,6 +3,8 @@ layout: page
 title: linux/ltrace (English)
 description: "Display dynamic library calls of a process."
 content_hash: 841908a541a0c26ec2fee6b4ac5026326375c022
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ltrace
 

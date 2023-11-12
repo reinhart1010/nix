@@ -3,6 +3,7 @@ layout: page
 title: common/git-instaweb (français)
 description: "Outil pour le lancement d'un serveur gitweb."
 content_hash: f8ae8f0fde7686d312b85bb258577702b2a5cb4e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-instaweb.html
@@ -10,6 +11,10 @@ related_topics:
   - title: italiano version
     url: /it/common/git-instaweb.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-instaweb.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git instaweb
 

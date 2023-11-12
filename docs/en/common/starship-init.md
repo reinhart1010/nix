@@ -3,6 +3,8 @@ layout: page
 title: common/starship-init (English)
 description: "Print shell integration code for starship."
 content_hash: 46873a4dbe1515f2bf5e799767ce7a95fa0ae4cf
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # starship init
 

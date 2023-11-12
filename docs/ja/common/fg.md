@@ -3,7 +3,7 @@ layout: page
 title: common/fg (日本語)
 description: "フォアグラウンドでジョブを実行する。"
 content_hash: 24bfa41de850e0e24e6a5a783e2ef7fb69d14cdf
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/fg.html
@@ -20,6 +20,7 @@ related_topics:
   - title: русский version
     url: /ru/common/fg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fg
 

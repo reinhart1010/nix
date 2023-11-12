@@ -3,6 +3,7 @@ layout: page
 title: common/crontab (italiano)
 description: "Programma cron job per essere eseguiti a determinati intervalli di tempo per l'utente corrente."
 content_hash: 2a0a23725d70aa1a087c34bb98704747bf7dcd78
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/crontab.html
@@ -10,15 +11,13 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/crontab.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/crontab.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/crontab.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># crontab
 

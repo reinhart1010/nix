@@ -3,11 +3,12 @@ layout: page
 title: common/ng (English)
 description: "Create and manage Angular applications."
 content_hash: e859f0048f4a0b9fd4cbef04b98e149c967221fe
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: Türkçe version
     url: /tr/common/ng.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ng
 

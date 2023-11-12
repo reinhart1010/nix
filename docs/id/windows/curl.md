@@ -3,7 +3,7 @@ layout: page
 title: windows/curl (Indonesia)
 description: "Perintah ini dapat merupakan alias dari `Invoke-WebRequest` jika program `curl` (<https://curl.se>) tidak terpasang secara benar di PowerShell."
 content_hash: 892b155fdd2380eff80d63e9943163c0db70b763
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/curl.html
@@ -92,6 +92,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/curl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # curl
 

@@ -3,10 +3,19 @@ layout: page
 title: common/mscore (Türkçe)
 description: "Bu komut `musescore` için bir takma addır."
 content_hash: dc1ddbbec3e8315104b4dda3fddaed1744fb77d5
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
+  - title: العربية version
+    url: /ar/common/mscore.html
+    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/mscore.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/common/mscore.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/common/mscore.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/mscore.html
@@ -32,11 +41,17 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/mscore.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/mscore.html
+    icon: bi bi-globe
   - title: ລາວ version
     url: /lo/common/mscore.html
     icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/common/mscore.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/mscore.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/mscore.html
@@ -49,6 +64,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/mscore.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/common/mscore.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/mscore.html
@@ -71,11 +89,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/mscore.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mscore
+# mscore
 
 Bu komut `musescore` için bir takma addır.
 Daha fazla bilgi için: <https://musescore.org/handbook/command-line-options>.

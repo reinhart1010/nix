@@ -3,11 +3,10 @@ layout: page
 title: common/csv-diff (English)
 description: "View differences between two CSV, TSV or JSON files."
 content_hash: f735f6a4390897a1e999d70d6d7be6d3d990999e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># csv-diff
+# csv-diff
 
 View differences between two CSV, TSV or JSON files.
 More information: <https://github.com/simonw/csv-diff>.

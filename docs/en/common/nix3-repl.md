@@ -3,12 +3,10 @@ layout: page
 title: common/nix3-repl (English)
 description: "Start an interactive environment for evaluating Nix expressions."
 content_hash: f175a608ef81fd177d6f8cb7a1523f66e15a9068
-last_modified_at: 2023-04-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># nix repl
+# nix repl
 
 Start an interactive environment for evaluating Nix expressions.
 See <https://nixos.org/manual/nix/stable/language/index.html> for a description of the Nix expression language.

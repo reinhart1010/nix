@@ -3,11 +3,12 @@ layout: page
 title: common/fzf (English)
 description: "Command-line fuzzy finder."
 content_hash: 91445c6f6fa6183d56ad2066f24575c75e896f65
-last_modified_at: 2023-06-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: Türkçe version
     url: /tr/common/fzf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fzf
 

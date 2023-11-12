@@ -3,7 +3,8 @@ layout: page
 title: common/ncu (English)
 description: "Find newer versions of package dependencies and check outdated npm packages locally or globally."
 content_hash: f5620ffbc163041ed926478a162c955303dafa72
-last_modified_at: 2023-08-24
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ncu
 

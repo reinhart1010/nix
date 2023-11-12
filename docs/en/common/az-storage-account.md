@@ -3,7 +3,8 @@ layout: page
 title: common/az-storage-account (English)
 description: "Manage storage accounts in Azure."
 content_hash: d5e599609d4e921116aa37fc464b3ba2296d8006
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # az storage account
 

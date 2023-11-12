@@ -3,7 +3,7 @@ layout: page
 title: common/alias (বাংলা)
 description: "উপনাম তৈরি করে -- এই শব্দগুলি যেগুলি কমান্ড স্ট্রিং দ্বারা প্রতিস্থাপন করা হয়।"
 content_hash: 01cbc6ebbe8864e81784c2418662fbb857dd5613
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/alias.html
@@ -59,6 +59,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/alias.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # alias
 

@@ -3,11 +3,10 @@ layout: page
 title: linux/unzipsfx (English)
 description: "Create a self-extracting compressed binary file by prepending self-extracting stubs on a `zip` file."
 content_hash: 44d2ec5d822edd2f0533f838ab8e0163f074fa50
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># unzipsfx
+# unzipsfx
 
 Create a self-extracting compressed binary file by prepending self-extracting stubs on a `zip` file.
 More information: <https://manned.org/unzipsfx>.

@@ -3,6 +3,7 @@ layout: page
 title: osx/archey (português (Brasil))
 description: "Ferramenta simples para exibir as informações do sistema com estilo."
 content_hash: 784f3d8eacc44719959067c69e0c41031d8ba32c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/archey.html
@@ -16,11 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/archey.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># archey
+# archey
 
 Ferramenta simples para exibir as informações do sistema com estilo.
 Mais informações: <https://github.com/joshfinnie/archey-osx>.

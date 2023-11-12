@@ -3,6 +3,7 @@ layout: page
 title: common/git-push (English)
 description: "Push commits to a remote repository."
 content_hash: 2a6b5ce100b854c37f4c6a7a09190a511d4834c6
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-push.html
@@ -16,6 +17,16 @@ related_topics:
   - title: italiano version
     url: /it/common/git-push.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-push.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-push.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git-push.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git push
 

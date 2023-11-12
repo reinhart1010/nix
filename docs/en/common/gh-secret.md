@@ -3,7 +3,8 @@ layout: page
 title: common/gh-secret (English)
 description: "Manage GitHub secrets."
 content_hash: 963fed142d2e02dd98218aa7668183bfb986b1ca
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gh secret
 

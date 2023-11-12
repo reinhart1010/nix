@@ -3,6 +3,8 @@ layout: page
 title: common/carp (English)
 description: "REPL and build tool for Carp."
 content_hash: c47d49b0a319b8d4d950049e10aae0dff75a9d2e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # carp
 

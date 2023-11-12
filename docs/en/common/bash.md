@@ -3,7 +3,7 @@ layout: page
 title: common/bash (English)
 description: "Bourne-Again SHell, an `sh`-compatible command-line interpreter."
 content_hash: 1daf5a1ee51cc4d29c43c0e49cec861b6ba4338a
-last_modified_at: 2023-06-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/bash.html
@@ -32,6 +32,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/bash.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bash
 

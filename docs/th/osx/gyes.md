@@ -3,7 +3,7 @@ layout: page
 title: osx/gyes (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux yes`"
 content_hash: d2498309925775ad034099d8f0733cad7bec7a3c
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gyes.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gyes.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gyes
 

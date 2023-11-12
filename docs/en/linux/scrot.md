@@ -3,6 +3,8 @@ layout: page
 title: linux/scrot (English)
 description: "Screen capture utility."
 content_hash: c9c8c4cac4300c6c467076c3487b3e3fb6ceded7
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # scrot
 

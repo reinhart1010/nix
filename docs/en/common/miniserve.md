@@ -3,7 +3,8 @@ layout: page
 title: common/miniserve (English)
 description: "Simple HTTP file server."
 content_hash: 463707473f9a20dcca1fc13d86d4a001338b3efa
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # miniserve
 

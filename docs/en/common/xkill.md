@@ -3,6 +3,7 @@ layout: page
 title: common/xkill (English)
 description: "Kill a window interactively in a graphical session."
 content_hash: f6f4331ca30513b4de3b6307f50274956cac3582
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/xkill.html
@@ -19,6 +20,7 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/xkill.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xkill
 

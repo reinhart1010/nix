@@ -3,7 +3,7 @@ layout: page
 title: linux/lsblk (हिन्दी)
 description: "उपकरणों के बारे में जानकारी सूचीबद्ध करता है।"
 content_hash: 54727a2d2f7b2816762ba2e0666b31f6e5e2711b
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/lsblk.html
@@ -11,6 +11,16 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/lsblk.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/linux/lsblk.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/lsblk.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/linux/lsblk.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lsblk
 

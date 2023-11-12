@@ -3,11 +3,14 @@ layout: page
 title: linux/daemon (English)
 description: "Run processes into daemons."
 content_hash: 10b57a3743a06b7c625925fd67fdea70fa86b697
+last_modified_at: 2023-11-12
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/linux/daemon.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># daemon
+# daemon
 
 Run processes into daemons.
 More information: <https://manned.org/man/daemon.1>.

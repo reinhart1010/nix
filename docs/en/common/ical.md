@@ -3,6 +3,12 @@ layout: page
 title: common/ical (English)
 description: "A Hirji/Islamic calendar and converter for the terminal."
 content_hash: 1625c1ffac3c79f9aebbf606ef8d4ed87a2b8123
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/ical.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ical
 

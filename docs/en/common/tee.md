@@ -3,11 +3,12 @@ layout: page
 title: common/tee (English)
 description: "Read from `stdin` and write to `stdout` and files (or commands)."
 content_hash: 43af1dfbd8295afdfe4bd84b00decff87832ed54
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/tee.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tee
 

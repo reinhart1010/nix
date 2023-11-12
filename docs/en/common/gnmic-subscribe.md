@@ -3,6 +3,8 @@ layout: page
 title: common/gnmic-subscribe (English)
 description: "Subscribe to a gnmic network device state updates."
 content_hash: fdf1285a02a18aa8e4af0c525850557299cad683
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gnmic subscribe
 

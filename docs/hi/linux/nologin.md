@@ -3,7 +3,7 @@ layout: page
 title: linux/nologin (हिन्दी)
 description: "उपयोक्ता को लॉग इन करने से रोकने वाला वैकल्पिक शैल."
 content_hash: 62bac20f74df996db05982ac06ba13d469717306
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/nologin.html
@@ -11,6 +11,7 @@ related_topics:
   - title: English version
     url: /en/linux/nologin.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nologin
 

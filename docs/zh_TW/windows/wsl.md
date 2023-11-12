@@ -3,6 +3,7 @@ layout: page
 title: windows/wsl (中文 (繁體, 台灣))
 description: "透過命令行管理 Windows 子系統 Linux 版 (WSL)。"
 content_hash: 4c56e98475bca71714b3f948c6acc73fb70d2a54
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/wsl.html
@@ -10,14 +11,15 @@ related_topics:
   - title: English version
     url: /en/windows/wsl.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/wsl.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/wsl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># wsl
+# wsl
 
 透過命令行管理 Windows 子系統 Linux 版 (WSL)。
 更多資訊：<https://learn.microsoft.com/windows/wsl/reference>.

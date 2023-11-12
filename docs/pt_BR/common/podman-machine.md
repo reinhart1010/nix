@@ -3,16 +3,14 @@ layout: page
 title: common/podman-machine (português (Brasil))
 description: "Criar e gerenciar máquinas virtuais executando o Podman."
 content_hash: fa9cd6e7c188f0d40f588f65b6d5ed896e898931
-last_modified_at: 2023-09-18
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/podman-machine.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># podman machine
+# podman machine
 
 Criar e gerenciar máquinas virtuais executando o Podman.
 Incluído com a versão 4 ou superior do Podman.

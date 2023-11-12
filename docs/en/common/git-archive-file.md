@@ -3,6 +3,8 @@ layout: page
 title: common/git-archive-file (English)
 description: "Export all the files of the current Git branch into a zip archive."
 content_hash: 2df598c51a32de994284fb6562a8bdcf942e1132
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git archive-file
 

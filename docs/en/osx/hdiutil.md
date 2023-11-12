@@ -3,11 +3,12 @@ layout: page
 title: osx/hdiutil (English)
 description: "Utility to create and manage disk images."
 content_hash: 92c143d514c965f4afa6e273dd69c310320f58dd
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/osx/hdiutil.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # hdiutil
 

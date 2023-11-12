@@ -3,7 +3,7 @@ layout: page
 title: common/ssh-agent (português (Brasil))
 description: "Iniciar um processo do Agente SSH."
 content_hash: 17047fa647fd3227d15fd3c5d571dc8173a2a706
-last_modified_at: 2023-09-18
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ssh-agent.html
@@ -14,11 +14,9 @@ related_topics:
   - title: français version
     url: /fr/common/ssh-agent.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ssh-agent
+# ssh-agent
 
 Iniciar um processo do Agente SSH.
 Um Agente SSH mantém as chaves SSH descriptografadas na memória até serem removidas ou o processo ser encerrado.

@@ -3,9 +3,13 @@ layout: page
 title: common/axel (français)
 description: "Accélérateur de téléchargement."
 content_hash: 5d113fbc4366b80a81a1f70238495ddb61e7902e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/axel.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/axel.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/axel.html
@@ -19,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/axel.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # axel
 

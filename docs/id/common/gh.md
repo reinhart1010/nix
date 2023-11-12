@@ -3,6 +3,7 @@ layout: page
 title: common/gh (Indonesia)
 description: "Memudahkan pengaksesan GitHub dari command-line."
 content_hash: b899a23a5c70d7b1ec9f94a33d6c9fc1694914ea
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/gh.html
@@ -13,6 +14,7 @@ related_topics:
   - title: français version
     url: /fr/common/gh.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gh
 

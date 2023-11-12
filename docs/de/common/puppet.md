@@ -3,10 +3,12 @@ layout: page
 title: common/puppet (Deutsch)
 description: "Puppet bietet Tools, an um die Konfiguration von Servern zu automatisieren."
 content_hash: 612cad034390b7de3ce635cc19bfa42e1a461aa1
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/puppet.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # puppet
 

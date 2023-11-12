@@ -3,9 +3,13 @@ layout: page
 title: common/dig (português (Brasil))
 description: "Utilitário de pesquisa de DNS."
 content_hash: d926817e91fd9d61a540d8f9b32bd81a2f84e551
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/dig.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/dig.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/dig.html
@@ -16,6 +20,10 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/dig.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/dig.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dig
 

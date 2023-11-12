@@ -3,10 +3,12 @@ layout: page
 title: common/aws-secretsmanager (English)
 description: "Store, manage, and retrieve secrets."
 content_hash: 26b08e62e6cd54ab203e3fb840fdd6d4bcc5a3c8
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/aws-secretsmanager.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws secretsmanager
 

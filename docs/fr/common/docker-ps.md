@@ -3,6 +3,7 @@ layout: page
 title: common/docker-ps (français)
 description: "Lister les conteneurs Docker."
 content_hash: c0f4faafda234e5596a088b57db53b20ecb7d7eb
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-ps.html
@@ -10,17 +11,21 @@ related_topics:
   - title: English version
     url: /en/common/docker-ps.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/docker-ps.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/docker-ps.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker-ps.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/docker-ps.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docker ps
+# docker ps
 
 Lister les conteneurs Docker.
 Plus d'informations : <https://docs.docker.com/engine/reference/commandline/ps/>.

@@ -3,13 +3,19 @@ layout: page
 title: common/7zr (español)
 description: "Archivador de ficheros con un alto ratio de compresión."
 content_hash: 7dc158d9cd07e786ed06715670da29abb941f7c9
-last_modified_at: 2023-05-18
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/7zr.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/7zr.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/7zr.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/7zr.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/7zr.html
@@ -26,11 +32,17 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/7zr.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/7zr.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/7zr.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/7zr.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/common/7zr.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/7zr.html
@@ -38,6 +50,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/7zr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # 7zr
 

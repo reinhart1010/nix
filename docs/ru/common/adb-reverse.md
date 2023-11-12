@@ -3,12 +3,22 @@ layout: page
 title: common/adb-reverse (русский)
 description: "Android Debug Bridge Reverse: обратное соединение от эмулятора Android или подключенного устройства Android."
 content_hash: cb212e86edc1c13798489a9e8b4506d84c36a473
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/adb-reverse.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/adb-reverse.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/adb-reverse.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/adb-reverse.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/adb-reverse.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/adb-reverse.html
@@ -16,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/adb-reverse.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # adb reverse
 

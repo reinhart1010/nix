@@ -3,7 +3,7 @@ layout: page
 title: common/yarn (한국어)
 description: "JavaScript 및 Node.js 패키지 대체 관리자."
 content_hash: c869bfbb43401104c1b491e95da655ae036033ee
-last_modified_at: 2023-10-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/yarn.html
@@ -17,11 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/yarn.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># yarn
+# yarn
 
 JavaScript 및 Node.js 패키지 대체 관리자.
 더 많은 정보: <https://yarnpkg.com>.

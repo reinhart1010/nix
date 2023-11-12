@@ -3,10 +3,12 @@ layout: page
 title: linux/lsattr (中文)
 description: "列出 Linux 系统下的文件属性。"
 content_hash: 21971a02c3d93026ffd42a524251580d9c33d6f2
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/lsattr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lsattr
 

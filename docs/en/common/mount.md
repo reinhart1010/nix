@@ -3,7 +3,7 @@ layout: page
 title: common/mount (English)
 description: "Provides access to an entire filesystem in one directory."
 content_hash: ad12f0e635ff5855c1d1ee236afda4fa09419c06
-last_modified_at: 2022-12-02
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/mount.html
@@ -11,6 +11,10 @@ related_topics:
   - title: italiano version
     url: /it/common/mount.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/mount.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mount
 

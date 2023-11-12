@@ -3,11 +3,10 @@ layout: page
 title: linux/zipsplit (English)
 description: "Read a zipfile and split it into smaller zipfiles."
 content_hash: 6b6329931596f1441e345036ce5d3dc433e1a83b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># zipsplit
+# zipsplit
 
 Read a zipfile and split it into smaller zipfiles.
 More information: <https://manned.org/zipsplit>.

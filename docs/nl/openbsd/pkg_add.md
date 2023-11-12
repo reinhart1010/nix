@@ -3,11 +3,12 @@ layout: page
 title: openbsd/pkg_add (Nederlands)
 description: "Installeer/update pakketten in OpenBSD."
 content_hash: 0303d7ccaa6c692d060526918d032718ecdda3a0
-last_modified_at: 2023-11-07
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/openbsd/pkg_add.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pkg_add
 

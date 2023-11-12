@@ -3,7 +3,8 @@ layout: page
 title: common/glab-issue (English)
 description: "Manage GitLab issues."
 content_hash: f077bdcebe3605dff21806160f27b06bce3ce0db
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # glab issue
 

@@ -3,6 +3,8 @@ layout: page
 title: common/pio-project (English)
 description: "Tool to manage PlatformIO projects."
 content_hash: 3a7ac1ee37fe67376ded3cd59a2c4778e9a92832
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pio project
 

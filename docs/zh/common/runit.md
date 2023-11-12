@@ -3,10 +3,12 @@ layout: page
 title: common/runit (中文)
 description: "三级初始化系统。"
 content_hash: c7591f03ef2f968526d542bd38575dfc3d2df6f1
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/runit.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # runit
 

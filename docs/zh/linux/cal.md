@@ -3,7 +3,11 @@ layout: page
 title: linux/cal (中文)
 description: "打印日历信息，高亮显示当前日期。"
 content_hash: 8519554d0a49a28ffe1f6bbb2c2a439b19ceeefc
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/cal.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/cal.html
     icon: bi bi-globe
@@ -13,12 +17,19 @@ related_topics:
   - title: español version
     url: /es/linux/cal.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/cal.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/cal.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/cal.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/cal.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cal
 

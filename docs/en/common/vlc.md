@@ -3,9 +3,13 @@ layout: page
 title: common/vlc (English)
 description: "Cross-platform multimedia player."
 content_hash: 9525dc65be7dfe60de84dc7e5ea8a887cae8bcd6
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/vlc.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/vlc.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/vlc.html
@@ -13,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/vlc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # vlc
 

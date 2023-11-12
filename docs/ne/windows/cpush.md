@@ -3,7 +3,7 @@ layout: page
 title: windows/cpush (नेपाली)
 description: "यो आदेश `choco-push` को उपनाम हो |"
 content_hash: ec863cf58525a4d969acd3b9b89dca45e7589576
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/cpush.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/cpush.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cpush
 

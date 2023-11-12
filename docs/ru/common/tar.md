@@ -3,6 +3,7 @@ layout: page
 title: common/tar (русский)
 description: "Утилита архивирования."
 content_hash: 79bb588b78de1332c9cf784352acee10a32d6791
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/tar.html
@@ -28,6 +29,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/tar.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tar
 

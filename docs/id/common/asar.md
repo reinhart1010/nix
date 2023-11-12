@@ -3,9 +3,16 @@ layout: page
 title: common/asar (Indonesia)
 description: "Pengarsip berkas untuk platform Electron."
 content_hash: ff8148320f52c2f6afca7d76e66352e3753f35e0
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/asar.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/asar.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/asar.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/asar.html
@@ -16,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/asar.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # asar
 

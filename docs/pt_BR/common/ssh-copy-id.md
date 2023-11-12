@@ -3,7 +3,7 @@ layout: page
 title: common/ssh-copy-id (português (Brasil))
 description: "Instala a sua chave pública no arquivo authorized_keys de uma máquina remota."
 content_hash: b9f26f4403a2dd341c5c751a48d21ad2c9a47106
-last_modified_at: 2023-09-18
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ssh-copy-id.html
@@ -14,11 +14,9 @@ related_topics:
   - title: français version
     url: /fr/common/ssh-copy-id.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ssh-copy-id
+# ssh-copy-id
 
 Instala a sua chave pública no arquivo authorized_keys de uma máquina remota.
 Mais informações: <https://manned.org/ssh-copy-id>.

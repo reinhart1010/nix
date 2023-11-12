@@ -3,12 +3,10 @@ layout: page
 title: common/op (English)
 description: "Official CLI for 1Password's desktop app."
 content_hash: e970dbcd4ab57d77d991e8f99fdcdd774479f3ba
-last_modified_at: 2023-09-13
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># op
+# op
 
 Official CLI for 1Password's desktop app.
 More information: <https://developer.1password.com/docs/cli/reference>.

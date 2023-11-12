@@ -3,6 +3,7 @@ layout: page
 title: common/view (Nederlands)
 description: "Een alleen-lezen versie van `vim`."
 content_hash: 8f0af7fc9ebb48955becee3fd60fa9d8c80eecbe
+last_modified_at: 2023-11-12
 related_topics:
   - title: bosanski version
     url: /bs/common/view.html
@@ -16,7 +17,7 @@ related_topics:
   - title: हिन्दी version
     url: /hi/common/view.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/view.html
     icon: bi bi-globe
   - title: svenska version
@@ -25,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/view.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # view
 

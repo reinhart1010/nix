@@ -3,7 +3,11 @@ layout: page
 title: common/date (italiano)
 description: "Imposta o mostra data e ora di sistema."
 content_hash: 3b5b7464593a6ad1c3b62c76e746fd2573b1521f
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/date.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/date.html
     icon: bi bi-globe
@@ -16,15 +20,10 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/date.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/date.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># date
 

@@ -3,6 +3,8 @@ layout: page
 title: common/noti (English)
 description: "Monitor a process and trigger a banner notification."
 content_hash: c3cf95c3250b4bab88addc464d79e1d1ccfd35c3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # noti
 

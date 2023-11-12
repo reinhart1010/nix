@@ -3,6 +3,8 @@ layout: page
 title: common/moro (English)
 description: "Track work time."
 content_hash: fde2a0ded9a0d74333887053c6eaa8fcf7fb3c22
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # moro
 

@@ -3,6 +3,8 @@ layout: page
 title: common/tokei (English)
 description: "A program that prints out statistics about code."
 content_hash: dad4672b19d7a407de8840a7503f78fda200e7ef
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tokei
 

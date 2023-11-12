@@ -3,7 +3,7 @@ layout: page
 title: osx/gexpand (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux expand`"
 content_hash: dca32d2b80ba0e5cd971b04cb73a64feb9c0fe13
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gexpand.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gexpand.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gexpand
 

@@ -3,10 +3,12 @@ layout: page
 title: common/enca (italiano)
 description: "Rileva e converti l'encoding di file di testo."
 content_hash: 2d59368de50ce47cd55dc4ce45d6a9efdeb57eb8
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/enca.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # enca
 

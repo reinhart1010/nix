@@ -3,7 +3,8 @@ layout: page
 title: common/nx (English)
 description: "Manage `nx` workspaces."
 content_hash: 84efd2cbc28d616ed8d50d861c1e76e8ae1dd896
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # nx
 

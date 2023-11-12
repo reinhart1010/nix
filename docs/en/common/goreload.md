@@ -3,7 +3,8 @@ layout: page
 title: common/goreload (English)
 description: "Live reload utility for Go programs."
 content_hash: e930f508f4221d786c5f4e69aefc26ca2dd5d9ad
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # goreload
 

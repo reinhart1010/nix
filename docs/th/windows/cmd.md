@@ -3,13 +3,16 @@ layout: page
 title: windows/cmd (ไทย)
 description: "ตัวแปลคำสั่งของ Windows"
 content_hash: 7b9cedcd25b5a0cdf87b5d93253e8f279777b90e
-last_modified_at: 2023-10-27
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/cmd.html
     icon: bi bi-globe
   - title: English version
     url: /en/windows/cmd.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/windows/cmd.html
     icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/windows/cmd.html
@@ -32,6 +35,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/cmd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cmd
 

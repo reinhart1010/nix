@@ -3,6 +3,7 @@ layout: page
 title: linux/dnf (Türkçe)
 description: "RHEL, Fedora ve CentOS için paket yönetim aracı (yum'un yerini alır)."
 content_hash: c02bc3122a42c3d3f0dc3cb3a7a792283f182a2e
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/dnf.html
@@ -16,8 +17,14 @@ related_topics:
   - title: español version
     url: /es/linux/dnf.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/dnf.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/linux/dnf.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/dnf.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/dnf.html
@@ -25,6 +32,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/linux/dnf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dnf
 

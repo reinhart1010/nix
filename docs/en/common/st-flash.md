@@ -3,6 +3,8 @@ layout: page
 title: common/st-flash (English)
 description: "Flash binary files to STM32 ARM Cortex microcontrollers."
 content_hash: 06c798498fe0ded6ef8e4186372bef7298a59e26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # st-flash
 

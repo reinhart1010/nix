@@ -3,7 +3,8 @@ layout: page
 title: windows/resolve-path (English)
 description: "Resolves the wildcard characters in a path, and displays the path contents."
 content_hash: 4077957fb39228a728134809beff6ef570c9b442
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # Resolve-Path
 

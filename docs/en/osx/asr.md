@@ -3,7 +3,7 @@ layout: page
 title: osx/asr (English)
 description: "Restore (copy) a disk image onto a volume."
 content_hash: 6f00e3356e87e7c594f6367bc4e4e5644b74da16
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/osx/asr.html
@@ -17,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/asr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # asr
 

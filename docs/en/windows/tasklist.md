@@ -3,10 +3,15 @@ layout: page
 title: windows/tasklist (English)
 description: "Display a list of currently running processes on a local or remote machine."
 content_hash: 47305d02e52d0f7c55d5f3477bd9519f41900911
+last_modified_at: 2023-11-12
 related_topics:
+  - title: italiano version
+    url: /it/windows/tasklist.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/tasklist.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tasklist
 

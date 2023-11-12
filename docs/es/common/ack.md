@@ -3,7 +3,7 @@ layout: page
 title: common/ack (español)
 description: "Una herramienta de búsqueda como grep, optimizada para desarrolladores."
 content_hash: 47239a3701e06ebccf99069b468d9afb623a4c99
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/common/ack.html
@@ -41,6 +41,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ack.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ack
 

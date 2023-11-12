@@ -3,6 +3,7 @@ layout: page
 title: common/git-archive (français)
 description: "Crée une archive de fichiers depuis un branche donnée."
 content_hash: de37ec2378b3c890f65554b70fb6ed444a7eea63
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-archive.html
@@ -16,6 +17,10 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/git-archive.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-archive.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git archive
 

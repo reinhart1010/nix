@@ -3,11 +3,14 @@ layout: page
 title: linux/battop (English)
 description: "An interactive viewer for the batteries installed in your notebook."
 content_hash: fe83609a20f6861d20fd13658777f419a56da721
+last_modified_at: 2023-11-12
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/linux/battop.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># battop
+# battop
 
 An interactive viewer for the batteries installed in your notebook.
 More information: <https://github.com/svartalf/rust-battop>.

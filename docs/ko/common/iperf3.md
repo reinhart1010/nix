@@ -3,16 +3,14 @@ layout: page
 title: common/iperf3 (한국어)
 description: "네트워크 대역폭 테스트를 위한 트래픽 생성기입니다."
 content_hash: 1f19cfc85caad442198e38dc2d85d945a35756e7
-last_modified_at: 2023-10-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/iperf3.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># iperf3
+# iperf3
 
 네트워크 대역폭 테스트를 위한 트래픽 생성기입니다.
 더 많은 정보: <https://iperf.fr>.

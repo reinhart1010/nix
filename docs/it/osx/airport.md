@@ -3,6 +3,7 @@ layout: page
 title: osx/airport (italiano)
 description: "Strumento di configurazione delle reti senza fili."
 content_hash: 7d161c72d1f8334f6b8aa62f91b62d84b8f1bda8
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/airport.html
@@ -10,9 +11,13 @@ related_topics:
   - title: español version
     url: /es/osx/airport.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/airport.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/airport.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # airport
 

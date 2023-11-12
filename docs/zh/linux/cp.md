@@ -3,7 +3,11 @@ layout: page
 title: linux/cp (中文)
 description: "复制文件和目录。"
 content_hash: 177c5b32eba83f86556dae9a50e98000de37ec1a
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/cp.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/cp.html
     icon: bi bi-globe
@@ -13,8 +17,17 @@ related_topics:
   - title: español version
     url: /es/linux/cp.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/cp.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/linux/cp.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/cp.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/cp.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/cp.html
@@ -22,8 +35,18 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/cp.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/cp.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/linux/cp.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# cp
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># cp
 
 复制文件和目录。
 更多信息：<https://www.gnu.org/software/coreutils/cp>.

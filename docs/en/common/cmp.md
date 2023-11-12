@@ -3,13 +3,18 @@ layout: page
 title: common/cmp (English)
 description: "Compare two files byte by byte."
 content_hash: b97a0c19f0b77894f4d3f10968b55c0eabce4c62
+last_modified_at: 2023-11-12
 related_topics:
+  - title: فارسی version
+    url: /fa/common/cmp.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/cmp.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/cmp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cmp
 

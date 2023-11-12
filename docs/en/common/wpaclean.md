@@ -3,7 +3,8 @@ layout: page
 title: common/wpaclean (English)
 description: "Clean capture files to get only the 4-way handshake and a beacon."
 content_hash: deea1e8e7fab1ac4261e5e9de4d93157bd763a16
-last_modified_at: 2023-04-10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # wpaclean
 

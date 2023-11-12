@@ -3,6 +3,8 @@ layout: page
 title: common/doctum (English)
 description: "A PHP API documentation generator."
 content_hash: 2ba5670a2e9c9c3830328b6ae0d40aac7d6a74ba
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # doctum
 

@@ -3,7 +3,7 @@ layout: page
 title: common/docker-start (Türkçe)
 description: "Bir veya daha fazla durmuş konteyneri başlar."
 content_hash: 777e5289cb335255f5c2081b9530dd249d0f80f2
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-start.html
@@ -20,6 +20,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/docker-start.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker start
 

@@ -3,14 +3,18 @@ layout: page
 title: osx/dd (English)
 description: "Convert and copy a file."
 content_hash: 1327b9e70cc075f7b760ceba2680d5e915d02184
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/osx/dd.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/osx/dd.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/dd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dd
 

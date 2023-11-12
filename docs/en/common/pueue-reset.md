@@ -3,6 +3,8 @@ layout: page
 title: common/pueue-reset (English)
 description: "Kill everything and reset."
 content_hash: 81574eb1c5ad0c98d0f5b55cb4598628994a7aaa
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pueue reset
 

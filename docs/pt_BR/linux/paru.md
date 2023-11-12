@@ -3,10 +3,15 @@ layout: page
 title: linux/paru (português (Brasil))
 description: "Um auxiliar do AUR e um wrapper do pacman."
 content_hash: 846aa4b90ffa7b59369f194cbc464a9550b096e5
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/linux/paru.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/paru.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # paru
 

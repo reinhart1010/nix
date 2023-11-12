@@ -3,7 +3,7 @@ layout: page
 title: common/age (English)
 description: "A simple, modern and secure file encryption tool."
 content_hash: b6848572f27310ef8963f32a6869d86e69999880
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/age.html
@@ -26,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/age.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # age
 

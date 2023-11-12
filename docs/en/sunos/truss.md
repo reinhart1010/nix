@@ -3,6 +3,24 @@ layout: page
 title: sunos/truss (English)
 description: "Troubleshooting tool for tracing system calls."
 content_hash: 18be4cc8559e9201f25f41ae1b379f6498b023e2
+last_modified_at: 2023-11-12
+related_topics:
+  - title: français version
+    url: /fr/sunos/truss.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/sunos/truss.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/sunos/truss.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/sunos/truss.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/sunos/truss.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # truss
 

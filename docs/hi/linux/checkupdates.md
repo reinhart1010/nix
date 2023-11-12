@@ -3,11 +3,12 @@ layout: page
 title: linux/checkupdates (हिन्दी)
 description: "आर्क लिनक्स में लंबित अद्यतनों की जाँच करने के लिए उपकरण।"
 content_hash: e9c278e313c253bcfd12a12b621600426340b64d
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/checkupdates.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # checkupdates
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/repquota (English)
 description: "Display a summary of existing file quotas for a filesystem."
 content_hash: 852bd4b7d17116c569acfcd291711dece6566b21
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # repquota
 

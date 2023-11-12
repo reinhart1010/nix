@@ -3,9 +3,16 @@ layout: page
 title: common/axel (中文)
 description: "一款下载加速器。"
 content_hash: ea9e2edeff8dcd52090910e947026e2bbfe019a0
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/axel.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/axel.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/axel.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/axel.html
@@ -16,6 +23,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/axel.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # axel
 

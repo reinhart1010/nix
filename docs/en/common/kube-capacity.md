@@ -3,7 +3,8 @@ layout: page
 title: common/kube-capacity (English)
 description: "Provide an overview of resource requests, limits, and utilization in a Kubernetes cluster."
 content_hash: b08b338a52894cd6929263b5d998edff69186466
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # kube-capacity
 

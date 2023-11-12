@@ -3,12 +3,14 @@ layout: page
 title: common/krita (English)
 description: "A sketching and painting program designed for digital artists."
 content_hash: 945a07414ad4af11010c7454cc266c9f89eff176
-last_modified_at: 2023-10-09
+last_modified_at: 2023-11-12
+related_topics:
+  - title: русский version
+    url: /ru/common/krita.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># krita
+# krita
 
 A sketching and painting program designed for digital artists.
 See also: `gimp`.

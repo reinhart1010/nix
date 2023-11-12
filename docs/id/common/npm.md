@@ -3,6 +3,7 @@ layout: page
 title: common/npm (Indonesia)
 description: "Manajer paket JavaScript dan Node.js."
 content_hash: 9b715d154ead08e7b0bed0cf5f9933b98fa96959
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/npm.html
@@ -10,6 +11,13 @@ related_topics:
   - title: English version
     url: /en/common/npm.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/npm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/npm.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # npm
 

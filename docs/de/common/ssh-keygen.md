@@ -3,7 +3,7 @@ layout: page
 title: common/ssh-keygen (Deutsch)
 description: "Generiert ssh Schlüssel für Authentifizierung, Passwort-lose Logins und mehr."
 content_hash: 79fab93882b65b6b158b1935876ba0ae6b0152a1
-last_modified_at: 2023-06-23
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ssh-keygen.html
@@ -11,6 +11,10 @@ related_topics:
   - title: français version
     url: /fr/common/ssh-keygen.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/ssh-keygen.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ssh-keygen
 

@@ -3,6 +3,12 @@ layout: page
 title: common/route (English)
 description: "Use route cmd to set the route table."
 content_hash: 0b147c5fb7ae15f66a572ee638d3d1a0b58d3cd6
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/route.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # route
 

@@ -3,15 +3,14 @@ layout: page
 title: common/terraform-plan (Deutsch)
 description: "Erzeugen und Anzeigen von Terraform-Ausführungsplänen."
 content_hash: 1117e5c8bcebab18ab3ff9aa95c3703b96b40621
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/terraform-plan.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># terraform plan
+# terraform plan
 
 Erzeugen und Anzeigen von Terraform-Ausführungsplänen.
 Weitere Informationen: <https://www.terraform.io/docs/cli/commands/plan.html>.

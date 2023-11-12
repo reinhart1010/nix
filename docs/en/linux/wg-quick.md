@@ -3,6 +3,8 @@ layout: page
 title: linux/wg-quick (English)
 description: "Quickly set up WireGuard tunnels based on config files."
 content_hash: 55151be1b6445d36d40de4670c0bb612668a317c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # wg-quick
 

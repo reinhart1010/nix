@@ -3,6 +3,7 @@ layout: page
 title: common/git-fsck (Türkçe)
 description: "Git depo indeksindeki düğümlerin geçerliliğini ve bağlantılarını doğrula."
 content_hash: b2ecb25dad515f7743b232d834c028759a8e8b7f
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-fsck.html
@@ -10,6 +11,7 @@ related_topics:
   - title: français version
     url: /fr/common/git-fsck.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git fsck
 

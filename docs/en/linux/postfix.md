@@ -3,6 +3,8 @@ layout: page
 title: linux/postfix (English)
 description: "Postfix mail transfer agent (MTA) control program."
 content_hash: efa8ae12ee72f8523f64f2d50739c53d5baffc52
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # postfix
 

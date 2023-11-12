@@ -3,6 +3,8 @@ layout: page
 title: common/pueue-status (English)
 description: "Display the current status of all tasks."
 content_hash: b9824ea62a1795c68b1ca8bddcd76e9ee4bc81d8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pueue status
 

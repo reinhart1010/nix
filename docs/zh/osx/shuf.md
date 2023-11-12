@@ -3,13 +3,18 @@ layout: page
 title: osx/shuf (中文)
 description: "生成随机排列。"
 content_hash: 878e9576133f6c103a9f6ab6a8b67e49ccd7d455
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/shuf.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/shuf.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/osx/shuf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # shuf
 

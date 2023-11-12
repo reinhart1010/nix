@@ -3,7 +3,7 @@ layout: page
 title: common/git-stash (English)
 description: "Stash local Git changes in a temporary area."
 content_hash: 8ddd5933d79883a055774115ccc0167e28b6bab8
-last_modified_at: 2022-12-17
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/git-stash.html
@@ -17,6 +17,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-stash.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git stash
 

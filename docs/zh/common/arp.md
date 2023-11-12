@@ -3,8 +3,11 @@ layout: page
 title: common/arp (中文)
 description: "显示和操作系统的 ARP 缓存。"
 content_hash: b85d49d657172786f17aac31c5c10b0dfcce8a12
-last_modified_at: 2023-04-10
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/arp.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/arp.html
     icon: bi bi-globe
@@ -26,6 +29,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/arp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # arp
 

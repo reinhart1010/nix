@@ -3,7 +3,7 @@ layout: page
 title: common/ar (English)
 description: "Create, modify, and extract from Unix archives. Typically used for static libraries (`.a`) and Debian packages (`.deb`)."
 content_hash: fcc807f053ff72b91f188adeac0b3cf682f1d37d
-last_modified_at: 2022-12-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/ar.html
@@ -17,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ar.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ar
 

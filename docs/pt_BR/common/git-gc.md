@@ -3,6 +3,7 @@ layout: page
 title: common/git-gc (português (Brasil))
 description: "Otimiza o repositório local limpando os arquivos desnecessários."
 content_hash: 6aed2e84b6b6b26ec14b200bd2611396763f155a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-gc.html
@@ -19,11 +20,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-gc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git gc
+# git gc
 
 Otimiza o repositório local limpando os arquivos desnecessários.
 Mais informações: <https://git-scm.com/docs/git-gc>.

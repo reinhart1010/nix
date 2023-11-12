@@ -3,6 +3,7 @@ layout: page
 title: common/yes (English)
 description: "Output something repeatedly."
 content_hash: b61a9ee9a5e3d4790cabb22acef8a3e78dc29937
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/yes.html
@@ -22,6 +23,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/yes.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # yes
 

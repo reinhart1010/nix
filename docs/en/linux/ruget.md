@@ -3,11 +3,20 @@ layout: page
 title: linux/ruget (English)
 description: "Alternative to wget written in Rust."
 content_hash: 5369be31fb28fa7330afd500e2f861364f11c881
+last_modified_at: 2023-11-12
+related_topics:
+  - title: हिन्दी version
+    url: /hi/linux/ruget.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/ruget.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/ruget.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ruget
+# ruget
 
 Alternative to wget written in Rust.
 More information: <https://github.com/ksk001100/ruget>.

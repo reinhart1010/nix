@@ -3,6 +3,7 @@ layout: page
 title: linux/autorandr (português (Brasil))
 description: "Altera o layout da tela automaticamente."
 content_hash: df795c4c528705be797737cb82062e328ae226df
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/autorandr.html
@@ -10,8 +11,12 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/autorandr.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# autorandr
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># autorandr
 
 Altera o layout da tela automaticamente.
 Mais informações: <https://github.com/phillipberndt/autorandr>.

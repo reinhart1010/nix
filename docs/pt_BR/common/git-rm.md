@@ -3,6 +3,7 @@ layout: page
 title: common/git-rm (português (Brasil))
 description: "Remove arquivos do índice do repositório e do arquivo local do sistema."
 content_hash: bc8c848ef085fbf46b89983e0ebaf5b8aaf2b268
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-rm.html
@@ -22,11 +23,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-rm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git rm
+# git rm
 
 Remove arquivos do índice do repositório e do arquivo local do sistema.
 Mais informações: <https://git-scm.com/docs/git-rm>.

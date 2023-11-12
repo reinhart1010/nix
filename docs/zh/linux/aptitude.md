@@ -3,7 +3,11 @@ layout: page
 title: linux/aptitude (中文)
 description: "Debian 和 Ubuntu 上的软件包管理工具。"
 content_hash: fda94468c39290eb6e733bbdb6ea222f3009815d
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/aptitude.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/aptitude.html
     icon: bi bi-globe
@@ -13,12 +17,22 @@ related_topics:
   - title: español version
     url: /es/linux/aptitude.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/aptitude.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/aptitude.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/aptitude.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/aptitude.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/aptitude.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aptitude
 

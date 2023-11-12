@@ -3,10 +3,15 @@ layout: page
 title: windows/comp (中文)
 description: "比较两个文件或文件集的内容。"
 content_hash: b2170ffb4e25281f2c08059ca7852397fb8b5ea8
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/comp.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/comp.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # comp
 

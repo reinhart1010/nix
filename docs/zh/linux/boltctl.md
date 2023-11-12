@@ -3,10 +3,12 @@ layout: page
 title: linux/boltctl (中文)
 description: "控制雷电（thunderbolt）设备。"
 content_hash: 6cf4d2e75688fed02ba056c045643d545b26318f
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/boltctl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # boltctl
 

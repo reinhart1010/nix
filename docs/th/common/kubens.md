@@ -3,11 +3,12 @@ layout: page
 title: common/kubens (ไทย)
 description: "คำสั่งอรรถประโยชน์สำหรับสลับเนมสเปซของ Kubernetes"
 content_hash: 69245cda767d1728a46b2f80336cfd954d18a042
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/kubens.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # kubens
 

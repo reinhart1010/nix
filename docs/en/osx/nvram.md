@@ -3,6 +3,12 @@ layout: page
 title: osx/nvram (English)
 description: "Manipulate firmware variables."
 content_hash: 62d883ec6c629ba65ec4f5bced2f4b1753334810
+last_modified_at: 2023-11-12
+related_topics:
+  - title: español version
+    url: /es/osx/nvram.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nvram
 

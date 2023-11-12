@@ -3,11 +3,14 @@ layout: page
 title: common/ncdu (English)
 description: "Disk usage analyzer with an ncurses interface."
 content_hash: 50d3f3767cf91146480560b83514905f2aab7924
+last_modified_at: 2023-11-12
+related_topics:
+  - title: dansk version
+    url: /da/common/ncdu.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ncdu
+# ncdu
 
 Disk usage analyzer with an ncurses interface.
 More information: <https://manned.org/ncdu>.

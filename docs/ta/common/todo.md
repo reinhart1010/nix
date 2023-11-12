@@ -3,6 +3,7 @@ layout: page
 title: common/todo (தமிழ்)
 description: "ஒரு எளிய, தரநிலை அடிப்படையிலான, cli todo மேலாளர்."
 content_hash: 1e69d64ca7334e6055b8f64b68e853b1e95a0d0c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/todo.html
@@ -10,11 +11,9 @@ related_topics:
   - title: italiano version
     url: /it/common/todo.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># todo
+# todo
 
 ஒரு எளிய, தரநிலை அடிப்படையிலான, cli todo மேலாளர்.
 மேலும் விவரத்திற்கு: <https://todoman.readthedocs.io>.

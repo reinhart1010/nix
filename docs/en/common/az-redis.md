@@ -3,7 +3,8 @@ layout: page
 title: common/az-redis (English)
 description: "Manage Redis caches."
 content_hash: dc74a6d871588bfefa6334eaa4716f3e0ee4224e
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # az redis
 

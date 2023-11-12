@@ -3,16 +3,14 @@ layout: page
 title: common/podman-build (português (Brasil))
 description: "Ferramenta sem daemon para criar imagens de contêiner."
 content_hash: e6096082b7289dc67d99e57f422fdd8692e8e9e4
-last_modified_at: 2023-09-18
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/podman-build.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># podman build
+# podman build
 
 Ferramenta sem daemon para criar imagens de contêiner.
 O Podman fornece uma linha de comando comparável ao Docker-CLI. Simplificando: `alias docker=podman`.

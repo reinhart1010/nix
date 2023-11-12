@@ -3,7 +3,7 @@ layout: page
 title: common/cat (English)
 description: "Print and concatenate files."
 content_hash: 4ae3360c8454bc6bf1184ef863e0d1686028632b
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -53,6 +53,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/cat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cat
 

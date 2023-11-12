@@ -3,6 +3,8 @@ layout: page
 title: common/srm (English)
 description: "Securely remove files or directories."
 content_hash: f7b6c293b0ac6dd5978111a867575ada841a5b42
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # srm
 

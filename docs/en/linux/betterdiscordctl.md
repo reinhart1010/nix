@@ -3,11 +3,10 @@ layout: page
 title: linux/betterdiscordctl (English)
 description: "A program for managing BetterDiscord on Linux."
 content_hash: 8f69197523bc7ba56d6f69cbde477b5d50f7a8e4
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># betterdiscordctl
+# betterdiscordctl
 
 A program for managing BetterDiscord on Linux.
 More information: <https://github.com/bb010g/betterdiscordctl#manual>.

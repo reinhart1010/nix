@@ -3,6 +3,8 @@ layout: page
 title: linux/ethtool (English)
 description: "Display and modify Network Interface Controller (NIC) parameters."
 content_hash: 01194dd0982bd2aa9257b43c76c8c9584021c2d2
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ethtool
 

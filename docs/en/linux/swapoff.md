@@ -3,7 +3,8 @@ layout: page
 title: linux/swapoff (English)
 description: "Disable devices and files for swapping."
 content_hash: 2d19114ed7fe1be38c9ff2f73faa7927f4142117
-last_modified_at: 2023-08-19
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # swapoff
 

@@ -3,6 +3,8 @@ layout: page
 title: common/pio-team (English)
 description: "Manage PlatformIO teams."
 content_hash: cba876f7ba0733e0d8c3b99e38ceb817dfca0ae7
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pio team
 

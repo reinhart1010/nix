@@ -3,11 +3,10 @@ layout: page
 title: linux/ausyscall (English)
 description: "Program that allows mapping syscall names and numbers."
 content_hash: 2918c92c35c7fb766866506b136206a2fc6e01b8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ausyscall
+# ausyscall
 
 Program that allows mapping syscall names and numbers.
 More information: <https://manned.org/ausyscall>.

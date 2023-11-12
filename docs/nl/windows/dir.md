@@ -3,7 +3,7 @@ layout: page
 title: windows/dir (Nederlands)
 description: "Geeft de inhoud weer van een map."
 content_hash: 7609a83d9e5514a8213893c7425d3257a78c50aa
-last_modified_at: 2023-11-02
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/windows/dir.html
@@ -44,6 +44,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/dir.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dir
 

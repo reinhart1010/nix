@@ -3,7 +3,7 @@ layout: page
 title: linux/ubuntu-bug (polski)
 description: "To polecenie jest aliasem `apport-bug`."
 content_hash: 70ee71c3f7f23db4e7cda278670931c9d1955f21
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/linux/ubuntu-bug.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/linux/ubuntu-bug.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ubuntu-bug
 

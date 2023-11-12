@@ -3,6 +3,8 @@ layout: page
 title: linux/ledctl (English)
 description: "Intel(R) Enclosure LED Control Application."
 content_hash: 11fbe1e5205ad1147c44f9781a2b1cb94200a846
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ledctl
 

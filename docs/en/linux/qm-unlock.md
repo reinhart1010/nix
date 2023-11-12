@@ -3,11 +3,10 @@ layout: page
 title: linux/qm-unlock (English)
 description: "Unlock a virtual machine in QEMU/KVM Virtual Machine Manager."
 content_hash: 7ff791b5adc4ae1fdc98885be1acd60ea3586dc4
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># qm unlock
+# qm unlock
 
 Unlock a virtual machine in QEMU/KVM Virtual Machine Manager.
 More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.

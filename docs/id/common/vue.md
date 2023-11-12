@@ -3,6 +3,7 @@ layout: page
 title: common/vue (Indonesia)
 description: "CLI serba guna untuk Vue.js."
 content_hash: 2ff61010a1d3afe75299755e4fc14d5a8530a047
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/vue.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/vue.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # vue
 

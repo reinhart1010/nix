@@ -3,6 +3,12 @@ layout: page
 title: common/kubectl-get (English)
 description: "Get Kubernetes objects and resources."
 content_hash: 30290957ea3a102c888c4d840c401d473c1e27da
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/kubectl-get.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # kubectl get
 

@@ -3,6 +3,7 @@ layout: page
 title: common/bitcoin-cli (polski)
 description: "Klient konsolowy do interakcji z demonem Bitcoina poprzez zapytania RPC."
 content_hash: fe93e2ee62e796d0e459d3812db61a25551d9b17
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/bitcoin-cli.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/bitcoin-cli.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bitcoin-cli
 

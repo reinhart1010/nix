@@ -3,11 +3,12 @@ layout: page
 title: osx/head (English)
 description: "Output the first part of files."
 content_hash: 34564c8fe1ab46074135eab7e13caf64f1f7823b
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/osx/head.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # head
 

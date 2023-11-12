@@ -3,7 +3,7 @@ layout: page
 title: common/arp-scan (Deutsch)
 description: "ARP Pakete an Host (spezifiert mit IP Adresse oder Hostname) senden um das lokale Netzwerk zu scannen."
 content_hash: 89a172c9b8bbc0618a807f1af2499dc1b87092b6
-last_modified_at: 2023-05-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/arp-scan.html
@@ -17,11 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/arp-scan.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># arp-scan
+# arp-scan
 
 ARP Pakete an Host (spezifiert mit IP Adresse oder Hostname) senden um das lokale Netzwerk zu scannen.
 Weitere Informationen: <https://github.com/royhills/arp-scan>.

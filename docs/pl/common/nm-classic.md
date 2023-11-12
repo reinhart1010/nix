@@ -3,7 +3,7 @@ layout: page
 title: common/nm-classic (polski)
 description: "To polecenie jest aliasem `nm`."
 content_hash: ab2b5510a1f0080eb8818dd587806952d9491d8d
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/nm-classic.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/nm-classic.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nm-classic
 

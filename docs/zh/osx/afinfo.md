@@ -3,6 +3,7 @@ layout: page
 title: osx/afinfo (中文)
 description: "显示音频文件元数据（Metadata）详细信息（OS X）。"
 content_hash: baa6f1a2858fa509435d5fc47b275b56fee7b9e0
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/afinfo.html
@@ -13,6 +14,10 @@ related_topics:
   - title: italiano version
     url: /it/osx/afinfo.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/afinfo.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # afinfo
 

@@ -3,10 +3,15 @@ layout: page
 title: common/latex (English)
 description: "Compile a DVI document from LaTeX source files."
 content_hash: 07f099501efeba5395300698ca7b057c269ceb3e
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/latex.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/latex.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # latex
 

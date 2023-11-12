@@ -3,6 +3,8 @@ layout: page
 title: common/mpc (English)
 description: "Music Player Client."
 content_hash: 75e0e038315eb8e851c0b480caa465914530a530
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mpc
 

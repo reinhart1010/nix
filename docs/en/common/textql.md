@@ -3,7 +3,8 @@ layout: page
 title: common/textql (English)
 description: "Execute SQL against structured text like csv or tsv files."
 content_hash: 9eb1f37e1185273e03af3624ca934e1ce6297be6
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # textql
 

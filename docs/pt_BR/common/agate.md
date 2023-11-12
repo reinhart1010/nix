@@ -3,10 +3,27 @@ layout: page
 title: common/agate (português (Brasil))
 description: "Um simples servidor para o protocolo de internet Gemini."
 content_hash: 702c018ef5582af17652c16408b8182297f563da
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/agate.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/agate.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/agate.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/common/agate.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/agate.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/agate.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # agate
 

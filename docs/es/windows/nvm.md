@@ -3,7 +3,7 @@ layout: page
 title: windows/nvm (español)
 description: "Instala, desinstala o cambiar entre versiones de Node.js."
 content_hash: e0a3a779fe32cd7572f8a44fcf4206fdefc3e0b9
-last_modified_at: 2023-10-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/nvm.html
@@ -14,6 +14,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/nvm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nvm
 

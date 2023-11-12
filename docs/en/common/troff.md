@@ -3,6 +3,8 @@ layout: page
 title: common/troff (English)
 description: "Typesetting processor for the groff (GNU Troff) document formatting system."
 content_hash: 97ed4da8ed134effda64b4481767078ac4e5c5ad
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # troff
 

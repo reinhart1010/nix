@@ -3,11 +3,10 @@ layout: page
 title: linux/treetime (English)
 description: "TreeTime provides routines for ancestral sequence reconstruction and inference of molecular-clock phylogenies."
 content_hash: 30c281c98ca202cac10a4bb1cecd1982549dd340
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># treetime
+# treetime
 
 TreeTime provides routines for ancestral sequence reconstruction and inference of molecular-clock phylogenies.
 More information: <https://treetime.readthedocs.io/en/latest/tutorials.html>.

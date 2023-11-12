@@ -3,7 +3,7 @@ layout: page
 title: common/fossil-new (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `fossil-init`"
 content_hash: 04dab3a94ca920e408b75ef7259552f14f2cf8e1
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/fossil-new.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fossil-new
 

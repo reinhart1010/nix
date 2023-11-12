@@ -3,6 +3,7 @@ layout: page
 title: common/doxygen (English)
 description: "A documentation system for various programming languages."
 content_hash: e2046656fbc26aaa5166c23aee705148875fa6ef
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/doxygen.html
@@ -10,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/doxygen.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # doxygen
 

@@ -3,7 +3,8 @@ layout: page
 title: linux/qm-cloudinit-dump (English)
 description: "Generate cloudinit configuration files."
 content_hash: 2b039b66dd2f8682fd5f4f63deea8f9bd9a98c58
-last_modified_at: 2023-02-08
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # qm cloudinit dump
 

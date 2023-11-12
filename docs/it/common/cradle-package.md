@@ -3,6 +3,7 @@ layout: page
 title: common/cradle-package (italiano)
 description: "Gestisci pacchetti per un'istanza Cradle."
 content_hash: da71d06481f79f09d5ab9c07ac74067bbf11b599
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/cradle-package.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cradle-package.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cradle package
 

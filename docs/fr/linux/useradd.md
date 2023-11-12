@@ -3,7 +3,7 @@ layout: page
 title: linux/useradd (français)
 description: "Crée un nouvel utilisateur."
 content_hash: d0b8c66d6d930697dc2bb59db6d727bd764a2232
-last_modified_at: 2022-12-30
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/useradd.html
@@ -14,17 +14,9 @@ related_topics:
   - title: español version
     url: /es/linux/useradd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/useradd.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># useradd
+# useradd
 
 Crée un nouvel utilisateur.
 Voir aussi `users`, `userdel`, `usermod`.

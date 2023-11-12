@@ -3,7 +3,7 @@ layout: page
 title: linux/makepkg (हिन्दी)
 description: "एक पैकेज बनाएं जिसका उपयोग `pacman` के साथ किया जा सकता है।"
 content_hash: 988d2788396388d7167ee83f94a041bdd20bc65d
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/makepkg.html
@@ -11,6 +11,7 @@ related_topics:
   - title: polski version
     url: /pl/linux/makepkg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # makepkg
 

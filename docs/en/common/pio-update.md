@@ -3,6 +3,8 @@ layout: page
 title: common/pio-update (English)
 description: "Update installed PlatformIO Core packages, development platforms and global libraries."
 content_hash: 4fefa48b4fe31b6f681d73e29e145dd90163a832
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pio update
 

@@ -3,6 +3,7 @@ layout: page
 title: common/dotnet (español)
 description: "Herramienta multiplataforma de línea de comandos para .NET Core."
 content_hash: 07f459b7f0ce3d4c2380c037cbb91919b0db3e35
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/dotnet.html
@@ -25,6 +26,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/dotnet.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dotnet
 

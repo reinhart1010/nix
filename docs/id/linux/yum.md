@@ -3,7 +3,7 @@ layout: page
 title: linux/yum (Indonesia)
 description: "Utilitas manajemen paket untuk RHEL, Fedora, dan CentOS (untuk versi-versi yang lebih lama)."
 content_hash: 47ce879fa642a69422e04a7366fca58192572dac
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/yum.html
@@ -20,6 +20,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/yum.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # yum
 

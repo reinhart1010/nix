@@ -3,7 +3,8 @@ layout: page
 title: common/gsutil (English)
 description: "Access Google Cloud Storage."
 content_hash: b8021ab72e9956d53baeacb82455cf9ed93e7212
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gsutil
 

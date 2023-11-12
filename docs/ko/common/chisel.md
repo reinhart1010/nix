@@ -3,10 +3,12 @@ layout: page
 title: common/chisel (한국어)
 description: "Chisel은 TCP 터널을 생성하는 도구."
 content_hash: e50fdfb6892b4a9be178d676cdb7bac5a07e7ad8
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/chisel.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chisel
 

@@ -3,10 +3,12 @@ layout: page
 title: linux/mac2unix (English)
 description: "Change macOS-style line endings to Unix-style."
 content_hash: a78adb72c15bf876c86dc8bff12cabea7c88bdec
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/linux/mac2unix.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mac2unix
 

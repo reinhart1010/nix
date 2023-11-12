@@ -3,10 +3,12 @@ layout: page
 title: linux/dmenu (English)
 description: "Dynamic menu."
 content_hash: 455c89abc393199682fc299b9f47c92258c7361f
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/linux/dmenu.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dmenu
 

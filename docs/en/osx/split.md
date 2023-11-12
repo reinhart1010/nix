@@ -3,11 +3,12 @@ layout: page
 title: osx/split (English)
 description: "Split a file into pieces."
 content_hash: 42f6c2dac5921f581e0cc228367c248246f490b9
-last_modified_at: 2023-03-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/osx/split.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # split
 

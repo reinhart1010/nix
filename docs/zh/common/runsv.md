@@ -3,10 +3,12 @@ layout: page
 title: common/runsv (中文)
 description: "启动和管理 runit 服务。"
 content_hash: f781dd8971b4c02445a6d62fbf51207560bf7cae
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/runsv.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # runsv
 

@@ -3,6 +3,8 @@ layout: page
 title: common/phpize (English)
 description: "Prepare a PHP extension for compiling."
 content_hash: 45943ab448fcdd852a0a11e12efe91df35f68240
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # phpize
 

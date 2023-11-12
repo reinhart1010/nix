@@ -3,6 +3,8 @@ layout: page
 title: linux/feedreader (English)
 description: "A GUI desktop RSS client."
 content_hash: 307fdc1bdf2d51dbc69a50f887f97c8bb3f7ea21
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # feedreader
 

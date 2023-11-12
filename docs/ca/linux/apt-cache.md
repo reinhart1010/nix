@@ -3,6 +3,7 @@ layout: page
 title: linux/apt-cache (català)
 description: "Eina de consulta de paquets per a Debian y Ubuntu."
 content_hash: e71bef7dc3e04f0df884f7ff28125a2e37015427
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/apt-cache.html
@@ -19,12 +20,19 @@ related_topics:
   - title: italiano version
     url: /it/linux/apt-cache.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/apt-cache.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/apt-cache.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/apt-cache.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apt-cache.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apt-cache
 

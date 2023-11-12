@@ -3,7 +3,7 @@ layout: page
 title: common/git-subtree (Türkçe)
 description: "Proje bağımlılıklarını alt proje olarak yönetmeye yarayan bir araç."
 content_hash: fc1965b673932ff7f6defbba30cf55c34d343752
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-subtree.html
@@ -14,6 +14,7 @@ related_topics:
   - title: italiano version
     url: /it/common/git-subtree.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git subtree
 

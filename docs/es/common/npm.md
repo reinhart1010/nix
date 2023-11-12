@@ -3,7 +3,7 @@ layout: page
 title: common/npm (español)
 description: "Gestor de paquetes JavaScript y Node.js."
 content_hash: 1967f63aac2f77abc73d2d063d5b065111760014
-last_modified_at: 2023-10-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/npm.html
@@ -17,6 +17,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/npm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # npm
 

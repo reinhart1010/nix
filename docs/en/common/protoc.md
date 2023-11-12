@@ -3,6 +3,12 @@ layout: page
 title: common/protoc (English)
 description: "Parse Google Protobuf `.proto` files and generate output in the specified language."
 content_hash: 054bbdbbcdfacf4008d45b504e52271effe4c31d
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 中文 version
+    url: /zh/common/protoc.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # protoc
 

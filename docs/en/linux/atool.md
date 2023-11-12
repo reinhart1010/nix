@@ -3,6 +3,12 @@ layout: page
 title: linux/atool (English)
 description: "Manage archives of various formats."
 content_hash: 83b23e783bbd3dd82ff549fd8442102e0ecac7e6
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Türkçe version
+    url: /tr/linux/atool.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # atool
 

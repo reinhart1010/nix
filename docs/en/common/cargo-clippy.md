@@ -3,6 +3,15 @@ layout: page
 title: common/cargo-clippy (English)
 description: "A collection of lints to catch common mistakes and improve your Rust code."
 content_hash: c26e91822ab6a678d86168b0f1f1fc25b8f647d1
+last_modified_at: 2023-11-12
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/common/cargo-clippy.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/cargo-clippy.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cargo clippy
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/chntpw (English)
 description: "A utility that can edit windows registry, reset user password, promote users to administrator by modifying the Windows SAM."
 content_hash: b0ca9becaa5273c3dff8a50551a8931deda7ba04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # chntpw
 

@@ -3,6 +3,12 @@ layout: page
 title: common/dvc-add (English)
 description: "Add changed files to the index."
 content_hash: ef4794e4df19e904506275c910db1cb92dd49f75
+last_modified_at: 2023-11-12
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/common/dvc-add.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dvc add
 

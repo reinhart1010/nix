@@ -3,7 +3,8 @@ layout: page
 title: common/hostess (English)
 description: "Manage the `/etc/hosts` file."
 content_hash: 9459bb6ada29707124371bc9fd9bedbb7d76883b
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # hostess
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/debugfs (English)
 description: "An interactive ext2/ext3/ext4 filesystem debugger."
 content_hash: b251a618aa4730004dd01de644c96333d33dab2b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # debugfs
 

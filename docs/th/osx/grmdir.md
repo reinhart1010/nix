@@ -3,7 +3,7 @@ layout: page
 title: osx/grmdir (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux rmdir`"
 content_hash: e2c11c98a3c32f899faf1401f8af9a4c6f70eb54
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/grmdir.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/grmdir.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # grmdir
 

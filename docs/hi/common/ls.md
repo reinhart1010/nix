@@ -3,7 +3,7 @@ layout: page
 title: common/ls (हिन्दी)
 description: "डायरेक्टरी की सामग्री की सूची दिखाएं।"
 content_hash: efdb91e22a92bfdb24df57b42b7897c63be1ce7b
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/common/ls.html
@@ -59,6 +59,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/ls.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ls
 

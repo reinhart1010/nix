@@ -3,7 +3,11 @@ layout: page
 title: linux/apt-add-repository (italiano)
 description: "Gestisce le definizioni di repository apt."
 content_hash: e5e3d775ee87a363c235bedd0e88575b7de0864d
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/apt-add-repository.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/apt-add-repository.html
     icon: bi bi-globe
@@ -16,9 +20,16 @@ related_topics:
   - title: français version
     url: /fr/linux/apt-add-repository.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/apt-add-repository.html
+    icon: bi bi-globe
+  - title: ไทย version
+    url: /th/linux/apt-add-repository.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apt-add-repository.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apt-add-repository
 

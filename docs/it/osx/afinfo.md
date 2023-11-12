@@ -3,6 +3,7 @@ layout: page
 title: osx/afinfo (italiano)
 description: "Analizzatore dei metadata dei file audio per macOS."
 content_hash: 4752115d39de7804ed7fa881f7a1be189d253f52
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/afinfo.html
@@ -10,9 +11,13 @@ related_topics:
   - title: español version
     url: /es/osx/afinfo.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/afinfo.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/afinfo.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # afinfo
 

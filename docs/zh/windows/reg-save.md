@@ -3,10 +3,12 @@ layout: page
 title: windows/reg-save (中文)
 description: "将注册表键、子键的所有值保存到一个文件中。"
 content_hash: 6ace2a2f16e65da7379fd88f932fc1fb89cd1b73
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/reg-save.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # reg save
 

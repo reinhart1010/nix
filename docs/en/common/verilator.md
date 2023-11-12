@@ -3,7 +3,8 @@ layout: page
 title: common/verilator (English)
 description: "Converts Verilog and SystemVerilog hardware description language (HDL) design into a C++ or SystemC model to be executed after compiling."
 content_hash: a7135884bd85ff27e57fcc45896ffb2f0e295cee
-last_modified_at: 2022-11-29
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # verilator
 

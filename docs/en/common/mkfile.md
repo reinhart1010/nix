@@ -3,11 +3,12 @@ layout: page
 title: common/mkfile (English)
 description: "Create one or more empty files of any size."
 content_hash: ad6b829abab1a33a913a668b9c5451f6998a9d20
-last_modified_at: 2022-12-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/common/mkfile.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mkfile
 

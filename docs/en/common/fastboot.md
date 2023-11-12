@@ -3,7 +3,7 @@ layout: page
 title: common/fastboot (English)
 description: "Communicate with connected Android devices when in bootloader mode (the one place `adb` doesn't work)."
 content_hash: 7f9677cdb506173709ee2fbce3d7ceb4ea703494
-last_modified_at: 2023-10-21
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/fastboot.html
@@ -11,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/fastboot.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fastboot
 

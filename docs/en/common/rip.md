@@ -3,11 +3,10 @@ layout: page
 title: common/rip (English)
 description: "Remove files or directories by sending them to the graveyard, allowing for them to be recovered."
 content_hash: 975950473670c0e0c646a5ebf9e5f653d952162d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rip
+# rip
 
 Remove files or directories by sending them to the graveyard, allowing for them to be recovered.
 More information: <https://github.com/nivekuil/rip>.

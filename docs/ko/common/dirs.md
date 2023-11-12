@@ -3,6 +3,7 @@ layout: page
 title: common/dirs (한국어)
 description: "디렉토리 스택을 표시하거나 조작한다."
 content_hash: 25ed1f3ce0f2eedd936f71da6c2341c6c16b6b93
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/dirs.html
@@ -16,6 +17,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/dirs.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dirs
 

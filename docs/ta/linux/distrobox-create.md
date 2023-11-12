@@ -3,11 +3,18 @@ layout: page
 title: linux/distrobox-create (தமிழ்)
 description: "உள்ளீட்டு பெயர் மற்றும் படத்துடன் டிஸ்ட்ரோபாக்ஸ் கொள்கலன்களை உருவாக்கவும்."
 content_hash: de008a772e37344c52dd745ec50e6d638ffa12c7
-last_modified_at: 2023-03-19
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/distrobox-create.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/distrobox-create.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/distrobox-create.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # distrobox-create
 

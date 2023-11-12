@@ -3,6 +3,8 @@ layout: page
 title: linux/phpenmod (English)
 description: "Enable PHP extensions on Debian-based OSes."
 content_hash: b2b21b2776bb6924d5eaf311d63a69c0bfc6de60
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # phpenmod
 

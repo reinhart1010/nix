@@ -3,7 +3,7 @@ layout: page
 title: common/sudo (português (Brasil))
 description: "Executa um único comando como o Superuser, ou como outro usuário."
 content_hash: dd564e2b769f86e9cf9a3379f02bb7c36c49fbcf
-last_modified_at: 2023-10-24
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/sudo.html
@@ -17,6 +17,7 @@ related_topics:
   - title: polski version
     url: /pl/common/sudo.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sudo
 

@@ -3,6 +3,8 @@ layout: page
 title: common/mmv (English)
 description: "Move and rename files in bulk."
 content_hash: 87d61154068e001edc77bcc35e9d5e8b9d9210a4
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mmv
 

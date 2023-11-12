@@ -3,6 +3,8 @@ layout: page
 title: common/git-standup (English)
 description: "See commits from a specified user."
 content_hash: 21abb96b170facf36ebea9adeb2bb80df51868c3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git standup
 

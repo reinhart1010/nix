@@ -3,7 +3,7 @@ layout: page
 title: common/unlzma (नेपाली)
 description: "यो आदेश `xz` को उपनाम हो |"
 content_hash: c761f17c8e05ed44684b25f72dee5f6a456a0552
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/unlzma.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/unlzma.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # unlzma
 

@@ -3,8 +3,11 @@ layout: page
 title: common/acme.sh (Nederlands)
 description: "Shell-script dat het ACME-clientprotocol implementeert, een alternatief voor certbot."
 content_hash: 818ff9d896fcb88a00e3fb9b36bfb83ecb538f05
-last_modified_at: 2023-05-30
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/acme.sh.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/acme.sh.html
     icon: bi bi-globe
@@ -14,14 +17,15 @@ related_topics:
   - title: français version
     url: /fr/common/acme.sh.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/acme.sh.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/acme.sh.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># acme.sh
+# acme.sh
 
 Shell-script dat het ACME-clientprotocol implementeert, een alternatief voor certbot.
 Zie ook `acme.sh dns`.

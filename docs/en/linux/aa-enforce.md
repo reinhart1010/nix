@@ -3,12 +3,10 @@ layout: page
 title: linux/aa-enforce (English)
 description: "Set an AppArmor profile to enforce mode."
 content_hash: c5e96d68428c6821a881bec95d839c79a21d140a
-last_modified_at: 2023-10-01
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aa-enforce
+# aa-enforce
 
 Set an AppArmor profile to enforce mode.
 See also: `aa-complain`, `aa-disable`, `aa-status`.

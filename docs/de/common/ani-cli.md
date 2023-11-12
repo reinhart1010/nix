@@ -3,7 +3,7 @@ layout: page
 title: common/ani-cli (Deutsch)
 description: "Ein Cli zum Stöbern und Anschauen von Anime."
 content_hash: 0a8b94f802d6848aa7ca56c7a131c1a8af12e7b9
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ani-cli.html
@@ -20,6 +20,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ani-cli.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ani-cli
 

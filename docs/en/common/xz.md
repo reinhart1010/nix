@@ -3,11 +3,12 @@ layout: page
 title: common/xz (English)
 description: "Compress or decompress `.xz` and `.lzma` files."
 content_hash: 7b3ca82995dcb607e36c652d72dc3a940362bd3e
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/xz.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xz
 

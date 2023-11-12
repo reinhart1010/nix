@@ -3,6 +3,7 @@ layout: page
 title: common/arduino-builder (français)
 description: "Un outil en ligne de commande pour compiler des croquis arduino."
 content_hash: fcf5aa6a61396dcbcf661ce8d37c28827e8df66a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/arduino-builder.html
@@ -10,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/arduino-builder.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # arduino-builder
 

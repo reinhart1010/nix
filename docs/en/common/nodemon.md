@@ -3,10 +3,12 @@ layout: page
 title: common/nodemon (English)
 description: "Watch files and automatically restart a node application when changes are detected."
 content_hash: 3f25bba855db0472d0d55f73da34cac0d989c315
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/nodemon.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nodemon
 

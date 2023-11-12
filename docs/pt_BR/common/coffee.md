@@ -3,7 +3,7 @@ layout: page
 title: common/coffee (português (Brasil))
 description: "Executa scripts CoffeeScript ou os compila em JavaScript."
 content_hash: e5e9a0c80d4a51435d0f0aab3dd4f85f3d4d1d3d
-last_modified_at: 2023-10-21
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/coffee.html
@@ -14,6 +14,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/coffee.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # coffee
 

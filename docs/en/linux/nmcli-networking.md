@@ -3,11 +3,14 @@ layout: page
 title: linux/nmcli-networking (English)
 description: "Manage the networking status of NetworkManager."
 content_hash: 4383e21006d502006615cd54254445b1b2c69650
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Nederlands version
+    url: /nl/linux/nmcli-networking.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># nmcli networking
+# nmcli networking
 
 Manage the networking status of NetworkManager.
 This subcommand can also be called with `nmcli n`.

@@ -3,6 +3,7 @@ layout: page
 title: common/chroot (Türkçe)
 description: "Komut veya etkileşimli komut satırını özel kök diziniyle çalıştırır."
 content_hash: 23375ed3f32ee090f949fb1969e6dc0135e5da05
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/chroot.html
@@ -22,6 +23,7 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/chroot.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chroot
 

@@ -3,10 +3,12 @@ layout: page
 title: common/ghcup (русский)
 description: "Установщик набора инструментов Haskell."
 content_hash: f5017022401576aaa6274b41061bc65416ff4f12
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ghcup.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ghcup
 

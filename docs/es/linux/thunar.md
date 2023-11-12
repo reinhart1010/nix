@@ -3,6 +3,7 @@ layout: page
 title: linux/thunar (español)
 description: "Administrador de archivos gráficos para entornos de escritorio XFCE."
 content_hash: 58b36384ee254d2452bdd9a54639426aba6abb21
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/thunar.html
@@ -10,11 +11,9 @@ related_topics:
   - title: മലയാളം version
     url: /ml/linux/thunar.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># thunar
+# thunar
 
 Administrador de archivos gráficos para entornos de escritorio XFCE.
 Más información: <https://docs.xfce.org/xfce/thunar/start>.

@@ -3,6 +3,7 @@ layout: page
 title: linux/ip (français)
 description: "Affiche / manipule l'adressage, le routage, les interfaces et périphériques réseau, les règles de routage et les tunnels."
 content_hash: 8743be6266c2a8d11ebe3228fa680e0ce75b33ea
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/ip.html
@@ -10,6 +11,16 @@ related_topics:
   - title: English version
     url: /en/linux/ip.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/linux/ip.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/ip.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/linux/ip.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ip
 

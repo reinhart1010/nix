@@ -3,10 +3,15 @@ layout: page
 title: osx/textutil (中文)
 description: "用于操作各种格式的文本文件。"
 content_hash: c9ee2ae8b3f1dedf3c6be6190a99c98cbe78d520
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/textutil.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/textutil.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # textutil
 

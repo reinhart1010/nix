@@ -3,6 +3,7 @@ layout: page
 title: common/git-bisect (English)
 description: "Use binary search to find the commit that introduced a bug."
 content_hash: a8bf8a39022ba2319121828823e50b8ab696e9aa
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-bisect.html
@@ -22,6 +23,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-bisect.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git bisect
 

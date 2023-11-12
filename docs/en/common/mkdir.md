@@ -3,7 +3,7 @@ layout: page
 title: common/mkdir (English)
 description: "Create directories and set their permissions."
 content_hash: 62b237dedefcfd85b23fed742d35d48e2abe9026
-last_modified_at: 2023-01-07
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/mkdir.html
@@ -35,6 +35,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/mkdir.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mkdir
 

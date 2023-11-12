@@ -3,7 +3,7 @@ layout: page
 title: common/amass (español)
 description: "Herramienta de mapeo de superficie de ataque en profundidad y descubrimiento de activos."
 content_hash: de1b437b3466a1f8c5e07eab77ae26ed6355dd0f
-last_modified_at: 2023-01-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/amass.html
@@ -17,11 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/amass.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># amass
+# amass
 
 Herramienta de mapeo de superficie de ataque en profundidad y descubrimiento de activos.
 Algunos subcomandos como `amass db` tienen su propia documentación de uso.

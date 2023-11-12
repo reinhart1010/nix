@@ -3,6 +3,8 @@ layout: page
 title: linux/ndctl (English)
 description: "Utility for managing Non-Volatile DIMMs."
 content_hash: bead81671b350aa241a9b4a7cdf05a0e50d008f6
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ndctl
 

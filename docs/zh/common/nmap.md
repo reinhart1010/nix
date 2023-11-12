@@ -3,7 +3,11 @@ layout: page
 title: common/nmap (中文)
 description: "网络探索工具和安全/端口扫描程序。"
 content_hash: 27f3edc86ecf764e9a8bfff0ee4d327b092f5f6f
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/nmap.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/nmap.html
     icon: bi bi-globe
@@ -13,6 +17,10 @@ related_topics:
   - title: italiano version
     url: /it/common/nmap.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/nmap.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nmap
 

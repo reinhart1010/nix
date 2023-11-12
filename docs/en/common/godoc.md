@@ -3,6 +3,8 @@ layout: page
 title: common/godoc (English)
 description: "Show documentation for go packages."
 content_hash: a06ead0fc0c6e0087e177516001efc70cbd3c7e0
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # godoc
 

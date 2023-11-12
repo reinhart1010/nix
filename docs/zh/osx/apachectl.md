@@ -3,6 +3,7 @@ layout: page
 title: osx/apachectl (中文)
 description: "用于 macOS 的 Apache HTTP Server 控制接口（工具）。"
 content_hash: b09bc8650bdf988c451d3f9ba84eaf7891d7a826
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/apachectl.html
@@ -13,6 +14,10 @@ related_topics:
   - title: italiano version
     url: /it/osx/apachectl.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/apachectl.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apachectl
 

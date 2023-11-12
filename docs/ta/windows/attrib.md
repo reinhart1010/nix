@@ -3,9 +3,13 @@ layout: page
 title: windows/attrib (தமிழ்)
 description: "கோப்புகள் அல்லது கோப்பகங்களின் பண்புக்கூறுகளைக் காட்டவும் அல்லது மாற்றவும்."
 content_hash: 827c30d4c31bf7f27d7f1522c8cc5e9acaa4f4ad
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/attrib.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/attrib.html
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/windows/attrib.html
@@ -13,11 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/attrib.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># attrib
+# attrib
 
 கோப்புகள் அல்லது கோப்பகங்களின் பண்புக்கூறுகளைக் காட்டவும் அல்லது மாற்றவும்.
 மேலும் விவரத்திற்கு: <https://learn.microsoft.com/windows-server/administration/windows-commands/attrib>.

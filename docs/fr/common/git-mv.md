@@ -3,6 +3,7 @@ layout: page
 title: common/git-mv (français)
 description: "Déplacer ou renommer des fichiers inscrits dans l'index."
 content_hash: 0a4404a105036204324e09fedb38240db4d961d6
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-mv.html
@@ -16,6 +17,10 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/git-mv.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-mv.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git mv
 

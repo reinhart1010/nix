@@ -3,7 +3,7 @@ layout: page
 title: common/git-commit-tree (Türkçe)
 description: "Commit cisimleri oluşturmaya yarayan düşük seviyeli araç."
 content_hash: 9c4d228365d85c3251de57e1e2aa61f0f7910a98
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-commit-tree.html
@@ -11,6 +11,7 @@ related_topics:
   - title: українська version
     url: /uk/common/git-commit-tree.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git commit-tree
 

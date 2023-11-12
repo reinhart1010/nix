@@ -3,7 +3,11 @@ layout: page
 title: common/cd (català)
 description: "Canvia el directori actual."
 content_hash: 55b78052ddd25c02d2e0b99eb32859a7879ccbb8
+last_modified_at: 2023-11-12
 related_topics:
+  - title: čeština version
+    url: /cs/common/cd.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/cd.html
     icon: bi bi-globe
@@ -28,6 +32,9 @@ related_topics:
   - title: italiano version
     url: /it/common/cd.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/cd.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/cd.html
     icon: bi bi-globe
@@ -46,14 +53,21 @@ related_topics:
   - title: svenska version
     url: /sv/common/cd.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/cd.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/cd.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/cd.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# cd
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># cd
 
 Canvia el directori actual.
 Més informació: <https://manned.org/cd>.

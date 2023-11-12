@@ -3,7 +3,7 @@ layout: page
 title: common/fc (English)
 description: "Open the most recent command and edit it."
 content_hash: b1c69eee0f9dbd1f5013c7e7fa3d4068f551f958
-last_modified_at: 2023-01-25
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/fc.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/fc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fc
 

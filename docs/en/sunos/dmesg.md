@@ -3,7 +3,7 @@ layout: page
 title: sunos/dmesg (English)
 description: "Write the kernel messages to `stdout`."
 content_hash: 1e562a09ee1f2317bf23f66bf6efa719d1b8f641
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/sunos/dmesg.html
@@ -20,6 +20,7 @@ related_topics:
   - title: 中文 version
     url: /zh/sunos/dmesg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dmesg
 

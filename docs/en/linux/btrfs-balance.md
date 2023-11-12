@@ -3,10 +3,12 @@ layout: page
 title: linux/btrfs-balance (English)
 description: "Balance block groups on a btrfs filesystem."
 content_hash: 77bdbbbb987d2b878838b477e93a41bc37ff4c52
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/btrfs-balance.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # btrfs balance
 

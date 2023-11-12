@@ -3,14 +3,18 @@ layout: page
 title: osx/cut (português (Brasil))
 description: "Recorta campos de `stdin` ou arquivos."
 content_hash: c8ab5e8328f9a655f371d7ba7c16bc9e9aa9e959
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/cut.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/cut.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/osx/cut.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cut
 

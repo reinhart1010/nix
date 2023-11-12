@@ -3,10 +3,21 @@ layout: page
 title: common/kill (português (Brasil))
 description: "Envia um sinal para um processo, geralmente para finalizar o processo."
 content_hash: 40d89b616c00e2e2783dc22b3c400bbf095ac8da
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/kill.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/kill.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/kill.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/kill.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # kill
 

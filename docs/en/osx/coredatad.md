@@ -3,11 +3,14 @@ layout: page
 title: osx/coredatad (English)
 description: "Schedules CloudKit operations for clients of NSPersistentCloudKitContainer."
 content_hash: 5b5caed445790598971f335b418e3e94181f3a79
+last_modified_at: 2023-11-12
+related_topics:
+  - title: español version
+    url: /es/osx/coredatad.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># coredatad
+# coredatad
 
 Schedules CloudKit operations for clients of NSPersistentCloudKitContainer.
 It should not be invoked manually.

@@ -3,19 +3,20 @@ layout: page
 title: linux/distrobox-rm (português (Brasil))
 description: "Remover um contêiner distrobox."
 content_hash: 89b1de1d3a683c4eb25795a9d48eb662a61acf38
-last_modified_at: 2023-09-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/distrobox-rm.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/distrobox-rm.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/distrobox-rm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># distrobox-rm
+# distrobox-rm
 
 Remover um contêiner distrobox.
 Subcomando de `distrobox`. Veja também: `tldr distrobox`.

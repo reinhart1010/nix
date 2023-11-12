@@ -3,7 +3,7 @@ layout: page
 title: common/su (한국어)
 description: "다른 사용자로 쉘을 전환합니다."
 content_hash: 69e06d2593238794353f37f8a1889d478600b1ec
-last_modified_at: 2023-10-19
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/su.html
@@ -11,11 +11,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/su.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># su
+# su
 
 다른 사용자로 쉘을 전환합니다.
 더 많은 정보: <https://manned.org/su>.

@@ -3,15 +3,17 @@ layout: page
 title: common/aws-history (português (Brasil))
 description: "Exibe o histórico dos comandos para o AWS CLI (o armazenamento do hisitórico dos comandos do AWS CLI deve estar habilitado)."
 content_hash: 6509dc0e0da56f72d365c02ed60f98bffe77721f
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/aws-history.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/aws-history.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws history
+# aws history
 
 Exibe o histórico dos comandos para o AWS CLI (o armazenamento do hisitórico dos comandos do AWS CLI deve estar habilitado).
 Mais informações: <https://docs.aws.amazon.com/cli/latest/reference/history/>.

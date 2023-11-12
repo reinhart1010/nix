@@ -3,6 +3,8 @@ layout: page
 title: common/dolt (English)
 description: "Dolt is an SQL database that you can fork, clone, branch, merge, push and pull just like a Git repository."
 content_hash: 42867f06fc3971cff82737f3e8927c049ec3edf8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dolt
 

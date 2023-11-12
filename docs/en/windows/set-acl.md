@@ -3,7 +3,8 @@ layout: page
 title: windows/set-acl (English)
 description: "Changes the security descriptor of a specified item, such as a file or a registry key."
 content_hash: 0a1668ee8974b82ff1cdd95b8cfcc2121a886733
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # Set-Acl
 

@@ -3,6 +3,7 @@ layout: page
 title: linux/apt-file (Deutsch)
 description: "Suche nach Dateien in apt-Paketen, auch in den nicht-installierten."
 content_hash: 44a9bc164f54f8ebde7cc4b3bda859a56bc3f325
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/apt-file.html
@@ -28,6 +29,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/apt-file.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apt-file
 

@@ -3,6 +3,8 @@ layout: page
 title: common/gprbuild (English)
 description: "A high-level build tool for projects written in Ada and other languages (C/C++/Fortran)."
 content_hash: 6411bfa2236e5ed6ceef0d75fb83438f90bf7db8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gprbuild
 

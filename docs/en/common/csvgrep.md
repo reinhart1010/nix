@@ -3,6 +3,7 @@ layout: page
 title: common/csvgrep (English)
 description: "Filter CSV rows with string and pattern matching."
 content_hash: 9c383b0e5c84ce273d83031e401b693fd7332ab6
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/csvgrep.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/csvgrep.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # csvgrep
 

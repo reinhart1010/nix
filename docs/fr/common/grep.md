@@ -3,7 +3,11 @@ layout: page
 title: common/grep (français)
 description: "Recherche des motifs dans un texte."
 content_hash: f817854f7474d7447cc3228b9cd23a1e8fe3ec07
+last_modified_at: 2023-11-12
 related_topics:
+  - title: dansk version
+    url: /da/common/grep.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/grep.html
     icon: bi bi-globe
@@ -13,12 +17,25 @@ related_topics:
   - title: español version
     url: /es/common/grep.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/grep.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/grep.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/grep.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/grep.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/grep.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/grep.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # grep
 

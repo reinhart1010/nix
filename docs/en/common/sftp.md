@@ -3,6 +3,8 @@ layout: page
 title: common/sftp (English)
 description: "Secure File Transfer Program."
 content_hash: 6f97b1e672d892c8eec52f6f48c725c48d157fb8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sftp
 

@@ -3,6 +3,7 @@ layout: page
 title: common/dotnet-build (español)
 description: "Compila una aplicación .NET y sus dependencias."
 content_hash: f7a919fb1209802f2e25268b4500d20d86a51d3d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/dotnet-build.html
@@ -13,6 +14,7 @@ related_topics:
   - title: русский version
     url: /ru/common/dotnet-build.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dotnet build
 

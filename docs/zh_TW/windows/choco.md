@@ -3,13 +3,19 @@ layout: page
 title: windows/choco (中文 (繁體, 台灣))
 description: "「Chocolatey package manager」軟體套件管理器。"
 content_hash: 61f46f33fbe02dbb0df76182e1f3ff0d37453835
-last_modified_at: 2023-10-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco.html
     icon: bi bi-globe
   - title: English version
     url: /en/windows/choco.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/windows/choco.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/choco.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/windows/choco.html
@@ -29,6 +35,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/choco.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco
 

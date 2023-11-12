@@ -3,7 +3,7 @@ layout: page
 title: osx/gsleep (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux sleep`"
 content_hash: ea50a1c26e4587829ac5821952584cffaefe0d1b
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gsleep.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gsleep.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gsleep
 

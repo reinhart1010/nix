@@ -3,6 +3,7 @@ layout: page
 title: common/coffee (English)
 description: "Executes CoffeeScript scripts or compiles them into JavaScript."
 content_hash: 26c985922ea95f2dd9c54d2d3243dbb956b128a5
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/coffee.html
@@ -10,6 +11,10 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/coffee.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/coffee.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # coffee
 

@@ -3,10 +3,12 @@ layout: page
 title: common/laravel (English)
 description: "A command-line installer for the Laravel framework."
 content_hash: 2fed595d343b5cdc8c1456f59de5c5be093a8cad
+last_modified_at: 2023-11-12
 related_topics:
   - title: Indonesia version
     url: /id/common/laravel.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # laravel
 

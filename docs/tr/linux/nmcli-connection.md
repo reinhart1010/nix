@@ -3,10 +3,15 @@ layout: page
 title: linux/nmcli-connection (Türkçe)
 description: "NetworkManager ile bağlantı yönetimi."
 content_hash: 379ea76aef45079954d8faa02aa081c1f803d334
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/nmcli-connection.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/nmcli-connection.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nmcli connection
 

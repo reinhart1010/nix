@@ -3,7 +3,7 @@ layout: page
 title: common/git-subtree (français)
 description: "Outil pour gérer les dépendances de projet en tant que sous-projets."
 content_hash: 824b2eb4d75ea10ed845dfb46debdfae8bea08ba
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-subtree.html
@@ -14,6 +14,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-subtree.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git subtree
 

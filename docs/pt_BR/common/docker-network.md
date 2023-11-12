@@ -3,7 +3,7 @@ layout: page
 title: common/docker-network (português (Brasil))
 description: "Criar e gerenciar redes do Docker."
 content_hash: c470224fb2e1f44307b3ea5f12a400b5577113bf
-last_modified_at: 2023-09-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-network.html
@@ -20,11 +20,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-network.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docker network
+# docker network
 
 Criar e gerenciar redes do Docker.
 Mais informações: <https://docs.docker.com/engine/reference/commandline/network/>.

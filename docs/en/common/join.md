@@ -3,11 +3,12 @@ layout: page
 title: common/join (English)
 description: "Join lines of two sorted files on a common field."
 content_hash: aab590c771d109dba31f9b2cca87425ca495000a
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/join.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # join
 

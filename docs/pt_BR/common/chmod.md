@@ -3,6 +3,7 @@ layout: page
 title: common/chmod (português (Brasil))
 description: "Muda a permissão de acesso de um arquivo ou diretório."
 content_hash: c324390a5b856ec41d2d5c6ed15dff62148d4083
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/chmod.html
@@ -13,14 +14,23 @@ related_topics:
   - title: español version
     url: /es/common/chmod.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/chmod.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/chmod.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/chmod.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/chmod.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/chmod.html
+    icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/common/chmod.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/chmod.html
@@ -31,6 +41,13 @@ related_topics:
   - title: русский version
     url: /ru/common/chmod.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/chmod.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/chmod.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chmod
 

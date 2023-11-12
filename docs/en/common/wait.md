@@ -3,6 +3,8 @@ layout: page
 title: common/wait (English)
 description: "Wait for a process to complete before proceeding."
 content_hash: 2740d3783e354cfe32a46c10ae35f849e97fdc30
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # wait
 

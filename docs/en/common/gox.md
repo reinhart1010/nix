@@ -3,6 +3,8 @@ layout: page
 title: common/gox (English)
 description: "A tool for cross-compiling Go programs."
 content_hash: 4ea10e809aa24be4d7ead5c3cadcf8c0697ec8fc
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gox
 

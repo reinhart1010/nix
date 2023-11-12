@@ -3,7 +3,14 @@ layout: page
 title: linux/apt-get (中文)
 description: "Debian 和 Ubuntu 的软件包管理工具。"
 content_hash: af60b85eb67bdd805c13053c43d86a7dd2903544
+last_modified_at: 2023-11-12
 related_topics:
+  - title: العربية version
+    url: /ar/linux/apt-get.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/linux/apt-get.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/apt-get.html
     icon: bi bi-globe
@@ -13,11 +20,20 @@ related_topics:
   - title: español version
     url: /es/linux/apt-get.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/apt-get.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/linux/apt-get.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/apt-get.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/apt-get.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/apt-get.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/apt-get.html
@@ -25,6 +41,10 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/apt-get.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/apt-get.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apt-get
 

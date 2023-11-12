@@ -3,7 +3,8 @@ layout: page
 title: linux/rofi (English)
 description: "An application launcher and window switcher."
 content_hash: 22d8565affc30c00e68f049341b9deece61de729
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rofi
 

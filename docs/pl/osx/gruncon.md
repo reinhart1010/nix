@@ -3,7 +3,7 @@ layout: page
 title: osx/gruncon (polski)
 description: "To polecenie jest aliasem `-p linux runcon`."
 content_hash: 22b56eddc1980d1c636c062a9608339081fb300a
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gruncon.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gruncon.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gruncon
 

@@ -3,6 +3,7 @@ layout: page
 title: common/tmux (português (Portugal))
 description: "Multiplexador do terminal. Permite várias sessões com janelas, painéis e muito mais."
 content_hash: 2e4ff1a64513b0393f44b3de7883d36f50e015e9
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/tmux.html
@@ -13,6 +14,13 @@ related_topics:
   - title: français version
     url: /fr/common/tmux.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/tmux.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/tmux.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tmux
 

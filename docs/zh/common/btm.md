@@ -3,10 +3,15 @@ layout: page
 title: common/btm (中文)
 description: "命令行`top`的替代品。"
 content_hash: 945f589a7c97bb8364d43ceac230e0deff330c43
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/btm.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/btm.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # btm
 

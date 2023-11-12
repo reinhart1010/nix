@@ -3,9 +3,13 @@ layout: page
 title: common/ar (한국어)
 description: "아카이브로부터 생성, 수정, 추출 (`.a`, `.so`, `.o`)."
 content_hash: 852161dcff5f65ee40d077ad57d2b657ca17ff29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ar.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/ar.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ar.html
@@ -13,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ar.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ar
 

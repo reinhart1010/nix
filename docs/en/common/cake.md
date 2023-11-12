@@ -3,6 +3,7 @@ layout: page
 title: common/cake (English)
 description: "The command-line processor for the CakePHP framework."
 content_hash: 09cff9c52b744365d2f9f80d4577b6c39452c147
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/cake.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cake.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cake
 

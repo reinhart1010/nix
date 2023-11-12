@@ -3,6 +3,7 @@ layout: page
 title: linux/bmon (中文)
 description: "监控带宽并捕获网络相关统计信息。"
 content_hash: 04d9f4e2f25920175b7ab3b7192e5724c8236c53
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/bmon.html
@@ -10,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/bmon.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bmon
 

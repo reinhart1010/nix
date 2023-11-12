@@ -3,6 +3,7 @@ layout: page
 title: common/git-remote (English)
 description: "Manage set of tracked repositories (\"remotes\")."
 content_hash: c0ee1b4ed74f426c54ade321f663e9a5eb5136d8
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-remote.html
@@ -28,6 +29,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/git-remote.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git remote
 

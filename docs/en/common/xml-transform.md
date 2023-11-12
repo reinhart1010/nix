@@ -3,6 +3,8 @@ layout: page
 title: common/xml-transform (English)
 description: "Transform XML documents using XSLT."
 content_hash: 07091600739acd9bf5ed64fd206c80d29ee74144
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xml transform
 

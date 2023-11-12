@@ -3,6 +3,12 @@ layout: page
 title: common/go-list (English)
 description: "List packages or modules."
 content_hash: 1b359d0c158aae443c3b48a57368c72fb63d03f0
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Türkçe version
+    url: /tr/common/go-list.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # go list
 

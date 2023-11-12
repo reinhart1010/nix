@@ -3,7 +3,7 @@ layout: page
 title: android/logcat (فارسی)
 description: "تخلیه یک لاگ از پیاهم های سیستمی، شامل پشته رهگیری زمان وقوع خطا، و اطلاعات پیام های لاگ شده توسط برنامه ها."
 content_hash: 162ecb6a55058f8194702740706696e562eaf724
-last_modified_at: 2023-09-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -20,11 +20,17 @@ related_topics:
   - title: français version
     url: /fr/android/logcat.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/android/logcat.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/logcat.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/logcat.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/android/logcat.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/android/logcat.html
@@ -44,17 +50,18 @@ related_topics:
   - title: Türkçe version
     url: /tr/android/logcat.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/android/logcat.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/android/logcat.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/logcat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># logcat
+# logcat
 
 تخلیه یک لاگ از پیاهم های سیستمی، شامل پشته رهگیری زمان وقوع خطا، و اطلاعات پیام های لاگ شده توسط برنامه ها.
 اطلاعات بیشتر: <https://developer.android.com/studio/command-line/logcat>.

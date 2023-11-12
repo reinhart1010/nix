@@ -3,6 +3,7 @@ layout: page
 title: common/git-ls-remote (italiano)
 description: "Elenca i riferimenti in un repository remoto dato un nome o un URL."
 content_hash: 2f5c130d7339e9211c48219879ae22d977e30d0b
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-ls-remote.html
@@ -10,6 +11,10 @@ related_topics:
   - title: français version
     url: /fr/common/git-ls-remote.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-ls-remote.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git ls-remote
 

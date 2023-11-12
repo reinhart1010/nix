@@ -3,7 +3,12 @@ layout: page
 title: common/aws-cloudwatch (English)
 description: "Monitor AWS resources to gain system-wide visibility into resource utilization, application performance, and operational health."
 content_hash: a2bc5183fc0665434afcd916362e577151bf1878
-last_modified_at: 2023-08-24
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/aws-cloudwatch.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws cloudwatch
 

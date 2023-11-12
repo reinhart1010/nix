@@ -3,7 +3,7 @@ layout: page
 title: windows/iwr (Nederlands)
 description: "Dit commando is een alias van `invoke-webrequest`."
 content_hash: f933ae9eadc248f80e6d24f91bc931c4f0ceaa02
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/iwr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # iwr
 

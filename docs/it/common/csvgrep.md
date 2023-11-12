@@ -3,6 +3,7 @@ layout: page
 title: common/csvgrep (italiano)
 description: "Filtra righe CSV con stringhe e pattern matching."
 content_hash: 1abf996daad627d80f2c95e61fe5cb3e9f5cdd0d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/csvgrep.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/csvgrep.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # csvgrep
 

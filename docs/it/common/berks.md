@@ -3,6 +3,7 @@ layout: page
 title: common/berks (italiano)
 description: "Gestore di dipendenze per Chef cookbooks."
 content_hash: aa7384e25e42d832127c72ac4afcba555580eec8
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/berks.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/berks.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # berks
 

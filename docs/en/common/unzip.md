@@ -3,14 +3,18 @@ layout: page
 title: common/unzip (English)
 description: "Extract files/directories from ZIP archives."
 content_hash: fd9d3e3d2cb194a37a8aca8039f1ad58b0862df4
-last_modified_at: 2023-01-11
+last_modified_at: 2023-11-12
 related_topics:
+  - title: 한국어 version
+    url: /ko/common/unzip.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/unzip.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/unzip.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # unzip
 

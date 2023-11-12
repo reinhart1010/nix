@@ -3,6 +3,7 @@ layout: page
 title: common/git-clean (English)
 description: "Remove untracked files from the working tree."
 content_hash: bb4cec432fdca5b8ecaddcf9066256d970a90c48
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/git-clean.html
@@ -13,9 +14,16 @@ related_topics:
   - title: italiano version
     url: /it/common/git-clean.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-clean.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-clean.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-clean.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git clean
 

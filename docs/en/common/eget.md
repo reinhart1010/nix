@@ -3,11 +3,10 @@ layout: page
 title: common/eget (English)
 description: "Easily install prebuilt binaries from GitHub."
 content_hash: b9a0706d2558fde6cde2cafe95e6e2f46c25abf9
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># eget
+# eget
 
 Easily install prebuilt binaries from GitHub.
 More information: <https://github.com/zyedidia/eget>.

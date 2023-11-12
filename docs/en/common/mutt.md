@@ -3,7 +3,8 @@ layout: page
 title: common/mutt (English)
 description: "Command-line email client."
 content_hash: ef6c020f4ce817122fa54a47f1696caa6ccbe05f
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mutt
 

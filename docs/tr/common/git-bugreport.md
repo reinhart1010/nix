@@ -3,10 +3,12 @@ layout: page
 title: common/git-bugreport (Türkçe)
 description: "Sşstem ve kullanıcıdan hata ayıklama bilgisi çeker ve olası bir Git hatasının rapor edilmesi için bu bilgiyi oluşturduğu bir metin dosyasına kaydeder."
 content_hash: 1e25ed1bfc0c13394111a8f1fbfb4824105365d8
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-bugreport.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git bugreport
 

@@ -3,11 +3,14 @@ layout: page
 title: common/aws-pricing (English)
 description: "Query services, products, and pricing information from Amazon Web Services."
 content_hash: 388c0ebf54c51dea3732f7f35058319c96ac8b99
+last_modified_at: 2023-11-12
+related_topics:
+  - title: español version
+    url: /es/common/aws-pricing.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws pricing
+# aws pricing
 
 Query services, products, and pricing information from Amazon Web Services.
 More information: <https://docs.aws.amazon.com/cli/latest/reference/pricing/>.

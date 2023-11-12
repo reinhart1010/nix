@@ -3,6 +3,7 @@ layout: page
 title: common/bc (français)
 description: "Un langage de calcul de précision arbitraire."
 content_hash: ec292e079d9c23aced53f8b275b55c6fe7b86da3
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/bc.html
@@ -13,14 +14,18 @@ related_topics:
   - title: italiano version
     url: /it/common/bc.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/bc.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/bc.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/bc.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bc
+# bc
 
 Un langage de calcul de précision arbitraire.
 Voir aussi : `dc`.

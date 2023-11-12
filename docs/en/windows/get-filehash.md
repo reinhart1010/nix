@@ -3,11 +3,12 @@ layout: page
 title: windows/get-filehash (English)
 description: "Calculate a hash for a file."
 content_hash: 8330556ba65ccedc961f74a6c498722714ce1041
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/windows/get-filehash.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # Get-FileHash
 

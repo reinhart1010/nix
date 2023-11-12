@@ -3,10 +3,12 @@ layout: page
 title: common/jenv (中文)
 description: "管理”JAVA_HOME“环境变量的命令行工具。"
 content_hash: 2985ddb7b0c20ffce2c0504fca546cab782f5a9b
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/jenv.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # jenv
 

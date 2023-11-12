@@ -3,8 +3,11 @@ layout: page
 title: common/arp (polski)
 description: "Pokaż i manipuluj pamięcią podręczną ARP systemu."
 content_hash: 06e5a2cc960fdd7e9a19ae937b477e5ff89af124
-last_modified_at: 2023-04-10
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/arp.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/arp.html
     icon: bi bi-globe
@@ -26,6 +29,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/arp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # arp
 

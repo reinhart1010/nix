@@ -3,13 +3,19 @@ layout: page
 title: linux/ncal (한국어)
 description: "이 명령은 `cal` 의 에일리어스 (별칭) 입니다."
 content_hash: 717f72cbc23f7bd32c8c0d8c2d11b1fda6cf9655
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
+  - title: العربية version
+    url: /ar/linux/ncal.html
+    icon: bi bi-globe
   - title: bosanski version
     url: /bs/linux/ncal.html
     icon: bi bi-globe
   - title: català version
     url: /ca/linux/ncal.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/linux/ncal.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/ncal.html
@@ -41,6 +47,9 @@ related_topics:
   - title: മലയാളം version
     url: /ml/linux/ncal.html
     icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/linux/ncal.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/linux/ncal.html
     icon: bi bi-globe
@@ -52,6 +61,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/ncal.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/linux/ncal.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/linux/ncal.html
@@ -65,6 +77,9 @@ related_topics:
   - title: ไทย version
     url: /th/linux/ncal.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/linux/ncal.html
+    icon: bi bi-globe
   - title: українська version
     url: /uk/linux/ncal.html
     icon: bi bi-globe
@@ -74,11 +89,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/linux/ncal.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ncal
+# ncal
 
 이 명령은 `cal` 의 에일리어스 (별칭) 입니다.
 더 많은 정보: <https://manned.org/ncal>.

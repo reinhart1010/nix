@@ -2,8 +2,9 @@
 layout: page
 title: common/samtools (English)
 description: "Tools for handling high-throughput sequencing (genomics) data."
-content_hash: dd06a59c4375b001935ac665848ed74b7e025c2e
-last_modified_at: 2023-06-13
+content_hash: eb3a07d8d1e5858caa20c850fc3a7e5ad7f714f0
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # samtools
 
@@ -23,7 +24,7 @@ More information: <https://www.htslib.org>.
 
 `samtools sort `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.bam</span>
 
-- Index a sorted BAM file (creates `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sorted_input.bam.bai</span>`):
+- Index a sorted BAM file (creates `sorted_input.bam.bai`):
 
 `samtools index `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sorted_input.bam</span>
 
@@ -37,7 +38,7 @@ More information: <https://www.htslib.org>.
 
 - Merge multiple files:
 
-`samtools merge `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input1 input2 …</span>
+`samtools merge `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input1 input2 ...</span>
 
 - Split input file according to read groups:
 

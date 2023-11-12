@@ -3,7 +3,8 @@ layout: page
 title: common/az-pipelines (English)
 description: "Manage Azure Pipelines resources."
 content_hash: 7e42f744d25982470c3d0d440e4116c095738cd8
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # az pipelines
 

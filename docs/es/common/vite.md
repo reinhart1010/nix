@@ -3,7 +3,7 @@ layout: page
 title: common/vite (español)
 description: "Crea un proyecto Vite."
 content_hash: 9ff79ec9eff11289330c3e42f88a3fdd2e3a18aa
-last_modified_at: 2023-10-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/vite.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/vite.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # Vite
 

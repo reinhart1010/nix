@@ -3,7 +3,7 @@ layout: page
 title: linux/resolvectl (français)
 description: "Résout les noms de domaine, les adresses IPV4 et IPv6, les enregistrements de ressources DNS et les services."
 content_hash: 726721a2c98f0d09a233767d4d4a4eaa99395e7f
-last_modified_at: 2023-10-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/resolvectl.html
@@ -11,11 +11,9 @@ related_topics:
   - title: polski version
     url: /pl/linux/resolvectl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># resolvectl
+# resolvectl
 
 Résout les noms de domaine, les adresses IPV4 et IPv6, les enregistrements de ressources DNS et les services.
 Inspecte et reconfigure le résolveur DNS.

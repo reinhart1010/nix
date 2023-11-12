@@ -3,7 +3,7 @@ layout: page
 title: linux/diff3 (português (Brasil))
 description: "Compara 3 arquivos linha por linha."
 content_hash: 9740f3bdade633e209b10bb72ebb6895db08419e
-last_modified_at: 2023-05-24
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/diff3.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/diff3.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # diff3
 

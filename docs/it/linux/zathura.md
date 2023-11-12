@@ -3,6 +3,7 @@ layout: page
 title: linux/zathura (italiano)
 description: "Un visualizzatore di documenti ispirato a vim, con una linea di comando integrata."
 content_hash: d20a31c387ecd07fbfc73788a1f8b7986f84b1b8
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/zathura.html
@@ -13,6 +14,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/zathura.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # zathura
 

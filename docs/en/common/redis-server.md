@@ -3,7 +3,8 @@ layout: page
 title: common/redis-server (English)
 description: "Persistent key-value database."
 content_hash: 14000b90bee34eb3b252b9631223178d0f386169
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # redis-server
 

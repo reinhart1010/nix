@@ -3,7 +3,7 @@ layout: page
 title: common/aircrack-ng (Nederlands)
 description: "Kraak WEP- en WPA/WPA2-sleutels van handshake in vastgelegde pakketten."
 content_hash: fd35391e87739f33366f6a146ff70353252e1367
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/aircrack-ng.html
@@ -14,6 +14,7 @@ related_topics:
   - title: español version
     url: /es/common/aircrack-ng.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aircrack-ng
 

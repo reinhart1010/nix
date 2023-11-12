@@ -3,10 +3,12 @@ layout: page
 title: common/vue-build (English)
 description: "A subcommand provided by `@vue/cli` and `@vue/cli-service-global` that enables quick prototyping."
 content_hash: a7a9fb1f5f5d4900450733ee0db3ef07ada47f89
+last_modified_at: 2023-11-12
 related_topics:
   - title: Indonesia version
     url: /id/common/vue-build.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # vue build
 

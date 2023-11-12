@@ -3,6 +3,8 @@ layout: page
 title: common/git-mailinfo (English)
 description: "Extract patch and authorship information from a single email message."
 content_hash: d30433582eea2fbaf001937702b8bc17c39e6a51
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git mailinfo
 

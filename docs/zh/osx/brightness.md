@@ -3,6 +3,7 @@ layout: page
 title: osx/brightness (中文)
 description: "获取或设置所有显示设备的亮度等级。"
 content_hash: 73be1d65a36a04f72508624eeab9b255d43b2e08
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/brightness.html
@@ -13,6 +14,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/osx/brightness.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # brightness
 

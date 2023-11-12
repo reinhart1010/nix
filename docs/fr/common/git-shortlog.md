@@ -3,6 +3,7 @@ layout: page
 title: common/git-shortlog (français)
 description: "Récapitule la sortie de `git log`."
 content_hash: d2ee4705350d6281b9b30d0f4a026143bba4ba5c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-shortlog.html
@@ -16,6 +17,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-shortlog.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git shortlog
 

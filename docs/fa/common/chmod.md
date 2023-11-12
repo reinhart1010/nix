@@ -3,7 +3,7 @@ layout: page
 title: common/chmod (فارسی)
 description: "تغییر مجوز(ها)ی دسترسی به یک فایل یا پوشه."
 content_hash: 67c7ccc560211cfa9a28d8a18bcbe9098d091d38
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/chmod.html
@@ -47,6 +47,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/chmod.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chmod
 

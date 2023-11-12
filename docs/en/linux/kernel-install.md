@@ -3,12 +3,10 @@ layout: page
 title: linux/kernel-install (English)
 description: "Add and remove kernel and initrd images to and from `/boot`."
 content_hash: d732aeae94fb502fbff489e70388763df8c6d362
-last_modified_at: 2023-10-11
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># kernel-install
+# kernel-install
 
 Add and remove kernel and initrd images to and from `/boot`.
 More information: <https://manned.org/kernel-install.8>.

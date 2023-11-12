@@ -3,6 +3,8 @@ layout: page
 title: common/pic (English)
 description: "Picture preprocessor for the groff (GNU Troff) document formatting system."
 content_hash: f4c627db5e66affde33967b46efa74d95c8c6cd4
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pic
 

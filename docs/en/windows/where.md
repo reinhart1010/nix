@@ -3,14 +3,21 @@ layout: page
 title: windows/where (English)
 description: "Display the location of files that match the search pattern."
 content_hash: 468b9a651f574f64aa5c9ac136721e1a54679d65
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/where.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/windows/where.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/windows/where.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/where.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # where
 

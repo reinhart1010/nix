@@ -3,7 +3,8 @@ layout: page
 title: common/nix3-build (English)
 description: "Build a Nix expression (downloading from the cache when possible)."
 content_hash: e30cb276279ccb6d6465e3f79ea18ffbc8fff8df
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # nix build
 

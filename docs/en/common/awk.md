@@ -3,7 +3,7 @@ layout: page
 title: common/awk (English)
 description: "A versatile programming language for working on files."
 content_hash: 1a7bcee3395c8fe2a90f232f95def5e052daf457
-last_modified_at: 2022-12-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/awk.html
@@ -23,9 +23,13 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/awk.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/awk.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/awk.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # awk
 

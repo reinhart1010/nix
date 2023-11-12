@@ -3,7 +3,12 @@ layout: page
 title: common/babeld (English)
 description: "Routing daemon for Babel which uses firewall-style filters."
 content_hash: 6de7d732002768dae477ae3d320dc55287d5f22c
-last_modified_at: 2023-06-28
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/babeld.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # babeld
 

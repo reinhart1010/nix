@@ -3,10 +3,12 @@ layout: page
 title: linux/aurvote (English)
 description: "Vote for packages in the Arch User Repository."
 content_hash: ed86cb500df4aced78979f7a37111c76d930f075
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/linux/aurvote.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aurvote
 

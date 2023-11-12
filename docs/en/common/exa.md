@@ -3,6 +3,7 @@ layout: page
 title: common/exa (English)
 description: "A modern replacement for `ls` (List directory contents)."
 content_hash: 674b07522e8b78d72c0eaf196cab05199fc16097
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/exa.html
@@ -10,6 +11,10 @@ related_topics:
   - title: italiano version
     url: /it/common/exa.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/exa.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # exa
 

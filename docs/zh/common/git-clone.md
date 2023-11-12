@@ -3,6 +3,7 @@ layout: page
 title: common/git-clone (中文)
 description: "克隆现有的代码库。"
 content_hash: 1000ba34ec50f3a005745b15f1e9b4941bd34502
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-clone.html
@@ -25,17 +26,21 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/git-clone.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-clone.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-clone.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-clone.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git-clone.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git clone
+# git clone
 
 克隆现有的代码库。
 更多信息：<https://git-scm.com/docs/git-clone>.

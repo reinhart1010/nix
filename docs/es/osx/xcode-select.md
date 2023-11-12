@@ -3,7 +3,7 @@ layout: page
 title: osx/xcode-select (español)
 description: "Cambia entre diferentes versiones de Xcode y las herramientas incluidas para desarrolladores."
 content_hash: ba978bea349d85719a4554e8bcf69dac7033bbae
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/osx/xcode-select.html
@@ -11,11 +11,9 @@ related_topics:
   - title: English version
     url: /en/osx/xcode-select.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># xcode-select
+# xcode-select
 
 Cambia entre diferentes versiones de Xcode y las herramientas incluidas para desarrolladores.
 También se utiliza para actualizar la ruta a Xcode si se mueve después de la instalación.

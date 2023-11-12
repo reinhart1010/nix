@@ -3,10 +3,12 @@ layout: page
 title: common/dexdump (한국어)
 description: "안드로이드 DEX 파일들에 대한 정보 출력."
 content_hash: 23a7b874637636a0a0360387f6fc61c5daaf9a7c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/dexdump.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dexdump
 

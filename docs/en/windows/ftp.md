@@ -3,14 +3,18 @@ layout: page
 title: windows/ftp (English)
 description: "Interactively transfer files between a local and remote FTP server."
 content_hash: 28ddc48b3e826f6fb069ae6e1a5ce8d157aa0d9c
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/ftp.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/ftp.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/ftp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ftp
 

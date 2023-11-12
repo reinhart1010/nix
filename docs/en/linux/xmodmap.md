@@ -3,7 +3,8 @@ layout: page
 title: linux/xmodmap (English)
 description: "Utility for modifying keymaps and pointer button mappings in X."
 content_hash: 979c06524d0485ccb2ca1ba4656139e80f87cc15
-last_modified_at: 2022-11-20
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xmodmap
 

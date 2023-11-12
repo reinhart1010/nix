@@ -3,16 +3,95 @@ layout: page
 title: osx/gtime (українська)
 description: "Ця команда є псевдонімом для `-p linux time`."
 content_hash: 73a45af4fd539406c6b791e2e28a72652262dda5
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
+  - title: العربية version
+    url: /ar/osx/gtime.html
+    icon: bi bi-globe
+  - title: bosanski version
+    url: /bs/osx/gtime.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/osx/gtime.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/osx/gtime.html
+    icon: bi bi-globe
+  - title: Deutsch version
+    url: /de/osx/gtime.html
+    icon: bi bi-globe
   - title: English version
     url: /en/osx/gtime.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/gtime.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/osx/gtime.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/osx/gtime.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/osx/gtime.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/osx/gtime.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/osx/gtime.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/osx/gtime.html
+    icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/osx/gtime.html
+    icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/osx/gtime.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/osx/gtime.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/osx/gtime.html
+    icon: bi bi-globe
+  - title: norsk version
+    url: /no/osx/gtime.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/osx/gtime.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/gtime.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/osx/gtime.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/osx/gtime.html
+    icon: bi bi-globe
+  - title: svenska version
+    url: /sv/osx/gtime.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/osx/gtime.html
+    icon: bi bi-globe
+  - title: ไทย version
+    url: /th/osx/gtime.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/osx/gtime.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/osx/gtime.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/osx/gtime.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gtime
+# gtime
 
 Ця команда є псевдонімом для `-p linux time`.
 

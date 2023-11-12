@@ -3,13 +3,18 @@ layout: page
 title: common/tail (English)
 description: "Display the last part of a file."
 content_hash: 4d217ebd9f6d1c61705a60e7b046979c89dfff9e
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/tail.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/tail.html
+    icon: bi bi-globe
   - title: sh version
     url: /sh/common/tail.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tail
 

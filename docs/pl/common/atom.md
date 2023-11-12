@@ -3,6 +3,7 @@ layout: page
 title: common/atom (polski)
 description: "Wieloplatformowy edytor tekstu z obsługą wtyczek."
 content_hash: 18bc0cfc84bd78359267919b771a88aa99d5f7e0
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/atom.html
@@ -25,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/atom.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # atom
 

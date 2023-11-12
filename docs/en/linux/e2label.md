@@ -3,6 +3,8 @@ layout: page
 title: linux/e2label (English)
 description: "Change the label on an ext2/ext3/ext4 filesystem."
 content_hash: 0490f9e74c2f840cb8bef858375fc459c242e9fa
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # e2label
 

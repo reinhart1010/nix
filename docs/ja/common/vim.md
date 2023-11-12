@@ -3,6 +3,7 @@ layout: page
 title: common/vim (日本語)
 description: "コマンドラインのテキストエディタである Vim（Vi IMproved）には、さまざまな種類のテキスト操作のためのモードが用意されています。"
 content_hash: 1d0b4c74b2cffa8891768ac8dca6af13c7e11757
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -19,11 +20,17 @@ related_topics:
   - title: italiano version
     url: /it/common/vim.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/vim.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/vim.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/vim.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/vim.html
     icon: bi bi-globe
   - title: українська version
     url: /uk/common/vim.html
@@ -31,6 +38,10 @@ related_topics:
   - title: 中文 version
     url: /zh/common/vim.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/vim.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # vim
 

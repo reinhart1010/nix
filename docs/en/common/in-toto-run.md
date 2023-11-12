@@ -3,6 +3,8 @@ layout: page
 title: common/in-toto-run (English)
 description: "Generating link metadata while carrying out a supply chain step."
 content_hash: fe9ce91997920a17e1210dfa4ee810409bcd28b3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # in-toto-run
 

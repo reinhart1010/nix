@@ -3,12 +3,14 @@ layout: page
 title: common/aws-batch (English)
 description: "Run batch computing workloads through the AWS Batch service."
 content_hash: da787286d98343468b3f4977c69d7fef4f1d9eb6
-last_modified_at: 2023-08-17
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/aws-batch.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws batch
+# aws batch
 
 Run batch computing workloads through the AWS Batch service.
 More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/batch/index.html>.

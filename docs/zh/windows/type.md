@@ -3,6 +3,7 @@ layout: page
 title: windows/type (中文)
 description: "显示文件的内容。"
 content_hash: 2b8db019eeaaa9bf10eefa36dc54de5187cc90e9
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/type.html
@@ -10,9 +11,16 @@ related_topics:
   - title: فارسی version
     url: /fa/windows/type.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/type.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/type.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/windows/type.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # type
 

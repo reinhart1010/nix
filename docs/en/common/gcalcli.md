@@ -3,10 +3,12 @@ layout: page
 title: common/gcalcli (English)
 description: "Command-line tool to interact with Google Calendar."
 content_hash: c64ea1a4aa4047167454efce235a1b15dd949575
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/gcalcli.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gcalcli
 

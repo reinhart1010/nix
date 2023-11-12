@@ -3,6 +3,7 @@ layout: page
 title: common/dive (italiano)
 description: "Un tool per esplorare immagini Docker, contenuti dei livelli, e ridurne la dimensione."
 content_hash: ddf51b1468bef9f73d4dcacb733978bb75da9cde
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/dive.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/dive.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dive
 

@@ -3,12 +3,14 @@ layout: page
 title: linux/pkgctl-diff (English)
 description: "Compare package files using different modes."
 content_hash: d76b1b893694b6da5ef8d09fdb946987f0f1f6ad
-last_modified_at: 2023-08-16
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Nederlands version
+    url: /nl/linux/pkgctl-diff.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pkgctl diff
+# pkgctl diff
 
 Compare package files using different modes.
 See also: `pkgctl`.

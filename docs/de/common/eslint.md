@@ -3,7 +3,7 @@ layout: page
 title: common/eslint (Deutsch)
 description: "Ein erweiterbarer Linter für JavaScript und JSX."
 content_hash: 279490a621c4f0c4e321f569168717a4cbe98b73
-last_modified_at: 2023-05-23
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/eslint.html
@@ -14,6 +14,7 @@ related_topics:
   - title: polski version
     url: /pl/common/eslint.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # eslint
 

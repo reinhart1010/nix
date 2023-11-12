@@ -3,7 +3,7 @@ layout: page
 title: common/fg (русский)
 description: "Переключение задания на передний план."
 content_hash: 28710e171769b08a8cafb249ef8592e2ef462c0c
-last_modified_at: 2022-11-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/fg.html
@@ -20,6 +20,7 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/fg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fg
 

@@ -3,6 +3,7 @@ layout: page
 title: common/unclutter (فارسی)
 description: "مخفی کردن نشان ماوس."
 content_hash: 105f9e426eabc1e0a02621905be7c9266701ebe9
+last_modified_at: 2023-11-12
 related_topics:
   - title: bosanski version
     url: /bs/common/unclutter.html
@@ -16,12 +17,13 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/unclutter.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/unclutter.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/common/unclutter.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # unclutter
 

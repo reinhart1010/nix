@@ -3,10 +3,15 @@ layout: page
 title: windows/more (中文)
 description: "分页显示标准输入或文件的输出。"
 content_hash: 1d6960e1f948387bf69f5f7a62fd8c6417ca9455
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/more.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/windows/more.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # more
 

@@ -3,10 +3,12 @@ layout: page
 title: windows/pushd (中文)
 description: "将目录储存在栈顶以便稍后访问。"
 content_hash: 15951c9e32deea8836aaea2c05431a3f68ddca62
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/pushd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pushd
 

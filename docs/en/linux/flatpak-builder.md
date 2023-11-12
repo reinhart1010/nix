@@ -3,6 +3,8 @@ layout: page
 title: linux/flatpak-builder (English)
 description: "Help build application dependencies."
 content_hash: 18b5e07adfae200e0dfdc7f8fc16b63a2f708ed4
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # flatpak-builder
 

@@ -3,7 +3,14 @@ layout: page
 title: common/astronomer (English)
 description: "Tool that detects illegitimate stars from bot accounts on GitHub projects."
 content_hash: 1917e3ba45ce85be07fec88b3201bdb3663f2047
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/common/astronomer.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/astronomer.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/astronomer.html
     icon: bi bi-globe
@@ -13,6 +20,7 @@ related_topics:
   - title: polski version
     url: /pl/common/astronomer.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # astronomer
 

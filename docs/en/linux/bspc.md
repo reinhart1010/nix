@@ -3,6 +3,12 @@ layout: page
 title: linux/bspc (English)
 description: "A tool to control `bspwm`."
 content_hash: 7c4524719502c211207129017fb26b3094d0558f
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Nederlands version
+    url: /nl/linux/bspc.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bspc
 

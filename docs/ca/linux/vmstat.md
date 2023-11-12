@@ -3,6 +3,7 @@ layout: page
 title: linux/vmstat (català)
 description: "Reporta informació sobre processos, memòria, paginació, IO en bloc, traps, discos i activitat de la CPU."
 content_hash: 542ad522091bfa1fe8d87ead6ccb7de9a4ad04db
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/vmstat.html
@@ -10,6 +11,7 @@ related_topics:
   - title: español version
     url: /es/linux/vmstat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # vmstat
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/lci (English)
 description: "LOLCODE interpreter written in C."
 content_hash: 2a938d342c461d98abb067df5b62299dacf092ab
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lci
 

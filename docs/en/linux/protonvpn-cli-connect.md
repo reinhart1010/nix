@@ -3,7 +3,8 @@ layout: page
 title: linux/protonvpn-cli-connect (English)
 description: "Connect to ProtonVPN."
 content_hash: 80f8e67d798a54559e01cab58e8053123989de86
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # protonvpn-cli connect
 

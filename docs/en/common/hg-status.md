@@ -3,6 +3,8 @@ layout: page
 title: common/hg-status (English)
 description: "Show files that have changed in the working directory."
 content_hash: 93bd33b8fa533068e7fe695b41affddbd297d8c2
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # hg status
 

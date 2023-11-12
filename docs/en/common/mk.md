@@ -3,11 +3,10 @@ layout: page
 title: common/mk (English)
 description: "Task runner for targets described in Mkfile."
 content_hash: ee2223af4ee6ca6b15c7edd7e88e90ea974a1e88
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mk
+# mk
 
 Task runner for targets described in Mkfile.
 Mostly used to control the compilation of an executable from source code.

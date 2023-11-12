@@ -3,6 +3,8 @@ layout: page
 title: common/dolt-add (English)
 description: "Add the contents of a table to the list of Dolt staged tables."
 content_hash: 243363e9f741c8f28b76d6b7abdf388dc43a56d3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dolt add
 

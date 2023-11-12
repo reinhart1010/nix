@@ -3,10 +3,12 @@ layout: page
 title: linux/print (Türkçe)
 description: "`run-mailcap` komutunun print özelliğinin öbür adı."
 content_hash: 37cb6ce3e9de517e7f917e507f52418a8259f28d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/print.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # print
 

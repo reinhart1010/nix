@@ -3,7 +3,7 @@ layout: page
 title: common/composer (polski)
 description: "Menadżer pakietów dla projektów PHP."
 content_hash: 311d19d3006fdfc8680e84ca12d20e50f36aa3a2
-last_modified_at: 2023-10-13
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/composer.html
@@ -17,11 +17,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/composer.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># composer
+# composer
 
 Menadżer pakietów dla projektów PHP.
 Więcej informacji: <https://getcomposer.org/>.

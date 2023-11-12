@@ -3,13 +3,21 @@ layout: page
 title: common/arp-scan (português (Brasil))
 description: "Envia pacotes ARP para máquinas (identificadas por endereço IP ou por nome de domínio) em uma rede local, identificando as máquinas ativas de acordo com as respostas."
 content_hash: 3110f29f8eafb9dfe76c31d81b7f67c47b671148
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/arp-scan.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/arp-scan.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/arp-scan.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/arp-scan.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # arp-scan
 

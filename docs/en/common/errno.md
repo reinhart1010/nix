@@ -3,6 +3,12 @@ layout: page
 title: common/errno (English)
 description: "Look up errno names and descriptions."
 content_hash: cd33d426fbae30399ab1836309e2cf40b5a9b431
+last_modified_at: 2023-11-12
+related_topics:
+  - title: français version
+    url: /fr/common/errno.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # errno
 

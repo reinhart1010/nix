@@ -3,13 +3,24 @@ layout: page
 title: windows/choco-new (Deutsch)
 description: "Erstelle neue Paket-Beschreibungs-Dateien mit Chocolatey."
 content_hash: fa4476f719368ca217b950d0e8d6db3fa5677896
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/choco-new.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/windows/choco-new.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/windows/choco-new.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/choco-new.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/choco-new.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco new
 

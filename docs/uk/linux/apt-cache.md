@@ -3,7 +3,7 @@ layout: page
 title: linux/apt-cache (українська)
 description: "Інструмент запиту пакетів Debian і Ubuntu."
 content_hash: a3277f388151d8090973ff5a5291bba3256a8c78
-last_modified_at: 2023-10-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/apt-cache.html
@@ -32,11 +32,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/apt-cache.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># apt-cache
+# apt-cache
 
 Інструмент запиту пакетів Debian і Ubuntu.
 Більше інформації: <https://manpages.debian.org/latest/apt/apt-cache.8.html>.

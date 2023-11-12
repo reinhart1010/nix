@@ -3,6 +3,12 @@ layout: page
 title: common/go-test (English)
 description: "Tests Go packages (files have to end with `_test.go`)."
 content_hash: 760a9bf4807be6becd793fd51bf0d6f5a307400d
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Türkçe version
+    url: /tr/common/go-test.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # go test
 

@@ -3,12 +3,19 @@ layout: page
 title: common/bg (हिन्दी)
 description: "निलंबित किए गए कार्यों को फिर से शुरू करें (जैसे `Ctrl + Z` का उपयोग करके), और उन्हें पीछे चालू रखता है।"
 content_hash: 8ce9fcd758b1506e0bbe1ab0682235cdee5d1123
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/bg.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/bg.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/bg.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/bg.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/bg.html
@@ -16,15 +23,19 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/bg.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/bg.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/bg.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/bg.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/bg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bg
 

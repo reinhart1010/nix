@@ -3,6 +3,8 @@ layout: page
 title: linux/getcap (English)
 description: "Command to display the name and capabilities of each specified file."
 content_hash: ca26805c85cc7ce1bfd28b7f891b412022ac8a9e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # getcap
 

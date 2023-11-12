@@ -3,11 +3,12 @@ layout: page
 title: common/gh-repo (English)
 description: "Work with GitHub repositories."
 content_hash: cf3d64d92f74dd60dc0189fc239350003427cd77
-last_modified_at: 2023-10-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/common/gh-repo.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gh repo
 

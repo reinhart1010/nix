@@ -3,11 +3,10 @@ layout: page
 title: common/bindkey (English)
 description: "Add keybindings to Z-Shell."
 content_hash: d60f75fabb94c611f1f311252ac9b42c2ede92d0
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bindkey
+# bindkey
 
 Add keybindings to Z-Shell.
 More information: <https://zsh.sourceforge.io/Guide/zshguide04.html>.

@@ -3,6 +3,7 @@ layout: page
 title: common/emacs (português (Brasil))
 description: "O editor extensível, personalizável, autodocumentável, com exibição em tempo real."
 content_hash: b0034812e41074ae74d9dd11c7ed28398bdcf0bf
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/emacs.html
@@ -13,8 +14,12 @@ related_topics:
   - title: italiano version
     url: /it/common/emacs.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# emacs
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># emacs
 
 O editor extensível, personalizável, autodocumentável, com exibição em tempo real.
 Veja também `emacsclient`.

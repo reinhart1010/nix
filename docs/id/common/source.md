@@ -3,6 +3,7 @@ layout: page
 title: common/source (Indonesia)
 description: "Mengeksekusi perintah dalam file pada shell saat ini."
 content_hash: b78c55e0a9a390fb288b59222f757c4243096edd
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/source.html
@@ -13,6 +14,7 @@ related_topics:
   - title: svenska version
     url: /sv/common/source.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # source
 

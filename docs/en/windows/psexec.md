@@ -3,7 +3,8 @@ layout: page
 title: windows/psexec (English)
 description: "Execute a command-line process on a remote machine."
 content_hash: 031a06ddb571712ac93dd2a5a787d965106a0ec7
-last_modified_at: 2023-10-27
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # psexec
 

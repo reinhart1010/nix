@@ -3,6 +3,12 @@ layout: page
 title: common/aws-sts (English)
 description: "Security Token Service (STS) allows to request temporary credentials for (IAM) users or federated users."
 content_hash: eaf36988281fa7c1db0ac6cdf2e920f0eed65052
+last_modified_at: 2023-11-12
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/common/aws-sts.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws sts
 

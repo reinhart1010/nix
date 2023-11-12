@@ -3,10 +3,15 @@ layout: page
 title: linux/mkfs.btrfs (Indonesia)
 description: "Membuat sistem file btrfs."
 content_hash: f9599f24b549c4632fd011bbd8790880c5e6e42b
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/mkfs.btrfs.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/mkfs.btrfs.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mkfs.btrfs
 

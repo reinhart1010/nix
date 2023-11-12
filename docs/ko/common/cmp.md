@@ -3,15 +3,23 @@ layout: page
 title: common/cmp (한국어)
 description: "두 개의 파일 비교."
 content_hash: f7ed993c271f3e5b50c040a0abf2f158bcf87e30
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/cmp.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/cmp.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/cmp.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# cmp
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># cmp
 
 두 개의 파일 비교.
 더 많은 정보: <https://www.gnu.org/software/diffutils/manual/html_node/Invoking-cmp.html>.

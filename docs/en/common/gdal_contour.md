@@ -3,11 +3,10 @@ layout: page
 title: common/gdal_contour (English)
 description: "Create contour lines and polygons from a digital elevation model."
 content_hash: 761e082b8d4a30b142ea89940ab170f77a1f0335
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gdal_contour
+# gdal_contour
 
 Create contour lines and polygons from a digital elevation model.
 More information: <https://gdal.org/programs/gdal_contour.html>.

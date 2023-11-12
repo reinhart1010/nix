@@ -3,6 +3,7 @@ layout: page
 title: common/view (中文)
 description: "`vim` 的只读版本。"
 content_hash: ca4f34f6f60a0da58b55ef9d0fb9b03f3613c730
+last_modified_at: 2023-11-12
 related_topics:
   - title: bosanski version
     url: /bs/common/view.html
@@ -19,12 +20,13 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/view.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/view.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/common/view.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # view
 

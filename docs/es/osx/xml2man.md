@@ -3,16 +3,14 @@ layout: page
 title: osx/xml2man (español)
 description: "Compila MPGL a mdoc."
 content_hash: 3b5300c7672164a6c3fdad068a92feac3d8a088c
-last_modified_at: 2023-07-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/xml2man.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># xml2man
+# xml2man
 
 Compila MPGL a mdoc.
 Más información: <https://developer.apple.com/library/archive/documentation/DeveloperTools/Conceptual/HeaderDoc/mpgl/mpgl.html>.

@@ -3,11 +3,10 @@ layout: page
 title: linux/arpaname (English)
 description: "Provides corresponding ARPA name for IP addresses."
 content_hash: 5ee37ccb2cd43e57e96bfa3731d2652d997a1e40
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># arpaname
+# arpaname
 
 Provides corresponding ARPA name for IP addresses.
 More information: <https://manned.org/arpaname>.

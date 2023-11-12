@@ -3,10 +3,19 @@ layout: page
 title: windows/exit (English)
 description: "Quit the current CMD instance or the current batch file."
 content_hash: 386883dc5914630b96ddff7274055cfdf90df719
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/exit.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/exit.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/exit.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/exit.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/exit.html
@@ -14,6 +23,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/exit.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # exit
 

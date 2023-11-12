@@ -3,6 +3,8 @@ layout: page
 title: linux/scanimage (English)
 description: "Scan images with the Scanner Access Now Easy API."
 content_hash: ac0eb5bc51151885d79563a1bddf3f40def235e8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # scanimage
 

@@ -3,6 +3,8 @@ layout: page
 title: common/drupal (English)
 description: "Generate boilerplate code, interact with and debug Drupal projects."
 content_hash: 15035a1573070b5d932a0c73cefd7dc3a628da53
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # drupal
 

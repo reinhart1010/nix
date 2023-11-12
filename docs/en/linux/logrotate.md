@@ -3,11 +3,10 @@ layout: page
 title: linux/logrotate (English)
 description: "Rotates, compresses, and mails system logs."
 content_hash: 0ea4c48ebd2cc7298cfb9cb1abc688bf7a3a22a3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># logrotate
+# logrotate
 
 Rotates, compresses, and mails system logs.
 More information: <https://manned.org/logrotate>.

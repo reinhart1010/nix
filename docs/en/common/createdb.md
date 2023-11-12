@@ -3,11 +3,10 @@ layout: page
 title: common/createdb (English)
 description: "Create a PostgreSQL database."
 content_hash: 6acde9efaf358d2cad2aa076e5e07cd4e4d190fc
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># createdb
+# createdb
 
 Create a PostgreSQL database.
 More information: <https://www.postgresql.org/docs/current/app-createdb.html>.

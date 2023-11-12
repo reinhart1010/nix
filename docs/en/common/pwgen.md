@@ -3,10 +3,12 @@ layout: page
 title: common/pwgen (English)
 description: "Generate pronounceable passwords."
 content_hash: 56d6793ab329198db72daf89189338a5f5d3d177
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/common/pwgen.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pwgen
 

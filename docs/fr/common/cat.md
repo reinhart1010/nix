@@ -3,6 +3,7 @@ layout: page
 title: common/cat (français)
 description: "Affiche et concatène le contenu d'un ou plusieurs fichiers."
 content_hash: f4b5baa772bac97ee07c8c39c7e9e523cf78c4c6
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -25,10 +26,16 @@ related_topics:
   - title: italiano version
     url: /it/common/cat.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/cat.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/cat.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: नेपाली version
+    url: /ne/common/cat.html
+    icon: bi bi-globe
+  - title: norsk version
     url: /no/common/cat.html
     icon: bi bi-globe
   - title: português (Brasil) version
@@ -37,12 +44,16 @@ related_topics:
   - title: русский version
     url: /ru/common/cat.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/cat.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/cat.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/cat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cat
 

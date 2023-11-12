@@ -3,7 +3,7 @@ layout: page
 title: linux/distrobox-list (Nederlands)
 description: "Toon alle distrobox containers."
 content_hash: 357c15c215efd559b1daf0d216b8640138d7b8ef
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/distrobox-list.html
@@ -14,11 +14,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/linux/distrobox-list.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># distrobox-list
+# distrobox-list
 
 Toon alle distrobox containers.
 Subcommando van `distrobox`. Bekijk ook: `tldr distrobox`.

@@ -3,6 +3,7 @@ layout: page
 title: common/git-describe (Türkçe)
 description: "Bir nesneye varolan referans üzerinden insanlar tarafından okunabilecek biçimde olan bir isim ver."
 content_hash: 4827f378d7b8c21046311dbed6ab6ee289631ae5
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-describe.html
@@ -13,6 +14,7 @@ related_topics:
   - title: italiano version
     url: /it/common/git-describe.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git describe
 

@@ -3,10 +3,12 @@ layout: page
 title: common/yapf (English)
 description: "Python style guide checker."
 content_hash: 9cbc3b4f678c3b70cccc860e478d05fa3dfbfdf6
+last_modified_at: 2023-11-12
 related_topics:
   - title: Nederlands version
     url: /nl/common/yapf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # yapf
 

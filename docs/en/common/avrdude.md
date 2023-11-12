@@ -3,9 +3,16 @@ layout: page
 title: common/avrdude (English)
 description: "Driver program for Atmel AVR microcontrollers programming."
 content_hash: c7b33d2ea4a051222b8675b1f9c7fc6715aa4fb9
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/avrdude.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/avrdude.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/avrdude.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/avrdude.html
@@ -13,6 +20,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/avrdude.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # avrdude
 

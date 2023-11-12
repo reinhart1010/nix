@@ -3,7 +3,7 @@ layout: page
 title: common/ruby (français)
 description: "Interpréteur du langage de programmation Ruby."
 content_hash: 46a834498e2c7bd9c6848eaafa929daa9eb52de2
-last_modified_at: 2023-10-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ruby.html
@@ -14,11 +14,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/ruby.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ruby
+# ruby
 
 Interpréteur du langage de programmation Ruby.
 Voir aussi : `gem`, `bundler`, `rake`, `irb`.

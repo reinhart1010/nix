@@ -3,6 +3,7 @@ layout: page
 title: common/mongo (français)
 description: "Client shell pour MongoDB."
 content_hash: 819a10ab46e52f4fb09f69d9b4c1d932d9fc28b9
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/mongo.html
@@ -10,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/mongo.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mongo
 

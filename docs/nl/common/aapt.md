@@ -3,7 +3,7 @@ layout: page
 title: common/aapt (Nederlands)
 description: "Android Asset Packaging-tool."
 content_hash: 1a41c93e4801df49516e47febce7c0bce0b7aeb3
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/common/aapt.html
@@ -41,6 +41,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/aapt.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aapt
 

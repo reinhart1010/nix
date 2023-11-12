@@ -3,6 +3,8 @@ layout: page
 title: common/hakyll-init (English)
 description: "Generate a new Hakyll sample blog."
 content_hash: 3f6c9330e731b6bcf1fc0540a8fef037a261028c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # hakyll-init
 

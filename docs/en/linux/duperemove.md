@@ -3,6 +3,8 @@ layout: page
 title: linux/duperemove (English)
 description: "Finds duplicate filesystem extents and optionally schedule them for deduplication."
 content_hash: 3a4868aed68221056d4d4b019faceaf424b460f5
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # duperemove
 

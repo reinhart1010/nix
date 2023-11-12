@@ -3,15 +3,20 @@ layout: page
 title: osx/ed (русский)
 description: "Оригинальный текстовый редактор Unix."
 content_hash: e9cfab52d02e16777c880fb99a237eb504b183e5
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/ed.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/ed.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/ed.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ed
+# ed
 
 Оригинальный текстовый редактор Unix.
 Смотрите также: `awk`, `sed`.

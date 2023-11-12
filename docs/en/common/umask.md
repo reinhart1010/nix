@@ -3,6 +3,8 @@ layout: page
 title: common/umask (English)
 description: "Manage the read/write/execute permissions that are masked out (i.e. restricted) for newly created files by the user."
 content_hash: a50ea7a610a498fcb6f407acc165fd640d00b4e1
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # umask
 

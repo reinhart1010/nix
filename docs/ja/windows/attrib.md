@@ -3,13 +3,21 @@ layout: page
 title: windows/attrib (日本語)
 description: "ファイルまたはディレクトリの属性を表示または変更します。"
 content_hash: 16831f332111f27e1a8b93e23cf45bea9e2593c6
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/attrib.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/attrib.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/attrib.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/attrib.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # attrib
 

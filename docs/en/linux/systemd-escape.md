@@ -3,12 +3,10 @@ layout: page
 title: linux/systemd-escape (English)
 description: "Escape strings for usage in systemd unit names."
 content_hash: 843e8838ddeead9b5afdf933ae06fc3c60da2d26
-last_modified_at: 2023-10-12
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># systemd-escape
+# systemd-escape
 
 Escape strings for usage in systemd unit names.
 More information: <https://www.freedesktop.org/software/systemd/man/systemd-escape.html>.

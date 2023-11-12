@@ -3,6 +3,8 @@ layout: page
 title: common/git-graft (English)
 description: "Merge commits from a specific branch into another branch and delete the source branch."
 content_hash: 4cb61114511cacabc9887fba50422adbf0424bd7
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git graft
 

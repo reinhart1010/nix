@@ -3,7 +3,7 @@ layout: page
 title: linux/apache2ctl (English)
 description: "Administrate the Apache HTTP web server."
 content_hash: 7b6c10fbb63fce21ae02f6ad74288c460932a43a
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/apache2ctl.html
@@ -11,12 +11,16 @@ related_topics:
   - title: français version
     url: /fr/linux/apache2ctl.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/apache2ctl.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/apache2ctl.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apache2ctl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apache2ctl
 

@@ -3,15 +3,14 @@ layout: page
 title: linux/enum4linux (italiano)
 description: "Strumento per ottenere informazioni da Windows e Samba da un sistema remoto."
 content_hash: 936c676eb4e2fd294fb1354eb0d7b6ea0e7e04b4
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/enum4linux.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># enum4linux
+# enum4linux
 
 Strumento per ottenere informazioni da Windows e Samba da un sistema remoto.
 Maggiori informazioni: <https://labs.portcullis.co.uk/tools/enum4linux/>.

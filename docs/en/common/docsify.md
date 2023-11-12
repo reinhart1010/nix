@@ -3,11 +3,10 @@ layout: page
 title: common/docsify (English)
 description: "Initialize and serve markdown documentation."
 content_hash: a3d580dbecf09db0b053dafbd5e37a473476d173
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docsify
+# docsify
 
 Initialize and serve markdown documentation.
 More information: <https://cli.docsifyjs.org>.

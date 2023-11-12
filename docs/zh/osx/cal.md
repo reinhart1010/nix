@@ -3,7 +3,7 @@ layout: page
 title: osx/cal (中文)
 description: "打印日历信息。"
 content_hash: 890db462a259aaf60d182c6b136d91ef2dc8ed4c
-last_modified_at: 2023-05-22
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/cal.html
@@ -14,6 +14,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/osx/cal.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cal
 

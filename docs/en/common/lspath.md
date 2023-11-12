@@ -3,7 +3,8 @@ layout: page
 title: common/lspath (English)
 description: "List the contents of the `PATH` environment variable, with optional paging."
 content_hash: 564d67617055df6ed67d6540b6d4ea308f2ea626
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lspath
 

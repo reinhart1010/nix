@@ -3,10 +3,12 @@ layout: page
 title: common/gdu (português (Brasil))
 description: "Analisador de uso de disco com interface de console."
 content_hash: ad43ad72d3e6efb560f45a979f77a76951c71fb6
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/gdu.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gdu
 

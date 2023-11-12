@@ -3,7 +3,7 @@ layout: page
 title: linux/acountry (português (Brasil))
 description: "Imprime o país onde um endereço IPv4 ou nome do servidor estão localizados."
 content_hash: adc8da39fc39475931890eb4ee3b0b63ad378a02
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/acountry.html
@@ -11,6 +11,7 @@ related_topics:
   - title: español version
     url: /es/linux/acountry.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # acountry
 

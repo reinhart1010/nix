@@ -3,7 +3,7 @@ layout: page
 title: common/acyclic (中文)
 description: "通过反转一些边来使有向图无环。"
 content_hash: 0553ff0c6e2ee5c6955fd26e65e95e414313e01c
-last_modified_at: 2023-02-17
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/acyclic.html
@@ -14,11 +14,12 @@ related_topics:
   - title: français version
     url: /fr/common/acyclic.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/acyclic.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># acyclic
+# acyclic
 
 通过反转一些边来使有向图无环。
 Graphviz 过滤器：`acyclic`、`bcomps`、`comps`、`edgepaint`、`gvcolor`、`gvpack`、`mingle`、`nop`、`sccmap`、`tred` 和 `unflatten`。

@@ -3,6 +3,7 @@ layout: page
 title: common/ansible (한국어)
 description: "SSH를 통해 컴퓨터 그룹을 원격으로 관리."
 content_hash: f06f5d0fc61396e64ad659c98cf7150baf8adf5b
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible.html
@@ -16,18 +17,16 @@ related_topics:
   - title: italiano version
     url: /it/common/ansible.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/ansible.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/ansible.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ansible.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># ansible
 

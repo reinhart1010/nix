@@ -3,7 +3,8 @@ layout: page
 title: linux/systemd-cgtop (English)
 description: "Show the top control groups of the local Linux control group hierarchy, ordered by their CPU, memory, or disk I/O load."
 content_hash: 5502b6f5767e2072eb23383f7ab15314729f3a82
-last_modified_at: 2023-10-13
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # systemd-cgtop
 

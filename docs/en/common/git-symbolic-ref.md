@@ -3,6 +3,8 @@ layout: page
 title: common/git-symbolic-ref (English)
 description: "Read, change, or delete files that store references."
 content_hash: 109918b800090fe393febe890e784352dfaf2472
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git symbolic-ref
 

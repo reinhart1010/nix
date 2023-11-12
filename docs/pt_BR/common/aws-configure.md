@@ -3,10 +3,18 @@ layout: page
 title: common/aws-configure (português (Brasil))
 description: "Gerencia as configurações para o AWS CLI."
 content_hash: 9c34410758d9009c8e7076f559cc23650ae692fb
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/aws-configure.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/aws-configure.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/aws-configure.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws configure
 

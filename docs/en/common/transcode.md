@@ -3,6 +3,8 @@ layout: page
 title: common/transcode (English)
 description: "Transcode video and audio codecs, and convert between media formats."
 content_hash: 7e14bbd3c73f52f2d2d8527047726651de75303e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # transcode
 

@@ -3,6 +3,7 @@ layout: page
 title: common/alacritty (한국어)
 description: "교차 플랫폼으로, GPU-가속 터미널 에뮬레이터."
 content_hash: 89651ba385fde6dbaa38fef5b5f0a486cb460daa
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/alacritty.html
@@ -10,18 +11,31 @@ related_topics:
   - title: English version
     url: /en/common/alacritty.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/alacritty.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/alacritty.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/alacritty.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/alacritty.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/alacritty.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/alacritty.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/common/alacritty.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/alacritty.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # alacritty
 

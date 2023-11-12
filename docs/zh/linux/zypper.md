@@ -3,7 +3,11 @@ layout: page
 title: linux/zypper (中文)
 description: "SUSE & openSUSE 的软件包管理工具。"
 content_hash: 87c8932e4f8da68d15d3230c9be02d5263e3479e
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/zypper.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/zypper.html
     icon: bi bi-globe
@@ -13,18 +17,19 @@ related_topics:
   - title: español version
     url: /es/linux/zypper.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/zypper.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/linux/zypper.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/zypper.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/zypper.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># zypper
 

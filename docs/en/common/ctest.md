@@ -3,6 +3,7 @@ layout: page
 title: common/ctest (English)
 description: "CMake test driver program."
 content_hash: 2b9c4b33adea0da75535ca50f579bc55f1267f46
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/ctest.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/ctest.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ctest
 

@@ -3,7 +3,7 @@ layout: page
 title: common/dot (English)
 description: "Render an image of a `linear directed` network graph from a `graphviz` file."
 content_hash: 097949fef76ba42cc6a97a15bf511b5d866989ea
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/dot.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/dot.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dot
 

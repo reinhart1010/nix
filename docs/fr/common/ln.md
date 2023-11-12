@@ -3,9 +3,13 @@ layout: page
 title: common/ln (français)
 description: "Crée des liens vers des fichiers et répertoires."
 content_hash: 39a4fb3c5ef3a4c97f8868fbaccdb9ccfe6e375e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ln.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/ln.html
     icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/common/ln.html
@@ -13,9 +17,16 @@ related_topics:
   - title: italiano version
     url: /it/common/ln.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/ln.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/ln.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/ln.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ln
 

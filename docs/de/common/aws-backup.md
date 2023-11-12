@@ -3,7 +3,7 @@ layout: page
 title: common/aws-backup (Deutsch)
 description: "Einheitliches Backup-Service zum Schutz der Amazon Web Services und der damit verbundenen Daten."
 content_hash: 43cdf85f267b453c10972bfea9d107441da48b28
-last_modified_at: 2023-10-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/aws-backup.html
@@ -11,11 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/aws-backup.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws backup
+# aws backup
 
 Einheitliches Backup-Service zum Schutz der Amazon Web Services und der damit verbundenen Daten.
 Weitere Informationen: <https://docs.aws.amazon.com/cli/latest/reference/backup/index.html>.

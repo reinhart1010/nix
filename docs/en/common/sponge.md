@@ -3,6 +3,8 @@ layout: page
 title: common/sponge (English)
 description: "Soak up the input before writing the output file."
 content_hash: 08e9c85428768f12d89d0f207ea9bde4bfef90bb
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sponge
 

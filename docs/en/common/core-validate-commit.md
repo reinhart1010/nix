@@ -3,11 +3,10 @@ layout: page
 title: common/core-validate-commit (English)
 description: "Validate commit messages for Node.js core."
 content_hash: f9cc8ba1e8441796be4fd2f30a1132727ac2f3f4
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># core-validate-commit
+# core-validate-commit
 
 Validate commit messages for Node.js core.
 More information: <https://github.com/nodejs/core-validate-commit>.

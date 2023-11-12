@@ -3,11 +3,10 @@ layout: page
 title: common/pyinfra (English)
 description: "Automates infrastructure at a large scale."
 content_hash: 7255782118e2fff1acafd63ac6c2492866d474d2
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pyinfra
+# pyinfra
 
 Automates infrastructure at a large scale.
 More information: <https://docs.pyinfra.com>.

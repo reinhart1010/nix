@@ -3,10 +3,15 @@ layout: page
 title: common/tig (Deutsch)
 description: "Eine interaktive Kommandozeilenoberfläche für Git."
 content_hash: e5afb72e0c62a60b0dfbf81bcc5d294ec6b120a3
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/tig.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/tig.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tig
 

@@ -3,10 +3,12 @@ layout: page
 title: common/scc (English)
 description: "Tool written in Go that counts lines of code."
 content_hash: 7d2386c8a13d6bd976ec58b8029d938ddf9e11e4
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/scc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # scc
 

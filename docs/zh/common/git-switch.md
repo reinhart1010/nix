@@ -3,6 +3,7 @@ layout: page
 title: common/git-switch (中文)
 description: "切换 Git 分支。要求 Git 版本在 2.23 以上。"
 content_hash: ede82ebea36344ec707f43919c77df6d6d075545
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-switch.html
@@ -19,6 +20,10 @@ related_topics:
   - title: italiano version
     url: /it/common/git-switch.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-switch.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git switch
 

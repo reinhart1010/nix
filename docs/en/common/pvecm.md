@@ -3,6 +3,8 @@ layout: page
 title: common/pvecm (English)
 description: "Proxmox VE Cluster Manager."
 content_hash: 631f00b6a27a2871075e579588070f21a2af31d8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pvecm
 

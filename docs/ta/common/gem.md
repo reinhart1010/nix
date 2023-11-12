@@ -3,7 +3,7 @@ layout: page
 title: common/gem (தமிழ்)
 description: "ரூபி நிரலாக்க மொழிக்கான தொகுப்பு மேலாளருடன் தொடர்பு கொள்ளுங்கள்."
 content_hash: e4df69e1db82ccdd668260a5d884b70e33e8ecf2
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/gem.html
@@ -11,6 +11,7 @@ related_topics:
   - title: français version
     url: /fr/common/gem.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gem
 

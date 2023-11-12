@@ -3,6 +3,7 @@ layout: page
 title: common/git-clean (한국어)
 description: "워킹 트리에서 추적되지 않는 파일을 제거합니다."
 content_hash: 5a3e2a1d731648768fb1b5a78c55f5bf968bf132
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-clean.html
@@ -22,11 +23,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-clean.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git clean
+# git clean
 
 워킹 트리에서 추적되지 않는 파일을 제거합니다.
 더 많은 정보: <https://git-scm.com/docs/git-clean>.

@@ -3,13 +3,16 @@ layout: page
 title: windows/choco-install (Indonesia)
 description: "Instal satu paket atau lebih dengan Chocolatey."
 content_hash: 8bbbc3e6fbb6a742ea8dac635052a80116762e3d
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-install.html
     icon: bi bi-globe
   - title: English version
     url: /en/windows/choco-install.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/choco-install.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/windows/choco-install.html
@@ -23,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/choco-install.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco install
 

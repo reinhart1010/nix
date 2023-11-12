@@ -3,6 +3,7 @@ layout: page
 title: linux/a2enconf (Türkçe)
 description: "Debian tabanlı işletim sistemlerinde Apache konfigürasyon dosyasını etkinleştir."
 content_hash: 69e25c2bbd1623592cdfb829e1cc2782a6a0d970
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/a2enconf.html
@@ -12,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: English version
     url: /en/linux/a2enconf.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/a2enconf.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/a2enconf.html
@@ -28,11 +32,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/a2enconf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># a2enconf
+# a2enconf
 
 Debian tabanlı işletim sistemlerinde Apache konfigürasyon dosyasını etkinleştir.
 Daha fazla bilgi için: <https://manpages.debian.org/latest/apache2/a2enconf.8.en.html>.

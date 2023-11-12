@@ -3,6 +3,7 @@ layout: page
 title: osx/afinfo (English)
 description: "Audio file metadata parser for OS X."
 content_hash: e30c55dece598ac6fd09c081976b61a06c5ae8d0
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/osx/afinfo.html
@@ -10,9 +11,13 @@ related_topics:
   - title: italiano version
     url: /it/osx/afinfo.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/afinfo.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/afinfo.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # afinfo
 

@@ -3,6 +3,8 @@ layout: page
 title: common/git-maintenance (English)
 description: "Run tasks to optimize Git repository data."
 content_hash: 5a5a5b7f1d0744275db6f1e74aa121503ba69ef6
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git-maintenance
 

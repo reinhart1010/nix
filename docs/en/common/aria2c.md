@@ -3,8 +3,11 @@ layout: page
 title: common/aria2c (English)
 description: "Fast download utility."
 content_hash: 276a1ea57c307903984b7a011ff532d3ce1bc920
-last_modified_at: 2022-12-03
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/common/aria2c.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/aria2c.html
     icon: bi bi-globe
@@ -20,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/aria2c.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aria2c
 

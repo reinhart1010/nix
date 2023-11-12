@@ -3,12 +3,19 @@ layout: page
 title: common/adb-reverse (français)
 description: "Android Debug Bridge Reverse: Transfère des connections réseaux depuis une instance d'émulateur Android ou un appareil Android."
 content_hash: 11a88b16ec0d8ad3b36cb9f0f2919b84c8e72391
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/adb-reverse.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/adb-reverse.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/adb-reverse.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/adb-reverse.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/adb-reverse.html
@@ -19,11 +26,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/adb-reverse.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># adb reverse
+# adb reverse
 
 Android Debug Bridge Reverse: Transfère des connections réseaux depuis une instance d'émulateur Android ou un appareil Android.
 Plus d'informations : <https://developer.android.com/studio/command-line/adb>.

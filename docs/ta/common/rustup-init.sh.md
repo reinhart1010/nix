@@ -3,16 +3,14 @@ layout: page
 title: common/rustup-init.sh (தமிழ்)
 description: "`rustup` மற்றும் ரஸ்ட் கருவித்தொகுப்பை நிறுவுவதற்கான ஸ்கிரிப்ட்."
 content_hash: a6ace6abe9edb9d62407c4068f89e98a0aa18ac5
-last_modified_at: 2023-06-24
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/rustup-init.sh.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rustup-init.sh
+# rustup-init.sh
 
 `rustup` மற்றும் ரஸ்ட் கருவித்தொகுப்பை நிறுவுவதற்கான ஸ்கிரிப்ட்.
 மேலும் விவரத்திற்கு: <https://forge.rust-lang.org/infra/other-installation-methods.html#rustup>.

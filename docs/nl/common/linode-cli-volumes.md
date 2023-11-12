@@ -3,16 +3,14 @@ layout: page
 title: common/linode-cli-volumes (Nederlands)
 description: "Beheer Linode Volumes."
 content_hash: 0844174da65d2b6871cff222d2247ea2827c4417
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/linode-cli-volumes.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># linode-cli volumes
+# linode-cli volumes
 
 Beheer Linode Volumes.
 Bekijk ook: `linode-cli`.

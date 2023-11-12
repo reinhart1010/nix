@@ -3,12 +3,10 @@ layout: page
 title: common/lsyncd (English)
 description: "Watch files and directories and run `rsync` when they change."
 content_hash: ebd280017d608939418dd984036183bf23cb9fe4
-last_modified_at: 2023-10-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># lsyncd
+# lsyncd
 
 Watch files and directories and run `rsync` when they change.
 It is often used to keep two directories on separate systems in sync, ensuring that changes made in one directory are immediately mirrored to the other.

@@ -3,7 +3,7 @@ layout: page
 title: osx/gstty (polski)
 description: "To polecenie jest aliasem `-p linux stty`."
 content_hash: 876a19230ba106ca40c69a2da41ee89e05a0c40a
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gstty.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gstty.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gstty
 

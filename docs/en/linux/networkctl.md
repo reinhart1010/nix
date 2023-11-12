@@ -3,12 +3,14 @@ layout: page
 title: linux/networkctl (English)
 description: "Query the status of network links."
 content_hash: d9f7b088736aba6383256bb5a30eabfc364376df
-last_modified_at: 2023-04-23
+last_modified_at: 2023-11-12
+related_topics:
+  - title: polski version
+    url: /pl/linux/networkctl.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># networkctl
+# networkctl
 
 Query the status of network links.
 Manage the network configuration using `systemd-networkd`.

@@ -3,12 +3,10 @@ layout: page
 title: linux/nm-online (English)
 description: "Ask NetworkManager whether the network is connected."
 content_hash: 0a83ecc01a0fcff00e841b37122543a7fcdc058f
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># nm-online
+# nm-online
 
 Ask NetworkManager whether the network is connected.
 More information: <https://networkmanager.dev/docs/api/latest/nm-online.html>.

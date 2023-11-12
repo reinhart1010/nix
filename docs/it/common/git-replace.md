@@ -3,10 +3,15 @@ layout: page
 title: common/git-replace (italiano)
 description: "Crea, elenca, ed elimina riferimenti ad oggetti sostituiti."
 content_hash: a0f7b65c314cc0035e36a43c523c7e915240b210
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-replace.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-replace.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git replace
 

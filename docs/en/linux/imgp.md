@@ -3,6 +3,8 @@ layout: page
 title: linux/imgp (English)
 description: "Command-line image resizer and rotator for JPEG and PNG images."
 content_hash: 69c26ca365a77f299245bf7b1efb84c7e44b6f0d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # imgp
 

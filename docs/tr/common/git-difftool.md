@@ -3,6 +3,7 @@ layout: page
 title: common/git-difftool (Türkçe)
 description: "Harici diff araçları kullanarak dosya değişimlerini göster. `git diff` ile aynı ayar ve argümanları destekler."
 content_hash: a6ee37909d9ce97b18acdb6a16cccaee839a91a6
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-difftool.html
@@ -13,6 +14,7 @@ related_topics:
   - title: italiano version
     url: /it/common/git-difftool.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git difftool
 

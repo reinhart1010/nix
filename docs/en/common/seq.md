@@ -3,7 +3,8 @@ layout: page
 title: common/seq (English)
 description: "Output a sequence of numbers to `stdout`."
 content_hash: dd3f62cff22f29c55dcd16785285d0dce00fb56b
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # seq
 

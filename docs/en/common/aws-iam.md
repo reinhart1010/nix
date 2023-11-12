@@ -3,10 +3,21 @@ layout: page
 title: common/aws-iam (English)
 description: "CLI for AWS IAM."
 content_hash: 23d891837d865165e42e1ec8d943f49484172022
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-iam.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/aws-iam.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/aws-iam.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/aws-iam.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws iam
 

@@ -3,6 +3,12 @@ layout: page
 title: linux/smbclient (English)
 description: "FTP-like client to access SMB/CIFS resources on servers."
 content_hash: dac6d02ea65f1db494e7f17a1cfe65228f75b356
+last_modified_at: 2023-11-12
+related_topics:
+  - title: italiano version
+    url: /it/linux/smbclient.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # smbclient
 

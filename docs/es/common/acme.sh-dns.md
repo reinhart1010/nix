@@ -3,19 +3,23 @@ layout: page
 title: common/acme.sh-dns (español)
 description: "Utiliza un desafío DNS-01 para emitir un certificado TLS."
 content_hash: 178fbdb69b39c22fe23732f80f70cab0946e7522
-last_modified_at: 2022-12-25
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/acme.sh-dns.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/acme.sh-dns.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/acme.sh-dns.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/acme.sh-dns.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># acme.sh --dns
+# acme.sh --dns
 
 Utiliza un desafío DNS-01 para emitir un certificado TLS.
 Más información: <https://github.com/acmesh-official/acme.sh/wiki>.

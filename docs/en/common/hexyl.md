@@ -3,6 +3,8 @@ layout: page
 title: common/hexyl (English)
 description: "A simple hex viewer for the terminal. Uses colored output to distinguish different categories of bytes."
 content_hash: a49dc3db8ced388bdfc26227a9a7b957ad6bc3a3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # hexyl
 

@@ -3,7 +3,7 @@ layout: page
 title: common/git-bisect (தமிழ்)
 description: "ஒரு பிழையை அறிமுகப்படுத்திய உறுதிப்பாட்டைக் கண்டுபிடிக்க பைனரி தேடலைப் பயன்படுத்தவும்."
 content_hash: d3fc9a48372b6778bb8bb48d1ea833348dc23e60
-last_modified_at: 2022-12-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-bisect.html
@@ -23,17 +23,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-bisect.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-bisect.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git bisect
+# git bisect
 
 ஒரு பிழையை அறிமுகப்படுத்திய உறுதிப்பாட்டைக் கண்டுபிடிக்க பைனரி தேடலைப் பயன்படுத்தவும்.
 தவறான உறுதிப்பாட்டை படிப்படியாகக் குறைக்க கிட் தானாகவே கமிட் வரைபடத்தில் முன்னும் பின்னுமாக குதிக்கிறது.

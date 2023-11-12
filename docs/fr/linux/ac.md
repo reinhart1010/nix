@@ -3,6 +3,7 @@ layout: page
 title: linux/ac (français)
 description: "Affiche les statistiques concernant la durée de connexion des utilisateurs."
 content_hash: 848cef8332eb324626aebfb0eb7868aa03a8122b
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/ac.html
@@ -13,14 +14,24 @@ related_topics:
   - title: English version
     url: /en/linux/ac.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/linux/ac.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/ac.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/ac.html
+    icon: bi bi-globe
+  - title: ไทย version
+    url: /th/linux/ac.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/ac.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ac
+# ac
 
 Affiche les statistiques concernant la durée de connexion des utilisateurs.
 Plus d'informations : <https://www.gnu.org/software/acct/manual/accounting.html#ac>.

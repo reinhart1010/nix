@@ -3,6 +3,8 @@ layout: page
 title: common/hsd-cli (English)
 description: "The command-line REST tool for the Handshake blockchain."
 content_hash: 59163078060f8416c25924dc7288845acdcd5ab9
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # hsd-cli
 

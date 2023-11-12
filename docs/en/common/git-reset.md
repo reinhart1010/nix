@@ -3,7 +3,7 @@ layout: page
 title: common/git-reset (English)
 description: "Undo commits or unstage changes, by resetting the current Git HEAD to the specified state."
 content_hash: 9e42f731cbd81351968ca7cb8fde2ebe8c155b24
-last_modified_at: 2022-12-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/git-reset.html
@@ -14,9 +14,13 @@ related_topics:
   - title: italiano version
     url: /it/common/git-reset.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-reset.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-reset.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git reset
 

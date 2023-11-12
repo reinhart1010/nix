@@ -3,10 +3,15 @@ layout: page
 title: linux/nmtui (italiano)
 description: "Interfaccia utente solo testo per NetworkManager."
 content_hash: 4bd41b0144b10a9703c7cc556ca967445803cf8b
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/nmtui.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/linux/nmtui.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nmtui
 

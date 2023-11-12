@@ -3,13 +3,24 @@ layout: page
 title: windows/choco-search (English)
 description: "Search for a local or remote package with Chocolatey."
 content_hash: 29d8d0009b270a4c8d5f650cc1249e5607c01ac3
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-search.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/windows/choco-search.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/windows/choco-search.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/choco-search.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/choco-search.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco search
 

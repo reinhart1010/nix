@@ -3,12 +3,17 @@ layout: page
 title: common/ksh (français)
 description: "Korn SHell, un interpréteur de ligne de commande compatible avec Bash."
 content_hash: cfde920e42162b7e50a739073137f0c4e6e92a0a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ksh.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# ksh
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># ksh
 
 Korn SHell, un interpréteur de ligne de commande compatible avec Bash.
 Voir aussi `histexpand` pour l'expansion de l'historique.

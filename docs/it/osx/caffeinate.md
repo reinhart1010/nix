@@ -3,6 +3,7 @@ layout: page
 title: osx/caffeinate (italiano)
 description: "Impedisci al mac di sospendersi."
 content_hash: c3ac20e36b328d64d87690e890302cfdd7d33393
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/osx/caffeinate.html
@@ -10,14 +11,27 @@ related_topics:
   - title: English version
     url: /en/osx/caffeinate.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/caffeinate.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/osx/caffeinate.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/osx/caffeinate.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/caffeinate.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/caffeinate.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# caffeinate
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># caffeinate
 
 Impedisci al mac di sospendersi.
 Maggiori informazioni: <https://ss64.com/osx/caffeinate.html>.

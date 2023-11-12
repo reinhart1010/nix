@@ -3,7 +3,8 @@ layout: page
 title: common/git-diff-tree (English)
 description: "Compares the content and mode of blobs found via two tree objects."
 content_hash: 6356e35d903344d6cbc2670ea5ac1faeec85e6cc
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git diff-tree
 

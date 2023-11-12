@@ -3,11 +3,12 @@ layout: page
 title: linux/pw-cat (English)
 description: "Play and record audio files through pipewire."
 content_hash: 7c8d7d09e962325b6fde819aaa6c3ef46f9f1b95
-last_modified_at: 2023-10-24
+last_modified_at: 2023-11-12
 related_topics:
   - title: Türkçe version
     url: /tr/linux/pw-cat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pw-cat
 

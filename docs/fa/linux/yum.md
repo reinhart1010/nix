@@ -3,10 +3,24 @@ layout: page
 title: linux/yum (فارسی)
 description: "ابزار مدیریت بسته برای ردهت، فدورا و سنت اواس(برای نسخه های قدیمی)."
 content_hash: d6f1ab1e2cdb6f4ecb76de0344ec2277ff2c996b
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/yum.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/yum.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/linux/yum.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/yum.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/yum.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # yum
 

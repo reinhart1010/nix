@@ -3,6 +3,8 @@ layout: page
 title: linux/iostat (English)
 description: "Report statistics for devices and partitions."
 content_hash: 3cdb68fb08b6628838bfdf3c37f0801e59ec469b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # iostat
 

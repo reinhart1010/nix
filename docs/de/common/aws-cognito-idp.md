@@ -3,7 +3,7 @@ layout: page
 title: common/aws-cognito-idp (Deutsch)
 description: "Verwalten des Amazon Cognito-Benutzerpools, seiner Benutzer und Gruppen mit der CLI."
 content_hash: 3091c5c63170e2a3bec66a3add067cf2cffc4127
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/aws-cognito-idp.html
@@ -11,6 +11,7 @@ related_topics:
   - title: español version
     url: /es/common/aws-cognito-idp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws cognito-idp
 

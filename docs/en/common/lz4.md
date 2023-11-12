@@ -3,7 +3,8 @@ layout: page
 title: common/lz4 (English)
 description: "Compress or decompress .lz4 files."
 content_hash: 58d816fa8857cf758ccf4a97b118a34edf0c7b5b
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lz4
 

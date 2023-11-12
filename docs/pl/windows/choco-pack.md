@@ -3,6 +3,7 @@ layout: page
 title: windows/choco-pack (polski)
 description: "Pakowanie specyfikacji NuGet do pliku nupkg."
 content_hash: 04e24feea54dfcb29518f83f9ae73bbda2c1bbc7
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-pack.html
@@ -16,11 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/choco-pack.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># choco pack
+# choco pack
 
 Pakowanie specyfikacji NuGet do pliku nupkg.
 Więcej informacji: <https://chocolatey.org/docs/commands-pack>.

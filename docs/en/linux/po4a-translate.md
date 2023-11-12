@@ -3,6 +3,8 @@ layout: page
 title: linux/po4a-translate (English)
 description: "Convert a PO file back to documentation format."
 content_hash: f185ef901dd2104f4967d98aab5ae3bbb04741f3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # po4a-translate
 

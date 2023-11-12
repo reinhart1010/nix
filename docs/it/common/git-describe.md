@@ -3,6 +3,7 @@ layout: page
 title: common/git-describe (italiano)
 description: "Rendi il nome di un oggetto Git più leggibile usando i riferimenti disponibili."
 content_hash: 549a3a9ef18950b74eca25e9307d4a13880944ca
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-describe.html
@@ -10,6 +11,10 @@ related_topics:
   - title: français version
     url: /fr/common/git-describe.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-describe.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git describe
 

@@ -3,7 +3,7 @@ layout: page
 title: common/age-keygen (Nederlands)
 description: "Genereer `age` sleutelparen."
 content_hash: 38b3de045f424227f7fa73ecd96ec2b18c3e9b9d
-last_modified_at: 2023-10-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/age-keygen.html
@@ -11,11 +11,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/age-keygen.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># age-keygen
+# age-keygen
 
 Genereer `age` sleutelparen.
 Bekijk `age` hoe je bestanden kan versleutelen/decoderen.

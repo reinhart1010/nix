@@ -3,7 +3,7 @@ layout: page
 title: common/false (English)
 description: "Returns a non-zero exit code."
 content_hash: ab61e6818e72bed459a97773f836fa9482afba1c
-last_modified_at: 2023-02-02
+last_modified_at: 2023-11-12
 related_topics:
   - title: bosanski version
     url: /bs/common/false.html
@@ -26,6 +26,7 @@ related_topics:
   - title: svenska version
     url: /sv/common/false.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # false
 

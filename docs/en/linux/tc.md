@@ -3,7 +3,8 @@ layout: page
 title: linux/tc (English)
 description: "Show/manipulate traffic control settings."
 content_hash: c1098fcd13f356d4b3bafe05017b13462d368fa3
-last_modified_at: 2023-06-13
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tc
 

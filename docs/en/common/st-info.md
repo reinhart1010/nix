@@ -3,6 +3,8 @@ layout: page
 title: common/st-info (English)
 description: "Provides information about connected STLink and STM32 devices."
 content_hash: 718ef924dd1bf868dfc8d3d915a6f263aac21950
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # st-info
 

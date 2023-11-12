@@ -3,6 +3,7 @@ layout: page
 title: common/git-rebase (Türkçe)
 description: "Bir daldan başka bir dalın üstüne commit'leri tekrar temeller."
 content_hash: 34741da37298d42d9544a120b2ecb7d9e9b99a30
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-rebase.html
@@ -19,9 +20,13 @@ related_topics:
   - title: italiano version
     url: /it/common/git-rebase.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-rebase.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/git-rebase.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git rebase
 

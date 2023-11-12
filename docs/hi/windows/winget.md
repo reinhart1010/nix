@@ -3,7 +3,7 @@ layout: page
 title: windows/winget (हिन्दी)
 description: "विंडोज़ पैकेज प्रबंधक।"
 content_hash: 576f6a482f43967e112aabb40568e8f40db241ab
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/winget.html
@@ -26,6 +26,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/winget.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # winget
 

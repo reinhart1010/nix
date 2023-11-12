@@ -3,6 +3,8 @@ layout: page
 title: common/hg-add (English)
 description: "Adds specified files to the staging area for the next commit in Mercurial."
 content_hash: 142887456229c2807aa7f36e85f39110820cbe23
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # hg add
 

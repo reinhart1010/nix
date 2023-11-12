@@ -3,6 +3,8 @@ layout: page
 title: common/salt-call (English)
 description: "Invoke salt locally on a salt minion."
 content_hash: ffc72ebf19270d03646516603bad8e081e60d8ac
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # salt-call
 

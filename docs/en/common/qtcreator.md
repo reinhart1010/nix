@@ -3,6 +3,8 @@ layout: page
 title: common/qtcreator (English)
 description: "Cross-platform IDE for Qt applications."
 content_hash: a20458684f27b74bdf05ef5eb85d21643b78a868
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # qtcreator
 

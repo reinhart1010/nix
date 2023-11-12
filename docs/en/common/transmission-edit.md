@@ -3,11 +3,10 @@ layout: page
 title: common/transmission-edit (English)
 description: "Modify announce URLs from torrent files."
 content_hash: 8e154d3add867045c630c1d650f56f0a94b0ac60
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># transmission-edit
+# transmission-edit
 
 Modify announce URLs from torrent files.
 See also: `transmission`.

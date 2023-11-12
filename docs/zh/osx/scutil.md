@@ -3,6 +3,7 @@ layout: page
 title: osx/scutil (中文)
 description: "管理系统配置参数。"
 content_hash: 4fbb112baf6424149171c0111444dcee76b12f38
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/scutil.html
@@ -10,6 +11,7 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/osx/scutil.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # scutil
 

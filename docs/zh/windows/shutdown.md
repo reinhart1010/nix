@@ -3,6 +3,7 @@ layout: page
 title: windows/shutdown (中文)
 description: "用于关闭，重新启动或注销计算机的工具。"
 content_hash: 2acde6ce906f7e0ba857b69ef356ad081669fd4c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/shutdown.html
@@ -10,6 +11,7 @@ related_topics:
   - title: Nederlands version
     url: /nl/windows/shutdown.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # shutdown
 

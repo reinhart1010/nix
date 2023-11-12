@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman-sync (français)
 description: "Synchronise les paquets."
 content_hash: 9469551d3d92b88017cd95f8ad01d11a85eae2e0
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-sync.html
@@ -14,12 +14,16 @@ related_topics:
   - title: Indonesia version
     url: /id/linux/pacman-sync.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/pacman-sync.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/pacman-sync.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/pacman-sync.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pacman --sync
 

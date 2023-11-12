@@ -3,11 +3,23 @@ layout: page
 title: common/rubocop (English)
 description: "Lint Ruby files."
 content_hash: a10f768d0c96cfe05b963693266fa734401df2f8
+last_modified_at: 2023-11-12
+related_topics:
+  - title: español version
+    url: /es/common/rubocop.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/rubocop.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/rubocop.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/rubocop.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rubocop
+# rubocop
 
 Lint Ruby files.
 More information: <https://docs.rubocop.org/rubocop/usage/basic_usage.html>.

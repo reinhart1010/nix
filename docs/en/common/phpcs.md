@@ -3,6 +3,8 @@ layout: page
 title: common/phpcs (English)
 description: "Tokenize PHP, JavaScript and CSS files to detect violations of a defined set of coding standards."
 content_hash: 39cf03509edd65aee15c288b704b1532c7019700
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # phpcs
 

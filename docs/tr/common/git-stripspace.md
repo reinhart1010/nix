@@ -3,10 +3,12 @@ layout: page
 title: common/git-stripspace (Türkçe)
 description: "Gereksiz boşlukları sil."
 content_hash: fdfcc61502b11f2de56916c10a51db7f2f157075
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-stripspace.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git stripspace
 

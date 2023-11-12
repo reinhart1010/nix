@@ -3,7 +3,7 @@ layout: page
 title: android/getprop (українська)
 description: "Виводить інформацію про системні властивості Android."
 content_hash: ca3b211fe017953f07f78cd56cd9fd556d237360
-last_modified_at: 2023-10-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/getprop.html
@@ -32,6 +32,9 @@ related_topics:
   - title: italiano version
     url: /it/android/getprop.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/android/getprop.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/android/getprop.html
     icon: bi bi-globe
@@ -56,11 +59,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/getprop.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># getprop
+# getprop
 
 Виводить інформацію про системні властивості Android.
 Більше інформації: <https://manned.org/getprop>.

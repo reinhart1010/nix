@@ -3,16 +3,14 @@ layout: page
 title: osx/tart (español)
 description: "Crea, ejecuta y gestiona máquinas virtuales (VM) macOS y Linux en Apple Silicon."
 content_hash: 0f9f45a3fee0a8206bd54f6a42d2393e1fc7c8b4
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/tart.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># tart
+# tart
 
 Crea, ejecuta y gestiona máquinas virtuales (VM) macOS y Linux en Apple Silicon.
 Más información: <https://github.com/cirruslabs/tart>.

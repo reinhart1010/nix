@@ -3,6 +3,7 @@ layout: page
 title: common/git-log (Türkçe)
 description: "Commit geçmişini göster."
 content_hash: 29df91fcd665118c06ca8972fecf0959f719b6d3
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-log.html
@@ -19,9 +20,13 @@ related_topics:
   - title: italiano version
     url: /it/common/git-log.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-log.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/git-log.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git log
 

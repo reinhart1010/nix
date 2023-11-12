@@ -3,10 +3,21 @@ layout: page
 title: common/kill (English)
 description: "Sends a signal to a process, usually related to stopping the process."
 content_hash: dc2b1bb9a9ca34e432fed1d3861630e91efcb56d
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/common/kill.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/kill.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/kill.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/kill.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # kill
 

@@ -3,6 +3,8 @@ layout: page
 title: common/gnucash-cli (English)
 description: "A command-line version of GnuCash."
 content_hash: c54a4faa4414336f2df880668abf1483c17bb039
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gnucash-cli
 

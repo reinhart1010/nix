@@ -3,12 +3,10 @@ layout: page
 title: common/mysqlcheck (English)
 description: "Check and repair MySQL tables."
 content_hash: dd7b07f52e0568fc7f836e8fd90cde605335acd8
-last_modified_at: 2023-05-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mysqlcheck
+# mysqlcheck
 
 Check and repair MySQL tables.
 More information: <https://dev.mysql.com/doc/refman/8.0/en/mysqlcheck.html>.

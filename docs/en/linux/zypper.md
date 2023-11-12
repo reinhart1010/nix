@@ -3,7 +3,7 @@ layout: page
 title: linux/zypper (English)
 description: "SUSE & openSUSE package management utility."
 content_hash: 924f49b6b4b8279c61e1ef8b9fa3c574802179f1
-last_modified_at: 2022-12-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/zypper.html
@@ -26,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/zypper.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # zypper
 

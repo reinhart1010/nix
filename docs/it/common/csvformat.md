@@ -3,6 +3,7 @@ layout: page
 title: common/csvformat (italiano)
 description: "Converti un file CSV in un formato di output personalizzato."
 content_hash: 1d6780541bc357e0075b7f89e5be508bfbb232bd
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/csvformat.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/csvformat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # csvformat
 

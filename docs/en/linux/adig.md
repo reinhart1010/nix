@@ -3,7 +3,7 @@ layout: page
 title: linux/adig (English)
 description: "Print information received from Domain Name System (DNS) servers."
 content_hash: 8bc00b16ddd1acf4f6a1970e18dd58fab1d48fe9
-last_modified_at: 2023-10-23
+last_modified_at: 2023-11-12
 related_topics:
   - title: polski version
     url: /pl/linux/adig.html
@@ -11,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/adig.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # adig
 

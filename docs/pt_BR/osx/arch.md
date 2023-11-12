@@ -3,6 +3,7 @@ layout: page
 title: osx/arch (português (Brasil))
 description: "Exibe o nome da arquitetura do sistema ou executa um comando em uma arquitetura diferente."
 content_hash: 76dd1eed421568a6e06fbc47c3ee01dea64ad758
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/arch.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/arch.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.

@@ -3,7 +3,8 @@ layout: page
 title: common/magento (English)
 description: "Manage the Magento PHP framework."
 content_hash: 759629bf285784f1f3b322c68c3c27d2440bf0c4
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # magento
 

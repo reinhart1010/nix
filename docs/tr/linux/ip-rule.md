@@ -3,10 +3,12 @@ layout: page
 title: linux/ip-rule (Türkçe)
 description: "IP yönlendirme politikası veri tabanı yönetimi."
 content_hash: f15a479a14b6d7aaad11e236be21a858629f6c30
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/ip-rule.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ip rule
 

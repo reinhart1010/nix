@@ -3,6 +3,8 @@ layout: page
 title: common/guacd (English)
 description: "Apache Guacamole proxy daemon."
 content_hash: 034e7e2f25676fd23760ab690fb8b2569e3337b5
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # guacd
 

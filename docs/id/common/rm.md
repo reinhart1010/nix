@@ -3,7 +3,11 @@ layout: page
 title: common/rm (Indonesia)
 description: "Menghapus berkas atau direktori."
 content_hash: fa3f7110a410cb2e7616586274e4c451df14f5a0
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/rm.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/rm.html
     icon: bi bi-globe
@@ -19,15 +23,22 @@ related_topics:
   - title: polski version
     url: /pl/common/rm.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/rm.html
+    icon: bi bi-globe
   - title: svenska version
     url: /sv/common/rm.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/rm.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/rm.html
+    icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/rm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rm
 

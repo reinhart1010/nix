@@ -3,12 +3,10 @@ layout: page
 title: common/gst-inspect-1.0 (English)
 description: "Print information on GStreamer plugins."
 content_hash: a63d7e73c3da901ae2ae0d3645c46e1c2484dff2
-last_modified_at: 2023-07-27
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gst-inspect-1.0
+# gst-inspect-1.0
 
 Print information on GStreamer plugins.
 More information: <https://gstreamer.freedesktop.org/documentation/tools/gst-inspect.html?gi-language=c>.

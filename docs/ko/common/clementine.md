@@ -3,6 +3,7 @@ layout: page
 title: common/clementine (한국어)
 description: "현대적인 음악 플레이어이자 라이브러리 생성자."
 content_hash: 8f19ba2507082db40fd5b9195f4fc8a300dd5cd3
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/clementine.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/clementine.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # clementine
 

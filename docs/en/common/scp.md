@@ -3,10 +3,15 @@ layout: page
 title: common/scp (English)
 description: "Secure copy."
 content_hash: c058113c28bf616b1f7d9cde98d658b2c2b795bd
+last_modified_at: 2023-11-12
 related_topics:
   - title: हिन्दी version
     url: /hi/common/scp.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/scp.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # scp
 

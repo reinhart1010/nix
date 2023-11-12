@@ -3,11 +3,12 @@ layout: page
 title: windows/invoke-webrequest (English)
 description: "Performs a HTTP/HTTPS request to the Web."
 content_hash: c3d24b605eb8a81c7d8d0f09bc9fd2cb02dee081
-last_modified_at: 2023-06-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: Indonesia version
     url: /id/windows/invoke-webrequest.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # Invoke-WebRequest
 

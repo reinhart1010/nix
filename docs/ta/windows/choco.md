@@ -3,6 +3,7 @@ layout: page
 title: windows/choco (தமிழ்)
 description: "சாக்லேட்டி தொகுப்பு மேலாளருக்கான கட்டளை வரி இடைமுகம்."
 content_hash: ddd608b565c8068898e6cd1063638ee2049eb606
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco.html
@@ -10,8 +11,20 @@ related_topics:
   - title: English version
     url: /en/windows/choco.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/windows/choco.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/choco.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/choco.html
+    icon: bi bi-globe
   - title: 日本語 version
     url: /ja/windows/choco.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/windows/choco.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/choco.html
@@ -19,11 +32,12 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/choco.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/windows/choco.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># choco
+# choco
 
 சாக்லேட்டி தொகுப்பு மேலாளருக்கான கட்டளை வரி இடைமுகம்.
 `choco install` போன்ற சிலச் சார்கட்டளைகளுக்குத் தனிப் பக்கம் உள்ளது.

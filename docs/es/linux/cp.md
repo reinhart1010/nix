@@ -3,15 +3,28 @@ layout: page
 title: linux/cp (español)
 description: "Copia archivos y directorios."
 content_hash: 292140c74f5c03b7f4b31ea5c309c0c10c487449
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/cp.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/cp.html
     icon: bi bi-globe
   - title: English version
     url: /en/linux/cp.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/cp.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/linux/cp.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/linux/cp.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/cp.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/cp.html
@@ -19,11 +32,21 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/cp.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/cp.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/cp.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/linux/cp.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# cp
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># cp
 
 Copia archivos y directorios.
 Más información: <https://www.gnu.org/software/coreutils/cp>.

@@ -3,6 +3,15 @@ layout: page
 title: common/docker-commit (English)
 description: "Create a new image from a container’s changes."
 content_hash: 5eeea01d9f1e3069f41325e545b476c6a40a486d
+last_modified_at: 2023-11-12
+related_topics:
+  - title: français version
+    url: /fr/common/docker-commit.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/docker-commit.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker commit
 

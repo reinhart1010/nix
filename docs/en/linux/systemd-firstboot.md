@@ -3,12 +3,10 @@ layout: page
 title: linux/systemd-firstboot (English)
 description: "Initialize basic system settings on or before the first boot-up of a system."
 content_hash: 0fad4e6ac252fd868142411248f09481744fbd47
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># systemd-firstboot
+# systemd-firstboot
 
 Initialize basic system settings on or before the first boot-up of a system.
 More information: <https://www.freedesktop.org/software/systemd/man/systemd-firstboot.html>.

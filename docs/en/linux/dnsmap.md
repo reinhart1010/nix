@@ -3,11 +3,10 @@ layout: page
 title: linux/dnsmap (English)
 description: "The dnsmap command scans a domain for common subdomains e.g. smtp.domain.org."
 content_hash: 018bf6f51328d2db077d54185e85fdf7751d27ab
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dnsmap
+# dnsmap
 
 The dnsmap command scans a domain for common subdomains e.g. smtp.domain.org.
 More information: <https://github.com/resurrecting-open-source-projects/dnsmap>.

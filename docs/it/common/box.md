@@ -3,6 +3,7 @@ layout: page
 title: common/box (italiano)
 description: "Una applicazione PHP per creare e gestire Phars."
 content_hash: 0bb84458c64b3a0e5858cbc6d15a4683688ee021
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/box.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/box.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # box
 

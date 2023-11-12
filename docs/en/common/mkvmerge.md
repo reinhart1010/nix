@@ -3,7 +3,8 @@ layout: page
 title: common/mkvmerge (English)
 description: "Merge and extract multimedia streams."
 content_hash: 38335f922474a915281dfe13936525b2210dfa79
-last_modified_at: 2022-11-24
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mkvmerge
 

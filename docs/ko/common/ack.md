@@ -3,14 +3,27 @@ layout: page
 title: common/ack (한국어)
 description: "프로그래머에게 최적화된 grep과 같은 검색툴."
 content_hash: 5a5d550630625637ea0847498f8a5f0f33782eba
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/ack.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/ack.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/ack.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/ack.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ack.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: Nederlands version
+    url: /nl/common/ack.html
+    icon: bi bi-globe
+  - title: norsk version
     url: /no/common/ack.html
     icon: bi bi-globe
   - title: polski version
@@ -28,15 +41,10 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ack.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ack.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># ack
 

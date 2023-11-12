@@ -3,10 +3,15 @@ layout: page
 title: osx/chflags (English)
 description: "Change file or directory flags."
 content_hash: f1a6f496fc31b2042355fb620f7ad7675feea8c3
+last_modified_at: 2023-11-12
 related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/osx/chflags.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/chflags.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chflags
 

@@ -3,7 +3,8 @@ layout: page
 title: common/cargo-fetch (English)
 description: "Fetch dependencies of a package from the network."
 content_hash: 4268117054fc0fa0b251269ecada8115beff2c73
-last_modified_at: 2023-10-30
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # cargo fetch
 

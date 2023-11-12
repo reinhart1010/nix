@@ -3,12 +3,10 @@ layout: page
 title: common/osv-scanner (English)
 description: "Scan various mediums for dependencies and matches them against the OSV database."
 content_hash: ba9eb06afeaf95229af4f5e969b0551ccc9b0687
-last_modified_at: 2023-02-07
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># osv-scanner
+# osv-scanner
 
 Scan various mediums for dependencies and matches them against the OSV database.
 More information: <https://osv.dev/about>.

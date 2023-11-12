@@ -3,10 +3,13 @@ layout: page
 title: common/amass (português (Brasil))
 description: "Ferramenta de Attack Surface Mapping (mapeamento de superfície de ataque) e Asset Discovery (descoberta de asset) em profundidade."
 content_hash: 3f8d67d81e9ec14bcd56ab07893ab6ce6e921527
-last_modified_at: 2023-01-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/amass.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/amass.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/amass.html
@@ -14,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/amass.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # amass
 

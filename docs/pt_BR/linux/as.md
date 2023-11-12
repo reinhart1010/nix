@@ -3,6 +3,7 @@ layout: page
 title: linux/as (português (Brasil))
 description: "Assembler GNU multiplataforma."
 content_hash: fa1dfff706e363f284d8ad51e3005f271d264176
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/as.html
@@ -10,9 +11,13 @@ related_topics:
   - title: English version
     url: /en/linux/as.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/as.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/as.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # as
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/megatools-dl (English)
 description: "Download files from `mega.nz`."
 content_hash: 392841e0ad53be6bdb4b5027f23ba6bae648a0c3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # megatools-dl
 

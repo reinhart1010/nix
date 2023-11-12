@@ -3,7 +3,7 @@ layout: page
 title: linux/nmcli-connection (Nederlands)
 description: "Beheer verbindingen met NetworkManager."
 content_hash: 1211e3136f1d6fecb92f617acb7dbcafb7954548
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/nmcli-connection.html
@@ -11,11 +11,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/nmcli-connection.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># nmcli connection
+# nmcli connection
 
 Beheer verbindingen met NetworkManager.
 Dit subcommando kan ook aangeroepen worden met `nmcli c`.

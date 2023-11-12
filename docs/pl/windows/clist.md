@@ -3,7 +3,7 @@ layout: page
 title: windows/clist (polski)
 description: "To polecenie jest aliasem `choco list`."
 content_hash: 208b183cc50a4131ee6502600b1e7dfad05e6512
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/clist.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/clist.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # clist
 

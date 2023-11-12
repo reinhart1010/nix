@@ -3,7 +3,7 @@ layout: page
 title: osx/xcodes-runtimes (English)
 description: "Manage Xcode Simulator runtimes."
 content_hash: dc07dbf1d4c2b0ea2e78ae7a81c8b2064bdad44d
-last_modified_at: 2023-10-27
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/osx/xcodes-runtimes.html
@@ -14,6 +14,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/osx/xcodes-runtimes.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xcodes runtimes
 

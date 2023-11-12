@@ -3,6 +3,7 @@ layout: page
 title: common/test (English)
 description: "Check file types and compare values."
 content_hash: fcd0774d9e42aadd95b4a64acaa07800da40f5f0
+last_modified_at: 2023-11-12
 related_topics:
   - title: 日本語 version
     url: /ja/common/test.html
@@ -10,6 +11,7 @@ related_topics:
   - title: polski version
     url: /pl/common/test.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # test
 

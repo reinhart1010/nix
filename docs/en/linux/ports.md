@@ -3,6 +3,8 @@ layout: page
 title: linux/ports (English)
 description: "Update/list the ports tree on a CRUX system."
 content_hash: e372267182cb6ce5ed447868bee4f2975efc7430
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ports
 

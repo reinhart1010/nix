@@ -3,6 +3,8 @@ layout: page
 title: common/quarto (English)
 description: "An open-source scientific and technical publishing system built on Pandoc."
 content_hash: ca372f0d3ce939068389094bdde634c3f35099fa
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # quarto
 

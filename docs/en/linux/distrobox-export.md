@@ -3,7 +3,15 @@ layout: page
 title: linux/distrobox-export (English)
 description: "Export app/service/binary from container to host OS."
 content_hash: 7a715bd3b7550634d252e853998ee67ec688604d
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Nederlands version
+    url: /nl/linux/distrobox-export.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/distrobox-export.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # distrobox-export
 

@@ -3,6 +3,7 @@ layout: page
 title: common/zip (English)
 description: "Package and compress (archive) files into zip file."
 content_hash: 4580f669cdb39395639d28876755efc6eacc27e1
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/zip.html
@@ -16,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/zip.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # zip
 

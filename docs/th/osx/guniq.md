@@ -3,7 +3,7 @@ layout: page
 title: osx/guniq (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux uniq`"
 content_hash: 012029daaa360948b6dc7148d5eed15e7862369f
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/guniq.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/guniq.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # guniq
 

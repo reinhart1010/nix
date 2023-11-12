@@ -3,11 +3,12 @@ layout: page
 title: common/fdupes (English)
 description: "Finds duplicate files in a given set of directories."
 content_hash: f29be034e89fbc575fbad862e15d343fe573a2c1
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/fdupes.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fdupes
 

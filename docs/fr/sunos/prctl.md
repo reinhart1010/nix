@@ -3,7 +3,7 @@ layout: page
 title: sunos/prctl (français)
 description: "Obtenir ou définir les contrôles de ressources des processus, tâches et projets en cours d'exécution."
 content_hash: 6186a436507f32932b4ea4cfa1462a3cbe50f0ec
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/sunos/prctl.html
@@ -17,6 +17,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/sunos/prctl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # prctl
 

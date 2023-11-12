@@ -3,12 +3,10 @@ layout: page
 title: common/pamfile (English)
 description: "Describe Netpbm (PAM or PNM) files."
 content_hash: 0f4b27cd94254d7327e4c8656b3ca33de43ca712
-last_modified_at: 2023-10-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pamfile
+# pamfile
 
 Describe Netpbm (PAM or PNM) files.
 More information: <https://netpbm.sourceforge.net/doc/pamfile.html>.

@@ -3,7 +3,7 @@ layout: page
 title: sunos/prstat (Nederlands)
 description: "Rapportering van de statistieken van actieve processen."
 content_hash: 37dbbf7f894a6dc9c08fecedf7c325bb00b210ee
-last_modified_at: 2023-11-02
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/sunos/prstat.html
@@ -17,6 +17,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/sunos/prstat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # prstat
 

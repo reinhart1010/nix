@@ -3,7 +3,7 @@ layout: page
 title: common/llvm-ar (polski)
 description: "To polecenie jest aliasem `ar`."
 content_hash: 274f3fc0848986c346f9a68dd2ee428e9eb42a04
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/llvm-ar.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/llvm-ar.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # llvm-ar
 

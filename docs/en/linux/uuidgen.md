@@ -3,6 +3,12 @@ layout: page
 title: linux/uuidgen (English)
 description: "Generate unique identifiers (UUIDs)."
 content_hash: 92fc000764437f40e62c4a8c3b3aaa175aa6909b
+last_modified_at: 2023-11-12
+related_topics:
+  - title: polski version
+    url: /pl/linux/uuidgen.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # uuidgen
 

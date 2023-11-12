@@ -3,7 +3,7 @@ layout: page
 title: common/apg (português (Brasil))
 description: "Criar senhas aleatórias arbitrariamente complexas."
 content_hash: d861c50d6b79e8a63262cd90dd7758bdef4fd1f8
-last_modified_at: 2023-05-22
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/apg.html
@@ -23,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/apg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apg
 

@@ -3,7 +3,7 @@ layout: page
 title: common/brew (தமிழ்)
 description: "மேக் ஓஎஸ் மற்றும் லினக்ஸ் கான தொகுப்பு மேலாளர்."
 content_hash: 668ac2a140de24df7577d02da7d231a2af19dd8e
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/brew.html
@@ -29,6 +29,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/brew.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # brew
 

@@ -3,10 +3,12 @@ layout: page
 title: common/nodenv (Deutsch)
 description: "Ein Tool, um Node.js Versionen zu verwalten."
 content_hash: ed4d3805d222cf9845433c2df1f74c4d8aaf38a8
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/nodenv.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nodenv
 

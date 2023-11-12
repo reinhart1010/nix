@@ -3,11 +3,12 @@ layout: page
 title: common/sass (polski)
 description: "Konwertuje pliki SCSS lub Sass na CSS."
 content_hash: 9b40bc9aee5bda375ec6bde2267a1d38ac8287a9
-last_modified_at: 2023-11-01
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/sass.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sass
 

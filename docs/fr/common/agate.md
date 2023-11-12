@@ -3,18 +3,29 @@ layout: page
 title: common/agate (français)
 description: "Un serveur simple pour le protocole réseau Gemini."
 content_hash: 1f73007f8029b428ccb44ecfde00635bfc50df44
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/agate.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/agate.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/common/agate.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/agate.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/agate.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/agate.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># agate
+# agate
 
 Un serveur simple pour le protocole réseau Gemini.
 Plus d'informations : <https://github.com/mbrubeck/agate>.

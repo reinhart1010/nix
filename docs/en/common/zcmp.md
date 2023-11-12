@@ -3,11 +3,10 @@ layout: page
 title: common/zcmp (English)
 description: "Compare compressed files."
 content_hash: 9c03a8f546e12724831e68b8bd19ca15a68c5242
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># zcmp
+# zcmp
 
 Compare compressed files.
 More information: <https://manned.org/zcmp>.

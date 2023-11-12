@@ -3,7 +3,15 @@ layout: page
 title: linux/acountry (English)
 description: "Print the country where an IPv4 address or hostname is located."
 content_hash: 98fca18db46cafb143f98ea974010df6d0496b19
-last_modified_at: 2023-01-03
+last_modified_at: 2023-11-12
+related_topics:
+  - title: español version
+    url: /es/linux/acountry.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/acountry.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # acountry
 

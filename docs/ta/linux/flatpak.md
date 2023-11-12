@@ -3,10 +3,13 @@ layout: page
 title: linux/flatpak (தமிழ்)
 description: "பிளாட்பேக் பயன்பாடுகள் மற்றும் இயக்க நேரங்களை உருவாக்கவும், நிறுவவும் மற்றும் இயக்கவும்."
 content_hash: 4bfa40bdb0c40bfad32aa65a140fc68e753ba3a2
-last_modified_at: 2022-12-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/flatpak.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/flatpak.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/flatpak.html
@@ -14,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/flatpak.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # flatpak
 

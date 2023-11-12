@@ -3,10 +3,12 @@ layout: page
 title: common/write (中文)
 description: "向某个终端上的特定用户的屏幕写入信息（Ctrl-C 来停止写入）。"
 content_hash: 5ba02778bbbf2a6397741ddc7c0a20740ec8a387
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/write.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # write
 

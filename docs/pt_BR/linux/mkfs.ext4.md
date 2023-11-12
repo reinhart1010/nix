@@ -3,7 +3,7 @@ layout: page
 title: linux/mkfs.ext4 (português (Brasil))
 description: "Cria um sistema de arquivos ext4 dentro de uma partição."
 content_hash: 8dc004627a3e1c0e04b8766509c4180ba79ece8c
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/mkfs.ext4.html
@@ -11,11 +11,9 @@ related_topics:
   - title: Indonesia version
     url: /id/linux/mkfs.ext4.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mkfs.ext4
+# mkfs.ext4
 
 Cria um sistema de arquivos ext4 dentro de uma partição.
 Mais informações: <https://manned.org/mkfs.ext4>.

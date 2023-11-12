@@ -3,8 +3,11 @@ layout: page
 title: common/alias (中文 (繁體, 台灣))
 description: "建立快捷鍵名稱 -- 取代命令字串的單字。"
 content_hash: ab816b1bd0f633bfd71cd6411c3fdda1a282fbfc
-last_modified_at: 2023-10-04
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/alias.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/alias.html
     icon: bi bi-globe
@@ -56,11 +59,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/alias.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># alias
+# alias
 
 建立快捷鍵名稱 -- 取代命令字串的單字。
 快捷鍵只會在現有的 shell 有效，除非在 shell 的設定檔中定義快捷鍵，例如：`~/.bashrc`.

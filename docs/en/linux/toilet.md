@@ -3,6 +3,8 @@ layout: page
 title: linux/toilet (English)
 description: "A tool to display ASCII-art fonts."
 content_hash: 79de2bfc9dc0875184db9a79fadedf8dc026b025
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # toilet
 

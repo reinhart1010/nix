@@ -3,11 +3,12 @@ layout: page
 title: osx/security (English)
 description: "Administer keychains, keys, certificates and the Security framework."
 content_hash: b24cce883dcf897f84dae9654204599122fbf948
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: polski version
     url: /pl/osx/security.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # security
 

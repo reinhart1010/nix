@@ -3,12 +3,10 @@ layout: page
 title: common/pytest (English)
 description: "Run Python tests."
 content_hash: adf9208c301fadff5d5139574c7a8c23cf50e17f
-last_modified_at: 2022-11-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pytest
+# pytest
 
 Run Python tests.
 More information: <https://docs.pytest.org/>.

@@ -3,12 +3,10 @@ layout: page
 title: common/tectonic (English)
 description: "A modern, self-contained TeX/LaTeX engine."
 content_hash: 7d597f3c9d85089675d94f25399d446a764a6500
-last_modified_at: 2023-07-25
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># tectonic
+# tectonic
 
 A modern, self-contained TeX/LaTeX engine.
 More information: <https://tectonic-typesetting.github.io/book/latest>.

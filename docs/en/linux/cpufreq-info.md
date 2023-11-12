@@ -3,6 +3,8 @@ layout: page
 title: linux/cpufreq-info (English)
 description: "A tool to show CPU frequency information."
 content_hash: fa046eaa1bf7f4a2103d43c453956091e569deb1
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # cpufreq-info
 

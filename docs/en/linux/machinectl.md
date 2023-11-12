@@ -3,12 +3,10 @@ layout: page
 title: linux/machinectl (English)
 description: "Control the systemd machine manager."
 content_hash: eb4939c472a42495a81c945d845371a2f33eab9e
-last_modified_at: 2023-10-11
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># machinectl
+# machinectl
 
 Control the systemd machine manager.
 Execute operations on virtual machines, containers and images.

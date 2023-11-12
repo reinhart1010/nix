@@ -3,10 +3,12 @@ layout: page
 title: common/tlmgr (English)
 description: "Manages packages and configuration options of an existing TeX Live installation."
 content_hash: 41dfa212e85d66cdf09632749779624e36e92da1
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/tlmgr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tlmgr
 

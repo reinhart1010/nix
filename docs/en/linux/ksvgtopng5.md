@@ -3,6 +3,8 @@ layout: page
 title: linux/ksvgtopng5 (English)
 description: "Convert SVG files to PNG format."
 content_hash: 10f6240fbacabecadb4cf5a0252b292065cb2ba7
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ksvgtopng5
 

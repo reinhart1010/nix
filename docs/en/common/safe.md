@@ -3,7 +3,8 @@ layout: page
 title: common/safe (English)
 description: "Interact with HashiCorp Vault."
 content_hash: 880de94eeb30d9a6eb48d32573337c43a8502a38
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # safe
 

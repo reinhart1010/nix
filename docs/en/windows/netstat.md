@@ -3,6 +3,8 @@ layout: page
 title: windows/netstat (English)
 description: "Displays active TCP connections, ports on which the computer is listening, network adapter statistics, the IP routing table, IPv4 statistics and IPv6 statistics."
 content_hash: a51c1b8b66aebac7513019af1cd488bcf18cf5d1
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # netstat
 

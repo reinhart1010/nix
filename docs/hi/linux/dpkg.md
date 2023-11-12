@@ -3,7 +3,7 @@ layout: page
 title: linux/dpkg (हिन्दी)
 description: "डेबियन पैकेज प्रबंधक।"
 content_hash: ce806187e85c4209c21a1c1cd179647df12691f9
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/dpkg.html
@@ -20,6 +20,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/dpkg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dpkg
 

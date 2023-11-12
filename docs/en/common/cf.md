@@ -3,6 +3,8 @@ layout: page
 title: common/cf (English)
 description: "Command-line tool to manage apps and services on Cloud Foundry."
 content_hash: 95a0087798855f3babcdd06755bebcc94ef04182
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # cf
 

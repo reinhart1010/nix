@@ -3,12 +3,10 @@ layout: page
 title: common/rustup-target (English)
 description: "Modify a toolchain's supported targets."
 content_hash: 1ce698227fbde7ff1a9c3223b4859136c0bafe7c
-last_modified_at: 2023-09-02
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rustup target
+# rustup target
 
 Modify a toolchain's supported targets.
 Without the `--toolchain` option `rustup` will use the default toolchain. See `rustup help toolchain` for more information about toolchains.

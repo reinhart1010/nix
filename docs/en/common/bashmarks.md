@@ -3,6 +3,7 @@ layout: page
 title: common/bashmarks (English)
 description: "Save and jump to commonly used directories using 1 character commands."
 content_hash: afe861b6da27e87a37a75f887e78552806ed6e80
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/bashmarks.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/bashmarks.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bashmarks
 

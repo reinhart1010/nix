@@ -3,7 +3,7 @@ layout: page
 title: linux/acpi (português (Brasil))
 description: "Exibe status da bateria ou informações térmicas."
 content_hash: dd6cd3ce5f2b8f7095d67e0c316040a17edc8336
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/acpi.html
@@ -20,9 +20,13 @@ related_topics:
   - title: italiano version
     url: /it/linux/acpi.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/acpi.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/acpi.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # acpi
 

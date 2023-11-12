@@ -3,10 +3,12 @@ layout: page
 title: linux/login (français)
 description: "Démarre une session pour un utilisateur."
 content_hash: 8bb197a6047c24b471cb0a3048caef9e4a70d485
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/login.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # login
 

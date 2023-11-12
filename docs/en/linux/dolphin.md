@@ -3,11 +3,12 @@ layout: page
 title: linux/dolphin (English)
 description: "KDE's file manager to manage files and directories."
 content_hash: b372d2952b1228130950e03efce111b8a3be13eb
-last_modified_at: 2022-12-13
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/dolphin.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dolphin
 

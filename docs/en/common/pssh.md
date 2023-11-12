@@ -3,6 +3,12 @@ layout: page
 title: common/pssh (English)
 description: "Parallel SSH program."
 content_hash: 41ac0fa524bd3b936955d27193c4ed3142c4437a
+last_modified_at: 2023-11-12
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/common/pssh.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pssh
 

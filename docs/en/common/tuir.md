@@ -3,6 +3,8 @@ layout: page
 title: common/tuir (English)
 description: "A text user-interface (TUI) to view and interact with Reddit from your terminal."
 content_hash: 4b3e11d20d192ecd98a76a64dafb3d6f7de091c8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tuir
 

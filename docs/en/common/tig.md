@@ -3,10 +3,15 @@ layout: page
 title: common/tig (English)
 description: "A text-mode interface for Git."
 content_hash: 6381236c0f1a5313d6f41034cc2a80a91276efd3
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/tig.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/tig.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tig
 

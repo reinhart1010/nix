@@ -3,12 +3,10 @@ layout: page
 title: windows/stop-service (English)
 description: "Stops one or more running services."
 content_hash: 2da6f6d9cc2ad979ab888cc21b45fa1729b44a14
-last_modified_at: 2022-12-21
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># Stop-Service
+# Stop-Service
 
 Stops one or more running services.
 This command can only be used through PowerShell.

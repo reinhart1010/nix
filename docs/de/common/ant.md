@@ -3,10 +3,21 @@ layout: page
 title: common/ant (Deutsch)
 description: "Apache Ant."
 content_hash: 59f888e9e60cc364c3204ef964697b94a6df5b66
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ant.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/ant.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/ant.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/ant.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ant
 

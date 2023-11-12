@@ -3,6 +3,8 @@ layout: page
 title: common/svn (English)
 description: "Subversion command-line client tool."
 content_hash: 86dc26d26879e8121253629eaadd3f5284171687
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # svn
 

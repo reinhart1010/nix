@@ -3,6 +3,8 @@ layout: page
 title: linux/dir (English)
 description: "List directory contents using one line per file, special characters are represented by backslash escape sequences."
 content_hash: a0886ec329cf9c2e064bfbc7d55e8a197c12f481
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dir
 

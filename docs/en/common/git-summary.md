@@ -3,6 +3,8 @@ layout: page
 title: common/git-summary (English)
 description: "Display information about a Git repository."
 content_hash: f285a88c4cde34386a18f6640b434fead59354da
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git summary
 

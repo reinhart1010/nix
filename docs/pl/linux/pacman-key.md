@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman-key (polski)
 description: "Skrypt opakowujący dla GnuPG używany do zarządzania pękiem kluczy pacmana."
 content_hash: 018b5e02aa1e275e11dd8347018268098d74151d
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/pacman-key.html
@@ -14,11 +14,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/linux/pacman-key.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pacman-key
+# pacman-key
 
 Skrypt opakowujący dla GnuPG używany do zarządzania pękiem kluczy pacmana.
 Zobacz także: `pacman`.

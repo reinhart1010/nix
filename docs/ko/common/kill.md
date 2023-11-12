@@ -3,18 +3,23 @@ layout: page
 title: common/kill (한국어)
 description: "보통 프로세스를 정지시키는 것과 관련된 시그널을 전송합니다."
 content_hash: f09c6831864dffd12323f21d511d240e9ddfb9bd
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/kill.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/kill.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/kill.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/kill.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># kill
+# kill
 
 보통 프로세스를 정지시키는 것과 관련된 시그널을 전송합니다.
 SIGKILL과 SIGSTOP을 제외한 모든 시그널들은 깔끔한 종료를 위해 프로세스에게 뺏길 수 있습니다.

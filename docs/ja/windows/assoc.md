@@ -3,15 +3,26 @@ layout: page
 title: windows/assoc (日本語)
 description: "ファイル拡張子の関連付けを表示または変更します。"
 content_hash: 21849e62bfa3d3d4cdef5b6d41f6c1b07bfcd16f
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/assoc.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/windows/assoc.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/assoc.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/assoc.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# assoc
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># assoc
 
 ファイル拡張子の関連付けを表示または変更します。
 詳しくはこちら: <https://learn.microsoft.com/windows-server/administration/windows-commands/assoc>

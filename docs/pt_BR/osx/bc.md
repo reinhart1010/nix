@@ -3,15 +3,17 @@ layout: page
 title: osx/bc (português (Brasil))
 description: "Linguagem e calculadora com precisão arbitrária."
 content_hash: 0986c87ef14b9f0c6ceea3373e21f3dd17b1db42
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/bc.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/bc.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bc
+# bc
 
 Linguagem e calculadora com precisão arbitrária.
 Veja também: `dc`.

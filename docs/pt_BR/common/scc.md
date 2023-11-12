@@ -3,10 +3,12 @@ layout: page
 title: common/scc (português (Brasil))
 description: "Utilitário escrito em GO que conta linhas de código."
 content_hash: 8ddbaf9fb3b28eba24bd55c8f236d13a35ba679c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/scc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # scc
 

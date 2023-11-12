@@ -3,6 +3,8 @@ layout: page
 title: common/lambo (English)
 description: "A super-powered `laravel new` for Laravel and Valet."
 content_hash: 0e04e8a8ebeef1e87743ce6cb31065d07d5d4f59
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lambo
 

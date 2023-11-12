@@ -3,7 +3,8 @@ layout: page
 title: common/bzip3 (English)
 description: "An efficient statistical file compressor."
 content_hash: 686c81e48aee3c1ba2d4dec19e0b5f8a16ad5cc9
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # bzip3
 

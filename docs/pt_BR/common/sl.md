@@ -3,6 +3,7 @@ layout: page
 title: common/sl (português (Brasil))
 description: "Locomotiva a vapor passando pelo seu terminal."
 content_hash: 4bbe547e2c14d36d8b06d5fd9f9384304d6c0f06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/sl.html
@@ -10,6 +11,7 @@ related_topics:
   - title: English version
     url: /en/common/sl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sl
 

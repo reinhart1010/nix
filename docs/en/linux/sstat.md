@@ -3,6 +3,8 @@ layout: page
 title: linux/sstat (English)
 description: "View information about running jobs."
 content_hash: d3159e69601b4863a899bdef231f6a2b5d28122b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sstat
 

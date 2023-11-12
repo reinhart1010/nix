@@ -3,6 +3,8 @@ layout: page
 title: linux/nixos-rebuild (English)
 description: "Reconfigure a NixOS machine."
 content_hash: 495af7eab7d1193ddd25e224952ce0bbe7b6d135
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # nixos-rebuild
 

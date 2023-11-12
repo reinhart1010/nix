@@ -3,6 +3,7 @@ layout: page
 title: common/tmux (한국어)
 description: "터미널 멀티플렉서. tmux는 단일 단말기 창 또는 원격 터미널 세션 안에서 여러 세션을 사용할 수 있도록 도와줍니다."
 content_hash: 26e349070e06a76a6350d96af24becab8bfb23ec
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/tmux.html
@@ -13,9 +14,13 @@ related_topics:
   - title: français version
     url: /fr/common/tmux.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/tmux.html
+    icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/common/tmux.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tmux
 

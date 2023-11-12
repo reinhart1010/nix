@@ -3,10 +3,12 @@ layout: page
 title: common/pdfimages (English)
 description: "Utility for extracting images from PDFs."
 content_hash: 9c019e8fb90d25cb2ae3161422402722dc237e2f
+last_modified_at: 2023-11-12
 related_topics:
   - title: polski version
     url: /pl/common/pdfimages.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pdfimages
 

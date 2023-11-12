@@ -3,6 +3,7 @@ layout: page
 title: common/tar (日本語)
 description: "アーカイブ(複数のファイルやフォルダを 1 つのファイルに纏める)の為のユーティリティー。"
 content_hash: 23b9b479a81ed0dc0cc69a6d9b15e9ade4a6f38e
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/tar.html
@@ -22,9 +23,13 @@ related_topics:
   - title: русский version
     url: /ru/common/tar.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/tar.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/tar.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tar
 

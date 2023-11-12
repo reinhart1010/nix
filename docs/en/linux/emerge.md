@@ -3,7 +3,8 @@ layout: page
 title: linux/emerge (English)
 description: "Gentoo Linux package manager utility."
 content_hash: 3238f6b80436d649852b106c61fadf0b2718d5a3
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # emerge
 

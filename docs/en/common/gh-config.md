@@ -3,6 +3,8 @@ layout: page
 title: common/gh-config (English)
 description: "Change configuration for GitHub cli."
 content_hash: 048febc7f0c57cd1350e59cc15bdf0a43c68d2ad
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gh config
 

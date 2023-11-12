@@ -3,13 +3,21 @@ layout: page
 title: common/adguardhome (русский)
 description: "Программное обеспечение для блокировки рекламы и отслеживания во всей сети."
 content_hash: 0aa4ffaed91c96b537b82ff32b773d74c01a6e8d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/adguardhome.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/adguardhome.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/adguardhome.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/adguardhome.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # AdGuardHome
 

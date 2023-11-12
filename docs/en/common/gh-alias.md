@@ -3,11 +3,12 @@ layout: page
 title: common/gh-alias (English)
 description: "Manage GitHub CLI command aliases."
 content_hash: 23c24f6803b81062aa2510eef7eb724c761611e8
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/gh-alias.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gh alias
 

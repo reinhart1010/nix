@@ -3,16 +3,14 @@ layout: page
 title: common/bcomps (中文)
 description: "将图形分解为它们的双连通分量。"
 content_hash: e37503af530e751fa758f3e34a2ab8bae067d8f7
-last_modified_at: 2023-02-17
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/bcomps.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bcomps
+# bcomps
 
 将图形分解为它们的双连通分量。
 Graphviz 过滤器：`acyclic`、`bcomps`、`comps`、`edgepaint`、`gvcolor`、`gvpack`、`mingle`、`nop`、`sccmap`、`tred` 和 `unflatten`。

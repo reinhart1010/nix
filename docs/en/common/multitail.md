@@ -3,7 +3,8 @@ layout: page
 title: common/multitail (English)
 description: "Extension of tail."
 content_hash: 30b4349c302c8dd06f3f8ae58a5dfbf1983d8d82
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # multitail
 

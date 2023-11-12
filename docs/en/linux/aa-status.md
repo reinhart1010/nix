@@ -3,12 +3,10 @@ layout: page
 title: linux/aa-status (English)
 description: "List currently loaded AppArmor modules."
 content_hash: 2e722b4f9103f128239d0a711ef8436b02dca4e2
-last_modified_at: 2023-10-01
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aa-status
+# aa-status
 
 List currently loaded AppArmor modules.
 See also: `aa-complain`, `aa-disable`, `aa-enforce`.

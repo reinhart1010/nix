@@ -3,11 +3,10 @@ layout: page
 title: common/chafa (English)
 description: "Image printing in the terminal."
 content_hash: 59243002330d37514e487ab736345301e66749eb
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># chafa
+# chafa
 
 Image printing in the terminal.
 See also: `catimg`, `pixterm`.

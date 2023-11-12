@@ -3,6 +3,7 @@ layout: page
 title: common/avrdude (한국어)
 description: "Atmel AVR 마이크로 컨트롤러 프로그래밍을 위한 드라이버 프로그램."
 content_hash: 9ebfa6f710368fc3e31ae083dfa77a6bccc2d599
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/avrdude.html
@@ -10,9 +11,16 @@ related_topics:
   - title: English version
     url: /en/common/avrdude.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/avrdude.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/avrdude.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/avrdude.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # avrdude
 

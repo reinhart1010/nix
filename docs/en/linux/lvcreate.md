@@ -3,6 +3,8 @@ layout: page
 title: linux/lvcreate (English)
 description: "Creates a logical volume in an existing volume group. A volume group is a collection of logical and physical volumes."
 content_hash: 2605da450d5f80dc4c7f492e7286364644a768be
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lvcreate
 

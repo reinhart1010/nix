@@ -3,6 +3,7 @@ layout: page
 title: linux/chage (中文)
 description: "更改用户账户和密码到期信息。"
 content_hash: a743e0702f5576ed590e10d26515518ab0b7eb71
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/chage.html
@@ -10,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/chage.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chage
 

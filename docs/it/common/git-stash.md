@@ -3,6 +3,7 @@ layout: page
 title: common/git-stash (italiano)
 description: "Salva in un'area temporanea (stash) modifiche Git locali."
 content_hash: d016150aa7dcc14784f7f0fab0c050d2af1ebd09
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-stash.html
@@ -13,6 +14,10 @@ related_topics:
   - title: français version
     url: /fr/common/git-stash.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-stash.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git stash
 

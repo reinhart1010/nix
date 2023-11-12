@@ -3,6 +3,8 @@ layout: page
 title: common/gh-completion (English)
 description: "Generate shell completion scripts for GitHub CLI commands."
 content_hash: 1743442bf2cc3209ebc41b59ee870589c0163db6
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gh completion
 

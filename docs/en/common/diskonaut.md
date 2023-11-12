@@ -3,7 +3,8 @@ layout: page
 title: common/diskonaut (English)
 description: "Terminal disk space navigator, written in Rust."
 content_hash: f477402d902ce371922b0d6987045d917f369a22
-last_modified_at: 2023-06-28
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # diskonaut
 

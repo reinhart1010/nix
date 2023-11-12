@@ -3,10 +3,12 @@ layout: page
 title: osx/shutdown (English)
 description: "Shutdown and reboot the system."
 content_hash: 04fac018f730141d122f806370e15e82bbb50e57
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/osx/shutdown.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # shutdown
 

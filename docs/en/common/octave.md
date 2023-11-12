@@ -3,11 +3,10 @@ layout: page
 title: common/octave (English)
 description: "GNU Octave is a programming language for scientific computing."
 content_hash: f02aad57676a314c6bb631eada2745f7dafa47fc
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># octave
+# octave
 
 GNU Octave is a programming language for scientific computing.
 More information: <https://docs.octave.org/latest/Invoking-Octave-from-the-Command-Line.html>.

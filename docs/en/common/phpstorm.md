@@ -3,6 +3,8 @@ layout: page
 title: common/phpstorm (English)
 description: "A cross-platform IDE for PHP based on the JetBrains IntelliJ platform."
 content_hash: d2ec826c7f84c46f685f3147469c67e2964968ff
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # phpstorm
 

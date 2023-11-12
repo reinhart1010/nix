@@ -3,6 +3,8 @@ layout: page
 title: common/paci (English)
 description: "A package manager for Bash scripts."
 content_hash: 618cb91f27cd6f468e741b3b6600f394b9e2500a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # paci
 

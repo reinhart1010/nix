@@ -3,10 +3,15 @@ layout: page
 title: osx/say (English)
 description: "Converts text to speech."
 content_hash: f0a83d00d1484f5e0e4cbc19125ef33c6543a5c1
+last_modified_at: 2023-11-12
 related_topics:
+  - title: polski version
+    url: /pl/osx/say.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/say.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # say
 

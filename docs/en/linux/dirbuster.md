@@ -3,12 +3,10 @@ layout: page
 title: linux/dirbuster (English)
 description: "Brute force directories and filenames on servers."
 content_hash: 3526ef43d0de3bfbd8773ab8f0818b4008d376be
-last_modified_at: 2023-06-19
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dirbuster
+# dirbuster
 
 Brute force directories and filenames on servers.
 More information: <https://www.kali.org/tools/dirbuster/>.

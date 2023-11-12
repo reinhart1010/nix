@@ -3,6 +3,7 @@ layout: page
 title: common/aws-lambda (português (Brasil))
 description: "Linha de comando CLI para o AWS lambda."
 content_hash: 7a8f71f1b377dddeef650cc5d0f1f96e552bd4a0
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/aws-lambda.html
@@ -10,11 +11,9 @@ related_topics:
   - title: français version
     url: /fr/common/aws-lambda.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws lambda
+# aws lambda
 
 Linha de comando CLI para o AWS lambda.
 Mais informações: <https://docs.aws.amazon.com/cli/latest/reference/lambda/>.

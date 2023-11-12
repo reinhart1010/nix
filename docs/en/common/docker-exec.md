@@ -3,7 +3,7 @@ layout: page
 title: common/docker-exec (English)
 description: "Execute a command on an already running Docker container."
 content_hash: bb2201c62200261667e818dd09a98e479f0bbde8
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-exec.html
@@ -14,9 +14,13 @@ related_topics:
   - title: italiano version
     url: /it/common/docker-exec.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/docker-exec.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/docker-exec.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker exec
 

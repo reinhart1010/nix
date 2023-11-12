@@ -3,10 +3,21 @@ layout: page
 title: sunos/prstat (தமிழ்)
 description: "செயலில் உள்ள செயல்முறை புள்ளிவிவரங்களைப் புகாரளிக்கவும்."
 content_hash: 0f5bd2d0fc87a8794e60d30e78b9fba83a073658
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/sunos/prstat.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/sunos/prstat.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/sunos/prstat.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/sunos/prstat.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # prstat
 

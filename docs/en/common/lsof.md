@@ -3,10 +3,15 @@ layout: page
 title: common/lsof (English)
 description: "Lists open files and the corresponding processes."
 content_hash: 9435076ef3b36ada78110f05f9717c66b1744c57
+last_modified_at: 2023-11-12
 related_topics:
+  - title: 한국어 version
+    url: /ko/common/lsof.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/lsof.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lsof
 

@@ -3,6 +3,7 @@ layout: page
 title: common/sh (français)
 description: "Bourne SHell, l'interpréteur de ligne de commande classique."
 content_hash: ce4238c8178b4d3b3bf93df39d7bb494bf6f5c2a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/sh.html
@@ -13,6 +14,7 @@ related_topics:
   - title: sh version
     url: /sh/common/sh.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sh
 

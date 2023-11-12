@@ -3,6 +3,7 @@ layout: page
 title: common/chgrp (français)
 description: "Change la propriété de groupe des fichiers et des répertoires."
 content_hash: 5c7fe1f8f97d322c757e7977731213c37e234840
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/chgrp.html
@@ -16,6 +17,7 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/chgrp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chgrp
 

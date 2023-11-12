@@ -3,7 +3,7 @@ layout: page
 title: common/chmod (Nederlands)
 description: "Verander de toegangstoestemmingen van een bestand of map."
 content_hash: dbf88e74c4191c8de681dd9e27e0f13d7e20b63c
-last_modified_at: 2023-10-19
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/chmod.html
@@ -47,6 +47,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/chmod.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chmod
 

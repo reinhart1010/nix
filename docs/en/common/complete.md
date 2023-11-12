@@ -3,6 +3,7 @@ layout: page
 title: common/complete (English)
 description: "Provides argument autocompletion to shell commands."
 content_hash: e283d60d47eb34b2f654621f750728825bfd3a85
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/complete.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/complete.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # complete
 

@@ -3,7 +3,7 @@ layout: page
 title: common/nano (English)
 description: "Command-line text editor. An enhanced `Pico` clone."
 content_hash: 1b6b001a7b7993c3e03f705a168bbb94005927e6
-last_modified_at: 2023-01-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/nano.html
@@ -17,6 +17,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/nano.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nano
 

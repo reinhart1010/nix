@@ -3,6 +3,7 @@ layout: page
 title: common/git-pull (中文)
 description: "从远程代码库拉取分支，并将其合并到本地代码库。"
 content_hash: 1c46348f22042558c549301601e5542982c54cb8
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-pull.html
@@ -16,17 +17,24 @@ related_topics:
   - title: français version
     url: /fr/common/git-pull.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/git-pull.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-pull.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-pull.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-pull.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git-pull.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git pull
+# git pull
 
 从远程代码库拉取分支，并将其合并到本地代码库。
 更多信息：<https://git-scm.com/docs/git-pull>.

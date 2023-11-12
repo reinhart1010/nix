@@ -3,6 +3,7 @@ layout: page
 title: common/docker-machine (한국어)
 description: "도커를 실행하는 머신들을 생성하고 관리한다."
 content_hash: 3a2bccfcac047f2d7e0071f01c5e1b5ae7ba73e3
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-machine.html
@@ -10,12 +11,19 @@ related_topics:
   - title: English version
     url: /en/common/docker-machine.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/docker-machine.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/docker-machine.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/docker-machine.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/docker-machine.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker-machine
 

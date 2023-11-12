@@ -3,11 +3,12 @@ layout: page
 title: common/pdfseparate (Deutsch)
 description: "Extrahiere die Seiten einer Portable Document Format (PDF) Datei."
 content_hash: d88bf1bc157f0d1a8227e3afdd83f733a0a17b5d
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/pdfseparate.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pdfseparate
 

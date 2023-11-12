@@ -3,6 +3,8 @@ layout: page
 title: common/dvc-dag (English)
 description: "Visualize the pipeline(s) defined in `dvc.yaml`."
 content_hash: 2ea9a0f9cf560f81d7929de7e6642f5d1dd2ca82
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dvc dag
 

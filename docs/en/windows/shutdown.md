@@ -3,7 +3,7 @@ layout: page
 title: windows/shutdown (English)
 description: "A tool for shutting down, restarting or logging off a machine."
 content_hash: 0c330bbbb69473ef0adeb5fa983bce4f268bee2f
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: Nederlands version
     url: /nl/windows/shutdown.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/shutdown.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # shutdown
 

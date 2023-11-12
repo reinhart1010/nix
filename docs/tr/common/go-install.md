@@ -3,15 +3,14 @@ layout: page
 title: common/go-install (Türkçe)
 description: "İçe aktarım yollarıyla isimlendirilen paketleri derle ve indir."
 content_hash: cb63d1ac004c11a9c76efe67c8e011d4b4e883e9
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/go-install.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># go install
+# go install
 
 İçe aktarım yollarıyla isimlendirilen paketleri derle ve indir.
 Daha fazla bilgi için: <https://pkg.go.dev/cmd/go#hdr-Compile_and_install_packages_and_dependencies>.

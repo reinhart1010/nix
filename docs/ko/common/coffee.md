@@ -3,6 +3,7 @@ layout: page
 title: common/coffee (한국어)
 description: "Coffee Script를 실행하거나 JavaScript로 컴파일합니다."
 content_hash: bbb98f2fc3402b05b767c3d6f0cd2345b930916d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/coffee.html
@@ -10,6 +11,10 @@ related_topics:
   - title: italiano version
     url: /it/common/coffee.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/coffee.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # coffee
 

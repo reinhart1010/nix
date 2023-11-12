@@ -3,6 +3,7 @@ layout: page
 title: common/git-cherry (English)
 description: "Find commits that have yet to be applied upstream."
 content_hash: 1d520afcc19b9b95a18b64ba7761ba5b09d1cbff
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/git-cherry.html
@@ -10,6 +11,10 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/git-cherry.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-cherry.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git cherry
 

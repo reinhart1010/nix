@@ -3,10 +3,12 @@ layout: page
 title: linux/modprobe (English)
 description: "Add or remove modules from the Linux kernel."
 content_hash: f54440e1b271518dc7d2616777e4a231fc04fe31
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/linux/modprobe.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # modprobe
 

@@ -3,7 +3,8 @@ layout: page
 title: common/html5validator (English)
 description: "Validate HTML5."
 content_hash: dbdc6b945ac6cab266041dcffdf74953014d9cf1
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # html5validator
 

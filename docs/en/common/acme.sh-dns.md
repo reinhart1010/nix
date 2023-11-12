@@ -3,8 +3,11 @@ layout: page
 title: common/acme.sh-dns (English)
 description: "Use a DNS-01 challenge to issue a TLS certificate."
 content_hash: 4d0543dff2a4ef2658fbddcbb95ea2f20c2de741
-last_modified_at: 2023-06-13
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/acme.sh-dns.html
+    icon: bi bi-globe
   - title: español version
     url: /es/common/acme.sh-dns.html
     icon: bi bi-globe
@@ -14,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/acme.sh-dns.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # acme.sh --dns
 

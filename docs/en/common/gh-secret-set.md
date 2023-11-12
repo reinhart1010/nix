@@ -3,7 +3,8 @@ layout: page
 title: common/gh-secret-set (English)
 description: "Create or update GitHub secrets."
 content_hash: 031230671dcf3fb4a15e5a8895723f53acf2f846
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gh secret set
 

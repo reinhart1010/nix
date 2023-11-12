@@ -3,7 +3,8 @@ layout: page
 title: common/ldapsearch (English)
 description: "Query an LDAP directory."
 content_hash: 5f6d857b7e19ef7011ea3a86877873a613e925f7
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ldapsearch
 

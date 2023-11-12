@@ -3,6 +3,7 @@ layout: page
 title: common/deno (Indonesia)
 description: "Runtime aman untuk JavaScript dan TypeScript."
 content_hash: 74747efe7405e1c44f2e429c37ce07afd59ee2fa
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/deno.html
@@ -10,6 +11,13 @@ related_topics:
   - title: English version
     url: /en/common/deno.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/deno.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/deno.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # deno
 

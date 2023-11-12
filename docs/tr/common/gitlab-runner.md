@@ -3,10 +3,12 @@ layout: page
 title: common/gitlab-runner (Türkçe)
 description: "GitLab koşucuları için CLI aracı."
 content_hash: 23abf2273519eca9d4809d56b8b7cace258f078d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/gitlab-runner.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gitlab-runner
 

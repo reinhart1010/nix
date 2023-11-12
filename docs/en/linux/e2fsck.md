@@ -3,6 +3,8 @@ layout: page
 title: linux/e2fsck (English)
 description: "Check a Linux ext2/ext3/ext4 filesystem. The partition should be unmounted."
 content_hash: b946d4eb9780908301cf849ee82b89032eff0520
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # e2fsck
 

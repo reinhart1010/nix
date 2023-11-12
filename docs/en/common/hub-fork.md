@@ -3,12 +3,10 @@ layout: page
 title: common/hub-fork (English)
 description: "Fork the given GitHub repo. Like `git fork` from `git-extras`."
 content_hash: 1859fc9f2ec51a0edf4f8825b983e7df289d3eea
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># hub fork
+# hub fork
 
 Fork the given GitHub repo. Like `git fork` from `git-extras`.
 More information: <https://hub.github.com/hub-fork.1.html>.

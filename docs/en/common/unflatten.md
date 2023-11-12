@@ -3,6 +3,12 @@ layout: page
 title: common/unflatten (English)
 description: "Adjust directed graphs to improve the layout aspect ratio."
 content_hash: 7d8fc1ce3b0fa7e7abdd91823b3bfa50af068620
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 中文 version
+    url: /zh/common/unflatten.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # unflatten
 

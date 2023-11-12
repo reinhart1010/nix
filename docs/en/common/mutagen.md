@@ -3,6 +3,8 @@ layout: page
 title: common/mutagen (English)
 description: "Real-time file synchronization and network forwarding tool."
 content_hash: 396ad5ad8b6903fd2ccda4c35224788ec8d868b6
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mutagen
 

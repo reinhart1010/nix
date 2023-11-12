@@ -3,6 +3,7 @@ layout: page
 title: common/awk (中文)
 description: "一种用于文件处理的通用编程语言。"
 content_hash: e29281c772b62c4af27863a96936696b73396a97
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/awk.html
@@ -25,11 +26,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/awk.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/awk.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># awk
+# awk
 
 一种用于文件处理的通用编程语言。
 更多信息：<https://github.com/onetrueawk/awk>.

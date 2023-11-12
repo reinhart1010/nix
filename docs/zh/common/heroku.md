@@ -3,10 +3,12 @@ layout: page
 title: common/heroku (中文)
 description: "从命令行创建和管理 Heroku 应用。"
 content_hash: 282f142a94909d8791ce40401d7a2fa3c3c44cea
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/heroku.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # heroku
 

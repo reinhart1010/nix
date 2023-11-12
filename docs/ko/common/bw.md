@@ -3,6 +3,7 @@ layout: page
 title: common/bw (한국어)
 description: "Bitwarden 보관함에 접속과 관리를 위한 CLI."
 content_hash: 4ba20ec11050208f8dedd2f5d6ea3cb5b6ae8cc7
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/bw.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/bw.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bw
 

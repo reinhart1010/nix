@@ -3,6 +3,7 @@ layout: page
 title: common/gcc (தமிழ்)
 description: "C மற்றும் C++ மூலக் கோப்புகளை முன் செயலாக்கம் செய்து தொகுத்து, பின்னர் அவற்றைச் சேகரித்து இணைக்கவும்."
 content_hash: b312cdec018256b8a7b48e58b17edfbdd3d2328c
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/gcc.html
@@ -10,12 +11,19 @@ related_topics:
   - title: English version
     url: /en/common/gcc.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/gcc.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/gcc.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/gcc.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/gcc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gcc
 

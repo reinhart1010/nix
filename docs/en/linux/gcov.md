@@ -3,7 +3,8 @@ layout: page
 title: linux/gcov (English)
 description: "Code coverage analysis and profiling tool that discovers untested parts of a program."
 content_hash: 1b5d5b1007e20ac7ec0db29bcd5cb2eab566439c
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gcov
 

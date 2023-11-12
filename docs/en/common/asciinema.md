@@ -3,7 +3,7 @@ layout: page
 title: common/asciinema (English)
 description: "Record and replay terminal sessions, and optionally share them on asciinema.org."
 content_hash: 3f63213346c27ef16a2b6561fc2265961a119771
-last_modified_at: 2022-12-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/asciinema.html
@@ -23,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/asciinema.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # asciinema
 

@@ -3,6 +3,12 @@ layout: page
 title: linux/eject (English)
 description: "Eject cds, floppy disks and tape drives."
 content_hash: 7ecad74398936d16fc0d97adb0cb15fddd018f83
+last_modified_at: 2023-11-12
+related_topics:
+  - title: français version
+    url: /fr/linux/eject.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # eject
 

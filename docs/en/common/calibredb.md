@@ -3,6 +3,7 @@ layout: page
 title: common/calibredb (English)
 description: "Tool to manipulate the your e-book database."
 content_hash: 2fbd04234019861d0379a0f7f7d9deb17916ca1f
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/calibredb.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/calibredb.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # calibredb
 

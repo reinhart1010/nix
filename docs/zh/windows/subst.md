@@ -3,10 +3,12 @@ layout: page
 title: windows/subst (中文)
 description: "将路径与虚拟驱动器号关联。"
 content_hash: 21628370a5c540a3e886833c23ff13a548f5d5cc
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/subst.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # subst
 

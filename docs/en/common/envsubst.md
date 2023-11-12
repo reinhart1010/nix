@@ -3,11 +3,12 @@ layout: page
 title: common/envsubst (English)
 description: "Substitutes environment variables with their value in shell format strings."
 content_hash: dc163856511797d8c55b7becfa50ef218c180b19
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/envsubst.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # envsubst
 

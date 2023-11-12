@@ -3,6 +3,12 @@ layout: page
 title: common/kubectl-logs (English)
 description: "Show logs for containers in a pod."
 content_hash: 34cfc1efc76067b2921b27d3234e102d4f2242ce
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/kubectl-logs.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # kubectl logs
 

@@ -3,10 +3,21 @@ layout: page
 title: sunos/svcs (தமிழ்)
 description: "இயங்கும் சேவைகள் பற்றிய தகவல்களை பட்டியலிடுங்கள்."
 content_hash: 1bdf2927332c79e87a944737f8b013b038331d17
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/sunos/svcs.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/sunos/svcs.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/sunos/svcs.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/sunos/svcs.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # svcs
 

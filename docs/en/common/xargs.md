@@ -3,6 +3,8 @@ layout: page
 title: common/xargs (English)
 description: "Execute a command with piped arguments coming from another command, a file, etc."
 content_hash: b10dddece5b1137447706bc78f7d202674853168
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xargs
 

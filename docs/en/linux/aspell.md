@@ -3,7 +3,7 @@ layout: page
 title: linux/aspell (English)
 description: "Interactive spell checker."
 content_hash: 844823fa3bd6fb534e2ad976cf96c89c716a5966
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/aspell.html
@@ -20,6 +20,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/aspell.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aspell
 

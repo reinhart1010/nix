@@ -3,10 +3,12 @@ layout: page
 title: linux/ip-route (Türkçe)
 description: "IP yönlendirme tablosu yönetimi alt komutu."
 content_hash: d6b03227a07164ff387ddabce6a4d9a515d01c08
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/ip-route.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ip route
 

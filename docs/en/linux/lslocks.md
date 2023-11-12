@@ -3,7 +3,8 @@ layout: page
 title: linux/lslocks (English)
 description: "List local system locks."
 content_hash: d216cd800f7ee943c4623ada9049af30cb0927fb
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lslocks
 

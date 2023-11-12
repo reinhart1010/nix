@@ -3,9 +3,16 @@ layout: page
 title: common/asdf (中文)
 description: "可扩展的包版本管理器，支持 Nodejs、Ruby、Elixir 和 Erlang 等。"
 content_hash: d17102c41062ca0ac54bc2b8ebdfe969fc7dd765
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/asdf.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/asdf.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/asdf.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/asdf.html
@@ -19,6 +26,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/asdf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # asdf
 

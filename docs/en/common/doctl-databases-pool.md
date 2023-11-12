@@ -3,12 +3,10 @@ layout: page
 title: common/doctl-databases-pool (English)
 description: "Manage connection pools for your database cluster."
 content_hash: 172aff7bec32efe693e04c309f7bb89792be57e5
-last_modified_at: 2023-10-12
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># doctl databases pool
+# doctl databases pool
 
 Manage connection pools for your database cluster.
 More information: <https://docs.digitalocean.com/reference/doctl/reference/databases/pool/>.

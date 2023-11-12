@@ -3,10 +3,12 @@ layout: page
 title: common/keybase (español)
 description: "Directorio de claves que conecta identidades en redes sociales a claves encriptadas de una manera públicamente auditable."
 content_hash: 0a62b545ebafd4bc7cee76db73eccd3d4959067c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/keybase.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # keybase
 

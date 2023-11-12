@@ -3,13 +3,18 @@ layout: page
 title: common/conda (italiano)
 description: "Gestione pacchetti, dipendenze ed ambiente per qualsiasi linguaggio di programmazione."
 content_hash: 9f7e8f74f53e0f204524b5e13d145bc562f46173
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/conda.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/conda.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/conda.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # conda
 

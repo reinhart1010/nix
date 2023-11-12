@@ -3,12 +3,14 @@ layout: page
 title: common/mkfile (中文)
 description: "创建一个或多个任意大小的空文件。"
 content_hash: d6daa3b7f61822b48a740267a495829317048b93
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+related_topics:
+  - title: English version
+    url: /en/common/mkfile.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mkfile
+# mkfile
 
 创建一个或多个任意大小的空文件。
 更多信息：<https://manned.org/mkfile>.

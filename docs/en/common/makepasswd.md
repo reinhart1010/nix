@@ -3,7 +3,8 @@ layout: page
 title: common/makepasswd (English)
 description: "Generate and encrypt passwords."
 content_hash: e3607b7195d448c740f5200ccb5b57bf7f99675b
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # makepasswd
 

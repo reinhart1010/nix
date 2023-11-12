@@ -3,6 +3,7 @@ layout: page
 title: common/behat (한국어)
 description: "Behaviour-Driven 개발을 위한 PHP 프레임워크."
 content_hash: 3f6f2f7de9e6cc9ddd49d6aeb607ba208d8b5069
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/behat.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/behat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # behat
 

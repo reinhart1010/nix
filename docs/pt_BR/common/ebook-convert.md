@@ -3,18 +3,20 @@ layout: page
 title: common/ebook-convert (português (Brasil))
 description: "Pode ser usado para converter e-books entre os fomatos comuns, como PDF, EPUB e MOBI."
 content_hash: 387636a429d5f0298c567c2fbc3d3f89872abad5
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/ebook-convert.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/ebook-convert.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ebook-convert.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ebook-convert
+# ebook-convert
 
 Pode ser usado para converter e-books entre os fomatos comuns, como PDF, EPUB e MOBI.
 Faz parte da biblioteca de ferramentas Calibre e-book.

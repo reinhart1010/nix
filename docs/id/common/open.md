@@ -3,11 +3,15 @@ layout: page
 title: common/open (Indonesia)
 description: "`open` dapat merujuk ke beberapa perintah dengan nama yang sama."
 content_hash: 61ee3442e1b5918458535ff114a4e84ea352ea4a
-last_modified_at: 2023-10-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/open.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/open.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # open
 

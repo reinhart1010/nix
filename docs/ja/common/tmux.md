@@ -3,7 +3,7 @@ layout: page
 title: common/tmux (日本語)
 description: "端末のマルチプレクサ。ウィンドウやペインなどによる複数セッションを可能にします。"
 content_hash: 1bf5e7909b2c23bc381acff595539680d584af47
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/tmux.html
@@ -20,6 +20,7 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/tmux.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tmux
 

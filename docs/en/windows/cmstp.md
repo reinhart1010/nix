@@ -3,7 +3,7 @@ layout: page
 title: windows/cmstp (English)
 description: "Manage connection service profiles."
 content_hash: 8b531de0173aed1be317bca02521411dd6deb715
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: தமிழ் version
     url: /ta/windows/cmstp.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/cmstp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cmstp
 

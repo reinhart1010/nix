@@ -3,15 +3,14 @@ layout: page
 title: linux/rpm-ostree (தமிழ்)
 description: "ஒரு கலப்பின படம்/தொகுப்பு அமைப்பு."
 content_hash: 1d8bd438b864d1d59c6fcce6c572f48a46216fae
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/rpm-ostree.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rpm-ostree
+# rpm-ostree
 
 ஒரு கலப்பின படம்/தொகுப்பு அமைப்பு.
 ostree வரிசைப்படுத்தல்கள், தொகுப்பு அடுக்குகள், கோப்பு முறைமை மேலடுக்குகள் மற்றும் துவக்க உள்ளமைவு ஆகியவற்றை நிர்வகிக்கவும்.

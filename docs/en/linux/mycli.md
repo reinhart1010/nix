@@ -3,6 +3,8 @@ layout: page
 title: linux/mycli (English)
 description: "A CLI for MySQL, MariaDB, and Percona with auto-completion and syntax highlighting."
 content_hash: 8a13fc866327d0cee95657f5ca663a2cbbaed05c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mycli
 

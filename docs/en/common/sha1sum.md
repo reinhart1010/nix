@@ -3,7 +3,7 @@ layout: page
 title: common/sha1sum (English)
 description: "Calculate SHA1 cryptographic checksums."
 content_hash: b2178281d00f4a72f3a9e4d8604f92e8450991b9
-last_modified_at: 2023-05-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: sh version
     url: /sh/common/sha1sum.html
@@ -11,6 +11,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/sha1sum.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sha1sum
 

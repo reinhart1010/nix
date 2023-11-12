@@ -3,6 +3,8 @@ layout: page
 title: common/tlmgr-check (English)
 description: "Check the consistency of a TeX Live installation."
 content_hash: 7bfb7b1e86b5bea8b26f347cd04a506b44025a1d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tlmgr check
 

@@ -3,6 +3,12 @@ layout: page
 title: common/omz (English)
 description: "Oh My Zsh command-line tool."
 content_hash: 57aec86aa0d6a15e4a35ce90f755225bc28a6ee8
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/omz.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # omz
 

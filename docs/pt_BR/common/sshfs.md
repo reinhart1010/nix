@@ -3,7 +3,7 @@ layout: page
 title: common/sshfs (português (Brasil))
 description: "Cliente de sistema de arquivos baseado em SSH."
 content_hash: 846dff957b17c4d2c1aa57a000913dd8c2f27596
-last_modified_at: 2023-09-18
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/sshfs.html
@@ -11,11 +11,9 @@ related_topics:
   - title: English version
     url: /en/common/sshfs.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># sshfs
+# sshfs
 
 Cliente de sistema de arquivos baseado em SSH.
 Mais informações: <https://github.com/libfuse/sshfs>.

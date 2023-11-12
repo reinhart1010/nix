@@ -3,7 +3,7 @@ layout: page
 title: common/apm (français)
 description: "Gestionnaire de paquets pour Atom."
 content_hash: f30cbad155205968a6455dedac3db90d6d3a54cb
-last_modified_at: 2023-09-10
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/apm.html
@@ -23,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/apm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apm
 

@@ -3,7 +3,8 @@ layout: page
 title: common/firebase (English)
 description: "Test, manage, and deploy Firebase projects."
 content_hash: 338c9c99fc774c35aecb34d1928904326b5fd26a
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # firebase
 

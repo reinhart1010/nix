@@ -3,7 +3,7 @@ layout: page
 title: windows/cmd (español)
 description: "El intérprete de comandos de Windows."
 content_hash: f443d32bbddac1f3cf580a532c7d7e0d15734ed0
-last_modified_at: 2023-10-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/cmd.html
@@ -35,6 +35,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/cmd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cmd
 

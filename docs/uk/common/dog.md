@@ -3,15 +3,14 @@ layout: page
 title: common/dog (українська)
 description: "Утиліта пошуку DNS."
 content_hash: e7c9a567c0c3cd689da9e2ff3dbe158807ff8018
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/dog.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dog
+# dog
 
 Утиліта пошуку DNS.
 Вона має кольоровий вихід, підтримує протоколи DNS-over-TLS і DNS-over-HTTPS та може видавати JSON.

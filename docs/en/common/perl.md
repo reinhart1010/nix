@@ -3,11 +3,12 @@ layout: page
 title: common/perl (English)
 description: "The Perl 5 language interpreter."
 content_hash: ae856694e8d376adfc9896befcaab20aed702d45
-last_modified_at: 2023-10-24
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/perl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # perl
 

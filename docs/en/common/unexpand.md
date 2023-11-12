@@ -3,7 +3,8 @@ layout: page
 title: common/unexpand (English)
 description: "Convert spaces to tabs."
 content_hash: ec8eb81071d4a70e4571a8ddab03a5a01175376d
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # unexpand
 

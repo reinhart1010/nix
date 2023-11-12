@@ -3,10 +3,12 @@ layout: page
 title: linux/chkconfig (português (Brasil))
 description: "Gerencia o runlevel dos serviços no CentOS 6."
 content_hash: 150028bb6f5da82edc5064564b6168134f1a8383
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/chkconfig.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chkconfig
 

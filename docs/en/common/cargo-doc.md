@@ -3,7 +3,7 @@ layout: page
 title: common/cargo-doc (English)
 description: "Build the documentation of Rust packages."
 content_hash: 8188707bff514815a1dbdc6623be17d6590a040b
-last_modified_at: 2023-10-30
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/cargo-doc.html
@@ -11,6 +11,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/cargo-doc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cargo doc
 

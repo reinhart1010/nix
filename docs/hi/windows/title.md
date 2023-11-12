@@ -3,7 +3,7 @@ layout: page
 title: windows/title (हिन्दी)
 description: "कमांड प्रॉम्प्ट विंडो का शीर्षक सेट करें।"
 content_hash: 60f91e3a1de98275c82c9c589938266177ec34bb
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/windows/title.html
@@ -23,6 +23,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/title.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # title
 

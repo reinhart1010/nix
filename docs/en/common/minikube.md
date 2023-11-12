@@ -3,7 +3,8 @@ layout: page
 title: common/minikube (English)
 description: "Tool to run Kubernetes locally."
 content_hash: 046d238ee78f9dc78c2cdc787ca496f4f6a1b6d2
-last_modified_at: 2023-07-17
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # minikube
 

@@ -3,7 +3,7 @@ layout: page
 title: common/ln (한국어)
 description: "파일 및 디렉터리에 대한 링크를 생성합니다."
 content_hash: 5a5e795b74cb2a32ec9a87b4a7e7395aae53d5a7
-last_modified_at: 2023-10-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ln.html
@@ -26,11 +26,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ln.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ln
+# ln
 
 파일 및 디렉터리에 대한 링크를 생성합니다.
 더 많은 정보: <https://www.gnu.org/software/coreutils/ln>.

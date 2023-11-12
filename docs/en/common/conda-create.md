@@ -3,11 +3,12 @@ layout: page
 title: common/conda-create (English)
 description: "Create new conda environments."
 content_hash: 30103b6140c6952f4a38baffdc4a102d51537441
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/conda-create.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # conda create
 

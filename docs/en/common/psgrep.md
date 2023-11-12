@@ -3,6 +3,8 @@ layout: page
 title: common/psgrep (English)
 description: "Search running processes with `grep`."
 content_hash: f2aab71b56b31cb0b0f9ece42bc2ea7c6bde6c23
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # psgrep
 

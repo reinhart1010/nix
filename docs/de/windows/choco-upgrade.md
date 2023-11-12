@@ -3,16 +3,30 @@ layout: page
 title: windows/choco-upgrade (Deutsch)
 description: "Aktualisiere mit Chocolatey ein oder mehrere Pakete."
 content_hash: 27e0e307711cb3437a5499698a6ddf1f36aebced
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/choco-upgrade.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/windows/choco-upgrade.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/choco-upgrade.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/windows/choco-upgrade.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/choco-upgrade.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/choco-upgrade.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/choco-upgrade.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco upgrade
 

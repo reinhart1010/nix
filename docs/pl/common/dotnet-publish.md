@@ -3,6 +3,7 @@ layout: page
 title: common/dotnet-publish (polski)
 description: "Opublikuj aplikację .NET i jej zależności w celu wdrożenia na docelowym systemie."
 content_hash: 20bb0efb2620220de3f2371f51efe2de48f37037
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/dotnet-publish.html
@@ -13,6 +14,7 @@ related_topics:
   - title: русский version
     url: /ru/common/dotnet-publish.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dotnet publish
 

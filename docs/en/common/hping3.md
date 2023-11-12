@@ -3,7 +3,8 @@ layout: page
 title: common/hping3 (English)
 description: "Advanced ping utility which supports protocols such TCP, UDP, and raw IP."
 content_hash: 20c6400b04b75d140bbc969d6922381772fd4aac
-last_modified_at: 2023-05-21
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # hping3
 

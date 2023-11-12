@@ -3,7 +3,7 @@ layout: page
 title: linux/alien (français)
 description: "Convertit différents paquets d'installation vers d'autres formats."
 content_hash: 892682a45df72d970507359969eeab0f2362b9b7
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/alien.html
@@ -20,6 +20,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/linux/alien.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # alien
 

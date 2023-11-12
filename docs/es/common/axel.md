@@ -3,7 +3,7 @@ layout: page
 title: common/axel (español)
 description: "Acelerador de descargas."
 content_hash: 69c6aa213c87c1cf4fad3ba89ef0096514146647
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/axel.html
@@ -23,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/axel.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # axel
 

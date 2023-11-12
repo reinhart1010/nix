@@ -3,10 +3,12 @@ layout: page
 title: common/minisign (English)
 description: "A dead simple tool to sign files and verify signatures."
 content_hash: e6584a29836af3a28f7175b0077bb8521734ead1
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/minisign.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # minisign
 

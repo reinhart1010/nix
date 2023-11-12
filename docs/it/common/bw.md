@@ -3,6 +3,7 @@ layout: page
 title: common/bw (italiano)
 description: "CLI per accedere e gestire vault Bitwarden."
 content_hash: 79332b81fe4691d05c9e077ded802ccb33e4a0c6
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/bw.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/bw.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bw
 

@@ -3,10 +3,12 @@ layout: page
 title: common/ember (italiano)
 description: "Utilità da lina di comando per Ember.js."
 content_hash: c260fead17996f83916f73d5b64910e5b0d67139
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ember.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ember
 

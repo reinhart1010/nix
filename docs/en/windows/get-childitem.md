@@ -3,7 +3,8 @@ layout: page
 title: windows/get-childitem (English)
 description: "List items in a directory."
 content_hash: 6d92c1a397056a175b5779f829f93a8bc99e18a7
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # Get-ChildItem
 

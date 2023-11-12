@@ -3,6 +3,8 @@ layout: page
 title: linux/chfn (English)
 description: "Update `finger` info for a user."
 content_hash: 254aeeedabf227abb7dc8ecc6cde542d56532587
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # chfn
 

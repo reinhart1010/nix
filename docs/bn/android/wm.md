@@ -3,7 +3,7 @@ layout: page
 title: android/wm (বাংলা)
 description: "একটি অ্যান্ড্রয়েড ডিভাইসের স্ক্রীন সম্পর্কে তথ্য দেখান।"
 content_hash: 6f8b73e7a15390e52f2a6df9bb080fdc184c7b0f
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/android/wm.html
@@ -59,6 +59,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/wm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wm
 

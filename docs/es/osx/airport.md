@@ -3,6 +3,7 @@ layout: page
 title: osx/airport (español)
 description: "Utilidad de configuración de red inalámbrica."
 content_hash: 8f2e075bd9eb2f9a90abf358790de6cb720fe1f4
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/airport.html
@@ -10,9 +11,13 @@ related_topics:
   - title: italiano version
     url: /it/osx/airport.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/airport.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/airport.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # airport
 

@@ -3,15 +3,14 @@ layout: page
 title: common/ncdu (dansk)
 description: "Diskbrugsanalysator med en ncurses-grænseflade."
 content_hash: 5889f69d4a051c1600c69b9adedba3053cec2ce0
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ncdu.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ncdu
+# ncdu
 
 Diskbrugsanalysator med en ncurses-grænseflade.
 Mere information: <https://manned.org/ncdu>.

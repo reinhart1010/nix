@@ -3,6 +3,7 @@ layout: page
 title: linux/btrfs (中文)
 description: "一种基于写时复制（COW）原理的 Linux 文件系统。"
 content_hash: cd9062b6980862416063287d9d5a51e831d91644
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/btrfs.html
@@ -10,9 +11,13 @@ related_topics:
   - title: français version
     url: /fr/linux/btrfs.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/btrfs.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/btrfs.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # btrfs
 

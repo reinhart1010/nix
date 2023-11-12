@@ -3,12 +3,16 @@ layout: page
 title: common/apropos (한국어)
 description: "메뉴얼 페이지에서 검색, 예를 들어 새로운 명령어 검색."
 content_hash: 4a87012ed267ec1399662a46a62ea54c5bebd117
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/apropos.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/apropos.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/apropos.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/apropos.html
@@ -19,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/apropos.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apropos
 

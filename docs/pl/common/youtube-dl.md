@@ -3,7 +3,7 @@ layout: page
 title: common/youtube-dl (polski)
 description: "Pobieraj wideo i audio z YouTube i podobnych portali."
 content_hash: 725187e060d93074dde806a88854256261085422
-last_modified_at: 2023-11-01
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/common/youtube-dl.html
@@ -17,6 +17,7 @@ related_topics:
   - title: italiano version
     url: /it/common/youtube-dl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # youtube-dl
 

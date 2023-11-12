@@ -3,7 +3,8 @@ layout: page
 title: linux/ifmetric (English)
 description: "An IPv4 route metrics manipulation tool."
 content_hash: 37e6f8bb845bfaa5d3ea104a3a5f7bdf060064d2
-last_modified_at: 2023-04-10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ifmetric
 

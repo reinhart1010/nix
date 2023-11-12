@@ -3,6 +3,8 @@ layout: page
 title: linux/fail2ban-client (English)
 description: "Configure and control fail2ban server."
 content_hash: bfdb44caa3bb3ab01051861367716a0f7ec75180
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fail2ban-client
 

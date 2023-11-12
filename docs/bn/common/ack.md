@@ -3,7 +3,7 @@ layout: page
 title: common/ack (বাংলা)
 description: "একটি গ্রেপের মত খোঁজ টুল, ডেভেলপারদের জন্য অপটিমাইজড করা."
 content_hash: 6a53d74666cf6360c2ae382b1845544635d42fd4
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ack.html
@@ -41,6 +41,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ack.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ack
 

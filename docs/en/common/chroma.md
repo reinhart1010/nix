@@ -3,7 +3,8 @@ layout: page
 title: common/chroma (English)
 description: "A general-purpose syntax highlighter."
 content_hash: 78cecf5f35b529b2998d50421fec6f8c3a5a1b17
-last_modified_at: 2023-05-17
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # chroma
 

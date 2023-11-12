@@ -3,7 +3,7 @@ layout: page
 title: common/assimp (한국어)
 description: "Open Asset Import Library 위한 Command-line 클라이언트."
 content_hash: 9dc9f6f3c8bb843e06256a20205960c3b01b961e
-last_modified_at: 2023-04-10
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/assimp.html
@@ -17,6 +17,7 @@ related_topics:
   - title: italiano version
     url: /it/common/assimp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # assimp
 

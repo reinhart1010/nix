@@ -3,10 +3,12 @@ layout: page
 title: linux/grub-install (中文)
 description: "安装 GRUB 到设备。"
 content_hash: f83d8349ad3efca2da42a4b99df78342f152e601
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/grub-install.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # grub-install
 

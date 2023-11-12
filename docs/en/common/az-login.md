@@ -3,11 +3,12 @@ layout: page
 title: common/az-login (English)
 description: "Log in to Azure."
 content_hash: 0d24611cb68a68caced49a3ab669fcc338e05f42
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/az-login.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # az login
 

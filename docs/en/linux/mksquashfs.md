@@ -3,12 +3,14 @@ layout: page
 title: linux/mksquashfs (English)
 description: "Create or append files and directories to squashfs filesystems."
 content_hash: 8fbdd379cafe1d27b35692031251902fd256838b
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
+related_topics:
+  - title: polski version
+    url: /pl/linux/mksquashfs.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mksquashfs
+# mksquashfs
 
 Create or append files and directories to squashfs filesystems.
 More information: <https://manned.org/mksquashfs>.

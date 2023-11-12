@@ -3,7 +3,7 @@ layout: page
 title: windows/xcopy (English)
 description: "Copy files and directory trees."
 content_hash: 12867f497ccb8ffb4affa5e644e38b0e39bf4302
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/xcopy.html
@@ -11,12 +11,16 @@ related_topics:
   - title: Indonesia version
     url: /id/windows/xcopy.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/xcopy.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/windows/xcopy.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/xcopy.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xcopy
 

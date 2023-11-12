@@ -3,6 +3,8 @@ layout: page
 title: common/nudoku (English)
 description: "Sudoku game in terminal."
 content_hash: 7a849ac115100e306218bf175a6bf618b5097eea
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # nudoku
 

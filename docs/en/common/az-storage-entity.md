@@ -3,7 +3,8 @@ layout: page
 title: common/az-storage-entity (English)
 description: "Manage Azure Table storage entities."
 content_hash: 15fe8e825d22306e658d798459449b6ca80361f0
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # az storage entity
 

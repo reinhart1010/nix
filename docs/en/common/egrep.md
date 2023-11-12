@@ -3,11 +3,12 @@ layout: page
 title: common/egrep (English)
 description: "Find patterns in files using extended regular expression (supports `?`, `+`, `{}`, `()` and `|`)."
 content_hash: 283012a0288558812f16280ca36f6ae34876421f
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/egrep.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # egrep
 

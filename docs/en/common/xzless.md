@@ -3,7 +3,8 @@ layout: page
 title: common/xzless (English)
 description: "Display text from `xz` and `lzma` compressed files."
 content_hash: b612dee26e23615164764d5c02ee0b543deb88a4
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xzless
 

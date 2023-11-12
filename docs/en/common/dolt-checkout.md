@@ -3,6 +3,8 @@ layout: page
 title: common/dolt-checkout (English)
 description: "Checkout the work tree or tables to a specific branch or commit."
 content_hash: b46349e04270dabf0c8350a941455812525c059d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dolt checkout
 

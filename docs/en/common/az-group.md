@@ -3,11 +3,12 @@ layout: page
 title: common/az-group (English)
 description: "Manage resource groups and template deployments."
 content_hash: 6328563a37a90393efa2b66add49d8017e470413
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/az-group.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # az group
 

@@ -3,7 +3,7 @@ layout: page
 title: osx/g[ (polski)
 description: "To polecenie jest aliasem `-p linux [`."
 content_hash: 752115ee64b97b5f7cb9550a75f82c9ad98fece5
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/g[.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/g[.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # g[
 

@@ -3,10 +3,15 @@ layout: page
 title: linux/fatlabel (português (Brasil))
 description: "Define ou exibe o rótulo de uma partição FAT32."
 content_hash: 0d1288b2172c12196fed15928d12a38c212f39fa
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/fatlabel.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/fatlabel.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fatlabel
 

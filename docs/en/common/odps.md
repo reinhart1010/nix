@@ -3,6 +3,8 @@ layout: page
 title: common/odps (English)
 description: "Aliyun ODPS (Open Data Processing Service) command-line tool."
 content_hash: be39e337cddf6d044f928ea54194b5cdb272a63e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # odps
 

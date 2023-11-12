@@ -3,6 +3,7 @@ layout: page
 title: common/dotnet-publish (English)
 description: "Publish a .NET application and its dependencies to a directory for deployment to a hosting system."
 content_hash: 7fc484ffe253483a8af7b117b6bd7865d0eb685e
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/dotnet-publish.html
@@ -13,6 +14,7 @@ related_topics:
   - title: русский version
     url: /ru/common/dotnet-publish.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dotnet publish
 

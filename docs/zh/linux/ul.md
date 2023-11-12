@@ -3,10 +3,12 @@ layout: page
 title: linux/ul (中文)
 description: "执行文本的下划线。"
 content_hash: 13c9fd6f05cd361d113cc87d57c4f4f13d1eed7a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/ul.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ul
 

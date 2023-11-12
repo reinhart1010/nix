@@ -3,7 +3,8 @@ layout: page
 title: common/meson (English)
 description: "SCons-like build system that uses Python as a front-end language and Ninja as a building backend."
 content_hash: e14ebecf851afdac6d23e4b677e9a185d9890a78
-last_modified_at: 2023-05-02
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # meson
 

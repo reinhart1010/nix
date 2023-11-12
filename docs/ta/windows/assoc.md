@@ -3,7 +3,7 @@ layout: page
 title: windows/assoc (தமிழ்)
 description: "கோப்பு நீட்டிப்புகள் மற்றும் கோப்பு வகைகளுக்கு இடையே உள்ள தொடர்பைக் காட்டவும் அல்லது மாற்றவும்."
 content_hash: 62a641088117774411fdf2fd547a8a59571ced3c
-last_modified_at: 2023-06-02
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/assoc.html
@@ -17,17 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/assoc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/assoc.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># assoc
+# assoc
 
 கோப்பு நீட்டிப்புகள் மற்றும் கோப்பு வகைகளுக்கு இடையே உள்ள தொடர்பைக் காட்டவும் அல்லது மாற்றவும்.
 மேலும் விவரத்திற்கு: <https://learn.microsoft.com/windows-server/administration/windows-commands/assoc>.

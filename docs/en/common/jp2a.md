@@ -3,6 +3,8 @@ layout: page
 title: common/jp2a (English)
 description: "Convert JPEG images to ASCII."
 content_hash: 32c2ca9fc9c18ca3a95b970e2fffa5233eace74e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # jp2a
 

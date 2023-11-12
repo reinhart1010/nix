@@ -3,7 +3,8 @@ layout: page
 title: common/rbash (English)
 description: "Restricted Bash shell, equivalent to `bash --restricted`."
 content_hash: 1ec06b4b7801f3e9c202c878f137ea0e90b72b08
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rbash
 

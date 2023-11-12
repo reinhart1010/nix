@@ -3,6 +3,8 @@ layout: page
 title: linux/faketime (English)
 description: "Fake the system time for a given command."
 content_hash: 283d0ebaf7c6faecbce7f764d86a810bc7d3a975
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # faketime
 

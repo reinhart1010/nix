@@ -3,7 +3,8 @@ layout: page
 title: common/duckdb (English)
 description: "Command-line client for DuckDB, an in-process analytical SQL engine."
 content_hash: 33e06a22653026c107c02b1b2f030a74e486e4ba
-last_modified_at: 2023-10-24
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # duckdb
 

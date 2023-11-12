@@ -3,6 +3,7 @@ layout: page
 title: common/git-show-branch (italiano)
 description: "Mostra rami e relativi commit."
 content_hash: 31fe7f7b348db006af2908b926bc8bdf424fe160
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-show-branch.html
@@ -10,6 +11,10 @@ related_topics:
   - title: français version
     url: /fr/common/git-show-branch.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-show-branch.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git show-branch
 

@@ -3,7 +3,7 @@ layout: page
 title: common/git-push (português (Brasil))
 description: "Envia commits para um repositório remoto."
 content_hash: 78caebff225f2a0d408bd0946a5d2639da892fea
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-push.html
@@ -26,11 +26,9 @@ related_topics:
   - title: українська version
     url: /uk/common/git-push.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git push
+# git push
 
 Envia commits para um repositório remoto.
 Mais informações: <https://git-scm.com/docs/git-push>.

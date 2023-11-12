@@ -3,6 +3,7 @@ layout: page
 title: common/git-help (français)
 description: "Afficher le manuel de Git."
 content_hash: c3d2d26756ab7de6b197352b38b3574744734499
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-help.html
@@ -13,6 +14,10 @@ related_topics:
   - title: italiano version
     url: /it/common/git-help.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-help.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git help
 

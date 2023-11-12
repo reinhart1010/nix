@@ -3,6 +3,12 @@ layout: page
 title: common/dotnet-tool (English)
 description: "Manage .NET tools and search published tools in NuGet."
 content_hash: e22734f0e15f215661d77f70834dcb1a8bfe9a7d
+last_modified_at: 2023-11-12
+related_topics:
+  - title: polski version
+    url: /pl/common/dotnet-tool.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dotnet tool
 

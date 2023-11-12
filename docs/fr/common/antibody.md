@@ -3,15 +3,17 @@ layout: page
 title: common/antibody (français)
 description: "Le gestionnaire de modules shell \"le plus rapide\"."
 content_hash: 6fc815dece01738f26c1670f896bdd9dbc60725c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/antibody.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/antibody.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># antibody
+# antibody
 
 Le gestionnaire de modules shell "le plus rapide".
 Plus d'informations : <https://getantibody.github.io>.

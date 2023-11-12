@@ -3,16 +3,14 @@ layout: page
 title: common/vercel (한국어)
 description: "당신의 Vercel 프로젝트들을 관리하고 배포하세요."
 content_hash: d42a7cf86f4b2699acd872c713d55d290dace8e8
-last_modified_at: 2023-10-23
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/vercel.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># vercel
+# vercel
 
 당신의 Vercel 프로젝트들을 관리하고 배포하세요.
 더 많은 정보: <https://vercel.com/docs/cli>.

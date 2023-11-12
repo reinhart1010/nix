@@ -3,10 +3,15 @@ layout: page
 title: common/scp (हिन्दी)
 description: "सुरक्षित प्रति।"
 content_hash: c18f57664baa6dd0a2529f6b7f3e9d0190b8be39
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/scp.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/scp.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # scp
 

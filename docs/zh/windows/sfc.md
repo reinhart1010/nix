@@ -3,10 +3,12 @@ layout: page
 title: windows/sfc (中文)
 description: "扫描 Windows 系统文件的完整性。"
 content_hash: fd400f204f45d2e004dfa676ff48b56a39cb2fa0
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/sfc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sfc
 

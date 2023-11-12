@@ -3,12 +3,10 @@ layout: page
 title: common/cargo-vendor (English)
 description: "Vendor all dependencies of a project into the specified directory (default: `vendor`)."
 content_hash: 9e191740e599f6ed15390ec645fe33ab15671c9f
-last_modified_at: 2023-11-01
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cargo vendor
+# cargo vendor
 
 Vendor all dependencies of a project into the specified directory (default: `vendor`).
 More information: <https://doc.rust-lang.org/cargo/commands/cargo-vendor.html>.

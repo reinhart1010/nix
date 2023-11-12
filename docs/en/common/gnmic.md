@@ -3,6 +3,8 @@ layout: page
 title: common/gnmic (English)
 description: "A gNMI command-line client."
 content_hash: 3570fd10a8d830567bfab3f571617fbb694447a2
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gnmic
 

@@ -3,7 +3,8 @@ layout: page
 title: windows/test-json (English)
 description: "Tests whether a string is a valid JSON document."
 content_hash: 4af99390a29a822c5aa148159d83f7df09e47831
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # Test-Json
 

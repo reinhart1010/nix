@@ -3,12 +3,14 @@ layout: page
 title: common/airshare (English)
 description: "Transfer data between two machines in a local network."
 content_hash: bdb768f0cf8b8a03e77b73380e9ed9c267c412bc
-last_modified_at: 2023-05-28
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Nederlands version
+    url: /nl/common/airshare.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># airshare
+# airshare
 
 Transfer data between two machines in a local network.
 More information: <https://airshare.rtfd.io/en/latest/cli.html>.

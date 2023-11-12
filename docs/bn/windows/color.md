@@ -3,7 +3,7 @@ layout: page
 title: windows/color (বাংলা)
 description: "কনসোল পূর্বপরক্ষ এবং পৃষ্ঠভূমির রঙ নির্ধারণ করুন।"
 content_hash: 1e29320b8f8e96fa594fedc4a7f9c44af8c7d051
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/windows/color.html
@@ -32,6 +32,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/color.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # color
 

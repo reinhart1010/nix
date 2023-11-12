@@ -3,12 +3,10 @@ layout: page
 title: linux/wpctl (English)
 description: "Manage WirePlumber, a session and policy manager for PipeWire."
 content_hash: f0216c4b3c8032815d512dbcf26c1c73e53a1c98
-last_modified_at: 2023-08-03
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># wpctl
+# wpctl
 
 Manage WirePlumber, a session and policy manager for PipeWire.
 Note: you can use the special name `@DEFAULT_SINK@` in place of `id` to operate on the default sink.

@@ -3,6 +3,12 @@ layout: page
 title: linux/ctr (English)
 description: "Manage `containerd` containers and images."
 content_hash: 282e3a90f206a4c6e97a1243f4e192d8cb5cfe60
+last_modified_at: 2023-11-12
+related_topics:
+  - title: français version
+    url: /fr/linux/ctr.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ctr
 

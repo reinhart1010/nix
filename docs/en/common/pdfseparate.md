@@ -3,11 +3,12 @@ layout: page
 title: common/pdfseparate (English)
 description: "Portable Document Format (PDF) file page extractor."
 content_hash: 21caf5e1944d5a6efda393355b3c81e2441da57a
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/pdfseparate.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pdfseparate
 

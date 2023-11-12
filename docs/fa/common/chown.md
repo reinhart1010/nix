@@ -3,7 +3,7 @@ layout: page
 title: common/chown (فارسی)
 description: "مالک فایل یا پوشه را تغییر میدهد."
 content_hash: d570fec098cb35f6245253debbb0aa93d86829d3
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/chown.html
@@ -35,6 +35,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/chown.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chown
 

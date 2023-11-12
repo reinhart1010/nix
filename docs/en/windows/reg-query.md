@@ -3,10 +3,12 @@ layout: page
 title: windows/reg-query (English)
 description: "Display the values of keys and sub keys in the registry."
 content_hash: f6e4cfa5383a889206f22b809810f24d439463d2
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/windows/reg-query.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # reg query
 

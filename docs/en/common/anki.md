@@ -3,12 +3,23 @@ layout: page
 title: common/anki (English)
 description: "Powerful, intelligent flashcard program."
 content_hash: d42bfef07b31d02c40bd47864ddbeb5e2ba5ba66
-last_modified_at: 2023-01-26
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/anki.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/anki.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/anki.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/anki.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># anki
+# anki
 
 Powerful, intelligent flashcard program.
 More information: <https://docs.ankiweb.net>.

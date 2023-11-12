@@ -3,10 +3,13 @@ layout: page
 title: windows/clip (Deutsch)
 description: "Kopieren von Inhalten der Befehlsausgabe in die Windows Zwischenablage."
 content_hash: 9f1cebe9bf5c665df2bfac070cc776993d69a57a
-last_modified_at: 2022-12-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/clip.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/clip.html
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/windows/clip.html
@@ -17,11 +20,12 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/clip.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/windows/clip.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># clip
+# clip
 
 Kopieren von Inhalten der Befehlsausgabe in die Windows Zwischenablage.
 Weitere Informationen: <https://learn.microsoft.com/windows-server/administration/windows-commands/clip>.

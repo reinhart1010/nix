@@ -3,6 +3,7 @@ layout: page
 title: common/rmdir (العربية)
 description: "يزيل الدليل."
 content_hash: 3b17da7de33c54e2aeeeb7494aeb8267b5aa934f
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/rmdir.html
@@ -19,11 +20,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/rmdir.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rmdir
+# rmdir
 
 يزيل الدليل.
 لمزيد من التفاصيل: <https://www.gnu.org/software/coreutils/rmdir>.

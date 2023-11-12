@@ -3,6 +3,7 @@ layout: page
 title: windows/chkdsk (தமிழ்)
 description: "பிழைகளுக்கு கோப்பு முறைமை மற்றும் தொகுதி மெட்டாடேட்டாவைச் சரிபார்க்கவும்."
 content_hash: 9ac66d9d9aa837c23e15dc215a105598a76f65bd
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/chkdsk.html
@@ -10,14 +11,15 @@ related_topics:
   - title: Indonesia version
     url: /id/windows/chkdsk.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/chkdsk.html
+    icon: bi bi-globe
   - title: ไทย version
     url: /th/windows/chkdsk.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># chkdsk
+# chkdsk
 
 பிழைகளுக்கு கோப்பு முறைமை மற்றும் தொகுதி மெட்டாடேட்டாவைச் சரிபார்க்கவும்.
 மேலும் விவரத்திற்கு: <https://learn.microsoft.com/windows-server/administration/windows-commands/chkdsk>.

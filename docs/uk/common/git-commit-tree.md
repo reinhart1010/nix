@@ -3,10 +3,15 @@ layout: page
 title: common/git-commit-tree (українська)
 description: "Низькорівнева утиліта для створення об'єктів комітів."
 content_hash: 37f41b78216aa193753623245f1e25806514de80
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-commit-tree.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-commit-tree.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git commit-tree
 

@@ -3,6 +3,7 @@ layout: page
 title: common/git-imerge (español)
 description: "Ejecuta una fusión o rebase entre dos ramas Git incrementalmente."
 content_hash: fd0e91721bfb068ce4f54dd3d45ff60a4c1c1257
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-imerge.html
@@ -16,6 +17,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-imerge.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git-imerge
 

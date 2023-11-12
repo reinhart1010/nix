@@ -3,16 +3,14 @@ layout: page
 title: common/dvc-add (português (Brasil))
 description: "Adiciona um arquivo modificado para o índice."
 content_hash: 15cc6c6828f110e21ff3b69f87b91479f51e8a15
-last_modified_at: 2023-10-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/dvc-add.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dvc add
+# dvc add
 
 Adiciona um arquivo modificado para o índice.
 Mais informações: <https://dvc.org/doc/command-reference/add>.

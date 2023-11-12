@@ -3,12 +3,10 @@ layout: page
 title: windows/wait-process (English)
 description: "Waits for the processes to be stopped before accepting more input."
 content_hash: 517a5fa7c5494ae6aba71131719c87110286c2c4
-last_modified_at: 2022-12-21
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># Wait-Process
+# Wait-Process
 
 Waits for the processes to be stopped before accepting more input.
 This command can only be used through PowerShell.

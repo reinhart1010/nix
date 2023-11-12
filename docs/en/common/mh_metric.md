@@ -3,11 +3,10 @@ layout: page
 title: common/mh_metric (English)
 description: "Calculate and enforce code metrics for MATLAB or Octave code."
 content_hash: 621c8bfda5cbb2be4cc438925fde3b2f1b23f766
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mh_metric
+# mh_metric
 
 Calculate and enforce code metrics for MATLAB or Octave code.
 More information: <https://misshit.org>.

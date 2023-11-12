@@ -3,7 +3,8 @@ layout: page
 title: linux/module (English)
 description: "Modify a users' environment using the module command."
 content_hash: 317d79e6250d65f449d88a4d74a74205bbc728de
-last_modified_at: 2023-02-21
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # module
 

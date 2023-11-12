@@ -3,7 +3,7 @@ layout: page
 title: osx/md5 (中文)
 description: "计算 MD5 加密和校验。"
 content_hash: 799b980b467dac3a9e2a88c303e48ae59db762a3
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/osx/md5.html
@@ -11,6 +11,10 @@ related_topics:
   - title: English version
     url: /en/osx/md5.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/md5.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # md5
 

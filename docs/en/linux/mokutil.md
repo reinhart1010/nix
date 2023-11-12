@@ -3,12 +3,10 @@ layout: page
 title: linux/mokutil (English)
 description: "Configure Secure Boot Machine Owner Keys (MOK)."
 content_hash: 4976194c64aa71f0e71d84d888f18bdd2e18acec
-last_modified_at: 2023-05-15
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mokutil
+# mokutil
 
 Configure Secure Boot Machine Owner Keys (MOK).
 Some operations, such as enabling and disabling Secure Boot or enrolling keys require a reboot.

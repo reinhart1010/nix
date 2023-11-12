@@ -3,6 +3,8 @@ layout: page
 title: linux/photorec (English)
 description: "Deleted file recovery tool."
 content_hash: 409fc4617f22080b5d6b00f5d9224ee2112caffe
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # photorec
 

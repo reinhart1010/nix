@@ -3,11 +3,12 @@ layout: page
 title: windows/reg-save (English)
 description: "Save a registry key, its sub keys and values to a file."
 content_hash: 9ffe768aa3e726511c2d90121b4142b66ccc0250
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/windows/reg-save.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # reg save
 

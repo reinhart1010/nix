@@ -3,6 +3,7 @@ layout: page
 title: common/csvpy (한국어)
 description: "csvkit에 포함된 CSV 파일을 Python 쉘로 로드."
 content_hash: a24d14449f5c512adfca689c6f7275d8f5daeb28
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/csvpy.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/csvpy.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # csvpy
 

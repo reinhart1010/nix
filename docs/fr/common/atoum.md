@@ -3,9 +3,13 @@ layout: page
 title: common/atoum (français)
 description: "Un framework de test unitaire pour PHP simple, moderne et intuitif."
 content_hash: d8ea2a657c118aea8bf30eb13e6c9e25e8197860
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/atoum.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/atoum.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/atoum.html
@@ -13,11 +17,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/atoum.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># atoum
+# atoum
 
 Un framework de test unitaire pour PHP simple, moderne et intuitif.
 Plus d'informations : <http://atoum.org>.

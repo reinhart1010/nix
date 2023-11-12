@@ -3,6 +3,7 @@ layout: page
 title: linux/cmus (català)
 description: "Reproductor de música per a la terminal."
 content_hash: 193106edaec5b9098c6a90f6f54907f8fdf7643a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/cmus.html
@@ -19,6 +20,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/cmus.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cmus
 

@@ -3,6 +3,8 @@ layout: page
 title: common/r2e (English)
 description: "Forwards RSS feeds to an email address."
 content_hash: 758cd0917e850fa89864907d264cbc2527d9c256
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # r2e
 

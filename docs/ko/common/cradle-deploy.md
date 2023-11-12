@@ -3,6 +3,7 @@ layout: page
 title: common/cradle-deploy (한국어)
 description: "Cradle 배포 관리."
 content_hash: 118572ae645d31b8a3cf80b73597cfcb90e5d9cc
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/cradle-deploy.html
@@ -13,6 +14,7 @@ related_topics:
   - title: italiano version
     url: /it/common/cradle-deploy.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cradle deploy
 

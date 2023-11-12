@@ -3,7 +3,8 @@ layout: page
 title: common/get-nodeversions (English)
 description: "List installed and available Node.js versions for `ps-nvm`."
 content_hash: 9aa591bce96678121c0bd97c6c4501fbb533d9f2
-last_modified_at: 2023-11-03
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # Get-NodeVersions
 

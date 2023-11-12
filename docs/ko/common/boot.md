@@ -3,6 +3,7 @@ layout: page
 title: common/boot (한국어)
 description: "Clojure 프로그래밍 언어를 위한 빌드."
 content_hash: e9bda610c62e238d3ad56a39dca834d183204f97
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/boot.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/boot.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # boot
 

@@ -3,6 +3,7 @@ layout: page
 title: common/rubocop (Indonesia)
 description: "Menganalisa file Ruby."
 content_hash: 63f1c10453c146ef7cb1f457da0daf2bfc419c05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/rubocop.html
@@ -10,14 +11,15 @@ related_topics:
   - title: español version
     url: /es/common/rubocop.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/rubocop.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/rubocop.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rubocop
+# rubocop
 
 Menganalisa file Ruby.
 Informasi lebih lanjut: <https://docs.rubocop.org/rubocop/usage/basic_usage.html>.

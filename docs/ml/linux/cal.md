@@ -3,6 +3,7 @@ layout: page
 title: linux/cal (മലയാളം)
 description: "ഇന്നത്തെ ദിവസം അടയാളപ്പെടുത്തിയുള്ള കലണ്ടർ വിവരം കാണിക്കുക ."
 content_hash: 1c145347b9e19fcb21452d96dd074f1d5316fa77
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/cal.html
@@ -16,12 +17,19 @@ related_topics:
   - title: español version
     url: /es/linux/cal.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/cal.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/cal.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/cal.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/cal.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cal
 

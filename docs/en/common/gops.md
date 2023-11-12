@@ -3,7 +3,8 @@ layout: page
 title: common/gops (English)
 description: "List and diagnose Go processes currently running on your system."
 content_hash: f998fd1bebed1a16a629e8c8e4fe6ea89f78e5b0
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gops
 

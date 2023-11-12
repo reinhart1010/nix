@@ -3,6 +3,8 @@ layout: page
 title: common/ghost (English)
 description: "A blogging platform and headless CMS."
 content_hash: 9d0db17d0705ecf98f0014cb3f5f82fc8ca764d6
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ghost
 

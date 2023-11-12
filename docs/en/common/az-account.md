@@ -3,11 +3,12 @@ layout: page
 title: common/az-account (English)
 description: "Manage Azure subscription information."
 content_hash: 40133499814a1bb2bb1494711998f046e61b46ed
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/az-account.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # az account
 

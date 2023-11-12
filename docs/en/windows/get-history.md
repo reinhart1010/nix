@@ -3,7 +3,8 @@ layout: page
 title: windows/get-history (English)
 description: "Display PowerShell command history."
 content_hash: 994429f691e9fa5441bb7e6edca35852e070042c
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # Get-History
 

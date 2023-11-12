@@ -3,6 +3,8 @@ layout: page
 title: linux/fuser (English)
 description: "Display process IDs currently using files or sockets."
 content_hash: b25e7d15fd830e7358d4f965116d97f833520822
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fuser
 

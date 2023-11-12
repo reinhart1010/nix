@@ -3,6 +3,7 @@ layout: page
 title: common/yes (Türkçe)
 description: "Bir şeyi tekrar tekrar yazdır."
 content_hash: 7bd7f5929491c2b46149be1f301e1869da52925e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/yes.html
@@ -22,6 +23,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/yes.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # yes
 

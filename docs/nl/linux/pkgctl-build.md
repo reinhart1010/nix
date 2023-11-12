@@ -3,16 +3,14 @@ layout: page
 title: linux/pkgctl-build (Nederlands)
 description: "Bouw pakketten in een schone `chroot`."
 content_hash: ed55dd1485de98bcc577e2c9700f66a9b8c9b0ae
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/pkgctl-build.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pkgctl build
+# pkgctl build
 
 Bouw pakketten in een schone `chroot`.
 Meer informatie: <https://man.archlinux.org/man/pkgctl-build.1>.

@@ -3,6 +3,7 @@ layout: page
 title: linux/btrfs-filesystem (中文)
 description: "管理 btrfs 文件系统。"
 content_hash: 68a77f28688a291bde99b040cee37c245c9bd5cd
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/btrfs-filesystem.html
@@ -13,6 +14,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/btrfs-filesystem.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # btrfs filesystem
 

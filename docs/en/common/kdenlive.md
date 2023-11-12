@@ -3,12 +3,10 @@ layout: page
 title: common/kdenlive (English)
 description: "KDE's non-linear video editor."
 content_hash: 73aab613aa72e9fb029a8ed348a584973889ef50
-last_modified_at: 2022-12-20
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># kdenlive
+# kdenlive
 
 KDE's non-linear video editor.
 More information: <https://manned.org/kdenlive>.

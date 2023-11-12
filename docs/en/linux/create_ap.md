@@ -3,6 +3,8 @@ layout: page
 title: linux/create_ap (English)
 description: "Create an AP (Access Point) at any channel."
 content_hash: df8ed0491b7d34c8acf229e224af0748a1d104c5
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # create_ap
 

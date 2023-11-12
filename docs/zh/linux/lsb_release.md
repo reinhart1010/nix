@@ -3,7 +3,7 @@ layout: page
 title: linux/lsb_release (中文)
 description: "提供某些 LSB（Linux 标准库）和特定于发行版的信息。"
 content_hash: 318c29d32bd7dd7a0a0f4d7d326948830b7016e5
-last_modified_at: 2023-10-27
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/lsb_release.html
@@ -17,6 +17,7 @@ related_topics:
   - title: русский version
     url: /ru/linux/lsb_release.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lsb_release
 

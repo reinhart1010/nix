@@ -3,12 +3,10 @@ layout: page
 title: linux/killall (English)
 description: "Send kill signal to all instances of a process by name (must be exact name)."
 content_hash: 266063638307b01c040bb294c72c16fba90c4a5d
-last_modified_at: 2022-11-24
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># killall
+# killall
 
 Send kill signal to all instances of a process by name (must be exact name).
 All signals except SIGKILL and SIGSTOP can be intercepted by the process, allowing a clean exit.

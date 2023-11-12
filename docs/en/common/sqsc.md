@@ -3,6 +3,8 @@ layout: page
 title: common/sqsc (English)
 description: "A command-line AWS Simple Queue Service client."
 content_hash: 2d72ff4a7a8570a60793e10712a7a4b3285d1e30
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sqsc
 

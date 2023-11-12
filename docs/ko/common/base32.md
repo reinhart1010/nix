@@ -3,7 +3,7 @@ layout: page
 title: common/base32 (한국어)
 description: "파일 또는 표준 입력을 Base32와 표준 출력으로 인코딩하거나 디코딩함."
 content_hash: c60e9f473ccdef67e2fb621a27fb344ece5f0a6a
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/base32.html
@@ -26,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/base32.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # base32
 

@@ -3,10 +3,12 @@ layout: page
 title: common/figlet (English)
 description: "Generate ASCII banners from user input."
 content_hash: 68502ed532a5f8518592acce518244ebe51399a3
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/figlet.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # figlet
 

@@ -3,7 +3,8 @@ layout: page
 title: common/colorpicker (English)
 description: "A minimalist X11 colorpicker."
 content_hash: a1558d386390d30b2bf7015f7732ec055a96a31e
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # colorpicker
 

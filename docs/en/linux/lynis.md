@@ -3,6 +3,8 @@ layout: page
 title: linux/lynis (English)
 description: "System and security auditing tool."
 content_hash: 813477bc757e7aece0853e1a08045ca9ddc45e01
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lynis
 

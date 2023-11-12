@@ -3,6 +3,8 @@ layout: page
 title: common/ngs (English)
 description: "Scripting language created specifically for Ops."
 content_hash: c8c2deec767c2551a6e05c7c9671cdfc4b4eb7ba
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ngs
 

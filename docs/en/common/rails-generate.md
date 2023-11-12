@@ -3,6 +3,7 @@ layout: page
 title: common/rails-generate (English)
 description: "Generate new Rails templates in an existing project."
 content_hash: f75ecaa415090809233cf04e3018d4ee8ee2fa0b
+last_modified_at: 2023-11-12
 related_topics:
   - title: Indonesia version
     url: /id/common/rails-generate.html
@@ -10,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/rails-generate.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rails generate
 

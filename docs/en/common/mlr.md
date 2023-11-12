@@ -3,6 +3,8 @@ layout: page
 title: common/mlr (English)
 description: "Miller is like `awk`, `sed`, `cut`, `join`, and `sort` for name-indexed data such as CSV, TSV, and tabular JSON."
 content_hash: f9f1cbe64c3fa5676efd0585c2bd17bb6f2b92d9
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mlr
 

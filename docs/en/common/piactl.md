@@ -3,6 +3,8 @@ layout: page
 title: common/piactl (English)
 description: "The command-line tool for Private Internet Access, a commercial VPN provider."
 content_hash: 70cf7a8ac294b6beee2072f48d1de06aa3cb95ae
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # piactl
 

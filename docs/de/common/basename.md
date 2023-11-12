@@ -3,6 +3,7 @@ layout: page
 title: common/basename (Deutsch)
 description: "Entfernt führende Verzeichniskomponenten in einem Pfad."
 content_hash: ca86986782e1c1d35a280a787fd8500b62613513
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/basename.html
@@ -19,9 +20,13 @@ related_topics:
   - title: polski version
     url: /pl/common/basename.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/basename.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/basename.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # basename
 

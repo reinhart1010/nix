@@ -3,6 +3,8 @@ layout: page
 title: common/keepassxc-cli (English)
 description: "Command-line interface for KeepassXC."
 content_hash: 9fd17b4513a419840ab057e156ce92e213738f15
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # keepassxc-cli
 

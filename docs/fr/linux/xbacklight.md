@@ -3,10 +3,12 @@ layout: page
 title: linux/xbacklight (français)
 description: "Outil pour ajuster la luminosité du rétroéclairage en utilisant l'extension RandR."
 content_hash: e2535312c359ded7f0822605f187e4b03e9f578f
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/xbacklight.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xbacklight
 

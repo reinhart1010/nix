@@ -3,6 +3,8 @@ layout: page
 title: common/bash-it (English)
 description: "A collection of community contributed Bash commands and scripts for Bash 3.2+."
 content_hash: bc39e5269cdb23613f5c85a62e1b4e684d4c0cfd
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # bash-it
 

@@ -3,6 +3,8 @@ layout: page
 title: common/protector (English)
 description: "Protect or unprotect branches on GitHub repositories."
 content_hash: b0fd7a1d407a11d545cb0fd07ba843ba92e1caa9
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # protector
 

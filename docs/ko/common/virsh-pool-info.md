@@ -3,7 +3,7 @@ layout: page
 title: common/virsh-pool-info (한국어)
 description: "가상 머신 스토리지 풀에 대한 정보를 나열합니다."
 content_hash: c48cb36ab65d368f142a5cb35c8bd4ff827d0a3c
-last_modified_at: 2023-10-22
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/virsh-pool-info.html
@@ -11,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/virsh-pool-info.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # virsh pool-info
 

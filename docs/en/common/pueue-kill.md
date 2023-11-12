@@ -3,6 +3,8 @@ layout: page
 title: common/pueue-kill (English)
 description: "Kill running tasks or whole groups."
 content_hash: 62bbadfb1bf04cdbfa0686742e9f32ce031b8671
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pueue kill
 

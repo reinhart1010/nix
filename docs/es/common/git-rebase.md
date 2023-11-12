@@ -3,6 +3,7 @@ layout: page
 title: common/git-rebase (español)
 description: "Vuelve a aplicar commits de una rama en lo más alto de otra rama."
 content_hash: d1cfac2c542363a4c2be35048d83017eca97a906
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-rebase.html
@@ -16,12 +17,16 @@ related_topics:
   - title: italiano version
     url: /it/common/git-rebase.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-rebase.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-rebase.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/git-rebase.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git rebase
 

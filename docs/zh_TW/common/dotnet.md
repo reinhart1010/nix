@@ -3,7 +3,7 @@ layout: page
 title: common/dotnet (中文 (繁體, 台灣))
 description: "適用於 .NET Core 的跨平台 .NET 命令列工具。"
 content_hash: ae858d2e5484e779e8c50f9f9872af606e0a517b
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/dotnet.html
@@ -26,6 +26,7 @@ related_topics:
   - title: русский version
     url: /ru/common/dotnet.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dotnet
 

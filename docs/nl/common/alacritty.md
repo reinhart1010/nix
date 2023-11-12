@@ -3,7 +3,7 @@ layout: page
 title: common/alacritty (Nederlands)
 description: "Cross-platform, GPU-versnelde terminalemulator."
 content_hash: cf95f83dfc11414bc6a28eef8c2774a380401aed
-last_modified_at: 2023-10-19
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/alacritty.html
@@ -35,6 +35,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/alacritty.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # alacritty
 

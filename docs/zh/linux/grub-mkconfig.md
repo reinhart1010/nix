@@ -3,10 +3,15 @@ layout: page
 title: linux/grub-mkconfig (中文)
 description: "生成GRUB配置文件。"
 content_hash: 5c1b43f6146991cbb43015e3c30f2ccdbd9b5624
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/grub-mkconfig.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/linux/grub-mkconfig.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # grub-mkconfig
 

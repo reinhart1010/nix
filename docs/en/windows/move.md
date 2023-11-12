@@ -3,12 +3,10 @@ layout: page
 title: windows/move (English)
 description: "Move or rename files and directories."
 content_hash: ae02fc15fdea4092eb5a5fe6ca4d1ae416da5e28
-last_modified_at: 2023-11-01
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># move
+# move
 
 Move or rename files and directories.
 In PowerShell, this command is an alias of `Move-Item`. This documentation is based on the Command Prompt (`cmd`) version of `move`.

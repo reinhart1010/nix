@@ -3,7 +3,11 @@ layout: page
 title: linux/apt-file (中文)
 description: "在 apt 软件包中查找文件，其中也包括未安装的软件。"
 content_hash: 72047e15784a70f87498ebfee5b1c4f0defa1622
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/apt-file.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/apt-file.html
     icon: bi bi-globe
@@ -19,9 +23,13 @@ related_topics:
   - title: italiano version
     url: /it/linux/apt-file.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/apt-file.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/apt-file.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apt-file
 

@@ -3,7 +3,7 @@ layout: page
 title: common/crystal (français)
 description: "Outil de gestion du code source de Crystal."
 content_hash: a290aa68d6321a2143df40d26cbdb3f6a5ee4a80
-last_modified_at: 2023-10-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/crystal.html
@@ -14,11 +14,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/crystal.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># crystal
+# crystal
 
 Outil de gestion du code source de Crystal.
 Plus d'informations : <https://crystal-lang.org/reference/using_the_compiler>.

@@ -3,7 +3,7 @@ layout: page
 title: osx/ditto (English)
 description: "Copy files and directories."
 content_hash: af16a4ca1aa7608cd00d4e260aac368ce08ef0df
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/osx/ditto.html
@@ -14,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/ditto.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ditto
 

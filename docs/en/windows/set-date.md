@@ -3,12 +3,10 @@ layout: page
 title: windows/set-date (English)
 description: "Changes the system time on the computer to a time that you specify."
 content_hash: 8113049de48014cb8fc9d2dc5f83d0d98be996d8
-last_modified_at: 2022-12-21
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># Set-Date
+# Set-Date
 
 Changes the system time on the computer to a time that you specify.
 This command can only be used through PowerShell.

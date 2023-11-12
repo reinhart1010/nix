@@ -3,6 +3,8 @@ layout: page
 title: common/picard (English)
 description: "Next generation MusicBrainz tagging application."
 content_hash: 63f8dddf0b53aaa189758133b9f7a1f341497404
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # picard
 

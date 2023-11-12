@@ -3,7 +3,8 @@ layout: page
 title: common/ganache-cli (English)
 description: "Command-line version of Ganache, your personal blockchain for Ethereum development."
 content_hash: edb87f0935bf8134c8e50b7ef208409c48917220
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ganache-cli
 

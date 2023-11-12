@@ -3,7 +3,7 @@ layout: page
 title: osx/gxargs (polski)
 description: "To polecenie jest aliasem `-p linux xargs`."
 content_hash: 5f08ff721e60237e2f74965afe8c0546e97b6629
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gxargs.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gxargs.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gxargs
 

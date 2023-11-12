@@ -3,10 +3,12 @@ layout: page
 title: common/xxd (italiano)
 description: "Mostra la rappresentazione esadecimale (hexdump) di un file binario e viceversa."
 content_hash: 0b27f50b74c72a50ca517ed9d087a9ae500aee51
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/xxd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xxd
 

@@ -3,6 +3,7 @@ layout: page
 title: common/z (English)
 description: "Tracks the most used (by frecency) directories and enables quickly navigating to them using string patterns or regular expressions."
 content_hash: 780752d24a89e462d71bae1fcb65338564b25b01
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/z.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/z.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # z
 

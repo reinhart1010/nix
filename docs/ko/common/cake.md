@@ -3,6 +3,7 @@ layout: page
 title: common/cake (한국어)
 description: "CakePHP 프레임 워크용 명령어 라인 프로세서."
 content_hash: 01dc70c0fd57d9799ac283f4168a53a304f7e0d8
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/cake.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/cake.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cake
 

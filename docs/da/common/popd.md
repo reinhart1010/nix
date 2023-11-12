@@ -3,10 +3,15 @@ layout: page
 title: common/popd (dansk)
 description: "Fjern en mappe placeret på mappe-stakken via den indbyggede shell-kommando `pushd`."
 content_hash: a8d12584c55ea01ac64dd548b1fcf6e42068b16a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/popd.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/popd.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.

@@ -3,16 +3,17 @@ layout: page
 title: common/cargo-doc (தமிழ்)
 description: "ரஸ்ட் தொகுப்பு ஆவணங்களை ஆஃப்லைனில் உருவாக்கி பார்க்கவும்."
 content_hash: 6a6b970975e23f870774c40a9bf0d1e378a48049
-last_modified_at: 2023-05-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/cargo-doc.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/cargo-doc.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cargo doc
+# cargo doc
 
 ரஸ்ட் தொகுப்பு ஆவணங்களை ஆஃப்லைனில் உருவாக்கி பார்க்கவும்.
 மேலும் விவரத்திற்கு: <https://doc.rust-lang.org/cargo/commands/cargo-doc.html>.

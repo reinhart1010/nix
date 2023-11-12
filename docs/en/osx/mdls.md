@@ -3,6 +3,8 @@ layout: page
 title: osx/mdls (English)
 description: "Display the metadata attributes for a file."
 content_hash: 8ee3523fb42a2c46d029911d53970aacf4d8d80f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mdls
 

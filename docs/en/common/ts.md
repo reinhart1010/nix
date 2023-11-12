@@ -3,7 +3,8 @@ layout: page
 title: common/ts (English)
 description: "Add timestamps to every line from `stdin`."
 content_hash: a1c476a55cba9614d791a725340156bc4cdf7789
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ts
 

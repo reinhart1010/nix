@@ -3,6 +3,18 @@ layout: page
 title: common/aws-glue (English)
 description: "CLI for AWS Glue."
 content_hash: 4d4b1b5e40058b00fdfbb3a0e3b98c2acbe91d14
+last_modified_at: 2023-11-12
+related_topics:
+  - title: español version
+    url: /es/common/aws-glue.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/aws-glue.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/aws-glue.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws glue
 

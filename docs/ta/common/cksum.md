@@ -3,9 +3,13 @@ layout: page
 title: common/cksum (தமிழ்)
 description: "கோப்பின் CRC சரிகாண்தொகையைக் கணித்து அதில் எத்தனை எண்ணிருமிகளுள்ளன என்றெண்ணு."
 content_hash: f161ccc9dfca2ab5a71bede150d0031c8a66b82d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/cksum.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/common/cksum.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/cksum.html
@@ -13,6 +17,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cksum.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cksum
 

@@ -3,6 +3,8 @@ layout: page
 title: windows/fsutil (English)
 description: "Displays information about file system volumes."
 content_hash: c8b1fea4e64824952f130d7db89bb3bb47206b15
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fsutil
 

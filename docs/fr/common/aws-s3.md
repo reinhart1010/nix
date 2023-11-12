@@ -3,6 +3,7 @@ layout: page
 title: common/aws-s3 (français)
 description: "CLI pour AWS S3 - fournis du stockage à travers les services web."
 content_hash: e88dcb40ddf33a26ef526c5e23eb1b16c7081bbc
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-s3.html
@@ -19,6 +20,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/aws-s3.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws s3
 

@@ -3,6 +3,8 @@ layout: page
 title: common/watson (English)
 description: "A wonderful CLI to track your time."
 content_hash: 8be225f3ede978dd0f593ef1dafaa641c8c614d9
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # watson
 

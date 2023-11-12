@@ -3,13 +3,24 @@ layout: page
 title: windows/xcopy (中文)
 description: "复制文件和目录树。"
 content_hash: aea3686428bf1f65234eafdc42909445cfdedf4c
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/windows/xcopy.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/xcopy.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/windows/xcopy.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/xcopy.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/windows/xcopy.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xcopy
 

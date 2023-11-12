@@ -3,6 +3,8 @@ layout: page
 title: common/bvnc (English)
 description: "A GUI tool for browsing for SSH/VNC servers on the local network."
 content_hash: c68c4d97274e796efeb51fca8beeb103a998beb5
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # bvnc
 

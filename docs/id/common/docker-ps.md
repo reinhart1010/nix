@@ -3,7 +3,7 @@ layout: page
 title: common/docker-ps (Indonesia)
 description: "Tampilkan daftar kontainer Docker."
 content_hash: a859d8ec67685db7d8551b08a5fc8d26eb0d29ea
-last_modified_at: 2023-10-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-ps.html
@@ -23,11 +23,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-ps.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docker ps
+# docker ps
 
 Tampilkan daftar kontainer Docker.
 Informasi lebih lanjut: <https://docs.docker.com/engine/reference/commandline/ps/>.

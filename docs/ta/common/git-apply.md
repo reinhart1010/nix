@@ -3,6 +3,7 @@ layout: page
 title: common/git-apply (தமிழ்)
 description: "கோப்புகள் மற்றும் / அல்லது குறியீட்டுக்கு ஒரு இணைப்பு பயன்படுத்தவும்."
 content_hash: c5cd6ca23598395a838987a0eaf76c9196087070
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-apply.html
@@ -16,6 +17,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-apply.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git apply
 

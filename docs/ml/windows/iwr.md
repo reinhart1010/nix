@@ -3,7 +3,7 @@ layout: page
 title: windows/iwr (മലയാളം)
 description: "ഈ കമാൻഡ് `invoke-webrequest` എന്നത്തിന്റെ അപരനാമമാണ്."
 content_hash: d513612d355bd2e4ed263543920f1613750f936d
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/iwr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # iwr
 

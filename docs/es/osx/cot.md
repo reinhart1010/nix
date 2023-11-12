@@ -3,7 +3,7 @@ layout: page
 title: osx/cot (español)
 description: "El editor de texto simple para macOS."
 content_hash: b9d1e0b1052000c29ae73e9ff92850ccc63065be
-last_modified_at: 2023-07-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/cot.html
@@ -11,11 +11,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/osx/cot.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cot
+# cot
 
 El editor de texto simple para macOS.
 Más información: <https://coteditor.com/>.

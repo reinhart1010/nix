@@ -3,6 +3,7 @@ layout: page
 title: common/fortune (Deutsch)
 description: "Gib ein zufälliges Glückskeks-Zitat aus."
 content_hash: fbf56f0ee74d055e06446b1dfb2fa6546c872401
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/fortune.html
@@ -10,6 +11,7 @@ related_topics:
   - title: español version
     url: /es/common/fortune.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fortune
 

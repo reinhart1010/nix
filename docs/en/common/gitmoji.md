@@ -3,6 +3,15 @@ layout: page
 title: common/gitmoji (English)
 description: "An interactive command-line tool for using emojis on commits."
 content_hash: 630e359cef4d5a611023436892a9f6d933c657fa
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/gitmoji.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/gitmoji.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gitmoji
 

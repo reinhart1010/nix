@@ -3,7 +3,7 @@ layout: page
 title: common/n (ไทย)
 description: "เครื่องมือในการจัดการเวอร์ชั่นของ node"
 content_hash: 6e68fd225182be9e0782db4992e59f2206f13423
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/n.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/n.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # n
 

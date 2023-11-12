@@ -3,9 +3,16 @@ layout: page
 title: common/axel (italiano)
 description: "Downloader accelerato."
 content_hash: 8682e741c1d2f403a6c738a6ea98f2adb813b89b
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/axel.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/axel.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/axel.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/axel.html
@@ -16,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/axel.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # axel
 

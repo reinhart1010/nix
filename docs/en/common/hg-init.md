@@ -3,6 +3,8 @@ layout: page
 title: common/hg-init (English)
 description: "Create a new repository in the specified directory."
 content_hash: 75466ba67021ec0018854cdd23dc4cd96bae2b43
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # hg init
 

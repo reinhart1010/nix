@@ -3,6 +3,8 @@ layout: page
 title: common/roave-backward-compatibility-check (English)
 description: "A tool that can be used to verify backward compatibility breaks between two versions of a PHP library."
 content_hash: 121800fe39efc665bc8abad50494504e56d761f7
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # roave-backward-compatibility-check
 

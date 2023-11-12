@@ -3,11 +3,14 @@ layout: page
 title: linux/loginctl (English)
 description: "Manage the systemd login manager."
 content_hash: 4d6ea8012f5a34455e1b3b96c049ef85dfbc7f62
+last_modified_at: 2023-11-12
+related_topics:
+  - title: polski version
+    url: /pl/linux/loginctl.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># loginctl
+# loginctl
 
 Manage the systemd login manager.
 More information: <https://www.freedesktop.org/software/systemd/man/loginctl.html>.

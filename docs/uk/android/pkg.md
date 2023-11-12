@@ -3,7 +3,7 @@ layout: page
 title: android/pkg (українська)
 description: "Утиліта менеджеру пакетів для Termux."
 content_hash: ca93b3e335ca911b671d2a5a8518ae6ab959e67a
-last_modified_at: 2023-10-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/pkg.html
@@ -32,6 +32,9 @@ related_topics:
   - title: italiano version
     url: /it/android/pkg.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/android/pkg.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/android/pkg.html
     icon: bi bi-globe
@@ -53,11 +56,9 @@ related_topics:
   - title: 中文 version
     url: /zh/android/pkg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pkg
+# pkg
 
 Утиліта менеджеру пакетів для Termux.
 Більше інформації: <https://wiki.termux.com/wiki/Package_Management>.

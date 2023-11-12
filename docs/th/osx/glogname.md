@@ -3,7 +3,7 @@ layout: page
 title: osx/glogname (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux logname`"
 content_hash: 442da324590b8c03f524ea46070be556b583fffb
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/glogname.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/glogname.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # glogname
 

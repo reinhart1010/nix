@@ -3,13 +3,21 @@ layout: page
 title: common/npm (Deutsch)
 description: "Ein Kommandozeilenwerkzeug für die Verwaltung von JavaScript und Node.js Paketen (Packages)."
 content_hash: 0d36fec28253a9d45184f476a85379880a431da9
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/npm.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/npm.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/npm.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/npm.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # npm
 

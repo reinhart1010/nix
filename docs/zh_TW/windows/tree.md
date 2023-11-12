@@ -3,9 +3,13 @@ layout: page
 title: windows/tree (中文 (繁體, 台灣))
 description: "以樹狀結構的形式顯示指定目錄的所有資料夾和文件。"
 content_hash: e7da9960ff533d420a2ecca64dd8d84e11cafc95
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/tree.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/tree.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/windows/tree.html
@@ -16,6 +20,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/tree.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tree
 

@@ -3,11 +3,10 @@ layout: page
 title: common/hcloud (English)
 description: "Show how to use the CLI for Hetzner Cloud."
 content_hash: f72675f7ca8f4dfddc8a60b4e7449779d6ae2e21
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># hcloud
+# hcloud
 
 Show how to use the CLI for Hetzner Cloud.
 More information: <https://github.com/hetznercloud/cli>.

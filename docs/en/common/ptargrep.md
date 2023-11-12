@@ -3,6 +3,8 @@ layout: page
 title: common/ptargrep (English)
 description: "Find regular expression patterns in one or more tar archive files."
 content_hash: 2ec3de20ffdcd1b83de1e68adb01a6e2d5f864d3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ptargrep
 

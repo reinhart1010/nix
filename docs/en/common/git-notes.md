@@ -3,10 +3,15 @@ layout: page
 title: common/git-notes (English)
 description: "Add or inspect object notes."
 content_hash: 1b9801f28576d1bc15e971b6af4a885013b4134c
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/git-notes.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-notes.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git notes
 

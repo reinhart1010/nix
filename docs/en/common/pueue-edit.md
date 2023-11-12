@@ -3,6 +3,8 @@ layout: page
 title: common/pueue-edit (English)
 description: "Edit the command or path of a stashed or queued task."
 content_hash: 56637934f1f9e617b0ee49a5220290b1a82d117f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pueue edit
 

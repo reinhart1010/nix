@@ -3,7 +3,7 @@ layout: page
 title: osx/softwareupdate (English)
 description: "Update macOS App Store apps."
 content_hash: 26ef167076b6573b0d761f6c3e3a31547eb034d3
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Portugal) version
     url: /pt_PT/osx/softwareupdate.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/softwareupdate.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # softwareupdate
 

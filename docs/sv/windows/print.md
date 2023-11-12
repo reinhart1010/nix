@@ -3,6 +3,7 @@ layout: page
 title: windows/print (svenska)
 description: "Skriv ut en textfil till en skrivare."
 content_hash: dbce2267804d6464f5b58c1cb8aacbd355ebc4f7
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/print.html
@@ -19,11 +20,9 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/print.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># print
+# print
 
 Skriv ut en textfil till en skrivare.
 Mer information: <https://learn.microsoft.com/windows-server/administration/windows-commands/print>.

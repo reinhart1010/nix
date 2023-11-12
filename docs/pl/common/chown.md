@@ -3,6 +3,7 @@ layout: page
 title: common/chown (polski)
 description: "Zmienia właściciela i grupę właścicieli dla plików i katalogów."
 content_hash: b3afa6f07d91ac268deb7b6206ad8402ae668f6e
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/chown.html
@@ -12,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/chown.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/chown.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/chown.html
@@ -31,6 +35,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/chown.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chown
 

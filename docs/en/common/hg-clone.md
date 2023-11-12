@@ -3,6 +3,8 @@ layout: page
 title: common/hg-clone (English)
 description: "Create a copy of an existing repository in a new directory."
 content_hash: 1f515a650ecb8e6021c3053f9317a30d52dc3a98
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # hg clone
 

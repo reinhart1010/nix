@@ -3,7 +3,7 @@ layout: page
 title: windows/choco-install (italiano)
 description: "Installa uno o più pacchetti con Chocolatey."
 content_hash: 48cb6ae910d43952cda66000793593ac81ff1141
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-install.html
@@ -26,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/choco-install.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco install
 

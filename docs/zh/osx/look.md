@@ -3,10 +3,12 @@ layout: page
 title: osx/look (中文)
 description: "查找已排序的文件行（注意，必须是已排序的文件）。"
 content_hash: 0d128b589aed3aec4bae546488f8bcb9fd01e2d1
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/look.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # look
 

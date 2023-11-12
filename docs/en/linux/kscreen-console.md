@@ -3,6 +3,8 @@ layout: page
 title: linux/kscreen-console (English)
 description: "Command-line tool to query KScreen's status."
 content_hash: 1a470b8318cb33b3b2a7fe60e5973b9efd7c0ee9
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # kscreen-console
 

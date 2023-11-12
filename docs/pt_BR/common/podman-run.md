@@ -3,16 +3,14 @@ layout: page
 title: common/podman-run (português (Brasil))
 description: "Executar um comando em um novo contêiner Podman."
 content_hash: c1cc2e6266dfd7951fc591795dcc5cb0db5be181
-last_modified_at: 2023-09-18
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/podman-run.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># podman run
+# podman run
 
 Executar um comando em um novo contêiner Podman.
 Mais informações: <https://docs.podman.io/en/latest/markdown/podman-run.1.html>.

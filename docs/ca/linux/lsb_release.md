@@ -3,6 +3,7 @@ layout: page
 title: linux/lsb_release (català)
 description: "Proporciona informació específica de la distribució i LSB (Linux Standard Base)."
 content_hash: 1d5728900e9b11096363275150449e7e591cf13e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/lsb_release.html
@@ -10,6 +11,13 @@ related_topics:
   - title: español version
     url: /es/linux/lsb_release.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/linux/lsb_release.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/linux/lsb_release.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lsb_release
 

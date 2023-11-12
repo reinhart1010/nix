@@ -3,7 +3,8 @@ layout: page
 title: common/gibo (English)
 description: "Fetch gitignore boilerplates."
 content_hash: b0613636affb0e53d704b80fc653855ee08ad9cf
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gibo
 

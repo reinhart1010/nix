@@ -3,12 +3,16 @@ layout: page
 title: windows/choco-info (polski)
 description: "Wyświetlanie szczegółowych informacji o pakiecie Chocolatey."
 content_hash: 4222d623b9356b8252a389e998dbf4bd8ad2c322
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-info.html
     icon: bi bi-globe
   - title: English version
     url: /en/windows/choco-info.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/windows/choco-info.html
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/windows/choco-info.html
@@ -22,11 +26,9 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/choco-info.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># choco info
+# choco info
 
 Wyświetlanie szczegółowych informacji o pakiecie Chocolatey.
 Więcej informacji: <https://chocolatey.org/docs/commands-info>.

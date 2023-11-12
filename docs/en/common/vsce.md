@@ -3,6 +3,8 @@ layout: page
 title: common/vsce (English)
 description: "Extension manager for Visual Studio Code."
 content_hash: 9fc0a96165bfe3a667a93077c554cc9f74a1218d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # vsce
 

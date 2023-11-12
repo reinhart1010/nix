@@ -3,7 +3,8 @@ layout: page
 title: common/git-diff-index (English)
 description: "Compare the working directory with a specific commit or tree object."
 content_hash: 8747f7c9cdca3cee9eddbf24db9097e35c4b10e6
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git diff-index
 

@@ -3,6 +3,7 @@ layout: page
 title: common/compgen (English)
 description: "A built-in command for auto-completion in Bash, which is called on pressing TAB key twice."
 content_hash: 4063bd2ff9c6d2cd4ab03ea9be7fd6ef62b31c72
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/compgen.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/compgen.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # compgen
 

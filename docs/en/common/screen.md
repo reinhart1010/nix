@@ -3,6 +3,8 @@ layout: page
 title: common/screen (English)
 description: "Hold a session open on a remote server. Manage multiple windows with a single SSH connection."
 content_hash: b8886e58ef4b06a9e4af892d05d506da5194af7d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # screen
 

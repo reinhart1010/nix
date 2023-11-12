@@ -3,11 +3,12 @@ layout: page
 title: common/scrapy (日本語)
 description: "ウェブクローリングのフレームワークです。"
 content_hash: b7c085234b9086d00412d9f2fea89189fb7c92c1
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/scrapy.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # scrapy
 

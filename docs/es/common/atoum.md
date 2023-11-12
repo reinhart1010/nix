@@ -3,7 +3,7 @@ layout: page
 title: common/atoum (español)
 description: "Un framework de pruebas unitarias para PHP sencillo, moderno e intuitivo."
 content_hash: d22f9baefb6de4e39d4e947d62328fe223aef9ab
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/atoum.html
@@ -17,11 +17,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/atoum.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># atoum
+# atoum
 
 Un framework de pruebas unitarias para PHP sencillo, moderno e intuitivo.
 Más información: <http://atoum.org>.

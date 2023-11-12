@@ -3,7 +3,8 @@ layout: page
 title: common/tlmgr-key (English)
 description: "Manage GPG keys used to verify TeX Live databases."
 content_hash: bdb27017c521c9665ea54de83150674c9d82437f
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tlmgr key
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/virt-manager (English)
 description: "CLI launcher for virt-manager, a desktop user interface for managing KVM and Xen virtual machines and LXC containers."
 content_hash: dab2544bd2719c89edb8d3c616097fecc842f51b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # virt-manager
 

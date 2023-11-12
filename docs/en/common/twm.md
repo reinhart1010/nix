@@ -3,6 +3,8 @@ layout: page
 title: common/twm (English)
 description: "A window manager for the X Window system."
 content_hash: 1ffc55eb2454961af348704d41eeb662d55d76d8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # twm
 

@@ -3,12 +3,10 @@ layout: page
 title: common/hub-ci-status (English)
 description: "Display status of GitHub checks."
 content_hash: 96c75716c48cb0b6e46d9c6b796d7caa60945a12
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># hub ci-status
+# hub ci-status
 
 Display status of GitHub checks.
 More information: <https://hub.github.com/hub-ci-status.1.html>.

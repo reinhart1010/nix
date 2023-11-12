@@ -3,6 +3,7 @@ layout: page
 title: common/csvstat (한국어)
 description: "csvkit에 포함된 CSV 파일의 모든 열에 대한 설명 통계 출력."
 content_hash: 8db25135c2f7d8a40c8d7eff89f3421faa8e5d11
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/csvstat.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/csvstat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # csvstat
 

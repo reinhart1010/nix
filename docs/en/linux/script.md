@@ -3,7 +3,8 @@ layout: page
 title: linux/script (English)
 description: "Record all terminal output to file."
 content_hash: c1b492840fbd1578992e53560f72aef7fe895caf
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # script
 

@@ -3,7 +3,7 @@ layout: page
 title: windows/cpush (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `choco-push`"
 content_hash: 1ff876d87722bb1d7a35939e3054fc5fca606748
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/cpush.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/cpush.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cpush
 

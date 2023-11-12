@@ -3,6 +3,12 @@ layout: page
 title: osx/nettop (English)
 description: "Display updated information about the network."
 content_hash: 339cb7da943ade8ee5510b4a5f5243d8543dd2db
+last_modified_at: 2023-11-12
+related_topics:
+  - title: español version
+    url: /es/osx/nettop.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nettop
 

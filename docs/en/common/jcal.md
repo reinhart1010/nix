@@ -3,6 +3,8 @@ layout: page
 title: common/jcal (English)
 description: "Display calendar information in the Jalali format, with the current day highlighted."
 content_hash: 970949dbe3fbc1a96c308c8cdcc235b71022da4d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # jcal
 

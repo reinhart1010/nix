@@ -3,12 +3,14 @@ layout: page
 title: linux/dd (English)
 description: "Convert and copy a file."
 content_hash: e67121df71a17100ea66b8672ac1f36c6d50b2c8
-last_modified_at: 2023-01-01
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 한국어 version
+    url: /ko/linux/dd.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dd
+# dd
 
 Convert and copy a file.
 More information: <https://www.gnu.org/software/coreutils/dd>.

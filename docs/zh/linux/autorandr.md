@@ -3,6 +3,7 @@ layout: page
 title: linux/autorandr (中文)
 description: "自动调节屏幕布局。"
 content_hash: e44e3b8516f6c5cff12268dd54ce2c34e84b9fb5
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/autorandr.html
@@ -10,8 +11,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/autorandr.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# autorandr
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># autorandr
 
 自动调节屏幕布局。
 更多信息：<https://github.com/phillipberndt/autorandr>.

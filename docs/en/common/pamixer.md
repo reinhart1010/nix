@@ -3,6 +3,8 @@ layout: page
 title: common/pamixer (English)
 description: "A simple command-line mixer for PulseAudio."
 content_hash: 5af1074b9653c92d94ee91a477400f4e06299972
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pamixer
 

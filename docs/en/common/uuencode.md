@@ -3,7 +3,8 @@ layout: page
 title: common/uuencode (English)
 description: "Encode binary files into ASCII for transport via mediums that only support simple ASCII encoding."
 content_hash: 90474500cdff95c5c9de3435214052d62b99302f
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # uuencode
 

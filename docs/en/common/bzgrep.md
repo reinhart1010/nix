@@ -3,7 +3,8 @@ layout: page
 title: common/bzgrep (English)
 description: "Find patterns in bzip2 compressed files using grep."
 content_hash: e5f86a4244e497f51d5c40188de860857dad79ef
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # bzgrep
 

@@ -3,6 +3,8 @@ layout: page
 title: common/vagrant (English)
 description: "Manage lightweight, reproducible, and portable development environments."
 content_hash: 6549d3070aba9400ecca330e9db5d1725e1c13cb
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # vagrant
 

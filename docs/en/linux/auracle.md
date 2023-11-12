@@ -3,10 +3,12 @@ layout: page
 title: linux/auracle (English)
 description: "Command-line tool used to interact with Arch Linux's User Repository, commonly referred to as the AUR."
 content_hash: 8e3b0399cb85593d0a8414d976ef67fd57d989fa
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/linux/auracle.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # auracle
 

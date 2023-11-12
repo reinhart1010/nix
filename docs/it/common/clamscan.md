@@ -3,10 +3,13 @@ layout: page
 title: common/clamscan (italiano)
 description: "Scanner antivirus da linea di comando."
 content_hash: 168ac075c0f6ca337a38c046d9288a73b45479e8
-last_modified_at: 2023-05-24
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/clamscan.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/clamscan.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/clamscan.html
@@ -14,6 +17,7 @@ related_topics:
   - title: ไทย version
     url: /th/common/clamscan.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # clamscan
 

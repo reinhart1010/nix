@@ -3,6 +3,7 @@ layout: page
 title: common/test (polski)
 description: "Sprawdza typy plików i porównuje wartości."
 content_hash: ead6f4aba133de9f2e2d9c69ae4fdb60969f63cd
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/test.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/test.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # test
 

@@ -3,10 +3,12 @@ layout: page
 title: common/egrep (français)
 description: "Recherche de motifs dans un texte. Supporte la version étendues des expressions regulieres (`?`, `+`, `{}`, `()`, et `|`)."
 content_hash: ab4f39fbab98095c441bb95f6420055ec49909cd
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/egrep.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # egrep
 

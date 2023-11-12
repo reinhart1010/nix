@@ -3,6 +3,21 @@ layout: page
 title: common/acyclic (English)
 description: "Make a directed graph acyclic by reversing some edges."
 content_hash: 4a35b60f4c6e950e0e15e8fb2738e620905afac4
+last_modified_at: 2023-11-12
+related_topics:
+  - title: español version
+    url: /es/common/acyclic.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/acyclic.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/acyclic.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/acyclic.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # acyclic
 

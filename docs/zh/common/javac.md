@@ -3,10 +3,13 @@ layout: page
 title: common/javac (中文)
 description: "Java 程序编译器。"
 content_hash: 02d28e732bcb0b40a2c4a71d628cc8977e546c6e
-last_modified_at: 2023-06-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/javac.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/javac.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/javac.html
@@ -14,6 +17,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/javac.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # javac
 

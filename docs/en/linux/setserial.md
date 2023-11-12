@@ -3,11 +3,10 @@ layout: page
 title: linux/setserial (English)
 description: "Read and modify serial port information."
 content_hash: 20e2bba0bdce03192d77f0963e251703d497fe60
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># setserial
+# setserial
 
 Read and modify serial port information.
 More information: <https://manned.org/setserial>.

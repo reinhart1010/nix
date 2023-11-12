@@ -3,9 +3,16 @@ layout: page
 title: common/airpaste (português (Brasil))
 description: "Compartilhar mensagens e arquivos na mesma rede."
 content_hash: b4a55c02ca36fbe4872ca3d163d1c627dd615a65
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/airpaste.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/airpaste.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/airpaste.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/airpaste.html
@@ -13,9 +20,13 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/airpaste.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/airpaste.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/airpaste.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # airpaste
 

@@ -3,8 +3,11 @@ layout: page
 title: common/arp (Türkçe)
 description: "Sistemin ARP önbelleğini görüntüle ve manipüle et."
 content_hash: 9b2e366fbb10cad92f0c839ac5f0c13f32a17e7d
-last_modified_at: 2023-04-10
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/arp.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/arp.html
     icon: bi bi-globe
@@ -26,6 +29,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/arp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # arp
 

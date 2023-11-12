@@ -3,6 +3,8 @@ layout: page
 title: linux/xdotool (English)
 description: "Command-line automation for X11."
 content_hash: 66ab0eabc03914b408d02507065d3d5ae719a7c8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xdotool
 

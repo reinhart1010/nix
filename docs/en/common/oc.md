@@ -3,6 +3,8 @@ layout: page
 title: common/oc (English)
 description: "The OpenShift Container Platform CLI."
 content_hash: 6e435679a0662190bc1deadf4e8ab6564bd26b85
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # oc
 

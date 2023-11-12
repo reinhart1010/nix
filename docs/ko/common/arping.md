@@ -3,13 +3,24 @@ layout: page
 title: common/arping (한국어)
 description: "ARP 프로토콜을 사용하여 네트워크에서 호스트를 발견하고 탐색합니다."
 content_hash: f9a3ead3a0d76455612353e0ff65bf91b1594f8f
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/arping.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/arping.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/arping.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/arping.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/arping.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # arping
 

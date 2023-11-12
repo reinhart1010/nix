@@ -3,10 +3,12 @@ layout: page
 title: common/cotton (한국어)
 description: "마크다운 테스트 사양 러너."
 content_hash: c92f5e69f72a663e69c4db4c98c02daac56e7e03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/cotton.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cotton
 

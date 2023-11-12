@@ -3,6 +3,8 @@ layout: page
 title: common/nrm (English)
 description: "npm registry manager."
 content_hash: 0a3af8eb98b06542600c91f0dd5d54b4584a2456
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # nrm
 

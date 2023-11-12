@@ -3,6 +3,8 @@ layout: page
 title: common/pueue-restart (English)
 description: "Restart tasks."
 content_hash: 6515401040d0c947a5c61cb87912d2784d0c3dd1
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pueue restart
 

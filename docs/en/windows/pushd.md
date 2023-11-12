@@ -3,11 +3,12 @@ layout: page
 title: windows/pushd (English)
 description: "Place a directory on a stack so it can be accessed later."
 content_hash: 9bc686729f82cce6dab07e4148e9101ceffa7150
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/windows/pushd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pushd
 

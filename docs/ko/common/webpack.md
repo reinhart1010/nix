@@ -3,16 +3,14 @@ layout: page
 title: common/webpack (한국어)
 description: "웹 프로젝트의 자바스크립트 파일과 기타 리소스를 단일 출력 파일로 묶어줍니다."
 content_hash: 31cdc8b00760b27172e44e2510a4ce406d3a6179
-last_modified_at: 2023-10-22
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/webpack.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># webpack
+# webpack
 
 웹 프로젝트의 자바스크립트 파일과 기타 리소스를 단일 출력 파일로 묶어줍니다.
 더 많은 정보: <https://webpack.js.org>.

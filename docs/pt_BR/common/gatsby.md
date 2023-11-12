@@ -3,10 +3,12 @@ layout: page
 title: common/gatsby (português (Brasil))
 description: "Gerador de site estático para React."
 content_hash: 8f6152c4a59810637423098d756be8da27d4461d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/gatsby.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gatsby
 

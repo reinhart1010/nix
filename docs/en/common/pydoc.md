@@ -3,7 +3,8 @@ layout: page
 title: common/pydoc (English)
 description: "Display offline Python documentation."
 content_hash: 129acab1e951daecc484d9e837ecf8d5e4329a40
-last_modified_at: 2023-08-08
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pydoc
 

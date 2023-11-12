@@ -3,11 +3,15 @@ layout: page
 title: common/age-keygen (português (Brasil))
 description: "Gera par de chaves `age`."
 content_hash: 2fd0d798ac63be897d9bc079db5b8837cb305cee
-last_modified_at: 2023-10-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/age-keygen.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/age-keygen.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # age-keygen
 

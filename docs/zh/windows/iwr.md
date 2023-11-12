@@ -3,7 +3,7 @@ layout: page
 title: windows/iwr (中文)
 description: "这是 `invoke-webrequest` 命令的一个别名。"
 content_hash: e7784f12c71719bc4ed469f44dec6e8b25e1cc9b
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/iwr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # iwr
 

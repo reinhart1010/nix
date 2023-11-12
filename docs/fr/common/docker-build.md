@@ -3,6 +3,7 @@ layout: page
 title: common/docker-build (français)
 description: "Construit une image à partir d'un Dockerfile."
 content_hash: 88f38d9de5c905fa24d215f6b917da3cea3d6115
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-build.html
@@ -10,8 +11,17 @@ related_topics:
   - title: English version
     url: /en/common/docker-build.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/docker-build.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/docker-build.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/docker-build.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/docker-build.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker-build.html
@@ -22,17 +32,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/docker-build.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/docker-build.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># docker-build
+# docker-build
 
 Construit une image à partir d'un Dockerfile.
 Plus d'informations : <https://docs.docker.com/engine/reference/commandline/build/>.

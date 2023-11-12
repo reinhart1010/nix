@@ -3,6 +3,7 @@ layout: page
 title: common/atom (Nederlands)
 description: "Een platformonafhankelijke inplugbare tekstbewerker."
 content_hash: ec99c864f2406341000da1ddfe9a02abf8c56f92
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/atom.html
@@ -25,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/atom.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # atom
 

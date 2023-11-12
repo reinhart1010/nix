@@ -3,6 +3,8 @@ layout: page
 title: linux/warpd (English)
 description: "A modal keyboard driven pointer manipulation program."
 content_hash: ae898fd9ea3221292ed049d4bc2a251ab602af55
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # warpd
 

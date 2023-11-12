@@ -3,6 +3,7 @@ layout: page
 title: common/pip3 (français)
 description: "Gestionnaire des paquets pour Python."
 content_hash: 8b36eb782228b1cef42fc650ebcf15526eb9fad6
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/pip3.html
@@ -13,8 +14,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/pip3.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# pip3
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># pip3
 
 Gestionnaire des paquets pour Python.
 Plus d'informations : <https://pip.pypa.io>.

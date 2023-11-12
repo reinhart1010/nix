@@ -3,11 +3,12 @@ layout: page
 title: common/jmap (English)
 description: "Java memory map tool."
 content_hash: 4d96fc95a6cbf0ea36166195439482bdb324ede0
-last_modified_at: 2023-06-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/common/jmap.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # jmap
 

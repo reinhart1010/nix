@@ -3,6 +3,7 @@ layout: page
 title: osx/caffeinate (español)
 description: "Evita que macOS entre en modo de reposo."
 content_hash: 9016d83c53ba206fb6bd5d8cface0fd4e74b24c2
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/osx/caffeinate.html
@@ -16,12 +17,16 @@ related_topics:
   - title: italiano version
     url: /it/osx/caffeinate.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/osx/caffeinate.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/osx/caffeinate.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/caffeinate.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.

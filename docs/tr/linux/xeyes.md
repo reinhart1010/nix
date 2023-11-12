@@ -3,10 +3,12 @@ layout: page
 title: linux/xeyes (Türkçe)
 description: "Ekranda fare imlecini takip eden bir çift göz göster."
 content_hash: bb577db95aea56ec45a009940266bfb5787b56e7
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/xeyes.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xeyes
 

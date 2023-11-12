@@ -3,11 +3,14 @@ layout: page
 title: common/snowsql (English)
 description: "SnowSQL command-line client for Snowflake's Data Cloud."
 content_hash: 85d976296d5b5726e9b21771cb2adbdebe8dbd38
+last_modified_at: 2023-11-12
+related_topics:
+  - title: polski version
+    url: /pl/common/snowsql.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># snowsql
+# snowsql
 
 SnowSQL command-line client for Snowflake's Data Cloud.
 More information: <https://docs.snowflake.com/en/user-guide/snowsql.html>.

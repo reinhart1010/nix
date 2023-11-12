@@ -3,6 +3,8 @@ layout: page
 title: common/pio-home (English)
 description: "Launch the PlatformIO Home web server."
 content_hash: 78a8718df2b603392452dd2f1890a902e8579745
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pio home
 

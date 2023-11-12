@@ -3,11 +3,10 @@ layout: page
 title: linux/dunstctl (English)
 description: "Control command for `dunst`."
 content_hash: 7fefe5c360b4354ca4ed98027a618cf7b4d61418
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dunstctl
+# dunstctl
 
 Control command for `dunst`.
 More information: <https://manned.org/dunstctl>.

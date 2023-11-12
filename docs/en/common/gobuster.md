@@ -3,10 +3,12 @@ layout: page
 title: common/gobuster (English)
 description: "Brute-forces hidden paths on web servers and more."
 content_hash: 1a9f188d2c3fca24e5496030a69d978857f01d10
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/gobuster.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gobuster
 

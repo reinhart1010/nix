@@ -3,11 +3,12 @@ layout: page
 title: linux/pw-link (English)
 description: "Manage links between ports in PipeWire."
 content_hash: 1ee2b062bbb43cc98ec1ab874ac3769faecaa4c9
-last_modified_at: 2022-12-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: Türkçe version
     url: /tr/linux/pw-link.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pw-link
 

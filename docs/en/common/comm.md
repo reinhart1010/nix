@@ -3,7 +3,7 @@ layout: page
 title: common/comm (English)
 description: "Select or reject lines common to two files. Both files must be sorted."
 content_hash: 29b5283df552f88b544d244d28e1e8be4ef7f10c
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/comm.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/comm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # comm
 

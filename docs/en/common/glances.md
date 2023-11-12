@@ -3,6 +3,8 @@ layout: page
 title: common/glances (English)
 description: "A cross-platform system monitoring tool."
 content_hash: 36ad94d28f3a2db7d7f0bf4df804dd1b0a58096c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # glances
 

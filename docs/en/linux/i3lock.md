@@ -3,10 +3,12 @@ layout: page
 title: linux/i3lock (English)
 description: "Simple screen locker built for the i3 window manager."
 content_hash: 64ff022523868004a1b89855f1d9a815db5e14c9
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/i3lock.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # i3lock
 

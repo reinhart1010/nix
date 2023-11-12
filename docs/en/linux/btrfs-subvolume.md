@@ -3,6 +3,7 @@ layout: page
 title: linux/btrfs-subvolume (English)
 description: "Manage btrfs subvolumes and snapshots."
 content_hash: 849485e4d0add6a5077beb1f3a8207b5c57641c6
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/linux/btrfs-subvolume.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/btrfs-subvolume.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # btrfs subvolume
 

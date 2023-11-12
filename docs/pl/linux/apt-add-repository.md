@@ -3,7 +3,7 @@ layout: page
 title: linux/apt-add-repository (polski)
 description: "Zarządzaj definicjami repozytoriów `apt`."
 content_hash: 6643c50c5b81f42a29792295cb5c29b449092c9e
-last_modified_at: 2023-10-24
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/apt-add-repository.html
@@ -29,11 +29,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/apt-add-repository.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># apt-add-repository
+# apt-add-repository
 
 Zarządzaj definicjami repozytoriów `apt`.
 Więcej informacji: <https://manpages.debian.org/latest/software-properties-common/apt-add-repository.1.html>.

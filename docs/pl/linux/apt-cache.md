@@ -3,7 +3,7 @@ layout: page
 title: linux/apt-cache (polski)
 description: "Narzędzie do zapytań o pakiety w Debianie i Ubuntu."
 content_hash: 04c9e9fb2ca244a87e23e5a83bb208102003255d
-last_modified_at: 2023-05-23
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/apt-cache.html
@@ -26,9 +26,13 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/apt-cache.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/apt-cache.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apt-cache.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apt-cache
 

@@ -3,7 +3,7 @@ layout: page
 title: windows/cd (Nederlands)
 description: "Geef de naam van de huidige werkmap weer of wijzig deze."
 content_hash: e1c3bc9d8709c562c37bc2e8d1d1fe1966479355
-last_modified_at: 2023-11-02
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/windows/cd.html
@@ -44,6 +44,7 @@ related_topics:
   - title: ไทย version
     url: /th/windows/cd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cd
 

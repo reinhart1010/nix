@@ -3,6 +3,7 @@ layout: page
 title: common/git-clean (Türkçe)
 description: "Takip edilmeyen dosyaları çalışma ağacından sil."
 content_hash: ba2811f42782447762b0e5180a9a628ff4ea3d25
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-clean.html
@@ -22,6 +23,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/git-clean.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git clean
 

@@ -3,15 +3,14 @@ layout: page
 title: common/pip-uninstall (português (Brasil))
 description: "Desinstala pacotes Python."
 content_hash: 592a26a2e10a04e7e692b0008a206380ea37df3e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/pip-uninstall.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pip uninstall
+# pip uninstall
 
 Desinstala pacotes Python.
 Mais informações: <https://pip.pypa.io>.

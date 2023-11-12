@@ -3,11 +3,12 @@ layout: page
 title: linux/systemd-analyze (polski)
 description: "Analizuj i debuguj menedżera systemu."
 content_hash: 2e3eb8cc8bda41ed700b1ec999f63998a09933fd
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/systemd-analyze.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # systemd-analyze
 

@@ -3,6 +3,7 @@ layout: page
 title: common/git-clean (italiano)
 description: "Elimina i file non tracciati dall'albero di lavoro."
 content_hash: 23d8624d5a015336cffe2b4509467f41f18b61e2
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-clean.html
@@ -22,6 +23,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-clean.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git clean
 

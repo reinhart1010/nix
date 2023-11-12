@@ -3,12 +3,10 @@ layout: page
 title: common/eksctl (English)
 description: "The official CLI for Amazon EKS."
 content_hash: c3d8a07a1f0eab4f292c6b0c12c08fea524ad9d9
-last_modified_at: 2023-04-20
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># eksctl
+# eksctl
 
 The official CLI for Amazon EKS.
 More information: <https://eksctl.io>.

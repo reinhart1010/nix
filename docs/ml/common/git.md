@@ -3,6 +3,7 @@ layout: page
 title: common/git (മലയാളം)
 description: "പ്രോഗ്രാമുകളുടെ പല പതിപ്പുകൾ പലയിടങ്ങളിലായി സൂക്ഷിക്കുവാനും നിയന്ത്രിക്കുവാനും ഉള്ള വികേന്ദ്രീകൃത പതിപ്പ് നിയന്ത്രണ സംവിധാനം."
 content_hash: 30c357d7899b1f0b0208eff5b5eae2aa3d50db3d
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
@@ -22,6 +23,9 @@ related_topics:
   - title: italiano version
     url: /it/common/git.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/git.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/git.html
     icon: bi bi-globe
@@ -34,6 +38,9 @@ related_topics:
   - title: српски version
     url: /sr/common/git.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/git.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git.html
     icon: bi bi-globe
@@ -43,6 +50,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/git.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git
 

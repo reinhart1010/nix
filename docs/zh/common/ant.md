@@ -3,6 +3,7 @@ layout: page
 title: common/ant (中文)
 description: "Apache Ant。"
 content_hash: e6252de0ffe7248e614ffae8a2e010e8081f30ea
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ant.html
@@ -13,11 +14,12 @@ related_topics:
   - title: français version
     url: /fr/common/ant.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/ant.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ant
+# ant
 
 Apache Ant。
 用于构建和管理基于 Java 的项目的工具。

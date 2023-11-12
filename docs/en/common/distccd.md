@@ -3,6 +3,8 @@ layout: page
 title: common/distccd (English)
 description: "Server daemon for the distcc distributed compiler."
 content_hash: 8a463eb3e0a4f6dfdc4fff4199c55f45e0ecb0fe
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # distccd
 

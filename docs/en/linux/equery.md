@@ -3,7 +3,8 @@ layout: page
 title: linux/equery (English)
 description: "View information about Portage packages."
 content_hash: ab91073e7dbcf39937f30c4bdb6ca09133762361
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # equery
 

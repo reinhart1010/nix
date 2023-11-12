@@ -3,6 +3,7 @@ layout: page
 title: common/flutter (Deutsch)
 description: "Googles Cross-Platform Open-Source SDK."
 content_hash: dd79929d2a959bc888d17289762e672e1e7a7b5a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/flutter.html
@@ -10,11 +11,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/flutter.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># flutter
+# flutter
 
 Googles Cross-Platform Open-Source SDK.
 Weitere Informationen: <https://github.com/flutter/flutter/wiki/The-flutter-tool>.

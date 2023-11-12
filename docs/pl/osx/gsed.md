@@ -3,7 +3,7 @@ layout: page
 title: osx/gsed (polski)
 description: "To polecenie jest aliasem `-p linux sed`."
 content_hash: e83e1f52f283d777c5946ae0eb75994b71ec2261
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gsed.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gsed.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gsed
 

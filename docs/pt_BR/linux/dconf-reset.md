@@ -3,16 +3,14 @@ layout: page
 title: linux/dconf-reset (português (Brasil))
 description: "Redefine chaves valores nos bancos de dados dconf."
 content_hash: ca154d8255b8d411ba8ca262285a8efaa7d5c67e
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/dconf-reset.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dconf reset
+# dconf reset
 
 Redefine chaves valores nos bancos de dados dconf.
 Veja também: `dconf`.

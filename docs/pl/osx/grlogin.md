@@ -3,7 +3,7 @@ layout: page
 title: osx/grlogin (polski)
 description: "To polecenie jest aliasem `-p linux rlogin`."
 content_hash: df958d67e67e8da949947f8a3f5d870dc249885f
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/grlogin.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/grlogin.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # grlogin
 

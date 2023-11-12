@@ -3,6 +3,8 @@ layout: page
 title: linux/nitrogen (English)
 description: "Desktop background browser and setter for X Window."
 content_hash: 45d7b66aca511d3fcac837b23fde16da96681524
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # nitrogen
 

@@ -3,11 +3,10 @@ layout: page
 title: common/azurite (English)
 description: "Azure Storage API compatible server (emulator) in local environment."
 content_hash: 03a8408c9dffb54b963a29831a08165d54f0f7a7
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># azurite
+# azurite
 
 Azure Storage API compatible server (emulator) in local environment.
 More information: <https://www.npmjs.com/package/azurite>.

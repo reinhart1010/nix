@@ -3,6 +3,8 @@ layout: page
 title: common/sbcl (English)
 description: "High performance Common Lisp compiler."
 content_hash: 625d8225f73900aefe68e40116ef75a0ef9f0159
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sbcl
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/datamash (English)
 description: "Tool to perform basic numeric, textual and statistical operations on input textual data files."
 content_hash: 10f3e9ba63e808bad260a1ae48a16e81a349d66c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # datamash
 

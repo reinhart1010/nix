@@ -3,6 +3,8 @@ layout: page
 title: common/prosodyctl (English)
 description: "The control tool for the Prosody XMPP server."
 content_hash: db2a912eb196417cb1c812e25d724f14ffa1df3c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # prosodyctl
 

@@ -3,7 +3,7 @@ layout: page
 title: osx/base64 (हिन्दी)
 description: "बेस 64 प्रस्तुतीकरण का उपयोग करके कोड और डिकोड करें।"
 content_hash: e82a2b2161aee16de3e422caee5a5822540aabd8
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/base64.html
@@ -20,6 +20,7 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/base64.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # base64
 

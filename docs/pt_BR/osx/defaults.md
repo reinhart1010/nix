@@ -3,6 +3,7 @@ layout: page
 title: osx/defaults (português (Brasil))
 description: "Lê e grava a configuração do usuário do macOS para aplicativos."
 content_hash: c8eeb9639fa25ce0ca6559140aadebb396286216
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/defaults.html
@@ -10,11 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/defaults.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># defaults
+# defaults
 
 Lê e grava a configuração do usuário do macOS para aplicativos.
 Mais informações: <https://ss64.com/osx/defaults.html>.

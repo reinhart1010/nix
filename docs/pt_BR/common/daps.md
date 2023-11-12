@@ -3,15 +3,14 @@ layout: page
 title: common/daps (português (Brasil))
 description: "DAPS é um programa de código aberto para transformar DocBook XML em formatos de saída como HTML ou PDF."
 content_hash: 9170428201b11ea83985ccc139d3b7269e1cf4ab
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/daps.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># daps
+# daps
 
 DAPS é um programa de código aberto para transformar DocBook XML em formatos de saída como HTML ou PDF.
 Mais informações: <https://opensuse.github.io/daps/doc/index.html>.

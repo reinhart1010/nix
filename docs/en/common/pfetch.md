@@ -3,6 +3,8 @@ layout: page
 title: common/pfetch (English)
 description: "Display system information."
 content_hash: ad458feb4bc05234a0215d3aa225b9073e91a20c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pfetch
 

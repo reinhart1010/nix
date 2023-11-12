@@ -3,11 +3,10 @@ layout: page
 title: common/mkdocs (English)
 description: "Project documentation with Markdown."
 content_hash: fbcefb9eb932dec47fc53bd63708ff256b994a5c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mkdocs
+# mkdocs
 
 Project documentation with Markdown.
 More information: <https://www.mkdocs.org>.

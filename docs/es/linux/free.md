@@ -3,13 +3,24 @@ layout: page
 title: linux/free (español)
 description: "Muestra la cantidad de memoria libre y usada en el sistema."
 content_hash: ed3e146c72619c57417af284288dee58dc976df8
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/free.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/free.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/free.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/free.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/free.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # free
 

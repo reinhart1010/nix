@@ -3,11 +3,12 @@ layout: page
 title: common/jwt (English)
 description: "Work with JSON Web Tokens (JWTs)."
 content_hash: eb53156e5214955b3d717a0d516419f1c5172560
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/jwt.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # jwt
 

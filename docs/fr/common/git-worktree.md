@@ -3,6 +3,7 @@ layout: page
 title: common/git-worktree (français)
 description: "Gérer plusieurs arbres de travail attachés au même dépôt."
 content_hash: 2c5ec9c128e2ac605bc5012a768d9139a7436bb2
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-worktree.html
@@ -13,6 +14,10 @@ related_topics:
   - title: italiano version
     url: /it/common/git-worktree.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-worktree.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git worktree
 

@@ -3,12 +3,10 @@ layout: page
 title: common/hub-browse (English)
 description: "Open a GitHub repository in the browser or print the URL."
 content_hash: d8be764eb8dc1cc8a500d5eb907db189fcc64238
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># hub browse
+# hub browse
 
 Open a GitHub repository in the browser or print the URL.
 More information: <https://cli.github.com/manual/hub_browse>.

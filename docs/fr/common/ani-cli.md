@@ -3,6 +3,7 @@ layout: page
 title: common/ani-cli (français)
 description: "Une CLI pour chercher et regarder des animés."
 content_hash: c9a9cac23af6d9c539417bbf71eeff3a11d82e22
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ani-cli.html
@@ -10,9 +11,16 @@ related_topics:
   - title: English version
     url: /en/common/ani-cli.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/ani-cli.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/common/ani-cli.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/ani-cli.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ani-cli
 

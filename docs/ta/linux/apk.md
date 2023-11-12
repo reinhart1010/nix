@@ -3,6 +3,7 @@ layout: page
 title: linux/apk (தமிழ்)
 description: "ஆல்பைன் லினக்ஸ் தொகுப்பு மேலாண்மை கருவி."
 content_hash: c3318212a83d311da93d0e0dd2fd2a963154c54b
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/apk.html
@@ -16,17 +17,24 @@ related_topics:
   - title: français version
     url: /fr/linux/apk.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/apk.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/linux/apk.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/apk.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/apk.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apk.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># apk
+# apk
 
 ஆல்பைன் லினக்ஸ் தொகுப்பு மேலாண்மை கருவி.
 மேலும் விவரத்திற்கு: <https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management>.

@@ -3,16 +3,14 @@ layout: page
 title: common/kubectl-get (Deutsch)
 description: "Abfragen von Kubernetes Resourcen und Objekten."
 content_hash: c32c5cc93619755930b9d58a6b7f3a0700f412a8
-last_modified_at: 2022-12-21
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/kubectl-get.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># kubectl get
+# kubectl get
 
 Abfragen von Kubernetes Resourcen und Objekten.
 Weitere Informationen: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#get>.

@@ -3,6 +3,7 @@ layout: page
 title: windows/choco-outdated (中文)
 description: "使用 Chocolatey 检查过时的包。"
 content_hash: 9ff35c73d6bb8dbe6ae013b0b9401cb0a9ed3417
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-outdated.html
@@ -10,6 +11,16 @@ related_topics:
   - title: English version
     url: /en/windows/choco-outdated.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/windows/choco-outdated.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/windows/choco-outdated.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/choco-outdated.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco outdated
 

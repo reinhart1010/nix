@@ -3,16 +3,14 @@ layout: page
 title: osx/terminal-notifier (español)
 description: "Envia notificaciones de usuario en macOS."
 content_hash: 49e5b27a303fcfe84feca9681f7716a15b9bde4c
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/terminal-notifier.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># terminal-notifier
+# terminal-notifier
 
 Envia notificaciones de usuario en macOS.
 Más información: <https://github.com/julienXX/terminal-notifier>.

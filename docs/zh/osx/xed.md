@@ -3,14 +3,18 @@ layout: page
 title: osx/xed (中文)
 description: "用 Xcode 打开要编辑的文件。"
 content_hash: 693c091657fa639e1c76669b203f1e2322a39051
-last_modified_at: 2023-07-24
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/xed.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/xed.html
+    icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/osx/xed.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xed
 

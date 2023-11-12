@@ -3,11 +3,14 @@ layout: page
 title: common/kitex (中文)
 description: "Kitex 是 Go RPC 框架 Kitex 框架提供的用于生成代码的一个命令行工具。"
 content_hash: 89ab5a711754dda5b7b9f62dbb9d9c60a06cbab9
+last_modified_at: 2023-11-12
+related_topics:
+  - title: English version
+    url: /en/common/kitex.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># kitex
+# kitex
 
 Kitex 是 Go RPC 框架 Kitex 框架提供的用于生成代码的一个命令行工具。
 目前，kitex 支持 thrift 和 protobuf 的 IDL，并支持生成一个服务端项目的骨架。

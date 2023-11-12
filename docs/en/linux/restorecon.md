@@ -3,12 +3,10 @@ layout: page
 title: linux/restorecon (English)
 description: "Restore SELinux security context on files/directories according to persistent rules."
 content_hash: b7f1b8fe378b3d035ec69009fee960276d854b22
-last_modified_at: 2023-08-17
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># restorecon
+# restorecon
 
 Restore SELinux security context on files/directories according to persistent rules.
 See also: `semanage-fcontext`.

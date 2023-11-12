@@ -3,6 +3,8 @@ layout: page
 title: common/ogrinfo (English)
 description: "List information about an OGR-supported data source."
 content_hash: fd7caa607bf1681a6d8e6a17d97c59b7e1f26f4f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ogrinfo
 

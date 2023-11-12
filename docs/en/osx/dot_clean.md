@@ -3,6 +3,15 @@ layout: page
 title: osx/dot_clean (English)
 description: "Merge ._* files with corresponding native files."
 content_hash: 6ac1dc811e3bd1f515d5b8ca8b0455fdbd1e21e4
+last_modified_at: 2023-11-12
+related_topics:
+  - title: español version
+    url: /es/osx/dot_clean.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/dot_clean.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dot_clean
 

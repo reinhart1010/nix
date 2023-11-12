@@ -3,7 +3,7 @@ layout: page
 title: common/adb-install (Nederlands)
 description: "Android Debug Bridge-installatie: push pakketten naar een Android-emulatorinstantie of aangesloten Android-apparaten."
 content_hash: 6ac2cb74117aa26714cccb1d24ab31f22b62bb92
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/adb-install.html
@@ -32,6 +32,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/adb-install.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # adb install
 

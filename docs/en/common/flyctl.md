@@ -3,11 +3,10 @@ layout: page
 title: common/flyctl (English)
 description: "Command-line tool for flyctl.io."
 content_hash: 13571e8b7d9880e1f8a10939c07b460fbf80358c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># flyctl
+# flyctl
 
 Command-line tool for flyctl.io.
 More information: <https://github.com/superfly/flyctl>.

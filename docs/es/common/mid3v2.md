@@ -3,16 +3,14 @@ layout: page
 title: common/mid3v2 (español)
 description: "Editar etiquetas de audio."
 content_hash: 1092a05f813cf432c9bee813682579af8ffd6f57
-last_modified_at: 2023-02-13
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/mid3v2.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mid3v2
+# mid3v2
 
 Editar etiquetas de audio.
 Ver también: `id3v2`.

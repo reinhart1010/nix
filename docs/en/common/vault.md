@@ -3,7 +3,8 @@ layout: page
 title: common/vault (English)
 description: "Interact with HashiCorp Vault."
 content_hash: 6a2bfba01be78d71aedcb0be4721a6c84f65cf22
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # vault
 

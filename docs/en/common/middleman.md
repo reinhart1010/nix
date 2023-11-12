@@ -3,6 +3,8 @@ layout: page
 title: common/middleman (English)
 description: "Static site generator written in Ruby."
 content_hash: 97d10eec185b9f0420295121aee9bd03f49ebf19
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # middleman
 

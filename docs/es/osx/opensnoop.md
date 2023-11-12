@@ -3,7 +3,7 @@ layout: page
 title: osx/opensnoop (español)
 description: "Herramienta que rastrea las aperturas de archivos en tu sistema."
 content_hash: 3a5fdc478301ba1c3281e6b2714c59503ae0c09b
-last_modified_at: 2023-07-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/opensnoop.html
@@ -11,11 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/opensnoop.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># opensnoop
+# opensnoop
 
 Herramienta que rastrea las aperturas de archivos en tu sistema.
 Más información: <https://ss64.com/osx/opensnoop.html>.

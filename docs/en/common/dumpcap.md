@@ -3,6 +3,8 @@ layout: page
 title: common/dumpcap (English)
 description: "A network traffic dump tool."
 content_hash: c265362074a9d1591ff5abe071a442b2c6ab09db
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dumpcap
 

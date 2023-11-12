@@ -3,6 +3,7 @@ layout: page
 title: common/aws-quicksight (français)
 description: "CLI pour AWS QuickSight."
 content_hash: 99e2312af6710690c6cc409949be0f54fad71497
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-quicksight.html
@@ -10,6 +11,7 @@ related_topics:
   - title: English version
     url: /en/common/aws-quicksight.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws quicksight
 

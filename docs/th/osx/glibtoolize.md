@@ -3,7 +3,7 @@ layout: page
 title: osx/glibtoolize (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux libtoolize`"
 content_hash: cd7e9159b34edbbf7f7e2a05e85ae0096fe9313a
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/glibtoolize.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/glibtoolize.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # glibtoolize
 

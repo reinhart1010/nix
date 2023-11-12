@@ -3,6 +3,7 @@ layout: page
 title: common/dotnet-publish (español)
 description: "Publica una aplicación .NET y sus dependencias en una carpeta para la implementación en un sistema de hospedaje."
 content_hash: 541bb14a74179dfa63b1395e0c7e36e5676e7272
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/dotnet-publish.html
@@ -13,6 +14,7 @@ related_topics:
   - title: русский version
     url: /ru/common/dotnet-publish.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dotnet publish
 

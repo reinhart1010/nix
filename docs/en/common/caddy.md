@@ -3,6 +3,15 @@ layout: page
 title: common/caddy (English)
 description: "An enterprise-ready open source web server with automatic HTTPS, written in Go."
 content_hash: 2ba98e4e0c630116ea6e58fea766c150757298cd
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/caddy.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/caddy.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # caddy
 

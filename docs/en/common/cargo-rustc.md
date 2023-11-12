@@ -3,7 +3,7 @@ layout: page
 title: common/cargo-rustc (English)
 description: "Compile a Rust package. Similar to `cargo build`, but you can pass extra options to the compiler."
 content_hash: 282575de079361564020ecbe3f43c85deb0c6c6d
-last_modified_at: 2023-10-30
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/cargo-rustc.html
@@ -11,6 +11,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/cargo-rustc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cargo rustc
 

@@ -3,6 +3,8 @@ layout: page
 title: common/pdfjam (English)
 description: "Shell frontend for the LaTeX pdfpages package for mingling PDFs."
 content_hash: 55c030f513c3ef520bdeecc6cb115a389d1c8d64
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pdfjam
 
@@ -27,7 +29,7 @@ More information: <https://github.com/rrthomas/pdfjam>.
 
 - Arrange the pages from the input file into a fancy 2x2 grid:
 
-`pdfjam `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span>` --nup `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2x2</span>` --suffix `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4up</span>` --preamble '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">\usepackage{fancyhdr} \pagestyle{fancy</span>`}'`
+`pdfjam `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span>` --nup `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2x2</span>` --suffix `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4up</span>` --preamble '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">\usepackage{fancyhdr} \pagestyle{fancy}</span>`'`
 
 - Reverse the order of pages within each given file and concatenate them:
 

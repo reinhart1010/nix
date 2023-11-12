@@ -3,10 +3,12 @@ layout: page
 title: common/ranger (日本語)
 description: "VI キーバインドのコンソールファイルマネージャー。"
 content_hash: ac7e5678590b5c502e27ffaad68ca65462b6537c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ranger.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ranger
 

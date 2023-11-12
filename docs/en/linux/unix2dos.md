@@ -3,11 +3,12 @@ layout: page
 title: linux/unix2dos (English)
 description: "Change Unix-style line endings to DOS-style."
 content_hash: 393488d6b65fbe7d981875c5037625b0bf22adc8
-last_modified_at: 2023-05-18
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/linux/unix2dos.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # unix2dos
 

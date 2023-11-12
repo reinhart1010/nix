@@ -3,7 +3,8 @@ layout: page
 title: windows/uwfmgr (English)
 description: "Unified Write Filter (UWF)."
 content_hash: 77975890934a57e4a6eb9d1b36d3ff6fd8372bed
-last_modified_at: 2023-10-27
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # uwfmgr
 

@@ -3,6 +3,7 @@ layout: page
 title: common/dotnet (русский)
 description: "Кросс-платформенная утилита командной строки .NET для .NET Core."
 content_hash: b7a7a55c58f171a79cccec1d50367f0b90295748
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/dotnet.html
@@ -25,6 +26,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/dotnet.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dotnet
 

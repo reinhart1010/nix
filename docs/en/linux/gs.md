@@ -3,6 +3,8 @@ layout: page
 title: linux/gs (English)
 description: "GhostScript is a PDF and PostScript interpreter."
 content_hash: 2537f60b4d93d0aa9a0b228bc33acc601e9a2a82
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gs
 

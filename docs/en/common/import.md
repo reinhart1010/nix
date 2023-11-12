@@ -3,7 +3,8 @@ layout: page
 title: common/import (English)
 description: "Capture some or all of an X server screen, and save the image to a file."
 content_hash: 152602a8b52b55ca32896f858e6b7a5c5c2c8cd0
-last_modified_at: 2023-10-05
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # import
 

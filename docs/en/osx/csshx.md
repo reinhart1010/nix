@@ -3,11 +3,15 @@ layout: page
 title: osx/csshx (English)
 description: "Cluster SSH tool for macOS."
 content_hash: 0299a80cd0bf44c8e9fde9999ed01c8868db6f4c
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/osx/csshx.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/osx/csshx.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # csshX
 

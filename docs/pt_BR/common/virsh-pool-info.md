@@ -3,16 +3,17 @@ layout: page
 title: common/virsh-pool-info (português (Brasil))
 description: "Lista informações sobre um pool de armazenamento de máquina virtual."
 content_hash: 1642469fc90adc8e31c4ed68475525d991899d9e
-last_modified_at: 2023-09-18
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/virsh-pool-info.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/virsh-pool-info.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># virsh pool-info
+# virsh pool-info
 
 Lista informações sobre um pool de armazenamento de máquina virtual.
 Veja também: `virsh`.

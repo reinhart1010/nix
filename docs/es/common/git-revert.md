@@ -3,6 +3,7 @@ layout: page
 title: common/git-revert (español)
 description: "Crea nuevos commits que revierten el efecto de los anteriores."
 content_hash: 705a2d098509264b950a7351aff52b1d937c30f4
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-revert.html
@@ -16,8 +17,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-revert.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# git revert
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git revert
 
 Crea nuevos commits que revierten el efecto de los anteriores.
 Más información: <https://git-scm.com/docs/git-revert>.

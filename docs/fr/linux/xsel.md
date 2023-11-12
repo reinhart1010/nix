@@ -3,10 +3,12 @@ layout: page
 title: linux/xsel (français)
 description: "Outil de sélection et de manipulation du presse-papiers X11."
 content_hash: 7fa74ff1c920ed3b24a92855a909da236bcc8165
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/xsel.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xsel
 

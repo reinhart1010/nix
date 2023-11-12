@@ -3,7 +3,7 @@ layout: page
 title: common/cksum (हिन्दी)
 description: "किसी फ़ाइल की CRC चेकसम और बाइट गिनती की गणना करें।"
 content_hash: f8f75dd8217694ef51660e1f822b35b871d12c55
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/cksum.html
@@ -17,6 +17,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/cksum.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cksum
 

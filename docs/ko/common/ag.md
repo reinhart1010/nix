@@ -3,12 +3,25 @@ layout: page
 title: common/ag (한국어)
 description: "The Silver Searcher."
 content_hash: f87dd5a5556c89952e285e417cb8dd69a28b3981
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ag.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/ag.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/ag.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/ag.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/ag.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ag.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/ag.html
@@ -22,6 +35,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ag.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ag
 

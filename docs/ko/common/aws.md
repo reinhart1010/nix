@@ -3,7 +3,7 @@ layout: page
 title: common/aws (한국어)
 description: "Amazon Web Services의 공식 CLI tool입니다."
 content_hash: acd713cc2d94ba12f8a97842e2a85d7296d31739
-last_modified_at: 2023-10-01
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/aws.html
@@ -26,17 +26,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/aws.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/aws.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/aws.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># aws
+# aws
 
 Amazon Web Services의 공식 CLI tool입니다.
 `aws s3`와 같은 일부 하위 명령에는 자체 사용 설명서가 있습니다.

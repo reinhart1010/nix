@@ -3,10 +3,12 @@ layout: page
 title: common/gpgv (English)
 description: "Verify OpenPGP signatures."
 content_hash: 332bef5bca4a68c817f3b10e12e1ed6b2474e191
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/common/gpgv.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gpgv
 

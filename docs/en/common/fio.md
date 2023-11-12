@@ -3,7 +3,8 @@ layout: page
 title: common/fio (English)
 description: "Flexible I/O tester."
 content_hash: 00d98026299b9f02dba00775483ebd16dc2f5b2a
-last_modified_at: 2023-10-07
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fio
 

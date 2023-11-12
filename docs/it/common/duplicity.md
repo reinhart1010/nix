@@ -3,10 +3,12 @@ layout: page
 title: common/duplicity (italiano)
 description: "Crea archivi incrementali, compressi, cifrati con controllo di versione."
 content_hash: 82a319cde3be7186433fd368044dd924021d80db
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/duplicity.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # duplicity
 

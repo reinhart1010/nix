@@ -3,15 +3,25 @@ layout: page
 title: common/ag (italiano)
 description: "The Silver Searcher. Come `ack`, ma più veloce."
 content_hash: 3b69a9db7f6529659f21ac2d3ce350562f281d3f
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ag.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/ag.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/ag.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/ag.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/ag.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ag.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/ag.html
@@ -25,6 +35,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ag.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ag
 

@@ -3,7 +3,7 @@ layout: page
 title: osx/ginstall (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux install`"
 content_hash: 83e34dcfa08e060ce53a05d93babaf498ea6784b
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/ginstall.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/ginstall.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ginstall
 

@@ -3,16 +3,14 @@ layout: page
 title: common/csh (français)
 description: "Le shell (interprèteur de commandes) affiche une syntaxe proche de C."
 content_hash: 77109f6bbf48cee909c01ee50403ae229fbd36e7
-last_modified_at: 2023-09-10
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/csh.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># csh
+# csh
 
 Le shell (interprèteur de commandes) affiche une syntaxe proche de C.
 Voir aussi : `tcsh`.

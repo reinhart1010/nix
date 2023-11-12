@@ -3,6 +3,8 @@ layout: page
 title: common/git-delete-branch (English)
 description: "Delete local and remote Git branches."
 content_hash: f8b1d3212061d36ebad9f8d90d4f264b9eb837a2
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git delete-branch
 

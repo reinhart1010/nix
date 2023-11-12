@@ -3,6 +3,7 @@ layout: page
 title: sunos/snoop (தமிழ்)
 description: "நெட்வொர்க் பாக்கெட் ஸ்னிஃபர்."
 content_hash: 5af44e61c86f65f2d6d8010e190994a31d6b525e
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/sunos/snoop.html
@@ -10,6 +11,16 @@ related_topics:
   - title: English version
     url: /en/sunos/snoop.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/sunos/snoop.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/sunos/snoop.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/sunos/snoop.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # snoop
 

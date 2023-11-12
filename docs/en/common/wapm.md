@@ -3,7 +3,8 @@ layout: page
 title: common/wapm (English)
 description: "The WebAssembly package manager."
 content_hash: fbccb11bb94efb797af3d6c52c55a5c77bf46b35
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # wapm
 

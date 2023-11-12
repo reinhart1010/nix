@@ -3,10 +3,12 @@ layout: page
 title: linux/login (English)
 description: "Initiates a session for a user."
 content_hash: 00278f108a9641d769c015206a582dbd568d2dac
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/linux/login.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # login
 

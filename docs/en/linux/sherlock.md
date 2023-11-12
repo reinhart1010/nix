@@ -3,6 +3,8 @@ layout: page
 title: linux/sherlock (English)
 description: "Find usernames across social networks."
 content_hash: b10d76b489662accda7f9fad712668a3d2b3e4ee
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sherlock
 

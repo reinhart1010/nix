@@ -3,11 +3,10 @@ layout: page
 title: linux/blastn (English)
 description: "Nucleotide-Nucleotide BLAST."
 content_hash: 0aa5afa9fc422c6c17b74858f159c8c26aae3f19
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># blastn
+# blastn
 
 Nucleotide-Nucleotide BLAST.
 More information: <https://www.ncbi.nlm.nih.gov/books/NBK279684/table/appendices.T.blastn_application_options/>.

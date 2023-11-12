@@ -3,6 +3,8 @@ layout: page
 title: common/flow (English)
 description: "A static type checker for JavaScript."
 content_hash: 32e9ccce924b1d6e835ed4092fbc952490892f49
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # flow
 

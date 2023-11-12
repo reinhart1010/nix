@@ -3,6 +3,8 @@ layout: page
 title: common/msfvenom (English)
 description: "Manually generate payloads for metasploit."
 content_hash: 7918cafc87e5a6f6b088baf1d15fec4e056a6396
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # msfvenom
 

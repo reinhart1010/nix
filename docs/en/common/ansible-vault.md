@@ -3,10 +3,15 @@ layout: page
 title: common/ansible-vault (English)
 description: "Encrypts & decrypts values, data structures and files within Ansible projects."
 content_hash: c894bebdbc34e8e27b316a2a08d6a2f7d87c93bd
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible-vault.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/ansible-vault.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ansible-vault
 

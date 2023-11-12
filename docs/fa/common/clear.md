@@ -3,7 +3,7 @@ layout: page
 title: common/clear (فارسی)
 description: "پاک کردن صفحه ترمینال."
 content_hash: 21d12d7bddc4b32013470bc3de5c55e2b59499a4
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/clear.html
@@ -32,6 +32,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/clear.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # clear
 

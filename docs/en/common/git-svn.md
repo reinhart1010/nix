@@ -3,6 +3,7 @@ layout: page
 title: common/git-svn (English)
 description: "Bidirectional operation between a Subversion repository and Git."
 content_hash: c878e97eb7691e8725572d765e9a5787e06bf2f8
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/git-svn.html
@@ -13,6 +14,10 @@ related_topics:
   - title: italiano version
     url: /it/common/git-svn.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-svn.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git svn
 

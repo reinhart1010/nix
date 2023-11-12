@@ -3,10 +3,12 @@ layout: page
 title: linux/eject (français)
 description: "Éjecte les CD, disquettes et les bandes magnétiques."
 content_hash: 08b10a6963964f4b94da1980682333cc01341a3c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/eject.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # eject
 

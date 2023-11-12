@@ -3,11 +3,10 @@ layout: page
 title: common/tmsu (English)
 description: "Simple command-line tool for tagging files."
 content_hash: 26198bfcab63cd81fd1d0153821f18bc02d0020a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># tmsu
+# tmsu
 
 Simple command-line tool for tagging files.
 More information: <https://tmsu.org>.

@@ -3,6 +3,7 @@ layout: page
 title: common/gimp (français)
 description: "Outil d'édition et de retouche d'image, libre et multiplateforme."
 content_hash: 247cb3f23213158693ee6155de0b8530845d42c1
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/gimp.html
@@ -10,6 +11,7 @@ related_topics:
   - title: русский version
     url: /ru/common/gimp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gimp
 

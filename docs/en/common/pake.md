@@ -3,7 +3,8 @@ layout: page
 title: common/pake (English)
 description: "Turn any webpage into a desktop app with Rust/Tauri."
 content_hash: 5f937d00ab2f682e5f2ec238fbfb3a467c0f4d07
-last_modified_at: 2023-02-05
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pake
 

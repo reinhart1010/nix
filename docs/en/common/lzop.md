@@ -3,7 +3,8 @@ layout: page
 title: common/lzop (English)
 description: "Compress or decompress files with LZO compression."
 content_hash: d60bc65e05c2db9a7f67bf73371740da539a7dac
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lzop
 

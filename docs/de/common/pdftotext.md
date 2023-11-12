@@ -3,16 +3,14 @@ layout: page
 title: common/pdftotext (Deutsch)
 description: "Konvertiere PDF Dateien zum plain text Format."
 content_hash: 40055bfa884b6cfdab0bf99ce431fb4de5db615d
-last_modified_at: 2022-11-30
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/pdftotext.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pdftotext
+# pdftotext
 
 Konvertiere PDF Dateien zum plain text Format.
 Weitere Informationen: <https://www.xpdfreader.com/pdftotext-man.html>.

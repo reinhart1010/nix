@@ -3,6 +3,7 @@ layout: page
 title: common/nativefier (English)
 description: "Command-line tool to create a desktop app for any web site with minimal configuration."
 content_hash: d2ddc947b392a108a6e2484b9db63af886b061ea
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/nativefier.html
@@ -10,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/nativefier.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nativefier
 

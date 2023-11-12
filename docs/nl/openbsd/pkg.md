@@ -3,16 +3,14 @@ layout: page
 title: openbsd/pkg (Nederlands)
 description: "OpenBSD pakketbeheerder hulpprogramma."
 content_hash: 9541ebdfab0fab3501f8bcb7d30635f2677a55de
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/openbsd/pkg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pkg
+# pkg
 
 OpenBSD pakketbeheerder hulpprogramma.
 Meer informatie: <https://www.openbsd.org/faq/faq15.html>.

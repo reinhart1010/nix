@@ -3,16 +3,14 @@ layout: page
 title: linux/locale (português (Brasil))
 description: "Obtém informações específicas da localidade."
 content_hash: 87fb2b04d2f7793c459670a285a10e3670182ed9
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/locale.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># locale
+# locale
 
 Obtém informações específicas da localidade.
 Mais informações: <https://manned.org/locale>.

@@ -3,7 +3,8 @@ layout: page
 title: common/svgr (English)
 description: "Transform SVGs into React components."
 content_hash: ce791ac04252a817b4c4b28554b5b3965986979e
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # svgr
 

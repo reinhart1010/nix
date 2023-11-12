@@ -3,6 +3,8 @@ layout: page
 title: common/gotty (English)
 description: "Share your terminal as a web application."
 content_hash: 372bd80c47c6f6ee1e0b190ad3144dc0581bf05a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gotty
 

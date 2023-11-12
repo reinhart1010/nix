@@ -3,7 +3,7 @@ layout: page
 title: common/rubocop (français)
 description: "Lint les fichiers Ruby."
 content_hash: 2e640603c81fa3390283fa6f95f41f22c6afd17e
-last_modified_at: 2023-10-11
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/rubocop.html
@@ -17,11 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/rubocop.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rubocop
+# rubocop
 
 Lint les fichiers Ruby.
 Plus d'informations : <https://docs.rubocop.org/rubocop/usage/basic_usage.html>.

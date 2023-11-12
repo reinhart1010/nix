@@ -3,6 +3,7 @@ layout: page
 title: common/gimp (English)
 description: "GNU image manipulation program."
 content_hash: 6c420fb2ebc21949587aa480cd961763dcaea75a
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/gimp.html
@@ -10,6 +11,7 @@ related_topics:
   - title: русский version
     url: /ru/common/gimp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gimp
 

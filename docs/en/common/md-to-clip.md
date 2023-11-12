@@ -3,7 +3,8 @@ layout: page
 title: common/md-to-clip (English)
 description: "Converter from tldr-pages to Command Line Interface Pages."
 content_hash: a3137a8e20ce590287a547877399dc60dcb33ee9
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # md-to-clip
 

@@ -3,6 +3,7 @@ layout: page
 title: windows/xcopy (polski)
 description: "Kopiuje pliki i katalogi, w tym podkatalogi."
 content_hash: af0395c61dc00c750968f579d6eb07ea8e59960c
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/xcopy.html
@@ -13,14 +14,15 @@ related_topics:
   - title: Indonesia version
     url: /id/windows/xcopy.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/xcopy.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/xcopy.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># xcopy
+# xcopy
 
 Kopiuje pliki i katalogi, w tym podkatalogi.
 Więcej informacji: <https://learn.microsoft.com/windows-server/administration/windows-commands/xcopy>.

@@ -3,7 +3,7 @@ layout: page
 title: common/latex (中文 (繁體, 台灣))
 description: "從 LaTeX 原始檔編譯 DVI 文件。"
 content_hash: 46c42d16b6511268d80b71c8b2f99cfcb41e9110
-last_modified_at: 2023-10-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/latex.html
@@ -11,6 +11,7 @@ related_topics:
   - title: English version
     url: /en/common/latex.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # latex
 

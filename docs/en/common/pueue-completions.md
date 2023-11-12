@@ -3,6 +3,8 @@ layout: page
 title: common/pueue-completions (English)
 description: "Generates shell completion files for Bash, Elvish, Fish, PowerShell, and Zsh."
 content_hash: 0d56f04d2c7df2856f8444c4be2c12d6ed913d28
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pueue completions
 

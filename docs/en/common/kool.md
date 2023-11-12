@@ -3,7 +3,8 @@ layout: page
 title: common/kool (English)
 description: "Build software development environments."
 content_hash: bc84022d92e8e11e5be57cb7e186a4aeaf0458e3
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # kool
 

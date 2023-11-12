@@ -3,6 +3,7 @@ layout: page
 title: common/git-pull (Türkçe)
 description: "Uzak bir depodan dal getir ve yerel depo ile birleştir."
 content_hash: ef79b3c87e2b6c2d617a63e403fe941139c1b411
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-pull.html
@@ -22,12 +23,16 @@ related_topics:
   - title: italiano version
     url: /it/common/git-pull.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-pull.html
+    icon: bi bi-globe
   - title: українська version
     url: /uk/common/git-pull.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/git-pull.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git pull
 

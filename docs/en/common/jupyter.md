@@ -3,10 +3,12 @@ layout: page
 title: common/jupyter (English)
 description: "Web application to create and share documents that contain code, visualizations and notes."
 content_hash: cc7680b8760bc43b707499d079dd161896ce054d
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/jupyter.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # jupyter
 

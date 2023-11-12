@@ -3,6 +3,12 @@ layout: page
 title: common/lpr (English)
 description: "CUPS tool for printing files."
 content_hash: e31dd642c932c4fc6313ddc38b78075af28cd7c0
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/lpr.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lpr
 

@@ -3,6 +3,12 @@ layout: page
 title: common/go-mod (English)
 description: "Module maintenance."
 content_hash: 1b74283f6baba7b0f90e0b88ae1f421674b69774
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Türkçe version
+    url: /tr/common/go-mod.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # go mod
 

@@ -3,6 +3,12 @@ layout: page
 title: common/gitk (English)
 description: "A graphical Git repository browser."
 content_hash: 92a5621f1511ae15b6bef4cb700b211102b615cb
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Türkçe version
+    url: /tr/common/gitk.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gitk
 

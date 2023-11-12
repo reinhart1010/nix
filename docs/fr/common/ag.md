@@ -3,15 +3,25 @@ layout: page
 title: common/ag (français)
 description: "The Silver Searcher. Comme ack, mais inspire à être plus rapide."
 content_hash: 4fcb1a0d4b8331aef1578e51a66a3d3f114a03dc
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ag.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/ag.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/ag.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/ag.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/ag.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ag.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/ag.html
@@ -25,11 +35,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ag.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ag
+# ag
 
 The Silver Searcher. Comme ack, mais inspire à être plus rapide.
 Plus d'informations : <https://github.com/ggreer/the_silver_searcher>.

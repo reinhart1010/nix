@@ -3,7 +3,7 @@ layout: page
 title: common/helm (español)
 description: "Helm es un gestor de paquetes para Kubernetes."
 content_hash: 308b2f7a23990a377a80c64dacf95932f46e1fba
-last_modified_at: 2023-10-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/helm.html
@@ -14,6 +14,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/helm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # helm
 

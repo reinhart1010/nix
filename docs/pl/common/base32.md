@@ -3,7 +3,7 @@ layout: page
 title: common/base32 (polski)
 description: "Enkoduj lub dekoduj plik lub standardowe wejście do/z Base32, na standardowe wyjście."
 content_hash: ddaa7baf8d2e4f26557274013e55ad9e2ecd9eb6
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/base32.html
@@ -26,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/base32.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # base32
 

@@ -3,7 +3,8 @@ layout: page
 title: windows/pipwin (English)
 description: "A tool to install unofficial Python package binaries on Windows."
 content_hash: cbfd9a61b4b9148feaad2a11e2079079da6f2e33
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pipwin
 

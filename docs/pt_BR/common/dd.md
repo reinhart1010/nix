@@ -3,6 +3,7 @@ layout: page
 title: common/dd (português (Brasil))
 description: "Converte e copia um arquivo."
 content_hash: 7b9f16c93916366b20543a680706022656687c55
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/dd.html
@@ -10,9 +11,13 @@ related_topics:
   - title: English version
     url: /en/common/dd.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/dd.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/dd.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.

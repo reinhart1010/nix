@@ -3,6 +3,8 @@ layout: page
 title: osx/networkquality (English)
 description: "Measure the network quality by connecting to the internet."
 content_hash: 6804ea21c9967437e0ed022d3836e52ca70a562d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # networkQuality
 

@@ -3,7 +3,12 @@ layout: page
 title: osx/lipo (English)
 description: "Tool for handling Mach-O Universal Binaries."
 content_hash: 5c6023fed0b1a95291176ab663d5eff4116cce7d
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
+related_topics:
+  - title: español version
+    url: /es/osx/lipo.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lipo
 

@@ -3,10 +3,16 @@ layout: page
 title: common/mscore (العربية)
 description: "هذا الأمر هو اسم مستعار لـ `musescore`."
 content_hash: 3bcdc1b2088e4c209b37c6c51b62812aa4a1fe6a
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: bosanski version
     url: /bs/common/mscore.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/common/mscore.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/common/mscore.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/mscore.html
@@ -32,11 +38,17 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/mscore.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/mscore.html
+    icon: bi bi-globe
   - title: ລາວ version
     url: /lo/common/mscore.html
     icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/common/mscore.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/mscore.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/mscore.html
@@ -50,6 +62,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/mscore.html
     icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/common/mscore.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/common/mscore.html
     icon: bi bi-globe
@@ -62,6 +77,9 @@ related_topics:
   - title: ไทย version
     url: /th/common/mscore.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/mscore.html
+    icon: bi bi-globe
   - title: українська version
     url: /uk/common/mscore.html
     icon: bi bi-globe
@@ -71,11 +89,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/mscore.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mscore
+# mscore
 
 هذا الأمر هو اسم مستعار لـ `musescore`.
 لمزيد من التفاصيل: <https://musescore.org/handbook/command-line-options>.

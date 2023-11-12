@@ -3,10 +3,15 @@ layout: page
 title: common/podman (English)
 description: "Simple management tool for pods, containers and images."
 content_hash: 949ab0668134222a9d3463380e7574b9df058125
+last_modified_at: 2023-11-12
 related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/common/podman.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/podman.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # podman
 

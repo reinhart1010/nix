@@ -3,6 +3,8 @@ layout: page
 title: linux/mandb (English)
 description: "Manage the pre-formatted manual page database."
 content_hash: 3ee1708a3eb9db8378ef42d941d04e91358662bf
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mandb
 

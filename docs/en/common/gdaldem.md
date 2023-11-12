@@ -3,11 +3,10 @@ layout: page
 title: common/gdaldem (English)
 description: "Tool to analyze and visualize digital elevation models (DEM)."
 content_hash: e6dbc16f47b35220e1997462a5e15edae8735991
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gdaldem
+# gdaldem
 
 Tool to analyze and visualize digital elevation models (DEM).
 More information: <https://gdal.org/programs/gdaldem>.

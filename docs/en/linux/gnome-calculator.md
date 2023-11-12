@@ -3,7 +3,7 @@ layout: page
 title: linux/gnome-calculator (English)
 description: "The official calculator for the GNOME desktop environment."
 content_hash: b1f014d30df01cd3bd25a3bb1cd34011c5db6919
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/gnome-calculator.html
@@ -11,6 +11,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/linux/gnome-calculator.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gnome-calculator
 

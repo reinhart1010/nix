@@ -3,6 +3,7 @@ layout: page
 title: linux/lsusb (català)
 description: "Mostra informació sobre ports i dispositius USB."
 content_hash: 4d072481a6f7e785d2513ef80098666faa795ee6
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/lsusb.html
@@ -10,9 +11,13 @@ related_topics:
   - title: español version
     url: /es/linux/lsusb.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/lsusb.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/linux/lsusb.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lsusb
 

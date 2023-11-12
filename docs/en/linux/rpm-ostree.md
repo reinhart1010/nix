@@ -3,11 +3,14 @@ layout: page
 title: linux/rpm-ostree (English)
 description: "A hybrid image/package system."
 content_hash: 33e24290a919cb92f228a84696bf2d1ccb28638a
+last_modified_at: 2023-11-12
+related_topics:
+  - title: தமிழ் version
+    url: /ta/linux/rpm-ostree.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rpm-ostree
+# rpm-ostree
 
 A hybrid image/package system.
 Manage ostree deployments, package layers, filesystem overlays, and boot configuration.

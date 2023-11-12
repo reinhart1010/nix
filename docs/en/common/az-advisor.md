@@ -3,12 +3,10 @@ layout: page
 title: common/az-advisor (English)
 description: "Manage Azure subscription information."
 content_hash: 22bc05fcdf48122265e157f28ad977f5ccff1077
-last_modified_at: 2023-10-14
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># az advisor
+# az advisor
 
 Manage Azure subscription information.
 Part of `azure-cli` (also known as `az`).

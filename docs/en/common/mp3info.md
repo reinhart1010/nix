@@ -3,6 +3,8 @@ layout: page
 title: common/mp3info (English)
 description: "Viewer/editor for ID3v1 (but not ID3v2) tags of MP3 files."
 content_hash: 59dafae3167354d05a0867ebcb867d657877034e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mp3info
 

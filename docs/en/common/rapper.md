@@ -3,7 +3,8 @@ layout: page
 title: common/rapper (English)
 description: "The Raptor RDF parsing utility."
 content_hash: 36ed288aa352d9f44c2e4edab041de4e9ecea871
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rapper
 

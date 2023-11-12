@@ -3,9 +3,13 @@ layout: page
 title: common/babel (français)
 description: "Un transpilateur qui convertit du code JavaScript avec la syntaxe ES6/ES7 en syntaxe ES5."
 content_hash: e69d59a3044b067e875509d8ad67d31bc03927c3
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/babel.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/common/babel.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/babel.html
@@ -19,11 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/babel.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># babel
+# babel
 
 Un transpilateur qui convertit du code JavaScript avec la syntaxe ES6/ES7 en syntaxe ES5.
 Plus d'informations : <https://babeljs.io/>.

@@ -3,11 +3,12 @@ layout: page
 title: linux/wg (English)
 description: "Manage the configuration of WireGuard interfaces."
 content_hash: d265e8c557925d7b9515c0c725c18aab73336716
-last_modified_at: 2023-07-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/linux/wg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wg
 

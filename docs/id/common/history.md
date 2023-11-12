@@ -3,12 +3,16 @@ layout: page
 title: common/history (Indonesia)
 description: "Sejarah command-line."
 content_hash: 049a8ae167cc68199c86bf5cfbc8fda54e2013b1
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/history.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/history.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/history.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/history.html
@@ -19,11 +23,9 @@ related_topics:
   - title: русский version
     url: /ru/common/history.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># history
+# history
 
 Sejarah command-line.
 Informasi lebih lanjut: <https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html>.

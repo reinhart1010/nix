@@ -3,7 +3,7 @@ layout: page
 title: common/docker-cp (日本語)
 description: "ホスト、コンテナのファイルシステム間でファイルやディレクトリをコピーします。"
 content_hash: f7ce050af58bca91688824356e7de8e3394cd21c
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-cp.html
@@ -20,6 +20,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/docker-cp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker cp
 

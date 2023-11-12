@@ -3,12 +3,19 @@ layout: page
 title: linux/cal (Deutsch)
 description: "Zeigt einen Kalender an, in dem der aktuelle Tag markiert ist."
 content_hash: f609571b0f782bfc3298a7cdbe1275f3ae0a80e7
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/cal.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/cal.html
     icon: bi bi-globe
   - title: español version
     url: /es/linux/cal.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/cal.html
     icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/cal.html
@@ -16,9 +23,13 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/cal.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/cal.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/cal.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cal
 

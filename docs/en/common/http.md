@@ -3,11 +3,12 @@ layout: page
 title: common/http (English)
 description: "HTTPie: HTTP client, aims to be easier to use than cURL."
 content_hash: 1361c9fcd6392c12d8118bbf70d010b042c0897b
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: polski version
     url: /pl/common/http.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # http
 

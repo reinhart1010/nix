@@ -3,10 +3,15 @@ layout: page
 title: common/todo (English)
 description: "A simple, standards-based, cli todo manager."
 content_hash: 01371c263ead570b07342719c77b23b32777fffd
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/todo.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/todo.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # todo
 

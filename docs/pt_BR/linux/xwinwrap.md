@@ -3,10 +3,12 @@ layout: page
 title: linux/xwinwrap (português (Brasil))
 description: "Usa um reprodutor de vídeo ou um programa como plano de fundo."
 content_hash: b86aca7f0b3e473f6fa174b558a67d0b41dcccad
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/xwinwrap.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xwinwrap
 

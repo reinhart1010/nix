@@ -3,6 +3,8 @@ layout: page
 title: common/singularity (English)
 description: "Manage Singularity containers and images."
 content_hash: 1b7cac64f1920d6c75f1486b6cbcefba1465185f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # singularity
 

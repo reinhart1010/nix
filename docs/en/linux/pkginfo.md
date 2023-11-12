@@ -3,7 +3,8 @@ layout: page
 title: linux/pkginfo (English)
 description: "Query the package database on a CRUX system."
 content_hash: 14ecfd31cca3ab5dbaed5b8f801a8b34b7b675c0
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pkginfo
 

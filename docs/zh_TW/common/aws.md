@@ -3,7 +3,7 @@ layout: page
 title: common/aws (中文 (繁體, 台灣))
 description: "Amazon Web Services 官方的命令列介面工具。"
 content_hash: 4657a243ce6edc217911cbe707b488df016e464f
-last_modified_at: 2023-10-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/aws.html
@@ -29,11 +29,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/aws.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws
+# aws
 
 Amazon Web Services 官方的命令列介面工具。
 此命令也有關於其子命令的文件，例如：`aws s3`.

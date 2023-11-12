@@ -3,7 +3,7 @@ layout: page
 title: common/bat (Deutsch)
 description: "Ausgabe und Verkettung von einzelnen Dateien."
 content_hash: 4d5e218c8de9e6fda2c66fb6aa06e0a907728d81
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/bat.html
@@ -38,6 +38,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/bat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bat
 

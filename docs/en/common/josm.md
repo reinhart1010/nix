@@ -3,6 +3,8 @@ layout: page
 title: common/josm (English)
 description: "Extensible OpenStreetMap editor for Java 8+."
 content_hash: 78802f099a8c073be9b28237a17b443a5be8537d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # josm
 

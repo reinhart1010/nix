@@ -3,6 +3,8 @@ layout: page
 title: common/transmission-cli (English)
 description: "A lightweight, command-line BitTorrent client."
 content_hash: 3b0d89e7c7a705e1181b7d3074592a8a99f15812
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # transmission-cli
 

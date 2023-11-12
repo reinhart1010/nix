@@ -3,7 +3,8 @@ layout: page
 title: common/nl (English)
 description: "A utility for numbering lines, either from a file, or from `stdin`."
 content_hash: 0c2b9a7df5432d5db0edf348c9458e5d8d0a6d2d
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # nl
 

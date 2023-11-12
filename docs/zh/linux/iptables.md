@@ -3,7 +3,7 @@ layout: page
 title: linux/iptables (中文)
 description: "可用于配置 Linux 内核防火墙提供的过滤表、规则链和规则的程序。"
 content_hash: 0d8234007ce3d3d8379fd02b3375102ff4038481
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/iptables.html
@@ -11,15 +11,10 @@ related_topics:
   - title: italiano version
     url: /it/linux/iptables.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/iptables.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># iptables
 

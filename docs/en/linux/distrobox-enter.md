@@ -3,11 +3,18 @@ layout: page
 title: linux/distrobox-enter (English)
 description: "Enter a distrobox container. See also: `tldr distrobox`."
 content_hash: 18ae26812c396ca74356b0f4e5d33dc4c777f0c5
-last_modified_at: 2023-03-19
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Nederlands version
+    url: /nl/linux/distrobox-enter.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/distrobox-enter.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/distrobox-enter.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # distrobox-enter
 

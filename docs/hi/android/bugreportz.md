@@ -3,7 +3,7 @@ layout: page
 title: android/bugreportz (हिन्दी)
 description: "एक ज़िप्ड एंड्रॉइड बग रिपोर्ट तैयार करें।"
 content_hash: 1fd0242d007dab7923a11140e9702d443df08fa3
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreportz.html
@@ -62,6 +62,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/bugreportz.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bugreportz
 

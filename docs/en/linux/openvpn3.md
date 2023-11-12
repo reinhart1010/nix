@@ -3,6 +3,12 @@ layout: page
 title: linux/openvpn3 (English)
 description: "OpenVPN 3 Linux client."
 content_hash: 4a237dd5f23cfad3559ef9c3462f1c1bf941b125
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 中文 version
+    url: /zh/linux/openvpn3.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # openvpn3
 

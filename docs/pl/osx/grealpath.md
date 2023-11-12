@@ -3,7 +3,7 @@ layout: page
 title: osx/grealpath (polski)
 description: "To polecenie jest aliasem `-p linux realpath`."
 content_hash: 22434a5450734feba1ff665702fa369c02ced695
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/grealpath.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/grealpath.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # grealpath
 

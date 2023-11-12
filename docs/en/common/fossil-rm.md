@@ -3,6 +3,8 @@ layout: page
 title: common/fossil-rm (English)
 description: "Remove files or directories from Fossil version control."
 content_hash: ce89604d00f7057e812a4f137706552abe1938c5
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fossil rm
 

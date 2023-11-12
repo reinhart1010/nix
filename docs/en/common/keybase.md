@@ -3,10 +3,12 @@ layout: page
 title: common/keybase (English)
 description: "Key directory that maps social media identities to encryption keys in a publicly auditable manner."
 content_hash: 6df06291f64c8132d690fe3d2df6a09f2ec9f7cd
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/keybase.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # keybase
 

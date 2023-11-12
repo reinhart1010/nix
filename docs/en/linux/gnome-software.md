@@ -3,11 +3,12 @@ layout: page
 title: linux/gnome-software (English)
 description: "Add and remove applications and update your system."
 content_hash: 725a38aeebfbc175583a3fcfdaecb501ede87be4
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: தமிழ் version
     url: /ta/linux/gnome-software.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gnome-software
 

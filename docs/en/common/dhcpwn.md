@@ -3,6 +3,7 @@ layout: page
 title: common/dhcpwn (English)
 description: "Test DHCP IP exhaustion attacks and sniff local DHCP traffic."
 content_hash: 78eb1cd58c021fcbc2f1fbfd30245955903eaca9
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/dhcpwn.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/dhcpwn.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dhcpwn
 

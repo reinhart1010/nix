@@ -3,12 +3,10 @@ layout: page
 title: common/cbt (English)
 description: "Utility for reading data from Google Cloud's Bigtable."
 content_hash: 7808ab7a80f52acec38febe45f97e782ca24edee
-last_modified_at: 2022-11-29
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cbt
+# cbt
 
 Utility for reading data from Google Cloud's Bigtable.
 More information: <https://cloud.google.com/bigtable/docs/cbt-reference>.

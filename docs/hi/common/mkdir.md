@@ -3,6 +3,7 @@ layout: page
 title: common/mkdir (हिन्दी)
 description: "एक निर्देशिका बनाता है।"
 content_hash: 65e3f8818ee0cf272c034d7eca182e98a3be1927
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -25,18 +26,19 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/mkdir.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/mkdir.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/mkdir.html
+    icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/mkdir.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/mkdir.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># mkdir
 

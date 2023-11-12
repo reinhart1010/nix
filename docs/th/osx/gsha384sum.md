@@ -3,7 +3,7 @@ layout: page
 title: osx/gsha384sum (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux sha384sum`"
 content_hash: f2d01df9d5d488616ddb1821da6fde1e19c95902
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gsha384sum.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gsha384sum.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gsha384sum
 

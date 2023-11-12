@@ -3,11 +3,10 @@ layout: page
 title: common/bq (English)
 description: "The bq command-line tool is a Python-based command-line tool for BigQuery."
 content_hash: b6f85fd72064775702722ff17ee402da98a71702
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bq
+# bq
 
 The bq command-line tool is a Python-based command-line tool for BigQuery.
 More information: <https://cloud.google.com/bigquery/docs/reference/bq-cli-reference>.

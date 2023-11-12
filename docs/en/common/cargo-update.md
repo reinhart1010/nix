@@ -3,12 +3,10 @@ layout: page
 title: common/cargo-update (English)
 description: "Update dependencies as recorded in `Cargo.lock`."
 content_hash: 5aab54adee6eeafc8a48046621f23d18b8cc2b33
-last_modified_at: 2023-09-23
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cargo update
+# cargo update
 
 Update dependencies as recorded in `Cargo.lock`.
 More information: <https://doc.rust-lang.org/cargo/commands/cargo-update.html>.

@@ -3,7 +3,8 @@ layout: page
 title: linux/tuxi (English)
 description: "Scrape Google search results and SERPs and provide instant and concise answers."
 content_hash: 240cb85e752a40d50dc2f633b1d68d5ff7ae23f1
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tuxi
 

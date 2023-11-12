@@ -3,7 +3,7 @@ layout: page
 title: android/screencap (বাংলা)
 description: "একটি মোবাইল ডিসপ্লের স্ক্রিনশট নিন।"
 content_hash: 39f6daadb88c0bf9ee85e4631730da1db1f8c8e7
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/android/screencap.html
@@ -44,6 +44,7 @@ related_topics:
   - title: 中文 version
     url: /zh/android/screencap.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # screencap
 

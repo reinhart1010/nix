@@ -3,6 +3,7 @@ layout: page
 title: linux/brightnessctl (Türkçe)
 description: "GNU/Linux işletim sistemlerinde cihaz parlaklığını okumak ve kontrol etmek için yardımcı program."
 content_hash: ea0a1b9733f1c051b00a12df2b9f1f7b7c703d64
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/brightnessctl.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/brightnessctl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # brightnessctl
 

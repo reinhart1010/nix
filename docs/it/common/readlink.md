@@ -3,15 +3,14 @@ layout: page
 title: common/readlink (italiano)
 description: "Segue un collegamento simbolico e ne recupera le informazioni."
 content_hash: 59ddcb5eab1604d517814b5b5d4481ab3afc70e3
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/readlink.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># readlink
+# readlink
 
 Segue un collegamento simbolico e ne recupera le informazioni.
 Maggiori informazioni: <https://www.gnu.org/software/coreutils/readlink>.

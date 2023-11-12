@@ -3,7 +3,8 @@ layout: page
 title: common/set-nodeinstalllocation (English)
 description: "Set the default Node.js installation directory for `ps-nvm`."
 content_hash: 77b8a6289c41f8c885af6399ac467be011452a19
-last_modified_at: 2023-11-03
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # Set-NodeInstallLocation
 

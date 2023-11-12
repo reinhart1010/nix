@@ -3,6 +3,8 @@ layout: page
 title: common/lldb (English)
 description: "The LLVM Low-Level Debugger."
 content_hash: 8152a89c229d20016aeb2e59a56cae0072cae264
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lldb
 

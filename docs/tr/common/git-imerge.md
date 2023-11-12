@@ -3,6 +3,7 @@ layout: page
 title: common/git-imerge (Türkçe)
 description: "İki git dalı arasında aşamalı olarak birleştirme veya taban değiştirme işlemlerini uygula."
 content_hash: bfb75b292a52892adf02c283b76acda2b522db23
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-imerge.html
@@ -16,6 +17,7 @@ related_topics:
   - title: italiano version
     url: /it/common/git-imerge.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git-imerge
 

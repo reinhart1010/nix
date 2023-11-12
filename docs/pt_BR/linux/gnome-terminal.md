@@ -3,6 +3,7 @@ layout: page
 title: linux/gnome-terminal (português (Brasil))
 description: "O emulador do Terminal GNOME."
 content_hash: 89a65209e4775d98141077df30f457af000b48c5
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/gnome-terminal.html
@@ -10,11 +11,9 @@ related_topics:
   - title: മലയാളം version
     url: /ml/linux/gnome-terminal.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gnome-terminal
+# gnome-terminal
 
 O emulador do Terminal GNOME.
 Mais informações: <https://help.gnome.org/users/gnome-terminal/stable/>.

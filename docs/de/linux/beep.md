@@ -3,9 +3,13 @@ layout: page
 title: linux/beep (Deutsch)
 description: "Ein Befehl, um den PC-Lautsprecher zu steuern."
 content_hash: ef6117602403fa12f4338efccb306a81494dfae5
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/beep.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/linux/beep.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/beep.html
@@ -13,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/beep.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # beep
 

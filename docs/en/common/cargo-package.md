@@ -3,12 +3,10 @@ layout: page
 title: common/cargo-package (English)
 description: "Assemble a local package into a distributable tarball (a `.crate` file)."
 content_hash: 50ec282fc4f8d03e212043c01812efeabf4e126b
-last_modified_at: 2023-10-31
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cargo package
+# cargo package
 
 Assemble a local package into a distributable tarball (a `.crate` file).
 Similar to `cargo publish --dry-run`, but has more options.

@@ -3,7 +3,7 @@ layout: page
 title: common/ntl (polski)
 description: "To polecenie jest aliasem `netlify`."
 content_hash: 744af88f9c0f8339616a4237668163850c46a8f0
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/ntl.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/ntl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ntl
 

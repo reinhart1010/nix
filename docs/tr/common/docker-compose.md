@@ -3,7 +3,7 @@ layout: page
 title: common/docker-compose (Türkçe)
 description: "Çoklu konteynerli docker uygulamalarını çalıştırın ve yönetin."
 content_hash: eebb6c9c42d0c6427b9f85b2a01e8aa0a84f7c30
-last_modified_at: 2023-02-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -17,15 +17,25 @@ related_topics:
   - title: français version
     url: /fr/common/docker-compose.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/docker-compose.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/docker-compose.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/docker-compose.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/docker-compose.html
     icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/docker-compose.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker-compose.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker compose
 

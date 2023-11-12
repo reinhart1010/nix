@@ -3,7 +3,7 @@ layout: page
 title: common/airodump-ng (中文)
 description: "捕获数据包并显示有关无线网络的信息。"
 content_hash: a02344f7d072a67f90c07d575c78d32613a52186
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/airodump-ng.html
@@ -17,6 +17,7 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/airodump-ng.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # airodump-ng
 

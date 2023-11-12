@@ -3,7 +3,8 @@ layout: page
 title: common/tailscale-up (English)
 description: "Connects the client to the Tailscale network."
 content_hash: 43dc5aa45bd03f8e7f8caf1ece4f5e305f13d274
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tailscale up
 

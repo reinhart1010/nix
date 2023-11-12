@@ -3,6 +3,7 @@ layout: page
 title: common/deluged (English)
 description: "A daemon process for the Deluge BitTorrent client."
 content_hash: b99391f1d991483c02cc278b6f9e66518898f953
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/deluged.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/deluged.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # deluged
 

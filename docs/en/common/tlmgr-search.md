@@ -3,12 +3,10 @@ layout: page
 title: common/tlmgr-search (English)
 description: "Search for TeX Live packages using (Perl) regular expressions."
 content_hash: f58dda41367311c721a1b44f98b8bc2e4d545dcb
-last_modified_at: 2023-06-23
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># tlmgr search
+# tlmgr search
 
 Search for TeX Live packages using (Perl) regular expressions.
 More information: <https://www.tug.org/texlive/tlmgr.html>.

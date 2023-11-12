@@ -3,7 +3,7 @@ layout: page
 title: common/jar (한국어)
 description: "Java 애플리케이션/라이브러리 패키지 도구."
 content_hash: 37cf026cd1319f54b0e88a02e39ef52f0fdb8fe5
-last_modified_at: 2023-11-01
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/jar.html
@@ -14,11 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/jar.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># jar
+# jar
 
 Java 애플리케이션/라이브러리 패키지 도구.
 더 많은 정보: <https://docs.oracle.com/javase/tutorial/deployment/jar/basicsindex.html>.

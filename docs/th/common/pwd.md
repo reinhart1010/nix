@@ -3,8 +3,11 @@ layout: page
 title: common/pwd (ไทย)
 description: "แสดงชื่อของไดเรกทอรีที่ทำงานอยู่"
 content_hash: 29ae99b3a2e9678601ef8cc8e4bdf9d3bb74fd6e
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
+  - title: العربية version
+    url: /ar/common/pwd.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/pwd.html
     icon: bi bi-globe
@@ -32,6 +35,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/pwd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pwd
 

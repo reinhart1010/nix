@@ -3,7 +3,7 @@ layout: page
 title: common/base64 (Deutsch)
 description: "Kodieren oder Dekodieren von Dateien oder Standardeingaben in/aus Base64, zur Standardausgabe."
 content_hash: 565974dcc37c4d6058c18c878cd49c8e5b05d873
-last_modified_at: 2023-08-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/base64.html
@@ -35,6 +35,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/base64.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # base64
 

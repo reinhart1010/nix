@@ -3,7 +3,8 @@ layout: page
 title: common/pueue-follow (English)
 description: "Follow the output of a currently running task."
 content_hash: f859cc4c9ea5d2a58a1d56e19914145e14f8a9d4
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pueue follow
 

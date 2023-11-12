@@ -3,7 +3,7 @@ layout: page
 title: common/ac (हिन्दी)
 description: "उपयोगकर्ता कितने समय से जुड़े हुए हैं, इसके आँकड़े प्रिंट करें।"
 content_hash: 5310571a1018cba7c4cfa4280156aef70b75ed33
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/common/ac.html
@@ -26,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ac.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ac
 

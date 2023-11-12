@@ -3,7 +3,11 @@ layout: page
 title: linux/shutdown (English)
 description: "Shutdown and reboot the system."
 content_hash: 4f7af9b4725788165b3ce1ca7aa77ec52a5f6eb5
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/shutdown.html
+    icon: bi bi-globe
   - title: español version
     url: /es/linux/shutdown.html
     icon: bi bi-globe
@@ -13,6 +17,7 @@ related_topics:
   - title: italiano version
     url: /it/linux/shutdown.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # shutdown
 

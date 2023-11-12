@@ -3,12 +3,10 @@ layout: page
 title: common/yacc (English)
 description: "Generate an LALR parser (in C) with a given formal grammar specification file."
 content_hash: 7a2fce8a2de1d4eb216c5b437a66f983b8f3c643
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># yacc
+# yacc
 
 Generate an LALR parser (in C) with a given formal grammar specification file.
 See also: `bison`.

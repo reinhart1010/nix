@@ -3,7 +3,7 @@ layout: page
 title: common/rsync (português (Brasil))
 description: "Transfira arquivos para ou de um host remote (mas não entre dois hosts remotos), usando SSH por padrão."
 content_hash: 4348c30b28bf3cfae83477c96324dfb861be191f
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/rsync.html
@@ -23,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/rsync.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rsync
 

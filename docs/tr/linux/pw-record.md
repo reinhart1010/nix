@@ -3,11 +3,12 @@ layout: page
 title: linux/pw-record (Türkçe)
 description: "Pipewire aracılığıyla ses dosyalarını kaydedin."
 content_hash: 7328a7708fc332a881b1ac7e0c188a7716c2141a
-last_modified_at: 2023-10-24
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/pw-record.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pw-record
 

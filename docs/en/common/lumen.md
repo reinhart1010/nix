@@ -3,6 +3,8 @@ layout: page
 title: common/lumen (English)
 description: "A command-line installer for the Lumen micro-framework."
 content_hash: 6fb7b11b7f1e3faabb79601afbf34471b41c8e43
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lumen
 

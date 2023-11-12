@@ -3,10 +3,12 @@ layout: page
 title: common/rails-destroy (Indonesia)
 description: "Menghapus Rails _resources_."
 content_hash: 6b72e726922b0df91f978e042601afe57f81563c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/rails-destroy.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rails destroy
 

@@ -3,7 +3,7 @@ layout: page
 title: common/adb-reverse (Nederlands)
 description: "Android Debug Bridge Reverse: omgekeerde socketverbindingen van een Android-emulatorinstantie of verbonden Android-apparaten."
 content_hash: 01841c580acf9196d3b3426c4a9a3a31ea00ca0f
-last_modified_at: 2023-06-01
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/adb-reverse.html
@@ -26,11 +26,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/adb-reverse.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># adb reverse
+# adb reverse
 
 Android Debug Bridge Reverse: omgekeerde socketverbindingen van een Android-emulatorinstantie of verbonden Android-apparaten.
 Meer informatie: <https://developer.android.com/studio/command-line/adb>.

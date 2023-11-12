@@ -3,7 +3,7 @@ layout: page
 title: windows/comp (English)
 description: "Compare the contents of two files or sets of files."
 content_hash: 9ffae7982ea8523cfebf0975395ddb699e9c12a0
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: தமிழ் version
     url: /ta/windows/comp.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/comp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # comp
 

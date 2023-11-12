@@ -3,7 +3,7 @@ layout: page
 title: common/cargo (Nederlands)
 description: "Beheer Rust projecten en hun afhankelijkheden (crates)."
 content_hash: a2552d474661f11acafc523fa8784127f2e1b0c5
-last_modified_at: 2023-11-07
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/cargo.html
@@ -29,6 +29,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/cargo.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cargo
 

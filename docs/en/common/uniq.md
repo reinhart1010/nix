@@ -3,7 +3,8 @@ layout: page
 title: common/uniq (English)
 description: "Output the unique lines from the given input or file."
 content_hash: ab042deb55d50de3bf4d66f50893ff4972db2718
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # uniq
 

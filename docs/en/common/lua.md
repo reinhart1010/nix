@@ -3,11 +3,12 @@ layout: page
 title: common/lua (English)
 description: "A powerful, light-weight embeddable programming language."
 content_hash: db41a297de09dc16bd16ec5b32eb0ac38a53f400
-last_modified_at: 2023-05-17
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/lua.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lua
 

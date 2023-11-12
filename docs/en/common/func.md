@@ -3,6 +3,8 @@ layout: page
 title: common/func (English)
 description: "Azure Functions Core Tools: Develop and test Azure Functions locally."
 content_hash: 13bb7750570739502b150d1696b331dc043ce805
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # func
 

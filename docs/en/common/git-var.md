@@ -3,6 +3,12 @@ layout: page
 title: common/git-var (English)
 description: "Prints a Git logical variable's value."
 content_hash: 044a50c45d1df7cddca6d841248581f500ec010e
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Türkçe version
+    url: /tr/common/git-var.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git var
 

@@ -3,7 +3,7 @@ layout: page
 title: common/cargo (français)
 description: "Gestion d'un projet Rust et ses dependences (crates)."
 content_hash: 22fef0ce6fa5250ec47afedc550e1e6ef2354614
-last_modified_at: 2023-05-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/cargo.html
@@ -29,6 +29,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/cargo.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cargo
 

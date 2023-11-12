@@ -3,10 +3,12 @@ layout: page
 title: common/kotlin (svenska)
 description: "Kotlin Programstartare."
 content_hash: 71b84f30fe4abcd0d3299eb400d40ba2ab0b3b2e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/kotlin.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # kotlin
 

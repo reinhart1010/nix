@@ -3,6 +3,12 @@ layout: page
 title: common/kubectl-describe (English)
 description: "Show details of Kubernetes objects and resources."
 content_hash: f59ae08dd86da9647154bc05dbb62d2e1601468c
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/kubectl-describe.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # kubectl describe
 

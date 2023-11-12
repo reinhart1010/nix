@@ -3,7 +3,8 @@ layout: page
 title: common/az-acr (English)
 description: "Manage private registries with Azure Container Registries."
 content_hash: e1e2caaa4279d1de6f08acee9021ecf97ac0310e
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # az acr
 

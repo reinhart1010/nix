@@ -3,6 +3,8 @@ layout: page
 title: common/croc (English)
 description: "Send and receive files easily and securely over any network."
 content_hash: 875aab589311ae41d8429c9d8bf65d72f521e4cd
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # croc
 

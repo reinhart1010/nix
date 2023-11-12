@@ -3,6 +3,8 @@ layout: page
 title: linux/reflector (English)
 description: "Arch script to fetch and sort mirrorlists."
 content_hash: d4b54e4219e19f90cabe08c5a4fd4fe74828243b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # reflector
 

@@ -3,12 +3,14 @@ layout: page
 title: linux/aa-complain (English)
 description: "Set an AppArmor policy to complain mode."
 content_hash: d3b0e7b67c7b37a3101d6d951154caf1eb0c5b0f
-last_modified_at: 2023-10-01
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/linux/aa-complain.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aa-complain
+# aa-complain
 
 Set an AppArmor policy to complain mode.
 See also: `aa-disable`, `aa-enforce`, `aa-status`.

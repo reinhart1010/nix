@@ -3,6 +3,12 @@ layout: page
 title: common/umount (English)
 description: "Unlink a filesystem from its mount point, making it no longer accessible."
 content_hash: 33a547d07947156b19b590b17e9f1676e6be14f1
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/umount.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # umount
 

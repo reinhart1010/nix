@@ -3,7 +3,7 @@ layout: page
 title: common/sha256sum (English)
 description: "Calculate SHA256 cryptographic checksums."
 content_hash: be4d1bf282877014d24b26a48a23ab520cf342f1
-last_modified_at: 2023-05-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: sh version
     url: /sh/common/sha256sum.html
@@ -11,6 +11,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/sha256sum.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sha256sum
 

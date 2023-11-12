@@ -3,6 +3,8 @@ layout: page
 title: common/doctl-apps (English)
 description: "Used to manage digitalocean apps."
 content_hash: 5619fdcc5efe1de0a18987db8b5404479aeb0963
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # doctl apps
 

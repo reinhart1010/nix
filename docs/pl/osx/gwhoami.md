@@ -3,7 +3,7 @@ layout: page
 title: osx/gwhoami (polski)
 description: "To polecenie jest aliasem `-p linux whoami`."
 content_hash: 765b819bf0cc1a3a75625e334791a4ec57a2d88c
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gwhoami.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gwhoami.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gwhoami
 

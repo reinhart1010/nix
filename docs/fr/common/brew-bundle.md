@@ -3,6 +3,7 @@ layout: page
 title: common/brew-bundle (français)
 description: "Gestionnaire de paquets pour Homebrew, Homebrew Cask et le Mac App Store."
 content_hash: 9dc39d61f2b786c18a8d2ee74acca5ba7f4bafc2
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/brew-bundle.html
@@ -13,11 +14,9 @@ related_topics:
   - title: italiano version
     url: /it/common/brew-bundle.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># brew bundle
+# brew bundle
 
 Gestionnaire de paquets pour Homebrew, Homebrew Cask et le Mac App Store.
 Plus d'informations : <https://github.com/Homebrew/homebrew-bundle>.

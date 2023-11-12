@@ -3,11 +3,12 @@ layout: page
 title: common/copyq (English)
 description: "Clipboard manager with advanced features."
 content_hash: 12c09b2cd5d8f23a0d73288c7372083e2f8687d9
-last_modified_at: 2023-04-13
+last_modified_at: 2023-11-12
 related_topics:
   - title: 한국어 version
     url: /ko/common/copyq.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # copyq
 

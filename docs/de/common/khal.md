@@ -3,11 +3,12 @@ layout: page
 title: common/khal (Deutsch)
 description: "Eine textbasierte Kalender- und Planungsanwendung für die Kommandozeile."
 content_hash: 53cf37f48b3719acee2dfb3aea26a7069b05727a
-last_modified_at: 2022-12-10
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/khal.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # khal
 

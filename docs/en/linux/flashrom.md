@@ -3,6 +3,8 @@ layout: page
 title: linux/flashrom (English)
 description: "Read, write, verify and erase flash chips."
 content_hash: c9deaa661806596bea1e475a55828537bc130027
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # flashrom
 

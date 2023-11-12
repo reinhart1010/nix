@@ -3,16 +3,14 @@ layout: page
 title: linux/rename (português (Brasil))
 description: "Renomeia múltiplos arquivos."
 content_hash: 699bd9751f0d5fa200eaed84ba8ab82cf703797c
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/rename.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rename
+# rename
 
 Renomeia múltiplos arquivos.
 Nota: essa página refere-se ao comando do pacote `util-linux`.

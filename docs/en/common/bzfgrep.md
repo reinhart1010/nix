@@ -3,11 +3,10 @@ layout: page
 title: common/bzfgrep (English)
 description: "Find any fixed strings separated by new lines in bzip2 compressed files using fgrep."
 content_hash: 38c17cd7a401134160cb26f73438924350774b02
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bzfgrep
+# bzfgrep
 
 Find any fixed strings separated by new lines in bzip2 compressed files using fgrep.
 More information: <https://manned.org/bzfgrep>.

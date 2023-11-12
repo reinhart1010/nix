@@ -3,9 +3,13 @@ layout: page
 title: common/yarn-why (português (Brasil))
 description: "Identifica por que um pacote Yarn foi instalado."
 content_hash: dab8f386f73fd40b5b31e03fc30cbb129663a513
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/yarn-why.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/yarn-why.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/common/yarn-why.html
@@ -13,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/yarn-why.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # yarn-why
 

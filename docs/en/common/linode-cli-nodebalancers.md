@@ -3,7 +3,12 @@ layout: page
 title: common/linode-cli-nodebalancers (English)
 description: "Manage Linode NodeBalancers."
 content_hash: 424fbbc7edc3213c85f8aaeacd7772d2adf4d29b
-last_modified_at: 2023-09-17
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Nederlands version
+    url: /nl/common/linode-cli-nodebalancers.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # linode-cli nodebalancers
 

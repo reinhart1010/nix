@@ -3,7 +3,11 @@ layout: page
 title: common/pwd (Indonesia)
 description: "Mencetak nama dari direktori saat ini/kerja."
 content_hash: 40e09e4d413742dccf754a42a8d5e5a521636ff4
+last_modified_at: 2023-11-12
 related_topics:
+  - title: العربية version
+    url: /ar/common/pwd.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/pwd.html
     icon: bi bi-globe
@@ -19,20 +23,21 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/pwd.html
     icon: bi bi-globe
+  - title: ລາວ version
+    url: /lo/common/pwd.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/pwd.html
+    icon: bi bi-globe
+  - title: ไทย version
+    url: /th/common/pwd.html
+    icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/pwd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pwd.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pwd
+# pwd
 
 Mencetak nama dari direktori saat ini/kerja.
 Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/pwd>.

@@ -3,7 +3,8 @@ layout: page
 title: common/jdeps (English)
 description: "Java class dependency analyzer."
 content_hash: 519e6ade90922375799c6d1d7edb47cad0457f9a
-last_modified_at: 2023-06-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # jdeps
 

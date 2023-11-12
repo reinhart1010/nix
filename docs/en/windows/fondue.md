@@ -3,11 +3,15 @@ layout: page
 title: windows/fondue (English)
 description: "Install optional Windows features."
 content_hash: b7784ac41dc371f130e4a966ea6b9bc7592bba61
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
+  - title: हिन्दी version
+    url: /hi/windows/fondue.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/fondue.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fondue
 

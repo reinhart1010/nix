@@ -3,10 +3,18 @@ layout: page
 title: linux/brightnessctl (中文)
 description: "GUN/Linux 操作系统上用来读取和控制设备亮度的实用工具。"
 content_hash: b33e3f1e518e88cf316678e7e006179f3f0b6b7e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/brightnessctl.html
     icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/linux/brightnessctl.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/linux/brightnessctl.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # brightnessctl
 

@@ -3,6 +3,8 @@ layout: page
 title: common/snyk (English)
 description: "Find vulnerabilities in your code and remediate risks."
 content_hash: d9db635388861d2094362df410c2e4539ca13f02
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # snyk
 

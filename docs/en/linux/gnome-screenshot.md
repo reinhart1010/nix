@@ -3,6 +3,12 @@ layout: page
 title: linux/gnome-screenshot (English)
 description: "Capture the screen, a window, or a user-defined area and save the image to a file."
 content_hash: ddd4ae4cfb2e151418640a6349aa37a1d6d98af9
+last_modified_at: 2023-11-12
+related_topics:
+  - title: தமிழ் version
+    url: /ta/linux/gnome-screenshot.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gnome-screenshot
 

@@ -3,10 +3,13 @@ layout: page
 title: windows/clip (English)
 description: "Copy input content to the Windows clipboard."
 content_hash: 0a1c1b91fd137774e9216529c3eff300da78c52f
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/clip.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/clip.html
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/windows/clip.html
@@ -17,6 +20,10 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/clip.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/windows/clip.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # clip
 

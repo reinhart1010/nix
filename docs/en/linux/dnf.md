@@ -3,7 +3,7 @@ layout: page
 title: linux/dnf (English)
 description: "Package management utility for RHEL, Fedora, and CentOS (replaces yum)."
 content_hash: a26ed68dcc6d66565b4a13a7f1655052dad0b7d9
-last_modified_at: 2023-05-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/dnf.html
@@ -14,8 +14,14 @@ related_topics:
   - title: español version
     url: /es/linux/dnf.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/dnf.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/linux/dnf.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/dnf.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/dnf.html
@@ -26,6 +32,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/dnf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dnf
 

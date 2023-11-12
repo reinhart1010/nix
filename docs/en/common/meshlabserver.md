@@ -3,7 +3,8 @@ layout: page
 title: common/meshlabserver (English)
 description: "Command-line interface for the MeshLab 3D mesh processing software."
 content_hash: 2626b03f5fc4788ee4741d6ef1b6cb3f22670668
-last_modified_at: 2022-12-06
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # meshlabserver
 

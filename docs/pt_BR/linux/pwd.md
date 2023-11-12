@@ -3,7 +3,7 @@ layout: page
 title: linux/pwd (português (Brasil))
 description: "Imprime o nome do diretório atual/trabalho."
 content_hash: 6630e307f5f16afd62874e64b9b064d054c5fe75
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/pwd.html
@@ -17,11 +17,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/pwd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pwd
+# pwd
 
 Imprime o nome do diretório atual/trabalho.
 Mais informações: <https://www.gnu.org/software/coreutils/pwd>.

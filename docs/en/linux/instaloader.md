@@ -3,12 +3,10 @@ layout: page
 title: linux/instaloader (English)
 description: "Download pictures, videos, captions, and other metadata from Instagram."
 content_hash: dc2dfa18ebf55b150da21d13f2ba751b6e97f015
-last_modified_at: 2023-06-21
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># instaloader
+# instaloader
 
 Download pictures, videos, captions, and other metadata from Instagram.
 Note: You will need to provide Instagram login information if you want high-quality media downloads.

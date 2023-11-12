@@ -3,6 +3,7 @@ layout: page
 title: common/git-imerge (italiano)
 description: "Esegui un'unione (merge) o rebase tra due rami Git in modo incrementale."
 content_hash: 438c18f5fd18b5fe5b840b98f46fe9a4e75840e2
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-imerge.html
@@ -13,6 +14,10 @@ related_topics:
   - title: français version
     url: /fr/common/git-imerge.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-imerge.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git-imerge
 

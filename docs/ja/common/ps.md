@@ -3,13 +3,21 @@ layout: page
 title: common/ps (日本語)
 description: "実行中のプロセスに関する情報。"
 content_hash: 0338f1dfb00cb8049ff7c1f223b555dece279b3e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ps.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/ps.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/ps.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/ps.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ps
 

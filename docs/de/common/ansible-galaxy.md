@@ -3,9 +3,13 @@ layout: page
 title: common/ansible-galaxy (Deutsch)
 description: "Erstelle und verwalte Ansible Rollen."
 content_hash: c6c96669c70463e8f6ec8164e8a7fe0b3a2592c4
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ansible-galaxy.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/ansible-galaxy.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ansible-galaxy.html
@@ -16,6 +20,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ansible-galaxy.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ansible-galaxy
 

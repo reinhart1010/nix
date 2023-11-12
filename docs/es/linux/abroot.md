@@ -3,7 +3,7 @@ layout: page
 title: linux/abroot (español)
 description: "La utilidad ABRoot proporciona inmutabilidad y atomicidad completas al realizar transacciones entre 2 estados de partición raíz (A⟺B)."
 content_hash: 296cb45bcd1da7b77d7e3c14684906525b987961
-last_modified_at: 2023-03-21
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/abroot.html
@@ -11,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/abroot.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.

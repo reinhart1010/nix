@@ -3,12 +3,10 @@ layout: page
 title: common/ppmdither (English)
 description: "Reduce the number of colors in an image by applying dithering."
 content_hash: a5e442935d4e23b1756fa6488412e8468c3ac1ec
-last_modified_at: 2023-11-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ppmdither
+# ppmdither
 
 Reduce the number of colors in an image by applying dithering.
 More information: <https://netpbm.sourceforge.net/doc/ppmdither.html>.

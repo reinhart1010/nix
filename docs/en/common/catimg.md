@@ -3,6 +3,8 @@ layout: page
 title: common/catimg (English)
 description: "Image printing in the terminal."
 content_hash: 6db69530c8ee29ce182dcbc14aeace64b9b36746
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # catimg
 

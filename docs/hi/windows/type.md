@@ -3,7 +3,7 @@ layout: page
 title: windows/type (हिन्दी)
 description: "एक फाइल की सामग्रियों को प्रदर्शित कीजिए।"
 content_hash: 348de8c03a52fae4a26fed0c2d2d454cfd9850f4
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/type.html
@@ -20,6 +20,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/type.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # type
 

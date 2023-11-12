@@ -3,11 +3,12 @@ layout: page
 title: common/elinks (English)
 description: "A text based browser similar to `lynx`."
 content_hash: a866b1f719b285595f64870e3002b69fb113c8f8
-last_modified_at: 2023-06-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/elinks.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # elinks
 

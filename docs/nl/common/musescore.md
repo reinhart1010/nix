@@ -3,6 +3,7 @@ layout: page
 title: common/musescore (Nederlands)
 description: "MuseScore 3 bladmuziek bewerker."
 content_hash: 05c93d1a40f8947bf4fe8a3a0acc84f52b45266c
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/musescore.html
@@ -10,6 +11,7 @@ related_topics:
   - title: English version
     url: /en/common/musescore.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # musescore
 

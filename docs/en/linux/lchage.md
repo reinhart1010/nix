@@ -3,12 +3,10 @@ layout: page
 title: linux/lchage (English)
 description: "Display or change user password policy."
 content_hash: 83e7113aaa62a0d0e26d732c160f33fd1ff258ee
-last_modified_at: 2023-09-27
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># lchage
+# lchage
 
 Display or change user password policy.
 More information: <https://manned.org/lchage>.

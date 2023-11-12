@@ -3,6 +3,8 @@ layout: page
 title: common/openttd (English)
 description: "Open source clone of the Microprose game \"Transport Tycoon Deluxe\"."
 content_hash: edcfdd495db69a01b7ff8018798b3f89e79af1c9
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # openttd
 

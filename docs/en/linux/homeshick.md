@@ -3,6 +3,8 @@ layout: page
 title: linux/homeshick (English)
 description: "Synchronize Git dotfiles."
 content_hash: 3e826c702481b019d9c33e025733360e8c47403b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # homeshick
 

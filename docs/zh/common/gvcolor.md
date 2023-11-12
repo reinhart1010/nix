@@ -3,11 +3,12 @@ layout: page
 title: common/gvcolor (中文)
 description: "用一系列颜色为有序有向图着色。"
 content_hash: 21ae03134577f3ad34ab6f33c4aa2fec5921d290
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/gvcolor.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gvcolor
 

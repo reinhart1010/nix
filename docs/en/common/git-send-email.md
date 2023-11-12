@@ -3,6 +3,7 @@ layout: page
 title: common/git-send-email (English)
 description: "Send a collection of patches as emails."
 content_hash: 78455f58958d457c0941584d06c3d75a0d44e749
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/git-send-email.html
@@ -10,6 +11,10 @@ related_topics:
   - title: italiano version
     url: /it/common/git-send-email.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-send-email.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git send-email
 

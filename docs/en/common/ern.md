@@ -3,7 +3,8 @@ layout: page
 title: common/ern (English)
 description: "Electrode Native platform command-line client."
 content_hash: a8f59dfe5b51d054bff1b595f42d112869529506
-last_modified_at: 2023-06-13
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ern
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/urxvt (English)
 description: "Rxvt-unicode."
 content_hash: 19a6b7dd5df375a6c76019e14386cc34d3c262ac
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # urxvt
 

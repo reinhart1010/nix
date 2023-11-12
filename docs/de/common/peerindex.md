@@ -3,11 +3,12 @@ layout: page
 title: common/peerindex (Deutsch)
 description: "Liest MRT TABLE_DUMPV2 Peer Index Table aus."
 content_hash: b71e0c6a0cc9b0bfc397f62bf63264f1f1d777c4
-last_modified_at: 2023-07-11
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/peerindex.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # peerindex
 

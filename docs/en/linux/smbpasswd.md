@@ -3,6 +3,8 @@ layout: page
 title: linux/smbpasswd (English)
 description: "Add/remove a Samba user or change its password."
 content_hash: 6b9cbed3034ee827398eeef8ebcebaaa4229790a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # smbpasswd
 

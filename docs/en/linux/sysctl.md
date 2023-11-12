@@ -3,6 +3,7 @@ layout: page
 title: linux/sysctl (English)
 description: "List and change kernel runtime variables."
 content_hash: 75aacb3404c7ebe6f0db9f28856b4d605a67b817
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/sysctl.html
@@ -10,6 +11,7 @@ related_topics:
   - title: français version
     url: /fr/linux/sysctl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sysctl
 

@@ -3,6 +3,8 @@ layout: page
 title: common/grunt (English)
 description: "A JavaScript task runner for automating processes."
 content_hash: f8faa01a6fb33e9d9cf88e70fea172d962d07213
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # grunt
 

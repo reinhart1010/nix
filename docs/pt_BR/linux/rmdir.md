@@ -3,11 +3,12 @@ layout: page
 title: linux/rmdir (português (Brasil))
 description: "Remove diretórios sem arquivos."
 content_hash: a60acb179848b7f6055601f61cabcc4ea7eb18ed
-last_modified_at: 2023-10-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/rmdir.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rmdir
 

@@ -3,7 +3,8 @@ layout: page
 title: common/cargo-remove (English)
 description: "Remove dependencies from a Rust project's `Cargo.toml` manifest."
 content_hash: f310bfea1dfe6820ef91cb1d0ff380cf7f1d99a5
-last_modified_at: 2023-10-30
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # cargo remove
 

@@ -3,6 +3,7 @@ layout: page
 title: common/file (Deutsch)
 description: "Bestimmen des Dateityps."
 content_hash: 471ca203b4030f1772989a87a027ab16a43a26af
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/file.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/file.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # file
 

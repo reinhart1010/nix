@@ -3,6 +3,7 @@ layout: page
 title: common/dirname (English)
 description: "Calculates the parent directory of a given file or directory path."
 content_hash: 9d379020996262be2e78023d0b5c8303fc2e034b
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/dirname.html
@@ -13,6 +14,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/dirname.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dirname
 

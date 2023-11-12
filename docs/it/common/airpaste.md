@@ -3,9 +3,13 @@ layout: page
 title: common/airpaste (italiano)
 description: "Condividi messaggi e file nella stessa rete."
 content_hash: 47ae051d06573222a25944de3e31c285df12a1bc
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/airpaste.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/airpaste.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/airpaste.html
@@ -13,12 +17,16 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/airpaste.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/airpaste.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/airpaste.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/airpaste.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # airpaste
 

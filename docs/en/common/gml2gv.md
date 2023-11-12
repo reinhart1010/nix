@@ -3,7 +3,8 @@ layout: page
 title: common/gml2gv (English)
 description: "Convert a graph from `gml` to `gv` format."
 content_hash: a95941fe6985d44e709d31dd99ba65fd3591f2e4
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gml2gv
 

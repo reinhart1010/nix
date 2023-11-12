@@ -3,7 +3,7 @@ layout: page
 title: common/astyle (English)
 description: "Source code indenter, formatter, and beautifier for the C, C++, C# and Java programming languages."
 content_hash: 02e51112145dd8b256594592f9bde4c3d8658978
-last_modified_at: 2023-05-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/astyle.html
@@ -17,6 +17,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/astyle.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # astyle
 

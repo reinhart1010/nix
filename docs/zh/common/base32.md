@@ -3,6 +3,7 @@ layout: page
 title: common/base32 (中文)
 description: "将文件或标准输入编码到 Base32 或从 Base32 解码为标准输出。"
 content_hash: 9b286a19e0ef2c30e7d71ecc57f3ccd85d16f099
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/base32.html
@@ -25,6 +26,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/base32.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # base32
 

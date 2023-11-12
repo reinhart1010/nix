@@ -3,11 +3,10 @@ layout: page
 title: linux/cpupower (English)
 description: "Tools regarding CPU power and tuning options."
 content_hash: b17783ad1b8d96ac420809a2310eaa0f131bbc56
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cpupower
+# cpupower
 
 Tools regarding CPU power and tuning options.
 This command is available as part of the `cpupower` package, or as part of `kernel-tools` on Fedora.

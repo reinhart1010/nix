@@ -3,11 +3,10 @@ layout: page
 title: linux/atop (English)
 description: "Linux system and process monitor."
 content_hash: 778ad6bb762e75141c4646649f196f16f2fdc9b8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># atop
+# atop
 
 Linux system and process monitor.
 More information: <https://manned.org/atop>.

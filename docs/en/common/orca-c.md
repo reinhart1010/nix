@@ -3,6 +3,8 @@ layout: page
 title: common/orca-c (English)
 description: "A C-port of the ORCA live programming environment."
 content_hash: c1ba42171142f04b86c08bbae0004161d4954047
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # orca-c
 

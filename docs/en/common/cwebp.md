@@ -3,11 +3,14 @@ layout: page
 title: common/cwebp (English)
 description: "Compress an image file to a WebP file."
 content_hash: 53366721ff200c6f6e72d59041ff335de4bc541d
+last_modified_at: 2023-11-12
+related_topics:
+  - title: русский version
+    url: /ru/common/cwebp.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cwebp
+# cwebp
 
 Compress an image file to a WebP file.
 More information: <https://developers.google.com/speed/webp/docs/cwebp>.

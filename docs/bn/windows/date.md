@@ -3,7 +3,7 @@ layout: page
 title: windows/date (বাংলা)
 description: "সিস্টেমের তারিখ প্রদর্শন বা সেট করে।"
 content_hash: ef6fb1302e80c7aa373e9d192d502970aaa7d4b3
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/date.html
@@ -17,6 +17,7 @@ related_topics:
   - title: italiano version
     url: /it/windows/date.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # date
 

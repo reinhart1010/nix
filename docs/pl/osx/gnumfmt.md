@@ -3,7 +3,7 @@ layout: page
 title: osx/gnumfmt (polski)
 description: "To polecenie jest aliasem `-p linux numfmt`."
 content_hash: 298a7233193ddc1a10fa40d83f7e4efa2e221fa8
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gnumfmt.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gnumfmt.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gnumfmt
 

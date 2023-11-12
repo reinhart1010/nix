@@ -3,7 +3,8 @@ layout: page
 title: common/ps-nvm (English)
 description: "PowerShell-based utility to manage multiple Node.js versions, inspired by `nvm`."
 content_hash: c5d732c0a9d6c0d5fa673e9c276c1ce93528102b
-last_modified_at: 2023-11-10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ps-nvm
 

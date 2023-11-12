@@ -3,12 +3,16 @@ layout: page
 title: common/chroot (한국어)
 description: "특수 루트 디렉토리를 사용하여 명령 또는 대화형 쉘 실행."
 content_hash: 9849b70dfe27f18c476ec5cee505c0308310917c
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/chroot.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/chroot.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/chroot.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/chroot.html
@@ -19,6 +23,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/chroot.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chroot
 

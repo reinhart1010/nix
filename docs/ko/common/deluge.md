@@ -3,6 +3,7 @@ layout: page
 title: common/deluge (한국어)
 description: "BitTorrent 클라이언트 명령어."
 content_hash: 201e90299b66c0d7aa8f835e70544060337e75b9
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/deluge.html
@@ -13,6 +14,7 @@ related_topics:
   - title: italiano version
     url: /it/common/deluge.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # deluge
 

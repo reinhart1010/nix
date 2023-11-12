@@ -3,12 +3,10 @@ layout: page
 title: linux/tftp (English)
 description: "Trivial File Transfer Protocol client."
 content_hash: db777116d12f3c32a248f4288a463e56b1639352
-last_modified_at: 2023-03-23
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># tftp
+# tftp
 
 Trivial File Transfer Protocol client.
 More information: <https://manned.org/tftp.1>.

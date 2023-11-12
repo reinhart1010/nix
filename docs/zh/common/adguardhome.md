@@ -3,13 +3,21 @@ layout: page
 title: common/adguardhome (中文)
 description: "一款全网广告拦截与反跟踪软件。"
 content_hash: 06b1b2242af35b76b1e3a222cfd014401daa54d6
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/adguardhome.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/adguardhome.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/adguardhome.html
+    icon: bi bi-globe
   - title: русский version
     url: /ru/common/adguardhome.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # AdGuardHome
 

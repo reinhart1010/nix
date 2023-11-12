@@ -3,6 +3,8 @@ layout: page
 title: common/llc (English)
 description: "Compiles LLVM Intermediate Representation or bitcode to target-specific assembly language."
 content_hash: efbc906f3ab2eed12bc5b8f6a3c733e356e4cd7a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # llc
 

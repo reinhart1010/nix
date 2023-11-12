@@ -3,7 +3,7 @@ layout: page
 title: common/docker-exec (português (Brasil))
 description: "Executar um comando em um contêiner Docker em execução."
 content_hash: 986f5a11a381919ed1d8db4ff5b1302431f00df3
-last_modified_at: 2023-09-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-exec.html
@@ -20,11 +20,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-exec.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docker exec
+# docker exec
 
 Executar um comando em um contêiner Docker em execução.
 Mais informações: <https://docs.docker.com/engine/reference/commandline/exec/>.

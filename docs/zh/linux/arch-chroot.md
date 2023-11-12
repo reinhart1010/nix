@@ -3,6 +3,7 @@ layout: page
 title: linux/arch-chroot (中文)
 description: "辅助 Arch Linux 安装流程的更强 `chroot` 命令。"
 content_hash: 0703e59bf2beaeeb310881ab40b763689c2f9fdb
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/arch-chroot.html
@@ -10,6 +11,7 @@ related_topics:
   - title: English version
     url: /en/linux/arch-chroot.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # arch-chroot
 

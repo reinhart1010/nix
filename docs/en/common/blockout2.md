@@ -3,6 +3,8 @@ layout: page
 title: common/blockout2 (English)
 description: "Tetris like game in 3D."
 content_hash: 3b73c9f7bca36b538a8380acf1a58dc91ab2209d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # blockout2
 

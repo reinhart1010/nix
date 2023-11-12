@@ -3,7 +3,8 @@ layout: page
 title: common/az-network (English)
 description: "Manage Azure Network resources."
 content_hash: ab67d5a938f6c619dde394719409d93db0bceb7d
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # az network
 

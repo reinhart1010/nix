@@ -3,7 +3,7 @@ layout: page
 title: osx/gbasename (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux basename`"
 content_hash: 14536cdc51d837587ef53725b837dfa12cd3334c
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gbasename.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gbasename.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gbasename
 

@@ -3,7 +3,7 @@ layout: page
 title: common/mkdir (中文 (繁體, 台灣))
 description: "建立目錄。"
 content_hash: cf33423fe4514b120e4a99ee5b98b09f86cbc38b
-last_modified_at: 2023-10-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -35,17 +35,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/mkdir.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/mkdir.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mkdir
+# mkdir
 
 建立目錄。
 更多資訊：<https://www.gnu.org/software/coreutils/mkdir>.

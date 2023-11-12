@@ -3,13 +3,24 @@ layout: page
 title: common/aws-google-auth (Deutsch)
 description: "CLI, um temporäre AWS credentials (STS) über Google Apps als Single Sign-On Dienstleister zu erhalten."
 content_hash: dd5ad6dd7c3b67a9152e5e1e3780635e9cbf9967
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/aws-google-auth.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/aws-google-auth.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/aws-google-auth.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/aws-google-auth.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/aws-google-auth.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws-google-auth
 

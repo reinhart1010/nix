@@ -3,7 +3,7 @@ layout: page
 title: common/cargo-test (English)
 description: "Execute the unit and integration tests of a Rust package."
 content_hash: 8d0becd90c2a7095bbd4215c782061d4142804f8
-last_modified_at: 2023-10-30
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/cargo-test.html
@@ -11,6 +11,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/cargo-test.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cargo test
 

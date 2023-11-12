@@ -3,6 +3,7 @@ layout: page
 title: common/docker-build (English)
 description: "Build an image from a Dockerfile."
 content_hash: d645b23c54d2411e5786445bcb3973d624e75077
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-build.html
@@ -10,8 +11,17 @@ related_topics:
   - title: français version
     url: /fr/common/docker-build.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/docker-build.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/docker-build.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/docker-build.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/docker-build.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker-build.html
@@ -22,6 +32,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/docker-build.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker build
 

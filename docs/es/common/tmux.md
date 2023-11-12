@@ -3,6 +3,7 @@ layout: page
 title: common/tmux (español)
 description: "Multiplexa varias consolas virtuales."
 content_hash: fb78d70478e219e66c59ce3e7a4a94fd5812c56c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/tmux.html
@@ -10,9 +11,16 @@ related_topics:
   - title: français version
     url: /fr/common/tmux.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/tmux.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/tmux.html
+    icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/common/tmux.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tmux
 

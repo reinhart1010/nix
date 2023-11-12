@@ -3,7 +3,7 @@ layout: page
 title: android/dumpsys (한국어)
 description: "Android 시스템 서비스에 대한 제공."
 content_hash: ef01683a1397f9f56e1a97e68238080f64176a06
-last_modified_at: 2023-11-11
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/dumpsys.html
@@ -62,9 +62,16 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/dumpsys.html
     icon: bi bi-globe
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/android/dumpsys.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># dumpsys
 

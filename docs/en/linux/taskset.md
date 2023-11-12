@@ -3,6 +3,8 @@ layout: page
 title: linux/taskset (English)
 description: "Get or set a process' CPU affinity or start a new process with a defined CPU affinity."
 content_hash: 07a4207a06841cfb29d5c7bb955559b02d2554dc
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # taskset
 

@@ -3,11 +3,14 @@ layout: page
 title: common/duf (English)
 description: "Disk Usage/Free Utility."
 content_hash: 80581b41a845644853ebd9f0fede4c4c616d2b3a
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/duf.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># duf
+# duf
 
 Disk Usage/Free Utility.
 More information: <https://github.com/muesli/duf>.

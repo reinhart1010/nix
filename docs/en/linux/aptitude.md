@@ -3,7 +3,7 @@ layout: page
 title: linux/aptitude (English)
 description: "Debian and Ubuntu package management utility."
 content_hash: a63eb5dd2186fbacd8c4a244d66a0bff0fff71b8
-last_modified_at: 2023-10-27
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/aptitude.html
@@ -32,6 +32,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/aptitude.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aptitude
 

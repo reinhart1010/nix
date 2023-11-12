@@ -3,8 +3,11 @@ layout: page
 title: windows/ipconfig (English)
 description: "Display and manage the network configuration of Windows."
 content_hash: 5a7803cfb75159fb9e3a329b25d175e7bbdd3019
-last_modified_at: 2023-07-12
+last_modified_at: 2023-11-12
 related_topics:
+  - title: हिन्दी version
+    url: /hi/windows/ipconfig.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/windows/ipconfig.html
     icon: bi bi-globe
@@ -23,6 +26,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/ipconfig.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ipconfig
 

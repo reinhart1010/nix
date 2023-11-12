@@ -3,7 +3,7 @@ layout: page
 title: osx/gnl (polski)
 description: "To polecenie jest aliasem `-p linux nl`."
 content_hash: 9b4cd2b26b6a229d90a825918e9478de261dc5bf
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gnl.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gnl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gnl
 

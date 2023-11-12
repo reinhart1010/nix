@@ -3,12 +3,10 @@ layout: page
 title: linux/sleep (English)
 description: "Delay for a specified amount of time."
 content_hash: ab6456b3cae6e8e997e7129f2e48c86a32b4bce9
-last_modified_at: 2023-02-08
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># sleep
+# sleep
 
 Delay for a specified amount of time.
 More information: <https://www.gnu.org/software/coreutils/sleep>.

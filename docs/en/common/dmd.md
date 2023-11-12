@@ -3,7 +3,8 @@ layout: page
 title: common/dmd (English)
 description: "Official D compiler."
 content_hash: 1d0d50e7765b9edb43e4e1a69ceed0bcad1e3d6c
-last_modified_at: 2023-10-30
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dmd
 

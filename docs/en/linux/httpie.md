@@ -3,7 +3,12 @@ layout: page
 title: linux/httpie (English)
 description: "A user friendly HTTP tool."
 content_hash: 17eb43fcf109fee2735d33e79084aeb27076778e
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/linux/httpie.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # httpie
 

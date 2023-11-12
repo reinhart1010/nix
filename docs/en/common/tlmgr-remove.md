@@ -3,6 +3,8 @@ layout: page
 title: common/tlmgr-remove (English)
 description: "Uninstall TeX Live packages."
 content_hash: 340c72b298bd8c2c475deb45abb504490fd2686a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tlmgr remove
 

@@ -3,6 +3,8 @@ layout: page
 title: common/set (English)
 description: "Display, set or unset values of shell attributes and positional parameters."
 content_hash: 4527942296af80f9c17e0da64b3eb34f7d3024ec
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # set
 

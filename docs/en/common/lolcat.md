@@ -3,10 +3,12 @@ layout: page
 title: common/lolcat (English)
 description: "Put a rainbow in everything you `cat` to the console."
 content_hash: 8c7d7829235142407d5f47caf7965509b8bd56ac
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/lolcat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lolcat
 

@@ -3,6 +3,7 @@ layout: page
 title: linux/ip-address (Deutsch)
 description: "IP Adressen Management Unterbefehl."
 content_hash: 39c4f97f3cdbf54ce7921b88436a32504d02ce9a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/ip-address.html
@@ -10,6 +11,10 @@ related_topics:
   - title: français version
     url: /fr/linux/ip-address.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/linux/ip-address.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ip address
 

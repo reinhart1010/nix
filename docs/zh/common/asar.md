@@ -3,9 +3,16 @@ layout: page
 title: common/asar (中文)
 description: "Electron 平台的文件打包工具。"
 content_hash: a03646ecf808fce087a0f244b3d17558153236ff
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/asar.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/asar.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/asar.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/asar.html
@@ -16,6 +23,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/asar.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # asar
 

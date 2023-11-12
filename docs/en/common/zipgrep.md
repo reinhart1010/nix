@@ -3,6 +3,8 @@ layout: page
 title: common/zipgrep (English)
 description: "Find patterns in files in a ZIP archive using extended regular expression (supports `?`, `+`, `{}`, `()` and `|`)."
 content_hash: 5053037e367453872ce61d0ec9031e8fa58cb5e7
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # zipgrep
 

@@ -3,7 +3,8 @@ layout: page
 title: common/locust (English)
 description: "Load-testing tool to determine number of concurrent users a system can handle."
 content_hash: 7c86ea230225853da7a75f394052e13ffc3849e3
-last_modified_at: 2023-06-28
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # locust
 

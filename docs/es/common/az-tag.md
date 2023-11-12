@@ -3,11 +3,12 @@ layout: page
 title: common/az-tag (español)
 description: "Administra etiquetas en un recurso de Azure."
 content_hash: 14d02c7dd6c4e1e82597e5a90e3b1d613c6bbad5
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/az-tag.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # az tag
 

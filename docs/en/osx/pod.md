@@ -3,10 +3,12 @@ layout: page
 title: osx/pod (English)
 description: "Dependency manager for Swift and Objective-C Cocoa projects."
 content_hash: 93af320fd3fd8d6899a261c1a272a9c072ab6517
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/osx/pod.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pod
 

@@ -3,12 +3,10 @@ layout: page
 title: linux/select (English)
 description: "Bash builtin construct for creating menus."
 content_hash: ec408ecaed9c10f65917092b1f070f9db5d22c04
-last_modified_at: 2023-08-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># select
+# select
 
 Bash builtin construct for creating menus.
 More information: <https://www.gnu.org/software/bash/manual/bash.html#index-select>.

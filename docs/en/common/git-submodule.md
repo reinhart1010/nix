@@ -3,6 +3,7 @@ layout: page
 title: common/git-submodule (English)
 description: "Inspects, updates and manages submodules."
 content_hash: e7a38bca58b4e6b82c18ab9dd707a771ea91afbf
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/git-submodule.html
@@ -13,6 +14,10 @@ related_topics:
   - title: italiano version
     url: /it/common/git-submodule.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-submodule.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git submodule
 

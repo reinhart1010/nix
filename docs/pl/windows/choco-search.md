@@ -3,6 +3,7 @@ layout: page
 title: windows/choco-search (polski)
 description: "Wyszukiwanie pakietów Chocolatey dostępnych lokalnie lub w zdalnych źródłach/repozytoriach."
 content_hash: bd00b80165ef5f1648c0f473678ee78b4a34c2c4
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-search.html
@@ -10,17 +11,18 @@ related_topics:
   - title: English version
     url: /en/windows/choco-search.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/windows/choco-search.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/windows/choco-search.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/choco-search.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># choco search
+# choco search
 
 Wyszukiwanie pakietów Chocolatey dostępnych lokalnie lub w zdalnych źródłach/repozytoriach.
 Więcej informacji: <https://chocolatey.org/docs/commands-search>.

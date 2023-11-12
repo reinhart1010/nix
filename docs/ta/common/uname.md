@@ -3,6 +3,7 @@ layout: page
 title: common/uname (தமிழ்)
 description: "தற்போதைய இயந்திரம் மற்றும் அதில் இயங்கும் இயக்க முறைமை பற்றிய விவரங்களை அச்சிடவும்."
 content_hash: cbee7927a7ab391850c243c3ce8f531c26b2f7ad
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/uname.html
@@ -10,12 +11,16 @@ related_topics:
   - title: فارسی version
     url: /fa/common/uname.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/uname.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/uname.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/uname.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # uname
 

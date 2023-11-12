@@ -3,7 +3,8 @@ layout: page
 title: linux/engrampa (English)
 description: "Package files into zip/tar file in MATE desktop environment."
 content_hash: 0db7408e467b39f6950bb8a908292f529bf5de19
-last_modified_at: 2023-06-28
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # engrampa
 

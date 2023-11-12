@@ -3,12 +3,14 @@ layout: page
 title: common/aws-codeartifact (português (Brasil))
 description: "Interface de linha de comando para o AWS CodeArtifact."
 content_hash: c0016dd7c89d3039e88204d2335918206250df29
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
+related_topics:
+  - title: English version
+    url: /en/common/aws-codeartifact.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws codeartifact
+# aws codeartifact
 
 Interface de linha de comando para o AWS CodeArtifact.
 O CodeArtifact permite armazenar artefatos usando gerenciadores de pacotes populares e criar ferramentas como Maven, Gradle, npm, Yarn, Twine, pip e NuGet.

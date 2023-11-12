@@ -3,7 +3,7 @@ layout: page
 title: linux/ip (português (Brasil))
 description: "Mostra / manipula roteamento, dispositivos, roteamento baseado em póliticas e túneis."
 content_hash: f1dab089ae92972a9f57b4af3a50c43da0c43c74
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/ip.html
@@ -14,9 +14,13 @@ related_topics:
   - title: français version
     url: /fr/linux/ip.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/linux/ip.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/ip.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ip
 

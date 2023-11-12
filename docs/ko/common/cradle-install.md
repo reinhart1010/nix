@@ -3,6 +3,7 @@ layout: page
 title: common/cradle-install (한국어)
 description: "Cradle PHP 프레임워크 구성 요소를 설치."
 content_hash: f0bae7d9ca96ec2081445810a20bbbe764aed6c6
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/cradle-install.html
@@ -13,6 +14,7 @@ related_topics:
   - title: italiano version
     url: /it/common/cradle-install.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cradle install
 

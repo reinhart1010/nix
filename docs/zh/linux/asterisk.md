@@ -3,10 +3,12 @@ layout: page
 title: linux/asterisk (中文)
 description: "电话和交换（手机）服务器。"
 content_hash: 363980bfd1d34903eef220651d1384f88745db53
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/asterisk.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # asterisk
 

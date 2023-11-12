@@ -3,7 +3,12 @@ layout: page
 title: common/npm-query (English)
 description: "Print an array of dependency objects using CSS-like selectors."
 content_hash: 232cacdd305a397a23ddd4c117c9af0ce453b7cc
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/npm-query.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # npm query
 

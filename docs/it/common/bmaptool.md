@@ -3,6 +3,7 @@ layout: page
 title: common/bmaptool (italiano)
 description: "Crea o copia blockmap intelligentemente (e quindi più velocemente di `cp` o `dd`)."
 content_hash: e4b43a6dc1bb8975e29d7832fc5704abd51ddade
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/bmaptool.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/bmaptool.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bmaptool
 

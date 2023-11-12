@@ -3,9 +3,16 @@ layout: page
 title: windows/find (中文)
 description: "在一个或多个文件里查找指定字符串。"
 content_hash: fcbbd59c7164a504cd36f3b534f71e708478fd7c
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/find.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/find.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/find.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/windows/find.html
@@ -16,9 +23,13 @@ related_topics:
   - title: Nederlands version
     url: /nl/windows/find.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/windows/find.html
+    icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/find.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # find
 

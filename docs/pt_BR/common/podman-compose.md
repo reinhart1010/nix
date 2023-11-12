@@ -3,16 +3,14 @@ layout: page
 title: common/podman-compose (português (Brasil))
 description: "Executar e gerenciar definição de contêineres Compose Specification."
 content_hash: 387e2054760d423cf389efe0299ef85099eef93d
-last_modified_at: 2023-09-18
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/podman-compose.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># podman-compose
+# podman-compose
 
 Executar e gerenciar definição de contêineres Compose Specification.
 Mais informações: <https://github.com/containers/podman-compose>.

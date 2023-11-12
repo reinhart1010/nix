@@ -3,11 +3,18 @@ layout: page
 title: linux/distrobox-create (English)
 description: "Create a distrobox container. See also: `tldr distrobox`."
 content_hash: 1c3815f201baf7aeeae9b363389cf2257f014283
-last_modified_at: 2023-03-19
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Nederlands version
+    url: /nl/linux/distrobox-create.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/distrobox-create.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/distrobox-create.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # distrobox-create
 

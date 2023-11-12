@@ -3,7 +3,7 @@ layout: page
 title: windows/fc (English)
 description: "Compare the differences between two files or sets of files."
 content_hash: b8294a0cbae61849c909071db968806fff87c748
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/windows/fc.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/fc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fc
 

@@ -3,7 +3,8 @@ layout: page
 title: linux/colrm (English)
 description: "Remove columns from `stdin`."
 content_hash: 2c83a311819ea9553ad12c60b500e203d19a5b13
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # colrm
 

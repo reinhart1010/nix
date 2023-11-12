@@ -3,7 +3,8 @@ layout: page
 title: linux/snake4 (English)
 description: "Snake game in the terminal."
 content_hash: 2eda5cbdbfc63f47535ef48058c5b0858bc44455
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # snake4
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/x11vnc (English)
 description: "A VNC server that will enable VNC on an existing display server."
 content_hash: 090e793bbe24a1455fda5feb5d0830dc14f115f1
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # x11vnc
 

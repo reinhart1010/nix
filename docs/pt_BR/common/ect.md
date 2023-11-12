@@ -3,6 +3,7 @@ layout: page
 title: common/ect (português (Brasil))
 description: "Efficient Compression Tool."
 content_hash: 4840a3656ee68228867a2c76433c5b7c6cf5a249
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ect.html
@@ -10,11 +11,9 @@ related_topics:
   - title: italiano version
     url: /it/common/ect.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ect
+# ect
 
 Efficient Compression Tool.
 Otimizador de arquivos escrito em C++. Suporta arquivos do tipo `.png`, `.jpg`, `.gzip` and `.zip`.

@@ -3,6 +3,7 @@ layout: page
 title: common/cat (हिन्दी)
 description: "फ़ाइलों को प्रिंट और संक्षिप्त करें।"
 content_hash: 6eb68d155ad270b4a71e70c36f8f8d78a9695222
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -25,10 +26,16 @@ related_topics:
   - title: italiano version
     url: /it/common/cat.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/cat.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/cat.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: नेपाली version
+    url: /ne/common/cat.html
+    icon: bi bi-globe
+  - title: norsk version
     url: /no/common/cat.html
     icon: bi bi-globe
   - title: português (Brasil) version
@@ -37,12 +44,16 @@ related_topics:
   - title: русский version
     url: /ru/common/cat.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/cat.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/cat.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/cat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cat
 

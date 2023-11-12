@@ -3,6 +3,7 @@ layout: page
 title: linux/abbr (中文)
 description: "管理 fish shell 的缩写。"
 content_hash: 8e815da5c2db95ca1a65716c8fc085e8f6596c8d
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/abbr.html
@@ -13,14 +14,21 @@ related_topics:
   - title: English version
     url: /en/linux/abbr.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/linux/abbr.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/linux/abbr.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/abbr.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/abbr.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># abbr
+# abbr
 
 管理 fish shell 的缩写。
 用户定义的词在输入后会被较长的短语替换。

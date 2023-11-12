@@ -3,6 +3,7 @@ layout: page
 title: osx/scutil (português (Portugal))
 description: "Gere parametros da configuração do sistema."
 content_hash: a0c33a4da070b50c56dda48f737f327eae9b481d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/scutil.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/scutil.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # scutil
 

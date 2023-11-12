@@ -3,12 +3,10 @@ layout: page
 title: common/k9s (English)
 description: "View and manage Kubernetes clusters."
 content_hash: a68177dd9756589c932affcf0b52c56b555b666d
-last_modified_at: 2023-10-11
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># k9s
+# k9s
 
 View and manage Kubernetes clusters.
 More information: <https://k9scli.io/topics/commands/>.

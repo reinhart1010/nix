@@ -3,7 +3,7 @@ layout: page
 title: common/rsync (中文)
 description: "一种快速，通用，远程（和本地）文件复制工具。"
 content_hash: 49bd8987ab7d936d5d9127d6e5a7cc9e4544ca3c
-last_modified_at: 2023-08-07
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/rsync.html
@@ -14,9 +14,16 @@ related_topics:
   - title: Indonesia version
     url: /id/common/rsync.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/rsync.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/rsync.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/rsync.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rsync
 

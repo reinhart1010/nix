@@ -3,6 +3,8 @@ layout: page
 title: common/lynx (English)
 description: "Command-line web browser."
 content_hash: 027ab03701b60bae36da0129ae9346f7d0983324
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lynx
 

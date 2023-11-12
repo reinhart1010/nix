@@ -3,6 +3,7 @@ layout: page
 title: common/batch (polski)
 description: "Wykonaj polecenia, gdy pozwoli na to poziom obciążenia systmu."
 content_hash: f5518094b9a94069dad9665288f51ff507c0cdee
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/batch.html
@@ -16,6 +17,7 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/batch.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # batch
 

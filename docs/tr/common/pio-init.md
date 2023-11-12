@@ -3,10 +3,19 @@ layout: page
 title: common/pio-init (Türkçe)
 description: "Bu komut `pio project` için bir takma addır."
 content_hash: 6ca04a2d755c5ad60f96578decb7f9155a9fe821
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
+  - title: العربية version
+    url: /ar/common/pio-init.html
+    icon: bi bi-globe
   - title: bosanski version
     url: /bs/common/pio-init.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/common/pio-init.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/common/pio-init.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/pio-init.html
@@ -32,11 +41,17 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/pio-init.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/pio-init.html
+    icon: bi bi-globe
   - title: ລາວ version
     url: /lo/common/pio-init.html
     icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/common/pio-init.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/pio-init.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/pio-init.html
@@ -49,6 +64,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/pio-init.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/common/pio-init.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/pio-init.html
@@ -71,11 +89,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/pio-init.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pio-init
+# pio-init
 
 Bu komut `pio project` için bir takma addır.
 

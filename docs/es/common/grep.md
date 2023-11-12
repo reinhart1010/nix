@@ -3,22 +3,39 @@ layout: page
 title: common/grep (español)
 description: "Encuentra coincidencias en el texto introducido."
 content_hash: f6ad56871486b17fd2148fd507ee917c163dea21
+last_modified_at: 2023-11-12
 related_topics:
+  - title: dansk version
+    url: /da/common/grep.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/grep.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/grep.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/grep.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/grep.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/grep.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/grep.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/grep.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/grep.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/grep.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # grep
 

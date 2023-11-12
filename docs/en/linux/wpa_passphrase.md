@@ -3,11 +3,12 @@ layout: page
 title: linux/wpa_passphrase (English)
 description: "Generate a WPA-PSK key from an ASCII passphrase for a given SSID."
 content_hash: f1cdd9c4e784101fb69012d80b0c3226ccf059fa
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: Türkçe version
     url: /tr/linux/wpa_passphrase.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wpa_passphrase
 

@@ -3,12 +3,14 @@ layout: page
 title: osx/ps (English)
 description: "Information about running processes."
 content_hash: ccee8efb8e8d337adb26aa2ca44adec8053c2c23
-last_modified_at: 2023-07-25
+last_modified_at: 2023-11-12
+related_topics:
+  - title: español version
+    url: /es/osx/ps.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ps
+# ps
 
 Information about running processes.
 More information: <https://www.unix.com/man-page/osx/1/ps/>.

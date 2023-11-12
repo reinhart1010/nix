@@ -3,7 +3,7 @@ layout: page
 title: common/antibody (español)
 description: "\"El más rápido\" administrador de complementos de shell."
 content_hash: 3d261d88dbff24c785941188495d9ca63d595731
-last_modified_at: 2023-01-24
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/antibody.html
@@ -11,11 +11,9 @@ related_topics:
   - title: français version
     url: /fr/common/antibody.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># antibody
+# antibody
 
 "El más rápido" administrador de complementos de shell.
 Más información: <https://getantibody.github.io>.

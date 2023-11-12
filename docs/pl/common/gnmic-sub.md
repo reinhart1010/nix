@@ -3,7 +3,7 @@ layout: page
 title: common/gnmic-sub (polski)
 description: "To polecenie jest aliasem `gnmic subscribe`."
 content_hash: 60a302e875dedd0515733107675ef946a60e5769
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/gnmic-sub.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/gnmic-sub.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gnmic-sub
 

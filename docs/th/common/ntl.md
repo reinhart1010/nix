@@ -3,7 +3,7 @@ layout: page
 title: common/ntl (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `netlify`"
 content_hash: 5c21e2a935110a54b68716bfe2683bf0a1868929
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/ntl.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/ntl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ntl
 

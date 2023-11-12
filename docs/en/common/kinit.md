@@ -3,12 +3,10 @@ layout: page
 title: common/kinit (English)
 description: "Authenticate a principal with a Kerberos server to gain and cache a ticket."
 content_hash: 21395a3b8a65d54be94e475e97bee57279427430
-last_modified_at: 2023-05-20
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># kinit
+# kinit
 
 Authenticate a principal with a Kerberos server to gain and cache a ticket.
 Note: A Kerberos principal can be either a user, service, or application.

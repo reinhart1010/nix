@@ -1,8 +1,9 @@
 ---
 layout: page
-title: common/unalias (norsk bokmål (Norge))
+title: common/unalias (norsk)
 description: "Fjern aliaser."
 content_hash: 3b81f87633dc615bc101a9ee07591bfdf7362e5d
+last_modified_at: 2023-11-12
 related_topics:
   - title: bosanski version
     url: /bs/common/unalias.html
@@ -22,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/unalias.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # unalias
 

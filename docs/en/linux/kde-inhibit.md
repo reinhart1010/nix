@@ -3,6 +3,8 @@ layout: page
 title: linux/kde-inhibit (English)
 description: "Inhibit various desktop functions while a command runs."
 content_hash: 6426616be46eb5306475382d26f5c0afe260c6df
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # kde-inhibit
 

@@ -3,7 +3,8 @@ layout: page
 title: common/speedcrunch (English)
 description: "A high-precision scientific calculator."
 content_hash: 3582f50100100a75d3edaa52bb7b14b73c5c04a9
-last_modified_at: 2023-06-28
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # speedcrunch
 

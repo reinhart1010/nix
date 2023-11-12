@@ -3,7 +3,7 @@ layout: page
 title: common/ansible-inventory (español)
 description: "Muestra o vuelca un inventario de Ansible."
 content_hash: 8104a3d81d2dc97933ddc39a855b2c914e727103
-last_modified_at: 2023-04-10
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible-inventory.html
@@ -14,11 +14,9 @@ related_topics:
   - title: français version
     url: /fr/common/ansible-inventory.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ansible-inventory
+# ansible-inventory
 
 Muestra o vuelca un inventario de Ansible.
 Ver también: `ansible`.

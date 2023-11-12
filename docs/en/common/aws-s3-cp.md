@@ -3,11 +3,14 @@ layout: page
 title: common/aws-s3-cp (English)
 description: "Copy local files or S3 objects to another location locally or in S3."
 content_hash: ec9ff4ede4469b4ca1f64506f67eb1de24491f2c
+last_modified_at: 2023-11-12
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/common/aws-s3-cp.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws s3 cp
+# aws s3 cp
 
 Copy local files or S3 objects to another location locally or in S3.
 More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/cp.html>.

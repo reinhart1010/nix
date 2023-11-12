@@ -3,10 +3,15 @@ layout: page
 title: common/balena (한국어)
 description: "명령 줄에서 balenaCloud, openBalena 및 balena API와 상호 작용하십시오."
 content_hash: fb8b99571657514e59435a98bb27965b8e0771f8
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/balena.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/balena.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # balena
 

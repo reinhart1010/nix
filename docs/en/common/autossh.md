@@ -3,13 +3,24 @@ layout: page
 title: common/autossh (English)
 description: "Run, monitor and restart SSH connections."
 content_hash: a4a8c9458fc82adb2b83cd2339d908b22af8737f
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/common/autossh.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/autossh.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/autossh.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/autossh.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/autossh.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # autossh
 

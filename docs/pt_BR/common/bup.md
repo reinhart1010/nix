@@ -3,6 +3,7 @@ layout: page
 title: common/bup (português (Brasil))
 description: "Sistema de backup baseado no formato Git packfile, oferecendo salvamentos incrementais e desduplicação global."
 content_hash: 7a4eb9cc3e97422102549821f60b321f749c6aaa
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/bup.html
@@ -13,11 +14,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/bup.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bup
+# bup
 
 Sistema de backup baseado no formato Git packfile, oferecendo salvamentos incrementais e desduplicação global.
 Mais informações: <https://github.com/bup/bup>.

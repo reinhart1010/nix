@@ -3,12 +3,10 @@ layout: page
 title: common/doctl-databases-sql-mode (English)
 description: "View and configure a MySQL database cluster’s global SQL modes."
 content_hash: ec6d64decd5200aa1874c0d1fcbe06e8c1afd739
-last_modified_at: 2023-10-12
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># doctl databases sql-mode
+# doctl databases sql-mode
 
 View and configure a MySQL database cluster’s global SQL modes.
 More information: <https://docs.digitalocean.com/reference/doctl/reference/databases/sql-mode/>.

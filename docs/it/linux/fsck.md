@@ -3,10 +3,12 @@ layout: page
 title: linux/fsck (italiano)
 description: "Controlla l'integrità di un filesystem o lo ripara. Il filesystem non dev'essere montato al momento in cui il comando viene eseguito."
 content_hash: 4b0997f977b8ef3327372c817e1ead15b3e58da8
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/fsck.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fsck
 

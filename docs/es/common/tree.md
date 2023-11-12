@@ -3,6 +3,7 @@ layout: page
 title: common/tree (español)
 description: "Muestra los contenidos del directorio actual en forma de árbol."
 content_hash: e3a953f7b285bc6d78b6dbce0ac4f6f53db0f066
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/tree.html
@@ -19,11 +20,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/tree.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># tree
+# tree
 
 Muestra los contenidos del directorio actual en forma de árbol.
 Más información: <http://mama.indstate.edu/users/ice/tree/>.

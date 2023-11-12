@@ -3,7 +3,7 @@ layout: page
 title: common/arduino-builder (English)
 description: "Compile arduino sketches."
 content_hash: 663e3c6769a47d1331b86b27b02331143f6954f3
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/arduino-builder.html
@@ -11,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/arduino-builder.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # arduino-builder
 

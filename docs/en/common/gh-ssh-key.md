@@ -3,7 +3,8 @@ layout: page
 title: common/gh-ssh-key (English)
 description: "Manage GitHub SSH keys."
 content_hash: 74d1a5cd0a33a3d48b3541c4387f1de2a72874ed
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gh ssh-key
 

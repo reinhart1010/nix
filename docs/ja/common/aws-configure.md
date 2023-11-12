@@ -3,14 +3,18 @@ layout: page
 title: common/aws-configure (日本語)
 description: "AWS CLI の設定を管理します。"
 content_hash: 6b6c0243072bf4a3e592c388ffffb52f906100ef
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/aws-configure.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/aws-configure.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/aws-configure.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws configure
 

@@ -3,7 +3,8 @@ layout: page
 title: common/speedtest-cli (English)
 description: "Test internet bandwidth using <https://speedtest.net>."
 content_hash: 74b03aec679f651c428627b855846a0702eda7c8
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # speedtest-cli
 

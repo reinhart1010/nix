@@ -3,7 +3,8 @@ layout: page
 title: common/factor (English)
 description: "Prints the prime factorization of a number."
 content_hash: 894df8aa69cd04b0a078f3f290a04cf8b8195121
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # factor
 

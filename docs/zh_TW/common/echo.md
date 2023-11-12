@@ -3,12 +3,16 @@ layout: page
 title: common/echo (中文 (繁體, 台灣))
 description: "印出文字。"
 content_hash: 20aebdc5f9fa289c8ddb2b51a89a03a8d8e488c2
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/echo.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/echo.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/echo.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/echo.html
@@ -28,14 +32,21 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/echo.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/echo.html
+    icon: bi bi-globe
   - title: српски version
     url: /sr/common/echo.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/echo.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# echo
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># echo
 
 印出文字。
 更多資訊：<https://www.gnu.org/software/coreutils/echo>.

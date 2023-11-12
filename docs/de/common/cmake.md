@@ -3,6 +3,7 @@ layout: page
 title: common/cmake (Deutsch)
 description: "Plattformübergreifendes Build-Automatisierungs-System, das Vorlagen für native Build-Systeme erzeugt."
 content_hash: 067ad84e7c084bea4d2207e114b9f5fedca1826e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/cmake.html
@@ -19,8 +20,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/cmake.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# cmake
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># cmake
 
 Plattformübergreifendes Build-Automatisierungs-System, das Vorlagen für native Build-Systeme erzeugt.
 Weitere Informationen: <https://cmake.org/cmake/help/latest/manual/cmake.1.html>.

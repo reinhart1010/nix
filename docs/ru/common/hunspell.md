@@ -3,10 +3,12 @@ layout: page
 title: common/hunspell (русский)
 description: "Проверка орфографии."
 content_hash: e280fcfadeb26b60c8e040b5602ebaa94e6a9be8
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/hunspell.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # hunspell
 

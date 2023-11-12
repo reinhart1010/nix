@@ -3,10 +3,12 @@ layout: page
 title: common/eval (English)
 description: "Execute arguments as a single command in the current shell and return its result."
 content_hash: 5a46ccddd7cedae170d9814af40327ec17af67d7
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/common/eval.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # eval
 

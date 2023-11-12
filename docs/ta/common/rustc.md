@@ -3,7 +3,7 @@ layout: page
 title: common/rustc (தமிழ்)
 description: "ரஸ்ட் கம்பைலர்."
 content_hash: b3032614a5240fac0f178075328882aaac096430
-last_modified_at: 2023-01-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/rustc.html
@@ -11,11 +11,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/rustc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rustc
+# rustc
 
 ரஸ்ட் கம்பைலர்.
 ரஸ்ட் மொழி மூல கோப்புகளை செயலாக்குகிறது, தொகுக்கிறது மற்றும் இணைக்கிறது.

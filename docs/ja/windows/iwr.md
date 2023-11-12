@@ -3,7 +3,7 @@ layout: page
 title: windows/iwr (日本語)
 description: "このコマンドは `invoke-webrequest` のエイリアスです。"
 content_hash: 4e0fce7f05e0d4c699261ece31593233b853698d
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/iwr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # iwr
 

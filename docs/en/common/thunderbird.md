@@ -3,6 +3,8 @@ layout: page
 title: common/thunderbird (English)
 description: "Email client and RSS reader."
 content_hash: 921ec391d0a1bf8ae79e032cb44ea5d6b31edfd0
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # thunderbird
 

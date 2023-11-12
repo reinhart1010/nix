@@ -3,6 +3,8 @@ layout: page
 title: common/bandwhich (English)
 description: "Display the current network utilization by process, connection or remote IP/hostname."
 content_hash: 68deb037b5cc9704bb06657f9fbf56bb6a192010
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # bandwhich
 

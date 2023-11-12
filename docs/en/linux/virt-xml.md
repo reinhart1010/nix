@@ -3,7 +3,8 @@ layout: page
 title: linux/virt-xml (English)
 description: "Edit libvirt Domain XML files with explicit command-line options."
 content_hash: 2bbaa513bdee3c43e5fc916f85bc67f66e54b003
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # virt-xml
 

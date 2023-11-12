@@ -3,6 +3,8 @@ layout: page
 title: linux/legit (English)
 description: "Complementary command-line interface for Git."
 content_hash: 5a1c3348c49f473dc641c60acc169e7cf1b48b5b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # legit
 

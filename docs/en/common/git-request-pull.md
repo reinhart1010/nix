@@ -3,10 +3,15 @@ layout: page
 title: common/git-request-pull (English)
 description: "Generate a request asking the upstream project to pull changes into its tree."
 content_hash: f426a780ab14103984b22de48e3de54b9f26eb9f
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/git-request-pull.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-request-pull.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git request-pull
 

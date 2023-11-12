@@ -3,7 +3,11 @@ layout: page
 title: common/git-config (français)
 description: "Gérer les options de configuration personnalisées pour les référentiels Git."
 content_hash: 54c0640b8cf1dca5fc645d6f81cffdcd3eafaaad
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/git-config.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/git-config.html
     icon: bi bi-globe
@@ -13,9 +17,19 @@ related_topics:
   - title: italiano version
     url: /it/common/git-config.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-config.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-config.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git-config.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/git-config.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git config
 

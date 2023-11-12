@@ -3,7 +3,8 @@ layout: page
 title: common/k3d (English)
 description: "A wrapper to easily create k3s clusters inside Docker."
 content_hash: 787872767d8bd5f590e9a466720133bfd940738a
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # k3d
 

@@ -3,10 +3,17 @@ layout: page
 title: common/ppmchange (English)
 description: "Change all pixels of one color in a PPM image to another color."
 content_hash: a8e5f8dec1e41c86985b1c5041a062f578329262
-last_modified_at: 2023-11-11
+last_modified_at: 2023-11-12
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/ppmchange.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># ppmchange
 

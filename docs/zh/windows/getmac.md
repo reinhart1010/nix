@@ -3,10 +3,15 @@ layout: page
 title: windows/getmac (中文)
 description: "显示系统的 MAC 地址。"
 content_hash: d2ff9475f38261a66b4b8531d11909ac805d0fb6
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/getmac.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/windows/getmac.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # getmac
 

@@ -3,7 +3,8 @@ layout: page
 title: common/kdeconnect-cli (English)
 description: "KDE's Connect CLI."
 content_hash: 4481fef6c5985bf3f2f4337702d75d1b3b085bf9
-last_modified_at: 2022-11-29
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # kdeconnect-cli
 

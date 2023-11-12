@@ -3,11 +3,12 @@ layout: page
 title: common/az-vm (English)
 description: "Manage virtual machines in Azure."
 content_hash: e014d5df22007723bc83ca15b3e229968830ff43
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/az-vm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # az vm
 

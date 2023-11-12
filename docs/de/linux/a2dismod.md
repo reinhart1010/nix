@@ -3,12 +3,16 @@ layout: page
 title: linux/a2dismod (Deutsch)
 description: "Deaktiviert ein Apache-Modul auf Debian-basierten Betriebssystemen."
 content_hash: f8d1030297ca59464b20dae138cddce8ff724e58
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/a2dismod.html
     icon: bi bi-globe
   - title: English version
     url: /en/linux/a2dismod.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/a2dismod.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/a2dismod.html
@@ -22,9 +26,13 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/linux/a2dismod.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/linux/a2dismod.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/a2dismod.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # a2dismod
 

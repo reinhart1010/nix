@@ -3,7 +3,7 @@ layout: page
 title: android/logcat (हिन्दी)
 description: "सिस्टम संदेशों का एक लॉग डंप करें, जिसमें त्रुटि होने पर स्टैक ट्रेस और एप्लिकेशन द्वारा लॉग किए गए सूचना संदेश शामिल हों।"
 content_hash: 8392a6f66cfca60ac179ecb2f0f7ce2937bd9231
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -59,6 +59,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/logcat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # logcat
 

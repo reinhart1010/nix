@@ -3,6 +3,8 @@ layout: page
 title: common/tlmgr-option (English)
 description: "TeX Live settings manager."
 content_hash: 6ee2f29f3f17a614d93e324c37fa2f4cc7d60b40
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tlmgr option
 

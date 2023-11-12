@@ -3,7 +3,7 @@ layout: page
 title: android/settings (українська)
 description: "Отримайте інформацію про операційну систему Android."
 content_hash: d725bc751d2d088bf215bd188325407381c8979e
-last_modified_at: 2023-10-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/settings.html
@@ -32,6 +32,9 @@ related_topics:
   - title: italiano version
     url: /it/android/settings.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/android/settings.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/android/settings.html
     icon: bi bi-globe
@@ -56,11 +59,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/settings.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># settings
+# settings
 
 Отримайте інформацію про операційну систему Android.
 Більше інформації: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.

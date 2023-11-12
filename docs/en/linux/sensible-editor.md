@@ -3,7 +3,8 @@ layout: page
 title: linux/sensible-editor (English)
 description: "Open the default editor."
 content_hash: ab085685ef3a5121775eab605b64b82ce893094b
-last_modified_at: 2023-05-19
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sensible-editor
 

@@ -3,6 +3,7 @@ layout: page
 title: common/yes (français)
 description: "Envoie un message à répétition en sortie console."
 content_hash: d7776c86ef6b66571ba786f92c9939f1c9a50711
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/yes.html
@@ -22,6 +23,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/yes.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # yes
 

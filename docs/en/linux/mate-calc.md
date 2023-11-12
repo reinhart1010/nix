@@ -3,6 +3,8 @@ layout: page
 title: linux/mate-calc (English)
 description: "Calculate mathematic expressions in MATE desktop environment."
 content_hash: d5d1a232e1a9992cac8550a76148e4b93878c362
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mate-calc
 

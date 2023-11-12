@@ -3,7 +3,7 @@ layout: page
 title: common/vim (中文 (繁體, 台灣))
 description: "Vim (Vi IMproved), 是一個命令列文字編輯器，為不同類型的文字操作提供了多種模式。"
 content_hash: 3992a6906bd6916326421795c895a43827596408
-last_modified_at: 2023-10-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -41,11 +41,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/vim.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># vim
+# vim
 
 Vim (Vi IMproved), 是一個命令列文字編輯器，為不同類型的文字操作提供了多種模式。
 在正常模式下按下 `i` 進入插入模式。按 `<Esc>` 返回正常模式，可以使用 Vim 指令。

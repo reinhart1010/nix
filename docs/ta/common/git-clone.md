@@ -3,6 +3,7 @@ layout: page
 title: common/git-clone (தமிழ்)
 description: "ஏற்கனவே உள்ள ஒரு களஞ்சியத்தை குளோன் செய்யுங்கள்."
 content_hash: 3ffaaf927bbc11551812168fb1b91f895b83b89b
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-clone.html
@@ -25,12 +26,19 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/git-clone.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-clone.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-clone.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git-clone.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/git-clone.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git clone
 

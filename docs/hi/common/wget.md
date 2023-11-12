@@ -3,7 +3,7 @@ layout: page
 title: common/wget (हिन्दी)
 description: "वेब से फ़ाइलें डाउनलोड करें।"
 content_hash: fad8b717fa8556193523dc6823ec07d69df5856d
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/wget.html
@@ -11,12 +11,16 @@ related_topics:
   - title: italiano version
     url: /it/common/wget.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/wget.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/wget.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/wget.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wget
 

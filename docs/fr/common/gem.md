@@ -3,7 +3,7 @@ layout: page
 title: common/gem (français)
 description: "Un gestionnaire de paquets pour le langage de programmation Ruby."
 content_hash: 40fd10edb0c9363dc4742429dcb32571d064cfe9
-last_modified_at: 2023-10-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/gem.html
@@ -11,11 +11,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/gem.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gem
+# gem
 
 Un gestionnaire de paquets pour le langage de programmation Ruby.
 Plus d'informations : <https://guides.rubygems.org>.

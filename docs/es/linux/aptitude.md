@@ -3,7 +3,7 @@ layout: page
 title: linux/aptitude (español)
 description: "Herramienta de gestión de paquetes para Debian y Ubuntu."
 content_hash: eee9a1b55ba613c99e76baf6f4b9b1849fb6403f
-last_modified_at: 2023-10-19
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/aptitude.html
@@ -14,6 +14,9 @@ related_topics:
   - title: English version
     url: /en/linux/aptitude.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/aptitude.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/aptitude.html
     icon: bi bi-globe
@@ -23,9 +26,13 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/aptitude.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/aptitude.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/aptitude.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aptitude
 

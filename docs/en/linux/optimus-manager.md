@@ -3,7 +3,8 @@ layout: page
 title: linux/optimus-manager (English)
 description: "GPU switching utility for Nvidia Optimus laptops."
 content_hash: 30cb0614a99a51fd560d1318e33fd3542b82a73b
-last_modified_at: 2023-08-27
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # optimus-manager
 

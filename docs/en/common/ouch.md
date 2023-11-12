@@ -3,11 +3,10 @@ layout: page
 title: common/ouch (English)
 description: "Command-line utility for compressing and decompressing files and directories."
 content_hash: ef135f4e4f26cf408ecb6013a281cd692f809b7d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ouch
+# ouch
 
 Command-line utility for compressing and decompressing files and directories.
 More information: <https://crates.io/crates/ouch>.

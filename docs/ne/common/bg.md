@@ -3,7 +3,7 @@ layout: page
 title: common/bg (नेपाली)
 description: "निलम्बित गरिएका कामहरुलाई (जस्तै `Ctrl + Z` प्रयोग गरेर) पुन: सुरु गर्छ, अनि तिनीहरुलाई पृष्ठभूमिमा चलाइरहन्छ।"
 content_hash: ef36bd61065d6bac0ddd491dab55ea22727377a5
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/bg.html
@@ -35,6 +35,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/bg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bg
 

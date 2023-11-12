@@ -3,7 +3,8 @@ layout: page
 title: linux/rmmod (English)
 description: "Remove modules from the Linux kernel."
 content_hash: 68cd8ae63a82ca95c543ed2901250d84f2b7b003
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rmmod
 

@@ -3,11 +3,10 @@ layout: page
 title: common/aws-s3-mv (English)
 description: "Move local files or S3 objects to another location locally or in S3."
 content_hash: 1161b422431e585fb091553a193d285b87fbe33b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws s3 mv
+# aws s3 mv
 
 Move local files or S3 objects to another location locally or in S3.
 More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/s3/mv.html>.

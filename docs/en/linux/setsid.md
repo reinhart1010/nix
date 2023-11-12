@@ -3,11 +3,10 @@ layout: page
 title: linux/setsid (English)
 description: "Run a program in a new session if the calling process is not a process group leader."
 content_hash: 6906fd36ee686ef5a41c670a09e2880a1e535ee2
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># setsid
+# setsid
 
 Run a program in a new session if the calling process is not a process group leader.
 The created session is by default not controlled by the current terminal.

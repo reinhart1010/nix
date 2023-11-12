@@ -3,12 +3,17 @@ layout: page
 title: common/fdupes (français)
 description: "Trouve les fichiers dupliqués dans les dossiers donnés."
 content_hash: b85f98a38aa9a57d6b53a89ceef75c0443e75e70
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/fdupes.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# fdupes
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># fdupes
 
 Trouve les fichiers dupliqués dans les dossiers donnés.
 Plus d'informations : <https://github.com/adrianlopezroche/fdupes>.

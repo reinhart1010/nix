@@ -3,6 +3,8 @@ layout: page
 title: linux/shiny-mirrors (English)
 description: "Generate a pacman mirror list for Manjaro Linux."
 content_hash: 4f6bcdefb8d641d1f5e87e72586b988e11613394
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # shiny-mirrors
 

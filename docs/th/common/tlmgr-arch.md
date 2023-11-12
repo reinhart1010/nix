@@ -3,7 +3,7 @@ layout: page
 title: common/tlmgr-arch (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `tlmgr platform`"
 content_hash: b78647b9e5df909ca8d8b4d921a11548e9c5c5dd
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/tlmgr-arch.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/tlmgr-arch.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tlmgr-arch
 

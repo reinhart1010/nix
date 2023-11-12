@@ -3,12 +3,14 @@ layout: page
 title: linux/unsquashfs (English)
 description: "Uncompress, extract and list files in squashfs filesystems."
 content_hash: 555d7163a8b4c03a6e3482bf69948afeb0aa2723
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
+related_topics:
+  - title: polski version
+    url: /pl/linux/unsquashfs.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># unsquashfs
+# unsquashfs
 
 Uncompress, extract and list files in squashfs filesystems.
 More information: <https://manned.org/unsquashfs>.

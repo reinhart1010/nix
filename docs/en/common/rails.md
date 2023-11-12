@@ -3,6 +3,7 @@ layout: page
 title: common/rails (English)
 description: "A server-side MVC framework written in Ruby."
 content_hash: d4d613ba653e12d35f65f567895f69fc6513a70c
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/rails.html
@@ -13,6 +14,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/rails.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rails
 

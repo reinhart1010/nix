@@ -3,10 +3,12 @@ layout: page
 title: windows/reg-flags (English)
 description: "Display or set flags on registry keys."
 content_hash: c0ecbc47dab044fc9d51f7f12936eb0e79db6c2e
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/windows/reg-flags.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # reg flags
 

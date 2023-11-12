@@ -3,6 +3,7 @@ layout: page
 title: common/bup (italiano)
 description: "Sistema di backup basato sul formato dei packfile Git, fornendo salvataggi incrementali veloci e deduplicazione globale."
 content_hash: 24577a5b9bf8447d0f407fad25a2600edd9766bf
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/bup.html
@@ -10,6 +11,10 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/bup.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/bup.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bup
 

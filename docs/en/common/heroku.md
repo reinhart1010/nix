@@ -3,11 +3,12 @@ layout: page
 title: common/heroku (English)
 description: "Create and manage Heroku apps."
 content_hash: 8caceaa5d097f1ded2decbcf8a95c6ab7b06631f
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/common/heroku.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # heroku
 

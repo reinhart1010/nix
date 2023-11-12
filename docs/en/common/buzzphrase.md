@@ -3,10 +3,12 @@ layout: page
 title: common/buzzphrase (English)
 description: "Node.js command-line tool to output a random buzzphrase."
 content_hash: 8f67f2f4c73165f1605bac9347e1dbc898b625de
+last_modified_at: 2023-11-12
 related_topics:
   - title: 한국어 version
     url: /ko/common/buzzphrase.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # buzzphrase
 

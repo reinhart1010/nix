@@ -3,6 +3,8 @@ layout: page
 title: common/fossa (English)
 description: "CLI for the Fossa service - Generate realtime license audits, vulnerability scans and reports about dependencies licenses."
 content_hash: 4341937133c4c03504a9ba148121a78aca03bb85
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fossa
 

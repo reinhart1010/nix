@@ -3,11 +3,10 @@ layout: page
 title: common/nyxt (English)
 description: "Nyxt is a keyboard-driven web browser for power users."
 content_hash: 6ba27abba234aeb6972fbcdd880c5f53fedc9cab
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># nyxt
+# nyxt
 
 Nyxt is a keyboard-driven web browser for power users.
 More information: <https://nyxt.atlas.engineer>.

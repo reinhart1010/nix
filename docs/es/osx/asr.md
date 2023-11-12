@@ -3,6 +3,7 @@ layout: page
 title: osx/asr (español)
 description: "Restaura (copia) una imagen de disco en un volumen."
 content_hash: 21863c571ec7fd448ff681134f89275f406c1587
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/asr.html
@@ -10,9 +11,13 @@ related_topics:
   - title: italiano version
     url: /it/osx/asr.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/asr.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/asr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # asr
 

@@ -3,6 +3,7 @@ layout: page
 title: common/ssh-keyscan (Deutsch)
 description: "Rufe öffentliche SSH Schlüssel eines externen Servers ab."
 content_hash: f290e788f1d57a6a2dbaa1164c3dc678d43de526
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ssh-keyscan.html
@@ -10,6 +11,10 @@ related_topics:
   - title: français version
     url: /fr/common/ssh-keyscan.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/ssh-keyscan.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ssh-keyscan
 

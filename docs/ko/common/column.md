@@ -3,6 +3,7 @@ layout: page
 title: common/column (한국어)
 description: "표준 입력 또는 파일을 여러 열로 포맷 설정."
 content_hash: 337911422e28322374e21f3f9bad905c1537163b
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/column.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/column.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # column
 

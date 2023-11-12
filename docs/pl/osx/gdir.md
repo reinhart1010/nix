@@ -3,7 +3,7 @@ layout: page
 title: osx/gdir (polski)
 description: "To polecenie jest aliasem `-p linux dir`."
 content_hash: b29a7984497f1a3e995f140e6f47daaee8800583
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gdir.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gdir.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gdir
 

@@ -3,6 +3,8 @@ layout: page
 title: common/git-cp (English)
 description: "Copy an existing file to a new location, preserving history."
 content_hash: 6caf7ee8be3fbc434931b03e15808321253ee9ac
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git cp
 

@@ -3,16 +3,14 @@ layout: page
 title: linux/mkfs.fat (português (Brasil))
 description: "Cria um sistema de arquivos MS-DOS dentro de uma partição."
 content_hash: 8eab7c72c41fa58a8aedb5119f3f6c1b7673f9f2
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/mkfs.fat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mkfs.fat
+# mkfs.fat
 
 Cria um sistema de arquivos MS-DOS dentro de uma partição.
 Mais informações: <https://manned.org/mkfs.fat>.

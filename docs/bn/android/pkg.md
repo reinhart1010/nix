@@ -3,7 +3,7 @@ layout: page
 title: android/pkg (বাংলা)
 description: "Termux এর জন্য একটি প্যাকেজ ব্যবস্থাপনা ইউটিলিটি।"
 content_hash: 7f5c39fa08d0d1209f7c931d8ec232ae5c5e538e
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/android/pkg.html
@@ -56,6 +56,7 @@ related_topics:
   - title: 中文 version
     url: /zh/android/pkg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pkg
 

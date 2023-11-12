@@ -3,6 +3,7 @@ layout: page
 title: common/dash (français)
 description: "Debian Almquist SHell, une implémentation de `sh` moderne, conforme à POSIX (non compatible avec Bash)."
 content_hash: 7e09aa3b5a9115735e13e4f587a511430da532ec
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/dash.html
@@ -10,8 +11,15 @@ related_topics:
   - title: italiano version
     url: /it/common/dash.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/dash.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# dash
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># dash
 
 Debian Almquist SHell, une implémentation de `sh` moderne, conforme à POSIX (non compatible avec Bash).
 Plus d'informations : <https://manned.org/dash>.

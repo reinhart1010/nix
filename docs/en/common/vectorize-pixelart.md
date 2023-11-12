@@ -3,6 +3,8 @@ layout: page
 title: common/vectorize-pixelart (English)
 description: "Convert PNG pixel art graphics to SVG/EPS vector images."
 content_hash: 98cbecf2d740c2e0f4430c8fa2bc82c8dde979f8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # vectorize-pixelart
 

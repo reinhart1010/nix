@@ -3,6 +3,12 @@ layout: page
 title: linux/snapper (English)
 description: "Filesystem snapshot management tool."
 content_hash: 5e77c61395de066177b312797c2089afef4cffaf
+last_modified_at: 2023-11-12
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/linux/snapper.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # snapper
 

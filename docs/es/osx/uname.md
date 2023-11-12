@@ -3,7 +3,7 @@ layout: page
 title: osx/uname (español)
 description: "Imprime detalles sobre la máquina actual y el sistema operativo que se ejecuta en ella."
 content_hash: 0c3d0b354a8e6e35bdf5c39a1d2a0e9ca5ee608b
-last_modified_at: 2023-07-10
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/uname.html
@@ -14,11 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/uname.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># uname
+# uname
 
 Imprime detalles sobre la máquina actual y el sistema operativo que se ejecuta en ella.
 Nota: para obtener información adicional sobre el sistema operativo, pruebe el comando `sw_vers`.

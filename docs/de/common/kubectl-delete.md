@@ -3,16 +3,14 @@ layout: page
 title: common/kubectl-delete (Deutsch)
 description: "Lösche Kubernetes-Ressourcen."
 content_hash: 85ad34d0c57062efe635b406c3dc7a71301a2fa5
-last_modified_at: 2022-12-21
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/kubectl-delete.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># kubectl delete
+# kubectl delete
 
 Lösche Kubernetes-Ressourcen.
 Weitere Informationen: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#delete>.

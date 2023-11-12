@@ -3,11 +3,15 @@ layout: page
 title: linux/resolvectl (English)
 description: "Resolve domain names, IPv4 and IPv6 addresses, DNS resource records, and services."
 content_hash: 2d1a78e0aa9e659bc1202472c7578817b65cb67b
-last_modified_at: 2023-09-20
+last_modified_at: 2023-11-12
 related_topics:
+  - title: français version
+    url: /fr/linux/resolvectl.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/linux/resolvectl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # resolvectl
 

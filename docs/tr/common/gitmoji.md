@@ -3,10 +3,15 @@ layout: page
 title: common/gitmoji (Türkçe)
 description: "Commit'lerde emoji kullanmak içni interaktif bir komut satırı aracı."
 content_hash: 2c51f993ca9735146011ca46a2d7063a28a3d64f
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/gitmoji.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/gitmoji.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gitmoji
 

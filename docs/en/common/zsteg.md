@@ -3,6 +3,8 @@ layout: page
 title: common/zsteg (English)
 description: "Steganography detection tool for PNG and BMP file formats."
 content_hash: 0463c29476b12c5d04d6f0cc43292ff4a4a23fb8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # zsteg
 

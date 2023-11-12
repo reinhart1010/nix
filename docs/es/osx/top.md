@@ -3,7 +3,7 @@ layout: page
 title: osx/top (español)
 description: "Muestra información dinámica en tiempo real sobre los procesos en ejecución."
 content_hash: 8eb82657085ff8a8414cdd64f2a4ef8daec577f6
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/top.html
@@ -11,11 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/top.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># top
+# top
 
 Muestra información dinámica en tiempo real sobre los procesos en ejecución.
 Más información: <https://ss64.com/osx/top.html>.

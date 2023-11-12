@@ -3,15 +3,17 @@ layout: page
 title: osx/icalbuddy (español)
 description: "Utilidad de línea de comandos para imprimir eventos y tareas desde la base de datos del calendario de macOS."
 content_hash: 4e748111d2f3c0a8d68278decec03df448086b43
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/icalbuddy.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/icalbuddy.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># icalBuddy
+# icalBuddy
 
 Utilidad de línea de comandos para imprimir eventos y tareas desde la base de datos del calendario de macOS.
 Más información: <https://hasseg.org/icalBuddy/>.

@@ -3,15 +3,14 @@ layout: page
 title: common/go-list (Türkçe)
 description: "Paket ve modülleri sırala."
 content_hash: d8625be08e8f8bb1f792b38f38cf3b48bcdc6d9e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/go-list.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># go list
+# go list
 
 Paket ve modülleri sırala.
 Daha fazla bilgi için: <https://golang.org/cmd/go/#hdr-List_packages_or_modules>.

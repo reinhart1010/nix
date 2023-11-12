@@ -3,6 +3,8 @@ layout: page
 title: common/cloudflared (English)
 description: "Command-line tool to create a persistent connection to the Cloudflare network."
 content_hash: 8e3aa0543e6a9f8bbe6d378111b134b5e0732e8c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # cloudflared
 

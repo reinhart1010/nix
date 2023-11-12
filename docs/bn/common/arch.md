@@ -3,7 +3,7 @@ layout: page
 title: common/arch (বাংলা)
 description: "সিস্টেমের আর্কিটেকচারের নাম দেখানো।"
 content_hash: 2c8278bbacfa0ae08fb0dbeeea0395e5981304ce
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/arch.html
@@ -44,6 +44,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/arch.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # arch
 

@@ -3,6 +3,8 @@ layout: page
 title: common/hsw-cli (English)
 description: "The command-line REST tool for the Handshake wallet."
 content_hash: 888e6f727460a47846fdf245e88c0bc2d62b88de
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # hsw-cli
 

@@ -3,7 +3,7 @@ layout: page
 title: common/brew (中文)
 description: "Linux 和 macOS 的包管理器。"
 content_hash: 408a962c0b4f9bcdbbf6f5d424fb86b1016bba39
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/brew.html
@@ -29,6 +29,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/brew.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # brew
 

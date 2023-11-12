@@ -3,6 +3,7 @@ layout: page
 title: common/code (español)
 description: "Editor de código extensible y multiplataforma."
 content_hash: 8ede9b4eeec8314557a5a63abb204fd90258a6a7
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/code.html
@@ -28,11 +29,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/code.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># code
+# code
 
 Editor de código extensible y multiplataforma.
 Más información: <https://github.com/microsoft/vscode>.

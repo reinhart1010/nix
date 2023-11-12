@@ -3,6 +3,8 @@ layout: page
 title: common/dolt-branch (English)
 description: "Manage Dolt branches."
 content_hash: 0a01b30b9732d4b8793b2f09edda7e8f67e534ee
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dolt branch
 

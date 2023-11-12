@@ -3,6 +3,8 @@ layout: page
 title: common/git-bug (English)
 description: "A distributed bug tracker that uses git's internal storage, so no files are added in your project."
 content_hash: 17960361a1451665286df512e2329cd7fd3fa60e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git bug
 

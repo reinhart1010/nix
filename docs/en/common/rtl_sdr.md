@@ -3,6 +3,8 @@ layout: page
 title: common/rtl_sdr (English)
 description: "Raw data recorder for RTL-SDR receivers."
 content_hash: c7efd45678401a1dfb6d1c351b808b4c61fc491b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rtl_sdr
 

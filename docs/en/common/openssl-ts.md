@@ -3,6 +3,8 @@ layout: page
 title: common/openssl-ts (English)
 description: "OpenSSL command to generate and verify timestamps."
 content_hash: 6d4b44b4cd8eb6942476ed13b2006139f83e0db3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # openssl ts
 

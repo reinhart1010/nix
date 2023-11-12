@@ -3,10 +3,12 @@ layout: page
 title: common/pdftex (Deutsch)
 description: "Kompiliere eine TeX Quelldatei in ein PDF Dokument."
 content_hash: 19facff7c797d75f5249549a0aed0ad5d8852ed7
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/pdftex.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pdftex
 

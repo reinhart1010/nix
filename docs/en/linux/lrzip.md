@@ -3,6 +3,8 @@ layout: page
 title: linux/lrzip (English)
 description: "A large file compression program."
 content_hash: 60eca92630698fce154dd43d85fff525ae5a76ca
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lrzip
 

@@ -3,6 +3,8 @@ layout: page
 title: common/mozillavpn (English)
 description: "A Virtual Private Network from the makers of Firefox."
 content_hash: e64f26d21ac075b6adfabf49f8e18303bb0546f0
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mozillavpn
 

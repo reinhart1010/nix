@@ -3,6 +3,7 @@ layout: page
 title: common/darkhttpd (한국어)
 description: "Darkhttpd 웹 서버."
 content_hash: a0001d164a17ee4701369fb29a0fd7749dd3b18e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/darkhttpd.html
@@ -10,6 +11,10 @@ related_topics:
   - title: italiano version
     url: /it/common/darkhttpd.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/darkhttpd.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # darkhttpd
 

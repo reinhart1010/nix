@@ -3,10 +3,18 @@ layout: page
 title: common/ed (English)
 description: "The original Unix text editor."
 content_hash: 8b25fe6a4a1ccfe8058b01d847bb116f8a6ddf77
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/ed.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/ed.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/ed.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ed
 

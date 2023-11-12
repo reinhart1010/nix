@@ -3,16 +3,14 @@ layout: page
 title: linux/localectl (polski)
 description: "Kontroluj ustawienia regionalne i układ klawiatury systemu."
 content_hash: f049f95c7b50d97a07eea25a2b1cec1b3b7d4d31
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/localectl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># localectl
+# localectl
 
 Kontroluj ustawienia regionalne i układ klawiatury systemu.
 Więcej informacji: <https://www.freedesktop.org/software/systemd/man/localectl.html>.

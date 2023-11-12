@@ -3,7 +3,7 @@ layout: page
 title: common/bat (English)
 description: "Print and concatenate files."
 content_hash: fc80cbc3bd05d670e5d705ae1a01f6f852615a4b
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html
@@ -38,6 +38,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/bat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bat
 

@@ -3,10 +3,12 @@ layout: page
 title: common/gpg-zip (中文)
 description: "使用`GPG`加密存档中的文件和目录。"
 content_hash: b2cd86289fae5734885039945f8e786d9946ed11
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/gpg-zip.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gpg-zip
 

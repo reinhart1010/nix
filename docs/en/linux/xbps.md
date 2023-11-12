@@ -3,7 +3,12 @@ layout: page
 title: linux/xbps (English)
 description: "The X Binary Package System is the package manager used by Void Linux."
 content_hash: a4604d2f78295ad8198b531cbe68987d24c36a41
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Nederlands version
+    url: /nl/linux/xbps.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xbps
 

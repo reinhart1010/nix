@@ -3,6 +3,7 @@ layout: page
 title: common/go (Türkçe)
 description: "Go kaynak kodunu yönetmeye yarayan bir araç."
 content_hash: e25e1c1fdb16875eb0a6b9ef7c3d493bcf9d35f6
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/go.html
@@ -13,11 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/go.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># go
+# go
 
 Go kaynak kodunu yönetmeye yarayan bir araç.
 `go build` gibi bazı alt komutların kendı kullanım dokümentasyonları mevcut.

@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman-database (English)
 description: "Operate on the Arch Linux package database."
 content_hash: 8d7fb4ca97c2897541ea965d14d9eb54291ae5a3
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-database.html
@@ -17,6 +17,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/linux/pacman-database.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pacman --database
 

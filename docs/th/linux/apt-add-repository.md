@@ -3,7 +3,7 @@ layout: page
 title: linux/apt-add-repository (ไทย)
 description: "ควบคุมและจัดการที่อยู่ของคลัง apt."
 content_hash: 98a32a19611a49e307d269a5da2858e95e39394e
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/apt-add-repository.html
@@ -23,9 +23,13 @@ related_topics:
   - title: italiano version
     url: /it/linux/apt-add-repository.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/apt-add-repository.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apt-add-repository.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apt-add-repository
 

@@ -3,6 +3,30 @@ layout: page
 title: linux/abbr (English)
 description: "Manage abbreviations for the fish shell."
 content_hash: ca251fc573d103491581d3799934c703ea6df532
+last_modified_at: 2023-11-12
+related_topics:
+  - title: català version
+    url: /ca/linux/abbr.html
+    icon: bi bi-globe
+  - title: Deutsch version
+    url: /de/linux/abbr.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/abbr.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/abbr.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/abbr.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/abbr.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/linux/abbr.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # abbr
 

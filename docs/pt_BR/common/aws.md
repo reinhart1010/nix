@@ -3,6 +3,7 @@ layout: page
 title: common/aws (português (Brasil))
 description: "A interface de linha de comando oficial para o Amazon Web Services."
 content_hash: ec9f4e12956cca4fc11cb09951373797873ae53d
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/aws.html
@@ -10,8 +11,14 @@ related_topics:
   - title: English version
     url: /en/common/aws.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/aws.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/aws.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/aws.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/aws.html
@@ -19,6 +26,10 @@ related_topics:
   - title: polski version
     url: /pl/common/aws.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/aws.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws
 

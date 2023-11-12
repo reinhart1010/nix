@@ -3,6 +3,8 @@ layout: page
 title: common/git-delete-merged-branches (English)
 description: "Delete branches that are listed in `git branch --merged` excluding master."
 content_hash: 3396bef625768657511efea5af0b0e28e3e197ca
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git delete-merged-branches
 

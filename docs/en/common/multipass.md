@@ -3,7 +3,8 @@ layout: page
 title: common/multipass (English)
 description: "Manage Ubuntu virtual machines using native hypervisors."
 content_hash: 37232f27a16adc2e740667cf33b6c0603794c2dc
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # multipass
 

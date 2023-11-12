@@ -3,6 +3,7 @@ layout: page
 title: common/dokku (English)
 description: "Docker powered mini-Heroku (PaaS)."
 content_hash: 37a8bbcef70f97b8fd4f32d5d77f1a82ea93ffb5
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/dokku.html
@@ -10,6 +11,10 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/dokku.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/dokku.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dokku
 

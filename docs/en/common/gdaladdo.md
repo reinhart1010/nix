@@ -3,11 +3,10 @@ layout: page
 title: common/gdaladdo (English)
 description: "Build overview images of raster datasets."
 content_hash: fa1f52b01395ff9cf81c7b4fb1b3ff3eb7c9c495
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gdaladdo
+# gdaladdo
 
 Build overview images of raster datasets.
 More information: <https://gdal.org/programs/gdaladdo>.

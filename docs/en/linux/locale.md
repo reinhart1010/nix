@@ -3,6 +3,12 @@ layout: page
 title: linux/locale (English)
 description: "Get locale-specific information."
 content_hash: 32cbda2a5125ecab33a3385b08037f2e70a0274e
+last_modified_at: 2023-11-12
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/linux/locale.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # locale
 

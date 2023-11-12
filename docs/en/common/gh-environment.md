@@ -3,6 +3,8 @@ layout: page
 title: common/gh-environment (English)
 description: "Display help about environment variables for the GitHub CLI command."
 content_hash: 3d9eefc62bc273335b2ff9d06abd984b61af9e9e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gh environment
 

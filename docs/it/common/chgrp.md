@@ -3,6 +3,7 @@ layout: page
 title: common/chgrp (italiano)
 description: "Cambia il gruppo proprietario di file e directory."
 content_hash: 54923cafd9e35be91e7dd129600fed374f573b28
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/chgrp.html
@@ -16,6 +17,7 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/chgrp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chgrp
 

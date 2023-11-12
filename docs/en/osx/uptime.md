@@ -3,6 +3,12 @@ layout: page
 title: osx/uptime (English)
 description: "Tell how long the system has been running and other information."
 content_hash: 714f08349ec0c58ed27406b33fdeb83598a28f6b
+last_modified_at: 2023-11-12
+related_topics:
+  - title: español version
+    url: /es/osx/uptime.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # uptime
 

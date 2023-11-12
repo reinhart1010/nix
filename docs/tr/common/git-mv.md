@@ -3,6 +3,7 @@ layout: page
 title: common/git-mv (Türkçe)
 description: "Dosyaları taşı veya yeniden adlandır ve Git indeksini güncelle."
 content_hash: d607c22562d3b76f44843a13efdde6a22b3a1e8c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-mv.html
@@ -19,6 +20,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/git-mv.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git mv
 

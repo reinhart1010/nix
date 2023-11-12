@@ -3,18 +3,20 @@ layout: page
 title: common/aws-glue (português (Brasil))
 description: "Linha de comando CLI para o AWS Glue."
 content_hash: a0c6a0cfe62fa5ae459b72d07263ba4d1f76e47b
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/aws-glue.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/aws-glue.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/aws-glue.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws glue
+# aws glue
 
 Linha de comando CLI para o AWS Glue.
 Define o endpoint público para o servico AWS Glue.

@@ -3,6 +3,7 @@ layout: page
 title: common/cordova (italiano)
 description: "Applicazioni mobile con HTML, CSS e JavaScript."
 content_hash: 671529256325562519533929ce892ac3862fd5af
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/cordova.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cordova.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cordova
 

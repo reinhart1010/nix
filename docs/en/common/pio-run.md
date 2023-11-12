@@ -3,6 +3,8 @@ layout: page
 title: common/pio-run (English)
 description: "Run PlatformIO project targets."
 content_hash: 253a3c39795f90bd055f4ebc5b0bd76c0d8b3c7f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pio run
 

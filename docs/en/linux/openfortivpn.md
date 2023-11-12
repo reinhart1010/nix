@@ -3,6 +3,8 @@ layout: page
 title: linux/openfortivpn (English)
 description: "A VPN client, for Fortinet's proprietary PPP+SSL VPN solution."
 content_hash: 736201e91aad077a33e35042174046d3375fb15f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # openfortivpn
 

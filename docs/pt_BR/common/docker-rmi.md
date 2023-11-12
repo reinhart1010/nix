@@ -3,6 +3,7 @@ layout: page
 title: common/docker-rmi (português (Brasil))
 description: "Remove uma ou mais imagens Docker."
 content_hash: 26f0fb4901eb505f62a48ae3f5562551b67cedcd
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-rmi.html
@@ -10,9 +11,13 @@ related_topics:
   - title: English version
     url: /en/common/docker-rmi.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/docker-rmi.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/docker-rmi.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker rmi
 

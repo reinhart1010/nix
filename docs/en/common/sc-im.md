@@ -3,7 +3,8 @@ layout: page
 title: common/sc-im (English)
 description: "A curses based, vim-like spreadsheet calculator."
 content_hash: cd5ac216579d2950b0939635175f423e66bc8850
-last_modified_at: 2023-05-20
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # SC-IM
 

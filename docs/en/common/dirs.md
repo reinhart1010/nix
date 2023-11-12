@@ -3,6 +3,7 @@ layout: page
 title: common/dirs (English)
 description: "Displays or manipulates the directory stack."
 content_hash: b1635620e68c51fd4b8444a40e241eb8f502fe79
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/dirs.html
@@ -16,6 +17,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/dirs.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dirs
 

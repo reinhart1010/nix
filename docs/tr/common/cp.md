@@ -3,7 +3,7 @@ layout: page
 title: common/cp (Türkçe)
 description: "Dosyaları ve dizinleri kopyalayın."
 content_hash: cd1fb2ffef025d775b11e7223987d54a8e2673e5
-last_modified_at: 2023-03-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/common/cp.html
@@ -56,6 +56,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/cp.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.

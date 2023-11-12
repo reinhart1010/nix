@@ -3,6 +3,8 @@ layout: page
 title: common/pax (English)
 description: "Archiving and copying utility."
 content_hash: c7a4c3a2284a217be8679baff46d8264b47e46a2
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pax
 

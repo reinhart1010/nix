@@ -3,11 +3,12 @@ layout: page
 title: common/az-apim (English)
 description: "Manage Azure API Management services."
 content_hash: 8981ae06e3fbe8edf8dfede7a9b97bb13fce3290
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/az-apim.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # az apim
 

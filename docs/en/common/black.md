@@ -3,7 +3,7 @@ layout: page
 title: common/black (English)
 description: "A Python auto code formatter."
 content_hash: 30f233267509b7284fe654c639ad6c2009261a1c
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/black.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/black.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # black
 

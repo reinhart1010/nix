@@ -3,12 +3,10 @@ layout: page
 title: common/cb (English)
 description: "Cut, copy, and paste anything in the terminal."
 content_hash: 9a0a77f2072c8406065c85bfe3cb9163c57821c5
-last_modified_at: 2023-06-24
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cb
+# cb
 
 Cut, copy, and paste anything in the terminal.
 More information: <https://github.com/Slackadays/Clipboard>.

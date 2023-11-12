@@ -3,7 +3,7 @@ layout: page
 title: osx/as (English)
 description: "Portable GNU assembler."
 content_hash: ee1dcb0e71914c1d59a7abe8fdda6bd4a42ec783
-last_modified_at: 2023-02-19
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/osx/as.html
@@ -17,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/as.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # as
 

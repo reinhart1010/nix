@@ -3,6 +3,7 @@ layout: page
 title: common/ansible (português (Brasil))
 description: "Gerencia grupos de computadores remotamente utilizando SSH. (use o arquivo `/etc/ansible/hosts` para adicionar novos grupos/hosts)."
 content_hash: fa660ecd549c766a7cf0bbb294b7d0b500dd9362
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible.html
@@ -22,11 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ansible.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ansible
+# ansible
 
 Gerencia grupos de computadores remotamente utilizando SSH. (use o arquivo `/etc/ansible/hosts` para adicionar novos grupos/hosts).
 Alguns subcomando como `ansible galaxy` possuis a própria documentação de uso.

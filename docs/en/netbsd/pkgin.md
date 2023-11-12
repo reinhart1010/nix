@@ -3,7 +3,12 @@ layout: page
 title: netbsd/pkgin (English)
 description: "Manage `pkgsrc` binary packages on NetBSD."
 content_hash: 57e20dbd58db2ac0a929036c7c60a09ed13ff4ac
-last_modified_at: 2023-10-30
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Nederlands version
+    url: /nl/netbsd/pkgin.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pkgin
 

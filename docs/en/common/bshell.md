@@ -3,6 +3,8 @@ layout: page
 title: common/bshell (English)
 description: "A GUI tool for browsing for SSH/VNC servers on the local network."
 content_hash: 9449351dcde7cdf5063b77944b4803a198c32f93
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # bshell
 

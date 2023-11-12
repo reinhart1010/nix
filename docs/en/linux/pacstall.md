@@ -3,7 +3,8 @@ layout: page
 title: linux/pacstall (English)
 description: "An AUR package manager for Ubuntu."
 content_hash: ba656d354a14ba0ac87a722d05142854888b8e4d
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pacstall
 

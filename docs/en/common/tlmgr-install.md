@@ -3,6 +3,8 @@ layout: page
 title: common/tlmgr-install (English)
 description: "Install TeX Live packages."
 content_hash: 5873703efcb236a30ebf123f0311423f6fb37547
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tlmgr install
 

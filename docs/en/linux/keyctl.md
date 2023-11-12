@@ -3,7 +3,8 @@ layout: page
 title: linux/keyctl (English)
 description: "Manipulate the Linux kernel keyring."
 content_hash: 2dd5a8ca9583d1464b897506764821aee5c63f6e
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # keyctl
 

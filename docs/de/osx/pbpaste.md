@@ -3,21 +3,26 @@ layout: page
 title: osx/pbpaste (Deutsch)
 description: "Sende den Inhalt der Zwischenablage zum Standardoutput."
 content_hash: 2bcca8dae805160eff61da5e2d1077c2139ae76a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/pbpaste.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/pbpaste.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/osx/pbpaste.html
+    icon: bi bi-globe
+  - title: ไทย version
+    url: /th/osx/pbpaste.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/pbpaste.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pbpaste
+# pbpaste
 
 Sende den Inhalt der Zwischenablage zum Standardoutput.
 Weitere Informationen: <https://ss64.com/osx/pbpaste.html>.

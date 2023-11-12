@@ -3,11 +3,12 @@ layout: page
 title: common/rg (Türkçe)
 description: "Ripgrep, yinelemeli satır-odaklı bir CLI arama aracıdır."
 content_hash: 53478f1df77298f7fc771108226f239a2b3ce06a
-last_modified_at: 2023-04-10
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/rg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rg
 

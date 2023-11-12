@@ -3,16 +3,14 @@ layout: page
 title: linux/xbps-query (Nederlands)
 description: "XBPS hulpprogramma om te zoeken naar een pakket en repository informatie."
 content_hash: 5101f2781a5ba4111cbb61ae182b6edacefcd5ec
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/xbps-query.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># xbps-query
+# xbps-query
 
 XBPS hulpprogramma om te zoeken naar een pakket en repository informatie.
 Bekijk ook: `xbps`.

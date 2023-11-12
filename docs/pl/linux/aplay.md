@@ -3,7 +3,7 @@ layout: page
 title: linux/aplay (polski)
 description: "Konsolowy odtwarzacz dźwięku dla sterownika dźwiękowego ALSA."
 content_hash: 51d32f398dc7bcb632bba1900c476623afd0b13a
-last_modified_at: 2023-10-23
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/aplay.html
@@ -14,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/aplay.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aplay
 

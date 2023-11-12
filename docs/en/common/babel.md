@@ -3,10 +3,13 @@ layout: page
 title: common/babel (English)
 description: "A transpiler which converts code from JavaScript ES6/ES7 syntax to ES5 syntax."
 content_hash: ff39569eaeb0f7bd6083548a6df117d06b58e3db
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/babel.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/common/babel.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/babel.html
@@ -20,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/babel.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # babel
 

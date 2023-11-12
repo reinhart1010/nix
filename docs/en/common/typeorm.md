@@ -3,6 +3,8 @@ layout: page
 title: common/typeorm (English)
 description: "A JavaScript ORM that can run on Node.js, browser, Cordova, Ionic, React Native, NativeScript, and Electron platforms."
 content_hash: ffbdac938d6f300d361fb0f9caeba02cc1defc6d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # typeorm
 

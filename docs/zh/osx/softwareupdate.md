@@ -3,6 +3,7 @@ layout: page
 title: osx/softwareupdate (中文)
 description: "通过命令行更新 macOS 应用商店中应用程序的工具。"
 content_hash: ddb2014f2c93243d666d64e98a4e62de2c4656ab
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/softwareupdate.html
@@ -10,6 +11,7 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/osx/softwareupdate.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # softwareupdate
 

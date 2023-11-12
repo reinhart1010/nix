@@ -3,11 +3,10 @@ layout: page
 title: common/xe (English)
 description: "Execute a command once for each line piped from another command or file."
 content_hash: 216398c812f6adcd77a78186dae10dcb644057c0
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># xe
+# xe
 
 Execute a command once for each line piped from another command or file.
 More information: <https://github.com/leahneukirchen/xe>.

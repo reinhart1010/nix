@@ -3,6 +3,7 @@ layout: page
 title: linux/usermod (català)
 description: "Modifica una conta d'usuari."
 content_hash: 37528362ab991b3d439d0f7126e0ee03abed2fb7
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/usermod.html
@@ -13,6 +14,7 @@ related_topics:
   - title: français version
     url: /fr/linux/usermod.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # usermod
 

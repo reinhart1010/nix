@@ -3,16 +3,14 @@ layout: page
 title: common/argocd (한국어)
 description: "Argo CD 서버를 제어하는 명령줄 인터페이스."
 content_hash: 2928a845b9f2d16e5cfc3c1ae98b34aab8fb9b31
-last_modified_at: 2023-11-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/argocd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># argocd
+# argocd
 
 Argo CD 서버를 제어하는 명령줄 인터페이스.
 `argocd app`과 같은 일부 하위 명령에는 자체 사용 문서가 있습니다.

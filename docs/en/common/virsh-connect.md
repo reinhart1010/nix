@@ -3,6 +3,15 @@ layout: page
 title: common/virsh-connect (English)
 description: "Connect to a virtual machine hypervisor."
 content_hash: 9cf9fc654be59434ebe693955832dfc047ec2ce4
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/virsh-connect.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/virsh-connect.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # virsh-connect
 

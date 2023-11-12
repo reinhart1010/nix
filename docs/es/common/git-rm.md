@@ -3,6 +3,7 @@ layout: page
 title: common/git-rm (español)
 description: "Elimina archivos del índice del repositorio y del sistema de archivos local."
 content_hash: 259eb1a3b99ee14118a44ec81bbcdf1442f1162d
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-rm.html
@@ -16,6 +17,13 @@ related_topics:
   - title: italiano version
     url: /it/common/git-rm.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-rm.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-rm.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git rm
 

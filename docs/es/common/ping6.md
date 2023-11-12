@@ -3,7 +3,7 @@ layout: page
 title: common/ping6 (español)
 description: "Envía paquetes ICMP ECHO_REQUEST (pings) a hosts de la red usando direcciones IPv6."
 content_hash: 6fea38fd24a3e2866e6f6213feef5330977430e9
-last_modified_at: 2023-02-13
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ping6.html
@@ -11,11 +11,9 @@ related_topics:
   - title: English version
     url: /en/common/ping6.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ping6
+# ping6
 
 Envía paquetes ICMP ECHO_REQUEST (pings) a hosts de la red usando direcciones IPv6.
 Más información: <https://manned.org/ping6>.

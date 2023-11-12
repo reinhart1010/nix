@@ -3,6 +3,7 @@ layout: page
 title: common/dotnet-build (polski)
 description: "Buduj aplikacje .NET i ich zależności."
 content_hash: 2fcec16a8d243a34116e6a4466376dd9a9c17a88
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/dotnet-build.html
@@ -13,6 +14,7 @@ related_topics:
   - title: русский version
     url: /ru/common/dotnet-build.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dotnet build
 

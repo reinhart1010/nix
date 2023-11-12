@@ -3,10 +3,12 @@ layout: page
 title: common/sum (தமிழ்)
 description: "கோப்பின் சரிகாண்தொகையைக் கணித்து அதில் எத்தனைத் தொகுதிகளுள்ளன என்றெண்ணு."
 content_hash: 41066157709f180063a68d8c3b9a14d76ec5c34d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/sum.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sum
 

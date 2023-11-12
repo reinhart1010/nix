@@ -3,6 +3,8 @@ layout: page
 title: common/msbuild (English)
 description: "The Microsoft build tool for Visual Studio project solutions."
 content_hash: c9fbd4e7f2fb6c0f29d0afdb637e7ba9757924b9
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # msbuild
 

@@ -3,6 +3,8 @@ layout: page
 title: common/plocate (English)
 description: "Find filenames quickly."
 content_hash: a581c0522b661c3e2ce150ec3708a035b77e32c5
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # plocate
 

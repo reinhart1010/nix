@@ -3,11 +3,10 @@ layout: page
 title: common/projucer (English)
 description: "A project manager for JUCE framework applications."
 content_hash: e6896ee2dad37ef348cc9dfa8007dd122683ce15
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># Projucer
+# Projucer
 
 A project manager for JUCE framework applications.
 More information: <https://juce.com/discover/stories/projucer-manual#10.4-command-line-tools>.

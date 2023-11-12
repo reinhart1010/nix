@@ -3,15 +3,17 @@ layout: page
 title: linux/mkfs.ext4 (Indonesia)
 description: "Membuat sistem file ext4 didalam sebuah partisi."
 content_hash: b0d39692ceb8cb87fb378ebe87509ae0689274ae
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/mkfs.ext4.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/mkfs.ext4.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mkfs.ext4
+# mkfs.ext4
 
 Membuat sistem file ext4 didalam sebuah partisi.
 Informasi lebih lanjut: <https://manned.org/mkfs.ext4>.

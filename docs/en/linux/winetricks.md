@@ -3,6 +3,8 @@ layout: page
 title: linux/winetricks (English)
 description: "Manage Wine virtual Windows environments."
 content_hash: e504c2f439cfbac428915f8a32b892e1103dd28d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # winetricks
 

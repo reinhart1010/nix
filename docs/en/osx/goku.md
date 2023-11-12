@@ -3,12 +3,10 @@ layout: page
 title: osx/goku (English)
 description: "Manage Karabiner configuration."
 content_hash: d0c0f96a004a971c7ecb51eac547a7a2e80233a0
-last_modified_at: 2023-10-01
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># goku
+# goku
 
 Manage Karabiner configuration.
 More information: <https://github.com/yqrashawn/GokuRakuJoudo>.

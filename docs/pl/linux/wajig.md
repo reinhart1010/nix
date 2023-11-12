@@ -3,15 +3,14 @@ layout: page
 title: linux/wajig (polski)
 description: "Uproszczone narzędzie do zarządzania pakietami dla systemów oparych na Debianie."
 content_hash: 2a6189c4937102acc6d60d1d0f8398da739ca343
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/wajig.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># wajig
+# wajig
 
 Uproszczone narzędzie do zarządzania pakietami dla systemów oparych na Debianie.
 Więcej informacji: <https://wajig.togaware.com>.

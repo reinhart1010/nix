@@ -3,10 +3,15 @@ layout: page
 title: osx/launchctl (中文)
 description: "用于启动守护程序（系统范围的服务）和启动代理程序（每个用户程序）的命令行界面，该界面指向苹果的`launchd` 管理工具。"
 content_hash: e87c7cc776e6108ca8ba357654b3cc2251a9b11d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/launchctl.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/osx/launchctl.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # launchctl
 

@@ -3,6 +3,8 @@ layout: page
 title: common/shc (English)
 description: "Generic shell script compiler."
 content_hash: 68295f672b3fcc653faeacb46c7e7c1f71e61663
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # shc
 

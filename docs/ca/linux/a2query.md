@@ -3,12 +3,16 @@ layout: page
 title: linux/a2query (català)
 description: "Recupera la configuració del temps d'execució d'Apache en sistemes operatius basats en Debian."
 content_hash: 9ee6559386d4b436aa0cc90beb0ba1c1284833f7
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/a2query.html
     icon: bi bi-globe
   - title: English version
     url: /en/linux/a2query.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/a2query.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/a2query.html
@@ -22,9 +26,13 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/linux/a2query.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/linux/a2query.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/a2query.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # a2query
 

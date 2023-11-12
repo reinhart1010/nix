@@ -3,6 +3,8 @@ layout: page
 title: linux/qm-cleanup (English)
 description: "Clean up resources on QEMU/KVM Virtual Machine Manager like tap devices, VGPUs, etc."
 content_hash: 091ca67c5c5d3c48e8f34b6d769f7d60c2283d03
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # qm cleanup
 

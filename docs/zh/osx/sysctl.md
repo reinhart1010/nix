@@ -3,10 +3,12 @@ layout: page
 title: osx/sysctl (中文)
 description: "访问内核状态信息。"
 content_hash: 99dc30a82e50e29711b86274a1fa9b0571970af8
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/sysctl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sysctl
 

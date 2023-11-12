@@ -3,10 +3,13 @@ layout: page
 title: common/clamscan (한국어)
 description: "바이러스 검사를 하는 줄 명령어."
 content_hash: dbb1c02091e29ca22cf953075efa2766915cf1ed
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/clamscan.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/clamscan.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/clamscan.html
@@ -14,6 +17,7 @@ related_topics:
   - title: ไทย version
     url: /th/common/clamscan.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # clamscan
 

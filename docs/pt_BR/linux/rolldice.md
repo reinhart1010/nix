@@ -3,10 +3,12 @@ layout: page
 title: linux/rolldice (português (Brasil))
 description: "Rola dados virtuais."
 content_hash: 54e1ed5b4fdcbcff3789ca1e16566b7965945836
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/rolldice.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rolldice
 

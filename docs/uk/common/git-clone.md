@@ -3,6 +3,7 @@ layout: page
 title: common/git-clone (українська)
 description: "Клонує репозиторій, що існує."
 content_hash: 3386e26a8399845a71b6b0dae157bafabec3998e
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-clone.html
@@ -25,6 +26,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/git-clone.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-clone.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-clone.html
     icon: bi bi-globe
@@ -34,11 +38,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/git-clone.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git clone
+# git clone
 
 Клонує репозиторій, що існує.
 Більше інформації: <https://git-scm.com/docs/git-clone>.

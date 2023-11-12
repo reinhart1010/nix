@@ -3,6 +3,7 @@ layout: page
 title: common/docker-service (Deutsch)
 description: "Verwalte Docker Services."
 content_hash: a55c748a6fcc9cad0c84e4438e884d353fa7ab16
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/docker-service.html
@@ -10,9 +11,13 @@ related_topics:
   - title: français version
     url: /fr/common/docker-service.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/docker-service.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/docker-service.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker service
 

@@ -3,12 +3,10 @@ layout: page
 title: common/gladtex (English)
 description: "A LaTeX formula preprocessor for HTML files."
 content_hash: 9e7f329eb6ce2b05c27103621c6ef6f52eaf9be5
-last_modified_at: 2023-10-10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gladtex
+# gladtex
 
 A LaTeX formula preprocessor for HTML files.
 It converts LaTeX formulas to images.

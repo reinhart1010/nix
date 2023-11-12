@@ -3,6 +3,8 @@ layout: page
 title: linux/esearch (English)
 description: "Perform a new Entrez search using terms in indexed fields."
 content_hash: 4da9cc5516628746793a2467f200198d44790154
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # esearch
 

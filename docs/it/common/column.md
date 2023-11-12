@@ -3,6 +3,7 @@ layout: page
 title: common/column (italiano)
 description: "Formatta standard input o un file in più colonne."
 content_hash: c1fa3542a5752e44ad6942f1c94775acaa1c0cc4
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/column.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/column.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # column
 

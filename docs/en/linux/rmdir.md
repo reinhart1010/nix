@@ -3,12 +3,14 @@ layout: page
 title: linux/rmdir (English)
 description: "Remove directories without files."
 content_hash: cfa157289587f8ccc207df0f2842c885fe2fc59a
-last_modified_at: 2023-01-07
+last_modified_at: 2023-11-12
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/linux/rmdir.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rmdir
+# rmdir
 
 Remove directories without files.
 See also: `rm`.

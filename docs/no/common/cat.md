@@ -1,8 +1,9 @@
 ---
 layout: page
-title: common/cat (norsk bokmål (Norge))
+title: common/cat (norsk)
 description: "Skriv ut og sammenføy filer."
 content_hash: 57b23b29f4d8f85d31d737890a5fce1ceefead89
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -28,8 +29,14 @@ related_topics:
   - title: italiano version
     url: /it/common/cat.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/cat.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/cat.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/cat.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/cat.html
@@ -37,12 +44,16 @@ related_topics:
   - title: русский version
     url: /ru/common/cat.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/cat.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/cat.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/cat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cat
 

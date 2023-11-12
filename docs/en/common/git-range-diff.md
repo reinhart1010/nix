@@ -3,6 +3,8 @@ layout: page
 title: common/git-range-diff (English)
 description: "Compare two commit ranges (e.g. two versions of a branch)."
 content_hash: bf5fb7902f3b6dc844c08867805979e683c01cbd
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git range-diff
 

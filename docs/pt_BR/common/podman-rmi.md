@@ -3,16 +3,14 @@ layout: page
 title: common/podman-rmi (português (Brasil))
 description: "Remover uma ou mais imagens do Podman."
 content_hash: 204ff427be33fd7b8680586aee88ac83b5038dcc
-last_modified_at: 2023-09-18
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/podman-rmi.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># podman rmi
+# podman rmi
 
 Remover uma ou mais imagens do Podman.
 Mais informações: <https://docs.podman.io/en/latest/markdown/podman-rmi.1.html>.

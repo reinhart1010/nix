@@ -3,7 +3,8 @@ layout: page
 title: common/licensor (English)
 description: "Write licenses to `stdout`."
 content_hash: 9498bb4e385038a2a62542449a1064c922764b3b
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # licensor
 

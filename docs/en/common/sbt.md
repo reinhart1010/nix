@@ -3,6 +3,8 @@ layout: page
 title: common/sbt (English)
 description: "Build tool for Scala and Java projects."
 content_hash: e9205de405b55eca269dcb8ff50914f4f82433bc
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sbt
 

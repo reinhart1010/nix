@@ -3,10 +3,15 @@ layout: page
 title: windows/getmac (English)
 description: "Display the MAC addresses of a system."
 content_hash: 36d82a52e8fad9958010ac4c6a3be3769e053bf5
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/windows/getmac.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/getmac.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # getmac
 

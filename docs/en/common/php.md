@@ -3,11 +3,15 @@ layout: page
 title: common/php (English)
 description: "PHP command-line interface."
 content_hash: 37247a1f0380ee73f1d0fbda729b61c2f0f5d40a
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/php.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/php.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # php
 

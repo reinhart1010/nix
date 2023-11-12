@@ -3,10 +3,12 @@ layout: page
 title: common/eval (中文)
 description: "在当前 shell 中以单个命令的形式执行参数，并返回其结果。"
 content_hash: b96020c22b081a1d84d61fc1db1a8e8d9dbb89fa
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/eval.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # eval
 

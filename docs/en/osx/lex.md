@@ -3,7 +3,12 @@ layout: page
 title: osx/lex (English)
 description: "Lexical analyzer generator."
 content_hash: 413f554c8d85b3b09803a88b3e58e78804907782
-last_modified_at: 2023-04-10
+last_modified_at: 2023-11-12
+related_topics:
+  - title: español version
+    url: /es/osx/lex.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lex
 

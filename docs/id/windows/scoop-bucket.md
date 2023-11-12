@@ -3,6 +3,7 @@ layout: page
 title: windows/scoop-bucket (Indonesia)
 description: "Mengelola bucket: Repository Git yang berisi berkas yang menjelaskan bagaimana scoop menginstall aplikasi."
 content_hash: 885f040ab24b00811e3c6fa93316b04c17e690cf
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/scoop-bucket.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/scoop-bucket.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # scoop bucket
 

@@ -3,6 +3,8 @@ layout: page
 title: common/dolt-init (English)
 description: "Create an empty Dolt data repository."
 content_hash: b0627bd12bc00b6c495be02ea7626eec58d5505f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dolt init
 

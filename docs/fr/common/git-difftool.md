@@ -3,6 +3,7 @@ layout: page
 title: common/git-difftool (français)
 description: "Afficher les modifications apportées aux fichiers à l'aide d'outils de comparaison externes. Accepte les mêmes options et arguments que Git diff."
 content_hash: 53047e28e657887effcd59596c8a3954fe783387
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-difftool.html
@@ -10,6 +11,10 @@ related_topics:
   - title: italiano version
     url: /it/common/git-difftool.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-difftool.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git difftool
 

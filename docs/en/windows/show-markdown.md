@@ -3,7 +3,8 @@ layout: page
 title: windows/show-markdown (English)
 description: "Shows a Markdown file or string in the console in a friendly way using VT100 escape sequences or in a browser using HTML."
 content_hash: 1f0b68fd0e14311c13892ef1f87e0fd03c38c997
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # Show-Markdown
 

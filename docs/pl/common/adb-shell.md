@@ -3,15 +3,28 @@ layout: page
 title: common/adb-shell (polski)
 description: "Android Debug Bridge Shell: uruchamiaj zdalne polecenia powłoki na instancji emulatora Androida lub podłączonych urządzeniach z Androidem."
 content_hash: 7bda118883be2dedddc4d0baaed1e559beedca11
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/adb-shell.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/adb-shell.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/adb-shell.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/common/adb-shell.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/adb-shell.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/adb-shell.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/adb-shell.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/adb-shell.html
@@ -22,6 +35,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/adb-shell.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # adb shell
 

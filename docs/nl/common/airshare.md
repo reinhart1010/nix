@@ -3,11 +3,12 @@ layout: page
 title: common/airshare (Nederlands)
 description: "Gegevens overdragen tussen twee machines in een lokaal netwerk."
 content_hash: 0ae0960588797e21ec39e528e28ffdf1edcc7d0b
-last_modified_at: 2023-10-19
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/airshare.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # airshare
 

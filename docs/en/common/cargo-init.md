@@ -3,12 +3,10 @@ layout: page
 title: common/cargo-init (English)
 description: "Create a new Cargo package."
 content_hash: 220036df4da0f154f5abb18d55213e60ab1892f5
-last_modified_at: 2023-09-22
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cargo init
+# cargo init
 
 Create a new Cargo package.
 Equivalent of `cargo new`, but specifiying a directory is optional.

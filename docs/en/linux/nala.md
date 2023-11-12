@@ -3,7 +3,8 @@ layout: page
 title: linux/nala (English)
 description: "Package management Utility."
 content_hash: b793fbe694881b5fb87b746cf3dfe813191152f2
-last_modified_at: 2023-05-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # nala
 

@@ -3,7 +3,7 @@ layout: page
 title: linux/ubuntu-bug (नेपाली)
 description: "यो आदेश `apport-bug` को उपनाम हो |"
 content_hash: 183d61673d8e81328a9e0bc888c128da8d514997
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/linux/ubuntu-bug.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/linux/ubuntu-bug.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ubuntu-bug
 

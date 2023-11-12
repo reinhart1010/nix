@@ -3,12 +3,10 @@ layout: page
 title: common/macchina (English)
 description: "Display information about your computer."
 content_hash: 663f88af505005e21d4508525f2376e84807ab2a
-last_modified_at: 2023-07-10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># macchina
+# macchina
 
 Display information about your computer.
 More information: <https://github.com/Macchina-CLI/macchina>.

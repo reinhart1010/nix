@@ -3,12 +3,14 @@ layout: page
 title: linux/just.js (English)
 description: "A V8 JavaScript runtime for Linux."
 content_hash: 31e2ffeb39f9430fb502c03199f87287a030bb21
-last_modified_at: 2023-10-08
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Nederlands version
+    url: /nl/linux/just.js.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># just
+# just
 
 A V8 JavaScript runtime for Linux.
 More information: <https://github.com/just-js/just>.

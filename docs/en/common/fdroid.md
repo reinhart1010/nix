@@ -3,10 +3,12 @@ layout: page
 title: common/fdroid (English)
 description: "F-Droid build tool."
 content_hash: 652313250542d945f7758be2623b4227e998911a
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/fdroid.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fdroid
 

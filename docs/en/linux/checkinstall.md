@@ -3,6 +3,8 @@ layout: page
 title: linux/checkinstall (English)
 description: "Track the local installation of a software package, and produce a binary package which can be used with a system's native package manager."
 content_hash: f7e26a20c8209e2887e38a39d1f2b10153efa1f9
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # checkinstall
 

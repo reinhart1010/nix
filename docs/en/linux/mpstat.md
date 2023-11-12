@@ -3,6 +3,8 @@ layout: page
 title: linux/mpstat (English)
 description: "Report CPU statistics."
 content_hash: 1761376ee1df9d2c6309f28b6eb458c872b801ca
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mpstat
 

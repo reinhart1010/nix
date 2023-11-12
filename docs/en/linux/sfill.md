@@ -3,6 +3,8 @@ layout: page
 title: linux/sfill (English)
 description: "Securely overwrite the free space and inodes of the partition where the specified directory resides."
 content_hash: 524985998d00eb45512cc0745a06a4bcdb37ee5b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sfill
 

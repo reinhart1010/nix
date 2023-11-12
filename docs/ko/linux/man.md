@@ -3,7 +3,7 @@ layout: page
 title: linux/man (한국어)
 description: "참조 페이지 뷰어 유틸리티입니다."
 content_hash: b6b792439309a1cbd40483ce390810213e3a87a9
-last_modified_at: 2023-10-27
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/man.html
@@ -29,11 +29,9 @@ related_topics:
   - title: українська version
     url: /uk/linux/man.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># man
+# man
 
 참조 페이지 뷰어 유틸리티입니다.
 더 많은 정보: <https://manned.org/man>.

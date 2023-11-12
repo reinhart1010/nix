@@ -3,6 +3,8 @@ layout: page
 title: common/git-sync (English)
 description: "Sync local branches with remote branches."
 content_hash: f58d5d15c5a0e80313d88653d2ea442665325cef
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git sync
 

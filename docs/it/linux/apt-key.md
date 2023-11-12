@@ -3,7 +3,11 @@ layout: page
 title: linux/apt-key (italiano)
 description: "Servizio di gestione delle chiavi per il gestore di pacchetti APT su Debian ed Ubuntu."
 content_hash: d63140f658d86b4c5a154b0b1cc148985054b4d8
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/apt-key.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/apt-key.html
     icon: bi bi-globe
@@ -13,12 +17,16 @@ related_topics:
   - title: español version
     url: /es/linux/apt-key.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/apt-key.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/apt-key.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apt-key.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apt-key
 

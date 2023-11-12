@@ -3,9 +3,13 @@ layout: page
 title: common/apktool (français)
 description: "Outil de Rétro-ingénierie pour les fichier APK."
 content_hash: b7599243db24a9d6c51bb8bbcf608fc85d10ea60
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/apktool.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/apktool.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/apktool.html
@@ -13,14 +17,15 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/apktool.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/apktool.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/apktool.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># apktool
+# apktool
 
 Outil de Rétro-ingénierie pour les fichier APK.
 Plus d'informations : <https://ibotpeaches.github.io/Apktool/>.

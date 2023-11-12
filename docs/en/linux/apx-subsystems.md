@@ -3,12 +3,14 @@ layout: page
 title: linux/apx-subsystems (English)
 description: "Manage subsystems in `apx`."
 content_hash: 583cfea86b8d1c5aebf58212e236a4867cc2b929
-last_modified_at: 2023-09-20
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Nederlands version
+    url: /nl/linux/apx-subsystems.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># apx subsystems
+# apx subsystems
 
 Manage subsystems in `apx`.
 Subsystems are containers that can be created based on pre-existing stacks.

@@ -3,12 +3,10 @@ layout: page
 title: common/brew-install (English)
 description: "Install a Homebrew formula or cask."
 content_hash: fafdb7a35195890053060b2d08cd326cb7e8c14e
-last_modified_at: 2023-11-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># brew install
+# brew install
 
 Install a Homebrew formula or cask.
 More information: <https://docs.brew.sh/Manpage#install-options-formulacask->.

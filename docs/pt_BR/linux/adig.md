@@ -3,16 +3,17 @@ layout: page
 title: linux/adig (português (Brasil))
 description: "Imprime informações recebidas dos servidores do Sistema de Domínio de Nome(DNS)."
 content_hash: 45da573dc445918c2fc4b8f60e06ffdfcb7d5272
-last_modified_at: 2023-01-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/adig.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/adig.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># adig
+# adig
 
 Imprime informações recebidas dos servidores do Sistema de Domínio de Nome(DNS).
 Mais informações: <https://manned.org/adig>.

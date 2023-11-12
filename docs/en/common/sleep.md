@@ -3,7 +3,7 @@ layout: page
 title: common/sleep (English)
 description: "Delay for a specified amount of time."
 content_hash: 70b30aaa4d56500f4ef8c477bbda147da3684403
-last_modified_at: 2023-02-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/sleep.html
@@ -20,6 +20,7 @@ related_topics:
   - title: svenska version
     url: /sv/common/sleep.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sleep
 

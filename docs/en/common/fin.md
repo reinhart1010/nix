@@ -3,6 +3,8 @@ layout: page
 title: common/fin (English)
 description: "Docksal command-line utility."
 content_hash: 1c5f81033d8d947a96aee3d8a64062c2159aa443
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fin
 

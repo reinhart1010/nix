@@ -3,7 +3,7 @@ layout: page
 title: common/virsh-domblklist (한국어)
 description: "가상 머신과 연결된 블록 장치에 대한 정보 나열."
 content_hash: 9fb8643651bb37838eaf3022f9a26900e07fa11c
-last_modified_at: 2023-10-22
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/virsh-domblklist.html
@@ -11,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/virsh-domblklist.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # virsh-domblklist
 

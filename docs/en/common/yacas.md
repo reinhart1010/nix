@@ -3,6 +3,8 @@ layout: page
 title: common/yacas (English)
 description: "Yet Another Computer Algebra System."
 content_hash: 163a51629f70f49c879f81f319e2a3ca8ace5e62
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # yacas
 

@@ -3,10 +3,15 @@ layout: page
 title: osx/mas (中文)
 description: "Mac 应用商店的命令行界面。"
 content_hash: 4c22ea37dd036fa24554b41335175246fecf32f3
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/mas.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/mas.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mas
 

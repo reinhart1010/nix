@@ -3,7 +3,8 @@ layout: page
 title: common/gnatprep (English)
 description: "Preprocessor for Ada source code files (part of the GNAT toolchain)."
 content_hash: aed24eedc0fa2f234c2a939f533c7aca3dcea49b
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gnatprep
 

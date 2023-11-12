@@ -3,6 +3,8 @@ layout: page
 title: linux/mkisofs (English)
 description: "Create ISO files from directories."
 content_hash: 78b030cb875c64eb6a1511e888aafeda6efd9caf
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mkisofs
 

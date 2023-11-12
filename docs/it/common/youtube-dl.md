@@ -3,13 +3,21 @@ layout: page
 title: common/youtube-dl (italiano)
 description: "Scarica video da YouTube ed altri siti web."
 content_hash: d0b1e733bd03bb383b1d7ab1b0e099297ac2da1e
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/common/youtube-dl.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/youtube-dl.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/youtube-dl.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/youtube-dl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # youtube-dl
 

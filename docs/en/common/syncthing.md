@@ -3,6 +3,8 @@ layout: page
 title: common/syncthing (English)
 description: "Continuous bidirectional decentralised folder synchronisation tool."
 content_hash: 6b2b755a9adce723045b150d334fb698cf49f11c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # syncthing
 

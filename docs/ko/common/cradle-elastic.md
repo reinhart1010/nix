@@ -3,6 +3,7 @@ layout: page
 title: common/cradle-elastic (한국어)
 description: "Cradle 인스턴스의 ElasticSearch 인스턴스 관리."
 content_hash: fbe0c1b5a7e08f6508ba110af2ea9395812a300a
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/cradle-elastic.html
@@ -13,6 +14,7 @@ related_topics:
   - title: italiano version
     url: /it/common/cradle-elastic.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cradle elastic
 

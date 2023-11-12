@@ -3,7 +3,8 @@ layout: page
 title: common/pngcheck (English)
 description: "Print detailed information about and verify PNG, JNG, and MNG files."
 content_hash: a435ec9f93b13709d2a572f6c706fb8eac08d3ff
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pngcheck
 

@@ -3,6 +3,8 @@ layout: page
 title: common/julia (English)
 description: "A high-level, high-performance dynamic programming language for technical computing."
 content_hash: 74ef029ff191bdf514381799244f3eadef607539
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # julia
 

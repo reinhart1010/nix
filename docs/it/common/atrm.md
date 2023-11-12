@@ -3,13 +3,18 @@ layout: page
 title: common/atrm (italiano)
 description: "Rimuovi job programmati dai comandi `at` o `batch`."
 content_hash: 68916c9379be9099ad675e62eb64099023a653c4
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/atrm.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/atrm.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/common/atrm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # atrm
 

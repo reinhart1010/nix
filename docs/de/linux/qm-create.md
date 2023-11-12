@@ -3,10 +3,12 @@ layout: page
 title: linux/qm-create (Deutsch)
 description: "Erzeugung einer virtuellen Maschine per QEMU/KVM Virtual Machine Manager."
 content_hash: 9f734ce9d255d6809d019ea327f13051e91ed8fc
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/qm-create.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # qm create
 

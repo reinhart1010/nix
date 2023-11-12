@@ -3,9 +3,16 @@ layout: page
 title: common/history (English)
 description: "Command-line history."
 content_hash: f24cb7cb99e92fecbc2cb60fad446669f9b3e7f1
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/history.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/history.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/history.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/history.html
@@ -13,6 +20,10 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/history.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/history.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # history
 

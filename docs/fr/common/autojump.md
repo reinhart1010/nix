@@ -3,9 +3,13 @@ layout: page
 title: common/autojump (français)
 description: "Accède rapidement aux dossiers que vous visitez le plus."
 content_hash: cad83c3557446015815771e44e8241639afcf1b1
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/autojump.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/autojump.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/autojump.html
@@ -13,11 +17,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/autojump.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># autojump
+# autojump
 
 Accède rapidement aux dossiers que vous visitez le plus.
 Les alias comme j or jc sont fournis pour simplifier leurs utilisation.

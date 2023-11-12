@@ -3,6 +3,8 @@ layout: page
 title: common/mpd (English)
 description: "Music Player Daemon."
 content_hash: c78e7fb7175925691f78e22e79f367bd754de9a6
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mpd
 

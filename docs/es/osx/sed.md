@@ -3,7 +3,7 @@ layout: page
 title: osx/sed (español)
 description: "Edita texto de manera programable."
 content_hash: 26ef20aca69a26d7fc57bd197e341dd59738fb75
-last_modified_at: 2023-10-30
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/sed.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/sed.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sed
 

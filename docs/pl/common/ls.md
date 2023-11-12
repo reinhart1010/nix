@@ -3,7 +3,7 @@ layout: page
 title: common/ls (polski)
 description: "Wypisz zawartość katalogu."
 content_hash: 4c9d690f5742f1d28f97d981da8835cc81c01237
-last_modified_at: 2023-11-01
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/common/ls.html
@@ -59,11 +59,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/ls.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ls
+# ls
 
 Wypisz zawartość katalogu.
 Więcej informacji: <https://www.gnu.org/software/coreutils/ls>.

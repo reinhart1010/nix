@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman-deptest (English)
 description: "Check each dependency specified and return a list of dependencies that are not currently satisfied on the system."
 content_hash: ee4e0b7e913e402a50d155af7fcfaec12fba80a3
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-deptest.html
@@ -17,6 +17,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/linux/pacman-deptest.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pacman --deptest
 

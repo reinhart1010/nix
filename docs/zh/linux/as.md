@@ -3,6 +3,7 @@ layout: page
 title: linux/as (中文)
 description: "一个可移植的 GUN 汇编器。"
 content_hash: 742948a104493541c1083b2c4c0ffdf2c2e168f4
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/as.html
@@ -10,9 +11,13 @@ related_topics:
   - title: English version
     url: /en/linux/as.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/as.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/as.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # as
 

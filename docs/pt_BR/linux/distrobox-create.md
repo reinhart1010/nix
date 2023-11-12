@@ -3,19 +3,20 @@ layout: page
 title: linux/distrobox-create (português (Brasil))
 description: "Criar um contêiner distrobox. Veja também: `tldr distrobox`."
 content_hash: 6a7a1c2f1d2a10da9a519bc791b09a9e6731c530
-last_modified_at: 2023-09-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/distrobox-create.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/distrobox-create.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/distrobox-create.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># distrobox-create
+# distrobox-create
 
 Criar um contêiner distrobox. Veja também: `tldr distrobox`.
 O contêiner criado será integrado ao sistema host, permitindo o compartilhamento do diretório HOME do usuário, armazenamento externo, dispositivos USB externos, aplicativos gráficos (X11/Wayland) e áudio.

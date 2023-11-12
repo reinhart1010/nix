@@ -3,12 +3,10 @@ layout: page
 title: common/aws-s3-rb (English)
 description: "Delete an empty S3 bucket."
 content_hash: 1147d086ff9cca37f9e847d4b6de0c2fd116dfb2
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws s3 rb
+# aws s3 rb
 
 Delete an empty S3 bucket.
 More information: <https://docs.aws.amazon.com/cli/latest/reference/s3/rb.html>.

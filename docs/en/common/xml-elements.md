@@ -3,6 +3,8 @@ layout: page
 title: common/xml-elements (English)
 description: "Extract elements and display the structure of an XML document."
 content_hash: 4ca0f61d1396f62e3d3b4f28306c26c6e12649a8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xml elements
 

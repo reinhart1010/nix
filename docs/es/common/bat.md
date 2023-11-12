@@ -3,6 +3,7 @@ layout: page
 title: common/bat (español)
 description: "Imprime y concatena archivos."
 content_hash: f6460141306c903a389f7c28f965e1ba32950e47
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html
@@ -25,12 +26,19 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/bat.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/bat.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/bat.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/bat.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/bat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bat
 

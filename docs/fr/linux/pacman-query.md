@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman-query (français)
 description: "Fais des requêtes dans la base de données des paquets installés."
 content_hash: a74eb57a13a4a0b48becd0da0e8240201272d3d9
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-query.html
@@ -14,9 +14,13 @@ related_topics:
   - title: Indonesia version
     url: /id/linux/pacman-query.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/pacman-query.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/pacman-query.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pacman --query
 

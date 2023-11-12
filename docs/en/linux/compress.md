@@ -3,7 +3,8 @@ layout: page
 title: linux/compress (English)
 description: "Compress files using the Unix `compress` command."
 content_hash: 6da176ac8ecd7fedc885fd8c8982900a1ef80b61
-last_modified_at: 2023-10-24
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # compress
 

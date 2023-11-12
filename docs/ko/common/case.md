@@ -3,7 +3,7 @@ layout: page
 title: common/case (한국어)
 description: "표현식의 값에 근거하여 분기."
 content_hash: a2c7952b60cfe9200652ce0b3469c3d38bc9c370
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/case.html
@@ -14,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/case.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # case
 

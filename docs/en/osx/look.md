@@ -3,11 +3,12 @@ layout: page
 title: osx/look (English)
 description: "Look for lines in sorted file."
 content_hash: ec8d36031f63b395d89c5f23364d82fc10d7f2d2
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/osx/look.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # look
 

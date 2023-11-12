@@ -3,6 +3,7 @@ layout: page
 title: linux/brctl (português (Brasil))
 description: "Administração de pontes de rede."
 content_hash: 8790c2648887dd4be6ad3ce1aaf0cf31201d7179
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/brctl.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/brctl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # brctl
 

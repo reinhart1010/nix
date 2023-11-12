@@ -3,11 +3,10 @@ layout: page
 title: linux/trashy (English)
 description: "An alternative to `rm` and `trash-cli` written in Rust."
 content_hash: d38e94db116e5973efc6c4e5daa8b9ab2e3f2155
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># trashy
+# trashy
 
 An alternative to `rm` and `trash-cli` written in Rust.
 More information: <https://github.com/oberblastmeister/trashy>.

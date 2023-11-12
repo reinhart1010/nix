@@ -3,6 +3,7 @@ layout: page
 title: common/tar (Türkçe)
 description: "Arşivleme aracı."
 content_hash: 249f50341458e39b46badf1cc16498a463de4043
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/tar.html
@@ -28,6 +29,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/tar.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tar
 

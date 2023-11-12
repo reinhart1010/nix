@@ -3,6 +3,7 @@ layout: page
 title: common/blackfire (italiano)
 description: "Strumento di profilazione da linea di comando per PHP."
 content_hash: 07a5cf8490ddbe092035a7d59eb666832b15a422
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/blackfire.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/blackfire.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # blackfire
 

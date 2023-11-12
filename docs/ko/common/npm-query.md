@@ -3,16 +3,14 @@ layout: page
 title: common/npm-query (한국어)
 description: "CSS와 유사한 선택자를 사용하여 의존성 객체 배열을 출력합니다."
 content_hash: f3223a35d9338bb75f46d3bbb42c86b821a9fb05
-last_modified_at: 2023-10-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/npm-query.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># npm query
+# npm query
 
 CSS와 유사한 선택자를 사용하여 의존성 객체 배열을 출력합니다.
 더 많은 정보: <https://docs.npmjs.com/cli/v8/commands/npm-query>.

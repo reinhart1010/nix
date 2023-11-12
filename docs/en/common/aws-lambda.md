@@ -3,6 +3,15 @@ layout: page
 title: common/aws-lambda (English)
 description: "CLI for AWS lambda."
 content_hash: f71dfaf813728be77cb0afd691690bbf30437900
+last_modified_at: 2023-11-12
+related_topics:
+  - title: français version
+    url: /fr/common/aws-lambda.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/aws-lambda.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws lambda
 

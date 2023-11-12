@@ -3,9 +3,13 @@ layout: page
 title: sunos/prctl (Türkçe)
 description: "Çalışan işlemlerin, görevlerin ve projelerin kaynak kontrollerini öğren veya belirle."
 content_hash: b7782fd35f20dbb1407606be9de96a743408c181
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/sunos/prctl.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/sunos/prctl.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/sunos/prctl.html
@@ -13,11 +17,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/sunos/prctl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># prctl
+# prctl
 
 Çalışan işlemlerin, görevlerin ve projelerin kaynak kontrollerini öğren veya belirle.
 Daha fazla bilgi için: <https://www.unix.com/man-page/sunos/1/prctl>.

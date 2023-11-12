@@ -3,6 +3,7 @@ layout: page
 title: linux/newgrp (polski)
 description: "Przełącza członkostwo podstawowej grupy."
 content_hash: 457464ea75dc1a5a4507ce53ec744bddf1b0d37e
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/newgrp.html
@@ -13,11 +14,9 @@ related_topics:
   - title: español version
     url: /es/linux/newgrp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># newgrp
+# newgrp
 
 Przełącza członkostwo podstawowej grupy.
 Więcej informacji: <https://manned.org/newgrp>.

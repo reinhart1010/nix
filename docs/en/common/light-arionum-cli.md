@@ -3,6 +3,8 @@ layout: page
 title: common/light-arionum-cli (English)
 description: "The PHP light wallet for the Arionum cryptocurrency."
 content_hash: f445a409f34c2fe16d73967b21c57be1b9b11d86
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # light-arionum-cli
 

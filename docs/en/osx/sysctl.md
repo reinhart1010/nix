@@ -3,10 +3,12 @@ layout: page
 title: osx/sysctl (English)
 description: "Access kernel state information."
 content_hash: b0b679d489b3529d81e0d583dc0757bafe12cef4
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/osx/sysctl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sysctl
 

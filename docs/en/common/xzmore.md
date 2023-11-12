@@ -3,12 +3,10 @@ layout: page
 title: common/xzmore (English)
 description: "Display text from `xz` or `lzma` compressed files."
 content_hash: ac1e51f769653d18e6faf8426869074a4e5de813
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># xzmore
+# xzmore
 
 Display text from `xz` or `lzma` compressed files.
 Almost equivalent to `xzless`, except it respects the `PAGER` environment variable, uses `more` by default and you cannot pass options to the pager.

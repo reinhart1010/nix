@@ -3,7 +3,8 @@ layout: page
 title: common/glab-mr (English)
 description: "Manage GitLab merge requests."
 content_hash: 6ee39ef28f2b805151772ddb42480c08c948af49
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # glab mr
 

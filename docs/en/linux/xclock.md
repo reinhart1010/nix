@@ -3,6 +3,8 @@ layout: page
 title: linux/xclock (English)
 description: "Display the time in analog or digital form."
 content_hash: a7361c7e4efe277ba4b2379df86f6604a7f6f4e5
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xclock
 

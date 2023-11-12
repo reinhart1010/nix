@@ -3,7 +3,8 @@ layout: page
 title: common/bison (English)
 description: "GNU parser generator."
 content_hash: 671a201c24d572499face01e821e10af9ff05113
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # bison
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/namei (English)
 description: "Follows a pathname (which can be a symbolic link) until a terminal point is found (a file/directory/char device etc)."
 content_hash: f642f8c2eec964df66f7e99da5d50c1763f8551e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # namei
 

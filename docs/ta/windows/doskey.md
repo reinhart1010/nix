@@ -3,18 +3,23 @@ layout: page
 title: windows/doskey (தமிழ்)
 description: "மேக்ரோக்கள், விண்டோஸ் கட்டளைகள் மற்றும் கட்டளை வரிகளை நிர்வகிக்கவும்."
 content_hash: 5ba15e80740d7e45d127c0587f4afbc2e7ad02b9
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/doskey.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/doskey.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/doskey.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/doskey.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># doskey
+# doskey
 
 மேக்ரோக்கள், விண்டோஸ் கட்டளைகள் மற்றும் கட்டளை வரிகளை நிர்வகிக்கவும்.
 மேலும் விவரத்திற்கு: <https://learn.microsoft.com/windows-server/administration/windows-commands/doskey>.

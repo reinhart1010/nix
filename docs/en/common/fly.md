@@ -3,6 +3,8 @@ layout: page
 title: common/fly (English)
 description: "Command-line tool for concourse-ci."
 content_hash: fb8e3bf52dd1b62d545a5387acd84c43d6faa387
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fly
 

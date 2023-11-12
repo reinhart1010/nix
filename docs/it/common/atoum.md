@@ -3,9 +3,13 @@ layout: page
 title: common/atoum (italiano)
 description: "Un semplice, moderno ed intuitivo framework PHP per unit testing."
 content_hash: adf12c4aa751cb4865e811b6c68210955560e023
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/atoum.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/atoum.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/atoum.html
@@ -13,6 +17,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/atoum.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # atoum
 

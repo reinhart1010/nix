@@ -3,7 +3,7 @@ layout: page
 title: windows/curl (বাংলা)
 description: "পাওয়ারশেলে, এই কমান্ডটি অরিজিনাল `curl` প্রোগ্রাম (<https://curl.se>) সঠিকভাবে ইনস্টল না থাকলে এটি `Invoke-WebRequest` এর এলিয়াস হতে পারে।"
 content_hash: c125bea8866f083f626085ede669b57d491c6b99
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/curl.html
@@ -92,6 +92,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/curl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # curl
 

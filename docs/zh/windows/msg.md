@@ -3,6 +3,7 @@ layout: page
 title: windows/msg (中文)
 description: "向指定的用户或会话发送信息。"
 content_hash: 67e2cdb0d4bbae5377cbd92bc646179911269496
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/msg.html
@@ -10,6 +11,7 @@ related_topics:
   - title: polski version
     url: /pl/windows/msg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # msg
 

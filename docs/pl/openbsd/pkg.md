@@ -3,7 +3,7 @@ layout: page
 title: openbsd/pkg (polski)
 description: "Menedżer pakietów OpenBSD."
 content_hash: 136b643a1004f28d5a53506aef211caf546f285b
-last_modified_at: 2023-11-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/openbsd/pkg.html
@@ -11,9 +11,16 @@ related_topics:
   - title: Nederlands version
     url: /nl/openbsd/pkg.html
     icon: bi bi-globe
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/openbsd/pkg.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># pkg
 

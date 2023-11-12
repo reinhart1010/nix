@@ -3,6 +3,8 @@ layout: page
 title: common/odps-func (English)
 description: "Manage functions in ODPS (Open Data Processing Service)."
 content_hash: 3bbc4aca84b060555282ec1aaa0bb2eaa8ac8b14
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # odps func
 

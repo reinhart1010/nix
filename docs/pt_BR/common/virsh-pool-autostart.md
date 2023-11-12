@@ -3,16 +3,17 @@ layout: page
 title: common/virsh-pool-autostart (português (Brasil))
 description: "Habilita ou desabilita a inicialização automática para um pool de armazenamento de máquina virtual."
 content_hash: 1fb1d623b0c0c7c9c90c07fc8c498ce1073a1f81
-last_modified_at: 2023-09-18
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/virsh-pool-autostart.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/virsh-pool-autostart.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># virsh pool-autostart
+# virsh pool-autostart
 
 Habilita ou desabilita a inicialização automática para um pool de armazenamento de máquina virtual.
 Veja também: `virsh`.

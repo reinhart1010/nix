@@ -3,6 +3,7 @@ layout: page
 title: common/tree (italiano)
 description: "Mostra i contenuti della directory corrente come un albero."
 content_hash: 32a26b5ec2806ad5d84e7fb54a1e6fcd2275fc8d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/tree.html
@@ -19,6 +20,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/tree.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tree
 

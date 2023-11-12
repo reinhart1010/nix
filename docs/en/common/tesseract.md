@@ -3,6 +3,8 @@ layout: page
 title: common/tesseract (English)
 description: "OCR (Optical Character Recognition) engine."
 content_hash: 9552afac7fbfe5ae66d021b5e238f77e0b766ae4
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tesseract
 

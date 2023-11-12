@@ -3,10 +3,15 @@ layout: page
 title: common/arc (한국어)
 description: "Arcanist: A CLI for Phabricator."
 content_hash: 44df0a1c7400322e1b731ec42821b8b31454b558
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/arc.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/arc.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # arc
 

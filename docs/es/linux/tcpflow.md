@@ -3,6 +3,7 @@ layout: page
 title: linux/tcpflow (español)
 description: "Captura el tráfico TCP para depuración y análisis."
 content_hash: d946d9c7e274103e7553768ee3cffa3f9a133bde
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/tcpflow.html
@@ -10,6 +11,10 @@ related_topics:
   - title: English version
     url: /en/linux/tcpflow.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/tcpflow.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tcpflow
 

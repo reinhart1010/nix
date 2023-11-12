@@ -3,6 +3,8 @@ layout: page
 title: common/phpdox (English)
 description: "A PHP documentation generator."
 content_hash: d3ef78e98ee869af820c384046227386ad7c21a6
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # phpdox
 

@@ -3,7 +3,7 @@ layout: page
 title: linux/a2enmod (Türkçe)
 description: "Debian tabanlı işletim sistemlerinde Apache modülünü etkinleştir."
 content_hash: 17bcf3528920b26a3349031f7d269ed8c81a282e
-last_modified_at: 2023-07-27
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/a2enmod.html
@@ -32,6 +32,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/a2enmod.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # a2enmod
 

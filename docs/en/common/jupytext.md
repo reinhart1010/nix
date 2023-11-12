@@ -3,6 +3,8 @@ layout: page
 title: common/jupytext (English)
 description: "Tool to convert Jupyter notebooks to plain text documents, and back again."
 content_hash: aa81eba5b0d78601aa8a60eea5e82cb0558e2364
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # jupytext
 

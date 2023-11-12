@@ -3,12 +3,10 @@ layout: page
 title: linux/bully (English)
 description: "Brute-force the WPS pin of a wireless access point."
 content_hash: 6f115363bc127a8f1f2d5e03dfde8924e321d760
-last_modified_at: 2022-12-01
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bully
+# bully
 
 Brute-force the WPS pin of a wireless access point.
 Necessary information must be gathered with `airmon-ng` and `airodump-ng` before using `bully`.

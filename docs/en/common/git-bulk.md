@@ -3,6 +3,8 @@ layout: page
 title: common/git-bulk (English)
 description: "Execute operations on multiple Git repositories."
 content_hash: 36e6337b5e886d1b0be51b3f6d911f908d5a847b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git bulk
 

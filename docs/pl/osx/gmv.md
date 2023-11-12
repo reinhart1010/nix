@@ -3,7 +3,7 @@ layout: page
 title: osx/gmv (polski)
 description: "To polecenie jest aliasem `-p linux mv`."
 content_hash: 8e768b4301c8d1ac46470f8812c8e9a54e0a83c7
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gmv.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gmv.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gmv
 

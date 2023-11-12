@@ -3,10 +3,15 @@ layout: page
 title: common/go-env (中文)
 description: "管理 Go 工具链使用的环境变量。"
 content_hash: aa63361715d066c5d7fd2816881c2508d1cbf584
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/go-env.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/go-env.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # go env
 

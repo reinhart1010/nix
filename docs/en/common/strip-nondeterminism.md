@@ -3,6 +3,8 @@ layout: page
 title: common/strip-nondeterminism (English)
 description: "A tool to remove non-deterministic information (e.g. timestamps) from files."
 content_hash: cc19e7b3f8376ea7e5d9d14700daf19e62d44e0a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # strip-nondeterminism
 

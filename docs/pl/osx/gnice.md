@@ -3,7 +3,7 @@ layout: page
 title: osx/gnice (polski)
 description: "To polecenie jest aliasem `-p linux nice`."
 content_hash: 1281b7fc5ad46441ac1cc2866970050751719ebe
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gnice.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gnice.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gnice
 

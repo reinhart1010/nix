@@ -3,6 +3,7 @@ layout: page
 title: common/zless (English)
 description: "View `gzip` and `xz` compressed files."
 content_hash: d176233c909580a45c10a2656cd0aa1c69b89cc9
+last_modified_at: 2023-11-12
 related_topics:
   - title: bosanski version
     url: /bs/common/zless.html
@@ -13,12 +14,13 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/zless.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/zless.html
     icon: bi bi-globe
   - title: svenska version
     url: /sv/common/zless.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # zless
 

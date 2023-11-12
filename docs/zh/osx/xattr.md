@@ -3,10 +3,15 @@ layout: page
 title: osx/xattr (中文)
 description: "用于扩展文件系统属性的实用程序。"
 content_hash: 01a38e282256af4da74e59d9843cd6e479185bac
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/xattr.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/xattr.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xattr
 

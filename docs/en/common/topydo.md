@@ -3,6 +3,12 @@ layout: page
 title: common/topydo (English)
 description: "A to-do list application that uses the todo.txt format."
 content_hash: 364f021ffbc534f72af89f8b3ac7890e2632cb58
+last_modified_at: 2023-11-12
+related_topics:
+  - title: français version
+    url: /fr/common/topydo.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # topydo
 

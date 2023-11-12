@@ -3,11 +3,10 @@ layout: page
 title: common/mg (English)
 description: "A small, fast, and portable text editor based on `emacs`."
 content_hash: 911fe48231c77638f3d7d66471b3b51f0f89cce2
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mg
+# mg
 
 A small, fast, and portable text editor based on `emacs`.
 More information: <https://github.com/hboetes/mg>.

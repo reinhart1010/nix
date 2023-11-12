@@ -3,6 +3,8 @@ layout: page
 title: common/git-sed (English)
 description: "Replace patterns in git-controlled files using sed."
 content_hash: 82d0d4fbd958f734519f952d71507a80957c643e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git sed
 

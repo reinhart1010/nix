@@ -3,12 +3,19 @@ layout: page
 title: linux/a2disconf (中文)
 description: "在基于 Debian 的操作系统上禁用 Apache 配置文件。"
 content_hash: fa55f23d128c7a582027898ca636fbbc2c075996
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/a2disconf.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/a2disconf.html
     icon: bi bi-globe
   - title: English version
     url: /en/linux/a2disconf.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/a2disconf.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/a2disconf.html
@@ -22,6 +29,10 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/linux/a2disconf.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/linux/a2disconf.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # a2disconf
 

@@ -3,11 +3,21 @@ layout: page
 title: common/ajson (English)
 description: "Executes JSONPath on JSON objects."
 content_hash: a4b505842ebff252501ad3c2ff202488a71f7a14
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/common/ajson.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/ajson.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ajson.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/ajson.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ajson
 

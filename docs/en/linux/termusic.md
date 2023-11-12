@@ -3,11 +3,10 @@ layout: page
 title: linux/termusic (English)
 description: "A terminal music player written in Rust that uses vim-like key bindings."
 content_hash: d814d1c0f5dc66f24c1fcc1c981644072b4eae2c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># termusic
+# termusic
 
 A terminal music player written in Rust that uses vim-like key bindings.
 More information: <https://github.com/tramhao/termusic>.

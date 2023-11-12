@@ -3,6 +3,8 @@ layout: page
 title: common/git-squash (English)
 description: "Squash multiple commits into a single commit."
 content_hash: 1df0f25a959968e05d09e383290df5f52a8984b9
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git squash
 

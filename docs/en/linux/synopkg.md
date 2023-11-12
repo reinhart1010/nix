@@ -3,6 +3,8 @@ layout: page
 title: linux/synopkg (English)
 description: "Package management utility for Synology DiskStation Manager."
 content_hash: 46433f862d699906ae3ca4c7db7bd10b5edf6610
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # synopkg
 

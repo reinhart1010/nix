@@ -3,7 +3,7 @@ layout: page
 title: common/docker-compose (한국어)
 description: "다중 컨테이너 도커 어플리케이션 실행 및 관리."
 content_hash: d8d8b5284880daea70443ddf3fd63e790daa149c
-last_modified_at: 2023-02-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -17,8 +17,17 @@ related_topics:
   - title: français version
     url: /fr/common/docker-compose.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/docker-compose.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/docker-compose.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/docker-compose.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/common/docker-compose.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker-compose.html
@@ -26,6 +35,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-compose.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker compose
 

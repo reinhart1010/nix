@@ -3,12 +3,10 @@ layout: page
 title: common/doctl-databases-replica (English)
 description: "Manage read-only replicas associated with a database cluster."
 content_hash: 7375d6a9da2679f076423de320ef2075ac40c49f
-last_modified_at: 2023-10-12
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># doctl databases replica
+# doctl databases replica
 
 Manage read-only replicas associated with a database cluster.
 More information: <https://docs.digitalocean.com/reference/doctl/reference/databases/replica/>.

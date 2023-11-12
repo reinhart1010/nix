@@ -3,6 +3,8 @@ layout: page
 title: common/swipl (English)
 description: "SWI-Prolog - A comprehensive free Prolog environment."
 content_hash: 018bab11fe807ac168c92639a3e552de94057095
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # swipl
 

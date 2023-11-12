@@ -3,7 +3,7 @@ layout: page
 title: common/airmon-ng (Deutsch)
 description: "Aktiveren des Überwachungsmodus auf Wireless Network Geräten."
 content_hash: 079f5a447b7f1e1de4a180d474358be7f82b2fbb
-last_modified_at: 2023-04-23
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/airmon-ng.html
@@ -14,6 +14,9 @@ related_topics:
   - title: français version
     url: /fr/common/airmon-ng.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/airmon-ng.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/airmon-ng.html
     icon: bi bi-globe
@@ -23,11 +26,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/airmon-ng.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># airmon-ng
+# airmon-ng
 
 Aktiveren des Überwachungsmodus auf Wireless Network Geräten.
 Teil von `aircrack-ng`.

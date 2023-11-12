@@ -3,7 +3,11 @@ layout: page
 title: common/alias (Türkçe)
 description: "Takma adlar/kısayollar (bir komut dizesi ile değiştirilen sözcükler) oluşturur."
 content_hash: 0641ba36f5af2f557938315d0201075f2a278d05
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/alias.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/alias.html
     icon: bi bi-globe
@@ -52,6 +56,10 @@ related_topics:
   - title: 中文 version
     url: /zh/common/alias.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/alias.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # alias
 

@@ -3,7 +3,7 @@ layout: page
 title: osx/gsha1sum (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux sha1sum`"
 content_hash: 2b37d578669859991fe53a79e021d2f200038ce4
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gsha1sum.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gsha1sum.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gsha1sum
 

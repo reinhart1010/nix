@@ -3,6 +3,12 @@ layout: page
 title: common/hello (English)
 description: "Print \"Hello, world!\", \"hello, world\" or a customizable text."
 content_hash: dd8b17973d6c57df5852c3116e76a7eed9422da2
+last_modified_at: 2023-11-12
+related_topics:
+  - title: italiano version
+    url: /it/common/hello.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # hello
 

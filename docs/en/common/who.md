@@ -3,6 +3,8 @@ layout: page
 title: common/who (English)
 description: "Display who is logged in and related data (processes, boot time)."
 content_hash: 6e2f20563a64534d34d38868a87d4981532171c7
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # who
 

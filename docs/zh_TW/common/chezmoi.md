@@ -3,16 +3,14 @@ layout: page
 title: common/chezmoi (中文 (繁體, 台灣))
 description: "一個用 Go 語言寫的 dotfile 管理工具。"
 content_hash: 006245c61e7ea520f94d8951a7a8fb9b05f8c052
-last_modified_at: 2023-04-13
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/chezmoi.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># Chezmoi
+# Chezmoi
 
 一個用 Go 語言寫的 dotfile 管理工具。
 更多資訊：<https://chezmoi.io>.

@@ -3,6 +3,7 @@ layout: page
 title: windows/scoop-bucket (English)
 description: "Manage buckets: Git repositories containing files which describe how scoop installs applications."
 content_hash: 51bd5a5300e9733a378019ae7d00b5b6c55a19c2
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/scoop-bucket.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/scoop-bucket.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # scoop bucket
 

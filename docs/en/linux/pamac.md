@@ -3,6 +3,12 @@ layout: page
 title: linux/pamac (English)
 description: "A command-line utility for the GUI package manager pamac."
 content_hash: 81dd2f3ae4e1e8d7e9044d7aa2b9ef2806d00555
+last_modified_at: 2023-11-12
+related_topics:
+  - title: українська version
+    url: /uk/linux/pamac.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pamac
 

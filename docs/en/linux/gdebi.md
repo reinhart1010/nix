@@ -3,6 +3,8 @@ layout: page
 title: linux/gdebi (English)
 description: "Simple tool to install `.deb` files."
 content_hash: 619f8a7634e669ca2b77e1fa92b108b31617a22a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gdebi
 

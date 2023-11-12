@@ -3,10 +3,12 @@ layout: page
 title: common/type (français)
 description: "Affiche le type de la commande que le terminal exécuterait."
 content_hash: c52adc99acb59fa2965a6f2a089917038456aac1
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/type.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # type
 

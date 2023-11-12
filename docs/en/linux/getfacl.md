@@ -3,6 +3,8 @@ layout: page
 title: linux/getfacl (English)
 description: "Get file access control lists."
 content_hash: 6bbc2a6be426170706e1c8e09f6bcb068ecb2d16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # getfacl
 

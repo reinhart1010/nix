@@ -3,10 +3,12 @@ layout: page
 title: linux/bluetoothd (中文)
 description: "管理蓝牙设备的守护进程。"
 content_hash: 00b1693a038bdc77e3da5a60cd4ec74948e7ffa7
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/bluetoothd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bluetoothd
 

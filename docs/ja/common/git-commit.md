@@ -3,7 +3,7 @@ layout: page
 title: common/git-commit (日本語)
 description: "リポジトリにファイルをコミットします。"
 content_hash: b217fa85ad8c8435266b4f4188ef1b440aa451df
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-commit.html
@@ -35,6 +35,7 @@ related_topics:
   - title: українська version
     url: /uk/common/git-commit.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git commit
 

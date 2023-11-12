@@ -3,6 +3,7 @@ layout: page
 title: common/consul (italiano)
 description: "Rete distribuita per gestire e configurare servizi tramite database chiave-valore."
 content_hash: 9bfbeee6b17a375a8be021419b5f63a65404bebb
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/consul.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/consul.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # consul
 

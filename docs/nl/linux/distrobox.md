@@ -3,7 +3,7 @@ layout: page
 title: linux/distrobox (Nederlands)
 description: "Gebruik elke Linux distributie in uw terminal in een container. Installeer en gebruik pakketten erin terwijl ze nauw integreren met het host-besturingssysteem, het delen van opslag (`home`-map) en hardware."
 content_hash: 759f06c5180002f78c5044e21fc3ffb0e90be482
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/distrobox.html
@@ -11,11 +11,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/distrobox.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># distrobox
+# distrobox
 
 Gebruik elke Linux distributie in uw terminal in een container. Installeer en gebruik pakketten erin terwijl ze nauw integreren met het host-besturingssysteem, het delen van opslag (`home`-map) en hardware.
 Het gebruikt Podman of Docker om je containers te maken.

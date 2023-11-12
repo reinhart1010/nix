@@ -3,7 +3,7 @@ layout: page
 title: common/cargo (தமிழ்)
 description: "ரஸ்ட் திட்டங்கள் மற்றும் அவற்றின் தொகுதி சார்புகளை (கிரேட்ஸ்) நிர்வகிக்கவும்."
 content_hash: d4d892514a5ca529e496894b62ccf1cf9e6386b8
-last_modified_at: 2023-05-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/cargo.html
@@ -29,6 +29,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/cargo.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cargo
 

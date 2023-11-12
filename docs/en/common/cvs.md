@@ -3,6 +3,8 @@ layout: page
 title: common/cvs (English)
 description: "Concurrent Versions System, a revision control system."
 content_hash: f73f9103f0f95cfb61586ff9099f3070eb672ba9
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # cvs
 

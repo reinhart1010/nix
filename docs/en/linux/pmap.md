@@ -3,11 +3,10 @@ layout: page
 title: linux/pmap (English)
 description: "Report memory map of a process or processes."
 content_hash: 83f3368627ff52a517245bdd949242540c8f3f84
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pmap
+# pmap
 
 Report memory map of a process or processes.
 More information: <https://manned.org/pmap>.

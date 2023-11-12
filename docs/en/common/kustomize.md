@@ -3,6 +3,8 @@ layout: page
 title: common/kustomize (English)
 description: "Kustomize is a tool to easily deploy resources for Kubernetes."
 content_hash: 0d94b72f78aad159ed28ed8d30b208c5e7513055
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # kustomize
 

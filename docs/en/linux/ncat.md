@@ -3,6 +3,8 @@ layout: page
 title: linux/ncat (English)
 description: "Use the normal `cat` functionality over networks."
 content_hash: 75e2f832831d1fbe6295a8f61b0cb20c316c7206
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ncat
 

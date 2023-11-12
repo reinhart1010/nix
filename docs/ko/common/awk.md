@@ -3,6 +3,7 @@ layout: page
 title: common/awk (한국어)
 description: "파일 작업을 위한 다목적 프로그래밍 언어."
 content_hash: fe73bbec74a5264c7a800ed93706444f5285a820
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/awk.html
@@ -22,6 +23,13 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/awk.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/awk.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/awk.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # awk
 

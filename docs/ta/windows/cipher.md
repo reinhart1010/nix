@@ -3,25 +3,20 @@ layout: page
 title: windows/cipher (தமிழ்)
 description: "NTFS டிரைவ்களில் உள்ள கோப்புகளை குறியாக்கம் அல்லது மறைகுறியாக்கம் செய்யவும்."
 content_hash: ac74f2f5c19b3701605ee8331631a1f4c088281b
-last_modified_at: 2022-12-03
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/windows/cipher.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/cipher.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/cipher.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/cipher.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cipher
+# cipher
 
 NTFS டிரைவ்களில் உள்ள கோப்புகளை குறியாக்கம் அல்லது மறைகுறியாக்கம் செய்யவும்.
 மேலும் விவரத்திற்கு: <https://learn.microsoft.com/windows-server/administration/windows-commands/cipher>.

@@ -3,7 +3,7 @@ layout: page
 title: linux/nmcli-device (Nederlands)
 description: "Beheer netwerkinterfaces en zetten nieuwe Wi-Fi-verbindingen op via NetworkManager."
 content_hash: 4397d57d08ebda15283b7b093ea53ddb80307952
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/nmcli-device.html
@@ -11,11 +11,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/nmcli-device.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># nmcli device
+# nmcli device
 
 Beheer netwerkinterfaces en zetten nieuwe Wi-Fi-verbindingen op via NetworkManager.
 Dit subcommando kan ook aangeroepen worden met `nmcli d`.

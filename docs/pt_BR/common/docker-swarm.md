@@ -3,7 +3,7 @@ layout: page
 title: common/docker-swarm (português (Brasil))
 description: "Uma ferramenta de orquestração de contêineres."
 content_hash: 1bf2fc82c8d289f28590c017fd7327250ce3062f
-last_modified_at: 2023-09-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-swarm.html
@@ -17,11 +17,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-swarm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docker swarm
+# docker swarm
 
 Uma ferramenta de orquestração de contêineres.
 Mais informações: <https://docs.docker.com/engine/swarm/>.

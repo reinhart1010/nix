@@ -3,7 +3,8 @@ layout: page
 title: common/sendmail (English)
 description: "Send email."
 content_hash: 72df27b5946ca195224c0166880d3366d2840e7d
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sendmail
 

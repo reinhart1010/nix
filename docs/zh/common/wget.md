@@ -3,16 +3,24 @@ layout: page
 title: common/wget (中文)
 description: "从网络上下载文件。"
 content_hash: 1ae4949a41f64e633e4e2161e9e75860af253ad5
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/wget.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/common/wget.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/wget.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/wget.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/wget.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wget
 

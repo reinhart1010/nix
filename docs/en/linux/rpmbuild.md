@@ -3,6 +3,8 @@ layout: page
 title: linux/rpmbuild (English)
 description: "RPM Package Build tool."
 content_hash: ae75fca1325515acc4d1eab8865a5c5d90616a04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rpmbuild
 

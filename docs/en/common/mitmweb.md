@@ -3,12 +3,10 @@ layout: page
 title: common/mitmweb (English)
 description: "A web-based interactive man-in-the-middle HTTP proxy."
 content_hash: e4a4b321c9ad7d74871957a755d8f2a7bbe1889e
-last_modified_at: 2023-05-22
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mitmweb
+# mitmweb
 
 A web-based interactive man-in-the-middle HTTP proxy.
 See also: `mitmproxy`.

@@ -3,6 +3,8 @@ layout: page
 title: common/kube-fzf (English)
 description: "Shell commands for command-line fuzzy searching of Kubernetes Pods."
 content_hash: 1c312a8295bacd821ad18136a308e64a992277c8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # kube-fzf
 

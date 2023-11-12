@@ -3,7 +3,11 @@ layout: page
 title: common/alias (русский)
 description: "Создает псевдонимы -- слова, которые заменяются командой."
 content_hash: 4bee7c7beb0945a4e6c4a9af54de5229351cb9ba
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/alias.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/alias.html
     icon: bi bi-globe
@@ -46,14 +50,18 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/alias.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/alias.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/alias.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/alias.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># alias
+# alias
 
 Создает псевдонимы -- слова, которые заменяются командой.
 Срок действия псевдонима истекает с окончанием текущей сессии командной строки, если только не определить его в конфигурационном файле, например: `~/.bashrc`.

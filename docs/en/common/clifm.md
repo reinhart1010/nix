@@ -3,7 +3,8 @@ layout: page
 title: common/clifm (English)
 description: "The command-line file manager."
 content_hash: 0f7d6c0d0ab1a0eff8bdbacdf6ab1011d99cb16b
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # clifm
 

@@ -3,12 +3,10 @@ layout: page
 title: windows/new-item (English)
 description: "Create a new file, directory, symbolic link, or a registry entry."
 content_hash: 18a66b3b3e7f057f35eed681065c2bcea3d4ffad
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># New-Item
+# New-Item
 
 Create a new file, directory, symbolic link, or a registry entry.
 This command can only be used through PowerShell.

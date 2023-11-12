@@ -3,6 +3,7 @@ layout: page
 title: common/ansible-galaxy (한국어)
 description: "수용 가능한 역할 생성 및 관리."
 content_hash: 817f74ee4cd0c145b9bc6e8ffc5d5bb11ded1fb7
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible-galaxy.html
@@ -10,21 +11,19 @@ related_topics:
   - title: English version
     url: /en/common/ansible-galaxy.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/ansible-galaxy.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/ansible-galaxy.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/ansible-galaxy.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ansible-galaxy.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># ansible-galaxy
 

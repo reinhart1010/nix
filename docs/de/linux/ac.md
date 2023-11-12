@@ -3,7 +3,7 @@ layout: page
 title: linux/ac (Deutsch)
 description: "Zeigt an, wie lange Benutzer verbunden waren."
 content_hash: 3d87b369a16af4f6e357ecd61af968f084856642
-last_modified_at: 2023-10-23
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/ac.html
@@ -29,6 +29,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/ac.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ac
 

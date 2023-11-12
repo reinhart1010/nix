@@ -3,7 +3,7 @@ layout: page
 title: windows/exit (हिन्दी)
 description: "वर्तमान सीएमडी इंस्टेंस या वर्तमान बैच फ़ाइल से बाहर निकलें।"
 content_hash: 992e0fbe81d70c3f2e50b2c9c1b2d22102a766b5
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/windows/exit.html
@@ -23,6 +23,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/exit.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # exit
 

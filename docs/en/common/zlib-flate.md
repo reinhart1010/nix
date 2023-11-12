@@ -3,11 +3,10 @@ layout: page
 title: common/zlib-flate (English)
 description: "Raw zlib compression and decompression program."
 content_hash: 1452dd1ab65f7659952ada2f828c8a74434771ac
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># zlib-flate
+# zlib-flate
 
 Raw zlib compression and decompression program.
 Part of `qpdf`.

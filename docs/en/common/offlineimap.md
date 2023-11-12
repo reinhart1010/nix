@@ -3,6 +3,8 @@ layout: page
 title: common/offlineimap (English)
 description: "Synchronize a remote IMAP server with local Maildir folders."
 content_hash: de227c598f37713da2dc6d7b345c271caed1aece
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # offlineimap
 

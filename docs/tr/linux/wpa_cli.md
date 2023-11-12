@@ -3,10 +3,12 @@ layout: page
 title: linux/wpa_cli (Türkçe)
 description: "Kablosuz LAN arayüzleri ekleyin ve yapılandırın."
 content_hash: fa4adcfbad7ab31f2c17aa3d81d7c5289dd98b65
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/wpa_cli.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wpa_cli
 

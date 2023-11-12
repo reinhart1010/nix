@@ -3,6 +3,8 @@ layout: page
 title: linux/ldapdomaindump (English)
 description: "Dump users, computers, groups, OS and membership information via LDAP to HTML, JSON and greppable output."
 content_hash: 84dadde90dd24ca94dfac0c54b999dfffda3aea3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ldapdomaindump
 

@@ -3,11 +3,12 @@ layout: page
 title: common/autoconf (English)
 description: "Generate configuration scripts to automatically configure software source code packages."
 content_hash: 5b21803ae766211e7bbd980094ff882bc36f9c95
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/autoconf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # autoconf
 

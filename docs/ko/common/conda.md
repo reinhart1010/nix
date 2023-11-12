@@ -3,13 +3,18 @@ layout: page
 title: common/conda (한국어)
 description: "프로그래밍 언어에 대한 패키지, 의존성 및 환경 관리."
 content_hash: 363bdb67792e9653805e9ceee3f1c55961e6f09e
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/conda.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/conda.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/conda.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # conda
 

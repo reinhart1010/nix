@@ -3,7 +3,8 @@ layout: page
 title: common/brotli (English)
 description: "Compress/uncompress files with Brotli compression."
 content_hash: 1f3f40474c6ffe2189ece2510a39858fffd502cf
-last_modified_at: 2023-04-23
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # brotli
 

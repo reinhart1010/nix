@@ -3,7 +3,8 @@ layout: page
 title: common/standard (English)
 description: "The JavaScript Standard Style tool for linting and fixing JavaScript code."
 content_hash: 88d1c67b4002fb1e440e25ca1409134781e9b033
-last_modified_at: 2022-12-06
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # standard
 

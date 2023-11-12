@@ -3,6 +3,7 @@ layout: page
 title: common/docker-logs (Türkçe)
 description: "Konteyner kaydını yazdırır."
 content_hash: 9d7c03237ecd7eaa36e305cdb5a2be9555e6f242
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-logs.html
@@ -22,6 +23,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/docker-logs.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker logs
 

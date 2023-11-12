@@ -3,7 +3,7 @@ layout: page
 title: common/unzip (한국어)
 description: "ZIP 아카이브에서 파일/폴더 추출."
 content_hash: 3636c09f7cd74199be68cef4fa916523197b600d
-last_modified_at: 2023-10-23
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/unzip.html
@@ -14,11 +14,9 @@ related_topics:
   - title: русский version
     url: /ru/common/unzip.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># unzip
+# unzip
 
 ZIP 아카이브에서 파일/폴더 추출.
 같이 보기: `zip`.

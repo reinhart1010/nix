@@ -3,10 +3,15 @@ layout: page
 title: common/find (français)
 description: "Trouve récursivement des fichiers ou des dossiers dans l'arborescence spécifiée."
 content_hash: 4a850105219d0684254b6e40d801d219f5788a56
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/find.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/find.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # find
 

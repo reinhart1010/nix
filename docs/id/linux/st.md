@@ -3,10 +3,12 @@ layout: page
 title: linux/st (Indonesia)
 description: "Emulator terminal simpel untuk sistem window X."
 content_hash: b96254876c40d182f6b0cd0612456466645a976f
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/st.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # st
 

@@ -3,7 +3,8 @@ layout: page
 title: common/mutool (English)
 description: "Convert PDF files, query information and extract data."
 content_hash: dafcf215726ce502950b4292888cf43c0fa5a127
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mutool
 

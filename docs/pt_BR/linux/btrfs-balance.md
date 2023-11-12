@@ -3,10 +3,12 @@ layout: page
 title: linux/btrfs-balance (português (Brasil))
 description: "Balanceia grupos de blocos em um sistema de arquivos btrfs."
 content_hash: bd3d20644b0459512ccaa082cd60aaba01acc071
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/btrfs-balance.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # btrfs balance
 

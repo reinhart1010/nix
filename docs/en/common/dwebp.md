@@ -3,6 +3,8 @@ layout: page
 title: common/dwebp (English)
 description: "`dwebp` decompresses WebP files into PNG, PAM, PPM or PGM images."
 content_hash: 09cb726a9ef0150f645df16899f1d143dbd60aae
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dwebp
 

@@ -3,6 +3,12 @@ layout: page
 title: common/gvpack (English)
 description: "Combine several graph layouts (that already have layout information)."
 content_hash: cfc80488bc26339a65a64f1ceca65aedc8d9097a
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 中文 version
+    url: /zh/common/gvpack.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gvpack
 

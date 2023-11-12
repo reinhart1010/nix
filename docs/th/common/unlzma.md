@@ -3,7 +3,7 @@ layout: page
 title: common/unlzma (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `xz`"
 content_hash: a27eb478b53581991d505deeffe3068b70797a69
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/unlzma.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/unlzma.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # unlzma
 

@@ -3,11 +3,12 @@ layout: page
 title: common/gvpack (中文)
 description: "将多个具有布局信息的图形布局组合在一起。"
 content_hash: 96c4c6029161f0a3ca60385c1840496907247822
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/gvpack.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gvpack
 

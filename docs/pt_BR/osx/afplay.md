@@ -3,6 +3,7 @@ layout: page
 title: osx/afplay (português (Brasil))
 description: "Player de áudio para linha de comando."
 content_hash: 7d2ab54bf47b3e3a0e87f9fa79061762409a033f
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/afplay.html
@@ -13,11 +14,9 @@ related_topics:
   - title: italiano version
     url: /it/osx/afplay.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># afplay
+# afplay
 
 Player de áudio para linha de comando.
 Mais informações: <https://ss64.com/osx/afplay.html>.

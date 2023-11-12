@@ -3,6 +3,8 @@ layout: page
 title: linux/firewall-cmd (English)
 description: "The firewalld command-line client."
 content_hash: 1ca36885c93983331d6208adb4de601e1c8d5853
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # firewall-cmd
 

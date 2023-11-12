@@ -3,6 +3,7 @@ layout: page
 title: osx/apachectl (español)
 description: "Interfaz de control de Apache HTTP Server para macOS."
 content_hash: 2b4302a355e86822bd01751073545238b0ce0d9c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/apachectl.html
@@ -16,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/apachectl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apachectl
 

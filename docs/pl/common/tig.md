@@ -3,6 +3,7 @@ layout: page
 title: common/tig (polski)
 description: "Interfejs tekstowy dla Gita."
 content_hash: 710c6afd2c137fcf17ae1cdf02c804a36f1c56f3
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/tig.html
@@ -10,11 +11,9 @@ related_topics:
   - title: English version
     url: /en/common/tig.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># tig
+# tig
 
 Interfejs tekstowy dla Gita.
 Więcej informacji: <https://github.com/jonas/tig>.

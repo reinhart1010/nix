@@ -3,11 +3,12 @@ layout: page
 title: osx/httpie (Deutsch)
 description: "Ein benutzerfreundliches HTTP-Tool."
 content_hash: f5a485aca3d429499e038f12d2bd644e72d4a069
-last_modified_at: 2023-10-24
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/httpie.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # httpie
 

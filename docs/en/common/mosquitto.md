@@ -3,11 +3,12 @@ layout: page
 title: common/mosquitto (English)
 description: "An MQTT broker."
 content_hash: 39a1ef759df3adcfbde11275d092406cd91d4110
-last_modified_at: 2023-06-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/mosquitto.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mosquitto
 

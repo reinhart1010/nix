@@ -3,11 +3,12 @@ layout: page
 title: common/yank (中文)
 description: "从 `stdin` 读取输入并显示一个选择界面，该界面允许选择一个字段并将其复制到剪贴板。"
 content_hash: 6ea0cf677b4f7ed9cc8c469cdcacbe580ef556ef
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/yank.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # yank
 

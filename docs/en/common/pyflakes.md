@@ -3,6 +3,8 @@ layout: page
 title: common/pyflakes (English)
 description: "Checks Python source code files for errors."
 content_hash: 65715570b95992478c29a6452d9ff1fb54d34296
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pyflakes
 

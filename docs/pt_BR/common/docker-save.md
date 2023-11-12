@@ -3,7 +3,7 @@ layout: page
 title: common/docker-save (português (Brasil))
 description: "Exportar uma ou mais imagens do Docker para um arquivo de arquivamento."
 content_hash: 769230305086eb8c278d236899dc14c002878c6c
-last_modified_at: 2023-09-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-save.html
@@ -17,11 +17,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-save.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docker save
+# docker save
 
 Exportar uma ou mais imagens do Docker para um arquivo de arquivamento.
 Mais informações: <https://docs.docker.com/engine/reference/commandline/save/>.

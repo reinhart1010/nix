@@ -3,6 +3,8 @@ layout: page
 title: common/youtube-viewer (English)
 description: "Command-line application for searching and playing videos from YouTube."
 content_hash: 6830c1e57cabf6fe4fcdb469c24e9bf1d045aec6
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # youtube-viewer
 

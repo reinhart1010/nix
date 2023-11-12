@@ -3,15 +3,14 @@ layout: page
 title: osx/fileicon (português (Brasil))
 description: "Uma CLI do macOS para gerenciar ícones personalizados de arquivos e pastas."
 content_hash: ace2c78c5945c8eb64e0a5e34600ff0c7ce514eb
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/fileicon.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># fileicon
+# fileicon
 
 Uma CLI do macOS para gerenciar ícones personalizados de arquivos e pastas.
 Mais informações: <https://github.com/mklement0/fileicon>.

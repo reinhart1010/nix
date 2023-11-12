@@ -3,6 +3,8 @@ layout: page
 title: common/mdp (English)
 description: "A command-line based tool to make presentations from Markdown files."
 content_hash: 90ed2acc74fd5ea0dbce47633eadb52c289d3745
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mdp
 

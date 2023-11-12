@@ -3,7 +3,8 @@ layout: page
 title: linux/slapt-get (English)
 description: "An apt like system for Slackware package management."
 content_hash: ca5edc718ea52f3a3672c65a20bf3d162ab11608
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # slapt-get
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/pacstrap (English)
 description: "Arch Linux install script to install packages to the specified new root directory."
 content_hash: 20ed9f475bbfbbfc83ad46f4a5df75758cbc1165
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pacstrap
 

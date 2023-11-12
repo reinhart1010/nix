@@ -3,7 +3,7 @@ layout: page
 title: common/git-bundle (English)
 description: "Package objects and references into an archive."
 content_hash: d4c3310bff89b37d3f1c52f02e3f571ab07be2ab
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/git-bundle.html
@@ -17,6 +17,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-bundle.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git bundle
 

@@ -3,7 +3,7 @@ layout: page
 title: linux/paru (English)
 description: "An AUR helper and pacman wrapper."
 content_hash: 2ec53cdbcc6d0594be3c526741d887b23b37c65a
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/paru.html
@@ -11,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/paru.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # paru
 

@@ -3,6 +3,7 @@ layout: page
 title: common/md5sum (italiano)
 description: "Calcola i checksum crittografici di tipo MD5."
 content_hash: d3fe3ff7b3ca3a34148ff03fe3796c5976b5ac90
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/md5sum.html
@@ -13,15 +14,10 @@ related_topics:
   - title: 中文 version
     url: /zh/common/md5sum.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/md5sum.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># md5sum
 

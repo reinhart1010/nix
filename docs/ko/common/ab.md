@@ -3,8 +3,11 @@ layout: page
 title: common/ab (한국어)
 description: "아파치 벤치마킹 도구."
 content_hash: 11b1c8efa56871bcd0fdeb8393fb9ae330ebd3b0
-last_modified_at: 2023-09-07
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/ab.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/ab.html
     icon: bi bi-globe
@@ -19,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ab.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/ab.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/ab.html
@@ -38,17 +44,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ab.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ab.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ab
+# ab
 
 아파치 벤치마킹 도구.
 로드 테스트를 수행하는 가장 간단한 도구.

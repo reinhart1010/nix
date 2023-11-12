@@ -3,7 +3,7 @@ layout: page
 title: linux/pkgadd (català)
 description: "Afegeix un paquet a un sistema CRUX."
 content_hash: ece7afab2e1d3a272b3842b7868189d80f05937f
-last_modified_at: 2023-06-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/pkgadd.html
@@ -11,6 +11,7 @@ related_topics:
   - title: español version
     url: /es/linux/pkgadd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pkgadd
 

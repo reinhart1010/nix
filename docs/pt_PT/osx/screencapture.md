@@ -3,10 +3,12 @@ layout: page
 title: osx/screencapture (português (Portugal))
 description: "Utilitário para fazer capturas de ecrã e gravações de ecrã."
 content_hash: 2bb483314e9bb814196d4ed3ce8ac07218c76bf8
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/screencapture.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # screencapture
 

@@ -3,7 +3,7 @@ layout: page
 title: osx/gtruncate (polski)
 description: "To polecenie jest aliasem `-p linux truncate`."
 content_hash: 44b91f427c2bb8566c3c0377c95b9cfb7641b85c
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gtruncate.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gtruncate.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gtruncate
 

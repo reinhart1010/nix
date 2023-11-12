@@ -3,6 +3,7 @@ layout: page
 title: common/git-pull (English)
 description: "Fetch branch from a remote repository and merge it to local repository."
 content_hash: 167a1658495ca856b352a51a699563fea35c45ac
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-pull.html
@@ -13,9 +14,25 @@ related_topics:
   - title: français version
     url: /fr/common/git-pull.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/git-pull.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-pull.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-pull.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-pull.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/common/git-pull.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/git-pull.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git pull
 

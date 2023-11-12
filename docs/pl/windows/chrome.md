@@ -3,10 +3,13 @@ layout: page
 title: windows/chrome (polski)
 description: "To polecenie jest aliasem `chromium`."
 content_hash: 2d9c8588c1b92fd7bebe89467f2a7cc0160c2f56
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/chrome.html
+    icon: bi bi-globe
+  - title: বাংলা version
+    url: /bn/windows/chrome.html
     icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/chrome.html
@@ -89,6 +92,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/chrome.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chrome
 

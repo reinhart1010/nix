@@ -3,6 +3,8 @@ layout: page
 title: common/hg-pull (English)
 description: "Pull changes from a specified repository to the local repository."
 content_hash: e59c4708f253f2b76df26c4a5a52a3e813a825ab
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # hg pull
 

@@ -3,6 +3,7 @@ layout: page
 title: linux/aspell (中文)
 description: "交互式拼写检查工具。"
 content_hash: 66daa95afb2bb844ac85f66d0fbe939aa44017a4
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/aspell.html
@@ -16,6 +17,10 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/aspell.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/linux/aspell.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aspell
 

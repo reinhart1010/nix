@@ -3,11 +3,12 @@ layout: page
 title: common/jps (English)
 description: "Show JVM process status of current user."
 content_hash: f8abcdf4b3e3e31f5c4b2c9843cd7e867c23799c
-last_modified_at: 2023-06-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/common/jps.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # jps
 

@@ -3,6 +3,7 @@ layout: page
 title: common/jq (русский)
 description: "Процессор JSON командной строки, использующий доменный язык."
 content_hash: c4ad8116f62fba1ce84059dfe4d5347bbf888def
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/jq.html
@@ -10,6 +11,10 @@ related_topics:
   - title: English version
     url: /en/common/jq.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/jq.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # jq
 

@@ -3,12 +3,10 @@ layout: page
 title: common/pbmtogem (English)
 description: "Read a PBM image as input and produce a compressed GEM .img file as output."
 content_hash: bc626fb90a448694f1afbbf76fee79e0c02163bd
-last_modified_at: 2023-10-31
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pbmtogem
+# pbmtogem
 
 Read a PBM image as input and produce a compressed GEM .img file as output.
 `pbmtogem` cannot compress repeated lines.

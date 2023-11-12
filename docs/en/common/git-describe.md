@@ -3,6 +3,7 @@ layout: page
 title: common/git-describe (English)
 description: "Give an object a human-readable name based on an available ref."
 content_hash: 03a9d67031de9a77ae867c5c237f4aca29758aba
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/git-describe.html
@@ -10,6 +11,10 @@ related_topics:
   - title: italiano version
     url: /it/common/git-describe.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-describe.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git describe
 

@@ -3,11 +3,15 @@ layout: page
 title: osx/xcode-select (English)
 description: "Switch between different versions of Xcode and the included developer tools."
 content_hash: 1a03d60fb917c3c3c75aad3af74f4e23ceb73625
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/osx/xcode-select.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/xcode-select.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xcode-select
 

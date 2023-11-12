@@ -3,10 +3,12 @@ layout: page
 title: common/phpbu (English)
 description: "A backup utility framework for PHP."
 content_hash: 084d44ab37e95bb06482478883e1af5b906b3b67
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/phpbu.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # phpbu
 

@@ -3,15 +3,25 @@ layout: page
 title: common/adb-install (português (Brasil))
 description: "Android Debug Bridge Install: Instalar apps em uma instância do Android emulator ou dispositivos conectados."
 content_hash: 019fb190b363cb8e56a286fd020c0e1dd85f3bb1
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/adb-install.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/adb-install.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/adb-install.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/adb-install.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/adb-install.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/adb-install.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/adb-install.html
@@ -22,8 +32,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/adb-install.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# adb install
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># adb install
 
 Android Debug Bridge Install: Instalar apps em uma instância do Android emulator ou dispositivos conectados.
 Mais informações: <https://developer.android.com/studio/command-line/adb>.

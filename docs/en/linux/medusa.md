@@ -3,6 +3,8 @@ layout: page
 title: linux/medusa (English)
 description: "A modular and parallel login brute-forcer for a variety of protocols."
 content_hash: a0364d032f3ef49b0e8cc0cf9cc39e0f127652b4
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # Medusa
 

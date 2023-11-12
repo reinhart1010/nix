@@ -3,10 +3,12 @@ layout: page
 title: windows/takeown (中文)
 description: "取得文件或目录的所有权。"
 content_hash: d3615455b2ff2cdccc4400ce03e9ae6df2b1d070
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/takeown.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # takeown
 

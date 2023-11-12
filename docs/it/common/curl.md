@@ -3,7 +3,7 @@ layout: page
 title: common/curl (italiano)
 description: "Trasferisci dati da o ad un server."
 content_hash: 8d5d11d4860910aecb168e9f25a55af8e9107705
-last_modified_at: 2023-05-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/curl.html
@@ -17,6 +17,9 @@ related_topics:
   - title: Indonesia version
     url: /id/common/curl.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/curl.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/curl.html
     icon: bi bi-globe
@@ -29,6 +32,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/curl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # curl
 

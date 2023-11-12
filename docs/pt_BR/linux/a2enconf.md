@@ -3,12 +3,19 @@ layout: page
 title: linux/a2enconf (português (Brasil))
 description: "Ativa um arquivo de configuração do Apache em sistemas operacionais baseados no Debian."
 content_hash: 0910bd115b65625d052fc1533cf9d08e3d0add2e
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/a2enconf.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/a2enconf.html
     icon: bi bi-globe
   - title: English version
     url: /en/linux/a2enconf.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/a2enconf.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/a2enconf.html
@@ -19,9 +26,13 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/linux/a2enconf.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/linux/a2enconf.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/a2enconf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # a2enconf
 

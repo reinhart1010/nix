@@ -3,6 +3,8 @@ layout: page
 title: linux/sic (English)
 description: "Simple IRC client."
 content_hash: fd2f3d7c7daf2ddc14450c8c4711fb9a355ee773
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sic
 

@@ -3,7 +3,7 @@ layout: page
 title: common/pip-install (English)
 description: "Install Python packages."
 content_hash: 98b9cc218ec0279d4511ab11716457c15edd3fda
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/pip-install.html
@@ -11,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/pip-install.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pip install
 

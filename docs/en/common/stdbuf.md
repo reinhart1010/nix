@@ -3,7 +3,8 @@ layout: page
 title: common/stdbuf (English)
 description: "Run a command with modified buffering operations for its standard streams."
 content_hash: a4ae9ee8a023fcb397627fe26538c4dce695f899
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # stdbuf
 

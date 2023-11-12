@@ -3,16 +3,30 @@ layout: page
 title: windows/choco-install (Deutsch)
 description: "Installiere ein oder mehrere Pakete mit Chocolatey."
 content_hash: d6a7b375bc10b3b3010462686e3857289d5d8894
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/choco-install.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/windows/choco-install.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/choco-install.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/windows/choco-install.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/choco-install.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/choco-install.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/choco-install.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco install
 

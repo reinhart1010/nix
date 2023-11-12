@@ -3,11 +3,12 @@ layout: page
 title: common/hugo (English)
 description: "Template-based static site generator. Uses modules, components, and themes."
 content_hash: f4f4f01ee17234eddfdef1d2b752271009d35aa8
-last_modified_at: 2023-10-24
+last_modified_at: 2023-11-12
 related_topics:
   - title: Indonesia version
     url: /id/common/hugo.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # hugo
 

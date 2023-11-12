@@ -3,13 +3,19 @@ layout: page
 title: windows/dir (English)
 description: "List directory contents."
 content_hash: 91bf1f541e8708edd6051c46db2af6ddd5aa59c1
-last_modified_at: 2023-10-11
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/windows/dir.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/dir.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/windows/dir.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/dir.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/windows/dir.html
@@ -29,12 +35,16 @@ related_topics:
   - title: தமிழ் version
     url: /ta/windows/dir.html
     icon: bi bi-globe
+  - title: ไทย version
+    url: /th/windows/dir.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/dir.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/dir.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dir
 

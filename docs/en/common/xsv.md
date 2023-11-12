@@ -3,6 +3,8 @@ layout: page
 title: common/xsv (English)
 description: "A CSV command-line toolkit written in Rust."
 content_hash: 677e3ff86297b2aa5390f27c62e028c71d999f28
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xsv
 

@@ -3,13 +3,18 @@ layout: page
 title: common/clang (English)
 description: "Compiler for C, C++, and Objective-C source files. Can be used as a drop-in replacement for GCC."
 content_hash: ba9cb623918679e4a5f0d62056d399f4c7086af2
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/clang.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/clang.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/clang.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # clang
 

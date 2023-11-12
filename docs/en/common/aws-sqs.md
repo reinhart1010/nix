@@ -3,11 +3,14 @@ layout: page
 title: common/aws-sqs (English)
 description: "Create, delete, and send messages to queues for the AWS SQS service."
 content_hash: 9b2cb420c66e11b2b6f12fa7d57e31d02cc922e3
+last_modified_at: 2023-11-12
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/common/aws-sqs.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws sqs
+# aws sqs
 
 Create, delete, and send messages to queues for the AWS SQS service.
 More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/sqs/index.html>.

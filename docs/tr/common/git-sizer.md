@@ -3,6 +3,7 @@ layout: page
 title: common/git-sizer (Türkçe)
 description: "Git depo boyut metriklerini hesaplar ve problem veya rahatsızlığa sebep olabilecek boyutlarda uyarı verir."
 content_hash: 3cd8a78bb8fa10944d9def80146f0502c40af08a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-sizer.html
@@ -16,6 +17,7 @@ related_topics:
   - title: italiano version
     url: /it/common/git-sizer.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git sizer
 

@@ -3,6 +3,7 @@ layout: page
 title: linux/xfce4-terminal (Türkçe)
 description: "XFCE4 terminal öykünücüsü."
 content_hash: 69544eb9b018b1fea1aaa8e80724626e40391d60
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/xfce4-terminal.html
@@ -10,6 +11,7 @@ related_topics:
   - title: Indonesia version
     url: /id/linux/xfce4-terminal.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xfce4-terminal
 

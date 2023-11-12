@@ -3,7 +3,7 @@ layout: page
 title: common/gpg (português (Brasil))
 description: "GNU Privacy Guard."
 content_hash: 8cfeab9f9c529a09e480cf470dad7e3311ecd4a7
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/gpg.html
@@ -14,17 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/gpg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gpg.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gpg
+# gpg
 
 GNU Privacy Guard.
 Veja `gpg2` para o GNU Privacy Guard 2. A maioria dos sistemas operacionais criam link simbólico entre `gpg` e `gpg2`.

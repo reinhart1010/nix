@@ -3,12 +3,22 @@ layout: page
 title: linux/adduser (français)
 description: "Outil d'ajout d'utilisateurs."
 content_hash: 3b6875fe80d94f9557d32faccb6918d26f86da59
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/adduser.html
     icon: bi bi-globe
   - title: English version
     url: /en/linux/adduser.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/adduser.html
+    icon: bi bi-globe
+  - title: suomi version
+    url: /fi/linux/adduser.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/linux/adduser.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/adduser.html
@@ -19,11 +29,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/adduser.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># adduser
+# adduser
 
 Outil d'ajout d'utilisateurs.
 Plus d'informations : <https://manpages.debian.org/latest/adduser/adduser.html>.

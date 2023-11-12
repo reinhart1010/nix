@@ -3,7 +3,8 @@ layout: page
 title: linux/ss (English)
 description: "Utility to investigate sockets."
 content_hash: ba83e866442e1bbe2e89e8a37d5b37c26e8d4ed3
-last_modified_at: 2022-12-30
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ss
 

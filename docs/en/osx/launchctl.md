@@ -3,11 +3,15 @@ layout: page
 title: osx/launchctl (English)
 description: "Control Apple's `launchd` manager for launch daemons (system-wide services) and launch agents (per-user programs)."
 content_hash: 49877cd5c97ce95628989acc6a3135c555216daf
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Nederlands version
+    url: /nl/osx/launchctl.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/launchctl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # launchctl
 

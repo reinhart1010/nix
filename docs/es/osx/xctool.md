@@ -3,7 +3,7 @@ layout: page
 title: osx/xctool (español)
 description: "Herramienta para construir proyectos Xcode."
 content_hash: bbe7dbd4c1e1c9da821690c04e22dcd806e6dbca
-last_modified_at: 2023-10-22
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/xctool.html
@@ -11,11 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/xctool.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># xctool
+# xctool
 
 Herramienta para construir proyectos Xcode.
 Más información: <https://github.com/facebookarchive/xctool>.

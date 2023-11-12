@@ -3,7 +3,7 @@ layout: page
 title: linux/groupdel (català)
 description: "Elimina del sistema grups d'usuaris existents."
 content_hash: f6c2d4a3d8d6b364e13b6c05ef4065d36c722506
-last_modified_at: 2023-10-24
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/groupdel.html
@@ -14,6 +14,7 @@ related_topics:
   - title: polski version
     url: /pl/linux/groupdel.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # groupdel
 

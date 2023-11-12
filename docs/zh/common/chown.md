@@ -3,6 +3,7 @@ layout: page
 title: common/chown (中文)
 description: "修改用户和用户组对文件或目录的所有权。"
 content_hash: cd53e55317763694f2eabc1c3ab9aa936960889f
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/chown.html
@@ -12,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/chown.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/chown.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/chown.html
@@ -31,18 +35,16 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/chown.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># chown
+# chown
 
 修改用户和用户组对文件或目录的所有权。
 更多信息：<https://www.gnu.org/software/coreutils/chown>.
 
 - 修改文件或目录的所有者：
 
-`chown `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户</span>`} `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件或目录</span>
+`chown `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户}</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件或目录</span>
 
 - 修改文件或目录的所有者及所属组：
 

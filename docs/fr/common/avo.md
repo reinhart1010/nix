@@ -3,15 +3,17 @@ layout: page
 title: common/avo (français)
 description: "La ligne de commande officielle pour Avo."
 content_hash: cb29cb54a003c9afa87bbc190c929cc863b6fc4c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/avo.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/avo.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># avo
+# avo
 
 La ligne de commande officielle pour Avo.
 Plus d'informations : <https://www.avo.app/docs/implementation/cli>.

@@ -3,7 +3,7 @@ layout: page
 title: common/docker-start (português (Brasil))
 description: "Inicia um ou mais containers parados."
 content_hash: 26d661f32bf5afc0552c1fdb63c0f19c1477763f
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-start.html
@@ -20,6 +20,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-start.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker start
 

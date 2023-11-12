@@ -3,7 +3,7 @@ layout: page
 title: android/screencap (українська)
 description: "Зробіть знімок мобільного екрану."
 content_hash: e597a3f3e2b55f2b1cc94e1b19a2782ce3ee7137
-last_modified_at: 2023-10-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/screencap.html
@@ -26,6 +26,9 @@ related_topics:
   - title: Indonesia version
     url: /id/android/screencap.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/android/screencap.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/android/screencap.html
     icon: bi bi-globe
@@ -41,11 +44,9 @@ related_topics:
   - title: 中文 version
     url: /zh/android/screencap.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># screencap
+# screencap
 
 Зробіть знімок мобільного екрану.
 Ця команда може бути виконана тільки за допомогою `adb shell`.

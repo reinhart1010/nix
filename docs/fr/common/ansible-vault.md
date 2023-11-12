@@ -3,6 +3,7 @@ layout: page
 title: common/ansible-vault (français)
 description: "Chiffre & déchiffre des valeurs, des structures de données et des fichiers dans un projet Ansible."
 content_hash: 4e1ef795cda491f8ce0ba507ae7f267dbdacbf58
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible-vault.html
@@ -10,11 +11,9 @@ related_topics:
   - title: English version
     url: /en/common/ansible-vault.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ansible-vault
+# ansible-vault
 
 Chiffre & déchiffre des valeurs, des structures de données et des fichiers dans un projet Ansible.
 Plus d'informations : <https://docs.ansible.com/ansible/latest/user_guide/vault.html#id17>.

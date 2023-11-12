@@ -3,7 +3,7 @@ layout: page
 title: osx/port (English)
 description: "Package manager for macOS."
 content_hash: 701cc798927b7699b6b3fd6ff3014091e1030cbc
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/osx/port.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/port.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # port
 

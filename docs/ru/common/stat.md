@@ -3,15 +3,14 @@ layout: page
 title: common/stat (русский)
 description: "Показ информации о файле и файловой системе."
 content_hash: f3ef312830fdc55777b8b433304902ef91b2b58e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/stat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># stat
+# stat
 
 Показ информации о файле и файловой системе.
 Больше информации: <https://www.gnu.org/software/coreutils/manual/html_node/stat-invocation.html>.

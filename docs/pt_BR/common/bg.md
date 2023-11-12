@@ -3,9 +3,13 @@ layout: page
 title: common/bg (português (Brasil))
 description: "Retomar a execução, em segundo plano, de processos que foram suspensos (e.g. utilizando `Ctrl + Z`)."
 content_hash: c00c47744e568801eb495df2841899e3b787597d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/bg.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/bg.html
     icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/common/bg.html
@@ -13,18 +17,25 @@ related_topics:
   - title: italiano version
     url: /it/common/bg.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/bg.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/bg.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/common/bg.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: norsk version
     url: /no/common/bg.html
+    icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/bg.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/bg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bg
 

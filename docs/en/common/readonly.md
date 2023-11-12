@@ -3,7 +3,8 @@ layout: page
 title: common/readonly (English)
 description: "Create or modify read-only variables within a shell script, preventing the variable from being changed by subsequent commands."
 content_hash: ebca10f732036ed9feddccd00284d705d4f37195
-last_modified_at: 2023-10-24
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # readonly
 

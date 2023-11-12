@@ -2,7 +2,9 @@
 layout: page
 title: common/mosh (English)
 description: "Mobile Shell (`mosh`) is a robust and responsive replacement for SSH."
-content_hash: af0ee253cc2798acb3fbedc5c1b82fa2e22eda41
+content_hash: 37463ecce281c7b17625f83ceb7a5b15250f2211
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mosh
 
@@ -26,7 +28,7 @@ More information: <https://mosh.org>.
 
 `mosh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span>` -- `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command -with -flags</span>
 
-- Select Mosh UDP port (useful when <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span> is behind a NAT):
+- Select Mosh UDP port (useful when `remote_host` is behind a NAT):
 
 `mosh -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">124</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span>
 

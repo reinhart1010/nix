@@ -3,6 +3,8 @@ layout: page
 title: common/pdfinfo (English)
 description: "Portable Document Format (PDF) file information viewer."
 content_hash: d192491f0075a19c48c2b4706f49d5b947a2d25e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pdfinfo
 

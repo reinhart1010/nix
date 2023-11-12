@@ -3,6 +3,12 @@ layout: page
 title: common/go-fmt (English)
 description: "Format Go source files."
 content_hash: ec3e8384c57d300c2033fac75e99c71e07b5e236
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Türkçe version
+    url: /tr/common/go-fmt.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # go fmt
 

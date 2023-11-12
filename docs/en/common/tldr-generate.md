@@ -3,11 +3,10 @@ layout: page
 title: common/tldr-generate (English)
 description: "Remake configuration files from information stored locally."
 content_hash: 56531d339dca86ceea30a86c9634f4fd47bb4c2c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># tlmgr generate
+# tlmgr generate
 
 Remake configuration files from information stored locally.
 More information: <https://www.tug.org/texlive/tlmgr.html>.

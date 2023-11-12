@@ -3,6 +3,24 @@ layout: page
 title: linux/alien (English)
 description: "Convert different installation packages to other formats."
 content_hash: cff6ab38e3558da93405587160dba064408f4b95
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/linux/alien.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/alien.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/alien.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/alien.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/alien.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # alien
 

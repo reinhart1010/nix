@@ -3,6 +3,8 @@ layout: page
 title: common/typeset (English)
 description: "Declare variables and give them attributes."
 content_hash: 5644612e553a6b08f954a9d928cdc6c52759ec37
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # typeset
 

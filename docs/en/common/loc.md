@@ -3,6 +3,8 @@ layout: page
 title: common/loc (English)
 description: "Tool written in Rust that counts lines of code."
 content_hash: fb244e613473bedd4f437f3e79abc5defca0a0d3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # loc
 

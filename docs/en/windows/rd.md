@@ -3,7 +3,7 @@ layout: page
 title: windows/rd (English)
 description: "This command is an alias of `rmdir` on Command Prompt, and subsequently `Remove-Item` in PowerShell."
 content_hash: 2d82571ba5eda19f43772dd9b7044b714ac5b3a1
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/rd.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/rd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rd
 

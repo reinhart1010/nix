@@ -3,6 +3,7 @@ layout: page
 title: common/vue (English)
 description: "Multi-purpose CLI for Vue.js."
 content_hash: d1f4db58748523c37e41a8d13fc3c48cb3d0dcb2
+last_modified_at: 2023-11-12
 related_topics:
   - title: Indonesia version
     url: /id/common/vue.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/vue.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # vue
 

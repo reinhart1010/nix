@@ -3,6 +3,8 @@ layout: page
 title: linux/rtcwake (English)
 description: "Enter a system sleep state until specified wakeup time relative to your BIOS clock."
 content_hash: 6ed9baae6e5682326c73f497a30b51e2dffda056
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rtcwake
 

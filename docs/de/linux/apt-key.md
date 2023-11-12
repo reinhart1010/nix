@@ -3,6 +3,7 @@ layout: page
 title: linux/apt-key (Deutsch)
 description: "Schlüssel-Management-Tool für den APT-Paket-Manager auf Debian und Ubuntu."
 content_hash: fb78deb3b24142bab5169470b596624380e994b0
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/apt-key.html
@@ -16,12 +17,16 @@ related_topics:
   - title: italiano version
     url: /it/linux/apt-key.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/apt-key.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/apt-key.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apt-key.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apt-key
 

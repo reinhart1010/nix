@@ -3,7 +3,7 @@ layout: page
 title: osx/gmknod (polski)
 description: "To polecenie jest aliasem `-p linux mknod`."
 content_hash: 06b941e5aaeaa9cadd30e55da3b96c61f89697c8
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gmknod.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gmknod.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gmknod
 

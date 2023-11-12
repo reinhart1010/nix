@@ -3,10 +3,21 @@ layout: page
 title: common/aws-kinesis (English)
 description: "Official AWS CLI for Amazon Kinesis streaming data services."
 content_hash: b6d6bc45c448e176b51cbd3d35d848757d3980b1
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-kinesis.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/aws-kinesis.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/aws-kinesis.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/aws-kinesis.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws kinesis
 

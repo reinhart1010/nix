@@ -3,10 +3,12 @@ layout: page
 title: linux/sacctmgr (English)
 description: "View, setup, and manage Slurm accounts."
 content_hash: 5901fe9f72df4111c5048f02c7d8921ab81f3fd5
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/linux/sacctmgr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sacctmgr
 

@@ -3,7 +3,7 @@ layout: page
 title: common/jq (français)
 description: "Un processeur JSON en ligne de commande qui utilise un langage dédié (DSL)."
 content_hash: fc8a2051f92e4ddf30d6f67279f8ef01a7d368f0
-last_modified_at: 2023-10-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/jq.html
@@ -14,11 +14,9 @@ related_topics:
   - title: русский version
     url: /ru/common/jq.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># jq
+# jq
 
 Un processeur JSON en ligne de commande qui utilise un langage dédié (DSL).
 Plus d'informations : <https://stedolan.github.io/jq/manual/>.

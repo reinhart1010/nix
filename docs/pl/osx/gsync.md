@@ -3,7 +3,7 @@ layout: page
 title: osx/gsync (polski)
 description: "To polecenie jest aliasem `-p linux sync`."
 content_hash: 6744692abe839dc2a171bdc7e7bf322d762bb05b
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gsync.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gsync.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gsync
 

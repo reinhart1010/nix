@@ -2,7 +2,8 @@
 layout: page
 title: common/cut (русский)
 description: "Вырезать поля из стандартного ввода или файлов."
-content_hash: cda1193fff8b90280a917caa0111eb009c5f2f5b
+content_hash: 6ea8f12b9445062a4e80f07002290cf282b93969
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/cut.html
@@ -19,16 +20,17 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cut.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/cut.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cut
+# cut
 
 Вырезать поля из стандартного ввода или файлов.
 Больше информации: <https://www.gnu.org/software/coreutils/cut>.
 
-- Вывести указанный диапазон символов/полей каждой строки (`--`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">characters|fields</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|1,10|1-10|1-|-10</span> далее обозначается как <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">диапазон</span>):
+- Вывести указанный диапазон символов/полей каждой строки (`--characters|fields=1|1,10|1-10|1-|-10` далее обозначается как `диапазон`):
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">команда</span>` | cut --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">characters|fields</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|1,10|1-10|1-|-10</span>
 

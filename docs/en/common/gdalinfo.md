@@ -3,11 +3,10 @@ layout: page
 title: common/gdalinfo (English)
 description: "List various information about a GDAL supported raster dataset."
 content_hash: cd884420af904fa9b66cdb938a9c0b4032c2cc60
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gdalinfo
+# gdalinfo
 
 List various information about a GDAL supported raster dataset.
 More information: <https://gdal.org/programs/gdalinfo.html>.

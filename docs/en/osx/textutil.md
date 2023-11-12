@@ -3,7 +3,7 @@ layout: page
 title: osx/textutil (English)
 description: "Used to manipulate text files of various formats."
 content_hash: e0ac8647b5ce420fbc63cb119c51a755e84b42f0
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/osx/textutil.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/textutil.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # textutil
 

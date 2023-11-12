@@ -3,7 +3,12 @@ layout: page
 title: openbsd/pkg_delete (English)
 description: "Remove packages in OpenBSD."
 content_hash: 95061a6bfe15b8d1ab97224b3eb9bdd4743dcb98
-last_modified_at: 2023-10-22
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Nederlands version
+    url: /nl/openbsd/pkg_delete.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pkg_delete
 

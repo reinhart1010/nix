@@ -3,7 +3,7 @@ layout: page
 title: common/piodebuggdb (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `pio debug`"
 content_hash: 94bc71f7c01dfc0e633aee525e7634a2399b6fd3
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/piodebuggdb.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/piodebuggdb.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # piodebuggdb
 

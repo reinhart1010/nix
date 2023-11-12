@@ -3,12 +3,10 @@ layout: page
 title: common/jf (English)
 description: "Interact with JFrog products like Artifactory, Xray, Distribution, Pipelines and Mission Control."
 content_hash: 68cd84682af4839dd174293142ece75261debec8
-last_modified_at: 2023-08-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># jf
+# jf
 
 Interact with JFrog products like Artifactory, Xray, Distribution, Pipelines and Mission Control.
 More information: <https://jfrog.com/help/r/jfrog-cli/usage>.

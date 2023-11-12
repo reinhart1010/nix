@@ -3,7 +3,7 @@ layout: page
 title: common/aws (日本語)
 description: "アマゾンウェブサービスの公式 CLI ツールです。"
 content_hash: 1e32cbfe3af7b1cd0511d992ce34cc3e5ca8e0b2
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/aws.html
@@ -26,6 +26,10 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/aws.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/aws.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws
 

@@ -3,9 +3,16 @@ layout: page
 title: common/docker-run (English)
 description: "Run a command in a new Docker container."
 content_hash: 557dfcc60dca09d424480c6597d98016d43920f7
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-run.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/docker-run.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/docker-run.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker-run.html
@@ -13,6 +20,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-run.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker run
 

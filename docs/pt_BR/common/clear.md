@@ -3,6 +3,7 @@ layout: page
 title: common/clear (português (Brasil))
 description: "Limpa a tela do terminal."
 content_hash: 5a43c483469aba0f414cc8dd2991f8306014abba
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/clear.html
@@ -12,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/clear.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/clear.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/clear.html
@@ -28,6 +32,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/clear.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # clear
 

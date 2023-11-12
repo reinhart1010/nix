@@ -3,6 +3,8 @@ layout: page
 title: common/php-artisan (English)
 description: "Laravel's Artisan command-line interface."
 content_hash: 4f28109ad08d28a5dfc732b23fa7617fddfd9d86
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # php artisan
 

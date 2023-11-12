@@ -3,6 +3,7 @@ layout: page
 title: common/ebook-convert (Deutsch)
 description: "Kann verwendet werden, um E-Books zu geläufigen Dateiformaten umzuwandeln, z.B. PDF, EPUB und MOBI."
 content_hash: 3978fa95012e01de4f431a1a908402be94d37cbe
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ebook-convert.html
@@ -13,11 +14,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/ebook-convert.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ebook-convert
+# ebook-convert
 
 Kann verwendet werden, um E-Books zu geläufigen Dateiformaten umzuwandeln, z.B. PDF, EPUB und MOBI.
 Teil der Calibre e-book library.

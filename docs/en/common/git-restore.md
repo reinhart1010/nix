@@ -3,6 +3,7 @@ layout: page
 title: common/git-restore (English)
 description: "Restore working tree files. Requires Git version 2.23+."
 content_hash: e2c9e2622db1ba89d425f9b351f0d5bcfb2fcaa5
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/git-restore.html
@@ -13,6 +14,10 @@ related_topics:
   - title: italiano version
     url: /it/common/git-restore.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-restore.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git restore
 

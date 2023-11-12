@@ -3,13 +3,17 @@ layout: page
 title: common/perl (français)
 description: "Interpréteur du langage Perl (version 5)."
 content_hash: 3c974ab0b7892232f0ef2bf8d5303cb3ff286db2
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/perl.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# perl
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># perl
 
 Interpréteur du langage Perl (version 5).
 Plus d'informations : <https://www.perl.org>.

@@ -3,10 +3,12 @@ layout: page
 title: linux/readelf (English)
 description: "Displays information about ELF files."
 content_hash: f7c4a90561eb7a708da8511e835db32242a35004
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/linux/readelf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # readelf
 

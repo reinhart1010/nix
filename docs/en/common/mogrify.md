@@ -3,7 +3,8 @@ layout: page
 title: common/mogrify (English)
 description: "Perform operations on multiple images, such as resizing, cropping, flipping, and adding effects."
 content_hash: d1e683fcbe5bcdb2da34dbb9e11f49ec4b526d2a
-last_modified_at: 2023-10-05
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mogrify
 

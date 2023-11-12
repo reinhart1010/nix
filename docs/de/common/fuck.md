@@ -3,10 +3,18 @@ layout: page
 title: common/fuck (Deutsch)
 description: "Korrigiert den zuletzt ausgeführten Befehl."
 content_hash: af37e4f224773bdade7300bbd0469a4f8df2f005
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/fuck.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/common/fuck.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/fuck.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fuck
 

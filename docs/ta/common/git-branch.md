@@ -3,6 +3,7 @@ layout: page
 title: common/git-branch (தமிழ்)
 description: "கிளைகளுடன் வேலை செய்வதற்கான பிரதான கிட் கட்டளை."
 content_hash: 6aab5055315b215709e5acec6855a2be6ab43a57
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-branch.html
@@ -22,9 +23,13 @@ related_topics:
   - title: italiano version
     url: /it/common/git-branch.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-branch.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-branch.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git branch
 

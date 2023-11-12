@@ -3,16 +3,14 @@ layout: page
 title: osx/lex (español)
 description: "Generador de analizadores léxicos."
 content_hash: 469e3afcb5bc438bf55a7de21fcf56eee047e786
-last_modified_at: 2023-09-13
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/lex.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># lex
+# lex
 
 Generador de analizadores léxicos.
 Dada la especificación de un analizador léxico, genera código C implementándolo.

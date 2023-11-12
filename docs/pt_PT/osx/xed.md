@@ -3,13 +3,18 @@ layout: page
 title: osx/xed (português (Portugal))
 description: "Abre ficheiros para editar no Xcode."
 content_hash: fd8272741433602b46287a93ee0a8aa37dd1e1dc
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/xed.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/osx/xed.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/xed.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xed
 

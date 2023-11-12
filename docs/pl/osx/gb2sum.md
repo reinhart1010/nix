@@ -3,7 +3,7 @@ layout: page
 title: osx/gb2sum (polski)
 description: "To polecenie jest aliasem `-p linux b2sum`."
 content_hash: 0f15453c261392d6dbbd99484a221eb922a51c5f
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gb2sum.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gb2sum.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gb2sum
 

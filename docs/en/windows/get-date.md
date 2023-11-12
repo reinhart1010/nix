@@ -3,12 +3,10 @@ layout: page
 title: windows/get-date (English)
 description: "Gets the current date and time."
 content_hash: dbc7937704dcbb9e53ed7643eae5c50b1411779b
-last_modified_at: 2022-12-21
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># Get-Date
+# Get-Date
 
 Gets the current date and time.
 This command can only be used through PowerShell.

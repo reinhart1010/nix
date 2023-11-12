@@ -3,12 +3,10 @@ layout: page
 title: common/kismet (English)
 description: "A wireless network and device detector, sniffer, wardriving tool, and WIDS (wireless intrusion detection) framework."
 content_hash: cf53d669e7a5cba495356b938ca791189c20b9ea
-last_modified_at: 2023-08-17
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># kismet
+# kismet
 
 A wireless network and device detector, sniffer, wardriving tool, and WIDS (wireless intrusion detection) framework.
 More information: <https://www.kismetwireless.net/>.

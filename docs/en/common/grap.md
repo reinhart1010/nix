@@ -3,6 +3,8 @@ layout: page
 title: common/grap (English)
 description: "A charting preprocessor for the groff (GNU Troff) document formatting system."
 content_hash: 078ddd084aa1b5bf9d1529ddedc1fe1b03006d85
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # grap
 

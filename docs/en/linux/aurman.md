@@ -3,11 +3,12 @@ layout: page
 title: linux/aurman (English)
 description: "An Arch Linux utility to build and install packages from the Arch User Repository."
 content_hash: b0d735eea717460c5a26ff6ed8e0a7262b57188c
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/linux/aurman.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aurman
 

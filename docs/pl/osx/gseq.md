@@ -3,7 +3,7 @@ layout: page
 title: osx/gseq (polski)
 description: "To polecenie jest aliasem `-p linux seq`."
 content_hash: ae262ba7eeb9a05bb3363e981b95e29feaf84c61
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gseq.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gseq.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gseq
 

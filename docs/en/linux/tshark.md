@@ -3,7 +3,12 @@ layout: page
 title: linux/tshark (English)
 description: "Packet analysis tool, CLI version of Wireshark."
 content_hash: df21c57440a44e8502f9f418a7822e694ff28ec9
-last_modified_at: 2022-12-01
+last_modified_at: 2023-11-12
+related_topics:
+  - title: தமிழ் version
+    url: /ta/linux/tshark.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tshark
 

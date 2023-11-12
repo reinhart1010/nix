@@ -3,11 +3,12 @@ layout: page
 title: windows/iscc (English)
 description: "Compiler for Inno Setup installers."
 content_hash: d0c725b6c7f5bcb9bd58acf24d58a4d11a7436c5
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/windows/iscc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # iscc
 

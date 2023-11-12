@@ -3,7 +3,7 @@ layout: page
 title: common/asciinema (中文)
 description: "录制和播放终端会话，也可以把他们分享到 asciinema.org."
 content_hash: 79837841ef4f1c4a4d03c3c5c72b1483d35e8ab8
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/asciinema.html
@@ -23,6 +23,7 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/asciinema.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # asciinema
 

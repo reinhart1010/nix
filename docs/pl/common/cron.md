@@ -3,7 +3,7 @@ layout: page
 title: common/cron (polski)
 description: "To polecenie jest aliasem `crontab`."
 content_hash: a8950b6ac3902138b7cebc5dc065e4eb44838af6
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/cron.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/cron.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cron
 

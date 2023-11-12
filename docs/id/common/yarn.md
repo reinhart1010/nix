@@ -3,13 +3,21 @@ layout: page
 title: common/yarn (Indonesia)
 description: "Pengelola paket alternatif untuk JavaScript dan Node.js."
 content_hash: ac29fa12f58a4b1ba0537ecef04800f7139601d6
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/yarn.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/yarn.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/yarn.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/yarn.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # yarn
 

@@ -3,6 +3,7 @@ layout: page
 title: common/git-rebase (français)
 description: "Rejoue les commits d'une branche par dessus une autre."
 content_hash: 906fe34fba22406a31dfd69cb42ba56d6bfeb1ca
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-rebase.html
@@ -16,6 +17,16 @@ related_topics:
   - title: italiano version
     url: /it/common/git-rebase.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-rebase.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-rebase.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/git-rebase.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git rebase
 

@@ -3,11 +3,10 @@ layout: page
 title: common/isisdl (English)
 description: "A downloading utility for ISIS of TU-Berlin. Download all your files and videos from ISIS."
 content_hash: e45dc17812ec6b1817e5b36af204b7ff3204f972
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># isisdl
+# isisdl
 
 A downloading utility for ISIS of TU-Berlin. Download all your files and videos from ISIS.
 More information: <https://github.com/Emily3403/isisdl>.

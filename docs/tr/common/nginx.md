@@ -3,6 +3,7 @@ layout: page
 title: common/nginx (Türkçe)
 description: "Nginx web sunucusu."
 content_hash: 9c5c68cc9412b7b4c30f30af1170f34dbc14a1ac
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/nginx.html
@@ -10,6 +11,10 @@ related_topics:
   - title: English version
     url: /en/common/nginx.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/nginx.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nginx
 

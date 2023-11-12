@@ -3,11 +3,12 @@ layout: page
 title: common/nest (español)
 description: "Herramienta de línea de comandos para inicializar, desarrollar y mantener aplicaciones Nest."
 content_hash: 9c1a9b5e6831142ce78f9bcec43aa3c5865e1b79
-last_modified_at: 2023-10-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/nest.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nest
 

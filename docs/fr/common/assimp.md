@@ -3,7 +3,7 @@ layout: page
 title: common/assimp (français)
 description: "Client en ligne de commande pour l'Open Asset Import Library."
 content_hash: 2599ee348636adc5f901c5ace8edee8030dea9ac
-last_modified_at: 2023-04-10
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/assimp.html
@@ -17,6 +17,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/assimp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # assimp
 

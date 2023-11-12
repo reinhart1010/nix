@@ -3,7 +3,7 @@ layout: page
 title: common/banner (italiano)
 description: "Stampa il testo fornito per argomento come un grande banner in ASCII art."
 content_hash: c0a04eab4f241b758246b7ea81fb22440c3f42ee
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/banner.html
@@ -20,6 +20,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/banner.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # banner
 

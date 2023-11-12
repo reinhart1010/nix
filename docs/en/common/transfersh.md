@@ -3,6 +3,8 @@ layout: page
 title: common/transfersh (English)
 description: "An unofficial command-line client for transfer.sh."
 content_hash: 15fa21bf1531b96b980c6859d275ec1f385e70a1
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # transfersh
 

@@ -3,10 +3,15 @@ layout: page
 title: windows/tasklist (中文)
 description: "显示本地或远程计算机上当前正在运行的进程的列表。"
 content_hash: 741f15baf2acd6a185dd0af7f36a8190ea895704
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/tasklist.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/tasklist.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tasklist
 

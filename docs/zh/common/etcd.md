@@ -3,11 +3,12 @@ layout: page
 title: common/etcd (中文)
 description: "分布式，可靠的键值存储，用于分布式系统中存储最关键的数据。"
 content_hash: 2181eec40ea8d2d55dbe7055a6d85c873f64aa9c
-last_modified_at: 2023-09-10
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/etcd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # etcd
 

@@ -3,16 +3,14 @@ layout: page
 title: osx/universalaccessd (español)
 description: "Proporciona servicios de acceso universal."
 content_hash: 750ada3b4b4319429a4a35691b2041557a056e4a
-last_modified_at: 2023-10-24
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/universalaccessd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># universalaccessd
+# universalaccessd
 
 Proporciona servicios de acceso universal.
 No debe invocarse manualmente.

@@ -3,7 +3,7 @@ layout: page
 title: common/astyle (한국어)
 description: "C, C ++, C # 및 Java 프로그래밍 언어에 대한 소스 코드 인덴터, 포맷터 및 미화기."
 content_hash: f590bc2d94b14e53d6018c5bbaede4f1ebcdf053
-last_modified_at: 2023-05-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/astyle.html
@@ -17,6 +17,7 @@ related_topics:
   - title: italiano version
     url: /it/common/astyle.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # astyle
 

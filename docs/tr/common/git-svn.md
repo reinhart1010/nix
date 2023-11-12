@@ -3,6 +3,7 @@ layout: page
 title: common/git-svn (Türkçe)
 description: "Bir alt sürüm deposu ve Git arasında çift yönlü operasyon."
 content_hash: cfc7b2cfb6166e17bbe13137c266b72d53da5301
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-svn.html
@@ -16,6 +17,7 @@ related_topics:
   - title: italiano version
     url: /it/common/git-svn.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git svn
 

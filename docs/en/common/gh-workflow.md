@@ -3,7 +3,8 @@ layout: page
 title: common/gh-workflow (English)
 description: "List, view, and run GitHub Actions workflows."
 content_hash: 06edf9098a5449e915b4be78fea366922c7c2767
-last_modified_at: 2023-02-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gh workflow
 

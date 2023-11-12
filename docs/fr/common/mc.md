@@ -3,11 +3,12 @@ layout: page
 title: common/mc (français)
 description: "Midnight Commander, gestionnaire de fichiers à base de console."
 content_hash: 2e8debd5d1cfc8bd2b128a867978395800921e39
-last_modified_at: 2023-06-27
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/mc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mc
 

@@ -3,7 +3,7 @@ layout: page
 title: osx/codesign (English)
 description: "Create and manipulate code signatures for macOS."
 content_hash: 935b90d2fef24eeb882a05ada0535d697fa34bad
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/osx/codesign.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/codesign.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # codesign
 

@@ -3,7 +3,11 @@ layout: page
 title: linux/cmus (français)
 description: "Lecteur de musique en ligne de commande."
 content_hash: 6ee0b954a976c95b41a5a29a5d7614468482d051
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/cmus.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/cmus.html
     icon: bi bi-globe
@@ -16,6 +20,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/cmus.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cmus
 

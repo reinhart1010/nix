@@ -3,7 +3,7 @@ layout: page
 title: common/docker-build (日本語)
 description: "Dockerfileからイメージを構築します。"
 content_hash: fd1496be1e4dab1cd96068ea9244ae8fcadaf8f8
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-build.html
@@ -32,6 +32,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/docker-build.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker build
 

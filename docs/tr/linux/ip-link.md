@@ -3,10 +3,12 @@ layout: page
 title: linux/ip-link (Türkçe)
 description: "Ağ arayüzlerini yönet."
 content_hash: d9b3fdf3234a4ca41ad840820971d81fdf4148b1
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/ip-link.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ip link
 

@@ -3,7 +3,7 @@ layout: page
 title: linux/free (हिन्दी)
 description: "सिस्टम में 'Free' और यूज्ड मेमोरी की मात्रा दिखाता है।"
 content_hash: 0266e777b10c4adcdba66e7ccac301c4b3b77015
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/free.html
@@ -14,9 +14,13 @@ related_topics:
   - title: español version
     url: /es/linux/free.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/free.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/free.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # free
 

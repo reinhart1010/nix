@@ -3,6 +3,8 @@ layout: page
 title: common/fgrep (English)
 description: "Matches fixed strings in files."
 content_hash: 4a88db2a480e12bb3ac5f13c4f5ffc8888da91a9
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fgrep
 

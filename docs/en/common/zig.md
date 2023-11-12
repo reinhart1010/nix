@@ -3,6 +3,8 @@ layout: page
 title: common/zig (English)
 description: "The Zig compiler and toolchain."
 content_hash: 6c42b23bd3ef1c9925bcec2acf88ecf2f1b4df78
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # zig
 

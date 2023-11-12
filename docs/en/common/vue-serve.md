@@ -3,10 +3,12 @@ layout: page
 title: common/vue-serve (English)
 description: "A subcommand provided by `@vue/cli` and `@vue/cli-service-global` that enables quick prototyping."
 content_hash: 85b3afada27f031759d1856c483aec66852a67d0
+last_modified_at: 2023-11-12
 related_topics:
   - title: Indonesia version
     url: /id/common/vue-serve.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # vue serve
 

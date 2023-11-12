@@ -3,10 +3,12 @@ layout: page
 title: linux/chattr (English)
 description: "Change attributes of files or directories."
 content_hash: 4615cfc59f80dd788ae9269129154ba64f46069b
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/chattr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chattr
 

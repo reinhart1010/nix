@@ -3,6 +3,8 @@ layout: page
 title: linux/ffuf (English)
 description: "Subdomain and directory discovery tool."
 content_hash: 03bb9c4ebcec61e104ad806b78170380d249cade
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ffuf
 

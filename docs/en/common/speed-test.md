@@ -3,7 +3,8 @@ layout: page
 title: common/speed-test (English)
 description: "Test your internet connection speed and ping using <https://speedtest.net>."
 content_hash: a33c74921f1bb14c7d0b7b342ffc39531cdc9c62
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # speed-test
 

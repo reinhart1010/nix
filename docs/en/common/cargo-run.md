@@ -3,7 +3,8 @@ layout: page
 title: common/cargo-run (English)
 description: "Run the current Cargo package."
 content_hash: 85d00d5f04efb8fbb98abab4944b1ace05b397d0
-last_modified_at: 2023-10-30
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # cargo run
 

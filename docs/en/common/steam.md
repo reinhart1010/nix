@@ -3,11 +3,12 @@ layout: page
 title: common/steam (English)
 description: "Video game platform by Valve."
 content_hash: c8c088241c66fdd59beb3517acca600a11c36fc9
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/steam.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # steam
 

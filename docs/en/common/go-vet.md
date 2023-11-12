@@ -3,6 +3,12 @@ layout: page
 title: common/go-vet (English)
 description: "Check Go source code and report suspicious constructs (e.g. lint your Go source files)."
 content_hash: 8f92c524d90bccebff4160947d85d92a4387f216
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Türkçe version
+    url: /tr/common/go-vet.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # go vet
 

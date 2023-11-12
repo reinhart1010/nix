@@ -3,7 +3,7 @@ layout: page
 title: android/cmd (українська)
 description: "Менеджер сервісів Android."
 content_hash: 5efaa817c6f78f607a79359e9c77d56b2cc9bc70
-last_modified_at: 2023-10-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/cmd.html
@@ -35,6 +35,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/android/cmd.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/android/cmd.html
+    icon: bi bi-globe
   - title: polski version
     url: /pl/android/cmd.html
     icon: bi bi-globe
@@ -62,11 +65,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/cmd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cmd
+# cmd
 
 Менеджер сервісів Android.
 Більше інформації: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/cmd/>.

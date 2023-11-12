@@ -3,6 +3,7 @@ layout: page
 title: common/pnpm (Deutsch)
 description: "Schneller, speicherplatzsparender Paketmanager für Node.js."
 content_hash: 484de277ffa8e5c1c869cb7ca03c29c533ab346d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/pnpm.html
@@ -10,11 +11,12 @@ related_topics:
   - title: Indonesia version
     url: /id/common/pnpm.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/pnpm.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pnpm
+# pnpm
 
 Schneller, speicherplatzsparender Paketmanager für Node.js.
 Ein Kommandozeilenwerkzeug für die Verwaltung von JavaScript und Node.js Paketen (Packages).

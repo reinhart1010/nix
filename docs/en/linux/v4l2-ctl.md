@@ -3,7 +3,8 @@ layout: page
 title: linux/v4l2-ctl (English)
 description: "Control video devices."
 content_hash: 87e8f4a34f943bb76720fc44e7f1c9c1952d3d0f
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # v4l2-ctl
 

@@ -3,10 +3,12 @@ layout: page
 title: linux/iwctl (français)
 description: "Un outil de ligne de commande pour gérer iwd."
 content_hash: 24d47f0804ce62f159b56052929a4be3ceb7de96
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/iwctl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # iwctl
 

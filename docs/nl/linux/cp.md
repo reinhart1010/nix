@@ -3,7 +3,7 @@ layout: page
 title: linux/cp (Nederlands)
 description: "Kopieer bestanden en mappen."
 content_hash: a32fcd14d25b5b29a545821f1551d3fedfadfb41
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/cp.html
@@ -41,6 +41,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/linux/cp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cp
 

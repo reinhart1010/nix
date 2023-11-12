@@ -3,6 +3,7 @@ layout: page
 title: common/behat (English)
 description: "A PHP framework for Behaviour-Driven Development."
 content_hash: 1fc0f3247260a5adaf9bf42d9ad7435142e9227e
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/behat.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/behat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # behat
 

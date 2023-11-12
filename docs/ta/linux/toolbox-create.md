@@ -3,11 +3,12 @@ layout: page
 title: linux/toolbox-create (தமிழ்)
 description: "புதிய `toolbox` கொள்கலனை உருவாக்கவும்."
 content_hash: acbd8b447db2e65c9da6bbf3d829c10b36b703a3
-last_modified_at: 2023-06-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/toolbox-create.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # toolbox create
 

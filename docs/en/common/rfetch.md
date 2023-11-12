@@ -3,6 +3,8 @@ layout: page
 title: common/rfetch (English)
 description: "A configurable fetch program to output system information."
 content_hash: 14cf976e680547b0a6b86120e0e18ba389c3c61f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rfetch
 

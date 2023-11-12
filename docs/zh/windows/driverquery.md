@@ -3,10 +3,12 @@ layout: page
 title: windows/driverquery (中文)
 description: "显示已安装设备驱动程序的信息。"
 content_hash: be6db430642d2c08988dde6564e32803172ddc10
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/driverquery.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # driverquery
 

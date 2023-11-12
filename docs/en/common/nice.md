@@ -3,6 +3,8 @@ layout: page
 title: common/nice (English)
 description: "Execute a program with a custom scheduling priority (niceness)."
 content_hash: d55d44dc2782770d88134fcb4212164e4ed95f75
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # nice
 

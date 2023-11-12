@@ -3,6 +3,7 @@ layout: page
 title: common/docker-stats (français)
 description: "Affiché un flux en direct des statistiques d'utilisation des ressources pour les conteneurs."
 content_hash: d6fa0e05f8e009c5825cb4110dd667a574db825c
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-stats.html
@@ -16,11 +17,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-stats.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docker stats
+# docker stats
 
 Affiché un flux en direct des statistiques d'utilisation des ressources pour les conteneurs.
 Plus d'informations : <https://docs.docker.com/engine/reference/commandline/stats/>.

@@ -3,7 +3,7 @@ layout: page
 title: windows/mkdir (বাংলা)
 description: "একটি নির্দেশিকা তৈরি করে।"
 content_hash: df1cf51d2006203d7bd209248df303af0787a2c8
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/mkdir.html
@@ -29,6 +29,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/mkdir.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mkdir
 

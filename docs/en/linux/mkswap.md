@@ -3,7 +3,8 @@ layout: page
 title: linux/mkswap (English)
 description: "Set up a Linux swap area on a device or in a file."
 content_hash: 4e9e3cc6ada1fc1af01d127aa60daa559dc78de1
-last_modified_at: 2023-08-19
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mkswap
 

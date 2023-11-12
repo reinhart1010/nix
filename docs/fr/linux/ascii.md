@@ -3,7 +3,7 @@ layout: page
 title: linux/ascii (français)
 description: "Affiche les alias de caractères ASCII."
 content_hash: f4207cedda9c29333fc43486f561563f1a28c245
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/ascii.html
@@ -17,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/ascii.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ascii
 

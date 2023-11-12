@@ -3,7 +3,8 @@ layout: page
 title: common/unzstd (English)
 description: "This command is an alias of `zstd --decompress`."
 content_hash: 4ceefeaacc1c4b47c9f7982e4a290758c952aebf
-last_modified_at: 2023-09-07
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # unzstd
 

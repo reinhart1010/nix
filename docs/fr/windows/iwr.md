@@ -3,7 +3,7 @@ layout: page
 title: windows/iwr (français)
 description: "Cette commande est un alias de `invoke-webrequest`."
 content_hash: 394df09cd03ce24dc0a2e8c97d126f3d06fe2781
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/iwr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # iwr
 

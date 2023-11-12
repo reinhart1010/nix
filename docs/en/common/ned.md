@@ -3,6 +3,8 @@ layout: page
 title: common/ned (English)
 description: "Is like `grep` but with powerful replace capabilities."
 content_hash: ac73f29146230c675ad48256b61a56ce74d0063f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ned
 

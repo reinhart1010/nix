@@ -3,9 +3,13 @@ layout: page
 title: linux/as (English)
 description: "Portable GNU assembler."
 content_hash: 2908ece6b3703029a69bfd17507821bc158536f4
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/as.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/as.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/as.html
@@ -13,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/as.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # as
 

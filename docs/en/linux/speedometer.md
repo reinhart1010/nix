@@ -3,6 +3,8 @@ layout: page
 title: linux/speedometer (English)
 description: "Python script that shows a network traffic graph in the terminal."
 content_hash: dec13fd59b029fc36c6bf084731b3db00e8119e1
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # speedometer
 

@@ -3,6 +3,12 @@ layout: page
 title: linux/wine (English)
 description: "Run Windows executables on Unix-based systems."
 content_hash: d0b668459797fcf15c9ea05c5fa69f12ca2c2486
+last_modified_at: 2023-11-12
+related_topics:
+  - title: தமிழ் version
+    url: /ta/linux/wine.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wine
 

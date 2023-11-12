@@ -3,7 +3,14 @@ layout: page
 title: linux/apt-get (português (Brasil))
 description: "Gerenciador de pacotes das distribuições baseadas em Debian."
 content_hash: f8f06b912f16967f12b60eb87f8a17d3e2d64bba
+last_modified_at: 2023-11-12
 related_topics:
+  - title: العربية version
+    url: /ar/linux/apt-get.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/linux/apt-get.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/apt-get.html
     icon: bi bi-globe
@@ -13,18 +20,31 @@ related_topics:
   - title: español version
     url: /es/linux/apt-get.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/linux/apt-get.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/linux/apt-get.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/apt-get.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/apt-get.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/apt-get.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/apt-get.html
+    icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/apt-get.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/apt-get.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apt-get
 

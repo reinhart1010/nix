@@ -3,13 +3,24 @@ layout: page
 title: common/docker-image (English)
 description: "Manage Docker images."
 content_hash: cd2d7d333121f7396e2b20f4000b9baee351882a
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-image.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/docker-image.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/docker-image.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/docker-image.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/docker-image.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker image
 

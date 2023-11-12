@@ -3,12 +3,10 @@ layout: page
 title: windows/set-service (English)
 description: "Starts, stops, and suspends a service, and changes its properties."
 content_hash: 9ac4233411221ea05108f20bafb44b8eafa8aace
-last_modified_at: 2022-12-21
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># Set-Service
+# Set-Service
 
 Starts, stops, and suspends a service, and changes its properties.
 This command can only be used through PowerShell.

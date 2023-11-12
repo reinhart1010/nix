@@ -3,6 +3,8 @@ layout: page
 title: common/elixir (English)
 description: "Elixir programming language interpreter."
 content_hash: 542480f36c193abb7f51b05bb763d2f0b0da8ed5
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # elixir
 

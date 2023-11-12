@@ -3,10 +3,12 @@ layout: page
 title: common/csvsql (English)
 description: "Generate SQL statements for a CSV file or execute those statements directly on a database."
 content_hash: b610be968ba2c99688bd43b47554cb14af66d2bc
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/csvsql.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # csvsql
 

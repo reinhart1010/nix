@@ -3,7 +3,7 @@ layout: page
 title: osx/gmkfifo (polski)
 description: "To polecenie jest aliasem `-p linux mkfifo`."
 content_hash: 2b424187eeee034bb3b74ce486fa6706f0531c20
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gmkfifo.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gmkfifo.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gmkfifo
 

@@ -3,11 +3,12 @@ layout: page
 title: common/logger (中文)
 description: "向系统日志增加记录（/var/log/syslog）。"
 content_hash: 701c4fe618a6dea0bbaeaa5808a37d5c42baab5c
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/logger.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # logger
 

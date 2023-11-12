@@ -3,13 +3,24 @@ layout: page
 title: common/gdb (Deutsch)
 description: "Der GNU Debugger."
 content_hash: 4508a762c84a94e6c160955c7075bd9c93375c23
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/gdb.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/gdb.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/gdb.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/gdb.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/gdb.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gdb
 

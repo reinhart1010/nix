@@ -3,7 +3,8 @@ layout: page
 title: common/phpmd (English)
 description: "A PHP mess detector that checks for common potential problems."
 content_hash: 7a4aa276c3d4df9128f578a83c20a234b4392f58
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # phpmd
 

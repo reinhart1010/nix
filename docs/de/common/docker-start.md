@@ -3,7 +3,7 @@ layout: page
 title: common/docker-start (Deutsch)
 description: "Starte einen oder mehrere gestoppte Container."
 content_hash: cd58431a1660663f89583d7311ebb98956ef9f88
-last_modified_at: 2023-05-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/docker-start.html
@@ -20,6 +20,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-start.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker start
 

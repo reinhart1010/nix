@@ -3,7 +3,7 @@ layout: page
 title: common/git-annotate (English)
 description: "Show commit hash and last author on each line of a file."
 content_hash: 51a67ff08290be80edfe0903e7304cc7d8b530a0
-last_modified_at: 2023-01-25
+last_modified_at: 2023-11-12
 related_topics:
   - title: 한국어 version
     url: /ko/common/git-annotate.html
@@ -11,6 +11,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-annotate.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git annotate
 

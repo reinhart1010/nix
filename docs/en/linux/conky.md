@@ -3,6 +3,7 @@ layout: page
 title: linux/conky (English)
 description: "Light-weight system monitor for X."
 content_hash: 9b98033f6018a534e7d84272d131aaa51ba6bbae
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/conky.html
@@ -10,6 +11,7 @@ related_topics:
   - title: español version
     url: /es/linux/conky.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # conky
 

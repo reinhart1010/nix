@@ -3,6 +3,7 @@ layout: page
 title: common/csvcut (한국어)
 description: "유닉스의 `cut` 명령어와 같이 CSV 파일 필터링 및 잘라내기, tabular 데이터 보존을 위해. csvkit에 포함된 CSV 파일만 해당."
 content_hash: fd47be75ce5f1b85037e6ea87a98bf6b7bb359a0
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/csvcut.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/csvcut.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # csvcut
 

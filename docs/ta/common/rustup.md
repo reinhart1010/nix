@@ -3,11 +3,12 @@ layout: page
 title: common/rustup (தமிழ்)
 description: "ரஸ்ட் டூல்செயின் நிறுவி."
 content_hash: 8641454b05a4312bd9dbd8f8ad1d91fdaa63c6a6
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/rustup.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rustup
 

@@ -3,6 +3,8 @@ layout: page
 title: common/pio-access (English)
 description: "Set the access level on published resources (packages) in the registry."
 content_hash: 5eb40a66156055cce69f49211e9ae25cf62d4091
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pio access
 

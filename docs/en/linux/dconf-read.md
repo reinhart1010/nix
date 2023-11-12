@@ -3,11 +3,14 @@ layout: page
 title: linux/dconf-read (English)
 description: "Read key values from dconf databases."
 content_hash: 628a2776544743586d33fdd448c99ff3c99fe835
+last_modified_at: 2023-11-12
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/linux/dconf-read.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dconf read
+# dconf read
 
 Read key values from dconf databases.
 See also: `dconf`.

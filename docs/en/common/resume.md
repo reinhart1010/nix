@@ -3,7 +3,8 @@ layout: page
 title: common/resume (English)
 description: "Easily setup a new resume."
 content_hash: 9ac7dde34b037a5beff00e619a4ea6909819fe59
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # resume
 

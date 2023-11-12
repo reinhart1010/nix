@@ -3,11 +3,10 @@ layout: page
 title: linux/faillock (English)
 description: "Display and modify authentication failure record files."
 content_hash: b78357e59470092c0e28b504747b9a370d32613e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># faillock
+# faillock
 
 Display and modify authentication failure record files.
 More information: <https://manned.org/faillock>.

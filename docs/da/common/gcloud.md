@@ -3,16 +3,17 @@ layout: page
 title: common/gcloud (dansk)
 description: "Det officielle CLI værktøj for Google Cloud Platform."
 content_hash: a5b39402b89875b70d37893405a8ffa4536ee7b0
-last_modified_at: 2023-02-07
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/gcloud.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/gcloud.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gcloud
+# gcloud
 
 Det officielle CLI værktøj for Google Cloud Platform.
 Mere information: <https://cloud.google.com/sdk/gcloud>.

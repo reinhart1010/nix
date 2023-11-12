@@ -3,7 +3,7 @@ layout: page
 title: windows/doskey (हिन्दी)
 description: "मैक्रोज़, विंडोज़ कमांड और कमांड-लाइन प्रबंधित करें।"
 content_hash: c6df753557ea2666c09360080d0b28fbb7803b9d
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/windows/doskey.html
@@ -17,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/doskey.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # doskey
 

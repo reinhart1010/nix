@@ -3,7 +3,7 @@ layout: page
 title: common/esbuild (한국어)
 description: "속도를 위해 제작된 자바스크립트 번들러 및 압축 도구."
 content_hash: 00997acd42e62f5903dd0a4ff5427901c03b1807
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/esbuild.html
@@ -11,11 +11,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/esbuild.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># esbuild
+# esbuild
 
 속도를 위해 제작된 자바스크립트 번들러 및 압축 도구.
 더 많은 정보: <https://esbuild.github.io/>.

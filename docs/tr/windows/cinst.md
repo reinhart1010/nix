@@ -3,10 +3,19 @@ layout: page
 title: windows/cinst (Türkçe)
 description: "Bu komut `choco install` için bir takma addır."
 content_hash: eb6d837755652af7a0c2821bad05f5c9465777bb
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
+  - title: العربية version
+    url: /ar/windows/cinst.html
+    icon: bi bi-globe
   - title: bosanski version
     url: /bs/windows/cinst.html
+    icon: bi bi-globe
+  - title: català version
+    url: /ca/windows/cinst.html
+    icon: bi bi-globe
+  - title: dansk version
+    url: /da/windows/cinst.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/cinst.html
@@ -32,11 +41,17 @@ related_topics:
   - title: 日本語 version
     url: /ja/windows/cinst.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/windows/cinst.html
+    icon: bi bi-globe
   - title: ລາວ version
     url: /lo/windows/cinst.html
     icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/windows/cinst.html
+    icon: bi bi-globe
+  - title: नेपाली version
+    url: /ne/windows/cinst.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/windows/cinst.html
@@ -49,6 +64,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/cinst.html
+    icon: bi bi-globe
+  - title: português (Portugal) version
+    url: /pt_PT/windows/cinst.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/windows/cinst.html
@@ -71,11 +89,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/cinst.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cinst
+# cinst
 
 Bu komut `choco install` için bir takma addır.
 Daha fazla bilgi için: <https://docs.chocolatey.org/en-us/choco/commands/install>.

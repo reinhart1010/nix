@@ -3,6 +3,7 @@ layout: page
 title: common/git-shortlog (Türkçe)
 description: "'git log' çıktısını özetle."
 content_hash: 2b89ab81b4d11c6306c0d1a67c916ea04a945041
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-shortlog.html
@@ -16,6 +17,7 @@ related_topics:
   - title: italiano version
     url: /it/common/git-shortlog.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git shortlog
 

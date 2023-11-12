@@ -3,6 +3,8 @@ layout: page
 title: common/spike (English)
 description: "A fully featured static website generator written in JavaScript."
 content_hash: 4d9385ac7e60303584d7fb2946041e75418de945
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # spike
 

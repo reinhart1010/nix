@@ -3,11 +3,15 @@ layout: page
 title: windows/robocopy (English)
 description: "Robust File and Folder Copy."
 content_hash: e75ce661e27631ae9887907c91e179ab5906f33a
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/robocopy.html
     icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/robocopy.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # robocopy
 

@@ -3,7 +3,8 @@ layout: page
 title: windows/for (English)
 description: "Conditionally execute a command several times."
 content_hash: ce1b74abfcfa39b96d987a14bdea058377412b4b
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # for
 

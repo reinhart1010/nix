@@ -3,11 +3,10 @@ layout: page
 title: common/ddev (English)
 description: "Container based local development tool for PHP environments."
 content_hash: fdcd7107cbdddd8dd94501aa5f95bc10714147be
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ddev
+# ddev
 
 Container based local development tool for PHP environments.
 More information: <https://ddev.readthedocs.io>.

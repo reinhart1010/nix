@@ -3,7 +3,7 @@ layout: page
 title: linux/cat (português (Brasil))
 description: "Imprime e concatena arquivos."
 content_hash: 2e0af1b8deafa2def3ab6f1234da94db1583a49a
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/cat.html
@@ -14,11 +14,9 @@ related_topics:
   - title: മലയാളം version
     url: /ml/linux/cat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cat
+# cat
 
 Imprime e concatena arquivos.
 Mais informações: <https://www.gnu.org/software/coreutils/cat>.

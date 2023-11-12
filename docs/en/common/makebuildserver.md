@@ -3,6 +3,8 @@ layout: page
 title: common/makebuildserver (English)
 description: "Create an F-Droid build server virtual machine."
 content_hash: a03493286a936f0f550338ef7632342e70f319f7
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # makebuildserver
 

@@ -3,12 +3,10 @@ layout: page
 title: linux/gzexe (English)
 description: "Compress executable files while keeping them executable."
 content_hash: 3d48fbd77a7cf72eef7677746fc4a3ff08f3ea78
-last_modified_at: 2023-10-14
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gzexe
+# gzexe
 
 Compress executable files while keeping them executable.
 Back up the original file, appending `~` to its name and create a shell script that uncompresses and executes the binary inside it.

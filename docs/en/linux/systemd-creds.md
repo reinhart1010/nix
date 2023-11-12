@@ -3,7 +3,8 @@ layout: page
 title: linux/systemd-creds (English)
 description: "List, show, encrypt and decrypt service credentials."
 content_hash: 6c7aa66cc05638a07233168411911c2db5da1ffa
-last_modified_at: 2023-10-13
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # systemd-creds
 

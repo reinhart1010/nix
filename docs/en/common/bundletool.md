@@ -3,6 +3,8 @@ layout: page
 title: common/bundletool (English)
 description: "Command-line tool to manipulate Android Application Bundles."
 content_hash: f7f9f3cefbad7d24c403701820bf9d5cf6f17d1b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # bundletool
 

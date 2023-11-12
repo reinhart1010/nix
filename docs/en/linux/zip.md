@@ -3,6 +3,8 @@ layout: page
 title: linux/zip (English)
 description: "Package and compress (archive) files into zip file."
 content_hash: 96901b6a8bfccea14ffd0fa4867588137849bc4f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # zip
 

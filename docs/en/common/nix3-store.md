@@ -3,12 +3,10 @@ layout: page
 title: common/nix3-store (English)
 description: "Manipulate the Nix store."
 content_hash: 1ae1b168a6437e4d503fc827a22277f7f868c74a
-last_modified_at: 2023-04-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># nix store
+# nix store
 
 Manipulate the Nix store.
 See also: `tldr nix-store`.

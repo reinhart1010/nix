@@ -3,7 +3,8 @@ layout: page
 title: common/plesk (English)
 description: "Plesk hosting control panel."
 content_hash: 32424c47882f9119e3154f6325352c649e139b24
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # plesk
 

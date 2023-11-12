@@ -3,10 +3,18 @@ layout: page
 title: common/cmatrix (English)
 description: "Shows a scrolling Matrix like screen in the terminal."
 content_hash: 4af53394f78a27883527064629996e5d00b33a81
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/common/cmatrix.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/cmatrix.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/cmatrix.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cmatrix
 

@@ -3,12 +3,10 @@ layout: page
 title: common/git-magic (English)
 description: "Automate add, commit, and push routines."
 content_hash: 48733d865a970af44dcd64207b822c6cf9156913
-last_modified_at: 2023-10-10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git magic
+# git magic
 
 Automate add, commit, and push routines.
 Part of `git-extras`.

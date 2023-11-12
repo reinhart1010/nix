@@ -3,7 +3,7 @@ layout: page
 title: osx/wifi-password (中文)
 description: "获取 Wi-Fi 的密码。"
 content_hash: 985d87d33ec5f499bdb5e07d37ad58d2aebc0eb2
-last_modified_at: 2023-06-13
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/wifi-password.html
@@ -11,6 +11,7 @@ related_topics:
   - title: español version
     url: /es/osx/wifi-password.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wifi-password
 

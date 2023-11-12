@@ -3,7 +3,8 @@ layout: page
 title: common/stack (English)
 description: "Tool for managing Haskell projects."
 content_hash: 55e471a72c5b41a87795265bf7b5c3ff55b18c4a
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # stack
 

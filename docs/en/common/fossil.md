@@ -3,11 +3,10 @@ layout: page
 title: common/fossil (English)
 description: "Distributed version control system."
 content_hash: 47489f798877621e95dacd5ec0426b20d039fe76
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># fossil
+# fossil
 
 Distributed version control system.
 Some subcommands such as `fossil commit` have their own usage documentation.

@@ -3,9 +3,13 @@ layout: page
 title: common/at (中文)
 description: "在一段时间后，执行单次命令。"
 content_hash: d5ae468c864cdeb7a578d0939837a6ab86147cd5
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/at.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/at.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/at.html
@@ -25,6 +29,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/at.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # at
 

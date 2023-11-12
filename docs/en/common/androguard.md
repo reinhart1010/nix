@@ -3,10 +3,15 @@ layout: page
 title: common/androguard (English)
 description: "Reverse engineering tool for Android applications. Written in Python."
 content_hash: 0d1525a973b521b3205d21b8d373e6182998aaa3
+last_modified_at: 2023-11-12
 related_topics:
+  - title: français version
+    url: /fr/common/androguard.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/androguard.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # androguard
 

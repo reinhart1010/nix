@@ -3,6 +3,8 @@ layout: page
 title: common/dolt-clone (English)
 description: "Clone a repository into a new directory."
 content_hash: a9061219fdd69653b52697163ae4ec656ec2f9a8
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dolt clone
 

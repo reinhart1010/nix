@@ -3,6 +3,7 @@ layout: page
 title: common/dotnet (italiano)
 description: "Strumenti .NET da linea di comando multipiattaforma per .NET Core."
 content_hash: b34776b0668f527063d8e828d8b2a44c0559b22e
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/dotnet.html
@@ -25,6 +26,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/dotnet.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dotnet
 

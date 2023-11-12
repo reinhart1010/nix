@@ -3,7 +3,11 @@ layout: page
 title: linux/lsmod (മലയാളം)
 description: "ലിനക്സ് കെർണൽ മൊഡ്യൂളുകളുടെ അവസ്ഥ കാണാൻ."
 content_hash: f5a00b6c56e2f73f6a5815384f40a5935594d707
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/lsmod.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/lsmod.html
     icon: bi bi-globe
@@ -16,6 +20,10 @@ related_topics:
   - title: italiano version
     url: /it/linux/lsmod.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/lsmod.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # lsmod
 

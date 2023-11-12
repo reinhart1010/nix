@@ -3,7 +3,7 @@ layout: page
 title: common/where (فارسی)
 description: "نمایش محل فایل باینری یا اجرایی یک دستور در لینوکس."
 content_hash: d9db190e0161cde5e8881d2f802f95687440b070
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: dansk version
     url: /da/common/where.html
@@ -17,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/where.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # where
 

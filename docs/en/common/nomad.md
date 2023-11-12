@@ -3,6 +3,8 @@ layout: page
 title: common/nomad (English)
 description: "Distributed, highly available, datacenter-aware scheduler."
 content_hash: 0bb3924254a4aa7daf9e47ae97e6109351bc2215
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # nomad
 

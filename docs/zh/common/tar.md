@@ -3,6 +3,7 @@ layout: page
 title: common/tar (中文)
 description: "归档实用程序。"
 content_hash: f8c9c29c4b1673df635ddfd276ae2f3c65ed9708
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/tar.html
@@ -25,6 +26,10 @@ related_topics:
   - title: русский version
     url: /ru/common/tar.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/tar.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tar
 

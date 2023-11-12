@@ -3,6 +3,8 @@ layout: page
 title: linux/semanage (English)
 description: "SELinux Policy Management tool."
 content_hash: 85e5fc1ca13b4afbb60eff24e782c1533c7eb1ab
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # semanage
 

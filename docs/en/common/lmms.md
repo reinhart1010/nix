@@ -3,6 +3,8 @@ layout: page
 title: common/lmms (English)
 description: "Free, open source, cross-platform digital audio workstation."
 content_hash: 6bdb953b85c60b636cdbf1a8a3169bc088254b62
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lmms
 

@@ -3,6 +3,12 @@ layout: page
 title: common/clang-tidy (English)
 description: "An LLVM-based C/C++ linter to find style violations, bugs and security flaws through static analysis."
 content_hash: 62b24f0cb681496b9478ac55d526af13ad0f583e
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/clang-tidy.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # clang-tidy
 

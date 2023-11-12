@@ -3,11 +3,12 @@ layout: page
 title: linux/nemo (English)
 description: "Manages files and directories in Cinnamon desktop environment."
 content_hash: d3671075141e98b967969af7a9b130774a5dd9e6
-last_modified_at: 2022-12-23
+last_modified_at: 2023-11-12
 related_topics:
   - title: മലയാളം version
     url: /ml/linux/nemo.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nemo
 

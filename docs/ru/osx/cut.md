@@ -2,17 +2,26 @@
 layout: page
 title: osx/cut (русский)
 description: "Вырезать поля из стандартного ввода или файлов."
-content_hash: c7534e4bc39f0da0c355356c168b1dc52fd0ff75
+content_hash: e9e19dcb8990e5dc303374061d0e5331aed370fa
+last_modified_at: 2023-11-12
+related_topics:
+  - title: English version
+    url: /en/osx/cut.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/osx/cut.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/cut.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cut
+# cut
 
 Вырезать поля из стандартного ввода или файлов.
 Больше информации: <https://manned.org/man/freebsd-13.0/cut.1>.
 
-- Вывести указанный диапазон символов/полей каждой строки (`-`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">c|f</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|1,10|1-10|1-|-10</span> далее обозначается как <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">диапазон</span>):
+- Вывести указанный диапазон символов/полей каждой строки (`-c|f 1|1,10|1-10|1-|-10` далее обозначается как `диапазон`):
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">команда</span>` | cut -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">c|f</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|1,10|1-10|1-|-10</span>
 

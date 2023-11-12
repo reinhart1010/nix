@@ -3,12 +3,10 @@ layout: page
 title: common/yard (English)
 description: "Documentation tool for Ruby."
 content_hash: cd302e76a531e584e74f3745aa1d45a391890abb
-last_modified_at: 2023-07-13
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># yard
+# yard
 
 Documentation tool for Ruby.
 More information: <https://yardoc.org/>.

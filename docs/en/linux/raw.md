@@ -3,6 +3,8 @@ layout: page
 title: linux/raw (English)
 description: "Bind a Unix raw character device."
 content_hash: eea217eb92697fce4a82bbfe1ca1ce3c615f1afb
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # raw
 

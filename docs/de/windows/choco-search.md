@@ -3,13 +3,24 @@ layout: page
 title: windows/choco-search (Deutsch)
 description: "Suche mit Chocolatey nach einem lokal oder im Internet verfügbaren Paket."
 content_hash: 595562fea395a22f39121e1aafc17133e026d9ee
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/choco-search.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/windows/choco-search.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/windows/choco-search.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/choco-search.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/choco-search.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # choco search
 

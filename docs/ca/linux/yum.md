@@ -3,6 +3,7 @@ layout: page
 title: linux/yum (català)
 description: "Administrador de paquets per RHEL, CentOS i Fedora (per versions anteriors)."
 content_hash: 3e5e227cc764f9639309ebee13e0aa1d95b5e099
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/yum.html
@@ -13,6 +14,13 @@ related_topics:
   - title: فارسی version
     url: /fa/linux/yum.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/yum.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/yum.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # yum
 

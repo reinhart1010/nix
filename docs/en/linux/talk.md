@@ -3,12 +3,10 @@ layout: page
 title: linux/talk (English)
 description: "GNU/Talk is a visual communication program which copies lines from your terminal to that of another user."
 content_hash: d5a1374b7123fdcbf86c73c9b22270d68c32251d
-last_modified_at: 2023-10-31
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># talk
+# talk
 
 GNU/Talk is a visual communication program which copies lines from your terminal to that of another user.
 More information: <https://www.gnu.org/software/inetutils/manual/html_node/talk-invocation.html>.

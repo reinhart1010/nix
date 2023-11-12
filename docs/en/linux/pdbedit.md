@@ -3,11 +3,10 @@ layout: page
 title: linux/pdbedit (English)
 description: "Edit the Samba user database."
 content_hash: 2c55f197195ebeb02d5f3c919fd851126e7b4f7b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pdbedit
+# pdbedit
 
 Edit the Samba user database.
 For simple user add/remove/password, you can also use `smbpasswd`.

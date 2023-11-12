@@ -3,12 +3,10 @@ layout: page
 title: common/git-cvsexportcommit (English)
 description: "Export a single `Git` commit to a CVS checkout."
 content_hash: 490987adbcb20d115af811a12caf72a1c23b2d86
-last_modified_at: 2023-01-07
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git cvsexportcommit
+# git cvsexportcommit
 
 Export a single `Git` commit to a CVS checkout.
 More information: <https://git-scm.com/docs/git-cvsexportcommit>.

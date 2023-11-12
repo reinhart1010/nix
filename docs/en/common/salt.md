@@ -3,6 +3,8 @@ layout: page
 title: common/salt (English)
 description: "Execute commands and assert state on remote salt minions."
 content_hash: ce1c5c84f050f55e54a648d7a50662509bf9d47f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # salt
 

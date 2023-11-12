@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman-database (Deutsch)
 description: "Mit der Arch Linux Paketdatenbank arbeiten."
 content_hash: d9f32b577825052b160d514a614d0da1e1f07c55
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/pacman-database.html
@@ -11,9 +11,13 @@ related_topics:
   - title: français version
     url: /fr/linux/pacman-database.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/pacman-database.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/pacman-database.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pacman --database
 

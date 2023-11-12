@@ -3,6 +3,7 @@ layout: page
 title: common/git-am (Deutsch)
 description: "Patch-Dateien integrieren. Nützlich beim Empfang von Commits per E-Mail."
 content_hash: c4546f38b0b0fa16b31cf45754661debf10ad496
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-am.html
@@ -16,11 +17,21 @@ related_topics:
   - title: italiano version
     url: /it/common/git-am.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-am.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-am.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-am.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# git am
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git am
 
 Patch-Dateien integrieren. Nützlich beim Empfang von Commits per E-Mail.
 Siehe auch `git format-patch` zur Erzeugung von Patch-Dateien.

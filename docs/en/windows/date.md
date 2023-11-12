@@ -3,11 +3,23 @@ layout: page
 title: windows/date (English)
 description: "Displays or sets the system date."
 content_hash: 4ce8a38fd9dcdc05e394b93508c3f7e10e7f9b96
+last_modified_at: 2023-11-12
+related_topics:
+  - title: বাংলা version
+    url: /bn/windows/date.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/date.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/windows/date.html
+    icon: bi bi-globe
+  - title: italiano version
+    url: /it/windows/date.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># date
+# date
 
 Displays or sets the system date.
 More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/date>.

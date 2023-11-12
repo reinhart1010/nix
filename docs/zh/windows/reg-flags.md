@@ -3,10 +3,12 @@ layout: page
 title: windows/reg-flags (中文)
 description: "显示或设置注册表键的标志。"
 content_hash: 25626478f85368faab4809dfe8dd18bfbbb92afa
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/reg-flags.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # reg flags
 

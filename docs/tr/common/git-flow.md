@@ -3,6 +3,7 @@ layout: page
 title: common/git-flow (Türkçe)
 description: "Üst seviye depo işlemleri için Git uzantı koleksiyonu."
 content_hash: e04c1d9885f2ec28ef2c3e75322ddc1e402c872a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-flow.html
@@ -10,6 +11,7 @@ related_topics:
   - title: français version
     url: /fr/common/git-flow.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git flow
 

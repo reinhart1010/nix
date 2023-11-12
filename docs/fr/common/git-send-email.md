@@ -3,6 +3,7 @@ layout: page
 title: common/git-send-email (français)
 description: "Envoyer une collection de correctifs par email."
 content_hash: af3c11afdba044e41f47e87e354aa35a93e63eee
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-send-email.html
@@ -13,6 +14,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-send-email.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git send-email
 

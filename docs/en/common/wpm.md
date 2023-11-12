@@ -3,7 +3,8 @@ layout: page
 title: common/wpm (English)
 description: "Typeracer-like console app for measuring your WPM."
 content_hash: 11684ab9462f34ff2ce109053ccacf165c61e063
-last_modified_at: 2023-06-28
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # wpm
 

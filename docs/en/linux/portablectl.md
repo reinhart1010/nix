@@ -3,7 +3,8 @@ layout: page
 title: linux/portablectl (English)
 description: "A systemd utility for managing and deploying portable service images on Linux systems."
 content_hash: 12e7ccfa0ed672f82cd11950e8099f913d90f402
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # portablectl
 

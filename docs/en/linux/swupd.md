@@ -3,6 +3,8 @@ layout: page
 title: linux/swupd (English)
 description: "Package management utility for Clear Linux."
 content_hash: 26ae3f373dcd5b3b2a0d86fc636d7af0280a969d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # swupd
 

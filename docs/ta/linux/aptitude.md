@@ -3,6 +3,7 @@ layout: page
 title: linux/aptitude (தமிழ்)
 description: "டெபியன் மற்றும் உபுண்டு தொகுப்பு மேலாண்மை பயன்பாடு."
 content_hash: 20792ecd236167c52d9ecc2de3a40c89ef21a202
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/aptitude.html
@@ -16,20 +17,24 @@ related_topics:
   - title: español version
     url: /es/linux/aptitude.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/aptitude.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/aptitude.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/aptitude.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/aptitude.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/aptitude.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aptitude
+# aptitude
 
 டெபியன் மற்றும் உபுண்டு தொகுப்பு மேலாண்மை பயன்பாடு.
 மேலும் விவரத்திற்கு: <https://manpages.debian.org/latest/aptitude/aptitude.8.html>.

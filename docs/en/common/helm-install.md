@@ -3,6 +3,12 @@ layout: page
 title: common/helm-install (English)
 description: "Install a helm chart."
 content_hash: 54782171fd9e406822be49d40804b96e52246e6e
+last_modified_at: 2023-11-12
+related_topics:
+  - title: español version
+    url: /es/common/helm-install.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # helm install
 

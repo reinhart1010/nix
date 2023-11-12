@@ -3,18 +3,23 @@ layout: page
 title: sunos/prctl (Nederlands)
 description: "Lees of configureer de Get or set the resource controls of running processes, tasks, and projects."
 content_hash: 9a14bd744b18eb0238161c6dd3d8cc183bb7ccf4
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/sunos/prctl.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/sunos/prctl.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/sunos/prctl.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/sunos/prctl.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># prctl
+# prctl
 
 Lees of configureer de Get or set the resource controls of running processes, tasks, and projects.
 Meer informatie: <https://www.unix.com/man-page/sunos/1/prctl>.

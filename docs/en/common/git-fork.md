@@ -3,6 +3,8 @@ layout: page
 title: common/git-fork (English)
 description: "Fork the given GitHub repo. Like `git clone` but forks first."
 content_hash: 172f98df90ce64ace374ffbae930096e21a783dc
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git fork
 

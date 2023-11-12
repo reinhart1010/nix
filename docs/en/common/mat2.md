@@ -3,6 +3,8 @@ layout: page
 title: common/mat2 (English)
 description: "Anonymise various file formats by removing metadata."
 content_hash: a6ebee420162cefc64b7614ea2350a393c703082
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mat2
 

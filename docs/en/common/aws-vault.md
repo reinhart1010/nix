@@ -3,10 +3,12 @@ layout: page
 title: common/aws-vault (English)
 description: "A vault for securely storing and accessing AWS credentials in development environments."
 content_hash: ebd8c0159ad12250b568d3e0cca472f428499288
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-vault.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws-vault
 

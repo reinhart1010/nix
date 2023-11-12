@@ -3,7 +3,8 @@ layout: page
 title: common/hangups (English)
 description: "Third party command-line client for Google Hangouts."
 content_hash: 44b2156014f095e99f9f0b1380869fae8561a6a5
-last_modified_at: 2023-06-28
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # hangups
 

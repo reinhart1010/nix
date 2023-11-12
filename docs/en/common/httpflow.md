@@ -3,6 +3,8 @@ layout: page
 title: common/httpflow (English)
 description: "A command-line utility to capture and dump HTTP streams."
 content_hash: 0a23cf1250902c2385693ac75300177105f7acbc
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # httpflow
 

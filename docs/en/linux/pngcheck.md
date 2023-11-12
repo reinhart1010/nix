@@ -3,11 +3,10 @@ layout: page
 title: linux/pngcheck (English)
 description: "Forensics tool for validating the integrity of PNG based (`.png`, `.jng`, `.mng`) image files."
 content_hash: 44e8c426ea561fff99e233fee3f3d75f1157f6ae
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pngcheck
+# pngcheck
 
 Forensics tool for validating the integrity of PNG based (`.png`, `.jng`, `.mng`) image files.
 Can also extract embedded images and text from a file.

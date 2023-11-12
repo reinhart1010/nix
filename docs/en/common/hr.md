@@ -3,6 +3,8 @@ layout: page
 title: common/hr (English)
 description: "Print a horizontal rule in the terminal."
 content_hash: 11e7b82a28aed5f94915736148859eaf3641a5d5
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # hr
 

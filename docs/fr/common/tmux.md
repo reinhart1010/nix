@@ -3,6 +3,7 @@ layout: page
 title: common/tmux (français)
 description: "Multiplexeur de terminaux. Permet plusieurs sessions avec fenêtres, panneaux, et plus encore."
 content_hash: 70af484f04eaba9f21fa9aff036cd5436b9c163a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/tmux.html
@@ -10,9 +11,16 @@ related_topics:
   - title: español version
     url: /es/common/tmux.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/tmux.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/tmux.html
+    icon: bi bi-globe
   - title: português (Portugal) version
     url: /pt_PT/common/tmux.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tmux
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/grub-bios-setup (English)
 description: "Set up a device to use GRUB with a BIOS configuration."
 content_hash: b76c85042a22fe48d2642e36f2214a4f523d2923
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # grub-bios-setup
 

@@ -3,11 +3,10 @@ layout: page
 title: linux/conntrack (English)
 description: "Interact with the Netfilter connection tracking system."
 content_hash: fa5f77a821f9725fe7e6fc290d3c42412b83d05b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># conntrack
+# conntrack
 
 Interact with the Netfilter connection tracking system.
 Search, list, inspect, modify, and delete connection flows.

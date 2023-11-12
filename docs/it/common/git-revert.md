@@ -3,6 +3,7 @@ layout: page
 title: common/git-revert (italiano)
 description: "Crea nuovi commit che invertano i risultati dei commit precedenti."
 content_hash: 322ee01e37cae60cf3a8d3716a7c039dd20c56fa
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-revert.html
@@ -13,8 +14,15 @@ related_topics:
   - title: français version
     url: /fr/common/git-revert.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-revert.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# git revert
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git revert
 
 Crea nuovi commit che invertano i risultati dei commit precedenti.
 Maggiori informazioni: <https://git-scm.com/docs/git-revert>.

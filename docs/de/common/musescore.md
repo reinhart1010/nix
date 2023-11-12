@@ -3,6 +3,7 @@ layout: page
 title: common/musescore (Deutsch)
 description: "MuseScore 3 Notenblatt-Editor."
 content_hash: b776cdcf20ca88b2f9eee3bb480a2cbe7f09df7e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/musescore.html
@@ -10,6 +11,7 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/musescore.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # musescore
 

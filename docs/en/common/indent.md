@@ -3,6 +3,8 @@ layout: page
 title: common/indent (English)
 description: "Change the appearance of a C/C++ program by inserting or deleting whitespace."
 content_hash: c33066354d16530cda223409c0c36c6952f05c0c
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # indent
 

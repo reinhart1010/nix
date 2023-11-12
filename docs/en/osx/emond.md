@@ -3,11 +3,15 @@ layout: page
 title: osx/emond (English)
 description: "Event Monitor service that accepts events from various services, runs them through a simple rules engine, and takes action."
 content_hash: 243a86dca219a060c724575b789f846d05e3b25a
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/osx/emond.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/osx/emond.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # emond
 

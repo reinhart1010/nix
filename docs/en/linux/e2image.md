@@ -3,7 +3,8 @@ layout: page
 title: linux/e2image (English)
 description: "Save critical ext2/ext3/ext4 filesystem metadata to a file."
 content_hash: bcdf41bf33bb34de05518b9d27aff37dc4613825
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # e2image
 

@@ -3,6 +3,8 @@ layout: page
 title: common/s3cmd (English)
 description: "Command line tool and client for uploading, retrieving and managing data in S3 compatible object storage."
 content_hash: 03589cb7315a2f32420849ee9271c5b02dfb6deb
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # s3cmd
 

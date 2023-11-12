@@ -3,9 +3,16 @@ layout: page
 title: common/asar (한국어)
 description: "전자 플랫폼을 위한 파일 저장소입니다."
 content_hash: beb2be66390b8444d4c27ee2b8cf217a562668cd
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/asar.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/asar.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/asar.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/asar.html
@@ -16,6 +23,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/asar.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # asar
 

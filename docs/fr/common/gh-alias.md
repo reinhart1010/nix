@@ -3,15 +3,14 @@ layout: page
 title: common/gh-alias (français)
 description: "Gérer les alias de commandes GitHub CLI depuis la ligne de commande."
 content_hash: 2aa1bf70167c789d38e806f9782c75f68345c52f
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/gh-alias.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gh alias
+# gh alias
 
 Gérer les alias de commandes GitHub CLI depuis la ligne de commande.
 Plus d'informations : <https://cli.github.com/manual/gh_alias>.

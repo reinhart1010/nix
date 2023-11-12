@@ -3,7 +3,7 @@ layout: page
 title: linux/apt (українська)
 description: "Утиліта керування пакетами для дистрибутивів на основі Debian."
 content_hash: 3719e962f5687d9378d6781e3ae5ab3f45836401
-last_modified_at: 2023-10-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/linux/apt.html
@@ -62,11 +62,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/apt.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># apt
+# apt
 
 Утиліта керування пакетами для дистрибутивів на основі Debian.
 Рекомендована заміна для `apt-get` при інтерактивному використанні в Ubuntu версії 16.04 і пізніших.

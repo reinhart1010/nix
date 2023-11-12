@@ -3,6 +3,7 @@ layout: page
 title: common/docker-cp (português (Brasil))
 description: "Copia arquivos ou diretórios entre filesystems do host e container."
 content_hash: 970db8daf6e046fd63a9a5887b937a0fcaf04b4d
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-cp.html
@@ -10,9 +11,16 @@ related_topics:
   - title: English version
     url: /en/common/docker-cp.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/docker-cp.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/docker-cp.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/docker-cp.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker cp
 

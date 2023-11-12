@@ -3,12 +3,10 @@ layout: page
 title: linux/lsinitrd (English)
 description: "Show the contents of an initramfs image."
 content_hash: 91bcf29ce54b9c0d8eafc368ee6ae69533722d02
-last_modified_at: 2023-09-20
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># lsinitrd
+# lsinitrd
 
 Show the contents of an initramfs image.
 See also: `dracut`.

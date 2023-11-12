@@ -3,11 +3,12 @@ layout: page
 title: linux/backlight_control (हिन्दी)
 description: "प्रतिशत मानों का उपयोग करके लिनक्स मशीन की बैकलाइट को नियंत्रित करें।"
 content_hash: 5d0acc1fa46e5f0c2663cb9428c4340774f9340d
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/backlight_control.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # backlight_control
 

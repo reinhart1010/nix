@@ -3,8 +3,11 @@ layout: page
 title: common/clamscan (English)
 description: "A command-line virus scanner."
 content_hash: 552e13bbe79b7ef1e8e8fec8313cb3a7c26b6342
-last_modified_at: 2023-05-24
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Indonesia version
+    url: /id/common/clamscan.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/clamscan.html
     icon: bi bi-globe
@@ -14,6 +17,7 @@ related_topics:
   - title: ไทย version
     url: /th/common/clamscan.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # clamscan
 

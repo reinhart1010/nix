@@ -3,6 +3,7 @@ layout: page
 title: common/git-reflog (English)
 description: "Show a log of changes to local references like HEAD, branches or tags."
 content_hash: 5b69ab1bb4907e456d0b62b3d80e28dbe9210dc6
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/git-reflog.html
@@ -13,6 +14,10 @@ related_topics:
   - title: italiano version
     url: /it/common/git-reflog.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-reflog.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git reflog
 

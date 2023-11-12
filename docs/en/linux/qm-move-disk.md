@@ -3,7 +3,8 @@ layout: page
 title: linux/qm-move-disk (English)
 description: "This command and `qm move-disk` is an alias of `qm disk move`."
 content_hash: aa9bb797d76ec0dd1866ae3f5278605ae840786f
-last_modified_at: 2023-07-25
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # qm move_disk
 

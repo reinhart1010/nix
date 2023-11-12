@@ -3,7 +3,8 @@ layout: page
 title: linux/guix-package (English)
 description: "Install, upgrade and remove Guix packages, or rollback to previous configurations."
 content_hash: 8c0b1d39ba824467bc351bcdea4ad3a4b0628f68
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # guix package
 

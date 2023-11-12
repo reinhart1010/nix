@@ -3,6 +3,8 @@ layout: page
 title: common/skaffold (English)
 description: "A tool that facilitates continuous development for Kubernetes applications."
 content_hash: befe2857fdcc9e83084e898362eab5ebfe2b1795
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # skaffold
 

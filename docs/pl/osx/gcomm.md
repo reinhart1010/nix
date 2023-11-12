@@ -3,7 +3,7 @@ layout: page
 title: osx/gcomm (polski)
 description: "To polecenie jest aliasem `-p linux comm`."
 content_hash: c16a6b905a4395909f2d9e7fef1a97e4ffe014d0
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gcomm.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gcomm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gcomm
 

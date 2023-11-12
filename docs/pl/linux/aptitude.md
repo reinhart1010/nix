@@ -3,7 +3,7 @@ layout: page
 title: linux/aptitude (polski)
 description: "Narzędzie zarządzania pakietami dla Debiana i Ubuntu."
 content_hash: b07abe07804e8c1b18f90d4312b6cb5abc9e11d7
-last_modified_at: 2023-10-27
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/aptitude.html
@@ -32,6 +32,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/aptitude.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aptitude
 

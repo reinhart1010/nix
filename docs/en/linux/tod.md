@@ -3,12 +3,10 @@ layout: page
 title: linux/tod (English)
 description: "A tiny Todoist client in Rust."
 content_hash: cbc10440143f471e3b72450eb3eb6b28fd87c1d6
-last_modified_at: 2023-10-01
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># tod
+# tod
 
 A tiny Todoist client in Rust.
 It takes simple input and dumps it in your inbox or another project. Taking advantage of natural language processing to assign due dates, tags, etc.

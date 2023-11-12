@@ -3,7 +3,7 @@ layout: page
 title: common/pyenv (日本語)
 description: "複数バージョンのPythonを容易に切り替えします。"
 content_hash: 312e0a0dd7e5861f43ac9ab2261ad2075e9e4eca
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/pyenv.html
@@ -14,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/pyenv.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pyenv
 

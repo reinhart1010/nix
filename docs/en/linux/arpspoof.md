@@ -3,12 +3,10 @@ layout: page
 title: linux/arpspoof (English)
 description: "Forge ARP replies to intercept packets."
 content_hash: e20b1d0c8176a0e5cb1bc3830fa222ad266ff827
-last_modified_at: 2023-03-02
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># arpspoof
+# arpspoof
 
 Forge ARP replies to intercept packets.
 More information: <https://monkey.org/~dugsong/dsniff>.

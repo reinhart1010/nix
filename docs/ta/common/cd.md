@@ -3,9 +3,13 @@ layout: page
 title: common/cd (தமிழ்)
 description: "தற்போதைய வேலை கோப்பகத்தை மாற்றவும்."
 content_hash: e007df87883db33db9e9baf2a25019d94e0a9244
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/common/cd.html
+    icon: bi bi-globe
+  - title: čeština version
+    url: /cs/common/cd.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/cd.html
@@ -31,6 +35,9 @@ related_topics:
   - title: italiano version
     url: /it/common/cd.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/cd.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/cd.html
     icon: bi bi-globe
@@ -55,17 +62,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/cd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cd.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cd
+# cd
 
 தற்போதைய வேலை கோப்பகத்தை மாற்றவும்.
 மேலும் விவரத்திற்கு: <https://manned.org/cd>.

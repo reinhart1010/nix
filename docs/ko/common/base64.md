@@ -3,7 +3,7 @@ layout: page
 title: common/base64 (한국어)
 description: "파일 또는 표준 입력을 Base64와 표준 출력으로 인코딩하거나 디코딩함."
 content_hash: d49ae1594354147f77c015b66a97f5b85f7948e2
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/base64.html
@@ -35,6 +35,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/base64.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # base64
 

@@ -3,7 +3,7 @@ layout: page
 title: common/file (English)
 description: "Determine file type."
 content_hash: 39c7841a912c74395225edf1676aa730f099ba4f
-last_modified_at: 2022-12-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/file.html
@@ -14,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/file.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # file
 

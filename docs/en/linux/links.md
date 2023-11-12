@@ -3,11 +3,10 @@ layout: page
 title: linux/links (English)
 description: "Command-line web browser."
 content_hash: 77a1b355d6aac27606e10c10926f4354e4b5381f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># links
+# links
 
 Command-line web browser.
 More information: <http://links.twibright.com/>.

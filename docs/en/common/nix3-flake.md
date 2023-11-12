@@ -3,12 +3,10 @@ layout: page
 title: common/nix3-flake (English)
 description: "Manage Nix flakes."
 content_hash: f1e3ee0eefd14d17a62e144478a5d5f2024699ed
-last_modified_at: 2023-04-26
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># nix flake
+# nix flake
 
 Manage Nix flakes.
 More information: <https://nixos.org/manual/nix/stable/command-ref/new-cli/nix3-flake.html>.

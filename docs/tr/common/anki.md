@@ -3,8 +3,11 @@ layout: page
 title: common/anki (Türkçe)
 description: "Güçlü ve akıllı bir aralıklı tekrar programı."
 content_hash: 5793ff1f5bc2b01469c603fcc67e48b64504c3d3
-last_modified_at: 2023-05-10
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/anki.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/anki.html
     icon: bi bi-globe
@@ -14,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/anki.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # anki
 

@@ -3,7 +3,8 @@ layout: page
 title: osx/notifyd (English)
 description: "Notification server."
 content_hash: 4ab48b65c0811b93ef40901bcc3044217e25306e
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # notifyd
 

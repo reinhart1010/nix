@@ -3,6 +3,8 @@ layout: page
 title: common/openssl-x509 (English)
 description: "OpenSSL command to manage X.509 certificates."
 content_hash: 03a5f962ac383cddbf574badde0ccfb7287b04e0
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # openssl x509
 

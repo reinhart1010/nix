@@ -3,12 +3,10 @@ layout: page
 title: linux/envycontrol (English)
 description: "GPU switching utility for Nvidia Optimus laptops."
 content_hash: 8c17ed69a05dd634ccf6eeb51d348bd75789c113
-last_modified_at: 2023-04-19
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># envycontrol
+# envycontrol
 
 GPU switching utility for Nvidia Optimus laptops.
 More information: <https://github.com/bayasdev/envycontrol>.

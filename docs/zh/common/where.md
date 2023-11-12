@@ -3,13 +3,21 @@ layout: page
 title: common/where (中文)
 description: "报告所有已知的命令入口。"
 content_hash: 533f14398fbc61a57215d946a88e6812aaf8087b
+last_modified_at: 2023-11-12
 related_topics:
+  - title: dansk version
+    url: /da/common/where.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/where.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/where.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/where.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # where
 

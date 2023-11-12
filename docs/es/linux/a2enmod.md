@@ -3,7 +3,7 @@ layout: page
 title: linux/a2enmod (español)
 description: "Habilita un módulo de Apache en sistemas operativos basados en Debian."
 content_hash: eac623ed4d4a26a565b2ba9c0a525dc774c72550
-last_modified_at: 2023-03-21
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/a2enmod.html
@@ -32,11 +32,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/a2enmod.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># a2enmod
+# a2enmod
 
 Habilita un módulo de Apache en sistemas operativos basados en Debian.
 Más información: <https://manpages.debian.org/latest/apache2/a2enmod.8.en.html>.

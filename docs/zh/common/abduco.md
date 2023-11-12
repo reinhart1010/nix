@@ -3,9 +3,19 @@ layout: page
 title: common/abduco (中文)
 description: "终端会话管理器。"
 content_hash: f4ae1b7c1d8041fd6db77bf0aa073e6262f588da
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/abduco.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/abduco.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/abduco.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/abduco.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/abduco.html
@@ -13,12 +23,19 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/abduco.html
     icon: bi bi-globe
-  - title: norsk bokmål (Norge) version
+  - title: Nederlands version
+    url: /nl/common/abduco.html
+    icon: bi bi-globe
+  - title: norsk version
     url: /no/common/abduco.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/abduco.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/abduco.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # abduco
 

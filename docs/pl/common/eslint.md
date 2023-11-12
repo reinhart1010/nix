@@ -3,7 +3,7 @@ layout: page
 title: common/eslint (polski)
 description: "Rozszerzalne narzędzie lintowania dla JavaScript i JSX."
 content_hash: b7b9762dfa41b5a25b8e94c6cead7f0e5f26d908
-last_modified_at: 2023-05-23
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/eslint.html
@@ -14,6 +14,7 @@ related_topics:
   - title: italiano version
     url: /it/common/eslint.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # eslint
 

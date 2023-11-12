@@ -3,7 +3,7 @@ layout: page
 title: common/comm (한국어)
 description: "두 파일의 공통되는 줄을 선택하거나 거절합니다."
 content_hash: 4900ff90e3a650cc7a2d43aef6d93ff17e505fd5
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/comm.html
@@ -11,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/comm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # comm
 

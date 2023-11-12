@@ -3,11 +3,10 @@ layout: page
 title: common/pinta (English)
 description: "Pinta is a free, open source program for drawing and image editing."
 content_hash: fc37695555d50b2d74c7dc5c64ce3e963b360f3d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pinta
+# pinta
 
 Pinta is a free, open source program for drawing and image editing.
 More information: <https://www.pinta-project.com/>.

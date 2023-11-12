@@ -3,13 +3,18 @@ layout: page
 title: linux/aplay (English)
 description: "Command-line sound player for ALSA soundcard driver."
 content_hash: 9d8b0dfd4ae5715c1d5faaaf575f54fd4535131a
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/aplay.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/aplay.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/aplay.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aplay
 

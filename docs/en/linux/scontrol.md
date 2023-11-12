@@ -3,6 +3,8 @@ layout: page
 title: linux/scontrol (English)
 description: "View information about and modify jobs."
 content_hash: d4f5d49ef6f562b62180132adf492ffc6c440b2e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # scontrol
 

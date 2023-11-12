@@ -3,6 +3,8 @@ layout: page
 title: common/cups-config (English)
 description: "Show technical information about your CUPS print server installation."
 content_hash: e7c646b7f65705a989920338698be5704680e6e0
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # cups-config
 

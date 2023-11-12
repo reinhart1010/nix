@@ -3,6 +3,7 @@ layout: page
 title: common/git-apply (français)
 description: "Applique un correctif à un fichier et/ou à l index."
 content_hash: ad505e1b325acfa192dc2352244b77a20810b8c1
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-apply.html
@@ -13,6 +14,10 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/git-apply.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-apply.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git apply
 

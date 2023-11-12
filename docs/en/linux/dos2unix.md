@@ -3,6 +3,7 @@ layout: page
 title: linux/dos2unix (English)
 description: "Change DOS-style line endings to Unix-style."
 content_hash: 425938ff2ff9cc11a4d2533b4ce2f674fcc584be
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/dos2unix.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/dos2unix.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dos2unix
 

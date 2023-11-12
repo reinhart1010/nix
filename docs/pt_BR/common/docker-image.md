@@ -3,7 +3,7 @@ layout: page
 title: common/docker-image (português (Brasil))
 description: "Gerencia imagens do Docker."
 content_hash: 479f286ed57ac976365cc961233a75636c0d67e5
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-image.html
@@ -20,6 +20,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/docker-image.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker image
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/filefrag (English)
 description: "Report how badly fragmented a particular file might be."
 content_hash: d56d7e6c4eff1e8787949899f855ff42ed25dc30
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # filefrag
 

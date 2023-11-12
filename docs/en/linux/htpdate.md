@@ -3,6 +3,8 @@ layout: page
 title: linux/htpdate (English)
 description: "Synchronize local date and time via HTTP headers from web servers."
 content_hash: f20258de320b428bcda21d33a31394b080d69894
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # htpdate
 

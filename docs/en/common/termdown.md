@@ -3,11 +3,14 @@ layout: page
 title: common/termdown (English)
 description: "Countdown timer and stopwatch for the command-line."
 content_hash: e014be16869dd1129e7a139bc725d1901689e930
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/termdown.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># termdown
+# termdown
 
 Countdown timer and stopwatch for the command-line.
 More information: <https://github.com/trehn/termdown>.

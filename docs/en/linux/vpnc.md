@@ -3,6 +3,12 @@ layout: page
 title: linux/vpnc (English)
 description: "A VPN client for the Cisco 3000 VPN Concentrator."
 content_hash: a340a040ae9b2683fbf4a4c51e39d13580620b66
+last_modified_at: 2023-11-12
+related_topics:
+  - title: polski version
+    url: /pl/linux/vpnc.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # vpnc
 

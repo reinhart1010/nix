@@ -3,12 +3,10 @@ layout: page
 title: common/brew-outdated (English)
 description: "List outdated casks and formulae."
 content_hash: acdca8b0b3dff87262f5b3584a1f1b9ebbc3c339
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># brew outdated
+# brew outdated
 
 List outdated casks and formulae.
 To upgrade everything, use `brew upgrade`.

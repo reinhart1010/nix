@@ -3,10 +3,12 @@ layout: page
 title: common/carbon-now (中文)
 description: "创建漂亮的代码图片。"
 content_hash: 33bd7b8c37b88b1ccf709c0f8c196a7363d1c9b8
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/carbon-now.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # carbon-now
 

@@ -3,6 +3,8 @@ layout: page
 title: common/elvish (English)
 description: "Expressive programming language and a versatile interactive shell."
 content_hash: 33a3dcfa9d7263951334d333c6b97f3bde632cfe
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # elvish
 

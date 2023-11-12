@@ -3,7 +3,7 @@ layout: page
 title: common/sh (sh)
 description: "Bourne ljuska."
 content_hash: 12164082f925e465e98567d1ee902c88df1d03be
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/sh.html
@@ -14,6 +14,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/sh.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sh
 

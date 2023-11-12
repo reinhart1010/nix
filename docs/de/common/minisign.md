@@ -3,10 +3,12 @@ layout: page
 title: common/minisign (Deutsch)
 description: "Ein denkbar einfaches Werkzeug, um Dateien zu signieren und Signaturen zu verifizieren."
 content_hash: 39c954a9f29e12755c927ea05e125f4b506c865e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/minisign.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # minisign
 

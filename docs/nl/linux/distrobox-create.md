@@ -3,7 +3,7 @@ layout: page
 title: linux/distrobox-create (Nederlands)
 description: "Maak een distrobox container."
 content_hash: 2b0265a3bce8e5578aa316a25f881adee81c9998
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/distrobox-create.html
@@ -14,11 +14,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/linux/distrobox-create.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># distrobox-create
+# distrobox-create
 
 Maak een distrobox container.
 Subcommando van `distrobox`. Bekijk ook: `tldr distrobox`.

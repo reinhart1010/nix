@@ -3,6 +3,8 @@ layout: page
 title: common/ncmpcpp (English)
 description: "A command-line music player client for the Music Player Daemon."
 content_hash: e3e3dccc85c2bf3af32946cc2ae9ef5120fcbc54
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ncmpcpp
 

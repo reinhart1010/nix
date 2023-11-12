@@ -3,7 +3,8 @@ layout: page
 title: common/ts-node (English)
 description: "Run TypeScript code directly, without any compiling."
 content_hash: 1604db0f57e26492f0fcb591314c952a0652dd5d
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ts-node
 

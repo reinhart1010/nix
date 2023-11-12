@@ -3,12 +3,20 @@ layout: page
 title: common/binwalk (English)
 description: "Firmware Analysis Tool."
 content_hash: 71a8b8f340a300c43de5e356e028d078f1a3267c
-last_modified_at: 2022-12-27
+last_modified_at: 2023-11-12
+related_topics:
+  - title: italiano version
+    url: /it/common/binwalk.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/binwalk.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/binwalk.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># binwalk
+# binwalk
 
 Firmware Analysis Tool.
 More information: <https://github.com/ReFirmLabs/binwalk>.

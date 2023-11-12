@@ -3,6 +3,7 @@ layout: page
 title: common/docker-save (français)
 description: "Exporeter une ou plusieurs images Docker dans une archive."
 content_hash: da14fc60e89ac72cf1399d5e23745a3b3164c9f5
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-save.html
@@ -10,14 +11,15 @@ related_topics:
   - title: English version
     url: /en/common/docker-save.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/docker-save.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/docker-save.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docker save
+# docker save
 
 Exporeter une ou plusieurs images Docker dans une archive.
 Plus d'informations : <https://docs.docker.com/engine/reference/commandline/save/>.

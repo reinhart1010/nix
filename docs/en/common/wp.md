@@ -3,6 +3,8 @@ layout: page
 title: common/wp (English)
 description: "The official command-line interface to manage WordPress instances."
 content_hash: 81c56c932825184173237bad8f040c7ba99be690
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # wp
 

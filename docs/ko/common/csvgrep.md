@@ -3,6 +3,7 @@ layout: page
 title: common/csvgrep (한국어)
 description: "csvkit에 포함된 CSV행의 문자열 및 패턴 매칭 필터링."
 content_hash: d9aac5d23752e6d9d6fcb881c4133718e8e7f8ff
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/csvgrep.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/csvgrep.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # csvgrep
 

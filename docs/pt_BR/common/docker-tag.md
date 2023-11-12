@@ -3,16 +3,14 @@ layout: page
 title: common/docker-tag (português (Brasil))
 description: "Atribuir tags a imagens Docker existentes."
 content_hash: 4b13e6d4e05f81bbdc9149d8a8cbf51807bfe6fe
-last_modified_at: 2023-09-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/docker-tag.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docker tag
+# docker tag
 
 Atribuir tags a imagens Docker existentes.
 Mais informações: <https://docs.docker.com/engine/reference/commandline/tag/>.

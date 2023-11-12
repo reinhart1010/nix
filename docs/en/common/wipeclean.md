@@ -3,11 +3,10 @@ layout: page
 title: common/wipeclean (English)
 description: "Clear the terminal screen using an animated wiper."
 content_hash: b5b54a149a9f1dc664fe0561a8794a758325df2e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># wipeclean
+# wipeclean
 
 Clear the terminal screen using an animated wiper.
 More information: <https://github.com/JeanJouliaCode/wipeClean>.

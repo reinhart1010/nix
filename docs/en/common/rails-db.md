@@ -3,10 +3,12 @@ layout: page
 title: common/rails-db (English)
 description: "Various database-related subcommands for Ruby on Rails."
 content_hash: ed3f7d1660321f6aeb2498c96669a7e56667f1c0
+last_modified_at: 2023-11-12
 related_topics:
   - title: Indonesia version
     url: /id/common/rails-db.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rails db
 

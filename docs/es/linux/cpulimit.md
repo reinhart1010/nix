@@ -3,7 +3,7 @@ layout: page
 title: linux/cpulimit (español)
 description: "Una herramienta para limitar el uso del CPU de otros procesos."
 content_hash: 9cebe15a6e42bced9129fe88a4c052162c07cdc1
-last_modified_at: 2023-08-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/cpulimit.html
@@ -11,6 +11,7 @@ related_topics:
   - title: English version
     url: /en/linux/cpulimit.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cpulimit
 

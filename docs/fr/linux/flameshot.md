@@ -3,22 +3,21 @@ layout: page
 title: linux/flameshot (français)
 description: "Outil de capture d'écran avec une interface graphique."
 content_hash: d89953f6d86f54fa278eb7b4e3007bfb607bad0e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/flameshot.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/flameshot.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/flameshot.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/flameshot.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># flameshot
 

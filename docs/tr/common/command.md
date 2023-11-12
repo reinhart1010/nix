@@ -3,6 +3,7 @@ layout: page
 title: common/command (Türkçe)
 description: "Command, kabuğu bir programı herhangi bir fonksiyon ve gömülü özelliğe ve alias'a takılmadan çalıştırmaya zorlar."
 content_hash: bc9e45a6feb542153410a6e9d60f393d460af87a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/command.html
@@ -19,6 +20,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/command.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # command
 

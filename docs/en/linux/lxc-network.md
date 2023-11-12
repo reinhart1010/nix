@@ -3,6 +3,8 @@ layout: page
 title: linux/lxc-network (English)
 description: "Manage networks for LXD containers."
 content_hash: 8f182635119b26eff0ccc676b2ac4fac92421504
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lxc network
 

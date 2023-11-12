@@ -3,7 +3,7 @@ layout: page
 title: common/ffmpeg (English)
 description: "Video conversion tool."
 content_hash: dd100177cb67510ad2d8f8f2d4ed6d12cea5d4c0
-last_modified_at: 2023-03-12
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ffmpeg.html
@@ -17,6 +17,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/ffmpeg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ffmpeg
 

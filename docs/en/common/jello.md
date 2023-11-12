@@ -3,7 +3,8 @@ layout: page
 title: common/jello (English)
 description: "A command-line JSON processor using Python syntax."
 content_hash: 59244386a7a01ab1eabdc8b6517cfb6a536caef5
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # jello
 

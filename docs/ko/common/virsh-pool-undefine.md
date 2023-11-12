@@ -3,7 +3,7 @@ layout: page
 title: common/virsh-pool-undefine (한국어)
 description: "중지된 가상 머신 스토리지 풀에 대한 `/etc/libvirt/storage`에서 구성 파일을 삭제합니다."
 content_hash: b44913f6563290f9714e1d30ad91d28eb8d7473a
-last_modified_at: 2023-10-22
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/virsh-pool-undefine.html
@@ -11,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/virsh-pool-undefine.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # virsh pool-undefine
 

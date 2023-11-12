@@ -3,9 +3,16 @@ layout: page
 title: common/diff (English)
 description: "Compare files and directories."
 content_hash: 5f8f75e67cbc348c0b96d7f3cb3e8e7ad0975a45
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/diff.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/diff.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/diff.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/diff.html
@@ -22,6 +29,10 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/diff.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/diff.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # diff
 

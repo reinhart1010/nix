@@ -3,7 +3,8 @@ layout: page
 title: common/ddgr (English)
 description: "Search DuckDuckGo (HTML version) from the terminal."
 content_hash: 1c671c060df91ea046a50117d6ea626a471acc22
-last_modified_at: 2023-10-22
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ddgr
 

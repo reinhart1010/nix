@@ -3,15 +3,14 @@ layout: page
 title: windows/azcopy (தமிழ்)
 description: "அஸூர் கிளவுட் சேமிப்பகம் கணக்குகளில் பதிவேற்றுவதற்கான கோப்பு பரிமாற்றக் கருவி."
 content_hash: 645a80641410cc5c2e24624fb3e0321a6989fda3
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/azcopy.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># azcopy
+# azcopy
 
 அஸூர் கிளவுட் சேமிப்பகம் கணக்குகளில் பதிவேற்றுவதற்கான கோப்பு பரிமாற்றக் கருவி.
 மேலும் விவரத்திற்கு: <https://learn.microsoft.com/azure/storage/common/storage-use-azcopy-v10>.

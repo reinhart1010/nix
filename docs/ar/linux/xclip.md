@@ -3,6 +3,7 @@ layout: page
 title: linux/xclip (العربية)
 description: "أداة معالجة لحافظة x11، تشبه إلي حد ما `xsel`."
 content_hash: 40870a6597bea03b37d17973d767531cf02dc3d2
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/xclip.html
@@ -10,6 +11,7 @@ related_topics:
   - title: français version
     url: /fr/linux/xclip.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xclip
 

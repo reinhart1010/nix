@@ -3,6 +3,7 @@ layout: page
 title: linux/ascii (தமிழ்)
 description: "ASCII எழுத்து மாற்றுப்பெயர்களைக் காட்டு."
 content_hash: b391fc6a91ff58d421e1899a9824ee5f35628640
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/ascii.html
@@ -10,9 +11,13 @@ related_topics:
   - title: English version
     url: /en/linux/ascii.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/ascii.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/ascii.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ascii
 

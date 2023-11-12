@@ -3,7 +3,7 @@ layout: page
 title: common/llvm-nm (polski)
 description: "To polecenie jest aliasem `nm`."
 content_hash: f8340384dca7aef8c2116b1bebc6c59446161452
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/common/llvm-nm.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/llvm-nm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # llvm-nm
 

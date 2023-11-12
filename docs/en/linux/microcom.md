@@ -3,6 +3,8 @@ layout: page
 title: linux/microcom (English)
 description: "A minimalistic terminal program, used to access remote devices via a serial, CAN or telnet connection from the console."
 content_hash: da27873848b755717586acd1ac76a3ac489d3e2a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # microcom
 

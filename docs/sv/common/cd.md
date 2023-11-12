@@ -3,7 +3,14 @@ layout: page
 title: common/cd (svenska)
 description: "Byt nuvarande katalog."
 content_hash: ea79388edcf0fc95ed62c273260086684ed84dd7
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/common/cd.html
+    icon: bi bi-globe
+  - title: čeština version
+    url: /cs/common/cd.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/cd.html
     icon: bi bi-globe
@@ -28,6 +35,9 @@ related_topics:
   - title: italiano version
     url: /it/common/cd.html
     icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/cd.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/cd.html
     icon: bi bi-globe
@@ -43,14 +53,21 @@ related_topics:
   - title: српски version
     url: /sr/common/cd.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/cd.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/cd.html
     icon: bi bi-globe
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/cd.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# cd
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># cd
 
 Byt nuvarande katalog.
 Mer information: <https://manned.org/cd>.

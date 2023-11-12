@@ -3,11 +3,12 @@ layout: page
 title: common/linode-cli (Nederlands)
 description: "Beheer Linode cloud-diensten."
 content_hash: ff3980890c7ac1ab4813b6559b65126e6231bb54
-last_modified_at: 2023-11-07
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/linode-cli.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # linode-cli
 

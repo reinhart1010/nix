@@ -3,6 +3,8 @@ layout: page
 title: common/xo (English)
 description: "A pluggable, zero-configuration linting utility for JavaScript."
 content_hash: c295f055fceff976226e3edd03e8b98b54430326
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xo
 

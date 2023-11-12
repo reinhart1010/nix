@@ -3,13 +3,18 @@ layout: page
 title: common/atrm (English)
 description: "Remove jobs scheduled by `at` or `batch` commands."
 content_hash: 7f683b35d44bbaac9408d9fcc8a15d91a161dded
+last_modified_at: 2023-11-12
 related_topics:
+  - title: français version
+    url: /fr/common/atrm.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/atrm.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/atrm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # atrm
 

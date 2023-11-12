@@ -3,10 +3,21 @@ layout: page
 title: windows/path (中文)
 description: "显示或设置可执行文件的搜索路径。"
 content_hash: bc779d1977bbce3d23af34d9ac3a8b24032aec6a
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/path.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/path.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/path.html
+    icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/windows/path.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # path
 

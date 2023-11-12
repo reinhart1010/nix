@@ -3,12 +3,10 @@ layout: page
 title: common/ropgadget (English)
 description: "Find ROP gadgets in binary files."
 content_hash: fbd34a3912d44e8002d3765093175e390e247acb
-last_modified_at: 2023-09-01
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ROPgadget
+# ROPgadget
 
 Find ROP gadgets in binary files.
 More information: <https://github.com/JonathanSalwan/ROPgadget>.

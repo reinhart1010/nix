@@ -3,7 +3,7 @@ layout: page
 title: common/bw (English)
 description: "Access and manage a Bitwarden vault."
 content_hash: dcf7f4bf7c409831943d1e3e9bd75d1a8c9631d6
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/bw.html
@@ -11,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/bw.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bw
 

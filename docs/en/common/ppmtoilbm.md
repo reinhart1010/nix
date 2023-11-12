@@ -3,10 +3,17 @@ layout: page
 title: common/ppmtoilbm (English)
 description: "Convert a PPM image to an ILBM file."
 content_hash: 3f635b313a1f813b2e0cf7b9a370bcaa719dd5e5
-last_modified_at: 2023-11-10
+last_modified_at: 2023-11-12
+tldri18n_status: 0
 ---
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/ppmtoilbm.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
 
 <hr># ppmtoilbm
 

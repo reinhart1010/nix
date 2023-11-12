@@ -3,10 +3,12 @@ layout: page
 title: common/tex (English)
 description: "Compile a DVI document from TeX source files."
 content_hash: 9de74854d2f7933284e729cf4c36360c273f8b0c
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/tex.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tex
 

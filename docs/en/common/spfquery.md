@@ -3,6 +3,8 @@ layout: page
 title: common/spfquery (English)
 description: "Query Sender Policy Framework records to validate e-mail senders."
 content_hash: ffb7180d027a8bad509f76a535f2ec94cd97a6d2
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # spfquery
 

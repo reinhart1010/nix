@@ -3,9 +3,13 @@ layout: page
 title: common/apktool (日本語)
 description: "APK ファイルの解析ツールです。"
 content_hash: 660525b3499f76e47fff4409c18644ed929842cc
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/apktool.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/apktool.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/apktool.html
@@ -13,9 +17,13 @@ related_topics:
   - title: Indonesia version
     url: /id/common/apktool.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/apktool.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/apktool.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apktool
 

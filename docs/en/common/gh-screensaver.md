@@ -3,7 +3,8 @@ layout: page
 title: common/gh-screensaver (English)
 description: "Extension for GitHub CLI that runs animated terminal screensavers."
 content_hash: f240962323c12240743d6bde90967492ae4903fd
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gh screensaver
 

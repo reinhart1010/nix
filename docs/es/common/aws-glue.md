@@ -3,7 +3,7 @@ layout: page
 title: common/aws-glue (español)
 description: "CLI para AWS Glue."
 content_hash: fb573e5b012e63061ad51d623d1f85da3bc651fb
-last_modified_at: 2023-04-27
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/aws-glue.html
@@ -14,11 +14,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/aws-glue.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws glue
+# aws glue
 
 CLI para AWS Glue.
 Define el punto de enlace público para el servicio AWS Glue.

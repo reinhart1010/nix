@@ -3,11 +3,10 @@ layout: page
 title: common/dolt-merge (English)
 description: "Join two or more development histories together."
 content_hash: 320a82505b0b3296cc5639f596a34b0c8c85b45f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dolt merge
+# dolt merge
 
 Join two or more development histories together.
 More information: <https://github.com/dolthub/dolt>.

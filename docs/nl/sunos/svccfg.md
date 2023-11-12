@@ -3,6 +3,7 @@ layout: page
 title: sunos/svccfg (Nederlands)
 description: "Importeer, exporteer, en wijzig service configurations."
 content_hash: a9333cc67cc799a771f0cbd723ca85007b9966a0
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/sunos/svccfg.html
@@ -10,11 +11,12 @@ related_topics:
   - title: தமிழ் version
     url: /ta/sunos/svccfg.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/sunos/svccfg.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># svccfg
+# svccfg
 
 Importeer, exporteer, en wijzig service configurations.
 Meer informatie: <https://www.unix.com/man-page/linux/1m/svccfg>.

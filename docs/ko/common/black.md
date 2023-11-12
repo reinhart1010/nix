@@ -3,7 +3,7 @@ layout: page
 title: common/black (한국어)
 description: "Python 자동 코드 formatter."
 content_hash: ac81354d79516af3e6f98e35b87cbe75e6c1eca6
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/black.html
@@ -11,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/black.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # black
 

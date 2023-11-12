@@ -3,12 +3,10 @@ layout: page
 title: linux/waydroid (English)
 description: "A container-based approach to boot a full Android system on a regular GNU/Linux system like Ubuntu."
 content_hash: 14b7003b50f009da5b280ae4d1038aaef9d9b8e2
-last_modified_at: 2023-10-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># waydroid
+# waydroid
 
 A container-based approach to boot a full Android system on a regular GNU/Linux system like Ubuntu.
 More information: <https://docs.waydro.id>.

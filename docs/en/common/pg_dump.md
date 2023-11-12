@@ -3,6 +3,8 @@ layout: page
 title: common/pg_dump (English)
 description: "Extract a PostgreSQL database into a script file or other archive file."
 content_hash: bd63c26963846640c9f79b19c710edc47fa836e6
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pg_dump
 

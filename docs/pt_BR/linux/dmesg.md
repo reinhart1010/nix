@@ -3,16 +3,24 @@ layout: page
 title: linux/dmesg (português (Brasil))
 description: "Escreve as mensagens do kernel na terminal."
 content_hash: ad56bcbe3d859c567d7ccdccb26dc55c2f30d897
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/dmesg.html
+    icon: bi bi-globe
   - title: English version
     url: /en/linux/dmesg.html
     icon: bi bi-globe
   - title: español version
     url: /es/linux/dmesg.html
     icon: bi bi-globe
+  - title: українська version
+    url: /uk/linux/dmesg.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/dmesg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dmesg
 

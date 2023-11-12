@@ -3,10 +3,12 @@ layout: page
 title: common/pyenv-virtualenv (English)
 description: "Create virtual environments based on one's installed Python distributions."
 content_hash: 4e61d0ef7fea4b31c28e9f40cff7301c82235cff
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/pyenv-virtualenv.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pyenv virtualenv
 

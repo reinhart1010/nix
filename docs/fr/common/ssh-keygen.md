@@ -3,7 +3,7 @@ layout: page
 title: common/ssh-keygen (français)
 description: "Génère des clés SSH. Utilisées entre autres pour l'authentification ou la connexion sans utiliser de mot de passe."
 content_hash: eee430908ff62418c4f1833cef81afe518dd96cf
-last_modified_at: 2023-06-23
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ssh-keygen.html
@@ -11,6 +11,10 @@ related_topics:
   - title: English version
     url: /en/common/ssh-keygen.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/ssh-keygen.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ssh-keygen
 

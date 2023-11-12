@@ -3,7 +3,8 @@ layout: page
 title: linux/synoupgrade (English)
 description: "Upgrade Synology DiskStation Manager (DSM) - the Synology NAS operating system."
 content_hash: 34a7e2de2a0c85fc617d319d51f95d42924624d6
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # synoupgrade
 

@@ -3,11 +3,12 @@ layout: page
 title: linux/mpicc (English)
 description: "Open MPI C wrapper compiler."
 content_hash: 19cbce4c580bf36a8bd5f9542e77def3f5888c34
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/linux/mpicc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mpicc
 

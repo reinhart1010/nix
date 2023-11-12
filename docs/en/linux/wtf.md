@@ -3,7 +3,7 @@ layout: page
 title: linux/wtf (English)
 description: "Show the expansions of acronyms."
 content_hash: 13f0958cec94fb5d707bed769a4a9195846e8d78
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: polski version
     url: /pl/linux/wtf.html
@@ -11,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/wtf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wtf
 

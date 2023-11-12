@@ -3,7 +3,7 @@ layout: page
 title: common/pnpm (한국어)
 description: "빠르고, 디스크 공간 효율적인 Node.js용 패키지 관리자."
 content_hash: 05d7fa1d2e41401607a5de061e2d95edaeef23e4
-last_modified_at: 2023-10-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/pnpm.html
@@ -14,6 +14,7 @@ related_topics:
   - title: Indonesia version
     url: /id/common/pnpm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pnpm
 

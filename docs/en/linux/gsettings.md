@@ -3,7 +3,12 @@ layout: page
 title: linux/gsettings (English)
 description: "Query and modify dconf settings with schema validation."
 content_hash: aad65580e61d73d2ea48fc83624bd71219efdf8c
-last_modified_at: 2023-03-05
+last_modified_at: 2023-11-12
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/linux/gsettings.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gsettings
 

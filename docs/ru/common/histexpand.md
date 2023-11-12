@@ -3,6 +3,7 @@ layout: page
 title: common/histexpand (русский)
 description: "Повторное использование и подстановка команд из списка истории в `sh`, `bash`, `zsh`, `rbash` and `ksh`."
 content_hash: e40fcbe7f84d126c34935c225701e76410db162c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/histexpand.html
@@ -13,11 +14,9 @@ related_topics:
   - title: français version
     url: /fr/common/histexpand.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># history expansion
+# history expansion
 
 Повторное использование и подстановка команд из списка истории в `sh`, `bash`, `zsh`, `rbash` and `ksh`.
 Больше информации: <https://www.gnu.org/software/bash/manual/html_node/History-Interaction>.

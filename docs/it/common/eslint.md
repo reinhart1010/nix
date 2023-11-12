@@ -3,7 +3,7 @@ layout: page
 title: common/eslint (italiano)
 description: "Utilità di linting per JavaScript e JSX."
 content_hash: 549b8b0b0164ae709df8710dac5388184ae8a061
-last_modified_at: 2023-05-23
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/eslint.html
@@ -14,6 +14,7 @@ related_topics:
   - title: polski version
     url: /pl/common/eslint.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # eslint
 

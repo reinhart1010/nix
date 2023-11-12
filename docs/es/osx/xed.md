@@ -3,7 +3,7 @@ layout: page
 title: osx/xed (español)
 description: "Abre archivos para editarlos en Xcode."
 content_hash: 607a4ef17cd8b9cd935c70ceda1ab78c2416d957
-last_modified_at: 2023-10-22
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/xed.html
@@ -14,11 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/xed.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># xed
+# xed
 
 Abre archivos para editarlos en Xcode.
 Más información: <https://www.manpagez.com/man/1/xed/>.

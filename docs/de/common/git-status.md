@@ -3,6 +3,7 @@ layout: page
 title: common/git-status (Deutsch)
 description: "Zeige die Änderungen an Dateien in einem Git-Repository an."
 content_hash: 11af5d1b49fa876b8b6692654b8eb50f4cc2c753
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-status.html
@@ -22,11 +23,21 @@ related_topics:
   - title: italiano version
     url: /it/common/git-status.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-status.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-status.html
+    icon: bi bi-globe
   - title: українська version
     url: /uk/common/git-status.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# git status
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git status
 
 Zeige die Änderungen an Dateien in einem Git-Repository an.
 Weitere Informationen: <https://git-scm.com/docs/git-status>.

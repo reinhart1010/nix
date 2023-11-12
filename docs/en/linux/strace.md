@@ -3,6 +3,8 @@ layout: page
 title: linux/strace (English)
 description: "Troubleshooting tool for tracing system calls."
 content_hash: 91b767de8924456ba7b2e356eef17ae351aeffb4
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # strace
 

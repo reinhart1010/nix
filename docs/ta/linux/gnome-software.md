@@ -3,15 +3,14 @@ layout: page
 title: linux/gnome-software (தமிழ்)
 description: "பயன்பாடுகளைச் சேர்க்கவும் அகற்றவும் மற்றும் உங்கள் கணினியைப் புதுப்பிக்கவும்."
 content_hash: 106b25b312cfa3da35ca9ae82d01390046f5c1a0
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/gnome-software.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gnome-software
+# gnome-software
 
 பயன்பாடுகளைச் சேர்க்கவும் அகற்றவும் மற்றும் உங்கள் கணினியைப் புதுப்பிக்கவும்.
 மேலும் விவரத்திற்கு: <https://apps.gnome.org/app/org.gnome.Software/>.

@@ -3,12 +3,16 @@ layout: page
 title: common/docker-logs (português (Brasil))
 description: "Exibe os logs dos containers."
 content_hash: 1c1c602f53210cc66c497ccf9d80d904bf2d3713
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-logs.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/docker-logs.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/docker-logs.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/docker-logs.html
@@ -19,6 +23,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-logs.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker logs
 

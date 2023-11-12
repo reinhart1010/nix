@@ -3,6 +3,12 @@ layout: page
 title: common/sort (English)
 description: "Sort lines of text files."
 content_hash: 2dfb7989664c0fe2b5ee8d4b70633cc2d39d2b2c
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 中文 version
+    url: /zh/common/sort.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sort
 

@@ -3,10 +3,12 @@ layout: page
 title: linux/ldconfig (Deutsch)
 description: "Symbolische Verknüpfungen und Zwischenspeicher für Abhängigkeiten von gemeinsam genutzten Bibliotheken konfigurieren."
 content_hash: 3ef2a842168d28fca6a9a1bbae997445f4b9c351
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/ldconfig.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ldconfig
 

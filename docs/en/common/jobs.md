@@ -3,6 +3,12 @@ layout: page
 title: common/jobs (English)
 description: "Display status of jobs in the current session."
 content_hash: 17f124c99febc955d212f87758e7130e12a8d051
+last_modified_at: 2023-11-12
+related_topics:
+  - title: русский version
+    url: /ru/common/jobs.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # jobs
 

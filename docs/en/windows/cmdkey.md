@@ -3,11 +3,12 @@ layout: page
 title: windows/cmdkey (English)
 description: "Create, show, and delete stored user names and passwords."
 content_hash: ffc9b43f6ad3cdfb7d38da76ecbd7195190bad1a
-last_modified_at: 2023-10-27
+last_modified_at: 2023-11-12
 related_topics:
   - title: हिन्दी version
     url: /hi/windows/cmdkey.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cmdkey
 

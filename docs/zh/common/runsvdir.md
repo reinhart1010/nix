@@ -3,10 +3,12 @@ layout: page
 title: common/runsvdir (中文)
 description: "运行整个目录下的服务。"
 content_hash: 79f147e1056ce66c7538c189fbfd0308212b5570
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/runsvdir.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # runsvdir
 

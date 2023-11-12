@@ -3,6 +3,12 @@ layout: page
 title: common/sccmap (English)
 description: "Extract strongly connected components of directed graphs."
 content_hash: c039c52dfe51fd680bf19134de2ab3f4748b40b7
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 中文 version
+    url: /zh/common/sccmap.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # sccmap
 

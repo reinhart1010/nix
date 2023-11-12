@@ -3,7 +3,7 @@ layout: page
 title: windows/rd (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `rmdir`"
 content_hash: e6adcc0a8a98fa439f486d3572fed28e7880204f
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/windows/rd.html
@@ -89,8 +89,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/rd.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# rd
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># rd
 
 คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `rmdir`
 ข้อมูลเพิ่มเติม: <https://learn.microsoft.com/windows-server/administration/windows-commands/rd>

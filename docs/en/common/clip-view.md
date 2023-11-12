@@ -3,12 +3,10 @@ layout: page
 title: common/clip-view (English)
 description: "Command Line Interface Pages render."
 content_hash: ddbe4a3a1b4d26fc4d57669132374f5b613684e9
-last_modified_at: 2023-03-01
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># clip-view
+# clip-view
 
 Command Line Interface Pages render.
 Render for a TlDr-like project with much a more extensive syntax and several render modes.

@@ -3,6 +3,8 @@ layout: page
 title: linux/ntpq (English)
 description: "Query the Network Time Protocol (NTP) daemon."
 content_hash: bc0a4f2e86c0f4f47f0ff292bcb3c544feeb05e9
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ntpq
 

@@ -3,6 +3,7 @@ layout: page
 title: common/mpv (English)
 description: "A audio/video player based on MPlayer."
 content_hash: 50e3ddcc1b9feb01bb42d8044b56efd3443c1565
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/mpv.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/mpv.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mpv
 

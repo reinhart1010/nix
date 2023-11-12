@@ -3,7 +3,7 @@ layout: page
 title: linux/apt-moo (polski)
 description: "Easter egg `APT`."
 content_hash: 2b3aeb9e6d9f3650484bfae7d2e3169b1508d205
-last_modified_at: 2023-10-30
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/apt-moo.html
@@ -11,6 +11,7 @@ related_topics:
   - title: українська version
     url: /uk/linux/apt-moo.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apt moo
 

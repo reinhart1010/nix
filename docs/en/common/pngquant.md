@@ -3,7 +3,8 @@ layout: page
 title: common/pngquant (English)
 description: "PNG converter and lossy image compressor."
 content_hash: a9cd7c6a18f40d6c2e545179dceb95006f408dcf
-last_modified_at: 2022-11-20
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pngquant
 

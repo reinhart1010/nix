@@ -3,11 +3,12 @@ layout: page
 title: linux/toolbox (தமிழ்)
 description: "லினக்ஸ் இல் கொள்கலன்கள் செய்யப்பட்ட கட்டளை வரி சூழல்களுக்கான கருவி."
 content_hash: c7d1cf4fa2b72e9abfb9495ae9e71fbf2abb90e6
-last_modified_at: 2023-06-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/toolbox.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # toolbox
 

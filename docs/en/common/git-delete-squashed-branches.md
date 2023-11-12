@@ -3,12 +3,10 @@ layout: page
 title: common/git-delete-squashed-branches (English)
 description: "Delete branches that have been \"squashed-merged\" into a specified branch and checkout. If no branch is specified, default to the currently checked out branch."
 content_hash: 03b0cf25e516c52b31758271dc0d9a769f45aa8a
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git delete-squashed-branches
+# git delete-squashed-branches
 
 Delete branches that have been "squashed-merged" into a specified branch and checkout. If no branch is specified, default to the currently checked out branch.
 Part of `git-extras`.

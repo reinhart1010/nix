@@ -3,7 +3,7 @@ layout: page
 title: osx/gtalk (polski)
 description: "To polecenie jest aliasem `-p linux talk`."
 content_hash: 51e3cbf0db9136348dce886310f68924b86e8f08
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gtalk.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gtalk.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gtalk
 

@@ -3,7 +3,7 @@ layout: page
 title: common/grep (한국어)
 description: "정규표현식으로 파일에서 패턴을 찾습니다."
 content_hash: d9c951fdd724321e15c53d4823c06cf1131717fb
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/grep.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/grep.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/grep.html
@@ -32,6 +35,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/grep.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # grep
 

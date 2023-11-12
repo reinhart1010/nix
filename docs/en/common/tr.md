@@ -3,11 +3,12 @@ layout: page
 title: common/tr (English)
 description: "Translate characters: run replacements based on single characters and character sets."
 content_hash: c96f21b1428ab62eed26a5ce34775910c9050def
-last_modified_at: 2022-12-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/tr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tr
 

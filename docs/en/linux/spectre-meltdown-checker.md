@@ -3,6 +3,8 @@ layout: page
 title: linux/spectre-meltdown-checker (English)
 description: "Spectre and Meltdown mitigation detection tool."
 content_hash: 2d479c5583da4b062ee3344247cf9017457844f6
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # spectre-meltdown-checker
 

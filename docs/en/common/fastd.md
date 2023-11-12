@@ -3,7 +3,12 @@ layout: page
 title: common/fastd (English)
 description: "VPN daemon."
 content_hash: a4a91429a6bcd48994a870fc75f3c2a89a7697e9
-last_modified_at: 2023-07-13
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/common/fastd.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fastd
 

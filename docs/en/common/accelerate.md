@@ -3,12 +3,17 @@ layout: page
 title: common/accelerate (English)
 description: "Accelerate is a library that enables the same PyTorch code to be run across any distributed configuration."
 content_hash: 81d3914bea3185639fe0264a3cc82880cf994a3e
-last_modified_at: 2023-10-31
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/accelerate.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/accelerate.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># Accelerate
+# Accelerate
 
 Accelerate is a library that enables the same PyTorch code to be run across any distributed configuration.
 More information: <https://huggingface.co/docs/accelerate/index>.

@@ -3,10 +3,12 @@ layout: page
 title: linux/csplit (português (Brasil))
 description: "Divide um arquivo em várias partes."
 content_hash: 1b40460f6ab2e4cc3af05262b4fe3715d0e2835b
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/csplit.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # csplit
 

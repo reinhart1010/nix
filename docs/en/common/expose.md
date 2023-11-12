@@ -3,6 +3,8 @@ layout: page
 title: common/expose (English)
 description: "An open source tunnel application for sharing websites."
 content_hash: 64502ed241d2cf9d099ff0d5a509000a3bf5c8c9
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # expose
 

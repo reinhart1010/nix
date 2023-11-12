@@ -3,6 +3,7 @@ layout: page
 title: common/atrm (polski)
 description: "Usuwa zadania o zadanych identyfikatorach (numerach) wcześniej zakolejkowane przez `at` lub `batch`."
 content_hash: 280fe886347e108e35d03944e562cd5368ac789c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/atrm.html
@@ -13,6 +14,7 @@ related_topics:
   - title: italiano version
     url: /it/common/atrm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # atrm
 

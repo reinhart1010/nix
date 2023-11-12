@@ -3,7 +3,7 @@ layout: page
 title: common/atom (한국어)
 description: "플러그인 기능이 있는 크로스 플랫폼 텍스트 편집기."
 content_hash: c7f744a92eb8041afc04ae7bb36be46207150d7d
-last_modified_at: 2023-09-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/atom.html
@@ -26,17 +26,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/atom.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/atom.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># atom
+# atom
 
 플러그인 기능이 있는 크로스 플랫폼 텍스트 편집기.
 플러그인은 `apm`에 의해 관리됩니다.

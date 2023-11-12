@@ -3,15 +3,23 @@ layout: page
 title: common/crystal (italiano)
 description: "Strumento per gestire codice sorgente Crystal."
 content_hash: 6aba15b20e159c73cc38ca998051a7d1953bb5c5
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/crystal.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/crystal.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/crystal.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# crystal
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># crystal
 
 Strumento per gestire codice sorgente Crystal.
 Maggiori informazioni: <https://crystal-lang.org/reference/using_the_compiler>.

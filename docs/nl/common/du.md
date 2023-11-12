@@ -3,7 +3,7 @@ layout: page
 title: common/du (Nederlands)
 description: "Disk gebruik: schat en groepeer bestand en map ruimte gebruik."
 content_hash: cd9f7aff181ab41c5a66559c8fb6a825b28c14ac
-last_modified_at: 2023-10-19
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/du.html
@@ -26,6 +26,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/du.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # du
 

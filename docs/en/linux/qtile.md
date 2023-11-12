@@ -3,7 +3,8 @@ layout: page
 title: linux/qtile (English)
 description: "A full-featured, hackable tiling window manager written and configured in Python."
 content_hash: 0aa0019c0ffa6a536c9d24f8e09159e6b6c53aa3
-last_modified_at: 2023-06-14
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # qtile
 

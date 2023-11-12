@@ -3,6 +3,8 @@ layout: page
 title: common/tlmgr-gui (English)
 description: "Start a graphical user interface for `tlmgr`."
 content_hash: 685507a5853c4f17db011d9b435bcb6baa53e45d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tlmgr gui
 

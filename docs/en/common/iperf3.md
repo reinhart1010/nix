@@ -3,6 +3,12 @@ layout: page
 title: common/iperf3 (English)
 description: "Traffic generator for testing network bandwidth."
 content_hash: 0b4c0a3a98dbcc59f4cc6bdeaca8965661d174fa
+last_modified_at: 2023-11-12
+related_topics:
+  - title: 한국어 version
+    url: /ko/common/iperf3.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # iperf3
 

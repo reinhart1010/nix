@@ -3,16 +3,14 @@ layout: page
 title: linux/dconf (português (Brasil))
 description: "Gerencia banco de dados dconf."
 content_hash: 95174d9ab24deee19f8d7d0dbf280316598cead4
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/dconf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dconf
+# dconf
 
 Gerencia banco de dados dconf.
 Veja também: `dconf-read`, `dconf-reset`, `dconf-write`, `gsettings`.

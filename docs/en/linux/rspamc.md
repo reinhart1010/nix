@@ -3,6 +3,8 @@ layout: page
 title: linux/rspamc (English)
 description: "Command-line client for rspamd servers."
 content_hash: 562692ca639e2d09dba680d0d91e94c14c92ad4b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rspamc
 

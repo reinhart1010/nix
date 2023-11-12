@@ -3,7 +3,11 @@ layout: page
 title: common/alias (português (Portugal))
 description: "Cria um alias -- palavras que são substituídas por um comando."
 content_hash: bb6e0a79de657ebf6f739aac868c0c0da76c4d9e
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/common/alias.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/alias.html
     icon: bi bi-globe
@@ -43,9 +47,19 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/alias.html
     icon: bi bi-globe
+  - title: русский version
+    url: /ru/common/alias.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/alias.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/alias.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/alias.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # alias
 

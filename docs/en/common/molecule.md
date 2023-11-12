@@ -3,7 +3,8 @@ layout: page
 title: common/molecule (English)
 description: "Molecule helps testing Ansible roles."
 content_hash: 209dafbeac648b0edf9a5f0805966057b7d0945d
-last_modified_at: 2023-05-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # molecule
 

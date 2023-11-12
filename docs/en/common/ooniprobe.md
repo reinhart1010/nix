@@ -3,12 +3,10 @@ layout: page
 title: common/ooniprobe (English)
 description: "Open Observatory of Network Interference (OONI)."
 content_hash: 21e1c79809d7846b970d62c9458fdc3c68c007db
-last_modified_at: 2023-07-28
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ooniprobe
+# ooniprobe
 
 Open Observatory of Network Interference (OONI).
 Test the blocking of websites and apps. Measure the speed and performance of your network.

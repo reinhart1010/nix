@@ -3,7 +3,7 @@ layout: page
 title: common/mv (தமிழ்)
 description: "கோப்புகளையோ அடைவுகளையோ நகர்த்து அல்லது மறுபெயரிடு."
 content_hash: 746c7b5ec44d32fa215a6c79b74571f3c4ef46d8
-last_modified_at: 2023-05-24
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/mv.html
@@ -23,20 +23,15 @@ related_topics:
   - title: italiano version
     url: /it/common/mv.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/mv.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/mv.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/mv.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mv
+# mv
 
 கோப்புகளையோ அடைவுகளையோ நகர்த்து அல்லது மறுபெயரிடு.
 மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/mv>.

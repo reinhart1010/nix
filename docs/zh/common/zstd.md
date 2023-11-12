@@ -3,11 +3,12 @@ layout: page
 title: common/zstd (中文)
 description: "使用 Zstandard 压缩来压缩 / 解压文件。"
 content_hash: eefdbc5c5ef2d85fcb01b57f3bfa0b939d956fd5
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/zstd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # zstd
 

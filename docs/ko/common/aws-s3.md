@@ -3,6 +3,7 @@ layout: page
 title: common/aws-s3 (한국어)
 description: "AWS S3용 CLI - 웹 서비스 인터페이스를 통해 스토리지를 제공합니다."
 content_hash: 63dbde3c3993a8a40d98118325a60fbef4027de7
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-s3.html
@@ -10,12 +11,16 @@ related_topics:
   - title: English version
     url: /en/common/aws-s3.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/aws-s3.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/aws-s3.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/aws-s3.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws s3
 

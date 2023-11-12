@@ -3,6 +3,7 @@ layout: page
 title: common/git-cat-file (Türkçe)
 description: "Git depo cisimlerine dair içerik, tür ve boyut bilgisini sağla."
 content_hash: 4634e277ea1758e8f7eae007f39847ecf6d1530e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-cat-file.html
@@ -16,6 +17,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/git-cat-file.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git cat-file
 

@@ -3,12 +3,14 @@ layout: page
 title: linux/pkgctl-build (English)
 description: "Build packages inside a clean `chroot`."
 content_hash: 2fa94f59809e8586e6642960339051e935d9bf74
-last_modified_at: 2023-10-08
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Nederlands version
+    url: /nl/linux/pkgctl-build.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pkgctl build
+# pkgctl build
 
 Build packages inside a clean `chroot`.
 More information: <https://man.archlinux.org/man/pkgctl-build.1>.

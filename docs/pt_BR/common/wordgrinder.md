@@ -3,10 +3,12 @@ layout: page
 title: common/wordgrinder (português (Brasil))
 description: "Processador de texto em linha de comando."
 content_hash: ad1c52b1f70e732ecbb70a734e904d65df037abd
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/wordgrinder.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wordgrinder
 

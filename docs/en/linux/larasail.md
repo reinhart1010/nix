@@ -3,7 +3,8 @@ layout: page
 title: linux/larasail (English)
 description: "Manage Laravel on Digital Ocean servers."
 content_hash: b16ece02c7587b5dbc7170b4bcd9ff87974f2b04
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # larasail
 

@@ -3,11 +3,10 @@ layout: page
 title: common/latexdiff (English)
 description: "Determine differences between two LaTeX files."
 content_hash: 66da7e9202cbd421065cf319da3b211f1bb01724
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># latexdiff
+# latexdiff
 
 Determine differences between two LaTeX files.
 More information: <https://ctan.org/pkg/latexdiff>.

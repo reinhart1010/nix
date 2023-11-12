@@ -3,6 +3,7 @@ layout: page
 title: common/aws-ecr (português (Brasil))
 description: "Enviar, buscar, e gerenciar imagens de container."
 content_hash: a2a190d89d7c77bc3ae5217a78f44aca63d4c013
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/aws-ecr.html
@@ -10,11 +11,9 @@ related_topics:
   - title: français version
     url: /fr/common/aws-ecr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aws ecr
+# aws ecr
 
 Enviar, buscar, e gerenciar imagens de container.
 Mais informações: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/ecr/index.html>.

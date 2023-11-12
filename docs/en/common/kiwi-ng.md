@@ -3,6 +3,8 @@ layout: page
 title: common/kiwi-ng (English)
 description: "KIWI NG is an OS image and appliance builder."
 content_hash: d790a65a23ce07cfd7b4c4a25aced5a52ffd6602
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # kiwi-ng
 

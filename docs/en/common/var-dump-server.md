@@ -3,6 +3,8 @@ layout: page
 title: common/var-dump-server (English)
 description: "Symfony dump server."
 content_hash: acc701e0c33b5e22f9ee44dc112b1e932c80a320
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # var-dump-server
 

@@ -3,6 +3,8 @@ layout: page
 title: linux/dm-tool (English)
 description: "A tool to communicate with the display manager."
 content_hash: 16560d457ccda7d6ae389044c5a80e9ada9016ff
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dm-tool
 

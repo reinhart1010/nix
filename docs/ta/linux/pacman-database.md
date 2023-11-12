@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman-database (தமிழ்)
 description: "ஆர்ச் லினக்ஸ் தொகுப்பு தரவுத்தளத்தில் செயல்படவும்."
 content_hash: e112e00de7220f7fb62cbf6119a5fde9ce3266f9
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-database.html
@@ -14,6 +14,10 @@ related_topics:
   - title: français version
     url: /fr/linux/pacman-database.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/linux/pacman-database.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pacman --database
 

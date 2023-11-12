@@ -3,6 +3,21 @@ layout: page
 title: sunos/svcadm (English)
 description: "Manipulate service instances."
 content_hash: 7bbb3fe3ebe4fdc5f12da90eceb515097cdf0072
+last_modified_at: 2023-11-12
+related_topics:
+  - title: français version
+    url: /fr/sunos/svcadm.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/sunos/svcadm.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/sunos/svcadm.html
+    icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/sunos/svcadm.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # svcadm
 

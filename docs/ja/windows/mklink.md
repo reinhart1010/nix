@@ -3,6 +3,7 @@ layout: page
 title: windows/mklink (日本語)
 description: "シンボリックリンクを作成します。"
 content_hash: 93bd47814f8fe1bf5ccc8d8dbf93837bd7c3e5f1
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/mklink.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/mklink.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mklink
 

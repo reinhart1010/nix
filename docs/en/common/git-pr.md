@@ -3,6 +3,7 @@ layout: page
 title: common/git-pr (English)
 description: "Check out GitHub pull requests locally."
 content_hash: c182d9e84e1cd6570f7a42551dbf69ac5978d5d6
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/git-pr.html
@@ -10,9 +11,13 @@ related_topics:
   - title: français version
     url: /fr/common/git-pr.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/git-pr.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/git-pr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git pr
 

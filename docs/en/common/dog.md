@@ -3,11 +3,14 @@ layout: page
 title: common/dog (English)
 description: "DNS lookup utility."
 content_hash: f6aff06ec1f517699d094b3543107032c2b8c488
+last_modified_at: 2023-11-12
+related_topics:
+  - title: українська version
+    url: /uk/common/dog.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dog
+# dog
 
 DNS lookup utility.
 It has colorful output, supports DNS-over-TLS and DNS-over-HTTPS protocols, and can emit JSON.

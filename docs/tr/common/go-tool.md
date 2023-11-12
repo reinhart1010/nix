@@ -3,15 +3,14 @@ layout: page
 title: common/go-tool (Türkçe)
 description: "Belirtilen bir Go aracını veya komutunu çalıştır."
 content_hash: 7fb7cd1e73b713bd475d225bee00d342116cd80e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/go-tool.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># go tool
+# go tool
 
 Belirtilen bir Go aracını veya komutunu çalıştır.
 Bir Go komutunu tipik olarak hata ayıklamak için tek başına bir binary olarak çalıştır.

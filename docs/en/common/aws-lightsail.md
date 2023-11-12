@@ -3,7 +3,8 @@ layout: page
 title: common/aws-lightsail (English)
 description: "Manage Amazon Lightsail resources."
 content_hash: 338a72a79f2efe587e6349b2eae00b1e9296b482
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # aws lightsail
 

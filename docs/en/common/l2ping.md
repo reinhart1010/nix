@@ -3,12 +3,10 @@ layout: page
 title: common/l2ping (English)
 description: "Send an L2CAP echo request and receive an answer."
 content_hash: 06172deaa854bfa1869a98938267c99a5818a772
-last_modified_at: 2023-09-11
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># l2ping
+# l2ping
 
 Send an L2CAP echo request and receive an answer.
 More information: <https://manned.org/l2ping>.

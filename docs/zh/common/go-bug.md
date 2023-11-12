@@ -3,6 +3,7 @@ layout: page
 title: common/go-bug (中文)
 description: "报告一个错误。"
 content_hash: 0b8a69de9c4c1293aafadb299abfc02522f00c13
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/go-bug.html
@@ -10,6 +11,10 @@ related_topics:
   - title: svenska version
     url: /sv/common/go-bug.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/go-bug.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # go bug
 

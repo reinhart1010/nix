@@ -3,16 +3,24 @@ layout: page
 title: common/docker-inspect (Deutsch)
 description: "Erhalte tiefgehende Informationen zu Docker Objekten."
 content_hash: 1c52ad0360789e4785f2f0f6a497ff550ef738cd
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/docker-inspect.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/docker-inspect.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/docker-inspect.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/docker-inspect.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/docker-inspect.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker inspect
 

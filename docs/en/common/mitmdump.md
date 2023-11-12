@@ -3,7 +3,8 @@ layout: page
 title: common/mitmdump (English)
 description: "View, record, and programmatically transform HTTP traffic."
 content_hash: 6d4fb36a80780e919ea7c4ff5c43adf783930e0e
-last_modified_at: 2022-12-06
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # mitmdump
 

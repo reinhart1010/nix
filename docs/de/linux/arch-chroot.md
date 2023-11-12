@@ -3,6 +3,7 @@ layout: page
 title: linux/arch-chroot (Deutsch)
 description: "Erweiterter `chroot`-Befehl zur Unterstützung des Arch-Linux-Installationsprozesses."
 content_hash: 7e68454fb2825bdb9e0f2846a3fc47f58a1ede43
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/arch-chroot.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/arch-chroot.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # arch-chroot
 

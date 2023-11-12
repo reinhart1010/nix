@@ -3,11 +3,12 @@ layout: page
 title: common/nix-build (English)
 description: "Build a Nix expression."
 content_hash: 3af4a335315e6679f7f63fbf62199e4e57b1efc6
-last_modified_at: 2023-04-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/nix-build.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nix-build
 

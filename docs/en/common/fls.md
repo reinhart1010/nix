@@ -3,6 +3,8 @@ layout: page
 title: common/fls (English)
 description: "List files and directories in an image file or device."
 content_hash: 2b689200fca153c972c6e27e6de03ca7ffdd5109
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fls
 

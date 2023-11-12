@@ -3,7 +3,7 @@ layout: page
 title: android/pkg (हिन्दी)
 description: "टर्मक्स के लिए पैकेज प्रबंधन उपयोगिता।"
 content_hash: 6a238e8342b37902c3963c0fc873e033bd69fe57
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/android/pkg.html
@@ -56,6 +56,7 @@ related_topics:
   - title: 中文 version
     url: /zh/android/pkg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pkg
 

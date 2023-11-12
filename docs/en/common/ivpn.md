@@ -3,11 +3,10 @@ layout: page
 title: common/ivpn (English)
 description: "Command-line interface for the IVPN client."
 content_hash: 942cc059c131f11915396297e557a68105e6053a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ivpn
+# ivpn
 
 Command-line interface for the IVPN client.
 More information: <https://www.ivpn.net>.

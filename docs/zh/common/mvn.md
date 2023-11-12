@@ -3,6 +3,7 @@ layout: page
 title: common/mvn (中文)
 description: "Apache Maven."
 content_hash: 29fb6619d93dd6bdd686698e3efe0183c90b17b4
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/mvn.html
@@ -10,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/mvn.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mvn
 

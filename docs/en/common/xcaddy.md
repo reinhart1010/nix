@@ -3,6 +3,8 @@ layout: page
 title: common/xcaddy (English)
 description: "The custom build tool for the Caddy Web Server."
 content_hash: 71c1adbe922ef93d1d464f17c96be81288cc5847
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xcaddy
 

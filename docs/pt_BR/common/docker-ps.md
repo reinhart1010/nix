@@ -3,6 +3,7 @@ layout: page
 title: common/docker-ps (português (Brasil))
 description: "Lista os containers Docker."
 content_hash: d31b3ffa799e4f2559cf70cf262b89ed08248f34
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-ps.html
@@ -10,9 +11,19 @@ related_topics:
   - title: English version
     url: /en/common/docker-ps.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/docker-ps.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/docker-ps.html
+    icon: bi bi-globe
+  - title: 日本語 version
+    url: /ja/common/docker-ps.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/docker-ps.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker ps
 

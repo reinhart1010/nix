@@ -3,12 +3,10 @@ layout: page
 title: common/gitwatch (English)
 description: "Automatically commit file or directory changes to a git repository."
 content_hash: 1a7be43e7a0bb5e40af1de4c7b9c20f6f6751d0d
-last_modified_at: 2023-06-05
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gitwatch
+# gitwatch
 
 Automatically commit file or directory changes to a git repository.
 More information: <https://github.com/gitwatch/gitwatch>.

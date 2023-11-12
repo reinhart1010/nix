@@ -3,7 +3,12 @@ layout: page
 title: common/linode-cli-domains (English)
 description: "Manage Linode Domains and DNS configuration."
 content_hash: 97b77871ee2e24ac7b61ebe1028059e5767d2163
-last_modified_at: 2023-09-17
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Nederlands version
+    url: /nl/common/linode-cli-domains.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # linode-cli domains
 

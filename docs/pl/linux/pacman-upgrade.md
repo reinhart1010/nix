@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman-upgrade (polski)
 description: "Narzędzie do zarządzania pakietami w Arch Linuksie."
 content_hash: 7843e14cf62c32aa5e24d8a85a1147e352ae2096
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-upgrade.html
@@ -20,11 +20,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/linux/pacman-upgrade.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pacman --upgrade
+# pacman --upgrade
 
 Narzędzie do zarządzania pakietami w Arch Linuksie.
 Zobacz także: `pacman`.

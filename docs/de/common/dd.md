@@ -3,15 +3,26 @@ layout: page
 title: common/dd (Deutsch)
 description: "Konvertiere und kopiere eine Datei."
 content_hash: 3f78f8c5733f5805fa782c10f5f3656a0cab7919
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/dd.html
     icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/dd.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/dd.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/dd.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# dd
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># dd
 
 Konvertiere und kopiere eine Datei.
 Weitere Informationen: <https://www.gnu.org/software/coreutils/dd>.

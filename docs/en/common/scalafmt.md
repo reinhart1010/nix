@@ -3,6 +3,8 @@ layout: page
 title: common/scalafmt (English)
 description: "Code formatter for Scala."
 content_hash: d7c4f5d02346bc172bbcf1551edfc82f65814975
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # scalafmt
 

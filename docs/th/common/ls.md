@@ -3,7 +3,7 @@ layout: page
 title: common/ls (ไทย)
 description: "แสดงชื่อ ขนาด หรือข้อมูลเบื้องต้นของแต่ละไฟล์หรือโฟลเดอร์"
 content_hash: 04f0a11cce32bf3cb0ac48ba4cda313563ed19cd
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/common/ls.html
@@ -41,6 +41,9 @@ related_topics:
   - title: नेपाली version
     url: /ne/common/ls.html
     icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/ls.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/ls.html
     icon: bi bi-globe
@@ -56,6 +59,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/ls.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ls
 

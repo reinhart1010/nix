@@ -3,11 +3,10 @@ layout: page
 title: common/dolt-fetch (English)
 description: "Download objects and refs from another repository."
 content_hash: b9ed80238af8a0d46a68e2ea6c98b3c342b2ef1e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dolt fetch
+# dolt fetch
 
 Download objects and refs from another repository.
 More information: <https://github.com/dolthub/dolt>.

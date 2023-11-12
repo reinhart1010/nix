@@ -3,6 +3,8 @@ layout: page
 title: common/nim (English)
 description: "The Nim compiler."
 content_hash: 04579adb4405d966f8d36bc45bc06abfc8bc69ac
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # nim
 

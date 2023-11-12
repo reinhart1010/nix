@@ -3,6 +3,7 @@ layout: page
 title: common/ctest (한국어)
 description: "CMake 테스트 드라이버 프로그램."
 content_hash: b0039a7d05ab1b1de80dc82e1f79dce34ce32581
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ctest.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/ctest.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ctest
 

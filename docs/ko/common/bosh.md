@@ -3,6 +3,7 @@ layout: page
 title: common/bosh (한국어)
 description: "bosh 디렉터를 배치 및 관리하기 위한 커맨드라인 도구."
 content_hash: a007971cf4f3a31d6d79d95bc1fd305e7bd76e23
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/bosh.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/bosh.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bosh
 

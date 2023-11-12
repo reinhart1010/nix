@@ -3,6 +3,8 @@ layout: page
 title: common/shiori (English)
 description: "Simple bookmark manager built with Go."
 content_hash: 7100f5230b00365c97cbb96c8b81cc084e1caddc
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # shiori
 

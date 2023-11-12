@@ -3,7 +3,7 @@ layout: page
 title: linux/fdisk (हिन्दी)
 description: "एक प्रोग्राम जो हार्ड डिस्क पर पार्टीशन टेबल और पार्टीशन का प्रबंधन करने के लिए है।"
 content_hash: a8e1481a826c6af53c94ecb1a87ad9e557cb0678
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/fdisk.html
@@ -14,6 +14,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/linux/fdisk.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fdisk
 

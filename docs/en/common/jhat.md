@@ -3,10 +3,12 @@ layout: page
 title: common/jhat (English)
 description: "Java heap analysis tool."
 content_hash: e63b46913abfb1ae0df0bdd02bca526b55167ed1
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/common/jhat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # jhat
 

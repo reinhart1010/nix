@@ -3,6 +3,8 @@ layout: page
 title: common/xar (English)
 description: "Manage .xar archives."
 content_hash: 4f3a3f09b431288ded0687d538ccec3796977b6d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xar
 

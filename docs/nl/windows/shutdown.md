@@ -3,6 +3,7 @@ layout: page
 title: windows/shutdown (Nederlands)
 description: "Een tool om een machine af te sluiten, her op te starten of af te melden."
 content_hash: 114e9aeb33bc940b7fcd76ecc89325534c27d96a
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/shutdown.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/shutdown.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # shutdown
 

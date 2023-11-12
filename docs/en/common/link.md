@@ -3,10 +3,12 @@ layout: page
 title: common/link (English)
 description: "Create a hard link to an existing file."
 content_hash: 7ca79ce0070e19c9555d959a4bd13f5ebfaac323
+last_modified_at: 2023-11-12
 related_topics:
   - title: српски version
     url: /sr/common/link.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # link
 

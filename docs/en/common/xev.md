@@ -3,6 +3,8 @@ layout: page
 title: common/xev (English)
 description: "Print contents of X events."
 content_hash: 8102380fa096774945987fd38854421eda7e6823
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xev
 

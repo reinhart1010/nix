@@ -3,7 +3,7 @@ layout: page
 title: common/aws-ecr (English)
 description: "Push, pull, and manage container images."
 content_hash: 92c39c6059d6eff5cc719fc39339ff2fe119abe6
-last_modified_at: 2023-06-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/aws-ecr.html
@@ -11,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/aws-ecr.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws ecr
 

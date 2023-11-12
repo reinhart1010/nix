@@ -3,7 +3,7 @@ layout: page
 title: common/bun (polski)
 description: "Środowisko uruchomieniowe JavaScript i zestaw narzędzi."
 content_hash: fe5ac4eb292db6fe114b05f8c71fa5ede27a5683
-last_modified_at: 2023-10-10
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/bun.html
@@ -11,6 +11,10 @@ related_topics:
   - title: français version
     url: /fr/common/bun.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/bun.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bun
 

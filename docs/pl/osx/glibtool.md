@@ -3,7 +3,7 @@ layout: page
 title: osx/glibtool (polski)
 description: "To polecenie jest aliasem `-p linux libtool`."
 content_hash: a146fc2f4b5c2436f8f79711d1e465147159f5fe
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/glibtool.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/glibtool.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # glibtool
 

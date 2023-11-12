@@ -3,9 +3,19 @@ layout: page
 title: windows/title (中文 (繁體, 台灣))
 description: "設定命令提示字元視窗的標題。"
 content_hash: fc5e46753074e14f595684942579ad195e71e2b2
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/title.html
+    icon: bi bi-globe
   - title: English version
     url: /en/windows/title.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/title.html
+    icon: bi bi-globe
+  - title: norsk version
+    url: /no/windows/title.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/title.html
@@ -13,11 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/title.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># title
+# title
 
 設定命令提示字元視窗的標題。
 更多資訊：<https://learn.microsoft.com/windows-server/administration/windows-commands/title>.

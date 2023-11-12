@@ -3,6 +3,7 @@ layout: page
 title: common/espanso (中文)
 description: "用 Rust 编写的跨平台文本扩展器。"
 content_hash: fe63b64736e2184ae61cd584432ea1e4cdb80849
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/espanso.html
@@ -10,6 +11,7 @@ related_topics:
   - title: español version
     url: /es/common/espanso.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # espanso
 

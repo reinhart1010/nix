@@ -3,12 +3,10 @@ layout: page
 title: common/git-credential-store (English)
 description: "`git` helper to store passwords on disk."
 content_hash: d88436925873e72bf709f77a4816fa68e706c0c6
-last_modified_at: 2023-01-07
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git credential-store
+# git credential-store
 
 `git` helper to store passwords on disk.
 More information: <https://git-scm.com/docs/git-credential-store>.

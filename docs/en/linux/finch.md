@@ -3,6 +3,8 @@ layout: page
 title: linux/finch (English)
 description: "Console-based modular messaging client."
 content_hash: ae4c91656d560122550ab94a8d30e2ccf00bc870
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # finch
 

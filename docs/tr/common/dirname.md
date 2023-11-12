@@ -3,6 +3,7 @@ layout: page
 title: common/dirname (Türkçe)
 description: "Belirtilen dosya veya yolun ana dizinini hesaplar."
 content_hash: 637f6ab9ca3b57ce7c1e9570d8d468d007dbcc27
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/dirname.html
@@ -13,6 +14,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/dirname.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dirname
 

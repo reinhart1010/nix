@@ -3,10 +3,12 @@ layout: page
 title: osx/locate (English)
 description: "Find filenames quickly."
 content_hash: f8deb627d76229d084899bb5d3e8574e7f9e7cb9
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/osx/locate.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # locate
 

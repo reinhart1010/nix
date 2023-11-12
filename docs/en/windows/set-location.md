@@ -3,12 +3,14 @@ layout: page
 title: windows/set-location (English)
 description: "Display the current working directory or move to a different directory."
 content_hash: 7629a95348f4453354c8bf56a946942286f22bba
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Nederlands version
+    url: /nl/windows/set-location.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># Set-Location
+# Set-Location
 
 Display the current working directory or move to a different directory.
 This command can only be used through PowerShell.

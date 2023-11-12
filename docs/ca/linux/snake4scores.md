@@ -3,7 +3,7 @@ layout: page
 title: linux/snake4scores (català)
 description: "Mostra les màximes puntuacions del joc snake4."
 content_hash: 757c4cbbdc4a47b1ed0ac83d52ccf1a59b924d26
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/snake4scores.html
@@ -11,6 +11,7 @@ related_topics:
   - title: español version
     url: /es/linux/snake4scores.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # snake4scores
 

@@ -3,9 +3,13 @@ layout: page
 title: common/code (English)
 description: "Cross platform and extensible code editor."
 content_hash: 9730ba08a14b9d6dc7bda1e8410015fc545eff6a
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/code.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/code.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/code.html
@@ -25,6 +29,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/code.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # code
 

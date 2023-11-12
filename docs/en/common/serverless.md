@@ -3,6 +3,8 @@ layout: page
 title: common/serverless (English)
 description: "Toolkit for deploying and operating serverless architectures on AWS, Google Cloud, Azure and IBM OpenWhisk."
 content_hash: 7daf3e375a5570f0b5f94da8767afd955d4864f7
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # serverless
 

@@ -3,10 +3,12 @@ layout: page
 title: common/fast (English)
 description: "Test your download and upload speed using fast.com."
 content_hash: 7c8930972c936be880d8e4ea5fdd048f6537b598
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/fast.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fast
 

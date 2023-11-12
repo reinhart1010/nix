@@ -3,7 +3,7 @@ layout: page
 title: common/grep (فارسی)
 description: "یافتن الگو در فایل ها به کمک عبارات با قاعده."
 content_hash: f5e72ec11b21e36a5e6cffd5bb20e5a32aa2f04e
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -35,6 +35,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/grep.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # grep
 

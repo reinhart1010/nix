@@ -3,7 +3,7 @@ layout: page
 title: common/bg (日本語)
 description: "一時停止していたジョブ（例. `Ctrl + Z` 使用時）を再開し、バックグラウンドで実行します。"
 content_hash: 737de1a8ce2e586572dbad094bb856ae12f25119
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/bg.html
@@ -35,6 +35,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/bg.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bg
 

@@ -3,6 +3,7 @@ layout: page
 title: common/ed (русский)
 description: "Оригинальный текстовый редактор Unix."
 content_hash: b1d86e05d5de8eb34909bb45c1a3b4d1c78f70ac
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ed.html
@@ -10,11 +11,12 @@ related_topics:
   - title: italiano version
     url: /it/common/ed.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/ed.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ed
+# ed
 
 Оригинальный текстовый редактор Unix.
 Смотрите также: `awk`, `sed`.

@@ -3,6 +3,7 @@ layout: page
 title: linux/service (English)
 description: "Manage services by running init scripts."
 content_hash: af2c3bac0350aedfc11e1fedd13bfbb951718c99
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/service.html
@@ -10,6 +11,7 @@ related_topics:
   - title: español version
     url: /es/linux/service.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # service
 

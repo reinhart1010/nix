@@ -3,10 +3,13 @@ layout: page
 title: common/amass (中文)
 description: "深度攻击面探测与资产发现工具。"
 content_hash: 33f442fdf721037b9fe4ccab7c1b0014f22e42c3
-last_modified_at: 2023-01-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/amass.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/amass.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/amass.html
@@ -14,6 +17,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/amass.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # amass
 

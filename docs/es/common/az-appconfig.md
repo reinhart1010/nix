@@ -3,11 +3,12 @@ layout: page
 title: common/az-appconfig (español)
 description: "Administra las configuraciones de aplicaciones en Azure."
 content_hash: 52a0c396859b0cc9777a424ad262899ce69c3b92
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/az-appconfig.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # az appconfig
 

@@ -3,6 +3,8 @@ layout: page
 title: common/delta (English)
 description: "A viewer for Git and diff output."
 content_hash: 1c805c389d9a4862b432fc7970873d0768fceab9
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # delta
 

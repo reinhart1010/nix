@@ -3,7 +3,7 @@ layout: page
 title: linux/systemctl (हिन्दी)
 description: "systemd सिस्टम और सेवा प्रबंधक को नियंत्रित करें।"
 content_hash: 077d5484f46a817f3ab3924669ce322eeab6c287
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/systemctl.html
@@ -29,6 +29,7 @@ related_topics:
   - title: українська version
     url: /uk/linux/systemctl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # systemctl
 

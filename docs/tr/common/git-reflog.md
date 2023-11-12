@@ -3,6 +3,7 @@ layout: page
 title: common/git-reflog (Türkçe)
 description: "HEAD, dal ve etiketler gibi yerel referansların geçirdiği değişimlerin kaydını göster."
 content_hash: 28175bc07fc012280e2027c20e902247b2bcf2bd
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-reflog.html
@@ -16,6 +17,7 @@ related_topics:
   - title: italiano version
     url: /it/common/git-reflog.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git reflog
 

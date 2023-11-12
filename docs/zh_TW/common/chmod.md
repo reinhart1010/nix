@@ -3,7 +3,7 @@ layout: page
 title: common/chmod (中文 (繁體, 台灣))
 description: "修改文件或目錄的存取權限。"
 content_hash: 4d43947c72bcc8f17fb1a0f9e807cb1d7d24d269
-last_modified_at: 2023-10-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/chmod.html
@@ -29,6 +29,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/chmod.html
     icon: bi bi-globe
+  - title: മലയാളം version
+    url: /ml/common/chmod.html
+    icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/chmod.html
     icon: bi bi-globe
@@ -44,11 +47,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/chmod.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># chmod
+# chmod
 
 修改文件或目錄的存取權限。
 使用者類型分為檔案所有者（u）、檔案所有者之群組（g）、以及其他使用者（o）。

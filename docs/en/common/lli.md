@@ -3,7 +3,8 @@ layout: page
 title: common/lli (English)
 description: "Directly execute programs from LLVM bitcode."
 content_hash: def9ad6678f013e43e303eedfb2dd348b10a471f
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # lli
 

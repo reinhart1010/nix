@@ -3,7 +3,8 @@ layout: page
 title: common/gdc (English)
 description: "D compiler using GCC as a backend."
 content_hash: 9bf0441bb7fbf1e6e720b05c200b96ec55429364
-last_modified_at: 2023-10-30
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # gdc
 

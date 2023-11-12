@@ -3,6 +3,7 @@ layout: page
 title: linux/userdel (català)
 description: "Elimina una conta d'usuari o elimina un usuari d'un grup."
 content_hash: cd55acc9204828cb56aa8608ac9dbf118fb376a8
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/userdel.html
@@ -13,6 +14,7 @@ related_topics:
   - title: français version
     url: /fr/linux/userdel.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # userdel
 

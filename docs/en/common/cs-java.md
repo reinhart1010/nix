@@ -3,12 +3,10 @@ layout: page
 title: common/cs-java (English)
 description: "The java and java-home commands fetch and install JVMs. The java command runs them too."
 content_hash: 368abdec6e6682064039811dd5eb4bc6fd445b08
-last_modified_at: 2023-01-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cs java
+# cs java
 
 The java and java-home commands fetch and install JVMs. The java command runs them too.
 More information: <https://get-coursier.io/docs/cli-java>.

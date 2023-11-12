@@ -3,7 +3,7 @@ layout: page
 title: common/aria2c (español)
 description: "Utilidad de descarga rápida."
 content_hash: 9f419a3356c79488664381464b7c69c7108feb26
-last_modified_at: 2023-03-21
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/aria2c.html
@@ -23,11 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/aria2c.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># aria2c
+# aria2c
 
 Utilidad de descarga rápida.
 Soporta HTTP(S), FTP, SFTP, BitTorrent y Metalink.

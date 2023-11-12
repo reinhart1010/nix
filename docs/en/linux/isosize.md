@@ -3,6 +3,8 @@ layout: page
 title: linux/isosize (English)
 description: "Display the size of an ISO file."
 content_hash: 2a1c32eb27af9d5c3ef339e8230f93297275582b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # isosize
 

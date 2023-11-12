@@ -3,6 +3,8 @@ layout: page
 title: linux/ptx (English)
 description: "Generate a permuted index of words from one or more text files."
 content_hash: e25b37834599cbf99f35637b4758b18af94369e5
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ptx
 

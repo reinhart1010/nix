@@ -3,7 +3,7 @@ layout: page
 title: common/pwd (العربية)
 description: "اطبع اسم الدليل الحالي."
 content_hash: c9e6a9f438cc8e87cbda329ec5e90dda3a80205f
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/pwd.html
@@ -35,11 +35,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/pwd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pwd
+# pwd
 
 اطبع اسم الدليل الحالي.
 لمزيد من التفاصيل: <https://www.gnu.org/software/coreutils/pwd>.

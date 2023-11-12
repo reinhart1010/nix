@@ -3,6 +3,12 @@ layout: page
 title: common/daps (English)
 description: "DAPS is an open source program for transforming DocBook XML into output formats such as HTML or PDF."
 content_hash: 4934fe1d9d2d7a5ac7514d60627ddb0f958cfab9
+last_modified_at: 2023-11-12
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/common/daps.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # daps
 

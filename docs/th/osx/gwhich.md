@@ -3,7 +3,7 @@ layout: page
 title: osx/gwhich (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux which`"
 content_hash: 85f277eed645f5aaa61856d5beecb2c290b5fbf7
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gwhich.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gwhich.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gwhich
 

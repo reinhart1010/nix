@@ -3,7 +3,7 @@ layout: page
 title: osx/guptime (polski)
 description: "To polecenie jest aliasem `-p linux uptime`."
 content_hash: a4dcb53e97f047f834cc04a5c57472bff13f3c60
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/guptime.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/guptime.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # guptime
 

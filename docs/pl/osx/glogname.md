@@ -3,7 +3,7 @@ layout: page
 title: osx/glogname (polski)
 description: "To polecenie jest aliasem `-p linux logname`."
 content_hash: 0487a42c9fc4f9af52824ffce74553c6822acbe0
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/glogname.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/glogname.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # glogname
 

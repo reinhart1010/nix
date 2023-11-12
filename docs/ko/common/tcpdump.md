@@ -3,16 +3,14 @@ layout: page
 title: common/tcpdump (한국어)
 description: "네트워크의 트래픽 덤프."
 content_hash: 3ece0f8409ce165d3797624556b0fee8efedc863
-last_modified_at: 2023-10-19
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/tcpdump.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># tcpdump
+# tcpdump
 
 네트워크의 트래픽 덤프.
 더 많은 정보: <https://www.tcpdump.org>.

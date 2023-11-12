@@ -3,7 +3,8 @@ layout: page
 title: windows/bleachbit_console (English)
 description: "Clean junk files on the filesystem."
 content_hash: 68de7eeff747b494194fa82dac5ea06cbfcbb954
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # bleachbit_console
 

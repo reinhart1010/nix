@@ -3,7 +3,7 @@ layout: page
 title: osx/gbasenc (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux basenc`"
 content_hash: d070a2447fde0e8ec71ab285194354f594fcabb3
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gbasenc.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gbasenc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gbasenc
 

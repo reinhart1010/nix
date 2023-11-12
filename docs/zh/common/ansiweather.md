@@ -3,9 +3,19 @@ layout: page
 title: common/ansiweather (中文)
 description: "一个 shell 脚本，用于在终端中显示当前的天气状况。"
 content_hash: 4546d00a6471e54e522124450af4baf79e6162a4
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/ansiweather.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/ansiweather.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/ansiweather.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/ansiweather.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ansiweather.html
@@ -13,6 +23,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/ansiweather.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ansiweather
 

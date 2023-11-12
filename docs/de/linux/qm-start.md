@@ -3,10 +3,12 @@ layout: page
 title: linux/qm-start (Deutsch)
 description: "Starte eine virtuelle Maschine per QEMU/KVM Virtual Machine Manager."
 content_hash: 354fd010ab2f3d2dda576a8e6809355c1e1fddf8
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/qm-start.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # qm start
 

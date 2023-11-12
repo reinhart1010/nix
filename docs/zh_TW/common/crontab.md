@@ -3,7 +3,7 @@ layout: page
 title: common/crontab (中文 (繁體, 台灣))
 description: "排程作業按時間間隔執行。"
 content_hash: a4b5f058428abac26ec02c58cec66e407ff22845
-last_modified_at: 2023-10-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/crontab.html
@@ -14,11 +14,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/crontab.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># crontab
+# crontab
 
 排程作業按時間間隔執行。
 更多資訊：<https://crontab.guru/>.

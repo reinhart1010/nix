@@ -3,12 +3,10 @@ layout: page
 title: linux/mediamtx (English)
 description: "Real-time media server and proxy."
 content_hash: 3e535547842cca978f0ce227a486d11c8a4babdb
-last_modified_at: 2023-08-07
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mediamtx
+# mediamtx
 
 Real-time media server and proxy.
 More information: <https://github.com/bluenviron/mediamtx>.

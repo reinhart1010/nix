@@ -3,7 +3,8 @@ layout: page
 title: linux/scriptreplay (English)
 description: "Replay a typescript created by the `script` command to `stdout`."
 content_hash: aa13b3c9cc9f5d2b7ee22e77ae84d8a5553af86f
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # scriptreplay
 

@@ -3,13 +3,21 @@ layout: page
 title: linux/ascii (English)
 description: "Show ASCII character aliases."
 content_hash: 1c7a9fd3d7c6114137f4dac81b3574b2fa18ab94
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/ascii.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/ascii.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/linux/ascii.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/linux/ascii.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ascii
 

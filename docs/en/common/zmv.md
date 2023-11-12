@@ -3,6 +3,8 @@ layout: page
 title: common/zmv (English)
 description: "Move or rename files matching a specified extended glob pattern."
 content_hash: 61ec3883d072c998b23de6b5ecf8160b8091ffe2
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # zmv
 

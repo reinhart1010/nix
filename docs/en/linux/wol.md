@@ -3,6 +3,8 @@ layout: page
 title: linux/wol (English)
 description: "Client for sending Wake-on-LAN magic packets."
 content_hash: f7947f3b9d691ac0509f5d4e7ccfe2bde06d4419
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # wol
 

@@ -3,8 +3,11 @@ layout: page
 title: linux/bluetoothctl (English)
 description: "Manage Bluetooth devices."
 content_hash: 38ffaf92846a33d91956e4b0650369d56bb20432
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
 related_topics:
+  - title: हिन्दी version
+    url: /hi/linux/bluetoothctl.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/linux/bluetoothctl.html
     icon: bi bi-globe
@@ -14,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/bluetoothctl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # bluetoothctl
 

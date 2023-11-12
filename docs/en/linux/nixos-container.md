@@ -3,6 +3,8 @@ layout: page
 title: linux/nixos-container (English)
 description: "Starts NixOS containers using Linux containers."
 content_hash: 144a2021d9b7257a6a86d070f75846e8b2c1deb1
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # nixos-container
 

@@ -3,16 +3,14 @@ layout: page
 title: common/birdc (Deutsch)
 description: "Bird remote control."
 content_hash: 0b8b6dcef48c3db9128f34fc9ddc3803fa5a0dc9
-last_modified_at: 2023-07-13
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/birdc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># birdc
+# birdc
 
 Bird remote control.
 Kommandozeilenwerkzeug zum Abrufen von Informationen wie Routen von bird und zur Durchführung von Konfigurationen während der Laufzeit.

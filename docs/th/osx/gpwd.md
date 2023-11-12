@@ -3,7 +3,7 @@ layout: page
 title: osx/gpwd (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux pwd`"
 content_hash: a5f50b41f12673d327f0402083922cd635634336
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gpwd.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gpwd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gpwd
 

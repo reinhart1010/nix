@@ -3,7 +3,12 @@ layout: page
 title: common/podman-image (English)
 description: "Manage Docker images."
 content_hash: 9045d13edea1a1a7d7a5dfb7c1e4b53d2a8e9c1f
-last_modified_at: 2023-03-12
+last_modified_at: 2023-11-12
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/common/podman-image.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # podman image
 

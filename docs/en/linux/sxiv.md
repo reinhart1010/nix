@@ -3,7 +3,8 @@ layout: page
 title: linux/sxiv (English)
 description: "Simple X Image Viewer."
 content_hash: 72ddae2e8a651560c4bc123c961a2d34a6e063b6
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sxiv
 

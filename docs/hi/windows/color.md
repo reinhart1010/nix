@@ -3,7 +3,7 @@ layout: page
 title: windows/color (हिन्दी)
 description: "कंसोल अग्रभूमि और पृष्ठभूमि रंग सेट करें।"
 content_hash: d748e4f949419aa385cc6b4ec6810f2931dfa8b7
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: বাংলা version
     url: /bn/windows/color.html
@@ -32,6 +32,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/color.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # color
 

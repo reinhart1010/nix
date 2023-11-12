@@ -3,7 +3,7 @@ layout: page
 title: common/chmod (മലയാളം)
 description: "ഒരു ഫയലിന്റെയോ ഡയറക്ടറിയുടെയോ പ്രവേശന അനുമതികൾ മാറ്റുക."
 content_hash: e68e4119ac378e64c0a0d1e08a8cb7ae6bb00291
-last_modified_at: 2023-10-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/chmod.html
@@ -47,11 +47,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/chmod.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># chmod
+# chmod
 
 ഒരു ഫയലിന്റെയോ ഡയറക്ടറിയുടെയോ പ്രവേശന അനുമതികൾ മാറ്റുക.
 കൂടുതൽ വിവരങ്ങൾ: <https://www.gnu.org/software/coreutils/chmod>.

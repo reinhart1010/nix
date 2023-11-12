@@ -3,7 +3,8 @@ layout: page
 title: linux/xset (English)
 description: "User preference utility for X."
 content_hash: 7e66399205a8362be51d64422d978da75036de56
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xset
 

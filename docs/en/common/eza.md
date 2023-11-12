@@ -3,12 +3,14 @@ layout: page
 title: common/eza (English)
 description: "Modern, maintained replacement for `ls`, built on `exa`."
 content_hash: 54bf1d28eaba2bd528a518178a6d11d75e721ce8
-last_modified_at: 2023-09-12
+last_modified_at: 2023-11-12
+related_topics:
+  - title: polski version
+    url: /pl/common/eza.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># eza
+# eza
 
 Modern, maintained replacement for `ls`, built on `exa`.
 More information: <https://github.com/eza-community/eza>.

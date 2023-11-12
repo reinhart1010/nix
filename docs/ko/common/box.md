@@ -3,6 +3,7 @@ layout: page
 title: common/box (한국어)
 description: "Phar의 빌드 및 관리를 위한 PHP 어플리케이션."
 content_hash: 992cad0f9b90cb64cf23c89d8a0779a3f0b96216
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/box.html
@@ -10,6 +11,7 @@ related_topics:
   - title: italiano version
     url: /it/common/box.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # box
 

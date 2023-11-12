@@ -3,7 +3,7 @@ layout: page
 title: windows/tasklist (italiano)
 description: "Mostra una lista dei processi in esecuzione su una macchina locale o remota."
 content_hash: 623fe87b641adf50e5b5315d3cfd72326c423fe3
-last_modified_at: 2023-05-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/tasklist.html
@@ -11,11 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/tasklist.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># tasklist
+# tasklist
 
 Mostra una lista dei processi in esecuzione su una macchina locale o remota.
 Maggiori informazioni: <https://learn.microsoft.com/windows-server/administration/windows-commands/tasklist>.

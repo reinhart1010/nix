@@ -3,11 +3,10 @@ layout: page
 title: common/redis-benchmark (English)
 description: "A tool to benchmark a Redis server."
 content_hash: b6b07a48fdf5b56f443d841cfd890c7f4233377a
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># redis-benchmark
+# redis-benchmark
 
 A tool to benchmark a Redis server.
 More information: <https://redis.io/docs/reference/optimization/benchmarks/>.

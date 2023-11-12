@@ -3,7 +3,7 @@ layout: page
 title: common/base32 (English)
 description: "Encode or decode file or `stdin` to/from Base32, to `stdout`."
 content_hash: d84e0049b6eb61b83d81da08bda1dcbb71f07295
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: français version
     url: /fr/common/base32.html
@@ -26,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/base32.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # base32
 

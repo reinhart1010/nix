@@ -3,6 +3,7 @@ layout: page
 title: common/adb (한국어)
 description: "안드로이드 디버그 브릿지: 안드로이드 에뮬레이터 객체 또는 연결된 안드로이드 장치와 통신."
 content_hash: 1ed24de2558243951db11c4d5f41b74e38eeba55
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/adb.html
@@ -34,6 +35,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/adb.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # adb
 

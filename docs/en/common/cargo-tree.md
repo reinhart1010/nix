@@ -3,12 +3,10 @@ layout: page
 title: common/cargo-tree (English)
 description: "Display a tree visualization of a dependency graph."
 content_hash: 0c8c1b9fb5d7845d1b3f42707a075d7f2ae2c812
-last_modified_at: 2023-11-01
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cargo tree
+# cargo tree
 
 Display a tree visualization of a dependency graph.
 Note: in the tree, dependencies of packages marked with `(*)` have already been shown elsewhere in the graph, and so are not repeated.

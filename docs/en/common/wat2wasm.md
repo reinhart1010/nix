@@ -3,6 +3,8 @@ layout: page
 title: common/wat2wasm (English)
 description: "Convert a file from the WebAssembly text format to the binary format."
 content_hash: 646689cf10beeecb12bd33be234a51018d3f9206
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # wat2wasm
 

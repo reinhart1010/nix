@@ -3,7 +3,8 @@ layout: page
 title: common/bmptopnm (English)
 description: "Convert a BMP file into a PBM, PGM, or PNM image."
 content_hash: 35a6e8984f7b34ab193903827b873fe93e4acbb5
-last_modified_at: 2023-10-18
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # bmptopnm
 

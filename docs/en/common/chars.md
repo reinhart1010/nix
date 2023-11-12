@@ -3,10 +3,12 @@ layout: page
 title: common/chars (English)
 description: "Display names and codes for various ASCII and Unicode characters and code points."
 content_hash: c9022d8011fa9277c5a919b40f2ad63f548031db
+last_modified_at: 2023-11-12
 related_topics:
   - title: 한국어 version
     url: /ko/common/chars.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chars
 

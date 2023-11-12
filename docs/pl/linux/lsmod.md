@@ -3,6 +3,7 @@ layout: page
 title: linux/lsmod (polski)
 description: "Pokazuje status modułów kernela Linuksa."
 content_hash: f005331f27ee5336d5b94fe47d78bd9e4c57dd90
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/lsmod.html
@@ -22,11 +23,9 @@ related_topics:
   - title: മലയാളം version
     url: /ml/linux/lsmod.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># lsmod
+# lsmod
 
 Pokazuje status modułów kernela Linuksa.
 Zobacz także `modprobe`, który ładuje moduły kernela.

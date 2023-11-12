@@ -3,6 +3,7 @@ layout: page
 title: common/nvim (italiano)
 description: "Neovim, un editor di testo basato su Vim che offre molti diversi modi di manipolare e navigare il testo."
 content_hash: 87c04b0c27b403d9f243f663c226da3e2696ba84
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/nvim.html
@@ -10,6 +11,10 @@ related_topics:
   - title: Indonesia version
     url: /id/common/nvim.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/nvim.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # nvim
 

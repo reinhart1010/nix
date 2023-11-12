@@ -3,6 +3,7 @@ layout: page
 title: common/docker-inspect (français)
 description: "Retour d'informations de bas niveau sur les objets Docker."
 content_hash: 7ab5a2cd91477709b8991610b7c3e5f069c13a94
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-inspect.html
@@ -13,9 +14,13 @@ related_topics:
   - title: italiano version
     url: /it/common/docker-inspect.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/docker-inspect.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/docker-inspect.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker inspect
 

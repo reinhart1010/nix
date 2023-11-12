@@ -3,13 +3,21 @@ layout: page
 title: common/docker-service (English)
 description: "Manage the services on a docker daemon."
 content_hash: 203780c30ffa3d890986df223d81688b738cd81c
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-service.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/docker-service.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/docker-service.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/docker-service.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # docker service
 

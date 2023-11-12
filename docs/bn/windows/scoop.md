@@ -3,7 +3,7 @@ layout: page
 title: windows/scoop (বাংলা)
 description: "স্কুপ প্যাকেজ ম্যানেজার।"
 content_hash: 8e3913099f472f4276e3b7cfbe242eb5ad07cbb9
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/scoop.html
@@ -20,6 +20,7 @@ related_topics:
   - title: 中文 version
     url: /zh/windows/scoop.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # scoop
 

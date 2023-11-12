@@ -3,16 +3,25 @@ layout: page
 title: common/adb-shell (English)
 description: "Android Debug Bridge Shell: Run remote shell commands on an Android emulator instance or connected Android devices."
 content_hash: 97ffb25221e05349ec906bd9ad5496e4d95b8633
-last_modified_at: 2023-02-19
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/common/adb-shell.html
+    icon: bi bi-globe
   - title: français version
     url: /fr/common/adb-shell.html
+    icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/common/adb-shell.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/adb-shell.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/adb-shell.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/adb-shell.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/adb-shell.html
@@ -26,6 +35,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/adb-shell.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # adb shell
 

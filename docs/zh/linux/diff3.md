@@ -3,7 +3,7 @@ layout: page
 title: linux/diff3 (中文)
 description: "逐行比较三个文件。"
 content_hash: 13a284d8dd30876999c625d5fc1f4f9754d85289
-last_modified_at: 2023-05-24
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/diff3.html
@@ -11,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/diff3.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # diff3
 

@@ -3,7 +3,8 @@ layout: page
 title: common/xzdiff (English)
 description: "Invokes `diff` on files compressed with `xz`, `lzma`, `gzip`, `bzip2`, `lzop`, or `zstd`."
 content_hash: 76a9d0b77fdfb016b9f2f83a154e2dddbbd73d0c
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xzdiff
 

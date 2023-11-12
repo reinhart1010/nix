@@ -3,6 +3,7 @@ layout: page
 title: common/calc (català)
 description: "Una calculadora de precisió arbitrària en la terminal."
 content_hash: 566340b1f9547b60eb1483e4a9ec12f4b85a3c8b
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/calc.html
@@ -13,14 +14,27 @@ related_topics:
   - title: español version
     url: /es/common/calc.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/calc.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/common/calc.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/calc.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/calc.html
+    icon: bi bi-globe
+  - title: ไทย version
+    url: /th/common/calc.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# calc
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># calc
 
 Una calculadora de precisió arbitrària en la terminal.
 Més informació: <https://github.com/lcn2/calc>.

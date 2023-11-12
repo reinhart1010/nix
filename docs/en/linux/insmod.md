@@ -3,12 +3,10 @@ layout: page
 title: linux/insmod (English)
 description: "Dynamically load modules into the Linux Kernel."
 content_hash: c464f1ae65208529c964d01595aabbb560fe6f16
-last_modified_at: 2023-03-21
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># insmod
+# insmod
 
 Dynamically load modules into the Linux Kernel.
 More information: <https://manned.org/insmod>.

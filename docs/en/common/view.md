@@ -3,7 +3,7 @@ layout: page
 title: common/view (English)
 description: "A read-only version of `vim`."
 content_hash: f1db61b91607b7a43f0d3bceb3ddb80486403287
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: bosanski version
     url: /bs/common/view.html
@@ -26,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/view.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # view
 

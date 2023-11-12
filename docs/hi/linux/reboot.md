@@ -3,7 +3,7 @@ layout: page
 title: linux/reboot (हिन्दी)
 description: "मशीन को `reboot` करें"
 content_hash: 2f15f95f269c811cacc50609e41ee38da910053c
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/linux/reboot.html
@@ -26,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/reboot.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # reboot
 

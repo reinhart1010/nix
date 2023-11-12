@@ -3,6 +3,7 @@ layout: page
 title: common/git-am (français)
 description: "Appliquer des fichiers de \"patch\" Git. Utile lorsque l'on reçoit des commits par email."
 content_hash: e152fd5f57df8eba9a75d9c10dcb01942a2ee409
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-am.html
@@ -16,11 +17,21 @@ related_topics:
   - title: italiano version
     url: /it/common/git-am.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/git-am.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/git-am.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-am.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# git am
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git am
 
 Appliquer des fichiers de "patch" Git. Utile lorsque l'on reçoit des commits par email.
 Voir aussi `git format-patch`, pour générer des fichiers de patch.

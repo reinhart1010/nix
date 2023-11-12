@@ -3,10 +3,12 @@ layout: page
 title: common/minetestserver (English)
 description: "Multiplayer infinite-world block sandbox server."
 content_hash: b5b791b189b5de32740785ff2e61b1e3ea3a5610
+last_modified_at: 2023-11-12
 related_topics:
   - title: Türkçe version
     url: /tr/common/minetestserver.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # minetestserver
 

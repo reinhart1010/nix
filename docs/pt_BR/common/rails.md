@@ -3,6 +3,7 @@ layout: page
 title: common/rails (português (Brasil))
 description: "Framework MVC para o desenvolvimento de aplicações web, desenvolvido em Ruby."
 content_hash: 4305932b0090abf40798486610d6b9bfb42892b5
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/rails.html
@@ -13,6 +14,7 @@ related_topics:
   - title: Indonesia version
     url: /id/common/rails.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rails
 

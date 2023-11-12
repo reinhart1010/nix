@@ -3,6 +3,8 @@ layout: page
 title: common/fswatch (English)
 description: "A cross-platform file change monitor."
 content_hash: e14a6ea8d8fcd815dabee69efedfa3e0c56bde0d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fswatch
 

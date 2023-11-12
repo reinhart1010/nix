@@ -3,10 +3,15 @@ layout: page
 title: common/next (English)
 description: "React framework that uses server-side rendering for building optimized web applications."
 content_hash: c1cb28bce080a7ef2b2a0d8aac759f4a5057dd32
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/common/next.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/next.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # next
 

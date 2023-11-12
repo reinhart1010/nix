@@ -3,12 +3,16 @@ layout: page
 title: common/clear (English)
 description: "Clears the screen of the terminal."
 content_hash: c389de0bfe0cffc167d3ecaf31a4d5c399094439
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/clear.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/clear.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/clear.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/clear.html
@@ -28,6 +32,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/clear.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # clear
 

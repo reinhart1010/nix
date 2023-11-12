@@ -3,11 +3,12 @@ layout: page
 title: windows/pabcnetcclear (English)
 description: "Preprocess and compile PascalABC.NET source files."
 content_hash: 724ea6d43dc6c4cd1e0fe42def78f6f96da33469
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
 related_topics:
   - title: русский version
     url: /ru/windows/pabcnetcclear.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pabcnetcclear
 

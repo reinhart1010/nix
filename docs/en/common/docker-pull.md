@@ -3,12 +3,14 @@ layout: page
 title: common/docker-pull (English)
 description: "Download Docker images from a registry."
 content_hash: 74744a5deff7610b82e4742a46d70ccbea7e0403
-last_modified_at: 2023-03-13
+last_modified_at: 2023-11-12
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/common/docker-pull.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docker pull
+# docker pull
 
 Download Docker images from a registry.
 More information: <https://docs.docker.com/engine/reference/commandline/pull/>.

@@ -3,7 +3,7 @@ layout: page
 title: common/head (فارسی)
 description: "نمایش محتوای ابتدایی یک فایل."
 content_hash: 12642ea0026662ebc0a8a69928be796839181914
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/head.html
@@ -20,6 +20,7 @@ related_topics:
   - title: sh version
     url: /sh/common/head.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # head
 

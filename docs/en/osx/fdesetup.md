@@ -3,6 +3,15 @@ layout: page
 title: osx/fdesetup (English)
 description: "Set and retrieve FileVault related information."
 content_hash: 096f39fea0f7f961484928a9c7cbd55386498ba5
+last_modified_at: 2023-11-12
+related_topics:
+  - title: español version
+    url: /es/osx/fdesetup.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/osx/fdesetup.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # fdesetup
 

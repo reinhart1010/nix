@@ -3,6 +3,8 @@ layout: page
 title: linux/sacct (English)
 description: "Display accounting data from the Slurm service."
 content_hash: c5590ebfdf00136d3726b6afeb7b58eaf61c66df
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # sacct
 

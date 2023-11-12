@@ -3,6 +3,7 @@ layout: page
 title: common/rbenv (Indonesia)
 description: "Alat untuk menginstal versi Ruby dan mengatur lingkungan aplikasi dengan mudah."
 content_hash: 4196a49df4d22ebaf3c67b350657c7c6d84c09cc
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/rbenv.html
@@ -10,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/rbenv.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # rbenv
 

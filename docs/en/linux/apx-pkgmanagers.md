@@ -3,12 +3,14 @@ layout: page
 title: linux/apx-pkgmanagers (English)
 description: "Manage package managers in `apx`."
 content_hash: 9361b7a75ffbb102a8a63251b719efb2f4327ab8
-last_modified_at: 2023-09-20
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Nederlands version
+    url: /nl/linux/apx-pkgmanagers.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># apx pkgmanagers
+# apx pkgmanagers
 
 Manage package managers in `apx`.
 Note: user-created package manager configurations are stored in `~/.local/share/apx/pkgmanagers`.

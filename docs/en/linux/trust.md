@@ -3,11 +3,10 @@ layout: page
 title: linux/trust (English)
 description: "Tool for operating on the trust policy store."
 content_hash: bc708f609283ee724962835b06398371e603d381
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># trust
+# trust
 
 Tool for operating on the trust policy store.
 More information: <https://manned.org/trust>.

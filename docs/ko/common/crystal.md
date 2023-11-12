@@ -3,15 +3,23 @@ layout: page
 title: common/crystal (한국어)
 description: "Crystal 소스 코드를 위한 관리도구."
 content_hash: e9110d3d49d12544b37f56e8f007896264dfbd08
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/crystal.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/crystal.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/common/crystal.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
-# crystal
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># crystal
 
 Crystal 소스 코드를 위한 관리도구.
 더 많은 정보: <https://crystal-lang.org/reference/using_the_compiler>.

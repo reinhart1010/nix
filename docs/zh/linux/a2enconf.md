@@ -3,12 +3,19 @@ layout: page
 title: linux/a2enconf (中文)
 description: "在基于 Debian 的操作系统上启用 Apache 配置文件。"
 content_hash: e0151e1c329ad200348e20c238c1ca1a510940d3
+last_modified_at: 2023-11-12
 related_topics:
+  - title: català version
+    url: /ca/linux/a2enconf.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/linux/a2enconf.html
     icon: bi bi-globe
   - title: English version
     url: /en/linux/a2enconf.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/linux/a2enconf.html
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/a2enconf.html
@@ -22,6 +29,10 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/linux/a2enconf.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/linux/a2enconf.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # a2enconf
 

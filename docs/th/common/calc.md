@@ -3,7 +3,7 @@ layout: page
 title: common/calc (ไทย)
 description: "เครื่องคิดเลขแบบโต้ตอบในเทอร์มินัล"
 content_hash: ee0283bd4e0ba7a219dbf186333ee55a15063385
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/common/calc.html
@@ -29,6 +29,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/calc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # calc
 

@@ -3,11 +3,10 @@ layout: page
 title: linux/qm-help (English)
 description: "Display help for a specific command."
 content_hash: 9545231f1375da9d7f416b5c22f7650938a3af1f
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># qm help
+# qm help
 
 Display help for a specific command.
 More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.

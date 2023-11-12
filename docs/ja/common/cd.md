@@ -3,10 +3,13 @@ layout: page
 title: common/cd (日本語)
 description: "現在の作業ディレクトリを変更します。"
 content_hash: 2da6a56ebc945bae1c3adcd3358fca18fa3c7b52
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/common/cd.html
+    icon: bi bi-globe
+  - title: čeština version
+    url: /cs/common/cd.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/cd.html
@@ -59,6 +62,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/cd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cd
 

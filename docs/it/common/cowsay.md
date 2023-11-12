@@ -3,6 +3,7 @@ layout: page
 title: common/cowsay (italiano)
 description: "Genera un personaggio ASCII (di default una mucca) che dice o pensa qualcosa."
 content_hash: 8301b908bc9939155b32fd6c86230c1a10bd83ee
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/cowsay.html
@@ -10,15 +11,10 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cowsay.html
     icon: bi bi-globe
+tldri18n_status: 1
 ---
 
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cowsay.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
 <hr># cowsay
 

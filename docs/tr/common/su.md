@@ -3,10 +3,15 @@ layout: page
 title: common/su (Türkçe)
 description: "Kabuk ortamında başka bir kullanıcıya geçiş yapın."
 content_hash: 465c0f1a8eb456912f22c6862e51d093c6a874de
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/su.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/su.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # su
 

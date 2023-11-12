@@ -3,11 +3,12 @@ layout: page
 title: common/pdftotext (English)
 description: "Convert PDF files to plain text format."
 content_hash: c24fb942a5c3d2947081344728e813669fee6c5c
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/pdftotext.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # pdftotext
 

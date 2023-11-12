@@ -3,6 +3,7 @@ layout: page
 title: common/consul (English)
 description: "Distributed key-value store with health checking and service discovery."
 content_hash: f0a91871b58d63e7ae584a4f9151ea83947b503f
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/consul.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/consul.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # consul
 

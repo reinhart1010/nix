@@ -3,6 +3,7 @@ layout: page
 title: common/calc (English)
 description: "An interactive arbitrary-precision calculator in the terminal."
 content_hash: 53c419e379262cf74e3a7351e82b96f2f8cd06ff
+last_modified_at: 2023-11-12
 related_topics:
   - title: català version
     url: /ca/common/calc.html
@@ -13,12 +14,22 @@ related_topics:
   - title: español version
     url: /es/common/calc.html
     icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/calc.html
+    icon: bi bi-globe
   - title: മലയാളം version
     url: /ml/common/calc.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/calc.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/calc.html
+    icon: bi bi-globe
+  - title: ไทย version
+    url: /th/common/calc.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # calc
 

@@ -3,11 +3,12 @@ layout: page
 title: windows/add-appxpackage (हिन्दी)
 description: "उपयोगकर्ता खाते में एक हस्ताक्षरित ऐप पैकेज (`.appx`, `.msix`, `.appxbundle` और `.msixbundle`) जोड़ने के लिए एक PowerShell उपयोगिता।"
 content_hash: c31ee47049edc4c9840b6b67089c824c41914b62
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/add-appxpackage.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # add-appxpackage
 

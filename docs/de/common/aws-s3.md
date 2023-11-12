@@ -3,6 +3,7 @@ layout: page
 title: common/aws-s3 (Deutsch)
 description: "CLI für AWS S3. AWS S3 stellt Speicherplatz in der Cloud zur Verfügung."
 content_hash: 71b5b14b592d420281699444aab5bda37f68a610
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/aws-s3.html
@@ -19,6 +20,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/aws-s3.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # aws s3
 

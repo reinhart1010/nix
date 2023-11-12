@@ -3,6 +3,7 @@ layout: page
 title: common/awk (português (Brasil))
 description: "Uma linguagem de programação versátil para trabalhar com arquivos."
 content_hash: 9609b7bf66944f4c621c1a11197a9c9d4e6391f1
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/awk.html
@@ -22,6 +23,13 @@ related_topics:
   - title: polski version
     url: /pl/common/awk.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/awk.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/awk.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # awk
 

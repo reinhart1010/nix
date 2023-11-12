@@ -3,7 +3,7 @@ layout: page
 title: linux/nmcli-monitor (Nederlands)
 description: "Monitor veranderingen van de NetworkManager connectie status."
 content_hash: 6ef86139fa8d59c1c6bab490593ae87d60f4f336
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/nmcli-monitor.html
@@ -11,11 +11,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/nmcli-monitor.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># nmcli monitor
+# nmcli monitor
 
 Monitor veranderingen van de NetworkManager connectie status.
 Dit subcommando kan ook aangeroepen worden met `nmcli m`.

@@ -3,11 +3,12 @@ layout: page
 title: common/az-storage (English)
 description: "Manage Azure Cloud Storage resources."
 content_hash: 48b32dc6b75fd496c72f3af57d183cc7b76a39be
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/common/az-storage.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # az storage
 

@@ -3,6 +3,7 @@ layout: page
 title: common/csvstat (italiano)
 description: "Stampa statistiche descrittive per tutte le colonne di un file CSV."
 content_hash: 39490ba562e262e9c497e24d672ad4f3c41c60b9
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/csvstat.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/csvstat.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # csvstat
 

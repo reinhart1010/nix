@@ -3,7 +3,7 @@ layout: page
 title: osx/gdate (polski)
 description: "To polecenie jest aliasem `-p linux date`."
 content_hash: 094b6ec0ac46974371200ad64a1ccdc34d1b4243
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gdate.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gdate.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gdate
 

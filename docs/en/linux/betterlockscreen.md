@@ -3,10 +3,12 @@ layout: page
 title: linux/betterlockscreen (English)
 description: "Simple, minimal lock screen."
 content_hash: 3dfc87218fcc7a506b1dd2f03d64249da84326e8
+last_modified_at: 2023-11-12
 related_topics:
   - title: 中文 version
     url: /zh/linux/betterlockscreen.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # betterlockscreen
 

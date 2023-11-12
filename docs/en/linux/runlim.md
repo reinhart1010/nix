@@ -3,7 +3,8 @@ layout: page
 title: linux/runlim (English)
 description: "A tool for sampling and limiting time and memory usage of a program and its child processes using the proc file system on Linux."
 content_hash: 9a6d8f1a89fee9c4268b08b8fd9592f4a06fbb8c
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # runlim
 

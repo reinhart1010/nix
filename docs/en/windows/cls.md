@@ -3,7 +3,7 @@ layout: page
 title: windows/cls (English)
 description: "Clears the screen."
 content_hash: f77a87cb98701176e65da56debdfe014028244a1
-last_modified_at: 2023-10-25
+last_modified_at: 2023-11-12
 related_topics:
   - title: español version
     url: /es/windows/cls.html
@@ -23,6 +23,9 @@ related_topics:
   - title: ລາວ version
     url: /lo/windows/cls.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/cls.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/cls.html
     icon: bi bi-globe
@@ -38,6 +41,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/cls.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # cls
 

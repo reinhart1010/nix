@@ -3,7 +3,7 @@ layout: page
 title: common/base64 (English)
 description: "Encode or decode file or `stdin` to/from Base64, to `stdout`."
 content_hash: 4584ca846577114040a4c8f1c7f7e7ec7437b591
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/base64.html
@@ -35,6 +35,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/base64.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # base64
 

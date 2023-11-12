@@ -3,6 +3,7 @@ layout: page
 title: linux/addr2line (中文)
 description: "将二进制文件地址转换成文件名和行数。"
 content_hash: 7e840e51e11a1ab2d0acc9aa21e81c3256d1d9cd
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/addr2line.html
@@ -10,6 +11,10 @@ related_topics:
   - title: English version
     url: /en/linux/addr2line.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/addr2line.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # addr2line
 

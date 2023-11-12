@@ -3,10 +3,12 @@ layout: page
 title: common/xcv (English)
 description: "Cut, copy, and paste in the command-line."
 content_hash: 939531505a3772a7ccf0ce1dcea6e3f4599b1fad
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/xcv.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # xcv
 

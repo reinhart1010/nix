@@ -3,19 +3,23 @@ layout: page
 title: common/afconvert (español)
 description: "Convierte entre formatos de archivo AFF y raw."
 content_hash: 9d353a9bfeb2bc13448fdea695fb414a4758db50
-last_modified_at: 2023-02-13
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/afconvert.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/afconvert.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/afconvert.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/afconvert.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># afconvert
+# afconvert
 
 Convierte entre formatos de archivo AFF y raw.
 Más información: <https://manned.org/afconvert.1>.

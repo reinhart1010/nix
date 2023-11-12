@@ -3,9 +3,13 @@ layout: page
 title: common/ansible-playbook (English)
 description: "Execute tasks defined in playbook on remote machines over SSH."
 content_hash: f97216f8314a0444b537713e3583a13f4b903323
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible-playbook.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/ansible-playbook.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ansible-playbook.html
@@ -16,6 +20,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ansible-playbook.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ansible-playbook
 

@@ -3,7 +3,8 @@ layout: page
 title: common/pv (English)
 description: "Monitor the progress of data through a pipe."
 content_hash: e5b11326d163f76a2e19fa70062874c4ce98331c
-last_modified_at: 2022-12-30
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # pv
 

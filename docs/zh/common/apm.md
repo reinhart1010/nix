@@ -3,7 +3,7 @@ layout: page
 title: common/apm (中文)
 description: "Atom 编辑器的包管理工具。"
 content_hash: 3c64be4c488b2986a061d129e42d34ceab6fc7ae
-last_modified_at: 2023-09-10
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/apm.html
@@ -23,6 +23,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/apm.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apm
 

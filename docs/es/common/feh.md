@@ -3,6 +3,7 @@ layout: page
 title: common/feh (español)
 description: "Utilidad ligera de visualización de imágenes."
 content_hash: 004c7ce70ce247a2974a21ee63cee0a39d08e903
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/feh.html
@@ -10,6 +11,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/feh.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # feh
 

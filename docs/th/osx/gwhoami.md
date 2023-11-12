@@ -3,7 +3,7 @@ layout: page
 title: osx/gwhoami (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux whoami`"
 content_hash: 76cb2102c230d093093bcd0ee23ec730137b257c
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gwhoami.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gwhoami.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gwhoami
 

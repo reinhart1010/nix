@@ -3,11 +3,10 @@ layout: page
 title: linux/elink (English)
 description: "Look up precomputed neighbors within a database, or find associated records in other databases."
 content_hash: 7f0b007bfdc80420ca3d27aaa313c582f65e0931
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># elink
+# elink
 
 Look up precomputed neighbors within a database, or find associated records in other databases.
 It is part of the `edirect` package.

@@ -3,7 +3,7 @@ layout: page
 title: osx/gsleep (polski)
 description: "To polecenie jest aliasem `-p linux sleep`."
 content_hash: f61b7ffad8edebb92b0579e15cfd4ce991180c2e
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gsleep.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gsleep.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gsleep
 

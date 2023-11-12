@@ -3,7 +3,8 @@ layout: page
 title: common/patchwork (English)
 description: "Render an image of a `squareified treemap` network graph from a `graphviz` file."
 content_hash: 205fefbbffd8a2022cc421e8e56fe5ba4fec8d6f
-last_modified_at: 2022-12-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # patchwork
 

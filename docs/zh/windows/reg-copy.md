@@ -3,10 +3,12 @@ layout: page
 title: windows/reg-copy (中文)
 description: "复制注册表中的键和值。"
 content_hash: fb9b453ec87a479984124119c14ec5802fa59e93
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/reg-copy.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # reg copy
 

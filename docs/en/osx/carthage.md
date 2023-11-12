@@ -3,10 +3,15 @@ layout: page
 title: osx/carthage (English)
 description: "A dependency management tool for Cocoa applications."
 content_hash: a47c10e12ab10be7fa34dd84bf91c10622d45591
+last_modified_at: 2023-11-12
 related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/osx/carthage.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/osx/carthage.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # carthage
 

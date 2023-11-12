@@ -3,6 +3,8 @@ layout: page
 title: linux/xmount (English)
 description: "Convert on-the-fly between multiple input and output hard disk image types with optional write cache support."
 content_hash: 4d42a0376ea6584826faf2ffc3efef5e4f30af82
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # xmount
 

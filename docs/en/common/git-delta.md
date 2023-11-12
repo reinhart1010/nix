@@ -3,6 +3,8 @@ layout: page
 title: common/git-delta (English)
 description: "List files that differ from another branch."
 content_hash: 85da60dd1316b21b3586ce03f2f07f0358a43561
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git delta
 

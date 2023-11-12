@@ -3,12 +3,14 @@ layout: page
 title: osx/httpie (English)
 description: "A user friendly HTTP tool."
 content_hash: 17eb43fcf109fee2735d33e79084aeb27076778e
-last_modified_at: 2023-08-07
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Deutsch version
+    url: /de/osx/httpie.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># httpie
+# httpie
 
 A user friendly HTTP tool.
 More information: <https://github.com/httpie/httpie>.

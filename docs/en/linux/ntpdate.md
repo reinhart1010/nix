@@ -3,6 +3,8 @@ layout: page
 title: linux/ntpdate (English)
 description: "Synchronize and set the date and time via NTP."
 content_hash: a5ac08395a6bc0e5c39a0c562b5954cb40163fad
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ntpdate
 

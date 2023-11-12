@@ -3,6 +3,8 @@ layout: page
 title: linux/tic (English)
 description: "Compile terminfo and install for ncurses."
 content_hash: 43895a53aa3dc28b3e034fceeebd4baf38a8e143
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tic
 

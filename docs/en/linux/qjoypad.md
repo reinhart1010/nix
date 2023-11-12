@@ -3,6 +3,8 @@ layout: page
 title: linux/qjoypad (English)
 description: "Translate input from gamepads or joysticks into keyboard strokes or mouse actions."
 content_hash: f30ab6e3aaf1f30cc917bcf719f69b7cc351a86e
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # qjoypad
 

@@ -3,6 +3,8 @@ layout: page
 title: common/cronic (English)
 description: "Bash script for wrapping cron jobs to prevent excess email sending."
 content_hash: 23e21628ee1b124e952459656809fc751e7c1e15
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # cronic
 

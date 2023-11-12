@@ -3,13 +3,21 @@ layout: page
 title: common/ps (Indonesia)
 description: "Informasi tentang proses-proses yang berlangsung."
 content_hash: bfe5079a89a95424240e2990983182890edd567d
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/ps.html
     icon: bi bi-globe
+  - title: español version
+    url: /es/common/ps.html
+    icon: bi bi-globe
   - title: 日本語 version
     url: /ja/common/ps.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/ps.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ps
 

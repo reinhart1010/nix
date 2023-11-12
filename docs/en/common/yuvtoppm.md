@@ -3,12 +3,10 @@ layout: page
 title: common/yuvtoppm (English)
 description: "Convert Abekas YUV bytes to PPM."
 content_hash: f5c3622ea8ac5465ca39edeb71eeca66254d9228
-last_modified_at: 2023-11-04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># yuvtoppm
+# yuvtoppm
 
 Convert Abekas YUV bytes to PPM.
 More information: <https://netpbm.sourceforge.net/doc/yuvtoppm.html>.

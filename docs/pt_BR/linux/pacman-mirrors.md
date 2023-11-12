@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman-mirrors (português (Brasil))
 description: "Gera uma lista de mirrors do pacman para o Manjaro Linux."
 content_hash: 966ef645c88c0262ffe4b7630fb75ceea0a525eb
-last_modified_at: 2023-10-15
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/pacman-mirrors.html
@@ -20,11 +20,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/pacman-mirrors.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># pacman-mirrors
+# pacman-mirrors
 
 Gera uma lista de mirrors do pacman para o Manjaro Linux.
 Toda execução do pacman-mirrors requer que você sincronize seu bando de dados e atualize seu sistema usado `sudo pacman -Syyu`.

@@ -3,10 +3,12 @@ layout: page
 title: common/yt-dlp (português (Portugal))
 description: "Um fork do youtube-dl com funcionalidades e correções adicionais."
 content_hash: edfc68a8f26478868f338d2b2601c8027a197c9e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/yt-dlp.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # yt-dlp
 

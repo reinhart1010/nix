@@ -3,6 +3,8 @@ layout: page
 title: common/tmpmail (English)
 description: "A temporary email right from your terminal written in POSIX sh."
 content_hash: a33affcbb0303752c64cca0acfb05be281a9e80b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tmpmail
 

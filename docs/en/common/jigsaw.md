@@ -3,6 +3,8 @@ layout: page
 title: common/jigsaw (English)
 description: "A Laravel-based static site builder for PHP."
 content_hash: f25ca88daba1377b97310af3e90d1f5127ed9f44
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # jigsaw
 

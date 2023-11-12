@@ -3,6 +3,7 @@ layout: page
 title: common/git-archive (Türkçe)
 description: "İsimlendirilmiş bir ağaçtan dosyaların arşivini oluştur."
 content_hash: 24d8f601d6825a3cac9e4edd1495a14a517872c2
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/git-archive.html
@@ -19,6 +20,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/git-archive.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git archive
 

@@ -3,7 +3,7 @@ layout: page
 title: common/virsh-pool-define-as (한국어)
 description: "제공된 인수를 사용하여 영구 가상 머신 스토리지 풀에 대한 `/etc/libvirt/storage`에 구성 파일을 생성합니다."
 content_hash: 3f9af1413453cdff2d9ba481ab3a2a701134df00
-last_modified_at: 2023-10-22
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/virsh-pool-define-as.html
@@ -11,6 +11,7 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/virsh-pool-define-as.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # virsh pool-define-as
 

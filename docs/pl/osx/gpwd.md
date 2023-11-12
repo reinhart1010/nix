@@ -3,7 +3,7 @@ layout: page
 title: osx/gpwd (polski)
 description: "To polecenie jest aliasem `-p linux pwd`."
 content_hash: d8fa2921d86f04dbed1a9c348c97579fe791c7b9
-last_modified_at: 2023-05-31
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gpwd.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gpwd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gpwd
 

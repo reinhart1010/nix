@@ -3,10 +3,12 @@ layout: page
 title: common/exec (English)
 description: "Replace the current process with another process."
 content_hash: f4d47395c2963337a3c54a954802bce6bf35e166
+last_modified_at: 2023-11-12
 related_topics:
   - title: italiano version
     url: /it/common/exec.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # exec
 

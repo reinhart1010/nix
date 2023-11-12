@@ -3,7 +3,7 @@ layout: page
 title: osx/gecho (ไทย)
 description: "คำสั่งนี้เป็นอีกชื่อหนึ่งของคำสั่ง `-p linux echo`"
 content_hash: 97a53b1ae297cb763f3b2d9c8b284f9f4da9077b
-last_modified_at: 2023-07-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/osx/gecho.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/osx/gecho.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # gecho
 

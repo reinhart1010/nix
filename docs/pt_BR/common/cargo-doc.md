@@ -3,7 +3,7 @@ layout: page
 title: common/cargo-doc (português (Brasil))
 description: "Constrói e visualiza a documentação de um pacote Rust, opcionalmente em modo offline."
 content_hash: ecc827c08421289ab4fe6c748c95069ae53b4c70
-last_modified_at: 2023-08-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/cargo-doc.html
@@ -11,11 +11,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/cargo-doc.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cargo doc
+# cargo doc
 
 Constrói e visualiza a documentação de um pacote Rust, opcionalmente em modo offline.
 Mais informações: <https://doc.rust-lang.org/cargo/commands/cargo-doc.html>.

@@ -3,7 +3,8 @@ layout: page
 title: common/cheat (English)
 description: "Create and view interactive cheat sheets."
 content_hash: 19036e13c764b5bbc4b3f9eae2b265e74b292d77
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # cheat
 

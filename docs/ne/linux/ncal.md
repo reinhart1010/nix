@@ -3,7 +3,7 @@ layout: page
 title: linux/ncal (नेपाली)
 description: "यो आदेश `cal` को उपनाम हो |"
 content_hash: 37ccc92accfe3e7a553331139746a410cf4717a7
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: العربية version
     url: /ar/linux/ncal.html
@@ -89,6 +89,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/linux/ncal.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ncal
 

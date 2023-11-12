@@ -3,6 +3,7 @@ layout: page
 title: common/ffprobe (italiano)
 description: "Analizzatore di flussi multimediali."
 content_hash: 0bea256859cb7f66d9c4f414dfaca8507fa35d4f
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/ffprobe.html
@@ -10,6 +11,7 @@ related_topics:
   - title: English version
     url: /en/common/ffprobe.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ffprobe
 

@@ -3,7 +3,7 @@ layout: page
 title: linux/wtf (português (Brasil))
 description: "Mostra a expansão de acrônimos."
 content_hash: 8d0594f087738ffd1d40a5d9498e039bbcd951d5
-last_modified_at: 2023-05-14
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/wtf.html
@@ -11,6 +11,7 @@ related_topics:
   - title: polski version
     url: /pl/linux/wtf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # wtf
 

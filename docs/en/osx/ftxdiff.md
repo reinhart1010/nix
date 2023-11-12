@@ -3,7 +3,12 @@ layout: page
 title: osx/ftxdiff (English)
 description: "Compare differences between two fonts."
 content_hash: 5a4cb99a2ca653df8b4849bca83a25502e75148c
-last_modified_at: 2023-02-20
+last_modified_at: 2023-11-12
+related_topics:
+  - title: español version
+    url: /es/osx/ftxdiff.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ftxdiff
 

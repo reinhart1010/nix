@@ -3,7 +3,11 @@ layout: page
 title: common/asdf (日本語)
 description: "さまざまなパッケージのバージョンを管理するためのコマンドラインインターフェイスです。"
 content_hash: e72011f5417c4a78b934952701ed7b46c242557b
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/asdf.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/asdf.html
     icon: bi bi-globe
@@ -22,6 +26,7 @@ related_topics:
   - title: 中文 version
     url: /zh/common/asdf.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # asdf
 

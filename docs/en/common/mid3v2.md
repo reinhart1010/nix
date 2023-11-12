@@ -3,7 +3,12 @@ layout: page
 title: common/mid3v2 (English)
 description: "Edit audio tags."
 content_hash: d2778d964c1a68464457f8f590a20ab50070a399
-last_modified_at: 2023-01-17
+last_modified_at: 2023-11-12
+related_topics:
+  - title: español version
+    url: /es/common/mid3v2.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # mid3v2
 

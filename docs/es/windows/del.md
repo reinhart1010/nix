@@ -3,7 +3,7 @@ layout: page
 title: windows/del (español)
 description: "Elimina uno o más archivos."
 content_hash: 4654f7cef35f0d03cf5ff56664d08394f860437a
-last_modified_at: 2023-10-28
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/windows/del.html
@@ -14,6 +14,9 @@ related_topics:
   - title: italiano version
     url: /it/windows/del.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/del.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/windows/del.html
     icon: bi bi-globe
@@ -23,6 +26,7 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/del.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # del
 

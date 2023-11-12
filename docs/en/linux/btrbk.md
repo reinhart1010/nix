@@ -3,11 +3,10 @@ layout: page
 title: linux/btrbk (English)
 description: "A tool for creating snapshots and remote backups of btrfs subvolumes."
 content_hash: b5329217c890a07a5e147858f6ddf150497aa0d7
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># btrbk
+# btrbk
 
 A tool for creating snapshots and remote backups of btrfs subvolumes.
 More information: <https://digint.ch/btrbk/doc/readme.html>.

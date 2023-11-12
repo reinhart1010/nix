@@ -3,11 +3,15 @@ layout: page
 title: common/php (polski)
 description: "Interfejs wiersza poleceń PHP."
 content_hash: 3b3960de571b8cb06dab5131f3de9b961100d98e
-last_modified_at: 2023-10-06
+last_modified_at: 2023-11-12
 related_topics:
+  - title: Deutsch version
+    url: /de/common/php.html
+    icon: bi bi-globe
   - title: English version
     url: /en/common/php.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # php
 

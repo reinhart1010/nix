@@ -3,12 +3,10 @@ layout: page
 title: linux/qm-cloud-init (English)
 description: "Configure cloudinit settings for virtual machines managed by Proxmox Virtual Environment (PVE)."
 content_hash: a82ebc8b7ad79ab8195b71141559aa26636c9b80
-last_modified_at: 2023-10-11
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># qm cloud init
+# qm cloud init
 
 Configure cloudinit settings for virtual machines managed by Proxmox Virtual Environment (PVE).
 More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.

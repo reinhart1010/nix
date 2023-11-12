@@ -3,11 +3,15 @@ layout: page
 title: common/open.fish (Indonesia)
 description: "Buka file, direktori, dan alamat URI dengan aplikasi-aplikasi default yang dapat membukanya."
 content_hash: 2f46db26a5f5e14607f29fe39011cbe2c5e6808a
-last_modified_at: 2023-10-26
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/open.fish.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/open.fish.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # open
 

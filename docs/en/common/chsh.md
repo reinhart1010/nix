@@ -3,7 +3,7 @@ layout: page
 title: common/chsh (English)
 description: "Change user's login shell."
 content_hash: 1eb791fa228e5b1de3db3cd28de5edd046c011f4
-last_modified_at: 2023-01-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: bosanski version
     url: /bs/common/chsh.html
@@ -38,6 +38,7 @@ related_topics:
   - title: svenska version
     url: /sv/common/chsh.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chsh
 

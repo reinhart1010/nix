@@ -3,6 +3,8 @@ layout: page
 title: common/psysh (English)
 description: "A runtime developer console, interactive debugger and REPL for PHP."
 content_hash: 62d2c507546d93229b69397fb50971c8e7d433d3
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # psysh
 

@@ -3,6 +3,7 @@ layout: page
 title: common/git-grep (italiano)
 description: "Cerca stringhe nello storico dei file tracciati nel repository."
 content_hash: 5a967f30885eb27a63e2433520b7e6314206f027
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-grep.html
@@ -13,6 +14,10 @@ related_topics:
   - title: français version
     url: /fr/common/git-grep.html
     icon: bi bi-globe
+  - title: Türkçe version
+    url: /tr/common/git-grep.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git-grep
 

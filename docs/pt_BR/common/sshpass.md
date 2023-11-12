@@ -3,7 +3,7 @@ layout: page
 title: common/sshpass (português (Brasil))
 description: "Um provedor de senha SSH."
 content_hash: 61145bc5604099fe6c9ee6734da5e12ca863b10c
-last_modified_at: 2023-09-18
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/sshpass.html
@@ -11,11 +11,9 @@ related_topics:
   - title: English version
     url: /en/common/sshpass.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># sshpass
+# sshpass
 
 Um provedor de senha SSH.
 Ele funciona criando um TTY, inserindo a senha nele e, em seguida, redirecionando `stdin` para a sessão SSH.

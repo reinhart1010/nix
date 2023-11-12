@@ -3,7 +3,7 @@ layout: page
 title: linux/apache2ctl (हिन्दी)
 description: "अपाचे HTTP वेब सर्वर का प्रबंधन करें।"
 content_hash: dbdcdc4b73d890399c2ab983f53d6bb32b919200
-last_modified_at: 2023-11-06
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/linux/apache2ctl.html
@@ -20,6 +20,7 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/apache2ctl.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # apache2ctl
 

@@ -3,12 +3,10 @@ layout: page
 title: common/git-guilt (English)
 description: "Show total blame count for files with unstaged changes or calculate the change in blame between two revisions."
 content_hash: 329e58ef8c71a41cb7cec2f5de1744e3c1daf954
-last_modified_at: 2023-10-10
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git guilt
+# git guilt
 
 Show total blame count for files with unstaged changes or calculate the change in blame between two revisions.
 Part of `git-extras`.

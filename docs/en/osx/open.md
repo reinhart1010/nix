@@ -3,9 +3,13 @@ layout: page
 title: osx/open (English)
 description: "Opens files, directories and applications."
 content_hash: efa649ddbc99af56eef5b1b8c12c27041f317138
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/osx/open.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/osx/open.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/osx/open.html
@@ -13,6 +17,7 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/open.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # open
 

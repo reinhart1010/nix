@@ -3,6 +3,8 @@ layout: page
 title: linux/qm (English)
 description: "QEMU/KVM Virtual Machine Manager."
 content_hash: e21a974d99372729e6d18c863ad440fe440281e7
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # qm
 

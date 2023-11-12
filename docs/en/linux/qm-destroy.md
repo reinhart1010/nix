@@ -3,11 +3,10 @@ layout: page
 title: linux/qm-destroy (English)
 description: "Destroy a virtual machine in QEMU/KVM Virtual Machine Manager."
 content_hash: 1f49e1f44b3d02c0c99d69cdb2654549b9a0765d
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># qm destroy
+# qm destroy
 
 Destroy a virtual machine in QEMU/KVM Virtual Machine Manager.
 More information: <https://pve.proxmox.com/pve-docs/qm.1.html>.

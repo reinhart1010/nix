@@ -3,12 +3,16 @@ layout: page
 title: common/diff (português (Brasil))
 description: "Compara diretórios e arquivos."
 content_hash: 2a845e4df02808971ff850188bc60e3391090642
+last_modified_at: 2023-11-12
 related_topics:
   - title: Deutsch version
     url: /de/common/diff.html
     icon: bi bi-globe
   - title: English version
     url: /en/common/diff.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/diff.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/diff.html
@@ -25,6 +29,10 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/diff.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/diff.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # diff
 

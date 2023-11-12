@@ -3,16 +3,14 @@ layout: page
 title: linux/nmcli-radio (Nederlands)
 description: "Toon de status van radioschakelaars of schakel ze in/uit via NetworkManager."
 content_hash: 386cfff0f2a442a492caaf996fe08f7a0d60b0f7
-last_modified_at: 2023-11-05
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/nmcli-radio.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># nmcli radio
+# nmcli radio
 
 Toon de status van radioschakelaars of schakel ze in/uit via NetworkManager.
 Dit subcommando kan ook aangeroepen worden met `nmcli r`.

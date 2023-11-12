@@ -3,6 +3,8 @@ layout: page
 title: linux/po4a-gettextize (English)
 description: "Convert a file to a PO file."
 content_hash: 6a4023885d033e67842d31989d2c5349a72f4b74
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # po4a-gettextize
 

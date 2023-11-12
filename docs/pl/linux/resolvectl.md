@@ -3,11 +3,15 @@ layout: page
 title: linux/resolvectl (polski)
 description: "Znajdź nazwy domen, adresy IPv4 i IPv6, rekordy zasobów DNS i usługi."
 content_hash: 59aeeabf353514891c3b2f0972a45a957765d39f
-last_modified_at: 2023-05-09
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/resolvectl.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/linux/resolvectl.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.

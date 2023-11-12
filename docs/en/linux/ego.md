@@ -3,6 +3,8 @@ layout: page
 title: linux/ego (English)
 description: "Funtoo's official system personality management tool."
 content_hash: e86698e4688da0d859258326d6d3b7cfba77be0b
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # ego
 

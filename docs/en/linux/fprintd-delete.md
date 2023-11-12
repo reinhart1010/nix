@@ -3,6 +3,8 @@ layout: page
 title: linux/fprintd-delete (English)
 description: "Remove fingerprints from the database."
 content_hash: b7f56f35f8dd3dc6547ce7fae62397cc69ee5c73
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # fprintd-delete
 

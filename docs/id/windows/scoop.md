@@ -3,16 +3,24 @@ layout: page
 title: windows/scoop (Indonesia)
 description: "Penginstal paket berantarmuka baris perintah untuk Windows."
 content_hash: 8e2d75c87a6e10e7aeefad597d1d08fd1a53f938
+last_modified_at: 2023-11-12
 related_topics:
+  - title: বাংলা version
+    url: /bn/windows/scoop.html
+    icon: bi bi-globe
   - title: Deutsch version
     url: /de/windows/scoop.html
     icon: bi bi-globe
   - title: English version
     url: /en/windows/scoop.html
     icon: bi bi-globe
+  - title: हिन्दी version
+    url: /hi/windows/scoop.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/windows/scoop.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # scoop
 

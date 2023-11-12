@@ -3,7 +3,8 @@ layout: page
 title: common/qdbus (English)
 description: "Inter-Process Communication (IPC) and Remote Procedure Calling (RPC) mechanism originally developed for Linux."
 content_hash: 7cf03447a47e6c563cd87604a14517bb43b72053
-last_modified_at: 2023-08-09
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # qdbus
 

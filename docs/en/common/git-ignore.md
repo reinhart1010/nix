@@ -3,6 +3,12 @@ layout: page
 title: common/git-ignore (English)
 description: "Show/update `.gitignore` files."
 content_hash: 60cd16ceefc1ba71685fe4cf7afe26bfce643f92
+last_modified_at: 2023-11-12
+related_topics:
+  - title: Türkçe version
+    url: /tr/common/git-ignore.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git ignore
 

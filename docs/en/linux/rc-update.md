@@ -3,6 +3,8 @@ layout: page
 title: linux/rc-update (English)
 description: "Add and remove OpenRC services to and from runlevels."
 content_hash: c530ba1901e49824d1446517e7397be2c3784658
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # rc-update
 

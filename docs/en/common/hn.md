@@ -3,6 +3,8 @@ layout: page
 title: common/hn (English)
 description: "Command-line interface for Hacker News."
 content_hash: e93cd5e969c1be579a07b49bb844c4f8a1896515
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # hn
 

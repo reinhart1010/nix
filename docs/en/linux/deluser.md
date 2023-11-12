@@ -3,13 +3,18 @@ layout: page
 title: linux/deluser (English)
 description: "Delete a user from the system."
 content_hash: e40c17967b090a377675b88048f485a8054d58d1
+last_modified_at: 2023-11-12
 related_topics:
+  - title: français version
+    url: /fr/linux/deluser.html
+    icon: bi bi-globe
   - title: italiano version
     url: /it/linux/deluser.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/linux/deluser.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # deluser
 

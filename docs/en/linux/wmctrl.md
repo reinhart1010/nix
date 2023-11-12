@@ -3,6 +3,8 @@ layout: page
 title: linux/wmctrl (English)
 description: "CLI for X Window Manager."
 content_hash: 21744e928c2d30490b2624fa59e3a5dcab9d6c24
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # wmctrl
 

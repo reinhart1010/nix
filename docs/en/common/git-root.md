@@ -3,6 +3,8 @@ layout: page
 title: common/git-root (English)
 description: "Print the root directory of the current Git repository."
 content_hash: 951bf36f987bfd678dab0bf7898c89fc5eee6c04
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # git root
 

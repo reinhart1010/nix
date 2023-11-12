@@ -3,6 +3,8 @@ layout: page
 title: common/dvc-destroy (English)
 description: "Remove all DVC files and directories from a DVC project."
 content_hash: 1ba5f2355e5e02e71cef70bed5b5f0a70e6b4384
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # dvc destroy
 

@@ -3,9 +3,13 @@ layout: page
 title: common/chroot (Deutsch)
 description: "Führe einen Befehl oder eine interaktive Shell mit einem speziellen root-Verzeichnis aus."
 content_hash: 58450b5173ce9355d0935156084b18ced51d201c
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/chroot.html
+    icon: bi bi-globe
+  - title: français version
+    url: /fr/common/chroot.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/chroot.html
@@ -19,6 +23,7 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/chroot.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chroot
 

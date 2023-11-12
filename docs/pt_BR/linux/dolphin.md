@@ -3,10 +3,12 @@ layout: page
 title: linux/dolphin (português (Brasil))
 description: "Gerenciador de arquivos do KDE."
 content_hash: 085954b934dc5da2a69ea99119cc46662a03fb16
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/dolphin.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dolphin
 

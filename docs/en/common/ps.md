@@ -3,13 +3,21 @@ layout: page
 title: common/ps (English)
 description: "Information about running processes."
 content_hash: 008ce7bfb84b46cf04ac19eff815514a43a0c715
+last_modified_at: 2023-11-12
 related_topics:
+  - title: español version
+    url: /es/common/ps.html
+    icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/ps.html
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/common/ps.html
     icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/ps.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # ps
 

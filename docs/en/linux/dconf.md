@@ -3,6 +3,12 @@ layout: page
 title: linux/dconf (English)
 description: "Manage dconf databases."
 content_hash: 2cea7f63fe66c688c30962063ac113e8d771715f
+last_modified_at: 2023-11-12
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/linux/dconf.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # dconf
 

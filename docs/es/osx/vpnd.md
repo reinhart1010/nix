@@ -3,16 +3,14 @@ layout: page
 title: osx/vpnd (español)
 description: "Escucha las conexiones VPN entrantes."
 content_hash: 70d3ba77b754f892b6d7cfde8431a030e41af499
-last_modified_at: 2023-10-24
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/vpnd.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># vpnd
+# vpnd
 
 Escucha las conexiones VPN entrantes.
 No debe invocarse manualmente.

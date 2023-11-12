@@ -3,7 +3,8 @@ layout: page
 title: common/glab-auth (English)
 description: "Authenticate with a GitLab host."
 content_hash: 3cc6eb47b5233eb4bcc047d7ef983f753c89cf82
-last_modified_at: 2023-07-16
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # glab auth
 

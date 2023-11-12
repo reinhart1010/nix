@@ -3,7 +3,7 @@ layout: page
 title: common/chsh (日本語)
 description: "ユーザーのログインシェルを変更します。"
 content_hash: 72e4b34efb2ca1e625ba5262a1a6c962004c923f
-last_modified_at: 2022-12-29
+last_modified_at: 2023-11-12
 related_topics:
   - title: bosanski version
     url: /bs/common/chsh.html
@@ -38,6 +38,7 @@ related_topics:
   - title: svenska version
     url: /sv/common/chsh.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # chsh
 

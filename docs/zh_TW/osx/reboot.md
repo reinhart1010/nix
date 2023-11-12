@@ -3,7 +3,7 @@ layout: page
 title: osx/reboot (中文 (繁體, 台灣))
 description: "重啟系統。"
 content_hash: efdbd586b039ac6a207b7d399628257d7ccfec24
-last_modified_at: 2023-10-04
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/reboot.html
@@ -14,11 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/reboot.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># reboot
+# reboot
 
 重啟系統。
 更多資訊：<https://ss64.com/osx/reboot.html>.

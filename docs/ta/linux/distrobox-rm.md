@@ -3,11 +3,18 @@ layout: page
 title: linux/distrobox-rm (தமிழ்)
 description: "டிஸ்ட்ரோபாக்ஸ் கொள்கலன்களை நீக்கு."
 content_hash: 1eb68c5555e5b112c3f5149b5934e9c47acb777a
-last_modified_at: 2023-06-08
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/linux/distrobox-rm.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/distrobox-rm.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/linux/distrobox-rm.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
 # distrobox-rm
 

@@ -3,6 +3,8 @@ layout: page
 title: common/tlmgr-paper (English)
 description: "Manage paper size options of an TeX Live installation."
 content_hash: c0343003ab98bf3af3ad8192eb2c7a4f568fbca9
+last_modified_at: 2023-11-12
+tldri18n_status: 2
 ---
 # tlmgr paper
 

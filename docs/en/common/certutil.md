@@ -3,10 +3,12 @@ layout: page
 title: common/certutil (English)
 description: "Manage keys and certificates in both NSS databases and other NSS tokens."
 content_hash: 33fa023720f7c6d36d4a1b876c3d8845ceeca45b
+last_modified_at: 2023-11-12
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/certutil.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # certutil
 

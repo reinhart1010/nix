@@ -3,6 +3,7 @@ layout: page
 title: windows/assoc (中文)
 description: "显示或修改文件扩展名关联。"
 content_hash: 91097dba257d2236c5b008ab6d4db27098582cea
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/windows/assoc.html
@@ -10,8 +11,18 @@ related_topics:
   - title: 日本語 version
     url: /ja/windows/assoc.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/windows/assoc.html
+    icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/windows/assoc.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# assoc
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># assoc
 
 显示或修改文件扩展名关联。
 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/assoc>.

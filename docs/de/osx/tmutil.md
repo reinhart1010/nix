@@ -3,10 +3,12 @@ layout: page
 title: osx/tmutil (Deutsch)
 description: "Dienstprogramm zum Verwalten von Time Machine-Backups. Die meisten Befehle erfordern Root-Rechte."
 content_hash: 2fc1e5e8542a74a1b66a0160576701eaac7ff09e
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/osx/tmutil.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # tmutil
 

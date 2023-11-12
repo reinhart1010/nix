@@ -3,7 +3,7 @@ layout: page
 title: common/git-check-ignore (Türkçe)
 description: "Git yoksayma / dışlama (\".gitignore\") dosyalarını analiz et."
 content_hash: e6b10b1ad3a05fd69bc18b231f36db61038749ea
-last_modified_at: 2023-07-03
+last_modified_at: 2023-11-12
 related_topics:
   - title: English version
     url: /en/common/git-check-ignore.html
@@ -20,6 +20,7 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/git-check-ignore.html
     icon: bi bi-globe
+tldri18n_status: 2
 ---
 # git check-ignore
 
