@@ -2,8 +2,8 @@
 layout: page
 title: android/dalvikvm (தமிழ்)
 description: "ஆண்ட்ராய்டு ஜாவா மெய்நிகர் இயந்திரம்."
-content_hash: 3644ef3b4208582e06a11bb96b028a389ec59318
-last_modified_at: 2023-11-12
+content_hash: 3121dac865bc4ac74d90e7695d4eb4c8fa2039cc
+last_modified_at: 2023-11-13
 related_topics:
   - title: বাংলা version
     url: /bn/android/dalvikvm.html
@@ -71,4 +71,4 @@ tldri18n_status: 2
 
 - ஒரு குறிப்பிட்ட ஜாவா நிரலைத் தொடங்கவும்:
 
-`dalvikvm -classpath `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு.jar</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">வகுப்புப்பெயர்</span>
+`dalvikvm -classpath `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.jar/பாதை</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">வகுப்புப்பெயர்</span>

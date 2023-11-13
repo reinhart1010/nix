@@ -2,8 +2,8 @@
 layout: page
 title: windows/clip (தமிழ்)
 description: "உள்ளீட்டு உள்ளடக்கத்தை விண்டோஸ் கிளிப்போர்டுக்கு நகலெடுக்கவும்."
-content_hash: 56dd7a0c8665372a559dd2ffa8e8d1b5c073b468
-last_modified_at: 2023-11-12
+content_hash: 739f73eddff1e8707f543a59bf91704cd1e8ec06
+last_modified_at: 2023-11-13
 related_topics:
   - title: Deutsch version
     url: /de/windows/clip.html
@@ -36,7 +36,7 @@ tldri18n_status: 2
 
 - ஒரு கோப்பின் உள்ளடக்கங்களை விண்டோஸ் கிளிப்போர்டுக்கு நகலெடுக்கவும்:
 
-`clip < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு.ext</span>
+`clip < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.ext\பாதை</span>
 
 - விண்டோஸ் கிளிப்போர்டுக்கு புதிய வரியுடன் உரையை நகலெடுக்கவும்:
 

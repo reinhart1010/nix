@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/cargo-rustc (தமிழ்)
-description: "ரஸ்ட் தொகுப்பைத் தொகுத்து, கூடுதல் விருப்பங்களை கம்பைலருக்கு அனுப்பவும்."
-content_hash: 654d05bb924330f6e8c39264f26762d61562750c
-last_modified_at: 2023-11-12
+description: "ரஸ்ட் தொகுப்பைத் தொகுக்கவும். `cargo build` போன்றது, ஆனால் நீங்கள் கூடுதல் விருப்பங்களை கம்பைலருக்கு அனுப்பலாம்."
+content_hash: a67bd2df64a259958361d1be2beedc6b22c14da3
+last_modified_at: 2023-11-13
 related_topics:
   - title: English version
     url: /en/common/cargo-rustc.html
@@ -15,12 +15,13 @@ tldri18n_status: 2
 ---
 # cargo rustc
 
-ரஸ்ட் தொகுப்பைத் தொகுத்து, கூடுதல் விருப்பங்களை கம்பைலருக்கு அனுப்பவும்.
+ரஸ்ட் தொகுப்பைத் தொகுக்கவும். `cargo build` போன்றது, ஆனால் நீங்கள் கூடுதல் விருப்பங்களை கம்பைலருக்கு அனுப்பலாம்.
+கிடைக்கக்கூடிய அனைத்து விருப்பங்களுக்கு `rustc --help` ஐப் பார்க்கவும்.
 மேலும் விவரத்திற்கு: <https://doc.rust-lang.org/cargo/commands/cargo-rustc.html>.
 
-- தற்போதைய வேலை கோப்பகத்தில் `Cargo.toml` மேனிஃபெஸ்ட் கோப்பால் வரையறுக்கப்பட்ட தொகுப்பு அல்லது தொகுப்புகளை உருவாக்கவும்:
+- தொகுப்பை உருவாக்கி விருப்பங்களை `rustc` க்கு அனுப்பவும்:
 
-`cargo rustc`
+`cargo rustc -- `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rustc_options</span>
 
 - மேம்படுத்தல்களுடன், வெளியீட்டு பயன்முறையில் கலைப்பொருட்களை உருவாக்கவும்:
 

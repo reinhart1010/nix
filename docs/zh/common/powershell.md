@@ -2,8 +2,8 @@
 layout: page
 title: common/powershell (中文)
 description: "专为系统管理而设计的命令行 shell 和脚本语言。"
-content_hash: a245dbedbcdba0e937887453d3d5e4c3cd44a076
-last_modified_at: 2023-11-12
+content_hash: 0f1b11bcf80777dcb35378d4e96ae2db4bfad37c
+last_modified_at: 2023-11-13
 related_topics:
   - title: English version
     url: /en/common/powershell.html
@@ -25,7 +25,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># powershell
 
 专为系统管理而设计的命令行 shell 和脚本语言。
-更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/powershell>.
+更多信息：<https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_pwsh>.
 
 - 在命令提示符窗口中启动 Windows PowerShell 会话：
 

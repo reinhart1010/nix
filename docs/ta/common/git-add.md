@@ -2,8 +2,8 @@
 layout: page
 title: common/git-add (தமிழ்)
 description: "மாற்றப்பட்ட கோப்புகளை குறியீட்டில் சேர்க்கிறது."
-content_hash: 8096d70cec115cc94942e528ca521b7373691e99
-last_modified_at: 2023-11-12
+content_hash: fb648b1521087b4200d2005080da38fea88f836e
+last_modified_at: 2023-11-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git-add.html
@@ -44,7 +44,7 @@ tldri18n_status: 2
 
 - குறியீட்டில் ஒரு கோப்பைச் சேர்க்க:
 
-`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு</span>
+`git add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு/பாதை</span>
 
 - எல்லா கோப்புகளையும் சேர்க்கவும் (கண்காணிக்கப்பட்ட மற்றும் தடமறியப்படாத):
 
@@ -64,7 +64,7 @@ tldri18n_status: 2
 
 - கொடுக்கப்பட்ட கோப்பின் ஊடாடும் கட்ட பாகங்கள் சேர்க்கவும்:
 
-`git add -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு</span>
+`git add -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு/பாதை</span>
 
 - ஒரு கோப்பை ஊடாடும் வகையில் சேர்க்கவும்:
 

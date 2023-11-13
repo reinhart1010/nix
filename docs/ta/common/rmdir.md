@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/rmdir (தமிழ்)
-description: "அடைவை அழி."
-content_hash: 67523701d934c3568fd19cb294b19e3f2c98f638
-last_modified_at: 2023-11-12
+description: "கோப்புகள் இல்லாத கோப்பகங்களை அகற்று."
+content_hash: 29ca1383f7f2e776cd806318a71c9a60291c6f6b
+last_modified_at: 2023-11-13
 related_topics:
   - title: العربية version
     url: /ar/common/rmdir.html
@@ -24,13 +24,14 @@ tldri18n_status: 2
 ---
 # rmdir
 
-அடைவை அழி.
+கோப்புகள் இல்லாத கோப்பகங்களை அகற்று.
+மேலும் பார்க்கவும்: `rm`.
 மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/rmdir>.
 
-- அடைவு வெறுமையாகயிருந்தால் அதனை அழி. உள்ளடக்கமுடைய அடைவை நீக்க `rm` யைப் பயன்படுத்தவும்:
+- குறிப்பிட்ட கோப்பகங்களை அகற்றவும்:
 
-`rmdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அடைவிற்குப்/பாதை</span>
+`rmdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அடைவு1/பாதை அடைவு2/பாதை ...</span>
 
-- அடைவுகளை தற்சுருளாக அழி (உட்பொதிவான அடைவுகளை அழிக்கப் பயன்படும்):
+- குறிப்பிட்ட உள்ளமை கோப்பகங்களை மீண்டும் மீண்டும் அகற்றவும்:
 
-`rmdir -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அடைவிற்குப்/பாதை</span>
+`rmdir -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அடைவு1/பாதை அடைவு2/பாதை ...</span>

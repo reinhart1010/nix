@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco-source (தமிழ்)
 description: "சாக்லேட்டி மூலம் தொகுப்புகளுக்கான ஆதாரங்களை நிர்வகிக்கவும்."
-content_hash: 7420d53125b78131116a7525beffc713c40151df
-last_modified_at: 2023-11-12
+content_hash: a388a25da9381aac04c4b5259b1a0b099bace969
+last_modified_at: 2023-11-13
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-source.html
@@ -44,7 +44,7 @@ tldri18n_status: 2
 
 - கிளையன்ட் சான்றிதழுடன் புதிய தொகுப்பு மூலத்தைச் சேர்க்கவும்:
 
-`choco source add --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பெயர்</span>` --source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">முகவரி</span>` --cert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/சான்றிதழ்</span>
+`choco source add --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பெயர்</span>` --source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">முகவரி</span>` --cert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">சான்றிதழ்\பாதை</span>
 
 - தொகுப்பு மூலத்தை இயக்கு:
 

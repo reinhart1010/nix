@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/lzma (தமிழ்)
-description: "இக்கட்டளை `xz` கட்டளையின் மற்றொருப் பெயர்."
-content_hash: da85c321770f8724845ea86a81e919b35a1e8e15
-last_modified_at: 2023-11-12
+description: "இக்கட்டளை `xz --format=lzma` கட்டளையின் மற்றொருப் பெயர்."
+content_hash: fd90aa34b4661817bacc0ce73b448260fd2be936
+last_modified_at: 2023-11-13
 related_topics:
   - title: العربية version
     url: /ar/common/lzma.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # lzma
 
-இக்கட்டளை `xz` கட்டளையின் மற்றொருப் பெயர்.
+இக்கட்டளை `xz --format=lzma` கட்டளையின் மற்றொருப் பெயர்.
 மேலும் விவரத்திற்கு: <https://manned.org/lzma>.
 
 - அக்கட்டளையின் விளக்கத்தைக் காண:

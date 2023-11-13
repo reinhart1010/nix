@@ -2,8 +2,8 @@
 layout: page
 title: common/vt (தமிழ்)
 description: "வைரஸ் டோட்டலுக்கான கட்டளை-வரி இடைமுகம்."
-content_hash: 3b82ff46cfafa379d1168b547fdeb86cf5972ab5
-last_modified_at: 2023-11-12
+content_hash: 5255229246205500c1d2efd30ca4579b160c7f4b
+last_modified_at: 2023-11-13
 related_topics:
   - title: English version
     url: /en/common/vt.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 
 - வைரஸ்களுக்காக ஒரு குறிப்பிட்ட கோப்பை ஸ்கேன் செய்யவும்:
 
-`vt scan file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு</span>
+`vt scan file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு/பாதை</span>
 
 - வைரஸ்களுக்காக முகவரி ஐ ஸ்கேன் செய்யவும்:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/powershell (italiano)
 description: "Shell della riga di comando e linguaggio di scripting progettato appositamente per l'amministrazione dei sistemi."
-content_hash: 74335404d1340756bd11152a9e596272f1db5a3b
-last_modified_at: 2023-11-12
+content_hash: fb8835fd139dcc9357a4128b37b6e24b4b3bfa1d
+last_modified_at: 2023-11-13
 related_topics:
   - title: English version
     url: /en/common/powershell.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 Shell della riga di comando e linguaggio di scripting progettato appositamente per l'amministrazione dei sistemi.
 Guarda anche: `pwsh`.
-Maggiori informazioni: <https://learn.microsoft.com/windows-server/administration/windows-commands/powershell>.
+Maggiori informazioni: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_pwsh>.
 
 - Avvia una sessione di shell interattiva:
 

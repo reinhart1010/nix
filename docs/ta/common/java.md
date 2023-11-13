@@ -2,8 +2,8 @@
 layout: page
 title: common/java (தமிழ்)
 description: "ஜாவா பயன்பாட்டு துவக்கி."
-content_hash: 723ae2745bfde6b8192c72306f06e62c3938bf49
-last_modified_at: 2023-11-12
+content_hash: fab84b7efa07710eeb506730c1f3fba99ffd55d5
+last_modified_at: 2023-11-13
 related_topics:
   - title: English version
     url: /en/common/java.html
@@ -36,7 +36,7 @@ tldri18n_status: 2
 
 - ஒரு ஜாவா நிரலை இயக்கவும் மற்றும் கூடுதல் மூன்றாம் தரப்பு அல்லது பயனர் வரையறுக்கப்பட்ட வகுப்புகளைப் பயன்படுத்தவும்:
 
-`java -classpath `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/வகுப்புகள்1</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/வகுப்புகள்2</span>`:. `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">வகுப்புபெயர்</span>
+`java -classpath `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">வகுப்புகள்1/பாதை</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">வகுப்புகள்2/பாதை</span>`:. `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">வகுப்புபெயர்</span>
 
 - ஒரு `.jar` நிரலை இயக்கவும்:
 

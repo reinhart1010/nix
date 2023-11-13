@@ -2,8 +2,8 @@
 layout: page
 title: common/git-clone (தமிழ்)
 description: "ஏற்கனவே உள்ள ஒரு களஞ்சியத்தை குளோன் செய்யுங்கள்."
-content_hash: 3ffaaf927bbc11551812168fb1b91f895b83b89b
-last_modified_at: 2023-11-12
+content_hash: 167ddf7324944aa38419417e5e378453d8c2ae11
+last_modified_at: 2023-11-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git-clone.html
@@ -75,4 +75,4 @@ tldri18n_status: 2
 
 - ஒரு குறிப்பிட்ட SSH கட்டளையைப் பயன்படுத்தி ஏற்கனவே உள்ள களஞ்சியத்தை குளோன் செய்யவும்:
 
-`git clone --config core.sshCommand="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh -i பாதை/டு/தனியார்_ssh_key</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தொலை_களஞ்சிய_இடம்</span>
+`git clone --config core.sshCommand="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh -i தனியார்_ssh_key/பாதை</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தொலை_களஞ்சிய_இடம்</span>

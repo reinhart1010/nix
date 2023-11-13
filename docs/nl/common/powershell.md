@@ -2,7 +2,7 @@
 layout: page
 title: common/powershell (Nederlands)
 description: "Command-line shell en scripting taal specifiek ontworpen voor systeemadministratie."
-content_hash: 6cdb673d6a2036a8346844b385e6baf3d12c2590
+content_hash: e86cfd5026f1e4619e51ac0d6bb31736fb1b875a
 last_modified_at: 2023-11-13
 related_topics:
   - title: English version
@@ -35,7 +35,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 Command-line shell en scripting taal specifiek ontworpen voor systeemadministratie.
 Zie ook: `pwsh`.
-Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/powershell>.
+Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_pwsh>.
 
 - Start een interactieve shell sessie:
 

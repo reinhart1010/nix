@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/rd (தமிழ்)
-description: "இக்கட்டளை `rmdir` கட்டளையின் மற்றொருப் பெயர்."
-content_hash: 058f24cae38086af60fd459771aab05e30b275be
-last_modified_at: 2023-11-12
+description: "இந்த கட்டளை, கட்டளை வரியில் `rmdir` மற்றும் PowerShell இல் `Remove-Item` என்பதன் மாற்றுப்பெயர்."
+content_hash: 6c1ce1918b1d3b419a6539a7c1f43740d897a56c
+last_modified_at: 2023-11-13
 related_topics:
   - title: العربية version
     url: /ar/windows/rd.html
@@ -96,9 +96,13 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># rd
 
-இக்கட்டளை `rmdir` கட்டளையின் மற்றொருப் பெயர்.
+இந்த கட்டளை, கட்டளை வரியில் `rmdir` மற்றும் PowerShell இல் `Remove-Item` என்பதன் மாற்றுப்பெயர்.
 மேலும் விவரத்திற்கு: <https://learn.microsoft.com/windows-server/administration/windows-commands/rd>.
 
-- அக்கட்டளையின் விளக்கத்தைக் காண:
+- அசல் கட்டளை வரியில் (Command Prompt) கட்டளைக்கான ஆவணங்களைக் காண்க:
 
 `tldr rmdir`
+
+- அசல் PowerShell கட்டளைக்கான ஆவணங்களைக் காண்க:
+
+`tldr remove-item`

@@ -2,8 +2,8 @@
 layout: page
 title: common/git (தமிழ்)
 description: "விநியோகிக்கப்பட்ட பதிப்பு கட்டுப்பாட்டு அமைப்பு."
-content_hash: df70ad7b2a0199ae293c97c89ee07b251291860c
-last_modified_at: 2023-11-12
+content_hash: 33a9fd87f0d6ff470035817e99fd3c1fc2e7cb97
+last_modified_at: 2023-11-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
@@ -76,7 +76,7 @@ tldri18n_status: 2
 
 - தனிப்பயன் களஞ்சிய வேர் பாதையில் Git துணைக் கட்டளையை இயக்கவும்:
 
-`git -C `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/களஞ்சியம்</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">துணை_கட்டளை</span>
+`git -C `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">களஞ்சியம்/பாதை</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">துணை_கட்டளை</span>
 
 - கொடுக்கப்பட்ட உள்ளமைவு தொகுப்புடன் Git துணைக் கட்டளையை இயக்கவும்:
 

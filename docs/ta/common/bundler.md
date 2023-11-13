@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/bundler (தமிழ்)
-description: "இக்கட்டளை `bundle` கட்டளையின் மற்றொருப் பெயர்."
-content_hash: 97b30b057d96d026070196987f8f6e1a0b14cba2
-last_modified_at: 2023-11-12
+description: "ரூபி நிரலாக்க மொழிக்கான சார்பு மேலாளர். `bundler` என்பது கட்டளை `bundle` கான பொதுவான பெயர், ஆனால் ஒரு கட்டளை அல்ல."
+content_hash: 72cfd8c753bfe1806de14685b22485cf9ea2115c
+last_modified_at: 2023-11-13
 related_topics:
   - title: العربية version
     url: /ar/common/bundler.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # bundler
 
-இக்கட்டளை `bundle` கட்டளையின் மற்றொருப் பெயர்.
+ரூபி நிரலாக்க மொழிக்கான சார்பு மேலாளர். `bundler` என்பது கட்டளை `bundle` கான பொதுவான பெயர், ஆனால் ஒரு கட்டளை அல்ல.
 மேலும் விவரத்திற்கு: <https://bundler.io/man/bundle.1.html>.
 
 - அக்கட்டளையின் விளக்கத்தைக் காண:

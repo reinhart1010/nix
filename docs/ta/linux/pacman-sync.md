@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-sync (தமிழ்)
 description: "ஆர்ச் லினக்ஸ் தொகுப்பு மேலாளர் பயன்பாடு."
-content_hash: 3d617b406e9e4881d1c3366c435ea8d7a50fd9f8
-last_modified_at: 2023-11-12
+content_hash: bec38ced6784f91fdca7ac1771a9052a685c204f
+last_modified_at: 2023-11-13
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-sync.html
@@ -33,7 +33,7 @@ tldri18n_status: 2
 
 - ஒரு புதிய தொகுப்பை நிறுவவும்:
 
-`sudo pacman --sync `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு_பெயர்</span>
+`sudo pacman --sync `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு</span>
 
 - அனைத்து தொகுப்புகளையும் ஒத்திசைத்து புதுப்பிக்கவும் (தொகுப்புகளைப் பதிவிறக்குவதற்கு `--downloadonly` சேர்க்கவும், அவற்றைப் புதுப்பிக்க வேண்டாம்):
 
@@ -41,7 +41,7 @@ tldri18n_status: 2
 
 - அனைத்து தொகுப்புகளையும் புதுப்பித்து, கேட்காமல் புதிய ஒன்றை நிறுவவும்:
 
-`sudo pacman --sync --refresh --sysupgrade --noconfirm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு_பெயர்</span>
+`sudo pacman --sync --refresh --sysupgrade --noconfirm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு</span>
 
 - வழக்கமான வெளிப்பாடு அல்லது முக்கிய சொல்லுக்கு தொகுப்பு தரவுத்தளத்தில் தேடவும்:
 
@@ -49,11 +49,11 @@ tldri18n_status: 2
 
 - தொகுப்பு பற்றிய தகவலைக் காட்டு:
 
-`pacman --sync --info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு_பெயர்</span>
+`pacman --sync --info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு</span>
 
 - தொகுப்பு புதுப்பிப்பின் போது முரண்பட்ட கோப்புகளை மேலெழுதவும்:
 
-`sudo pacman --sync --refresh --sysupgrade --ஓவர்ரைட் `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு</span>
+`sudo pacman --sync --refresh --sysupgrade --ஓவர்ரைட் `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு/பாதை</span>
 
 - அனைத்து தொகுப்புகளையும் ஒத்திசைத்து புதுப்பிக்கவும், ஆனால் ஒரு குறிப்பிட்ட தொகுப்பை புறக்கணிக்கவும் (ஒருமுறைக்கு மேல் பயன்படுத்தலாம்):
 

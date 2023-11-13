@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/ripgrep (தமிழ்)
-description: "இக்கட்டளை `rg` கட்டளையின் மற்றொருப் பெயர்."
-content_hash: 84cd8b0af96cec9afccb550d4c0d6bcfbeda826a
-last_modified_at: 2023-11-12
+description: "`rg` கட்டளைக்கான பொதுவான பெயர் `ripgrep`."
+content_hash: 321dbb119c5ac2b9733327ebfa97925f3d2e3cf0
+last_modified_at: 2023-11-13
 related_topics:
   - title: العربية version
     url: /ar/common/ripgrep.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # ripgrep
 
-இக்கட்டளை `rg` கட்டளையின் மற்றொருப் பெயர்.
+`rg` கட்டளைக்கான பொதுவான பெயர் `ripgrep`.
 
 - அக்கட்டளையின் விளக்கத்தைக் காண:
 

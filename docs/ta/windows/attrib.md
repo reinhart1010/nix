@@ -2,8 +2,8 @@
 layout: page
 title: windows/attrib (தமிழ்)
 description: "கோப்புகள் அல்லது கோப்பகங்களின் பண்புக்கூறுகளைக் காட்டவும் அல்லது மாற்றவும்."
-content_hash: 827c30d4c31bf7f27d7f1522c8cc5e9acaa4f4ad
-last_modified_at: 2023-11-12
+content_hash: b15ea2738879b9366c4fdadfbd64f92b22af2954
+last_modified_at: 2023-11-13
 related_topics:
   - title: English version
     url: /en/windows/attrib.html
@@ -42,8 +42,8 @@ tldri18n_status: 2
 
 - கோப்புகள் அல்லது கோப்பகங்களில் `[r]ead-only` அல்லது `[a]rchive` அல்லது `[s]ystem` அல்லது `[h]idden` அல்லது `not content [i]nexed` பண்புக்கூறைச் சேர்க்கவும்:
 
-`attrib +`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">r|a|s|h|i</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு_அல்லது_அடைவு1 பாதை/டு/கோப்பு_அல்லது_அடைவு2 ...</span>
+`attrib +`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">r|a|s|h|i</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு_அல்லது_அடைவு1\பாதை கோப்பு_அல்லது_அடைவு2\பாதை ...</span>
 
 - கோப்புகள் அல்லது கோப்பகங்களின் குறிப்பிட்ட பண்புகளை அகற்றவும்:
 
-`attrib -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">r|a|s|h|i</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு_அல்லது_அடைவு1 பாதை/டு/கோப்பு_அல்லது_அடைவு2 ...</span>
+`attrib -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">r|a|s|h|i</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு_அல்லது_அடைவு1\பாதை கோப்பு_அல்லது_அடைவு2\பாதை ...</span>

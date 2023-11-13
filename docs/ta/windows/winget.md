@@ -2,8 +2,8 @@
 layout: page
 title: windows/winget (தமிழ்)
 description: "விண்டோஸ் தொகுப்பு மேலாளர் CLI."
-content_hash: babe07d526c42ab18fcfd4c8e64c60ab57840813
-last_modified_at: 2023-11-12
+content_hash: afccb95929b3e781c6d31e94a20fff89cd6eb91e
+last_modified_at: 2023-11-13
 related_topics:
   - title: Deutsch version
     url: /de/windows/winget.html
@@ -59,8 +59,8 @@ tldri18n_status: 2
 
 - ஒரு கோப்பிலிருந்து தொகுப்புகளை இறக்குமதி செய்யவும் அல்லது நிறுவப்பட்ட தொகுப்புகளை ஒரு கோப்பிற்கு ஏற்றுமதி செய்யவும்:
 
-`winget `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">import|export</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--import-file|--output</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு</span>
+`winget `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">import|export</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">--import-file|--output</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு\பாதை</span>
 
 - winget-pkgs களஞ்சியத்தில் PR ஐச் சமர்ப்பிக்கும் முன் மேனிஃபெஸ்ட்டைச் சரிபார்க்கவும்:
 
-`winget validate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/மேனிஃபெஸ்ட்</span>
+`winget validate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">மேனிஃபெஸ்ட்\பாதை</span>

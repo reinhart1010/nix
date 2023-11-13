@@ -2,8 +2,8 @@
 layout: page
 title: linux/tracepath (English)
 description: "Trace the path to a network host discovering MTU along this path."
-content_hash: d41edc7bb97b32f2e9a7432f0e1ccc6fbc696676
-last_modified_at: 2023-11-12
+content_hash: 451ba49bcd8d00e107e3dd6207c8abb519e554e9
+last_modified_at: 2023-11-13
 tldri18n_status: 2
 ---
 # tracepath
@@ -17,7 +17,7 @@ More information: <https://manned.org/tracepath>.
 
 - Specify the initial destination port, useful with non-standard firewall settings:
 
-`tracepath -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destination_port</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>` `
+`tracepath -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">destination_port</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>
 
 - Print both hostnames and numerical IP addresses:
 

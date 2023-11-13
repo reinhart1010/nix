@@ -2,8 +2,8 @@
 layout: page
 title: linux/toolbox-run (English)
 description: "Run a command in an existing `toolbox` container."
-content_hash: 46a274a8155b31ad71ad6469d6750ddc8f9723c8
-last_modified_at: 2023-11-12
+content_hash: 1a6ee3cbcc244589008dfd1736780ee28861fa18
+last_modified_at: 2023-11-13
 related_topics:
   - title: தமிழ் version
     url: /ta/linux/toolbox-run.html
@@ -24,6 +24,6 @@ More information: <https://manned.org/toolbox-run>.
 
 `toolbox run --distro `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">distribution</span>` --release `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">release</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
-- Run `emacs` inside a `toolbox` container using the default image for Fedora 38:
+- Run `emacs` inside a `toolbox` container using the default image for Fedora 39:
 
-`toolbox run --distro `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fedora</span>` --release `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">f38</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">emacs</span>
+`toolbox run --distro `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fedora</span>` --release `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">f39</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">emacs</span>

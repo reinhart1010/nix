@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman4console (தமிழ்)
 description: "அசல் பேக்மேனால் ஈர்க்கப்பட்ட உரை அடிப்படையிலான கன்சோல் கேம்."
-content_hash: 105d000f07d41a0797e859c4fcd1ea3c8d3c726e
-last_modified_at: 2023-11-12
+content_hash: 49731f05f208c0637709b1c8a3a3f607927712e5
+last_modified_at: 2023-11-13
 related_topics:
   - title: English version
     url: /en/linux/pacman4console.html
@@ -25,8 +25,8 @@ tldri18n_status: 2
 
 - pacman4console நிலை எடிட்டரைத் தொடங்கவும், குறிப்பிட்ட உரைக் கோப்பில் சேமிக்கவும்:
 
-`pacman4consoleedit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/நிலை_கோப்பு</span>
+`pacman4consoleedit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிலை_கோப்பு/பாதை</span>
 
 - தனிப்பயன் மட்டத்தை விளையாடுங்கள்:
 
-`pacman4console --level=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/நிலை_கோப்பு</span>
+`pacman4console --level=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிலை_கோப்பு/பாதை</span>

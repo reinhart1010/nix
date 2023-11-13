@@ -2,8 +2,8 @@
 layout: page
 title: windows/cls (தமிழ்)
 description: "திரையை அழிக்கிறது."
-content_hash: d13f01dbab25ade7dd7b176855edc75a2779ebc4
-last_modified_at: 2023-11-12
+content_hash: b9030214e99197f6648f6160799df55592343e51
+last_modified_at: 2023-11-13
 related_topics:
   - title: English version
     url: /en/windows/cls.html
@@ -49,7 +49,12 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># cls
 
 திரையை அழிக்கிறது.
+PowerShell இல், இந்த கட்டளை `Clear-Host` என்பதன் மாற்றுப் பெயராகும். இந்த ஆவணம் `cls` இன் கட்டளை வரியில் (`cmd`) பதிப்பை அடிப்படையாகக் கொண்டது.
 மேலும் விவரத்திற்கு: <https://learn.microsoft.com/windows-server/administration/windows-commands/cls>.
+
+- சமமான PowerShell கட்டளையின் ஆவணங்களைக் காண்க:
+
+`tldr clear-host`
 
 - திரையை அழிக்கவும்:
 

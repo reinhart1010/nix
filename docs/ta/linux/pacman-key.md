@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-key (தமிழ்)
 description: "பேக்மேனின் கீரிங்கை நிர்வகிக்க GnuPGக்கான ரேப்பர் ஸ்கிரிப்ட் பயன்படுத்தப்படுகிறது."
-content_hash: 345c742401f260ef5a04296c441c13b0bf422616
-last_modified_at: 2023-11-12
+content_hash: 2bee6ee6007df9c88922713043f43fc818f92d30
+last_modified_at: 2023-11-13
 related_topics:
   - title: English version
     url: /en/linux/pacman-key.html
@@ -36,7 +36,7 @@ tldri18n_status: 2
 
 - குறிப்பிட்ட விசைகளைச் சேர்க்கவும்:
 
-`sudo pacman-key --சேர் `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/விசைக்கோப்பு.gpg</span>
+`sudo pacman-key --சேர் `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">விசைக்கோப்பு.gpg/பாதை</span>
 
 - ஒரு முக்கிய சேவையகத்திலிருந்து ஒரு விசையைப் பெறுங்கள்:
 

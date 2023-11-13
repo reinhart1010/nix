@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/ruget (தமிழ்)
-description: "ரஸ்டில் எழுதப்பட்ட wget மாற்று."
-content_hash: d07ea762627c05e1dba8c237023354b1ff7ec659
-last_modified_at: 2023-11-12
+description: "ரஸ்டில் எழுதப்பட்ட `wget` மாற்று."
+content_hash: 0d4e0804ae379fff1f847e6b29f5613dab708a3d
+last_modified_at: 2023-11-13
 related_topics:
   - title: English version
     url: /en/linux/ruget.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 ---
 # ruget
 
-ரஸ்டில் எழுதப்பட்ட wget மாற்று.
+ரஸ்டில் எழுதப்பட்ட `wget` மாற்று.
 மேலும் விவரத்திற்கு: <https://github.com/ksk001100/ruget>.
 
 - URL முகவரி இன் உள்ளடக்கங்களை ஒரு கோப்பில் பதிவிறக்கவும்:

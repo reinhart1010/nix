@@ -2,8 +2,8 @@
 layout: page
 title: linux/bspwm (தமிழ்)
 description: "பைனரி ஸ்பேஸ் பார்டிஷனிங் அடிப்படையிலான டைலிங் சாளர மேலாளர்."
-content_hash: 465a88069b54a44bc48cfa88e3fe1289b392e92d
-last_modified_at: 2023-11-12
+content_hash: b74c9c71102ef2d11971d390ba5a2fb1231e8ea7
+last_modified_at: 2023-11-13
 related_topics:
   - title: العربية version
     url: /ar/linux/bspwm.html
@@ -99,7 +99,7 @@ tldri18n_status: 2
 
 - `bspwm` ஐத் தொடங்கவும் (இந்த கட்டளையை இயக்கும் போது ஏற்கனவே இருக்கும் சாளர மேலாளர் திறக்கப்படக்கூடாது என்பதை நினைவில் கொள்ளவும்):
 
-`bspwm -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கட்டமைப்பு</span>
+`bspwm -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கட்டமைப்பு/பாதை</span>
 
 - `bspc`க்கான ஆவணங்களைக் காண்க:
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/toolbox-create (தமிழ்)
 description: "புதிய `toolbox` கொள்கலனை உருவாக்கவும்."
-content_hash: acbd8b447db2e65c9da6bbf3d829c10b36b703a3
-last_modified_at: 2023-11-12
+content_hash: d65ca04d7bbd5b8b557bc1870ce771e7462bcd8b
+last_modified_at: 2023-11-13
 related_topics:
   - title: English version
     url: /en/linux/toolbox-create.html
@@ -29,8 +29,8 @@ tldri18n_status: 2
 
 - தனிப்பயன் ஃபெடோரா படத்திலிருந்து `toolbox` கொள்கலனை உருவாக்கவும்:
 
-`toolbox create --image `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">registry.fedoraproject.org/fedora-toolbox:38</span>
+`toolbox create --image `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">registry.fedoraproject.org/fedora-toolbox:39</span>
 
-- ஃபெடோரா 36க்கான இயல்புநிலை படத்தைப் பயன்படுத்தி `toolbox` கொள்கலனை உருவாக்கவும்:
+- ஃபெடோரா 39க்கான இயல்புநிலை படத்தைப் பயன்படுத்தி `toolbox` கொள்கலனை உருவாக்கவும்:
 
-`toolbox create --distro `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fedora</span>` --release `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">f38</span>
+`toolbox create --distro `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fedora</span>` --release `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">f39</span>

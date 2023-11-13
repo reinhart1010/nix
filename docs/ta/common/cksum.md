@@ -2,8 +2,8 @@
 layout: page
 title: common/cksum (தமிழ்)
 description: "கோப்பின் CRC சரிகாண்தொகையைக் கணித்து அதில் எத்தனை எண்ணிருமிகளுள்ளன என்றெண்ணு."
-content_hash: f161ccc9dfca2ab5a71bede150d0031c8a66b82d
-last_modified_at: 2023-11-12
+content_hash: 4325a69387061e2b6bda1bda307f886338beb812
+last_modified_at: 2023-11-13
 related_topics:
   - title: English version
     url: /en/common/cksum.html
@@ -27,4 +27,4 @@ tldri18n_status: 2
 
 - கோப்பின் 32-இருமி சரிகாண்தொகையையும் எண்ணிருமி அலகில் கோப்பளவையும் பெயரையும் காட்டு:
 
-`cksum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு</span>
+`cksum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு/பாதை</span>

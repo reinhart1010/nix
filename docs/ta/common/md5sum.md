@@ -2,8 +2,8 @@
 layout: page
 title: common/md5sum (தமிழ்)
 description: "MD5 மறையீட்டு சரிகாண்தொகையைக் கணி."
-content_hash: 291d9ca171332ade00dbf18de723d6e25b6a4a3a
-last_modified_at: 2023-11-12
+content_hash: c35c663d26cbb3e05c50c0accd09eb9cc051855a
+last_modified_at: 2023-11-13
 related_topics:
   - title: English version
     url: /en/common/md5sum.html
@@ -23,11 +23,11 @@ MD5 மறையீட்டு சரிகாண்தொகையைக் �
 
 - கோப்பின் MD5 சரிகாண்தொகையைக் கணி:
 
-`md5sum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு</span>
+`md5sum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு/பாதை</span>
 
 - பலக் கோப்புகளின் MD5 சரிகாண்தொகையைக் கணி:
 
-`md5sum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு2</span>
+`md5sum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு1/பாதை</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு2/பாதை</span>
 
 - இயல் உள்ளீட்டின் MD5 சரிகாண்தொகையைக் கணி:
 
@@ -35,12 +35,12 @@ MD5 மறையீட்டு சரிகாண்தொகையைக் �
 
 - MD5SUMகளின் கோப்பைப் படித்து, எல்லா கோப்புகளிலும் சரிகாண்தொகை பொருந்துகின்றனவா என்பதைச் சரிபார்க்கவும்:
 
-`md5sum --check  `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு.md5</span>
+`md5sum --check  `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.md5/பாதை</span>
 
 - விடுபட்ட கோப்புகள் அல்லது சரிபார்ப்பு தோல்வியுற்றால் மட்டுமே செய்தியைக் காட்டவும்:
 
-`md5sum --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு.md5</span>
+`md5sum --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.md5/பாதை</span>
 
 - விடுபட்ட கோப்புகளைப் புறக்கணித்து, சரிபார்ப்பு தோல்வியுற்ற கோப்புகளுக்கான செய்தியை மட்டும் காட்டவும்:
 
-`md5sum --ignore-missing --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு.md5</span>
+`md5sum --ignore-missing --check --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.md5/பாதை</span>

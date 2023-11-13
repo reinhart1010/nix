@@ -2,8 +2,8 @@
 layout: page
 title: common/git-commit (தமிழ்)
 description: "கோப்புகளை களஞ்சியத்திற்கு கமிட்செய்ய."
-content_hash: 3e6d03066c9dd323256f8d4bfb3b05d2e3da843a
-last_modified_at: 2023-11-12
+content_hash: 7d8a1285a6af14ce4e93e3c9fa6d3551c2150503
+last_modified_at: 2023-11-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git-commit.html
@@ -48,7 +48,7 @@ tldri18n_status: 2
 
 - ஒரு கோப்பிலிருந்து படிக்கப்பட்ட செய்தியுடன் கட்டப்பட்ட கோப்புகளை கமிட்செய்யவும்:
 
-`git commit --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கமிட்_செய்தி_கோப்பு</span>
+`git commit --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கமிட்_செய்தி_கோப்பு/பாதை</span>
 
 - அனைத்து மாற்றியமைக்கப்பட்ட கோப்புகளையும் தானாக நிலைநிறுத்து, செய்தியுடன் கமிட் செய்யுங்கள்:
 
@@ -64,7 +64,7 @@ tldri18n_status: 2
 
 - குறிப்பிட்ட (ஏற்கனவே அரங்கேற்றப்பட்ட) கோப்புகளை மட்டுமே கமிட் செய்யுங்கள்:
 
-`git commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு2</span>
+`git commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு1/பாதை</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு2/பாதை</span>
 
 - கட்டப்பட்ட கோப்புகள் இல்லாவிட்டாலும், கமிட்டை உருவாக்கவும்:
 

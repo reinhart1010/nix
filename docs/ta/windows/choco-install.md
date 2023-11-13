@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco-install (தமிழ்)
 description: "சாக்லேட்டியுடன் ஒன்று அல்லது அதற்கு மேற்பட்ட தொகுப்புகளை நிறுவவும்."
-content_hash: 030860e2df0923ebfe70cf83f9f7a3487c470674
-last_modified_at: 2023-11-12
+content_hash: 50d49a40ad58e0205fbbe9840aa339e10118ab63
+last_modified_at: 2023-11-13
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-install.html
@@ -35,15 +35,15 @@ tldri18n_status: 2
 
 - ஒன்று அல்லது அதற்கு மேற்பட்ட இடம் பிரிக்கப்பட்ட தொகுப்புகளை நிறுவவும்:
 
-`choco install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு(கள்)</span>
+`choco install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு(கள்)\பாதை</span>
 
 - தனிப்பயன் உள்ளமைவு கோப்பிலிருந்து தொகுப்புகளை நிறுவவும்:
 
-`choco install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/நிரல்தொகுப்பு.config</span>
+`choco install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு.config\பாதை</span>
 
 - ஒரு குறிப்பிட்ட `nuspec` அல்லது `nupkg` கோப்பை நிறுவவும்:
 
-`choco install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு</span>
+`choco install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு\பாதை</span>
 
 - தொகுப்பின் குறிப்பிட்ட பதிப்பை நிறுவவும்:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/powershell (தமிழ்)
 description: "குறிப்பாக கணினி நிர்வாகத்திற்காக வடிவமைக்கப்பட்ட கட்டளை வரி ஷெல் மற்றும் ஸ்கிரிப்டிங் மொழி."
-content_hash: 34489a93c3ef09b597c8f7f3e04208f9b9d1094a
-last_modified_at: 2023-11-12
+content_hash: a4f94bad3dc3c052be7a914aa397e37c11209280
+last_modified_at: 2023-11-13
 related_topics:
   - title: English version
     url: /en/common/powershell.html
@@ -23,7 +23,7 @@ tldri18n_status: 2
 
 குறிப்பாக கணினி நிர்வாகத்திற்காக வடிவமைக்கப்பட்ட கட்டளை வரி ஷெல் மற்றும் ஸ்கிரிப்டிங் மொழி.
 மேலும் பார்க்கவும்: `pwsh`.
-மேலும் விவரத்திற்கு: <https://learn.microsoft.com/windows-server/administration/windows-commands/powershell>.
+மேலும் விவரத்திற்கு: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_pwsh>.
 
 - ஊடாடும் ஷெல் அமர்வைத் தொடங்கவும்:
 
@@ -39,7 +39,7 @@ tldri18n_status: 2
 
 - ஒரு குறிப்பிட்ட ஸ்கிரிப்டை இயக்கவும்:
 
-`powershell -File `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/ஸ்கிரிப்ட்.ps1</span>
+`powershell -File `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ஸ்கிரிப்ட்.ps1/பாதை</span>
 
 - பவர்ஷெல்லின் குறிப்பிட்ட பதிப்பைக் கொண்டு அமர்வைத் தொடங்கவும்:
 

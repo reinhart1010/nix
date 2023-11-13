@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (தமிழ்)
 description: "கணினி செய்திகளின் பதிவை டம்ப் செய்யவும்."
-content_hash: 8b16cfeefd70ad5c342eae839e68ec95baca2754
-last_modified_at: 2023-11-12
+content_hash: 80c2f80afbd4e03c63bcd9d0bd41d5bb68e59707
+last_modified_at: 2023-11-13
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -72,7 +72,7 @@ tldri18n_status: 2
 
 - ஒரு கோப்பில் கணினி பதிவுகளை எழுதவும்:
 
-`logcat -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு</span>
+`logcat -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு/பாதை</span>
 
 - வழக்கமான வெளிப்பாட்டுடன் பொருந்தக்கூடிய காட்சி வரிகள்:
 

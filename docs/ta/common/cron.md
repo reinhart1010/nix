@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/cron (தமிழ்)
-description: "இக்கட்டளை `crontab` கட்டளையின் மற்றொருப் பெயர்."
-content_hash: a89f23998eced8b9ffe0bfd7b6bbaf23f82b8849
-last_modified_at: 2023-11-12
+description: "`cron` என்பது கவனிக்கப்படாத வேலைகள் அல்லது பணிகளை இயக்குவதற்கான ஒரு கணினி திட்டமிடல் ஆகும்."
+content_hash: a43ae3473512e83a2574bdcf256b4c96d337bcfc
+last_modified_at: 2023-11-13
 related_topics:
   - title: العربية version
     url: /ar/common/cron.html
@@ -93,7 +93,8 @@ tldri18n_status: 2
 ---
 # cron
 
-இக்கட்டளை `crontab` கட்டளையின் மற்றொருப் பெயர்.
+`cron` என்பது கவனிக்கப்படாத வேலைகள் அல்லது பணிகளை இயக்குவதற்கான ஒரு கணினி திட்டமிடல் ஆகும்.
+`cron` க்கு உள்ளீடுகளைச் சமர்ப்பிக்க, திருத்த அல்லது நீக்குவதற்கான கட்டளை `crontab` எனப்படும்.
 
 - அக்கட்டளையின் விளக்கத்தைக் காண:
 

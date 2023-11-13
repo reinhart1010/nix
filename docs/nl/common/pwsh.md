@@ -2,7 +2,7 @@
 layout: page
 title: common/pwsh (Nederlands)
 description: "Dit commando is een alias van `powershell`."
-content_hash: 0e51ae642a194289edc651ad155f04ef3dc8a9ae
+content_hash: 8a4a726a3fccbb1455fcb7e422dc0ac9e337c12a
 last_modified_at: 2023-11-13
 related_topics:
   - title: English version
@@ -22,6 +22,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># pwsh
 
 Dit commando is een alias van `powershell`.
+Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_pwsh>.
 
 - Bekijk de documentatie van het originele commando:
 

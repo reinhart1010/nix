@@ -2,7 +2,7 @@
 layout: page
 title: common/pwsh (polski)
 description: "To polecenie jest aliasem `powershell`."
-content_hash: 38c71d8579e4409badea67b3d3e71faa58a2fb94
+content_hash: f211659a4ad2d5fab5f1d368a72b2c8bdeffd592
 last_modified_at: 2023-11-13
 related_topics:
   - title: English version
@@ -22,6 +22,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># pwsh
 
 To polecenie jest aliasem `powershell`.
+Więcej informacji: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_pwsh>.
 
 - Zobacz dokumentację oryginalnego polecenia:
 

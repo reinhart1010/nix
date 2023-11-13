@@ -2,8 +2,8 @@
 layout: page
 title: common/cp (தமிழ்)
 description: "கோப்புகளையோ அடைவுகளையோ நகலெடு."
-content_hash: e0a282a1ff9ece0f11ebf013591648f2e2b31a78
-last_modified_at: 2023-11-12
+content_hash: 6d8e7682e7828cf77f8147d45762a91d715cad39
+last_modified_at: 2023-11-13
 related_topics:
   - title: català version
     url: /ca/common/cp.html
@@ -65,11 +65,11 @@ tldri18n_status: 2
 
 - கோப்பை நகலெடு:
 
-`cp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/மூல_கோப்பு.ext</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/நகல்_கோப்பு.ext</span>
+`cp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">மூல_கோப்பு.ext/பாதை</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நகல்_கோப்பு.ext/பாதை</span>
 
 - கோப்பை நகலெடுத்து அடைவொன்றிற்குள் அதே பெயருடன் வை:
 
-`cp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/மூல_கோப்பு.ext</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நகல்/கோப்பின்/தாயடைவிற்குப்/பாதை</span>
+`cp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">மூல_கோப்பு.ext/பாதை</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நகல்/கோப்பின்/தாயடைவிற்குப்/பாதை</span>
 
 - ஒரு கோப்பகத்தின் உள்ளடக்கங்களை மீண்டும் மீண்டும் மற்றொரு இடத்திற்கு நகலெடுக்கவும் (இலக்கு இருந்தால், அடைவு அதன் உள்ளே நகலெடுக்கப்படும்):
 
@@ -81,7 +81,7 @@ tldri18n_status: 2
 
 - ஒரே நேரத்தில் பல கோப்புகளை ஒரு கோப்பகத்திற்கு நகலெடுக்கவும்:
 
-`cp -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">இலக்கு_அடைவுப்/பாதை</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு1 பாதை/டு/கோப்பு2 ...</span>
+`cp -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">இலக்கு_அடைவுப்/பாதை</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு1/பாதை கோப்பு2/பாதை ...</span>
 
 - txt வகைப்பெயருடையக் கோப்புகளை ஊடாட்ட நிலையில் (ஏற்கனவே இருக்கும் கோப்புகள் மேலெழுதும் முன் உறுதிப்படுத்தக் கேட்கும்) நகலெடு:
 
@@ -93,4 +93,4 @@ tldri18n_status: 2
 
 - முதல் வாதத்தை இலக்கு கோப்பகமாகப் பயன்படுத்தவும் (`xargs ... | cp -t <DEST_DIR>`):
 
-`cp -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நகல்/அடைவிற்குப்/பாதை</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு_அல்லது_அடைவு1 பாதை/டு/கோப்பு_அல்லது_அடைவு2 ...</span>
+`cp -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நகல்/அடைவிற்குப்/பாதை</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு_அல்லது_அடைவு1/பாதை கோப்பு_அல்லது_அடைவு2/பாதை ...</span>

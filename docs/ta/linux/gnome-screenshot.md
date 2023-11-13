@@ -2,8 +2,8 @@
 layout: page
 title: linux/gnome-screenshot (தமிழ்)
 description: "திரை, சாளரம் அல்லது பயனர் வரையறுக்கப்பட்ட பகுதியைப் படம்பிடித்து, படத்தை ஒரு கோப்பில் சேமிக்கவும்."
-content_hash: 6590c15eca4624d140989b9a38bbb3febae79c91
-last_modified_at: 2023-11-12
+content_hash: 602bee1cc307c61cfab1d06d274e3cda18e09db1
+last_modified_at: 2023-11-13
 related_topics:
   - title: English version
     url: /en/linux/gnome-screenshot.html
@@ -21,7 +21,7 @@ tldri18n_status: 2
 
 - ஒரு ஸ்கிரீன்ஷாட்டை எடுத்து, பெயரிடப்பட்ட கோப்பு இடத்தில் சேமிக்கவும்:
 
-`gnome-screenshot --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு</span>
+`gnome-screenshot --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு/பாதை</span>
 
 - ஒரு ஸ்கிரீன்ஷாட்டை எடுத்து கிளிப்போர்டில் சேமிக்கவும்:
 
@@ -37,7 +37,7 @@ tldri18n_status: 2
 
 - தற்போதைய சாளரத்தின் ஸ்கிரீன்ஷாட்டை எடுத்து குறிப்பிட்ட கோப்பு இடத்தில் சேமிக்கவும்:
 
-`gnome-screenshot --window --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு</span>
+`gnome-screenshot --window --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு/பாதை</span>
 
 - குறிப்பிட்ட வினாடிகளுக்குப் பிறகு ஸ்கிரீன் ஷாட்டை எடுத்து கிளிப்போர்டில் சேமிக்கவும்:
 

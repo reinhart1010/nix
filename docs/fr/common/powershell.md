@@ -2,8 +2,8 @@
 layout: page
 title: common/powershell (français)
 description: "Interface en ligne de commande et langage de script spécialement conçu pour l'administration système."
-content_hash: caf61344b2c2d4885c8c5db890bde7ba729c4547
-last_modified_at: 2023-11-12
+content_hash: 8d10fd65335745eb38d0548e37bfbcbd94462a63
+last_modified_at: 2023-11-13
 related_topics:
   - title: English version
     url: /en/common/powershell.html
@@ -25,7 +25,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># powershell
 
 Interface en ligne de commande et langage de script spécialement conçu pour l'administration système.
-Plus d'informations : <https://learn.microsoft.com/windows-server/administration/windows-commands/powershell>.
+Plus d'informations : <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_pwsh>.
 
 - Démarre une session Windows PowerShell dans une fenêtre d'invite de commande :
 

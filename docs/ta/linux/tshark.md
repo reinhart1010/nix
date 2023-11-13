@@ -2,8 +2,8 @@
 layout: page
 title: linux/tshark (தமிழ்)
 description: "பாக்கெட் பகுப்பாய்வு கருவி, வயர்ஷார்க்கின் CLI பதிப்பு."
-content_hash: b872dbb8eae9753e99b190bc1310e2ec5697d654
-last_modified_at: 2023-11-12
+content_hash: 526bb2caf59e67e7ca718526e4e17e972fca0668
+last_modified_at: 2023-11-13
 related_topics:
   - title: English version
     url: /en/linux/tshark.html
@@ -41,8 +41,8 @@ tldri18n_status: 2
 
 - கைப்பற்றப்பட்ட பாக்கெட்டை ஒரு கோப்பில் எழுதவும்:
 
-`tshark -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு</span>
+`tshark -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு/பாதை</span>
 
 - ஒரு கோப்பிலிருந்து பாக்கெட்டுகளை பகுப்பாய்வு செய்யுங்கள்:
 
-`tshark -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு.pcap</span>
+`tshark -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.pcap/பாதை</span>

@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman (தமிழ்)
 description: "ஆர்ச் லினக்ஸ் தொகுப்பு மேலாளர் பயன்பாடு."
-content_hash: 6c27520fd1f86db5e1ba1e93475d7204810bdbf6
-last_modified_at: 2023-11-12
+content_hash: 2b455ee85a06cb8c9fdae91284754b390b4eb33c
+last_modified_at: 2023-11-13
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -52,11 +52,11 @@ tldri18n_status: 2
 
 - ஒரு புதிய தொகுப்பை நிறுவவும்:
 
-`sudo pacman -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு_பெயர்</span>
+`sudo pacman -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு</span>
 
 - ஒரு தொகுப்பு மற்றும் அதன் சார்புகளை அகற்றவும்:
 
-`சுடோ பேக்மேன் -ரூ `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு_பெயர்</span>
+`சுடோ பேக்மேன் -ரூ `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு</span>
 
 - வழக்கமான வெளிப்பாடு அல்லது முக்கிய சொல்லுக்கு தொகுப்பு தரவுத்தளத்தில் தேடவும்:
 

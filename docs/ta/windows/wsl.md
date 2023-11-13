@@ -2,8 +2,8 @@
 layout: page
 title: windows/wsl (தமிழ்)
 description: "லினக்ஸிற்கான விண்டோஸ் துணை அமைப்பை கட்டளை வரியிலிருந்து நிர்வகிக்கவும்."
-content_hash: f2318f36becf8f9693c1a0eeb75b38b9d8ae86dc
-last_modified_at: 2023-11-12
+content_hash: c7ff57f237d1c11c4520bfc3790bebeb8f5a32d1
+last_modified_at: 2023-11-13
 related_topics:
   - title: Deutsch version
     url: /de/windows/wsl.html
@@ -42,11 +42,11 @@ tldri18n_status: 2
 
 - விநியோகத்தை `.tar` கோப்பிற்கு ஏற்றுமதி செய்யவும்:
 
-`wsl --export `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">விநியோகம்</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை\டு\விநியோக_கோப்பு.tar</span>
+`wsl --export `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">விநியோகம்</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">விநியோக_கோப்பு.tar\பாதை</span>
 
 - `.tar` கோப்பிலிருந்து விநியோகத்தை இறக்குமதி செய்:
 
-`wsl --import `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">விநியோகம்</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை\டு\நிறுவல்_இடம்</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/விநியோக_கோப்பு.tar</span>
+`wsl --import `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">விநியோகம்</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிறுவல்_இடம்\பாதை</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">விநியோக_கோப்பு.tar\பாதை</span>
 
 - குறிப்பிட்ட விநியோகத்திற்கு பயன்படுத்தப்படும் `wsl` பதிப்பை மாற்றவும்:
 

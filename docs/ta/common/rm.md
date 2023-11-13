@@ -2,8 +2,8 @@
 layout: page
 title: common/rm (தமிழ்)
 description: "கோப்புகளையோ அடைவுகளையோ அழி."
-content_hash: cddb9c94bcdc5a2f6a23d44179a7fdaf8d083aa9
-last_modified_at: 2023-11-12
+content_hash: f8d56f54b4544ef800a6bf6a20174d748b1284aa
+last_modified_at: 2023-11-13
 related_topics:
   - title: Deutsch version
     url: /de/common/rm.html
@@ -43,24 +43,25 @@ tldri18n_status: 2
 # rm
 
 கோப்புகளையோ அடைவுகளையோ அழி.
+மேலும் பார்க்கவும்: `rmdir`.
 மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/rm>.
 
-- கோப்புகளை அழி:
+- குறிப்பிட்ட கோப்புகளை அகற்றவும்:
 
-`rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/மற்றொரு/கோப்பு</span>
+`rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு1/பாதை கோப்பு2/பாதை ...</span>
 
-- அடைவொன்றையும் அதில் உள்ளடங்கிய அனைத்தையும் தற்சுருளாக அழி:
+- இல்லாதவற்றைப் புறக்கணித்து குறிப்பிட்ட கோப்புகளை அகற்றவும்:
 
-`rm -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அடைவிற்குப்/பாதை</span>
+`rm -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு1/பாதை கோப்பு2/பாதை ...</span>
 
-- உறுதிப்படுத்தக் கேட்காமலும் பிழை செய்திகளைக் காட்டாமலும் அடைவொன்றை அழி:
+- குறிப்பிட்ட கோப்புகளை அகற்று [i] ஒவ்வொரு அகற்றுதலுக்கு முன்பும் ஊடாடும் தூண்டுதல்:
 
-`rm -rf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அடைவிற்குப்/பாதை</span>
+`rm -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு1/பாதை கோப்பு2/பாதை ...</span>
 
-- ஒவ்வொருக் கோப்பையும் அழிப்பதற்கு முன் உறுதிப்படுத்து:
+- ஒவ்வொரு அகற்றுதல் பற்றிய குறிப்பிட்ட கோப்புகளின் அச்சிடும் தகவலை அகற்றவும்:
 
-`rm -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்புகள்</span>
+`rm -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு1/பாதை கோப்பு2/பாதை ...</span>
 
-- கோப்புகளை வளவள நிலையில் (அழிக்கப்படும் கோப்புகள் பட்டியலிடப்படும்) அழி:
+- குறிப்பிட்ட கோப்புகள் மற்றும் கோப்பகங்களை [r] தொடர்ந்து அகற்றவும்:
 
-`rm -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அடைவிற்குப்/பாதை/*</span>
+`rm -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு_அல்லது_அடைவு1/பாதை கோப்பு_அல்லது_அடைவு2/பாதை ...</span>

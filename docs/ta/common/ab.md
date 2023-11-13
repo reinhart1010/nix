@@ -2,8 +2,8 @@
 layout: page
 title: common/ab (தமிழ்)
 description: "அப்பாச்சி HTTP சர்வர் தரப்படுத்தல் கருவி."
-content_hash: a94e6a82c69ded62860060fc04e7f387f430b3c9
-last_modified_at: 2023-11-12
+content_hash: 57beec4879eb17d4507a12975f5909abe8eae341
+last_modified_at: 2023-11-13
 related_topics:
   - title: বাংলা version
     url: /bn/common/ab.html
@@ -61,7 +61,7 @@ tldri18n_status: 2
 
 - ஒரு கோப்பிலிருந்து JSON பேலோடைப் பயன்படுத்தி, 100 HTTP POST கோரிக்கைகளை URL க்கு செயல்படுத்தவும்:
 
-`ab -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application/json</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு.json</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">முகவரி</span>
+`ab -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application/json</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.json/பாதை</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">முகவரி</span>
 
 - HTTP [K]eep Alive ஐப் பயன்படுத்தவும், அதாவது ஒரு HTTP அமர்வுக்குள் பல கோரிக்கைகளைச் செய்யவும்:
 

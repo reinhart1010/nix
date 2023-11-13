@@ -2,8 +2,8 @@
 layout: page
 title: android/screencap (தமிழ்)
 description: "மொபைல் டிஸ்ப்ளேவின் ஸ்கிரீன் ஷாட்டை எடுக்கவும்."
-content_hash: 2ce59bc3adaab2f64903b38ceafcad9cb94e551b
-last_modified_at: 2023-11-12
+content_hash: 3662cba5678a7fdeda3bf06a64128e58c177e30f
+last_modified_at: 2023-11-13
 related_topics:
   - title: বাংলা version
     url: /bn/android/screencap.html
@@ -54,4 +54,4 @@ tldri18n_status: 2
 
 - ஒரு ஸ்கிரீன் ஷாட்டை எடுங்கள்:
 
-`screencap `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கோப்பு</span>
+`screencap `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு/பாதை</span>

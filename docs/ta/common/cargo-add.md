@@ -2,8 +2,8 @@
 layout: page
 title: common/cargo-add (தமிழ்)
 description: "ரஸ்ட் திட்டத்தின் `Cargo.toml` கோப்பில் சார்புகளைச் சேர்க்கவும்."
-content_hash: f97702630fddcd018689c5800fa91f7c25206f48
-last_modified_at: 2023-11-12
+content_hash: 9670188152496b4b02cf5d6b13876cd5385880fd
+last_modified_at: 2023-11-13
 related_topics:
   - title: English version
     url: /en/common/cargo-add.html
@@ -36,7 +36,7 @@ tldri18n_status: 2
 
 - சார்புநிலையாக உள்ளூர் கிரேட்டைச் சேர்க்கவும்:
 
-`cargo add --path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/கிரேட்</span>
+`cargo add --path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கிரேட்/பாதை</span>
 
 - ஒரு மேம்பாட்டைச் சேர்க்கவும் அல்லது சார்புநிலையை உருவாக்கவும்:
 

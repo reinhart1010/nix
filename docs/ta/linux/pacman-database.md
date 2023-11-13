@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-database (தமிழ்)
 description: "ஆர்ச் லினக்ஸ் தொகுப்பு தரவுத்தளத்தில் செயல்படவும்."
-content_hash: e112e00de7220f7fb62cbf6119a5fde9ce3266f9
-last_modified_at: 2023-11-12
+content_hash: 14f94bb690b41c71805cdc8128df8d32620e0b17
+last_modified_at: 2023-11-13
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-database.html
@@ -28,11 +28,11 @@ tldri18n_status: 2
 
 - ஒரு தொகுப்பை மறைமுகமாக நிறுவியதாகக் குறிக்கவும்:
 
-`sudo pacman --database --asdeps `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு_பெயர்</span>
+`sudo pacman --database --asdeps `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு</span>
 
 - ஒரு தொகுப்பை வெளிப்படையாக நிறுவியதாகக் குறிக்கவும்:
 
-`sudo pacman --database --asexplicit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு_பெயர்</span>
+`sudo pacman --database --asexplicit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு</span>
 
 - அனைத்து தொகுப்பு சார்புகளும் நிறுவப்பட்டுள்ளதா என சரிபார்க்கவும்:
 

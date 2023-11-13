@@ -2,8 +2,8 @@
 layout: page
 title: common/cargo-test (தமிழ்)
 description: "ரஸ்ட் தொகுப்பின் அலகு மற்றும் ஒருங்கிணைப்பு சோதனைகளை செயல்படுத்தவும்."
-content_hash: 70f8eb91f9c7209fbfc72bc284e826d05c607ca7
-last_modified_at: 2023-11-12
+content_hash: 7e2bc011da7c08c8dc35626cc08f102e309348ac
+last_modified_at: 2023-11-13
 related_topics:
   - title: English version
     url: /en/common/cargo-test.html
@@ -29,10 +29,6 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 `cargo test -- --test-threads=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">எண்ணிக்கை</span>
 
-- `Cargo.lock` புதுப்பித்த நிலையில் இருக்க வேண்டும்:
-
-`cargo test --locked`
-
 - மேம்படுத்தல்களுடன், வெளியீட்டு பயன்முறையில் கலைப்பொருட்களை சோதிக்கவும்:
 
 `cargo test --release`
@@ -41,7 +37,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 `cargo test --workspace`
 
-- ஒரு தொகுப்புக்கான சோதனைகளை இயக்கவும்:
+- ஒரு குறிப்பிட்ட தொகுப்புக்கான சோதனைகளை இயக்கவும்:
 
 `cargo test --package `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தொகுப்பு</span>
 

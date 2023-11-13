@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/lzcat (தமிழ்)
-description: "இக்கட்டளை `xz` கட்டளையின் மற்றொருப் பெயர்."
-content_hash: 9287c88e5f74d3e5dc07c03fbfd773cbca0676a3
-last_modified_at: 2023-11-12
+description: "இக்கட்டளை `xz --format=lzma --decompress --stdout` கட்டளையின் மற்றொருப் பெயர்."
+content_hash: e49c5d60e19cff037f3d111633bdf9adeef8360a
+last_modified_at: 2023-11-13
 related_topics:
   - title: العربية version
     url: /ar/common/lzcat.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # lzcat
 
-இக்கட்டளை `xz` கட்டளையின் மற்றொருப் பெயர்.
+இக்கட்டளை `xz --format=lzma --decompress --stdout` கட்டளையின் மற்றொருப் பெயர்.
 மேலும் விவரத்திற்கு: <https://manned.org/lzcat>.
 
 - அக்கட்டளையின் விளக்கத்தைக் காண:

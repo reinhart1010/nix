@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-files (தமிழ்)
 description: "ஆர்ச் லினக்ஸ் தொகுப்பு மேலாளர் பயன்பாடு."
-content_hash: 5075c8a9ab9f29cf4be5e440f627b11a86799c3f
-last_modified_at: 2023-11-12
+content_hash: deb4f4df7febe91a89708e075dbc306717a237f1
+last_modified_at: 2023-11-13
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-files.html
@@ -43,7 +43,7 @@ tldri18n_status: 2
 
 - குறிப்பிட்ட தொகுப்புக்கு சொந்தமான கோப்புகளை பட்டியலிடுங்கள்:
 
-`pacman --files --list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு_பெயர்</span>
+`pacman --files --list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு</span>
 
 - உதவியைக் காட்டு:
 

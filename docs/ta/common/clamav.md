@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/clamav (தமிழ்)
-description: "இக்கட்டளை `clamdscan` கட்டளையின் மற்றொருப் பெயர்."
-content_hash: 59171a39ce13af0bd80f8169ceee66f8ada2cdfb
-last_modified_at: 2023-11-12
+description: "திறந்த மூல வைரஸ் எதிர்ப்பு நிரல்."
+content_hash: c895e9985a4e3c5b3a16958172c939949f155d81
+last_modified_at: 2023-11-13
 related_topics:
   - title: العربية version
     url: /ar/common/clamav.html
@@ -93,17 +93,18 @@ tldri18n_status: 2
 ---
 # clamav
 
-இக்கட்டளை `clamdscan` கட்டளையின் மற்றொருப் பெயர்.
+திறந்த மூல வைரஸ் எதிர்ப்பு நிரல்.
+ClamAV ஒரு கட்டளை அல்ல, ஆனால் கட்டளைகளின் தொகுப்பு.
 மேலும் விவரத்திற்கு: <https://www.clamav.net>.
 
-- அக்கட்டளையின் விளக்கத்தைக் காண:
+- `clamd` டீமானைப் பயன்படுத்தி கோப்புகளை ஸ்கேன் செய்வதற்கான `tldr` பக்கத்தைக் காட்டு:
 
 `tldr clamdscan`
 
-- `clamd` டீமான் இயங்காமல் கோப்புகளை ஸ்கேன் செய்வதற்கான tldr பக்கத்தைக் காட்டு:
+- `clamd` டீமான் இயங்காமல் கோப்புகளை ஸ்கேன் செய்வதற்கான `tldr` பக்கத்தைக் காட்டு:
 
 `tldr clamscan`
 
-- வைரஸ் வரையறைகளைப் புதுப்பிக்க tldr பக்கத்தைக் காட்டு:
+- வைரஸ் வரையறைகளைப் புதுப்பிக்க `tldr` பக்கத்தைக் காட்டு:
 
 `tldr freshclam`

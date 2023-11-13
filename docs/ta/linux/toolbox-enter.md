@@ -2,8 +2,8 @@
 layout: page
 title: linux/toolbox-enter (தமிழ்)
 description: "ஊடாடும் பயன்பாட்டிற்கு `toolbox` கொள்கலனை உள்ளிடவும்."
-content_hash: 16433371b7d998cb2ca91ebc0833db0e11d930ea
-last_modified_at: 2023-11-12
+content_hash: d7b3078beda74788e0c7231a06816725dbc226a4
+last_modified_at: 2023-11-13
 related_topics:
   - title: English version
     url: /en/linux/toolbox-enter.html
@@ -24,6 +24,6 @@ tldri18n_status: 2
 
 `toolbox enter --release `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">வெளியீடு</span>
 
-- ஃபெடோரா 36 க்கான இயல்புநிலை படத்தைப் பயன்படுத்தி ஒரு கருவிப்பெட்டி கொள்கலனை உள்ளிடவும்:
+- ஃபெடோரா 39 க்கான இயல்புநிலை படத்தைப் பயன்படுத்தி ஒரு கருவிப்பெட்டி கொள்கலனை உள்ளிடவும்:
 
-`toolbox enter --distro `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fedora</span>` --release `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">f38</span>
+`toolbox enter --distro `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fedora</span>` --release `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">f39</span>
