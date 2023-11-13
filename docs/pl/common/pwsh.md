@@ -3,7 +3,7 @@ layout: page
 title: common/pwsh (polski)
 description: "To polecenie jest aliasem `powershell`."
 content_hash: 38c71d8579e4409badea67b3d3e71faa58a2fb94
-last_modified_at: 2023-11-12
+last_modified_at: 2023-11-13
 related_topics:
   - title: English version
     url: /en/common/pwsh.html

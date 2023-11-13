@@ -3,7 +3,7 @@ layout: page
 title: common/netcat (polski)
 description: "To polecenie jest aliasem `nc`."
 content_hash: 26459285f1d0fde89192364b73f627b28619300a
-last_modified_at: 2023-11-12
+last_modified_at: 2023-11-13
 related_topics:
   - title: English version
     url: /en/common/netcat.html

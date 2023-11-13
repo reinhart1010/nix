@@ -3,7 +3,7 @@ layout: page
 title: common/git-stage (polski)
 description: "To polecenie jest aliasem `git add`."
 content_hash: 224b830dbe691e5f0f502592bea02a6ff9e42731
-last_modified_at: 2023-11-12
+last_modified_at: 2023-11-13
 related_topics:
   - title: English version
     url: /en/common/git-stage.html

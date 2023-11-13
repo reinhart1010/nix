@@ -3,7 +3,7 @@ layout: page
 title: windows/slmgr.vbs (Nederlands)
 description: "Installeer, activeer en beheer Windows licenties."
 content_hash: e6c6539c6ad3f10d39134312e0fa5d4bda7a6e65
-last_modified_at: 2023-11-12
+last_modified_at: 2023-11-13
 related_topics:
   - title: English version
     url: /en/windows/slmgr.vbs.html

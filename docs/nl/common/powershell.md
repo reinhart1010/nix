@@ -3,7 +3,7 @@ layout: page
 title: common/powershell (Nederlands)
 description: "Command-line shell en scripting taal specifiek ontworpen voor systeemadministratie."
 content_hash: 6cdb673d6a2036a8346844b385e6baf3d12c2590
-last_modified_at: 2023-11-12
+last_modified_at: 2023-11-13
 related_topics:
   - title: English version
     url: /en/common/powershell.html

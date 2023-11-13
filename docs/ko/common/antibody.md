@@ -3,7 +3,7 @@ layout: page
 title: common/antibody (한국어)
 description: "\"가장 빠른\" 쉘 플러그인 관리자."
 content_hash: 0b3d213bb957728b355d44ed5f02ec50034ca659
-last_modified_at: 2023-11-12
+last_modified_at: 2023-11-13
 related_topics:
   - title: English version
     url: /en/common/antibody.html

@@ -3,7 +3,7 @@ layout: page
 title: common/ppmmake (English)
 description: "Create a PPM image of a specified color and dimensions."
 content_hash: 9fa92eaea646b96fdec24f3ccb30ab9b9a180f02
-last_modified_at: 2023-11-12
+last_modified_at: 2023-11-13
 tldri18n_status: 0
 ---
 

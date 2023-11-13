@@ -3,7 +3,7 @@ layout: page
 title: linux/qm-disk-move (Nederlands)
 description: "Verplaats een virtuele schijf van de ene opslag naar de andere binnen hetzelfde Proxmox cluster."
 content_hash: 044811fbf82325a2163f8cc61c0bfdb9a9880458
-last_modified_at: 2023-11-12
+last_modified_at: 2023-11-13
 related_topics:
   - title: English version
     url: /en/linux/qm-disk-move.html

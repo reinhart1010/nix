@@ -3,7 +3,7 @@ layout: page
 title: common/pwsh (Nederlands)
 description: "Dit commando is een alias van `powershell`."
 content_hash: 0e51ae642a194289edc651ad155f04ef3dc8a9ae
-last_modified_at: 2023-11-12
+last_modified_at: 2023-11-13
 related_topics:
   - title: English version
     url: /en/common/pwsh.html

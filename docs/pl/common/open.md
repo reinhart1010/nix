@@ -3,7 +3,7 @@ layout: page
 title: common/open (polski)
 description: "`open` może odnosić się do kilku komend o tej samej nazwie."
 content_hash: 1be7afc52e2cbee656970acba360f730f4229afd
-last_modified_at: 2023-11-12
+last_modified_at: 2023-11-13
 related_topics:
   - title: English version
     url: /en/common/open.html

@@ -3,7 +3,7 @@ layout: page
 title: linux/nmtui-edit (Nederlands)
 description: "Dit commando is een alias van `nmtui`."
 content_hash: deeaaf86e594bdc6ae1eb5a083f821be63a92edd
-last_modified_at: 2023-11-12
+last_modified_at: 2023-11-13
 related_topics:
   - title: English version
     url: /en/linux/nmtui-edit.html
