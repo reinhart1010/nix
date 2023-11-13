@@ -1,8 +1,8 @@
 ---
 layout: page
 title: linux/kdesrc-run (English)
-description: "Run KDE components that have been built with kdesrc-build."
-content_hash: 8539997bede69680232842618330f2160831e703
+description: "Run KDE components that have been built with `kdesrc-build`."
+content_hash: feb43cf61db5b74e2b858748df04b440b9b2ecf4
 last_modified_at: 2023-11-13
 tldri18n_status: 0
 ---
@@ -17,7 +17,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 <hr># kdesrc-run
 
-Run KDE components that have been built with kdesrc-build.
+Run KDE components that have been built with `kdesrc-build`.
 More information: <https://invent.kde.org/sdk/kdesrc-build>.
 
 - Run a component:
