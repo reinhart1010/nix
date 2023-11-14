@@ -2,8 +2,8 @@
 layout: page
 title: common/mkdir (தமிழ்)
 description: "அடைவை உருவாக்கு."
-content_hash: 4b92d48ff40a06d892a9680c7c37766e8ce6b4ff
-last_modified_at: 2023-11-12
+content_hash: 0018f877b7028550b70cc94f88bffb9729e1d66e
+last_modified_at: 2023-11-14
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -42,14 +42,14 @@ tldri18n_status: 2
 அடைவை உருவாக்கு.
 மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/mkdir>.
 
-- அடைவொன்றைத் தற்போதைய அடைவிலோக் குறிப்பிட்ட பாதையிலோ உருவாக்கு:
+- குறிப்பிட்ட கோப்பகங்களை உருவாக்கவும்:
 
-`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அடைவு</span>
+`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அடைவு1/பாதை அடைவு2/பாதை ...</span>
 
-- தற்போதைய கோப்பகத்தில் பல கோப்பகங்களை உருவாக்கவும்:
+- தேவைப்பட்டால், குறிப்பிட்ட அடைவுகளையும் அவற்றின் பெற்றோரையும் உருவாக்கவும்:
 
-`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அடைவு_1 அடைவு_2 ...</span>
+`mkdir -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அடைவு1/பாதை அடைவு2/பாதை ...</span>
 
-- கோப்பகங்களை மீண்டும் மீண்டும் உருவாக்கவும் (உள்ளமைக்கப்பட்ட கோப்பகங்களை உருவாக்க பயனுள்ளதாக இருக்கும்):
+- குறிப்பிட்ட அனுமதிகளுடன் கோப்பகங்களை உருவாக்கவும்:
 
-`mkdir -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அடைவிற்குப்/பாதை</span>
+`mkdir -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rwxrw-r--</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அடைவு1/பாதை அடைவு2/பாதை ...</span>

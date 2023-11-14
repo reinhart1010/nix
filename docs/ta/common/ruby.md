@@ -2,8 +2,8 @@
 layout: page
 title: common/ruby (தமிழ்)
 description: "ரூபி நிரலாக்க மொழி மொழிபெயர்ப்பாளர்."
-content_hash: 27dd2fd92f100f4601398e587ae586a8946df3db
-last_modified_at: 2023-11-12
+content_hash: 58c1c95cd3ca801ff60c76a5b362ddae467ad0eb
+last_modified_at: 2023-11-14
 related_topics:
   - title: English version
     url: /en/common/ruby.html
@@ -40,6 +40,10 @@ tldri18n_status: 2
 - தற்போதைய கோப்பகத்தில் போர்ட் 8080 இல் உள்ளமைக்கப்பட்ட HTTP சேவையகத்தைத் தொடங்கவும்:
 
 `ruby -run -e httpd`
+
+- அது சார்ந்துள்ள தேவையான நூலகத்தை நிறுவாமல் ரூபி பைனரியை உள்நாட்டில் இயக்கவும்:
+
+`ruby -I `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நூலக_கோப்புறை/பாதை</span>` -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நூலகம்_பெயர்_அவசியம்</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பின்_கோப்புறை/பின்_பெயர்/பாதை</span>
 
 - நீங்கள் பயன்படுத்தும் ரூபியின் பதிப்பைக் காட்டு:
 

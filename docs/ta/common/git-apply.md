@@ -2,8 +2,8 @@
 layout: page
 title: common/git-apply (தமிழ்)
 description: "கோப்புகள் மற்றும் / அல்லது குறியீட்டுக்கு ஒரு இணைப்பு பயன்படுத்தவும்."
-content_hash: 7ae4ee4f844a4418eef0715c68c11ddc2d077055
-last_modified_at: 2023-11-13
+content_hash: 4aef773bfcc7e69d0dc488e4048c03d5b6fd7896
+last_modified_at: 2023-11-14
 related_topics:
   - title: Deutsch version
     url: /de/common/git-apply.html
@@ -34,7 +34,7 @@ tldri18n_status: 2
 
 - ரிமோட் பேட்ச் கோப்பைப் பயன்படுத்துங்கள்:
 
-`curl `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/கோப்பு.patch</span>` | git apply`
+`curl -L `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/கோப்பு.patch</span>` | git apply`
 
 - உள்ளீட்டிற்கான வெளியீட்டு வேறுபாடு நிலை மற்றும் இணைப்பு பொருந்தும்:
 

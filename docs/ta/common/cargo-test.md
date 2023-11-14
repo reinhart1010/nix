@@ -2,8 +2,8 @@
 layout: page
 title: common/cargo-test (தமிழ்)
 description: "ரஸ்ட் தொகுப்பின் அலகு மற்றும் ஒருங்கிணைப்பு சோதனைகளை செயல்படுத்தவும்."
-content_hash: 7e2bc011da7c08c8dc35626cc08f102e309348ac
-last_modified_at: 2023-11-13
+content_hash: a8770d8d7a3e326fcf02bf1f00e5112bceaa6a18
+last_modified_at: 2023-11-14
 related_topics:
   - title: English version
     url: /en/common/cargo-test.html
@@ -27,7 +27,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 - ஒரே நேரத்தில் இயங்கும் சோதனை வழக்குகளின் எண்ணிக்கையை அமைக்கவும்:
 
-`cargo test -- --test-threads=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">எண்ணிக்கை</span>
+`cargo test -- --test-threads `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">எண்ணிக்கை</span>
 
 - மேம்படுத்தல்களுடன், வெளியீட்டு பயன்முறையில் கலைப்பொருட்களை சோதிக்கவும்:
 

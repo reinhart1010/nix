@@ -2,8 +2,8 @@
 layout: page
 title: common/git-cherry-pick (தமிழ்)
 description: "தற்போதுள்ள கமிட்டுகளால் அறிமுகப்படுத்தப்பட்ட மாற்றங்களை தற்போதைய கிளையில் பயன்படுத்துங்கள்."
-content_hash: 5256ab88ef9b34566b85fd38f283bce765ced0ea
-last_modified_at: 2023-11-12
+content_hash: d7a78d8705589ab094bef5423b0feb7855f60cea
+last_modified_at: 2023-11-14
 related_topics:
   - title: বাংলা version
     url: /bn/common/git-cherry-pick.html
@@ -48,4 +48,4 @@ tldri18n_status: 2
 
 - ஒரு கமிட்டை உருவாக்காமல், பணிபுரியும் கோப்பகத்தில் ஒரு கமிட்டின் மாற்றங்களைச் சேர்க்கவும்:
 
-`git cherry-pick -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கமிட்</span>
+`git cherry-pick --no-commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கமிட்</span>

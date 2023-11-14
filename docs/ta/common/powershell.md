@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/powershell (தமிழ்)
-description: "குறிப்பாக கணினி நிர்வாகத்திற்காக வடிவமைக்கப்பட்ட கட்டளை வரி ஷெல் மற்றும் ஸ்கிரிப்டிங் மொழி."
-content_hash: a4f94bad3dc3c052be7a914aa397e37c11209280
-last_modified_at: 2023-11-13
+description: "இந்த கட்டளை PowerShell குறுக்கு-தளப் பதிப்பாக தவறாக இருக்கலாம் (முன்னர் PowerShell கோர் என அறியப்பட்டது), இது `powershell` என்பதற்குப் பதிலாக `pwsh` ஐப் பயன்படுத்துகிறது."
+content_hash: c64ec63b5818fd60cd727237bb5af70bfb8a74c1
+last_modified_at: 2023-11-14
 related_topics:
   - title: English version
     url: /en/common/powershell.html
@@ -21,38 +21,18 @@ tldri18n_status: 2
 ---
 # powershell
 
-குறிப்பாக கணினி நிர்வாகத்திற்காக வடிவமைக்கப்பட்ட கட்டளை வரி ஷெல் மற்றும் ஸ்கிரிப்டிங் மொழி.
-மேலும் பார்க்கவும்: `pwsh`.
+இந்த கட்டளை PowerShell குறுக்கு-தளப் பதிப்பாக தவறாக இருக்கலாம் (முன்னர் PowerShell கோர் என அறியப்பட்டது), இது `powershell` என்பதற்குப் பதிலாக `pwsh` ஐப் பயன்படுத்துகிறது.
+விண்டோஸில் உள்ள அசல் `powershell` கட்டளை, PowerSShell இன் மரபு விண்டோஸ் பதிப்பைப் பயன்படுத்த இன்னும் கிடைக்கிறது (பதிப்பு 5.1 மற்றும் கீழே).
 மேலும் விவரத்திற்கு: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_pwsh>.
 
-- ஊடாடும் ஷெல் அமர்வைத் தொடங்கவும்:
+- PowerShell இன் சமீபத்திய, குறுக்கு-தளப் பதிப்பைக் குறிப்பிடும் கட்டளைக்கான ஆவணங்களைப் பார்க்கவும் (பதிப்பு 6 மற்றும் அதற்கு மேல்):
 
-`powershell`
+`tldr pwsh`
 
-- தொடக்க கட்டமைப்புகளை ஏற்றாமல் ஊடாடும் ஷெல் அமர்வைத் தொடங்கவும்:
+- மரபு விண்டோஸ் PowerShell (பதிப்பு 5.1 மற்றும் கீழே) குறிப்பிடும் கட்டளைக்கான ஆவணங்களைப் பார்க்கவும்:
 
-`powershell -NoProfile`
+`tldr powershell -p windows`
 
-- குறிப்பிட்ட கட்டளைகளை இயக்கவும்:
+- `tldr` கட்டளை வரி கிளையண்டின் பழைய பதிப்புகளில் மரபு விண்டோஸ் PowerShell ஐக் குறிப்பிடும் கட்டளைக்கான ஆவணங்களைப் பார்க்கவும்:
 
-`powershell -Command "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 'பவர்ஷெல் செயல்படுத்தப்படுகிறது'</span>`"`
-
-- ஒரு குறிப்பிட்ட ஸ்கிரிப்டை இயக்கவும்:
-
-`powershell -File `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ஸ்கிரிப்ட்.ps1/பாதை</span>
-
-- பவர்ஷெல்லின் குறிப்பிட்ட பதிப்பைக் கொண்டு அமர்வைத் தொடங்கவும்:
-
-`powershell -Version `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பதிப்பு</span>
-
-- தொடக்க கட்டளைகளை இயக்கிய பிறகு ஷெல் வெளியேறுவதைத் தடுக்கவும்:
-
-`powershell -NoExit`
-
-- பவர்ஷெல்லுக்கு அனுப்பப்பட்ட தரவின் வடிவமைப்பை விவரிக்கவும்:
-
-`powershell -InputFormat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Text|XML</span>
-
-- பவர்ஷெல்லின் வெளியீடு எவ்வாறு வடிவமைக்கப்படுகிறது என்பதைத் தீர்மானிக்கவும்:
-
-`powershell -OutputFormat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Text|XML</span>
+`tldr powershell -o windows`

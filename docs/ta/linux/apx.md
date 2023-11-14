@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/apx (தமிழ்)
-description: "தொகுப்பு மேலாண்மை பயன்பாடு."
-content_hash: 5d4b2542ccd9b501f7a7f739eece05bc28451059
-last_modified_at: 2023-11-12
+description: "பல மூலங்களுக்கான ஆதரவுடன் தொகுப்பு மேலாண்மை பயன்பாடு, துணை அமைப்புகளில் தொகுப்புகளை நிறுவ உங்களை அனுமதிக்கிறது."
+content_hash: 0b5959e9894507ce313c530a9c59093e2daa7938
+last_modified_at: 2023-11-14
 related_topics:
   - title: English version
     url: /en/linux/apx.html
@@ -18,38 +18,17 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># apx
 
-தொகுப்பு மேலாண்மை பயன்பாடு.
-பல மூலங்களிலிருந்து நிர்வகிக்கப்பட்ட கொள்கலன்களுக்குள் தொகுப்புகளை நிறுவவும் (`apx` அனைத்து கட்டளைகளிலும் --aur,--dnf, --apk கொடிகளை ஆதரிக்கிறது).
+பல மூலங்களுக்கான ஆதரவுடன் தொகுப்பு மேலாண்மை பயன்பாடு, துணை அமைப்புகளில் தொகுப்புகளை நிறுவ உங்களை அனுமதிக்கிறது.
 மேலும் விவரத்திற்கு: <https://github.com/Vanilla-OS/apx>.
 
-- ஒரு குறிப்பிட்ட கொள்கலனை துவக்கவும் அல்லது மீண்டும் துவக்கவும்:
+- தொகுப்பு மேலாளர்களை நிர்வகிப்பதற்கான ஆவணங்களைக் காண்க:
 
-`apx init`
+`tldr apx pkgmanagers`
 
-- கொள்கலனில் குறிப்பிட்ட தொகுப்புகளை நிறுவவும்:
+- அடுக்குகளை நிர்வகிப்பதற்கான ஆவணங்களைக் காண்க:
 
-`apx install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு1 நிரல்தொகுப்பு2 ...</span>
+`tldr apx stacks`
 
-- கொள்கலனுக்குள் DEB/RPM தொகுப்பை நிறுவவும் (RPMகளை நிறுவ `--dnf` கொடியைப் பயன்படுத்தவும்):
+- துணை அமைப்புகளை நிர்வகிப்பதற்கான ஆவணங்களைக் காண்க:
 
-`apx install --sideload `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பாதை/டு/நிரல்தொகுப்பு</span>
-
-- கொள்கலனில் இருந்து குறிப்பிட்ட தொகுப்புகளை அகற்றவும்:
-
-`apx remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு1 நிரல்தொகுப்பு2 ...</span>
-
-- குறிப்பிட்ட தொகுப்புகளுக்காக தேடவும்:
-
-`apx search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு1 நிரல்தொகுப்பு2 ...</span>
-
-- கட்டளைகளை இயக்க நிர்வகிக்கப்படும் கொள்கலன் ஷெல்லை (ஓடு) உள்ளிடவும் (கண்டெய்னரில் இருந்து வெளியேற `exit` என தட்டச்சு செய்யவும்):
-
-`apx enter`
-
-- கொள்கலனில் கிடைக்கும் தொகுப்புகளின் பட்டியலைப் புதுப்பிக்கவும்:
-
-`apx update`
-
-- கொள்கலனில் நிறுவப்பட்ட அனைத்து தொகுப்புகளையும் அவற்றின் புதிய கிடைக்கக்கூடிய பதிப்பிற்கு மேம்படுத்தவும்:
-
-`apx upgrade`
+`tldr apx subsystems`

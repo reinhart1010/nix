@@ -2,8 +2,8 @@
 layout: page
 title: common/md5sum (தமிழ்)
 description: "MD5 மறையீட்டு சரிகாண்தொகையைக் கணி."
-content_hash: c35c663d26cbb3e05c50c0accd09eb9cc051855a
-last_modified_at: 2023-11-13
+content_hash: 5796b4fb9c1455bc271cc693cff354bd0139797a
+last_modified_at: 2023-11-14
 related_topics:
   - title: English version
     url: /en/common/md5sum.html
@@ -23,15 +23,15 @@ MD5 மறையீட்டு சரிகாண்தொகையைக் �
 
 - கோப்பின் MD5 சரிகாண்தொகையைக் கணி:
 
-`md5sum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு/பாதை</span>
+`md5sum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு1/பாதை கோப்பு2/பாதை ...</span>
 
 - பலக் கோப்புகளின் MD5 சரிகாண்தொகையைக் கணி:
 
-`md5sum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு1/பாதை</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு2/பாதை</span>
+`md5sum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு1/பாதை கோப்பு2/பாதை ...</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.md5/பாதை</span>
 
 - இயல் உள்ளீட்டின் MD5 சரிகாண்தொகையைக் கணி:
 
-`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">உரை</span>`" | md5sum`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கட்டளை</span>` | md5sum`
 
 - MD5SUMகளின் கோப்பைப் படித்து, எல்லா கோப்புகளிலும் சரிகாண்தொகை பொருந்துகின்றனவா என்பதைச் சரிபார்க்கவும்:
 

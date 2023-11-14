@@ -2,8 +2,8 @@
 layout: page
 title: common/grep (தமிழ்)
 description: "கோப்பில் தேடுகுறித்தொடர்களுடன் தேடு."
-content_hash: c49f2b6d0bd6e862ba0d29b7dba0e3d9c83c8c01
-last_modified_at: 2023-11-13
+content_hash: 33b42a45b9cb61ef9a2106dc9069548ca04e31fc
+last_modified_at: 2023-11-14
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -62,9 +62,9 @@ tldri18n_status: 2
 
 `grep --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">context|before-context|after-context</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தேடுதொடர்</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு/பாதை</span>
 
-- ஒவ்வொருப் பொருத்தத்திற்கும் கோப்புப் பெயரையும் வரி எண்ணையும் காட்டு:
+- வண்ண வெளியீட்டில் ஒவ்வொரு பொருத்தத்திற்கும் கோப்பு பெயர் மற்றும் வரி எண்ணை அச்சிடவும்:
 
-`grep --with-filename --line-number "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தேடுதொடர்</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு/பாதை</span>
+`grep --with-filename --line-number --color=always "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தேடுதொடர்</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு/பாதை</span>
 
 - தேடுதொடருக்குத் தேடு, ஆனால் பொருந்திய பகுதிகளை மட்டும் காட்டு:
 

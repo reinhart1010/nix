@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-deptest (தமிழ்)
 description: "குறிப்பிடப்பட்ட ஒவ்வொரு சார்புநிலையையும் சரிபார்த்து, கணினியில் தற்போது திருப்தி அடையாத சார்புகளின் பட்டியலைத் திருப்பி அனுப்பவும்."
-content_hash: 68ae115e62de0637dac05db8ced228e9aa41b131
-last_modified_at: 2023-11-13
+content_hash: c6a23f69c984dbdd8b798426c75b3b76fed0fd22
+last_modified_at: 2023-11-14
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-deptest.html
@@ -27,7 +27,7 @@ tldri18n_status: 2
 
 - நிறுவப்படாத சார்புகளின் தொகுப்பு பெயர்களை அச்சிடவும்:
 
-`pacman --deptest `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு2</span>
+`pacman --deptest `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நிரல்தொகுப்பு1 நிரல்தொகுப்பு2 ...</span>
 
 - நிறுவப்பட்ட தொகுப்பு கொடுக்கப்பட்ட குறைந்தபட்ச பதிப்பை பூர்த்திசெய்கிறதா என சரிபார்க்கவும்:
 

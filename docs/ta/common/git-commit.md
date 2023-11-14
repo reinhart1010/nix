@@ -2,8 +2,8 @@
 layout: page
 title: common/git-commit (தமிழ்)
 description: "கோப்புகளை களஞ்சியத்திற்கு கமிட்செய்ய."
-content_hash: 7d8a1285a6af14ce4e93e3c9fa6d3551c2150503
-last_modified_at: 2023-11-13
+content_hash: f2b2f59b7f8cb60033241695d68a541c7b6ddb0c
+last_modified_at: 2023-11-14
 related_topics:
   - title: Deutsch version
     url: /de/common/git-commit.html
@@ -44,7 +44,7 @@ tldri18n_status: 2
 
 - ஒரு செய்தியுடன் களஞ்சியத்திற்கு அரங்குக் கோப்புகளை கமிட் செய்யுங்கள்:
 
-`git commit -m "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">செய்தி</span>`"`
+`git commit --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">செய்தி</span>`"`
 
 - ஒரு கோப்பிலிருந்து படிக்கப்பட்ட செய்தியுடன் கட்டப்பட்ட கோப்புகளை கமிட்செய்யவும்:
 
@@ -52,13 +52,13 @@ tldri18n_status: 2
 
 - அனைத்து மாற்றியமைக்கப்பட்ட கோப்புகளையும் தானாக நிலைநிறுத்து, செய்தியுடன் கமிட் செய்யுங்கள்:
 
-`git commit -a -m "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">செய்தி</span>`"`
+`git commit --all --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">செய்தி</span>`"`
 
-- ஸ்டேஜ் செய்யப்பட்ட கோப்புகளை கமிட்செய்து, அவற்றை `~/.gitconfig` இல் வரையறுக்கப்பட்ட GPG விசையுடன் [S] கையொப்பமிடுங்கள்:
+- ஸ்டேஜ் செய்யப்பட்ட கோப்புகளை உறுதிசெய்து, குறிப்பிட்ட GPG விசையுடன் கையொப்பமிடுங்கள் (அல்லது எந்த வாதமும் குறிப்பிடப்படவில்லை எனில் கட்டமைப்பு கோப்பில் வரையறுக்கப்பட்ட ஒன்று):
 
-`git commit -S -m "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">செய்தி</span>`"`
+`git commit --gpg-sign `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_id</span>` --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">செய்தி</span>`"`
 
-- கடைசி கட்டத்தை தற்போதைய நிலை மாற்றங்களுடன் கமிட் செய்யுங்கள்:
+- தற்போது செய்யப்பட்ட மாற்றங்களைச் சேர்ப்பதன் மூலம் கடைசி கமிட்டைப் புதுப்பிக்கவும், கமிட் இன் ஹாஷை மாற்றவும்:
 
 `git commit --amend`
 
@@ -68,4 +68,4 @@ tldri18n_status: 2
 
 - கட்டப்பட்ட கோப்புகள் இல்லாவிட்டாலும், கமிட்டை உருவாக்கவும்:
 
-`git commit -m "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">செய்தி</span>`" --allow-empty`
+`git commit --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">செய்தி</span>`" --allow-empty`

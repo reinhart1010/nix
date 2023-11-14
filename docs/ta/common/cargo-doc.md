@@ -2,8 +2,8 @@
 layout: page
 title: common/cargo-doc (தமிழ்)
 description: "ரஸ்ட் தொகுப்புகளின் ஆவணங்களை உருவாக்கவும்."
-content_hash: 7ce11647cbbb2aaa7cce431f511a13c349c27811
-last_modified_at: 2023-11-13
+content_hash: 70089d33c00288fb5d0e90d6e86051f6126e2b41
+last_modified_at: 2023-11-14
 related_topics:
   - title: English version
     url: /en/common/cargo-doc.html
@@ -17,6 +17,10 @@ tldri18n_status: 2
 
 ரஸ்ட் தொகுப்புகளின் ஆவணங்களை உருவாக்கவும்.
 மேலும் விவரத்திற்கு: <https://doc.rust-lang.org/cargo/commands/cargo-doc.html>.
+
+- தற்போதைய திட்டம் மற்றும் அனைத்து சார்புகளுக்கான ஆவணங்களை உருவாக்கவும்:
+
+`cargo doc`
 
 - தற்போதைய திட்டம் மற்றும் அனைத்து சார்புகளுக்கான ஆவணங்களை உருவாக்கவும்:
 

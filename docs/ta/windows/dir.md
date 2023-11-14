@@ -2,8 +2,8 @@
 layout: page
 title: windows/dir (தமிழ்)
 description: "அடைவு உள்ளடக்கங்களை பட்டியலிடுங்கள்."
-content_hash: 564df433e8585eee5b595c3ba2e0246a83704ca0
-last_modified_at: 2023-11-12
+content_hash: 62c5d2f542a64f22b4330c7b48809ad82f3e7ef1
+last_modified_at: 2023-11-14
 related_topics:
   - title: català version
     url: /ca/windows/dir.html
@@ -64,8 +64,12 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 - மறைக்கப்பட்டவை உட்பட தற்போதைய கோப்பகத்தின் உள்ளடக்கங்களைக் காட்டு:
 
-`dir /A`
+`dir /a`
 
 - மறைக்கப்பட்டவை உட்பட கொடுக்கப்பட்ட கோப்பகத்தின் உள்ளடக்கங்களைக் காட்டு:
 
-`dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அடைவிற்குப்/பாதை</span>` /A`
+`dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">அடைவிற்குப்/பாதை</span>` /a`
+
+- கூடுதல் தகவல் இல்லாமல் கோப்பகங்கள் மற்றும் கோப்புகளின் பட்டியலைக் காட்டு:
+
+`dir /b`
