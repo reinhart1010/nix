@@ -3,7 +3,7 @@ layout: page
 title: common/lzegrep (polski)
 description: "To polecenie jest aliasem `xzgrep --extended-regexp`."
 content_hash: 568fd3f96c788d8a97e0d72c007404b98e2276c7
-last_modified_at: 2023-11-13
+last_modified_at: 2023-11-14
 related_topics:
   - title: English version
     url: /en/common/lzegrep.html

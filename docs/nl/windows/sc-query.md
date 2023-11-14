@@ -3,7 +3,7 @@ layout: page
 title: windows/sc-query (Nederlands)
 description: "Dit commando is een alias van `sc.exe query`."
 content_hash: 0218e73d361102a4e96929eb157947631837687d
-last_modified_at: 2023-11-13
+last_modified_at: 2023-11-14
 related_topics:
   - title: English version
     url: /en/windows/sc-query.html

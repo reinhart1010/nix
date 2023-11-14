@@ -3,7 +3,7 @@ layout: page
 title: common/docker-container-diff (Nederlands)
 description: "Dit commando is een alias van `docker diff`."
 content_hash: cd6cdfd9e2bbade42161210fd6c356fe65a4e68c
-last_modified_at: 2023-11-13
+last_modified_at: 2023-11-14
 related_topics:
   - title: English version
     url: /en/common/docker-container-diff.html

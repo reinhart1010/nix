@@ -3,7 +3,7 @@ layout: page
 title: common/pamtopnm (English)
 description: "Convert a PAM image to an equivalent PNM image."
 content_hash: cc4b48b078eb4beab6b36eac14149a6d63e5a60f
-last_modified_at: 2023-11-13
+last_modified_at: 2023-11-14
 tldri18n_status: 0
 ---
 

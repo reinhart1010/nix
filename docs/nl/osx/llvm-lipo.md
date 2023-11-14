@@ -3,7 +3,7 @@ layout: page
 title: osx/llvm-lipo (Nederlands)
 description: "Dit commando is een alias van `lipo`."
 content_hash: b5f78b475e9ed21069e9ede37daefe8986df159f
-last_modified_at: 2023-11-13
+last_modified_at: 2023-11-14
 related_topics:
   - title: English version
     url: /en/osx/llvm-lipo.html

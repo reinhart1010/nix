@@ -3,7 +3,7 @@ layout: page
 title: osx/lipo (Nederlands)
 description: "Tool voor het verwerken van Mach-O Universal Binaries."
 content_hash: 634f4ad465b43e491c08798bf2f79b8a81dc0d55
-last_modified_at: 2023-11-13
+last_modified_at: 2023-11-14
 related_topics:
   - title: English version
     url: /en/osx/lipo.html

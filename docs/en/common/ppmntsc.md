@@ -3,7 +3,7 @@ layout: page
 title: common/ppmntsc (English)
 description: "Make the RGB colors in a PPM image compatible with NTSC or PAL color systems."
 content_hash: 5c21098728b9f9a8a3c8d3a3c418528f04fe197a
-last_modified_at: 2023-11-13
+last_modified_at: 2023-11-14
 tldri18n_status: 0
 ---
 

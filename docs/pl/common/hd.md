@@ -3,7 +3,7 @@ layout: page
 title: common/hd (polski)
 description: "To polecenie jest aliasem `hexdump`."
 content_hash: 2401b82bdb1e903ea6699168fd76240f6ac34774
-last_modified_at: 2023-11-13
+last_modified_at: 2023-11-14
 related_topics:
   - title: English version
     url: /en/common/hd.html

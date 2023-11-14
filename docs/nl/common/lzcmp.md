@@ -3,7 +3,7 @@ layout: page
 title: common/lzcmp (Nederlands)
 description: "Dit commando is een alias van `xzcmp`."
 content_hash: 47f875132d0c0ff28fb84fe23c847eff5c487150
-last_modified_at: 2023-11-13
+last_modified_at: 2023-11-14
 related_topics:
   - title: English version
     url: /en/common/lzcmp.html

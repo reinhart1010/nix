@@ -3,7 +3,7 @@ layout: page
 title: common/ppmtowinicon (English)
 description: "This command is superseded by `pamtowinicon`."
 content_hash: 044e8027034265ec74330989c13ca83ab3eb3e94
-last_modified_at: 2023-11-13
+last_modified_at: 2023-11-14
 tldri18n_status: 0
 ---
 

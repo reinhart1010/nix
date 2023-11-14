@@ -3,7 +3,7 @@ layout: page
 title: linux/update-alternatives (Nederlands)
 description: "Een handig hulpmiddel voor het onderhouden van symbolische links om standaard commando's te bepalen."
 content_hash: 56e13bfe7966c76006b40ae40a4f3c78c28b7b3a
-last_modified_at: 2023-11-13
+last_modified_at: 2023-11-14
 related_topics:
   - title: English version
     url: /en/linux/update-alternatives.html

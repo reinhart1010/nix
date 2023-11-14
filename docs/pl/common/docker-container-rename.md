@@ -3,7 +3,7 @@ layout: page
 title: common/docker-container-rename (polski)
 description: "To polecenie jest aliasem `docker rename`."
 content_hash: 3642274a3f422f9e83b3ab7cc3b1b36939d81764
-last_modified_at: 2023-11-13
+last_modified_at: 2023-11-14
 related_topics:
   - title: English version
     url: /en/common/docker-container-rename.html

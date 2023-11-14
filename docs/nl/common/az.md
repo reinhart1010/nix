@@ -3,7 +3,7 @@ layout: page
 title: common/az (Nederlands)
 description: "De officiële CLI tool voor Microsoft Azure."
 content_hash: 45a1557df07bfd9b5d461c71a250f12b37c74600
-last_modified_at: 2023-11-13
+last_modified_at: 2023-11-14
 related_topics:
   - title: English version
     url: /en/common/az.html

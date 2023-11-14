@@ -3,7 +3,7 @@ layout: page
 title: common/sbigtopgm (English)
 description: "Convert an SBIG CCDOPS file to PGM."
 content_hash: fed1e81810f320c489e5c9a4bbc1f5ec5ef82fac
-last_modified_at: 2023-11-13
+last_modified_at: 2023-11-14
 tldri18n_status: 0
 ---
 
