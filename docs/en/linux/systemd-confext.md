@@ -3,7 +3,7 @@ layout: page
 title: linux/systemd-confext (English)
 description: "This command is an alias of `systemd-sysext`."
 content_hash: 4d5188f0cd3733ffc7a07cb9e64a700c2c349f6b
-last_modified_at: 2023-11-14
+last_modified_at: 2023-11-15
 tldri18n_status: 0
 ---
 

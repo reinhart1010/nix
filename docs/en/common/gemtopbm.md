@@ -3,7 +3,7 @@ layout: page
 title: common/gemtopbm (English)
 description: "This command is superseded by `gemtopnm`."
 content_hash: 324ad9c2e3a9faee904a6907d3f9db4691dc4a0e
-last_modified_at: 2023-11-14
+last_modified_at: 2023-11-15
 tldri18n_status: 0
 ---
 

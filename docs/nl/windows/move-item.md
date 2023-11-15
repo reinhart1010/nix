@@ -3,7 +3,7 @@ layout: page
 title: windows/move-item (Nederlands)
 description: "Verplaats of hernoem bestanden, mappen, registersleutels en andere PowerShell data items."
 content_hash: 30311842eb8bdc73238e336c42089c6113c10c03
-last_modified_at: 2023-11-14
+last_modified_at: 2023-11-15
 related_topics:
   - title: English version
     url: /en/windows/move-item.html

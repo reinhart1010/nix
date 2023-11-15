@@ -3,7 +3,7 @@ layout: page
 title: common/ppmdist (English)
 description: "Produce a grayscale version of a PPM image."
 content_hash: 0d1429a718b184229314ab86aed37a43a1ee4dcd
-last_modified_at: 2023-11-14
+last_modified_at: 2023-11-15
 tldri18n_status: 0
 ---
 

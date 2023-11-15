@@ -3,7 +3,7 @@ layout: page
 title: common/git-add (Nederlands)
 description: "Voegt gewijzigde bestanden toe aan de index."
 content_hash: 1c82e72f6282e3d0729f5620e06ffb509da9253f
-last_modified_at: 2023-11-14
+last_modified_at: 2023-11-15
 related_topics:
   - title: Deutsch version
     url: /de/common/git-add.html

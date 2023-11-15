@@ -3,7 +3,7 @@ layout: page
 title: linux/cal (Nederlands)
 description: "Toon kalenderinformatie, met de huidige dag gemarkeerd."
 content_hash: e18e303b42b1c36401426fd5fce80e81348bf74e
-last_modified_at: 2023-11-14
+last_modified_at: 2023-11-15
 related_topics:
   - title: català version
     url: /ca/linux/cal.html

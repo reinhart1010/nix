@@ -3,7 +3,7 @@ layout: page
 title: osx/llvm-lipo (polski)
 description: "To polecenie jest aliasem `lipo`."
 content_hash: f988c25c97b334bfc568d479c5736289faa9fd22
-last_modified_at: 2023-11-14
+last_modified_at: 2023-11-15
 related_topics:
   - title: English version
     url: /en/osx/llvm-lipo.html

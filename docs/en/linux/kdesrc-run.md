@@ -3,7 +3,7 @@ layout: page
 title: linux/kdesrc-run (English)
 description: "Run KDE components that have been built with `kdesrc-build`."
 content_hash: feb43cf61db5b74e2b858748df04b440b9b2ecf4
-last_modified_at: 2023-11-14
+last_modified_at: 2023-11-15
 tldri18n_status: 0
 ---
 

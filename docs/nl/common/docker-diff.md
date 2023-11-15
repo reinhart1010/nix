@@ -3,7 +3,7 @@ layout: page
 title: common/docker-diff (Nederlands)
 description: "Inspecteer wijzigingen in bestanden of mappen op het bestandssysteem van een container."
 content_hash: 18ffe4b5932679a915c4e2991f25abf4181f3262
-last_modified_at: 2023-11-14
+last_modified_at: 2023-11-15
 related_topics:
   - title: English version
     url: /en/common/docker-diff.html

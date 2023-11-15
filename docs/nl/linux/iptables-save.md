@@ -3,7 +3,7 @@ layout: page
 title: linux/iptables-save (Nederlands)
 description: "Sla de `iptables` IPv4 configuratie op."
 content_hash: fb4655ed59398d203f4a7364239c57d3a5a28f0f
-last_modified_at: 2023-11-14
+last_modified_at: 2023-11-15
 related_topics:
   - title: English version
     url: /en/linux/iptables-save.html

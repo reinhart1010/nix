@@ -3,7 +3,7 @@ layout: page
 title: common/pamfunc (English)
 description: "Apply a simple arithmetic function to a Netpbm image."
 content_hash: 7d5f01f29377a02cb4045c506f75e3c0aa04672c
-last_modified_at: 2023-11-14
+last_modified_at: 2023-11-15
 tldri18n_status: 0
 ---
 
