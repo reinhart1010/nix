@@ -2,8 +2,8 @@
 layout: page
 title: linux/flatpak (தமிழ்)
 description: "பிளாட்பேக் பயன்பாடுகள் மற்றும் இயக்க நேரங்களை உருவாக்கவும், நிறுவவும் மற்றும் இயக்கவும்."
-content_hash: bec7ac02067d52d92e6ac2d0cdc8da34bce1ca16
-last_modified_at: 2023-11-14
+content_hash: efebfcf4529218ccf8ee40ae2dc1f3abb7d2ad40
+last_modified_at: 2023-11-15
 related_topics:
   - title: English version
     url: /en/linux/flatpak.html
@@ -47,6 +47,10 @@ tldri18n_status: 2
 - நிறுவப்பட்ட பயன்பாட்டை அகற்றவும்:
 
 `flatpak remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">பெயர்</span>
+
+- பயன்படுத்தப்படாத அனைத்து பயன்பாடுகளையும் அகற்றவும்:
+
+`flatpak remove --unused`
 
 - நிறுவப்பட்ட பயன்பாட்டைப் பற்றிய தகவலைக் காட்டு:
 

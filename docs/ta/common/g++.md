@@ -2,8 +2,8 @@
 layout: page
 title: common/g++ (தமிழ்)
 description: "C++ மூலக் கோப்புகளைத் தொகுக்கிறது."
-content_hash: 48fa3f230b121b348052099c7cd77e9bebdb15f5
-last_modified_at: 2023-11-14
+content_hash: 9a006aec9c45075b78ed4b9d1a57bd06a978d99f
+last_modified_at: 2023-11-15
 related_topics:
   - title: Deutsch version
     url: /de/common/g++.html
@@ -42,7 +42,7 @@ GCC இன் பகுதி (GNU கம்பைலர் சேகரிப�
 
 - மூலக் கோப்பை விட வேறு பாதையில் அமைந்துள்ள நூலகங்களைச் சேர்க்கவும்:
 
-`g++ `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">மூலம்.cpp/பாதை</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">வெளியீடு_இயங்கக்கூடியது/பாதை}</span>` -I`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தலைப்பு/பாதை</span>` -L`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நூலகம்/பாதை</span>` -l`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நூலகம்_பெயர்</span>
+`g++ `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">மூலம்.cpp/பாதை</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">வெளியீடு_இயங்கக்கூடியது/பாதை</span>` -I`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">தலைப்பு/பாதை</span>` -L`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நூலகம்/பாதை</span>` -l`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">நூலகம்_பெயர்</span>
 
 - பல மூலக் குறியீடு கோப்புகளை ஒரு இயங்கக்கூடிய பைனரியில் தொகுத்து இணைக்கவும்:
 

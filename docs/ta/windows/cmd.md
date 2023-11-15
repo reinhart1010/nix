@@ -2,8 +2,8 @@
 layout: page
 title: windows/cmd (தமிழ்)
 description: "விண்டோஸ் கட்டளை மொழிபெயர்ப்பாளர்."
-content_hash: ca1cc0223c7b9983128e3bd7b72737e65465b9b9
-last_modified_at: 2023-11-14
+content_hash: 3577231f6d9b37601b650e920339fce747960447
+last_modified_at: 2023-11-15
 related_topics:
   - title: Deutsch version
     url: /de/windows/cmd.html
@@ -48,7 +48,7 @@ tldri18n_status: 2
 
 - குறிப்பிட்ட கட்டளையை இயக்கவும்:
 
-`cmd /c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo வணக்கம் உலகம்</span>`"`
+`cmd /c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo வணக்கம் உலகம்</span>
 
 - ஒரு குறிப்பிட்ட ஸ்கிரிப்டை இயக்கவும்:
 
@@ -56,7 +56,7 @@ tldri18n_status: 2
 
 - குறிப்பிட்ட கட்டளையை இயக்கவும், பின்னர் ஒரு ஊடாடும் ஷெல்லை உள்ளிடவும்:
 
-`cmd /k "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo வணக்கம் உலகம்</span>`"`
+`cmd /k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo வணக்கம் உலகம்</span>
 
 - கட்டளை வெளியீட்டில் `echo` முடக்கப்பட்டிருக்கும் ஊடாடும் ஷெல் அமர்வைத் தொடங்கவும்:
 

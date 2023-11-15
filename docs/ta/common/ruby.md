@@ -2,8 +2,8 @@
 layout: page
 title: common/ruby (தமிழ்)
 description: "ரூபி நிரலாக்க மொழி மொழிபெயர்ப்பாளர்."
-content_hash: 58c1c95cd3ca801ff60c76a5b362ddae467ad0eb
-last_modified_at: 2023-11-14
+content_hash: 250b8fb3f4f446df1b574ab0372a3f6c746da32a
+last_modified_at: 2023-11-15
 related_topics:
   - title: English version
     url: /en/common/ruby.html
@@ -20,10 +20,6 @@ tldri18n_status: 2
 
 ரூபி நிரலாக்க மொழி மொழிபெயர்ப்பாளர்.
 மேலும் விவரத்திற்கு: <https://www.ruby-lang.org>.
-
-- ஒரு REPL (ஊடாடும் ஷெல்) தொடங்கவும்:
-
-`irb`
 
 - ஒரு ரூபி ஸ்கிரிப்டை இயக்கவும்:
 

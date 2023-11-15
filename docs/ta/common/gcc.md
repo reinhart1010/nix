@@ -2,8 +2,8 @@
 layout: page
 title: common/gcc (தமிழ்)
 description: "C மற்றும் C++ மூலக் கோப்புகளை முன் செயலாக்கம் செய்து தொகுத்து, பின்னர் அவற்றைச் சேகரித்து இணைக்கவும்."
-content_hash: 13739395e3e3ba97844553c6eb3475f11b309579
-last_modified_at: 2023-11-14
+content_hash: c5a17f6381aec1096f11fd3b3944f8d6b610f89c
+last_modified_at: 2023-11-15
 related_topics:
   - title: Deutsch version
     url: /de/common/gcc.html
@@ -36,7 +36,7 @@ C மற்றும் C++ மூலக் கோப்புகளை மு�
 
 - வெளியீட்டில் எச்சரிக்கைகள் மற்றும் பிழைத்திருத்த குறியீடுகளை அனுமதிக்கவும்:
 
-`gcc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">மூலம்.c/பாதை</span>` -Wall -Og -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">வெளியீடு_இயங்கக்கூடியது/பாதை</span>
+`gcc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">மூலம்.c/பாதை</span>` -Wall -g -Og -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">வெளியீடு_இயங்கக்கூடியது/பாதை</span>
 
 - வேறு பாதையிலிருந்து நூலகங்களைச் சேர்க்கவும்:
 
