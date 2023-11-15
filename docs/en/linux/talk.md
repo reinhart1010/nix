@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/talk (English)
-description: "GNU/Talk is a visual communication program which copies lines from your terminal to that of another user."
-content_hash: d5a1374b7123fdcbf86c73c9b22270d68c32251d
-last_modified_at: 2023-11-12
+description: "A visual communication program which copies lines from your terminal to that of another user."
+content_hash: 50a506c2cc5d4607dfedc3c6f2fc3bfcbb2dc092
+last_modified_at: 2023-11-15
 tldri18n_status: 2
 ---
 # talk
 
-GNU/Talk is a visual communication program which copies lines from your terminal to that of another user.
+A visual communication program which copies lines from your terminal to that of another user.
 More information: <https://www.gnu.org/software/inetutils/manual/html_node/talk-invocation.html>.
 
 - Start a talk session with a user on the same machine:

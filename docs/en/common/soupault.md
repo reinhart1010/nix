@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/soupault (English)
-description: "Soupault is a static website generator based on HTML element tree rewriting."
-content_hash: ccc9855ef32727c4c6fed9d341b1712e04dda47f
-last_modified_at: 2023-11-12
+description: "A static website generator based on HTML element tree rewriting."
+content_hash: 6e01ceb76fb43b3e194d6b0387cb1cbbdbf2e096
+last_modified_at: 2023-11-15
 tldri18n_status: 2
 ---
 # soupault
 
-Soupault is a static website generator based on HTML element tree rewriting.
+A static website generator based on HTML element tree rewriting.
 It can also be used as an HTML post-processor or metadata extractor.
 More information: <https://soupault.app>.
 

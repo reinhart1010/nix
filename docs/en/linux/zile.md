@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/zile (English)
-description: "Zile is a lightweight clone of the Emacs text editor."
-content_hash: cf6e552f93c51b507a177ae980fa5c184e3f22ca
-last_modified_at: 2023-11-12
+description: "A lightweight clone of the Emacs text editor."
+content_hash: 3c8446cd6999bddd344af8c37967a8c368af1088
+last_modified_at: 2023-11-15
 tldri18n_status: 2
 ---
 # zile
 
-Zile is a lightweight clone of the Emacs text editor.
+A lightweight clone of the Emacs text editor.
 More information: <https://www.gnu.org/software/zile/>.
 
 - Start a buffer for temporary notes, which won't be saved:

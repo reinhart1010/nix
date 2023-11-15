@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/nc (English)
-description: "Netcat is a versatile utility for redirecting IO into a network stream."
-content_hash: a2c518af77892e5b7370d6a38ddf23c681b54373
-last_modified_at: 2023-11-12
+description: "A versatile utility for redirecting IO into a network stream."
+content_hash: b6ef095130cd32a272c2a7a55bdfd83db7f51f8d
+last_modified_at: 2023-11-15
 related_topics:
   - title: español version
     url: /es/common/nc.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # nc
 
-Netcat is a versatile utility for redirecting IO into a network stream.
+A versatile utility for redirecting IO into a network stream.
 More information: <https://manned.org/man/nc.1>.
 
 - Start a listener on the specified TCP port and send a file into it:

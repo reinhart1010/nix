@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/postcss (English)
-description: "PostCSS is a tool for transforming styles with JS plugins."
-content_hash: 2a2bd1687f2c3b17c57f3b998a74010df3940c7b
-last_modified_at: 2023-11-12
+description: "A tool for transforming styles with JS plugins."
+content_hash: 75fa8564f94726144a30a44da31c83caff2579b9
+last_modified_at: 2023-11-15
 tldri18n_status: 2
 ---
 # postcss
 
-PostCSS is a tool for transforming styles with JS plugins.
+A tool for transforming styles with JS plugins.
 More information: <https://postcss.org>.
 
 - Parse and transform a CSS file:

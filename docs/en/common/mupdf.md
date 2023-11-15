@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/mupdf (English)
-description: "MuPDF is a lightweight PDF, XPS, and E-book viewer."
-content_hash: 914fd5e1b3f0894195457d0f00c3c0c8db22bfb2
-last_modified_at: 2023-11-12
+description: "A lightweight PDF, XPS, and E-book viewer."
+content_hash: 998ec483b7e1a067c5e80c85de2a8852213a85fe
+last_modified_at: 2023-11-15
 tldri18n_status: 2
 ---
 # mupdf
 
-MuPDF is a lightweight PDF, XPS, and E-book viewer.
+A lightweight PDF, XPS, and E-book viewer.
 More information: <https://www.mupdf.com>.
 
 - Open a PDF on the first page:

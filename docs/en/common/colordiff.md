@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/colordiff (English)
-description: "A tool to colorize diff output."
-content_hash: 9cd8ec3da21c482d2346d20b2f2cccdb5bea118e
-last_modified_at: 2023-11-12
+description: "A wrapper around `diff` that produces the same output but with pretty syntax highlighting."
+content_hash: 3c5b81ff59e45355d0b2f72c33e74b2b0fc57eaf
+last_modified_at: 2023-11-15
 related_topics:
   - title: italiano version
     url: /it/common/colordiff.html
@@ -12,8 +12,8 @@ tldri18n_status: 2
 ---
 # colordiff
 
-A tool to colorize diff output.
-The Perl script colordiff is a wrapper for `diff` and produces the same output but with pretty syntax highlighting. Color schemes can be customized.
+A wrapper around `diff` that produces the same output but with pretty syntax highlighting.
+Color schemes can be customized.
 More information: <https://github.com/kimmel/colordiff>.
 
 - Compare files:
@@ -32,6 +32,6 @@ More information: <https://github.com/kimmel/colordiff>.
 
 `colordiff -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file2</span>
 
-- Ignore white spaces:
+- Ignore whitespace:
 
 `colordiff -w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file2</span>

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/passwd (English)
-description: "Passwd is a tool used to change a user's password."
-content_hash: d9a720c294990860ae4656582606b9407d35c877
-last_modified_at: 2023-11-12
+description: "Change a user's password."
+content_hash: c4290adeafea716d48301774cf639fd7216d8ad3
+last_modified_at: 2023-11-15
 related_topics:
   - title: français version
     url: /fr/common/passwd.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # passwd
 
-Passwd is a tool used to change a user's password.
+Change a user's password.
 More information: <https://manned.org/passwd>.
 
 - Change the password of the current user interactively:

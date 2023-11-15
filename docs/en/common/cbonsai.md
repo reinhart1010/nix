@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/cbonsai (English)
-description: "Cbonsai is a beautifully random bonsai tree CLI generator."
-content_hash: 9f222d5c794c7fd1871c71e885ec0ba82e98c765
-last_modified_at: 2023-11-12
+description: "A beautifully random bonsai tree generator."
+content_hash: 489e19633aa13507aaf5016f0b52fc4023326498
+last_modified_at: 2023-11-15
 tldri18n_status: 2
 ---
 # cbonsai
 
-Cbonsai is a beautifully random bonsai tree CLI generator.
+A beautifully random bonsai tree generator.
 More information: <https://gitlab.com/jallbrit/cbonsai>.
 
 - Generate a bonsai in live mode:

@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/timidity (English)
-description: "TiMidity++ is a MIDI file player and converter."
-content_hash: b5f43c337f767933ba2a76204ac677e57fdb89f2
-last_modified_at: 2023-11-12
+description: "A MIDI file player and converter."
+content_hash: ed07ee1d8a76c8ce6ea6476ddba048f4ff4ea83f
+last_modified_at: 2023-11-15
 tldri18n_status: 2
 ---
 # timidity
 
-TiMidity++ is a MIDI file player and converter.
+A MIDI file player and converter.
 More information: <http://timidity.sourceforge.net>.
 
 - Play a MIDI file:

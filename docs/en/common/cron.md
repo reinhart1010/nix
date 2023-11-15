@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/cron (English)
-description: "`cron` is a system scheduler for running jobs or tasks unattended."
-content_hash: 601c8a819aee68197d35551aed2c35877cd5a88d
-last_modified_at: 2023-11-12
+description: "A system scheduler for running jobs or tasks unattended."
+content_hash: 42521bd49c2ca0aa822f182030941d071f4e96cc
+last_modified_at: 2023-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/cron.html
@@ -93,9 +93,9 @@ tldri18n_status: 2
 ---
 # cron
 
-`cron` is a system scheduler for running jobs or tasks unattended.
+A system scheduler for running jobs or tasks unattended.
 The command to submit, edit or delete entries to `cron` is called `crontab`.
 
-- View documentation for the original command:
+- View documentation for managing `cron` entries:
 
 `tldr crontab`

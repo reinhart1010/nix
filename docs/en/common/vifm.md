@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/vifm (English)
-description: "Vifm (VI File Manager) is a command-line file manager."
-content_hash: b4cecd9b0a35ed50b9f7f9c4628d09f33d227795
-last_modified_at: 2023-11-12
+description: "VI File Manager is a command-line file manager."
+content_hash: 77a315a03d72411d9588ee0c8b20bb42c5fcdece
+last_modified_at: 2023-11-15
 related_topics:
   - title: Deutsch version
     url: /de/common/vifm.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # vifm
 
-Vifm (VI File Manager) is a command-line file manager.
+VI File Manager is a command-line file manager.
 More information: <https://github.com/vifm/vifm>.
 
 - Open the current directory:

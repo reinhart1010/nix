@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/transmission (English)
-description: "Transmission is a simple torrent client."
-content_hash: 466217794fccfcd8508c7f3089e906c0cc7b4dc2
-last_modified_at: 2023-11-12
+description: "A simple torrent client."
+content_hash: 6f1acf1601f78017bdeaff4442c12f35a3bfc283
+last_modified_at: 2023-11-15
 related_topics:
   - title: العربية version
     url: /ar/common/transmission.html
@@ -93,7 +93,7 @@ tldri18n_status: 2
 ---
 # transmission
 
-Transmission is a simple torrent client.
+A simple torrent client.
 Transmission isn't a command, but a set of commands. See the pages below.
 More information: <https://transmissionbt.com/>.
 

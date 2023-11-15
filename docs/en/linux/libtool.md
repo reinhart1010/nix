@@ -1,8 +1,8 @@
 ---
 layout: page
 title: linux/libtool (English)
-description: "Libtool is a generic library support script that hides the complexity of using shared libraries behind a consistent, portable interface."
-content_hash: a511524f8a67c746be1283e93f40920d7e4d9955
+description: "A generic library support script that hides the complexity of using shared libraries behind a consistent, portable interface."
+content_hash: 6ed1827ce548850c1541f597c5183a4440181c92
 last_modified_at: 2023-11-15
 tldri18n_status: 0
 ---
@@ -17,7 +17,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 <hr># libtool
 
-Libtool is a generic library support script that hides the complexity of using shared libraries behind a consistent, portable interface.
+A generic library support script that hides the complexity of using shared libraries behind a consistent, portable interface.
 More information: <https://www.gnu.org/software/libtool/manual/libtool.html#Invoking-libtool>.
 
 - Compile a source file into a `libtool` object:

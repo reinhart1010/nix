@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/sf (English)
-description: "Salesforce CLI is a powerful command line interface that simplifies development and build automation when working with your Salesforce org."
-content_hash: 65d2d12f15cfb7f3a6cea2406fe46025bb0a7b9f
-last_modified_at: 2023-11-12
+description: "A powerful command line interface that simplifies development and build automation when working with your Salesforce org."
+content_hash: 2908a24d314df7e41c4324586e34838681ba927e
+last_modified_at: 2023-11-15
 tldri18n_status: 2
 ---
 # sf
 
-Salesforce CLI is a powerful command line interface that simplifies development and build automation when working with your Salesforce org.
+A powerful command line interface that simplifies development and build automation when working with your Salesforce org.
 More information: <https://developer.salesforce.com/tools/salesforcecli>.
 
 - Authorize a Salesforce Organization:

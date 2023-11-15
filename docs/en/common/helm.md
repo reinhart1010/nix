@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/helm (English)
-description: "Helm is a package manager for Kubernetes."
-content_hash: 8d9c165a7743445d445b71c94b909896a44eceeb
-last_modified_at: 2023-11-12
+description: "A package manager for Kubernetes."
+content_hash: f7662afb50ed0cd1e00c702a665709a6bb0fccfa
+last_modified_at: 2023-11-15
 related_topics:
   - title: español version
     url: /es/common/helm.html
@@ -18,8 +18,8 @@ tldri18n_status: 2
 ---
 # helm
 
-Helm is a package manager for Kubernetes.
-Some subcommands such as `helm install` have their own usage documentation.
+A package manager for Kubernetes.
+Some subcommands such as `install` have their own usage documentation.
 More information: <https://helm.sh/>.
 
 - Create a helm chart:

@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/keytool (English)
-description: "Keytool is a certificate management utility included with Java."
-content_hash: 13a8f306f864b565b406776f58284f707d439483
-last_modified_at: 2023-11-12
+description: "A certificate management utility included with Java."
+content_hash: c3404e06be483b44e0b2db0ac8af778ffeb73bc1
+last_modified_at: 2023-11-15
 tldri18n_status: 2
 ---
 # keytool
 
-Keytool is a certificate management utility included with Java.
+A certificate management utility included with Java.
 More information: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/keytool.html>.
 
 - Create a keystore:

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/addpart (English)
-description: "Tells the Linux kernel about the existence of the specified partition."
-content_hash: d936bb30401926b740ee96781b9cd8bc2a63faca
-last_modified_at: 2023-11-12
+description: "Tell the Linux kernel about the existence of the specified partition."
+content_hash: a748429d67d010ad0218e87e96ce626e375e6818
+last_modified_at: 2023-11-15
 related_topics:
   - title: català version
     url: /ca/linux/addpart.html
@@ -21,8 +21,8 @@ tldri18n_status: 2
 ---
 # addpart
 
-Tells the Linux kernel about the existence of the specified partition.
-The command is a simple wrapper around the `add partition` ioctl.
+Tell the Linux kernel about the existence of the specified partition.
+A simple wrapper around the `add partition` ioctl.
 More information: <https://manned.org/addpart>.
 
 - Tell the kernel about the existence of the specified partition:

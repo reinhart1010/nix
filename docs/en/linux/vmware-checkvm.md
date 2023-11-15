@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/vmware-checkvm (English)
-description: "Checks to see if the current host is a VMware VM or not."
-content_hash: e9c2c5958de274f04cd170eaccfbaa55cfc54c42
-last_modified_at: 2023-11-12
+description: "Check if the current host is a VMware VM or not."
+content_hash: 8307bf3c1c92a731d70e8c3163457e0075740de4
+last_modified_at: 2023-11-15
 tldri18n_status: 2
 ---
 # vmware-checkvm
 
-Checks to see if the current host is a VMware VM or not.
+Check if the current host is a VMware VM or not.
 More information: <https://manned.org/vmware-checkvm>.
 
 - Return the current VMware software version (exit status determines whether the system is a VM or not):

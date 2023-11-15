@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/ledger (English)
-description: "Ledger is a powerful, double-entry accounting system that is accessed from the UNIX command-line."
-content_hash: 18b56976623c7a9c964b1103d296222921435ff5
-last_modified_at: 2023-11-12
+description: "A powerful, double-entry accounting system."
+content_hash: 9c54b5749dfe383a344ade5e93998c37e613e617
+last_modified_at: 2023-11-15
 tldri18n_status: 2
 ---
 # ledger
 
-Ledger is a powerful, double-entry accounting system that is accessed from the UNIX command-line.
+A powerful, double-entry accounting system.
 More information: <https://www.ledger-cli.org>.
 
 - Print a balance report showing totals:

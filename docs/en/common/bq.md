@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/bq (English)
-description: "The bq command-line tool is a Python-based command-line tool for BigQuery."
-content_hash: b6f85fd72064775702722ff17ee402da98a71702
-last_modified_at: 2023-11-12
+description: "A Python-based tool for BigQuery."
+content_hash: e0d08e2742ce91340a357ac43edb7af0407def93
+last_modified_at: 2023-11-15
 tldri18n_status: 2
 ---
 # bq
 
-The bq command-line tool is a Python-based command-line tool for BigQuery.
+A Python-based tool for BigQuery.
 More information: <https://cloud.google.com/bigquery/docs/reference/bq-cli-reference>.
 
 - Run query against a BigQuery table using standard SQL, add `--dry_run` flag to estimate the number of bytes read by the query:

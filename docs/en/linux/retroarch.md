@@ -1,15 +1,15 @@
 ---
 layout: page
 title: linux/retroarch (English)
-description: "RetroArch is a frontend for emulators, game engines and media players."
-content_hash: 69299b430e1bd9c94f2ea4813ca060065aba09af
-last_modified_at: 2023-11-12
+description: "A frontend for emulators, game engines and media players."
+content_hash: deb5c10904ef21481adaadff258dde06920b12fd
+last_modified_at: 2023-11-15
 tldri18n_status: 2
 ---
 # retroarch
 
-RetroArch is a frontend for emulators, game engines and media players.
-It is the reference implementation of libretro API.
+A frontend for emulators, game engines and media players.
+The reference implementation of the libretro API.
 More information: <https://github.com/libretro/RetroArch>.
 
 - Start in the menu mode:

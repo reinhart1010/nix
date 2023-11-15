@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/kiwi-ng (English)
-description: "KIWI NG is an OS image and appliance builder."
-content_hash: d790a65a23ce07cfd7b4c4a25aced5a52ffd6602
-last_modified_at: 2023-11-12
+description: "An OS image and appliance builder."
+content_hash: 14a0e80f5929807e196cd77bf360f59e96f0183c
+last_modified_at: 2023-11-15
 tldri18n_status: 2
 ---
 # kiwi-ng
 
-KIWI NG is an OS image and appliance builder.
+An OS image and appliance builder.
 More information: <https://osinside.github.io/kiwi/>.
 
 - Build an appliance:

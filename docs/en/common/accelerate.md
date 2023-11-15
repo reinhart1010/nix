@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/accelerate (English)
-description: "Accelerate is a library that enables the same PyTorch code to be run across any distributed configuration."
-content_hash: 81d3914bea3185639fe0264a3cc82880cf994a3e
-last_modified_at: 2023-11-12
+description: "A library that enables the same PyTorch code to be run across any distributed configuration."
+content_hash: f84eaf36a299f0783e09869e4aa7071849421dc6
+last_modified_at: 2023-11-15
 related_topics:
   - title: 한국어 version
     url: /ko/common/accelerate.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # Accelerate
 
-Accelerate is a library that enables the same PyTorch code to be run across any distributed configuration.
+A library that enables the same PyTorch code to be run across any distributed configuration.
 More information: <https://huggingface.co/docs/accelerate/index>.
 
 - Print environment information:

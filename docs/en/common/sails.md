@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/sails (English)
-description: "Sails.js is a realtime enterprise level MVC framework built on top of Node.js."
-content_hash: 7153872bf481a107258bf16549e17d517ca252de
-last_modified_at: 2023-11-12
+description: "A realtime enterprise level MVC framework built on top of Node.js."
+content_hash: 9d31955bc2db2a54799d2930b7c59e09ff8f22cc
+last_modified_at: 2023-11-15
 tldri18n_status: 2
 ---
 # sails
 
-Sails.js is a realtime enterprise level MVC framework built on top of Node.js.
+A realtime enterprise level MVC framework built on top of Node.js.
 More information: <https://sailsjs.com>.
 
 - Start Sails:

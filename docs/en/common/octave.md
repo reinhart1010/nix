@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/octave (English)
-description: "GNU Octave is a programming language for scientific computing."
-content_hash: f02aad57676a314c6bb631eada2745f7dafa47fc
-last_modified_at: 2023-11-12
+description: "A programming language for scientific computing."
+content_hash: 3522508fefa441a64e6af11356022f055a5ab07b
+last_modified_at: 2023-11-15
 tldri18n_status: 2
 ---
 # octave
 
-GNU Octave is a programming language for scientific computing.
+A programming language for scientific computing.
 More information: <https://docs.octave.org/latest/Invoking-Octave-from-the-Command-Line.html>.
 
 - Start an interactive session:

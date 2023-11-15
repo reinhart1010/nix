@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/lvcreate (English)
-description: "Creates a logical volume in an existing volume group. A volume group is a collection of logical and physical volumes."
-content_hash: 2605da450d5f80dc4c7f492e7286364644a768be
-last_modified_at: 2023-11-12
+description: "Create a logical volume in an existing volume group. A volume group is a collection of logical and physical volumes."
+content_hash: 6c9aba3fe36a1c9615e8950087b5b1e4a8a9f7ac
+last_modified_at: 2023-11-15
 tldri18n_status: 2
 ---
 # lvcreate
 
-Creates a logical volume in an existing volume group. A volume group is a collection of logical and physical volumes.
+Create a logical volume in an existing volume group. A volume group is a collection of logical and physical volumes.
 See also: `lvm`.
 More information: <https://man7.org/linux/man-pages/man8/lvcreate.8.html>.
 

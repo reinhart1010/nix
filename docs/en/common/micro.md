@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/micro (English)
-description: "Micro is a modern and intuitive terminal-based text editor."
-content_hash: 5860b0626eb8d71580a6b246b4e5379ae18aa52f
-last_modified_at: 2023-11-12
+description: "A modern and intuitive terminal-based text editor."
+content_hash: 15cd4dabf781a497689cec329a620fb8814b7153
+last_modified_at: 2023-11-15
 related_topics:
   - title: русский version
     url: /ru/common/micro.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # micro
 
-Micro is a modern and intuitive terminal-based text editor.
+A modern and intuitive terminal-based text editor.
 You can use your keyboard, but also your mouse to navigate and/or select text.
 More information: <https://micro-editor.github.io>.
 
