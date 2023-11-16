@@ -3,7 +3,7 @@ layout: page
 title: linux/cgclassify (English)
 description: "Move running task(s) to given `cgroups`."
 content_hash: 7c20f5f0b9d174d97719b62b3efc618596dafca3
-last_modified_at: 2023-11-15
+last_modified_at: 2023-11-16
 tldri18n_status: 0
 ---
 

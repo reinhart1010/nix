@@ -3,7 +3,7 @@ layout: page
 title: linux/kdesrc-build (English)
 description: "Easily build KDE components from its source repositories."
 content_hash: 8c3f7c1150e109052662645e3a2bcf510cf2cf32
-last_modified_at: 2023-11-15
+last_modified_at: 2023-11-16
 tldri18n_status: 0
 ---
 

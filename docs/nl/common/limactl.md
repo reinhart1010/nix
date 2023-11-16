@@ -3,7 +3,7 @@ layout: page
 title: common/limactl (Nederlands)
 description: "Virtual machine manager voor Linux gasten, met meerdere VM templates beschikbaar."
 content_hash: 960a2a47bb9cb744029b755d64c19ddefd5f9dd5
-last_modified_at: 2023-11-15
+last_modified_at: 2023-11-16
 related_topics:
   - title: English version
     url: /en/common/limactl.html

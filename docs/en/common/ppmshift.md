@@ -3,7 +3,7 @@ layout: page
 title: common/ppmshift (English)
 description: "Shift the lines in a PPM image by a randomized amount."
 content_hash: 00dc22fd5bae3e47f055e2427687a6998a560c34
-last_modified_at: 2023-11-15
+last_modified_at: 2023-11-16
 tldri18n_status: 0
 ---
 

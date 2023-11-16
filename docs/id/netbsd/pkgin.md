@@ -3,7 +3,7 @@ layout: page
 title: netbsd/pkgin (Indonesia)
 description: "Atur pemasangan paket `pkgsrc` dalam NetBSD."
 content_hash: 97f239681bc8cab8e2ab3909fa73fe27d275e16c
-last_modified_at: 2023-11-15
+last_modified_at: 2023-11-16
 related_topics:
   - title: English version
     url: /en/netbsd/pkgin.html

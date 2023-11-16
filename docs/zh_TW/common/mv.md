@@ -3,7 +3,7 @@ layout: page
 title: common/mv (中文 (繁體, 台灣))
 description: "移動或重命名文件或目錄。"
 content_hash: 79783edbfd0015824aac77305d60b5162e021b0a
-last_modified_at: 2023-11-15
+last_modified_at: 2023-11-16
 related_topics:
   - title: Deutsch version
     url: /de/common/mv.html

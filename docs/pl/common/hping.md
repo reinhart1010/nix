@@ -3,7 +3,7 @@ layout: page
 title: common/hping (polski)
 description: "To polecenie jest aliasem `hping3`."
 content_hash: 141becaddbe340564a243efb135d96098e460259
-last_modified_at: 2023-11-15
+last_modified_at: 2023-11-16
 related_topics:
   - title: English version
     url: /en/common/hping.html

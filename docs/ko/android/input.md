@@ -3,7 +3,7 @@ layout: page
 title: android/input (한국어)
 description: "Android 기기에 이벤트 코드 또는 터치스크린 동작 보내기."
 content_hash: 27d9eb2c231c36caba6e548f891aef299312e1c9
-last_modified_at: 2023-11-15
+last_modified_at: 2023-11-16
 related_topics:
   - title: বাংলা version
     url: /bn/android/input.html

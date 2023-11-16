@@ -3,7 +3,7 @@ layout: page
 title: common/pnmtopnm (English)
 description: "This command is an alias of `pamtopnm`."
 content_hash: a1f93dca62b6fa472462bdc96b023fd05ce5cccf
-last_modified_at: 2023-11-15
+last_modified_at: 2023-11-16
 tldri18n_status: 0
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: common/lzless (polski)
 description: "To polecenie jest aliasem `xzless`."
 content_hash: 83abe503eee7c86d96ef55ab0f3a19f4934c9f04
-last_modified_at: 2023-11-15
+last_modified_at: 2023-11-16
 related_topics:
   - title: English version
     url: /en/common/lzless.html

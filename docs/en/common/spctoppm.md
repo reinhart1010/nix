@@ -3,7 +3,7 @@ layout: page
 title: common/spctoppm (English)
 description: "Convert an Atari compressed Spectrum image to a PPM image."
 content_hash: a5c039d818e86d87dda243b137d080118a6fb5c0
-last_modified_at: 2023-11-15
+last_modified_at: 2023-11-16
 tldri18n_status: 0
 ---
 
