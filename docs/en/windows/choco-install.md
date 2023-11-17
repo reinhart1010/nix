@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco-install (English)
 description: "Install one or more packages with Chocolatey."
-content_hash: a4348e0cc77d4dd59e38eba8ed933e72948c70b4
-last_modified_at: 2023-11-12
+content_hash: 4c4000ec5ce635dd11f3cefe8de66f829fcae958
+last_modified_at: 2023-11-17
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-install.html
@@ -41,7 +41,7 @@ More information: <https://chocolatey.org/docs/commands-install>.
 
 `choco install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\packages_file.config</span>
 
-- Install a specific nuspec or nupkg file:
+- Install a specific `nuspec` or `nupkg` file:
 
 `choco install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file</span>
 

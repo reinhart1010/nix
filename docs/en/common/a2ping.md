@@ -2,8 +2,8 @@
 layout: page
 title: common/a2ping (English)
 description: "Convert images into EPS or PDF files."
-content_hash: 0694259dc5300cccf98f251f83782f77c91b6771
-last_modified_at: 2023-11-12
+content_hash: 61da73007a4528e83bad01e6e7e1e3394f8b76c0
+last_modified_at: 2023-11-17
 related_topics:
   - title: বাংলা version
     url: /bn/common/a2ping.html
@@ -40,7 +40,7 @@ More information: <https://manned.org/a2ping>.
 
 `a2ping --below `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Pass extra arguments to `gs:
+- Pass extra arguments to `gs`:
 
 `a2ping --gsextra `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 

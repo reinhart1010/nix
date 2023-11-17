@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/choco-pack (English)
-description: "Package a NuGet specification into a nupkg file."
-content_hash: 1a3d7990b973459d52ca79747fb8b39b893414f4
-last_modified_at: 2023-11-12
+description: "Package a NuGet specification into a `nupkg` file."
+content_hash: b6d7df84bbf7e4d4b282e278b06941054e0ef012
+last_modified_at: 2023-11-17
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-pack.html
@@ -21,10 +21,10 @@ tldri18n_status: 2
 ---
 # choco pack
 
-Package a NuGet specification into a nupkg file.
+Package a NuGet specification into a `nupkg` file.
 More information: <https://chocolatey.org/docs/commands-pack>.
 
-- Package a NuGet specification to a nupkg file:
+- Package a NuGet specification to a `nupkg` file:
 
 `choco pack `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\specification_file</span>
 
