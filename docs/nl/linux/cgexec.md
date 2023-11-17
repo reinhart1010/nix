@@ -3,7 +3,7 @@ layout: page
 title: linux/cgexec (Nederlands)
 description: "Beperk, meet en beheers bronnen die door processen worden gebruikt."
 content_hash: b6a9331ab44a268e768dd21cfdd668c5d5b387ff
-last_modified_at: 2023-11-16
+last_modified_at: 2023-11-17
 related_topics:
   - title: English version
     url: /en/linux/cgexec.html

@@ -3,7 +3,7 @@ layout: page
 title: common/ppmcolormask (English)
 description: "Produce a mask of areas of a certain color in a PPM image."
 content_hash: ce4431534822337a73a594d929b88ec2b4dd6f81
-last_modified_at: 2023-11-16
+last_modified_at: 2023-11-17
 tldri18n_status: 0
 ---
 

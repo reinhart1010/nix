@@ -3,7 +3,7 @@ layout: page
 title: common/pbmmake (English)
 description: "Create a blank bitmap."
 content_hash: 75a795a1dc62c89090588f146148b9b6c6666d99
-last_modified_at: 2023-11-16
+last_modified_at: 2023-11-17
 tldri18n_status: 0
 ---
 

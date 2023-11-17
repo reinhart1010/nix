@@ -3,7 +3,7 @@ layout: page
 title: common/zstdmt (polski)
 description: "To polecenie jest aliasem `zstd --threads 0` (które ustawia liczbę wątków pracy na liczbę fizycznych rdzeni procesora)."
 content_hash: d7d52cfff40c415a341bfa9628c822d04332761e
-last_modified_at: 2023-11-16
+last_modified_at: 2023-11-17
 related_topics:
   - title: English version
     url: /en/common/zstdmt.html

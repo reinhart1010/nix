@@ -3,7 +3,7 @@ layout: page
 title: common/androguard (Nederlands)
 description: "Reverse engineering tool voor Android applicaties, geschreven in Python."
 content_hash: cc7627167172ac1542af99b97d2e7ef7283b1a86
-last_modified_at: 2023-11-16
+last_modified_at: 2023-11-17
 related_topics:
   - title: English version
     url: /en/common/androguard.html

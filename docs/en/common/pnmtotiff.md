@@ -3,7 +3,7 @@ layout: page
 title: common/pnmtotiff (English)
 description: "This command is superseded by `pamtotiff`."
 content_hash: c9b3687c5706814c2baa79eb9fe9326b4c61839a
-last_modified_at: 2023-11-16
+last_modified_at: 2023-11-17
 tldri18n_status: 0
 ---
 

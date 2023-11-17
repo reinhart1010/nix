@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/ac (français)
-description: "Imprime les statistiques sur combien de temps les utilisateurs ont été connectés"
-content_hash: ece11c1e9ae28f5b4b9e0b6973f1bb381db14505
-last_modified_at: 2023-11-16
+description: "Imprime les statistiques sur combien de temps les utilisateurs ont été connectés."
+content_hash: 91d3434f45a22552d7443d88ad1e641fdcafb19a
+last_modified_at: 2023-11-17
 related_topics:
   - title: বাংলা version
     url: /bn/common/ac.html
@@ -42,21 +42,21 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 <hr># ac
 
-Imprime les statistiques sur combien de temps les utilisateurs ont été connectés
-Plus d'information: <https://man.openbsd.org/ac>.
+Imprime les statistiques sur combien de temps les utilisateurs ont été connectés.
+Plus d'informations : <https://man.openbsd.org/ac>.
 
-- Imprime combien de temps l'utilisateur actuel a été connecté en heures:
+- Imprime combien de temps l'utilisateur actuel a été connecté en heures :
 
 `ac`
 
-- Imprime combien de temps les utilisateurs ont été connecté:
+- Imprime combien de temps les utilisateurs ont été connecté :
 
 `ac -p`
 
-- Imprime combien de temps un utilisateur en particulier a été connecté en heures:
+- Imprime combien de temps un utilisateur en particulier a été connecté en heures :
 
 `ac -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_d_utilisateur</span>
 
-- Imprime combien de temps un utilisateur particulier a été connecté en heure par jour (avec le total):
+- Imprime combien de temps un utilisateur particulier a été connecté en heure par jour (avec le total) :
 
 `ac -dp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_d_utilisateur</span>

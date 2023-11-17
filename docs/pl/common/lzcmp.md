@@ -3,7 +3,7 @@ layout: page
 title: common/lzcmp (polski)
 description: "To polecenie jest aliasem `xzcmp`."
 content_hash: 49684e51be7395fb68872ec20573f08b36a5891d
-last_modified_at: 2023-11-16
+last_modified_at: 2023-11-17
 related_topics:
   - title: English version
     url: /en/common/lzcmp.html

@@ -3,7 +3,7 @@ layout: page
 title: common/pamtopam (English)
 description: "Copy a PAM image."
 content_hash: 722905a47df17532c2a0dede9c76d358790be96f
-last_modified_at: 2023-11-16
+last_modified_at: 2023-11-17
 tldri18n_status: 0
 ---
 

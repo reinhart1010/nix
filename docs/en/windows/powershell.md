@@ -3,7 +3,7 @@ layout: page
 title: windows/powershell (English)
 description: "Command-line shell and scripting language designed especially for system administration."
 content_hash: f83694d3ffe8d11c0cf76c04099275166c31265e
-last_modified_at: 2023-11-16
+last_modified_at: 2023-11-17
 tldri18n_status: 0
 ---
 

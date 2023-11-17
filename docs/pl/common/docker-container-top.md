@@ -3,7 +3,7 @@ layout: page
 title: common/docker-container-top (polski)
 description: "To polecenie jest aliasem `docker top`."
 content_hash: 638fbb2c605795a1efe2d0d0fe96f593332bab4f
-last_modified_at: 2023-11-16
+last_modified_at: 2023-11-17
 related_topics:
   - title: English version
     url: /en/common/docker-container-top.html

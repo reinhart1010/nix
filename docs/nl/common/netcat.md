@@ -3,7 +3,7 @@ layout: page
 title: common/netcat (Nederlands)
 description: "Dit commando is een alias van `nc`."
 content_hash: e83bd7ca3061460364e5bf24557003dfe55c894f
-last_modified_at: 2023-11-16
+last_modified_at: 2023-11-17
 related_topics:
   - title: English version
     url: /en/common/netcat.html

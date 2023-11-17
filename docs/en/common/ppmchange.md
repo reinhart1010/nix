@@ -3,7 +3,7 @@ layout: page
 title: common/ppmchange (English)
 description: "Change all pixels of one color in a PPM image to another color."
 content_hash: a8e5f8dec1e41c86985b1c5041a062f578329262
-last_modified_at: 2023-11-16
+last_modified_at: 2023-11-17
 tldri18n_status: 0
 ---
 

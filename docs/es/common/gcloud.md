@@ -3,7 +3,7 @@ layout: page
 title: common/gcloud (español)
 description: "La herramienta CLI oficial de Google Cloud Platform."
 content_hash: cf64c0a079f1682e2f3fc3c0669c12305f64ae52
-last_modified_at: 2023-11-16
+last_modified_at: 2023-11-17
 related_topics:
   - title: dansk version
     url: /da/common/gcloud.html

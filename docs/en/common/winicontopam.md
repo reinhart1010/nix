@@ -3,7 +3,7 @@ layout: page
 title: common/winicontopam (English)
 description: "Convert a Windows ICO file to a PAM file."
 content_hash: aef52e409aeaf5432f5980c6108c825196bdaaed
-last_modified_at: 2023-11-16
+last_modified_at: 2023-11-17
 tldri18n_status: 0
 ---
 

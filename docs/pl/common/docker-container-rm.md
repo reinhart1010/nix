@@ -3,7 +3,7 @@ layout: page
 title: common/docker-container-rm (polski)
 description: "To polecenie jest aliasem `docker rm`."
 content_hash: 9ed517b46fb6b4692864503e05f4f47e3ba4c86b
-last_modified_at: 2023-11-16
+last_modified_at: 2023-11-17
 related_topics:
   - title: English version
     url: /en/common/docker-container-rm.html

@@ -3,7 +3,7 @@ layout: page
 title: linux/ip-route-show (Nederlands)
 description: "Toon subcommando voor IP routeringstabel management."
 content_hash: 18210ff498e4cbf76d226781a28512ba2227dc2f
-last_modified_at: 2023-11-16
+last_modified_at: 2023-11-17
 related_topics:
   - title: English version
     url: /en/linux/ip-route-show.html
