@@ -3,7 +3,7 @@ layout: page
 title: android/screencap (한국어)
 description: "모바일 디스플레이의 스크린샷 찍기."
 content_hash: 390e3ac9be109763fa125a4a218e319d0430da6f
-last_modified_at: 2023-11-17
+last_modified_at: 2023-11-18
 related_topics:
   - title: বাংলা version
     url: /bn/android/screencap.html

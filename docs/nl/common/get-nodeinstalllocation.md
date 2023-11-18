@@ -3,7 +3,7 @@ layout: page
 title: common/get-nodeinstalllocation (Nederlands)
 description: "Haal de huidige Node.js installatiemap voor `ps-nvm` op."
 content_hash: 151dcbd8240b5b219a20ccded4186a13f7ff8afd
-last_modified_at: 2023-11-17
+last_modified_at: 2023-11-18
 related_topics:
   - title: English version
     url: /en/common/get-nodeinstalllocation.html

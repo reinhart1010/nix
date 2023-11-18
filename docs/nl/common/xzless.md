@@ -3,7 +3,7 @@ layout: page
 title: common/xzless (Nederlands)
 description: "Tekst weergeven van `xz` en `lzma` gecomprimeerde bestanden."
 content_hash: 88dd6ca50debb97e50e132c9bebd2a45c2a9c41b
-last_modified_at: 2023-11-17
+last_modified_at: 2023-11-18
 related_topics:
   - title: English version
     url: /en/common/xzless.html

@@ -3,7 +3,7 @@ layout: page
 title: linux/speedread (English)
 description: "A simple terminal-based open source Spritz-alike."
 content_hash: 35f66821c76d28093695e611409c47f2abf6f8fb
-last_modified_at: 2023-11-17
+last_modified_at: 2023-11-18
 tldri18n_status: 0
 ---
 

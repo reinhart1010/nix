@@ -3,7 +3,7 @@ layout: page
 title: common/ximtoppm (English)
 description: "Convert a XIM file to a PPM image."
 content_hash: 4f8f9fc8e17f2be4a2467e605cfe9536fe3ab24b
-last_modified_at: 2023-11-17
+last_modified_at: 2023-11-18
 tldri18n_status: 0
 ---
 

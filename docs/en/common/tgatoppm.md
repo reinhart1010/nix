@@ -3,7 +3,7 @@ layout: page
 title: common/tgatoppm (English)
 description: "Convert a TrueVision Targa file to a Netpbm image."
 content_hash: b95db6462ec98c2770dc8e8a68eddb9f50a44c9c
-last_modified_at: 2023-11-17
+last_modified_at: 2023-11-18
 tldri18n_status: 0
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: linux/ip6tables-save (Nederlands)
 description: "Dit commando is een alias van `iptables-save`."
 content_hash: 08b5e4705b19d616a57d58d25aa495b5e67b0280
-last_modified_at: 2023-11-17
+last_modified_at: 2023-11-18
 related_topics:
   - title: English version
     url: /en/linux/ip6tables-save.html

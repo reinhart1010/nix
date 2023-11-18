@@ -3,7 +3,7 @@ layout: page
 title: common/gcc (Nederlands)
 description: "Preprocess en compileer C en C++ bronbestanden, monteer en koppel ze vervolgens samen."
 content_hash: 476b787cfaf79ac9badf07a881748f11d34d05b2
-last_modified_at: 2023-11-17
+last_modified_at: 2023-11-18
 related_topics:
   - title: Deutsch version
     url: /de/common/gcc.html

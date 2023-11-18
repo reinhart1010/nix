@@ -3,7 +3,7 @@ layout: page
 title: common/sputoppm (English)
 description: "Convert an Atari uncompressed Spectrum image to a PPM image."
 content_hash: c26d74d7cc62b480560ce320af16ab288275c726
-last_modified_at: 2023-11-17
+last_modified_at: 2023-11-18
 tldri18n_status: 0
 ---
 

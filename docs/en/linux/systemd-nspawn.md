@@ -3,7 +3,7 @@ layout: page
 title: linux/systemd-nspawn (English)
 description: "Spawn a command or OS in a lightweight container."
 content_hash: 7b81a3381e54272195eeb7c0083cdddfb6bbb3f4
-last_modified_at: 2023-11-17
+last_modified_at: 2023-11-18
 tldri18n_status: 0
 ---
 

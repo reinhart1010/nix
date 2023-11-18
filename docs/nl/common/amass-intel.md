@@ -3,7 +3,7 @@ layout: page
 title: common/amass-intel (Nederlands)
 description: "Verzamel open source informatie over een organisatie, zoals hoofddomeinen en ASN's."
 content_hash: ff2bfda6106f16661efa125eb2b2a02d88c1be14
-last_modified_at: 2023-11-17
+last_modified_at: 2023-11-18
 related_topics:
   - title: English version
     url: /en/common/amass-intel.html

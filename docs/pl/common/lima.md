@@ -3,7 +3,7 @@ layout: page
 title: common/lima (polski)
 description: "To polecenie jest aliasem `limactl shell` dla domyślnej instancji maszyny wirtualnej."
 content_hash: 7b9d73f759413b31eb375b621cfda11bfe091f82
-last_modified_at: 2023-11-17
+last_modified_at: 2023-11-18
 related_topics:
   - title: English version
     url: /en/common/lima.html
