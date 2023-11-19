@@ -3,7 +3,7 @@ layout: page
 title: common/btop (español)
 description: "Un monitor de recursos que muestra información sobra la CPU, memoria, discos, red y procesos."
 content_hash: f2c263dd7c1baf81d18618a72af1a4753c795b96
-last_modified_at: 2023-11-18
+last_modified_at: 2023-11-19
 related_topics:
   - title: English version
     url: /en/common/btop.html

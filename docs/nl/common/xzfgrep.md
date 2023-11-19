@@ -3,7 +3,7 @@ layout: page
 title: common/xzfgrep (Nederlands)
 description: "Dit commando is een alias van `xzgrep`."
 content_hash: 49e2f03af1bd0831e9e4c2e2dd7d2dcd53ffb157
-last_modified_at: 2023-11-18
+last_modified_at: 2023-11-19
 related_topics:
   - title: English version
     url: /en/common/xzfgrep.html

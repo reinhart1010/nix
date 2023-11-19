@@ -3,7 +3,7 @@ layout: page
 title: openbsd/pkg_info (Indonesia)
 description: "Lihat dokumentasi mengenai paket yang tersedia baik dalam repositori atau pemasangan OpenBSD."
 content_hash: 830a8fd6eaafa9c779be6f3b4a13ee06fd0f4c2b
-last_modified_at: 2023-11-18
+last_modified_at: 2023-11-19
 related_topics:
   - title: English version
     url: /en/openbsd/pkg_info.html

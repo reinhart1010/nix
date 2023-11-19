@@ -3,7 +3,7 @@ layout: page
 title: common/zstd (Nederlands)
 description: "Bestanden comprimeren of decomprimeren met Zstandard compressie."
 content_hash: e7a2795b0c2165d97ccd4214d15741392767de98
-last_modified_at: 2023-11-18
+last_modified_at: 2023-11-19
 related_topics:
   - title: English version
     url: /en/common/zstd.html

@@ -3,7 +3,7 @@ layout: page
 title: linux/rcp (English)
 description: "Copy files between local and remote systems."
 content_hash: 3db1f85b25953f478ab5226928d4e11a95a5005f
-last_modified_at: 2023-11-18
+last_modified_at: 2023-11-19
 tldri18n_status: 0
 ---
 

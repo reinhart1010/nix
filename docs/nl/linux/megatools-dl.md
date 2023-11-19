@@ -3,7 +3,7 @@ layout: page
 title: linux/megatools-dl (Nederlands)
 description: "Download bestanden van `mega.nz`."
 content_hash: be3681c50bda28b84ede7c44f3faa8d95bbe2e98
-last_modified_at: 2023-11-18
+last_modified_at: 2023-11-19
 related_topics:
   - title: English version
     url: /en/linux/megatools-dl.html

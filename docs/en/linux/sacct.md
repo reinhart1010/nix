@@ -2,8 +2,8 @@
 layout: page
 title: linux/sacct (English)
 description: "Display accounting data from the Slurm service."
-content_hash: c5590ebfdf00136d3726b6afeb7b58eaf61c66df
-last_modified_at: 2023-11-12
+content_hash: 1533f876de80840237e3fa3361e1ae4d163cb54a
+last_modified_at: 2023-11-19
 tldri18n_status: 2
 ---
 # sacct
@@ -25,4 +25,12 @@ More information: <https://slurm.schedmd.com/sacct.html>.
 
 - Display elapsed time, job name, number of requested CPUs, and memory requested of a job:
 
-`sacct --jobs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_id</span>` --format=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">elapsed</span>`,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jobname</span>`,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">reqcpus</span>`,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">reqmem</span>
+`sacct --jobs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_id</span>` --format=Elapsed,JobName,ReqCPUS,ReqMem`
+
+- Display recent jobs that occurred from one week ago up to the present day:
+
+`sacct --starttime=$(date -d "1 week ago" +'%F')`
+
+- Output a larger number of characters for an attribute:
+
+`sacct --format=JobID,JobName%100`

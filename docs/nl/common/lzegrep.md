@@ -3,7 +3,7 @@ layout: page
 title: common/lzegrep (Nederlands)
 description: "Dit commando is een alias van `xzgrep`."
 content_hash: 55d3e6a3f8acb40787c6058c0182b94b22507a14
-last_modified_at: 2023-11-18
+last_modified_at: 2023-11-19
 related_topics:
   - title: English version
     url: /en/common/lzegrep.html

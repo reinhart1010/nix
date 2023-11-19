@@ -3,7 +3,7 @@ layout: page
 title: osx/plutil (español)
 description: "Ve, convierte, valida o edita archivos de listas de propiedades (\"plist\")."
 content_hash: bf5ea102de2a506aa5c44fb428ca39537ef92932
-last_modified_at: 2023-11-18
+last_modified_at: 2023-11-19
 related_topics:
   - title: English version
     url: /en/osx/plutil.html

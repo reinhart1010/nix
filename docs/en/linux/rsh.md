@@ -3,7 +3,7 @@ layout: page
 title: linux/rsh (English)
 description: "Execute commands on a remote host."
 content_hash: 5e7b1348ade94e280f1cc1469254e985a14224d7
-last_modified_at: 2023-11-18
+last_modified_at: 2023-11-19
 tldri18n_status: 0
 ---
 

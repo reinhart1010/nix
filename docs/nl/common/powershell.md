@@ -3,7 +3,7 @@ layout: page
 title: common/powershell (Nederlands)
 description: "Dit commando kan verward worden met de cross-platform versie van PowerShell (vroeger bekend als PowerShell Core), welke gebruik maakt van `pwsh` in plaats van `powershell`."
 content_hash: bec97ef478352b7a9d92138b74900a02b5051c90
-last_modified_at: 2023-11-18
+last_modified_at: 2023-11-19
 related_topics:
   - title: English version
     url: /en/common/powershell.html

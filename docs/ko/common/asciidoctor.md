@@ -3,7 +3,7 @@ layout: page
 title: common/asciidoctor (한국어)
 description: "AsciiDoc 파일을 게시 가능한 형식으로 변환하는 프로세서."
 content_hash: 40ba6fe44c1735952b8423f8d8b340197f0eff97
-last_modified_at: 2023-11-18
+last_modified_at: 2023-11-19
 related_topics:
   - title: English version
     url: /en/common/asciidoctor.html

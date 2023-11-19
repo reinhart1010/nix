@@ -3,7 +3,7 @@ layout: page
 title: common/lzmore (polski)
 description: "To polecenie jest aliasem `xzmore`."
 content_hash: b26df677e1a5f6fcdf43d9960546c582204f440d
-last_modified_at: 2023-11-18
+last_modified_at: 2023-11-19
 related_topics:
   - title: English version
     url: /en/common/lzmore.html

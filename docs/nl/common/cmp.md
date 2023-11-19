@@ -3,7 +3,7 @@ layout: page
 title: common/cmp (Nederlands)
 description: "Vergelijk twee bestanden byte voor byte."
 content_hash: b31d325203a771387fb9fc1bb21fa53c1ee1396b
-last_modified_at: 2023-11-18
+last_modified_at: 2023-11-19
 related_topics:
   - title: English version
     url: /en/common/cmp.html

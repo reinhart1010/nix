@@ -3,7 +3,7 @@ layout: page
 title: common/pgmtosbig (English)
 description: "Convert a PGM image to the SBIG CCDOPS format."
 content_hash: 5dcf8e4917f87ddb0ed3a1026f3f5048ac749a50
-last_modified_at: 2023-11-18
+last_modified_at: 2023-11-19
 tldri18n_status: 0
 ---
 
