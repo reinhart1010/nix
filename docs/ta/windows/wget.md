@@ -2,8 +2,8 @@
 layout: page
 title: windows/wget (தமிழ்)
 description: "PowerShell இல், அசல் `wget` நிரல் (<https://www.gnu.org/software/wget>) சரியாக நிறுவப்படாதபோது இந்தக் கட்டளை `Invoke-WebRequest` என்பதன் மாற்றுப்பெயராக இருக்கலாம்."
-content_hash: e089e0d361088ddbc4fea5143a0a2c139e6364c8
-last_modified_at: 2023-11-14
+content_hash: 3e5cdf82597894b60706fc64f87051b1bbdae639
+last_modified_at: 2023-11-19
 related_topics:
   - title: العربية version
     url: /ar/windows/wget.html
@@ -103,10 +103,6 @@ PowerShell இல், அசல் `wget` நிரல் (<https://www.gnu.org/
 - அசல் `wget` கட்டளைக்கான ஆவணங்களைக் காண்க:
 
 `tldr wget -p common`
-
-- `tldr` கட்டளை வரி கிளையண்டின் பழைய பதிப்புகளில் அசல் `wget` கட்டளைக்கான ஆவணங்களைக் காண்க:
-
-`tldr wget -o common`
 
 - PowerShell இன் `Invoke-WebRequest` கட்டளைக்கான ஆவணங்களைக் காண்க:
 

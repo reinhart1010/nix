@@ -2,8 +2,8 @@
 layout: page
 title: windows/curl (বাংলা)
 description: "পাওয়ারশেলে, এই কমান্ডটি অরিজিনাল `curl` প্রোগ্রাম (<https://curl.se>) সঠিকভাবে ইনস্টল না থাকলে এটি `Invoke-WebRequest` এর এলিয়াস হতে পারে।"
-content_hash: c125bea8866f083f626085ede669b57d491c6b99
-last_modified_at: 2023-11-12
+content_hash: 6eeae8276c34edcb6a457fdab548bfa13ea3de3e
+last_modified_at: 2023-11-19
 related_topics:
   - title: العربية version
     url: /ar/windows/curl.html
@@ -106,10 +106,6 @@ tldri18n_status: 2
 - মৌলিক `curl` কমান্ডের জন্য নথি:
 
 `tldr curl -p common`
-
-- `tldr` কমান্ড-লাইন ক্লায়েন্টের পুরোনো সংস্করণের জন্য `curl` কমান্ডের জন্য নথি:
-
-`tldr curl -o common`
 
 - পাওয়ারশেলের `Invoke-WebRequest` কমান্ডের জন্য নথি:
 

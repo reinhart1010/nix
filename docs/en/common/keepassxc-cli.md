@@ -2,8 +2,8 @@
 layout: page
 title: common/keepassxc-cli (English)
 description: "Command-line interface for KeepassXC."
-content_hash: 9fd17b4513a419840ab057e156ce92e213738f15
-last_modified_at: 2023-11-12
+content_hash: 57c415c6666b5a40ad4938a65549888fd691cf07
+last_modified_at: 2023-11-19
 tldri18n_status: 2
 ---
 # keepassxc-cli
@@ -13,7 +13,7 @@ More information: <https://manned.org/keepassxc-cli>.
 
 - Search entries:
 
-`keepassxc-cli lookup `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/database_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>
+`keepassxc-cli search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/database_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>
 
 - List the contents of a folder:
 

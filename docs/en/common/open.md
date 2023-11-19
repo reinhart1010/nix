@@ -2,8 +2,8 @@
 layout: page
 title: common/open (English)
 description: "`open` can refer to multiple commands with the same name."
-content_hash: b0ae9b5597eda876530ba7cef686a3fd622aa844
-last_modified_at: 2023-11-12
+content_hash: 494c8cafede627f7438e0f136cde2ed203ccbb0f
+last_modified_at: 2023-11-19
 related_topics:
   - title: Indonesia version
     url: /id/common/open.html
@@ -20,10 +20,6 @@ tldri18n_status: 2
 - View documentation for the command available in macOS:
 
 `tldr open -p osx`
-
-- View documentation for the macOS command in older versions of `tldr` command-line client:
-
-`tldr open -o osx`
 
 - View documentation for the command available through `fish`:
 

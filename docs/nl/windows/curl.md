@@ -2,8 +2,8 @@
 layout: page
 title: windows/curl (Nederlands)
 description: "In PowerShell kan dit commando een alias zijn van `Invoke-WebRequest` als het originele `curl` programma (<https://curl.se/>) niet correct is geïnstalleerd."
-content_hash: a3ba92b53390511c00e196e4f2c14a013d690423
-last_modified_at: 2023-11-12
+content_hash: 3a00ccd21062ce5997badec5ebdfce414cb44c4e
+last_modified_at: 2023-11-19
 related_topics:
   - title: العربية version
     url: /ar/windows/curl.html
@@ -106,10 +106,6 @@ Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powers
 - Bekijk de documentatie van het originele `curl` commando:
 
 `tldr curl -p common`
-
-- Bekijk de documentatie van het originele `curl` commando in een oudere versie van de `tldr` command-line client:
-
-`tldr curl -o common`
 
 - Bekijk de documentatie van het PowerShell's `Invoke-WebRequest` commando:
 

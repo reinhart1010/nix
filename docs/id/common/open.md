@@ -2,8 +2,8 @@
 layout: page
 title: common/open (Indonesia)
 description: "`open` dapat merujuk ke beberapa perintah dengan nama yang sama."
-content_hash: 61ee3442e1b5918458535ff114a4e84ea352ea4a
-last_modified_at: 2023-11-12
+content_hash: f6e0757eb1513c21c52b36ec63b0f559e3ccd065
+last_modified_at: 2023-11-19
 related_topics:
   - title: English version
     url: /en/common/open.html
@@ -20,10 +20,6 @@ tldri18n_status: 2
 - Lihat dokumentasi perintah `open` yang disediakan dalam macOS:
 
 `tldr open -p osx`
-
-- Lihat dokumentasi perintah macOS dalam klien command-line `tldr` versi lawas:
-
-`tldr open -o osx`
 
 - Lihat dokumentasi perintah `open` yang disediakan dalam `fish`:
 

@@ -2,8 +2,8 @@
 layout: page
 title: windows/wget (English)
 description: "In PowerShell, this command may be an alias of `Invoke-WebRequest` when the original `wget` program (<https://www.gnu.org/software/wget>) is not properly installed."
-content_hash: 2d654e4f1982200ff6f9438286a510f9a2e60d61
-last_modified_at: 2023-11-12
+content_hash: 1df8f15ea347d401b71b5b2a34afc33bf2fd0d03
+last_modified_at: 2023-11-19
 related_topics:
   - title: العربية version
     url: /ar/windows/wget.html
@@ -103,10 +103,6 @@ More information: <https://learn.microsoft.com/powershell/module/microsoft.power
 - View documentation for the original `wget` command:
 
 `tldr wget -p common`
-
-- View documentation for the original `wget` command in older versions of `tldr` command-line client:
-
-`tldr wget -o common`
 
 - View documentation for PowerShell's `Invoke-WebRequest` command:
 

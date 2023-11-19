@@ -2,8 +2,8 @@
 layout: page
 title: windows/curl (Indonesia)
 description: "Perintah ini dapat merupakan alias dari `Invoke-WebRequest` jika program `curl` (<https://curl.se>) tidak terpasang secara benar di PowerShell."
-content_hash: 892b155fdd2380eff80d63e9943163c0db70b763
-last_modified_at: 2023-11-12
+content_hash: bc5465c073dded7d2b6bbf4e3c0eb505910c7431
+last_modified_at: 2023-11-19
 related_topics:
   - title: العربية version
     url: /ar/windows/curl.html
@@ -106,10 +106,6 @@ Informasi lebih lanjut: <https://learn.microsoft.com/powershell/module/microsoft
 - Tampilkan dokumentasi untuk perintah `curl` yang asli:
 
 `tldr curl -p common`
-
-- Tampilkan dokumentasi untuk perintah `curl` yang asli dalam program `tldr` versi lawas:
-
-`tldr curl -o common`
 
 - Tampilkan dokumentasi untuk perintah `Invoke-WebRequest`:
 
