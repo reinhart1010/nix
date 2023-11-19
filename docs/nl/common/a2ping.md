@@ -2,8 +2,8 @@
 layout: page
 title: common/a2ping (Nederlands)
 description: "Converteer afbeeldingen in EPS- of PDF-bestanden."
-content_hash: 43f39682c8e840981be91472307977d25d20ed3f
-last_modified_at: 2023-11-12
+content_hash: 21be9680b85b6e24e20944617dd68c966018994c
+last_modified_at: 2023-11-19
 related_topics:
   - title: বাংলা version
     url: /bn/common/a2ping.html
@@ -44,7 +44,7 @@ Meer informatie: <https://manned.org/a2ping>.
 
 `a2ping --gsextra `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
 
-- Breng extra argumenten door aan het externe programma (bijv. pdftops):
+- Geef extra argumenten mee aan het externe programma (bijv. `pdftops`):
 
 `a2ping --extra `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
 

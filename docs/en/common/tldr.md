@@ -2,8 +2,8 @@
 layout: page
 title: common/tldr (English)
 description: "Display simple help pages for command-line tools from the tldr-pages project."
-content_hash: 277fc911d35cb6f823775dadf195e97e576bc256
-last_modified_at: 2023-11-12
+content_hash: 0cd2a63f573aa033384ea3477c918421004f9d33
+last_modified_at: 2023-11-19
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
@@ -55,7 +55,8 @@ tldri18n_status: 2
 # tldr
 
 Display simple help pages for command-line tools from the tldr-pages project.
-More information: <https://tldr.sh>.
+Note: the `--language` and `--list` options are not required by the client specification, but most clients implement them.
+More information: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
 - Print the tldr page for a specific command (hint: this is how you got here!):
 
@@ -63,12 +64,20 @@ More information: <https://tldr.sh>.
 
 - Print the tldr page for a specific subcommand:
 
-`tldr `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>`-`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
+`tldr `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
 
-- Print the tldr page for a command for a specific [p]latform:
+- Print the tldr page for a command in the given [L]anguage (if available, otherwise fall back to English):
 
-`tldr -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android|linux|osx|sunos|windows</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
+`tldr --language `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">language_code</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
+
+- Print the tldr page for a command from a specific [p]latform:
+
+`tldr --platform `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
 - [u]pdate the local cache of tldr pages:
 
-`tldr -u`
+`tldr --update`
+
+- List all pages for the current platform and `common`:
+
+`tldr --list`

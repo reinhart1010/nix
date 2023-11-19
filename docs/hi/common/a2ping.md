@@ -2,8 +2,8 @@
 layout: page
 title: common/a2ping (हिन्दी)
 description: "छवियों को EPS या PDF फाइलों में परिवर्तित करें।"
-content_hash: 42e4e705ead17fa4ddad264ff2862f543a84c03b
-last_modified_at: 2023-11-12
+content_hash: a3676ee459449d8080f2cc7f0a8f72702bd33b85
+last_modified_at: 2023-11-19
 related_topics:
   - title: বাংলা version
     url: /bn/common/a2ping.html
@@ -44,7 +44,7 @@ tldri18n_status: 2
 
 `a2ping --gsextra `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">तर्क</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल/का/पथ</span>
 
-- बाहरी प्रोग्राम में अतिरिक्त तर्क पास करें (यानी pdftops):
+- बाहरी प्रोग्राम में अतिरिक्त तर्क पास करें (यानी `pdftops`):
 
 `a2ping --extra `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">तर्क</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल/का/पथ</span>
 

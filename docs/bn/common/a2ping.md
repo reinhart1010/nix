@@ -2,8 +2,8 @@
 layout: page
 title: common/a2ping (বাংলা)
 description: "চিত্রগুলি কে EPS বা PDF ফাইলে রূপান্তর করুন।"
-content_hash: 2304eb134797235fde5dbc4d6dac7395142cbcbf
-last_modified_at: 2023-11-12
+content_hash: 18af7125a4b1e521062e408c77d7ed08e8921734
+last_modified_at: 2023-11-19
 related_topics:
   - title: English version
     url: /en/common/a2ping.html
@@ -44,7 +44,7 @@ tldri18n_status: 2
 
 `a2ping --gsextra `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">আর্গুমেন্ট</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ফাইল/এর/পথ</span>
 
-- বাহ্যিক প্রোগ্রামে অতিরিক্ত আর্গুমেন্ট পাস করুন (যেমন pdftops):
+- বাহ্যিক প্রোগ্রামে অতিরিক্ত আর্গুমেন্ট পাস করুন (যেমন `pdftops`):
 
 `a2ping --extra `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">আর্গুমেন্ট</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ফাইল/এর/পথ</span>
 

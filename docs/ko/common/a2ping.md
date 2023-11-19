@@ -2,8 +2,8 @@
 layout: page
 title: common/a2ping (한국어)
 description: "이미지를 EPS 또는 PDF 파일로 변환."
-content_hash: fad3d74b40f558eba90c312b8f1dacf30500a1c3
-last_modified_at: 2023-11-12
+content_hash: 718d81b2e4c78dffaf0adcdf4041f35d662076f6
+last_modified_at: 2023-11-19
 related_topics:
   - title: বাংলা version
     url: /bn/common/a2ping.html
@@ -44,7 +44,7 @@ tldri18n_status: 2
 
 `a2ping --gsextra `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인수</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span>
 
-- 외부 프로그램 (예, pdftops)에 추가 인수 전달:
+- 외부 프로그램 (예, `pdftops`)에 추가 인수 전달:
 
 `a2ping --extra `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">인수</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/파일</span>
 
