@@ -3,7 +3,7 @@ layout: page
 title: android/pm (한국어)
 description: "Android 기기의 앱에 대한 정보 표시."
 content_hash: e2be6731a7951b4c9d95297be999b3771bece6b4
-last_modified_at: 2023-11-19
+last_modified_at: 2023-11-20
 related_topics:
   - title: বাংলা version
     url: /bn/android/pm.html

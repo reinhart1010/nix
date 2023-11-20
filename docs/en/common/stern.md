@@ -2,14 +2,14 @@
 layout: page
 title: common/stern (English)
 description: "Tail multiple pods and containers from Kubernetes."
-content_hash: bda6c23c23edff1a699a0d3e3bd0be478592a76c
-last_modified_at: 2023-11-12
+content_hash: 916e3adb1d401504c86d1f10031485f3c0a89fa3
+last_modified_at: 2023-11-20
 tldri18n_status: 2
 ---
 # stern
 
 Tail multiple pods and containers from Kubernetes.
-More information: <https://github.com/wercker/stern/>.
+More information: <https://github.com/stern/stern>.
 
 - Tail all pods within a current namespace:
 

@@ -3,7 +3,7 @@ layout: page
 title: common/hping3 (Nederlands)
 description: "Geavanceerd pinghulpprogramma dat protocollen ondersteunt zoals TCP, UDP en IP."
 content_hash: dbe0d6df59e46c915b7513f3137c7bcdfa0f909e
-last_modified_at: 2023-11-19
+last_modified_at: 2023-11-20
 related_topics:
   - title: English version
     url: /en/common/hping3.html

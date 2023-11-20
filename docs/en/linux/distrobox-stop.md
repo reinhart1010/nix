@@ -2,8 +2,8 @@
 layout: page
 title: linux/distrobox-stop (English)
 description: "Stop a distrobox container."
-content_hash: ef152fcc39368d645c8adebf2671870c1a2974d4
-last_modified_at: 2023-11-12
+content_hash: b010478f4d9ddd809c4cb62b02ee8a5ba4aff021
+last_modified_at: 2023-11-20
 related_topics:
   - title: Nederlands version
     url: /nl/linux/distrobox-stop.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 Stop a distrobox container.
 Subcommand of `distrobox`. See also: `tldr distrobox`.
-More information: <https://distrobox.privatedns.org/usage/distrobox-stop.html>.
+More information: <https://distrobox.it/usage/distrobox-stop>.
 
 - Stop a distrobox container:
 

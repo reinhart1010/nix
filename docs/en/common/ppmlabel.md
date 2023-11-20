@@ -3,7 +3,7 @@ layout: page
 title: common/ppmlabel (English)
 description: "Add text to a PPM image."
 content_hash: ffdbee761ecf98db551cd08ed3566d14cc058539
-last_modified_at: 2023-11-19
+last_modified_at: 2023-11-20
 tldri18n_status: 0
 ---
 

@@ -2,14 +2,14 @@
 layout: page
 title: linux/pro (English)
 description: "Manage Ubuntu Pro services."
-content_hash: 0db2c5a7164a4d6b35a5f6b600a2e9ef8936e6eb
-last_modified_at: 2023-11-12
+content_hash: bb7b5028a6f38abfa8c4242aa3f171216535d78a
+last_modified_at: 2023-11-20
 tldri18n_status: 2
 ---
 # pro
 
 Manage Ubuntu Pro services.
-More information: <https://manpages.ubuntu.com/manpages/latest/en/man1/ubuntu-advantage.1.html>.
+More information: <https://manpages.ubuntu.com/manpages/latest/man1/ubuntu-advantage.1.html>.
 
 - Connect your system to the Ubuntu Pro support contract:
 

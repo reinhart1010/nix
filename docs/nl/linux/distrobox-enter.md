@@ -2,8 +2,8 @@
 layout: page
 title: linux/distrobox-enter (Nederlands)
 description: "Betreed een distrobox container."
-content_hash: c17ece8ab58d908d1cfcf230858e2a01397d9f79
-last_modified_at: 2023-11-12
+content_hash: cb8019c75efa1a6756a0dbb735bccad57228e12a
+last_modified_at: 2023-11-20
 related_topics:
   - title: English version
     url: /en/linux/distrobox-enter.html
@@ -21,7 +21,7 @@ tldri18n_status: 2
 Betreed een distrobox container.
 Subcommando van `distrobox`. Bekijk ook: `tldr distrobox`.
 Standaard commando dat wordt uitgevoerd is je SHELL, maar je kan verschillende shells of hele commando's specificeren. Indien gebruikt in een script/applicatie/service, kunt u de `--headless`-modus gebruiken om de tty en interactiviteit uit te schakelen.
-Meer informatie: <https://distrobox.privatedns.org/usage/distrobox-enter.html>.
+Meer informatie: <https://distrobox.it/usage/distrobox-enter>.
 
 - Betreed een distrobox container:
 

@@ -3,7 +3,7 @@ layout: page
 title: common/docker-container-rename (Nederlands)
 description: "Dit commando is een alias van `docker rename`."
 content_hash: 5fafaf3b984dc4fe140a50ebc3d39c3531de1ba9
-last_modified_at: 2023-11-19
+last_modified_at: 2023-11-20
 related_topics:
   - title: English version
     url: /en/common/docker-container-rename.html

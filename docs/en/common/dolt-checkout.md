@@ -2,14 +2,14 @@
 layout: page
 title: common/dolt-checkout (English)
 description: "Checkout the work tree or tables to a specific branch or commit."
-content_hash: b46349e04270dabf0c8350a941455812525c059d
-last_modified_at: 2023-11-12
+content_hash: 2e2ce0fa93e361d40a003c8fee439a4a79eef41e
+last_modified_at: 2023-11-20
 tldri18n_status: 2
 ---
 # dolt checkout
 
 Checkout the work tree or tables to a specific branch or commit.
-More information: <https://github.com/dolthub/dolt>.
+More information: <https://docs.dolthub.com/cli-reference/cli#dolt-checkout>.
 
 - Switch to a branch:
 

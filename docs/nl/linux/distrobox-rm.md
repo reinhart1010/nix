@@ -2,8 +2,8 @@
 layout: page
 title: linux/distrobox-rm (Nederlands)
 description: "Verwijder een distrobox container."
-content_hash: 32a4386df43c9bf649029308f0be1ad88f475b65
-last_modified_at: 2023-11-12
+content_hash: 6f39b60bbdbe6cf5496f519123f7d041327e4e08
+last_modified_at: 2023-11-20
 related_topics:
   - title: English version
     url: /en/linux/distrobox-rm.html
@@ -20,7 +20,7 @@ tldri18n_status: 2
 
 Verwijder een distrobox container.
 Subcommando van `distrobox`. Bekijk ook: `tldr distrobox`.
-Meer informatie: <https://distrobox.privatedns.org/usage/distrobox-rm.html>.
+Meer informatie: <https://distrobox.it/usage/distrobox-rm>.
 
 - Verwijder een distrobox container (Tip: Stop the container voordat je hem verwijdert):
 

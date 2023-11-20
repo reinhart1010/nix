@@ -2,8 +2,8 @@
 layout: page
 title: linux/distrobox-export (português (Brasil))
 description: "Exportar um aplicativo/serviço/binário do contêiner para o sistema operacional host."
-content_hash: 627e0db80764a43bd4e012bfa32d4a9d8bc525d6
-last_modified_at: 2023-11-12
+content_hash: b2a6f300334f29947f8f34a84db051e988d01b70
+last_modified_at: 2023-11-20
 related_topics:
   - title: English version
     url: /en/linux/distrobox-export.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 Exportar um aplicativo/serviço/binário do contêiner para o sistema operacional host.
 Subcomando de `distrobox`. Veja também: `tldr distrobox`.
-Mais informações: <https://distrobox.privatedns.org/usage/distrobox-export.html>.
+Mais informações: <https://distrobox.it/usage/distrobox-export>.
 
 - Exportar um aplicativo do contêiner para o host (a entrada e o ícone do aplicativo aparecerão na lista de aplicativos do seu sistema host):
 

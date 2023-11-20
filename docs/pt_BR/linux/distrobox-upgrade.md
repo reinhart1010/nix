@@ -2,8 +2,8 @@
 layout: page
 title: linux/distrobox-upgrade (português (Brasil))
 description: "Atualizar um ou vários contêineres distrobox."
-content_hash: ee9ff830dd07cda2a512665c334a0ade61742718
-last_modified_at: 2023-11-12
+content_hash: f36ca87dd491a3fb18967de5cf2024ea6bef3ab6
+last_modified_at: 2023-11-20
 related_topics:
   - title: English version
     url: /en/linux/distrobox-upgrade.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 Atualizar um ou vários contêineres distrobox.
 Subcomando de `distrobox`. Veja também: `tldr distrobox`.
-Mais informações: <https://distrobox.privatedns.org/usage/distrobox-upgrade.html>.
+Mais informações: <https://distrobox.it/usage/distrobox-upgrade>.
 
 - Atualizar um contêiner usando o gerenciador de pacotes nativo do contêiner:
 

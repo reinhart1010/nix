@@ -2,14 +2,14 @@
 layout: page
 title: linux/burpsuite (English)
 description: "A GUI based application mainly used in web application penetration testing."
-content_hash: 35d24d9527633b105125919b557669c8ccca91c3
-last_modified_at: 2023-11-12
+content_hash: 1696925cee52bde23cbcc3e3bf86e72b5d841a30
+last_modified_at: 2023-11-20
 tldri18n_status: 2
 ---
 # burpsuite
 
 A GUI based application mainly used in web application penetration testing.
-More information: <https://portswigger.net/burp/documentation/desktop/getting-started/launch-from-command-line>.
+More information: <https://portswigger.net/burp/documentation/desktop/troubleshooting/launch-from-command-line>.
 
 - Start Burp Suite:
 

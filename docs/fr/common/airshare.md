@@ -3,7 +3,7 @@ layout: page
 title: common/airshare (français)
 description: "Transférer des données entre deux machines dans un réseau local."
 content_hash: 21de47d19c6eb3ff980f2ec12e1e145cf0f381f9
-last_modified_at: 2023-11-19
+last_modified_at: 2023-11-20
 related_topics:
   - title: English version
     url: /en/common/airshare.html

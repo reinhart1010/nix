@@ -3,7 +3,7 @@ layout: page
 title: common/pwsh (Nederlands)
 description: "Command-line shell en scripting taal specifiek ontworpen voor systeemadministratie."
 content_hash: 0635706eeaa9d2f823d8f918a0120a9571ed4bbd
-last_modified_at: 2023-11-19
+last_modified_at: 2023-11-20
 related_topics:
   - title: English version
     url: /en/common/pwsh.html

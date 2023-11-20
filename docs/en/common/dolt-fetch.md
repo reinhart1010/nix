@@ -2,14 +2,14 @@
 layout: page
 title: common/dolt-fetch (English)
 description: "Download objects and refs from another repository."
-content_hash: b9ed80238af8a0d46a68e2ea6c98b3c342b2ef1e
-last_modified_at: 2023-11-12
+content_hash: fdb365777e787eb4fbd4b8999f775e115aa329ff
+last_modified_at: 2023-11-20
 tldri18n_status: 2
 ---
 # dolt fetch
 
 Download objects and refs from another repository.
-More information: <https://github.com/dolthub/dolt>.
+More information: <https://docs.dolthub.com/cli-reference/cli#dolt-fetch>.
 
 - Fetch the latest changes from the default remote upstream repository (origin):
 

@@ -3,7 +3,7 @@ layout: page
 title: android/getprop (한국어)
 description: "Android 시스템 속성에 대한 정보 보여주기."
 content_hash: 6fd6240b8d662f9832695070e2bcdbd5986b62b2
-last_modified_at: 2023-11-19
+last_modified_at: 2023-11-20
 related_topics:
   - title: বাংলা version
     url: /bn/android/getprop.html

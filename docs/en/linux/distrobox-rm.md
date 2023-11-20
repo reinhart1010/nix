@@ -2,8 +2,8 @@
 layout: page
 title: linux/distrobox-rm (English)
 description: "Remove a distrobox container."
-content_hash: 5b42833e2ae0dd1f343c670a29a113511e4ccd4d
-last_modified_at: 2023-11-12
+content_hash: bb784d02b33dcf7acc8358d93a6ebee467dd5756
+last_modified_at: 2023-11-20
 related_topics:
   - title: Nederlands version
     url: /nl/linux/distrobox-rm.html
@@ -20,7 +20,7 @@ tldri18n_status: 2
 
 Remove a distrobox container.
 Subcommand of `distrobox`. See also: `tldr distrobox`.
-More information: <https://distrobox.privatedns.org/usage/distrobox-rm.html>.
+More information: <https://distrobox.it/usage/distrobox-rm>.
 
 - Remove a distrobox container (Tip: Stop the container before removing it):
 

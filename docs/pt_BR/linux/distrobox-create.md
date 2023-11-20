@@ -2,8 +2,8 @@
 layout: page
 title: linux/distrobox-create (português (Brasil))
 description: "Criar um contêiner distrobox. Veja também: `tldr distrobox`."
-content_hash: 6a7a1c2f1d2a10da9a519bc791b09a9e6731c530
-last_modified_at: 2023-11-12
+content_hash: c59ad8f7e740eb0db694e772163353840a96f19a
+last_modified_at: 2023-11-20
 related_topics:
   - title: English version
     url: /en/linux/distrobox-create.html
@@ -20,7 +20,7 @@ tldri18n_status: 2
 
 Criar um contêiner distrobox. Veja também: `tldr distrobox`.
 O contêiner criado será integrado ao sistema host, permitindo o compartilhamento do diretório HOME do usuário, armazenamento externo, dispositivos USB externos, aplicativos gráficos (X11/Wayland) e áudio.
-Mais informações: <https://distrobox.privatedns.org/usage/distrobox-create.html>.
+Mais informações: <https://distrobox.it/usage/distrobox-create>.
 
 - Criar um contêiner distrobox usando a imagem do Ubuntu:
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/distrobox-host-exec (English)
 description: "Execute a command on the host from inside a distrobox container."
-content_hash: 47ab62956db8c89c14f7a9096fcc130f643f2180
-last_modified_at: 2023-11-12
+content_hash: 92688a470b2452585edc9c1da5cbd87be2a2edec
+last_modified_at: 2023-11-20
 related_topics:
   - title: Nederlands version
     url: /nl/linux/distrobox-host-exec.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 Execute a command on the host from inside a distrobox container.
 Subcommand of `distrobox`. See also: `tldr distrobox`.
-More information: <https://distrobox.privatedns.org/usage/distrobox-host-exec.html>.
+More information: <https://distrobox.it/usage/distrobox-host-exec>.
 
 - Execute command on the host system from inside the distrobox container:
 

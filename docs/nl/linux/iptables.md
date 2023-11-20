@@ -3,7 +3,7 @@ layout: page
 title: linux/iptables (Nederlands)
 description: "Configureer tabellen, ketens en regels van de Linux kernel IPv4 firewall."
 content_hash: 32ef68c83895f18e2ca274e70420d8be1e9b2354
-last_modified_at: 2023-11-19
+last_modified_at: 2023-11-20
 related_topics:
   - title: English version
     url: /en/linux/iptables.html

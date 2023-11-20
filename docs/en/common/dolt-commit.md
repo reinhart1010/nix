@@ -2,14 +2,14 @@
 layout: page
 title: common/dolt-commit (English)
 description: "Commit staged changes to tables."
-content_hash: 4300250786f1f78a0ccaebbac707a6d9e7c7943a
-last_modified_at: 2023-11-12
+content_hash: c6ffb3a8ed30933153ec47b0be30b5ca099725c5
+last_modified_at: 2023-11-20
 tldri18n_status: 2
 ---
 # dolt commit
 
 Commit staged changes to tables.
-More information: <https://docs.dolthub.com/interfaces/cli#dolt-commit>.
+More information: <https://docs.dolthub.com/cli-reference/cli#dolt-commit>.
 
 - Commit all staged changes, opening the editor specified by `$EDITOR` to enter the commit message:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/atuin (English)
 description: "Store your shell history in a searchable database."
-content_hash: ddb03e98a5fd990e5fe9e454df1ca33faea12bd8
-last_modified_at: 2023-11-12
+content_hash: 4cd1183e227d0ab305bd56f7dde23da1505ec330
+last_modified_at: 2023-11-20
 related_topics:
   - title: français version
     url: /fr/common/atuin.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Store your shell history in a searchable database.
 Optionally sync your encrypted history between machines.
-More information: <https://atuin.sh/docs/overview/introduction/>.
+More information: <https://atuin.sh/docs/commands>.
 
 - Install atuin into your shell:
 

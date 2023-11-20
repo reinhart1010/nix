@@ -3,7 +3,7 @@ layout: page
 title: linux/iptables-restore (Nederlands)
 description: "Herstel de `iptables` IPv4 configuratie."
 content_hash: 2bf2b40a5df0aa8bc6ece6c31dbaf9f5cac361a9
-last_modified_at: 2023-11-19
+last_modified_at: 2023-11-20
 related_topics:
   - title: English version
     url: /en/linux/iptables-restore.html

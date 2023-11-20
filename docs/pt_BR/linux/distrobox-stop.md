@@ -2,8 +2,8 @@
 layout: page
 title: linux/distrobox-stop (português (Brasil))
 description: "Parar um contêiner distrobox."
-content_hash: 484645f6ff38a639dce6ca369289d773aa91c8f0
-last_modified_at: 2023-11-12
+content_hash: 95a141b81c0d542dfafb0e2b2bda7962f83e5ae5
+last_modified_at: 2023-11-20
 related_topics:
   - title: English version
     url: /en/linux/distrobox-stop.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 Parar um contêiner distrobox.
 Subcomando de `distrobox`. Veja também: `tldr distrobox`.
-Mais informações: <https://distrobox.privatedns.org/usage/distrobox-stop.html>.
+Mais informações: <https://distrobox.it/usage/distrobox-stop>.
 
 - Parar um contêiner distrobox:
 

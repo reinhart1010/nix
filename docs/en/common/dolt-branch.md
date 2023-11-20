@@ -2,14 +2,14 @@
 layout: page
 title: common/dolt-branch (English)
 description: "Manage Dolt branches."
-content_hash: 0a01b30b9732d4b8793b2f09edda7e8f67e534ee
-last_modified_at: 2023-11-12
+content_hash: 0ce6e6c68246a543e5dcf0b26159e7a27cfff802
+last_modified_at: 2023-11-20
 tldri18n_status: 2
 ---
 # dolt branch
 
 Manage Dolt branches.
-More information: <https://github.com/dolthub/dolt>.
+More information: <https://docs.dolthub.com/cli-reference/cli#dolt-branch>.
 
 - List local branches (current branch is highlighted by `*`):
 

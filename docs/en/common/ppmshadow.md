@@ -3,7 +3,7 @@ layout: page
 title: common/ppmshadow (English)
 description: "Add simulated shadows to a PPM image."
 content_hash: ecf60aeaa2f4335cf3251ca80e12f8541e17c4c6
-last_modified_at: 2023-11-19
+last_modified_at: 2023-11-20
 tldri18n_status: 0
 ---
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/distrobox-host-exec (Nederlands)
 description: "Voer een commando uit op de host vanuit de distrobox container."
-content_hash: 55618e9391a9c0493eb2ff4ed5090c190abc6d59
-last_modified_at: 2023-11-12
+content_hash: 82a8f396ec1a2c0fce4eaecb956849c897dd79e1
+last_modified_at: 2023-11-20
 related_topics:
   - title: English version
     url: /en/linux/distrobox-host-exec.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 Voer een commando uit op de host vanuit de distrobox container.
 Subcommando van `distrobox`. Bekijk ook: `tldr distrobox`.
-Meer informatie: <https://distrobox.privatedns.org/usage/distrobox-host-exec.html>.
+Meer informatie: <https://distrobox.it/usage/distrobox-host-exec>.
 
 - Voer een commando uit op de host vanuit de distrobox container:
 

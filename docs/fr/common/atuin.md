@@ -2,8 +2,8 @@
 layout: page
 title: common/atuin (français)
 description: "Enregistre votre historique shell dans une base de donnée."
-content_hash: dae6b93c62dd9c029cd3420f93f91eace511669d
-last_modified_at: 2023-11-12
+content_hash: 0074b248b96b892892531cea63be0016f68c4a4c
+last_modified_at: 2023-11-20
 related_topics:
   - title: English version
     url: /en/common/atuin.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Enregistre votre historique shell dans une base de donnée.
 Peut également synchroniser votre historique chiffré entre plusieurs machines.
-Plus d'informations : <https://atuin.sh/docs/overview/introduction/>.
+Plus d'informations : <https://atuin.sh/docs/commands>.
 
 - Installe atuin dans votre shell :
 

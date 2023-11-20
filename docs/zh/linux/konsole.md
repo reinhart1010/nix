@@ -2,8 +2,8 @@
 layout: page
 title: linux/konsole (中文)
 description: "Konsole: KDE 终端模拟器。"
-content_hash: 9ba86394888d69b5f23a00e919735b2b84515320
-last_modified_at: 2023-11-12
+content_hash: b30c705ba3623c1918c2a0ba68b3d8247260fcda
+last_modified_at: 2023-11-20
 related_topics:
   - title: English version
     url: /en/linux/konsole.html
@@ -16,7 +16,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># konsole
 
 Konsole: KDE 终端模拟器。
-更多信息：<https://docs.kde.org/trunk5/en/konsole/konsole/command-line-options.html>.
+更多信息：<https://docs.kde.org/stable5/en/konsole/konsole/command-line-options.html>.
 
 - 在特定目录中打开一个新的 Konsole：
 

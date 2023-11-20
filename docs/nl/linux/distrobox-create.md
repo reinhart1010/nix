@@ -2,8 +2,8 @@
 layout: page
 title: linux/distrobox-create (Nederlands)
 description: "Maak een distrobox container."
-content_hash: 2b0265a3bce8e5578aa316a25f881adee81c9998
-last_modified_at: 2023-11-12
+content_hash: bcc213b529e983ed5e092f282a35a423ef8bbe16
+last_modified_at: 2023-11-20
 related_topics:
   - title: English version
     url: /en/linux/distrobox-create.html
@@ -21,7 +21,7 @@ tldri18n_status: 2
 Maak een distrobox container.
 Subcommando van `distrobox`. Bekijk ook: `tldr distrobox`.
 De gecreëerde container wordt nauw geïntegreerd met de host, waardoor het delen van de thuismap van de gebruiker, externe opslag, externe USB-apparaten, grafische apps (X11/Wayland) en audio mogelijk is.
-Meer informatie: <https://distrobox.privatedns.org/usage/distrobox-create.html>.
+Meer informatie: <https://distrobox.it/usage/distrobox-create>.
 
 - Maak een distrobox container met behulp van het Ubuntu image:
 

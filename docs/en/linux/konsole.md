@@ -2,8 +2,8 @@
 layout: page
 title: linux/konsole (English)
 description: "KDE's terminal emulator."
-content_hash: fafb6157830c18e5238ce7b669db590fc1a6b7e3
-last_modified_at: 2023-11-12
+content_hash: 20e9cf06dced8983fb6a1a204ca29c81f0dfcc6a
+last_modified_at: 2023-11-20
 related_topics:
   - title: 中文 version
     url: /zh/linux/konsole.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # konsole
 
 KDE's terminal emulator.
-More information: <https://docs.kde.org/trunk5/en/konsole/konsole/command-line-options.html>.
+More information: <https://docs.kde.org/stable5/en/konsole/konsole/command-line-options.html>.
 
 - Open the terminal in a specific directory:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/resolvconf (English)
 description: "Manage nameserver information."
-content_hash: ea3bf9c330254d045ed794f338f8e46973f0b3d0
-last_modified_at: 2023-11-12
+content_hash: e6796df60a70af92dc3ea6daf1e8c3cbb48ca189
+last_modified_at: 2023-11-20
 tldri18n_status: 2
 ---
 # resolvconf
@@ -11,7 +11,7 @@ tldri18n_status: 2
 Manage nameserver information.
 Acts as an intermediary between programs that supply nameserver information and applications that use this information.
 This tldr documents Debian's implementation of resolvconf.
-More information: <https://manpages.ubuntu.com/manpages/resolvconf.8.html>.
+More information: <https://manned.org/resolvconf.8>.
 
 - Add or override the IFACE.PROG record and run the update scripts if updating is enabled:
 

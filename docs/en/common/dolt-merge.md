@@ -2,14 +2,14 @@
 layout: page
 title: common/dolt-merge (English)
 description: "Join two or more development histories together."
-content_hash: 320a82505b0b3296cc5639f596a34b0c8c85b45f
-last_modified_at: 2023-11-12
+content_hash: d138308775ffe8b3259ce176a40cdfa88577526d
+last_modified_at: 2023-11-20
 tldri18n_status: 2
 ---
 # dolt merge
 
 Join two or more development histories together.
-More information: <https://github.com/dolthub/dolt>.
+More information: <https://docs.dolthub.com/cli-reference/cli#dolt-merge>.
 
 - Incorporate changes from the named commits into the current branch:
 

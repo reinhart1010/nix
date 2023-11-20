@@ -3,7 +3,7 @@ layout: page
 title: openbsd/pkg_add (Indonesia)
 description: "Pasang/perbarui paket dalam OpenBSD."
 content_hash: 5c40cd81e163d4e55c1e8ce7187f85c1f69231ad
-last_modified_at: 2023-11-19
+last_modified_at: 2023-11-20
 related_topics:
   - title: English version
     url: /en/openbsd/pkg_add.html

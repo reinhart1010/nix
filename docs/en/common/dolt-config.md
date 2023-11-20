@@ -2,14 +2,14 @@
 layout: page
 title: common/dolt-config (English)
 description: "Read and write local (per repository) and global (per user) Dolt configuration variables."
-content_hash: ad8870ce90f010122e36fd0003a693dfbce97ec1
-last_modified_at: 2023-11-12
+content_hash: e9b5b45e49772a3ba9561d9b1e288a9aa5e9af95
+last_modified_at: 2023-11-20
 tldri18n_status: 2
 ---
 # dolt config
 
 Read and write local (per repository) and global (per user) Dolt configuration variables.
-More information: <https://docs.dolthub.com/interfaces/cli#dolt-config>.
+More information: <https://docs.dolthub.com/cli-reference/cli#dolt-config>.
 
 - List all local and global configuration options and their values:
 

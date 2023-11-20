@@ -2,15 +2,15 @@
 layout: page
 title: common/mitmdump (English)
 description: "View, record, and programmatically transform HTTP traffic."
-content_hash: 6d4fb36a80780e919ea7c4ff5c43adf783930e0e
-last_modified_at: 2023-11-12
+content_hash: 05fe4879ee55eb1827a74368aca8ea053a2a9f3c
+last_modified_at: 2023-11-20
 tldri18n_status: 2
 ---
 # mitmdump
 
 View, record, and programmatically transform HTTP traffic.
 The command-line counterpart to mitmproxy.
-More information: <https://docs.mitmproxy.org/stable/overview-tools/#mitmdump>.
+More information: <https://docs.mitmproxy.org/stable/#mitmdump>.
 
 - Start a proxy and save all output to a file:
 

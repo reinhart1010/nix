@@ -3,7 +3,7 @@ layout: page
 title: common/hexdump (Nederlands)
 description: "Een ASCII, decimaal, hexadecimale, octale dump."
 content_hash: eedc0fb3ae8b8077695cee3d43cda5407b486fd6
-last_modified_at: 2023-11-19
+last_modified_at: 2023-11-20
 related_topics:
   - title: English version
     url: /en/common/hexdump.html

@@ -3,7 +3,7 @@ layout: page
 title: windows/choco-uninstall (Nederlands)
 description: "Verwijder een of meerdere pakketen met Chocolatey."
 content_hash: 02885f66742581751f9b563e79af92a10a165d34
-last_modified_at: 2023-11-19
+last_modified_at: 2023-11-20
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-uninstall.html

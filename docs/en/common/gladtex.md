@@ -2,15 +2,15 @@
 layout: page
 title: common/gladtex (English)
 description: "A LaTeX formula preprocessor for HTML files."
-content_hash: 9e7f329eb6ce2b05c27103621c6ef6f52eaf9be5
-last_modified_at: 2023-11-12
+content_hash: ae3104bb327b33b719065ce845102203090233af
+last_modified_at: 2023-11-20
 tldri18n_status: 2
 ---
 # gladtex
 
 A LaTeX formula preprocessor for HTML files.
 It converts LaTeX formulas to images.
-More information: <https://humenda.github.io/GladTeX/manpage.html/>.
+More information: <https://manned.org/gladtex.1>.
 
 - Convert to html:
 

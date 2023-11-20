@@ -2,14 +2,14 @@
 layout: page
 title: common/salt (English)
 description: "Execute commands and assert state on remote salt minions."
-content_hash: ce1c5c84f050f55e54a648d7a50662509bf9d47f
-last_modified_at: 2023-11-12
+content_hash: 22a7a41a5434fbf658a4db01e5cf6c8fa4751dd5
+last_modified_at: 2023-11-20
 tldri18n_status: 2
 ---
 # salt
 
 Execute commands and assert state on remote salt minions.
-More information: <https://docs.saltstack.com/ref/cli/salt.html>.
+More information: <https://docs.saltproject.io/en/latest/ref/cli/index.html>.
 
 - List connected minions:
 

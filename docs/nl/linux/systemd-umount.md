@@ -3,7 +3,7 @@ layout: page
 title: linux/systemd-umount (Nederlands)
 description: "Dit commando is een alias van `systemd-mount`."
 content_hash: ecd8abf97acfa54fd1d3efc6ff3fc5e98dadbfcc
-last_modified_at: 2023-11-19
+last_modified_at: 2023-11-20
 related_topics:
   - title: English version
     url: /en/linux/systemd-umount.html

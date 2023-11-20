@@ -2,8 +2,8 @@
 layout: page
 title: linux/distrobox-export (Nederlands)
 description: "Exporteer app/service/binary van container naar host-besturingssysteem."
-content_hash: de18cdc0bef451aacddbc986180d630c177f0a0e
-last_modified_at: 2023-11-12
+content_hash: 5172062a9e84631010e8342479c4a3dea5687514
+last_modified_at: 2023-11-20
 related_topics:
   - title: English version
     url: /en/linux/distrobox-export.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 Exporteer app/service/binary van container naar host-besturingssysteem.
 Subcommando van `distrobox`. Bekijk ook: `tldr distrobox`.
-Meer informatie: <https://distrobox.privatedns.org/usage/distrobox-export.html>.
+Meer informatie: <https://distrobox.it/usage/distrobox-export>.
 
 - Exporteer een app van de container naar de host (het desktop pictogram verschijnt in de applicatielijst van uw hostsysteem):
 
