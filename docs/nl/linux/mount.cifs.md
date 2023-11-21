@@ -3,7 +3,7 @@ layout: page
 title: linux/mount.cifs (Nederlands)
 description: "Mount SMB (Server Message Block) of CIFS (Common Internet File System) shares."
 content_hash: d89c1da91afb2198f06e6db5f40faafeaaee583e
-last_modified_at: 2023-11-20
+last_modified_at: 2023-11-21
 related_topics:
   - title: English version
     url: /en/linux/mount.cifs.html

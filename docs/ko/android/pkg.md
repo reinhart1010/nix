@@ -3,7 +3,7 @@ layout: page
 title: android/pkg (한국어)
 description: "Termux용 패키지 관리 유틸리티."
 content_hash: ffa1ff149220389f60ff82c448286d0d16d932a0
-last_modified_at: 2023-11-20
+last_modified_at: 2023-11-21
 related_topics:
   - title: বাংলা version
     url: /bn/android/pkg.html

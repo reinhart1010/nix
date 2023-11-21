@@ -3,7 +3,7 @@ layout: page
 title: common/argocd (français)
 description: "Interface en ligne de commande pour controler un serveur Argo CD."
 content_hash: cfb50c239a554fd1f2c8904cdc4fee19ef0e4249
-last_modified_at: 2023-11-20
+last_modified_at: 2023-11-21
 related_topics:
   - title: English version
     url: /en/common/argocd.html

@@ -3,7 +3,7 @@ layout: page
 title: common/ppmmix (English)
 description: "Blend together two PPM images."
 content_hash: e7ad1aedca0dcb04ae74e9232089ff0393fcee71
-last_modified_at: 2023-11-20
+last_modified_at: 2023-11-21
 tldri18n_status: 0
 ---
 

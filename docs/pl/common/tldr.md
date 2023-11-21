@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/tldr (polski)
-description: "Klient wiersza polecenia dla stron tldr."
-content_hash: 5510dfa7fb4f83010f82b9231928e598e6f56d24
-last_modified_at: 2023-11-12
+description: "Wyświetl proste strony pomocy dla narzędzi wiersza poleceń z projektu tldr-pages."
+content_hash: 90d322b1db47e99150851a7f49742fa5e1dc1df3
+last_modified_at: 2023-11-21
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
@@ -57,18 +57,30 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># tldr
 
-Klient wiersza polecenia dla stron tldr.
-Wyświetla uproszczone i obsługiwane przez społeczność strony podręcznika man.
-Więcej informacji: <https://tldr.sh>.
+Wyświetl proste strony pomocy dla narzędzi wiersza poleceń z projektu tldr-pages.
+Uwaga: opcje `--language` i `--list` nie są wymagane przez specyfikację, ale większość klientów je implementuje.
+Więcej informacji: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
-- Uzyskaj typowe zastosowania polecenia (wskazówka: oto jak się tu dostałeś!):
+- Wyświetl stronę tldr dla podanej komendy (wskazówka: w ten sposób tu trafiłeś/aś!):
 
-`tldr `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">polecenie</span>
+`tldr `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">komenda</span>
 
-- Pokaż tar tldr page dla Linux:
+- Wyświetl stronę tldr dla podanej podkomendy:
 
-`tldr -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">linux</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tar</span>
+`tldr `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">komenda</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">podkomenda</span>
 
-- Uzyskaj pomoc dotyczącą komendy Git:
+- Wyświetl stronę tldr dla komendy w podanym języku (jeżeli jest dostępna, w przeciwnym razie po angielsku):
 
-`tldr `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">git-checkout</span>
+`tldr --language `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kod_języka</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">komenda</span>
+
+- Wyświetl stronę tldr dla komendy z podanej platformy:
+
+`tldr --platform `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android|common|freebsd|linux|osx|netbsd|openbsd|sunos|windows</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">komenda</span>
+
+- Zaktualizuj lokalną pamięć podręczną stron tldr:
+
+`tldr --update`
+
+- Wyświetl listę stron tldr dla aktualnej platformy i `common`:
+
+`tldr --list`

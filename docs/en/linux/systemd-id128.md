@@ -3,7 +3,7 @@ layout: page
 title: linux/systemd-id128 (English)
 description: "Generate and print sd-128 identifiers."
 content_hash: 645d194488b88498ebb075248145709cea8dc91a
-last_modified_at: 2023-11-20
+last_modified_at: 2023-11-21
 tldri18n_status: 0
 ---
 

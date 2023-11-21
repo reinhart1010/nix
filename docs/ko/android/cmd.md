@@ -3,7 +3,7 @@ layout: page
 title: android/cmd (한국어)
 description: "Android 서비스 매니저."
 content_hash: 1749f60eccff906e05951645e3df0617b5dfae66
-last_modified_at: 2023-11-20
+last_modified_at: 2023-11-21
 related_topics:
   - title: বাংলা version
     url: /bn/android/cmd.html

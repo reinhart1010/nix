@@ -3,7 +3,7 @@ layout: page
 title: windows/choco-push (English)
 description: "Push a compiled NuGet package (`nupkg`) to a package feed."
 content_hash: 6a56f063b8627736e58eb57e0bc0da88bba0d3da
-last_modified_at: 2023-11-20
+last_modified_at: 2023-11-21
 tldri18n_status: 0
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: common/a2ping (español)
 description: "Convierte imágenes en archivos EPS o PDF."
 content_hash: 1e678ba87e5f70a3ab23a621bdd871bad0470130
-last_modified_at: 2023-11-20
+last_modified_at: 2023-11-21
 related_topics:
   - title: বাংলা version
     url: /bn/common/a2ping.html

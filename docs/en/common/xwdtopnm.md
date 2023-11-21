@@ -3,7 +3,7 @@ layout: page
 title: common/xwdtopnm (English)
 description: "Convert an X11 or X10 window dump file to PNM."
 content_hash: 8374fe508ed8ab5b384f70eea32cb840def40353
-last_modified_at: 2023-11-20
+last_modified_at: 2023-11-21
 tldri18n_status: 0
 ---
 

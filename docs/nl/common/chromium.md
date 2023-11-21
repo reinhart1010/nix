@@ -3,7 +3,7 @@ layout: page
 title: common/chromium (Nederlands)
 description: "Open-source webbrowser voornamelijk ontwikkeld en onderhouden door Google."
 content_hash: 84c697470db9be72696270ccab2f2cd8d59c9a4a
-last_modified_at: 2023-11-20
+last_modified_at: 2023-11-21
 related_topics:
   - title: Deutsch version
     url: /de/common/chromium.html

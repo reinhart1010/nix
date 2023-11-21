@@ -3,7 +3,7 @@ layout: page
 title: windows/choco-install (Nederlands)
 description: "Installeer een of meerdere pakketen met Chocolatey."
 content_hash: e8f56b74de8edecb07cbca1b7aa1b6849acfbcd9
-last_modified_at: 2023-11-20
+last_modified_at: 2023-11-21
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-install.html

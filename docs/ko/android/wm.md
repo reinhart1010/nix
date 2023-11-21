@@ -3,7 +3,7 @@ layout: page
 title: android/wm (한국어)
 description: "Android 기기 화면에 대한 정보 표시."
 content_hash: 67d54d75604f40815901a47974e5ee0d7bc40c6e
-last_modified_at: 2023-11-20
+last_modified_at: 2023-11-21
 related_topics:
   - title: বাংলা version
     url: /bn/android/wm.html

@@ -3,7 +3,7 @@ layout: page
 title: common/lzless (Nederlands)
 description: "Dit commando is een alias van `xzless`."
 content_hash: ae1b1eeaddff166b391582d58519fc0b8423db1f
-last_modified_at: 2023-11-20
+last_modified_at: 2023-11-21
 related_topics:
   - title: English version
     url: /en/common/lzless.html

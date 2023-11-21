@@ -3,7 +3,7 @@ layout: page
 title: common/xbmtopbm (English)
 description: "Convert an X11 or X10 bitmap to a PBM image."
 content_hash: 0fad5e1fc10ef9eef3e9051ad5b224724a7b32bd
-last_modified_at: 2023-11-20
+last_modified_at: 2023-11-21
 tldri18n_status: 0
 ---
 

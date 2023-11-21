@@ -3,7 +3,7 @@ layout: page
 title: windows/get-alias (Nederlands)
 description: "Toon en verkrijg commando aliases in de huidige PowerShell sessie."
 content_hash: 152b92c36439f33a7dce840b343b6b2374aadecc
-last_modified_at: 2023-11-20
+last_modified_at: 2023-11-21
 related_topics:
   - title: English version
     url: /en/windows/get-alias.html

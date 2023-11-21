@@ -3,7 +3,7 @@ layout: page
 title: windows/sl (Indonesia)
 description: "Perintah ini merupakan alias dari `Set-Location` di PowerShell."
 content_hash: c14f1d4d3c7967e07b37b9b625a9ef0eb6aae787
-last_modified_at: 2023-11-20
+last_modified_at: 2023-11-21
 related_topics:
   - title: English version
     url: /en/windows/sl.html
