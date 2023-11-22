@@ -2,8 +2,8 @@
 layout: page
 title: common/tldr (українська)
 description: "Відображає прості сторінки допомоги для інструментів командного рядка з проекту tldr-pages."
-content_hash: 8dc4c0b43593ead73dfef2d09b41bd4c1ee4e447
-last_modified_at: 2023-11-12
+content_hash: 449b627d497fc6871a11b4fc5d36f1502ad61369
+last_modified_at: 2023-11-22
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
@@ -55,7 +55,7 @@ tldri18n_status: 2
 # tldr
 
 Відображає прості сторінки допомоги для інструментів командного рядка з проекту tldr-pages.
-Більше інформації: <https://tldr.sh>.
+Більше інформації: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
 - Показує типове використання команди (підказка: це те, як ви потрапили сюди!):
 

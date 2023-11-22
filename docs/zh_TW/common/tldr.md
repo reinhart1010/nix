@@ -2,8 +2,8 @@
 layout: page
 title: common/tldr (中文 (繁體, 台灣))
 description: "由 tldr-pages 專案所提供的簡單版指令簡介。"
-content_hash: 155715a9a46698cb4a301a456b967bf4a4c7dd98
-last_modified_at: 2023-11-12
+content_hash: 1b90866005589b2c0bd0588992f1b9091ab1c5df
+last_modified_at: 2023-11-22
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
@@ -58,7 +58,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># tldr
 
 由 tldr-pages 專案所提供的簡單版指令簡介。
-更多資訊：<https://tldr.sh>.
+更多資訊：<https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
 - 顯示指令的常用用法：
 

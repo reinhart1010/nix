@@ -2,8 +2,8 @@
 layout: page
 title: common/tldr (中文)
 description: "简化过的 man 帮助手册。"
-content_hash: b82002d371b93cb058b7d735bd3eea6a71078399
-last_modified_at: 2023-11-12
+content_hash: 0cea5f2f3bfe2ea85a408cf5b839f5b559a0329a
+last_modified_at: 2023-11-22
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
@@ -55,7 +55,7 @@ tldri18n_status: 2
 # tldr
 
 简化过的 man 帮助手册。
-更多信息：<https://tldr.sh>.
+更多信息：<https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
 - 获取一个命令的用例（提示：这就是你怎么得到本信息的）：
 

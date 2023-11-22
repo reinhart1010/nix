@@ -2,8 +2,8 @@
 layout: page
 title: common/tldr (français)
 description: "Affiche des pages d'aide simples pour les outils en ligne de commande, depuis le projet `tldr-pages`."
-content_hash: 095f8890bf3cf4e4a96e7207b2d0b7209a64a3d6
-last_modified_at: 2023-11-12
+content_hash: 6ac0ac4eb4825b3adc0339a88c779a0bce561ba8
+last_modified_at: 2023-11-22
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
@@ -55,7 +55,7 @@ tldri18n_status: 2
 # tldr
 
 Affiche des pages d'aide simples pour les outils en ligne de commande, depuis le projet `tldr-pages`.
-Plus d'informations : <https://tldr.sh>.
+Plus d'informations : <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
 - Affiche la page tldr d'une commande (indice : c'est comme ça que vous êtes arrivé ici !) :
 

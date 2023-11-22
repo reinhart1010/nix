@@ -2,8 +2,8 @@
 layout: page
 title: common/tldr (sh)
 description: "Pojednostavljene man stranice."
-content_hash: fdf9831d6b3e9fabfac0c1e31b73d95a5a222d86
-last_modified_at: 2023-11-12
+content_hash: 76cb475fdeb19690af406d931798e69ffd6e7078
+last_modified_at: 2023-11-22
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
@@ -58,7 +58,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># tldr
 
 Pojednostavljene man stranice.
-Više informacija: <https://tldr.sh>.
+Više informacija: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
 - Prikaži tipičnu upotrebu komande (pomoć: ovako ste stigli ovde!):
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/tldr (日本語)
 description: "コマンドの簡単なマニュアル。"
-content_hash: c935c8642545ab0670e7681dc9fb0371c397f068
-last_modified_at: 2023-11-12
+content_hash: c080e939aa136fb96e9b9b367b0d341ab99ef421
+last_modified_at: 2023-11-22
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
@@ -58,7 +58,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># tldr
 
 コマンドの簡単なマニュアル。
-詳しくはこちら: <https://tldr.sh>
+詳しくはこちら: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>
 
 - コマンドのよくある使用例を見られます (ヒント: このページにたどり着いた方法です！):
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/tldr (한국어)
 description: "간단한 매뉴얼 페이지."
-content_hash: c8c278336ac95ed07a40344862a2354d464413ea
-last_modified_at: 2023-11-12
+content_hash: 3560a97961f815b32b90f123bf489ddba4b45f28
+last_modified_at: 2023-11-22
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
@@ -58,7 +58,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># tldr
 
 간단한 매뉴얼 페이지.
-더 많은 정보: <https://tldr.sh>.
+더 많은 정보: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
 - 명령어 형식적 사용법 가져오기 (힌트 : 이걸 사용하는 방법입니다!):
 

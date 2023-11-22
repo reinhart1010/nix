@@ -2,8 +2,8 @@
 layout: page
 title: common/tldr (русский)
 description: "Показывает простые страницы помощи для инструментов коммандной строки из проекта tldr-pages."
-content_hash: 5b337a288635ea4f6515d6abe737a66069786c25
-last_modified_at: 2023-11-12
+content_hash: 50a6c8550df2b83ddf7fe21d245349ce32a2e61b
+last_modified_at: 2023-11-22
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
@@ -55,7 +55,7 @@ tldri18n_status: 2
 # tldr
 
 Показывает простые страницы помощи для инструментов коммандной строки из проекта tldr-pages.
-Больше информации: <https://tldr.sh>.
+Больше информации: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
 - Показывает типичное использование комманды (подсказка: то как вы попали сюда!):
 

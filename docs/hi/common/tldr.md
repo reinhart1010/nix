@@ -2,8 +2,8 @@
 layout: page
 title: common/tldr (हिन्दी)
 description: "tldr-pages प्रोजेक्ट से कमांड-लाइन टूल्स के लिए सरल हेल्प पेज प्रदर्शित करता है।"
-content_hash: 6062366d882546679f5a930de3eba64f11cd9466
-last_modified_at: 2023-11-12
+content_hash: 55c2c3ad71721e86e2b395245037601ee3188ce6
+last_modified_at: 2023-11-22
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
@@ -55,7 +55,7 @@ tldri18n_status: 2
 # tldr
 
 tldr-pages प्रोजेक्ट से कमांड-लाइन टूल्स के लिए सरल हेल्प पेज प्रदर्शित करता है।
-अधिक जानकारी: <https://tldr.sh>।
+अधिक जानकारी: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>।
 
 - एक कमांड के विशिष्ट उपयोग प्राप्त करें (संकेत: इसका उपयोग कर आप यहाँ आए!):
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/tldr (Türkçe)
 description: "Komut satırı araçları için tldr-pages projesinden basit yardım sayfaları görüntüler."
-content_hash: 777c980fbb3ac65de3ffff55d4ab48a70f407c41
-last_modified_at: 2023-11-12
+content_hash: cda6d4c0de534639cb8024a3c8666e571ae791c2
+last_modified_at: 2023-11-22
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
@@ -55,7 +55,7 @@ tldri18n_status: 2
 # tldr
 
 Komut satırı araçları için tldr-pages projesinden basit yardım sayfaları görüntüler.
-Daha fazla bilgi için: <https://tldr.sh>.
+Daha fazla bilgi için: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
 - Bir komutun tipik kullanımını göster (ipucu: burayı görüntülemek için kullandığınız komutun aynısı!):
 

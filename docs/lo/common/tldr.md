@@ -2,8 +2,8 @@
 layout: page
 title: common/tldr (ລາວ)
 description: "ສະແດງໜ້າຊ່ວຍເຫຼືອແບບງ່າຍໆສຳລັບເຄື່ອງມືແຖວຄຳສັ່ງຈາກໂຄງການ tldr-pages."
-content_hash: 01a18a847c3e74858ed098f43a0969fabe801edb
-last_modified_at: 2023-11-12
+content_hash: ca3c0630f563be03ca23cb67bd5d0d14518e3b80
+last_modified_at: 2023-11-22
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
@@ -55,7 +55,7 @@ tldri18n_status: 2
 # tldr
 
 ສະແດງໜ້າຊ່ວຍເຫຼືອແບບງ່າຍໆສຳລັບເຄື່ອງມືແຖວຄຳສັ່ງຈາກໂຄງການ tldr-pages.
-ຂໍ້ມູນເພີ່ມເຕີມ: <https://tldr.sh>.
+ຂໍ້ມູນເພີ່ມເຕີມ: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.
 
 - ສະແດງຫນ້າ tldr ສໍາລັບຄໍາສັ່ງສະເພາະ(ຄໍາແນະນໍາ: ນີ້ແມ່ນວິທີທີ່ທ່ານມາຮອດນີ້!):
 
