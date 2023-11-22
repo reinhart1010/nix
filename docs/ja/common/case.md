@@ -2,7 +2,7 @@
 layout: page
 title: common/case (日本語)
 description: "複数の選択肢がある条件文を作成するための Bash 組み込み構文。"
-content_hash: 123a2db54f210ecc8bc902a505f7eeb41652de25
+content_hash: 85a87830bcd7e36307ef5b9cf432db2a3d9b3db1
 last_modified_at: 2023-11-22
 related_topics:
   - title: English version
@@ -31,7 +31,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># case
 
 複数の選択肢がある条件文を作成するための Bash 組み込み構文。
-詳細はこちら: <https://www.gnu.org/software/bash/manual/bash.html#index-case>
+詳しくはこちら: <https://www.gnu.org/software/bash/manual/bash.html#index-case>
 
 - 変数を文字列リテラルとマッチさせ、実行するコマンドを決める:
 
