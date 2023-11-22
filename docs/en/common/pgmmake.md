@@ -3,7 +3,7 @@ layout: page
 title: common/pgmmake (English)
 description: "Create PGM image with a uniform gray level."
 content_hash: b33a24f10c9b8eadbab334490af1a1fd3097c3ca
-last_modified_at: 2023-11-21
+last_modified_at: 2023-11-22
 tldri18n_status: 0
 ---
 

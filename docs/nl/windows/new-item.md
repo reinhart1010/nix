@@ -3,7 +3,7 @@ layout: page
 title: windows/new-item (Nederlands)
 description: "Maak een nieuw bestand, directory, symbolische link of een registerinvoer."
 content_hash: 78eac4d6df9d654c96f327a97f99705d1633fa9f
-last_modified_at: 2023-11-21
+last_modified_at: 2023-11-22
 related_topics:
   - title: English version
     url: /en/windows/new-item.html

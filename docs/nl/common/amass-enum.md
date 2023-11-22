@@ -3,7 +3,7 @@ layout: page
 title: common/amass-enum (Nederlands)
 description: "Vind subdomeinen van een domein."
 content_hash: 6c9716d701c2b212a72453a365d8f7c5b71cb7e1
-last_modified_at: 2023-11-21
+last_modified_at: 2023-11-22
 related_topics:
   - title: English version
     url: /en/common/amass-enum.html

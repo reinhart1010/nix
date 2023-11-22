@@ -3,7 +3,7 @@ layout: page
 title: android/settings (한국어)
 description: "Android OS에 대한 정보 얻기."
 content_hash: e5b93c33351d12788deafb92529aaac931daa596
-last_modified_at: 2023-11-21
+last_modified_at: 2023-11-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/settings.html

@@ -3,7 +3,7 @@ layout: page
 title: common/sngrep (English)
 description: "Tool for displaying SIP calls message flows from terminal."
 content_hash: 0977ffc763ce83d8e9f648e4ddbfdf73cb2b37f9
-last_modified_at: 2023-11-21
+last_modified_at: 2023-11-22
 tldri18n_status: 0
 ---
 

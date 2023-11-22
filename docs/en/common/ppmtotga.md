@@ -3,7 +3,7 @@ layout: page
 title: common/ppmtotga (English)
 description: "This command is superseded by `pamtotga`."
 content_hash: 55e37d161ee592231f5e80816c031a2fff6ed11a
-last_modified_at: 2023-11-21
+last_modified_at: 2023-11-22
 tldri18n_status: 0
 ---
 

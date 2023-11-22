@@ -3,7 +3,7 @@ layout: page
 title: common/ac (français)
 description: "Imprime les statistiques sur combien de temps les utilisateurs ont été connectés."
 content_hash: 91d3434f45a22552d7443d88ad1e641fdcafb19a
-last_modified_at: 2023-11-21
+last_modified_at: 2023-11-22
 related_topics:
   - title: বাংলা version
     url: /bn/common/ac.html

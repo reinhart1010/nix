@@ -3,7 +3,7 @@ layout: page
 title: common/musl-gcc (Nederlands)
 description: "Dit commando is een alias van `gcc`."
 content_hash: 14c351fe3c5d5a4234890f806d797c9dc1521d8a
-last_modified_at: 2023-11-21
+last_modified_at: 2023-11-22
 related_topics:
   - title: English version
     url: /en/common/musl-gcc.html

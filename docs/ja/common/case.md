@@ -3,7 +3,7 @@ layout: page
 title: common/case (日本語)
 description: "複数の選択肢がある条件文を作成するための Bash 組み込み構文。"
 content_hash: 123a2db54f210ecc8bc902a505f7eeb41652de25
-last_modified_at: 2023-11-21
+last_modified_at: 2023-11-22
 related_topics:
   - title: English version
     url: /en/common/case.html

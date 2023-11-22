@@ -3,7 +3,7 @@ layout: page
 title: common/docker-container-remove (Nederlands)
 description: "Dit commando is een alias van `docker rm`."
 content_hash: 112b8748d33ea9987d1d92ae5acfba21a9470f26
-last_modified_at: 2023-11-21
+last_modified_at: 2023-11-22
 related_topics:
   - title: English version
     url: /en/common/docker-container-remove.html

@@ -3,7 +3,7 @@ layout: page
 title: common/ppmtopict (English)
 description: "Convert a PPM image to a Macintosh PICT file."
 content_hash: a197eb9204998a4b3f749c769cebadd57fdeecac
-last_modified_at: 2023-11-21
+last_modified_at: 2023-11-22
 tldri18n_status: 0
 ---
 

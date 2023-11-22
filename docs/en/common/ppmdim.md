@@ -3,7 +3,7 @@ layout: page
 title: common/ppmdim (English)
 description: "Dim a PPM image."
 content_hash: adcac6ccee7f3b3731d9d9e44426549ec1fe8315
-last_modified_at: 2023-11-21
+last_modified_at: 2023-11-22
 tldri18n_status: 0
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: android/dumpsys (한국어)
 description: "Android 시스템 서비스에 대한 제공."
 content_hash: ef01683a1397f9f56e1a97e68238080f64176a06
-last_modified_at: 2023-11-21
+last_modified_at: 2023-11-22
 related_topics:
   - title: বাংলা version
     url: /bn/android/dumpsys.html

@@ -3,7 +3,7 @@ layout: page
 title: linux/qm-importdisk (Nederlands)
 description: "Dit commando is een alias van `qm disk import`."
 content_hash: 24eccab03fb385f74e26b4ddbe89b0cf5d40e83e
-last_modified_at: 2023-11-21
+last_modified_at: 2023-11-22
 related_topics:
   - title: English version
     url: /en/linux/qm-importdisk.html

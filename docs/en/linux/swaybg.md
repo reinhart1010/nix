@@ -3,7 +3,7 @@ layout: page
 title: linux/swaybg (English)
 description: "Wallpaper tool for Wayland compositors."
 content_hash: f2166447bdf59130cb319312ce1326fad483de12
-last_modified_at: 2023-11-21
+last_modified_at: 2023-11-22
 tldri18n_status: 0
 ---
 

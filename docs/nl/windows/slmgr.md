@@ -3,7 +3,7 @@ layout: page
 title: windows/slmgr (Nederlands)
 description: "Dit commando is een alias van `slmgr.vbs`."
 content_hash: bfe2d9e1b4cff67cdf85a90b28934d4dd40e816b
-last_modified_at: 2023-11-21
+last_modified_at: 2023-11-22
 related_topics:
   - title: English version
     url: /en/windows/slmgr.html

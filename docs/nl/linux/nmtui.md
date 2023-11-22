@@ -3,7 +3,7 @@ layout: page
 title: linux/nmtui (Nederlands)
 description: "Tekstgebruikersinterface voor controle over NetworkManager."
 content_hash: 894bafe96dec77cf2de0d3a5dd0647b415a8d61f
-last_modified_at: 2023-11-21
+last_modified_at: 2023-11-22
 related_topics:
   - title: English version
     url: /en/linux/nmtui.html

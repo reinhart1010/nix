@@ -3,7 +3,7 @@ layout: page
 title: common/anki (Nederlands)
 description: "Krachtig, intelligent flashcardprogramma."
 content_hash: cc781b627d70e9d7d67fcc8bcbacceb22ce0a38a
-last_modified_at: 2023-11-21
+last_modified_at: 2023-11-22
 related_topics:
   - title: Deutsch version
     url: /de/common/anki.html

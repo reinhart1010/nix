@@ -3,7 +3,7 @@ layout: page
 title: common/unzstd (Nederlands)
 description: "Dit commando is een alias van `zstd`."
 content_hash: 35baab34f9dd4065ca17a5acd595620a82c9149e
-last_modified_at: 2023-11-21
+last_modified_at: 2023-11-22
 related_topics:
   - title: English version
     url: /en/common/unzstd.html

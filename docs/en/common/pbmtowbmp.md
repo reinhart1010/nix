@@ -3,7 +3,7 @@ layout: page
 title: common/pbmtowbmp (English)
 description: "Convert a PBM image to a wireless bitmap file."
 content_hash: 3c2baf9a97fdb4b82d7b7e74a427b1fa51aa423f
-last_modified_at: 2023-11-21
+last_modified_at: 2023-11-22
 tldri18n_status: 0
 ---
 
