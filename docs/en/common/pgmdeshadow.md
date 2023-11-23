@@ -3,7 +3,7 @@ layout: page
 title: common/pgmdeshadow (English)
 description: "Deshadow a PGM image."
 content_hash: 07e62b445cefefc9a6aee10e0d08898640c4c176
-last_modified_at: 2023-11-22
+last_modified_at: 2023-11-23
 tldri18n_status: 0
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: common/xpmtoppm (English)
 description: "Convert an X11 pixmap to a PPM image."
 content_hash: 61fbb8fdd38982c8b04d16395dc151ef38fe85b0
-last_modified_at: 2023-11-22
+last_modified_at: 2023-11-23
 tldri18n_status: 0
 ---
 

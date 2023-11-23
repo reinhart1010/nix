@@ -3,7 +3,7 @@ layout: page
 title: common/ppmtosixel (English)
 description: "Convert a PPM image to DEC sixel format."
 content_hash: 3661b0e9dd5947d50a1971c743e7674f348052bc
-last_modified_at: 2023-11-22
+last_modified_at: 2023-11-23
 tldri18n_status: 0
 ---
 

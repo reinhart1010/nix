@@ -3,7 +3,7 @@ layout: page
 title: windows/get-location (Nederlands)
 description: "Toon de naam van de huidige/werk- map."
 content_hash: 80b79901647ea768bc4e0a4a5f05c65a09f2c4b0
-last_modified_at: 2023-11-22
+last_modified_at: 2023-11-23
 related_topics:
   - title: English version
     url: /en/windows/get-location.html

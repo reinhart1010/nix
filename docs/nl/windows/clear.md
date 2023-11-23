@@ -3,7 +3,7 @@ layout: page
 title: windows/clear (Nederlands)
 description: "In PowerShell is dit commando een alias van `Clear-Host`."
 content_hash: 90b0ca200f73824be90ccbc069c00617334483a9
-last_modified_at: 2023-11-22
+last_modified_at: 2023-11-23
 related_topics:
   - title: English version
     url: /en/windows/clear.html

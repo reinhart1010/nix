@@ -3,7 +3,7 @@ layout: page
 title: linux/rexec (English)
 description: "Execute a command on a remote host."
 content_hash: 5c90c1a07b37f1679ae25754d02ea13be6264c07
-last_modified_at: 2023-11-22
+last_modified_at: 2023-11-23
 tldri18n_status: 0
 ---
 

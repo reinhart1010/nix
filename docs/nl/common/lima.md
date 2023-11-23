@@ -3,7 +3,7 @@ layout: page
 title: common/lima (Nederlands)
 description: "Dit commando is een alias van `limactl`."
 content_hash: 8392ba90be6cb581720b7037153bc02e403cb83d
-last_modified_at: 2023-11-22
+last_modified_at: 2023-11-23
 related_topics:
   - title: English version
     url: /en/common/lima.html

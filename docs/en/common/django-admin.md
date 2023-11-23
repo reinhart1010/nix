@@ -2,8 +2,8 @@
 layout: page
 title: common/django-admin (English)
 description: "Django’s utility for administrative tasks."
-content_hash: 083398de17d9b5acf7bbedff0f7e0f2273f98a6e
-last_modified_at: 2023-11-12
+content_hash: 2bde00761ccc8b230992b1798a16af1acfc56c58
+last_modified_at: 2023-11-23
 related_topics:
   - title: 한국어 version
     url: /ko/common/django-admin.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # django-admin
 
 Django’s utility for administrative tasks.
-More information: <https://docs.djangoproject.com/en/4.1/ref/django-admin/>.
+More information: <https://docs.djangoproject.com/en/4.2/ref/django-admin/>.
 
 - Create a new Django project:
 

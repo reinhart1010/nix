@@ -3,7 +3,7 @@ layout: page
 title: common/ppmpat (English)
 description: "Produce a PPM image with a pattern."
 content_hash: 9fb830e5d7576d90656c81b957ce2464eeb57b3e
-last_modified_at: 2023-11-22
+last_modified_at: 2023-11-23
 tldri18n_status: 0
 ---
 

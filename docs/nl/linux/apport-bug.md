@@ -3,7 +3,7 @@ layout: page
 title: linux/apport-bug (Nederlands)
 description: "Dien een bugrapport in over Ubuntu."
 content_hash: 983afdfffb0247ea96557359840c45100376c4e7
-last_modified_at: 2023-11-22
+last_modified_at: 2023-11-23
 related_topics:
   - title: Deutsch version
     url: /de/linux/apport-bug.html

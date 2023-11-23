@@ -3,7 +3,7 @@ layout: page
 title: linux/qm-move-disk (Nederlands)
 description: "Dit commando is een alias van `qm-disk-move`."
 content_hash: 8b7eb3853bbf01b458c3ddeb92b73447ad144a44
-last_modified_at: 2023-11-22
+last_modified_at: 2023-11-23
 related_topics:
   - title: English version
     url: /en/linux/qm-move-disk.html

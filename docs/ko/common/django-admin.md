@@ -2,8 +2,8 @@
 layout: page
 title: common/django-admin (한국어)
 description: "관리 작업을 위한 Django 유틸리티."
-content_hash: b21b86963587ae4e3f221391c7afc1752002ed4b
-last_modified_at: 2023-11-12
+content_hash: cda1c1605eb0c358aa613137533b1698094295bc
+last_modified_at: 2023-11-23
 related_topics:
   - title: English version
     url: /en/common/django-admin.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # django-admin
 
 관리 작업을 위한 Django 유틸리티.
-더 많은 정보: <https://docs.djangoproject.com/en/4.1/ref/django-admin/>.
+더 많은 정보: <https://docs.djangoproject.com/en/4.2/ref/django-admin/>.
 
 - 새로운 Django 프로젝트를 생성:
 

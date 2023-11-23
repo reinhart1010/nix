@@ -3,7 +3,7 @@ layout: page
 title: common/pamdepth (Nederlands)
 description: "Verminder de diepte (d.w.z. kleurresolutie) in een afbeelding."
 content_hash: 07512b77a02f4222194b4fa3d5318435d0d6b572
-last_modified_at: 2023-11-22
+last_modified_at: 2023-11-23
 related_topics:
   - title: English version
     url: /en/common/pamdepth.html

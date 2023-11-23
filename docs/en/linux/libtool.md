@@ -3,7 +3,7 @@ layout: page
 title: linux/libtool (English)
 description: "A generic library support script that hides the complexity of using shared libraries behind a consistent, portable interface."
 content_hash: 6ed1827ce548850c1541f597c5183a4440181c92
-last_modified_at: 2023-11-22
+last_modified_at: 2023-11-23
 tldri18n_status: 0
 ---
 

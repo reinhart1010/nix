@@ -3,7 +3,7 @@ layout: page
 title: common/rawtopgm (English)
 description: "Convert a raw greyscale image to a PGM image."
 content_hash: 06734dcc85e04e6f272517c07b13c45cf101aef1
-last_modified_at: 2023-11-22
+last_modified_at: 2023-11-23
 tldri18n_status: 0
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: common/afconvert (français)
 description: "Convertir entre les formats de fichiers AFF et brut."
 content_hash: 37ccaede6863b5a6a18e26480964872e90a632e4
-last_modified_at: 2023-11-22
+last_modified_at: 2023-11-23
 related_topics:
   - title: English version
     url: /en/common/afconvert.html

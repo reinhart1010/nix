@@ -3,7 +3,7 @@ layout: page
 title: common/wiggle (English)
 description: "A patch application tool resolving conflicts in patches that `patch` cannot handle."
 content_hash: 3b91161c437b7878a40832a70b93938769a19780
-last_modified_at: 2023-11-22
+last_modified_at: 2023-11-23
 tldri18n_status: 0
 ---
 
