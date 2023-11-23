@@ -2,14 +2,14 @@
 layout: page
 title: common/fossil-rm (English)
 description: "Remove files or directories from Fossil version control."
-content_hash: ce89604d00f7057e812a4f137706552abe1938c5
-last_modified_at: 2023-11-12
+content_hash: 03ffb65c1824a914fb573e2ef64a6bf75c9f049e
+last_modified_at: 2023-11-23
 tldri18n_status: 2
 ---
 # fossil rm
 
 Remove files or directories from Fossil version control.
-See also `fossil forget`.
+See also: `fossil forget`.
 More information: <https://fossil-scm.org/home/help/rm>.
 
 - Remove a file or directory from Fossil version control:

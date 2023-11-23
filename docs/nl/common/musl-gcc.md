@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/musl-gcc (Nederlands)
-description: "Dit commando is een alias van `gcc`."
-content_hash: 14c351fe3c5d5a4234890f806d797c9dc1521d8a
+description: "Een wrapper voor `gcc` die automatisch opties instelt voor het koppelen van musl libc."
+content_hash: 8aa3d53e68a52a85eed13293c0f88ca54f9a2dec
 last_modified_at: 2023-11-23
 related_topics:
   - title: English version
@@ -21,9 +21,10 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 <hr># musl-gcc
 
-Dit commando is een alias van `gcc`.
+Een wrapper voor `gcc` die automatisch opties instelt voor het koppelen van musl libc.
+Alle opties die gespecificeerd zijn, worden direct doorgegeven naar `gcc`.
 Meer informatie: <https://manned.org/musl-gcc>.
 
-- Bekijk de documentatie van het originele commando:
+- Bekijk de documentatie voor `gcc`:
 
 `tldr gcc`

@@ -2,14 +2,14 @@
 layout: page
 title: common/f3probe (English)
 description: "Probe a block device (e.g. a flash drive or a microSD card) for counterfeit flash memory."
-content_hash: 1c523bb87678b0c106b620af1af23848c37162a6
-last_modified_at: 2023-11-12
+content_hash: 99b1355b7a3c35bcf1b079ecf6e237b00a52a6af
+last_modified_at: 2023-11-23
 tldri18n_status: 2
 ---
 # f3probe
 
 Probe a block device (e.g. a flash drive or a microSD card) for counterfeit flash memory.
-See also `f3read`, `f3write`, `f3fix`.
+See also: `f3read`, `f3write`, `f3fix`.
 More information: <https://github.com/AltraMayor/f3>.
 
 - Probe a block device:

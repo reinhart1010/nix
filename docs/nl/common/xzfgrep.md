@@ -2,7 +2,7 @@
 layout: page
 title: common/xzfgrep (Nederlands)
 description: "Dit commando is een alias van `xzgrep`."
-content_hash: 49e2f03af1bd0831e9e4c2e2dd7d2dcd53ffb157
+content_hash: 9a043f54ae07a0fd51484be362bde3a6086ebadb
 last_modified_at: 2023-11-23
 related_topics:
   - title: English version
@@ -22,6 +22,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># xzfgrep
 
 Dit commando is een alias van `xzgrep`.
+Bekijk ook: `fgrep`.
 
 - Bekijk de documentatie van het originele commando:
 

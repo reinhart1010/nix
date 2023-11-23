@@ -2,14 +2,14 @@
 layout: page
 title: linux/lrzip (English)
 description: "A large file compression program."
-content_hash: 60eca92630698fce154dd43d85fff525ae5a76ca
-last_modified_at: 2023-11-12
+content_hash: 02b6a36dadcfab02343a7f3966b2e2b86036ac4d
+last_modified_at: 2023-11-23
 tldri18n_status: 2
 ---
 # lrzip
 
 A large file compression program.
-See also `lrunzip`, `lrztar`, `lrzuntar`.
+See also: `lrunzip`, `lrztar`, `lrzuntar`.
 More information: <https://manned.org/lrzip>.
 
 - Compress a file with LZMA - slow compression, fast decompression:

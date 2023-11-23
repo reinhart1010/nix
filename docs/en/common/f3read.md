@@ -2,14 +2,14 @@
 layout: page
 title: common/f3read (English)
 description: "Validate .h2w files to test the real capacity of the drive."
-content_hash: fd587f50fec5efb0cb025005318930c1df01bd94
-last_modified_at: 2023-11-12
+content_hash: 8a799c6673415918f2034045ea89891837ccb329
+last_modified_at: 2023-11-23
 tldri18n_status: 2
 ---
 # f3read
 
 Validate .h2w files to test the real capacity of the drive.
-See also `f3write`, `f3probe`, `f3fix`.
+See also: `f3write`, `f3probe`, `f3fix`.
 More information: <http://oss.digirati.com.br/f3/>.
 
 - Validate a device by checking the files in a given directory:

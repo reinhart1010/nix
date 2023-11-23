@@ -2,8 +2,8 @@
 layout: page
 title: common/podman-image (English)
 description: "Manage Docker images."
-content_hash: 9045d13edea1a1a7d7a5dfb7c1e4b53d2a8e9c1f
-last_modified_at: 2023-11-12
+content_hash: 69625f31884b26d5e0456739e6baaf701b05a38c
+last_modified_at: 2023-11-23
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/podman-image.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # podman image
 
 Manage Docker images.
-See also `podman build`, `podman import`, and `podman pull`.
+See also: `podman build`, `podman import`, and `podman pull`.
 More information: <https://docs.podman.io/en/latest/markdown/podman-image.1.html>.
 
 - List local Docker images:

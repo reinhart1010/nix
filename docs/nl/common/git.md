@@ -2,8 +2,8 @@
 layout: page
 title: common/git (Nederlands)
 description: "Gedistribueerd versiebeheersysteem."
-content_hash: 634ad2357d31a790e7eebbb19dd010772cb621ed
-last_modified_at: 2023-11-12
+content_hash: c6783ed31048bb57bac46f1166c5b64d5f36a3a2
+last_modified_at: 2023-11-23
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
@@ -55,6 +55,7 @@ tldri18n_status: 2
 # git
 
 Gedistribueerd versiebeheersysteem.
+Sommige subcommando's zoals `commit`, `add`, `branch`, `checkout`, `push`, etc. hebben hun eigen documentatie.
 Meer informatie: <https://git-scm.com/>.
 
 - Controleer de Git versie:

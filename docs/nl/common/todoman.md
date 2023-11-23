@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/todoman (Nederlands)
-description: "Dit commando is een alias van `todo`."
-content_hash: 442205f8d45e13333a3849e291071f918ab0a725
-last_modified_at: 2023-11-12
+description: "Een simpele, gestandaardiseerde, cli todo manager."
+content_hash: 44ca41ff1e8851118ffb8fd5c0a98ec75820360d
+last_modified_at: 2023-11-23
 related_topics:
   - title: العربية version
     url: /ar/common/todoman.html
@@ -93,7 +93,8 @@ tldri18n_status: 2
 ---
 # todoman
 
-Dit commando is een alias van `todo`.
+Een simpele, gestandaardiseerde, cli todo manager.
+`todoman` is een gebruikelijke naam voor het commando `todo`, maar niet een commando op zichzelf.
 Meer informatie: <https://todoman.readthedocs.io/>.
 
 - Bekijk de documentatie van het originele commando:

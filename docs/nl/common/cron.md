@@ -2,8 +2,8 @@
 layout: page
 title: common/cron (Nederlands)
 description: "Dit commando is een alias van `crontab`."
-content_hash: 88020439a70e9da820a8621dc77534c380be8bde
-last_modified_at: 2023-11-12
+content_hash: ae00075e0c9d68233c0241d4f7e49f233bfb16d1
+last_modified_at: 2023-11-23
 related_topics:
   - title: العربية version
     url: /ar/common/cron.html
@@ -94,6 +94,7 @@ tldri18n_status: 2
 # cron
 
 Dit commando is een alias van `crontab`.
+Het commando om entries toe te voegen, aan te passen of te verwijderen in `cron` is called `crontab`.
 
 - Bekijk de documentatie van het originele commando:
 

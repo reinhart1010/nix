@@ -2,8 +2,8 @@
 layout: page
 title: common/vim (Nederlands)
 description: "Vim (Vi IMproved), een command-line tekst bewerker, geeft toegang tot verschillende manieren van tekst manipulatie."
-content_hash: 25950ae279a3558bba7da00980fc4356ae2b3aa1
-last_modified_at: 2023-11-12
+content_hash: e525f3a556cee59cd901f0d817d26a698a1989b6
+last_modified_at: 2023-11-23
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -47,6 +47,7 @@ tldri18n_status: 2
 
 Vim (Vi IMproved), een command-line tekst bewerker, geeft toegang tot verschillende manieren van tekst manipulatie.
 Drukken op `i` begint invoegmodus. `<Esc>` begint normale modus, wat toegang geeft tot de Vim commando's.
+Bekijk ook: `vimdiff`, `vimtutor` en `nvim`.
 Meer informatie: <https://www.vim.org>.
 
 - Open een bestand:

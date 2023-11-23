@@ -2,14 +2,14 @@
 layout: page
 title: linux/lrunzip (English)
 description: "A large file decompression program."
-content_hash: 393a36913c1e27bf6536f11890d1adb9fab1295e
-last_modified_at: 2023-11-12
+content_hash: 3626fb6b4c046cb8fca8d47c292a52133f37add6
+last_modified_at: 2023-11-23
 tldri18n_status: 2
 ---
 # lrunzip
 
 A large file decompression program.
-See also `lrzip`, `lrztar`, `lrzuntar`.
+See also: `lrzip`, `lrztar`, `lrzuntar`.
 More information: <https://manned.org/lrunzip>.
 
 - Decompress a file:

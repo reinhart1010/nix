@@ -2,7 +2,7 @@
 layout: page
 title: linux/mount.smb3 (Nederlands)
 description: "Dit commando is een alias van `mount.cifs`."
-content_hash: 7d2a7718b58e769ad01af8c7bb84d3e3cb77a333
+content_hash: 02edf5980ac37bc985cee298b8138c1f80d51baf
 last_modified_at: 2023-11-23
 related_topics:
   - title: English version
@@ -22,6 +22,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># mount.smb3
 
 Dit commando is een alias van `mount.cifs`.
+Let op: voor SMB versies vóór 3, dien je `mount.cifs` te gebruiken.
 
 - Bekijk de documentatie van het originele commando:
 

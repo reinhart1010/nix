@@ -2,14 +2,14 @@
 layout: page
 title: linux/openrc (English)
 description: "The OpenRC service manager."
-content_hash: 62729feaed52e38270be6bde46aa040c133f0f3b
-last_modified_at: 2023-11-12
+content_hash: 2477d6ce728a85bbfe6385201854c4d2a075276f
+last_modified_at: 2023-11-23
 tldri18n_status: 2
 ---
 # openrc
 
 The OpenRC service manager.
-See also `rc-status`, `rc-update`, and `rc-service`.
+See also: `rc-status`, `rc-update`, and `rc-service`.
 More information: <https://wiki.gentoo.org/wiki/OpenRC>.
 
 - Change to a specific runlevel:

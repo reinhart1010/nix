@@ -2,7 +2,7 @@
 layout: page
 title: common/lzegrep (Nederlands)
 description: "Dit commando is een alias van `xzgrep`."
-content_hash: 55d3e6a3f8acb40787c6058c0182b94b22507a14
+content_hash: 2352630b2e4d5d5c28173bb087c27097f5adda98
 last_modified_at: 2023-11-23
 related_topics:
   - title: English version
@@ -22,6 +22,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 <hr># lzegrep
 
 Dit commando is een alias van `xzgrep`.
+Bekijk ook: `egrep`.
 
 - Bekijk de documentatie van het originele commando:
 
