@@ -2,7 +2,7 @@
 layout: page
 title: common/ani-cli (Nederlands)
 description: "Een cli om door anime te bladeren en deze te bekijken."
-content_hash: 7d471dc4d6c89f813b0c9571e2fa0ff05f22358d
+content_hash: bff896f20334f61f3517330bc7090018ff3ebcb7
 last_modified_at: 2023-11-23
 related_topics:
   - title: Deutsch version
@@ -53,7 +53,7 @@ Meer informatie: <https://github.com/pystardust/ani-cli>.
 
 - Specificeer een aflevering om te kijken:
 
-`ani-cli -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">afleveringnummer</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">anime_naam</span>`"`
+`ani-cli -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">afleveringnummer</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">anime_naam</span>`"`
 
 - Bekijk anime uit je geschiedenis:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/ani-cli (français)
 description: "Une CLI pour chercher et regarder des animés."
-content_hash: c9a9cac23af6d9c539417bbf71eeff3a11d82e22
-last_modified_at: 2023-11-12
+content_hash: 91b2033da501a5245df91c224fe991a21713d2bb
+last_modified_at: 2023-11-23
 related_topics:
   - title: Deutsch version
     url: /de/common/ani-cli.html
@@ -41,7 +41,7 @@ Plus d'informations : <https://github.com/pystardust/ani-cli>.
 
 - Spécifie un épisode à regarder :
 
-`ani-cli -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numéro_de_l_épisode</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_l_animé</span>`"`
+`ani-cli -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numéro_de_l_épisode</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_l_animé</span>`"`
 
 - Continue de regarder l'animé depuis l'historique :
 

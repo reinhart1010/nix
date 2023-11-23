@@ -2,8 +2,8 @@
 layout: page
 title: common/ani-cli (മലയാളം)
 description: "അനിമേ തിരയുവാനും കാണുവാനുമുള്ള കമാൻഡ് ലൈൻ യൂട്ടിലിറ്റി."
-content_hash: 00e30d425125990c8cad0e93b0a840bf211ac744
-last_modified_at: 2023-11-12
+content_hash: d3f683a7883f2e2e3409298890827ba9858688e9
+last_modified_at: 2023-11-23
 related_topics:
   - title: Deutsch version
     url: /de/common/ani-cli.html
@@ -41,7 +41,7 @@ tldri18n_status: 2
 
 - നിശ്ചിത എപ്പിസോഡ് കാണുവാൻ:
 
-`ani-cli -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">എപ്പിസോഡ്_നമ്പർ</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">അനിമേയുടെ_പേര്</span>`"`
+`ani-cli -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">എപ്പിസോഡ്_നമ്പർ</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">അനിമേയുടെ_പേര്</span>`"`
 
 - മുൻപ് കണ്ടുകൊണ്ടിരുന്ന അനിമേ തുടർന്ന് കാണുവാൻ:
 

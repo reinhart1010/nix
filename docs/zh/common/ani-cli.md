@@ -2,8 +2,8 @@
 layout: page
 title: common/ani-cli (中文)
 description: "一个用于浏览和观看动漫的命令行工具。"
-content_hash: fdb68bf5100b321a20f2c75195c91e802cd3f4ff
-last_modified_at: 2023-11-12
+content_hash: 105a26a8fa86fdba50a2bbfeec9d2f1e1ba093dc
+last_modified_at: 2023-11-23
 related_topics:
   - title: Deutsch version
     url: /de/common/ani-cli.html
@@ -41,7 +41,7 @@ tldri18n_status: 2
 
 - 指定要观看的剧集：
 
-`ani-cli -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">剧集序号</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">动漫名称</span>`"`
+`ani-cli -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">剧集序号</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">动漫名称</span>`"`
 
 - 从历史记录中继续观看动漫：
 

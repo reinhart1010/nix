@@ -2,8 +2,8 @@
 layout: page
 title: common/ani-cli (español)
 description: "Un cli para navegar y ver anime."
-content_hash: d0dd8997e2b6b7ef970aa7c736c1f1dfae11fbde
-last_modified_at: 2023-11-12
+content_hash: 91743c19bcafc985324720f754153cc5cebeb15a
+last_modified_at: 2023-11-23
 related_topics:
   - title: Deutsch version
     url: /de/common/ani-cli.html
@@ -41,7 +41,7 @@ Más información: <https://github.com/pystardust/ani-cli>.
 
 - Especifica el episodio que desea ver:
 
-`ani-cli -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero_episodio</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_anime</span>`"`
+`ani-cli -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero_episodio</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_anime</span>`"`
 
 - Continúa viendo el anime desde el historial:
 
