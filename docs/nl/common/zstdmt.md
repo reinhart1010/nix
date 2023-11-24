@@ -3,7 +3,7 @@ layout: page
 title: common/zstdmt (Nederlands)
 description: "Dit commando is een alias van `zstd`."
 content_hash: fc9ecd81411538d536ad94c7e538596bab4909bf
-last_modified_at: 2023-11-23
+last_modified_at: 2023-11-24
 related_topics:
   - title: English version
     url: /en/common/zstdmt.html

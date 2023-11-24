@@ -3,7 +3,7 @@ layout: page
 title: freebsd/pkg (Indonesia)
 description: "Manajer paket untuk FreeBSD."
 content_hash: 0283d029134d987349793f4cf8101e134f731c06
-last_modified_at: 2023-11-23
+last_modified_at: 2023-11-24
 related_topics:
   - title: English version
     url: /en/freebsd/pkg.html

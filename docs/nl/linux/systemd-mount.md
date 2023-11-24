@@ -3,7 +3,7 @@ layout: page
 title: linux/systemd-mount (Nederlands)
 description: "Zet mount of auto-mount punten op of verwijder ze."
 content_hash: 24a33bcc1e9874b2cb7f4420103889d0e392af16
-last_modified_at: 2023-11-23
+last_modified_at: 2023-11-24
 related_topics:
   - title: English version
     url: /en/linux/systemd-mount.html

@@ -3,7 +3,7 @@ layout: page
 title: common/aws-eks (English)
 description: "CLI for Amazon EKS (Elastic Kubernetes Service)."
 content_hash: 1fa5e12c71ecdecdafa043de838c579ab652964b
-last_modified_at: 2023-11-23
+last_modified_at: 2023-11-24
 tldri18n_status: 0
 ---
 

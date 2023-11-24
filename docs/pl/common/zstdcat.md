@@ -3,7 +3,7 @@ layout: page
 title: common/zstdcat (polski)
 description: "To polecenie jest aliasem `zstd --decompress --stdout`."
 content_hash: c2d1808e88b2b84fe64cea38ff1346dea47aa239
-last_modified_at: 2023-11-23
+last_modified_at: 2023-11-24
 related_topics:
   - title: English version
     url: /en/common/zstdcat.html

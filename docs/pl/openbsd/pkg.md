@@ -3,7 +3,7 @@ layout: page
 title: openbsd/pkg (polski)
 description: "Menedżer pakietów OpenBSD."
 content_hash: 136b643a1004f28d5a53506aef211caf546f285b
-last_modified_at: 2023-11-23
+last_modified_at: 2023-11-24
 related_topics:
   - title: English version
     url: /en/openbsd/pkg.html

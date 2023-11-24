@@ -3,7 +3,7 @@ layout: page
 title: openbsd/pkg_delete (Indonesia)
 description: "Hapus pemasangan paket dalam OpenBSD."
 content_hash: c74af954eb27a04535a7638808760c53b49131a6
-last_modified_at: 2023-11-23
+last_modified_at: 2023-11-24
 related_topics:
   - title: English version
     url: /en/openbsd/pkg_delete.html

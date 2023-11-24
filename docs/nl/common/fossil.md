@@ -3,7 +3,7 @@ layout: page
 title: common/fossil (Nederlands)
 description: "Gedistribueerd versiebheer systeem."
 content_hash: f1ea438c44084aebdeaf473172268ca96c5a0100
-last_modified_at: 2023-11-23
+last_modified_at: 2023-11-24
 related_topics:
   - title: English version
     url: /en/common/fossil.html

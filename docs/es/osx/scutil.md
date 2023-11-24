@@ -3,7 +3,7 @@ layout: page
 title: osx/scutil (español)
 description: "Gestiona los parámetros de configuración del sistema."
 content_hash: d2c14d0deee4bfea0c9dd138f85ea167bcb7aaa6
-last_modified_at: 2023-11-23
+last_modified_at: 2023-11-24
 related_topics:
   - title: English version
     url: /en/osx/scutil.html

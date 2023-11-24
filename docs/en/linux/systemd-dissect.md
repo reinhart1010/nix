@@ -3,7 +3,7 @@ layout: page
 title: linux/systemd-dissect (English)
 description: "Introspect and interact with file system OS disk images, specifically Discoverable Disk Images (DDIs)."
 content_hash: 28f5824f640d6698c67422247f453ccf3e70f170
-last_modified_at: 2023-11-23
+last_modified_at: 2023-11-24
 tldri18n_status: 0
 ---
 

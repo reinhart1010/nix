@@ -3,7 +3,7 @@ layout: page
 title: common/fossil-add (Nederlands)
 description: "Plaats bestanden of mappen in Fossil versiebeheer."
 content_hash: 1aaa3eec5a187a93dcc0bec84c4f364963b3d93b
-last_modified_at: 2023-11-23
+last_modified_at: 2023-11-24
 related_topics:
   - title: English version
     url: /en/common/fossil-add.html

@@ -3,7 +3,7 @@ layout: page
 title: osx/pod (español)
 description: "Gestor de dependencias para proyectos Swift y Objective-C Cocoa."
 content_hash: e7d76693a5bb044341edf67caabd04e74de0cba0
-last_modified_at: 2023-11-23
+last_modified_at: 2023-11-24
 related_topics:
   - title: English version
     url: /en/osx/pod.html

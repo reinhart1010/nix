@@ -3,7 +3,7 @@ layout: page
 title: common/bb (한국어)
 description: "스크립팅을 위한 기본 Clojure 인터프리터."
 content_hash: 113a5579e627e2322d0d47619924fbf4f9a15eee
-last_modified_at: 2023-11-23
+last_modified_at: 2023-11-24
 related_topics:
   - title: English version
     url: /en/common/bb.html

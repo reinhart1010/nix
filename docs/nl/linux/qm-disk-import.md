@@ -3,7 +3,7 @@ layout: page
 title: linux/qm-disk-import (Nederlands)
 description: "Importeer een schijf image in een virtuele machine als een ongebruikte schijf."
 content_hash: adcfe38981a768a92fe61fbb084d886e4f062140
-last_modified_at: 2023-11-23
+last_modified_at: 2023-11-24
 related_topics:
   - title: English version
     url: /en/linux/qm-disk-import.html

@@ -3,7 +3,7 @@ layout: page
 title: linux/rlogin (English)
 description: "Log in to a remote host."
 content_hash: 659879a40d0aaed59a707bb3ea9ceb445a0e942f
-last_modified_at: 2023-11-23
+last_modified_at: 2023-11-24
 tldri18n_status: 0
 ---
 

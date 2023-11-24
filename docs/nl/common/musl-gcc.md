@@ -3,7 +3,7 @@ layout: page
 title: common/musl-gcc (Nederlands)
 description: "Een wrapper voor `gcc` die automatisch opties instelt voor het koppelen van musl libc."
 content_hash: 8aa3d53e68a52a85eed13293c0f88ca54f9a2dec
-last_modified_at: 2023-11-23
+last_modified_at: 2023-11-24
 related_topics:
   - title: English version
     url: /en/common/musl-gcc.html

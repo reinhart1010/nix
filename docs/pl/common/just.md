@@ -3,7 +3,7 @@ layout: page
 title: common/just (polski)
 description: "`just` może odnosić się do kilku komend o tej samej nazwie."
 content_hash: 6042d27c636c2a7aead71c683db7517b11cffa1d
-last_modified_at: 2023-11-23
+last_modified_at: 2023-11-24
 related_topics:
   - title: English version
     url: /en/common/just.html

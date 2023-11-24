@@ -3,7 +3,7 @@ layout: page
 title: common/zstdcat (Nederlands)
 description: "Dit commando is een alias van `zstd`."
 content_hash: c91ef76cc7fe80e7e193a1295e5ad88a039eee3d
-last_modified_at: 2023-11-23
+last_modified_at: 2023-11-24
 related_topics:
   - title: English version
     url: /en/common/zstdcat.html

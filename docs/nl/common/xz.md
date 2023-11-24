@@ -3,7 +3,7 @@ layout: page
 title: common/xz (Nederlands)
 description: "Comprimeren of decomprimeren van `.xz` en `.lzma` bestanden."
 content_hash: 148156add3cdf1857c67b9a668d87306e2892c75
-last_modified_at: 2023-11-23
+last_modified_at: 2023-11-24
 related_topics:
   - title: English version
     url: /en/common/xz.html

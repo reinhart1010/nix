@@ -3,7 +3,7 @@ layout: page
 title: common/docker-rm (français)
 description: "Supprime un ou plusieurs conteneurs."
 content_hash: 6d795d2be3a6fdc63e9ed0e9b1d67a79542f466c
-last_modified_at: 2023-11-23
+last_modified_at: 2023-11-24
 related_topics:
   - title: English version
     url: /en/common/docker-rm.html

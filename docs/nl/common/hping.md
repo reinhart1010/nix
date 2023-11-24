@@ -3,7 +3,7 @@ layout: page
 title: common/hping (Nederlands)
 description: "Dit commando is een alias van `hping3`."
 content_hash: 8a6ec53dfd0a04884053761fcd2f2d317133b5ca
-last_modified_at: 2023-11-23
+last_modified_at: 2023-11-24
 related_topics:
   - title: English version
     url: /en/common/hping.html

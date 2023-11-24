@@ -3,7 +3,7 @@ layout: page
 title: common/pnmtoxwd (English)
 description: "Convert a PNM file into an X11 window dump file."
 content_hash: 30ca7edf22b98832380ad8b9686c08b94241e6a9
-last_modified_at: 2023-11-23
+last_modified_at: 2023-11-24
 tldri18n_status: 0
 ---
 

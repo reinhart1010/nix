@@ -3,7 +3,7 @@ layout: page
 title: common/dalfox (English)
 description: "A powerful open-source XSS scanner focused on automation."
 content_hash: c132c1adb599fb33777bf94595a3722da6c9cd8e
-last_modified_at: 2023-11-23
+last_modified_at: 2023-11-24
 tldri18n_status: 0
 ---
 

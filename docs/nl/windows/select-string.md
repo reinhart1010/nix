@@ -3,7 +3,7 @@ layout: page
 title: windows/select-string (Nederlands)
 description: "Vindt tekst in string en bestanden in PowerShell."
 content_hash: 8b0c0756af64030d5422158634243af0cf5d607c
-last_modified_at: 2023-11-23
+last_modified_at: 2023-11-24
 related_topics:
   - title: English version
     url: /en/windows/select-string.html

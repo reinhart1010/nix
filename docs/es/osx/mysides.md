@@ -3,7 +3,7 @@ layout: page
 title: osx/mysides (español)
 description: "Añade, lista y elimina favoritos del Finder."
 content_hash: 3d57a448eede084e7fd3589d87d2ee40ef9af7d4
-last_modified_at: 2023-11-23
+last_modified_at: 2023-11-24
 related_topics:
   - title: English version
     url: /en/osx/mysides.html

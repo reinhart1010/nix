@@ -3,7 +3,7 @@ layout: page
 title: common/fossil-rm (Nederlands)
 description: "Verwijder bestanden of mappen uit Fossil versiebeheer."
 content_hash: 69d41dd3b5161ef7c161b0b4da65b3cef72785f7
-last_modified_at: 2023-11-23
+last_modified_at: 2023-11-24
 related_topics:
   - title: English version
     url: /en/common/fossil-rm.html
