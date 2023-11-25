@@ -3,7 +3,7 @@ layout: page
 title: linux/systemd-machine-id-setup (English)
 description: "Initialize the machine ID stored in `/etc/machine-id` at install time with a provisioned or randomly generated ID."
 content_hash: f86d301db2771457d86489bf9eb47f0b5a8381c0
-last_modified_at: 2023-11-24
+last_modified_at: 2023-11-25
 tldri18n_status: 0
 ---
 

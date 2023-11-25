@@ -3,7 +3,7 @@ layout: page
 title: common/ffsend (中文)
 description: "轻松和安全地分享文件。"
 content_hash: e942ea06816785561644fccffb2bbb89630c00cd
-last_modified_at: 2023-11-24
+last_modified_at: 2023-11-25
 related_topics:
   - title: Deutsch version
     url: /de/common/ffsend.html

@@ -3,7 +3,7 @@ layout: page
 title: common/xzgrep (Nederlands)
 description: "Zoek bestanden die mogelijk worden gecomprimeerd met `xz`, `lzma`, `gzip`, `bzip2`, `lzop`, of `zstd` met behulp van reguliere expressies."
 content_hash: 69f9f48c7894cad1f86d134ebeff3b08f537aeba
-last_modified_at: 2023-11-24
+last_modified_at: 2023-11-25
 related_topics:
   - title: English version
     url: /en/common/xzgrep.html

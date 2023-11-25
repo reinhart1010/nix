@@ -3,7 +3,7 @@ layout: page
 title: common/pbmtozinc (English)
 description: "Convert a PBM image to a Zinc bitmap as used by the Zinc Interface Library Version 1.0."
 content_hash: 317aa8a906f854ef1297eca47496df4459b8826e
-last_modified_at: 2023-11-24
+last_modified_at: 2023-11-25
 tldri18n_status: 0
 ---
 

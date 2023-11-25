@@ -3,7 +3,7 @@ layout: page
 title: common/xzcmp (Nederlands)
 description: "Roep `cmp` aan op bestanden die gecomprimeerd zijn met `xz`, `lzma`, `gzip`, `bzip2`, `lzop`, or `zstd`."
 content_hash: 7b7dcbe7c2ec11be667a93214ad8c971b0525687
-last_modified_at: 2023-11-24
+last_modified_at: 2023-11-25
 related_topics:
   - title: English version
     url: /en/common/xzcmp.html

@@ -3,7 +3,7 @@ layout: page
 title: linux/nmtui-hostname (Nederlands)
 description: "Dit commando is een alias van `nmtui`."
 content_hash: cbc6baf79680df12b8df878d1aebd72446dbcec1
-last_modified_at: 2023-11-24
+last_modified_at: 2023-11-25
 related_topics:
   - title: English version
     url: /en/linux/nmtui-hostname.html

@@ -3,7 +3,7 @@ layout: page
 title: windows/where-object (Nederlands)
 description: "Selecteert objecten uit een verzameling op basis van hun eigenschapswaarden."
 content_hash: 0975ec7f8268d766ace97934fb5a6a4ea17ecc8f
-last_modified_at: 2023-11-24
+last_modified_at: 2023-11-25
 related_topics:
   - title: English version
     url: /en/windows/where-object.html

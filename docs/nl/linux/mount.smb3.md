@@ -3,7 +3,7 @@ layout: page
 title: linux/mount.smb3 (Nederlands)
 description: "Dit commando is een alias van `mount.cifs`."
 content_hash: 02edf5980ac37bc985cee298b8138c1f80d51baf
-last_modified_at: 2023-11-24
+last_modified_at: 2023-11-25
 related_topics:
   - title: English version
     url: /en/linux/mount.smb3.html

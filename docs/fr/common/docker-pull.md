@@ -3,7 +3,7 @@ layout: page
 title: common/docker-pull (français)
 description: "Télécharge une image docker depuis le registre."
 content_hash: 5b2c727807feaa56515627fe00bed32e74329952
-last_modified_at: 2023-11-24
+last_modified_at: 2023-11-25
 related_topics:
   - title: English version
     url: /en/common/docker-pull.html

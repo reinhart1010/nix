@@ -3,7 +3,7 @@ layout: page
 title: common/amass (Nederlands)
 description: "Uitgebreide tool voor Attack Surface Mapping en Asset Discovery."
 content_hash: fce3a5a246959c99442c304a77971e2d18efb13e
-last_modified_at: 2023-11-24
+last_modified_at: 2023-11-25
 related_topics:
   - title: English version
     url: /en/common/amass.html

@@ -3,7 +3,7 @@ layout: page
 title: common/rm (Nederlands)
 description: "Verwijder bestanden of mappen."
 content_hash: 91566b9fe8775fbf37e6ef3407955f2d0116f94e
-last_modified_at: 2023-11-24
+last_modified_at: 2023-11-25
 related_topics:
   - title: Deutsch version
     url: /de/common/rm.html

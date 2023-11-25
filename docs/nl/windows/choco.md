@@ -3,7 +3,7 @@ layout: page
 title: windows/choco (Nederlands)
 description: "De Chocolatey pakket manager."
 content_hash: acbf2dcdca4bffc16f71f6d41fa3eccf1d34714e
-last_modified_at: 2023-11-24
+last_modified_at: 2023-11-25
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco.html

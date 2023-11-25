@@ -3,7 +3,7 @@ layout: page
 title: linux/cgcreate (Nederlands)
 description: "Maak cgroups, gebruikt om bronnen te beperken, te meten en te regelen die door processen worden gebruikt."
 content_hash: 36865f3d6783913a7397281890c368bfb3f51552
-last_modified_at: 2023-11-24
+last_modified_at: 2023-11-25
 related_topics:
   - title: English version
     url: /en/linux/cgcreate.html

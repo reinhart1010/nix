@@ -3,7 +3,7 @@ layout: page
 title: linux/ip6tables-restore (Nederlands)
 description: "Dit commando is een alias van `iptables-restore`."
 content_hash: e55291f1982c95d2d9b4fc101742034a46802247
-last_modified_at: 2023-11-24
+last_modified_at: 2023-11-25
 related_topics:
   - title: English version
     url: /en/linux/ip6tables-restore.html

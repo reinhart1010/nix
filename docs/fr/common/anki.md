@@ -3,7 +3,7 @@ layout: page
 title: common/anki (français)
 description: "Programme de cartes mémo-techniques, puissant et intelligent."
 content_hash: 56c2eb793ab13e0492dff679e816cf38e1c15ab9
-last_modified_at: 2023-11-24
+last_modified_at: 2023-11-25
 related_topics:
   - title: Deutsch version
     url: /de/common/anki.html

@@ -3,7 +3,7 @@ layout: page
 title: common/hut (English)
 description: "A CLI tool for sourcehut."
 content_hash: 3a27d8f189a4921581cf09cc2170a5784ceb028d
-last_modified_at: 2023-11-24
+last_modified_at: 2023-11-25
 tldri18n_status: 0
 ---
 

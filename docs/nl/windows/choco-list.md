@@ -3,7 +3,7 @@ layout: page
 title: windows/choco-list (Nederlands)
 description: "Toon een lijst van pakketten met Chocolatey."
 content_hash: 621eb07b1b7d3f0f15ec072d48a6e013e3caff55
-last_modified_at: 2023-11-24
+last_modified_at: 2023-11-25
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-list.html

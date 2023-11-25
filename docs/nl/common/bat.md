@@ -3,7 +3,7 @@ layout: page
 title: common/bat (Nederlands)
 description: "Bestanden tonen en samenvoegen."
 content_hash: 52a847098336e0b49fbe8652a0d5eb03d53f8955
-last_modified_at: 2023-11-24
+last_modified_at: 2023-11-25
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html

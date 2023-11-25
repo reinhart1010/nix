@@ -3,7 +3,7 @@ layout: page
 title: windows/sc-create (Nederlands)
 description: "Dit commando is een alias van `sc.exe create`."
 content_hash: de66eb294ea11912dfbed83eec1c067e4407403e
-last_modified_at: 2023-11-24
+last_modified_at: 2023-11-25
 related_topics:
   - title: English version
     url: /en/windows/sc-create.html
