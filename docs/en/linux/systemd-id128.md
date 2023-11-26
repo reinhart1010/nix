@@ -2,7 +2,7 @@
 layout: page
 title: linux/systemd-id128 (English)
 description: "Generate and print sd-128 identifiers."
-content_hash: 645d194488b88498ebb075248145709cea8dc91a
+content_hash: 0984f1fcf6ac9cadfa5b121ccd0def04be37997e
 last_modified_at: 2023-11-26
 tldri18n_status: 0
 ---
@@ -36,6 +36,6 @@ More information: <https://www.freedesktop.org/software/systemd/man/systemd-id12
 
 `systemd-id128 invocation-id`
 
-- Generate a new random identifier and print it as an UUID (five groups of digits separated by hyphens):
+- Generate a new random identifier and print it as a UUID (five groups of digits separated by hyphens):
 
 `systemd-id128 new --uuid`
