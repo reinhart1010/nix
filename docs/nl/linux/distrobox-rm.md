@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/distrobox-rm (Nederlands)
-description: "Verwijder een distrobox container."
-content_hash: 6f39b60bbdbe6cf5496f519123f7d041327e4e08
-last_modified_at: 2023-11-20
+description: "Verwijder een Distrobox container. Bekijk ook: `tldr distrobox`."
+content_hash: 52d250c752f78f2727020b60ca054d1004735c03
+last_modified_at: 2023-11-26
 related_topics:
   - title: English version
     url: /en/linux/distrobox-rm.html
@@ -18,14 +18,13 @@ tldri18n_status: 2
 ---
 # distrobox-rm
 
-Verwijder een distrobox container.
-Subcommando van `distrobox`. Bekijk ook: `tldr distrobox`.
+Verwijder een Distrobox container. Bekijk ook: `tldr distrobox`.
 Meer informatie: <https://distrobox.it/usage/distrobox-rm>.
 
-- Verwijder een distrobox container (Tip: Stop the container voordat je hem verwijdert):
+- Verwijder een Distrobox container (Tip: Stop the container voordat je hem verwijdert):
 
 `distrobox-rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>
 
-- Verwijder een distrobox container geforceerd:
+- Verwijder een Distrobox container geforceerd:
 
 `distrobox-rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>` --force`

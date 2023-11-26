@@ -4,18 +4,9 @@ title: linux/rexec (English)
 description: "Execute a command on a remote host."
 content_hash: 5c90c1a07b37f1679ae25754d02ea13be6264c07
 last_modified_at: 2023-11-26
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/rexec.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># rexec
+# rexec
 
 Execute a command on a remote host.
 Note: Use `rexec` with caution, as it transmits data in plain text. Consider secure alternatives like `ssh` for encrypted communication.

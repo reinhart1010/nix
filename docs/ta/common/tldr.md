@@ -53,18 +53,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/tldr.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/tldr.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># tldr
+# tldr
 
 tldr-pages திட்டத்தில் இருந்து கட்டளை வரி கருவிகளுக்கான எளிய உதவிப் பக்கங்களைக் காண்பிக்கவும்.
 குறிப்பு: வாடிக்கையாளர் விவரக்குறிப்பிற்கு `--language` மற்றும் `--list` விருப்பங்கள் தேவையில்லை, ஆனால் பெரும்பாலான வாடிக்கையாளர்கள் அவற்றைச் செயல்படுத்துகிறார்கள்.

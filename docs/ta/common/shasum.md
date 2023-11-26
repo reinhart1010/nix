@@ -3,7 +3,7 @@ layout: page
 title: common/shasum (தமிழ்)
 description: "SHA மறையீட்டு சரிகாண்தொகைகளைக் கணி அல்லது சரிபார்."
 content_hash: 8773e0bd0488d8575c93bcfbfd54f5f750eb4741
-last_modified_at: 2023-11-13
+last_modified_at: 2023-11-26
 related_topics:
   - title: English version
     url: /en/common/shasum.html
@@ -11,12 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/shasum.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># shasum
+# shasum
 
 SHA மறையீட்டு சரிகாண்தொகைகளைக் கணி அல்லது சரிபார்.
 மேலும் விவரத்திற்கு: <https://manned.org/shasum>.

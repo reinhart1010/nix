@@ -3,7 +3,7 @@ layout: page
 title: common/cargo-test (தமிழ்)
 description: "ரஸ்ட் தொகுப்பின் அலகு மற்றும் ஒருங்கிணைப்பு சோதனைகளை செயல்படுத்தவும்."
 content_hash: a8770d8d7a3e326fcf02bf1f00e5112bceaa6a18
-last_modified_at: 2023-11-14
+last_modified_at: 2023-11-26
 related_topics:
   - title: English version
     url: /en/common/cargo-test.html
@@ -11,12 +11,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/cargo-test.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cargo test
+# cargo test
 
 ரஸ்ட் தொகுப்பின் அலகு மற்றும் ஒருங்கிணைப்பு சோதனைகளை செயல்படுத்தவும்.
 மேலும் விவரத்திற்கு: <https://doc.rust-lang.org/cargo/commands/cargo-test.html>.

@@ -4,18 +4,9 @@ title: common/aws-eks (English)
 description: "CLI for Amazon EKS (Elastic Kubernetes Service)."
 content_hash: 1fa5e12c71ecdecdafa043de838c579ab652964b
 last_modified_at: 2023-11-26
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/aws-eks.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># aws eks
+# aws eks
 
 CLI for Amazon EKS (Elastic Kubernetes Service).
 More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/eks/index.html>.

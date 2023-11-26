@@ -3,7 +3,7 @@ layout: page
 title: linux/apx (தமிழ்)
 description: "பல மூலங்களுக்கான ஆதரவுடன் தொகுப்பு மேலாண்மை பயன்பாடு, துணை அமைப்புகளில் தொகுப்புகளை நிறுவ உங்களை அனுமதிக்கிறது."
 content_hash: 0b5959e9894507ce313c530a9c59093e2daa7938
-last_modified_at: 2023-11-14
+last_modified_at: 2023-11-26
 related_topics:
   - title: English version
     url: /en/linux/apx.html
@@ -11,12 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/linux/apx.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># apx
+# apx
 
 பல மூலங்களுக்கான ஆதரவுடன் தொகுப்பு மேலாண்மை பயன்பாடு, துணை அமைப்புகளில் தொகுப்புகளை நிறுவ உங்களை அனுமதிக்கிறது.
 மேலும் விவரத்திற்கு: <https://github.com/Vanilla-OS/apx>.

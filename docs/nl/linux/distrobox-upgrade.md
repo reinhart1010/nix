@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/distrobox-upgrade (Nederlands)
-description: "Upgrade een of meerdere distrobox containers."
-content_hash: 914f5cc8ecb7c7e94c1b5d1ca939d7e0de9710d9
-last_modified_at: 2023-11-20
+description: "Upgrade een of meerdere Distrobox containers. Bekijk ook: `tldr distrobox`."
+content_hash: 331d4ad8ff1c38792a90a5dcc9c0f04a8306820a
+last_modified_at: 2023-11-26
 related_topics:
   - title: English version
     url: /en/linux/distrobox-upgrade.html
@@ -15,8 +15,7 @@ tldri18n_status: 2
 ---
 # distrobox-upgrade
 
-Upgrade een of meerdere distrobox containers.
-Subcommando van `distrobox`. Bekijk ook: `tldr distrobox`.
+Upgrade een of meerdere Distrobox containers. Bekijk ook: `tldr distrobox`.
 Meer informatie: <https://distrobox.it/usage/distrobox-upgrade>.
 
 - Upgrade een container met behulp van de native pakketbeheerder van de container:

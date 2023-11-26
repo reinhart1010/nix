@@ -3,7 +3,7 @@ layout: page
 title: common/tldr (ไทย)
 description: "แสดงตัวอย่างแบบง่ายสำหรับเครื่องมือบน command-line จากโปรเจคท์ tldr-pages."
 content_hash: 55e3fd68cf79a884e15b78a48f5b75eee8a60935
-last_modified_at: 2023-11-22
+last_modified_at: 2023-11-26
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
@@ -38,6 +38,9 @@ related_topics:
   - title: sh version
     url: /sh/common/tldr.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/tldr.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/tldr.html
     icon: bi bi-globe
@@ -50,9 +53,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/tldr.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# tldr
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># tldr
 
 แสดงตัวอย่างแบบง่ายสำหรับเครื่องมือบน command-line จากโปรเจคท์ tldr-pages.
 ข้อมูลเพิ่มเติม: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>

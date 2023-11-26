@@ -3,7 +3,7 @@ layout: page
 title: windows/cd (Indonesia)
 description: "Tampilkan direktori kerja saat ini atau pindah ke direktori lain."
 content_hash: 5149014519c3bdb095a8046ac9efa993c1769840
-last_modified_at: 2023-11-12
+last_modified_at: 2023-11-26
 related_topics:
   - title: বাংলা version
     url: /bn/windows/cd.html
@@ -44,12 +44,9 @@ related_topics:
   - title: ไทย version
     url: /th/windows/cd.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cd
+# cd
 
 Tampilkan direktori kerja saat ini atau pindah ke direktori lain.
 Dalam PowerShell, perintah ini merupakan alias dari `Set-Location`. Dokumentasi ini ditulis menurut perintah `cd` versi Command Prompt (`cmd`).

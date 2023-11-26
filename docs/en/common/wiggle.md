@@ -4,18 +4,9 @@ title: common/wiggle (English)
 description: "A patch application tool resolving conflicts in patches that `patch` cannot handle."
 content_hash: 3b91161c437b7878a40832a70b93938769a19780
 last_modified_at: 2023-11-26
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/wiggle.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># wiggle
+# wiggle
 
 A patch application tool resolving conflicts in patches that `patch` cannot handle.
 Note: Wiggle forcefully applies all changes, merging when conflicts arise, and reporting unresolvable issues.

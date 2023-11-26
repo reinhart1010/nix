@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/openbsd/pkg_info.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/openbsd/pkg_info.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pkg_info
+# pkg_info
 
 Lihat dokumentasi mengenai paket yang tersedia baik dalam repositori atau pemasangan OpenBSD.
 Lihat juga: `pkg_add`, `pkg_delete`.

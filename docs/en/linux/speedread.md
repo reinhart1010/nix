@@ -4,18 +4,9 @@ title: linux/speedread (English)
 description: "A simple terminal-based open source Spritz-alike."
 content_hash: 35f66821c76d28093695e611409c47f2abf6f8fb
 last_modified_at: 2023-11-26
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/speedread.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># speedread
+# speedread
 
 A simple terminal-based open source Spritz-alike.
 Shows input text as a per-word RSVP (rapid serial visual presentation) aligned on optimal reading points, which allows reading text at a much more rapid pace than usual as the eye can stay fixed on a single place.

@@ -3,7 +3,7 @@ layout: page
 title: common/tldr (ລາວ)
 description: "ສະແດງໜ້າຊ່ວຍເຫຼືອແບບງ່າຍໆສຳລັບເຄື່ອງມືແຖວຄຳສັ່ງຈາກໂຄງການ tldr-pages."
 content_hash: ca3c0630f563be03ca23cb67bd5d0d14518e3b80
-last_modified_at: 2023-11-22
+last_modified_at: 2023-11-26
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html
@@ -35,6 +35,9 @@ related_topics:
   - title: sh version
     url: /sh/common/tldr.html
     icon: bi bi-globe
+  - title: தமிழ் version
+    url: /ta/common/tldr.html
+    icon: bi bi-globe
   - title: ไทย version
     url: /th/common/tldr.html
     icon: bi bi-globe
@@ -50,9 +53,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/tldr.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# tldr
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># tldr
 
 ສະແດງໜ້າຊ່ວຍເຫຼືອແບບງ່າຍໆສຳລັບເຄື່ອງມືແຖວຄຳສັ່ງຈາກໂຄງການ tldr-pages.
 ຂໍ້ມູນເພີ່ມເຕີມ: <https://github.com/tldr-pages/tldr/blob/main/CLIENT-SPECIFICATION.md#command-line-interface>.

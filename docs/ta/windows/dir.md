@@ -3,7 +3,7 @@ layout: page
 title: windows/dir (தமிழ்)
 description: "அடைவு உள்ளடக்கங்களை பட்டியலிடுங்கள்."
 content_hash: 62c5d2f542a64f22b4330c7b48809ad82f3e7ef1
-last_modified_at: 2023-11-14
+last_modified_at: 2023-11-26
 related_topics:
   - title: català version
     url: /ca/windows/dir.html
@@ -44,12 +44,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/dir.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dir
+# dir
 
 அடைவு உள்ளடக்கங்களை பட்டியலிடுங்கள்.
 மேலும் விவரத்திற்கு: <https://learn.microsoft.com/windows-server/administration/windows-commands/dir>.

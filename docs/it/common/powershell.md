@@ -3,7 +3,7 @@ layout: page
 title: common/powershell (italiano)
 description: "Shell della riga di comando e linguaggio di scripting progettato appositamente per l'amministrazione dei sistemi."
 content_hash: fb8835fd139dcc9357a4128b37b6e24b4b3bfa1d
-last_modified_at: 2023-11-13
+last_modified_at: 2023-11-26
 related_topics:
   - title: English version
     url: /en/common/powershell.html
@@ -11,15 +11,21 @@ related_topics:
   - title: français version
     url: /fr/common/powershell.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/powershell.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/powershell.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/powershell.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# powershell
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># powershell
 
 Shell della riga di comando e linguaggio di scripting progettato appositamente per l'amministrazione dei sistemi.
 Guarda anche: `pwsh`.

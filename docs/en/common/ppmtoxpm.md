@@ -4,18 +4,9 @@ title: common/ppmtoxpm (English)
 description: "Convert a PPM image to an X11 version 3 pixmap."
 content_hash: cad80ab39377cdfd8f31591482f5a307cbe4711c
 last_modified_at: 2023-11-26
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ppmtoxpm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ppmtoxpm
+# ppmtoxpm
 
 Convert a PPM image to an X11 version 3 pixmap.
 More information: <https://netpbm.sourceforge.net/doc/ppmtoxpm.html>.

@@ -3,7 +3,7 @@ layout: page
 title: windows/rmdir (தமிழ்)
 description: "ஒரு கோப்பகம் மற்றும் அதன் உள்ளடக்கங்களை அகற்றவும்."
 content_hash: 0313f0bf3750b06537cf091a613e47fddd023a6e
-last_modified_at: 2023-11-13
+last_modified_at: 2023-11-26
 related_topics:
   - title: English version
     url: /en/windows/rmdir.html
@@ -17,12 +17,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/rmdir.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># rmdir
+# rmdir
 
 ஒரு கோப்பகம் மற்றும் அதன் உள்ளடக்கங்களை அகற்றவும்.
 PowerShell இல், இந்த கட்டளை `Remove-Item` என்பதன் மாற்றுப் பெயராகும். இந்த ஆவணம் `rmdir` இன் கட்டளை வரியில் (`cmd`) பதிப்பை அடிப்படையாகக் கொண்டது.

@@ -4,18 +4,9 @@ title: common/ximtoppm (English)
 description: "Convert a XIM file to a PPM image."
 content_hash: 4f8f9fc8e17f2be4a2467e605cfe9536fe3ab24b
 last_modified_at: 2023-11-26
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ximtoppm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ximtoppm
+# ximtoppm
 
 Convert a XIM file to a PPM image.
 More information: <https://netpbm.sourceforge.net/doc/ximtoppm.html>.

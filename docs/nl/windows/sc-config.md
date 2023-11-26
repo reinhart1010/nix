@@ -8,18 +8,9 @@ related_topics:
   - title: English version
     url: /en/windows/sc-config.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/sc-config.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># sc-config
+# sc-config
 
 Dit commando is een alias van `sc.exe config`.
 Meer informatie: <https://learn.microsoft.com/windows-server/administration/windows-commands/sc-config>.

@@ -20,18 +20,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/powershell.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/powershell.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># powershell
+# powershell
 
 Dit commando kan verward worden met de cross-platform versie van PowerShell (vroeger bekend als PowerShell Core), welke gebruik maakt van `pwsh` in plaats van `powershell`.
 Het originele `powershell` commando in Windows is nog steeds beschikbaar om gebruik te maken van de legacy Windows versie van PowerShell (versie 5.1 en lager).

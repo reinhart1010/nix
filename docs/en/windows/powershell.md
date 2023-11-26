@@ -4,18 +4,9 @@ title: windows/powershell (English)
 description: "Command-line shell and scripting language designed especially for system administration."
 content_hash: f83694d3ffe8d11c0cf76c04099275166c31265e
 last_modified_at: 2023-11-26
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/powershell.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># powershell
+# powershell
 
 Command-line shell and scripting language designed especially for system administration.
 This command refers to PowerShell version 5.1 and below (also known as the legacy Windows PowerShell). To use the newer, cross-platform version of PowerShell (also known as PowerShell Core), use `pwsh` instead of `powershell`.

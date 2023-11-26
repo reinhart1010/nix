@@ -3,7 +3,7 @@ layout: page
 title: windows/cd (தமிழ்)
 description: "தற்போதைய வேலை கோப்பகத்தைக் காட்டவும் அல்லது வேறு கோப்பகத்திற்கு நகர்த்தவும்."
 content_hash: 5e2fa91bb38c321689d82187de5f210010258939
-last_modified_at: 2023-11-13
+last_modified_at: 2023-11-26
 related_topics:
   - title: বাংলা version
     url: /bn/windows/cd.html
@@ -44,12 +44,9 @@ related_topics:
   - title: ไทย version
     url: /th/windows/cd.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cd
+# cd
 
 தற்போதைய வேலை கோப்பகத்தைக் காட்டவும் அல்லது வேறு கோப்பகத்திற்கு நகர்த்தவும்.
 PowerShell இல், இந்தக் கட்டளையானது `Set-Location` என்பதன் மாற்றுப் பெயராகும். இந்த ஆவணம் `cd` இன் கட்டளை வரியில் (`cmd`) பதிப்பை அடிப்படையாகக் கொண்டது.

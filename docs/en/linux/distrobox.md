@@ -2,8 +2,8 @@
 layout: page
 title: linux/distrobox (English)
 description: "Use any Linux distribution inside your terminal in a container. Install & use packages inside it while tightly integrating with the host OS, sharing storage (`home` directory) and hardware."
-content_hash: 2cc16593fd20bf77f56d2a8a4fb894ef1d790d7a
-last_modified_at: 2023-11-12
+content_hash: e2d620dc87c12221f0080610b8953df630ccde40
+last_modified_at: 2023-11-26
 related_topics:
   - title: Nederlands version
     url: /nl/linux/distrobox.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # distrobox
 
 Use any Linux distribution inside your terminal in a container. Install & use packages inside it while tightly integrating with the host OS, sharing storage (`home` directory) and hardware.
-It uses Podman or Docker to create your containers.
+Note: It uses Podman or Docker to create your containers.
 More information: <https://github.com/89luca89/distrobox>.
 
 - View documentation for creating containers:

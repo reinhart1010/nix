@@ -3,7 +3,7 @@ layout: page
 title: common/scp (한국어)
 description: "보안 복사."
 content_hash: 96411caebc1b32d3506283dd7bdf7d701512de27
-last_modified_at: 2023-11-12
+last_modified_at: 2023-11-26
 related_topics:
   - title: English version
     url: /en/common/scp.html
@@ -11,9 +11,12 @@ related_topics:
   - title: हिन्दी version
     url: /hi/common/scp.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# scp
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># scp
 
 보안 복사.
 SSH를 통한 보안 복사 프로토콜을 사용하여 호스트 간에 파일 복사.

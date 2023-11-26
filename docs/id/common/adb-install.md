@@ -3,7 +3,7 @@ layout: page
 title: common/adb-install (Indonesia)
 description: "Android Debug Bridge Install: Memasang paket ke emulator Android atau perangkat Android terhubung."
 content_hash: bd51e678cfbdf6b7cb9837b44c1f40a6129c808b
-last_modified_at: 2023-11-12
+last_modified_at: 2023-11-26
 related_topics:
   - title: English version
     url: /en/common/adb-install.html
@@ -32,12 +32,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/adb-install.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># adb install
+# adb install
 
 Android Debug Bridge Install: Memasang paket ke emulator Android atau perangkat Android terhubung.
 Informasi lebih lanjut: <https://developer.android.com/studio/command-line/adb>.

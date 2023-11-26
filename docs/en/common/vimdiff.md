@@ -2,8 +2,8 @@
 layout: page
 title: common/vimdiff (English)
 description: "Open up two or more files in vim and show the differences between them."
-content_hash: bbfef8891c9f183b76c8d96f8c2f6d5695dd88ca
-last_modified_at: 2023-11-23
+content_hash: bfa537ff2dc974903ca380bbaf76a91aca44ac74
+last_modified_at: 2023-11-26
 related_topics:
   - title: Deutsch version
     url: /de/common/vimdiff.html
@@ -21,7 +21,7 @@ More information: <https://www.vim.org>.
 
 - Open two files and show the differences:
 
-`vimdiff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file2</span>
+`vimdiff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>
 
 - Move the cursor to the window on the left|right:
 

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/distrobox-list (Nederlands)
-description: "Toon alle distrobox containers."
-content_hash: 7f07282b8fdf91c74f4b005aa4a0bce7ff670845
-last_modified_at: 2023-11-20
+description: "Toon alle Distrobox containers. Bekijk ook: `tldr distrobox`."
+content_hash: 861e17d87c86109207111237280b6a5d00c880a9
+last_modified_at: 2023-11-26
 related_topics:
   - title: English version
     url: /en/linux/distrobox-list.html
@@ -18,15 +18,14 @@ tldri18n_status: 2
 ---
 # distrobox-list
 
-Toon alle distrobox containers.
-Subcommando van `distrobox`. Bekijk ook: `tldr distrobox`.
+Toon alle Distrobox containers. Bekijk ook: `tldr distrobox`.
 Distrobox containers worden los van de rest van de normale Podman of Docker containers weergegeven.
 Meer informatie: <https://distrobox.it/usage/distrobox-list>.
 
-- Toon alle distrobox containers:
+- Toon alle Distrobox containers:
 
 `distrobox-list`
 
-- Toon alle distrobox containers met verbose informatie:
+- Toon alle Distrobox containers met verbose informatie:
 
 `distrobox-list --verbose`

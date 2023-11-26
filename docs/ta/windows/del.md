@@ -3,7 +3,7 @@ layout: page
 title: windows/del (தமிழ்)
 description: "ஒன்று அல்லது அதற்கு மேற்பட்ட கோப்புகளை நீக்கவும்."
 content_hash: 8d77fc16765e735a62ccbc0af4f19bf30a26abb3
-last_modified_at: 2023-11-13
+last_modified_at: 2023-11-26
 related_topics:
   - title: Deutsch version
     url: /de/windows/del.html
@@ -26,12 +26,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/del.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># del
+# del
 
 ஒன்று அல்லது அதற்கு மேற்பட்ட கோப்புகளை நீக்கவும்.
 PowerShell இல், இந்த கட்டளை `Remove-Item` என்பதன் மாற்றுப் பெயராகும். இந்த ஆவணம் `del` இன் கட்டளை வரியில் (`cmd`) பதிப்பை அடிப்படையாகக் கொண்டது.

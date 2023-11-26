@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/distrobox-stop (Nederlands)
-description: "Stop een distrobox container."
-content_hash: d2c61ec7b51efd75169204b8be0892d37e9b155b
-last_modified_at: 2023-11-20
+description: "Stop een Distrobox container. Bekijk ook: `tldr distrobox`."
+content_hash: 3162a8996f65179fd73a4561e3f028ba0716b284
+last_modified_at: 2023-11-26
 related_topics:
   - title: English version
     url: /en/linux/distrobox-stop.html
@@ -15,14 +15,13 @@ tldri18n_status: 2
 ---
 # distrobox-stop
 
-Stop een distrobox container.
-Subcommando van `distrobox`. Bekijk ook: `tldr distrobox`.
+Stop een Distrobox container. Bekijk ook: `tldr distrobox`.
 Meer informatie: <https://distrobox.it/usage/distrobox-stop>.
 
-- Stop een distrobox container:
+- Stop een Distrobox container:
 
 `distrobox-stop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>
 
-- Stop een distrobox container zonder bevestiging:
+- Stop een Distrobox container zonder bevestiging:
 
 `distrobox-stop --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>` --yes`

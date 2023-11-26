@@ -3,7 +3,7 @@ layout: page
 title: windows/curl (Deutsch)
 description: "In PowerShell kann dieser Befehl ein Alias von `Invoke-WebRequest` sein, wenn das Originalprogramm `curl` (<https://curl.se>) nicht ordnungsgemäß installiert wurde."
 content_hash: d6e59a9f23bddb21ad52d416a92b4d12843393fb
-last_modified_at: 2023-11-12
+last_modified_at: 2023-11-26
 related_topics:
   - title: العربية version
     url: /ar/windows/curl.html
@@ -92,12 +92,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/curl.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># curl
+# curl
 
 In PowerShell kann dieser Befehl ein Alias von `Invoke-WebRequest` sein, wenn das Originalprogramm `curl` (<https://curl.se>) nicht ordnungsgemäß installiert wurde.
 Weitere Informationen: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.

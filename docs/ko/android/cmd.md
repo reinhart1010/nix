@@ -68,18 +68,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/android/cmd.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/android/cmd.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cmd
+# cmd
 
 Android 서비스 매니저.
 더 많은 정보: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/cmd/>.
