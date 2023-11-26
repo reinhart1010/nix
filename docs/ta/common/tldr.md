@@ -3,7 +3,7 @@ layout: page
 title: common/tldr (தமிழ்)
 description: "tldr-pages திட்டத்தில் இருந்து கட்டளை வரி கருவிகளுக்கான எளிய உதவிப் பக்கங்களைக் காண்பிக்கவும்."
 content_hash: 2ace7efa2983695f5badc7c3c109dded43557ea9
-last_modified_at: 2023-11-25
+last_modified_at: 2023-11-26
 related_topics:
   - title: Deutsch version
     url: /de/common/tldr.html

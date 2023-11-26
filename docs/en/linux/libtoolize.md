@@ -3,7 +3,7 @@ layout: page
 title: linux/libtoolize (English)
 description: "A tool used in the autotools build system to prepare a package for the use of `libtool`."
 content_hash: 581117df53920657eb70276fd530feb45c9df892
-last_modified_at: 2023-11-25
+last_modified_at: 2023-11-26
 tldri18n_status: 0
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: common/docker-container-remove (polski)
 description: "To polecenie jest aliasem `docker rm`."
 content_hash: e328bee17749a65411275ff842886a5df203e450
-last_modified_at: 2023-11-25
+last_modified_at: 2023-11-26
 related_topics:
   - title: English version
     url: /en/common/docker-container-remove.html

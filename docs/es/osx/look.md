@@ -3,7 +3,7 @@ layout: page
 title: osx/look (español)
 description: "Busca líneas en un archivo ordenado."
 content_hash: 581b722837564c62a4b41f87bf99cc75ae183ef7
-last_modified_at: 2023-11-25
+last_modified_at: 2023-11-26
 related_topics:
   - title: English version
     url: /en/osx/look.html

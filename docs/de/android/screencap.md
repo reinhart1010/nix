@@ -3,7 +3,7 @@ layout: page
 title: android/screencap (Deutsch)
 description: "Nimmt ein Bildschirmfoto von einem Handy-Display auf."
 content_hash: 23edc38c34f2f7bd72472f84ddb977602f2ee05e
-last_modified_at: 2023-11-25
+last_modified_at: 2023-11-26
 related_topics:
   - title: বাংলা version
     url: /bn/android/screencap.html

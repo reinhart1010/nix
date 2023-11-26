@@ -3,7 +3,7 @@ layout: page
 title: common/asciitopgm (한국어)
 description: "ASCII 그래픽을 PGM 파일로 변환합니다."
 content_hash: 2f5be297d6f9a512b45f5293e0aa4a1bf2175960
-last_modified_at: 2023-11-25
+last_modified_at: 2023-11-26
 related_topics:
   - title: English version
     url: /en/common/asciitopgm.html

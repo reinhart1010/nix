@@ -3,7 +3,7 @@ layout: page
 title: common/ani-cli (Nederlands)
 description: "Een cli om door anime te bladeren en deze te bekijken."
 content_hash: bff896f20334f61f3517330bc7090018ff3ebcb7
-last_modified_at: 2023-11-25
+last_modified_at: 2023-11-26
 related_topics:
   - title: Deutsch version
     url: /de/common/ani-cli.html

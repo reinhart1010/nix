@@ -3,7 +3,7 @@ layout: page
 title: common/docker-rename (Nederlands)
 description: "Hernoem een container."
 content_hash: 029eeb0c34ee1ac1c6cb0ef0857afcbefb2a9315
-last_modified_at: 2023-11-25
+last_modified_at: 2023-11-26
 related_topics:
   - title: English version
     url: /en/common/docker-rename.html

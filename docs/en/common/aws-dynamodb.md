@@ -3,7 +3,7 @@ layout: page
 title: common/aws-dynamodb (English)
 description: "CLI for AWS dynamodb."
 content_hash: 69b4a50a2d7cf6e15fb120c1a9595c3ba22d4e13
-last_modified_at: 2023-11-25
+last_modified_at: 2023-11-26
 tldri18n_status: 0
 ---
 

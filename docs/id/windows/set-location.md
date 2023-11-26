@@ -3,7 +3,7 @@ layout: page
 title: windows/set-location (Indonesia)
 description: "Tampilkan direktori kerja saat ini atau pindah ke direktori lain."
 content_hash: e190833d17afe2dd48a8e92e7f030d8a8d1d04c1
-last_modified_at: 2023-11-25
+last_modified_at: 2023-11-26
 related_topics:
   - title: English version
     url: /en/windows/set-location.html

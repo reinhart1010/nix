@@ -3,7 +3,7 @@ layout: page
 title: osx/mktemp (español)
 description: "Crea un archivo o directorio temporal."
 content_hash: 30ca868cc98aaf7666c8b7147c0cc833eecb7415
-last_modified_at: 2023-11-25
+last_modified_at: 2023-11-26
 related_topics:
   - title: English version
     url: /en/osx/mktemp.html

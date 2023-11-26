@@ -3,7 +3,7 @@ layout: page
 title: common/ansible (Nederlands)
 description: "Beheer een groep van computers op afstand over SSH. (Gebruik het `/etc/ansible/hosts` bestand om nieuwe groepen/hosts toe te voegen)."
 content_hash: 45740abe42f4f00fd65dd4312502f2ae0f7d9a89
-last_modified_at: 2023-11-25
+last_modified_at: 2023-11-26
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible.html

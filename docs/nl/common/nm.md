@@ -3,7 +3,7 @@ layout: page
 title: common/nm (Nederlands)
 description: "Toon symbool namen in object bestanden."
 content_hash: b79285b397a022f88163d5b499758301dd719741
-last_modified_at: 2023-11-25
+last_modified_at: 2023-11-26
 related_topics:
   - title: English version
     url: /en/common/nm.html

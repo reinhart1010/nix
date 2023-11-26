@@ -3,7 +3,7 @@ layout: page
 title: common/atq (한국어)
 description: "`at` 또는 `batch` 명령으로 예약된 작업 표시."
 content_hash: 2ba0bf5fa3c9f882625a3e60bbd5f3c8db2176c0
-last_modified_at: 2023-11-25
+last_modified_at: 2023-11-26
 related_topics:
   - title: English version
     url: /en/common/atq.html

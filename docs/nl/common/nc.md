@@ -3,7 +3,7 @@ layout: page
 title: common/nc (Nederlands)
 description: "Netcat is een veelzijdig hulpprogramma voor het omleiden van IO naar een netwerkstream."
 content_hash: 5df06cb7c1309786a0bd53056536a3bf45b6fcd3
-last_modified_at: 2023-11-25
+last_modified_at: 2023-11-26
 related_topics:
   - title: English version
     url: /en/common/nc.html

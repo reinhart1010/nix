@@ -3,7 +3,7 @@ layout: page
 title: common/ppmtoarbtxt (English)
 description: "Convert a PPM image to an arbitrary text format according to a template."
 content_hash: 8317ba1113911ac5c0967f5e3027d7bbabf4ca8e
-last_modified_at: 2023-11-25
+last_modified_at: 2023-11-26
 tldri18n_status: 0
 ---
 

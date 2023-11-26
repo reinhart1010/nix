@@ -3,7 +3,7 @@ layout: page
 title: common/pamtowinicon (English)
 description: "Convert a PAM image to a Windows ICO file."
 content_hash: 927bbb2b59aaf549ffe95183c072f9168f0d6748
-last_modified_at: 2023-11-25
+last_modified_at: 2023-11-26
 tldri18n_status: 0
 ---
 

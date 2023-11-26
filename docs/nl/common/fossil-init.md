@@ -3,7 +3,7 @@ layout: page
 title: common/fossil-init (Nederlands)
 description: "Initialiseer een nieuwe repository voor een project."
 content_hash: c21f25759d5a9af14a4b043b011db9069d7c84f3
-last_modified_at: 2023-11-25
+last_modified_at: 2023-11-26
 related_topics:
   - title: English version
     url: /en/common/fossil-init.html

@@ -3,7 +3,7 @@ layout: page
 title: common/pamnoraw (English)
 description: "This command is an alias of `pamtopnm -plain`."
 content_hash: 9ca81956390b67feb489ed3f62a5ff39982ef602
-last_modified_at: 2023-11-25
+last_modified_at: 2023-11-26
 tldri18n_status: 0
 ---
 

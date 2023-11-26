@@ -3,7 +3,7 @@ layout: page
 title: common/ppmtomitsu (English)
 description: "Convert a PPM image to a Mitsubishi S340-10 file."
 content_hash: 15c7a6a7f14beef2f60e15f0fee92b514c2732bb
-last_modified_at: 2023-11-25
+last_modified_at: 2023-11-26
 tldri18n_status: 0
 ---
 

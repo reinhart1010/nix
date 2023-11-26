@@ -3,7 +3,7 @@ layout: page
 title: windows/invoke-webrequest (Nederlands)
 description: "Voer een HTTP/HTTPS request uit naar het Web."
 content_hash: 88302961460571da14789add7aeeac137d06ee72
-last_modified_at: 2023-11-25
+last_modified_at: 2023-11-26
 related_topics:
   - title: English version
     url: /en/windows/invoke-webrequest.html

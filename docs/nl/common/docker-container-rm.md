@@ -3,7 +3,7 @@ layout: page
 title: common/docker-container-rm (Nederlands)
 description: "Dit commando is een alias van `docker rm`."
 content_hash: fcbf8a928fe19a593006707d4f13db16fc5cd54a
-last_modified_at: 2023-11-25
+last_modified_at: 2023-11-26
 related_topics:
   - title: English version
     url: /en/common/docker-container-rm.html

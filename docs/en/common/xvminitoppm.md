@@ -3,7 +3,7 @@ layout: page
 title: common/xvminitoppm (English)
 description: "Convert an XV thumbnail picture to PPM."
 content_hash: 7f10427fa9c250c52981c7605e5acd3797312c5d
-last_modified_at: 2023-11-25
+last_modified_at: 2023-11-26
 tldri18n_status: 0
 ---
 

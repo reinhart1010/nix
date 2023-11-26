@@ -3,7 +3,7 @@ layout: page
 title: common/fossil-commit (Nederlands)
 description: "Commit bestanden naar een Fossil repository."
 content_hash: 2d5dd105aa660b995283ffc681f4a0727ce6ffae
-last_modified_at: 2023-11-25
+last_modified_at: 2023-11-26
 related_topics:
   - title: English version
     url: /en/common/fossil-commit.html

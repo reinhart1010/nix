@@ -3,7 +3,7 @@ layout: page
 title: common/pnmtotiffcmyk (English)
 description: "Convert a PNM image to a CMYK encoded TIFF."
 content_hash: 0b263540b21901585362f68f48262d3d60ee24b4
-last_modified_at: 2023-11-25
+last_modified_at: 2023-11-26
 tldri18n_status: 0
 ---
 

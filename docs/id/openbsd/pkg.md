@@ -3,7 +3,7 @@ layout: page
 title: openbsd/pkg (Indonesia)
 description: "Manajer paket untuk OpenBSD."
 content_hash: c9f6be12d1522d3ba95770d1ef5c5b726bd34b77
-last_modified_at: 2023-11-25
+last_modified_at: 2023-11-26
 related_topics:
   - title: English version
     url: /en/openbsd/pkg.html

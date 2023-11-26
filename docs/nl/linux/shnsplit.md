@@ -3,7 +3,7 @@ layout: page
 title: linux/shnsplit (Nederlands)
 description: "Splitst audiobestanden volgens een `.cue` bestand."
 content_hash: c856a7a9c32700159c19513e72683e81f25aec90
-last_modified_at: 2023-11-25
+last_modified_at: 2023-11-26
 related_topics:
   - title: English version
     url: /en/linux/shnsplit.html

@@ -3,7 +3,7 @@ layout: page
 title: common/airshare (한국어)
 description: "로컬 네트워크의 두 컴퓨터 사이의 데이터 전송."
 content_hash: 353ac3ff34bb577371e2f3e01039a46683830a3c
-last_modified_at: 2023-11-25
+last_modified_at: 2023-11-26
 related_topics:
   - title: English version
     url: /en/common/airshare.html

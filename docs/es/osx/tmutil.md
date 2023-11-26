@@ -3,7 +3,7 @@ layout: page
 title: osx/tmutil (español)
 description: "Utilidad para gestionar las copias de seguridad de Time Machine. La mayoría de las acciones requieren privilegios de root."
 content_hash: 5d36030db81dda0750fd887ddf9821e8923c8c0a
-last_modified_at: 2023-11-25
+last_modified_at: 2023-11-26
 related_topics:
   - title: Deutsch version
     url: /de/osx/tmutil.html
