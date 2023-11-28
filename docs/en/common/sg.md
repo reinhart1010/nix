@@ -3,19 +3,10 @@ layout: page
 title: common/sg (English)
 description: "Ast-grep is a tool for code structural search, lint, and rewriting."
 content_hash: 03acd7f185635086ee6faf3be9c363b9ce192366
-last_modified_at: 2023-11-27
-tldri18n_status: 0
+last_modified_at: 2023-11-28
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/sg.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># sg
+# sg
 
 Ast-grep is a tool for code structural search, lint, and rewriting.
 More information: <https://ast-grep.github.io/guide/introduction.html>.

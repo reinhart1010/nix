@@ -3,19 +3,10 @@ layout: page
 title: common/git-write-tree (English)
 description: "Low level utility to create a tree object from the current index."
 content_hash: c0e050f4892e353a0a4204bbdcec4349dbde3087
-last_modified_at: 2023-11-27
-tldri18n_status: 0
+last_modified_at: 2023-11-28
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-write-tree.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git write-tree
+# git write-tree
 
 Low level utility to create a tree object from the current index.
 More information: <https://git-scm.com/docs/git-write-tree>.
