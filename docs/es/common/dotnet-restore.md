@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/dotnet-restore (español)
-description: "Restarua las dependencias y herramientas de un proyecto .NET."
-content_hash: 0d8ffc82f701b4c19f1d64d01b1b050ec1d6ba39
-last_modified_at: 2023-11-12
+description: "Restaura las dependencias y herramientas de un proyecto .NET."
+content_hash: ac952ce102c0c0c1e7a67c0c7185da9d300c7685
+last_modified_at: 2023-11-30
 related_topics:
   - title: English version
     url: /en/common/dotnet-restore.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 ---
 # dotnet restore
 
-Restarua las dependencias y herramientas de un proyecto .NET.
+Restaura las dependencias y herramientas de un proyecto .NET.
 Más información: <https://learn.microsoft.com/dotnet/core/tools/dotnet-restore>.
 
 - Restaura dependencias para un proyecto o solución .NET en el directorio actual:
@@ -29,7 +29,7 @@ Más información: <https://learn.microsoft.com/dotnet/core/tools/dotnet-restore
 
 `dotnet restore `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/proyecto_o_solución</span>
 
-- Restaura depedencias sin almacenar las solicitudes HTTP en caché:
+- Restaura dependencias sin almacenar las solicitudes HTTP en caché:
 
 `dotnet restore --no-cache`
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/assimp (español)
 description: "Cliente de línea de comandos para la biblioteca Open Asset Import."
-content_hash: 48729554af6aa000be865151686d0b7e2f04c1a7
-last_modified_at: 2023-11-12
+content_hash: 653dd37325f5783f5226d954ea8a77ffd505e199
+last_modified_at: 2023-11-30
 related_topics:
   - title: English version
     url: /en/common/assimp.html
@@ -37,7 +37,7 @@ Más información: <https://assimp-docs.readthedocs.io/>.
 
 `assimp export `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_entrada.stl</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_salida.obj</span>
 
-- Convertir un archivo utilizando parámetros personalizados (el archivo dox_cmd.h en el código fuente de assimp enumera los parámetros disponibles):
+- Convierte un archivo utilizando parámetros personalizados (el archivo dox_cmd.h en el código fuente de assimp enumera los parámetros disponibles):
 
 `assimp export `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_entrada.stl</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_salida.obj</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">parametros</span>
 

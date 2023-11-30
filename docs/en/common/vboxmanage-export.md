@@ -2,7 +2,7 @@
 layout: page
 title: common/vboxmanage-export (English)
 description: "Export virtual machines to a virtual appliance (ISO) or a cloud service."
-content_hash: d57061a37fe08629a19f7662150355e31c93b484
+content_hash: 2e4b9f7e83f6ebd08383ae0d215442394e508c9b
 last_modified_at: 2023-11-30
 tldri18n_status: 2
 ---
@@ -11,7 +11,7 @@ tldri18n_status: 2
 Export virtual machines to a virtual appliance (ISO) or a cloud service.
 More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-export>.
 
-- Specify the target OVF file:
+- Specify the target OVA file:
 
 `VBoxManage export --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/filename.ova</span>
 
@@ -27,6 +27,6 @@ More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-export
 
 `VBoxManage export --manifest`
 
-- Specify description to the VM:
+- Specify a description of the VM:
 
-`VBoxManage export --description "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">description-info</span>`"`
+`VBoxManage export --description "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vm_description</span>`"`

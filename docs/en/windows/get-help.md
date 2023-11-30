@@ -1,36 +1,36 @@
 ---
 layout: page
 title: windows/get-help (English)
-description: "Display help information and documentation for PowerShell commands, aka. cmdlets."
-content_hash: efcd121f7c56e3dc19b19c1096e06925a34dd9d1
-last_modified_at: 2023-11-12
+description: "Display help information and documentation for PowerShell commands (aliases, cmdlets, and functions)."
+content_hash: 2c238be31ca2ec9399b40012c34d0f0fce2a85ac
+last_modified_at: 2023-11-30
 tldri18n_status: 2
 ---
 # Get-Help
 
-Display help information and documentation for PowerShell commands, aka. cmdlets.
+Display help information and documentation for PowerShell commands (aliases, cmdlets, and functions).
 This command can only be run through PowerShell.
 More information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/get-help>.
 
-- Display general help information for a specific cmdlet:
+- Display general help information for a specific PowerShell command:
 
-`Get-Help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cmdlet</span>
+`Get-Help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
-- Display a more detailed documentation for a specific cmdlet:
+- Display a more detailed documentation for a specific PowerShell command:
 
-`Get-Help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cmdlet</span>` -Detailed`
+`Get-Help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` -Detailed`
 
-- Display the full technical documentation for a specific cmdlet:
+- Display the full technical documentation for a specific PowerShell command:
 
-`Get-Help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cmdlet</span>` -Full`
+`Get-Help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` -Full`
 
-- Print only the documentation for a specific parameter of the cmdlet (use `*` to show all parameters), if available:
+- Print only the documentation for a specific parameter of the PowerShell command (use `*` to show all parameters), if available:
 
-`Get-Help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cmdlet</span>` -Parameter `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">parameter</span>
+`Get-Help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` -Parameter `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">parameter</span>
 
 - Print only the examples of the cmdlet, if available:
 
-`Get-Help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cmdlet</span>` -Examples`
+`Get-Help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` -Examples`
 
 - List all available cmdlet help pages:
 
@@ -40,6 +40,6 @@ More information: <https://learn.microsoft.com/powershell/module/microsoft.power
 
 `Update-Help`
 
-- View an online version of cmdlet documentation in the default web browser:
+- View an online version of PowerShell command documentation in the default web browser:
 
-`Get-Help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cmdlet</span>` -Online`
+`Get-Help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` -Online`

@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/vboxmanage-import (English)
-description: "Imports a virtual machine (VM) previously exported or created."
-content_hash: ed1a1b91422bc64644674a17afa551d08b59cf2f
+description: "Import a previously exported virtual machine (VM)."
+content_hash: 684cab6435a5403f22ee348e526743b0db0a1780
 last_modified_at: 2023-11-30
 tldri18n_status: 2
 ---
 # vboxmanage-import
 
-Imports a virtual machine (VM) previously exported or created.
+Import a previously exported virtual machine (VM).
 More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-import>.
 
 - Import a VM from an OVF or OVA file:
