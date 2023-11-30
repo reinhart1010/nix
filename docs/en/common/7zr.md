@@ -2,8 +2,8 @@
 layout: page
 title: common/7zr (English)
 description: "File archiver with a high compression ratio."
-content_hash: 8faee868369091a39f7942b3a6c1befb2886aaa0
-last_modified_at: 2023-11-12
+content_hash: aff444345ecbac8b147ab7408c764e52830c615b
+last_modified_at: 2023-11-30
 related_topics:
   - title: বাংলা version
     url: /bn/common/7zr.html
@@ -82,6 +82,6 @@ More information: <https://manned.org/7zr>.
 
 `7zr l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.7z</span>
 
-- List available archive types:
+- Set the level of compression (higher means more compression, but slower):
 
-`7zr i`
+`7zr a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.7z</span>` -mx=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|1|3|5|7|9</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>

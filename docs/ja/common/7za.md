@@ -2,8 +2,8 @@
 layout: page
 title: common/7za (日本語)
 description: "圧縮率の高いファイルアーカイバです。"
-content_hash: 724453de4f843cef6088a0bfc0cfe513ff5874f1
-last_modified_at: 2023-11-12
+content_hash: 7ecc9102c5f9295c89c05b06db9654abb5ed6765
+last_modified_at: 2023-11-30
 related_topics:
   - title: বাংলা version
     url: /bn/common/7za.html
@@ -75,10 +75,6 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 - 特定のアーカイブ形式を使用した圧縮を行う:
 
 `7za a -t`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zip|gzip|bzip2|tar</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">アーカイブ.7z</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイルまたはディレクトリへのパス</span>
-
-- 利用可能なアーカイブ形式を出力する:
-
-`7za i`
 
 - アーカイブの内容を表示する:
 

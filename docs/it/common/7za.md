@@ -2,8 +2,8 @@
 layout: page
 title: common/7za (italiano)
 description: "Archiviatore di file con alto fattore di compressione."
-content_hash: 1242dda9594671d0e828973f66fbebe76f4f9b42
-last_modified_at: 2023-11-12
+content_hash: bd165e3122f3302b2be116ac72b1c4fd853304e7
+last_modified_at: 2023-11-30
 related_topics:
   - title: বাংলা version
     url: /bn/common/7za.html
@@ -75,10 +75,6 @@ Maggiori informazioni: <https://manned.org/7za>.
 - Archivia utilizzando uno specifico tipo di archivio:
 
 `7za a -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zip|gzip|bzip2|tar</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivio.7z</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory</span>
-
-- Elenca i tipi di archivio supportati:
-
-`7za i`
 
 - Elenca i contenuti in un archivio:
 

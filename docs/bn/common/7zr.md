@@ -2,8 +2,8 @@
 layout: page
 title: common/7zr (বাংলা)
 description: "একটি উচ্চ সঙ্কোচন অনুবাদক সাথে ফাইল অ্যার্কাইভার।"
-content_hash: 569f9467eb393bed2c02f5e33dba014bef9c74fb
-last_modified_at: 2023-11-12
+content_hash: 8eb52d93eb77b5fca0ea066e6b2fecfe9a56e0c9
+last_modified_at: 2023-11-30
 related_topics:
   - title: Deutsch version
     url: /de/common/7zr.html
@@ -50,9 +50,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/7zr.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# 7zr
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># 7zr
 
 একটি উচ্চ সঙ্কোচন অনুবাদক সাথে ফাইল অ্যার্কাইভার।
 `7z` এর মত, কিন্তু এটি কেবলমাত্র `.7z` ফাইলগুলি সমর্থন করে।
@@ -81,7 +84,3 @@ tldri18n_status: 2
 - একটি আর্কাইভের সামগ্রী তালিকা দেখুন:
 
 `7zr l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">পাথ/টু/আর্কাইভ.7z</span>
-
-- উপলব্ধ আর্কাইভ ধরণের তালিকা:
-
-`7zr i`

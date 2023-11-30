@@ -2,8 +2,8 @@
 layout: page
 title: common/7zr (Nederlands)
 description: "Bestandsarchiver met een hoge compressieverhouding."
-content_hash: 35d615c8f60263ebfbbc3ee8dbc11eea7dc4a7ba
-last_modified_at: 2023-11-12
+content_hash: 80b3671e74b9d21f1e709c363ae69f65a1579316
+last_modified_at: 2023-11-30
 related_topics:
   - title: বাংলা version
     url: /bn/common/7zr.html
@@ -50,9 +50,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/7zr.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# 7zr
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># 7zr
 
 Bestandsarchiver met een hoge compressieverhouding.
 Vergelijkbaar met `7z`, behalve dat het alleen `.7z`-bestanden ondersteunt.
@@ -81,7 +84,3 @@ Meer informatie: <https://manned.org/7zr>.
 - Lijst de inhoud van een archief op:
 
 `7zr l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/archief.7z</span>
-
-- Maak een lijst van beschikbare archieftypen:
-
-`7zr i`

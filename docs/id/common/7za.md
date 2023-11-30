@@ -2,8 +2,8 @@
 layout: page
 title: common/7za (Indonesia)
 description: "Pengarsip file dengan rasio kompresi yang tinggi."
-content_hash: e313367af704aba6608b21f6c8882dea0e34e7da
-last_modified_at: 2023-11-12
+content_hash: 6c953246865f082dc01c56da589a5d1ad6857170
+last_modified_at: 2023-11-30
 related_topics:
   - title: বাংলা version
     url: /bn/common/7za.html
@@ -53,9 +53,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/7za.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# 7za
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># 7za
 
 Pengarsip file dengan rasio kompresi yang tinggi.
 Serupa dengan `7z` namun mendukung lebih sedikit format file arsip dan dapat digunakan lintas sistem operasi.
@@ -88,7 +91,3 @@ Informasi lebih lanjut: <https://manned.org/7za>.
 - Me[l]ihat daftar isi dari sebuah file arsip:
 
 `7za l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/arsip.7z</span>
-
-- Mengetahui daftar format file arsip yang didukung:
-
-`7za i`

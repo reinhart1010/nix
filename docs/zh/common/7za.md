@@ -2,8 +2,8 @@
 layout: page
 title: common/7za (中文)
 description: "一个高压缩率的文件归档器。"
-content_hash: e9c91ccd1dc959849f8dca2d9cfa80de622cec68
-last_modified_at: 2023-11-12
+content_hash: c3736b86c5f4ae76a4977e9bbc0eebd61ebc26a3
+last_modified_at: 2023-11-30
 related_topics:
   - title: বাংলা version
     url: /bn/common/7za.html
@@ -53,9 +53,12 @@ related_topics:
   - title: русский version
     url: /ru/common/7za.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# 7za
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># 7za
 
 一个高压缩率的文件归档器。
 类似于 `7z`，支持的文档类型更少但跨平台。
@@ -88,7 +91,3 @@ tldri18n_status: 2
 - 列出一个归档文件的内容：
 
 `7za l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">归档文件.7z</span>
-
-- 列出可用的归档文件类型：
-
-`7za i`

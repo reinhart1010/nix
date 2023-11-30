@@ -2,8 +2,8 @@
 layout: page
 title: common/7zr (한국어)
 description: "높은 파일압축률을 보여주는 압축 프로그램."
-content_hash: 6c5e7b0ee4b54857f3a55d7e763adba44ca37ff6
-last_modified_at: 2023-11-12
+content_hash: 3fe539640c543d37816c0cbbbf4966946dae21bc
+last_modified_at: 2023-11-30
 related_topics:
   - title: বাংলা version
     url: /bn/common/7zr.html
@@ -50,9 +50,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/7zr.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# 7zr
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># 7zr
 
 높은 파일압축률을 보여주는 압축 프로그램.
 .7z파일들만을 지원하는 `7z`의 독립형 버전.
@@ -81,7 +84,3 @@ tldri18n_status: 2
 - 압축 파일의 내용 리스트:
 
 `7zr l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/archived.7z</span>
-
-- 사용가능한 압축 타입 리스트:
-
-`7zr i`

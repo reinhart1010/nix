@@ -2,8 +2,8 @@
 layout: page
 title: common/7za (Nederlands)
 description: "Bestandsarchiver met een hoge compressieverhouding."
-content_hash: 646825eb8daab4c0568f45990da9d5d8422f2921
-last_modified_at: 2023-11-12
+content_hash: 2588ca0560762361c852ef31924887444e25925b
+last_modified_at: 2023-11-30
 related_topics:
   - title: বাংলা version
     url: /bn/common/7za.html
@@ -53,9 +53,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/7za.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# 7za
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># 7za
 
 Bestandsarchiver met een hoge compressieverhouding.
 Vergelijkbaar met `7z`, behalve dat het minder bestandstypes ondersteunt, maar platformonafhankelijk is.
@@ -88,7 +91,3 @@ Meer informatie: <https://manned.org/7za>.
 - Lijst de inhoud van een archief op:
 
 `7za l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/archief.7z</span>
-
-- Maak een lijst van beschikbare archieftypen:
-
-`7za i`

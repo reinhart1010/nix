@@ -2,8 +2,8 @@
 layout: page
 title: common/7za (polski)
 description: "Archiwizator plików o wysokim współczynniku kompresji."
-content_hash: 2ec58edb95671bbcf17e2e6356c65bc469316caa
-last_modified_at: 2023-11-12
+content_hash: cc0cfa357192698c14d44c27012fa3850d941e2f
+last_modified_at: 2023-11-30
 related_topics:
   - title: বাংলা version
     url: /bn/common/7za.html
@@ -75,10 +75,6 @@ Więcej informacji: <https://manned.org/7za>.
 - Zarchiwizuj przy użyciu określonego typu archiwum:
 
 `7za a -t`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zip|gzip|bzip2|tar</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archiwum</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">scieżka/do/pliku_lub_katalogu</span>
-
-- Wypisz dostępe typy archiwów:
-
-`7za i`
 
 - Wypisz zawartość pliku archiwum:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/7za (فارسی)
 description: "بایگانی کننده فایل با ضریب فشرده سازی بالا."
-content_hash: d2a4264d6d12a9c2093bf0418ae64dada07603f5
-last_modified_at: 2023-11-12
+content_hash: d995cf33e4a6a2c5420d344c66f209287bc5c858
+last_modified_at: 2023-11-30
 related_topics:
   - title: বাংলা version
     url: /bn/common/7za.html
@@ -53,9 +53,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/7za.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# 7za
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># 7za
 
 بایگانی کننده فایل با ضریب فشرده سازی بالا.
 مشابه `7z` با قابلیت پشتیبانی از انواع فایل کمتر ولی قابلیت پشتیبانی از چندین سیستم عامل.
@@ -88,7 +91,3 @@ tldri18n_status: 2
 - فهرست کردن محتویات یک بایگانی :
 
 `7za l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/بایگانی.7z</span>
-
-- فهرست کردن نوع های بایگانی موجود در سیستم عامل :
-
-`7za i`

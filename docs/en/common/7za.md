@@ -2,8 +2,8 @@
 layout: page
 title: common/7za (English)
 description: "File archiver with a high compression ratio."
-content_hash: 96c4a97405f0877de41f997153ddf76ec2b5efeb
-last_modified_at: 2023-11-12
+content_hash: f70e77527646ac8911510a784481c09af7973adc
+last_modified_at: 2023-11-30
 related_topics:
   - title: বাংলা version
     url: /bn/common/7za.html
@@ -89,6 +89,6 @@ More information: <https://manned.org/7za>.
 
 `7za l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.7z</span>
 
-- List available archive types:
+- Set the level of compression (higher means more compression, but slower):
 
-`7za i`
+`7za a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.7z</span>` -mx=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|1|3|5|7|9</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>

@@ -2,8 +2,8 @@
 layout: page
 title: common/7za (español)
 description: "Archivador de archivos con una alta relación de compresión."
-content_hash: be010cf222fe925e522103a54173ffc88bda2616
-last_modified_at: 2023-11-12
+content_hash: 27dcc12c73166a294a04a922ce18dd56cae3da57
+last_modified_at: 2023-11-30
 related_topics:
   - title: বাংলা version
     url: /bn/common/7za.html
@@ -53,9 +53,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/7za.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# 7za
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># 7za
 
 Archivador de archivos con una alta relación de compresión.
 Similar a `7z`, salvo que admite menos tipos de archivos pero es multiplataforma.
@@ -88,7 +91,3 @@ Más información: <https://manned.org/7za>.
 - [l]ista los contenidos de un archivo:
 
 `7za l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.7z</span>
-
-- Lista tipos de archivos disponibles:
-
-`7za i`

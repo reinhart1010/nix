@@ -2,8 +2,8 @@
 layout: page
 title: common/7za (हिन्दी)
 description: "उच्च संपीड़न अनुपात के साथ फ़ाइल संग्रहकर्ता।"
-content_hash: d892d02fedac5c5d16f1f25a0926ab18e9348413
-last_modified_at: 2023-11-12
+content_hash: 4f4c909e77cfb81f7ef04ba236e68024f0050b04
+last_modified_at: 2023-11-30
 related_topics:
   - title: বাংলা version
     url: /bn/common/7za.html
@@ -53,9 +53,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/7za.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# 7za
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># 7za
 
 उच्च संपीड़न अनुपात के साथ फ़ाइल संग्रहकर्ता।
 `7z` के समान, सिवाय इसके कि यह कम फ़ाइल प्रकारों का समर्थन करता है लेकिन क्रॉस-प्लेटफ़ॉर्म है।
@@ -88,7 +91,3 @@ tldri18n_status: 2
 - किसी संग्रह की सामग्री को सूचीबद्ध करें:
 
 `7za l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">संग्रह.7z/का/पथ</span>
-
-- उपलब्ध संग्रह प्रकारों की सूची बनाएं:
-
-`7za i`

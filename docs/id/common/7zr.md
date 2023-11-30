@@ -2,8 +2,8 @@
 layout: page
 title: common/7zr (Indonesia)
 description: "Pengarsip file dengan rasio kompresi yang tinggi."
-content_hash: a8b2d8768efbfdb57acb32254af2c2f399063cf8
-last_modified_at: 2023-11-12
+content_hash: 08405ac03d4774800dd89cc1500d221500e62715
+last_modified_at: 2023-11-30
 related_topics:
   - title: বাংলা version
     url: /bn/common/7zr.html
@@ -50,9 +50,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/7zr.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# 7zr
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># 7zr
 
 Pengarsip file dengan rasio kompresi yang tinggi.
 Serupa dengan `7z` namun mendukung format file arsip `.7z` saja.
@@ -81,7 +84,3 @@ Informasi lebih lanjut: <https://manned.org/7zr>.
 - Me[l]ihat daftar isi dari sebuah file arsip:
 
 `7zr l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/arsip.7z</span>
-
-- Mengetahui daftar format file arsip yang didukung:
-
-`7zr i`

@@ -2,8 +2,8 @@
 layout: page
 title: common/7za (português (Brasil))
 description: "Um compactador de arquivos com alta taxa de compressão."
-content_hash: f77b79ca1f395b891946342ba74331d2cda82b66
-last_modified_at: 2023-11-12
+content_hash: 71cbc2a937c9e379134460fb8200e6a6ff1c00e5
+last_modified_at: 2023-11-30
 related_topics:
   - title: বাংলা version
     url: /bn/common/7za.html
@@ -53,9 +53,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/7za.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# 7za
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># 7za
 
 Um compactador de arquivos com alta taxa de compressão.
 Versão compacta do `7z`, com suporte para menos tipos de arquivamento/compressão.
@@ -88,7 +91,3 @@ Mais informações: <https://manned.org/7za>.
 - Exibe o conteúdo de um arquivo:
 
 `7za l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_compactado.7z</span>
-
-- Exibe os tipos de arquivamento/compressão disponíveis:
-
-`7za i`

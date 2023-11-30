@@ -2,8 +2,8 @@
 layout: page
 title: common/7za (বাংলা)
 description: "একটি উচ্চ সঙ্কোচন অনুবাদক সাথে ফাইল অ্যার্কাইভার।"
-content_hash: d9ba4efa9d4e4b38bd651ac44b7eff1d740aa916
-last_modified_at: 2023-11-12
+content_hash: f21946226712f94c110b1525f5a6e59df46dd941
+last_modified_at: 2023-11-30
 related_topics:
   - title: Deutsch version
     url: /de/common/7za.html
@@ -53,9 +53,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/7za.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# 7za
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># 7za
 
 একটি উচ্চ সঙ্কোচন অনুবাদক সাথে ফাইল অ্যার্কাইভার।
 `7z` এর মত, কিন্তু এটি কম ফাইল ধরণসমূহ সমর্থন করে এবং ক্রস-প্ল্যাটফর্ম।
@@ -88,7 +91,3 @@ tldri18n_status: 2
 - একটি আর্কাইভের সামগ্রী তালিকা দেখুন:
 
 `7za l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">পাথ/টু/আর্কাইভ.7z</span>
-
-- উপলব্ধ আর্কাইভ ধরণের তালিকা:
-
-`7za i`
