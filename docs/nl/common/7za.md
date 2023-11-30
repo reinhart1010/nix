@@ -2,7 +2,7 @@
 layout: page
 title: common/7za (Nederlands)
 description: "Bestandsarchiver met een hoge compressieverhouding."
-content_hash: 2588ca0560762361c852ef31924887444e25925b
+content_hash: e74dc565b64297f8178af8295171bcc7dc028dcc
 last_modified_at: 2023-11-30
 related_topics:
   - title: বাংলা version
@@ -88,6 +88,10 @@ Meer informatie: <https://manned.org/7za>.
 
 `7za a -t`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7z|bzip2|gzip|lzip|tar|...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/archief.7z</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_map</span>
 
-- Lijst de inhoud van een archief op:
+- Geef een [l]ijst met de inhoud van het archiefbestand:
 
 `7za l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/archief.7z</span>
+
+- Zet het niveau van compressie (hoger betekent meer compressie, maar langzamer):
+
+`7za a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/archief.7z</span>` -mx=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|1|3|5|7|9</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_map</span>

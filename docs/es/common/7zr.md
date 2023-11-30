@@ -2,7 +2,7 @@
 layout: page
 title: common/7zr (español)
 description: "Archivador de ficheros con un alto ratio de compresión."
-content_hash: 87e8bd710f0b9fc89a919297e6e66e3bb0410c5a
+content_hash: 09a0f4aa03f2734605982f4097bb259b0134dd71
 last_modified_at: 2023-11-30
 related_topics:
   - title: বাংলা version
@@ -75,7 +75,7 @@ Más información: <https://manned.org/7zr>.
 
 - E[x]trae un archivo a un directorio específico:
 
-`7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/larchivo.7z</span>` -o{ruta/de/salida</span>
+`7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo.7z</span>` -o{ruta/de/salida</span>
 
 - E[x]trae un archivo a `stdout`:
 

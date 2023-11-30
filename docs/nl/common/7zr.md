@@ -2,7 +2,7 @@
 layout: page
 title: common/7zr (Nederlands)
 description: "Bestandsarchiver met een hoge compressieverhouding."
-content_hash: 80b3671e74b9d21f1e709c363ae69f65a1579316
+content_hash: 5128ac94dc64693d0705345467b54d44de74446d
 last_modified_at: 2023-11-30
 related_topics:
   - title: বাংলা version
@@ -81,6 +81,10 @@ Meer informatie: <https://manned.org/7zr>.
 
 `7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/archief.7z</span>` -so`
 
-- Lijst de inhoud van een archief op:
+- Geef een [l]ijst met de inhoud van het archiefbestand:
 
 `7zr l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/archief.7z</span>
+
+- Zet het niveau van compressie (hoger betekent meer compressie, maar langzamer):
+
+`7zr a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/archief.7z</span>` -mx=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|1|3|5|7|9</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand_of_map</span>
