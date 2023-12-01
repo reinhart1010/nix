@@ -3,19 +3,10 @@ layout: page
 title: windows/get-command (English)
 description: "List and get available commands in the current PowerShell session."
 content_hash: b040dcbc81fbc2d3d8be3a2cd6df9dceccd5e3d0
-last_modified_at: 2023-11-30
-tldri18n_status: 0
+last_modified_at: 2023-12-01
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/windows/get-command.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># Get-Command
+# Get-Command
 
 List and get available commands in the current PowerShell session.
 This command can only be run through PowerShell.

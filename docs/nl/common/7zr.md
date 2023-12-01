@@ -3,7 +3,7 @@ layout: page
 title: common/7zr (Nederlands)
 description: "Bestandsarchiver met een hoge compressieverhouding."
 content_hash: 5128ac94dc64693d0705345467b54d44de74446d
-last_modified_at: 2023-11-30
+last_modified_at: 2023-12-01
 related_topics:
   - title: বাংলা version
     url: /bn/common/7zr.html
@@ -50,12 +50,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/7zr.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># 7zr
+# 7zr
 
 Bestandsarchiver met een hoge compressieverhouding.
 Vergelijkbaar met `7z`, behalve dat het alleen `.7z`-bestanden ondersteunt.

@@ -3,7 +3,7 @@ layout: page
 title: common/todo (Nederlands)
 description: "Een eenvoudige, op standaarden gebaseerde, opdrachtregel todo manager."
 content_hash: 80e419db77dc85afb8fe78f148da83aae69da73f
-last_modified_at: 2023-11-30
+last_modified_at: 2023-12-01
 related_topics:
   - title: English version
     url: /en/common/todo.html
@@ -14,18 +14,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/todo.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/todo.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># todo
+# todo
 
 Een eenvoudige, op standaarden gebaseerde, opdrachtregel todo manager.
 Meer informatie: <https://todoman.readthedocs.io>.

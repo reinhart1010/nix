@@ -3,23 +3,14 @@ layout: page
 title: linux/chatgpt (español)
 description: "Shell script para usar ChatGPT de OpenAI y DALL-E desde la terminal."
 content_hash: 2a6290fe2f8dfeaeb6ded47afe1bcf411ebe453e
-last_modified_at: 2023-11-30
+last_modified_at: 2023-12-01
 related_topics:
   - title: English version
     url: /en/linux/chatgpt.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/chatgpt.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># chatgpt
+# chatgpt
 
 Shell script para usar ChatGPT de OpenAI y DALL-E desde la terminal.
 Más información: <https://github.com/0xacx/chatGPT-shell-cli>.
