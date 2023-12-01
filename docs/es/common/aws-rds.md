@@ -2,8 +2,8 @@
 layout: page
 title: common/aws-rds (español)
 description: "CLI para AWS Relational Database Service."
-content_hash: 4b3debbb056718bbf2cf02226d35c78f61f55195
-last_modified_at: 2023-11-12
+content_hash: a94ceb6e8ee81739e845a43fbb3f2b55445abc2e
+last_modified_at: 2023-12-01
 related_topics:
   - title: English version
     url: /en/common/aws-rds.html
@@ -41,7 +41,7 @@ Más información: <https://awscli.amazonaws.com/v2/documentation/api/latest/ref
 
 - Modifica un identificador de instancia:
 
-`aws rds modify-db-instance --db-instance-identifier `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">antiguo_identificador_instancia</span>` --new-db-instance-identifier `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nuevo_identificador_instance</span>
+`aws rds modify-db-instance --db-instance-identifier `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">antiguo_identificador_instancia</span>` --new-db-instance-identifier `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nuevo_identificador_instancia</span>
 
 - Reinicia una instancia:
 

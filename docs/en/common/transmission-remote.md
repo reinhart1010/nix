@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/transmission-remote (English)
-description: "Remote control utility for transmission-daemon and transmission."
-content_hash: ce5ccde395805036f3ca0a858dc3c4a6160152d0
-last_modified_at: 2023-11-12
+description: "Remote control utility for `transmission-daemon` and `transmission`."
+content_hash: 60548a4e7009c5a62cb6600c2d4ff0f0c0bead72
+last_modified_at: 2023-12-01
 tldri18n_status: 2
 ---
 # transmission-remote
 
-Remote control utility for transmission-daemon and transmission.
+Remote control utility for `transmission-daemon` and `transmission`.
 More information: <https://transmissionbt.com>.
 
 - Add a torrent file or magnet link to Transmission and download to a specified directory:
