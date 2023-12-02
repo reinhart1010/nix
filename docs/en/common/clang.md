@@ -2,8 +2,8 @@
 layout: page
 title: common/clang (English)
 description: "Compiler for C, C++, and Objective-C source files. Can be used as a drop-in replacement for GCC."
-content_hash: ba9cb623918679e4a5f0d62056d399f4c7086af2
-last_modified_at: 2023-11-12
+content_hash: 63205a915cf393860aa94571597f235c31bf0323
+last_modified_at: 2023-12-02
 related_topics:
   - title: Deutsch version
     url: /de/common/clang.html
@@ -40,3 +40,7 @@ More information: <https://clang.llvm.org/docs/ClangCommandLineReference.html>.
 - Compile source code without linking:
 
 `clang -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_source.c</span>
+
+- Optimize the compiled program for performance:
+
+`clang `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.c</span>` -O`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|2|3|fast</span>

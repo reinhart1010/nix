@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (español)
 description: "Administra contenedores e imágenes de Docker."
-content_hash: 9ac7ef429a5e355ec836ea3ad12c326c6b43d294
-last_modified_at: 2023-11-12
+content_hash: 8f2d8d486853de33623c21fbc3ee91498da19841
+last_modified_at: 2023-12-02
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/docker.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/docker.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker.html
@@ -62,11 +65,11 @@ Más información: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
 `docker pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagen</span>
 
-- Muestra la lista de imagenes descargadas:
+- Muestra la lista de imágenes descargadas:
 
 `docker images`
 
-- Inicia una línea de Comandos dentro de un contenedor en ejecución:
+- Inicia una línea de comandos dentro de un contenedor en ejecución:
 
 `docker exec -it `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_contenedor</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sh</span>
 

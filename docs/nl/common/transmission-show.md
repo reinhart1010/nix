@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/transmission-show (Nederlands)
-description: "Verkrijg informatie over een torrent bestand"
-content_hash: 46d8f666a5565e32c13c8c6ff6562bcf1b75e50e
+description: "Verkrijg informatie over een torrent bestand."
+content_hash: a6cfe8d0fa9188c93a187d5df783a54b45d05861
 last_modified_at: 2023-12-02
 related_topics:
   - title: English version
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # transmission-show
 
-Verkrijg informatie over een torrent bestand
+Verkrijg informatie over een torrent bestand.
 Bekijk ook: `transmission`.
 Meer informatie: <https://manned.org/transmission-show>.
 
