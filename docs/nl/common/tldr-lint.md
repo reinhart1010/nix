@@ -3,7 +3,7 @@ layout: page
 title: common/tldr-lint (Nederlands)
 description: "Controleert en formatteert `tldr` pagina's."
 content_hash: e0c3c89ad33029d72c3557816506b67b8e18963c
-last_modified_at: 2023-12-01
+last_modified_at: 2023-12-02
 related_topics:
   - title: English version
     url: /en/common/tldr-lint.html
@@ -17,18 +17,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/tldr-lint.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/tldr-lint.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># tldr-lint
+# tldr-lint
 
 Controleert en formatteert `tldr` pagina's.
 Meer informatie: <https://github.com/tldr-pages/tldr-lint>.

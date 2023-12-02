@@ -3,23 +3,14 @@ layout: page
 title: common/transmission-cli (Nederlands)
 description: "Een lichtgewicht, command-line BitTorrent client."
 content_hash: ce7216fead7a588521875f71647c733c5a378e24
-last_modified_at: 2023-12-01
+last_modified_at: 2023-12-02
 related_topics:
   - title: English version
     url: /en/common/transmission-cli.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/transmission-cli.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># transmission-cli
+# transmission-cli
 
 Een lichtgewicht, command-line BitTorrent client.
 Deze tool is verouderd, bekijk `transmission-remote`.
