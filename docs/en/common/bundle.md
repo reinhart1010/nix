@@ -2,8 +2,8 @@
 layout: page
 title: common/bundle (English)
 description: "Dependency manager for the Ruby programming language."
-content_hash: 3f7e8c24efacb822570d0a484282735c5299db24
-last_modified_at: 2023-11-12
+content_hash: 2f257c1e41cbe806ce6dd09ad226301e06cd2d92
+last_modified_at: 2023-12-03
 related_topics:
   - title: français version
     url: /fr/common/bundle.html
@@ -38,11 +38,11 @@ More information: <https://bundler.io/man/bundle.1.html>.
 
 - Update one or more specific gem(s) defined in the `Gemfile`:
 
-`bundle update `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gem_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gem_name</span>
+`bundle update `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gem_name1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gem_name2</span>
 
 - Update one or more specific gems(s) defined in the `Gemfile` but only to the next patch version:
 
-`bundle update --patch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gem_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gem_name</span>
+`bundle update --patch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gem_name1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gem_name2</span>
 
 - Update all gems within the given group in the `Gemfile`:
 
