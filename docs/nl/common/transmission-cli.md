@@ -2,8 +2,8 @@
 layout: page
 title: common/transmission-cli (Nederlands)
 description: "Een lichtgewicht, command-line BitTorrent client."
-content_hash: ce7216fead7a588521875f71647c733c5a378e24
-last_modified_at: 2023-12-02
+content_hash: 50738fc03fd6c63b619492e5166c39b5e14473cd
+last_modified_at: 2023-12-03
 related_topics:
   - title: English version
     url: /en/common/transmission-cli.html
@@ -26,7 +26,7 @@ Meer informatie: <https://transmissionbt.com>.
 
 - Maak een torrent bestand van een specifiek bestand of map:
 
-`transmission-cli --new `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/source_bestand_of_map</span>
+`transmission-cli --new `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bron_bestand_of_map</span>
 
 - Zet de download snelheid limiet naar 50 KB/s:
 
@@ -38,7 +38,7 @@ Meer informatie: <https://transmissionbt.com>.
 
 - Gebruik een specifieke poort voor verbindingen:
 
-`transmission-cli --port `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port_number</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|magnet|pad/naar/bestand</span>
+`transmission-cli --port `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">poort_nummer</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|magnet|pad/naar/bestand</span>
 
 - Forceer versleuteling voor alle peer-verbindingen:
 

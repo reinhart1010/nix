@@ -3,7 +3,7 @@ layout: page
 title: common/g++ (தமிழ்)
 description: "C++ மூலக் கோப்புகளைத் தொகுக்கிறது."
 content_hash: 9a006aec9c45075b78ed4b9d1a57bd06a978d99f
-last_modified_at: 2023-11-15
+last_modified_at: 2023-12-03
 related_topics:
   - title: Deutsch version
     url: /de/common/g++.html
@@ -20,9 +20,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/g++.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# g++
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># g++
 
 C++ மூலக் கோப்புகளைத் தொகுக்கிறது.
 GCC இன் பகுதி (GNU கம்பைலர் சேகரிப்பு).

@@ -3,7 +3,7 @@ layout: page
 title: common/gcc (Indonesia)
 description: "Praproses dan kompilasi kode sumber C dan C++, lalu rakit dan gabungkan bersama-sama."
 content_hash: f38e4868c2cf5772b2a6f0fee5fa0f47e90091f3
-last_modified_at: 2023-11-12
+last_modified_at: 2023-12-03
 related_topics:
   - title: Deutsch version
     url: /de/common/gcc.html
@@ -17,15 +17,21 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/gcc.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/gcc.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/gcc.html
     icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/gcc.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# gcc
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># gcc
 
 Praproses dan kompilasi kode sumber C dan C++, lalu rakit dan gabungkan bersama-sama.
 Informasi lebih lanjut: <https://gcc.gnu.org>.

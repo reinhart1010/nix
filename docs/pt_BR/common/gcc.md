@@ -3,7 +3,7 @@ layout: page
 title: common/gcc (português (Brasil))
 description: "Compilador de arquivos de código fonte C e C++, efetuando também as fases de pré-processamento, assembling e linking."
 content_hash: 8783d9a299f690ebe6b7e7ab658ba37eb317f11a
-last_modified_at: 2023-11-12
+last_modified_at: 2023-12-03
 related_topics:
   - title: Deutsch version
     url: /de/common/gcc.html
@@ -20,12 +20,18 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/gcc.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/gcc.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/gcc.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# gcc
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># gcc
 
 Compilador de arquivos de código fonte C e C++, efetuando também as fases de pré-processamento, assembling e linking.
 Mais informações: <https://gcc.gnu.org>.

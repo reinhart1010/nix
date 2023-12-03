@@ -3,7 +3,7 @@ layout: page
 title: common/clang (한국어)
 description: "C, C++ 그리고 Objective-C 소스 파일을 위한 컴파일러입니다. GCC의 드롭인 대체로 사용할 수 있습니다."
 content_hash: f06b89a1501cd481297d5d3907451da29ddcfcbb
-last_modified_at: 2023-11-12
+last_modified_at: 2023-12-03
 related_topics:
   - title: Deutsch version
     url: /de/common/clang.html
@@ -14,9 +14,12 @@ related_topics:
   - title: italiano version
     url: /it/common/clang.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# clang
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># clang
 
 C, C++ 그리고 Objective-C 소스 파일을 위한 컴파일러입니다. GCC의 드롭인 대체로 사용할 수 있습니다.
 더 많은 정보: <https://clang.llvm.org/docs/ClangCommandLineReference.html>.

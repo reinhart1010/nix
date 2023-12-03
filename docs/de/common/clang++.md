@@ -3,7 +3,7 @@ layout: page
 title: common/clang++ (Deutsch)
 description: "Kompiliert C++ Quelldateien."
 content_hash: 65f95c3ab462eebd371e826e4315abcdd4f5250a
-last_modified_at: 2023-11-12
+last_modified_at: 2023-12-03
 related_topics:
   - title: English version
     url: /en/common/clang++.html
@@ -11,9 +11,15 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/clang++.html
     icon: bi bi-globe
-tldri18n_status: 2
+  - title: Nederlands version
+    url: /nl/common/clang++.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# clang++
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># clang++
 
 Kompiliert C++ Quelldateien.
 Teil von LLVM.

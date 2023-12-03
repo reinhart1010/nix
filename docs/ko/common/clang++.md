@@ -3,7 +3,7 @@ layout: page
 title: common/clang++ (한국어)
 description: "C++ 소스 파일을 컴파일합니다."
 content_hash: 8a788d7fb27bdcd5fd7f4eff72a9acfb370be681
-last_modified_at: 2023-11-12
+last_modified_at: 2023-12-03
 related_topics:
   - title: Deutsch version
     url: /de/common/clang++.html
@@ -11,9 +11,15 @@ related_topics:
   - title: English version
     url: /en/common/clang++.html
     icon: bi bi-globe
-tldri18n_status: 2
+  - title: Nederlands version
+    url: /nl/common/clang++.html
+    icon: bi bi-globe
+tldri18n_status: 1
 ---
-# clang++
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># clang++
 
 C++ 소스 파일을 컴파일합니다.
 LLVM의 일부.

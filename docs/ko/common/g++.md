@@ -3,7 +3,7 @@ layout: page
 title: common/g++ (한국어)
 description: "C++ 소스 파일을 컴파일합니다."
 content_hash: ecf1d8f371d74e1ec5222b871d3782a27072505e
-last_modified_at: 2023-11-12
+last_modified_at: 2023-12-03
 related_topics:
   - title: Deutsch version
     url: /de/common/g++.html
@@ -20,9 +20,12 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/g++.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# g++
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># g++
 
 C++ 소스 파일을 컴파일합니다.
 GCC (GNU 컴파일로 모음)의 일부입니다.
