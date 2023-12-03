@@ -2,8 +2,8 @@
 layout: page
 title: common/ag (한국어)
 description: "The Silver Searcher."
-content_hash: f87dd5a5556c89952e285e417cb8dd69a28b3981
-last_modified_at: 2023-11-12
+content_hash: e0b19423a0e1f2401249f80d15c37133e5d1d182
+last_modified_at: 2023-12-03
 related_topics:
   - title: English version
     url: /en/common/ag.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 # ag
 
 The Silver Searcher.
-ack과 비슷하지만, 더 빠르다.
+`ack` 과 비슷하지만, 더 빠르다.
 더 많은 정보: <https://github.com/ggreer/the_silver_searcher>.
 
 - "foo"를 포함하고 있는 파일들을 찾고, 내용에서 일치하는 행을 출력:

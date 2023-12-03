@@ -2,8 +2,8 @@
 layout: page
 title: common/abduco (English)
 description: "Terminal session manager."
-content_hash: 54f279c53cf0b4a9cfe29d4a6a3145ce43eefadd
-last_modified_at: 2023-11-12
+content_hash: 2373530efedeb2a147f911d2522dd954e9a9aae8
+last_modified_at: 2023-12-03
 related_topics:
   - title: বাংলা version
     url: /bn/common/abduco.html
@@ -46,11 +46,11 @@ More information: <http://www.brain-dump.org/projects/abduco/>.
 
 `abduco`
 
-- Attach to a session, creating it if it doesn't exist:
+- [A]ttach to a session, creating it if it doesn't exist:
 
 `abduco -A `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bash</span>
 
-- Attach to a session with `dvtm`, creating it if it doesn't exist:
+- [A]ttach to a session with `dvtm`, creating it if it doesn't exist:
 
 `abduco -A `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>
 
@@ -58,6 +58,6 @@ More information: <http://www.brain-dump.org/projects/abduco/>.
 
 `Ctrl + \`
 
-- Attach to a session in read-only mode:
+- [A]ttach to a session in [r]ead-only mode:
 
 `abduco -Ar `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>

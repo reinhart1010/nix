@@ -2,8 +2,8 @@
 layout: page
 title: common/ab (English)
 description: "Apache HTTP server benchmarking tool."
-content_hash: 1ce86b12e61b85f2fd15e682891e34e0392e4f0e
-last_modified_at: 2023-11-12
+content_hash: e3622c903eaed8d2960952054673591db6074a96
+last_modified_at: 2023-12-03
 related_topics:
   - title: বাংলা version
     url: /bn/common/ab.html
@@ -63,10 +63,10 @@ More information: <https://httpd.apache.org/docs/current/programs/ab.html>.
 
 `ab -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application/json</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.json</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
-- Use HTTP [K]eep Alive, i.e. perform multiple requests within one HTTP session:
+- Use HTTP [k]eep-Alive, i.e. perform multiple requests within one HTTP session:
 
 `ab -k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
-- Set the maximum number of seconds to spend for benchmarking:
+- Set the maximum number of seconds ([t]imeout) to spend for benchmarking:
 
 `ab -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">60</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>

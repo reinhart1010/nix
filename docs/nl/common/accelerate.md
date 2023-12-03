@@ -2,8 +2,8 @@
 layout: page
 title: common/accelerate (Nederlands)
 description: "Accelerate is een bibliotheek waarmee dezelfde PyTorch-code kan worden uitgevoerd op elke gedistribueerde configuratie."
-content_hash: 9e47de7e9131fe9325c0a07b0d51a6d274ceaa70
-last_modified_at: 2023-11-12
+content_hash: 44ab8a5fba49cf7153962be227d38782416fe48b
+last_modified_at: 2023-12-03
 related_topics:
   - title: English version
     url: /en/common/accelerate.html
@@ -26,7 +26,7 @@ Meer informatie: <https://huggingface.co/docs/accelerate/index>.
 
 `accelerate config`
 
-- Druk de geschatte GPU-geheugenkosten af van het uitvoeren van een huggingface model met verschillende gegevenstypen:
+- Druk de geschatte GPU-geheugenkosten af van het uitvoeren van een Hugging Face model met verschillende gegevenstypen:
 
 `accelerate estimate-memory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name/model</span>
 

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/ag (中文)
-description: "The Silver Searcher. 类似 ack, 但是更快。"
-content_hash: 9a1b312cab717018588b76578d3d888cf4a0e9c3
-last_modified_at: 2023-11-12
+description: "The Silver Searcher. 类似 `ack`, 但是更快。"
+content_hash: dd4b3f10dfc3bb2b26bd35d3bc8351f35c16b65e
+last_modified_at: 2023-12-03
 related_topics:
   - title: English version
     url: /en/common/ag.html
@@ -39,7 +39,7 @@ tldri18n_status: 2
 ---
 # ag
 
-The Silver Searcher. 类似 ack, 但是更快。
+The Silver Searcher. 类似 `ack`, 但是更快。
 更多信息：<https://github.com/ggreer/the_silver_searcher>.
 
 - 寻找内容包含"小明"的文件，并列出所在的行数：

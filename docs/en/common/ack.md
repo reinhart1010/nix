@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/ack (English)
-description: "A search tool like grep, optimized for developers."
-content_hash: f2c1baa529aeea04ff21bd9095fc0726d786cdbd
-last_modified_at: 2023-11-12
+description: "A search tool like `grep`, optimized for developers."
+content_hash: fc70c9fce4a373ed5a28531040f7ab02d34c088e
+last_modified_at: 2023-12-03
 related_topics:
   - title: বাংলা version
     url: /bn/common/ack.html
@@ -45,7 +45,7 @@ tldri18n_status: 2
 ---
 # ack
 
-A search tool like grep, optimized for developers.
+A search tool like `grep`, optimized for developers.
 See also: `rg`, which is much faster.
 More information: <https://beyondgrep.com/documentation>.
 

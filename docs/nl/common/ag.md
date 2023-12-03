@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/ag (Nederlands)
-description: "The Silver Searcher. Zoals ack, maar wil sneller zijn."
-content_hash: 6fea5347c281dd34f375e874ce6ffc8c041de381
-last_modified_at: 2023-11-12
+description: "The Silver Searcher. Zoals `ack`, maar wil sneller zijn."
+content_hash: c68e9ef055e11459af71aefcfdb6e286cc244b9c
+last_modified_at: 2023-12-03
 related_topics:
   - title: English version
     url: /en/common/ag.html
@@ -39,7 +39,7 @@ tldri18n_status: 2
 ---
 # ag
 
-The Silver Searcher. Zoals ack, maar wil sneller zijn.
+The Silver Searcher. Zoals `ack`, maar wil sneller zijn.
 Meer informatie: <https://github.com/ggreer/the_silver_searcher>.
 
 - Zoek bestanden die "foo" bevatten en druk de regelovereenkomsten in context af:

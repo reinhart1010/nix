@@ -2,8 +2,8 @@
 layout: page
 title: linux/shutdown (English)
 description: "Shutdown and reboot the system."
-content_hash: 4f7af9b4725788165b3ce1ca7aa77ec52a5f6eb5
-last_modified_at: 2023-11-12
+content_hash: 3a91f38f350ac6c5c1f5d18e2fe7fbcdae382cdb
+last_modified_at: 2023-12-03
 related_topics:
   - title: català version
     url: /ca/linux/shutdown.html
@@ -24,22 +24,22 @@ tldri18n_status: 2
 Shutdown and reboot the system.
 More information: <https://manned.org/shutdown.8>.
 
-- Power off (halt) immediately:
+- Power off ([h]alt) immediately:
 
 `shutdown -h now`
 
-- Reboot immediately:
+- [r]eboot immediately:
 
 `shutdown -r now`
 
-- Reboot in 5 minutes:
+- [r]eboot in 5 minutes:
 
 `shutdown -r +`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>` &`
 
-- Shutdown at 1:00 pm (Uses 24h clock):
+- Shutdown at 1:00 pm (Uses 24[h] clock):
 
 `shutdown -h 13:00`
 
-- Cancel a pending shutdown/reboot operation:
+- [c]ancel a pending shutdown/reboot operation:
 
 `shutdown -c`

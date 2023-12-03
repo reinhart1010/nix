@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/ag (русский)
-description: "The Silver Searcher. Аналог ack, но имеет цель быть быстрее."
-content_hash: ea0ec49ee9de7b0c2ee222070e0ed80b9c532c5c
-last_modified_at: 2023-11-12
+description: "The Silver Searcher. Аналог `ack`, но имеет цель быть быстрее."
+content_hash: f5d47c6222b99364903b34034f531d158b1f23cd
+last_modified_at: 2023-12-03
 related_topics:
   - title: English version
     url: /en/common/ag.html
@@ -39,7 +39,7 @@ tldri18n_status: 2
 ---
 # ag
 
-The Silver Searcher. Аналог ack, но имеет цель быть быстрее.
+The Silver Searcher. Аналог `ack`, но имеет цель быть быстрее.
 Больше информации: <https://github.com/ggreer/the_silver_searcher>.
 
 - Найти файлы, содержащие "foo", и вывести подходящие строки в контексте:

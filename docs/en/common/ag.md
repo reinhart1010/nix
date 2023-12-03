@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/ag (English)
-description: "The Silver Searcher. Like ack, but aims to be faster."
-content_hash: c187c90bb9e47ec7962a50217bf771f9e4d7529f
-last_modified_at: 2023-11-12
+description: "The Silver Searcher. Like `ack`, but aims to be faster."
+content_hash: 5ee359f25b525f069b8710ab817e19c3d6c1982e
+last_modified_at: 2023-12-03
 related_topics:
   - title: español version
     url: /es/common/ag.html
@@ -39,7 +39,7 @@ tldri18n_status: 2
 ---
 # ag
 
-The Silver Searcher. Like ack, but aims to be faster.
+The Silver Searcher. Like `ack`, but aims to be faster.
 More information: <https://github.com/ggreer/the_silver_searcher>.
 
 - Find files containing "foo", and print the line matches in context:

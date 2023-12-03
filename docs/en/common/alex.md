@@ -2,8 +2,8 @@
 layout: page
 title: common/alex (English)
 description: "A tool that catches insensitive, inconsiderate writing."
-content_hash: f412ec908b33e05ea9c92690f09ecd13ce443c4e
-last_modified_at: 2023-11-12
+content_hash: 72ed48c30570c481b42b4a9737520089a05d7421
+last_modified_at: 2023-12-03
 related_topics:
   - title: español version
     url: /es/common/alex.html
@@ -41,7 +41,7 @@ More information: <https://github.com/get-alex/alex>.
 
 - Analyze a specific file:
 
-`alex `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">textfile.md</span>
+`alex `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.md</span>
 
 - Analyze all Markdown files except `example.md`:
 

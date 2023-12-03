@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/ag (polski)
-description: "The Silver Searcher. Podobny do ack, ale ma być szybszy."
-content_hash: b81559f2a9d85edcd7c45323af318cdebbb46d12
-last_modified_at: 2023-11-12
+description: "The Silver Searcher. Podobny do `ack`, ale ma być szybszy."
+content_hash: 714d09d1ccbabb279f1fb3e481ac0cbf73e79f0c
+last_modified_at: 2023-12-03
 related_topics:
   - title: English version
     url: /en/common/ag.html
@@ -39,7 +39,7 @@ tldri18n_status: 2
 ---
 # ag
 
-The Silver Searcher. Podobny do ack, ale ma być szybszy.
+The Silver Searcher. Podobny do `ack`, ale ma być szybszy.
 Więcej informacji: <https://github.com/ggreer/the_silver_searcher>.
 
 - Znajdź pliki zawierające „foo” i wypisz dopasowane linie:

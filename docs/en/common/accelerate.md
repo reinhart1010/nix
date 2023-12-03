@@ -2,8 +2,8 @@
 layout: page
 title: common/accelerate (English)
 description: "A library that enables the same PyTorch code to be run across any distributed configuration."
-content_hash: f84eaf36a299f0783e09869e4aa7071849421dc6
-last_modified_at: 2023-11-15
+content_hash: a2dcaeac85904b19736c15e8acf12e034f0df71d
+last_modified_at: 2023-12-03
 related_topics:
   - title: 한국어 version
     url: /ko/common/accelerate.html
@@ -26,7 +26,7 @@ More information: <https://huggingface.co/docs/accelerate/index>.
 
 `accelerate config`
 
-- Print the estimated GPU memory cost of running a huggingface model with different data types:
+- Print the estimated GPU memory cost of running a Hugging Face model with different data types:
 
 `accelerate estimate-memory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name/model</span>
 

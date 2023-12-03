@@ -2,8 +2,8 @@
 layout: page
 title: common/accelerate (한국어)
 description: "Accelerate는 동일한 PyTorch 코드를 모든 분산 환경 구성에서 실행할 수 있게 해주는 라이브러리입니다."
-content_hash: 7dc47f8f2cc338a970ee57ba9acf0c68cf9d3ac1
-last_modified_at: 2023-11-12
+content_hash: 929d94884f091fb3a225eae8ac7bed02274745aa
+last_modified_at: 2023-12-03
 related_topics:
   - title: English version
     url: /en/common/accelerate.html
@@ -26,7 +26,7 @@ Accelerate는 동일한 PyTorch 코드를 모든 분산 환경 구성에서 실�
 
 `accelerate config`
 
-- 다양한 데이터 타입을 사용하여 huggingface 모델을 실행하는 데 필요한 예상 GPU 메모리 비용을 출력:
+- 다양한 데이터 타입을 사용하여 Hugging Face 모델을 실행하는 데 필요한 예상 GPU 메모리 비용을 출력:
 
 `accelerate estimate-memory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이름/모델</span>
 

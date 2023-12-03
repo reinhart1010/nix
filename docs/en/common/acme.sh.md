@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/acme.sh (English)
-description: "Shell script implementing ACME client protocol, an alternative to certbot."
-content_hash: 1ba3c8ac2e022acad26a93f833e5955f3b16dbd1
-last_modified_at: 2023-11-12
+description: "Shell script implementing ACME client protocol, an alternative to `certbot`."
+content_hash: 7362264100479704b8c9daac126a2b2ff91f081f
+last_modified_at: 2023-12-03
 related_topics:
   - title: বাংলা version
     url: /bn/common/acme.sh.html
@@ -27,7 +27,7 @@ tldri18n_status: 2
 ---
 # acme.sh
 
-Shell script implementing ACME client protocol, an alternative to certbot.
+Shell script implementing ACME client protocol, an alternative to `certbot`.
 See also `acme.sh dns`.
 More information: <https://github.com/acmesh-official/acme.sh>.
 

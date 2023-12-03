@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/acme.sh (中文)
-description: "实现了 ACME 客户端协议的 shell 脚本，是 certbot 的替代品。"
-content_hash: 863659724324fce0344728ef77a3ba68b7651d00
-last_modified_at: 2023-11-12
+description: "实现了 ACME 客户端协议的 shell 脚本，是 `certbot` 的替代品。"
+content_hash: f3bb277a3e22b0d2ddd71ac1ced84339bad95373
+last_modified_at: 2023-12-03
 related_topics:
   - title: বাংলা version
     url: /bn/common/acme.sh.html
@@ -27,7 +27,7 @@ tldri18n_status: 2
 ---
 # acme.sh
 
-实现了 ACME 客户端协议的 shell 脚本，是 certbot 的替代品。
+实现了 ACME 客户端协议的 shell 脚本，是 `certbot` 的替代品。
 另见 `acme.sh dns`。
 更多信息：<https://github.com/acmesh-official/acme.sh>.
 

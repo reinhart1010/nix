@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/ag (français)
-description: "The Silver Searcher. Comme ack, mais inspire à être plus rapide."
-content_hash: 4fcb1a0d4b8331aef1578e51a66a3d3f114a03dc
-last_modified_at: 2023-11-12
+description: "The Silver Searcher. Comme `ack`, mais inspire à être plus rapide."
+content_hash: 84d682aed96f867ddbbd062343d362e930a12a62
+last_modified_at: 2023-12-03
 related_topics:
   - title: English version
     url: /en/common/ag.html
@@ -39,7 +39,7 @@ tldri18n_status: 2
 ---
 # ag
 
-The Silver Searcher. Comme ack, mais inspire à être plus rapide.
+The Silver Searcher. Comme `ack`, mais inspire à être plus rapide.
 Plus d'informations : <https://github.com/ggreer/the_silver_searcher>.
 
 - Trouve les fichiers qui contiennent "foo", et affiche les lignes correspondantes dans le contexte courant :
