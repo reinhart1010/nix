@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/ps-nvm (Nederlands)
-description: "PowerShell-based voorzieining voor het beheren van meerdere Node.js versies, geïnspireerd op `nvm`."
-content_hash: 389261e2952bfb5c4226bec3ad126983be874ed1
+description: "PowerShell-gebaseerde voorziening voor het beheren van meerdere Node.js versies, geïnspireerd op `nvm`."
+content_hash: 07cb46cb211373901c5bee53ce007e4c0a0ea892
 last_modified_at: 2023-12-04
 related_topics:
   - title: English version
@@ -21,7 +21,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 <hr># ps-nvm
 
-PowerShell-based voorzieining voor het beheren van meerdere Node.js versies, geïnspireerd op `nvm`.
+PowerShell-gebaseerde voorziening voor het beheren van meerdere Node.js versies, geïnspireerd op `nvm`.
 Deze tool biedt meerdere commando's die allemaal alleen via PowerShell uitgevoerd kunnen worden.
 Meer informatie: <https://github.com/aaronpowell/ps-nvm>.
 
