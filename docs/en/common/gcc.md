@@ -2,8 +2,8 @@
 layout: page
 title: common/gcc (English)
 description: "Preprocess and compile C and C++ source files, then assemble and link them together."
-content_hash: 1d83861101fdfc2e71d2f5c08ae37199b4e64a16
-last_modified_at: 2023-12-02
+content_hash: faf8beb03a32d0092e7df4b494b25eea88c5ca56
+last_modified_at: 2023-12-04
 related_topics:
   - title: Deutsch version
     url: /de/common/gcc.html
@@ -55,4 +55,4 @@ More information: <https://gcc.gnu.org>.
 
 - Optimize the compiled program for performance:
 
-`gcc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.c</span>` -O`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|2|3|fast</span>
+`gcc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.c</span>` -O`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|2|3|fast</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_executable</span>

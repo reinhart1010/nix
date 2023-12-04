@@ -2,8 +2,8 @@
 layout: page
 title: common/gcc (Nederlands)
 description: "Preprocess en compileer C en C++ bronbestanden, monteer en koppel ze vervolgens samen."
-content_hash: 476b787cfaf79ac9badf07a881748f11d34d05b2
-last_modified_at: 2023-12-03
+content_hash: d29c3aee126094d3610c35be2485cacd2e985cdc
+last_modified_at: 2023-12-04
 related_topics:
   - title: Deutsch version
     url: /de/common/gcc.html
@@ -55,3 +55,7 @@ Meer informatie: <https://gcc.gnu.org>.
 - Compileer broncode naar een objectbestand zonder te koppelen:
 
 `gcc -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bron.c</span>
+
+- Optimaliseer het gecompileerde programma voor prestaties:
+
+`gcc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bron.c</span>` -O`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|2|3|fast</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/uitvoerbaar_bestand</span>
