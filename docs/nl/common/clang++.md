@@ -3,7 +3,7 @@ layout: page
 title: common/clang++ (Nederlands)
 description: "Compileert C++ bronbestanden."
 content_hash: cd98be4f9579865b27770acba45609d2c2743249
-last_modified_at: 2023-12-04
+last_modified_at: 2023-12-05
 related_topics:
   - title: Deutsch version
     url: /de/common/clang++.html
@@ -14,12 +14,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/clang++.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># clang++
+# clang++
 
 Compileert C++ bronbestanden.
 Onderdeel van of LLVM.

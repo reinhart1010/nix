@@ -3,7 +3,7 @@ layout: page
 title: common/gcc (Nederlands)
 description: "Preprocess en compileer C en C++ bronbestanden, monteer en koppel ze vervolgens samen."
 content_hash: d29c3aee126094d3610c35be2485cacd2e985cdc
-last_modified_at: 2023-12-04
+last_modified_at: 2023-12-05
 related_topics:
   - title: Deutsch version
     url: /de/common/gcc.html
@@ -26,12 +26,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/gcc.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gcc
+# gcc
 
 Preprocess en compileer C en C++ bronbestanden, monteer en koppel ze vervolgens samen.
 Meer informatie: <https://gcc.gnu.org>.
