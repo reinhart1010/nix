@@ -2,8 +2,8 @@
 layout: page
 title: common/kill (español)
 description: "Envía una señal a un proceso, usualmente relacionado a detener el proceso."
-content_hash: 090debd04fcc1942cd63347eb78b88dd0d252f70
-last_modified_at: 2023-11-12
+content_hash: 040e556e840fceed9108ab9f24062c0aa328a01f
+last_modified_at: 2023-12-05
 related_topics:
   - title: English version
     url: /en/common/kill.html
@@ -53,6 +53,6 @@ Más información: <https://manned.org/kill>.
 
 `kill -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">17|STOP</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_del_proceso</span>
 
-- Envia una señal `SIGUSR1` a todos los procesos con un GID (id de grupo) dado:
+- Envía una señal `SIGUSR1` a todos los procesos con un GID (id de grupo) dado:
 
 `kill -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGUSR1</span>` -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_de_grupo</span>

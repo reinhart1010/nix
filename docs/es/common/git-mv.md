@@ -2,8 +2,8 @@
 layout: page
 title: common/git-mv (español)
 description: "Mueve o renombra archivos y actualiza el índice Git."
-content_hash: 6e1ec27e61292370e7d62ed899b734091756ec35
-last_modified_at: 2023-11-12
+content_hash: bc616f509dc5ed4e576604c1301a6061e8d46962
+last_modified_at: 2023-12-05
 related_topics:
   - title: English version
     url: /en/common/git-mv.html
@@ -35,6 +35,6 @@ Más información: <https://git-scm.com/docs/git-mv>.
 
 `git mv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_archivo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nuevo_nombre_de_archivo</span>
 
-- Sobrescribir el archivo en la ruta objetivo si existe:
+- Sobrescribe el archivo en la ruta objetivo si existe:
 
 `git mv --force `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">objetivo</span>

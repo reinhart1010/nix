@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/git-pull (español)
-description: "Obtener rama de un repositorio remoto y fusionarlo con el repositorio local."
-content_hash: d4e75e97b4d7d2841457524b522f085b5bceaa44
-last_modified_at: 2023-11-12
+description: "Obtiene rama de un repositorio remoto y lo fusiona con el repositorio local."
+content_hash: 044456f386baef552c7415417f5301e3591b6689
+last_modified_at: 2023-12-05
 related_topics:
   - title: Deutsch version
     url: /de/common/git-pull.html
@@ -36,17 +36,17 @@ tldri18n_status: 2
 ---
 # git pull
 
-Obtener rama de un repositorio remoto y fusionarlo con el repositorio local.
+Obtiene rama de un repositorio remoto y lo fusiona con el repositorio local.
 Más información: <https://git-scm.com/docs/git-pull>.
 
-- Descargar cambios del repositorio remoto por defecto y fusionarlo:
+- Descarga cambios del repositorio remoto por defecto y lo fusiona:
 
 `git pull`
 
-- Descargar cambios del repositorio remoto por defecto y usar avance rápido (*fast forward*):
+- Descarga cambios del repositorio remoto por defecto y usa avance rápido (*fast forward*):
 
 `git pull --rebase`
 
-- Descargar cambios de un repositorio remoto y una rama específica para fusionarlos en HEAD:
+- Descarga cambios de un repositorio remoto y una rama específica para fusionarlos en HEAD:
 
 `git pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_remoto</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rama</span>

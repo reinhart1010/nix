@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/git-checkout (español)
-description: "Comprueba una rama o rutas con el arbol de trabajo."
-content_hash: 70fbee437c83b0f9deb180227e59d54ce8fd3c6c
-last_modified_at: 2023-11-12
+description: "Comprueba una rama o rutas con el árbol de trabajo."
+content_hash: 7ce9eebea8d211a157b6899310fb5b0bd5c2a491
+last_modified_at: 2023-12-05
 related_topics:
   - title: English version
     url: /en/common/git-checkout.html
@@ -33,10 +33,10 @@ tldri18n_status: 2
 ---
 # git checkout
 
-Comprueba una rama o rutas con el arbol de trabajo.
+Comprueba una rama o rutas con el árbol de trabajo.
 Más información: <https://git-scm.com/docs/git-checkout>.
 
-- Crea una nueva rama y cambiarse a esta:
+- Crea una nueva rama y se cambia a la misma:
 
 `git checkout -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_rama</span>
 
@@ -60,7 +60,7 @@ Más información: <https://git-scm.com/docs/git-checkout>.
 
 `git checkout .`
 
-- Decarta los cambios no marcados de un archivo específico:
+- Descarta los cambios no marcados de un archivo específico:
 
 `git checkout `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_archivo</span>
 
