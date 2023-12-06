@@ -2,40 +2,29 @@
 layout: page
 title: common/vboxmanage (English)
 description: "Command-line interface to VirtualBox."
-content_hash: 06d05310b24f71ad478e8e3f3c7248e11bce9905
-last_modified_at: 2023-11-12
+content_hash: 584765a891f2f3cc21e888bcb7ff47f35ccff392
+last_modified_at: 2023-12-06
 tldri18n_status: 2
 ---
 # VBoxManage
 
 Command-line interface to VirtualBox.
 Includes all the functionality of the GUI and more.
+Some subcommands such as `vboxmanage startvm` have their own usage documentation.
 More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-intro>.
 
-- List all VirtualBox virtual machines:
+- Display version:
 
-`VBoxManage list vms`
+`VBoxManage --version`
 
-- Show information about a particular virtual machine:
+- Display help:
 
-`VBoxManage showvminfo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name|uuid</span>
+`VBoxManage --help`
 
-- Start a virtual machine:
+- Display help for a VBoxManage subcommand (like `starvm`, `clonevm`, `import`, `export`, etc.):
 
-`VBoxManage startvm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name|uuid</span>
+`VBoxManage --help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
 
-- Start a virtual machine in headless mode:
+- Execute a VboxManage subcommand:
 
-`VBoxManage startvm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name|uuid</span>` --type headless`
-
-- Shutdown the virtual machine and save its current state:
-
-`VBoxManage controlvm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name|uuid</span>` savestate`
-
-- Shutdown down the virtual machine without saving its state:
-
-`VBoxManage controlvm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name|uuid</span>` poweroff`
-
-- Update VBox extension packs:
-
-`VBoxManage extpack install --replace `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">VboxExtensionPackFileName</span>
+`VBoxManage `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
