@@ -2,8 +2,8 @@
 layout: page
 title: common/yes (español)
 description: "Retorna algo repetidamente."
-content_hash: 555dbdd8f6fa6ef0029e4dc88a1074cdeace0b31
-last_modified_at: 2023-11-12
+content_hash: 12b6b0cdc7b52af11ac36b49c7412f777ec41098
+last_modified_at: 2023-12-06
 related_topics:
   - title: English version
     url: /en/common/yes.html
@@ -31,14 +31,14 @@ Retorna algo repetidamente.
 Este comando es frecuentemente utilizado para aceptar todas las confirmaciones en comandos de instalación (como apt-get).
 Más información: <https://www.gnu.org/software/coreutils/yes>.
 
-- Retornar repetidamente "mensaje":
+- Retorna repetidamente "mensaje":
 
 `yes `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mensaje</span>
 
-- Retornar repetidamente "y":
+- Retorna repetidamente "y":
 
 `yes`
 
-- Aceptar todas las confirmaciones que muestre el comando `apt-get`:
+- Acepta todas las confirmaciones que muestre el comando `apt-get`:
 
 `yes | sudo apt-get install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programa</span>

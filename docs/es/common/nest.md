@@ -2,8 +2,8 @@
 layout: page
 title: common/nest (español)
 description: "Herramienta de línea de comandos para inicializar, desarrollar y mantener aplicaciones Nest."
-content_hash: 9c1a9b5e6831142ce78f9bcec43aa3c5865e1b79
-last_modified_at: 2023-11-12
+content_hash: 3dbed19697cd508fabe333549029cb8ba90e1b35
+last_modified_at: 2023-12-06
 related_topics:
   - title: English version
     url: /en/common/nest.html
@@ -23,7 +23,7 @@ Más información: <https://docs.nestjs.com/cli/overview>.
 
 `nest new `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_proyecto</span>
 
-- Construye un a proyecto NestJS específico:
+- Construye un proyecto NestJS específico:
 
 `nest build `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_proyecto</span>
 
