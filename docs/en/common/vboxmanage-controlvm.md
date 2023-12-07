@@ -3,19 +3,10 @@ layout: page
 title: common/vboxmanage-controlvm (English)
 description: "Change the state and the settings of a currently running virtual machine."
 content_hash: 70608c77c6e4e0f1f89d5f7164d0355b6ce79ef3
-last_modified_at: 2023-12-06
-tldri18n_status: 0
+last_modified_at: 2023-12-07
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/vboxmanage-controlvm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># vboxmanage-controlvm
+# vboxmanage-controlvm
 
 Change the state and the settings of a currently running virtual machine.
 More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-controlvm>.

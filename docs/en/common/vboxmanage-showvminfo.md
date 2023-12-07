@@ -3,19 +3,10 @@ layout: page
 title: common/vboxmanage-showvminfo (English)
 description: "Show information about registered virtual machine."
 content_hash: bcb2edf5015b210a7ab302e05e500260e94bb9ba
-last_modified_at: 2023-12-06
-tldri18n_status: 0
+last_modified_at: 2023-12-07
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/vboxmanage-showvminfo.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># vboxmanage-showvminfo
+# vboxmanage-showvminfo
 
 Show information about registered virtual machine.
 More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-showvminfo>.
