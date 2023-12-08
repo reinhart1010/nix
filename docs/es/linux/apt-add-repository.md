@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-add-repository (español)
 description: "Gestiona las definiciones del repositorio apt."
-content_hash: e56de8e07698eee3637281da9ab22d9000c36d2a
-last_modified_at: 2023-11-12
+content_hash: 2d1ba02bf3649aedf24d115f24e7036c2b22ed84
+last_modified_at: 2023-12-08
 related_topics:
   - title: català version
     url: /ca/linux/apt-add-repository.html
@@ -48,6 +48,6 @@ Más información: <https://manpages.debian.org/latest/software-properties-commo
 
 `apt-add-repository --update `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repositorio</span>
 
-- Activar las fuentes de paquetes:
+- Activa las fuentes de paquetes:
 
 `apt-add-repository --enable-source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repositorio</span>
