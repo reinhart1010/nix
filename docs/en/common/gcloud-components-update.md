@@ -3,19 +3,10 @@ layout: page
 title: common/gcloud-components-update (English)
 description: "Update all your installed Google Cloud CLI components to the latest version."
 content_hash: 344b30e52def9137d2d6476d61ffcc26aaf5f45d
-last_modified_at: 2023-12-07
-tldri18n_status: 0
+last_modified_at: 2023-12-08
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gcloud-components-update.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gcloud components update
+# gcloud components update
 
 Update all your installed Google Cloud CLI components to the latest version.
 See also: `gcloud`.

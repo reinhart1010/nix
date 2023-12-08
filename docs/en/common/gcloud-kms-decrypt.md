@@ -3,19 +3,10 @@ layout: page
 title: common/gcloud-kms-decrypt (English)
 description: "Decrypt a ciphertext file using a Cloud KMS key."
 content_hash: f1dccdfc38b364873cb52e11784f72d272b638eb
-last_modified_at: 2023-12-07
-tldri18n_status: 0
+last_modified_at: 2023-12-08
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gcloud-kms-decrypt.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gcloud kms decrypt
+# gcloud kms decrypt
 
 Decrypt a ciphertext file using a Cloud KMS key.
 See also: `gcloud`.
