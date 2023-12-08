@@ -2,8 +2,8 @@
 layout: page
 title: linux/halt (català)
 description: "Deté, apaga o reinicia la màquina."
-content_hash: 0c43d7b3926b8475dff7471584e39a3d8b34038e
-last_modified_at: 2023-11-12
+content_hash: 8688760fdf5e8c822fa17e6793cdd430ca3ee0b5
+last_modified_at: 2023-12-08
 related_topics:
   - title: English version
     url: /en/linux/halt.html
@@ -38,7 +38,7 @@ Més informació: <https://manned.org/halt.8>.
 
 - Deté la màquina inmediatament sense contactar l'administrador de sistemes:
 
-`halt --force --force`
+`halt --force`
 
 - Escriu l'entrada de wtpm shutdown sense aturar el sistema:
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/halt (English)
 description: "Halt the system."
-content_hash: 144b16c314e73e7c528314836f1c216466a7faa6
-last_modified_at: 2023-11-12
+content_hash: 2c607d4bc492cf6b4b7839c17732c69a7895bb69
+last_modified_at: 2023-12-08
 related_topics:
   - title: català version
     url: /ca/linux/halt.html
@@ -38,7 +38,7 @@ More information: <https://manned.org/halt.8>.
 
 - Halt immediately without contacting the system manager:
 
-`halt --force --force`
+`halt --force`
 
 - Write the wtmp shutdown entry without halting the system:
 
