@@ -3,19 +3,10 @@ layout: page
 title: common/ykman-oath (English)
 description: "Manage the OATH YubiKey application."
 content_hash: 341721f6382a66675029b3a54afda4f54a93749b
-last_modified_at: 2023-12-08
-tldri18n_status: 0
+last_modified_at: 2023-12-09
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ykman-oath.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ykman oath
+# ykman oath
 
 Manage the OATH YubiKey application.
 A `keyword` can be a part of the name or the issuer.

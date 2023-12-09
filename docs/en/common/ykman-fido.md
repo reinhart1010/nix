@@ -3,19 +3,10 @@ layout: page
 title: common/ykman-fido (English)
 description: "Manage YubiKey FIDO applications."
 content_hash: 70384c182ab6c41b9dead47adbfa20318422cdee
-last_modified_at: 2023-12-08
-tldri18n_status: 0
+last_modified_at: 2023-12-09
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ykman-fido.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ykman fido
+# ykman fido
 
 Manage YubiKey FIDO applications.
 More information: <https://docs.yubico.com/software/yubikey/tools/ykman/FIDO_Commands.html>.
