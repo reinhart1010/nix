@@ -3,7 +3,7 @@ layout: page
 title: common/clang (Nederlands)
 description: "Compiler voor C, C++, en Objective-C bronbestanden. Kan gebruikt worden als een vervanger van GCC."
 content_hash: a1eb1d3c863da25fb5f83ceab758913f283c4a04
-last_modified_at: 2023-12-09
+last_modified_at: 2023-12-10
 related_topics:
   - title: Deutsch version
     url: /de/common/clang.html
@@ -17,18 +17,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/clang.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/clang.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># clang
+# clang
 
 Compiler voor C, C++, en Objective-C bronbestanden. Kan gebruikt worden als een vervanger van GCC.
 Meer informatie: <https://clang.llvm.org/docs/ClangCommandLineReference.html>.
