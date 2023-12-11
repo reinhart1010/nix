@@ -2,8 +2,8 @@
 layout: page
 title: linux/thunar (español)
 description: "Administrador de archivos gráficos para entornos de escritorio XFCE."
-content_hash: 58b36384ee254d2452bdd9a54639426aba6abb21
-last_modified_at: 2023-11-12
+content_hash: 1bec1b2f7098f366e77b44d4a21cbbe334e3eee8
+last_modified_at: 2023-12-11
 related_topics:
   - title: English version
     url: /en/linux/thunar.html
@@ -22,7 +22,7 @@ Más información: <https://docs.xfce.org/xfce/thunar/start>.
 
 `thunar`
 
-- Abra la utilidad de cambio de nombre masivo:
+- Abre la utilidad de cambio de nombre masivo:
 
 `thunar --bulk-rename`
 

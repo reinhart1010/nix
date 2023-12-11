@@ -2,8 +2,8 @@
 layout: page
 title: osx/as (español)
 description: "Ensamblador portable GNU."
-content_hash: 44bfa6f209b255584419f462f0ac2a33e7962db8
-last_modified_at: 2023-11-12
+content_hash: 991307f5cdfd1cd634255ca4ed1eeb3f78cf8b01
+last_modified_at: 2023-12-11
 related_topics:
   - title: English version
     url: /en/osx/as.html
@@ -33,7 +33,7 @@ Más información: <https://www.unix.com/man-page/osx/1/as/>.
 
 `as `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo.s</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">salida.o</span>
 
-- Genera resultados más rápido omitiendo los espacios en blanco y el preprocesamiento de comentarios. (Solo debe usarse para compiladores de confianza):
+- Genera resultados más rápidos omitiendo los espacios en blanco y el preprocesamiento de comentarios. (Solo debe usarse para compiladores de confianza):
 
 `as -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo.s</span>
 

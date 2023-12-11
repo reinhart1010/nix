@@ -2,8 +2,8 @@
 layout: page
 title: linux/man (español)
 description: "Da formato y muestra páginas del manual."
-content_hash: 4296bcc55a1293bc691cda28715e0a09fb56a500
-last_modified_at: 2023-11-12
+content_hash: c63e4748e05720b91240b9db0fca254f0043f0dd
+last_modified_at: 2023-12-11
 related_topics:
   - title: English version
     url: /en/linux/man.html
@@ -60,6 +60,6 @@ Más información: <https://manned.org/man>.
 
 `man --locale=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">locale</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>
 
-- Busca las páginas del manual que contienen la string indicada:
+- Busca las páginas del manual que contienen la cadena indicada:
 
 `man --apropos "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena_a_buscar</span>`"`

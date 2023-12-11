@@ -3,7 +3,7 @@ layout: page
 title: common/aws-ec2 (español)
 description: "Interfaz de línea de comandos (CLI) para AWS EC2."
 content_hash: 8d8fcba75c3679d7755c8ac834b4125be4af9a5a
-last_modified_at: 2023-12-10
+last_modified_at: 2023-12-11
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-ec2.html
@@ -17,18 +17,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/aws-ec2.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/aws-ec2.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># aws ec2
+# aws ec2
 
 Interfaz de línea de comandos (CLI) para AWS EC2.
 Provee capacidad de computacion segura y redimensionable en la nube de AWS, permitiendo mayor velociddad en el desarrollo e implementación de aplicaciones.
