@@ -3,19 +3,10 @@ layout: page
 title: linux/byzanz-record (English)
 description: "Record the screen."
 content_hash: 5dd2fd1786c1c2021d1b71d80e5acdfac56cbd4f
-last_modified_at: 2023-12-11
-tldri18n_status: 0
+last_modified_at: 2023-12-12
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/byzanz-record.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># byzanz-record
+# byzanz-record
 
 Record the screen.
 More information: <https://manned.org/byzanz-record>.
