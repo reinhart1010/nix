@@ -2,8 +2,8 @@
 layout: page
 title: common/helm-install (español)
 description: "Instalar un chart de helm."
-content_hash: fdc54c333b854436ac8d0a112388f88a6601420b
-last_modified_at: 2023-11-12
+content_hash: 1e85e012472b18ff0e93a1a3691033647b65e7ca
+last_modified_at: 2023-12-13
 related_topics:
   - title: English version
     url: /en/common/helm-install.html
@@ -27,7 +27,7 @@ Más información: <https://helm.sh/docs/intro/using_helm/#helm-install-installi
 
 `helm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_paquete</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/charts/packagename-1.2.3.tgz</span>
 
-- Instalar un chart de helm y genera un nombre:
+- Instala un chart de helm y genera un nombre:
 
 `helm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_repositorio</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_chart</span>` --generate-name`
 
