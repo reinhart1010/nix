@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-get (العربية)
 description: "أداة إدارة الحزم لديبيان وأوبونتو."
-content_hash: 74e235176c108d1a95aabde2fdeab2ff8c2e8269
-last_modified_at: 2023-11-12
+content_hash: 6ad94eabd2bd59360167821cf2c2e29013caeb15
+last_modified_at: 2023-12-14
 related_topics:
   - title: català version
     url: /ca/linux/apt-get.html
@@ -46,7 +46,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# apt
+# apt-get
 
 أداة إدارة الحزم لديبيان وأوبونتو.
 ابحث عن الحزم باستخدام `apt-cache`.

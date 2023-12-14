@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/kubectl-label (English)
-description: "Edit Kubernetes resources."
-content_hash: c61310f3bf6f78bc154f80b191506283ae3c3e26
-last_modified_at: 2023-11-12
+description: "Label Kubernetes resources."
+content_hash: 6264103e4e41c3eac726191b56e8e0287c1bf6d3
+last_modified_at: 2023-12-14
 tldri18n_status: 2
 ---
-# kubectl edit
+# kubectl label
 
-Edit Kubernetes resources.
+Label Kubernetes resources.
 More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#label>.
 
 - Label a pod:

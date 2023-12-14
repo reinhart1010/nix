@@ -2,11 +2,11 @@
 layout: page
 title: common/kubectl-scale (English)
 description: "Set a new size for a deployment, replica set, replication controller, or stateful set."
-content_hash: 371f4b9c0b9dc03964105933d3e81d9fe8f2de2b
-last_modified_at: 2023-11-12
+content_hash: 67517a111844487b188d8adece044ff5bc5bcfda
+last_modified_at: 2023-12-14
 tldri18n_status: 2
 ---
-# kubectl edit
+# kubectl scale
 
 Set a new size for a deployment, replica set, replication controller, or stateful set.
 More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#scale>.

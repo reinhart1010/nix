@@ -2,8 +2,8 @@
 layout: page
 title: common/g++ (português (Brasil))
 description: "Compila arquivos de código fonte C++."
-content_hash: ff3312c85d82f9e3c20f1957df497ef67c7bf73c
-last_modified_at: 2023-12-03
+content_hash: efc6ff94d7276efafe650ccb4f89950444d79502
+last_modified_at: 2023-12-14
 related_topics:
   - title: Deutsch version
     url: /de/common/g++.html
@@ -25,7 +25,7 @@ tldri18n_status: 1
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
-<hr># gplusplus
+<hr># g++
 
 Compila arquivos de código fonte C++.
 Parte do GCC (GNU Compiler Collection).

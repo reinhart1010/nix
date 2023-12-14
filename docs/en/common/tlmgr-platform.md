@@ -2,11 +2,11 @@
 layout: page
 title: common/tlmgr-platform (English)
 description: "Manage TeX Live platforms."
-content_hash: 31e0ba8aa0a12744dbeb66960e3f0cedff848485
-last_modified_at: 2023-11-12
+content_hash: 8af4be5714fbf2d3b2ec6e09ae14b4c38180205f
+last_modified_at: 2023-12-14
 tldri18n_status: 2
 ---
-# tldr platform
+# tlmgr platform
 
 Manage TeX Live platforms.
 More information: <https://www.tug.org/texlive/tlmgr.html>.

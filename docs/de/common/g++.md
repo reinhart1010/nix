@@ -2,8 +2,8 @@
 layout: page
 title: common/g++ (Deutsch)
 description: "Kompiliere C++ Quelldateien."
-content_hash: a83315cfd03326450eab191e23fd7cb18a670ae9
-last_modified_at: 2023-12-03
+content_hash: fe9e7698437cd329bc15f15e6617b38c7b0b9eab
+last_modified_at: 2023-12-14
 related_topics:
   - title: English version
     url: /en/common/g++.html
@@ -25,7 +25,7 @@ tldri18n_status: 1
 
 This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
 
-<hr># gplusplus
+<hr># g++
 
 Kompiliere C++ Quelldateien.
 Teil der GCC (GNU Compiler Collection).

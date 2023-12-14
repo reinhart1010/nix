@@ -2,11 +2,11 @@
 layout: page
 title: common/kubectl-expose (English)
 description: "Expose a resource as a new Kubernetes service."
-content_hash: 39b7a6e5609b5bb04cbbae37d40b62070a440737
-last_modified_at: 2023-11-12
+content_hash: 5b3de5484402871e9f6bcc2fdf15eef682833cea
+last_modified_at: 2023-12-14
 tldri18n_status: 2
 ---
-# kubectl edit
+# kubectl expose
 
 Expose a resource as a new Kubernetes service.
 More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#expose>.
