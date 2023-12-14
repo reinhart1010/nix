@@ -2,8 +2,8 @@
 layout: page
 title: common/test (日本語)
 description: "条件を評価します。"
-content_hash: 1829048151b0207ebc4523d91d39ac1c00ba3436
-last_modified_at: 2023-11-12
+content_hash: bebdd69047d90d91ba1fac41d59802c6658eb4fd
+last_modified_at: 2023-12-14
 related_topics:
   - title: English version
     url: /en/common/test.html
@@ -21,7 +21,7 @@ tldri18n_status: 2
 
 - 与えられた変数が与えられた文字列と等しいかどうかをテスト:
 
-`test "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$変数名</span>`" == "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/bin/zsh</span>`"`
+`test "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$変数名</span>`" = "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/bin/zsh</span>`"`
 
 - 与えられた変数が空であるかどうかをテスト:
 

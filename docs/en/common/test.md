@@ -2,8 +2,8 @@
 layout: page
 title: common/test (English)
 description: "Check file types and compare values."
-content_hash: fcd0774d9e42aadd95b4a64acaa07800da40f5f0
-last_modified_at: 2023-11-12
+content_hash: e2aabf253867d5e88fbf653fe875af40e8fa518f
+last_modified_at: 2023-12-14
 related_topics:
   - title: 日本語 version
     url: /ja/common/test.html
@@ -21,7 +21,7 @@ More information: <https://www.gnu.org/software/coreutils/test>.
 
 - Test if a given variable is equal to a given string:
 
-`test "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$MY_VAR</span>`" == "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/bin/zsh</span>`"`
+`test "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$MY_VAR</span>`" = "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/bin/zsh</span>`"`
 
 - Test if a given variable is empty:
 

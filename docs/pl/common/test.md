@@ -2,8 +2,8 @@
 layout: page
 title: common/test (polski)
 description: "Sprawdza typy plików i porównuje wartości."
-content_hash: ead6f4aba133de9f2e2d9c69ae4fdb60969f63cd
-last_modified_at: 2023-11-12
+content_hash: 86182808ca07994657247b5279b18135028c08db
+last_modified_at: 2023-12-14
 related_topics:
   - title: English version
     url: /en/common/test.html
@@ -21,7 +21,7 @@ Więcej informacji: <https://www.gnu.org/software/coreutils/test>.
 
 - Sprawdź czy podana zmienna jest równa łańcuchowi znaków:
 
-`test "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$ZMIENNA</span>`" == "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/bin/zsh</span>`"`
+`test "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$ZMIENNA</span>`" = "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/bin/zsh</span>`"`
 
 - Sprawdź czy zmienna jest pusta:
 
