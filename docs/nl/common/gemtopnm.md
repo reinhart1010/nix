@@ -3,23 +3,14 @@ layout: page
 title: common/gemtopnm (Nederlands)
 description: "Converteer een GEM afbeelding naar een PNM afbeelding."
 content_hash: 29cf80d43cb8b551241daf758300bb16f18a1cf3
-last_modified_at: 2023-12-14
+last_modified_at: 2023-12-15
 related_topics:
   - title: English version
     url: /en/common/gemtopnm.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gemtopnm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gemtopnm
+# gemtopnm
 
 Converteer een GEM afbeelding naar een PNM afbeelding.
 Meer informatie: <https://netpbm.sourceforge.net/doc/gemtopnm.html>.

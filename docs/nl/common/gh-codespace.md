@@ -3,23 +3,14 @@ layout: page
 title: common/gh-codespace (Nederlands)
 description: "Verbind en beheer je codespaces in GitHub."
 content_hash: a97be9596788a41410012dd284b612b4fca87e0a
-last_modified_at: 2023-12-14
+last_modified_at: 2023-12-15
 related_topics:
   - title: English version
     url: /en/common/gh-codespace.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gh-codespace.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gh codespace
+# gh codespace
 
 Verbind en beheer je codespaces in GitHub.
 Meer informatie: <https://cli.github.com/manual/gh_codespace>.

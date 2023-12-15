@@ -3,19 +3,10 @@ layout: page
 title: common/aws-kafka (English)
 description: "Manage an Amazon MSK (Managed Streaming for Apache Kafka) cluster."
 content_hash: 001155c2a4ea68fcdf5a9b42966d7d209669cc94
-last_modified_at: 2023-12-14
-tldri18n_status: 0
+last_modified_at: 2023-12-15
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/aws-kafka.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># aws kafka
+# aws kafka
 
 Manage an Amazon MSK (Managed Streaming for Apache Kafka) cluster.
 See also: `aws`.
