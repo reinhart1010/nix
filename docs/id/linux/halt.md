@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/halt (Indonesia)
-description: "Hentikan sistem."
-content_hash: da70c5b2d2e53ab151c78f0d8e058c10db84aa00
-last_modified_at: 2023-11-12
+description: "Hentikan seluruh proses dan jalannya CPU dalam sistem komputer."
+content_hash: 15f4755ba2431d9b798995eee85d6d955a5b70c6
+last_modified_at: 2023-12-15
 related_topics:
   - title: català version
     url: /ca/linux/halt.html
@@ -21,10 +21,10 @@ tldri18n_status: 2
 ---
 # halt
 
-Hentikan sistem.
+Hentikan seluruh proses dan jalannya CPU dalam sistem komputer.
 Informasi lebih lanjut: <https://manned.org/halt.8>.
 
-- Hentikan sistem:
+- Hentikan sistem komputer:
 
 `halt`
 
@@ -32,13 +32,13 @@ Informasi lebih lanjut: <https://manned.org/halt.8>.
 
 `halt --poweroff`
 
-- Reboot sistem (sama seperti `reboot`):
+- Nyalakan ulang sistem (sama seperti `reboot`):
 
 `halt --reboot`
 
-- Berhenti segera tanpa menghubungi manajer sistem:
+- Hentikan sistem secara segera tanpa menghubungi manajer sistem:
 
-`halt --force --force`
+`halt --force`
 
 - Tulis entri wtmp shutdown tanpa menghentikan sistem:
 

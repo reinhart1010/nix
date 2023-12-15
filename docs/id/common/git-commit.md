@@ -2,8 +2,8 @@
 layout: page
 title: common/git-commit (Indonesia)
 description: "Komit file ke dalam sebuah repositori."
-content_hash: 5c57acc0241f8dc8fa300d008308b395b893cef1
-last_modified_at: 2023-11-12
+content_hash: 793845e219fe398969c5042d4cc3dc03c4dfb0d0
+last_modified_at: 2023-12-15
 related_topics:
   - title: Deutsch version
     url: /de/common/git-commit.html
@@ -47,11 +47,19 @@ Informasi lebih lanjut: <https://git-scm.com/docs/git-commit>.
 
 - Komit file bertahap ke repositori dengan sebuah pesan:
 
-`git commit -m "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pesan</span>`"`
+`git commit --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pesan</span>`"`
 
-- Otomatis merubah semua file yang dimodifikasi menjadi ke status stage dan menambahkan sebuah pesan:
+- Komit file bertahap dengan pesan yang disimpan dalam suatu file:
 
-`git commit -a -m "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pesan</span>`"`
+`git commit --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_pesan_komit</span>
+
+- Ubah secara otomatis semua file yang dimodifikasi menjadi ke status stage dan menambahkan sebuah pesan:
+
+`git commit --all --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pesan</span>`"`
+
+- Komit file bertahap kemudian tandatangani komit tersebut menggunakan kunci GPG (atau kunci yang didefinisikan dalam file konfigurasi jika tidak didefinisikan):
+
+`git commit --gpg-sign `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_kunci_gpg</span>` --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pesan</span>`"`
 
 - Ganti komit terakhir dengan perubahan yang ada di status stage saat ini:
 
@@ -59,4 +67,8 @@ Informasi lebih lanjut: <https://git-scm.com/docs/git-commit>.
 
 - Komit file tertentu (yang sudah di status stage):
 
-`git commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/file/saya1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/file/saya2</span>
+`git commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/file2</span>
+
+- Buat komit kosong, tanpa file bertahap:
+
+`git commit --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pesan</span>`" --allow-empty`

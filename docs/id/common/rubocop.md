@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/rubocop (Indonesia)
-description: "Menganalisa file Ruby."
-content_hash: 63f1c10453c146ef7cb1f457da0daf2bfc419c05
-last_modified_at: 2023-11-12
+description: "Analisa file Ruby."
+content_hash: 824df65b55b5217bb3de5af939a08de3fd904394
+last_modified_at: 2023-12-15
 related_topics:
   - title: English version
     url: /en/common/rubocop.html
@@ -21,18 +21,18 @@ tldri18n_status: 2
 ---
 # rubocop
 
-Menganalisa file Ruby.
+Analisa file Ruby.
 Informasi lebih lanjut: <https://docs.rubocop.org/rubocop/usage/basic_usage.html>.
 
-- Memeriksa semua file dalam direktori saat ini (termasuk direktori-direktori di dalamnya):
+- Periksa semua file dalam direktori saat ini (termasuk direktori-direktori di dalamnya):
 
 `rubocop`
 
-- Memeriksa satu atau lebih file atau direktori secara khusus:
+- Periksa satu atau lebih file atau direktori secara khusus:
 
 `rubocop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span>
 
-- Menulis output ke file:
+- Tulis output ke file:
 
 `rubocop --out `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file</span>
 

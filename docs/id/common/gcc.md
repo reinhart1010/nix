@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/gcc (Indonesia)
-description: "Praproses dan kompilasi kode sumber C dan C++, lalu rakit dan gabungkan bersama-sama."
-content_hash: f38e4868c2cf5772b2a6f0fee5fa0f47e90091f3
-last_modified_at: 2023-12-03
+description: "Praproses dan susun kode sumber C dan C++, lalu rakit dan gabungkan bersama-sama."
+content_hash: 6b3c41385dc41dce2aa8b557295afe9218ec28aa
+last_modified_at: 2023-12-15
 related_topics:
   - title: Deutsch version
     url: /de/common/gcc.html
@@ -33,25 +33,29 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># gcc
 
-Praproses dan kompilasi kode sumber C dan C++, lalu rakit dan gabungkan bersama-sama.
+Praproses dan susun kode sumber C dan C++, lalu rakit dan gabungkan bersama-sama.
 Informasi lebih lanjut: <https://gcc.gnu.org>.
 
-- Mengubah beberapa sumber kode menjadi program:
+- Ubah beberapa sumber kode menjadi program:
 
-`gcc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sumber1.c</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sumber2.c</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span>
+`gcc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber1.c jalan/menuju/sumber2.c ...</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/program</span>
 
-- Mengizinkan peringatan dan simbol debug di output:
+- Izinkan peringatan dan simbol debug dalam [o]utput:
 
-`gcc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sumber.c</span>` -Wall -Og --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span>
+`gcc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber.c</span>` -Wall -g -Og -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/program</span>
 
-- Menyertakan pustaka dari direktori yang berbeda:
+- Sertakan pustaka (library) dari direktori yang berbeda:
 
-`gcc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sumber.c</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span>` -I`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalur_header</span>` -L`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalur_pustaka</span>` -l`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_pustaka</span>
+`gcc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sumber.c</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/program</span>` -I`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/header</span>` -L`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/pustaka</span>` -l`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_pustaka</span>
 
-- Mengkompilasi kode sumber ke dalam bahasa tingkat rendah (assembly):
+- Susun kode sumber ke dalam bahasa tingkat rendah (assembly):
 
-`gcc -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sumber.c</span>
+`gcc -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber.c</span>
 
-- Mengkompilasi kode sumber tanpa digabungkan:
+- Susun kode sumber tanpa digabungkan:
 
-`gcc -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sumber.c</span>
+`gcc -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber.c</span>
+
+- [O]ptimalkan progam yang disusun agar dapat dijalankan lebih cepat:
+
+`gcc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.c</span>` -O`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|2|3|fast</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_executable</span>

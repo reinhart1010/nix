@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/laravel-zero (Indonesia)
-description: "Pemasang Laravel Zero framework berbasis command-line."
-content_hash: 11001c4bb2a578fb3c07968e3ebfdc99b0c57b5b
-last_modified_at: 2023-11-12
+description: "Pasang framework Laravel Zero dari command-line."
+content_hash: bcf4dccd6942bb58fa59af3c494834e8a0f69919
+last_modified_at: 2023-12-15
 related_topics:
   - title: English version
     url: /en/common/laravel-zero.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # laravel-zero
 
-Pemasang Laravel Zero framework berbasis command-line.
+Pasang framework Laravel Zero dari command-line.
 Informasi lebih lanjut: <https://laravel-zero.com>.
 
 - Buat aplikasi Laravel Zero baru:
@@ -23,6 +23,6 @@ Informasi lebih lanjut: <https://laravel-zero.com>.
 
 `laravel-zero self-update`
 
-- Lis perintah yang tersedia:
+- Lihat daftar perintah yang tersedia:
 
 `laravel-zero list`

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/laravel (Indonesia)
-description: "Pemasang Laravel framework berbasis command-line."
-content_hash: 563bcc50ea379304d1763eebd96b29c830061579
-last_modified_at: 2023-11-12
+description: "Pasang framework Laravel framework dari command-line."
+content_hash: eabbb752fdd1a12535af3d627d204d9e3d0530da
+last_modified_at: 2023-12-15
 related_topics:
   - title: English version
     url: /en/common/laravel.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # laravel
 
-Pemasang Laravel framework berbasis command-line.
+Pasang framework Laravel framework dari command-line.
 Informasi lebih lanjut: <https://laravel.com>.
 
 - Buat aplikasi Laravel baru:
@@ -39,6 +39,6 @@ Informasi lebih lanjut: <https://laravel.com>.
 
 `laravel new `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama</span>` --jet --teams`
 
-- Lis perintah yang tersedia:
+- Tampilkan daftar perintah yang tersedia:
 
 `laravel list`

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/reboot (Indonesia)
-description: "Reboot sistem."
-content_hash: 257d15c195b7bd3ff0a81d1521291e4213a7657d
-last_modified_at: 2023-11-12
+description: "Nyalakan ulang sistem komputer."
+content_hash: 1bc43a3e4caa6812deb35d835cfb326c36fb4148
+last_modified_at: 2023-12-15
 related_topics:
   - title: català version
     url: /ca/linux/reboot.html
@@ -30,10 +30,10 @@ tldri18n_status: 2
 ---
 # reboot
 
-Reboot sistem.
+Nyalakan ulang sistem komputer.
 Informasi lebih lanjut: <https://manned.org/reboot.8>.
 
-- Reboot sistem:
+- Nyalakan ulang sistem komputer:
 
 `reboot`
 
@@ -45,10 +45,10 @@ Informasi lebih lanjut: <https://manned.org/reboot.8>.
 
 `reboot --halt`
 
-- Reboot segera tanpa menghubungi manajer sistem:
+- Nyalakan ulang segera tanpa menghubungi manajer sistem:
 
-`reboot --force --force`
+`reboot --force`
 
-- Tulis entri wtmp shutdown tanpa me-reboot sistem:
+- Tulis entri wtmp shutdown tanpa menyalakan ulang sistem:
 
 `reboot --wtmp-only`

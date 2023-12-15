@@ -2,8 +2,8 @@
 layout: page
 title: common/7zr (Indonesia)
 description: "Pengarsip file dengan rasio kompresi yang tinggi."
-content_hash: 08405ac03d4774800dd89cc1500d221500e62715
-last_modified_at: 2023-11-30
+content_hash: 94c951b780b0a6ba0955f3ebc677e4c36070609b
+last_modified_at: 2023-12-15
 related_topics:
   - title: বাংলা version
     url: /bn/common/7zr.html
@@ -61,26 +61,30 @@ Pengarsip file dengan rasio kompresi yang tinggi.
 Serupa dengan `7z` namun mendukung format file arsip `.7z` saja.
 Informasi lebih lanjut: <https://manned.org/7zr>.
 
-- Meng[a]rsipkan sebuah file atau direktori:
+- T[a]mbahkan sebuah file atau direktori ke dalam arsip baru atau saat ini:
 
 `7zr a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/arsip.7z</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_atau_direktori</span>
 
-- Mengenkripsi sebuah file arsip (termasuk nama-nama file yang terkandung di dalamnya):
+- Enkripsi file arsip saat ini (termasuk nama-nama file yang terkandung di dalamnya):
 
 `7zr a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/arsip_terenkripsi.7z</span>` -p`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kata sandi</span>` -mhe=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/arsip.7z</span>
 
-- Mengekstrak sebuah file arsip dengan mempertahankan struktur direktori asli:
+- E[x]trak file arsip dengan mempertahankan struktur direktori asli:
 
 `7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/arsip.7z</span>
 
-- Mengekstrak sebuah file arsip ke dalam direktori yang ditentukan:
+- E[x]trak file arsip ke dalam direktori yang ditentukan:
 
 `7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/arsip.7z</span>` -o`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span>
 
-- Mengekstrak sebuah file arsip menuju `stdout`:
+- E[x]trak file arsip menuju `stdout`:
 
 `7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/arsip.7z</span>` -so`
 
-- Me[l]ihat daftar isi dari sebuah file arsip:
+- [l]ihat daftar isi dari sebuah file arsip:
 
 `7zr l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/arsip.7z</span>
+
+- Atur tingkat kompresi pada file arsip (tingkat lebih tinggi memproduksi file arsip lebih kecil dengan proses kompresi yang lebih lama):
+
+`7zr a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/arsip.7z</span>` -mx=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|1|3|5|7|9</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/file_atau_direktori</span>
