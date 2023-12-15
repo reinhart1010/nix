@@ -2,7 +2,7 @@
 layout: page
 title: common/aireplay-ng (Indonesia)
 description: "Masukkan paket jaringan kepada jaringan nirkabel/wireless."
-content_hash: c70f2c3deb1473266c458dfeabe3757debb2b974
+content_hash: 92cd21bc93d2268270ce46e32d376db20996a0e5
 last_modified_at: 2023-12-15
 related_topics:
   - title: বাংলা version
@@ -41,7 +41,7 @@ Please considering fixing this issue by contributing to the [tldr-pages](https:/
 
 Masukkan paket jaringan kepada jaringan nirkabel/wireless.
 Bagian dari paket perangkat lunak jaringan Aircrack-ng.
-Informasi lebih lanjut: <https://www.aircrack-ng.org/doku.php?id=aireplat-ng>.
+Informasi lebih lanjut: <https://www.aircrack-ng.org/doku.php?id=aireplay-ng>.
 
 - Kirim sejumlah paket terpisah berdasarkan alamat MAC titik akses, alamat MAC klien, dan antarmuka jaringan (interface):
 
