@@ -3,7 +3,7 @@ layout: page
 title: common/aircrack-ng (Indonesia)
 description: "Retas dan dapatkan kunci WEP dan WPA/WPA2 dari proses handshake dalam paket jaringan yang ditangkap."
 content_hash: 4aa77c4b4eaee6cde3c2d6c230c815456e50f274
-last_modified_at: 2023-12-15
+last_modified_at: 2023-12-16
 related_topics:
   - title: Deutsch version
     url: /de/common/aircrack-ng.html
@@ -17,18 +17,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/aircrack-ng.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/aircrack-ng.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># aircrack-ng
+# aircrack-ng
 
 Retas dan dapatkan kunci WEP dan WPA/WPA2 dari proses handshake dalam paket jaringan yang ditangkap.
 Bagian dari paket perangkat lunak jaringan Aircrack-ng.

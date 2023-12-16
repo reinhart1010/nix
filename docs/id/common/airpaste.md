@@ -3,7 +3,7 @@ layout: page
 title: common/airpaste (Indonesia)
 description: "Bagikan pesan dan file dalam jaringan yang sama menggunakan mDNS."
 content_hash: 2f5bf71dcbbeb4d6e88d7b3f37dbb033195b68f3
-last_modified_at: 2023-12-15
+last_modified_at: 2023-12-16
 related_topics:
   - title: English version
     url: /en/common/airpaste.html
@@ -29,18 +29,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/airpaste.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/airpaste.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># airpaste
+# airpaste
 
 Bagikan pesan dan file dalam jaringan yang sama menggunakan mDNS.
 Informasi lebih lanjut: <https://github.com/mafintosh/airpaste>.

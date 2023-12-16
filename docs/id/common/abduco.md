@@ -3,7 +3,7 @@ layout: page
 title: common/abduco (Indonesia)
 description: "Manajer sesi Terminal."
 content_hash: 54a803f2ccebd9a77196388000733b581a41286c
-last_modified_at: 2023-12-15
+last_modified_at: 2023-12-16
 related_topics:
   - title: বাংলা version
     url: /bn/common/abduco.html
@@ -38,18 +38,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/abduco.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/abduco.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># abduco
+# abduco
 
 Manajer sesi Terminal.
 Informasi lebih lanjut: <http://www.brain-dump.org/projects/abduco/>.

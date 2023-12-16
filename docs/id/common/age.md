@@ -3,7 +3,7 @@ layout: page
 title: common/age (Indonesia)
 description: "Alat pengenkripsi file yang sederhana, modern, dan aman."
 content_hash: 0f8850fe5c5e0b0daf4447d78e2cd3a22cff4d63
-last_modified_at: 2023-12-15
+last_modified_at: 2023-12-16
 related_topics:
   - title: Deutsch version
     url: /de/common/age.html
@@ -29,18 +29,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/age.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/age.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># age
+# age
 
 Alat pengenkripsi file yang sederhana, modern, dan aman.
 Lihat `age-keygen` untuk mengetahui cara membuat pasangan kunci.

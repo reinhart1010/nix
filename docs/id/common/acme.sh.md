@@ -3,7 +3,7 @@ layout: page
 title: common/acme.sh (Indonesia)
 description: "Sebuah shell script yang mengimplementasikan ACME client protocol (pembuat sertifikat HTTPS), alternatif dari `certbot`."
 content_hash: ee540054e3d945d5e4d847a1a462fce902a5764f
-last_modified_at: 2023-12-15
+last_modified_at: 2023-12-16
 related_topics:
   - title: বাংলা version
     url: /bn/common/acme.sh.html
@@ -26,18 +26,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/acme.sh.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/acme.sh.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># acme.sh
+# acme.sh
 
 Sebuah shell script yang mengimplementasikan ACME client protocol (pembuat sertifikat HTTPS), alternatif dari `certbot`.
 Lihat juga: `acme.sh dns`.

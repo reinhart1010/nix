@@ -3,7 +3,7 @@ layout: page
 title: common/acme.sh-dns (Indonesia)
 description: "Gunakan verifikasi DNS-01 untuk menerbitkan sertifikat HTTPS."
 content_hash: 87bbe2757a2dcc667a79d0da8c198842ee70b5b7
-last_modified_at: 2023-12-15
+last_modified_at: 2023-12-16
 related_topics:
   - title: বাংলা version
     url: /bn/common/acme.sh-dns.html
@@ -20,18 +20,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/acme.sh-dns.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/acme.sh-dns.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># acme.sh --dns
+# acme.sh --dns
 
 Gunakan verifikasi DNS-01 untuk menerbitkan sertifikat HTTPS.
 Informasi lebih lanjut: <https://github.com/acmesh-official/acme.sh/wiki>.

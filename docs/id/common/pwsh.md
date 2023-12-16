@@ -3,7 +3,7 @@ layout: page
 title: common/pwsh (Indonesia)
 description: "Sebuah syel/shell dan bahasa pemrograman berbasis naskah/script yang dirancang untuk administrasi sistem komputer."
 content_hash: 2916ac21b11b68f7b2a037cafa778175f20f8ca5
-last_modified_at: 2023-12-15
+last_modified_at: 2023-12-16
 related_topics:
   - title: English version
     url: /en/common/pwsh.html
@@ -14,18 +14,9 @@ related_topics:
   - title: polski version
     url: /pl/common/pwsh.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pwsh.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pwsh
+# pwsh
 
 Sebuah syel/shell dan bahasa pemrograman berbasis naskah/script yang dirancang untuk administrasi sistem komputer.
 Perintah ini merujuk kepada PowerShell versi 6 ke atas (juga dikenal sebagai PowerShell Core dan PowerShell lintas sistem operasi). Gunakan perintah `powershell` daripada `pwsh` untuk menggunakan PowerShell versi bawaan Windows (5.1 ke bawah).

@@ -3,7 +3,7 @@ layout: page
 title: common/airodump-ng (Indonesia)
 description: "Tangkap para paket dan tampilkan informasi mengenai jaringan nirkabel/wireless."
 content_hash: e4f4efd0349e4f2380f89264d85550f70ca4f95b
-last_modified_at: 2023-12-15
+last_modified_at: 2023-12-16
 related_topics:
   - title: Deutsch version
     url: /de/common/airodump-ng.html
@@ -20,18 +20,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/airodump-ng.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/airodump-ng.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># airodump-ng
+# airodump-ng
 
 Tangkap para paket dan tampilkan informasi mengenai jaringan nirkabel/wireless.
 Bagian dari paket perangkat lunak jaringan Aircrack-ng.

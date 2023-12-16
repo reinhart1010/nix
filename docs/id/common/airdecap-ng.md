@@ -3,7 +3,7 @@ layout: page
 title: common/airdecap-ng (Indonesia)
 description: "Dekripsi file tangkapan jaringan terenkripsi dengan kunci sandi WEP, WPA, atau WPA2."
 content_hash: a39a6e3e6b514ceae5c93dd974081d6687e2342b
-last_modified_at: 2023-12-15
+last_modified_at: 2023-12-16
 related_topics:
   - title: English version
     url: /en/common/airdecap-ng.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/airdecap-ng.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/airdecap-ng.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># airdecap-ng
+# airdecap-ng
 
 Dekripsi file tangkapan jaringan terenkripsi dengan kunci sandi WEP, WPA, atau WPA2.
 Bagian dari paket perangkat lunak jaringan Aircrack-ng.

@@ -2,8 +2,8 @@
 layout: page
 title: common/kcat (English)
 description: "Apache Kafka producer and consumer tool."
-content_hash: 582db6d01e846336c620aabe53d59ad5b5fd2841
-last_modified_at: 2023-11-12
+content_hash: 7b13045a163dd723ee9271ce97b219940a2db997
+last_modified_at: 2023-12-16
 tldri18n_status: 2
 ---
 # kcat
@@ -25,7 +25,7 @@ More information: <https://github.com/edenhill/kcat>.
 
 - Publish message by reading from `stdin`:
 
-` echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span>` | kcat -P -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">topic</span>` -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">brokers</span>
+`echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span>` | kcat -P -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">topic</span>` -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">brokers</span>
 
 - Publish messages by reading from a file:
 
