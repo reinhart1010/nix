@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/nvm (español)
-description: "Instala, desinstala o cambiar entre versiones de Node.js."
-content_hash: e0a3a779fe32cd7572f8a44fcf4206fdefc3e0b9
-last_modified_at: 2023-11-12
+description: "Instala, desinstala o cambia entre versiones de Node.js."
+content_hash: 5ad66552dabb4556494b74b3d772040dacd43a3c
+last_modified_at: 2023-12-16
 related_topics:
   - title: English version
     url: /en/windows/nvm.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 ---
 # nvm
 
-Instala, desinstala o cambiar entre versiones de Node.js.
+Instala, desinstala o cambia entre versiones de Node.js.
 Admite números de versión como "12.8" o "v16.13.1", y etiquetas como "stable", "system", etc.
 Más información: <https://github.com/coreybutler/nvm-windows>.
 
@@ -34,7 +34,7 @@ Más información: <https://github.com/coreybutler/nvm-windows>.
 
 `nvm list`
 
-- Lista de todas las versiones remotas de Node.js:
+- Lista todas las versiones remotas de Node.js:
 
 `nvm ls-remote`
 

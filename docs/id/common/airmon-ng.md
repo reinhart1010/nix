@@ -1,8 +1,8 @@
 ---
 layout: page
 title: common/airmon-ng (Indonesia)
-description: "Nyalakan mode pengawasan pada perangkat jaringan nirkabel/wireless"
-content_hash: 06fb8f47338eff47987aaea6fe833352687527f9
+description: "Nyalakan mode pengawasan pada perangkat jaringan nirkabel/wireless."
+content_hash: 447248a8a36789220ffa1c23963e2a7f3009b8af
 last_modified_at: 2023-12-16
 related_topics:
   - title: Deutsch version
@@ -33,7 +33,7 @@ tldri18n_status: 2
 ---
 # airmon-ng
 
-Nyalakan mode pengawasan pada perangkat jaringan nirkabel/wireless
+Nyalakan mode pengawasan pada perangkat jaringan nirkabel/wireless.
 Bagian dari paket perangkat lunak jaringan Aircrack-ng.
 Informasi lebih lanjut: <https://www.aircrack-ng.org/doku.php?id=airmon-ng>.
 
