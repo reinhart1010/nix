@@ -2,8 +2,8 @@
 layout: page
 title: common/mpv (English)
 description: "A audio/video player based on MPlayer."
-content_hash: 50e3ddcc1b9feb01bb42d8044b56efd3443c1565
-last_modified_at: 2023-11-12
+content_hash: 3f452b7356be256a16ede3348f5f787d5d28d3b3
+last_modified_at: 2023-12-17
 related_topics:
   - title: italiano version
     url: /it/common/mpv.html
@@ -18,13 +18,9 @@ tldri18n_status: 2
 A audio/video player based on MPlayer.
 More information: <https://mpv.io>.
 
-- Play a video or audio file:
+- Play a video or audio from a URL or file:
 
-`mpv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
-
-- Play a video or audio file from a URL:
-
-`mpv '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=dQw4w9WgXcQ</span>`'`
+`mpv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|path/to/file</span>`'`
 
 - Jump backward/forward 5 seconds:
 
@@ -38,9 +34,13 @@ More information: <https://mpv.io>.
 
 `[ <or> ]`
 
-- Play a file at a specified speed (0.01 to 100, default 1):
+- Take a screenshot of the current frame (saved to `./mpv-shotNNNN.jpg` by default):
 
-`mpv --speed `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">speed</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`s`
+
+- Play a file at a specified speed (1 by default):
+
+`mpv --speed `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.01..100</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Play a file using a profile defined in the `mpv.conf` file:
 

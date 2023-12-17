@@ -2,8 +2,8 @@
 layout: page
 title: linux/pw-cat (English)
 description: "Play and record audio files through pipewire."
-content_hash: 7c8d7d09e962325b6fde819aaa6c3ef46f9f1b95
-last_modified_at: 2023-11-12
+content_hash: b812a90371065a57748ecb0f6c17b16f59213f3e
+last_modified_at: 2023-12-17
 related_topics:
   - title: Türkçe version
     url: /tr/linux/pw-cat.html
@@ -18,6 +18,10 @@ More information: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_
 - Play a WAV file over the default target:
 
 `pw-cat --playback `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.wav</span>
+
+- Play a WAV file with a specified resampler quality (4 by default):
+
+`pw-cat --quality `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0..15</span>` --playback `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.wav</span>
 
 - Record a sample recording at a different volume level:
 

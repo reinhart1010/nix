@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/chromium (português (Brasil))
-description: "Navegador código aberto do Google."
-content_hash: a8ffd3262c65508ef50de5e95f6143386c5de799
-last_modified_at: 2023-11-12
+description: "Navegador código aberto desenvolvido principalmente e mantido pela Google."
+content_hash: ffe0ffbe28eed12d4131b4d856eaf1c0d93396b2
+last_modified_at: 2023-12-17
 related_topics:
   - title: Deutsch version
     url: /de/common/chromium.html
@@ -20,6 +20,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/chromium.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/chromium.html
+    icon: bi bi-globe
 tldri18n_status: 1
 ---
 
@@ -27,18 +30,14 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># chromium
 
-Navegador código aberto do Google.
+Navegador código aberto desenvolvido principalmente e mantido pela Google.
 Mais informações: <https://www.chromium.org/developers/how-tos/run-chromium-with-flags/>.
 
-- Abre um arquivo:
+- Abre uma URL ou arquivo específico:
 
-`chromium `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.html</span>
+`chromium `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://exemplo.com|caminho/para/arquivo.html</span>
 
-- Abre uma URL:
-
-`chromium `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exemplo.com</span>
-
-- Abre no modo de navegação anônima (icognito):
+- Abre no modo de navegação anônima (incógnito):
 
 `chromium --incognito `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exemplo.com</span>
 
@@ -46,10 +45,22 @@ Mais informações: <https://www.chromium.org/developers/how-tos/run-chromium-wi
 
 `chromium --new-window `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exemplo.com</span>
 
-- Abre no modo app (Sem barra de tarefas, barra de URL, botões, etc.):
+- Abre no modo aplicativo (Sem barra de tarefas, barra de URL, botões, etc.):
 
-`chromium --app='`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>`'`
+`chromium --app=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://exemplo.com</span>
 
 - Usa um servidor proxy:
 
 `chromium --proxy-server="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">socks5://hostname:66</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exemplo.com</span>
+
+- Abre com um diretório de perfil customizado:
+
+`chromium --user-data-dir=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
+
+- Abre sem validação CORS (útil para testar uma API):
+
+`chromium --user-data-dir=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>` --disable-web-security`
+
+- Abre com uma janela DevTools para cada aba aberta:
+
+`chromium --auto-open-devtools-for-tabs`

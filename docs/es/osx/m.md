@@ -2,8 +2,8 @@
 layout: page
 title: osx/m (español)
 description: "Navaja suiza para macOS."
-content_hash: 852d0da6aee77c590bb51bfb2fe59a92c530b917
-last_modified_at: 2023-11-12
+content_hash: 56d23658f46a26d78c8465fbae187882cee730f8
+last_modified_at: 2023-12-17
 related_topics:
   - title: English version
     url: /en/osx/m.html
@@ -22,7 +22,7 @@ Más información: <https://github.com/rgcr/m-cli>.
 
 `m battery status`
 
-- Desactivar Bluetooth:
+- Desactiva Bluetooth:
 
 `m bluetooth off`
 

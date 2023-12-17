@@ -2,8 +2,8 @@
 layout: page
 title: common/arduino (português (Brasil))
 description: "Arduino Studio - Ambiente de Desenvolvimento Integrado para a plataforma Arduino."
-content_hash: 1ee94dfc2e2de326836e2d823fb64ead60e751b8
-last_modified_at: 2023-11-12
+content_hash: 91db2dba54a82a8d94385b24393d7f53b4505ac9
+last_modified_at: 2023-12-17
 related_topics:
   - title: English version
     url: /en/common/arduino.html
@@ -44,3 +44,11 @@ Mais informações: <https://github.com/arduino/Arduino/blob/master/build/shared
 - Salvar todas as preferências (alteradas) para `preferences.txt`:
 
 `arduino --save-prefs`
+
+- Instalar a última placa SAM:
+
+`arduino --install-boards "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arduino:sam</span>`"`
+
+- Instalar bibliotecas Bridge e Servo:
+
+`arduino --install-library "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Bridge:1.0.0,Servo:1.2.0</span>`"`

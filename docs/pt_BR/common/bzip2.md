@@ -2,8 +2,8 @@
 layout: page
 title: common/bzip2 (português (Brasil))
 description: "Um compressor de arquivos que utiliza o algoritmo Burrows–Wheeler."
-content_hash: 43c080332fdd4ad1a2439b7a765b1faf9b46f747
-last_modified_at: 2023-11-12
+content_hash: 31919bc6918397a88bc92139ca92d6a7639d6c69
+last_modified_at: 2023-12-17
 related_topics:
   - title: English version
     url: /en/common/bzip2.html
@@ -30,8 +30,24 @@ Mais informações: <https://manned.org/bzip2>.
 
 - Descompactar um arquivo:
 
-`bzip2 -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.bz2</span>
+`bzip2 -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_compactado.bz2</span>
 
 - Descompactar um arquivo exibindo o conteúdo no terminal:
 
-`bzip2 -dc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.bz2</span>
+`bzip2 -dc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_compactado.bz2</span>
+
+- Testar a integridade de cada arquivo dentro do arquivo compactado:
+
+`bzip2 --test `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_compactado.bz2</span>
+
+- Exibir a taxa de compressão para cada arquivo processado com informações detalhadas:
+
+`bzip2 --verbose `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivos_compactados.bz2</span>
+
+- Descompactar um arquivo sobrescrevendo arquivos existentes:
+
+`bzip2 --force `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_compactado.bz2</span>
+
+- Exibir ajuda:
+
+`bzip2 -h`
