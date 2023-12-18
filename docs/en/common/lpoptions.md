@@ -3,19 +3,14 @@ layout: page
 title: common/lpoptions (English)
 description: "Display or set printer options and defaults."
 content_hash: af02405d688c006e5ec43da7ea8283642711c99a
-last_modified_at: 2023-12-17
-tldri18n_status: 0
+last_modified_at: 2023-12-18
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/common/lpoptions.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/lpoptions.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># lpoptions
+# lpoptions
 
 Display or set printer options and defaults.
 See also: `lpadmin`.

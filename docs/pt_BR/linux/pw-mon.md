@@ -3,19 +3,14 @@ layout: page
 title: linux/pw-mon (português (Brasil))
 description: "Monitora objetos na instância PipeWire."
 content_hash: 2b1f94a90a199a238df5b0433bccb78fe24cfb1a
-last_modified_at: 2023-12-17
-tldri18n_status: 0
+last_modified_at: 2023-12-18
+related_topics:
+  - title: English version
+    url: /en/linux/pw-mon.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/pw-mon.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pw-mon
+# pw-mon
 
 Monitora objetos na instância PipeWire.
 Mais informações: <https://docs.pipewire.org/page_man_pw-mon_1.html>.

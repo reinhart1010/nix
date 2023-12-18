@@ -3,19 +3,14 @@ layout: page
 title: common/lprm (português (Brasil))
 description: "Cancela trabalhos de impressão na fila de um servidor."
 content_hash: ecc011dbe3e9b3d3295e92501425b7bf5d394357
-last_modified_at: 2023-12-17
-tldri18n_status: 0
+last_modified_at: 2023-12-18
+related_topics:
+  - title: English version
+    url: /en/common/lprm.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/lprm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># lprm
+# lprm
 
 Cancela trabalhos de impressão na fila de um servidor.
 Veja também: `lpq`.

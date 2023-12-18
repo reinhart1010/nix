@@ -3,19 +3,14 @@ layout: page
 title: common/lpq (português (Brasil))
 description: "Mostra o estado da fila de impressão."
 content_hash: fb5bdd6708241e6046b084a745f53665f6d5c91c
-last_modified_at: 2023-12-17
-tldri18n_status: 0
+last_modified_at: 2023-12-18
+related_topics:
+  - title: English version
+    url: /en/common/lpq.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/lpq.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># lpq
+# lpq
 
 Mostra o estado da fila de impressão.
 Mais informações: <https://www.cups.org/doc/man-lpq.html>.

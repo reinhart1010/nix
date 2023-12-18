@@ -3,7 +3,7 @@ layout: page
 title: common/bzip2 (português (Brasil))
 description: "Um compressor de arquivos que utiliza o algoritmo Burrows–Wheeler."
 content_hash: 31919bc6918397a88bc92139ca92d6a7639d6c69
-last_modified_at: 2023-12-17
+last_modified_at: 2023-12-18
 related_topics:
   - title: English version
     url: /en/common/bzip2.html
@@ -14,12 +14,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/bzip2.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bzip2
+# bzip2
 
 Um compressor de arquivos que utiliza o algoritmo Burrows–Wheeler.
 Mais informações: <https://manned.org/bzip2>.

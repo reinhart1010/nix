@@ -3,7 +3,7 @@ layout: page
 title: common/bundle (português (Brasil))
 description: "Gerenciador de dependências da linguagem de programação Ruby."
 content_hash: 8e98a7b4e901152e5bf907c11be7b31aea1c04d2
-last_modified_at: 2023-12-17
+last_modified_at: 2023-12-18
 related_topics:
   - title: English version
     url: /en/common/bundle.html
@@ -20,12 +20,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/bundle.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bundle
+# bundle
 
 Gerenciador de dependências da linguagem de programação Ruby.
 Mais informações: <https://bundler.io/man/bundle.1.html>.

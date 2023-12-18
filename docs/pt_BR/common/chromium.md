@@ -3,7 +3,7 @@ layout: page
 title: common/chromium (português (Brasil))
 description: "Navegador código aberto desenvolvido principalmente e mantido pela Google."
 content_hash: ffe0ffbe28eed12d4131b4d856eaf1c0d93396b2
-last_modified_at: 2023-12-17
+last_modified_at: 2023-12-18
 related_topics:
   - title: Deutsch version
     url: /de/common/chromium.html
@@ -23,12 +23,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/chromium.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># chromium
+# chromium
 
 Navegador código aberto desenvolvido principalmente e mantido pela Google.
 Mais informações: <https://www.chromium.org/developers/how-tos/run-chromium-with-flags/>.

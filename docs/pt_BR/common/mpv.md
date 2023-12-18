@@ -3,7 +3,7 @@ layout: page
 title: common/mpv (português (Brasil))
 description: "Um tocador de vídeo/audio baseado no MPlayer."
 content_hash: f18da1bd86fa5009a5476a33a51e91ca4ae0250f
-last_modified_at: 2023-12-17
+last_modified_at: 2023-12-18
 related_topics:
   - title: English version
     url: /en/common/mpv.html
@@ -14,18 +14,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/mpv.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/mpv.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># mpv
+# mpv
 
 Um tocador de vídeo/audio baseado no MPlayer.
 Mais informações: <https://mpv.io>.

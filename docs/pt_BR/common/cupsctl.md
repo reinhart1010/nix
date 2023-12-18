@@ -3,19 +3,14 @@ layout: page
 title: common/cupsctl (português (Brasil))
 description: "Atualiza ou consulta o cupsd.conf de um server."
 content_hash: 43d6b1f3ca66cfb8cd7d6dcd7d71f122fe9764bb
-last_modified_at: 2023-12-17
-tldri18n_status: 0
+last_modified_at: 2023-12-18
+related_topics:
+  - title: English version
+    url: /en/common/cupsctl.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cupsctl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cupsctl
+# cupsctl
 
 Atualiza ou consulta o cupsd.conf de um server.
 Mais informações: <https://www.cups.org/doc/man-cupsctl.html>.

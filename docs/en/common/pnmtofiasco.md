@@ -3,19 +3,10 @@ layout: page
 title: common/pnmtofiasco (English)
 description: "Convert a PNM image to a compressed FIASCO file."
 content_hash: d8e45c427bff762e747991f0fec9b893f7af3e79
-last_modified_at: 2023-12-17
-tldri18n_status: 0
+last_modified_at: 2023-12-18
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pnmtofiasco.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pnmtofiasco
+# pnmtofiasco
 
 Convert a PNM image to a compressed FIASCO file.
 More information: <https://netpbm.sourceforge.net/doc/pnmtofiasco.html>.
