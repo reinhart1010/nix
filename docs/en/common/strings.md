@@ -2,8 +2,12 @@
 layout: page
 title: common/strings (English)
 description: "Find printable strings in an object file or binary."
-content_hash: 71e4ba4518a7a5be7ebd0c5f932604bd1fc622d3
-last_modified_at: 2023-11-12
+content_hash: a78edec2e1c037f5b07116f820d62e03d31550b5
+last_modified_at: 2023-12-19
+related_topics:
+  - title: Nederlands version
+    url: /nl/common/strings.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # strings
@@ -15,9 +19,9 @@ More information: <https://manned.org/strings>.
 
 `strings `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Limit results to strings at least *length* characters long:
+- Limit results to strings at least n characters long:
 
-`strings -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">length</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`strings -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Prefix each result with its offset within the file:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/csvcut (italiano)
 description: "Filtra e tronca file CSV. Come il comando Unix `cut`, ma per dati tabellari."
-content_hash: e6d44263c2e8cb192ce24a590685c0ab345d1e3a
-last_modified_at: 2023-11-12
+content_hash: 24521017d8b638d220d2df40cc050e77308ba0ee
+last_modified_at: 2023-12-19
 related_topics:
   - title: English version
     url: /en/common/csvcut.html
@@ -27,7 +27,7 @@ Maggiori informazioni: <https://csvkit.readthedocs.io/en/latest/scripts/csvcut.h
 
 `csvcut -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1,3</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dati.csv</span>
 
-- Estrai tutte le colonne **eccetto** la quarta:
+- Estrai tutte le colonne eccetto la quarta:
 
 `csvcut -C `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dati.csv</span>
 

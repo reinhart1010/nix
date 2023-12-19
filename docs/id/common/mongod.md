@@ -2,8 +2,8 @@
 layout: page
 title: common/mongod (Indonesia)
 description: "Server database MongoDB."
-content_hash: 3e2d0b8ff899dbf8176bf0fd6411a5ae2b671404
-last_modified_at: 2023-11-12
+content_hash: 9810945b890415c7419ce3245045f648f6b0962c
+last_modified_at: 2023-12-19
 related_topics:
   - title: English version
     url: /en/common/mongod.html
@@ -29,6 +29,6 @@ Informasi lebih lanjut: <https://docs.mongodb.com/manual/reference/program/mongo
 
 `mongod --port `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span>
 
-- Menentukan tingkat pencatatan perilaku (*profiling*) database. 0 mati, 1 hanya operasi lambat, 2 semuanya:
+- Menentukan tingkat pencatatan perilaku (profiling) database. 0 mati, 1 hanya operasi lambat, 2 semuanya:
 
 `mongod --profile `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|1|2</span>

@@ -2,8 +2,8 @@
 layout: page
 title: common/csvcut (English)
 description: "Filter and truncate CSV files. Like Unix's `cut` command, but for tabular data."
-content_hash: 5b53ffed8bce87ca6fa2c49469ccd8dd7e6115cd
-last_modified_at: 2023-11-12
+content_hash: 2fc443b8bf57bf265dfbc5cb939e1a6081f293fb
+last_modified_at: 2023-12-19
 related_topics:
   - title: italiano version
     url: /it/common/csvcut.html
@@ -27,7 +27,7 @@ More information: <https://csvkit.readthedocs.io/en/latest/scripts/csvcut.html>.
 
 `csvcut -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1,3</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.csv</span>
 
-- Extract all columns **except** the fourth one:
+- Extract all columns except the fourth one:
 
 `csvcut -C `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">data.csv</span>
 

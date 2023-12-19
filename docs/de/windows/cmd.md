@@ -2,8 +2,8 @@
 layout: page
 title: windows/cmd (Deutsch)
 description: "Auch Windows-Eingabeaufforderung genannt, der Windows-Befehlsinterpreter."
-content_hash: 00c129406104891eb12c58e194f35a37a77f49bb
-last_modified_at: 2023-11-12
+content_hash: d417cf483bc99f487c759aedaa5ba823ed9d7517
+last_modified_at: 2023-12-19
 related_topics:
   - title: English version
     url: /en/windows/cmd.html
@@ -46,17 +46,17 @@ Weitere Informationen: <https://learn.microsoft.com/windows-server/administratio
 
 `cmd`
 
-- Ausführen eines Befehls (**C**ommand):
+- Ausführen eines Befehls (Command):
 
-`cmd /c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Befehl</span>`"`
+`cmd /c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Hallo Welt</span>
 
 - Ausführen eines Skripts:
 
-`cmd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Pfad/zur/Datei.bat</span>
+`cmd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Pfad\zur\Datei.bat</span>
 
 - Ausführen eines Befehls und anschließendes Aufrufen einer interaktiven Shell:
 
-`cmd /k "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Befehl</span>`"`
+`cmd /k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Hallo Welt</span>
 
 - Starten einer interaktiven Shell-Sitzung, bei der `echo` in der Befehlsausgabe deaktiviert ist:
 

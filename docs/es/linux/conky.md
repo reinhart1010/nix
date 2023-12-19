@@ -2,8 +2,8 @@
 layout: page
 title: linux/conky (español)
 description: "Monitor de sistema ligero para X."
-content_hash: dd741639cf1a2392b344bc3f5987e333f399b462
-last_modified_at: 2023-11-12
+content_hash: 3d33b42784e0cf0e649619149e702c1842ea3547
+last_modified_at: 2023-12-19
 related_topics:
   - title: català version
     url: /ca/linux/conky.html
@@ -30,13 +30,13 @@ Más información: <https://github.com/brndnmtthws/conky>.
 
 `conky -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/a/la/configuración</span>
 
-- Ejecuta en segundo plano (*daemon*):
+- Ejecuta en segundo plano (daemon):
 
 `conky -d`
 
 - Alinea conky en el escritorio:
 
-`conky -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">{arriba,abajo,en_medio}_{izquierda,derecha,en_medio}</span>
+`conky -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">top|bottom|middle</span>`_`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">left|right|middle</span>
 
 - Pausa de 5 segundos al iniciar antes de ejecutarlo:
 

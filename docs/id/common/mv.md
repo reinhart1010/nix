@@ -2,8 +2,8 @@
 layout: page
 title: common/mv (Indonesia)
 description: "Memindah atau menamai-ulang file dan direktori."
-content_hash: 4f57aa9302de768c5f2f8427279e9414c61a9e63
-last_modified_at: 2023-11-12
+content_hash: 7a5364a905ac6d03724ba992cf80449acfe72854
+last_modified_at: 2023-12-19
 related_topics:
   - title: Deutsch version
     url: /de/common/mv.html
@@ -29,6 +29,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/mv.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/mv.html
+    icon: bi bi-globe
 tldri18n_status: 1
 ---
 
@@ -47,7 +50,7 @@ Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/mv>.
 
 `mv -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/tujuan</span>
 
-- Meminta konfirmasi sebelum menimpa file yang sudah ada, apapun *file permissions*-nya:
+- Meminta konfirmasi sebelum menimpa file yang sudah ada, apapun file permissions-nya:
 
 `mv -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/tujuan</span>
 
@@ -55,6 +58,6 @@ Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/mv>.
 
 `mv -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/tujuan</span>
 
-- Memindahkan file dalam mode *verbose*, menampilkan file-file yang dipindahkan:
+- Memindahkan file dalam mode verbose, menampilkan file-file yang dipindahkan:
 
 `mv -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/tujuan</span>

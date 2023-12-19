@@ -2,8 +2,8 @@
 layout: page
 title: common/csvcut (한국어)
 description: "유닉스의 `cut` 명령어와 같이 CSV 파일 필터링 및 잘라내기, tabular 데이터 보존을 위해. csvkit에 포함된 CSV 파일만 해당."
-content_hash: fd47be75ce5f1b85037e6ea87a98bf6b7bb359a0
-last_modified_at: 2023-11-12
+content_hash: 94437128f1b65c6a28b2a704df3fc6fcc4ee1ed4
+last_modified_at: 2023-12-19
 related_topics:
   - title: English version
     url: /en/common/csvcut.html
@@ -26,7 +26,7 @@ tldri18n_status: 2
 
 `csvcut -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1,3</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터.csv</span>
 
-- 네번째 열을 **제외한** 모든 열 출력:
+- 네번째 열을 제외한 모든 열 출력:
 
 `csvcut -C `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">데이터.csv</span>
 

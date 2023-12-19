@@ -2,8 +2,8 @@
 layout: page
 title: common/git-pull (español)
 description: "Obtiene rama de un repositorio remoto y lo fusiona con el repositorio local."
-content_hash: 044456f386baef552c7415417f5301e3591b6689
-last_modified_at: 2023-12-05
+content_hash: e1908ea1645f5a4aeff65ba639471a4a24f74ec0
+last_modified_at: 2023-12-19
 related_topics:
   - title: Deutsch version
     url: /de/common/git-pull.html
@@ -43,7 +43,7 @@ Más información: <https://git-scm.com/docs/git-pull>.
 
 `git pull`
 
-- Descarga cambios del repositorio remoto por defecto y usa avance rápido (*fast forward*):
+- Descarga cambios del repositorio remoto por defecto y usa avance rápido (fast forward):
 
 `git pull --rebase`
 
