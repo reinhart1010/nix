@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/gradle (español)
-description: "Gradle es un sistema de código abierto para automatizar la compilación de proyectos."
-content_hash: f84867ab581a5a3cdcf57ee2ea32dd6f27258413
-last_modified_at: 2023-11-12
+description: "Un sistema de automatización de construcción de código abierto."
+content_hash: 164de145ea9995ca1ec2cd2f9a000a1c2a5634a0
+last_modified_at: 2023-12-19
 related_topics:
   - title: English version
     url: /en/common/gradle.html
@@ -15,25 +15,33 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># gradle
 
-Gradle es un sistema de código abierto para automatizar la compilación de proyectos.
+Un sistema de automatización de construcción de código abierto.
 Más información: <https://gradle.org>.
 
-- Compila un proyecto:
+- Compila un paquete:
 
 `gradle build`
 
-- Excluye la tarea *test*:
+- Excluye la compilación test:
 
 `gradle build -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">test</span>
 
-- Ejecuta en modo offline para prevenir que Gradle acceda a la red durante una compilación:
+- Ejecuta en modo sin conexión para evitar que Gradle acceda a la red durante la compilación:
 
 `gradle build --offline`
 
-- Limpia el directorio de compilación:
+- Limpiar el directorio de compilación:
 
 `gradle clean`
 
-- Compila un paquete Android (APK) en modo lanzamiento:
+- Construye un paquete Android (APK) en modo release:
 
 `gradle assembleRelease`
+
+- Lista las tareas principales:
+
+`gradle tasks`
+
+- Lista todas las tareas:
+
+`gradle tasks --all`
