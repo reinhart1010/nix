@@ -3,19 +3,10 @@ layout: page
 title: common/pnmscalefixed (English)
 description: "Scale a PNM file quickly with possibly reduced quality."
 content_hash: 9fe3493ee0f482900af74f826f15970fb8a94e62
-last_modified_at: 2023-12-19
-tldri18n_status: 0
+last_modified_at: 2023-12-20
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/pnmscalefixed.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pnmscalefixed
+# pnmscalefixed
 
 Scale a PNM file quickly with possibly reduced quality.
 See also: `pamscale`.

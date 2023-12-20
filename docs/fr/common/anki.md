@@ -2,8 +2,8 @@
 layout: page
 title: common/anki (français)
 description: "Programme de cartes mémo-techniques, puissant et intelligent."
-content_hash: 56c2eb793ab13e0492dff679e816cf38e1c15ab9
-last_modified_at: 2023-11-26
+content_hash: 15a44e4092bc999a9bc02cb98e4dbbc250f97792
+last_modified_at: 2023-12-20
 related_topics:
   - title: Deutsch version
     url: /de/common/anki.html
@@ -38,7 +38,7 @@ Plus d'informations : <https://docs.ankiweb.net>.
 
 `anki -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_profile</span>
 
-- Lancer `anki` dans une langue spécifique:
+- Lancer `anki` dans une langue spécifique :
 
 `anki -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">langue</span>
 

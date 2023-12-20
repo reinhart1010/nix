@@ -2,8 +2,8 @@
 layout: page
 title: common/dig (português (Brasil))
 description: "Utilitário de pesquisa de DNS."
-content_hash: d926817e91fd9d61a540d8f9b32bd81a2f84e551
-last_modified_at: 2023-11-12
+content_hash: 750c4f0185c078101b518d383845ab3b46bcd8be
+last_modified_at: 2023-12-20
 related_topics:
   - title: English version
     url: /en/common/dig.html
@@ -41,10 +41,6 @@ Mais informações: <https://manned.org/dig>.
 - Consulta um tipo de registro DNS específico associado a um nome de domínio fornecido:
 
 `dig +short `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exemplo.com</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">A|MX|TXT|CNAME|NS</span>
-
-- Obtém todos os tipos de registros para um nome de domínio fornecido:
-
-`dig `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exemplo.com</span>` ANY`
 
 - Especifica um servidor DNS alternativo para consultar:
 

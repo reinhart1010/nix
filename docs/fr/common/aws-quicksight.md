@@ -2,8 +2,8 @@
 layout: page
 title: common/aws-quicksight (français)
 description: "CLI pour AWS QuickSight."
-content_hash: 99e2312af6710690c6cc409949be0f54fad71497
-last_modified_at: 2023-11-12
+content_hash: 112068a19e6be10b7565f48e12b961b4a1ec90c6
+last_modified_at: 2023-12-20
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-quicksight.html
@@ -19,7 +19,7 @@ CLI pour AWS QuickSight.
 Accès aux entrées QuickSight.
 Plus d'informations : <https://docs.aws.amazon.com/cli/latest/reference/quicksight/>.
 
-- Liste les datasets:
+- Liste les datasets :
 
 `aws quicksight list-data-sets --aws-account-id `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_compte_aws</span>
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/az (français)
 description: "La CLI officielle de Microsoft Azure."
-content_hash: 7671e2f83a37761776451cb9de549b8710666bb9
-last_modified_at: 2023-11-12
+content_hash: 6718c2eb08b09897cb77ca0b82466dbbfec39f8b
+last_modified_at: 2023-12-20
 related_topics:
   - title: English version
     url: /en/common/az.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/az.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/az.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/az.html
@@ -47,7 +50,7 @@ Plus d'informations : <https://learn.microsoft.com/cli/azure>.
 
 `az vm list`
 
-- Gère Azure Kubernetes Services:
+- Gère Azure Kubernetes Services :
 
 `az aks`
 

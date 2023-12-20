@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-system (français)
 description: "Gérer les données Docker et afficher des informations sur l'ensemble du système."
-content_hash: fb2f79acfa60cee1e11afa7bd5336b1e18481c2a
-last_modified_at: 2023-11-12
+content_hash: e63c19829232042b686eb8fe95d03a67ca2aae44
+last_modified_at: 2023-12-20
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-system.html
@@ -31,11 +31,11 @@ Plus d'informations : <https://docs.docker.com/engine/reference/commandline/syst
 
 `docker system`
 
-- Afficher l'utilisation du disque par docker:
+- Afficher l'utilisation du disque par docker :
 
 `docker system df`
 
-- Afficher des informations détaillées sur l'utilisation du disque par docker:
+- Afficher des informations détaillées sur l'utilisation du disque par docker :
 
 `docker system df --verbose`
 

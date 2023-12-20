@@ -1,12 +1,12 @@
 ---
 layout: page
-title: linux/pw-link (English)
-description: "Manage links between ports in PipeWire."
-content_hash: ca4bd8046e00c8782f91046a03cb5e16d683f9b8
+title: linux/pw-link (português (Brasil))
+description: "Gerenciar conexões entre portas no PipeWire."
+content_hash: 4d6f63af2c01cd3075ef8eddd70985359a275c5b
 last_modified_at: 2023-12-20
 related_topics:
-  - title: português (Brasil) version
-    url: /pt_BR/linux/pw-link.html
+  - title: English version
+    url: /en/linux/pw-link.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/pw-link.html
@@ -15,25 +15,25 @@ tldri18n_status: 2
 ---
 # pw-link
 
-Manage links between ports in PipeWire.
-More information: <https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-Devices>.
+Gerenciar conexões entre portas no PipeWire.
+Mais informações: <https://gitlab.freedesktop.org/pipewire/pipewire/-/wikis/Virtual-Devices>.
 
-- List all audio output and input ports with their IDs:
+- Lista todos as saídas e entradas de áudio com seus IDs:
 
 `pw-link --output --input --ids`
 
-- Create a link between an output and an input port:
+- Cria uma conexão entre uma porta de entrada e uma porta de saída:
 
 `pw-link `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_port_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_port_name</span>
 
-- Disconnect two ports:
+- Desconecta duas portas:
 
 `pw-link --disconnect `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_port_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_port_name</span>
 
-- List all links with their IDs:
+- Lista todas as conexões com seus IDs:
 
 `pw-link --links --ids`
 
-- Display help:
+- Exibe ajuda:
 
 `pw-link -h`

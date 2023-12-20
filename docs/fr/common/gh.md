@@ -2,8 +2,8 @@
 layout: page
 title: common/gh (français)
 description: "Travailler harmonieusement avec GitHub depuis la ligne de commande."
-content_hash: c3eb34c1448a290a018bfc62ebc7e1cded85dfb6
-last_modified_at: 2023-11-12
+content_hash: ca5702a586fd86fd8d003436592cbddcb2d6b121
+last_modified_at: 2023-12-20
 related_topics:
   - title: Deutsch version
     url: /de/common/gh.html
@@ -50,6 +50,6 @@ Plus d'informations : <https://cli.github.com/>.
 
 `gh pr checkout `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numéro_de_la_PR</span>
 
-- Affiche le statut des pull requests du dépôt courant:
+- Affiche le statut des pull requests du dépôt courant :
 
 `gh pr status`

@@ -2,8 +2,8 @@
 layout: page
 title: common/arp (français)
 description: "Affiche et manipule votre cache système ARP."
-content_hash: 6e58f4fa87cea8e06bfbb5853ba523af731df8bb
-last_modified_at: 2023-11-12
+content_hash: 32872002e0f663aff7b6ca2977786454cf9dba6f
+last_modified_at: 2023-12-20
 related_topics:
   - title: Deutsch version
     url: /de/common/arp.html
@@ -44,6 +44,6 @@ Plus d'informations : <https://manned.org/arp>.
 
 `arp -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adresse</span>
 
-- Crée une entré dans la table ARP:
+- Crée une entré dans la table ARP :
 
 `arp -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adresse</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adresse_mac</span>

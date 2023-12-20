@@ -2,8 +2,8 @@
 layout: page
 title: common/dig (italiano)
 description: "Utilità di lookup DNS."
-content_hash: 3718911a43e90d85ca09566f7b3953223a672c54
-last_modified_at: 2023-11-12
+content_hash: c9ffd9a47726e2debdc1475cf755fd31e33e30c6
+last_modified_at: 2023-12-20
 related_topics:
   - title: English version
     url: /en/common/dig.html
@@ -40,10 +40,6 @@ Maggiori informazioni: <https://manned.org/dig>.
 - Mostra i mail server associati ad uno specifico dominio (record MX):
 
 `dig +short `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">esempio.com</span>` MX`
-
-- Richiedi tutti i tipi di record per un dato dominio:
-
-`dig `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">esempio.com</span>` ANY`
 
 - Specifica un server DNS alternativo a cui fare richiesta:
 

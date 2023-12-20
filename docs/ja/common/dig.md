@@ -2,8 +2,8 @@
 layout: page
 title: common/dig (日本語)
 description: "DNS 情報を調べるユーティリティーです。"
-content_hash: 793405a5baf3ad4b239cd8ef5778b29759c6509d
-last_modified_at: 2023-11-12
+content_hash: 620c1b6fc44b6733eeabd061c010f715d38d455a
+last_modified_at: 2023-12-20
 related_topics:
   - title: English version
     url: /en/common/dig.html
@@ -41,10 +41,6 @@ DNS 情報を調べるユーティリティーです。
 - 指定されたドメイン名に関連する特定の DNS レコードタイプを取得する:
 
 `dig +short `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">A|MX|TXT|CNAME|NS</span>
-
-- 指定したドメイン名のすべてのタイプのレコードを取得する:
-
-`dig `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>` ANY`
 
 - 問い合わせる別の DNS サーバーを指定する:
 

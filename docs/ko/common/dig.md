@@ -2,8 +2,8 @@
 layout: page
 title: common/dig (한국어)
 description: "DNS 조회 유틸리티."
-content_hash: a1996d3d98c670bb48e83a83188fe33055c0486a
-last_modified_at: 2023-11-12
+content_hash: cd17b9f769a035528aed1ef087df1075d92e1d64
+last_modified_at: 2023-12-20
 related_topics:
   - title: English version
     url: /en/common/dig.html
@@ -40,10 +40,6 @@ DNS 조회 유틸리티.
 - 주어진 도메인 이름과 관련된 메일 서버 조회하기 (MX record):
 
 `dig +short `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>` MX`
-
-- 주어진 도메인 이름에 대한 모든 유형의 레코드들 가져오기:
-
-`dig `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>` ANY`
 
 - 쿼리할 대체 DNS 서버를 지정하기:
 

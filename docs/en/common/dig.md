@@ -2,8 +2,8 @@
 layout: page
 title: common/dig (English)
 description: "DNS lookup utility."
-content_hash: 8ac985f563a8ee262028956f09f1a9176239c0df
-last_modified_at: 2023-11-12
+content_hash: 462e22d28d8b1df5638e74837e90058dea3b5b4f
+last_modified_at: 2023-12-20
 related_topics:
   - title: español version
     url: /es/common/dig.html
@@ -41,10 +41,6 @@ More information: <https://manned.org/dig>.
 - Query a specific DNS record type associated with a given domain name:
 
 `dig +short `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">A|MX|TXT|CNAME|NS</span>
-
-- Get all types of records for a given domain name:
-
-`dig `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>` ANY`
 
 - Specify an alternate DNS server to query:
 
