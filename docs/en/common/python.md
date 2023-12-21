@@ -2,8 +2,8 @@
 layout: page
 title: common/python (English)
 description: "Python language interpreter."
-content_hash: d949784b98d0095d78eda18a5d7e571e8cb30ecb
-last_modified_at: 2023-11-12
+content_hash: fbef2274e6af4a55ae51318dd2a0416aeb5245de
+last_modified_at: 2023-12-21
 related_topics:
   - title: Indonesia version
     url: /id/common/python.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/python.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/python.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -50,8 +53,8 @@ More information: <https://www.python.org>.
 
 - Interactively debug a Python script:
 
-`python -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdb</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.py</span>
+`python -m pdb `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.py</span>
 
 - Start the built-in HTTP server on port 8000 in the current directory:
 
-`python -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http.server</span>
+`python -m http.server`

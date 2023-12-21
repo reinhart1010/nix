@@ -2,8 +2,8 @@
 layout: page
 title: common/python (中文)
 description: "Python 语言解释器。"
-content_hash: f6ecbe87710ed5b4565ec7db560d7b2e27f7bda9
-last_modified_at: 2023-12-17
+content_hash: 5c6f901136135457def575f7fc30774364c029f8
+last_modified_at: 2023-12-21
 related_topics:
   - title: English version
     url: /en/common/python.html
@@ -53,8 +53,8 @@ Python 语言解释器。
 
 - 互动调试 Python 脚本：
 
-`python -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdb</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件.py</span>
+`python -m pdb `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件.py</span>
 
 - 在当前目录中的端口 8000 上启动内置的 HTTP 服务器：
 
-`python -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http.server</span>
+`python -m http.server`

@@ -2,8 +2,8 @@
 layout: page
 title: common/python (português (Brasil))
 description: "Interpretador da linguagem Python."
-content_hash: bdaea74b09948804eae62951c2bcaad198a8cf5a
-last_modified_at: 2023-11-12
+content_hash: 210c6049d6965c7d60b26a0409d6bea417ba1359
+last_modified_at: 2023-12-21
 related_topics:
   - title: English version
     url: /en/common/python.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/python.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/python.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -50,8 +53,8 @@ Mais informações: <https://www.python.org>.
 
 - Depura interativamente um script de Python:
 
-`python -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdb</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.py</span>
+`python -m pdb `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.py</span>
 
 - Inicia o servidor HTTP integrado na porta 8000 no diretório atual:
 
-`python -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http.server</span>
+`python -m http.server`
