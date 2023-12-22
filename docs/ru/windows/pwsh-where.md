@@ -2,8 +2,8 @@
 layout: page
 title: windows/pwsh-where (русский)
 description: "Эта команда — псевдоним для `Where-Object`."
-content_hash: 98c187551fb584f7e185d8728ca48fca8c1571a9
-last_modified_at: 2023-11-12
+content_hash: 6864326101bbf91512f490bdedea3bdbf0a4ad33
+last_modified_at: 2023-12-22
 related_topics:
   - title: العربية version
     url: /ar/windows/pwsh-where.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# pwsh-where
+# pwsh where
 
 Эта команда — псевдоним для `Where-Object`.
 Больше информации: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/where-object>.

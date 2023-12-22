@@ -2,8 +2,8 @@
 layout: page
 title: linux/pw-cat (English)
 description: "Play and record audio files through pipewire."
-content_hash: c6531ca192b9d4e95f2ac734f7ba5779527dc9a8
-last_modified_at: 2023-12-20
+content_hash: a206b1effc5b9f5d6aeb9f97923100307835e696
+last_modified_at: 2023-12-22
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/pw-cat.html
@@ -28,8 +28,8 @@ More information: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWire_
 
 - Record a sample recording at a volume level of 125%:
 
-`pw-cat --record --volume=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.25</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.wav</span>
+`pw-cat --record --volume `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.25</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.wav</span>
 
 - Record a sample recording using a different sample rate:
 
-`pw-cat --record --rate=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">6000</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.wav</span>
+`pw-cat --record --rate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">6000</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.wav</span>

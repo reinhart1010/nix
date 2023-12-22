@@ -2,8 +2,8 @@
 layout: page
 title: windows/pwsh-where (हिन्दी)
 description: "यह आदेश `Where-Object` का उपनाम है।"
-content_hash: c66c18af300524202c88b01b2347adcb2336ea06
-last_modified_at: 2023-11-12
+content_hash: 8e29d672ee64ff621da51535fd710c77d240f459
+last_modified_at: 2023-12-22
 related_topics:
   - title: العربية version
     url: /ar/windows/pwsh-where.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# pwsh-where
+# pwsh where
 
 यह आदेश `Where-Object` का उपनाम है।
 अधिक जानकारी: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/where-object>।

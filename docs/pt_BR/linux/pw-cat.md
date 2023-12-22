@@ -2,8 +2,8 @@
 layout: page
 title: linux/pw-cat (português (Brasil))
 description: "Toca e grava arquivos de áudio através do pipewire."
-content_hash: 4b9a280035ff629edacede9ca22ecdb656793a3b
-last_modified_at: 2023-12-20
+content_hash: 5baaa679fffb96494594fa26e6cd947dc0e0a0b9
+last_modified_at: 2023-12-22
 related_topics:
   - title: English version
     url: /en/linux/pw-cat.html
@@ -26,10 +26,10 @@ Mais informações: <https://fedoraproject.org/wiki/QA:Testcase_PipeWire_PipeWir
 
 `pw-cat --quality `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0..15</span>` --playback `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.wav</span>
 
-- Faz uma gravação com um volume diferente:
+- Faz uma gravação com o volume em 125%:
 
-`pw-cat --record --volume=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.wav</span>
+`pw-cat --record --volume `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.25</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.wav</span>
 
 - Faz uma gravação com uma taxa de amostragem diferente:
 
-`pw-cat --record --rate=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">6000</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.wav</span>
+`pw-cat --record --rate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">6000</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.wav</span>

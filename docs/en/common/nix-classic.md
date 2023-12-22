@@ -2,11 +2,11 @@
 layout: page
 title: common/nix-classic (English)
 description: "A classic, stable interface to a powerful package manager that makes package management reliable, reproducible, and declarative."
-content_hash: 185369b20b4b63c0cc3e40b1e490cb51d72ada8b
-last_modified_at: 2023-11-12
+content_hash: 446710023cdcc76cabf8d03ef107a426e72770cb
+last_modified_at: 2023-12-22
 tldri18n_status: 2
 ---
-# Nix classic interface
+# nix classic
 
 A classic, stable interface to a powerful package manager that makes package management reliable, reproducible, and declarative.
 Some Nix commands such as `nix-build`, `nix-shell`, `nix-env`, and `nix-store` have their own pages. See also: `tldr nix`.

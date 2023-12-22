@@ -2,8 +2,8 @@
 layout: page
 title: windows/pwsh-where (bosanski)
 description: "Ova komanda je pseudonim za `Where-Object`."
-content_hash: 39af2b247875ef43596c57dd828057026f03655a
-last_modified_at: 2023-11-12
+content_hash: c101821f7b372b88d5db2534ac01eae4c0ab3517
+last_modified_at: 2023-12-22
 related_topics:
   - title: العربية version
     url: /ar/windows/pwsh-where.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# pwsh-where
+# pwsh where
 
 Ova komanda je pseudonim za `Where-Object`.
 Više informacija: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/where-object>.

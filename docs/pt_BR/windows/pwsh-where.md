@@ -2,8 +2,8 @@
 layout: page
 title: windows/pwsh-where (português (Brasil))
 description: "Este comando é um pseudônimo de `Where-Object`."
-content_hash: c8de97b4ed2e50a421c2f91a8f59c4c0507ad102
-last_modified_at: 2023-11-12
+content_hash: cfa1c0b2af21c5251992fa233bbced6104080189
+last_modified_at: 2023-12-22
 related_topics:
   - title: العربية version
     url: /ar/windows/pwsh-where.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# pwsh-where
+# pwsh where
 
 Este comando é um pseudônimo de `Where-Object`.
 Mais informações: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/where-object>.

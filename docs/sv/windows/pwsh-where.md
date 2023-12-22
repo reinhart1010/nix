@@ -2,8 +2,8 @@
 layout: page
 title: windows/pwsh-where (svenska)
 description: "Det här kommandot är ett alias för `Where-Object`."
-content_hash: 9a76f00d4211548a20673761ab99cc5be56eccb8
-last_modified_at: 2023-11-12
+content_hash: c1e1f577800eb3347d329786658a3d2af175e6d7
+last_modified_at: 2023-12-22
 related_topics:
   - title: العربية version
     url: /ar/windows/pwsh-where.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# pwsh-where
+# pwsh where
 
 Det här kommandot är ett alias för `Where-Object`.
 Mer information: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/where-object>.

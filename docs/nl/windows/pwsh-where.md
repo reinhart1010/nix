@@ -2,8 +2,8 @@
 layout: page
 title: windows/pwsh-where (Nederlands)
 description: "Dit commando is een alias van `Where-Object`."
-content_hash: 241944cc6dcf69594a783afe8531a3c4e9410f7e
-last_modified_at: 2023-11-12
+content_hash: 774441444adcca2246eb440689bad4588379b077
+last_modified_at: 2023-12-22
 related_topics:
   - title: العربية version
     url: /ar/windows/pwsh-where.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# pwsh-where
+# pwsh where
 
 Dit commando is een alias van `Where-Object`.
 Meer informatie: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/where-object>.

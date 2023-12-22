@@ -2,8 +2,8 @@
 layout: page
 title: windows/pwsh-where (മലയാളം)
 description: "ഈ കമാൻഡ് `Where-Object` എന്നത്തിന്റെ അപരനാമമാണ്."
-content_hash: 7d0cde223910ca71a6884b714eb0db2b833367d4
-last_modified_at: 2023-11-12
+content_hash: 865f93326b67fdb3d005d3ecba0aa6ac582ca1cd
+last_modified_at: 2023-12-22
 related_topics:
   - title: العربية version
     url: /ar/windows/pwsh-where.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# pwsh-where
+# pwsh where
 
 ഈ കമാൻഡ് `Where-Object` എന്നത്തിന്റെ അപരനാമമാണ്.
 കൂടുതൽ വിവരങ്ങൾ: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/where-object>.

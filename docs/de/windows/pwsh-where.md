@@ -2,8 +2,8 @@
 layout: page
 title: windows/pwsh-where (Deutsch)
 description: "Dieser Befehl ist ein Alias von `Where-Object`."
-content_hash: dc52f66bc59a1ecd35bd0b71cf2d85d47657ee09
-last_modified_at: 2023-11-12
+content_hash: 2a7a7a24fcfb3d25d956314a9a56e006bf5ad155
+last_modified_at: 2023-12-22
 related_topics:
   - title: العربية version
     url: /ar/windows/pwsh-where.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# pwsh-where
+# pwsh where
 
 Dieser Befehl ist ein Alias von `Where-Object`.
 Weitere Informationen: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/where-object>.

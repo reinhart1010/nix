@@ -2,8 +2,8 @@
 layout: page
 title: windows/pwsh-where (العربية)
 description: "هذا الأمر هو اسم مستعار لـ `Where-Object`."
-content_hash: d9fe043f31101c33e8bedd552a963302c808245d
-last_modified_at: 2023-11-12
+content_hash: 144d5f3fec2c9156a9c17fcd1322bbebf585a05c
+last_modified_at: 2023-12-22
 related_topics:
   - title: bosanski version
     url: /bs/windows/pwsh-where.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# pwsh-where
+# pwsh where
 
 هذا الأمر هو اسم مستعار لـ `Where-Object`.
 لمزيد من التفاصيل: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/where-object>.

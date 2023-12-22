@@ -2,8 +2,8 @@
 layout: page
 title: windows/pwsh-where (한국어)
 description: "이 명령은 `Where-Object` 의 에일리어스 (별칭) 입니다."
-content_hash: e47cac1150ed838c80b4cb0d2449a77ddcc3304c
-last_modified_at: 2023-11-12
+content_hash: 11907851d62d99b477c779b2b96af536e3dfc18c
+last_modified_at: 2023-12-22
 related_topics:
   - title: العربية version
     url: /ar/windows/pwsh-where.html
@@ -91,7 +91,7 @@ related_topics:
     icon: bi bi-globe
 tldri18n_status: 2
 ---
-# pwsh-where
+# pwsh where
 
 이 명령은 `Where-Object` 의 에일리어스 (별칭) 입니다.
 더 많은 정보: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/where-object>.
