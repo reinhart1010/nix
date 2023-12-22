@@ -3,7 +3,7 @@ layout: page
 title: common/python (Nederlands)
 description: "Python taal interpreter."
 content_hash: 0725b29d9af59af542c3254eea57f5300833911f
-last_modified_at: 2023-12-21
+last_modified_at: 2023-12-22
 related_topics:
   - title: English version
     url: /en/common/python.html
@@ -23,18 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/python.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/python.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># python
+# python
 
 Python taal interpreter.
 Meer informatie: <https://www.python.org>.
