@@ -3,7 +3,7 @@ layout: page
 title: common/mv (italiano)
 description: "Sposta o rinomina file e directory."
 content_hash: 16a56dd57e437eec6ee93be30d31e7fbd3b21900
-last_modified_at: 2023-12-22
+last_modified_at: 2023-12-23
 related_topics:
   - title: Deutsch version
     url: /de/common/mv.html
@@ -32,12 +32,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/mv.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mv
+# mv
 
 Sposta o rinomina file e directory.
 Maggiori informazioni: <https://www.gnu.org/software/coreutils/mv>.
