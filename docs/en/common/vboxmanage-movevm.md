@@ -2,11 +2,11 @@
 layout: page
 title: common/vboxmanage-movevm (English)
 description: "Move a virtual machine (VM) to a new location on the host system."
-content_hash: 431d74d3876128d0e3e45fd2bdfde1026399cc19
-last_modified_at: 2023-12-21
+content_hash: 4143eaf3aef35f3932e87bc209471b65303fb507
+last_modified_at: 2023-12-23
 tldri18n_status: 2
 ---
-# vboxmanage-movevm
+# vboxmanage movevm
 
 Move a virtual machine (VM) to a new location on the host system.
 More information: <https://www.virtualbox.org/manual/ch08.html#vboxmanage-movevm>.
