@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/apt-get (español)
-description: "Herramienta de gestión de paquete para distribuciones basadas en Debian."
-content_hash: 2969fc6f4221c2621eaf748ee703765963af7ee8
-last_modified_at: 2023-11-12
+description: "Utilidad de gestión de paquetes para Debian y Ubuntu."
+content_hash: 8f0998f9a1efb09b81fb157284a706269cf694d6
+last_modified_at: 2023-12-24
 related_topics:
   - title: العربية version
     url: /ar/linux/apt-get.html
@@ -51,15 +51,15 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># apt-get
 
-Herramienta de gestión de paquete para distribuciones basadas en Debian.
-Buscar paquetes utilizando `apt-cache`.
+Utilidad de gestión de paquetes para Debian y Ubuntu.
+Búsqueda de paquetes mediante `apt-cache`.
 Más información: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
 
-- Actualiza la lista de paquetes y versiones disponibles (se recomienda ejecutar este comando antes que cualquier otro comando `apt-get`):
+- Actualiza la lista de paquetes y versiones disponibles (se recomienda ejecutar esto antes de otros comandos `apt-get`):
 
 `apt-get update`
 
-- Instala un paquete o actualizarlo a su última versión disponible:
+- Instala un paquete o lo actualiza a la última versión disponible:
 
 `apt-get install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span>
 
@@ -71,14 +71,18 @@ Más información: <https://manpages.debian.org/latest/apt/apt-get.8.html>.
 
 `apt-get purge `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span>
 
-- Actualiza todos los paquetes instalados a sus nuevas versiones disponibles:
+- Actualiza todos los paquetes instalados a sus versiones más recientes:
 
 `apt-get upgrade`
 
-- Elimina todos los paquetes innecesarios:
+- Limpia el repositorio local: elimina los archivos de paquetes (`.deb`) de descargas interrumpidas que ya no pueden descargarse:
+
+`apt-get autoclean`
+
+- Elimina todos los paquetes que ya no sean necesarios:
 
 `apt-get autoremove`
 
-- Actualiza paquetes instalados (como `upgrade`), pero elimina paquetes obsoletos e instala paquetes adiciones para satisfacer nuevas dependencias:
+- Actualiza los paquetes instalados (como `upgrade`), pero eliminando los paquetes obsoletos e instalando paquetes adicionales para satisfacer las nuevas dependencias:
 
 `apt-get dist-upgrade`

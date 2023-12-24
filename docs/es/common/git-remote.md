@@ -2,8 +2,8 @@
 layout: page
 title: common/git-remote (español)
 description: "Gestiona el conjunto de repositorios rastreados (\"remotos\")."
-content_hash: 9f03a8dc2c22220c221d0c2f572f6893447a38ec
-last_modified_at: 2023-11-12
+content_hash: 0c0faabf79d205d98df83a81f50cb3e75c9fdf92
+last_modified_at: 2023-12-24
 related_topics:
   - title: Deutsch version
     url: /de/common/git-remote.html
@@ -51,9 +51,13 @@ Más información: <https://git-scm.com/docs/git-remote>.
 
 `git remote add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_remoto</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_remoto</span>
 
-- Cambiar la URL de un remoto (utiliza `--add` para mantener la URL existente):
+- Cambia la URL de un remoto (utiliza `--add` para mantener la URL existente):
 
 `git remote set-url `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_remoto</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nueva_url</span>
+
+- Muestra la URL de un remoto:
+
+`git remote get-url `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_remoto</span>
 
 - Elimina un remoto:
 

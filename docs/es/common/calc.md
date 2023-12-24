@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/calc (español)
-description: "Una calculadora de precisión arbitraria en la terminal."
-content_hash: 0f407c623e92b4ad514548027086a622b06574c3
-last_modified_at: 2023-11-12
+description: "Una calculadora interactiva de precisión arbitraria en el terminal."
+content_hash: 28202286038c52519d5979f973a4902c63ed3f6c
+last_modified_at: 2023-12-24
 related_topics:
   - title: català version
     url: /ca/common/calc.html
@@ -36,13 +36,37 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># calc
 
-Una calculadora de precisión arbitraria en la terminal.
+Una calculadora interactiva de precisión arbitraria en el terminal.
 Más información: <https://github.com/lcn2/calc>.
 
-- Iniciar calc en modo interactivo:
+- Inicia `calc` en modo interactivo:
 
 `calc`
 
-- Realizar un cálculo en modo no-interactivo:
+- Realiza un cálculo en modo no interactivo:
 
-`calc -p '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">85 * (36 / 4)</span>`'`
+`calc '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">85 * (36 / 4)</span>`'`
+
+- Realiza un cálculo sin ningún formato de salida:
+
+`calc -p '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4/3 * pi() * 5^3</span>`'`
+
+- Realiza un cálculo y, a continuación, cambia a modo [i]nteractivo:
+
+`calc -i '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sqrt(2)</span>`'`
+
+- Inicia `calc` en un [m]odo de permiso específico (de 0 a 7, por defecto 7):
+
+`calc -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modo</span>
+
+- Ver una introducción a `calc`:
+
+`calc help intro`
+
+- Ver una visión general de `calc`:
+
+`calc help overview`
+
+- Abre el manual de `calc`:
+
+`calc help`
