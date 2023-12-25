@@ -3,7 +3,7 @@ layout: page
 title: common/git-remote (español)
 description: "Gestiona el conjunto de repositorios rastreados (\"remotos\")."
 content_hash: 0c0faabf79d205d98df83a81f50cb3e75c9fdf92
-last_modified_at: 2023-12-24
+last_modified_at: 2023-12-25
 related_topics:
   - title: Deutsch version
     url: /de/common/git-remote.html
@@ -29,12 +29,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/git-remote.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git remote
+# git remote
 
 Gestiona el conjunto de repositorios rastreados ("remotos").
 Más información: <https://git-scm.com/docs/git-remote>.

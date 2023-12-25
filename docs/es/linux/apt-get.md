@@ -3,7 +3,7 @@ layout: page
 title: linux/apt-get (español)
 description: "Utilidad de gestión de paquetes para Debian y Ubuntu."
 content_hash: 8f0998f9a1efb09b81fb157284a706269cf694d6
-last_modified_at: 2023-12-24
+last_modified_at: 2023-12-25
 related_topics:
   - title: العربية version
     url: /ar/linux/apt-get.html
@@ -44,12 +44,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/apt-get.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># apt-get
+# apt-get
 
 Utilidad de gestión de paquetes para Debian y Ubuntu.
 Búsqueda de paquetes mediante `apt-cache`.
