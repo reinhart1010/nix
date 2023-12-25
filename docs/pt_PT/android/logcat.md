@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (português (Portugal))
 description: "Exibe um conjunto de mensagens de sistema, incluindo a stack de execução do programa em caso de erro, e mensagens de informação criadas por aplicações."
-content_hash: e8b204fdfd5da58232643d4a77a84d023938be60
-last_modified_at: 2023-11-12
+content_hash: 9252938ab3d77be1410d2fba474277aaf08c8244
+last_modified_at: 2023-12-25
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -31,6 +31,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/logcat.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/logcat.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/logcat.html
@@ -75,7 +78,7 @@ Mais informações: <https://developer.android.com/studio/command-line/logcat>.
 
 - Escrever as mensagens de sistema num ficheiro:
 
-`logcat -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
+`logcat -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/ficheiro</span>
 
 - Mostrar mensagens que correspondem a uma expressão regular:
 

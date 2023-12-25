@@ -2,8 +2,8 @@
 layout: page
 title: android/dalvikvm (português (Portugal))
 description: "A máquina virtual Java do Android."
-content_hash: d868b7f0fb3b11442dfeff769a3cee014d26605e
-last_modified_at: 2023-11-12
+content_hash: 6792f7d7b50f0d51652edcd9d0bf85d4514d0d7c
+last_modified_at: 2023-12-25
 related_topics:
   - title: বাংলা version
     url: /bn/android/dalvikvm.html
@@ -31,6 +31,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/dalvikvm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/dalvikvm.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/dalvikvm.html
@@ -71,4 +74,4 @@ Mais informações: <https://source.android.com/devices/tech/dalvik>.
 
 - Iniciar um programa Java:
 
-`dalvikvm -classpath `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.jar</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_classe</span>
+`dalvikvm -classpath `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/ficheiro.jar</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_classe</span>

@@ -2,8 +2,8 @@
 layout: page
 title: common/cd (português (Portugal))
 description: "Mudar o diretório atual."
-content_hash: e42fa962b5ab089bb0711b96ceab7dfaa2bce41b
-last_modified_at: 2023-11-12
+content_hash: 716b847f79a65008f3529539bbdad9bfda2a66c0
+last_modified_at: 2023-12-25
 related_topics:
   - title: català version
     url: /ca/common/cd.html
@@ -74,7 +74,7 @@ Mais informações: <https://manned.org/cd>.
 
 - Ir para um dado diretório:
 
-`cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretorio</span>
+`cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span>
 
 - Ir para o diretório base do utilizador atual:
 

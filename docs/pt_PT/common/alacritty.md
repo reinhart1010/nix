@@ -2,8 +2,8 @@
 layout: page
 title: common/alacritty (português (Portugal))
 description: "Emulador de terminal multiplataforma acelerado por GPU."
-content_hash: d10ecbf166f9979fc3bac843b21231ac9336989d
-last_modified_at: 2023-11-12
+content_hash: 900db4f8294798b82ae4b0cb41333a45674f1560
+last_modified_at: 2023-12-25
 related_topics:
   - title: Deutsch version
     url: /de/common/alacritty.html
@@ -46,9 +46,9 @@ Mais informações: <https://github.com/alacritty/alacritty>.
 
 `alacritty`
 
-- Executar na directoria especificada:
+- Executar no diretório especificado:
 
-`alacritty --working-directory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/directoria</span>
+`alacritty --working-directory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span>
 
 - Executar commando numa nova janela de Alacritty:
 
