@@ -3,7 +3,7 @@ layout: page
 title: common/anki (한국어)
 description: "강력하고, 지능적인 플래시카드 프로그램."
 content_hash: e893e6b4af24bc90615715baaf8d5569ed25edcd
-last_modified_at: 2023-12-25
+last_modified_at: 2023-12-26
 related_topics:
   - title: Deutsch version
     url: /de/common/anki.html
@@ -26,18 +26,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/anki.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/anki.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># anki
+# anki
 
 강력하고, 지능적인 플래시카드 프로그램.
 더 많은 정보: <https://docs.ankiweb.net>.
