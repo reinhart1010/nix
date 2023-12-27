@@ -2,8 +2,8 @@
 layout: page
 title: common/gist (English)
 description: "Upload code to https://gist.github.com."
-content_hash: 48f234ca7f1aab27a82134e82a19971d58e73304
-last_modified_at: 2023-11-12
+content_hash: 7b6d293662ab8a7a8f6fbe7998bbe36aae72f19a
+last_modified_at: 2023-12-27
 related_topics:
   - title: українська version
     url: /uk/common/gist.html
@@ -25,7 +25,7 @@ More information: <https://github.com/defunkt/gist>.
 
 - Create a private gist with a description:
 
-`gist --private --description "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">A meaningful description</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.txt</span>` `
+`gist --private --description "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">A meaningful description</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.txt</span>
 
 - Read contents from `stdin` and create a gist from it:
 

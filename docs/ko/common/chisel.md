@@ -2,8 +2,8 @@
 layout: page
 title: common/chisel (한국어)
 description: "Chisel은 TCP 터널을 생성하는 도구."
-content_hash: e50fdfb6892b4a9be178d676cdb7bac5a07e7ad8
-last_modified_at: 2023-11-12
+content_hash: b6fa2ce7892a7575dd483d0d5a5dc050d6f3c1e6
+last_modified_at: 2023-12-27
 related_topics:
   - title: English version
     url: /en/common/chisel.html
@@ -18,7 +18,7 @@ Chisel은 TCP 터널을 생성하는 도구.
 
 - chisel 서버 실행:
 
-`chisel `
+`chisel`
 
 - 특정 포트를 수신하는 chisel 서버 실행:
 

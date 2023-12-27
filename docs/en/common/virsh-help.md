@@ -2,8 +2,8 @@
 layout: page
 title: common/virsh-help (English)
 description: "Display information about `virsh` commands or command groups."
-content_hash: e53ec9005ca0d318165e31cf535fb1a84cee0f3b
-last_modified_at: 2023-11-12
+content_hash: f45141802769a01b853f38874ea7c69d85d85e25
+last_modified_at: 2023-12-27
 related_topics:
   - title: 한국어 version
     url: /ko/common/virsh-help.html
@@ -31,6 +31,6 @@ More information: <https://manned.org/virsh>.
 
 `virsh help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">category_keyword</span>
 
-- Show help for a command:
+- Display help for a command:
 
 `virsh help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>

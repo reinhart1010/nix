@@ -2,8 +2,8 @@
 layout: page
 title: linux/nsnake (English)
 description: "Snake game in the terminal."
-content_hash: 81838d653ae10cc4231e2ebc6170c3f1d98decb3
-last_modified_at: 2023-11-12
+content_hash: f65e2580b6da2daa106a1d4a145d335de32af24e
+last_modified_at: 2023-12-27
 tldri18n_status: 2
 ---
 # nsnake
@@ -27,6 +27,6 @@ More information: <https://github.com/alexdantas/nsnake/>.
 
 `q`
 
-- Show help during the game:
+- Display help during the game:
 
 `h`

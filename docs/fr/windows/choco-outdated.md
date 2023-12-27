@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco-outdated (français)
 description: "Vérifiez les packages obsolètes avec Chocolatey."
-content_hash: b01af09d8d1f80ccb98079bb18c03b7f4c205ed0
-last_modified_at: 2023-11-12
+content_hash: e8aa829919a81e1d7384e8fa917dc66778a4233e
+last_modified_at: 2023-12-27
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-outdated.html
@@ -41,4 +41,4 @@ Plus d'informations : <https://chocolatey.org/docs/commands-outdated>.
 
 - Fournir un nom d'utilisateur et un mot de passe pour l'authentification :
 
-`choco outdated --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_d_utilisateur</span>` --password `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mot_de_passe}</span>
+`choco outdated --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_d_utilisateur</span>` --password `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mot_de_passe</span>

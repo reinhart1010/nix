@@ -2,8 +2,8 @@
 layout: page
 title: common/ansible-inventory (English)
 description: "Display or dump an Ansible inventory."
-content_hash: a802d407ddd26291e485f1435fed9865b73c939d
-last_modified_at: 2023-11-12
+content_hash: 40dcb9f150cd25663c0334c7d27afa190edb981e
+last_modified_at: 2023-12-27
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible-inventory.html
@@ -28,7 +28,7 @@ More information: <https://docs.ansible.com/ansible/latest/cli/ansible-inventory
 
 - Display a custom inventory:
 
-`ansbile-inventory --list --inventory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_script_or_directory</span>
+`ansible-inventory --list --inventory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_script_or_directory</span>
 
 - Display the default inventory in YAML:
 

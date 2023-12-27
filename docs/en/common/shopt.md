@@ -2,8 +2,8 @@
 layout: page
 title: common/shopt (English)
 description: "Manage Bash shell options: variables (stored in `$BASHOPTS`) that control behavior specific to the Bash shell."
-content_hash: aa6d6286c234a730d03059de8b7b7e529b6fd85e
-last_modified_at: 2023-11-12
+content_hash: fda760f03cf265cdaafa1341efa95724345d87f4
+last_modified_at: 2023-12-27
 tldri18n_status: 2
 ---
 # shopt
@@ -28,6 +28,6 @@ More information: <https://www.gnu.org/software/bash/manual/html_node/The-Shopt-
 
 `shopt -p`
 
-- Show help for the command:
+- Display help for the command:
 
 `help shopt`

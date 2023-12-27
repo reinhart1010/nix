@@ -2,8 +2,8 @@
 layout: page
 title: common/nslookup (English)
 description: "Query name server(s) for various domain records."
-content_hash: cd13c639e60f9266493ad1f655a1bb0fbb5279b6
-last_modified_at: 2023-11-12
+content_hash: 46add078390a3bf29b523dc9c9bd10cb7a74c1e5
+last_modified_at: 2023-12-27
 tldri18n_status: 2
 ---
 # nslookup
@@ -25,7 +25,7 @@ More information: <https://manned.org/nslookup>.
 
 - Query for ANY available records using TCP protocol:
 
-`nslookup -vc -type=ANY `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>` `
+`nslookup -vc -type=ANY `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
 
 - Query a given name server for the whole zone file (zone transfer) of the domain using TCP protocol:
 

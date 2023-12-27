@@ -2,8 +2,8 @@
 layout: page
 title: common/pip-install (English)
 description: "Install Python packages."
-content_hash: 98b9cc218ec0279d4511ab11716457c15edd3fda
-last_modified_at: 2023-11-12
+content_hash: 7be7ceca61a33d8e4926bd466eecd777ec5668cb
+last_modified_at: 2023-12-27
 related_topics:
   - title: Deutsch version
     url: /de/common/pip-install.html
@@ -28,7 +28,7 @@ More information: <https://pip.pypa.io>.
 
 - Install packages listed in a file:
 
-`pip install --requirement `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/requirements.txt</span>
+`pip install -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/requirements.txt</span>
 
 - Install packages from an URL or local file archive (.tar.gz | .whl):
 

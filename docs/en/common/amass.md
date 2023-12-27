@@ -2,14 +2,17 @@
 layout: page
 title: common/amass (English)
 description: "In-depth Attack Surface Mapping and Asset Discovery tool."
-content_hash: ee51f2420c838643de4da84e7f5a9fa0b25356d8
-last_modified_at: 2023-11-12
+content_hash: 5476694f3d4029e32b9bcbc1fd05db1a6ccb9aa0
+last_modified_at: 2023-12-27
 related_topics:
   - title: español version
     url: /es/common/amass.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/amass.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/amass.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/amass.html
@@ -33,7 +36,7 @@ More information: <https://github.com/OWASP/Amass>.
 
 `amass -help`
 
-- Show help on an Amass subcommand (like `intel`, `enum`, etc.):
+- Display help on an Amass subcommand (like `intel`, `enum`, etc.):
 
 `amass -help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
 

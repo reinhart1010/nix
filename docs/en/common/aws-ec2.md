@@ -2,11 +2,14 @@
 layout: page
 title: common/aws-ec2 (English)
 description: "CLI for AWS EC2."
-content_hash: 63f65f4af71ef0f7fb5096445dfdc82273f23a7c
-last_modified_at: 2023-11-12
+content_hash: 51178e196775efab0b5178bf6bd4e274cdf25cb4
+last_modified_at: 2023-12-27
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-ec2.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/aws-ec2.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/aws-ec2.html
@@ -50,6 +53,6 @@ More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/refe
 
 `aws ec2 help`
 
-- Show help for specific EC2 subcommand:
+- Display help for specific EC2 subcommand:
 
 `aws ec2 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>` help`

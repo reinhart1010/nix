@@ -2,8 +2,8 @@
 layout: page
 title: common/aws-google-auth (English)
 description: "Command-line tool to acquire AWS temporary (STS) credentials using Google Apps as a federated (Single Sign-On) provider."
-content_hash: b3690e69a3d7c17a321253779cbe79a0b44f5629
-last_modified_at: 2023-11-12
+content_hash: 65baea6c66da5da6b41faae68f560f9e6cd3c166
+last_modified_at: 2023-12-27
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-google-auth.html
@@ -39,6 +39,6 @@ More information: <https://github.com/cevoaustralia/aws-google-auth>.
 
 `aws-google-auth -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example@example.com</span>` -I `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$GOOGLE_IDP_ID</span>` -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$GOOGLE_SP_ID</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3600</span>` -a --resolve-aliases`
 
-- Show help information:
+- Display help:
 
 `aws-google-auth -h`

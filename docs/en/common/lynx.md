@@ -2,8 +2,8 @@
 layout: page
 title: common/lynx (English)
 description: "Command-line web browser."
-content_hash: 027ab03701b60bae36da0129ae9346f7d0983324
-last_modified_at: 2023-11-12
+content_hash: 97bf23df3eff333878fa0db8d4cb3fc5bc53dc15
+last_modified_at: 2023-12-27
 tldri18n_status: 2
 ---
 # lynx
@@ -37,7 +37,7 @@ More information: <https://lynx.browser.org>.
 
 - Go back to the previously displayed page:
 
-`Left arrow key or u`
+`Left arrow key OR u`
 
 - Exit:
 

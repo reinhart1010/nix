@@ -2,8 +2,8 @@
 layout: page
 title: common/bosh (italiano)
 description: "Strumento da linea di comando per distribuire e gestire director BOSH."
-content_hash: 48c9792129a3fe265b6b4277c2694601c8d1cc9f
-last_modified_at: 2023-11-12
+content_hash: 2fcfb1071c0c79631a48970553bba129280826e2
+last_modified_at: 2023-12-27
 related_topics:
   - title: English version
     url: /en/common/bosh.html
@@ -28,7 +28,7 @@ Maggiori informazioni: <https://bosh.io/docs/cli-v2/>.
 
 - Esegui il login al director:
 
-`bosh login -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ambiente</span>` `
+`bosh login -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ambiente</span>
 
 - Elenca deployment (distribuzioni):
 

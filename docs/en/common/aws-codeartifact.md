@@ -2,8 +2,8 @@
 layout: page
 title: common/aws-codeartifact (English)
 description: "CLI for AWS CodeArtifact."
-content_hash: 3b8e155e531ac1aab10e72624acd3d6f7da4c8bd
-last_modified_at: 2023-11-12
+content_hash: 377f688f3d4e6bff62645f4e7d950f396f43bca6
+last_modified_at: 2023-12-27
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/aws-codeartifact.html
@@ -32,6 +32,6 @@ More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/refe
 
 `aws codeartifact help`
 
-- Show help for specific EC2 subcommand:
+- Display help for specific EC2 subcommand:
 
 `aws ec2 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>` help`

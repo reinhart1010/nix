@@ -2,8 +2,8 @@
 layout: page
 title: common/bosh (English)
 description: "Command-line tool to deploy and manage the bosh director."
-content_hash: a8595db95dffae978b102e90b8aaa359bdfdf84f
-last_modified_at: 2023-11-12
+content_hash: 4309446d34ad6129a8bb62c1e1aafcf684158c85
+last_modified_at: 2023-12-27
 related_topics:
   - title: italiano version
     url: /it/common/bosh.html
@@ -28,7 +28,7 @@ More information: <https://bosh.io/docs/cli-v2/>.
 
 - Log in to the director:
 
-`bosh login -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment</span>` `
+`bosh login -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">environment</span>
 
 - List deployments:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/kubectl-get (English)
 description: "Get Kubernetes objects and resources."
-content_hash: 30290957ea3a102c888c4d840c401d473c1e27da
-last_modified_at: 2023-11-12
+content_hash: e308bd789c695a8607623ec7a1e5984ec721f820
+last_modified_at: 2023-12-27
 related_topics:
   - title: Deutsch version
     url: /de/common/kubectl-get.html
@@ -19,26 +19,26 @@ More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubect
 
 `kubectl get namespaces`
 
-- Get nodes in a specified namespace:
+- Get nodes in a specified [n]amespace:
 
-`kubectl get nodes -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span>
+`kubectl get nodes --namespace `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span>
 
-- Get pods in a specified namespace:
+- Get pods in a specified [n]amespace:
 
-`kubectl get pods -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span>
+`kubectl get pods --namespace `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span>
 
-- Get deployments in a specified namespace:
+- Get deployments in a specified [n]amespace:
 
-`kubectl get deployments -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span>
+`kubectl get deployments --namespace `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span>
 
-- Get services in a specified namespace:
+- Get services in a specified [n]amespace:
 
-`kubectl get services -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span>
+`kubectl get services --namespace `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span>
 
-- Get all resources in a specified namespace:
+- Get all resources in a specified [n]amespace:
 
-`kubectl get all -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span>
+`kubectl get all --namespace `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span>
 
-- Get Kubernetes objects defined in a YAML manifest:
+- Get Kubernetes objects defined in a YAML manifest [f]ile:
 
-`kubectl get -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/manifest.yaml</span>
+`kubectl get --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/manifest.yaml</span>

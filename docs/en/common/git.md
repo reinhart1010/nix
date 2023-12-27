@@ -2,8 +2,8 @@
 layout: page
 title: common/git (English)
 description: "Distributed version control system."
-content_hash: 179d31c1383ce629e3f7937a498b2a648a03d686
-last_modified_at: 2023-11-12
+content_hash: 77b8e11d1a4a70e7287fb69eb85277ee579b01f9
+last_modified_at: 2023-12-27
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
@@ -66,7 +66,7 @@ More information: <https://git-scm.com/>.
 
 `git --help`
 
-- Show help on a Git subcommand (like `clone`, `add`, `push`, `log`, etc.):
+- Display help on a Git subcommand (like `clone`, `add`, `push`, `log`, etc.):
 
 `git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
 

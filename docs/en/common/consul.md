@@ -2,8 +2,8 @@
 layout: page
 title: common/consul (English)
 description: "Distributed key-value store with health checking and service discovery."
-content_hash: f0a91871b58d63e7ae584a4f9151ea83947b503f
-last_modified_at: 2023-11-12
+content_hash: 34cb5d7afce62eb46f7fdaa313f1e49b5c8dd3cc
+last_modified_at: 2023-12-27
 related_topics:
   - title: italiano version
     url: /it/common/consul.html
@@ -23,10 +23,10 @@ More information: <https://www.consul.io/commands>.
 
 `consul --version`
 
-- Show general help:
+- Display help:
 
 `consul --help`
 
-- Show help for a sub-command:
+- Display help for a sub-command:
 
 `consul `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sub-command</span>` --help`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/fdesetup (English)
 description: "Set and retrieve FileVault related information."
-content_hash: 096f39fea0f7f961484928a9c7cbd55386498ba5
-last_modified_at: 2023-11-12
+content_hash: 4c65bc932e36b36b17d3720a2ae74fb83fec9cbb
+last_modified_at: 2023-12-27
 related_topics:
   - title: español version
     url: /es/osx/fdesetup.html
@@ -28,7 +28,7 @@ More information: <https://www.unix.com/man-page/mojave/8/fdesetup/>.
 
 - Add FileVault enabled user:
 
-`sudo fdesetup add -usertoadd user1`
+`sudo fdesetup add -usertoadd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user1</span>
 
 - Enable FileVault:
 

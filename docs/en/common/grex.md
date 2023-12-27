@@ -2,8 +2,8 @@
 layout: page
 title: common/grex (English)
 description: "Generate regular expressions."
-content_hash: 594bd49ff4be3462e4559ba2c3c35419c2736563
-last_modified_at: 2023-11-12
+content_hash: 50ba56f9ed83bec8e985e44f664b459d1039a1b9
+last_modified_at: 2023-12-27
 tldri18n_status: 2
 ---
 # grex
@@ -13,7 +13,7 @@ More information: <https://github.com/pemistahl/grex>.
 
 - Generate a simple regular expression:
 
-` grex `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">space_separated_strings</span>
+`grex `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">space_separated_strings</span>
 
 - Generate a case-insensitive regular expression:
 

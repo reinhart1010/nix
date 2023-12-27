@@ -2,8 +2,8 @@
 layout: page
 title: common/jest (English)
 description: "A zero-configuration JavaScript testing platform."
-content_hash: 9293d35ad5db87f15bf653b83974eb1c3110f0e2
-last_modified_at: 2023-11-12
+content_hash: f15a98424ebd9c855874dc5de31e3bcc6a4fab9c
+last_modified_at: 2023-12-27
 related_topics:
   - title: français version
     url: /fr/common/jest.html
@@ -43,6 +43,6 @@ More information: <https://jestjs.io>.
 
 `jest --watch`
 
-- Show help:
+- Display help:
 
 `jest --help`

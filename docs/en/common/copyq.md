@@ -2,8 +2,8 @@
 layout: page
 title: common/copyq (English)
 description: "Clipboard manager with advanced features."
-content_hash: 12c09b2cd5d8f23a0d73288c7372083e2f8687d9
-last_modified_at: 2023-11-12
+content_hash: 6762818a35c236ebea481ef25a123ac5e653c099
+last_modified_at: 2023-12-27
 related_topics:
   - title: 한국어 version
     url: /ko/common/copyq.html
@@ -37,8 +37,8 @@ More information: <https://copyq.readthedocs.io/en/latest/command-line.html>.
 
 - Copy a file's contents into the clipboard:
 
-`copyq copy < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.txt</span>
+`copyq copy < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span>
 
 - Copy a JPEG image into the clipboard:
 
-`copyq copy image/jpeg < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image.jpg</span>
+`copyq copy image/jpeg < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image.jpg</span>

@@ -2,8 +2,8 @@
 layout: page
 title: common/sudo (português (Brasil))
 description: "Executa um único comando como o Superuser, ou como outro usuário."
-content_hash: dd564e2b769f86e9cf9a3379f02bb7c36c49fbcf
-last_modified_at: 2023-11-12
+content_hash: 168f776e48aae17c9093c92ced3d27992fe2c876
+last_modified_at: 2023-12-27
 related_topics:
   - title: English version
     url: /en/common/sudo.html
@@ -34,7 +34,7 @@ Mais informações: <https://www.sudo.ws/sudo.html>.
 
 - Executa um comando como outro usuário e/ou grupo:
 
-`sudo --user=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuário</span>` --group=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grupo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id -a}</span>
+`sudo --user=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuário</span>` --group=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">grupo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id -a</span>
 
 - Executa um comando anterior com o prefixo `sudo` (apenas em `bash`, `zsh`, etc.):
 

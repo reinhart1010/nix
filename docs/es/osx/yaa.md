@@ -2,8 +2,8 @@
 layout: page
 title: osx/yaa (español)
 description: "Crea y manipula archivos YAA."
-content_hash: 935b4f153fa3b9a04db1781ac387e9769686ac7d
-last_modified_at: 2023-11-12
+content_hash: 688fe7c14f437d56323af253a707dca4aedcfba8
+last_modified_at: 2023-12-27
 related_topics:
   - title: English version
     url: /en/osx/yaa.html
@@ -37,4 +37,4 @@ Más información: <https://www.manpagez.com/man/1/yaa/>.
 
 - Crea un archivo con un tamaño de bloque de 8 MB:
 
-`yaa archive -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8m}</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_salida.yaa</span>
+`yaa archive -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8m</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_de_salida.yaa</span>

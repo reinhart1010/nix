@@ -2,8 +2,8 @@
 layout: page
 title: common/kubectl-describe (English)
 description: "Show details of Kubernetes objects and resources."
-content_hash: f59ae08dd86da9647154bc05dbb62d2e1601468c
-last_modified_at: 2023-11-12
+content_hash: 764dd6e93fe9e0e7415fbb19275b926205525552
+last_modified_at: 2023-12-27
 related_topics:
   - title: Deutsch version
     url: /de/common/kubectl-describe.html
@@ -15,22 +15,22 @@ tldri18n_status: 2
 Show details of Kubernetes objects and resources.
 More information: <https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#describe>.
 
-- Show details of pods in a namespace:
+- Show details of pods in a [n]amespace:
 
-`kubectl describe pods -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span>
+`kubectl describe pods --namespace `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span>
 
-- Show details of nodes in a namespace:
+- Show details of nodes in a [n]amespace:
 
-`kubectl describe nodes -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span>
+`kubectl describe nodes --namespace `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span>
 
-- Show the details of a specific pod in a namespace:
+- Show the details of a specific pod in a [n]amespace:
 
-`kubectl describe pods `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pod_name</span>` -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span>
+`kubectl describe pods `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pod_name</span>` --namespace `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span>
 
-- Show the details of a specific node in a namespace:
+- Show the details of a specific node in a [n]amespace:
 
-`kubectl describe nodes `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_name</span>` -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span>
+`kubectl describe nodes `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node_name</span>` --namespace `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">namespace</span>
 
-- Show details of Kubernetes objects defined in a YAML manifest:
+- Show details of Kubernetes objects defined in a YAML manifest [f]ile:
 
-`kubectl describe -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/manifest.yaml</span>
+`kubectl describe --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/manifest.yaml</span>

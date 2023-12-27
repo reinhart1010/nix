@@ -2,8 +2,8 @@
 layout: page
 title: common/git-svn (English)
 description: "Bidirectional operation between a Subversion repository and Git."
-content_hash: c878e97eb7691e8725572d765e9a5787e06bf2f8
-last_modified_at: 2023-11-12
+content_hash: 1cca96a3be3f2c61bab81272d9705fbfc1362144
+last_modified_at: 2023-12-27
 related_topics:
   - title: español version
     url: /es/common/git-svn.html
@@ -42,4 +42,4 @@ More information: <https://git-scm.com/docs/git-svn>.
 
 - Commit back to the SVN repository:
 
-`git svn dcommit`
+`git svn commit`

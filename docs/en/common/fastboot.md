@@ -2,8 +2,8 @@
 layout: page
 title: common/fastboot (English)
 description: "Communicate with connected Android devices when in bootloader mode (the one place `adb` doesn't work)."
-content_hash: 7f9677cdb506173709ee2fbce3d7ceb4ea703494
-last_modified_at: 2023-11-12
+content_hash: c5dfa3183b2e18910708ecb4a7ee17e4168d4e94
+last_modified_at: 2023-12-27
 related_topics:
   - title: italiano version
     url: /it/common/fastboot.html
@@ -32,11 +32,11 @@ More information: <https://cs.android.com/android/platform/superproject/+/main:s
 
 - Flash a given image:
 
-`fastboot flash `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.img</span>
+`fastboot flash `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.img</span>
 
 - Flash a custom recovery image:
 
-`fastboot flash recovery `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.img</span>
+`fastboot flash recovery `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.img</span>
 
 - Display connected devices:
 

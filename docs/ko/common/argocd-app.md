@@ -2,8 +2,8 @@
 layout: page
 title: common/argocd-app (한국어)
 description: "Argo CD로 애플리케이션을 관리하는 명령줄 인터페이스."
-content_hash: 2f674e319513b956a1873bdcc92efe5c64edffba
-last_modified_at: 2023-11-12
+content_hash: b2af95ab71a327f6584b5a53f45024414c4befbb
+last_modified_at: 2023-12-27
 related_topics:
   - title: English version
     url: /en/common/argocd-app.html
@@ -20,7 +20,7 @@ Argo CD로 애플리케이션을 관리하는 명령줄 인터페이스.
 
 - 애플리케이션 목록 보여주기:
 
-`argocd app list --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json|yaml|wide</span>` `
+`argocd app list --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json|yaml|wide</span>
 
 - 애플리케이션 세부사항 가져오기:
 

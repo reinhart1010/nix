@@ -2,8 +2,8 @@
 layout: page
 title: common/mysql (中文 (繁體, 台灣))
 description: "MySQL 命令列工具。"
-content_hash: 6482381fd4e3daef6f17bc86afa532f1fbba8424
-last_modified_at: 2023-11-12
+content_hash: 4e0c7df2bba327a933967a5b4875b0afb2163be6
+last_modified_at: 2023-12-27
 related_topics:
   - title: English version
     url: /en/common/mysql.html
@@ -29,15 +29,15 @@ MySQL 命令列工具。
 
 - 與資料庫連線：
 
-`mysql `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">資料庫名稱}</span>
+`mysql `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">資料庫名稱</span>
 
 - 與資料庫連線，系統將提示使用者輸入密碼：
 
-`mysql -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">使用者名稱</span>` --password `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">資料庫名稱}</span>
+`mysql -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">使用者名稱</span>` --password `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">資料庫名稱</span>
 
 - 連線到另一台主機上的資料庫：
 
-`mysql -h `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">資料庫主機</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">資料庫名稱}</span>
+`mysql -h `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">資料庫主機</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">資料庫名稱</span>
 
 - 透過 Unix 通訊端連接到資料庫：
 
@@ -45,7 +45,7 @@ MySQL 命令列工具。
 
 - 執行腳本檔案（批次檔）中的 `SQL` 語句：
 
-`mysql -e "source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sql 檔案</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">資料庫名稱}</span>
+`mysql -e "source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sql 檔案</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">資料庫名稱</span>
 
 - 用 `mysqldump` 建立的備份還原資料庫（系統將提示使用者輸入密碼）：
 

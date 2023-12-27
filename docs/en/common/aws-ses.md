@@ -2,8 +2,8 @@
 layout: page
 title: common/aws-ses (English)
 description: "CLI for AWS Simple Email Service."
-content_hash: fb22970ceaca601dd99b47e4aaa298e0ff6a94bd
-last_modified_at: 2023-11-12
+content_hash: 0eed964526a72f7a42bbb45e07ff1c438ae64edc
+last_modified_at: 2023-12-27
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/aws-ses.html
@@ -44,6 +44,6 @@ More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/refe
 
 `aws ses send-email --from `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">from_address</span>` --destination "ToAddresses=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">addresses</span>`" --message "Subject={Data=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subject_text</span>`,Charset=utf8},Body={Text={Data=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">body_text</span>`,Charset=utf8},Html={Data=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message_body_containing_html</span>`,Charset=utf8</span>`"`
 
-- Show help for a specific SES subcommand:
+- Display help for a specific SES subcommand:
 
 `aws ses `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>` help`

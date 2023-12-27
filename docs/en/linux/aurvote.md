@@ -2,8 +2,8 @@
 layout: page
 title: linux/aurvote (English)
 description: "Vote for packages in the Arch User Repository."
-content_hash: ed86cb500df4aced78979f7a37111c76d930f075
-last_modified_at: 2023-11-12
+content_hash: 3018c62c54109aa23b251e146d761632cf5f7ed9
+last_modified_at: 2023-12-27
 related_topics:
   - title: 中文 version
     url: /zh/linux/aurvote.html
@@ -32,6 +32,6 @@ More information: <https://github.com/archlinuxfr/aurvote>.
 
 `aurvote --check `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 ...</span>
 
-- Show help for `aurvote`:
+- Display help:
 
 `aurvote --help`

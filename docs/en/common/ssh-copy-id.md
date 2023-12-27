@@ -2,8 +2,8 @@
 layout: page
 title: common/ssh-copy-id (English)
 description: "Install your public key in a remote machine's authorized_keys."
-content_hash: 14b30d38ab4b5749ac063a233ffbf4ea3a3fc912
-last_modified_at: 2023-11-12
+content_hash: e48658bbcc1eb645369270a03e5affafcae164dd
+last_modified_at: 2023-12-27
 related_topics:
   - title: Deutsch version
     url: /de/common/ssh-copy-id.html
@@ -23,7 +23,7 @@ More information: <https://manned.org/ssh-copy-id>.
 
 - Copy your keys to the remote machine:
 
-`ssh-copy-id `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username@remote_host</span>
+`ssh-copy-id `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_host</span>
 
 - Copy the given public key to the remote:
 

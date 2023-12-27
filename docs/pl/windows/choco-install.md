@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco-install (polski)
 description: "Instalacja jednej lub więcej paczek zarządzanych przez Chocolatey."
-content_hash: b18df74682e829af107458d4d8b802b67ca44bbd
-last_modified_at: 2023-11-12
+content_hash: 8b9ad6c169abb387d289cdbf2796b028470de034
+last_modified_at: 2023-12-27
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-install.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/windows/choco-install.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/choco-install.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/windows/choco-install.html
@@ -63,4 +66,4 @@ Więcej informacji: <https://chocolatey.org/docs/commands-install>.
 
 - Podanie nazwy użytkownika i hasła do uwierzytelnienia:
 
-`choco install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span>` --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_użytkownika}</span>` --password `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hasło</span>
+`choco install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span>` --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_użytkownika</span>` --password `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hasło</span>

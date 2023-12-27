@@ -2,8 +2,8 @@
 layout: page
 title: common/mplayer (English)
 description: "Cross-platform multimedia player."
-content_hash: 75947baf7988444352508d8b4965da2f13b5db00
-last_modified_at: 2023-11-12
+content_hash: ac4921c02efa68d6cfffd6872c614747e47271b2
+last_modified_at: 2023-12-27
 tldri18n_status: 2
 ---
 # mplayer
@@ -33,4 +33,4 @@ More information: <https://mplayerhq.hu/DOCS/HTML/en/commandline.html>.
 
 - Seek backward or forward 10 seconds:
 
-`<Left> or <Right>`
+`<Left> OR <Right>`

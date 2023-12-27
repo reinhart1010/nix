@@ -2,8 +2,8 @@
 layout: page
 title: common/aireplay-ng (हिन्दी)
 description: "वायरलेस नेटवर्क में पैकेट इंजेक्ट करें।"
-content_hash: f121d853ff607f887b7a5bf3ca375f46269e137f
-last_modified_at: 2023-11-12
+content_hash: 36d73e6d6809bb1ecbbe7f9967cea4e579835df9
+last_modified_at: 2023-12-27
 related_topics:
   - title: বাংলা version
     url: /bn/common/aireplay-ng.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/aireplay-ng.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/aireplay-ng.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/aireplay-ng.html
@@ -33,4 +36,4 @@ tldri18n_status: 2
 
 - एक्सेस प्वाइंट के MAC पते, क्लाइंट के MAC पते और एक इंटरफ़ेस को देखते हुए एक विशिष्ट संख्या में असंबद्ध पैकेट भेजें:
 
-` sudo aireplay-ng --deauth `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">count</span>` --bssid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ap_mac</span>` --dmac `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">client_mac</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span>` `
+`sudo aireplay-ng --deauth `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">count</span>` --bssid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ap_mac</span>` --dmac `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">client_mac</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span>

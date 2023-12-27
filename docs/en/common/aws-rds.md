@@ -2,8 +2,8 @@
 layout: page
 title: common/aws-rds (English)
 description: "CLI for AWS Relational Database Service."
-content_hash: 6a329951af852ce4fff4b12006f8448754547cc0
-last_modified_at: 2023-11-12
+content_hash: e20763cb14341dbf80885ee971e5ee3a33558128
+last_modified_at: 2023-12-27
 related_topics:
   - title: español version
     url: /es/common/aws-rds.html
@@ -19,7 +19,7 @@ CLI for AWS Relational Database Service.
 Create and manage relational databases.
 More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/rds/index.html>.
 
-- Show help for specific RDS subcommand:
+- Display help for specific RDS subcommand:
 
 `aws rds `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>` help`
 

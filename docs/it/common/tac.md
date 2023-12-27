@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/tac (italiano)
-description: "Stampa e concatena file al contrario."
-content_hash: 96a70c348cd84796cf83c8ce794b6720f4f17da5
-last_modified_at: 2023-12-19
+description: "Visualizza e concatena file con righe in ordine inverso."
+content_hash: 4e7b46942d8623bd93f049ffa1972f1bd4ce9240
+last_modified_at: 2023-12-27
 related_topics:
   - title: English version
     url: /en/common/tac.html
@@ -15,13 +15,26 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># tac
 
-Stampa e concatena file al contrario.
+Visualizza e concatena file con righe in ordine inverso.
+Guarda anche: `cat`.
 Maggiori informazioni: <https://www.gnu.org/software/coreutils/tac>.
 
-- Stampa il contenuto di file1 al contrario su standard output:
+- Concatena file specifici in ordine inverso:
 
-`tac `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1</span>
+`tac `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file1 percorso/del/file2 ...</span>
 
-- Concatena multipli file al contrario in un nuovo file:
+- Visualizza 'stdin' in ordine inverso:
 
-`tac `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file2</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nuovo_file</span>
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cat percorso/del/file</span>` | tac`
+
+- Usa un [s]riparatore specifico:
+
+`tac -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">separatore</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file1 percorso/del/file2 ...</span>
+
+- Usa un [r]egex specifico come [s]eparatore:
+
+`tac -r -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">separatore</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file1 percorso/del/file2 ...</span>
+
+- Utilizzare un separatore [b]prima di ciascun file:
+
+`tac -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file1 percorso/del/file2 ...</span>

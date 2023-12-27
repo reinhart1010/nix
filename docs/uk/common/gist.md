@@ -2,8 +2,8 @@
 layout: page
 title: common/gist (українська)
 description: "Завантажує код у https://gist.github.com."
-content_hash: bab0481016322214c869a21b8c633ba10ecc7490
-last_modified_at: 2023-11-12
+content_hash: 3cac6a551839a44ecb2e7aa45961510b9fb0f934
+last_modified_at: 2023-12-27
 related_topics:
   - title: English version
     url: /en/common/gist.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 
 - Створити приватний gist з описом:
 
-`gist --private --description "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Змістовний опис</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ім'я_файлу.txt</span>` `
+`gist --private --description "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Змістовний опис</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ім'я_файлу.txt</span>
 
 - Прочитати контент з `stdin` і створити gist з цього:
 

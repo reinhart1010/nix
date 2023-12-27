@@ -2,8 +2,8 @@
 layout: page
 title: linux/ip (English)
 description: "Show/manipulate routing, devices, policy routing and tunnels."
-content_hash: d44055b4e13c8836f7528e6ff7fcd140874f93d0
-last_modified_at: 2023-11-12
+content_hash: 524799432438c07dd28c6f21e15e1f8888fd93ab
+last_modified_at: 2023-12-27
 related_topics:
   - title: Deutsch version
     url: /de/linux/ip.html
@@ -50,7 +50,7 @@ More information: <https://www.man7.org/linux/man-pages/man8/ip.8.html>.
 
 - Make an interface up/down:
 
-`ip link set `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span>` up/down`
+`ip link set `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">up|down</span>
 
 - Add/Delete an IP address to an interface:
 

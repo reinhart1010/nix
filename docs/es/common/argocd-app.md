@@ -2,8 +2,8 @@
 layout: page
 title: common/argocd-app (español)
 description: "Interfaz de línea de comandos para gestionar aplicaciones por CD Argo."
-content_hash: cbdb05d49a0eed0b8a46c309751089b1fd1eebe1
-last_modified_at: 2023-11-12
+content_hash: 7697d2468f25abc5413809c4d19ab9547d83f19a
+last_modified_at: 2023-12-27
 related_topics:
   - title: English version
     url: /en/common/argocd-app.html
@@ -20,7 +20,7 @@ Más información: <https://argo-cd.readthedocs.io/en/stable/user-guide/commands
 
 - Lista aplicaciones:
 
-`argocd app list --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json|yaml|wide</span>` `
+`argocd app list --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json|yaml|wide</span>
 
 - Obtiene detalles de la aplicación:
 

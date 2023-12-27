@@ -2,14 +2,17 @@
 layout: page
 title: common/gcloud (English)
 description: "The official CLI tool for Google Cloud Platform."
-content_hash: 84cf69bea3e6f1f1e3a42693bbce30a40d294762
-last_modified_at: 2023-11-12
+content_hash: a4b28310d2427c4d7bfcd5a39cc300247ba892e9
+last_modified_at: 2023-12-27
 related_topics:
   - title: dansk version
     url: /da/common/gcloud.html
     icon: bi bi-globe
   - title: Deutsch version
     url: /de/common/gcloud.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/common/gcloud.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -32,7 +35,7 @@ More information: <https://cloud.google.com/sdk/gcloud>.
 
 - SSH into a virtual machine instance:
 
-`gcloud compute ssh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">instance</span>` `
+`gcloud compute ssh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">instance</span>
 
 - Display all Google Compute Engine instances in a project. Instances from all zones are listed by default:
 
@@ -46,6 +49,6 @@ More information: <https://cloud.google.com/sdk/gcloud>.
 
 `gcloud components update`
 
-- Show help for a given command:
+- Display help for a given command:
 
 `gcloud help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>

@@ -2,8 +2,12 @@
 layout: page
 title: common/fossil (English)
 description: "Distributed version control system."
-content_hash: 47489f798877621e95dacd5ec0426b20d039fe76
-last_modified_at: 2023-11-12
+content_hash: 9299a56bd50bb7f8dfcb1af0827a11230122a6ad
+last_modified_at: 2023-12-27
+related_topics:
+  - title: Nederlands version
+    url: /nl/common/fossil.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # fossil
@@ -20,7 +24,7 @@ More information: <https://fossil-scm.org/>.
 
 `fossil help`
 
-- Show help on a Fossil subcommand (like `add`, `commit`, etc.):
+- Display help on a Fossil subcommand (like `add`, `commit`, etc.):
 
 `fossil help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
 

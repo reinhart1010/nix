@@ -2,8 +2,8 @@
 layout: page
 title: linux/lastlog (English)
 description: "Show the most recent login of all users or of a given user."
-content_hash: b4b8496973c1ab67e914c39ef37f50df75fa948a
-last_modified_at: 2023-11-12
+content_hash: fb94e24bd7cf268e9ba8723ae6b8c58a6efd79ca
+last_modified_at: 2023-12-27
 related_topics:
   - title: Deutsch version
     url: /de/linux/lastlog.html
@@ -29,4 +29,4 @@ More information: <https://manned.org/lastlog>.
 
 - Display records more recent than 3 days:
 
-`lastlog -time `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>
+`lastlog --time `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>

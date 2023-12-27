@@ -2,8 +2,8 @@
 layout: page
 title: common/install-tl (English)
 description: "TeX Live cross-platform installer."
-content_hash: a13e9b63e6029ce2bbd3836f887cfb2f63b2fbb6
-last_modified_at: 2023-11-12
+content_hash: 1b1ba83cb01aca37a48b15726e441b5f2d2f8605
+last_modified_at: 2023-12-27
 tldri18n_status: 2
 ---
 # install-tl
@@ -31,6 +31,6 @@ More information: <https://tug.org/texlive/>.
 
 `install-tl -portable`
 
-- Show help for `install-tl`:
+- Display help:
 
 `install-tl -help`

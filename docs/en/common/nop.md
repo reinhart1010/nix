@@ -2,8 +2,8 @@
 layout: page
 title: common/nop (English)
 description: "Check validity and pretty-print graphs in canonical format."
-content_hash: dfdc696cd5e4da99c1940dea0df1c6fa1874f774
-last_modified_at: 2023-11-12
+content_hash: a665373e38c8150da77afe76d9a7e215502ebedd
+last_modified_at: 2023-12-27
 related_topics:
   - title: 中文 version
     url: /zh/common/nop.html
@@ -24,6 +24,6 @@ More information: <https://www.graphviz.org/pdf/nop.1.pdf>.
 
 `nop -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input1.gv</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input2.gv ...</span>
 
-- Display help for `nop`:
+- Display help:
 
 `nop -?`

@@ -2,8 +2,8 @@
 layout: page
 title: common/sqlite-utils (English)
 description: "Command-line tool used to manipulate SQLite databases in a number of different ways."
-content_hash: 272d09ceb3828a049d9da1c8623dbfd6c6c3aee1
-last_modified_at: 2023-11-12
+content_hash: cf48ca96c3c01b055bba699d65de0cc097b95189
+last_modified_at: 2023-12-27
 tldri18n_status: 2
 ---
 # sqlite-utils
@@ -39,6 +39,6 @@ More information: <https://sqlite-utils.datasette.io/en/stable/cli.html>.
 
 `sqlite-utils drop-table `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/database.db</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">table_name</span>
 
-- Show help information:
+- Display help:
 
 `sqlite-utils -h`

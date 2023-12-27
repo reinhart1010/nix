@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/git-stash (español)
-description: "Guarda cambios locales de Git en un área temporal."
-content_hash: 51d792e7c0d6e34c8f47e4a85971b76b74d4328e
-last_modified_at: 2023-11-12
+description: "Almacena los cambios locales de Git en un área temporal."
+content_hash: a9b8efa887a44945303caa2c38cd551128ab755c
+last_modified_at: 2023-12-27
 related_topics:
   - title: English version
     url: /en/common/git-stash.html
@@ -21,37 +21,37 @@ tldri18n_status: 2
 ---
 # git stash
 
-Guarda cambios locales de Git en un área temporal.
+Almacena los cambios locales de Git en un área temporal.
 Más información: <https://git-scm.com/docs/git-stash>.
 
-- Guarda cambios actuales, excepto los archivos nuevos (sin rastrear):
+- Almacena los cambios actuales, excepto los archivos nuevos (sin seguimiento):
 
-`git stash [push -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mensaje_opcional_del_guardado</span>`]`
+`git stash push -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mensaje_opcional_stash</span>
 
-- Guarda cambios actuales, incluyendo los archivos nuevos (sin rastrear):
+- Almacena los cambios actuales, incluyendo los archivos nuevos (sin seguimiento):
 
 `git stash -u`
 
-- Selecciona interactivamente las partes de archivos cambiados que deben ser guardadas:
+- Selecciona interactivamente partes de los archivos modificados para almacenarlos:
 
 `git stash -p`
 
-- Muestra todos los guardados (muestra el nombre del guardado, la rama relacionada y el mensaje):
+- Lista todos los stashes (muestra el nombre del stash, la rama relacionada y el mensaje):
 
 `git stash list`
 
-- Aplica un guardado (por defecto aplica el último, llamado stash@{0}):
+- Muestra los cambios como un parche entre el stash (por defecto es stash@{0}) y el commit de cuando se creó la entrada stash por primera vez:
 
-`git stash apply `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_opcional_del_guardado_o_commit</span>
+`git stash show -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stash@{0}</span>
 
-- Aplica un guardado (por defecto es stash@{0} y lo traslada desde la lista de guardado si no causa conflictos:
+- Aplica un stash (por defecto es el último, llamado stash@{0}):
 
-`git stash pop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_opcional_del_guardado</span>
+`git stash apply `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_opcional_del_stash_o_commit</span>
 
-- Elimina un guardado (por defecto es stash@{0}):
+- Suelta o aplica un stash (por defecto es stash@{0}) y lo elimina de la lista de stash si su aplicación no causa conflictos:
 
-`git stash drop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_opcional_del_guardado</span>
+`git stash pop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_opcional_stash</span>
 
-- Elimina todos los guardados:
+- Elimina todos los stashes:
 
 `git stash clear`

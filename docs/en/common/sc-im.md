@@ -2,8 +2,8 @@
 layout: page
 title: common/sc-im (English)
 description: "A curses based, vim-like spreadsheet calculator."
-content_hash: cd5ac216579d2950b0939635175f423e66bc8850
-last_modified_at: 2023-11-12
+content_hash: de4a6f84f5c8764b344aa7e2607ca3514e8c9c8a
+last_modified_at: 2023-12-27
 tldri18n_status: 2
 ---
 # SC-IM
@@ -18,7 +18,7 @@ More information: <https://github.com/andmarti1424/sc-im>.
 
 - Enter a string into the current cell:
 
-`< or >`
+`< OR >`
 
 - Enter a numeric constant into the current cell:
 

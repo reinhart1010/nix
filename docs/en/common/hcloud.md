@@ -2,8 +2,8 @@
 layout: page
 title: common/hcloud (English)
 description: "Show how to use the CLI for Hetzner Cloud."
-content_hash: f72675f7ca8f4dfddc8a60b4e7449779d6ae2e21
-last_modified_at: 2023-11-12
+content_hash: 4a46760e3c51d7fafb791ca890e65f1f8d28046b
+last_modified_at: 2023-12-27
 tldri18n_status: 2
 ---
 # hcloud
@@ -15,7 +15,7 @@ More information: <https://github.com/hetznercloud/cli>.
 
 `hcloud`
 
-- Show help for `hcloud`:
+- Display help:
 
 `hcloud -h`
 

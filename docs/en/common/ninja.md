@@ -2,8 +2,8 @@
 layout: page
 title: common/ninja (English)
 description: "A Build system designed to be fast."
-content_hash: 031d96c5801cbff63b832e65ba667b016ae38832
-last_modified_at: 2023-11-12
+content_hash: 409ef34f9cfa351bf35dc02b068f6cc22172183b
+last_modified_at: 2023-12-27
 related_topics:
   - title: 中文 version
     url: /zh/common/ninja.html
@@ -31,6 +31,6 @@ More information: <https://ninja-build.org/manual.html>.
 
 `ninja -t targets`
 
-- Show help:
+- Display help:
 
 `ninja -h`
