@@ -2,8 +2,8 @@
 layout: page
 title: common/cat (中文 (繁體, 台灣))
 description: "連接檔案並印出檔案的內容。"
-content_hash: adf44013495adfaf6f4f21d3b5f24a3d0ce58871
-last_modified_at: 2023-11-12
+content_hash: 6baf96c1f52d1a70811dff40504d7236fc7fd42d
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -66,16 +66,8 @@ tldri18n_status: 2
 
 - 將多個檔案連接起來，輸出至目標檔案：
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案一</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案二</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目標檔案</span>
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案一 檔案二 ...</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目標檔案</span>
 
 - 將多個檔案連接起來，並將其內容加到目標檔案的結尾：
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案一</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案二</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目標檔案</span>
-
-- 印出檔案的內容並顯示行號：
-
-`cat -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案</span>
-
-- 印出檔案的內容，且將無法顯示的字元用特殊的方式顯示出來：
-
-`cat -v -t -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案</span>
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案一 檔案二 ...</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目標檔案</span>

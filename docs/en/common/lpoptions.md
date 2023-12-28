@@ -2,8 +2,8 @@
 layout: page
 title: common/lpoptions (English)
 description: "Display or set printer options and defaults."
-content_hash: af02405d688c006e5ec43da7ea8283642711c99a
-last_modified_at: 2023-12-18
+content_hash: 169c056f737d5e8c09a200e336b137070fefb4cf
+last_modified_at: 2023-12-28
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/lpoptions.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Display or set printer options and defaults.
 See also: `lpadmin`.
-More information: <https://www.cups.org/doc/man-lpoptions.html>.
+More information: <https://openprinting.github.io/cups/doc/man-lpoptions.html>.
 
 - Set the default printer:
 

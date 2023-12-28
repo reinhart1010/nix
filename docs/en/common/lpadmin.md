@@ -2,8 +2,8 @@
 layout: page
 title: common/lpadmin (English)
 description: "Configure CUPS printers and classes."
-content_hash: 35133e48872d4f31baff6321fed87d893956c83e
-last_modified_at: 2023-12-18
+content_hash: 34c2291bb579b6ba5acb3fd89b3e5d974a3a169a
+last_modified_at: 2023-12-28
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/lpadmin.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Configure CUPS printers and classes.
 See also: `lpoptions`.
-More information: <https://www.cups.org/doc/man-lpadmin.html>.
+More information: <https://openprinting.github.io/cups/doc/man-lpadmin.html>.
 
 - Set the default printer:
 

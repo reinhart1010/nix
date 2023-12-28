@@ -2,8 +2,8 @@
 layout: page
 title: common/lpr (English)
 description: "CUPS tool for printing files."
-content_hash: e31dd642c932c4fc6313ddc38b78075af28cd7c0
-last_modified_at: 2023-11-12
+content_hash: 22fdead7261a673ba8b85ecaf9260b505960f6a0
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/lpr.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 CUPS tool for printing files.
 See also: `lpstat` and `lpadmin`.
-More information: <https://www.cups.org/doc/man-lpr.html>.
+More information: <https://openprinting.github.io/cups/doc/man-lpr.html>.
 
 - Print a file to the default printer:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/git-apply (Deutsch)
 description: "Integriere eine Patch-Datei und/oder füge sie zum Index hinzu."
-content_hash: 1fcd2ad72a43d65bf7408f3a21e35f2407b0ba7d
-last_modified_at: 2023-11-12
+content_hash: c7ac478e31c67e45d475554948b1067a7c7ed565
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/git-apply.html
@@ -34,7 +34,7 @@ Weitere Informationen: <https://git-scm.com/docs/git-apply>.
 
 - Integriere eine externe Patch-Datei:
 
-`curl `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://beispiel.de/datei.patch</span>` | git apply`
+`curl -L `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://beispiel.de/datei.patch</span>` | git apply`
 
 - Gib diffstat des Inputs aus und integriere die Patch-Datei:
 

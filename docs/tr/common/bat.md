@@ -2,8 +2,8 @@
 layout: page
 title: common/bat (Türkçe)
 description: "Dosyaları yazdır ve birleştir."
-content_hash: b4c0da0c4e8263d1dd44ca28e8f7501ea446bfeb
-last_modified_at: 2023-11-12
+content_hash: 688a688ec31e54b81cb1d0e8c57b834845596701
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/bat.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/bat.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/bat.html
@@ -60,7 +63,7 @@ Daha fazla bilgi için: <https://github.com/sharkdp/bat>.
 
 - Tüm çıktı satırlarını numaralandır:
 
-`bat -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya</span>
+`bat --number `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya</span>
 
 - Bir JSON dosyasının sözdizimini vurgula:
 

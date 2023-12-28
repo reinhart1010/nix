@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/docker-compose (español)
-description: "Ejecuta y gestiona múltiples contenedores Docker."
-content_hash: ff7a13764e4f5cac5d387dd2eb8a9e6ac46d7918
-last_modified_at: 2023-11-12
+description: "Ejecuta y gestiona aplicaciones docker multicontenedor."
+content_hash: d51df7498b98c67cb32a9933fc72ddc6ec93c125
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -39,24 +39,24 @@ tldri18n_status: 2
 ---
 # docker compose
 
-Ejecuta y gestiona múltiples contenedores Docker.
+Ejecuta y gestiona aplicaciones docker multicontenedor.
 Más información: <https://docs.docker.com/compose/reference/>.
 
-- Lista los contenedores en ejecución:
+- Lista todos los contenedores en ejecución:
 
 `docker compose ps`
 
-- Crea e inicia todos los contenedores en segundo plano usando el archivo `docker-compose.yml` en el directorio actual:
+- Crea e inicia todos los contenedores en segundo plano usando un archivo `docker-compose.yml` desde el directorio actual:
 
 `docker compose up --detach`
 
-- Inicia todos los contenedores y reconstruye si es ncesario:
+- Inicia todos los contenedores, y se reconstruye si es necesario:
 
 `docker compose up --build`
 
-- Inicia todos los contenedores especificando un nombre de proyecto y usando un archivo compose alternativo:
+- Inicia todos los contenedores especificando un nombre de proyecto y utilizando un archivo de composición alternativo:
 
-`docker compose  -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_proyecto</span>` --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span>` up`
+`docker compose -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_proyecto</span>` --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>` up`
 
 - Detiene todos los contenedores en ejecución:
 
@@ -72,4 +72,4 @@ Más información: <https://docs.docker.com/compose/reference/>.
 
 - Sigue los registros de un contenedor específico:
 
-`docker compose logs --follow `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_contenedor</span>
+`docker compose logs --follow `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_contenedor</span>

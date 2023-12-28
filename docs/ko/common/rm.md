@@ -2,8 +2,8 @@
 layout: page
 title: common/rm (한국어)
 description: "파일 혹은 폴더를 삭제."
-content_hash: 71cd4e3df0e5de9452e10b44d92fb135cd361320
-last_modified_at: 2023-11-12
+content_hash: 185366deafb87a8addd556655384cdccfa42c089
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/rm.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/rm.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/rm.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/rm.html
@@ -47,15 +50,7 @@ tldri18n_status: 2
 
 - 임의의 경로에서 파일을 제거:
 
-`rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일의/경로</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">다른/파일의/경로</span>
-
-- 재귀적으로 폴더와 그 폴더내의 하위폴더들을 모두 제거:
-
-`rm -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">폴더의/경로</span>
-
-- 강제로 폴더를 제거, 확인절차와 에러메시지를 띄우지 않음:
-
-`rm -rf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">폴더의/경로</span>
+`rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일의/경로 다른/파일의/경로 ...</span>
 
 - 여라개의 파일을 하나씩 확인받으면서 제거:
 
@@ -64,3 +59,7 @@ tldri18n_status: 2
 - 상세화면과 함께 파일을 제거, 삭제된 파일에 대해 메시지를 출력함:
 
 `rm -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">폴더의/경로/*</span>
+
+- 재귀적으로 폴더와 그 폴더내의 하위폴더들을 모두 제거:
+
+`rm -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">폴더의/경로</span>

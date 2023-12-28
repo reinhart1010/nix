@@ -2,14 +2,14 @@
 layout: page
 title: common/cupsd (English)
 description: "Server daemon for the CUPS print server."
-content_hash: 2748c9c078c2bc5b08b477217c77b3619fd2c46d
-last_modified_at: 2023-11-12
+content_hash: cc746571a53ec218f70a4c16a986447fe22e4521
+last_modified_at: 2023-12-28
 tldri18n_status: 2
 ---
 # cupsd
 
 Server daemon for the CUPS print server.
-More information: <https://www.cups.org/doc/man-cupsd.html>.
+More information: <https://openprinting.github.io/cups/doc/man-cupsd.html>.
 
 - Start `cupsd` in the background, aka. as a daemon:
 

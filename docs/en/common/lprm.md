@@ -2,8 +2,8 @@
 layout: page
 title: common/lprm (English)
 description: "Cancel queued print jobs of a server."
-content_hash: 6ad67900fc44ff9875336be031f4f2940da3159d
-last_modified_at: 2023-12-18
+content_hash: ed6c0d55d723d821bcc67f8cd4928a3eb44a6cf7
+last_modified_at: 2023-12-28
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/lprm.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Cancel queued print jobs of a server.
 See also: `lpq`.
-More information: <https://www.cups.org/doc/man-lprm.html>.
+More information: <https://openprinting.github.io/cups/doc/man-lprm.html>.
 
 - Cancel current job on the default printer:
 

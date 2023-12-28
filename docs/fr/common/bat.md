@@ -2,8 +2,8 @@
 layout: page
 title: common/bat (français)
 description: "Affiche et concatène le contenu d'un ou plusieurs fichiers."
-content_hash: 3dba5cc52e8771a771201642291b7bbeb204ba31
-last_modified_at: 2023-11-12
+content_hash: 936f68e0da673d3af87c5279261f38f4aab8d72e
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/bat.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/bat.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/bat.html
@@ -60,11 +63,11 @@ Plus d'informations : <https://github.com/sharkdp/bat>.
 
 - Numérote toutes les lignes affichées :
 
-`bat -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span>
+`bat --number `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span>
 
 - Affiche le contenu d'un fichier JSON sur la sortie standard avec mise en valeur de la syntaxe :
 
-`bat --language json `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier.json</span>
+`bat --language json `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.json</span>
 
 - Affiche tous les langages pris en charge :
 

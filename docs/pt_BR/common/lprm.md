@@ -2,8 +2,8 @@
 layout: page
 title: common/lprm (português (Brasil))
 description: "Cancela trabalhos de impressão na fila de um servidor."
-content_hash: ecc011dbe3e9b3d3295e92501425b7bf5d394357
-last_modified_at: 2023-12-18
+content_hash: 9520db4d8438ed47b23b8cd978561ff899fe90b2
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/lprm.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Cancela trabalhos de impressão na fila de um servidor.
 Veja também: `lpq`.
-Mais informações: <https://www.cups.org/doc/man-lprm.html>.
+Mais informações: <https://openprinting.github.io/cups/doc/man-lprm.html>.
 
 - Cancela o trabalho atual na impressora padrão:
 

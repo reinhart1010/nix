@@ -2,8 +2,8 @@
 layout: page
 title: common/curl (Indonesia)
 description: "Mentransfer data dari atau ke server."
-content_hash: 683cd5aff9dd59df0fd7872bb22138ed3bbd6218
-last_modified_at: 2023-11-12
+content_hash: 7014b8eb30e2ca99b73d9cc8d06f031c294aa767
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/curl.html
@@ -50,7 +50,7 @@ Informasi lebih lanjut: <https://curl.se/docs/manpage.html>.
 
 - Unduh file, mengikuti pengalihan lokasi, dan secara otomatis melanjutkan transfer file sebelumnya:
 
-`curl --remote-name --location --continue-at - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://contoh.com/filename</span>
+`curl --fail --remote-name --location --continue-at - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://contoh.com/filename</span>
 
 - Mengirim data form yang telah di encode (permintaan POST atau tipe data `application/x-www-form-urlencoded`). Gunakan `--data @file_name` atau `--data @'-'` untuk membaca dari STDIN:
 
@@ -66,7 +66,7 @@ Informasi lebih lanjut: <https://curl.se/docs/manpage.html>.
 
 - Memberikan nama pengguna dan kata sandi untuk otentikasi server:
 
-`curl --user myusername:mypassword `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://contoh.com</span>
+`curl --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_pengguna</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://contoh.com</span>
 
 - Memberikan sertifikat klien dan kunci untuk sumber daya, melewati validasi sertifikat:
 

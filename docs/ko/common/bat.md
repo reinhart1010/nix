@@ -2,8 +2,8 @@
 layout: page
 title: common/bat (한국어)
 description: "파일들을 출력하고 연결. 구문 강조와 Git 통합을 가진`cat`클론."
-content_hash: b2ad9c9d6ef1ee64509c536327730875dfa70e8b
-last_modified_at: 2023-11-12
+content_hash: 2421d8121fd5ec991d83d1e90fe7736bd1747fca
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/common/bat.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/bat.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/bat.html
@@ -59,7 +62,7 @@ tldri18n_status: 2
 
 - 모든 출력 라인 번호 매기기:
 
-`bat -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`bat --number `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
 
 - json파일 구문 강조:
 

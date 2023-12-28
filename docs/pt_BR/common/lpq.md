@@ -2,7 +2,7 @@
 layout: page
 title: common/lpq (português (Brasil))
 description: "Mostra o estado da fila de impressão."
-content_hash: c1d30a922f7ed9b077d3d2472472eb70fe7567b1
+content_hash: e0858ba56ff351f704d59a3ab5ec1c5eebfc94c3
 last_modified_at: 2023-12-28
 related_topics:
   - title: English version
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # lpq
 
 Mostra o estado da fila de impressão.
-Mais informações: <https://www.cups.org/doc/man-lpq.html>.
+Mais informações: <https://openprinting.github.io/cups/doc/man-lpq.html>.
 
 - Mostra os trabalhos na fila do destino padrão:
 

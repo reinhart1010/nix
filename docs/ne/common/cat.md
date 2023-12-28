@@ -2,8 +2,8 @@
 layout: page
 title: common/cat (नेपाली)
 description: "फाइलहरू देखाउनुहोस् र जोड्नुहोस्।"
-content_hash: d9c227d868384971c06f94b70b47d2b906531df0
-last_modified_at: 2023-11-12
+content_hash: 04d6c901b9aab2af04c269148c6313caceaccf12
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -66,16 +66,8 @@ tldri18n_status: 2
 
 - धेरै फाइलहरू जोडेर एउटा सिंगो आउटपुट फाइल बनाउनुहोस्:
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फाइल_पहिलो/को/पथ</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फाइल_दोस्रो/को/पथ</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आउटपुट/फाइल/को/पथ</span>
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फाइल_पहिलो/को/पथ फाइल_दोस्रो/को/पथ ...</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आउटपुट/फाइल/को/पथ</span>
 
 - धेरै फाइलहरू जोडेर एउटा सिंगो आउटपुट फाइलमा संलग्न गर्नुहोस्:
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फाइल_पहिलो/को/पथ</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फाइल_दोस्रो/को/पथ</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आउटपुट/फाइल/को/पथ</span>
-
-- सबै आउटपुट लाइनहरूलाइ संख्यामा देखाउनुहोस:
-
-`cat -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फाइल/को/पथ</span>
-
-- छाप्न नमिल्ने र सेतो खाली ठाँउका वर्णहरू देखाउनुहोस् (यदि ASCII हैनन् भने `M-` उपसर्ग लागेर देखिन्छ):
-
-`cat -v -t -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फाइल/को/पथ</span>
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फाइल_पहिलो/को/पथ फाइल_दोस्रो/को/पथ ...</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आउटपुट/फाइल/को/पथ</span>

@@ -2,8 +2,8 @@
 layout: page
 title: common/rm (中文)
 description: "删除文件或目录。"
-content_hash: 1850cc195d973950d9eba6ef3d8608be5824261f
-last_modified_at: 2023-11-12
+content_hash: e008cd6e0b32324f2fd31ecb1517fd397dd09aa7
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/rm.html
@@ -22,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/rm.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/rm.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/rm.html
@@ -47,15 +50,7 @@ tldri18n_status: 2
 
 - 从任意位置删除文件：
 
-`rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/另一个/文件</span>
-
-- 递归删除一个目录及其所有子目录：
-
-`rm -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目录</span>
-
-- 强行删除一个目录，不提示确认或显示错误信息：
-
-`rm -rf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目录</span>
+`rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件 路径/到/另一个/文件 ...</span>
 
 - 交互式地删除多个文件，每次删除前都会有提示：
 
@@ -64,3 +59,7 @@ tldri18n_status: 2
 - 以粗略模式删除文件，为每个被删除的文件打印一条信息：
 
 `rm -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目录/*</span>
+
+- 递归删除一个目录及其所有子目录：
+
+`rm -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目录</span>

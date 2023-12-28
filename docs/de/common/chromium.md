@@ -2,8 +2,8 @@
 layout: page
 title: common/chromium (Deutsch)
 description: "Open-Source-Webbrowser von Google."
-content_hash: 2a09c18086029d07b4b96ff0b19b79abd252515e
-last_modified_at: 2023-11-12
+content_hash: bffd90b7134bef97c480108d0455c9e8142bbdfe
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/chromium.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/chromium.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/chromium.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/chromium.html
@@ -41,7 +44,7 @@ Weitere Informationen: <https://www.chromium.org/developers/how-tos/run-chromium
 
 - Öffne eine URL im Anwendungsmodus (ohne Symbolleisten, Suchleiste, Schaltflächen usw.):
 
-`chromium --app='`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://beispiel.com</span>`'`
+`chromium --app=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://beispiel.com</span>
 
 - Öffne eine URL und verwende einen Proxy-Server:
 
@@ -57,4 +60,4 @@ Weitere Informationen: <https://www.chromium.org/developers/how-tos/run-chromium
 
 - Öffne Chromium mit einem `DevTools`-Fenster für jeden geöffneten Tab:
 
-`chromium --auto-open--devtools-for-tabs`
+`chromium --auto-open-devtools-for-tabs`

@@ -2,8 +2,8 @@
 layout: page
 title: common/git-cherry-pick (বাংলা)
 description: "বিদ্যমান কমিট দ্বারা প্রবর্তিত পরিবর্তনগুলি বর্তমান ব্র্যাঞ্চে প্রয়োগ করুন।"
-content_hash: b6a7ca4daa4e82b97b208563d93ccbfe4b6ee345
-last_modified_at: 2023-11-12
+content_hash: 6aacd253884f94f43b5f05e27f7f4e28ed1d5658
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/git-cherry-pick.html
@@ -48,4 +48,4 @@ tldri18n_status: 2
 
 - কমিট তৈরি না করেই ওয়ার্কিং ডিরেক্টরিতে কমিটের পরিবর্তন যোগ করুন:
 
-`git cherry-pick -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">কমিট</span>
+`git cherry-pick --no-commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">কমিট</span>

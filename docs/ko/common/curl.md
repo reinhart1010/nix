@@ -2,8 +2,8 @@
 layout: page
 title: common/curl (한국어)
 description: "데이터를 서버에서 혹은 서버로 전송."
-content_hash: 93fed614b6f1b869b8367e142560a35cec827238
-last_modified_at: 2023-11-12
+content_hash: 6fb7106685a99f50012371d78646ff5b37e7aea0
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/curl.html
@@ -50,7 +50,7 @@ HTTP,FTP 및 POP3를 포함한 대부분의 프로토콜 지원.
 
 - [L]위치 리다이렉션 후 파일을 다운로드 하고, 자동으로 이전 파일 [C]전송(재시작):
 
-`curl --remote-name --location --continue-at - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/filename</span>
+`curl --fail --remote-name --location --continue-at - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/filename</span>
 
 - 양식 인코딩 데이터 전송(`application/x-www-form-urlencoded`유형의 POST 요청):
 
@@ -66,7 +66,7 @@ HTTP,FTP 및 POP3를 포함한 대부분의 프로토콜 지원.
 
 - 서버 인증을 위한 사용자 이름 및 비밀번호 전달:
 
-`curl --user myusername:mypassword `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span>
+`curl --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">사용자 명</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span>
 
 - 리소스에 대한 클라이언트 인증서 및 키 전달, 인증서 유효성 검사 스킵:
 

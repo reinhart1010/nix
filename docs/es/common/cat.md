@@ -2,8 +2,8 @@
 layout: page
 title: common/cat (español)
 description: "Imprime y concatena archivos."
-content_hash: 13f35e71ac78e4ba615ab06cec73231914c2ebf7
-last_modified_at: 2023-11-12
+content_hash: e1c64ff3355397590dc0fbe719cf944e326c7e9c
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -66,16 +66,8 @@ Más información: <https://www.gnu.org/software/coreutils/cat>.
 
 - Concatena múltiples archivos dentro de un archivo determinado:
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo2</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_final</span>
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo1 archivo2 ...</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_final</span>
 
 - Añade múltiples archivos dentro de un archivo determinado:
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo2</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_final</span>
-
-- Muestra el número de líneas de un archivo:
-
-`cat -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span>
-
-- Muestra los carácteres no imprimibles y espacios en blanco (con el prefijo `M-` si no es ASCII):
-
-`cat -v -t -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span>
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo1 archivo2 ...</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_final</span>

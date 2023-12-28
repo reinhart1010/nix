@@ -2,8 +2,8 @@
 layout: page
 title: common/bat (italiano)
 description: "Stampa e concatena file."
-content_hash: 5ec9880edd746bb5b5738ebc4fee33a4eea2bf63
-last_modified_at: 2023-11-12
+content_hash: bd472459e5a32cfbf982b5c738ffb9af86d34bcf
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/bat.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/bat.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/bat.html
@@ -60,7 +63,7 @@ Maggiori informazioni: <https://github.com/sharkdp/bat>.
 
 - Numera tutte le linee stampate:
 
-`bat -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`bat --number `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
 
 - Evidenzia la sintassi di un file JSON:
 

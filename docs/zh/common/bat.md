@@ -2,8 +2,8 @@
 layout: page
 title: common/bat (中文)
 description: "可以打印并且合并文件的命令。"
-content_hash: 7f62c92baca4b845093f27ee8983530b49592f90
-last_modified_at: 2023-11-12
+content_hash: a86e0c0138815de56d4ef66d92f14016de805b70
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/bat.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/bat.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/bat.html
@@ -60,7 +63,7 @@ tldri18n_status: 2
 
 - 打印时，显示行号：
 
-`bat -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件</span>
+`bat --number `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件</span>
 
 - 高亮一个 `json` 文件：
 

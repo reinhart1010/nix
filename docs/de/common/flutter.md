@@ -2,8 +2,8 @@
 layout: page
 title: common/flutter (Deutsch)
 description: "Googles Cross-Platform Open-Source SDK."
-content_hash: dd79929d2a959bc888d17289762e672e1e7a7b5a
-last_modified_at: 2023-11-12
+content_hash: 4b2243a836717146ba45894958142403f4070be9
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/flutter.html
@@ -18,9 +18,9 @@ tldri18n_status: 2
 Googles Cross-Platform Open-Source SDK.
 Weitere Informationen: <https://github.com/flutter/flutter/wiki/The-flutter-tool>.
 
-- Zeige hilfe für einen bestimmten Befehl:
+- Initialisiere ein neues Flutter-Projekt in einem gleichnamigen Verzeichnis:
 
-`flutter help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehl</span>
+`flutter create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Projektname</span>
 
 - Überprüfe, ob alle externen Tools korrekt installiert sind:
 
@@ -34,10 +34,6 @@ Weitere Informationen: <https://github.com/flutter/flutter/wiki/The-flutter-tool
 
 `flutter run -d all`
 
-- Downloade alle Pakete `pubspec.yaml`:
-
-`flutter pub get`
-
 - Starte Tests in einem Projekt vom Wurzelverzeichnes aus:
 
 `flutter test `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">test/beispiel_test.dart</span>
@@ -45,3 +41,7 @@ Weitere Informationen: <https://github.com/flutter/flutter/wiki/The-flutter-tool
 - Baue eine Release APK für die meisten modernen Smartphones:
 
 `flutter build apk --target-platform `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android-arm</span>`,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android-arm64</span>
+
+- Zeige Hilfe für einen bestimmten Befehl:
+
+`flutter help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehl</span>

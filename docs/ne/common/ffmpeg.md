@@ -2,8 +2,8 @@
 layout: page
 title: common/ffmpeg (नेपाली)
 description: "भिडियो रूपान्तरण उपकरण।"
-content_hash: 22b3eb8a36e576cf7897a76e8b340e9e6dc11e1b
-last_modified_at: 2023-11-12
+content_hash: 580cf3585f38909a8e62f64dd4013721c62e7968
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/ffmpeg.html
@@ -46,12 +46,12 @@ tldri18n_status: 2
 
 - AVI भिडियोलाई MP4 मा रूपान्तरण गर्नुहोस्। अडियोको 128kbit बिटरेट राखेर AAC मा, भिडियोको CRF 23 राखेर h264 मा:
 
-`ffmpeg -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">इनपुट_भिडियो</span>`.avi -codec:audio aac -b:audio 128k -codec:video libx264 -crf 23 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आउटपुट_भिडियो</span>`.mp4`
+`ffmpeg -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">इनपुट_भिडियो</span>`.avi -codec:a aac -b:a 128k -codec:v libx264 -crf 23 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आउटपुट_भिडियो</span>`.mp4`
 
 - MKV भिडियोको अडियो वा भिडियो स्ट्रिमहरू पुन: एन्कोडिङ नगरी हानिरहित ढाँचामा MP4 मा बदल्नुहोस:
 
 `ffmpeg -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">इनपुट_भिडियो</span>`.mkv -codec copy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आउटपुट_भिडियो</span>`.mp4`
 
-- MP4 भिडियोलाई VP9 कोडेकमा रूपान्तरण गर्नुहोस्। उत्कृष्ट गुणस्तरको लागि, CRF फ्ल्यागको प्रयोग गर्नुहोस् (सिफारिस गरिएको दायरा 15-35) र `-b:video 0` पनि प्रयोग गर्नुहोस्:
+- MP4 भिडियोलाई VP9 कोडेकमा रूपान्तरण गर्नुहोस्। उत्कृष्ट गुणस्तरको लागि, CRF फ्ल्यागको प्रयोग गर्नुहोस् (सिफारिस गरिएको दायरा 15-35) र `-b:v 0` पनि प्रयोग गर्नुहोस्:
 
-`ffmpeg -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">इनपुट_भिडियो</span>`.mp4 -codec:video libvpx-vp9 -crf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30</span>` -b:video 0 -codec:audio libopus -vbr on -threads `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">थ्रेड_संख्या</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आउटपुट_भिडियो</span>`.webm`
+`ffmpeg -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">इनपुट_भिडियो</span>`.mp4 -codec:v libvpx-vp9 -crf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">30</span>` -b:v 0 -codec:a libopus -vbr on -threads `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">थ्रेड_संख्या</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आउटपुट_भिडियो</span>`.webm`

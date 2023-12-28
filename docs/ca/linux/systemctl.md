@@ -2,8 +2,8 @@
 layout: page
 title: linux/systemctl (català)
 description: "Controla el sistema systemd i el gestor de serveis."
-content_hash: 769cabeffe001014915b2f5c7187502950312fd6
-last_modified_at: 2023-11-12
+content_hash: ff8b6254779a04f3f11a555fb9e99f548ff15bf6
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/linux/systemctl.html
@@ -58,7 +58,7 @@ Més informació: <https://www.freedesktop.org/software/systemd/man/systemctl.ht
 
 - Enmascara/Desenmascara una unitat per evitar la seva habilitació i activació manual:
 
-`systemctl `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mask|unmask</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unida`
+`systemctl `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mask|unmask</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unida</span>
 
 - Recarrega systemd, buscant unitats noves o modificades:
 

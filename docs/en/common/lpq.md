@@ -2,8 +2,8 @@
 layout: page
 title: common/lpq (English)
 description: "Show printer queue status."
-content_hash: d6deac32cfb3813a336e038d07717de1a2170094
-last_modified_at: 2023-12-18
+content_hash: 10b823ec5868fe3a76a9e74a0a1a67a50d81e280
+last_modified_at: 2023-12-28
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/lpq.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # lpq
 
 Show printer queue status.
-More information: <https://www.cups.org/doc/man-lpq.html>.
+More information: <https://openprinting.github.io/cups/doc/man-lpq.html>.
 
 - Show the queued jobs of the default destination:
 

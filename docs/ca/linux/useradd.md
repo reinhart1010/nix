@@ -2,8 +2,8 @@
 layout: page
 title: linux/useradd (català)
 description: "Crea un nou usuari."
-content_hash: ac55b9aca95403154618148263b60fab8d44bf1a
-last_modified_at: 2023-11-12
+content_hash: b65c8f03917c9e647304c15a138ea913b08613d0
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/linux/useradd.html
@@ -48,4 +48,4 @@ Més informació: <https://manned.org/useradd>.
 
 - Crea un usuari nou del sistema sense directori home:
 
-`sudo useradd --no-create-home --system `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_usuari</span>
+`sudo useradd --system `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_usuari</span>

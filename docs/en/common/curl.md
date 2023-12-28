@@ -2,8 +2,8 @@
 layout: page
 title: common/curl (English)
 description: "Transfers data from or to a server."
-content_hash: e9eb17f57c08877952ddc1bed04f8cf369819cc9
-last_modified_at: 2023-11-12
+content_hash: dd13d5b93aad8e39bab4ecb3618de3c0910e910e
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/curl.html
@@ -64,9 +64,9 @@ More information: <https://curl.se/docs/manpage.html>.
 
 `curl --data `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'{"name":"bob"}'</span>` --header `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'Content-Type: application/json'</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/users/1234</span>
 
-- Pass a username and password for server authentication:
+- Pass a username and prompt for a password to authenticate to the server:
 
-`curl --user myusername:mypassword `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span>
+`curl --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span>
 
 - Pass client certificate and key for a resource, skipping certificate validation:
 

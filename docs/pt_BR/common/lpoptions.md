@@ -2,8 +2,8 @@
 layout: page
 title: common/lpoptions (português (Brasil))
 description: "Exibe ou define opções e padrões de uma impressora."
-content_hash: db6ee88d53b1ab606f1f0c8b2be85b983e074515
-last_modified_at: 2023-12-18
+content_hash: 4a8a43d8ae96fd9252ae97905df73ca985f0bf5f
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/lpoptions.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Exibe ou define opções e padrões de uma impressora.
 Veja também: `lpadmin`.
-Mais informações: <https://www.cups.org/doc/man-lpoptions.html>.
+Mais informações: <https://openprinting.github.io/cups/doc/man-lpoptions.html>.
 
 - Define a impressora padrão:
 

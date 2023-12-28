@@ -2,8 +2,8 @@
 layout: page
 title: common/rm (English)
 description: "Remove files or directories."
-content_hash: 387b808b533ebe9426c11dc516e68543a2a9f898
-last_modified_at: 2023-11-12
+content_hash: beff7426fb1335efd426a0146e3ce47d115029f1
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/rm.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/rm.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/rm.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/rm.html
@@ -54,7 +57,7 @@ More information: <https://www.gnu.org/software/coreutils/rm>.
 
 `rm -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
-- Remove specific files [i]nteractively prompting before each removal:
+- Remove specific files interactively prompting before each removal:
 
 `rm -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
@@ -62,6 +65,6 @@ More information: <https://www.gnu.org/software/coreutils/rm>.
 
 `rm -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
-- Remove specific files and directories [r]ecursively:
+- Remove specific files and directories recursively:
 
 `rm -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 ...</span>

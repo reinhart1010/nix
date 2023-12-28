@@ -2,8 +2,8 @@
 layout: page
 title: android/dumpsys (বাংলা)
 description: "অ্যান্ড্রয়েড সিস্টেম পরিষেবা সম্পর্কে তথ্য প্রদান করে।"
-content_hash: f4028b41b222fbfb1a8cf7fb2ce6de998108a76f
-last_modified_at: 2023-11-12
+content_hash: f8d92bbd2cc93bded5928ac95cbecfbe777e32c8
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/android/dumpsys.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/dumpsys.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/dumpsys.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/dumpsys.html
@@ -85,7 +88,7 @@ tldri18n_status: 2
 
 - ডায়গনিস্টিক আউটপুট থেকে একটি নির্দিষ্ট পরিষেবা বাদ দিন:
 
-`dumpsys -- skip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">পরিষেবা</span>
+`dumpsys --skip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">পরিষেবা</span>
 
 - সেকেন্ডে একটি সময়সীমা নির্দিষ্ট করুন (ডিফল্ট 10 সেকেন্ড):
 

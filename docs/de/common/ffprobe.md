@@ -2,8 +2,8 @@
 layout: page
 title: common/ffprobe (Deutsch)
 description: "Multimedia Stream Analysierer."
-content_hash: 62151f7ff1400541e329f2090ec0aa08b2f25c08
-last_modified_at: 2023-11-12
+content_hash: 73b97cc3a506b6ecd146545fd166a07554275922
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/ffprobe.html
@@ -20,9 +20,9 @@ Weitere Informationen: <https://ffmpeg.org/ffprobe.html>.
 
 - Zeige alle verfügbaren Stream-Informationen einer Medien-Datei an:
 
-`ffprobe -v error -show_entries `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">datei.mp4</span>
+`ffprobe -v error -show_streams `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">datei.mp4</span>
 
-- Zeige Spieldauer an:
+- Zeige die Spieldauer an:
 
 `ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">datei.mp4</span>
 

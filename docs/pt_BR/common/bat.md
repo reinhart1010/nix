@@ -2,8 +2,8 @@
 layout: page
 title: common/bat (português (Brasil))
 description: "Imprime e concatena arquivos."
-content_hash: ff4fe8cf01effa5e255ea6e6f14d63bd51a8474a
-last_modified_at: 2023-11-12
+content_hash: c40ef8f4c5d27dabd48cacbd29b82b59edb61589
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/bat.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/bat.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/bat.html
@@ -60,7 +63,7 @@ Mais informações: <https://github.com/sharkdp/bat>.
 
 - Numera todas as linhas de saída:
 
-`bat -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo</span>
+`bat --number `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo</span>
 
 - Realça a sintaxe de um arquivo JSON:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/rm (svenska)
 description: "Ta bort filer eller mappar."
-content_hash: 5cdd0564f35a84dc687aebb9646d15b0c61bcc56
-last_modified_at: 2023-11-12
+content_hash: 86ee543e2e54eed29de73321f7f85bebf86d995c
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/rm.html
@@ -22,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/rm.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/rm.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/rm.html
@@ -47,15 +50,7 @@ Mer information: <https://www.gnu.org/software/coreutils/rm>.
 
 - Ta bort filer från godtyckliga ställen:
 
-`rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sökväg/till/fil</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sökväg/till/en/annan/fil</span>
-
-- Rekursivt ta bort en mapp och dess undermappar:
-
-`rm -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sökväg/till/mapp</span>
-
-- Tvinga borttagning av en mapp utan att bekräfta eller visa felmeddelanden:
-
-`rm -rf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sökväg/till/mapp</span>
+`rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sökväg/till/fil1 sökväg/till/en/annan/fil2 ...</span>
 
 - Interaktivt ta bort flera filer, genom att fråga om borttagning för varje fil:
 
@@ -64,3 +59,7 @@ Mer information: <https://www.gnu.org/software/coreutils/rm>.
 - Ta bort filer och visa ett meddelande för varje borttagning:
 
 `rm -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sökväg/till/mapp/*</span>
+
+- Rekursivt ta bort en mapp och dess undermappar:
+
+`rm -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sökväg/till/mapp</span>

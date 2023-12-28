@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-file (català)
 description: "Busca arxius en paquets apt, incloent els que encara no s'han instal·lat."
-content_hash: 8f7c1d5dc4b2384432b17ffb2c93fe215e45010d
-last_modified_at: 2023-11-12
+content_hash: fa6b3deaf21ecfdba5e6d1a3022da6b432190460
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/linux/apt-file.html
@@ -42,11 +42,11 @@ Més informació: <https://manpages.debian.org/latest/apt-file/apt-file.1.html>.
 
 - Busca paquets que continguin l'arxiu o ruta especificada:
 
-`apt-file search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/arxiu</span>
+`apt-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search|find</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/arxiu</span>
 
 - Mostra el contingut del paquet especificat:
 
-`apt-file list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_paquet</span>
+`apt-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">show|list</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_paquet</span>
 
 - Busca paquets que igualin l'expressió regular donada en `patró`:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/curl (中文)
 description: "向 / 从一个服务器传输数据。"
-content_hash: c82b217cb75bd80d0de246ffad9b4e227896e957
-last_modified_at: 2023-11-12
+content_hash: c6639ef22f400e6354b8fed58ac1fc3989327db8
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/curl.html
@@ -50,7 +50,7 @@ tldri18n_status: 2
 
 - 下载文件，跟随 重定向，并且自动 续传（恢复）前序文件传输：
 
-`curl --remote-name --location --continue-at - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/filename</span>
+`curl --fail --remote-name --location --continue-at - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/filename</span>
 
 - 发送表单编码数据（`application/x-www-form-urlencoded` 的 POST 请求）：
 
@@ -66,7 +66,7 @@ tldri18n_status: 2
 
 - 使用用户名和密码，授权访问服务器：
 
-`curl --user myusername:mypassword `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span>
+`curl --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户名</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span>
 
 - 为指定资源使用客户端证书和密钥，并且跳过证书验证：
 

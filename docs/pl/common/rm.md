@@ -2,8 +2,8 @@
 layout: page
 title: common/rm (polski)
 description: "Usuwa pliki lub foldery."
-content_hash: 419d3f88dfaddfa3217030c9bbf3194b75a6d445
-last_modified_at: 2023-11-12
+content_hash: 7996978d20fe7afe937ef4134660f4b46f19c017
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/rm.html
@@ -22,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/rm.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/rm.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/rm.html
@@ -47,15 +50,7 @@ Więcej informacji: <https://www.gnu.org/software/coreutils/rm>.
 
 - Usuń pliki z dowolnej lokalizacji:
 
-`rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/innego/pliku</span>
-
-- Rekursywnie usuń folder oraz wszystkie jego podfoldery:
-
-`rm -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/folderu</span>
-
-- Wymuś usunięcie folderu, bez pytania o potwierdzenie lub pokazywania błędów:
-
-`rm -rf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/folderu</span>
+`rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku1 ścieżka/do/pliku2 ...</span>
 
 - Interaktywnie usuń kilka plików z pytaniem o potwierdzenie przed każdym usunięciem:
 
@@ -64,3 +59,7 @@ Więcej informacji: <https://www.gnu.org/software/coreutils/rm>.
 - Usuń pliki w trybie opisowym, pokazując wiadomość o każdym usuniętym pliku:
 
 `rm -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/folderu/*</span>
+
+- Rekursywnie usuń folder oraz wszystkie jego podfoldery:
+
+`rm -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/folderu</span>

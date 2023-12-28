@@ -2,8 +2,8 @@
 layout: page
 title: common/cat (Türkçe)
 description: "Dosyaları yazdır ve birleştir."
-content_hash: fffbf67d267aad2a468ce16f6a5df2665666f252
-last_modified_at: 2023-11-12
+content_hash: 161c04cbe30fa6b01361fe648703bd4bf81bad9d
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -66,16 +66,8 @@ Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/cat>.
 
 - Birkaç dosyayı bir çıktı dosyasında birleştir:
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/yolu1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/yolu2</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">çıktı/dosyası/yolu</span>
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/yolu1 dosya/yolu2 ...</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">çıktı/dosyası/yolu</span>
 
 - Birkaç dosyayı bir çıktı dosyasına ekle:
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/yolu1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/yolu2</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">çıktı/dosyası/yolu</span>
-
-- Tüm çıkış satırlarını numaralandır:
-
-`cat -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/yolu</span>
-
-- Yazdırılamayan ve boşluk karakterleri görüntüle (ASCII değilse `M-` önekiyle):
-
-`cat -v -t -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/yolu</span>
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/yolu1 dosya/yolu2 ...</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">çıktı/dosyası/yolu</span>

@@ -2,7 +2,7 @@
 layout: page
 title: common/curl (português (Brasil))
 description: "Transfere dados entre o computador local e um servidor remoto."
-content_hash: b18d412a6223c49082cd271708e5a3c323f2d03c
+content_hash: 334cc54ebd8cdd42555066d08a30c7c10731f07e
 last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
@@ -50,7 +50,7 @@ Mais informações: <https://curl.se/docs/manpage.html>.
 
 - Descarrega um arquivo, seguindo redirecionamentos e automaticamente continuando transferências idênticas que tenham sido interrompidas:
 
-`curl --remote-name --location --continue-at - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/arquivo</span>
+`curl --fail --remote-name --location --continue-at - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/arquivo</span>
 
 - Envia dados codificados por formulário (pedido POST do tipo `application/x-www-form-urlencoded`):
 
@@ -66,7 +66,7 @@ Mais informações: <https://curl.se/docs/manpage.html>.
 
 - Passa ao pedido o nome de usuário e senha para autenticação no servidor:
 
-`curl -u usuario:senha `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span>
+`curl --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuario</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span>
 
 - Passa ao pedido o certificado do cliente e a chave para um recurso, omitindo a validação do certificado:
 

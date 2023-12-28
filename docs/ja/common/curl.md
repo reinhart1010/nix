@@ -2,8 +2,8 @@
 layout: page
 title: common/curl (日本語)
 description: "データをサーバーから転送、もしくはサーバーへ転送します。"
-content_hash: b6678659e8716caeabeab6fb8d5d7d363883f673
-last_modified_at: 2023-11-12
+content_hash: cacf05699a20d915d8098b676026e4c6da1b4c9a
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/curl.html
@@ -66,7 +66,7 @@ HTTP、FTP、POP3を含むほとんどのプロトコルをサポートしてい
 
 - サーバー認証のためユーザー名とパスワードを送る:
 
-`curl --user myusername:mypassword `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span>
+`curl --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ユーザー名</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span>
 
 - リソースのクライアント証明書とキーを送り、証明書の検証をスキップする:
 

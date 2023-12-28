@@ -2,8 +2,8 @@
 layout: page
 title: common/time (فارسی)
 description: "نمایش زمان اجرای یک دستور."
-content_hash: 80d63b7d60e02a64e876575844d058dfb039e4cd
-last_modified_at: 2023-11-12
+content_hash: fe5fb4b5f314ab5a28145b7a918de750f0658249
+last_modified_at: 2023-12-28
 related_topics:
   - title: bosanski version
     url: /bs/common/time.html
@@ -30,6 +30,6 @@ tldri18n_status: 2
 نمایش زمان اجرای یک دستور.
 اطلاعات بیشتر: <https://manned.org/time>.
 
-- نمایش زمان اجرای دستور `ls`:
+- نمایش زمان اجرای دستور `command`:
 
-`time ls`
+`time `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>

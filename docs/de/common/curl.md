@@ -2,8 +2,8 @@
 layout: page
 title: common/curl (Deutsch)
 description: "Überträgt Daten von oder zu einem Server."
-content_hash: c825d21b9f8d0d15b80d1bd6ce062cbe85429219
-last_modified_at: 2023-11-12
+content_hash: c4d64ac3492f69fb7e3d19d89949f94e77d41598
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/curl.html
@@ -50,7 +50,7 @@ Weitere Informationen: <https://curl.se/docs/manpage.html>.
 
 - Lade eine Datei herunter, folge Weiterleitungen und setze vergangene Dateitransfers automatisch fort:
 
-`curl --remote-name --location --continue-at - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://beispiel.de/datei</span>
+`curl --fail --remote-name --location --continue-at - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://beispiel.de/datei</span>
 
 - Sende formular-codierte Daten (POST Anfragen des Typs `application/x-www-form-urlencoded`). Benutze `--data @dateiname` oder `--data @'-'`, um von STDIN zu lesen:
 
@@ -64,9 +64,9 @@ Weitere Informationen: <https://curl.se/docs/manpage.html>.
 
 `curl --data `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'{"name":"karl-dieter"}'</span>` --header `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'Content-Type: application/json'</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://beispiel.de/benutzer/1234</span>
 
-- Übergib einen Benutzernamen und Passwort für die Server-Authentifizierung:
+- Übergib einen Benutzernamen und frage nach einem Passwort für die Server-Authentifizierung:
 
-`curl --user benutzername:passwort `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://beispiel.de</span>
+`curl --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzername</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://beispiel.de</span>
 
 - Übergib Client-Zertifikat und -Schlüssel für eine Ressource und überspringe die Zertifikatsüberprüfung:
 

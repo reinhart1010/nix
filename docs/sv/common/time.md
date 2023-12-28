@@ -2,8 +2,8 @@
 layout: page
 title: common/time (svenska)
 description: "Se hur lång tid ett kommando tar."
-content_hash: 6dc28470088fa17f1495a763a8ed0520adc003ec
-last_modified_at: 2023-11-12
+content_hash: 2bf7e4eec778d0a3d4a190d064fde56bf1e53664
+last_modified_at: 2023-12-28
 related_topics:
   - title: bosanski version
     url: /bs/common/time.html
@@ -30,6 +30,6 @@ tldri18n_status: 2
 Se hur lång tid ett kommando tar.
 Mer information: <https://manned.org/time>.
 
-- Tidtagning "ls":
+- Tidtagning `command`:
 
-`time ls`
+`time `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>

@@ -2,8 +2,8 @@
 layout: page
 title: common/cupsctl (English)
 description: "Update or query a server's `cupsd.conf`."
-content_hash: bfb578fa70992e7db76b55170d98f7cfaf1f8bb0
-last_modified_at: 2023-12-18
+content_hash: 7a925e76d2a710a93c7a70adb01e54ef9aa8c069
+last_modified_at: 2023-12-28
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/cupsctl.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # cupsctl
 
 Update or query a server's `cupsd.conf`.
-More information: <https://www.cups.org/doc/man-cupsctl.html>.
+More information: <https://openprinting.github.io/cups/doc/man-cupsctl.html>.
 
 - Display the current configuration values:
 

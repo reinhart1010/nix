@@ -2,8 +2,8 @@
 layout: page
 title: windows/doskey (বাংলা)
 description: "ম্যাক্রোজ, উইন্ডোজ কমান্ড এবং কমান্ড-লাইন পরিচালনা করুন।"
-content_hash: cae9f8d0dfcdd2f6a67f125bdb55474eb13cd715
-last_modified_at: 2023-11-12
+content_hash: 9fcec3e42fc9ddb98ede154f78ed8aec4f161fb4
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/windows/doskey.html
@@ -50,4 +50,4 @@ tldri18n_status: 2
 
 - একটি ফাইল থেকে ম্যাক্রোগুলি লোড করুন:
 
-`doskey /macrofile=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ফাইলের\পথ</span>
+`doskey /macrofile = `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ফাইলের\পথ</span>

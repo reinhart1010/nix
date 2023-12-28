@@ -2,8 +2,8 @@
 layout: page
 title: common/conda (Deutsch)
 description: "Eine Paket-, Abhängigkeits- und Umgebungsverwaltung für beliebige Programmiersprachen."
-content_hash: 6fd5c20d2eced14791bd8f50207817c6c4f83944
-last_modified_at: 2023-11-12
+content_hash: aecd91244e00988ada64215e3bbaaa9e2c314aa2
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/conda.html
@@ -32,11 +32,11 @@ Weitere Informationen: <https://github.com/conda/conda>.
 
 - Lade eine Umgebung:
 
-`conda `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">activate umgebungs_name</span>
+`conda activate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">umgebungs_name</span>
 
 - Entlade eine Umgebung:
 
-`conda `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">deactivate</span>
+`conda deactivate`
 
 - Lösche eine Umgebung (entferne alle Pakete):
 

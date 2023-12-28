@@ -2,8 +2,8 @@
 layout: page
 title: common/chsh (Deutsch)
 description: "Ändere die Login-Shell eines Benutzers."
-content_hash: 2925a5c7c96e683d10858c731352ef1facbeb90f
-last_modified_at: 2023-11-12
+content_hash: 4c0b8811e71d32ccf5e4f243091caf962e6e4cd1
+last_modified_at: 2023-12-28
 related_topics:
   - title: bosanski version
     url: /bs/common/chsh.html
@@ -59,4 +59,4 @@ Weitere Informationen: <https://manned.org/chsh>.
 
 - Liste alle verfügbaren Shells auf:
 
-`chsh --list-shells`
+`chsh -l`

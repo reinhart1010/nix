@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (Deutsch)
 description: "Verwalte Docker Container und Images."
-content_hash: a7d5d132e3a42ceb6c41e4090582eabb06b2b8c3
-last_modified_at: 2023-11-12
+content_hash: aa914899b2980b572f9d0e857ab4b8076bf4c29c
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/docker.html
@@ -26,6 +26,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/docker.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/docker.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker.html
     icon: bi bi-globe
@@ -46,17 +49,13 @@ Verwalte Docker Container und Images.
 Manche Unterbefehle wie `docker run` sind separat dokumentiert.
 Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- Liste zur Zeit laufende Container auf:
-
-`docker ps`
-
 - Liste laufende und gestoppte Container auf:
 
-`docker ps -a`
+`docker ps --all`
 
 - Erzeuge einen Container aus einem Image und benenne ihn:
 
-`docker run --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/image</span>
+`docker run --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span>
 
 - Stoppe oder starte einen existierenden Container:
 
@@ -64,7 +63,11 @@ Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/cli
 
 - Lade ein Image herunter:
 
-`docker pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/image</span>
+`docker pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span>
+
+- Zeige eine Liste der bereits heruntergeladenen Images an:
+
+`docker images`
 
 - Öffne eine Konsole innerhalb eines bereits laufenden Containers:
 

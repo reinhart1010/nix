@@ -2,14 +2,14 @@
 layout: page
 title: common/cups-config (English)
 description: "Show technical information about your CUPS print server installation."
-content_hash: e7c646b7f65705a989920338698be5704680e6e0
-last_modified_at: 2023-11-12
+content_hash: a05c9b53cc5aed3c74f94b94cb5967eaaddec20e
+last_modified_at: 2023-12-28
 tldri18n_status: 2
 ---
 # cups-config
 
 Show technical information about your CUPS print server installation.
-More information: <https://www.cups.org/doc/man-cups-config.html>.
+More information: <https://openprinting.github.io/cups/doc/man-cups-config.html>.
 
 - Show the currently installed version of CUPS:
 

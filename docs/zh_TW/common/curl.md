@@ -2,8 +2,8 @@
 layout: page
 title: common/curl (中文 (繁體, 台灣))
 description: "向 / 從一個伺服器傳輸數據。"
-content_hash: 1acfc862ab0a1be7e7b0848cd55b1159c8204dad
-last_modified_at: 2023-11-12
+content_hash: eef9510539fb64fa7d1929c38834e0315ba413f7
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/curl.html
@@ -50,7 +50,7 @@ tldri18n_status: 2
 
 - 下載檔案，跟隨重新導向，並且自動續傳（恢復）前序檔案傳輸：
 
-`curl --remote-name --location --continue-at - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/filename</span>
+`curl --fail --remote-name --location --continue-at - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/filename</span>
 
 - 發送表單編碼數據（`application/x-www-form-urlencoded` 的 POST 請求）：
 
@@ -66,7 +66,7 @@ tldri18n_status: 2
 
 - 透過使用者名稱和密碼訪問伺服器：
 
-`curl --user myusername:mypassword `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span>
+`curl --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">使用者名稱</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span>
 
 - 爲指定資源使用客戶端憑證和密鑰，並且跳過憑證驗證：
 

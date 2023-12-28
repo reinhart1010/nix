@@ -2,8 +2,8 @@
 layout: page
 title: common/git-commit (Deutsch)
 description: "Committe Dateien in ein Repository."
-content_hash: f144de247c652c1ac1e623708d5e95ef1996080c
-last_modified_at: 2023-11-12
+content_hash: 6c043ee4c8f8daca98e610cb0f40b5c6cd133284
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/git-commit.html
@@ -42,9 +42,9 @@ tldri18n_status: 2
 Committe Dateien in ein Repository.
 Weitere Informationen: <https://git-scm.com/docs/git-commit>.
 
-- Committe gestagten Dateien zum Repository mit einer Nachricht:
+- Committe die gestagten Dateien mit einer Nachricht in das Repository:
 
-`git commit -m "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nachricht</span>`"`
+`git commit --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nachricht</span>`"`
 
 - Committe alle gestagten Dateien zum Repository mit einer Nachricht aus einer Datei:
 
@@ -52,11 +52,11 @@ Weitere Informationen: <https://git-scm.com/docs/git-commit>.
 
 - Stage alle modifizierten Dateien und committe sie mit einer Nachricht:
 
-`git commit -a -m "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nachricht</span>`"`
+`git commit --all --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nachricht</span>`"`
 
-- Committe alle gestagten Dateien und [S]igniere sie mit dem in `~/.gitconfig` definierten GPG Schlüssel:
+- Committe gestagten Dateien und signiere sie mit dem definierten GPG Schlüssel (oder mit dem in der Konfigurationsdatei definierten, wenn kein Argument angegeben ist):
 
-`git commit -S -m "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nachricht</span>`"`
+`git commit --gpg-sign `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_id</span>` --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nachricht</span>`"`
 
 - Ersetze den letzten Commit mit den gerade auf dem Stage liegenden Änderungen:
 
@@ -68,4 +68,4 @@ Weitere Informationen: <https://git-scm.com/docs/git-commit>.
 
 - Erzeuge einen Commit, auch wenn keine Dateien auf dem Stage liegen:
 
-`git commit -m "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nachricht</span>`" --allow-empty`
+`git commit --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nachricht</span>`" --allow-empty`

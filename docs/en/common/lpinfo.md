@@ -2,8 +2,8 @@
 layout: page
 title: common/lpinfo (English)
 description: "List connected printers and installed drivers for the CUPS print server."
-content_hash: eee7f9f7004f149f345709c0272046997aa33737
-last_modified_at: 2023-11-12
+content_hash: c7588f29a0f2001bbb79aa123a69a7af2425aaec
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/lpinfo.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # lpinfo
 
 List connected printers and installed drivers for the CUPS print server.
-More information: <https://www.cups.org/doc/man-lpinfo.html>.
+More information: <https://openprinting.github.io/cups/doc/man-lpinfo.html>.
 
 - List all the currently connected printers:
 

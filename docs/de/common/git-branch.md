@@ -2,8 +2,8 @@
 layout: page
 title: common/git-branch (Deutsch)
 description: "Verwalte und Arbeite mit Git Branches."
-content_hash: d127271e301db9c37d008d293829e99098b2ef0b
-last_modified_at: 2023-11-12
+content_hash: 5cd3fd22c36fcba9948aeeca694d260f0dc22934
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/git-branch.html
@@ -36,13 +36,13 @@ tldri18n_status: 2
 Verwalte und Arbeite mit Git Branches.
 Weitere Informationen: <https://git-scm.com/docs/git-branch>.
 
-- Liste alle lokalen Branches auf. Der momentan aktive (ausgecheckte) Branch wird mit `*` markiert:
+- Liste alle Branches auf (Lokal und Remote). Der momentan aktive (ausgecheckte) Branch wird mit `*` markiert:
 
-`git branch`
+`git branch --all`
 
-- Liste alle Branches auf (Lokal und Remote):
+- Liste alle Branches auf, welche einen spezifischen Git-Commit in ihrer Historie enthalten:
 
-`git branch -a`
+`git branch --all --contains `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_hash</span>
 
 - Zeige den Namen des aktuellen Branches:
 

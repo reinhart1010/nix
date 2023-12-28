@@ -2,8 +2,8 @@
 layout: page
 title: common/arping (Deutsch)
 description: "Mit dem ARP Protokoll Hosts in einem Netzwerk entdecken und untersuchen."
-content_hash: 3f2eb1e80a0e453e8146b427c7c753b0dccd6ce7
-last_modified_at: 2023-11-12
+content_hash: ccd59a1c0ff565f08b887601e44f47c3318ec3dd
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/arping.html
@@ -30,7 +30,7 @@ Weitere Informationen: <https://github.com/ThomasHabets/arping>.
 
 - Pinge einen Host mit ARP Request Paketen:
 
-`arping `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_adresse}`
+`arping `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_adresse</span>
 
 - Pinge einen Host auf einem spezifizierten Interface:
 

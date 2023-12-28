@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/pw-cli (português (Brasil))
-description: "A interface de linha de comando do PipeWire."
-content_hash: 99651e067d4d583020467ee57509034447df6a89
-last_modified_at: 2023-12-20
+description: "Gerencia módulos, objetos, nós, dispositivos, conexões e muito mais de uma instância PipeWire."
+content_hash: 7f11630ce47880371db3c38563c1a63b773cee17
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/linux/pw-cli.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # pw-cli
 
-A interface de linha de comando do PipeWire.
+Gerencia módulos, objetos, nós, dispositivos, conexões e muito mais de uma instância PipeWire.
 Mais informações: <https://docs.pipewire.org/page_man_pw_cli_1.html>.
 
 - Exibe todos os nós (dispositivos de entrada e saída) com os seus IDs:

@@ -2,8 +2,8 @@
 layout: page
 title: common/time (norsk)
 description: "See hvor lang en kommand tar."
-content_hash: c496035651435996ee57b76d386ef83695833c76
-last_modified_at: 2023-11-12
+content_hash: 7334545d08e4d76e2b07d5c4c5112bba95d79a75
+last_modified_at: 2023-12-28
 related_topics:
   - title: bosanski version
     url: /bs/common/time.html
@@ -30,6 +30,6 @@ tldri18n_status: 2
 See hvor lang en kommand tar.
 Mer informasjon: <https://manned.org/time>.
 
-- Tid "ls":
+- Tid `command`:
 
-`time ls`
+`time `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>

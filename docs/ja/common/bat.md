@@ -2,8 +2,8 @@
 layout: page
 title: common/bat (日本語)
 description: "ファイルの内容を表示したり、連結したりします。"
-content_hash: 8c15ee6241b8ee5938072f0deee43d739901c42a
-last_modified_at: 2023-11-12
+content_hash: dfd64d1ed1586d62179a9cec81e4595a8b364468
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/bat.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/bat.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/bat.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/bat.html
@@ -52,7 +55,7 @@ tldri18n_status: 2
 
 - 複数のファイルの内容を連結して、目的のファイルに書き込む:
 
-`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル2</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ターゲットファイル}</span>
+`bat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル2</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ターゲットファイル</span>
 
 - 複数のファイルの内容を連結して、目的のファイルに追記する:
 
@@ -60,7 +63,7 @@ tldri18n_status: 2
 
 - すべての出力行に番号をつける:
 
-`bat -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル</span>
+`bat --number `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル</span>
 
 - JSON ファイルをハイライトする構文:
 

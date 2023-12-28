@@ -2,8 +2,8 @@
 layout: page
 title: common/fastmod (العربية)
 description: "أداة للاستبدال الجزئي للنصوص في قاعدة الأكواد لديك."
-content_hash: 947d68d6119e3a91e8e7c5583ac5eb5b7f47ac20
-last_modified_at: 2023-11-12
+content_hash: 6041451467c03f3edf08c2ff637d05c2732e3544
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/fastmod.html
@@ -30,7 +30,7 @@ tldri18n_status: 2
 
 - استبدال بالنص مُطابقةً (وليس التعبيرات النمطية)، في ملفات امتداداتهم إما js أو json فحسب:
 
-`fastmod --fixed-strings `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">نص_مطابِق</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">بديل</span>` -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json,js</span>
+`fastmod --fixed-strings `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">نص_مطابِق</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">بديل</span>` --extensions `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json,js</span>
 
 - استبدال بجميع النصوص مُطابقةً، مباشرة دون مِحَثِّ تأكيد (prompt):
 

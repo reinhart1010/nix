@@ -2,8 +2,8 @@
 layout: page
 title: common/rm (español)
 description: "Elimina archivos o directorios."
-content_hash: 829473eae75b8d81541a109a48c7216e9fc086fb
-last_modified_at: 2023-11-12
+content_hash: 606952eacbd1df7b270575857750856d6b6f7251
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/rm.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/rm.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/rm.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/common/rm.html
@@ -47,15 +50,7 @@ Más información: <https://www.gnu.org/software/coreutils/rm>.
 
 - Elimina archivos de ubicaciones arbitrarias:
 
-`rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/otro/archivo</span>
-
-- Elimina, de forma recursiva, un directorio y todos sus subdirectorios:
-
-`rm -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span>
-
-- Elimina un directorio a la fuerza, sin pedir confirmación ni mostrar mensajes de error:
-
-`rm -rf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span>
+`rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1 ruta/al/archivo2 ...</span>
 
 - Elimina varios archivos de forma interactiva, solicitando confirmación antes de eliminar cada archivo:
 
@@ -64,3 +59,7 @@ Más información: <https://www.gnu.org/software/coreutils/rm>.
 - Elimina archivos en modo detallado, imprimiendo un mensaje por cada archivo eliminado:
 
 `rm -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/hacia/directorio/*</span>
+
+- Elimina, de forma recursiva, un directorio y todos sus subdirectorios:
+
+`rm -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span>

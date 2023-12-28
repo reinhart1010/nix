@@ -2,8 +2,8 @@
 layout: page
 title: common/curl (français)
 description: "Transfère des données depuis ou vers un serveur."
-content_hash: c9cfc53f69036c8d73f009d999a3a1eb3845bec1
-last_modified_at: 2023-11-12
+content_hash: 0ea8ea7117864a7c00d6a324ec4ccf00fd2a04bc
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/curl.html
@@ -64,9 +64,9 @@ Plus d'informations : <https://curl.se/docs/manpage.html>.
 
 `curl --data `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'{"nom":"bob"}'</span>` --header `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'Content-Type: application/json'</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://exemple.fr/utilisateurs/1234</span>
 
-- Fournir un nom d'utilisateur et un mot de passe pour une authentification auprès du serveur :
+- Fournir un nom d'utilisateur et demander pour un mot de passe pour une authentification auprès du serveur :
 
-`curl --user identifiant:motdepasse `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://exemple.fr</span>
+`curl --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identifiant</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://exemple.fr</span>
 
 - Fournir le certificat et la clé du client pour une ressource, en évitant la validation du certificat :
 

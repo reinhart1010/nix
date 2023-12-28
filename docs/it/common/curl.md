@@ -2,8 +2,8 @@
 layout: page
 title: common/curl (italiano)
 description: "Trasferisci dati da o ad un server."
-content_hash: 8d5d11d4860910aecb168e9f25a55af8e9107705
-last_modified_at: 2023-11-12
+content_hash: 0fb37e8e6913b7a8bca13a9c87c89d01149f293c
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/curl.html
@@ -50,7 +50,7 @@ Maggiori informazioni: <https://curl.se/docs/manpage.html>.
 
 - Scarica un file, seguendo reindirizzamenti, e continuando automaticamente (riprendendo) un trasferimento precedente:
 
-`curl --remote-name --location --continue-at - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/nome_file</span>
+`curl --fail --remote-name --location --continue-at - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/nome_file</span>
 
 - Invia dati form-encoded (richiesta POST di tipo `application/x-www-form-urlencoded`):
 
@@ -66,8 +66,8 @@ Maggiori informazioni: <https://curl.se/docs/manpage.html>.
 
 - Utilizza un nome utente ed una password per l'autenticazione con il server:
 
-`curl --user utente:password `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span>
+`curl --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">utente</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com</span>
 
-- Utilizza un certificato ed una chiave per una risorsa, ignorando la validazione dei certificati:
+- Utilizza un certificato ed richiedere per una chiave per una risorsa, ignorando la validazione dei certificati:
 
 `curl --cert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">client.pem</span>` --key `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chiave.pem</span>` --insecure `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com</span>

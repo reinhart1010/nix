@@ -2,8 +2,8 @@
 layout: page
 title: windows/cmd (हिन्दी)
 description: "विंडोज कमांड दुभाषिया।"
-content_hash: 4644d96f1421df595e4450b8e7eff99c144bb2fe
-last_modified_at: 2023-11-12
+content_hash: de583e7cc6e75f4cd413e42fa7a51cd3cdcc5d32
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/windows/cmd.html
@@ -48,15 +48,15 @@ tldri18n_status: 2
 
 - एक आदेश निष्पादित करें:
 
-`cmd /c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आज्ञा</span>`"`
+`cmd /c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आज्ञा</span>
 
 - एक स्क्रिप्ट निष्पादित करें:
 
-`cmd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल.bat/का/पथ</span>
+`cmd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल.bat\का\पथ</span>
 
 - एक कमांड निष्पादित करें और फिर एक इंटरेक्टिव शेल दर्ज करें:
 
-`cmd /k "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आज्ञा</span>`"`
+`cmd /k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आज्ञा</span>
 
 - एक इंटरैक्टिव शेल सत्र प्रारंभ करें जहां कमांड आउटपुट में `echo` अक्षम है:
 

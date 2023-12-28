@@ -2,8 +2,8 @@
 layout: page
 title: common/alias (नेपाली)
 description: "उपनामहरु बनाउछ -- शब्दहरू जुन आदेश स्ट्रिङद्वारा प्रतिस्थापन गरिन्छ।"
-content_hash: fbdf247a41187c89f9f0831fa9826640c3538e14
-last_modified_at: 2023-11-12
+content_hash: 60e634585f700c3cd9555da9811d4a03a73a953e
+last_modified_at: 2023-12-28
 related_topics:
   - title: বাংলা version
     url: /bn/common/alias.html
@@ -73,7 +73,7 @@ tldri18n_status: 2
 
 - एउटा सामान्य उपनाम बनाउनुहोस्:
 
-`alias  `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">शब्द</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आदेश</span>`"`
+`alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">शब्द</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आदेश</span>`"`
 
 - एउटा आदेशसङ्ग सम्बन्धित उपनाम हेर्नुहोस्:
 

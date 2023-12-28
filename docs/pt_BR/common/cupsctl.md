@@ -2,7 +2,7 @@
 layout: page
 title: common/cupsctl (português (Brasil))
 description: "Atualiza ou consulta o cupsd.conf de um server."
-content_hash: 2244165e34ff892b20422533e6b721f8cbf290c0
+content_hash: 38f973b08b0d99623fa4bf286b460f5a345b48d2
 last_modified_at: 2023-12-28
 related_topics:
   - title: English version
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # cupsctl
 
 Atualiza ou consulta o cupsd.conf de um server.
-Mais informações: <https://www.cups.org/doc/man-cupsctl.html>.
+Mais informações: <https://openprinting.github.io/cups/doc/man-cupsctl.html>.
 
 - Exibe os valores de configuração atuais:
 

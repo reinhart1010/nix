@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/nmap (español)
-description: "Herramienta de exploración de redes y escáner de seguridad / puertos."
-content_hash: cdb070df3b39fdff3fe77bbefee0dd55cf546b43
-last_modified_at: 2023-11-12
+description: "Herramienta de exploración de redes y escáner de seguridad/puertos."
+content_hash: 99ec88278fa9b0c1d094bc5c8b19ed06e9ebfd5b
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/nmap.html
@@ -24,38 +24,38 @@ tldri18n_status: 2
 ---
 # nmap
 
-Herramienta de exploración de redes y escáner de seguridad / puertos.
-Algunas características solo funcionan si ejecutamos Nmap con privilegios.
+Herramienta de exploración de redes y escáner de seguridad/puertos.
+Algunas funciones sólo se activan cuando Nmap se ejecuta con privilegios de root.
 Más información: <https://nmap.org>.
 
-- Comprueba si una dirección IP está activa, e intenta averiguar el sistema operativo del servidor correspondiente:
+- Comprueba si una dirección IP está activa y adivina el sistema operativo del host remoto:
 
-`nmap -O `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_o_hostname</span>
+`nmap -O `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_o_nombre_del_host</span>
 
-- Intenta determinar si los hosts están activos y cuáles son sus nombres:
+- Intenta determinar si los hosts especificados están activos (exploración ping) y cuáles son sus nombres y direcciones MAC:
 
-`nmap -sn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_o_hostname</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">opcional_otra_direccion</span>
+`sudo nmap -sn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_o_nombre_del_host</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">opcional_otra_dirección</span>
 
-- Como el anterior, pero también ejecuta un escaneo de 1000 puertos TCP por defecto, si el host está activo:
+- Habilita también los scripts, la detección de servicios, la huella digital del SO y el traceroute:
 
-`nmap `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_o_hostname</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">opcional_otra_direccion</span>
+`nmap -A `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dirección_o_direcciones</span>
 
-- Detecta también scripts, servicios, sistema operativo y traceroute:
+- Escanea una lista específica de puertos (usa '-p-' para todos los puertos desde 1 al 65535):
 
-`nmap -A `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">direccion_o_direcciones</span>
+`nmap -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port1,port2,...,portN</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dirección_o_direcciones</span>
 
-- Asume una buena conexión y acelera la ejecución:
+- Realiza la detección de servicios y versiones de los 1000 puertos principales utilizando los scripts por defecto de NSE; escribiendo los resultados ('-oN') en el fichero de salida:
 
-`nmap -T4 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">direccion_o_direcciones</span>
+`nmap -sC -sV -oN `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">top-1000-puertos.txt</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dirección_o_direcciones</span>
 
-- Escanea una lista específica de puertos (para todos los puertos `1-65535` usar `-p-`):
+- Escanea objetivo(s) cuidadosamente utilizando los scripts NSE "default and safe":
 
-`nmap -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">puerto1,puerto2,…,puertoN</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">direccion_o_direcciones</span>
+`nmap --script "default and safe" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dirección_o_direcciones</span>
 
-- Realiza un escaneo TCP y UDP (usar `-sU` para solo UDP, `-sZ` para SCTP, `-sO` para IP):
+- Escanea el servidor web que se ejecuta en los puertos estándar 80 y 443 utilizando todos los scripts de NSE 'http-*' disponibles:
 
-`nmap -sSU `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">direccion_o_direcciones</span>
+`nmap --script "http-*" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dirección_o_direcciones</span>` -p 80,443`
 
-- Realiza un escaneo total de puertos, servicios, detección de versiones con todos los scripts NSE por defecto contra un host para determinar debilidades e información:
+- Realiza un escaneo sigiloso muy lento ('-T0') intentando evitar la detección por parte de IDS/IPS y utiliza direcciones IP de origen con señuelo ('-D'):
 
-`nmap -sC -sV `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">direccion_o_direcciones</span>
+`nmap -T0 -D `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">decoy1_direcciónip,decoy2_direcciónip,...,decoyN_direcciónip</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dirección_o_direcciones</span>
