@@ -2,8 +2,8 @@
 layout: page
 title: common/ssh (Deutsch)
 description: "Secure Shell ist ein Protokoll für das sichere einloggen auf einem externen System."
-content_hash: 058d82a7671587dfb8c36bfdbc82144de74ea44d
-last_modified_at: 2023-11-12
+content_hash: 666327989c06d3e4c38baa653ae0021600417eb9
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/ssh.html
@@ -40,10 +40,6 @@ Weitere Informationen: <https://man.openbsd.org/ssh>.
 
 `ssh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzer</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">externer_server</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2222</span>
 
-- Führen einen Befehl auf einem externen Server aus:
-
-`ssh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">externer_server</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehl</span>
-
 - SSH Tunneln: Leite Ports dynamische Port weiter (SOCKS proxy auf localhost:1080):
 
 `ssh -D `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1080</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzer</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">externer_server</span>
@@ -54,7 +50,7 @@ Weitere Informationen: <https://man.openbsd.org/ssh>.
 
 - SSH Springen: Verbinde über einen Spring-Server zu einem externen Server (Es können auch mehrere Spring-Server über eine Komma-separierte Liste angegeben werden):
 
-`ssh -J `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzer@sring_server</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzer</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">externer_server</span>
+`ssh -J `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzer</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sring_server</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">benutzer</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">externer_server</span>
 
 - Agenten Weiterleitung: Leite die eigenen Authentifizierungs-Informationen an den externen Server weiter (siehe `man ssh_config` für mehr Optionen):
 

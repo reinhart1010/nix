@@ -2,8 +2,8 @@
 layout: page
 title: linux/systemctl (français)
 description: "Contrôle le système systemd et le gestionnaire de services."
-content_hash: 4e6a59706694d30adf5cb0dda49a8a8df8a5a3b5
-last_modified_at: 2023-11-12
+content_hash: 4e58fa203697abdb1f59247a60a71f2a707894cd
+last_modified_at: 2023-12-28
 related_topics:
   - title: català version
     url: /ca/linux/systemctl.html
@@ -59,10 +59,6 @@ Plus d'informations : <https://www.freedesktop.org/software/systemd/man/systemct
 - Rechargement de systemd, recherche d'unités nouvelles ou modifiées :
 
 `systemctl daemon-reload`
-
-- Vérifie si une unité est en cours de fonctionnement :
-
-`systemctl is-active `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unité</span>
 
 - Vérifie si une unité est activée :
 

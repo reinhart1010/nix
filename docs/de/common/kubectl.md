@@ -2,8 +2,8 @@
 layout: page
 title: common/kubectl (Deutsch)
 description: "Befehlszeilenschnittstelle zur Ausführung von Befehlen gegen Kubernetes-Cluster."
-content_hash: 2d951af8547b179aeccca3c72ba98977e543bfc4
-last_modified_at: 2023-11-12
+content_hash: 6db5bb2d1f6ebaa970fc0089e79bbf5a32b61dc2
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/kubectl.html
@@ -24,7 +24,7 @@ Weitere Informationen: <https://kubernetes.io/docs/reference/kubectl/>.
 
 - Liste Informationen über eine Ressource mit weiteren Details auf:
 
-`kubectl get `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pod|service|deployment|ingress|...</span>` --output wide`
+`kubectl get `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pod|service|deployment|ingress|...</span>` -o wide`
 
 - Aktualisiere die angegebenen Pods mit dem Label 'unhealthy' und dem Wert 'true':
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/nmap (Deutsch)
 description: "Netzwerk-Erkundungs-Werkzeug und Security / Port Scanner."
-content_hash: b51c720685069ed4a45d5083a773fe2d1c0ee67e
-last_modified_at: 2023-11-12
+content_hash: ce41488ccc9b2d77d8687f99a9f97e712333ad3a
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/nmap.html
@@ -34,7 +34,7 @@ Weitere Informationen: <https://nmap.org>.
 
 - Überprüfe nur ob die angegebenen Hosts online sind (Ping Scan) und ihre Domain-Namen:
 
-`nmap -sn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_oder_hostname</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">optional_noch_eine_addresse</span>
+`sudo nmap -sn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_oder_hostname</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">optional_noch_eine_addresse</span>
 
 - Scanne zusätzlich mit Skripten, Service-Erkennung, Betriebssystem-Fingerprinting und Traceroute:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/b2sum (français)
 description: "Calcule les sommes de contrôle cryptographiques BLAKE2."
-content_hash: 8ef360d34862f315a2a0ff411d812220bbd122a0
-last_modified_at: 2023-11-12
+content_hash: 47b09a85d123b58a201ae151cd7453e570efb90f
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/b2sum.html
@@ -30,7 +30,7 @@ Plus d'informations : <https://www.gnu.org/software/coreutils/b2sum>.
 
 - Calcule les sommes de contrôle BLAKE2 pour plusieurs fichiers :
 
-`b2sum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier2</span>
+`b2sum `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier1 chemin/vers/fichier2 ...</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.b2</span>
 
 - Calcule la somme de contrôle BLAKE2 depuis `stdin` :
 

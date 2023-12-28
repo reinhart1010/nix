@@ -2,8 +2,8 @@
 layout: page
 title: common/git-show-branch (français)
 description: "Affiche les branches et leurs commits."
-content_hash: 01c7eb6c618346f2b86a4236e41407015c8f5959
-last_modified_at: 2023-11-12
+content_hash: 1af0e743defc4002383f905846fa51a06ffd8529
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/git-show-branch.html
@@ -23,11 +23,11 @@ Plus d'informations : <https://git-scm.com/docs/git-show-branch>.
 
 - Affiche un résumé du dernier commit dans la branche :
 
-`git show-branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_branche</span>`|ref|commit</span>
+`git show-branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_branche|ref|commit</span>
 
 - Comparer des commits avec plusieurs commits ou branches :
 
-`git show-branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_branche</span>`|ref|commit</span>
+`git show-branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_branche|ref|commit</span>
 
 - Comparer toutes les branches distantes :
 
@@ -43,12 +43,12 @@ Plus d'informations : <https://git-scm.com/docs/git-show-branch>.
 
 - Comparer une branche spécifique à la branche courante :
 
-`git show-branch --current `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit|branch_name|ref</span>
+`git show-branch --current `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit|nom_de_branche|ref</span>
 
 - Afficher le nom du commit au lieu du nom relatif :
 
-`git show-branch --sha1-name --current `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">current|branch_name|ref</span>
+`git show-branch --sha1-name --current `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">current|nom_de_branche|ref</span>
 
 - Continuez l'affichage d'un certain nombre de commits au-delà de l'ancêtre commun :
 
-`git show-branch --more `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit|branch_name|ref</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit|branch_name|ref</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">...</span>
+`git show-branch --more `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit|nom_de_branche|ref</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit|nom_de_branche|ref</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">...</span>

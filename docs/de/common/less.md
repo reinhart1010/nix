@@ -2,8 +2,8 @@
 layout: page
 title: common/less (Deutsch)
 description: "Öffne eine Datei für interaktives lesen, erlaubt scrollen und suchen."
-content_hash: 15b74a85e140a6c593cf4aaa6ff0b2480fe3dcda
-last_modified_at: 2023-11-12
+content_hash: 339a871a8e905f51dc0102fabcbaad04f866c4c6
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/less.html
@@ -31,7 +31,7 @@ Weitere Informationen: <https://greenwoodsoftware.com/less/>.
 
 - Springe zum Ende / Anfang der Datei:
 
-`G (Ende), g (Anfang)`
+`G (Ende), g (Pos1)`
 
 - Suche nach einer Zeichenkette vorwärts (n/N um zur nächsten/vorherigen Übereinstimmung zu springen):
 

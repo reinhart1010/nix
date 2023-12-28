@@ -2,8 +2,8 @@
 layout: page
 title: common/ssh (français)
 description: "Secure Shell est un protocole utilisé pour se connecter de façon sécurisée à des systèmes distants."
-content_hash: 03c3cf695491ed52675931ea1dc9f13007717978
-last_modified_at: 2023-11-12
+content_hash: 470612713c2c08f77f290bc5c397b63f68f8b92e
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/ssh.html
@@ -42,7 +42,7 @@ Plus d'informations : <https://man.openbsd.org/ssh>.
 
 - Exécuter une commande sur un serveur distant :
 
-`ssh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hote_distant</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commande -avec -options</span>
+`ssh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">utilisateur</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hote_distant</span>` -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commande</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commande_options</span>
 
 - Tunnel SSH : Transfert par port dynamique (le SOCKS proxy se trouve sur localhost:1080) :
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/ls (Deutsch)
 description: "Liste den Inhalt eines Verzeichnisses auf."
-content_hash: 209d6e74ec1abe03dcb3437d870e8ce7a766076b
-last_modified_at: 2023-11-12
+content_hash: fccc1e5697a470d10caeace14e765a1e4315ae1a
+last_modified_at: 2023-12-28
 related_topics:
   - title: català version
     url: /ca/common/ls.html
@@ -96,4 +96,4 @@ Weitere Informationen: <https://www.gnu.org/software/coreutils/ls>.
 
 - Liste nur Verzeichnisse auf:
 
-`ls -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*/</span>
+`ls -d */`

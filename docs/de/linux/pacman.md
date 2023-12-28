@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman (Deutsch)
 description: "Arch Linux Paket Management Tool."
-content_hash: a2977e8db9451fecacb058a924ffd4b9b22ebc63
-last_modified_at: 2023-11-12
+content_hash: 8e76622ce33c2ef1c851476752cdc0179b2ad097
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/linux/pacman.html
@@ -52,15 +52,11 @@ Weitere Informationen: <https://man.archlinux.org/man/pacman.8>.
 
 - Installiere ein neues Paket:
 
-`sudo pacman -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paketname</span>
+`sudo pacman -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span>
 
 - Entferne ein Paket und dessen Abhängigkeiten:
 
-`sudo pacman -Rs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paketname</span>
-
-- Suche in der Paketdatenbank nach einem regulären Ausdruck oder Schlüsselwort:
-
-`pacman -Ss "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">suchmuster</span>`"`
+`sudo pacman -Rs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span>
 
 - Liste alle installierten Pakete und dessen Versionen auf:
 

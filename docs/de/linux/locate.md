@@ -2,8 +2,8 @@
 layout: page
 title: linux/locate (Deutsch)
 description: "Zum schnellen Finden von Dateinamen."
-content_hash: 611545733342a962c0f445f9271951240011c140
-last_modified_at: 2023-11-12
+content_hash: 2781533dd2587e6d722540795680bd15af364ce7
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/linux/locate.html
@@ -24,7 +24,7 @@ Weitere Informationen: <https://manned.org/locate>.
 
 - Suche nach Dateien mit dem exakten Dateinamen. (Ein Muster ohne Platzhalterzeichen wird als `*muster*` interpretiert):
 
-`locate */`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dateiname</span>
+`locate '*/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dateiname</span>`'`
 
 - Aktualisiere die Datenbank. Dies ist nötig, falls kürzlich hinzugefügte Dateien gefunden werden sollen:
 

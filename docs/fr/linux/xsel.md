@@ -2,8 +2,8 @@
 layout: page
 title: linux/xsel (français)
 description: "Outil de sélection et de manipulation du presse-papiers X11."
-content_hash: 7fa74ff1c920ed3b24a92855a909da236bcc8165
-last_modified_at: 2023-11-12
+content_hash: 57eb4ebe660a2e027977c600553324fdbd24146d
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/linux/xsel.html
@@ -17,7 +17,7 @@ Plus d'informations : <https://manned.org/xsel>.
 
 - Utilise la sortie d'une commande comme entrée du presse-papiers (équivalent de `Ctrl + C`) :
 
-`echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">123</span>` | xsel -ib`
+`echo 123 | xsel -ib`
 
 - Utilise le contenu d'un fichier comme entrée du presse-papiers :
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/git-clone (Deutsch)
 description: "Klone ein existierendes Repository."
-content_hash: 3a84a40a4a61ae80323ef1d3544b9bff2c2f2d35
-last_modified_at: 2023-11-12
+content_hash: 2bb6e6c28ba302ee1607bfcaf427bb589b66ee1a
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/git-clone.html
@@ -45,10 +45,6 @@ tldri18n_status: 2
 Klone ein existierendes Repository.
 Weitere Informationen: <https://git-scm.com/docs/git-clone>.
 
-- Klone ein existierendes Repository:
-
-`git clone `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_zu_repository</span>
-
 - Klone ein existierendes Repository in ein bestimmtes Verzeichnis:
 
 `git clone `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_zu_repository</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/verzeichnis</span>
@@ -57,13 +53,17 @@ Weitere Informationen: <https://git-scm.com/docs/git-clone>.
 
 `git clone --recursive `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_zu_repository</span>
 
+- Klone nur das  `.git` Verzeichnis für ein existierendes repository:
+
+`git clone --no-checkout `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_zu_repository</span>
+
 - Klone ein lokales Repository:
 
-`git clone -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/lokalem_repository</span>
+`git clone --local `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/lokalem_repository</span>
 
 - Klone ohne Meldungen:
 
-`git clone -q `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_zu_repository</span>
+`git clone --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_zu_repository</span>
 
 - Klone ein existierendes Repository und rufe nur die neuesten 10 Commits im Standard-Branch ab (spart Zeit):
 

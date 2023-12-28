@@ -2,8 +2,8 @@
 layout: page
 title: linux/dnf (Deutsch)
 description: "Paketmanagement Tool für RHEL, Fedora, und CentOS (ersetzt yum)."
-content_hash: 50236a15681cb2b34cf09c3b3f397d7915627112
-last_modified_at: 2023-11-12
+content_hash: 98118973d1ef57aba174aaeafcd5305b31a1a955
+last_modified_at: 2023-12-28
 related_topics:
   - title: català version
     url: /ca/linux/dnf.html
@@ -54,10 +54,6 @@ Weitere Informationen: <https://dnf.readthedocs.io>.
 - Installiere ein neues Paket:
 
 `sudo dnf install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span>
-
-- Installiere ein neues Paket und antworte "ja" auf alle Fragen:
-
-`sudo dnf -y install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span>
 
 - Entferne ein Paket:
 

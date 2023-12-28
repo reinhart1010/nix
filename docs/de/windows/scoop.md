@@ -2,8 +2,8 @@
 layout: page
 title: windows/scoop (Deutsch)
 description: "Ein Kommandozeilenwerkzeug, um Windows-Programme (hier bezeichnet als Pakete) zu installieren."
-content_hash: a2c3cefb1f3981162294c389bc662ab7f1aab95d
-last_modified_at: 2023-11-12
+content_hash: 0545caaafd6b1d4b0f7adf282ad6acb81492220f
+last_modified_at: 2023-12-28
 related_topics:
   - title: বাংলা version
     url: /bn/windows/scoop.html
@@ -37,7 +37,7 @@ Weitere Informationen: <https://scoop.sh>.
 
 - Aktualisiere alle installierten Pakete:
 
-`scoop update *`
+`scoop update --all`
 
 - Zeige alle installierten Pakete an:
 
@@ -53,4 +53,4 @@ Weitere Informationen: <https://scoop.sh>.
 
 - Entferne die alten Versionen aller Pakete und lösche den Download-Zwischenspeicher:
 
-`scoop cleanup -k *`
+`scoop cleanup --cache --all`

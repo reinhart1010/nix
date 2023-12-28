@@ -2,8 +2,8 @@
 layout: page
 title: linux/anbox (Deutsch)
 description: "Führe Android-Anwendungen auf jedem GNU/Linux-Betriebssystem aus."
-content_hash: fed629914f70ef64f675406b5e9d9750ac989791
-last_modified_at: 2023-11-12
+content_hash: 83d4613291ed848cfbec0597af62e4486a609f8d
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/linux/anbox.html
@@ -26,4 +26,4 @@ Weitere Informationen: <https://manned.org/anbox>.
 
 - Starte Anbox im App Manager:
 
-`anbox launch --oackage=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.anbox.appmgr</span>` --component=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.anbox.appmgr.AppViewActivity</span>
+`anbox launch --package=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.anbox.appmgr</span>` --component=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">org.anbox.appmgr.AppViewActivity</span>

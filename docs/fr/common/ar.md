@@ -2,8 +2,8 @@
 layout: page
 title: common/ar (français)
 description: "Crée, modifie et extrais depuis des archives (`.a`, `.so`, `.o`)."
-content_hash: 2ff4586f5ac2d87830e3ec78e57d0c8bdd560bc4
-last_modified_at: 2023-11-12
+content_hash: 9a1d68b6b7d6cc355047004018a49191b7baeeb7
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/ar.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/ar.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ar.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/ar.html
@@ -24,22 +27,22 @@ tldri18n_status: 2
 Crée, modifie et extrais depuis des archives (`.a`, `.so`, `.o`).
 Plus d'informations : <https://manned.org/ar>.
 
-- Extrais tous les éléments depuis une archive :
+- E[x]trais tous les éléments depuis une archive :
 
-`ar -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/archive.a</span>
+`ar x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/archive.a</span>
 
-- Liste tous les éléments depuis une archive :
+- Lis[t]e tous les éléments depuis une archive :
 
-`ar -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/archive.a</span>
+`ar t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/archive.ar</span>
 
-- Remplace ou ajoute des fichiers à une archive :
+- [r]emplace ou ajoute des fichiers à une archive :
 
-`ar -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/archive.a</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier1.o</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier2.o</span>
+`ar r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/archive.deb</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/debian-binary chemin/vers/control.tar.gz chemin/vers/data.tar.xz ...</span>
 
-- Insère un fichier d'indexation (équivalent à `ranlib`) :
+- In[s]ère un fichier d'indexation (équivalent à `ranlib`) :
 
-`ar -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/archive.a</span>
+`ar s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/archive.a</span>
 
 - Crée une archive avec des fichiers et un fichier d'indexation qui l'accompagne :
 
-`ar -rs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/archive.a</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier1.o</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier2.o</span>
+`ar rs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/archive.a</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier1.o chemin/vers/fichier2.o ...</span>

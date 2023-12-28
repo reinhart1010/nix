@@ -2,8 +2,8 @@
 layout: page
 title: linux/xclip (français)
 description: "Outil de manipulation de presse-papiers X11, semblable à `xsel`."
-content_hash: 57dc6a0d05c0ec9dfda6e330bfd0dfe4d5a1acb9
-last_modified_at: 2023-11-12
+content_hash: 63c2ad4fa5d989e6be4856c38cabaa8185c6e2f8
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/linux/xclip.html
@@ -46,7 +46,3 @@ Plus d'informations : <https://manned.org/xclip>.
 - Colle le contenu du presse-papier système à la console :
 
 `xclip -o -sel clip`
-
-- Colle le contenu du presse-papier système à un fichier :
-
-`xclip -o -sel clip > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier_sortie.txt</span>

@@ -2,8 +2,8 @@
 layout: page
 title: common/pip-install (Deutsch)
 description: "Installiere Python-Pakete."
-content_hash: b5046ff9552b10989c48a8661f7ee0628287ba1e
-last_modified_at: 2023-11-12
+content_hash: bbc8be5cdc49c75c66285810a37d600ce27360c6
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/pip-install.html
@@ -32,8 +32,8 @@ Weitere Informationen: <https://pip.pypa.io>.
 
 - Installiere die Pakete von einer URL oder einem lokalen Archiv (.tar.gz | .whl):
 
-`pip install -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|pfad/zur/datei</span>
+`pip install --find-links `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url|pfad/zur/datei</span>
 
 - Installiere das lokale Paket im aktuellen Verzeichnis im Entwicklungs-/Bearbeitungsmodus:
 
-`pip install -e .`
+`pip install --editable `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.</span>

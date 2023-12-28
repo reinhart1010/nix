@@ -2,8 +2,8 @@
 layout: page
 title: osx/xcode-select (Deutsch)
 description: "Wechsel zwischen verschiedenen Xcode Versionen und den enthaltenen Entwicklertools."
-content_hash: 7c1127f332a00d2e7d1f310bfa63db63e46bf073
-last_modified_at: 2023-11-12
+content_hash: aefb3fc1bd269e91df21c01cdb215b45502a3e23
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/osx/xcode-select.html
@@ -25,11 +25,11 @@ Weitere Informationen: <https://developer.apple.com/library/archive/technotes/tn
 
 - Wähle einen bestimmten Pfad als aktives Entwicklerverzeichnis aus:
 
-`sudo xcode-select --switch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/Xcode.app/Contents/Developer</span>
+`xcode-select --switch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/Xcode.app/Contents/Developer</span>
 
 - Wähle eine Xcode Version aus und ändere das aktive Entwicklerverzeichnis dahin:
 
-`sudo xcode-select --switch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/Xcode.app</span>
+`xcode-select --switch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/Xcode.app</span>
 
 - Gib das derzeit aktive Entwicklerverzeichnis aus:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/git-merge (français)
 description: "Pour fusionner des branches `git`."
-content_hash: 918e6b5ec0791a5611d1f5bbc3f877b888fd96ab
-last_modified_at: 2023-11-12
+content_hash: 8e7ac775c40489e8fc45b42fb29c0abc66824c77
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/git-merge.html
@@ -33,7 +33,7 @@ Plus d'informations : <https://git-scm.com/docs/git-merge>.
 
 - Editer le message de fusion (`merge commit`) :
 
-`git merge -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_branche</span>
+`git merge --edit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_de_branche</span>
 
 - Fusionner une branche et créer un commit de fusion (`merge commit`) :
 
@@ -42,7 +42,3 @@ Plus d'informations : <https://git-scm.com/docs/git-merge>.
 - Annuler une fusion en cas de conflit :
 
 `git merge --abort`
-
-- Continuer une fusion après une résolution de conflit :
-
-`git merge --continue`

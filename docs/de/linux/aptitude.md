@@ -2,8 +2,8 @@
 layout: page
 title: linux/aptitude (Deutsch)
 description: "Debian und Ubuntu Paket Management Tool."
-content_hash: b9206abb6c6672f8d18a9f015bb87aea178ca3ae
-last_modified_at: 2023-11-12
+content_hash: 370b986afcafd8b9ce37e472c19c98e2db8e8568
+last_modified_at: 2023-12-28
 related_topics:
   - title: català version
     url: /ca/linux/aptitude.html
@@ -53,7 +53,7 @@ Weitere Informationen: <https://manpages.debian.org/latest/aptitude/aptitude.8.h
 
 - Suche nach einem installierten Paket (`?installed` ist ein aptitude Suchbegriff):
 
-`aptitude search ?installed (`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span>`)`
+`aptitude search '?installed (`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span>`)'`
 
 - Entferne ein Paket und alle Abhängigkeiten:
 

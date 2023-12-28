@@ -2,8 +2,8 @@
 layout: page
 title: common/dart (français)
 description: "Ligne de commande pour gérer un projet Dart."
-content_hash: 03e4f6dffc560ae92969648b2cdf195b6fe2169f
-last_modified_at: 2023-11-12
+content_hash: 4b100ce3e81554c4567ba650e0ad0cd712acfff0
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/dart.html
@@ -39,7 +39,7 @@ Plus d'informations : <https://dart.dev/tools/dart-tool>.
 
 - Mettre à jour les dépendances d'un projet pour supporter null-safety :
 
-`dart pun upgrade --null-safety`
+`dart pub upgrade --null-safety`
 
 - Compiler un fichier Dart vers un binaire natif :
 

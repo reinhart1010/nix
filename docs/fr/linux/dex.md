@@ -2,8 +2,8 @@
 layout: page
 title: linux/dex (français)
 description: "DesktopEntry Execution est un programme servant à générer et à exécuter des fichiers DesktopEntry de type Application."
-content_hash: 2bc00cbd95ee105abf696d3def0a936bec10b534
-last_modified_at: 2023-11-12
+content_hash: 64501e05410d81e18b6a0fe6ee2048fe569c4989
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/linux/dex.html
@@ -33,7 +33,7 @@ Plus d'informations : <https://github.com/jceb/dex>.
 
 - Prévisualise la valeur de la propriété `Name` de DesktopEntry :
 
-`dex -- property `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.desktop</span>
+`dex --property `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/fichier.desktop</span>
 
 - Crée une DesktopEntry pour un programme dans le dossier courant :
 

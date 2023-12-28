@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco-install (Deutsch)
 description: "Installiere ein oder mehrere Pakete mit Chocolatey."
-content_hash: d6a7b375bc10b3b3010462686e3857289d5d8894
-last_modified_at: 2023-11-12
+content_hash: 0171efd057e8ceddd9bf44a3f0d0b2f57fdd5f55
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/windows/choco-install.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/windows/choco-install.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/choco-install.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/windows/choco-install.html
@@ -35,7 +38,7 @@ Weitere Informationen: <https://chocolatey.org/docs/commands-install>.
 
 - Installiere ein oder mehrere Pakete, deren Namen mit Leerzeichen getrennt sind:
 
-`choco install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket2</span>
+`choco install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket1 paket2 ...</span>
 
 - Installiere Pakete aus einer Konfigurationsdatei:
 

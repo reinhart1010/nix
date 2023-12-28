@@ -2,8 +2,8 @@
 layout: page
 title: linux/asciiart (Deutsch)
 description: "Konvertiere Bilder zu ASCII."
-content_hash: b24c4ee44a9741a969cac99091dd96485e98865b
-last_modified_at: 2023-11-12
+content_hash: 0d9335e6487703d90321a38f60c64bdf5ea4e40c
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/linux/asciiart.html
@@ -37,7 +37,7 @@ Weitere Informationen: <https://github.com/nodanaonlyzuul/asciiart>.
 
 - Wähle die Breite der Ausgabe (standardmäßig 100):
 
-`asciiart -width `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zum/bild.jpg</span>
+`asciiart --width `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zum/bild.jpg</span>
 
 - Zeige die Ausgabe in Farbe:
 

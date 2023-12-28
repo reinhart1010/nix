@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman (français)
 description: "Outil de gestion de paquets sur Arch Linux."
-content_hash: 1895531e2a3c9437b5211c185600bc3c38f3f1ad
-last_modified_at: 2023-11-12
+content_hash: 01e9fbca51ce454cbf8b4f92beafc580520d2d11
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -69,10 +69,6 @@ Plus d'informations : <https://man.archlinux.org/man/pacman.8>.
 - Liste seulement les paquets installés explicitement et leurs versions :
 
 `pacman -Qe`
-
-- Trouve à quel paquet un certain fichier appartient :
-
-`pacman -Qo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier</span>
 
 - Vide le cache des paquets pour libérer de l'espace :
 

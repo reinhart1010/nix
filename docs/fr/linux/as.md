@@ -2,8 +2,8 @@
 layout: page
 title: linux/as (français)
 description: "Assembleur GNU portable. Principalement destiné pour assembler la sortie de `gcc` pour être utilisé par `ld`."
-content_hash: 0d2f447cc2be9ef214ee5ed040e498c3bf4973fe
-last_modified_at: 2023-11-12
+content_hash: a4eff54a15d1f52fb3c6daacdc20c7681aaf87ed
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/linux/as.html
@@ -30,7 +30,7 @@ Plus d'informations : <https://manned.org/as>.
 
 - Assemble la sortie vers un fichier donné :
 
-`as `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier.s</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sortie.o</span>
+`as `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fichier.s</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sortie.o</span>
 
 - Génère la sortie plus vite en évitant le preprocess des espaces et des commentaires (doit seulement être utilisé sur des compilateurs sûrs) :
 

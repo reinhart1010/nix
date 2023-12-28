@@ -2,8 +2,8 @@
 layout: page
 title: common/zoxide (français)
 description: "Garde une trace des répertoires les plus utilisés."
-content_hash: 3ed3a099d01f6c27c509de7eaaf5ada454059c9e
-last_modified_at: 2023-11-12
+content_hash: ea4a843e5d215cffb29e0ec888ff316af1e719ec
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/zoxide.html
@@ -35,9 +35,9 @@ Plus d'informations : <https://github.com/ajeetdsouza/zoxide>.
 
 `zoxide add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/du/répertoire</span>
 
-- Supprime un répertoire de la base de données de `zoxide` :
+- Supprime un répertoire interactive de la base de données de `zoxide` :
 
-`zoxide remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/du/répertoire</span>
+`zoxide remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/du/répertoire</span>` --interactive`
 
 - Génère la configuration du shell pour la mise en place des alias de commandes (`z`, `za`, `zi`, `zq`, `zr`) :
 

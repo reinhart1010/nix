@@ -2,8 +2,8 @@
 layout: page
 title: common/chsh (français)
 description: "Change le shell de connexion de l'utilisateur."
-content_hash: 8b43d2ac4bd91120f525fe15b4a752edabe442cd
-last_modified_at: 2023-11-12
+content_hash: b519569518bebe8c62f731c166ad577b4b6903a0
+last_modified_at: 2023-12-28
 related_topics:
   - title: bosanski version
     url: /bs/common/chsh.html
@@ -59,4 +59,4 @@ Plus d'informations : <https://manned.org/chsh>.
 
 - Liste les shells disponibles :
 
-`chsh --list-shells`
+`chsh -l`

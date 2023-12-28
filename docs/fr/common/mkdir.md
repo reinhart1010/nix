@@ -2,8 +2,8 @@
 layout: page
 title: common/mkdir (français)
 description: "Crée un répertoire."
-content_hash: f57b2059b80f469952cae59769c20e13b4cc5af5
-last_modified_at: 2023-11-12
+content_hash: a67ce79007c8137ca52c7319e7a8939bc94c71df
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -41,10 +41,6 @@ tldri18n_status: 2
 
 Crée un répertoire.
 Plus d'informations : <https://www.gnu.org/software/coreutils/mkdir>.
-
-- Crée un répertoire dans le répertoire actuel ou dans un chemin donné :
-
-`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">répertoire</span>
 
 - Crée plusieurs répertoires dans le répertoire actuel :
 

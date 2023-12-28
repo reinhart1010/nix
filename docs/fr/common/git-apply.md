@@ -2,8 +2,8 @@
 layout: page
 title: common/git-apply (français)
 description: "Applique un correctif à un fichier et/ou à l index."
-content_hash: ad505e1b325acfa192dc2352244b77a20810b8c1
-last_modified_at: 2023-11-12
+content_hash: 4428eda64b5b673eb63e7484305a666d19fe64a8
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/git-apply.html
@@ -34,7 +34,7 @@ Plus d'informations : <https://git-scm.com/docs/git-apply>.
 
 - Applique un correctif depuis une source distante :
 
-`curl `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/file.patch</span>` | git apply`
+`curl -L `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/file.patch</span>` | git apply`
 
 - Affiche les différences résultantes et applique le correctif :
 
