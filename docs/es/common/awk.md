@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/awk (español)
-description: "Un lenguaje de programación versátil para trabajar con archivos."
-content_hash: a6305b547b0cbc2b02aea00b0c1a85e5739de185
-last_modified_at: 2023-11-12
+description: "Un versátil lenguaje de programación para trabajar con archivos."
+content_hash: 1beada4674e78d33cafe1604bc76315974a3cd68
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/awk.html
@@ -33,37 +33,37 @@ tldri18n_status: 2
 ---
 # awk
 
-Un lenguaje de programación versátil para trabajar con archivos.
+Un versátil lenguaje de programación para trabajar con archivos.
 Más información: <https://github.com/onetrueawk/awk>.
 
-- Imprime la quinta columna (también conocido como campo) en un archivo separado por espacios:
+- Imprime la quinta columna (también conocida como campo) de un archivo separado por espacios:
 
-`awk '{print $5}' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span>
+`awk '{print $5}' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 
-- Imprime la segunda columna de las líneas que contengan "algo" en un archivo separado por espacios:
+- Imprime la segunda columna de las líneas que contienen "foo" en un archivo separado por espacios:
 
-`awk '/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">algo</span>`/ {print $2}' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span>
+`awk '/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span>`/ {print $2}' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 
-- Imprime la última columna de cada línea de un archivo, usando la coma (en vez de espacio) como separador de campo:
+- Imprime la última columna de cada línea de un archivo, utilizando una coma (en lugar de un espacio) como separador de campos:
 
-`awk -F ',' '{print $NF}' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span>
+`awk -F ',' '{print $NF}' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 
-- Suma los valores en de la primera columna de un archivo e imprime el total:
+- Suma los valores de la primera columna de un fichero e imprime el total:
 
-`awk '{s+=$1} END {print s}' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span>
+`awk '{s+=$1} END {print s}' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 
-- Suma los valores en de la primera columna de un archivo e imprime el total de forma bonita:
+- Imprime una de cada tres líneas a partir de la primera:
 
-`awk '{s+=$1; print $1} END {print "--------"; print s}' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span>
+`awk 'NR%3==1' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 
-- Imprime cada tres líneas, empezando por la primera:
+- Imprime diferentes valores basados en condiciones:
 
-`awk 'NR%3==1' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span>
+`awk '{if ($1 == "foo") print "Coincidencia exacta foo"; else if ($1 ~ "bar") print "Coincidencia parcial bar"; else print "Baz"}' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 
-- Imprime todos los valores desde la tercera columna:
+- Imprime todas las líneas en las que el valor de la 10ª columna sea igual al valor especificado:
 
-`awk '{for (i=3; i <= NF; i++) printf $i""FS; print""}' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span>
+`awk '($10 == valor)'`
 
-- Imprime diferentes valores dependiendo de condiciones:
+- Imprime todas las líneas en las que el valor de la 10ª columna esté entre un mínimo y un máximo:
 
-`awk '{if ($1 == "foo") print "Coincidencia completa foo"; else if ($1 ~ "bar") print "Coincidencia parcial bar"; else print "Baz"}' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span>
+`awk '($10 >= valor_mín && $10 <= valor_máx)'`

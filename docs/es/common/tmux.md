@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/tmux (español)
-description: "Multiplexa varias consolas virtuales."
-content_hash: fb78d70478e219e66c59ce3e7a4a94fd5812c56c
-last_modified_at: 2023-11-12
+description: "Multiplexor de terminal."
+content_hash: ceb1de8529d24f1b0c33824f2c3d21da599a69db
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/tmux.html
@@ -24,37 +24,39 @@ tldri18n_status: 2
 ---
 # tmux
 
-Multiplexa varias consolas virtuales.
+Multiplexor de terminal.
+Permite múltiples sesiones con ventanas, paneles y más.
+Ver también: `zellij`, `screen`.
 Más información: <https://github.com/tmux/tmux>.
 
-- Inicia una nueva sesión de tmux:
+- Inicia una nueva sesión:
 
 `tmux`
 
-- Inicia una nueva sesión de tmux y le asigna un nombre:
+- Inicia una nueva sesión con nombre:
 
 `tmux new -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span>
 
-- Muestra las sesiones:
+- Lista las sesiones existentes:
 
 `tmux ls`
 
-- Adjunta a una sesión:
+- Adjunta a la última sesión utilizada:
 
-`tmux a`
+`tmux attach`
 
-- Adjunta a una sesión con un nombre específico:
+- Separa la sesión actual (dentro de una sesión tmux):
 
-`tmux a -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span>
+`Ctrl-B d`
 
-- Desconecta de la sesión:
+- Crea una nueva ventana (dentro de una sesión tmux):
 
-`Ctrl + B, D`
+`Ctrl-B c`
 
-- Elimina una sesión con un nombre específico:
+- Cambia entre sesiones y ventanas (dentro de una sesión tmux):
+
+`Ctrl-B w`
+
+- Da de baja una sesión por su nombre:
 
 `tmux kill-session -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span>
-
-- Elimina una sesión cuando se adjunta:
-
-`Ctrl + B, x (luego se pulsa 'y' para confirmar que sí)`

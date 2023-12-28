@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/tmux (English)
-description: "Terminal multiplexer. It allows multiple sessions with windows, panes, and more."
-content_hash: 4841d5bdc1083d39155f2e6468183096d199865c
-last_modified_at: 2023-11-12
+description: "Terminal multiplexer."
+content_hash: cd3cd832a0392b22f1b4efa0ab444c2735f0a413
+last_modified_at: 2023-12-28
 related_topics:
   - title: español version
     url: /es/common/tmux.html
@@ -24,8 +24,9 @@ tldri18n_status: 2
 ---
 # tmux
 
-Terminal multiplexer. It allows multiple sessions with windows, panes, and more.
-See also `zellij` and `screen`.
+Terminal multiplexer.
+It allows multiple sessions with windows, panes, and more.
+See also: `zellij`, `screen`.
 More information: <https://github.com/tmux/tmux>.
 
 - Start a new session:

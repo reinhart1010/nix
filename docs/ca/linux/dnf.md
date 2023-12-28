@@ -2,8 +2,8 @@
 layout: page
 title: linux/dnf (català)
 description: "Administrador de paquets per RHEL, CentOS i Fedora (Reemplaça a yum)."
-content_hash: a557e7689de0252b1450451603ae1de8adca7dc6
-last_modified_at: 2023-11-12
+content_hash: f586b6e6dd3eb44da3edeac68ae98ba7ba388fac
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/linux/dnf.html
@@ -45,7 +45,7 @@ Més informació: <https://dnf.readthedocs.io>.
 
 - Busca un paquet fent servir paraules clau:
 
-`dnf search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">palabra_clau</span>
+`dnf search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">palabra_clau1 palabra_clau2 ...</span>
 
 - Mostra informació sobre un paquet:
 
@@ -53,15 +53,11 @@ Més informació: <https://dnf.readthedocs.io>.
 
 - Instal·la un nou paquet:
 
-`sudo dnf install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet</span>
-
-- Instal·la un nou paquet responent si a totes les preguntes:
-
-`sudo dnf install -y `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet</span>
+`sudo dnf install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet1 paquet2 ...</span>
 
 - Desinstal·la un paquet:
 
-`sudo dnf remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet</span>
+`sudo dnf remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquet1 paquet2 ...</span>
 
 - Llista tots els paquets instal·lats:
 

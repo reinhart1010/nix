@@ -2,8 +2,8 @@
 layout: page
 title: common/cargo (español)
 description: "Gestiona proyectos Rust y sus dependencias de módulos (crates)."
-content_hash: f09b9022d3caf65d2bd691c3678dc8822560ec4c
-last_modified_at: 2023-11-12
+content_hash: 72cf27e9ea042a8995fe3ee0266ff1788c28d9ec
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/cargo.html
@@ -34,37 +34,37 @@ tldri18n_status: 2
 # cargo
 
 Gestiona proyectos Rust y sus dependencias de módulos (crates).
-Algunos subcomandos como `cargo build` tienen su propia documentación de uso.
+Algunos subcomandos como `build` tienen su propia documentación de uso.
 Más información: <https://doc.rust-lang.org/cargo>.
 
 - Busca crates:
 
-`cargo search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">texto_de_búsqueda</span>
+`cargo search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena_de_busqueda</span>
 
-- Instala un crate:
+- Instala un crate binario:
 
-`cargo install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_módulo</span>
+`cargo install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_crate</span>
 
-- Lista crates instalados:
+- Lista los crates binarios instalados:
 
 `cargo install --list`
 
-- Crea un nuevo proyecto Rust binario o biblioteca en el directorio actual:
+- Crea un nuevo proyecto Rust binario o de biblioteca en el directorio especificado (o en el directorio de trabajo actual por defecto):
 
-`cargo init --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bin|lib</span>
+`cargo init --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bin|lib</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span>
 
-- Crea un nuevo proyecto Rust binario o biblioteca en el directorio especificado:
+- Añade una dependencia a `Cargo.toml` en el directorio actual:
 
-`cargo new `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span>` --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bin|lib</span>
+`cargo add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dependencia</span>
 
-- Compila el proyecto Rust en el directorio actual:
+- Construye el proyecto Rust en el directorio actual utilizando el perfil de lanzamiento:
 
-`cargo build`
+`cargo build --release`
 
-- Compila el proyecto Rust en el directorio actual usando el compilador nightly:
+- Construye el proyecto Rust en el directorio actual utilizando el compilador nightly (requiere `rustup`):
 
 `cargo +nightly build`
 
-- Compila el proyecto Rust en el directorio actual usando un número específico de hilos (por defecto es el número de núcleos de la CPU):
+- Construye usando un número específico de hilos (por defecto es el número de CPUs lógicas):
 
 `cargo build --jobs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero_de_hilos</span>

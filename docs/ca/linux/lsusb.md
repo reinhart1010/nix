@@ -2,8 +2,8 @@
 layout: page
 title: linux/lsusb (català)
 description: "Mostra informació sobre ports i dispositius USB."
-content_hash: 4d072481a6f7e785d2513ef80098666faa795ee6
-last_modified_at: 2023-11-12
+content_hash: 3aa45d4bd03c39bd6a4ed4853a8d1b5295067dd9
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/linux/lsusb.html
@@ -35,10 +35,6 @@ Més informació: <https://manned.org/lsusb>.
 - Llista tots els disposititus USB de forma verbosa:
 
 `lsusb --verbose`
-
-- Llista informació detallada sobre un dispositiu USB determinat:
-
-`lsusb -D `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dispositiu</span>
 
 - Llista només dispositius amb un ID d'assemblador i producte determinat:
 

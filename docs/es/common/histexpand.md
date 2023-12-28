@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/histexpand (español)
-description: "Reutiliza y expande el historial de la shell en `sh`, `bash`, `zsh`, `rbash` y `ksh`."
-content_hash: fe6a8c5c34f028bdfec55924c0898d0f7c2e75d9
-last_modified_at: 2023-11-12
+description: "Reutiliza y expande el historial del shell en `sh`, `bash`, `zsh`, `rbash` y `ksh`."
+content_hash: bdcb15062b7cafd9fe2d67624119c638aa72d036
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/histexpand.html
@@ -18,18 +18,14 @@ tldri18n_status: 2
 ---
 # history expansion
 
-Reutiliza y expande el historial de la shell en `sh`, `bash`, `zsh`, `rbash` y `ksh`.
+Reutiliza y expande el historial del shell en `sh`, `bash`, `zsh`, `rbash` y `ksh`.
 Más información: <https://www.gnu.org/software/bash/manual/html_node/History-Interaction>.
 
-- Ejecuta el último comando:
-
-`!!`
-
-- Ejecuta el último comando como administrador:
+- Ejecuta el comando anterior como root (`!!` se sustituye por el comando anterior):
 
 `sudo !!`
 
-- Ejecuta un comando con el último argumento del último comando:
+- Ejecuta un comando con el último argumento del comando anterior:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>` !$`
 
@@ -37,18 +33,22 @@ Más información: <https://www.gnu.org/software/bash/manual/html_node/History-I
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>` !^`
 
+- Ejecuta el `n` comando del historial:
+
+`!`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span>
+
 - Ejecuta el comando `n` líneas atrás en el historial:
 
 `!-`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span>
 
-- Ejecuta el último comando con el prefijo `cadena`:
+- Ejecuta el comando más reciente que contenga `cadena`:
 
-`!`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena</span>
+`!?`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena</span>`?`
 
-- Ejecuta el último comando, reemplazando `cadena1` por `cadena2`:
+- Ejecuta el comando anterior, sustituyendo "cadena1" por "cadena2":
 
 `^`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena1</span>`^`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena2</span>`^`
 
-- Realiza una expansión del historial, pero muestra el comando que se ejecutaría en lugar de ejecutarlo realmente:
+- Realiza una expansión del historial, pero imprimiendo el comando que se ejecutaría en lugar de ejecutarlo realmente:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">!-n</span>`:p`

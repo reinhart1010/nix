@@ -2,8 +2,8 @@
 layout: page
 title: linux/rig (català)
 description: "Utilitat per generar un nom, cognom, carrer i número, en conjunt d'una ubicació geogràfica consistent (un conjunt vàlid de ciutat, estat i codi postal)."
-content_hash: e8f5e7ed10b0cc693942ede57d8809340ef98e3c
-last_modified_at: 2023-11-12
+content_hash: d4ff7e9e2ad8069b459f0b8083a29d9175c57dd0
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/linux/rig.html
@@ -34,6 +34,6 @@ Més informació: <https://manned.org/rig>.
 
 `rig -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero</span>
 
-- Especifica el número d'identitats amb el gènere escollit a generar:
+- Especifica el número d'identitats femininas a generar:
 
-`rig -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">m|f</span>` -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero</span>
+`rig -f -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero</span>
