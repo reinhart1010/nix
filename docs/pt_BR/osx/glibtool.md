@@ -2,8 +2,8 @@
 layout: page
 title: osx/glibtool (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux libtool`."
-content_hash: 8b1a9c5db007a9e9c561d17b85797c1df702f89f
-last_modified_at: 2023-11-12
+content_hash: f0fe712f6dad8d488cebd4c00b60eea405a396d6
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/glibtool.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux libtool`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux libtool`

@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-system (português (Brasil))
 description: "Gerenciar dados do Docker e exibir informações do sistema em todo o sistema."
-content_hash: 4c0524b57c83752fa142274da8937368d846016b
-last_modified_at: 2023-11-12
+content_hash: b478bdd55e5021a63803702a006657103156d8a5
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-system.html
@@ -27,34 +27,34 @@ tldri18n_status: 2
 Gerenciar dados do Docker e exibir informações do sistema em todo o sistema.
 Mais informações: <https://docs.docker.com/engine/reference/commandline/system/>.
 
-- Mostrar ajuda:
+- Mostra ajuda:
 
 `docker system`
 
-- Mostrar o uso de disco do Docker:
+- Mostra o uso de disco do Docker:
 
 `docker system df`
 
-- Mostrar informações detalhadas sobre o uso de disco:
+- Mostra informações detalhadas sobre o uso de disco:
 
 `docker system df --verbose`
 
-- Remover dados não utilizados:
+- Remove dados não utilizados:
 
 `docker system prune`
 
-- Remover dados não utilizados criados há mais de um período específico no passado:
+- Remove dados não utilizados criados há mais de um período específico no passado:
 
 `docker system prune --filter="until=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">horas</span>`h`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">minutos</span>`m"`
 
-- Exibir eventos em tempo real do daemon do Docker:
+- Exibe eventos em tempo real do daemon do Docker:
 
 `docker system events`
 
-- Exibir eventos em tempo real de contêineres transmitidos como JSON Lines válidos:
+- Exibe eventos em tempo real de contêineres transmitidos como JSON Lines válidos:
 
 `docker system events --filter 'type=container' --format '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json .</span>`'`
 
-- Exibir informações em todo o sistema:
+- Exibe informações em todo o sistema:
 
 `docker system info`

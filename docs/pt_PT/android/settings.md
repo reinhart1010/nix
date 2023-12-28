@@ -2,8 +2,8 @@
 layout: page
 title: android/settings (português (Portugal))
 description: "Exibe, edita e apaga configurações do sistema Android."
-content_hash: 16f4008c500a1bfb3658747d31acacc992f8f923
-last_modified_at: 2023-11-12
+content_hash: bbb2f10dc6c58514a654255149855bcca15c1965
+last_modified_at: 2023-12-28
 related_topics:
   - title: বাংলা version
     url: /bn/android/settings.html
@@ -31,6 +31,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/settings.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/settings.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/settings.html
@@ -66,18 +69,18 @@ tldri18n_status: 2
 Exibe, edita e apaga configurações do sistema Android.
 Mais informações: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
 
-- Exibir a lista de configurações no namespace `global`:
+- Exibe a lista de configurações no namespace `global`:
 
 `settings list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">global</span>
 
-- Obter o valor de uma configuração específica:
+- Obtém o valor de uma configuração específica:
 
 `settings get `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">global</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">airplane_mode_on</span>
 
-- Editar o valor de uma configuração:
+- Edita o valor de uma configuração:
 
 `settings put `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">system</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">screen_brightness</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">42</span>
 
-- Apagar uma configuração:
+- Apaga uma configuração:
 
 `settings delete `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">secure</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">screensaver_enabled</span>

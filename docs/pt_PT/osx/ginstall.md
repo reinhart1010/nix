@@ -2,8 +2,8 @@
 layout: page
 title: osx/ginstall (português (Portugal))
 description: "Este comando é um alias de `-p linux install`."
-content_hash: 6c52468c74ac14268adb289ef8c17ca29323e4fb
-last_modified_at: 2023-11-12
+content_hash: d7c681408b843a19c7d715cf7371e89fbcd04d56
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/ginstall.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux install`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux install`

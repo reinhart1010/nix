@@ -2,8 +2,8 @@
 layout: page
 title: osx/gshuf (português (Portugal))
 description: "Este comando é um alias de `-p linux shuf`."
-content_hash: ed0f2f96bd64b26ec68e36c287f30e04cb6c3765
-last_modified_at: 2023-11-12
+content_hash: 4b61b2f857f1f2f8f8206404f45e6e7fd8c90f13
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gshuf.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux shuf`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux shuf`

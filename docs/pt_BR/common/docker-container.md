@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-container (português (Brasil))
 description: "Gerenciar contêineres Docker."
-content_hash: 2e3e7919eb090ef70c4749987fd7153e4af21a5d
-last_modified_at: 2023-11-12
+content_hash: 73990d499a92de41e24c569379ce54234ce56986
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-container.html
@@ -27,34 +27,34 @@ tldri18n_status: 2
 Gerenciar contêineres Docker.
 Mais informações: <https://docs.docker.com/engine/reference/commandline/container/>.
 
-- Listar os contêineres Docker em execução:
+- Lista os contêineres Docker em execução:
 
 `docker container ls`
 
-- Iniciar um ou mais contêineres parados:
+- Inicia um ou mais contêineres parados:
 
 `docker container start `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_contêiner1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_contêiner2</span>
 
-- Encerrar um ou mais contêineres em execução:
+- Encerra um ou mais contêineres em execução:
 
 `docker container kill `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_contêiner</span>
 
-- Parar um ou mais contêineres em execução:
+- Para um ou mais contêineres em execução:
 
 `docker container stop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_contêiner</span>
 
-- Pausar todos os processos em um ou mais contêineres:
+- Pausa todos os processos em um ou mais contêineres:
 
 `docker container pause `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_contêiner</span>
 
-- Exibir informações detalhadas sobre um ou mais contêineres:
+- Exibe informações detalhadas sobre um ou mais contêineres:
 
 `docker container inspect `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_contêiner</span>
 
-- Exportar o sistema de arquivos de um contêiner como um arquivo tar:
+- Exporta o sistema de arquivos de um contêiner como um arquivo tar:
 
 `docker container export `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_contêiner</span>
 
-- Criar uma nova imagem a partir das alterações em um contêiner:
+- Cria uma nova imagem a partir das alterações em um contêiner:
 
 `docker container commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_contêiner</span>

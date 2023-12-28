@@ -2,8 +2,8 @@
 layout: page
 title: osx/gdf (português (Portugal))
 description: "Este comando é um alias de `-p linux df`."
-content_hash: a29e17def7eb96362e5b6e3c9d34758f39805c8a
-last_modified_at: 2023-11-12
+content_hash: df01f89e25ce5d694f2e13a65436360bbb280f23
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gdf.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux df`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux df`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gxargs (português (Portugal))
 description: "Este comando é um alias de `-p linux xargs`."
-content_hash: c5003aebf9ab931709d5c7825f6989c839596b9a
-last_modified_at: 2023-11-12
+content_hash: 1e6447f4ed4107f9a67d728d081c76e4009c52f0
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gxargs.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux xargs`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux xargs`

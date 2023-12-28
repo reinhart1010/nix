@@ -2,8 +2,8 @@
 layout: page
 title: linux/ubuntu-bug (português (Portugal))
 description: "Este comando é um alias de `apport-bug`."
-content_hash: a11487720eb9e11a5d3c35e948f8ec646cfa0b16
-last_modified_at: 2023-11-12
+content_hash: 90e1e2ac17f0b940ff66e4754ce28b594fe103cc
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/linux/ubuntu-bug.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando é um alias de `apport-bug`.
 Mais informações: <https://manned.org/ubuntu-bug>.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr apport-bug`

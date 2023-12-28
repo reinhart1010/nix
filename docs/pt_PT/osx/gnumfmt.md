@@ -2,8 +2,8 @@
 layout: page
 title: osx/gnumfmt (português (Portugal))
 description: "Este comando é um alias de `-p linux numfmt`."
-content_hash: 60f5b1da26c31741bd7ac702e7d18149ba311a4c
-last_modified_at: 2023-11-12
+content_hash: 0084c3ba15604f7462ba57cc19f6bd929c99d6b7
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gnumfmt.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux numfmt`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux numfmt`

@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (português (Brasil))
 description: "Gerenciador de containers e imagens Docker."
-content_hash: 8721fbfdfc556059f0dbef60b26539724125debc
-last_modified_at: 2023-11-12
+content_hash: 396614570e5511e8c01d24e72c1b3bb03992a4ec
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -29,6 +29,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/docker.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/docker.html
+    icon: bi bi-globe
   - title: Türkçe version
     url: /tr/common/docker.html
     icon: bi bi-globe
@@ -46,34 +49,34 @@ Gerenciador de containers e imagens Docker.
 Alguns subcomandos como `docker run` tem sua própia documentação de uso.
 Mais informações: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- Listar os containers Docker que se encontram em execução:
+- Lista os containers Docker que se encontram em execução:
 
 `docker ps`
 
-- Listar todos os containers Docker:
+- Lista todos os containers Docker:
 
 `docker ps -a`
 
-- Inicializar um container com um nome personalizado a partir de uma imagem:
+- Inicializa um container com um nome personalizado a partir de uma imagem:
 
 `docker run --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_container</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem</span>
 
-- Começar ou parar um container existente:
+- Começa ou para um container existente:
 
 `docker `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_container</span>
 
-- Extrair uma imagem a partir de um Docker Registry:
+- Extrai uma imagem a partir de um Docker Registry:
 
 `docker pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem</span>
 
-- Abrir um terminal dentro de um container em execução:
+- Abre um terminal dentro de um container em execução:
 
 `docker exec -it `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_container</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sh</span>
 
-- Remover um container parado:
+- Remove um container parado:
 
 `docker rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_container</span>
 
-- Obter e acompanhar o histórico de um container:
+- Obtém e acompanha o histórico de um container:
 
 `docker logs -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_container</span>

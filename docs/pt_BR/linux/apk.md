@@ -2,8 +2,8 @@
 layout: page
 title: linux/apk (português (Brasil))
 description: "Gerenciador de pacotes da distribuição Alpine."
-content_hash: 5a0f1880dba72d79ce71178665073e29c2cfa720
-last_modified_at: 2023-11-12
+content_hash: a504a0c29f315c7d7c73fe7f4ad0ceb6cdc8406b
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/linux/apk.html
@@ -39,26 +39,26 @@ tldri18n_status: 2
 Gerenciador de pacotes da distribuição Alpine.
 Mais informações: <https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management>.
 
-- Atualizar os índices dos pacotes disponíveis:
+- Atualiza os índices dos pacotes disponíveis:
 
 `apk update`
 
-- Instalar um pacote:
+- Instala um pacote:
 
 `apk add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>
 
-- Remover um pacote:
+- Remove um pacote:
 
 `apk del `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>
 
-- Reparar ou atualizar um pacote sem modificar as principais dependências:
+- Repara ou atualiza um pacote sem modificar as principais dependências:
 
 `apk fix `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>
 
-- Procurar um pacote especificando alguma palavra-chave:
+- Procura um pacote especificando alguma palavra-chave:
 
 `apk search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">palavra_chave</span>
 
-- Exibir informações sobre um pacote:
+- Exibe informações sobre um pacote:
 
 `apk info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>

@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (português (Portugal))
 description: "Exibe um conjunto de mensagens de sistema, incluindo a stack de execução do programa em caso de erro, e mensagens de informação criadas por aplicações."
-content_hash: 9252938ab3d77be1410d2fba474277aaf08c8244
-last_modified_at: 2023-12-25
+content_hash: ab1c00b1e7cd4b7b126238933d626b1457f75a1d
+last_modified_at: 2023-12-28
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -72,14 +72,14 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Exibe um conjunto de mensagens de sistema, incluindo a stack de execução do programa em caso de erro, e mensagens de informação criadas por aplicações.
 Mais informações: <https://developer.android.com/studio/command-line/logcat>.
 
-- Mostrar mensagens de sistema:
+- Mostra mensagens de sistema:
 
 `logcat`
 
-- Escrever as mensagens de sistema num ficheiro:
+- Escreve as mensagens de sistema num ficheiro:
 
 `logcat -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/ficheiro</span>
 
-- Mostrar mensagens que correspondem a uma expressão regular:
+- Mostra mensagens que correspondem a uma expressão regular:
 
 `logcat --regex `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expressao_regular</span>

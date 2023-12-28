@@ -2,8 +2,8 @@
 layout: page
 title: osx/gchcon (português (Portugal))
 description: "Este comando é um alias de `-p linux chcon`."
-content_hash: 3c64e89df976d97a76586ef678f46ab4d430bdca
-last_modified_at: 2023-11-12
+content_hash: dac7220cf3b67b2c531d6f85f1ee254be2e94527
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gchcon.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux chcon`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux chcon`

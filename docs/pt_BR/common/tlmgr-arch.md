@@ -2,8 +2,8 @@
 layout: page
 title: common/tlmgr-arch (português (Brasil))
 description: "Este comando é um pseudônimo de `tlmgr platform`."
-content_hash: f0d82652a6f5b3ab053090883a8ee30a5a24653d
-last_modified_at: 2023-11-12
+content_hash: 75b0ee73b4f126f5980345efa14fa8e5787f192d
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/tlmgr-arch.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando é um pseudônimo de `tlmgr platform`.
 Mais informações: <https://www.tug.org/texlive/tlmgr.html>.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr tlmgr platform`

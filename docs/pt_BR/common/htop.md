@@ -2,8 +2,8 @@
 layout: page
 title: common/htop (português (Brasil))
 description: "Exibe informação dinâmica em tempo real acerca de processos em execução. Uma versão melhorada do comando `top`."
-content_hash: 8ac15c194312534da3500761cf30a4af05c8f8aa
-last_modified_at: 2023-11-12
+content_hash: 18042afe0af3b44224cbad4b16c7c5c72022ec31
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/htop.html
@@ -23,12 +23,9 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/htop.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># htop
+# htop
 
 Exibe informação dinâmica em tempo real acerca de processos em execução. Uma versão melhorada do comando `top`.
 Mais informações: <https://htop.dev/>.
@@ -44,6 +41,10 @@ Mais informações: <https://htop.dev/>.
 - Ordena processos por um `item_de_ordenação` (utilize `htop --sort help` para ver as opções disponíveis):
 
 `htop --sort `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">item_de_ordenação</span>
+
+- Inicializa `htop` com um atraso especificado entre atualizações, em décimos de segundo (p. ex. 50 = 5 segundos):
+
+`htop --delay `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span>
 
 - Vê comandos interativos enquanto roda `htop`:
 

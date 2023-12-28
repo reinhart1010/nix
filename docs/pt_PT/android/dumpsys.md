@@ -2,8 +2,8 @@
 layout: page
 title: android/dumpsys (português (Portugal))
 description: "Fornece informações sobre os serviços do sistema Android."
-content_hash: 98f3a027820aeb49f7f50033879ad199de669135
-last_modified_at: 2023-11-12
+content_hash: f181aba2e96217c69aa8fa13dfac71d5410bc37a
+last_modified_at: 2023-12-28
 related_topics:
   - title: বাংলা version
     url: /bn/android/dumpsys.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/dumpsys.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/dumpsys.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/dumpsys.html
@@ -67,26 +70,26 @@ Fornece informações sobre os serviços do sistema Android.
 Este comando só pode ser usado com a `adb shell`.
 Mais informações: <https://developer.android.com/studio/command-line/dumpsys>.
 
-- Gerar um diagnóstico de todos os serviços do sistema:
+- Gera um diagnóstico de todos os serviços do sistema:
 
 `dumpsys`
 
-- Gerar um diagnóstico de um serviço do sistema específico:
+- Gera um diagnóstico de um serviço do sistema específico:
 
 `dumpsys `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servico</span>
 
-- Listar todos os serviços dos quais o `dumpsys` pode obter informações:
+- Lista todos os serviços dos quais o `dumpsys` pode obter informações:
 
 `dumpsys -l`
 
-- Listar argumentos específicos de um serviço para um serviço:
+- Lista argumentos específicos de um serviço para um serviço:
 
 `dumpsys `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servico</span>` -h`
 
-- Omitir um serviço em específico do diagnóstico:
+- Omite um serviço em específico do diagnóstico:
 
 `dumpsys --skip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servico</span>
 
-- Especificar um periodo de _timeout_ (por padrão é 10s):
+- Especifica um periodo de _timeout_ (por padrão é 10s):
 
 `dumpsys -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">segundos</span>

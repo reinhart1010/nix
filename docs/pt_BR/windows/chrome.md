@@ -2,8 +2,8 @@
 layout: page
 title: windows/chrome (português (Brasil))
 description: "Este comando é um pseudônimo de `chromium`."
-content_hash: 30bbfe11e3e5d4d43baaf9235df438c778acc542
-last_modified_at: 2023-11-12
+content_hash: 9589ec782764e5baf4df6fcc0b6c3eef5feb3664
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/windows/chrome.html
@@ -99,6 +99,6 @@ tldri18n_status: 2
 Este comando é um pseudônimo de `chromium`.
 Mais informações: <https://chrome.google.com>.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr chromium`

@@ -2,8 +2,8 @@
 layout: page
 title: common/mv (português (Brasil))
 description: "Movimentação de arquivos entre diretórios, ou renomeá-los."
-content_hash: 40f6b9b54ba476f7ba0f76fb372d9d50036018ac
-last_modified_at: 2023-11-12
+content_hash: 594177a2b2a111a6dc8a5d701c4a32742169b588
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/mv.html
@@ -29,6 +29,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/mv.html
     icon: bi bi-globe
+  - title: 中文 (繁體, 台灣) version
+    url: /zh_TW/common/mv.html
+    icon: bi bi-globe
 tldri18n_status: 1
 ---
 
@@ -47,7 +50,7 @@ Mais informações: <https://www.gnu.org/software/coreutils/mv>.
 
 `mv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/arquivo_1 percorso/del/arquivo_2 ...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/destino</span>
 
-- Não requisitar confirmação para sobrescrição de arquivos:
+- Não requisita confirmação para sobrescrição de arquivos:
 
 `mv -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/arquivo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/destino</span>
 

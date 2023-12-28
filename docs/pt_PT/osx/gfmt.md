@@ -2,8 +2,8 @@
 layout: page
 title: osx/gfmt (português (Portugal))
 description: "Este comando é um alias de `-p linux fmt`."
-content_hash: 09340685a7c5a4731ea1e9a70e969380dc64998e
-last_modified_at: 2023-11-12
+content_hash: a55f1feb3277c2b9db03ae2f36cae17e6e12c160
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gfmt.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux fmt`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux fmt`

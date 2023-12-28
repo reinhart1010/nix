@@ -2,8 +2,8 @@
 layout: page
 title: android/pm (português (Portugal))
 description: "Mostra informações sobre aplicações num dispositivo Android."
-content_hash: 4e5f9fc490f546349b890bdf31abdd1e8344416c
-last_modified_at: 2023-11-12
+content_hash: cc1549b27e75a1e9b922ca1fd5cb8cdcdc23aafe
+last_modified_at: 2023-12-28
 related_topics:
   - title: বাংলা version
     url: /bn/android/pm.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/pm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/pm.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/pm.html
@@ -63,22 +66,22 @@ tldri18n_status: 2
 Mostra informações sobre aplicações num dispositivo Android.
 Mais informações: <https://developer.android.com/studio/command-line/adb#pm>.
 
-- Exibir uma lista com todas as aplicações instaladas:
+- Exibe uma lista com todas as aplicações instaladas:
 
 `pm list packages`
 
-- Exibir uma lista com todas as aplicações do sistema instaladas:
+- Exibe uma lista com todas as aplicações do sistema instaladas:
 
 `pm list packages -s`
 
-- Exibir uma lista todas as aplicações de terceiros instaladas:
+- Exibe uma lista todas as aplicações de terceiros instaladas:
 
 `pm list packages -3`
 
-- Exibir uma lista com todas as aplicações cujos nomes estejam incluídos em palavras-chave:
+- Exibe uma lista com todas as aplicações cujos nomes estejam incluídos em palavras-chave:
 
 `pm list packages `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">palavras_chave</span>
 
-- Exibir o caminho para o APK de um app:
+- Exibe o caminho para o APK de um app:
 
 `pm path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app</span>

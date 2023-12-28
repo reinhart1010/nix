@@ -2,8 +2,8 @@
 layout: page
 title: common/aws-glue (português (Brasil))
 description: "Linha de comando CLI para o AWS Glue."
-content_hash: a0c6a0cfe62fa5ae459b72d07263ba4d1f76e47b
-last_modified_at: 2023-11-12
+content_hash: 7f00126eba0af06feac735e53180e02a7b849eaa
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/aws-glue.html
@@ -38,7 +38,7 @@ Mais informações: <https://docs.aws.amazon.com/cli/latest/reference/glue/>.
 
 `aws glue list-triggers`
 
-- Iniciar um gatilho:
+- Inicia um gatilho:
 
 `aws glue start-trigger --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_gatilho</span>
 

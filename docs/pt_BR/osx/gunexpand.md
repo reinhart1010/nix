@@ -2,8 +2,8 @@
 layout: page
 title: osx/gunexpand (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux unexpand`."
-content_hash: ebd8c53e09fb3924f7eaf13431dc4c7c239cf3c6
-last_modified_at: 2023-11-12
+content_hash: cb70763dd10da616090c9e171710597d64877bf0
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gunexpand.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux unexpand`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux unexpand`

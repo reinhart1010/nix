@@ -2,8 +2,8 @@
 layout: page
 title: osx/gcksum (português (Portugal))
 description: "Este comando é um alias de `-p linux cksum`."
-content_hash: 43165871c728882887b4ca0d4e6a2673607ab1a2
-last_modified_at: 2023-11-12
+content_hash: 7791f16d4ba997eebf65fcec1537a22f0808088e
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gcksum.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux cksum`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux cksum`

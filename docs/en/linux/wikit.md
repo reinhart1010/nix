@@ -3,19 +3,10 @@ layout: page
 title: linux/wikit (English)
 description: "A command line program for getting Wikipedia summaries easily."
 content_hash: 7f97c5da3f44d44f5af100b7f73f14628b253c65
-last_modified_at: 2023-12-27
-tldri18n_status: 0
+last_modified_at: 2023-12-28
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/wikit.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># wikit
+# wikit
 
 A command line program for getting Wikipedia summaries easily.
 More information: <https://github.com/KorySchneider/wikit>.

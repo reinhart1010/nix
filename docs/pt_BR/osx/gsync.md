@@ -2,8 +2,8 @@
 layout: page
 title: osx/gsync (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux sync`."
-content_hash: 97b8be8235398240179113fdf57b35a0b93f8926
-last_modified_at: 2023-11-12
+content_hash: 624394d04d0b96b92ff7f6b3677394f74a715171
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gsync.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux sync`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux sync`

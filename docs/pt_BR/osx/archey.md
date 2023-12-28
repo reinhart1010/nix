@@ -2,8 +2,8 @@
 layout: page
 title: osx/archey (português (Brasil))
 description: "Ferramenta simples para exibir as informações do sistema com estilo."
-content_hash: 784f3d8eacc44719959067c69e0c41031d8ba32c
-last_modified_at: 2023-11-12
+content_hash: 5509d46ef7bd4ee8d5e956aa13c8a5b9d95c8ed6
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/osx/archey.html
@@ -24,18 +24,18 @@ tldri18n_status: 2
 Ferramenta simples para exibir as informações do sistema com estilo.
 Mais informações: <https://github.com/joshfinnie/archey-osx>.
 
-- Mostrar informações do sistema:
+- Mostra informações do sistema:
 
 `archey`
 
-- Mostrar informações do sistema sem saída colorida:
+- Mostra informações do sistema sem saída colorida:
 
 `archey --nocolor`
 
-- Mostrar informações do sistema, usando MacPorts em vez de Homebrew:
+- Mostra informações do sistema, usando MacPorts em vez de Homebrew:
 
 `archey --macports`
 
-- Mostrar informações do sistema sem verificação de endereço IP:
+- Mostra informações do sistema sem verificação de endereço IP:
 
 `archey --offline`

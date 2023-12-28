@@ -2,8 +2,8 @@
 layout: page
 title: osx/gstdbuf (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux stdbuf`."
-content_hash: 48359279a8b1700fee825c4ea93dd7a2f36e1989
-last_modified_at: 2023-11-12
+content_hash: 9e3a10c10a324061147616d3cd809b2751d88320
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gstdbuf.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux stdbuf`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux stdbuf`

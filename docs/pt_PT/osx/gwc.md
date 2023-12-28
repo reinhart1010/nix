@@ -2,8 +2,8 @@
 layout: page
 title: osx/gwc (português (Portugal))
 description: "Este comando é um alias de `-p linux wc`."
-content_hash: f6b0fe4a033c0fc8e05ef4b10a653e40e9cc56c4
-last_modified_at: 2023-11-12
+content_hash: 1f780eb37e5908d834a1765189fa2589e94bc903
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gwc.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux wc`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux wc`

@@ -2,8 +2,8 @@
 layout: page
 title: common/fc-list (português (Brasil))
 description: "Exibe todas as fontes disponíveis no sistema."
-content_hash: 3f8345e8653b5b206f56ba4d795c667cf1118db2
-last_modified_at: 2023-11-12
+content_hash: 952060a99f4762c62e5793814004d64d23f606c2
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/fc-list.html
@@ -21,6 +21,6 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Exibe todas as fontes disponíveis no sistema.
 Mais informações: <https://manned.org/fc-list>.
 
-- Exibir as fontes instaladas correspondentes ao critério de busca:
+- Exibe as fontes instaladas correspondentes ao critério de busca:
 
 `fc-list | grep '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">criterio_de_busca</span>`'`

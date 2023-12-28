@@ -2,8 +2,8 @@
 layout: page
 title: common/vi (português (Brasil))
 description: "Este comando é um pseudônimo de `vim`."
-content_hash: 378cae50919919f77212bb48d0acd3dba56ebc31
-last_modified_at: 2023-11-12
+content_hash: 9bd175cdb8a6f1fdc6dd021cc5572434e33b21b6
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/vi.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `vim`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr vim`

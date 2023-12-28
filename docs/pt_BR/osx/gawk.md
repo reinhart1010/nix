@@ -2,8 +2,8 @@
 layout: page
 title: osx/gawk (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux awk`."
-content_hash: 803c28b12bce83737e2fe5458e078521a1c02aed
-last_modified_at: 2023-11-12
+content_hash: 29326420d2352ddede3177ed4e204c41ab795577
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gawk.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux awk`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux awk`

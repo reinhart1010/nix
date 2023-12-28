@@ -2,8 +2,8 @@
 layout: page
 title: windows/wget (português (Portugal))
 description: "Este comando é um alias de `wget -p common`."
-content_hash: eae0c85f536af45bc57416237e6f211bffa78df5
-last_modified_at: 2023-11-12
+content_hash: 80160f1cf3bc21537a326825ce3ea48f8b3a6e31
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/windows/wget.html
@@ -99,6 +99,6 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Este comando é um alias de `wget -p common`.
 Mais informações: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr wget -p common`

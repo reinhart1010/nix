@@ -2,8 +2,8 @@
 layout: page
 title: osx/gseq (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux seq`."
-content_hash: 95572f8a4dff351477d2d8491ab73886f7c9045a
-last_modified_at: 2023-11-12
+content_hash: 4237590c686594a7d4876b95c02d0a6dd0054b4c
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gseq.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux seq`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux seq`

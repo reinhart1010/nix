@@ -2,8 +2,8 @@
 layout: page
 title: osx/gsort (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux sort`."
-content_hash: fbd4719ecc9f0aaf1920a524a43410a45420dd7d
-last_modified_at: 2023-11-12
+content_hash: 70d129ecc24b7e8e0cdee3551e90b6039fc34011
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gsort.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux sort`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux sort`

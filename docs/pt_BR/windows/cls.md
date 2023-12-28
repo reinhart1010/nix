@@ -2,8 +2,8 @@
 layout: page
 title: windows/cls (português (Brasil))
 description: "Limpar a tela de saída."
-content_hash: 138e41ba2a27f083971364cf31afbb9617031820
-last_modified_at: 2023-11-12
+content_hash: 67828f5c2f0f9bd99849ec2f03d2c143d02c3f1e
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/windows/cls.html
@@ -51,6 +51,6 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Limpar a tela de saída.
 Mais informações: <https://learn.microsoft.com/windows-server/administration/windows-commands/cls>.
 
-- Limpar a tela:
+- Limpa a tela:
 
 `cls`

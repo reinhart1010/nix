@@ -2,8 +2,8 @@
 layout: page
 title: osx/gcut (português (Portugal))
 description: "Este comando é um alias de `-p linux cut`."
-content_hash: ceb410600852fc25a02ee6ca86d02eeab448e2b6
-last_modified_at: 2023-11-12
+content_hash: 931dc101710bf972e865cac837cde344163d77b0
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gcut.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux cut`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux cut`

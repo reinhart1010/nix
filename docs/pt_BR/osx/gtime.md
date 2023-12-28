@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtime (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux time`."
-content_hash: d049a8b443b983aee7ead95c1e808331faf2fbd8
-last_modified_at: 2023-11-12
+content_hash: d4f9a1a345656db59e65bff4612ffff0dfb94529
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gtime.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux time`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux time`

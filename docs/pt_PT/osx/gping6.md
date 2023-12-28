@@ -2,8 +2,8 @@
 layout: page
 title: osx/gping6 (português (Portugal))
 description: "Este comando é um alias de `-p linux ping6`."
-content_hash: 99515b911490a4d537cc9215a360e10f4632ce83
-last_modified_at: 2023-11-12
+content_hash: b2c1deca8c7acb036543c7a327e5e1cf72f4387d
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gping6.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux ping6`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux ping6`

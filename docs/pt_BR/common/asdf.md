@@ -2,8 +2,8 @@
 layout: page
 title: common/asdf (português (Brasil))
 description: "Utilitário para a gestão de versões de linguagens e programas."
-content_hash: 6006dae0f302ccdced6e5442cd7937772a578181
-last_modified_at: 2023-11-12
+content_hash: 41c25cd15114a8758312c3022e922b49209fbec2
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/asdf.html
@@ -33,26 +33,26 @@ tldri18n_status: 2
 Utilitário para a gestão de versões de linguagens e programas.
 Mais informações: <https://asdf-vm.com>.
 
-- Listar todos os plugins disponíveis:
+- Lista todos os plugins disponíveis:
 
 `asdf plugin-list-all`
 
-- Instalar um plugin:
+- Instala um plugin:
 
 `asdf plugin-add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>
 
-- Listar todas as versões disponíveis para um pacote:
+- Lista todas as versões disponíveis para um pacote:
 
 `asdf list-all `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>
 
-- Instalar uma versão específica de um pacote:
+- Instala uma versão específica de um pacote:
 
 `asdf install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versão</span>
 
-- Definir a versão global de um pacote:
+- Define a versão global de um pacote:
 
 `asdf global `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versão</span>
 
-- Definir a versão local de um pacote:
+- Define a versão local de um pacote:
 
 `asdf local `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versão</span>

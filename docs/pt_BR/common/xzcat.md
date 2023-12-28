@@ -2,8 +2,8 @@
 layout: page
 title: common/xzcat (português (Brasil))
 description: "Este comando é um pseudônimo de `xz`."
-content_hash: 133bf0c3b51e27bedb19f718c7e8553ab7f7384f
-last_modified_at: 2023-11-12
+content_hash: e46620e1b8662db46de73f42e89ede920eeef0a1
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/xzcat.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando é um pseudônimo de `xz`.
 Mais informações: <https://manned.org/xzcat>.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr xz`

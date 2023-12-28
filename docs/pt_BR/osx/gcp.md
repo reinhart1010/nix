@@ -2,8 +2,8 @@
 layout: page
 title: osx/gcp (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux cp`."
-content_hash: 9046cbd114b1e84eba4afda24c841220d562841b
-last_modified_at: 2023-11-12
+content_hash: 93ca2346ffa5cefe8491390ade5d97f52dcf0bc9
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gcp.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux cp`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux cp`

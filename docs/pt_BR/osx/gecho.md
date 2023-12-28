@@ -2,8 +2,8 @@
 layout: page
 title: osx/gecho (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux echo`."
-content_hash: ab793af82bf19b9e0d9126d773612397eaa86773
-last_modified_at: 2023-11-12
+content_hash: c25a92ea1780decd3a253e1bfb98f0b11426e6bb
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gecho.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux echo`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux echo`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gnice (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux nice`."
-content_hash: 5cb42d9af265ec6a54acf5d322dda3948bb02915
-last_modified_at: 2023-11-12
+content_hash: 8399d043b9da6574caf0c27522cfaa94f953e861
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gnice.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux nice`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux nice`

@@ -2,8 +2,8 @@
 layout: page
 title: common/bg (português (Brasil))
 description: "Retomar a execução, em segundo plano, de processos que foram suspensos (e.g. utilizando `Ctrl + Z`)."
-content_hash: c00c47744e568801eb495df2841899e3b787597d
-last_modified_at: 2023-11-12
+content_hash: c72b22316b3a5d103189d2f32c8d818b8aa3473a
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/bg.html
@@ -42,10 +42,10 @@ tldri18n_status: 2
 Retomar a execução, em segundo plano, de processos que foram suspensos (e.g. utilizando `Ctrl + Z`).
 Mais informações: <https://manned.org/bg>.
 
-- Retomar a execução, em segundo plano, do processo que foi suspenso mais recentemente:
+- Retoma a execução, em segundo plano, do processo que foi suspenso mais recentemente:
 
 `bg`
 
-- Retomar a execução, em segundo plano, de um processo especifico (utilizando `jobs -l` para obter o seu ID):
+- Retoma a execução, em segundo plano, de um processo especifico (utilizando `jobs -l` para obter o seu ID):
 
 `bg `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_processo</span>

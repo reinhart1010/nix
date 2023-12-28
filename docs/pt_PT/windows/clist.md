@@ -2,8 +2,8 @@
 layout: page
 title: windows/clist (português (Portugal))
 description: "Este comando é um alias de `choco list`."
-content_hash: 9eb4f24c8deda75040884e76e099efde227092a5
-last_modified_at: 2023-11-12
+content_hash: e35954fa8488f1a87137dc534361ac2a549e6021
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/windows/clist.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando é um alias de `choco list`.
 Mais informações: <https://docs.chocolatey.org/en-us/choco/commands/list>.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr choco list`

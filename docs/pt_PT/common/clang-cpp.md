@@ -2,8 +2,8 @@
 layout: page
 title: common/clang-cpp (português (Portugal))
 description: "Este comando é um alias de `clang++`."
-content_hash: 4ea6c4c2a5e0fd4ca195b72ab8ab9781f72256aa
-last_modified_at: 2023-11-12
+content_hash: e7ffbb7b6456c60424fca18023214b385086dc5a
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/clang-cpp.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `clang++`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr clang++`

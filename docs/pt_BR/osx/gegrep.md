@@ -2,8 +2,8 @@
 layout: page
 title: osx/gegrep (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux egrep`."
-content_hash: 35043f4e4316587e4fe1156a6987ba676ef3aa06
-last_modified_at: 2023-11-12
+content_hash: 33e9c53bf18f12981f43378550dad17254b2fc42
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gegrep.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux egrep`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux egrep`

@@ -2,8 +2,8 @@
 layout: page
 title: common/ssh-agent (português (Brasil))
 description: "Iniciar um processo do Agente SSH."
-content_hash: 17047fa647fd3227d15fd3c5d571dc8173a2a706
-last_modified_at: 2023-11-12
+content_hash: 0f95087af3eccbf51a3eebdabcad53c7589a9a14
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/ssh-agent.html
@@ -23,10 +23,10 @@ Um Agente SSH mantém as chaves SSH descriptografadas na memória até serem rem
 Veja também `ssh-add`, que pode adicionar e gerenciar chaves mantidas por um Agente SSH.
 Mais informações: <https://man.openbsd.org/ssh-agent>.
 
-- Iniciar um Agente SSH para o shell atual:
+- Inicia um Agente SSH para o shell atual:
 
 `eval $(ssh-agent)`
 
-- Encerrar o Agente em execução atualmente:
+- Encerra o Agente em execução atualmente:
 
 `ssh-agent -k`

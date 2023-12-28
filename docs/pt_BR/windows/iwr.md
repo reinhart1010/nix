@@ -2,8 +2,8 @@
 layout: page
 title: windows/iwr (português (Brasil))
 description: "Este comando é um pseudônimo de `invoke-webrequest`."
-content_hash: c8b0aa47d3265facb52a553263db6ea6ea4999e2
-last_modified_at: 2023-11-12
+content_hash: 8721fdeb2f245bf2207dfcc2f0afc70b091407b0
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/windows/iwr.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando é um pseudônimo de `invoke-webrequest`.
 Mais informações: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr invoke-webrequest`

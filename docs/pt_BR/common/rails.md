@@ -2,8 +2,8 @@
 layout: page
 title: common/rails (português (Brasil))
 description: "Framework MVC para o desenvolvimento de aplicações web, desenvolvido em Ruby."
-content_hash: 4305932b0090abf40798486610d6b9bfb42892b5
-last_modified_at: 2023-11-12
+content_hash: 3c94516c8d8e05bc6c5af838cf5b1f66d155dc45
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/rails.html
@@ -21,22 +21,22 @@ tldri18n_status: 2
 Framework MVC para o desenvolvimento de aplicações web, desenvolvido em Ruby.
 Mais informações: <https://guides.rubyonrails.org/command_line.html>.
 
-- Criar um novo projeto:
+- Cria um novo projeto:
 
 `rails new "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_projeto</span>`"`
 
-- Iniciar o servidor local para o projeto atual na porta 3000:
+- Inicia o servidor local para o projeto atual na porta 3000:
 
 `rails server`
 
-- Iniciar o servidor local para o projeto atual em um porta específica:
+- Inicia o servidor local para o projeto atual em um porta específica:
 
 `rails server -p "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta</span>`"`
 
-- Iniciar o console Rails para manipular o projeto atual utilizando o terminal:
+- Inicia o console Rails para manipular o projeto atual utilizando o terminal:
 
 `rails console`
 
-- Verificar a versão atual do Rails:
+- Verifica a versão atual do Rails:
 
 `rails --version`

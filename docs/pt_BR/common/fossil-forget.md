@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-forget (português (Brasil))
 description: "Este comando é um pseudônimo de `fossil rm`."
-content_hash: 5d53fb9f78a9be772ca2209699e1d76718ba79a4
-last_modified_at: 2023-11-12
+content_hash: a8653bf6f5b14fe4d86675ec021252551239a7a5
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-forget.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando é um pseudônimo de `fossil rm`.
 Mais informações: <https://fossil-scm.org/home/help/forget>.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr fossil rm`

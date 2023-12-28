@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtr (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux tr`."
-content_hash: 4deeb999debf69cd05d29a1a61fa0abf7b6a3fb4
-last_modified_at: 2023-11-12
+content_hash: d020b2eccf40a988f38dec4a70476f1523c6c3f4
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gtr.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux tr`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux tr`

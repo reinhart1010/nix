@@ -2,8 +2,8 @@
 layout: page
 title: osx/g[ (português (Portugal))
 description: "Este comando é um alias de `-p linux [`."
-content_hash: 70c7b66191483ce9196077f4514c4a00e868bc60
-last_modified_at: 2023-11-12
+content_hash: d2d214b8e32051f04b6459122643cccb4e95c5ad
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/g[.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux [`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux [`

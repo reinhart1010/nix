@@ -2,8 +2,8 @@
 layout: page
 title: osx/gprintenv (português (Portugal))
 description: "Este comando é um alias de `-p linux printenv`."
-content_hash: d8d9f59e791a28dd8cd0df517ddceb8693371c9f
-last_modified_at: 2023-11-12
+content_hash: 1db0fd97de08658ae1f465b19bfa82d8171e3b02
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gprintenv.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux printenv`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux printenv`

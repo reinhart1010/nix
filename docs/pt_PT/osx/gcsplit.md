@@ -2,8 +2,8 @@
 layout: page
 title: osx/gcsplit (português (Portugal))
 description: "Este comando é um alias de `-p linux csplit`."
-content_hash: 21d84aff52ff61bba2df3d0b689a8c19471fb50d
-last_modified_at: 2023-11-12
+content_hash: 8258c3fc947b7d57470fb0e6c3c9dcff7d064585
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gcsplit.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux csplit`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux csplit`

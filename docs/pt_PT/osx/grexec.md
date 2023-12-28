@@ -2,8 +2,8 @@
 layout: page
 title: osx/grexec (português (Portugal))
 description: "Este comando é um alias de `-p linux rexec`."
-content_hash: 6fd0bea0e37058fe31c36427eb7ee542e4ab25fc
-last_modified_at: 2023-11-12
+content_hash: 91af4544863e6748d06faa7957f00709df55a679
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/grexec.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux rexec`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux rexec`

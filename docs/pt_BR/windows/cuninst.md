@@ -2,8 +2,8 @@
 layout: page
 title: windows/cuninst (português (Brasil))
 description: "Este comando é um pseudônimo de `choco uninstall`."
-content_hash: 9608a46bef230c29dd3467fade37247c842a936c
-last_modified_at: 2023-11-12
+content_hash: 42ee55d1446e323df241e61bf1e8bd8d6ab29926
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/windows/cuninst.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando é um pseudônimo de `choco uninstall`.
 Mais informações: <https://docs.chocolatey.org/en-us/choco/commands/uninstall>.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr choco uninstall`

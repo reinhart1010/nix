@@ -2,8 +2,8 @@
 layout: page
 title: osx/ghead (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux head`."
-content_hash: b113e1cbce9d0c7f141853da67bd33915bfc2b66
-last_modified_at: 2023-11-12
+content_hash: d2a8b8a46ce80805447fc58e5d7224ae0bf2bb5c
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/ghead.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux head`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux head`

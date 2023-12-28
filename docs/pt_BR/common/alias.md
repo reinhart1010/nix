@@ -2,8 +2,8 @@
 layout: page
 title: common/alias (português (Brasil))
 description: "Cria apelidos -- palavras que são substituídas por um comando."
-content_hash: cd158c3f177dfdbc02e7c1a3a3190b861a679e62
-last_modified_at: 2023-11-12
+content_hash: 7a65759210872a24c2028ba516c01c72e82fe76a
+last_modified_at: 2023-12-28
 related_topics:
   - title: বাংলা version
     url: /bn/common/alias.html
@@ -67,26 +67,26 @@ Cria apelidos -- palavras que são substituídas por um comando.
 Apelidos expiram ao final da sessão atual do shell de comando, a menos que sejam definidos no arquivo de configuração do shell, por exemplo `~/.bashrc`.
 Mais informações: <https://tldp.org/LDP/abs/html/aliases.html>.
 
-- Criar um apelido:
+- Cria um apelido:
 
 `alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">apelido</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>`"`
 
-- Visualizar o comando associado a um determinado apelido:
+- Visualiza o comando associado a um determinado apelido:
 
 `alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">apelido</span>
 
-- Remover um apelido:
+- Remove um apelido:
 
 `unalias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">apelido</span>
 
-- Exibir todos os apelidos definidos:
+- Exibe todos os apelidos definidos:
 
 `alias -p`
 
-- Tornar o comando `rm` interativo:
+- Torna o comando `rm` interativo:
 
 `alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rm</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rm -i</span>`"`
 
-- Criar o apelido `la` como um atalho para `ls -a`:
+- Cria o apelido `la` como um atalho para `ls -a`:
 
 `alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">la</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls -a</span>`"`

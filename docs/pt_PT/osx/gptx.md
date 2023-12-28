@@ -2,8 +2,8 @@
 layout: page
 title: osx/gptx (português (Portugal))
 description: "Este comando é um alias de `-p linux ptx`."
-content_hash: c5d8e8e4f51c719469410eb8a71445e5d6a9528d
-last_modified_at: 2023-11-12
+content_hash: badfd4b958e158cc83c3f413f7adc5e87e4281b0
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gptx.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux ptx`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux ptx`

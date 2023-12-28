@@ -2,8 +2,8 @@
 layout: page
 title: osx/ggroups (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux groups`."
-content_hash: 0c00e214bdca7c87b84a25ca872bd3931a079036
-last_modified_at: 2023-11-12
+content_hash: 6bbc41f3f10418c351486808fa72a3a94ae1c1a6
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/ggroups.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux groups`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux groups`

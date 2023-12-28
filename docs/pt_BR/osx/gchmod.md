@@ -2,8 +2,8 @@
 layout: page
 title: osx/gchmod (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux chmod`."
-content_hash: cb1b4233025dadea3cd5793ee45a6c945fd34105
-last_modified_at: 2023-11-12
+content_hash: 9cd925de6befe5765ee74d2d3ce72ded65c52038
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gchmod.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux chmod`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux chmod`

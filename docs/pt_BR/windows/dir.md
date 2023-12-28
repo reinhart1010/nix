@@ -2,8 +2,8 @@
 layout: page
 title: windows/dir (português (Brasil))
 description: "Listar os conteúdos de um diretório."
-content_hash: 216564a64d32d43914957fae1edea60eefcafb76
-last_modified_at: 2023-11-12
+content_hash: 32862a5c02d3165ba568c3f6fc8240daf48b578d
+last_modified_at: 2023-12-28
 related_topics:
   - title: català version
     url: /ca/windows/dir.html
@@ -54,18 +54,18 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Listar os conteúdos de um diretório.
 Mais informações: <https://learn.microsoft.com/windows-server/administration/windows-commands/dir>.
 
-- Mostrar o conteúdo do diretório atual:
+- Mostra o conteúdo do diretório atual:
 
 `dir`
 
-- Mostrar o conteúdo do diretório no caminho provido pelo usuário:
+- Mostra o conteúdo do diretório no caminho provido pelo usuário:
 
 `dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span>
 
-- Mostrar o conteúdo do diretório atual, incluindo arquivos e pastas escondidas:
+- Mostra o conteúdo do diretório atual, incluindo arquivos e pastas escondidas:
 
 `dir /A`
 
-- Mostrar o conteúdo do diretório provido pelo usuário, incluindo arquivos e pastas escondidas:
+- Mostra o conteúdo do diretório provido pelo usuário, incluindo arquivos e pastas escondidas:
 
 `dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span>` /A`

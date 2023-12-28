@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtar (português (Portugal))
 description: "Este comando é um alias de `-p linux tar`."
-content_hash: a74db9216ff66aab98a1918bfffcb581e1b88205
-last_modified_at: 2023-11-12
+content_hash: 006b0929bad180bac27906f14f5b1a1f64480a53
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gtar.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux tar`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux tar`

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/transmission (português (Brasil))
-description: "Este comando é um pseudônimo de `transmission-daemon`."
-content_hash: 0711cc5daac9ba2082e834c656b755d5ea2e8c0c
-last_modified_at: 2023-11-12
+description: "Um cliente de torrent simples."
+content_hash: 7c06849e1bfd484c66ab623aca82d9ecf55ad9c8
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/transmission.html
@@ -89,16 +89,34 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/transmission.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
+# transmission
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># transmission
-
-Este comando é um pseudônimo de `transmission-daemon`.
+Um cliente de torrent simples.
+O Transmission não é um comando, mas um conjunto de comandos. Veja as páginas abaixo.
 Mais informações: <https://transmissionbt.com/>.
 
-- Ver documentação sobre o comando original:
+- Mostra a página tldr para executar o daemon do Transmission:
 
 `tldr transmission-daemon`
+
+- Mostra a página tldr para interagir com o daemon:
+
+`tldr transmission-remote`
+
+- Mostra a página tldr para criar arquivos torrent:
+
+`tldr transmission-create`
+
+- Mostra a página tldr para modificar arquivos torrent:
+
+`tldr transmission-edit`
+
+- Mostra a página tldr para obter informações sobre arquivos torrent:
+
+`tldr transmission-show`
+
+- Mostra a página tldr para o método descontinuado de interagir com o daemon:
+
+`tldr transmission-cli`

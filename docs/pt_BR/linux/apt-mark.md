@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-mark (português (Brasil))
 description: "Utilitário que altera as configurações dos pacotes instalados."
-content_hash: 4573e72af68b8b30de225d8bd4356743775f44a9
-last_modified_at: 2023-11-12
+content_hash: b341f356a153fece0c9a2493c9e190ce600ab333
+last_modified_at: 2023-12-28
 related_topics:
   - title: català version
     url: /ca/linux/apt-mark.html
@@ -36,22 +36,22 @@ tldri18n_status: 2
 Utilitário que altera as configurações dos pacotes instalados.
 Mais informações: <https://manpages.debian.org/latest/apt/apt-mark.8.html>.
 
-- Marcar um pacote como instalado automaticamente:
+- Marca um pacote como instalado automaticamente:
 
 `sudo apt-mark auto `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span>
 
-- Bloquear um pacote na sua versão atual, impedindo que ele seja atualizado:
+- Bloqueia um pacote na sua versão atual, impedindo que ele seja atualizado:
 
 `sudo apt-mark hold `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span>
 
-- Desbloquear um pacote, permitindo que ele seja atualizado:
+- Desbloqueia um pacote, permitindo que ele seja atualizado:
 
 `sudo apt-mark unhold `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span>
 
-- Listar os pacotes instalados manualmente:
+- Lista os pacotes instalados manualmente:
 
 `apt-mark showmanual`
 
-- Listar os pacotes bloqueados:
+- Lista os pacotes bloqueados:
 
 `apt-mark showhold`

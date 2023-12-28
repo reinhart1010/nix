@@ -2,8 +2,8 @@
 layout: page
 title: linux/top (português (Brasil))
 description: "Utilitário para exibir informações, em tempo real, sobre os processos em execução."
-content_hash: cd777d7e9d7432ea2afbb2f246d24e8b46d6f339
-last_modified_at: 2023-11-12
+content_hash: 2c570f6d28dcf7a445c33748185e754e486256ef
+last_modified_at: 2023-12-28
 related_topics:
   - title: català version
     url: /ca/linux/top.html
@@ -27,19 +27,19 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Utilitário para exibir informações, em tempo real, sobre os processos em execução.
 Mais informações: <https://manned.org/top>.
 
-- Iniciar top:
+- Inicia o top:
 
 `top`
 
-- Exibir apenas os processos ativos:
+- Exibe apenas os processos ativos:
 
 `top -i`
 
-- Exibir os processos de um usuário específico:
+- Exibe os processos de um usuário específico:
 
 `top -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>
 
-- Exibir o(s) processo(s) de um ou mais PID específico(s), separado(s) por vírgula:
+- Exibe o(s) processo(s) de um ou mais PID específico(s), separado(s) por vírgula:
 
 `top -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PID1,PID2,PID3</span>
 

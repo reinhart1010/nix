@@ -2,8 +2,8 @@
 layout: page
 title: osx/gcp (português (Portugal))
 description: "Este comando é um alias de `-p linux cp`."
-content_hash: 9c3a2582c7f8bc895978b4ed15345df313fb2d09
-last_modified_at: 2023-11-12
+content_hash: 335211bdf888ae77289434f490121cb5e7108c8b
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gcp.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux cp`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux cp`

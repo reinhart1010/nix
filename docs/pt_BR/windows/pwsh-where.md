@@ -2,8 +2,8 @@
 layout: page
 title: windows/pwsh-where (português (Brasil))
 description: "Este comando é um pseudônimo de `Where-Object`."
-content_hash: cfa1c0b2af21c5251992fa233bbced6104080189
-last_modified_at: 2023-12-22
+content_hash: c627371f408dae843486b2dbc88fb7f71b9956df
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/windows/pwsh-where.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando é um pseudônimo de `Where-Object`.
 Mais informações: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/where-object>.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr Where-Object`

@@ -2,8 +2,8 @@
 layout: page
 title: common/bundler (português (Portugal))
 description: "Este comando é um alias de `bundle`."
-content_hash: b1040b106a4396da87013bb0f63f397f84ad317c
-last_modified_at: 2023-11-12
+content_hash: 7995c7172d8574d2ed73e62088c396097911b43c
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/bundler.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando é um alias de `bundle`.
 Mais informações: <https://bundler.io/man/bundle.1.html>.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr bundle`

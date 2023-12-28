@@ -2,8 +2,8 @@
 layout: page
 title: common/llvm-g++ (português (Brasil))
 description: "Este comando é um pseudônimo de `clang++`."
-content_hash: 6e45562b33ce52cccd0d28f671bf68a9894ebb16
-last_modified_at: 2023-11-12
+content_hash: 863e4ebc8df247bbd0e5b9b23370ddce2a410b28
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/llvm-g++.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `clang++`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr clang++`

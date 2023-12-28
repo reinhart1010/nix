@@ -2,8 +2,8 @@
 layout: page
 title: common/7za (português (Brasil))
 description: "Um compactador de arquivos com alta taxa de compressão."
-content_hash: d21a004542675e4ffe720c268e799ec322289ab4
-last_modified_at: 2023-12-18
+content_hash: ad575757cb2948bf03e325e06d4f95d94693cbc9
+last_modified_at: 2023-12-28
 related_topics:
   - title: বাংলা version
     url: /bn/common/7za.html
@@ -61,7 +61,7 @@ Um compactador de arquivos com alta taxa de compressão.
 Versão compacta do `7z`, com suporte para menos tipos de arquivamento/compressão.
 Mais informações: <https://manned.org/7za>.
 
-- Compactar um arquivo ou diretório:
+- Compacta um arquivo ou diretório:
 
 `7za a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_compactado.7z</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_ou_diretório</span>
 
@@ -69,7 +69,7 @@ Mais informações: <https://manned.org/7za>.
 
 `7za a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_criptografado.7z</span>` -p`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">senha</span>` -mhe=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_compactado.7z</span>
 
-- Descompactar um arquivo mantendo a estrutura de diretórios original:
+- Descompacta um arquivo mantendo a estrutura de diretórios original:
 
 `7za x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_compactado.7z</span>
 

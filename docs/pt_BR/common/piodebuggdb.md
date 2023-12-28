@@ -2,8 +2,8 @@
 layout: page
 title: common/piodebuggdb (português (Brasil))
 description: "Este comando é um pseudônimo de `pio debug`."
-content_hash: ebf90b575a2da3fe813dff23369b1c063c2b1cd1
-last_modified_at: 2023-11-12
+content_hash: 8b7a24f2877a1f804d1354806024ea19dd8c7cce
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/piodebuggdb.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `pio debug`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr pio debug`

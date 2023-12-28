@@ -2,8 +2,8 @@
 layout: page
 title: android/cmd (português (Portugal))
 description: "Gestor de serviços (service manager) do Android."
-content_hash: e350c99682bd3d0f2bc56dcbb81a2cde02976020
-last_modified_at: 2023-11-12
+content_hash: 0ed4f632240b7ae092f34aecb6ccf4d0f97bd26d
+last_modified_at: 2023-12-28
 related_topics:
   - title: বাংলা version
     url: /bn/android/cmd.html
@@ -31,6 +31,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/cmd.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/cmd.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/android/cmd.html
@@ -72,14 +75,14 @@ tldri18n_status: 2
 Gestor de serviços (service manager) do Android.
 Mais informações: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/cmd/>.
 
-- Listar todos os serviços em execução:
+- Lista todos os serviços em execução:
 
 `cmd -l`
 
-- Executar um serviço específico:
+- Executa um serviço específico:
 
 `cmd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alarm</span>
 
-- Executar um serviço com parâmetros:
+- Executa um serviço com parâmetros:
 
 `cmd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vibrator</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vibrate 300</span>

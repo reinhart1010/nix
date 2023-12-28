@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-machine (português (Brasil))
 description: "Criar e gerenciar máquinas que executam o Docker."
-content_hash: ff9a06518527c1816620d84c54bab89b50339009
-last_modified_at: 2023-11-12
+content_hash: 2a55627db270e823fc254e07d53061df946ff2d7
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-machine.html
@@ -30,26 +30,26 @@ tldri18n_status: 2
 Criar e gerenciar máquinas que executam o Docker.
 Mais informações: <https://docs.docker.com/machine/reference/>.
 
-- Listar as máquinas Docker em execução no momento:
+- Lista as máquinas Docker em execução no momento:
 
 `docker-machine ls`
 
-- Criar uma nova máquina Docker com um nome específico:
+- Cria uma nova máquina Docker com um nome específico:
 
 `docker-machine create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>
 
-- Obter o status de uma máquina:
+- Obtém o status de uma máquina:
 
 `docker-machine status `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>
 
-- Iniciar uma máquina:
+- Inicia uma máquina:
 
 `docker-machine start `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>
 
-- Parar uma máquina:
+- Para uma máquina:
 
 `docker-machine stop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>
 
-- Inspecionar informações sobre uma máquina:
+- Inspeciona informações sobre uma máquina:
 
 `docker-machine inspect `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>

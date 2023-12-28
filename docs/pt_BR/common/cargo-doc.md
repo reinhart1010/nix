@@ -2,8 +2,8 @@
 layout: page
 title: common/cargo-doc (português (Brasil))
 description: "Constrói e visualiza a documentação de um pacote Rust, opcionalmente em modo offline."
-content_hash: ecc827c08421289ab4fe6c748c95069ae53b4c70
-last_modified_at: 2023-11-12
+content_hash: 79c006a3cbdb41a13b84d0ae55901cbc004c642c
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/cargo-doc.html
@@ -18,18 +18,18 @@ tldri18n_status: 2
 Constrói e visualiza a documentação de um pacote Rust, opcionalmente em modo offline.
 Mais informações: <https://doc.rust-lang.org/cargo/commands/cargo-doc.html>.
 
-- Construir a documentação padrão do pacote e mostrá-la no navegador:
+- Constrói a documentação padrão do pacote e mostrá-la no navegador:
 
 `cargo doc --open`
 
-- Construir a documentação sem acessar a rede:
+- Constrói a documentação sem acessar a rede:
 
 `cargo doc --offline`
 
-- Visualizar a documentação de um pacote específico:
+- Visualiza a documentação de um pacote específico:
 
 `cargo doc --open --package `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>
 
-- Visualizar a documentação de um pacote específico sem acessar a rede:
+- Visualiza a documentação de um pacote específico sem acessar a rede:
 
 `cargo doc --open --offline --package `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>

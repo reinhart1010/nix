@@ -2,8 +2,8 @@
 layout: page
 title: osx/gprintenv (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux printenv`."
-content_hash: 57d40e5aed09b487159745b47ef730526d277f96
-last_modified_at: 2023-11-12
+content_hash: 761d69f8369778af9bd3c2eed99aa9cffe8d8c9b
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gprintenv.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux printenv`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux printenv`

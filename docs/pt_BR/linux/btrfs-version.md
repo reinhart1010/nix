@@ -2,8 +2,8 @@
 layout: page
 title: linux/btrfs-version (português (Brasil))
 description: "Exibe a versão do btrfs-progs."
-content_hash: b77d22bdabf44c69a1d3dfc487be5df090bf754c
-last_modified_at: 2023-11-12
+content_hash: c4329bfceb23976c996079f0da51c9acae7e89d7
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/linux/btrfs-version.html
@@ -18,10 +18,10 @@ tldri18n_status: 2
 Exibe a versão do btrfs-progs.
 Mais informações: <https://btrfs.readthedocs.io/en/latest/btrfs.html>.
 
-- Exibir a versão do btrfs-progs:
+- Exibe a versão do btrfs-progs:
 
 `btrfs version`
 
-- Exibir a ajuda:
+- Exibe a ajuda:
 
 `btrfs version --help`

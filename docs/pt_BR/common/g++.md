@@ -2,8 +2,8 @@
 layout: page
 title: common/g++ (português (Brasil))
 description: "Compila arquivos de código fonte C++."
-content_hash: efc6ff94d7276efafe650ccb4f89950444d79502
-last_modified_at: 2023-12-14
+content_hash: 5c27f6a5d28f64e6b1a56abd977a0964dd038223
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/g++.html
@@ -31,7 +31,7 @@ Compila arquivos de código fonte C++.
 Parte do GCC (GNU Compiler Collection).
 Mais informações: <https://gcc.gnu.org>.
 
-- Compilar um arquivo de código fonte para um binário executável:
+- Compila um arquivo de código fonte para um binário executável:
 
 `g++ `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/fonte.cpp</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/executável_de_saída</span>
 

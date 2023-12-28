@@ -2,8 +2,8 @@
 layout: page
 title: common/xkill (português (Portugal))
 description: "Termina o cliente associado a um elemento gráfico."
-content_hash: 9e2bc6d5d1991c222301bc22ecdfbb0a9ef4270b
-last_modified_at: 2023-11-12
+content_hash: f847b4d33696b36dc0b42a081faacc97fdb50963
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/xkill.html
@@ -31,6 +31,6 @@ Termina o cliente associado a um elemento gráfico.
 Utilizado para forçar a terminação de processos que não respondem ou não apresentam botão "fechar".
 Mais informações: <https://www.x.org/releases/current/doc/man/man1/xkill.1.xhtml>.
 
-- Ativar um cursor para fechar uma janela com o clique do botão esquerdo do rato (pressionar qualquer outro botão para cancelar):
+- Ativa um cursor para fechar uma janela com o clique do botão esquerdo do rato (pressione qualquer outro botão para cancelar):
 
 `xkill`

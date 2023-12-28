@@ -2,8 +2,8 @@
 layout: page
 title: osx/ghostname (português (Portugal))
 description: "Este comando é um alias de `-p linux hostname`."
-content_hash: f7135ddacd6bf4d0c5da196adad03ca8dd4fd6b3
-last_modified_at: 2023-11-12
+content_hash: 99be3382a6587b91923347c9f4c6d610979af56f
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/ghostname.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux hostname`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux hostname`

@@ -2,8 +2,8 @@
 layout: page
 title: linux/archinstall (português (Portugal))
 description: "Instalador com instruções para Arch Linux."
-content_hash: 569abb42877adddd98ca7584741208f0dcecfeb9
-last_modified_at: 2023-11-12
+content_hash: df6a040036efe8e08ab124be8024c9415bda0619
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/linux/archinstall.html
@@ -33,10 +33,10 @@ tldri18n_status: 2
 Instalador com instruções para Arch Linux.
 Mais informações: <https://archinstall.readthedocs.io>.
 
-- Iniciar o instalador guiado:
+- Inicia o instalador guiado:
 
 `archinstall`
 
-- Iniciar um instalador predefenido:
+- Inicia um instalador predefenido:
 
 `archinstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">minimal|unattended</span>

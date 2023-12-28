@@ -2,8 +2,8 @@
 layout: page
 title: common/llvm-nm (português (Brasil))
 description: "Este comando é um pseudônimo de `nm`."
-content_hash: e5c1768e014603fdfc56feabcc77b11ac451f6fc
-last_modified_at: 2023-11-12
+content_hash: a7351902727c0519e42a645b77fa2e46301ba0b1
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/llvm-nm.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `nm`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr nm`

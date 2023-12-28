@@ -2,8 +2,8 @@
 layout: page
 title: common/llvm-ar (português (Brasil))
 description: "Este comando é um pseudônimo de `ar`."
-content_hash: 1b2a353be47d7873cad7fc675214a31d6e20927e
-last_modified_at: 2023-11-12
+content_hash: 16a9a2b379ffa63a43da8f1745ac90c97a7c2d38
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/llvm-ar.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `ar`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr ar`

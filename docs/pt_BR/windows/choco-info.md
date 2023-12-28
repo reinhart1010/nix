@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco-info (português (Brasil))
 description: "Exibir informações detalhadas de um pacote com Chocolatey."
-content_hash: 15cb331044c5767be0c628018bbefcd3ac026fe1
-last_modified_at: 2023-11-12
+content_hash: a7e095c5abaf8c255a5f13cfc42fcb9ce6d4f161
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-info.html
@@ -33,18 +33,18 @@ tldri18n_status: 2
 Exibir informações detalhadas de um pacote com Chocolatey.
 Mais informações: <https://chocolatey.org/docs/commands-info>.
 
-- Exibir informações sobre um pacote específico:
+- Exibe informações sobre um pacote específico:
 
 `choco info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>
 
-- Exibir informação para um pacote local:
+- Exibe informação para um pacote local:
 
 `choco info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>` --local-only`
 
-- Especificar uma fonte personalizada para receber as informações de um pacote:
+- Especifica uma fonte personalizada para receber as informações de um pacote:
 
 `choco info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>` --source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_da_fonte|apelido</span>
 
-- Fornecer um nome e uma senha para autenticação:
+- Fornece um nome e uma senha para autenticação:
 
 `choco info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>` --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">apelido</span>` --password `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">senha</span>

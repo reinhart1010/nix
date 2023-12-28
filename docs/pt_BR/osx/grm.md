@@ -2,8 +2,8 @@
 layout: page
 title: osx/grm (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux rm`."
-content_hash: 921c493b570490631372315c986fe66b784c1228
-last_modified_at: 2023-11-12
+content_hash: 17a293a836d9c54c1d7c4300ce86efdec02d7a9e
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/grm.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux rm`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux rm`

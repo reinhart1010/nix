@@ -2,8 +2,8 @@
 layout: page
 title: common/history (português (Portugal))
 description: "Histórico da linha de comandos."
-content_hash: 23a7f619c6bc6cdeb132532c976dd32e43f136ef
-last_modified_at: 2023-11-12
+content_hash: 3f66e630d0e587aa8efec8ea52a32216ad7fa0f5
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/history.html
@@ -33,18 +33,18 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Histórico da linha de comandos.
 Mais informações: <https://www.gnu.org/software/bash/manual/html_node/Bash-History-Builtins.html>.
 
-- Mostrar o histórico da linha de comandos por ordem cronológica:
+- Mostra o histórico da linha de comandos por ordem cronológica:
 
 `history`
 
-- Apagar o histórico da linha de comandos:
+- Apaga o histórico da linha de comandos:
 
 `history -c`
 
-- Mostrar o enésimo comando no histórico da linha de comandos:
+- Mostra o enésimo comando no histórico da linha de comandos:
 
 `history !`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">n</span>
 
-- Mostrar as entradas do histórico da linha de comandos que correspondem a uma expressão regular:
+- Mostra as entradas do histórico da linha de comandos que correspondem a uma expressão regular:
 
 `history | grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">expressao_regular</span>

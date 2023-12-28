@@ -2,8 +2,8 @@
 layout: page
 title: osx/gb2sum (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux b2sum`."
-content_hash: 4764a907f1bf1ef1fbeca87f3be2fe858cae4fc1
-last_modified_at: 2023-11-12
+content_hash: 04820fcf082e7fcf2efd9d624937bd629f1fa789
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gb2sum.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux b2sum`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux b2sum`

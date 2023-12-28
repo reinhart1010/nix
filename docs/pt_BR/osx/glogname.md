@@ -2,8 +2,8 @@
 layout: page
 title: osx/glogname (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux logname`."
-content_hash: 0f5a888102cca47aa192e893d24a6ba435944794
-last_modified_at: 2023-11-12
+content_hash: b2c22bbaab48cdff04cb66672327636ee1d12b98
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/glogname.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux logname`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux logname`

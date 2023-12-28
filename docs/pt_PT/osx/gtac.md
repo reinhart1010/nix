@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtac (português (Portugal))
 description: "Este comando é um alias de `-p linux tac`."
-content_hash: b4e096ef483f704e0930b52a8bbd482b42ba5926
-last_modified_at: 2023-11-12
+content_hash: 3230af2c96e12d96c72ad3c2ac05fada2835c611
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gtac.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux tac`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux tac`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gbase64 (português (Portugal))
 description: "Este comando é um alias de `-p linux base64`."
-content_hash: 08b2f404ac0b6d99f0567a08335f85590552cb50
-last_modified_at: 2023-11-12
+content_hash: f4c0325904e207dafd64ba4bb2a3d27553869fed
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gbase64.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux base64`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux base64`

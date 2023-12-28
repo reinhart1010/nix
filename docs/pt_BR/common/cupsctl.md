@@ -2,8 +2,8 @@
 layout: page
 title: common/cupsctl (português (Brasil))
 description: "Atualiza ou consulta o cupsd.conf de um server."
-content_hash: 43d6b1f3ca66cfb8cd7d6dcd7d71f122fe9764bb
-last_modified_at: 2023-12-18
+content_hash: 2244165e34ff892b20422533e6b721f8cbf290c0
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/cupsctl.html
@@ -23,7 +23,7 @@ Mais informações: <https://www.cups.org/doc/man-cupsctl.html>.
 
 `cupsctl -h `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">servidor[:porta]</span>
 
-- Ativar a criptografia na conexão ao scheduler:
+- Ativa a criptografia na conexão ao scheduler:
 
 `cupsctl -E`
 

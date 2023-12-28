@@ -2,8 +2,8 @@
 layout: page
 title: osx/genv (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux env`."
-content_hash: 9c29190834cc38f0287cd23ecc4945e58cf42e62
-last_modified_at: 2023-11-12
+content_hash: a5f3907e3a3bd475960bc0f2fc0d3c9e1c95c34a
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/genv.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux env`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux env`

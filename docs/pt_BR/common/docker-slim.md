@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-slim (português (Brasil))
 description: "Analisar e otimizar imagens Docker."
-content_hash: 4d45bea6552c22b24f258db981bfcd42d9f9771c
-last_modified_at: 2023-11-12
+content_hash: 113288392bec0d97d955659ebc2f7681f61491d1
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-slim.html
@@ -21,22 +21,22 @@ tldri18n_status: 2
 Analisar e otimizar imagens Docker.
 Mais informações: <https://github.com/docker-slim/docker-slim>.
 
-- Iniciar o DockerSlim no modo interativo:
+- Inicia o DockerSlim no modo interativo:
 
 `docker-slim`
 
-- Analisar as camadas do Docker a partir de uma imagem específica:
+- Analisa as camadas do Docker a partir de uma imagem específica:
 
 `docker-slim xray --target `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem:tag</span>
 
-- Verificar um Dockerfile:
+- Verifica um Dockerfile:
 
 `docker-slim lint --target `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/Dockerfile</span>
 
-- Analisar e gerar uma imagem Docker otimizada:
+- Analisa e gera uma imagem Docker otimizada:
 
 `docker-slim build `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem:tag</span>
 
-- Exibir ajuda para um subcomando:
+- Exibe ajuda para um subcomando:
 
 `docker-slim `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcomando</span>` --help`

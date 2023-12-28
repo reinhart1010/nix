@@ -2,8 +2,8 @@
 layout: page
 title: osx/gmknod (português (Portugal))
 description: "Este comando é um alias de `-p linux mknod`."
-content_hash: a2a79f67a8045e1bda7d848ac59a55d11b4cf88c
-last_modified_at: 2023-11-12
+content_hash: 79974ffa14aa5f0df4de5d4369e51fa9ea42f76c
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gmknod.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux mknod`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux mknod`

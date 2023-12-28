@@ -2,8 +2,8 @@
 layout: page
 title: common/bundler (português (Brasil))
 description: "Este comando é um pseudônimo de `bundle`."
-content_hash: 2b711f6ce4c1d548c04845e66b11e8408df35960
-last_modified_at: 2023-11-12
+content_hash: 73e59cb0bef36db5bc8797bd9f74add22065fc19
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/bundler.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando é um pseudônimo de `bundle`.
 Mais informações: <https://bundler.io/man/bundle.1.html>.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr bundle`

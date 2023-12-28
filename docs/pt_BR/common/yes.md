@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/yes (português (Brasil))
-description: "Exibe algo na tela repetidamente."
-content_hash: 97584fe09dd8a2f25320d83e7659b5957786272d
-last_modified_at: 2023-11-12
+description: "Exibe algo repetidamente."
+content_hash: a02e2bede58cef35dbcd348233dea684a62b4978
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/yes.html
@@ -23,20 +23,21 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/yes.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
+# yes
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># yes
-
-Exibe algo na tela repetidamente.
+Exibe algo repetidamente.
 Mais informações: <https://www.gnu.org/software/coreutils/yes>.
 
-- Exibir na tela a palavra "mensagem" repetidamente:
+- Exibir a palavra "mensagem" repetidamente:
 
 `yes `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mensagem</span>
 
-- Exibir na tela a letra "y" repetidamente:
+- Exibir a letra "y" repetidamente:
 
 `yes`
+
+- Aceitar tudo solicitado pelo comando apt-get:
+
+`yes | sudo apt-get install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">programa</span>

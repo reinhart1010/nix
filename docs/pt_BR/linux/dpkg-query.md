@@ -2,8 +2,8 @@
 layout: page
 title: linux/dpkg-query (português (Brasil))
 description: "Ferramenta que mostra informações dos pacotes instalados."
-content_hash: 678713b8a149d79f4c57df9d75ae70ad78bf746e
-last_modified_at: 2023-11-12
+content_hash: 399f6b8a0f0fdb4c11a697fc8272045a52b3ead9
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/linux/dpkg-query.html
@@ -21,18 +21,18 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Ferramenta que mostra informações dos pacotes instalados.
 Mais informações: <https://manpages.debian.org/latest/dpkg/dpkg-query.1.html>.
 
-- Exibir os pacotes instalados:
+- Exibe os pacotes instalados:
 
 `dpkg-query -l`
 
-- Exibir os pacotes instalados correspondentes ao critério de busca:
+- Exibe os pacotes instalados correspondentes ao critério de busca:
 
 `dpkg-query -l '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">criterio_de_busca</span>`'`
 
-- Exibir todos os arquivos instalados por um pacote:
+- Exibe todos os arquivos instalados por um pacote:
 
 `dpkg-query -L `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span>
 
-- Exibir informações sobre um pacote:
+- Exibe informações sobre um pacote:
 
 `dpkg-query -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span>

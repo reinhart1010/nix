@@ -2,8 +2,8 @@
 layout: page
 title: osx/guname (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux uname`."
-content_hash: 874a5d2de593a08e52920dc42ba2172e08ab7ba8
-last_modified_at: 2023-11-12
+content_hash: 2da1c9ad4d6cd622d8e13b3313bcd7a6ce77250f
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/guname.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux uname`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux uname`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gshred (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux shred`."
-content_hash: 7380d05ab57f7f30199c048c1e46cb35156f73a7
-last_modified_at: 2023-11-12
+content_hash: 393968ea5e9e9eb268441698569606377ab15da8
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gshred.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux shred`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux shred`

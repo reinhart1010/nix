@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtr (português (Portugal))
 description: "Este comando é um alias de `-p linux tr`."
-content_hash: 19648e41db6bec2a40a29ae563be06922205d065
-last_modified_at: 2023-11-12
+content_hash: 2c1439d052240e2ca43165b1cdc7695b50ed0b09
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gtr.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux tr`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux tr`

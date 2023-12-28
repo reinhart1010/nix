@@ -2,8 +2,8 @@
 layout: page
 title: osx/gnproc (português (Portugal))
 description: "Este comando é um alias de `-p linux nproc`."
-content_hash: b909186a08c21b63a86aa0b574e64e353d0e026a
-last_modified_at: 2023-11-12
+content_hash: bc62801a8fb5469f0eb05164d2a7186b5de387d1
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gnproc.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux nproc`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux nproc`

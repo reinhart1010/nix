@@ -2,8 +2,8 @@
 layout: page
 title: linux/ip-route-list (português (Brasil))
 description: "Este comando é um pseudônimo de `ip-route-show`."
-content_hash: 871959fbf65e09fcb4a44967511cffc374555eb4
-last_modified_at: 2023-11-12
+content_hash: 14c4870eccf9ff9a1d75eb0272b831a497a0e9af
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/linux/ip-route-list.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `ip-route-show`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr ip-route-show`

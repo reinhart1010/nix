@@ -2,8 +2,8 @@
 layout: page
 title: linux/ubuntu-bug (português (Brasil))
 description: "Este comando é um pseudônimo de `apport-bug`."
-content_hash: 160d1955f0762a845e2ed0522df192c7fd0ac4a2
-last_modified_at: 2023-11-12
+content_hash: dec9ab489fbd4ba7df656dcbd8c6a09f6bad55e9
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/linux/ubuntu-bug.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando é um pseudônimo de `apport-bug`.
 Mais informações: <https://manned.org/ubuntu-bug>.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr apport-bug`

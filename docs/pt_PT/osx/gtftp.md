@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtftp (português (Portugal))
 description: "Este comando é um alias de `-p linux tftp`."
-content_hash: c297d95268f419a58ad6afa05828433e6bfb13d6
-last_modified_at: 2023-11-12
+content_hash: f8e87885707d56127506faff6b6c8f17fb84061a
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gtftp.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux tftp`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux tftp`

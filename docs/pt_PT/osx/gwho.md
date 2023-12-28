@@ -2,8 +2,8 @@
 layout: page
 title: osx/gwho (português (Portugal))
 description: "Este comando é um alias de `-p linux who`."
-content_hash: 94288808f38c036da7d1bc00212691a0ab1a1534
-last_modified_at: 2023-11-12
+content_hash: d97b6b21e2d5f253c79e36c9ff18aa414c67d69b
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gwho.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux who`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux who`

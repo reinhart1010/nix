@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtelnet (português (Portugal))
 description: "Este comando é um alias de `-p linux telnet`."
-content_hash: 3ffc7e3c97ed06b3fcdc5bba16d2ed4283b22fad
-last_modified_at: 2023-11-12
+content_hash: 3fde46d4f868a476b7f59c4c2515e927a7eb1529
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gtelnet.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux telnet`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux telnet`

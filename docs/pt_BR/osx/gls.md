@@ -2,8 +2,8 @@
 layout: page
 title: osx/gls (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux ls`."
-content_hash: 5019d96d94b165b7d3a8cc7959e89a80f166f45a
-last_modified_at: 2023-11-12
+content_hash: e952092ae59ca7d57621f545702f8c01fc30671b
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gls.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux ls`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux ls`

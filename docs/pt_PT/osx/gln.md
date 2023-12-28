@@ -2,8 +2,8 @@
 layout: page
 title: osx/gln (português (Portugal))
 description: "Este comando é um alias de `-p linux ln`."
-content_hash: 6697802c7ab8a0cded76079fb6a562cf03be2f9b
-last_modified_at: 2023-11-12
+content_hash: 280eb7c510bb63dca548eef5e2a105ee184aece2
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gln.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux ln`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux ln`

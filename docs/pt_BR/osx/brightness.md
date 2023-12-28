@@ -2,8 +2,8 @@
 layout: page
 title: osx/brightness (português (Brasil))
 description: "Obtém e define o nível de brilho de todos os monitores internos e alguns monitores externos."
-content_hash: 9ad6779d901591e102f3d276065c49e3db716b4f
-last_modified_at: 2023-11-12
+content_hash: 7e64f71456ebf45c9fa1f829b20d32ee33699557
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/osx/brightness.html
@@ -21,14 +21,14 @@ tldri18n_status: 2
 Obtém e define o nível de brilho de todos os monitores internos e alguns monitores externos.
 Mais informações: <https://github.com/nriley/brightness>.
 
-- Mostrar o brilho atual:
+- Mostra o brilho atual:
 
 `brightness -l`
 
-- Definir o brilho para 100%:
+- Define o brilho para 100%:
 
 `brightness `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>
 
-- Definir o brilho para 50%:
+- Define o brilho para 50%:
 
 `brightness `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.5</span>

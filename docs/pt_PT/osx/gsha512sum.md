@@ -2,8 +2,8 @@
 layout: page
 title: osx/gsha512sum (português (Portugal))
 description: "Este comando é um alias de `-p linux sha512sum`."
-content_hash: a8def758f9aedf9be8be3245a6e52215fff8d034
-last_modified_at: 2023-11-12
+content_hash: 0caa2c02bd285eecf99ab7a7d0c9a2403875de25
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gsha512sum.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux sha512sum`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux sha512sum`

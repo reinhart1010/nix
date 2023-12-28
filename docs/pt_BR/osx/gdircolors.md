@@ -2,8 +2,8 @@
 layout: page
 title: osx/gdircolors (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux dircolors`."
-content_hash: 856227f78d776409d238310ff0cdcb28d6e94956
-last_modified_at: 2023-11-12
+content_hash: e0bc696a8ad51283dae0ba7293b9433338a4fa23
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gdircolors.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux dircolors`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux dircolors`

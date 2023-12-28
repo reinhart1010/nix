@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco (português (Brasil))
 description: "Uma interface de linha de comando para o gerenciador de pacotes Chocolatey."
-content_hash: 7196400e7e8671bca3f63030d69a3d942907c88d
-last_modified_at: 2023-11-12
+content_hash: 112f8909de7ecbc5b6470409701596f75bb89706
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco.html
@@ -22,6 +22,9 @@ related_topics:
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/windows/choco.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/choco.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/windows/choco.html
@@ -43,18 +46,18 @@ Uma interface de linha de comando para o gerenciador de pacotes Chocolatey.
 Alguns subcomandos como `choco install` tem sua própia documentação de uso.
 Mais informações: <https://chocolatey.org>.
 
-- Executar o comando Chocolatey:
+- Executa o comando Chocolatey:
 
 `choco `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>
 
-- Exibir ajuda generalizada:
+- Exibe ajuda generalizada:
 
 `choco -?`
 
-- Exibir ajuda em um comando específico:
+- Exibe ajuda em um comando específico:
 
 `choco `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>` -?`
 
-- Exibir a versão do Chocolatey:
+- Exibe a versão do Chocolatey:
 
 `choco --version`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gftp (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux ftp`."
-content_hash: 91663ddf99c3d637e9512edfbfd570518cd95e68
-last_modified_at: 2023-11-12
+content_hash: 80a361454aa50fb5260f18f4f5ab267deb669fe9
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gftp.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux ftp`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux ftp`

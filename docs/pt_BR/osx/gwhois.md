@@ -2,8 +2,8 @@
 layout: page
 title: osx/gwhois (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux whois`."
-content_hash: 174497357fccdad0daea38d040465d3c8f407ef0
-last_modified_at: 2023-11-12
+content_hash: 7e09fa0d1e412baca6fc131034817bd550ff2912
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gwhois.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux whois`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux whois`

@@ -2,8 +2,8 @@
 layout: page
 title: linux/alternatives (português (Portugal))
 description: "Este comando é um alias de `update-alternatives`."
-content_hash: 8d8b24cffd3d2115d2a60265fd02c31bbd62cba0
-last_modified_at: 2023-11-12
+content_hash: ce6bec0d8b1ad19bb86498d2fc989f5dae222bf6
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/linux/alternatives.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando é um alias de `update-alternatives`.
 Mais informações: <https://manned.org/alternatives>.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr update-alternatives`

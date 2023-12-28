@@ -2,8 +2,8 @@
 layout: page
 title: common/rails-generate (português (Brasil))
 description: "Gerar artefatos Rails a partir de um modelo em um projeto existente."
-content_hash: cfa8aa0dbc772a8cd51079126ca8bb36ee921fe6
-last_modified_at: 2023-11-12
+content_hash: 01e58ce4ab010984494266e981448a601a1185e7
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/rails-generate.html
@@ -21,18 +21,18 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Gerar artefatos Rails a partir de um modelo em um projeto existente.
 Mais informações: <https://guides.rubyonrails.org/command_line.html#bin-rails-generate>.
 
-- Exibir todos os geradores disponíveis:
+- Exibe todos os geradores disponíveis:
 
 `rails generate`
 
-- Criar um modelo:
+- Cria um modelo:
 
 `rails generate model `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_classe</span>
 
-- Criar um controlador:
+- Cria um controlador:
 
 `rails generate controller `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_controlador</span>
 
-- Criar uma estrutura completa (modelo, controlador, testes, etc.) para um novo modelo:
+- Cria uma estrutura completa (modelo, controlador, testes, etc.) para um novo modelo:
 
 `rails generate scaffold `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_modelo</span>

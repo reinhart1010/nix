@@ -2,8 +2,8 @@
 layout: page
 title: osx/gbasenc (português (Portugal))
 description: "Este comando é um alias de `-p linux basenc`."
-content_hash: cfc99acad97e86f12b1638af76e75e7ea1a70ff7
-last_modified_at: 2023-11-12
+content_hash: dedd4d5d7c75118ef969db00795948a1a5da58cb
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gbasenc.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux basenc`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux basenc`

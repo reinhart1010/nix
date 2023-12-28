@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-new (português (Brasil))
 description: "Este comando é um pseudônimo de `fossil-init`."
-content_hash: 8ac5d95ab7407cff5bdabeacc0dd4ae4671807c8
-last_modified_at: 2023-11-12
+content_hash: 7e569f169d63279777fc1de281f0a743153e2550
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando é um pseudônimo de `fossil-init`.
 Mais informações: <https://fossil-scm.org/home/help/new>.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr fossil-init`

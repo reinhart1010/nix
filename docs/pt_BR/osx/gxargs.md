@@ -2,8 +2,8 @@
 layout: page
 title: osx/gxargs (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux xargs`."
-content_hash: 453d8ddfba6b5c4135806589df2c1bcafc412ff9
-last_modified_at: 2023-11-12
+content_hash: ba03a109543d9d9dbb9f6163af7fb0f8c6e333a7
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gxargs.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux xargs`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux xargs`

@@ -2,8 +2,8 @@
 layout: page
 title: common/scc (português (Brasil))
 description: "Utilitário escrito em GO que conta linhas de código."
-content_hash: 8ddbaf9fb3b28eba24bd55c8f236d13a35ba679c
-last_modified_at: 2023-11-12
+content_hash: 208c4ebd8be3169af68276639e6deeb449c61ff3
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/scc.html
@@ -15,31 +15,31 @@ tldri18n_status: 2
 Utilitário escrito em GO que conta linhas de código.
 Mais informações: <https://github.com/boyter/scc>.
 
-- Mostrar o número de linhas de código no diretório atual:
+- Mostra o número de linhas de código no diretório atual:
 
 `scc`
 
-- Mostrar o número de linhas de código de um diretório especificado:
+- Mostra o número de linhas de código de um diretório especificado:
 
 `scc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretorio</span>
 
-- Mostrar o número de linhas de código por arquivo:
+- Mostra o número de linhas de código por arquivo:
 
 `scc --by-file`
 
-- Mostrar o resultado usando um formato específico (formato padrão é o `tabular`):
+- Mostra o resultado usando um formato específico (formato padrão é o `tabular`):
 
 `scc --format `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tabular|wide|json|csv|cloc-yaml|html|html-table</span>
 
-- Contar apenas os arquivos com as extensões especificadas:
+- Conta apenas os arquivos com as extensões especificadas:
 
 `scc --include-ext `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">go, java, js</span>
 
-- Excluir diretórios da contagem:
+- Exclui diretórios da contagem:
 
 `scc --exclude-dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.git,.hg</span>
 
-- Mostrar output organizado de acordo com o parâmetro especificado (organização padrão é `files`):
+- Mostra output organizado de acordo com o parâmetro especificado (organização padrão é `files`):
 
 `scc --sort `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">files|name|lines|blanks|code|comments|complexity</span>
 

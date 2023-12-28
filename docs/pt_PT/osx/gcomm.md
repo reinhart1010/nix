@@ -2,8 +2,8 @@
 layout: page
 title: osx/gcomm (português (Portugal))
 description: "Este comando é um alias de `-p linux comm`."
-content_hash: 28f64dd10a9387c0d471fd0aeaac3928c60996bc
-last_modified_at: 2023-11-12
+content_hash: e58f048dc69efa49404a8865902baee5b4cb0966
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gcomm.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux comm`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux comm`

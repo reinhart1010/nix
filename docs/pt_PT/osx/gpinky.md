@@ -2,8 +2,8 @@
 layout: page
 title: osx/gpinky (português (Portugal))
 description: "Este comando é um alias de `-p linux pinky`."
-content_hash: 1c571dac40bef824a37f9b589989edf87b0af959
-last_modified_at: 2023-11-12
+content_hash: aa32e99c7d6a79d916f14ebc16be4d0f40217316
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gpinky.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux pinky`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux pinky`

@@ -2,8 +2,8 @@
 layout: page
 title: common/aapt (português (Portugal))
 description: "Android Asset Packaging Tool."
-content_hash: 5231a0c4c641b8fee953681b0f6b5d3bec94bdcf
-last_modified_at: 2023-11-12
+content_hash: 6b7cecdf78515e430e261c9760523f11e0039da0
+last_modified_at: 2023-12-28
 related_topics:
   - title: বাংলা version
     url: /bn/common/aapt.html
@@ -49,14 +49,14 @@ Android Asset Packaging Tool.
 Compila e empacotar os recursos de uma aplicação Android.
 Mais informações: <https://elinux.org/Android_aapt>.
 
-- Listar os ficheiros contidos num arquivo APK:
+- Lista os ficheiros contidos num arquivo APK:
 
 `aapt list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/app.apk</span>
 
-- Exibir os metadados da aplicação (versão, permissões, etc.):
+- Exibe os metadados da aplicação (versão, permissões, etc.):
 
 `aapt dump badging `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/app.apk</span>
 
-- Criar um novo arquivo APK com os arquivos do directório especificado:
+- Cria um novo arquivo APK com os arquivos do directório especificado:
 
 `aapt package -F `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/app.apk</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>

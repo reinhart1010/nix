@@ -2,8 +2,8 @@
 layout: page
 title: osx/gfgrep (português (Portugal))
 description: "Este comando é um alias de `-p linux fgrep`."
-content_hash: 8529c901d8a563b2754839768a18cbf8c99915ce
-last_modified_at: 2023-11-12
+content_hash: c1a39c8d438887879ab7c1bde22e60383a61efe5
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gfgrep.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux fgrep`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux fgrep`

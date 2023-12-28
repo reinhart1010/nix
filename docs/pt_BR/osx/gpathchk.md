@@ -2,8 +2,8 @@
 layout: page
 title: osx/gpathchk (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux pathchk`."
-content_hash: d56dbfbc35438dcce136ae0d5f76271a41f5506b
-last_modified_at: 2023-11-12
+content_hash: 0ced81cad7c3dda6bc14f8f236e2499357cb04d1
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gpathchk.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux pathchk`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux pathchk`

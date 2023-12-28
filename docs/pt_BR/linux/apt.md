@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt (português (Brasil))
 description: "Gerenciador de pacotes das distribuições baseadas em Debian."
-content_hash: fca44e4c16b137513b7df137f83a974cfe0646f3
-last_modified_at: 2023-11-12
+content_hash: 298977710ea39eacc2f7ba8572a9b4f155030dc6
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/linux/apt.html
@@ -72,26 +72,26 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Gerenciador de pacotes das distribuições baseadas em Debian.
 Mais informações: <https://manpages.debian.org/latest/apt/apt.8.html>.
 
-- Atualizar a lista de pacotes disponíveis (recomenda-se executá-lo antes de outros comandos `apt`):
+- Atualiza a lista de pacotes disponíveis (recomenda-se executá-lo antes de outros comandos `apt`):
 
 `sudo apt update`
 
-- Buscar pacotes correspondentes ao critério de busca:
+- Busca pacotes correspondentes ao critério de busca:
 
 `apt search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">criterio_de_busca</span>
 
-- Exibir as informações de pacote:
+- Exibe as informações de pacote:
 
 `apt show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span>
 
-- Instalar um pacote ou atualizá-lo para a versão mais recente:
+- Instala um pacote ou atualizá-lo para a versão mais recente:
 
 `sudo apt install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span>
 
-- Remover um pacote (Para remover os arquivos de configuração deve-se usar a opção `purge` ao invés do `remove`):
+- Remove um pacote (Para remover os arquivos de configuração deve-se usar a opção `purge` ao invés do `remove`):
 
 `sudo apt remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span>
 
-- Atualizar os pacotes instalados para as versões mais recentes:
+- Atualiza os pacotes instalados para as versões mais recentes:
 
 `sudo apt upgrade`

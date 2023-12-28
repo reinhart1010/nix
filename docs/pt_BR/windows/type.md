@@ -2,8 +2,8 @@
 layout: page
 title: windows/type (português (Brasil))
 description: "Mostrar o conteúdo de um arquivo."
-content_hash: af3852f6fd9077bb69606b2ee1e76a3e82abfa72
-last_modified_at: 2023-11-12
+content_hash: 45489e2cd295e83f42e3aa1ef88e4a74ba458853
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/windows/type.html
@@ -27,6 +27,6 @@ tldri18n_status: 2
 Mostrar o conteúdo de um arquivo.
 Mais informações: <https://learn.microsoft.com/windows-server/administration/windows-commands/type>.
 
-- Mostrar o conteúdo de um arquivo específico:
+- Mostra o conteúdo de um arquivo específico:
 
 `type `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>

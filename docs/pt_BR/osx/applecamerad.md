@@ -2,8 +2,8 @@
 layout: page
 title: osx/applecamerad (português (Brasil))
 description: "Gerenciador de câmera."
-content_hash: b7a7c0e36929cb81785111755e4c8a04f7273807
-last_modified_at: 2023-11-12
+content_hash: d9c8745adc915c49eae60516daca43785a1303b5
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/osx/applecamerad.html
@@ -19,6 +19,6 @@ Gerenciador de câmera.
 Não deve ser invocado manualmente.
 Mais informações: <https://www.theiphonewiki.com/wiki/Services>.
 
-- Iniciar o daemon:
+- Inicia o daemon:
 
 `applecamerad`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/grsh (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux rsh`."
-content_hash: cfbb7e785e13ba8e7eb3a366b57b7c3bff97d50a
-last_modified_at: 2023-11-12
+content_hash: 5fb30eaeb3ad0efed78a8252f0ce5d5df8a760ef
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/grsh.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux rsh`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux rsh`

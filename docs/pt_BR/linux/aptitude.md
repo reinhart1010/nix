@@ -2,8 +2,8 @@
 layout: page
 title: linux/aptitude (português (Brasil))
 description: "Gerenciador de pacotes das distribuições baseadas em Debian."
-content_hash: 4bf01adba71060de090e5710ea333810f9ba1d2f
-last_modified_at: 2023-11-12
+content_hash: f135ccebbedbbb994cd10c1d591a98a349b8f691
+last_modified_at: 2023-12-28
 related_topics:
   - title: català version
     url: /ca/linux/aptitude.html
@@ -42,26 +42,26 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Gerenciador de pacotes das distribuições baseadas em Debian.
 Mais informações: <https://manpages.debian.org/latest/aptitude/aptitude.8.html>.
 
-- Atualizar a lista de pacotes disponíveis (recomenda-se executá-lo antes de outros comandos `aptitude`):
+- Atualiza a lista de pacotes disponíveis (recomenda-se executá-lo antes de outros comandos `aptitude`):
 
 `aptitude update`
 
-- Instalar um novo pacote e suas dependências:
+- Instala um novo pacote e suas dependências:
 
 `aptitude install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span>
 
-- Buscar pacotes correspondentes ao critério de busca:
+- Busca pacotes correspondentes ao critério de busca:
 
 `aptitude search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">criterio_de_busca</span>
 
-- Remover um pacote e todos que dependam dele:
+- Remove um pacote e todos que dependam dele:
 
 `aptitude remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span>
 
-- Atualizar os pacotes instalados para as versões mais recentes:
+- Atualiza os pacotes instalados para as versões mais recentes:
 
 `aptitude upgrade`
 
-- Atualizar os pacotes instalados (semelhante ao `upgrade`), porém removendo os obsoletos e instalando pacotes solicitados por novas dependências:
+- Atualiza os pacotes instalados (semelhante ao `upgrade`), porém removendo os obsoletos e instalando pacotes solicitados por novas dependências:
 
 `aptitude full-upgrade`

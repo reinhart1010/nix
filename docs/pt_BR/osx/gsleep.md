@@ -2,8 +2,8 @@
 layout: page
 title: osx/gsleep (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux sleep`."
-content_hash: 57e1b2b7b5362ae988c47cd638d174dc8f1758d2
-last_modified_at: 2023-11-12
+content_hash: 151010918fcf3b561d88c8201516451bb116e4b3
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gsleep.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux sleep`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux sleep`

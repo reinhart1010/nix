@@ -2,8 +2,8 @@
 layout: page
 title: osx/gnice (português (Portugal))
 description: "Este comando é um alias de `-p linux nice`."
-content_hash: 870dcdfefd89047ec1468d2cfdbe28b899ef9b23
-last_modified_at: 2023-11-12
+content_hash: db809b249fca574c121e1f4885ac6a92fd85510a
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gnice.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux nice`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux nice`

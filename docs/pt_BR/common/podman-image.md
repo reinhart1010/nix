@@ -2,8 +2,8 @@
 layout: page
 title: common/podman-image (português (Brasil))
 description: "Gerenciar imagens Docker."
-content_hash: 30a79b11f7eb87e8c2c1c29170307a107a64e8b6
-last_modified_at: 2023-11-12
+content_hash: 8ca57d756f2dcac6decfda04663666d0a4de763b
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/podman-image.html
@@ -16,18 +16,18 @@ Gerenciar imagens Docker.
 Veja também `podman build`, `podman import` e `podman pull`.
 Mais informações: <https://docs.podman.io/en/latest/markdown/podman-image.1.html>.
 
-- Listar imagens Docker locais:
+- Lista imagens Docker locais:
 
 `podman image ls`
 
-- Excluir imagens Docker locais não utilizadas:
+- Exclui imagens Docker locais não utilizadas:
 
 `podman image prune`
 
-- Excluir todas as imagens não utilizadas (não apenas aquelas sem uma tag):
+- Exclui todas as imagens não utilizadas (não apenas aquelas sem uma tag):
 
 `podman image prune --all`
 
-- Mostrar o histórico de uma imagem Docker local:
+- Mostra o histórico de uma imagem Docker local:
 
 `podman image history `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem</span>

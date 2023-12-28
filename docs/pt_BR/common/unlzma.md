@@ -2,8 +2,8 @@
 layout: page
 title: common/unlzma (português (Brasil))
 description: "Este comando é um pseudônimo de `xz`."
-content_hash: f5624c2acdccbfc9d5e03216703dfb10cc3315dd
-last_modified_at: 2023-11-12
+content_hash: 90728a3f86f15a727b4ba7796e7158f11975300f
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/unlzma.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando é um pseudônimo de `xz`.
 Mais informações: <https://manned.org/unlzma>.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr xz`

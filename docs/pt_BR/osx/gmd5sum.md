@@ -2,8 +2,8 @@
 layout: page
 title: osx/gmd5sum (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux md5sum`."
-content_hash: cedcfb644f86cb92207fd3331360491d26895bc1
-last_modified_at: 2023-11-12
+content_hash: 2b0a8ca9917a10b08d6db878ccfda2f7bf2bdbd3
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gmd5sum.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux md5sum`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux md5sum`

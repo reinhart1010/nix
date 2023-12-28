@@ -2,8 +2,8 @@
 layout: page
 title: osx/gecho (português (Portugal))
 description: "Este comando é um alias de `-p linux echo`."
-content_hash: c87337b2efd3a9a06ecb6fbd012b709182be6bab
-last_modified_at: 2023-11-12
+content_hash: fa73cf8ec5bdd14ad83c55143887a8591be48e19
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gecho.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux echo`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux echo`

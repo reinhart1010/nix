@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-forget (português (Portugal))
 description: "Este comando é um alias de `fossil rm`."
-content_hash: 10c6e3e9c7842a8c96e5aeb4d4ebea4d719642bd
-last_modified_at: 2023-11-12
+content_hash: b4494d98e8d941fc9fb0d80a927b6e473223ac03
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-forget.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando é um alias de `fossil rm`.
 Mais informações: <https://fossil-scm.org/home/help/forget>.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr fossil rm`

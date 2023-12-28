@@ -2,8 +2,8 @@
 layout: page
 title: linux/yum (português (Brasil))
 description: "Gerenciador de pacotes utilitário para RHEL, Fedora e CentOS (para outras versões)."
-content_hash: 06c1a615faa9b58449a22bf62b7670916e9d670c
-last_modified_at: 2023-11-12
+content_hash: 8af5664e51e015723b9594dd1426f3fca8a50d72
+last_modified_at: 2023-12-28
 related_topics:
   - title: català version
     url: /ca/linux/yum.html
@@ -31,7 +31,7 @@ Mais informações: <https://manned.org/yum>.
 
 `yum install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
-- Instala um novo pacote e assumir sim para todas as questões (também funciona com atualizações, ótimo para atualizações automáticas):
+- Instala um novo pacote assumindo sim para todas as perguntas (também funciona com atualizações, ótimo para atualizações automáticas):
 
 `yum -y install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 

@@ -2,8 +2,8 @@
 layout: page
 title: android/getprop (português (Portugal))
 description: "Obtém informações sobre propriedades do sistema (system props) Android."
-content_hash: 2e02bf49307a53da6740924327e29fe69bc03290
-last_modified_at: 2023-11-12
+content_hash: fcfc2ebd1646f3f03dc59005e1820ea8ba749660
+last_modified_at: 2023-12-28
 related_topics:
   - title: বাংলা version
     url: /bn/android/getprop.html
@@ -31,6 +31,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/getprop.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/getprop.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/getprop.html
@@ -66,30 +69,30 @@ tldri18n_status: 2
 Obtém informações sobre propriedades do sistema (system props) Android.
 Mais informações: <https://manned.org/getprop>.
 
-- Mostrar todas as propriedades do sistema:
+- Mostra todas as propriedades do sistema:
 
 `getprop`
 
-- Mostrar o valor de uma propriedade específica:
+- Mostra o valor de uma propriedade específica:
 
 `getprop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prop</span>
 
-- Mostrar o nível de API:
+- Mostra o nível de API:
 
 `getprop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ro.build.version.sdk</span>
 
-- Mostrar a versão do Android:
+- Mostra a versão do Android:
 
 `getprop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ro.build.version.release</span>
 
-- Mostrar o modelo do dispositivo:
+- Mostra o modelo do dispositivo:
 
 `getprop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ro.vendor.product.model</span>
 
-- Mostrar o status de desbloqueio OEM:
+- Mostra o status de desbloqueio OEM:
 
 `getprop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ro.oem_unlock_supported</span>
 
-- Mostrar o endereço MAC da placa de Wi-Fi do dispositivo:
+- Mostra o endereço MAC da placa de Wi-Fi do dispositivo:
 
 `getprop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ro.boot.wifimacaddr</span>

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gupdatedb (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux updatedb`."
-content_hash: 8bcb945352f7a6638db41eadbd3bb841f9916251
-last_modified_at: 2023-11-12
+content_hash: bc06cea6df829adb86f19a8e9d7f0ce6d2ab8fba
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gupdatedb.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux updatedb`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux updatedb`

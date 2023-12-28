@@ -2,8 +2,8 @@
 layout: page
 title: linux/as (português (Brasil))
 description: "Assembler GNU multiplataforma."
-content_hash: fa1dfff706e363f284d8ad51e3005f271d264176
-last_modified_at: 2023-11-12
+content_hash: 1481351d94a21a26cd6214c5a3c0d6b2bd59191a
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/linux/as.html
@@ -25,15 +25,15 @@ Assembler GNU multiplataforma.
 Seu objetivo inicial é realizar o montagem do arquivo gerado pelo `gcc` para ser utilizado pelo `ld`.
 Mais informações: <https://manned.org/as>.
 
-- Realizar a montagem de um arquivo, o resultado dessa operação será gravado no arquivo a.out:
+- Realiza a montagem de um arquivo, o resultado dessa operação será gravado no arquivo a.out:
 
 `as `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.s</span>
 
-- Realizar a montagem de um arquivo, o resultado dessa operação será gravado em um arquivo específico:
+- Realiza a montagem de um arquivo, o resultado dessa operação será gravado em um arquivo específico:
 
 `as `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.s</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">saida.o</span>
 
-- Realizar a montagem de um arquivo rapidamente, pois ignora o pré-processamento de comentários e espaços em branco. (Deve ser utilizado apenas em compiladores confiáveis):
+- Realiza a montagem de um arquivo rapidamente, pois ignora o pré-processamento de comentários e espaços em branco. (Deve ser utilizado apenas em compiladores confiáveis):
 
 `as -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo.s</span>
 

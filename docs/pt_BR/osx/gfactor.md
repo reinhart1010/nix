@@ -2,8 +2,8 @@
 layout: page
 title: osx/gfactor (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux factor`."
-content_hash: ee9d2916112e663f8cea498bcd0bf33a2ef75f91
-last_modified_at: 2023-11-12
+content_hash: 1fb1359984b47c3f463fc72b5fe3f5e03149297f
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gfactor.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux factor`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux factor`

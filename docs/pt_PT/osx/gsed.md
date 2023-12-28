@@ -2,8 +2,8 @@
 layout: page
 title: osx/gsed (português (Portugal))
 description: "Este comando é um alias de `-p linux sed`."
-content_hash: 505bdb20b92f5327261fd5ab40355dbe1594d56d
-last_modified_at: 2023-11-12
+content_hash: 6def2fe7e0bd4e48fd273e517c9219af0460a532
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gsed.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux sed`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux sed`

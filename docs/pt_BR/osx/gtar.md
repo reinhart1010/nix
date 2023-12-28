@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtar (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux tar`."
-content_hash: fdab7eb98873268019b9096458321498d3776dc7
-last_modified_at: 2023-11-12
+content_hash: 0f000b2360618c2674d719e740c4c4c95f085fbf
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gtar.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux tar`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux tar`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/afplay (português (Brasil))
 description: "Player de áudio para linha de comando."
-content_hash: 7d2ab54bf47b3e3a0e87f9fa79061762409a033f
-last_modified_at: 2023-11-12
+content_hash: 4fcaf77cde853524d12bf8d2f86c36442039711c
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/osx/afplay.html
@@ -21,18 +21,18 @@ tldri18n_status: 2
 Player de áudio para linha de comando.
 Mais informações: <https://ss64.com/osx/afplay.html>.
 
-- Reproduzir um arquivo de som (espera até que a reprodução termine):
+- Reproduz um arquivo de som (espera até que a reprodução termine):
 
 `afplay `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
 
-- Reproduzir um arquivo de som em velocidade 2x (taxa de reprodução):
+- Reproduz um arquivo de som em velocidade 2x (taxa de reprodução):
 
 `afplay --rate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
 
-- Reproduzir um arquivo de som em meia velocidade:
+- Reproduz um arquivo de som em meia velocidade:
 
 `afplay --rate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.5</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
 
-- Reproduzir os N primeiros segundos de um arquivo de som:
+- Reproduz os N primeiros segundos de um arquivo de som:
 
 `afplay --time `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">segundos</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>

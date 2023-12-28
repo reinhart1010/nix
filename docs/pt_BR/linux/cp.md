@@ -2,8 +2,8 @@
 layout: page
 title: linux/cp (português (Brasil))
 description: "Copia arquivos e diretórios."
-content_hash: 22b6ec841b09c90b8f511d454a92ed12ccc85091
-last_modified_at: 2023-11-12
+content_hash: c2691a3f4c4288db7a1ccc75cc2f32afc3f5c3b1
+last_modified_at: 2023-12-28
 related_topics:
   - title: català version
     url: /ca/linux/cp.html
@@ -51,11 +51,11 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Copia arquivos e diretórios.
 Mais informações: <https://www.gnu.org/software/coreutils/cp>.
 
-- Copiar um arquivo para outra localização:
+- Copia um arquivo para outra localização:
 
 `cp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_entrada.ext</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_saída.ext</span>
 
-- Copiar um arquivo para dentro de outro diretório, mantendo o nome:
+- Copia um arquivo para dentro de outro diretório, mantendo o nome:
 
 `cp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.ext</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span>
 
@@ -63,18 +63,18 @@ Mais informações: <https://www.gnu.org/software/coreutils/cp>.
 
 `cp -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório_fonte</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório_alvo</span>
 
-- Copiar um diretório recursivamente, em modo verboso (mostra os arquivos conforme eles são copiados):
+- Copia um diretório recursivamente, em modo verboso (mostra os arquivos conforme eles são copiados):
 
 `cp -vr `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório_fonte</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório_alvo</span>
 
-- Copiar arquivos de texto para outra localização, em modo interativo (exige confirmação do usuário antes de sobrescrever):
+- Copia arquivos de texto para outra localização, em modo interativo (exige confirmação do usuário antes de sobrescrever):
 
 `cp -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório_alvo</span>
 
-- Seguir links simbólicos antes de copiar:
+- Segue links simbólicos antes de copiar:
 
 `cp -L `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">link</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório_alvo</span>
 
-- Usar todo o caminho dos arquivos fonte, criando quaisquer diretórios intermediários ausentes quando copia:
+- Usa todo o caminho dos arquivos fonte, criando quaisquer diretórios intermediários ausentes quando copia:
 
 `cp --parents `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fonte/caminho/para/arquivo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_alvo</span>

@@ -2,11 +2,14 @@
 layout: page
 title: osx/automountd (português (Brasil))
 description: "Um daemon de montagem/desmontagem automática para `autofs`. Iniciado sob demanda por `launchd`."
-content_hash: 93955790f044c9e2f1efded12f087a0775dfc466
-last_modified_at: 2023-11-12
+content_hash: 25b94354e74a9605bb58986984f230c85513ae49
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/osx/automountd.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/osx/automountd.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -16,7 +19,7 @@ Um daemon de montagem/desmontagem automática para `autofs`. Iniciado sob demand
 Não deve ser invocado manualmente.
 Mais informações: <https://www.manpagez.com/man/8/automountd/>.
 
-- Iniciar o daemon:
+- Inicia o daemon:
 
 `automountd`
 

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtty (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux tty`."
-content_hash: 6f673ec31441f45715eed49a0b5d3e58c694c536
-last_modified_at: 2023-11-12
+content_hash: bbe74168e4bfd8b400085148d80400336cccd9d8
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gtty.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux tty`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux tty`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gusers (português (Portugal))
 description: "Este comando é um alias de `-p linux users`."
-content_hash: cc8527942ab88f4326d873c360169d3e732e3bb3
-last_modified_at: 2023-11-12
+content_hash: ce6338b7a20f61b41346ab8542eb5bda319ea9c6
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gusers.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux users`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux users`

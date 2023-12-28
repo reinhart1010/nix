@@ -2,8 +2,8 @@
 layout: page
 title: osx/gchgrp (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux chgrp`."
-content_hash: b2f3ea7986b644736f986f1ee82bda51e7c9d850
-last_modified_at: 2023-11-12
+content_hash: 22bd9b8435050bd7b00e3e816d20bd86cf63a1f3
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gchgrp.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux chgrp`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux chgrp`

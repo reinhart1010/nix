@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco-source (português (Brasil))
 description: "Gerenciar fontes para pacotes com Chocolatey."
-content_hash: 54a0fa2e6b81a84ffa14c28f85c3dda8812c70d3
-last_modified_at: 2023-11-12
+content_hash: 0c7620f0aa9cb66983987f74f5dc3765d93e9e65
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-source.html
@@ -30,30 +30,30 @@ tldri18n_status: 2
 Gerenciar fontes para pacotes com Chocolatey.
 Mais informações: <https://chocolatey.org/docs/commands-source>.
 
-- Listar fontes atualmente disponíveis:
+- Lista fontes atualmente disponíveis:
 
 `choco source list`
 
-- Adicionar uma nova fonte de pacotes:
+- Adiciona uma nova fonte de pacotes:
 
 `choco source add --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>` --source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_da_fonte</span>
 
-- Adicionar uma nova fonte de pacotes com credenciais:
+- Adiciona uma nova fonte de pacotes com credenciais:
 
 `choco source add --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>` --source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_da_fonte</span>` --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>` --password `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">senha</span>
 
-- Adicionar uma nova fonte de pacotes com certificado do cliente:
+- Adiciona uma nova fonte de pacotes com certificado do cliente:
 
 `choco source add --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>` --source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_da_fonte</span>` --cert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/certificado</span>
 
-- Habilitar uma fonte de pacotes:
+- Habilita uma fonte de pacotes:
 
 `choco source enable --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>
 
-- Desabilitar uma fonte de pacotes:
+- Desabilita uma fonte de pacotes:
 
 `choco source disable --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>
 
-- Remover uma fonte de pacotes:
+- Remove uma fonte de pacotes:
 
 `choco source remove --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>

@@ -2,8 +2,8 @@
 layout: page
 title: common/clear (português (Brasil))
 description: "Limpa a tela do terminal."
-content_hash: 5a43c483469aba0f414cc8dd2991f8306014abba
-last_modified_at: 2023-11-12
+content_hash: e8ad0201cb8b4410e7dfe77bf8310c22f6542e74
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/clear.html
@@ -39,15 +39,15 @@ tldri18n_status: 2
 Limpa a tela do terminal.
 Mais informações: <https://manned.org/clear>.
 
-- Limpar a tela (equivalente a apertar Control-L no terminal Bash):
+- Limpa a tela (equivalente a apertar Control-L no terminal Bash):
 
 `clear`
 
-- Limpar a tela mantendo o buffer de rolagem do terminal:
+- Limpa a tela mantendo o buffer de rolagem do terminal:
 
 `clear -x`
 
-- Especificar o tipo de terminal a ser limpado (por padrão é o valor da variável de ambiente `TERM`):
+- Especifica o tipo de terminal a ser limpado (por padrão é o valor da variável de ambiente `TERM`):
 
 `clear -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tipo_do_terminal</span>
 

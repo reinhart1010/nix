@@ -3,19 +3,14 @@ layout: page
 title: linux/pipewire (English)
 description: "Start the PipeWire daemon."
 content_hash: fdd898aed0f3b727050870a3598d73cf2604a1be
-last_modified_at: 2023-12-27
-tldri18n_status: 0
+last_modified_at: 2023-12-28
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/linux/pipewire.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/pipewire.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># pipewire
+# pipewire
 
 Start the PipeWire daemon.
 More information: <https://docs.pipewire.org/page_man_pipewire_1.html>.

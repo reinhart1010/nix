@@ -2,8 +2,8 @@
 layout: page
 title: osx/guniq (português (Portugal))
 description: "Este comando é um alias de `-p linux uniq`."
-content_hash: 647a99fb521e38a8cba433be1f1ad6d7205ef74b
-last_modified_at: 2023-11-12
+content_hash: c15a9e7051050c9d7a0c8abf4c612512f6c9fd08
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/guniq.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux uniq`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux uniq`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtime (português (Portugal))
 description: "Este comando é um alias de `-p linux time`."
-content_hash: 8669dd5dd5c4f531f677ed5d67545462db88175b
-last_modified_at: 2023-11-12
+content_hash: ddf52a3f5a909721e15bfb894da99d47e0d92c83
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gtime.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux time`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux time`

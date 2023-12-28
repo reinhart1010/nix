@@ -2,8 +2,8 @@
 layout: page
 title: osx/gpwd (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux pwd`."
-content_hash: 70249824decebce46ea87b5db5e9cc024205255e
-last_modified_at: 2023-11-12
+content_hash: 935ccb6ba33ec6ef7e51d602c972a71d692b8521
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gpwd.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux pwd`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux pwd`

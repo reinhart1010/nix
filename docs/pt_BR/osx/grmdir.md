@@ -2,8 +2,8 @@
 layout: page
 title: osx/grmdir (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux rmdir`."
-content_hash: a283684951223f2b002f3642b33ff7b0058380df
-last_modified_at: 2023-11-12
+content_hash: 893447414b46027da9621e0f43cafe4d15763a44
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/grmdir.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux rmdir`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux rmdir`

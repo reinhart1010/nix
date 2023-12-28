@@ -2,8 +2,8 @@
 layout: page
 title: common/ptpython3 (português (Portugal))
 description: "Este comando é um alias de `ptpython`."
-content_hash: a94251fe1fc3bd1c131ee07722bd5c81ef0efdbc
-last_modified_at: 2023-11-12
+content_hash: 2d7b23f45aef11630a8b6a804e82445d911cf0b5
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/ptpython3.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `ptpython`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr ptpython`

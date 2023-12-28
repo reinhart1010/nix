@@ -2,8 +2,8 @@
 layout: page
 title: osx/gwhich (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux which`."
-content_hash: 70b4393e415f1e9e64ed2919488ee1cdd2271879
-last_modified_at: 2023-11-12
+content_hash: 6b50a939823bfeda51884c8faa63f43576e94705
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gwhich.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux which`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux which`

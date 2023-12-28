@@ -2,8 +2,8 @@
 layout: page
 title: osx/gchcon (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux chcon`."
-content_hash: d9d21f76a7ed87916025ef1f709c18fc9a71fe86
-last_modified_at: 2023-11-12
+content_hash: d5d6d493b949038c4bbb4d2987118eb98741c74a
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gchcon.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux chcon`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux chcon`

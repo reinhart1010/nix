@@ -2,8 +2,8 @@
 layout: page
 title: common/gnmic-sub (português (Brasil))
 description: "Este comando é um pseudônimo de `gnmic subscribe`."
-content_hash: 3a234c7428c6e8c13988b9db97e228a1dd39d8fb
-last_modified_at: 2023-11-12
+content_hash: 908c853848e80ff362a0ec76051488d45b8928aa
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/gnmic-sub.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando é um pseudônimo de `gnmic subscribe`.
 Mais informações: <https://gnmic.kmrd.dev/cmd/subscribe>.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr gnmic subscribe`

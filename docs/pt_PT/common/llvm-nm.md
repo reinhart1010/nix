@@ -2,8 +2,8 @@
 layout: page
 title: common/llvm-nm (português (Portugal))
 description: "Este comando é um alias de `nm`."
-content_hash: 35254e16cff5ac487c110fe0e6f11318ab3a409a
-last_modified_at: 2023-11-12
+content_hash: 4c29af79fb7a483e032434057d8d5af3eee538f2
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/llvm-nm.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `nm`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr nm`

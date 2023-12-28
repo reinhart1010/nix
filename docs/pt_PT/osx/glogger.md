@@ -2,8 +2,8 @@
 layout: page
 title: osx/glogger (português (Portugal))
 description: "Este comando é um alias de `-p linux logger`."
-content_hash: 93da32177b39f0556060491c5db41fce05a977e2
-last_modified_at: 2023-11-12
+content_hash: 4252baac19cae2e17fca9747704d88b5de594526
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/glogger.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux logger`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux logger`

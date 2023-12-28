@@ -2,8 +2,8 @@
 layout: page
 title: osx/gbase64 (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux base64`."
-content_hash: 6f8b2e73cd6ac21f8c8d5be1ba50903b8e1c1fc7
-last_modified_at: 2023-11-12
+content_hash: 70119b30a326932e9051c4a01bdee4b90c52517d
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gbase64.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux base64`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux base64`

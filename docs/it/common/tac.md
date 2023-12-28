@@ -3,17 +3,14 @@ layout: page
 title: common/tac (italiano)
 description: "Visualizza e concatena file con righe in ordine inverso."
 content_hash: 4e7b46942d8623bd93f049ffa1972f1bd4ce9240
-last_modified_at: 2023-12-27
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/tac.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># tac
+# tac
 
 Visualizza e concatena file con righe in ordine inverso.
 Guarda anche: `cat`.

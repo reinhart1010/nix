@@ -2,8 +2,8 @@
 layout: page
 title: linux/cgroups (português (Brasil))
 description: "Este comando é um pseudônimo de `cgclassify`."
-content_hash: bb3265f8a5b1cb40bd912bd508555de32954911f
-last_modified_at: 2023-11-12
+content_hash: 6b763e4865f6512af7d79f73cde2ac8527254d02
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/linux/cgroups.html
@@ -99,6 +99,6 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Este comando é um pseudônimo de `cgclassify`.
 Mais informações: <https://www.kernel.org/doc/Documentation/cgroup-v2.txt>.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr cgclassify`

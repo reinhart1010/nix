@@ -2,8 +2,8 @@
 layout: page
 title: linux/dnf (português (Brasil))
 description: "Gerenciador de pacotes das distribuições baseadas em RHEL (substituto do yum)."
-content_hash: af2cd6cfc92b566bc70dddc2f456f195d2e3cb89
-last_modified_at: 2023-11-12
+content_hash: 3bf3fec6ca8a2710f3b1011364a9d34c459000b5
+last_modified_at: 2023-12-28
 related_topics:
   - title: català version
     url: /ca/linux/dnf.html
@@ -42,18 +42,18 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Gerenciador de pacotes das distribuições baseadas em RHEL (substituto do yum).
 Mais informações: <https://dnf.readthedocs.io>.
 
-- Instalar um novo pacote:
+- Instala um novo pacote:
 
 `sudo dnf install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span>
 
-- Instalar um novo pacote e responder sim para todas as questões:
+- Instala um novo pacote e responde sim para todos os prompts:
 
 `sudo dnf -y install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span>
 
-- Remover um pacote:
+- Remove um pacote:
 
 `sudo dnf remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span>
 
-- Atualizar todos os pacotes instalados para as versões mais recentes:
+- Atualiza todos os pacotes instalados para as versões mais recentes:
 
 `sudo dnf upgrade`

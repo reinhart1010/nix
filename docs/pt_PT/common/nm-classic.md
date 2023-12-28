@@ -2,8 +2,8 @@
 layout: page
 title: common/nm-classic (português (Portugal))
 description: "Este comando é um alias de `nm`."
-content_hash: 3a3b3c309d1b3f77d136f7671ffa5a99d7a05ef5
-last_modified_at: 2023-11-12
+content_hash: 1960269954078eb8404713d3af9de9747aab520e
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/nm-classic.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `nm`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr nm`

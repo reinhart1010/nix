@@ -2,8 +2,8 @@
 layout: page
 title: common/llvm-gcc (português (Brasil))
 description: "Este comando é um pseudônimo de `clang`."
-content_hash: 43515822f85b829c92294b90ccb2e6088288d4ad
-last_modified_at: 2023-11-12
+content_hash: e6ca48ac42c24f41abe07ce03c31fa5eeaa0b313
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/llvm-gcc.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `clang`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr clang`

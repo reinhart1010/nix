@@ -2,8 +2,8 @@
 layout: page
 title: common/llvm-g++ (português (Portugal))
 description: "Este comando é um alias de `clang++`."
-content_hash: 11a326cee156509c52c3ffa5736717f35a0ec96e
-last_modified_at: 2023-11-12
+content_hash: 6a775a6d0957011f172f423a17d81749ecab0225
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/llvm-g++.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `clang++`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr clang++`

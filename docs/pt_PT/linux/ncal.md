@@ -2,8 +2,8 @@
 layout: page
 title: linux/ncal (português (Portugal))
 description: "Este comando é um alias de `cal`."
-content_hash: fb8df7d0bb0406ad09d5d4ce3235dfb5d7426067
-last_modified_at: 2023-11-12
+content_hash: 2cf28d99a653f1a3a7db7547fe636c453ff13bee
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/linux/ncal.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando é um alias de `cal`.
 Mais informações: <https://manned.org/ncal>.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr cal`

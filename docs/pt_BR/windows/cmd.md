@@ -2,8 +2,8 @@
 layout: page
 title: windows/cmd (português (Brasil))
 description: "O interpretador de comandos do Windows."
-content_hash: 3447c33fb4de5215f78d67b2b7473f82c839dc1f
-last_modified_at: 2023-11-12
+content_hash: 39b4674fc3ba87fef1c442531896eb3dd054e9bf
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/windows/cmd.html
@@ -42,31 +42,31 @@ tldri18n_status: 2
 O interpretador de comandos do Windows.
 Mais informações: <https://learn.microsoft.com/windows-server/administration/windows-commands/cmd>.
 
-- Iniciar nova instância do interpretador de comandos:
+- Inicia nova instância do interpretador de comandos:
 
 `cmd`
 
-- Executar o comando especificado e sair do interpretador:
+- Executa o comando especificado e sai do interpretador:
 
 `cmd /c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>`"`
 
-- Executar o comando especificado e entrar no shell interativo:
+- Executa o comando especificado e entra no shell interativo:
 
 `cmd /k "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>`"`
 
-- Desabilitar o uso do comando `echo` na saída dos comandos:
+- Desabilita o uso do comando `echo` na saída dos comandos:
 
 `cmd /q`
 
-- Habilitar ou desabilitar extensão de comandos:
+- Habilita ou desabilita extensão de comandos:
 
 `cmd /e:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span>
 
-- Habilitar ou desabilitar a ferramenta que completa automaticamente o nome de arquivos ou diretórios:
+- Habilita ou desabilita a ferramenta que completa automaticamente o nome de arquivos ou diretórios:
 
 `cmd /f:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span>
 
-- Habilitar ou desabilitar a expansão de variáveis de ambiente:
+- Habilita ou desabilita a expansão de variáveis de ambiente:
 
 `cmd /v:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span>
 

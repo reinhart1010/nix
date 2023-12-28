@@ -2,8 +2,8 @@
 layout: page
 title: osx/grcp (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux rcp`."
-content_hash: 80251979dc0931148ebde341c7efcaafc6b88e80
-last_modified_at: 2023-11-12
+content_hash: af896403c8139f03e3a9c4fc2e72b538a742791b
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/grcp.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux rcp`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux rcp`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gprintf (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux printf`."
-content_hash: 37e121c27db54c23208b787acb350207f50fa434
-last_modified_at: 2023-11-12
+content_hash: 263b1834503f68e9f4d1fc73ebd03fba21d2d5c5
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gprintf.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux printf`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux printf`

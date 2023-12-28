@@ -2,8 +2,8 @@
 layout: page
 title: common/ssh-keyscan (português (Brasil))
 description: "Obter as chaves públicas SSH de hosts remotos."
-content_hash: a1a624f99891ec32cf727485ebcf8c17f66e6acb
-last_modified_at: 2023-11-12
+content_hash: cc50344eb29ac4680fe5ca1b650b9530d4a4274f
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/ssh-keyscan.html
@@ -21,18 +21,18 @@ tldri18n_status: 2
 Obter as chaves públicas SSH de hosts remotos.
 Mais informações: <https://man.openbsd.org/ssh-keyscan>.
 
-- Obter todas as chaves públicas SSH de um host remoto:
+- Obtém todas as chaves públicas SSH de um host remoto:
 
 `ssh-keyscan `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>
 
-- Obter todas as chaves públicas SSH de um host remoto que esteja ouvindo em uma porta específica:
+- Obtém todas as chaves públicas SSH de um host remoto que esteja ouvindo em uma porta específica:
 
 `ssh-keyscan -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>
 
-- Obter determinados tipos de chaves públicas SSH de um host remoto:
+- Obtém determinados tipos de chaves públicas SSH de um host remoto:
 
 `ssh-keyscan -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rsa,dsa,ecdsa,ed25519</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>
 
-- Atualizar manualmente o arquivo known_hosts do SSH com a impressão digital de um determinado host:
+- Atualiza manualmente o arquivo known_hosts do SSH com a impressão digital de um determinado host:
 
 `ssh-keyscan -H `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>` >> ~/.ssh/known_hosts`

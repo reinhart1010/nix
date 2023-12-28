@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtouch (português (Portugal))
 description: "Este comando é um alias de `-p linux touch`."
-content_hash: cc6c07be99eaa086c883a6ca3210a537341d70c3
-last_modified_at: 2023-11-12
+content_hash: 1872fea77164c269635df25e6c2ee3d3febf7281
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gtouch.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux touch`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux touch`

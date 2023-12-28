@@ -2,8 +2,8 @@
 layout: page
 title: common/cd (português (Portugal))
 description: "Mudar o diretório atual."
-content_hash: 716b847f79a65008f3529539bbdad9bfda2a66c0
-last_modified_at: 2023-12-25
+content_hash: c369370506f1ba08289f49d6fa6388d295e1a55f
+last_modified_at: 2023-12-28
 related_topics:
   - title: català version
     url: /ca/common/cd.html
@@ -72,18 +72,18 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Mudar o diretório atual.
 Mais informações: <https://manned.org/cd>.
 
-- Ir para um dado diretório:
+- Vai para um dado diretório:
 
 `cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span>
 
-- Ir para o diretório base do utilizador atual:
+- Vai para o diretório base do utilizador atual:
 
 `cd`
 
-- Ir para o diretório pai do diretório atual:
+- Vai para o diretório pai do diretório atual:
 
 `cd ..`
 
-- Ir para o diretório anteriormente escolhido:
+- Vai para o diretório anteriormente escolhido:
 
 `cd -`

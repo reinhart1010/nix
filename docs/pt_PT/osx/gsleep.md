@@ -2,8 +2,8 @@
 layout: page
 title: osx/gsleep (português (Portugal))
 description: "Este comando é um alias de `-p linux sleep`."
-content_hash: 7e32d16282f65adeb88d7030fd80b271e3f358c1
-last_modified_at: 2023-11-12
+content_hash: e2a8c6e4a7eff8b302c71b1e279e2b91d81fdfef
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gsleep.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux sleep`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux sleep`

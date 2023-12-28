@@ -2,8 +2,8 @@
 layout: page
 title: osx/gsort (português (Portugal))
 description: "Este comando é um alias de `-p linux sort`."
-content_hash: 8238a5531a19c0031e5e4e7e4f40c93887bcd13d
-last_modified_at: 2023-11-12
+content_hash: a59d07c69b6b132f72a523e47c2c3fcb11b521b1
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gsort.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux sort`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux sort`

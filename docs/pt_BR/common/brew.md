@@ -2,8 +2,8 @@
 layout: page
 title: common/brew (português (Brasil))
 description: "A versão Linux do gerenciador de pacotes Homebrew."
-content_hash: bc21826e7b49f7fbc1dc1d336f6a44f49dd331f3
-last_modified_at: 2023-11-12
+content_hash: 1e468dabe9789a6007997e1882d76a9c72a0b96a
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/brew.html
@@ -36,34 +36,34 @@ tldri18n_status: 2
 A versão Linux do gerenciador de pacotes Homebrew.
 Mais informações: <https://docs.brew.sh/Manpage>.
 
-- Buscar por fórmulas disponíveis:
+- Busca por fórmulas disponíveis:
 
 `brew search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">termo_da_busca</span>
 
-- Instalar a última versão estável de uma fórmula (utilizar `--devel` para versões de desenvolvimento):
+- Instala a última versão estável de uma fórmula (utilizar `--devel` para versões de desenvolvimento):
 
 `brew install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">formula</span>
 
-- Listar as fórmulas instaladas:
+- Lista as fórmulas instaladas:
 
 `brew list`
 
-- Atualizar uma fórmula instalada (se não for informado o nome de uma fórmula, todas as fórmulas serão atualizadas):
+- Atualiza uma fórmula instalada (se não for informado o nome de uma fórmula, todas as fórmulas serão atualizadas):
 
 `brew upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">formula</span>
 
-- Recuperar a versão mais recente do Linuxbrew e de todas as fórmulas do GitHub:
+- Recupera a versão mais recente do Linuxbrew e de todas as fórmulas do GitHub:
 
 `brew update`
 
-- Exibir as fórmulas que possuem novas versões disponíveis:
+- Exibe as fórmulas que possuem novas versões disponíveis:
 
 `brew outdated`
 
-- Exibir informações sobre uma fórmula (versão, caminho de instalação, dependências, etc.):
+- Exibe informações sobre uma fórmula (versão, caminho de instalação, dependências, etc.):
 
 `brew info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">formula</span>
 
-- Verificar a instalação local em busca de possíveis problemas:
+- Verifica a instalação local em busca de possíveis problemas:
 
 `brew doctor`

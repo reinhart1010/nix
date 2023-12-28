@@ -2,8 +2,8 @@
 layout: page
 title: osx/gchown (português (Portugal))
 description: "Este comando é um alias de `-p linux chown`."
-content_hash: 6cb485912dd31382cf9734da922eb42c59545c41
-last_modified_at: 2023-11-12
+content_hash: e8487a90eb06f569b24a3a4714218c070e9226f6
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gchown.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux chown`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux chown`

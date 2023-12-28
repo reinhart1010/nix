@@ -2,8 +2,8 @@
 layout: page
 title: osx/gfold (português (Portugal))
 description: "Este comando é um alias de `-p linux fold`."
-content_hash: 776e7d71a697a1d8fa2748c234f1a82fb08f936a
-last_modified_at: 2023-11-12
+content_hash: 4ec41d4ff69cf7d031674ef22e9924b8c8d56004
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gfold.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux fold`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux fold`

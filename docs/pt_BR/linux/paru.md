@@ -2,8 +2,8 @@
 layout: page
 title: linux/paru (português (Brasil))
 description: "Um auxiliar do AUR e um wrapper do pacman."
-content_hash: 846aa4b90ffa7b59369f194cbc464a9550b096e5
-last_modified_at: 2023-11-12
+content_hash: e40c20c62809da0a76b5408b0d1cc106f6acc24a
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/linux/paru.html
@@ -22,7 +22,7 @@ Mais informações: <https://github.com/Morganamilo/paru>.
 
 `paru `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote_ou_termo_de_pesquisa</span>
 
-- Sincroniza e atualizar todos os pacotes:
+- Sincroniza e atualiza todos os pacotes:
 
 `paru`
 

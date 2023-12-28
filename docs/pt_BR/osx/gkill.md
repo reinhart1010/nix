@@ -2,8 +2,8 @@
 layout: page
 title: osx/gkill (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux kill`."
-content_hash: 8a3805d7bcdb92cb414b244e1471b61c57284c83
-last_modified_at: 2023-11-12
+content_hash: c68d7d7a95e79381eae6c58d13129ef5fbf060c5
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gkill.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux kill`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux kill`

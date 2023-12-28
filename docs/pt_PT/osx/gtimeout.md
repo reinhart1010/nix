@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtimeout (português (Portugal))
 description: "Este comando é um alias de `-p linux timeout`."
-content_hash: b707147339fe57b5a3b0fe51fd6b6086a969e050
-last_modified_at: 2023-11-12
+content_hash: 49615a9d19ef8966f969d513ee50331d8b4bb0c9
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gtimeout.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux timeout`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux timeout`

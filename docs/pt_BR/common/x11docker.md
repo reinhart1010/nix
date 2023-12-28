@@ -2,8 +2,8 @@
 layout: page
 title: common/x11docker (português (Brasil))
 description: "Executar aplicativos de GUI e interfaces de desktop seguramente em contêineres do Docker."
-content_hash: bbaf2836c71842d41277ae121904baa5e67ca973
-last_modified_at: 2023-11-12
+content_hash: 01c41d2c40a5dbdcf9533758f8aa9ea5d3698b17
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/x11docker.html
@@ -16,22 +16,22 @@ Executar aplicativos de GUI e interfaces de desktop seguramente em contêineres 
 Veja também `xephyr`.
 Mais informações: <https://github.com/mviereck/x11docker>.
 
-- Iniciar o VLC em um contêiner:
+- Inicia o VLC em um contêiner:
 
 `x11docker --pulseaudio --share=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$HOME/Videos</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jess/vlc</span>
 
-- Iniciar o Xfce em uma janela:
+- Inicia o Xfce em uma janela:
 
 `x11docker --desktop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x11docker/xfce</span>
 
-- Iniciar o GNOME em uma janela:
+- Inicia o GNOME em uma janela:
 
 `x11docker --desktop --gpu --init=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">systemd</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x11docker/gnome</span>
 
-- Iniciar o KDE Plasma em uma janela:
+- Inicia o KDE Plasma em uma janela:
 
 `x11docker --desktop --gpu --init=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">systemd</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x11docker/kde-plasma</span>
 
-- Exibir ajuda:
+- Exibe ajuda:
 
 `x11docker --help`

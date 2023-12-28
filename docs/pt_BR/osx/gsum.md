@@ -2,8 +2,8 @@
 layout: page
 title: osx/gsum (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux sum`."
-content_hash: 1aa28a7768e6f976e7c36e892a6d49833933cf61
-last_modified_at: 2023-11-12
+content_hash: 00ce0fd380dfb8a31aac2b6c69e4ffa05694431c
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gsum.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux sum`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux sum`

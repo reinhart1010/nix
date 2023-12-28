@@ -2,8 +2,8 @@
 layout: page
 title: common/transmission (português (Portugal))
 description: "Este comando é um alias de `transmission-daemon`."
-content_hash: 228cf31e0f17cd58bfac18283e33eb73bba00edd
-last_modified_at: 2023-11-12
+content_hash: 24398768f9beccda146fc26872bf51a265fe2725
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/transmission.html
@@ -99,6 +99,6 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Este comando é um alias de `transmission-daemon`.
 Mais informações: <https://transmissionbt.com/>.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr transmission-daemon`

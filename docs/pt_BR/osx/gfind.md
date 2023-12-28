@@ -2,8 +2,8 @@
 layout: page
 title: osx/gfind (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux find`."
-content_hash: 44c61961b80b6727698ee0c1e7eefd0cdb47f6e8
-last_modified_at: 2023-11-12
+content_hash: 9fc241d763650f32f1d28c328ce179a792cf72c6
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gfind.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux find`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux find`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/glibtoolize (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux libtoolize`."
-content_hash: 78d453fa685141f8cdf48bacc0381e523f363476
-last_modified_at: 2023-11-12
+content_hash: 224db0aae5e346d35e5ebede260d8a599eef17b4
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/glibtoolize.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux libtoolize`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux libtoolize`

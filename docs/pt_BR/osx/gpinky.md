@@ -2,8 +2,8 @@
 layout: page
 title: osx/gpinky (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux pinky`."
-content_hash: d2aca2f21e2faf717d4a736080c63d8092d26e9b
-last_modified_at: 2023-11-12
+content_hash: ac2c1de00e3f06b508eb0a963f56e7f6bfedae71
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gpinky.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux pinky`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux pinky`

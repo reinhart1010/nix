@@ -2,8 +2,8 @@
 layout: page
 title: common/google-chrome (português (Portugal))
 description: "Este comando é um alias de `chromium`."
-content_hash: 63947b62a3322d72708b3507bcfb14a3e06492b6
-last_modified_at: 2023-11-12
+content_hash: 256eeffc0db80899239ffaecddc36e1d15a51ffe
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/google-chrome.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando é um alias de `chromium`.
 Mais informações: <https://chrome.google.com>.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr chromium`

@@ -2,8 +2,8 @@
 layout: page
 title: common/rbenv (português (Brasil))
 description: "Ferramenta que facilita a instalação e gerenciamento de múltiplas versões da linguagem Ruby."
-content_hash: 6e4944cba1be7ab7d13bb5ba6a585eea355b983f
-last_modified_at: 2023-11-12
+content_hash: 4a398fbd9116e15ac1319cc1d631dc63991b13df
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/rbenv.html
@@ -21,30 +21,30 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Ferramenta que facilita a instalação e gerenciamento de múltiplas versões da linguagem Ruby.
 Mais informações: <https://github.com/rbenv/rbenv>.
 
-- Instalar uma ou mais versões, separadas por espaço:
+- Instala uma ou mais versões, separadas por espaço:
 
 `rbenv install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">uma_ou_mais_versoes</span>
 
-- Exibir a lista de versões instaladas:
+- Exibe a lista de versões instaladas:
 
 `rbenv versions`
 
-- Determinar uma versão específica para ser a instalação padrão:
+- Determina uma versão específica para ser a instalação padrão:
 
 `rbenv global `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versao</span>
 
-- Determinar uma versão específica para um projeto. Este comando deve ser executado no diretório do projeto:
+- Determina uma versão específica para um projeto. Este comando deve ser executado no diretório do projeto:
 
 `rbenv local `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versao</span>
 
-- Exibir a versão ativa:
+- Exibe a versão ativa:
 
 `rbenv version`
 
-- Remover uma versão:
+- Remove uma versão:
 
 `rbenv uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">versao</span>
 
-- Exibir todas as versões que contém um determinado executável:
+- Exibe todas as versões que contém um determinado executável:
 
 `rbenv whence `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executavel</span>

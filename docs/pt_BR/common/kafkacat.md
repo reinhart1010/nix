@@ -2,8 +2,8 @@
 layout: page
 title: common/kafkacat (português (Brasil))
 description: "Este comando é um pseudônimo de `kcat`."
-content_hash: 0d46334978ca0176e76e545fc412fd7545172fd7
-last_modified_at: 2023-11-12
+content_hash: 51df72bb546944e98ae806b37d795a8daa9cb587
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/kafkacat.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `kcat`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr kcat`

@@ -2,8 +2,8 @@
 layout: page
 title: common/convert (português (Brasil))
 description: "Ferramenta de conversão de imagens da ImageMagick."
-content_hash: 50eaf4e4066f916774b68b869a00c881568f31c8
-last_modified_at: 2023-11-12
+content_hash: 4c17ac483f0f9b6c374bdc528813a27da4677fdd
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/convert.html
@@ -30,26 +30,26 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Ferramenta de conversão de imagens da ImageMagick.
 Mais informações: <https://imagemagick.org/script/convert.php>.
 
-- Converter uma imagem do formato JPG para o formato PNG:
+- Converte uma imagem do formato JPG para o formato PNG:
 
 `convert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem.jpg</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem.png</span>
 
-- Escalar uma imagem para 50% do seu tamanho original:
+- Escala uma imagem para 50% do seu tamanho original:
 
 `convert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem.png</span>` -resize 50% `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nova_imagem.png</span>
 
-- Escalar uma imagem, mantendo as suas proporções originais, para uma dimensão máxima de 640x480:
+- Escala uma imagem, mantendo as suas proporções originais, para uma dimensão máxima de 640x480:
 
 `convert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem.png</span>` -resize 640x480 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nova_imagem.png</span>
 
-- Juntar várias imagens horizontalmente:
+- Junta várias imagens horizontalmente:
 
 `convert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem1.png</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem2.png</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem3.png</span>` +append `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nova_imagem.png</span>
 
-- Criar um GIF a partir de uma série de imagens, com um intervalo de 100ms entre elas:
+- Cria um GIF a partir de uma série de imagens, com um intervalo de 100ms entre elas:
 
 `convert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem1.png</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem2.png</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem3.png</span>` -delay `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nova_imagem.gif</span>
 
-- Criar uma nova imagem de tamanho 800x600 com apenas um fundo sólido vermelho:
+- Cria uma nova imagem de tamanho 800x600 com apenas um fundo sólido vermelho:
 
 `convert -size `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">800x600</span>` "xc:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">#ff0000</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem.png</span>

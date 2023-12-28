@@ -2,8 +2,8 @@
 layout: page
 title: osx/gstat (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux stat`."
-content_hash: 57de927812492145c17b02e5d633c3d638402a68
-last_modified_at: 2023-11-12
+content_hash: 8b8c4ec0757917c36cac5f95870813e63135c699
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gstat.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux stat`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux stat`

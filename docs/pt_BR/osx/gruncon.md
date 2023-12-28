@@ -2,8 +2,8 @@
 layout: page
 title: osx/gruncon (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux runcon`."
-content_hash: 16a21e00a87dbf06f8e7fa7b4c3253fdcfeb48ea
-last_modified_at: 2023-11-12
+content_hash: deaf5a805573c71faee90e7f44c75e41875d607e
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gruncon.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux runcon`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux runcon`

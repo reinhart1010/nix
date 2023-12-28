@@ -2,8 +2,8 @@
 layout: page
 title: windows/chrome (português (Portugal))
 description: "Este comando é um alias de `chromium`."
-content_hash: 6f52b0cacd702d5c52beff6a2f8ad4fbae32025a
-last_modified_at: 2023-11-12
+content_hash: f0074ff1d2631fdb1a1e13412be17309e463b8df
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/windows/chrome.html
@@ -99,6 +99,6 @@ tldri18n_status: 2
 Este comando é um alias de `chromium`.
 Mais informações: <https://chrome.google.com>.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr chromium`

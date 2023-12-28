@@ -2,8 +2,8 @@
 layout: page
 title: common/platformio (português (Portugal))
 description: "Este comando é um alias de `pio`."
-content_hash: f05d2aa03ffb1d10f320190d8fc276a63230f0b5
-last_modified_at: 2023-11-12
+content_hash: 4afadc73a3155b83676552306531330d2ede663f
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/platformio.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando é um alias de `pio`.
 Mais informações: <https://docs.platformio.org/en/latest/core/userguide/>.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr pio`

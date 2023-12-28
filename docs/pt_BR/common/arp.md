@@ -2,8 +2,8 @@
 layout: page
 title: common/arp (português (Brasil))
 description: "Mostrar e manipular a cache ARP do sistema."
-content_hash: 8b89f732474866bbf2f19c649d0211604ede9968
-last_modified_at: 2023-11-12
+content_hash: 4d3784368767b7990b56d2980bbae5b720a5ed09
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/arp.html
@@ -36,14 +36,14 @@ tldri18n_status: 2
 Mostrar e manipular a cache ARP do sistema.
 Mais informações: <https://manned.org/arp>.
 
-- Mostrar a tabela arp atual:
+- Mostra a tabela arp atual:
 
 `arp -a`
 
-- Eliminar uma entrada específica:
+- Elimina uma entrada específica:
 
 `arp -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">endereço</span>
 
-- Criar uma entrada:
+- Cria uma entrada:
 
 `arp -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">endereço</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">endereço_mac</span>

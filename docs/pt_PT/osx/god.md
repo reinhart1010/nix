@@ -2,8 +2,8 @@
 layout: page
 title: osx/god (português (Portugal))
 description: "Este comando é um alias de `-p linux od`."
-content_hash: d46e5c897463ea03752a61cc2efda0ad0e8dd3e8
-last_modified_at: 2023-11-12
+content_hash: 11e3dbd88e6a10026773d210ec5a8e83c6ac0c4f
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/god.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux od`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux od`

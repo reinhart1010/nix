@@ -2,8 +2,8 @@
 layout: page
 title: linux/ncal (português (Brasil))
 description: "Este comando é um pseudônimo de `cal`."
-content_hash: 81ae17a3c30a5f18fb77899c7578211bb04332c3
-last_modified_at: 2023-11-12
+content_hash: ca3efa2778f21c3b7160987c6af9ef612cb0ddc7
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/linux/ncal.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando é um pseudônimo de `cal`.
 Mais informações: <https://manned.org/ncal>.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr cal`

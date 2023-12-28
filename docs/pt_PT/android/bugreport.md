@@ -2,8 +2,8 @@
 layout: page
 title: android/bugreport (português (Portugal))
 description: "Mostra um relatório de bugs do Android."
-content_hash: 79341424952105105c0116c4327822d0e692e3d9
-last_modified_at: 2023-11-12
+content_hash: d95a29b7d993cfeaeefdc7cb2bdc420c1a6aac19
+last_modified_at: 2023-12-28
 related_topics:
   - title: বাংলা version
     url: /bn/android/bugreport.html
@@ -76,6 +76,6 @@ Mostra um relatório de bugs do Android.
 Este comando só pode ser utilizado com a `adb shell`.
 Mais informações: <https://cs.android.com/android/platform/superproject/+/main:frameworks/native/cmds/bugreport>.
 
-- Mostrar um relatório completo de bugs de um dispositivo Android:
+- Mostra um relatório completo de bugs de um dispositivo Android:
 
 `bugreport`

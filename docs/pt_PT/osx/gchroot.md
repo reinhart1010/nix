@@ -2,8 +2,8 @@
 layout: page
 title: osx/gchroot (português (Portugal))
 description: "Este comando é um alias de `-p linux chroot`."
-content_hash: afbc310ae26d720ced93fe12fd67c91acd9864dc
-last_modified_at: 2023-11-12
+content_hash: 8ef81c9d05b642f12a2ca57468062438d8e458ae
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gchroot.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux chroot`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux chroot`

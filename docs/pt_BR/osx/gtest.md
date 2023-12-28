@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtest (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux test`."
-content_hash: edd7ffd58362543feb618bae6af7e7c5d47ee930
-last_modified_at: 2023-11-12
+content_hash: bc9d06f0e39b4747f1f82f8ca34c5f1475e4bb71
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gtest.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux test`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux test`

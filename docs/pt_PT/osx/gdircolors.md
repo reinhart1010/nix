@@ -2,8 +2,8 @@
 layout: page
 title: osx/gdircolors (português (Portugal))
 description: "Este comando é um alias de `-p linux dircolors`."
-content_hash: 7b9767d93056eaba104ed1d21b14a0f8b13a4ab3
-last_modified_at: 2023-11-12
+content_hash: 896ce2f2c40ac569019b7bc3cf5d6a3cc26bbd54
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gdircolors.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux dircolors`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux dircolors`

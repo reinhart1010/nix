@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-delete (português (Portugal))
 description: "Este comando é um alias de `fossil rm`."
-content_hash: 1a7bbd0e373febbdaf5db30b3318dbb2f8af1302
-last_modified_at: 2023-11-12
+content_hash: 74c15dcc8d9dcaa029aa9f9abef3089f55afb4b8
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-delete.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando é um alias de `fossil rm`.
 Mais informações: <https://fossil-scm.org/home/help/delete>.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr fossil rm`

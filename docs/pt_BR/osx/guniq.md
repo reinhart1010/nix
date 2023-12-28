@@ -2,8 +2,8 @@
 layout: page
 title: osx/guniq (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux uniq`."
-content_hash: 6214555320b99dd354074ffd4372b34ff2e08402
-last_modified_at: 2023-11-12
+content_hash: 138d9ada6d0c219aad7d2d07f344296e47066e3a
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/guniq.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux uniq`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux uniq`

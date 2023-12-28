@@ -2,8 +2,8 @@
 layout: page
 title: osx/gpwd (português (Portugal))
 description: "Este comando é um alias de `-p linux pwd`."
-content_hash: 0175f6547fddfb10eeb5fabc11b502870c15b1cd
-last_modified_at: 2023-11-12
+content_hash: da2fdb1e42ccf37cf159af8800d7516ea9e40f87
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gpwd.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux pwd`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux pwd`

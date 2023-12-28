@@ -2,8 +2,8 @@
 layout: page
 title: android/am (português (Portugal))
 description: "Gestor de atividades do Android (Activity Manager)."
-content_hash: e70d96c46fc59bf378f97b41d97d847a0f0f8ecb
-last_modified_at: 2023-11-12
+content_hash: b9e439f2c3f1f363ef106b9af40ce61f0189de97
+last_modified_at: 2023-12-28
 related_topics:
   - title: বাংলা version
     url: /bn/android/am.html
@@ -75,18 +75,18 @@ tldri18n_status: 2
 Gestor de atividades do Android (Activity Manager).
 Mais informações: <https://developer.android.com/studio/command-line/adb#am>.
 
-- Iniciar uma atividade específica:
+- Inicia uma atividade específica:
 
 `am start -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.android.settings/.Settings</span>
 
-- Iniciar uma atividade e passar-lhe dados:
+- Inicia uma atividade e passar-lhe dados:
 
 `am start -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.action.VIEW</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tel:123</span>
 
-- Iniciar uma atividade com uma ação e categoria específicas:
+- Inicia uma atividade com uma ação e categoria específicas:
 
 `am start -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.action.MAIN</span>` -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.category.HOME</span>
 
-- Converter um `intent` num URI:
+- Converte um `intent` num URI:
 
 `am to-uri -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">android.intent.action.VIEW</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tel:123</span>

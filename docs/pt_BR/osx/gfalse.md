@@ -2,8 +2,8 @@
 layout: page
 title: osx/gfalse (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux false`."
-content_hash: 294d935806c7e7cef8492f25b88a1340875de918
-last_modified_at: 2023-11-12
+content_hash: dd8325470d2a170f3697b4714eb54adf5b93ad4d
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gfalse.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux false`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux false`

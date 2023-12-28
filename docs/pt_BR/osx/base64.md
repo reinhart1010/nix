@@ -2,8 +2,8 @@
 layout: page
 title: osx/base64 (português (Brasil))
 description: "Codifica e decodifica usando a representação Base64."
-content_hash: 77846bcefbe5aed8fc41f895becdb1a74fa4206f
-last_modified_at: 2023-11-12
+content_hash: 56aae8398e3e6279c8004978b54b75416821a720
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/osx/base64.html
@@ -27,18 +27,18 @@ tldri18n_status: 2
 Codifica e decodifica usando a representação Base64.
 Mais informações: <https://www.unix.com/man-page/osx/1/base64/>.
 
-- Codificar um arquivo:
+- Codifica um arquivo:
 
 `base64 --input=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo</span>
 
-- Decodificar um arquivo:
+- Decodifica um arquivo:
 
 `base64 --decode --input=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_base64</span>
 
-- Codificar de `stdin`:
+- Codifica de `stdin`:
 
 `echo -n "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">texto</span>`" | base64`
 
-- Decodificar de `stdin`:
+- Decodifica de `stdin`:
 
 `echo -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">texto_base64</span>` | base64 --decode`

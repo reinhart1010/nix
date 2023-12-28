@@ -2,8 +2,8 @@
 layout: page
 title: linux/distrobox-create (português (Brasil))
 description: "Criar um contêiner Distrobox. Veja também: `tldr distrobox`."
-content_hash: 3d1532cc76d8f399ed2f335960bd3839dfbb39c0
-last_modified_at: 2023-11-26
+content_hash: e9140c7c2b26beb2908fcd109eeef5ac5bb3f0d1
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/linux/distrobox-create.html
@@ -22,10 +22,10 @@ Criar um contêiner Distrobox. Veja também: `tldr distrobox`.
 O contêiner criado será integrado ao sistema host, permitindo o compartilhamento do diretório HOME do usuário, armazenamento externo, dispositivos USB externos, aplicativos gráficos (X11/Wayland) e áudio.
 Mais informações: <https://distrobox.it/usage/distrobox-create>.
 
-- Criar um contêiner Distrobox usando a imagem do Ubuntu:
+- Cria um contêiner Distrobox usando a imagem do Ubuntu:
 
 `distrobox-create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_contêiner</span>` --image `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ubuntu:latest</span>
 
-- Clonar um contêiner Distrobox:
+- Clona um contêiner Distrobox:
 
 `distrobox-create --clone `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_contêiner</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_contêiner_clonado</span>

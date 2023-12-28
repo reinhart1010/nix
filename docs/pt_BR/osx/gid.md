@@ -2,8 +2,8 @@
 layout: page
 title: osx/gid (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux id`."
-content_hash: ba88dafab4c8d252a78791f1e8ca62f99409a30d
-last_modified_at: 2023-11-12
+content_hash: 3aacc721dcc55d9bc5775a96dfc3f777f9d15dda
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gid.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux id`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux id`

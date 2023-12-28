@@ -2,8 +2,8 @@
 layout: page
 title: osx/ged (português (Portugal))
 description: "Este comando é um alias de `-p linux ed`."
-content_hash: df6ae0daebd4e5d75c3113a39a6c27c235396008
-last_modified_at: 2023-11-12
+content_hash: 56fe47e0987aa7dd05d6bb3aab3492738ed74e23
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/ged.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux ed`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux ed`

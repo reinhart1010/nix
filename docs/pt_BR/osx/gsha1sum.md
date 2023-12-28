@@ -2,8 +2,8 @@
 layout: page
 title: osx/gsha1sum (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux sha1sum`."
-content_hash: 404b7b3d0f594ef28a87c88527a3b99d68289348
-last_modified_at: 2023-11-12
+content_hash: 961f59016e14c5c37624ffd6f9777e23ff90a859
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gsha1sum.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux sha1sum`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux sha1sum`

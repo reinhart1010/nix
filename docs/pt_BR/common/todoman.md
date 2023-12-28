@@ -2,8 +2,8 @@
 layout: page
 title: common/todoman (português (Brasil))
 description: "Este comando é um pseudônimo de `todo`."
-content_hash: cc117f1300892a1f6f91c91bd6b7086280107bdf
-last_modified_at: 2023-11-12
+content_hash: b935d4732455bd61f7724a660211f28206dbbe80
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/todoman.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando é um pseudônimo de `todo`.
 Mais informações: <https://todoman.readthedocs.io/>.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr todo`

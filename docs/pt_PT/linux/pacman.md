@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman (português (Portugal))
 description: "Utilitário para gerir pacotes Arch Linux."
-content_hash: 918c58ab687815c2f55bab1e3f4e9cb578b90c68
-last_modified_at: 2023-11-12
+content_hash: 60e8c9334ef3c513cb2d5e45803f78218b3e4a11
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -46,34 +46,34 @@ Utilitário para gerir pacotes Arch Linux.
 Veja também: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
 Mais informações: <https://man.archlinux.org/man/pacman.8>.
 
-- Sincronizar e actualizar todos os pacotes:
+- Sincroniza e actualiza todos os pacotes:
 
 `sudo pacman -Syu`
 
-- Instalar um novo pacote:
+- Instala um novo pacote:
 
 `sudo pacman -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
 
-- Remover um pacote e todas as dependencias:
+- Remove um pacote e todas as dependencias:
 
 `sudo pacman -Rs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span>
 
-- Procurar um pacote na base de dados por palavra chave ou expressão regular (regex):
+- Procura um pacote na base de dados por palavra chave ou expressão regular (regex):
 
 `pacman -Ss "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`"`
 
-- Listar versão dos pactotes instalados:
+- Lista versão dos pactotes instalados:
 
 `pacman -Q`
 
-- Listar versão dos pactotes instalados explicitamente:
+- Lista versão dos pactotes instalados explicitamente:
 
 `pacman -Qe`
 
-- Listar pacotes órfãos (instalados como dependencia mas não exigidos por nenhum pacote):
+- Lista pacotes órfãos (instalados como dependencia mas não exigidos por nenhum pacote):
 
 `pacman -Qtdq`
 
-- Remover memória armazenada (cache) do `pacman`:
+- Remove memória armazenada (cache) do `pacman`:
 
 `sudo pacman -Scc`

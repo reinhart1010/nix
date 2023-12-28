@@ -2,8 +2,8 @@
 layout: page
 title: osx/gdate (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux date`."
-content_hash: ebecd75563d15884da18e9745ba997d83bc56138
-last_modified_at: 2023-11-12
+content_hash: ae80a8519d476a349799e14288f6b8658be422cb
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gdate.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux date`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux date`

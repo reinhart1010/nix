@@ -2,8 +2,8 @@
 layout: page
 title: osx/gshred (português (Portugal))
 description: "Este comando é um alias de `-p linux shred`."
-content_hash: 9d4919a2c3783de06f4946b53297311e743abaff
-last_modified_at: 2023-11-12
+content_hash: d4de4b77dcac3cfe57574a7255c294234384a7d3
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gshred.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux shred`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux shred`

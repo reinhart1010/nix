@@ -2,8 +2,8 @@
 layout: page
 title: common/batch (português (Portugal))
 description: "Executar comandos num momento mais tarde quando a carga do sistema permitir."
-content_hash: fb1d41d1578808ee5962b1904318ebc684eee82e
-last_modified_at: 2023-11-12
+content_hash: 714a50da95ea987ba910c7589c90ee1154338876
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/batch.html
@@ -25,14 +25,14 @@ Executar comandos num momento mais tarde quando a carga do sistema permitir.
 O serviço atd (ou atrun) deve correr para atuais execuções.
 Mais informações: <https://manned.org/batch>.
 
-- Executar comandos da entrada padrão (premir `Ctrl + D` quando terminado):
+- Executa comandos da entrada padrão (premir `Ctrl + D` quando terminado):
 
 `batch`
 
-- Executar um comando da entrada padrão:
+- Executa um comando da entrada padrão:
 
 `echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./criar_copia_bd.sh</span>`" | batch`
 
-- Executar comandos de um dado ficheiro:
+- Executa comandos de um dado ficheiro:
 
 `batch -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/ficheiro</span>

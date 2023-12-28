@@ -2,8 +2,8 @@
 layout: page
 title: osx/ghostid (português (Portugal))
 description: "Este comando é um alias de `-p linux hostid`."
-content_hash: 9058b94c9d689fe37cf00403e078baef15362486
-last_modified_at: 2023-11-12
+content_hash: c8f582f0605bfeef7862accc553d828e08ddea11
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/ghostid.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux hostid`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux hostid`

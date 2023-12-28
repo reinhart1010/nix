@@ -2,8 +2,8 @@
 layout: page
 title: osx/gdir (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux dir`."
-content_hash: 08ac4a0b99a93a3eb09b4ed43e6844160d70c629
-last_modified_at: 2023-11-12
+content_hash: e7c4febe2169970ecfdfd7dd667f182ff46027e3
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gdir.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux dir`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux dir`

@@ -2,8 +2,8 @@
 layout: page
 title: common/hx (português (Portugal))
 description: "Este comando é um alias de `helix`."
-content_hash: 31f8838368a82efb05b00aefeb6563a21332925c
-last_modified_at: 2023-11-12
+content_hash: 6e6c1b008e55ed67f59bc34d10dbb9c14598ecea
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/hx.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `helix`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr helix`

@@ -2,8 +2,8 @@
 layout: page
 title: common/arch (português (Brasil))
 description: "Exibir o nome da arquitetura do sistema."
-content_hash: 97c2432bcf65640cadc9ff23c531d7269603cfde
-last_modified_at: 2023-11-12
+content_hash: 09f5c376f4f4b46dd79f55da72d2e44f3328098e
+last_modified_at: 2023-12-28
 related_topics:
   - title: বাংলা version
     url: /bn/common/arch.html
@@ -52,6 +52,6 @@ Exibir o nome da arquitetura do sistema.
 Veja também `uname`.
 Mais informações: <https://www.gnu.org/software/coreutils/arch>.
 
-- Exibir a arquitetura do sistema:
+- Exibe a arquitetura do sistema:
 
 `arch`

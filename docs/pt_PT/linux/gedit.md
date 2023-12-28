@@ -2,8 +2,8 @@
 layout: page
 title: linux/gedit (português (Portugal))
 description: "Editor de texto para Desktop do GNOME."
-content_hash: 1d6cea55a2b98b8a1bd4e88c8355d94b7ca2b5d1
-last_modified_at: 2023-11-12
+content_hash: 030a20452e11e6ac71a22a8f394b63d110524364
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/linux/gedit.html
@@ -24,18 +24,18 @@ tldri18n_status: 2
 Editor de texto para Desktop do GNOME.
 Mais informações: <https://help.gnome.org/users/gedit/stable/>.
 
-- Abrir ficheiro de texto:
+- Abre um ficheiro de texto:
 
 `gedit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ficheiro</span>
 
-- Abrir múltiplos ficheiros de texto:
+- Abre múltiplos ficheiros de texto:
 
 `gedit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ficheiro1 ficheiro2</span>
 
-- Mostrar a lista de formatações de texto disponíveis:
+- Mostra a lista de formatações de texto disponíveis:
 
 `gedit --list-encodings`
 
-- Abrir um ficheiro de texto com uma formatação específica:
+- Abre um ficheiro de texto com uma formatação específica:
 
 `gedit --encoding=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">encoding</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ficheiro</span>

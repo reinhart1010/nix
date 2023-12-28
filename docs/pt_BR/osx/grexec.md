@@ -2,8 +2,8 @@
 layout: page
 title: osx/grexec (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux rexec`."
-content_hash: b752af4f5b93de29e117ad72d9f8a82d319afdd6
-last_modified_at: 2023-11-12
+content_hash: 40bb54606b05f4b7d102c774d4bf1080c528b282
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/grexec.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux rexec`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux rexec`

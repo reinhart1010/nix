@@ -2,8 +2,8 @@
 layout: page
 title: osx/glogger (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux logger`."
-content_hash: 5f9044b3c592943e2995a75be6cc97e326a8ddd9
-last_modified_at: 2023-11-12
+content_hash: a6c1cdb7ab71e57f67cc3f73b4c94499a6ff49ed
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/glogger.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux logger`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux logger`

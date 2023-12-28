@@ -2,8 +2,8 @@
 layout: page
 title: osx/gnproc (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux nproc`."
-content_hash: 1b3957817c6ef45f0c896629440f1c2f97152edc
-last_modified_at: 2023-11-12
+content_hash: 3e67d5a27654ab8bd76e2d9259a15665d01493a6
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gnproc.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux nproc`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux nproc`

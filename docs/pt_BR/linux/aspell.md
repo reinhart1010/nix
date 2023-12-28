@@ -2,8 +2,8 @@
 layout: page
 title: linux/aspell (português (Brasil))
 description: "Verificador ortográfico interativo."
-content_hash: 72d7799160faacf9d562d869f1f1473c4e2d90e6
-last_modified_at: 2023-11-12
+content_hash: 743eecbb3c73f3fe3d0247b39afe5e3bf61f6a4c
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/linux/aspell.html
@@ -27,22 +27,22 @@ tldri18n_status: 2
 Verificador ortográfico interativo.
 Mais informações: <http://aspell.net/>.
 
-- Verificar a ortografia do texto de um arquivo:
+- Verifica a ortografia do texto de um arquivo:
 
 `aspell check `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo</span>
 
-- Exibir as palavras escritas incorretamente no terminal:
+- Exibe as palavras escritas incorretamente no terminal:
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo</span>` | aspell list`
 
-- Exibir os dicionários disponíveis:
+- Exibe os dicionários disponíveis:
 
 `aspell dicts`
 
-- Executar `aspell` utilizando uma língua diferente (informe o código ISO 639 da língua):
+- Executa `aspell` utilizando uma língua diferente (informe o código ISO 639 da língua):
 
 `aspell --lang=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cs</span>
 
-- Exibir os erros ortográficos no terminal e ignorando as palavras da lista pessoal:
+- Exibe os erros ortográficos no terminal e ignorando as palavras da lista pessoal:
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo</span>` | aspell --personal=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lista_pessoal.pws</span>` list`

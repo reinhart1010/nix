@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-install (português (Brasil))
 description: "Android Debug Bridge Install: Instalar apps em uma instância do Android emulator ou dispositivos conectados."
-content_hash: 019fb190b363cb8e56a286fd020c0e1dd85f3bb1
-last_modified_at: 2023-11-12
+content_hash: 29a0e55c8a07dc0547d90a3e98bafdd8be4a9efd
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/adb-install.html
@@ -32,12 +32,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/adb-install.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># adb install
+# adb install
 
 Android Debug Bridge Install: Instalar apps em uma instância do Android emulator ou dispositivos conectados.
 Mais informações: <https://developer.android.com/studio/command-line/adb>.
@@ -46,9 +43,17 @@ Mais informações: <https://developer.android.com/studio/command-line/adb>.
 
 `adb install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.apk</span>
 
+- Instala um app Android em um emulador/dispositivo específico (sobrepõe `$ANDROID_SERIAL`):
+
+`adb -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">numero_de_serie</span>` install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.apk</span>
+
 - Reinstala um app existente, mantendo seus dados:
 
 `adb install -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.apk</span>
+
+- Instala um app Android permitindo um downgrade de versão de código (apenas pacotes depuráveis):
+
+`adb install -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.apk</span>
 
 - Concede todas as permissões listadas no manifesto do app:
 

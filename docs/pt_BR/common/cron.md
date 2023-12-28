@@ -2,8 +2,8 @@
 layout: page
 title: common/cron (português (Brasil))
 description: "Este comando é um pseudônimo de `crontab`."
-content_hash: 6556bdda9ace487834ecbc3c8d8a08dab1020892
-last_modified_at: 2023-11-12
+content_hash: 9fa61003400f49267de36f40d2dc9e88447a1b5f
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/cron.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `crontab`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr crontab`

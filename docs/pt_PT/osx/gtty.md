@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtty (português (Portugal))
 description: "Este comando é um alias de `-p linux tty`."
-content_hash: 78243f6a107cb67863188dad377eb30060bb48b0
-last_modified_at: 2023-11-12
+content_hash: ff351e6a2e939231d91db33336f9e6ff6fbe299c
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gtty.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux tty`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux tty`

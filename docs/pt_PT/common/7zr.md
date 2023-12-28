@@ -2,8 +2,8 @@
 layout: page
 title: common/7zr (português (Portugal))
 description: "Compactador de arquivos com uma alta taxa de compressão."
-content_hash: fb53f4ecf2cb32e25bb771cf0d37cd496e9c3c1f
-last_modified_at: 2023-12-25
+content_hash: 623525dbecca6bbb0aa2af8d2047b20397abb55f
+last_modified_at: 2023-12-28
 related_topics:
   - title: বাংলা version
     url: /bn/common/7zr.html
@@ -61,7 +61,7 @@ Compactador de arquivos com uma alta taxa de compressão.
 Semelhante ao '7z', com a diferença que suporta apenas ficheiros '.7z'.
 Mais informações: <https://manned.org/7zr>.
 
-- Adicionar um ficheiro ou diretório a um novo ou existente arquivo:
+- Adiciona um ficheiro ou diretório a um novo ou existente arquivo:
 
 `7zr a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_compactado.7z</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/ficheiro_ou_diretório</span>
 
@@ -69,18 +69,18 @@ Mais informações: <https://manned.org/7zr>.
 
 `7zr a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/ficheiro_encriptado.7z</span>` -p`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">palavra-passe</span>` -mhe=on `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_compactado.7z</span>
 
-- Descompactar um arquivo mantendo a estrutura de diretórios original:
+- Descompacta um arquivo mantendo a estrutura de diretórios original:
 
 `7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_compactado.7z</span>
 
-- Descompactar um arquivo para um diretório especificado pelo utilizador:
+- Descompacta um arquivo para um diretório especificado pelo utilizador:
 
 `7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_compactado.7z</span>` -o`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span>
 
-- Descompactar um arquivo para a saída padrão (stdout):
+- Descompacta um arquivo para a saída padrão (stdout):
 
 `7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_compactado.7z</span>` -so`
 
-- Listar os conteúdos de um arquivo:
+- Lista os conteúdos de um arquivo:
 
 `7zr l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_compactado.7z</span>

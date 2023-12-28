@@ -2,8 +2,8 @@
 layout: page
 title: osx/g[ (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux [`."
-content_hash: 4df9598d8aa5b6ff81aca5ee3eba49e4235f02c8
-last_modified_at: 2023-11-12
+content_hash: b9d04346971db4da5b36c46ef1f351ef7963ba34
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/g[.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux [`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux [`

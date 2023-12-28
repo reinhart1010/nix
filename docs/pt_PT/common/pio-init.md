@@ -2,8 +2,8 @@
 layout: page
 title: common/pio-init (português (Portugal))
 description: "Este comando é um alias de `pio project`."
-content_hash: cf413b600a61b8a689c1d3eb8979fff65f82eb33
-last_modified_at: 2023-11-12
+content_hash: d9e87f7620c316157797cddde5381971a78e6496
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/pio-init.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `pio project`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr pio project`

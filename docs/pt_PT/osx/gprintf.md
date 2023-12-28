@@ -2,8 +2,8 @@
 layout: page
 title: osx/gprintf (português (Portugal))
 description: "Este comando é um alias de `-p linux printf`."
-content_hash: 6675a69b19dd4432b21cc8e803abb24e24d04d20
-last_modified_at: 2023-11-12
+content_hash: 5664240da917f7c419069b59dd6a9caba98c5be2
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gprintf.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux printf`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux printf`

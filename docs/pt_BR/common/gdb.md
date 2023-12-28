@@ -2,8 +2,8 @@
 layout: page
 title: common/gdb (português (Brasil))
 description: "O depurador GNU."
-content_hash: ed7b3fb0164232a36fa57a7431c9b39bd38a2768
-last_modified_at: 2023-11-12
+content_hash: 443c17da14d33b8073df83f912cbf77b90268ab3
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/gdb.html
@@ -27,15 +27,15 @@ tldri18n_status: 2
 O depurador GNU.
 Mais informações: <https://www.gnu.org/software/gdb>.
 
-- Depurar um executável:
+- Depura um executável:
 
 `gdb `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executável</span>
 
-- Vincular um processo ao gdb:
+- Vincula um processo ao gdb:
 
 `gdb -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">PID</span>
 
-- Depurar usando um arquivo de "core dump":
+- Depura usando um arquivo de "core dump":
 
 `gdb -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">core</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">executável</span>
 

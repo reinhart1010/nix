@@ -2,8 +2,8 @@
 layout: page
 title: common/sudo (português (Brasil))
 description: "Executa um único comando como o Superuser, ou como outro usuário."
-content_hash: 168f776e48aae17c9093c92ced3d27992fe2c876
-last_modified_at: 2023-12-27
+content_hash: 227d722ca2a1c2168f02413b687f2a6f1f460418
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/sudo.html
@@ -40,11 +40,11 @@ Mais informações: <https://www.sudo.ws/sudo.html>.
 
 `sudo !!`
 
-- Abre o shell padrão com privilégios de Superuser e executar arquivos de login (`.profile`, `.bash_profile`, etc.):
+- Abre o shell padrão com privilégios de Superuser e executa arquivos de login (`.profile`, `.bash_profile`, etc.):
 
 `sudo --login`
 
-- Abre o shell padrão com privilégios de Superuser sem alterar o ambiente de execução:
+- Abre o shell padrão com privilégios de Superuser sem altera o ambiente de execução:
 
 `sudo --shell`
 

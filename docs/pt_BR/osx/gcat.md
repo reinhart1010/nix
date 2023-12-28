@@ -2,8 +2,8 @@
 layout: page
 title: osx/gcat (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux cat`."
-content_hash: e4a707e372c196ecf20f8c1a99734a6b54b64ebf
-last_modified_at: 2023-11-12
+content_hash: 20ecf3f1d480f66b553ad8823c1ab04832a70b6e
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gcat.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux cat`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux cat`

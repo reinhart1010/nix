@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtouch (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux touch`."
-content_hash: f06e706df7a7eac1375c39568c23efe968ca6258
-last_modified_at: 2023-11-12
+content_hash: c8254648ed75a1dbcf7b239ab84323635b2bb334
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gtouch.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux touch`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux touch`

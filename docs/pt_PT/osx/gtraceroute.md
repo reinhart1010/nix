@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtraceroute (português (Portugal))
 description: "Este comando é um alias de `-p linux traceroute`."
-content_hash: bbd42fdbc3a6ba73061999912ef0423357c3fb35
-last_modified_at: 2023-11-12
+content_hash: d9a8ad2d65245655564d823fc2529baabf5af9db
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gtraceroute.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux traceroute`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux traceroute`

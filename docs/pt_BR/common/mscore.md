@@ -2,8 +2,8 @@
 layout: page
 title: common/mscore (português (Brasil))
 description: "Este comando é um pseudônimo de `musescore`."
-content_hash: 74823a50241ee74e7105fa08905e7cee3320ab86
-last_modified_at: 2023-11-12
+content_hash: 28c68262fe276ed188d382c67dcaae30564a43a9
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/mscore.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando é um pseudônimo de `musescore`.
 Mais informações: <https://musescore.org/handbook/command-line-options>.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr musescore`

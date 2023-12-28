@@ -2,8 +2,8 @@
 layout: page
 title: common/axel (português (Brasil))
 description: "Acelerador de downloads."
-content_hash: 0dec7a621b9004a66f758e8cb3e2e2fe1fac7e76
-last_modified_at: 2023-11-12
+content_hash: e53e8386ae563621c41e30306ca8a500fe53a1fa
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/axel.html
@@ -31,22 +31,22 @@ Acelerador de downloads.
 Suporta HTTP, HTTPS, e FTP.
 Mais informações: <https://github.com/axel-download-accelerator/axel>.
 
-- Fazer download de uma URL para um arquivo:
+- Faz download de uma URL para um arquivo:
 
 `axel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
-- Fazer download especificando o nome do arquivo de destino:
+- Faz download especificando o nome do arquivo de destino:
 
 `axel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_arquivo</span>
 
-- Fazer download usando múltiplas conexões:
+- Faz download usando múltiplas conexões:
 
 `axel -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número_de_conexões</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
-- Procurar por mirrors:
+- Procura por mirrors:
 
 `axel -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número_de_mirrors</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
-- Limitar velocidade de download (em bytes por segundo):
+- Limita a velocidade de download (em bytes por segundo):
 
 `axel -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">velocidade</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>

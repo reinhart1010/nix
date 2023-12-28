@@ -2,8 +2,8 @@
 layout: page
 title: osx/gstty (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux stty`."
-content_hash: 47ec47662581da8c6abe0d8f905226a3a1ab4ed1
-last_modified_at: 2023-11-12
+content_hash: 46650c0919dfaca65ede86a53217584ac4d4cecd
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gstty.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux stty`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux stty`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gdate (português (Portugal))
 description: "Este comando é um alias de `-p linux date`."
-content_hash: 83018ca1474b66431b2c7d4bd7e5d803cfd0fe22
-last_modified_at: 2023-11-12
+content_hash: 5803648174c869dd8d98d9c08833e9732be07c91
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gdate.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux date`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux date`

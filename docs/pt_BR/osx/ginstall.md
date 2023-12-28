@@ -2,8 +2,8 @@
 layout: page
 title: osx/ginstall (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux install`."
-content_hash: bff9dc51804b7fa6b5015fc95cee8c5a761c2765
-last_modified_at: 2023-11-12
+content_hash: e0af977758fcb529c14d7b881d9db561445fe1bc
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/ginstall.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux install`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux install`

@@ -2,8 +2,8 @@
 layout: page
 title: linux/bspwm (português (Portugal))
 description: "Este comando é um alias de `bspc`."
-content_hash: fd488fba6b9e5bdb2f74193d43069b1611ec2316
-last_modified_at: 2023-11-12
+content_hash: 245b7de7dc8e3e3aa5bf388745b8d2310c010712
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/linux/bspwm.html
@@ -99,6 +99,6 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Este comando é um alias de `bspc`.
 Mais informações: <https://github.com/baskerville/bspwm>.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr bspc`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gping6 (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux ping6`."
-content_hash: a48cccfa8a131be515559e30c10696df0c0cbefb
-last_modified_at: 2023-11-12
+content_hash: e0687cac930078fe2f526c3cee95a49c9fc714b1
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gping6.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux ping6`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux ping6`

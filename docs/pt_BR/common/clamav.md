@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/clamav (português (Brasil))
-description: "Este comando é um pseudônimo de `clamdscan`."
-content_hash: cf5a69785c8d22434f53e9642ae78d070cfe69ec
-last_modified_at: 2023-11-12
+description: "Programa antivírus de código aberto."
+content_hash: c8a1f24efb438bf2a2af556333ee81781d908d8f
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/clamav.html
@@ -89,16 +89,22 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/clamav.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
+# clamav
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># clamav
-
-Este comando é um pseudônimo de `clamdscan`.
+Programa antivírus de código aberto.
+O ClamAV não é um comando, mas um conjunto de comandos.
 Mais informações: <https://www.clamav.net>.
 
-- Ver documentação sobre o comando original:
+- Mostra a página tldr para escanear arquivos usando o daemon `clamd`:
 
 `tldr clamdscan`
+
+- Mostra a página tldr para escanear arquivos sem o daemon `clamd` em execução:
+
+`tldr clamscan`
+
+- Mostra a página tldr para atualizar as definições de vírus:
+
+`tldr freshclam`

@@ -2,8 +2,8 @@
 layout: page
 title: common/google-chrome (português (Brasil))
 description: "Este comando é um pseudônimo de `chromium`."
-content_hash: 714ff0c35fea248376355813d3f2bd1473be73a1
-last_modified_at: 2023-11-12
+content_hash: 4d4a711ec0027f1384afef7450992c35de84f107
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/google-chrome.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando é um pseudônimo de `chromium`.
 Mais informações: <https://chrome.google.com>.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr chromium`

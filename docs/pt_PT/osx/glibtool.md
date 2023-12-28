@@ -2,8 +2,8 @@
 layout: page
 title: osx/glibtool (português (Portugal))
 description: "Este comando é um alias de `-p linux libtool`."
-content_hash: 5d2486d03465762b4b5fdb979e25965e222a7163
-last_modified_at: 2023-11-12
+content_hash: 6eceab6ebecc8ed9774564e17c69246dbfc416cb
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/glibtool.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux libtool`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux libtool`

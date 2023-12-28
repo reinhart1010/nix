@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtail (português (Portugal))
 description: "Este comando é um alias de `-p linux tail`."
-content_hash: 2a17ae5cd40a41bd9c6d65efcdfc60a8332d3d96
-last_modified_at: 2023-11-12
+content_hash: 7b150646325b6a03b93ca99fe24e2f7080ac15bb
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gtail.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux tail`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux tail`

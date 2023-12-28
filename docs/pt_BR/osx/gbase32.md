@@ -2,8 +2,8 @@
 layout: page
 title: osx/gbase32 (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux base32`."
-content_hash: 73e73c0bd6bc767e5c8df91704820d1206a69789
-last_modified_at: 2023-11-12
+content_hash: 9e4be8fd577313b6a0d95718104ea5ec42649675
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gbase32.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux base32`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux base32`

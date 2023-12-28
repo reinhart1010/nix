@@ -2,8 +2,8 @@
 layout: page
 title: common/sshd (português (Brasil))
 description: "Daemon do Secure Shell - permite que máquinas remotas façam login de forma segura na máquina atual."
-content_hash: eedd16c5cdbc99fd457a9bfb0b177d78b0603329
-last_modified_at: 2023-11-12
+content_hash: 7a9879fca4eb5e58bd3a4f674f7b0b7902612c47
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/sshd.html
@@ -16,18 +16,18 @@ Daemon do Secure Shell - permite que máquinas remotas façam login de forma seg
 Máquinas remotas podem executar comandos como se estivessem sendo executados nesta máquina.
 Mais informações: <https://man.openbsd.org/sshd>.
 
-- Iniciar o daemon em segundo plano:
+- Inicia o daemon em segundo plano:
 
 `sshd`
 
-- Executar o sshd em primeiro plano:
+- Executa o sshd em primeiro plano:
 
 `sshd -D`
 
-- Executar com saída detalhada (para depuração):
+- Executa com saída detalhada (para depuração):
 
 `sshd -D -d`
 
-- Executar em uma porta específica:
+- Executa em uma porta específica:
 
 `sshd -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta</span>

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gptx (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux ptx`."
-content_hash: da8696200ad72a5dfee3f6da93ba03a590f8d2c0
-last_modified_at: 2023-11-12
+content_hash: 521ac2a760031238f082df31eb6ea8d18f9a1a1b
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gptx.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux ptx`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux ptx`

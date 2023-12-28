@@ -2,8 +2,8 @@
 layout: page
 title: osx/glocate (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux locate`."
-content_hash: 44d4d61a9f5c73889a2b82ddba5311985d112af6
-last_modified_at: 2023-11-12
+content_hash: d1493dd737ccbc6be4022ea5d835fc91652c2334
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/glocate.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux locate`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux locate`

@@ -2,8 +2,8 @@
 layout: page
 title: common/chmod (português (Portugal))
 description: "Alterar as permissões de acesso a um ficheiro ou diretório."
-content_hash: 758680179500bcb40048fb59f31351a7292b1842
-last_modified_at: 2023-12-25
+content_hash: 33ef6aadc02f78ef90d3644133b7dc2d6a26e382
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/chmod.html
@@ -57,30 +57,30 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Alterar as permissões de acesso a um ficheiro ou diretório.
 Mais informações: <https://www.gnu.org/software/coreutils/chmod>.
 
-- Dar a um [u]tilizador que possui um ficheiro o direito a e[x]ecutá-lo:
+- Dá a um [u]tilizador que possui um ficheiro o direito a e[x]ecutá-lo:
 
 `chmod u+x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/ficheiro</span>
 
-- Dar a um [u]tilizador direitos para le[r] e escrever ([w]) num ficheiro/diretório:
+- Dá a um [u]tilizador direitos para le[r] e escreve ([w]) num ficheiro/diretório:
 
 `chmod u+rw `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/ficheiro_ou_diretório</span>
 
-- Remover direitos de execução de um [g]rupo:
+- Remove direitos de execução de um [g]rupo:
 
 `chmod g-x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/ficheiro</span>
 
-- Dar a todos ([a]) os utilizadores o direito de le[r] e e[x]ecutar:
+- Dá a todos ([a]) os utilizadores o direito de le[r] e e[x]ecutar:
 
 `chmod a+rx `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/ficheiro</span>
 
-- Dar a [o]utros (que não estão no grupo do dono do ficheiro) os mesmos direitos do [g]rupo:
+- Dá a [o]utros (que não estão no grupo do dono do ficheiro) os mesmos direitos do [g]rupo:
 
 `chmod o=g `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/ficheiro</span>
 
-- Remover todos os direitos dos [o]utros:
+- Remove todos os direitos dos [o]utros:
 
 `chmod o= `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/ficheiro</span>
 
-- Mudar as permissões, recursivamente, dando ao [g]rupo e [o]utros a possibilidade de escrever ([w]):
+- Muda as permissões, recursivamente, dando ao [g]rupo e [o]utros a possibilidade de escrever ([w]):
 
 `chmod -R g+w,o+w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span>

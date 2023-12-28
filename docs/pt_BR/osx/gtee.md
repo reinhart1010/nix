@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtee (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux tee`."
-content_hash: 5bcba2cbd4a2c4150b6980303eeae437bc2e1db7
-last_modified_at: 2023-11-12
+content_hash: 14c76fa7004ff8d1c576d865173e0660f4d34aaf
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gtee.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux tee`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux tee`

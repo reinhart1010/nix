@@ -2,8 +2,8 @@
 layout: page
 title: windows/cpush (português (Portugal))
 description: "Este comando é um alias de `choco-push`."
-content_hash: eca5c58f83bff68c23a49da3bd8f342371674aa2
-last_modified_at: 2023-11-12
+content_hash: 86ee0c8030a162d226c3d409122710d7f134d145
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/windows/cpush.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando é um alias de `choco-push`.
 Mais informações: <https://docs.chocolatey.org/en-us/create/commands/push>.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr choco-push`

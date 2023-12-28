@@ -2,8 +2,8 @@
 layout: page
 title: osx/gchgrp (português (Portugal))
 description: "Este comando é um alias de `-p linux chgrp`."
-content_hash: ec88be60f963dbafe247984ccbc73a76451f4663
-last_modified_at: 2023-11-12
+content_hash: bb767820b1bee6c98fb14be9a342bede528e7313
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gchgrp.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux chgrp`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux chgrp`

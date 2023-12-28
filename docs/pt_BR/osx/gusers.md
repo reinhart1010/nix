@@ -2,8 +2,8 @@
 layout: page
 title: osx/gusers (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux users`."
-content_hash: 079b2f6b9fb61eb065cf0a62d561d565bbe0ba27
-last_modified_at: 2023-11-12
+content_hash: 7702adf0a952eb7c3f3bc684a09a7701a1cce939
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gusers.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux users`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux users`

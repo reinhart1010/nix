@@ -2,8 +2,8 @@
 layout: page
 title: osx/gdf (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux df`."
-content_hash: 89fa6aa2a7cb57def999a3b46dec57129ddc74a5
-last_modified_at: 2023-11-12
+content_hash: 0a7e9e891b397c243d73b9e141548e62921d6be7
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gdf.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux df`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux df`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gls (português (Portugal))
 description: "Este comando é um alias de `-p linux ls`."
-content_hash: f076a3e099edd29d60b608ffe06c6da449cc8f93
-last_modified_at: 2023-11-12
+content_hash: a3d849c1eb205de489d4a94db72bc35edb559880
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gls.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux ls`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux ls`

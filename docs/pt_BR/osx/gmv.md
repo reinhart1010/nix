@@ -2,8 +2,8 @@
 layout: page
 title: osx/gmv (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux mv`."
-content_hash: f110ecaff162631bbdbfed9d829c4db6b1c11eb3
-last_modified_at: 2023-11-12
+content_hash: 1914befdbe073fb01a825a781722bb64eaa3af0d
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gmv.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux mv`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux mv`

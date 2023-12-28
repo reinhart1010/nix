@@ -2,8 +2,8 @@
 layout: page
 title: common/piodebuggdb (português (Portugal))
 description: "Este comando é um alias de `pio debug`."
-content_hash: 9404bc5e5961cbb566aaf23160196e53398956d5
-last_modified_at: 2023-11-12
+content_hash: 0a2ff3b7754a8c73e8cc13800e6ef96614f030a9
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/piodebuggdb.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `pio debug`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr pio debug`

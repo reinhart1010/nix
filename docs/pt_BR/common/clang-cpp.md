@@ -2,8 +2,8 @@
 layout: page
 title: common/clang-cpp (português (Brasil))
 description: "Este comando é um pseudônimo de `clang++`."
-content_hash: bca7cb98d8ade6293437909c24fe3f56216143c0
-last_modified_at: 2023-11-12
+content_hash: 9740622a1ca27cb8137e5c60db9250a8990a4049
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/clang-cpp.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `clang++`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr clang++`

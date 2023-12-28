@@ -2,8 +2,8 @@
 layout: page
 title: osx/gmktemp (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux mktemp`."
-content_hash: 72d0ca34b6c17699442ea12c99eaf5821a3de253
-last_modified_at: 2023-11-12
+content_hash: 49bb2dfd48fda14be01d361b264f3bf3cd674ad0
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gmktemp.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux mktemp`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux mktemp`

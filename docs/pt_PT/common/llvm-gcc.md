@@ -2,8 +2,8 @@
 layout: page
 title: common/llvm-gcc (português (Portugal))
 description: "Este comando é um alias de `clang`."
-content_hash: d4f47cc5efa12c3afaa047540b644b534f53aff8
-last_modified_at: 2023-11-12
+content_hash: e4695db1d1af195e75a2aa3c606ab48320a0bb22
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/llvm-gcc.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `clang`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr clang`

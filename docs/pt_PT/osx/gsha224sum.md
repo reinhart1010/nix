@@ -2,8 +2,8 @@
 layout: page
 title: osx/gsha224sum (português (Portugal))
 description: "Este comando é um alias de `-p linux sha224sum`."
-content_hash: 8c0e1c5d3b4f7cf0985622b58178f48dfe656a97
-last_modified_at: 2023-11-12
+content_hash: d7ca71f051118c5f4ce0839dc42f4ca7edbe8633
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gsha224sum.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux sha224sum`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux sha224sum`

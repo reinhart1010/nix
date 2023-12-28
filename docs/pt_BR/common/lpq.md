@@ -2,8 +2,8 @@
 layout: page
 title: common/lpq (português (Brasil))
 description: "Mostra o estado da fila de impressão."
-content_hash: fb5bdd6708241e6046b084a745f53665f6d5c91c
-last_modified_at: 2023-12-18
+content_hash: c1d30a922f7ed9b077d3d2472472eb70fe7567b1
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/lpq.html
@@ -19,11 +19,11 @@ Mais informações: <https://www.cups.org/doc/man-lpq.html>.
 
 `lpq`
 
-- Mostrar os trabalhos na fila de todas as impressoras usando criptografia:
+- Mostra os trabalhos na fila de todas as impressoras usando criptografia:
 
 `lpq -a -E`
 
-- Mostrar os trabalhos da fila em um formato longo:
+- Mostra os trabalhos da fila em um formato longo:
 
 `lpq -l`
 

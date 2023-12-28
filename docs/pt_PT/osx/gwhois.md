@@ -2,8 +2,8 @@
 layout: page
 title: osx/gwhois (português (Portugal))
 description: "Este comando é um alias de `-p linux whois`."
-content_hash: dd398da5b2f0c6ae71034266bbaf22c006c86d5e
-last_modified_at: 2023-11-12
+content_hash: 63a7146ec4f6da640dd34b29eac21fd71ec23e91
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gwhois.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux whois`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux whois`

@@ -2,8 +2,8 @@
 layout: page
 title: common/clojure (português (Brasil))
 description: "Este comando é um pseudônimo de `clj`."
-content_hash: a7b183fc120797f1481f3923affb6f7b9d6dc231
-last_modified_at: 2023-11-12
+content_hash: f345064f65e072b92c67784a97b55753375ff8c4
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/clojure.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `clj`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr clj`

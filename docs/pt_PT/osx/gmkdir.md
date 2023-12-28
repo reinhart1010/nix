@@ -2,8 +2,8 @@
 layout: page
 title: osx/gmkdir (português (Portugal))
 description: "Este comando é um alias de `-p linux mkdir`."
-content_hash: 787332ed2658f5d41f1c318cffee48ba508caa92
-last_modified_at: 2023-11-12
+content_hash: 79b63b59970e346e3e3edfb43dc45b3e3a55b51d
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gmkdir.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux mkdir`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux mkdir`

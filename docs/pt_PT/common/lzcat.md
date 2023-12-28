@@ -2,8 +2,8 @@
 layout: page
 title: common/lzcat (português (Portugal))
 description: "Este comando é um alias de `xz`."
-content_hash: 079fd5ed1c399badd86763437a11d19e96ad017c
-last_modified_at: 2023-11-12
+content_hash: 9c5921b6a1075db9627065bf56b09b0dfa608032
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/lzcat.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando é um alias de `xz`.
 Mais informações: <https://manned.org/lzcat>.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr xz`

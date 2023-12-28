@@ -2,8 +2,8 @@
 layout: page
 title: common/touch (português (Portugal))
 description: "Atualizar as timestamps de um ficheiro para a hora atual."
-content_hash: 1dd89e9ed4120da7280af5e19ca3852b682cdd59
-last_modified_at: 2023-11-12
+content_hash: 04e4d6c851f28552143273b6a409122da4209f62
+last_modified_at: 2023-12-28
 related_topics:
   - title: català version
     url: /ca/common/touch.html
@@ -34,18 +34,18 @@ Atualizar as timestamps de um ficheiro para a hora atual.
 Se o ficheiro não existir, cria um ficheiro vazio, a menos que seja passado o parâmetro -c ou -h.
 Mais informações: <https://manned.org/man/freebsd-13.1/touch>.
 
-- Criar um novo ficheiro vazio, ou atualizar as timestamps para a hora atual:
+- Cria um novo ficheiro vazio, ou atualizar as timestamps para a hora atual:
 
 `touch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ficheiro</span>
 
-- Definir as timestamps de um ficheiro para a hora especificada:
+- Define as timestamps de um ficheiro para a hora especificada:
 
 `touch -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYYMMDDHHMM.SS</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ficheiro</span>
 
-- Usar as timestamps do ficheiro1 para definir as timestamps do ficheiro2:
+- Usa as timestamps do ficheiro1 para definir as timestamps do ficheiro2:
 
 `touch -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ficheiro1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ficheiro2</span>
 
-- Alterar as timestamps de um ficheiro. Não cria novo ficheiro se não existir:
+- Altera as timestamps de um ficheiro. Não cria novo ficheiro se não existir:
 
 `touch -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ficheiro</span>

@@ -2,8 +2,8 @@
 layout: page
 title: common/dash (português (Brasil))
 description: "Debian Almquist Shell, uma implementação moderna e compatível com POSIX de `sh` (não compatível com Bash)."
-content_hash: 02c65b79c204464939658d6a7435981d7337af0d
-last_modified_at: 2023-11-12
+content_hash: 8b034810469d20b07a9bfe891cb5848f97e790b6
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/dash.html
@@ -14,12 +14,9 @@ related_topics:
   - title: italiano version
     url: /it/common/dash.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dash
+# dash
 
 Debian Almquist Shell, uma implementação moderna e compatível com POSIX de `sh` (não compatível com Bash).
 Mais informações: <https://manned.org/dash>.
@@ -28,22 +25,26 @@ Mais informações: <https://manned.org/dash>.
 
 `dash`
 
-- Executa um comando e sai:
+- Executa [c]omandos específicos:
 
-`dash -c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>`"`
+`dash -c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 'dash executado'</span>`"`
 
-- Executa um script:
+- Executa um script específico:
 
 `dash `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/script.sh</span>
+
+- Checar erros de sintaxe em um script específico:
+
+`dash -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/script.sh</span>
 
 - Executa comandos de um script, imprimindo cada comando antes de executá-lo:
 
 `dash -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/script.sh</span>
 
-- Executa comandos de um script, parando no primeiro erro:
+- Executa comandos de um script, parando no primeiro [e]rro:
 
 `dash -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/script.sh</span>
 
-- Lê e executa comandos de `stdin`:
+- Executa comandos específicos de `stdin`:
 
-`dash -s`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "echo 'dash executado'"</span>` | dash`

@@ -2,8 +2,8 @@
 layout: page
 title: linux/abbr (português (Brasil))
 description: "Gerencie abreviações para fish-shell."
-content_hash: c2fe75634f755f6d971ae0040b11a8544883e597
-last_modified_at: 2023-11-12
+content_hash: 1cbc259b18bdf26b37453762f4ed351e438524ee
+last_modified_at: 2023-12-28
 related_topics:
   - title: català version
     url: /ca/linux/abbr.html
@@ -38,14 +38,14 @@ Mais informações: <https://fishshell.com/docs/current/cmds/abbr.html>.
 
 `abbr --add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_abreviacao</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">orgumentos_comando</span>
 
-- Renomear uma abreviação existente:
+- Renomeia uma abreviação existente:
 
 `abbr --rename `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_antigo</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">novo_nome</span>
 
-- Apagar uma abreviação existente:
+- Apaga uma abreviação existente:
 
 `abbr --erase `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_abreviacao</span>
 
-- Importar abreviações definidas em outro host via SSH:
+- Importa abreviações definidas em outro host via SSH:
 
 `ssh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_host</span>` abbr --show | source`

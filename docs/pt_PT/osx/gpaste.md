@@ -2,8 +2,8 @@
 layout: page
 title: osx/gpaste (português (Portugal))
 description: "Este comando é um alias de `-p linux paste`."
-content_hash: 6823ea1c03c5eb8efd89cc7ddaf793b2b872b06b
-last_modified_at: 2023-11-12
+content_hash: be569165504afa881a060c811927770710905bd9
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gpaste.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux paste`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux paste`

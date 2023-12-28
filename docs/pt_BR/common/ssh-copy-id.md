@@ -2,8 +2,8 @@
 layout: page
 title: common/ssh-copy-id (português (Brasil))
 description: "Instala a sua chave pública no arquivo authorized_keys de uma máquina remota."
-content_hash: b9f26f4403a2dd341c5c751a48d21ad2c9a47106
-last_modified_at: 2023-11-12
+content_hash: 0b8a237a1835787645766e3f44e3637a7f1a55d6
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/common/ssh-copy-id.html
@@ -21,14 +21,14 @@ tldri18n_status: 2
 Instala a sua chave pública no arquivo authorized_keys de uma máquina remota.
 Mais informações: <https://manned.org/ssh-copy-id>.
 
-- Copiar suas chaves para a máquina remota:
+- Copia suas chaves para a máquina remota:
 
 `ssh-copy-id `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_de_usuário@host_remoto</span>
 
-- Copiar a chave pública fornecida para o remoto:
+- Copia a chave pública fornecida para o remoto:
 
 `ssh-copy-id -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/certificado</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_de_usuário</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_remoto</span>
 
-- Copiar a chave pública fornecida para o remoto usando uma porta específica:
+- Copia a chave pública fornecida para o remoto usando uma porta específica:
 
 `ssh-copy-id -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/certificado</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_de_usuário</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_remoto</span>

@@ -2,8 +2,8 @@
 layout: page
 title: linux/brctl (português (Brasil))
 description: "Administração de pontes de rede."
-content_hash: 8790c2648887dd4be6ad3ce1aaf0cf31201d7179
-last_modified_at: 2023-11-12
+content_hash: b10ba519b552b0527d189bd53c50e434deb386ae
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/linux/brctl.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 Administração de pontes de rede.
 Mais informações: <https://manned.org/brctl>.
 
-- Exibir uma lista com informações das pontes de rede existentes:
+- Exibe uma lista com informações das pontes de rede existentes:
 
 `sudo brctl show`
 
@@ -26,14 +26,14 @@ Mais informações: <https://manned.org/brctl>.
 
 `sudo brctl add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_ponte</span>
 
-- Remover uma ponte de rede:
+- Remove uma ponte de rede:
 
 `sudo brctl del `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_ponte</span>
 
-- Adicionar uma interface de rede em uma ponte de rede existente:
+- Adiciona uma interface de rede em uma ponte de rede existente:
 
 `sudo brctl addif `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_ponte</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_interface_de_rede</span>
 
-- Remover uma interface de rede de uma ponte de rede existente:
+- Remove uma interface de rede de uma ponte de rede existente:
 
 `sudo brctl delif `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_ponte</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_interface_de_rede</span>

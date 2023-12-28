@@ -2,8 +2,8 @@
 layout: page
 title: common/cron (português (Portugal))
 description: "Este comando é um alias de `crontab`."
-content_hash: e85166f63982de779345509a7436075501b837c9
-last_modified_at: 2023-11-12
+content_hash: 0d8750b5a3085615f7c5e67e25b6c4d1a3ee00d0
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/cron.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `crontab`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr crontab`

@@ -2,8 +2,8 @@
 layout: page
 title: common/cola (português (Brasil))
 description: "Este comando é um pseudônimo de `git-cola`."
-content_hash: c20036de1ca46a5d9235df2db9ee0a2c916f1feb
-last_modified_at: 2023-11-12
+content_hash: 5c771ce091666f3c8b78b36ae7488f64d4d7ee6c
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/cola.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `git-cola`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr git-cola`

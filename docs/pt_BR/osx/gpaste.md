@@ -2,8 +2,8 @@
 layout: page
 title: osx/gpaste (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux paste`."
-content_hash: c5245664936cc439a5cca5216abafcbd3c8e2ba2
-last_modified_at: 2023-11-12
+content_hash: 7de04dff917e1343baa740d09fc8a7e6c2d744b5
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gpaste.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux paste`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux paste`

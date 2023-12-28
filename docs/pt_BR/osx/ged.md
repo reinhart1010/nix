@@ -2,8 +2,8 @@
 layout: page
 title: osx/ged (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux ed`."
-content_hash: 9a710b60a3618808fbb45af3f0f13235b16aa505
-last_modified_at: 2023-11-12
+content_hash: 8c538ac91ab5ace851470c903583f2cf8e0a7a41
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/ged.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux ed`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux ed`

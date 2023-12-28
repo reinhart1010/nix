@@ -2,8 +2,8 @@
 layout: page
 title: osx/gsha1sum (português (Portugal))
 description: "Este comando é um alias de `-p linux sha1sum`."
-content_hash: 370f81eea3de4627a09d603ecec9dfd51b1f8b18
-last_modified_at: 2023-11-12
+content_hash: ff2cf9026378f06f8906434d96c0c082b2b26627
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gsha1sum.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux sha1sum`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux sha1sum`

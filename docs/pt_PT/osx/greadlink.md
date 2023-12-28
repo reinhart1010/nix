@@ -2,8 +2,8 @@
 layout: page
 title: osx/greadlink (português (Portugal))
 description: "Este comando é um alias de `-p linux readlink`."
-content_hash: 558c34ca64a0f0ea6543faa528230bc414d2683f
-last_modified_at: 2023-11-12
+content_hash: a63ee4bfeb7fc3cb4fe5b63282c380eacc8affc8
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/greadlink.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux readlink`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux readlink`

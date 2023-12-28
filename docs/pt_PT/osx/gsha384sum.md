@@ -2,8 +2,8 @@
 layout: page
 title: osx/gsha384sum (português (Portugal))
 description: "Este comando é um alias de `-p linux sha384sum`."
-content_hash: ca8fabea40829518efd297cd44bdd5702294b99a
-last_modified_at: 2023-11-12
+content_hash: cf7e256c95f4f44f6b094da14354b703ca690447
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gsha384sum.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux sha384sum`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux sha384sum`

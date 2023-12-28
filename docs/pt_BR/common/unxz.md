@@ -2,8 +2,8 @@
 layout: page
 title: common/unxz (português (Brasil))
 description: "Este comando é um pseudônimo de `xz`."
-content_hash: 78069c0675444ca73bf84b084e8bb37ee392862c
-last_modified_at: 2023-11-12
+content_hash: 6339c98775db5d0d8a66e9cb5974dd81835e0396
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/unxz.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando é um pseudônimo de `xz`.
 Mais informações: <https://manned.org/unxz>.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr xz`

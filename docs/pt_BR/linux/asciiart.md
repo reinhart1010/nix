@@ -2,8 +2,8 @@
 layout: page
 title: linux/asciiart (português (Brasil))
 description: "Converte imagens para ASCII."
-content_hash: c87e2c32ea92da0ea7c09eee67787681c5980477
-last_modified_at: 2023-11-12
+content_hash: 081f7ea1313475e4948c85afb1e5c865f389e596
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/linux/asciiart.html
@@ -39,7 +39,7 @@ Mais informações: <https://github.com/nodanaonlyzuul/asciiart>.
 
 `asciiart --width `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/imagem.jpg</span>
 
-- Imprimir com cor:
+- Imprime com cor:
 
 `asciiart --color `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/imagem.jpg</span>
 
@@ -47,6 +47,6 @@ Mais informações: <https://github.com/nodanaonlyzuul/asciiart>.
 
 `asciiart --format `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">text|html</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/imagem.jpg</span>
 
-- Inverter o mapeamento dos caracteres:
+- Inverte o mapeamento dos caracteres:
 
 `asciiart --invert-chars `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/imagem.jpg</span>

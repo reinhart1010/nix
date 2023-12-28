@@ -2,8 +2,8 @@
 layout: page
 title: common/mscore (português (Portugal))
 description: "Este comando é um alias de `musescore`."
-content_hash: dc40c79d59792216c4f86e64ba3d89606bb22406
-last_modified_at: 2023-11-12
+content_hash: 5df9561f841b46228b18ddb3b23202cce7c5a2c6
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/mscore.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando é um alias de `musescore`.
 Mais informações: <https://musescore.org/handbook/command-line-options>.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr musescore`

@@ -2,8 +2,8 @@
 layout: page
 title: linux/distrobox-host-exec (português (Brasil))
 description: "Executar um comando no sistema host a partir do interior de um contêiner Distrobox."
-content_hash: 6b729a5740edc260102740fa5b0500e3a9d206dd
-last_modified_at: 2023-11-26
+content_hash: 50c82fad4d5fbd1ce32a737fb0492707337e5760
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/linux/distrobox-host-exec.html
@@ -19,10 +19,10 @@ Executar um comando no sistema host a partir do interior de um contêiner Distro
 Subcomando de `distrobox`. Veja também: `tldr distrobox`.
 Mais informações: <https://distrobox.it/usage/distrobox-host-exec>.
 
-- Executar um comando no sistema host a partir do interior do contêiner Distrobox:
+- Executa um comando no sistema host a partir do interior do contêiner Distrobox:
 
 `distrobox-host-exec "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>`"`
 
-- Executar o comando `ls` no sistema host a partir do interior do contêiner:
+- Executa o comando `ls` no sistema host a partir do interior do contêiner:
 
 `distrobox-host-exec ls`

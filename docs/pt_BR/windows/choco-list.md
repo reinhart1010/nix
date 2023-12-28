@@ -2,14 +2,17 @@
 layout: page
 title: windows/choco-list (português (Brasil))
 description: "Exibir uma lista de pacotes com Chocolatey."
-content_hash: 94a69058bd438be5e510c0733d470cca017b68fc
-last_modified_at: 2023-11-12
+content_hash: 9ec9ac15bf5769e0d235f76fe2de5c674d4954ca
+last_modified_at: 2023-12-28
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-list.html
     icon: bi bi-globe
   - title: English version
     url: /en/windows/choco-list.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/choco-list.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/windows/choco-list.html
@@ -27,26 +30,26 @@ tldri18n_status: 2
 Exibir uma lista de pacotes com Chocolatey.
 Mais informações: <https://chocolatey.org/docs/commands-list>.
 
-- Exibir todos pacotes disponíveis:
+- Exibe todos pacotes disponíveis:
 
 `choco list`
 
-- Exibir todos pacotes instalados localmente:
+- Exibe todos pacotes instalados localmente:
 
 `choco list --local-only`
 
-- Exibir uma lista incluindo programas locais:
+- Exibe uma lista incluindo programas locais:
 
 `choco list --include-programs`
 
-- Exibir apenas pacotes aprovados:
+- Exibe apenas pacotes aprovados:
 
 `choco list --approved-only`
 
-- Especificar uma fonte personalizada para exibir os pacotes:
+- Especifica uma fonte personalizada para exibir os pacotes:
 
 `choco list --source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_da_fonte|apelido</span>
 
-- Fornecer um nome e uma senha para autenticação:
+- Fornece um nome e uma senha para autenticação:
 
 `choco list --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuário</span>` --password `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">senha</span>

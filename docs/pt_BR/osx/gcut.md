@@ -2,8 +2,8 @@
 layout: page
 title: osx/gcut (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux cut`."
-content_hash: df002dfddd43d62c0c2c208d127ec7fead7e8648
-last_modified_at: 2023-11-12
+content_hash: 0dc8d33c336cf6a4176ad35af6c21f9ed114837e
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gcut.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux cut`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux cut`

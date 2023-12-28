@@ -2,8 +2,8 @@
 layout: page
 title: android/pkg (português (Portugal))
 description: "Gestor de pacotes para o Termux."
-content_hash: 57086e7a2bddbda8117ff3fb807f0c7c1e4b3b6d
-last_modified_at: 2023-11-12
+content_hash: 668c7b1bb577a5ba256ef06d26621ad39182ccb9
+last_modified_at: 2023-12-28
 related_topics:
   - title: বাংলা version
     url: /bn/android/pkg.html
@@ -31,6 +31,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/pkg.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/pkg.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/pkg.html
@@ -63,22 +66,22 @@ tldri18n_status: 2
 Gestor de pacotes para o Termux.
 Mais informações: <https://wiki.termux.com/wiki/Package_Management>.
 
-- Atualizar todos os pacotes instalados:
+- Atualiza todos os pacotes instalados:
 
 `pkg upgrade`
 
-- Instalar um pacote:
+- Instala um pacote:
 
 `pkg install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>
 
-- Desinstalar um pacote:
+- Desinstala um pacote:
 
 `pkg uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>
 
-- Reinstalar um pacote:
+- Reinstala um pacote:
 
 `pkg reinstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>
 
-- Procurar um pacote:
+- Procura um pacote:
 
 `pkg search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>

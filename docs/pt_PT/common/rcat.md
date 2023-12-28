@@ -2,8 +2,8 @@
 layout: page
 title: common/rcat (português (Portugal))
 description: "Este comando é um alias de `rc`."
-content_hash: 5e70adae067ca5a742a0a110b762d40b0616e6bf
-last_modified_at: 2023-11-12
+content_hash: 63feeb8b7be789f18542b5f23fe0face8df6f707
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/rcat.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `rc`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr rc`

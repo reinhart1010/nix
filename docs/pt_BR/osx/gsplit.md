@@ -2,8 +2,8 @@
 layout: page
 title: osx/gsplit (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux split`."
-content_hash: 808a405255faa521ce06d140d90de7447c889360
-last_modified_at: 2023-11-12
+content_hash: 33bb1ab75768380571038d654861d1abbddb18df
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gsplit.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux split`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux split`

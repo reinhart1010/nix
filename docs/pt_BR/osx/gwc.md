@@ -2,8 +2,8 @@
 layout: page
 title: osx/gwc (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux wc`."
-content_hash: b6e2c18596d5a39ca1cbd0d429980214e6b9537f
-last_modified_at: 2023-11-12
+content_hash: df7be0d0ef8e4780d9e5e71fef182e63d5049496
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gwc.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux wc`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux wc`

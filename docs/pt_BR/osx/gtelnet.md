@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtelnet (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux telnet`."
-content_hash: 20e9415817e76557e627ed64b7130db457a940c7
-last_modified_at: 2023-11-12
+content_hash: 9de81c0a5085d99b01be0e90613034a2a4d90398
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gtelnet.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux telnet`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux telnet`

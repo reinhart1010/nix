@@ -2,8 +2,8 @@
 layout: page
 title: osx/gegrep (português (Portugal))
 description: "Este comando é um alias de `-p linux egrep`."
-content_hash: d89d9474eae9c8b7f2f8ab555eee899482ae5a32
-last_modified_at: 2023-11-12
+content_hash: 402947810385c5b5734b68a85f492261fd77eba4
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gegrep.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux egrep`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux egrep`

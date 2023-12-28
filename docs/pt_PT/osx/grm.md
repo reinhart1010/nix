@@ -2,8 +2,8 @@
 layout: page
 title: osx/grm (português (Portugal))
 description: "Este comando é um alias de `-p linux rm`."
-content_hash: ec5138d720da1118fa9f377e1c82ff6d96feb953
-last_modified_at: 2023-11-12
+content_hash: 1f12eb0bd2a16056737ba9f07f39b75988044288
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/grm.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux rm`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux rm`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/guptime (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux uptime`."
-content_hash: 7af743ab127ae67819a23a9d7748babd5ce326ac
-last_modified_at: 2023-11-12
+content_hash: fa3afca83f999bd07e2ac917aa6e755fc8c2e257
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/guptime.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux uptime`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux uptime`

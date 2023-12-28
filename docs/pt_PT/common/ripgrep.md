@@ -2,8 +2,8 @@
 layout: page
 title: common/ripgrep (português (Portugal))
 description: "Este comando é um alias de `rg`."
-content_hash: 259764d0d64b80130d8b143407486195b7615f0c
-last_modified_at: 2023-11-12
+content_hash: 0e3f6a2ec23a29d3beda49fe7048295fffb2d2b4
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/common/ripgrep.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `rg`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr rg`

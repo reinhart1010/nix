@@ -2,8 +2,8 @@
 layout: page
 title: osx/gstdbuf (português (Portugal))
 description: "Este comando é um alias de `-p linux stdbuf`."
-content_hash: a0031ce5433944031cdbe595716dfd60ab4a768c
-last_modified_at: 2023-11-12
+content_hash: 447672c27fc86f1bedca2ecfd993f3c31857f7ec
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gstdbuf.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux stdbuf`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux stdbuf`

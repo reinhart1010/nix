@@ -2,8 +2,8 @@
 layout: page
 title: osx/genv (português (Portugal))
 description: "Este comando é um alias de `-p linux env`."
-content_hash: d026fe45400523782388e2525d07021f5d995a37
-last_modified_at: 2023-11-12
+content_hash: d5068f717114f2a876e20d9b53836cd90b28db84
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/genv.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux env`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux env`

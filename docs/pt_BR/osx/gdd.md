@@ -2,8 +2,8 @@
 layout: page
 title: osx/gdd (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux dd`."
-content_hash: 79bc262932cf522cd254498f3d61f97a93feb412
-last_modified_at: 2023-11-12
+content_hash: 8ae9644da432a198f616f7315976033ece13be56
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gdd.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux dd`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux dd`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gping (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux ping`."
-content_hash: 6dd6019d3844111d41f49b55ee4f79a60aaae05c
-last_modified_at: 2023-11-12
+content_hash: bdb82d769c4953ef78ffb0b676c80d13b0a32b22
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gping.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux ping`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux ping`

@@ -2,8 +2,8 @@
 layout: page
 title: windows/mkdir (português (Brasil))
 description: "Criar um diretório."
-content_hash: 990e0ff120c4c73538256a50e322760e02a47cd2
-last_modified_at: 2023-11-12
+content_hash: 4ae18b281dde0e183b31b4d96d89cb7026233497
+last_modified_at: 2023-12-28
 related_topics:
   - title: বাংলা version
     url: /bn/windows/mkdir.html
@@ -36,10 +36,10 @@ tldri18n_status: 2
 Criar um diretório.
 Mais informações: <https://learn.microsoft.com/windows-server/administration/windows-commands/mkdir>.
 
-- Criar um diretório:
+- Cria um diretório:
 
 `mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_diretorio</span>
 
-- Criar recursivamente uma árvore de diretórios aninhados:
+- Cria recursivamente uma árvore de diretórios aninhados:
 
 `mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/subdiretorio</span>

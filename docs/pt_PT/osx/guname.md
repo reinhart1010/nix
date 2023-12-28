@@ -2,8 +2,8 @@
 layout: page
 title: osx/guname (português (Portugal))
 description: "Este comando é um alias de `-p linux uname`."
-content_hash: 91e00d57c24286f7f8735397779c71fc61e5eace
-last_modified_at: 2023-11-12
+content_hash: f673ec67e732265ccc19e9484c2eb473da3ce6c5
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/guname.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux uname`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux uname`

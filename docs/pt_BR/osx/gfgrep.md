@@ -2,8 +2,8 @@
 layout: page
 title: osx/gfgrep (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux fgrep`."
-content_hash: 1e48183a702f5a829da01a36aa05e8b7a2be0018
-last_modified_at: 2023-11-12
+content_hash: 7d93bffb5f44cf9c834a735cabc2cf3dd6ef7e88
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gfgrep.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux fgrep`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux fgrep`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gsha512sum (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux sha512sum`."
-content_hash: d101c111a58b8e1f8a9b7f51665a55ef703b9da5
-last_modified_at: 2023-11-12
+content_hash: 7019615ef22ddf8af2f39638ca4fd6a51fd64377
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gsha512sum.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux sha512sum`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux sha512sum`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gwhoami (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux whoami`."
-content_hash: b09e7272e96d4490b95e731ded97f58d773821b1
-last_modified_at: 2023-11-12
+content_hash: 0a0218ad899c009c7dfb8cb629c17acae4bb8c4c
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gwhoami.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux whoami`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux whoami`

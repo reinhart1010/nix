@@ -2,8 +2,8 @@
 layout: page
 title: osx/gyes (português (Portugal))
 description: "Este comando é um alias de `-p linux yes`."
-content_hash: 5885993f22cb8c8be609cd5861b32f55d623edb6
-last_modified_at: 2023-11-12
+content_hash: cfb99448c39f65cb6db6dce48146a65822409e63
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/gyes.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um alias de `-p linux yes`.
 
-- Ver documentação do comando original:
+- Exibe documentação do comando original:
 
 `tldr -p linux yes`

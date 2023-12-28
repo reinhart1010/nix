@@ -2,8 +2,8 @@
 layout: page
 title: common/mysql (português (Brasil))
 description: "A ferramenta de linha de comando do MySQL."
-content_hash: 2e68ffa1cfcd2042081b47d14dde593475fe3556
-last_modified_at: 2023-11-12
+content_hash: 38f28f9fb4c746dd7455016cccfb4624ddef5aff
+last_modified_at: 2023-12-28
 related_topics:
   - title: English version
     url: /en/common/mysql.html
@@ -30,22 +30,22 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 A ferramenta de linha de comando do MySQL.
 Mais informações: <https://www.mysql.com/>.
 
-- Conectar a um banco de dados:
+- Conecta a um banco de dados:
 
 `mysql `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_banco_de_dados</span>
 
-- Conectar a um banco de dados (será solicitada a senha de acesso do usuário):
+- Conecta a um banco de dados (será solicitada a senha de acesso do usuário):
 
 `mysql -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuário</span>` --password `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_banco_de_dados</span>
 
-- Conectar a um banco de dados disponível em um endereço específico:
+- Conecta a um banco de dados disponível em um endereço específico:
 
 `mysql -h `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">endereco_do_banco_de_dados</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_banco_de_dados</span>
 
-- Conectar a um banco de dados utilizando um socket Unix:
+- Conecta a um banco de dados utilizando um socket Unix:
 
 `mysql --socket `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/socket.sock</span>
 
-- Executar todos os comandos de um arquivo SQL em um banco de dados:
+- Executa todos os comandos de um arquivo SQL em um banco de dados:
 
 `mysql -e "source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_arquivo.sql</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_banco_de_dados</span>

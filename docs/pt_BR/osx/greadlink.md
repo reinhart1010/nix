@@ -2,8 +2,8 @@
 layout: page
 title: osx/greadlink (português (Brasil))
 description: "Este comando é um pseudônimo de `-p linux readlink`."
-content_hash: 9f6776f6592cf9f75318496370c1ab04511441c1
-last_modified_at: 2023-11-12
+content_hash: 7e490b8cb81b97febc48b0517af25e2420e37e0e
+last_modified_at: 2023-12-28
 related_topics:
   - title: العربية version
     url: /ar/osx/greadlink.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando é um pseudônimo de `-p linux readlink`.
 
-- Ver documentação sobre o comando original:
+- Exibe documentação sobre o comando original:
 
 `tldr -p linux readlink`
