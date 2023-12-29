@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-compose (日本語)
 description: "複数コンテナを持つDockerアプリケーションの実行と管理をします。"
-content_hash: 9654c1cc2d405a64ef88f4b2593719fae75ae95f
-last_modified_at: 2023-11-12
+content_hash: 4f8eeba9ec925f6b432f9c5f213dfc40409a0119
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -53,10 +53,6 @@ tldri18n_status: 2
 - 全てのコンテナを起動し、必要に応じて再ビルドする:
 
 `docker compose up --build`
-
-- 代替composeファイルを使って全てのコンテナを起動する:
-
-`docker compose --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイルパス</span>` up`
 
 - 実行中の全てのコンテナを停止する:
 

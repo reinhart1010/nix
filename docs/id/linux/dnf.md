@@ -2,8 +2,8 @@
 layout: page
 title: linux/dnf (Indonesia)
 description: "Manajer paket untuk distribusi Linux RHEL, Fedora, dan CentOS (pengganti yum)."
-content_hash: dc42dd278b06d079274db7e906e42bc5b0920c11
-last_modified_at: 2023-11-12
+content_hash: 1bc7b7b6fcbcf61e02d191750a4e48567793988f
+last_modified_at: 2023-12-29
 related_topics:
   - title: català version
     url: /ca/linux/dnf.html
@@ -45,23 +45,19 @@ Informasi lebih lanjut: <https://dnf.readthedocs.io>.
 
 - Mencari paket yang tersedia dengan kata kunci tertentu:
 
-`dnf search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kata_kunci</span>
+`dnf search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kata_kunci1 kata_kunci2 ...</span>
 
 - Memperlihatkan informasi tentang suatu paket:
 
-`dnf info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span>
+`dnf info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span>
 
-- Menginstal sebuah paket:
+- Menginstal sebuah paket (gunakan `-y` jawab untuk ya semua pertanyaan):
 
-`sudo dnf install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span>
-
-- Menginstal sebuah paket dan jawab ya untuk semua pertanyaan:
-
-`sudo dnf -y install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span>
+`sudo dnf install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket1 paket2 ...</span>
 
 - Menghapus sebuah paket:
 
-`sudo dnf remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span>
+`sudo dnf remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket1 paket2 ...</span>
 
 - Memperlihatkan daftar semua paket yang telah terpasang:
 

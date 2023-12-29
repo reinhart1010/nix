@@ -2,8 +2,8 @@
 layout: page
 title: common/chsh (日本語)
 description: "ユーザーのログインシェルを変更します。"
-content_hash: 72e4b34efb2ca1e625ba5262a1a6c962004c923f
-last_modified_at: 2023-11-12
+content_hash: d2b0d9b0f23ad06d1fb996655033575bcc38ce85
+last_modified_at: 2023-12-29
 related_topics:
   - title: bosanski version
     url: /bs/common/chsh.html
@@ -59,4 +59,4 @@ tldri18n_status: 2
 
 - 使用可能なシェルの一覧を表示する:
 
-`chsh --list-shells`
+`chsh -l`

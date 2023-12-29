@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman (Indonesia)
 description: "Kegunaan manajer paket Arch Linux."
-content_hash: 8afb394c54edcb8a65e12282dcd942f3b6fae73c
-last_modified_at: 2023-11-12
+content_hash: 615f28c7e4a6c3fbc9eac5729003bf60c89d528d
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -52,15 +52,11 @@ Informasi lebih lanjut: <https://man.archlinux.org/man/pacman.8>.
 
 - Instal paket baru:
 
-`sudo pacman -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span>
+`sudo pacman -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span>
 
 - Hapus paket beserta dependensinya:
 
-`sudo pacman -Rs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_paket</span>
-
-- Cari paket dalam database berdasarkan regular expression atau kata kunci:
-
-`pacman -Ss "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pola_pencarian</span>`"`
+`sudo pacman -Rs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span>
 
 - Tampilkan daftar paket dan versi yang diinstal:
 

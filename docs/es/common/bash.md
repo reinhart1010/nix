@@ -2,8 +2,8 @@
 layout: page
 title: common/bash (español)
 description: "Bourne-Again SHell."
-content_hash: 65ee8b153da49ed793809ac263cc7a4c34c9b64c
-last_modified_at: 2023-11-12
+content_hash: 15a7c6313ef922a5d19cc13adb9aa2e6f16ed560
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/bash.html
@@ -41,7 +41,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 Bourne-Again SHell.
 Intérprete de línea de comandos compatible con `sh`.
-Más información: <https://gnu.org/software/bash/>.
+Más información: <https://www.gnu.org/software/bash/>.
 
 - Inicia un intérprete de comandos interactivo:
 

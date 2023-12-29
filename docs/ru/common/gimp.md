@@ -2,8 +2,8 @@
 layout: page
 title: common/gimp (русский)
 description: "GNU программа для работы с изображениями."
-content_hash: dbcf88edaba1c13c482f834ede7a2864849a9121
-last_modified_at: 2023-11-12
+content_hash: 63202e9d54dbc25b83a414f2ea2a36e572d71e1f
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/gimp.html
@@ -29,11 +29,7 @@ GNU программа для работы с изображениями.
 
 - Открыть указанные файлы:
 
-`gimp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/к/изображению1 путь/к/изображению2 ...</span>
-
-- Запустить новый инстанс, даже если один уже запущен:
-
-`gimp --new-instance`
+`gimp --new-instance `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/к/изображению1 путь/к/изображению2 ...</span>
 
 - Вывести ошибки и предупреждения в консоль, вместо отображения их в диалоговом окне:
 

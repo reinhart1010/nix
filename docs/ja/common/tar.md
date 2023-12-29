@@ -2,8 +2,8 @@
 layout: page
 title: common/tar (日本語)
 description: "アーカイブ(複数のファイルやフォルダを 1 つのファイルに纏める)の為のユーティリティー。"
-content_hash: 23b9b479a81ed0dc0cc69a6d9b15e9ade4a6f38e
-last_modified_at: 2023-11-12
+content_hash: a5dedf73c01cd3f8c3ef05bea0ae0bc7a6264562
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/tar.html
@@ -39,11 +39,11 @@ gzip や bzip2 などの圧縮方法と組み合わせることが多いです�
 
 - アーカイブを作成し、それをファイルに書き込む:
 
-`tar cf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">出力ファイル名.tar</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル3</span>
+`tar cf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">出力ファイル名.tar</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル1 ファイル2 ...</span>
 
 - gzip 形式で圧縮されたアーカイブを作成し、それをファイルに書き込む:
 
-`tar czf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">出力ファイル名.tar.gz</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル3</span>
+`tar czf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">出力ファイル名.tar.gz</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル1 ファイル2 ...</span>
 
 - 相対パスを用いてディレクトリから gzip 形式のアーカイブを作成する:
 
@@ -59,7 +59,7 @@ gzip や bzip2 などの圧縮方法と組み合わせることが多いです�
 
 - 圧縮されたアーカイブを作成し、それにファイルを書き込む。なお、接尾辞で圧縮プログラムを指定する:
 
-`tar caf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">出力ファイル名.tar.xz</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル3</span>
+`tar caf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">出力ファイル名.tar.xz</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ファイル1 ファイル2 ...</span>
 
 - tar ファイルの内容を詳細に表示する:
 

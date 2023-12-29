@@ -2,11 +2,14 @@
 layout: page
 title: windows/invoke-webrequest (Indonesia)
 description: "Membuat panggilan dan permintaan HTTP/HTTPS."
-content_hash: 065e17303b227b91730560393c5b21eaff84c150
-last_modified_at: 2023-11-12
+content_hash: 346c7069e17fb9f9a127840e9dab3041c4773852
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/windows/invoke-webrequest.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/invoke-webrequest.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -30,7 +33,7 @@ Informasi lebih lanjut: <https://learn.microsoft.com/powershell/module/microsoft
 
 - Kirim data dalam format JSON, Menentukan jenis konten yang sesuai header:
 
-`Invoke-WebRequest -Body `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'{"name":"bob"}'</span>`  -ContentType 'application/json' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/users/1234</span>
+`Invoke-WebRequest -Body `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'{"name":"bob"}'</span>` -ContentType 'application/json' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://example.com/users/1234</span>
 
 - Berikan nama pengguna dan kata sandi untuk otentikasi server:
 

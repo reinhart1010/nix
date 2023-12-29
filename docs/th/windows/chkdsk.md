@@ -2,8 +2,8 @@
 layout: page
 title: windows/chkdsk (ไทย)
 description: "ความสมบูรณ์ของระบบไฟล์และข้อมูลเมตาของระบบไฟล์บนดิสก์โวลุ่มและแก้ไขข้อผิดพลาดของระบบ"
-content_hash: 6f702cb57a28bd2366a450075c123bf4803900c9
-last_modified_at: 2023-11-12
+content_hash: b89331dc8f340197b2cbb87c8c3d4f9273e38bb9
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/windows/chkdsk.html
@@ -38,4 +38,4 @@ tldri18n_status: 2
 
 - เปลี่ยนขนาดของไฟล์ log เป็นไปตามขนาดที่ระบุ (เฉพาะ NTFS):
 
-`chkdsk /l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ขนาด</span>
+`chkdsk /l`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ขนาด</span>

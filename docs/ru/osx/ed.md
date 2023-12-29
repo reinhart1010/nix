@@ -2,8 +2,8 @@
 layout: page
 title: osx/ed (русский)
 description: "Оригинальный текстовый редактор Unix."
-content_hash: e9cfab52d02e16777c880fb99a237eb504b183e5
-last_modified_at: 2023-11-12
+content_hash: 4ef942c8fea69d94b42f0551fde8ef467cd0127c
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/osx/ed.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 
 - Запустить интерактивную сессию редактора с пустым документом и указанной подсказкой:
 
-`ed -p "> "`
+`ed -p '> '`
 
 - Запустить интерактивную сессию редактора пустым документом и без диагностики, подсчета байтов и '!' подсказки:
 

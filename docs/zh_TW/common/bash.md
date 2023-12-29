@@ -2,8 +2,8 @@
 layout: page
 title: common/bash (中文 (繁體, 台灣))
 description: "Bourne-Again SHell. 一個與 `sh` 相容的命令列。"
-content_hash: f3c0b3dfbcb49e0f03d86c82cb273daa0519669d
-last_modified_at: 2023-11-12
+content_hash: 1b82426b066728b2a71818db44e62f37649f408a
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/bash.html
@@ -41,7 +41,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 Bourne-Again SHell. 一個與 `sh` 相容的命令列。
 參照 `histexpand` 以使用 history expansion 特性。
-更多資訊：<https://gnu.org/software/bash/>.
+更多資訊：<https://www.gnu.org/software/bash/>.
 
 - 開啟互動式 shell：
 

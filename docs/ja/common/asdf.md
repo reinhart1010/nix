@@ -2,8 +2,8 @@
 layout: page
 title: common/asdf (日本語)
 description: "さまざまなパッケージのバージョンを管理するためのコマンドラインインターフェイスです。"
-content_hash: e72011f5417c4a78b934952701ed7b46c242557b
-last_modified_at: 2023-11-12
+content_hash: 50fd3ea68f201cec3e58656c2b343b93d4bd6291
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/asdf.html
@@ -35,15 +35,15 @@ tldri18n_status: 2
 
 - 利用可能なプラグインの一覧を表示:
 
-`asdf plugin-list-all`
+`asdf plugin list all`
 
 - プラグインのインストール:
 
-`asdf plugin-add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">プラグイン名</span>
+`asdf plugin add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">プラグイン名</span>
 
 - パッケージで利用可能なすべてのバージョンの一覧を表示:
 
-`asdf list-all `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">パッケージ名</span>
+`asdf list all `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">パッケージ名</span>
 
 - パッケージの特定バージョンのインストール:
 

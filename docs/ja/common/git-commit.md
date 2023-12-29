@@ -2,8 +2,8 @@
 layout: page
 title: common/git-commit (日本語)
 description: "リポジトリにファイルをコミットします。"
-content_hash: b217fa85ad8c8435266b4f4188ef1b440aa451df
-last_modified_at: 2023-11-12
+content_hash: d7bab903a3d2d640311de3299012bfa653ecf109
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/git-commit.html
@@ -44,7 +44,7 @@ tldri18n_status: 2
 
 - メッセージと共に、ステージ済のファイルをリポジトリにコミットする:
 
-`git commit -m "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">メッセージ</span>`"`
+`git commit --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">メッセージ</span>`"`
 
 - ファイルから読みとったメッセージと共に、ステージ済のファイルをコミットする:
 
@@ -52,11 +52,7 @@ tldri18n_status: 2
 
 - 変更されたファイルを全て自動的にステージし、メッセージと共にコミットする:
 
-`git commit -a -m "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">メッセージ</span>`"`
-
-- ステージ済のファイルをコミットし、`~/.gitconfig`に設定したGPG鍵で署名する:
-
-`git commit -S -m "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">メッセージ</span>`"`
+`git commit --all --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">メッセージ</span>`"`
 
 - 今のステージ済の変更を最後のコミットに付け足し、コミットハッシュを変更する:
 
@@ -68,4 +64,4 @@ tldri18n_status: 2
 
 - ステージ済のファイルが無くても、コミットを作る:
 
-`git commit -m "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">メッセージ</span>`" --allow-empty`
+`git commit --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">メッセージ</span>`" --allow-empty`

@@ -2,8 +2,8 @@
 layout: page
 title: common/krita (русский)
 description: "Krita - программа для создания эскизов и рисования, разработанная для цифровых художников."
-content_hash: f2213737c62ee48dad5a47d9fe5e2797f54580e4
-last_modified_at: 2023-11-12
+content_hash: ad1e45c7d70c4898035e6a07fd95419128fee699
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/krita.html
@@ -20,13 +20,13 @@ Krita - программа для создания эскизов и рисов�
 
 `krita`
 
-- Запустить без заставки:
-
-`krita --nosplash`
-
 - Открыть указанные файлы:
 
 `krita `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/к/изображению1 путь/к/изображению2 ...</span>
+
+- Запустить без заставки:
+
+`krita --nosplash`
 
 - Запустить с указанным рабочим пространством (`Animation`):
 

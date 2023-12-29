@@ -2,8 +2,8 @@
 layout: page
 title: windows/cmd (ไทย)
 description: "ตัวแปลคำสั่งของ Windows"
-content_hash: 7b9cedcd25b5a0cdf87b5d93253e8f279777b90e
-last_modified_at: 2023-11-12
+content_hash: adc314c94b37aa0188d9315da37abf2d95b5bb6a
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/windows/cmd.html
@@ -48,7 +48,7 @@ tldri18n_status: 2
 
 - รันคำสั่งที่ระบุแล้วปิด ([c]ommand):
 
-`cmd /c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Hello world</span>`"`
+`cmd /c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Hello world</span>
 
 - ดำเนินการสคริปต์เฉพาะ:
 
@@ -56,7 +56,7 @@ tldri18n_status: 2
 
 - ดำเนินการคำสั่งเฉพาะแล้วป้อนเชลล์แบบโต้ตอบ:
 
-`cmd /k "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Hello world</span>`"`
+`cmd /k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Hello world</span>
 
 - เริ่มเซสชันเชลล์แบบโต้ตอบโดยที่ 'echo' ถูกปิดใช้งานในเอาต์พุตคำสั่ง:
 

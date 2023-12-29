@@ -2,8 +2,8 @@
 layout: page
 title: osx/date (Indonesia)
 description: "Mengatur atau menampilkan tanggal sistem."
-content_hash: 9001d4289f6354d267aea7489e3429fcc4dc23a6
-last_modified_at: 2023-11-12
+content_hash: bdb82560308d445317d0e86df9bfdf0d8145eab2
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/osx/date.html
@@ -26,11 +26,11 @@ Informasi lebih lanjut: <https://ss64.com/osx/date.html>.
 
 - Menampilkan tanggal saat ini menggunakan format _locale_:
 
-`date +"%c"`
+`date +%c`
 
 - Menampilkan tanggal saat ini dalam format UTC and ISO 8601:
 
-`date -u +"%Y-%m-%dT%H:%M:%SZ"`
+`date -u +%Y-%m-%dT%H:%M:%SZ`
 
 - Menampilkan tanggal saat ini sebagai _Unix timestamp_ (detik sejak jaman Unix):
 

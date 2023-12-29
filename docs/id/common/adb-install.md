@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-install (Indonesia)
 description: "Android Debug Bridge Install: Memasang paket ke emulator Android atau perangkat Android terhubung."
-content_hash: bd51e678cfbdf6b7cb9837b44c1f40a6129c808b
-last_modified_at: 2023-11-26
+content_hash: 26465df1f13a61614d54430293d4c2ab377935b9
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/adb-install.html
@@ -61,4 +61,4 @@ Informasi lebih lanjut: <https://developer.android.com/studio/command-line/adb>.
 
 - Perbarui langsung paket terinstal dengan hanya memperbarui bagian dari APK yang berubah:
 
-`Adb install --fastdeploy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.apk</span>
+`adb install --fastdeploy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.apk</span>

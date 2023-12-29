@@ -2,8 +2,8 @@
 layout: page
 title: windows/scoop (Indonesia)
 description: "Penginstal paket berantarmuka baris perintah untuk Windows."
-content_hash: 8e2d75c87a6e10e7aeefad597d1d08fd1a53f938
-last_modified_at: 2023-11-12
+content_hash: 0253f8d231e2b72980b49dfc57b5dbe09ac356d1
+last_modified_at: 2023-12-29
 related_topics:
   - title: বাংলা version
     url: /bn/windows/scoop.html
@@ -37,7 +37,7 @@ Informasi lebih lanjut: <https://scoop.sh>.
 
 - Memperbarui semua paket yang terpasang:
 
-`scoop update *`
+`scoop update --all`
 
 - Menampilkan daftar paket yang terpasang:
 
@@ -53,4 +53,4 @@ Informasi lebih lanjut: <https://scoop.sh>.
 
 - Menghapus versi lama dari semua paket dan membersihkan cache unduhan:
 
-`scoop cleanup -k *`
+`scoop cleanup --cache --all`

@@ -2,8 +2,8 @@
 layout: page
 title: common/ed (русский)
 description: "Оригинальный текстовый редактор Unix."
-content_hash: b1d86e05d5de8eb34909bb45c1a3b4d1c78f70ac
-last_modified_at: 2023-11-12
+content_hash: 14de617fd95b3ac7a1638f4ad2a905e36849dda6
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/ed.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 
 - Запустить интерактивную сессию редактора с пустым документом и указанной подсказкой:
 
-`ed --prompt="> "`
+`ed --prompt='> '`
 
 - Запустить интерактивную сессию редактора с удобными для пользователя ошибками:
 

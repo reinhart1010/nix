@@ -2,8 +2,8 @@
 layout: page
 title: common/tar (русский)
 description: "Утилита архивирования."
-content_hash: 79bb588b78de1332c9cf784352acee10a32d6791
-last_modified_at: 2023-11-12
+content_hash: 6450c699765ad7d9b4fdb02eeaf843db8401bb92
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/tar.html
@@ -49,13 +49,9 @@ tldri18n_status: 2
 
 `tar czf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">целевой.tar.gz</span>` -C `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/папки</span>` .`
 
-- Извлечь (сжатый) архив в текущую папку:
-
-`tar xf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">исходный.tar[.gz|.bz2|.xz]</span>
-
 - Извлечь (сжатый) архив в указанную папку:
 
-`tar xf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">исходный.tar[.gz|.bz2|.xz]</span>` -C `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">папка</span>
+`tar xf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">исходный.tar[.gz|.bz2|.xz]</span>` --directory=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">папка</span>
 
 - Создать сжатый архив, используя суффикс архива для определения программы сжатия:
 

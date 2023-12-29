@@ -2,8 +2,8 @@
 layout: page
 title: common/bash (中文)
 description: "Bourne-Again SHell."
-content_hash: 47ea21965ed8d1045f11f22885ad247cc45fc2f4
-last_modified_at: 2023-11-12
+content_hash: 78d17c780c10f3edc62f27752ad43dfc00b124ac
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/bash.html
@@ -38,7 +38,7 @@ tldri18n_status: 2
 
 Bourne-Again SHell.
 兼容`sh`的命令行解释器。
-更多信息：<https://gnu.org/software/bash/>.
+更多信息：<https://www.gnu.org/software/bash/>.
 
 - 启动交互式 shell：
 

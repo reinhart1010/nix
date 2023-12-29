@@ -2,8 +2,8 @@
 layout: page
 title: common/cat (norsk)
 description: "Skriv ut og sammenføy filer."
-content_hash: 57b23b29f4d8f85d31d737890a5fce1ceefead89
-last_modified_at: 2023-11-12
+content_hash: a595df968e0b98c593a7879741519ae95d01e3c1
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -66,16 +66,8 @@ Mer informasjon: <https://www.gnu.org/software/coreutils/cat>.
 
 - Sammenføy flere filer til en målfil:
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fil1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fil2</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">målfil</span>
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fil1 fil2 ...</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">målfil</span>
 
 - Legg til flere filer til målfilen:
 
-`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fil1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fil2</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">målfil</span>
-
-- Nummerer alle utgangslinjer:
-
-`cat -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fil</span>
-
-- Vis tegn som ikke kan skrives ut og mellomrom (med `M-` prefiks hvis det ikke er ASCII-tegn):
-
-`cat -v -t -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fil</span>
+`cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fil1 fil2 ...</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">målfil</span>

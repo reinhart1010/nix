@@ -2,8 +2,8 @@
 layout: page
 title: common/bash (Deutsch)
 description: "Bourne-Again SHell."
-content_hash: ef213a486249e22fd3b4afbb2b3f4a1372a4e226
-last_modified_at: 2023-11-12
+content_hash: 009b32ff5ffa459e40fee7b222c5812e2c6f1a86
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/bash.html
@@ -41,7 +41,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 Bourne-Again SHell.
 `sh`-kompatibler Kommandozeilen-Interpreter.
-Weitere Informationen: <https://gnu.org/software/bash/>.
+Weitere Informationen: <https://www.gnu.org/software/bash/>.
 
 - Interaktive Shell starten:
 

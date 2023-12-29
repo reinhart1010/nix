@@ -2,8 +2,8 @@
 layout: page
 title: common/git-config (українська)
 description: "Керує спеціальними параметрами конфігурації для репозиторію Git."
-content_hash: 8ab31a96cc4997a67ca9dec6fa27dfb8bbd93749
-last_modified_at: 2023-11-12
+content_hash: eb1e3cb6052d34f8dc13c24a3e5e111ec73d3137
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/git-config.html
@@ -44,10 +44,6 @@ tldri18n_status: 2
 - Надає перелік лише глобальних налаштувань (що зберігаються у `~/.gitconfig`):
 
 `git config --list --global`
-
-- Надає перелік усіх налаштувань незалежно від того, визначені вони локально чи глобально:
-
-`git config --list`
 
 - Отримує значення для наданого параметру конфігурації:
 

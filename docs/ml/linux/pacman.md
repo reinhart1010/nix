@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman (മലയാളം)
 description: "ആർച്ച് ലിന്ക്സിന്റെ പാക്കേജ് മാനേജുമെന്റ് യൂട്ടിലിറ്റി."
-content_hash: e62ba447d405b43a36ebffde3762835d38ab63a1
-last_modified_at: 2023-11-12
+content_hash: 42e40b86a605d3a8fc1ca5986e5618ebed658db2
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -58,10 +58,6 @@ tldri18n_status: 2
 
 `sudo pacman -Rs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">പാക്കേജ്</span>
 
-- പാക്കേജ് ഡാറ്റാബേസിൽ ഒരു സൂചകപദം അല്ലെങ്കിൽ റെഗുലർ എക്സ്പ്രെഷൻ വെച്ച് തിരയുക:
-
-`pacman -Ss "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">സെർച്ച് പാറ്റേൺ</span>`"`
-
 - ഇൻസ്റ്റാൾ ചെയ്‌ത എല്ലാ പാക്കേജുകളും അതിന്റെ പതിപ്പും കാണിക്കുക:
 
 `pacman -Q`
@@ -69,10 +65,6 @@ tldri18n_status: 2
 - നേരെ ഇൻസ്റ്റാൾ ചെയ്ത പാക്കേജ്‌സ് മാത്റം കാണിക്കുക:
 
 `pacman -Qe`
-
-- ഏത് പാക്കേജാണ് ഒരു ഫയലിന്റെ ഉടമ എന്ന് കണ്ടുപിടിക്കാൻ:
-
-`pacman -Qo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ഫയലിന്റെ പേര്</span>
 
 - പാക്കേജ് ക്യാഷ് കാലിയാക്കി സ്റ്റോറേജ്‌ മുക്തമാക്കുക:
 

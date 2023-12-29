@@ -2,8 +2,8 @@
 layout: page
 title: common/bash (Nederlands)
 description: "Bourne-Again SHell, `sh`-ondersteunende commandoregel-interpreteerder."
-content_hash: 46f429de9af0aa44dd12a8bc6a245775729225c3
-last_modified_at: 2023-11-12
+content_hash: 0cf06f24d993c284e6add36a7038dd8dc83ea373
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/bash.html
@@ -38,7 +38,7 @@ tldri18n_status: 2
 
 Bourne-Again SHell, `sh`-ondersteunende commandoregel-interpreteerder.
 Bekijk ook: `zsh`, `histexpand` (history expansion).
-Meer informatie: <https://gnu.org/software/bash/>.
+Meer informatie: <https://www.gnu.org/software/bash/>.
 
 - Start een interactieve shell sessie:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/bash (français)
 description: "Bourne-Again SHell, un interpréteur de ligne de commande compatible avec `sh`."
-content_hash: 894198d3241eedbec3991e041bd252b10817cbbe
-last_modified_at: 2023-11-12
+content_hash: 854be89d069afc2ce2ea8cef0e1d35da7dd3d5b8
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/bash.html
@@ -41,7 +41,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 Bourne-Again SHell, un interpréteur de ligne de commande compatible avec `sh`.
 Voir aussi `histexpand` pour l'expansion de l'historique.
-Plus d'informations : <https://gnu.org/software/bash/>.
+Plus d'informations : <https://www.gnu.org/software/bash/>.
 
 - Démarre une session shell interactive :
 

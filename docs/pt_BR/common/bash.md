@@ -2,8 +2,8 @@
 layout: page
 title: common/bash (português (Brasil))
 description: "Bourne-Again SHell, um interpretador de linha de comando compatível com `sh`."
-content_hash: 42925e4863cf215371241de2145fd0648e535694
-last_modified_at: 2023-11-12
+content_hash: 598e8ea6db482cbd800146c992c0e8d32766424e
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/bash.html
@@ -38,7 +38,7 @@ tldri18n_status: 2
 
 Bourne-Again SHell, um interpretador de linha de comando compatível com `sh`.
 Veja também: `zsh`, `histexpand` (expansão do histórico).
-Mais informações: <https://gnu.org/software/bash/>.
+Mais informações: <https://www.gnu.org/software/bash/>.
 
 - Inicia uma sessão interativa do shell:
 

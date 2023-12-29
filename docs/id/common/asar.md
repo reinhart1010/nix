@@ -2,8 +2,8 @@
 layout: page
 title: common/asar (Indonesia)
 description: "Pengarsip berkas untuk platform Electron."
-content_hash: ff8148320f52c2f6afca7d76e66352e3753f35e0
-last_modified_at: 2023-11-12
+content_hash: 9ef347f48a116ee9117d2b300284ee55b6f965ea
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/asar.html
@@ -40,7 +40,7 @@ Informasi lebih lanjut: <https://github.com/electron/asar>.
 
 - Mengekstrak berkas tertentu dari sebuah arsip:
 
-`asar extract-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arsip.asar</span>` {berkas</span>
+`asar extract-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arsip.asar</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">berkas</span>
 
 - Mendapatkan daftar konten dari berkas arsip:
 

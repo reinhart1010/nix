@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (Indonesia)
 description: "Mengatur kontainer Docker dan image."
-content_hash: 507af69ee2a2de043362925aa9e28c223801dc84
-last_modified_at: 2023-11-12
+content_hash: f78aa2625b6d8f847c7327b49e1684eb0cc14c76
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -26,6 +26,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/docker.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/docker.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker.html
     icon: bi bi-globe
@@ -46,13 +49,9 @@ Mengatur kontainer Docker dan image.
 Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `docker run`.
 Informasi lebih lanjut: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- Menampilkan semua daftar kontainer docker yang sedang berjalan:
-
-`docker ps`
-
 - Menampilkan semua daftar kontainer docker (yang sedang berjalan dan berhenti):
 
-`docker ps -a`
+`docker ps --all`
 
 - Memulai sebuah kontainer dari image, dengan nama kustom:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/git-clone (українська)
 description: "Клонує репозиторій, що існує."
-content_hash: 3386e26a8399845a71b6b0dae157bafabec3998e
-last_modified_at: 2023-11-12
+content_hash: 5a9c0013d7512dedc7a135c364ccce70013b0a69
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/git-clone.html
@@ -45,10 +45,6 @@ tldri18n_status: 2
 Клонує репозиторій, що існує.
 Більше інформації: <https://git-scm.com/docs/git-clone>.
 
-- Клонує репозиторій, що існує:
-
-`git clone `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях_до_віддаленого_репозиторію</span>
-
 - Клонує репозиторій, що існує, у задану директорію:
 
 `git clone `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях_до_віддаленого_репозиторію</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/директорії</span>
@@ -59,11 +55,11 @@ tldri18n_status: 2
 
 - Клонує локальний репозиторій:
 
-`git clone -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/локального/репозиторію</span>
+`git clone --local `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях/до/локального/репозиторію</span>
 
 - Клонує тихо:
 
-`git clone -q `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях_до_віддаленого_репозиторію</span>
+`git clone --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шлях_до_віддаленого_репозиторію</span>
 
 - Клонує з репозиторію, що існує, тільки 10 останніх комітів з гілки по замовчанню (корисно для заощадження часу):
 

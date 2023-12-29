@@ -2,8 +2,8 @@
 layout: page
 title: common/bash (한국어)
 description: "Bourne-Again SHell, an `sh`- 호환 명령 행 인터프리터."
-content_hash: 78311b22ee4937eaa584709fa42afc1cb2959a68
-last_modified_at: 2023-11-12
+content_hash: 8812ee75bf4b07787dc38cdbc753754ca4607530
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/bash.html
@@ -41,7 +41,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 Bourne-Again SHell, an `sh`- 호환 명령 행 인터프리터.
 참조 : `zsh`, `histexpand` (history expansion).
-더 많은 정보: <https://gnu.org/software/bash/>.
+더 많은 정보: <https://www.gnu.org/software/bash/>.
 
 - 대화형 쉘 시작하기:
 

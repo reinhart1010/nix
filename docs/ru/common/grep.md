@@ -2,8 +2,8 @@
 layout: page
 title: common/grep (русский)
 description: "Поиск по шаблону в файлах используя регулярные выражения."
-content_hash: e9aa53a4cc0772659c4dae439a1dcb7b53d0a41d
-last_modified_at: 2023-11-12
+content_hash: 0bc272d1ca07e743d34cc9b495bdcddd1c506475
+last_modified_at: 2023-12-29
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -64,7 +64,7 @@ tldri18n_status: 2
 
 - Вывести имя файла и номер строки для каждого совпадения:
 
-`grep --with-filename --line-number "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шаблон_поиска</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/к/файлу</span>
+`grep --with-filename --line-number --color=always "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">шаблон_поиска</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/к/файлу</span>
 
 - Искать строки, где есть совпадение по шаблону поиска, вывод только совпадающей части текста:
 

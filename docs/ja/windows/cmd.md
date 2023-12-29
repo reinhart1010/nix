@@ -2,8 +2,8 @@
 layout: page
 title: windows/cmd (日本語)
 description: "Windowsコマンドインタープリター。"
-content_hash: 83fe0558e76912d2400450a7e122eedc1af78d81
-last_modified_at: 2023-11-12
+content_hash: bfda67fa6a9d44f5aa6a212a060b0976f5e9da8e
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/windows/cmd.html
@@ -48,27 +48,23 @@ Windowsコマンドインタープリター。
 
 - 指定されたコマンドを実行して終了します:
 
-`cmd /c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">コマンド</span>`"`
+`cmd /c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">コマンド</span>
 
 - 指定されたコマンドを実行して、インタラクティブシェルに入ります:
 
-`cmd /k "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">コマンド</span>`"`
+`cmd /k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">コマンド</span>
 
 - コマンドの出力での「echo」の使用を無効にします:
 
 `cmd /q`
 
-- コマンド拡張機能を有効または無効にします:
-
-`cmd /e:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span>
-
-- ファイルまたはディレクトリのオートコンプリートを有効または無効にします:
-
-`cmd /f:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span>
-
 - 環境変数の拡張を有効または無効にします:
 
 `cmd /v:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span>
+
+- コマンド拡張機能を有効または無効にします:
+
+`cmd /e:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span>
 
 - 出力でUnicodeエンコーディングを使用するように強制します:
 

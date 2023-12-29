@@ -2,8 +2,8 @@
 layout: page
 title: common/clamscan (Indonesia)
 description: "Sebuah program pemindai virus berbasis command-line."
-content_hash: f5fc735459655b54b7465fbdba0f1fe7810a4a13
-last_modified_at: 2023-11-12
+content_hash: b84879d6a945b475abda914ded9552f3f31fd150
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/clamscan.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/clamscan.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/clamscan.html
     icon: bi bi-globe
   - title: ไทย version
     url: /th/common/clamscan.html
@@ -54,4 +57,4 @@ Informasi lebih lanjut: <https://docs.clamav.net/manual/Usage/Scanning.html#clam
 
 - Hapus file-file yang terinfeksi:
 
-`clamscan --remove`
+`clamscan --remove yes`

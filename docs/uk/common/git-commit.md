@@ -2,8 +2,8 @@
 layout: page
 title: common/git-commit (українська)
 description: "Комітить файли до репозиторію."
-content_hash: bc9a82848944cc6ba76436895a7bfd6c0bf59cb5
-last_modified_at: 2023-11-12
+content_hash: ca7b217e281ffecd4b64d06dd1f5a4118fcb897b
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/git-commit.html
@@ -44,7 +44,7 @@ tldri18n_status: 2
 
 - Комітить індексовані файли до репозиторію з повідомленням:
 
-`git commit -m "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">повідомлення</span>`"`
+`git commit --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">повідомлення</span>`"`
 
 - Комітить індексовані файли з повідомленням, що прочитано у файлі:
 
@@ -52,11 +52,7 @@ tldri18n_status: 2
 
 - Автоматично індексує усі змінені файли і комітить їх з повідомленням:
 
-`git commit -a -m "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">повідомлення</span>`"`
-
-- Комітить індексовані файли та підписує ([S]ign) їх ключем GPG, що визначений у `~/.gitconfig`:
-
-`git commit -S -m "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">повідомлення</span>`"`
+`git commit --all --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">повідомлення</span>`"`
 
 - Оновлює останній коміт додаючи до нього щойно індексовані зміни, також змінює геш коміту:
 
@@ -68,4 +64,4 @@ tldri18n_status: 2
 
 - Створює коміт, навіть якщо немає жодного індексованого файлу:
 
-`git commit -m "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">повідомлення</span>`" --allow-empty`
+`git commit --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">повідомлення</span>`" --allow-empty`
