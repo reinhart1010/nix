@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/lpmove (português (Brasil))
-description: "Move a job or all jobs to another printer"
-content_hash: 4dc5a41442453ef2a3161ac94410350c864129ff
-last_modified_at: 2023-12-28
+description: "Move um ou todos os trabalhos para outra impressora."
+content_hash: b83dc4d46dd510344292740f288d794f5d1c3114
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/lpmove.html
@@ -12,9 +12,9 @@ tldri18n_status: 2
 ---
 # lpmove
 
-Move a job or all jobs to another printer
-See also: `cancel`, `lp`, `lpr`, `lprm`.
-More information: <https://openprinting.github.io/cups/doc/man-lpmove.html>.
+Move um ou todos os trabalhos para outra impressora.
+Veja também: `cancel`, `lp`, `lpr`, `lprm`.
+Mais informações: <https://openprinting.github.io/cups/doc/man-lpmove.html>.
 
 - Move um trabalho específico para `nova_impressora`:
 

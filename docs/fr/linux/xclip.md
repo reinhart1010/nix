@@ -3,7 +3,7 @@ layout: page
 title: linux/xclip (français)
 description: "Outil de manipulation de presse-papiers X11, semblable à `xsel`."
 content_hash: 63c2ad4fa5d989e6be4856c38cabaa8185c6e2f8
-last_modified_at: 2023-12-28
+last_modified_at: 2023-12-29
 related_topics:
   - title: العربية version
     url: /ar/linux/xclip.html
@@ -11,9 +11,12 @@ related_topics:
   - title: English version
     url: /en/linux/xclip.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# xclip
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># xclip
 
 Outil de manipulation de presse-papiers X11, semblable à `xsel`.
 Gère les sélections primaires et secondaires de X, en plus du presse-papier système (`Ctrl + C`/`Ctrl + V`).

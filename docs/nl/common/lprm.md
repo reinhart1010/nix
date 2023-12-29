@@ -2,8 +2,8 @@
 layout: page
 title: common/lprm (Nederlands)
 description: "Annuleer wachtende printtaken van een server."
-content_hash: 878553be20acf695a24b06011d0cdb06b396c3a6
-last_modified_at: 2023-12-28
+content_hash: 504a26f9f06a489a276f8cf10f9a8d4b09192505
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/lprm.html
@@ -11,22 +11,13 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/lprm.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/lprm.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># lprm
+# lprm
 
 Annuleer wachtende printtaken van een server.
 Bekijk ook: `lpq`.
-Meer informatie: <https://www.cups.org/doc/man-lprm.html>.
+Meer informatie: <https://openprinting.github.io/cups/doc/man-lprm.html>.
 
 - Annuleer de huidige taak op de standaard printer:
 

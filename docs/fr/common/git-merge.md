@@ -3,7 +3,7 @@ layout: page
 title: common/git-merge (français)
 description: "Pour fusionner des branches `git`."
 content_hash: 8e7ac775c40489e8fc45b42fb29c0abc66824c77
-last_modified_at: 2023-12-28
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/git-merge.html
@@ -20,9 +20,12 @@ related_topics:
   - title: українська version
     url: /uk/common/git-merge.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# git merge
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git merge
 
 Pour fusionner des branches `git`.
 Plus d'informations : <https://git-scm.com/docs/git-merge>.

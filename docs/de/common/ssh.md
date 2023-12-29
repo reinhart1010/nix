@@ -3,7 +3,7 @@ layout: page
 title: common/ssh (Deutsch)
 description: "Secure Shell ist ein Protokoll für das sichere einloggen auf einem externen System."
 content_hash: 666327989c06d3e4c38baa653ae0021600417eb9
-last_modified_at: 2023-12-28
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/ssh.html
@@ -20,9 +20,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/ssh.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# ssh
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># ssh
 
 Secure Shell ist ein Protokoll für das sichere einloggen auf einem externen System.
 Es kann dafür eingesetzt werden um Befehle auf externen Systemen auszuführen.

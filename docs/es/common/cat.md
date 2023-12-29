@@ -3,7 +3,7 @@ layout: page
 title: common/cat (español)
 description: "Imprime y concatena archivos."
 content_hash: e1c64ff3355397590dc0fbe719cf944e326c7e9c
-last_modified_at: 2023-12-28
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -53,9 +53,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/cat.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# cat
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># cat
 
 Imprime y concatena archivos.
 Más información: <https://www.gnu.org/software/coreutils/cat>.

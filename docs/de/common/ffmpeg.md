@@ -3,7 +3,7 @@ layout: page
 title: common/ffmpeg (Deutsch)
 description: "Programm zum konvertieren von Videos."
 content_hash: 4a7b8e995d580b71b03e9ff36d1e22af7df84baa
-last_modified_at: 2023-12-28
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/ffmpeg.html
@@ -17,9 +17,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/ffmpeg.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# ffmpeg
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># ffmpeg
 
 Programm zum konvertieren von Videos.
 Weitere Informationen: <https://ffmpeg.org>.

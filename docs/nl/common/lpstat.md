@@ -3,7 +3,7 @@ layout: page
 title: common/lpstat (Nederlands)
 description: "Bekijk de status informatie over printers."
 content_hash: 4f93455401b302fadb2df2af7ae51d44ebb46acb
-last_modified_at: 2023-12-28
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/lpstat.html
@@ -11,18 +11,9 @@ related_topics:
   - title: English version
     url: /en/common/lpstat.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/lpstat.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># lpstat
+# lpstat
 
 Bekijk de status informatie over printers.
 Meer informatie: <https://manned.org/lpstat>.

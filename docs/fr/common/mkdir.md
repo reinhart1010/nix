@@ -3,7 +3,7 @@ layout: page
 title: common/mkdir (français)
 description: "Crée un répertoire."
 content_hash: a67ce79007c8137ca52c7319e7a8939bc94c71df
-last_modified_at: 2023-12-28
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -35,9 +35,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/mkdir.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# mkdir
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># mkdir
 
 Crée un répertoire.
 Plus d'informations : <https://www.gnu.org/software/coreutils/mkdir>.

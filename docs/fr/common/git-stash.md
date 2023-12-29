@@ -3,7 +3,7 @@ layout: page
 title: common/git-stash (français)
 description: "Stocker les modifications Git locales dans une zone temporaire."
 content_hash: b43fe7c19fdafa52c10851e729aee99c5dff9b0f
-last_modified_at: 2023-12-28
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/git-stash.html
@@ -17,9 +17,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-stash.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# git stash
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git stash
 
 Stocker les modifications Git locales dans une zone temporaire.
 Plus d'informations : <https://git-scm.com/docs/git-stash>.

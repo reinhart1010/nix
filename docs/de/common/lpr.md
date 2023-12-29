@@ -2,8 +2,8 @@
 layout: page
 title: common/lpr (Deutsch)
 description: "CUPS-Programm zum Drucken von Dateien."
-content_hash: 9638bb8bd430da535c62eaf0f1cc7ebaaa3e9fdd
-last_modified_at: 2023-11-12
+content_hash: de927a40990b124a10792347433c67c6bb997736
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/lpr.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 CUPS-Programm zum Drucken von Dateien.
 Siehe auch: `lpstat` und `lpadmin`.
-Weitere Informationen: <https://www.cups.org/doc/man-lpr.html>.
+Weitere Informationen: <https://openprinting.github.io/cups/doc/man-lpr.html>.
 
 - Drucke eine Datei mit dem Standarddrucker:
 

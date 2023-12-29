@@ -3,7 +3,7 @@ layout: page
 title: common/cat (русский)
 description: "Выводит и объединяет файлы."
 content_hash: 67f7879401049797923e1ff6b4fe5cdd5a248299
-last_modified_at: 2023-12-28
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -53,9 +53,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/cat.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# cat
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># cat
 
 Выводит и объединяет файлы.
 Больше информации: <https://www.gnu.org/software/coreutils/cat>.

@@ -3,7 +3,7 @@ layout: page
 title: common/mongo (français)
 description: "Client shell pour MongoDB."
 content_hash: 972627612c41c11d9fd1be647ebdf11edd3588f6
-last_modified_at: 2023-12-28
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/mongo.html
@@ -11,9 +11,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/mongo.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# mongo
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># mongo
 
 Client shell pour MongoDB.
 Plus d'informations : <https://docs.mongodb.com/manual/reference/program/mongo>.

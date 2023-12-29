@@ -3,7 +3,7 @@ layout: page
 title: linux/dnf (Deutsch)
 description: "Paketmanagement Tool für RHEL, Fedora, und CentOS (ersetzt yum)."
 content_hash: 98118973d1ef57aba174aaeafcd5305b31a1a955
-last_modified_at: 2023-12-28
+last_modified_at: 2023-12-29
 related_topics:
   - title: català version
     url: /ca/linux/dnf.html
@@ -32,9 +32,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/dnf.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# dnf
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># dnf
 
 Paketmanagement Tool für RHEL, Fedora, und CentOS (ersetzt yum).
 Weitere Informationen: <https://dnf.readthedocs.io>.

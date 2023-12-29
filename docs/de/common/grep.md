@@ -3,7 +3,7 @@ layout: page
 title: common/grep (Deutsch)
 description: "Findet Ausdrücke in einem Eingabetext."
 content_hash: c06cdd5a04f72143fc7ec0ee5272c106e650ed63
-last_modified_at: 2023-12-28
+last_modified_at: 2023-12-29
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -35,9 +35,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/grep.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# grep
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># grep
 
 Findet Ausdrücke in einem Eingabetext.
 Unterstützt einfache Muster und reguläre Ausdrücke.

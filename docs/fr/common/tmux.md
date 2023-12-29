@@ -3,7 +3,7 @@ layout: page
 title: common/tmux (français)
 description: "Multiplexeur de terminaux. Permet plusieurs sessions avec fenêtres, panneaux, et plus encore."
 content_hash: bfbc9f528a31d3c4faedc4622eb284de267c5593
-last_modified_at: 2023-12-28
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/tmux.html
@@ -20,9 +20,12 @@ related_topics:
   - title: português (Portugal) version
     url: /pt_PT/common/tmux.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# tmux
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># tmux
 
 Multiplexeur de terminaux. Permet plusieurs sessions avec fenêtres, panneaux, et plus encore.
 Plus d'informations : <https://github.com/tmux/tmux>.

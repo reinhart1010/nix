@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman (français)
 description: "Outil de gestion de paquets sur Arch Linux."
 content_hash: 01e9fbca51ce454cbf8b4f92beafc580520d2d11
-last_modified_at: 2023-12-28
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -38,9 +38,12 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/pacman.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# pacman
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># pacman
 
 Outil de gestion de paquets sur Arch Linux.
 Voir aussi: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.

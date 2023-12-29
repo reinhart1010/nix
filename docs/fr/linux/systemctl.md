@@ -3,7 +3,7 @@ layout: page
 title: linux/systemctl (français)
 description: "Contrôle le système systemd et le gestionnaire de services."
 content_hash: 4e58fa203697abdb1f59247a60a71f2a707894cd
-last_modified_at: 2023-12-28
+last_modified_at: 2023-12-29
 related_topics:
   - title: català version
     url: /ca/linux/systemctl.html
@@ -29,9 +29,12 @@ related_topics:
   - title: українська version
     url: /uk/linux/systemctl.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# systemctl
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># systemctl
 
 Contrôle le système systemd et le gestionnaire de services.
 Plus d'informations : <https://www.freedesktop.org/software/systemd/man/systemctl.html>.

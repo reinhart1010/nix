@@ -3,7 +3,7 @@ layout: page
 title: common/ssh-keygen (Deutsch)
 description: "Generiert ssh Schlüssel für Authentifizierung, Passwort-lose Logins und mehr."
 content_hash: cb39d696121076cd08311e9d3c122d072772f0c1
-last_modified_at: 2023-12-28
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/ssh-keygen.html
@@ -14,9 +14,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/ssh-keygen.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# ssh-keygen
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># ssh-keygen
 
 Generiert ssh Schlüssel für Authentifizierung, Passwort-lose Logins und mehr.
 Weitere Informationen: <https://man.openbsd.org/ssh-keygen>.

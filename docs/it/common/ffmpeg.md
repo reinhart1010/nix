@@ -3,7 +3,7 @@ layout: page
 title: common/ffmpeg (italiano)
 description: "Tool per convertire audio e video."
 content_hash: c14b7b3283f7328a09ae1a1e88f161a0aeee12b7
-last_modified_at: 2023-12-28
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/ffmpeg.html
@@ -17,9 +17,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/ffmpeg.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# ffmpeg
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># ffmpeg
 
 Tool per convertire audio e video.
 Maggiori informazioni: <https://ffmpeg.org>.

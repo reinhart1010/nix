@@ -3,7 +3,7 @@ layout: page
 title: common/cat (中文 (繁體, 台灣))
 description: "連接檔案並印出檔案的內容。"
 content_hash: 6baf96c1f52d1a70811dff40504d7236fc7fd42d
-last_modified_at: 2023-12-28
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -53,9 +53,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/cat.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# cat
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># cat
 
 連接檔案並印出檔案的內容。
 更多資訊：<https://www.gnu.org/software/coreutils/cat>.

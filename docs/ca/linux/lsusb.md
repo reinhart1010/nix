@@ -3,7 +3,7 @@ layout: page
 title: linux/lsusb (català)
 description: "Mostra informació sobre ports i dispositius USB."
 content_hash: 3aa45d4bd03c39bd6a4ed4853a8d1b5295067dd9
-last_modified_at: 2023-12-28
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/linux/lsusb.html
@@ -17,9 +17,12 @@ related_topics:
   - title: italiano version
     url: /it/linux/lsusb.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# lsusb
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># lsusb
 
 Mostra informació sobre ports i dispositius USB.
 Més informació: <https://manned.org/lsusb>.

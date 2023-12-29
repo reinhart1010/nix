@@ -3,7 +3,7 @@ layout: page
 title: linux/dnf (català)
 description: "Administrador de paquets per RHEL, CentOS i Fedora (Reemplaça a yum)."
 content_hash: f586b6e6dd3eb44da3edeac68ae98ba7ba388fac
-last_modified_at: 2023-12-28
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/linux/dnf.html
@@ -32,9 +32,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/dnf.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# dnf
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># dnf
 
 Administrador de paquets per RHEL, CentOS i Fedora (Reemplaça a yum).
 Més informació: <https://dnf.readthedocs.io>.

@@ -3,7 +3,7 @@ layout: page
 title: common/rm (中文 (繁體, 台灣))
 description: "移除檔案或目錄。"
 content_hash: 5bb6614cdd810d9212f8985e0820acf7fd977895
-last_modified_at: 2023-12-28
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/rm.html
@@ -41,9 +41,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/rm.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# rm
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># rm
 
 移除檔案或目錄。
 更多資訊：<https://www.gnu.org/software/coreutils/rm>.

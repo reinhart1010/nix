@@ -3,7 +3,7 @@ layout: page
 title: common/ssh-keygen (français)
 description: "Génère des clés SSH. Utilisées entre autres pour l'authentification ou la connexion sans utiliser de mot de passe."
 content_hash: 24b460a0609f02d88278888ec575dec635a2bb94
-last_modified_at: 2023-12-28
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/ssh-keygen.html
@@ -14,9 +14,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/ssh-keygen.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# ssh-keygen
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># ssh-keygen
 
 Génère des clés SSH. Utilisées entre autres pour l'authentification ou la connexion sans utiliser de mot de passe.
 Plus d'informations : <https://man.openbsd.org/ssh-keygen>.
