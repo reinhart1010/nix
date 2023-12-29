@@ -2,8 +2,8 @@
 layout: page
 title: common/vim (Nederlands)
 description: "Vim (Vi IMproved), een command-line tekst bewerker, geeft toegang tot verschillende manieren van tekst manipulatie."
-content_hash: 16330c6600d63625346b30db75527f2a0ae136ed
-last_modified_at: 2023-12-16
+content_hash: 8f56a0ba193cd67475441229a92aabacc975312a
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -68,7 +68,7 @@ Meer informatie: <https://www.vim.org>.
 
 - Terug naar normale modues en maak de laatste verandering ongedaan:
 
-`<ESC>u`
+`<Esc>u`
 
 - Zoek een patroon in het bestand (druk op `n`/`N` om naar de volgende/vorige overeenkomst te gaan):
 

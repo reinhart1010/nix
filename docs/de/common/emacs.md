@@ -2,8 +2,8 @@
 layout: page
 title: common/emacs (Deutsch)
 description: "Der erweiterbare, veränderbare und selbst-dokumentierende Echtzeit Text Editor."
-content_hash: c11f1a766a3ea1a7be2ed45e0b3e626eaa1612d6
-last_modified_at: 2023-11-12
+content_hash: 8951859475ab4a2a144a10c4fe7d5a5c4ae75b46
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/emacs.html
@@ -47,8 +47,8 @@ Weitere Informationen: <https://www.gnu.org/software/emacs>.
 
 - Tastenkombination zum Speichern einer Datei:
 
-`Ctrl + X, Ctrl + S`
+`<Ctrl> + X, <Ctrl> + S`
 
 - Tastenkombination zum Beenden von Emacs:
 
-`Ctrl + X, Ctrl + C`
+`<Ctrl> + X, <Ctrl> + C`

@@ -2,8 +2,8 @@
 layout: page
 title: common/box (italiano)
 description: "Una applicazione PHP per creare e gestire Phars."
-content_hash: 0bb84458c64b3a0e5858cbc6d15a4683688ee021
-last_modified_at: 2023-11-12
+content_hash: 54ad5ba7bb7937b3af08b832d0891993f04dbf5a
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/box.html
@@ -20,11 +20,11 @@ Maggiori informazioni: <https://github.com/box-project/box>.
 
 - Crea un nuovo file Phar:
 
-`box build`
+`box compile`
 
 - Crea un nuovo file Phar usando uno specifico file di configurazione:
 
-`box build -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/configurazione</span>
+`box compile -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/configurazione</span>
 
 - Mostra informazioni sulla estensione PHP PHAR:
 

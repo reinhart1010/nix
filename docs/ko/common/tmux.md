@@ -2,8 +2,8 @@
 layout: page
 title: common/tmux (한국어)
 description: "터미널 멀티플렉서. tmux는 단일 단말기 창 또는 원격 터미널 세션 안에서 여러 세션을 사용할 수 있도록 도와줍니다."
-content_hash: 26e349070e06a76a6350d96af24becab8bfb23ec
-last_modified_at: 2023-11-12
+content_hash: 159f415efa3fa7c452b8c99d71eda69d82ac5553
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/tmux.html
@@ -46,15 +46,15 @@ tldri18n_status: 2
 
 - 현재 세션에서 나가기 (tmux 세션 안에서 사용):
 
-`Ctrl-B d`
+`<Ctrl>-B d`
 
 - 새 창 만들기 (tmux 세션 안에서 사용):
 
-`Ctrl-B c`
+`<Ctrl>-B c`
 
 - 세션 혹은 창 변경 (tmux 세션 안에서 사용):
 
-`Ctrl-B w`
+`<Ctrl>-B w`
 
 - 세션 이름으로 종료:
 

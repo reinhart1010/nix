@@ -2,8 +2,8 @@
 layout: page
 title: common/git-reset (italiano)
 description: "Annulla commit o rimuovi modifiche dall'area di stage, reimpostando l'HEAD corrente su uno specifico stato."
-content_hash: be0b94fd6fed67bf8be56c73296e822970bc6114
-last_modified_at: 2023-11-12
+content_hash: 6edbab5be55b8215949a15c440576e134b73fda5
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/git-reset.html
@@ -34,7 +34,7 @@ Maggiori informazioni: <https://git-scm.com/docs/git-reset>.
 
 - Rimuovi dall'area di stage uno o più file:
 
-`git reset `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file2</span>
+`git reset `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file1 percorso/del/file2 ...</span>
 
 - Rimuovi dall'area di stage solo alcune porzioni di un file in modo interattivo:
 

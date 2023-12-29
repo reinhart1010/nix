@@ -2,8 +2,8 @@
 layout: page
 title: common/abduco (한국어)
 description: "터미널 세션 관리자."
-content_hash: a363a174efe7ef72246a719839824e6a771122c6
-last_modified_at: 2023-11-12
+content_hash: a54575d43dcf4b2704aafc96ac98fb28aaf33278
+last_modified_at: 2023-12-29
 related_topics:
   - title: বাংলা version
     url: /bn/common/abduco.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/abduco.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/abduco.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/abduco.html
@@ -56,7 +59,7 @@ tldri18n_status: 2
 
 - 세션으로부터 제거:
 
-`Ctrl + \`
+`<Ctrl> + \`
 
 - 읽기 전용 모드로 세션 연결하기:
 

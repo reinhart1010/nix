@@ -2,8 +2,8 @@
 layout: page
 title: osx/airport (italiano)
 description: "Strumento di configurazione delle reti senza fili."
-content_hash: 7d161c72d1f8334f6b8aa62f91b62d84b8f1bda8
-last_modified_at: 2023-11-12
+content_hash: dc6074d3f88c87aba01a07fff889abcc208f8f9b
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/osx/airport.html
@@ -26,7 +26,7 @@ Maggiori informazioni: <https://ss64.com/osx/airport.html>.
 
 - Mostra le informazioni relative allo stato attuale delle connessioni senza fili:
 
-`airport -I`
+`airport --getinfo`
 
 - Intercetta il traffico delle connessioni senza fili sul primo canale:
 
@@ -34,8 +34,8 @@ Maggiori informazioni: <https://ss64.com/osx/airport.html>.
 
 - Ricerca le reti senza fili disponibili:
 
-`airport -s`
+`airport --scan`
 
 - Disassocia dalla rete airport corrente:
 
-`sudo airport -z`
+`sudo airport --disassociate`

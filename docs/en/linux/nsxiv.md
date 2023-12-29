@@ -2,8 +2,8 @@
 layout: page
 title: linux/nsxiv (English)
 description: "Neo Simple X Image Viewer."
-content_hash: 7f2ae46a80922c8d054cd6b35c5aee222a53da0c
-last_modified_at: 2023-11-12
+content_hash: e805fc4b067bdb30ba24dd1a4c056446e5c8d40c
+last_modified_at: 2023-12-29
 tldri18n_status: 2
 ---
 # nsxiv
@@ -29,7 +29,7 @@ More information: <https://nsxiv.codeberg.page/man>.
 
 - Switch to thumbnail mode or open selected image in image mode:
 
-`Return`
+`<Return>`
 
 - Count images forward in image mode:
 

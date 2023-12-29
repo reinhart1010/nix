@@ -2,8 +2,8 @@
 layout: page
 title: common/abduco (Indonesia)
 description: "Manajer sesi Terminal."
-content_hash: 54a803f2ccebd9a77196388000733b581a41286c
-last_modified_at: 2023-12-16
+content_hash: 71e4fab9c700656c4c1f24b6ae2a5113676b9a1a
+last_modified_at: 2023-12-29
 related_topics:
   - title: বাংলা version
     url: /bn/common/abduco.html
@@ -59,7 +59,7 @@ Informasi lebih lanjut: <http://www.brain-dump.org/projects/abduco/>.
 
 - Keluar dari sesi:
 
-`Ctrl + \`
+`<Ctrl> + \`
 
 - Buk[A] sesi saat ini dalam mode non-interaktif alias [r]ead-only:
 

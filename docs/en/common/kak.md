@@ -2,8 +2,8 @@
 layout: page
 title: common/kak (English)
 description: "Kakoune is a mode-based code editor implementing the \"multiple selections\" paradigm."
-content_hash: fd1bfc75d99b9290dae35ae394ca7b0b35665c9b
-last_modified_at: 2023-11-12
+content_hash: 2d008a0e449418fb709259152d7fd0c695804d41
+last_modified_at: 2023-12-29
 tldri18n_status: 2
 ---
 # kak
@@ -22,11 +22,11 @@ More information: <https://kakoune.org>.
 
 - Escape insert mode, to go back to normal mode:
 
-`<Escape>`
+`<Esc>`
 
 - Replace all instances of "foo" in the current file with "bar":
 
-`%s`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span>`<Enter>c`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bar</span>`<Escape>`
+`%s`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span>`<Enter>c`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bar</span>`<Esc>`
 
 - Unselect all secondary selections, and keep only the main one:
 

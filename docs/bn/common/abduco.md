@@ -2,8 +2,8 @@
 layout: page
 title: common/abduco (বাংলা)
 description: "টার্মিনাল সেশন ম্যানেজার।"
-content_hash: 5b2ca9fc7804da6783746d2a67f1a12f26eb93ef
-last_modified_at: 2023-11-12
+content_hash: 4dba2dc05a1a7bd2991f544ca2ec7f06ac58cdee
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/abduco.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/abduco.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/abduco.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/abduco.html
@@ -56,7 +59,7 @@ tldri18n_status: 2
 
 - একটি সেশন থেকে বিচ্ছিন্ন করুন:
 
-`Ctrl + \`
+`<Ctrl> + \`
 
 - একটি সেশনে রিড-ওনলি মোডে আটাচ করুন:
 

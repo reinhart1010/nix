@@ -2,8 +2,8 @@
 layout: page
 title: common/tmux (日本語)
 description: "端末のマルチプレクサ。"
-content_hash: 90f2e8fd173043b51080d4d0a3fba917baac9581
-last_modified_at: 2023-12-28
+content_hash: 7d33ed8deb19c6c7a964a10237dd4de2acfd5026
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/tmux.html
@@ -47,15 +47,15 @@ tldri18n_status: 2
 
 - 現在のセッションからの切り離し（tmuxセッション内）:
 
-`Ctrl-B d`
+`<Ctrl>-B d`
 
 - 新しいウィンドウを作成する（tmuxセッション内）:
 
-`Ctrl-B c`
+`<Ctrl>-B c`
 
 - セッションとウィンドウの切り替え（tmuxセッション内）:
 
-`Ctrl-B w`
+`<Ctrl>-B w`
 
 - 名前を指定してセッションを終了させる:
 

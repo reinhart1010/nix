@@ -2,8 +2,8 @@
 layout: page
 title: common/ar (italiano)
 description: "Crea, modifica ed estrai da archivi (`.a`, `.so`, `.o`)."
-content_hash: 939486706c1ff4336cd0dd37c5734a1f726025e6
-last_modified_at: 2023-11-12
+content_hash: ce70de8fcb0edcac51ba5b3160f1aa8ebded2cd0
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/ar.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/ar.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/ar.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/ar.html
@@ -24,22 +27,22 @@ tldri18n_status: 2
 Crea, modifica ed estrai da archivi (`.a`, `.so`, `.o`).
 Maggiori informazioni: <https://manned.org/ar>.
 
-- Estrai tutti i membri da un archivio:
+- Estrai ([x]) tutti i membri da un archivio:
 
-`ar -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">libfoo.a</span>
+`ar x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.a</span>
 
-- Lista tutti i membri di un archivio:
+- Lis[t]a tutti i membri di un archivio:
 
-`ar -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">libfoo.a</span>
+`ar t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.ar</span>
 
-- Sostituisci o aggiungi file ad un archvio:
+- Sostituisci ([r]) o aggiungi file ad un archvio:
 
-`ar -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">libfoo.a</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo.o</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bar.o</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">baz.o</span>
+`ar r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.deb</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/debian-binary percorso/del/control.tar.gz percorso/del/data.tar.xz ...</span>
 
-- Inserisci o sostituisci un indice in un archivio (equivalente ad usare `ranlib`):
+- In[s]erisci o sostituisci un indice in un archivio (equivalente ad usare `ranlib`):
 
-`ar -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">libfoo.a</span>
+`ar s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.a</span>
 
 - Crea un archivio con dei file creando anche il relativo indice:
 
-`ar -rs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">libfoo.a</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo.o</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bar.o</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">baz.o</span>
+`ar rs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.a</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file1.o percorso/del/file2.o ...</span>

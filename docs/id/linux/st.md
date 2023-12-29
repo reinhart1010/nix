@@ -2,8 +2,8 @@
 layout: page
 title: linux/st (Indonesia)
 description: "Emulator terminal simpel untuk sistem window X."
-content_hash: b96254876c40d182f6b0cd0612456466645a976f
-last_modified_at: 2023-11-12
+content_hash: 5a45937c8f8f4fc975748deabcad09a74232e1ec
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/linux/st.html
@@ -29,8 +29,8 @@ Informasi lebih lanjut: <https://st.suckless.org>.
 
 - Membesarkan/mengecilkan ukuran font:
 
-`Ctrl + Shift + `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Page Up|Page Down</span>
+`<Ctrl> + <Shift> + `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Page Up|Page Down</span>
 
 - Copy/paste dari clipboard:
 
-`Ctrl + Shift + `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C|V</span>
+`<Ctrl> + <Shift> + `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C|V</span>

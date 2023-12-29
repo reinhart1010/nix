@@ -2,8 +2,8 @@
 layout: page
 title: windows/cmd (italiano)
 description: "L'interprete dei comandi di Windows."
-content_hash: e555c120a7ddf222f78d3bbe82ba48cd3b6a5978
-last_modified_at: 2023-11-12
+content_hash: 4fbf892617f855de7f0a43c559d9c7de8d502456
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/windows/cmd.html
@@ -48,11 +48,11 @@ Maggiori informazioni: <https://learn.microsoft.com/windows-server/administratio
 
 - Esegue il comando specificato e poi esce:
 
-`cmd /c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>`"`
+`cmd /c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Ciao mondo</span>
 
 - Esegue il comando specificato e poi apre una shell interattiva:
 
-`cmd /k "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>`"`
+`cmd /k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Ciao mondo</span>
 
 - Disabilita l'uso di `echo` nell'output di un comando:
 
@@ -61,10 +61,6 @@ Maggiori informazioni: <https://learn.microsoft.com/windows-server/administratio
 - Abilita o disabilita le estensioni ai comandi:
 
 `cmd /e:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span>
-
-- Abilita o disabilita l'autocompletamento dei nomi di file e directory:
-
-`cmd /f:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span>
 
 - Abilita o disabilita l'espansione delle variabili d'ambiente:
 

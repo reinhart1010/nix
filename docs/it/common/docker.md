@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (italiano)
 description: "Gestisci container ed immagini Docker."
-content_hash: 3e6f0a6150223cef4d37248dffb3786c3e55b833
-last_modified_at: 2023-11-12
+content_hash: 44931c20d3639da7cc15d956f54edbef33f789b9
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -26,6 +26,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/docker.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/docker.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker.html
     icon: bi bi-globe
@@ -46,13 +49,9 @@ Gestisci container ed immagini Docker.
 Alcuni comandi aggiuntivi, come `docker run`, hanno la propria documentazione.
 Maggiori informazioni: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- Elenca i container Docker attualmente in esecuzione:
-
-`docker ps`
-
 - Elenca tutti i container Docker (in esecuzione e arrestati):
 
-`docker ps -a`
+`docker ps --all`
 
 - Avvia un container da una immagine, con un nome personalizzato:
 

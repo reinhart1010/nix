@@ -2,8 +2,8 @@
 layout: page
 title: common/abduco (English)
 description: "Terminal session manager."
-content_hash: 2373530efedeb2a147f911d2522dd954e9a9aae8
-last_modified_at: 2023-12-03
+content_hash: b07f667cb829f005b007577889e880ee393d3ffc
+last_modified_at: 2023-12-29
 related_topics:
   - title: বাংলা version
     url: /bn/common/abduco.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/abduco.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/abduco.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/abduco.html
@@ -56,7 +59,7 @@ More information: <http://www.brain-dump.org/projects/abduco/>.
 
 - Detach from a session:
 
-`Ctrl + \`
+`<Ctrl> + \`
 
 - [A]ttach to a session in [r]ead-only mode:
 

@@ -2,14 +2,14 @@
 layout: page
 title: common/shift (English)
 description: "Shell built-in command that shifts the arguments passed to the calling function or script by a specified number of places."
-content_hash: 833f425f17ac929212d936d7dd7b94acd4a1d51e
-last_modified_at: 2023-11-12
+content_hash: 31a52e654bdeba88dbc0c6647b9aa0d1b7f63172
+last_modified_at: 2023-12-29
 tldri18n_status: 2
 ---
 # shift
 
 Shell built-in command that shifts the arguments passed to the calling function or script by a specified number of places.
-More information: <https://www.gnu.org/software/bash/manual/bash.html#index-shift>.
+More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#shift>.
 
 - Move arguments by one place dropping the first argument:
 

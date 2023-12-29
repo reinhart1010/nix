@@ -2,8 +2,8 @@
 layout: page
 title: common/abduco (русский)
 description: "Менеджер сессий терминала."
-content_hash: cdb2bdf53ba938cdd7e804993ff6b70e0668abe4
-last_modified_at: 2023-11-12
+content_hash: 61efebf83cebac1f981587665e6d4cd3f642b7ee
+last_modified_at: 2023-12-29
 related_topics:
   - title: বাংলা version
     url: /bn/common/abduco.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/abduco.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/abduco.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/abduco.html
@@ -56,7 +59,7 @@ tldri18n_status: 2
 
 - Отключиться от сеанса:
 
-`Ctrl + \`
+`<Ctrl> + \`
 
 - Подключиться к сеансу в режиме только для чтения:
 

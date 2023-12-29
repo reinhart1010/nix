@@ -2,8 +2,8 @@
 layout: page
 title: common/ptpython (Nederlands)
 description: "Een betere Python REPL."
-content_hash: de65613f19f47ebf8a82570085c5989af52cc52c
-last_modified_at: 2023-12-22
+content_hash: c15ef5c94f3cd7322cd70cc2fc7da1fdcab467d2
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/ptpython.html
@@ -41,4 +41,4 @@ Meer informatie: <https://github.com/prompt-toolkit/ptpython>.
 
 - Sluit af:
 
-`Ctrl + D`
+`<Ctrl> + D`

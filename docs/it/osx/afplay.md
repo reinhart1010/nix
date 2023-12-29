@@ -2,8 +2,8 @@
 layout: page
 title: osx/afplay (italiano)
 description: "Riproduttore audio a riga di comando."
-content_hash: e28a80c3d7db1dc8c1862d827dc28f955fa8420c
-last_modified_at: 2023-11-12
+content_hash: 663e6491c88522132198a883a3e5692e94e1cc28
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/osx/afplay.html
@@ -27,11 +27,11 @@ Maggiori informazioni: <https://ss64.com/osx/afplay.html>.
 
 - Riproduci un file audio al doppio della velocità:
 
-`afplay --rate 2 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
+`afplay --rate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
 
 - Riproduci un file audio alla metà della velocità:
 
-`afplay --rate 0.5 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
+`afplay --rate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0.5</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
 
 - Riproduci i primi N secondi di un file audio:
 

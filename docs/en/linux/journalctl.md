@@ -2,8 +2,8 @@
 layout: page
 title: linux/journalctl (English)
 description: "Query the systemd journal."
-content_hash: 564a7ce3896fb387253fcf4dd955c6648c3022a2
-last_modified_at: 2023-11-12
+content_hash: 48f7f6ea45366840653ea130e4162620327f3e19
+last_modified_at: 2023-12-29
 related_topics:
   - title: polski version
     url: /pl/linux/journalctl.html
@@ -22,10 +22,6 @@ More information: <https://manned.org/journalctl>.
 
 `journalctl -b --priority=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>
 
-- Show all messages from last [b]oot:
-
-`journalctl -b -1`
-
 - Delete journal logs which are older than 2 days:
 
 `journalctl --vacuum-time=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2d</span>
@@ -37,6 +33,10 @@ More information: <https://manned.org/journalctl>.
 - Show all messages by a specific [u]nit:
 
 `journalctl -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unit</span>
+
+- Show logs for a given unit since the last time it started:
+
+`journalctl _SYSTEMD_INVOCATION_ID=$(systemctl show --value --property=InvocationID `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">unit</span>`)`
 
 - Filter messages within a time range (either timestamp or placeholders like "yesterday"):
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/zile (English)
 description: "A lightweight clone of the Emacs text editor."
-content_hash: 3c8446cd6999bddd344af8c37967a8c368af1088
-last_modified_at: 2023-11-15
+content_hash: 97d85c2b040f9e62c59c28d3f5c36184776c9b2e
+last_modified_at: 2023-12-29
 tldri18n_status: 2
 ---
 # zile
@@ -21,11 +21,11 @@ More information: <https://www.gnu.org/software/zile/>.
 
 - Save a file:
 
-`Ctrl + X, Ctrl + S`
+`<Ctrl> + X, <Ctrl> + S`
 
 - Quit:
 
-`Ctrl + X, Ctrl + C`
+`<Ctrl> + X, <Ctrl> + C`
 
 - Open a file at a specified line number:
 
@@ -33,4 +33,4 @@ More information: <https://www.gnu.org/software/zile/>.
 
 - Undo changes:
 
-`Ctrl + X, U`
+`<Ctrl> + X, U`

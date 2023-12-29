@@ -2,8 +2,8 @@
 layout: page
 title: linux/radeontop (italiano)
 description: "Mostra Utilizzo di AMD GPUs."
-content_hash: 1e7e48b96352ce21d7f7bf19999cb03ef8e5126a
-last_modified_at: 2023-11-12
+content_hash: 92624988196006fe929ab8ff00ce0bf86f5201af
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/linux/radeontop.html
@@ -17,16 +17,16 @@ Maggiori informazioni: <https://github.com/clbr/radeontop>.
 
 - Mostra utilizzo del AMD GPU principale:
 
-`sudo radeontop`
+`radeontop`
 
 - Inizia output con colore:
 
-`sudo radeontop --colour`
+`radeontop --color`
 
 - Scegli un GPU specifico (il numero del bus è il primo numero nell'output di `lspci`):
 
-`sudo radeontop --bus `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bus_numero</span>
+`radeontop --bus `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bus_numero</span>
 
 - Specifica la frequenza di aggiornamento del display (più alto aggiunge più sovraccarico al GPU):
 
-`sudo radeontop --ticks `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aggiornamenti_per_secondo</span>
+`radeontop --ticks `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">aggiornamenti_per_secondo</span>

@@ -2,8 +2,8 @@
 layout: page
 title: common/abduco (norsk)
 description: "Terminal økt behandler."
-content_hash: 17e4067c403e0cf20f69df086286ea214c2c02f8
-last_modified_at: 2023-11-12
+content_hash: d9ad2528075107aa6eb0c1dde344c08f0cae7d7b
+last_modified_at: 2023-12-29
 related_topics:
   - title: বাংলা version
     url: /bn/common/abduco.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/abduco.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/abduco.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/abduco.html
@@ -56,7 +59,7 @@ Mer informasjon: <http://www.brain-dump.org/projects/abduco/>.
 
 - Koble fra en økt:
 
-`Ctrl + \`
+`<Ctrl> + \`
 
 - Legg ved en økt i skrivebeskyttet modus:
 

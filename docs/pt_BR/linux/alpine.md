@@ -2,8 +2,8 @@
 layout: page
 title: linux/alpine (português (Brasil))
 description: "Um cliente de e-mail e programa de newsgroup Usenet com uma interface inspirada no pico e nano."
-content_hash: 9a5ea9d4c939ff45214e2b449d29a3ac5f65547a
-last_modified_at: 2023-11-12
+content_hash: 3dfbb34562b5499c1e5a1516bfec356c449894f8
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/linux/alpine.html
@@ -32,4 +32,4 @@ Mais informações: <https://manned.org/alpine>.
 
 - Encerra o alpine:
 
-`'q' e 'y'`
+`q + y`

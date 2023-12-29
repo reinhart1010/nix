@@ -2,8 +2,8 @@
 layout: page
 title: common/du (italiano)
 description: "Utilizzo del disco: stima e riassumi lo spazio utilizzato da file e directory."
-content_hash: 7ea623ae8713fdf08a9da7f3adc89d2616502e53
-last_modified_at: 2023-11-12
+content_hash: 2ae205729f32a3cc6b821635002a7f189913ce65
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/du.html
@@ -55,4 +55,4 @@ Maggiori informazioni: <https://www.gnu.org/software/coreutils/du>.
 
 - Mostra le dimensioni umanamente leggibili di tutti i file `.jpg` nelle sottodirectory della directory corrente, e mostra il totale cumulativo alla fine:
 
-`du -ch */*.jpg`
+`du -ch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*/*.jpg</span>

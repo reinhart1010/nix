@@ -2,8 +2,8 @@
 layout: page
 title: common/ffprobe (italiano)
 description: "Analizzatore di flussi multimediali."
-content_hash: 0bea256859cb7f66d9c4f414dfaca8507fa35d4f
-last_modified_at: 2023-11-12
+content_hash: 0db3082c541d2a5a3e2ccf03aa2fb002b315e8bd
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/ffprobe.html
@@ -20,7 +20,7 @@ Maggiori informazioni: <https://ffmpeg.org/ffprobe.html>.
 
 - Visualizza tutte le informazioni disponibili sui flussi di un file multimediale (audio, video, immagini, etc):
 
-`ffprobe -v error -show_entries `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.mp4</span>
+`ffprobe -v error -show_streams `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.mp4</span>
 
 - Visualizza la durata del contenuto:
 

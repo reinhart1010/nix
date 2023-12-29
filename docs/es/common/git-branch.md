@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/git-branch (español)
-description: "Comando Git principal para trabajar con ramas."
-content_hash: dde24995f639fd92491554027e214702a6d33019
-last_modified_at: 2023-11-12
+description: "Comando principal de Git para trabajar con ramas."
+content_hash: 78d4eda1465dcef90100eb0c766a8e680506f4f3
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/git-branch.html
@@ -33,16 +33,16 @@ tldri18n_status: 2
 ---
 # git branch
 
-Comando Git principal para trabajar con ramas.
+Comando principal de Git para trabajar con ramas.
 Más información: <https://git-scm.com/docs/git-branch>.
 
-- Muestra las ramas locales. La rama actual está resaltada por `*`:
+- Lista todas las ramas (locales y remotas; la rama actual se resalta con `*`):
 
-`git branch`
+`git branch --all`
 
-- Muestra todas las ramas (locales y remotas):
+- Lista las ramas que incluyen un commit Git específico en su historial:
 
-`git branch -a`
+`git branch --all --contains `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_hash</span>
 
 - Muestra el nombre de la rama actual:
 
@@ -50,20 +50,20 @@ Más información: <https://git-scm.com/docs/git-branch>.
 
 - Crea una nueva rama basada en el commit actual:
 
-`git branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_rama</span>
+`git branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_rama</span>
 
 - Crea una nueva rama basada en un commit específico:
 
-`git branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_rama</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash_del_commit</span>
+`git branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_rama</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_hash</span>
 
-- Renombra una rama (no debe haber sido fusionada para hacer esto):
+- Cambiar el nombre de una rama (para ello no debes tenerla controlada):
 
-`git branch -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">antiguo_nombre_de_la_rama</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nuevo_nombre_de_la_rama</span>
+`git branch -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_rama_antigua</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nuevo_nombre_rama</span>
 
-- Borra una rama local (no debe haber sido fusionada para hacer esto):
+- Elimina una rama local (no debes tenerla controlada para hacerlo):
 
-`git branch -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_rama</span>
+`git branch -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_rama</span>
 
-- Borra una rama remota:
+- Elimina una rama remota:
 
-`git push `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_remoto</span>` --delete `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_rama_remota</span>
+`git push `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_remoto</span>` --delete `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_rama_remota</span>

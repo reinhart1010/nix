@@ -2,8 +2,8 @@
 layout: page
 title: common/git-format-patch (italiano)
 description: "Prepara file .patch. Utile per l'invio di commit via email."
-content_hash: ae5fea3e27d38a85008029bf8846bb645544f18e
-last_modified_at: 2023-11-12
+content_hash: 36b53be33a2f2e36e10651fd3b065b8aafcba122
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/git-format-patch.html
@@ -31,7 +31,7 @@ Maggiori informazioni: <https://git-scm.com/docs/git-format-patch>.
 
 - Scrivi su `stdout` un file `.patch` per l'intervallo di commit definito dai due commit dati:
 
-`git format-patch --stdout `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_1</span>`..`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_2</span>
+`git format-patch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_1</span>`..`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_2</span>
 
 - Scrivi un file `.patch` per gli ultimi 3 commit:
 

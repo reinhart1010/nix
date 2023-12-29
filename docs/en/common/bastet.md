@@ -2,8 +2,8 @@
 layout: page
 title: common/bastet (English)
 description: "Clone of the game Tetris in the terminal."
-content_hash: 9101e9a5df56920714440e800b80d246fe46a3e6
-last_modified_at: 2023-11-12
+content_hash: 36fa3e96de0b6d926c390d09110617bac4392007
+last_modified_at: 2023-12-29
 related_topics:
   - title: italiano version
     url: /it/common/bastet.html
@@ -21,7 +21,7 @@ More information: <https://fph.altervista.org/prog/bastet.html>.
 
 - Navigate the piece horizontally:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Left|Right</span>` arrow key`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Left|Right arrow key</span>
 
 - Rotate the piece clockwise or counterclockwise:
 
@@ -29,11 +29,11 @@ More information: <https://fph.altervista.org/prog/bastet.html>.
 
 - Soft drop the piece:
 
-`Down arrow key`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Down arrow key</span>
 
 - Hard drop the piece:
 
-`Enter`
+`<Enter>`
 
 - Pause the game:
 
@@ -41,4 +41,4 @@ More information: <https://fph.altervista.org/prog/bastet.html>.
 
 - Quit the game:
 
-`Ctrl + C`
+`<Ctrl> + C`

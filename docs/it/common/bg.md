@@ -2,8 +2,8 @@
 layout: page
 title: common/bg (italiano)
 description: "Riprende job che sono stati sospesi (e.g. usando `Ctrl + Z`) mettendoli in esecuzione in background."
-content_hash: 2645daf8089512b7a90342390f375539d65314bd
-last_modified_at: 2023-11-12
+content_hash: b01fbbcc6d918342bfe7e76a595a3a2d52ce4f7d
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/bg.html
@@ -48,4 +48,4 @@ Maggiori informazioni: <https://manned.org/bg>.
 
 - Riprendi uno specifico job (usa `jobs -l` per trovare l'ID) ed eseguilo in background:
 
-`bg `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_job</span>
+`bg %`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_job</span>

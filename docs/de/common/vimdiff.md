@@ -2,14 +2,17 @@
 layout: page
 title: common/vimdiff (Deutsch)
 description: "Öffne zwei oder mehr Dateien in Vim und zeige ihre Unterschiede an."
-content_hash: ce737153555a000bd614f0fa3a27669bc78bc83c
-last_modified_at: 2023-11-12
+content_hash: 99be8d7606d01b80b8b3e2df3529fb39f4b092bc
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/vimdiff.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/vimdiff.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/vimdiff.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -25,7 +28,7 @@ Weitere Informationen: <https://www.vim.org>.
 
 - Bewege den Cursor zum linken|rechten Fenster:
 
-`Ctrl + w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">h|l</span>
+`<Ctrl> + w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">h|l</span>
 
 - Springe zum vorigen Unterschied:
 

@@ -2,8 +2,12 @@
 layout: page
 title: common/ptpython (English)
 description: "A better Python REPL."
-content_hash: b5c8021f5c78484e01649136fd9d7883a4b54261
-last_modified_at: 2023-11-12
+content_hash: a467f7f4e8f22daf686a3f671265b536bd47a16c
+last_modified_at: 2023-12-29
+related_topics:
+  - title: Nederlands version
+    url: /nl/common/ptpython.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # ptpython
@@ -37,4 +41,4 @@ More information: <https://github.com/prompt-toolkit/ptpython>.
 
 - Quit:
 
-`Ctrl + D`
+`<Ctrl> + D`

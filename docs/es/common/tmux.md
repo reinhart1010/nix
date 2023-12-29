@@ -2,8 +2,8 @@
 layout: page
 title: common/tmux (español)
 description: "Multiplexor de terminal."
-content_hash: ceb1de8529d24f1b0c33824f2c3d21da599a69db
-last_modified_at: 2023-12-28
+content_hash: fe445ec0e440b9ad9a1c8b729970af1e98ffd88e
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/tmux.html
@@ -47,15 +47,15 @@ Más información: <https://github.com/tmux/tmux>.
 
 - Separa la sesión actual (dentro de una sesión tmux):
 
-`Ctrl-B d`
+`<Ctrl>-B d`
 
 - Crea una nueva ventana (dentro de una sesión tmux):
 
-`Ctrl-B c`
+`<Ctrl>-B c`
 
 - Cambia entre sesiones y ventanas (dentro de una sesión tmux):
 
-`Ctrl-B w`
+`<Ctrl>-B w`
 
 - Da de baja una sesión por su nombre:
 

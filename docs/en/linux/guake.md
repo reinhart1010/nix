@@ -2,8 +2,8 @@
 layout: page
 title: linux/guake (English)
 description: "A drop-down terminal for GNOME."
-content_hash: 085ef46846ead8f9d789801ff318cc84fc93d7c5
-last_modified_at: 2023-11-20
+content_hash: c30f03ec346d0707504dbee6de0bee9494c357f8
+last_modified_at: 2023-12-29
 tldri18n_status: 2
 ---
 # guake
@@ -21,16 +21,16 @@ More information: <https://github.com/Guake/guake>.
 
 - Open a new tab:
 
-`Ctrl+Shift+T`
+`<Ctrl> + <Shift> +T`
 
 - Close the terminal:
 
-`Super+X`
+`<Super> + X`
 
 - Go to the previous tab:
 
-`Ctrl+PageUp`
+`<Ctrl> + <PageUp>`
 
 - Search the selected text in the browser:
 
-`Shift+Ctrl+L`
+`<Shift> + <Ctrl> + L`

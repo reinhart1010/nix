@@ -2,8 +2,8 @@
 layout: page
 title: linux/cuyo (English)
 description: "Tetris like game."
-content_hash: 6b64a5e990eab1038d254afc52574adffa4c61d0
-last_modified_at: 2023-12-27
+content_hash: 94b7a4a0ce31121b353969fca79eaf818e8e6bc6
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/linux/cuyo.html
@@ -21,7 +21,7 @@ More information: <https://www.karimmi.de/cuyo/>.
 
 - Navigate the piece horizontally:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">A|D</span>` OR `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Left|Right arrow key</span>
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">A|D|Left arrow key|Right arrow key</span>
 
 - Turn the piece:
 

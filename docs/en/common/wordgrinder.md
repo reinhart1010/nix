@@ -2,8 +2,8 @@
 layout: page
 title: common/wordgrinder (English)
 description: "Command-line word processor."
-content_hash: 1b10ed7d5b635ae382f3a9dc27b1105574773a35
-last_modified_at: 2023-12-27
+content_hash: a6619b04eccab60810cb4b7ab0c062655acf38d1
+last_modified_at: 2023-12-29
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/wordgrinder.html
@@ -25,4 +25,4 @@ More information: <https://cowlark.com/wordgrinder>.
 
 - Show the menu:
 
-`Alt + M`
+`<Alt> + M`

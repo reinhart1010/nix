@@ -2,8 +2,8 @@
 layout: page
 title: common/speedcrunch (English)
 description: "A high-precision scientific calculator."
-content_hash: 3582f50100100a75d3edaa52bb7b14b73c5c04a9
-last_modified_at: 2023-11-12
+content_hash: 0d3007fdd72c698da84933930b11da9e768a81aa
+last_modified_at: 2023-12-29
 tldri18n_status: 2
 ---
 # speedcrunch
@@ -17,28 +17,28 @@ More information: <https://www.speedcrunch.org>.
 
 - Copy the result of the most recent calculation:
 
-`Ctrl + R`
+`<Ctrl> + R`
 
 - Open the formula book:
 
-`Ctrl + 1`
+`<Ctrl> + 1`
 
 - Clear the calculator of recent calculations:
 
-`Ctrl + N`
+`<Ctrl> + N`
 
 - Wrap highlighted in parentheses (defaults to wrapping all if nothing selected):
 
-`Ctrl + P`
+`<Ctrl> + P`
 
 - Load a speedcrunch session:
 
-`Ctrl + L`
+`<Ctrl> + L`
 
 - Save a speedcrunch session:
 
-`Ctrl + S`
+`<Ctrl> + S`
 
 - Toggle keypad:
 
-`Ctrl + K`
+`<Ctrl> + K`

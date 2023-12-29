@@ -2,8 +2,8 @@
 layout: page
 title: common/abduco (português (Brasil))
 description: "Gerenciador de sessão no terminal."
-content_hash: a03851d93aa50bfcefa8a8c2e1f6b50693faf40a
-last_modified_at: 2023-11-12
+content_hash: 599c86ae51c0e08544616efaa6dfe154ab3ad69e
+last_modified_at: 2023-12-29
 related_topics:
   - title: বাংলা version
     url: /bn/common/abduco.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/abduco.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/abduco.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/abduco.html
@@ -56,7 +59,7 @@ Mais informações: <http://www.brain-dump.org/projects/abduco/>.
 
 - Desanexa de uma sessão:
 
-`Ctrl + \`
+`<Ctrl> + \`
 
 - Anexa à uma sessão no modo read-only (somente leitura):
 

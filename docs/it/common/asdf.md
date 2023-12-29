@@ -2,8 +2,8 @@
 layout: page
 title: common/asdf (italiano)
 description: "Interfaccia da linea di comando per gestire le versionai di diversi pacchetti."
-content_hash: 0e98fb75036184ce6af8d2a708697c3b5a601b6e
-last_modified_at: 2023-11-12
+content_hash: d3aeec3af36a167238ed24be57f602e90116db81
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/asdf.html
@@ -35,15 +35,15 @@ Maggiori informazioni: <https://asdf-vm.com>.
 
 - Elenca tutti i plugin disponibili:
 
-`asdf plugin-list-all`
+`asdf plugin list all`
 
 - Installa un plugin:
 
-`asdf plugin-add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>
+`asdf plugin add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>
 
 - Elenca tutte le versioni disponibili per un pacchetto:
 
-`asdf list-all `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>
+`asdf list all `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>
 
 - Installa una specifica versione di un pacchetto:
 

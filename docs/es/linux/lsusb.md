@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/lsusb (español)
-description: "Muestra información sobre puertos y dispositivos USB."
-content_hash: 64653c7d1944599a49e2cffcc54c27af3335575c
-last_modified_at: 2023-11-12
+description: "Muestra información sobre los buses USB y los dispositivos conectados a ellos."
+content_hash: ed6e675c9ce54af55d0f439e0bb2c84cc9d5181e
+last_modified_at: 2023-12-29
 related_topics:
   - title: català version
     url: /ca/linux/lsusb.html
@@ -21,25 +21,25 @@ tldri18n_status: 2
 ---
 # lsusb
 
-Muestra información sobre puertos y dispositivos USB.
+Muestra información sobre los buses USB y los dispositivos conectados a ellos.
 Más información: <https://manned.org/lsusb>.
 
-- Lista todos los dispositivos USB disponibles:
+- Muestra todos los dispositivos USB disponibles:
 
 `lsusb`
 
-- Lista la jerarquía de dispositivos USB en forma de árbol:
+- Lista la jerarquía USB como un árbol:
 
 `lsusb -t`
 
-- Lista los dispositivos USB de forma verbosa:
+- Muestra información detallada sobre los dispositivos USB:
 
 `lsusb --verbose`
 
-- Lista información detallada acerca de un dispositivo USB determinado:
+- Muestra información detallada sobre un dispositivo USB:
 
-`lsusb -D `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dispositivo</span>
+`lsusb --verbose -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bus</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número de dispositivo</span>
 
-- Lista solo dispositivos con un ID de ensamblador y producto determinado:
+- Muestra sólo los dispositivos con un ID de proveedor y producto determinados:
 
-`lsusb -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ensamblador</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">producto</span>
+`lsusb -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vendedor</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">producto</span>

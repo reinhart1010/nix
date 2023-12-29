@@ -2,8 +2,8 @@
 layout: page
 title: common/moe (English)
 description: "A WYSIWYG text editor for ISO-8859-15 encoded text."
-content_hash: 674c1ac9e189fa7802712936f7b46340cf28b996
-last_modified_at: 2023-11-12
+content_hash: 1269e86c47b5c341f57ded665535fda99fee7542
+last_modified_at: 2023-12-29
 tldri18n_status: 2
 ---
 # moe
@@ -29,4 +29,4 @@ More information: <https://www.gnu.org/software/moe/moe.html>.
 
 - Save and Quit:
 
-`Ctrl + X`
+`<Ctrl> + X`

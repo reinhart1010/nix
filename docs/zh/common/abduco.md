@@ -2,8 +2,8 @@
 layout: page
 title: common/abduco (中文)
 description: "终端会话管理器。"
-content_hash: f4ae1b7c1d8041fd6db77bf0aa073e6262f588da
-last_modified_at: 2023-11-12
+content_hash: 97058666d8167b3e5200a63534e420a9defda3df
+last_modified_at: 2023-12-29
 related_topics:
   - title: বাংলা version
     url: /bn/common/abduco.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/abduco.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/abduco.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/abduco.html
@@ -56,7 +59,7 @@ tldri18n_status: 2
 
 - 从一个会话中分离：
 
-`Ctrl + \`
+`<Ctrl> + \`
 
 - 以只读模式附加到一个会话：
 

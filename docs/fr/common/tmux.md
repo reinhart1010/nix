@@ -2,7 +2,7 @@
 layout: page
 title: common/tmux (français)
 description: "Multiplexeur de terminaux. Permet plusieurs sessions avec fenêtres, panneaux, et plus encore."
-content_hash: bfbc9f528a31d3c4faedc4622eb284de267c5593
+content_hash: 885fc14258d9112761e439c54d33e5decaf425b2
 last_modified_at: 2023-12-29
 related_topics:
   - title: English version
@@ -48,7 +48,7 @@ Plus d'informations : <https://github.com/tmux/tmux>.
 
 - Se détacher de la session actuelle (avec le préfixe Ctrl-B) :
 
-`Ctrl-B d`
+`<Ctrl>-B d`
 
 - Détruire une session nommée :
 

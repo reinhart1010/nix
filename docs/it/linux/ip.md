@@ -2,8 +2,8 @@
 layout: page
 title: linux/ip (italiano)
 description: "Mostra / manipola routing, dispositivi, criteri di routing e tunnel."
-content_hash: b31509a50f14b9a1c0d1abc72b093f566c5337f1
-last_modified_at: 2023-11-12
+content_hash: 0f6063c8176860f997078694d48d32222373206f
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/linux/ip.html
@@ -50,7 +50,7 @@ Maggiori informazioni: <https://www.man7.org/linux/man-pages/man8/ip.8.html>.
 
 - Attiva/disattiva un'interfaccia:
 
-`ip link set `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interfaccia</span>` up/down`
+`ip link set `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interfaccia</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">up|down</span>
 
 - Aggiungi/elimina un indirizzo IP a/da un'interfaccia:
 

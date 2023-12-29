@@ -2,8 +2,8 @@
 layout: page
 title: linux/zathura (português (Brasil))
 description: "Um visualizador de documentos modular e baseado em vim, com uma linha de comando integrada."
-content_hash: 04f289bf797e4f33ded68d93986a633e31415eb4
-last_modified_at: 2023-11-12
+content_hash: d997c77310acb54ce37638d9dc233dff47053cc1
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/linux/zathura.html
@@ -28,7 +28,7 @@ Mais informações: <https://pwmt.org/projects/zathura/>.
 
 - Navega esquerda/baixo/cima/direita:
 
-`<H|J|K|L> ou teclas direcionais`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">H|J|K|L|teclas direcionais</span>
 
 - Rotaciona:
 
@@ -36,7 +36,7 @@ Mais informações: <https://pwmt.org/projects/zathura/>.
 
 - Inverte cores:
 
-`Ctrl + R`
+`<Ctrl> + R`
 
 - Procura por uma string no documento:
 

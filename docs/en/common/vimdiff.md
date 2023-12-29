@@ -2,14 +2,17 @@
 layout: page
 title: common/vimdiff (English)
 description: "Open up two or more files in vim and show the differences between them."
-content_hash: bfa537ff2dc974903ca380bbaf76a91aca44ac74
-last_modified_at: 2023-11-26
+content_hash: 7dda56da5193dc08919ef6f61cfb46121549cb4c
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/vimdiff.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/vimdiff.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/vimdiff.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -25,7 +28,7 @@ More information: <https://www.vim.org>.
 
 - Move the cursor to the window on the left|right:
 
-`Ctrl + w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">h|l</span>
+`<Ctrl> + w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">h|l</span>
 
 - Jump to the previous difference:
 

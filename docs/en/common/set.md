@@ -2,14 +2,14 @@
 layout: page
 title: common/set (English)
 description: "Display, set or unset values of shell attributes and positional parameters."
-content_hash: 4527942296af80f9c17e0da64b3eb34f7d3024ec
-last_modified_at: 2023-11-12
+content_hash: 80b7d3b2ede8426fcdb261266a71bd35a1b077ad
+last_modified_at: 2023-12-29
 tldri18n_status: 2
 ---
 # set
 
 Display, set or unset values of shell attributes and positional parameters.
-More information: <https://manned.org/set>.
+More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#set>.
 
 - Display the names and values of shell variables:
 

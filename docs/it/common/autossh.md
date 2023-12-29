@@ -2,8 +2,8 @@
 layout: page
 title: common/autossh (italiano)
 description: "Esegue, monitora e riavvia connessioni SSH."
-content_hash: e48253d4ec918bfb8bad7d8b6156be05651a50b0
-last_modified_at: 2023-11-12
+content_hash: 86b54d68d0fb96750edd43e1c620695eefbbe565
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/autossh.html
@@ -30,7 +30,7 @@ Maggiori informazioni: <https://www.harding.motd.ca/autossh>.
 
 - Apri una sessione SSH, riavviandola quando una porta monitorata smette di rispondere:
 
-`autossh -M `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_monitorata</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando_ssh</span>
+`autossh -M `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_monitorata</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando_ssh</span>`"`
 
 - Apri una sessione ssh che forwarda una porta locale verso una remota, riavviandola se necessario:
 
@@ -38,11 +38,11 @@ Maggiori informazioni: <https://www.harding.motd.ca/autossh>.
 
 - Forka prima di eseguire il comando ssh (si avvia in background) e non aprire una shell remota:
 
-`autossh -f -M `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_monitorata</span>` -N `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando_ssh</span>
+`autossh -f -M `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta_monitorata</span>` -N "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando_ssh</span>`"`
 
 - Esegui autossh in background, senza una porta da monitorare, utilizzando i keep-alive di SSH ogni 10 secondi per rilevare una disconnessione:
 
-`autossh -f -M 0 -N -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando_ssh</span>
+`autossh -f -M 0 -N -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando_ssh</span>`"`
 
 - Esegui autossh in background, senza una porta da monitorare, senza una shell remota, uscendo se il port forwarding fallisce:
 

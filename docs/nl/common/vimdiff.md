@@ -2,8 +2,8 @@
 layout: page
 title: common/vimdiff (Nederlands)
 description: "Open twee of meer bestanden in `vim` en toon de verschillen."
-content_hash: 6075e2c70138a77d714304e89ead15e92c57fe44
-last_modified_at: 2023-11-27
+content_hash: ecf2080b5da6f579a428f858d26a5371fa8b899c
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/vimdiff.html
@@ -28,7 +28,7 @@ Meer informatie: <https://www.vim.org>.
 
 - Verplaats de cursor naar het scherm links|rechts:
 
-`Ctrl + w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">h|l</span>
+`<Ctrl> + w `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">h|l</span>
 
 - Spring naar het vorige verschil:
 

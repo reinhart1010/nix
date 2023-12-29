@@ -2,8 +2,8 @@
 layout: page
 title: common/tmux (português (Portugal))
 description: "Multiplexador do terminal. Permite várias sessões com janelas, painéis e muito mais."
-content_hash: b30af0507fd2a4bf3dbe3df2fc0b779a6523422e
-last_modified_at: 2023-12-28
+content_hash: ab49ecf0966f67c2d9b2f4268bb94105bce1501d
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/tmux.html
@@ -49,7 +49,7 @@ Mais informações: <https://github.com/tmux/tmux>.
 
 - Sai da sessão atual (com o prefixo Ctrl-B):
 
-`Ctrl-B d`
+`<Ctrl>-B d`
 
 - Elimina uma sessão com nome:
 
@@ -57,4 +57,4 @@ Mais informações: <https://github.com/tmux/tmux>.
 
 - Elimina a sessão atual (com o prefixo Ctrl-B):
 
-`Ctrl-B :kill-session<Enter>`
+`<Ctrl>-B :kill-session<Enter>`

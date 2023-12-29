@@ -2,8 +2,8 @@
 layout: page
 title: common/abduco (italiano)
 description: "Gestore di sessioni di terminale."
-content_hash: 7de1f23529b1b0b085f3f6c34fc32bf347beee8f
-last_modified_at: 2023-11-12
+content_hash: 5d6181e274fe6daa0b9d89d5a392ec2bac2a7a2d
+last_modified_at: 2023-12-29
 related_topics:
   - title: বাংলা version
     url: /bn/common/abduco.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/abduco.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/abduco.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/abduco.html
@@ -56,7 +59,7 @@ Maggiori informazioni: <http://www.brain-dump.org/projects/abduco/>.
 
 - Esci da una sessione:
 
-`CTRL + \`
+`<Ctrl> + \`
 
 - Entra in una sessione in modalità sola lettura:
 

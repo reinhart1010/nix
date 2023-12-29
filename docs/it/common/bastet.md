@@ -2,8 +2,8 @@
 layout: page
 title: common/bastet (italiano)
 description: "Clone di Tetris nel Terminale."
-content_hash: 34c6e1bfe1ec45e24b03dbeb8e72b68364b1a098
-last_modified_at: 2023-11-12
+content_hash: f1a821cf1b2eb38617fc86b93ca89e047b0eb4a0
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/bastet.html
@@ -33,7 +33,7 @@ Maggiori informazioni: <https://fph.altervista.org/prog/bastet.html>.
 
 - Caduta veloce:
 
-`Invio`
+`<Invio>`
 
 - Pausa:
 
@@ -41,4 +41,4 @@ Maggiori informazioni: <https://fph.altervista.org/prog/bastet.html>.
 
 - Lasciare il gioco:
 
-`Ctrl + C`
+`<Ctrl> + C`

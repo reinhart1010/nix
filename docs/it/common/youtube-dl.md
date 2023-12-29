@@ -2,8 +2,8 @@
 layout: page
 title: common/youtube-dl (italiano)
 description: "Scarica video da YouTube ed altri siti web."
-content_hash: d0b1e733bd03bb383b1d7ab1b0e099297ac2da1e
-last_modified_at: 2023-11-12
+content_hash: 0ab8687daf31e8b1ae7cf05049a04bba8cac2851
+last_modified_at: 2023-12-29
 related_topics:
   - title: català version
     url: /ca/common/youtube-dl.html
@@ -54,4 +54,4 @@ Maggiori informazioni: <http://rg3.github.io/youtube-dl/>.
 
 - Scarica una playlist, ne estrae l'audio e lo salva in formato mp3:
 
-`youtube-dl -i --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_della_playlist</span>`'`
+`youtube-dl -f "bestaudio" --continue --no-overwrites --ignore-errors --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_della_playlist</span>`'`

@@ -2,8 +2,8 @@
 layout: page
 title: linux/st (English)
 description: "A simple terminal emulator for the X Window System."
-content_hash: 587df647508a4aadc95fb64fb803525aede3dbf8
-last_modified_at: 2023-11-12
+content_hash: 1ab7fd1b1289b38d8a039a7f612692732bdf0fbe
+last_modified_at: 2023-12-29
 related_topics:
   - title: Indonesia version
     url: /id/linux/st.html
@@ -29,8 +29,8 @@ More information: <https://st.suckless.org>.
 
 - Increase/decrease the font size:
 
-`Ctrl + Shift + `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Page Up|Page Down</span>
+`<Ctrl> + <Shift> + `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Page Up|Page Down</span>
 
 - Copy/paste from the clipboard:
 
-`Ctrl + Shift + `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C|V</span>
+`<Ctrl> + <Shift> + `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C|V</span>

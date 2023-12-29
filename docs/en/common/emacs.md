@@ -2,8 +2,8 @@
 layout: page
 title: common/emacs (English)
 description: "The extensible, customizable, self-documenting, real-time display editor."
-content_hash: 9c36b4a6ac371fa908908720262bb0d492f3e0db
-last_modified_at: 2023-11-12
+content_hash: ddcbb681ef75b784f73d2dd312acb9f61204a7c6
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/emacs.html
@@ -48,8 +48,8 @@ More information: <https://www.gnu.org/software/emacs>.
 
 - Save a file in Emacs:
 
-`Ctrl + X, Ctrl + S`
+`<Ctrl> + X, <Ctrl> + S`
 
 - Quit Emacs:
 
-`Ctrl + X, Ctrl + C`
+`<Ctrl> + X, <Ctrl> + C`

@@ -2,8 +2,8 @@
 layout: page
 title: common/ansible-galaxy (italiano)
 description: "Crea e gestisci ruoli di Ansible."
-content_hash: 32ba735aae3dc4a95648f67d9ea63c58f6393972
-last_modified_at: 2023-11-12
+content_hash: 14597d134b5c73cc48c5a982ebf755d3577e1663
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible-galaxy.html
@@ -29,11 +29,11 @@ Maggiori informazioni: <https://docs.ansible.com/ansible/latest/cli/ansible-gala
 
 - Installa un ruolo:
 
-`ansible-galaxy install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">utente.ruolo</span>
+`ansible-galaxy install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_utente</span>`.`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruolo</span>
 
 - Rimuovi un ruolo:
 
-`ansible-galaxy remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">utente.ruolo</span>
+`ansible-galaxy remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_utente</span>`.`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruolo</span>
 
 - Elenca i ruoli installati:
 
@@ -45,7 +45,7 @@ Maggiori informazioni: <https://docs.ansible.com/ansible/latest/cli/ansible-gala
 
 - Crea un nuovo ruolo:
 
-`ansible-galaxy init `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_nuovo_ruolo</span>
+`ansible-galaxy init `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ruolo</span>
 
 - Acquisisci informazioni su un ruolo di un utente:
 

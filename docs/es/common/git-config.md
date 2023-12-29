@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/git-config (español)
-description: "Gestiona opciones personalizadas para la configuración de repositorios Git."
-content_hash: a7d19b4243a1e1f48265a0b52abe4db15080625c
-last_modified_at: 2023-11-12
+description: "Gestiona opciones de configuración personalizadas para repositorios Git."
+content_hash: dd1c3ad08e7ba26812fc195383e45933f9b0b7f6
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/git-config.html
@@ -33,31 +33,31 @@ tldri18n_status: 2
 ---
 # git config
 
-Gestiona opciones personalizadas para la configuración de repositorios Git.
+Gestiona opciones de configuración personalizadas para repositorios Git.
 Estas configuraciones pueden ser locales (para el repositorio actual) o globales (para el usuario actual).
 Más información: <https://git-scm.com/docs/git-config>.
 
-- Muestra solo las entradas de la configuración local (almacenadas en `.git/config` en el repositorio actual):
+- Lista sólo las entradas de configuración local (almacenadas en `.git/config` en el repositorio actual):
 
 `git config --list --local`
 
-- Muestra solo las entradas de la configuración global (almacenadas en `~/.gitconfig`):
+- Lista sólo las entradas de configuración global (almacenadas en `~/.gitconfig` por defecto o en `$XDG_CONFIG_HOME/git/config` si existe tal archivo):
 
 `git config --list --global`
 
-- Muestra todas las entradas de configuración que han sido definidas local o globalmente:
+- Lista sólo las entradas de configuración del sistema (almacenadas en `/etc/gitconfig`), y muestra su ubicación:
 
-`git config --list`
+`git config --list --system --show-origin`
 
-- Muestra el valor de una entrada específica de la configuración:
+- Obtiene el valor de una entrada de configuración dada:
 
 `git config alias.unstage`
 
-- Establece el valor global para una entrada específica de la configuración:
+- Establece el valor global de una entrada de configuración dada:
 
 `git config --global alias.unstage "reset HEAD --"`
 
-- Revierte una entrada de la configuración global a su valor por defecto:
+- Revierte una entrada de configuración global a su valor por defecto:
 
 `git config --global --unset alias.unstage`
 

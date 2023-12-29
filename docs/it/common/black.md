@@ -2,8 +2,8 @@
 layout: page
 title: common/black (italiano)
 description: "Un formattatore automatico di codice Python."
-content_hash: de8bfbd1b5bdf6783e8a1b63b6e08b6811acf7d6
-last_modified_at: 2023-11-12
+content_hash: d2de7eafe92b7cef67d129ade746d6a9f140fea0
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/black.html
@@ -26,13 +26,13 @@ Maggiori informazioni: <https://black.readthedocs.io/en/stable/usage_and_configu
 
 `black -c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">codice</span>`"`
 
-- Mostra i cambiamenti che verrebbero applicati a ciascun file:
-
-`black --diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory</span>
-
 - Verifica se i file necessitano di auto-formattazione senza modificare nulla:
 
 `black --check `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory</span>
+
+- Mostra i cambiamenti che verrebbero applicati a ciascun file:
+
+`black --diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory</span>
 
 - Auto-formatta un file o una directory senza produrre output:
 

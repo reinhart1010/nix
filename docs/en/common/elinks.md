@@ -2,8 +2,8 @@
 layout: page
 title: common/elinks (English)
 description: "A text based browser similar to `lynx`."
-content_hash: a866b1f719b285595f64870e3002b69fb113c8f8
-last_modified_at: 2023-11-12
+content_hash: b630596c7bf3cf7084de60b32ae96a43631089fd
+last_modified_at: 2023-12-29
 related_topics:
   - title: italiano version
     url: /it/common/elinks.html
@@ -21,7 +21,7 @@ More information: <http://elinks.or.cz>.
 
 - Quit elinks:
 
-`Ctrl + C`
+`<Ctrl> + C`
 
 - Dump output of webpage to console, colorizing the text with ANSI control codes:
 

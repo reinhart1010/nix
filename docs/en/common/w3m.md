@@ -2,8 +2,8 @@
 layout: page
 title: common/w3m (English)
 description: "A text-based web browser."
-content_hash: 401e8ce4941d38ea7ce0ac566c2b443906b4f5df
-last_modified_at: 2023-11-12
+content_hash: 882c7470d5af408b4abd854ca7b674edaa81ac3e
+last_modified_at: 2023-12-29
 tldri18n_status: 2
 ---
 # w3m
@@ -26,12 +26,12 @@ More information: <https://w3m.sourceforge.net>.
 
 - Open a new browser tab:
 
-`Shift + T`
+`<Shift> + T`
 
 - Display your browser history:
 
-`Ctrl + H`
+`<Ctrl> + H`
 
 - Quit w3m:
 
-`'q' followed by 'y'`
+`q + y`

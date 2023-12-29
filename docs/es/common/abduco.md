@@ -2,8 +2,8 @@
 layout: page
 title: common/abduco (español)
 description: "Administrador de sesión de terminal."
-content_hash: 6341df6435019cf54240cf991207f3b553101fdf
-last_modified_at: 2023-11-12
+content_hash: 57fa19e4fc46a4f4bbe8aedde6c8949f83b5eaad
+last_modified_at: 2023-12-29
 related_topics:
   - title: বাংলা version
     url: /bn/common/abduco.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/abduco.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/abduco.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/abduco.html
@@ -56,7 +59,7 @@ Más información: <http://www.brain-dump.org/projects/abduco/>.
 
 - Separarse de una sesión:
 
-`Ctrl + \`
+`<Ctrl> + \`
 
 - Adjunta a una sesión en modo solo-lectura:
 

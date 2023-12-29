@@ -2,8 +2,8 @@
 layout: page
 title: linux/cuyo (Deutsch)
 description: "Tetris-ähnliches Spiel."
-content_hash: a508cd401ad09644c80efd5fbb6caf5a1cb17a19
-last_modified_at: 2023-11-12
+content_hash: f1b49c5392b0d90413aee0334d9d9085de77f83e
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/linux/cuyo.html
@@ -21,7 +21,7 @@ Weitere Informationen: <https://www.karimmi.de/cuyo/>.
 
 - Verschiebe die Teile horizontal:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">A|D</span>` oder Pfeiltaste `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Links|Rechts</span>
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">A|D|Pfeiltaste Links|Pfeiltaste Rechts</span>
 
 - Drehe die Teile:
 

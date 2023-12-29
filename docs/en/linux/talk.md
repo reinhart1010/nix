@@ -2,8 +2,8 @@
 layout: page
 title: linux/talk (English)
 description: "A visual communication program which copies lines from your terminal to that of another user."
-content_hash: 50a506c2cc5d4607dfedc3c6f2fc3bfcbb2dc092
-last_modified_at: 2023-11-15
+content_hash: a6e6de010c9e6fd98e41ae4103b039b6824d3344
+last_modified_at: 2023-12-29
 tldri18n_status: 2
 ---
 # talk
@@ -25,8 +25,8 @@ More information: <https://www.gnu.org/software/inetutils/manual/html_node/talk-
 
 - Clear text on both terminal screens:
 
-`Ctrl+D`
+`<Ctrl>+D`
 
 - Exit the talk session:
 
-`Ctrl+C`
+`<Ctrl>+C`

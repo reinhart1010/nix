@@ -2,8 +2,8 @@
 layout: page
 title: common/zellij (English)
 description: "Terminal multiplexer with batteries included."
-content_hash: db6682acfa8cdd9259f99c5858dfbc4e6abe2380
-last_modified_at: 2023-11-12
+content_hash: 7b79ba49e305ed9325a115819f382dae306fb7d7
+last_modified_at: 2023-12-29
 tldri18n_status: 2
 ---
 # zellij
@@ -26,8 +26,8 @@ More information: <https://zellij.dev/documentation/>.
 
 - Open a new pane (inside a zellij session):
 
-`Alt + N`
+`<Alt> + N`
 
 - Detach from the current session (inside a zellij session):
 
-`Ctrl + O, D`
+`<Ctrl> + O, D`

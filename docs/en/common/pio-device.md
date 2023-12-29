@@ -2,8 +2,12 @@
 layout: page
 title: common/pio-device (English)
 description: "Manage and monitor PlatformIO devices."
-content_hash: b2627138acce7373c1cd4336fadb984ca24ad591
-last_modified_at: 2023-11-12
+content_hash: 04e7f90e6507926f7db4b5593a8bf8d0b9d41169
+last_modified_at: 2023-12-29
+related_topics:
+  - title: Nederlands version
+    url: /nl/common/pio-device.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # pio device
@@ -37,4 +41,4 @@ More information: <https://docs.platformio.org/en/latest/core/userguide/device/>
 
 - Go to the menu of the interactive device monitor:
 
-`Ctrl + T`
+`<Ctrl> + T`

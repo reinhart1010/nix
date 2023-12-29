@@ -2,8 +2,8 @@
 layout: page
 title: common/git-stash (italiano)
 description: "Salva in un'area temporanea (stash) modifiche Git locali."
-content_hash: d016150aa7dcc14784f7f0fab0c050d2af1ebd09
-last_modified_at: 2023-11-12
+content_hash: 1cc05e26cd2f3dbc5364bffa6b2298b1a82d32b2
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/git-stash.html
@@ -26,7 +26,7 @@ Maggiori informazioni: <https://git-scm.com/docs/git-stash>.
 
 - Salva in un'area temporanea modifiche locali, tranne i file nuovi e non tracciati:
 
-`git stash [push -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">messaggio_di_stash_opzionale</span>`]`
+`git stash push -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">messaggio_di_stash_opzionale</span>
 
 - Includi nello stash anche i file nuovi e non tracciati:
 
@@ -47,10 +47,6 @@ Maggiori informazioni: <https://git-scm.com/docs/git-stash>.
 - Applica uno stash (il predefinito è stash@{0}) e rimuovilo dalla lista degli stash se non ha causato conflitti:
 
 `git stash pop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_stash_opzionale</span>
-
-- Rimuovi uno stash (il predefinito è stash@{0}):
-
-`git stash drop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_stash_opzionale</span>
 
 - Rimuovi tutti gli stash:
 

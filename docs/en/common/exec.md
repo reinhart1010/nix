@@ -2,8 +2,8 @@
 layout: page
 title: common/exec (English)
 description: "Replace the current process with another process."
-content_hash: f4d47395c2963337a3c54a954802bce6bf35e166
-last_modified_at: 2023-11-12
+content_hash: f8c9c93f2d2be8000aff51bce002a95e59f37edd
+last_modified_at: 2023-12-29
 related_topics:
   - title: italiano version
     url: /it/common/exec.html
@@ -13,20 +13,8 @@ tldri18n_status: 2
 # exec
 
 Replace the current process with another process.
-More information: <https://linuxcommand.org/lc3_man_pages/exech.html>.
+More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#exec>.
 
 - Replace with the specified command using the current environment variables:
 
 `exec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command -with -flags</span>
-
-- Replace with the specified command, clearing environment variables:
-
-`exec -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command -with -flags</span>
-
-- Replace with the specified command and login using the default shell:
-
-`exec -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command -with -flags</span>
-
-- Replace with the specified command and change the process name:
-
-`exec -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command -with -flags</span>

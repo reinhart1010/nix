@@ -2,8 +2,8 @@
 layout: page
 title: common/conda (italiano)
 description: "Gestione pacchetti, dipendenze ed ambiente per qualsiasi linguaggio di programmazione."
-content_hash: 9f7e8f74f53e0f204524b5e13d145bc562f46173
-last_modified_at: 2023-11-12
+content_hash: 28fc53b3ffcb484b6f820a1da0f7163100ccbc26
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/conda.html
@@ -24,23 +24,23 @@ Maggiori informazioni: <https://github.com/conda/conda>.
 
 - Crea un nuovo ambiente, installandovi alcuni pacchetti:
 
-`conda create --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ambiente</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">python=2.7 matplotlib</span>
+`conda create --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ambiente</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">python=3.9 matplotlib</span>
 
 - Elenca tutti gli ambienti:
 
 `conda info --envs`
 
-- Attiva o disattiva un ambiente:
+- Attiva un ambiente:
 
-`conda `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">activate|deactivate</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ambiente</span>
+`conda activate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ambiente</span>
+
+- Disattiva un ambiente:
+
+`conda deactivate`
 
 - Elimina un ambiente rimuovendo anche tutti i pacchetti:
 
 `conda remove --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_ambiente</span>` --all`
-
-- Cerca un determinato pacchetto nei canali di conda:
-
-`conda search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package_name</span>
 
 - Installa pacchetti nell'ambiente corrente:
 

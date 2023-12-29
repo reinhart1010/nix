@@ -2,8 +2,8 @@
 layout: page
 title: common/emacs (português (Brasil))
 description: "O editor extensível, personalizável, autodocumentável, com exibição em tempo real."
-content_hash: b0034812e41074ae74d9dd11c7ed28398bdcf0bf
-last_modified_at: 2023-11-12
+content_hash: b486d4d3da62815b19900b798e932522d2c58ac8
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/emacs.html
@@ -47,8 +47,8 @@ Mais informações: <https://www.gnu.org/software/emacs>.
 
 - Salva um arquivo em Emacs:
 
-`Ctrl + X, Ctrl + S`
+`<Ctrl> + X, <Ctrl> + S`
 
 - Deixa o Emacs:
 
-`Ctrl + X, Ctrl + C`
+`<Ctrl> + X, <Ctrl> + C`

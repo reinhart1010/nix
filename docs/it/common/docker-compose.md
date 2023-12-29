@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-compose (italiano)
 description: "Esegui e gestisci applicazioni Docker composte da più container."
-content_hash: b39bd4be49ad8d28a260737886b8b28e84e27af4
-last_modified_at: 2023-11-12
+content_hash: 44a519048b84b0d8ebe2ccbdd5e4cfb30c6f08b1
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -54,9 +54,9 @@ Maggiori informazioni: <https://docs.docker.com/compose/reference/>.
 
 `docker compose up --build`
 
-- Avvia tutti i container utilizzando un file compose alternativo:
+- Avvia tutti i contenitori specificando un nome di progetto e utilizzando un file compose alternativo:
 
-`docker compose --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>` up`
+`docker compose -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_di_progetto</span>` --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>` up`
 
 - Ferma tutti i container in esecuzione:
 
@@ -64,7 +64,7 @@ Maggiori informazioni: <https://docs.docker.com/compose/reference/>.
 
 - Ferma e rimuovi tutti i container, reti, immagini e volumi:
 
-`docker compose down`
+`docker compose down --rmi all --volumes`
 
 - Segui i log di tutti i container:
 

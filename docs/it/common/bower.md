@@ -2,8 +2,8 @@
 layout: page
 title: common/bower (italiano)
 description: "Un manager di pacchetti ottimizzato per sviluppo web front-end."
-content_hash: 79fe31a078ed1b33db2305c98a86655c4725d75b
-last_modified_at: 2023-11-12
+content_hash: 63457cba26418afe2a9434c6ee35ff4f63ebd00a
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/bower.html
@@ -28,11 +28,11 @@ Maggiori informazioni: <https://bower.io/>.
 
 - Installa pacchetti nella directory bower_components:
 
-`bower install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacchetto1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacchetto2</span>` ...`
+`bower install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacchetto</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacchetto</span>
 
 - Disinstalla pacchetti localmente rimuovendolo dalla directory bower_components:
 
-`bower uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacchetto1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacchetto2</span>
+`bower uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacchetto</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacchetto</span>
 
 - Elenca pacchetti locali e possibili aggiornamenti:
 

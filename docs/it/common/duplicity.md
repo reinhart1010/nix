@@ -2,8 +2,8 @@
 layout: page
 title: common/duplicity (italiano)
 description: "Crea archivi incrementali, compressi, cifrati con controllo di versione."
-content_hash: 82a319cde3be7186433fd368044dd924021d80db
-last_modified_at: 2023-11-12
+content_hash: 108edcb07da7929a63bea6f8974447c1a9496100
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/duplicity.html
@@ -34,7 +34,7 @@ Maggiori informazioni: <http://duplicity.nongnu.org>.
 
 - Elenca i file in un backup salvato su una macchina remota, via SSH:
 
-`duplicity list-current-files --time `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYY-MM-DD</span>` scp://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">utente@hostname</span>`/percorso/della/directory/backup`
+`duplicity list-current-files --time `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYY-MM-DD</span>` scp://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">utente@hostname</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory/backup</span>
 
 - Ripristina una sotto-directory da un backup locale cifrato con GnuPG in una posizione precisa:
 

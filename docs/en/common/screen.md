@@ -2,8 +2,8 @@
 layout: page
 title: common/screen (English)
 description: "Hold a session open on a remote server. Manage multiple windows with a single SSH connection."
-content_hash: b8886e58ef4b06a9e4af892d05d506da5194af7d
-last_modified_at: 2023-11-12
+content_hash: e199ee1739c9e032e9c6e0f402b3861d8c1bb6fa
+last_modified_at: 2023-12-29
 tldri18n_status: 2
 ---
 # screen
@@ -34,11 +34,11 @@ More information: <https://manned.org/screen>.
 
 - Detach from inside a screen:
 
-`Ctrl + A, D`
+`<Ctrl> + A, D`
 
 - Kill the current screen session:
 
-`Ctrl + A, K`
+`<Ctrl> + A, K`
 
 - Kill a detached screen:
 

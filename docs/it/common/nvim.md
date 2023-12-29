@@ -2,14 +2,17 @@
 layout: page
 title: common/nvim (italiano)
 description: "Neovim, un editor di testo basato su Vim che offre molti diversi modi di manipolare e navigare il testo."
-content_hash: 87c04b0c27b403d9f243f663c226da3e2696ba84
-last_modified_at: 2023-11-12
+content_hash: 3dc97fe29fdd963dc24c3d32597118b9c53dd9fd
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/nvim.html
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/common/nvim.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/nvim.html
     icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/nvim.html
@@ -44,7 +47,7 @@ Maggiori informazioni: <https://neovim.io>.
 
 - Eseguire una sostituzione tramite espressione regolare nell'intero file:
 
-`<Esc>:%s/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">espressione_regolare</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sostituzione</span>`//g<Enter>`
+`<Esc>:%s/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">espressione_regolare</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sostituzione</span>`/g<Enter>`
 
 - Salvare (scrivere) il file per poi uscire:
 

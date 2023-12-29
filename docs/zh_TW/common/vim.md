@@ -2,8 +2,8 @@
 layout: page
 title: common/vim (中文 (繁體, 台灣))
 description: "Vim (Vi IMproved), 是一個命令列文字編輯器，為不同類型的文字操作提供了多種模式。"
-content_hash: 3992a6906bd6916326421795c895a43827596408
-last_modified_at: 2023-11-12
+content_hash: 9d3aee5a554d7ad8bc2d08415930a25239d03c01
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -67,7 +67,7 @@ Vim (Vi IMproved), 是一個命令列文字編輯器，為不同類型的文字�
 
 - 進入正常模式並且復原上次操作：
 
-`<ESC>u`
+`<Esc>u`
 
 - 搜尋特定字詞：
 

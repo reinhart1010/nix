@@ -2,8 +2,8 @@
 layout: page
 title: common/alias (italiano)
 description: "Crea alias -- parole che sono sostituite da stringhe di comandi."
-content_hash: 1cf2622a5e3d3f95a11022de2791171c800d8294
-last_modified_at: 2023-11-12
+content_hash: 8ef611a3735c059c143916f801972c6ebf9ac934
+last_modified_at: 2023-12-29
 related_topics:
   - title: বাংলা version
     url: /bn/common/alias.html
@@ -78,10 +78,6 @@ Maggiori informazioni: <https://tldp.org/LDP/abs/html/aliases.html>.
 - Rimuovi un alias:
 
 `unalias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">parola</span>
-
-- Elenca tutti gli alias correntemente in uso:
-
-`alias -p`
 
 - Rendi il comando rm interattivo:
 

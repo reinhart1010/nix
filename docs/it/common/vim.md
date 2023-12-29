@@ -2,8 +2,8 @@
 layout: page
 title: common/vim (italiano)
 description: "Vi IMproved, un editor di testo per programmatori che fornisce diverse modalità per modificare testo."
-content_hash: b8da299a04eeb87b05403be2f3d3b2cb9cdf9eab
-last_modified_at: 2023-11-12
+content_hash: 34e84582379bac812ccd42df44eacdadc317a866
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -53,30 +53,14 @@ Maggiori informazioni: <https://www.vim.org>.
 
 `vim `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
 
-- Vai in insert mode (per inserire testo):
-
-`<Esc>i`
-
-- Copia ("yank") o taglia ("delete") la linea corrente (per incollarla poi con `P`):
-
-`<Esc>`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yy|dd</span>
-
 - Annulla l'ultima operazione:
 
 `<Esc>u`
 
 - Cerca un pattern nel file (usa `n`/`N` per spostarti al risultato successivo/precedente):
 
-`<Esc>/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">espressione_regolare</span>`<Invio>`
+`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">espressione_regolare</span>`<Invio>`
 
 - Effettua una sostituzione tramite espressione regolare nell'intero file:
 
-`<Esc>:%s/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">espressione_regolare</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sostituzione</span>`/g<Invio>`
-
-- Salva modifiche al file ed esci:
-
-`<Esc>:wq<Invio>`
-
-- Esci senza salvare:
-
-`<Esc>:q!<Invio>`
+`:%s/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">espressione_regolare</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sostituzione</span>`/g<Invio>`

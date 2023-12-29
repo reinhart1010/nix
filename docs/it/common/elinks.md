@@ -2,8 +2,8 @@
 layout: page
 title: common/elinks (italiano)
 description: "Un browser testuale simile a lynx."
-content_hash: 09064cbb61d045c52809ed6c84e1c6edeb732471
-last_modified_at: 2023-11-12
+content_hash: 8bdf4055f583f36410f18bd02b3a5189a2159a71
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/elinks.html
@@ -21,7 +21,7 @@ Maggiori informazioni: <http://elinks.or.cz>.
 
 - Termina elinks:
 
-`Ctrl + C`
+`<Ctrl> + C`
 
 - Stampa l'output di una pagina web nella console, colorando il testo con codici di controllo ANSI:
 

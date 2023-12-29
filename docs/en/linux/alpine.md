@@ -2,8 +2,8 @@
 layout: page
 title: linux/alpine (English)
 description: "An email client and Usenet newsgroup program with a pico/nano-inspired interface."
-content_hash: d163b181120d30688fd1ec677654c656abb728cc
-last_modified_at: 2023-11-12
+content_hash: 51e7eb7c29fe8892a00b7596c361a40d8c32792f
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/linux/alpine.html
@@ -32,4 +32,4 @@ More information: <https://manned.org/alpine>.
 
 - Quit alpine:
 
-`'q' then 'y'`
+`q + y`

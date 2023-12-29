@@ -2,8 +2,8 @@
 layout: page
 title: linux/zathura (English)
 description: "A vim-like modal document viewer, with an integrated command-line."
-content_hash: 2fb446b7ed22e95203c712f36f31fd93611d4b8f
-last_modified_at: 2023-12-27
+content_hash: 06802df32cc009ed6c224bf0fe5e3f2a0a49a44d
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/linux/zathura.html
@@ -28,7 +28,7 @@ More information: <https://pwmt.org/projects/zathura/>.
 
 - Navigate left/up/down/right:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">H|J|K|L</span>` OR `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arrow keys</span>
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">H|J|K|L|arrow keys</span>
 
 - Rotate:
 
@@ -36,7 +36,7 @@ More information: <https://pwmt.org/projects/zathura/>.
 
 - Invert Colors:
 
-`Ctrl + R`
+`<Ctrl> + R`
 
 - Search for text by a given string:
 

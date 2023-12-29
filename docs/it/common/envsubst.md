@@ -2,8 +2,8 @@
 layout: page
 title: common/envsubst (italiano)
 description: "Sostituisci variabili di ambiente con il loro valore in stringhe di formato della shell."
-content_hash: d18fbbe103600180f9f91cfe968062331e198a93
-last_modified_at: 2023-11-12
+content_hash: 0983f2ba8b521a2f8cf94d0f2e616c7f32abd483
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/envsubst.html
@@ -30,4 +30,4 @@ Maggiori informazioni: <https://www.gnu.org/software/gettext/manual/html_node/en
 
 - Sostituisci in un file input le variabili di ambiente specificate in una lista separata da spazi:
 
-`envsubst `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$USER $HOME $SHELL</span>` < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_input</span>
+`envsubst '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">$USER $HOME $SHELL</span>`' < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_input</span>

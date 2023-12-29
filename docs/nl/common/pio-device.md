@@ -2,8 +2,8 @@
 layout: page
 title: common/pio-device (Nederlands)
 description: "Beheer en monitor PlatformIO apparaten."
-content_hash: 6260b5146b8b7f7e52bad53eb5cb7c5c3ab2986b
-last_modified_at: 2023-12-21
+content_hash: 63d701c42256ba8f7e408ce6e32522e95a9810f0
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/pio-device.html
@@ -41,4 +41,4 @@ Meer informatie: <https://docs.platformio.org/en/latest/core/userguide/device/>.
 
 - Ga naar het menu van de interactieve apparaat monitor:
 
-`Ctrl + T`
+`<Ctrl> + T`

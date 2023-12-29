@@ -2,8 +2,8 @@
 layout: page
 title: linux/alpine (中文)
 description: "一个电子邮件客户端和 usenet 新闻组程序，具有 pico/nano 风格的界面。"
-content_hash: aeb58e86d3a2880ec96f77fa9f2437a16b231c27
-last_modified_at: 2023-11-12
+content_hash: 0cc2778255c5924e3c1edae1f0fffea88815cf46
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/linux/alpine.html
@@ -32,4 +32,4 @@ tldri18n_status: 2
 
 - 退出 alpine：
 
-`'q' 然后 'y'`
+`q + y`

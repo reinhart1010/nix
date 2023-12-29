@@ -2,7 +2,7 @@
 layout: page
 title: common/lpstat (português (Brasil))
 description: "Exibe informações sobre o estado de impressoras."
-content_hash: 9d6d618a4eeee3277c45caafa1b1a26364149943
+content_hash: 06f394c0b3353f1a3b79dd5a90dd8f8e27e8ec2e
 last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
@@ -42,6 +42,6 @@ Mais informações: <https://manned.org/lpstat>.
 
 `lpstat -t`
 
-- Mostra uma lista de trabalhos de impressão que foram colocados na fila pelo usuário especificado:
+- Mostra uma lista de trabalhos de impressão que foram colocados na fila por um usuário específico:
 
 `lpstat -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">usuário</span>

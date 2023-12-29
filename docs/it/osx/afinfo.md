@@ -2,8 +2,8 @@
 layout: page
 title: osx/afinfo (italiano)
 description: "Analizzatore dei metadata dei file audio per macOS."
-content_hash: 4752115d39de7804ed7fa881f7a1be189d253f52
-last_modified_at: 2023-11-12
+content_hash: 61a6c1dbc8813ca72953906526f38627ae1e5e27
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/osx/afinfo.html
@@ -31,15 +31,15 @@ Maggiori informazioni: <https://ss64.com/osx/afinfo.html>.
 
 - Mostra una breve descrizione del file audio:
 
-`afinfo -b `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
+`afinfo --brief `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
 
 - Mostra i metadati ed i contenuti dell'InfoDictionary del file audio:
 
-`afinfo -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
+`afinfo --info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
 
 - Mostra l'output in formato xml:
 
-`afinfo -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
+`afinfo --xml `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>
 
 - Mostra i problemi del file audio (se ce ne sono):
 
@@ -47,4 +47,4 @@ Maggiori informazioni: <https://ss64.com/osx/afinfo.html>.
 
 - Mostra la pagina di aiuto:
 
-`afinfo -h`
+`afinfo --help`

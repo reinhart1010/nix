@@ -2,8 +2,8 @@
 layout: page
 title: common/trap (English)
 description: "Automatically execute commands after receiving signals by processes or the operating system."
-content_hash: d499954498b0bbcc39e122d9f46f391b077fe1f0
-last_modified_at: 2023-11-12
+content_hash: c234dfefd8899dcf848248d266b95ce3f266a46a
+last_modified_at: 2023-12-29
 related_topics:
   - title: 中文 version
     url: /zh/common/trap.html
@@ -14,15 +14,11 @@ tldri18n_status: 2
 
 Automatically execute commands after receiving signals by processes or the operating system.
 Can be used to perform cleanups for interruptions by the user or other actions.
-More information: <https://manned.org/trap>.
-
-- List available signals to set traps for:
-
-`trap -l`
+More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#trap>.
 
 - List active traps for the current shell:
 
-`trap -p`
+`trap`
 
 - Set a trap to execute commands when one or more signals are detected:
 

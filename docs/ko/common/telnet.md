@@ -2,8 +2,8 @@
 layout: page
 title: common/telnet (한국어)
 description: "telnet 프로토콜을 사용해 호스트의 특정 포트에 연결합니다."
-content_hash: 7806f82f4b4d3602d6bd25600e55d38e17fd6d5c
-last_modified_at: 2023-11-12
+content_hash: 8f33ee19df03b21368949062b44f53a0bd9c86e6
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/common/telnet.html
@@ -29,7 +29,7 @@ telnet 프로토콜을 사용해 호스트의 특정 포트에 연결합니다.
 
 - 세션 종료를 위한 기본 이스케이프 문자 조합을 전송:
 
-`Ctrl + ]`
+`<Ctrl> + ]`
 
 - "x"를 세션 종료 문자로 사용하여 세션 시작:
 

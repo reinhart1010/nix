@@ -2,8 +2,8 @@
 layout: page
 title: common/emacs (italiano)
 description: "Editor di testo in tempo reale, estendibile, personalizzabile e auto documentato."
-content_hash: 3e2ae7a94331f5698399194e27519240fbe3dcd1
-last_modified_at: 2023-11-12
+content_hash: ba74ba71ea131ecc947179a04c0012e4ae9c7218
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/emacs.html
@@ -34,4 +34,4 @@ Maggiori informazioni: <https://www.gnu.org/software/emacs>.
 
 - Esci da emacs (salva i buffer e termina):
 
-`Ctrl + X, Ctrl + C`
+`<Ctrl> + X, <Ctrl> + C`

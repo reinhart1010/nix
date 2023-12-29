@@ -2,8 +2,8 @@
 layout: page
 title: common/vim (English)
 description: "Vim (Vi IMproved), a command-line text editor, provides several modes for different kinds of text manipulation."
-content_hash: a8ecaa1854b70a999659becd8160c85e029e091f
-last_modified_at: 2023-11-23
+content_hash: 769506df0e394064e9633bed3b34a43f37b73948
+last_modified_at: 2023-12-29
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -68,7 +68,7 @@ More information: <https://www.vim.org>.
 
 - Enter normal mode and undo the last operation:
 
-`<ESC>u`
+`<Esc>u`
 
 - Search for a pattern in the file (press `n`/`N` to go to next/previous match):
 

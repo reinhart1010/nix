@@ -2,8 +2,8 @@
 layout: page
 title: common/tmux (English)
 description: "Terminal multiplexer."
-content_hash: cd3cd832a0392b22f1b4efa0ab444c2735f0a413
-last_modified_at: 2023-12-28
+content_hash: 38bd6ad0896684d870d568d5a9a62933d9d34b8c
+last_modified_at: 2023-12-29
 related_topics:
   - title: español version
     url: /es/common/tmux.html
@@ -47,15 +47,15 @@ More information: <https://github.com/tmux/tmux>.
 
 - Detach from the current session (inside a tmux session):
 
-`Ctrl-B d`
+`<Ctrl>-B d`
 
 - Create a new window (inside a tmux session):
 
-`Ctrl-B c`
+`<Ctrl>-B c`
 
 - Switch between sessions and windows (inside a tmux session):
 
-`Ctrl-B w`
+`<Ctrl>-B w`
 
 - Kill a session by name:
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/alpine (Deutsch)
 description: "Ein E-Mail und Usenet Client mit pico/nano-inspirierten Interface."
-content_hash: 62feed7c5edaf0903c3e6e11f6a6cb232e4c6639
-last_modified_at: 2023-11-12
+content_hash: 99e21ba6fc6c41ddcf03ac1d55444c738b4e29ca
+last_modified_at: 2023-12-29
 related_topics:
   - title: English version
     url: /en/linux/alpine.html
@@ -32,4 +32,4 @@ Weitere Informationen: <https://manned.org/alpine>.
 
 - Beende Alpine:
 
-`'q', dann 'y'`
+`q + y`

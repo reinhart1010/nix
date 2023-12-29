@@ -2,8 +2,8 @@
 layout: page
 title: common/orca-c (English)
 description: "A C-port of the ORCA live programming environment."
-content_hash: c1ba42171142f04b86c08bbae0004161d4954047
-last_modified_at: 2023-11-12
+content_hash: e2c5000b5eedde6286dd80b7c727deaa0ceb2d06
+last_modified_at: 2023-12-29
 tldri18n_status: 2
 ---
 # orca-c
@@ -42,4 +42,4 @@ More information: <https://github.com/hundredrabbits/Orca-c>.
 
 - Show all ORCA operators inside of ORCA:
 
-`Ctrl + g`
+`<Ctrl> + g`

@@ -2,8 +2,8 @@
 layout: page
 title: common/abduco (Nederlands)
 description: "Terminal sessiemanager."
-content_hash: f8cc4a6ef321f165da02a27ac8aab8184b648b5b
-last_modified_at: 2023-11-12
+content_hash: 236ac862aa4a2106f8cad55e893c8a042749f3ed
+last_modified_at: 2023-12-29
 related_topics:
   - title: বাংলা version
     url: /bn/common/abduco.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/abduco.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/abduco.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/abduco.html
@@ -56,7 +59,7 @@ Meer informatie: <http://www.brain-dump.org/projects/abduco/>.
 
 - Loskoppelen van een sessie:
 
-`Ctrl + \`
+`<Ctrl> + \`
 
 - Voeg toe aan een sessie in alleen-lezen modus:
 
