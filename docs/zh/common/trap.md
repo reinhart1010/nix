@@ -3,14 +3,17 @@ layout: page
 title: common/trap (中文)
 description: "在进程或操作系统接收到信号后自动执行命令。"
 content_hash: 4943c3e69046a11a56eb861e96281680e8a2c4b1
-last_modified_at: 2023-11-12
+last_modified_at: 2023-12-30
 related_topics:
   - title: English version
     url: /en/common/trap.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# trap
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># trap
 
 在进程或操作系统接收到信号后自动执行命令。
 可用于对用户中断或其他操作执行清理。

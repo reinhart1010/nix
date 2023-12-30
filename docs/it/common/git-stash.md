@@ -3,7 +3,7 @@ layout: page
 title: common/git-stash (italiano)
 description: "Salva in un'area temporanea (stash) modifiche Git locali."
 content_hash: 1cc05e26cd2f3dbc5364bffa6b2298b1a82d32b2
-last_modified_at: 2023-12-29
+last_modified_at: 2023-12-30
 related_topics:
   - title: English version
     url: /en/common/git-stash.html
@@ -17,9 +17,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-stash.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# git stash
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git stash
 
 Salva in un'area temporanea (stash) modifiche Git locali.
 Maggiori informazioni: <https://git-scm.com/docs/git-stash>.

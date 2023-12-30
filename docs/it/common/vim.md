@@ -3,7 +3,7 @@ layout: page
 title: common/vim (italiano)
 description: "Vi IMproved, un editor di testo per programmatori che fornisce diverse modalità per modificare testo."
 content_hash: 34e84582379bac812ccd42df44eacdadc317a866
-last_modified_at: 2023-12-29
+last_modified_at: 2023-12-30
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -41,9 +41,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/vim.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# vim
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># vim
 
 Vi IMproved, un editor di testo per programmatori che fornisce diverse modalità per modificare testo.
 Premi `i` per entrare in insert mode e `<Esc>` per tornare in normal mode dove non puoi inserire testo normalmente.

@@ -3,7 +3,7 @@ layout: page
 title: common/docker (Indonesia)
 description: "Mengatur kontainer Docker dan image."
 content_hash: f78aa2625b6d8f847c7327b49e1684eb0cc14c76
-last_modified_at: 2023-12-29
+last_modified_at: 2023-12-30
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -41,9 +41,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/docker.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# docker
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># docker
 
 Mengatur kontainer Docker dan image.
 Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `docker run`.

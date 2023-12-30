@@ -3,7 +3,7 @@ layout: page
 title: common/gimp (русский)
 description: "GNU программа для работы с изображениями."
 content_hash: 63202e9d54dbc25b83a414f2ea2a36e572d71e1f
-last_modified_at: 2023-12-29
+last_modified_at: 2023-12-30
 related_topics:
   - title: English version
     url: /en/common/gimp.html
@@ -11,9 +11,12 @@ related_topics:
   - title: français version
     url: /fr/common/gimp.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# gimp
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># gimp
 
 GNU программа для работы с изображениями.
 Смотрите также: `krita`.

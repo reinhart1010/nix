@@ -3,7 +3,7 @@ layout: page
 title: common/brew (italiano)
 description: "Gestore di pacchetti per macOS."
 content_hash: c64afeb7d09ba4819796c57f13021117d26e333c
-last_modified_at: 2023-12-29
+last_modified_at: 2023-12-30
 related_topics:
   - title: English version
     url: /en/common/brew.html
@@ -29,9 +29,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/brew.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# brew
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># brew
 
 Gestore di pacchetti per macOS.
 Maggiori informazioni: <https://docs.brew.sh/Manpage>.

@@ -3,19 +3,14 @@ layout: page
 title: linux/sport (English)
 description: "Search and install SlackBuilds."
 content_hash: 057290a76c2c1981b71755be5105ad1ca43f4bec
-last_modified_at: 2023-12-29
-tldri18n_status: 0
+last_modified_at: 2023-12-30
+related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/linux/sport.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/sport.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># sport
+# sport
 
 Search and install SlackBuilds.
 More information: <http://slackermedia.info/handbook/doku.php?id=slackbuilds>.

@@ -3,19 +3,10 @@ layout: page
 title: common/cupstestppd (English)
 description: "Test conformance of PPD files to the version 4.3 of the specification."
 content_hash: 98b4c7941295c5628ab2ad43155a29848ba2e6b7
-last_modified_at: 2023-12-29
-tldri18n_status: 0
+last_modified_at: 2023-12-30
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cupstestppd.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cupstestppd
+# cupstestppd
 
 Test conformance of PPD files to the version 4.3 of the specification.
 Error codes (1, 2, 3 and 4, respectively): bad CLI arguments, unable to open file, unskippable format errors and non-conformance with PPD specification.

@@ -3,23 +3,14 @@ layout: page
 title: common/ippevepcl (português (Brasil))
 description: "Imprime em impressoras laser HP PCL a preto e branco."
 content_hash: 2502d18ce007e2b7ac81deb76d1f26db932db4ed
-last_modified_at: 2023-12-29
+last_modified_at: 2023-12-30
 related_topics:
   - title: English version
     url: /en/common/ippevepcl.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ippevepcl.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ippevepcl
+# ippevepcl
 
 Imprime em impressoras laser HP PCL a preto e branco.
 Suporta arquivos HP PCL, PWG Raster and Apple Raster.

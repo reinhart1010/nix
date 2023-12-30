@@ -3,7 +3,7 @@ layout: page
 title: common/export (فارسی)
 description: "دستور تغییر متغییرهای محلی سیستم موجود برای پروسه های جدید."
 content_hash: 6c7de9255055384c9392beba39805a14cacc6545
-last_modified_at: 2023-11-12
+last_modified_at: 2023-12-30
 related_topics:
   - title: Deutsch version
     url: /de/common/export.html
@@ -14,9 +14,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/export.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# export
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># export
 
 دستور تغییر متغییرهای محلی سیستم موجود برای پروسه های جدید.
 اطلاعات بیشتر: <https://www.gnu.org/software/bash/manual/bash.html#index-export>.

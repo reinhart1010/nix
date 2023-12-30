@@ -3,7 +3,7 @@ layout: page
 title: common/git-clone (Indonesia)
 description: "Klon repositori yang ada."
 content_hash: f5a72de192cdc0c4a42b982191f8460daf82aad7
-last_modified_at: 2023-12-29
+last_modified_at: 2023-12-30
 related_topics:
   - title: Deutsch version
     url: /de/common/git-clone.html
@@ -38,9 +38,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/git-clone.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# git clone
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git clone
 
 Klon repositori yang ada.
 Informasi lebih lanjut: <https://git-scm.com/docs/git-clone>.

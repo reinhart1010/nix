@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman (മലയാളം)
 description: "ആർച്ച് ലിന്ക്സിന്റെ പാക്കേജ് മാനേജുമെന്റ് യൂട്ടിലിറ്റി."
 content_hash: 42e40b86a605d3a8fc1ca5986e5618ebed658db2
-last_modified_at: 2023-12-29
+last_modified_at: 2023-12-30
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -38,9 +38,12 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/pacman.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# pacman
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># pacman
 
 ആർച്ച് ലിന്ക്സിന്റെ പാക്കേജ് മാനേജുമെന്റ് യൂട്ടിലിറ്റി.
 ഇതും കാണുക: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.

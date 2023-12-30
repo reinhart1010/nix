@@ -3,7 +3,7 @@ layout: page
 title: common/cupsd (português (Brasil))
 description: "Daemon de servidor para o servidor de impressão CUPS."
 content_hash: b8cc7ea526ef9258133380d045635953001d1c27
-last_modified_at: 2023-12-29
+last_modified_at: 2023-12-30
 related_topics:
   - title: English version
     url: /en/common/cupsd.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/cupsd.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cupsd.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cupsd
+# cupsd
 
 Daemon de servidor para o servidor de impressão CUPS.
 Mais informações: <https://openprinting.github.io/cups/doc/man-cupsd.html>.

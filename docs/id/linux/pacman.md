@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman (Indonesia)
 description: "Kegunaan manajer paket Arch Linux."
 content_hash: 615f28c7e4a6c3fbc9eac5729003bf60c89d528d
-last_modified_at: 2023-12-29
+last_modified_at: 2023-12-30
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -38,9 +38,12 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/pacman.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# pacman
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># pacman
 
 Kegunaan manajer paket Arch Linux.
 Guarda anche: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.

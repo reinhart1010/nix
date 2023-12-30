@@ -3,14 +3,17 @@ layout: page
 title: common/exec (italiano)
 description: "Sostituisci il processo corrente con un altro."
 content_hash: c64aa28317eb6c7c07acff82095cfdebb4895eb6
-last_modified_at: 2023-11-12
+last_modified_at: 2023-12-30
 related_topics:
   - title: English version
     url: /en/common/exec.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# exec
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># exec
 
 Sostituisci il processo corrente con un altro.
 Maggiori informazioni: <https://linuxcommand.org/lc3_man_pages/exech.html>.

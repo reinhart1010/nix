@@ -3,7 +3,7 @@ layout: page
 title: common/docker (italiano)
 description: "Gestisci container ed immagini Docker."
 content_hash: 44931c20d3639da7cc15d956f54edbef33f789b9
-last_modified_at: 2023-12-29
+last_modified_at: 2023-12-30
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -41,9 +41,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/docker.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# docker
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># docker
 
 Gestisci container ed immagini Docker.
 Alcuni comandi aggiuntivi, come `docker run`, hanno la propria documentazione.

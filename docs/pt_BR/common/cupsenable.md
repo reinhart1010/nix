@@ -3,19 +3,14 @@ layout: page
 title: common/cupsenable (português (Brasil))
 description: "Inicia impressoras e classes."
 content_hash: 7138e34431402fd8eab714a415511da0e1efc183
-last_modified_at: 2023-12-29
-tldri18n_status: 0
+last_modified_at: 2023-12-30
+related_topics:
+  - title: English version
+    url: /en/common/cupsenable.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cupsenable.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cupsenable
+# cupsenable
 
 Inicia impressoras e classes.
 NOTA: destino se refere a uma impressora ou uma classe de impressoras.

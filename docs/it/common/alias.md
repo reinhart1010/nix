@@ -3,7 +3,7 @@ layout: page
 title: common/alias (italiano)
 description: "Crea alias -- parole che sono sostituite da stringhe di comandi."
 content_hash: 8ef611a3735c059c143916f801972c6ebf9ac934
-last_modified_at: 2023-12-29
+last_modified_at: 2023-12-30
 related_topics:
   - title: বাংলা version
     url: /bn/common/alias.html
@@ -59,9 +59,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/alias.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# alias
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># alias
 
 Crea alias -- parole che sono sostituite da stringhe di comandi.
 Gli alias vengono persi alla chiusura della shell corrente, a meno che non siano definiti nel file di configurazione della shell (ad esempio `~/.bashrc`).

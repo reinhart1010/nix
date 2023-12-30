@@ -3,7 +3,7 @@ layout: page
 title: linux/lsusb (italiano)
 description: "Visualizza le informazioni su i bus USB e i dispositivi a loro connessi."
 content_hash: 3182bdbc91adc953b7f7656446f0ce2c0299ae28
-last_modified_at: 2023-12-29
+last_modified_at: 2023-12-30
 related_topics:
   - title: català version
     url: /ca/linux/lsusb.html
@@ -17,9 +17,12 @@ related_topics:
   - title: हिन्दी version
     url: /hi/linux/lsusb.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# lsusb
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># lsusb
 
 Visualizza le informazioni su i bus USB e i dispositivi a loro connessi.
 Maggiori informazioni: <https://manned.org/lsusb>.

@@ -3,7 +3,7 @@ layout: page
 title: common/git-commit (日本語)
 description: "リポジトリにファイルをコミットします。"
 content_hash: d7bab903a3d2d640311de3299012bfa653ecf109
-last_modified_at: 2023-12-29
+last_modified_at: 2023-12-30
 related_topics:
   - title: Deutsch version
     url: /de/common/git-commit.html
@@ -35,9 +35,12 @@ related_topics:
   - title: українська version
     url: /uk/common/git-commit.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# git commit
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git commit
 
 リポジトリにファイルをコミットします。
 詳しくはこちら: <https://git-scm.com/docs/git-commit>

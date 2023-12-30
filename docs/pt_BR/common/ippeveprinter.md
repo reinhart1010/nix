@@ -3,23 +3,14 @@ layout: page
 title: common/ippeveprinter (português (Brasil))
 description: "Um servidor de impressão IPP Everywhere simples."
 content_hash: ede9380f986dfd912cba1354ee98e6b1582eceab
-last_modified_at: 2023-12-29
+last_modified_at: 2023-12-30
 related_topics:
   - title: English version
     url: /en/common/ippeveprinter.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ippeveprinter.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ippeveprinter
+# ippeveprinter
 
 Um servidor de impressão IPP Everywhere simples.
 Veja também: `ippeveps`, `ippevepcl`.

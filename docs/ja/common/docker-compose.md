@@ -3,7 +3,7 @@ layout: page
 title: common/docker-compose (日本語)
 description: "複数コンテナを持つDockerアプリケーションの実行と管理をします。"
 content_hash: 4f8eeba9ec925f6b432f9c5f213dfc40409a0119
-last_modified_at: 2023-12-29
+last_modified_at: 2023-12-30
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -35,9 +35,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/docker-compose.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# docker compose
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># docker compose
 
 複数コンテナを持つDockerアプリケーションの実行と管理をします。
 詳しくはこちら: <https://docs.docker.com/compose/reference/>
