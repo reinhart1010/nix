@@ -2,8 +2,8 @@
 layout: page
 title: common/jwt (português (Brasil))
 description: "Uma ferramenta de linha de comando (command-line tool) para trabalhar com JSON Web Tokens (JWTs)."
-content_hash: 180c298135c9a3a7aeda980f9d3f1f21f62f0fea
-last_modified_at: 2023-11-12
+content_hash: 9927aae34715e8d0c03fb3713646b68b6ecb0e60
+last_modified_at: 2023-12-30
 related_topics:
   - title: English version
     url: /en/common/jwt.html
@@ -30,4 +30,4 @@ Mais informações: <https://github.com/mike-engel/jwt-cli>.
 
 - Codifica dados (payload) de um par de chaves (key pair) em um JWT:
 
-`jwt encode --alg `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HS256</span>` --secret `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1234567890</span>` -P chave=valor`
+`jwt encode --alg `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HS256</span>` --secret `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1234567890</span>` -P `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chave=valor</span>
