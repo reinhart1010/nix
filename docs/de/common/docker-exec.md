@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-exec (Deutsch)
 description: "Führe Befehle in einem bereits laufenden Docker Container aus."
-content_hash: b306eb1fc85de5f294c1be3c5906bbaae0698b7c
-last_modified_at: 2023-11-12
+content_hash: 6d836b803c728a6dc9b398d651a7e7b3e6a57fc8
+last_modified_at: 2023-12-30
 related_topics:
   - title: English version
     url: /en/common/docker-exec.html
@@ -37,7 +37,7 @@ Weitere Informationen: <https://docs.docker.com/engine/reference/commandline/exe
 
 - Bestimme das Arbeitsverzeichnis, in dem der Befehl ausgeführt werden soll:
 
-`docker exec --interactive -tty --workdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zum/verzeichnis</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehl</span>
+`docker exec --interactive --tty --workdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zum/verzeichnis</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">befehl</span>
 
 - Führe einen Befehl im Hintergrund in einem laufenden Container aus, aber lies von der Standardeingabe:
 

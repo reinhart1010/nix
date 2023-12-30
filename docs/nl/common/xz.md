@@ -2,8 +2,8 @@
 layout: page
 title: common/xz (Nederlands)
 description: "Comprimeren of decomprimeren van `.xz` en `.lzma` bestanden."
-content_hash: 148156add3cdf1857c67b9a668d87306e2892c75
-last_modified_at: 2023-11-26
+content_hash: 8e432da1a3c263157aecbcdd665576438d335806
+last_modified_at: 2023-12-30
 related_topics:
   - title: English version
     url: /en/common/xz.html
@@ -28,11 +28,11 @@ Meer informatie: <https://manned.org/xz>.
 
 - Comprimeer een bestand gebruik makend van lzma:
 
-`xz --format=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lzma</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
+`xz --format=lzma `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand</span>
 
-- Decomprimer een lzm bestand:
+- Decomprimer een lzma bestand:
 
-`xz --decompress --format=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lzma</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.lzma</span>
+`xz --decompress --format=lzma `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.lzma</span>
 
 - Decomprimer een bestand en schrijf het naar `stdout` (impliceert `--keep`):
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/mkdir (српски)
 description: "Kreira direktorijum."
-content_hash: 5b6d53de5b2d47f7fb3efce0c22bfc8bb86205a6
-last_modified_at: 2023-11-12
+content_hash: eaf1fb505733b946e4a96dcd77774a9087c706f9
+last_modified_at: 2023-12-30
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -46,10 +46,6 @@ Više informacija na: <https://www.gnu.org/software/coreutils/mkdir>.
 
 `mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">direktorijum</span>
 
-- Kreira više direktorijuma u trenutnom direktorijumu:
-
-`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">direktorijum_1 direktorijum_2 ...</span>
-
 - Kreira direktorijum koristeći rekurziju:
 
-`mkdir -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">putanja/do/direktorijuma</span>
+`mkdir -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">putanja/do/direktorijuma1 putanja/do/direktorijuma2 ...</span>

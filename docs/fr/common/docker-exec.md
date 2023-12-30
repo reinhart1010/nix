@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-exec (français)
 description: "Exécute une commande dans un conteneur déjà en cours d'exécution."
-content_hash: 0cfd1368438dbd3db00e8b9274ae1f38feec1e2f
-last_modified_at: 2023-11-12
+content_hash: 19ecad6ebdea6cd9e1fb1c72caed32b2cd172d52
+last_modified_at: 2023-12-30
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-exec.html
@@ -37,7 +37,7 @@ Plus d'informations : <https://docs.docker.com/engine/reference/commandline/exec
 
 - Sélectionner le répertoire de travail pour une commande donnée à exécuter :
 
-`docker exec --interactive -tty --workdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/répertoire</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_conteneur</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commande</span>
+`docker exec --interactive --tty --workdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/répertoire</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_du_conteneur</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commande</span>
 
 - Exécuter une commande en arrière-plan sur un conteneur existant mais garder `stdin` ouvert :
 

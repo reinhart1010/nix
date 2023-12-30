@@ -2,8 +2,8 @@
 layout: page
 title: common/sh (sh)
 description: "Bourne ljuska."
-content_hash: 12164082f925e465e98567d1ee902c88df1d03be
-last_modified_at: 2023-11-12
+content_hash: bc6e879c001fd28c7fd67166d259d33d6e06bcd5
+last_modified_at: 2023-12-30
 related_topics:
   - title: English version
     url: /en/common/sh.html
@@ -28,7 +28,7 @@ Više informacija: <https://manned.org/sh>.
 
 - Izvrši komandu:
 
-`sh -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">komanda</span>
+`sh -c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">komanda</span>`"`
 
 - Pokreni komande iz datoteke:
 

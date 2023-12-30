@@ -2,9 +2,12 @@
 layout: page
 title: common/xz (English)
 description: "Compress or decompress `.xz` and `.lzma` files."
-content_hash: 7b3ca82995dcb607e36c652d72dc3a940362bd3e
-last_modified_at: 2023-11-12
+content_hash: 32bafe3bbdd297e0becf202007fd974598effac7
+last_modified_at: 2023-12-30
 related_topics:
+  - title: Nederlands version
+    url: /nl/common/xz.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/xz.html
     icon: bi bi-globe
@@ -25,11 +28,11 @@ More information: <https://manned.org/xz>.
 
 - Compress a file using lzma:
 
-`xz --format=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lzma</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`xz --format=lzma `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - Decompress an lzma file:
 
-`xz --decompress --format=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lzma</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.lzma</span>
+`xz --decompress --format=lzma `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.lzma</span>
 
 - Decompress a file and write to `stdout` (implies `--keep`):
 

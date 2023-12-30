@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/terminal-notifier (español)
-description: "Envia notificaciones de usuario en macOS."
-content_hash: 49e5b27a303fcfe84feca9681f7716a15b9bde4c
-last_modified_at: 2023-11-12
+description: "Envía notificaciones de usuario en macOS."
+content_hash: 3a95640c9dd4c4875b7fe01cdb2b96095789f89c
+last_modified_at: 2023-12-30
 related_topics:
   - title: English version
     url: /en/osx/terminal-notifier.html
@@ -12,21 +12,21 @@ tldri18n_status: 2
 ---
 # terminal-notifier
 
-Envia notificaciones de usuario en macOS.
+Envía notificaciones de usuario en macOS.
 Más información: <https://github.com/julienXX/terminal-notifier>.
 
-- Envia una notificación (sólo se requiere el mensaje):
+- Envía una notificación (sólo se necesita el mensaje):
 
-`terminal-notifier -group `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tldr-info</span>` -title `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">TLDR</span>` -mensaje '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">TLDR mola</span>`'`
+`terminal-notifier -group `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tldr-info</span>` -title `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">TLDR</span>` -message '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">TLDR mola</span>`'`
 
-- Muestra datos canalizados con un sonido:
+- Muestra datos transmitidos con un sonido:
 
-`echo '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">¡Datos de mensajes canalizados!</span>`'' | terminal-notifier -sound `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">default</span>
+`echo '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Datos de mensajes transmitidos!</span>`'' | terminal-notifier -sound `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">default</span>
 
 - Abre una URL al hacer clic en la notificación:
 
-`terminal-notifier -message '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">¡Comprueba tus acciones de Apple!</span>`' -open '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">! -open '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://finance.yahoo.com/q?s=AAPL</span>`'`
+`terminal-notifier -message '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Comprueba tus acciones de Apple!</span>`' -open '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">http://finance.yahoo.com/q?s=AAPL</span>`'`
 
 - Abre una aplicación al hacer clic en la notificación:
 
-`terminal-notifier -message '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Se importaron 42 contactos.</span>`'  -activate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.apple.AddressBook</span>
+`terminal-notifier -message '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Importados 42 contactos.</span>`'  -activate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.apple.AddressBook</span>
