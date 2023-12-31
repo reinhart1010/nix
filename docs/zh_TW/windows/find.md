@@ -2,8 +2,8 @@
 layout: page
 title: windows/find (中文 (繁體, 台灣))
 description: "在一個或多個文件中查詢指定字串。"
-content_hash: d6cd619232fe11fa8ae51b6e20f39ed18fc29c4e
-last_modified_at: 2023-11-12
+content_hash: bb0161cb0cf7608ef3108c99d5d4fb22af5a3c68
+last_modified_at: 2023-12-31
 related_topics:
   - title: বাংলা version
     url: /bn/windows/find.html
@@ -38,16 +38,16 @@ tldri18n_status: 2
 
 - 查詢包含指定字串的行：
 
-`find `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字串</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案或目錄/完整/路徑</span>
+`find "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字串</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案或目錄\完整\路徑</span>
 
 - 查詢不包含指定字串的行：
 
-`find `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字串</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案或目錄/完整/路徑</span>` /v`
+`find "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字串</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案或目錄\完整\路徑</span>` /v`
 
 - 顯示包含指定字串的行總數：
 
-`find `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字串</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案或目錄/完整/路徑</span>` /c`
+`find "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字串</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案或目錄\完整\路徑</span>` /c`
 
 - 顯示符合的行號：
 
-`find `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字串</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案或目錄/完整/路徑</span>` /n`
+`find "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">字串</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案或目錄\完整\路徑</span>` /n`

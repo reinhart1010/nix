@@ -2,8 +2,8 @@
 layout: page
 title: common/aws (中文 (繁體, 台灣))
 description: "Amazon Web Services 官方的命令列介面工具。"
-content_hash: 4657a243ce6edc217911cbe707b488df016e464f
-last_modified_at: 2023-11-12
+content_hash: 927192cd2b518a1464a3d661393bc90cf0b45edc
+last_modified_at: 2023-12-31
 related_topics:
   - title: Deutsch version
     url: /de/common/aws.html
@@ -63,7 +63,7 @@ Amazon Web Services 官方的命令列介面工具。
 
 - 取得 AWS 互動式精靈：
 
-`aws `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">指令</span>` wizard `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">精靈名稱</span>
+`aws dynamodb wizard `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">精靈名稱</span>
 
 - 產生 JSON CLI 骨架（對於基礎設施即程式碼有用）：
 

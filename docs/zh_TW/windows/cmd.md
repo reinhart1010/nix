@@ -2,8 +2,8 @@
 layout: page
 title: windows/cmd (中文 (繁體, 台灣))
 description: "Windows 命令解釋器。"
-content_hash: 9d87bfc84924c8c2eb8de7cc6ff81e333d37b6da
-last_modified_at: 2023-11-12
+content_hash: 5bf58c6e45c2692427a5bf687faad7eab2c6b143
+last_modified_at: 2023-12-31
 related_topics:
   - title: Deutsch version
     url: /de/windows/cmd.html
@@ -48,27 +48,23 @@ Windows 命令解釋器。
 
 - 執行指定的命令然後退出：
 
-`cmd /c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span>`"`
+`cmd /c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span>
 
 - 執行一個指定的命令，之後進入一個互動式 shell：
 
-`cmd /k "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span>`"`
+`cmd /k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span>
 
 - 不顯示命令的輸出結果：
 
 `cmd /q`
 
-- 啟用或禁用命令擴展：
-
-`cmd /e:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span>
-
-- 啟用或禁用文件和目錄名的自動補全：
-
-`cmd /f:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span>
-
 - 啟用或禁用環境變數擴展：
 
 `cmd /v:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span>
+
+- 啟用或禁用命令擴展：
+
+`cmd /e:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span>
 
 - 使用 Unicode 編碼強制輸出內容：
 

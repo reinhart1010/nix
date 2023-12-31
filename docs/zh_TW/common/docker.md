@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (中文 (繁體, 台灣))
 description: "管理 Docker 容器和映像檔。"
-content_hash: b1f64e4458ffb3b95d8744cbcc3a6042bf212a40
-last_modified_at: 2023-11-12
+content_hash: fa2aa00a5ec388acf85e984baf9db78cf9886860
+last_modified_at: 2023-12-31
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -29,6 +29,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/docker.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/docker.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker.html
     icon: bi bi-globe
@@ -46,13 +49,9 @@ tldri18n_status: 2
 此命令也有關於其子命令的文件，例如：`docker run`.
 更多資訊：<https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- 列出目前正在運行的 docker 容器：
-
-`docker ps`
-
 - 列出所有 docker 容器（包括停止的容器）：
 
-`docker ps -a`
+`docker ps --all`
 
 - 透過映像檔啟動容器，並為容器命名：
 

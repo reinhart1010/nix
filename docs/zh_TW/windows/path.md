@@ -2,8 +2,8 @@
 layout: page
 title: windows/path (中文 (繁體, 台灣))
 description: "顯示或設定可執行檔的搜尋路徑。"
-content_hash: 5aa4a08957ddc30df60ae97c60c6f6c67f6511fb
-last_modified_at: 2023-11-12
+content_hash: eb5211dce61461d85452c0790e6e5d5089e7bd9f
+last_modified_at: 2023-12-31
 related_topics:
   - title: বাংলা version
     url: /bn/windows/path.html
@@ -30,7 +30,7 @@ tldri18n_status: 2
 
 - 將路徑設定為一個或多個以分號分隔的路徑目錄：
 
-`path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案/完整/路徑</span>`;`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案/完整/路徑]</span>
+`path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">檔案/完整/路徑1 檔案/完整/路徑2 ...</span>
 
 - 將新的路徑目錄附加到到原始路徑：
 
