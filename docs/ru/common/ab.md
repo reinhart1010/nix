@@ -2,8 +2,8 @@
 layout: page
 title: common/ab (русский)
 description: "Утилита бенчмаркинга Apache. Самая простая утилита для проведения нагрузочного тестирования."
-content_hash: ff72e861f99f0a44b0c6aab23cd1823652e8bc01
-last_modified_at: 2023-12-29
+content_hash: 24e69b5d8cabe5af604a86a3bb6480d1b371eb21
+last_modified_at: 2023-12-31
 related_topics:
   - title: বাংলা version
     url: /bn/common/ab.html
@@ -56,15 +56,15 @@ tldri18n_status: 2
 
 - Запустить 100 запросов HTTP GET по заданному URL:
 
-`ab -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+`ab -n 100 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
 - Запустить 100 запросов HTTP GET, обрабатывая до 10 одновременно, по заданному URL:
 
-`ab -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+`ab -n 100 -c 10 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
 - Запустить 100 запросов HTTP POST по заданному URL, используя в качестве полезной нагрузки JSON из файла:
 
-`ab -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application/json</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла.json</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+`ab -n 100 -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application/json</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">путь/до/файла.json</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
 - Использовать постоянное соединение (keep-alive):
 

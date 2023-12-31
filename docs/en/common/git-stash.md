@@ -2,8 +2,8 @@
 layout: page
 title: common/git-stash (English)
 description: "Stash local Git changes in a temporary area."
-content_hash: 10b79587a773ad623ca47ba1bbfff1d8cec760ae
-last_modified_at: 2023-12-27
+content_hash: e97ba912ea8be6a9a5582f928f299b9b74ac338d
+last_modified_at: 2023-12-31
 related_topics:
   - title: español version
     url: /es/common/git-stash.html
@@ -40,9 +40,9 @@ More information: <https://git-scm.com/docs/git-stash>.
 
 `git stash list`
 
-- Show the changes as a patch between the stash (default is stash@{0}) and the commit back when stash entry was first created:
+- Show the changes as a patch between the stash (default is `stash@{0}`) and the commit back when stash entry was first created:
 
-`git stash show -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stash@{0</span>
+`git stash show -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stash@{0}</span>
 
 - Apply a stash (default is the latest, named stash@{0}):
 

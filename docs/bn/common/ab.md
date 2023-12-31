@@ -2,8 +2,8 @@
 layout: page
 title: common/ab (বাংলা)
 description: "এপাচি এইচটিটিপি সার্ভার বেঞ্চমার্কিং টুল।"
-content_hash: d2cda9090456764a492f77fa9bcad2f4c29c86a2
-last_modified_at: 2023-11-12
+content_hash: ab8edd11d9a2211f329975aeb8507cd7b03678fc
+last_modified_at: 2023-12-31
 related_topics:
   - title: Deutsch version
     url: /de/common/ab.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/ab.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/ab.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ab.html
@@ -53,15 +56,15 @@ tldri18n_status: 2
 
 - নির্দিষ্ট URL এ ১০০টি HTTP GET অনুরোধ প্রয়ান করুন:
 
-`ab -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+`ab -n 100 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
 - URL এ ১০০টি HTTP GET অনুরোধ, ১০টি সময়সার ব্যাচে একে অপরের পরে প্রয়ান করুন:
 
-`ab -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">১০</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+`ab -n 100 -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">১০</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
 - URL এ ১০০টি HTTP POST অনুরোধ প্রয়ান করুন, একটি JSON পেলোড ব্যবহার করে:
 
-`ab -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application/json</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">পাথ/টু/ফাইল.json</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+`ab -n 100 -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application/json</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">পাথ/টু/ফাইল.json</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
 - HTTP [K]eep Alive ব্যবহার করুন, অর্থাৎ একটি HTTP সেশনে মাধ্যমে একাধিক অনুরোধ প্রয়ান করুন:
 

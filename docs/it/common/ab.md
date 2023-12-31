@@ -2,8 +2,8 @@
 layout: page
 title: common/ab (italiano)
 description: "Strumento di benchmarking di Apache. Il più semplice modo per eseguire un test sul carico del server."
-content_hash: 9c9cb69f1dbbf504121aa5b051f7e04b94c01cd8
-last_modified_at: 2023-11-12
+content_hash: f7807b30ada0ed7d1515df499b0d0fe75ce67ec9
+last_modified_at: 2023-12-31
 related_topics:
   - title: বাংলা version
     url: /bn/common/ab.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/ab.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/ab.html
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/common/ab.html
@@ -53,15 +56,15 @@ Maggiori informazioni: <https://httpd.apache.org/docs/current/programs/ab.html>.
 
 - Esegui 100 richieste HTTP GET ad un dato URL:
 
-`ab -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+`ab -n 100 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
 - Esegui 100 richieste HTTP GET ad un dato URL, processandone fino a 10 contemporaneamente:
 
-`ab -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+`ab -n 100 -c 10 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
 - Esegui 100 richieste HTTP POST a un dato URL, utilizzando un payload JSON tramite file:
 
-`ab -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application/json</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.json</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+`ab -n 100 -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application/json</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file.json</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
 - Usa HTTP [K]eep Alive, ovvero esegui richieste multiple in una stessa sessione HTTP:
 

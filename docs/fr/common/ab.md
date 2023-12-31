@@ -2,8 +2,8 @@
 layout: page
 title: common/ab (français)
 description: "Outil d'analyse pour serveur Apache HTTP."
-content_hash: 5eb04697ea55f41e28103f73426445d82208e80e
-last_modified_at: 2023-11-12
+content_hash: 3695dce0ee148feb919b57aaf5a4ea0776679639
+last_modified_at: 2023-12-31
 related_topics:
   - title: বাংলা version
     url: /bn/common/ab.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: español version
     url: /es/common/ab.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/ab.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ab.html
@@ -53,15 +56,15 @@ Plus d'informations : <https://httpd.apache.org/docs/current/programs/ab.html>.
 
 - Exécute 100 requêtes HTTP GET sur une URL donnée :
 
-`ab -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+`ab -n 100 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
 - Exécute 100 requêtes HTTP GET en parallèle par groupe de 10, sur une URL :
 
-`ab -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+`ab -n 100 -c 10 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
 - Exécute 100 requêtes HTTP POST sur une URL, en utilisant un contenu JSON depuis un fichier :
 
-`ab -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application/json</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/fichier.json</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+`ab -n 100 -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application/json</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/le/fichier.json</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
 - Utilise la fonctionalitée HTTP Keep Alive pour exécuter plusieurs requêtes dans la même session HTTP :
 

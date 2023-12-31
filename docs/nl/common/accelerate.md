@@ -2,11 +2,14 @@
 layout: page
 title: common/accelerate (Nederlands)
 description: "Accelerate is een bibliotheek waarmee dezelfde PyTorch-code kan worden uitgevoerd op elke gedistribueerde configuratie."
-content_hash: 44ab8a5fba49cf7153962be227d38782416fe48b
-last_modified_at: 2023-12-03
+content_hash: 8f6ef9eafa114dac0cb2f7e9e7439b45b49a4aae
+last_modified_at: 2023-12-31
 related_topics:
   - title: English version
     url: /en/common/accelerate.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/accelerate.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/accelerate.html
@@ -40,4 +43,4 @@ Meer informatie: <https://huggingface.co/docs/accelerate/index>.
 
 - Voer een model uit op multi-GPU met Accelerate, met 2 machines:
 
-`accelerate launch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/script.py</span>` --multi_gpu --num_machines `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span>
+`accelerate launch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/script.py</span>` --multi_gpu --num_machines 2`

@@ -2,8 +2,8 @@
 layout: page
 title: common/ab (norsk)
 description: "Apache HTTP server referansemåling verktøy."
-content_hash: 2c5d4a5fdb9151c94742fd9053b238f83ff928ea
-last_modified_at: 2023-11-12
+content_hash: 3d8ea0fabea9d074a0a08c96496cebd4371462c2
+last_modified_at: 2023-12-31
 related_topics:
   - title: বাংলা version
     url: /bn/common/ab.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/ab.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/ab.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ab.html
@@ -53,15 +56,15 @@ Mer informasjon: <https://httpd.apache.org/docs/current/programs/ab.html>.
 
 - Utfør 100 HTTP GET-forespørsler til en gitt URL:
 
-`ab -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+`ab -n 100 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
 - Utfør 100 HTTP GET-forespørsler, i samtidige grupper på 10, til en URL:
 
-`ab -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+`ab -n 100 -c 10 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
 - Utfør 100 HTTP POST-forespørsler til en URL, med å bruke en JSON-nyttelast fra en fil:
 
-`ab -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application/json</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vei/til/fil.json</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+`ab -n 100 -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application/json</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vei/til/fil.json</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
 - Bruk HTTP [K]eep Alive, dvs. utfør flere forespørsler i én HTTP-økt:
 

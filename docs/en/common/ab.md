@@ -2,8 +2,8 @@
 layout: page
 title: common/ab (English)
 description: "Apache HTTP server benchmarking tool."
-content_hash: e3622c903eaed8d2960952054673591db6074a96
-last_modified_at: 2023-12-03
+content_hash: dcfa07f488349eb771ad4052001b8cdb847203f4
+last_modified_at: 2023-12-31
 related_topics:
   - title: বাংলা version
     url: /bn/common/ab.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/ab.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/ab.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ab.html
@@ -53,15 +56,15 @@ More information: <https://httpd.apache.org/docs/current/programs/ab.html>.
 
 - Execute 100 HTTP GET requests to a given URL:
 
-`ab -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+`ab -n 100 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
 - Execute 100 HTTP GET requests, in concurrent batches of 10, to a URL:
 
-`ab -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+`ab -n 100 -c 10 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
 - Execute 100 HTTP POST requests to a URL, using a JSON payload from a file:
 
-`ab -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application/json</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.json</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+`ab -n 100 -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application/json</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.json</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
 - Use HTTP [k]eep-Alive, i.e. perform multiple requests within one HTTP session:
 
@@ -70,3 +73,7 @@ More information: <https://httpd.apache.org/docs/current/programs/ab.html>.
 - Set the maximum number of seconds ([t]imeout) to spend for benchmarking:
 
 `ab -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">60</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+
+- Write the results to a CSV file:
+
+`ab -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.csv</span>

@@ -2,8 +2,8 @@
 layout: page
 title: common/ab (português (Brasil))
 description: "Ferramenta da Apache para realizar benchmarking e testes de carga em servidores web."
-content_hash: e6b1f18a222af77a46f36ed46c85666351bc9dfd
-last_modified_at: 2023-12-28
+content_hash: 70e55aed2f39b04b4f87ef762e3c7c44fd32c6d9
+last_modified_at: 2023-12-31
 related_topics:
   - title: বাংলা version
     url: /bn/common/ab.html
@@ -59,11 +59,15 @@ Mais informações: <https://httpd.apache.org/docs/current/programs/ab.html>.
 
 - Executa 100 requisições HTTP do tipo GET para uma determinada URL:
 
-`ab -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+`ab -n 100 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
 - Executa 100 requisições HTTP do tipo GET para uma determinada URL, executando 10 requisições simultâneas de cada vez:
 
-`ab -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+`ab -n 100 -c 10 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+
+- Executa 100 requisições HTTP do tipo POST para uma determinada URL, usando um payload JSON de um arquivo:
+
+`ab -n 100 -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application/json</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.json</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
 
 - Utiliza a funcionalidade HTTP Keep Alive, permitindo que várias requisições sejam feitas em uma sessão HTTP:
 
@@ -72,3 +76,7 @@ Mais informações: <https://httpd.apache.org/docs/current/programs/ab.html>.
 - Define o tempo total do benchmarking, em segundos:
 
 `ab -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">60</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+
+- Escreve os resultados em um arquivo CSV:
+
+`ab -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.csv</span>

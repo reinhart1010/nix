@@ -2,11 +2,14 @@
 layout: page
 title: common/accelerate (한국어)
 description: "Accelerate는 동일한 PyTorch 코드를 모든 분산 환경 구성에서 실행할 수 있게 해주는 라이브러리입니다."
-content_hash: 929d94884f091fb3a225eae8ac7bed02274745aa
-last_modified_at: 2023-12-03
+content_hash: 684b35c510d316f7a8c7e36878ae3224efd8439b
+last_modified_at: 2023-12-31
 related_topics:
   - title: English version
     url: /en/common/accelerate.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/accelerate.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/accelerate.html
@@ -40,4 +43,4 @@ Accelerate는 동일한 PyTorch 코드를 모든 분산 환경 구성에서 실�
 
 - 2대의 머신을 사용하고, Accelerate로 다중 GPU에서 모델을 실행:
 
-`accelerate launch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/스크립트.py</span>` --multi_gpu --num_machines `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span>
+`accelerate launch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/스크립트.py</span>` --multi_gpu --num_machines 2`

@@ -2,8 +2,8 @@
 layout: page
 title: common/accelerate (Indonesia)
 description: "Sebuah pustaka/library yang memungkinkan kode PyTorch yang sama dapat dijalankan secara menyebar."
-content_hash: 1a5d38f8ec40e62bb4c8db42d2d67e8862ed64bf
-last_modified_at: 2023-12-16
+content_hash: 4c2e710b9ed2d7065f18ed9cb60866f3958afc03
+last_modified_at: 2023-12-31
 related_topics:
   - title: English version
     url: /en/common/accelerate.html
@@ -43,4 +43,4 @@ Informasi lebih lanjut: <https://huggingface.co/docs/accelerate/index>.
 
 - Jalankan model dengan Accelerate, menggunakan GPU dari 2 perangkat yang berbeda:
 
-`accelerate launch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/script.py</span>` --multi_gpu --num_machines `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span>
+`accelerate launch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/script.py</span>` --multi_gpu --num_machines 2`

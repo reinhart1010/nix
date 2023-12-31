@@ -2,9 +2,12 @@
 layout: page
 title: common/accelerate (English)
 description: "A library that enables the same PyTorch code to be run across any distributed configuration."
-content_hash: a2dcaeac85904b19736c15e8acf12e034f0df71d
-last_modified_at: 2023-12-03
+content_hash: 7948ab5b7273d3e29531a32dac635819ca95bb8a
+last_modified_at: 2023-12-31
 related_topics:
+  - title: Indonesia version
+    url: /id/common/accelerate.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/accelerate.html
     icon: bi bi-globe
@@ -40,4 +43,4 @@ More information: <https://huggingface.co/docs/accelerate/index>.
 
 - Run a model on multi-GPU with Accelerate, with 2 machines:
 
-`accelerate launch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.py</span>` --multi_gpu --num_machines `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2</span>
+`accelerate launch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.py</span>` --multi_gpu --num_machines 2`
