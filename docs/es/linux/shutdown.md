@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/shutdown (español)
-description: "Detiene, apaga o reinicia la máquina."
-content_hash: afd361133ae5c8fa29e3357d96191821f83f4ac2
-last_modified_at: 2023-11-12
+description: "Apaga y reinicia el sistema."
+content_hash: f189670c9a565c83e9b95289d9a7ef8ea71034f9
+last_modified_at: 2023-12-31
 related_topics:
   - title: català version
     url: /ca/linux/shutdown.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/linux/shutdown.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/linux/shutdown.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/linux/shutdown.html
@@ -24,29 +27,25 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># shutdown
 
-Detiene, apaga o reinicia la máquina.
+Apaga y reinicia el sistema.
 Más información: <https://manned.org/shutdown.8>.
 
-- Detiene inmediatamente:
-
-`shutdown -H now`
-
-- Apaga inmediatamente:
+- Apaga ([h]alt) inmediatamente:
 
 `shutdown -h now`
 
-- Reinicia inmediatamente:
+- [r]einicia inmediatamente:
 
 `shutdown -r now`
 
-- Reinicia dentro de 5 minutos:
+- [r]einicia en 5 minutos:
 
 `shutdown -r +`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>` &`
 
-- Apaga a la 1:00 PM (formato 24h):
+- Apaga a las 01:00 pm (Usa el reloj de 24[h]):
 
 `shutdown -h 13:00`
 
-- Cancela una operación de apagado/reinicio pendiente:
+- [c]ancela una operación pendiente de apagado/reinicio:
 
 `shutdown -c`

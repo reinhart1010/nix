@@ -2,8 +2,8 @@
 layout: page
 title: common/sed (dansk)
 description: "Rediger tekst, programmatisk."
-content_hash: 902c5f2b787f23435c250a10517d01e138e47b6a
-last_modified_at: 2023-11-12
+content_hash: 072675e1f9204cde82410514f9c1fed6766b0a26
+last_modified_at: 2023-12-31
 related_topics:
   - title: English version
     url: /en/common/sed.html
@@ -22,7 +22,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># sed
 
 Rediger tekst, programmatisk.
-Mere information: <https://www.gnu.org/software/sed/manual/sed.html>.
+Mere information: <https://manned.org/man/sed.1posix>.
 
 - Erstat den første forekomst af et regulært udtryk (regular expression) i hver linje af en fil, og print resultatet:
 

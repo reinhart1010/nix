@@ -2,8 +2,8 @@
 layout: page
 title: common/sed (한국어)
 description: "스크립트 가능한 방식으로 텍스트 편집."
-content_hash: 115b6c60550bb561c16121be638afdb23c7c5160
-last_modified_at: 2023-11-12
+content_hash: 2855da8466f896295f50c53341c119fb05379b8b
+last_modified_at: 2023-12-31
 related_topics:
   - title: dansk version
     url: /da/common/sed.html
@@ -20,7 +20,7 @@ tldri18n_status: 2
 
 스크립트 가능한 방식으로 텍스트 편집.
 함께 보기: `awk`, `ed`.
-더 많은 정보: <https://www.gnu.org/software/sed/manual/sed.html>.
+더 많은 정보: <https://manned.org/man/sed.1posix>.
 
 - 모든 입력 줄에서 모든 `apple`(기본 정규식)항목을 `mango`(기본 정규식)로 바꾸고 결과를 `stdout`에 출력:
 
