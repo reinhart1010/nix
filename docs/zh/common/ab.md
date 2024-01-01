@@ -3,7 +3,7 @@ layout: page
 title: common/ab (中文)
 description: "Apache 基准测试工具。"
 content_hash: 7b282fdece64edae7fc875c10e3a0f821dc20e9c
-last_modified_at: 2023-12-31
+last_modified_at: 2024-01-01
 related_topics:
   - title: বাংলা version
     url: /bn/common/ab.html
@@ -47,9 +47,12 @@ related_topics:
   - title: தமிழ் version
     url: /ta/common/ab.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# ab
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># ab
 
 Apache 基准测试工具。
 更多信息：<https://httpd.apache.org/docs/current/programs/ab.html>.

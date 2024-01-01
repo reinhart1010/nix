@@ -3,7 +3,7 @@ layout: page
 title: common/ab (italiano)
 description: "Strumento di benchmarking di Apache. Il più semplice modo per eseguire un test sul carico del server."
 content_hash: f7807b30ada0ed7d1515df499b0d0fe75ce67ec9
-last_modified_at: 2023-12-31
+last_modified_at: 2024-01-01
 related_topics:
   - title: বাংলা version
     url: /bn/common/ab.html
@@ -47,9 +47,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ab.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# ab
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># ab
 
 Strumento di benchmarking di Apache. Il più semplice modo per eseguire un test sul carico del server.
 Maggiori informazioni: <https://httpd.apache.org/docs/current/programs/ab.html>.
