@@ -2,8 +2,8 @@
 layout: page
 title: osx/duti (中文)
 description: "在 macOS 上为文档类型和网页设置默认打开的应用程序。"
-content_hash: 588f220e36180dd45343c6954b0e1612c4975522
-last_modified_at: 2023-11-12
+content_hash: 8e0572cbccd0785176a3e9671b1d216cb872d258
+last_modified_at: 2024-01-01
 related_topics:
   - title: English version
     url: /en/osx/duti.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 
 - 将 Finder 设置为 ftp:// URL 访问的应用：
 
-`duti -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.apple.Finder</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ftp</span>
+`duti -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.apple.Finder</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ftp</span>`"`
 
 - 显示有关给定扩展名的默认应用程序的信息：
 

@@ -2,8 +2,8 @@
 layout: page
 title: windows/findstr (中文)
 description: "在一个或多个文件中查找指定的文本。"
-content_hash: e04eabcdbbee8e33cf272d4f4cb336e76f75e034
-last_modified_at: 2023-11-12
+content_hash: 732cca69078bd07aef061da9bb7dfa172df02535
+last_modified_at: 2024-01-01
 related_topics:
   - title: English version
     url: /en/windows/findstr.html
@@ -34,10 +34,6 @@ tldri18n_status: 2
 - 在所有文本文件中查找文字字符串（包含空格）：
 
 `findstr /c:"`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">查询语句</span>`" *.txt`
-
-- 只查找完全匹配的行：
-
-`findstr /x "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">查询语句</span>`" *`
 
 - 显示匹配的行的行数：
 

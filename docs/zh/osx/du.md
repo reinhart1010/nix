@@ -2,8 +2,8 @@
 layout: page
 title: osx/du (中文)
 description: "磁盘使用率：估计和汇总文件和目录空间使用率。"
-content_hash: e8fd281c70a9d834bfd14755181fdd2221fd70da
-last_modified_at: 2023-11-12
+content_hash: a2055db3a1ce10fb29a77c5d5baeabd92c3e4723
+last_modified_at: 2024-01-01
 related_topics:
   - title: English version
     url: /en/osx/du.html
@@ -49,4 +49,4 @@ tldri18n_status: 2
 
 - 列出当前目录子目录中所有.jpg 文件的可读大小，并在末尾显示累计总数：
 
-`du -ch */*.jpg`
+`du -ch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*/*.jpg</span>

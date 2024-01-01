@@ -2,8 +2,8 @@
 layout: page
 title: osx/airport (中文)
 description: "无线网络配置工具。"
-content_hash: ccf9814b8fc27579fc27cf584a2c213ea7102c0f
-last_modified_at: 2023-11-12
+content_hash: 6d3056459896b18892fc0a1bb9ab275be66f2fde
+last_modified_at: 2024-01-01
 related_topics:
   - title: English version
     url: /en/osx/airport.html
@@ -26,7 +26,7 @@ tldri18n_status: 2
 
 - 显示当前的无线状态信息：
 
-`airport -I`
+`airport --getinfo`
 
 - 在通道 1 上监察（嗅探）无线流量：
 
@@ -34,8 +34,8 @@ tldri18n_status: 2
 
 - 扫描可用的无线网络：
 
-`airport -s`
+`airport --scan`
 
 - 与当前的 Airport 网络脱离连接：
 
-`sudo airport -z`
+`sudo airport --disassociate`

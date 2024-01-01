@@ -2,8 +2,8 @@
 layout: page
 title: osx/lldb (中文)
 description: "LLVM 低级调试器。"
-content_hash: 51e2c47247066fc664896a1d6bb9dcb7a8f40ef2
-last_modified_at: 2023-11-12
+content_hash: 2f5713162a0d09b9c3066b9ff7a102740c6ff89b
+last_modified_at: 2024-01-01
 related_topics:
   - title: English version
     url: /en/osx/lldb.html
@@ -20,7 +20,7 @@ LLVM 低级调试器。
 
 - 调试可执行文件：
 
-`lldb `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">可执行的命令</span>
+`lldb "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">可执行的命令</span>`"`
 
 - 将 `lldb` 附加到具有给定 PID 的正在运行的进程：
 
@@ -28,4 +28,4 @@ LLVM 低级调试器。
 
 - 等待使用给定名称的进程启动，然后附加到该进程上：
 
-`lldb -w -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">进程名</span>
+`lldb -w -n "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">进程名</span>`"`

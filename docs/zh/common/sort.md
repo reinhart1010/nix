@@ -2,8 +2,8 @@
 layout: page
 title: common/sort (中文)
 description: "对文本文件的行进行排序。"
-content_hash: a9b635cf619c83ab3a94799306951f1766b08d80
-last_modified_at: 2023-11-12
+content_hash: 4c623ec328f23e0b6acdad8b45ab0f46df0077b8
+last_modified_at: 2024-01-01
 related_topics:
   - title: English version
     url: /en/common/sort.html
@@ -29,7 +29,7 @@ tldri18n_status: 2
 
 - 用数字而不是字母顺序对文件进行排序：
 
-`sort --numeric-sort=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span>
+`sort --numeric-sort `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件</span>
 
 - 按每行的第 3 个字段对 `/etc/passwd` 进行数字排序，使用 “:” 作为字段分隔符：
 

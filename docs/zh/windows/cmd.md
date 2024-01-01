@@ -2,8 +2,8 @@
 layout: page
 title: windows/cmd (中文)
 description: "Windows 命令解释器。"
-content_hash: 3341a36fd6fc25fdab34375914b176c47a2f0f5a
-last_modified_at: 2023-11-12
+content_hash: 8da4360026c0097fbff2fe8ae045fa42d00bfac9
+last_modified_at: 2024-01-01
 related_topics:
   - title: Deutsch version
     url: /de/windows/cmd.html
@@ -48,27 +48,23 @@ Windows 命令解释器。
 
 - 运行指定的命令然后退出：
 
-`cmd /c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span>`"`
+`cmd /c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 命令</span>
 
 - 执行一个指定的命令，之后进入一个交互式 shell：
 
-`cmd /k "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">命令</span>`"`
+`cmd /k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo 命令</span>
 
 - 不显示命令的输出结果：
 
 `cmd /q`
 
-- 启用或禁用命令扩展：
-
-`cmd /e:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span>
-
-- 启用或禁用文件和目录名的自动补全：
-
-`cmd /f:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span>
-
 - 启用或禁用环境变量扩展：
 
 `cmd /v:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span>
+
+- 启用或禁用命令扩展：
+
+`cmd /e:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span>
 
 - 强制输出内容使用 Unicode 编码：
 

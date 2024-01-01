@@ -2,8 +2,8 @@
 layout: page
 title: osx/xsltproc (中文)
 description: "用 XSLT 转换 XML 以生成输出（通常是 HTML 或 XML）。"
-content_hash: b24a4847187867f6c4e0d66550945a10b0eacf5c
-last_modified_at: 2023-11-12
+content_hash: 35a56eaaf49bd9d755a42fd89b0a4bb1ed3b3e29
+last_modified_at: 2024-01-01
 related_topics:
   - title: English version
     url: /en/osx/xsltproc.html
@@ -24,4 +24,4 @@ tldri18n_status: 2
 
 - 将值传递给样式表中的参数：
 
-`xsltproc --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">输出.html</span>` --stringparam `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">键名</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">值</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">样式表.xslt</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xml 文件.xml</span>
+`xsltproc --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">输出.html</span>` --stringparam "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">键名</span>`" "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">值</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">样式表.xslt</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xml 文件.xml</span>

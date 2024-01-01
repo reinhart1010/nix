@@ -2,8 +2,8 @@
 layout: page
 title: linux/flatpak (中文)
 description: "构建、安装和运行 Flatpak 应用和运行时。"
-content_hash: 247903f34c361848466448a35448ce79e7dd55c8
-last_modified_at: 2023-11-12
+content_hash: 06f72f5898ef839e927359a396cfca3f63409649
+last_modified_at: 2024-01-01
 related_topics:
   - title: English version
     url: /en/linux/flatpak.html
@@ -43,10 +43,6 @@ tldri18n_status: 2
 - 添加远程源：
 
 `flatpak remote-add --if-not-exists `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">远程源名</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">远程源网址</span>
-
-- 列出所有已配置的远程源：
-
-`flatpak remote-list`
 
 - 移除一个已安装的应用程序：
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/alias (中文)
 description: "创建别名 -- 用给定的字符串指代特定的命令。"
-content_hash: 08735f6fb485e86218039f0a704f41d28a7540a6
-last_modified_at: 2023-11-12
+content_hash: a30aa831dc35899e4c51fc1d5f71fa78bc29a253
+last_modified_at: 2024-01-01
 related_topics:
   - title: বাংলা version
     url: /bn/common/alias.html
@@ -79,14 +79,10 @@ tldri18n_status: 2
 
 `unalias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">别名</span>
 
-- 列出所有的别名：
+- 将 `rm` 转换为交互式命令：
 
-`alias -p`
+`alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rm</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rm --interactive</span>`"`
 
-- 将 rm 转换为交互式命令：
+- 创建别名 `la` 来指代 `ls --all`：
 
-`alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rm</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rm -i</span>`"`
-
-- 创建别名 `la` 来指代 `ls -a`：
-
-`alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">la</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls -a</span>`"`
+`alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">la</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls --all</span>`"`

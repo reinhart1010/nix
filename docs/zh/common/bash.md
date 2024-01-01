@@ -2,8 +2,8 @@
 layout: page
 title: common/bash (中文)
 description: "Bourne-Again SHell."
-content_hash: 78d17c780c10f3edc62f27752ad43dfc00b124ac
-last_modified_at: 2023-12-29
+content_hash: a1830d75ba822646f5d15e72552db7c406c8f667
+last_modified_at: 2024-01-01
 related_topics:
   - title: Deutsch version
     url: /de/common/bash.html
@@ -59,15 +59,3 @@ Bourne-Again SHell.
 - 执行脚本文件，并在第一个错误处终止：
 
 `bash -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.sh</span>
-
-- 从输入（`stdin`）读取命令：
-
-`bash -s`
-
-- 将跟随的所有选项原样传递到要执行的脚本文件（可与`-s`选项共用来将选项传递到来自输入的命令 / 脚本）：
-
-`bash --`
-
-- 打印 bash 的版本信息（使用`echo $BASH_VERSION`来获得纯粹的版本字符串）：
-
-`bash --version`

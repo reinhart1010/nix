@@ -2,8 +2,8 @@
 layout: page
 title: windows/scoop (中文)
 description: "Windows 的命令行安装程序。"
-content_hash: d61bb2f70d59b2c62859d4c232d84cf80c091c18
-last_modified_at: 2023-11-12
+content_hash: 9c248ac4a3222b8c230837cc1930861f1a8dd0ba
+last_modified_at: 2024-01-01
 related_topics:
   - title: বাংলা version
     url: /bn/windows/scoop.html
@@ -37,7 +37,7 @@ Windows 的命令行安装程序。
 
 - 更新所有已安装的包：
 
-`scoop update *`
+`scoop update --all`
 
 - 列出所有已安装的包：
 
@@ -53,4 +53,4 @@ Windows 的命令行安装程序。
 
 - 移除所有包的旧版本并清理下载缓存：
 
-`scoop cleanup -k *`
+`scoop cleanup --cache --all`

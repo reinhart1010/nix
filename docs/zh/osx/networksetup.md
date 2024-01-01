@@ -2,8 +2,8 @@
 layout: page
 title: osx/networksetup (中文)
 description: "网络系统首选项配置工具。"
-content_hash: 6ba32ce7ac24b641572a32ff4a92b4eff36024dd
-last_modified_at: 2023-11-12
+content_hash: 6749d6fc0dab74dc460057c5fdaf9d866e7287b6
+last_modified_at: 2024-01-01
 related_topics:
   - title: English version
     url: /en/osx/networksetup.html
@@ -29,4 +29,4 @@ tldri18n_status: 2
 
 - 连接到给定的 Wi-Fi 网络 Connect to a particular Wi-Fi network：
 
-`networksetup -setairportnetwork `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">en0</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">无线网 SSID</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">密码</span>
+`networksetup -setairportnetwork `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">en0</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">无线网 SSID</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">密码</span>

@@ -2,11 +2,14 @@
 layout: page
 title: osx/look (中文)
 description: "查找已排序的文件行（注意，必须是已排序的文件）。"
-content_hash: 0d128b589aed3aec4bae546488f8bcb9fd01e2d1
-last_modified_at: 2023-11-12
+content_hash: bc58f9e6ecd974dcf1c53477f0ede195bde3191c
+last_modified_at: 2024-01-01
 related_topics:
   - title: English version
     url: /en/osx/look.html
+    icon: bi bi-globe
+  - title: español version
+    url: /es/osx/look.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -21,4 +24,4 @@ tldri18n_status: 2
 
 - 查找行，忽略大小写：
 
-`look -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">前缀</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件</span>
+`look --ignore-case `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">前缀</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件</span>

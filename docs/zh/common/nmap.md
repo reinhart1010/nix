@@ -2,8 +2,8 @@
 layout: page
 title: common/nmap (中文)
 description: "网络探索工具和安全/端口扫描程序。"
-content_hash: 27f3edc86ecf764e9a8bfff0ee4d327b092f5f6f
-last_modified_at: 2023-11-12
+content_hash: 7452262950039e47eb6e0d29d56fd9b531cd57bd
+last_modified_at: 2024-01-01
 related_topics:
   - title: Deutsch version
     url: /de/common/nmap.html
@@ -34,7 +34,7 @@ tldri18n_status: 2
 
 - 尝试确定指定的主机是否启动以及它们的名称是什么：
 
-`nmap -sn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP 或者 主机名</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">可选的其它地址</span>
+`sudo nmap -sn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">IP 或者 主机名</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">可选的其它地址</span>
 
 - 像上面一样，如果主机启动了，还可以运行默认的 1000 端口 TCP 扫描：
 
@@ -44,17 +44,9 @@ tldri18n_status: 2
 
 `nmap -A `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">一个地址 或者 多个地址</span>
 
-- 假设网络连接良好并加快执行速度：
-
-`nmap -T4 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">一个地址 或者 多个地址</span>
-
 - 扫描端口的特定列表（使用 `-p` 参数覆盖所有端口，如 `-p 1-65535`，也可以明确指定几个端口，如 `-p 3306,3307,3308`）：
 
 `nmap -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">端口1, 端口2, ..., 端口N</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">一个地址 或者 多个地址</span>
-
-- 执行 TCP 和 UDP 扫描（`-sU` 只用 UDP 扫描，`-sZ` 用 SCTP 扫描，`-sO` 用于 IP 扫描）：
-
-`nmap -sSU `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">一个地址 或者 多个地址</span>
 
 - 使用默认 NSE 脚本执行针对该主机地址的完整端口、服务、版本检测扫描，以确定弱点和信息：
 

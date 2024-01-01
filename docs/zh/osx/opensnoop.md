@@ -2,8 +2,8 @@
 layout: page
 title: osx/opensnoop (中文)
 description: "跟踪系统中打开的文件标识符。"
-content_hash: c158431ee0b16eadc35eaa1afefbab01198cc75e
-last_modified_at: 2023-11-12
+content_hash: b6c3cbe887df765f1fbb9d11b69a48dec65b5e9d
+last_modified_at: 2024-01-01
 related_topics:
   - title: English version
     url: /en/osx/opensnoop.html
@@ -24,7 +24,7 @@ tldri18n_status: 2
 
 - 跟踪给定进程名，打开的所有文件：
 
-`sudo opensnoop -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">进程名</span>
+`sudo opensnoop -n "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">进程名</span>`"`
 
 - 跟踪给定 PID（进程号），打开的所有文件：
 

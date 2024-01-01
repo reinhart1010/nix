@@ -2,8 +2,8 @@
 layout: page
 title: osx/shutdown (中文)
 description: "关闭并重新启动系统。"
-content_hash: 795c3b4717cd3662077b4dff9e9be18d8d10e3b4
-last_modified_at: 2023-11-12
+content_hash: 94b952e8d54dd3a0c355553e0379175e3fbf5722
+last_modified_at: 2024-01-01
 related_topics:
   - title: English version
     url: /en/osx/shutdown.html
@@ -29,7 +29,7 @@ tldri18n_status: 2
 
 - 倒计时 5 分钟重启：
 
-`shutdown -r +`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>
+`shutdown -r "+`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>`"`
 
 - 在下午 1:00（使用 24 小时时钟）关机：
 

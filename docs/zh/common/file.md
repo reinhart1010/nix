@@ -2,8 +2,8 @@
 layout: page
 title: common/file (中文)
 description: "确定文件类型。"
-content_hash: 8a8eba4603c5015a0516305affef2518a58db1a9
-last_modified_at: 2023-11-12
+content_hash: 80a3426227d60e383d2f84e67db90489eec8b5b6
+last_modified_at: 2024-01-01
 related_topics:
   - title: Deutsch version
     url: /de/common/file.html
@@ -39,4 +39,4 @@ tldri18n_status: 2
 
 - 确定文件的 MIME 编码类型：
 
-`file -I `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名</span>
+`file -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">文件名</span>

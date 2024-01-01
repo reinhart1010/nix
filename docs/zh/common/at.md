@@ -2,8 +2,8 @@
 layout: page
 title: common/at (中文)
 description: "在一段时间后，执行单次命令。"
-content_hash: d5ae468c864cdeb7a578d0939837a6ab86147cd5
-last_modified_at: 2023-11-12
+content_hash: 194d2853f3ec95e46be5645558eb0251817dac5c
+last_modified_at: 2024-01-01
 related_topics:
   - title: English version
     url: /en/common/at.html
@@ -39,12 +39,12 @@ atd 服务（或 atrun）需要处于运行状态，以保证命令成功执行�
 
 - 5 分钟后，执行标准输入中的命令（命令输入完成后按 `Ctrl + D`）：
 
-`at now + `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5 minutes</span>
+`at now + 5 minutes`
 
 - 在今天上午 10:00 执行标准输入中的命令：
 
-`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./make_db_backup.sh</span>`" | at `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1000</span>
+`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">./make_db_backup.sh</span>`" | at 1000`
 
 - 下周二晚上 9:30 执行指定文件中包含的命令：
 
-`at -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">9:30 PM Tue</span>
+`at -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` 9:30 PM Tue`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/softwareupdate (中文)
 description: "通过命令行更新 macOS 应用商店中应用程序的工具。"
-content_hash: ddb2014f2c93243d666d64e98a4e62de2c4656ab
-last_modified_at: 2023-11-12
+content_hash: f419dab6d7bf2817ea9b4fa426d9c2f58ac1ac46
+last_modified_at: 2024-01-01
 related_topics:
   - title: English version
     url: /en/osx/softwareupdate.html
@@ -20,16 +20,16 @@ tldri18n_status: 2
 
 - 列出所有可用的更新：
 
-`softwareupdate -l`
+`softwareupdate --list`
 
 - 下载并安装所有更新：
 
-`softwareupdate -ia`
+`softwareupdate --install --all`
 
 - 下载并安装所有推荐的更新：
 
-`softwareupdate -ir`
+`softwareupdate --install --req`
 
 - 下载并安装特定的应用程序：
 
-`softwareupdate -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">更新应用程序名</span>
+`softwareupdate --install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">更新应用程序名</span>

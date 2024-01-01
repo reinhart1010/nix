@@ -2,8 +2,8 @@
 layout: page
 title: osx/locate (中文)
 description: "快速查找文件名。"
-content_hash: 6005dc1f918f3f238a781cdb1222011030d19692
-last_modified_at: 2023-11-12
+content_hash: 0d1d40399b1c3c5e1acaed695d4e224b15ea8bb0
+last_modified_at: 2024-01-01
 related_topics:
   - title: English version
     url: /en/osx/locate.html
@@ -17,7 +17,7 @@ tldri18n_status: 2
 
 - 在数据库中查找关键字。注意：数据库定期重新更新（通常每周或每天）：
 
-`locate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">关键字</span>
+`locate "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">关键字</span>`"`
 
 - 按文件名查找文件（不包含填充字符的模式被解释为 `*关键字*`）：
 

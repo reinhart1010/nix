@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman (中文)
 description: "Arch Linux 的软件包管理器工具。"
-content_hash: ac6009b1edd8fb0e97bcaf2d3da78e02b8902d5a
-last_modified_at: 2023-11-12
+content_hash: 8fe68de4a6d0ddbd5b9d630858080d42fd57452b
+last_modified_at: 2024-01-01
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -57,10 +57,6 @@ Arch Linux 的软件包管理器工具。
 - 删除一个软件包及其依赖：
 
 `sudo pacman -Rs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">软件包</span>
-
-- 在软件包数据库中搜索正则表达式或关键字：
-
-`pacman -Ss "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">软件包</span>`"`
 
 - 列出已安装的软件包和版本：
 

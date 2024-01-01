@@ -2,8 +2,8 @@
 layout: page
 title: windows/shutdown (中文)
 description: "用于关闭，重新启动或注销计算机的工具。"
-content_hash: 2acde6ce906f7e0ba857b69ef356ad081669fd4c
-last_modified_at: 2023-11-12
+content_hash: 7630f7412cb38dc372993bf02a04116a41f2f0fa
+last_modified_at: 2024-01-01
 related_topics:
   - title: English version
     url: /en/windows/shutdown.html
@@ -22,10 +22,6 @@ tldri18n_status: 2
 
 `shutdown /s`
 
-- 重启当前的计算机：
-
-`shutdown /r`
-
 - 休眠当前的计算机：
 
 `shutdown /h`
@@ -37,10 +33,6 @@ tldri18n_status: 2
 - 指定在关闭之前等待的时间（以秒为单位）：
 
 `shutdown /s /t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">秒</span>
-
-- 指定一个关机的理由：
-
-`shutdown /s /c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">理由</span>`"`
 
 - 在超时之前取消关机指令：
 

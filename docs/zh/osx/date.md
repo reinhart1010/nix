@@ -2,8 +2,8 @@
 layout: page
 title: osx/date (中文)
 description: "设置或显示系统日期。"
-content_hash: 6743d86a32e7ca53d51907dfbd370edc209fce27
-last_modified_at: 2023-11-12
+content_hash: 3a62a899b0f1442a729e82c557c068e9807591d6
+last_modified_at: 2024-01-01
 related_topics:
   - title: English version
     url: /en/osx/date.html
@@ -26,11 +26,11 @@ tldri18n_status: 2
 
 - 使用默认区域设置的格式显示当前日期：
 
-`date +"%c"`
+`date +%c`
 
 - 以 UTC 和 ISO 8601 格式显示当前日期：
 
-`date -u +"%Y-%m-%dT%H:%M:%SZ"`
+`date -u +%Y-%m-%dT%H:%M:%SZ`
 
 - 将当前日期显示为 unix 时间戳（自 1970-01-01 00:00:00 以来的秒数）：
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/asdf (中文)
 description: "可扩展的包版本管理器，支持 Nodejs、Ruby、Elixir 和 Erlang 等。"
-content_hash: d17102c41062ca0ac54bc2b8ebdfe969fc7dd765
-last_modified_at: 2023-11-12
+content_hash: ac325bcf8bfee5e1a9be00c0470e865baaec7613
+last_modified_at: 2024-01-01
 related_topics:
   - title: Deutsch version
     url: /de/common/asdf.html
@@ -35,15 +35,15 @@ tldri18n_status: 2
 
 - 可用插件清单：
 
-`asdf plugin-list-all`
+`asdf plugin list all`
 
 - 安装插件：
 
-`asdf plugin-add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">插件名</span>
+`asdf plugin add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">插件名</span>
 
 - 软件包的可用版本清单：
 
-`asdf list-all `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">软件包名</span>
+`asdf list all `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">软件包名</span>
 
 - 安装指定版本的软件包：
 

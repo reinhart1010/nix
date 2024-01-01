@@ -2,8 +2,8 @@
 layout: page
 title: common/oathtool (中文)
 description: "OATH 一次性密码工具。"
-content_hash: 23cc6c934a04e8688aed3778185aede0dd3905d4
-last_modified_at: 2023-11-12
+content_hash: 54b44e34fe5aa4e9515b88f90331aaf10b4827f8
+last_modified_at: 2024-01-01
 related_topics:
   - title: English version
     url: /en/common/oathtool.html
@@ -17,12 +17,12 @@ OATH 一次性密码工具。
 
 - 生成 TOTP 令牌（行为类似于 Google Authenticator）：
 
-`oathtool --totp --base32 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">密码</span>
+`oathtool --totp --base32 "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">密码</span>`"`
 
 - 根据给定时间产生特定的 TOTP 令牌：
 
-`oathtool --totp --now `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2004-02-29 16:21:42</span>` --base32 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">密码</span>
+`oathtool --totp --now "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2004-02-29 16:21:42</span>`" --base32 "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">密码</span>`"`
 
 - 验证 TOTP 令牌：
 
-`oathtool --totp --base32 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">密码</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">令牌</span>
+`oathtool --totp --base32 "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">密码</span>`" "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">令牌</span>`"`

@@ -2,8 +2,8 @@
 layout: page
 title: common/bc (中文)
 description: "一个任意精度计算器语言。"
-content_hash: bc77ed2180fab344963322c463eb8274a0b55a34
-last_modified_at: 2023-11-12
+content_hash: 9e36adf5a4475d0cc4615dcb34ee14dc8272497a
+last_modified_at: 2024-01-01
 related_topics:
   - title: English version
     url: /en/common/bc.html
@@ -23,6 +23,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/bc.html
     icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/bc.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # bc
@@ -41,7 +44,7 @@ tldri18n_status: 2
 
 - 计算表达式：
 
-`echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5 / 3</span>` | bc`
+`echo '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5 / 3</span>`' | bc`
 
 - 执行脚本：
 

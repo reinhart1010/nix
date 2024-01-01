@@ -2,8 +2,8 @@
 layout: page
 title: common/mvn (中文)
 description: "Apache Maven."
-content_hash: 29fb6619d93dd6bdd686698e3efe0183c90b17b4
-last_modified_at: 2023-11-12
+content_hash: 0a82692899927934fd7f96ab7e30e8934213705a
+last_modified_at: 2024-01-01
 related_topics:
   - title: English version
     url: /en/common/mvn.html
@@ -43,9 +43,9 @@ Apache Maven.
 
 `mvn clean package`
 
-- 执行清理操作并使用给定的构建配置打包代码，比如 `profileId` 如果有 dev、test、pro，可以指定其中一个 `profileId` 用来选择具体执行环境：
+- 清理然后使用给定的构建配置文件打包代码：
 
-`mvn clean -P`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">profileId</span>` package`
+`mvn clean -P `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">构建配置</span>` package`
 
 - 使用 main 方法运行一个类：
 

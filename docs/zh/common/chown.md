@@ -2,8 +2,8 @@
 layout: page
 title: common/chown (中文)
 description: "修改用户和用户组对文件或目录的所有权。"
-content_hash: cd53e55317763694f2eabc1c3ab9aa936960889f
-last_modified_at: 2023-11-12
+content_hash: 331180363827e149e4f1ea9f15cdc1792b402cad
+last_modified_at: 2024-01-01
 related_topics:
   - title: Deutsch version
     url: /de/common/chown.html
@@ -44,7 +44,7 @@ tldri18n_status: 2
 
 - 修改文件或目录的所有者：
 
-`chown `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户}</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件或目录</span>
+`chown `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">用户</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/文件或目录</span>
 
 - 修改文件或目录的所有者及所属组：
 

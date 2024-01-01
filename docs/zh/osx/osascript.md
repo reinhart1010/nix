@@ -2,8 +2,8 @@
 layout: page
 title: osx/osascript (中文)
 description: "在命令行中运行指定的 AppleScript 或 JavaScript 脚本程序。"
-content_hash: 56d87ce0a4497f44d7f8731d53499eaf7a605fbd
-last_modified_at: 2023-11-12
+content_hash: 2b6c5045a04fb2e928d958a41ca4dbcc1adcb355
+last_modified_at: 2024-01-01
 related_topics:
   - title: English version
     url: /en/osx/osascript.html
@@ -23,11 +23,11 @@ tldri18n_status: 2
 
 - 运行一个 AppleScript 命令：
 
-`osascript -e '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">say "你好世界"</span>`'`
+`osascript -e "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">say '你好世界'</span>`"`
 
 - 运行多条 AppleScript 命令：
 
-`osascript -e '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">say "你好"</span>`' -e '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">say "世界"</span>`'`
+`osascript -e "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">say '你好'</span>`" -e "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">say '世界'</span>`"`
 
 - 运行一个已编译的脚本（`*.scpt`），包脚本（`*.scptd`），或明文的（`*.applescript`）AppleScript 文件：
 
@@ -39,7 +39,7 @@ tldri18n_status: 2
 
 - 运行一个 JavaScript 命令：
 
-`osascript -l JavaScript -e '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">console.log("你好世界！");</span>`'`
+`osascript -l JavaScript -e "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">console.log('你好世界！');</span>`"`
 
 - 运行 JavaScript 文件：
 

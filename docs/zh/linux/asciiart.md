@@ -2,8 +2,8 @@
 layout: page
 title: linux/asciiart (中文)
 description: "将图像转换为 ASCII."
-content_hash: 240615f16c0030fa28c3d9b218f59448800f264d
-last_modified_at: 2023-11-12
+content_hash: 0ecdb727c821538adf9a6f331ae44a7c04799639
+last_modified_at: 2024-01-01
 related_topics:
   - title: Deutsch version
     url: /de/linux/asciiart.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 
 - 选择输出宽度（默认为 100）：
 
-`asciiart -width `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/图片.jpg</span>
+`asciiart --width `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">50</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/图片.jpg</span>
 
 - 对 ASCII 输出进行着色：
 

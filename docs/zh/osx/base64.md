@@ -2,8 +2,8 @@
 layout: page
 title: osx/base64 (中文)
 description: "使用 Base64 来进行编码和解码。"
-content_hash: a1e6b3ad21ee2930c72fad91ed1a86a3408dc9fc
-last_modified_at: 2023-11-12
+content_hash: 50ba65577d1d16b86a3b67130eaf3d60098f0154
+last_modified_at: 2024-01-01
 related_topics:
   - title: English version
     url: /en/osx/base64.html
@@ -37,7 +37,7 @@ tldri18n_status: 2
 
 - 通过标准输入管道进行解码：
 
-`echo -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标字符串</span>` | base64`
+`echo -n "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目标字符串</span>`" | base64`
 
 - 解码标准输入管道内容：
 

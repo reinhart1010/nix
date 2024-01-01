@@ -2,8 +2,8 @@
 layout: page
 title: common/mkdir (中文)
 description: "创建目录。"
-content_hash: 2c4d9bcd391a4a5f2356025ef9c47030036c1f4d
-last_modified_at: 2023-11-12
+content_hash: 4b581963318de0b7ee3985d322729e7d1bc87416
+last_modified_at: 2024-01-01
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -42,14 +42,10 @@ tldri18n_status: 2
 创建目录。
 更多信息：<https://www.gnu.org/software/coreutils/mkdir>.
 
-- 在当前目录或给定路径下创建一个目录：
-
-`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目录</span>
-
 - 在当前目录下创建多个目录：
 
-`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目录_1 目录_2 ...</span>
+`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目录1 路径/到/目录2 ...</span>
 
 - 递归地创建目录（对创建嵌套目录很有用）：
 
-`mkdir -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目录</span>
+`mkdir -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径/到/目录1 路径/到/目录2 ...</span>

@@ -2,8 +2,8 @@
 layout: page
 title: windows/comp (中文)
 description: "比较两个文件或文件集的内容。"
-content_hash: b2170ffb4e25281f2c08059ca7852397fb8b5ea8
-last_modified_at: 2023-11-12
+content_hash: 47bd1275633529fab40860dc797340d37963efaf
+last_modified_at: 2024-01-01
 related_topics:
   - title: English version
     url: /en/windows/comp.html
@@ -29,7 +29,7 @@ tldri18n_status: 2
 
 - 比较两个文件集：
 
-`comp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目录 1/*</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">目录 2/*</span>
+`comp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径\到\目录1</span>`\* `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">路径\到\目录2</span>`\*`
 
 - 以十进制格式显示差异：
 

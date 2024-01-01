@@ -2,11 +2,14 @@
 layout: page
 title: common/zstd (中文)
 description: "使用 Zstandard 压缩来压缩 / 解压文件。"
-content_hash: eefdbc5c5ef2d85fcb01b57f3bfa0b939d956fd5
-last_modified_at: 2023-11-12
+content_hash: 35f86e5e0e0e5dfe4a05afdf5be9475239c36988
+last_modified_at: 2024-01-01
 related_topics:
   - title: English version
     url: /en/common/zstd.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/zstd.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -21,11 +24,11 @@ tldri18n_status: 2
 
 - 解压缩一个文件：
 
-`zstd -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>`.zst`
+`zstd --decompress `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.zst</span>
 
 - 将文件解压缩到标准输出（`stdout`）：
 
-`zstd -dc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>`.zst`
+`zstd --decompress --stdout `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.zst</span>
 
 - 使用指定的压缩等级来压缩一个文件.0 = 最差，19 = 最好（默认等级是 3）：
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (中文)
 description: "管理 Docker 容器和镜像。"
-content_hash: ee524603c56000c761116816e8e377b5524a40f6
-last_modified_at: 2023-11-12
+content_hash: bc3dc03a5e8695d3d275b143303fde20a602bb22
+last_modified_at: 2024-01-01
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -29,6 +29,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/docker.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/docker.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker.html
     icon: bi bi-globe
@@ -46,13 +49,9 @@ tldri18n_status: 2
 此命令也有关于其子命令的文件，例如：`docker run`.
 更多信息：<https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- 列出目前正在运行的 docker 容器：
-
-`docker ps`
-
 - 列出所有 docker 容器（包括停止的容器）：
 
-`docker ps -a`
+`docker ps --all`
 
 - 透过镜像启动容器，并为容器命名：
 
