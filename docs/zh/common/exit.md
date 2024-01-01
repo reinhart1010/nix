@@ -2,8 +2,8 @@
 layout: page
 title: common/exit (中文)
 description: "退出终端程序。"
-content_hash: 97337cd0115e3338375f1888ef4133b1b9262a7d
-last_modified_at: 2023-11-12
+content_hash: 9809fcde6a1a24a99a59a94b0a49df95f92dcdd0
+last_modified_at: 2024-01-01
 related_topics:
   - title: Deutsch version
     url: /de/common/exit.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # exit
 
 退出终端程序。
-更多信息：<https://manned.org/exit>.
+更多信息：<https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#exit>.
 
 - 使用最后执行命令的退出代码，退出终端程序：
 

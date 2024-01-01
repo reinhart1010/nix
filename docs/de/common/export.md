@@ -2,8 +2,8 @@
 layout: page
 title: common/export (Deutsch)
 description: "Befehl zum Markieren von Shell-Variablen in der aktuellen Umgebung, die mit allen neu abgezweigten Unterprozessen exportiert werden sollen."
-content_hash: ba38c8b950a557d7c6ab7b5ae35ab271c32c082e
-last_modified_at: 2023-12-30
+content_hash: 121fcb2b7dc1b291698d0e3a91c3a179a1f19a6f
+last_modified_at: 2024-01-01
 related_topics:
   - title: English version
     url: /en/common/export.html
@@ -22,7 +22,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># export
 
 Befehl zum Markieren von Shell-Variablen in der aktuellen Umgebung, die mit allen neu abgezweigten Unterprozessen exportiert werden sollen.
-Weitere Informationen: <https://www.gnu.org/software/bash/manual/bash.html#index-export>.
+Weitere Informationen: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#export>.
 
 - Lege eine neue Umgebungsvariable fest:
 

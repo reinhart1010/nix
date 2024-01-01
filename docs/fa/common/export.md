@@ -2,8 +2,8 @@
 layout: page
 title: common/export (فارسی)
 description: "دستور تغییر متغییرهای محلی سیستم موجود برای پروسه های جدید."
-content_hash: 6c7de9255055384c9392beba39805a14cacc6545
-last_modified_at: 2023-12-30
+content_hash: 97e6e74ce2c1a31d5605c4d55eed85253bc5fd27
+last_modified_at: 2024-01-01
 related_topics:
   - title: Deutsch version
     url: /de/common/export.html
@@ -22,7 +22,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># export
 
 دستور تغییر متغییرهای محلی سیستم موجود برای پروسه های جدید.
-اطلاعات بیشتر: <https://www.gnu.org/software/bash/manual/bash.html#index-export>.
+اطلاعات بیشتر: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#export>.
 
 - ایجاد و تعیین مقدار یک متغییر جدید:
 

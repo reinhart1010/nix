@@ -2,8 +2,8 @@
 layout: page
 title: common/cupsaccept (português (Brasil))
 description: "Aceita trabalhos enviados para um ou mais destinos."
-content_hash: 71db32a2800dbcc826bde56f3772cc0397a41860
-last_modified_at: 2023-12-30
+content_hash: 2488a3015e753768f51a5921514ec27d1a2e8e17
+last_modified_at: 2024-01-01
 related_topics:
   - title: English version
     url: /en/common/cupsaccept.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 Aceita trabalhos enviados para um ou mais destinos.
 NOTA: destino se refere a uma impressora ou uma classe de impressoras.
 Veja também: `cupsreject`, `cupsenable`, `cupsdisable`, `lpstat`.
-Mais informações: <https://openprinting.github.io/cups/doc/man-cupsaccept.html>.
+Mais informações: <https://www.cups.org/doc/man-cupsaccept.html>.
 
 - Aceita trabalhos de impressão para os destinos especificados:
 

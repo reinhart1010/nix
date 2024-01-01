@@ -2,7 +2,7 @@
 layout: page
 title: common/ab (Nederlands)
 description: "Apache HTTP-serverbenchmarktool."
-content_hash: 03e56883a3d36b61c9290657b992e53182bca6af
+content_hash: fa7ee7410a8ba36a39fd9e5edeff8a27ee6a24ca
 last_modified_at: 2024-01-01
 related_topics:
   - title: বাংলা version
@@ -76,3 +76,7 @@ Meer informatie: <https://httpd.apache.org/docs/current/programs/ab.html>.
 - Stel het maximale aantal seconden in dat je wil besteden aan benchmarking:
 
 `ab -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">60</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+
+- Schrijf de resultaten naar een CSV bestand:
+
+`ab -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pad/naar/bestand.csv</span>

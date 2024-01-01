@@ -2,8 +2,8 @@
 layout: page
 title: common/cupsreject (português (Brasil))
 description: "Rejeita trabalhos enviados para uma ou mais impressoras."
-content_hash: e9e777fa86919cef9527f95b2b5946c4cc558fe3
-last_modified_at: 2023-12-30
+content_hash: 147764e786fcaec650f0b679f8ed86454c41c9a4
+last_modified_at: 2024-01-01
 related_topics:
   - title: English version
     url: /en/common/cupsreject.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 Rejeita trabalhos enviados para uma ou mais impressoras.
 NOTA: destino se refere a uma impressora ou uma classe de impressoras.
 Veja também: `cupsaccept`, `cupsenable`, `cupsdisable`, `lpstat`.
-Mais informações: <https://openprinting.github.io/cups/doc/man-cupsaccept.html>.
+Mais informações: <https://www.cups.org/doc/man-cupsaccept.html>.
 
 - Rejeita trabalhos para os destinos especificados:
 

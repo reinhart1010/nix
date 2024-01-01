@@ -2,8 +2,8 @@
 layout: page
 title: common/eval (中文)
 description: "在当前 shell 中以单个命令的形式执行参数，并返回其结果。"
-content_hash: b96020c22b081a1d84d61fc1db1a8e8d9dbb89fa
-last_modified_at: 2023-11-12
+content_hash: 94a352c91deb9aae95e86c0e09bf3aea8d7f920c
+last_modified_at: 2024-01-01
 related_topics:
   - title: English version
     url: /en/common/eval.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # eval
 
 在当前 shell 中以单个命令的形式执行参数，并返回其结果。
-更多信息：<https://manned.org/eval>.
+更多信息：<https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#eval>.
 
 - 使用 'foo' 做为参数调用 `echo`：
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/exit (русский)
 description: "Выйти из оболочки."
-content_hash: de3cce9573845e9f5ca7ad0c8b36e3821bcbe484
-last_modified_at: 2023-11-12
+content_hash: 2c91b6c32c8d74c6f01f673f1a164cec4784f35c
+last_modified_at: 2024-01-01
 related_topics:
   - title: Deutsch version
     url: /de/common/exit.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # exit
 
 Выйти из оболочки.
-Больше информации: <https://manned.org/exit>.
+Больше информации: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#exit>.
 
 - Выход из оболочки с кодом выхода последней выполненной команды:
 

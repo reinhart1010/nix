@@ -2,8 +2,8 @@
 layout: page
 title: common/cupsenable (português (Brasil))
 description: "Inicia impressoras e classes."
-content_hash: 7138e34431402fd8eab714a415511da0e1efc183
-last_modified_at: 2023-12-30
+content_hash: d8c307ba8ba6dd81206eda3d0e7d4d75c7f5b44f
+last_modified_at: 2024-01-01
 related_topics:
   - title: English version
     url: /en/common/cupsenable.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 Inicia impressoras e classes.
 NOTA: destino se refere a uma impressora ou uma classe de impressoras.
 Veja também: `cupsdisable`, `cupsaccept`, `cupsreject`, `lpstat`.
-Mais informações: <https://openprinting.github.io/cups/doc/man-cupsenable.html>.
+Mais informações: <https://www.cups.org/doc/man-cupsenable.html>.
 
 - Inicia um ou mais destino(s):
 

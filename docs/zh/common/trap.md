@@ -2,8 +2,8 @@
 layout: page
 title: common/trap (中文)
 description: "在进程或操作系统接收到信号后自动执行命令。"
-content_hash: 4943c3e69046a11a56eb861e96281680e8a2c4b1
-last_modified_at: 2023-12-30
+content_hash: dac93360be6a970ced0e449d9bc99c766a405976
+last_modified_at: 2024-01-01
 related_topics:
   - title: English version
     url: /en/common/trap.html
@@ -17,7 +17,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 在进程或操作系统接收到信号后自动执行命令。
 可用于对用户中断或其他操作执行清理。
-更多信息：<https://manned.org/trap>.
+更多信息：<https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#trap>.
 
 - 列出设置 trap 的可用信号：
 
