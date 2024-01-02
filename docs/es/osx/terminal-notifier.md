@@ -2,8 +2,8 @@
 layout: page
 title: osx/terminal-notifier (español)
 description: "Envía notificaciones de usuario en macOS."
-content_hash: 3a95640c9dd4c4875b7fe01cdb2b96095789f89c
-last_modified_at: 2023-12-30
+content_hash: 04e06c5404ca297dc3c0efffcab32cd0503d82b9
+last_modified_at: 2024-01-02
 related_topics:
   - title: English version
     url: /en/osx/terminal-notifier.html
@@ -21,7 +21,7 @@ Más información: <https://github.com/julienXX/terminal-notifier>.
 
 - Muestra datos transmitidos con un sonido:
 
-`echo '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Datos de mensajes transmitidos!</span>`'' | terminal-notifier -sound `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">default</span>
+`echo '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Datos de mensajes transmitidos!</span>`' | terminal-notifier -sound `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">default</span>
 
 - Abre una URL al hacer clic en la notificación:
 
