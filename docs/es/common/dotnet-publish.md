@@ -2,8 +2,8 @@
 layout: page
 title: common/dotnet-publish (español)
 description: "Publica una aplicación .NET y sus dependencias en una carpeta para la implementación en un sistema de hospedaje."
-content_hash: 62fa1aa65bc2964474b8207d5f1c707f150955e2
-last_modified_at: 2023-11-30
+content_hash: b55b27c214ae3118da68660de930348f37c981de
+last_modified_at: 2024-01-02
 related_topics:
   - title: English version
     url: /en/common/dotnet-publish.html
@@ -23,7 +23,7 @@ Más información: <https://learn.microsoft.com/dotnet/core/tools/dotnet-publish
 
 - Compila un proyecto .NET en modo de lanzamiento:
 
-`dotnet publish --configuration `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Release</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_del_proyecto</span>
+`dotnet publish --configuration Release `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_del_proyecto</span>
 
 - Publica el entorno de ejecución de .NET Core con la aplicación para un entorno de ejecución específico:
 
@@ -35,7 +35,7 @@ Más información: <https://learn.microsoft.com/dotnet/core/tools/dotnet-publish
 
 - Recorta las bibliotecas no usadas para reducir el tamaño de la aplicación:
 
-`dotnet publish --self-contained true --runtime `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_del_entorno_de_tiempo_de_ejecución</span>` -p:PublishTrimmed=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_del_proyecto</span>
+`dotnet publish --self-contained true --runtime `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_del_entorno_de_tiempo_de_ejecución</span>` -p:PublishTrimmed=true `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_del_proyecto</span>
 
 - Compila un proyecto .NET sin restaurar las dependencias:
 

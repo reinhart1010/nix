@@ -2,8 +2,8 @@
 layout: page
 title: common/vim (español)
 description: "Vim (Vi IMproved), un editor de texto para la línea de comandos, que proporciona varios modos para diferentes tipos de manipulación de texto."
-content_hash: 8360e5cf0e923ca83c85f94538a6406d61cc120d
-last_modified_at: 2023-11-12
+content_hash: 9cc219828eb44a534ba40fee134e20e0318e9a52
+last_modified_at: 2024-01-02
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -67,7 +67,7 @@ Más información: <https://www.vim.org>.
 
 - Deshace la última operación:
 
-`u`
+`<ESC>u`
 
 - Busca un patrón en el archivo (pulsa `n`/`N` para ir a la próxima/previa coincidencia):
 

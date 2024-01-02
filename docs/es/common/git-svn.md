@@ -2,8 +2,8 @@
 layout: page
 title: common/git-svn (español)
 description: "Operacion bidreccional entre un repositorio Subversión y otro Git."
-content_hash: cba60761e8b4b862d8c691909ced919a1cd4500c
-last_modified_at: 2023-11-12
+content_hash: f87b1168b6739ffeaeeaa47a064344bf59c7ebf4
+last_modified_at: 2024-01-02
 related_topics:
   - title: English version
     url: /en/common/git-svn.html
@@ -42,4 +42,4 @@ Más información: <https://git-scm.com/docs/git-svn>.
 
 - Realiza un commit al repositorio SVN:
 
-`git svn dcommit`
+`git svn commit`

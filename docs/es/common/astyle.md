@@ -2,8 +2,8 @@
 layout: page
 title: common/astyle (español)
 description: "Indentador, formateador y embellecedor de código fuente para los lenguajes de programación C, C++, C# y Java."
-content_hash: f318ca1e0805fdf023f6a6ffde48a0c1658eee13
-last_modified_at: 2023-11-12
+content_hash: ebab5a73695870f0610d845152d4a0cb21ec1c19
+last_modified_at: 2024-01-02
 related_topics:
   - title: English version
     url: /en/common/astyle.html
@@ -27,7 +27,7 @@ Más información: <http://astyle.sourceforge.net>.
 
 - Aplica el estilo por defecto de 4 espacios por sangría y sin cambios de formato:
 
-`estilo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_de_origen</span>
+`astyle `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_de_origen</span>
 
 - Aplica el estilo Java con llaves adjuntas:
 

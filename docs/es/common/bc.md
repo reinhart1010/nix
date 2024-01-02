@@ -2,8 +2,8 @@
 layout: page
 title: common/bc (español)
 description: "Un lenguaje de calculadora de precisión arbitraria."
-content_hash: 161378e65464b45804a7f981573f512addada950
-last_modified_at: 2023-11-12
+content_hash: fe7ad0707c45f3b73c7750292092ded6b327730f
+last_modified_at: 2024-01-02
 related_topics:
   - title: English version
     url: /en/common/bc.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/bc.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/bc.html
     icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/bc.html
@@ -41,7 +44,7 @@ Más información: <https://manned.org/man/bc.1>.
 
 - Calcula una expresión:
 
-`echo '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5 / 3</span>`'' | bc`
+`echo '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5 / 3</span>`' | bc`
 
 - Ejecuta un script:
 
@@ -49,8 +52,8 @@ Más información: <https://manned.org/man/bc.1>.
 
 - Calcula una expresión con la escala especificada:
 
-`echo 'scale = `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>`; `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5 / 3</span>`'' | bc`
+`echo 'scale = `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>`; `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5 / 3</span>`' | bc`
 
 - Calcula una función seno/coseno/arctangente/logaritmo natural/exponencial utilizando `mathlib`:
 
-`echo '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">s|c|a|l|e</span>`(`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>`)'' | bc --mathlib`
+`echo '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">s|c|a|l|e</span>`(`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>`)' | bc --mathlib`

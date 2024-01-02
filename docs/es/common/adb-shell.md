@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-shell (español)
 description: "Android Debug Bridge Shell: Ejecuta comandos shell remotos en una instancia del emulador de Android o en dispositivos Android conectados."
-content_hash: 2d586a1f8dd2ad081f2c4bb3cc10b8837dfe13a8
-last_modified_at: 2023-11-12
+content_hash: 9aec30cbce29c21652f22cd74a6866530416990c
+last_modified_at: 2024-01-02
 related_topics:
   - title: English version
     url: /en/common/adb-shell.html
@@ -68,7 +68,7 @@ Más información: <https://developer.android.com/studio/command-line/adb>.
 
 - Inicia una actividad en el emulador o dispositivo:
 
-`adb shell am start -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span>`/{activity</span>
+`adb shell am start -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">activity</span>
 
 - Inicia la actividad de inicio en un emulador o dispositivo:
 

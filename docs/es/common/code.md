@@ -2,8 +2,8 @@
 layout: page
 title: common/code (español)
 description: "Editor de código extensible y multiplataforma."
-content_hash: 8ede9b4eeec8314557a5a63abb204fd90258a6a7
-last_modified_at: 2023-11-12
+content_hash: e29700c3040c1bad9657c824bbe45ecd03f7070e
+last_modified_at: 2024-01-02
 related_topics:
   - title: Deutsch version
     url: /de/common/code.html
@@ -54,7 +54,7 @@ Más información: <https://github.com/microsoft/vscode>.
 
 - Instala/desinstala una extensión específica:
 
-`code --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">install-extension|uninstall-extension</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">editor.extension</span>
+`code --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">install|uninstall</span>`-extension `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">editor.extension</span>
 
 - Imprime las extensiones instaladas:
 

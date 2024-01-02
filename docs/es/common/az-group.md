@@ -2,8 +2,8 @@
 layout: page
 title: common/az-group (español)
 description: "Administra grupos de recursos e implementaciones de plantillas."
-content_hash: fa8ba0b295c1395d6dfa8c7bb46ed1caed53a060
-last_modified_at: 2023-11-12
+content_hash: bdbe78541e35f83c6c446346608a9d395af5ce8d
+last_modified_at: 2024-01-02
 related_topics:
   - title: English version
     url: /en/common/az-group.html
@@ -18,16 +18,16 @@ Más información: <https://learn.microsoft.com/cli/azure/group>.
 
 - Crea un nuevo grupo de recursos:
 
-`az group create --nombre `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span>` --ubicación `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ubicación</span>
+`az group create --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span>` --location `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ubicación</span>
 
 - Comprueba si existe un grupo de recursos:
 
-`az group exists --nombre `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span>
+`az group exists --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span>
 
 - Elimina un grupo de recursos:
 
-`az group delete --nombre `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span>
+`az group delete --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span>
 
 - Coloca un grupo de recursos en estado de espera hasta que se cumpla una condición:
 
-`az group wait --nombre `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span>` --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">created|deleted|exists|updated</span>
+`az group wait --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span>` --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">created|deleted|exists|updated</span>

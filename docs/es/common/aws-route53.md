@@ -2,8 +2,8 @@
 layout: page
 title: common/aws-route53 (español)
 description: "CLI para AWS Route53 - Route 53 es un servicio web de Sistema de Nombres de Dominio (DNS) altamente disponible y escalable."
-content_hash: 759dd043832ec712cc42c1765203130784214fb1
-last_modified_at: 2023-11-12
+content_hash: 7eed6998c8e78e71170e00cbdf635822a5fffc2a
+last_modified_at: 2024-01-02
 related_topics:
   - title: English version
     url: /en/common/aws-route53.html
@@ -33,4 +33,4 @@ Más información: <https://awscli.amazonaws.com/v2/documentation/api/latest/ref
 
 - Prueba la resolución DNS por parte de los servidores de Amazon de una zona determinada:
 
-`aws route53 test-dns-answer --hosted-zone-id `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zone_id</span>`  --record-name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span>` --record-type `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tipo</span>
+`aws route53 test-dns-answer --hosted-zone-id `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zone_id</span>` --record-name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span>` --record-type `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tipo</span>

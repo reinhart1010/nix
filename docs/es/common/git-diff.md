@@ -2,8 +2,8 @@
 layout: page
 title: common/git-diff (español)
 description: "Muestra los cambios de los archivos rastreados."
-content_hash: 42e27e2ffaf0c8f98687da18422c79904ae7ff49
-last_modified_at: 2023-11-12
+content_hash: b1778852fcc4bc1e188d5d883aea3c569e0b84f2
+last_modified_at: 2024-01-02
 related_topics:
   - title: English version
     url: /en/common/git-diff.html
@@ -41,7 +41,7 @@ Más información: <https://git-scm.com/docs/git-diff>.
 
 - Muestra los cambios de todos los commits a partir de una fecha/tiempo específico (una expresión de fecha, por ej., "1 week 2 days" o una fecha ISO):
 
-`git diff 'HEAD@{3 months|weeks|days|hours|seconds ago}`
+`git diff 'HEAD@{3 months|weeks|days|hours|seconds ago}'`
 
 - Muestra solo los nombres de los archivos cambiados con un commit específico:
 

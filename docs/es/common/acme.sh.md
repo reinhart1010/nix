@@ -2,8 +2,8 @@
 layout: page
 title: common/acme.sh (español)
 description: "Shell script implementando el protocolo cliente ACME, una alternativa a `certbot`."
-content_hash: af27c1c814b1dba5d019c5604f4e72362d9327a6
-last_modified_at: 2023-12-03
+content_hash: 615c8d95965b1b6051677ada72bfb6d057861e94
+last_modified_at: 2024-01-02
 related_topics:
   - title: বাংলা version
     url: /bn/common/acme.sh.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/acme.sh.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/acme.sh.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/acme.sh.html
@@ -49,7 +52,7 @@ Más información: <https://github.com/acmesh-official/acme.sh>.
 
 - Emite un certificado utilizando una configuración de Apache operativa:
 
-`acme.sh --issue --apache --dominio `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ejemplo.com</span>
+`acme.sh --issue --apache --domain `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ejemplo.com</span>
 
 - Emite un certificado comodín (\*) utilizando un modo API DNS automático:
 

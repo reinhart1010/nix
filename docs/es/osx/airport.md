@@ -2,8 +2,8 @@
 layout: page
 title: osx/airport (español)
 description: "Utilidad de configuración de red inalámbrica."
-content_hash: 8f2e075bd9eb2f9a90abf358790de6cb720fe1f4
-last_modified_at: 2023-11-12
+content_hash: 186e56fd4a00db34bc1fc4ed64ec44915eeb265a
+last_modified_at: 2024-01-02
 related_topics:
   - title: English version
     url: /en/osx/airport.html
@@ -26,7 +26,7 @@ Más información: <https://ss64.com/osx/airport.html>.
 
 - Muestra la información del estado actual de la red inalámbrica:
 
-`airport -I`
+`airport --getinfo`
 
 - Detecta tráfico inalámbrico en el canal 1:
 
@@ -34,8 +34,8 @@ Más información: <https://ss64.com/osx/airport.html>.
 
 - Busca redes inalámbricas disponibles:
 
-`airport -s`
+`airport --scan`
 
 - Desasociarse de la red actual:
 
-`sudo airport -z`
+`sudo airport --disassociate`

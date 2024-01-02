@@ -2,8 +2,8 @@
 layout: page
 title: common/more (español)
 description: "Abre un archivo para lectura interactiva, permitiendo navegar y buscar."
-content_hash: 23bec2f5c808e5cc371ab0115a9ada14e5078f64
-last_modified_at: 2023-11-12
+content_hash: 42814d248fbac6d54e1a3e5a99cc2e11287345e7
+last_modified_at: 2024-01-02
 related_topics:
   - title: English version
     url: /en/common/more.html
@@ -35,7 +35,7 @@ Más información: <https://manned.org/more>.
 
 - Avanza hacia la siguiente página:
 
-`<Espacio>`
+`<Space>`
 
 - Busca una cadena (presione `n` para ir a la siguiente coincidencia):
 

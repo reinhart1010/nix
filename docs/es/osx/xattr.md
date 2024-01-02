@@ -2,8 +2,8 @@
 layout: page
 title: osx/xattr (español)
 description: "Utilidad para trabajar con atributos extendidos del sistema de ficheros."
-content_hash: d1312251da7c52a1c904889d14d63d5a166ae130
-last_modified_at: 2023-11-12
+content_hash: 7aa48d7b942c08ea5fec4dfd4ab00bda0af56845
+last_modified_at: 2024-01-02
 related_topics:
   - title: English version
     url: /en/osx/xattr.html
@@ -28,7 +28,7 @@ Más información: <https://ss64.com/osx/xattr.html>.
 
 - Elimina un atributo de un archivo determinado:
 
-`xattr -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.apple.quarantine}</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span>
+`xattr -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">com.apple.quarantine</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo</span>
 
 - Elimina todos los atributos extendidos de un archivo determinado:
 
