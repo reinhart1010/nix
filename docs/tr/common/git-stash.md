@@ -2,8 +2,8 @@
 layout: page
 title: common/git-stash (Türkçe)
 description: "Yerel Git düzenlemelerini geçici bir alanda sakla."
-content_hash: f40eaa9332f8a0a71ffa112d4682339ec756e1ce
-last_modified_at: 2023-11-12
+content_hash: 29db500e6cb6e9abb01fb224014b46351dd29216
+last_modified_at: 2024-01-02
 related_topics:
   - title: English version
     url: /en/common/git-stash.html
@@ -26,7 +26,7 @@ Daha fazla bilgi için: <https://git-scm.com/docs/git-stash>.
 
 - Yeni (izlenmeyen) dosyalar hariç mevcut değişiklikleri sakla:
 
-`git stash [push -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyfi_saklama_mesajı</span>`]`
+`git stash push -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyfi_saklama_mesajı</span>
 
 - Yeni (izlenmeyen) dosyalar dahil mevcut değişiklikleri sakla:
 
@@ -47,10 +47,6 @@ Daha fazla bilgi için: <https://git-scm.com/docs/git-stash>.
 - Bir saklananı uygula (varsayılan stash@{0}), ve eğer uygulanması sıkıntı çıkarmıyorsa onu saklanan listesinden kaldır:
 
 `git stash pop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyfi_saklanan_ismi</span>
-
-- Bir saklananı bırak (varsayılan stash@{0}):
-
-`git stash drop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyfi_saklanan_ismi</span>
 
 - Tüm saklananları bırak:
 

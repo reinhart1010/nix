@@ -2,8 +2,8 @@
 layout: page
 title: common/git-stage (Türkçe)
 description: "Bu komut `git add` için bir takma addır."
-content_hash: e627f600a8d2057bfcf41b01ddb67d778d40ac36
-last_modified_at: 2023-11-12
+content_hash: 492f5807f667fa5556069eeffd55b3f4d0e737c2
+last_modified_at: 2024-01-02
 related_topics:
   - title: English version
     url: /en/common/git-stage.html
@@ -14,6 +14,12 @@ related_topics:
   - title: italiano version
     url: /it/common/git-stage.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/git-stage.html
+    icon: bi bi-globe
+  - title: polski version
+    url: /pl/common/git-stage.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # git stage
@@ -23,4 +29,4 @@ Daha fazla bilgi için: <https://git-scm.com/docs/git-stage>.
 
 - Asıl komutun belgelerini görüntüleyin:
 
-`tldr git-add`
+`tldr git add`

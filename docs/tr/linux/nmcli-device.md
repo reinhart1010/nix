@@ -2,8 +2,8 @@
 layout: page
 title: linux/nmcli-device (Türkçe)
 description: "NetworkManager ile donanım aygıtı yönetimi."
-content_hash: 8e85160d29c7fed6d9d9c78a06ee7ac66a29fd1a
-last_modified_at: 2023-11-12
+content_hash: 0aa99d0058565a76dec9dda15b0f4409c751c34d
+last_modified_at: 2024-01-02
 related_topics:
   - title: English version
     url: /en/linux/nmcli-device.html
@@ -28,7 +28,7 @@ Daha fazla bilgi için: <https://networkmanager.dev/docs/api/latest/nmcli.html>.
 
 - Belirtilen ad ve parola ile kablosuz ağa bağlan:
 
-`nmcli device wifi connect `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssid</span>` password `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">parola</span>
+`nmcli --ask device wifi connect `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssid</span>
 
 - Geçerli kablosuz ağ için parola ve QR kodunu yazdır:
 

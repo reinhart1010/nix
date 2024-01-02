@@ -2,8 +2,8 @@
 layout: page
 title: common/git-svn (Türkçe)
 description: "Bir alt sürüm deposu ve Git arasında çift yönlü operasyon."
-content_hash: cfc7b2cfb6166e17bbe13137c266b72d53da5301
-last_modified_at: 2023-11-12
+content_hash: 073488745561b01b73feb54f1bc032a65ddb0d3b
+last_modified_at: 2024-01-02
 related_topics:
   - title: English version
     url: /en/common/git-svn.html
@@ -42,4 +42,4 @@ Daha fazla bilgi için: <https://git-scm.com/docs/git-svn>.
 
 - SVN deposuna geri commit'le:
 
-`git svn dcommit`
+`git svn commit`

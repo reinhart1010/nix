@@ -2,8 +2,8 @@
 layout: page
 title: common/mkdir (Türkçe)
 description: "Yeni bir dizin oluştur."
-content_hash: c834fe4a2ae2adef0559d80fd2cc2f37f74415ae
-last_modified_at: 2023-11-12
+content_hash: 496228acdcf2177f7a3906211b170bfb9de0e3b9
+last_modified_at: 2024-01-02
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -46,10 +46,6 @@ Daha fazla bilgi için: <https://www.gnu.org/software/coreutils/mkdir>.
 
 `mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dizin</span>
 
-- Mevcut dizinde birden çok dizin oluştur:
-
-`mkdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dizin_1 dizin_2 ...</span>
-
 - Özyinelemeli şekilde dizin oluştur (iç içe klasörler oluşturmak için kullanışlıdır):
 
-`mkdir -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dizin/yolu</span>
+`mkdir -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dizin/yolu1 dizin/yolu2 ...</span>

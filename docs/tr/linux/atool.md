@@ -2,8 +2,8 @@
 layout: page
 title: linux/atool (Türkçe)
 description: "Çeşitli biçimlerdeki arşivleri yönetin."
-content_hash: 31130cb159ff6ebd045d1a7d8633d72a515ac656
-last_modified_at: 2023-11-12
+content_hash: 9597276d2811865fbe6e4d74cdef8662defb06af
+last_modified_at: 2024-01-02
 related_topics:
   - title: English version
     url: /en/linux/atool.html
@@ -25,8 +25,8 @@ Daha fazla bilgi için: <https://www.nongnu.org/atool/>.
 
 - İki dosyaya sahip yeni bir 7zip arşivi oluştur:
 
-`atool --add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arşiv.7z/dosyasının/yolu</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya1/yolu</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya2/yolu</span>
+`atool --add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arşiv.7z/dosyasının/yolu</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya1/yolu dosya2/yolu ...</span>
 
 - Geçerli dizindeki tüm zip ve rar arşivlerini çıkart:
 
-`atool --each --extract `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.zip</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.rar</span>
+`atool --each --extract `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.zip *.rar</span>

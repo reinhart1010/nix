@@ -2,8 +2,8 @@
 layout: page
 title: linux/ip (Türkçe)
 description: "Yönlendirmeyi, aygıtları, kural yönlendirmesini ve tünelleri görüntüle / değiştir."
-content_hash: e97c011ca7cb6380c5dd31fad3c22dc835eec670
-last_modified_at: 2023-11-12
+content_hash: 1d70d79534df75a457249fdbe16a44fb51763d02
+last_modified_at: 2024-01-02
 related_topics:
   - title: Deutsch version
     url: /de/linux/ip.html
@@ -50,7 +50,7 @@ Daha fazla bilgi için: <https://www.man7.org/linux/man-pages/man8/ip.8.html>.
 
 - Bir arayüzü etkinleştir/devre dışı bırak:
 
-`ip link set `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arayüz</span>` up/down`
+`ip link set `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arayüz</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">up|down</span>
 
 - Bir arayüze IP adresi ekle/sil:
 

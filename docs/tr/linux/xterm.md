@@ -2,8 +2,8 @@
 layout: page
 title: linux/xterm (Türkçe)
 description: "X Ekran Sistemi için terminal öykünücüsü."
-content_hash: e5d2a17c731f0e264b66f59ec11f939dd86eae5a
-last_modified_at: 2023-11-12
+content_hash: fb94890f77fafb1d315d69b706b4effe71c63bf7
+last_modified_at: 2024-01-02
 related_topics:
   - title: English version
     url: /en/linux/xterm.html
@@ -36,4 +36,4 @@ Daha fazla bilgi için: <https://manned.org/xterm>.
 
 - Terminali bir Serif fontu ve 20'ye eşit olan bir font büyüklüğü ile aç:
 
-`xterm -fa "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Serif</span>`" -fs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20</span>
+`xterm -fa `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">'Serif'</span>` -fs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">20</span>

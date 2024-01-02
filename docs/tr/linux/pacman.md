@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman (Türkçe)
 description: "Arch Linux paket yönetim aracı."
-content_hash: 2b0239ddb172729ef2ce4d4a3dc98df52473d5f1
-last_modified_at: 2023-11-12
+content_hash: 62f014f483f30c6d02206b57beb1513448786182
+last_modified_at: 2024-01-02
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -58,10 +58,6 @@ Daha fazla bilgi için: <https://man.archlinux.org/man/pacman.8>.
 
 `sudo pacman -Rs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket_ismi</span>
 
-- Paket veritabanını girilen ifade ile arat:
-
-`pacman -Ss "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arama_şablonu</span>`"`
-
 - İndirilmiş paket ve sürümleri sırala:
 
 `pacman -Q`
@@ -69,10 +65,6 @@ Daha fazla bilgi için: <https://man.archlinux.org/man/pacman.8>.
 - Sadece özellikle belirtilen paket ve sürümleri sırala:
 
 `pacman -Qe`
-
-- Hangi paketin belirtilen dosyaya sahip olduğunu bul:
-
-`pacman -Qo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya_ismi</span>
 
 - Paket çerezlerini boş alan açmak için temizle:
 

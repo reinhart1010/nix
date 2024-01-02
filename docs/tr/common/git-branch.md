@@ -2,8 +2,8 @@
 layout: page
 title: common/git-branch (Türkçe)
 description: "Dallar ile çalışmak için kullanılan ana Git komutu."
-content_hash: 87ae629b5f4ce0362e790949312f66aa9a3076bd
-last_modified_at: 2023-11-12
+content_hash: 0416511ff7251779618ca98c0c75bc6066bfb368
+last_modified_at: 2024-01-02
 related_topics:
   - title: Deutsch version
     url: /de/common/git-branch.html
@@ -36,13 +36,9 @@ tldri18n_status: 2
 Dallar ile çalışmak için kullanılan ana Git komutu.
 Daha fazla bilgi için: <https://git-scm.com/docs/git-branch>.
 
-- Yerel dalları göster. Mevctu dal `*` ile vurgulanır:
-
-`git branch`
-
 - Tüm dalları (yerel ve uzak bağlantıda olan) göster:
 
-`git branch -a`
+`git branch --all`
 
 - Mevcut dalın ismini göster:
 

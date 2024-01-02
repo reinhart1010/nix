@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-compose (Türkçe)
 description: "Çoklu konteynerli docker uygulamalarını çalıştırın ve yönetin."
-content_hash: eebb6c9c42d0c6427b9f85b2a01e8aa0a84f7c30
-last_modified_at: 2023-11-12
+content_hash: 4d689bfd6cbd2ae2e389da621e498fe978c21731
+last_modified_at: 2024-01-02
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -56,7 +56,7 @@ Daha fazla bilgi için: <https://docs.docker.com/compose/reference/>.
 
 - Tüm konteynerleri alternatif bir beste dosyasıyla başlatın:
 
-`docker compose --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yoldan/dosyaya</span>` up`
+`docker compose -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">proje Adı</span>` --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">yoldan/dosyaya</span>` up`
 
 - Çalışan tüm konteynerleri durdurun:
 

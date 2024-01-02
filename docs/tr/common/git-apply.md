@@ -2,8 +2,8 @@
 layout: page
 title: common/git-apply (Türkçe)
 description: "İndeks veya dosyalara yama uygula."
-content_hash: 17c53957a35c39c5ed2eb3fe1916aeea66059fdc
-last_modified_at: 2023-11-12
+content_hash: 766aae950a9251c6152222368f2a92d19d4be066
+last_modified_at: 2024-01-02
 related_topics:
   - title: Deutsch version
     url: /de/common/git-apply.html
@@ -34,7 +34,7 @@ Daha fazla bilgi için: <https://git-scm.com/docs/git-apply>.
 
 - Uzak yama dosyası uygula:
 
-`curl `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://ornek.com/dosya.patch</span>` | git apply`
+`curl -L `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://ornek.com/dosya.patch</span>` | git apply`
 
 - Çıktı için fark statistiği çıkar ve yamayı uygula:
 

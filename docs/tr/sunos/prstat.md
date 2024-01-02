@@ -2,8 +2,8 @@
 layout: page
 title: sunos/prstat (Türkçe)
 description: "Aktif işlem istatistiklerini bildir."
-content_hash: f87f81dfdbce0814f0526971ef5952ca1008de24
-last_modified_at: 2023-11-12
+content_hash: 1bab3833aed67ac6e50869d28b6b8ad1b8e2f6b0
+last_modified_at: 2024-01-02
 related_topics:
   - title: English version
     url: /en/sunos/prstat.html
@@ -42,4 +42,4 @@ Daha fazla bilgi için: <https://www.unix.com/man-page/sunos/1m/prstat>.
 
 - Saniye başı en çok CPU kullanan 5 işlemin listesini yazdır:
 
-`prstat -c -n 5 -s cpu 1`
+`prstat -c -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>` -s cpu `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1</span>

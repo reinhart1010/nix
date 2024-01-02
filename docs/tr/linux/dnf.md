@@ -2,8 +2,8 @@
 layout: page
 title: linux/dnf (Türkçe)
 description: "RHEL, Fedora ve CentOS için paket yönetim aracı (yum'un yerini alır)."
-content_hash: c02bc3122a42c3d3f0dc3cb3a7a792283f182a2e
-last_modified_at: 2023-11-12
+content_hash: 23bcd7901ca65c6a85a3b23272a1591bbc1899ae
+last_modified_at: 2024-01-02
 related_topics:
   - title: català version
     url: /ca/linux/dnf.html
@@ -45,7 +45,7 @@ Daha fazla bilgi için: <https://dnf.readthedocs.io>.
 
 - Anahtar kelimeler kullanarak paket ara:
 
-`dnf search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">anahtar_kelimeler</span>
+`dnf search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">anahtar_kelimeler1 anahtar_kelimeler2 ...</span>
 
 - Bir paketin ayrıntılarını göster:
 
@@ -53,15 +53,11 @@ Daha fazla bilgi için: <https://dnf.readthedocs.io>.
 
 - Yeni bir paket kur:
 
-`sudo dnf install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span>
-
-- Yeni bir paket kur ve tüm soruları otomatik evet olarak yanıtla:
-
-`sudo dnf -y install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span>
+`sudo dnf install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket1 paket2 ...</span>
 
 - Bir paketi kaldır:
 
-`sudo dnf remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span>
+`sudo dnf remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket1 paket2 ...</span>
 
 - Kurulu paketleri listele:
 

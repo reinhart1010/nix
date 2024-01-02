@@ -2,8 +2,8 @@
 layout: page
 title: common/git-config (Türkçe)
 description: "Git depoları için yazılan kişisel konfigürasyon seçeneklerini yönet."
-content_hash: f71fc445b994db5052095a2d9758d62401315ca7
-last_modified_at: 2023-11-12
+content_hash: 988e1966675aefbdfdf97f3439b4d0535985d823
+last_modified_at: 2024-01-02
 related_topics:
   - title: Deutsch version
     url: /de/common/git-config.html
@@ -44,10 +44,6 @@ Daha fazla bilgi için: <https://git-scm.com/docs/git-config>.
 - Yalnızca (bilgisayardaki `~/.gitconfig`'de saklanan) evrensel konfigürasyon kayıtlarını sırala:
 
 `git config --list --global`
-
-- Yerel veya evrensel olarak tanımlanan tüm konfigürasyon kayıtlarını sırala:
-
-`git config --list`
 
 - Belirtilen bir konfigürasyon kaydının değerini öğren:
 

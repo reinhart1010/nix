@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt (Türkçe)
 description: "Debian tabanlı dağıtımlar için paket yönetim aracı."
-content_hash: 48f76325858b16377fded75edc5e54b5ccf9cd2d
-last_modified_at: 2023-11-12
+content_hash: c62f86dfedc2233a42502b7841a0204ed4721723
+last_modified_at: 2024-01-02
 related_topics:
   - title: العربية version
     url: /ar/linux/apt.html
@@ -72,7 +72,7 @@ Daha fazla bilgi için: <https://manpages.debian.org/latest/apt/apt.8.html>.
 
 - Kullanılabilir paket ve versiyonların listesini yenile (Bu komutu diğer `apt` komutlarından önce kullanmanız önerilir):
 
-`apt update`
+`sudo apt update`
 
 - Belirli bir paketi arayın:
 
@@ -84,15 +84,15 @@ Daha fazla bilgi için: <https://manpages.debian.org/latest/apt/apt.8.html>.
 
 - Bir paket kurun veya mevcut en son sürüme güncelleyin:
 
-`apt install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span>
+`sudo apt install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span>
 
 - Bir paketi kaldırın (bunun için "purge" kullanmak, yapılandırma dosyalarını da kaldırır):
 
-`apt remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span>
+`sudo apt remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span>
 
 - Kurulu tüm paketleri mevcut en yeni sürümlerine yükseltin:
 
-`apt upgrade`
+`sudo apt upgrade`
 
 - Tüm paketleri listeleyin:
 

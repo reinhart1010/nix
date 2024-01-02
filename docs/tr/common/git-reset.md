@@ -2,8 +2,8 @@
 layout: page
 title: common/git-reset (Türkçe)
 description: "Mevcut Git HEAD'ini belirtilen duruma sıfırlayarak commit'leri veya değişiklikleri geri al."
-content_hash: 0b6f8cd288a1aefc7401372381ea1abd79434079
-last_modified_at: 2023-11-12
+content_hash: 315c183b4100355e8c4e9e8adc1e027dca6e31b8
+last_modified_at: 2024-01-02
 related_topics:
   - title: English version
     url: /en/common/git-reset.html
@@ -38,7 +38,7 @@ Daha fazla bilgi için: <https://git-scm.com/docs/git-reset>.
 
 - Bir dosyanın kısımlarını geri al:
 
-`git reset -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/konumu</span>
+`git reset --patch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dosya/konumu</span>
 
 - Son commit'i, dosya sisteminde yapılan değişiklikleri geri almadan geri al:
 

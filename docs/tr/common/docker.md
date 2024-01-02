@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (Türkçe)
 description: "Docker konteyner ve imgelerini yönetir."
-content_hash: 9651d83e2d8e3a482052105d2ef26a09229b7551
-last_modified_at: 2023-11-12
+content_hash: 49ee69939f42a8c73e64c449e276917fe04292bb
+last_modified_at: 2024-01-02
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -29,6 +29,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/docker.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/docker.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker.html
     icon: bi bi-globe
@@ -46,13 +49,9 @@ Docker konteyner ve imgelerini yönetir.
 `docker run` gibi bazı alt komutların kendi dökümantasyonu bulunmaktadır.
 Daha fazla bilgi için: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- Şuan çalışan docker konteynerlerini listele:
-
-`docker ps`
-
 - Tüm (çalışan veya duran) docker konteynerlerini listele:
 
-`docker ps -a`
+`docker ps --all`
 
 - Bir imgeden özel bir isimle konteyner başlat:
 

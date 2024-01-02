@@ -2,8 +2,8 @@
 layout: page
 title: common/git-log (Türkçe)
 description: "Commit geçmişini göster."
-content_hash: 29df91fcd665118c06ca8972fecf0959f719b6d3
-last_modified_at: 2023-11-12
+content_hash: 24225d1d7b5e4ab9a7c09c66da1990848a3b9727
+last_modified_at: 2024-01-02
 related_topics:
   - title: Deutsch version
     url: /de/common/git-log.html
@@ -63,4 +63,4 @@ Daha fazla bilgi için: <https://git-scm.com/docs/git-log>.
 
 - İki tarih arasında yapılmış commit'leri göster:
 
-`git log --before=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tarih</span>` --after=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tarih</span>
+`git log --before="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tarih</span>`" --after="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tarih</span>`"`
