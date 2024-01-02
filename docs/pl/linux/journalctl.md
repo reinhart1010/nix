@@ -2,8 +2,8 @@
 layout: page
 title: linux/journalctl (polski)
 description: "Przeszukaj dziennik systemd."
-content_hash: 5147a14f9f31be8011639b43563db6cc5cbaf63d
-last_modified_at: 2023-11-12
+content_hash: aae26f3ff94d86ef34cc7e0f7a87257b43cab361
+last_modified_at: 2024-01-02
 related_topics:
   - title: English version
     url: /en/linux/journalctl.html
@@ -22,10 +22,6 @@ Więcej informacji: <https://manned.org/journalctl>.
 
 `journalctl -b --priority=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>
 
-- Wyświetl wszystkie wiadomości z ostatniego rozruchu:
-
-`journalctl -b -1`
-
 - Usuń dzienniki starsze niż 2 dni:
 
 `journalctl --vacuum-time=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2d</span>
@@ -34,9 +30,13 @@ Więcej informacji: <https://manned.org/journalctl>.
 
 `journalctl -f`
 
-- Pokaż wszystkie wiadomości podanej jednostki:
+- Wyświetl wszystkie wiadomości podanej jednostki:
 
 `journalctl -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jednostka</span>
+
+- Wyświetl wiadomości podanej jednostki od czasu jej ostatniego uruchomienia:
+
+`journalctl _SYSTEMD_INVOCATION_ID=$(systemctl show --value --property=InvocationID `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jednostka</span>`)`
 
 - Filtruj wiadomości w zakresie czasu (znacznik czasu lub symbol zastępczy, np. "yesterday"):
 

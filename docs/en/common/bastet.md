@@ -2,8 +2,8 @@
 layout: page
 title: common/bastet (English)
 description: "Clone of the game Tetris in the terminal."
-content_hash: 36fa3e96de0b6d926c390d09110617bac4392007
-last_modified_at: 2023-12-29
+content_hash: 64ec0f07709e9e61ee94f9b4df83ccbc85ba5de3
+last_modified_at: 2024-01-02
 related_topics:
   - title: italiano version
     url: /it/common/bastet.html
@@ -29,7 +29,7 @@ More information: <https://fph.altervista.org/prog/bastet.html>.
 
 - Soft drop the piece:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Down arrow key</span>
+`<Down arrow key>`
 
 - Hard drop the piece:
 

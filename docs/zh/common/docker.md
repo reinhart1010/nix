@@ -3,7 +3,7 @@ layout: page
 title: common/docker (中文)
 description: "管理 Docker 容器和镜像。"
 content_hash: bc3dc03a5e8695d3d275b143303fde20a602bb22
-last_modified_at: 2024-01-01
+last_modified_at: 2024-01-02
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -41,9 +41,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/docker.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# docker
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># docker
 
 管理 Docker 容器和镜像。
 此命令也有关于其子命令的文件，例如：`docker run`.

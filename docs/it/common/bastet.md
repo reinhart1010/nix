@@ -2,8 +2,8 @@
 layout: page
 title: common/bastet (italiano)
 description: "Clone di Tetris nel Terminale."
-content_hash: f1a821cf1b2eb38617fc86b93ca89e047b0eb4a0
-last_modified_at: 2023-12-29
+content_hash: 92a85ac54ad261838afc0ae081d3b8a4b6ada045
+last_modified_at: 2024-01-02
 related_topics:
   - title: English version
     url: /en/common/bastet.html
@@ -21,7 +21,7 @@ Maggiori informazioni: <https://fph.altervista.org/prog/bastet.html>.
 
 - Sposta il pezzo a sinistra o a destra:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Sinistra|Destra</span>` freccia`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tasto freccia sinistra|destra</span>
 
 - Ruota in senso orario o inverso:
 
@@ -29,7 +29,7 @@ Maggiori informazioni: <https://fph.altervista.org/prog/bastet.html>.
 
 - Caduta lenta:
 
-`tasto freccia giù`
+`<tasto freccia giù>`
 
 - Caduta veloce:
 

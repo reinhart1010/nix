@@ -2,8 +2,8 @@
 layout: page
 title: linux/links (English)
 description: "Command-line web browser."
-content_hash: 77a1b355d6aac27606e10c10926f4354e4b5381f
-last_modified_at: 2023-11-12
+content_hash: 044e3469517ca2d406c610fdd2532b178068d57a
+last_modified_at: 2024-01-02
 tldri18n_status: 2
 ---
 # links
@@ -25,12 +25,12 @@ More information: <http://links.twibright.com/>.
 
 - Navigate forwards and backwards through the links on a page:
 
-`Up arrow key, Down arrow key`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Up arrow key|Down arrow key</span>
 
 - Go forwards and backwards one page:
 
-`Left arrow key, Right arrow key`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Left arrow key|Right arrow key</span>
 
 - Exit:
 
-`q then y`
+`q + y`

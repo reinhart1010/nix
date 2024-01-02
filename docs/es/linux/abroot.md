@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/abroot (español)
-description: "La utilidad ABRoot proporciona inmutabilidad y atomicidad completas al realizar transacciones entre 2 estados de partición raíz (A⟺B)."
-content_hash: 296cb45bcd1da7b77d7e3c14684906525b987961
-last_modified_at: 2023-11-12
+description: "Utilidad que proporciona completa inmutabilidad y atomicidad mediante transacciones entre 2 estados de partición de la raíz (A⟺B)."
+content_hash: 04eb8cea2ebf05a41cc18a26619a7943dcd18e87
+last_modified_at: 2024-01-02
 related_topics:
   - title: English version
     url: /en/linux/abroot.html
@@ -11,41 +11,42 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/abroot.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
+# abroot
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># abroot
-
-La utilidad ABRoot proporciona inmutabilidad y atomicidad completas al realizar transacciones entre 2 estados de partición raíz (A⟺B).
-También permite transacciones bajo demanda a través de un shell transaccional.
+Utilidad que proporciona completa inmutabilidad y atomicidad mediante transacciones entre 2 estados de partición de la raíz (A⟺B).
+Las actualizaciones se realizan utilizando imágenes OCI, para asegurar que el sistema está siempre en un estado consistente.
 Más información: <https://github.com/Vanilla-OS/ABRoot>.
 
-- Muestra el estado actual o futuro de la partición raíz:
+- Añade paquetes a la imagen local (Nota: después de ejecutar este comando, se necesita aplicar estos cambios):
 
-`sudo abroot get `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">present|future</span>
+`sudo abroot pkg add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span>
 
-- Ingresa el shell transaccional en la partición raíz futura y cambia la raíz en el próximo arranque:
+- Elimina paquetes de la imagen local (Nota: después de ejecutar este comando, debe aplicar estos cambios):
 
-`sudo abroot shell`
+`sudo abroot pkg remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span>
 
-- Ejecuta un comando específico en el shell transaccional en la futura partición raíz y cambia a él en el siguiente arranque:
+- Lista paquetes en la imagen local:
 
-`sudo abroot exec "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>`"`
+`sudo abroot pkg list`
 
-- Instala paquetes específicos en el host dentro del shell transaccional en la partición raíz futura y cambia a él en el próximo arranque:
+- Aplica los cambios en la imagen local (Nota: es necesario reiniciar el sistema para que estos cambios sean aplicados):
 
-`sudo abroot exec apt install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete1 paquete2 ...</span>
+`sudo abroot pkg apply`
 
-- Actualiza la partición de arranque (solo para usuarios avanzados):
+- Retrocede su sistema al estado anterior:
 
-`sudo abroot _update-boot`
+`sudo abroot rollback`
 
-- Muestra la ayuda:
+- Edita/Visualiza los parámetros del kernel:
+
+`sudo abroot kargs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">edit|show</span>
+
+- Muestra estado:
+
+`sudo abroot status`
+
+- Muestra ayuda:
 
 `abroot --help`
-
-- Muestra la version:
-
-`abroot --version`

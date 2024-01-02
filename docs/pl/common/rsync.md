@@ -2,8 +2,8 @@
 layout: page
 title: common/rsync (polski)
 description: "Przesyłaj pliki do lub ze zdalnego hosta (ale nie pomiędzy dwoma zdalnymi hostami), domyślnie używając SSH."
-content_hash: f39dd99aa65decd35c056d602b5d63714908c3a8
-last_modified_at: 2023-11-12
+content_hash: db171d6c631a616b477fe830aa23b99bf948c0e1
+last_modified_at: 2024-01-02
 related_topics:
   - title: English version
     url: /en/common/rsync.html
@@ -53,7 +53,7 @@ Więcej informacji: <https://download.samba.org/pub/rsync/rsync.1>.
 
 - Rekursywnie kopiuj katalogi, użyj trybu archiwum, rozwiąż dowiązania symboliczne i pomiń pliki, które są nowsze w miejscu docelowym:
 
-`rsync --recursive --archive --update --copy-links `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/źródła</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/miejsca_docelowego</span>
+`rsync --archive --update --copy-links `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/źródła</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/miejsca_docelowego</span>
 
 - Prześlij katalog do zdalnego hosta, na którym działa `rsyncd` i usuń pliki w miejscu docelowym które nie istnieją w źródle:
 

@@ -3,7 +3,7 @@ layout: page
 title: common/alias (中文)
 description: "创建别名 -- 用给定的字符串指代特定的命令。"
 content_hash: a30aa831dc35899e4c51fc1d5f71fa78bc29a253
-last_modified_at: 2024-01-01
+last_modified_at: 2024-01-02
 related_topics:
   - title: বাংলা version
     url: /bn/common/alias.html
@@ -59,9 +59,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/alias.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# alias
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># alias
 
 创建别名 -- 用给定的字符串指代特定的命令。
 别名只会在当前的 shell 会话中生效，除非它们在 shell 的配置文件中被定义，例如`~/.bashrc`.

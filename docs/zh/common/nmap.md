@@ -3,7 +3,7 @@ layout: page
 title: common/nmap (中文)
 description: "网络探索工具和安全/端口扫描程序。"
 content_hash: 7452262950039e47eb6e0d29d56fd9b531cd57bd
-last_modified_at: 2024-01-01
+last_modified_at: 2024-01-02
 related_topics:
   - title: Deutsch version
     url: /de/common/nmap.html
@@ -20,9 +20,12 @@ related_topics:
   - title: polski version
     url: /pl/common/nmap.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# nmap
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># nmap
 
 网络探索工具和安全/端口扫描程序。
 仅当以特权运行 Nmap 时，某些功能才激活。

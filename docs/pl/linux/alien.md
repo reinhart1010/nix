@@ -2,8 +2,8 @@
 layout: page
 title: linux/alien (polski)
 description: "Konwertuj różne pakiety instalacyjne na inne formaty."
-content_hash: 12596a7de823b50ae2310b5fe26718ba881ec6db
-last_modified_at: 2023-11-12
+content_hash: 8105c6193fe46a6ef1daa53d79a4286e06516147
+last_modified_at: 2024-01-02
 related_topics:
   - title: Deutsch version
     url: /de/linux/alien.html
@@ -33,7 +33,7 @@ Więcej informacji: <https://manned.org/alien>.
 
 - Konwertuj wskazany plik instalacyjny do formatu Red Hata (rozszerzenie `.rpm`):
 
-`sudo alien --to-rpm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku}`
+`sudo alien --to-rpm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/pliku</span>
 
 - Konwertuj wskazany plik instalacyjny do formatu plików instalacyjnych Slackware (rozszerzenie `.tgz`):
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/nudoku (English)
 description: "Sudoku game in terminal."
-content_hash: 7a849ac115100e306218bf175a6bf618b5097eea
-last_modified_at: 2023-11-12
+content_hash: 85b5b64f03d62e95a32ec8563994ae837e77cf3c
+last_modified_at: 2024-01-02
 tldri18n_status: 2
 ---
 # nudoku
@@ -21,7 +21,7 @@ More information: <https://jubalh.github.io/nudoku/>.
 
 - Navigate the board:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">h|j|k|l</span>` OR `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Left|Down|Up|Right</span>` arrow key`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">h|j|k|l</span>` OR `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Left|Down|Up|Right arrow key</span>
 
 - Delete a number:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/lynx (English)
 description: "Command-line web browser."
-content_hash: 97bf23df3eff333878fa0db8d4cb3fc5bc53dc15
-last_modified_at: 2023-12-27
+content_hash: ad0ae30e5f341734aeaf6897e17fd063b085b427
+last_modified_at: 2024-01-02
 tldri18n_status: 2
 ---
 # lynx
@@ -33,12 +33,12 @@ More information: <https://lynx.browser.org>.
 
 - Navigate forwards and backwards through the links on a page:
 
-`Up arrow key, Down arrow key`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Up arrow key|Down arrow key</span>
 
 - Go back to the previously displayed page:
 
-`Left arrow key OR u`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Left arrow key|u</span>
 
 - Exit:
 
-`q then y`
+`q + y`

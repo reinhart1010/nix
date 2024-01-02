@@ -2,8 +2,8 @@
 layout: page
 title: common/awk (polski)
 description: "Wszechstronny język programowania do pracy na plikach."
-content_hash: 83d5a24a594a9c196d1a8891c57ec36b30e843e0
-last_modified_at: 2023-11-12
+content_hash: aeabfee1ad4e95995acfb5bb55a2fb895d3ab27b
+last_modified_at: 2024-01-02
 related_topics:
   - title: English version
     url: /en/common/awk.html
@@ -52,18 +52,18 @@ Więcej informacji: <https://github.com/onetrueawk/awk>.
 
 `awk '{s+=$1} END {print s}' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwapliku</span>
 
-- Zsumuj wartości w pierwszej kolumnie i wydrukuj wartości, a następnie sumę:
-
-`awk '{s+=$1; print $1} END {print "--------"; print s}' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwapliku</span>
-
 - Drukuj co trzeci wiersz, zaczynając od pierwszego wiersza:
 
 `awk 'NR%3==1' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwapliku</span>
 
-- Wydrukuj wszystkie wartości, zaczynając od trzeciej kolumny:
-
-`awk '{for (i=3; i <= NF; i++) printf $i""FS; print""}' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwapliku</span>
-
 - Wydrukuj różne wartości w zależności od warunków:
 
 `awk '{if ($1 == "foo") print "Dokładne dopasowanie foo"; else if ($1 ~ "bar") print "Częściowe dopasowanie bar"; else print "Baz"}' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwapliku</span>
+
+- Wydrukuj wszystkie linie gdzie wartość 10-tej kolumny jest równa podanej wartości:
+
+`awk '($10 == `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wartość</span>`)'`
+
+- Wydrukuj wszystkie linie, w których wartość 10-tej kolumny jest pomiędzy podanymi wartościami:
+
+`awk '($10 >= `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wartość_minimalna</span>` && $10 <= `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wartość_maksymalna</span>`)'`

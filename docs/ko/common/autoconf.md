@@ -3,7 +3,7 @@ layout: page
 title: common/autoconf (한국어)
 description: "소프트웨어 소스 코드 패키지를 자동으로 구성하는 구성 스크립트 생성."
 content_hash: 3e6a8254689a78f286831d8af864b037a94513a0
-last_modified_at: 2024-01-01
+last_modified_at: 2024-01-02
 related_topics:
   - title: English version
     url: /en/common/autoconf.html
@@ -11,18 +11,9 @@ related_topics:
   - title: français version
     url: /fr/common/autoconf.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/autoconf.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># autoconf
+# autoconf
 
 소프트웨어 소스 코드 패키지를 자동으로 구성하는 구성 스크립트 생성.
 더 많은 정보: <https://www.gnu.org/software/autoconf>.

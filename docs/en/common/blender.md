@@ -2,8 +2,8 @@
 layout: page
 title: common/blender (English)
 description: "Command-line interface to the Blender 3D computer graphics application."
-content_hash: 15d5804961967af4436eddf37e9c23a0b6b485d6
-last_modified_at: 2023-11-12
+content_hash: 8df40d687f07b25b42f972b0894178d27d252149
+last_modified_at: 2024-01-02
 related_topics:
   - title: italiano version
     url: /it/common/blender.html
@@ -37,7 +37,7 @@ More information: <https://docs.blender.org/manual/en/latest/advanced/command_li
 
 - Render the animation of a specific scene, starting at frame 10 and ending at frame 500:
 
-`blender --background `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>`.blend --scene `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">scene_name</span>` --frame-start `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>` -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">500</span>` --render-anim`
+`blender --background `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>`.blend --scene `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">scene_name</span>` --frame-start `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>` --frame-end `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">500</span>` --render-anim`
 
 - Render an animation at a specific resolution, by passing a Python expression:
 

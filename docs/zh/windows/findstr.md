@@ -3,14 +3,17 @@ layout: page
 title: windows/findstr (中文)
 description: "在一个或多个文件中查找指定的文本。"
 content_hash: 732cca69078bd07aef061da9bb7dfa172df02535
-last_modified_at: 2024-01-01
+last_modified_at: 2024-01-02
 related_topics:
   - title: English version
     url: /en/windows/findstr.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# findstr
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># findstr
 
 在一个或多个文件中查找指定的文本。
 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/findstr>.

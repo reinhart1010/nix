@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/choco-source (polski)
-description: "Zarządzanie źrółami/repozytorium pakietów Chocolatey."
-content_hash: 05445e7d73b697618ce49122b874e516145dffcb
-last_modified_at: 2023-11-12
+description: "Zarządzaj źródłami/repozytoriami pakietów Chocolatey."
+content_hash: ca3a11402a7b984386c8d6f58bebed495ca6a91e
+last_modified_at: 2024-01-02
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-source.html
@@ -27,33 +27,33 @@ tldri18n_status: 2
 ---
 # choco source
 
-Zarządzanie źrółami/repozytorium pakietów Chocolatey.
+Zarządzaj źródłami/repozytoriami pakietów Chocolatey.
 Więcej informacji: <https://chocolatey.org/docs/commands-source>.
 
-- Wylistowanie aktualnie dostępmnych źródeł:
+- Wyświetl aktualnie dostępne źródła:
 
 `choco source list`
 
-- Dodanie nowego źródła:
+- Dodaj nowe źródło:
 
 `choco source add --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa</span>` --source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adres_url</span>
 
-- Dodanie nowego źródła z użyciem poświadczeń:
+- Dodaj nowe źródło z użyciem poświadczeń:
 
-`choco source add --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa</span>` --source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adres_url</span>` --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_użytkownika}</span>` --password `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hasło</span>
+`choco source add --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa</span>` --source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adres_url</span>` --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_użytkownika</span>` --password `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hasło</span>
 
-- Dodanie nowego źródła z użyciem certyfikatu:
+- Dodaj nowe źródło z użyciem certyfikatu:
 
 `choco source add --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa</span>` --source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adres_url</span>` --cert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ścieżka/do/certyfikatu</span>
 
-- Włączenie danego źródła/repozytorium pakietów:
+- Włącz dane źródło/repozytorium pakietów:
 
 `choco source enable --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa</span>
 
-- Wyłączenie danego źródła/repozytorium pakietów:
+- Wyłącz dane źródło/repozytorium pakietów:
 
 `choco source disable --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa</span>
 
-- Usunięcie danego źródła/repozytorium:
+- Usuń dane źródło/repozytorium:
 
 `choco source remove --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa</span>

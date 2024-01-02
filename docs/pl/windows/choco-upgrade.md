@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/choco-upgrade (polski)
-description: "Aktualizacja jednej lub więcej paczek zarządzanych przez Chocolatey."
-content_hash: 9d5a239ce3ddd3b36359f550ac682183942f5549
-last_modified_at: 2023-11-12
+description: "Zaktualizuj jeden lub więcej pakietów Chocolatey."
+content_hash: 16336fcb0db1344dda1f479e360939e6673e4932
+last_modified_at: 2024-01-02
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-upgrade.html
@@ -30,33 +30,33 @@ tldri18n_status: 2
 ---
 # choco upgrade
 
-Aktualizacja jednej lub więcej paczek zarządzanych przez Chocolatey.
+Zaktualizuj jeden lub więcej pakietów Chocolatey.
 Więcej informacji: <https://chocolatey.org/docs/commands-upgrade>.
 
-- Aktualizacja jednego lub więcej pakietów (oddzielonych spacją):
+- Zaktualizuj jeden lub więcej pakietów (oddzielonych spacją):
 
-`choco upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet(pakietów)</span>
+`choco upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet1 pakiet2 ...</span>
 
-- Aktualizacja pakietu do konkretnej wersji:
+- Zaktualizuj pakiet do konkretnej wersji:
 
-`choco upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span>
+`choco upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span>` --version `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">wersja</span>
 
-- Aktualizacja wszystkich pakietów zarządzanych przez Chocolatey:
+- Zaktualizuj wszystkie pakiety:
 
 `choco upgrade all`
 
-- Uaktualnij wszystkie pakiety z wyjątkiem określonych pakietów rozdzielanych przecinkami:
+- Zaktualizuj wszystkie pakiety z wyjątkiem tych podanych, rozdzielanych przecinkami:
 
-`choco upgrade all --except "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet(pakietów)</span>`"`
+`choco upgrade all --except "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet1 pakiet2 ...</span>`"`
 
-- Automatyczna akceptacja wszystkich monitów podczas aktualizacji pakietu (--yes):
+- Automatycznie akceptuj wszystkie monity podczas aktualizacji pakietu:
 
 `choco upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span>` --yes`
 
-- Ustawienie określonego źródła/repozytorium pakietów:
+- Ustaw określone źródło/repozytorium pakietów:
 
 `choco upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span>` --source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">adres_url|alias</span>
 
-- Podanie nazwy użytkownika i hasła do uwierzytelnienia:
+- Podaj nazwę użytkownika i hasło do uwierzytelnienia:
 
 `choco upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pakiet</span>` --user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_użytkownika</span>` --password `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hasło</span>

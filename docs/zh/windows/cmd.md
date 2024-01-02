@@ -3,7 +3,7 @@ layout: page
 title: windows/cmd (中文)
 description: "Windows 命令解释器。"
 content_hash: 8da4360026c0097fbff2fe8ae045fa42d00bfac9
-last_modified_at: 2024-01-01
+last_modified_at: 2024-01-02
 related_topics:
   - title: Deutsch version
     url: /de/windows/cmd.html
@@ -35,9 +35,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/windows/cmd.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# cmd
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># cmd
 
 Windows 命令解释器。
 更多信息：<https://learn.microsoft.com/windows-server/administration/windows-commands/cmd>.

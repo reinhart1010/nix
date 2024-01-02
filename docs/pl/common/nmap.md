@@ -2,8 +2,8 @@
 layout: page
 title: common/nmap (polski)
 description: "Narzędzie do enumeracji sieci oraz skanowania portów."
-content_hash: 30141b036e7f34475fc30eb39ef957e62aa4bb83
-last_modified_at: 2023-11-12
+content_hash: 9a0602748ff3ff3678d482fcf0139776b49e2ea3
+last_modified_at: 2024-01-02
 related_topics:
   - title: Deutsch version
     url: /de/common/nmap.html
@@ -34,7 +34,7 @@ Więcej informacji: <https://nmap.org>.
 
 - Sprawdź czy podane hosty odpowiadają na skanowanie i zgadnij ich nazwy:
 
-`nmap -sn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_lub_nazwa_hosta</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">opcjonalny_kolejny_adres_ip</span>
+`sudo nmap -sn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip_lub_nazwa_hosta</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">opcjonalny_kolejny_adres_ip</span>
 
 - Poza tym, uruchom domyśle skrypty, wykrywanie działających serwisów, OS fingerprinting oraz komendę traceroute:
 

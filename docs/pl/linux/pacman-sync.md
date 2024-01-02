@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-sync (polski)
 description: "Narzędzie do zarządzania pakietami w Arch Linuksie."
-content_hash: 50c33078cb0e0831086d798e63fea0cd125116f9
-last_modified_at: 2023-11-12
+content_hash: bca5d8e223151bc6bf79ef4bcfec11868e1c680f
+last_modified_at: 2024-01-02
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-sync.html
@@ -33,7 +33,7 @@ Więcej informacji: <https://man.archlinux.org/man/pacman.8>.
 
 - Zainstaluj nowy pakiet:
 
-`sudo pacman -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_pakietu</span>
+`sudo pacman --sync `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_pakietu</span>
 
 - Zsynchronizuj i zaktualizuj wszystkie pakiety (użyj `--downloadonly` aby pobrać pakiety i ich nie zaktualizować):
 
@@ -45,7 +45,7 @@ Więcej informacji: <https://man.archlinux.org/man/pacman.8>.
 
 - Przeszukaj bazę danych pakietów używając wyrażenia regularnego lub słowa klucz:
 
-`pacman -Ss "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zapytanie</span>`"`
+`pacman --sync --search "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zapytanie</span>`"`
 
 - Wyświetl informacje o pakiecie:
 

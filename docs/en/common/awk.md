@@ -2,8 +2,8 @@
 layout: page
 title: common/awk (English)
 description: "A versatile programming language for working on files."
-content_hash: 1a7bcee3395c8fe2a90f232f95def5e052daf457
-last_modified_at: 2023-11-12
+content_hash: d0c59d9bedd4d73e7ee8abfc4c9ebb7c506b659b
+last_modified_at: 2024-01-02
 related_topics:
   - title: español version
     url: /es/common/awk.html
@@ -62,8 +62,8 @@ More information: <https://github.com/onetrueawk/awk>.
 
 - Print all lines where the 10th column value equals the specified value:
 
-`awk '($10 == value)'`
+`awk '($10 == `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span>`)'`
 
 - Print all the lines which the 10th column value is between a min and a max:
 
-`awk '($10 >= min_value && $10 <= max_value)'`
+`awk '($10 >= `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">min_value</span>` && $10 <= `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">max_value</span>`)'`

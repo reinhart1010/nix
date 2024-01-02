@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-deptest (polski)
 description: "Sprawdź każdą podaną zależność i zwróć listę zależności, które nie są aktualnie spełnione."
-content_hash: 84815488ea4ede04b6d69dcce4324a8fe737bc8b
-last_modified_at: 2023-11-12
+content_hash: 9cd4e7fad7ada1a78f334bf57a1e9a551417a8f2
+last_modified_at: 2024-01-02
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman-deptest.html
@@ -27,7 +27,7 @@ Więcej informacji: <https://man.archlinux.org/man/pacman.8>.
 
 - Wyświetl nazwy zależności, które nie są zainstalowane:
 
-`pacman --deptest `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_pakietu1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_pakietu2</span>
+`pacman --deptest `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nazwa_pakietu1 nazwa_pakietu2 ...</span>
 
 - Sprawdź, czy zainstalowany pakiet spełnia podaną minimalną wersję:
 

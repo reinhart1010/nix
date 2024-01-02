@@ -2,8 +2,8 @@
 layout: page
 title: common/blockout2 (English)
 description: "Tetris like game in 3D."
-content_hash: 3b73c9f7bca36b538a8380acf1a58dc91ab2209d
-last_modified_at: 2023-11-12
+content_hash: 76c2774408ffbc1bd8b393846164a10cf58a08b4
+last_modified_at: 2024-01-02
 tldri18n_status: 2
 ---
 # blockout2
@@ -17,7 +17,7 @@ More information: <http://www.blockout.net/blockout2/>.
 
 - Navigate the current piece on a 2D plane:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Up|Down|Left|Right</span>` arrow key`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Up|Down|Left|Right arrow key</span>
 
 - Rotate the piece on its axis:
 
@@ -25,7 +25,7 @@ More information: <http://www.blockout.net/blockout2/>.
 
 - Hard drop the current piece:
 
-`Spacebar`
+`<Spacebar>`
 
 - Pause/unpause the game:
 

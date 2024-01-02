@@ -2,8 +2,8 @@
 layout: page
 title: linux/yetris (English)
 description: "Clone of the game Tetris in the terminal."
-content_hash: e8c9c7fc5d31ef7758b77096b5d9ca693e03b418
-last_modified_at: 2023-11-12
+content_hash: 04fdbcbfe41d34b7ec93f71d8bf81886c8de5660
+last_modified_at: 2024-01-02
 tldri18n_status: 2
 ---
 # yetris
@@ -17,7 +17,7 @@ More information: <https://github.com/alexdantas/yetris>.
 
 - Navigate the piece horizontally:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Left|Right</span>` arrow key`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Left|Right arrow key</span>
 
 - Rotate the piece clockwise or counterclockwise:
 
@@ -29,11 +29,11 @@ More information: <https://github.com/alexdantas/yetris>.
 
 - Soft drop the piece:
 
-`Down arrow key`
+`<Down arrow key>`
 
 - Hard drop the piece:
 
-`Spacebar`
+`<Spacebar>`
 
 - Pause/unpause the game:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/youtube-dl (English)
 description: "Download videos from YouTube and other websites."
-content_hash: a0f7e52362fe37e9364f32339360e74166d8c017
-last_modified_at: 2023-11-12
+content_hash: a253771fd1ecd57136e3bc060e8c98a80b54f29e
+last_modified_at: 2024-01-02
 related_topics:
   - title: català version
     url: /ca/common/youtube-dl.html
@@ -54,4 +54,4 @@ More information: <http://rg3.github.io/youtube-dl/>.
 
 - Download a playlist and extract MP3s from it:
 
-`youtube-dl -f "bestaudio" --continue --no-overwrites --ignore-errors --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_to_playlist</span>
+`youtube-dl -f "bestaudio" --continue --no-overwrites --ignore-errors --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_to_playlist</span>`'`

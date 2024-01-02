@@ -2,8 +2,8 @@
 layout: page
 title: linux/nsnake (English)
 description: "Snake game in the terminal."
-content_hash: f65e2580b6da2daa106a1d4a145d335de32af24e
-last_modified_at: 2023-12-27
+content_hash: c9482b1d7ab456b40124fab8335a710b1cb9dd26
+last_modified_at: 2024-01-02
 tldri18n_status: 2
 ---
 # nsnake
@@ -17,7 +17,7 @@ More information: <https://github.com/alexdantas/nsnake/>.
 
 - Navigate the snake:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Up|Down|Left|Right</span>` arrow key`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Up|Down|Left|Right arrow key</span>
 
 - Pause/unpause the game:
 

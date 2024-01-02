@@ -2,8 +2,8 @@
 layout: page
 title: common/duplicity (English)
 description: "Creates incremental, compressed, encrypted and versioned backups."
-content_hash: cd282b0ab27372590a44d4232f2a8815558d5b58
-last_modified_at: 2023-11-12
+content_hash: 6fa0ab38e49184ca2d3ed1bc2415c870af7de6cb
+last_modified_at: 2024-01-02
 related_topics:
   - title: italiano version
     url: /it/common/duplicity.html
@@ -34,7 +34,7 @@ More information: <http://duplicity.nongnu.org>.
 
 - List the files in a backup stored on a remote machine, via ssh:
 
-`duplicity list-current-files --time `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYY-MM-DD</span>` scp://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user@hostname</span>`/path/to/backup/dir`
+`duplicity list-current-files --time `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">YYYY-MM-DD</span>` scp://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user@hostname</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/backup/dir</span>
 
 - Restore a subdirectory from a GnuPG-encrypted local backup to a given location:
 

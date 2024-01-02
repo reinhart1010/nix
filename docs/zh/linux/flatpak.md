@@ -3,7 +3,7 @@ layout: page
 title: linux/flatpak (中文)
 description: "构建、安装和运行 Flatpak 应用和运行时。"
 content_hash: 06f72f5898ef839e927359a396cfca3f63409649
-last_modified_at: 2024-01-01
+last_modified_at: 2024-01-02
 related_topics:
   - title: English version
     url: /en/linux/flatpak.html
@@ -17,9 +17,12 @@ related_topics:
   - title: தமிழ் version
     url: /ta/linux/flatpak.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# flatpak
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># flatpak
 
 构建、安装和运行 Flatpak 应用和运行时。
 更多信息：<https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak>.

@@ -3,7 +3,7 @@ layout: page
 title: common/mkdir (中文)
 description: "创建目录。"
 content_hash: 4b581963318de0b7ee3985d322729e7d1bc87416
-last_modified_at: 2024-01-01
+last_modified_at: 2024-01-02
 related_topics:
   - title: English version
     url: /en/common/mkdir.html
@@ -35,9 +35,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/mkdir.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# mkdir
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># mkdir
 
 创建目录。
 更多信息：<https://www.gnu.org/software/coreutils/mkdir>.
