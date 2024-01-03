@@ -2,8 +2,8 @@
 layout: page
 title: common/git-check-ignore (italiano)
 description: "Analizza ed esegui il debug di \".gitignore\" e dei file esclusi."
-content_hash: 9162d89a91ec274af08e74ec73f21be9a75ab8b1
-last_modified_at: 2023-11-12
+content_hash: 84243bc7f8fc32d5085f0aa9ad0012a8c05691da
+last_modified_at: 2024-01-03
 related_topics:
   - title: English version
     url: /en/common/git-check-ignore.html
@@ -33,7 +33,7 @@ Maggiori informazioni: <https://git-scm.com/docs/git-check-ignore>.
 
 - Verifica se più file o directory sono ignorati:
 
-`git check-ignore `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory</span>
+`git check-ignore `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory1 percorso/del/file_o_directory2 ...</span>
 
 - Leggi i percorsi di file o directory da `stdin` (uno per riga) invece che dalla riga di comando:
 
@@ -41,8 +41,8 @@ Maggiori informazioni: <https://git-scm.com/docs/git-check-ignore>.
 
 - Non controllare nell'indice (usato per determinare il motivo per cui alcuni percorsi non sono ignorati):
 
-`git check-ignore --no-index `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorsi/dei/file_o_directory</span>
+`git check-ignore --no-index `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory1 percorso/del/file_o_directory2 ...</span>
 
 - Includi dettagli sul pattern corrispondente per ogni percorso specificato:
 
-`git check-ignore --verbose `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorsi/dei/file_o_directory</span>
+`git check-ignore --verbose `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/del/file_o_directory1 percorso/del/file_o_directory2 ...</span>

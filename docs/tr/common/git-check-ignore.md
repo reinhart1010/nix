@@ -2,8 +2,8 @@
 layout: page
 title: common/git-check-ignore (Türkçe)
 description: "Git yoksayma / dışlama (\".gitignore\") dosyalarını analiz et."
-content_hash: e6b10b1ad3a05fd69bc18b231f36db61038749ea
-last_modified_at: 2023-11-12
+content_hash: 4bf6bc55f2a6e313abee0349d8526c8a61640a6e
+last_modified_at: 2024-01-03
 related_topics:
   - title: English version
     url: /en/common/git-check-ignore.html
@@ -33,7 +33,7 @@ Daha fazla bilgi için: <https://git-scm.com/docs/git-check-ignore>.
 
 - Birden fazla dosya veya dizinin yoksayıldığı veya sayılmadığını kontrol et:
 
-`git check-ignore `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dizin</span>
+`git check-ignore `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya_veya_dizin1 örnek/dosya_veya_dizin2 ...</span>
 
 - Her bir satıra tekabül edecek şekilde `stdin`'den yolisimleri kullan:
 
@@ -41,8 +41,8 @@ Daha fazla bilgi için: <https://git-scm.com/docs/git-check-ignore>.
 
 - İndeksi kontrol etme:
 
-`git check-ignore --no-index `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya_veya_dizin</span>
+`git check-ignore --no-index `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya_veya_dizin1 örnek/dosya_veya_dizin2 ...</span>
 
 - Her yol için eşleşen desene dair detayları dahil et:
 
-`git check-ignore --verbose `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya_veya_dizin</span>
+`git check-ignore --verbose `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya_veya_dizin1 örnek/dosya_veya_dizin2 ...</span>

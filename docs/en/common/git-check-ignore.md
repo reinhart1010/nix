@@ -2,8 +2,8 @@
 layout: page
 title: common/git-check-ignore (English)
 description: "Analyze and debug Git ignore/exclude (\".gitignore\") files."
-content_hash: 248fb24db4de9552ed4850bb4a56897397fdc5c7
-last_modified_at: 2023-11-12
+content_hash: 77822ead6f0055bb6342526e268e7aa3e46cb16a
+last_modified_at: 2024-01-03
 related_topics:
   - title: español version
     url: /es/common/git-check-ignore.html
@@ -33,7 +33,7 @@ More information: <https://git-scm.com/docs/git-check-ignore>.
 
 - Check whether multiple files or directories are ignored:
 
-`git check-ignore `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
+`git check-ignore `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 ...</span>
 
 - Use pathnames, one per line, from `stdin`:
 
@@ -41,8 +41,8 @@ More information: <https://git-scm.com/docs/git-check-ignore>.
 
 - Do not check the index (used to debug why paths were tracked and not ignored):
 
-`git check-ignore --no-index `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/files_or_directories</span>
+`git check-ignore --no-index `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 ...</span>
 
 - Include details about the matching pattern for each path:
 
-`git check-ignore --verbose `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/files_or_directories</span>
+`git check-ignore --verbose `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 ...</span>
