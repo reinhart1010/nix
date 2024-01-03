@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtime (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux time`."
-content_hash: 7c14d2147aa140d046516ad6a9ce299593204512
-last_modified_at: 2023-11-12
+content_hash: da8ac7202097bfe24c95a3dc799c77f420719219
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gtime.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux time`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux time`

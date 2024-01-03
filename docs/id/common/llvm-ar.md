@@ -2,8 +2,8 @@
 layout: page
 title: common/llvm-ar (Indonesia)
 description: "Perintah ini merupakan alias dari `ar`."
-content_hash: 525d68da018e6202ddcff7fac94b44fd27dcb051
-last_modified_at: 2023-11-12
+content_hash: 9a4da2eca50d04c937a8b9757864970f67de0e7a
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/common/llvm-ar.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `ar`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr ar`

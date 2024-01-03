@@ -2,8 +2,8 @@
 layout: page
 title: osx/genv (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux env`."
-content_hash: f5ec28bd915ae837ff4050c60c3c277c38364585
-last_modified_at: 2023-11-12
+content_hash: 1bdae8edc3644001a70b6318b8840dad0d84749d
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/genv.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux env`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux env`

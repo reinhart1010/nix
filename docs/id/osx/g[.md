@@ -2,8 +2,8 @@
 layout: page
 title: osx/g[ (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux [`."
-content_hash: 5e7714781c960d685acd91a896f558239dfeb7e2
-last_modified_at: 2023-11-12
+content_hash: 339b0a482c36647e164a512f5d9d612c44bf05b4
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/g[.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux [`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux [`

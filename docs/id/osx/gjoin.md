@@ -2,8 +2,8 @@
 layout: page
 title: osx/gjoin (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux join`."
-content_hash: ffbe7f0aff93c9a8539cb6343677afc7b8bb0679
-last_modified_at: 2023-11-12
+content_hash: 72a2607b73d7ad080571a0d1fac5f70a31e023ce
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gjoin.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux join`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux join`

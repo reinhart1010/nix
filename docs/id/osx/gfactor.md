@@ -2,8 +2,8 @@
 layout: page
 title: osx/gfactor (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux factor`."
-content_hash: 607a58e423cb5db0da39de07ceec1a4eb5b4992c
-last_modified_at: 2023-11-12
+content_hash: 1a1fa402411bf85096df8012bba185573c9c2c26
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gfactor.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux factor`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux factor`

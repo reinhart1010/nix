@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtraceroute (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux traceroute`."
-content_hash: d6572b67b96ad30302226ab1966aa5f47b6e8401
-last_modified_at: 2023-11-12
+content_hash: 9ff34c9f8acd60a337f1c63e69bf543dc4d594eb
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gtraceroute.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux traceroute`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux traceroute`

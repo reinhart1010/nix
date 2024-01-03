@@ -2,8 +2,8 @@
 layout: page
 title: osx/guname (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux uname`."
-content_hash: ec72771dbec96f48fd951d605f3b79ad1b9077b2
-last_modified_at: 2023-11-12
+content_hash: 0b7baa14f69a31b62d6319027c772d9c83e938dc
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/guname.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux uname`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux uname`

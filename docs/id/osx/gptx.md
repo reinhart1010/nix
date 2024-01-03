@@ -2,8 +2,8 @@
 layout: page
 title: osx/gptx (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux ptx`."
-content_hash: 0b9c34d68fa422b4b75f747b9a444b3fe3e69647
-last_modified_at: 2023-11-12
+content_hash: 76eff8e1556a75a9699c4a13b9ef799898da29c4
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gptx.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux ptx`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux ptx`

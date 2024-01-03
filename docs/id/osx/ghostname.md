@@ -2,8 +2,8 @@
 layout: page
 title: osx/ghostname (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux hostname`."
-content_hash: 8168a560117a3f6bb3a6c5f7b0f4441c3e0de361
-last_modified_at: 2023-11-12
+content_hash: 537f323f830aae197a7ccd2bbca030908a5aa28b
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/ghostname.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux hostname`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux hostname`

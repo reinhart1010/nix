@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-new (Indonesia)
 description: "Perintah ini merupakan alias dari `fossil-init`."
-content_hash: 07bc594731bb6df3d8974a70b55de9859a5a53a4
-last_modified_at: 2023-11-12
+content_hash: 32bc491548dfe563b6fa2b2a6c1e3905dff2756c
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-new.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Perintah ini merupakan alias dari `fossil-init`.
 Informasi lebih lanjut: <https://fossil-scm.org/home/help/new>.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr fossil-init`

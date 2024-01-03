@@ -2,8 +2,8 @@
 layout: page
 title: osx/gbasename (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux basename`."
-content_hash: 999dd6e74baeb9fb4b705b7c88b0f9043bf86cc8
-last_modified_at: 2023-11-12
+content_hash: a2541a145b9778c772c6758ecc37a64bd1137314
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gbasename.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux basename`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux basename`

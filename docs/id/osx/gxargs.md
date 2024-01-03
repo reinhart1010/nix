@@ -2,8 +2,8 @@
 layout: page
 title: osx/gxargs (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux xargs`."
-content_hash: f4786516ac912f08a2bdd3c5f85a65e03862b95e
-last_modified_at: 2023-11-12
+content_hash: dcb6c059a9453528f541d733bd91e1855ded8aa0
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gxargs.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux xargs`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux xargs`

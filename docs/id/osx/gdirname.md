@@ -2,8 +2,8 @@
 layout: page
 title: osx/gdirname (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux dirname`."
-content_hash: 1f66c38baf0fa037358db558ecab55aa05dc0275
-last_modified_at: 2023-11-12
+content_hash: 0879ceb73935a55f605ff0d21899351ae47bd7ef
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gdirname.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux dirname`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux dirname`

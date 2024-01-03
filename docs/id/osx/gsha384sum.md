@@ -2,8 +2,8 @@
 layout: page
 title: osx/gsha384sum (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux sha384sum`."
-content_hash: 26da685d72ae8b3c3fbbd50d2b1d19e5a9b0ed61
-last_modified_at: 2023-11-12
+content_hash: a9de140db8d2aa16305ac628090b1e58d8458703
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gsha384sum.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux sha384sum`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux sha384sum`

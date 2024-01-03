@@ -2,8 +2,8 @@
 layout: page
 title: osx/gprintf (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux printf`."
-content_hash: ed4e03f3b2b21e4bf088243a87c9237cd4dcf6b1
-last_modified_at: 2023-11-12
+content_hash: 5bf69a25084a9d5c6f521421f9120465471570f4
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gprintf.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux printf`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux printf`

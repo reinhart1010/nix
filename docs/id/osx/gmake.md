@@ -2,8 +2,8 @@
 layout: page
 title: osx/gmake (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux make`."
-content_hash: 20fe3596ebf8c153686004b57f66e87fd88a880c
-last_modified_at: 2023-11-12
+content_hash: 717a4cfea66f0fa83a2c01274c37518121736c28
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gmake.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux make`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux make`

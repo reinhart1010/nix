@@ -2,8 +2,8 @@
 layout: page
 title: osx/gdf (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux df`."
-content_hash: d6be0bafc0f84e1036772dc32676f91b10b9d5d8
-last_modified_at: 2023-11-12
+content_hash: 020f36ebe8aeef90d01d37aa4820498693fd8b3f
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gdf.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux df`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux df`

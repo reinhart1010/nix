@@ -2,8 +2,8 @@
 layout: page
 title: osx/gmkfifo (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux mkfifo`."
-content_hash: d4a46feb9f7717090d9293f9f6abd651d493ea93
-last_modified_at: 2023-11-12
+content_hash: d7ae685fdaddb6773ac5f30e376f556573eaed23
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gmkfifo.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux mkfifo`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux mkfifo`

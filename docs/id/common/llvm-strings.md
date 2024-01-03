@@ -2,8 +2,8 @@
 layout: page
 title: common/llvm-strings (Indonesia)
 description: "Perintah ini merupakan alias dari `strings`."
-content_hash: cff3c97584ea031fb745a45cc7e51d29bca9f730
-last_modified_at: 2023-11-12
+content_hash: 539b53ce12607a28c2fe2ec3c8bbd73f1eebd01a
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/common/llvm-strings.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `strings`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr strings`

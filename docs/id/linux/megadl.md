@@ -2,8 +2,8 @@
 layout: page
 title: linux/megadl (Indonesia)
 description: "Perintah ini merupakan alias dari `megatools-dl`."
-content_hash: b7b4d2d45d4f471477e5b55cdd41c82b05579431
-last_modified_at: 2023-11-12
+content_hash: e0b77c254a986c2a672bdd1b62e6afd82c7773c0
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/linux/megadl.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Perintah ini merupakan alias dari `megatools-dl`.
 Informasi lebih lanjut: <https://megatools.megous.com/man/megatools-dl.html>.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr megatools-dl`

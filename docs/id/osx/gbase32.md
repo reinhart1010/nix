@@ -2,8 +2,8 @@
 layout: page
 title: osx/gbase32 (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux base32`."
-content_hash: 228be512385e8d47de4f1ac5b4f7b80139a0aaec
-last_modified_at: 2023-11-12
+content_hash: 776f84b3ac058e021137e66bdb44d95f8e91dfb3
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gbase32.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux base32`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux base32`

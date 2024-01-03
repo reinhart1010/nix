@@ -2,8 +2,8 @@
 layout: page
 title: osx/gchown (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux chown`."
-content_hash: 5c95ea5ada06b76cc3dbbad73aa3f79d282f0f47
-last_modified_at: 2023-11-12
+content_hash: 0e8ff1d89d04bb2bf1e542955bc2ddba15de61d7
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gchown.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux chown`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux chown`

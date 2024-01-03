@@ -2,8 +2,8 @@
 layout: page
 title: osx/gln (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux ln`."
-content_hash: d362fa71ebafb2bd7b2216fc6e9f63259451980c
-last_modified_at: 2023-11-12
+content_hash: 78983bf3e719e60a962d63f300e6190aafd9e00a
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gln.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux ln`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux ln`

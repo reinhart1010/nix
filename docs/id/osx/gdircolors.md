@@ -2,8 +2,8 @@
 layout: page
 title: osx/gdircolors (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux dircolors`."
-content_hash: 9e49d065310c2175a70ec2cb1309afec9ec9e709
-last_modified_at: 2023-11-12
+content_hash: 9fa67b9418b8ac987900996169ff880f7f732f9b
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gdircolors.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux dircolors`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux dircolors`

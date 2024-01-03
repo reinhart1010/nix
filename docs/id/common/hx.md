@@ -2,8 +2,8 @@
 layout: page
 title: common/hx (Indonesia)
 description: "Perintah ini merupakan alias dari `helix`."
-content_hash: fa6e49ee1dd977157bf6737a5338d6ce706981f0
-last_modified_at: 2023-11-12
+content_hash: 297f4ac41aad2e991c20eb9814ed61b210b9d18f
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/common/hx.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `helix`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr helix`

@@ -2,8 +2,8 @@
 layout: page
 title: common/kafkacat (Indonesia)
 description: "Perintah ini merupakan alias dari `kcat`."
-content_hash: e438299ead38cc7b34d48831ee0250690973742b
-last_modified_at: 2023-11-12
+content_hash: baaab5c3ebfa5bfbbb15a480443a7e68a1a8e2df
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/common/kafkacat.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `kcat`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr kcat`

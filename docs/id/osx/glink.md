@@ -2,8 +2,8 @@
 layout: page
 title: osx/glink (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux link`."
-content_hash: 7c7251a324b438548ffa697c3c5da02e9ce49220
-last_modified_at: 2023-11-12
+content_hash: ba97a6446120bb246cc6059ce47de568486b66e1
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/glink.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux link`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux link`

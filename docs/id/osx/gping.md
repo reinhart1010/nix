@@ -2,8 +2,8 @@
 layout: page
 title: osx/gping (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux ping`."
-content_hash: e32502ad42bbdce5a6c4b9ae81c879f0ad0749c0
-last_modified_at: 2023-11-12
+content_hash: d5197f8f796f7b983c29c12e58d15970e5cd8c9f
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gping.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux ping`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux ping`

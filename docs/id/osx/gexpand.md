@@ -2,8 +2,8 @@
 layout: page
 title: osx/gexpand (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux expand`."
-content_hash: b2f782bb3a3a204442817de16b46fb19f4ac4a49
-last_modified_at: 2023-11-12
+content_hash: f720c832f74e881d0f9576a9d4de44fb17d42c05
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gexpand.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux expand`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux expand`

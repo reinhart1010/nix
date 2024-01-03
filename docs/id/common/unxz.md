@@ -2,8 +2,8 @@
 layout: page
 title: common/unxz (Indonesia)
 description: "Perintah ini merupakan alias dari `xz`."
-content_hash: f56ebe614808761138906f84b3e256d112fc749e
-last_modified_at: 2023-11-12
+content_hash: 29a55dae81f86be506cbe7d31556645a48c0ebfc
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/common/unxz.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Perintah ini merupakan alias dari `xz`.
 Informasi lebih lanjut: <https://manned.org/unxz>.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr xz`

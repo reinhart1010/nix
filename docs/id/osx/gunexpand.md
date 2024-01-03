@@ -2,8 +2,8 @@
 layout: page
 title: osx/gunexpand (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux unexpand`."
-content_hash: aea36e813e9cf76fdf1427d2df72a67a06b48fd7
-last_modified_at: 2023-11-12
+content_hash: f7a9b9021519311c7a47cb11765035f59a0441be
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gunexpand.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux unexpand`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux unexpand`

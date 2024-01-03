@@ -2,8 +2,8 @@
 layout: page
 title: osx/gnl (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux nl`."
-content_hash: de7c90a5b365396a46d0233ed614a26e311783da
-last_modified_at: 2023-11-12
+content_hash: 1c12f48e4ff437225450159773906896c2fffa1a
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gnl.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux nl`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux nl`

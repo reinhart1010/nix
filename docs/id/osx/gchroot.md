@@ -2,8 +2,8 @@
 layout: page
 title: osx/gchroot (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux chroot`."
-content_hash: 846b8c27aed3cbdfaa6edb64f1e00452adf47de0
-last_modified_at: 2023-11-12
+content_hash: ea2308a4ffae65372f54be7dde60048d16beb014
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gchroot.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux chroot`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux chroot`

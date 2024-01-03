@@ -2,8 +2,8 @@
 layout: page
 title: osx/gcat (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux cat`."
-content_hash: 6631476582ef6477d0f7f89794b0f0f7e1a2ce1a
-last_modified_at: 2023-11-12
+content_hash: 1fea00cea89cb5835e4ef691e04eb24bbf6a6962
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gcat.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux cat`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux cat`

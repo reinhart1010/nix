@@ -2,8 +2,8 @@
 layout: page
 title: osx/gsum (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux sum`."
-content_hash: 044a27bcf3ddcdee16ae204cdd38235496b65595
-last_modified_at: 2023-11-12
+content_hash: c087006e54e0dd40066f7b94c06598bb4a2dbb8d
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gsum.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux sum`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux sum`

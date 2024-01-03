@@ -2,8 +2,8 @@
 layout: page
 title: linux/cgroups (Indonesia)
 description: "Perintah ini merupakan alias dari `cgclassify`."
-content_hash: 9ac57d685eff49240b01d3a6d7bf561331a52410
-last_modified_at: 2023-11-12
+content_hash: a6874a16962120033f8a6b9d5f9a88c8de2182f7
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/linux/cgroups.html
@@ -99,6 +99,6 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Perintah ini merupakan alias dari `cgclassify`.
 Informasi lebih lanjut: <https://www.kernel.org/doc/Documentation/cgroup-v2.txt>.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr cgclassify`

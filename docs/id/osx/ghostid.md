@@ -2,8 +2,8 @@
 layout: page
 title: osx/ghostid (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux hostid`."
-content_hash: e4309aeed3f8c175d3c82a4ef030c689f284f0bb
-last_modified_at: 2023-11-12
+content_hash: 3ff7aabae1d1c6306da759c6966b9f87548990de
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/ghostid.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux hostid`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux hostid`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gls (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux ls`."
-content_hash: be38b16da0f78e9832b6774e1bdcd00ab7048f73
-last_modified_at: 2023-11-12
+content_hash: f41bdf76e889814017a68f4af6d4e63c0ebc0941
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gls.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux ls`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux ls`

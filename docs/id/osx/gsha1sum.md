@@ -2,8 +2,8 @@
 layout: page
 title: osx/gsha1sum (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux sha1sum`."
-content_hash: 806ffde5360cf1aba86602d34f015fc19b294c4a
-last_modified_at: 2023-11-12
+content_hash: 9d48c9b4389556ef787ae8a09a0300421953b63a
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gsha1sum.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux sha1sum`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux sha1sum`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gfmt (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux fmt`."
-content_hash: be60d7aee454b7e0bf3f32c73a0c2a115396f3b3
-last_modified_at: 2023-11-12
+content_hash: 71fe2089ea4d06f5dfce90fd4e91d6b52ca4e4cd
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gfmt.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux fmt`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux fmt`

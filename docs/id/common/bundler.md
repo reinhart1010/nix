@@ -2,8 +2,8 @@
 layout: page
 title: common/bundler (Indonesia)
 description: "Perintah ini merupakan alias dari `bundle`."
-content_hash: 521546c87f5e0da1b5dcf085a0b9ea26f10018af
-last_modified_at: 2023-11-12
+content_hash: 3ca90bda9e25a36fa7ef4e4413cf9abf5a440ad0
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/common/bundler.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Perintah ini merupakan alias dari `bundle`.
 Informasi lebih lanjut: <https://bundler.io/man/bundle.1.html>.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr bundle`

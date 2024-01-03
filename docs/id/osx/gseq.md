@@ -2,8 +2,8 @@
 layout: page
 title: osx/gseq (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux seq`."
-content_hash: 6efeea6053f4b9cfba609738f04dacbc8748b071
-last_modified_at: 2023-11-12
+content_hash: 90d0e4e440b7c3fdd184825174847c3f041cac7e
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gseq.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux seq`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux seq`

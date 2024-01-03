@@ -2,8 +2,8 @@
 layout: page
 title: common/clojure (Indonesia)
 description: "Perintah ini merupakan alias dari `clj`."
-content_hash: fafdceee4c5977269a443ffd22c671ad7a4241f7
-last_modified_at: 2023-11-12
+content_hash: f964f47f48919ce8111ec201c337c2c97c89d7fc
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/common/clojure.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `clj`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr clj`

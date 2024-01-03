@@ -2,8 +2,8 @@
 layout: page
 title: common/google-chrome (Indonesia)
 description: "Perintah ini merupakan alias dari `chromium`."
-content_hash: b39a2f22a1d44e1f4d994457c0a672a4b907e4c9
-last_modified_at: 2023-11-12
+content_hash: acd1c30da4e0935a52164aeae6b517be7bf0a7f7
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/common/google-chrome.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Perintah ini merupakan alias dari `chromium`.
 Informasi lebih lanjut: <https://chrome.google.com>.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr chromium`

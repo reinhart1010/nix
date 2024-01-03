@@ -2,8 +2,8 @@
 layout: page
 title: common/fossil-forget (Indonesia)
 description: "Perintah ini merupakan alias dari `fossil rm`."
-content_hash: 51583f9752f35522bba4343e3177937d3a002756
-last_modified_at: 2023-11-12
+content_hash: 60a65fddf8c8b7f2e49d158d436f38eb6a00dc35
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/common/fossil-forget.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Perintah ini merupakan alias dari `fossil rm`.
 Informasi lebih lanjut: <https://fossil-scm.org/home/help/forget>.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr fossil rm`

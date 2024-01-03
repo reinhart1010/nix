@@ -2,8 +2,8 @@
 layout: page
 title: osx/gyes (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux yes`."
-content_hash: 08e8cbf3bd7e2a9eaab4e9f751fcb0c6ec57b1e1
-last_modified_at: 2023-11-12
+content_hash: 43a90997215aabcbfd825fb87ea77e7d192ec814
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gyes.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux yes`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux yes`

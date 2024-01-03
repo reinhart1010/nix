@@ -2,8 +2,8 @@
 layout: page
 title: common/platformio (Indonesia)
 description: "Perintah ini merupakan alias dari `pio`."
-content_hash: de779641abcfbc915c12736d4c5ad42a57231599
-last_modified_at: 2023-11-12
+content_hash: 81cecb78655ca5cf78fe3af933ea34f816c5e22b
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/common/platformio.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Perintah ini merupakan alias dari `pio`.
 Informasi lebih lanjut: <https://docs.platformio.org/en/latest/core/userguide/>.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr pio`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gpinky (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux pinky`."
-content_hash: 46479355463305f508bf139eef7a405d0b39952b
-last_modified_at: 2023-11-12
+content_hash: 2a6eb00492db8227a28bc88c592a0e0cf8c2b6cc
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gpinky.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux pinky`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux pinky`

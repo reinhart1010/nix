@@ -2,8 +2,8 @@
 layout: page
 title: osx/gpathchk (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux pathchk`."
-content_hash: 0e4d514f67606283b74bbd009c3f8dafca834ba4
-last_modified_at: 2023-11-12
+content_hash: 0f7e66a69e1235cfbdcb4a12dcd11d7b5e7946f3
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gpathchk.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux pathchk`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux pathchk`

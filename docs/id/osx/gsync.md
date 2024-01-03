@@ -2,8 +2,8 @@
 layout: page
 title: osx/gsync (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux sync`."
-content_hash: 7b9b1cfc67857898e91b6edd6753517ff62aa450
-last_modified_at: 2023-11-12
+content_hash: c8d929b369cab6636ddc25bba0a0ef0bc8ac0494
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gsync.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux sync`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux sync`

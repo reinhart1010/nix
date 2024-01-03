@@ -2,8 +2,8 @@
 layout: page
 title: osx/ged (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux ed`."
-content_hash: 6cfd273f4f521216b86dde87771179103c861445
-last_modified_at: 2023-11-12
+content_hash: 4b168c2da82f3774f30dcfd7e154aecf8b43a73a
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/ged.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux ed`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux ed`

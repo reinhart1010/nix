@@ -2,8 +2,8 @@
 layout: page
 title: osx/gchgrp (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux chgrp`."
-content_hash: a87374d196e2fd4677e75357e646feccc0348bfd
-last_modified_at: 2023-11-12
+content_hash: 5b5c76e2f2a65dad1182102a5f1aca8ca19b65f1
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gchgrp.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux chgrp`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux chgrp`

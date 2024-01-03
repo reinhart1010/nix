@@ -2,8 +2,8 @@
 layout: page
 title: osx/gstdbuf (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux stdbuf`."
-content_hash: 4d7013d9b1dabff87a316dbcfcbb8f087167b214
-last_modified_at: 2023-11-12
+content_hash: 7208658b8bf88b357b0185b5b2948241e8793dc3
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gstdbuf.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux stdbuf`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux stdbuf`

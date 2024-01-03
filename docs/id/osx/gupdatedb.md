@@ -2,8 +2,8 @@
 layout: page
 title: osx/gupdatedb (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux updatedb`."
-content_hash: 1e624ad416ee8f84b85f2da0c9fb1410c67b92a7
-last_modified_at: 2023-11-12
+content_hash: 79448e94a5e0f2022cf2822c19c431e6d60b54df
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gupdatedb.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux updatedb`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux updatedb`

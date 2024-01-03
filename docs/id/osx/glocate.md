@@ -2,8 +2,8 @@
 layout: page
 title: osx/glocate (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux locate`."
-content_hash: 9d59a9be61cadc50abd6eba3f4d1004d8355a039
-last_modified_at: 2023-11-12
+content_hash: 556a749c9c3d56064ea12337a7a44d8364c01ee7
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/glocate.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux locate`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux locate`

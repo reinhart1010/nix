@@ -2,8 +2,8 @@
 layout: page
 title: osx/gpwd (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux pwd`."
-content_hash: 91668c96b0d0140084c51a0ad467abdb2655253a
-last_modified_at: 2023-11-12
+content_hash: d75db91bac857e4ba02609bbe5dbded435e14a54
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gpwd.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux pwd`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux pwd`

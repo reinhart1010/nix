@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtimeout (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux timeout`."
-content_hash: d9701dd449d768ecba1ea2a0dcddc2e08da93fcd
-last_modified_at: 2023-11-12
+content_hash: 9fae819c7e815eb3325b08fb55e67fd4698e2bc2
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gtimeout.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux timeout`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux timeout`

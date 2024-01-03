@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/bash (español)
-description: "Bourne-Again SHell."
-content_hash: 15a7c6313ef922a5d19cc13adb9aa2e6f16ed560
-last_modified_at: 2023-12-29
+description: "Bourne-Again SHell, un intérprete de línea de comandos compatible con `sh`."
+content_hash: ec9ff8e53ea92c66f1d46314d618e93c9fa96c4c
+last_modified_at: 2024-01-03
 related_topics:
   - title: Deutsch version
     url: /de/common/bash.html
@@ -39,13 +39,17 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># bash
 
-Bourne-Again SHell.
-Intérprete de línea de comandos compatible con `sh`.
+Bourne-Again SHell, un intérprete de línea de comandos compatible con `sh`.
+Vea también: `zsh`; `histexpand`, para expansión de historial de comandos.
 Más información: <https://www.gnu.org/software/bash/>.
 
 - Inicia un intérprete de comandos interactivo:
 
 `bash`
+
+- Inicia el intérprete sin leer archivos de configuración:
+
+`bash --norc`
 
 - Ejecuta un comando:
 
@@ -65,8 +69,8 @@ Más información: <https://www.gnu.org/software/bash/>.
 
 - Ejecuta comandos desde `stdin` (entrada estándar):
 
-`bash -s`
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo "echo 'bash es ejecutado'"</span>` | bash`
 
-- Imprime la información de la versión de bash (use `echo $BASH_VERSION` para ver sólo la versión sin la información sobre la licencia):
+- Inicia el intérprete [r]estringido:
 
-`bash --version`
+`bash -r`

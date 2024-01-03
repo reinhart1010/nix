@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtest (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux test`."
-content_hash: 8d91a2278f4d155377605722b152cb502203a670
-last_modified_at: 2023-11-12
+content_hash: 99ff4a8585c798166347f51b57407c5bf856ac4c
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gtest.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux test`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux test`

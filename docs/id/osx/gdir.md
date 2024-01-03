@@ -2,8 +2,8 @@
 layout: page
 title: osx/gdir (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux dir`."
-content_hash: 9d19b3722e25132f4dc6ac49242c1e461966cc74
-last_modified_at: 2023-11-12
+content_hash: 62226e7f41d64b6beaef01e951d293ec1a40d0ab
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gdir.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux dir`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux dir`

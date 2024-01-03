@@ -2,8 +2,8 @@
 layout: page
 title: linux/ncal (Indonesia)
 description: "Perintah ini merupakan alias dari `cal`."
-content_hash: deea21304c5322952b02f6bbf40ef66e36915972
-last_modified_at: 2023-11-12
+content_hash: 240965dcbafea262e39ff79f9e194722e99e6d18
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/linux/ncal.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Perintah ini merupakan alias dari `cal`.
 Informasi lebih lanjut: <https://manned.org/ncal>.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr cal`

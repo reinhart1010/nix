@@ -2,8 +2,8 @@
 layout: page
 title: common/llvm-nm (Indonesia)
 description: "Perintah ini merupakan alias dari `nm`."
-content_hash: c17894f7ffcd1498baaf71db25d2c9fc52ad4e15
-last_modified_at: 2023-11-12
+content_hash: ae5cb03111df4b2506c89552e37a7fb97eb542a4
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/common/llvm-nm.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `nm`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr nm`

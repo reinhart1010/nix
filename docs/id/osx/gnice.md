@@ -2,8 +2,8 @@
 layout: page
 title: osx/gnice (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux nice`."
-content_hash: 9dcca4d33688773fa445f968d809b159595a0200
-last_modified_at: 2023-11-12
+content_hash: a8883083ebb0f131549da7e8836b1c8f5dbf219f
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gnice.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux nice`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux nice`

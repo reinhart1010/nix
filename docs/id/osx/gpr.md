@@ -2,8 +2,8 @@
 layout: page
 title: osx/gpr (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux pr`."
-content_hash: 635a16553685ded4784f2335f18319a1b061755a
-last_modified_at: 2023-11-12
+content_hash: 92951f6ebca53c9f35761c8e70a5a0a3dc096a76
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gpr.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux pr`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux pr`

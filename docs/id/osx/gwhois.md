@@ -2,8 +2,8 @@
 layout: page
 title: osx/gwhois (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux whois`."
-content_hash: af8b81f3c9c1a5cf398349bbf25791f88f9d4fe3
-last_modified_at: 2023-11-12
+content_hash: 4811966b07e5c49e5901a83522302dbeec21415b
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gwhois.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux whois`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux whois`

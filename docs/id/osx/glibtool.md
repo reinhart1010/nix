@@ -2,8 +2,8 @@
 layout: page
 title: osx/glibtool (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux libtool`."
-content_hash: 8b68037c57ea7483d88dbefcb5e70610057c386c
-last_modified_at: 2023-11-12
+content_hash: 95523bf0ecadc8583acf86b0b7282feeb1734b1c
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/glibtool.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux libtool`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux libtool`

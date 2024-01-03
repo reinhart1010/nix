@@ -2,8 +2,8 @@
 layout: page
 title: common/vi (Indonesia)
 description: "Perintah ini merupakan alias dari `vim`."
-content_hash: 8097364dd9271ee6e1fb4183e18699906e0e3f08
-last_modified_at: 2023-11-12
+content_hash: ffeed4245716379462cf31557231d86894ff8e66
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/common/vi.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `vim`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr vim`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gdate (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux date`."
-content_hash: 71e286d23117b4e17e4c0378321b72f8405b18e0
-last_modified_at: 2023-11-12
+content_hash: af35a5ec5b0da742bd900a99d1c2c0ee14295028
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gdate.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux date`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux date`

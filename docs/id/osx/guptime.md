@@ -2,8 +2,8 @@
 layout: page
 title: osx/guptime (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux uptime`."
-content_hash: f5e925e2db82a29d86d04d627be47e4594243970
-last_modified_at: 2023-11-12
+content_hash: 12cf07e35bceed5b159a7e6ff2a57a3826b0bcec
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/guptime.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux uptime`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux uptime`

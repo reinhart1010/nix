@@ -2,8 +2,8 @@
 layout: page
 title: osx/gb2sum (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux b2sum`."
-content_hash: 77d34a21a0a98080ea1073057fb9e6c2aed31db5
-last_modified_at: 2023-11-12
+content_hash: 1fc7ac8a242080f50c922b81e4d005704f0e3fb9
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gb2sum.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux b2sum`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux b2sum`

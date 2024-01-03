@@ -2,8 +2,8 @@
 layout: page
 title: osx/glogname (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux logname`."
-content_hash: 37cd8c7dd7f9fc13a36af285461dcc6cbc789d71
-last_modified_at: 2023-11-12
+content_hash: 2007696830418143cf30a2515a2c8c53b62846e0
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/glogname.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux logname`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux logname`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gnumfmt (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux numfmt`."
-content_hash: d4ccb2d7ea446606b030fda22b06a057c882fd82
-last_modified_at: 2023-11-12
+content_hash: 8b9c3056d6b18b01af8d2fd0cc76415096cb6065
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gnumfmt.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux numfmt`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux numfmt`

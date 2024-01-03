@@ -2,8 +2,8 @@
 layout: page
 title: osx/grealpath (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux realpath`."
-content_hash: f3af228b59132c60c328d0e2af7bd733b4ea8c08
-last_modified_at: 2023-11-12
+content_hash: 228fa08e74f2872b3f7e065d9e386e41f2037303
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/grealpath.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux realpath`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux realpath`

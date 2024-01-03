@@ -2,8 +2,8 @@
 layout: page
 title: osx/grmdir (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux rmdir`."
-content_hash: 55733652a0904d3b6eb0a67fd6266d29c6d923b9
-last_modified_at: 2023-11-12
+content_hash: fc906f7be393e91d1825dcabfa27a169d70c170e
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/grmdir.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux rmdir`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux rmdir`

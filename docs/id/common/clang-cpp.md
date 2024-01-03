@@ -2,8 +2,8 @@
 layout: page
 title: common/clang-cpp (Indonesia)
 description: "Perintah ini merupakan alias dari `clang++`."
-content_hash: 5046ad30b4943c70a3bd7bb5e4b58f322dedee1e
-last_modified_at: 2023-11-12
+content_hash: 01cff572c408e42ef42ddd09c41290bf56a014b7
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/common/clang-cpp.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `clang++`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr clang++`

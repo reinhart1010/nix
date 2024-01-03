@@ -2,8 +2,8 @@
 layout: page
 title: osx/gnproc (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux nproc`."
-content_hash: 344627ab4ac693b618478ca416f2be69a23dc747
-last_modified_at: 2023-11-12
+content_hash: f7642789b25445b7cec20d17b43665a9a62afaf6
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gnproc.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux nproc`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux nproc`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtac (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux tac`."
-content_hash: 780963678846d1dfe5f41c18b3037ffac00d5259
-last_modified_at: 2023-11-12
+content_hash: 81bb306ce0200e8cebc65173a3c29e3ceadabcc9
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gtac.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux tac`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux tac`

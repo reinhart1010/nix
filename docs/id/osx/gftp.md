@@ -2,8 +2,8 @@
 layout: page
 title: osx/gftp (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux ftp`."
-content_hash: 29a4be0a3be219acf892e322b034ef013d411740
-last_modified_at: 2023-11-12
+content_hash: 3e498239b5b0e6ab6c20cb3e0f257bde654286d3
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gftp.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux ftp`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux ftp`

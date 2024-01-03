@@ -2,8 +2,8 @@
 layout: page
 title: osx/gkill (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux kill`."
-content_hash: b7a288e0e63ebd7dbf229b6275ffef72572eb685
-last_modified_at: 2023-11-12
+content_hash: 920f1dea77141c40df31f095d572d226ef508849
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gkill.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux kill`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux kill`

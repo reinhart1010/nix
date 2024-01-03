@@ -2,8 +2,8 @@
 layout: page
 title: osx/gpaste (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux paste`."
-content_hash: c4ea0aaae28b739d2683244b185e74d52191c3c9
-last_modified_at: 2023-11-12
+content_hash: be9ba547df5d7d317b63012a8cb153102706d15d
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gpaste.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux paste`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux paste`

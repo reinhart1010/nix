@@ -2,8 +2,8 @@
 layout: page
 title: common/lzma (Indonesia)
 description: "Perintah ini merupakan alias dari `xz`."
-content_hash: a044cae87de1f1751ffd52e57230ccdd2580df3b
-last_modified_at: 2023-11-12
+content_hash: 77fa29f996aeb2947192d2f5d8c03d11d110b784
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/common/lzma.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Perintah ini merupakan alias dari `xz`.
 Informasi lebih lanjut: <https://manned.org/lzma>.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr xz`

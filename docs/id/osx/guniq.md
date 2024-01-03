@@ -2,8 +2,8 @@
 layout: page
 title: osx/guniq (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux uniq`."
-content_hash: a8bccd1130582010b7a78e3f51a6210bd842292a
-last_modified_at: 2023-11-12
+content_hash: a11e6555db9a61e255a615d9524e687766fbdccd
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/guniq.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux uniq`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux uniq`

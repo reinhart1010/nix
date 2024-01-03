@@ -2,8 +2,8 @@
 layout: page
 title: osx/gruncon (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux runcon`."
-content_hash: 6aa035eb96af53254bd4ace62e88fe73146215e1
-last_modified_at: 2023-11-12
+content_hash: a665c20bfaf7a67a5938df14dcfb5b301e03c392
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gruncon.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux runcon`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux runcon`

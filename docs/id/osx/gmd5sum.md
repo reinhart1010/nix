@@ -2,8 +2,8 @@
 layout: page
 title: osx/gmd5sum (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux md5sum`."
-content_hash: 0ef54623dbd9853355f5e28f1ff4763e4aff831d
-last_modified_at: 2023-11-12
+content_hash: 20d88fd2ec3cfbe51e657db84085bafca9e17bc3
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gmd5sum.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux md5sum`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux md5sum`

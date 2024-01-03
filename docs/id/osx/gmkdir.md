@@ -2,8 +2,8 @@
 layout: page
 title: osx/gmkdir (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux mkdir`."
-content_hash: 9e65f58a4056fba041d01ae468d6fdb5ebef6ab4
-last_modified_at: 2023-11-12
+content_hash: 3df3d1f26d7bf888bf30bb62c9d99e4540c13170
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gmkdir.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux mkdir`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux mkdir`

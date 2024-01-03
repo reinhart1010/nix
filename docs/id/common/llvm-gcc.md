@@ -2,8 +2,8 @@
 layout: page
 title: common/llvm-gcc (Indonesia)
 description: "Perintah ini merupakan alias dari `clang`."
-content_hash: 3e238efe741270b72c87685564341fee73421815
-last_modified_at: 2023-11-12
+content_hash: 2fbdbf7b0cfda7dd118e9d1f77478856e9742113
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/common/llvm-gcc.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `clang`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr clang`

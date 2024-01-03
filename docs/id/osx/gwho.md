@@ -2,8 +2,8 @@
 layout: page
 title: osx/gwho (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux who`."
-content_hash: c488dcb3fae4ea77e3b86c660d73c6a6afe10edb
-last_modified_at: 2023-11-12
+content_hash: c8546c66bca32509c3f1c227730530d118df5faa
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gwho.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux who`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux who`

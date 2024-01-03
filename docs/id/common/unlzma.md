@@ -2,8 +2,8 @@
 layout: page
 title: common/unlzma (Indonesia)
 description: "Perintah ini merupakan alias dari `xz`."
-content_hash: ee8d16e493c2113bd5ce3e21a1588a66e630deec
-last_modified_at: 2023-11-12
+content_hash: a11b3b2824c1faaecc982015f04909a6cc38a587
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/common/unlzma.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Perintah ini merupakan alias dari `xz`.
 Informasi lebih lanjut: <https://manned.org/unlzma>.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr xz`

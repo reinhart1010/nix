@@ -2,8 +2,8 @@
 layout: page
 title: osx/ginstall (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux install`."
-content_hash: cd6f95fe70a9513cd369a5cc8ea0563c0e3b064c
-last_modified_at: 2023-11-12
+content_hash: 0389121c88daefd3de3ce60b58e41c09a6f598d0
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/ginstall.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux install`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux install`

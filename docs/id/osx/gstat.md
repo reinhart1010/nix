@@ -2,8 +2,8 @@
 layout: page
 title: osx/gstat (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux stat`."
-content_hash: 0c562a1ca3fff0639a0a5297cfb37dc32e7d8fd0
-last_modified_at: 2023-11-12
+content_hash: ab695e88a092e0764a465cbc09c65ff144d7afab
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gstat.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux stat`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux stat`

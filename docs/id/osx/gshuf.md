@@ -2,8 +2,8 @@
 layout: page
 title: osx/gshuf (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux shuf`."
-content_hash: b80515eaf3e1f998f32f16322519df45b654a1c5
-last_modified_at: 2023-11-12
+content_hash: 4441c9cd1f64c81e6d65297d6a313405467c5fac
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gshuf.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux shuf`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux shuf`

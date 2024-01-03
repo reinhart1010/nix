@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtee (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux tee`."
-content_hash: da3dae285f70bcd54d302fe8b61898c717d967a7
-last_modified_at: 2023-11-12
+content_hash: 023ff235194c0664c6cfc0e846576c0e200818e7
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gtee.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux tee`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux tee`

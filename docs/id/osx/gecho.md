@@ -2,8 +2,8 @@
 layout: page
 title: osx/gecho (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux echo`."
-content_hash: 67e26840b27d2e2629a7fbae4f88db893ec0559a
-last_modified_at: 2023-11-12
+content_hash: a31211ad89e78e5d39c4d153e60ef401512797cb
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gecho.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux echo`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux echo`

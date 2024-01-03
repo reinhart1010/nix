@@ -2,8 +2,8 @@
 layout: page
 title: osx/gcsplit (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux csplit`."
-content_hash: aa144c1feab6ee89d8d27139378f6e33f0439cb2
-last_modified_at: 2023-11-12
+content_hash: 56c77d15d691acc91d58dfdb390c945c78b9251c
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gcsplit.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux csplit`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux csplit`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gfind (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux find`."
-content_hash: 40a47922b4199810780bcfe93800968ad9e38fbc
-last_modified_at: 2023-11-12
+content_hash: e8126f9ca1e549aa88a8a094645801aa73427a9a
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gfind.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux find`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux find`

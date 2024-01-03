@@ -2,8 +2,8 @@
 layout: page
 title: osx/gping6 (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux ping6`."
-content_hash: 43eead9efd29ddcbd0c49e5b9116952b20df6505
-last_modified_at: 2023-11-12
+content_hash: 1c7edf1e72f6d9786e1a6738bb8dddcb72de586c
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gping6.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux ping6`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux ping6`

@@ -2,8 +2,8 @@
 layout: page
 title: windows/cinst (Indonesia)
 description: "Perintah ini merupakan alias dari `choco install`."
-content_hash: 5ee0d977c0522d9861fd2abc3d5ad5ff3b4f502c
-last_modified_at: 2023-11-12
+content_hash: 076ddf5bd4e82d012c22df73fa6c11d4a558c247
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/windows/cinst.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Perintah ini merupakan alias dari `choco install`.
 Informasi lebih lanjut: <https://docs.chocolatey.org/en-us/choco/commands/install>.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr choco install`

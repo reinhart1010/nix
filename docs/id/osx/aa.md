@@ -2,8 +2,8 @@
 layout: page
 title: osx/aa (Indonesia)
 description: "Perintah ini merupakan alias dari `yaa`."
-content_hash: 2aa5942f7c251e80bc93b96cd1fc1eb2d61c5606
-last_modified_at: 2023-11-12
+content_hash: 2aabdc7cafb870486be89bb7e192ecebc1883b70
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/aa.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `yaa`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr yaa`

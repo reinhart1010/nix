@@ -2,8 +2,8 @@
 layout: page
 title: common/python3 (Indonesia)
 description: "Perintah ini merupakan alias dari `python`."
-content_hash: 15ed1b1fca7670a7e2ab74c6157c4751c5559336
-last_modified_at: 2023-11-12
+content_hash: 2ea69e3ef3e860e4b0773792281d92ebc2242660
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/common/python3.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `python`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr python`

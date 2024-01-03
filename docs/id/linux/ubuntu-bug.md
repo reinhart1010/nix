@@ -2,8 +2,8 @@
 layout: page
 title: linux/ubuntu-bug (Indonesia)
 description: "Perintah ini merupakan alias dari `apport-bug`."
-content_hash: 721e7815be5e0fe48101fab38248490b3739face
-last_modified_at: 2023-11-12
+content_hash: 54076a7122b30f89a0700b3c6ed0a73484e82d32
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/linux/ubuntu-bug.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Perintah ini merupakan alias dari `apport-bug`.
 Informasi lebih lanjut: <https://manned.org/ubuntu-bug>.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr apport-bug`

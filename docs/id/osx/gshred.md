@@ -2,8 +2,8 @@
 layout: page
 title: osx/gshred (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux shred`."
-content_hash: 2af9300b4811d93a12f5b036fd29cf496c2b26bf
-last_modified_at: 2023-11-12
+content_hash: befb1161b416e9eeca02dabebb77e55b6950e38b
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gshred.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux shred`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux shred`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/grm (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux rm`."
-content_hash: 308731570e8879679b35267d47878986b0271723
-last_modified_at: 2023-11-12
+content_hash: 098ff8dd3f0caa4dfe55948200e6ff83e913e048
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/grm.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux rm`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux rm`

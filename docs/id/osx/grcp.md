@@ -2,8 +2,8 @@
 layout: page
 title: osx/grcp (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux rcp`."
-content_hash: d50f63ff9c1855ec13a26e9423754fc2787d7272
-last_modified_at: 2023-11-12
+content_hash: fc58a078907b014a83d6b990908d12a838caf523
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/grcp.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux rcp`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux rcp`

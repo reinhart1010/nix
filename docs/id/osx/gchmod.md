@@ -2,8 +2,8 @@
 layout: page
 title: osx/gchmod (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux chmod`."
-content_hash: 309032f2ab36df0b543dffca176269cffd93c9f3
-last_modified_at: 2023-11-12
+content_hash: e562e4be90efea149f844e133280d60ec4366461
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gchmod.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux chmod`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux chmod`

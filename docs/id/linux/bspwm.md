@@ -2,8 +2,8 @@
 layout: page
 title: linux/bspwm (Indonesia)
 description: "Perintah ini merupakan alias dari `bspc`."
-content_hash: e0c21c0b922d5f9ea96f1c55b8e77a2250b130b1
-last_modified_at: 2023-11-12
+content_hash: 2c7b1237d42f0e83c287605d83e4038547a56e62
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/linux/bspwm.html
@@ -99,6 +99,6 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Perintah ini merupakan alias dari `bspc`.
 Informasi lebih lanjut: <https://github.com/baskerville/bspwm>.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr bspc`

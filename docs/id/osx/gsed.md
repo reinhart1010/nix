@@ -2,8 +2,8 @@
 layout: page
 title: osx/gsed (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux sed`."
-content_hash: f6aa338e1dbe54e3469640158310f4a2fb9273a5
-last_modified_at: 2023-11-12
+content_hash: a7ecf5c16aca23bd9d69b09fe24a4469a67091b5
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gsed.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux sed`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux sed`

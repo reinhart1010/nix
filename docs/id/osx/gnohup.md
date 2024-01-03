@@ -2,8 +2,8 @@
 layout: page
 title: osx/gnohup (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux nohup`."
-content_hash: 801c2b046a222e24114e7e0fd9170b03084fd1d4
-last_modified_at: 2023-11-12
+content_hash: 7b7711680abd3069b906a02d56673b3615891d7c
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gnohup.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux nohup`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux nohup`

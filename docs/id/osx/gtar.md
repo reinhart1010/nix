@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtar (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux tar`."
-content_hash: ba11889aaef681cd306092b3693e0b52dd4cde28
-last_modified_at: 2023-11-12
+content_hash: adab1e213d1cb4b8a0a2a9a7186ce979b7ca757a
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gtar.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux tar`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux tar`

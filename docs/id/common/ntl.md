@@ -2,8 +2,8 @@
 layout: page
 title: common/ntl (Indonesia)
 description: "Perintah ini merupakan alias dari `netlify`."
-content_hash: 210ea0bb3e106708bd48425285b4b10ee8b23644
-last_modified_at: 2023-11-12
+content_hash: fc1c22f5c2cb633a99c4f538b7a0243ff07e12f0
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/common/ntl.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Perintah ini merupakan alias dari `netlify`.
 Informasi lebih lanjut: <https://cli.netlify.com>.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr netlify`

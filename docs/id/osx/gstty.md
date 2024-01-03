@@ -2,8 +2,8 @@
 layout: page
 title: osx/gstty (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux stty`."
-content_hash: 89756c515509ed212c729b1ad6d4aae5b7ef1c4f
-last_modified_at: 2023-11-12
+content_hash: eb0138291449f393512cd674e8b34510cf2c604e
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gstty.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux stty`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux stty`

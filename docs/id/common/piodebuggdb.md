@@ -2,8 +2,8 @@
 layout: page
 title: common/piodebuggdb (Indonesia)
 description: "Perintah ini merupakan alias dari `pio debug`."
-content_hash: 9d7fb2538115c1733b67df0ef5912b565afbab1d
-last_modified_at: 2023-11-12
+content_hash: 185e88022bd12b33c3741896181e36e1b565d4c3
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/common/piodebuggdb.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `pio debug`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr pio debug`

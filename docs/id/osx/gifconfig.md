@@ -2,8 +2,8 @@
 layout: page
 title: osx/gifconfig (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux ifconfig`."
-content_hash: 785e2f68c02447d2200df5acc3aaf41ec08747a5
-last_modified_at: 2023-11-12
+content_hash: 41990b6ce208358a91af6faad430ec8ac94aea46
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gifconfig.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux ifconfig`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux ifconfig`

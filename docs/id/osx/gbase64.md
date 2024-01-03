@@ -2,8 +2,8 @@
 layout: page
 title: osx/gbase64 (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux base64`."
-content_hash: 9f50c2a961bb25313ec1224f453eb123bd6dc7ed
-last_modified_at: 2023-11-12
+content_hash: 1d430d19f2613077eca7946753a7bebb738b7242
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gbase64.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux base64`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux base64`

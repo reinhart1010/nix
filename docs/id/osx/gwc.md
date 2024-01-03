@@ -2,8 +2,8 @@
 layout: page
 title: osx/gwc (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux wc`."
-content_hash: 1a9c67ea6b8e66dd7a78e9c0f66e811eb4732e23
-last_modified_at: 2023-11-12
+content_hash: d65a420dc88c8e6627abb29d89b1fd637adce084
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gwc.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux wc`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux wc`

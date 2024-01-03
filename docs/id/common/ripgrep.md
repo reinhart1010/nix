@@ -2,8 +2,8 @@
 layout: page
 title: common/ripgrep (Indonesia)
 description: "Perintah ini merupakan alias dari `rg`."
-content_hash: 6b577b28c59c9f9d4d59f9700973c8c71287acd8
-last_modified_at: 2023-11-12
+content_hash: 22ec2f4e05f16a3eeff9d81963f630f105cebb93
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/common/ripgrep.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `rg`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr rg`

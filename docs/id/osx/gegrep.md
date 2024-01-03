@@ -2,8 +2,8 @@
 layout: page
 title: osx/gegrep (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux egrep`."
-content_hash: 6a015710cac442473e6bf55dcc06423500afc93d
-last_modified_at: 2023-11-12
+content_hash: ad601a7e28b28919dc608bf3782a71de951fb776
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gegrep.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux egrep`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux egrep`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/god (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux od`."
-content_hash: 1802419472582151006ae089d338417477ea6155
-last_modified_at: 2023-11-12
+content_hash: da00a41169a82e67de41c52777ac258fd323899f
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/god.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux od`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux od`

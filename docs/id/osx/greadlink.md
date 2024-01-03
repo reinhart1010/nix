@@ -2,8 +2,8 @@
 layout: page
 title: osx/greadlink (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux readlink`."
-content_hash: 44b2509665d4c8ba41c974fcb446bda455524c40
-last_modified_at: 2023-11-12
+content_hash: 7893328dc0542a0439759e8c3f2ac2a419b34098
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/greadlink.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux readlink`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux readlink`

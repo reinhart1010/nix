@@ -2,8 +2,8 @@
 layout: page
 title: osx/gcksum (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux cksum`."
-content_hash: b7525ba79038b028053fe7b65af0025a50b167f2
-last_modified_at: 2023-11-12
+content_hash: f6546cbdca39c63ba6f253d084faaf34c200b751
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gcksum.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux cksum`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux cksum`

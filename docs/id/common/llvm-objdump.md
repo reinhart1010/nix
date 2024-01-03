@@ -2,8 +2,8 @@
 layout: page
 title: common/llvm-objdump (Indonesia)
 description: "Perintah ini merupakan alias dari `objdump`."
-content_hash: 387ddf094f9e9e5cf6b3211fb0cfb831104f556b
-last_modified_at: 2023-11-12
+content_hash: bed47f78961cb9faa9b6675ce9ce8d6ec9a8f410
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/common/llvm-objdump.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `objdump`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr objdump`

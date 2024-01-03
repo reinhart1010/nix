@@ -2,8 +2,8 @@
 layout: page
 title: osx/gwhich (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux which`."
-content_hash: 916564682a07cac5f93dded814b48da037ba6454
-last_modified_at: 2023-11-12
+content_hash: 5565824f92ff99537f0ae47b66446617dcfc99b2
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gwhich.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux which`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux which`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtr (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux tr`."
-content_hash: a0115524853bfcc0585a3cb6843fb9166230d941
-last_modified_at: 2023-11-12
+content_hash: a07ddae08268e67a03d5f14727ef9a61a48abe9e
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gtr.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux tr`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux tr`

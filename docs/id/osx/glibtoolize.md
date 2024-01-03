@@ -2,8 +2,8 @@
 layout: page
 title: osx/glibtoolize (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux libtoolize`."
-content_hash: 93610f5a5279e934e5d94443f5a7e13a2f28ae3b
-last_modified_at: 2023-11-12
+content_hash: 05f8b95ea8dfea3e56adafd20cb545cec7fc1bca
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/glibtoolize.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux libtoolize`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux libtoolize`

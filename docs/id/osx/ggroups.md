@@ -2,8 +2,8 @@
 layout: page
 title: osx/ggroups (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux groups`."
-content_hash: 9a1e55a01d053a9afc6e438c4f597588ab5b8fb1
-last_modified_at: 2023-11-12
+content_hash: 96f2151505d0c85e17faf52f68b76ace718ff497
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/ggroups.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux groups`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux groups`

@@ -2,8 +2,8 @@
 layout: page
 title: linux/alternatives (Indonesia)
 description: "Perintah ini merupakan alias dari `update-alternatives`."
-content_hash: 782eb3df03da02e44ac5042da158ce5999771b36
-last_modified_at: 2023-11-12
+content_hash: 2ba8f634867174064cd36e01aa75bc877dddb3c9
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/linux/alternatives.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Perintah ini merupakan alias dari `update-alternatives`.
 Informasi lebih lanjut: <https://manned.org/alternatives>.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr update-alternatives`

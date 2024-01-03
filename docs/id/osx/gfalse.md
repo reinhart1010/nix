@@ -2,8 +2,8 @@
 layout: page
 title: osx/gfalse (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux false`."
-content_hash: 998884dd74990871d6c9065259969ab2e43218af
-last_modified_at: 2023-11-12
+content_hash: d433a2bf586de55d302841634a3a4538ac92e324
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gfalse.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux false`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux false`

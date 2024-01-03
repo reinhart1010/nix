@@ -2,8 +2,8 @@
 layout: page
 title: osx/ghead (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux head`."
-content_hash: 93c5c82a35fd90224de6b14e343ca7e7ed22167d
-last_modified_at: 2023-11-12
+content_hash: 61ee01ad6bbc0803b3aade7dd39bba81a999e42e
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/ghead.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux head`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux head`

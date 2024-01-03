@@ -2,8 +2,8 @@
 layout: page
 title: linux/ip-route-list (Indonesia)
 description: "Perintah ini merupakan alias dari `ip-route-show`."
-content_hash: 0694b8c6968503ab1dda275aa18acc454e9131c2
-last_modified_at: 2023-11-12
+content_hash: b3da4afc012133401c5fb5447eb1daa08bb9a3fc
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/linux/ip-route-list.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `ip-route-show`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr ip-route-show`

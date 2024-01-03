@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtail (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux tail`."
-content_hash: 048327e255ae24d6d34c2f598b3fb07e7205e2e7
-last_modified_at: 2023-11-12
+content_hash: 67a8608080dab1ab120a4de4623152e25ea5a3dd
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gtail.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux tail`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux tail`

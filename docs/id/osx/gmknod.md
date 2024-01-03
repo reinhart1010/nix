@@ -2,8 +2,8 @@
 layout: page
 title: osx/gmknod (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux mknod`."
-content_hash: 88203c501c0595fe5ef96a58e51bc6c9cf1d9831
-last_modified_at: 2023-11-12
+content_hash: 5d53f688d7f7b5e89ec5d80272ed9efad57d31b1
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gmknod.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux mknod`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux mknod`

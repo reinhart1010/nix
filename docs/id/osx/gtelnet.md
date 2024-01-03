@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtelnet (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux telnet`."
-content_hash: de73ad305c1051b3d8ccfca76d23667b9a814d97
-last_modified_at: 2023-11-12
+content_hash: 1b7065732e0fdc1052bd9bb06df5b46574d112b7
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gtelnet.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux telnet`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux telnet`

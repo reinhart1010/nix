@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtruncate (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux truncate`."
-content_hash: 494e934f8ac8025707a947e0729c4324198deac6
-last_modified_at: 2023-11-12
+content_hash: 29b785ffe5930728cc098b93128b7d7b50026723
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gtruncate.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux truncate`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux truncate`

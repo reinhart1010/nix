@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtalk (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux talk`."
-content_hash: 659efea824ae85895a8e659b6e6ef6d4f3d3236f
-last_modified_at: 2023-11-12
+content_hash: f524f7cb9d82b9b707a083e5018bd4f6a221a64c
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gtalk.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux talk`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux talk`

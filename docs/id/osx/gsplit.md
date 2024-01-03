@@ -2,8 +2,8 @@
 layout: page
 title: osx/gsplit (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux split`."
-content_hash: d634a2a46c6394aa979b1532cd0eed50752a34e8
-last_modified_at: 2023-11-12
+content_hash: 9d7662a0e9bfade35d2c3de39424ef4db364ce9a
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gsplit.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux split`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux split`

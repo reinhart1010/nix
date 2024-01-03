@@ -2,8 +2,8 @@
 layout: page
 title: linux/batcat (Indonesia)
 description: "Perintah ini merupakan alias dari `bat`."
-content_hash: e2bfd7ef4a47117dccba52e81149ed94afed0408
-last_modified_at: 2023-11-12
+content_hash: b1b54c853db12a9cebf5b0582f1f981105cd1254
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/linux/batcat.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Perintah ini merupakan alias dari `bat`.
 Informasi lebih lanjut: <https://github.com/sharkdp/bat>.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr bat`

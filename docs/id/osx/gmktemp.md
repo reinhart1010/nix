@@ -2,8 +2,8 @@
 layout: page
 title: osx/gmktemp (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux mktemp`."
-content_hash: ffccc41452473569dd15ae47fa38ff088d10ff79
-last_modified_at: 2023-11-12
+content_hash: 3421d6e2a7aaa63d87843bb55b952db4f4819919
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gmktemp.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux mktemp`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux mktemp`

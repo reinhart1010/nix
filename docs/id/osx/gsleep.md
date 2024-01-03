@@ -2,8 +2,8 @@
 layout: page
 title: osx/gsleep (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux sleep`."
-content_hash: 6bd39d0c7e5fb3766c236f8c04e72d8f90c90f3f
-last_modified_at: 2023-11-12
+content_hash: c6c486c4c278f9bd3b5b434cd9995dde25866d67
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gsleep.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux sleep`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux sleep`

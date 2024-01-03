@@ -2,8 +2,8 @@
 layout: page
 title: osx/glogger (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux logger`."
-content_hash: fe0e81badd150c71a317403460d715ff6bdef523
-last_modified_at: 2023-11-12
+content_hash: 78a04419ca0e233b4df10de04c0d833be13f2e9b
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/glogger.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux logger`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux logger`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtouch (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux touch`."
-content_hash: 86a39953da3128b632b0f10c464e367d1403dac7
-last_modified_at: 2023-11-12
+content_hash: 63271736939086e72d55bd911662d68791be7fd2
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gtouch.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux touch`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux touch`

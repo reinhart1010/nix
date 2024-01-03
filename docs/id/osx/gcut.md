@@ -2,8 +2,8 @@
 layout: page
 title: osx/gcut (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux cut`."
-content_hash: 996c355d544d7061e3b995100206ec7d9e45ae9a
-last_modified_at: 2023-11-12
+content_hash: f8f1c5f64d38519541dee46f58e174fea79bbeb9
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gcut.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux cut`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux cut`

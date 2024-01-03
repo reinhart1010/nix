@@ -2,8 +2,8 @@
 layout: page
 title: common/tldrl (Indonesia)
 description: "Perintah ini merupakan alias dari `tldr-lint`."
-content_hash: 158edd1e85a7f394910d63254f0e5370e58cab70
-last_modified_at: 2023-11-12
+content_hash: 3084ec81543a69c865d43924edcab2d7fbb8eaa0
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/common/tldrl.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Perintah ini merupakan alias dari `tldr-lint`.
 Informasi lebih lanjut: <https://github.com/tldr-pages/tldr-lint>.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr tldr-lint`

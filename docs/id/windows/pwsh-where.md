@@ -2,8 +2,8 @@
 layout: page
 title: windows/pwsh-where (Indonesia)
 description: "Perintah ini merupakan alias dari `Where-Object`."
-content_hash: 0183494f9e2ab4a6cec1f975e5688f87980f7fa0
-last_modified_at: 2023-12-22
+content_hash: 462b35b9ae054569ec925a5a986c6e3b94e44947
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/windows/pwsh-where.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Perintah ini merupakan alias dari `Where-Object`.
 Informasi lebih lanjut: <https://learn.microsoft.com/powershell/module/microsoft.powershell.core/where-object>.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr Where-Object`

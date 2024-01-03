@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtty (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux tty`."
-content_hash: 06ce84c05bd4aec786b675c30a9fb4f074476fcf
-last_modified_at: 2023-11-12
+content_hash: 4521b2f23e16a028546023bb6bcee13fa3a5fef6
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gtty.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux tty`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux tty`

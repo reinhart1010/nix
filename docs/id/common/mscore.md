@@ -2,8 +2,8 @@
 layout: page
 title: common/mscore (Indonesia)
 description: "Perintah ini merupakan alias dari `musescore`."
-content_hash: af95264b2c7d454246853bd4a15a8586be144a14
-last_modified_at: 2023-11-12
+content_hash: cb7c16b73a58a23ce73e2d2b702b58a9be39e2d1
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/common/mscore.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Perintah ini merupakan alias dari `musescore`.
 Informasi lebih lanjut: <https://musescore.org/handbook/command-line-options>.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr musescore`

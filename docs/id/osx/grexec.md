@@ -2,8 +2,8 @@
 layout: page
 title: osx/grexec (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux rexec`."
-content_hash: 00e17b652aba91309f098d61bbfea239b029ecd6
-last_modified_at: 2023-11-12
+content_hash: b02e12df24745bff826d0d1cacb1169466ff7bad
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/grexec.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux rexec`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux rexec`

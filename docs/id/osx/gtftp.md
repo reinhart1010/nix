@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtftp (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux tftp`."
-content_hash: fba6a965b0187534be965eed344f454de627c5de
-last_modified_at: 2023-11-12
+content_hash: d0f9051545066fb0f49d37f0d28ec57d3ab69dad
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gtftp.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux tftp`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux tftp`

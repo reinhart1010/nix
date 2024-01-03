@@ -2,8 +2,8 @@
 layout: page
 title: common/rcat (Indonesia)
 description: "Perintah ini merupakan alias dari `rc`."
-content_hash: d642af23255e1949c36f5aaa2636f90742ad5fc5
-last_modified_at: 2023-11-12
+content_hash: d8c85a75f9ffe92c75755e9f97223bdc70d6a072
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/common/rcat.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `rc`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr rc`

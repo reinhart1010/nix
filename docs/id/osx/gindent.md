@@ -2,8 +2,8 @@
 layout: page
 title: osx/gindent (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux indent`."
-content_hash: 9d9c6ce6715bd649c24ba2347dfb09fda0f406bb
-last_modified_at: 2023-11-12
+content_hash: 58fb9cd37eac35b08d8ee51f69aebf8d02ad4739
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gindent.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux indent`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux indent`

@@ -2,8 +2,8 @@
 layout: page
 title: common/nm-classic (Indonesia)
 description: "Perintah ini merupakan alias dari `nm`."
-content_hash: 128be9a5dddb0578b6c0f3e61349569f33c7bfc2
-last_modified_at: 2023-11-12
+content_hash: 627a5fc063eb72930b82e7a6628ba2b30cf34bde
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/common/nm-classic.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `nm`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr nm`

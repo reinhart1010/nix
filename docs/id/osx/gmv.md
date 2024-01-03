@@ -2,8 +2,8 @@
 layout: page
 title: osx/gmv (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux mv`."
-content_hash: f2a9750349cbf3d9e2b34caba99d965690c04390
-last_modified_at: 2023-11-12
+content_hash: 7dc763f58bbd45295bb94fcc363b3a6a52047361
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gmv.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux mv`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux mv`

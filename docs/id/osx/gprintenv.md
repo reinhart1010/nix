@@ -2,8 +2,8 @@
 layout: page
 title: osx/gprintenv (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux printenv`."
-content_hash: f1f49f557d72139d14b358bad2854e19fff9ce49
-last_modified_at: 2023-11-12
+content_hash: 6939b09cd8fc6758c320e3055ab2ce9a31d1be1f
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gprintenv.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux printenv`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux printenv`

@@ -2,8 +2,8 @@
 layout: page
 title: common/git-annotate (Türkçe)
 description: "Her satırdaki dosyanın yanında en son commit değeri ve yazarını göster."
-content_hash: 3edea2333adc46c2da0d8062c5d1e2f0123a8ba1
-last_modified_at: 2023-11-12
+content_hash: e232498ced636675ceeaa81ee10a4161bbaa2a61
+last_modified_at: 2024-01-03
 related_topics:
   - title: English version
     url: /en/common/git-annotate.html
@@ -27,6 +27,6 @@ Daha fazla bilgi için: <https://git-scm.com/docs/git-annotate>.
 
 `git annotate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya</span>
 
-- Bir dosyayı, her satırında son commit değeri ve yazarının e-postası bulunacak şekilde göster:
+- Bir dosyayı, her satırında son commit değeri ve yazarının [e]-postası bulunacak şekilde göster:
 
 `git annotate -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">örnek/dosya</span>

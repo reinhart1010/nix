@@ -2,8 +2,8 @@
 layout: page
 title: osx/gawk (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux awk`."
-content_hash: f8c41e4984244f821d37ba64bb61e580c9bb9925
-last_modified_at: 2023-11-12
+content_hash: c6b43c00efbcfe182ea8781dea43a763c2e378c2
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gawk.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux awk`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux awk`

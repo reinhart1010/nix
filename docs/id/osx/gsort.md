@@ -2,8 +2,8 @@
 layout: page
 title: osx/gsort (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux sort`."
-content_hash: add8f9df41037c0f04602eee316abc83d427994f
-last_modified_at: 2023-11-12
+content_hash: bd9945c57040ce920a819f36c14eafb5fe19f32d
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gsort.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux sort`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux sort`

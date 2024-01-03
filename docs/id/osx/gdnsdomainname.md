@@ -2,8 +2,8 @@
 layout: page
 title: osx/gdnsdomainname (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux dnsdomainname`."
-content_hash: 44a8a610293780326406592298f2707c987d9bd6
-last_modified_at: 2023-11-12
+content_hash: 688d45a3a58e57e320142ffaa2059c547fb0cc58
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gdnsdomainname.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux dnsdomainname`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux dnsdomainname`

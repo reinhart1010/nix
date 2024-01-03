@@ -2,8 +2,8 @@
 layout: page
 title: osx/gwhoami (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux whoami`."
-content_hash: d101242ab0256ed799dec41377a21e652fae53da
-last_modified_at: 2023-11-12
+content_hash: bbbe3d1c3881e837e3a0ca9c257972d2c3124288
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gwhoami.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux whoami`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux whoami`

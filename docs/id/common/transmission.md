@@ -2,8 +2,8 @@
 layout: page
 title: common/transmission (Indonesia)
 description: "Perintah ini merupakan alias dari `transmission-daemon`."
-content_hash: aee59e99ce4d8f022232a22dc4aebb47d96a139d
-last_modified_at: 2023-11-12
+content_hash: 2261c25417c41e53409004c194065369fecdd352
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/common/transmission.html
@@ -99,6 +99,6 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Perintah ini merupakan alias dari `transmission-daemon`.
 Informasi lebih lanjut: <https://transmissionbt.com/>.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr transmission-daemon`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gsha224sum (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux sha224sum`."
-content_hash: e9ab8ed43eb8d78efd505f6b1e55e5a8d9240894
-last_modified_at: 2023-11-12
+content_hash: 80ad6ee6bab4b6a9e5d370e639b115ff3d0ec96e
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gsha224sum.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux sha224sum`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux sha224sum`

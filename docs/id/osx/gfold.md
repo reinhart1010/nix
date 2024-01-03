@@ -2,8 +2,8 @@
 layout: page
 title: osx/gfold (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux fold`."
-content_hash: 620e4661cbf1b2d533cc73ac0a05d63cfa0696e4
-last_modified_at: 2023-11-12
+content_hash: 2283d8f7af316a2c79d66b2fd48c73b97e7dbd25
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gfold.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux fold`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux fold`

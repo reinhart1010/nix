@@ -2,8 +2,8 @@
 layout: page
 title: osx/gchcon (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux chcon`."
-content_hash: a5c2e90e6b45f25fc7654b2a7fbad49345262195
-last_modified_at: 2023-11-12
+content_hash: 892c69f53aa60ac4fa9b28c29684a5289a48a61d
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gchcon.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux chcon`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux chcon`

@@ -2,8 +2,8 @@
 layout: page
 title: common/llvm-g++ (Indonesia)
 description: "Perintah ini merupakan alias dari `clang++`."
-content_hash: 755e7fa574e66f14a2db180bd70307a1fee2a4c2
-last_modified_at: 2023-11-12
+content_hash: e494718000eca640f975f7d174eff6e703c07e8f
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/common/llvm-g++.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `clang++`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr clang++`

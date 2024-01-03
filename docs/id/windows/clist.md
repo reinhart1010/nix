@@ -2,8 +2,8 @@
 layout: page
 title: windows/clist (Indonesia)
 description: "Perintah ini merupakan alias dari `choco list`."
-content_hash: 9b3e11f369dd50baaff397b42b17011b8d67d730
-last_modified_at: 2023-11-12
+content_hash: d99aeedf0076bd2835ed61c4a44c1a3279cd3fd4
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/windows/clist.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Perintah ini merupakan alias dari `choco list`.
 Informasi lebih lanjut: <https://docs.chocolatey.org/en-us/choco/commands/list>.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr choco list`

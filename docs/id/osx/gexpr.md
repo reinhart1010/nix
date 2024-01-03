@@ -2,8 +2,8 @@
 layout: page
 title: osx/gexpr (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux expr`."
-content_hash: cb76d53ccfb51e6928a2326b4c2173c1bc63ddd4
-last_modified_at: 2023-11-12
+content_hash: bb05f7321bbc458098bb558ae534c5b8770f179e
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gexpr.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux expr`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux expr`

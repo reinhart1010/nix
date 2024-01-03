@@ -2,8 +2,8 @@
 layout: page
 title: osx/gunlink (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux unlink`."
-content_hash: bcda7bada6e91166cab2c969b4d79d0094522f47
-last_modified_at: 2023-11-12
+content_hash: 13697a0236c068a922f0c1d39f49192e4772ace2
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gunlink.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux unlink`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux unlink`

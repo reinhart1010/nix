@@ -2,8 +2,8 @@
 layout: page
 title: osx/grsh (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux rsh`."
-content_hash: 134db68f4340b05a89b2cccc4ae384fd308b581d
-last_modified_at: 2023-11-12
+content_hash: 42f6d68cbb6d296c050baf210e86e369cb723816
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/grsh.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux rsh`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux rsh`

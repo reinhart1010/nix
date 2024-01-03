@@ -2,8 +2,8 @@
 layout: page
 title: osx/gbasenc (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux basenc`."
-content_hash: 8bb1eaadeea96afd7914bc56aaaf91f80cf4e5f6
-last_modified_at: 2023-11-12
+content_hash: ee4933ba69285b61c5db871db609cf2cbf8b3839
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gbasenc.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux basenc`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux basenc`

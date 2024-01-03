@@ -2,8 +2,8 @@
 layout: page
 title: linux/cc (Indonesia)
 description: "Perintah ini merupakan alias dari `gcc`."
-content_hash: f1c2b04940bf78799cf54c59b8f681eb00697c6c
-last_modified_at: 2023-11-12
+content_hash: 3159af1515d945ff6672df3567f0ff6251594a7b
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/linux/cc.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Perintah ini merupakan alias dari `gcc`.
 Informasi lebih lanjut: <https://gcc.gnu.org>.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr gcc`

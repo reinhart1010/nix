@@ -2,8 +2,8 @@
 layout: page
 title: osx/gfgrep (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux fgrep`."
-content_hash: c61c40af3c14cde97c89e2e4929ca314d81db4c1
-last_modified_at: 2023-11-12
+content_hash: 7bc28ad475fa59fecd7f90bcf95fb4fa0990c57c
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gfgrep.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux fgrep`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux fgrep`

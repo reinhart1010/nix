@@ -2,8 +2,8 @@
 layout: page
 title: osx/gid (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux id`."
-content_hash: f389c00ff3d8d5365a4cb0b5b4e78ec324039f62
-last_modified_at: 2023-11-12
+content_hash: 0314012b34ed293b19009d8a6c3a7fc058041db7
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gid.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux id`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux id`

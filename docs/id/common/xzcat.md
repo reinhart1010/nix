@@ -2,8 +2,8 @@
 layout: page
 title: common/xzcat (Indonesia)
 description: "Perintah ini merupakan alias dari `xz`."
-content_hash: 131b94fa577a54321ef4db4500a0c17c6d30f15c
-last_modified_at: 2023-11-12
+content_hash: d9b5c49aedd442268cae16ea0c4e0ab42ac7f28f
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/common/xzcat.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Perintah ini merupakan alias dari `xz`.
 Informasi lebih lanjut: <https://manned.org/xzcat>.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr xz`

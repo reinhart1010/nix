@@ -2,8 +2,8 @@
 layout: page
 title: osx/gsha256sum (Indonesia)
 description: "Perintah ini merupakan alias dari `-p linux sha256sum`."
-content_hash: bd9a95fdb4d90d7adf7972d46b2c09c4bae6c87a
-last_modified_at: 2023-11-12
+content_hash: 934fb5cb355bf3ef2d7a9943b865c506128cc860
+last_modified_at: 2024-01-03
 related_topics:
   - title: العربية version
     url: /ar/osx/gsha256sum.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Perintah ini merupakan alias dari `-p linux sha256sum`.
 
-- Menampilkan dokumentasi untuk perintah asli:
+- Tampilkan dokumentasi untuk perintah asli:
 
 `tldr -p linux sha256sum`
