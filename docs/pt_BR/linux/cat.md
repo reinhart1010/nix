@@ -2,8 +2,8 @@
 layout: page
 title: linux/cat (português (Brasil))
 description: "Imprime e concatena arquivos."
-content_hash: 2e0af1b8deafa2def3ab6f1234da94db1583a49a
-last_modified_at: 2023-11-12
+content_hash: 12c63a844e72e62fd3b502973ef6830d15a09bf2
+last_modified_at: 2024-01-03
 related_topics:
   - title: English version
     url: /en/linux/cat.html
@@ -32,10 +32,6 @@ Mais informações: <https://www.gnu.org/software/coreutils/cat>.
 - Anexa vários arquivos a um arquivo de saída:
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo1 caminho/para/arquivo2 ...</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_de_saída</span>
-
-- Copia o conteúdo de um arquivo para um arquivo de saída no modo sem buffer:
-
-`cat -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/tty12</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/tty13</span>
 
 - Escreve a `stdin` em um arquivo:
 

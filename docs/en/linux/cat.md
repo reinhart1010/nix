@@ -2,8 +2,8 @@
 layout: page
 title: linux/cat (English)
 description: "Print and concatenate files."
-content_hash: d1525df9d27dfb4db147161c8867f6ca52ee0d9f
-last_modified_at: 2023-11-12
+content_hash: bcfffd82764c53ae06e19f7c60d953b40b4e0db8
+last_modified_at: 2024-01-03
 related_topics:
   - title: हिन्दी version
     url: /hi/linux/cat.html
@@ -32,10 +32,6 @@ More information: <https://www.gnu.org/software/coreutils/cat>.
 - Append several files to an output file:
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file</span>
-
-- Copy the contents of a file into an output file in [u]nbuffered mode:
-
-`cat -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/tty12</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/tty13</span>
 
 - Write `stdin` to a file:
 

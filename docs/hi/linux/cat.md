@@ -2,8 +2,8 @@
 layout: page
 title: linux/cat (हिन्दी)
 description: "फ़ाइलों को प्रिंट करता है और जोड़ता है।"
-content_hash: 6ea714665264e415c5af819d3bd5ffbeab46b2b2
-last_modified_at: 2023-11-12
+content_hash: 6f8174152390e922228d50ed8f023c8f7d16ed67
+last_modified_at: 2024-01-03
 related_topics:
   - title: English version
     url: /en/linux/cat.html
@@ -32,10 +32,6 @@ tldri18n_status: 2
 - आउटपुट फ़ाइल में कई फ़ाइलें जोड़ें:
 
 `cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">फ़ाइल1/का/पथ फ़ाइल2/का/पथ ...</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">आउटपुट_फ़ाइल/का/पथ</span>
-
-- फ़ाइल की सामग्री को अनबफर्ड ([u]nbuffered) मोड में आउटपुट फ़ाइल में कॉपी करें:
-
-`cat -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/tty12</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/dev/tty13</span>
 
 - फ़ाइल में `stdin` लिखें:
 
