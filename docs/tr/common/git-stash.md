@@ -3,7 +3,7 @@ layout: page
 title: common/git-stash (Türkçe)
 description: "Yerel Git düzenlemelerini geçici bir alanda sakla."
 content_hash: 29db500e6cb6e9abb01fb224014b46351dd29216
-last_modified_at: 2024-01-02
+last_modified_at: 2024-01-03
 related_topics:
   - title: English version
     url: /en/common/git-stash.html
@@ -17,9 +17,12 @@ related_topics:
   - title: italiano version
     url: /it/common/git-stash.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# git stash
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git stash
 
 Yerel Git düzenlemelerini geçici bir alanda sakla.
 Daha fazla bilgi için: <https://git-scm.com/docs/git-stash>.

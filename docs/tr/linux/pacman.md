@@ -3,7 +3,7 @@ layout: page
 title: linux/pacman (Türkçe)
 description: "Arch Linux paket yönetim aracı."
 content_hash: 62f014f483f30c6d02206b57beb1513448786182
-last_modified_at: 2024-01-02
+last_modified_at: 2024-01-03
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -38,9 +38,12 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/pacman.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# pacman
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># pacman
 
 Arch Linux paket yönetim aracı.
 Ayrıca bakınız: `pacman-database`, `pacman-deptest`, `pacman-files`, `pacman-key`, `pacman-mirrors`, `pacman-query`, `pacman-remove`, `pacman-sync`, `pacman-upgrade`.
