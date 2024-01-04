@@ -3,7 +3,7 @@ layout: page
 title: common/bash (español)
 description: "Bourne-Again SHell, un intérprete de línea de comandos compatible con `sh`."
 content_hash: ec9ff8e53ea92c66f1d46314d618e93c9fa96c4c
-last_modified_at: 2024-01-03
+last_modified_at: 2024-01-04
 related_topics:
   - title: Deutsch version
     url: /de/common/bash.html
@@ -32,12 +32,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/bash.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># bash
+# bash
 
 Bourne-Again SHell, un intérprete de línea de comandos compatible con `sh`.
 Vea también: `zsh`; `histexpand`, para expansión de historial de comandos.
