@@ -2,8 +2,8 @@
 layout: page
 title: android/dalvikvm (فارسی)
 description: "ماشین مجازی اندروید."
-content_hash: efdff9b9ba97076a3e2c28a9444e13ba0868bda1
-last_modified_at: 2023-11-12
+content_hash: d559f8432cbdac95c744f903eea840d7f38d1d98
+last_modified_at: 2024-01-05
 related_topics:
   - title: বাংলা version
     url: /bn/android/dalvikvm.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/dalvikvm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/dalvikvm.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/dalvikvm.html
@@ -71,4 +74,4 @@ tldri18n_status: 2
 
 - اجرای یک برنامه جاوا :
 
-`dalvikvm -classpath `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/فایل.jar</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">classname</span>
+`dalvikvm -classpath `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.jar</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">classname</span>

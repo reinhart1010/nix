@@ -2,8 +2,8 @@
 layout: page
 title: android/input (فارسی)
 description: "ارسال کد رویداد یا ورودی صفحه نمایش به یک دستگاه اندروید."
-content_hash: afcf019a739f6003c4986d1d0c46fb7ed0bbff3d
-last_modified_at: 2023-11-12
+content_hash: e29ce33b8e99f28a024fb9812b55020fe0540324
+last_modified_at: 2024-01-05
 related_topics:
   - title: বাংলা version
     url: /bn/android/input.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/input.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/input.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/input.html
@@ -73,7 +76,7 @@ tldri18n_status: 2
 
 - ارسال یک متن به یک دستگاه اندروید (`%s` نمایانگر فاصله است) :
 
-`input text "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">متن</span>`"`
+`input text "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">text</span>`"`
 
 - ارسال یک ضربه به یک دستگاه اندروید :
 

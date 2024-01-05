@@ -2,8 +2,8 @@
 layout: page
 title: linux/ac (فارسی)
 description: "چاپ مدت زمان اتصال کاربران."
-content_hash: 3eb09e780b5d45b7d7041afcfde0536de16d9c29
-last_modified_at: 2024-01-04
+content_hash: 2366dd1f82f916e8ccfc89e958c9baa1d49bddf2
+last_modified_at: 2024-01-05
 related_topics:
   - title: català version
     url: /ca/linux/ac.html
@@ -49,11 +49,11 @@ tldri18n_status: 2
 
 - چاپ تعداد ساعات اتصال یک کاربر خاص:
 
-`ac --individual-totals `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">نام_کاربری</span>
+`ac --individual-totals `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>
 
 - چاپ تعداد ساعات اتصال یک کاربر خاص (به همراه مجموع آن):
 
-`ac --daily-totals --individual-totals `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">نام_کاربری</span>
+`ac --daily-totals --individual-totals `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>
 
 - نمایش اطلاعات بیشتر:
 

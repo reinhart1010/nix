@@ -2,8 +2,8 @@
 layout: page
 title: linux/dnf (فارسی)
 description: "ابزار مدیریت بسته‌ها برای RHEL، Fedora و CentOS (جایگزین `yum`)."
-content_hash: 74b54392c392347bca0f541362430437f43a1a88
-last_modified_at: 2023-11-12
+content_hash: 6bf6776a576fda8c22b1a7c3d4a902505b23d61f
+last_modified_at: 2024-01-05
 related_topics:
   - title: català version
     url: /ca/linux/dnf.html
@@ -46,19 +46,19 @@ tldri18n_status: 2
 
 - جستجوی بسته‌ها بر اساس کلمات کلیدی:
 
-`dnf search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">کلمه_کلیدی1 کلمه_کلیدی2 ...</span>
+`dnf search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword1 keyword2 ...</span>
 
 - نمایش جزئیات یک بسته:
 
-`dnf info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">بسته</span>
+`dnf info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - نصب یک بسته جدید (از `-y` برای تأیید اتوماتیک تمام پنجره‌ها استفاده کنید):
 
-`sudo dnf install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">بسته1 بسته2 ...</span>
+`sudo dnf install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 ...</span>
 
 - حذف یک بسته:
 
-`sudo dnf remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">بسته1 بسته2 ...</span>
+`sudo dnf remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 ...</span>
 
 - لیست بسته‌های نصب شده:
 
@@ -66,7 +66,7 @@ tldri18n_status: 2
 
 - یافتن بسته‌هایی که دستور مشخصی را ارائه می‌دهند:
 
-`dnf provides `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">دستور</span>
+`dnf provides `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
 - مشاهده تاریخچه تمام عملیات‌های گذشته:
 

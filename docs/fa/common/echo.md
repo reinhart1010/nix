@@ -2,8 +2,8 @@
 layout: page
 title: common/echo (فارسی)
 description: "چاپ ورودی داده شده."
-content_hash: 6c6a049f5a69498d78cbc91ca6f7f915430908d6
-last_modified_at: 2023-11-12
+content_hash: 3d6f61161120b34fc7873a3d74a7711cb0972c3f
+last_modified_at: 2024-01-05
 related_topics:
   - title: Deutsch version
     url: /de/common/echo.html
@@ -62,11 +62,11 @@ tldri18n_status: 2
 
 - افزودن یک پیام به انتهای یک فایل:
 
-`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">سلام دنیا</span>`" >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">فایل.متنی</span>
+`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">سلام دنیا</span>`" >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file.txt</span>
 
 - فعال کردن تفسیر کاراکترهای خاص، برای مثال tab:
 
-`echo -e "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ستون 1\tستون 2</span>`"`
+`echo -e "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Column 1\tColumn 2</span>`"`
 
 - چاپ وضعیت خروج آخرین دستور اجرا شده (نکته: معادل های این دستور در ویندور به ترتیب echo %errorlevel% و $lastexitcode هستند.) :
 

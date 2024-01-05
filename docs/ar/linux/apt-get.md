@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-get (العربية)
 description: "أداة إدارة الحزم لديبيان وأوبونتو."
-content_hash: 6ad94eabd2bd59360167821cf2c2e29013caeb15
-last_modified_at: 2023-12-14
+content_hash: a87d18d91d96b3874dd46b533dd137a12d1b6a83
+last_modified_at: 2024-01-05
 related_topics:
   - title: català version
     url: /ca/linux/apt-get.html
@@ -58,15 +58,15 @@ tldri18n_status: 2
 
 - تثبيت حزمة معينة، أو تحديثها إلى آخر إصدار متوفر:
 
-`apt-get install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">الحزمة</span>
+`apt-get install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - إزالة حزمة معينة:
 
-`apt-get remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">الحزمة</span>
+`apt-get remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - إزالة حزمة معينة وملفات الإعدادات الخاصة بها:
 
-`apt-get purge `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">الحزمة</span>
+`apt-get purge `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - تطوير جميع الحزم المثبتة إلى أجدد الإصدارات المتوفرة:
 

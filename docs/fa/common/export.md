@@ -2,8 +2,8 @@
 layout: page
 title: common/export (فارسی)
 description: "دستور تغییر متغییرهای محلی سیستم موجود برای پروسه های جدید."
-content_hash: 97e6e74ce2c1a31d5605c4d55eed85253bc5fd27
-last_modified_at: 2024-01-01
+content_hash: 3d50522a7ae41497805066f7f3baa35d1b77046e
+last_modified_at: 2024-01-05
 related_topics:
   - title: Deutsch version
     url: /de/common/export.html
@@ -26,16 +26,8 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 - ایجاد و تعیین مقدار یک متغییر جدید:
 
-`export `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">متغییر</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مقدار</span>
-
-- حذف یک متغییر سیستمی:
-
-`export -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">متغییر</span>
-
-- افزودن یک تابع شل به متغییر سیستمی:
-
-`export -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">نام تابع</span>
+`export `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">VARIABLE</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span>
 
 - افزودن یک مسیر به متغییر $PATH:
 
-`export PATH=$PATH:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/برای/افزودن</span>
+`export PATH=$PATH:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/append</span>

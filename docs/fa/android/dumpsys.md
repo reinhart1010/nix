@@ -2,8 +2,8 @@
 layout: page
 title: android/dumpsys (فارسی)
 description: "ارائه اطلاعات درباره سیستم سرویس اندروید."
-content_hash: da9864f54782ca647bee42477a0d9520acf5862b
-last_modified_at: 2023-11-12
+content_hash: 1150ceec3b81844b93976797c461aeccb623b6b9
+last_modified_at: 2024-01-05
 related_topics:
   - title: বাংলা version
     url: /bn/android/dumpsys.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/dumpsys.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/dumpsys.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/dumpsys.html
@@ -73,7 +76,7 @@ tldri18n_status: 2
 
 - دریافت اطلاعات عیب یابی یک سرویس سیستمی مشخص :
 
-`dumpsys `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">سرویس</span>
+`dumpsys `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service</span>
 
 - فهرستی از تمامی سرویس هایی که `dumpsys` میتواند اطلاعات بدهد :
 
@@ -81,11 +84,11 @@ tldri18n_status: 2
 
 - ورودی های یک سرویس مشخص را فهرست میکند :
 
-`dumpsys `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">سرویس</span>` -h`
+`dumpsys `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service</span>` -h`
 
 - حذف یک سرویس مشخص از خروجی عیب یابی :
 
-`dumpsys --skip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">سرویس</span>
+`dumpsys --skip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service</span>
 
 - تعیین فرصت زمانی بر مبنای ثانیه (پیش فرض 10ثانیه) :
 

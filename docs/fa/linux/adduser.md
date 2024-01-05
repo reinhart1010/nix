@@ -2,8 +2,8 @@
 layout: page
 title: linux/adduser (فارسی)
 description: "ابزار اضافه‌ کردن کاربر."
-content_hash: 64d383a5d971bb2520dc96ae252c2e5404b859e7
-last_modified_at: 2023-11-12
+content_hash: aaaeaf12192b29e0c373f84cd4c707a6d9eaca10
+last_modified_at: 2024-01-05
 related_topics:
   - title: Deutsch version
     url: /de/linux/adduser.html
@@ -38,20 +38,20 @@ tldri18n_status: 2
 
 - ایجاد یک کاربر جدید با دایرکتوری خانگی پیش‌فرض و درخواست از کاربر برای تنظیم رمز عبور:
 
-`adduser `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">نام‌ کاربری</span>
+`adduser `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>
 
 - ایجاد یک کاربر جدید بدون دایرکتوری خانگی:
 
-`adduser --no-create-home `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">نام‌ کاربری</span>
+`adduser --no-create-home `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>
 
 - ایجاد یک کاربر جدید با دایرکتوری خانگی در مسیر مشخص:
 
-`adduser --home `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/خانه</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">نام‌ کاربری</span>
+`adduser --home `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/home</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>
 
 - ایجاد یک کاربر جدید با تنظیم پوسته (shell) مشخص به عنوان پوسته ورود:
 
-`adduser --shell `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/پوسته</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">نام‌ کاربری</span>
+`adduser --shell `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/shell</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>
 
 - ایجاد یک کاربر جدید که به گروه مشخصی تعلق دارد:
 
-`adduser --ingroup `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">گروه</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">نام‌ کاربری</span>
+`adduser --ingroup `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">group</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>

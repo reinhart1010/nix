@@ -2,8 +2,8 @@
 layout: page
 title: common/clear (فارسی)
 description: "پاک کردن صفحه ترمینال."
-content_hash: 21d12d7bddc4b32013470bc3de5c55e2b59499a4
-last_modified_at: 2023-11-12
+content_hash: a8378a347881687a72253fe925d92638eb5695e4
+last_modified_at: 2024-01-05
 related_topics:
   - title: Deutsch version
     url: /de/common/clear.html
@@ -49,7 +49,7 @@ tldri18n_status: 2
 
 - مشخص نمودن نوع ترمینال برای پاکسازی (مقدار پیشفرض در متغییر عمومی `Term`):
 
-`clear -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">نوع_ترمینال</span>
+`clear -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">type_of_terminal</span>
 
 - نمایش نسخه `ncurses` استفاده شده در `clear` :
 

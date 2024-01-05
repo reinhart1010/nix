@@ -2,8 +2,8 @@
 layout: page
 title: linux/abbr (فارسی)
 description: "fish shell مدیریت مخفف های"
-content_hash: 5a0fa576a58c8f114ed169f868d653f4cfa70978
-last_modified_at: 2024-01-04
+content_hash: db11693871866ebcd079106075a2f88cb5fc7e14
+last_modified_at: 2024-01-05
 related_topics:
   - title: català version
     url: /ca/linux/abbr.html
@@ -39,16 +39,16 @@ fish shell مدیریت مخفف های
 
 - اضافه کردن مخفف جدید:
 
-`abbr --add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">نام_اختصاری</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">دستور</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">آرگومان_های_دستور</span>
+`abbr --add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">abbreviation_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command_arguments</span>
 
 - تغییر نام یک مخفف موجود:
 
-`abbr --rename `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">نام_قدیمی</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">نام_جدید</span>
+`abbr --rename `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">old_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_name</span>
 
 - پاک کردن یک مخفف موجود:
 
-`abbr --erase `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">نام_مخفف</span>
+`abbr --erase `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">abbreviation_name</span>
 
 - وارد کردن یک مخفف وارد شده در یک میزبان دیگر از طریق ssh:
 
-`ssh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">نام_میزبان</span>` abbr --show | source`
+`ssh `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_name</span>` abbr --show | source`

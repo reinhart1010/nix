@@ -2,8 +2,8 @@
 layout: page
 title: android/pm (فارسی)
 description: "نمایش اطلاعات مربوط به برنامه های یک دستگاه اندروید."
-content_hash: 38b7754e0fb17ac976d8c4b15bdb702d7c43b256
-last_modified_at: 2023-11-12
+content_hash: ef5ea4d8482a926dbb1184bad77318301514a367
+last_modified_at: 2024-01-05
 related_topics:
   - title: বাংলা version
     url: /bn/android/pm.html
@@ -25,6 +25,9 @@ related_topics:
     icon: bi bi-globe
   - title: Indonesia version
     url: /id/android/pm.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/pm.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/pm.html
@@ -77,7 +80,7 @@ tldri18n_status: 2
 
 - فهرست برنامه های منطبق با کلید واژه(ها) :
 
-`pm list packages `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">کلمه کلیدی 1 کلمه کلیدی 2 ...</span>
+`pm list packages `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keyword1 keyword2 ...</span>
 
 - نمایش مسیر فایل APK یک برنامه مشخص :
 

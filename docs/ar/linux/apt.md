@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt (العربية)
 description: "أداة إدارة الحزم للتوزيعات القائمة على ديبيان."
-content_hash: 08f4974dabeed6e8de5f5a6c85e77f5b836881ba
-last_modified_at: 2023-11-12
+content_hash: dba3551c680243ef97352261b05e9f77ac179f77
+last_modified_at: 2024-01-05
 related_topics:
   - title: বাংলা version
     url: /bn/linux/apt.html
@@ -76,19 +76,19 @@ tldri18n_status: 2
 
 - البحث عن حزمة معينة:
 
-`apt search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">الحزمة</span>
+`apt search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - إظهار معلومات حول حزمة معينة:
 
-`apt show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">الحزمة</span>
+`apt show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - تثبيت حزمة معينة، أو تحديثها إلى آخر إصدار متوفر:
 
-`sudo apt install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">الحزمة</span>
+`sudo apt install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - إزالة حزمة معينة (استخدام `purge` لحذف ملفات الإعدادات الخاصة بالحزمة):
 
-`sudo apt remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">الحزمة</span>
+`sudo apt remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - تطوير جميع الحزم المثبتة إلى أجدد الإصدارات المتوفرة:
 

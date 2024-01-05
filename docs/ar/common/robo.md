@@ -2,8 +2,8 @@
 layout: page
 title: common/robo (العربية)
 description: "مشغل مهام PHP."
-content_hash: 804aabeaca9bf3a8ae5210dc6b517d57d12ea16e
-last_modified_at: 2023-11-12
+content_hash: c61f40f375db719e44db1d882310bd66440ba59a
+last_modified_at: 2024-01-05
 related_topics:
   - title: English version
     url: /en/common/robo.html
@@ -21,8 +21,8 @@ tldri18n_status: 2
 
 - تشغيل أمر محدد:
 
-`robo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">الأمر</span>
+`robo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span>
 
 - محاكاة تشغيل أمر محدد:
 
-`robo --simulate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">الأمر</span>
+`robo --simulate `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo</span>

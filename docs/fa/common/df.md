@@ -2,8 +2,8 @@
 layout: page
 title: common/df (فارسی)
 description: "یک نمای کلی از میزان استفاده فضای دیسک و سیستم فایل ارائه می‌دهد."
-content_hash: 464093ec5e24811bd3025b903e9ae304f931185b
-last_modified_at: 2023-11-12
+content_hash: 4c5fce215a50d2d29d36f4a9740761f73b47d322
+last_modified_at: 2024-01-05
 related_topics:
   - title: Deutsch version
     url: /de/common/df.html
@@ -49,7 +49,7 @@ tldri18n_status: 2
 
 - نمایش سیستم‌فایل و فضای دیسک آن شامل فایل یا دایرکتوری داده شده :
 
-`df `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/فایل_یا_پوشه</span>
+`df `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
 
 - نمایش آمار تعداد درایوهای آزاد :
 

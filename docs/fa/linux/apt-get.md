@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-get (فارسی)
 description: "ابزار مدیریت بسته‌های دبیان و اوبونتو."
-content_hash: 2cabfd36edb875efb3bd781aadf718f2601f1f57
-last_modified_at: 2023-11-12
+content_hash: a092fda3c6a7e13ed6fbe078c91be9a67ff20027
+last_modified_at: 2024-01-05
 related_topics:
   - title: العربية version
     url: /ar/linux/apt-get.html
@@ -58,15 +58,15 @@ tldri18n_status: 2
 
 - نصب یک بسته یا به روزرسانی آن به آخرین نسخه موجود:
 
-`apt-get install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">بسته</span>
+`apt-get install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - حذف یک بسته:
 
-`apt-get remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">بسته</span>
+`apt-get remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - حذف یک بسته و فایل‌های پیکربندی آن:
 
-`apt-get purge `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">بسته</span>
+`apt-get purge `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - ارتقاء تمامی بسته‌های نصب شده به آخرین نسخه‌های موجود:
 

@@ -2,8 +2,8 @@
 layout: page
 title: android/pkg (فارسی)
 description: "ابزار مدیر بسته ها برای ترماکس."
-content_hash: 6d0838d6bfbeec258b6a56a9c52f4dc70d6158a8
-last_modified_at: 2023-11-12
+content_hash: 5aa218fa1dd25d01a7445cf2c62e8fd63756f3bb
+last_modified_at: 2024-01-05
 related_topics:
   - title: বাংলা version
     url: /bn/android/pkg.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/pkg.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/pkg.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/pkg.html
@@ -69,16 +72,16 @@ tldri18n_status: 2
 
 - نصب یک بسته :
 
-`pkg install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">بسته</span>
+`pkg install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - حذف یک بسته :
 
-`pkg uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">بسته</span>
+`pkg uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - نصب دوباره یک بسته :
 
-`pkg reinstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">بسته</span>
+`pkg reinstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - جستجوی یک بسته :
 
-`pkg search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">بسته</span>
+`pkg search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>

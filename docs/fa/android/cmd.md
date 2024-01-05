@@ -2,8 +2,8 @@
 layout: page
 title: android/cmd (فارسی)
 description: "مدیر سرویس اندروید."
-content_hash: a5522f0ea32e93009b0df0d2af37e0c5a1929e8b
-last_modified_at: 2023-11-12
+content_hash: d3d725c136dc1a187a8b98f1cee822b97b3eef10
+last_modified_at: 2024-01-05
 related_topics:
   - title: বাংলা version
     url: /bn/android/cmd.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/cmd.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/cmd.html
     icon: bi bi-globe
   - title: नेपाली version
     url: /ne/android/cmd.html
@@ -78,8 +81,8 @@ tldri18n_status: 2
 
 - فراخوان یک سرویس :
 
-`cmd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">سرویس</span>
+`cmd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service</span>
 
 - فراخوان یک سرویس با مقادیر ورودی :
 
-`cmd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">سرویس</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">استدلال 1 استدلال 2 ...</span>
+`cmd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">service</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">argument1 argument2 ...</span>

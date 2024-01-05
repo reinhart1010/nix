@@ -2,8 +2,8 @@
 layout: page
 title: android/logcat (فارسی)
 description: "تخلیه یک لاگ از پیاهم های سیستمی، شامل پشته رهگیری زمان وقوع خطا، و اطلاعات پیام های لاگ شده توسط برنامه ها."
-content_hash: 162ecb6a55058f8194702740706696e562eaf724
-last_modified_at: 2023-11-12
+content_hash: 365d7d441a16b24f54d712f389b8aca38c15420b
+last_modified_at: 2024-01-05
 related_topics:
   - title: বাংলা version
     url: /bn/android/logcat.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/logcat.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/logcat.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/logcat.html
@@ -72,7 +75,7 @@ tldri18n_status: 2
 
 - نوشتن لاگ سیستمی به یک فایل :
 
-`logcat -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/فایل</span>
+`logcat -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - نمایش خطاهای منطبق با الگوی ورودی :
 
@@ -84,4 +87,4 @@ tldri18n_status: 2
 
 - نمایش لاگ های پروسه های مربوط به یک بسته مشخص :
 
-`logcat --pid=$(pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">بسته</span>`)`
+`logcat --pid=$(pidof -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>`)`

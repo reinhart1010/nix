@@ -2,8 +2,8 @@
 layout: page
 title: common/head (فارسی)
 description: "نمایش محتوای ابتدایی یک فایل."
-content_hash: 12642ea0026662ebc0a8a69928be796839181914
-last_modified_at: 2023-11-12
+content_hash: 9eb10617f22497b964655eef240f0d29f39aa013
+last_modified_at: 2024-01-05
 related_topics:
   - title: Deutsch version
     url: /de/common/head.html
@@ -29,4 +29,4 @@ tldri18n_status: 2
 
 - نمایش چند خط اول یک فایل:
 
-`head -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">تعداد</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/فایل</span>
+`head -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">count</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>

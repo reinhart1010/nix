@@ -2,8 +2,8 @@
 layout: page
 title: android/getprop (فارسی)
 description: "نمایش اطلاعات مربوط به مشخصات سیستم اندروید."
-content_hash: 16d1e4eedf0a87ba73786cbcbe3e6a1aaf0cf2fc
-last_modified_at: 2023-11-12
+content_hash: dc411ca5c2d696209a965605e8485c016f01d0f5
+last_modified_at: 2024-01-05
 related_topics:
   - title: বাংলা version
     url: /bn/android/getprop.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/getprop.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/getprop.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/getprop.html
@@ -72,7 +75,7 @@ tldri18n_status: 2
 
 - نمایش اطلاعات مربوط به یک مشخصه :
 
-`getprop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ویژگی</span>
+`getprop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">property</span>
 
 - نمایش سطح SDK رابط برنامه نویسی :
 

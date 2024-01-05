@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/rmdir (العربية)
-description: "يزيل الدليل."
-content_hash: 3b17da7de33c54e2aeeeb7494aeb8267b5aa934f
-last_modified_at: 2023-11-12
+description: "إزالة الدلائل بدون ملفات."
+content_hash: 93c386b9cf439dac2eedce4eb8dc3ddcb8fd9284
+last_modified_at: 2024-01-05
 related_topics:
   - title: English version
     url: /en/common/rmdir.html
@@ -24,13 +24,14 @@ tldri18n_status: 2
 ---
 # rmdir
 
-يزيل الدليل.
-لمزيد من التفاصيل: <https://www.gnu.org/software/coreutils/rmdir>.
+إزالة الدلائل بدون ملفات.
+أنظر أيضاً: `rm`.
+مزيد من المعلومات: <https://www.gnu.org/software/coreutils/rmdir>.
 
-- إزالة الدليل الفارغ. استخدم `rm -r` لإزالة الدلائل الغير فارغة:
+- إزالة أدلة محددة:
 
-`rmdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">المسار/إلى/الدليل</span>
+`rmdir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1 path/to/directory2 ...</span>
 
-- إزالة الدليل المحدد ودلائله الأصلية (مفيد للدلائل المتداخلة):
+- إزالة أدلة متداخلة محددة بشكل متكرر:
 
-`rmdir -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">المسار/إلى/الدليل</span>
+`rmdir -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1 path/to/directory2 ...</span>
