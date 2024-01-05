@@ -3,7 +3,7 @@ layout: page
 title: linux/apk (فارسی)
 description: "ابزار مدیریت بسته آلپاین لینوکس."
 content_hash: 3f39364afd46d8a00189c32ed7bc2ed7696a5c90
-last_modified_at: 2024-01-04
+last_modified_at: 2024-01-05
 related_topics:
   - title: Deutsch version
     url: /de/linux/apk.html
@@ -35,18 +35,9 @@ related_topics:
   - title: 中文 version
     url: /zh/linux/apk.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/apk.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># apk
+# apk
 
 ابزار مدیریت بسته آلپاین لینوکس.
 اطلاعات بیشتر: <https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management>.

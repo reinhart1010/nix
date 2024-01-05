@@ -3,7 +3,7 @@ layout: page
 title: common/tar (español)
 description: "Utilidad de archivado."
 content_hash: 2d0f37abfaff81ce11a6dde1e525ff4a427697e7
-last_modified_at: 2024-01-04
+last_modified_at: 2024-01-05
 related_topics:
   - title: Deutsch version
     url: /de/common/tar.html
@@ -29,12 +29,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/tar.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># tar
+# tar
 
 Utilidad de archivado.
 A menudo se combina con un método de compresión, como gzip o bzip2.

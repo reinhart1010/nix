@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/7zr (فارسی)
-description: "بایگانی کننده فایل با فشرده سازی بالا."
-content_hash: 43064130e1c789ec4af3ec1bb3838d822aeff220
-last_modified_at: 2023-11-30
+description: "آرشیو کننده فایل با قدرت فشرده سازی بالا."
+content_hash: 5234c1a71d3d3839c64c9e91a501fd73d4b7ea66
+last_modified_at: 2024-01-05
 related_topics:
   - title: বাংলা version
     url: /bn/common/7zr.html
@@ -50,37 +50,38 @@ related_topics:
   - title: 中文 version
     url: /zh/common/7zr.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
+# 7zr
 
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># 7zr
-
-بایگانی کننده فایل با فشرده سازی بالا.
-مشابه `7z` منحصر به پشتیبانی از فایل های `.7z`.
+آرشیو کننده فایل با قدرت فشرده سازی بالا.
+عملکردی مشابه `7z` با این تفاوت که از فایلهای `.7z` پشتیبانی نمی کند.
 اطلاعات بیشتر: <https://manned.org/7zr>.
 
-- بایگانی کردن یک فایل یا پوشه :
+- آرشیو کردن یک فایل یا پوشه:
 
-`7zr a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/بایگانی.7z</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/فایل_یا_پوشه</span>
+`7zr a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.7z</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
 
-- رمزگذاری یک بایگانی (همراه با نام فایل ها) موجود :
+- رمزنگاری آرشیو موجود (همراه با اسم فایلها):
 
-`7zr a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/فایل_رمزگذاری_شده.7z</span>` -p`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">گذرواژه</span>` -mhe=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/بایگانی.7z</span>
+`7zr a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/encrypted.7z</span>` -p`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span>` -mhe=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.7z</span>
 
-- استخراج یک بایگانی با نگهداری ساختار پوشه اصلی :
+- استخراج یک آرشیو درحالی که ساختار پوشه اصلی حفظ می شود:
 
-`7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/بایگانی.7z</span>
+`7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.7z</span>
 
-- استخراج یک بایگانی به پوشه معین :
+- استخراج یک آرشیو در پوشه مورد نظر:
 
-`7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/بایگانی.7z</span>` -o`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/خروجی</span>
+`7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.7z</span>` -o`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output</span>
 
-- استخراج یک بایگانی به خروجی استاندارد `stdout` :
+- استخراج یک آرشیو در `stdout`:
 
-`7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/بایگانی.7z</span>` -so`
+`7zr x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.7z</span>` -so`
 
-- فهرست نمودن محتویات یک بایگانی :
+- فهرست کردن محتواهای یک آرشیو:
 
-`7zr l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">مسیر/به/بایگانی.7z</span>
+`7zr l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.7z</span>
+
+- تنظیم میزان فشرده سازی (مقادیر بیشتر به معنی فشرده سازی بیشتر اما آهسته تر است):
+
+`7zr a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/archive.7z</span>` -mx=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|1|3|5|7|9</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>

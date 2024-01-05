@@ -3,7 +3,7 @@ layout: page
 title: common/awk (Nederlands)
 description: "Een veelzijdige programmeertaal voor het werken met bestanden."
 content_hash: 119de132a94d0e0f0b2f69e52d2b5aaec6f793b9
-last_modified_at: 2024-01-04
+last_modified_at: 2024-01-05
 related_topics:
   - title: English version
     url: /en/common/awk.html
@@ -32,18 +32,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/awk.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/awk.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># awk
+# awk
 
 Een veelzijdige programmeertaal voor het werken met bestanden.
 Meer informatie: <https://github.com/onetrueawk/awk>.
