@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/git-add (Indonesia)
-description: "Menambahkan file yang diubah ke indeks."
-content_hash: d4840ff22be5da8bc9f6bf5bdcde7a8067198175
-last_modified_at: 2023-11-12
+description: "Tambahkan file yang diubah ke indeks."
+content_hash: 135a89b57ddeab23f5a7b47b388066e9a81ef00a
+last_modified_at: 2024-01-06
 related_topics:
   - title: Deutsch version
     url: /de/common/git-add.html
@@ -23,6 +23,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/git-add.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/git-add.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/git-add.html
     icon: bi bi-globe
@@ -39,7 +42,7 @@ tldri18n_status: 2
 ---
 # git add
 
-Menambahkan file yang diubah ke indeks.
+Tambahkan file yang diubah ke indeks.
 Informasi lebih lanjut: <https://git-scm.com/docs/git-add>.
 
 - Tambahkan file ke indeks:

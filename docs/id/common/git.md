@@ -2,8 +2,8 @@
 layout: page
 title: common/git (Indonesia)
 description: "Sistem kontrol versi terdistribusi."
-content_hash: 442ddf2b766b4b7239bb82c6b159788e0eea5305
-last_modified_at: 2023-11-12
+content_hash: b035f8c31c0d835e1d487c1f0e1546e6a48d5e72
+last_modified_at: 2024-01-06
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
@@ -55,29 +55,29 @@ tldri18n_status: 2
 # git
 
 Sistem kontrol versi terdistribusi.
-Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `git commit`.
+Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `commit`, `add`, `branch`, `checkout`, `push`, dsb.
 Informasi lebih lanjut: <https://git-scm.com/>.
 
-- Memeriksa versi Git:
+- Periksa versi Git:
 
 `git --version`
 
-- Menunjukkan bantuan umum:
+- Tampilkan bantuan umum:
 
 `git --help`
 
-- Menampilkan bantuan pada sub perintah Git (seperti `commit`,` log`, dll.):
+- Tampilkan bantuan pada sub perintah Git (seperti `commit`,` log`, dll.):
 
 `git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
 
-- Menjalankan subperintah Git:
+- Jalankan subperintah Git:
 
 `git `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
 
-- Menjalankan subperintah Git di jalur root repositori kustom:
+- Jalankan subperintah Git di jalur root repositori kustom:
 
 `git -C `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/repositori</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
 
-- Menjalankan subperintah Git dengan set konfigurasi yang diberikan:
+- Jalankan subperintah Git dengan set konfigurasi yang diberikan:
 
 `git -c '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config.key</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span>`' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>

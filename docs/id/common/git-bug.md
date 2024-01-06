@@ -1,0 +1,54 @@
+---
+layout: page
+title: common/git-bug (Indonesia)
+description: "Manajer laporan masalah/bug yang menggunakan penyimpanan git, sehingga tidak memengaruhi susunan berkas dalam direktori proyek Anda."
+content_hash: 0afe37309299d623efc1bd399e586619b4fac060
+last_modified_at: 2024-01-06
+related_topics:
+  - title: English version
+    url: /en/common/git-bug.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/git-bug.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># git bug
+
+Manajer laporan masalah/bug yang menggunakan penyimpanan git, sehingga tidak memengaruhi susunan berkas dalam direktori proyek Anda.
+Anda dapat memasukkan laporan melalui sumber/hulu jauh (remote) yang sama untuk berinteraksi dengan laporan dan pengguna lainnya seperti mengatur komit dan cabang.
+Informasi lebih lanjut: <https://github.com/MichaelMure/git-bug/blob/master/doc/md/git-bug.md>.
+
+- Buat identitas/pengguna baru:
+
+`git bug user create`
+
+- Buat laporan masalah/bug baru:
+
+`git bug add`
+
+- Kumpulkan laporan-laporan baru menuju sumber/hulu jarak jauh:
+
+`git bug push`
+
+- Dapatkan pembaruan atas daftar masalah dari sumber/hulu jarak jauh:
+
+`git bug pull`
+
+- Lihat daftar masalah/bug yang sebelumnya telah dilaporkan:
+
+`git bug ls`
+
+- Saring (filter) dan urutkan (sort) laporan menggunakan kata kunci permintaan tertentu:
+
+`git bug ls "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">status</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">open</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sort</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">edit</span>`"`
+
+- Cari laporan menurut kata kunci teks:
+
+`git bug ls "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kata_kunci</span>`" baz`

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/git-clone (Indonesia)
-description: "Klon repositori yang ada."
-content_hash: f5a72de192cdc0c4a42b982191f8460daf82aad7
-last_modified_at: 2023-12-30
+description: "Gandakan repositori dari lokasi luar/remote menuju lokal."
+content_hash: 90736b2e4549542412baa7805b02cd99138fe2ec
+last_modified_at: 2024-01-06
 related_topics:
   - title: Deutsch version
     url: /de/common/git-clone.html
@@ -45,33 +45,37 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># git clone
 
-Klon repositori yang ada.
+Gandakan repositori dari lokasi luar/remote menuju lokal.
 Informasi lebih lanjut: <https://git-scm.com/docs/git-clone>.
 
-- Klon repositori yang ada ke direktori tertentu:
+- Gandakan repositori yang ada ke direktori tertentu:
 
 `git clone `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lokasi_repositori_remote</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span>
 
-- Klon repositori yang ada dan submodulnya:
+- Gandakan repositori yang ada dan submodulnya:
 
 `git clone --recursive `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lokasi_repositori_remote</span>
 
-- Klon repositori lokal:
+- Gandakan hanya direktori `.git` pada repositori saat ini:
+
+`git clone --no-checkout `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lokasi_repositori_remote</span>
+
+- Gandakan repositori lokal:
 
 `git clone --local `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/repositori/lokal</span>
 
-- Klon dengan senyap:
+- Gandakan dengan senyap:
 
 `git clone --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lokasi_repositori_remote</span>
 
-- Klon repositori yang sudah ada dengan hanya mengambil 10 komit paling baru pada branch bawaan (berguna untuk menghemat waktu):
+- Gandakan repositori yang sudah ada dengan hanya mengambil 10 komit paling baru pada branch bawaan (berguna untuk menghemat waktu):
 
 `git clone --depth `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lokasi_repositori_remote</span>
 
-- Klon repositori yang sudah ada dengan hanya mengambil dari cabang tertentu:
+- Gandakan repositori yang sudah ada dengan hanya mengambil dari cabang tertentu:
 
 `git clone --branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>` --single-branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lokasi_repositori_remote</span>
 
-- Klon repositori yang sudah ada menggunakan perintah SSH tertentu:
+- Gandakan repositori yang sudah ada menggunakan perintah SSH tertentu:
 
-`git clone --config core.sshCommand="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh -i jalan/menuju/kunci_ssh_pribadi</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lokasi_repositori_remote</span>
+`git clone --config core.sshCommand="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh -i jalan/menuju/kunci_ssh_privat</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">lokasi_repositori_remote</span>
