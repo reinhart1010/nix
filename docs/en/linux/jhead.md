@@ -3,19 +3,14 @@ layout: page
 title: linux/jhead (English)
 description: "Image timestamp and EXIF data manipulation."
 content_hash: 075b8b4827de4ea5bb520bf216245ac11b273e5d
-last_modified_at: 2024-01-05
-tldri18n_status: 0
+last_modified_at: 2024-01-06
+related_topics:
+  - title: Deutsch version
+    url: /de/linux/jhead.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/jhead.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># jhead
+# jhead
 
 Image timestamp and EXIF data manipulation.
 More information: <https://www.sentex.net/~mwandel/jhead/usage.html>.

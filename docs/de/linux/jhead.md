@@ -3,19 +3,14 @@ layout: page
 title: linux/jhead (Deutsch)
 description: "Manipulation der Zeitstempel und EXIF Daten in Bilddateien."
 content_hash: 841bc9b140fc9e3f239cef1c74c2e02750b9b38f
-last_modified_at: 2024-01-05
-tldri18n_status: 0
+last_modified_at: 2024-01-06
+related_topics:
+  - title: English version
+    url: /en/linux/jhead.html
+    icon: bi bi-globe
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/jhead.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># jhead
+# jhead
 
 Manipulation der Zeitstempel und EXIF Daten in Bilddateien.
 Weitere Informationen: <https://www.sentex.net/~mwandel/jhead/usage.html>.
