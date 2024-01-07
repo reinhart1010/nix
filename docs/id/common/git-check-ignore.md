@@ -3,7 +3,7 @@ layout: page
 title: common/git-check-ignore (Indonesia)
 description: "Analisa kumpulan file yang diabaikan/dikecualikan oleh Git (didefinisikan dalam \".gitignore\")."
 content_hash: 6a2c9a8a0d82c6c4967198df35581e3fb781f984
-last_modified_at: 2024-01-06
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/common/git-check-ignore.html
@@ -23,18 +23,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-check-ignore.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-check-ignore.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git check-ignore
+# git check-ignore
 
 Analisa kumpulan file yang diabaikan/dikecualikan oleh Git (didefinisikan dalam ".gitignore").
 Informasi lebih lanjut: <https://git-scm.com/docs/git-check-ignore>.

@@ -3,7 +3,7 @@ layout: page
 title: common/git-am (Indonesia)
 description: "Gunakan perubahan dari file deskripsi perubahan (patch) untuk melakukan sebuah komit. Dapat digunakan untuk menerima komit melalui surel/email."
 content_hash: ad11c2235987762af91f03488f3b4b0c848d319a
-last_modified_at: 2024-01-06
+last_modified_at: 2024-01-07
 related_topics:
   - title: Deutsch version
     url: /de/common/git-am.html
@@ -29,18 +29,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-am.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-am.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git am
+# git am
 
 Gunakan perubahan dari file deskripsi perubahan (patch) untuk melakukan sebuah komit. Dapat digunakan untuk menerima komit melalui surel/email.
 Lihat juga `git format-patch` untuk membuat file deskripsi perubahan/patch.

@@ -3,7 +3,7 @@ layout: page
 title: common/git-checkout-index (Indonesia)
 description: "Salin file dari indeks menuju direktori kerja saat ini."
 content_hash: 9c1319eba68a588fefa6427de25b1befe832de72
-last_modified_at: 2024-01-06
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/common/git-checkout-index.html
@@ -14,18 +14,9 @@ related_topics:
   - title: українська version
     url: /uk/common/git-checkout-index.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-checkout-index.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git checkout-index
+# git checkout-index
 
 Salin file dari indeks menuju direktori kerja saat ini.
 Informasi lebih lanjut: <https://git-scm.com/docs/git-checkout-index>.

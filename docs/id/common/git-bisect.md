@@ -3,7 +3,7 @@ layout: page
 title: common/git-bisect (Indonesia)
 description: "Lakukan strategi pencarian/pembelahan biner untuk mencari komit yang menyebabkan masalah/bug."
 content_hash: 8bdb7d70e17658dc782c7b175b3ec7e9707a5626
-last_modified_at: 2024-01-06
+last_modified_at: 2024-01-07
 related_topics:
   - title: Deutsch version
     url: /de/common/git-bisect.html
@@ -26,18 +26,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-bisect.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-bisect.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git bisect
+# git bisect
 
 Lakukan strategi pencarian/pembelahan biner untuk mencari komit yang menyebabkan masalah/bug.
 Git akan secara otomatis melompat bolak-balik dalam grafik komit untuk semakin mempersempit kandidat komit yang bermasalah.

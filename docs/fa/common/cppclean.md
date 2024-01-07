@@ -3,7 +3,7 @@ layout: page
 title: common/cppclean (فارسی)
 description: "پیدا کردن کد های بدون استفاده در پروژه های سی پلاس پلاس."
 content_hash: 3c6e6263e2d7c989d661480730946fe8016e9239
-last_modified_at: 2024-01-06
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/common/cppclean.html
@@ -14,18 +14,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/cppclean.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/cppclean.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># cppclean
+# cppclean
 
 پیدا کردن کد های بدون استفاده در پروژه های سی پلاس پلاس.
 اطلاعات بیشتر: <https://github.com/myint/cppclean>.

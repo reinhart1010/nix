@@ -3,7 +3,7 @@ layout: page
 title: common/git-clone (Indonesia)
 description: "Gandakan repositori dari lokasi luar/remote menuju lokal."
 content_hash: 90736b2e4549542412baa7805b02cd99138fe2ec
-last_modified_at: 2024-01-06
+last_modified_at: 2024-01-07
 related_topics:
   - title: Deutsch version
     url: /de/common/git-clone.html
@@ -38,12 +38,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/git-clone.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git clone
+# git clone
 
 Gandakan repositori dari lokasi luar/remote menuju lokal.
 Informasi lebih lanjut: <https://git-scm.com/docs/git-clone>.

@@ -3,7 +3,7 @@ layout: page
 title: common/git-cat-file (Indonesia)
 description: "Dapatkan informasi konten atau jenis dan ukuran untuk objek repositori Git."
 content_hash: fdd010e026e0c5a406406c6b4fe43c0bae616673
-last_modified_at: 2024-01-06
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/common/git-cat-file.html
@@ -20,18 +20,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-cat-file.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/git-cat-file.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># git cat-file
+# git cat-file
 
 Dapatkan informasi konten atau jenis dan ukuran untuk objek repositori Git.
 Informasi lebih lanjut: <https://git-scm.com/docs/git-cat-file>.
