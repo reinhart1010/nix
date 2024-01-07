@@ -2,8 +2,8 @@
 layout: page
 title: osx/gunits (español)
 description: "Este comando es un alias de `-p linux units`."
-content_hash: 13a163874735fcadfa893982a2997c5ab35be8ee
-last_modified_at: 2023-11-12
+content_hash: c41545701c416f1dc000e79870cf57d9034c359f
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gunits.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux units`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux units`

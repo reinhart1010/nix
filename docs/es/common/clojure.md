@@ -2,8 +2,8 @@
 layout: page
 title: common/clojure (español)
 description: "Este comando es un alias de `clj`."
-content_hash: ff56e40bff2d2985163c017e350f46355b5e6acb
-last_modified_at: 2023-11-12
+content_hash: a6e7bf980171335dd8566a88c8ce614c385e4efb
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/common/clojure.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `clj`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr clj`

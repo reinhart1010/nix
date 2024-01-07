@@ -2,8 +2,8 @@
 layout: page
 title: osx/gmd5sum (español)
 description: "Este comando es un alias de `-p linux md5sum`."
-content_hash: d241b2fbf03fa8aeb111024a5177a67a708f0b3f
-last_modified_at: 2023-11-12
+content_hash: 70936d5c178c26cc49036c7a9a616a737c941640
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gmd5sum.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux md5sum`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux md5sum`

@@ -2,8 +2,8 @@
 layout: page
 title: common/ffmpeg (português (Brasil))
 description: "Ferramenta de conversão de vídeo."
-content_hash: 6ca33456c0d28cedf281db34c1c4bdf17fbe7486
-last_modified_at: 2023-12-28
+content_hash: 141437de26688abae39c93bfb3126c6ffa0b458b
+last_modified_at: 2024-01-07
 related_topics:
   - title: Deutsch version
     url: /de/common/ffmpeg.html
@@ -28,9 +28,9 @@ Mais informações: <https://ffmpeg.org>.
 
 `ffmpeg -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/vídeo.mp4</span>` -vn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/som</span>`.mp3`
 
-- Converte quadros de um vídeo ou GIF para imagens numeradas individuais:
+- Salva um vídeo como GIF, escalando a altura para 1000px e definindo a taxa de quadros para 15:
 
-`ffmpeg -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vídeo|gif</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">quadro_%d.png</span>
+`ffmpeg -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/vídeo.mp4</span>` -vf 'scale=-1:1000' -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">15</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/saída.gif</span>
 
 - Combina imagens numeradas (`quadro_1.jpg`, `quadro_2.jpg`, etc) em um vídeo ou GIF:
 

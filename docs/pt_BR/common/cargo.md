@@ -2,8 +2,8 @@
 layout: page
 title: common/cargo (português (Brasil))
 description: "Gerencia projetos Rust e as dependências dos modulos (crates)."
-content_hash: cedf2fd49bcaeecc3c00a6d3c43e2b6291653d02
-last_modified_at: 2023-11-12
+content_hash: ab7c968df0955c4e5fe4439b8f980a517960f04c
+last_modified_at: 2024-01-07
 related_topics:
   - title: Deutsch version
     url: /de/common/cargo.html
@@ -49,17 +49,17 @@ Mais informações: <https://doc.rust-lang.org/cargo>.
 
 `cargo install --list`
 
-- Cria um projeto Rust sendo binário ou uma biblioteca no diretório atual:
+- Cria um novo binário ou projeyo Rust de biblioteca no diretório especificado (ou o diretório atual por padrão):
 
-`cargo init --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bin|lib</span>
+`cargo init --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bin|lib</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span>
 
-- Cria um projeto Rust sendo binário ou uma biblioteca em um diretório específico:
+- Adiciona uma dependência ao Cargo.toml no diretório atual:
 
-`cargo new `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/directório</span>` --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bin|lib</span>
+`cargo add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dependência</span>
 
-- Constrói o projeto Rust no diretório atual:
+- Constrói o projeto Rust no diretório atual usando o perfil de lançamento:
 
-`cargo build`
+`cargo build --release`
 
 - Constrói o projeto Rust no diretório atual utilizando o nightly compilador:
 

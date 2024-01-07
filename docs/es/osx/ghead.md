@@ -2,8 +2,8 @@
 layout: page
 title: osx/ghead (español)
 description: "Este comando es un alias de `-p linux head`."
-content_hash: 09913cc53273eae4d713e3efda1a2fca8dc55bb0
-last_modified_at: 2023-11-12
+content_hash: 1e5996919e79fa3461e5d0f3bca93a21ebcf41a2
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/ghead.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux head`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux head`

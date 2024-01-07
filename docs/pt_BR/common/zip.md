@@ -2,8 +2,8 @@
 layout: page
 title: common/zip (português (Brasil))
 description: "Ferramenta de compressão de arquivos em arquivos zip."
-content_hash: 8e07decc00aace1e23df24356a9ee637e45823fa
-last_modified_at: 2023-12-28
+content_hash: ed449feaf12cf780bffd6aff836f7f52f58ab660
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/common/zip.html
@@ -24,30 +24,30 @@ tldri18n_status: 2
 Ferramenta de compressão de arquivos em arquivos zip.
 Mais informações: <https://manned.org/zip>.
 
-- Compacta arquivos em um arquivo zip:
+- Adiciona arquivos/diretórios a um arquivo zip específico ([r]ecusivamente):
 
-`zip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.zip</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo3</span>
+`zip -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/comprimido.zip</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_ou_diretorio1 caminho/para/arquivo_ou_diretorio2 ...</span>
 
-- Compacta todos os arquivos de um diretório:
+- Remove arquivos de um arquivo zip ([d]eleta):
 
-`zip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.zip</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/do/diretorio/*</span>
+`zip -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/comprimido.zip</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_ou_diretorio1 caminho/para/arquivo_ou_diretorio2 ...</span>
 
-- Adiciona arquivos a um arquivo zip existente:
+- Compacta arquivos/diretórios e[x]cluindo arquivos específicos:
 
-`zip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arquivo_existente.zip</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/do/diretorio</span>
+`zip -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/comprimido.zip</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_ou_diretorio1 caminho/para/arquivo_ou_diretorio2 ...</span>` -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/a/ser/excluido</span>
 
-- Compacta todos os arquivos de um diretório mantendo estruturas de diretórios:
+- Compacta arquivos com um nível de compressão específico (0 - o mais baixo, 9 - o mais alto):
 
-`zip -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.zip</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/do/diretorio</span>
+`zip -r -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0-9</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/comprimido.zip</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_ou_diretorio1 caminho/para/arquivo_ou_diretorio2 ...</span>
 
-- Compacta arquivos de um diretório excluindo arquivos específicos:
+- Cria um zip encriptado com uma senha específica:
 
-`zip -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.zip</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/do/diretorio</span>` -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/a/ser/excluido</span>
+`zip -r -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/comprimido.zip</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_ou_diretorio1 caminho/para/arquivo_ou_diretorio2 ...</span>
 
-- Compacta arquivos definindo o nível de compressão [9]:
+- Compacta arquivos/diretórios para um zip dividido em múltiplas partes (p. ex. partes de 3 GB):
 
-`zip -r -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">9</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.zip</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/do/diretorio</span>
+`zip -r -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3g</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/comprimido.zip</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo_ou_diretorio1 caminho/para/arquivo_ou_diretorio2 ...</span>
 
-- Deleta arquivos de um arquivo zip:
+- Print a specific archive contents:
 
-`zip -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output.zip</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">foo/*.ext</span>`"`
+`zip -sf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/comprimido.zip</span>

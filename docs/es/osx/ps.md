@@ -2,8 +2,8 @@
 layout: page
 title: osx/ps (español)
 description: "Información sobre los procesos en ejecución."
-content_hash: 3d0e008d79d3e046e9bba478fa2c64861d5964ae
-last_modified_at: 2023-11-12
+content_hash: a7bcbb1a6f35dccb98aac24835567998ad74a3d6
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/osx/ps.html
@@ -27,7 +27,7 @@ Más información: <https://www.unix.com/man-page/osx/1/ps/>.
 
 `ps aux | grep `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cadena</span>
 
-- Obtiene el PID principal de un proceso:
+- Obtén el PID principal de un proceso:
 
 `ps -o ppid= -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
 

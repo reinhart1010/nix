@@ -2,8 +2,8 @@
 layout: page
 title: common/git-branch (español)
 description: "Comando principal de Git para trabajar con ramas."
-content_hash: 78d4eda1465dcef90100eb0c766a8e680506f4f3
-last_modified_at: 2023-12-29
+content_hash: 96243214a0c49b9152f5b27fcd4e06925723f789
+last_modified_at: 2024-01-07
 related_topics:
   - title: Deutsch version
     url: /de/common/git-branch.html
@@ -56,7 +56,7 @@ Más información: <https://git-scm.com/docs/git-branch>.
 
 `git branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_rama</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_hash</span>
 
-- Cambiar el nombre de una rama (para ello no debes tenerla controlada):
+- Renombra una rama (para ello no debes tenerla controlada):
 
 `git branch -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_rama_antigua</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nuevo_nombre_rama</span>
 

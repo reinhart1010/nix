@@ -2,8 +2,8 @@
 layout: page
 title: common/vi (español)
 description: "Este comando es un alias de `vim`."
-content_hash: 1c9eed5ad4ee10fe399bd84350c5740f1d2eae25
-last_modified_at: 2023-11-12
+content_hash: fb5c84d5f88aa8a1b8d80b67347a5a13ff042f3e
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/common/vi.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `vim`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr vim`

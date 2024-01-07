@@ -2,8 +2,8 @@
 layout: page
 title: common/todoman (español)
 description: "Este comando es un alias de `todo`."
-content_hash: 31461c2c681f1b5a4a188d476bb94ab295bc4ee3
-last_modified_at: 2023-11-12
+content_hash: bf5b837d65a6684abd3d339f836dfe17a531c730
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/common/todoman.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando es un alias de `todo`.
 Más información: <https://todoman.readthedocs.io/>.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr todo`

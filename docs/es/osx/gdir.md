@@ -2,8 +2,8 @@
 layout: page
 title: osx/gdir (español)
 description: "Este comando es un alias de `-p linux dir`."
-content_hash: db8d20107f3c31e27500b3bed38fd0cb98d29a31
-last_modified_at: 2023-11-12
+content_hash: 4d5153a117dceb804d0871db4febcd7d7faa5cdc
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gdir.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux dir`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux dir`

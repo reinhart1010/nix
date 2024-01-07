@@ -2,8 +2,8 @@
 layout: page
 title: osx/m (español)
 description: "Navaja suiza para macOS."
-content_hash: 56d23658f46a26d78c8465fbae187882cee730f8
-last_modified_at: 2023-12-17
+content_hash: 8385e7d3667bc62186188449c3d9eff51d27f393
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/osx/m.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 Navaja suiza para macOS.
 Más información: <https://github.com/rgcr/m-cli>.
 
-- Obtener el estado de la batería:
+- Obtén el estado de la batería:
 
 `m battery status`
 

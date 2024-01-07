@@ -2,8 +2,8 @@
 layout: page
 title: osx/gruncon (español)
 description: "Este comando es un alias de `-p linux runcon`."
-content_hash: 92518ddc92ab40b02903f4a3c5fe247fba48a44a
-last_modified_at: 2023-11-12
+content_hash: 4cd83cf632efe7500b2080e3d20104c37b42aaa7
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gruncon.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux runcon`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux runcon`

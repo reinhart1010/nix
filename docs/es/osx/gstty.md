@@ -2,8 +2,8 @@
 layout: page
 title: osx/gstty (español)
 description: "Este comando es un alias de `-p linux stty`."
-content_hash: fbd8efc76b6916295ea43bfd0b5ac1c9ded5151a
-last_modified_at: 2023-11-12
+content_hash: 4a06ec74f4109a561a0e6eeef23d41513eff8396
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gstty.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux stty`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux stty`

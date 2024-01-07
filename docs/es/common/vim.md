@@ -2,8 +2,8 @@
 layout: page
 title: common/vim (español)
 description: "Vim (Vi IMproved), un editor de texto para la línea de comandos, que proporciona varios modos para diferentes tipos de manipulación de texto."
-content_hash: 9cc219828eb44a534ba40fee134e20e0318e9a52
-last_modified_at: 2024-01-02
+content_hash: 8a820e16d5d77fa06aef5588fbb93ec4e65b06bc
+last_modified_at: 2024-01-07
 related_topics:
   - title: Deutsch version
     url: /de/common/vim.html
@@ -57,7 +57,7 @@ Más información: <https://www.vim.org>.
 
 `vim +`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">número_de_línea</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 
-- Ver el manual de Vim:
+- Muestra el manual de Vim:
 
 `:help<Enter>`
 
@@ -65,7 +65,7 @@ Más información: <https://www.vim.org>.
 
 `:wq<Enter>`
 
-- Deshace la última operación:
+- Deshaz la última operación:
 
 `<ESC>u`
 

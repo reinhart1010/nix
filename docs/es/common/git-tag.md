@@ -2,8 +2,8 @@
 layout: page
 title: common/git-tag (español)
 description: "Crea, muestra, borra o verifica etiquetas."
-content_hash: 22d191495c3d29ae933aa20fa6670e2977f73cff
-last_modified_at: 2023-11-12
+content_hash: 006423a0cb53494b53733ecaedcc6e9e820ac134
+last_modified_at: 2024-01-07
 related_topics:
   - title: Deutsch version
     url: /de/common/git-tag.html
@@ -51,7 +51,7 @@ Más información: <https://git-scm.com/docs/git-tag>.
 
 `git tag -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_etiqueta</span>
 
-- Obtiene las etiquetas actualizadas de upstreams:
+- Obtén las etiquetas actualizadas de upstreams:
 
 `git fetch --tags`
 

@@ -2,8 +2,8 @@
 layout: page
 title: osx/ed (español)
 description: "El editor de texto original de Unix."
-content_hash: adb6b3e84cc0c2e730e6aa9ce97b0e69f213e308
-last_modified_at: 2023-11-12
+content_hash: 44bd8e9e0a069617ffb15ff60131dd18de57bbe2
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/osx/ed.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # ed
 
 El editor de texto original de Unix.
-Ver también: `awk`, `sed`.
+Vea también: `awk`, `sed`.
 Más información: <https://www.gnu.org/software/ed/manual/ed_manual.html>.
 
 - Inicia una sesión de edición interactiva con un documento vacío:

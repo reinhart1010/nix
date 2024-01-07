@@ -2,8 +2,8 @@
 layout: page
 title: osx/gdd (español)
 description: "Este comando es un alias de `-p linux dd`."
-content_hash: 8c6c35cf5b1f0ed15641c0c57e54d3e8eb44a6e9
-last_modified_at: 2023-11-12
+content_hash: 8924f2c2cc1354d7b2762b70872e248188d10172
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gdd.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux dd`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux dd`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gkill (español)
 description: "Este comando es un alias de `-p linux kill`."
-content_hash: aa2920fe63ad67c0154fcd963cbb9d0cdd5114ee
-last_modified_at: 2023-11-12
+content_hash: 18ded16b4c3f404a24b75ad4ef1751deb9226e31
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gkill.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux kill`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux kill`

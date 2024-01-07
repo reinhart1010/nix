@@ -2,8 +2,8 @@
 layout: page
 title: osx/gseq (español)
 description: "Este comando es un alias de `-p linux seq`."
-content_hash: 22e6c5d5620e2e737de9947377f66639f8bdc0ea
-last_modified_at: 2023-11-12
+content_hash: 2dae1460720d7a42560b712186fa41300450ea24
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gseq.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux seq`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux seq`

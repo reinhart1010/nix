@@ -2,8 +2,8 @@
 layout: page
 title: osx/gsha256sum (español)
 description: "Este comando es un alias de `-p linux sha256sum`."
-content_hash: c71c5f11ba5d5b4a6938cf648d3c9148be75e273
-last_modified_at: 2023-11-12
+content_hash: 6a301e9d3e52f21bfa2cd29bc6845cec4c4ac966
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gsha256sum.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux sha256sum`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux sha256sum`

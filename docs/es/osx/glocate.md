@@ -2,8 +2,8 @@
 layout: page
 title: osx/glocate (español)
 description: "Este comando es un alias de `-p linux locate`."
-content_hash: a4214f761f50857591b9fdb7e2245d1874538456
-last_modified_at: 2023-11-12
+content_hash: c9ddea51c7526f3c10151855ccd1738fffb5e2f3
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/glocate.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux locate`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux locate`

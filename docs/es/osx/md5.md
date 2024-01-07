@@ -2,8 +2,8 @@
 layout: page
 title: osx/md5 (español)
 description: "Calcula sumas de comprobación criptográficas MD5."
-content_hash: cce8f9635c609b142923e53213af70d56a0c41f0
-last_modified_at: 2023-11-12
+content_hash: 044709c1da5f67840de0c493a5c463c43d9a32e7
+last_modified_at: 2024-01-07
 related_topics:
   - title: Deutsch version
     url: /de/osx/md5.html
@@ -29,7 +29,7 @@ Más información: <https://ss64.com/osx/md5.html>.
 
 `md5 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo1 ruta/al/archivo2 ...</span>
 
-- Obtiene sólo la suma de comprobación md5 (sin nombre de archivo):
+- Obtén sólo la suma de comprobación md5 (sin nombre de archivo):
 
 `md5 -q `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 

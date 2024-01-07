@@ -2,8 +2,8 @@
 layout: page
 title: common/aria2 (español)
 description: "Este comando es un alias de `aria2c`."
-content_hash: 17592e6d2457274dc9347d70cd9c30f9cce8a116
-last_modified_at: 2023-11-12
+content_hash: 8506d17abefa3c705799510629672396f67ddc44
+last_modified_at: 2024-01-07
 related_topics:
   - title: bosanski version
     url: /bs/common/aria2.html
@@ -29,6 +29,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `aria2c`.
 
-- Ver documentación para el comando actualizado:
+- Muestra documentación para el comando actualizado:
 
 `tldr aria2c`

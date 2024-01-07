@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2enmod (español)
 description: "Habilita un módulo de Apache en sistemas operativos basados en Debian."
-content_hash: eac623ed4d4a26a565b2ba9c0a525dc774c72550
-last_modified_at: 2023-11-12
+content_hash: 5cf843f7d93764a4fe371680882a697a2a05aa2c
+last_modified_at: 2024-01-07
 related_topics:
   - title: català version
     url: /ca/linux/a2enmod.html
@@ -43,6 +43,6 @@ Más información: <https://manpages.debian.org/latest/apache2/a2enmod.8.en.html
 
 `sudo a2enmod `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">módulo</span>
 
-- No muestra mensajes informativos:
+- Habilita un módulo sin mostrar mensajes informativos:
 
 `sudo a2enmod --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">módulo</span>

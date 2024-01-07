@@ -2,8 +2,8 @@
 layout: page
 title: osx/safeejectgpu (español)
 description: "Expulsa una GPU de forma segura."
-content_hash: 7bd5b26ebe924fd3c7512641e0f9b8bf6642d3fa
-last_modified_at: 2023-11-12
+content_hash: ffdd2aceed14bf00a00bb995038361604fbc1eb4
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/osx/safeejectgpu.html
@@ -27,7 +27,7 @@ Más información: <https://www.unix.com/man-page/mojave/8/safeejectgpu>.
 
 `SafeEjectGPU gpuid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GPU_ID</span>` apps`
 
-- Obtiene el estado de una GPU:
+- Obtén el estado de una GPU:
 
 `SafeEjectGPU gpuid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">GPU_ID</span>` status`
 

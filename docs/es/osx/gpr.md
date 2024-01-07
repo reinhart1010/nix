@@ -2,8 +2,8 @@
 layout: page
 title: osx/gpr (español)
 description: "Este comando es un alias de `-p linux pr`."
-content_hash: b0553a4a9089c3cf747bd206e7a850bcb831d46f
-last_modified_at: 2023-11-12
+content_hash: 8a82f5e5de79c7afee697ab1ba51fdc3cdd4ace0
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gpr.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux pr`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux pr`

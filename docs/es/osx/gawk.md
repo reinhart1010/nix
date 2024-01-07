@@ -2,8 +2,8 @@
 layout: page
 title: osx/gawk (español)
 description: "Este comando es un alias de `-p linux awk`."
-content_hash: a105f0b1671dcace2c5d257f82949a8e2cc0ad7c
-last_modified_at: 2023-11-12
+content_hash: 0b1d94445c6ef4276d3354ae4b9c3dcc81dc94b1
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gawk.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux awk`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux awk`

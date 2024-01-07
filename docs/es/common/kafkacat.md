@@ -2,8 +2,8 @@
 layout: page
 title: common/kafkacat (español)
 description: "Este comando es un alias de `kcat`."
-content_hash: f0637ebcc17705352bfcb09c7182dc990392c909
-last_modified_at: 2023-11-12
+content_hash: e747a34a3fa894686d0e042f18ed7fe607670d28
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/common/kafkacat.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `kcat`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr kcat`

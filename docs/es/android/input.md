@@ -2,8 +2,8 @@
 layout: page
 title: android/input (español)
 description: "Envía códigos de eventos o gestos de pantalla táctil a un dispositivo Android."
-content_hash: 0696fc79160cbce1156c603d1500687524483cc2
-last_modified_at: 2023-11-12
+content_hash: 755d004ee78d42df3e602ffc8db6d3e07a5c5646
+last_modified_at: 2024-01-07
 related_topics:
   - title: বাংলা version
     url: /bn/android/input.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/input.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/input.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/input.html
@@ -83,6 +86,6 @@ Más información: <https://developer.android.com/reference/android/view/KeyEven
 
 `input swipe `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_start</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_start</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_end</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_end</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">duracion_en_ms</span>
 
-- Enviar una pulsación larga a un dispositivo Android mediante un gesto de deslizamiento:
+- Envía una pulsación larga a un dispositivo Android mediante un gesto de deslizamiento:
 
 `input swipe `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_pos</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_pos</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">x_pos</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">y_pos</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">duracion_en_ms</span>

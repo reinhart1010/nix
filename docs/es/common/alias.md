@@ -2,8 +2,8 @@
 layout: page
 title: common/alias (español)
 description: "Crea alias -- palabras que son reemplazadas por una cadena de comando(s)."
-content_hash: dbfc0309ea471687861487b1c969d923e8119bc3
-last_modified_at: 2023-11-12
+content_hash: 90149f0b79c618ef07d87041725353fdda6e14d0
+last_modified_at: 2024-01-07
 related_topics:
   - title: বাংলা version
     url: /bn/common/alias.html
@@ -67,26 +67,26 @@ Crea alias -- palabras que son reemplazadas por una cadena de comando(s).
 Los alias son temporales en la sesión de shell actual, a no ser que estén definidos en el archivo de configuración de la shell, ej. `~/.bashrc`.
 Más información: <https://tldp.org/LDP/abs/html/aliases.html>.
 
-- Listar todos los alias:
+- Lista todos los aliases:
 
 `alias`
 
-- Crear un alias genérico:
+- Crea un alias genérico:
 
 `alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>`"`
 
-- Ver el comando asociado a un alias:
+- Muestra el comando asociado a un alias:
 
 `alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span>
 
-- Eliminar un alias (con el comando asociado):
+- Elimina un alias (con el comando asociado):
 
 `unalias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span>
 
-- Convertir `rm` en un comando interactivo:
+- Convierte `rm` en un comando interactivo:
 
 `alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rm</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rm -i</span>`"`
 
-- Crear `la` como un atajo para `ls -a`:
+- Define `la` como un atajo para `ls -a`:
 
 `alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">la</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls -a</span>`"`

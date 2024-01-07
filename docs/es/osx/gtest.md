@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtest (español)
 description: "Este comando es un alias de `-p linux test`."
-content_hash: a4aa3e20378d0b1c407a2675767f15d0db932a07
-last_modified_at: 2023-11-12
+content_hash: 026215d5518f4f9cd4bb4d597df1ad80aae37af7
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gtest.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux test`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux test`

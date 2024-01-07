@@ -2,8 +2,8 @@
 layout: page
 title: osx/sed (español)
 description: "Edita texto de manera programable."
-content_hash: 26ef20aca69a26d7fc57bd197e341dd59738fb75
-last_modified_at: 2023-11-12
+content_hash: d74ce87b3f696a7098027dbe07c8e1ee36abe573
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/osx/sed.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # sed
 
 Edita texto de manera programable.
-Ver también: `awk`, `ed`.
+Vea también: `awk`, `ed`.
 Más información: <https://keith.github.io/xcode-man-pages/sed.1.html>.
 
 - Reemplaza todas las veces que aparece `apple` (regex básico) por `mango` (regex básico) en todas las líneas de entrada e imprime el resultado en `stdout`:

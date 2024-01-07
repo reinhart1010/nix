@@ -2,8 +2,8 @@
 layout: page
 title: osx/gnohup (español)
 description: "Este comando es un alias de `-p linux nohup`."
-content_hash: 9b0d9087e3668f7eb019a133e750f7dfbd516ad0
-last_modified_at: 2023-11-12
+content_hash: 988708b6726ba97d554b307fc310bc4f8a6df136
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gnohup.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux nohup`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux nohup`

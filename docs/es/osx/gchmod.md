@@ -2,8 +2,8 @@
 layout: page
 title: osx/gchmod (español)
 description: "Este comando es un alias de `-p linux chmod`."
-content_hash: 746f23c2b8ef3857ee6507acb99cecbba8fcd4cc
-last_modified_at: 2023-11-12
+content_hash: a3ec89717304e9b035a2fec8292e6e09c2640e40
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gchmod.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux chmod`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux chmod`

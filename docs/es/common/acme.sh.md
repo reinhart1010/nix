@@ -2,8 +2,8 @@
 layout: page
 title: common/acme.sh (español)
 description: "Shell script implementando el protocolo cliente ACME, una alternativa a `certbot`."
-content_hash: 615c8d95965b1b6051677ada72bfb6d057861e94
-last_modified_at: 2024-01-02
+content_hash: c06965c5d0e9237073965f943b95cd26aeeb9c11
+last_modified_at: 2024-01-07
 related_topics:
   - title: বাংলা version
     url: /bn/common/acme.sh.html
@@ -31,7 +31,7 @@ tldri18n_status: 2
 # acme.sh
 
 Shell script implementando el protocolo cliente ACME, una alternativa a `certbot`.
-Ver también `acme.sh dns`.
+Vea también `acme.sh dns`.
 Más información: <https://github.com/acmesh-official/acme.sh>.
 
 - Emite un certificado usando el modo webroot:

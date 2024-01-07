@@ -2,8 +2,8 @@
 layout: page
 title: osx/grlogin (español)
 description: "Este comando es un alias de `-p linux rlogin`."
-content_hash: 4d77542537da418a9e4db760f58b2d5efc55af6c
-last_modified_at: 2023-11-12
+content_hash: 454b71c7a11fa2f7a1ccd09a1ad7f70040c3a8a0
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/grlogin.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux rlogin`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux rlogin`

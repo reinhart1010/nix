@@ -2,8 +2,8 @@
 layout: page
 title: osx/valet (español)
 description: "Un entorno de desarrollo Laravel que permite alojar sitios a través de túneles locales en `http://<ejemplo>.test`."
-content_hash: e53ae4ea29649f4d5da8b7d576771c669213d5a7
-last_modified_at: 2023-11-12
+content_hash: 386bc4c3842ca33ba6b01c624eba97df320fbee0
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/osx/valet.html
@@ -23,7 +23,7 @@ Más información: <https://laravel.com/docs/valet>.
 
 `valet park`
 
-- Ver las rutas 'aparcadas':
+- Muestra las rutas 'aparcadas':
 
 `valet paths`
 
@@ -31,6 +31,6 @@ Más información: <https://laravel.com/docs/valet>.
 
 `valet link `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_aplicacion</span>
 
-- Compartir un proyecto a través de un túnel Ngrok:
+- Comparte un proyecto a través de un túnel Ngrok:
 
 `valet share`

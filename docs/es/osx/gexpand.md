@@ -2,8 +2,8 @@
 layout: page
 title: osx/gexpand (español)
 description: "Este comando es un alias de `-p linux expand`."
-content_hash: e944861dda0fa012253bd875a6545357d8806965
-last_modified_at: 2023-11-12
+content_hash: 4ee89bf917cf01cbdc4d210f9ad149d3ba5e0c01
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gexpand.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux expand`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux expand`

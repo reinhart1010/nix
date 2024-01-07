@@ -2,8 +2,8 @@
 layout: page
 title: osx/gsync (español)
 description: "Este comando es un alias de `-p linux sync`."
-content_hash: 516d9e2648b8485e03e87839986535f2694d13ed
-last_modified_at: 2023-11-12
+content_hash: 2cd551cee82191a9bcc413d040ca06f317c6a4ce
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gsync.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux sync`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux sync`

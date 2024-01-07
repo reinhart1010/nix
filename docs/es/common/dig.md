@@ -2,8 +2,8 @@
 layout: page
 title: common/dig (español)
 description: "Utilidad de consulta para DNS."
-content_hash: c89539985f2148d287dece714c627833dbea6368
-last_modified_at: 2023-12-20
+content_hash: 5aaf10fe28be86d836759a4691197ca357b8ed3e
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/common/dig.html
@@ -34,7 +34,7 @@ Más información: <https://manned.org/dig>.
 
 `dig +short `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
 
-- Obtiene una respuesta detallada para un dominio determinado (registros A):
+- Obtén una respuesta detallada para un dominio determinado (registros A):
 
 `dig +noall +answer `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
 

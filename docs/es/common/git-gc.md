@@ -2,8 +2,8 @@
 layout: page
 title: common/git-gc (español)
 description: "Optimiza el repositorio local eliminando archivos innecesarios."
-content_hash: ecbb359728415e528ab20a584226f2f52e930648
-last_modified_at: 2023-11-12
+content_hash: 58ebf0330d7720c2ccd4a7f1152eafff604c3861
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/common/git-gc.html
@@ -35,7 +35,7 @@ Más información: <https://git-scm.com/docs/git-gc>.
 
 `git gc --aggressive`
 
-- No elimina objetos sueltos (por defecto los elimina):
+- Optimiza sin eliminar objetos sueltos (por defecto los elimina):
 
 `git gc --no-prune`
 

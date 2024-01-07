@@ -2,8 +2,8 @@
 layout: page
 title: linux/top (español)
 description: "Muestra información dinámica en tiempo real sobre procesos ejecutándose."
-content_hash: f21671da0b297db1ee64d7394862975cf323fc7f
-last_modified_at: 2023-11-12
+content_hash: 8cb4e534817603ed380edca99fd5c4fbacb7328c
+last_modified_at: 2024-01-07
 related_topics:
   - title: català version
     url: /ca/linux/top.html
@@ -28,7 +28,7 @@ Más información: <https://manned.org/top>.
 
 `top`
 
-- No muestra ningún proceso inactivo o zombie:
+- Oculta los procesos inactivos o zombies:
 
 `top -i`
 
@@ -48,6 +48,6 @@ Más información: <https://manned.org/top>.
 
 `top -p $(pgrep -d ',' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_proceso</span>`)`
 
-- Obtiene ayuda acerca de los comandos interactivos:
+- Obtén ayuda acerca de los comandos interactivos:
 
 `?`

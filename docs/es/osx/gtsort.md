@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtsort (español)
 description: "Este comando es un alias de `-p linux tsort`."
-content_hash: 26527fdeca2c8eb26788b84b21b358f9d08fbccd
-last_modified_at: 2023-11-12
+content_hash: 837e47a1d3a7e47d03e3cc1c46e8923ec02eabd8
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gtsort.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux tsort`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux tsort`

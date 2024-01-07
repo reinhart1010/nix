@@ -2,8 +2,8 @@
 layout: page
 title: osx/gstat (español)
 description: "Este comando es un alias de `-p linux stat`."
-content_hash: 726cc2b4fb88acb3c157fb8cc09439f577998bde
-last_modified_at: 2023-11-12
+content_hash: 0bdfb0d39ad5adf116e0026d3a6421b0c3077a9a
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gstat.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux stat`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux stat`

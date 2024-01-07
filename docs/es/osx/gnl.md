@@ -2,8 +2,8 @@
 layout: page
 title: osx/gnl (español)
 description: "Este comando es un alias de `-p linux nl`."
-content_hash: 5bd8f018d3d0283365711bbf188429d472d82c83
-last_modified_at: 2023-11-12
+content_hash: e5b967681491ef2ed75651f8d1385f2e3b7528af
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gnl.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux nl`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux nl`

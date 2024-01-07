@@ -2,8 +2,8 @@
 layout: page
 title: windows/cmd (português (Brasil))
 description: "O interpretador de comandos do Windows."
-content_hash: 39b4674fc3ba87fef1c442531896eb3dd054e9bf
-last_modified_at: 2023-12-28
+content_hash: b6ff6759af8b2d00d5c3d192fe6e48fd6615342a
+last_modified_at: 2024-01-07
 related_topics:
   - title: Deutsch version
     url: /de/windows/cmd.html
@@ -42,34 +42,34 @@ tldri18n_status: 2
 O interpretador de comandos do Windows.
 Mais informações: <https://learn.microsoft.com/windows-server/administration/windows-commands/cmd>.
 
-- Inicia nova instância do interpretador de comandos:
+- Inicia uma sessão do interpretador de comandos:
 
 `cmd`
 
-- Executa o comando especificado e sai do interpretador:
+- Executa os [c]omandos especificados:
 
-`cmd /c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>`"`
+`cmd /c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Olá Mundo</span>
 
-- Executa o comando especificado e entra no shell interativo:
+- Executa um script específico:
 
-`cmd /k "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>`"`
+`cmd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/script.bat</span>
 
-- Desabilita o uso do comando `echo` na saída dos comandos:
+- Executa o comando especificado e entra em um shell interativo:
+
+`cmd /k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">echo Olá Mundo</span>
+
+- Entra em um shell interativo e desabilita o uso do comando `echo` na saída dos comandos:
 
 `cmd /q`
 
-- Habilita ou desabilita extensão de comandos:
-
-`cmd /e:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span>
-
-- Habilita ou desabilita a ferramenta que completa automaticamente o nome de arquivos ou diretórios:
-
-`cmd /f:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span>
-
-- Habilita ou desabilita a expansão de variáveis de ambiente:
+- Entra em um shell interativo com ou a expansão de [v]ariáveis de ambiente habilitada ou desabilitada:
 
 `cmd /v:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span>
 
-- Forçar que a saída de comandos use o padrão Unicode:
+- Entra em um shell interativo com a extensão de comandos habilitada ou desabilitada:
+
+`cmd /e:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">on|off</span>
+
+- Entra em um shell interativo com a saída de comandos no padrão Unicode:
 
 `cmd /u`

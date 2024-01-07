@@ -2,8 +2,8 @@
 layout: page
 title: osx/gping (español)
 description: "Este comando es un alias de `-p linux ping`."
-content_hash: 4d40057d4a94635c552228f31f7c6bf04c923cef
-last_modified_at: 2023-11-12
+content_hash: ea1ed6fb24a405268904f3cea21b4d436ade05fd
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gping.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux ping`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux ping`

@@ -2,8 +2,8 @@
 layout: page
 title: common/llvm-strings (español)
 description: "Este comando es un alias de `strings`."
-content_hash: 828ecd5d271cd70d6f0271c7ebdae0be94e29c8c
-last_modified_at: 2023-11-12
+content_hash: 359fe5837846aae515358575f8fc46c92e8ce1bd
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/common/llvm-strings.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `strings`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr strings`

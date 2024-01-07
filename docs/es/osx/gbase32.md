@@ -2,8 +2,8 @@
 layout: page
 title: osx/gbase32 (español)
 description: "Este comando es un alias de `-p linux base32`."
-content_hash: 371d1dece62f76d0c99c32a5c45eb2b8c5be8b2b
-last_modified_at: 2023-11-12
+content_hash: 779b31de1ace7c8143b7bbdd5dc14d8fdbd7060c
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gbase32.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux base32`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux base32`

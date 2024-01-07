@@ -2,8 +2,8 @@
 layout: page
 title: common/gradle (español)
 description: "Un sistema de automatización de construcción de código abierto."
-content_hash: 164de145ea9995ca1ec2cd2f9a000a1c2a5634a0
-last_modified_at: 2023-12-20
+content_hash: f3d33b0cbba1947001e500e2dee01bb4f7a21c67
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/common/gradle.html
@@ -27,7 +27,7 @@ Más información: <https://gradle.org>.
 
 `gradle build --offline`
 
-- Limpiar el directorio de compilación:
+- Limpia el directorio de compilación:
 
 `gradle clean`
 

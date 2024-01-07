@@ -2,8 +2,8 @@
 layout: page
 title: common/assimp (español)
 description: "Cliente de línea de comandos para la biblioteca Open Asset Import."
-content_hash: 653dd37325f5783f5226d954ea8a77ffd505e199
-last_modified_at: 2023-11-30
+content_hash: 61e86c3f7e9205fd445a7b5ee65064460351dbca
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/common/assimp.html
@@ -25,11 +25,11 @@ Cliente de línea de comandos para la biblioteca Open Asset Import.
 Admite la carga de más de 40 formatos de archivo 3D y la exportación a varios formatos 3D populares.
 Más información: <https://assimp-docs.readthedocs.io/>.
 
-- Lista de todos los formatos de importación soportados:
+- Lista todos los formatos de importación soportados:
 
 `assimp listext`
 
-- Lista de todos los formatos de exportación compatibles:
+- Lista todos los formatos de exportación compatibles:
 
 `assimp listexport`
 
@@ -49,6 +49,6 @@ Más información: <https://assimp-docs.readthedocs.io/>.
 
 `assimp help`
 
-- Obtener ayuda sobre un subcomando concreto (por ejemplo, los parámetros específicos del mismo):
+- Muestra información de ayuda sobre un subcomando concreto (por ejemplo, los parámetros específicos del mismo):
 
 `assimp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcomando</span>` --help`

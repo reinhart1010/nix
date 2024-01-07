@@ -2,8 +2,8 @@
 layout: page
 title: common/unxz (español)
 description: "Este comando es un alias de `xz`."
-content_hash: 88e8106513dba1ee42e192ae748feb0a30110855
-last_modified_at: 2023-11-12
+content_hash: eb3f4b20bcb893f6bd89ec5ff8f97c7e35a2f872
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/common/unxz.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando es un alias de `xz`.
 Más información: <https://manned.org/unxz>.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr xz`

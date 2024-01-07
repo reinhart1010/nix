@@ -2,8 +2,8 @@
 layout: page
 title: osx/gmktemp (español)
 description: "Este comando es un alias de `-p linux mktemp`."
-content_hash: c8dc76c3fd183c01c927bb92d8472d06810e1516
-last_modified_at: 2023-11-12
+content_hash: 2eb960d6055205e94e7f17bf1aae3081c6f9febc
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gmktemp.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux mktemp`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux mktemp`

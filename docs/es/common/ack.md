@@ -2,8 +2,8 @@
 layout: page
 title: common/ack (español)
 description: "Una herramienta de búsqueda como grep, optimizada para desarrolladores."
-content_hash: 47239a3701e06ebccf99069b468d9afb623a4c99
-last_modified_at: 2023-11-12
+content_hash: fede0621161306b15a6addf6b022e938181194ba
+last_modified_at: 2024-01-07
 related_topics:
   - title: বাংলা version
     url: /bn/common/ack.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/ack.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/ack.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/ack.html
@@ -46,7 +49,7 @@ tldri18n_status: 2
 # ack
 
 Una herramienta de búsqueda como grep, optimizada para desarrolladores.
-Ver también: `rg`, que es más rápido.
+Vea también: `rg`, que es más rápido.
 Más información: <https://beyondgrep.com/documentation>.
 
 - Busca archivos que contengan una cadena o expresión regular en el directorio actual de forma recursiva:
@@ -65,7 +68,7 @@ Más información: <https://beyondgrep.com/documentation>.
 
 `ack --type=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">patrón_de_búsqueda</span>`"`
 
-- No buscar en archivos dado un tipo específico:
+- Busca archivos que no sean de un cierto tipo:
 
 `ack --type=no`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruby</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">patrón_de_búsqueda</span>`"`
 

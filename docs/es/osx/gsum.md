@@ -2,8 +2,8 @@
 layout: page
 title: osx/gsum (español)
 description: "Este comando es un alias de `-p linux sum`."
-content_hash: a2ad5e5cf67280b2e35c42e7dc0c4600e7835927
-last_modified_at: 2023-11-12
+content_hash: 7e4d4a3f76fb52acea16fa0eeac21fc64be1703a
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gsum.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux sum`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux sum`

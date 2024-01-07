@@ -2,8 +2,8 @@
 layout: page
 title: common/git-svn (español)
 description: "Operacion bidreccional entre un repositorio Subversión y otro Git."
-content_hash: f87b1168b6739ffeaeeaa47a064344bf59c7ebf4
-last_modified_at: 2024-01-02
+content_hash: 169ebba8e99489130485b3e60025ec0dcaf02ad0
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/common/git-svn.html
@@ -36,7 +36,7 @@ Más información: <https://git-scm.com/docs/git-svn>.
 
 `git svn rebase`
 
-- Obtiene las actualización del repositorio SVN remoto sin cambiar el HEAD de Git:
+- Obtén las actualizaciones del repositorio SVN remoto sin cambiar el HEAD de Git:
 
 `git svn fetch`
 

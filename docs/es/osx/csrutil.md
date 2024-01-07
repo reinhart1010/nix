@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/csrutil (español)
-description: "Gestionar la configuración de la Protección de Integridad del Sistema."
-content_hash: cdfa32326c67fe481f7d4cf0fbb7516aa9c68924
-last_modified_at: 2023-12-15
+description: "Gestiona la configuración de la Protección de Integridad del Sistema."
+content_hash: 209faeba692e63eb5c2e3b31db943c3684887aa2
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/osx/csrutil.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 ---
 # csrutil
 
-Gestionar la configuración de la Protección de Integridad del Sistema.
+Gestiona la configuración de la Protección de Integridad del Sistema.
 Más información: <https://ss64.com/osx/csrutil.html>.
 
 - Muestra el estado de la Protección de Integridad del Sistema:

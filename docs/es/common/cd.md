@@ -2,8 +2,8 @@
 layout: page
 title: common/cd (español)
 description: "Cambia el directorio de trabajo actual."
-content_hash: b392dc58c10506622929a2d77740903594fb8d60
-last_modified_at: 2023-11-12
+content_hash: 57238790fd647105589b71a372869e8f3e9d9f95
+last_modified_at: 2024-01-07
 related_topics:
   - title: català version
     url: /ca/common/cd.html
@@ -73,7 +73,7 @@ Más información: <https://manned.org/cd>.
 
 `cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span>
 
-- Subir al directorio padre respecto del directorio actual:
+- Cambia al directorio padre:
 
 `cd ..`
 
@@ -85,10 +85,10 @@ Más información: <https://manned.org/cd>.
 
 `cd ~`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombredeusuario</span>
 
-- Ir al directorio elegido anteriormente:
+- Cambia al directorio elegido anteriormente:
 
 `cd -`
 
-- Ir al directorio raíz:
+- Cambia al directorio raíz:
 
 `cd /`

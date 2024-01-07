@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2enconf (español)
 description: "Habilita un archivo de configuración de Apache en sistemas operativos basados en Debian."
-content_hash: 12de77e2c07142cefd15bb199375aad81dd9fc52
-last_modified_at: 2023-11-12
+content_hash: d222d600766ea7847776b65a9cb40d556d6b5aaf
+last_modified_at: 2024-01-07
 related_topics:
   - title: català version
     url: /ca/linux/a2enconf.html
@@ -43,6 +43,6 @@ Más información: <https://manpages.debian.org/latest/apache2/a2enconf.8.en.htm
 
 `sudo a2enconf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_de_configuración</span>
 
-- No muestra mensajes informativos:
+- Habilita un archivo de configuración sin mostrar mensajes informativos:
 
 `sudo a2enconf --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archivo_de_configuración</span>

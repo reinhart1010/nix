@@ -2,8 +2,8 @@
 layout: page
 title: osx/gcat (español)
 description: "Este comando es un alias de `-p linux cat`."
-content_hash: f72b61b611a0acec1dcce242bd27f279ae714031
-last_modified_at: 2023-11-12
+content_hash: 58304495588fb8497393ff681ac525c895d960c2
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gcat.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux cat`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux cat`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gfind (español)
 description: "Este comando es un alias de `-p linux find`."
-content_hash: 1e509664e799c5a7fd4cbd4d5c323b6dc0b1e175
-last_modified_at: 2023-11-12
+content_hash: bf47e97db80aa8440b222c3dfa0c5f4de3dcac19
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gfind.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux find`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux find`

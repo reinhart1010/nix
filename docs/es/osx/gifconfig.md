@@ -2,8 +2,8 @@
 layout: page
 title: osx/gifconfig (español)
 description: "Este comando es un alias de `-p linux ifconfig`."
-content_hash: 4fc36d719deb801c4d693f79fa02c22df4d09ee4
-last_modified_at: 2023-11-12
+content_hash: 71b301cf21f94eb4fd4096bff96cc866ff959473
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gifconfig.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux ifconfig`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux ifconfig`

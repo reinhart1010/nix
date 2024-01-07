@@ -2,8 +2,8 @@
 layout: page
 title: common/git-config (español)
 description: "Gestiona opciones de configuración personalizadas para repositorios Git."
-content_hash: dd1c3ad08e7ba26812fc195383e45933f9b0b7f6
-last_modified_at: 2023-12-29
+content_hash: 88d00f73e5167b68bf0ccfe9851520efabb02a2c
+last_modified_at: 2024-01-07
 related_topics:
   - title: Deutsch version
     url: /de/common/git-config.html
@@ -49,7 +49,7 @@ Más información: <https://git-scm.com/docs/git-config>.
 
 `git config --list --system --show-origin`
 
-- Obtiene el valor de una entrada de configuración dada:
+- Obtén el valor de una entrada de configuración dada:
 
 `git config alias.unstage`
 

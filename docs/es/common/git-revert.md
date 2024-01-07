@@ -2,8 +2,8 @@
 layout: page
 title: common/git-revert (español)
 description: "Crea nuevos commits que revierten el efecto de los anteriores."
-content_hash: 705a2d098509264b950a7351aff52b1d937c30f4
-last_modified_at: 2023-11-12
+content_hash: fce5aec8adbdc7ae07e8982bae663a6931714e53
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/common/git-revert.html
@@ -39,6 +39,6 @@ Más información: <https://git-scm.com/docs/git-revert>.
 
 `git revert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rama~5..rama~2</span>
 
-- No crea nuevos commits, solo cambia el árbol de trabajo:
+- Revierte commits sin crear nuevos commits:
 
 `git revert -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0c01a9..9a1743</span>

@@ -2,8 +2,8 @@
 layout: page
 title: linux/batcat (español)
 description: "Este comando es un alias de `bat`."
-content_hash: ebafb9a8050d6f466b2858719b692c2ea767b1d1
-last_modified_at: 2023-11-12
+content_hash: 67abff6dc54db8bfdc0926e01304eb4a8f001e50
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/linux/batcat.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando es un alias de `bat`.
 Más información: <https://github.com/sharkdp/bat>.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr bat`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/scutil (español)
 description: "Gestiona los parámetros de configuración del sistema."
-content_hash: d2c14d0deee4bfea0c9dd138f85ea167bcb7aaa6
-last_modified_at: 2023-11-26
+content_hash: 5a77102be4137cf4c87a0efbbb76edb3cbccecab
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/osx/scutil.html
@@ -30,7 +30,7 @@ Más información: <https://ss64.com/osx/scutil.html>.
 
 `scutil --proxy`
 
-- Obtiene nombre de equipo:
+- Obtén el nombre del equipo:
 
 `scutil --get ComputerName`
 
@@ -38,7 +38,7 @@ Más información: <https://ss64.com/osx/scutil.html>.
 
 `sudo scutil --set ComputerName `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_ordenador</span>
 
-- Obtiene nombre del host:
+- Obtén el nombre del host:
 
 `scutil --get HostName`
 

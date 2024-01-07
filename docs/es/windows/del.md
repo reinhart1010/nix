@@ -2,8 +2,8 @@
 layout: page
 title: windows/del (español)
 description: "Elimina uno o más archivos."
-content_hash: 4654f7cef35f0d03cf5ff56664d08394f860437a
-last_modified_at: 2023-11-12
+content_hash: 28b45a198769c19d80fb47ec6320364eede094fa
+last_modified_at: 2024-01-07
 related_topics:
   - title: Deutsch version
     url: /de/windows/del.html
@@ -34,7 +34,7 @@ Elimina uno o más archivos.
 En PowerShell, este comando es un alias de `Remove-Item`. Esta documentación se basa en la versión del símbolo del sistema (`cmd`) de `del`.
 Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/del>.
 
-- Ver la documentación del comando PowerShell equivalente:
+- Muestra la documentación del comando PowerShell equivalente:
 
 `tldr remove-item`
 
@@ -50,11 +50,11 @@ Más información: <https://learn.microsoft.com/windows-server/administration/wi
 
 `del `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">patrón_del_archivo</span>` /f`
 
-- Eliminar de forma recursiva archivos de todos los subdirectorios:
+- Elimina recursivamente archivos de todos los subdirectorios:
 
 `del `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">patrón_del_archivo</span>` /s`
 
-- No generar una solicitud de confirmación al eliminar archivos basados en un comodín global:
+- Elimina archivos que coincidan con un comodín sin confirmación:
 
 `del `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">patrón_del_archivo</span>` /q`
 

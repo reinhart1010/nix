@@ -2,8 +2,8 @@
 layout: page
 title: windows/cuninst (español)
 description: "Este comando es un alias de `choco uninstall`."
-content_hash: 2087e33c55bc12bfb04e0be4e7a8862c1d44df7c
-last_modified_at: 2023-11-12
+content_hash: b5c7dde3f2b62ff832805133ab411c5462c67572
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/windows/cuninst.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando es un alias de `choco uninstall`.
 Más información: <https://docs.chocolatey.org/en-us/choco/commands/uninstall>.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr choco uninstall`

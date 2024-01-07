@@ -2,8 +2,8 @@
 layout: page
 title: osx/glibtoolize (español)
 description: "Este comando es un alias de `-p linux libtoolize`."
-content_hash: 8300e5e9191b32adf067a578dfa89f2a17089d12
-last_modified_at: 2023-11-12
+content_hash: 3e35a8e37ba9518e506819b371085c5dd4b2c583
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/glibtoolize.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux libtoolize`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux libtoolize`

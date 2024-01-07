@@ -2,8 +2,8 @@
 layout: page
 title: common/git-status (español)
 description: "Muestra los cambios realizados en los archivos del repositorio Git."
-content_hash: 94e3b90e988cbf25075f4f6150cc5c9f5e59bebe
-last_modified_at: 2023-11-12
+content_hash: 451c1f74273dd085de3453fbf81a9277049b8650
+last_modified_at: 2024-01-07
 related_topics:
   - title: Deutsch version
     url: /de/common/git-status.html
@@ -51,7 +51,7 @@ Más información: <https://git-scm.com/docs/git-status>.
 
 `git status -s`
 
-- No muestra los archivos sin rastrear en la salida:
+- Muestra los archivos rastreados:
 
 `git status --untracked-files=no`
 

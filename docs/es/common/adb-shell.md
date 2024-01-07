@@ -2,8 +2,8 @@
 layout: page
 title: common/adb-shell (español)
 description: "Android Debug Bridge Shell: Ejecuta comandos shell remotos en una instancia del emulador de Android o en dispositivos Android conectados."
-content_hash: 9aec30cbce29c21652f22cd74a6866530416990c
-last_modified_at: 2024-01-02
+content_hash: 39f0ea9a772d788c6c300a9f258b11180da51012
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/common/adb-shell.html
@@ -46,7 +46,7 @@ Más información: <https://developer.android.com/studio/command-line/adb>.
 
 `adb shell`
 
-- Obtiene todas las propiedades del emulador o dispositivo:
+- Obtén todas las propiedades del emulador o dispositivo:
 
 `adb shell getprop`
 

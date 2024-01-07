@@ -2,8 +2,8 @@
 layout: page
 title: osx/grealpath (español)
 description: "Este comando es un alias de `-p linux realpath`."
-content_hash: 9523e9059d1f2d63b8cf7ed9cf8fab1a1ee9aa96
-last_modified_at: 2023-11-12
+content_hash: 29c6f2809ec0f1a8aed423565f6835cc94bd9cce
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/grealpath.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux realpath`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux realpath`

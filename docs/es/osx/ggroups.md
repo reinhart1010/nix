@@ -2,8 +2,8 @@
 layout: page
 title: osx/ggroups (español)
 description: "Este comando es un alias de `-p linux groups`."
-content_hash: b2e80b05cae4a447379134106edee3830f398e31
-last_modified_at: 2023-11-12
+content_hash: 6f89864c2a8ecff4d2f03d9659f3c8d89c129a84
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/ggroups.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux groups`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux groups`

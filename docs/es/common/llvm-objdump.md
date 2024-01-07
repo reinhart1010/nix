@@ -2,8 +2,8 @@
 layout: page
 title: common/llvm-objdump (español)
 description: "Este comando es un alias de `objdump`."
-content_hash: 214f8323c97ef50e0431105fcd76f2e5cd287819
-last_modified_at: 2023-11-12
+content_hash: c2da47c25901b2c7a806a3a6d556b3d3cecefc9f
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/common/llvm-objdump.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `objdump`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr objdump`

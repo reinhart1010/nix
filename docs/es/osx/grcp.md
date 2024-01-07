@@ -2,8 +2,8 @@
 layout: page
 title: osx/grcp (español)
 description: "Este comando es un alias de `-p linux rcp`."
-content_hash: a73320b95eb96b60a4bc8aaa9bc5a58564b30c15
-last_modified_at: 2023-11-12
+content_hash: 6d88e0dcc861625d9927fd03a607b09f214db1aa
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/grcp.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux rcp`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux rcp`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gmake (español)
 description: "Este comando es un alias de `-p linux make`."
-content_hash: 2b7899aa027b4b98ec0395c181adac45e57bc600
-last_modified_at: 2023-11-12
+content_hash: f754c44b78ec4da5074c819702d1a41be10e40cd
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gmake.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux make`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux make`

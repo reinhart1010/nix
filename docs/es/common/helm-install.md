@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/helm-install (español)
-description: "Instalar un chart de helm."
-content_hash: 1e85e012472b18ff0e93a1a3691033647b65e7ca
-last_modified_at: 2023-12-13
+description: "Instala un chart de helm."
+content_hash: c0ca32e9dfb4c7ac5686d20b2a7863be2b5c5974
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/common/helm-install.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # helm install
 
-Instalar un chart de helm.
+Instala un chart de helm.
 Más información: <https://helm.sh/docs/intro/using_helm/#helm-install-installing-a-package>.
 
 - Instala un chart de helm:

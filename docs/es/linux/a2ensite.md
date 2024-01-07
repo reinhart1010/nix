@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2ensite (español)
 description: "Habilita un servidor virtual Apache en sistemas operativos basados en Debian."
-content_hash: 597d4c53eef873136fc6107fe997e4089ae47232
-last_modified_at: 2023-11-12
+content_hash: 7f9ce70c2535a2317f801b512b10708aa533961e
+last_modified_at: 2024-01-07
 related_topics:
   - title: català version
     url: /ca/linux/a2ensite.html
@@ -43,6 +43,6 @@ Más información: <https://manpages.debian.org/latest/apache2/a2ensite.8.en.htm
 
 `sudo a2ensite `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_virtual</span>
 
-- No muestra mensajes informativos:
+- Habilita un host virtual sin mostrar mensajes informativos:
 
 `sudo a2ensite --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_virtual</span>

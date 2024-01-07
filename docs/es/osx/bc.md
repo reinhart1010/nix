@@ -2,8 +2,8 @@
 layout: page
 title: osx/bc (español)
 description: "Un lenguaje de calculadora de precisión arbitraria."
-content_hash: 976861917deff7ac18e3ec839407d318a740dd63
-last_modified_at: 2023-11-12
+content_hash: 42f6769a149fcb441477a32b126b52b676c37a15
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/osx/bc.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # bc
 
 Un lenguaje de calculadora de precisión arbitraria.
-Ver también: `dc`.
+Vea también: `dc`.
 Más información: <https://manned.org/man/freebsd-13.0/bc.1>.
 
 - Inicia una sesión interactiva:

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gunexpand (español)
 description: "Este comando es un alias de `-p linux unexpand`."
-content_hash: 86cd389a31089143c9ed22da9e2e0fa95c99a61d
-last_modified_at: 2023-11-12
+content_hash: d0d2e4d33fae2e03f1dffdde877745b6629861f6
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gunexpand.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux unexpand`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux unexpand`

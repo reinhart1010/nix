@@ -2,8 +2,8 @@
 layout: page
 title: osx/aa (español)
 description: "Este comando es un alias de `yaa`."
-content_hash: 5a6dd4fc2e7b71c9df11b267ba93ce2b5c396307
-last_modified_at: 2023-11-12
+content_hash: 8176f8126c3433895fe3000e071c8797c039c4e7
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/aa.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `yaa`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr yaa`

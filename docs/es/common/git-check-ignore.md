@@ -2,14 +2,17 @@
 layout: page
 title: common/git-check-ignore (español)
 description: "Analiza y depura los archivos que Git debe ignorar / excluir (.gitignore)."
-content_hash: 428c78178705106dfa0955ce03c9570174e966c7
-last_modified_at: 2024-01-03
+content_hash: b186def0082856b00f6daeb42acc2f328d6a96fe
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/common/git-check-ignore.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/git-check-ignore.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/git-check-ignore.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/git-check-ignore.html
@@ -39,7 +42,7 @@ Más información: <https://git-scm.com/docs/git-check-ignore>.
 
 `git check-ignore --stdin < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_lista</span>
 
-- No comprueba el índice (se utiliza para depurar por qué las rutas fueron rastreadas y no ignoradas):
+- Comprueba sin leer el índice (se utiliza para depurar por qué las rutas fueron rastreadas y no ignoradas):
 
 `git check-ignore --no-index `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_o_directorio1 ruta/al/archivo_o_directorio2 ...</span>
 

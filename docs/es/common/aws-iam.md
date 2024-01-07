@@ -2,8 +2,8 @@
 layout: page
 title: common/aws-iam (español)
 description: "CLI para AWS IAM."
-content_hash: bc842207882d0b7cf7e281ff943ad36025b0086b
-last_modified_at: 2023-11-12
+content_hash: b3141ca576cc6c3ae8d8cbb89fdd0c1d91f010d5
+last_modified_at: 2024-01-07
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-iam.html
@@ -40,7 +40,7 @@ Más información: <https://awscli.amazonaws.com/v2/documentation/api/latest/ref
 
 `aws iam list-groups`
 
-- Obtiene los usuarios de un grupo:
+- Obtén los usuarios de un grupo:
 
 `aws iam get-group --group-name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_grupo</span>
 

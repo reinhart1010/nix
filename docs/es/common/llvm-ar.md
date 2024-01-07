@@ -2,8 +2,8 @@
 layout: page
 title: common/llvm-ar (español)
 description: "Este comando es un alias de `ar`."
-content_hash: f18a61d850b6128ed69ed0383c3682eff2ccfd8d
-last_modified_at: 2023-11-12
+content_hash: c28dad710732c3bc60b902a5320b841596280fe9
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/common/llvm-ar.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `ar`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr ar`

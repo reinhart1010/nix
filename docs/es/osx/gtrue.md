@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtrue (español)
 description: "Este comando es un alias de `-p linux true`."
-content_hash: bfdc5fc57cde34625c66dc34a6f2488b56ac5640
-last_modified_at: 2023-11-12
+content_hash: 56451952fc960e352457a2add040b0eead308cea
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gtrue.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux true`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux true`

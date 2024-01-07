@@ -2,8 +2,8 @@
 layout: page
 title: osx/gvdir (español)
 description: "Este comando es un alias de `-p linux vdir`."
-content_hash: 78b9055cf1ac52508209703e0fc0820aedd2a44f
-last_modified_at: 2023-11-12
+content_hash: a97a6fdeebb7dba4be35b58fb3e951d7be1e04d5
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gvdir.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux vdir`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux vdir`

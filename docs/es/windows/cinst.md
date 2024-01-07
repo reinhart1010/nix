@@ -2,8 +2,8 @@
 layout: page
 title: windows/cinst (español)
 description: "Este comando es un alias de `choco install`."
-content_hash: e282d985e350b108df347e3579ea03963207e09d
-last_modified_at: 2023-11-12
+content_hash: 6c1a920219294cfa844567b0fb63bb6edef0a01a
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/windows/cinst.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando es un alias de `choco install`.
 Más información: <https://docs.chocolatey.org/en-us/choco/commands/install>.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr choco install`

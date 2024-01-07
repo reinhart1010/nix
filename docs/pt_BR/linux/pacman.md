@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman (português (Brasil))
 description: "Utilitário de Arch Linux para gerenciamento de pacotes."
-content_hash: cb14e6e2fb655aa0b89d99d830e1027a1b1a5a54
-last_modified_at: 2023-11-12
+content_hash: c190a348a2dcb0c450ca936c8514010c3f80b483
+last_modified_at: 2024-01-07
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -52,15 +52,15 @@ Mais informações: <https://man.archlinux.org/man/pacman.8>.
 
 - Instala um novo pacote:
 
-`sudo pacman -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span>
+`sudo pacman -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>
 
 - Remove um pacote e suas dependências:
 
-`sudo pacman -Rs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_pacote</span>
+`sudo pacman -Rs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pacote</span>
 
-- Procura no banco de dados de pacotes por uma expressão regular ou palavra-chave:
+- Procura pacotes no banco de dados que contenham um arquivo específico:
 
-`pacman -Ss "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrao_buscado</span>`"`
+`pacman -F "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_arquivo</span>`"`
 
 - Lista pacotes instalados e versões:
 

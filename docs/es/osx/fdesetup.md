@@ -2,8 +2,8 @@
 layout: page
 title: osx/fdesetup (español)
 description: "Establece y recupera información relacionada con FileVault."
-content_hash: 1638502c5417e6209ba978cd2af284a5372cb6ec
-last_modified_at: 2024-01-02
+content_hash: ba7d3901ec77d08dc8ff66d6f17c222f5a8189a6
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/osx/fdesetup.html
@@ -22,7 +22,7 @@ Más información: <https://www.unix.com/man-page/mojave/8/fdesetup/>.
 
 `sudo fdesetup list`
 
-- Obtiene el estado actual de FileVault:
+- Obtén el estado actual de FileVault:
 
 `fdesetup status`
 

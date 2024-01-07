@@ -2,8 +2,8 @@
 layout: page
 title: common/vimdiff (español)
 description: "Abre dos o más archivos en Vim y muestra las diferencias entre ellos."
-content_hash: 50fb38398f4e6d210bcb7632baca3c705c1116c7
-last_modified_at: 2023-12-29
+content_hash: f7d2fab8382b6c13ac9b203e1223f780bda28d2c
+last_modified_at: 2024-01-07
 related_topics:
   - title: Deutsch version
     url: /de/common/vimdiff.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # vimdiff
 
 Abre dos o más archivos en Vim y muestra las diferencias entre ellos.
-Ver también `vim`.
+Vea también `vim`.
 Más información: <https://www.vim.org>.
 
 - Abre dos archivos y muestra las diferencias:

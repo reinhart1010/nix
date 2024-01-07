@@ -2,8 +2,8 @@
 layout: page
 title: common/aws-kinesis (español)
 description: "CLI oficial de AWS para los servicios de streaming de datos de Amazon Kinesis."
-content_hash: 63f57925bf8ba8f3ef7d1ff191850636706737fe
-last_modified_at: 2023-11-12
+content_hash: 3a20aa6b9de7dfd0ca76e5bb93fbd684581fa0ab
+last_modified_at: 2024-01-07
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-kinesis.html
@@ -40,7 +40,7 @@ Más información: <https://docs.aws.amazon.com/cli/latest/reference/kinesis/ind
 
 `aws kinesis list-shards --stream-name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span>
 
-- Obtiene un iterador de fragmentos para leer el mensaje más antiguo de un fragmento de flujo:
+- Obtén un iterador de fragmentos para leer el mensaje más antiguo de un fragmento de flujo:
 
 `aws kinesis get-shard-iterator --shard-iterator-type TRIM_HORIZON --stream-name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre</span>` --shard-id `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span>
 

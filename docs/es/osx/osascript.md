@@ -2,8 +2,8 @@
 layout: page
 title: osx/osascript (español)
 description: "Ejecuta AppleScript o JavaScript for Automation (JXA) desde la línea de comandos."
-content_hash: 24f37348c78980bad41ad14ce862dc8c39ba8a6d
-last_modified_at: 2023-11-12
+content_hash: 289be9e436d5c24847694854f5d4afa198c86432
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/osx/osascript.html
@@ -33,7 +33,7 @@ Más información: <https://ss64.com/osx/osascript.html>.
 
 `osascript `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/apple.scpt</span>
 
-- Obtiene el identificador del paquete de una aplicación (útil para `open -b`):
+- Obtén el identificador del paquete de una aplicación (útil para `open -b`):
 
 `osascript -e 'id of app "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Application</span>`"'`
 

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/arping (español)
-description: "Descubrir y sondear hosts en una red utilizando el protocolo ARP."
-content_hash: 4f920a014723ec6d75fe221755b9e0080df15014
-last_modified_at: 2023-11-12
+description: "Descubre y sondea hosts en una red utilizando el protocolo ARP."
+content_hash: 02ab5029b4ee423263a9f3799587c51215fc8c16
+last_modified_at: 2024-01-07
 related_topics:
   - title: Deutsch version
     url: /de/common/arping.html
@@ -24,23 +24,23 @@ tldri18n_status: 2
 ---
 # arping
 
-Descubrir y sondear hosts en una red utilizando el protocolo ARP.
+Descubre y sondea hosts en una red utilizando el protocolo ARP.
 Útil para el descubrimiento de direcciones MAC.
 Más información: <https://github.com/ThomasHabets/arping>.
 
-- Hace ping a un host mediante paquetes de petición ARP:
+- Haz ping a un host mediante paquetes de petición ARP:
 
 `arping `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_ip</span>
 
-- Hace ping a un host en una interfaz específica:
+- Haz ping a un host en una interfaz específica:
 
 `arping -I `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interfaz</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_ip</span>
 
-- Hace ping a un host y detenerse en la primera respuesta:
+- Haz ping a un host y detenerse en la primera respuesta:
 
 `arping -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_ip</span>
 
-- Hace ping a un host un determinado número de veces:
+- Haz ping a un host un determinado número de veces:
 
 `arping -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">cuenta</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_ip</span>
 

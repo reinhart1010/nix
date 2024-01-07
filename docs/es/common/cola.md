@@ -2,8 +2,8 @@
 layout: page
 title: common/cola (español)
 description: "Este comando es un alias de `git-cola`."
-content_hash: 0a7bd60e270234c012f568cbf1b9661b166b52fe
-last_modified_at: 2023-11-12
+content_hash: 80d30ad23d4be612f298e7bdcb716ade5ea347d8
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/common/cola.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `git-cola`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr git-cola`

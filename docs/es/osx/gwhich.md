@@ -2,8 +2,8 @@
 layout: page
 title: osx/gwhich (español)
 description: "Este comando es un alias de `-p linux which`."
-content_hash: 24690ae4c4494882384edee36d1e01d2b3ffcd97
-last_modified_at: 2023-11-12
+content_hash: 69714d52ffa27578566679fc9008ab5c37587979
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gwhich.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux which`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux which`

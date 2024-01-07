@@ -2,8 +2,8 @@
 layout: page
 title: osx/gwhoami (español)
 description: "Este comando es un alias de `-p linux whoami`."
-content_hash: 06d7a116e83bbab0cfbf83e04ebbf48375babbc8
-last_modified_at: 2023-11-12
+content_hash: 3dad7e80371fcb0c605db0322278b5fe8472b961
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gwhoami.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux whoami`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux whoami`

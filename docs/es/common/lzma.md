@@ -2,8 +2,8 @@
 layout: page
 title: common/lzma (español)
 description: "Este comando es un alias de `xz`."
-content_hash: a8fb8aad6dec9ab8e6cb33047d1d3b872b3e7fd4
-last_modified_at: 2023-11-12
+content_hash: db6f606df845ed55a585131459e700f5dfd1fd34
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/common/lzma.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando es un alias de `xz`.
 Más información: <https://manned.org/lzma>.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr xz`

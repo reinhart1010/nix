@@ -2,8 +2,8 @@
 layout: page
 title: osx/gmkfifo (español)
 description: "Este comando es un alias de `-p linux mkfifo`."
-content_hash: 7f5e2a2493ddc38bcb2e2cddafa45051831b51fd
-last_modified_at: 2023-11-12
+content_hash: 4e708e6839f6d2a93e563d8033777848ad6c1d03
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gmkfifo.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux mkfifo`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux mkfifo`

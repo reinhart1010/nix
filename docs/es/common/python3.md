@@ -2,8 +2,8 @@
 layout: page
 title: common/python3 (español)
 description: "Este comando es un alias de `python`."
-content_hash: d4a192a8e950824a25d7a5f17778e409d09e1b78
-last_modified_at: 2023-11-12
+content_hash: 93d024014a2f287e4aacb1cd7239281a273925e6
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/common/python3.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `python`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr python`

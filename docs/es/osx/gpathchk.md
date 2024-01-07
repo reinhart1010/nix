@@ -2,8 +2,8 @@
 layout: page
 title: osx/gpathchk (español)
 description: "Este comando es un alias de `-p linux pathchk`."
-content_hash: 0d0eedfcede842adf391c0ab3ad1d433c9dde9d9
-last_modified_at: 2023-11-12
+content_hash: b5d2540ff901e86404e0fc1f2874568b56f723d8
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gpathchk.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux pathchk`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux pathchk`

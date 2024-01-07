@@ -2,8 +2,8 @@
 layout: page
 title: common/ansible-inventory (español)
 description: "Muestra o vuelca un inventario de Ansible."
-content_hash: 8104a3d81d2dc97933ddc39a855b2c914e727103
-last_modified_at: 2023-11-12
+content_hash: a05ad4b59a5290eee47871ec8f8492a0a738c2cd
+last_modified_at: 2024-01-07
 related_topics:
   - title: Deutsch version
     url: /de/common/ansible-inventory.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # ansible-inventory
 
 Muestra o vuelca un inventario de Ansible.
-Ver también: `ansible`.
+Vea también: `ansible`.
 Más información: <https://docs.ansible.com/ansible/latest/cli/ansible-inventory.html>.
 
 - Muestra el inventario por defecto:

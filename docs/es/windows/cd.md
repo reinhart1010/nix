@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/cd (español)
-description: "Muestra información sobre el directorio actual y le permite moverse a otro."
-content_hash: 9b1bdf8bf9c14e3be96e3cc7ead44eb64b42e477
-last_modified_at: 2023-11-12
+description: "Muestra el directorio actual o cambia a un directorio."
+content_hash: 7a8dc057e4030ac4992dc8cd53c013754eb0fcf9
+last_modified_at: 2024-01-07
 related_topics:
   - title: বাংলা version
     url: /bn/windows/cd.html
@@ -51,25 +51,25 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># cd
 
-Muestra información sobre el directorio actual y le permite moverse a otro.
+Muestra el directorio actual o cambia a un directorio.
 Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/cd>.
 
 - Muestra la ruta (path) del directorio actual:
 
 `cd`
 
-- Ir a la raíz de la unidad actual:
+- Cambia a la raíz de la unidad actual:
 
 `cd \`
 
-- Mover al directorio superior:
+- Cambia al directorio superior:
 
 `cd ..`
 
-- Mover a un directorio específico en el mismo disco:
+- Cambia a un directorio específico en el mismo disco:
 
 `cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta\al\directorio</span>
 
-- Mover a un directorio específico en otro disco:
+- Cambia a un directorio específico en otro disco:
 
 `cd /d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta\al\directorio</span>

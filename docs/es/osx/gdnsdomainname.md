@@ -2,8 +2,8 @@
 layout: page
 title: osx/gdnsdomainname (español)
 description: "Este comando es un alias de `-p linux dnsdomainname`."
-content_hash: a1dc2203bf330382d115b2134faa306a0c9c8528
-last_modified_at: 2023-11-12
+content_hash: 7d4adc56fba233c3ad2ad58368869877d0179d22
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gdnsdomainname.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux dnsdomainname`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux dnsdomainname`

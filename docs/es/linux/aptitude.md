@@ -2,8 +2,8 @@
 layout: page
 title: linux/aptitude (español)
 description: "Herramienta de gestión de paquetes para Debian y Ubuntu."
-content_hash: eee9a1b55ba613c99e76baf6f4b9b1849fb6403f
-last_modified_at: 2023-11-12
+content_hash: b46b3fbbcf9b6d467e7d4efdda58df95a509846e
+last_modified_at: 2024-01-07
 related_topics:
   - title: català version
     url: /ca/linux/aptitude.html
@@ -43,15 +43,15 @@ Más información: <https://manpages.debian.org/latest/aptitude/aptitude.8.html>
 
 `aptitude update`
 
-- Instalar un nuevo paquete y sus dependencias:
+- Instala un nuevo paquete y sus dependencias:
 
 `aptitude install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span>
 
-- Buscar un paquete:
+- Busca un paquete:
 
 `aptitude search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span>
 
-- Buscar un paquete instalado (`?installed` es un término de búsqueda de `aptitude`):
+- Busca un paquete instalado (`?installed` es un término de búsqueda de `aptitude`):
 
 `aptitude search '?installed(`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paquete</span>`)'`
 

@@ -2,8 +2,8 @@
 layout: page
 title: osx/launchd (español)
 description: "Este comando es un alias de `launchctl`."
-content_hash: 3a85e755ef9e772b74ff159f38e1446c0f6e6f72
-last_modified_at: 2023-11-12
+content_hash: 3a80dc0fbb9f80dde636f4e4851b5e0685053620
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/launchd.html
@@ -99,6 +99,6 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Este comando es un alias de `launchctl`.
 Más información: <https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/Introduction.html>.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr launchctl`

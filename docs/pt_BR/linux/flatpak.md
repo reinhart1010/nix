@@ -2,8 +2,8 @@
 layout: page
 title: linux/flatpak (português (Brasil))
 description: "Construa, instale e execute aplicações e plataformas flatpak."
-content_hash: 0f9363b7f7dd933fb6f73bbe9ccf30e679f2d99b
-last_modified_at: 2023-12-28
+content_hash: a54599bb616928351067421564d83fd4ca9f4e87
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/linux/flatpak.html
@@ -44,13 +44,13 @@ Mais informações: <https://docs.flatpak.org/en/latest/flatpak-command-referenc
 
 `flatpak remote-add --if-not-exists `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_remoto</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url_remoto</span>
 
-- Lista todas fontes remotas configuradas:
-
-`flatpak remote-list`
-
 - Remove uma aplicação instalada:
 
 `flatpak remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>
+
+- Remove todos as aplicações não usadas:
+
+`flatpak remove --unused`
 
 - Mostra informações sobre uma aplicação instalada:
 

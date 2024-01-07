@@ -2,8 +2,8 @@
 layout: page
 title: osx/gid (español)
 description: "Este comando es un alias de `-p linux id`."
-content_hash: c2f29f37af55121f83d45f476b641e38bbf43ccb
-last_modified_at: 2023-11-12
+content_hash: 62e1cc2fa4ac3ff196d4a0eca30e0e645a3774a9
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gid.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux id`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux id`

@@ -2,8 +2,8 @@
 layout: page
 title: osx/gftp (español)
 description: "Este comando es un alias de `-p linux ftp`."
-content_hash: 553a79e8d1975dbacb914ce6ad9c624f0b3fa32c
-last_modified_at: 2023-11-12
+content_hash: 5e01c533be5607967d345192ee563d956cf86146
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gftp.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux ftp`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux ftp`

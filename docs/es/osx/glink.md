@@ -2,8 +2,8 @@
 layout: page
 title: osx/glink (español)
 description: "Este comando es un alias de `-p linux link`."
-content_hash: c63521b6e96dd957b1db9b08139915db9780188b
-last_modified_at: 2023-11-12
+content_hash: 3582712737676eff37973265fc0f27b12cfcdbfd
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/glink.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux link`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux link`

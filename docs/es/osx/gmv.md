@@ -2,8 +2,8 @@
 layout: page
 title: osx/gmv (español)
 description: "Este comando es un alias de `-p linux mv`."
-content_hash: c2a38239073be7c59c5cabca7d6a583853c32021
-last_modified_at: 2023-11-12
+content_hash: d8657f55dd833b99c2a07721601173f6bfa6cf67
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gmv.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux mv`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux mv`

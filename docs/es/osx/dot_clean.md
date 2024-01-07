@@ -2,8 +2,8 @@
 layout: page
 title: osx/dot_clean (español)
 description: "Fusiona los archivos ._* con los archivos nativos correspondientes."
-content_hash: d30f714715c80000da6f14f50b79d3afacaec47f
-last_modified_at: 2023-11-12
+content_hash: da02bbf8abcc0044f5ff7f9a82371ebadc4a12f8
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/osx/dot_clean.html
@@ -22,7 +22,7 @@ Más información: <https://ss64.com/osx/dot_clean.html>.
 
 `dot_clean `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span>
 
-- No fusiona recursivamente todos los `._*` en un directorio (fusión plana):
+- Fusiona todos los `._*` en un directorio sin leer subdirectorios (fusión plana):
 
 `dot_clean -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio</span>
 

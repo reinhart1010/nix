@@ -2,8 +2,8 @@
 layout: page
 title: windows/curl (español)
 description: "Este comando es un alias de `curl -p common`."
-content_hash: c1b8928636818afc9f8794f379552d9610a4e5c3
-last_modified_at: 2023-11-12
+content_hash: 0c1aae637a7b52b19ed89ad5482f4919e731a83b
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/windows/curl.html
@@ -102,6 +102,6 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Este comando es un alias de `curl -p common`.
 Más información: <https://learn.microsoft.com/powershell/module/microsoft.powershell.utility/invoke-webrequest>.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr curl -p common`

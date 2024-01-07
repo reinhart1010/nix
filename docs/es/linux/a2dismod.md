@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2dismod (español)
 description: "Deshabilita un módulo de Apache en sistemas operativos basados en Debian."
-content_hash: cb4b501aca11deb6ee6d374eb2e599860c727a21
-last_modified_at: 2023-11-12
+content_hash: b697c550598e4e053cd500e85beb998d41a895d7
+last_modified_at: 2024-01-07
 related_topics:
   - title: català version
     url: /ca/linux/a2dismod.html
@@ -43,6 +43,6 @@ Más información: <https://manpages.debian.org/latest/apache2/a2dismod.8.en.htm
 
 `sudo a2dismod `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">módulo</span>
 
-- No muestra mensajes informativos:
+- Deshabilita un módulo sin mostrar mensajes informativos:
 
 `sudo a2dismod --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">módulo</span>

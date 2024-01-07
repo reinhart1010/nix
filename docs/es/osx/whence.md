@@ -2,8 +2,8 @@
 layout: page
 title: osx/whence (español)
 description: "Un comando integrado de zsh para indicar cómo se interpretaría un comando dado."
-content_hash: e419c8f3f06e9e5ef4fd41080f42c7cfbd25be8c
-last_modified_at: 2023-11-12
+content_hash: 92724cf90174467688255788bc2ad02504bf4264
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/osx/whence.html
@@ -31,6 +31,6 @@ Más información: <https://www.unix.com/man-page/OpenSolaris/1/whence/>.
 
 `whence -ca "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>`"`
 
-- Buscar sólo el `PATH` para `comando`, ignorando los buildins, aliases o funciones del shell (equivalente al comando `where`):
+- Busca un comando en la variable de entorno `PATH`, ignorando los comandos integrados, aliases o funciones del shell (equivalente al comando `where`):
 
 `whence -p "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>`"`

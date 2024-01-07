@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (português (Brasil))
 description: "Gerenciador de containers e imagens Docker."
-content_hash: 396614570e5511e8c01d24e72c1b3bb03992a4ec
-last_modified_at: 2023-12-28
+content_hash: 7f3a931f86058e952300576958b83a558c98b5fa
+last_modified_at: 2024-01-07
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -49,13 +49,9 @@ Gerenciador de containers e imagens Docker.
 Alguns subcomandos como `docker run` tem sua própia documentação de uso.
 Mais informações: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- Lista os containers Docker que se encontram em execução:
+- Lista todos os containers Docker (em execução e parados):
 
-`docker ps`
-
-- Lista todos os containers Docker:
-
-`docker ps -a`
+`docker ps --all`
 
 - Inicializa um container com um nome personalizado a partir de uma imagem:
 
@@ -68,6 +64,10 @@ Mais informações: <https://docs.docker.com/engine/reference/commandline/cli/>.
 - Extrai uma imagem a partir de um Docker Registry:
 
 `docker pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">imagem</span>
+
+- Mostra a lista de imagens já baixadas:
+
+`docker images`
 
 - Abre um terminal dentro de um container em execução:
 

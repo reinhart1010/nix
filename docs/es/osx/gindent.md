@@ -2,8 +2,8 @@
 layout: page
 title: osx/gindent (español)
 description: "Este comando es un alias de `-p linux indent`."
-content_hash: c46f521e96b9a721722a9658f6facd9264c0a251
-last_modified_at: 2023-11-12
+content_hash: 7bf0b51794936e5e1fccebcc2590a8731e1cec2f
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gindent.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux indent`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux indent`

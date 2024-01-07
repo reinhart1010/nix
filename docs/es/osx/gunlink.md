@@ -2,8 +2,8 @@
 layout: page
 title: osx/gunlink (español)
 description: "Este comando es un alias de `-p linux unlink`."
-content_hash: 08400249e0092e0ead777c4d32a0349795e73ac8
-last_modified_at: 2023-11-12
+content_hash: bda525d4326465430173ccd957649895cd5a1241
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gunlink.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux unlink`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux unlink`

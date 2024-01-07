@@ -2,8 +2,8 @@
 layout: page
 title: linux/megadl (español)
 description: "Este comando es un alias de `megatools-dl`."
-content_hash: 59f5eeec88759b74099dd83bc69d2e882b5ab6ac
-last_modified_at: 2023-11-12
+content_hash: f98162105b4673df256f98d2b4e09d4b33516a92
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/linux/megadl.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando es un alias de `megatools-dl`.
 Más información: <https://megatools.megous.com/man/megatools-dl.html>.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr megatools-dl`

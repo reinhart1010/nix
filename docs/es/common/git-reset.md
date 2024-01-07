@@ -2,8 +2,8 @@
 layout: page
 title: common/git-reset (español)
 description: "Deshace commits o desmarca cambios mediante el restablecimiento del actual HEAD de Git al estado especificado."
-content_hash: 8fb81abb5438235d76885dae94a57c14020916d9
-last_modified_at: 2023-12-05
+content_hash: 7c815692dac930c55ef714a32bcf732fb65e7f04
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/common/git-reset.html
@@ -40,11 +40,11 @@ Más información: <https://git-scm.com/docs/git-reset>.
 
 `git reset --patch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 
-- Deshace el último commit, manteniendo sus cambios, y cualquier otro cambio sin commit, en el sistema de archivo:
+- Deshaz el último commit, manteniendo sus cambios, y cualquier otro cambio sin commit, en el sistema de archivo:
 
 `git reset HEAD~`
 
-- Deshace los últimos dos commits al añadir sus cambios al índice (por ej., marcado para commit):
+- Deshaz los últimos dos commits al añadir sus cambios al índice (por ej., marcado para commit):
 
 `git reset --soft HEAD~2`
 

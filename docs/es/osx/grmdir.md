@@ -2,8 +2,8 @@
 layout: page
 title: osx/grmdir (español)
 description: "Este comando es un alias de `-p linux rmdir`."
-content_hash: 809c8dfc4b4362b9b83eb64c0d6a4b51de26deb2
-last_modified_at: 2023-11-12
+content_hash: f30f49e7a4aca9c8d0dd86f6807f6dad2248d09f
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/grmdir.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux rmdir`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux rmdir`

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/aws-pricing (español)
-description: "Consultar servicios, productos e información de precios de Amazon Web Services."
-content_hash: c93ea989754f9cc6fa9c6e307239a91638bf338d
-last_modified_at: 2023-11-12
+description: "Consulta servicios, productos e información de precios de Amazon Web Services."
+content_hash: 01a7c76e2d9eea8b8c640aadb3144a237a3d72ae
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/common/aws-pricing.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # aws pricing
 
-Consultar servicios, productos e información de precios de Amazon Web Services.
+Consulta servicios, productos e información de precios de Amazon Web Services.
 Más información: <https://docs.aws.amazon.com/cli/latest/reference/pricing/>.
 
 - Lista códigos de servicio de una región específica:

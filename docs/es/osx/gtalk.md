@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtalk (español)
 description: "Este comando es un alias de `-p linux talk`."
-content_hash: 83a4fd2fdcee55bd0e36bdfb0a0ed324dcb49306
-last_modified_at: 2023-11-12
+content_hash: cd6018fc88e529194289d4ba4d518dc0e623e443
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gtalk.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux talk`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux talk`

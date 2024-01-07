@@ -2,8 +2,8 @@
 layout: page
 title: osx/tart (español)
 description: "Crea, ejecuta y gestiona máquinas virtuales (VM) macOS y Linux en Apple Silicon."
-content_hash: 0f9f45a3fee0a8206bd54f6a42d2393e1fc7c8b4
-last_modified_at: 2023-11-12
+content_hash: d3160a5621e3bcf7df2577bd27926caf6cc01113
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/osx/tart.html
@@ -39,7 +39,7 @@ Más información: <https://github.com/cirruslabs/tart>.
 
 `tart list`
 
-- Obtiene la dirección IP de una máquina virtual en ejecución:
+- Obtén la dirección IP de una máquina virtual en ejecución:
 
 `tart ip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre-de-la-vm</span>
 

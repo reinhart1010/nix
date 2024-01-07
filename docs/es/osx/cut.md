@@ -1,9 +1,9 @@
 ---
 layout: page
 title: osx/cut (español)
-description: "Cortar campos sean `stdin` o archivos."
-content_hash: 89013f97f30dbc2aac58c186e188bdf424e0ecbc
-last_modified_at: 2023-12-14
+description: "Corta campos sean `stdin` o archivos."
+content_hash: 25199a2123cc6b75b4cf3367cd7d9e1fbfd265d8
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/osx/cut.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 ---
 # cut
 
-Cortar campos sean `stdin` o archivos.
+Corta campos sean `stdin` o archivos.
 Más información: <https://manned.org/man/freebsd-13.0/cut.1>.
 
 - Imprime un rango específico de caracteres/campos de cada línea:

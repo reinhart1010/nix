@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (español)
 description: "Administra contenedores e imágenes de Docker."
-content_hash: 8f2d8d486853de33623c21fbc3ee91498da19841
-last_modified_at: 2023-12-02
+content_hash: 807c72f3c289c2d186678cba6df52b2e3a25c4b7
+last_modified_at: 2024-01-07
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -77,6 +77,6 @@ Más información: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
 `docker rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_contenedor</span>
 
-- Obtiene y sigue los registros de un contenedor:
+- Obtén y sigue los registros de un contenedor:
 
 `docker logs -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_contenedor</span>

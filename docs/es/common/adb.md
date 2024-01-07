@@ -2,8 +2,8 @@
 layout: page
 title: common/adb (español)
 description: "Android Debug Bridge: comunica con una instancia de un emulador Android o conecta dispositivos Android."
-content_hash: e0e9f1e4eed7ae94200a87f15d45de47e62f8bb6
-last_modified_at: 2023-11-12
+content_hash: f3fd8232a1695627f55863120ac63f9e7ec50e30
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/common/adb.html
@@ -67,6 +67,6 @@ Más información: <https://developer.android.com/studio/command-line/adb>.
 
 `adb push `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo_o_directorio_local</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/directorio_de_destino_en_el_dispositivo</span>
 
-- Obtiene una lista de dispositivos conectados:
+- Obtén una lista de dispositivos conectados:
 
 `adb devices`

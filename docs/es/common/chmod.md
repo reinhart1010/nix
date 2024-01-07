@@ -2,8 +2,8 @@
 layout: page
 title: common/chmod (español)
 description: "Cambia los permisos de acceso de un archivo o directorio."
-content_hash: 3fd7ab8e874926095f021bf2b60ea37515b022c3
-last_modified_at: 2023-12-24
+content_hash: bc240e7ec14357999dd2e0bb30620f40f462db29
+last_modified_at: 2024-01-07
 related_topics:
   - title: Deutsch version
     url: /de/common/chmod.html
@@ -74,7 +74,7 @@ Más información: <https://www.gnu.org/software/coreutils/chmod>.
 
 `chmod o=g `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 
-- Quitar todos los derechos a [o]tros:
+- Quita todos los derechos a [o]tros:
 
 `chmod o= `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 

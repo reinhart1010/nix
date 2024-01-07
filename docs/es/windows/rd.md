@@ -2,8 +2,8 @@
 layout: page
 title: windows/rd (español)
 description: "Este comando es un alias de `rmdir`."
-content_hash: bbaa17da7375be9cbb70ce221273dd36b96cb914
-last_modified_at: 2023-11-12
+content_hash: f51cb6e93fe67f5aea370177b9c8065b56f5627f
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/windows/rd.html
@@ -99,6 +99,6 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Este comando es un alias de `rmdir`.
 Más información: <https://learn.microsoft.com/windows-server/administration/windows-commands/rd>.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr rmdir`

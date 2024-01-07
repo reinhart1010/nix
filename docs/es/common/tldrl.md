@@ -2,8 +2,8 @@
 layout: page
 title: common/tldrl (español)
 description: "Este comando es un alias de `tldr-lint`."
-content_hash: 78481ad3f1b37c4e17f0a6b9dd8b4146e60b8188
-last_modified_at: 2023-11-12
+content_hash: 7ff563b64ec1f3b9df11bc9b4e668e8da4d4ae55
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/common/tldrl.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando es un alias de `tldr-lint`.
 Más información: <https://github.com/tldr-pages/tldr-lint>.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr tldr-lint`

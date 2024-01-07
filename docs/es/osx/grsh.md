@@ -2,8 +2,8 @@
 layout: page
 title: osx/grsh (español)
 description: "Este comando es un alias de `-p linux rsh`."
-content_hash: 59d6e1c6d82e5211459773d1df9064d7d118f05f
-last_modified_at: 2023-11-12
+content_hash: 803553e94e1363326191f95a09e3648554d3fd2e
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/grsh.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux rsh`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux rsh`

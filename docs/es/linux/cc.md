@@ -2,8 +2,8 @@
 layout: page
 title: linux/cc (español)
 description: "Este comando es un alias de `gcc`."
-content_hash: 378805224fa18ef275426c5b22df57a6a214f842
-last_modified_at: 2023-11-12
+content_hash: 12a07074702d6422311b5d2d2f8f7f60601f4afe
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/linux/cc.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando es un alias de `gcc`.
 Más información: <https://gcc.gnu.org>.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr gcc`

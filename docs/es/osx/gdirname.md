@@ -2,8 +2,8 @@
 layout: page
 title: osx/gdirname (español)
 description: "Este comando es un alias de `-p linux dirname`."
-content_hash: 116306fa3b61da0af9c16c6dda44697b227e8d6e
-last_modified_at: 2023-11-12
+content_hash: 31f7b6a5dbfe4f4370661055d41773eeb9bc0962
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gdirname.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux dirname`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux dirname`

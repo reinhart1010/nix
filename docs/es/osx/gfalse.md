@@ -2,8 +2,8 @@
 layout: page
 title: osx/gfalse (español)
 description: "Este comando es un alias de `-p linux false`."
-content_hash: 2b268a81636c725ee7d17b5afc33afb1f549e466
-last_modified_at: 2023-11-12
+content_hash: b0435e2c1a16721b7247bc42b75e2fc80de560e3
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gfalse.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux false`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux false`

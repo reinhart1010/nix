@@ -2,8 +2,8 @@
 layout: page
 title: common/ansiweather (español)
 description: "Un script de shell para mostrar las condiciones meteorológicas actuales en tu terminal."
-content_hash: 0f76deb4a2f0d5dff58a170060d26fe1cb575705
-last_modified_at: 2023-11-12
+content_hash: ae532b2b9d03dc9592d457004f12bc24dd3576e7
+last_modified_at: 2024-01-07
 related_topics:
   - title: Deutsch version
     url: /de/common/ansiweather.html
@@ -34,7 +34,7 @@ Más información: <https://github.com/fcambus/ansiweather>.
 
 `ansiweather -u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">metric</span>` -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>` -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Rzeszow,PL</span>
 
-- Mostrar una previsión con símbolos y datos de la luz del día dada tu ubicación actual:
+- Muestra una previsión con símbolos y datos de la luz del día dada tu ubicación actual:
 
 `ansiweather -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">true</span>
 

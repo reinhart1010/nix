@@ -2,8 +2,8 @@
 layout: page
 title: osx/guptime (español)
 description: "Este comando es un alias de `-p linux uptime`."
-content_hash: 01b66c2500fbce4b8513c9f715f725ff6d51a75c
-last_modified_at: 2023-11-12
+content_hash: fe9925c527575348d16d07f735fc141c489cba56
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/guptime.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux uptime`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux uptime`

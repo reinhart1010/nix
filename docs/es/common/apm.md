@@ -2,8 +2,8 @@
 layout: page
 title: common/apm (español)
 description: "Editor Atom Package Manager."
-content_hash: ce787510176c7865efa0b7d3bb65fec8fc24f317
-last_modified_at: 2023-11-12
+content_hash: 559c25edc3ffadcad317a3518b0d2c5f2522fa90
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/common/apm.html
@@ -28,7 +28,7 @@ tldri18n_status: 2
 # apm
 
 Editor Atom Package Manager.
-Ver `atom`.
+Vea `atom`.
 Más información: <https://github.com/atom/apm>.
 
 - Instala un paquete de <http://atom.io/packages> o un tema de <http://atom.io/themes>:

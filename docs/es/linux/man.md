@@ -2,8 +2,8 @@
 layout: page
 title: linux/man (español)
 description: "Da formato y muestra páginas del manual."
-content_hash: c63e4748e05720b91240b9db0fca254f0043f0dd
-last_modified_at: 2023-12-11
+content_hash: 0a43758cdccf0212a23359c895f8c450ab1214ac
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/linux/man.html
@@ -40,11 +40,11 @@ Más información: <https://manned.org/man>.
 
 `man `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>
 
-- Mostrar la página del manual para un comando de la sección 7:
+- Muestra la página del manual para un comando de la sección 7:
 
 `man `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">7</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>
 
-- Listar todas las secciones disponibles para un comando:
+- Lista todas las secciones disponibles para un comando:
 
 `man --whatis `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>
 

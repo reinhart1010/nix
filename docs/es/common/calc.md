@@ -2,8 +2,8 @@
 layout: page
 title: common/calc (español)
 description: "Una calculadora interactiva de precisión arbitraria en el terminal."
-content_hash: 28202286038c52519d5979f973a4902c63ed3f6c
-last_modified_at: 2023-12-25
+content_hash: f2158bd339846e8e79f45c2ba190d419be2da4f3
+last_modified_at: 2024-01-07
 related_topics:
   - title: català version
     url: /ca/common/calc.html
@@ -56,11 +56,11 @@ Más información: <https://github.com/lcn2/calc>.
 
 `calc -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">modo</span>
 
-- Ver una introducción a `calc`:
+- Muestra una introducción a `calc`:
 
 `calc help intro`
 
-- Ver una visión general de `calc`:
+- Muestra una visión general de `calc`:
 
 `calc help overview`
 

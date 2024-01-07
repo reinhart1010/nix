@@ -2,8 +2,8 @@
 layout: page
 title: android/settings (español)
 description: "Muestra información sobre el sistema operativo Android."
-content_hash: ea8ebd8b6c6cba9d153171f7a72f8833fcf9b4d2
-last_modified_at: 2023-11-12
+content_hash: edb891a21dc1a01db2cbc9af88f725110c4a35a5
+last_modified_at: 2024-01-07
 related_topics:
   - title: বাংলা version
     url: /bn/android/settings.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/settings.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/settings.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/settings.html
@@ -70,7 +73,7 @@ Más información: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5
 
 `settings list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">global</span>
 
-- Obtiene el valor de una configuración específica:
+- Obtén el valor de una configuración específica:
 
 `settings get `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">global</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">airplane_mode_on</span>
 

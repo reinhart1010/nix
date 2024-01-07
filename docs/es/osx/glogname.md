@@ -2,8 +2,8 @@
 layout: page
 title: osx/glogname (español)
 description: "Este comando es un alias de `-p linux logname`."
-content_hash: 661dd12499a43a152e41829497d94501ec997fdc
-last_modified_at: 2023-11-12
+content_hash: d5e7df1ead0bd4597bc68f20c4d1bbc70e755f6c
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/glogname.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux logname`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux logname`

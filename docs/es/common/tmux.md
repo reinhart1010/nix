@@ -2,8 +2,8 @@
 layout: page
 title: common/tmux (español)
 description: "Multiplexor de terminal."
-content_hash: fe445ec0e440b9ad9a1c8b729970af1e98ffd88e
-last_modified_at: 2023-12-29
+content_hash: 53da9d0e734108c1dab082087284b18ff7839b30
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/common/tmux.html
@@ -26,7 +26,7 @@ tldri18n_status: 2
 
 Multiplexor de terminal.
 Permite múltiples sesiones con ventanas, paneles y más.
-Ver también: `zellij`, `screen`.
+Vea también: `zellij`, `screen`.
 Más información: <https://github.com/tmux/tmux>.
 
 - Inicia una nueva sesión:

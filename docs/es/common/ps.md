@@ -2,8 +2,8 @@
 layout: page
 title: common/ps (español)
 description: "Información sobre procesos en ejecución."
-content_hash: e6965139c68c8e61771e75ad48dca5844752b186
-last_modified_at: 2023-11-12
+content_hash: 83aa584946cd66e79d24ae1640596f9801d79215
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/common/ps.html
@@ -44,7 +44,7 @@ Más información: <https://manned.org/ps>.
 
 `ps --user $(id -u) f`
 
-- Obtiene el PID del proceso padre:
+- Obtén el PID del proceso padre:
 
 `ps -o ppid= -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
 

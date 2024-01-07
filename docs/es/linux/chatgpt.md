@@ -2,8 +2,8 @@
 layout: page
 title: linux/chatgpt (español)
 description: "Shell script para usar ChatGPT de OpenAI y DALL-E desde la terminal."
-content_hash: 2a6290fe2f8dfeaeb6ded47afe1bcf411ebe453e
-last_modified_at: 2023-12-01
+content_hash: 0c326b1ac1058f640a40e79abb05d96215103033
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/linux/chatgpt.html
@@ -19,7 +19,7 @@ Más información: <https://github.com/0xacx/chatGPT-shell-cli>.
 
 `chatgpt`
 
-- Dar un [p]rompt para responder:
+- Da un [p]rompt para responder:
 
 `chatgpt --prompt "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">¿Cuál es la expresión regular para emparejar una dirección de correo electrónico?</span>`"`
 

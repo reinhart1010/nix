@@ -2,8 +2,8 @@
 layout: page
 title: osx/gtruncate (español)
 description: "Este comando es un alias de `-p linux truncate`."
-content_hash: 0e837f33f2454940fc4622762c9a02d2ff0f4342
-last_modified_at: 2023-11-12
+content_hash: 857af41303891506b6131c73cc43caa960fe162a
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gtruncate.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux truncate`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux truncate`

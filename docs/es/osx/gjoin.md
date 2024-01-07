@@ -2,8 +2,8 @@
 layout: page
 title: osx/gjoin (español)
 description: "Este comando es un alias de `-p linux join`."
-content_hash: d2da5df592df7ec6b9bc8a4830ce792d532abc0a
-last_modified_at: 2023-11-12
+content_hash: 2ca3b37d83ae883abded69ec04038cdf6593d12a
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gjoin.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux join`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux join`

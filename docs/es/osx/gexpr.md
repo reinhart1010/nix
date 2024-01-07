@@ -2,8 +2,8 @@
 layout: page
 title: osx/gexpr (español)
 description: "Este comando es un alias de `-p linux expr`."
-content_hash: 3ccd65fddaeda75a8c68b59305ba1325add24129
-last_modified_at: 2023-11-12
+content_hash: 59d757e991cddde96ccd04cf9bf553a739a97d13
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gexpr.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux expr`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux expr`

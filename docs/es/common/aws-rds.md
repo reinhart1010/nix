@@ -2,8 +2,8 @@
 layout: page
 title: common/aws-rds (español)
 description: "CLI para AWS Relational Database Service."
-content_hash: a94ceb6e8ee81739e845a43fbb3f2b55445abc2e
-last_modified_at: 2023-12-01
+content_hash: cb42272a23d0db148c51546b6f3f7187a6fc3853
+last_modified_at: 2024-01-07
 related_topics:
   - title: English version
     url: /en/common/aws-rds.html
@@ -47,6 +47,6 @@ Más información: <https://awscli.amazonaws.com/v2/documentation/api/latest/ref
 
 `aws rds reboot-db-instance --db-instance-identifier `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_instancia</span>
 
-- Eliminar una instancia:
+- Elimina una instancia:
 
 `aws rds delete-db-instance --db-instance-identifier `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_instancia</span>` --final-db-snapshot-identifier `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_snapshot</span>` --delete-automated-backups`

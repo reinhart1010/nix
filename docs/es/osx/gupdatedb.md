@@ -2,8 +2,8 @@
 layout: page
 title: osx/gupdatedb (español)
 description: "Este comando es un alias de `-p linux updatedb`."
-content_hash: b82bc67bb7bce3de7e3ff80d6374789446b6d5e1
-last_modified_at: 2023-11-12
+content_hash: 6c5482dfd793b7ee965c1664967f14669bae38e1
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gupdatedb.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux updatedb`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux updatedb`

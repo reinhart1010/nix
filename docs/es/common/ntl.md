@@ -2,8 +2,8 @@
 layout: page
 title: common/ntl (español)
 description: "Este comando es un alias de `netlify`."
-content_hash: cebf6f70d0e7aff40ab195eb36a69f1c9f5fcc4e
-last_modified_at: 2023-11-12
+content_hash: 726c17b43e003fec81db9f35661092c7e6340c1d
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/common/ntl.html
@@ -96,6 +96,6 @@ tldri18n_status: 2
 Este comando es un alias de `netlify`.
 Más información: <https://cli.netlify.com>.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr netlify`

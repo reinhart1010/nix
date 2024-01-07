@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/ac (español)
-description: "Imprimir estadísticas sobre cuanto tiempo han estado conectados los usuarios."
-content_hash: 2aa566b79fb03fd0a67a06501e8a7c854c7bd40d
-last_modified_at: 2023-11-12
+description: "Imprime estadísticas sobre cuanto tiempo han estado conectados los usuarios."
+content_hash: a2343a1b505135d6f8585a7749d657206b77f4af
+last_modified_at: 2024-01-07
 related_topics:
   - title: বাংলা version
     url: /bn/common/ac.html
@@ -11,8 +11,14 @@ related_topics:
   - title: English version
     url: /en/common/ac.html
     icon: bi bi-globe
+  - title: français version
+    url: /fr/common/ac.html
+    icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/common/ac.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/ac.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/ac.html
@@ -30,7 +36,7 @@ tldri18n_status: 2
 ---
 # ac
 
-Imprimir estadísticas sobre cuanto tiempo han estado conectados los usuarios.
+Imprime estadísticas sobre cuanto tiempo han estado conectados los usuarios.
 Más información: <https://man.openbsd.org/ac>.
 
 - Imprime cuanto tiempo ha estado conectado el usuario actual en horas:

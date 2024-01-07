@@ -2,8 +2,8 @@
 layout: page
 title: linux/cgroups (español)
 description: "Este comando es un alias de `cgclassify`."
-content_hash: afe3a3ef929cacdc4f66824279da40369d9e5066
-last_modified_at: 2023-11-12
+content_hash: bc6d3140d27f682bd58f9295bc6adb3fc76ff7b3
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/linux/cgroups.html
@@ -99,6 +99,6 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Este comando es un alias de `cgclassify`.
 Más información: <https://www.kernel.org/doc/Documentation/cgroup-v2.txt>.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr cgclassify`

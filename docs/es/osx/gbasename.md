@@ -2,8 +2,8 @@
 layout: page
 title: osx/gbasename (español)
 description: "Este comando es un alias de `-p linux basename`."
-content_hash: 2857cc0955b53b9de64e76d5b1c83ace5420dd67
-last_modified_at: 2023-11-12
+content_hash: bf12566901ca5fd16673cf902bc1fb5b95c73abe
+last_modified_at: 2024-01-07
 related_topics:
   - title: العربية version
     url: /ar/osx/gbasename.html
@@ -95,6 +95,6 @@ tldri18n_status: 2
 
 Este comando es un alias de `-p linux basename`.
 
-- Ver documentación para el comando original:
+- Muestra la documentación del comando original:
 
 `tldr -p linux basename`
