@@ -2,7 +2,7 @@
 layout: page
 title: openbsd/df (English)
 description: "Display an overview of the filesystem disk space usage."
-content_hash: 2ec7110e99179c49612892691c41f36097b70d02
+content_hash: 1b34f93ef7800be165f12b9edfabbad6d4c6d124
 last_modified_at: 2024-01-08
 tldri18n_status: 2
 ---
@@ -15,7 +15,7 @@ More information: <https://man.openbsd.org/df.1>.
 
 `df`
 
-- Display all filesystems and their disk usage in human-readable form (based on powers of 1024):
+- Display all filesystems and their disk usage in [h]uman-readable form (based on powers of 1024):
 
 `df -h`
 
@@ -31,6 +31,6 @@ More information: <https://man.openbsd.org/df.1>.
 
 `df -k`
 
-- Display information in a portable way:
+- Display information in a [P]ortable way:
 
 `df -P`
