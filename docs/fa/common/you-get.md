@@ -1,0 +1,45 @@
+---
+layout: page
+title: common/you-get (فارسی)
+description: "دانلود محتوای چندرسانه ای از وب (ویدیو، صوت، عکس)."
+content_hash: 29432ee015c93eabe5730fc37546d9af31b6978b
+last_modified_at: 2024-01-08
+related_topics:
+  - title: English version
+    url: /en/common/you-get.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/common/you-get.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># you-get
+
+دانلود محتوای چندرسانه ای از وب (ویدیو، صوت، عکس).
+اطلاعات بیشتر: <https://you-get.org>.
+
+- چاپ اطلاعات درمورد یک رسانه خاص در سطح وب:
+
+`you-get --info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/video?id=value</span>
+
+- دانلود رسانه از لینک موردنظر:
+
+`you-get `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/video?id=value</span>
+
+- جستجو در ویدیوهای گوگل و دانلود:
+
+`you-get `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">keywords</span>
+
+- دانلود یک رسانه و ذخیره در محل ذخیره شده:
+
+`you-get --output-dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` --output-filename `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/watch?v=value</span>
+
+- دانلود یک رسانه با استفاده از پروکسی:
+
+`you-get --http-proxy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">proxy_server</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://example.com/watch?v=value</span>

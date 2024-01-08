@@ -2,8 +2,8 @@
 layout: page
 title: common/deno (Deutsch)
 description: "Eine sichere JavaScript- und TypeScript-Laufzeit."
-content_hash: 8c84cec4a53b7a8f123fc35b2cb60a836bacc5b8
-last_modified_at: 2023-11-12
+content_hash: b9252015ad884cd8c71967ce69b40ded6fdb5d77
+last_modified_at: 2024-01-08
 related_topics:
   - title: English version
     url: /en/common/deno.html
@@ -16,6 +16,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/deno.html
+    icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/deno.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
@@ -40,6 +43,6 @@ Weitere Informationen: <https://deno.land>.
 
 `deno run `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://deno.land/std/examples/welcome.ts</span>
 
-- Installiere ein ausführbares Script von einer URL:
+- Installiere ein ausführbares Skript von einer URL:
 
 `deno install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://deno.land/std/examples/colors.ts</span>

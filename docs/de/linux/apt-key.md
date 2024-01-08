@@ -2,8 +2,8 @@
 layout: page
 title: linux/apt-key (Deutsch)
 description: "Schlüssel-Management-Tool für den APT-Paket-Manager auf Debian und Ubuntu."
-content_hash: fb78deb3b24142bab5169470b596624380e994b0
-last_modified_at: 2023-11-12
+content_hash: 3a926f605703557ce532688716b1b44e16fb82e9
+last_modified_at: 2024-01-08
 related_topics:
   - title: català version
     url: /ca/linux/apt-key.html
@@ -31,7 +31,7 @@ tldri18n_status: 2
 # apt-key
 
 Schlüssel-Management-Tool für den APT-Paket-Manager auf Debian und Ubuntu.
-Notiz: `apt-key` ist deprecated (außer für `apt-key del` in Maintainer Scripts).
+Notiz: `apt-key` ist veraltet (außer für `apt-key del` in Maintainerskripten).
 Weitere Informationen: <https://manpages.debian.org/latest/apt/apt-key.8.html>.
 
 - Liste alle vertrauten Schlüssel auf:

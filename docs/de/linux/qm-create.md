@@ -2,8 +2,8 @@
 layout: page
 title: linux/qm-create (Deutsch)
 description: "Erzeugung einer virtuellen Maschine per QEMU/KVM Virtual Machine Manager."
-content_hash: 9f734ce9d255d6809d019ea327f13051e91ed8fc
-last_modified_at: 2023-11-12
+content_hash: 13bbb10c2eb81e6ea46dd73bea92a9bf236c291c
+last_modified_at: 2024-01-08
 related_topics:
   - title: English version
     url: /en/linux/qm-create.html
@@ -33,4 +33,4 @@ Weitere Informationen: <https://pve.proxmox.com/pve-docs/qm.1.html>.
 
 - Lege ein Skript fest, welches automatisch abhängig vom Zustand der virtuellen Maschine ausgelöst werden soll:
 
-`qm create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` --hookscript `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/script.pl</span>
+`qm create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` --hookscript `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/skript.pl</span>

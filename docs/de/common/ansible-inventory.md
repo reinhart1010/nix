@@ -2,8 +2,8 @@
 layout: page
 title: common/ansible-inventory (Deutsch)
 description: "Anzeigen oder Ausgeben eines Ansible-Inventars."
-content_hash: b06f0408f8b5f53b8b5eca6404288c663a520998
-last_modified_at: 2023-12-28
+content_hash: 6f64b7b993997e5e5ff4b70fa9d7215adc12997e
+last_modified_at: 2024-01-08
 related_topics:
   - title: English version
     url: /en/common/ansible-inventory.html
@@ -28,7 +28,7 @@ Weitere Informationen: <https://docs.ansible.com/ansible/latest/cli/ansible-inve
 
 - Anzeigen eines Benutzerdefinierten Inventars:
 
-`ansible-inventory --list --inventory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/deiner_datei_oder_deinem_script_oder_deinem_verzeichnis</span>
+`ansible-inventory --list --inventory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pfad/zu/datei_oder_skript_oder_verzeichnis</span>
 
 - Anzeigen des Standardinventars in YAML:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/nmap (Deutsch)
 description: "Netzwerk-Erkundungs-Werkzeug und Security / Port Scanner."
-content_hash: ce41488ccc9b2d77d8687f99a9f97e712333ad3a
-last_modified_at: 2023-12-28
+content_hash: 9527a4f9ff3c40334fa6632f2c3cb1399cd9cf81
+last_modified_at: 2024-01-08
 related_topics:
   - title: English version
     url: /en/common/nmap.html
@@ -52,7 +52,7 @@ Weitere Informationen: <https://nmap.org>.
 
 `nmap --script "default and safe" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">addresse_oder_addressen</span>
 
-- Scanne einen Web-Server, der auf den Standard Ports 80 und 443 läuft, mit allen verfügbaren 'http-*' NSE Scripts:
+- Scanne einen Web-Server, der auf den Standard Ports 80 und 443 läuft, mit allen verfügbaren 'http-*' NSE Skripten:
 
 `nmap --script "http-*" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">addresse_oder_addressen</span>` -p 80,443`
 

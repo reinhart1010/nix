@@ -2,8 +2,8 @@
 layout: page
 title: common/chmod (فارسی)
 description: "تغییر مجوز(ها)ی دسترسی به یک فایل یا پوشه."
-content_hash: ae874988d7974c3754f9fbd54cfd1a5cec206cad
-last_modified_at: 2024-01-05
+content_hash: 6ddbd9a71eb2a2af55e7f76d6b4c681180587fea
+last_modified_at: 2024-01-08
 related_topics:
   - title: Deutsch version
     url: /de/common/chmod.html
@@ -58,11 +58,11 @@ tldri18n_status: 2
 
 `chmod u+x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- به کابر مالک دسترسی خواند|نوشتن یک فایل|پوشه را میدهد:
+- به کابر مالک دسترسی خواندن|نوشتن یک فایل|پوشه را میدهد:
 
 `chmod u+rw `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
 
-- دسترسی اجرا را از گروه صلب میکند:
+- دسترسی اجرا را از گروه سلب میکند:
 
 `chmod g-x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 

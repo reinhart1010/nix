@@ -2,8 +2,8 @@
 layout: page
 title: common/cd (فارسی)
 description: "تغییر دایرکتوری جاری."
-content_hash: fa8ab8e882cba6b77c3d2c50400f0341cd242a82
-last_modified_at: 2023-11-12
+content_hash: 539dae0498b3bcfdfeb87f6114d7afa2726a1daf
+last_modified_at: 2024-01-08
 related_topics:
   - title: català version
     url: /ca/common/cd.html
@@ -72,7 +72,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 تغییر دایرکتوری جاری.
 اطلاعات بیشتر: <https://manned.org/cd>.
 
-- تغییر مسیربه دایرکتوری مشخص شده:
+- تغییر مسیر به دایرکتوری مشخص شده:
 
 `cd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/archlinux-java (Deutsch)
-description: "Ein Helfer Script das Funktionen für Java-Umgebungen bereitstellt."
-content_hash: e3c6fd31996512f1850adf88af024c60a37d74fe
-last_modified_at: 2023-11-12
+description: "Ein Helferskript, das Funktionen für Java-Umgebungen bereitstellt."
+content_hash: e714e1edc52e63cee381135ed2330cc602a2242b
+last_modified_at: 2024-01-08
 related_topics:
   - title: English version
     url: /en/linux/archlinux-java.html
@@ -18,7 +18,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># archlinux-java
 
-Ein Helfer Script das Funktionen für Java-Umgebungen bereitstellt.
+Ein Helferskript, das Funktionen für Java-Umgebungen bereitstellt.
 Weitere Informationen: <https://wiki.archlinux.org/title/Java#Switching_between_JVM>.
 
 - Liste installierte Java-Umgebungen:

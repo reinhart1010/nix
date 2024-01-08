@@ -2,8 +2,8 @@
 layout: page
 title: linux/ascii (Deutsch)
 description: "Zeige ASCII-Aliase von Buchstaben."
-content_hash: ca90e35db98668809084b47623b2e75d3b778c3e
-last_modified_at: 2023-11-12
+content_hash: 28807928ae535a54d4b2d652876754f119f799ff
+last_modified_at: 2024-01-08
 related_topics:
   - title: English version
     url: /en/linux/ascii.html
@@ -28,7 +28,7 @@ Weitere Informationen: <http://www.catb.org/~esr/ascii/>.
 
 `ascii `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">a</span>
 
-- Zeige ASCII-Aliase im kurzen script-freundlichen Modus:
+- Zeige ASCII-Aliase im kurzen, skriptfreundlichen Modus:
 
 `ascii -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">a</span>
 
