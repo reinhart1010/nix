@@ -3,7 +3,7 @@ layout: page
 title: common/df (한국어)
 description: "파일 시스템 디스크 공간 사용량에 대한 개요를 제공합니다."
 content_hash: 3d1694733f6a08ed47da2df536f7db8bd57a7896
-last_modified_at: 2023-11-12
+last_modified_at: 2024-01-08
 related_topics:
   - title: Deutsch version
     url: /de/common/df.html
@@ -32,12 +32,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/df.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># df
+# df
 
 파일 시스템 디스크 공간 사용량에 대한 개요를 제공합니다.
 더 많은 정보: <https://www.gnu.org/software/coreutils/df>.

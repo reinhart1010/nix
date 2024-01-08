@@ -2,8 +2,8 @@
 layout: page
 title: common/exit (English)
 description: "Exit the shell."
-content_hash: 74d5bc0479f2c662e74c7a46b09021ce20b4d7ca
-last_modified_at: 2023-12-29
+content_hash: 3d86a1f6c5d9edd445862b53a188dae5ac1dea2b
+last_modified_at: 2024-01-08
 related_topics:
   - title: Deutsch version
     url: /de/common/exit.html
@@ -25,12 +25,12 @@ tldri18n_status: 2
 # exit
 
 Exit the shell.
-More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#exit>.
+More information: <https://manned.org/exit.1posix>.
 
-- Exit the shell with the exit code of the last command executed:
+- Exit with the exit status of the most recently executed command:
 
 `exit`
 
-- Exit the shell with the specified exit code:
+- Exit with a specific exit status:
 
 `exit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">exit_code</span>

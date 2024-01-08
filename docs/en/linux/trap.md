@@ -1,29 +1,28 @@
 ---
 layout: page
 title: linux/trap (English)
-description: "Automatically execute commands after receiving signals by processes or the operating system."
-content_hash: d499954498b0bbcc39e122d9f46f391b077fe1f0
-last_modified_at: 2023-12-30
+description: "Execute a command upon an event."
+content_hash: f6dda0af6f6460d0cd326f03ecbf86de14b7fde2
+last_modified_at: 2024-01-08
 tldri18n_status: 2
 ---
 # trap
 
-Automatically execute commands after receiving signals by processes or the operating system.
-Can be used to perform cleanups for interruptions by the user or other actions.
-More information: <https://manned.org/trap>.
+Execute a command upon an event.
+More information: <https://www.gnu.org/software/bash/manual/bash.html#index-trap>.
 
-- List available signals to set traps for:
+- List the available event names (e.g. `SIGWINCH`):
 
 `trap -l`
 
-- List active traps for the current shell:
+- List the commands and the names of the expected events:
 
 `trap -p`
 
-- Set a trap to execute commands when one or more signals are detected:
+- Execute a command when a signal is received:
 
 `trap 'echo "Caught signal `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGHUP</span>`"' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGHUP</span>
 
-- Remove active traps:
+- Remove commands:
 
 `trap - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGHUP</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGINT</span>

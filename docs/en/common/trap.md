@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/trap (English)
-description: "Automatically execute commands after receiving signals by processes or the operating system."
-content_hash: c234dfefd8899dcf848248d266b95ce3f266a46a
-last_modified_at: 2023-12-29
+description: "Execute a command upon an event."
+content_hash: 99f75697e01f125a7cb3a5023fdad6c2ae9647b0
+last_modified_at: 2024-01-08
 related_topics:
   - title: 中文 version
     url: /zh/common/trap.html
@@ -12,18 +12,17 @@ tldri18n_status: 2
 ---
 # trap
 
-Automatically execute commands after receiving signals by processes or the operating system.
-Can be used to perform cleanups for interruptions by the user or other actions.
-More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#trap>.
+Execute a command upon an event.
+More information: <https://manned.org/trap.1posix>.
 
-- List active traps for the current shell:
+- List the commands and the names of the expected events:
 
 `trap`
 
-- Set a trap to execute commands when one or more signals are detected:
+- Execute a command when a signal is received:
 
-`trap 'echo "Caught signal `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGHUP</span>`"' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGHUP</span>
+`trap 'echo "Caught signal `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGHUP</span>`"' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HUP</span>
 
-- Remove active traps:
+- Remove commands:
 
-`trap - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGHUP</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">SIGINT</span>
+`trap - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HUP</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">INT</span>

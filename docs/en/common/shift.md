@@ -1,20 +1,20 @@
 ---
 layout: page
 title: common/shift (English)
-description: "Shell built-in command that shifts the arguments passed to the calling function or script by a specified number of places."
-content_hash: 31a52e654bdeba88dbc0c6647b9aa0d1b7f63172
-last_modified_at: 2023-12-29
+description: "Move positional parameters."
+content_hash: 6452b5685f2ad04044c87da6d77474ee5fc7ea77
+last_modified_at: 2024-01-08
 tldri18n_status: 2
 ---
 # shift
 
-Shell built-in command that shifts the arguments passed to the calling function or script by a specified number of places.
-More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#shift>.
+Move positional parameters.
+More information: <https://manned.org/shift.1posix>.
 
-- Move arguments by one place dropping the first argument:
+- Remove the first positional parameter:
 
 `shift`
 
-- Move arguments by N places dropping the first N arguments:
+- Remove the first `N` positional parameters:
 
 `shift `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">N</span>

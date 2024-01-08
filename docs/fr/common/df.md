@@ -3,7 +3,7 @@ layout: page
 title: common/df (français)
 description: "Montre un aperçu de l'utilisation de l'espace disque."
 content_hash: ec48702d1d3d646b5b106a2eb70882094e84fc87
-last_modified_at: 2023-11-12
+last_modified_at: 2024-01-08
 related_topics:
   - title: Deutsch version
     url: /de/common/df.html
@@ -32,9 +32,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/df.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# df
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># df
 
 Montre un aperçu de l'utilisation de l'espace disque.
 Plus d'informations : <https://www.gnu.org/software/coreutils/df>.

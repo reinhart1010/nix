@@ -1,28 +1,28 @@
 ---
 layout: page
 title: linux/export (English)
-description: "Command to mark shell variables in the current environment to be exported with any newly forked child processes."
-content_hash: c26e5f26647738005f1400fcec3f9c040e7fe72f
-last_modified_at: 2023-12-30
+description: "Export shell variables to child processes."
+content_hash: 5633537eec37fc80a4f02df14a790652c1fd12d2
+last_modified_at: 2024-01-08
 tldri18n_status: 2
 ---
 # export
 
-Command to mark shell variables in the current environment to be exported with any newly forked child processes.
+Export shell variables to child processes.
 More information: <https://www.gnu.org/software/bash/manual/bash.html#index-export>.
 
-- Set a new environment variable:
+- Set an environment variable:
 
 `export `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">VARIABLE</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span>
 
-- Remove an environment variable:
+- Unset an environment variable:
 
 `export -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">VARIABLE</span>
 
-- Mark a shell function for export:
+- Export a function to child processes:
 
 `export -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">FUNCTION_NAME</span>
 
-- Append something to the PATH variable:
+- Append a pathname to the environment variable `PATH`:
 
 `export PATH=$PATH:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/append</span>

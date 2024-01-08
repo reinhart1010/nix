@@ -3,7 +3,7 @@ layout: page
 title: common/copyq (فارسی)
 description: "مدیریت کلیپ بورد با قابلیت های پیشرفته."
 content_hash: f61e193481cca82f6832ee3224e21226eaa79016
-last_modified_at: 2024-01-07
+last_modified_at: 2024-01-08
 related_topics:
   - title: English version
     url: /en/common/copyq.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/copyq.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/copyq.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># copyq
+# copyq
 
 مدیریت کلیپ بورد با قابلیت های پیشرفته.
 اطلاعات بیشتر: <https://copyq.readthedocs.io/en/latest/command-line.html>.

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/export (English)
-description: "Command to mark shell variables in the current environment to be exported with any newly forked child processes."
-content_hash: 2143761165d9b5c2f208335f8c3f22bded1e8bf5
-last_modified_at: 2023-12-29
+description: "Export shell variables to child processes."
+content_hash: cac6cca1b87555cae0f5237e7881548f4314ebc8
+last_modified_at: 2024-01-08
 related_topics:
   - title: Deutsch version
     url: /de/common/export.html
@@ -18,13 +18,13 @@ tldri18n_status: 2
 ---
 # export
 
-Command to mark shell variables in the current environment to be exported with any newly forked child processes.
-More information: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#export>.
+Export shell variables to child processes.
+More information: <https://manned.org/export.1posix>.
 
-- Set a new environment variable:
+- Set an environment variable:
 
 `export `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">VARIABLE</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span>
 
-- Append something to the PATH variable:
+- Append a pathname to the environment variable `PATH`:
 
 `export PATH=$PATH:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/append</span>
