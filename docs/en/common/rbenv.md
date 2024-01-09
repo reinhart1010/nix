@@ -2,8 +2,8 @@
 layout: page
 title: common/rbenv (English)
 description: "A tool to easily install Ruby versions and manage application environments."
-content_hash: eb925338c133ef7fd81756a5b0125b0f521a5843
-last_modified_at: 2023-11-12
+content_hash: d43f90c387a55ba2e5a1a7bc9b930853dbdbb8e0
+last_modified_at: 2024-01-09
 related_topics:
   - title: Indonesia version
     url: /id/common/rbenv.html
@@ -16,6 +16,7 @@ tldri18n_status: 2
 # rbenv
 
 A tool to easily install Ruby versions and manage application environments.
+See also: `asdf`.
 More information: <https://github.com/rbenv/rbenv>.
 
 - Install a Ruby version:

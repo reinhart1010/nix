@@ -2,8 +2,8 @@
 layout: page
 title: common/df (தமிழ்)
 description: "கோப்பு முறைமை வட்டு இட உபயோகத்தின் மேலோட்டத்தை அளிக்கிறது."
-content_hash: 70bff38005d38538a8c00220edfdc39e52b77d1f
-last_modified_at: 2024-01-08
+content_hash: 1fe52a68b31f746658bc0d62689b15fb21db9ca3
+last_modified_at: 2024-01-09
 related_topics:
   - title: Deutsch version
     url: /de/common/df.html
@@ -26,6 +26,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/df.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/df.html
+    icon: bi bi-globe
   - title: 中文 version
     url: /zh/common/df.html
     icon: bi bi-globe
@@ -40,7 +43,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># df
 
 கோப்பு முறைமை வட்டு இட உபயோகத்தின் மேலோட்டத்தை அளிக்கிறது.
-மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/df>.
+மேலும் விவரத்திற்கு: <https://manned.org/df.1posix>.
 
 - அனைத்து கோப்பு முறைமைகளையும் அவற்றின் வட்டு பயன்பாட்டையும் காண்பி:
 

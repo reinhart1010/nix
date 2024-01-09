@@ -2,8 +2,8 @@
 layout: page
 title: common/poetry (English)
 description: "Manage Python packages and dependencies."
-content_hash: 86f5978c932c53944bee3b21222ae1f2b0b55e3c
-last_modified_at: 2023-11-12
+content_hash: fd32c92a76c0d7c5940391b07d5c2c507da77f07
+last_modified_at: 2024-01-09
 related_topics:
   - title: Deutsch version
     url: /de/common/poetry.html
@@ -16,6 +16,7 @@ tldri18n_status: 2
 # poetry
 
 Manage Python packages and dependencies.
+See also: `asdf`.
 More information: <https://python-poetry.org/docs/cli/>.
 
 - Create a new Poetry project in the directory with a specific name:

@@ -2,8 +2,8 @@
 layout: page
 title: common/df (فارسی)
 description: "یک نمای کلی از میزان استفاده فضای دیسک و سیستم فایل ارائه می‌دهد."
-content_hash: 4c5fce215a50d2d29d36f4a9740761f73b47d322
-last_modified_at: 2024-01-08
+content_hash: 92c840c04eb9e2bf6e5f8ded03e8cf16a12b44a1
+last_modified_at: 2024-01-09
 related_topics:
   - title: Deutsch version
     url: /de/common/df.html
@@ -23,6 +23,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/df.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/df.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/df.html
     icon: bi bi-globe
@@ -40,7 +43,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># df
 
 یک نمای کلی از میزان استفاده فضای دیسک و سیستم فایل ارائه می‌دهد.
-اطلاعات بیشتر: <https://www.gnu.org/software/coreutils/df>.
+اطلاعات بیشتر: <https://manned.org/df.1posix>.
 
 - نمایش تمامی سیستم‌های فایل و فضای دیسک آن‌ها :
 

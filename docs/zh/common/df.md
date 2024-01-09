@@ -2,8 +2,8 @@
 layout: page
 title: common/df (中文)
 description: "提供文件系统磁盘空间使用情况的概览。"
-content_hash: cf024eebf0f2bc0eafe79a218213248c73dc4209
-last_modified_at: 2024-01-08
+content_hash: 884358d08db8654b4a983b4e0bc0963e8590e10c
+last_modified_at: 2024-01-09
 related_topics:
   - title: Deutsch version
     url: /de/common/df.html
@@ -26,6 +26,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/df.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/df.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/df.html
     icon: bi bi-globe
@@ -40,7 +43,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># df
 
 提供文件系统磁盘空间使用情况的概览。
-更多信息：<https://www.gnu.org/software/coreutils/df>.
+更多信息：<https://manned.org/df.1posix>.
 
 - 显示所有文件系统和它们的磁盘使用情况：
 

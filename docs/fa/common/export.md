@@ -2,8 +2,8 @@
 layout: page
 title: common/export (فارسی)
 description: "دستور تغییر متغییرهای محلی سیستم موجود برای پروسه های جدید."
-content_hash: 3d50522a7ae41497805066f7f3baa35d1b77046e
-last_modified_at: 2024-01-06
+content_hash: 96d8df0dc64bf8320a68655187068e0af05cfa45
+last_modified_at: 2024-01-09
 related_topics:
   - title: Deutsch version
     url: /de/common/export.html
@@ -19,7 +19,7 @@ tldri18n_status: 2
 # export
 
 دستور تغییر متغییرهای محلی سیستم موجود برای پروسه های جدید.
-اطلاعات بیشتر: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#export>.
+اطلاعات بیشتر: <https://manned.org/export.1posix>.
 
 - ایجاد و تعیین مقدار یک متغییر جدید:
 

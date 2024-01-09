@@ -2,8 +2,8 @@
 layout: page
 title: common/df (français)
 description: "Montre un aperçu de l'utilisation de l'espace disque."
-content_hash: ec48702d1d3d646b5b106a2eb70882094e84fc87
-last_modified_at: 2024-01-08
+content_hash: a87a73e427aa8d98898c4ed3716f121d5ba5a642
+last_modified_at: 2024-01-09
 related_topics:
   - title: Deutsch version
     url: /de/common/df.html
@@ -23,6 +23,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/df.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/df.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/df.html
     icon: bi bi-globe
@@ -40,7 +43,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># df
 
 Montre un aperçu de l'utilisation de l'espace disque.
-Plus d'informations : <https://www.gnu.org/software/coreutils/df>.
+Plus d'informations : <https://manned.org/df.1posix>.
 
 - Afficher tous les systèmes de fichiers et leur utilisation d'espace disque :
 

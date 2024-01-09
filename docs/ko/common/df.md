@@ -2,8 +2,8 @@
 layout: page
 title: common/df (한국어)
 description: "파일 시스템 디스크 공간 사용량에 대한 개요를 제공합니다."
-content_hash: 3d1694733f6a08ed47da2df536f7db8bd57a7896
-last_modified_at: 2024-01-08
+content_hash: 02d6bf472ab5ffcf508798ea24737af0b4c65711
+last_modified_at: 2024-01-09
 related_topics:
   - title: Deutsch version
     url: /de/common/df.html
@@ -23,6 +23,9 @@ related_topics:
   - title: italiano version
     url: /it/common/df.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/df.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/df.html
     icon: bi bi-globe
@@ -37,7 +40,7 @@ tldri18n_status: 2
 # df
 
 파일 시스템 디스크 공간 사용량에 대한 개요를 제공합니다.
-더 많은 정보: <https://www.gnu.org/software/coreutils/df>.
+더 많은 정보: <https://manned.org/df.1posix>.
 
 - 모든 파일 시스템들과 그들의 디스크 사용량 출력:
 

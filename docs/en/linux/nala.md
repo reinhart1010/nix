@@ -1,15 +1,15 @@
 ---
 layout: page
 title: linux/nala (English)
-description: "Package management Utility."
-content_hash: b793fbe694881b5fb87b746cf3dfe813191152f2
-last_modified_at: 2023-11-12
+description: "Package management utility with better formatting."
+content_hash: 0922b952507a5182cdcdd7b42bb559d0b8e71acf
+last_modified_at: 2024-01-09
 tldri18n_status: 2
 ---
 # nala
 
-Package management Utility.
-Wrapper for the `apt` package manager.
+Package management utility with better formatting.
+Front-end for the `python-apt` API.
 More information: <https://gitlab.com/volian/nala>.
 
 - Install a package, or update it to the latest available version:

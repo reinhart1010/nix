@@ -2,8 +2,8 @@
 layout: page
 title: common/exit (हिन्दी)
 description: "शेल से बाहर निकलें।"
-content_hash: 444b6277173078677291b8f918777f6fc0da951b
-last_modified_at: 2024-01-01
+content_hash: 70d947dc38399b54f752cfa86e315fc553776a7a
+last_modified_at: 2024-01-09
 related_topics:
   - title: Deutsch version
     url: /de/common/exit.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # exit
 
 शेल से बाहर निकलें।
-अधिक जानकारी: <https://pubs.opengroup.org/onlinepubs/9699919799/utilities/V3_chap02.html#exit>।
+अधिक जानकारी: <https://manned.org/exit.1posix>।
 
 - निष्पादित अंतिम कमांड के निकास कोड के साथ शेल से बाहर निकलें:
 

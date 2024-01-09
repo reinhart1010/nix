@@ -2,8 +2,8 @@
 layout: page
 title: common/df (italiano)
 description: "Fornisce una panoramica dello spazio utilizzato dai file system sui dischi."
-content_hash: 45ced0dc26af909157829e9d2e810c142ed7a982
-last_modified_at: 2023-11-12
+content_hash: f813b78a5f2a619e5e2aaa332f5b1fd3f1102f1c
+last_modified_at: 2024-01-09
 related_topics:
   - title: Deutsch version
     url: /de/common/df.html
@@ -23,6 +23,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/df.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/df.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/df.html
     icon: bi bi-globe
@@ -40,7 +43,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># df
 
 Fornisce una panoramica dello spazio utilizzato dai file system sui dischi.
-Maggiori informazioni: <https://www.gnu.org/software/coreutils/df>.
+Maggiori informazioni: <https://manned.org/df.1posix>.
 
 - Mostra tutti i file system ed il loro utilizzo del disco:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/df (Deutsch)
 description: "Verschafft einen Überblick über verfügbaren Speicherplatz im Dateisystem."
-content_hash: 4f6c322f2efee46b26539eac713dc5b67f842d3d
-last_modified_at: 2024-01-08
+content_hash: 7d5aab6f79d666f0bda5903068488be59616100e
+last_modified_at: 2024-01-09
 related_topics:
   - title: English version
     url: /en/common/df.html
@@ -23,6 +23,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/df.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/df.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/df.html
     icon: bi bi-globe
@@ -40,7 +43,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># df
 
 Verschafft einen Überblick über verfügbaren Speicherplatz im Dateisystem.
-Weitere Informationen: <https://www.gnu.org/software/coreutils/df>.
+Weitere Informationen: <https://manned.org/df.1posix>.
 
 - Zeige verfügbaren Platz auf allen eingehängten Dateisystemen:
 
