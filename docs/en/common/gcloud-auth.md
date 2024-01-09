@@ -3,19 +3,10 @@ layout: page
 title: common/gcloud-auth (English)
 description: "Grant and revoke authorization to `gcloud` and manage credentials."
 content_hash: 253810a97922547642723215f77752f39dd3125b
-last_modified_at: 2024-01-08
-tldri18n_status: 0
+last_modified_at: 2024-01-09
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/gcloud-auth.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># gcloud auth
+# gcloud auth
 
 Grant and revoke authorization to `gcloud` and manage credentials.
 See also: `gcloud`.

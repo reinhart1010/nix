@@ -3,7 +3,7 @@ layout: page
 title: common/ps (中文)
 description: "提供正在运行的进程的信息。"
 content_hash: d68c7d6538793f6f3787ded272d2aba88194f668
-last_modified_at: 2024-01-08
+last_modified_at: 2024-01-09
 related_topics:
   - title: English version
     url: /en/common/ps.html
@@ -20,18 +20,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/ps.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/ps.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ps
+# ps
 
 提供正在运行的进程的信息。
 更多信息: <https://manned.org/ps>.

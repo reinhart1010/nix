@@ -2,8 +2,8 @@
 layout: page
 title: common/git-bulk (Indonesia)
 description: "Lakukan operasi yang sama dalam lebih dari satu repositori Git."
-content_hash: 098cbccbb106931561201c23f5f19b7001854ac7
-last_modified_at: 2024-01-07
+content_hash: e6adb69c84a18c8958076067ef3f1a2f39c697ca
+last_modified_at: 2024-01-09
 related_topics:
   - title: English version
     url: /en/common/git-bulk.html
@@ -17,7 +17,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 Lakukan operasi yang sama dalam lebih dari satu repositori Git.
 Bagian dari `git-extras`.
-Informasi lebih lanjut:  <https://github.com/tj/git-extras/blob/master/Commands.md#git-bulk>.
+Informasi lebih lanjut: <https://github.com/tj/git-extras/blob/master/Commands.md#git-bulk>.
 
 - Daftarkan direktori saat ini sebagai tempat kerja (workspace):
 

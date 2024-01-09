@@ -2,8 +2,8 @@
 layout: page
 title: common/git-changelog (Indonesia)
 description: "Buat laporan riwayat perubahan (changelog) dari daftar komit dan tag yang terkandung dalam repositori Git."
-content_hash: 2d8f2e360859ddbfef4868f54ae9a98a5d58f548
-last_modified_at: 2024-01-07
+content_hash: cb97e08adfd5cce901ebeed5dde35f266a3927ef
+last_modified_at: 2024-01-09
 related_topics:
   - title: English version
     url: /en/common/git-changelog.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # git changelog
 
 Buat laporan riwayat perubahan (changelog) dari daftar komit dan tag yang terkandung dalam repositori Git.
-Bagian dari `git-extras`:
+Bagian dari `git-extras`.
 Informasi lebih lanjut: <https://github.com/tj/git-extras/blob/master/Commands.md#git-changelog>.
 
 - Buat atau mutakhirkan file `History.md` berisikan riwayat komit sejak tag komit Git terkini:

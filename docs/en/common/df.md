@@ -2,8 +2,8 @@
 layout: page
 title: common/df (English)
 description: "Display an overview of the filesystem disk space usage."
-content_hash: 834646e7264ec6c91f2c756d4a75192939f7b16b
-last_modified_at: 2024-01-07
+content_hash: e7d96bcf31fb12cd6f69e610be2423ec2e844691
+last_modified_at: 2024-01-09
 related_topics:
   - title: Deutsch version
     url: /de/common/df.html
@@ -23,6 +23,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/df.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/df.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/common/df.html
     icon: bi bi-globe
@@ -37,7 +40,7 @@ tldri18n_status: 2
 # df
 
 Display an overview of the filesystem disk space usage.
-More information: <https://pubs.opengroup.org/onlinepubs/9699919799.2018edition/utilities/df.html>.
+More information: <https://manned.org/df.1posix>.
 
 - Display all filesystems and their disk usage using 512-byte units:
 

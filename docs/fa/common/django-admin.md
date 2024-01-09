@@ -3,7 +3,7 @@ layout: page
 title: common/django-admin (فارسی)
 description: "جعبه ابزار فریمورک جنگو برای کارهای مدیریتی."
 content_hash: 942c364fcbfb00653b75822c4de5e0bc7d8f5acd
-last_modified_at: 2024-01-08
+last_modified_at: 2024-01-09
 related_topics:
   - title: English version
     url: /en/common/django-admin.html
@@ -11,18 +11,9 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/django-admin.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/django-admin.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># django-admin
+# django-admin
 
 جعبه ابزار فریمورک جنگو برای کارهای مدیریتی.
 اطلاعات بیشتر: <https://docs.djangoproject.com/en/4.2/ref/django-admin/>.
