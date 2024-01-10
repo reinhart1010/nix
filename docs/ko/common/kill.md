@@ -2,7 +2,7 @@
 layout: page
 title: common/kill (한국어)
 description: "보통 프로세스를 정지시키는 것과 관련된 시그널을 전송합니다."
-content_hash: f09c6831864dffd12323f21d511d240e9ddfb9bd
+content_hash: 3cc7974cde9bb163606650ce467f95f8ee34a90e
 last_modified_at: 2024-01-10
 related_topics:
   - title: English version
@@ -26,7 +26,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 보통 프로세스를 정지시키는 것과 관련된 시그널을 전송합니다.
 SIGKILL과 SIGSTOP을 제외한 모든 시그널들은 깔끔한 종료를 위해 프로세스에게 뺏길 수 있습니다.
-더 많은 정보: <https://manned.org/kill>.
+더 많은 정보: <https://manned.org/kill.1posix>.
 
 - 기본 SIGTERM ("terminate") 시그널을 보내 프로그램을 종료:
 

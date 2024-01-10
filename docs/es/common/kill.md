@@ -2,7 +2,7 @@
 layout: page
 title: common/kill (español)
 description: "Envía una señal a un proceso, usualmente relacionado a detener el proceso."
-content_hash: 040e556e840fceed9108ab9f24062c0aa328a01f
+content_hash: 728db53912dfa248c8787ad69c02f139a38fb554
 last_modified_at: 2024-01-10
 related_topics:
   - title: English version
@@ -26,7 +26,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 Envía una señal a un proceso, usualmente relacionado a detener el proceso.
 Kill envia una señal para terminar uno o un grupo de procesos.
-Más información: <https://manned.org/kill>.
+Más información: <https://manned.org/kill.1posix>.
 
 - Termina un programa usando la señal SIGTERM (terminar) por defecto:
 

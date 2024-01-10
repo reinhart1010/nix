@@ -2,7 +2,7 @@
 layout: page
 title: common/kill (français)
 description: "Envoie un signal à un processus, généralement pour l'interrompre."
-content_hash: 131c0959ff4b556b284a03948714e0be4381dbd2
+content_hash: 69a67d4edfaec92d8dd448820f094ab8e79a9dd0
 last_modified_at: 2024-01-10
 related_topics:
   - title: English version
@@ -26,7 +26,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 Envoie un signal à un processus, généralement pour l'interrompre.
 Tous les signaux sauf SIGKILL et SIGSTOP peuvent être interceptés par le processus pour pouvoir se terminer proprement.
-Plus d'informations : <https://manned.org/kill>.
+Plus d'informations : <https://manned.org/kill.1posix>.
 
 - Termine un processus avec le signal SIGTERM (terminaison) par défaut :
 

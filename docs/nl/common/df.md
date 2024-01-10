@@ -2,8 +2,8 @@
 layout: page
 title: common/df (Nederlands)
 description: "Toon een overzicht van het gebruik van het bestandssysteem op het gebied van schijfruimte."
-content_hash: 884612b3861c1c67c146a155c3949eb84f20a3e4
-last_modified_at: 2024-01-09
+content_hash: 705b9c60fb3d9dda846041246fdce9b48d775ebd
+last_modified_at: 2024-01-10
 related_topics:
   - title: Deutsch version
     url: /de/common/df.html
@@ -40,7 +40,7 @@ tldri18n_status: 2
 # df
 
 Toon een overzicht van het gebruik van het bestandssysteem op het gebied van schijfruimte.
-Meer informatie: <https://pubs.opengroup.org/onlinepubs/9699919799.2018edition/utilities/df.html>.
+Meer informatie: <https://manned.org/df.1posix>.
 
 - Toon alle bestandssystemen en hun schijfgebruik met behulp van 512-byte eenheden:
 
