@@ -2,8 +2,8 @@
 layout: page
 title: common/ps (中文)
 description: "提供正在运行的进程的信息。"
-content_hash: d68c7d6538793f6f3787ded272d2aba88194f668
-last_modified_at: 2024-01-09
+content_hash: 38e9a7a15d4abc3f0784da6332a3e33de4e5eaa3
+last_modified_at: 2024-01-10
 related_topics:
   - title: English version
     url: /en/common/ps.html
@@ -25,7 +25,7 @@ tldri18n_status: 2
 # ps
 
 提供正在运行的进程的信息。
-更多信息: <https://manned.org/ps>.
+更多信息：<https://manned.org/ps>.
 
 - 列出所有正在运行的进程：
 

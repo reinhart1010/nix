@@ -2,8 +2,8 @@
 layout: page
 title: common/rmdir (العربية)
 description: "إزالة الدلائل بدون ملفات."
-content_hash: 390a9777561f7206b1969cb5ee850667c0765c61
-last_modified_at: 2024-01-07
+content_hash: 46bc18fae5e41bdba4b2166ef14260b6fdd98afc
+last_modified_at: 2024-01-10
 related_topics:
   - title: English version
     url: /en/common/rmdir.html
@@ -26,7 +26,7 @@ tldri18n_status: 2
 
 إزالة الدلائل بدون ملفات.
 لمزيد من التفاصيل: `rm`.
-مزيد من المعلومات: <https://www.gnu.org/software/coreutils/rmdir>.
+لمزيد من التفاصيل: <https://www.gnu.org/software/coreutils/rmdir>.
 
 - إزالة أدلة محددة:
 
