@@ -2,8 +2,8 @@
 layout: page
 title: common/git-restore (español)
 description: "Restaura los archivos del árbol de trabajo. Requiere la version 2.23+ de Git."
-content_hash: 876c253ae73b38f3859e0c063bc70aa91f80754e
-last_modified_at: 2023-11-12
+content_hash: bbefee920e96acb8ebeb6690f4f17deedb77b502
+last_modified_at: 2024-01-10
 related_topics:
   - title: English version
     url: /en/common/git-restore.html
@@ -25,15 +25,15 @@ Restaura los archivos del árbol de trabajo. Requiere la version 2.23+ de Git.
 Véase también `git checkout` y `git reset`.
 Más información: <https://git-scm.com/docs/git-restore>.
 
-- Restaura un archivo sin marcar a la versión del commit actual (HEAD):
+- Restaura un archivo sin marcar a la versión de la confirmación actual (HEAD):
 
 `git restore `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 
-- Restaura un archivo sin marcar a la versión de un commit específico:
+- Restaura un archivo sin marcar a la versión de una confirmación específica:
 
-`git restore --source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
+`git restore --source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">confirmación</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 
-- Descarta los cambios sin commit para los archivos rastreados:
+- Descarta los cambios sin confirmación para los archivos rastreados:
 
 `git restore :/`
 

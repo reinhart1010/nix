@@ -2,8 +2,8 @@
 layout: page
 title: common/helm (português (Brasil))
 description: "Helm é um gerenciador de pacores para Kubernetes."
-content_hash: 63ac665e2b2aaeed90ddcd11e4be4a9e5d66e17f
-last_modified_at: 2023-11-12
+content_hash: be34d2554515b9ffe8becb5e541b45634fcc5fc0
+last_modified_at: 2024-01-10
 related_topics:
   - title: English version
     url: /en/common/helm.html
@@ -43,7 +43,7 @@ Mais informações: <https://helm.sh/>.
 
 - Instala um chart helm:
 
-`helm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_repositório</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_chart</span>
+`helm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_repositório</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_chart</span>
 
 - Obtém um chart helm chart como um arquivo tar:
 

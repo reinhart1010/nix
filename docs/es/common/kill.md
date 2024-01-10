@@ -3,7 +3,7 @@ layout: page
 title: common/kill (español)
 description: "Envía una señal a un proceso, usualmente relacionado a detener el proceso."
 content_hash: 040e556e840fceed9108ab9f24062c0aa328a01f
-last_modified_at: 2023-12-05
+last_modified_at: 2024-01-10
 related_topics:
   - title: English version
     url: /en/common/kill.html
@@ -17,9 +17,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/kill.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# kill
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># kill
 
 Envía una señal a un proceso, usualmente relacionado a detener el proceso.
 Kill envia una señal para terminar uno o un grupo de procesos.

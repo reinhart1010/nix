@@ -2,8 +2,8 @@
 layout: page
 title: common/cargo-rustc (português (Brasil))
 description: "Compila um pacote Rust."
-content_hash: 1b30f46802477712ba4e8ed57fa5fcf667483079
-last_modified_at: 2023-12-28
+content_hash: 20921938dec13014b94336a3c8c4f551bfe1713b
+last_modified_at: 2024-01-10
 related_topics:
   - title: English version
     url: /en/common/cargo-rustc.html
@@ -18,9 +18,9 @@ tldri18n_status: 2
 Compila um pacote Rust.
 Mais informações: <https://doc.rust-lang.org/cargo/commands/cargo-rustc.html>.
 
-- Compila o pacote ou pacotes definidos pelo arquivo `Cargo.toml` no diretório de trabalho atual:
+- Compila o pacote e passa opções para `rustc`:
 
-`cargo rustc`
+`cargo rustc -- `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rustc_options</span>
 
 - Compila os artefatos em modo de publicação (release), com otimizações:
 

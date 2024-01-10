@@ -2,8 +2,8 @@
 layout: page
 title: common/git-branch (español)
 description: "Comando principal de Git para trabajar con ramas."
-content_hash: 96243214a0c49b9152f5b27fcd4e06925723f789
-last_modified_at: 2024-01-07
+content_hash: a679223090d9ad17266459a4f3a5bce4778f4940
+last_modified_at: 2024-01-10
 related_topics:
   - title: Deutsch version
     url: /de/common/git-branch.html
@@ -40,21 +40,21 @@ Más información: <https://git-scm.com/docs/git-branch>.
 
 `git branch --all`
 
-- Lista las ramas que incluyen un commit Git específico en su historial:
+- Lista las ramas que incluyen una confirmación específica en su historial:
 
-`git branch --all --contains `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_hash</span>
+`git branch --all --contains `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash_de_la_confirmación</span>
 
 - Muestra el nombre de la rama actual:
 
 `git branch --show-current`
 
-- Crea una nueva rama basada en el commit actual:
+- Crea una nueva rama basada en la confirmación actual:
 
 `git branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_rama</span>
 
-- Crea una nueva rama basada en un commit específico:
+- Crea una nueva rama basada en una confirmación específica:
 
-`git branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_rama</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit_hash</span>
+`git branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_rama</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash_de_la_confirmación</span>
 
 - Renombra una rama (para ello no debes tenerla controlada):
 

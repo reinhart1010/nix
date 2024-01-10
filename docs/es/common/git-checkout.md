@@ -2,8 +2,8 @@
 layout: page
 title: common/git-checkout (español)
 description: "Comprueba una rama o rutas con el árbol de trabajo."
-content_hash: 86721a3cd8444fd6b3935f613d33f7a7b1464e6b
-last_modified_at: 2024-01-07
+content_hash: 4199241d6a6b8ecee94701e87d5b02a0909397f0
+last_modified_at: 2024-01-10
 related_topics:
   - title: English version
     url: /en/common/git-checkout.html
@@ -64,6 +64,6 @@ Más información: <https://git-scm.com/docs/git-checkout>.
 
 `git checkout `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_archivo</span>
 
-- Reemplaza un archivo en el directorio actual con la versión de este en un commit de una rama específica:
+- Reemplaza un archivo en el directorio actual con la versión de este en la confirmación de una rama específica:
 
 `git checkout `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_rama</span>` -- `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_del_archivo</span>

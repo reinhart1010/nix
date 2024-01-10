@@ -2,8 +2,8 @@
 layout: page
 title: common/git-ls-tree (español)
 description: "Muestra los contenidos de un objeto árbol."
-content_hash: 8e1fca8f12a228072fb5aa64dbee3f41e9d3ac3e
-last_modified_at: 2023-11-12
+content_hash: 08bd92325f8c85a46cbc330bfce8f408f5fb40b8
+last_modified_at: 2024-01-10
 related_topics:
   - title: English version
     url: /en/common/git-ls-tree.html
@@ -31,10 +31,10 @@ Más información: <https://git-scm.com/docs/git-ls-tree>.
 
 `git ls-tree `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_rama</span>
 
-- Muestra el contenido del árbol en un commit (recursivo en subárboles):
+- Muestra el contenido del árbol en una confirmación (recursivo en subárboles):
 
-`git ls-tree -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash_del_commit</span>
+`git ls-tree -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash_de_la_confirmación</span>
 
-- Muestra solo los nombres de archivos del árbol en un commit:
+- Muestra solo los nombres de archivos del árbol en una confirmación:
 
-`git ls-tree --name-only `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash_del_commit</span>
+`git ls-tree --name-only `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash_de_la_confirmación</span>

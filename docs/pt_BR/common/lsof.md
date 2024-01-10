@@ -2,8 +2,8 @@
 layout: page
 title: common/lsof (português (Brasil))
 description: "Lista arquivos abertos e os seus processos correspondentes."
-content_hash: 8f3786bff7758ebabdc333267d46f5e1f473df10
-last_modified_at: 2023-12-28
+content_hash: 3ab95e21f9e58929411dbf36a71efc858a2b70a4
+last_modified_at: 2024-01-10
 related_topics:
   - title: English version
     url: /en/common/lsof.html
@@ -47,6 +47,6 @@ Mais informações: <https://manned.org/lsof>.
 
 `lsof +D `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span>
 
-- Encontra o processo que está ouvindo uma porta de TCP local:
+- Encontra o processo que está ouvindo uma porta de IPv6 TCP local:
 
-`lsof -iTCP:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta</span>` -sTCP:LISTEN`
+`lsof -i6TCP:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">porta</span>` -sTCP:LISTEN -n -P`

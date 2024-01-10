@@ -2,8 +2,8 @@
 layout: page
 title: osx/asr (português (Brasil))
 description: "Restaurar (copiar) uma imagem de disco em um volume."
-content_hash: 46f740346bd50a0dd11934d13c5b592f6dec46d6
-last_modified_at: 2023-12-28
+content_hash: 6c927b9a06926822d02aca8fd577d285f08de5e7
+last_modified_at: 2024-01-10
 related_topics:
   - title: English version
     url: /en/osx/asr.html
@@ -27,15 +27,15 @@ Mais informações: <https://www.unix.com/man-page/osx/8/asr/>.
 
 - Restaura uma imagem de disco para um volume de destino:
 
-`sudo asr restore --source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_imagem</span>`.dmg --target `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/volume</span>
+`sudo asr restore --source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_imagem.dmg</span>` --target `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/volume</span>
 
 - Apaga o volume de destino antes de restaurar:
 
-`sudo asr restore --source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_imagem</span>`.dmg --target `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/volume</span>` --erase`
+`sudo asr restore --source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_imagem.dmg</span>` --target `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/volume</span>` --erase`
 
 - Ignora a verificação após a restauração:
 
-`sudo asr restore --source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_imagem</span>`.dmg --target `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/volume</span>` --noverify`
+`sudo asr restore --source `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_da_imagem.dmg</span>` --target `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/volume</span>` --noverify`
 
 - Clona volumes sem o uso de uma imagem de disco intermediária:
 

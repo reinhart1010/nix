@@ -3,19 +3,10 @@ layout: page
 title: linux/ionice (English)
 description: "Get or set program I/O scheduling class and priority."
 content_hash: 99b1cd46e218a5c8693ea3b2b5566a0afde177ba
-last_modified_at: 2024-01-09
-tldri18n_status: 0
+last_modified_at: 2024-01-10
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/ionice.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># ionice
+# ionice
 
 Get or set program I/O scheduling class and priority.
 Scheduling classes: 1 (realtime), 2 (best-effort), 3 (idle).

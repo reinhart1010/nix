@@ -2,8 +2,8 @@
 layout: page
 title: common/fd (português (Brasil))
 description: "Uma alternativa para `find`."
-content_hash: 89dd865e9ab3d41965b9f744cde389d6d0c3b0b3
-last_modified_at: 2023-11-12
+content_hash: 39d69947d517d89b135acf3093a14369dd358dd7
+last_modified_at: 2024-01-10
 related_topics:
   - title: English version
     url: /en/common/fd.html
@@ -18,11 +18,11 @@ Mais informações: <https://github.com/sharkdp/fd>.
 
 - Encontra recursivamente arquivos que correspondam ao padrão fornecido no diretório atual:
 
-`fd `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrão</span>
+`fd "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrão|regex</span>`"`
 
 - Encontra arquivos que começam com `foo`:
 
-`fd '^foo'`
+`fd "^foo"`
 
 - Encontra arquivos com uma extensão específica:
 
@@ -30,12 +30,12 @@ Mais informações: <https://github.com/sharkdp/fd>.
 
 - Encontra arquivos em um diretório específico:
 
-`fd '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrão</span>`' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span>
+`fd "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrão|regex</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretório</span>
 
 - Inclui arquivos ignorados e ocultos na pesquisa:
 
-`fd --hidden --no-ignore '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrão</span>`'`
+`fd --hidden --no-ignore "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrão|regex</span>`"`
 
 - Executa um comando em cada resultado de pesquisa retornado:
 
-`fd '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrão</span>`' --exec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>
+`fd "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrão|regex</span>`" --exec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">comando</span>

@@ -2,8 +2,8 @@
 layout: page
 title: common/dua (português (Brasil))
 description: "Dua (Analisador de Uso de Disco) é uma ferramenta para análise conveniente do uso de disco dado um diretório."
-content_hash: 78fcb25afd0057179f79bf2cfe036cd889657c67
-last_modified_at: 2023-11-12
+content_hash: bdcfda67222e27339c46fc10ad5c30a0427d860c
+last_modified_at: 2024-01-10
 related_topics:
   - title: English version
     url: /en/common/dua.html
@@ -17,7 +17,7 @@ Mais informações: <https://github.com/Byron/dua-cli>.
 
 - Analisa um diretório específico:
 
-`dua `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretorio}`
+`dua `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/diretorio</span>
 
 - Exibe o tamanho aparente ao invés do uso do disco:
 

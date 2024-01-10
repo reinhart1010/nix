@@ -2,8 +2,8 @@
 layout: page
 title: linux/ip (português (Brasil))
 description: "Mostra / manipula roteamento, dispositivos, roteamento baseado em póliticas e túneis."
-content_hash: f1dab089ae92972a9f57b4af3a50c43da0c43c74
-last_modified_at: 2023-11-12
+content_hash: 7ccacc2b70495503beda207c5d142cabf212f8cf
+last_modified_at: 2024-01-10
 related_topics:
   - title: Deutsch version
     url: /de/linux/ip.html
@@ -50,7 +50,7 @@ Mais informações: <https://www.man7.org/linux/man-pages/man8/ip.8.html>.
 
 - Ativa / desativa uma interface:
 
-`ip link set `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span>` up/down`
+`ip link set `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">up|down</span>
 
 - Adiciona / remove um endereço de IP a uma interface:
 

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/git-revert (español)
-description: "Crea nuevos commits que revierten el efecto de los anteriores."
-content_hash: fce5aec8adbdc7ae07e8982bae663a6931714e53
-last_modified_at: 2024-01-07
+description: "Crea nuevas confirmaciones que revierten el efecto de los anteriores."
+content_hash: d359fd74482cfb10434a8746ff4390a070cd37f6
+last_modified_at: 2024-01-10
 related_topics:
   - title: English version
     url: /en/common/git-revert.html
@@ -24,21 +24,21 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># git revert
 
-Crea nuevos commits que revierten el efecto de los anteriores.
+Crea nuevas confirmaciones que revierten el efecto de los anteriores.
 Más información: <https://git-scm.com/docs/git-revert>.
 
-- Revierte el commit más reciente:
+- Revierte la confirmación más reciente:
 
 `git revert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD</span>
 
-- Revierte el quinto último commit:
+- Revierte la quinta confirmación más reciente:
 
 `git revert HEAD~`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span>
 
-- Revierte múltiples commits:
+- Revierte múltiples confirmaciones:
 
 `git revert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rama~5..rama~2</span>
 
-- Revierte commits sin crear nuevos commits:
+- Revierte confirmaciones sin crear nuevas confirmaciones:
 
 `git revert -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0c01a9..9a1743</span>

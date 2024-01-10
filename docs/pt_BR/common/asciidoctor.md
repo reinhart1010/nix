@@ -2,8 +2,8 @@
 layout: page
 title: common/asciidoctor (português (Brasil))
 description: "Um processador que converte AsciiDoc em formatos publicáveis."
-content_hash: c0a51e0ad1e0a810a2e5d3b9c73a1504cdf73200
-last_modified_at: 2023-11-12
+content_hash: 48f5995237f4b0e3da82876c950615a28d104314
+last_modified_at: 2024-01-10
 related_topics:
   - title: English version
     url: /en/common/asciidoctor.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: français version
     url: /fr/common/asciidoctor.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/asciidoctor.html
     icon: bi bi-globe
   - title: русский version
     url: /ru/common/asciidoctor.html
@@ -38,4 +41,4 @@ Mais informações: <https://docs.asciidoctor.org>.
 
 - Converte um arquivo `.adoc` em PDF usando a biblioteca `asciidoctor-pdf`:
 
-`asciidoctor --backend=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdf</span>` --require=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">asciidoctor-pdf</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.adoc}`
+`asciidoctor --backend=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pdf</span>` --require=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">asciidoctor-pdf</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo.adoc</span>

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/git-reset (español)
-description: "Deshace commits o desmarca cambios mediante el restablecimiento del actual HEAD de Git al estado especificado."
-content_hash: 7c815692dac930c55ef714a32bcf732fb65e7f04
-last_modified_at: 2024-01-07
+description: "Deshaz confirmaciones o desmarca cambios mediante el restablecimiento del actual HEAD de Git al estado especificado."
+content_hash: ad5d5e85287027e2c832b66da5fd39385bb6ac73
+last_modified_at: 2024-01-10
 related_topics:
   - title: English version
     url: /en/common/git-reset.html
@@ -24,8 +24,8 @@ tldri18n_status: 2
 ---
 # git reset
 
-Deshace commits o desmarca cambios mediante el restablecimiento del actual HEAD de Git al estado especificado.
-Si se pasa una ruta, funciona como "desmarcar", si se pasa el hash de un commit o una rama, funciona como "deshacer" el commit.
+Deshaz confirmaciones o desmarca cambios mediante el restablecimiento del actual HEAD de Git al estado especificado.
+Si se pasa una ruta, funciona como "desmarcar", si se pasa el hash de una confirmación o una rama, funciona como "deshacer" la confirmación.
 Más información: <https://git-scm.com/docs/git-reset>.
 
 - Desmarca todo:
@@ -40,18 +40,18 @@ Más información: <https://git-scm.com/docs/git-reset>.
 
 `git reset --patch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 
-- Deshaz el último commit, manteniendo sus cambios, y cualquier otro cambio sin commit, en el sistema de archivo:
+- Deshaz la última confirmación, manteniendo sus cambios, y cualquier otro cambio sin confirmación, en el sistema de archivos:
 
 `git reset HEAD~`
 
-- Deshaz los últimos dos commits al añadir sus cambios al índice (por ej., marcado para commit):
+- Deshaz las últimas dos confirmaciones al añadir sus cambios al índice (p. ej. marcado para confirmación):
 
 `git reset --soft HEAD~2`
 
-- Descarta cualquier cambio sin commit, marcado o no (se puede `git checkout` solo para los cambios sin marcar):
+- Descarta cualquier cambio sin confirmación, marcado o no (se puede `git checkout` solo para los cambios sin marcar):
 
 `git reset --hard`
 
-- Restablece el repositorio a un commit específico y descarta a partir de este los cambios con y sin commit, y los marcados:
+- Restablece el repositorio a una confirmación específica y descarta a partir de esta los cambios con y sin confirmación, y los marcados:
 
-`git reset --hard `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span>
+`git reset --hard `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">confirmación</span>

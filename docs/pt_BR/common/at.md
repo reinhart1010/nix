@@ -2,8 +2,8 @@
 layout: page
 title: common/at (português (Brasil))
 description: "Ferramenta para o agendamento de comandos."
-content_hash: 2e28d48023c6b803c521f153dd278c79ed1244ee
-last_modified_at: 2023-12-28
+content_hash: af201a8e0fb7b97a8d673a4fc0624a0457627231
+last_modified_at: 2024-01-10
 related_topics:
   - title: English version
     url: /en/common/at.html
@@ -39,7 +39,7 @@ Mais informações: <https://manned.org/at>.
 
 - Executa comandos da standard input em 5 minutos (pressionar `Ctrl + D`quando acabar):
 
-`at now + `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>` minutes`
+`at now + 5 minutes`
 
 - Executa um comando da standard input às 10:00 da manhã de hoje:
 

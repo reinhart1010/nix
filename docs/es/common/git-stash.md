@@ -2,8 +2,8 @@
 layout: page
 title: common/git-stash (español)
 description: "Almacena los cambios locales de Git en un área temporal."
-content_hash: a9b8efa887a44945303caa2c38cd551128ab755c
-last_modified_at: 2023-12-27
+content_hash: 5664a1e8151f0a78801df61bc370f8dfc1b649d3
+last_modified_at: 2024-01-10
 related_topics:
   - title: English version
     url: /en/common/git-stash.html
@@ -40,15 +40,15 @@ Más información: <https://git-scm.com/docs/git-stash>.
 
 `git stash list`
 
-- Muestra los cambios como un parche entre el stash (por defecto es stash@{0}) y el commit de cuando se creó la entrada stash por primera vez:
+- Muestra los cambios como un parche entre el stash (por defecto es `stash@{0}`) y la confirmación de cuando se creó la entrada stash por primera vez:
 
 `git stash show -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stash@{0}</span>
 
-- Aplica un stash (por defecto es el último, llamado stash@{0}):
+- Aplica un stash (por defecto es el último, llamado `stash@{0}`):
 
-`git stash apply `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_opcional_del_stash_o_commit</span>
+`git stash apply `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_opcional_del_stash_o_confirmación</span>
 
-- Suelta o aplica un stash (por defecto es stash@{0}) y lo elimina de la lista de stash si su aplicación no causa conflictos:
+- Suelta o aplica un stash (por defecto es `stash@{0}`) y lo elimina de la lista de stash si su aplicación no causa conflictos:
 
 `git stash pop `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_opcional_stash</span>
 

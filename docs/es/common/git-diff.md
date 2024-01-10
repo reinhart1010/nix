@@ -2,8 +2,8 @@
 layout: page
 title: common/git-diff (español)
 description: "Muestra los cambios de los archivos rastreados."
-content_hash: b1778852fcc4bc1e188d5d883aea3c569e0b84f2
-last_modified_at: 2024-01-02
+content_hash: d3b84252a60df9c2e4ed1b260eeacc8f0024cd39
+last_modified_at: 2024-01-10
 related_topics:
   - title: English version
     url: /en/common/git-diff.html
@@ -27,31 +27,31 @@ tldri18n_status: 2
 Muestra los cambios de los archivos rastreados.
 Más información: <https://git-scm.com/docs/git-diff>.
 
-- Muestra los cambios sin marcar ni commit:
+- Muestra los cambios sin marcar ni confirmación:
 
 `git diff`
 
-- Muestra todos los cambios sin commit, pero incluye los marcados:
+- Muestra todos los cambios sin confirmación, pero incluye los marcados:
 
 `git diff HEAD`
 
-- Muestra solo los cambios marcados pero que no tienen commit:
+- Muestra solo los cambios marcados pero que no tienen confirmación:
 
 `git diff --staged`
 
-- Muestra los cambios de todos los commits a partir de una fecha/tiempo específico (una expresión de fecha, por ej., "1 week 2 days" o una fecha ISO):
+- Muestra los cambios de todas las confirmaciones a partir de una fecha y/o tiempo específico (p. ej., `1 week 2 days` o una fecha ISO):
 
 `git diff 'HEAD@{3 months|weeks|days|hours|seconds ago}'`
 
-- Muestra solo los nombres de los archivos cambiados con un commit específico:
+- Muestra solo los nombres de los archivos cambiados en una confirmación específica:
 
-`git diff --name-only `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span>
+`git diff --name-only `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">confirmación</span>
 
-- Muestra un resumen de la creación, renombre y modos de cambio con un commit específico:
+- Muestra un resumen de los cambios hecho en una confirmación (p. ej. permisos de un archivo):
 
-`git diff --summary `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span>
+`git diff --summary `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">confirmación</span>
 
-- Compara un único archivo entre dos ramas o commits:
+- Compara un único archivo entre dos ramas o confirmaciones:
 
 `git diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rama_1</span>`..`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rama_2</span>` [--] `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ruta/al/archivo</span>
 

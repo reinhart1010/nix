@@ -2,8 +2,8 @@
 layout: page
 title: common/aws-ecr (português (Brasil))
 description: "Enviar, buscar, e gerenciar imagens de container."
-content_hash: a2a190d89d7c77bc3ae5217a78f44aca63d4c013
-last_modified_at: 2023-11-12
+content_hash: dc79900078af318ab828afbb21a3f3aec4495390
+last_modified_at: 2024-01-10
 related_topics:
   - title: English version
     url: /en/common/aws-ecr.html
@@ -40,7 +40,7 @@ Mais informações: <https://awscli.amazonaws.com/v2/documentation/api/latest/re
 
 - Apaga uma imagem de um repositório:
 
-`aws ecr batch-delete-image  --repository-name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repositório</span>` --image-ids imageTag=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">latest</span>
+`aws ecr batch-delete-image --repository-name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repositório</span>` --image-ids imageTag=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">latest</span>
 
 - Apaga um repositório:
 

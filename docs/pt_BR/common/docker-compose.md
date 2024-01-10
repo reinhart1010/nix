@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-compose (português (Brasil))
 description: "Executa e gerencia multi-containers de aplicações Docker."
-content_hash: d56b0f12d199e2db7280b0ef9dd70c4061724b1f
-last_modified_at: 2023-11-12
+content_hash: 78743b7189c092ba907d8ede93b5641f8cf74c1e
+last_modified_at: 2024-01-10
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -54,9 +54,9 @@ Mais informações: <https://docs.docker.com/compose/reference/>.
 
 `docker compose up --build`
 
-- Inicia todos os containers que estão usando um arquivo compose alternativo:
+- Inicia todos os containers especificando um nome de projeta e usando um arquivo de composição alternativo:
 
-`docker compose --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>` up`
+`docker compose -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_projeto</span>` --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>` up`
 
 - Encerra todos os containers em execução:
 

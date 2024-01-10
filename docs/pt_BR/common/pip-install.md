@@ -2,8 +2,8 @@
 layout: page
 title: common/pip-install (português (Brasil))
 description: "Instala pacotes Python."
-content_hash: d78d91dc5c7f9826b8b1a3ae71ae06688e98f467
-last_modified_at: 2023-11-12
+content_hash: 28da2c3e178490cfa9bda5cffcf70683ef6b6e3e
+last_modified_at: 2024-01-10
 related_topics:
   - title: Deutsch version
     url: /de/common/pip-install.html
@@ -28,7 +28,7 @@ Mais informações: <https://pip.pypa.io>.
 
 - Instala pacotes listados em um arquivo:
 
-`pip install --requirement `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">requirements.txt</span>
+`pip install -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">requirements.txt</span>
 
 - Instala pacotes a partir de uma URL ou arquivo local (.tar.gz | .whl):
 

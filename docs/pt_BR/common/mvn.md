@@ -2,8 +2,8 @@
 layout: page
 title: common/mvn (português (Brasil))
 description: "Ferramenta para a criação e gerenciamento de projetos Java."
-content_hash: aaa215dfc8bb3fcf2405859584f3619c842e20b9
-last_modified_at: 2023-12-28
+content_hash: a4df4296d58a9671e434e4412a70158b2bbd73f6
+last_modified_at: 2024-01-10
 related_topics:
   - title: English version
     url: /en/common/mvn.html
@@ -44,7 +44,7 @@ Mais informações: <https://maven.apache.org>.
 
 - Executa as fases `clean` e `package` em um projeto utilizando um perfil:
 
-`mvn clean -P`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">perfil</span>` package`
+`mvn clean -P `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">perfil</span>` package`
 
 - Executa uma classe que possua o método `main`:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/ssh-copy-id (português (Brasil))
 description: "Instala a sua chave pública no arquivo authorized_keys de uma máquina remota."
-content_hash: 0b8a237a1835787645766e3f44e3637a7f1a55d6
-last_modified_at: 2023-12-28
+content_hash: 44b45ac354e4fb1045f6c8513371fa708f0a85ab
+last_modified_at: 2024-01-10
 related_topics:
   - title: Deutsch version
     url: /de/common/ssh-copy-id.html
@@ -23,7 +23,7 @@ Mais informações: <https://manned.org/ssh-copy-id>.
 
 - Copia suas chaves para a máquina remota:
 
-`ssh-copy-id `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_de_usuário@host_remoto</span>
+`ssh-copy-id `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_de_usuário</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_remoto</span>
 
 - Copia a chave pública fornecida para o remoto:
 

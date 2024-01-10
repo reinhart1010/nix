@@ -2,8 +2,8 @@
 layout: page
 title: common/git-rev-parse (español)
 description: "Muestra metadatos relativos a revisiones específicas."
-content_hash: 6ba51e0f13e9c9a39646fd1e8d41be6f6c8709c1
-last_modified_at: 2024-01-07
+content_hash: 562a25c0929da7aa774ccbf1807b943fdb5ee90a
+last_modified_at: 2024-01-10
 related_topics:
   - title: English version
     url: /en/common/git-rev-parse.html
@@ -24,7 +24,7 @@ tldri18n_status: 2
 Muestra metadatos relativos a revisiones específicas.
 Más información: <https://git-scm.com/docs/git-rev-parse>.
 
-- Obtén el hash del commit de una rama:
+- Obtén el hash de la confirmación de una rama:
 
 `git rev-parse `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_rama</span>
 

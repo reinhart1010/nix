@@ -2,8 +2,8 @@
 layout: page
 title: linux/locate (português (Brasil))
 description: "Encontre nomes de arquivos rapidamente."
-content_hash: 881e0e52c4892de5cd60c1c5ed38940016ff8368
-last_modified_at: 2023-11-12
+content_hash: 982fa6d3821bb5c360a90df84cf0fbe2fb105c4a
+last_modified_at: 2024-01-10
 related_topics:
   - title: Deutsch version
     url: /de/linux/locate.html
@@ -24,7 +24,7 @@ Mais informações: <https://manned.org/locate>.
 
 - Procura um arquivo pelo seu nome de arquivo exato(um padrão que não contém caracteres curingas é interpretado como `*pattern*`):
 
-`locate */`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_arquivo</span>
+`locate '*/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_do_arquivo</span>`'`
 
 - Recalcula o banco de dados. Você precisa fazer se você quiser achar os arquivos recentementes adicionados:
 

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/git-rebase (español)
-description: "Vuelve a aplicar commits de una rama en lo más alto de otra rama."
-content_hash: d1cfac2c542363a4c2be35048d83017eca97a906
-last_modified_at: 2023-11-12
+description: "Vuelve a aplicar confirmaciones de una rama en lo más alto de otra rama."
+content_hash: c9e07f62381c4b80e7f17c69d79a214c7c6b4ad7
+last_modified_at: 2024-01-10
 related_topics:
   - title: Deutsch version
     url: /de/common/git-rebase.html
@@ -30,23 +30,23 @@ tldri18n_status: 2
 ---
 # git rebase
 
-Vuelve a aplicar commits de una rama en lo más alto de otra rama.
-Se utiliza comúnmente para "mover" una rama entera a otra base, ya que crea copias de los commits en una nueva ubicación.
+Vuelve a aplicar confirmaciones de una rama en lo más alto de otra rama.
+Se utiliza comúnmente para "mover" una rama entera a otra base, ya que crea copias de las confirmaciones en una nueva ubicación.
 Más información: <https://git-scm.com/docs/git-rebase>.
 
 - Reorganiza la rama actual en lo más alto de otra rama:
 
 `git rebase `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rama_de_reorganización</span>
 
-- Inicia un rebase interactivo que permite reordenar los commits, omitirlos, combinarlos o modificarlos:
+- Inicia un rebase interactivo que permite reordenar, omitir, combinar o modificar confirmaciones:
 
-`git rebase -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rama_base_objetivo_o_hash_del_commit</span>
+`git rebase -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rama_base_objetivo_o_hash_de_la_confirmación</span>
 
 - Continúa un rebase que fue interrumpido por una fusión fallida después de editar los archivos con conflictos:
 
 `git rebase --continue`
 
-- Continúa un rebase que fue pausado para fusionar conflictos saltando el commit conflictivo:
+- Continúa un rebase que fue pausado para fusionar conflictos saltando la confirmación conflictiva:
 
 `git rebase --skip`
 
@@ -58,7 +58,7 @@ Más información: <https://git-scm.com/docs/git-rebase>.
 
 `git rebase --onto `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base_nueva</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">base_antigua</span>
 
-- Reaplica los últimos 5 commits en su lugar, evita que puedan ser reordenados, omitidos, combinados o modificados:
+- Reaplica las últimas cinco confirmaciones en su lugar, evita que puedan ser reordenadas, omitidas, combinadas o modificadas:
 
 `git rebase -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">HEAD~5</span>
 

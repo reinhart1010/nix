@@ -2,9 +2,12 @@
 layout: page
 title: linux/csplit (English)
 description: "Split a file into pieces."
-content_hash: 97587e35b3059b0a757af932f03529feb6c5018c
-last_modified_at: 2023-11-12
+content_hash: 49240da1bb14753bf08bab6fd50527a21d19342d
+last_modified_at: 2024-01-10
 related_topics:
+  - title: Nederlands version
+    url: /nl/linux/csplit.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/linux/csplit.html
     icon: bi bi-globe
@@ -18,19 +21,19 @@ More information: <https://www.gnu.org/software/coreutils/csplit>.
 
 - Split a file at lines 5 and 23:
 
-`csplit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">23</span>
+`csplit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` 5 23`
 
 - Split a file every 5 lines (this will fail if the total number of lines is not divisible by 5):
 
-`csplit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>` {*}`
+`csplit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` 5 {*}`
 
 - Split a file every 5 lines, ignoring exact-division error:
 
-`csplit -k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>` {*}`
+`csplit -k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` 5 {*}`
 
 - Split a file at line 5 and use a custom prefix for the output files:
 
-`csplit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>` -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefix</span>
+`csplit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` 5 -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">prefix</span>
 
 - Split a file at a line matching a regular expression:
 

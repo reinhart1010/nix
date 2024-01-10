@@ -3,7 +3,7 @@ layout: page
 title: common/kill (português (Brasil))
 description: "Envia um sinal para um processo, geralmente para finalizar o processo."
 content_hash: 40d89b616c00e2e2783dc22b3c400bbf095ac8da
-last_modified_at: 2023-11-12
+last_modified_at: 2024-01-10
 related_topics:
   - title: English version
     url: /en/common/kill.html
@@ -17,9 +17,12 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/kill.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# kill
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># kill
 
 Envia um sinal para um processo, geralmente para finalizar o processo.
 Todos os sinais exceto pelo SIGKILL e SIGSTOP podem ser interceptados pelo processo para finalizar de forma limpa.

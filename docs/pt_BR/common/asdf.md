@@ -2,8 +2,8 @@
 layout: page
 title: common/asdf (português (Brasil))
 description: "Utilitário para a gestão de versões de linguagens e programas."
-content_hash: 41c25cd15114a8758312c3022e922b49209fbec2
-last_modified_at: 2023-12-28
+content_hash: d8b9c4a16bfd453670836e1edfebd8dbfbec3d84
+last_modified_at: 2024-01-10
 related_topics:
   - title: Deutsch version
     url: /de/common/asdf.html
@@ -35,15 +35,15 @@ Mais informações: <https://asdf-vm.com>.
 
 - Lista todos os plugins disponíveis:
 
-`asdf plugin-list-all`
+`asdf plugin list all`
 
 - Instala um plugin:
 
-`asdf plugin-add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>
+`asdf plugin add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>
 
 - Lista todas as versões disponíveis para um pacote:
 
-`asdf list-all `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>
+`asdf list all `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>
 
 - Instala uma versão específica de um pacote:
 

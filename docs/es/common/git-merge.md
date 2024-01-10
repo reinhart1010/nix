@@ -2,8 +2,8 @@
 layout: page
 title: common/git-merge (español)
 description: "Fusiona ramas."
-content_hash: cfdccb41f2c03ef5835956fe2dc16de41ce66a6d
-last_modified_at: 2023-11-12
+content_hash: ffb87e403068e27cb3e528cd2e40e2115def870b
+last_modified_at: 2024-01-10
 related_topics:
   - title: English version
     url: /en/common/git-merge.html
@@ -38,7 +38,7 @@ Más información: <https://git-scm.com/docs/git-merge>.
 
 `git merge -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_rama</span>
 
-- Fusiona una rama y crea un commit para la fusión:
+- Fusiona una rama y crea una confirmación para la fusión:
 
 `git merge --no-ff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_rama</span>
 

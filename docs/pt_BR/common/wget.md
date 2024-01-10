@@ -2,8 +2,8 @@
 layout: page
 title: common/wget (português (Brasil))
 description: "Baixar arquivos da Internet."
-content_hash: becbd7c284aa493ea0ed6355b8e2bbec74697127
-last_modified_at: 2023-11-12
+content_hash: 28c8d05f2142510c68df12f35d6caf87a192e346
+last_modified_at: 2024-01-10
 related_topics:
   - title: English version
     url: /en/common/wget.html
@@ -38,7 +38,7 @@ Mais informações: <https://www.gnu.org/software/wget>.
 
 - Baixa uma única página web e todo os seus recursos com intervalos de 3 segundos entre requisições (scripts, stylesheets, imagens, etc.):
 
-`wget --page-requisites --convert-links --wait=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://exemplo.com/algumapagina.html</span>
+`wget --page-requisites --convert-links --wait=3 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://exemplo.com/algumapagina.html</span>
 
 - Baixa todos os arquivos listados dentro de um diretório e seus sub-diretórios (não baixa elementos de página incorporados):
 

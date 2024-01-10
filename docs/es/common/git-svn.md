@@ -2,8 +2,8 @@
 layout: page
 title: common/git-svn (español)
 description: "Operacion bidreccional entre un repositorio Subversión y otro Git."
-content_hash: 169ebba8e99489130485b3e60025ec0dcaf02ad0
-last_modified_at: 2024-01-07
+content_hash: bc37792f3ec1e3e6e0ef877584230cb96317ae73
+last_modified_at: 2024-01-10
 related_topics:
   - title: English version
     url: /en/common/git-svn.html
@@ -40,6 +40,6 @@ Más información: <https://git-scm.com/docs/git-svn>.
 
 `git svn fetch`
 
-- Realiza un commit al repositorio SVN:
+- Realiza una confirmación en un repositorio SVN:
 
 `git svn commit`

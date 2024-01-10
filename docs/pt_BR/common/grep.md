@@ -2,8 +2,8 @@
 layout: page
 title: common/grep (português (Brasil))
 description: "Acha padrões em arquivos usando expressões regulares."
-content_hash: 5d8cbc78e721bb2e3a34fd3e95211d2c869adcab
-last_modified_at: 2023-11-12
+content_hash: 58f238af19da3d35ff26f11375d735ff3f368820
+last_modified_at: 2024-01-10
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -35,6 +35,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/grep.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/grep.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # grep
@@ -64,7 +67,7 @@ Mais informações: <https://www.gnu.org/software/grep/manual/grep.html>.
 
 - Imprime o nome do arquivo e o número da linha para cada correspondência:
 
-`grep --with-filename --line-number "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrão_pesquisado</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
+`grep --with-filename --line-number --color=always "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">padrão_pesquisado</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/arquivo</span>
 
 - Pesquisa por linhas que correspondem a um padrão, imprimindo apenas o texto correspondido:
 

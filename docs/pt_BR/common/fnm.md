@@ -2,8 +2,8 @@
 layout: page
 title: common/fnm (português (Brasil))
 description: "Gerenciador de versão Node.js rápido."
-content_hash: e8bddd7c843a7efe0f8ff602d764da8cd5847c32
-last_modified_at: 2023-11-12
+content_hash: a6950f1188503d54c4c586f518fd414a0e48f260
+last_modified_at: 2024-01-10
 related_topics:
   - title: English version
     url: /en/common/fnm.html
@@ -22,7 +22,7 @@ Mais informações: <https://github.com/Schniz/fnm>.
 
 - Lista todas as versões disponíveis do Node.js e destaca a padrão:
 
-`fnm ls`
+`fnm list`
 
 - Usa uma versão específica do Node.js no shell atual:
 

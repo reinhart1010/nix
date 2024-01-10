@@ -2,8 +2,8 @@
 layout: page
 title: common/brew (português (Brasil))
 description: "A versão Linux do gerenciador de pacotes Homebrew."
-content_hash: 1e468dabe9789a6007997e1882d76a9c72a0b96a
-last_modified_at: 2023-12-28
+content_hash: a2411c43faa9e67b856287e818e227f693dd9787
+last_modified_at: 2024-01-10
 related_topics:
   - title: English version
     url: /en/common/brew.html
@@ -36,10 +36,6 @@ tldri18n_status: 2
 A versão Linux do gerenciador de pacotes Homebrew.
 Mais informações: <https://docs.brew.sh/Manpage>.
 
-- Busca por fórmulas disponíveis:
-
-`brew search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">termo_da_busca</span>
-
 - Instala a última versão estável de uma fórmula (utilizar `--devel` para versões de desenvolvimento):
 
 `brew install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">formula</span>
@@ -59,6 +55,10 @@ Mais informações: <https://docs.brew.sh/Manpage>.
 - Exibe as fórmulas que possuem novas versões disponíveis:
 
 `brew outdated`
+
+- Busca por fórmulas disponíveis:
+
+`brew search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">termo_da_busca</span>
 
 - Exibe informações sobre uma fórmula (versão, caminho de instalação, dependências, etc.):
 

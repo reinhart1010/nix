@@ -2,8 +2,8 @@
 layout: page
 title: common/git-switch (español)
 description: "Alterna entre ramas Git. Requiere una versión 2.23+ de Git."
-content_hash: 6dcd430d33638dedfc55ecd44969d37d15ad677d
-last_modified_at: 2023-11-12
+content_hash: f5ee315c66c5e1171a8acef5fc783f82007e3aff
+last_modified_at: 2024-01-10
 related_topics:
   - title: Deutsch version
     url: /de/common/git-switch.html
@@ -39,9 +39,9 @@ Más información: <https://git-scm.com/docs/git-switch>.
 
 `git switch --create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_rama</span>
 
-- Crea una nueva rama basada en un commit específico y se cambia a esta:
+- Crea y cambia a una nueva rama basada en una confirmación específica:
 
-`git switch --create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_rama</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">commit</span>
+`git switch --create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_rama</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">confirmación</span>
 
 - Cambia a la rama anterior:
 
@@ -51,6 +51,6 @@ Más información: <https://git-scm.com/docs/git-switch>.
 
 `git switch --recurse-submodules `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_rama</span>
 
-- Cambia a una rama y automáticamente fusiona la rama actual y cualquier cambio sin commit en ella:
+- Cambia a una rama y automáticamente fusiona la rama actual y cualquier cambio sin confirmación en ella:
 
 `git switch --merge `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_rama</span>
