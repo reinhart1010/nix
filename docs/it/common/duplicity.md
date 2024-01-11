@@ -2,8 +2,8 @@
 layout: page
 title: common/duplicity (italiano)
 description: "Crea archivi incrementali, compressi, cifrati con controllo di versione."
-content_hash: 108edcb07da7929a63bea6f8974447c1a9496100
-last_modified_at: 2023-12-29
+content_hash: 62ccfaba3640940050447663f2a3be0e549bec3b
+last_modified_at: 2024-01-11
 related_topics:
   - title: English version
     url: /en/common/duplicity.html
@@ -22,7 +22,7 @@ Maggiori informazioni: <http://duplicity.nongnu.org>.
 
 - Esegui il backup di una directory in un server Amazon S3, facendo un backup completo ogni mese:
 
-`duplicity --full-if-older-than `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1M</span>` --use-new-style s3://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_bucket[/prefisso]</span>
+`duplicity --full-if-older-than `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1M</span>` s3://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome_bucket[/prefisso]</span>
 
 - Elimina le versioni più vecchie di un anno da un backup salvato in un server WebDAV:
 
@@ -38,4 +38,4 @@ Maggiori informazioni: <http://duplicity.nongnu.org>.
 
 - Ripristina una sotto-directory da un backup locale cifrato con GnuPG in una posizione precisa:
 
-`PASSPHRASE=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password_chiave_gpg</span>` duplicity restore --encrypt-key `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_chiave_gpg</span>` --file-to-restore `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/relativo/sotto_directory</span>` file://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/assoluto/della/directory/di/backup</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory/dove/ripristinare</span>
+`PASSPHRASE=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password_chiave_gpg</span>` duplicity restore --encrypt-key `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_chiave_gpg</span>` --path-to-restore `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/relativo/sotto_directory</span>` file://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/assoluto/della/directory/di/backup</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">percorso/della/directory/dove/ripristinare</span>

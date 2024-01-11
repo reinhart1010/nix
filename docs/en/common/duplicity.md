@@ -2,8 +2,8 @@
 layout: page
 title: common/duplicity (English)
 description: "Creates incremental, compressed, encrypted and versioned backups."
-content_hash: 6fa0ab38e49184ca2d3ed1bc2415c870af7de6cb
-last_modified_at: 2024-01-02
+content_hash: 01e8fc05cbbe35248a2b67ef95bf52a3335bbac7
+last_modified_at: 2024-01-11
 related_topics:
   - title: italiano version
     url: /it/common/duplicity.html
@@ -22,7 +22,7 @@ More information: <http://duplicity.nongnu.org>.
 
 - Backup a directory to Amazon S3, doing a full backup every month:
 
-`duplicity --full-if-older-than `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1M</span>` --use-new-style s3://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name[/prefix]</span>
+`duplicity --full-if-older-than `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1M</span>` s3://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name[/prefix]</span>
 
 - Delete versions older than 1 year from a backup stored on a WebDAV share:
 
@@ -38,4 +38,4 @@ More information: <http://duplicity.nongnu.org>.
 
 - Restore a subdirectory from a GnuPG-encrypted local backup to a given location:
 
-`PASSPHRASE=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gpg_key_password</span>` duplicity restore --encrypt-key `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gpg_key_id</span>` --file-to-restore `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">relative/path/restoredirectory</span>` file://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">absolute/path/to/backup/directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory/to/restore/to</span>
+`PASSPHRASE=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gpg_key_password</span>` duplicity restore --encrypt-key `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">gpg_key_id</span>` --path-to-restore `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">relative/path/restoredirectory</span>` file://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">absolute/path/to/backup/directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory/to/restore/to</span>
