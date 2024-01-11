@@ -2,8 +2,8 @@
 layout: page
 title: common/poetry (English)
 description: "Manage Python packages and dependencies."
-content_hash: fd32c92a76c0d7c5940391b07d5c2c507da77f07
-last_modified_at: 2024-01-09
+content_hash: dbb1e2beb6469134a568e8fb8c6aafcdc2e010c7
+last_modified_at: 2024-01-11
 related_topics:
   - title: Deutsch version
     url: /de/common/poetry.html
@@ -23,13 +23,13 @@ More information: <https://python-poetry.org/docs/cli/>.
 
 `poetry new `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_name</span>
 
-- Install a dependency and its subdependencies:
+- Install and add a dependency and its sub-dependencies to the `pyproject.toml` file in the current directory:
 
 `poetry add `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dependency</span>
 
-- Install a development dependency and its subdependencies:
+- Install the project dependencies using the `pyproject.toml` file in the current directory:
 
-`poetry add --group dev `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dependency</span>
+`poetry install`
 
 - Interactively initialize the current directory as a new Poetry project:
 
