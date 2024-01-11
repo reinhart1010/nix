@@ -3,19 +3,10 @@ layout: page
 title: linux/umount (English)
 description: "Unlink a filesystem from its mount point, making it no longer accessible."
 content_hash: 0bb097b97dcebe4ed13265ecf8e32247caff8bd6
-last_modified_at: 2024-01-10
-tldri18n_status: 0
+last_modified_at: 2024-01-11
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/umount.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># umount
+# umount
 
 Unlink a filesystem from its mount point, making it no longer accessible.
 A filesystem cannot be unmounted when it is busy.
