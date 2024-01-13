@@ -2,8 +2,8 @@
 layout: page
 title: common/grep (한국어)
 description: "정규표현식으로 파일에서 패턴을 찾습니다."
-content_hash: d9c951fdd724321e15c53d4823c06cf1131717fb
-last_modified_at: 2023-11-12
+content_hash: e986da85844f5c18fdd6eec781791023c8ed2129
+last_modified_at: 2024-01-13
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -35,6 +35,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/grep.html
     icon: bi bi-globe
+  - title: 中文 version
+    url: /zh/common/grep.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # grep
@@ -64,7 +67,7 @@ tldri18n_status: 2
 
 - 각각의 일치하는 문자열의 파일 이름과 줄 번호 출력:
 
-`grep --with-filename --line-number "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일/의/경로</span>
+`grep --with-filename --line-number --color=always "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_패턴</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일/의/경로</span>
 
 - 패턴과 일치하는 줄을 검색하고, 일치하는 문자만 출력:
 

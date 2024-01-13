@@ -2,8 +2,8 @@
 layout: page
 title: linux/man (한국어)
 description: "참조 페이지 뷰어 유틸리티입니다."
-content_hash: b6b792439309a1cbd40483ce390810213e3a87a9
-last_modified_at: 2023-11-12
+content_hash: 97a86b31495f657d549773af5534bcabc282c7c7
+last_modified_at: 2024-01-13
 related_topics:
   - title: English version
     url: /en/linux/man.html
@@ -62,4 +62,4 @@ tldri18n_status: 2
 
 - 검색 문자열이 포함된 도움말 페이지 탐색:
 
-`man --apropos `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_문자열</span>
+`man --apropos "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">검색_문자열</span>`"`

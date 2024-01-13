@@ -2,8 +2,8 @@
 layout: page
 title: common/black (한국어)
 description: "Python 자동 코드 formatter."
-content_hash: ac81354d79516af3e6f98e35b87cbe75e6c1eca6
-last_modified_at: 2023-11-12
+content_hash: 869ce304e279463829e69a76d3a99f9f8ff7e483
+last_modified_at: 2024-01-13
 related_topics:
   - title: English version
     url: /en/common/black.html
@@ -24,15 +24,15 @@ Python 자동 코드 formatter.
 
 - 전달된 코드를 문자열로 포맷:
 
-`black -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일_또는_디렉토리/의/경로</span>
-
-- 표준 출력시 각 파일에 대해 diff 출력:
-
-`black --diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일_또는_디렉토리/의/경로</span>
+`black -c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일_또는_디렉토리/의/경로</span>`"`
 
 - 파일을 다시 쓰지 않고 상태 반환:
 
 `black --check `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일_또는_디렉토리/의/경로</span>
+
+- 표준 출력시 각 파일에 대해 diff 출력:
+
+`black --diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">파일_또는_디렉토리/의/경로</span>
 
 - 파일 또는 디렉토리가 `stderr`에 배타적 오류 메시지를 발생시키는 자동 포맷:
 

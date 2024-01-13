@@ -2,8 +2,8 @@
 layout: page
 title: common/date (한국어)
 description: "시스템 날짜 설정 및 표시."
-content_hash: 839f4d276097bb1f25c24a91dcae0ed9831555e6
-last_modified_at: 2023-11-12
+content_hash: 0ea69cbc1f5cf0e064dac23ce5fb5b2d6a1bdd4a
+last_modified_at: 2024-01-13
 related_topics:
   - title: Deutsch version
     url: /de/common/date.html
@@ -29,11 +29,11 @@ tldri18n_status: 2
 
 - 기본 로컬 형식을 사용하여 현재 날짜 표시:
 
-`date +"%c"`
+`date +%c`
 
 - 현재 날짜를 UTC 및 ISO 8601 형식으로 표시:
 
-`date -u +"%Y-%m-%dT%H:%M:%S%Z"`
+`date -u +%Y-%m-%dT%H:%M:%S%Z`
 
 - 현재 날짜를 Unix 타임스탬프로 표시 (Unix epoch 이후 몇 초):
 
@@ -41,7 +41,7 @@ tldri18n_status: 2
 
 - 기본 형식을 사용하여 특정 날짜 표시(Unix 타임스탬프로 표시):
 
-`date -d @1473305798`
+`date -d @`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1473305798</span>
 
 - 특정 날짜를 Unix 타임스탬프 형식으로 변환:
 

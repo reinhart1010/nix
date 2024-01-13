@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (한국어)
 description: "도커 컨테이너들과 이미지들을 관리한다."
-content_hash: e0972c72879abb5059477f1a962a7d67e137490b
-last_modified_at: 2023-11-12
+content_hash: cd13806ccbdefbe53f14cecfaff937191a9429e7
+last_modified_at: 2024-01-13
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -26,6 +26,9 @@ related_topics:
   - title: 日本語 version
     url: /ja/common/docker.html
     icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/docker.html
+    icon: bi bi-globe
   - title: português (Brasil) version
     url: /pt_BR/common/docker.html
     icon: bi bi-globe
@@ -45,13 +48,9 @@ tldri18n_status: 2
 도커 컨테이너들과 이미지들을 관리한다.
 더 많은 정보: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- 현재 실행중인 도커 컨테이너들 목록보기:
-
-`docker ps`
-
 - 모든 도커 컨테이너들(실행중이고 중지된) 목록 보기:
 
-`docker ps -a`
+`docker ps --all`
 
 - 사용자 정의 이름으로 이미지로부터 컨테이너 실행:
 

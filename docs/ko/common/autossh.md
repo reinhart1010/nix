@@ -2,8 +2,8 @@
 layout: page
 title: common/autossh (한국어)
 description: "SSH 연결을 실행, 모니터링 및 재시작. port 재전송 tunnel을 유지하기 위해 자동 재연결. 모든 ssh 플래그 허용."
-content_hash: 1b962e1c67768f9f89dd0fc5ea1e84e414d2f896
-last_modified_at: 2023-11-12
+content_hash: 7a883d7cffadcb00d5e1ad382542104f4ca27478
+last_modified_at: 2024-01-13
 related_topics:
   - title: English version
     url: /en/common/autossh.html
@@ -29,7 +29,7 @@ SSH 연결을 실행, 모니터링 및 재시작. port 재전송 tunnel을 유�
 
 - SSH session을 열고, 모니터링 포트가 데이터를 리턴하지 못하면 다시 시작:
 
-`autossh -M `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">monitor_port</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh_command</span>
+`autossh -M `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">monitor_port</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh_command</span>`"`
 
 - 로컬 포트를 원격 포트로 전달하는 SSH session을 열고 필요한 경우 다시 시작:
 
@@ -37,11 +37,11 @@ SSH 연결을 실행, 모니터링 및 재시작. port 재전송 tunnel을 유�
 
 - ssh(백그라운드에서 실행)를 실행하기 전에 포크하고 원격 쉘을 열지 않는다:
 
-`autossh -f -M `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">monitor_port</span>` -N `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh_command</span>
+`autossh -f -M `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">monitor_port</span>` -N "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh_command</span>`"`
 
 - 모니터링 포트없이 백그라운드에서 autossh를 실행하는 대신 실패를 감지하기 위해 10초마다 SSH 연결 유지에 의존:
 
-`autossh -f -M 0 -N -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh_command</span>
+`autossh -f -M 0 -N -o "ServerAliveInterval 10" -o "ServerAliveCountMax 3" "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ssh_command</span>`"`
 
 - 모니터링 포트, 원격 쉘 없이 백그라운드에서 autossh를 실행하고, 포트 전달에 실패하면 종료:
 

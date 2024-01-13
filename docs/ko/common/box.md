@@ -2,8 +2,8 @@
 layout: page
 title: common/box (한국어)
 description: "Phar의 빌드 및 관리를 위한 PHP 어플리케이션."
-content_hash: 992cad0f9b90cb64cf23c89d8a0779a3f0b96216
-last_modified_at: 2023-11-12
+content_hash: 7b048d84b899bcadbf0cd91dfaf0b59325147366
+last_modified_at: 2024-01-13
 related_topics:
   - title: English version
     url: /en/common/box.html
@@ -20,11 +20,11 @@ Phar의 빌드 및 관리를 위한 PHP 어플리케이션.
 
 - 새 Phar 파일 작성:
 
-`box build`
+`box compile`
 
 - 특정 구성 파일을 사용하여 새 Phar 파일 작성:
 
-`box build -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config/의/경로</span>
+`box compile -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config/의/경로</span>
 
 - PHAR PHP 확장에 대한 정보 표시:
 

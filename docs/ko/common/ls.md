@@ -2,8 +2,8 @@
 layout: page
 title: common/ls (한국어)
 description: "폴더의 내용물을 리스팅합니다."
-content_hash: d4b22cc5c01d24b8a834bd45751c084519c7b7f0
-last_modified_at: 2023-11-12
+content_hash: 543211116adc2cd9eb827eb46cd68dbfbedebf6f
+last_modified_at: 2024-01-13
 related_topics:
   - title: català version
     url: /ca/common/ls.html
@@ -96,4 +96,4 @@ tldri18n_status: 2
 
 - 폴더만 나열:
 
-`ls -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*/</span>
+`ls -d */`

@@ -2,8 +2,8 @@
 layout: page
 title: common/rsync (한국어)
 description: "기본적으로 SSH를 사용하여 원격 호스트 간에 파일을 전송합니다(두 원격 호스트 사이는 아닙니다)."
-content_hash: 34524b3aedb1ad7459edba0c66c62b6fa71a7e22
-last_modified_at: 2023-11-12
+content_hash: cbfb60a6445db4b5a32c14252bca3e8307f84a83
+last_modified_at: 2024-01-13
 related_topics:
   - title: English version
     url: /en/common/rsync.html
@@ -53,7 +53,7 @@ tldri18n_status: 2
 
 - 디렉토리를 반복적으로 복사하고, 아카이브 모드를 사용하고, 심볼릭 링크를 확인하고, 대상에 있는 최신 파일을 건너뜀:
 
-`rsync --recursive --archive --update --copy-links `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/소스</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/목적지</span>
+`rsync --archive --update --copy-links `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/소스</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/대상/목적지</span>
 
 - `rsyncd`를 실행하는 원격 호스트로 폴더를 전송하고 소스에 존재하지 않는 대상의 파일으 삭제:
 

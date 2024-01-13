@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-compose (한국어)
 description: "다중 컨테이너 도커 어플리케이션 실행 및 관리."
-content_hash: d8d8b5284880daea70443ddf3fd63e790daa149c
-last_modified_at: 2023-11-12
+content_hash: 303642116998075fefd47e4739a9a16440a9ca5d
+last_modified_at: 2024-01-13
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-compose.html
@@ -56,7 +56,7 @@ tldri18n_status: 2
 
 - 특정 구성 파일을 사용해 모든 컨테이너 실행:
 
-`docker compose --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/파일명</span>` up`
+`docker compose -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">프로젝트_이름</span>` --file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">경로/파일명</span>` up`
 
 - 실행 중인 모든 컨테이너 중지:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/git-cherry-pick (한국어)
 description: "기존의 커밋에서 가져온 변경내용을 현재 브랜치에 적용합니다."
-content_hash: 5d5682b3f24529ef3f3e5ae90530a564959ebf4e
-last_modified_at: 2023-11-12
+content_hash: 4d8882cbe20ebece9a3a37369e7e401d8bbcdab4
+last_modified_at: 2024-01-13
 related_topics:
   - title: বাংলা version
     url: /bn/common/git-cherry-pick.html
@@ -48,4 +48,4 @@ tldri18n_status: 2
 
 - 커밋의 변경내역을 커밋 없이 디렉토리에 추가:
 
-`git cherry-pick -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋</span>
+`git cherry-pick --no-commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">커밋</span>
