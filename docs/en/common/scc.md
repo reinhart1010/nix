@@ -2,8 +2,8 @@
 layout: page
 title: common/scc (English)
 description: "Tool written in Go that counts lines of code."
-content_hash: 7d2386c8a13d6bd976ec58b8029d938ddf9e11e4
-last_modified_at: 2023-11-12
+content_hash: d89e1dd69a852ad621677b77fa5b9357068c3fc7
+last_modified_at: 2024-01-13
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/scc.html
@@ -33,7 +33,7 @@ More information: <https://github.com/boyter/scc>.
 
 - Only count files with specific file extensions:
 
-`scc --include-ext `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">go, java, js</span>
+`scc --include-ext `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">go,java,js</span>
 
 - Exclude directories from being counted:
 

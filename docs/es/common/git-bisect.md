@@ -2,8 +2,8 @@
 layout: page
 title: common/git-bisect (español)
 description: "Utiliza la búsqueda binaria para encontrar la confirmación que introdujo un error."
-content_hash: d9408c7ca77ea29d44b4ea11d25d4f5cec414b56
-last_modified_at: 2024-01-10
+content_hash: 0820545cb8a0222cd003b903108d63921864cbe7
+last_modified_at: 2024-01-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git-bisect.html
@@ -26,12 +26,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-bisect.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git bisect
+# git bisect
 
 Utiliza la búsqueda binaria para encontrar la confirmación que introdujo un error.
 Git salta de un lado a otro del gráfico de confirmaciones hasta alcanzar progresivamente la confirmación defectuosa.
@@ -41,9 +38,9 @@ Más información: <https://git-scm.com/docs/git-bisect>.
 
 `git bisect start `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">confirmación_errónea</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">confirmación_buena</span>
 
-- Para cada confirmación que `git bisect` seleccione, marcala como "mala" o "buena" después de probarla para el problema:
+- Para cada confirmación que `git bisect` seleccione, marcala como "mala" (`bad`) o "buena" (`good`) después de probarla para el problema:
 
-`git bisect `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bueno|malo</span>
+`git bisect `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">good|bad</span>
 
 - Termina la sesión de bisecado y vuelve a la rama anterior después de que `git-bisect` determine con precisión la confirmación defectuosa:
 
@@ -52,3 +49,7 @@ Más información: <https://git-scm.com/docs/git-bisect>.
 - Omite una confirmación durante una sesión de bisecado (p. ej. una que falla las pruebas debido a un problema diferente):
 
 `git bisect skip`
+
+- Muestra un registro de lo que se ha hecho hasta el momento:
+
+`git bisect log`

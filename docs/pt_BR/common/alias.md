@@ -2,8 +2,8 @@
 layout: page
 title: common/alias (português (Brasil))
 description: "Cria apelidos -- palavras que são substituídas por um comando."
-content_hash: 7a65759210872a24c2028ba516c01c72e82fe76a
-last_modified_at: 2023-12-28
+content_hash: 28097b79d7e6f097ac915a97fa7a5051ec4d3517
+last_modified_at: 2024-01-13
 related_topics:
   - title: বাংলা version
     url: /bn/common/alias.html
@@ -59,9 +59,12 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/alias.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# alias
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># alias
 
 Cria apelidos -- palavras que são substituídas por um comando.
 Apelidos expiram ao final da sessão atual do shell de comando, a menos que sejam definidos no arquivo de configuração do shell, por exemplo `~/.bashrc`.
@@ -79,14 +82,10 @@ Mais informações: <https://tldp.org/LDP/abs/html/aliases.html>.
 
 `unalias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">apelido</span>
 
-- Exibe todos os apelidos definidos:
-
-`alias -p`
-
 - Torna o comando `rm` interativo:
 
-`alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rm</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rm -i</span>`"`
+`alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rm</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">rm --interactive</span>`"`
 
-- Cria o apelido `la` como um atalho para `ls -a`:
+- Cria o apelido `la` como um atalho para `ls --all`:
 
-`alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">la</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls -a</span>`"`
+`alias `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">la</span>`="`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ls --all</span>`"`

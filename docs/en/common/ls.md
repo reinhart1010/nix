@@ -2,8 +2,8 @@
 layout: page
 title: common/ls (English)
 description: "List directory contents."
-content_hash: 6a054997e73a5e2331521bed74cbe5271d6eed9a
-last_modified_at: 2023-11-12
+content_hash: 7bdd54146940e05b0e796ff01bcb836e83f9dcd1
+last_modified_at: 2024-01-13
 related_topics:
   - title: català version
     url: /ca/common/ls.html
@@ -86,9 +86,9 @@ More information: <https://www.gnu.org/software/coreutils/ls>.
 
 `ls -lh`
 
-- Long format list sorted by size (descending):
+- Long format list sorted by size (descending) recursively:
 
-`ls -lS`
+`ls -lSR`
 
 - Long format list of all files, sorted by modification date (oldest first):
 

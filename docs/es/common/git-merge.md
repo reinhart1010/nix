@@ -2,8 +2,8 @@
 layout: page
 title: common/git-merge (español)
 description: "Fusiona ramas."
-content_hash: ffb87e403068e27cb3e528cd2e40e2115def870b
-last_modified_at: 2024-01-10
+content_hash: f86833ed966d7a33335ceeae12219cc1f701fb8e
+last_modified_at: 2024-01-13
 related_topics:
   - title: English version
     url: /en/common/git-merge.html
@@ -20,12 +20,9 @@ related_topics:
   - title: українська version
     url: /uk/common/git-merge.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git merge
+# git merge
 
 Fusiona ramas.
 Más información: <https://git-scm.com/docs/git-merge>.
@@ -36,7 +33,7 @@ Más información: <https://git-scm.com/docs/git-merge>.
 
 - Edita el mensaje de fusión:
 
-`git merge -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_rama</span>
+`git merge --edit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_rama</span>
 
 - Fusiona una rama y crea una confirmación para la fusión:
 
@@ -45,3 +42,7 @@ Más información: <https://git-scm.com/docs/git-merge>.
 - Cancela una fusión en caso de conflictos:
 
 `git merge --abort`
+
+- Fusiona usando una estrategia específica:
+
+`git merge --strategy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">estrategia</span>` --strategy-option `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">opción_de_estrategia</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nombre_de_la_rama</span>

@@ -2,8 +2,8 @@
 layout: page
 title: linux/journalctl (українська)
 description: "Запити до журналу systemd."
-content_hash: 7971d8fcf30b54b61526f2867bad32fc835dfafe
-last_modified_at: 2023-11-12
+content_hash: 05028aeb8cd0f4b96f6b813909829350b1c7dea9
+last_modified_at: 2024-01-13
 related_topics:
   - title: English version
     url: /en/linux/journalctl.html
@@ -11,9 +11,12 @@ related_topics:
   - title: polski version
     url: /pl/linux/journalctl.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# journalctl
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># journalctl
 
 Запити до журналу systemd.
 Більше інформації: <https://manned.org/journalctl>.
@@ -21,10 +24,6 @@ tldri18n_status: 2
 - Показати всі повідомлення з рівнем пріоритету 3 (помилки) від цього завантаження ([b]oot):
 
 `journalctl -b --priority=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>
-
-- Показати всі повідомлення з останнього завантаження:
-
-`journalctl -b -1`
 
 - Видалити записи журналу, які старіші за 2 дні:
 

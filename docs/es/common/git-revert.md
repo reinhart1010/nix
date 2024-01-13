@@ -2,8 +2,8 @@
 layout: page
 title: common/git-revert (español)
 description: "Crea nuevas confirmaciones que revierten el efecto de los anteriores."
-content_hash: d359fd74482cfb10434a8746ff4390a070cd37f6
-last_modified_at: 2024-01-10
+content_hash: 73e6b64ccf926b8b2ac8b1ceed08d6c3b4ec4eff
+last_modified_at: 2024-01-13
 related_topics:
   - title: English version
     url: /en/common/git-revert.html
@@ -17,12 +17,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-revert.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git revert
+# git revert
 
 Crea nuevas confirmaciones que revierten el efecto de los anteriores.
 Más información: <https://git-scm.com/docs/git-revert>.
@@ -34,6 +31,10 @@ Más información: <https://git-scm.com/docs/git-revert>.
 - Revierte la quinta confirmación más reciente:
 
 `git revert HEAD~`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span>
+
+- Revierte una confirmación específica:
+
+`git revert `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0c01a9</span>
 
 - Revierte múltiples confirmaciones:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/git-commit (español)
 description: "Realiza confirmaciones de los archivos al repositorio."
-content_hash: b00ff9e7fc3bd135f3a3ecf870d2ea9b0fa24789
-last_modified_at: 2024-01-10
+content_hash: 8d5637c55c1ce7992e1598a00b32e3190f68e9f9
+last_modified_at: 2024-01-13
 related_topics:
   - title: Deutsch version
     url: /de/common/git-commit.html
@@ -35,19 +35,16 @@ related_topics:
   - title: українська version
     url: /uk/common/git-commit.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># git commit
+# git commit
 
 Realiza confirmaciones de los archivos al repositorio.
 Más información: <https://git-scm.com/docs/git-commit>.
 
 - Realiza una confirmación de los archivos marcados al repositorio con un mensaje:
 
-`git commit -m "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mensaje</span>`"`
+`git commit --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mensaje</span>`"`
 
 - Realiza una confirmación de los archivos marcados con un mensaje leído desde un archivo:
 
@@ -55,7 +52,11 @@ Más información: <https://git-scm.com/docs/git-commit>.
 
 - Marca automáticamente todos los archivos modificados y realiza una confirmación con un mensaje:
 
-`git commit -a -m "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mensaje</span>`"`
+`git commit --all --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mensaje</span>`"`
+
+- Confirma todos los archivos preparados y los firma con una llave de GPG (o la llave en el archivo de configuración si no se especifica un argumento):
+
+`git commit --gpg-sign `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">identificador_de_llave</span>` --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mensaje</span>`"`
 
 - Sustituye la última confirmación con los cambios marcados actualmente, cambiando el hash de la confirmación:
 
@@ -67,4 +68,4 @@ Más información: <https://git-scm.com/docs/git-commit>.
 
 - Crea una confirmación, incluso si no hay archivos marcados:
 
-`git commit -m "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mensaje</span>`" --allow-empty`
+`git commit --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mensaje</span>`" --allow-empty`
