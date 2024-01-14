@@ -2,8 +2,8 @@
 layout: page
 title: osx/systemsetup (português (Portugal))
 description: "Configura as definições de Preferencias do Sistema da máquina."
-content_hash: 80fb9325a12e4cccd4f5b1fe60d89f332af9bf83
-last_modified_at: 2023-11-12
+content_hash: 6fa3f5cb9f82c31d1f21bf01f9fe878620bbd8b4
+last_modified_at: 2024-01-14
 related_topics:
   - title: English version
     url: /en/osx/systemsetup.html
@@ -24,9 +24,9 @@ Mais informações: <https://support.apple.com/guide/remote-desktop/about-system
 
 - Ativa o serviço de hora de rede com um fuso horário e servidor específico:
 
-`systemsetup -settimezone `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Europe/Lisbon</span>` -setnetworktimeserver `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2.pt.pool.ntp.org</span>` -setusingnetworktime on`
+`systemsetup -settimezone "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">Europe/Lisbon</span>`" -setnetworktimeserver `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2.pt.pool.ntp.org</span>` -setusingnetworktime on`
 
-- Colaca a máquina sem dormir, reiniciando automaticamente em falta de energia ou pânico do núcleo do sistema:
+- Coloca a máquina sem dormir, reiniciando automaticamente em falta de energia ou pânico do núcleo do sistema:
 
 `systemsetup -setsleep off -setrestartpowerfailure on -setrestartfreeze on`
 

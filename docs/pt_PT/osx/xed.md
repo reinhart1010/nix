@@ -2,8 +2,8 @@
 layout: page
 title: osx/xed (português (Portugal))
 description: "Abre ficheiros para editar no Xcode."
-content_hash: fd8272741433602b46287a93ee0a8aa37dd1e1dc
-last_modified_at: 2023-11-12
+content_hash: 461e439bcbc69f85e48fdba50bb9cf59401aec30
+last_modified_at: 2024-01-14
 related_topics:
   - title: English version
     url: /en/osx/xed.html
@@ -27,8 +27,8 @@ Mais informações: <https://www.manpagez.com/man/1/xed/>.
 
 - Abre um ou mais ficheiros no Xcode, cria o ficheiro se o mesmo não existir:
 
-`xed -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ficheiro1</span>
+`xed --create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ficheiro1</span>
 
-- Abre um ficheiro no Xcode e foca na linha 88:
+- Abre um ficheiro no Xcode e foca na linha 75:
 
-`xed -l 88 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ficheiro</span>
+`xed --line 75 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ficheiro</span>

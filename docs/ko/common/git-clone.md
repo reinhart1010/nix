@@ -3,7 +3,7 @@ layout: page
 title: common/git-clone (한국어)
 description: "이미 존재하는 레파지토리를 복제."
 content_hash: 11e5bdfc7fa6de4ea57850600d85882ac9c4b820
-last_modified_at: 2024-01-13
+last_modified_at: 2024-01-14
 related_topics:
   - title: Deutsch version
     url: /de/common/git-clone.html
@@ -38,9 +38,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/git-clone.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# git clone
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git clone
 
 이미 존재하는 레파지토리를 복제.
 더 많은 정보: <https://git-scm.com/docs/git-clone>.

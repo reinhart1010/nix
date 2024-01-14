@@ -2,8 +2,8 @@
 layout: page
 title: linux/gedit (português (Portugal))
 description: "Editor de texto para Desktop do GNOME."
-content_hash: 030a20452e11e6ac71a22a8f394b63d110524364
-last_modified_at: 2023-12-28
+content_hash: d15397c81cc2963675bd120b5ec4420b54f0d5af
+last_modified_at: 2024-01-14
 related_topics:
   - title: English version
     url: /en/linux/gedit.html
@@ -26,16 +26,16 @@ Mais informações: <https://help.gnome.org/users/gedit/stable/>.
 
 - Abre um ficheiro de texto:
 
-`gedit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ficheiro</span>
+`gedit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/ficheiro</span>
 
 - Abre múltiplos ficheiros de texto:
 
-`gedit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ficheiro1 ficheiro2</span>
+`gedit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/ficheiro1 caminho/para/ficheiro2 ...</span>
+
+- Abre um ficheiro de texto com uma formatação específica:
+
+`gedit --encoding=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">UTF-8</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">caminho/para/ficheiro</span>
 
 - Mostra a lista de formatações de texto disponíveis:
 
 `gedit --list-encodings`
-
-- Abre um ficheiro de texto com uma formatação específica:
-
-`gedit --encoding=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">encoding</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ficheiro</span>

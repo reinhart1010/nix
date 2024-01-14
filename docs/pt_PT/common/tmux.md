@@ -2,8 +2,8 @@
 layout: page
 title: common/tmux (português (Portugal))
 description: "Multiplexador do terminal. Permite várias sessões com janelas, painéis e muito mais."
-content_hash: ab49ecf0966f67c2d9b2f4268bb94105bce1501d
-last_modified_at: 2023-12-29
+content_hash: 8e7feefd3d464107eaf7c2b1ed6940904572fdf5
+last_modified_at: 2024-01-14
 related_topics:
   - title: English version
     url: /en/common/tmux.html
@@ -20,9 +20,12 @@ related_topics:
   - title: 한국어 version
     url: /ko/common/tmux.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# tmux
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># tmux
 
 Multiplexador do terminal. Permite várias sessões com janelas, painéis e muito mais.
 Mais informações: <https://github.com/tmux/tmux>.
@@ -33,7 +36,7 @@ Mais informações: <https://github.com/tmux/tmux>.
 
 - Inicia uma sessão com nome:
 
-`tmux new-session -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>
+`tmux new -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>
 
 - Lista sessões existentes:
 
@@ -41,11 +44,7 @@ Mais informações: <https://github.com/tmux/tmux>.
 
 - Entra na última sessão utilizada:
 
-`tmux attach-session`
-
-- Entra numa sessão com nome:
-
-`tmux attach-session -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>
+`tmux attach`
 
 - Sai da sessão atual (com o prefixo Ctrl-B):
 
@@ -54,7 +53,3 @@ Mais informações: <https://github.com/tmux/tmux>.
 - Elimina uma sessão com nome:
 
 `tmux kill-session -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nome</span>
-
-- Elimina a sessão atual (com o prefixo Ctrl-B):
-
-`<Ctrl>-B :kill-session<Enter>`

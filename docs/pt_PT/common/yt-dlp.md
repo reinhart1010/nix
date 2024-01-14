@@ -2,15 +2,18 @@
 layout: page
 title: common/yt-dlp (português (Portugal))
 description: "Um fork do youtube-dl com funcionalidades e correções adicionais."
-content_hash: e1914d8d2e85f6306d0e52b6d6f5590ed5cecc06
-last_modified_at: 2023-12-28
+content_hash: 92354abdef8d5b64c46d2d0107fad7fcb2062367
+last_modified_at: 2024-01-14
 related_topics:
   - title: English version
     url: /en/common/yt-dlp.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# yt-dlp
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># yt-dlp
 
 Um fork do youtube-dl com funcionalidades e correções adicionais.
 Descarrega vídeos do YouTube e de outros websites.
@@ -27,10 +30,6 @@ Mais informações: <https://github.com/yt-dlp/yt-dlp>.
 - Extrai áudio de vídeos (requer o `ffmpeg` ou o `ffprobe`):
 
 `yt-dlp --extract-audio "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span>`"`
-
-- Especifica o formato de áudio extraído (a predefinição é "best"):
-
-`yt-dlp --extract-audio --audio-format `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mp3</span>` "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://www.youtube.com/watch?v=oHg5SJYRHA0</span>`"`
 
 - Especifica a qualidade do áudio extraído, entre 0 (melhor) e 10 (pior), sendo 5 a predefinição:
 
