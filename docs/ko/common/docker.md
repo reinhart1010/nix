@@ -2,8 +2,8 @@
 layout: page
 title: common/docker (한국어)
 description: "도커 컨테이너들과 이미지들을 관리한다."
-content_hash: cd13806ccbdefbe53f14cecfaff937191a9429e7
-last_modified_at: 2024-01-14
+content_hash: 4f8fb14344085cd688fb295aa412def5daffe7ca
+last_modified_at: 2024-01-15
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -51,7 +51,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 도커 컨테이너들과 이미지들을 관리한다.
 더 많은 정보: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- 모든 도커 컨테이너들(실행중이고 중지된) 목록 보기:
+- 모든 도커 컨테이너들(실행 및 중지) 목록 보기:
 
 `docker ps --all`
 
@@ -66,6 +66,10 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 - 도커 레지스트리로부터 이미지 가져오기:
 
 `docker pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">이미지</span>
+
+- 이미 다운로드한 이미지 목록 표시:
+
+`docker images`
 
 - 이미 실행중인 컨테이너 내부에서 쉘 열기:
 
