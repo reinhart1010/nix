@@ -2,8 +2,8 @@
 layout: page
 title: linux/ip (français)
 description: "Affiche / manipule l'adressage, le routage, les interfaces et périphériques réseau, les règles de routage et les tunnels."
-content_hash: 8743be6266c2a8d11ebe3228fa680e0ce75b33ea
-last_modified_at: 2023-11-12
+content_hash: 643b552b6ba4f72f833be11b3583d3da4c94e3ef
+last_modified_at: 2024-01-15
 related_topics:
   - title: Deutsch version
     url: /de/linux/ip.html
@@ -50,7 +50,7 @@ Plus d'informations : <https://www.man7.org/linux/man-pages/man8/ip.8.html>.
 
 - Active/Désactive une interface :
 
-`ip link set `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span>` up/down`
+`ip link set `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">interface</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">up|down</span>
 
 - Ajoute/Supprime une adresse ip à une interface :
 

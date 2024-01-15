@@ -2,8 +2,8 @@
 layout: page
 title: common/git-branch (français)
 description: "Commande Git principale pour travailler avec des branches."
-content_hash: 62ab8efbf7e30aca68b9933f25bad09647f0a588
-last_modified_at: 2023-11-12
+content_hash: 0313f8c27b71d46204498bb0f2c89884a0ccc06a
+last_modified_at: 2024-01-15
 related_topics:
   - title: Deutsch version
     url: /de/common/git-branch.html
@@ -36,13 +36,9 @@ tldri18n_status: 2
 Commande Git principale pour travailler avec des branches.
 Plus d'informations : <https://git-scm.com/docs/git-branch>.
 
-- Liste les branches locale en préfixant la branche courante avec `*` :
-
-`git branch`
-
 - Liste toutes les branches (locale et distantes) :
 
-`git branch -a`
+`git branch --all`
 
 - Affiche le nom de la branche courante :
 

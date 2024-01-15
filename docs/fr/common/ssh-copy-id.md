@@ -2,8 +2,8 @@
 layout: page
 title: common/ssh-copy-id (français)
 description: "Dépose une clé publique sur une machine distante, dans les clés autorisées `authorized_keys`."
-content_hash: 32d0f15fe275ace0458f4fc22e44fe9672c90ad1
-last_modified_at: 2023-11-12
+content_hash: 18458dc0431b888052560dcb7d22c217b7ef0795
+last_modified_at: 2024-01-15
 related_topics:
   - title: Deutsch version
     url: /de/common/ssh-copy-id.html
@@ -23,7 +23,7 @@ Plus d'informations : <https://manned.org/ssh-copy-id>.
 
 - Dépose toutes les clés publiques sur la machine distante :
 
-`ssh-copy-id `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_utilisateur@hote_distant</span>
+`ssh-copy-id `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nom_utilisateur</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hote_distant</span>
 
 - Dépose une clé publique spécifique sur la machine distante :
 

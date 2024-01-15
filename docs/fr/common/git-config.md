@@ -2,8 +2,8 @@
 layout: page
 title: common/git-config (français)
 description: "Gérer les options de configuration personnalisées pour les référentiels Git."
-content_hash: 54c0640b8cf1dca5fc645d6f81cffdcd3eafaaad
-last_modified_at: 2023-11-12
+content_hash: 6731e547c9d80cfc2bdb179e1eeeb2dacfc0a475
+last_modified_at: 2024-01-15
 related_topics:
   - title: Deutsch version
     url: /de/common/git-config.html
@@ -44,10 +44,6 @@ Plus d'informations : <https://git-scm.com/docs/git-config>.
 - Liste les entrées de configuration globales (stockées dans `~/.gitconfig`) :
 
 `git config --list --global`
-
-- Liste toutes les entrées de configuration, globales et locales :
-
-`git config --list`
 
 - Récupère la valeur d'une entrée de configuration :
 

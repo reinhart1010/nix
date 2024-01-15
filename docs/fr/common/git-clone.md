@@ -2,8 +2,8 @@
 layout: page
 title: common/git-clone (français)
 description: "Clone un dépôt existant."
-content_hash: 9282455832a2e6a1cac69446c48afe6c71e8742e
-last_modified_at: 2023-11-12
+content_hash: 75046a9115f64d93f4ce2fd54f9d46a1cf2bb7b9
+last_modified_at: 2024-01-15
 related_topics:
   - title: Deutsch version
     url: /de/common/git-clone.html
@@ -45,10 +45,6 @@ tldri18n_status: 2
 Clone un dépôt existant.
 Plus d'informations : <https://git-scm.com/docs/git-clone>.
 
-- Clone un dépôt existant :
-
-`git clone `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">emplacement_du_depot_distant</span>
-
 - Clone un dépôt existant dans un répertoire spécifique :
 
 `git clone `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">emplacement_du_depot_distant</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/repertoire</span>
@@ -59,11 +55,11 @@ Plus d'informations : <https://git-scm.com/docs/git-clone>.
 
 - Clone un dépôt local :
 
-`git clone -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/depot/local</span>
+`git clone --local `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/depot/local</span>
 
 - Clone silencieusement :
 
-`git clone -q `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">emplacement_du_depot_distant</span>
+`git clone --quiet `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">emplacement_du_depot_distant</span>
 
 - Clone un dépôt existant en ne récupérant que les 10 commits les plus récents sur la branche par défaut (plus rapide) :
 

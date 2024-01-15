@@ -2,8 +2,8 @@
 layout: page
 title: common/cargo (français)
 description: "Gestion d'un projet Rust et ses dependences (crates)."
-content_hash: 22fef0ce6fa5250ec47afedc550e1e6ef2354614
-last_modified_at: 2023-11-12
+content_hash: e052e695528a1e0d6e7bb49d3ae873825f3ab3e0
+last_modified_at: 2024-01-15
 related_topics:
   - title: Deutsch version
     url: /de/common/cargo.html
@@ -49,17 +49,13 @@ Plus d'informations : <https://doc.rust-lang.org/cargo>.
 
 `cargo install --list`
 
-- Créer un nouveau binaire ou librairie du projet Rust dans le dossier courant :
+- Crée un nouveau binaire ou librairie du projet Rust dans les dossiers spécifiés (ou dans le dossier courant par défaut) :
 
-`cargo init --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bin|lib</span>
+`cargo init --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bin|lib</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/dossier</span>
 
-- Créer un nouveau binaire ou librairie du projet Rust dans un dossier spécifique :
+- Compile le projet Rust dans le dossier courant en utilisant le profil release :
 
-`cargo new `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chemin/vers/dossier</span>` --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bin|lib</span>
-
-- Compiler le projet Rust dans le dossier courant :
-
-`cargo build`
+`cargo build --release`
 
 - Compiler le projet Rust dans le dossier courant en utilisant le compilateur nightly :
 
