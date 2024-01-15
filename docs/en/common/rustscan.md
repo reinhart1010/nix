@@ -3,19 +3,10 @@ layout: page
 title: common/rustscan (English)
 description: "Fast Port Scanner written in Rust with `nmap` built in."
 content_hash: 6a86bba8c294c21a3c6c94d8e7e0dc7d907ea5b1
-last_modified_at: 2024-01-14
-tldri18n_status: 0
+last_modified_at: 2024-01-15
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/rustscan.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># rustscan
+# rustscan
 
 Fast Port Scanner written in Rust with `nmap` built in.
 More information: <https://github.com/RustScan/RustScan>.
