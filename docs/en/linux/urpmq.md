@@ -3,19 +3,10 @@ layout: page
 title: linux/urpmq (English)
 description: "Query information about packages and media in Mageia."
 content_hash: 577c1087accd11608db16d84439039be027233c0
-last_modified_at: 2024-01-15
-tldri18n_status: 0
+last_modified_at: 2024-01-16
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/urpmq.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># urpmq
+# urpmq
 
 Query information about packages and media in Mageia.
 See also: `urpmi`, `urpmi.update`, `urpmi.addmedia`, `urpmi.removemedia`, `urpmf`, `urpme`.

@@ -3,7 +3,7 @@ layout: page
 title: common/autoflake (한국어)
 description: "Python 코드에서 사용하지 않는 가져오기 및 변수를 제거하는 도구."
 content_hash: 24b1d4d532942c970fa3f09ef57a81401d087709
-last_modified_at: 2024-01-15
+last_modified_at: 2024-01-16
 related_topics:
   - title: English version
     url: /en/common/autoflake.html
@@ -23,18 +23,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/autoflake.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/autoflake.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># autoflake
+# autoflake
 
 Python 코드에서 사용하지 않는 가져오기 및 변수를 제거하는 도구.
 더 많은 정보: <https://github.com/myint/autoflake>.

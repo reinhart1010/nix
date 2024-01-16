@@ -3,19 +3,10 @@ layout: page
 title: linux/urpmi-addmedia (English)
 description: "Add media in Mageia."
 content_hash: f93f4e3af1450c986e642979f306429fc0087d27
-last_modified_at: 2024-01-15
-tldri18n_status: 0
+last_modified_at: 2024-01-16
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/urpmi-addmedia.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># urpmi.addmedia
+# urpmi.addmedia
 
 Add media in Mageia.
 NOTE: Mageia documentation uses medium and repository as synonymous.

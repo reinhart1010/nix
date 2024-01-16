@@ -3,7 +3,7 @@ layout: page
 title: osx/date (한국어)
 description: "시스템 날짜 설정 또는 표시."
 content_hash: 218fb3a3d84cf7343581de96c34e91ddc291c7b4
-last_modified_at: 2024-01-15
+last_modified_at: 2024-01-16
 related_topics:
   - title: English version
     url: /en/osx/date.html
@@ -20,18 +20,9 @@ related_topics:
   - title: 中文 version
     url: /zh/osx/date.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/osx/date.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># date
+# date
 
 시스템 날짜 설정 또는 표시.
 더 많은 정보: <https://ss64.com/osx/date.html>.

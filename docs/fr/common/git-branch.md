@@ -3,7 +3,7 @@ layout: page
 title: common/git-branch (français)
 description: "Commande Git principale pour travailler avec des branches."
 content_hash: 0313f8c27b71d46204498bb0f2c89884a0ccc06a
-last_modified_at: 2024-01-15
+last_modified_at: 2024-01-16
 related_topics:
   - title: Deutsch version
     url: /de/common/git-branch.html
@@ -29,9 +29,12 @@ related_topics:
   - title: Türkçe version
     url: /tr/common/git-branch.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# git branch
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git branch
 
 Commande Git principale pour travailler avec des branches.
 Plus d'informations : <https://git-scm.com/docs/git-branch>.

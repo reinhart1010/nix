@@ -3,19 +3,10 @@ layout: page
 title: freebsd/sockstat (English)
 description: "List open Internet or UNIX domain sockets."
 content_hash: 21297b369bcb64cca176a5883f690032488ce375
-last_modified_at: 2024-01-15
-tldri18n_status: 0
+last_modified_at: 2024-01-16
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/freebsd/sockstat.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># sockstat
+# sockstat
 
 List open Internet or UNIX domain sockets.
 More information: <https://man.freebsd.org/cgi/man.cgi?sockstat>.

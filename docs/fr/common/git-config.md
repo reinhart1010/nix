@@ -3,7 +3,7 @@ layout: page
 title: common/git-config (français)
 description: "Gérer les options de configuration personnalisées pour les référentiels Git."
 content_hash: 6731e547c9d80cfc2bdb179e1eeeb2dacfc0a475
-last_modified_at: 2024-01-15
+last_modified_at: 2024-01-16
 related_topics:
   - title: Deutsch version
     url: /de/common/git-config.html
@@ -29,9 +29,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/git-config.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# git config
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># git config
 
 Gérer les options de configuration personnalisées pour les référentiels Git.
 Ces configurations peuvent être locales (pour le référentiel courant) ou globales (pour l'utilisateur).

@@ -3,19 +3,10 @@ layout: page
 title: linux/urpme (English)
 description: "Uninstall packages in Mageia."
 content_hash: de2e25753319e058b12de3f4c38b410a370bea68
-last_modified_at: 2024-01-15
-tldri18n_status: 0
+last_modified_at: 2024-01-16
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/urpme.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># urpme
+# urpme
 
 Uninstall packages in Mageia.
 See also: `urpmi`, `urpmi.update`, `urpmi.addmedia`, `urpmi.removemedia`, `urpmf`, `urpmq`.

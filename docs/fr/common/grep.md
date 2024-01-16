@@ -3,7 +3,7 @@ layout: page
 title: common/grep (français)
 description: "Recherche des motifs dans un texte."
 content_hash: 0cd25dc846a56af1ff03654fc5dadb3cff1ad43e
-last_modified_at: 2024-01-15
+last_modified_at: 2024-01-16
 related_topics:
   - title: dansk version
     url: /da/common/grep.html
@@ -38,9 +38,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/grep.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# grep
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># grep
 
 Recherche des motifs dans un texte.
 Supporte des motifs simples et des expressions régulières.

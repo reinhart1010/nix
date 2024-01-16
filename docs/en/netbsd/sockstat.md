@@ -3,19 +3,10 @@ layout: page
 title: netbsd/sockstat (English)
 description: "List open Internet or UNIX domain sockets."
 content_hash: 85547ae0e7d09ff0ead91fcb916393b31ad5bd64
-last_modified_at: 2024-01-15
-tldri18n_status: 0
+last_modified_at: 2024-01-16
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/netbsd/sockstat.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># sockstat
+# sockstat
 
 List open Internet or UNIX domain sockets.
 Note: this program is a rewrite for NetBSD 3.0 from FreeBSD's `sockstat`.

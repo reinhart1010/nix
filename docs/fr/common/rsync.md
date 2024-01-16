@@ -3,7 +3,7 @@ layout: page
 title: common/rsync (français)
 description: "Transférer des fichiers vers ou depuis un hôte distant (pas entre deux hôtes distants)."
 content_hash: 55858e756546776537a7922d6cfd760cfa0ffd96
-last_modified_at: 2024-01-15
+last_modified_at: 2024-01-16
 related_topics:
   - title: English version
     url: /en/common/rsync.html
@@ -23,9 +23,12 @@ related_topics:
   - title: 中文 version
     url: /zh/common/rsync.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# rsync
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># rsync
 
 Transférer des fichiers vers ou depuis un hôte distant (pas entre deux hôtes distants).
 Peut transférer un ou plusieurs fichiers correspondant à un motif.

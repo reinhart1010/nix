@@ -3,19 +3,10 @@ layout: page
 title: common/kopia (English)
 description: "Fast, secure open-source backup tool."
 content_hash: bb9b4f41632c14afdd2b19ac8adccc1f35230d48
-last_modified_at: 2024-01-15
-tldri18n_status: 0
+last_modified_at: 2024-01-16
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/kopia.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># kopia
+# kopia
 
 Fast, secure open-source backup tool.
 Supports encryption, compression, deduplication, and incremental snapshots.

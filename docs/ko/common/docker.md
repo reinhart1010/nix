@@ -3,7 +3,7 @@ layout: page
 title: common/docker (한국어)
 description: "도커 컨테이너들과 이미지들을 관리한다."
 content_hash: 4f8fb14344085cd688fb295aa412def5daffe7ca
-last_modified_at: 2024-01-15
+last_modified_at: 2024-01-16
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -41,12 +41,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/docker.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docker
+# docker
 
 도커 컨테이너들과 이미지들을 관리한다.
 더 많은 정보: <https://docs.docker.com/engine/reference/commandline/cli/>.

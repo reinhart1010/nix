@@ -3,7 +3,7 @@ layout: page
 title: common/df (한국어)
 description: "파일 시스템 디스크 공간 사용량에 대한 개요를 표시."
 content_hash: b870d20f4598bef15d687e184ab11b4013356e39
-last_modified_at: 2024-01-15
+last_modified_at: 2024-01-16
 related_topics:
   - title: Deutsch version
     url: /de/common/df.html
@@ -35,12 +35,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/df.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># df
+# df
 
 파일 시스템 디스크 공간 사용량에 대한 개요를 표시.
 더 많은 정보: <https://manned.org/df.1posix>.
