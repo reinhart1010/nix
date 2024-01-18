@@ -2,8 +2,8 @@
 layout: page
 title: linux/cp (English)
 description: "Copy files and directories."
-content_hash: edce8d980abb1024e99d98d246bc05da7ca8062c
-last_modified_at: 2023-11-12
+content_hash: f9b39cb98895efe009821711f46767a5292c7ae5
+last_modified_at: 2024-01-18
 related_topics:
   - title: català version
     url: /ca/linux/cp.html
@@ -68,9 +68,9 @@ More information: <https://www.gnu.org/software/coreutils/cp>.
 
 `cp -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/destination_directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
-- Copy text files to another location, in interactive mode (prompts user before overwriting):
+- Copy all files with a specific extension to another location, in interactive mode (prompts user before overwriting):
 
-`cp -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target_directory</span>
+`cp -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.ext</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target_directory</span>
 
 - Follow symbolic links before copying:
 
