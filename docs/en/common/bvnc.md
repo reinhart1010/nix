@@ -2,15 +2,15 @@
 layout: page
 title: common/bvnc (English)
 description: "A GUI tool for browsing for SSH/VNC servers on the local network."
-content_hash: c68c4d97274e796efeb51fca8beeb103a998beb5
-last_modified_at: 2023-11-12
+content_hash: 03153f239789764e71d8bfb0c0dbf99c274e951d
+last_modified_at: 2024-01-20
 tldri18n_status: 2
 ---
 # bvnc
 
 A GUI tool for browsing for SSH/VNC servers on the local network.
 See also: `bssh` and `bshell`.
-More information: <https://linux.extremeoverclocking.com/man/1/bssh>.
+More information: <https://manned.org/bvnc>.
 
 - Browse for VNC servers:
 

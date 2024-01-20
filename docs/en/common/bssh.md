@@ -2,15 +2,15 @@
 layout: page
 title: common/bssh (English)
 description: "A GUI tool for browsing for SSH/VNC servers on the local network."
-content_hash: 9d9c093549654eda0edd0a628343f971b2517914
-last_modified_at: 2023-11-12
+content_hash: 20691ca16d8802d2b9eb9f92515653e246a4d831
+last_modified_at: 2024-01-20
 tldri18n_status: 2
 ---
 # bssh
 
 A GUI tool for browsing for SSH/VNC servers on the local network.
 See also: `bvnc` and `bshell`.
-More information: <https://linux.extremeoverclocking.com/man/1/bssh>.
+More information: <https://manned.org/bssh>.
 
 - Browse for SSH servers:
 

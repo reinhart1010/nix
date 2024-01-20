@@ -2,14 +2,21 @@
 layout: page
 title: common/boxes (English)
 description: "Draw, remove, and repair ASCII art boxes."
-content_hash: 58956e07f54e9f3f2c8827cab0b5b57474666265
-last_modified_at: 2023-11-12
+content_hash: acc86b635d88a7090e9f9562556c5c683868371a
+last_modified_at: 2024-01-20
+related_topics:
+  - title: فارسی version
+    url: /fa/common/boxes.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/common/boxes.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # boxes
 
 Draw, remove, and repair ASCII art boxes.
-More information: <https://boxes.thomasjensen.com>.
+More information: <https://boxes.thomasjensen.com/boxes-man-1.html>.
 
 - Draw a box around a string:
 
