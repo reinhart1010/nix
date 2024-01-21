@@ -3,7 +3,7 @@ layout: page
 title: common/helix (中文)
 description: "Helix, 一个后现代的文本编辑器，为不同类型的文本操纵提供了几种模式。"
 content_hash: baabda51e60fe6b8c9c68699a6de0dc868b8a2ef
-last_modified_at: 2024-01-20
+last_modified_at: 2024-01-21
 related_topics:
   - title: English version
     url: /en/common/helix.html
@@ -11,18 +11,9 @@ related_topics:
   - title: Nederlands version
     url: /nl/common/helix.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/helix.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># helix
+# helix
 
 Helix, 一个后现代的文本编辑器，为不同类型的文本操纵提供了几种模式。
 按 `i` 进入插入模式。按 `<Esc>` 进入正常模式，并且可以使用 Helix 命令。
