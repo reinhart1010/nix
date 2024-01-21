@@ -2,18 +2,21 @@
 layout: page
 title: common/boxes (한국어)
 description: "ASCII 아트 상자 그리기, 제거 및 복구"
-content_hash: 47b8a46fb02fa0655989cbe482f32da32842b33b
-last_modified_at: 2023-11-28
+content_hash: 1c932c57ca1d125b5933ee50cbbf7df1481635df
+last_modified_at: 2024-01-21
 related_topics:
   - title: English version
     url: /en/common/boxes.html
+    icon: bi bi-globe
+  - title: فارسی version
+    url: /fa/common/boxes.html
     icon: bi bi-globe
 tldri18n_status: 2
 ---
 # boxes
 
 ASCII 아트 상자 그리기, 제거 및 복구
-더 많은 정보: <https://boxes.thomasjensen.com>.
+더 많은 정보: <https://boxes.thomasjensen.com/boxes-man-1.html>.
 
 - 문자열 주위에 상자 그리기:
 

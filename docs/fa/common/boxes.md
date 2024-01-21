@@ -2,8 +2,8 @@
 layout: page
 title: common/boxes (فارسی)
 description: "کشیدن، حذف و تعمیر جعبه های هنری اسکی."
-content_hash: 6ad1447eeebd1c1c220cea2bd9e34086a01b56b2
-last_modified_at: 2024-01-08
+content_hash: 458ea0b0b563524ca22cada0c5f725148e3944e3
+last_modified_at: 2024-01-21
 related_topics:
   - title: English version
     url: /en/common/boxes.html
@@ -16,7 +16,7 @@ tldri18n_status: 2
 # boxes
 
 کشیدن، حذف و تعمیر جعبه های هنری اسکی.
-اطلاعات بیشتر: <https://boxes.thomasjensen.com>.
+اطلاعات بیشتر: <https://boxes.thomasjensen.com/boxes-man-1.html>.
 
 - کشیدن یک جعبه در اطراف یک رشته:
 
