@@ -2,8 +2,8 @@
 layout: page
 title: linux/backlight_control (English)
 description: "Control a linux machine's backlight using percentage values."
-content_hash: d7b71a56b39269026d3894fd7f50689650c80a8e
-last_modified_at: 2023-11-12
+content_hash: edf13fd4ef3bff231f00d50bdd51a73955f85e96
+last_modified_at: 2024-01-21
 related_topics:
   - title: हिन्दी version
     url: /hi/linux/backlight_control.html
@@ -23,6 +23,6 @@ More information: <https://github.com/Hendrikto/backlight_control>.
 
 `backlight_control `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">90</span>
 
-- Print the help:
+- Display help:
 
 `backlight_control`
