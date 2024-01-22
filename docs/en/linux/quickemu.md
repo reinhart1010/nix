@@ -3,19 +3,10 @@ layout: page
 title: linux/quickemu (English)
 description: "Build and manage highly optimised desktop virtual machines quickly."
 content_hash: e107f016bbd569ec68da21703f0819c4e1fc10ea
-last_modified_at: 2024-01-21
-tldri18n_status: 0
+last_modified_at: 2024-01-22
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/linux/quickemu.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># quickemu
+# quickemu
 
 Build and manage highly optimised desktop virtual machines quickly.
 See also: `quickget`, for preparing VM configurations.
