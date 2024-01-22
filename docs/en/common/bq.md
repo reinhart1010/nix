@@ -2,8 +2,8 @@
 layout: page
 title: common/bq (English)
 description: "A Python-based tool for BigQuery."
-content_hash: e0d08e2742ce91340a357ac43edb7af0407def93
-last_modified_at: 2023-11-15
+content_hash: ed27f398a96156a6aa59162f490780ee53b75ab6
+last_modified_at: 2024-01-22
 tldri18n_status: 2
 ---
 # bq
@@ -35,6 +35,6 @@ More information: <https://cloud.google.com/bigquery/docs/reference/bq-cli-refer
 
 `bq cp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dataset</span>`.`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">OLD_TABLE</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">dataset</span>`.`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">new_table</span>
 
-- Print help:
+- Display help:
 
 `bq help`

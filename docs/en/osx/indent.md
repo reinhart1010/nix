@@ -2,8 +2,8 @@
 layout: page
 title: osx/indent (English)
 description: "Change the appearance of a C/C++ program by inserting or deleting whitespace."
-content_hash: ccacf5f55e15436e7a1625d215576ddfb48b5a0d
-last_modified_at: 2023-11-12
+content_hash: 58bfc3007e684cf8ef6d1350666e1481126cd915
+last_modified_at: 2024-01-22
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/osx/indent.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # indent
 
 Change the appearance of a C/C++ program by inserting or deleting whitespace.
-More information: <https://www.freebsd.org/cgi/man.cgi?query=indent>.
+More information: <https://keith.github.io/xcode-man-pages/indent.1.html>.
 
 - Format C/C++ source according to the Berkeley style:
 
