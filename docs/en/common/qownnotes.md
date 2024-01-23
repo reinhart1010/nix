@@ -2,14 +2,15 @@
 layout: page
 title: common/qownnotes (English)
 description: "Markdown note-taking application."
-content_hash: 975f937033bcc5b465c4c30333b9ad8c3b69c911
-last_modified_at: 2024-01-21
+content_hash: eef0e6ffc1a8c18a93d4e558bb6d5b9a778c9d33
+last_modified_at: 2024-01-23
 tldri18n_status: 2
 ---
 # qownnotes
 
 Markdown note-taking application.
 Optionally integrates with the note-taking applications of Nextcloud and ownCloud.
+See also: `qc`, for managing command snippets.
 More information: <https://www.qownnotes.org/getting-started/cli-parameters.html>.
 
 - Run in portable mode:
