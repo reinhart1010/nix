@@ -2,8 +2,8 @@
 layout: page
 title: common/minetestserver (English)
 description: "Multiplayer infinite-world block sandbox server."
-content_hash: b5b791b189b5de32740785ff2e61b1e3ea3a5610
-last_modified_at: 2023-11-12
+content_hash: 5f05f81f647c96f4ca707f1b912083f6f9cdca1e
+last_modified_at: 2024-01-24
 related_topics:
   - title: Türkçe version
     url: /tr/common/minetestserver.html
@@ -24,7 +24,7 @@ More information: <https://wiki.minetest.net/Setting_up_a_server>.
 
 `minetestserver --world list`
 
-- Specify the world name to load:
+- Load the specified world:
 
 `minetestserver --world `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">world_name</span>
 
@@ -32,7 +32,7 @@ More information: <https://wiki.minetest.net/Setting_up_a_server>.
 
 `minetestserver --gameid list`
 
-- Specify a game to use:
+- Use the specified game:
 
 `minetestserver --gameid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">game_id</span>
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/uvcdynctrl (English)
 description: "A libwebcam command-line tool to manage dynamic controls in uvcvideo."
-content_hash: c3a7880ca0d08645337933285dccdb2b4360ecf9
-last_modified_at: 2023-11-12
+content_hash: 08b69a4da2a3b56c63a449b1af868aefde7758c0
+last_modified_at: 2024-01-24
 tldri18n_status: 2
 ---
 # uvcdynctrl
@@ -15,7 +15,7 @@ More information: <https://manned.org/uvcdynctrl>.
 
 `uvcdynctrl -l`
 
-- Specify the device to use (defaults to `video0`):
+- Use a specific device (defaults to `video0`):
 
 `uvcdynctrl -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">device_name</span>
 

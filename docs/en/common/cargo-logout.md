@@ -2,8 +2,8 @@
 layout: page
 title: common/cargo-logout (English)
 description: "Remove an API token from the registry locally."
-content_hash: 5c67fa614438c2e571c71e77b16d43375bc73511
-last_modified_at: 2023-11-12
+content_hash: a2d35d900a869fa2ede19214d50a48e70145aa29
+last_modified_at: 2024-01-24
 tldri18n_status: 2
 ---
 # cargo logout
@@ -16,6 +16,6 @@ More information: <https://doc.rust-lang.org/cargo/commands/cargo-logout.html>.
 
 `cargo logout`
 
-- Specify the name of the registry to use (registry names can be defined in the config - the default is <https://crates.io>):
+- Use the specified registry (registry names can be defined in the config - the default is <https://crates.io>):
 
 `cargo logout --registry `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>

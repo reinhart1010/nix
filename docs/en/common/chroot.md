@@ -2,8 +2,8 @@
 layout: page
 title: common/chroot (English)
 description: "Run command or interactive shell with special root directory."
-content_hash: 3452e81acd9235f247e74ccbc2cfb0656c44fd84
-last_modified_at: 2023-11-12
+content_hash: c9d7c87c9c7fb6eda1bbdfcc5107fb7e40ea7111
+last_modified_at: 2024-01-24
 related_topics:
   - title: Deutsch version
     url: /de/common/chroot.html
@@ -34,6 +34,6 @@ More information: <https://www.gnu.org/software/coreutils/chroot>.
 
 `chroot `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/new/root</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
-- Specify user and group (ID or name) to use:
+- Use a specific user and group:
 
-`chroot --userspec=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user:group</span>
+`chroot --userspec=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username_or_id:group_name_or_id</span>

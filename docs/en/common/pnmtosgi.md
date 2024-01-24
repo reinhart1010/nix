@@ -2,8 +2,8 @@
 layout: page
 title: common/pnmtosgi (English)
 description: "Convert a PNM file to an SGI image file."
-content_hash: fd1244a98b8980b84a43de3b0277e489d3a297bd
-last_modified_at: 2023-11-26
+content_hash: 4d47c0d85b6c98e59edefb9d024ca464ed360319
+last_modified_at: 2024-01-24
 tldri18n_status: 2
 ---
 # pnmtosgi
@@ -15,7 +15,7 @@ More information: <https://netpbm.sourceforge.net/doc/pnmtosgi.html>.
 
 `pnmtosgi `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pnm</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.sgi</span>
 
-- Specify whether or not compression should be used:
+- Disable or enable compression:
 
 `pnmtosgi -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">verbatim|rle</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.pnm</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.sgi</span>
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/inkmake (English)
 description: "GNU Makefile-style SVG exporting using Inkscape's backend."
-content_hash: 225646a433854b2c4df72135a5098a0b8479d6b2
-last_modified_at: 2023-11-12
+content_hash: 6f25a83f7a2a5597617cb50cfac589b478cf0e6e
+last_modified_at: 2024-01-24
 tldri18n_status: 2
 ---
 # inkmake
@@ -23,7 +23,7 @@ More information: <https://github.com/wader/inkmake>.
 
 `inkmake --svg `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.svg</span>` --out `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_image</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/Inkfile</span>
 
-- Specify a custom Inkscape binary to use as the backend:
+- Use a custom Inkscape binary as the backend:
 
 `inkmake --inkscape `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/Applications/Inkscape.app/Contents/Resources/bin/inkscape</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/Inkfile</span>
 

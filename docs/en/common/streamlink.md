@@ -2,8 +2,8 @@
 layout: page
 title: common/streamlink (English)
 description: "Extracts streams from various services and pipes them into a video player of choice."
-content_hash: 8066be5a06ed2f6c8fa8878062db8316c495b427
-last_modified_at: 2023-11-12
+content_hash: 31a996dde4cf7fc033037eec16cea9662a3ec6ec
+last_modified_at: 2024-01-24
 tldri18n_status: 2
 ---
 # streamlink
@@ -23,7 +23,7 @@ More information: <https://streamlink.github.io>.
 
 `streamlink `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com/stream</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">best|worst</span>
 
-- Specify which player to use to feed stream data to (VLC is used by default if found):
+- Use a specific player to feed stream data to (VLC is used by default if found):
 
 `streamlink --player=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mpv</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com/stream</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">best</span>
 

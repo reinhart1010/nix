@@ -2,8 +2,8 @@
 layout: page
 title: common/cargo-owner (English)
 description: "Manage the owners of a crate on the registry."
-content_hash: 970436ec1d6fdbd9ccdef8c9c5c4a3d209cc4c66
-last_modified_at: 2023-11-12
+content_hash: d636f845a9dbcad44797a39f63a7ecef19742199
+last_modified_at: 2024-01-24
 tldri18n_status: 2
 ---
 # cargo owner
@@ -23,6 +23,6 @@ More information: <https://doc.rust-lang.org/cargo/commands/cargo-owner.html>.
 
 `cargo owner --list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">crate</span>
 
-- Specify the name of the registry to use (registry names can be defined in the config - the default is <https://crates.io>):
+- Use the specified registry (registry names can be defined in the config - the default is <https://crates.io>):
 
 `cargo owner --registry `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>

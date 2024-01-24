@@ -2,8 +2,8 @@
 layout: page
 title: common/flite (English)
 description: "Speech synthesis engine."
-content_hash: 4c07b96630989a705407e276a53b82046ea379db
-last_modified_at: 2023-11-12
+content_hash: 165dd0335a2ca64f488de4d7f8a250589925f720
+last_modified_at: 2024-01-24
 tldri18n_status: 2
 ---
 # flite
@@ -23,7 +23,7 @@ More information: <http://www.festvox.org/flite/doc/>.
 
 `flite -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.txt</span>
 
-- Specify which voice to use:
+- Use the specified voice:
 
 `flite -voice `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file://path/to/filename.flitevox|url</span>
 

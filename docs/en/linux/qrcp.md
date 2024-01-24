@@ -2,8 +2,8 @@
 layout: page
 title: linux/qrcp (English)
 description: "A file transfer tool."
-content_hash: b3a864596ba90899da0eb4a95e59588d1ffb4c80
-last_modified_at: 2023-11-12
+content_hash: 65fa21b8576fab583952c34b73140a00308abedb
+last_modified_at: 2024-01-24
 tldri18n_status: 2
 ---
 # qrcp
@@ -23,11 +23,11 @@ More information: <https://github.com/claudiodangelis/qrcp>.
 
 `qrcp send --zip `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
 
-- Specify a [p]ort to use:
+- Use a specific [p]ort:
 
 `qrcp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">send|receive</span>` --port `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port_number</span>
 
-- Specify the network [i]nterface to use:
+- Use a specific network [i]nterface:
 
 `qrcp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">send|receive</span>` --interface interface`
 

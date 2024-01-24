@@ -2,8 +2,8 @@
 layout: page
 title: common/cargo-yank (English)
 description: "Remove a pushed crate from the index. This should only be used when you accidentally release a significantly broken crate."
-content_hash: 0a366101b3b3b0fb7a46b69cefb15eedcb089f9d
-last_modified_at: 2023-11-12
+content_hash: eee04ac9272a479ce0e61efaeec5744fb397c5bb
+last_modified_at: 2024-01-24
 tldri18n_status: 2
 ---
 # cargo yank
@@ -20,6 +20,6 @@ More information: <https://doc.rust-lang.org/cargo/commands/cargo-yank.html>.
 
 `cargo yank --undo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">crate</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span>
 
-- Specify the name of the registry to use (registry names can be defined in the config - the default is <https://crates.io>):
+- Use the specified registry (registry names can be defined in the config - the default is <https://crates.io>):
 
 `cargo yank --registry `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">crate</span>`@`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version</span>
