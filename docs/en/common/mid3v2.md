@@ -2,8 +2,8 @@
 layout: page
 title: common/mid3v2 (English)
 description: "Edit audio tags."
-content_hash: d2778d964c1a68464457f8f590a20ab50070a399
-last_modified_at: 2023-11-12
+content_hash: 56041e580aaf88eca92d753d75621f262aa5ce04
+last_modified_at: 2024-01-24
 related_topics:
   - title: español version
     url: /es/common/mid3v2.html
@@ -14,7 +14,7 @@ tldri18n_status: 2
 
 Edit audio tags.
 See also: `id3v2`.
-More information: <https://manned.org/mid3v2.1>.
+More information: <https://mutagen.readthedocs.io/en/latest/man/mid3v2.html>.
 
 - List all supported ID3v2.3 or ID3v2.4 frames and their meanings:
 

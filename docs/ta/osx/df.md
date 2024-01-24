@@ -1,0 +1,56 @@
+---
+layout: page
+title: osx/df (தமிழ்)
+description: "கோப்பு முறைமை வட்டு இட பயன்பாட்டின் மேலோட்டத்தைக் காண்பி."
+content_hash: 1e0695cf814beacc28fd78738d3f21b4a273646f
+last_modified_at: 2024-01-24
+related_topics:
+  - title: English version
+    url: /en/osx/df.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/osx/df.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/osx/df.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># df
+
+கோப்பு முறைமை வட்டு இட பயன்பாட்டின் மேலோட்டத்தைக் காண்பி.
+மேலும் விவரத்திற்கு: <https://keith.github.io/xcode-man-pages/df.1.html>.
+
+- 512-பைட் அலகுகளைப் பயன்படுத்தி அனைத்து கோப்பு முறைமைகளையும் அவற்றின் வட்டு பயன்பாட்டையும் காண்பிக்கவும்:
+
+`df`
+
+- மனிதனால் [h] படிக்கக்கூடிய அலகுகளைப் பயன்படுத்தவும் (1024 இன் சக்திகளின் அடிப்படையில்) மற்றும் ஒரு பெரிய மொத்தத்தைக் காட்டவும்:
+
+`df -h -c`
+
+- மனிதர்கள் [H] படிக்கக்கூடிய அலகுகளைப் பயன்படுத்தவும் (1000 இன் சக்திகளின் அடிப்படையில்):
+
+`df -`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-si|H</span>
+
+- கொடுக்கப்பட்ட கோப்பு அல்லது கோப்பகத்தைக் கொண்ட கோப்பு முறைமை மற்றும் அதன் வட்டு பயன்பாட்டைக் காண்பி:
+
+`df `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு_அல்லது_அடைவு/பாதை</span>
+
+- கோப்பு முறைமை வகைகள் [Y] உட்பட இலவச மற்றும் பயன்படுத்தப்பட்ட [i]நோட்களின் எண்ணிக்கை பற்றிய புள்ளிவிவரங்களைச் சேர்க்கவும்:
+
+`df -iY`
+
+- விண்வெளி புள்ளிவிவரங்களை எழுதும் போது 1024-பைட் அலகுகளைப் பயன்படுத்தவும்:
+
+`df -k`
+
+- ஒரு சிறிய [P] வழியில் தகவலைக் காண்பி:
+
+`df -P`

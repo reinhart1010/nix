@@ -1,0 +1,48 @@
+---
+layout: page
+title: linux/df (தமிழ்)
+description: "கோப்பு முறைமை வட்டு இட உபயோகத்தின் மேலோட்டத்தை அளிக்கிறது."
+content_hash: 70bff38005d38538a8c00220edfdc39e52b77d1f
+last_modified_at: 2024-01-24
+related_topics:
+  - title: English version
+    url: /en/linux/df.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/df.html
+    icon: bi bi-globe
+tldri18n_status: 0
+---
+
+### Outdated Translation
+This entry is currently considered outdated and its contents may not be up-to-date with other translations.
+
+Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
+
+<a class="btn btn-primary" href="{{ site.url }}/en/linux/df.html">View original (English) version</a>
+<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
+
+<hr># df
+
+கோப்பு முறைமை வட்டு இட உபயோகத்தின் மேலோட்டத்தை அளிக்கிறது.
+மேலும் விவரத்திற்கு: <https://www.gnu.org/software/coreutils/df>.
+
+- அனைத்து கோப்பு முறைமைகளையும் அவற்றின் வட்டு பயன்பாட்டையும் காண்பி:
+
+`df`
+
+- அனைத்து கோப்பு முறைமைகளையும் அவற்றின் வட்டு பயன்பாட்டையும் மனிதர்கள் படிக்கக்கூடிய வடிவத்தில் காண்பி:
+
+`df -h`
+
+- கொடுக்கப்பட்ட கோப்பு அல்லது கோப்பகத்தைக் கொண்ட கோப்பு முறைமை மற்றும் அதன் வட்டு பயன்பாட்டைக் காண்பி:
+
+`df `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு_அல்லது_அடைவு/பாதை</span>
+
+- இலவச ஐனோட்களின் எண்ணிக்கையில் புள்ளிவிவரங்களைக் காண்பி:
+
+`df -i`
+
+- கோப்பு முறைமைகளைக் காண்பி ஆனால் குறிப்பிட்ட வகைகளை விலக்கவும்:
+
+`df -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">squashfs</span>` -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tmpfs</span>

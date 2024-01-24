@@ -2,8 +2,8 @@
 layout: page
 title: common/df (தமிழ்)
 description: "கோப்பு முறைமை வட்டு இட உபயோகத்தின் மேலோட்டத்தை அளிக்கிறது."
-content_hash: 1fe52a68b31f746658bc0d62689b15fb21db9ca3
-last_modified_at: 2024-01-09
+content_hash: ee218c182538862387223a35dc960aaf1e94bbe6
+last_modified_at: 2024-01-24
 related_topics:
   - title: Deutsch version
     url: /de/common/df.html
@@ -45,22 +45,18 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 கோப்பு முறைமை வட்டு இட உபயோகத்தின் மேலோட்டத்தை அளிக்கிறது.
 மேலும் விவரத்திற்கு: <https://manned.org/df.1posix>.
 
-- அனைத்து கோப்பு முறைமைகளையும் அவற்றின் வட்டு பயன்பாட்டையும் காண்பி:
+- 512-பைட் அலகுகளைப் பயன்படுத்தி அனைத்து கோப்பு முறைமைகளையும் அவற்றின் வட்டு பயன்பாட்டையும் காண்பிக்கவும்:
 
 `df`
-
-- அனைத்து கோப்பு முறைமைகளையும் அவற்றின் வட்டு பயன்பாட்டையும் மனிதர்கள் படிக்கக்கூடிய வடிவத்தில் காண்பி:
-
-`df -h`
 
 - கொடுக்கப்பட்ட கோப்பு அல்லது கோப்பகத்தைக் கொண்ட கோப்பு முறைமை மற்றும் அதன் வட்டு பயன்பாட்டைக் காண்பி:
 
 `df `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு_அல்லது_அடைவு/பாதை</span>
 
-- இலவச ஐனோட்களின் எண்ணிக்கையில் புள்ளிவிவரங்களைக் காண்பி:
+- விண்வெளி புள்ளிவிவரங்களை எழுதும் போது 1024-பைட் அலகுகளைப் பயன்படுத்தவும்:
 
-`df -i`
+`df -k`
 
-- கோப்பு முறைமைகளைக் காண்பி ஆனால் குறிப்பிட்ட வகைகளை விலக்கவும்:
+- ஒரு சிறிய வழியில் தகவலைக் காண்பி:
 
-`df -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">squashfs</span>` -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tmpfs</span>
+`df -P`

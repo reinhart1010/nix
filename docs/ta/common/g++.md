@@ -2,8 +2,8 @@
 layout: page
 title: common/g++ (தமிழ்)
 description: "C++ மூலக் கோப்புகளைத் தொகுக்கிறது."
-content_hash: 9a006aec9c45075b78ed4b9d1a57bd06a978d99f
-last_modified_at: 2023-12-03
+content_hash: 15b7c1836752e8ab1480fcbac504ae113eaf481b
+last_modified_at: 2024-01-24
 related_topics:
   - title: Deutsch version
     url: /de/common/g++.html
@@ -50,6 +50,10 @@ GCC இன் பகுதி (GNU கம்பைலர் சேகரிப�
 - பல மூலக் குறியீடு கோப்புகளை ஒரு இயங்கக்கூடிய பைனரியில் தொகுத்து இணைக்கவும்:
 
 `g++ -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">மூலம்_1.cpp/பாதை மூலம்_2.cpp/பாதை ...</span>` && g++ -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">வெளியீடு_செயல்படுத்தக்கூடியது/பாதை</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">மூலம்_1.o/பாதை மூலம்_2.o/பாதை ...</span>
+
+- செயல்திறனுக்காக தொகுக்கப்பட்ட நிரலை மேம்படுத்தவும்:
+
+`g++ `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">மூலம்.cpp/பாதை</span>` -O`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1|2|3|fast</span>` -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">வெளியீடு_இயங்கக்கூடியது/பாதை</span>
 
 - பதிப்பைக் காட்டு:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/ab (தமிழ்)
 description: "அப்பாச்சி HTTP சர்வர் தரப்படுத்தல் கருவி."
-content_hash: 6f8077b2f24b1ede1f08f1a2ae00fddb392a714b
-last_modified_at: 2024-01-01
+content_hash: b4445dc3bc86b1543a8194ef06becfb07c8774e5
+last_modified_at: 2024-01-24
 related_topics:
   - title: বাংলা version
     url: /bn/common/ab.html
@@ -76,3 +76,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 - தரப்படுத்தலுக்கு செலவிட வேண்டிய அதிகபட்ச வினாடிகளை அமைக்கவும்:
 
 `ab -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">60</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">முகவரி</span>
+
+- முடிவுகளை ஒரு CSV கோப்பில் எழுதவும்:
+
+`ab -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">கோப்பு.csv/பாதை</span>

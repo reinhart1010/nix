@@ -2,8 +2,8 @@
 layout: page
 title: common/ls (தமிழ்)
 description: "அடைவு உள்ளடக்கத்தைப் பட்டியலிடு."
-content_hash: 29fd80414c08129db8bc9db4a35741dd1fb081e4
-last_modified_at: 2023-11-12
+content_hash: bfea58868eef235f0b3cbd59bd3130d12cc4ee01
+last_modified_at: 2024-01-24
 related_topics:
   - title: català version
     url: /ca/common/ls.html
@@ -86,9 +86,9 @@ tldri18n_status: 2
 
 `ls -lh`
 
-- கோப்பளவால் இறங்குமுகமாக வரிசைப்படுத்தப்பட்ட முழு விவரப் பட்டியல்:
+- நீண்ட வடிவமைப்பு பட்டியல் அளவின்படி (இறங்கும்) மீண்டும் மீண்டும் வரிசைப்படுத்தப்பட்டது:
 
-`ls -lS`
+`ls -lSR`
 
 - மாற்றமைத்தத் தேதியால் காலவரிசைப்படுத்தப்பட்ட (பழையதிலிருந்துத் துவங்கி) முழு விவரப் பட்டியல்:
 
