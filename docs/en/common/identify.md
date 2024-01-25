@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/identify (English)
-description: "Describe the format and characteristics of one or more image files."
-content_hash: f87b7ee2cfbadb41a48fa0c6b697018186b26761
-last_modified_at: 2023-11-12
+description: "Describe the format and characteristics of image files."
+content_hash: 5b58740dd676b30738d0ae0376170e9046d43a84
+last_modified_at: 2024-01-25
 tldri18n_status: 2
 ---
 # identify
 
-Describe the format and characteristics of one or more image files.
+Describe the format and characteristics of image files.
 Part of ImageMagick.
 More information: <https://imagemagick.org/script/identify.php>.
 

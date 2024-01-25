@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/mkfile (English)
-description: "Create one or more empty files of any size."
-content_hash: ad6b829abab1a33a913a668b9c5451f6998a9d20
-last_modified_at: 2023-11-12
+description: "Create empty files of any size."
+content_hash: 08d42e8da4861264231f4ce127f4aa8c5cd135cc
+last_modified_at: 2024-01-25
 related_topics:
   - title: 中文 version
     url: /zh/common/mkfile.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # mkfile
 
-Create one or more empty files of any size.
+Create empty files of any size.
 More information: <https://manned.org/mkfile>.
 
 - Create an empty file of 15 kilobytes:

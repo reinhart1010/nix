@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/renice (English)
-description: "Alter the scheduling priority/niceness of one or more running processes."
-content_hash: 3ea1d4fa7bca9684a484248a50b03d1230367dd3
-last_modified_at: 2024-01-10
+description: "Alter the scheduling priority/niceness of running processes."
+content_hash: 273110bbbf07ef9b1ae3d0904cc63aaaf502b7d9
+last_modified_at: 2024-01-25
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/renice.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # renice
 
-Alter the scheduling priority/niceness of one or more running processes.
+Alter the scheduling priority/niceness of running processes.
 Niceness values range from -20 (most favorable to the process) to 19 (least favorable to the process).
 See also: `nice`.
 More information: <https://manned.org/renice>.

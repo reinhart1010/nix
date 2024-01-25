@@ -1,14 +1,21 @@
 ---
 layout: page
 title: common/docker-rm (English)
-description: "Remove one or more containers."
-content_hash: e04ec76e81508afc6245a4189bf08b77796abf67
-last_modified_at: 2023-11-12
+description: "Remove containers."
+content_hash: 6c448d7f1a218f61af0f82ab78fbc408f73d07fc
+last_modified_at: 2024-01-25
+related_topics:
+  - title: français version
+    url: /fr/common/docker-rm.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/docker-rm.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # docker rm
 
-Remove one or more containers.
+Remove containers.
 More information: <https://docs.docker.com/engine/reference/commandline/rm>.
 
 - Remove containers:

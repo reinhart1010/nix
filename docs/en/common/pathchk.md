@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/pathchk (English)
-description: "Check the validity and portability of one or more pathnames."
-content_hash: 4057a8665d838a1807a5c1eb42570a80e71ec948
-last_modified_at: 2023-11-12
+description: "Check the validity and portability of pathnames."
+content_hash: 7a7408d56921ddfb1806d49f99c8d0a12f0ed0dc
+last_modified_at: 2024-01-25
 related_topics:
   - title: polski version
     url: /pl/common/pathchk.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # pathchk
 
-Check the validity and portability of one or more pathnames.
+Check the validity and portability of pathnames.
 More information: <https://www.gnu.org/software/coreutils/pathchk>.
 
 - Check pathnames for validity in the current system:

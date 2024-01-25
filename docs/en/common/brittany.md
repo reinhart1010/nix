@@ -2,8 +2,8 @@
 layout: page
 title: common/brittany (English)
 description: "Pretty-print Haskell source files."
-content_hash: 4f8c981b2197bd7db97fdfa3c9dc3652e6d71e60
-last_modified_at: 2023-11-12
+content_hash: 40ee94e348f62a2a9b225c00bb4ab0d53c8fe7e0
+last_modified_at: 2024-01-25
 tldri18n_status: 2
 ---
 # brittany
@@ -27,6 +27,6 @@ More information: <https://github.com/lspitzner/brittany#readme>.
 
 `brittany --indent `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span>` --columns `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">100</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.hs</span>
 
-- Format a Haskell source file according to the style defined in the specified config file:
+- Format a Haskell source file according to the style defined in the specified configuration file:
 
 `brittany --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config.yaml</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.hs</span>

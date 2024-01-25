@@ -2,8 +2,8 @@
 layout: page
 title: common/git-commit (English)
 description: "Commit files to the repository."
-content_hash: 8fdd86a74309fc2607f0841f908814332e071c98
-last_modified_at: 2023-11-12
+content_hash: 03015682dc9eb11bb9c968398cff9a07194b194a
+last_modified_at: 2024-01-25
 related_topics:
   - title: Deutsch version
     url: /de/common/git-commit.html
@@ -54,7 +54,7 @@ More information: <https://git-scm.com/docs/git-commit>.
 
 `git commit --all --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span>`"`
 
-- Commit staged files and sign them with the specified GPG key (or the one defined in the config file if no argument is specified):
+- Commit staged files and sign them with the specified GPG key (or the one defined in the configuration file if no argument is specified):
 
 `git commit --gpg-sign `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_id</span>` --message "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">message</span>`"`
 

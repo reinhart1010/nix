@@ -2,8 +2,8 @@
 layout: page
 title: common/git-mergetool (English)
 description: "Run merge conflict resolution tools to resolve merge conflicts."
-content_hash: b7d3f42b6028080be241f572794234fc2ea3292f
-last_modified_at: 2023-11-12
+content_hash: 5702bd3748031993044754786a2af0f95d27b2ca
+last_modified_at: 2024-01-25
 related_topics:
   - title: français version
     url: /fr/common/git-mergetool.html
@@ -34,10 +34,10 @@ More information: <https://git-scm.com/docs/git-mergetool>.
 
 `git mergetool --no-prompt`
 
-- Explicitly use the GUI merge tool (see the `merge.guitool` config variable):
+- Explicitly use the GUI merge tool (see the `merge.guitool` configuration variable):
 
 `git mergetool --gui`
 
-- Explicitly use the regular merge tool (see the `merge.tool` config variable):
+- Explicitly use the regular merge tool (see the `merge.tool` configuration variable):
 
 `git mergetool --no-gui`

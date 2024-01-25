@@ -2,8 +2,8 @@
 layout: page
 title: common/ss-local (English)
 description: "Run a Shadowsocks client as a SOCKS5 proxy."
-content_hash: ceb9ea1f19c09191ebc6b0247ab07b67c4a0aae5
-last_modified_at: 2023-11-12
+content_hash: ee34178d6b485741705eb2a64665bb55c7d3ff9a
+last_modified_at: 2024-01-25
 tldri18n_status: 2
 ---
 # ss-local
@@ -15,7 +15,7 @@ More information: <https://github.com/shadowsocks/shadowsocks-libev/blob/master/
 
 `ss-local -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_port</span>` -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">local port</span>` -k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span>` -m `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">encrypt_method</span>
 
-- Run a Shadowsocks proxy by specifying the config file:
+- Run a Shadowsocks proxy by specifying the configuration file:
 
 `ss-local -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config/file.json</span>
 

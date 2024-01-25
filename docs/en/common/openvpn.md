@@ -2,8 +2,8 @@
 layout: page
 title: common/openvpn (English)
 description: "OpenVPN client and daemon binary."
-content_hash: 65e8a258f765bab7316d8d437cbbb9ad74544cd3
-last_modified_at: 2023-11-12
+content_hash: 3970299418bb9ab975b17476280dafdd78775a4d
+last_modified_at: 2024-01-25
 tldri18n_status: 2
 ---
 # openvpn
@@ -11,7 +11,7 @@ tldri18n_status: 2
 OpenVPN client and daemon binary.
 More information: <https://openvpn.net/>.
 
-- Connect to server using a config file:
+- Connect to server using a configuration file:
 
 `sudo openvpn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/client.conf</span>
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/dexter (English)
 description: "Tool for authenticating the kubectl users with OpenId Connect."
-content_hash: a19fd377bacdd9ea25d77ccd20e08659ee248209
-last_modified_at: 2023-11-12
+content_hash: aec0ba79e7d0e41bd3ef28d633e7ac8cbd642467
+last_modified_at: 2024-01-25
 related_topics:
   - title: italiano version
     url: /it/common/dexter.html
@@ -22,6 +22,6 @@ More information: <https://github.com/gini/dexter>.
 
 `dexter auth -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">client_id</span>` -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">client_secret</span>
 
-- Override the default kube config location:
+- Override the default kube configuration file location:
 
 `dexter auth -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">client_id</span>` -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">client_secret</span>` --kube-config `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sample/config</span>

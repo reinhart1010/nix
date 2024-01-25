@@ -2,8 +2,8 @@
 layout: page
 title: common/pint (English)
 description: "An opinionated PHP code style fixer based on PHP-CS-Fixer."
-content_hash: 4b0c54447434b8fbae8cfe5fa76d725a2cb03e3e
-last_modified_at: 2023-11-12
+content_hash: 64dc375c351e6d4b23031e5b7c38a9b2d0828211
+last_modified_at: 2024-01-25
 tldri18n_status: 2
 ---
 # Pint
@@ -23,7 +23,7 @@ More information: <https://laravel.com/docs/pint>.
 
 `pint --test`
 
-- Execute code style fixes using a specific config file:
+- Execute code style fixes using a specific configuration file:
 
 `pint --config `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/pint.json</span>
 

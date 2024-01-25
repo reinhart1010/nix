@@ -2,8 +2,8 @@
 layout: page
 title: common/supervisorctl (English)
 description: "Supervisor is a client/server system that allows its users to control a number of processes on UNIX-like operating systems."
-content_hash: a81cf7931bcf91ff19055e0e7feddd9aad43194b
-last_modified_at: 2023-12-19
+content_hash: a391b449690a450470e27b7da80cf990dba28586
+last_modified_at: 2024-01-25
 tldri18n_status: 2
 ---
 # supervisorctl
@@ -32,6 +32,6 @@ More information: <http://supervisord.org>.
 
 `supervisorctl tail -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_name</span>` stdout`
 
-- Reload process config file to add/remove processes as necessary:
+- Reload process configuration file to add/remove processes as necessary:
 
 `supervisorctl update`

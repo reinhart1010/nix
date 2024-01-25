@@ -2,8 +2,8 @@
 layout: page
 title: common/alacritty (English)
 description: "Cross-platform, GPU-accelerated terminal emulator."
-content_hash: f6c217999b3e9d169f9e8699f044d6c3254919f5
-last_modified_at: 2023-11-12
+content_hash: c0f68410ad74427a9b57760abe1557fbc89d9360
+last_modified_at: 2024-01-25
 related_topics:
   - title: Deutsch version
     url: /de/common/alacritty.html
@@ -58,6 +58,6 @@ More information: <https://github.com/alacritty/alacritty>.
 
 `alacritty --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config.yml</span>
 
-- Run with live config reload enabled (can also be enabled by default in `alacritty.yml`):
+- Run with live configuration reload enabled (can also be enabled by default in `alacritty.yml`):
 
 `alacritty --live-config-reload --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config.yml</span>

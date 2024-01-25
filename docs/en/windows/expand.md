@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/expand (English)
-description: "Uncompress one or more Windows Cabinet files."
-content_hash: 81e7285782845289508cffd44c6c7062d97c6844
-last_modified_at: 2023-11-12
+description: "Uncompress Windows Cabinet files."
+content_hash: 9b315e7949684549f5c91b0ec27bed688d60ba10
+last_modified_at: 2024-01-25
 related_topics:
   - title: 中文 version
     url: /zh/windows/expand.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # expand
 
-Uncompress one or more Windows Cabinet files.
+Uncompress Windows Cabinet files.
 More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/expand>.
 
 - Uncompress a single-file Cabinet file to the specified directory:

@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/cs-fetch (English)
-description: "Fetch fetches the JARs of one or more dependencies."
-content_hash: 2439b76383dd7058e6d2953dc6071b1efc798d8b
-last_modified_at: 2023-11-12
+description: "Fetch fetches the JARs of dependencies."
+content_hash: ad8d4ff4f217f44d8e35709fcba358cfa48b895b
+last_modified_at: 2024-01-25
 tldri18n_status: 2
 ---
 # cs fetch
 
-Fetch fetches the JARs of one or more dependencies.
+Fetch fetches the JARs of dependencies.
 More information: <https://get-coursier.io/docs/cli-fetch>.
 
 - Fetch a specific version of a jar:

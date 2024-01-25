@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/docker-rmi (English)
-description: "Remove one or more Docker images."
-content_hash: 3a84657926cbf9253a2c89b3533f68cc6ed87bde
-last_modified_at: 2023-12-27
+description: "Remove Docker images."
+content_hash: 77b2199afe487813e54a966494dca0173b35187d
+last_modified_at: 2024-01-25
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-rmi.html
@@ -21,7 +21,7 @@ tldri18n_status: 2
 ---
 # docker rmi
 
-Remove one or more Docker images.
+Remove Docker images.
 More information: <https://docs.docker.com/engine/reference/commandline/rmi/>.
 
 - Display help:

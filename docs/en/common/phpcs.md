@@ -2,8 +2,8 @@
 layout: page
 title: common/phpcs (English)
 description: "Tokenize PHP, JavaScript and CSS files to detect violations of a defined set of coding standards."
-content_hash: 39cf03509edd65aee15c288b704b1532c7019700
-last_modified_at: 2023-11-12
+content_hash: 082d16a97b135000ced5f2e0fc974471eccd383b
+last_modified_at: 2024-01-25
 tldri18n_status: 2
 ---
 # phpcs
@@ -31,7 +31,7 @@ More information: <https://github.com/squizlabs/PHP_CodeSniffer>.
 
 `phpcs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` --report `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">format</span>
 
-- Set config variables to be used during the process:
+- Set configuration variables to be used during the process:
 
 `phpcs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` --config-set `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span>
 

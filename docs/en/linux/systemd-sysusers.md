@@ -2,8 +2,8 @@
 layout: page
 title: linux/systemd-sysusers (English)
 description: "Create system users and groups."
-content_hash: e79d5f1cb5ef1dd60c67217cd618a68ea120f22e
-last_modified_at: 2023-11-12
+content_hash: cfc36dde43225acfcb669fafc9c5a6c5b614982c
+last_modified_at: 2024-01-25
 tldri18n_status: 2
 ---
 # systemd-sysusers
@@ -20,6 +20,6 @@ More information: <https://www.freedesktop.org/software/systemd/man/systemd-sysu
 
 `systemd-sysusers --dry-run `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Print the contents of all config files (before each file, its name is printed as a comment):
+- Print the contents of all configuration files (before each file, its name is printed as a comment):
 
 `systemd-sysusers --cat-config`

@@ -2,8 +2,8 @@
 layout: page
 title: common/neofetch (English)
 description: "Display information about your operating system, software and hardware."
-content_hash: 86f09a7bb7fb43cef626adc599a44438b9a0e50c
-last_modified_at: 2023-11-12
+content_hash: 2d7f59c5d21402295ca1be0c648feda971b51a6b
+last_modified_at: 2024-01-25
 related_topics:
   - title: हिन्दी version
     url: /hi/common/neofetch.html
@@ -25,7 +25,7 @@ More information: <https://github.com/dylanaraps/neofetch>.
 
 `neofetch`
 
-- Trigger an info line from appearing in the output, where 'infoname' is the function name in the config file, e.g. memory:
+- Trigger an info line from appearing in the output, where 'infoname' is the function name in the configuration file, e.g. memory:
 
 `neofetch --`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">enable|disable</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">infoname</span>
 

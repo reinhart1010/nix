@@ -2,8 +2,8 @@
 layout: page
 title: common/topgrade (English)
 description: "Update all applications on the system."
-content_hash: 155b34835b751c6d07375ea1e6a6d81d2635fabc
-last_modified_at: 2023-11-12
+content_hash: 3d767f602808bad8685ba45048ba0edbc5a9ed57
+last_modified_at: 2024-01-25
 tldri18n_status: 2
 ---
 # topgrade
@@ -31,6 +31,6 @@ More information: <https://github.com/r-darwish/topgrade>.
 
 `topgrade --only `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">operation</span>
 
-- Edit the config file with default editor:
+- Edit the configuration file with default editor:
 
 `topgrade --edit-config`

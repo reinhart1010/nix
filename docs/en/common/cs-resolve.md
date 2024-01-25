@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/cs-resolve (English)
-description: "Resolve lists the transitive dependencies of one or more other dependencies."
-content_hash: 4a1f90141918b7609006b60f631059c326019ccc
-last_modified_at: 2023-11-12
+description: "Resolve lists the transitive dependencies of other dependencies."
+content_hash: 875e44583786076932007296882c3b8cd7fdae29
+last_modified_at: 2024-01-25
 tldri18n_status: 2
 ---
 # cs resolve
 
-Resolve lists the transitive dependencies of one or more other dependencies.
+Resolve lists the transitive dependencies of other dependencies.
 More information: <https://get-coursier.io/docs/cli-resolve>.
 
 - Resolve lists of transitive dependencies of two dependencies:

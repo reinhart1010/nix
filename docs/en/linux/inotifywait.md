@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/inotifywait (English)
-description: "Waits for changes to one or more files."
-content_hash: d49e3aa551e933c4fb67634a62bd51d98e98c0f4
-last_modified_at: 2023-11-12
+description: "Waits for changes to files."
+content_hash: 6ace316278c23ce5d64e47209ccc6600ff6ab04f
+last_modified_at: 2024-01-25
 tldri18n_status: 2
 ---
 # inotifywait
 
-Waits for changes to one or more files.
+Waits for changes to files.
 More information: <https://manned.org/inotifywait>.
 
 - Watch a specific file for events, exiting after the first one:

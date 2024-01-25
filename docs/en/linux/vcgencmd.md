@@ -2,8 +2,8 @@
 layout: page
 title: linux/vcgencmd (English)
 description: "Print system information for a Raspberry Pi."
-content_hash: da365194fc6819fd6edc1b6f11f96784d3db7c65
-last_modified_at: 2023-11-12
+content_hash: c22922e8cb778dc6fbef84596536c0abb39440b9
+last_modified_at: 2024-01-25
 tldri18n_status: 2
 ---
 # vcgencmd
@@ -27,7 +27,7 @@ More information: <https://www.raspberrypi.org/documentation/computers/os.html#v
 
 `vcgencmd get_throttled`
 
-- Print the bootloader config (only available on Raspberry Pi 4 models):
+- Print the bootloader configuration (only available on Raspberry Pi 4 models):
 
 `vcgencmd bootloader_config`
 

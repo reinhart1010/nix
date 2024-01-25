@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/cupsreject (English)
-description: "Reject jobs sent to one or more printers."
-content_hash: edff9246e801436f11439e7755f61d4d0ea4b116
-last_modified_at: 2023-12-30
+description: "Reject jobs sent to printers."
+content_hash: 7f0567ddb0bd6788f084209c120e460918e8d740
+last_modified_at: 2024-01-25
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/cupsreject.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # cupsreject
 
-Reject jobs sent to one or more printers.
+Reject jobs sent to printers.
 NOTE: destination is referred as a printer or a class of printers.
 See also: `cupsaccept`, `cupsenable`, `cupsdisable`, `lpstat`.
 More information: <https://www.cups.org/doc/man-cupsaccept.html>.

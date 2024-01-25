@@ -2,8 +2,8 @@
 layout: page
 title: osx/indent (português (Brasil))
 description: "Altera a aparência de um programa C/C++ inserindo ou excluindo espaços em branco."
-content_hash: 27c912655e406e1e9f96e14e9b2a27405ba691ea
-last_modified_at: 2023-11-12
+content_hash: a84c9c6ddc3ca3a517d9452d1522126012320080
+last_modified_at: 2024-01-25
 related_topics:
   - title: English version
     url: /en/osx/indent.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # indent
 
 Altera a aparência de um programa C/C++ inserindo ou excluindo espaços em branco.
-Mais informações: <https://www.freebsd.org/cgi/man.cgi?query=indent>.
+Mais informações: <https://keith.github.io/xcode-man-pages/indent.1.html>.
 
 - Formata código fonte C/C++ de acordo com o estilo Berkeley:
 

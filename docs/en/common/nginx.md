@@ -2,8 +2,8 @@
 layout: page
 title: common/nginx (English)
 description: "Nginx web server."
-content_hash: 6f8426379aa40cf61eca3a06fd5712ec8874ca2f
-last_modified_at: 2023-11-12
+content_hash: 68e1d1cd5ffc8e5f05c0956600312f0f03532d16
+last_modified_at: 2024-01-25
 related_topics:
   - title: Deutsch version
     url: /de/common/nginx.html
@@ -21,7 +21,7 @@ tldri18n_status: 2
 Nginx web server.
 More information: <https://nginx.org/en/>.
 
-- Start server with the default config file:
+- Start server with the default configuration file:
 
 `nginx`
 

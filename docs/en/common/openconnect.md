@@ -2,8 +2,8 @@
 layout: page
 title: common/openconnect (English)
 description: "A VPN client, for Cisco AnyConnect VPNs and others."
-content_hash: 73440fee16322c378325bb97e8584be246b03e1b
-last_modified_at: 2023-11-12
+content_hash: 717dd6be07798765ca369c571986e9511582b5e1
+last_modified_at: 2024-01-25
 tldri18n_status: 2
 ---
 # openconnect
@@ -23,7 +23,7 @@ More information: <https://www.infradead.org/openconnect/manual.html>.
 
 `killall -SIGINT openconnect`
 
-- Connect to a server, reading options from a config file:
+- Connect to a server, reading options from a configuration file:
 
 `openconnect --config=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">vpn.example.org</span>
 

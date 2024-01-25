@@ -2,8 +2,8 @@
 layout: page
 title: linux/dockerd (English)
 description: "A persistent process to start and manage docker containers."
-content_hash: fcee22fbb061c76f7906e5ae35eeffe8def19e31
-last_modified_at: 2023-11-12
+content_hash: 73c3f025f85de0e4607b2adf72a466e969b60028
+last_modified_at: 2024-01-25
 related_topics:
   - title: العربية version
     url: /ar/linux/dockerd.html
@@ -22,7 +22,7 @@ More information: <https://docs.docker.com/engine/reference/commandline/dockerd/
 
 `dockerd`
 
-- Run docker daemon and config it to listen to specific sockets (UNIX and TCP):
+- Run docker daemon and configure it to listen to specific sockets (UNIX and TCP):
 
 `dockerd --host unix://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/tmp.sock</span>` --host tcp://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ip</span>
 

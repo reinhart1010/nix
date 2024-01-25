@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/cs-launch (English)
-description: "Launch an application from the name directly from one or more Maven dependencies without the need of installing it."
-content_hash: 79f5b8cd0f6ba0c90454e53c139ece2533a95174
-last_modified_at: 2023-11-12
+description: "Launch an application from the name directly from Maven dependencies without the need of installing it."
+content_hash: 99a0021599a47e00e08754261f143c14d2b2b172
+last_modified_at: 2024-01-25
 tldri18n_status: 2
 ---
 # cs launch
 
-Launch an application from the name directly from one or more Maven dependencies without the need of installing it.
+Launch an application from the name directly from Maven dependencies without the need of installing it.
 More information: <https://get-coursier.io/docs/cli-launch>.
 
 - Launch a specific application with arguments:

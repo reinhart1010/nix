@@ -2,8 +2,8 @@
 layout: page
 title: linux/rusnapshot (English)
 description: "BTRFS snapshotting utility written in Rust."
-content_hash: 23fef987e5f72c3acb0bbabc7c6f8c57b1a38acb
-last_modified_at: 2023-11-12
+content_hash: 4fcb238c2c149bb6cb9122c263707922f0ed98e5
+last_modified_at: 2024-01-25
 tldri18n_status: 2
 ---
 # rusnapshot
@@ -11,7 +11,7 @@ tldri18n_status: 2
 BTRFS snapshotting utility written in Rust.
 More information: <https://github.com/Edu4rdSHL/rusnapshot>.
 
-- Create a snapshot using a config file:
+- Create a snapshot using a configuration file:
 
 `sudo rusnapshot --config `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config.toml</span>` --cr`
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/promtool (English)
 description: "Tooling for the Prometheus monitoring system."
-content_hash: 639922cf9deb7c559acdbbeae4e2ffc5ac6d4f7c
-last_modified_at: 2023-11-12
+content_hash: 160955f87d7dbacd39a2e4642dc292c140669494
+last_modified_at: 2024-01-25
 tldri18n_status: 2
 ---
 # promtool
@@ -11,7 +11,7 @@ tldri18n_status: 2
 Tooling for the Prometheus monitoring system.
 More information: <https://prometheus.io/docs/prometheus/latest/getting_started/>.
 
-- Check if the config files are valid or not (if present report errors):
+- Check if the configuration files are valid or not (if present report errors):
 
 `promtool check config `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config_file.yml</span>
 

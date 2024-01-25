@@ -2,8 +2,8 @@
 layout: page
 title: common/cargo-login (English)
 description: "Save an API token from the registry locally."
-content_hash: 0a0ba4621c7b0145d7a075edec43f0d69cd9255d
-last_modified_at: 2024-01-24
+content_hash: 18f6dd6667091657544e77cdc1077a6e31487298
+last_modified_at: 2024-01-25
 tldri18n_status: 2
 ---
 # cargo login
@@ -16,6 +16,6 @@ More information: <https://doc.rust-lang.org/cargo/commands/cargo-login.html>.
 
 `cargo login`
 
-- Use the specified registry (registry names can be defined in the config - the default is <https://crates.io>):
+- Use the specified registry (registry names can be defined in the configuration - the default is <https://crates.io>):
 
 `cargo login --registry `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>

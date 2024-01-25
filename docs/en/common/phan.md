@@ -2,8 +2,8 @@
 layout: page
 title: common/phan (English)
 description: "A static analysis tool for PHP."
-content_hash: 6319530d819acfdb5794b26f2d60836c71d49798
-last_modified_at: 2023-11-12
+content_hash: 3c9790da81f6ee330921365e2e647bfb02bcf280
+last_modified_at: 2024-01-25
 tldri18n_status: 2
 ---
 # phan
@@ -27,7 +27,7 @@ More information: <https://github.com/phan/phan>.
 
 `phan --directory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` --directory `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/another_directory</span>
 
-- Specify a config file (defaults to `.phan/config.php`):
+- Specify a configuration file (defaults to `.phan/config.php`):
 
 `phan --config-file `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config.php</span>
 

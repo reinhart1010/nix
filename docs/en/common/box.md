@@ -2,8 +2,8 @@
 layout: page
 title: common/box (English)
 description: "A PHP application for building and managing Phars."
-content_hash: e16f6ff05aed5508cd7d11ec6f5800b035afaed6
-last_modified_at: 2023-11-12
+content_hash: b282456d0b468917fc664ec8683d18da44378a19
+last_modified_at: 2024-01-25
 related_topics:
   - title: italiano version
     url: /it/common/box.html
@@ -22,7 +22,7 @@ More information: <https://github.com/box-project/box>.
 
 `box compile`
 
-- Compile a new Phar file using a specific config file:
+- Compile a new Phar file using a specific configuration file:
 
 `box compile -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config</span>
 
@@ -34,7 +34,7 @@ More information: <https://github.com/box-project/box>.
 
 `box info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/phar_file</span>
 
-- Validate the first found config file in the working directory:
+- Validate the first found configuration file in the working directory:
 
 `box validate`
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/tslint (English)
 description: "A pluggable linting utility for TypeScript."
-content_hash: 7cca15b7e9ad4b9154b17bc59a382825ee54a8e0
-last_modified_at: 2023-11-12
+content_hash: d9603fe4d5e100587140629c20576946e2b8b9e9
+last_modified_at: 2024-01-25
 tldri18n_status: 2
 ---
 # tslint
@@ -23,6 +23,6 @@ More information: <https://palantir.github.io/tslint>.
 
 `tslint --fix`
 
-- Lint with the config file in the project root:
+- Lint with the configuration file in the project root:
 
 `tslint --project `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/project_root</span>

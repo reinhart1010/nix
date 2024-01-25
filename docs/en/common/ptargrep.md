@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/ptargrep (English)
-description: "Find regular expression patterns in one or more tar archive files."
-content_hash: 2ec3de20ffdcd1b83de1e68adb01a6e2d5f864d3
-last_modified_at: 2023-11-12
+description: "Find regular expression patterns in tar archive files."
+content_hash: 4502366af13a521371e29ad6e66bdc715481d3d6
+last_modified_at: 2024-01-25
 tldri18n_status: 2
 ---
 # ptargrep
 
-Find regular expression patterns in one or more tar archive files.
+Find regular expression patterns in tar archive files.
 More information: <https://manned.org/ptargrep>.
 
 - Search for a pattern within a tar file:

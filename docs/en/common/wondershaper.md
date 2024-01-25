@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/wondershaper (English)
-description: "Allows the user to limit the bandwidth of one or more network adapters."
-content_hash: 3140ae294792122bf6294972c49ba27a95293d1e
-last_modified_at: 2023-11-12
+description: "Allows the user to limit the bandwidth of network adapters."
+content_hash: bea172626917b917d014ecb9a3eae1051c9dbe6a
+last_modified_at: 2024-01-25
 tldri18n_status: 2
 ---
 # wondershaper
 
-Allows the user to limit the bandwidth of one or more network adapters.
+Allows the user to limit the bandwidth of network adapters.
 More information: <https://github.com/magnific0/wondershaper#usage>.
 
 - Display [h]elp:

@@ -2,8 +2,8 @@
 layout: page
 title: linux/prlimit (English)
 description: "Get or set process resource soft and hard limits."
-content_hash: ea7549b2401ade5fec27c812a6afdd686d05ecce
-last_modified_at: 2023-11-12
+content_hash: f5938b281596872dac8ed5c313c21a6da33b6426
+last_modified_at: 2024-01-25
 tldri18n_status: 2
 ---
 # prlimit
@@ -18,7 +18,7 @@ More information: <https://manned.org/prlimit>.
 
 - Display limit values for all current resources of a specified process:
 
-`prlimit --pid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid number</span>
+`prlimit --pid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid_number</span>
 
 - Run a command with a custom number of open files limit:
 

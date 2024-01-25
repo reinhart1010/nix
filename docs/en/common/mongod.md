@@ -2,8 +2,8 @@
 layout: page
 title: common/mongod (English)
 description: "The MongoDB database server."
-content_hash: 4f147c71076dbc1a9d3e4f400ee7fe027af662da
-last_modified_at: 2023-11-12
+content_hash: 30468601a2fb95a1801dba9776299b43880aa7bf
+last_modified_at: 2024-01-25
 related_topics:
   - title: Indonesia version
     url: /id/common/mongod.html
@@ -22,7 +22,7 @@ More information: <https://docs.mongodb.com/manual/reference/program/mongod>.
 
 `mongod --dbpath `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
-- Specify a config file:
+- Specify a configuration file:
 
 `mongod --config `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 

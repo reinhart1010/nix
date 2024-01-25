@@ -2,8 +2,8 @@
 layout: page
 title: common/soupault (English)
 description: "A static website generator based on HTML element tree rewriting."
-content_hash: 6e01ceb76fb43b3e194d6b0387cb1cbbdbf2e096
-last_modified_at: 2023-11-15
+content_hash: 361c6adfe452c2b2c17f7a69ff4bfba67675500f
+last_modified_at: 2024-01-25
 tldri18n_status: 2
 ---
 # soupault
@@ -20,7 +20,7 @@ More information: <https://soupault.app>.
 
 `soupault`
 
-- Override default config file and directory locations:
+- Override default configuration file and directory locations:
 
 `soupault --config `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config_path</span>` --site-dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input_dir</span>` --build-dir `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">output_dir</span>
 
@@ -28,6 +28,6 @@ More information: <https://soupault.app>.
 
 `soupault --index-only --dump-index-json `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.json</span>
 
-- Show the effective config (values from `soupault.toml` plus defaults):
+- Show the effective configuration (values from `soupault.toml` plus defaults):
 
 `soupault --show-effective-config`

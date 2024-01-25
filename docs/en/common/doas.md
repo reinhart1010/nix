@@ -2,8 +2,8 @@
 layout: page
 title: common/doas (English)
 description: "Executes a command as another user."
-content_hash: fa62ae362f068653562ffe94c82b49e9810afd7c
-last_modified_at: 2023-11-12
+content_hash: 2def708bfbb4e98e1ee1c03ca6e9aa74587e0b41
+last_modified_at: 2024-01-25
 tldri18n_status: 2
 ---
 # doas
@@ -23,7 +23,7 @@ More information: <https://man.openbsd.org/doas>.
 
 `doas -s`
 
-- Parse a config file and check if the execution of a command as another user is allowed:
+- Parse a configuration file and check if the execution of a command as another user is allowed:
 
 `doas -C `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 

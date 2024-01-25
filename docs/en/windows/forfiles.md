@@ -1,9 +1,9 @@
 ---
 layout: page
 title: windows/forfiles (English)
-description: "Select one or more files to execute a specified command on."
-content_hash: 4f8a0c7d8b470ac79a8024c324d9874d1c3f256f
-last_modified_at: 2023-11-12
+description: "Select files to execute a specified command on."
+content_hash: 7afddde4d88420e9f87da6f9d2f47950cdbe07f8
+last_modified_at: 2024-01-25
 related_topics:
   - title: 中文 version
     url: /zh/windows/forfiles.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # forfiles
 
-Select one or more files to execute a specified command on.
+Select files to execute a specified command on.
 More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/forfiles>.
 
 - Search for files in the current directory:

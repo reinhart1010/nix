@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/podman-rmi (English)
-description: "Remove one or more Podman images."
-content_hash: e9ecc5280efccb09d1b460171f00c493995df337
-last_modified_at: 2023-11-12
+description: "Remove Podman images."
+content_hash: 661a4d52264ed7a317fc88f2d8ad1fa2718c6ecb
+last_modified_at: 2024-01-25
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/podman-rmi.html
@@ -12,7 +12,7 @@ tldri18n_status: 2
 ---
 # podman rmi
 
-Remove one or more Podman images.
+Remove Podman images.
 More information: <https://docs.podman.io/en/latest/markdown/podman-rmi.1.html>.
 
 - Remove one or more images given their names:

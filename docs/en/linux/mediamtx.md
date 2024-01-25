@@ -2,8 +2,8 @@
 layout: page
 title: linux/mediamtx (English)
 description: "Real-time media server and proxy."
-content_hash: 3e535547842cca978f0ce227a486d11c8a4babdb
-last_modified_at: 2023-11-12
+content_hash: d98f2e0304f26c5130db93114e779b9de64ef378
+last_modified_at: 2024-01-25
 tldri18n_status: 2
 ---
 # mediamtx
@@ -15,7 +15,7 @@ More information: <https://github.com/bluenviron/mediamtx>.
 
 `mediamtx`
 
-- Run MediaMTX with a custom config location:
+- Run MediaMTX with a custom configuration location:
 
 `mediamtx `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/config</span>`.yml`
 
