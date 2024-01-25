@@ -3,7 +3,7 @@ layout: page
 title: common/gcc (தமிழ்)
 description: "C மற்றும் C++ மூலக் கோப்புகளை முன் செயலாக்கம் செய்து தொகுத்து, பின்னர் அவற்றைச் சேகரித்து இணைக்கவும்."
 content_hash: cf7f724df05971702a5113bb7ddadb8a302bedc0
-last_modified_at: 2024-01-24
+last_modified_at: 2024-01-25
 related_topics:
   - title: Deutsch version
     url: /de/common/gcc.html
@@ -26,12 +26,9 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/gcc.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># gcc
+# gcc
 
 C மற்றும் C++ மூலக் கோப்புகளை முன் செயலாக்கம் செய்து தொகுத்து, பின்னர் அவற்றைச் சேகரித்து இணைக்கவும்.
 மேலும் விவரத்திற்கு: <https://gcc.gnu.org>.

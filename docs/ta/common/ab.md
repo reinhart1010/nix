@@ -3,7 +3,7 @@ layout: page
 title: common/ab (தமிழ்)
 description: "அப்பாச்சி HTTP சர்வர் தரப்படுத்தல் கருவி."
 content_hash: b4445dc3bc86b1543a8194ef06becfb07c8774e5
-last_modified_at: 2024-01-24
+last_modified_at: 2024-01-25
 related_topics:
   - title: বাংলা version
     url: /bn/common/ab.html
@@ -47,12 +47,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ab.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ab
+# ab
 
 அப்பாச்சி HTTP சர்வர் தரப்படுத்தல் கருவி.
 மேலும் விவரத்திற்கு: <https://httpd.apache.org/docs/current/programs/ab.html>.

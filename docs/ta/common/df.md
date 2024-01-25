@@ -3,7 +3,7 @@ layout: page
 title: common/df (தமிழ்)
 description: "கோப்பு முறைமை வட்டு இட உபயோகத்தின் மேலோட்டத்தை அளிக்கிறது."
 content_hash: ee218c182538862387223a35dc960aaf1e94bbe6
-last_modified_at: 2024-01-24
+last_modified_at: 2024-01-25
 related_topics:
   - title: Deutsch version
     url: /de/common/df.html
@@ -35,12 +35,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/df.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># df
+# df
 
 கோப்பு முறைமை வட்டு இட உபயோகத்தின் மேலோட்டத்தை அளிக்கிறது.
 மேலும் விவரத்திற்கு: <https://manned.org/df.1posix>.

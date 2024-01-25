@@ -3,19 +3,10 @@ layout: page
 title: common/vidir (English)
 description: "Edit directories in a text editor."
 content_hash: f88c22a837a45d34463ab16ea528ba5433e5b348
-last_modified_at: 2024-01-24
-tldri18n_status: 0
+last_modified_at: 2024-01-25
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/vidir.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># vidir
+# vidir
 
 Edit directories in a text editor.
 More information: <https://joeyh.name/code/moreutils/>.
