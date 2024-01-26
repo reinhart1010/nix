@@ -3,7 +3,7 @@ layout: page
 title: common/head (Nederlands)
 description: "Toon het eerste deel van een bestand."
 content_hash: 624f4cab5d94ef50eac1c268fbe533c1efaaf84d
-last_modified_at: 2024-01-25
+last_modified_at: 2024-01-26
 related_topics:
   - title: Deutsch version
     url: /de/common/head.html
@@ -23,18 +23,9 @@ related_topics:
   - title: sh version
     url: /sh/common/head.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/head.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># head
+# head
 
 Toon het eerste deel van een bestand.
 Meer informatie: <https://manned.org/head.1p>.

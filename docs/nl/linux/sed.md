@@ -3,7 +3,7 @@ layout: page
 title: linux/sed (Nederlands)
 description: "Pas tekst aan in een op een scriptbare manier."
 content_hash: b9423c75898bb0a89e7f4ba930beddfc67067ba3
-last_modified_at: 2024-01-09
+last_modified_at: 2024-01-26
 related_topics:
   - title: English version
     url: /en/linux/sed.html
@@ -11,9 +11,12 @@ related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/sed.html
     icon: bi bi-globe
-tldri18n_status: 2
+tldri18n_status: 1
 ---
-# sed
+
+This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
+
+<hr># sed
 
 Pas tekst aan in een op een scriptbare manier.
 Bekijk ook: `awk`, `ed`.

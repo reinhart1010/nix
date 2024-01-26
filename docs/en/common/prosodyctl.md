@@ -2,13 +2,14 @@
 layout: page
 title: common/prosodyctl (English)
 description: "The control tool for the Prosody XMPP server."
-content_hash: db2a912eb196417cb1c812e25d724f14ffa1df3c
-last_modified_at: 2023-11-12
+content_hash: 0fdfc116e5a36786711d64cd26048fc7a62400a4
+last_modified_at: 2024-01-26
 tldri18n_status: 2
 ---
 # prosodyctl
 
 The control tool for the Prosody XMPP server.
+NOTE: process management through `prosodyctl` is discouraged. Instead, use the tools provided by your system (e.g. `systemctl`).
 More information: <https://prosody.im/doc/prosodyctl>.
 
 - Show the status of the Prosody server:
