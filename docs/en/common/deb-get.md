@@ -2,8 +2,8 @@
 layout: page
 title: common/deb-get (English)
 description: "`apt-get` functionality for `.deb` packages published in third party repositories or via direct download."
-content_hash: 8b1f57be38738807a651c284ca661fe515a20fc4
-last_modified_at: 2023-11-12
+content_hash: 2121aef7d5c63fb775a1e3a5d9654b51502d6bd5
+last_modified_at: 2024-01-26
 tldri18n_status: 2
 ---
 # deb-get
@@ -18,11 +18,11 @@ More information: <https://github.com/wimpysworld/deb-get>.
 
 - Search for a given package:
 
-`sudo deb-get search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
+`deb-get search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Show information about a package:
 
-`sudo deb-get show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
+`deb-get show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
 
 - Install a package, or update it to the latest available version:
 
