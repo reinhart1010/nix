@@ -3,23 +3,14 @@ layout: page
 title: osx/rargs (español)
 description: "Ejecuta un comando por cada línea de entrada estándar."
 content_hash: 893f6978d701aca76e18125f9fe485919d8bbde3
-last_modified_at: 2024-01-27
+last_modified_at: 2024-01-28
 related_topics:
   - title: English version
     url: /en/osx/rargs.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/osx/rargs.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># rargs
+# rargs
 
 Ejecuta un comando por cada línea de entrada estándar.
 Similar a `xargs`, pero con soporte de coincidencia de patrones.
