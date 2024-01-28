@@ -2,14 +2,17 @@
 layout: page
 title: common/act (français)
 description: "Execute des GitHub Actions en local avec Docker."
-content_hash: bf5de94bab3d098f05e08b071683bfb9d3851637
-last_modified_at: 2023-11-12
+content_hash: a1b4103cd934761f381af5dfdf91ac294c422406
+last_modified_at: 2024-01-28
 related_topics:
   - title: English version
     url: /en/common/act.html
     icon: bi bi-globe
   - title: español version
     url: /es/common/act.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/act.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/act.html
@@ -36,7 +39,7 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 Execute des GitHub Actions en local avec Docker.
 Plus d'informations : <https://github.com/nektos/act>.
 
-- Liste les actions disponibles :
+- [l]iste les jobs disponibles :
 
 `act -l`
 
@@ -48,9 +51,9 @@ Plus d'informations : <https://github.com/nektos/act>.
 
 `act `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">type_d_événement</span>
 
-- Execute une action spécifique :
+- Execute un [j]ob spécifique :
 
-`act -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_action</span>
+`act -j `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id_job</span>
 
 - Ne pas lancer les actions maintenant (e.g un essai) :
 
@@ -59,3 +62,7 @@ Plus d'informations : <https://github.com/nektos/act>.
 - Affiche le journal en mode verbeux :
 
 `act -v`
+
+- Execute un [W]orkflow en particulier, avec l'événement push :
+
+`act push -W `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/workflow</span>

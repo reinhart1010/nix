@@ -2,8 +2,8 @@
 layout: page
 title: linux/sed (English)
 description: "Edit text in a scriptable manner."
-content_hash: 0e1574e27d43248516428870f023dad26f56d453
-last_modified_at: 2024-01-25
+content_hash: 7a7d1538dc172421bd303d8d4dfa45cd083d1614
+last_modified_at: 2024-01-28
 related_topics:
   - title: Nederlands version
     url: /nl/linux/sed.html
@@ -41,8 +41,8 @@ More information: <https://www.gnu.org/software/sed/manual/sed.html>.
 
 - [d]elete the first line of a file:
 
-`sed -i 1d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/file</span>
+`sed -i 1d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
 - [i]nsert a new line at the first line of a file:
 
-`sed -i '1i\your new line text\' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/file</span>
+`sed -i '1i\your new line text\' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>

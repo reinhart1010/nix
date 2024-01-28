@@ -2,14 +2,17 @@
 layout: page
 title: common/act (English)
 description: "Execute GitHub Actions locally using Docker."
-content_hash: b6388a6226a8f316436effa6c76b4e4fc5b16ba0
-last_modified_at: 2023-12-03
+content_hash: a2fbdacbe2da359aa4b6205f32321874dc9d2144
+last_modified_at: 2024-01-28
 related_topics:
   - title: español version
     url: /es/common/act.html
     icon: bi bi-globe
   - title: français version
     url: /fr/common/act.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/act.html
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/act.html
@@ -33,7 +36,7 @@ tldri18n_status: 2
 Execute GitHub Actions locally using Docker.
 More information: <https://github.com/nektos/act>.
 
-- [l]ist the available actions:
+- [l]ist the available jobs:
 
 `act -l`
 
@@ -45,9 +48,9 @@ More information: <https://github.com/nektos/act>.
 
 `act `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">event_type</span>
 
-- Run a specific [a]ction:
+- Run a specific [j]ob:
 
-`act -a `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">action_id</span>
+`act -j `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">job_id</span>
 
 - Do [n]ot actually run the actions (i.e. a dry run):
 
@@ -57,6 +60,6 @@ More information: <https://github.com/nektos/act>.
 
 `act -v`
 
-- Run a specific [W]orkflow:
+- Run a specific [W]orkflow with the push event:
 
 `act push -W `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/workflow</span>
