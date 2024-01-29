@@ -3,23 +3,14 @@ layout: page
 title: common/jbang (español)
 description: "Crea, edita y ejecuta fácilmente programas en Java autocontenidos de sólo código fuente."
 content_hash: f56751e7d03be9927a42edf4372a1749b7a49a3b
-last_modified_at: 2024-01-28
+last_modified_at: 2024-01-29
 related_topics:
   - title: English version
     url: /en/common/jbang.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/jbang.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># jbang
+# jbang
 
 Crea, edita y ejecuta fácilmente programas en Java autocontenidos de sólo código fuente.
 Ver también: `java`.

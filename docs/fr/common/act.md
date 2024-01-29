@@ -3,7 +3,7 @@ layout: page
 title: common/act (français)
 description: "Execute des GitHub Actions en local avec Docker."
 content_hash: a1b4103cd934761f381af5dfdf91ac294c422406
-last_modified_at: 2024-01-28
+last_modified_at: 2024-01-29
 related_topics:
   - title: English version
     url: /en/common/act.html
@@ -29,12 +29,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/act.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># act
+# act
 
 Execute des GitHub Actions en local avec Docker.
 Plus d'informations : <https://github.com/nektos/act>.
