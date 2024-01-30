@@ -2,8 +2,8 @@
 layout: page
 title: windows/gpupdate (English)
 description: "A tool to check and apply Windows Group Policy settings."
-content_hash: 23bbf445f326cc39d72df1267a6a2f44f3b1e250
-last_modified_at: 2023-11-12
+content_hash: 1d94b8ac1f764b24bae5e4f6fdfcde0431374766
+last_modified_at: 2024-01-30
 related_topics:
   - title: svenska version
     url: /sv/windows/gpupdate.html
@@ -27,6 +27,6 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 `gpupdate /force`
 
-- Display detailed usage information:
+- Display help:
 
 `gpupdate /?`

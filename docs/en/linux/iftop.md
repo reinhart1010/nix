@@ -2,8 +2,8 @@
 layout: page
 title: linux/iftop (English)
 description: "Show bandwidth usage on an interface by host."
-content_hash: 17210abd396353ecb50c459568e39ad8f37cfdd3
-last_modified_at: 2023-11-12
+content_hash: 26e60396ceed0eb281668a21159a7fa921cb119f
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # iftop
@@ -31,6 +31,6 @@ More information: <https://manned.org/iftop>.
 
 `sudo iftop -n`
 
-- Get help about interactive commands:
+- Display help:
 
 `?`

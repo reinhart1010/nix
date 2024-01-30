@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacstrap (English)
 description: "Arch Linux install script to install packages to the specified new root directory."
-content_hash: 20ed9f475bbfbbfc83ad46f4a5df75758cbc1165
-last_modified_at: 2023-11-12
+content_hash: 24babd3a9dbc1144a6cb15fb7592bf928f37636f
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # pacstrap
@@ -31,7 +31,7 @@ More information: <https://man.archlinux.org/man/pacstrap.8>.
 
 `pacstrap -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/new/root</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">packages</span>
 
-- Install packages without copy the host's pacman keyring to the target:
+- Install packages without copy the host's `pacman` keyring to the target:
 
 `pacstrap -G `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/new/root</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">packages</span>
 

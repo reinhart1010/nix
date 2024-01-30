@@ -2,8 +2,8 @@
 layout: page
 title: linux/gdebi (English)
 description: "Simple tool to install `.deb` files."
-content_hash: 619f8a7634e669ca2b77e1fa92b108b31617a22a
-last_modified_at: 2023-11-12
+content_hash: 4fd3d340b98ad451871e485efec07365dfc25f52
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # gdebi
@@ -14,10 +14,6 @@ More information: <https://www.commandlinux.com/man-page/man1/gdebi.1.html>.
 - Install local `.deb` packages resolving and installing its dependencies:
 
 `gdebi `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.deb</span>
-
-- Display the program version:
-
-`gdebi --version`
 
 - Do not show progress information:
 
@@ -30,3 +26,7 @@ More information: <https://www.commandlinux.com/man-page/man1/gdebi.1.html>.
 - Use alternative root dir:
 
 `gdebi `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package.deb</span>` --root=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/root_dir</span>
+
+- Display version:
+
+`gdebi --version`

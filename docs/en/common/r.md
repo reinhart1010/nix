@@ -2,8 +2,8 @@
 layout: page
 title: common/r (English)
 description: "R language interpreter."
-content_hash: 3248a8f8b1c81e32749e2ae8623f510327b843d4
-last_modified_at: 2023-11-12
+content_hash: 47dacc188a76086c8fd25a5c35eff6a8f55e1ccf
+last_modified_at: 2024-01-30
 related_topics:
   - title: français version
     url: /fr/common/r.html
@@ -21,10 +21,6 @@ More information: <https://www.r-project.org>.
 - Start a REPL (interactive shell):
 
 `R`
-
-- Check R version:
-
-`R --version`
 
 - Start R in vanilla mode (i.e. a blank session that doesn't save the workspace at the end):
 
@@ -45,3 +41,7 @@ More information: <https://www.r-project.org>.
 - Check R packages from package sources:
 
 `R CMD check `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/package_source</span>
+
+- Display version:
+
+`R --version`

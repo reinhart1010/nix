@@ -2,18 +2,14 @@
 layout: page
 title: common/phpstan (English)
 description: "A PHP static analysis tool to discover bugs in code."
-content_hash: b18356a51351b9f306c6e080e7805106185a0cbc
-last_modified_at: 2023-11-12
+content_hash: edad4d0d817fad77e41c4a447fb5c68aaa15a893
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # phpstan
 
 A PHP static analysis tool to discover bugs in code.
 More information: <https://github.com/phpstan/phpstan>.
-
-- Display available options for analysis:
-
-`phpstan analyse --help`
 
 - Analyze the specified space-separated directories:
 
@@ -34,3 +30,7 @@ More information: <https://github.com/phpstan/phpstan>.
 - Specify a memory limit during analysis:
 
 `phpstan analyse `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` --memory-limit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">memory_limit</span>
+
+- Display available options for analysis:
+
+`phpstan analyse --help`

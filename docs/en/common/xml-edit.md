@@ -2,8 +2,8 @@
 layout: page
 title: common/xml-edit (English)
 description: "Edit an XML document."
-content_hash: 1683049a96a4ebbcad38ac5957abb0b524ceb79e
-last_modified_at: 2023-11-12
+content_hash: d8619508ea78bd11166acc9438c69d55e3e40da2
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # xml edit
@@ -31,6 +31,6 @@ More information: <http://xmlstar.sourceforge.net/docs.php>.
 
 `xml edit --update "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">xml/table/rec[@id=3]/@id</span>`" -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.xml|URI</span>
 
-- Display help for the `edit` subcommand:
+- Display help:
 
 `xml edit --help`

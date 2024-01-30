@@ -2,8 +2,8 @@
 layout: page
 title: common/git-extras (English)
 description: "Git extension pack."
-content_hash: 993629a555b701dad3eebf14c2c8696c77143288
-last_modified_at: 2023-11-12
+content_hash: df9cfe4fa71fde37e479d9de7d2fcc7888320a20
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # git extras
@@ -15,10 +15,10 @@ More information: <https://github.com/tj/git-extras>.
 
 `git extras update`
 
-- Display help and subcommands:
+- Display help:
 
 `git extras --help`
 
-- Print the version of installed `git-extras`:
+- Display version:
 
 `git extras --version`

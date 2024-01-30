@@ -2,8 +2,8 @@
 layout: page
 title: common/git-gc (English)
 description: "Optimise the local repository by cleaning unnecessary files."
-content_hash: 3a268d897289a51eb4b99308d778bf12ebf81ba6
-last_modified_at: 2023-11-12
+content_hash: ec8a816fbdde9349a83d0159412d466de1e03817
+last_modified_at: 2024-01-30
 related_topics:
   - title: español version
     url: /es/common/git-gc.html
@@ -43,6 +43,6 @@ More information: <https://git-scm.com/docs/git-gc>.
 
 `git gc --quiet`
 
-- View full usage:
+- Display help:
 
 `git gc --help`

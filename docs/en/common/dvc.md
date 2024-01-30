@@ -2,8 +2,8 @@
 layout: page
 title: common/dvc (English)
 description: "Data Version Control: like `git` for data."
-content_hash: 8f0fac9f7c4c178d6a4c490ee0cb7ad420fa5bce
-last_modified_at: 2023-11-12
+content_hash: 883214cec73acac8c4209f76c446631a4452a5c8
+last_modified_at: 2024-01-30
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/dvc.html
@@ -16,9 +16,9 @@ Data Version Control: like `git` for data.
 Some subcommands such as `dvc commit` have their own usage documentation.
 More information: <https://dvc.org/>.
 
-- Check the DVC version:
+- Execute a DVC subcommand:
 
-`dvc --version`
+`dvc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
 
 - Display general help:
 
@@ -28,6 +28,6 @@ More information: <https://dvc.org/>.
 
 `dvc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>` --help`
 
-- Execute a DVC subcommand:
+- Display version:
 
-`dvc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
+`dvc --version`

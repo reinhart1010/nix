@@ -2,8 +2,8 @@
 layout: page
 title: common/tar (English)
 description: "Archiving utility."
-content_hash: ba42bc1ab62affc668675b5c88bc3e2194276fd6
-last_modified_at: 2023-11-12
+content_hash: 83b0c5caa0f2eab59526d04e77fd2ce0f2141727
+last_modified_at: 2024-01-30
 related_topics:
   - title: Deutsch version
     url: /de/common/tar.html
@@ -34,7 +34,7 @@ tldri18n_status: 2
 # tar
 
 Archiving utility.
-Often combined with a compression method, such as gzip or bzip2.
+Often combined with a compression method, such as `gzip` or `bzip2`.
 More information: <https://www.gnu.org/software/tar>.
 
 - [c]reate an archive and write it to a [f]ile:
@@ -61,7 +61,7 @@ More information: <https://www.gnu.org/software/tar>.
 
 `tar caf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/target.tar.xz</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
-- Lis[t] the contents of a tar [f]ile [v]erbosely:
+- Lis[t] the contents of a `tar` [f]ile [v]erbosely:
 
 `tar tvf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source.tar</span>
 

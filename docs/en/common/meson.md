@@ -2,8 +2,8 @@
 layout: page
 title: common/meson (English)
 description: "SCons-like build system that uses Python as a front-end language and Ninja as a building backend."
-content_hash: e14ebecf851afdac6d23e4b677e9a185d9890a78
-last_modified_at: 2023-11-12
+content_hash: 001f56c2aa87d4e5daece0b270cdbe1e96b72504
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # meson
@@ -31,6 +31,6 @@ More information: <https://mesonbuild.com>.
 
 `meson --help`
 
-- Show version info:
+- Display version:
 
 `meson --version`

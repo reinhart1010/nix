@@ -2,8 +2,8 @@
 layout: page
 title: linux/termusic (English)
 description: "A terminal music player written in Rust that uses vim-like key bindings."
-content_hash: d814d1c0f5dc66f24c1fcc1c981644072b4eae2c
-last_modified_at: 2023-11-12
+content_hash: ce5225d8336b2c3ca4287ff069071d7662f20078
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # termusic
@@ -19,6 +19,6 @@ More information: <https://github.com/tramhao/termusic>.
 
 `termusic -c {path/to/music_file}`
 
-- View termusic's usage info:
+- Display help:
 
 `termusic --help`

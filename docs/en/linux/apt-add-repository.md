@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/apt-add-repository (English)
-description: "Manages apt repository definitions."
-content_hash: ac2bc07ff926e098e0b18ac85febe3f4754673a1
-last_modified_at: 2023-11-12
+description: "Manages `apt` repository definitions."
+content_hash: 7c87aca0be92ae106b6daffd400c8d7ac1bdf617
+last_modified_at: 2024-01-30
 related_topics:
   - title: català version
     url: /ca/linux/apt-add-repository.html
@@ -33,14 +33,14 @@ tldri18n_status: 2
 ---
 # apt-add-repository
 
-Manages apt repository definitions.
+Manages `apt` repository definitions.
 More information: <https://manpages.debian.org/latest/software-properties-common/apt-add-repository.1.html>.
 
-- Add a new apt repository:
+- Add a new `apt` repository:
 
 `apt-add-repository `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_spec</span>
 
-- Remove an apt repository:
+- Remove an `apt` repository:
 
 `apt-add-repository --remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_spec</span>
 

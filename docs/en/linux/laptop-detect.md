@@ -2,8 +2,8 @@
 layout: page
 title: linux/laptop-detect (English)
 description: "Attempt to determine if the script is running on a laptop or desktop."
-content_hash: c2c6b674929c8ad7d2c735423171abde9ced450f
-last_modified_at: 2023-11-12
+content_hash: ce4fe748ff748562bc5c993aeb200d2df58ecb1f
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # laptop-detect
@@ -19,6 +19,6 @@ More information: <https://gitlab.com/debiants/laptop-detect>.
 
 `laptop-detect --verbose`
 
-- Display the version:
+- Display version:
 
 `laptop-detect --version`

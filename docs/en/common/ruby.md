@@ -2,8 +2,8 @@
 layout: page
 title: common/ruby (English)
 description: "Ruby programming language interpreter."
-content_hash: d2560c3568912f19397617e9c95fcd35aff8756e
-last_modified_at: 2023-11-12
+content_hash: 400bd081a01ce1931bb89a08c20b87d69e82cc3e
+last_modified_at: 2024-01-30
 related_topics:
   - title: français version
     url: /fr/common/ruby.html
@@ -42,6 +42,6 @@ More information: <https://www.ruby-lang.org>.
 
 `ruby -I `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/library_folder</span>` -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">library_require_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/bin_folder/bin_name</span>
 
-- Show the version of Ruby you are using:
+- Display Ruby version:
 
 `ruby -v`

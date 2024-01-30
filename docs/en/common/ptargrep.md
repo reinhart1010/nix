@@ -2,8 +2,8 @@
 layout: page
 title: common/ptargrep (English)
 description: "Find regular expression patterns in tar archive files."
-content_hash: 4502366af13a521371e29ad6e66bdc715481d3d6
-last_modified_at: 2024-01-25
+content_hash: 989b2b34f30b17ef1d7b93feb8b00205b3c96fbc
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # ptargrep
@@ -11,7 +11,7 @@ tldri18n_status: 2
 Find regular expression patterns in tar archive files.
 More information: <https://manned.org/ptargrep>.
 
-- Search for a pattern within a tar file:
+- Search for a pattern within a `tar` archive:
 
 `ptargrep "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
@@ -23,6 +23,6 @@ More information: <https://manned.org/ptargrep>.
 
 `ptargrep --basename "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Search for a case-insensitive pattern matching within a tar file:
+- Search for a case-insensitive pattern matching within a `tar` archive:
 
 `ptargrep --ignore-case "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>

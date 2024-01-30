@@ -2,8 +2,8 @@
 layout: page
 title: common/hg (English)
 description: "Mercurial - a distributed source control management system."
-content_hash: cb0d7c4817639b7473390445f5d0a1ddd1513d5c
-last_modified_at: 2023-11-12
+content_hash: 26fb2e0144aeb55d14f034f0f778ebd593e399f5
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # hg
@@ -16,11 +16,11 @@ More information: <https://www.mercurial-scm.org>.
 
 `hg `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
-- Call general help:
+- Display help:
 
 `hg help`
 
-- Call help on a command:
+- Display help for a specific command:
 
 `hg help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 

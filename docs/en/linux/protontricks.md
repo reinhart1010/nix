@@ -2,9 +2,12 @@
 layout: page
 title: linux/protontricks (English)
 description: "A simple wrapper that runs Winetricks commands for Proton enabled games."
-content_hash: 3ccbe23fb2e2d8847b133089c3372cac32259516
-last_modified_at: 2023-11-12
+content_hash: 932cdcada5c0ca236793adcb2b88ea884b9fff56
+last_modified_at: 2024-01-30
 related_topics:
+  - title: português (Brasil) version
+    url: /pt_BR/linux/protontricks.html
+    icon: bi bi-globe
   - title: தமிழ் version
     url: /ta/linux/protontricks.html
     icon: bi bi-globe
@@ -35,6 +38,6 @@ More information: <https://github.com/Matoking/protontricks>.
 
 `protontricks -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">game_name</span>
 
-- Show the protontricks help message:
+- Display help:
 
 `protontricks --help`

@@ -2,8 +2,8 @@
 layout: page
 title: common/sublist3r (English)
 description: "Fast subdomains enumeration tool for penetration testers."
-content_hash: 983b56b6d92d085b54ff59c60bd9103ceef2a2c2
-last_modified_at: 2023-11-12
+content_hash: 4cdd5578a0ba59f15d5dbf2bc4adc626ed04a974
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # sublist3r
@@ -23,6 +23,6 @@ More information: <https://github.com/aboul3la/Sublist3r>.
 
 `sublist3r --domain `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">domain_name</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file</span>
 
-- Output all available options:
+- Display help:
 
 `sublist3r --help`

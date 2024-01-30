@@ -2,8 +2,8 @@
 layout: page
 title: common/swipl (English)
 description: "SWI-Prolog - A comprehensive free Prolog environment."
-content_hash: 018bab11fe807ac168c92639a3e552de94057095
-last_modified_at: 2023-11-12
+content_hash: 50154516499cfc0eae94496f89605a8fec5663fe
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # swipl
@@ -27,6 +27,6 @@ More information: <https://www.swi-prolog.org/>.
 
 `swipl --dump-runtime-variables`
 
-- Print the version:
+- Display version:
 
 `swipl --version`

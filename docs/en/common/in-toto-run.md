@@ -2,8 +2,8 @@
 layout: page
 title: common/in-toto-run (English)
 description: "Generating link metadata while carrying out a supply chain step."
-content_hash: fe9ce91997920a17e1210dfa4ee810409bcd28b3
-last_modified_at: 2023-11-12
+content_hash: 5a8e6b53c65ddde6437c61301bb56c14ee74debe
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # in-toto-run
@@ -11,7 +11,7 @@ tldri18n_status: 2
 Generating link metadata while carrying out a supply chain step.
 More information: <https://in-toto.readthedocs.io/en/latest/command-line-tools/in-toto-run.html>.
 
-- Tag a git repo and signing the resulting link file:
+- Tag a Git repo and signing the resulting link file:
 
 `in-toto-run -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span>` --products `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">.</span>` -k `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_file</span>` -- `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">git tag v1.0</span>
 

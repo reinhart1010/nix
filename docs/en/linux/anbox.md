@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/anbox (English)
-description: "Run Android applications on any GNU/Linux operating system."
-content_hash: 3b30c5675f18e9f11563cd732ee014b7b3a65b49
-last_modified_at: 2023-11-12
+description: "Run Android applications on any Linux operating system."
+content_hash: 73ad6c64f6c56d48ac05eb4ea5942cabaf6a719e
+last_modified_at: 2024-01-30
 related_topics:
   - title: Deutsch version
     url: /de/linux/anbox.html
@@ -21,7 +21,7 @@ tldri18n_status: 2
 ---
 # anbox
 
-Run Android applications on any GNU/Linux operating system.
+Run Android applications on any Linux operating system.
 More information: <https://manned.org/anbox>.
 
 - Launch Anbox into the app manager:

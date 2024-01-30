@@ -2,8 +2,8 @@
 layout: page
 title: linux/phar (English)
 description: "Create, update or extract PHP archives (PHAR)."
-content_hash: 30faffa02b1616f8e9dc8f2d0fc0464ef6a03aab
-last_modified_at: 2023-11-12
+content_hash: 59a85df37a7fc1765ebcdc18e4f4c45233e9d8ac
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # phar
@@ -23,10 +23,6 @@ More information: <https://manned.org/phar>.
 
 `phar delete -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/phar_file</span>` -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_or_directory</span>
 
-- Display full usage information and available hashing/compression algorithms:
-
-`phar help`
-
 - Compress or uncompress files and directories in a Phar file:
 
 `phar compress -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/phar_file</span>` -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">algorithm</span>
@@ -42,3 +38,7 @@ More information: <https://manned.org/phar>.
 - Sign a Phar file with an OpenSSL private key:
 
 `phar sign -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/phar_file</span>` -h openssl -y `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/private_key</span>
+
+- Display help and available hashing/compression algorithms:
+
+`phar help`

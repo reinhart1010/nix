@@ -2,8 +2,8 @@
 layout: page
 title: common/grunt (English)
 description: "A JavaScript task runner for automating processes."
-content_hash: f8faa01a6fb33e9d9cf88e70fea172d962d07213
-last_modified_at: 2023-11-12
+content_hash: 89396e06f82248286da1a8939ebf3677a4a7f3ef
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # grunt
@@ -35,6 +35,6 @@ More information: <https://github.com/gruntjs/grunt-cli>.
 
 `grunt --no-write`
 
-- List all available options:
+- Display help:
 
 `grunt --help`

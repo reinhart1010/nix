@@ -2,8 +2,8 @@
 layout: page
 title: common/id3tag (English)
 description: "Tool for reading, writing, and manipulating ID3v1 and ID3v2 tags of MP3 files."
-content_hash: 1c915626bbdf8cee37e0d3f48e5ba1d4ec96dfcc
-last_modified_at: 2024-01-26
+content_hash: 1a8f1a2e9ed2301df46962cfd12c791aaba4e8dd
+last_modified_at: 2024-01-30
 related_topics:
   - title: italiano version
     url: /it/common/id3tag.html
@@ -23,6 +23,6 @@ More information: <https://manned.org/id3tag>.
 
 `id3tag --album=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">album</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.mp3</span>
 
-- Get more help:
+- Display help:
 
 `id3tag --help`

@@ -2,8 +2,8 @@
 layout: page
 title: common/box (English)
 description: "A PHP application for building and managing Phars."
-content_hash: b282456d0b468917fc664ec8683d18da44378a19
-last_modified_at: 2024-01-25
+content_hash: 3390967f54c9b2cbb004c1d8713c16ff802f58e3
+last_modified_at: 2024-01-30
 related_topics:
   - title: italiano version
     url: /it/common/box.html
@@ -42,6 +42,6 @@ More information: <https://github.com/box-project/box>.
 
 `box verify `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/phar_file</span>
 
-- Display all available commands and options:
+- Display help:
 
 `box help`

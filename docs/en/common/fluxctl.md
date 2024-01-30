@@ -2,8 +2,8 @@
 layout: page
 title: common/fluxctl (English)
 description: "Command-line tool for Flux v1."
-content_hash: 72ff9063d20e07dde5b1434f5330a5e108534e20
-last_modified_at: 2023-11-12
+content_hash: d7b685a561a346a7a82ace48625c4a27780789ef
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # fluxctl
@@ -19,7 +19,7 @@ More information: <https://fluxcd.io/legacy/flux/references/fluxctl>.
 
 `fluxctl list-images`
 
-- Synchronize the cluster with the git repository:
+- Synchronize the cluster with the Git repository:
 
 `fluxctl sync`
 

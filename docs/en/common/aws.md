@@ -2,8 +2,8 @@
 layout: page
 title: common/aws (English)
 description: "The official CLI tool for Amazon Web Services."
-content_hash: 8e65f3ba899595b369864578538a4c519b0d1602
-last_modified_at: 2023-11-12
+content_hash: f676cf66ee323292bd998ee032cf0d04c8c88e2a
+last_modified_at: 2024-01-30
 related_topics:
   - title: Deutsch version
     url: /de/common/aws.html
@@ -45,10 +45,6 @@ More information: <https://aws.amazon.com/cli>.
 
 `aws configure sso`
 
-- See help text for the AWS command:
-
-`aws `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` help`
-
 - Get the caller identity (used to troubleshoot permissions):
 
 `aws sts get-caller-identity`
@@ -68,3 +64,7 @@ More information: <https://aws.amazon.com/cli>.
 - Generate a JSON CLI Skeleton (useful for infrastructure as code):
 
 `aws dynamodb update-table --generate-cli-skeleton`
+
+- Display help for a specific command:
+
+`aws `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` help`

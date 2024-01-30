@@ -2,8 +2,8 @@
 layout: page
 title: common/pvecm (English)
 description: "Proxmox VE Cluster Manager."
-content_hash: 631f00b6a27a2871075e579588070f21a2af31d8
-last_modified_at: 2023-11-12
+content_hash: 6feb3edd9ad3cf1f97dd3952da12bea966015775
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # pvecm
@@ -19,7 +19,7 @@ More information: <https://pve.proxmox.com/pve-docs/pvecm.1.html>.
 
 `pvecm addnode `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">node</span>
 
-- Return the version of the cluster join API available on this node:
+- Display the version of the cluster join API available on this node:
 
 `pvecm apiver`
 

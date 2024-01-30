@@ -2,8 +2,8 @@
 layout: page
 title: common/mingle (English)
 description: "Bundle the edges of a graph layout."
-content_hash: 2951d77c8977cc6560424ba8fb203335d59d99a3
-last_modified_at: 2023-11-12
+content_hash: 99a6eca2748c853ca2d421bb3b1f35feb4eb2152
+last_modified_at: 2024-01-30
 related_topics:
   - title: 中文 version
     url: /zh/common/mingle.html
@@ -24,6 +24,6 @@ More information: <https://www.graphviz.org/pdf/mingle.1.pdf>.
 
 `dot `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.gv</span>` | mingle | dot -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">png</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.png</span>
 
-- Display help for `mingle`:
+- Display help:
 
 `mingle -?`

@@ -2,8 +2,8 @@
 layout: page
 title: common/rustup-help (English)
 description: "Display help on `rustup` and its subcommands."
-content_hash: 62296cfa6df1a05f6336041324360f42cf80ab0b
-last_modified_at: 2023-11-12
+content_hash: 80a8edfb31e668353e2e9aaddccf3ef3cdee541d
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # rustup help
@@ -11,7 +11,7 @@ tldri18n_status: 2
 Display help on `rustup` and its subcommands.
 More information: <https://rust-lang.github.io/rustup>.
 
-- Display general help:
+- Display help:
 
 `rustup help`
 

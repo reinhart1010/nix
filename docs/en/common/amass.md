@@ -2,8 +2,8 @@
 layout: page
 title: common/amass (English)
 description: "In-depth Attack Surface Mapping and Asset Discovery tool."
-content_hash: 5476694f3d4029e32b9bcbc1fd05db1a6ccb9aa0
-last_modified_at: 2023-12-27
+content_hash: b8af0751fe58f133e28e403bc34bb3837aed55e1
+last_modified_at: 2024-01-30
 related_topics:
   - title: español version
     url: /es/common/amass.html
@@ -32,7 +32,7 @@ More information: <https://github.com/OWASP/Amass>.
 
 `amass `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
 
-- Show general help:
+- Display help:
 
 `amass -help`
 

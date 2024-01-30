@@ -2,8 +2,8 @@
 layout: page
 title: common/makensis (English)
 description: "Cross-platform compiler for NSIS installers."
-content_hash: 6cc9e4943469a0dcb2f120b315c8ad4d7a2b3fa6
-last_modified_at: 2023-11-12
+content_hash: 6e1fe20d6962047666309e8ccfa05b3871636689
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # makensis
@@ -20,6 +20,6 @@ More information: <https://nsis.sourceforge.io/Docs/Chapter3.html>.
 
 `makensis -WX `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.nsi</span>
 
-- Print help for a specific command:
+- Display help for a specific command:
 
 `makensis -CMDHELP `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>

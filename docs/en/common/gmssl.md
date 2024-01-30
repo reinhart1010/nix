@@ -2,8 +2,8 @@
 layout: page
 title: common/gmssl (English)
 description: "GmSSL is a crypto toolkit supporting SM1, SM2, SM3, SM4, SM9, and ZUC/ZUC256."
-content_hash: c24f13b19ea53583ae58fa195e9633676e140242
-last_modified_at: 2023-11-12
+content_hash: a6d8509b2a5db2f661222c7846bf29e90e52057d
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # gmssl
@@ -39,6 +39,6 @@ More information: <http://gmssl.org/english.html>.
 
 `gmssl zuc -d -in `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.zuc</span>
 
-- Print version:
+- Display version:
 
 `gmssl version`

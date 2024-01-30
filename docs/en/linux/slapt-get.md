@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/slapt-get (English)
-description: "An apt like system for Slackware package management."
-content_hash: ca5edc718ea52f3a3672c65a20bf3d162ab11608
-last_modified_at: 2023-11-12
+description: "An `apt` like system for Slackware package management."
+content_hash: 643b3d073688b4c62e8c28ce1b95aeb6eb24ecbc
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # slapt-get
 
-An apt like system for Slackware package management.
+An `apt` like system for Slackware package management.
 Package sources need to be configured in the slapt-getrc file.
 More information: <https://software.jaos.org>.
 

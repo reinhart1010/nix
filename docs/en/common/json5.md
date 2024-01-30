@@ -2,8 +2,8 @@
 layout: page
 title: common/json5 (English)
 description: "A command-line tool for converting JSON5 files to JSON."
-content_hash: 97cd970f2b7a3262a19912123bb5a8c06e7e9957
-last_modified_at: 2023-11-12
+content_hash: d093a567d7e9d5b7cae538b543ea4686a7561918
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # json5
@@ -31,6 +31,6 @@ More information: <https://json5.org>.
 
 `json5 --space `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">indent_amount</span>
 
-- View available options:
+- Display help:
 
 `json5 --help`

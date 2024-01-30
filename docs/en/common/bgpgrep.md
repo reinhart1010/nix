@@ -2,8 +2,8 @@
 layout: page
 title: common/bgpgrep (English)
 description: "Filter and print BGP data within MRT dumps."
-content_hash: 8c4d829a4bdd9905ad22bf4e8e352a0847d462c3
-last_modified_at: 2023-11-12
+content_hash: b5665cad8fdb56b588e849231d4cb84006cd600d
+last_modified_at: 2024-01-30
 related_topics:
   - title: Deutsch version
     url: /de/common/bgpgrep.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # bgpgrep
 
 Filter and print BGP data within MRT dumps.
-Can read files compressed with gzip, bzip2 and xz.
+Can read files compressed with `gzip`, `bzip2` and `xz`.
 More information: <https://codeberg.org/1414codeforge/ubgpsuite>.
 
 - Output all routes:

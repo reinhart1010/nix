@@ -2,8 +2,8 @@
 layout: page
 title: common/clifm (English)
 description: "The command-line file manager."
-content_hash: 0f7d6c0d0ab1a0eff8bdbacdf6ab1011d99cb16b
-last_modified_at: 2023-11-12
+content_hash: 42bc8c6d439b92a076b09cdaad75559dcf7ccedf
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # clifm
@@ -35,7 +35,7 @@ More information: <https://github.com/leo-arch/clifm>.
 
 `r sel`
 
-- Display detailed help:
+- Display help:
 
 `?`
 

@@ -2,8 +2,8 @@
 layout: page
 title: windows/more (English)
 description: "Display paginated output from `stdin` or a file."
-content_hash: 42d86ac57ec4e68b652c7be646ec89199e57e74a
-last_modified_at: 2023-11-12
+content_hash: 215cf9507ba1c9f92d4c7b5c2aac607ffad9be2b
+last_modified_at: 2024-01-30
 related_topics:
   - title: 中文 version
     url: /zh/windows/more.html
@@ -42,6 +42,6 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 `more `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file</span>` /e`
 
-- Display full usage information:
+- Display help:
 
 `more /?`

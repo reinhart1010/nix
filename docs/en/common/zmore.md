@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/zmore (English)
-description: "View gzip compressed files with `more`."
-content_hash: 0a60da969ea097a32efc33886d4d8180e5275c3c
-last_modified_at: 2023-11-12
+description: "View `gzip` compressed files with `more`."
+content_hash: 4bc6f7457cf0a6403eb0d57a524eeb952c5ea8c7
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # zmore
 
-View gzip compressed files with `more`.
+View `gzip` compressed files with `more`.
 More information: <https://manned.org/zmore>.
 
 - Open a compressed file:

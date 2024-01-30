@@ -2,8 +2,8 @@
 layout: page
 title: common/unflatten (English)
 description: "Adjust directed graphs to improve the layout aspect ratio."
-content_hash: 7d8fc1ce3b0fa7e7abdd91823b3bfa50af068620
-last_modified_at: 2023-11-12
+content_hash: 90db8207c553422dcf807dc0d6c4675e48e0e664
+last_modified_at: 2024-01-30
 related_topics:
   - title: 中文 version
     url: /zh/common/unflatten.html
@@ -24,6 +24,6 @@ More information: <https://www.graphviz.org/pdf/unflatten.1.pdf>.
 
 `unflatten `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.gv</span>` | dot -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">png</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.png</span>
 
-- Display help for `unflatten`:
+- Display help:
 
 `unflatten -?`

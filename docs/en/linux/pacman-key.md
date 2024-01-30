@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman-key (English)
 description: "Wrapper script for GnuPG used to manage pacman's keyring."
-content_hash: 43b50cc38ef1c83503b87a73c9379b7643ab7442
-last_modified_at: 2023-11-12
+content_hash: 00018acb7efdf6c23ede8941860bd46425bdbfa4
+last_modified_at: 2024-01-30
 related_topics:
   - title: français version
     url: /fr/linux/pacman-key.html
@@ -22,7 +22,7 @@ Wrapper script for GnuPG used to manage pacman's keyring.
 See also: `pacman`.
 More information: <https://man.archlinux.org/man/pacman-key>.
 
-- Initialize the pacman keyring:
+- Initialize the `pacman` keyring:
 
 `sudo pacman-key --init`
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/xml (English)
 description: "XMLStarlet Toolkit: Query, edit, check, convert and transform XML documents."
-content_hash: 2779593486d438d0f7b9a7d8d69e12b1ef74d932
-last_modified_at: 2023-11-12
+content_hash: 58bbe4109f2fa30b5b53a2168a90509c20e8b198
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # xml
@@ -28,10 +28,10 @@ More information: <http://xmlstar.sourceforge.net/docs.php>.
 
 `xml `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">options</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.xml|URI</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output</span>
 
-- Display help for a subcommand:
+- Display help for a specific subcommand:
 
 `xml `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>` --help`
 
-- Display the version of the XMLStarlet Toolkit:
+- Display version:
 
 `xml --version`

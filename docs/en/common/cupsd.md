@@ -2,8 +2,15 @@
 layout: page
 title: common/cupsd (English)
 description: "Server daemon for the CUPS print server."
-content_hash: cc746571a53ec218f70a4c16a986447fe22e4521
-last_modified_at: 2023-12-28
+content_hash: 7c5229036dac8ef159f3ae792d90ac17c21b927f
+last_modified_at: 2024-01-30
+related_topics:
+  - title: Nederlands version
+    url: /nl/common/cupsd.html
+    icon: bi bi-globe
+  - title: português (Brasil) version
+    url: /pt_BR/common/cupsd.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # cupsd
@@ -39,6 +46,6 @@ More information: <https://openprinting.github.io/cups/doc/man-cupsd.html>.
 
 `cupsd -t -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/cups-files.conf</span>
 
-- Display all available options:
+- Display help:
 
 `cupsd -h`

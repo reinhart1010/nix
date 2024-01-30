@@ -2,8 +2,8 @@
 layout: page
 title: linux/top (English)
 description: "Display dynamic real-time information about running processes."
-content_hash: 8e349ca34f9fa52d38ce3911c04bedd212d59944
-last_modified_at: 2023-11-12
+content_hash: 017d65c6f1610ddcd0e9506491ad7da8871db2d8
+last_modified_at: 2024-01-30
 related_topics:
   - title: català version
     url: /ca/linux/top.html
@@ -48,6 +48,6 @@ More information: <https://manned.org/top>.
 
 `top -p $(pgrep -d ',' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">process_name</span>`)`
 
-- Get help about interactive commands:
+- Display help about interactive commands:
 
 `?`

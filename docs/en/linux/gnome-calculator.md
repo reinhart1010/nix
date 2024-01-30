@@ -2,8 +2,8 @@
 layout: page
 title: linux/gnome-calculator (English)
 description: "The official calculator for the GNOME desktop environment."
-content_hash: b1f014d30df01cd3bd25a3bb1cd34011c5db6919
-last_modified_at: 2023-11-12
+content_hash: 13b11f296e76e6a97b2aabab415ca2d8cbffac4f
+last_modified_at: 2024-01-30
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/gnome-calculator.html
@@ -26,6 +26,6 @@ More information: <https://wiki.gnome.org/Apps/Calculator>.
 
 `gnome-calculator --solve `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">2^5 * 2 + 5</span>
 
-- Display the version:
+- Display version:
 
 `gnome-calculator --version`

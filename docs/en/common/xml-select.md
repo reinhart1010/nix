@@ -2,8 +2,8 @@
 layout: page
 title: common/xml-select (English)
 description: "Select from XML documents using XPATHs."
-content_hash: d50cf5ca98f56ea52a00959150c3bbbb3669d53e
-last_modified_at: 2023-11-12
+content_hash: 16611994007633cda77e5dbcf6c316bbfa4d8a74
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # xml select
@@ -28,6 +28,6 @@ More information: <http://xmlstar.sourceforge.net/docs.php>.
 
 `xml select --text --template --inp-name --output " " --value-of "count(node())" --nl `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input1.xml|URI</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input2.xml|URI</span>
 
-- Display help for the `select` subcommand:
+- Display help:
 
 `xml select --help`

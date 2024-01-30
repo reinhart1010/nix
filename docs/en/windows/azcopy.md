@@ -2,8 +2,8 @@
 layout: page
 title: windows/azcopy (English)
 description: "A file transfer tool for uploading to Azure Cloud Storage Accounts."
-content_hash: aa98ee51545d24934a5c9b5ca7871fb5160824d3
-last_modified_at: 2023-11-12
+content_hash: f5baee402dff69abd16dd1df387a14831f51d469
+last_modified_at: 2024-01-30
 related_topics:
   - title: தமிழ் version
     url: /ta/windows/azcopy.html
@@ -35,6 +35,6 @@ More information: <https://learn.microsoft.com/azure/storage/common/storage-use-
 
 `azcopy sync '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\source_directory</span>`' 'https://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">storage_account_name</span>`.blob.core.windows.net/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>`' --recursive --delete-destination=true`
 
-- Display detailed usage information:
+- Display help:
 
 `azcopy --help`

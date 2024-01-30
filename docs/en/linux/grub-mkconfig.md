@@ -2,8 +2,8 @@
 layout: page
 title: linux/grub-mkconfig (English)
 description: "Generate a GRUB configuration file."
-content_hash: daea240831383e0f52063e4fb0012066e6b694e9
-last_modified_at: 2023-11-12
+content_hash: 6d1707f948b0d150280b7eeb07b542919552586b
+last_modified_at: 2024-01-30
 related_topics:
   - title: español version
     url: /es/linux/grub-mkconfig.html
@@ -26,6 +26,6 @@ More information: <https://www.gnu.org/software/grub/manual/grub/html_node/Invok
 
 `sudo grub-mkconfig --output=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/boot/grub/grub.cfg</span>
 
-- Print the help page:
+- Display help:
 
 `grub-mkconfig --help`

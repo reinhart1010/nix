@@ -2,8 +2,8 @@
 layout: page
 title: common/noti (English)
 description: "Monitor a process and trigger a banner notification."
-content_hash: c3cf95c3250b4bab88addc464d79e1d1ccfd35c3
-last_modified_at: 2023-11-12
+content_hash: cc36f4aab2388251a5c405e59171cc36381b37a3
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # noti
@@ -11,7 +11,7 @@ tldri18n_status: 2
 Monitor a process and trigger a banner notification.
 More information: <https://github.com/variadico/noti>.
 
-- Display a notification when tar finishes compressing files:
+- Display a notification when `tar` finishes compressing files:
 
 `noti `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tar -cjf example.tar.bz2 example/</span>
 

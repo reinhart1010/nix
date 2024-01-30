@@ -2,8 +2,8 @@
 layout: page
 title: common/bpytop (English)
 description: "A resource monitor that shows information about the CPU, memory, disks, network and processes."
-content_hash: 79ef7b3318f97a341a00865c343ab687b0bb0115
-last_modified_at: 2023-12-27
+content_hash: c5282efa07bd69d5e855ca305f0297876e642dd8
+last_modified_at: 2024-01-30
 related_topics:
   - title: català version
     url: /ca/common/bpytop.html
@@ -30,10 +30,6 @@ More information: <https://github.com/aristocratos/bpytop>.
 
 `bpytop -m`
 
-- Display version:
-
-`bpytop -v`
-
 - Toggle minimal mode:
 
 `m`
@@ -45,3 +41,7 @@ More information: <https://github.com/aristocratos/bpytop>.
 - Change settings:
 
 `M`
+
+- Display version:
+
+`bpytop -v`

@@ -2,8 +2,8 @@
 layout: page
 title: common/gt (English)
 description: "Create and manage sequences of dependent code changes (stacks) for Git and GitHub."
-content_hash: 0e3ebc7cc2f7d36a5fd24f0a70e5b4f9975bf7e5
-last_modified_at: 2023-11-12
+content_hash: 6c7490a0b720905ee3a3badb7505b02d7d501fb7
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # gt
@@ -35,6 +35,6 @@ More information: <https://docs.graphite.dev>.
 
 `gt log short`
 
-- Print help for a specified subcommand:
+- Display help for a specified subcommand:
 
 `gt `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>` --help`

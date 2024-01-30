@@ -2,18 +2,14 @@
 layout: page
 title: common/gh-completion (English)
 description: "Generate shell completion scripts for GitHub CLI commands."
-content_hash: 1743442bf2cc3209ebc41b59ee870589c0163db6
-last_modified_at: 2023-11-12
+content_hash: fb0e807b5f5b6503d5550a768727cfd803fb0f26
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # gh completion
 
 Generate shell completion scripts for GitHub CLI commands.
 More information: <https://cli.github.com/manual/gh_completion>.
-
-- Display the subcommand help:
-
-`gh completion`
 
 - Print a completion script:
 
@@ -26,3 +22,7 @@ More information: <https://cli.github.com/manual/gh_completion>.
 - Append the `gh` completion script to `~/.zshrc`:
 
 `gh completion --shell `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zsh</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.zshrc</span>
+
+- Display the subcommand help:
+
+`gh completion`

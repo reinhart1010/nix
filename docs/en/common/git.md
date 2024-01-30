@@ -2,8 +2,8 @@
 layout: page
 title: common/git (English)
 description: "Distributed version control system."
-content_hash: 77b8e11d1a4a70e7287fb69eb85277ee579b01f9
-last_modified_at: 2023-12-27
+content_hash: d127166bfed4863ed08224760665615293f9bc0d
+last_modified_at: 2024-01-30
 related_topics:
   - title: Deutsch version
     url: /de/common/git.html
@@ -58,18 +58,6 @@ Distributed version control system.
 Some subcommands such as `commit`, `add`, `branch`, `checkout`, `push`, etc. have their own usage documentation.
 More information: <https://git-scm.com/>.
 
-- Check the Git version:
-
-`git --version`
-
-- Show general help:
-
-`git --help`
-
-- Display help on a Git subcommand (like `clone`, `add`, `push`, `log`, etc.):
-
-`git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
-
 - Execute a Git subcommand:
 
 `git `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
@@ -81,3 +69,15 @@ More information: <https://git-scm.com/>.
 - Execute a Git subcommand with a given configuration set:
 
 `git -c '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config.key</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span>`' `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
+
+- Display help:
+
+`git --help`
+
+- Display help for a specific subcommand (like `clone`, `add`, `push`, `log`, etc.):
+
+`git help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
+
+- Display version:
+
+`git --version`

@@ -2,8 +2,8 @@
 layout: page
 title: common/venv (English)
 description: "Create lightweight virtual environments in python."
-content_hash: 62c3761a7cc257ee64d3f0d01b293e234459cb5c
-last_modified_at: 2023-11-12
+content_hash: a9f44e821aa3d9fb94f7ab755c7d49de03948dfe
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # venv
@@ -11,7 +11,7 @@ tldri18n_status: 2
 Create lightweight virtual environments in python.
 More information: <https://docs.python.org/3/library/venv.html>.
 
-- Create a python virtual environment:
+- Create a Python virtual environment:
 
 ` python -m venv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/virtual_environment</span>
 

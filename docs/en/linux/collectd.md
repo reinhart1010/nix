@@ -2,18 +2,14 @@
 layout: page
 title: linux/collectd (English)
 description: "System statistics collection daemon."
-content_hash: 75c8e8dd653076e14c10b6fd0ac2d6cb5ae036cd
-last_modified_at: 2023-11-12
+content_hash: d4c1ea608c163816e605fb3dd429e14cbc41c2b4
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # collectd
 
 System statistics collection daemon.
 More information: <https://collectd.org/>.
-
-- Show usage help, including the program version:
-
-`collectd -h`
 
 - Test the configuration file and then exit:
 
@@ -38,3 +34,7 @@ More information: <https://collectd.org/>.
 - Don't fork into the background:
 
 `collectd -f`
+
+- Display help and version:
+
+`collectd -h`

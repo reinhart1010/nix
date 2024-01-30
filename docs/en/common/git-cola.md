@@ -2,8 +2,12 @@
 layout: page
 title: common/git-cola (English)
 description: "A powerful Git GUI with a slick and intuitive user interface."
-content_hash: c545578f75fa5357eeb21440ddf56ace281eccb3
-last_modified_at: 2023-11-12
+content_hash: a76311b822f9c0f84d68ebde232ddcbef5ba4cd6
+last_modified_at: 2024-01-30
+related_topics:
+  - title: Nederlands version
+    url: /nl/common/git-cola.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # git cola
@@ -11,11 +15,11 @@ tldri18n_status: 2
 A powerful Git GUI with a slick and intuitive user interface.
 More information: <https://git-cola.readthedocs.io>.
 
-- Start git cola:
+- Start the GUI:
 
 `git cola`
 
-- Start git cola in amend mode:
+- Start the GUI in amend mode:
 
 `git cola --amend`
 

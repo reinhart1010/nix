@@ -2,8 +2,8 @@
 layout: page
 title: common/java (English)
 description: "Java application launcher."
-content_hash: 33458bdeecadf32b6592b7063b77849d42110a12
-last_modified_at: 2023-11-12
+content_hash: b523db9f9192bf4db243bc49533c0d512763fe89
+last_modified_at: 2024-01-30
 related_topics:
   - title: Indonesia version
     url: /id/common/java.html
@@ -30,11 +30,11 @@ tldri18n_status: 2
 Java application launcher.
 More information: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/java.html>.
 
-- Execute a java `.class` file that contains a main method by using just the class name:
+- Execute a Java `.class` file that contains a main method by using just the class name:
 
 `java `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">classname</span>
 
-- Execute a java program and use additional third-party or user-defined classes:
+- Execute a Java program and use additional third-party or user-defined classes:
 
 `java -classpath `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/classes1</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/classes2</span>`:. `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">classname</span>
 
@@ -50,6 +50,6 @@ More information: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/java
 
 `java -version`
 
-- Display usage information for the java command:
+- Display help:
 
 `java -help`

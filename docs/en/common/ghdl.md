@@ -2,8 +2,8 @@
 layout: page
 title: common/ghdl (English)
 description: "Open-source simulator for the VHDL language."
-content_hash: 85b6ff475605dc6cba1d33e01aacb837126aab4c
-last_modified_at: 2023-11-12
+content_hash: 0a60b9a8a81c3a65cfbc11d472cb71b4ce4e40cb
+last_modified_at: 2024-01-30
 related_topics:
   - title: français version
     url: /fr/common/ghdl.html
@@ -35,6 +35,6 @@ More information: <http://ghdl.free.fr>.
 
 `ghdl -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">filename.vhdl</span>
 
-- Display the help page:
+- Display help:
 
 `ghdl --help`

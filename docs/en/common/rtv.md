@@ -2,8 +2,8 @@
 layout: page
 title: common/rtv (English)
 description: "Reddit Terminal Viewer."
-content_hash: 7285fa0b28f78891b37c80300f7ebda0edfec3aa
-last_modified_at: 2023-11-12
+content_hash: c02eedef7cedabd712daf3c6a0a3d93114f85411
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # rtv
@@ -32,6 +32,6 @@ More information: <https://github.com/michael-lazar/rtv>.
 
 `u`
 
-- Open the help screen:
+- Display help:
 
 `?`

@@ -2,8 +2,8 @@
 layout: page
 title: linux/envycontrol (English)
 description: "GPU switching utility for Nvidia Optimus laptops."
-content_hash: 8c17ed69a05dd634ccf6eeb51d348bd75789c113
-last_modified_at: 2023-11-12
+content_hash: f69b7351382622b21767008661db63b3432214fa
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # envycontrol
@@ -27,10 +27,10 @@ More information: <https://github.com/bayasdev/envycontrol>.
 
 `sudo envycontrol --reset`
 
-- Display version:
-
-`envycontrol --version`
-
 - Display help:
 
 `envycontrol --help`
+
+- Display version:
+
+`envycontrol --version`

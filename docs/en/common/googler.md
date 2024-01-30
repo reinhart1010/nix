@@ -2,8 +2,8 @@
 layout: page
 title: common/googler (English)
 description: "Search Google from command-line."
-content_hash: 23f016571f104f5095c26b4a69b5e3b2e02aa3e1
-last_modified_at: 2023-11-12
+content_hash: 147b80e00d990f1630a007cc6f4fe2486fbfed32
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # googler
@@ -39,6 +39,6 @@ More information: <https://github.com/jarun/googler>.
 
 `googler -u`
 
-- For more help in interactive mode:
+- Display help in interactive mode:
 
 `?`

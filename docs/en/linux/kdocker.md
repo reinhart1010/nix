@@ -2,8 +2,8 @@
 layout: page
 title: linux/kdocker (English)
 description: "Easily dock applications to the system tray."
-content_hash: a7673b2181dca8524f4dfa152a8c77aad72a42ae
-last_modified_at: 2023-11-12
+content_hash: adb0aa64cd05c022c394996d1a516493e0b30dbd
+last_modified_at: 2024-01-30
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/kdocker.html
@@ -35,6 +35,6 @@ More information: <https://github.com/user-none/KDocker>.
 
 `kdocker -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application</span>
 
-- Print version:
+- Display version:
 
 `kdocker --version`

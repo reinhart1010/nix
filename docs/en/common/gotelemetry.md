@@ -2,8 +2,8 @@
 layout: page
 title: common/gotelemetry (English)
 description: "A tool for managing Go telemetry data and settings."
-content_hash: 8d61084a60496b74da00717fe57ede9d9dfba109
-last_modified_at: 2023-11-12
+content_hash: 725385f3d49a739c096333727708358efea49c88
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # gotelemetry
@@ -27,6 +27,6 @@ More information: <https://telemetry.go.dev/privacy#collection>.
 
 `gotelemetry env`
 
-- Show details about any subcommand:
+- Display help for a specific subcommand:
 
 `gotelemetry help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>

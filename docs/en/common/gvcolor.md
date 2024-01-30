@@ -2,8 +2,8 @@
 layout: page
 title: common/gvcolor (English)
 description: "Colorize a ranked digraph with a range of colors."
-content_hash: 4ec7b8afa213d074f49d89024a6491c76efc4144
-last_modified_at: 2023-11-12
+content_hash: 17731cecb32a9b8e3fa8a4424574811332a46b5e
+last_modified_at: 2024-01-30
 related_topics:
   - title: 中文 version
     url: /zh/common/gvcolor.html
@@ -24,6 +24,6 @@ More information: <https://graphviz.org/pdf/gvcolor.1.pdf>.
 
 `dot `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.gv</span>` | gvcolor | dot -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">png</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.png</span>
 
-- Display help for `gvcolor`:
+- Display help:
 
 `gvcolor -?`

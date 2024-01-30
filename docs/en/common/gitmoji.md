@@ -2,8 +2,8 @@
 layout: page
 title: common/gitmoji (English)
 description: "An interactive command-line tool for using emojis on commits."
-content_hash: 630e359cef4d5a611023436892a9f6d933c657fa
-last_modified_at: 2023-11-12
+content_hash: 01ec30ab9d131477e5f22508258708756f91613d
+last_modified_at: 2024-01-30
 related_topics:
   - title: 한국어 version
     url: /ko/common/gitmoji.html
@@ -22,11 +22,11 @@ More information: <https://github.com/carloscuesta/gitmoji-cli>.
 
 `gitmoji --commit`
 
-- Initialize the git hook (so `gitmoji` will be run every time `git commit` is run):
+- Initialize the Git hook (so `gitmoji` will be run every time `git commit` is run):
 
 `gitmoji --init`
 
-- Remove the git hook:
+- Remove the Git hook:
 
 `gitmoji --remove`
 

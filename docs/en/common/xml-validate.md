@@ -2,8 +2,8 @@
 layout: page
 title: common/xml-validate (English)
 description: "Validate XML documents."
-content_hash: 62f6ff8ac6f012ab0745ce5176713a54a35770d7
-last_modified_at: 2023-11-12
+content_hash: 7a18bf9269d535213c8cbbc4600eb04849b1938f
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # xml validate
@@ -27,6 +27,6 @@ More information: <http://xmlstar.sourceforge.net/docs.php>.
 
 `xml validate --relaxng `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/schema.rng</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input1.xml|URI</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">input2.xml ...</span>
 
-- Display help for the `validate` subcommand:
+- Display help:
 
 `xml validate --help`

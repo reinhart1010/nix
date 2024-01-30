@@ -2,9 +2,12 @@
 layout: page
 title: common/django-admin (English)
 description: "Django’s utility for administrative tasks."
-content_hash: 2bde00761ccc8b230992b1798a16af1acfc56c58
-last_modified_at: 2023-11-23
+content_hash: 0e388ae7ed157c41cf2a286c8fe3ef5359c6f2be
+last_modified_at: 2024-01-30
 related_topics:
+  - title: فارسی version
+    url: /fa/common/django-admin.html
+    icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/django-admin.html
     icon: bi bi-globe
@@ -27,6 +30,6 @@ More information: <https://docs.djangoproject.com/en/4.2/ref/django-admin/>.
 
 `django-admin --version`
 
-- Display more information for the given command:
+- Display help for a specific command:
 
 `django-admin help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>

@@ -2,8 +2,8 @@
 layout: page
 title: osx/xcrun (English)
 description: "Run or locate development tools and properties."
-content_hash: a3d409dd9f327a2269a40585a37d7f31b603f8c6
-last_modified_at: 2023-11-12
+content_hash: d8db3eee570d8645002bea96bba16885dec9cfe7
+last_modified_at: 2024-01-30
 related_topics:
   - title: español version
     url: /es/osx/xcrun.html
@@ -31,10 +31,10 @@ More information: <https://www.unix.com/man-page/osx/1/xcrun/>.
 
 `xcrun --toolchain `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>
 
-- Display version:
-
-`xcrun --version`
-
 - Display help:
 
 `xcrun --help`
+
+- Display version:
+
+`xcrun --version`

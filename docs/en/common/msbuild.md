@@ -2,8 +2,8 @@
 layout: page
 title: common/msbuild (English)
 description: "The Microsoft build tool for Visual Studio project solutions."
-content_hash: c9fbd4e7f2fb6c0f29d0afdb637e7ba9757924b9
-last_modified_at: 2023-11-12
+content_hash: 650b024c43bcf87c6d899565789e5cee5db7654e
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # msbuild
@@ -35,6 +35,6 @@ More information: <https://learn.microsoft.com/visualstudio/msbuild>.
 
 `msbuild `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/project_file</span>` /detailedsummary`
 
-- Display detailed help information:
+- Display help:
 
 `msbuild /help`

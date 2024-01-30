@@ -2,8 +2,8 @@
 layout: page
 title: common/wuzz (English)
 description: "Tool to interactively inspect HTTP requests and responses."
-content_hash: 6689802ea3ee82af3c9b5c079e3b91635904e043
-last_modified_at: 2023-12-29
+content_hash: 73016df2b4c46e0ae0020c58559dbe2abffbfe67
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # wuzz
@@ -14,10 +14,6 @@ More information: <https://github.com/asciimoo/wuzz>.
 - Start `wuzz`:
 
 `wuzz`
-
-- Display help information:
-
-`F1`
 
 - Send an HTTP request:
 
@@ -30,3 +26,7 @@ More information: <https://github.com/asciimoo/wuzz>.
 - Switch to the previous view:
 
 `<Ctrl> + K, <Shift> + <Tab>`
+
+- Display help:
+
+`F1`

@@ -2,8 +2,8 @@
 layout: page
 title: common/scc (English)
 description: "Tool written in Go that counts lines of code."
-content_hash: d89e1dd69a852ad621677b77fa5b9357068c3fc7
-last_modified_at: 2024-01-13
+content_hash: ac153fa6e8d612602e98c9528f3d9b0f19683b3d
+last_modified_at: 2024-01-30
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/scc.html
@@ -43,6 +43,6 @@ More information: <https://github.com/boyter/scc>.
 
 `scc --sort `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">files|name|lines|blanks|code|comments|complexity</span>
 
-- Print help for scc:
+- Display help:
 
 `scc -h`

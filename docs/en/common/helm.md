@@ -2,8 +2,8 @@
 layout: page
 title: common/helm (English)
 description: "A package manager for Kubernetes."
-content_hash: f7662afb50ed0cd1e00c702a665709a6bb0fccfa
-last_modified_at: 2023-11-15
+content_hash: f0a413a898b521fb3703127d9c7fbc3e6fb19a59
+last_modified_at: 2024-01-30
 related_topics:
   - title: español version
     url: /es/common/helm.html
@@ -46,7 +46,7 @@ More information: <https://helm.sh/>.
 
 `helm install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">repository_name</span>`/`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chart_name</span>
 
-- Download helm chart as a tar archive:
+- Download helm chart as a `tar` archive:
 
 `helm get `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">chart_release_name</span>
 

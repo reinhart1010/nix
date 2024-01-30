@@ -2,8 +2,8 @@
 layout: page
 title: linux/getconf (English)
 description: "Get configuration values from your Linux system."
-content_hash: e2a1faec0f699974e12f9d3def1a9f02e3dbf02c
-last_modified_at: 2023-11-12
+content_hash: 4dd8ef07fd846586d10291a4fa461ac095d26bc0
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # getconf
@@ -27,6 +27,6 @@ More information: <https://manned.org/getconf.1>.
 
 `getconf CHILD_MAX`
 
-- List every configuration value and then find patterns with the grep command (i.e every value with MAX in it):
+- List every configuration value and then find patterns with the `grep` command (i.e every value with MAX in it):
 
 `getconf -a | grep MAX`

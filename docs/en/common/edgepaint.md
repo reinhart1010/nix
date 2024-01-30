@@ -2,8 +2,8 @@
 layout: page
 title: common/edgepaint (English)
 description: "Colorize edges of a graph layout to clarify crossing edges."
-content_hash: c8df23f551533cb535b4eb73dbbb2cde6f4318bc
-last_modified_at: 2023-11-12
+content_hash: 476bd4b12f8985bf2d36fc91320ba92e6239f926
+last_modified_at: 2024-01-30
 related_topics:
   - title: 中文 version
     url: /zh/common/edgepaint.html
@@ -28,6 +28,6 @@ More information: <https://graphviz.org/pdf/edgepaint.1.pdf>.
 
 `dot `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.gv</span>` | edgepaint | dot -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">png</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.png</span>
 
-- Display help for `edgepaint`:
+- Display help:
 
 `edgepaint -?`

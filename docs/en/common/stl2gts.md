@@ -2,8 +2,8 @@
 layout: page
 title: common/stl2gts (English)
 description: "Convert STL files into the GTS (GNU triangulated surface library) file format."
-content_hash: 59b9681c3a3970d9647652919c83199cf3ea8506
-last_modified_at: 2023-11-12
+content_hash: ed9fd20fe3f211255670ebf11443060f30c29870
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # stl2gts
@@ -27,6 +27,6 @@ More information: <https://manned.org/stl2gts>.
 
 `stl2gts --verbose < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.stl</span>` > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.gts</span>
 
-- Print help for `stl2gts`:
+- Display help:
 
 `stl2gts --help`

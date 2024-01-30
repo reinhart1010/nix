@@ -2,8 +2,8 @@
 layout: page
 title: linux/updpkgsums (English)
 description: "Update the checksums of the sources in a `PKGBUILD`."
-content_hash: 117bf56fd7e696ba118b18b63929e2c0463bc8db
-last_modified_at: 2023-11-12
+content_hash: b61909d7ce3a3be563b0592a75c14338f70c4d1c
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # updpkgsums
@@ -16,10 +16,10 @@ More information: <https://manned.org/updpkgsums>.
 
 `updpkgsums`
 
-- Display Version:
-
-`updpkgsums -v`
-
 - Display help:
 
 `updpkgsums -h`
+
+- Display version:
+
+`updpkgsums -v`

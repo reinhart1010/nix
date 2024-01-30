@@ -2,8 +2,8 @@
 layout: page
 title: common/blender (English)
 description: "Command-line interface to the Blender 3D computer graphics application."
-content_hash: 8df40d687f07b25b42f972b0894178d27d252149
-last_modified_at: 2024-01-02
+content_hash: 999d6e118d07912c1d7ea31dc33cfced1c3b624c
+last_modified_at: 2024-01-30
 related_topics:
   - title: italiano version
     url: /it/common/blender.html
@@ -43,6 +43,6 @@ More information: <https://docs.blender.org/manual/en/latest/advanced/command_li
 
 `blender --background `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>`.blend --python-expr '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">import bpy; bpy.data.scenes[0].render.resolution_percentage = 25</span>`' --render-anim`
 
-- Start an interactive Blender session in the terminal with a python console (do `import bpy` after starting):
+- Start an interactive Blender session in the terminal with a Python console (do `import bpy` after starting):
 
 `blender --background --python-console`

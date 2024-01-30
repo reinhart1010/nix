@@ -2,8 +2,8 @@
 layout: page
 title: osx/vpnd (English)
 description: "Listens for incoming VPN connections."
-content_hash: 5f0e42a5e3c7cde3fe96c27b22f82a170342211d
-last_modified_at: 2023-11-12
+content_hash: 482601de0ac20c0ea37db9e69940b73753540bda
+last_modified_at: 2024-01-30
 related_topics:
   - title: español version
     url: /es/osx/vpnd.html
@@ -32,10 +32,10 @@ More information: <https://www.unix.com/man-page/osx/8/vpnd/>.
 
 `vpnd -n`
 
-- Print usage summary and exit:
-
-`vpnd -h`
-
 - Run the daemon for a specific server configuration:
 
 `vpnd -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">server_id</span>
+
+- Display help:
+
+`vpnd -h`

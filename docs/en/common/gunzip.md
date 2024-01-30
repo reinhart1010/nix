@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/gunzip (English)
-description: "Extract file(s) from a gzip (.gz) archive."
-content_hash: d65e3ffa1b464a44028c014c072f6444661fd6b1
-last_modified_at: 2023-11-12
+description: "Extract file(s) from a `gzip` (`.gz`) archive."
+content_hash: 48d15984fc56a87fe77337793c238a756b1fad13
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # gunzip
 
-Extract file(s) from a gzip (.gz) archive.
+Extract file(s) from a `gzip` (`.gz`) archive.
 More information: <https://manned.org/gunzip>.
 
 - Extract a file from an archive, replacing the original file if it exists:

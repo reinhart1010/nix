@@ -2,8 +2,8 @@
 layout: page
 title: osx/afinfo (English)
 description: "Audio file metadata parser for OS X."
-content_hash: e30c55dece598ac6fd09c081976b61a06c5ae8d0
-last_modified_at: 2023-11-12
+content_hash: 3606bcf5eaecef7ef15a74ebd98e60a14577c7fb
+last_modified_at: 2024-01-30
 related_topics:
   - title: español version
     url: /es/osx/afinfo.html
@@ -45,6 +45,6 @@ More information: <https://ss64.com/osx/afinfo.html>.
 
 `afinfo --warnings `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Display help for full usage:
+- Display help:
 
 `afinfo --help`

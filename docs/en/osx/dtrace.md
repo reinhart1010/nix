@@ -2,8 +2,8 @@
 layout: page
 title: osx/dtrace (English)
 description: "A simple interface to invoke the D language compiler, retrieve buffered trace, and print traced data from the DTrace kernel facility."
-content_hash: 6cbac130db0246079a3f71cad5fa9440ace2d7e4
-last_modified_at: 2023-11-12
+content_hash: 9b8783397be9fba064678f4b3075c2beae1c4e05
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # dtrace
@@ -36,7 +36,7 @@ More information: <https://www.unix.com/man-page/osx/1/dtrace/>.
 
 `dtrace -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">function</span>
 
-- Grad the specified  [p]rocess ID, cache its symbol table, and exit upon completion:
+- Grad the specified [p]rocess ID, cache its symbol table, and exit upon completion:
 
 `dtrace -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pid</span>
 

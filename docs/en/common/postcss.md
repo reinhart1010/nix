@@ -2,8 +2,8 @@
 layout: page
 title: common/postcss (English)
 description: "A tool for transforming styles with JS plugins."
-content_hash: 75fa8564f94726144a30a44da31c83caff2579b9
-last_modified_at: 2023-11-15
+content_hash: b3d5ed2954ff65489b81fff012092a930c74cf27
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # postcss
@@ -39,6 +39,6 @@ More information: <https://postcss.org>.
 
 `postcss `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` --watch`
 
-- Display available options and examples:
+- Display help:
 
 `postcss --help`

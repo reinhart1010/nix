@@ -2,8 +2,8 @@
 layout: page
 title: windows/xcopy (English)
 description: "Copy files and directory trees."
-content_hash: 12867f497ccb8ffb4affa5e644e38b0e39bf4302
-last_modified_at: 2023-11-12
+content_hash: 9ac16c159acb6b472c6bb38053349c2d0ef50a98
+last_modified_at: 2024-01-30
 related_topics:
   - title: Deutsch version
     url: /de/windows/xcopy.html
@@ -55,6 +55,6 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 `xcopy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file_or_directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\destination_directory</span>` /y`
 
-- Display detailed usage information:
+- Display help:
 
 `xcopy /?`

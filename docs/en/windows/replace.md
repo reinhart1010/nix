@@ -2,8 +2,8 @@
 layout: page
 title: windows/replace (English)
 description: "Replace files."
-content_hash: d405bbfdb18e4c24006e22edd7263c67a73a009c
-last_modified_at: 2023-11-12
+content_hash: 71b56b880ff4d41550c8c107604f6b30ac6706f6
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # replace
@@ -40,6 +40,6 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 `replace `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file_or_directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\destination_directory</span>` /u`
 
-- Display detailed usage information:
+- Display help:
 
 `replace /?`

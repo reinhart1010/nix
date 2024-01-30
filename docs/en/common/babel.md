@@ -2,8 +2,8 @@
 layout: page
 title: common/babel (English)
 description: "A transpiler which converts code from JavaScript ES6/ES7 syntax to ES5 syntax."
-content_hash: ff39569eaeb0f7bd6083548a6df117d06b58e3db
-last_modified_at: 2023-11-12
+content_hash: 269ecfc8ef7e2cf4280655879c2da6de3606ce06
+last_modified_at: 2024-01-30
 related_topics:
   - title: français version
     url: /fr/common/babel.html
@@ -58,6 +58,6 @@ More information: <https://babeljs.io/>.
 
 `babel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span>` --presets `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">presets</span>
 
-- Output all available options:
+- Display help:
 
 `babel --help`

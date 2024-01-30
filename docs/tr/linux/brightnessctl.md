@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/brightnessctl (Türkçe)
-description: "GNU/Linux işletim sistemlerinde cihaz parlaklığını okumak ve kontrol etmek için yardımcı program."
-content_hash: ea0a1b9733f1c051b00a12df2b9f1f7b7c703d64
-last_modified_at: 2023-11-12
+description: "Linux işletim sistemlerinde cihaz parlaklığını okumak ve kontrol etmek için yardımcı program."
+content_hash: cd72db43d32bba207a71803976bcfc9d6298bd2a
+last_modified_at: 2024-01-30
 related_topics:
   - title: English version
     url: /en/linux/brightnessctl.html
@@ -18,7 +18,7 @@ tldri18n_status: 2
 ---
 # brightnessctl
 
-GNU/Linux işletim sistemlerinde cihaz parlaklığını okumak ve kontrol etmek için yardımcı program.
+Linux işletim sistemlerinde cihaz parlaklığını okumak ve kontrol etmek için yardımcı program.
 Daha fazla bilgi için: <https://github.com/Hummer12007/brightnessctl>.
 
 - Değiştirilebilir parlaklığa sahip cihazları listele:

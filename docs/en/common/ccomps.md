@@ -2,8 +2,8 @@
 layout: page
 title: common/ccomps (English)
 description: "Decompose graphs into their connected components."
-content_hash: 4c497328fcc129fc457e5499b06d152d0973a566
-last_modified_at: 2023-11-12
+content_hash: ce5ea259ee799dbea66138cac1efb02151a709e6
+last_modified_at: 2024-01-30
 related_topics:
   - title: 中文 version
     url: /zh/common/ccomps.html
@@ -28,6 +28,6 @@ More information: <https://graphviz.org/pdf/ccomps.1.pdf>.
 
 `ccomps -x -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.gv</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input1.gv</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input2.gv ...</span>
 
-- Display help for `ccomps`:
+- Display help:
 
 `ccomps -?`

@@ -2,8 +2,8 @@
 layout: page
 title: linux/pacman (English)
 description: "Arch Linux package manager utility."
-content_hash: 88d25badeb7463e9dbc46cad8018c28dbdaf04b5
-last_modified_at: 2023-11-12
+content_hash: 91b46198c1e13d7a4c4118dcb05e10ff02854f4d
+last_modified_at: 2024-01-30
 related_topics:
   - title: Deutsch version
     url: /de/linux/pacman.html
@@ -75,6 +75,6 @@ More information: <https://man.archlinux.org/man/pacman.8>.
 
 `pacman -Qtdq`
 
-- Empty the entire pacman cache:
+- Empty the entire `pacman` cache:
 
 `sudo pacman -Scc`

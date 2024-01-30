@@ -2,8 +2,8 @@
 layout: page
 title: common/godoc (English)
 description: "Show documentation for go packages."
-content_hash: a06ead0fc0c6e0087e177516001efc70cbd3c7e0
-last_modified_at: 2023-11-12
+content_hash: 7f9826036ed0318e763526141c03bfa1c831ed39
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # godoc
@@ -11,7 +11,7 @@ tldri18n_status: 2
 Show documentation for go packages.
 More information: <https://godoc.org/>.
 
-- Display help for package "fmt":
+- Display help for a specific package:
 
 `godoc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">fmt</span>
 

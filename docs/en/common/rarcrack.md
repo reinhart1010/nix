@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/rarcrack (English)
-description: "Password cracker for rar, zip and 7z archives."
-content_hash: 891ebbfad71b6327dd5f2f5ed3e970f9a0b4c9b3
-last_modified_at: 2023-11-12
+description: "Password cracker for `rar`, `zip` and `7z` archives."
+content_hash: b11e7f5fabe10a778db29d37bcd918e0bc7babc6
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # rarcrack
 
-Password cracker for rar, zip and 7z archives.
+Password cracker for `rar`, `zip` and `7z` archives.
 
 - Brute force the password for an archive (tries to guess the archive type):
 

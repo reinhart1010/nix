@@ -2,8 +2,8 @@
 layout: page
 title: linux/netselect (English)
 description: "Speed test for choosing a fast network server."
-content_hash: ef8f46dfecc8b016a81753b79132370986fc0d09
-last_modified_at: 2023-11-12
+content_hash: 61607047d0d555ca889588319a074b074e656fba
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # netselect
@@ -27,6 +27,6 @@ More information: <https://github.com/apenwarr/netselect>.
 
 `sudo netselect -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">N</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host_3</span>
 
-- List available options:
+- Display help:
 
 `netselect`

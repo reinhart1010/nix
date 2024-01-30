@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/gitwatch (English)
-description: "Automatically commit file or directory changes to a git repository."
-content_hash: 1a7be43e7a0bb5e40af1de4c7b9c20f6f6751d0d
-last_modified_at: 2023-11-12
+description: "Automatically commit file or directory changes to a Git repository."
+content_hash: 82a008891747a8fe72beb86b19dddf80c9dadadc
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # gitwatch
 
-Automatically commit file or directory changes to a git repository.
+Automatically commit file or directory changes to a Git repository.
 More information: <https://github.com/gitwatch/gitwatch>.
 
 - Automatically commit any changes made to a file or directory:

@@ -2,8 +2,8 @@
 layout: page
 title: linux/toolbox (English)
 description: "Tool for containerized command-line environments on Linux."
-content_hash: f5d2094a1b603e66457054a2fddab3013f4f6f2d
-last_modified_at: 2023-12-27
+content_hash: 56b9a93f99c8beb23069c4808985e1cb95f1e309
+last_modified_at: 2024-01-30
 related_topics:
   - title: தமிழ் version
     url: /ta/linux/toolbox.html
@@ -20,7 +20,7 @@ More information: <https://manned.org/toolbox.1>.
 
 `toolbox `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
 
-- Display help for a `toolbox` subcommand (such as `create`, `enter`, `rm`, `rmi`, etc.):
+- Display help for a specific subcommand (such as `create`, `enter`, `rm`, `rmi`, etc.):
 
 `toolbox help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
 

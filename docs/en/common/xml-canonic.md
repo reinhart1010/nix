@@ -2,8 +2,8 @@
 layout: page
 title: common/xml-canonic (English)
 description: "Make XML documents canonical."
-content_hash: 9625266b7ac526c5338d2cdd608ee14177a5b1cd
-last_modified_at: 2023-11-12
+content_hash: f1f29a076404f34938c5ae0822bd6071bac357d5
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # xml canonic
@@ -23,6 +23,6 @@ More information: <http://xmlstar.sourceforge.net/docs.php>.
 
 `xml canonic --exc-with-comments `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.xml|URI</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/c14n.xpath</span>
 
-- Display help for the `canonic` subcommand:
+- Display help:
 
 `xml canonic --help`

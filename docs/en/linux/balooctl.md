@@ -2,8 +2,8 @@
 layout: page
 title: linux/balooctl (English)
 description: "File indexing and searching framework for KDE Plasma."
-content_hash: 6d212c9b3eeaf7702eb8e40db0775f19b96227e3
-last_modified_at: 2023-11-12
+content_hash: eb68ecd240d2ef47dd6a6e47cc0d7d9b05a55358
+last_modified_at: 2024-01-30
 related_topics:
   - title: 中文 version
     url: /zh/linux/balooctl.html
@@ -14,10 +14,6 @@ tldri18n_status: 2
 
 File indexing and searching framework for KDE Plasma.
 More information: <https://wiki.archlinux.org/index.php/Baloo>.
-
-- Display help:
-
-`balooctl`
 
 - Display the status of the indexer:
 
@@ -46,3 +42,7 @@ More information: <https://wiki.archlinux.org/index.php/Baloo>.
 - Check for any unindexed files and index them:
 
 `balooctl check`
+
+- Display help:
+
+`balooctl --help`

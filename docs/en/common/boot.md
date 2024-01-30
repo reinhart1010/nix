@@ -2,8 +2,8 @@
 layout: page
 title: common/boot (English)
 description: "Build tooling for the Clojure programming language."
-content_hash: a7eb28445c2203022c0b0a25a21b16f20e90149b
-last_modified_at: 2023-11-12
+content_hash: c32b313187daf1e1374c1a40024bdfdf540aa34f
+last_modified_at: 2024-01-30
 related_topics:
   - title: italiano version
     url: /it/common/boot.html
@@ -26,10 +26,6 @@ More information: <https://github.com/boot-clj/boot>.
 
 `boot jar`
 
-- Learn about a command:
-
-`boot cljs --help`
-
 - Generate scaffolding for a new project based on a template:
 
 `boot --dependencies boot/new new --template `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">template_name</span>` --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_name</span>
@@ -41,3 +37,7 @@ More information: <https://github.com/boot-clj/boot>.
 - Build for production (if using the boot/new template):
 
 `boot prod`
+
+- Display help for a specific task:
+
+`boot `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task</span>` --help`

@@ -2,8 +2,8 @@
 layout: page
 title: windows/repair-bde (English)
 description: "Attempt to repair or decrypt a damaged BitLocker-encrypted volume."
-content_hash: e107c4fc59d3552e5e2970776511a377e7b198c0
-last_modified_at: 2023-11-12
+content_hash: a96b07d6a107b349b1f514e601f3141559d19f5e
+last_modified_at: 2024-01-30
 related_topics:
   - title: 中文 version
     url: /zh/windows/repair-bde.html
@@ -43,6 +43,6 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 `repair-bde `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">C:</span>` -LogFile `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\file</span>
 
-- Display all available options:
+- Display help:
 
 `repair-bde /?`

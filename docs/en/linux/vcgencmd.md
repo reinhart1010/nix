@@ -2,8 +2,8 @@
 layout: page
 title: linux/vcgencmd (English)
 description: "Print system information for a Raspberry Pi."
-content_hash: c22922e8cb778dc6fbef84596536c0abb39440b9
-last_modified_at: 2024-01-25
+content_hash: d40c872d5867fd0693f432dcb4cd8615c1ce845f
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # vcgencmd
@@ -31,6 +31,6 @@ More information: <https://www.raspberrypi.org/documentation/computers/os.html#v
 
 `vcgencmd bootloader_config`
 
-- Display Help:
+- Display help:
 
 `vcgencmd --help`

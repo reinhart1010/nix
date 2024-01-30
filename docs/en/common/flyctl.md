@@ -2,8 +2,8 @@
 layout: page
 title: common/flyctl (English)
 description: "Command-line tool for flyctl.io."
-content_hash: 13571e8b7d9880e1f8a10939c07b460fbf80358c
-last_modified_at: 2023-11-12
+content_hash: 2430caef86f068e1a53865a6b34967c6b7fa2d50
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # flyctl
@@ -39,6 +39,6 @@ More information: <https://github.com/superfly/flyctl>.
 
 `flyctl status --app `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">app_name</span>
 
-- Show version information:
+- Display version information:
 
 `flyctl version`

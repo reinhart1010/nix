@@ -1,9 +1,9 @@
 ---
 layout: page
 title: linux/apt-file (English)
-description: "Search for files in apt packages, including ones not yet installed."
-content_hash: 2e6b8d5fc2a238fecb25cbeb8b28475ac8c02688
-last_modified_at: 2023-11-12
+description: "Search for files in `apt` packages, including ones not yet installed."
+content_hash: 12fb3ee7a8dab82151367bf1d888690048be6dc6
+last_modified_at: 2024-01-30
 related_topics:
   - title: català version
     url: /ca/linux/apt-file.html
@@ -33,7 +33,7 @@ tldri18n_status: 2
 ---
 # apt-file
 
-Search for files in apt packages, including ones not yet installed.
+Search for files in `apt` packages, including ones not yet installed.
 More information: <https://manpages.debian.org/latest/apt-file/apt-file.1.html>.
 
 - Update the metadata database:

@@ -2,18 +2,14 @@
 layout: page
 title: common/starship-init (English)
 description: "Print shell integration code for starship."
-content_hash: 46873a4dbe1515f2bf5e799767ce7a95fa0ae4cf
-last_modified_at: 2023-11-12
+content_hash: 60fbd4bd3de59002c8f97c9a07c8559e0465dcd0
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # starship init
 
 Print shell integration code for starship.
 More information: <https://starship.rs>.
-
-- Display the subcommand help:
-
-`starship init --help`
 
 - Print the starship integration code for the specified shell:
 
@@ -26,3 +22,7 @@ More information: <https://starship.rs>.
 - Append the `starship` integration code to `~/.zshrc`:
 
 `starship init `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zsh</span>` >> `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">~/.zshrc</span>
+
+- Display help:
+
+`starship init --help`

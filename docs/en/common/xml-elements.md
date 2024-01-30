@@ -2,8 +2,8 @@
 layout: page
 title: common/xml-elements (English)
 description: "Extract elements and display the structure of an XML document."
-content_hash: 4ca0f61d1396f62e3d3b4f28306c26c6e12649a8
-last_modified_at: 2023-11-12
+content_hash: 2ee9111b0fbc502d40720d3b1160ee8306a06db3
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # xml elements
@@ -31,6 +31,6 @@ More information: <http://xmlstar.sourceforge.net/docs.php>.
 
 `xml elements -d`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">3</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input.xml|URI</span>
 
-- Display help for the `elements` subcommand:
+- Display help:
 
 `xml elements --help`

@@ -2,8 +2,8 @@
 layout: page
 title: common/mods (English)
 description: "AI for the command line, built for pipelines."
-content_hash: 097faca18de89f038716000937027901e34066b9
-last_modified_at: 2023-11-12
+content_hash: 95c2480b469fd9999ce8a21d292fa1848633b4ae
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # mods
@@ -35,6 +35,6 @@ More information: <https://github.com/charmbracelet/mods>.
 
 `curl "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">https://api.open-meteo.com/v1/forecast?latitude=29.00&longitude=-90.00&current_weather=true&hourly=temperature_2m,relativehumidity_2m,windspeed_10m</span>`" | mods --format "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">summarize this weather data for a human</span>`"`
 
-- Display help and exit:
+- Display help:
 
 `mods --help`

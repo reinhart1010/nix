@@ -2,8 +2,8 @@
 layout: page
 title: common/pax (English)
 description: "Archiving and copying utility."
-content_hash: c7a4c3a2284a217be8679baff46d8264b47e46a2
-last_modified_at: 2023-11-12
+content_hash: bbf29880cd81d16729051c1bb6ca32cb154de8d5
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # pax
@@ -15,7 +15,7 @@ More information: <https://manned.org/pax.1p>.
 
 `pax -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive.tar</span>
 
-- List the contents of a gzipped archive:
+- List the contents of a `gzip` archive:
 
 `pax -zf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive.tar.gz</span>
 

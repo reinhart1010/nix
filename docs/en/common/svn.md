@@ -2,8 +2,8 @@
 layout: page
 title: common/svn (English)
 description: "Subversion command-line client tool."
-content_hash: 86dc26d26879e8121253629eaadd3f5284171687
-last_modified_at: 2023-11-12
+content_hash: 6cee553d69071dc0a1b27ed1eb0745f628ef7406
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # svn
@@ -31,6 +31,6 @@ More information: <https://subversion.apache.org>.
 
 `svn log -vl `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">10</span>
 
-- Show detailed help:
+- Display help:
 
 `svn help`

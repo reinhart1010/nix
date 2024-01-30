@@ -2,8 +2,8 @@
 layout: page
 title: common/ngs (English)
 description: "Scripting language created specifically for Ops."
-content_hash: c8c2deec767c2551a6e05c7c9671cdfc4b4eb7ba
-last_modified_at: 2023-11-12
+content_hash: 2eae72365600c58fd2a375f6b8b84e67d7cb4ff8
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # ngs
@@ -19,6 +19,6 @@ More information: <https://github.com/ngs-lang/ngs>.
 
 `ngs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/script.ngs</span>
 
-- Print the version:
+- Display version:
 
 `ngs --version`

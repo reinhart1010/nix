@@ -2,8 +2,8 @@
 layout: page
 title: common/irssi (English)
 description: "Text based IRC client."
-content_hash: c1c806316511b8ab47c8b6537aa72c7e23052df5
-last_modified_at: 2023-11-12
+content_hash: 9884832f50bfa688abfd3529827601883d3da2c8
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # irssi
@@ -19,7 +19,7 @@ More information: <https://irssi.org>.
 
 `irssi -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">irc.example.com</span>` -p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span>
 
-- View the help:
+- Display help:
 
 `irssi --help`
 

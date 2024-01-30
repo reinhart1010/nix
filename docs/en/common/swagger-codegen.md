@@ -2,8 +2,8 @@
 layout: page
 title: common/swagger-codegen (English)
 description: "Generate code and documentation for your REST api from a OpenAPI/swagger definition."
-content_hash: 2a2eaf18c7b73b13d1f19aebab66c6ed1b77f716
-last_modified_at: 2023-11-12
+content_hash: 4003849cbce443ecb8faaff390ca57412b63c97b
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # swagger-codegen
@@ -23,6 +23,6 @@ More information: <https://github.com/swagger-api/swagger-codegen>.
 
 `swagger-codegen langs`
 
-- Display help options for the generate command:
+- Display help for a specific command:
 
-`swagger-codegen help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">generate</span>
+`swagger-codegen `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">generate|config-help|meta|langs|version</span>` --help`

@@ -2,8 +2,8 @@
 layout: page
 title: common/peerindex (English)
 description: "Inspect MRT TABLE_DUMPV2 Peer Index Table."
-content_hash: ed32119b10f8baffedd6deaecdea641a720c0f6f
-last_modified_at: 2023-11-12
+content_hash: b8e2c3ac06522fbef894e600cff3113453212f85
+last_modified_at: 2024-01-30
 related_topics:
   - title: Deutsch version
     url: /de/common/peerindex.html
@@ -13,7 +13,7 @@ tldri18n_status: 2
 # peerindex
 
 Inspect MRT TABLE_DUMPV2 Peer Index Table.
-Can read files compressed with gzip, bzip2 and xz.
+Can read files compressed with `gzip`, `bzip2` and `xz`.
 More information: <https://codeberg.org/1414codeforge/ubgpsuite>.
 
 - Output all peers:

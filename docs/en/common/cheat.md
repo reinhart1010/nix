@@ -2,8 +2,8 @@
 layout: page
 title: common/cheat (English)
 description: "Create and view interactive cheat sheets."
-content_hash: 19036e13c764b5bbc4b3f9eae2b265e74b292d77
-last_modified_at: 2023-11-12
+content_hash: b266c1ba74b16646e2cdb77a76ca2aa609b490b8
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # cheat
@@ -27,6 +27,6 @@ More information: <https://github.com/cheat/cheat>.
 
 `cheat -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
-- Get the current cheat version:
+- Display version:
 
 `cheat -v`

@@ -2,8 +2,8 @@
 layout: page
 title: common/nix (English)
 description: "A powerful package manager that makes package management reliable, reproducible, and declarative."
-content_hash: d77592180fb8cb164d7d9c695e3853def9f27852
-last_modified_at: 2023-11-12
+content_hash: 57a10eca597bffded66be345eae6090200b64792
+last_modified_at: 2024-01-30
 related_topics:
   - title: Deutsch version
     url: /de/common/nix.html
@@ -20,10 +20,6 @@ More information: <https://nixos.org/manual/nix>.
 - Enable the `nix` command:
 
 `mkdir -p ~/.config/nix; echo 'experimental-features = nix-command flakes' > ~/.config/nix/nix.conf`
-
-- Display help for the `nix` subcommand:
-
-`nix help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>
 
 - Search for a package in nixpkgs via its name or description:
 
@@ -44,3 +40,7 @@ More information: <https://nixos.org/manual/nix>.
 - Start an interactive environment for evaluating Nix expressions:
 
 `nix repl`
+
+- Display help for a specific subcommand:
+
+`nix help `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>

@@ -2,8 +2,8 @@
 layout: page
 title: windows/driverquery (English)
 description: "Display information about installed device drivers."
-content_hash: e53c38aa5da131c53b04da14851688b03b17212f
-last_modified_at: 2023-11-12
+content_hash: 044fe8f462cc1aad7184778c4c5bc6189d32b5d4
+last_modified_at: 2024-01-30
 related_topics:
   - title: 中文 version
     url: /zh/windows/driverquery.html
@@ -39,6 +39,6 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 `driverquery /v`
 
-- Display detailed usage information:
+- Display help:
 
 `driverquery /?`

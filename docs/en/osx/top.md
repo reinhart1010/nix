@@ -2,8 +2,8 @@
 layout: page
 title: osx/top (English)
 description: "Display dynamic real-time information about running processes."
-content_hash: 72c16604e6adef207715936fd6ba96b9fd9e581f
-last_modified_at: 2023-11-12
+content_hash: ffe4ff949b33b345422d0e26fb55348d91e1197c
+last_modified_at: 2024-01-30
 related_topics:
   - title: español version
     url: /es/osx/top.html
@@ -34,6 +34,6 @@ More information: <https://ss64.com/osx/top.html>.
 
 `top -user `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user_name</span>
 
-- Get help about interactive commands:
+- Display help about interactive commands:
 
 `?`

@@ -1,14 +1,14 @@
 ---
 layout: page
 title: linux/ostree (English)
-description: "Version control for binary files similar to git but optimized for operating system root filesystems."
-content_hash: a6144ac35a6dde6f649b5243366556cca2422dd6
-last_modified_at: 2023-11-12
+description: "Version control for binary files similar to `git` but optimized for operating system root filesystems."
+content_hash: 46512a17d6f8db25241d74d93b068665311ef5a5
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # ostree
 
-Version control for binary files similar to git but optimized for operating system root filesystems.
+Version control for binary files similar to `git` but optimized for operating system root filesystems.
 OSTree is the foundation for immutable image-based operating systems such as Fedora Silverblue, Fedora IoT or Fedora CoreOS.
 More information: <https://ostreedev.github.io/ostree>.
 

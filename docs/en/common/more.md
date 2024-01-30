@@ -2,8 +2,8 @@
 layout: page
 title: common/more (English)
 description: "Open a file for interactive reading, allowing scrolling and search."
-content_hash: ea6bb28f40e06a500a019183b1989e66e91f8305
-last_modified_at: 2023-11-12
+content_hash: 68c739dfb086b75d2283cbdf15b68d8923823c44
+last_modified_at: 2024-01-30
 related_topics:
   - title: español version
     url: /es/common/more.html
@@ -29,10 +29,6 @@ More information: <https://manned.org/more>.
 
 `more +`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">line_number</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Display help:
-
-`more --help`
-
 - Go to the next page:
 
 `<Space>`
@@ -48,3 +44,7 @@ More information: <https://manned.org/more>.
 - Display help about interactive commands:
 
 `h`
+
+- Display help:
+
+`more --help`

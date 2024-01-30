@@ -2,8 +2,8 @@
 layout: page
 title: common/mysqld (English)
 description: "Start the MySQL database server."
-content_hash: 326f809b46584f04f99e0dc9386c8d3befda5a04
-last_modified_at: 2023-11-12
+content_hash: 3d2993157234eb0d4a500c80627e67cdc43d5e49
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # mysqld
@@ -35,6 +35,6 @@ More information: <https://dev.mysql.com/doc/refman/en/mysqld.html>.
 
 `mysqld --port=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span>
 
-- Show all help options and exit:
+- Display help:
 
 `mysqld --verbose --help`

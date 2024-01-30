@@ -2,8 +2,8 @@
 layout: page
 title: windows/reg-flags (English)
 description: "Display or set flags on registry keys."
-content_hash: c0ecbc47dab044fc9d51f7f12936eb0e79db6c2e
-last_modified_at: 2023-11-12
+content_hash: eacf959203c1681cc54888b33e1e49fe46b49880
+last_modified_at: 2024-01-30
 related_topics:
   - title: 中文 version
     url: /zh/windows/reg-flags.html
@@ -19,10 +19,6 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 `reg flags `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span>` query`
 
-- Display help and available flag types:
-
-`reg flags /?`
-
 - Set specified space-separated flags, and unset unmentioned flags, for a specific key:
 
 `reg flags `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span>` set `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">flag_names</span>
@@ -30,3 +26,7 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 - Set specified flags for a specific key and its sub keys:
 
 `reg flags `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span>` set `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">flag_names</span>` /s`
+
+- Display help and available flag types:
+
+`reg flags /?`

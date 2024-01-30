@@ -2,8 +2,8 @@
 layout: page
 title: windows/robocopy (English)
 description: "Robust File and Folder Copy."
-content_hash: e75ce661e27631ae9887907c91e179ab5906f33a
-last_modified_at: 2023-11-12
+content_hash: 29ff303cdaac74c682f1bd5d80fecf24ac6d1f1e
+last_modified_at: 2024-01-30
 related_topics:
   - title: Deutsch version
     url: /de/windows/robocopy.html
@@ -43,6 +43,6 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 `robocopy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\source_directory</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path\to\destination_directory</span>` /Z /R:5 /W:15`
 
-- Display detailed usage information:
+- Display help:
 
 `robocopy /?`

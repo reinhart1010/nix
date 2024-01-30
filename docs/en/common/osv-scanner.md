@@ -2,8 +2,8 @@
 layout: page
 title: common/osv-scanner (English)
 description: "Scan various mediums for dependencies and matches them against the OSV database."
-content_hash: ba9eb06afeaf95229af4f5e969b0551ccc9b0687
-last_modified_at: 2023-11-12
+content_hash: 1a9fb2407311f1689b0145aa8f3ee84068e327b4
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # osv-scanner
@@ -27,7 +27,7 @@ More information: <https://osv.dev/about>.
 
 `osv-scanner -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">directory1 directory2 ...</span>
 
-- Skip scanning git repositories:
+- Skip scanning Git repositories:
 
 `osv-scanner --skip-git `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-r|-D</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">target</span>
 

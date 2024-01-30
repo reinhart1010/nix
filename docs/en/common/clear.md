@@ -2,8 +2,8 @@
 layout: page
 title: common/clear (English)
 description: "Clears the screen of the terminal."
-content_hash: c389de0bfe0cffc167d3ecaf31a4d5c399094439
-last_modified_at: 2023-11-12
+content_hash: e81787365d69dafb28dada4a0d65d91718beca0c
+last_modified_at: 2024-01-30
 related_topics:
   - title: Deutsch version
     url: /de/common/clear.html
@@ -51,6 +51,6 @@ More information: <https://manned.org/clear>.
 
 `clear -T `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">type_of_terminal</span>
 
-- Show the version of `ncurses` used by `clear`:
+- Display the version of `ncurses` used by `clear`:
 
 `clear -V`

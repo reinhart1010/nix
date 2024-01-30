@@ -2,8 +2,8 @@
 layout: page
 title: common/shards (English)
 description: "Dependency management tool for the Crystal language."
-content_hash: d4d677e23552a8f669a17457a25b425e4d60acc5
-last_modified_at: 2023-11-12
+content_hash: c81007b13d827118a060082f7d62862adf132014
+last_modified_at: 2024-01-30
 related_topics:
   - title: français version
     url: /fr/common/shards.html
@@ -31,6 +31,6 @@ More information: <https://crystal-lang.org/reference/the_shards_command>.
 
 `shards list`
 
-- List version of dependency:
+- Display version of dependency:
 
 `shards version `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/dependency_directory</span>

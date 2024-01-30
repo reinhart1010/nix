@@ -2,8 +2,8 @@
 layout: page
 title: common/pop (English)
 description: "Send emails from your terminal."
-content_hash: 81133dfeb73654d8e21af3806d355f2804cf2685
-last_modified_at: 2023-11-12
+content_hash: d570392e851fba7598d172baf93f79fdb70de76f
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # pop
@@ -19,6 +19,6 @@ More information: <https://github.com/charmbracelet/pop>.
 
 `pop < `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/message.md</span>` --from `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">me@example.com</span>` --to `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">you@example.com</span>` --subject "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">On the Subject of Ducks...</span>`" --attach `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/attachment</span>
 
-- Display help and exit:
+- Display help:
 
 `pop --help`

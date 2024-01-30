@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/bzegrep (English)
-description: "Find extended regular expression patterns in bzip2 compressed files using egrep."
-content_hash: 4a5ff14b08d5a50f83ef361b986d1ceab46499a7
-last_modified_at: 2023-11-12
+description: "Find extended regular expression patterns in `bzip2` compressed files using `egrep`."
+content_hash: 5cabb39ae32b476b2cf39588c40c86436dabb741
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # bzegrep
 
-Find extended regular expression patterns in bzip2 compressed files using egrep.
+Find extended regular expression patterns in `bzip2` compressed files using `egrep`.
 More information: <https://manned.org/bzegrep>.
 
 - Search for extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`) in a compressed file (case-sensitive):
@@ -31,6 +31,6 @@ More information: <https://manned.org/bzegrep>.
 
 `bzegrep --only-matching "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Recursively search files in a bzip2 compressed tar archive for a pattern:
+- Recursively search files in a `bzip2` compressed `tar` archive for a pattern:
 
 `bzegrep --recursive "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">search_pattern</span>`" `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>

@@ -2,8 +2,8 @@
 layout: page
 title: common/gh-alias (English)
 description: "Manage GitHub CLI command aliases."
-content_hash: 23c24f6803b81062aa2510eef7eb724c761611e8
-last_modified_at: 2023-11-12
+content_hash: 33ed7ece586825491f2a8c9097623793dc999695
+last_modified_at: 2024-01-30
 related_topics:
   - title: français version
     url: /fr/common/gh-alias.html
@@ -14,10 +14,6 @@ tldri18n_status: 2
 
 Manage GitHub CLI command aliases.
 More information: <https://cli.github.com/manual/gh_alias>.
-
-- Display the subcommand help:
-
-`gh alias`
 
 - List all the aliases `gh` is configured to use:
 
@@ -34,3 +30,7 @@ More information: <https://cli.github.com/manual/gh_alias>.
 - Delete a command shortcut:
 
 `gh alias delete `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alias_name</span>
+
+- Display the subcommand help:
+
+`gh alias`

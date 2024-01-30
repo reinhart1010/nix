@@ -2,8 +2,8 @@
 layout: page
 title: linux/qtchooser (English)
 description: "A wrapper used to select between Qt development binary versions."
-content_hash: a4d4359569bb93d8483d04010733939ac2fd25a3
-last_modified_at: 2023-11-12
+content_hash: aa5b8f3fc2eb4c3645437ae6f1ebb911c198e1f2
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # qtchooser
@@ -27,6 +27,6 @@ More information: <https://manned.org/qtchooser>.
 
 `qtchooser --install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">version_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/qmake</span>
 
-- Display all available options:
+- Display help:
 
 `qtchooser --help`

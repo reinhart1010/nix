@@ -2,8 +2,8 @@
 layout: page
 title: windows/ftp (English)
 description: "Interactively transfer files between a local and remote FTP server."
-content_hash: 28ddc48b3e826f6fb069ae6e1a5ce8d157aa0d9c
-last_modified_at: 2023-11-12
+content_hash: 43fdafb05a866643d0592964659fe846d5c98683
+last_modified_at: 2024-01-30
 related_topics:
   - title: Deutsch version
     url: /de/windows/ftp.html
@@ -49,6 +49,6 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 `mdelete `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">*.txt</span>
 
-- Display detailed help:
+- Display help:
 
 `ftp --help`

@@ -2,8 +2,8 @@
 layout: page
 title: common/eget (English)
 description: "Easily install prebuilt binaries from GitHub."
-content_hash: b9a0706d2558fde6cde2cafe95e6e2f46c25abf9
-last_modified_at: 2023-11-12
+content_hash: 2936b01a2c4a1c25c2c63f562ea4946c9ca12d1b
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # eget
@@ -23,7 +23,7 @@ More information: <https://github.com/zyedidia/eget>.
 
 `eget `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zyedidia/micro</span>` --to=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
-- Specify a `git` tag instead of using the latest version:
+- Specify a Git tag instead of using the latest version:
 
 `eget `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">zyedidia/micro</span>` --tag=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">v2.0.10</span>
 

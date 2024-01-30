@@ -2,8 +2,8 @@
 layout: page
 title: linux/a2query (English)
 description: "Retrieve runtime configuration from Apache on Debian-based OSes."
-content_hash: 6040c79ea925892de38e0f577b9c4daa6cc7f627
-last_modified_at: 2023-11-12
+content_hash: 7bed7ada6ddfc5e7b44fd1768c7971fe52db6f0e
+last_modified_at: 2024-01-30
 related_topics:
   - title: català version
     url: /ca/linux/a2query.html
@@ -55,6 +55,6 @@ More information: <https://manpages.debian.org/latest/apache2/a2query.html>.
 
 `sudo a2query -M`
 
-- Display the Apache version:
+- Display Apache version:
 
 `sudo a2query -v`

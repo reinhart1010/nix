@@ -2,8 +2,8 @@
 layout: page
 title: common/sccmap (English)
 description: "Extract strongly connected components of directed graphs."
-content_hash: c039c52dfe51fd680bf19134de2ab3f4748b40b7
-last_modified_at: 2023-11-12
+content_hash: e569efca3098424a251db73541c08f3a4bf853ff
+last_modified_at: 2024-01-30
 related_topics:
   - title: 中文 version
     url: /zh/common/sccmap.html
@@ -24,6 +24,6 @@ More information: <https://www.graphviz.org/pdf/sccmap.1.pdf>.
 
 `sccmap -v -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input1.gv</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input2.gv ...</span>
 
-- Display help for `sccmap`:
+- Display help:
 
 `sccmap -?`

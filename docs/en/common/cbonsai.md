@@ -2,8 +2,8 @@
 layout: page
 title: common/cbonsai (English)
 description: "A beautifully random bonsai tree generator."
-content_hash: 489e19633aa13507aaf5016f0b52fc4023326498
-last_modified_at: 2023-11-15
+content_hash: e58577c6ef7987047cc50f01769bd48b9c4a6c4f
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # cbonsai
@@ -27,6 +27,6 @@ More information: <https://gitlab.com/jallbrit/cbonsai>.
 
 `cbonsai -v`
 
-- Display cbonsai help:
+- Display help:
 
 `cbonsai -h`

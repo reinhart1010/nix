@@ -2,8 +2,8 @@
 layout: page
 title: common/assimp (English)
 description: "Command-line client for the Open Asset Import Library."
-content_hash: 2a421e907ab0736f96907d095eed75c042871ae9
-last_modified_at: 2023-11-12
+content_hash: cf6349cf59cd5c037b0e0f8c7c75101f14243777
+last_modified_at: 2024-01-30
 related_topics:
   - title: español version
     url: /es/common/assimp.html
@@ -45,10 +45,10 @@ More information: <https://assimp-docs.readthedocs.io/>.
 
 `assimp info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- List all supported subcommands ("verbs"):
+- Display help:
 
 `assimp help`
 
-- Get help on a specific subcommand (e.g. the parameters specific to it):
+- Display help for a specific subcommand:
 
 `assimp `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>` --help`

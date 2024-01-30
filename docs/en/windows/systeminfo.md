@@ -2,8 +2,8 @@
 layout: page
 title: windows/systeminfo (English)
 description: "Display operating system configuration for a local or remote machine."
-content_hash: ffab1bd9555274b17962e7eaca4f496f936bbd0c
-last_modified_at: 2023-11-12
+content_hash: dea99258490de98c25b2412cb28c709bf0b18b95
+last_modified_at: 2024-01-30
 related_topics:
   - title: 中文 version
     url: /zh/windows/systeminfo.html
@@ -30,6 +30,6 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 `systeminfo /s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">remote_name</span>` /u `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">username</span>` /p `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">password</span>
 
-- Display detailed usage information:
+- Display help:
 
 `systeminfo /?`

@@ -2,8 +2,8 @@
 layout: page
 title: common/mix (English)
 description: "Build tool that provides tasks for creating, compiling, and testing Elixir projects, managing its dependencies, and more."
-content_hash: 20c38ce672faab5f7e351305a7148817758e1538
-last_modified_at: 2023-11-15
+content_hash: a15284d5db5fec4e277cf6168dff8c9e9c4fd03c
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # mix
@@ -27,6 +27,6 @@ More information: <https://hexdocs.pm/mix>.
 
 `mix test`
 
-- List all mix commands:
+- Display help:
 
 `mix help`

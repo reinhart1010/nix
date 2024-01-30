@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/zgrep (English)
-description: "Grep text patterns from files within compressed file (equivalent to grep -Z)."
-content_hash: 2aa800e93d62bb4e6b045e632a1a97b8ee299315
-last_modified_at: 2023-11-12
+description: "Grep text patterns from files within compressed file (equivalent to `grep -Z`)."
+content_hash: 4711240ca34234435dd60ddc24ea81e19a271698
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # zgrep
 
-Grep text patterns from files within compressed file (equivalent to grep -Z).
+Grep text patterns from files within compressed file (equivalent to `grep -Z`).
 More information: <https://manned.org/zgrep>.
 
 - Grep a pattern in a compressed file (case-sensitive):

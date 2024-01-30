@@ -2,8 +2,8 @@
 layout: page
 title: windows/pathping (English)
 description: "A trace route tool combining features of `ping` and `tracert`."
-content_hash: 9bf3475c50737ea7ec355dc2fe4ef16dff118e5f
-last_modified_at: 2023-11-12
+content_hash: e4ef88b4dc4165afc2db71ae2728fe4a7196e9ff
+last_modified_at: 2024-01-30
 related_topics:
   - title: 中文 version
     url: /zh/windows/pathping.html
@@ -43,6 +43,6 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 `pathping `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hostname</span>` -6`
 
-- Display detailed usage information:
+- Display help:
 
 `pathping /?`

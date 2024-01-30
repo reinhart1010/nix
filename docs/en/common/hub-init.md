@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/hub-init (English)
-description: "Initializes a new local git repository."
-content_hash: e66768b7913aba006b2787e55eb4c3c9ca0ca1a7
-last_modified_at: 2023-11-12
+description: "Initializes a new local Git repository."
+content_hash: 46b55f0deb5ec720f890c08c0b6e11b7c72a7c34
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # hub init
 
-Initializes a new local git repository.
+Initializes a new local Git repository.
 More information: <https://hub.github.com/hub-init.1.html>.
 
 - Initialize a new local repository:

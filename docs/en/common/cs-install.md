@@ -2,8 +2,8 @@
 layout: page
 title: common/cs-install (English)
 description: "Install an application in the installation directory onfigured when installing `cs` (to enable the binary to be loaded add to your `.bash_profile` the `$ eval \"$(cs install --env)\"` command)."
-content_hash: 83415ab721d53b714f3f2e35ab72570b2b50d6b7
-last_modified_at: 2023-11-12
+content_hash: a4c0efcafe4c93dd759c516da4e59d2736e77c38
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # cs install
@@ -39,6 +39,6 @@ More information: <https://get-coursier.io/docs/cli-install>.
 
 `cs list`
 
-- Pass specific java options to an installed application:
+- Pass specific Java options to an installed application:
 
 <span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">application_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">-Jjava_option_name1=value1 -Jjava_option_name2=value2 ...</span>

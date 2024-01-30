@@ -2,8 +2,8 @@
 layout: page
 title: linux/ispell (English)
 description: "Interactive spell checking."
-content_hash: 52f52b37ec4a622051e5c296b05d27379bccfce8
-last_modified_at: 2023-11-12
+content_hash: 5929e3e4928bf717208772a74cd9aea8dba18909
+last_modified_at: 2024-01-30
 related_topics:
   - title: русский version
     url: /ru/linux/ispell.html
@@ -23,6 +23,6 @@ More information: <https://www.cs.hmc.edu/~geoff/ispell-man.html>.
 
 `ispell `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Display the version:
+- Display version:
 
 `ispell -v`

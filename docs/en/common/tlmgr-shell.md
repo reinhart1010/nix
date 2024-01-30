@@ -2,8 +2,8 @@
 layout: page
 title: common/tlmgr-shell (English)
 description: "Start an interactive shell of the native TeX Live manager."
-content_hash: 61d97b53e17ae3f081a8d8f5458130aec2a050fc
-last_modified_at: 2023-11-12
+content_hash: e20dc23f8c76af9680c35adb1082b551664f3dc3
+last_modified_at: 2024-01-30
 tldri18n_status: 2
 ---
 # tlmgr shell
@@ -15,9 +15,9 @@ More information: <https://www.tug.org/texlive/tlmgr.html>.
 
 `tlmgr shell`
 
-- Run any `tlmgr` sub-command in the interactive shell:
+- Run any `tlmgr` subcommand in the interactive shell:
 
-<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sub_command</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments</span>
+<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">subcommand</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments</span>
 
 - Quit the interactive shell:
 
@@ -39,6 +39,6 @@ More information: <https://www.tug.org/texlive/tlmgr.html>.
 
 `restart`
 
-- Print the version of the current protocol:
+- Display the version of the current protocol:
 
 `protocol`

@@ -2,8 +2,8 @@
 layout: page
 title: common/ng (English)
 description: "Create and manage Angular applications."
-content_hash: e859f0048f4a0b9fd4cbef04b98e149c967221fe
-last_modified_at: 2023-11-12
+content_hash: 7f8a2c68601ead82830fc706baa0409f1d0673ca
+last_modified_at: 2024-01-30
 related_topics:
   - title: Türkçe version
     url: /tr/common/ng.html
@@ -43,6 +43,6 @@ More information: <https://angular.io/cli>.
 
 `ng test`
 
-- Check the version of your current Angular installation:
+- Display the version of your current Angular installation:
 
 `ng version`

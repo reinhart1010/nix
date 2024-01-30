@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco (English)
 description: "The Chocolatey package manager."
-content_hash: 748b021a17338be528ea2e1088c254d9ae953f3c
-last_modified_at: 2023-11-12
+content_hash: aa5f7c2047816cacf3ce5c08187e6a88f97152e9
+last_modified_at: 2024-01-30
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco.html
@@ -19,6 +19,9 @@ related_topics:
     icon: bi bi-globe
   - title: 日本語 version
     url: /ja/windows/choco.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/choco.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/windows/choco.html
@@ -47,14 +50,14 @@ More information: <https://chocolatey.org>.
 
 `choco `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>
 
-- Call general help:
+- Display help:
 
 `choco -?`
 
-- Call help on a specific command:
+- Display help for a specific command:
 
 `choco `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` -?`
 
-- Check the Chocolatey version:
+- Display version:
 
 `choco --version`

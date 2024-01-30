@@ -2,8 +2,8 @@
 layout: page
 title: windows/reg (English)
 description: "Manage keys and their values in the Windows registry."
-content_hash: b0a83a3d249b46fa0a7f97e25428f9f12f412efb
-last_modified_at: 2023-11-12
+content_hash: d78273486300a47769f73787cab9f14407d8583d
+last_modified_at: 2024-01-30
 related_topics:
   - title: 中文 version
     url: /zh/windows/reg.html
@@ -24,6 +24,6 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 `reg /?`
 
-- Call help on a specific command:
+- Display help for a specific command:
 
 `reg `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` /?`
