@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/mv (Indonesia)
-description: "Memindah atau menamai-ulang file dan direktori."
-content_hash: 7a5364a905ac6d03724ba992cf80449acfe72854
-last_modified_at: 2023-12-19
+description: "Pindahkan atau namai-ulang berkas dan direktori."
+content_hash: 4b19c230d9b50d2834f9a3a3182e8e3d1fff760b
+last_modified_at: 2024-01-30
 related_topics:
   - title: Deutsch version
     url: /de/common/mv.html
@@ -39,18 +39,26 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># mv
 
-Memindah atau menamai-ulang file dan direktori.
+Pindahkan atau namai-ulang berkas dan direktori.
 Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/mv>.
 
-- Memindahkan file ke lokasi yang baru:
+- Pindahkan berkas ke lokasi yang baru:
 
 `mv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/tujuan</span>
 
-- Memindah tanpa meminta konfirmasi sebelum menimpa file yang sudah ada:
+- Pindahkan berkas atau direktori ke dalam direktori lain yang telah ada:
+
+`mv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span>
+
+- Pindahkan berkas majemuk ke dalam direktori lain yang telah ada, dengan menyimpan nama masing-masing file secara utuh:
+
+`mv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber1 jalan/menuju/sumber2 ...</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span>
+
+- Pindahkan tanpa meminta konfirmasi sebelum menimpa file yang sudah ada:
 
 `mv -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/tujuan</span>
 
-- Meminta konfirmasi sebelum menimpa file yang sudah ada, apapun file permissions-nya:
+- Minta konfirmasi sebelum menimpa berkas yang sudah ada, tanpa memerhatikan hak akses hedua file tersebut:
 
 `mv -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/tujuan</span>
 
@@ -58,6 +66,6 @@ Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/mv>.
 
 `mv -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/tujuan</span>
 
-- Memindahkan file dalam mode verbose, menampilkan file-file yang dipindahkan:
+- Pindahkan berkas dalam mode [v]erbose, tampilkan berkas-berkas yang dipindahkan:
 
 `mv -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/sumber</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/tujuan</span>

@@ -2,8 +2,8 @@
 layout: page
 title: common/ab (Indonesia)
 description: "Alat penguji server HTTP Apache."
-content_hash: 4e37a4c08cdc34e51ba2eb2fa72b489f013d48f7
-last_modified_at: 2024-01-01
+content_hash: 4a6253feec463be7286db7ecac6355e290623675
+last_modified_at: 2024-01-30
 related_topics:
   - title: বাংলা version
     url: /bn/common/ab.html
@@ -76,3 +76,7 @@ Informasi lebih lanjut: <https://httpd.apache.org/docs/current/programs/ab.html>
 - Alokasikan wak[t]u maksimum (dalam hitungan detik) untuk mengujinya:
 
 `ab -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">60</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">url</span>
+
+- Simpan hasil pengujian menuju suatu berkas CSV:
+
+`ab -e `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas.csv</span>

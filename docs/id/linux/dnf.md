@@ -2,8 +2,8 @@
 layout: page
 title: linux/dnf (Indonesia)
 description: "Manajer paket untuk distribusi Linux RHEL, Fedora, dan CentOS (pengganti yum)."
-content_hash: 1bc7b7b6fcbcf61e02d191750a4e48567793988f
-last_modified_at: 2023-12-30
+content_hash: bf7807acc4d6d1eb228763434ca57a813f5fde05
+last_modified_at: 2024-01-30
 related_topics:
   - title: català version
     url: /ca/linux/dnf.html
@@ -40,32 +40,37 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 <hr># dnf
 
 Manajer paket untuk distribusi Linux RHEL, Fedora, dan CentOS (pengganti yum).
+Lihat <https://wiki.archlinux.org/title/Pacman/Rosetta> untuk daftar perintah dalam manajer paket lain yang menyerupai perintah `dnf`.
 Informasi lebih lanjut: <https://dnf.readthedocs.io>.
 
-- Memperbarui seluruh paket yang terpasang ke versi terbaru:
+- Perbarui seluruh paket yang terpasang ke versi terbaru:
 
 `sudo dnf upgrade`
 
-- Mencari paket yang tersedia dengan kata kunci tertentu:
+- Cari paket yang tersedia dengan kata kunci tertentu:
 
 `dnf search `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kata_kunci1 kata_kunci2 ...</span>
 
-- Memperlihatkan informasi tentang suatu paket:
+- Tampilkan informasi tentang suatu paket:
 
 `dnf info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket</span>
 
-- Menginstal sebuah paket (gunakan `-y` jawab untuk ya semua pertanyaan):
+- Pasang sebuah paket (gunakan `-y` jawab untuk ya semua pertanyaan):
 
 `sudo dnf install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket1 paket2 ...</span>
 
-- Menghapus sebuah paket:
+- Hapus sebuah paket:
 
 `sudo dnf remove `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">paket1 paket2 ...</span>
 
-- Memperlihatkan daftar semua paket yang telah terpasang:
+- Tampilkan daftar semua paket yang telah terpasang:
 
 `dnf list --installed`
 
-- Temukan paket mana yang menyediakan file tertentu:
+- Temukan paket mana yang menyediakan perintah tertentu:
 
-`dnf provides `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
+`dnf provides `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">perintah</span>
+
+- Lihat informasi riwayat penugasan `dnf`:
+
+`dnf history`

@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/mongod (Indonesia)
-description: "Server database MongoDB."
-content_hash: 9810945b890415c7419ce3245045f648f6b0962c
-last_modified_at: 2023-12-19
+description: "Peladen basis data MongoDB."
+content_hash: 3d263e1752d5de1e22af83e1c5ea56843b4abcf4
+last_modified_at: 2024-01-30
 related_topics:
   - title: English version
     url: /en/common/mongod.html
@@ -18,17 +18,21 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># mongod
 
-Server database MongoDB.
+Peladen basis data MongoDB.
 Informasi lebih lanjut: <https://docs.mongodb.com/manual/reference/program/mongod>.
 
-- Menentukan berkas konfigurasi:
+- Tentukan direktori penyimpanan basis data (default: `/data/db` dalam Linux dan macOS, `C:\data\db` dalam Windows):
 
-`mongod --config `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_berkas</span>
+`mongod --dbpath `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/direktori</span>
 
-- Menentukan port yang digunakan:
+- Tentukan berkas konfigurasi basis data:
+
+`mongod --config `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas</span>
+
+- Tentukan port yang akan digunakan (default: 27017):
 
 `mongod --port `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">port</span>
 
-- Menentukan tingkat pencatatan perilaku (profiling) database. 0 mati, 1 hanya operasi lambat, 2 semuanya:
+- Tentukan tingkat pencatatan perilaku (profiling) peladen basis data. 0 mati, 1 hanya operasi lambat, 2 semuanya (default: 0):
 
 `mongod --profile `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">0|1|2</span>

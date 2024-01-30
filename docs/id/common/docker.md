@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/docker (Indonesia)
-description: "Mengatur kontainer Docker dan image."
-content_hash: f78aa2625b6d8f847c7327b49e1684eb0cc14c76
-last_modified_at: 2023-12-30
+description: "Atur kontainer Docker dan image."
+content_hash: 955b1df946c2fb27c23c312dcf3f61666d3ccc20
+last_modified_at: 2024-01-30
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -48,34 +48,38 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># docker
 
-Mengatur kontainer Docker dan image.
+Atur kontainer Docker dan image.
 Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `docker run`.
 Informasi lebih lanjut: <https://docs.docker.com/engine/reference/commandline/cli/>.
 
-- Menampilkan semua daftar kontainer docker (yang sedang berjalan dan berhenti):
+- Tampilkan semua daftar kontainer docker (yang sedang berjalan dan berhenti):
 
 `docker ps --all`
 
-- Memulai sebuah kontainer dari image, dengan nama kustom:
+- Nyalakan sebuah kontainer dari citra (image), dengan nama kustom:
 
-`docker run --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_kontainer</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span>
+`docker run --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_kontainer</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">citra</span>
 
-- Memulai atau menghentikan kontainer yang tersedia:
+- Nyalakan atau menghentikan kontainer yang tersedia:
 
 `docker `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">start|stop</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_kontainer</span>
 
-- Menarik image dari registri docker:
+- Tarik citra dari registri docker:
 
-`docker pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">image</span>
+`docker pull `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">citra</span>
 
-- Membuka shell didalam sebuah kontainer yang sedang berjalan:
+- Tampilkan daftar citra Docker yang telah diunduh:
+
+`docker images`
+
+- Buka sesi shell didalam sebuah kontainer yang sedang berjalan:
 
 `docker exec -it `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_kontainer</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">sh</span>
 
-- Menghapus kontainer yang sedang berhenti:
+- Hapus kontainer yang sedang berhenti:
 
 `docker rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_kontainer</span>
 
-- Mengambil dan mengikuti semua log dari sebuah kontainer:
+- Ambil dan ikuti semua log dari sebuah kontainer:
 
 `docker logs -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">nama_kontainer</span>

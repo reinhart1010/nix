@@ -1,9 +1,9 @@
 ---
 layout: page
 title: common/rm (Indonesia)
-description: "Menghapus berkas atau direktori."
-content_hash: 526b73d8cc565e5a650401ec84139e77d08c96ea
-last_modified_at: 2023-12-29
+description: "Hapus berkas atau direktori."
+content_hash: c32fef7b54022aad2592142636525c3cbcea396f
+last_modified_at: 2024-01-30
 related_topics:
   - title: Deutsch version
     url: /de/common/rm.html
@@ -48,21 +48,26 @@ This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) p
 
 <hr># rm
 
-Menghapus berkas atau direktori.
+Hapus berkas atau direktori.
+Lihat juga: `rmdir`.
 Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/rm>.
 
-- Menghapus berkas dari lokasi manapun:
+- Hapus berkas dari lokasi manapun:
 
-`rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/berkas1 alamat/ke/berkas2 ...</span>
+`rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas1 jalan/menuju/berkas2 ...</span>
 
-- Menghapus banyak berkas secara [i]nteraktif, dengan meminta konfirmasi sebelum setiap penghapusan:
+- Hapus berkas dari lokasi manapun dengan mengabaikan nama-nama file yang tidak ditemukan:
 
-`rm -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">(beberapa)_berkas</span>
+`rm -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas1 jalan/menuju/berkas2 ...</span>
 
-- Menghapus berkas dengan mode verbose, mencetak pesan untuk setiap berkas yang terhapus:
+- Hapus banyak berkas secara [i]nteraktif, dengan meminta konfirmasi sebelum setiap penghapusan:
 
-`rm -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/directori/*</span>
+`rm -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas1 jalan/menuju/berkas2 ...</span>
 
-- Menghapus direktori dan semua subdirektorinya secara [r]ekursif:
+- Hapus berkas dengan mode [v]erbose, mencetak pesan untuk setiap file yang terhapus:
 
-`rm -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">alamat/ke/direktori</span>
+`rm -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas1 jalan/menuju/berkas2 ...</span>
+
+- Hapus direktori dan semua subdirektorinya secara [r]ekursif:
+
+`rm -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">jalan/menuju/berkas_atau_direktori1 jalan/menuju/berkas_atau_direktori2 ...</span>
