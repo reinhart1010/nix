@@ -3,23 +3,14 @@ layout: page
 title: common/qc (español)
 description: "Gestiona y ejecuta fragmentos de comandos almacenados en notas QOwnNotes."
 content_hash: 3cd893dbee9e8dd3c4d4e39265648589875ef504
-last_modified_at: 2024-01-29
+last_modified_at: 2024-01-30
 related_topics:
   - title: English version
     url: /en/common/qc.html
     icon: bi bi-globe
-tldri18n_status: 0
+tldri18n_status: 2
 ---
-
-### Outdated Translation
-This entry is currently considered outdated and its contents may not be up-to-date with other translations.
-
-Please considering fixing this issue by contributing to the [tldr-pages](https://github.com/tldr-pages/tldr) project directly.
-
-<a class="btn btn-primary" href="{{ site.url }}/en/common/qc.html">View original (English) version</a>
-<a class="btn" href="https://github.com/tldr-pages/tldr/blob/main/CONTRIBUTING.md">Contributing Guidelines</a>
-
-<hr># qc
+# qc
 
 Gestiona y ejecuta fragmentos de comandos almacenados en notas QOwnNotes.
 Ve también: `qownnotes`.
