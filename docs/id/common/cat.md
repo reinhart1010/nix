@@ -3,7 +3,7 @@ layout: page
 title: common/cat (Indonesia)
 description: "Cetak dan menggabungkan berkas."
 content_hash: 18dd84525cc14992f5980b362a44559a1c0aa1c5
-last_modified_at: 2024-01-30
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/common/cat.html
@@ -56,12 +56,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/cat.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># cat
+# cat
 
 Cetak dan menggabungkan berkas.
 Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/cat>.

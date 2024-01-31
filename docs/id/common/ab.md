@@ -3,7 +3,7 @@ layout: page
 title: common/ab (Indonesia)
 description: "Alat penguji server HTTP Apache."
 content_hash: 4a6253feec463be7286db7ecac6355e290623675
-last_modified_at: 2024-01-30
+last_modified_at: 2024-01-31
 related_topics:
   - title: বাংলা version
     url: /bn/common/ab.html
@@ -47,12 +47,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/ab.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># ab
+# ab
 
 Alat penguji server HTTP Apache.
 Informasi lebih lanjut: <https://httpd.apache.org/docs/current/programs/ab.html>.

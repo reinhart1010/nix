@@ -3,7 +3,7 @@ layout: page
 title: common/docker (Indonesia)
 description: "Atur kontainer Docker dan image."
 content_hash: 955b1df946c2fb27c23c312dcf3f61666d3ccc20
-last_modified_at: 2024-01-30
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/common/docker.html
@@ -41,12 +41,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/docker.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># docker
+# docker
 
 Atur kontainer Docker dan image.
 Kami mempunyai dokumentasi terpisah untuk menggunakan subperintah seperti `docker run`.

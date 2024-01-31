@@ -3,7 +3,7 @@ layout: page
 title: common/mv (Indonesia)
 description: "Pindahkan atau namai-ulang berkas dan direktori."
 content_hash: 4b19c230d9b50d2834f9a3a3182e8e3d1fff760b
-last_modified_at: 2024-01-30
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/common/mv.html
@@ -32,12 +32,9 @@ related_topics:
   - title: 中文 (繁體, 台灣) version
     url: /zh_TW/common/mv.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mv
+# mv
 
 Pindahkan atau namai-ulang berkas dan direktori.
 Informasi lebih lanjut: <https://www.gnu.org/software/coreutils/mv>.

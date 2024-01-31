@@ -3,7 +3,7 @@ layout: page
 title: common/mongod (Indonesia)
 description: "Peladen basis data MongoDB."
 content_hash: 3d263e1752d5de1e22af83e1c5ea56843b4abcf4
-last_modified_at: 2024-01-30
+last_modified_at: 2024-01-31
 related_topics:
   - title: English version
     url: /en/common/mongod.html
@@ -11,12 +11,9 @@ related_topics:
   - title: 中文 version
     url: /zh/common/mongod.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># mongod
+# mongod
 
 Peladen basis data MongoDB.
 Informasi lebih lanjut: <https://docs.mongodb.com/manual/reference/program/mongod>.

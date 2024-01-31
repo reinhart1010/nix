@@ -3,7 +3,7 @@ layout: page
 title: linux/dnf (Indonesia)
 description: "Manajer paket untuk distribusi Linux RHEL, Fedora, dan CentOS (pengganti yum)."
 content_hash: bf7807acc4d6d1eb228763434ca57a813f5fde05
-last_modified_at: 2024-01-30
+last_modified_at: 2024-01-31
 related_topics:
   - title: català version
     url: /ca/linux/dnf.html
@@ -32,12 +32,9 @@ related_topics:
   - title: Türkçe version
     url: /tr/linux/dnf.html
     icon: bi bi-globe
-tldri18n_status: 1
+tldri18n_status: 2
 ---
-
-This entry is very new in the [tldr-pages](https://github.com/tldr-pages/tldr) project, hence translation data is currently unavailable for a while.
-
-<hr># dnf
+# dnf
 
 Manajer paket untuk distribusi Linux RHEL, Fedora, dan CentOS (pengganti yum).
 Lihat <https://wiki.archlinux.org/title/Pacman/Rosetta> untuk daftar perintah dalam manajer paket lain yang menyerupai perintah `dnf`.
