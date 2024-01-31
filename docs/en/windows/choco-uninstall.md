@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco-uninstall (English)
 description: "Uninstall packages with Chocolatey."
-content_hash: 12652a9e47f982e15656112cf858127b75e9a9b2
-last_modified_at: 2024-01-25
+content_hash: 0e569c3c262c4543dd0eaf0c130c81255b5df364
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-uninstall.html
@@ -33,7 +33,7 @@ tldri18n_status: 2
 Uninstall packages with Chocolatey.
 More information: <https://chocolatey.org/docs/commands-uninstall>.
 
-- Uninstall one or more space-separated packages:
+- Uninstall one or more packages:
 
 `choco uninstall `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 ...</span>
 

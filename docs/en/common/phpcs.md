@@ -2,8 +2,8 @@
 layout: page
 title: common/phpcs (English)
 description: "Tokenize PHP, JavaScript and CSS files to detect violations of a defined set of coding standards."
-content_hash: 082d16a97b135000ced5f2e0fc974471eccd383b
-last_modified_at: 2024-01-25
+content_hash: 4593dc5de325c73e956b2c9a517408afe63a34a6
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # phpcs
@@ -25,7 +25,7 @@ More information: <https://github.com/squizlabs/PHP_CodeSniffer>.
 
 - Specify comma-separated file extensions to include when sniffing:
 
-`phpcs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` --extensions `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_extension(s)</span>
+`phpcs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` --extensions `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_extension1,file_extension2,...</span>
 
 - Specify the format of the output report (e.g. `full`, `xml`, `json`, `summary`):
 
@@ -37,7 +37,7 @@ More information: <https://github.com/squizlabs/PHP_CodeSniffer>.
 
 - A comma-separated list of files to load before processing:
 
-`phpcs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` --bootstrap `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file(s)</span>
+`phpcs `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` --bootstrap `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1,path/to/file2,...</span>
 
 - Don't recurse into subdirectories:
 

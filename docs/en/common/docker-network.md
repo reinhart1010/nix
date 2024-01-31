@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-network (English)
 description: "Create and manage docker networks."
-content_hash: 6e0e3c81a186b6c399ff47c4f58299c37b6d5465
-last_modified_at: 2023-11-12
+content_hash: 24f600f88b72934fbf5cd5ccade9b13f5ee14082
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-network.html
@@ -35,9 +35,9 @@ More information: <https://docs.docker.com/engine/reference/commandline/network/
 
 `docker network create --driver `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">driver_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">network_name</span>
 
-- Display detailed information of a space-separated list of networks:
+- Display detailed information about one or more networks:
 
-`docker network inspect `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">network_name</span>
+`docker network inspect `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">network_name1 network_name2 ...</span>
 
 - Connect a container to a network using a name or ID:
 
@@ -51,6 +51,6 @@ More information: <https://docs.docker.com/engine/reference/commandline/network/
 
 `docker network prune`
 
-- Remove a space-separated list of unused networks:
+- Remove one or more unused networks:
 
-`docker network rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">network_name</span>
+`docker network rm `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">network_name1 network_name2 ...</span>

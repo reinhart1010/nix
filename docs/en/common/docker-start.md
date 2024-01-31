@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-start (English)
 description: "Start stopped containers."
-content_hash: e89f8d6842fd43bbb188b2f9151edad790f33a5b
-last_modified_at: 2024-01-25
+content_hash: 2ec4dae2bc9408b85e8d2697fc55d872dabe273b
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-start.html
@@ -39,6 +39,6 @@ More information: <https://docs.docker.com/engine/reference/commandline/start/>.
 
 `docker start --attach `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container</span>
 
-- Start one or more space-separated containers:
+- Start one or more containers:
 
 `docker start `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container1 container2 ...</span>

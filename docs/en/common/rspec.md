@@ -2,8 +2,8 @@
 layout: page
 title: common/rspec (English)
 description: "Behavior-driven development testing framework written in Ruby to test Ruby code."
-content_hash: 3ca0b95a26885df0f8aac529f76d472e89bbfaf3
-last_modified_at: 2024-01-25
+content_hash: cb34cccc5e198a2044f4cc8345333f2bf24756df
+last_modified_at: 2024-01-31
 related_topics:
   - title: Indonesia version
     url: /id/common/rspec.html
@@ -27,13 +27,9 @@ More information: <https://rspec.info>.
 
 `rspec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
 
-- Run a specific test file:
+- Run one or more test files:
 
-`rspec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
-
-- Run multiple test files:
-
-`rspec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>
+`rspec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
 - Run a specific test in a file (e.g. the test starts on line 83):
 

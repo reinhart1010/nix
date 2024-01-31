@@ -2,8 +2,8 @@
 layout: page
 title: common/trawl (English)
 description: "Prints out network interface information to the console, much like ifconfig/ipconfig/ip/ifdata."
-content_hash: e1679ef38b77b19e0d58770e2ebe60278a917f9f
-last_modified_at: 2023-11-12
+content_hash: ffb521d4775620638e02996b7102d40e1a50980f
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # trawl
@@ -19,7 +19,7 @@ More information: <https://github.com/robphoenix/trawl>.
 
 `trawl -f wi`
 
-- Get a list of available interfaces:
+- List available interfaces:
 
 `trawl -i`
 

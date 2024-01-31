@@ -2,8 +2,8 @@
 layout: page
 title: common/cake (English)
 description: "The command-line processor for the CakePHP framework."
-content_hash: 09cff9c52b744365d2f9f80d4577b6c39452c147
-last_modified_at: 2023-11-12
+content_hash: 9a68f337d8c5fde5874eeeddb0c450595b155fad
+last_modified_at: 2024-01-31
 related_topics:
   - title: italiano version
     url: /it/common/cake.html
@@ -22,7 +22,7 @@ More information: <https://cakephp.org>.
 
 `cake`
 
-- Display a list of available routes:
+- List available routes:
 
 `cake routes`
 

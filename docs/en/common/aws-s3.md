@@ -2,8 +2,8 @@
 layout: page
 title: common/aws-s3 (English)
 description: "CLI for AWS S3 - provides storage through web services interfaces."
-content_hash: cc49281e77962a96866a477b5f0b241231e15124
-last_modified_at: 2023-12-03
+content_hash: 64d2415542ad9a84a2af7c0ea7618be61ca86598
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-s3.html
@@ -34,7 +34,7 @@ More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/refe
 
 - Sync files and directories from local to bucket:
 
-`aws s3 sync `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/files</span>` s3://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span>
+`aws s3 sync `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>` s3://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span>
 
 - Sync files and directories from bucket to local:
 
@@ -42,7 +42,7 @@ More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/refe
 
 - Sync files and directories with exclusions:
 
-`aws s3 sync `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/files</span>` s3://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span>` --exclude `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` --exclude `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>`/*`
+`aws s3 sync `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>` s3://`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">bucket_name</span>` --exclude `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` --exclude `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>`/*`
 
 - Remove file from bucket:
 

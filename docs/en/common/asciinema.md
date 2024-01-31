@@ -2,8 +2,8 @@
 layout: page
 title: common/asciinema (English)
 description: "Record and replay terminal sessions, and optionally share them on asciinema.org."
-content_hash: 3f63213346c27ef16a2b6561fc2265961a119771
-last_modified_at: 2023-11-12
+content_hash: 45837506e02852764ddbcc3141799299e56da64f
+last_modified_at: 2024-01-31
 related_topics:
   - title: español version
     url: /es/common/asciinema.html
@@ -40,11 +40,11 @@ More information: <https://asciinema.org/docs/usage>.
 
 - Make a new recording and save it to a local file:
 
-`asciinema rec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>`.cast`
+`asciinema rec `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.cast</span>
 
 - Replay a terminal recording from a local file:
 
-`asciinema play `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>`.cast`
+`asciinema play `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.cast</span>
 
 - Replay a terminal recording hosted on asciinema.org:
 
@@ -56,8 +56,8 @@ More information: <https://asciinema.org/docs/usage>.
 
 - Print the full output of a locally saved recording:
 
-`asciinema cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>`.cast`
+`asciinema cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.cast</span>
 
 - Upload a locally saved terminal session to asciinema.org:
 
-`asciinema upload `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>`.cast`
+`asciinema upload `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.cast</span>

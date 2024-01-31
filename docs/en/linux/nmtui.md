@@ -2,11 +2,14 @@
 layout: page
 title: linux/nmtui (English)
 description: "Text user interface for controlling NetworkManager."
-content_hash: 84e774b68f058214e43e09621d6d104850441e32
-last_modified_at: 2023-11-12
+content_hash: 8101dcbbda905f18d618bf0e7175aa35c810994a
+last_modified_at: 2024-01-31
 related_topics:
   - title: italiano version
     url: /it/linux/nmtui.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/linux/nmtui.html
     icon: bi bi-globe
   - title: Türkçe version
     url: /tr/linux/nmtui.html
@@ -23,7 +26,7 @@ More information: <https://networkmanager.dev/docs/api/latest/nmtui.html>.
 
 `nmtui`
 
-- Show a list of available connections, with the option to activate or deactivate them:
+- List available connections, with the option to activate or deactivate them:
 
 `nmtui connect`
 

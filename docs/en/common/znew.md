@@ -2,8 +2,8 @@
 layout: page
 title: common/znew (English)
 description: "Recompress files from `.Z` to `.gz` format."
-content_hash: db89b1fa8e22a01dfe93d6b9ba5feb7614122522
-last_modified_at: 2023-11-12
+content_hash: 93fecec5507ad8f5d9879c14d9affeacbb52ba43
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # znew
@@ -17,7 +17,7 @@ More information: <https://manned.org/znew>.
 
 - Recompress multiple files and display the achieved size reduction % per file:
 
-`znew -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.Z</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2.Z</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file3.Z</span>
+`znew -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.Z path/to/file2.Z ...</span>
 
 - Recompress a file using the slowest compression method (for optimal compression):
 

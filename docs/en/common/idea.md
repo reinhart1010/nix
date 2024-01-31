@@ -2,8 +2,8 @@
 layout: page
 title: common/idea (English)
 description: "JetBrains Java and Kotlin IDE."
-content_hash: 473af328350f4bf012aac6f3dcfbb2d16f595d89
-last_modified_at: 2023-11-12
+content_hash: 0d0e1c7a66d225f9c2ff254b9893a2ab170fc95c
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # idea
@@ -21,7 +21,7 @@ More information: <https://www.jetbrains.com/help/idea/working-with-the-ide-feat
 
 - Open the diff viewer to compare up to 3 files:
 
-`idea diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>
+`idea diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 path/to/optional_file3</span>
 
 - Open the merge dialog to perform a two-way file merge:
 

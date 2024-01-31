@@ -2,8 +2,8 @@
 layout: page
 title: common/csslint (English)
 description: "A linter for CSS code."
-content_hash: d1bbcd625f359b0e8de08307a2c6cda36cc55951
-last_modified_at: 2023-11-12
+content_hash: 89bdc54ff21cdec6feeca23629b918f076c12815
+last_modified_at: 2024-01-31
 related_topics:
   - title: italiano version
     url: /it/common/csslint.html
@@ -27,7 +27,7 @@ More information: <https://github.com/CSSLint/csslint/wiki/Command-line-interfac
 
 - Lint multiple CSS files:
 
-`csslint `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1.css</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file2.css</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file3.css</span>
+`csslint `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1.css file2.css ...</span>
 
 - List all possible style rules:
 

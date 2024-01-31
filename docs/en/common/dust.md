@@ -2,8 +2,8 @@
 layout: page
 title: common/dust (English)
 description: "Dust gives an instant overview of which directories are using disk space."
-content_hash: 4e029e295d36a268adda90ffaaf6c59224f7f64c
-last_modified_at: 2023-11-12
+content_hash: 8549b3b5fe887d09d0cf06f5971c8564a7803c83
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/common/dust.html
@@ -22,9 +22,9 @@ More information: <https://github.com/bootandy/dust>.
 
 `dust`
 
-- Display information for a space-separated list of directories:
+- Display information about one or more directories:
 
-`dust `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory2</span>
+`dust `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1 path/to/directory2 ...</span>
 
 - Display 30 directories (defaults to 21):
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/peerindex (English)
 description: "Inspect MRT TABLE_DUMPV2 Peer Index Table."
-content_hash: b8e2c3ac06522fbef894e600cff3113453212f85
-last_modified_at: 2024-01-30
+content_hash: 71fb78fd0df6ba0748df77f488ce1273814951d7
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/common/peerindex.html
@@ -16,7 +16,7 @@ Inspect MRT TABLE_DUMPV2 Peer Index Table.
 Can read files compressed with `gzip`, `bzip2` and `xz`.
 More information: <https://codeberg.org/1414codeforge/ubgpsuite>.
 
-- Output all peers:
+- List all peers:
 
 `peerindex `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">master6.mrt</span>
 

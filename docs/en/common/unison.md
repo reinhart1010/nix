@@ -2,8 +2,8 @@
 layout: page
 title: common/unison (English)
 description: "Bidirectional file synchronisation tool."
-content_hash: 3a77f45ceff56ab036de88be264b5f01725ca808
-last_modified_at: 2023-11-12
+content_hash: db51095565abda4b60fda303d1f77dc664a67833
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # unison
@@ -23,6 +23,6 @@ More information: <https://www.cis.upenn.edu/~bcpierce/unison/download/releases/
 
 `unison `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory_1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory_2</span>` -ignore `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pattern</span>
 
-- Show documentation:
+- View documentation:
 
 `unison -doc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">topics</span>

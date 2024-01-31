@@ -2,8 +2,8 @@
 layout: page
 title: linux/sxiv (English)
 description: "Simple X Image Viewer."
-content_hash: 72ddae2e8a651560c4bc123c961a2d34a6e063b6
-last_modified_at: 2023-11-12
+content_hash: cdb697f2192c84d3341450bf6e19aee578404701
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # sxiv
@@ -13,7 +13,7 @@ More information: <https://github.com/muennich/sxiv>.
 
 - Open an image:
 
-`sxiv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`sxiv `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image</span>
 
 - Open an image in fullscreen mode:
 
@@ -23,10 +23,10 @@ More information: <https://github.com/muennich/sxiv>.
 
 `echo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>` | sxiv -i`
 
-- Open a space-separated list of images as a slideshow:
+- Open one or more images as a slideshow:
 
-`sxiv -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">seconds</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`sxiv -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">seconds</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1 path/to/image2</span>
 
-- Open a space-separated list of images in thumbnail mode:
+- Open one or more images in thumbnail mode:
 
-`sxiv -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
+`sxiv -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1 path/to/image2</span>

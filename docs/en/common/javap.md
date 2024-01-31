@@ -1,21 +1,17 @@
 ---
 layout: page
 title: common/javap (English)
-description: "Disassemble one or more class files and list them."
-content_hash: 61829a079f58baa528594301692043db6dc93971
-last_modified_at: 2023-11-12
+description: "Disassemble class files and list them."
+content_hash: d0a4826fcc489c2518ce72c97ad719a4f3212a29
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # javap
 
-Disassemble one or more class files and list them.
+Disassemble class files and list them.
 More information: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/javap.html>.
 
-- Disassemble and list a `.class` file:
-
-`javap `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.class</span>
-
-- Disassemble and list multiple `.class` files:
+- Disassemble and list one or more `.class` files:
 
 `javap `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.class path/to/file2.class ...</span>
 

@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco-install (English)
 description: "Install one or more packages with Chocolatey."
-content_hash: 4c4000ec5ce635dd11f3cefe8de66f829fcae958
-last_modified_at: 2023-11-17
+content_hash: e354fc3bdc564f1bb94df9d4208a57f408e29b4d
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-install.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/windows/choco-install.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/windows/choco-install.html
     icon: bi bi-globe
   - title: polski version
     url: /pl/windows/choco-install.html
@@ -33,7 +36,7 @@ tldri18n_status: 2
 Install one or more packages with Chocolatey.
 More information: <https://chocolatey.org/docs/commands-install>.
 
-- Install one or more space-separated packages:
+- Install one or more packages:
 
 `choco install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 ...</span>
 

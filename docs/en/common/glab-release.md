@@ -2,8 +2,8 @@
 layout: page
 title: common/glab-release (English)
 description: "Manage GitLab releases."
-content_hash: 25e913faad4e6ad975703247fc447bcd1339a793
-last_modified_at: 2023-11-12
+content_hash: 2ca102c06e92fb0bf4cd3533d5d2385d51bc39ed
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # glab release
@@ -33,4 +33,4 @@ More information: <https://glab.readthedocs.io/en/latest/release>.
 
 - Upload assets to a specific release:
 
-`glab release upload `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>
+`glab release upload `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">tag</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>

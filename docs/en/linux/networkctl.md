@@ -2,8 +2,8 @@
 layout: page
 title: linux/networkctl (English)
 description: "Query the status of network links."
-content_hash: d9f7b088736aba6383256bb5a30eabfc364376df
-last_modified_at: 2023-11-12
+content_hash: 4296a0a293dd02590b3471662d65ac1e10d3224d
+last_modified_at: 2024-01-31
 related_topics:
   - title: polski version
     url: /pl/linux/networkctl.html
@@ -16,7 +16,7 @@ Query the status of network links.
 Manage the network configuration using `systemd-networkd`.
 More information: <https://www.freedesktop.org/software/systemd/man/networkctl.html>.
 
-- Show a list of existing links and their status:
+- List existing links with their status:
 
 `networkctl list`
 

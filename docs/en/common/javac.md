@@ -2,8 +2,8 @@
 layout: page
 title: common/javac (English)
 description: "Java application compiler."
-content_hash: d7ee9c05ef02badd2f0be7bd70591b9fc55abb9d
-last_modified_at: 2023-12-27
+content_hash: 61b36ba716dc03b276ddd0411a92bb0e6508185b
+last_modified_at: 2024-01-31
 related_topics:
   - title: 한국어 version
     url: /ko/common/javac.html
@@ -30,7 +30,7 @@ More information: <https://docs.oracle.com/en/java/javase/20/docs/specs/man/java
 
 - Compile several `.java` files:
 
-`javac `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.java</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2.java</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file3.java</span>
+`javac `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.java path/to/file2.java ...</span>
 
 - Compile all `.java` files in current directory:
 

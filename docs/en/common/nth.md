@@ -2,8 +2,8 @@
 layout: page
 title: common/nth (English)
 description: "Name That Hash - Instantly name the type of any hash."
-content_hash: 3ff5d69f13187ff457f41dd2635cb463d4cc6502
-last_modified_at: 2023-11-12
+content_hash: f687a1b91b62e6d5a0c7697051eec30ae9b8eb9d
+last_modified_at: 2024-01-31
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/nth.html
@@ -23,7 +23,7 @@ More information: <https://github.com/hashpals/name-that-hash>.
 
 `nth -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/hashes</span>
 
-- Output in json format:
+- Print in JSON format:
 
 `nth -t `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">5f4dcc3b5aa765d61d8327deb882cf99</span>` -g`
 

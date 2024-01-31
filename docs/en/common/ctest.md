@@ -2,8 +2,8 @@
 layout: page
 title: common/ctest (English)
 description: "CMake test driver program."
-content_hash: 2b9c4b33adea0da75535ca50f579bc55f1267f46
-last_modified_at: 2023-11-12
+content_hash: 2003c4d8e194a34c730459a75a2f27023e9c5285
+last_modified_at: 2024-01-31
 related_topics:
   - title: italiano version
     url: /it/common/ctest.html
@@ -22,7 +22,7 @@ More information: <https://gitlab.kitware.com/cmake/community/wikis/doc/ctest/Te
 
 `ctest -j`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">4</span>` --output-on-failure`
 
-- Show a list of available tests:
+- List available tests:
 
 `ctest -N`
 

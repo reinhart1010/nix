@@ -2,9 +2,12 @@
 layout: page
 title: windows/ipconfig (English)
 description: "Display and manage the network configuration of Windows."
-content_hash: 5a7803cfb75159fb9e3a329b25d175e7bbdd3019
-last_modified_at: 2023-11-12
+content_hash: cad25346125f16e755245a12fc0f0607db810c1d
+last_modified_at: 2024-01-31
 related_topics:
+  - title: Deutsch version
+    url: /de/windows/ipconfig.html
+    icon: bi bi-globe
   - title: हिन्दी version
     url: /hi/windows/ipconfig.html
     icon: bi bi-globe
@@ -33,7 +36,7 @@ tldri18n_status: 2
 Display and manage the network configuration of Windows.
 More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/ipconfig>.
 
-- Show a list of network adapters:
+- List all network adapters:
 
 `ipconfig`
 

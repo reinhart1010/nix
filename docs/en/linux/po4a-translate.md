@@ -2,8 +2,8 @@
 layout: page
 title: linux/po4a-translate (English)
 description: "Convert a PO file back to documentation format."
-content_hash: f185ef901dd2104f4967d98aab5ae3bbb04741f3
-last_modified_at: 2023-11-12
+content_hash: ec675d6d9e154b12dd79cd76740f87199cab9169
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # po4a-translate
@@ -16,6 +16,6 @@ More information: <https://po4a.org/man/man1/po4a-translate.1.php>.
 
 `po4a-translate --format `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">text</span>` --master `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/master.doc</span>` --po `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/result.po</span>` --localized `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/translated.txt</span>
 
-- Get a list of available formats:
+- List all available formats:
 
 `po4a-translate --help-format`

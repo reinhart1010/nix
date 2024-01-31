@@ -2,8 +2,8 @@
 layout: page
 title: common/aws-backup (English)
 description: "Unified backup service designed to protect Amazon Web Services services and their associated data."
-content_hash: 39e4227afb9ddc8a2abddf71b43f3a114c085978
-last_modified_at: 2023-11-12
+content_hash: 50deb294a0da8d99478575ef0c37d1979d4ce630
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/common/aws-backup.html
@@ -30,7 +30,7 @@ More information: <https://docs.aws.amazon.com/cli/latest/reference/backup/index
 
 `aws backup delete-backup-plan --backup-plan-id `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">id</span>
 
-- Return a list of all active backup plans for the current account:
+- List all active backup plans for the current account:
 
 `aws backup list-backup-plans`
 

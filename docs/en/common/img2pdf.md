@@ -2,8 +2,8 @@
 layout: page
 title: common/img2pdf (English)
 description: "Command-line lossless converter of raster images to PDF."
-content_hash: 70a5bc3612b9c8a156b0c5948bad21bc2b0a3f80
-last_modified_at: 2023-11-12
+content_hash: c417fcedfd6f48a7bf2fc405bc383974efa85350
+last_modified_at: 2024-01-31
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/common/img2pdf.html
@@ -15,9 +15,9 @@ tldri18n_status: 2
 Command-line lossless converter of raster images to PDF.
 More information: <https://gitlab.mister-muffin.de/josch/img2pdf>.
 
-- Convert multiple images to a single PDF, each image being on its own page:
+- Convert one or more images to a single PDF, each image being on its own page:
 
-`img2pdf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1.jpg</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image2.jpg</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span>
+`img2pdf `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/image1.jpg path/to/image2.jpg ...</span>` --output `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.pdf</span>
 
 - Convert only the first frame of a multi-frame image to PDF:
 

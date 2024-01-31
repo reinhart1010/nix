@@ -2,8 +2,8 @@
 layout: page
 title: common/php (English)
 description: "PHP command-line interface."
-content_hash: 37247a1f0380ee73f1d0fbda729b61c2f0f5d40a
-last_modified_at: 2023-11-12
+content_hash: 01070fedc3bd3596d31109d1bf1b6db921256020
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/common/php.html
@@ -38,7 +38,7 @@ More information: <https://php.net>.
 
 `php -S `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">host:port</span>
 
-- Get a list of installed PHP extensions:
+- List installed PHP extensions:
 
 `php -m`
 

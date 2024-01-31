@@ -2,8 +2,8 @@
 layout: page
 title: common/cpio (English)
 description: "Copies files in and out of archives."
-content_hash: 1556229537ad1073451128b1e826c674536a26fc
-last_modified_at: 2023-11-12
+content_hash: bdce538240701b0c93f8f280cd4288d4f0d82226
+last_modified_at: 2024-01-31
 related_topics:
   - title: italiano version
     url: /it/common/cpio.html
@@ -21,7 +21,7 @@ More information: <https://www.gnu.org/software/cpio>.
 
 - Take a list of file names from `stdin` and add them [o]nto an archive in cpio's binary format:
 
-`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file3</span>`" | cpio -o > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive.cpio</span>
+`echo "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>`" | cpio -o > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">archive.cpio</span>
 
 - Copy all files and directories in a directory and add them [o]nto an archive, in [v]erbose mode:
 

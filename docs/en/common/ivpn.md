@@ -2,8 +2,8 @@
 layout: page
 title: common/ivpn (English)
 description: "Command-line interface for the IVPN client."
-content_hash: 942cc059c131f11915396297e557a68105e6053a
-last_modified_at: 2023-11-12
+content_hash: 3d94d34ef4f1fd9366d63496cbbfbcd00ab3d947
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # ivpn
@@ -15,6 +15,6 @@ More information: <https://www.ivpn.net>.
 
 `ivpn status`
 
-- Print a list of available servers to connect to:
+- List available servers to connect to:
 
 `ivpn servers`

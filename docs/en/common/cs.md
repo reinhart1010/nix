@@ -2,8 +2,8 @@
 layout: page
 title: common/cs (English)
 description: "Application and artifact manager for the Scala language."
-content_hash: 167eb9d5861ffd5aa8a04fc2df7531959211090c
-last_modified_at: 2024-01-30
+content_hash: 5747864b3d7baddfa537dfb678d022553a691aff
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # cs
@@ -13,7 +13,7 @@ Installs Scala applications and sets up a Scala development environment.
 Some subcommands such as `install`, `launch`, `java`, `fetch`, `resolve`, `complete-dep`, etc. have their own usage documentation.
 More information: <https://get-coursier.io/docs/overview>.
 
-- Show a list of the installed applications:
+- List installed applications:
 
 `cs list`
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/git-show-branch (English)
 description: "Show branches and their commits."
-content_hash: a9aea40211a305f362fcfc0a6535d2ccf57c6277
-last_modified_at: 2023-11-12
+content_hash: 517c0abf9fdcbcb5fc5201d71f27df0e1d09149c
+last_modified_at: 2024-01-31
 related_topics:
   - title: français version
     url: /fr/common/git-show-branch.html
@@ -27,7 +27,7 @@ More information: <https://git-scm.com/docs/git-show-branch>.
 
 - Compare commits in the history of multiple commits or branches:
 
-`git show-branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name|ref|commit</span>
+`git show-branch `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">branch_name1|ref1|commit1 branch_name2|ref2|commit2 ...</span>
 
 - Compare all remote tracking branches:
 

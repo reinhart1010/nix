@@ -2,8 +2,8 @@
 layout: page
 title: common/evil-winrm (English)
 description: "Windows Remote Management (WinRM) shell for pentesting."
-content_hash: 65770c8ed97e3f0f0897300608617dd7e8dd0813
-last_modified_at: 2023-11-12
+content_hash: 6e731ebb92bbad9619787e71a972cb1acb226ea2
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # evil-winrm
@@ -32,7 +32,7 @@ More information: <https://github.com/Hackplayers/evil-winrm>.
 
 `PS > upload `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/local/file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/remote/file</span>
 
-- Get a list of loaded PowerShell functions:
+- List all loaded PowerShell functions:
 
 `PS > menu`
 

@@ -2,8 +2,8 @@
 layout: page
 title: linux/snapper (English)
 description: "Filesystem snapshot management tool."
-content_hash: 5e77c61395de066177b312797c2089afef4cffaf
-last_modified_at: 2023-11-12
+content_hash: 558e81e0bd17686f734aa6939f4cfda0e43a36c6
+last_modified_at: 2024-01-31
 related_topics:
   - title: português (Brasil) version
     url: /pt_BR/linux/snapper.html
@@ -37,4 +37,4 @@ More information: <http://snapper.io/manpages/snapper.html>.
 
 - Delete a range of snapshots:
 
-`snapper -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config</span>` delete `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">snapshot_X</span>`-`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">snapshot_Y</span>
+`snapper -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">config</span>` delete `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">snapshot1</span>`-`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">snapshot2</span>

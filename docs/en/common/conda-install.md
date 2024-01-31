@@ -2,8 +2,8 @@
 layout: page
 title: common/conda-install (English)
 description: "Install packages into an existing conda environment."
-content_hash: 0597d5c9d92d58eb19bec14519a74e0c53abfc3f
-last_modified_at: 2023-11-12
+content_hash: ec24e361623a63aa699c505abe5bd98b8ab65b69
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # conda install
@@ -11,9 +11,9 @@ tldri18n_status: 2
 Install packages into an existing conda environment.
 More information: <https://docs.conda.io/projects/conda/en/latest/commands/install.html>.
 
-- Install a single package into the currently active conda environment:
+- Install one or more package into the currently active conda environment:
 
-`conda install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
+`conda install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 ...</span>
 
 - Install a single package into the currently active conda environment using channel conda-forge:
 
@@ -22,10 +22,6 @@ More information: <https://docs.conda.io/projects/conda/en/latest/commands/insta
 - Install a single package into the currently active conda environment using channel conda-forge and ignoring other channels:
 
 `conda install -c conda-forge --override-channels `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package</span>
-
-- Install multiple packages:
-
-`conda install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 ...</span>
 
 - Install a specific version of a package:
 

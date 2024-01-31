@@ -2,8 +2,8 @@
 layout: page
 title: common/multitail (English)
 description: "Extension of tail."
-content_hash: 30b4349c302c8dd06f3f8ae58a5dfbf1983d8d82
-last_modified_at: 2023-11-12
+content_hash: 6e36dbddc56a1c07e9f2cdf42ebe9211a8a2c1f8
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # multitail
@@ -25,4 +25,4 @@ More information: <https://manned.org/multitail>.
 
 - Show 5 logfiles while merging 2 and put them in 2 columns with only one in the left column:
 
-`multitail -s 2 -sn 1,3 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">mergefile</span>` -I `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file3</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file4</span>
+`multitail -s 2 -sn 1,3 `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/mergefile</span>` -I `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file3</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file4</span>

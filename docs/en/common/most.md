@@ -2,8 +2,8 @@
 layout: page
 title: common/most (English)
 description: "Open one or several files for interactive reading, allowing scrolling and search."
-content_hash: b596ebd9b55e9447d892f5dbd84a9836798c5f7b
-last_modified_at: 2023-11-12
+content_hash: 4f452d470ef04f638a3320855005ba5174c6332f
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # most
@@ -17,7 +17,7 @@ More information: <https://manned.org/most>.
 
 - Open several files:
 
-`most `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>
+`most `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
 - Open a file at the first occurrence of "string":
 

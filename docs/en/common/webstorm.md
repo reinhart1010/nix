@@ -2,8 +2,8 @@
 layout: page
 title: common/webstorm (English)
 description: "The JetBrains JavaScript IDE."
-content_hash: eff96a54b27dbf75977faa5eef07b5892664d862
-last_modified_at: 2023-11-12
+content_hash: 92a3801cfa21b74dcb7b4123bd6e8263eb14691c
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # webstorm
@@ -33,7 +33,7 @@ More information: <https://www.jetbrains.com/help/webstorm/working-with-the-ide-
 
 - Open and compare files (supports up to 3 files):
 
-`webstorm diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>
+`webstorm diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 path/to/optional_file3</span>
 
 - Open and perform a three-way merge:
 

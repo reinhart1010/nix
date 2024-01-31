@@ -2,8 +2,8 @@
 layout: page
 title: linux/aa-enforce (English)
 description: "Set an AppArmor profile to enforce mode."
-content_hash: c5e96d68428c6821a881bec95d839c79a21d140a
-last_modified_at: 2023-11-12
+content_hash: e92453f1f8d7c1901e8193a50f2c18e70f2f97f8
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # aa-enforce
@@ -14,7 +14,7 @@ More information: <https://gitlab.com/apparmor/apparmor/-/wikis/manpage_aa-enfor
 
 - Enable profile:
 
-`sudo aa-enforce `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/profile</span>
+`sudo aa-enforce `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/profile1 path/to/profile2 ...</span>
 
 - Enable profiles:
 

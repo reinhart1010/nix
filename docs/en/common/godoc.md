@@ -1,14 +1,14 @@
 ---
 layout: page
 title: common/godoc (English)
-description: "Show documentation for go packages."
-content_hash: 7f9826036ed0318e763526141c03bfa1c831ed39
-last_modified_at: 2024-01-30
+description: "View documentation for go packages."
+content_hash: db84c30ee92812605403878e558a32875ce348d7
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # godoc
 
-Show documentation for go packages.
+View documentation for go packages.
 More information: <https://godoc.org/>.
 
 - Display help for a specific package:

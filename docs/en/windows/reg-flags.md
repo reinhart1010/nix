@@ -2,8 +2,8 @@
 layout: page
 title: windows/reg-flags (English)
 description: "Display or set flags on registry keys."
-content_hash: eacf959203c1681cc54888b33e1e49fe46b49880
-last_modified_at: 2024-01-30
+content_hash: 79dbf5037bbc7952012f260c5c3f8b030591df88
+last_modified_at: 2024-01-31
 related_topics:
   - title: 中文 version
     url: /zh/windows/reg-flags.html
@@ -19,14 +19,10 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 `reg flags `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span>` query`
 
-- Set specified space-separated flags, and unset unmentioned flags, for a specific key:
+- Set one or more flags, and unset unmentioned flags, for a specific key:
 
-`reg flags `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span>` set `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">flag_names</span>
+`reg flags `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span>` set `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">flag_name1 flag_name2 ...</span>
 
-- Set specified flags for a specific key and its sub keys:
+- Set one or more flags for a specific key and its [s]ub keys:
 
-`reg flags `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span>` set `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">flag_names</span>` /s`
-
-- Display help and available flag types:
-
-`reg flags /?`
+`reg flags `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">key_name</span>` set `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">flag_name1 flag_name2 ...</span>` /s`

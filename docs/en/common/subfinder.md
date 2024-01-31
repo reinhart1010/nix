@@ -2,8 +2,8 @@
 layout: page
 title: common/subfinder (English)
 description: "A subdomain discovery tool that discovers valid subdomains for websites."
-content_hash: 2070ce2bf560efab1dbdd83304b3d9a3aacb88f5
-last_modified_at: 2023-11-12
+content_hash: d40da4f0a9bb687d129aae0c17ff44c267e315ff
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # subfinder
@@ -30,4 +30,4 @@ More information: <https://github.com/subfinder/subfinder>.
 
 - Use a given comma-separated list of resolvers:
 
-`subfinder -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8.8.8.8</span>`,`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">1.1.1.1</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>
+`subfinder -r `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">8.8.8.8,1.1.1.1,...</span>` -d `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">example.com</span>

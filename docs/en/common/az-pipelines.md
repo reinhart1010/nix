@@ -2,8 +2,8 @@
 layout: page
 title: common/az-pipelines (English)
 description: "Manage Azure Pipelines resources."
-content_hash: 7e42f744d25982470c3d0d440e4116c095738cd8
-last_modified_at: 2023-11-12
+content_hash: a1dd57533bbde8f030cc2b594fea040b231ae844
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # az pipelines
@@ -36,6 +36,6 @@ More information: <https://learn.microsoft.com/cli/azure/pipelines>.
 
 `az pipelines update --org `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">organization_url</span>` --project `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">project_name</span>` --name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pipeline_name</span>` --new-name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">pipeline_new_name</span>` --new-folder-path `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user1/production_pipelines</span>
 
-- Get a list of agents in a pool:
+- List all agents in a pool:
 
 `az pipelines agent list --org `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">organization_url</span>` --pool-id `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">agent_pool</span>

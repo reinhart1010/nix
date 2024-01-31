@@ -2,8 +2,8 @@
 layout: page
 title: common/magento (English)
 description: "Manage the Magento PHP framework."
-content_hash: 759629bf285784f1f3b322c68c3c27d2440bf0c4
-last_modified_at: 2023-11-12
+content_hash: 7161775611b790fe82b7c9208ff531b30c9df592
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # magento
@@ -11,13 +11,13 @@ tldri18n_status: 2
 Manage the Magento PHP framework.
 More information: <https://magento.com>.
 
-- Enable one or more space-separated modules:
+- Enable one or more modules:
 
-`magento module:enable `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module(s)</span>
+`magento module:enable `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module1 module2 ...</span>
 
-- Disable one or more space-separated modules:
+- Disable one or more modules:
 
-`magento module:disable `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module(s)</span>
+`magento module:disable `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">module1 module2 ...</span>
 
 - Update the database after enabling modules:
 

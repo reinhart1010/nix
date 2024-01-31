@@ -2,8 +2,12 @@
 layout: page
 title: linux/systemd-mount (English)
 description: "Establish and destroy transient mount or auto-mount points."
-content_hash: 11a3e161226ef813170f5169046714e7ae6f40e2
-last_modified_at: 2023-11-12
+content_hash: 8889cf3571555d2011744282c3d008e8618e926d
+last_modified_at: 2024-01-31
+related_topics:
+  - title: Nederlands version
+    url: /nl/linux/systemd-mount.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # systemd-mount
@@ -19,7 +23,7 @@ More information: <https://www.freedesktop.org/software/systemd/man/systemd-moun
 
 `systemd-mount `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_device</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/mount_point</span>
 
-- Show a list of all local, known block devices with file systems that may be mounted:
+- List all local, known block devices with file systems that may be mounted:
 
 `systemd-mount --list`
 

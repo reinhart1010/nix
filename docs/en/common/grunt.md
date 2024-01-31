@@ -2,8 +2,8 @@
 layout: page
 title: common/grunt (English)
 description: "A JavaScript task runner for automating processes."
-content_hash: 89396e06f82248286da1a8939ebf3677a4a7f3ef
-last_modified_at: 2024-01-30
+content_hash: 881e3e3adb6e534e39abbdcdd0e61dfc4cfe3127
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # grunt
@@ -15,9 +15,9 @@ More information: <https://github.com/gruntjs/grunt-cli>.
 
 `grunt`
 
-- Run one or more specific space-separated task(s):
+- Run one or more tasks:
 
-`grunt `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task_name</span>
+`grunt `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">task1 task2 ...</span>
 
 - Specify an alternative configuration file:
 

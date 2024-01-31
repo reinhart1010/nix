@@ -2,8 +2,8 @@
 layout: page
 title: common/monodis (English)
 description: "The Mono Common Intermediate Language (CIL) disassembler."
-content_hash: 88f32a9532b9ec017e57a12459c8ad107b1aeacc
-last_modified_at: 2023-11-12
+content_hash: 9580017435b1d625bd5bd5603815a25233663b6a
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # monodis
@@ -31,7 +31,7 @@ More information: <https://www.mono-project.com/docs/tools+libraries/tools/monod
 
 `monodis --method `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/assembly.exe</span>
 
-- Show a list of resources embedded within an assembly:
+- List resources embedded within an assembly:
 
 `monodis --manifest `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/assembly.dll</span>
 

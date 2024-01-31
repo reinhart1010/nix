@@ -2,8 +2,8 @@
 layout: page
 title: common/aws-cloud9 (English)
 description: "Manage Cloud9 - a collection of tools to code, build, run, test, debug, and release software in the cloud."
-content_hash: b0eb49f6fbb8aa915755bc350c41a3ee146a70b7
-last_modified_at: 2023-11-12
+content_hash: deaa14ccaec765e70bb4bede391632afb23509e2
+last_modified_at: 2024-01-31
 related_topics:
   - title: 한국어 version
     url: /ko/common/aws-cloud9.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 Manage Cloud9 - a collection of tools to code, build, run, test, debug, and release software in the cloud.
 More information: <https://awscli.amazonaws.com/v2/documentation/api/latest/reference/cloud9/index.html>.
 
-- Get a list of Cloud9 development environment identifiers:
+- List all Cloud9 development environment identifiers:
 
 `aws cloud9 list-environments`
 

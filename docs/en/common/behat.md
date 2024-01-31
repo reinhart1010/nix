@@ -2,8 +2,8 @@
 layout: page
 title: common/behat (English)
 description: "A PHP framework for Behaviour-Driven Development."
-content_hash: 1fc0f3247260a5adaf9bf42d9ad7435142e9227e
-last_modified_at: 2023-11-12
+content_hash: 503ac3df89d3418d0a72e5e2d93a814bce051f40
+last_modified_at: 2024-01-31
 related_topics:
   - title: italiano version
     url: /it/common/behat.html
@@ -41,6 +41,6 @@ More information: <https://behat.org>.
 
 `behat --out `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
 
-- Display a list of definitions in your test suites:
+- List the definitions in your test suites:
 
 `behat --definitions`

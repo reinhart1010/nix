@@ -2,8 +2,8 @@
 layout: page
 title: linux/dracut (English)
 description: "Generate initramfs images to boot the Linux kernel."
-content_hash: d51225e05bd8e346a7090aaca813dbdc01654e6c
-last_modified_at: 2023-11-12
+content_hash: b72f6983041a62887086474ab535d9e18cc6b29d
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # dracut
@@ -24,6 +24,6 @@ More information: <https://github.com/dracutdevs/dracut/wiki>.
 
 `dracut --kver `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">kernel_version</span>
 
-- Show a list of available modules:
+- List available modules:
 
 `dracut --list-modules`

@@ -2,8 +2,8 @@
 layout: page
 title: common/bcomps (English)
 description: "Decompose graphs into their biconnected components."
-content_hash: 85b7c920056abf49d3cbfad2348387494899f4a9
-last_modified_at: 2024-01-30
+content_hash: bf494182926e92d0f7f8960c8d9f98e387798905
+last_modified_at: 2024-01-31
 related_topics:
   - title: 中文 version
     url: /zh/common/bcomps.html
@@ -26,7 +26,7 @@ More information: <https://graphviz.org/pdf/bcomps.1.pdf>.
 
 - Write each block and block-cutvertex tree to multiple numbered filenames based on `output.gv`:
 
-`bcomps -x -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.gv</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input1.gv</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input2.gv ...</span>
+`bcomps -x -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output.gv</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input1.gv path/to/input2.gv ...</span>
 
 - Display help:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/cdk (English)
 description: "A CLI for AWS Cloud Development Kit (CDK)."
-content_hash: af2b98e45c7fa1c4f5f8c2c0ebd58b935b210bfc
-last_modified_at: 2023-11-12
+content_hash: 893188339d305ce9347d0ae23674baccf2a7e1e3
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # cdk
@@ -19,13 +19,13 @@ More information: <https://docs.aws.amazon.com/cdk/latest/guide/cli.html>.
 
 `cdk synth `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stack_name</span>
 
-- Deploy a space-separated list of stacks:
+- Deploy one or more stacks:
 
-`cdk deploy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stack_name</span>
+`cdk deploy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stack_name1 stack_name2 ...</span>
 
-- Destroy a space-separated list of stacks:
+- Destroy one or more stacks:
 
-`cdk destroy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stack_name</span>
+`cdk destroy `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">stack_name1 stack_name2 ...</span>
 
 - Compare the specified stack with the deployed stack or a local CloudFormation template:
 
@@ -33,7 +33,7 @@ More information: <https://docs.aws.amazon.com/cdk/latest/guide/cli.html>.
 
 - Create a new CDK project in the current directory for a specified language:
 
-`cdk init -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">language_name</span>
+`cdk init -l `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">language</span>
 
 - Open the CDK API reference in your browser:
 

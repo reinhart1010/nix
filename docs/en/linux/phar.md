@@ -2,8 +2,8 @@
 layout: page
 title: linux/phar (English)
 description: "Create, update or extract PHP archives (PHAR)."
-content_hash: 59a85df37a7fc1765ebcdc18e4f4c45233e9d8ac
-last_modified_at: 2024-01-30
+content_hash: 00916453fb79fa2ef6c6ec9959882642cf7bdb6a
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # phar
@@ -11,9 +11,9 @@ tldri18n_status: 2
 Create, update or extract PHP archives (PHAR).
 More information: <https://manned.org/phar>.
 
-- Add space-separated files or directories to a Phar file:
+- Add one or more files or directories to a Phar file:
 
-`phar add -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/phar_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">files_or_directories</span>
+`phar add -f `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/phar_file</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory1 path/to/file_or_directory2 ...</span>
 
 - Display the contents of a Phar file:
 

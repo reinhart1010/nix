@@ -2,11 +2,14 @@
 layout: page
 title: common/adguardhome (English)
 description: "A network-wide software for blocking ads & tracking."
-content_hash: b99fd5abef42609b60061fe0abef23ba14f767e5
-last_modified_at: 2023-11-12
+content_hash: 7f551afb024ebc238566f58f8ef39ff0da334e02
+last_modified_at: 2024-01-31
 related_topics:
   - title: français version
     url: /fr/common/adguardhome.html
+    icon: bi bi-globe
+  - title: Indonesia version
+    url: /id/common/adguardhome.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/common/adguardhome.html
@@ -28,7 +31,7 @@ More information: <https://github.com/AdguardTeam/AdGuardHome>.
 
 `AdGuardHome`
 
-- Run AdGuard Home with a specific config:
+- Specify a configuration file:
 
 `AdGuardHome --config `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/AdGuardHome.yaml</span>
 

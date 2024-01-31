@@ -2,8 +2,8 @@
 layout: page
 title: common/parallel (English)
 description: "Run commands on multiple CPU cores."
-content_hash: a4d2177277f5702fc76bca89b5fd0f60c1a656e8
-last_modified_at: 2023-11-12
+content_hash: df3186cc472c45bf878807203cb8293b647398c7
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # parallel
@@ -13,7 +13,7 @@ More information: <https://www.gnu.org/software/parallel>.
 
 - Gzip several files at once, using all cores:
 
-`parallel gzip ::: `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file2</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file3</span>
+`parallel gzip ::: `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
 - Read arguments from `stdin`, run 4 jobs at once:
 

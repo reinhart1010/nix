@@ -2,8 +2,8 @@
 layout: page
 title: common/codespell (English)
 description: "Spellchecker for source code."
-content_hash: bbfef373a25d2ab8c1378114347f608fc9358445
-last_modified_at: 2023-11-12
+content_hash: 15e2e3bd0c382a6ea4e9888fe7573dbe53211eaa
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # codespell
@@ -33,7 +33,7 @@ More information: <https://github.com/codespell-project/codespell>.
 
 - Do not check the specified words:
 
-`codespell --ignore-words-list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">words,to,ignore</span>
+`codespell --ignore-words-list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ignored_word1,ignored_word2,...</span>
 
 - Print 3 lines of context around, before or after each match:
 

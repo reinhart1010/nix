@@ -2,8 +2,8 @@
 layout: page
 title: common/lebab (English)
 description: "A JavaScript modernizer for transpiling code to ES6/ES7."
-content_hash: 06029989d51eb617ad8766360207c60f229b0e37
-last_modified_at: 2024-01-30
+content_hash: 841ddfe3f4075aca0870d9e160faa56a3ca057f9
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # lebab
@@ -14,7 +14,7 @@ More information: <https://github.com/lebab/lebab>.
 
 - Transpile using one or more comma-separated transformations:
 
-`lebab --transform `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">transformation</span>
+`lebab --transform `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">transformation1,transformation2,...</span>
 
 - Transpile a file to `stdout`:
 

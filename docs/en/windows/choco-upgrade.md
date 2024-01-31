@@ -2,8 +2,8 @@
 layout: page
 title: windows/choco-upgrade (English)
 description: "Upgrade one or more packages with Chocolatey."
-content_hash: af306418b740e4de1ff02e3f8074e084991beda9
-last_modified_at: 2023-11-12
+content_hash: 2add3de547acade811d9cc39b9653e8b6b2d0a95
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/windows/choco-upgrade.html
@@ -33,7 +33,7 @@ tldri18n_status: 2
 Upgrade one or more packages with Chocolatey.
 More information: <https://chocolatey.org/docs/commands-upgrade>.
 
-- Upgrade one or more space-separated packages:
+- Upgrade one or more packages:
 
 `choco upgrade `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 ...</span>
 
@@ -47,7 +47,7 @@ More information: <https://chocolatey.org/docs/commands-upgrade>.
 
 - Upgrade all except specified comma-separated packages:
 
-`choco upgrade all --except "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 ...</span>`"`
+`choco upgrade all --except "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1,package2,...</span>`"`
 
 - Confirm all prompts automatically:
 

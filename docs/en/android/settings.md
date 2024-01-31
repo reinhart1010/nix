@@ -2,8 +2,8 @@
 layout: page
 title: android/settings (English)
 description: "Get information about the Android OS."
-content_hash: fee8a73cf943c6bad937662e1acbe182d67d6c2d
-last_modified_at: 2023-11-12
+content_hash: fd9c8e053df930c0f369dc8ad35625bcad5a286c
+last_modified_at: 2024-01-31
 related_topics:
   - title: বাংলা version
     url: /bn/android/settings.html
@@ -28,6 +28,9 @@ related_topics:
     icon: bi bi-globe
   - title: italiano version
     url: /it/android/settings.html
+    icon: bi bi-globe
+  - title: 한국어 version
+    url: /ko/android/settings.html
     icon: bi bi-globe
   - title: Nederlands version
     url: /nl/android/settings.html
@@ -66,7 +69,7 @@ tldri18n_status: 2
 Get information about the Android OS.
 More information: <https://adbinstaller.com/commands/adb-shell-settings-5b670d5ee7958178a2955536>.
 
-- Display a list of settings in the `global` namespace:
+- List the settings in the `global` namespace:
 
 `settings list `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">global</span>
 

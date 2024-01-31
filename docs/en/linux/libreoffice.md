@@ -2,8 +2,8 @@
 layout: page
 title: linux/libreoffice (English)
 description: "CLI for the powerful and free office suite LibreOffice."
-content_hash: 44e404e29edc1d5da5f837d2e6034fa6bcdef28a
-last_modified_at: 2023-11-12
+content_hash: 0c5ac762e8a6e4a6e584fbba6ccc839f23130a17
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # libreoffice
@@ -11,17 +11,17 @@ tldri18n_status: 2
 CLI for the powerful and free office suite LibreOffice.
 More information: <https://www.libreoffice.org/>.
 
-- Open a space-separated list of files in read-only mode:
+- Open one or more files in read-only mode:
 
-`libreoffice --view `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>
+`libreoffice --view `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
-- Display the content of specific files:
+- Display the content of one or more files:
 
-`libreoffice --cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>
+`libreoffice --cat `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
-- Print files to a specific printer:
+- Print files using a specific printer:
 
-`libreoffice --pt `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">printer_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>
+`libreoffice --pt `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">printer_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
 - Convert all `.doc` files in current directory to PDF:
 

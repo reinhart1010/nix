@@ -2,8 +2,8 @@
 layout: page
 title: windows/del (English)
 description: "Delete one or more files."
-content_hash: eda6f28eee95d0d14f6d89fb57956d2eaaeee809
-last_modified_at: 2023-11-12
+content_hash: 54e47db74192f5ddb16df606c1df6bce510bb185
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/windows/del.html
@@ -38,9 +38,9 @@ More information: <https://learn.microsoft.com/windows-server/administration/win
 
 `tldr remove-item`
 
-- Delete one or more space-separated files or patterns:
+- Delete one or more files or patterns:
 
-`del `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_pattern</span>
+`del `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file_pattern1 file_pattern2 ...</span>
 
 - Prompt for confirmation before deleting each file:
 

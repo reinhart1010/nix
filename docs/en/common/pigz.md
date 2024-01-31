@@ -2,8 +2,8 @@
 layout: page
 title: common/pigz (English)
 description: "Multithreaded zlib compression utility."
-content_hash: 8a483797d47d966f58a47077b5ecb7547224cabd
-last_modified_at: 2023-11-12
+content_hash: 3d2ec07f9e2540289a45987481f724943258cddd
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # pigz
@@ -25,7 +25,7 @@ More information: <https://github.com/madler/pigz>.
 
 - Compress a directory using tar:
 
-`tar cf - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` | pigz > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>`.tar.gz`
+`tar cf - `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>` | pigz > `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.tar.gz</span>
 
 - Decompress a file:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/john (English)
 description: "Password cracker."
-content_hash: 7ba92c99a6ee43c878a3007c9e4f32b3e11462fd
-last_modified_at: 2023-11-12
+content_hash: e70c177bfe1242f4d35c45cd39f14b3c4d3c5dd5
+last_modified_at: 2024-01-31
 related_topics:
   - title: français version
     url: /fr/common/john.html
@@ -25,7 +25,7 @@ More information: <https://www.openwall.com/john/>.
 
 - Display users' cracked passwords by user identifier from multiple files:
 
-`john --show --users=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user_ids</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/hashes*</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/other/hashes*</span>
+`john --show --users=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">user_ids</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/hashes1.txt path/to/hashes2.txt ...</span>
 
 - Crack password hashes, using a custom wordlist:
 

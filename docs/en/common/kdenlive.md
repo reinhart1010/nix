@@ -2,8 +2,8 @@
 layout: page
 title: common/kdenlive (English)
 description: "KDE's non-linear video editor."
-content_hash: 73aab613aa72e9fb029a8ed348a584973889ef50
-last_modified_at: 2023-11-12
+content_hash: 906a0bb5b7501863509f44ee81530b3afb0ea35e
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # kdenlive
@@ -17,7 +17,7 @@ More information: <https://manned.org/kdenlive>.
 
 - Open a specific file:
 
-`kdenlive `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>`.kdenlive`
+`kdenlive `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.kdenlive</span>
 
 - Set a specific path for an MLT environment:
 

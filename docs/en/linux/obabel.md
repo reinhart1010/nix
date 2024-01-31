@@ -2,8 +2,8 @@
 layout: page
 title: linux/obabel (English)
 description: "Translate chemistry-related data."
-content_hash: 09c003481f600ec92f98e38680e6ed885f663551
-last_modified_at: 2023-11-12
+content_hash: 5c9f2676c34583bfec98de03fd7a11eb7e0775ce
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # obabel
@@ -25,4 +25,4 @@ More information: <https://openbabel.org/wiki/Main_Page>.
 
 - Render multiple inputs into one picture:
 
-`obabel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>` -O `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.png</span>
+`obabel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>` -O `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_file.png</span>

@@ -2,8 +2,8 @@
 layout: page
 title: common/black (English)
 description: "A Python auto code formatter."
-content_hash: 30f233267509b7284fe654c639ad6c2009261a1c
-last_modified_at: 2023-11-12
+content_hash: ebc8682298a1fe3ec6e1b0c000c3fff134e4580a
+last_modified_at: 2024-01-31
 related_topics:
   - title: italiano version
     url: /it/common/black.html
@@ -26,11 +26,11 @@ More information: <https://black.readthedocs.io/en/stable/usage_and_configuratio
 
 `black -c "`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">code</span>`"`
 
-- Output whether a file or a directory would have changes made to them if they were to be formatted:
+- Show whether a file or a directory would have changes made to them if they were to be formatted:
 
 `black --check `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
 
-- Output changes that would be made to a file or a directory without performing them (dry-run):
+- Show changes that would be made to a file or a directory without performing them (dry-run):
 
 `black --diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file_or_directory</span>
 

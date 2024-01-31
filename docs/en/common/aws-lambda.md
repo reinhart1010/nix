@@ -2,8 +2,8 @@
 layout: page
 title: common/aws-lambda (English)
 description: "CLI for AWS lambda."
-content_hash: f71dfaf813728be77cb0afd691690bbf30437900
-last_modified_at: 2023-11-12
+content_hash: a11162c4553dd0816ca7b51355c0d3948c794c29
+last_modified_at: 2024-01-31
 related_topics:
   - title: français version
     url: /fr/common/aws-lambda.html
@@ -20,11 +20,11 @@ More information: <https://docs.aws.amazon.com/cli/latest/reference/lambda/>.
 
 - Run a function:
 
-`aws lambda invoke --function-name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/response</span>`.json`
+`aws lambda invoke --function-name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/response.json</span>
 
 - Run a function with an input payload in JSON format:
 
-`aws lambda invoke --function-name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>` --payload `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/response</span>`.json`
+`aws lambda invoke --function-name `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">name</span>` --payload `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">json</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/response.json</span>
 
 - List functions:
 

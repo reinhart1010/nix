@@ -2,8 +2,8 @@
 layout: page
 title: windows/cmdkey (English)
 description: "Create, show, and delete stored user names and passwords."
-content_hash: ffc9b43f6ad3cdfb7d38da76ecbd7195190bad1a
-last_modified_at: 2023-11-12
+content_hash: bb6952ff98c199ca91ec32c94b02c6fe9ff3e282
+last_modified_at: 2024-01-31
 related_topics:
   - title: हिन्दी version
     url: /hi/windows/cmdkey.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 Create, show, and delete stored user names and passwords.
 More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/cmdkey>.
 
-- Show a list of all user credentials:
+- List all user credentials:
 
 `cmdkey /list`
 

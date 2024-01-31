@@ -2,8 +2,8 @@
 layout: page
 title: common/brew-bundle (English)
 description: "Bundler for Homebrew, Homebrew Cask and the Mac App Store."
-content_hash: 3a3fa129f38fa9002ed2f3f9f0491d889ae87d1c
-last_modified_at: 2023-11-12
+content_hash: db662617bd98f30f9d15563d4379d12bef081848
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/common/brew-bundle.html
@@ -41,6 +41,6 @@ More information: <https://github.com/Homebrew/homebrew-bundle>.
 
 `brew bundle check`
 
-- Output a list of all entries in the Brewfile:
+- List all entries in the Brewfile:
 
 `brew bundle list --all`

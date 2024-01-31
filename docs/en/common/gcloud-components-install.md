@@ -2,8 +2,8 @@
 layout: page
 title: common/gcloud-components-install (English)
 description: "Install specific components of the Google Cloud CLI, along with their dependencies."
-content_hash: 1e3ecbbfd18015957e986e26bc43750c721ad10b
-last_modified_at: 2023-12-08
+content_hash: 0b8665d9fb88bca6141fad2f21f89a26e6844138
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # gcloud components install
@@ -16,13 +16,9 @@ More information: <https://cloud.google.com/sdk/gcloud/reference/components/inst
 
 `gcloud components list`
 
-- Install a specific component (installs any dependencies as well):
+- Install one or more components (installs any dependencies as well):
 
-`gcloud components install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">component_id</span>
-
-- Install multiple specific components:
-
-`gcloud components install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">component_id1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">component_id2</span>
+`gcloud components install `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">component_id1 component_id2 ...</span>
 
 - Check the current version of Google Cloud CLI:
 

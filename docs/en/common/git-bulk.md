@@ -2,8 +2,12 @@
 layout: page
 title: common/git-bulk (English)
 description: "Execute operations on multiple Git repositories."
-content_hash: 36e6337b5e886d1b0be51b3f6d911f908d5a847b
-last_modified_at: 2023-11-12
+content_hash: 29bfcc3557ba7ed72a5b860b9ad748b4d32b65c7
+last_modified_at: 2024-01-31
+related_topics:
+  - title: Indonesia version
+    url: /id/common/git-bulk.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # git bulk
@@ -26,7 +30,7 @@ More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-
 
 - Clone repositories from a newline-separated list of remote locations then register them as workspaces:
 
-`git bulk --addworkspace `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">workspace-name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">absolute/path/to/root/directory</span>` --from `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">absolute/path/to/file</span>
+`git bulk --addworkspace `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">workspace-name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/root/directory</span>` --from `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">/path/to/file</span>
 
 - List all registered workspaces:
 

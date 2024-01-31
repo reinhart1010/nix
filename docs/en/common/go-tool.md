@@ -2,8 +2,8 @@
 layout: page
 title: common/go-tool (English)
 description: "Run a specific Go tool or command."
-content_hash: 076a67b38ad8aba7b0af3496141c8f7ef43bffc9
-last_modified_at: 2023-11-12
+content_hash: 5de3d0911a52804851aa119f2d213ba85106c5d2
+last_modified_at: 2024-01-31
 related_topics:
   - title: Türkçe version
     url: /tr/common/go-tool.html
@@ -28,6 +28,6 @@ More information: <https://pkg.go.dev/cmd/go#hdr-Run_specified_go_tool>.
 
 `go tool -n `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">arguments</span>
 
-- Display documentation for a specified tool:
+- View documentation for a specified tool:
 
 `go tool `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">command</span>` --help`

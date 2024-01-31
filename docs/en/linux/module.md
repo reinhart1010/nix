@@ -2,8 +2,8 @@
 layout: page
 title: linux/module (English)
 description: "Modify a users' environment using the module command."
-content_hash: 317d79e6250d65f449d88a4d74a74205bbc728de
-last_modified_at: 2023-11-12
+content_hash: 9f110d08945e4a70f2585ec8eed0e3f029829523
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # module
@@ -37,4 +37,4 @@ More information: <https://lmod.readthedocs.io/en/latest/010_user.html>.
 
 - Specify user-created modules:
 
-`module use `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/modulefiles</span>
+`module use `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/module_file1 path/to/module_file2 ...</span>

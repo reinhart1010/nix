@@ -2,8 +2,8 @@
 layout: page
 title: common/gh-gist (English)
 description: "Work with GitHub Gists."
-content_hash: 173eb867209459756150a173637131fc273e6890
-last_modified_at: 2023-11-12
+content_hash: 58ead0b9ceab408c8cc6405fb8dbc688f318f81a
+last_modified_at: 2024-01-31
 related_topics:
   - title: 中文 version
     url: /zh/common/gh-gist.html
@@ -15,7 +15,7 @@ tldri18n_status: 2
 Work with GitHub Gists.
 More information: <https://cli.github.com/manual/gh_gist>.
 
-- Create a new Gist from a space-separated list of files:
+- Create a new Gist from one or more files:
 
 `gh gist create `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 

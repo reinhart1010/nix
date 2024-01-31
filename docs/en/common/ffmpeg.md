@@ -2,8 +2,8 @@
 layout: page
 title: common/ffmpeg (English)
 description: "Video conversion tool."
-content_hash: f4557a700bab7ac268368769b55df65f5ac3e741
-last_modified_at: 2023-12-28
+content_hash: a8b17b268c67fe4b0771d5609a64d44bda505895
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/common/ffmpeg.html
@@ -26,7 +26,7 @@ More information: <https://ffmpeg.org>.
 
 - Extract the sound from a video and save it as MP3:
 
-`ffmpeg -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/video.mp4</span>` -vn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/sound</span>`.mp3`
+`ffmpeg -i `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/video.mp4</span>` -vn `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/sound.mp3</span>
 
 - Save a video as GIF, scaling the height to 1000px and setting framerate to 15:
 

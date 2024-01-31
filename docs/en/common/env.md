@@ -2,14 +2,17 @@
 layout: page
 title: common/env (English)
 description: "Show the environment or run a program in a modified environment."
-content_hash: 49922b5c3430d619cc25b3dda56c6c5e4feef294
-last_modified_at: 2023-11-12
+content_hash: 754f1a401d47bc5f910ebecbc5ab64437d750b39
+last_modified_at: 2024-01-31
 related_topics:
   - title: français version
     url: /fr/common/env.html
     icon: bi bi-globe
   - title: italiano version
     url: /it/common/env.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/env.html
     icon: bi bi-globe
   - title: norsk version
     url: /no/common/env.html
@@ -41,6 +44,6 @@ More information: <https://www.gnu.org/software/coreutils/env>.
 
 `env `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span>
 
-- Set multiple variables and run a program:
+- Set one or more variables and run a program:
 
 `env `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable1</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable2</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">variable3</span>`=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">value</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">program</span>

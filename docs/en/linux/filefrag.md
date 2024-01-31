@@ -2,8 +2,8 @@
 layout: page
 title: linux/filefrag (English)
 description: "Report how badly fragmented a particular file might be."
-content_hash: d56d7e6c4eff1e8787949899f855ff42ed25dc30
-last_modified_at: 2023-11-12
+content_hash: 0e14d2518eba6f73e72b3be9cf1ed8011ba38b2c
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # filefrag
@@ -11,13 +11,9 @@ tldri18n_status: 2
 Report how badly fragmented a particular file might be.
 More information: <https://manned.org/filefrag>.
 
-- Display a report for a specific file:
+- Display a report for one or more files:
 
-`filefrag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>
-
-- Display a report for space-separated list of files:
-
-`filefrag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>
+`filefrag `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
 - Display a report using a 1024 byte blocksize:
 
@@ -25,12 +21,12 @@ More information: <https://manned.org/filefrag>.
 
 - Sync the file before requesting the mapping:
 
-`filefrag -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/files</span>
+`filefrag -s `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
 - Display mapping of extended attributes:
 
-`filefrag -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/files</span>
+`filefrag -x `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
 - Display a report with verbose information:
 
-`filefrag -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/files</span>
+`filefrag -v `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>

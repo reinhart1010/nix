@@ -2,8 +2,8 @@
 layout: page
 title: common/docker-stats (English)
 description: "Display a live stream of resource usage statistics for containers."
-content_hash: cdb5ae61e8ea9ae606e7f06e26a9b949e603a467
-last_modified_at: 2023-11-12
+content_hash: a6e0981584e691bbcd66bb1b801d5494f9eb2fc0
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/common/docker-stats.html
@@ -28,9 +28,9 @@ More information: <https://docs.docker.com/engine/reference/commandline/stats/>.
 
 `docker stats`
 
-- Display a live stream of statistics for a space-separated list of containers:
+- Display a live stream of statistics for one or more containers:
 
-`docker stats `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container_name</span>
+`docker stats `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">container1 container2 ...</span>
 
 - Change the columns format to display container's CPU usage percentage:
 

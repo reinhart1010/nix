@@ -2,8 +2,8 @@
 layout: page
 title: common/clamscan (English)
 description: "A command-line virus scanner."
-content_hash: 552e13bbe79b7ef1e8e8fec8313cb3a7c26b6342
-last_modified_at: 2023-11-12
+content_hash: 2a6fe8ff6ecb1edf99239b206fd5220773129581
+last_modified_at: 2024-01-31
 related_topics:
   - title: Indonesia version
     url: /id/common/clamscan.html
@@ -13,6 +13,9 @@ related_topics:
     icon: bi bi-globe
   - title: 한국어 version
     url: /ko/common/clamscan.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/clamscan.html
     icon: bi bi-globe
   - title: ไทย version
     url: /th/common/clamscan.html
@@ -44,7 +47,7 @@ More information: <https://docs.clamav.net/manual/Usage/Scanning.html#clamscan>.
 
 `clamscan --infected`
 
-- Output the scan report to a log file:
+- Print the scan report to a log file:
 
 `clamscan --log `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/log_file</span>
 

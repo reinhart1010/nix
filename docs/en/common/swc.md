@@ -2,8 +2,8 @@
 layout: page
 title: common/swc (English)
 description: "JavaScript and TypeScript compiler written in Rust."
-content_hash: 2c049196d7a11c09a0676132f0bdf141ebf16b51
-last_modified_at: 2023-11-12
+content_hash: 3f14b86599074592bbe4d085cb2ce7dc01753d0a
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # swc
@@ -33,4 +33,4 @@ More information: <https://swc.rs>.
 
 - Ignore files in a directory specified using glob path:
 
-`swc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_directory</span>` --ignore `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ignored_files</span>
+`swc `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_directory</span>` --ignore `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/ignored_file1 path/to/ignored_file2 ...</span>

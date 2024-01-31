@@ -2,8 +2,8 @@
 layout: page
 title: common/g++ (English)
 description: "Compiles C++ source files."
-content_hash: a2c1a62bf2812909f34ee4007830d786ea3cbac6
-last_modified_at: 2023-12-02
+content_hash: ed326a27573773e9bab0b015b656e221bb490477
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/common/g++.html
@@ -46,7 +46,7 @@ More information: <https://gcc.gnu.org>.
 
 - Compile and link multiple source code files into an executable binary:
 
-`g++ -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source_1.cpp path/to/source_2.cpp ...</span>` && g++ -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_executable</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source_1.o path/to/source_2.o ...</span>
+`g++ -c `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source1.cpp path/to/source2.cpp ...</span>` && g++ -o `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/output_executable</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/source1.o path/to/source2.o ...</span>
 
 - Optimize the compiled program for performance:
 

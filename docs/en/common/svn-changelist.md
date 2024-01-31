@@ -2,8 +2,8 @@
 layout: page
 title: common/svn-changelist (English)
 description: "Associate a changelist with a set of files."
-content_hash: f03c3222ef9529a111b3fab6593e75988deef15e
-last_modified_at: 2023-11-12
+content_hash: 13f56b161179be9b5521f14fda09b8419a6f90e7
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # svn changelist
@@ -25,7 +25,7 @@ More information: <http://svnbook.red-bean.com/en/1.7/svn.advanced.changelists.h
 
 - Add the contents of a space-separated list of directories to a changelist:
 
-`svn changelist --recursive `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">changelist_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory2</span>
+`svn changelist --recursive `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">changelist_name</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1 path/to/directory2 ...</span>
 
 - Commit a changelist:
 

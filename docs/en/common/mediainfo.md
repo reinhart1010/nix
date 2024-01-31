@@ -2,8 +2,8 @@
 layout: page
 title: common/mediainfo (English)
 description: "Display metadata from video and audio files."
-content_hash: ceac1e36b7abefcc9c77a39df2efc0f7df370f84
-last_modified_at: 2023-11-12
+content_hash: e80f7b72a4234f14f9357431fe98590a3ce3cbc6
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # mediainfo
@@ -19,6 +19,6 @@ More information: <https://mediaarea.net/MediaInfo>.
 
 `mediainfo --Logfile=`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">out.txt</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file</span>
 
-- Display the list of metadata attributes that can be extracted:
+- List metadata attributes that can be extracted:
 
 `mediainfo --Info-Parameters`

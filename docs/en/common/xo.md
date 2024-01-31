@@ -2,8 +2,8 @@
 layout: page
 title: common/xo (English)
 description: "A pluggable, zero-configuration linting utility for JavaScript."
-content_hash: c295f055fceff976226e3edd03e8b98b54430326
-last_modified_at: 2023-11-12
+content_hash: b50881d412b832e117ed99d1b07f50b17ebe36ee
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # xo
@@ -17,7 +17,7 @@ More information: <https://github.com/xojs/xo>.
 
 - Lint a given set of files:
 
-`xo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file1</span>`.js `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">file2</span>`.js`
+`xo `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1.js path/to/file2.js ...</span>
 
 - Automatically fix any lint issues found:
 

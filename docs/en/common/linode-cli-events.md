@@ -2,8 +2,8 @@
 layout: page
 title: common/linode-cli-events (English)
 description: "Manage Linode events."
-content_hash: 6a3c3fe2cc3698bad07e7eb27873dcd90d73272d
-last_modified_at: 2023-11-12
+content_hash: 27364a0846d71066bd0571531b4839f79b7079d2
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # linode-cli events
@@ -12,7 +12,7 @@ Manage Linode events.
 See also: `linode-cli`.
 More information: <https://www.linode.com/docs/products/tools/cli/guides/events/>.
 
-- View a list of events on your account:
+- List the events on your account:
 
 `linode-cli events list`
 

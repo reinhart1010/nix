@@ -2,8 +2,8 @@
 layout: page
 title: linux/auracle (English)
 description: "Command-line tool used to interact with Arch Linux's User Repository, commonly referred to as the AUR."
-content_hash: 8e3b0399cb85593d0a8414d976ef67fd57d989fa
-last_modified_at: 2023-11-12
+content_hash: 3d2ed65e4396d9abe5515329218114489023efcb
+last_modified_at: 2024-01-31
 related_topics:
   - title: 中文 version
     url: /zh/linux/auracle.html
@@ -19,13 +19,13 @@ More information: <https://github.com/falconindy/auracle>.
 
 `auracle search '`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">regular_expression</span>`'`
 
-- Display package information for a space-separated list of AUR packages:
+- Display information about one or more AUR packages:
 
-`auracle info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package2</span>
+`auracle info `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 ...</span>
 
-- Display the `PKGBUILD` file (build information) for a space-separated list of AUR packages:
+- Display the `PKGBUILD` file (build information) of one or more AUR packages:
 
-`auracle show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package2</span>
+`auracle show `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">package1 package2 ...</span>
 
 - Display updates for installed AUR packages:
 

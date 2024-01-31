@@ -2,8 +2,8 @@
 layout: page
 title: common/speed-test (English)
 description: "Test your internet connection speed and ping using <https://speedtest.net>."
-content_hash: a33c74921f1bb14c7d0b7b342ffc39531cdc9c62
-last_modified_at: 2023-11-12
+content_hash: 18c38bb4ffe677a9c6ebfdeb8ba328344bc60c02
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # speed-test
@@ -15,14 +15,14 @@ More information: <https://github.com/sindresorhus/speed-test>.
 
 `speed-test`
 
-- Output the results as JSON:
+- Print the results as JSON:
 
 `speed-test --json`
 
-- Output the results in megabytes per second (MBps):
+- Print the results in megabytes per second (MBps):
 
 `speed-test --bytes`
 
-- Output more detailed information:
+- Print more detailed information:
 
 `speed-test --verbose`

@@ -2,8 +2,8 @@
 layout: page
 title: common/hashid (English)
 description: "Python3 program that identifies data and password hashes."
-content_hash: 919017b479448772bba1272cd87dcc237866eccc
-last_modified_at: 2023-11-12
+content_hash: 7890763074f416db472b87a40dbbc988e483e6fe
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # hashid
@@ -15,9 +15,9 @@ More information: <https://github.com/psypanda/hashID>.
 
 `hashid`
 
-- Identify hashes passed as arguments (multiple hashes can be passed):
+- Identify one or more hashes:
 
-`hashid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash</span>
+`hashid `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">hash1 hash2 ...</span>
 
 - Identify hashes on a file (one hash per line):
 

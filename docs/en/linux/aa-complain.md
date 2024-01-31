@@ -2,8 +2,8 @@
 layout: page
 title: linux/aa-complain (English)
 description: "Set an AppArmor policy to complain mode."
-content_hash: d3b0e7b67c7b37a3101d6d951154caf1eb0c5b0f
-last_modified_at: 2023-11-12
+content_hash: 8649f1f05746033b4ee177dae311e8eed06c3cce
+last_modified_at: 2024-01-31
 related_topics:
   - title: Deutsch version
     url: /de/linux/aa-complain.html
@@ -18,7 +18,7 @@ More information: <https://gitlab.com/apparmor/apparmor/-/wikis/manpage_aa-compl
 
 - Set policy to complain mode:
 
-`sudo aa-complain `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/profile</span>
+`sudo aa-complain `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/profile1 path/to/profile2 ...</span>
 
 - Set policies to complain mode:
 

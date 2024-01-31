@@ -2,8 +2,8 @@
 layout: page
 title: common/babel (English)
 description: "A transpiler which converts code from JavaScript ES6/ES7 syntax to ES5 syntax."
-content_hash: 269ecfc8ef7e2cf4280655879c2da6de3606ce06
-last_modified_at: 2024-01-30
+content_hash: 78d0f644440657d85d0074bfdcd87f0a6a4f938d
+last_modified_at: 2024-01-31
 related_topics:
   - title: français version
     url: /fr/common/babel.html
@@ -48,7 +48,7 @@ More information: <https://babeljs.io/>.
 
 - Ignore specified comma-separated files in a directory:
 
-`babel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_directory</span>` --ignore `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ignored_files</span>
+`babel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_directory</span>` --ignore `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">ignored_file1,ignored_file2,...</span>
 
 - Transpile and output as minified JavaScript:
 
@@ -56,7 +56,7 @@ More information: <https://babeljs.io/>.
 
 - Choose a set of presets for output formatting:
 
-`babel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span>` --presets `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">presets</span>
+`babel `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/input_file</span>` --presets `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">preset1,preset2,...</span>
 
 - Display help:
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/pyflakes (English)
 description: "Checks Python source code files for errors."
-content_hash: 65715570b95992478c29a6452d9ff1fb54d34296
-last_modified_at: 2023-11-12
+content_hash: 9ceab1e83ef9c31da5a829f1bb95b1b733cc2572
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # pyflakes
@@ -13,7 +13,7 @@ More information: <https://pypi.org/project/pyflakes>.
 
 - Check a single Python file:
 
-`pyflakes check `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file</span>`.py`
+`pyflakes check `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file.py</span>
 
 - Check Python files in a specific directory:
 

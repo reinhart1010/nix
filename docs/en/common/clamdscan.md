@@ -2,11 +2,14 @@
 layout: page
 title: common/clamdscan (English)
 description: "A command-line virus scanner using the ClamAV Daemon."
-content_hash: 17e481ad03b8e8c2fe03507db6fb6dbbd097cf27
-last_modified_at: 2023-11-12
+content_hash: 8cac9c03804a6db80373217b7052bad9b443e6da
+last_modified_at: 2024-01-31
 related_topics:
   - title: Indonesia version
     url: /id/common/clamdscan.html
+    icon: bi bi-globe
+  - title: Nederlands version
+    url: /nl/common/clamdscan.html
     icon: bi bi-globe
   - title: ไทย version
     url: /th/common/clamdscan.html
@@ -30,7 +33,7 @@ More information: <https://docs.clamav.net/manual/Usage/Scanning.html#clamdscan>
 
 `clamdscan --infected`
 
-- Output the scan report to a log file:
+- Print the scan report to a log file:
 
 `clamdscan --log `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/log_file</span>
 

@@ -2,8 +2,8 @@
 layout: page
 title: common/transmission (English)
 description: "A simple torrent client."
-content_hash: 6f1acf1601f78017bdeaff4442c12f35a3bfc283
-last_modified_at: 2023-11-15
+content_hash: 3a80cfeb43bd3edb452c40038e64bbd270bcd050
+last_modified_at: 2024-01-31
 related_topics:
   - title: العربية version
     url: /ar/common/transmission.html
@@ -97,26 +97,26 @@ A simple torrent client.
 Transmission isn't a command, but a set of commands. See the pages below.
 More information: <https://transmissionbt.com/>.
 
-- Show the tldr page for running Transmission's daemon:
+- View documentation for running Transmission's daemon:
 
 `tldr transmission-daemon`
 
-- Show the tldr page for interacting with the daemon:
+- View documentation for interacting with the daemon:
 
 `tldr transmission-remote`
 
-- Show the tldr page for creating torrent files:
+- View documentation for creating torrent files:
 
 `tldr transmission-create`
 
-- Show the tldr page for modifying torrent files:
+- View documentation for modifying torrent files:
 
 `tldr transmission-edit`
 
-- Show the tldr page for getting info about torrent files:
+- View documentation for getting info about torrent files:
 
 `tldr transmission-show`
 
-- Show the tldr page for the deprecated method for interacting with the daemon:
+- View documentation for the deprecated method for interacting with the daemon:
 
 `tldr transmission-cli`

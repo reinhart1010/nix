@@ -2,8 +2,8 @@
 layout: page
 title: windows/psversiontable (English)
 description: "A read-only variable (as `$PSVersionTable`) to get the current PowerShell version."
-content_hash: 93b974f75b7204107611b4002c9de129076e86d6
-last_modified_at: 2023-11-12
+content_hash: 38d71bb49668d517b6eab4427150282b68a12c2d
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # PSVersionTable
@@ -20,7 +20,7 @@ More information: <https://learn.microsoft.com/powershell/module/microsoft.power
 
 `$PSVersionTable.PSVersion`
 
-- Get a list of supported PowerShell script versions that this PowerShell version supports:
+- List all supported PowerShell script versions that this PowerShell version supports:
 
 `$PSVersionTable.PSCompatibleVersions`
 

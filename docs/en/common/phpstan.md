@@ -2,8 +2,8 @@
 layout: page
 title: common/phpstan (English)
 description: "A PHP static analysis tool to discover bugs in code."
-content_hash: edad4d0d817fad77e41c4a447fb5c68aaa15a893
-last_modified_at: 2024-01-30
+content_hash: 348c5a29f12bb6e93c704c81f4683ea593ed08e4
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # phpstan
@@ -11,9 +11,9 @@ tldri18n_status: 2
 A PHP static analysis tool to discover bugs in code.
 More information: <https://github.com/phpstan/phpstan>.
 
-- Analyze the specified space-separated directories:
+- Analyze one or more directories:
 
-`phpstan analyse `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory</span>
+`phpstan analyse `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1 path/to/directory2 ...</span>
 
 - Analyze a directory using a configuration file:
 

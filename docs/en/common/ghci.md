@@ -2,8 +2,8 @@
 layout: page
 title: common/ghci (English)
 description: "The Glasgow Haskell Compiler's interactive environment."
-content_hash: 70ea74afe54c00303d2c8121752c64b0a88f189d
-last_modified_at: 2023-11-12
+content_hash: 59150e309b948369b3580cbb7a3f8795ee56c9ad
+last_modified_at: 2024-01-31
 related_topics:
   - title: русский version
     url: /ru/common/ghci.html
@@ -33,4 +33,4 @@ More information: <https://downloads.haskell.org/ghc/latest/docs/html/users_guid
 
 - Start a REPL with a colon-separated list of directories for finding source files:
 
-`ghci -i`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1</span>`:`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory2</span>
+`ghci -i`<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/directory1:path/to/directory2:...</span>

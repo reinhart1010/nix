@@ -2,8 +2,8 @@
 layout: page
 title: common/dvc-diff (English)
 description: "Show changes in DVC tracked file and directories."
-content_hash: a6bf1613b1af2e1e972164e90784e8c70ac4c869
-last_modified_at: 2023-11-12
+content_hash: 489f862296b8c294d861c3478a12af1443ea23e0
+last_modified_at: 2024-01-31
 tldri18n_status: 2
 ---
 # dvc diff
@@ -17,7 +17,7 @@ More information: <https://dvc.org/doc/command-reference/diff>.
 
 - Compare the changes in DVC tracked files from 1 Git commit to another:
 
-`dvc diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">revision_b</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">revision_a</span>
+`dvc diff `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">revision1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">revision2</span>
 
 - Compare DVC tracked files, along with their latest hash:
 

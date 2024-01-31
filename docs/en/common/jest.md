@@ -2,8 +2,8 @@
 layout: page
 title: common/jest (English)
 description: "A zero-configuration JavaScript testing platform."
-content_hash: f15a98424ebd9c855874dc5de31e3bcc6a4fab9c
-last_modified_at: 2023-12-27
+content_hash: ae93d44afb38ddcdc4dd4b62b4c08282a94a1f21
+last_modified_at: 2024-01-31
 related_topics:
   - title: français version
     url: /fr/common/jest.html
@@ -21,7 +21,7 @@ More information: <https://jestjs.io>.
 
 - Run the test suites from the given files:
 
-`jest `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>
+`jest `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
 
 - Run the test suites from files within the current and subdirectories, whose paths match the given regular expression:
 

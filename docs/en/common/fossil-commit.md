@@ -2,8 +2,12 @@
 layout: page
 title: common/fossil-commit (English)
 description: "Commit files to a Fossil repository."
-content_hash: 5a98a89daeba13e47ac2ba3221d0d4b3c4f96277
-last_modified_at: 2023-11-12
+content_hash: 0b4fd240727df17df2532f37a23f3d32473ab2fc
+last_modified_at: 2024-01-31
+related_topics:
+  - title: Nederlands version
+    url: /nl/common/fossil-commit.html
+    icon: bi bi-globe
 tldri18n_status: 2
 ---
 # fossil commit
@@ -25,4 +29,4 @@ More information: <https://fossil-scm.org/home/help/commit>.
 
 - Create a new version containing changes from the specified files; user will be prompted for a comment:
 
-`fossil commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1</span>` `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file2</span>
+`fossil commit `<span class="tldr-var badge badge-pill bg-dark-lm bg-white-dm text-white-lm text-dark-dm font-weight-bold">path/to/file1 path/to/file2 ...</span>
